@@ -1,0 +1,44 @@
+<window id="106">
+		<defaultcontrol always="true">1000</defaultcontrol>
+		<include>dialogeffect</include>
+		<controls>
+				<control type="group">
+						<control type="image" id="997">
+								<description>background top image</description>
+								<posx>0</posx>
+								<posy>-50</posy>
+								<width>400</width>
+								<height>50</height>
+								<texture border="40,40,40,0">contextmenu_top.png</texture>
+						</control>
+						<control type="image" id="999">
+								<description>background image</description>
+								<posx>0</posx>
+								<posy>0</posy>
+								<width>400</width>
+								<texture border="40,0,40,0">contextmenu_middle.png</texture>
+						</control>
+						<control type="image" id="998">
+								<description>background bottom image</description>
+								<posx>0</posx>
+								<width>400</width>
+								<height>50</height>
+								<texture border="40,0,40,40">contextmenu_bottom.png</texture>
+						</control>
+				</control>
+				<control type="button" id="1000">
+						<description>button template</description>
+						<posx>43</posx>
+						<posy>40</posy>
+						<width>310</width>
+						<height>35</height>
+						<onup>1000</onup>
+						<font>extra20</font>
+						<align>center</align>
+						<textcolor>white</textcolor>
+						<texturefocus border="3">button-focus2.png</texturefocus>
+						<texturenofocus border="3">button-nofocus.png</texturenofocus>
+						<onfocus condition="Control.IsVisible(3000)">SetFocus(3000)</onfocus>
+				</control>
+		</controls>
+</window>

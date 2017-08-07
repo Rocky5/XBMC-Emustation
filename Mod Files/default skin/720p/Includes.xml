@@ -1,0 +1,206 @@
+<includes>
+		<include file="defaults.xml" />
+		<include file="includes_variables.xml" />
+		<include file="Viewtype_CommonRootView.xml">CommonRootView</include>
+		<constant name="FanartCrossfadeTime">200</constant>
+		<constant name="ThumbCrossfadeTime">100</constant>
+		<include name="CustomSettingsButtons">
+				<width>1170</width>
+				<height>51</height>
+				<font>extra20</font>
+				<textcolor>white</textcolor>
+				<focusedcolor>black</focusedcolor>
+				<texturefocus border="5">thumbfO.png</texturefocus>
+				<texturenofocus border="5">list_seperator_alt.png</texturenofocus>
+		</include>
+		<include name="CommonBackground">
+				<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>720</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">layouts/art/background.png</texture>
+				</control>
+		</include>
+		<include name="CommonOptionsMenuBack">
+				<include>VisibleFadeEffect</include>
+				<visible allowhiddenfocus="true">ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus</visible>
+				<animation effect="slide" start="0,0" end="60,0" time="200" condition="Player.HasMedia">conditional</animation>
+				<posx>60</posx>
+				<posy>45</posy>
+				<control type="image">
+						<description>shadow border</description>
+						<posx>-8</posx>
+						<posy>17</posy>
+						<width>306</width>
+						<height>431</height>
+						<texture border="10">border-shadow.png</texture>
+				</control>
+				<control type="image">
+						<description>Down Arrow</description>
+						<posx>30</posx>
+						<posy>0</posy>
+						<width>40</width>
+						<height>25</height>
+						<texture>arrow-big-up.png</texture>
+				</control>
+				<control type="image">
+						<description>background image</description>
+						<posx>0</posx>
+						<posy>25</posy>
+						<width>290</width>
+						<height>415</height>
+						<texture border="8">subback.png</texture>
+				</control>
+				<control type="image">
+						<description>Overlay image</description>
+						<posx>0</posx>
+						<posy>25</posy>
+						<width>200</width>
+						<height>310</height>
+						<texture>glassoverlay.png</texture>
+				</control>
+				<control type="image">
+						<posx>0</posx>
+						<posy>25</posy>
+						<width>290</width>
+						<height>40</height>
+						<texture>horizontalglow.png</texture>
+				</control>
+		</include>
+		<include name="ScrollOffsetLabel">
+				<control type="group">
+						<visible>Container.Scrolling</visible>
+						<animation effect="slide" start="0,0" end="0,-70" delay="0" time="200">Visible</animation>
+						<animation effect="slide" start="0,-70" end="0,0" delay="100" time="200">Hidden</animation>
+						<control type="image">
+								<posx>70r</posx>
+								<posy>0r</posy>
+								<width>70</width>
+								<height>70</height>
+								<texture border="20,20,20,2">thumbfo.png</texture>
+						</control>
+						<control type="label">
+								<posx>70r</posx>
+								<posy>0r</posy>
+								<width>70</width>
+								<height>70</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>[B]$INFO[ListItem.SortLetter][/B]</label>
+								<textcolor>black</textcolor>
+								<font>extra35</font>
+						</control>
+				</control>
+		</include>
+		<include name="MenuButtonCommonValues">
+				<width>640</width>
+				<height>50</height>
+				<font>extra23</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>menu_deselect_label</textcolor>
+				<focusedcolor>menu_select_label</focusedcolor>
+				<shadowcolor>-</shadowcolor>
+				<textoffsetx>10</textoffsetx>
+				<texturefocus border="5">button-focus4.png</texturefocus>
+				<texturenofocus>button-nofocus4.png</texturenofocus>
+		</include>
+		<include name="MenuFolderButtonCommonValues">
+				<width>640</width>
+				<height>50</height>
+				<font>extra23</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>menu_deselect_label</textcolor>
+				<focusedcolor>menu_select_label</focusedcolor>
+				<shadowcolor>-</shadowcolor>
+				<textoffsetx>10</textoffsetx>
+				<texturefocus border="5">button-focus5.png</texturefocus>
+				<texturenofocus>button-nofocus5.png</texturenofocus>
+		</include>
+		<include name="MenuVolumeButtonCommonValues">
+				<width>640</width>
+				<height>50</height>
+				<font>extra23</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>menu_deselect_label</textcolor>
+				<focusedcolor>menu_select_label</focusedcolor>
+				<shadowcolor>-</shadowcolor>
+				<textoffsetx>10</textoffsetx>
+				<texturefocus border="5">button-focus5_alt.png</texturefocus>
+				<texturenofocus>button-nofocus5_alt.png</texturenofocus>
+		</include>
+		<include name="MenuYesNoButtonCommonValues">
+				<width>100</width>
+				<height>51</height>
+				<font>extra23</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>menu_deselect_label</textcolor>
+				<focusedcolor>menu_select_label</focusedcolor>
+				<shadowcolor>-</shadowcolor>
+				<textoffsetx>0</textoffsetx>
+				<texturefocus border="20,20,20,20">yes_no_focus.png</texturefocus>
+				<texturenofocus border="20,20,20,20">yes_no_nofocus.png</texturenofocus>
+		</include>
+		<include name="ButtonHomeSubCommonValues">
+				<height>37</height>
+				<width>246</width>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>extra20</font>
+				<texturefocus border="5">button-focus2.png</texturefocus>
+				<texturenofocus border="5">-</texturenofocus>
+				<pulseonselect>true</pulseonselect>
+		</include>
+		<include name="ButtonInfoDialogsCommonValues">
+				<height>25</height>
+				<width>200</width>
+				<font>extra20</font>
+				<textcolor>white</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<texturefocus border="2">button-focus2.png</texturefocus>
+				<texturenofocus border="2">button-nofocus.png</texturenofocus>
+				<pulseonselect>no</pulseonselect>
+		</include>
+		<include name="Window_OpenClose_Animation">
+				<animation effect="fade" time="300">WindowOpen</animation>
+				<animation effect="fade" time="300">WindowClose</animation>
+		</include>
+		<include name="dialogeffect">
+				<animation effect="fade" time="200">WindowOpen</animation>
+				<animation effect="fade" time="200">WindowClose</animation>
+		</include>
+		<include name="DialogEffectZoom">
+				<animation type="WindowOpen" reversible="false">
+						<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" delay="200" />
+						<effect type="fade" start="0" end="100" time="300" delay="200" />
+				</animation>
+				<animation type="WindowClose" reversible="false">
+						<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
+						<effect type="fade" start="100" end="0" time="300" />
+				</animation>
+		</include>
+		<include name="ViewVisibleEffect">
+				<animation type="WindowOpen" reversible="false">
+						<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="200" />
+						<effect type="fade" start="0" end="100" time="200" />
+				</animation>
+				<animation type="WindowClose" reversible="false">
+						<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="200" />
+						<effect type="fade" start="100" end="0" time="200" />
+				</animation>
+		</include>
+		<include name="VisibleFadeEffect">
+				<animation effect="fade" time="200">Visible</animation>
+				<animation effect="fade" time="200">Hidden</animation>
+		</include>
+</includes>

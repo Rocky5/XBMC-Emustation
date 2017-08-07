@@ -1,0 +1,83 @@
+<window type="dialog" id="1112">
+		<defaultcontrol always="true">1</defaultcontrol>
+		<controls>
+				<control type="group">
+						<posy>90</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
+								<height>324</height>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>320</posx>
+								<posy>130</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra50</font>
+								<label>$LOCALIZE[32001]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<control type="grouplist" id="9000">
+								<posx>320</posx>
+								<posy>200</posy>
+								<width>640</width>
+								<height>295</height>
+								<onright>9000</onright>
+								<onleft>9000</onleft>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<itemgap>-1</itemgap>
+								<scrolltime>0</scrolltime>
+								<control type="button" id="1">
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>VolumeUp</onright>
+										<onleft>VolumeDown</onleft>
+										<label>[UPPERCASE]$LOCALIZE[13000] $LOCALIZE[13376][/UPPERCASE]</label>
+										<include>MenuVolumeButtonCommonValues</include>
+										<onclick>-</onclick>
+								</control>
+								<control type="radiobutton" id="2">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[24022] $LOCALIZE[15108][/UPPERCASE]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript("Special://xbmc/_scripts/xbmc-emustation/dis-enable sound.py")</onclick>
+										<selected>!Skin.HasSetting(DisabledSound)</selected>
+								</control>
+						</control>
+						<control type="label">
+								<description>.DB label</description>
+								<posx>445r</posx>
+								<posy>200</posy>
+								<width>100</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra23</font>
+								<label>[UPPERCASE]$INFO[Player.Volume][/UPPERCASE]</label>
+								<textcolor>menu_select_label</textcolor>
+								<visible>Control.HasFocus(1)</visible>
+						</control>
+						<control type="label">
+								<description>.DB label</description>
+								<posx>445r</posx>
+								<posy>200</posy>
+								<width>100</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra23</font>
+								<label>[UPPERCASE]$INFO[Player.Volume][/UPPERCASE]</label>
+								<textcolor>menu_deselect_label</textcolor>
+								<visible>!Control.HasFocus(1)</visible>
+						</control>
+				</control>
+		</controls>
+</window>

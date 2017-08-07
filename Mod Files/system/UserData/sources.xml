@@ -1,0 +1,57 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+        <source>
+            <name>Dummy</name>
+            <path pathversion="1">X:\</path>
+        </source>
+        <source>
+            <name>Apps</name>
+            <path pathversion="1">E:\Apps\</path>
+            <path pathversion="1">F:\Apps\</path>
+            <path pathversion="1">G:\Apps\</path>
+            <path pathversion="1">E:\Applications\</path>
+            <path pathversion="1">F:\Applications\</path>
+            <path pathversion="1">G:\Applications\</path>
+        </source>
+        <source>
+            <name>Ports</name>
+            <path pathversion="1">E:\Homebrew\</path>
+            <path pathversion="1">F:\Homebrew\</path>
+            <path pathversion="1">G:\Homebrew\</path>
+        </source>
+        <source>
+            <name>Xbox</name>
+            <path pathversion="1">E:\Games\</path>
+            <path pathversion="1">F:\Games\</path>
+            <path pathversion="1">G:\Games\</path>
+            <path pathversion="1">E:\Games1\</path>
+            <path pathversion="1">F:\Games1\</path>
+            <path pathversion="1">G:\Games1\</path>
+            <path pathversion="1">E:\Games2\</path>
+            <path pathversion="1">F:\Games2\</path>
+            <path pathversion="1">G:\Games2\</path>
+            <path pathversion="1">E:\Jeux\</path>
+            <path pathversion="1">F:\Jeux\</path>
+            <path pathversion="1">G:\Jeux\</path>
+            <path pathversion="1">E:\Jeux1\</path>
+            <path pathversion="1">F:\Jeux1\</path>
+            <path pathversion="1">G:\Jeux1\</path>
+            <path pathversion="1">E:\Jeux2\</path>
+            <path pathversion="1">F:\Jeux2\</path>
+            <path pathversion="1">G:\Jeux2\</path>
+        </source>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+    </files>
+</sources>

@@ -1,0 +1,153 @@
+<window type="dialog" id="1113">
+		<defaultcontrol always="true">1</defaultcontrol>
+		<controls>
+				<control type="group">
+						<posy>17</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
+								<height>470</height>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>320</posx>
+								<posy>130</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra50</font>
+								<label>$LOCALIZE[32002]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<!-- Main Menu -->
+						<control type="grouplist" id="9000">
+								<posx>320</posx>
+								<posy>200</posy>
+								<width>640</width>
+								<height>295</height>
+								<onleft>9000</onleft>
+								<onright>9000</onright>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<itemgap>-1</itemgap>
+								<control type="button" id="1">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32016]</label>
+										<align>center</align>
+										<aligny>center</aligny>
+										<include>MenuButtonCommonValues</include>
+										<onright>Skin.Theme(1)</onright>
+										<onleft>Skin.Theme(-1)</onleft>
+								</control>
+								<control type="label" id="2">
+										<posx>0</posx>
+										<posy>0</posy>
+										<width>640</width>
+										<height>50</height>
+										<font>extra23</font>
+										<label>[UPPERCASE]$INFO[Skin.CurrentTheme][/UPPERCASE]</label>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>menu_deselect_label</textcolor>
+								</control>
+								<control type="radiobutton" id="3">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32017]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(althomelayout)</onclick>
+										<selected>Skin.HasSetting(althomelayout)</selected>
+								</control>
+								<control type="radiobutton" id="4">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32018]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(altcarouselbar)</onclick>
+										<selected>Skin.HasSetting(altcarouselbar)</selected>
+								</control>
+								<control type="radiobutton" id="5">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32019]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(altlabelposition)</onclick>
+										<selected>Skin.HasSetting(altlabelposition)</selected>
+								</control>
+								<control type="radiobutton" id="6">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32020]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(altlabelcolour)</onclick>
+										<selected>Skin.HasSetting(altlabelcolour)</selected>
+								</control>
+								<control type="radiobutton" id="7">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32021]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(althomeanimation)</onclick>
+										<selected>Skin.HasSetting(althomeanimation)</selected>
+								</control>
+								<control type="button" id="8">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32022]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>ActivateWindow(guicalibration)</onclick>
+										<onclick>Dialog.Close(All,true)</onclick>
+								</control>
+						</control>
+						<control type="image">
+								<posx>340</posx>
+								<posy>257</posy>
+								<width>30</width>
+								<height>30</height>
+								<texture>pad_buttons/dpad_left_button.png</texture>
+								<animation effect="fade" delay="200" time="200">visible</animation>
+								<animation effect="fade" delay="0" time="0">hidden</animation>
+								<visible>Control.HasFocus(1)</visible>
+						</control>
+						<control type="image">
+								<posx>370r</posx>
+								<posy>257</posy>
+								<width>30</width>
+								<height>30</height>
+								<texture>pad_buttons/dpad_right_button.png</texture>
+								<animation effect="fade" delay="200" time="200">visible</animation>
+								<animation effect="fade" delay="0" time="0">hidden</animation>
+								<visible>Control.HasFocus(1)</visible>
+						</control>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>195</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-up.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>208r</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-down.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+		</controls>
+</window>

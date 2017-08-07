@@ -1,0 +1,370 @@
+[e95a3dd7,0d77933e]
+Title1=2020_Super_Baseball-Hitting
+Title2=2020_Super_Baseball-Fielding
+
+[2020_Super_Baseball-Hitting]
+1=Left,Select 3rd Base
+2=Right,Select 1st Base
+3=Up,Select 2nd Base
+4=Down,Select Home Base
+5=A,Swing
+6=X,Bunt
+7=B,Lead Off
+8=L,Time Out Menu
+9=R,Time Out Menu
+
+[2020_Super_Baseball-Fielding]
+1=Left,Select 3rd Base
+2=Right,Select 1st Base
+3=Up,Select 2nd Base
+4=Down,Select Home Base
+5=A,Pitching/Throwing/Fine Play
+6=B,Check Runner/Run To Base
+7=L,Time Out Menu
+8=R,Time Out Menu
+
+
+[f2ee11f9,71ee7d95]
+Title1=3_Ninjas_Kick_Back
+
+[3_Ninjas_Kick_Back]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=A,Attack
+6=X,Bomb
+7=Y,Attack
+8=B,Jump
+9=Start,Pause
+
+[27ff5ba1,b5679338]
+Title1=Aaahh!!!_Real_Monsters
+
+[Aaahh!!!_Real_Monsters]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Climb Up
+4=Down,Crouch/Look Down/Climb Down
+5=A,Scare
+6=X,Triple Monster Move
+7=Y,Throw Trash
+8=B,Jump
+9=L,Switch Monster
+10=R,Switch Monster
+11=Start,Pause
+12=Select,Continue Story
+
+[24d4cfe9,e0dc8ad7]
+Title1=ABC_Monday_Night_Football_Menu
+Title2=ABC_Monday_Night_Football_Passing
+Title3=ABC_Monday_Night_Football_Running
+Title4=ABC_Monday_Night_Football_Defensive
+Title5=ABC_Monday_Night_Football_Special_Teams
+Title6=ABC_Monday_Night_Football_Playcalling
+
+[ABC_Monday_Night_Football-Menu]
+1=Left,Navigate Left
+2=Right,Navigate Right
+3=Up,Navigate Up
+4=Down,Navigate Down
+5=A,Reject Selection
+6=B,Confirm Selecting
+
+[ABC_Monday_Night_Football-Passing]
+1=Left,Move Player Left
+2=Right,Move Player Right
+3=Up,Move Player Up
+4=Down,Move Player Down
+5=A,Pass to A
+6=X,Pass to X
+7=Y,Pass to Y
+8=B,Hike Ball
+
+[ABC_Monday_Night_Football-Running]
+1=Left,Move Player Left
+2=Right,Move Player Right
+3=Up,Move Player Up
+4=Down,Move Player Down
+6=Y,Dive
+7=B,Turbo Speed (Tap)
+8=L,Left Spin Move
+9=R,Right Spin Move
+
+[ABC_Monday_Night_Football-Defensive]
+1=Left,Move Player Left
+2=Right,Move Player Right
+3=Up,Move Player Up
+4=Down,Move Player Down
+5=A,Rotate Between Players
+6=Y,Attempt Interception / Tackle
+7=B,Rotate Between Players
+
+[ABC_Monday_Night_Football-Special_Teams]
+1=B,Tap To Increase Kicking Power
+
+[ABC_Monday_Night_Football-Playcalling]
+1=Left,Select Left Play
+2=Right,Select Right Play
+3=Up,Select Top Play
+4=Down,Select Bottom Play
+5=A,Select Right Play
+6=X,Select Top Play
+7=Y,Select Left Play
+8=B,Select Bottom Play
+9=Start,Bring Up Side Menu
+
+
+[0da18a10]
+Title1=Acrobat_Mission
+
+[Acrobat_Mission]
+1=Left,Move Ship Left
+2=Right,Move Ship Right
+3=Up,Move Ship Up
+4=Down,Move Ship Down
+7=Y,Fire (Hold to Charge Beam)
+11=Start,Pause
+
+
+[09097b2b,a27e2664,29a78af9,bee9b30c,eac3358d]
+[40fbc8ac]
+Title1=ActRaiser-Menu
+Title2=ActRaiser-Action_Mode
+Title3=ActRaiser-Simulation_Mode
+Title4=ActRaiser-Palace_In_The_Sky
+
+[ActRaiser-Menu]
+1=Left,Navigate Left
+2=Right,Navigate Right
+3=Up,Navigate Up
+4=Down,Navigate Down
+5=Y,Cancel/Backup
+6=B,Accept
+7=Start,Pause
+
+[ActRaiser-Action_Mode]
+1=Left,Move Left
+2=Right,Move Right
+3=Down,Kneel
+4=A,Use Magic (Also Press Up)
+5=X,Use Magic (Also Press Up)
+6=Y,Attack With Sword
+7=B,Jump
+8=Start,Pause
+9=A+UP,Use Magic
+10=X+UP,Use Magic
+
+[ActRaiser-Simulation_Mode]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=Y,Fire An Arrow
+6=B,Access Menu
+7=Start,Pause
+
+[ActRaiser-Palace_In_The_Sky]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=A,Zoom In
+6=X,Zoom Out
+6=Y,Cancel Command
+7=B,Zoom In
+8=Start,Pause
+
+
+[3cbc264f,630e16a1,4901f718]
+Title1=ActRaiser_2
+
+[ActRaiser_2]
+1=Left,Walk Left
+2=Right,Walk Right
+3=Up,Protect From Above
+4=Down,Protect From Below
+5=A,Jump
+6=X,Attack (Hold For Magic)
+7=Y,Attack (Hold For Magic)
+8=B,Jump
+11=Start,Pause
+
+
+[2e8034ab]
+Title1=Addam's_Family
+
+[Addam's_Family]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Enter/ Climb Up
+4=Down, Duck / Climb Down/ Enter
+5=A,Jump / Swim / Fly
+6=X,Jump / Swim / Fly
+7=Y,Attack
+8=B,Attack
+9=L,Inch to left
+10=R,Inch to right
+11=Start,Pause Game
+12=Select,Quit Level
+13=Up+Y,Stab Up
+
+
+[644e7fbf,153a00a7,f642801d]
+Title1=Addams_Family_PSH
+
+[Addams_Family_PSH]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Enter/ Climb Up
+4=Down, Duck / Climb Down / Enter
+5=A,Jump / Swim / Fly
+6=X,Jump / Swim / Fly
+7=Y,Attack
+8=B,Attack
+9=L,Inch to left
+10=R,Inch to right
+11=Start,Pause Game
+12=Select,Information Screen
+13=Left+Down,Crawl Left
+14=Right+Down,Crawl Right
+
+
+[96b0c568,b3ef81f5,610a1191]
+Title1=Adventures_of_Batman_&_Robin
+
+[Adventures_of_Batman_&_Robin]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Climb Up
+4=Down,Climb Down
+5=A,Use Item
+6=X,Select Item
+7=Y,Attack
+8=B,Jump
+9=L,Guard
+10=R,Guard
+11=Start,Pause
+
+
+[dc8f5734]
+Title1=Adventures_of_Rocky_and_Bullwinkle
+
+[Adventures_of_Rocky_and_Bullwinkle]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=A,Jump
+6=X,Throw Moose Berries/Nut
+7=Y,Tail Spin/Head Bash
+8=B,Jump
+9=Start,Pause
+
+
+[a94a47be]
+Title1=Adventures_of_TinTin
+
+[Adventures_of_TinTin]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=A,Throw Things / Higher Paddle/ Press Switch
+6=X,Push / Dodge / Change Character
+7=Y,Move Faster / Throw Crate Or Box
+8=B,Jump / Shoot Bullets / Lower Paddle
+9=Start,Pause
+
+
+[7448d45c]
+Title1=Adventures_of_Yogi_Bear
+
+[Adventures_of_Yogi_Bear]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=B,Jump
+6=Start,Pause
+
+
+[f194d00a]
+Title1=Aero_Fighters
+
+[Aero_Fighters]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=A,Shoot
+6=B,Use Bomb
+7=Start,Pause
+
+
+[fa0ce63a,919f23cb]
+Title1=Aero_the_Acro-Bat
+
+[Aero_the_Acro-Bat]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=X,Hover / Slide Down Ladder / Grab Tightrope
+6=Y,Secondary Attack (Stars)
+7=B,Jump / Drill Spin Attack
+8=Start,Pause
+9=Left+X,Look Ahead Left
+10=Right+X,Look Ahead Right
+11=Up+B,Climb Faster (Tap Button)
+
+
+[242b8181,8c05ed51]
+Title1=Aero_the_Acro-Bat_2
+
+[Aero_the_Acro-Bat_2]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down / Squat
+5=X,Look Mode
+6=Y,Secondary Attack (Stars)
+7=B,Jump / Drill Spin Attack
+8=R,Slide
+9=Start,Pause
+10=Left+X,Look Ahead Left
+11=Right+X,Look Ahead Right
+12=Up+B,Climb Faster (Tap BUtton)
+
+
+[54302a46]
+Title1=Aerobiz
+
+[Aerobiz]
+1=Left,Move Left
+2=Right,Move Right
+3=Up,Move Up
+4=Down,Move Down
+5=A,Select / Yes
+6=X,Speed Up Number Entry (w up/down)
+7=Y,(main) Switch To Map / Twice to View Company Info
+8=B,Cancel / No
+9=L,Scroll Map Left
+10=R,Scroll Map Right
+11=Start,Pause
+12=Select,View Competitor Company Info
+
+stopped at Al Unser Jr's Road to the Top
+[default]
+1=Left,
+2=Right,
+3=Up,
+4=Down,
+5=A,
+6=X,
+7=Y,
+8=B,
+9=L,
+10=R,
+11=Start,Pause
+12=Select,

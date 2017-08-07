@@ -1,0 +1,162 @@
+<window type="dialog" id="1114">
+		<defaultcontrol always="true">1</defaultcontrol>
+		<onload condition="Skin.HasSetting(menucounters)">Skin.Reset(menucounters)</onload>
+		<onload condition="Skin.HasSetting(menucutcreate)">Skin.Reset(menucutcreate)</onload>
+		<controls>
+				<control type="group">
+						<posy>17</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
+								<height>470</height>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>320</posx>
+								<posy>130</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra50</font>
+								<label>$LOCALIZE[32003]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<!-- Main Menu -->
+						<control type="grouplist" id="9000">
+								<posx>320</posx>
+								<posy>200</posy>
+								<width>640</width>
+								<height>295</height>
+								<onleft>9000</onleft>
+								<onright>9000</onright>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<itemgap>-1</itemgap>
+								<control type="button" id="1">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32030]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,scan_emus,0,0)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+										<onfocus condition="Skin.HasSetting(menucounters)">Skin.Reset(menucounters)</onfocus>
+								</control>
+								<control type="button" id="2">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32031]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create layouts.py)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+										<onfocus condition="Skin.HasSetting(menucounters)">Skin.Reset(menucounters)</onfocus>
+								</control>
+								<!-- refresh counters -->
+								<control type="label" id="5">
+										<posx>320</posx>
+										<posy>130</posy>
+										<width>640</width>
+										<height>50</height>
+										<align>center</align>
+										<aligny>center</aligny>
+										<font>extra23</font>
+										<label>$LOCALIZE[32032]</label>
+										<textcolor>menu_header_label</textcolor>
+								</control>
+								<control type="button" id="6">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; $LOCALIZE[32033]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,0,scan_cuts,0)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+										<animation effect="fade" time="0">hidden</animation>
+								</control>
+								<control type="button" id="7">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; $LOCALIZE[32034]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,0,0,scan_xbes)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+										<animation effect="fade" time="0">hidden</animation>
+								</control>
+								<control type="button" id="8">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; $LOCALIZE[32035]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,0,scan_cuts,scan_xbes)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+										<animation effect="fade" time="0">hidden</animation>
+								</control>
+								<!-- Cut creation -->
+								<control type="label" id="10">
+										<posx>320</posx>
+										<posy>130</posy>
+										<width>640</width>
+										<height>50</height>
+										<align>center</align>
+										<aligny>center</aligny>
+										<font>extra23</font>
+										<label>$LOCALIZE[32036]</label>
+										<textcolor>menu_header_label</textcolor>
+								</control>
+								<control type="button" id="11">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; $LOCALIZE[32037]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create cut files.py,0,auto)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+										<animation effect="fade" time="0">hidden</animation>
+								</control>
+								<control type="button" id="12">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; $LOCALIZE[32038]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create cut files.py,manual,0)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+										<animation effect="fade" time="0">hidden</animation>
+								</control>
+								<control type="button" id="15">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32039]</label>
+										<include>MenuButtonCommonValues</include>
+										<onfocus condition="Skin.HasSetting(menucutcreate)">Skin.Reset(menucutcreate)</onfocus>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/generate thumbs.py)</onclick>
+										<onclick>Dialog.Close(1115,true)</onclick>
+								</control>
+						</control>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>195</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-up.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>208r</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-down.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+		</controls>
+</window>

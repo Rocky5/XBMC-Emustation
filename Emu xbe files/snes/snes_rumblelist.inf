@@ -1,0 +1,2764 @@
+;SNES Rumble Code Database: Created by Mega Man (?)
+;Rumbles by Mega Man (?), Gilles9999 & Guybird
+;683 Rumble codes Total (so far, 7/4/11)
+;
+;If you see:
+;(beta) = I am not 100% happy with the code.
+;For bug reports or update rumble requests,
+;go here: http://www.emuxtras.net/forum/
+
+
+--------------------------------------- # ---------------------------------------
+
+#3 Ninjas Kick Back #71EE7D95,f2ee11f9
+"Rumble on energy loss (player 1)
+30000A2A 0001
+.100,100,300,300,000,001,001,000
+"coin get p1
+30001E5B 0010
+.100,100,060,060,000,001,002,000
+
+#7th Saga #B3ABDDE6,b71b23bb
+"Rumble on energy loss
+30001DC4 000B
+.100,100,250,250,000,001,001,000
+"attack
+30001F04 000E
+.130,130,100,100,000,001,001,000
+
+--------------------------------------- A ---------------------------------------
+
+#Aaahh!!! Real Monsters#B5679338,27ff5ba1,946313fb
+"Rumble when you scare
+300013EC 0002
+.100,100,700,700,000,001,001,000
+"Rumble on energy loss
+30000B7A 0008
+.100,100,200,200,000,001,001,000
+
+#ActRaiser#09097b2b,a27e2664,29a78af9,bee9b30c,eac3358d,40FBC8AC
+"Rumble on energy loss
+3000001D 0004
+.160,160,250,250,000,001,000,000
+"Rumble when enemy hit
+3000001F 0020
+.080,080,120,120,000,001,000,000
+
+#ActRaiser 2#3cbc264f,630e16a1,4901f718,C8391DBA
+"Rumble on energy loss
+3000091D 0012
+.160,160,300,300,000,001,000,000
+
+#Addams Family, The#82497f19,cd80351c,2e8034ab
+"Rumble on energy loss
+300000C3 0001
+.160,160,250,250,000,001,000,000
+"Rumble when enemy hit
+300000A9 0002
+.080,080,130,130,000,001,000,000
+"dollars
+300000AB 0003
+.150,150,160,160,000,001,000,000
+
+#Addams Family Values #AE38ADB6,98B07DB8
+"Rumble on lightning shot
+30001A27 0000
+.055,055,080,080,000,001,002,000
+"Rumble on energy loss
+30000BC0 0005
+.125,125,200,200,000,001,001,000
+
+#Addams Family: Pugsley's Scavenger Hunt, The#9450EF65,644e7fbf,153a00a7,64d68066,F642801D
+"Rumble on energy loss
+30000095 0001
+.160,160,200,200,000,001,000,000
+"Rumble on dollar pickup
+3000004E 0005
+.080,080,130,130,000,001,000,000
+
+#Adventures of Batman & Robin, The#B3EF81F5,96b0c568,b3ef81f5,610A1191
+"Rumble on energy loss
+30000058 001C
+.160,160,200,200,000,001,000,000
+"Rumble when enemy hit
+3000006A 0030
+.080,080,120,120,000,001,000,000
+
+#Adventures of Kid Kleets #1664AE48
+"Rumble on score change
+30000353 0020
+.100,100,050,050,000,001,002,000
+"Rumble on energy loss
+30000399 0001
+.100,100,100,100,000,001,001,000
+
+#Adventures of Dr Franken, The#CFAB3BBA,e4925f15
+"Rumble on energy loss (player 1)
+30000C02 0001
+.100,100,270,270,000,001,001,000
+"Rumble on punch throw (player 1)
+30000C2C 0002
+.200,200,080,080,000,001,001,000
+
+#Adventures of Rocky and Bullwinkle #DC8F5734
+"Rumble on energy loss
+300005CB 0004
+.100,100,300,300,000,001,001,000
+"Rumble for score A
+300005C2 0008
+.100,100,150,150,000,001,002,000
+
+#Aero Fighters #F194D00A
+"Rumble when shooting (player 1)
+3001B7B0 0000
+.100,100,010,010,000,001,000,000
+"Rumble on bomb drop (player 1)
+3001B790 0002
+.100,100,400,400,000,001,000,000
+
+#Air Cavalry #6B452801,b3f57cc6
+"Rumble when shooting rocket (player 1)
+30001220 000A
+.100,100,250,250,000,001,001,000
+"Rumble when shooting machine gun (player 1)
+30001218 0008
+.100,100,000,000,000,001,001,000
+
+#Aladdin#44ff6e78,63069939,a7ad3e5d,1aeb696b,90ee8c61,124d8e4d,52fdfab4
+"Rumble on energy loss
+30000366 0001
+.160,160,200,200,000,001,000,000
+"Rumble when apples thrown
+30000368 0006
+.080,080,120,120,000,001,000,000
+"Rumble on diamond pickup
+3000036A 0003
+.080,080,120,120,000,001,000,000
+
+#Alcahest#9CC9CC01
+"Rumble on attacks
+30001841 0001
+.080,080,120,120,000,001,000,000
+"Rumble on energy loss
+30001858 0002
+.160,160,200,200,000,001,000,000
+"Rumble on SP
+30001860 0003
+.100,100,120,120,000,001,000,000
+
+#Alien III #98E2AC15,378613b0,8a21b63f,77713c95
+"Rumble when shooting machine gun 
+300015D2 0052
+.100,100,030,030,000,001,001,000
+"Rumble when shooting gernade gun
+300015DA 0006
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss
+30001248 0048
+.100,100,300,300,000,001,001,000
+
+#Alien Vs Predator#B23B3201,a31d1f58,1803cf20,2d5876ff
+"Rumble on energy loss (player 1)
+300009A9 0050
+.085,085,250,250,000,001,001,000
+
+#An American Tail - Fievel Goes West #B01D33C0,080ac1b5,eea38aed
+"Rumble when shooting gun
+30000302 0001
+.100,100,150,150,000,001,002,000
+"Rumble on energy loss
+30000304 0002
+.100,100,300,300,000,001,001,000
+
+#Animaniacs #CF0F14D2,c28a80f6,d93e07a8
+"Rumble on coin grab
+30010016 0008
+.100,100,150,150,000,001,002,000
+
+#Ardy Lightfoot #51A5F489,d239398f,2aa7777b,f73a6e33
+"Rumble on star collecting
+30010C34 0009
+.100,100,040,040,000,001,002,000
+
+#Art of Fighting #9FA74067,143051a5
+"Rumble on energy loss (player 1)
+30019307 0000
+.100,100,250,250,000,001,001,000
+
+#Axelay#f43f6743,b0a02734,f812b533,a0677d80
+"Rumble on score change
+30000300 0001
+.100,100,120,120,000,001,000,000
+
+--------------------------------------- B ---------------------------------------
+
+#Ballz 3D #1C058B7D
+"Rumble on energy loss (player 1)
+300002AE 00A7
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30000EBA 004F
+.100,100,250,250,000,002,001,000
+
+#Batman Forever  #3A5E6593,d9b5e9cf,903348f5,6288d8ed
+"Rumble on energy loss
+3000132C 001F
+.150,150,150,150,000,001,000,000
+
+#Batman Returns  #E87DFDF6,424500d7,9ce7d5ba,5bed3661,42f98e71
+"Rumble on energy loss
+3000008A 001A
+.150,150,150,150,000,001,000,000
+"Rumble when you hit enemy
+30000081 0005
+.130,130,150,150,000,001,000,000
+
+#Battle Blaze #D933BD8D,9f2ba6a9,b9cd2ff3
+"Rumble on energy loss
+300006DC 0079
+.100,100,250,250,000,001,001,000
+
+#Battletoads & Double Dragon  #F60ABA70,8b18ac01,043f3773
+"Rumble on energy loss (player 1)
+3000003A 001F
+.150,150,170,170,000,001,000,000
+"Rumble on actions A (player 1)
+3000002B 0050
+.150,150,150,150,000,001,000,000
+
+#Battletoads in Battlemaniacs#bbf1cf8d,48f15b03,617ac925,1783e3a2
+"Rumble on energy loss (player 1)
+3000108e 0001
+.180,180,200,200,000,001,000,000
+"Rumble on Score change (player 1)
+30000021 0002
+.135,135,100,100,000,001,000,000
+"Rumble on life loss (player 1)
+30000028 0003
+.180,180,200,200,000,001,000,000
+"Rumble on Energy loss (player 2)
+30001090 0004
+.180,180,200,200,000,002,000,000
+"Rumble on Score change (player 2)
+30000023 0005
+.135,135,100,100,000,002,000,000
+"Rumble on life lost (player 2)
+3000002a 0006
+.180,180,200,200,000,002,000,000
+"Rumble on pin hit
+30000f0a 0007
+.135,135,100,100,000,001,000,000
+
+#Beauty and the Beast #956E183C,fff9deab,2e70c844
+"Rumble on energy loss
+30001106 0024
+.100,100,300,300,000,001,001,000
+
+#Beavis and Butt-Head #6147EEB8,15cf4bd5,f77f160b
+"Rumble on energy loss (player 1)
+30000222 0003
+.100,100,300,300,000,001,001,000
+"Rumble on gun use (Butthead)
+300018D4 0013
+.100,100,250,250,000,001,001,000
+"Rumble on gun use (Beavis)
+300018D6 0013
+.100,100,250,250,000,001,001,000
+
+#Beethoven's 2nd #BEEBAFA2,4d1352ad
+"Rumble on energy loss
+30000F24 0001
+.100,100,250,250,000,001,001,000
+
+#Bio Metal #53D8410E,8ba3d382,e901a947
+"Rumble when shooting
+3000047E 00B3
+.065,065,080,080,000,001,000,000
+
+#Blackthorne #856BEAB1,b39af3fa,cffaaa21,edf476b3
+"Rumble when shooting shot-gun
+3000032F 0000
+.200,200,100,100,000,001,002,000
+
+#Blazeon #3B01D0A3,ad2effc3
+"Rumble when shooting
+30001003 0098
+.100,100,200,200,000,001,002,000
+
+#Blues Brothers #82B97464,4a62057d,1351da2a,362620d2
+"Rumble on record throw (player 1)
+3000151C 0028
+.100,100,150,150,000,001,001,000
+
+#BOB #0CA04A3C,4f593c46,8d56598b
+"Rumble on energy loss
+30000221 0019
+.100,100,100,100,000,001,001,000
+"Rumble shooting the "three shot"
+30000237 0013
+.100,100,250,250,000,001,001,000
+"Rumble shooting normal gun
+30000236 001E
+.100,100,200,200,000,001,001,000
+
+#Bonkers #597AA981
+"Rumble on energy loss
+3000040E 0002
+.100,100,250,250,000,001,001,000
+"Rumble on bomb throw
+300000DE 0000
+.175,175,100,100,000,001,001,000
+
+#Boogerman - A Pick and Flick Adventure #1899AAFF,4328bd1b
+"Rumble on booger flick
+30000224 000A
+.100,100,080,080,000,001,001,000
+
+#Bram Stoker's Dracula #5CECE690,6e4650a2,9ee3835d
+"Rumble on energy loss
+300001F4 0000
+.125,125,150,150,000,001,001,000
+
+#Brawl Brothers #43B2B4D1,e822065c
+"Rumble on energy loss (player 1)
+30000924 002A
+.100,100,060,060,000,001,001,000
+
+#Brutal - Paws of Fury #8FE49F80,49ad3f9c,2f6326b1
+"Rumble on energy loss (player 1)
+3000156E 0035
+.080,080,040,040,000,001,001,000
+
+#BS F-ZERO Grand Prix 2 #57B1C3ED
+"Rumble on Car collision
+300000C8 0001
+.255,255,200,200,000,001,000,000
+"Rumble on gravel driving
+30000D50 0002
+.150,150,200,200,000,001,000,000
+"Rumble on Turbo use
+30000CF3 0003
+.100,100,255,000,000,000,001,001
+
+#BS Kaizou Choujin Shubibinman Zero #137999CD
+"Rumble on energy loss (player 1)
+30001D74 0001
+.230,230,200,200,000,001,000,000
+"Rumble on attacks (player 1)
+300016AC 0008
+.030,030,070,070,000,001,002,000
+"Rumble on attacks (player 2)
+300016AE 000E
+.030,030,070,070,000,002,002,000
+"Rumble on energy loss (player 2)
+30001D76 0002
+.230,230,200,200,000,002,000,000
+
+#BS zelda Ancient Stone Tablets#
+"Rumble on energy loss
+3000F36F 0004
+.200,200,180,180,000,001,000,000
+"Rumble when collecting rupies
+3000F360 0022
+.100,100,110,110,000,001,000,000
+"Rumble when you attack
+3000003A 0080
+.080,080,080,080,000,001,002,000
+
+#Bubsy II #D0D172FA,e278e9b4
+"Rumble on marble grab
+300034AC 0009
+.100,100,100,100,000,001,002,000
+
+#Bubsy in Claws Encounters #444A52C1,3f3a7180,74a94d60
+"Rumble when collecting balls (score)
+30000219 0005
+.100,100,100,100,000,001,002,000
+
+#Bugs Bunny - Rabbit Rampage #832C0CB6,91b3db54
+"Rumble on energy loss
+300002D6 000C
+.100,100,150,150,000,001,001,000
+
+#Bust-A-Move#3266fd23
+"Rumble on balls explosion player 1
+300008a2 0001
+.255,255,200,200,000,001,000,000
+"Rumble on balls explosion player 2
+300008a4 0002
+.255,255,200,200,000,002,000,000
+
+--------------------------------------- C ---------------------------------------
+
+#Captain America and The Avengers #456AB5C8,acb31f2a
+"Rumble on energy loss (player 1)
+30000225 0079
+.100,100,400,400,000,001,001,000
+
+#Captain Commando #81DB73C7,5b9aa73a,e5423eb6
+"Rumble on energy loss (player 1)
+30000895 0028
+.100,100,200,200,000,001,001,000
+
+#Captain Novolin #9FD460A4
+"Rumble on energy loss
+30000BDA 0001
+.100,100,250,250,000,001,001,000
+
+#Carrier Aces #8BC5B8DE,89b31066,4da4a34f
+"Rumble when firing rockets (player 1)
+3000007B 00CD
+.100,100,270,270,000,001,001,000
+
+#Casper #A3B745BC,696458b3,a7677e65
+"Rumble on energy loss
+30001AB7 0005
+.100,100,250,250,000,001,001,000
+
+#Castlevania - Dracula X#7c4887e1,FF48EB8D,4eede22a,de4be81f,aef0990c
+"Rumble on energy loss
+300000a8 0001
+.165,165,180,180,000,001,000,000
+"Rumble on score change
+300000a0 0002
+.135,135,100,100,000,001,000,000
+"Rumble on heart pickup
+300000a2 0003
+.135,135,100,100,000,001,000,000
+"Rumble on whip attack
+300005a0 0004
+.080,080,100,100,000,001,000,000
+
+#Chester Cheetah - Too Cool to Fool #552BF16A
+"Rumble on energy loss 
+3000014F 0002
+.100,100,220,220,000,001,001,000
+"Rumble when getting paw coins
+30000113 0003
+.125,125,050,050,000,001,002,000
+
+#Choplifter III #227E2D1F,1d2eae52,ad26cc9e,788e42c9,3280c18f
+"Rumble on energy loss
+30000209 0029
+.100,100,200,200,000,001,001,000
+
+#Chrono Trigger#4d014c20,17c9f363,2d206bf7,8A36ED76,17c9f363,f5324375,a9671ea3,a0a7d0ca,40b49574,6afaaa5e,1eb43b3a
+"Rumble on energy loss character 1
+30005e30 0001
+.160,160,200,200,000,001,000,000
+"Rumble on energy loss character 2
+30005eb0 0002
+.160,160,200,200,000,001,000,000
+"Rumble on energy loss character 3
+30005f30 0003
+.160,160,200,200,000,001,000,000
+"Rumble on enemy death
+3000cd00 0004
+.080,080,300,300,000,001,000,000
+
+#Clay Fighter - Tournament Edition #B360F7AF
+"Rumble on energy loss (player 1)
+30003AA8 0003
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30003AAC 0050
+.100,100,250,250,000,002,001,000
+
+#Clay Fighter #9DC15257,c814e3c2,b581e100
+"Rumble on energy loss (player 1)
+30003A8F 0029
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30003A93 0046
+.100,100,250,250,000,002,001,000
+
+#Clay Fighter 2 - Judgement Clay #F3C8468E,20b5c364,caa9abf1
+"Rumble on energy loss (player 1)
+3000181E 0049
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30001027 0047
+.100,100,250,250,000,002,001,000
+
+#Claymates #7AD5CCAC,3a571132,5c00f14c
+"Rumble when collecting gems
+30008617 0008
+.100,100,150,150,000,001,002,000
+
+#Cliffhanger  #12F8A26C,a9e67214
+"Rumble on energy loss
+3000061D 001A
+.150,150,150,150,000,001,000,000
+"Rumble when you hit enemy
+30000BFA 000E
+.130,130,140,140,000,001,001,000
+
+#Congo's Caper #8A24FBA8,549a163e
+"Rumble on star grab
+3000003C 0005
+.100,100,070,070,000,001,002,000
+
+#Cool Spot #05102434,44e60e58,55964905,281244b0,9a14c57d
+"Rumble on getting score "spots"
+300000D2 0005
+.100,100,070,070,000,001,002,000
+
+#Contra III - The Alien Wars#84da7cfe,2EE281DF
+"Rumble on life loss (player 1)
+30001746 0001
+.160,160,250,250,000,001,000,000
+"Rumble on Megabomb use (player 1)
+30001f8c 0002
+.255,255,250,250,000,001,000,000
+"Rumble on enemy hit by (player 1)
+30001fa1 0003
+.130,130,100,100,000,001,000,000
+"Rumble on life loss (player 2)
+30001766 0004
+.160,160,250,250,000,002,000,000
+"Rumble on Megabombs use (player 2)
+30001fcc 0005
+.255,255,250,250,000,002,000,000
+"Rumble on enemy hit by (player 2)
+30001fe0 0006
+.130,130,100,100,000,002,000,000
+
+#Cutthroat Island #19EA457B,b5799f9c
+"Rumble on energy loss
+300009F4 0016
+.100,100,200,200,000,001,001,000
+
+#Cybernatorf#493414b,4dfa05b3,aca397e8
+"Rumble on energy loss
+300001e8 0001
+.255,255,500,500,000,001,000,000
+"Rumble on Score A change
+300001f4 0002
+.180,180,300,300,000,001,000,000
+"Rumble on Score B change
+300001f5 0003
+.180,180,300,300,000,001,000,000
+"Rumble on Missile use
+30000060 0004
+.150,150,200,200,000,001,000,000
+"Rumble on Vulcan use
+3000005c 0005
+.100,100,200,200,000,001,000,000
+"Rumble on Punch 
+30000062 0006
+.100,100,200,200,000,001,000,000
+"Rumble on Napalm use
+30000064 0007
+.255,255,200,200,000,001,000,000
+
+--------------------------------------- D ---------------------------------------
+
+#D-Force #24230807
+"Rumble when shooting (player 1)
+300011DF 0002
+.100,100,100,100,000,001,002,000
+
+#Daffy Duck - The Marvin Missions #5F02A044,f8dee029
+"Rumble when shooting lightning
+30001F2C 0004
+.100,100,300,300,000,001,001,000
+"Rumble when shooting ice-gun
+30001F2A 0025
+.200,200,050,050,000,001,001,000
+"Rumble on energy loss
+30001F0E 0009
+.100,100,300,300,000,001,001,000
+
+#Darius Twin#cf54f1b2,299df5fe,c5341764,B8260115
+"Rumble on Score change (player 1)
+300011bf 0001
+.150,150,200,200,000,001,000,000
+"Rumble on Life loss (player 1)
+300001a0 0002
+.255,255,200,200,000,001,000,000
+"Rumble when Shooting (player 1)
+3000177f 0003
+.100,100,100,100,000,001,000,000
+
+#Deae Tonosama Appare Ichiban #6E42D71B
+"Rumble on energy loss (player 1)
+30000241 0006
+.230,230,350,350,000,001,000,000
+"Rumble when you attack (player 1)
+30000228 0004
+.030,030,110,110,000,001,000,000
+"Rumble on energy loss (player 2)
+30000341 0004
+.230,230,350,350,000,002,000,000
+"Rumble when you attack (player 2)
+30000328 0002
+.030,030,110,110,000,002,000,000
+
+#Death and Return of Superman #A567957C,65792d05
+"Rumble on energy loss
+30000ED2 0030
+.150,150,150,150,000,001,001,000
+"Rumble when shooting eye laser (beta)
+30000039 0000
+.100,100,250,250,000,000,000,000
+
+#Demolition Man #8AFE2F91,31a1b85a
+"Rumble on energy loss
+30009C44 002A
+.100,100,200,200,000,001,001,000
+
+#Demon's Crest #E8236AD2,c8386172
+"Rumble on energy loss
+30001062 0002
+.160,160,150,150,000,001,000,000
+
+#Dennis the Menace #8EE7FAA5,ccda70a8
+"Rumble on energy loss
+30000048 000D
+.100,100,200,200,000,001,001,000
+
+#Desert Strike - Return to the Gulf #4CE26787,fcdf43ca,8eed024a
+"Rumble When shooting machine gun
+3000B0C6 0096
+.100,100,090,090,000,001,001,000
+"Rumble When shooting missles
+3000B10E 0006
+.150,150,250,250,000,001,001,000
+"Rumble When shooting hydras
+3000B0EA 001C
+.120,120,200,200,000,001,001,000
+
+#Dino City #94152717,c495320a
+"Rumble on energy loss
+300016ED 0002
+.100,100,250,250,000,001,001,000
+
+#Doom#360243e4,e5d722b2,09e85ea6
+"Rumble on shooting
+300006fe 0001
+.150,150,200,200,000,001,000,000
+"Rumble on health loss
+30000700 0002
+.200,200,300,300,000,001,000,000
+"Rumble on armor pickup
+30000702 0003
+.200,200,300,300,000,001,000,000
+
+#Donkey Kong Country #7a33e836,17657db6,c946dca0,3eaa5697,762af827,1B98D2DB
+"Rumble on enemy hit
+30001e17 0001
+.130,130,180,180,000,001,000,000
+"Rumble on barrel Explosion
+30000d6d 0002
+.120,120,100,100,000,001,000,000
+"Rumble on Life loss
+30001575 0003
+.160,160,300,300,000,001,000,000
+"Rumble on Banana pickup
+30000b4e 0004
+.080,080,100,100,000,001,000,000
+"Rumble on kong letter pickup
+3000057f 0005
+.150,150,100,100,000,001,000,000
+"Rumble on Rhinoceros attacks
+3000161c 0006
+.200,200,200,200,000,001,000,000
+
+#Donkey Kong Country II#2ea6b7e8,4c794a4d,2eb33785,006364db,4e2d90f4
+"Rumble on Jump
+300016c4 0001
+.100,100,100,100,000,001,000,000
+"Rumble on Cartwheel
+300000d9 0002
+.200,200,100,100,000,001,000,000
+"Rumble on Dixie spin
+300016f2 0003
+.200,200,100,100,000,001,000,000
+"Rumble on banana pickup
+300008bc 0004
+.130,130,100,100,000,001,000,000
+"Rumble on Kill enemy
+300000e1 0005
+.130,130,200,200,000,001,000,000
+
+#Double Dragon V - The Shadow Falls #E27C94D2,98a96ae8,e80f6b65
+"Rumble on energy loss (player 1)
+30000161 001E
+.100,100,090,090,000,001,001,000
+
+#Do-Re-Mi Fantasy - Milon no Dokidoki D #09664695
+"Rumble on music items
+300000F2 0004
+.080,080,100,100,000,001,000,000
+"Rumble when you attack
+3000006A 0002
+.080,080,110,110,000,001,002,000
+
+#Dragon - The Bruce Lee Story #407C5C24,038212ea
+"Rumble on energy loss (player 1)
+300000D9 00D4
+.120,120,200,200,000,001,001,000
+
+#Dragon View #AB893412
+"Rumble on energy loss
+30006FCC 0012
+.075,075,100,100,000,001,001,000
+
+--------------------------------------- E ---------------------------------------
+
+#E #BD44C96D
+"Rumble on energy loss
+300000C5 0016
+.100,100,200,200,000,001,001,000
+
+#Earthworm Jim #5DA51A8B,3a4a47eb,6f8ed108,84ab251b
+"Rumble when shooting main gun
+30000428 00FA
+.100,100,200,200,000,001,001,000
+"Rumble on head whip
+30006614 0000
+.015,015,100,100,000,001,000,000
+
+#Earthworm Jim 2 #5ED2BCF7,393de197,4f961f70
+"Rumble when shooting main gun
+30004711 007D
+.100,100,150,150,000,001,001,000
+"Rumble on head whip (beta)
+30000440 004A
+.255,255,050,050,000,001,002,000
+
+#Equinox  #96A4D1C0,61d22779,a2b15ac4
+"Rumble when hero dies
+30001F2D 0000
+.120,120,140,140,000,001,002,000
+"Rumble when casting magic spell
+30002345 0003
+.100,100,300,300,000,001,000,000
+"Rumble on attacks
+3000137A 005E
+.080,080,120,120,000,001,002,000
+
+--------------------------------------- F ---------------------------------------
+
+#Fatal Fury #C67257D0,f93611c6
+"Rumble on energy loss (player 1)
+30000613 0040
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30000623 0035
+.100,100,250,250,000,002,001,000
+
+#Fatal Fury II #A26EBFEF,304b2610
+"Rumble on energy loss (player 1)
+30001003 0015
+.065,065,050,050,000,001,001,000
+"Rumble on energy loss (player 2)
+30001203 0053
+.065,065,050,050,000,002,001,000
+
+#Fatal Fury Special #926CC144,93935bee,a7f8d832,3effa0f5
+"Rumble on energy loss (player 1)
+3001F761 001D
+.100,100,300,300,000,001,001,000
+"Rumble on energy loss (player 2)
+3001F9FD 0053
+.100,100,300,300,000,002,001,000
+
+#Fire Striker #E500C7BA,bbbbabb6
+"Rumble on energy loss (player 1)
+30001333 0004
+.100,100,200,200,000,001,001,000
+
+#Fighter's History #3D17F6EA,10751e4f,283a57aa
+"Rumble on energy loss (player 1)
+30000A8E 0000
+.100,100,300,300,000,001,001,000
+"Rumble on energy loss (player 2)
+30000B8E 00D0
+.100,100,300,300,000,002,001,000
+
+#Final Fantasy III (VI in japan)#a27f1c7a,c0fa0464,326CF6A2,cab03ad6,25e45043
+"Rumble on energy loss character 1
+30002ed5 0001
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss character 2
+30002ef5 0002
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss character 3
+30002eb5 0003
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss character 4
+30002f15 0004
+.200,200,200,200,000,001,000,000
+"Rumble on enemy death
+30003a77 0005
+.200,200,200,200,000,001,000,000
+"Rumble on doors and chests opening
+3000e077 0006
+.150,150,200,200,000,001,000,000
+
+#Final Fantasy V#FA907BF5,17444605,dacdb14a,f3572d88,8a6fa1cd,04b2af04
+"Rumble on energy loss character 1
+3000382c 0001
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss character 2
+30003834 0002
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss character 3
+3000383c 0003
+.200,200,200,200,000,001,000,000
+
+#Final Fight Guy#de144411,bc1ae3c2
+"Rumble on energy loss
+30000cfe 0001
+.200,200,200,200,000,001,000,000
+
+#Final Fight 2#7b94ca96,f41e1a5a,8c37ff55
+"Rumble on score change (player 1)
+300010a5 0001
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss (player 1)
+3000011e 0002
+.200,200,200,200,000,001,000,000
+"Rumble on score change (player 2)
+3000115d 0003
+.200,200,200,200,000,002,000,000
+"Rumble on energy loss (player 2)
+30000139 0004
+.200,200,200,200,000,002,000,000
+
+#Final Fight 3#aa58a166,a916e708,fb764d87,09497811
+"Rumble on energy loss (player 1)
+30000558 0001
+.200,200,200,200,000,001,000,000
+"Rumble on score change (player 1)
+30000519 0002
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss (player 2)
+30000619 0003
+.200,200,200,200,000,002,000,000
+"Rumble on score change (player 2)
+30000658 0004
+.200,200,200,200,000,002,000,000
+
+#Firepower 2000  #327416D4,70f28a6d,b6d94361
+"Rumble on tank hit enemy
+3000611B 0001
+.200,200,200,200,000,001,000,000
+"Rumble on tank megabombs
+300060D2 0002
+.255,255,500,500,000,001,000,000
+"Rumble on Heli hit enemy
+3000611D 0004
+.200,200,200,200,000,001,000,000
+"Rumble on Heli megabombs
+300060D4 0005
+.255,255,500,500,000,001,000,000
+
+#First Samurai #4F0A1E2A,5685773a,b249401b,9b855ed0
+"Rumble on energy loss
+3000006F 0036
+.075,075,100,100,000,001,001,000
+
+#Flintstones - Treasure of Sierra Madro #594F5CC6,53d29a71,cc846dc4
+"Rumble on energy loss (player 1)
+30001CE8 0002
+.100,100,200,200,000,001,001,000
+
+#Front Mission - Gun Hazard # 2b4cd5a3
+"Rumble when enemy hit
+30000fa4 0001
+.160,160,300,300,000,001,000,000
+"Rumble on energy loss
+300000d6 0002
+.255,255,500,500,000,001,000,000
+"Rumble when shooting
+300000f8 0003
+.130,130,100,100,000,001,000,000
+
+#F-ZERO  #AA0E31DE,f9f30f5c,7681efc1,f1d8f5da,77e10545
+"Rumble on Car collision
+300000C8 0001
+.255,255,200,200,000,001,000,000
+"Rumble on gravel
+30000D50 0002
+.150,150,200,200,000,001,000,000
+"Rumble on Turbo use
+30000CF3 0003
+.100,100,2550,2550,000,001,001,000
+
+--------------------------------------- G ---------------------------------------
+
+#Ghoul Patrol #C555A97B,ea16b5a2,5519af34,2c6cefe7
+"Rumble on energy loss (player 1)
+30001D09 0003
+.100,100,200,200,000,001,001,000
+"Rumble when shooting laser ball (player 1)
+30001D21 0042
+.100,100,330,330,000,001,001,000
+
+#Go Go Ackman II #76C7AA37
+"Rumble on energy loss
+30000120 0002
+.150,150,080,080,000,001,001,000
+
+#Goof Troop #61e8f56a,4fe6077a,aa69ef05,4aafa462
+"Rumble on action (player 1)
+30000103 0001
+.150,150,200,200,000,001,000,000
+"Rumbles on action (player 2)
+30000183 0002
+.150,150,200,200,000,002,000,000
+
+#Gradius III  #CD973979,bca9ab02,c5bcc3ff
+"Rumble on Options
+300000B0 0001
+.200,200,200,200,000,001,000,000
+"Rumble on Score gain
+30001F45 0002
+.155,155,200,200,000,001,000,000
+"Rumble when Shooting
+30000500 0003
+.100,100,200,200,000,001,002,000
+
+#Great Circus Mystery Starring Mick  #1903EA89,7de42137
+"Rumble on Attacks (player 1)
+30000276 0001
+.160,160,200,200,000,001,002,000
+"Rumbles on life loss (player 1)
+30000220 0002
+.200,200,400,400,000,001,000,000
+"Rumble on Atacks (player 2)
+30000376 0003
+.160,160,200,200,000,002,002,000
+"Rumbles on life loss (player 2)
+30000320 0004
+.200,200,400,400,000,002,000,000
+
+#Gunforce - Battle Fire Engulfed Terror #6F5C5DC0,eeafd816,11af8992
+"Rumble when shooting machine gun
+30009018 000D
+.100,100,150,150,000,001,001,000
+
+--------------------------------------- H ---------------------------------------
+
+#Hagane  #8E0A7034,f0bc3837,63245cac,7f6ccf00
+"Rumble on Attacks
+30000516 0001
+.160,160,1200,1200,000,001,000,000
+"Rumble on energy loss
+30000514 0002
+.180,180,500,500,000,001,001,000
+
+#Hamelin no Violin Hiki #54AB6711
+"Rumble on energy loss
+30000870 0004
+.190,190,170,170,000,001,000,000
+"Rumble when collecting gold
+30000B18 0068
+.080,080,110,110,000,001,000,000
+
+#Harley's Humongous Adventure #91E0C960,f52eacd1,07715303
+"Rumble on knife throw (player 1)
+3000AB54 0001
+.140,140,100,100,000,001,001,000
+"Rumble on energy loss (player 1)
+300024BA 0003
+.100,100,300,300,000,001,001,000
+
+#Home Alone #07C494B1,6278bca1,3eeea766
+"Rumble on energy loss
+30000737 0002
+.100,100,250,250,000,001,001,000
+
+#Home Alone 2 - Lost in New York #D19165D9,226998d6
+"Rumble on energy loss
+30001781 0003
+.100,100,250,250,000,001,001,000
+
+#Hook #3596B589,0c572ef0,6f91883e,6679a772,82ff23bc
+"Rumble on energy loss
+3000F7C1 0002
+.100,100,150,150,000,001,001,000
+
+#Hunt for Red October #C796E830,346e153f,76065e37,66ed877a
+"Rumble when shooting front torpedo
+300014D7 0036
+.100,100,250,250,000,001,001,000
+"Rumble when dropping ground bomb
+300014DD 0022
+.100,100,250,250,000,001,001,000
+"Rumble when shooting top torpedos
+300014DB 0014
+.100,100,250,250,000,001,001,000
+"Rumble when shooting front bomb launch
+300014D9 0014
+.200,200,100,100,000,001,001,000
+
+#Hurricanes #42FF4F08,de5f9d73,e6767848
+"Rumble on energy loss (player 1)
+30000D0E 0020
+.100,100,300,300,000,001,001,000
+
+--------------------------------------- I ---------------------------------------
+
+#Ignition Factor #8A5EC378,ee441564
+"Rumble on energy loss
+30000669 000A
+.100,100,250,250,000,001,001,000
+
+#Imperium #2624F8BD
+"Rumble when shooting 
+3000096B 0004
+.080,080,150,150,000,001,000,000
+"Rumble on energy loss
+30000AA8 0001
+.255,255,100,100,000,001,001,000
+"Rumble on rocket attack
+30000A2F 0001
+.130,130,700,700,000,001,001,000
+
+#Incantation #D0FF7E9F,34fad701
+"Rumble on multiple things (beta)
+30000244 001A
+.075,075,100,100,000,001,002,000
+
+#Incredible Crash Dummies #0B6209BA,c3bc16d5,3ee9b136,42ebe9c1
+"Rumble on wrench throw
+300004A0 0002
+.100,100,250,250,000,001,001,000
+"Rumbles on energy loss
+300003B6 0003
+.100,100,300,300,000,001,001,000
+
+#Incredible Hulk #36B5A429
+"Rumble on energy loss
+30000384 002D
+.120,120,200,200,000,001,001,000
+
+#Incredible Hulk #36B5A429,9df29605
+"Rumble on energy loss
+30000384 002D
+.120,120,200,200,000,001,001,000
+
+#Indiana Jones' Greatest Adventures #70DA6BB8,079b9996,fa4560c3
+"Rumble on energy loss
+30000120 0002
+.100,100,250,250,000,001,001,000
+
+--------------------------------------- J ---------------------------------------
+
+#James Bond Jr #69C2F850,7414a4c2
+"Rumble on bomb throw
+3000023B 0016
+.100,100,150,150,000,001,001,000
+"Rumbles on energy loss
+3000024F 0013
+.100,100,200,200,000,001,001,000
+
+#Jetsons #4A4A0369,3e3073ce
+"Rumble when using suckvaccum
+300004A9 0001
+.066,066,150,150,000,001,000,000
+"Rumble on energy loss
+3000109D 0002
+.100,100,300,300,000,001,001,000
+
+#Jim Lee's WildCATS #10C6F5AD
+"Rumble on energy loss
+30000D79 0024
+.065,065,070,070,000,001,001,000
+
+#Joe & Mac #3A2B6167,fb9f19ba,db8447eb,1048576
+"Rumble on energy loss (player 1)
+3000081C 000E
+.100,100,200,200,000,001,001,000
+
+#Joe & Mac 2 - Lost in the Tropics  #0C3B4201,ec7a2ed3
+"Rumble on attacks (player 1)
+30000220 0001
+.100,100,200,200,000,001,002,000
+"Rumble on energy loss (player 1)
+30000232 0002
+.200,200,700,700,000,001,001,000
+"Rumble on Score change (player 1)
+30000230 0003
+.200,200,200,200,000,001,000,000
+"Rumble on attacks (player 2)
+30000260 0004
+.100,100,200,200,000,002,002,000
+"Rumble on energy loss (player 1)
+30000272 0005
+.200,200,700,700,000,002,001,000
+"Rumble on Score change (player 2)
+30000270 0006
+.200,200,200,200,000,002,000,000
+"Rumble getting Special money 
+300016DC 0007
+.200,200,200,200,000,001,000,000
+
+#Judge Dredd #0A3F0288,023fc5de,d7bc8a52,7742b6f4
+"Rumble when shooting/multiple things
+300004B3 0018
+.100,100,150,150,000,001,000,000
+
+#Jungle Book #3511EFB3,bd037a5,ce14892d,392ae185
+"Rumble on energy loss
+3000010B 0002
+.115,115,350,350,000,001,001,000
+
+#Jungle Strike #335487E5,5bdf5a87,fb770320
+"Rumble when shooting hydras
+30011136 0039
+.100,100,250,250,000,001,001,000
+"Rumble when shooting machine gun
+30011138 00E5
+.135,135,080,080,000,001,001,000
+"Rumble when shooting rockets (hell fires)
+30011134 0006
+.150,150,300,300,000,001,001,000
+
+#Jurassic Park II - The Chaos Continues #836EE990,49a6a9f3,8a926d1a
+"Rumble only on shooting machine gun
+3000A9B0 00C1
+.100,100,200,200,000,000,001,000
+"Rumble when shooting most guns
+3000DB3B 002B
+.100,100,200,200,000,001,001,000
+"Rumbles on energy loss
+3000B032 001C
+.100,100,200,200,000,001,001,000
+
+#Justice League Task Force #31CF46D1,50224767,bfa7f180,e81203e0
+"Rumbles on energy loss (player 1)
+30000537 0044
+.075,075,060,060,000,001,001,000
+
+--------------------------------------- K ---------------------------------------
+
+#Kendo Rage #D1048918
+"Rumble on energy loss
+3000148E 0022
+.100,100,200,200,000,001,001,000
+
+#Kid Klown in Crazy Chase #BD6C8AB1,26e0d862,93af89c6
+"Rumble on energy loss
+30000F34 0040
+.100,100,300,300,000,001,001,000
+
+#Killer Instinct #7E309182,09e9a04e,0a2ef2b6,252c1da7,3d7252d4
+"Rumble on energy loss (player 1)
+30000D26 0001
+.100,100,050,050,000,001,001,000
+"Rumble on energy loss (player 2)
+3000129E 0002
+.100,100,050,050,000,002,001,000
+
+#King Arthur & The Knights of Justice #615A183B
+"Rumble on energy loss
+3000107D 002D
+.100,100,300,300,000,001,001,000
+
+#King of Dragons- The #DD505DF7,68b09b12,78f0820b
+"Rumble on energy loss (player 1)
+30000B9A 000C
+.100,100,300,300,000,001,001,000
+
+#King of the Monsters #C285C7FF,825b9607,799b1787
+"Rumble on energy loss (player 1)
+30000A50 00D4
+.100,100,300,300,000,001,001,000
+"Rumble on energy loss (player 2)
+30000B40 00C0
+.100,100,300,300,000,002,001,000
+
+#King Of The Monsters 2 #0CF86F80,0b677a37,b41aeccc
+"Rumble on energy loss (player 1)
+30001A3A 0002
+.065,065,110,110,000,001,001,000
+
+#Kirby Super Star #89D0F7DC,
+"Rumble on energy loss (player 1)
+300000BB 0025
+.180,180,150,150,000,001,000,000
+"Rumble on energy loss (player 2)
+300000BD 002B
+.180,180,150,150,000,002,000,000
+
+#Kishin Douji Zenki - Batoru Raiden #0BECFC92,d910990c
+"Rumble on energy loss
+30000214 0004
+.180,180,180,180,000,001,000,000
+"Rumble on attacks
+30000B00 0000
+.080,080,110,110,000,001,002,000
+
+#Knights of the Round #AAA82126,f27c9c29,9b40082d
+"Rumble on energy loss (player 1)
+30004008 0021
+.100,100,300,300,000,001,001,000
+
+--------------------------------------- L ---------------------------------------
+
+#Last Action Hero #88017DF9,91633d95
+"Rumble on energy loss
+3000033E 0093
+.065,065,060,060,000,001,001,000
+
+#Legend #0cac572f,0a6dd870,42e3774e
+"Rumble when enemy is hit (player 1)
+300012ab 0001
+.160,160,200,200,000,001,000,000
+"Rumble on energy loss (player 1)
+3000130d 0002
+.200,200,400,400,000,001,000,000
+"Rumble when enemy is hit (player 1)
+300012b1 0003
+.160,160,200,200,000,002,000,000
+"Rumble on energy loss (player 2)
+3000130f 0004
+.200,200,400,400,000,002,000,000
+
+#Legend of The Mystical Ninja Th  #82479D6A,5796529e,797724c8
+"Rumble on Attacks (player 1)
+3000059C 0001
+.080,080,100,100,000,001,002,000
+"Rumble on energy loss (player 1)
+30001AB2 0002
+.200,200,200,200,000,001,000,000
+"Rumble when collecting money (player 1)
+30001AAC 0003
+.120,120,100,100,000,001,000,000
+"Rumble on Attacks (player 2)
+300005FC 0004
+.080,080,100,100,000,002,002,000
+"Rumble on energy loss (player 2)
+30001B62 0005
+.200,200,200,200,000,002,000,000
+"Rumble when collecting money (player 2)
+30001B5C 0006
+.120,120,100,100,000,002,000,000
+
+#Legend of Zelda The - A Link to  #777AAC2F,0e473197,df2a3653,70529c31,6a6c2091,1f8c30e8,04d55e12,47760381,4ae09cb1,2a7999f6,b65e3092,eb03f49f
+"Rumble when shooting arrows
+3000F377 0001
+.120,120,100,100,000,001,000,000
+"Rumble on enemy's death
+30000CFB 0004
+.120,120,180,180,000,001,000,000
+"Rumbles on energy loss
+3000F36D 0005
+.160,160,180,180,000,001,000,000
+"Rumble when using magic
+3000F36E 0006
+.120,120,180,180,000,001,000,000
+"Rumble when using or getting Rupies 
+3000F360 0007
+.120,120,100,100,000,001,000,000
+"Rumble when getting Bombs
+3000F343 0002
+.120,120,100,100,000,001,000,000
+"Rumble on bombs explosion
+30000A2C 0003
+.180,180,100,350,094,001,000,000
+"Rumble on actions
+30000354 0008
+.120,120,100,100,000,001,002,000
+
+#Lethal Enforcers #5AFF8CD5,3c948ea6,aa6ee29c
+"Rumble when shooting (player 1)
+30001FC0 0003
+.200,200,080,080,000,001,001,000
+
+#Lethal Weapon #A14C3DBC,13cd7fc1
+"Rumble when shooting gun
+30000220 0002
+.255,255,060,060,000,001,001,000
+
+#Lion King #C8FBFAA8,79a9b2d0,8a46ed37
+"Rumble on energy loss
+30002004 0001
+.150,150,150,150,000,001,001,000
+
+#Lock On #84F7E078
+"Rumble shooting B missile
+300024D8 005E
+.135,135,400,400,000,001,001,000
+"Rumble shooting A missile
+30001115 0050
+.135,135,400,400,000,001,001,000
+"Rumble shooting flare
+30001113 0049
+.200,200,090,090,000,001,001,000
+
+--------------------------------------- M ---------------------------------------
+
+#Magical Pop'n #AC47A435
+"Rumble on energy loss
+3000051A 0003
+.190,190,180,180,000,001,000,000
+"Rumble using magic spell
+30000508 0005
+.100,100,120,120,000,001,000,000
+
+#Magic Sword #66C47421,27325e4d,0b159d53,9e50509f
+"Rumble on energy loss (player 1)
+30000407 0005
+.100,100,250,250,000,001,001,000
+
+#Magical Quest Starring Mickey M  #10874C70
+"Rumble on Atacks
+30001992 0001
+.160,160,100,100,000,001,002,000
+"Rumble on energy loss
+300002B1 0002
+.165,165,180,180,000,001,000,000
+"Rumble on money use
+300002AA 0003
+.120,120,100,100,000,001,000,000
+"Rumble on Score change
+30000366 0004
+.140,140,180,180,000,001,000,000
+
+#Majuu Ou #672A61F2
+"Rumble on energy loss
+3000009F 0016
+.190,190,160,160,000,001,000,000
+"Rumble on attacks
+30000087 0002
+.090,090,110,110,000,001,002,000
+
+#Mario & Wario #B52C3A46,7bc22342,c6695e34
+"Rumble on when coins
+30001C31 0019
+.090,090,110,110,000,001,000,000
+
+#Marvel Super Heroes - War of the Gems #86835067,e86cfe8f,00af56e8,ab628c0c,ac0f2c23
+"Rumble on energy loss
+300003DB 002C
+.100,100,250,250,000,001,001,000
+
+#Mary Shelley's Frankenstein #91415D1E,22e1403f
+"Rumble on energy loss
+300016C4 0056
+.100,100,300,300,000,001,001,000
+
+#Maui Mallard in Cold Shadow #2D3B9662
+"Rumble on energy loss
+30000DD3 0046
+.100,100,250,250,000,001,001,000
+
+#Mechwarrior #40B7A858,d713a74f,503d467a,de2552ad,fba97820
+"Rumble shooting small missile
+3000DB4B 002E
+.100,100,260,260,000,001,001,000
+"Rumbles on energy loss
+300015F6 0006
+.090,090,300,300,000,001,001,000
+
+#Megaman VII #30d835dd,2d947536,03579738
+"Rumble on energy loss
+30000bd1 0001
+.200,200,300,300,000,001,000,000
+"Rumble on megabuster charge
+300007a2 0002
+.100,100,200,200,000,001,000,000
+"Rumble on megabuster decharge
+300010e0 0003
+.165,165,300,300,000,001,000,000
+"Rumble when Shooting megabuster
+30000bc8 0004
+.100,100,200,200,000,001,000,000
+
+#Mega Man X #B2DDE64B,ded53c64,1033eba4,41965122
+"Rumble on energy loss
+30000BCF 0001
+.160,160,180,180,000,001,000,000
+"Rumble on X-buster charge
+30000C02 0002
+.040,040,010,010,000,001,002,000
+"Rumble on X-buster decharge
+30000C25 0003
+.130,130,400,400,000,001,002,000
+
+#Mega Man X2  #994F311C,947B0355,3c49c39c
+"Rumble on energy loss
+300009FF 0001
+.160,160,180,180,000,001,000,000
+"Rumble using x-buster
+30000A0D 0001
+.130,130,100,100,000,001,002,000
+
+#Mega Man X3  #08B9EAA1,fa0fe671,c504ddfd
+"Rumble on energy loss
+300009FF 0001
+.200,200,180,180,000,001,000,000
+"Rumble using X-buster
+300000E9 0001
+.090,090,050,050,000,001,002,000
+"Rumble on X-buster decharge
+300010DB 0003
+.130,130,300,300,000,001,002,000
+
+#Metal Morph #0ADAA9DA
+"Rumble when shooting  (beta)
+30000ADE 005C
+.100,100,250,250,000,001,002,000
+
+#Michael Jordan Chaos in the Windy City #F57DBA3B,8e37db87
+"Rumble on energy loss
+3000141C 0001
+.100,100,250,250,000,001,001,000
+
+#MickeyMania #75fddf27,b6c13316,08806b5b
+"Rumble when collecting balls
+3000060c 0001
+.130,130,100,100,000,001,000,000
+"Rumbles on energy loss
+30000608 0002
+.160,160,180,180,000,001,000,000
+
+#Mickey no Tokyo Disneyland Daibouken #E235F0C6
+"Rumble on energy loss
+30001ABE 0008
+.185,185,150,150,000,001,000,000
+"Rumble on balloon explosion
+300000FF 0000
+.140,140,500,500,000,001,002,000
+
+#Mickey to Donald - Magical Adve #9656424d
+"Rumble on energy loss (player 1)
+3000046f 0001
+.160,160,180,180,000,001,000,000
+"Rumble on money (player 1)
+30000484 0002
+.130,130,100,100,000,001,000,000
+"Rumble on energy loss (player 2)
+3000056f 0003
+.160,160,180,180,000,002,000,000
+"Rumble on money (player 2)
+30000584 0004
+.130,130,100,100,000,002,000,000
+
+#Mighty Max - Adventures of#6FC3C105,4a0e225f,62a7c74b
+"Rumble on energy loss
+30000294 0002
+.100,100,300,300,000,001,001,000
+
+#Mighty Morphin Power Rangers - FE #460B0A60,6fc37d96
+"Rumble on energy loss (player 1)
+300006B0 0045
+.075,075,050,050,000,001,001,000
+
+#Mighty Morphin Power Rangers - Movie #E3EF6201,e722e2a7
+"Rumble on energy loss (player 1)
+30000628 0004
+.100,100,250,250,000,001,001,000
+
+#Mighty Morphin Power Rangers #A56EB77A,812329c2,1df7233c
+"Rumble on energy loss (player 1)
+300004C0 0058
+.100,100,250,250,000,001,001,000
+
+#Mortal Kombat #B3025EA6,def42945,047b3d88,91af0cec,a81657d3
+"Rumble on energy loss (player 1)
+300004BD 003C
+.100,100,250,250,000,000,001,000
+"Rumble on energy loss (player 2)
+300004BB 001F
+.100,100,250,250,000,002,001,000
+
+#Mortal Kombat II #0A6EAB29,70bb5513,1c3d3b72,00dc2d51,1cc0c6ef,fb2d267c
+"Rumble on energy loss (player 1)
+30002EFC 004D
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+300030AA 002D
+.100,100,250,250,000,002,001,000
+
+#Mortal Kombat 3 #4E6AF725,ffcbf355,342bf9d0,ca3ceb0a
+"Rumble on energy loss (player 1)
+30003634 004F
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+300037F6 00A6
+.100,100,250,250,000,002,001,000
+
+#Mr. Nutz  #A99BDD9A,bbf6ac6a,549d03ca,3dadd536,bf4fcdf1
+"Rumble on energy loss
+30000082 000C
+.180,180,160,160,000,001,000,000
+"Rumble when hit enemy
+3000187A 0004
+.130,130,140,140,000,001,000,000
+"Rumble when collecting nuts
+30000A29 0002
+.080,080,100,100,000,001,000,000
+
+#Ms. Pac-Man #A75F7755,74d210d3,37c89424
+"Rumble on eating pellets
+30000268 001F
+.125,125,040,040,000,001,002,000
+
+#Musya #011907A4
+"Rumble on energy loss
+3000101A 000F
+.100,100,250,250,000,001,001,000
+
+--------------------------------------- N ---------------------------------------
+
+#Nankoku Shounen Papuwa-kun #4560D91E
+"Rumble on energy loss
+30000740 0003
+.230,230,250,250,000,001,002,000
+"Rumble on attacks
+300002C0 0017
+.080,080,110,110,000,001,002,000
+
+#NBA Jam #2b8e81c6,fa9a577a,118b162e,43f1c013,8f42cae7,77db831d
+"Rumble when Team 1 scores
+30000ca9 0001
+.250,250,500,500,000,001,000,000
+"Rumble when Team 2 scores
+30000caf 0002
+.250,250,500,500,000,001,000,000
+
+#NBA Jam TE #d48c8041,3c169224,1fbc1ddb,8d7b1828
+"Rumble when Team 1 scores
+30001748 0001
+.250,250,500,500,000,001,000,000
+"Rumble when Team 2 scores
+30000d77 0002
+.250,250,500,500,000,001,000,000
+
+#Ninja Gaiden Trilogy #066FE797
+"Rumble on energy loss (only for ng1)
+30000065 000E
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss (for ng3, turn off for ng2)
+300000A7 000A
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss (only for ng2)
+30000080 0003
+.100,100,200,200,000,001,001,000
+
+#Ninja Warriors #7537D8D7,733764d7
+"Rumble on energy loss
+300018B2 0090
+.100,100,250,250,000,001,001,000
+
+#No Escape #C1082880
+"Rumble on energy loss
+300016C2 002F
+.100,100,250,250,000,001,001,000
+
+--------------------------------------- O ---------------------------------------
+
+#Operation Logic Bomb #65BBE8B4,0f956136
+"Rumble when shooting
+30000EE7 0001
+.100,100,500,500,000,001,002,000
+"Rumble on energy loss
+30000C53 0018
+.100,100,200,200,000,001,001,000
+
+#Operation Thunderbolt #FD88F687,3042b049
+"Rumble when shooting machine gun (player 1)
+300036ED 0012
+.200,200,020,020,000,001,001,000
+"Rumble on energy loss (player 1)
+300036EA 002E
+.100,100,200,200,000,001,001,000
+
+#Oscar #CDF463C0,b458fdbc
+"Rumble on energy loss
+30000320 0001
+.100,100,300,300,000,001,001,000
+
+--------------------------------------- P ---------------------------------------
+
+#Pac-In-Time #EE0FAE49,44375368,bb6b3b1f,98af5de4,348be5ca
+"Rumble when collecting pellets
+30000B03 0024
+.100,100,100,100,000,001,001,000
+"Rumble on energy loss
+30001533 005B
+.100,100,300,300,000,001,001,000
+
+#Packy & Marlon #BAB26E9C
+"Rumble on energy loss (player 1)
+30000C4D 0019
+.100,100,300,300,000,001,001,000
+
+#Paperboy 2 #C85AA66A,282611cd
+"Rumble on paper throw (player 1)
+30000DB0 0005
+.150,150,060,060,000,001,001,000
+
+#Peace Keepers - The #8071E5DB
+"Rumble on energy loss (player 1)
+30000694 0043
+.100,100,060,060,000,001,001,000
+
+#Phantom 2040 #35E8FB28,d498f1d7,14252650
+"Rumble when shooting
+300002B8 001C
+.135,135,080,080,000,001,001,000
+"Rumble on energy loss
+3000044A 0000
+.080,080,060,060,000,001,001,000
+
+#Pinocchio #00FAD8FD,d9f5a47a,2832c824
+"Rumble on energy loss
+300003D8 004F
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (version 2)
+300003D8 0046
+.180,180,180,180,000,001,000,000
+
+#Pirates of Dark Water - The #7CA0CA4D,2bb26c4a,4c4782b5
+"Rumble on energy loss (player 1)
+30000721 003D
+.100,100,200,200,000,001,001,000
+
+#Pitfall - The Mayan Adventure #03E67D38,b10b8804,a81f9778,7e9bc944
+"Rumble on rock throw
+300000A8 0006
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss
+300010C1 0082
+.111,111,250,250,000,001,001,000
+
+#Plok! #BBD678F6,57dcd2a1,edc2befd,e5e84e18,026f2c19
+"Rumble on energy loss
+30000800 003C
+.060,060,070,070,000,001,001,000
+
+#Pocky & Rocky  #2B0E7EA3,99f8d70b,b3f491c6
+"Rumble on attacks (player 1)
+30000F3C 0001
+.070,070,100,100,000,001,002,000
+"Rumble on energy loss (player 1)
+30000068 0002
+.160,160,300,300,000,001,000,000
+"Rumble on Score (player 1)
+30000135 0003
+.130,130,200,200,000,001,000,000
+"Rumble on attacks (player 2)
+30000F3E 0004
+.070,070,100,100,000,002,002,000
+"Rumble on energy loss (player 2)
+30000069 0005
+.160,160,300,300,000,002,000,000
+"Rumble on Score (player 2)
+30000139 0006
+.130,130,200,200,000,002,000,000
+
+#Power Instinct #CB8A4F8E,5f6e06ee
+"Rumble on energy loss (player 1)
+30001225 0074
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss (player 2)
+30001227 008A
+.100,100,400,400,000,002,001,000
+
+#Power Moves #C2E094B5
+"Rumble on energy loss (player 1)
+30000848 000B
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss (player 2)
+30000849 003A
+.100,100,200,200,000,002,001,000
+
+#Power Piggs of the Dark Age #E945530D,81da4b6a,87afc187
+"Rumble on disk throw
+30001502 0006
+.100,100,150,150,000,001,001,000
+
+#Prehistorik Man  #CB4F87BB,b0e4e48a
+"Rumble on attacks
+300000B8 0001
+.100,100,200,200,000,001,002,000
+"Rumble on bones
+30000560 0002
+.130,130,130,130,000,001,000,000
+"Rumble on energy loss
+30000558 0003
+.200,200,400,400,000,001,000,000
+"Rumble when shooting
+3000056C 0004
+.200,200,2000,2000,000,001,001,000
+
+#Primal Rage #D4B868EA,227fbe4d,3753e4b6,75eef329
+"Rumble on energy loss (player 1)
+30001A06 009E
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+300019E4 0042
+.075,075,050,050,000,002,001,000
+
+#Psycho Dream #5C145E98
+"Rumble on energy loss
+30001E40 000C
+.200,200,170,170,000,001,000,000
+"Rumble using super power
+30001E59 0001
+.100,100,2000,2000,000,001,001,000
+"Rumble on powerup
+30001E2B 0001
+.100,100,130,130,000,001,000,000
+"Rumble on score change
+30000AEE 0080
+.070,070,100,100,000,001,000,000
+
+--------------------------------------- Q ---------------------------------------
+
+
+
+--------------------------------------- R ---------------------------------------
+
+#Radical Rex #E2B8DA18,9b5d585d,5065b197
+"Rumble when blowing fire
+30001E14 0001
+.085,085,500,500,000,001,002,000
+"Rumble when collecting rocks
+30001E4E 0021
+.150,150,050,050,000,001,002,000
+
+#Realm #0744BA5B,9be46820
+"rumble when shooting gun
+30000094 0001
+.185,185,040,040,000,001,002,000
+"Rumble on energy loss
+3000132B 0004
+.130,130,150,150,000,001,001,000
+
+#Ren & Stimpy Show - Buckeroos! #723959E7,672ebf39
+"Rumble on energy loss
+3000180F 0002
+.125,125,150,150,000,001,001,000
+
+#Ren & Stimpy Show - Fire Dogs #0B472197
+"Rumble on energy loss
+300000E5 0030
+.070,070,040,040,000,001,001,000
+
+#Ren & Stimpy Show - Veediots! #A893E64B,fd1c12a3,06ddbb0d
+"Rumble on energy loss
+30000807 0002
+.125,125,150,150,000,001,001,000
+
+#Revolution X #0DC5E7BA,b5939fdc,59d0f587,f6b0eaa9
+"Rumble when shooting (player 1)
+30001A18 0001
+.125,125,030,030,000,001,002,000
+"Rumble when shooting cds (player 1)
+3000304E 0003
+.175,175,100,100,000,001,001,000
+
+#Rise of the Robots #83BA0AC0,0be1de31,09f827a5,8d4e7082
+"Rumble on energy loss (player 1)
+30000E44 0049
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30000E52 0051
+.100,100,250,250,000,002,001,000
+
+#Rival Turf #CA988F59,e8a6b3d1
+"Rumble on energy loss (player 1)
+30000217 0037
+.130,130,100,100,000,001,001,000
+
+#River City Ransom 2 #293279AF
+"Rumble on energy loss (player 1)
+3000010E 000A
+.160,160,150,150,000,001,000,000
+"Rumble on attacks (player 1)
+30000F41 0001
+.140,140,140,140,000,001,002,000
+
+#Road Runner's Death Valley Rally #1A79A127,5980d75d
+"Rumble on energy loss
+30001F1E 0001
+.100,100,250,250,000,001,001,000
+
+#Robocop 3 #3502F9B3,5f2c7031
+"Rumble when shootng gun
+30001848 0090
+.200,200,050,050,000,001,001,000
+"Rumble on energy loss
+30000477 002D
+.150,150,090,090,000,001,001,000
+
+#Robocop vs Terminator #F5AB5D91,beebef08
+"Rumble on energy loss
+300010C5 0000
+.100,100,200,200,000,001,001,000
+
+#Run Saber #8708E5BB,2820f702
+"Rumble on energy loss
+30001F3A 0000
+.120,120,200,200,000,001,001,000
+
+#Rockman & Forte #0ecdc493
+"Rumble on energy loss
+30000bbb 0001
+.160,160,180,180,000,001,000,000
+"Rumble on ExplosIons
+300010c0 0002
+.130,130,200,200,000,001,000,000
+"Rumble on Items use
+30000b9c 0003
+.135,135,100,100,000,001,000,000
+"Rumble shooting Megablast
+30000bb5 0004
+.160,160,300,300,000,001,000,000
+"Rumbles when Shooting megabuster
+30000bb4 0005
+.100,100,100,100,000,001,000,000
+
+#R-Type III - The Third Lightnin  #642B656B,1e1ff9fe,2a5f8d8f,5a183e62
+"Rumble when enemy hit "A"
+300003B0 0001
+.100,100,200,200,000,001,000,000
+"Rumble when enemy hit "B"
+300003B1 0002
+.100,100,200,200,000,001,000,000
+"Rumble on energy loss
+300003b7
+.250,250,500,500,000,001,000,000
+"Rumble on megablast charge
+30000094 0003
+.060,060,200,200,000,001,002,000
+"Rumble on megablast decharge
+3000194D 0004
+.250,250,200,200,000,001,000,000
+"Rumble when shooting
+3000195D 0005
+.070,070,100,100,000,001,002,000
+
+--------------------------------------- S ---------------------------------------
+
+#Samurai Shodown #2E614A53,e0adf929
+"Rumble on energy loss (player 1)
+30006214 0065
+.075,075,050,050,000,001,001,000
+"Rumble on energy loss (player 2)
+30006614 003A
+.075,075,050,050,000,002,001,000
+
+#Saturday Night Slam Masters #54161830,a3876f76
+"Rumble on energy loss (player 1)
+30000879 00BE
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30000A79 00A5
+.100,100,250,250,000,001,001,000
+
+#SeaQuest DSV #A6579E03,dca75893
+"front torpedos
+30010036 002E
+.100,100,200,200,000,001,001,000
+"back bombs
+30010046 0016
+.145,145,100,100,000,001,001,000
+"armor loss
+30000CC2 008E
+.100,100,350,350,000,001,001,000
+
+#Secret of Evermore #e168d085,7425bb91,27f60e77,7bfe934f,a5c0045e,b6864d63,c3dae00a
+"Rumble on Hero energy loss
+30004eb3 0001
+.200,200,300,300,000,001,000,000
+"Rumble on Dog energy loss
+30004f61 0002
+.200,200,300,300,000,002,000,000
+"Rumble when Hero Attacks
+30000eb9 0003
+.130,130,200,200,000,001,000,000
+"Rumble when Dog Attacks
+30004f47 0004
+.130,130,200,200,000,002,000,000
+
+#Secret of Mana #c5cb2f26,de112322,6be4ca95,e9334b9e,b069bb3a,d0176b24
+"Rumble on energy loss (player 1)
+3000e182 0001
+.200,200,300,300,000,001,000,000
+"Rumble on energy loss (player 2)
+3000e382 0002
+.200,200,300,300,000,002,000,000
+"Rumble when gaining Experience
+3000e18d 0003
+.150,150,900,900,000,001,000,000
+
+#Shaq Fu #52916C9D,e14b00ef,ddd55e27
+"Rumble on energy loss (player 1)
+300001BC 0013
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+300001E9 003B
+.100,100,250,250,000,002,001,000
+
+#Shien's Revenge #5BB2E6C3,c56d245f
+"Rumble on energy loss
+3000011D 000C
+.125,125,200,200,000,001,001,000
+
+#Skuljagger - Revolt of the Westicans #E58A6D01,f320424a
+"Rumble when you lose life
+300002B8 0002
+.100,100,400,400,000,001,001,000
+
+#Skyblazer #F13B00B0,cef3e26c,1594a363,4a25d0c8
+"Rumble on Attacks
+3000f002 0001
+.100,100,120,120,000,001,000,000
+"Rumble on getting Diamonds
+30001f0e 0002
+.120,120,100,100,000,001,000,000
+"Rumble on enemys death
+30000168 0003
+.150,150,150,150,000,001,000,000
+"Rumble on energy loss
+3000200a 0004
+.200,200,300,300,000,001,000,000
+"Rumble on Magic use
+30001f0d 0005
+.150,150,150,150,000,001,000,000
+"Rumble when performing chi slash
+30001F0D 0002
+.100,100,500,500,000,001,001,000
+
+#Smart Ball #3CFE77AB
+"Rumble on energy loss
+30001E7C 0001
+.100,100,250,250,000,001,001,000
+
+#Snow White in Happily Ever After #D68D1AB3
+"Rumble on health loss
+30000224 002C
+.100,100,200,200,000,001,001,000
+
+#Soldiers of Fortune #CF719A93
+"Rumble on energy loss (player 1)
+300040F0 000B
+.100,100,200,200,000,001,001,000
+
+#Sonic Blast Man #8886396E
+"Rumble on energy loss (player 1)
+30000F9F 003E
+.100,100,200,200,000,001,001,000
+
+#Sonic Blast Man II #a51a7096
+"Rumble on attacks (player 1)
+30000db2 0001
+.200,200,200,200,000,001,000,000
+"Rumble on energy loss (player 1)
+30000da5 0002
+.200,200,400,400,000,001,000,000
+"Rumble on attacks (player 2)
+30000db6 0003
+.200,200,200,200,000,002,000,000
+"Rumble on energy loss (player 2)
+30000da7 0004
+.200,200,400,400,000,002,000,000
+
+#Soul Blazer #54370191,20157693,fe28d2c1,31b965db,9b8198fa
+"Rumble on energy loss
+30001b88 0001
+.200,200,180,180,000,001,000,000
+"Rumble on enemy's death
+30000a65 0002
+.130,130,100,100,000,001,000,000
+
+#Space Megaforce #11202781
+"Rumble on explosions 
+30000089 0001
+.130,130,100,100,000,001,000,000
+"Rumble using Megabombs
+30000338 0002
+.250,250,900,900,000,001,000,000
+"Rumble when shooting
+30001049 0003
+.100,100,100,100,000,001,000,000
+
+#Sparkster #40D11C94,f5a2a976,f43c155c
+"Rumble on Attacks
+300006B0 0001
+.100,100,100,100,000,001,002,000
+"Rumble on collecting Diamonds
+3000016A 0002
+.130,130,100,100,000,001,000,000
+"Rumble when using Turbo
+30000074 0004
+.170,170,500,500,000,001,000,000
+
+#Spawn #4E1DAFD0,5c104dbf,0ca0b84f
+"Rumble on energy loss
+30001F00 004C
+.125,125,250,250,000,001,001,000
+
+#Speedy Gonzales - Los Gatos Bandidos #CB0653D0,e44f42ba,e2dbad76,efe9e087
+"Rumble when collecting cheese
+300008DE 002F
+.115,115,060,060,000,001,002,000
+
+#Spider-Man & the X-Men in Arcade's Rev #AE878CCB,d679058d,6fd2cd8c
+"Rumble on energy loss
+300010F8 005C
+.100,100,200,200,000,001,001,000
+
+#Spider-Man #C99E174E,dc57fc0b,02c52d37
+"Rumble using web shot
+30000122 0029
+.140,140,040,040,000,001,000,000
+"Rumble on energy loss
+3000074B 000C
+.100,100,250,250,000,001,001,000
+
+#Spider-Man & Venom - Maximum Carnage #7EF2BB0C,1362465b,d2b0d5fe
+"Rumble on energy loss
+30000B7C 0018
+.165,165,070,070,000,001,001,000
+
+#Spider-Man & Venom - Separation Anxiety #cd274974,919c509d
+"Rumble on Attacks A (player 1)
+300019f7 0001
+.200,200,100,100,000,001,000,000
+"Rumble on Attacks B (player 1)
+300019f9 0002
+.200,200,100,100,000,001,000,000
+"Rumble on Attacks C (player 1)
+300019fb 0003
+.200,200,100,100,000,001,000,000
+"Rumble on energy loss (player 1)
+300009e1 0004
+.200,200,200,200,000,001,000,000
+"Rumble on Attacks A (player 2)
+30001a03 0005
+.200,200,100,100,000,002,000,000
+"Rumble on Attacks B (player 2)
+30001a05 0006
+.200,200,100,100,000,002,000,000
+"Rumble on Attacks C (player 2)
+30001a07 0007
+.200,200,100,100,000,002,000,000
+"Rumble on energy loss (player 2)
+30000a5a 0008
+.200,200,200,200,000,002,000,000
+
+#Star Fox #41a60b3f,0bae0941,8fc4e6d0,18dd8af2
+"Rumble when using MegaBomb
+300015ad 0001
+.250,250,200,200,000,001,000,000
+"Rumble on energy loss
+30000396 0002
+.200,200,200,200,000,001,000,000
+
+#Stargate #526CE576,2bb45263,24bbddf8,af4d4439
+"Rumble on gernade throw
+300002E0 0002
+.100,100,300,300,000,001,001,000
+"Rumble on energy loss
+300002D0 004B
+.100,100,250,250,000,001,001,000
+
+#Stone Protectors #A7E58592,ff47c49e
+"Rumble on energy loss (player 1)
+300013CC 0082
+.100,100,200,200,000,001,001,000
+
+#Street Combat #1969BBD9,4a4c657e
+"Rumble on energy loss (player 1)
+3000114D 0055
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30001205 0024
+.100,100,250,250,000,001,001,000
+
+#Street Fighter Alpha 2 #2F109101,9c59ddff
+"Rumble on energy loss (player 1)
+3000073E 002C
+.100,100,400,400,000,001,001,000
+"Rumble on energy loss (player 2)
+300009BE 005B
+.100,100,400,400,000,002,001,000
+
+#Street Fighter II - The World Warrior #8B93F566,5556c5c9,bc3dcd9d,b470eee2,472e4701,
+"Rumble on energy loss (player 1)
+30000C2B 0031
+.100,100,400,400,000,001,001,000
+"Rumble on energy loss (player 2)
+30000E2B 0026
+.100,100,400,400,000,002,001,000
+
+#Street Fighter II Turbo - Hyper Fight #ED0366F2,a45cadd6,364087e5,abbc185d,a3ee22e5
+"Rumble on energy loss (player 1)
+3000052F 0041
+.100,100,400,400,000,001,001,000
+"Rumble on energy loss (player 2)
+3000072F 004A
+.100,100,400,400,000,002,001,000
+
+#Sunset Riders #52ada404,64edfc5d
+"Rumble on explosions (player 1)
+30001f4a 0001
+.130,130,100,100,000,001,000,000
+"Rumble on energy loss (player 1)
+30001fba 0002
+.170,170,500,500,000,001,000,000
+"Rumble when Shooting (player 1)
+3000014c 0003
+.100,100,100,100,000,001,002,000
+"Rumble on explosions (player 2)
+30001f52 0004
+.130,130,100,100,000,002,000,000
+"Rumble on energy loss (player 2)
+30001fbc 0005
+.170,170,500,500,000,002,000,000
+"Rumble when Shooting (player 2)
+3000014e 0006
+.100,100,100,100,000,002,002,000
+
+#Super Back to the Future Part II #B367D0B9
+"Rumble on energy loss
+3000009A 0001
+.180,180,150,150,000,001,000,000
+"Rumble when collecting gold
+3000009C 0003
+.080,080,120,120,000,001,000,000
+
+#Super Battletank - War in the Gulf #77811B34,2ce0c852,fe7de9ce,c53b82cd
+"Rumble when shooting cannon
+3000049E 002D
+.230,230,140,140,000,001,001,000
+
+#Super Battletank 2 #70A292D6,d3802a47,8321c8cd,198ffcdb
+"Rumble when shooting cannon
+300010E3 004C
+.230,230,140,140,000,001,001,000
+
+#Super Bomberman 2 #f805c7f8,9c1f11e4,fb259f4f,c60a4191
+"Rumble when player 1 dies
+30008052 0001
+.250,250,900,900,000,001,000,000
+"Rumble when player 2 dies
+30008152 0002
+.250,250,900,900,000,002,000,000
+"Rumble when player 3 dies
+30008252 0003
+.250,250,900,900,000,003,000,000
+"Rumble when player 4 dies
+30008352 0004
+.250,250,900,900,000,004,000,000
+
+#Super Bonk #60D5B748,5688b581
+"Rumble on energy loss
+3000101C 000B
+.100,100,200,200,000,001,001,000
+
+#Super Castlevania IV#9FB4A172,b64ffb12,5d40cb37
+"Rumbles on candles
+30000500 0001
+.130,130,100,100,000,001,000,000
+"Rumble on energy
+300013f4 0002
+.180,180,200,200,000,001,000,000
+"Rumble on Environment
+3000067e 0003
+.060,060,100,100,000,001,000,000
+"Rumble on hearts
+300013f2 0004
+.100,100,100,100,000,001,000,000
+"Rumble on Score
+30001f40 0005
+.130,130,100,100,000,001,000,000
+"Rumble on whip attacks
+30000201 0006
+.100,100,150,150,000,001,002,000
+
+#Super Double Dragon #1EE60147,09ed12a5,1064e0e0,b3f6009b
+"Rumble on energy loss (player 1)
+300011D6 0041
+.075,075,050,050,000,001,001,000
+
+#Super Earth Defense Force #ca8ff946,3e631524,404bec17
+"Rumble on explosions
+30000158 0001
+.180,180,300,300,000,001,000,000
+"Rumble losing lives
+30000181 0002
+.250,250,800,800,000,001,000,000
+"Rumble when Shooting
+30000373 0003
+.100,100,200,200,000,001,000,000
+
+#Super Ghouls 'N Ghosts #c0935420,6aaba901,a00bc05e
+"Rumble on attacks
+300002bf 0001
+.100,100,200,200,000,001,002,000
+"Rumble on explosions
+30000298 0002
+.100,100,400,400,000,001,000,000
+"Rumble losing lives
+3000044b 0003
+.160,160,300,300,000,001,000,000
+
+#Super Mario AllStars #925ffa69,925637c7,303205d8,f84305b1,c0998849,114dcff9
+"Rumble shooting fire balls
+300006ce 0001
+.100,100,100,100,000,001,002,000
+"Rumble on actions A (Mario 1)
+300007d2 0002
+.100,100,100,100,000,001,000,000
+"Rumble on actions B (Mario 1)
+30001728 0003
+.100,100,100,100,000,001,000,000
+"Rumble on actions C (Mario 1)
+300007d1 0004
+.100,100,100,100,000,001,000,000
+"Rumble when collecting cherrys (Mario 2)
+3000062a 0005
+.100,100,100,100,000,001,000,000
+"Rumble on energy loss (Mario 2)
+300004c3 0006
+.180,180,180,180,000,001,000,000
+"Rumble getting vegetables (Mario 2)
+3000009c 0007
+.100,100,100,100,000,001,000,000
+"Rumble on actions (mario 3)
+30000717 0008
+.100,100,100,100,000,001,000,000
+
+#Super Mario Kart #56410e5e,c8002453,cd80db86,01793fd5,06a0e18c,15d48819,9b8a1a99,20716b66
+"Rumble when collecting coins (player 1)
+30000e00 0001
+.100,100,100,100,000,001,000,000
+"Rumble on energy loss (player 1)
+30000e00 0002
+.180,180,180,180,000,001,000,000
+"Rumble when using items (player 1)
+30000d70 0003
+.070,070,150,150,000,001,000,000
+"Rumble when jumping (player 1)
+300011e3 0004
+.070,070,100,100,000,001,000,000
+"Rumble on smoke (player 1)
+30001e44 0005
+.090,090,200,200,000,001,000,000
+"Rumble when collecting coins (player 2)
+30000e02 0006
+.100,100,100,100,000,002,000,000
+"Rumble on energy loss (player 2)
+30000e02 0007
+.180,180,180,180,000,002,000,000
+"Rumble when using items (player 2)
+30000d72 0008
+.070,070,150,150,000,002,000,000
+"Rumble when jumping (player 2)
+30001011 0009
+.070,070,100,100,000,002,000,000
+"Rumble on smoke (player 2)
+30001e63 0010
+.090,090,200,200,000,002,000,000
+
+#Super Mario RPG #a2c34c3d,1b8a0625,5527071e,368da945
+"Rumble on Actions
+30001d0b 0001
+.180,180,180,180,000,001,000,000
+
+#Super Mario World #3c41070f,b47f5f20,b19ed489,a31bead4,38800709,dd064150,76ba16c1,4d711327,1b5e35c4,2e774d13,28352ec2,545f7534,2757acb6,7be08e7e,dc1f77b2,703818ee,0e058568,6523daa3,35d10fd9,9d339ced,91bb526a,08e3a250,d6f4d75c,
+"Rumble on actions A
+30000f2d 0001
+.100,100,100,100,000,001,000,000
+"Rumble on actions B
+30000f2c 0002
+.100,100,100,100,000,001,000,000
+"Rumble when collecting coins
+30000dbf 0003
+.100,100,100,100,000,001,000,000
+"Rumble when losing lifes
+30000f17 0004
+.180,180,180,180,000,001,000,000
+
+#Super Mario World II - Yoshi's Island #4FE10F1F,86a203b4,a2bb7009,cf98ddaa,d138f224,07e01ef9,857980b2
+"Rumble when baby gets away/star points
+300003A3 0002
+.100,100,030,030,000,001,000,000
+"Rumble when collecting coins
+3000037B 003D
+.150,150,040,040,000,001,002,000
+"Rumble when collecting flowers
+300003B8 0001
+.255,255,060,060,000,001,002,000
+"Rumble on egg making / shooting
+3000005A 0000
+.150,150,070,070,000,001,002,000
+
+#Super Metroid #ad2cbf9c,d63ed5f8,b312ead3,70fee149,3936c13d,afd0ef79,19f123b8,668511ce,aa7d882e,4bd40bcd,4148e007,a4eba00c,bdcdafb4,af6f80ee,c4bdbe99,520c3eb2,24469f8a,2b137beb
+"Rumble when enemy explodes
+30000e50 0001
+.130,130,200,200,000,001,000,000
+"Rumble on energy loss
+300009c2 0002
+.160,160,170,170,000,001,000,000
+"Rumble when Shooting
+30000ccc 0003
+.070,070,200,200,000,001,002,000
+
+#Super Nova #460DEF25,
+"Rumble when shooting (beta)
+30000124 0001
+.100,100,120,120,000,001,000,000
+
+#Super Punch-Out!! #c6906f5f,b5d92af4,e2f92f84,1a60667e
+"Rumble on energy loss
+3000088f 0001
+.200,200,150,150,000,001,000,000
+"Rumble on normal attacks
+3000098f 0002
+.180,180,100,100,000,001,000,000
+"Rumble on Uppercuts
+30000b9a 0003
+.250,250,150,150,000,001,000,000
+"Rumble on fast attacks
+30000b9b 0004
+.250,250,100,100,000,001,000,000
+
+#Super R-Type #1631740d,4e872c8b,8b22c830,211a3511
+"Rumble on explosions 
+300016e7 0001
+.180,180,200,200,000,001,000,000
+"Rumble on megablast decharge
+300018e2 0002
+.250,250,500,500,000,001,000,000
+"Rumble on megablast charge
+300018e2 0003
+.100,100,100,100,000,001,000,000
+"Rumble when Shooting
+3000003e 0004
+.100,100,100,100,000,001,002,000
+
+#Super Smash T.V. #9a502573,2d0b20d0
+"Rumble on actions A (player 1)
+3000009a 0001
+.250,250,300,300,000,001,000,000
+"Rumble on actions B (player 1)
+30000099 0002
+.250,250,300,300,000,001,000,000
+"Rumble on actions A (player 2)
+300000a1 0003
+.250,250,300,300,000,002,000,000
+
+#Super Star Wars #f63ec912,055926be,99cb2058,acbcae7c,23665f74,be47f6c6
+"Rumble on actions
+3000095f 0001
+.140,140,100,100,000,001,000,000
+"Rumble on energy loss
+300008fd 0002
+.165,165,180,180,000,001,000,000
+
+#Super Star Wars - Empire Strike #5bfdcd6c,101d2dfa,f45b15be,1e7ea62c,cb269a45 
+"Rumble on actions
+3000019c 0001
+.140,140,100,100,000,001,000,000
+"Rumble on energy loss
+300001b0 0002
+.165,165,180,180,000,001,000,000
+
+#Super Star Wars - Return of the #020ca165,a79c7e7f,c709ec69,4a5f30d8
+"Rumble on actions
+300001a2 0001
+.140,140,100,100,000,001,000,000
+"Rumble on energy loss
+300001b6 0002
+.165,165,180,180,000,001,000,000
+"Rumble when getting items
+300001ba 0003
+.140,140,100,100,000,001,000,000
+
+#Super Street Fighter II #8F6A918B,6d86bfb0,26ca246b,f16d5ce9,60b6f215
+"Rumble on energy loss (player 1)
+30000530 0067
+.100,100,400,400,000,001,001,000
+"Rumble on energy loss (player 2)
+30000770 0084
+.100,100,400,400,000,002,001,000
+
+#Super Turrican #d0a1bf12,7ec892f0,3a7e8215
+"Rumble on energy loss
+300004fd 0001
+.250,250,400,400,000,001,000,000
+"explosions
+3000050e 0002
+.150,150,200,200,000,001,000,000
+"Rumble using megabombs
+3000050a 0003
+.250,250,800,800,000,001,000,000
+
+#Super Turrican 2 #af821fd0,d2ffabac,691314bb,5e550e27
+"Rumble on actions A
+3000101a 0001
+.140,140,100,100,000,001,000,000
+"Rumble on actions B
+30001019 0002
+.140,140,100,100,000,001,000,000
+"Rumble on energy loss
+30000aee 0003
+.150,150,200,200,000,001,000,000
+"Rumble using megabombs
+30000af4 0004
+.250,250,800,800,000,001,000,000
+
+#Super Valis IV #681E86F3,29e8ac9f
+"Rumble on energy loss
+30000FB5 0026
+.100,100,250,250,000,001,001,000
+
+#SWAT Kats - The Radical Squadron #EA2A23FB
+"Rumble when shooting gun
+300000CC 00E0
+.100,100,200,200,000,001,000,000
+"Rumble on energy loss
+30001A36 0001
+.100,100,250,250,000,001,001,000
+
+--------------------------------------- T ---------------------------------------
+
+#T2 - The Arcade Game #32633fa6,cb5409ff,5dc6b9fe
+"Rumble on energy loss (player 1)
+3000007f 0001
+.250,250,400,400,000,001,000,000
+"Rumble on gaining score (player 1)
+30000683 0002
+.160,160,300,300,000,001,000,000
+"Rumble when shooting (player 1)
+300000cb 0003
+.160,160,300,300,000,001,000,000
+"Rumble on energy loss (player 2)
+30000081 0004
+.250,250,400,400,000,002,000,000
+"Rumble when shooting (player 2)
+3000069d 0005
+.160,160,300,300,000,002,000,000
+
+#Teenage Mutant Ninja Turtles IV #b28f1b9d,5940bd99,a9fb97e9,bdba1b55,b0a3441e,27985ae0
+"Rumble on actions (player 1)
+30001a9c 0001
+.160,160,180,180,000,001,000,000
+"Rumble on attacks (player 1)
+300005d0 0002
+.130,130,100,100,000,001,002,000
+"Rumbles on energy loss (player 1)
+3000044a 0003
+.160,160,180,180,000,001,000,000
+"Rumble on actions (player 2)
+300001adc 0004
+.160,160,180,180,000,002,000,000
+"Rumble on attacks (player 2)
+300006ac 0005
+.130,130,100,100,000,002,002,000
+"Rumbles on energy loss (player 2)
+30001ae2 0006
+.160,160,180,180,000,002,000,000
+
+#Terminator - The #D71E6C3B,6c853888,151109f6
+"Rumble when shooting
+300004E0 0006
+.140,140,100,100,000,001,002,000
+"Rumble on bomb throw
+30000320 0003
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss
+3000031F 0006
+.155,155,150,150,000,001,001,000
+
+#Terminator 2 - Judgment Day #F729B19E,ac933465,6ee8f433
+"Rumble on energy loss
+30000097 0060
+.140,140,150,150,000,001,001,000
+
+#Thunder Spirits #522fe837,41a933a6
+"Rumble on explosions
+30001ab1 0001
+.160,160,180,180,000,001,000,000
+"Rumble  when losing lives
+30001a9d 0002
+.250,250,180,180,000,001,000,000
+
+#Tick - The #7F5D5544,12ab22a7
+"Rumble on energy loss
+30001AE7 002D
+.100,100,250,250,000,001,001,000
+
+#TimeCop #7EFD7ED0,130b0933,4d56b5c3,bc0c9b71
+"Rumble on energy loss
+300006F3 0038
+.100,100,250,250,000,001,001,000
+
+#Time Trax #F6628157,a7a54043,4d7c512f
+"Rumble on energy loss
+300014B5 0002
+.100,100,250,250,000,001,001,000
+
+#TimeSlip #838D0304,de12f893,adac8eff
+"Rumble when shooting
+30003D0C 000C
+.100,100,120,120,000,001,002,000
+"Rumble on energy loss
+300050D8 0001
+.125,125,200,200,000,001,001,000
+
+#Tin Star #EC26F75B
+"Rumble when shooting (player 1)
+30000FB0 0000
+.255,255,060,060,000,001,002,000
+
+#Tiny Toon Adventures - Buster Busts Lo #AB48D27A,f1f8f87a,eeb4180c,38cd6bb0
+"Rumble on energy loss
+3000009E 0001
+.100,100,250,250,000,001,001,000
+
+#TMNT - Tournament Fighters #48FAD0DF,0dda3124,63e37d86,e2fe5dbf,580026d9
+"Rumble on energy loss (player 1)
+30000EE4 0022
+.100,100,400,400,000,001,001,000
+"Rumble on energy loss (player 2)
+30000FC4 003C
+.100,100,400,400,000,002,001,000
+
+#Tom & Jerry #8B1DAFBB,cb6d3883,ba2de054,72b57042
+"Rumble on energy loss 
+30000EDA 0001
+.100,100,200,200,000,001,001,000
+"Rumble on ball throw
+3000155E 004F
+.150,150,090,090,000,001,001,000
+
+#Toy Story #8328822B,b144d588,d4af7724
+"Rumble on energy loss
+3000001C 0001
+.100,100,250,250,000,001,001,000
+
+#Toys #EFEBF501,2a8a0b71
+"Rumble on energy loss
+3000168E 0001
+.100,100,200,200,000,001,001,000
+
+#True Lies #40CA49AE,6bb6a72f,6150d3f9,ca7342cd,d7099bc2
+"Rumble when shooting hand gun
+300000A5 000A
+.150,150,100,100,000,001,001,000
+"Rumble when shooting oozie
+300000A9 003A
+.150,150,120,120,000,001,001,000
+"Rumble when throwing gernade
+300000AB 0003
+.100,100,080,080,000,001,001,000
+"Rumble on energy loss (player 1)
+300008BA 0000
+.100,100,150,150,000,001,001,000
+
+#Tuff E Nuff #865F37BF,c2423607
+"Rumble on energy loss (player 1)
+30000FB7 0048
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss (player 2)
+30001010 0044
+.100,100,200,200,000,002,001,000
+
+#Turn and Burn - No-Fly Zone #87BFA0B8,e9e676c2,ee92ceb5
+"Rumble when shooting machine gun
+300005E5 0092
+.100,100,100,100,000,001,001,000
+
+--------------------------------------- U ---------------------------------------
+
+#Ultraman - Towards the Future #1DED2814,8b7cb277
+"Rumble on energy loss (player 1)
+300007EE 003F
+.100,100,200,200,000,001,001,000
+
+#Ultimate Fighter #9DFC8897
+"Rumble on energy loss (player 1)
+30001402 0086
+.100,100,250,250,000,000,001,000
+"Rumble on energy loss (player 2)
+3000140A 005A
+.100,100,250,250,000,002,001,000
+
+#Ultimate Mortal Kombat 3 #F5BFE41E,1c4c54d2
+"Rumble on energy loss (player 1)
+300036D4 0040
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+30003898 0040
+.100,100,250,250,000,002,001,000
+
+#Urban Strike #B9BF7990,de6e4fa7
+"Rumbles when shooting machine gun
+3001B3F7 00E2
+.100,100,100,100,000,001,001,000
+"Rumbles when shooting rockets
+3001B437 0039
+.125,125,200,200,000,001,001,000
+"Rumbles when shooting  missiles
+3001B477 0006
+.150,150,350,350,000,001,001,000
+
+--------------------------------------- V ---------------------------------------
+
+
+
+--------------------------------------- W ---------------------------------------
+
+#Wayne's World #0D426A15,94eae7e4
+"Rumble on energy loss (player 1)
+300004AF 0002
+.100,100,200,200,000,001,001,000
+
+#WCW Super Brawl Wrestling #8B477300,
+"Rumble on energy loss (player 1)
+30001296 000A
+.100,100,250,250,000,001,001,000
+
+#We're Back! - A Dinosaur's Story #3F654414,33fbcd2d
+"Rumble on energy loss (player 1)
+3000D6F1 0002
+.100,100,250,250,000,001,001,000
+
+#Weapon Lord #0E7E7102,019c4b02
+"Rumble on energy loss (player 1)
+30002478 0068
+.075,075,020,020,000,001,001,000
+
+#Wild Guns#6e939dd3,96f948cb,ceaac33d,3ca1ec46,085d8d14
+"Rumble on scores (player 1) 
+30001fd0 0001
+.250,250,300,300,000,001,000,000
+"Rumble when shooting (player 1) 
+300010c8 0002
+.100,100,180,180,000,001,002,000
+"Rumble on scores (player 2) 
+30001fd4 0003
+.250,250,300,300,000,001,000,000
+"Rumble when shooting (player 2) 
+300010e0 0004
+.100,100,180,180,000,002,002,000
+
+#Wolf Child #13BFB3A0,
+"Rumble on energy loss
+30000636 0004
+.100,100,200,200,000,001,001,000
+
+#Wolfenstein 3D #6a455ee2,cc47b8f9,6582a8f5,63e442b4
+"Rumble when shooting
+30008957 0001
+.100,100,180,180,000,001,000,000
+"Rumbles on energy loss
+30008955 0002
+.250,250,300,300,000,001,000,000
+
+#Wolverine - Adamantium Rage #98455315,7ac71f65,4e62d6bf,d9119d9b,78fc0d86
+"Rumble on energy loss
+30001027 0061
+.100,100,200,200,000,001,001,000
+
+#World Heroes #1228AD30,1ff42561,fbb6e0d8 
+"Rumble on energy loss (player 1)
+3000107B 004B
+.100,100,250,250,000,001,001,000
+"Rumble on energy loss (player 2)
+3000117B 0036
+.100,100,250,250,000,002,001,000
+
+#World Heroes 2 #098D7EAA,acd0e8e6,25a55b3b
+"Rumble on energy loss (player 1)
+30000574 0093
+.100,100,050,050,000,001,001,000
+"Rumble on energy loss (player 2)
+30000576 0060
+.100,100,050,050,000,002,001,000
+
+#WWF Royal Rumble #2101D515,e85352d2,6c6407b9
+"Rumble on energy loss (player 1)
+300001AA 0032
+.100,100,200,200,000,001,001,000
+"Rumble on energy loss (player 2)
+300001AC 0033
+.100,100,200,200,000,002,001,000
+
+#WWF Super WrestleMania #676CB638,d35543c2,17c027c4
+"Rumble on energy loss (player 1)
+300006EC 0029
+.100,100,200,200,000,001,001,000
+
+#WWF Wrestlemania - The Arcade Game #7C4FD9F5,1ba08495,afbee7b1,6b8c5603
+"Rumble on energy loss (player 1)
+3000B8B6 0038
+.100,100,200,200,000,001,001,000
+
+--------------------------------------- X ---------------------------------------
+
+#X-Kaliber 2097 #E83ECEEA,64129f4c,d7e4732f
+"Rumble on energy loss (player 1)
+30000A18 0076
+.100,100,200,200,000,001,001,000
+
+#Xardion #C7C12A57
+"Rumble on energy loss
+30000D1A 000A
+.100,100,200,200,000,001,001,000
+
+#X-Men - Mutant Apocalypse #A6ADCBD0,5e34822a,4f02a304,8e4ab536
+"Rumble on energy loss type B
+3000008B 002B
+.100,100,100,100,000,001,001,000
+"Rumble on energy loss type A
+30000C35 002B
+.100,100,300,300,000,001,001,000
+"Rumble when you punch/kick
+30000C4F 0001
+.125,125,070,070,000,001,002,000
+"Rumble when using special move
+30000C54 0001
+.100,100,450,450,000,001,002,000
+
+--------------------------------------- Y ---------------------------------------
+
+#Yogi Bear #7448D45C
+"Rumble on collecting clocks
+3000009D 0008
+.100,100,060,060,000,001,002,000
+
+--------------------------------------- Z ---------------------------------------
+
+#Zero the Kamikaze Squirrel #5397D5BC,f4830329,64d7b231
+"Rumble when throwing ninja stars
+30001676 0033
+.100,100,130,130,000,001,001,000
+"Rumble on energy loss
+30001674 0002
+.110,110,200,200,000,001,001,000
+
+#Zombies Ate My Neighbors #7cfc0c7c,2883eb04
+"Rumble on energy loss (player 1)
+30001cb8 0001
+.250,250,300,300,000,001,000,000
+"Rumble on score (player 1)
+30001e73 0002
+.150,150,300,300,000,001,000,000
+"Rumble on energy loss (player 2)
+30001cba 0003
+.250,250,300,300,000,002,000,000
+"Rumble on score (player 2)
+30001e77 0004
+.150,150,300,300,000,002,000,000
+
+#Zool #3C10DAF1,b4fcb68c,1188c64e
+"Rumble on energy loss
+30001CF1 0064
+.100,100,200,200,000,001,001,000
+
+
+

@@ -1,0 +1,6 @@
+<includes>
+		<variable name="var-labelcolour">
+				<value condition="!Skin.HasSetting(altlabelcolour)">carousel_bar_label</value>
+				<value condition="Skin.HasSetting(altlabelcolour)">carousel_bar_alt_label</value>
+		</variable>
+</includes>

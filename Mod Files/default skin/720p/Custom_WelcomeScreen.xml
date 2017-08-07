@@ -1,0 +1,205 @@
+<window type="window" id="1110">
+		<defaultcontrol always="true">9000</defaultcontrol>
+		<controls>
+				<control type="button" id="9000">
+						<posx>-500</posx>
+						<posy>0</posy>
+						<onfocus>SetFocus(1)</onfocus>
+				</control>
+				<include>CommonBackground</include>
+				<control type="group">
+						<posy>90</posy>
+						<animation effect="fade" time="250">WindowOpen</animation>
+						<animation effect="fade" time="100">WindowClose</animation>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
+								<height>324</height>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>200</posy>
+								<width>640</width>
+								<height>1</height>
+								<texture>separator_menu.png</texture>
+						</control>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>380</posy>
+								<width>640</width>
+								<height>1</height>
+								<texture>separator_menu.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>320</posx>
+								<posy>130</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra50</font>
+								<label>WELCOME</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<control type="textbox">
+								<posx>380</posx>
+								<posy>210</posy>
+								<width>520</width>
+								<height>300</height>
+								<align>center</align>
+								<aligny>-</aligny>
+								<font>extra17</font>
+								<label>[UPPERCASE]to xbmc-emustation[CR][CR]this is a pet project of mine and its a combination of a skin, python scripts and source edits to XBMC.[CR][CR]so don't expect something spectacular.[/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+								<visible>Control.HasFocus(1)</visible>
+								<animation effect="fade" time="200">hidden</animation>
+						</control>
+						<control type="grouplist">
+								<control type="button" id="1">
+										<posx>-500</posx>
+										<posy>0</posy>
+										<texturefocus>-</texturefocus>
+										<texturenofocus>-</texturenofocus>
+										<onclick>SetFocus(2)</onclick>
+								</control>
+						</control>
+						<control type="textbox">
+								<posx>380</posx>
+								<posy>230</posy>
+								<width>520</width>
+								<height>300</height>
+								<align>center</align>
+								<aligny>-</aligny>
+								<font>extra17</font>
+								<label>[UPPERCASE]emulator files are placed in the subdirectories inside the [B]_emulators[/B] directory.[CR][CR]Roms are placed in the subdirectories inside the [B]_roms[/B] directory[/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+								<visible>Control.HasFocus(2)</visible>
+								<animation effect="fade" time="200">visible</animation>
+								<animation effect="fade" time="200">hidden</animation>
+						</control>
+						<control type="grouplist">
+								<control type="button" id="2">
+										<posx>-500</posx>
+										<posy>0</posy>
+										<texturefocus>-</texturefocus>
+										<texturenofocus>-</texturenofocus>
+										<onclick>SetFocus(3)</onclick>
+								</control>
+						</control>
+						<control type="textbox">
+								<posx>380</posx>
+								<posy>240</posy>
+								<width>520</width>
+								<height>300</height>
+								<align>center</align>
+								<aligny>-</aligny>
+								<font>extra17</font>
+								<label>[UPPERCASE]only exception to using the [B]_roms[/B] folder are FBA/L and MAME there roms must go in the roms folder in the root of there emulator folder.[/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+								<visible>Control.HasFocus(3)</visible>
+								<animation effect="fade" time="200">visible</animation>
+								<animation effect="fade" time="200">hidden</animation>
+						</control>
+						<control type="grouplist">
+								<control type="button" id="3">
+										<posx>-500</posx>
+										<posy>0</posy>
+										<texturefocus>-</texturefocus>
+										<texturenofocus>-</texturenofocus>
+										<onclick>SetFocus(4)</onclick>
+								</control>
+						</control>
+						<control type="textbox">
+								<posx>380</posx>
+								<posy>220</posy>
+								<width>520</width>
+								<height>300</height>
+								<align>center</align>
+								<aligny>-</aligny>
+								<font>extra17</font>
+								<label>[UPPERCASE]tbn images are placed in the subdirectories inside the [B]_tbns[/B] directory.[CR]the subdirectories are created after you scan in your roms, then you match the rom name.[CR][CR]example:[CR]Mario world.smc = mario world.tbn[/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+								<visible>Control.HasFocus(4)</visible>
+								<animation effect="fade" time="200">visible</animation>
+								<animation effect="fade" time="200">hidden</animation>
+						</control>
+						<control type="grouplist">
+								<control type="button" id="4">
+										<posx>-500</posx>
+										<posy>0</posy>
+										<texturefocus>-</texturefocus>
+										<texturenofocus>-</texturenofocus>
+										<onclick>SetFocus(5)</onclick>
+								</control>
+						</control>
+						<control type="textbox">
+								<posx>380</posx>
+								<posy>210</posy>
+								<width>520</width>
+								<height>300</height>
+								<align>center</align>
+								<aligny>-</aligny>
+								<font>extra17</font>
+								<label>[UPPERCASE][CR][CR]i will now create the folder structure for the roms folder and allow you to calibrate your screen.[/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+								<visible>Control.HasFocus(5)</visible>
+								<animation effect="fade" time="200">visible</animation>
+								<animation effect="fade" time="200">hidden</animation>
+						</control>
+						<control type="grouplist">
+								<control type="button" id="5">
+										<posx>-500</posx>
+										<posy>0</posy>
+										<texturefocus>-</texturefocus>
+										<texturenofocus>-</texturenofocus>
+										<onclick>RunScript(Special://xbmc/_scripts/xbmc-emustation/scan.py)</onclick>
+										<onclick>SetFocus(6)</onclick>
+								</control>
+						</control>
+						<control type="grouplist">
+								<posx>470</posx>
+								<posy>260</posy>
+								<width>340</width>
+								<height>50</height>
+								<control type="button" id="6">
+										<posx>0</posx>
+										<posy>0</posy>
+										<width>340</width>
+										<height>50</height>
+										<font>extra23</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<label>$LOCALIZE[32022]</label>
+										<textcolor>menu_deselect_label</textcolor>
+										<focusedcolor>menu_select_label</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>10</textoffsetx>
+										<texturefocus border="5">button-focus4.png</texturefocus>
+										<texturenofocus>button-nofocus4.png</texturenofocus>
+										<onclick>ReplaceWindow(guicalibration)</onclick>
+										<onclick>RunScript(Special://xbmc/_scripts/xbmc-emustation/firstrun.py)</onclick>
+										<onclick>Skin.SetBool(firstrun)</onclick>
+										<visible allowhiddenfocus="true">Control.HasFocus(6)</visible>
+								</control>
+						</control>
+						<control type="label">
+								<description>footer label</description>
+								<posx>320</posx>
+								<posy>395</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>-</aligny>
+								<font>extra17</font>
+								<label>[UPPERCASE]press (a) to continue[/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+				</control>
+		</controls>
+</window>

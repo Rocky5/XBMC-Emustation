@@ -1,0 +1,1394 @@
+<window id="0">
+		<defaultcontrol always="true">9000</defaultcontrol>
+		<controls>
+				<include>CommonBackground</include>
+				<control type="group">
+						<animation effect="fade" time="250">WindowOpen</animation>
+						<animation effect="fade" time="100">WindowClose</animation>
+						<!-- These are used to select the correct view -->
+						<!-- I had to do it this way or the second view will always default to the first content item -->
+						<control type="button" id="9000">
+								<posx>-5000</posx>
+								<description>Trigger</description>
+								<onfocus>SetFocus(9001)</onfocus>
+								<visible>!Skin.HasSetting(althomelayout)</visible>
+						</control>
+						<control type="button" id="9000">
+								<posx>-5000</posx>
+								<description>Trigger</description>
+								<onfocus>SetFocus(9002)</onfocus>
+								<visible>Skin.HasSetting(althomelayout)</visible>
+						</control>
+						<!-- Images used for the background if they are preset -->
+						<control type="image">
+								<posx>0</posx>
+								<posy>0</posy>
+								<width>1280</width>
+								<height>720</height>
+								<aspectratio>scale</aspectratio>
+								<texture background="true">$INFO[Container(9001).ListItem.ActualIcon]</texture>
+								<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnNext + !Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<animation effect="slide" start="0,0" end="-1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9001).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<animation effect="slide" start="0,0" end="1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9001).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<visible>!Skin.HasSetting(althomelayout) + !Container(9001).OnNext + !Container(9001).OnPrevious</visible>
+						</control>
+						<control type="image">
+								<posx>0</posx>
+								<posy>0</posy>
+								<width>1280</width>
+								<height>720</height>
+								<aspectratio>scale</aspectratio>
+								<texture background="true">$INFO[Container(9002).ListItem.ActualIcon]</texture>
+								<animation effect="fade" delay="300" time="300" condition="!Container(9002).OnNext + !Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<animation effect="fade" delay="300" time="300" condition="!Container(9002).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<animation effect="slide" start="0,0" end="-1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9002).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<animation effect="slide" start="0,0" end="1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9002).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
+								<visible>Skin.HasSetting(althomelayout) + !Container(9002).OnNext + !Container(9002).OnPrevious</visible>
+						</control>
+						<!-- Other images -->
+						<control type="group">
+								<visible>!Skin.HasSetting(altcarouselbar)</visible>
+								<control type="image">
+										<posx>0</posx>
+										<posy>275</posy>
+										<width>1280</width>
+										<height>168</height>
+										<aspectratio>stretch</aspectratio>
+										<colordiffuse>carousel_bar_lower</colordiffuse>
+										<texture background="true">layouts/art/carousel_bar.png</texture>
+								</control>
+								<control type="image">
+										<posx>0</posx>
+										<posy>443</posy>
+										<width>1280</width>
+										<height>50</height>
+										<aspectratio>stretch</aspectratio>
+										<colordiffuse>carousel_bar</colordiffuse>
+										<texture background="true">layouts/art/carousel_bar.png</texture>
+										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9001).OnNext">Conditional</animation>
+										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9001).OnPrevious">Conditional</animation>
+										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9002).OnNext">Conditional</animation>
+										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9002).OnPrevious">Conditional</animation>
+								</control>
+						</control>
+						<control type="image">
+								<posx>0</posx>
+								<posy>157</posy>
+								<width>1280</width>
+								<height>347</height>
+								<aspectratio>stretch</aspectratio>
+								<texture background="true">layouts/art/alt_carousel_bar.png</texture>
+								<visible>Skin.HasSetting(altcarouselbar)</visible>
+						</control>
+						<control type="image">
+								<posx>0</posx>
+								<posy>85r</posy>
+								<width>1280</width>
+								<height>85</height>
+								<aspectratio>stretch</aspectratio>
+								<texture background="true">layouts/art/system_help.png</texture>
+						</control>
+						<control type="label">
+								<posx>406</posx>
+								<posy>163</posy>
+								<width>468</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra35</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>[UPPERCASE]$INFO[Container(9001).ListItem.Label2][/UPPERCASE]</label>
+								<visible>Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout)</visible>
+						</control>
+						<control type="label">
+								<posx>406</posx>
+								<posy>163</posy>
+								<width>468</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra35</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>[UPPERCASE]$INFO[Container(9002).ListItem.Label2][/UPPERCASE]</label>
+								<visible>Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout)</visible>
+						</control>
+						<!-- default home layout labels -->
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>[UPPERCASE]$INFO[Container(9001).ListItem.Label][/UPPERCASE]</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout) + StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>$INFO[Container(9001).ListItem.Label] Game Available</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout) + StringCompare(Container(9001).ListItem.Label,1) + !StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>$INFO[Container(9001).ListItem.Label] Games Available</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout) + !StringCompare(Container(9001).ListItem.Label,1) + !StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<!-- alt home layout labels -->
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>[UPPERCASE]$INFO[Container(9002).ListItem.Label][/UPPERCASE]</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout) + StringCompare(Container(9002).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>$INFO[Container(9002).ListItem.Label] Game Available</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout) + StringCompare(Container(9002).ListItem.Label,1) + !StringCompare(Container(9002).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>$INFO[Container(9002).ListItem.Label] Games Available</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout) + !StringCompare(Container(9002).ListItem.Label,1) + !StringCompare(Container(9002).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<!-- 9001 -->
+						<!-- Default View uses 3 images -->
+						<control type="wraplist" id="9001">
+								<visible>!Skin.HasSetting(althomelayout)</visible>
+								<posx>-155</posx>
+								<posy>310</posy>
+								<width>2280</width>
+								<height>1280</height>
+								<onleft>9000</onleft>
+								<onright>9000</onright>
+								<onup>-</onup>
+								<ondown>-</ondown>
+								<scrolltime>350</scrolltime>
+								<focusposition>1</focusposition>
+								<movement>1</movement>
+								<preloaditems>0</preloaditems>
+								<orientation>Horizontal</orientation>
+								<itemlayout width="555" height="167">
+										<control type="image">
+												<posx>0</posx>
+												<posy>0</posy>
+												<width>480</width>
+												<height>98</height>
+												<aspectratio>keep</aspectratio>
+												<colordiffuse>55FFFFFF</colordiffuse>
+												<texture background="true" fallback="layouts/art/missing_logo.png">$INFO[ListItem.Thumb]</texture>
+										</control>
+								</itemlayout>
+								<focusedlayout width="555" height="167">
+										<control type="image">
+												<posx>0</posx>
+												<posy>0</posy>
+												<width>480</width>
+												<height>98</height>
+												<aspectratio>keep</aspectratio>
+												<texture background="true" fallback="layouts/art/missing_logo.png">$INFO[ListItem.Thumb]</texture>
+										</control>
+								</focusedlayout>
+								<content>
+										<item id="0">
+												<label>$LOCALIZE[5]</label>
+												<label2>$LOCALIZE[5]</label2>
+												<onclick>ActivateWindow(Settings,return)</onclick>
+												<icon>layouts/Settings/art/system_art.png</icon>
+												<thumb>layouts/Settings/art/logo.png</thumb>
+										</item>
+										<item id="1">
+												<label>$INFO[Skin.String(3do_games)]</label>
+												<label2>3do</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/3do/art/system_art.png</icon>
+												<thumb>layouts/3do/art/logo.png</thumb>
+												<visible>Skin.HasSetting(3do_exists)</visible>
+										</item>
+										<item id="2">
+												<label>$INFO[Skin.String(amiga_games)]</label>
+												<label2>amiga</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/amiga/art/system_art.png</icon>
+												<thumb>layouts/amiga/art/logo.png</thumb>
+												<visible>Skin.HasSetting(amiga_exists)</visible>
+										</item>
+										<item id="3">
+												<label>$INFO[Skin.String(amstradcpc_games)]</label>
+												<label2>amstradcpc</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/amstradcpc/art/system_art.png</icon>
+												<thumb>layouts/amstradcpc/art/logo.png</thumb>
+												<visible>Skin.HasSetting(amstradcpc_exists)</visible>
+										</item>
+										<item id="4">
+												<label>$INFO[Skin.String(apple2_games)]</label>
+												<label2>apple2</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/apple2/art/system_art.png</icon>
+												<thumb>layouts/apple2/art/logo.png</thumb>
+												<visible>Skin.HasSetting(apple2_exists)</visible>
+										</item>
+										<item id="5">
+												<label>$INFO[Skin.String(atari2600_games)]</label>
+												<label2>atari2600</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari2600/art/system_art.png</icon>
+												<thumb>layouts/atari2600/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atari2600_exists)</visible>
+										</item>
+										<item id="6">
+												<label>$INFO[Skin.String(atari5200_games)]</label>
+												<label2>atari5200</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari5200/art/system_art.png</icon>
+												<thumb>layouts/atari5200/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atari5200_exists)</visible>
+										</item>
+										<item id="7">
+												<label>$INFO[Skin.String(atari7800_games)]</label>
+												<label2>atari7800</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari7800/art/system_art.png</icon>
+												<thumb>layouts/atari7800/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atari7800_exists)</visible>
+										</item>
+										<item id="8">
+												<label>$INFO[Skin.String(atari800_games)]</label>
+												<label2>atari800</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari800/art/system_art.png</icon>
+												<thumb>layouts/atari800/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atari800_exists)</visible>
+										</item>
+										<item id="9">
+												<label>$INFO[Skin.String(atarijaguar_games)]</label>
+												<label2>atarijaguar</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarijaguar/art/system_art.png</icon>
+												<thumb>layouts/atarijaguar/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
+										</item>
+										<item id="10">
+												<label>$INFO[Skin.String(atarilynx_games)]</label>
+												<label2>atarilynx</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarilynx/art/system_art.png</icon>
+												<thumb>layouts/atarilynx/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atarilynx_exists)</visible>
+										</item>
+										<item id="11">
+												<label>$INFO[Skin.String(atarist_games)]</label>
+												<label2>atarist</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarist/art/system_art.png</icon>
+												<thumb>layouts/atarist/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atarist_exists)</visible>
+										</item>
+										<item id="12">
+												<label>$INFO[Skin.String(atarixe_games)]</label>
+												<label2>atarixe</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarixe/art/system_art.png</icon>
+												<thumb>layouts/atarixe/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atarixe_exists)</visible>
+										</item>
+										<item id="13">
+												<label>$INFO[Skin.String(atarixl_games)]</label>
+												<label2>atarixl</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarixl/art/system_art.png</icon>
+												<thumb>layouts/atarixl/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atarixl_exists)</visible>
+										</item>
+										<item id="14">
+												<label>$INFO[Skin.String(c64_games)]</label>
+												<label2>c64</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/c64/art/system_art.png</icon>
+												<thumb>layouts/c64/art/logo.png</thumb>
+												<visible>Skin.HasSetting(c64_exists)</visible>
+										</item>
+										<item id="15">
+												<label>$INFO[Skin.String(c64pet_games)]</label>
+												<label2>c64pet</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/c64pet/art/system_art.png</icon>
+												<thumb>layouts/c64pet/art/logo.png</thumb>
+												<visible>Skin.HasSetting(c64pet_exists)</visible>
+										</item>
+										<item id="16">
+												<label>$INFO[Skin.String(chip8x_games)]</label>
+												<label2>chip8x</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/chip8x/art/system_art.png</icon>
+												<thumb>layouts/chip8x/art/logo.png</thumb>
+												<visible>Skin.HasSetting(chip8x_exists)</visible>
+										</item>
+										<item id="17">
+												<label>$INFO[Skin.String(coco_games)]</label>
+												<label2>coco</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/coco/art/system_art.png</icon>
+												<thumb>layouts/coco/art/logo.png</thumb>
+												<visible>Skin.HasSetting(coco_exists)</visible>
+										</item>
+										<item id="18">
+												<label>$INFO[Skin.String(colecovision_games)]</label>
+												<label2>colecovision</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/colecovision/art/system_art.png</icon>
+												<thumb>layouts/colecovision/art/logo.png</thumb>
+												<visible>Skin.HasSetting(colecovision_exists)</visible>
+										</item>
+										<item id="19">
+												<label>$INFO[Skin.String(cv20_games)]</label>
+												<label2>cv20</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/cv20/art/system_art.png</icon>
+												<thumb>layouts/cv20/art/logo.png</thumb>
+												<visible>Skin.HasSetting(cv20_exists)</visible>
+										</item>
+										<item id="20">
+												<label>$INFO[Skin.String(daphnex_games)]</label>
+												<label2>daphnex</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/daphnex/art/system_art.png</icon>
+												<thumb>layouts/daphnex/art/logo.png</thumb>
+												<visible>Skin.HasSetting(daphnex_exists)</visible>
+										</item>
+										<item id="21">
+												<label>$INFO[Skin.String(dreamcastvmu_games)]</label>
+												<label2>dreamcastvmu</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/dreamcastvmu/art/system_art.png</icon>
+												<thumb>layouts/dreamcastvmu/art/logo.png</thumb>
+												<visible>Skin.HasSetting(dreamcastvmu_exists)</visible>
+										</item>
+										<item id="22">
+												<label>$INFO[Skin.String(fba_games)]</label>
+												<label2>fba</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/fba/art/system_art.png</icon>
+												<thumb>layouts/fba/art/logo.png</thumb>
+												<visible>Skin.HasSetting(fba_exists)</visible>
+										</item>
+										<item id="23">
+												<label>$INFO[Skin.String(gamegear_games)]</label>
+												<label2>gamegear</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gamegear/art/system_art.png</icon>
+												<thumb>layouts/gamegear/art/logo.png</thumb>
+												<visible>Skin.HasSetting(gamegear_exists)</visible>
+										</item>
+										<item id="24">
+												<label>$INFO[Skin.String(gb_games)]</label>
+												<label2>gb</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gb/art/system_art.png</icon>
+												<thumb>layouts/gb/art/logo.png</thumb>
+												<visible>Skin.HasSetting(gb_exists)</visible>
+										</item>
+										<item id="25">
+												<label>$INFO[Skin.String(gba_games)]</label>
+												<label2>gba</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gba/art/system_art.png</icon>
+												<thumb>layouts/gba/art/logo.png</thumb>
+												<visible>Skin.HasSetting(gba_exists)</visible>
+										</item>
+										<item id="26">
+												<label>$INFO[Skin.String(gbc_games)]</label>
+												<label2>gbc</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gbc/art/system_art.png</icon>
+												<thumb>layouts/gbc/art/logo.png</thumb>
+												<visible>Skin.HasSetting(gbc_exists)</visible>
+										</item>
+										<item id="27">
+												<label>$INFO[Skin.String(genesis_games)]</label>
+												<label2>genesis</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/genesis/art/system_art.png</icon>
+												<thumb>layouts/genesis/art/logo.png</thumb>
+												<visible>Skin.HasSetting(genesis_exists)</visible>
+										</item>
+										<item id="28">
+												<label>$INFO[Skin.String(intellivision_games)]</label>
+												<label2>intellivision</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/intellivision/art/system_art.png</icon>
+												<thumb>layouts/intellivision/art/logo.png</thumb>
+												<visible>Skin.HasSetting(intellivision_exists)</visible>
+										</item>
+										<item id="29">
+												<label>$INFO[Skin.String(mame_games)]</label>
+												<label2>mame</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/mame/art/system_art.png</icon>
+												<thumb>layouts/mame/art/logo.png</thumb>
+												<visible>Skin.HasSetting(mame_exists)</visible>
+										</item>
+										<item id="30">
+												<label>$INFO[Skin.String(mastersystem_games)]</label>
+												<label2>mastersystem</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/mastersystem/art/system_art.png</icon>
+												<thumb>layouts/mastersystem/art/logo.png</thumb>
+												<visible>Skin.HasSetting(mastersystem_exists)</visible>
+										</item>
+										<item id="31">
+												<label>$INFO[Skin.String(megadrive_games)]</label>
+												<label2>megadrive</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/megadrive/art/system_art.png</icon>
+												<thumb>layouts/megadrive/art/logo.png</thumb>
+												<visible>Skin.HasSetting(megadrive_exists)</visible>
+										</item>
+										<item id="32">
+												<label>$INFO[Skin.String(mess_games)]</label>
+												<label2>mess</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/mess/art/system_art.png</icon>
+												<thumb>layouts/mess/art/logo.png</thumb>
+												<visible>Skin.HasSetting(mess_exists)</visible>
+										</item>
+										<item id="33">
+												<label>$INFO[Skin.String(msx_games)]</label>
+												<label2>msx</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/msx/art/system_art.png</icon>
+												<thumb>layouts/msx/art/logo.png</thumb>
+												<visible>Skin.HasSetting(msx_exists)</visible>
+										</item>
+										<item id="34">
+												<label>$INFO[Skin.String(n64_games)]</label>
+												<label2>n64</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/n64/art/system_art.png</icon>
+												<thumb>layouts/n64/art/logo.png</thumb>
+												<visible>Skin.HasSetting(n64_exists)</visible>
+										</item>
+										<item id="35">
+												<label>$INFO[Skin.String(nds_games)]</label>
+												<label2>nds</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/nds/art/system_art.png</icon>
+												<thumb>layouts/nds/art/logo.png</thumb>
+												<visible>Skin.HasSetting(nds_exists)</visible>
+										</item>
+										<item id="36">
+												<label>$INFO[Skin.String(neogeocd_games)]</label>
+												<label2>neogeocd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/neogeocd/art/system_art.png</icon>
+												<thumb>layouts/neogeocd/art/logo.png</thumb>
+												<visible>Skin.HasSetting(neogeocd_exists)</visible>
+										</item>
+										<item id="37">
+												<label>$INFO[Skin.String(nes_games)]</label>
+												<label2>nes</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/nes/art/system_art.png</icon>
+												<thumb>layouts/nes/art/logo.png</thumb>
+												<visible>Skin.HasSetting(nes_exists)</visible>
+										</item>
+										<item id="38">
+												<label>$INFO[Skin.String(ngpc_games)]</label>
+												<label2>ngpc</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/ngpc/art/system_art.png</icon>
+												<thumb>layouts/ngpc/art/logo.png</thumb>
+												<visible>Skin.HasSetting(ngpc_exists)</visible>
+										</item>
+										<item id="39">
+												<label>$INFO[Skin.String(odyssey2_games)]</label>
+												<label2>odyssey2</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/odyssey2/art/system_art.png</icon>
+												<thumb>layouts/odyssey2/art/logo.png</thumb>
+												<visible>Skin.HasSetting(odyssey2_exists)</visible>
+										</item>
+										<item id="40">
+												<label>$INFO[Skin.String(pc-98_games)]</label>
+												<label2>pc-98</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/pc-98/art/system_art.png</icon>
+												<thumb>layouts/pc-98/art/logo.png</thumb>
+												<visible>Skin.HasSetting(pc-98_exists)</visible>
+										</item>
+										<item id="41">
+												<label>$INFO[Skin.String(pcengine_games)]</label>
+												<label2>pcengine</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/pcengine/art/system_art.png</icon>
+												<thumb>layouts/pcengine/art/logo.png</thumb>
+												<visible>Skin.HasSetting(pcengine_exists)</visible>
+										</item>
+										<item id="42">
+												<label>$INFO[Skin.String(ports_games)]</label>
+												<label2>ports</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/ports/art/system_art.png</icon>
+												<thumb>layouts/ports/art/logo.png</thumb>
+										</item>
+										<item id="43">
+												<label>$INFO[Skin.String(psx_games)]</label>
+												<label2>psx</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/psx/art/system_art.png</icon>
+												<thumb>layouts/psx/art/logo.png</thumb>
+												<visible>Skin.HasSetting(psx_exists)</visible>
+										</item>
+										<item id="44">
+												<label>$INFO[Skin.String(samcoupe_games)]</label>
+												<label2>samcoupe</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/samcoupe/art/system_art.png</icon>
+												<thumb>layouts/samcoupe/art/logo.png</thumb>
+												<visible>Skin.HasSetting(samcoupe_exists)</visible>
+										</item>
+										<item id="45">
+												<label>$INFO[Skin.String(saturn_games)]</label>
+												<label2>saturn</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/saturn/art/system_art.png</icon>
+												<thumb>layouts/saturn/art/logo.png</thumb>
+												<visible>Skin.HasSetting(saturn_exists)</visible>
+										</item>
+										<item id="46">
+												<label>$INFO[Skin.String(sc-3000_games)]</label>
+												<label2>sc-3000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sc-3000/art/system_art.png</icon>
+												<thumb>layouts/sc-3000/art/logo.png</thumb>
+												<visible>Skin.HasSetting(sc-3000_exists)</visible>
+										</item>
+										<item id="47">
+												<label>$INFO[Skin.String(scummvm_games)]</label>
+												<label2>scummvm</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/scummvm/art/system_art.png</icon>
+												<thumb>layouts/scummvm/art/logo.png</thumb>
+												<visible>Skin.HasSetting(scummvm_exists)</visible>
+										</item>
+										<item id="48">
+												<label>$INFO[Skin.String(sega32x_games)]</label>
+												<label2>sega32x</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sega32x/art/system_art.png</icon>
+												<thumb>layouts/sega32x/art/logo.png</thumb>
+												<visible>Skin.HasSetting(sega32x_exists)</visible>
+										</item>
+										<item id="49">
+												<label>$INFO[Skin.String(segacd_games)]</label>
+												<label2>segacd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/segacd/art/system_art.png</icon>
+												<thumb>layouts/segacd/art/logo.png</thumb>
+												<visible>Skin.HasSetting(segacd_exists)</visible>
+										</item>
+										<item id="50">
+												<label>$INFO[Skin.String(sf-7000_games)]</label>
+												<label2>sf-7000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sf-7000/art/system_art.png</icon>
+												<thumb>layouts/sf-7000/art/logo.png</thumb>
+												<visible>Skin.HasSetting(sf-7000_exists)</visible>
+										</item>
+										<item id="51">
+												<label>$INFO[Skin.String(sg-1000_games)]</label>
+												<label2>sg-1000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sg-1000/art/system_art.png</icon>
+												<thumb>layouts/sg-1000/art/logo.png</thumb>
+												<visible>Skin.HasSetting(sg-1000_exists)</visible>
+										</item>
+										<item id="52">
+												<label>$INFO[Skin.String(sgb_games)]</label>
+												<label2>sgb</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sgb/art/system_art.png</icon>
+												<thumb>layouts/sgb/art/logo.png</thumb>
+												<visible>Skin.HasSetting(sgb_exists)</visible>
+										</item>
+										<item id="53">
+												<label>$INFO[Skin.String(sgb2_games)]</label>
+												<label2>sgb2</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sgb2/art/system_art.png</icon>
+												<thumb>layouts/sgb2/art/logo.png</thumb>
+												<visible>Skin.HasSetting(sgb2_exists)</visible>
+										</item>
+										<item id="54">
+												<label>$INFO[Skin.String(snes_games)]</label>
+												<label2>snes</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/snes/art/system_art.png</icon>
+												<thumb>layouts/snes/art/logo.png</thumb>
+												<visible>Skin.HasSetting(snes_exists)</visible>
+										</item>
+										<item id="55">
+												<label>$INFO[Skin.String(ti99_games)]</label>
+												<label2>ti99</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/ti99/art/system_art.png</icon>
+												<thumb>layouts/ti99/art/logo.png</thumb>
+												<visible>Skin.HasSetting(ti99_exists)</visible>
+										</item>
+										<item id="56">
+												<label>$INFO[Skin.String(virtualboy_games)]</label>
+												<label2>virtualboy</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/virtualboy/art/system_art.png</icon>
+												<thumb>layouts/virtualboy/art/logo.png</thumb>
+												<visible>Skin.HasSetting(virtualboy_exists)</visible>
+										</item>
+										<item id="57">
+												<label>$INFO[Skin.String(waterasupervision_games)]</label>
+												<label2>waterasupervision</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/waterasupervision/art/system_art.png</icon>
+												<thumb>layouts/waterasupervision/art/logo.png</thumb>
+												<visible>Skin.HasSetting(waterasupervision_exists)</visible>
+										</item>
+										<item id="58">
+												<label>$INFO[Skin.String(wonderswan_games)]</label>
+												<label2>wonderswan</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/wonderswan/art/system_art.png</icon>
+												<thumb>layouts/wonderswan/art/logo.png</thumb>
+												<visible>Skin.HasSetting(wonderswan_exists)</visible>
+										</item>
+										<item id="59">
+												<label>$INFO[Skin.String(x68000_games)]</label>
+												<label2>x68000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/x68000/art/system_art.png</icon>
+												<thumb>layouts/x68000/art/logo.png</thumb>
+												<visible>Skin.HasSetting(x68000_exists)</visible>
+										</item>
+										<item id="60">
+												<label>$INFO[Skin.String(xbox_games)]</label>
+												<label2>xbox</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/xbox/art/system_art.png</icon>
+												<thumb>layouts/xbox/art/logo.png</thumb>
+										</item>
+										<item id="61">
+												<label>$INFO[Skin.String(zxspectrum_games)]</label>
+												<label2>zxspectrum</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/zxspectrum/art/system_art.png</icon>
+												<thumb>layouts/zxspectrum/art/logo.png</thumb>
+												<visible>Skin.HasSetting(zxspectrum_exists)</visible>
+										</item>
+								</content>
+						</control>
+						<!-- 9002 -->
+						<!-- Alternative view uses 5 images -->
+						<control type="wraplist" id="9002">
+								<visible>Skin.HasSetting(althomelayout)</visible>
+								<posx>0</posx>
+								<posy>227</posy>
+								<width>1350</width>
+								<height>1280</height>
+								<onleft>9000</onleft>
+								<onright>9000</onright>
+								<onup>-</onup>
+								<ondown>-</ondown>
+								<scrolltime>350</scrolltime>
+								<focusposition>2</focusposition>
+								<movement>1</movement>
+								<preloaditems>0</preloaditems>
+								<orientation>Horizontal</orientation>
+								<itemlayout width="256" height="267">
+										<control type="image">
+												<posx>5</posx>
+												<posy>0</posy>
+												<width>246</width>
+												<height>267</height>
+												<aspectratio>keep</aspectratio>
+												<colordiffuse>55FFFFFF</colordiffuse>
+												<texture background="true" fallback="layouts/art/missing_carousel_logo.png">$INFO[ListItem.Thumb]</texture>
+										</control>
+								</itemlayout>
+								<focusedlayout width="256" height="267">
+										<control type="image">
+												<posx>5</posx>
+												<posy>0</posy>
+												<width>246</width>
+												<height>267</height>
+												<aspectratio>keep</aspectratio>
+												<texture background="true" fallback="layouts/art/missing_carousel_logo.png">$INFO[ListItem.Thumb]</texture>
+										</control>
+								</focusedlayout>
+								<content>
+										<item id="0">
+												<label>$LOCALIZE[5]</label>
+												<label2>$LOCALIZE[5]</label2>
+												<onclick>ActivateWindow(Settings,return)</onclick>
+												<icon>layouts/Settings/art/system_art.png</icon>
+												<thumb>layouts/Settings/art/carousel_logo.png</thumb>
+										</item>
+										<item id="1">
+												<label>$INFO[Skin.String(3do_games)]</label>
+												<label2>3do</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/3do/art/system_art.png</icon>
+												<thumb>layouts/3do/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(3do_exists)</visible>
+										</item>
+										<item id="2">
+												<label>$INFO[Skin.String(amiga_games)]</label>
+												<label2>amiga</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/amiga/art/system_art.png</icon>
+												<thumb>layouts/amiga/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(amiga_exists)</visible>
+										</item>
+										<item id="3">
+												<label>$INFO[Skin.String(amstradcpc_games)]</label>
+												<label2>amstradcpc</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/amstradcpc/art/system_art.png</icon>
+												<thumb>layouts/amstradcpc/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(amstradcpc_exists)</visible>
+										</item>
+										<item id="4">
+												<label>$INFO[Skin.String(apple2_games)]</label>
+												<label2>apple2</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/apple2/art/system_art.png</icon>
+												<thumb>layouts/apple2/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(apple2_exists)</visible>
+										</item>
+										<item id="5">
+												<label>$INFO[Skin.String(atari2600_games)]</label>
+												<label2>atari2600</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari2600/art/system_art.png</icon>
+												<thumb>layouts/atari2600/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atari2600_exists)</visible>
+										</item>
+										<item id="6">
+												<label>$INFO[Skin.String(atari5200_games)]</label>
+												<label2>atari5200</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari5200/art/system_art.png</icon>
+												<thumb>layouts/atari5200/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atari5200_exists)</visible>
+										</item>
+										<item id="7">
+												<label>$INFO[Skin.String(atari7800_games)]</label>
+												<label2>atari7800</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari7800/art/system_art.png</icon>
+												<thumb>layouts/atari7800/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atari7800_exists)</visible>
+										</item>
+										<item id="8">
+												<label>$INFO[Skin.String(atari800_games)]</label>
+												<label2>atari800</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atari800/art/system_art.png</icon>
+												<thumb>layouts/atari800/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atari800_exists)</visible>
+										</item>
+										<item id="9">
+												<label>$INFO[Skin.String(atarijaguar_games)]</label>
+												<label2>atarijaguar</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarijaguar/art/system_art.png</icon>
+												<thumb>layouts/atarijaguar/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
+										</item>
+										<item id="10">
+												<label>$INFO[Skin.String(atarilynx_games)]</label>
+												<label2>atarilynx</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarilynx/art/system_art.png</icon>
+												<thumb>layouts/atarilynx/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atarilynx_exists)</visible>
+										</item>
+										<item id="11">
+												<label>$INFO[Skin.String(atarist_games)]</label>
+												<label2>atarist</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarist/art/system_art.png</icon>
+												<thumb>layouts/atarist/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atarist_exists)</visible>
+										</item>
+										<item id="12">
+												<label>$INFO[Skin.String(atarixe_games)]</label>
+												<label2>atarixe</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarixe/art/system_art.png</icon>
+												<thumb>layouts/atarixe/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atarixe_exists)</visible>
+										</item>
+										<item id="13">
+												<label>$INFO[Skin.String(atarixl_games)]</label>
+												<label2>atarixl</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/atarixl/art/system_art.png</icon>
+												<thumb>layouts/atarixl/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atarixl_exists)</visible>
+										</item>
+										<item id="14">
+												<label>$INFO[Skin.String(c64_games)]</label>
+												<label2>c64</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/c64/art/system_art.png</icon>
+												<thumb>layouts/c64/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(c64_exists)</visible>
+										</item>
+										<item id="15">
+												<label>$INFO[Skin.String(c64pet_games)]</label>
+												<label2>c64pet</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/c64pet/art/system_art.png</icon>
+												<thumb>layouts/c64pet/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(c64pet_exists)</visible>
+										</item>
+										<item id="16">
+												<label>$INFO[Skin.String(chip8x_games)]</label>
+												<label2>chip8x</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/chip8x/art/system_art.png</icon>
+												<thumb>layouts/chip8x/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(chip8x_exists)</visible>
+										</item>
+										<item id="17">
+												<label>$INFO[Skin.String(coco_games)]</label>
+												<label2>coco</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/coco/art/system_art.png</icon>
+												<thumb>layouts/coco/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(coco_exists)</visible>
+										</item>
+										<item id="18">
+												<label>$INFO[Skin.String(colecovision_games)]</label>
+												<label2>colecovision</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/colecovision/art/system_art.png</icon>
+												<thumb>layouts/colecovision/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(colecovision_exists)</visible>
+										</item>
+										<item id="19">
+												<label>$INFO[Skin.String(cv20_games)]</label>
+												<label2>cv20</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/cv20/art/system_art.png</icon>
+												<thumb>layouts/cv20/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(cv20_exists)</visible>
+										</item>
+										<item id="20">
+												<label>$INFO[Skin.String(daphnex_games)]</label>
+												<label2>daphnex</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/daphnex/art/system_art.png</icon>
+												<thumb>layouts/daphnex/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(daphnex_exists)</visible>
+										</item>
+										<item id="21">
+												<label>$INFO[Skin.String(dreamcastvmu_games)]</label>
+												<label2>dreamcastvmu</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/dreamcastvmu/art/system_art.png</icon>
+												<thumb>layouts/dreamcastvmu/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(dreamcastvmu_exists)</visible>
+										</item>
+										<item id="22">
+												<label>$INFO[Skin.String(fba_games)]</label>
+												<label2>fba</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/fba/art/system_art.png</icon>
+												<thumb>layouts/fba/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(fba_exists)</visible>
+										</item>
+										<item id="23">
+												<label>$INFO[Skin.String(gamegear_games)]</label>
+												<label2>gamegear</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gamegear/art/system_art.png</icon>
+												<thumb>layouts/gamegear/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(gamegear_exists)</visible>
+										</item>
+										<item id="24">
+												<label>$INFO[Skin.String(gb_games)]</label>
+												<label2>gb</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gb/art/system_art.png</icon>
+												<thumb>layouts/gb/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(gb_exists)</visible>
+										</item>
+										<item id="25">
+												<label>$INFO[Skin.String(gba_games)]</label>
+												<label2>gba</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gba/art/system_art.png</icon>
+												<thumb>layouts/gba/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(gba_exists)</visible>
+										</item>
+										<item id="26">
+												<label>$INFO[Skin.String(gbc_games)]</label>
+												<label2>gbc</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/gbc/art/system_art.png</icon>
+												<thumb>layouts/gbc/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(gbc_exists)</visible>
+										</item>
+										<item id="27">
+												<label>$INFO[Skin.String(genesis_games)]</label>
+												<label2>genesis</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/genesis/art/system_art.png</icon>
+												<thumb>layouts/genesis/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(genesis_exists)</visible>
+										</item>
+										<item id="28">
+												<label>$INFO[Skin.String(intellivision_games)]</label>
+												<label2>intellivision</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/intellivision/art/system_art.png</icon>
+												<thumb>layouts/intellivision/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(intellivision_exists)</visible>
+										</item>
+										<item id="29">
+												<label>$INFO[Skin.String(mame_games)]</label>
+												<label2>mame</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/mame/art/system_art.png</icon>
+												<thumb>layouts/mame/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(mame_exists)</visible>
+										</item>
+										<item id="30">
+												<label>$INFO[Skin.String(mastersystem_games)]</label>
+												<label2>mastersystem</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/mastersystem/art/system_art.png</icon>
+												<thumb>layouts/mastersystem/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(mastersystem_exists)</visible>
+										</item>
+										<item id="31">
+												<label>$INFO[Skin.String(megadrive_games)]</label>
+												<label2>megadrive</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/megadrive/art/system_art.png</icon>
+												<thumb>layouts/megadrive/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(megadrive_exists)</visible>
+										</item>
+										<item id="32">
+												<label>$INFO[Skin.String(mess_games)]</label>
+												<label2>mess</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/mess/art/system_art.png</icon>
+												<thumb>layouts/mess/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(mess_exists)</visible>
+										</item>
+										<item id="33">
+												<label>$INFO[Skin.String(msx_games)]</label>
+												<label2>msx</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/msx/art/system_art.png</icon>
+												<thumb>layouts/msx/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(msx_exists)</visible>
+										</item>
+										<item id="34">
+												<label>$INFO[Skin.String(n64_games)]</label>
+												<label2>n64</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/n64/art/system_art.png</icon>
+												<thumb>layouts/n64/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(n64_exists)</visible>
+										</item>
+										<item id="35">
+												<label>$INFO[Skin.String(nds_games)]</label>
+												<label2>nds</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/nds/art/system_art.png</icon>
+												<thumb>layouts/nds/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(nds_exists)</visible>
+										</item>
+										<item id="36">
+												<label>$INFO[Skin.String(neogeocd_games)]</label>
+												<label2>neogeocd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/neogeocd/art/system_art.png</icon>
+												<thumb>layouts/neogeocd/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(neogeocd_exists)</visible>
+										</item>
+										<item id="37">
+												<label>$INFO[Skin.String(nes_games)]</label>
+												<label2>nes</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/nes/art/system_art.png</icon>
+												<thumb>layouts/nes/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(nes_exists)</visible>
+										</item>
+										<item id="38">
+												<label>$INFO[Skin.String(ngpc_games)]</label>
+												<label2>ngpc</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/ngpc/art/system_art.png</icon>
+												<thumb>layouts/ngpc/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(ngpc_exists)</visible>
+										</item>
+										<item id="39">
+												<label>$INFO[Skin.String(odyssey2_games)]</label>
+												<label2>odyssey2</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/odyssey2/art/system_art.png</icon>
+												<thumb>layouts/odyssey2/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(odyssey2_exists)</visible>
+										</item>
+										<item id="40">
+												<label>$INFO[Skin.String(pc-98_games)]</label>
+												<label2>pc-98</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/pc-98/art/system_art.png</icon>
+												<thumb>layouts/pc-98/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(pc-98_exists)</visible>
+										</item>
+										<item id="41">
+												<label>$INFO[Skin.String(pcengine_games)]</label>
+												<label2>pcengine</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/pcengine/art/system_art.png</icon>
+												<thumb>layouts/pcengine/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(pcengine_exists)</visible>
+										</item>
+										<item id="42">
+												<label>$INFO[Skin.String(ports_games)]</label>
+												<label2>ports</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/ports/art/system_art.png</icon>
+												<thumb>layouts/ports/art/carousel_logo.png</thumb>
+										</item>
+										<item id="43">
+												<label>$INFO[Skin.String(psx_games)]</label>
+												<label2>psx</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/psx/art/system_art.png</icon>
+												<thumb>layouts/psx/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(psx_exists)</visible>
+										</item>
+										<item id="44">
+												<label>$INFO[Skin.String(samcoupe_games)]</label>
+												<label2>samcoupe</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/samcoupe/art/system_art.png</icon>
+												<thumb>layouts/samcoupe/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(samcoupe_exists)</visible>
+										</item>
+										<item id="45">
+												<label>$INFO[Skin.String(saturn_games)]</label>
+												<label2>saturn</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/saturn/art/system_art.png</icon>
+												<thumb>layouts/saturn/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(saturn_exists)</visible>
+										</item>
+										<item id="46">
+												<label>$INFO[Skin.String(sc-3000_games)]</label>
+												<label2>sc-3000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sc-3000/art/system_art.png</icon>
+												<thumb>layouts/sc-3000/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(sc-3000_exists)</visible>
+										</item>
+										<item id="47">
+												<label>$INFO[Skin.String(scummvm_games)]</label>
+												<label2>scummvm</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/scummvm/art/system_art.png</icon>
+												<thumb>layouts/scummvm/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(scummvm_exists)</visible>
+										</item>
+										<item id="48">
+												<label>$INFO[Skin.String(sega32x_games)]</label>
+												<label2>sega32x</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sega32x/art/system_art.png</icon>
+												<thumb>layouts/sega32x/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(sega32x_exists)</visible>
+										</item>
+										<item id="49">
+												<label>$INFO[Skin.String(segacd_games)]</label>
+												<label2>segacd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/segacd/art/system_art.png</icon>
+												<thumb>layouts/segacd/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(segacd_exists)</visible>
+										</item>
+										<item id="50">
+												<label>$INFO[Skin.String(sf-7000_games)]</label>
+												<label2>sf-7000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sf-7000/art/system_art.png</icon>
+												<thumb>layouts/sf-7000/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(sf-7000_exists)</visible>
+										</item>
+										<item id="51">
+												<label>$INFO[Skin.String(sg-1000_games)]</label>
+												<label2>sg-1000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sg-1000/art/system_art.png</icon>
+												<thumb>layouts/sg-1000/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(sg-1000_exists)</visible>
+										</item>
+										<item id="52">
+												<label>$INFO[Skin.String(sgb_games)]</label>
+												<label2>sgb</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sgb/art/system_art.png</icon>
+												<thumb>layouts/sgb/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(sgb_exists)</visible>
+										</item>
+										<item id="53">
+												<label>$INFO[Skin.String(sgb2_games)]</label>
+												<label2>sgb2</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/sgb2/art/system_art.png</icon>
+												<thumb>layouts/sgb2/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(sgb2_exists)</visible>
+										</item>
+										<item id="54">
+												<label>$INFO[Skin.String(snes_games)]</label>
+												<label2>snes</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/snes/art/system_art.png</icon>
+												<thumb>layouts/snes/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(snes_exists)</visible>
+										</item>
+										<item id="55">
+												<label>$INFO[Skin.String(ti99_games)]</label>
+												<label2>ti99</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/ti99/art/system_art.png</icon>
+												<thumb>layouts/ti99/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(ti99_exists)</visible>
+										</item>
+										<item id="56">
+												<label>$INFO[Skin.String(virtualboy_games)]</label>
+												<label2>virtualboy</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/virtualboy/art/system_art.png</icon>
+												<thumb>layouts/virtualboy/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(virtualboy_exists)</visible>
+										</item>
+										<item id="57">
+												<label>$INFO[Skin.String(waterasupervision_games)]</label>
+												<label2>waterasupervision</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/waterasupervision/art/system_art.png</icon>
+												<thumb>layouts/waterasupervision/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(waterasupervision_exists)</visible>
+										</item>
+										<item id="58">
+												<label>$INFO[Skin.String(wonderswan_games)]</label>
+												<label2>wonderswan</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/wonderswan/art/system_art.png</icon>
+												<thumb>layouts/wonderswan/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(wonderswan_exists)</visible>
+										</item>
+										<item id="59">
+												<label>$INFO[Skin.String(x68000_games)]</label>
+												<label2>x68000</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/x68000/art/system_art.png</icon>
+												<thumb>layouts/x68000/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(x68000_exists)</visible>
+										</item>
+										<item id="60">
+												<label>$INFO[Skin.String(xbox_games)]</label>
+												<label2>xbox</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/xbox/art/system_art.png</icon>
+												<thumb>layouts/xbox/art/carousel_logo.png</thumb>
+										</item>
+										<item id="61">
+												<label>$INFO[Skin.String(zxspectrum_games)]</label>
+												<label2>zxspectrum</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+												<icon>layouts/zxspectrum/art/system_art.png</icon>
+												<thumb>layouts/zxspectrum/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(zxspectrum_exists)</visible>
+										</item>
+								</content>
+						</control>
+				</control>
+		</controls>
+</window>
