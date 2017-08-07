@@ -33,7 +33,7 @@ for Items in sorted( os.listdir( Content_List_Path ) ):
 		Header_Data						= '<window id="1">\n\
 			<defaultcontrol always="false">9000</defaultcontrol>\n\
 			<allowoverlay>no</allowoverlay>\n\
-			<views>50</views>\n\
+			<views>50,51,52,53,54,55,56,57,58,59,60</views>\n\
 			<layout>' + MenuLabel_XML + '</layout>\n\
 			<controls>\n\
 			<include>CommonBackground</include>\n\
@@ -48,17 +48,15 @@ for Items in sorted( os.listdir( Content_List_Path ) ):
 				<aspectratio>stretch</aspectratio>\n\
 				<texture background="false" fallback="layouts/' + MenuLabel_XML + '/menu_background.png">Special://xbmc/_layouts/' + MenuLabel_XML + '/menu_background.png</texture>\n\
 			</control>\n\
-			<control type="group">\n\
 		'
 		Footer_Data						= '\n\
-			</control>\n\
 			<control type="image">\n\
 				<posx>0</posx>\n\
 				<posy>85r</posy>\n\
 				<width>1280</width>\n\
 				<height>85</height>\n\
 				<aspectratio>stretch</aspectratio>\n\
-				<texture background="true">layouts/art/gamelist_help.png</texture>\n\
+				<texture background="true">layouts/art/gamelist_help_emus.png</texture>\n\
 			</control>\n\
 			</control>\n\
 		</controls>\n\

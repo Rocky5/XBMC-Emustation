@@ -48,7 +48,7 @@ if XBE_Files == 1:
 	Header_Data						= '<window id="1">\n\
 		<defaultcontrol always="true">50</defaultcontrol>\n\
 		<allowoverlay>no</allowoverlay>\n\
-		<views>50</views>\n\
+		<views>50,51,52,53,54,55,56,57,58,59,60</views>\n\
 		<layout>' + MenuLabel_XML + '</layout>\n\
 		<controls>\n\
 		<include>CommonBackground</include>\n\
@@ -63,10 +63,8 @@ if XBE_Files == 1:
 			<aspectratio>stretch</aspectratio>\n\
 			<texture background="false" fallback="layouts/' + MenuLabel_XML + '/menu_background.png">Special://skin/layouts/' + MenuLabel_XML + '/menu_background.png</texture>\n\
 		</control>\n\
-		<control type="group">\n\
 	'
 	Footer_Data						= '\n\
-	</control>\n\
 	<control type="image">\n\
 		<posx>0</posx>\n\
 		<posy>85r</posy>\n\

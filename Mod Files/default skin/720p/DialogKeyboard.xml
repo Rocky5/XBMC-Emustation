@@ -35,7 +35,7 @@
 								<textcolor>black</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
-								<visible>!Window.IsVisible(1) | !StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
+								<visible>!Window.IsVisible(1113) | !StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
 						</control>
 						<control type="label">
 								<description>dialog Heading</description>
@@ -48,7 +48,7 @@
 								<label>Enter a 6 digit hex colour code (0-F)</label>
 								<align>center</align>
 								<aligny>center</aligny>
-								<visible>Window.IsVisible(1) + StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
+								<visible>Window.IsVisible(1113) + StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
 						</control>
 						<control type="image">
 								<posx>45</posx>
@@ -69,7 +69,7 @@
 								<aligny>center</aligny>
 						</control>
 						<control type="group">
-								<visible>!Window.IsVisible(1) | !StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
+								<visible>!Window.IsVisible(1113) | !StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
 								<posx>45</posx>
 								<posy>140</posy>
 								<control type="button" id="300">
@@ -808,7 +808,7 @@
 						</control>
 				</control>
 				<control type="group">
-						<visible>Window.IsVisible(1) + StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
+						<visible>Window.IsVisible(1113) + StringCompare(Control.GetLabel(311),$LOCALIZE[1029])</visible>
 						<posx>45</posx>
 						<posy>140</posy>
 						<control type="button" id="300">

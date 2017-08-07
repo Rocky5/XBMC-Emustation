@@ -1,3 +1,13 @@
+08/08/2017
+	1) New theme, carbon
+	2) New layouts for Carbon theme, you can have multiply layouts per layout file.
+	3) Added the option to change the menu colour for the carbon theme.
+	4) OK dialog and Progress dialog are skinned to match the rest of the skin.
+	   ( still need to do the rest )
+	5) Updated some more textures and created a few more.
+	6) Done the context menu
+	7) slight change to the layout script and default script.
+
 07/08/2017
 	1) Fixed a few types in the scripts
 	2) Forgot to update the welcome window ID

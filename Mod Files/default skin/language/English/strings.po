@@ -667,7 +667,7 @@ msgid "[UPPERCASE]gui calibration[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32023"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]set carbon themes colour[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32024"

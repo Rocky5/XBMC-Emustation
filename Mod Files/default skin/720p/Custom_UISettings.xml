@@ -98,6 +98,13 @@
 								<control type="button" id="8">
 										<posx>0</posx>
 										<posy>0</posy>
+										<label>$LOCALIZE[32023]</label>
+										<include>MenuFolderButtonCommonValues</include>
+										<onclick>Skin.SetString(carbon_custom_colours)</onclick>
+								</control>
+								<control type="button" id="20">
+										<posx>0</posx>
+										<posy>0</posy>
 										<label>$LOCALIZE[32022]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>ActivateWindow(guicalibration)</onclick>

@@ -3,4 +3,8 @@
 				<value condition="!Skin.HasSetting(altlabelcolour)">carousel_bar_label</value>
 				<value condition="Skin.HasSetting(altlabelcolour)">carousel_bar_alt_label</value>
 		</variable>
+		<variable name="var-carbon_custom_colours">
+				<value condition="IsEmpty(Skin.String(carbon_custom_colours))">FF067EAD</value>
+				<value condition="StringCompare(Skin.CurrentTheme,carbon.xpr)">FF$INFO[Skin.String(carbon_custom_colours)]</value>
+		</variable>
 </includes>
