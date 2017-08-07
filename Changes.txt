@@ -1,0 +1,6 @@
+07/08/2017
+	1) Fixed a few types in the scripts
+	2) Forgot to update the welcome window ID
+	3) Updated the intro script to support multiple extension.
+	  ( avi,mp4,wmv,xmv - filename is intro, but this can be changed in the startup.xml)
+	4) removed the firstrun script and just use the scan.py instead since I added silent mode to it.

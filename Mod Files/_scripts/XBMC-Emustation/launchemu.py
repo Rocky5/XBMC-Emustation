@@ -7,7 +7,7 @@ import glob, os, shutil, sqlite3, sys,time, xbmc, xbmcgui
 
 #####	Start markings for the log file.
 print "================================================================================"
-print "| _Scripts\XBMC-Emustation\generate thumbs.py loaded."
+print "| _Scripts\XBMC-Emustation\launchemu.py loaded."
 print "| ------------------------------------------------------------------------------"
 pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()

@@ -91,11 +91,11 @@ for Homebrew_Directories in Homebrew_Directories:
 						shutil.copy2( DefaultTBN, Temp_Profile_Directory + ThumbCache[0] + "\\" + ThumbCache )
 					CountList = CountList + 1
 ## Cut Files disabled due to me using static menus for cut files
+# CountList = 1
 # pDialog.update(0)
 # if os.path.isdir( CUTFile_Path ):
 	# if CountList == 1:	pDialog.create( "Generating Thumbnails" )
 	# for Folders in sorted( os.listdir( Emulator_Path ) ):
-		# CountList = 1
 		# EmuFolder = os.path.join( CUTFile_Path, Folders ) + "\\"
 		# Emu_Name = os.path.split(os.path.dirname( EmuFolder ))[1]
 		# if os.path.isdir( EmuFolder ):

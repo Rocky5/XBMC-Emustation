@@ -166,8 +166,6 @@ if Update_XBE_Games == "scan_xbes":
 						else:
 							Cancelled = "True"
 							pass
-
-	## this is outside the loop so doesn't need a sleep entry to fix the progress
 	xbmc.executebuiltin('Skin.SetString(apps_installed,' + str(xbecount) + ')')
 
 if not SilentMode: 

@@ -8,7 +8,7 @@ from BeautifulSoup import *
 
 #####	Start markings for the log file.
 print "================================================================================"
-print "| _Scripts\XBMC-Emustation\default.py loaded."
+print "| _Scripts\XBMC-Emustation\create layouts.py loaded."
 print "| ------------------------------------------------------------------------------"
 	
 pDialog							= xbmcgui.DialogProgress()

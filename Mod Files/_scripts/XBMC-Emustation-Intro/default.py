@@ -1,33 +1,45 @@
 import os, time, xbmc, xbmcgui
 
+## Updated by Rocky5 to add dynamic extensions
+
 try:
-	filename = sys.argv[1]
+	filename	= sys.argv[1]
 except:
-	filename = ""
+	filename	= ""
+	
+Extensions		= [ "avi","mp4","wmv","xmv" ]
 
-if os.path.isfile( xbmc.translatePath( 'Special://xbmc/' + filename ) ):
-	isplayed = xbmc.getInfoLabel( "Window(Home).Property(intro.isplayed)" ).lower() == "true"
-	winPrograms = xbmc.getCondVisibility( 'Window.IsVisible(Programs)' )
 
-	if not isplayed or winPrograms:
-		ReplaceWindowHome = not winPrograms
-		print "XBMC Intro Movie"
+for Items in sorted( os.listdir( xbmc.translatePath( 'Special://xbmc/' ) ) ):
+	if Items.endswith(tuple(Extensions)):
+		if Items.startswith(filename):
+			filename = Items
+			isplayed = xbmc.getInfoLabel( "Window(Home).Property(intro.isplayed)" ).lower() == "true"
+			winPrograms = xbmc.getCondVisibility( 'Window.IsVisible(Programs)' )
 
-		intro = xbmc.translatePath( 'Special://xbmc/' + filename )
-		player = xbmc.Player( xbmc.PLAYER_CORE_MPLAYER )
-		#player = xbmc.Player( xbmc.PLAYER_CORE_DVDPLAYER )
-		player.play( intro )
-		xbmcgui.Window( 10000 ).setProperty( "intro.isplayed", "true" )
+			if not isplayed or winPrograms:
+				ReplaceWindowHome = not winPrograms
+				print "XBMC Intro Movie"
 
-		if ReplaceWindowHome:
-			xbmc.sleep( 500 )
+				intro = xbmc.translatePath( 'Special://xbmc/' + filename )
+				if filename.endswith("xmv") or filename.endswith("mp4"):
+					print "dvdplayer"
+					player = xbmc.Player( xbmc.PLAYER_CORE_DVDPLAYER )
+				else:
+					print "mplayer"
+					player = xbmc.Player( xbmc.PLAYER_CORE_MPLAYER )
+				player.play( intro )
+				xbmcgui.Window( 10000 ).setProperty( "intro.isplayed", "true" )
 
-			while player.isPlaying():
-				#continue
-				time.sleep( .2 )
+				if ReplaceWindowHome:
+					xbmc.sleep( 500 )
 
-			xbmc.executebuiltin( "ReplaceWindow(Home)" )
+					while player.isPlaying():
+						#continue
+						time.sleep( .2 )
 
-			xbmc.sleep( 1000 )
-else:
-	xbmc.executebuiltin( "ReplaceWindow(Home)" )
+					xbmc.executebuiltin( "ReplaceWindow(Home)" )
+
+					xbmc.sleep( 1000 )
+
+xbmc.executebuiltin( "ReplaceWindow(Home)" )

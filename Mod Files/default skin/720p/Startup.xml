@@ -1,6 +1,6 @@
 <window id="2999">
-		<onload condition="!Skin.HasSetting(firstrun)">ReplaceWindow(1110)</onload>
-		<onload condition="Skin.HasSetting(firstrun)">RunScript(Special://xbmc/_Scripts/XBMC-Emustation-Intro/default.py,splash.wmv)</onload>
+		<onload condition="!Skin.HasSetting(firstrun)">ReplaceWindow(1200)</onload>
+		<onload condition="Skin.HasSetting(firstrun)">RunScript(Special://xbmc/_Scripts/XBMC-Emustation-Intro/default.py,intro)</onload>
 		<defaultcontrol always="true">1</defaultcontrol>
 		<allowoverlay>no</allowoverlay>
 		<controls>

@@ -11,7 +11,6 @@
 		<color name="dialogheader">FF399EDA</color>
 		<color name="synopsiscolour1">FF399EDA</color>
 		<color name="synopsiscolour2">FF969696</color>
-		
 		<!-- menus ( start button and settings ) -->
 		<color name="menu_select_back">FF888788</color>
 		<color name="menu_select_label">FFFFFFFF</color>
@@ -22,7 +21,4 @@
 		<color name="carousel_bar">EEBDBDBD</color>
 		<color name="carousel_bar_label">FF403F3C</color>
 		<color name="carousel_bar_alt_label">FFFFFFFF</color>
-		
-		
-		
 </colors>
