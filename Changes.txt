@@ -4,3 +4,8 @@
 	3) Updated the intro script to support multiple extension.
 	  ( avi,mp4,wmv,xmv - filename is intro, but this can be changed in the startup.xml)
 	4) removed the firstrun script and just use the scan.py instead since I added silent mode to it.
+	
+	..: added after first commit :..
+	5) Added more error handling to the Cut file script and also made it do house cleaning first.
+	6) Made the Scan script hide emulators with zero cut files
+	7) Script optimisations ( now that I can see the code better lol )

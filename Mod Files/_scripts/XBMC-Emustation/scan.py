@@ -45,54 +45,97 @@ SilentMode = 0
 if str(xbmcgui.getCurrentWindowId()) == "11200": SilentMode = 1
 
 if Updaye_Emulators == "scan_emus":
+
 	if os.path.isdir( Emulator_Path ):
+	
 		for EMU_Directories in EMU_Directories:
+		
 			if not os.path.isdir( os.path.join( Emulator_Path, EMU_Directories ) ): os.makedirs( os.path.join( Emulator_Path, EMU_Directories ) )
+			
 			if EMU_Directories == "fba":
 				pass
 			elif EMU_Directories == "mame":
 				pass
 			else:
 				if not os.path.isdir( os.path.join( Rom_Path, EMU_Directories ) ): os.makedirs( os.path.join( Rom_Path, EMU_Directories ) )
+		
 		CountList = 1
 		pDialog.update( 0 )
+		
 		if not SilentMode: pDialog.create( "Refreshing Emulator List","","Please wait..." )
+		
 		for Items in sorted( os.listdir( Emulator_Path ) ):
+		
 			EmuFolder = Items
-			xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)')
-			if os.path.isdir(os.path.join( Emulator_Path, Items)):
-				Emulator	= os.path.join( Emulator_Path, Items ) + "\\"
-				XBEFile		= glob.glob( os.path.join( Emulator, "default.*" ) )
-				for XBE in XBEFile:
-					if os.path.isfile( XBE ):
-						if not SilentMode: pDialog.update( ( CountList * 100 ) / len( os.listdir( Emulator_Path ) ),"Scanning folders",EmuFolder )
-						CountList = CountList + 1
-						time.sleep(0.1) ## this is here so the progress bar can update
-						xbmc.executebuiltin('Skin.SetBool('+ EmuFolder  +'_exists)')
-			#Update_CUT_Games = "1"
+			if EmuFolder == "fba":
+				Roms_Folder = os.path.join( Emulator_Path + Items  ) +  "\\roms"
+			elif EmuFolder == "mame":
+				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
+			else:
+				Roms_Folder = os.path.join( Rom_Path + Items )
+			
+			if len(os.listdir( Roms_Folder )) > 0:
+			
+				if os.path.isdir(os.path.join( Emulator_Path, Items)):
+				
+					Emulator	= os.path.join( Emulator_Path, Items ) + "\\"
+					XBEFile		= glob.glob( os.path.join( Emulator, "default.xbe" ) )
+					
+					for XBE in XBEFile:
+					
+						if os.path.isfile( XBE ):
+						
+							if not SilentMode: pDialog.update( ( CountList * 100 ) / len( os.listdir( Emulator_Path ) ),"Scanning folders",EmuFolder )
+							
+							CountList = CountList + 1
+							time.sleep(0.1) ## this is here so the progress bar can update
+							xbmc.executebuiltin('Skin.SetBool('+ EmuFolder  +'_exists)')
+						else:
+							xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)')
+			else:
+				xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)' )
+			
 	else:
 		dialog.ok( "Error",'No [B]"_emulator files"[/B] folder found.' )
 
 if Update_CUT_Games == "scan_cuts":	
+
+	if not SilentMode: pDialog.create( "Refreshing .CUT File Counters","","Please wait..." )
+
 	if os.path.isdir( Emulator_Path ): ## this is here to get the directory names for the _cut files folder and if it doesn't exist create it.
+	
 		for Items in sorted( os.listdir( Emulator_Path ) ):
+		
 			Emu_Folder_Names = os.path.join( CUTFile_Path, Items )
+			
 			if not os.path.isdir( Emu_Folder_Names ): os.makedirs( Emu_Folder_Names )		
 		
 		if os.path.isdir( CUTFile_Path ):
+		
 			CountList = 1
 			pDialog.update( 0 )
-			if not SilentMode: pDialog.create( "Refreshing .CUT File Counters","","Please wait..." )
+			
 			for Items in sorted( os.listdir( CUTFile_Path ) ):
+			
 				EmuFolder = Items
+				
 				if os.path.isdir(os.path.join( CUTFile_Path, Items)):
+				
 					if not ( pDialog.iscanceled() ):
+					
 						Emulator	= os.path.join( CUTFile_Path, Items ) + "\\"
 						CUTTotal = str(len(glob.glob1(Emulator,"*.cut")))
+						
 						if not SilentMode: pDialog.update( ( CountList * 100 ) / len( os.listdir( CUTFile_Path ) ),"Processing",EmuFolder,"Please wait..." )
+						
 						CountList = CountList + 1
 						time.sleep(0.1) ## this is here so the progress bar can update
-						xbmc.executebuiltin('Skin.SetString('+ EmuFolder +'_games,'+ CUTTotal + ')')
+						
+						if CUTTotal == "0":
+							xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)' )
+							xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_games)' )
+						else:
+							xbmc.executebuiltin('Skin.SetString('+ EmuFolder +'_games,'+ CUTTotal + ')')
 					else:
 						Cancelled = "True"
 						pass
@@ -101,71 +144,115 @@ if Update_CUT_Games == "scan_cuts":
 		
 
 if Update_XBE_Games == "scan_xbes":
+
 	xbecount = 0
+	
+	if not SilentMode: pDialog.create( "Refreshing XBE Counter","","Please wait..." )
+	
 	for Game_Directories in Game_Directories:
+	
 		CountList = 1
 		pDialog.update( 0 )
+		
 		if os.path.isdir( Game_Directories ):
+		
 			for Items in sorted( os.listdir( Game_Directories ) ):
+			
 				if os.path.isdir(os.path.join( Game_Directories, Items)):
+				
 					Game_Path = os.path.join( Game_Directories, Items ) + "\\"
+					
 					if os.path.isdir( Game_Path ):
+					
 						XBEFiles = glob.glob( os.path.join( Game_Path, "default.xbe" ) )
+						
 						if not ( pDialog.iscanceled() ):
+						
 							for Default in XBEFiles:
+							
 								if os.path.isfile( Default ):
 									xbecount = xbecount + 1
+									
 								if not SilentMode: 
-									if CountList == 1: pDialog.create( "Refreshing Xbox Game Counter","","Please wait..." )
+									
 									pDialog.update( ( CountList * 100 ) / len( os.listdir( Game_Directories ) ),"Processing",Items,"Please wait..." )
 									CountList = CountList + 1
 						else:
 							Cancelled = "True"
 							pass
+							
 	xbmc.executebuiltin('Skin.SetString(xbox_games,' + str(xbecount) + ')')
+	
 	xbecount = 0
+	
 	for Homebrew_Directories in Homebrew_Directories:
+	
 		CountList = 1
 		pDialog.update( 0 )
+		
 		if os.path.isdir( Homebrew_Directories ):
+		
 			for Items in sorted( os.listdir( Homebrew_Directories ) ):
+			
 				if os.path.isdir(os.path.join( Homebrew_Directories, Items)):
+				
 					Game_Path = os.path.join( Homebrew_Directories, Items ) + "\\"
+					
 					if os.path.isdir( Game_Path ):
+					
 						XBEFiles = glob.glob( os.path.join( Game_Path, "default.xbe" ) )
+						
 						if not ( pDialog.iscanceled() ):
+						
 							for Default in XBEFiles:
+							
 								if os.path.isfile( Default ):
 									xbecount = xbecount + 1
+									
 								if not SilentMode: 
-									if CountList == 1: pDialog.create( "Refreshing Homebrew Counter","","Please wait..." )
+									
 									pDialog.update( ( CountList * 100 ) / len( os.listdir( Homebrew_Directories ) ),"Processing",Items,"Please wait..." )
 									CountList = CountList + 1
 						else:
 							Cancelled = "True"
 							pass
+							
 	xbmc.executebuiltin('Skin.SetString(ports_games,' + str(xbecount) + ')')
+	
 	xbecount = 0
+	
 	for Apps_Directories in Apps_Directories:
+	
 		CountList = 1
 		pDialog.update( 0 )
+		
 		if os.path.isdir( Apps_Directories ):
+		
 			for Items in sorted( os.listdir( Apps_Directories ) ):
+			
 				if os.path.isdir(os.path.join( Apps_Directories, Items)):
+				
 					Game_Path = os.path.join( Apps_Directories, Items ) + "\\"
+					
 					if os.path.isdir( Game_Path ):
+					
 						XBEFiles = glob.glob( os.path.join( Game_Path, "default.xbe" ) )
+						
 						if not ( pDialog.iscanceled() ):
+						
 							for Default in XBEFiles:
+							
 								if os.path.isfile( Default ):
 									xbecount = xbecount + 1
+									
 								if not SilentMode: 
-									if CountList == 1: pDialog.create( "Refreshing Apps Counter","","Please wait..." )
+									
 									pDialog.update( ( CountList * 100 ) / len( os.listdir( Apps_Directories ) ),"Processing",Items,"Please wait..." )
 									CountList = CountList + 1
 						else:
 							Cancelled = "True"
 							pass
+							
 	xbmc.executebuiltin('Skin.SetString(apps_installed,' + str(xbecount) + ')')
 
 if not SilentMode: 
