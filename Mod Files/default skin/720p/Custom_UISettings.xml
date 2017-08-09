@@ -37,124 +37,44 @@
 								<control type="button" id="1">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32016]</label>
-										<align>center</align>
-										<aligny>center</aligny>
-										<include>MenuButtonCommonValues</include>
-										<onright>Skin.Theme(1)</onright>
-										<onleft>Skin.Theme(-1)</onleft>
-								</control>
-								<control type="label" id="2">
-										<posx>0</posx>
-										<posy>0</posy>
-										<width>640</width>
-										<height>50</height>
-										<font>extra23</font>
-										<label>[UPPERCASE]$INFO[Skin.CurrentTheme][/UPPERCASE]</label>
-										<align>center</align>
-										<aligny>center</aligny>
-										<textcolor>menu_deselect_label</textcolor>
-								</control>
-								<control type="radiobutton" id="3">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32017]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.ToggleSetting(althomelayout)</onclick>
-										<selected>Skin.HasSetting(althomelayout)</selected>
-								</control>
-								<control type="radiobutton" id="4">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32018]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.ToggleSetting(altcarouselbar)</onclick>
-										<selected>Skin.HasSetting(altcarouselbar)</selected>
-								</control>
-								<control type="radiobutton" id="5">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32019]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.ToggleSetting(altlabelposition)</onclick>
-										<selected>Skin.HasSetting(altlabelposition)</selected>
-								</control>
-								<control type="radiobutton" id="6">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32020]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.ToggleSetting(altlabelcolour)</onclick>
-										<selected>Skin.HasSetting(altlabelcolour)</selected>
-								</control>
-								<control type="radiobutton" id="7">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32021]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.ToggleSetting(althomeanimation)</onclick>
-										<selected>Skin.HasSetting(althomeanimation)</selected>
-								</control>
-								<control type="button" id="8">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32023]</label>
+										<label>$LOCALIZE[32024]</label>
 										<include>MenuFolderButtonCommonValues</include>
-										<onclick>Skin.SetString(carbon_custom_colours)</onclick>
+										<onclick>ActivateWindow(1300)</onclick>
+										<onclick>Dialog.Close(1113,true)</onclick>
 								</control>
-								<control type="button" id="20">
+								<control type="button" id="2">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label>$LOCALIZE[32022]</label>
-										<include>MenuButtonCommonValues</include>
+										<include>MenuFolderButtonCommonValues</include>
 										<onclick>ActivateWindow(guicalibration)</onclick>
 										<onclick>Dialog.Close(All,true)</onclick>
 								</control>
 						</control>
-						<control type="image">
-								<posx>340</posx>
-								<posy>257</posy>
-								<width>30</width>
-								<height>30</height>
-								<texture>pad_buttons/dpad_left_button.png</texture>
-								<animation effect="fade" delay="200" time="200">visible</animation>
-								<animation effect="fade" delay="0" time="0">hidden</animation>
-								<visible>Control.HasFocus(1)</visible>
-						</control>
-						<control type="image">
-								<posx>370r</posx>
-								<posy>257</posy>
-								<width>30</width>
-								<height>30</height>
-								<texture>pad_buttons/dpad_right_button.png</texture>
-								<animation effect="fade" delay="200" time="200">visible</animation>
-								<animation effect="fade" delay="0" time="0">hidden</animation>
-								<visible>Control.HasFocus(1)</visible>
-						</control>
 				</control>
-				<control type="image">
-						<posx>360r</posx>
-						<posy>195</posy>
-						<width>22</width>
-						<height>22</height>
-						<texture>scroll-up.png</texture>
-						<colordiffuse>menu_header_label</colordiffuse>
-						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
-								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
-								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
-						</animation>
-				</control>
-				<control type="image">
-						<posx>360r</posx>
-						<posy>208r</posy>
-						<width>22</width>
-						<height>22</height>
-						<texture>scroll-down.png</texture>
-						<colordiffuse>menu_header_label</colordiffuse>
-						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
-								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
-								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
-						</animation>
-				</control>
+				<!-- <control type="image"> -->
+				<!-- <posx>360r</posx> -->
+				<!-- <posy>195</posy> -->
+				<!-- <width>22</width> -->
+				<!-- <height>22</height> -->
+				<!-- <texture>scroll-up.png</texture> -->
+				<!-- <colordiffuse>menu_header_label</colordiffuse> -->
+				<!-- <animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false"> -->
+				<!-- <effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" /> -->
+				<!-- <effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" /> -->
+				<!-- </animation> -->
+				<!-- </control> -->
+				<!-- <control type="image"> -->
+				<!-- <posx>360r</posx> -->
+				<!-- <posy>208r</posy> -->
+				<!-- <width>22</width> -->
+				<!-- <height>22</height> -->
+				<!-- <texture>scroll-down.png</texture> -->
+				<!-- <colordiffuse>menu_header_label</colordiffuse> -->
+				<!-- <animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false"> -->
+				<!-- <effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" /> -->
+				<!-- <effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" /> -->
+				<!-- </animation> -->
+				<!-- </control> -->
 		</controls>
 </window>

@@ -9,3 +9,4 @@
 7) Added my Synopsis script to the context menu for the MyPrograms windows
 8) Added a new custom window _script*.xml will now be automatically parsed like Custom*.xml
 9) Rearranged the folders structure to make it cleaner.
+10) removed the extension from Skin.CurrentTheme

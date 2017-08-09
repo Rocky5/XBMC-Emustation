@@ -1,3 +1,12 @@
+09/08/2017
+	1) Updated the xbe and source to not show the .xpr on the end of the label for Skin.CurrentTheme, so now shows carbon instead of carbon.xpr eg....
+	   ( had to update all the xmls that used the stringcompare )
+	2) Added logging to the "create cut files.py" script, disabled by default as the auto mode will spam the living hell out of your log file.
+	3) Simplified the Home.xml backgrounds and labels.
+	4) Fixed the carousel bar colours, I had them swapped round in the colours xml.
+	5) New Customize Home Settings menu, with a preview system!
+	6) Probably other changes :/
+
 08/08/2017
 	1) New theme, carbon
 	2) New layouts for Carbon theme, you can have multiply layouts per layout file.

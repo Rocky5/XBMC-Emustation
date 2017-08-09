@@ -3,7 +3,7 @@
 <!-- ================== -->
 <control type="group">
 	<!-- Default theme layout -->
-	<visible>!StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+	<visible>!StringCompare(Skin.CurrentTheme,carbon)</visible>
 	<!-- background images -->
 	<control type="image">
 		<description>Top bar</description>
@@ -68,7 +68,7 @@
 	</control>
 	<!-- list -->
 	<control type="list" id="50">
-		<visible>!StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+		<visible>!StringCompare(Skin.CurrentTheme,carbon)</visible>
 		<posx>667</posx>
 		<posy>188</posy>
 		<width>588</width>
@@ -118,7 +118,7 @@
 	</control>
 	<!-- Scroll bar fails to work due to the scrolltime being set to 200 :-/ -->
 	<control type="scrollbar" id="70">
-		<visible>!StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+		<visible>!StringCompare(Skin.CurrentTheme,carbon)</visible>
 		<posx>1270</posx>
 		<posy>147</posy>
 		<width>10</width>
@@ -138,7 +138,7 @@
 
 <control type="group">
 	<!-- Carbon theme layout -->
-	<visible>StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+	<visible>StringCompare(Skin.CurrentTheme,carbon)</visible>
 	<!-- list area -->
 	<control type="image">
 		<description>top bar behind logo</description>
@@ -301,7 +301,7 @@
 	</control>
 	<!-- list -->
 	<control type="list" id="51">
-		<visible>StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+		<visible>StringCompare(Skin.CurrentTheme,carbon)</visible>
 		<posx>27</posx>
 		<posy>93</posy>
 		<width>582</width>
@@ -364,7 +364,7 @@
 	</control>
 	<!-- Scroll bar fails to work due to the scrolltime being set to 200 :-/ -->
 	<control type="scrollbar" id="71">
-		<visible>StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+		<visible>StringCompare(Skin.CurrentTheme,carbon)</visible>
 		<posx>1270</posx>
 		<posy>147</posy>
 		<width>10</width>

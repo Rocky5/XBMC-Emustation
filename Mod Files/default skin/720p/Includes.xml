@@ -146,6 +146,19 @@
 				<texturefocus border="20,20,20,20">yes_no_focus.png</texturefocus>
 				<texturenofocus border="20,20,20,20">yes_no_nofocus.png</texturenofocus>
 		</include>
+		<include name="MenuCustomButtonCommonValues">
+				<width>640</width>
+				<height>32</height>
+				<font>extra18</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>menu_deselect_label</textcolor>
+				<focusedcolor>menu_select_label</focusedcolor>
+				<shadowcolor>-</shadowcolor>
+				<textoffsetx>10</textoffsetx>
+				<texturefocus border="5">button-focus4.png</texturefocus>
+				<texturenofocus>button-nofocus4.png</texturenofocus>
+		</include>
 		<include name="ButtonHomeSubCommonValues">
 				<height>37</height>
 				<width>246</width>

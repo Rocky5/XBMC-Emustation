@@ -1,24 +1,22 @@
 <window id="0">
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<controls>
+				<!-- These are used to select the correct view -->
+				<!-- I had to do it this way or the second view will always default to the first content item -->
+				<control type="button" id="9000">
+						<posx>-500</posx>
+						<onfocus>SetFocus(9001)</onfocus>
+						<visible>!Skin.HasSetting(althomelayout)</visible>
+				</control>
+				<control type="button" id="9000">
+						<posx>-500</posx>
+						<onfocus>SetFocus(9002)</onfocus>
+						<visible>Skin.HasSetting(althomelayout)</visible>
+				</control>
 				<include>CommonBackground</include>
 				<control type="group">
 						<animation effect="fade" time="250">WindowOpen</animation>
 						<animation effect="fade" time="100">WindowClose</animation>
-						<!-- These are used to select the correct view -->
-						<!-- I had to do it this way or the second view will always default to the first content item -->
-						<control type="button" id="9000">
-								<posx>-5000</posx>
-								<description>Trigger</description>
-								<onfocus>SetFocus(9001)</onfocus>
-								<visible>!Skin.HasSetting(althomelayout)</visible>
-						</control>
-						<control type="button" id="9000">
-								<posx>-5000</posx>
-								<description>Trigger</description>
-								<onfocus>SetFocus(9002)</onfocus>
-								<visible>Skin.HasSetting(althomelayout)</visible>
-						</control>
 						<!-- Images used for the background if they are preset -->
 						<control type="image">
 								<posx>0</posx>
@@ -31,20 +29,20 @@
 								<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="-1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9001).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9001).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
-								<visible>!Skin.HasSetting(althomelayout) + !Container(9001).OnNext + !Container(9001).OnPrevious + !StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+								<visible>!Skin.HasSetting(althomelayout) + !Container(9001).OnNext + !Container(9001).OnPrevious + !StringCompare(Skin.CurrentTheme,carbon)</visible>
 						</control>
 						<control type="image">
 								<posx>0</posx>
 								<posy>0</posy>
 								<width>1280</width>
 								<height>720</height>
-								<aspectratio>scale</aspectratio>
+								<aspectratio>keep</aspectratio>
 								<texture background="true">$INFO[Container(9002).ListItem.ActualIcon]</texture>
 								<animation effect="fade" delay="300" time="300" condition="!Container(9002).OnNext + !Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="fade" delay="300" time="300" condition="!Container(9002).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="-1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9002).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="1280,0" delay="100" time="100" tween="Quadratic" easing="in" condition="!Container(9002).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
-								<visible>Skin.HasSetting(althomelayout) + !Container(9002).OnNext + !Container(9002).OnPrevious + !StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+								<visible>Skin.HasSetting(althomelayout) + !Container(9002).OnNext + !Container(9002).OnPrevious + !StringCompare(Skin.CurrentTheme,carbon)</visible>
 						</control>
 						<!-- Carbon theme -->
 						<control type="image">
@@ -59,23 +57,22 @@
 								<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="-1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9001).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9001).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
-								<visible>!Skin.HasSetting(althomelayout) + !Container(9001).OnNext + !Container(9001).OnPrevious + StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+								<visible>!Skin.HasSetting(althomelayout) + !Container(9001).OnNext + !Container(9001).OnPrevious + StringCompare(Skin.CurrentTheme,carbon)</visible>
 						</control>
 						<control type="image">
 								<posx>470</posx>
 								<posy>-5</posy>
 								<width>340</width>
 								<height>300</height>
-								<aspectratio>scale</aspectratio>
+								<aspectratio>keep</aspectratio>
 								<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 								<texture background="true">$INFO[Container(9002).ListItem.ActualIcon]</texture>
 								<animation effect="fade" delay="300" time="300" condition="!Container(9002).OnNext + !Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="fade" delay="300" time="300" condition="!Container(9002).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="-1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9002).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
 								<animation effect="slide" start="0,0" end="1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9002).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
-								<visible>Skin.HasSetting(althomelayout) + !Container(9002).OnNext + !Container(9002).OnPrevious + StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+								<visible>Skin.HasSetting(althomelayout) + !Container(9002).OnNext + !Container(9002).OnPrevious + StringCompare(Skin.CurrentTheme,carbon)</visible>
 						</control>
-						<!-- Carbon Other images -->
 						<control type="group">
 								<visible>!Skin.HasSetting(altcarouselbar)</visible>
 								<control type="image">
@@ -86,51 +83,35 @@
 										<aspectratio>stretch</aspectratio>
 										<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 										<texture background="true">layouts/art/carousel_bar_haze.png</texture>
-										<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnNext + !Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<animation effect="slide" start="0,0" end="-1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9001).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<animation effect="slide" start="0,0" end="1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9001).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<visible>!Skin.HasSetting(althomelayout) + !Container(9001).OnNext + !Container(9001).OnPrevious + StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
-								</control>
-								<control type="image">
-										<posx>0</posx>
-										<posy>181</posy>
-										<width>1280</width>
-										<height>406</height>
-										<aspectratio>stretch</aspectratio>
-										<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-										<texture background="true">layouts/art/carousel_bar_haze.png</texture>
-										<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnNext + !Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<animation effect="slide" start="0,0" end="-1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9002).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<animation effect="slide" start="0,0" end="1280,0" delay="150" time="200" tween="Quadratic" easing="in" condition="!Container(9002).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
-										<visible>Skin.HasSetting(althomelayout) + !Container(9002).OnNext + !Container(9002).OnPrevious + StringCompare(Skin.CurrentTheme,carbon.xpr)</visible>
+										<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnNext + !Container(9002).OnNext">Conditional</animation>
+										<animation effect="fade" delay="300" time="300" condition="!Container(9001).OnPrevious + !Container(9002).OnPrevious">Conditional</animation>
+										<visible>!Container(9001).OnNext + !Container(9002).OnNext + !Container(9001).OnPrevious + !Container(9002).OnPrevious + StringCompare(Skin.CurrentTheme,carbon)</visible>
 								</control>
 						</control>
-						<!-- Other images -->
+						<!-- Carbon theme end -->
 						<control type="group">
 								<visible>!Skin.HasSetting(altcarouselbar)</visible>
-								<control type="image">
-										<posx>0</posx>
-										<posy>275</posy>
-										<width>1280</width>
-										<height>168</height>
-										<aspectratio>stretch</aspectratio>
-										<colordiffuse>carousel_bar_lower</colordiffuse>
-										<texture background="true">layouts/art/carousel_bar.png</texture>
-								</control>
 								<control type="image">
 										<posx>0</posx>
 										<posy>443</posy>
 										<width>1280</width>
 										<height>50</height>
 										<aspectratio>stretch</aspectratio>
-										<colordiffuse>carousel_bar</colordiffuse>
+										<colordiffuse>carousel_bar_lower</colordiffuse>
 										<texture background="true">layouts/art/carousel_bar.png</texture>
 										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9001).OnNext">Conditional</animation>
 										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9001).OnPrevious">Conditional</animation>
 										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9002).OnNext">Conditional</animation>
 										<animation effect="zoom" reversable="false" start="100,1" end="100,100" delay="1500" time="200" tween="Cubic" easing="inout" condition="!Container(9002).OnPrevious">Conditional</animation>
+								</control>
+								<control type="image">
+										<posx>0</posx>
+										<posy>275</posy>
+										<width>1280</width>
+										<height>168</height>
+										<aspectratio>stretch</aspectratio>
+										<colordiffuse>carousel_bar</colordiffuse>
+										<texture background="true">layouts/art/carousel_bar.png</texture>
 								</control>
 						</control>
 						<control type="image">
@@ -159,6 +140,50 @@
 								<aspectratio>stretch</aspectratio>
 								<texture background="true">layouts/art/system_help.png</texture>
 						</control>
+						<!-- default home layout labels -->
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>[UPPERCASE]$INFO[Container(9001).ListItem.Label][/UPPERCASE]</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious + !Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious | Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>$INFO[Container(9001).ListItem.Label] Game Available</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious + !Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious | Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + StringCompare(Container(9001).ListItem.Label,1) + !StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<control type="label">
+								<posx>0</posx>
+								<posy>448</posy>
+								<width>1280</width>
+								<height>41</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>extra28</font>
+								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<label>$INFO[Container(9001).ListItem.Label] Games Available</label>
+								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious + !Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
+								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious | Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
+								<visible>!Skin.HasSetting(altlabelposition) + !StringCompare(Container(9001).ListItem.Label,1) + !StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
+						</control>
+						<!-- Alt labels -->
 						<control type="label">
 								<posx>406</posx>
 								<posy>163</posy>
@@ -183,99 +208,14 @@
 								<label>[UPPERCASE]$INFO[Container(9002).ListItem.Label2][/UPPERCASE]</label>
 								<visible>Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout)</visible>
 						</control>
-						<!-- default home layout labels -->
-						<control type="label">
-								<posx>0</posx>
-								<posy>448</posy>
-								<width>1280</width>
-								<height>41</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>extra28</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
-								<label>[UPPERCASE]$INFO[Container(9001).ListItem.Label][/UPPERCASE]</label>
-								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious">Conditional</animation>
-								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious">Conditional</animation>
-								<visible>!Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout) + StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
-						</control>
-						<control type="label">
-								<posx>0</posx>
-								<posy>448</posy>
-								<width>1280</width>
-								<height>41</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>extra28</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
-								<label>$INFO[Container(9001).ListItem.Label] Game Available</label>
-								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious">Conditional</animation>
-								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious">Conditional</animation>
-								<visible>!Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout) + StringCompare(Container(9001).ListItem.Label,1) + !StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
-						</control>
-						<control type="label">
-								<posx>0</posx>
-								<posy>448</posy>
-								<width>1280</width>
-								<height>41</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>extra28</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
-								<label>$INFO[Container(9001).ListItem.Label] Games Available</label>
-								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9001).OnNext + !Container(9001).OnPrevious">Conditional</animation>
-								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9001).OnNext | Container(9001).OnPrevious">Conditional</animation>
-								<visible>!Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout) + !StringCompare(Container(9001).ListItem.Label,1) + !StringCompare(Container(9001).ListItem.Label,$LOCALIZE[5])</visible>
-						</control>
-						<!-- alt home layout labels -->
-						<control type="label">
-								<posx>0</posx>
-								<posy>448</posy>
-								<width>1280</width>
-								<height>41</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>extra28</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
-								<label>[UPPERCASE]$INFO[Container(9002).ListItem.Label][/UPPERCASE]</label>
-								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
-								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
-								<visible>!Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout) + StringCompare(Container(9002).ListItem.Label,$LOCALIZE[5])</visible>
-						</control>
-						<control type="label">
-								<posx>0</posx>
-								<posy>448</posy>
-								<width>1280</width>
-								<height>41</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>extra28</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
-								<label>$INFO[Container(9002).ListItem.Label] Game Available</label>
-								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
-								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
-								<visible>!Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout) + StringCompare(Container(9002).ListItem.Label,1) + !StringCompare(Container(9002).ListItem.Label,$LOCALIZE[5])</visible>
-						</control>
-						<control type="label">
-								<posx>0</posx>
-								<posy>448</posy>
-								<width>1280</width>
-								<height>41</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>extra28</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
-								<label>$INFO[Container(9002).ListItem.Label] Games Available</label>
-								<animation effect="fade" reversable="false" start="0" end="100" delay="1600" time="200" tween="Cubic" easing="in" condition="!Container(9002).OnNext + !Container(9002).OnPrevious">Conditional</animation>
-								<animation effect="fade" reversable="false" start="100" end="0" delay="0" time="0" condition="Container(9002).OnNext | Container(9002).OnPrevious">Conditional</animation>
-								<visible>!Skin.HasSetting(altlabelposition) + Skin.HasSetting(althomelayout) + !StringCompare(Container(9002).ListItem.Label,1) + !StringCompare(Container(9002).ListItem.Label,$LOCALIZE[5])</visible>
-						</control>
 						<!-- 9001 -->
 						<!-- Default View uses 3 images -->
 						<control type="wraplist" id="9001">
 								<visible>!Skin.HasSetting(althomelayout)</visible>
-								<posx>-155</posx>
+								<posx>
+								</posx>
 								<posy>310</posy>
-								<width>2280</width>
+								<width>1280</width>
 								<height>1280</height>
 								<onleft>9000</onleft>
 								<onright>9000</onright>
@@ -288,7 +228,7 @@
 								<orientation>Horizontal</orientation>
 								<itemlayout width="555" height="167">
 										<control type="image">
-												<posx>0</posx>
+												<posx>-155</posx>
 												<posy>0</posy>
 												<width>480</width>
 												<height>98</height>
@@ -299,7 +239,7 @@
 								</itemlayout>
 								<focusedlayout width="555" height="167">
 										<control type="image">
-												<posx>0</posx>
+												<posx>-155</posx>
 												<posy>0</posy>
 												<width>480</width>
 												<height>98</height>

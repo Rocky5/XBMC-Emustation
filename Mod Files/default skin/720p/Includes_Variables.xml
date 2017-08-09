@@ -5,6 +5,6 @@
 		</variable>
 		<variable name="var-carbon_custom_colours">
 				<value condition="IsEmpty(Skin.String(carbon_custom_colours))">FF067EAD</value>
-				<value condition="StringCompare(Skin.CurrentTheme,carbon.xpr)">FF$INFO[Skin.String(carbon_custom_colours)]</value>
+				<value condition="StringCompare(Skin.CurrentTheme,carbon)">FF$INFO[Skin.String(carbon_custom_colours)]</value>
 		</variable>
 </includes>
