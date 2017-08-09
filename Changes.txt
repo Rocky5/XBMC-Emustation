@@ -1,3 +1,7 @@
+10/08/2017
+	1) Updated the "create cut files.py" script to parse cue files if present in the _roms\psx folder.
+	2) Updated the readme.md file.
+
 09/08/2017
 	1) Updated the xbe and source to not show the .xpr on the end of the label for Skin.CurrentTheme, so now shows carbon instead of carbon.xpr eg....
 	   ( had to update all the xmls that used the stringcompare )

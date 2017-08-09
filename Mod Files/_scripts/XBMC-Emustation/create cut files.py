@@ -37,7 +37,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 			Roms_Path			= Root_Directory + '_roms\\'
 			TBN_Path			= Root_Directory + '_tbns\\'
 			Content_List_Path	= xbmc.translatePath( "Special://skin/720p/content lists/" )
-			Extensions			= [ "zip","bin","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
+			Extensions			= [ "zip","bin","cue","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 
 def log( input ):
 	if logging: print "%s" % str( input )
@@ -57,6 +57,9 @@ def manual_scan():
 		
 		log('|	Set the Countlist variable and set the emu_name variable.')
 		CountList = 1
+		Parse_CUE_File = 0
+		Parse_FBL_XML = 0
+		Write_CUT_File = 1
 		Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
 		
 		log('|	Check for a default .xbe in the emullator path you selected.')
@@ -80,9 +83,11 @@ def manual_scan():
 			Parse_FBL_XML = 1
 		elif Emu_Name == "mame":
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Emulator_Path + '\\mame\\roms\\' )
+		elif Emu_Name == "psx":
+			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
+			Parse_CUE_File = 1
 		else:
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
-			Parse_FBL_XML = 0
 		
 		log('|	Convert Q:\\ to XBMCs internal special protocol')
 		if Roms_Folder.startswith("Q:\\"): Roms_Folder = Roms_Folder.replace( "Q:\\", Root_Directory )
@@ -103,6 +108,7 @@ def manual_scan():
 						log('|	More vars being set.')
 						Rom_Name = Items
 						Rom_Name_noext = Rom_Name[:-4]
+						PSX_Name_CUE = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".cue"
 						Rom_Path = os.path.join( Roms_Folder, Rom_Name )
 
 						log('|	Check if fba was found and parse its xml files to get the correct rom names for the list.')
@@ -112,6 +118,17 @@ def manual_scan():
 									FBA_Rom_Name = ini.readline()[:-1]
 							else:
 								FBA_Rom_Name = Rom_Name_noext
+								
+						log('|	Check if psx was found and parse its directory for cue files.')
+						if Parse_CUE_File == 1:
+							if os.path.isfile( PSX_Name_CUE ):
+								if Rom_Path == PSX_Name_CUE:
+									Write_CUT_File = 0
+								else:
+									Rom_Path = PSX_Name_CUE
+									Write_CUT_File = 1
+							else:
+								Write_CUT_File = 1
 						
 						log('|	Check to see if vars are the value I need and create a new dialog.')
 						if CountList == 1 and Found_Roms == 0: pDialog.create( "Scanning for Roms","","Please wait..." )
@@ -133,25 +150,28 @@ def manual_scan():
 						log('|	Show the progress bar progress.')
 						pDialog.update( ( CountList * 100 ) / len( os.listdir( Roms_Folder ) ),"Processing Roms",Rom_Name_noext,"Please wait..." )
 						
-						log('|	Create the rest of the layout xml file.')
-						with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
-							if Emu_Name == "fba":
-								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
-							elif Emu_Name == "mame":
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
-							else:
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
-							outputmenufile.write( WriteMenuFile )
+						if Write_CUT_File:
+							log('|	Create the rest of the layout xml file.')
+							with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
+								if Emu_Name == "fba":
+									WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
+								elif Emu_Name == "mame":
+									WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
+								else:
+									WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
+								outputmenufile.write( WriteMenuFile )
 
-						log('|	Create the cut file for this rom.')
-						with open(Output_Path + Rom_Name_noext + '.cut', "w") as outputfile:
-							if Emu_Name == "fba":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,Rom_Name_noext )
-							elif Emu_Name == "mame":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Name_noext )
-							else:
-								WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Path )
-							outputfile.write( WriteFile )
+							log('|	Create the cut file for this rom.')
+							with open(Output_Path + Rom_Name_noext + '.cut', "w") as outputfile:
+								if Emu_Name == "fba":
+									WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,Rom_Name_noext )
+								elif Emu_Name == "mame":
+									WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Name_noext )
+								elif Emu_Name == "psx":
+									WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Path )
+								else:
+									WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Path )
+								outputfile.write( WriteFile )
 						
 						log('|	Add 1 to the Countlist.')
 						CountList = CountList + 1
@@ -185,16 +205,18 @@ def manual_scan():
 def full_scan(): ## not working yet
 
 	Found_Roms = 0
-	Parse_FBL_XML = 0
 	
 	log('|	Check if _emulators directory is selected instead of the emulator its self.')
 	if os.path.isdir( Emulator_Path ):
 	
-		log('|	Convert Q:\\ to XBMCs internal special protocol')
+		log('|	Parse all folder in the Emulators_Path')
 		for Emu_Path in sorted( os.listdir( Emulator_Path ) ):
 		
 			log('|	Set the Countlist variable.')
 			CountList = 1
+			Parse_CUE_File = 0
+			Parse_FBL_XML = 0
+			Write_CUT_File = 1
 			
 			log('|	Checking to make sure the emulator you selected exists.')
 			if os.path.isdir( os.path.join( Emulator_Path, Emu_Path ) ):
@@ -224,6 +246,9 @@ def full_scan(): ## not working yet
 						Parse_FBL_XML = 1
 					elif Emu_Name == "mame":
 						Roms_Folder	= Emulator_Path + '\\mame\\roms\\'
+					elif Emu_Name == "psx":
+						Roms_Folder	= Roms_Path + Emu_Name
+						Parse_CUE_File = 1
 					else:
 						Roms_Folder	= Roms_Path + Emu_Name
 						
@@ -246,6 +271,7 @@ def full_scan(): ## not working yet
 								log('|	More vars being set.')
 								Rom_Name = Items
 								Rom_Name_noext = Rom_Name[:-4]
+								PSX_Name_CUE = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".cue"
 								Rom_Path = os.path.join( Roms_Folder, Rom_Name )
 								
 								log('|	Check if fba was found and parse its xml files to get the correct rom names for the list.')
@@ -256,26 +282,38 @@ def full_scan(): ## not working yet
 									else:
 										FBA_Rom_Name = Rom_Name_noext
 										
-									log('|	Check to see if vars are the value I need and create a new dialog.')
-									if CountList == 1 and Found_Roms == 0: pDialog.create( "Scanning for Roms","","Please wait..." )
+								log('|	Check if psx was found and parse its directory for cue files.')
+								if Parse_CUE_File == 1:
+									if os.path.isfile( PSX_Name_CUE ):
+										if Rom_Path == PSX_Name_CUE:
+											Write_CUT_File = 0
+										else:
+											Rom_Path = PSX_Name_CUE
+											Write_CUT_File = 1
+									else:
+										Write_CUT_File = 1
 									
-									log('|	Setting a var again :/')
-									Found_Roms = 1
+								log('|	Check to see if vars are the value I need and create a new dialog.')
+								if CountList == 1 and Found_Roms == 0: pDialog.create( "Scanning for Roms","","Please wait..." )
+								
+								log('|	Setting a var again :/')
+								Found_Roms = 1
 
-									log('|	Check to see if _tbns folder exists and if it doesnt create it.')
-									if not os.path.isdir( TBN_File ): os.makedirs( TBN_File )
+								log('|	Check to see if _tbns folder exists and if it doesnt create it.')
+								if not os.path.isdir( TBN_File ): os.makedirs( TBN_File )
 
-									log('|	Check to see if the output directory exists and remove it.')
-									if CountList == 1 and os.path.isdir( Output_Path ):
-										pDialog.update( 0,"","Doing house cleaning" )
-										shutil.rmtree( Output_Path )# remove old cut files
-					
-									log('|	Create a new output directory.')
-									if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
-									
-									log('|	Show the progress bar progress.')
-									pDialog.update( ( CountList * 100 ) / len( os.listdir( Roms_Folder ) ),"Processing [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Roms",Rom_Name_noext,"Please wait..." )
-									
+								log('|	Check to see if the output directory exists and remove it.')
+								if CountList == 1 and os.path.isdir( Output_Path ):
+									pDialog.update( 0,"","Doing house cleaning" )
+									shutil.rmtree( Output_Path )# remove old cut files
+				
+								log('|	Create a new output directory.')
+								if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
+								
+								log('|	Show the progress bar progress.')
+								pDialog.update( ( CountList * 100 ) / len( os.listdir( Roms_Folder ) ),"Processing [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Roms",Rom_Name_noext,"Please wait..." )
+								
+								if Write_CUT_File:
 									log('|	Create the rest of the layout xml file.')
 									with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 										if Emu_Name == "fba":
@@ -295,9 +333,9 @@ def full_scan(): ## not working yet
 										else:
 											WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Path )
 										outputfile.write( WriteFile )
-									
-									log('|	Add 1 to the Countlist.')
-									CountList = CountList + 1
+								
+								log('|	Add 1 to the Countlist.')
+								CountList = CountList + 1
 					
 					else:
 						log('|	No roms exist so do some cleanup.')

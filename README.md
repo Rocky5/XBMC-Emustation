@@ -8,6 +8,12 @@
  
  But it wasn't that simple, I wanted menu loading instant and there was no simple way to do that with over 700 roms or a few hundred games, so I modified the XBMC source to bypass the folder check for xbe files. This worked for games, but not roms, so again had to think outside of the box and came up with a workaround :) I create static menus when you scan your roms. There are also a few other scripts I made to do other tasks, but hopefully you like what I have made and get some use out of it.
 
+## Installation
+ * Download [XBMC-Emustation](https://github.com/Rocky5/XBMC-Emustation/archive/master.zip) and extract the **XBMC-Emustation-master** folder to your desktop.
+ * Download [XBMC4XBOX-3.5.3.zip](https://drive.google.com/drive/folders/0B9zNhNcNUdDTRVFBbHcwc2JCZFE) and extract the **XBMC** folder to your desktop\\**XBMC-Emustation-master**\\ folder.
+ * Now double click the **Build XBMC-Emustation.bat** that's inside the **XBMC-Emustation-master** folder and wait. It will output a new folder named **XBMC-Emustation**
+ * FTP this new folder to your Xbox and enjoy.
+ 
 ## Roms and Emulators
  * You place your roms in the designated subdirectory in the **_roms** folder.
  * Same exact thing for the emulators, but in the **_emulators** folder.
