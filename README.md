@@ -26,7 +26,7 @@
   ( **note:** If there are no roms present for this emulator it will not show )
   
 ## Everything else
- * the rest should be self explanatory, its all in the menu.
+ * The rest should be self explanatory, its all in the menu.
  
 ### Acknowledgements:
 
@@ -45,5 +45,7 @@
  
  [Emuxtras Website](http://www.emuxtras.net)
  
-#### Tester
- For feedback and suggestions.
+#### Testers
+ Feedback and suggestions.
+ * Mikeaton
+ * Also to anyone else I may have forgot.
