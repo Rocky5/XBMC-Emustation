@@ -22,7 +22,7 @@
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>extra50</font>
-								<label>$LOCALIZE[32002]</label>
+								<label>$LOCALIZE[32025]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
 						<!-- Main Menu -->

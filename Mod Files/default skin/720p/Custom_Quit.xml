@@ -39,21 +39,21 @@
 										<control type="button" id="1">
 												<posx>0</posx>
 												<posy>0</posy>
-												<label>$LOCALIZE[32050]</label>
+												<label>$LOCALIZE[32060]</label>
 												<include>MenuButtonCommonValues</include>
 												<onclick>SetFocus(101)</onclick>
 										</control>
 										<control type="button" id="2">
 												<posx>0</posx>
 												<posy>0</posy>
-												<label>$LOCALIZE[32051]</label>
+												<label>$LOCALIZE[32061]</label>
 												<include>MenuButtonCommonValues</include>
 												<onclick>SetFocus(103)</onclick>
 										</control>
 										<control type="button" id="3">
 												<posx>0</posx>
 												<posy>0</posy>
-												<label>$LOCALIZE[32052]</label>
+												<label>$LOCALIZE[32062]</label>
 												<include>MenuButtonCommonValues</include>
 												<onclick>SetFocus(105)</onclick>
 										</control>

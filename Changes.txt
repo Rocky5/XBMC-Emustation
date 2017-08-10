@@ -4,6 +4,9 @@
 	
 	..: added after first commit :..
 	3) Screensavers are now in the system folder.
+	4) Intro toggle added to the UI Settings menu.
+	5) Fixed the intro script loading the home screen twice if there was a video played.
+	6) Rearranged the labels in the language file.
 	
 
 09/08/2017

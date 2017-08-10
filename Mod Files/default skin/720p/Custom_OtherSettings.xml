@@ -39,7 +39,7 @@
 								<control type="button" id="1">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32030]</label>
+										<label>$LOCALIZE[32040]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,scan_emus,0,0)</onclick>
 										<onclick>Dialog.Close(1115,true)</onclick>
@@ -48,7 +48,7 @@
 								<control type="button" id="2">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32031]</label>
+										<label>$LOCALIZE[32041]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create layouts.py)</onclick>
 										<onclick>Dialog.Close(1115,true)</onclick>
@@ -63,13 +63,13 @@
 										<align>center</align>
 										<aligny>center</aligny>
 										<font>extra23</font>
-										<label>$LOCALIZE[32032]</label>
+										<label>$LOCALIZE[32042]</label>
 										<textcolor>menu_header_label</textcolor>
 								</control>
 								<control type="button" id="6">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32033]</label>
+										<label> &gt; $LOCALIZE[32043]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,0,scan_cuts,0)</onclick>
 										<onclick>Dialog.Close(1115,true)</onclick>
@@ -78,7 +78,7 @@
 								<control type="button" id="7">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32034]</label>
+										<label> &gt; $LOCALIZE[32044]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,0,0,scan_xbes)</onclick>
 										<onclick>Dialog.Close(1115,true)</onclick>
@@ -87,7 +87,7 @@
 								<control type="button" id="8">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32035]</label>
+										<label> &gt; $LOCALIZE[32045]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scan.py,0,scan_cuts,scan_xbes)</onclick>
 										<onclick>Dialog.Close(1115,true)</onclick>
@@ -102,13 +102,13 @@
 										<align>center</align>
 										<aligny>center</aligny>
 										<font>extra23</font>
-										<label>$LOCALIZE[32036]</label>
+										<label>$LOCALIZE[32046]</label>
 										<textcolor>menu_header_label</textcolor>
 								</control>
 								<control type="button" id="11">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32037]</label>
+										<label> &gt; $LOCALIZE[32047]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create cut files.py,0,auto)</onclick>
 										<onclick>Dialog.Close(1115,true)</onclick>
@@ -117,7 +117,7 @@
 								<control type="button" id="12">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32038]</label>
+										<label> &gt; $LOCALIZE[32048]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create cut files.py,manual,0)</onclick>
 										<onclick>Dialog.Close(1115,true)</onclick>
@@ -126,7 +126,7 @@
 								<control type="button" id="15">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32039]</label>
+										<label>$LOCALIZE[32049]</label>
 										<include>MenuButtonCommonValues</include>
 										<onfocus condition="Skin.HasSetting(menucutcreate)">Skin.Reset(menucutcreate)</onfocus>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/generate thumbs.py)</onclick>

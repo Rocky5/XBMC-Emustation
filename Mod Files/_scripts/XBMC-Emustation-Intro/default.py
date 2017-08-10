@@ -8,7 +8,7 @@ except:
 	filename	= ""
 	
 Extensions		= [ "avi","mp4","wmv","xmv" ]
-
+intro_found = 0
 
 for Items in sorted( os.listdir( xbmc.translatePath( 'Special://xbmc/' ) ) ):
 	if Items.endswith(tuple(Extensions)):
@@ -41,5 +41,6 @@ for Items in sorted( os.listdir( xbmc.translatePath( 'Special://xbmc/' ) ) ):
 					xbmc.executebuiltin( "ReplaceWindow(Home)" )
 
 					xbmc.sleep( 1000 )
-
-xbmc.executebuiltin( "ReplaceWindow(Home)" )
+					intro_found = 1
+		
+if not intro_found: xbmc.executebuiltin( "ReplaceWindow(Home)" )
