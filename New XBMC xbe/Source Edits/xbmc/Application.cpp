@@ -1453,7 +1453,7 @@ void CApplication::StartWebServer()
     CLog::Log(LOGNOTICE, "Webserver: Starting...");
     CSectionLoader::Load("LIBHTTP");
     m_pWebServer = new CWebServer();
-    m_pWebServer->Start(m_network.m_networkinfo.ip, atoi(g_guiSettings.GetString("services.webserverport")), "Q:\\web", false);
+    m_pWebServer->Start(m_network.m_networkinfo.ip, atoi(g_guiSettings.GetString("services.webserverport")), "Q:\\system\\web", false);
     if (m_pWebServer)
     {
       m_pWebServer->SetUserName(g_guiSettings.GetString("services.webserverusername").c_str());

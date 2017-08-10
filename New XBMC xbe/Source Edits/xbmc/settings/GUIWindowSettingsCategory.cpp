@@ -2857,9 +2857,9 @@ void CGUIWindowSettingsCategory::FillInScreenSavers(CSetting *pSetting)
 
   //find screensavers ....
   CFileItemList items;
-  CDirectory::GetDirectory( "special://xbmc/screensavers/", items);
+  CDirectory::GetDirectory( "special://xbmc/system/screensavers/", items);
   if (!CSpecialProtocol::XBMCIsHome())
-   CDirectory::GetDirectory("special://home/screensavers/", items);
+   CDirectory::GetDirectory("special://home/system/screensavers/", items);
 
   int iCurrentScr = -1;
   vector<CStdString> vecScr;

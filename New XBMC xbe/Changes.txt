@@ -10,3 +10,4 @@
 8) Added a new custom window _script*.xml will now be automatically parsed like Custom*.xml
 9) Rearranged the folders structure to make it cleaner.
 10) removed the extension from Skin.CurrentTheme
+11) Moved screensavers to the system folder :) ( Had to use XP to build the screensavers )

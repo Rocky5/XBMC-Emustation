@@ -517,10 +517,10 @@
         <preview></preview>
         <sep1></sep1>
         <sep2></sep2>
-        <slideshowpath pathversion="1">F:\Pictures\</slideshowpath>
+        <slideshowpath pathversion="1"></slideshowpath>
         <time>5</time>
-        <usedimonpause>false</usedimonpause>
-        <usemusicvisinstead>false</usemusicvisinstead>
+        <usedimonpause>true</usedimonpause>
+        <usemusicvisinstead>true</usemusicvisinstead>
     </screensaver>
     <scrobbler>
         <lastfmpass></lastfmpass>
