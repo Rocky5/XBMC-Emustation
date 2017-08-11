@@ -8,6 +8,7 @@
 	5) Updated the way intros work, you can now select the file within the UI Settings menu.
 	6) Updated the labels in the Quit menu.
 	7) New font.xml, now has font sizes from 1 to 80
+	8) Fixed the carbon layouts list bar and scroll bar position. ( you just have to replace the _layouts folder and refresh the layouts, if you have the build before this commit )
 
 10/08/2017
 	1) Updated the "create cut files.py" script to parse cue files if present in the _roms\psx folder.

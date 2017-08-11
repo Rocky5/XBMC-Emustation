@@ -328,9 +328,9 @@
 		<focusedlayout height="30" width="582">
 			<control type="image">
 				<posx>0</posx>
-				<posy>1</posy>
+				<posy>0</posy>
 				<width>588</width>
-				<height>30</height>
+				<height>31</height>
 				<aspectratio>stretch</aspectratio>
 				<colordiffuse>FF000000</colordiffuse>
 				<texture border="1">background diffuse.png</texture>
@@ -338,9 +338,9 @@
 			</control>
 			<control type="image">
 				<posx>0</posx>
-				<posy>1</posy>
+				<posy>0</posy>
 				<width>588</width>
-				<height>30</height>
+				<height>31</height>
 				<aspectratio>stretch</aspectratio>
 				<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 				<texture border="1">background diffuse.png</texture>
@@ -364,9 +364,9 @@
 	<control type="scrollbar" id="51">
 		<visible>StringCompare(Skin.CurrentTheme,carbon)</visible>
 		<posx>1270</posx>
-		<posy>147</posy>
+		<posy>0</posy>
 		<width>10</width>
-		<height>573</height>
+		<height>662</height>
 		<texturesliderbackground>-</texturesliderbackground>
 		<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
 		<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
