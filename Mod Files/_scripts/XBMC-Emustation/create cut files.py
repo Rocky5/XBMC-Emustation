@@ -380,7 +380,8 @@ menu_entry			= '\n\
 		<icon>%s</icon>\n\
 		<thumb>%s</thumb>\n\
 	</iten>'
-menu_entry_footer	= '\n</content>'
+menu_entry_footer	= '\n\
+</content>'
 
 logging = 0 # Setting this to 1 will spam the living hell out of your log file if you run the Auto mode, you have been warned
 if not os.path.isdir( Content_List_Path + 'merged' ): os.makedirs( Content_List_Path + 'merged' )
