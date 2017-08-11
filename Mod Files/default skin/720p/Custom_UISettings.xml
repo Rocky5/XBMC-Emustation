@@ -42,13 +42,14 @@
 										<onclick>Skin.ToggleSetting(introenabled)</onclick>
 										<selected>Skin.HasSetting(introenabled)</selected>
 								</control>
-								<control type="button" id="10">
+								<control type="button" id="2">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32024]</label>
-										<include>MenuFolderButtonCommonValues</include>
-										<onclick>ActivateWindow(1300)</onclick>
-										<onclick>Dialog.Close(1113,true)</onclick>
+										<label> &gt; $LOCALIZE[424] $LOCALIZE[561]</label>
+										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.SetFile(selectedintrofile,.avi | .mp4 | .mv | .xmv,Special://xbmc/)</onclick>
+										<visible>Skin.HasSetting(introenabled)</visible>
 								</control>
 								<control type="button" id="20">
 										<posx>0</posx>
@@ -57,6 +58,14 @@
 										<include>MenuFolderButtonCommonValues</include>
 										<onclick>ActivateWindow(guicalibration)</onclick>
 										<onclick>Dialog.Close(All,true)</onclick>
+								</control>
+								<control type="button" id="30">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32024]</label>
+										<include>MenuFolderButtonCommonValues</include>
+										<onclick>ActivateWindow(1300)</onclick>
+										<onclick>Dialog.Close(1113,true)</onclick>
 								</control>
 						</control>
 				</control>

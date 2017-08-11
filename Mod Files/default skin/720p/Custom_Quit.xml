@@ -87,8 +87,8 @@
 										<height>50</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<font>extra50</font>
-										<label>[UPPERCASE]$LOCALIZE[13313]?[/UPPERCASE]</label>
+										<font>extra40</font>
+										<label>$LOCALIZE[32060]?</label>
 										<textcolor>menu_header_label</textcolor>
 										<visible>Control.HasFocus(100) | Control.HasFocus(101)</visible>
 								</control>
@@ -125,8 +125,8 @@
 										<height>50</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<font>extra50</font>
-										<label>[UPPERCASE]$LOCALIZE[13313]?[/UPPERCASE]</label>
+										<font>extra40</font>
+										<label>$LOCALIZE[32061]?</label>
 										<textcolor>menu_header_label</textcolor>
 										<visible>Control.HasFocus(102) | Control.HasFocus(103)</visible>
 								</control>
@@ -163,8 +163,8 @@
 										<height>50</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<font>extra50</font>
-										<label>[UPPERCASE]$LOCALIZE[13005]?[/UPPERCASE]</label>
+										<font>extra40</font>
+										<label>$LOCALIZE[32062]?</label>
 										<textcolor>menu_header_label</textcolor>
 										<visible>Control.HasFocus(104) | Control.HasFocus(105)</visible>
 								</control>

@@ -1,14 +1,84 @@
 <fonts>
 		<fontset id="Default" unicode="true">
 				<font>
+						<name>extra1</name>
+						<filename>arial.ttf</filename>
+						<size>1</size>
+				</font>
+				<font>
+						<name>extra2</name>
+						<filename>arial.ttf</filename>
+						<size>2</size>
+				</font>
+				<font>
+						<name>extra3</name>
+						<filename>arial.ttf</filename>
+						<size>3</size>
+				</font>
+				<font>
+						<name>extra4</name>
+						<filename>arial.ttf</filename>
+						<size>4</size>
+				</font>
+				<font>
+						<name>extra5</name>
+						<filename>arial.ttf</filename>
+						<size>5</size>
+				</font>
+				<font>
+						<name>extra6</name>
+						<filename>arial.ttf</filename>
+						<size>6</size>
+				</font>
+				<font>
+						<name>extra7</name>
+						<filename>arial.ttf</filename>
+						<size>7</size>
+				</font>
+				<font>
 						<name>extra8</name>
 						<filename>arial.ttf</filename>
 						<size>8</size>
 				</font>
 				<font>
+						<name>extra9</name>
+						<filename>arial.ttf</filename>
+						<size>9</size>
+				</font>
+				<font>
+						<name>extra10</name>
+						<filename>arial.ttf</filename>
+						<size>10</size>
+				</font>
+				<font>
+						<name>extra11</name>
+						<filename>arial.ttf</filename>
+						<size>11</size>
+				</font>
+				<font>
+						<name>extra12</name>
+						<filename>arial.ttf</filename>
+						<size>12</size>
+				</font>
+				<font>
+						<name>extra13</name>
+						<filename>arial.ttf</filename>
+						<size>13</size>
+				</font>
+				<font>
+						<name>extra14</name>
+						<filename>arial.ttf</filename>
+						<size>14</size>
+				</font>
+				<font>
 						<name>extra15</name>
 						<filename>arial.ttf</filename>
 						<size>15</size>
+				</font>
+				<font>
+						<name>extra16</name>
+						<filename>arial.ttf</filename>
+						<size>16</size>
 				</font>
 				<font>
 						<name>extra17</name>
@@ -21,15 +91,24 @@
 						<size>18</size>
 				</font>
 				<font>
+						<name>extra19</name>
+						<filename>arial.ttf</filename>
+						<size>19</size>
+				</font>
+				<font>
 						<name>extra20</name>
 						<filename>arial.ttf</filename>
 						<size>20</size>
 				</font>
 				<font>
-						<name>extra21_bold</name>
+						<name>extra21</name>
 						<filename>arial.ttf</filename>
 						<size>21</size>
-						<style>bold</style>
+				</font>
+				<font>
+						<name>extra22</name>
+						<filename>arial.ttf</filename>
+						<size>22</size>
 				</font>
 				<font>
 						<name>extra23</name>
@@ -37,9 +116,24 @@
 						<size>23</size>
 				</font>
 				<font>
+						<name>extra24</name>
+						<filename>arial.ttf</filename>
+						<size>24</size>
+				</font>
+				<font>
 						<name>extra25</name>
 						<filename>arial.ttf</filename>
 						<size>25</size>
+				</font>
+				<font>
+						<name>extra26</name>
+						<filename>arial.ttf</filename>
+						<size>26</size>
+				</font>
+				<font>
+						<name>extra27</name>
+						<filename>arial.ttf</filename>
+						<size>27</size>
 				</font>
 				<font>
 						<name>extra28</name>
@@ -47,9 +141,109 @@
 						<size>28</size>
 				</font>
 				<font>
+						<name>extra29</name>
+						<filename>arial.ttf</filename>
+						<size>29</size>
+				</font>
+				<font>
+						<name>extra30</name>
+						<filename>arial.ttf</filename>
+						<size>30</size>
+				</font>
+				<font>
+						<name>extra31</name>
+						<filename>arial.ttf</filename>
+						<size>31</size>
+				</font>
+				<font>
+						<name>extra32</name>
+						<filename>arial.ttf</filename>
+						<size>32</size>
+				</font>
+				<font>
+						<name>extra33</name>
+						<filename>arial.ttf</filename>
+						<size>33</size>
+				</font>
+				<font>
+						<name>extra34</name>
+						<filename>arial.ttf</filename>
+						<size>34</size>
+				</font>
+				<font>
 						<name>extra35</name>
 						<filename>arial.ttf</filename>
 						<size>35</size>
+				</font>
+				<font>
+						<name>extra36</name>
+						<filename>arial.ttf</filename>
+						<size>36</size>
+				</font>
+				<font>
+						<name>extra37</name>
+						<filename>arial.ttf</filename>
+						<size>37</size>
+				</font>
+				<font>
+						<name>extra38</name>
+						<filename>arial.ttf</filename>
+						<size>38</size>
+				</font>
+				<font>
+						<name>extra39</name>
+						<filename>arial.ttf</filename>
+						<size>39</size>
+				</font>
+				<font>
+						<name>extra40</name>
+						<filename>arial.ttf</filename>
+						<size>40</size>
+				</font>
+				<font>
+						<name>extra41</name>
+						<filename>arial.ttf</filename>
+						<size>41</size>
+				</font>
+				<font>
+						<name>extra42</name>
+						<filename>arial.ttf</filename>
+						<size>42</size>
+				</font>
+				<font>
+						<name>extra43</name>
+						<filename>arial.ttf</filename>
+						<size>43</size>
+				</font>
+				<font>
+						<name>extra44</name>
+						<filename>arial.ttf</filename>
+						<size>44</size>
+				</font>
+				<font>
+						<name>extra45</name>
+						<filename>arial.ttf</filename>
+						<size>45</size>
+				</font>
+				<font>
+						<name>extra46</name>
+						<filename>arial.ttf</filename>
+						<size>46</size>
+				</font>
+				<font>
+						<name>extra47</name>
+						<filename>arial.ttf</filename>
+						<size>47</size>
+				</font>
+				<font>
+						<name>extra48</name>
+						<filename>arial.ttf</filename>
+						<size>48</size>
+				</font>
+				<font>
+						<name>extra49</name>
+						<filename>arial.ttf</filename>
+						<size>49</size>
 				</font>
 				<font>
 						<name>extra50</name>
@@ -57,70 +251,153 @@
 						<size>50</size>
 				</font>
 				<font>
+						<name>extra51</name>
+						<filename>arial.ttf</filename>
+						<size>51</size>
+				</font>
+				<font>
+						<name>extra52</name>
+						<filename>arial.ttf</filename>
+						<size>52</size>
+				</font>
+				<font>
+						<name>extra53</name>
+						<filename>arial.ttf</filename>
+						<size>53</size>
+				</font>
+				<font>
+						<name>extra54</name>
+						<filename>arial.ttf</filename>
+						<size>54</size>
+				</font>
+				<font>
+						<name>extra55</name>
+						<filename>arial.ttf</filename>
+						<size>55</size>
+				</font>
+				<font>
+						<name>extra56</name>
+						<filename>arial.ttf</filename>
+						<size>56</size>
+				</font>
+				<font>
+						<name>extra57</name>
+						<filename>arial.ttf</filename>
+						<size>57</size>
+				</font>
+				<font>
+						<name>extra58</name>
+						<filename>arial.ttf</filename>
+						<size>58</size>
+				</font>
+				<font>
+						<name>extra59</name>
+						<filename>arial.ttf</filename>
+						<size>59</size>
+				</font>
+				<font>
+						<name>extra60</name>
+						<filename>arial.ttf</filename>
+						<size>60</size>
+				</font>
+				<font>
+						<name>extra61</name>
+						<filename>arial.ttf</filename>
+						<size>61</size>
+				</font>
+				<font>
+						<name>extra62</name>
+						<filename>arial.ttf</filename>
+						<size>62</size>
+				</font>
+				<font>
+						<name>extra63</name>
+						<filename>arial.ttf</filename>
+						<size>63</size>
+				</font>
+				<font>
+						<name>extra64</name>
+						<filename>arial.ttf</filename>
+						<size>64</size>
+				</font>
+				<font>
+						<name>extra65</name>
+						<filename>arial.ttf</filename>
+						<size>65</size>
+				</font>
+				<font>
+						<name>extra66</name>
+						<filename>arial.ttf</filename>
+						<size>66</size>
+				</font>
+				<font>
+						<name>extra67</name>
+						<filename>arial.ttf</filename>
+						<size>67</size>
+				</font>
+				<font>
+						<name>extra68</name>
+						<filename>arial.ttf</filename>
+						<size>68</size>
+				</font>
+				<font>
+						<name>extra69</name>
+						<filename>arial.ttf</filename>
+						<size>69</size>
+				</font>
+				<font>
+						<name>extra70</name>
+						<filename>arial.ttf</filename>
+						<size>70</size>
+				</font>
+				<font>
+						<name>extra71</name>
+						<filename>arial.ttf</filename>
+						<size>71</size>
+				</font>
+				<font>
+						<name>extra72</name>
+						<filename>arial.ttf</filename>
+						<size>72</size>
+				</font>
+				<font>
+						<name>extra73</name>
+						<filename>arial.ttf</filename>
+						<size>73</size>
+				</font>
+				<font>
+						<name>extra74</name>
+						<filename>arial.ttf</filename>
+						<size>74</size>
+				</font>
+				<font>
+						<name>extra75</name>
+						<filename>arial.ttf</filename>
+						<size>75</size>
+				</font>
+				<font>
+						<name>extra76</name>
+						<filename>arial.ttf</filename>
+						<size>76</size>
+				</font>
+				<font>
+						<name>extra77</name>
+						<filename>arial.ttf</filename>
+						<size>77</size>
+				</font>
+				<font>
+						<name>extra78</name>
+						<filename>arial.ttf</filename>
+						<size>78</size>
+				</font>
+				<font>
+						<name>extra79</name>
+						<filename>arial.ttf</filename>
+						<size>79</size>
+				</font>
+				<font>
 						<name>extra80</name>
 						<filename>arial.ttf</filename>
-						<size>80</size>
-				</font>
-				<!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
-				<font>
-						<name>main8</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>8</size>
-				</font>
-				<font>
-						<name>main15</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>15</size>
-				</font>
-				<font>
-						<name>main17</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>17</size>
-				</font>
-				<font>
-						<name>main18</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>18</size>
-				</font>
-				<font>
-						<name>main20</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>20</size>
-				</font>
-				<font>
-						<name>main21_bold</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>21</size>
-						<style>bold</style>
-				</font>
-				<font>
-						<name>main23</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>23</size>
-				</font>
-				<font>
-						<name>main25</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>25</size>
-				</font>
-				<font>
-						<name>main28</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>28</size>
-				</font>
-				<font>
-						<name>main35</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>35</size>
-				</font>
-				<font>
-						<name>main50</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
-						<size>50</size>
-				</font>
-				<font>
-						<name>main80</name>
-						<filename>Special://skin/media/layouts/art/main.ttf</filename>
 						<size>80</size>
 				</font>
 		</fontset>

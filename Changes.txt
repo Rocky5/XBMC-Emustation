@@ -3,6 +3,11 @@
 	2) Added the files necessary to get the PSX emulator working.
 	3) Added in the cheat files for PSX, Genesis and Sega32x
 	4) Added in al the documentations that come with emulators.
+	
+	..: added after first commit :..
+	5) Updated the way intros work, you can now select the file within the UI Settings menu.
+	6) Updated the labels in the Quit menu.
+	7) New font.xml, now has font sizes from 1 to 80
 
 10/08/2017
 	1) Updated the "create cut files.py" script to parse cue files if present in the _roms\psx folder.

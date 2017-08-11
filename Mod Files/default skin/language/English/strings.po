@@ -817,7 +817,7 @@ msgstr ""
 
 ##  Quit Menu
 msgctxt "#32060"
-msgid "[UPPERCASE]restart xbmc-emustation[/UPPERCASE]"
+msgid "[UPPERCASE]reload xbmc-emustation[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32061"
