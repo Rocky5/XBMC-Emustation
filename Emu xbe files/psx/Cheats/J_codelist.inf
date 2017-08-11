@@ -1,0 +1,1629 @@
+#Jackie Chan Stuntmaster#SLUS00684
+"Command (add 16-bit value)
+D00E5D00 ????
+"Infinite Lives
+80129230 000A
+"Have Red Dragons Modifier (add 8-bit value)
+800E7230 ??00
+"Infinite Health
+80128FB4 00C8
+"All Red Dragons China Town-Level 1
+300E70E1 000A
+"Unlock Path To China Town-Level 2
+800E70E4 FFFF
+"All Red Dragons China Town-Level 2
+300E70F1 000A
+"Unlock Path To China Town-Level 3
+800E70F4 FFFF
+"All Red Dragons China Town-Level 3
+300E7101 000A
+"Unlock Path To Waterfront-Level 1
+800E7104 FFFF
+"All Red Dragons Waterfront-Level 1
+300E7111 000A
+"Unlock Path To Waterfront-Level 2
+800E7114 FFFF
+"All Red Dragons Waterfront-Level 2
+300E7121 000A
+"Unlock Path To Waterfront-Level 3
+800E7124 FFFF
+"All Red Dragons Waterfront-Level 3
+300E7131 000A
+"Unlock Path To Sewer-Level 1
+800E7134 FFFF
+"All Red Dragons Sewer-Level 1
+300E7141 000A
+"Unlock Path To Sewer-Level 2
+800E7144 FFFF
+"All Red Dragons Sewer-Level 2
+300E7151 000A
+"Unlock Path To Sewer-Level 3
+800E7154 FFFF
+"All Red Dragons Sewer-Level 3
+300E7161 000A
+"Unlock Path To Roof Top-Level 1
+800E7164 FFFF
+"All Red Dragons Roof Top-Level 1
+300E7171 000A
+"Unlock Path To Roof Top-Level 2
+800E7174 FFFF
+"All Red Dragons Roof Top-Level 2
+300E7181 000A
+"Unlock Path To Roof Top-Level 3
+800E7184 FFFF
+"All Red Dragons Roof Top-Level 3
+300E7191 000A
+"Unlock Path To Factory-Level 1
+800E7194 FFFF
+"All Red Dragons Factory-Level 1
+300E71A1 000A
+"Unlock Path To Factory-Level 2
+800E71A4 FFFF
+"All Red Dragons Factory-Level 2
+300E71B1 000A
+"Unlock Path To Factory-Level 3
+800E71B4 FFFF
+"All Red Dragons Factory-Level 3
+300E71C1 000A
+"=33 Have All Red & Gold Dragons
+50000F10 0000
+300E70E1 000A
+"Unlock All
+Paths50000E10 0000
+800E70E4 FFFF
+"Moon Jump (Press X)
+D00E5D00 0040
+80128FE4 0050
+
+#Jade Cocoon - Legend of Tamamayu#SLUS00854
+"=Character 
+"=Cocoon Master 
+"Max Empties
+8008B818 869F
+8008B81A 0001
+"Infinite Emtpies
+8008B818 FFFF
+"Have All Valuables
+8008B81C FFFF
+8008B81E FFFF
+8008B820 FFFF
+"Max Exp
+8008BD3E FFFF
+"Infinite HP (In Battle)
+8008BD40 03E7
+"Max HP
+8008BD40 03E7
+8008BD42 03E7
+"Equipped Weapon Modifier (add 8-bit value)
+3008BD54 00??
+"Equipped Armor Modifier (add 8-bit value)
+3008BD55 00??
+"Equipped Other Modifier (add 8-bit value)
+3008BD56 00??
+"Max Attack
+3008BD64 00FF
+"Max Defense
+3008BD65 00FF
+"Max Magic A.
+3008BD66 00FF
+"Max Magic D.
+3008BD67 00FF
+"Max Speed
+3008BD68 00FF
+"Max Capture Lvl/Rank
+3008BD7C 00FF
+"Full Minion List/Alot of Captures
+8008BD84 FFFF
+8008BD86 FFFF
+8008BD88 FFFF
+8008BD8A FFFF
+8008BD8C FFFF
+8008BD8E FFFF
+8008BD90 FFFF
+8008BD92 FFFF
+8008BD94 FFFF
+8008BD96 FFFF
+8008BD98 FFFF
+8008BD9A FFFF
+8008BD9C FFFF
+8008BD9E FFFF
+"=Minion 1 
+"Max Exp
+8008BF82 FFFF
+"Infinite HP (In Battle)
+8008BF84 03E7
+"Max HP
+8008BF84 03E7
+8008BF86 03E7
+"Infinite Mana (In Battle)
+8008BF88 03E7
+"Max Mana
+8008BF88 03E7
+8008BF8A 03E7
+"Max Attack
+3008BFA8 00FF
+"Max Defense
+3008BFA9 00FF
+"Max Magic A.
+3008BFAA 00FF
+"Max Magic D.
+3008BFAB 00FF
+"Max Speed
+3008BFAC 00FF
+"Have Fire Element
+3008BFBA 0020
+"Have Air Element
+3008BFBB 0020
+"Have Earth Element
+3008BFBC 0020
+"Have Wind Element
+3008BFBD 0020
+"Have All Element Usage
+3008BFBE 000F
+"Level 255
+3008BFC0 00FF
+"=Special Feature Modifier (add 8-bit value)
+"Horn
+3008BFD6 0?01
+"Fang
+3008BFDA 0?01
+"Claw
+3008BFDE 0?01
+"Tail
+3008BFE2 0?01
+"Foot
+3008BFE6 0?01
+"=Special Attributes Modifier (add 8-bit value)
+"Horn
+3008BFD8 000?
+"Fang
+3008BFDC 000?
+"Claw
+3008BFE0 000?
+"Tail
+3008BFE4 000?
+"Foot
+3008BFE8 000?
+"Have All Magic
+8008BFEC FFFF
+8008BFEE 01FF
+"=Minion 2 
+"Max Exp
+8008C07A FFFF
+"Infinite HP (In Battle)
+8008C07C 03E7
+"Max HP
+8008C07C 03E7
+8008C07E 03E7
+"Infinite Mana (In Battle)
+8008C080 03E7
+"Max Mana
+8008C080 03E7
+8008C082 03E7
+"Max Attack
+3008C0A0 00FF
+"Max Defense
+3008C0A1 00FF
+"Max Magic A.
+3008C0A2 00FF
+"Max Magic D.
+3008C0A3 00FF
+"Max Speed
+3008C0A4 00FF
+"Have Fire Element
+3008C0B2 0020
+"Have Air Element
+3008C0B3 0020
+"Have Earth Element
+3008C0B4 0020
+"Have Wind Element
+3008C0B5 0020
+"Have All Element Usage
+3008C0B6 000F
+"Level 255
+3008C0B8 00FF
+"=Special Feature Modifier (add 8-bit value)
+"Horn
+3008C0CE 0?01
+"Fang
+3008C0D2 0?01
+"Claw
+3008C0D6 0?01
+"Tail
+3008C0DA 0?01
+"Foot
+3008C0DE 0?01
+"=Special Attributes Modifier (add 8-bit value)
+"Horn
+3008C0D0 000?
+"Fang
+3008C0D4 000?
+"Claw
+3008C0D8 000?
+"Tail
+3008C0DC 000?
+"Foot
+3008C0E0 000?
+"Have All Magic
+8008C0E4 FFFF
+8008C0E6 01FF
+"=Minion 3 
+"Max Exp
+8008C172 FFFF
+"Infinite HP (In Battle)
+8008C174 03E7
+"Max HP
+8008C174 03E7
+8008C176 03E7
+"Infinite Mana (In Battle)
+8008C178 03E7
+"Max Mana
+8008C178 03E7
+8008C17A 03E7
+"Max Attack
+3008C198 00FF
+"Max Defense
+3008C199 00FF
+"Max Magic A.
+3008C19A 00FF
+"Max Magic D.
+3008C19B 00FF
+"Max Speed
+3008C19C 00FF
+"Have Fire Element
+3008C1AA 0020
+"Have Air Element
+3008C1AB 0020
+"Have Earth Element
+3008C1AC 0020
+"Have Wind Element
+3008C1AD 0020
+"Have All Element Usage
+3008C1AE 000F
+"Level 255
+3008C1B0 00FF
+"=Special Feature Modifier (add 8-bit value)
+"Horn
+3008C1C6 0?01
+"Fang
+3008C1CA 0?01
+"Claw
+3008C1D0 0?01
+"Tail
+3008C1D4 0?01
+"Foot
+3008C1D8 0?01
+"=Special Attributes Modifier (add 8-bit value)
+"Horn
+3008C1C8 000?
+"Fang
+3008C1CC 000?
+"Claw
+3008C1D2 000?
+"Tail
+3008C1D6 000?
+"Foot
+3008C1DA 000?
+"Have All Magic
+8008C1DC FFFF
+8008C1DE 01FF
+"=Item Slot 
+"=Armor Modifier (add 8-bit value)
+"Slot 1
+3008B698 00??
+"Slot 2
+3008B69A 00??
+"Slot 64
+3008B716 00??
+"=Item Modifier (add 8-bit value)
+"Slot 1
+3008B598 00??
+"Slot 2
+3008B59A 00??
+"Slot 64
+3008B616 00??
+"=Other Modifier (add 8-bit value)
+"Slot 1
+3008B718 00??
+"Slot 2
+3008B71A 00??
+"Slot 64
+3008B796 00??
+"=Weapon Modifier (add 8-bit value)
+"Slot 1
+3008B618 00??
+"Slot 2
+3008B61A 00??
+"Slot 64
+3008B696 00??
+"=Max Amount Armor Slot 
+"Slot 1
+3008B699 00FF
+"Slot 2
+3008B69B 00FF
+"Slot 64
+3008B717 00FF
+"=Max Amount Item Slot 
+"Slot 1
+3008B599 00FF
+"Slot 2
+3008B59B 00FF
+"Slot 64
+3008B617 00FF
+"=Max Amount Other Slot 
+"Slot 1
+3008B719 00FF
+"Slot 2
+3008B71B 00FF
+"Slot 64
+3008B797 00FF
+"=Max Amount Weapon Slot 
+"Slot 1
+3008B619 00FF
+"Slot 2
+3008B61B 00FF
+"Slot 64
+3008B697 00FF
+"=Other 
+"=Misc. 
+"Infinite Usage All Items
+800AD22A 2400
+"Max Yan
+8008B594 967F
+8008B596 0098
+"Infinite Yan
+8008B594 FFFF
+"Enemies Have 1 HP 1st Position
+800B1314 0001
+"Enemies Have 1 HP 2nd Position
+800B139C 0001
+"Enemies Have 1 HP 3rd Position
+800B1424 0001
+"Start With All Minion Skins
+8008B798 0300
+8008B79A 0301
+8008B79C 0302
+8008B79E 0303
+8008B7A0 0304
+8008B7A2 0305
+8008B7A4 0306
+8008B7A6 0307
+"Enemy Level Modifier 1st Position (add 8-bit value)
+800B1350 00??
+"Enemy Level Modifier 2nd Position (add 8-bit value)
+800B13D8 00??
+"Enemy Level Modifier 3rd Position (add 8-bit value)
+800B1460 00??
+
+#Jade Cocoon Demo (Shadow Madness)#SLUS90054
+"=Lavant 
+"Infinite HP
+80089EC0 03E7
+"Max HP
+80089EC2 03E7
+"Max Attack
+30089EE4 0063
+"Max Defense
+30089EE5 0063
+"Max Magic A.
+30089EE6 0063
+"Max Magic D.
+30089EE7 0063
+"Max Speed
+30089EE8 0063
+"Infinite Money
+80089714 C9FF
+80089716 0FFF
+"Have Alot of Valuables
+8008999C FFFF
+8008999E 0E00
+"Quick Level Up
+80089EBE 0400
+"Infinite Item Slot #1
+30089719 0063
+"Infinite Item Slot #2
+3008971B 0063
+"Infinite Item Slot #3
+3008971D 0063
+"Infinite Item Slot #4
+3008971F 0063
+"Infinite Modifier Slot #1 (add 8-bit value)
+30089718 00??
+"Infinite Modifier Slot #2 (add 8-bit value)
+3008971A 00??
+"Infinite Modifier Slot #3 (add 8-bit value)
+3008971C 00??
+"Infinite Modifier Slot #4 (add 8-bit value)
+3008971E 00??
+"=Minion #1 
+"Infinite HP
+8008A104 03E7
+"Max HP
+8008A106 03E7
+"Infinite Mana
+8008A108 03E7
+"Max Mana
+8008A10A 03E7
+"Max Attack
+3008A128 0063
+"Max Defense
+3008A129 0063
+"Max Magic A.
+3008A12A 0063
+"Max Magic D.
+3008A12B 0063
+"Max Speed
+3008A12C 0063
+
+#Jampack Vol. 1#SCUS94176
+"=Codename Tenka 
+"Infinite Health
+80021DCA 00C8
+"Infinite Bullets
+800630FC 0063
+"Infinite Laser
+80063100 0063
+"Infinite Missles
+8006310A 0063
+"Infinite Grenades
+80063108 0063
+"Infinite Mines
+80063106 0063
+"=Dynasty Warriors 
+"Infinite Energy P1
+800B0230 00C8
+"25% Energy P1
+D00B0230 00C8
+800B0230 0032
+"50% Energy P1
+D00B0230 00C8
+800B0230 0064
+"75% Energy P1
+D00B0230 00C8
+800B0230 0096
+"No Energy P1
+800B0230 0000
+"1-Hit Death P1
+D00B0230 00C8
+800B0230 0001
+"Infinite Energy P2
+800B0BA0 00C8
+"25% Energy P2
+D00B0BA0 00C8
+800B0BA0 0032
+"50% Energy P2
+D00B0BA0 00C8
+800B0BA0 0064
+"75% Energy P2
+D00B0BA0 00C8
+800B0BA0 0096
+"No Energy P2
+800B0BA0 0000
+"1-Hit Death P2
+D00B0BA0 00C8
+800B0BA0 0001
+"=Herc's Adventure 
+"Infinite Health P1
+800C75CC 0063
+"Infinite Health P2
+800C7636 0063
+"Infinite Strength P1
+800C75D0 0063
+"Infinite Strength P2
+800C763A 0063
+"Infinite Spears P1
+800C75E2 0063
+"Infinite Spears P2
+800C764C 0063
+"=Machine Hunter 
+"Infinite Health
+8009F04C 06BF
+800C0474 005F
+"=MDK 
+"Infinite Health
+800B3088 03E7
+"=NBA Shootout '97 
+"Score Modifier Away Team (add 16-bit value)
+800B8794 ????
+"Score Modifier Home Team (add 16-bit value)
+800B8790 ????
+"Infinite Time
+800B8744 D300
+"=Pitfall 3D 
+"Infinite Lives
+80075D50 000A
+"Infinite Health
+80075D88 00E6
+"Infinite Gems
+80075E1C 0063
+"=Rage Racer 
+"Time Always 10'00
+800A1CB4 4650
+"Always Place 1st
+800A5550 0001
+"=Rally Cross 
+"Current Lap Time Always 0'00'00
+80064134 0000
+"Lap 1 Time Always 0'00'00
+80064138 0000
+"Lap 2 Time Always 0'00'00
+8006413C 0000
+"Lap 3 Time Always 0'00'00
+80064140 0000
+"Lap 4 Time Always 0'00'00
+80064144 0000
+"Lap 5 Time Always 0'00'00
+80064148 0000
+"=Super Puzzle Fighter 2 Turbo 
+"FAKE Score Modifier P1 (add 16-bit value)
+8019A5A0 ????
+"FAKE Score Modifier P2 (add 16-bit value)
+8019A5A4 ????
+"Score Modifier P1 (add 16-bit value)
+801AF08C ????
+"Score Modifier P2 (add 16-bit value)
+801AF338 ????
+"Play 12 Rounds
+801AF0AC 0000
+801AF358 0000
+"P1 Character Modifier (add 8-bit value)
+801AF0A4 00??
+"P2 Character modifier (add 8-bit value)
+801AF350 00??
+"=The Lost World-Jurassic Park 
+"Infinite Health
+800D3E02 0064
+"=Thunder Truck Rally 
+"Infinite Energy
+801DAFC4 0000
+"Time Always Under 0'01'00
+801DCC40 0000
+
+#Jampack Vol. 2#SCUS94197
+"=Fighting Force 
+"Infinite Health
+80096060 017C
+"Infinite Handgun
+80066946 0010
+"Infinite Rocket Launcher
+80066942 0004
+"=Nightmare Creatures 
+"Have All
+Weapons50002502 0000
+800C0A42 000F
+"=Test Drive 4 
+"Car Modifier [Note 1] (add 8-bit value)
+8005E92C 00??
+"=Tomb Raider 2 
+"Infinite Oxygen
+80097906 0708
+"Infinite Health
+801A8D6A 03E8
+"Infinite Flares
+8009398E 0003
+"Infinite Shotgun Ammo
+800979B4 000C
+"Moon Jump [Note 2]
+D0095810 0010
+801A8D68 FFE0
+"=VS 
+"P1 Infinite Health
+80144550 012C
+"P2 Infinite Energy
+801459C0 012C
+"P1 Character Modifier (add 8-bit value)
+8014454A 00??
+"P1 2nd Costume
+80144548 0001
+"P2 Character Modifier (add 8-bit value)
+801459BA 00??
+"P2 2nd Costume
+801459B8 0001
+
+#Jarrett & LaBonte Stock Car Racing#SLUS01139
+"Start On Last Lap
+E00F9D58 0001
+300F9D58 00FF
+"Max Championship Points
+D00598A4 0000
+800598A4 0FFF
+"Car Takes No Damage
+D0088B44 03EF
+80088B46 2400
+D0088D0C 03F0
+80088D0E 2400
+D00ECE58 03F2
+800ECE5A 2400
+"Start/Stop Timer (Select to Stop + L2/R2 to Start)
+D0054138 0001
+8002D326 2400
+D0054138 1301
+8002D326 AC62
+"Unlock All
+Cars50001001 0000
+30058710 0001
+
+#Jeopardy Second Edition#SLUS01173
+"Max Money P1
+800ACFAC E0FF
+800ACFAE 05F5
+"Max Money P2
+800B1250 E0FF
+800B1252 05F5
+"Max Money P3
+800B1274 E0FF
+800B1276 05F5
+"Money Modifier P1 (add 16-bit value)
+800ACFAC ????
+"Money Modifier P2 (add 16-bit value)
+800B1250 ????
+"Money Modifier P3 (add 16-bit value)
+800B1274 ????
+"Infinite Time To Answer
+800AD098 0000
+
+#Jeopardy#SLUS00682
+"Max Money P1
+8009C300 E0FF
+8009C302 05F5
+"Max Money P2
+8009C324 E0FF
+8009C326 05F5
+"Max Money P3
+8009C348 E0FF
+8009C34A 05F5
+"Money Modifier P1 (add 16-bit value)
+8009C300 ????
+"Money Modifier P2 (add 16-bit value)
+8009C324 ????
+"Money Modifier P3 (add 16-bit value)
+8009C348 ????
+
+#Jeremy McGrath Supercross '98#SLUS00479
+"Command (add 16-bit value)
+D0088402 ????
+"Unlock All Tracks
+80077068 0009
+"Enable Reverse Mode
+80077062 0100
+"Press L2 For Hidden 80cc Blue Bike
+D0088402 0100
+80076F18 0000
+"=Press L1 to make your curent lap your last. 
+"3 Lap Races
+D0088402 0001
+80088A28 0102
+"4 Lap Races
+D0088402 0001
+80088A28 0103
+"5 Lap Races
+D0088402 0001
+80088A28 0104
+"Enable Cheat Menu
+80076C1A 0001
+
+#Jeremy McGrath Supercross 2000#SLUS00832
+"Joker Command P1 (add 16-bit value)
+D0099ED8 ????
+"Joker Command P2 (add 16-bit value)
+D0099EDC ????
+"P1 Quick Win
+800925D4 0000
+D00925DC 0000
+800925DC 0004
+"Stop Timers
+80094164 0000
+"Start on Last Race of Series
+D0093878 0000
+80093878 0007
+"Start on Last Combined Series Race
+D0093878 0000
+80093878 000F
+"Max Stunt Points
+30093FD6 004F
+"Unlock Table Top
+8009410C 0001
+"Unlock Chasm
+80094110 0001
+"Unlock Jim Jam
+80094114 0001
+"Unlock Moon
+80094118 0001
+"=10 Unlock All Stunt Tracks
+50000404 0000
+8009410C 0001
+"Unlock All Series
+80094138 0005
+"P2 Quick Win
+800928AC 0000
+D00928B4 0000
+800928B4 0004
+"P1 Max Series Points
+80093A80 03E7
+"P2 Max Series Points
+80093A84 03E7
+"Number Of Laps To Race Modifier (add 8-bit value)
+80093CF8 00??
+
+#Jersey Devil#SCUS94907
+"Command (add 16-bit value)
+D001000C ????
+"Push Triangle to have all 5 Letters [Note 1]
+D001000C 0010
+8005AE70 0020
+"Invincible
+80053E08 004B
+"Infinite Health
+80010044 1950
+"Push Triangle For 99 Pumpkins [Note 2]
+D001000C 0010
+80010040 0063
+"Infinite Lives
+80010042 0900
+
+#Jet Moto 2#SCUS94167
+"Have All Tracks, Main Trophy & Insane Difficulty Level
+8016AF06 0401
+8016B0F0 0401
+8016B0F2 0401
+8016B0F4 0401
+8016B0F6 0401
+"Put The Riders Names on The Trophey
+8016B0F8 0401
+8016B0DC 0401
+8016B0DE 0401
+8016B0E2 0401
+8016B0E4 0401
+8016B0E6 0401
+8016B0E8 0401
+8016B0E0 0401
+8016B0EA 0401
+8016B0EC 0401
+"Have All Code Medals & Stunt Key
+8016B0EE 0401
+8016B0FA 0101
+8016B0FC 0101
+8016B0FE 0101
+8016B100 0101
+8016B102 0101
+"Have The Original 10 Jet Moto Tracks
+8016B104 0101
+"Always Come in 1st
+8017D730 0001
+8016FCA8 0003
+"Infinite Turbo (Li'l Dave)
+8016BDEC 4000
+"Infinite Grapple (Li'l Dave)
+8016C11A 0006
+"Infinite Turbo (Wild Ride)
+8016CD54 4000
+"Infinite Grapple (Wild Ride)
+8016D082 0006
+"Infinite Turbo (Blade)
+8016DCBC 4000
+"Infinite Grapple (Blade)
+8016DFEA 0006
+"Infinite Turbo (The Technician)
+8016EC24 4000
+"Infinite Grapple (The Technician)
+8016EF52 0006
+"Infinite Turbo (The Max)
+8016FB8C 4000
+"Infinite Grapple (The Max)
+8016FEBA 0006
+"Infinite Turbo (Vampeera)
+80170AF4 4000
+"Infinite Grapple (Vampeera)
+80170E22 0006
+"Infinite Turbo (Gadget)
+80171A5C 4000
+"Infinite Grapple (Gadget)
+80171D8A 0006
+"Infinite Turbo (Steele)
+801729C4 4000
+"Infinite Grapple (Steele)
+80172CF2 0006
+"Infinite Turbo (The Hun)
+8017392C 4000
+"Infinite Grapple (The Hun)
+80173C5A 0006
+"Infinite Turbo (Bomber)
+80174894 4000
+"Infinite Grapple (Bomber)
+80174BC2 0006
+"Infinite Turbo(Enigma)
+801757FC 4000
+"Infinite Grapple (Enigma)
+80175B2A 0006
+"Race All Tracks in Wire-Frame Mode
+8016B114 0101
+"=Start on Lap 3 
+"Li'l Dave
+8016BF08 0003
+"Wild Ride
+8016CE70 0003
+"Blade
+8016DDD8 0003
+"Technician
+8016ED40 0003
+"The Max
+8016FCA8 0003
+"Vampeera
+80170C10 0003
+"Gadget
+80171B78 0003
+"Steele
+80172AE0 0003
+"The Hun
+80173A48 0003
+"Bomber
+801749B0 0003
+"Enigma
+80175918 0003
+
+#Jet Moto 3#SCUS94555
+"Joker Command P1 (add 16-bit value)
+D00B74FA ????
+"Joker Command P2 (add 16-bit value)
+D00B751C ????
+"Always Place 1st
+8005F49E 2400
+800BBC6E 0000
+800BBC76 0100
+800BBC7E 0200
+800BBC86 0300
+800BBC8E 0400
+800BBC96 0500
+"Infinite Turbo P1
+800CCF1A 0240
+"Lap Time 0:00.00
+8005F49E 2400
+"Hard To Kill P1
+800CCF26 00FF
+"Character Modifier P1 (add 8-bit value)
+30010000 00??
+"Start On Lap Modifier (add 8-bit value)
+30010F6F 00??
+"Quick Win & Place 1st
+8005F49E 2400
+30010F6F 0000
+800BBC6E 0000
+800BBC76 0100
+800BBC7E 0200
+800BBC86 0300
+800BBC8E 0400
+800BBC96 0500
+"=Unlock Tracks 
+"Urban Subway
+8008F50C 0002
+"CataCombs
+8008F56C 0002
+"SkyPark
+8008F59C 0002
+"ShipWreck Cove
+8008F5CC 0003
+"Machu Picchu
+8008F5FC 0002
+"Sequoia Forest
+8008F62C 0002
+"Planet X
+8008F65C 0002
+"Ytic Tsol
+8008F68C 0002
+"Uhccip Uhcam
+8008F6BC 0002
+"Krapyks
+8008F6EC 0002
+"Open & Complete Novice, Semi-Pro, Pro & Bonus in Season Mode
+80010F68 0F0F
+"Unlock All Secret Riders & Riders Trophies
+80010F66 FFFF
+"Unlock All Medals & Pins
+80010F64 FFFF
+"Unlock All 10 Track Coins & Stunt Mode
+80010F62 FFFF
+"Infinite Stunt Mode Time
+8005F43E 2400
+"Activate All In-Game Cheats
+80010F60 FFFF
+"Hard To Kill P2
+800CD3CE 00FF
+"Character Modifier P2 (add 8-bit value)
+30010001 00??
+"Infinite Turbo P2
+800CD3C2 0240
+"Max Championship Points
+30010F36 00FF
+"Super Jump P1
+300CCF24 007F
+"Super Jump P2
+300CD30C 007F
+
+#Jet Moto#SCUS94309
+"Enable All Tracks
+80176664 0003
+"Infinite Turbos
+80176700 0004
+80188B48 0004
+"Race Only 1 Lap (Place 1st)
+80188988 0003
+8017CB5C 0002
+"Always Come in First Place
+80186D10 0000
+80188194 0000
+"Turbo is Enabled
+80016F06 0102
+8001679E 0102
+"Turbo is Disabled
+80016F06 0002
+80016FBE 0002
+"Grapple is Enabled
+80017166 0102
+8001721E 0102
+"Grapple is Disabled
+80017166 0002
+8001721E 0002
+"Trophy Presenter is Rider's Choice
+80017416 0003
+80017522 0003
+"Trophy Presenter is Female
+80017416 0103
+80017522 0003
+"Trophy Presenter is Male
+80017416 0203
+80017522 0203
+"Bike Hud is On
+800176CE 0102
+80017786 0102
+"Bike Hud is Off
+800176CE 0002
+80017786 0002
+"Cinematic Camera is On
+8001792E 0102
+800179E6 0102
+"Cinematic Camera is Off
+8001792E 0002
+800179E6 0002
+"Stunt Race is On
+80017C06 0102
+80017CBE 0102
+"Stunt Race is Off
+80017C06 0002
+80017CBE 0002
+"Difficulty Modifier (add 16-bit value)
+800168FE ????
+8001679E ????
+"=Infinite Grapple 
+"Mace
+801799B6 0019
+"Masala
+80179D32 0019
+"Arroyo
+8017A0AE 0019
+"Bomber
+801792BE 0019
+"Rhino
+8017963A 0019
+"Black Jack
+8017AB22 0019
+"Tetsujin
+8017AE9E 0019
+"Technician
+8017B21A 0019
+"Shirow
+8017A42A 0019
+"Stone
+8017A7A6 0019
+"Dakota
+8017CDFA 0019
+"Wild Ride
+8017D176 0019
+"Miko
+8017D4F2 0019
+"Irons
+8017C702 0019
+"Shannara
+8017CA7E 0019
+"Chien
+8017BC8E 0019
+"The Max
+8017C00A 0019
+"Gunner
+8017C386 0019
+"Quick Jessie
+8017B596 0019
+"Harris
+8017B912 0019
+"Enable Cheats
+3001670F 0001
+
+#Jigsaw Puzzle#SLUS01509
+"Infinite Time
+800DAC58 0000
+"P1 X's Modifier (add 8-bit value)
+800DAC84 00??
+"P1 O's Modifier (add 8-bit value)
+800DAC8C 00??
+"P2 X's Modifier (add 8-bit value)
+800DAC86 00??
+"P2 O's Modifier (add 8-bit value)
+800DAC8E 00??
+"P3 X's Modifier (add 8-bit value)
+800DAC88 00??
+"P3 O's Modifier (add 8-bit value)
+800DAC90 00??
+"P4 X's Modifier (add 8-bit value)
+800DAC8A 00??
+"P4 O's Modifier (add 8-bit value)
+800DAC92 00??
+
+#Johnny Bazookatone#SLUS00194
+"Infinite Lives
+800B5A94 0009
+"Infinite Energy
+800B5A98 0003
+
+#JoJo's Bizarre Adventure#SLUS01060
+"P1 Infinite Health
+800CDEBA 00C8
+"P1 25% Health
+D00CDEBA 00C8
+800CDEBA 0032
+"P1 50% Health
+D00CDEBA 00C8
+800CDEBA 0064
+"P1 75% Health
+D00CDEBA 00C8
+800CDEBA 0096
+"P1 1-Hit Death
+D00CDEBA 00C8
+800CDEBA 0001
+"P1 No Health
+800CDEBA 0000
+"P2 Infinite Health
+800CE24A 00C8
+"P2 25% Health
+D00CE24A 00C8
+800CE24A 0032
+"P2 50% Health
+D00CE24A 00C8
+800CE24A 0064
+"P2 75% Health
+D00CE24A 00C8
+800CE24A 0096
+"P2 1-Hit Death
+D00CE24A 00C8
+800CE24A 0001
+"P2 No Health
+800CE24A 0000
+"P1 Infinite Stand
+800CD3D2 0050
+"P1 No Stand
+800CD3D2 0000
+"P2 Infinite Stand
+800CD762 0050
+"P2 No Stand
+800CD762 0000
+"P1 Max Super Combo Level
+300D08A2 000A
+"P1 Infinite Super Combo Gauge
+300D08A1 006A
+"P2 Max Super Combo Level
+300D08E6 000A
+"P2 Infinite Super Combo Gauge
+300D08E5 006A
+"Infinite Timer
+3006D2E1 0063
+"P1 Never Loses
+300D08A3 0000
+"P1 Needs 1 Win To Win
+E00D08A3 0000
+300D08A3 0001
+"P2 Never Loses
+300D08E7 0000
+"P2 Needs 1 Win To Win
+E00D08E7 0000
+300D08E7 0001
+"Everything
+Unlocked50000602 0000
+80066730 FFFF
+"Max JoJo Ability Points
+80066758 0708
+"Infinite Health (Both Players)
+800AD0AA 2400
+"Infinite Stand (Both Players)
+800AD0BA 2400
+"=30 Infinite HP (Story Mode)
+D30B27E0 2801
+800B27E0 6405
+"=31 Max Heart Score(Story Mode)
+D3066CC2 0001
+80066CC2 000A
+
+#Judge Dredd#SLUS00630
+"=P1 
+"Ininite Health
+800DA992 03E8
+"Infinite Ammo
+800DA9A0 0803
+"Have Score of 1 Million
+800DA974 CA00
+800DA976 3B9A
+"=P2 
+"Infinite Health
+800DA9DA 03E8
+"Infinite Ammo
+800DA9E8 0803
+"=Both 
+"Infinite Credits
+801E33E6 0004
+"Deformed Characters
+3001BCA8 0001
+"Invincibility
+3001BCA7 0001
+
+#Juggernaut#SLUS00894
+"=Item Slot Modifier (add 8-bit value)
+"Slot 1
+801DE28A 00??
+"Slot 2
+801DE28C 00??
+"Slot 29
+801DE2C2 00??
+
+#Jumping Flash 1#SCUS94103
+"MASTER CODE
+D0008520 1000
+"Infinite Lives
+D00B0000 0D18
+80102EF4 0003
+D00B0000 1658
+80103308 0003
+D00B0000 0DEC
+800FFA0C 0003
+D00B0000 0DF0
+80101EEC 0003
+D00B0000 1664
+80108210 0003
+D00B0000 1504
+800FD144 0003
+"Infinite Time
+D00B0000 0D18
+80102830 8C80
+D00B0000 1658
+80102C4C 8C80
+D00B0000 0DEC
+800FF380 8C80
+D00B0000 0DF0
+80101820 8C80
+D00B0000 1664
+80107AF4 8C80
+D00B0000 1504
+800FCA88 8C80
+"Infinite Energy
+D00B0000 0D18
+80138114 00C8
+D00B0000 1658
+80139840 00C8
+D00B0000 0DEC
+8013495C 00C8
+D00B0000 0DF0
+8013AF44 00C8
+D00B0000 1664
+8013D328 00C8
+D00B0000 1504
+801321FC 00C8
+"Free Time
+80102F04 0001
+
+#Jumping Flash 2#SCUS94108
+"Command (add 16-bit value)
+D004BACC ????
+"=Level 1 
+"Infinite Time
+80104094 6E4F
+"Infinite Lives
+80105098 0003
+"Stop Time
+801050A0 0001
+"Infinite Energy
+80136DE4 0085
+"Jumping Bar Full
+8010520C 1000
+80105210 1000
+"Jump Infinitely
+801051C0 0001
+"Have All Muu's
+801050D4 000F
+"=Level 2 
+"Infinite Time
+801060A8 8C4D
+"Infinite Lives
+801070A0 0005
+"Stop Time
+801070A8 0001
+"Infinite Energy
+80138E48 0085
+"Jumping Bar Full
+80107214 1000
+80107218 1000
+"Jump Infinitely
+801071C8 0001
+"Have All Muu's
+80107064 000F
+"=Level 3 
+"Infinite Time
+8010B5D0 8C8C
+"Infinite Lives
+8010C604 0005
+"Stop Time
+8010C60C 0001
+"Infinite Energy
+8013D9CC 0085
+"Jumping Bar Full
+8010C778 1000
+8010C77C 1000
+"Jump Infinitely
+8010C72C 0001
+"Have All Muu's
+8010C5C8 000F
+"=Level 4 
+"Infinite Time
+8010BE04 8C8C
+"Infinite Lives
+8010CE00 0005
+"Stop Time
+8010CE08 0001
+"Infinite Energy
+8013FE30 0085
+"Jumping Bar Full
+8010CF74 1000
+8010CF78 1000
+"Jump Infinitely
+8010CF28 0001
+"Have All Muu's
+8010CDC4 000F
+"=Level 5 
+"Infinite Time
+801145AC 8C8C
+"Infinite Lives
+801155B8 0005
+"Stop Time
+801155C0 0001
+"Infinite Energy
+80147870 0085
+"Jumping Bar Full
+8011572C 1000
+80115730 1000
+"Jump Infinitely
+801156E0 0001
+"Have All Muu's
+8011557C 000F
+"=Level 6 
+"Infinite Time
+80114CFC 8C8C
+"Infinite Lives
+80115D34 0005
+"Stop Time
+80115D3C 0001
+"Infinite Energy
+80149FCC 0085
+"Jumping Bar Full
+80115EA8 1000
+80115EAC 1000
+"Jump Infinitely
+80115E5C 0001
+"Have All Muu's
+80115CF8 000F
+"=Misc. 
+"Level Modifier (add 8-bit value)
+8001534C 00??
+"Start on Level Modifier (add 8-bit value)
+D001534C 0000
+8001534C 00??
+
+#Jumpstart Wildlife Safari Field Trip#SLUS01383
+"Have All Keys
+50000702 0000
+800ADB48 0101
+"Have All Stars
+300ADB57 0001
+5000FF02 0000
+800ADB58 0101
+"Unlock Casey
+50000503 0000
+300ADB4A 0001
+
+#Jungle Book-Rythem N' Groove#SLUS01278
+"=Story Mode 
+"=Level 1 
+"Quick Max Score
+D008E4D8 0000
+8008E4D8 FFFF
+"Max Combo
+D008E520 0000
+8008E520 7FFF
+"Infinite
+TriesE008E534 0002
+3008E534 0003
+"=Level 2 
+"Quick Max Score
+D008EE5C 0000
+8008EE5C FFFF
+"Max Combo
+D008EEA4 0000
+8008EEA4 7FFF
+"Infinite
+TriesE008EEB8 0002
+3008EEB8 0003
+"=Level 3 
+"Quick Max Score
+D008DA6C 0000
+8008DA6C FFFF
+"Max Combo
+D008DAB4 0000
+8008DAB4 7FFF
+"Infinite
+TriesE008DAC8 0002
+3008DAC8 0003
+"=Level 4 
+"Quick Max Score
+D008E5FC 0000
+8008E5FC FFFF
+"Max Combo
+D008E644 0000
+8008E644 7FFF
+"Infinite
+TriesE008E658 0002
+3008E658 0003
+"=Level 5 
+"Quick Max Score
+D008E0BC 0000
+8008E0BC FFFF
+"Max Combo
+D008E104 0000
+8008E104 7FFF
+"Infinite
+TriesE008E118 0002
+3008E118 0003
+"=Level 6 
+"Quick Max Score
+D008DE20 0000
+8008DE20 FFFF
+"Max Combo
+D008DE68 0000
+8008DE68 7FFF
+"Infinite
+TriesE008DE7C 0002
+3008DE7C 0003
+"=Level 7 
+"Quick Max Score
+D008D8B4 0000
+8008D8B4 FFFF
+"Max Combo
+D008D8FC 0000
+8008D8FC 7FFF
+"Infinite
+TriesE008D910 0002
+3008D910 0003
+"=Level 8 
+"Quick Max Score
+D008EAA0 0000
+8008EAA0 FFFF
+"Max Combo
+D008EAE8 0000
+8008EAE8 7FFF
+"Infinite
+TriesE008EAFC 0002
+3008EAFC 0003
+"=Level 9 
+"Quick Max Score
+D0090F74 0000
+80090F74 FFFF
+"Max Combo
+D0090FBC 0000
+80090FBC 7FFF
+"Infinite
+TriesE0090FD0 0002
+30090FD0 0003
+"=Lou Bega Challenge 
+"Quick Max Score
+D008B4BC 0000
+8008B4BC FFFF
+"Max Combo
+D008B504 0000
+8008B504 7FFF
+"Infinite
+TriesE008B518 0002
+3008B518 0003
+"Unlock Dancing Stage
+80056780 0000
+80056784 0000
+80056788 0000
+8005678C 0000
+80056790 0000
+800567AC 0000
+800567B0 0000
+800567B4 0000
+800567B8 0000
+800567BC 0000
+"Unlock Jungle Theater
+80056768 000A
+8005676C 0902
+"Unlock Lou Bega Video
+80057CE0 8000
+"Unlock Crazy Difficulty
+80057D0E FFFF
+
+#Jupiter Strike#SLUS00177
+"=1 Infinite Shield 800BB3D4 0064 
+800BB818 0064
+"Laser Always Cool
+800BB950 0064
+"Infinite Lives
+800C38A4 0003
+
+#Jurassic Park 2-Lost World#SLUS00515
+"Command (add 16-bit value)
+D000857C ????
+"=Compy Level 
+"Beat Levels At Touch Of A Button [Note 1]
+D000857C 0001
+80050CD4 0004
+"Level Modifier [Note 2] (add 8-bit value)
+80050CD0 00??
+"FAKE Infinite Lives
+80050CAA 0701
+"Infinite Energy (High Ridge)
+800B3A7E 0064
+"Infinite Lives (High Ridge)
+800B5614 0063
+"Infinite Energy (Rain Forest)
+800AA1FE 0064
+"Infinite Lives (Rain Forest)
+800ABD94 0063
+"Infinite Energy (Creek Bed)
+800AB90E 0064
+"Infinite Lives (Creek Bed)
+800AD4A4 0063
+"Infinite Energy (Aisle of Giants)
+800D0C7E 0064
+"Infinite Lives (Aisle of Giants)
+800D2814 0063
+"Infinite Energy (Sleeping Titan)
+800A441E 0064
+"Infinite Energy (Sleeping Titan)
+800A5FB4 0063
+"Infinite Energy (Plains)
+8009886E 0064
+"Infinite Energy (Plains)
+8009A404 0063
+"Infinite Energy (River's Edge)
+800A4F6E 0064
+"Infinite Energy (River's Edge)
+800A6B04 0063
+"Infinite Energy (Beneath The Surface)
+80088ACE 0064
+"Infinite Breath (Beneath The Surface)
+8008A684 03E8
+"Infinite Energy (Beneath The Surface)
+8008A664 0063
+"Infinite Energy (Tidal Cavern)
+800DF66E 0064
+"Infinite Energy (Tidal Cavern)
+800E1204 0063
+"=Hunter Level 
+"Beat Levels At Touch Of A Button [Note 3]
+D000857C 0001
+800582D4 0004
+"Level Modifier [Note 4] (add 8-bit value)
+800582D0 00??
+"Infinite Energy (Enter Carefully)
+800C0D5E 0064
+"Infinite Lives (Enter Carefully)
+800C28F4 0063
+"Infinite Energy (Arid Canyon)
+800B032E 0064
+"Infinite Lives (Arid Canyon)
+800B1EC4 0063
+"Infinite Energy (Heart of The Island)
+800B6B2E 0064
+"Infinite Lives (Heart of The Island)
+800B86C4 0063
+"Infinite Energy (Underground)
+800BBB5E 0064
+"Infinite Lives (Underground)
+800BD6F4 0063
+"Infinite Energy (Geothermal Center)
+800B635E 0064
+"Infinite Lives (Geothermal Center)
+800B7EF4 0063
+"Infinite Energy (Ingen Complex)
+800C73BE 0064
+"Infinite Lives (Ingen Complex)
+800C8F54 0063
+"FAKE Infinite Lives
+800582AA 0701
+"Infinite Flame Gun
+30064BD0 0063
+"Infinite Cannon Gun
+30064BD1 0063
+"Infinite Smoke Gun
+30064BD2 0063
+"Infinite Timer Bomb
+30064BD3 0063
+"Infinite Machine Gun
+30064BD4 0063
+"Infinite Lighting Gun
+30064BD6 0063
+"=Raptor Level 
+"Beat Levels At Touch Of A Button [Note 5]
+D000857C 0001
+8005733C 0004
+"Level Modifier [Note 6] (add 8-bit value)
+80057338 00??
+"FAKE Infinite Lives
+80057312 0701
+"Infinite Energy (The Way Out)
+800CDC1E 0064
+"Infinite Lives (The Way Out)
+800CF7B4 0063
+"Infinite Energy (Raptor Ravine)
+800B2D7E 0064
+"Infinite Lives (Raptor Ravine)
+800B4914 0063
+"Infinite Energy (The Burn Zone)
+800D8ECE 0064
+"Infinite Lives (The Burn Zone)
+800DAA64 0063
+"Infinite Energy (Into The Fire)
+800C365E 0064
+"Infinite Lives (Into The Fire)
+800C51F4 0063
+"Infinite Energy (Eve of Chaos)
+801279EE 0064
+"Infinite Lives (Eve of Chaos)
+80129584 0063
+"=T-Rex Level 
+"Beat Levels At Touch Of A Button [Note 7]
+D000857C 0001
+80059C74 0004
+"Level Modifier [Note 8] (add 8-bit value)
+80059C70 00??
+"FAKE Infinite Lives
+80059C4A 0701
+"Infinite Energy (Aftermath)
+800B49CE 0064
+"Infinite Lives (Aftermath)
+800B6564 0063
+"Infinite Energy (Force of Nature)
+8009785E 0064
+"Infinite Lives (Force of Nature)
+800993F4 0063
+"Infinite Energy (Sulphure Fields)
+800B035E 0064
+"Infinite Lives (Sulphure Fields)
+800B1EF4 0063
+"Infinite Energy (Dinosaur Lairs)
+8009792E 0064
+"Infinite Lives (Dinosaur Lairs)
+800994C4 0063
+"Infinite Energy (Predator's Ball)
+80091F6E 0064
+"Infinite Lives (Predator's Ball)
+80093B04 0063
+"Infinite Energy (Hunter Camp)
+800AEE6E 0064
+"Infinite Lives (Hunter Camp)
+800B0A04 0063
+"Infinite Energy (The Hunters Regroup)
+800AD63E 0064
+"Infinite Lives (The Hunters Regroup)
+800AF1D4 0063
+"=Misc. 
+"Enter Level Select Password Only Once [Note 9]
+8002EEF8 0002
+"Infinite Lives
+80015FE6 2400
+
+.end

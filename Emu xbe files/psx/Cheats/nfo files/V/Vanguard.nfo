@@ -1,0 +1,340 @@
+Vanguard ATAC notes
+
+Note 1:
+With these codes, the Inventory Name Modifier Codes, you should use the same digits for all 3 codes.
+
+Quantity Digits
+Amulet Digits
+
+Quantity Digits to Accompany Amulet Modifier Codes
+00 - Nothing
+01 - Str. Gauntlet
+02 - Fairy Earring
+03 - Thieves' Ring
+04 - Armor Amulet
+05 - Holy Headband
+06 - Power Tiara
+07 - Dex. Ring
+08 - Wind Necklace
+09 - Rainbow Gem
+0A - Pegasus Boots
+0B - Devil's Horn
+0C - Family Jewels
+0D - Knight COA
+0E - Warrior COA
+0F - Assassin COA
+10 - Magic Hat
+11 - Big Bracelet
+12 - Duel Rose
+13 - Assassin Cape
+14 -
+15 - (Gives 999999 Range)
+16 - (Gives 999 HP and 99 DEF)
+17 - Mystaria (99 BAS, 99 AGL, 99999999.9 Speed)
+
+ATAC Name Digits
+
+Quantity Digits to Accompany ATAC Name Modifier Codes
+00 - Ultragunner
+01 - Zulwarn
+02 - TIC-TAC
+03 - Alba
+04 - Serata
+05 - Haizuron
+06 - Glaive
+07 - Waiban
+08 - Solarus
+09 - Sarbelas
+0A - Sylpheed
+0B - Korbelan
+0C - Sharking
+0D - Einlager
+0E - Botsu
+0F - Barbatos
+10 - Altagrave
+11 - Amphisia
+12 - Eigol
+13 - Ratatosk
+14 - Crimson
+15 - Botsu
+16 - Rahabor
+17 - Toreadore
+18 - Botsu
+19 - Roaring Lion
+1A - Flaros
+1B - Vedocorban
+1C - Bahamut
+1D - Yurangol
+1E - No. 86
+1F - Dantarius
+20 - Barazaph
+21 - Andoras
+22 - Haurol
+
+Mission Digits
+
+Quantity Digits to Accompany Mission Modifier Codes
+00 - Destiny's Child (Fruah Village)
+01 - Bandit Brigade (Egas Cannon)
+02 - Tragic Farewell (Maqui Bridge)
+03 - Araba Reclaimed (Araba Castle)
+04 - Nordilain Assault (Muilama Plat) (Shop Open)
+05 - Radcot's Trap (Vukryou Desert)
+06 - The Muspel Army (Echial Field)
+07 - Dionne's Test (Regio Castle)
+08 - Desert Escape (Vukryou Desert)
+09 - Radcot's Attack (Echial Field)
+0A - Ganlon's Betrayal (Echial Field)
+0B - Legendary Light (Melania Delta)
+0C - Kaidul's Revolt (Aylin) (Shop Open)
+0D - Thomson's Tragedy (Darafa Field)
+0E - The Deadliest ATAC (Eiza Township)
+0F - Norze Reclaimed (Norze Castle)
+10 - Faulkner's Ambition (Royal Capitol)
+11 - Ice-Cold Claire (Taliu Tundra) (Shop Open)
+12 - Logan's Siege (Okisa Trail)
+13 - Warrior of Honor (Xenia Forest)
+14 - Zulwarn Unleashed (Vanilin Fort)
+15 - Capitol Clash (Imperial Capitol) (Shop Open)
+16 - Light and Darkness (Imperial Palace - Kingdom Branch Ending 1)
+17 - Darkness and Light (Imperial Palace - Kingdom Branch Ending 2)
+18 - Faulkner's Trap (Mogron Trail)
+19 - Cave of Cretins (Muilama Plat) (Shop Open)
+1A - Harsh Reality (Rakton Plaza)
+1B - Traitorous Warrior (Araba Castle)
+1C - Bastion's Secret (Araba Castle) (Shop Open)
+1D - Logan's Test (Altaiga Forest)
+1E - Clashing in the Snow (Taliu Tundra)
+1F - Thomson's Fate (Tokoma Valley)
+20 - Andrew's Test (Echial Field)
+21 - Grabbing Gratia (Regio Castle) (Shop Open)
+22 - Rotten Radcot (Vukryou Desert)
+23 - The Royal ATAC (Melania Delta)
+24 - Refuge in Nordilain (Estel Mountain)
+25 - Sharking Attack! (Flavin Trail) (Shop Open)
+26 - Howl of the Ice Wolf (Xenia Forest)
+27 - Zulwarn's Heartbeat (Vanilin Fort)
+28 - Battle for Tomorrow (Imperial Palace - Empire Branch Ending 1)
+29 - Zulwarn's Breath (Vanilin Fort)
+2A - Continental Invasion (Vanilin Fort) (Shop Open)
+2B - The Journey Begins (Imperial Palace - Empire Branch Ending 2)
+2C - Faulkner the Filcher (Melania Delta)
+2D - Futile Search (Estel Mtn.)
+2E - TIC-TAC! (Araba Castle) (Shop Open)
+2F - Snowy Reunion (Taliu Tundra)
+30 - Runaway Princess (Lake Sokuen)
+31 - Sharking Sortie (Algini Fld.)
+32 - Defending the Town (Eiza Township) (Shop Open)
+33 - Howling Duyere (Aultar Trail)
+34 - Black Cloud (Rakton Plaza)
+35 - Nordilain's Secret (Xenia Forest)
+36 - Final Battle (Tolefas Village) (Shop Open)
+37 - Ultimate Weapon (Imperial Palace - Ruin Branch Ending)
+
+Name Digits
+
+Quantity Digits to Accompany Name Modifier Codes
+00 - Bastion
+01 - Faulkner
+02 - Duyere
+03 - Sadira
+04 - Logan
+05 - Radcot
+06 - Zeira
+07 - Dionne
+08 - Alden
+09 - Kamorge
+0A - Galvas
+0B - Ganlon
+0C - Reyna
+0D - Devlin
+0E - Barlow
+0F - Thomson
+10 - Halak
+11 - Zakov
+12 - Claire
+13 - Shion
+14 - Ione
+15 - Kaidul
+16 - Andrew
+17 - Cherno
+18 - Melior
+19 - Anseis
+1A - Puck
+1B - Cecilia
+1C - Milea
+1D - Armory
+1E - Franco
+1F - Madoc
+20 - Kuriem-Hilt
+21 - Nana
+22 - Kyu-Kyu
+23 - King
+24 - Savaro
+25 - Faulkner
+26 - Degalle
+27 - Security Chief
+28 - Kamorge
+29 - Imperial Gnrl.
+2A - Bodygrd Chief
+2B - Imperial
+2C - Kingdom
+2D - Bandit Chief
+2E - Red Tiger
+2F - Muspel Soldier
+30 - Mercenary
+31 - Jinba Soldier
+32 - Prisoner
+33 - Imperial 1
+34 - Imperial 2
+35 - Imperial 3
+36 - Imperial 4
+37 - Imperial 5
+38 - Imperial 6
+39 - Imperial 7
+3A - Imperial 8
+3B - Imperial 9
+3C - Bandit 1
+3D - Bandit 2
+3E - Bandit 3
+3F - Bandit 4
+40 - Bandit 5
+41 - Bandit 6
+42 - Bandit 7
+43 - Bandit 8
+44 - Bandit 9
+45 - Bodyguard 1
+46 - Bodyguard 2
+47 - Bodyguard 3
+48 - Bodyguard 4
+49 - Avalon 1
+4A - Avalon 2
+4B - Avalon 3
+4C - Avalon 4
+4D - Avalon 5
+4E - Avalon 6
+4F - Avalon 7
+50 - Avalon 8
+51 - Avalon 9
+52 - Kingdom 1
+53 - Kingdom 2
+54 - Kingdom 3
+55 - Kingdom 4
+56 - Kingdom 5
+57 - Kingdom 6
+58 - Kingdom 7
+59 - Kingdom 8
+5A - Kingdom 9
+5B - Nordilain 1
+5C - Nordilain 2
+5D - Nordilain 3
+5E - Nordilain 4
+5F - Nordilain 5
+60 - Nordilain 6
+61 - Nordilain 7
+62 - Nordilain 8
+63 - Nordilain 9
+64 - Muspel 1
+65 - Muspel 2
+66 - Muspel 3
+67 - Muspel 4
+68 - Muspel 5
+69 - Muspel 6
+6A - Muspel 7
+6B - Muspel 8
+6C - Muspel 9
+6D - Muspel 10
+6E - Muspel 11
+6F - Muspel 12
+70 - Imperial 10
+71 - Imperial 11
+72 - Imperial 12
+73 - Imperial 13
+74 - Imperial 14
+75 - Hibernia 1
+76 - Hibernia 2
+77 - Hibernia 3
+78 - Hibernia 4
+79 - Hibernia 5
+7A - Hibernia 6
+7B - Hibernia 7
+7C - Hibernia 8
+7D - Hibernia 9
+7E - Mercenary 1
+7F - Mercenary 2
+80 - Mercenary 3
+81 - Mercenary 4
+82 - Mercenary 5
+83 - Mercenary 6
+84 - Mercenary 7
+85 - Mercenary 8
+86 - Mercenary 9
+
+Stone Digits
+
+Quantity Digits to Accompany Stone Modifier Codes
+00 - Onyx (Earth 1)
+01 - Topaz (Earth 2)
+02 - Garnet (Earth 3)
+03 - Tiger's Eye (Earth 4)
+04 - Sardonis (Earth 5 - Sarbelas)
+05 - Carnelian (Earth 5 - Bahamut)
+06 - Turquoise (Water 1)
+07 - Aquamarine (Water 2)
+08 - Sapphire (Water 3)
+09 - Lapis Lazuli (Water 4)
+0A - Hawk's Eye (Water 5 - Altagrave)
+0B - Ocean Mist (Water 5 - TIC-TAC)
+0C - Opal (Fire 1)
+0D - Jasper (Fire 2)
+0E - Ruby (Fire 3)
+0F - Kunzite (Fire 4)
+10 - Sunstone (Fire 5 - Roaring Lion)
+11 - Bloodstone (Fire 5 - Crimson)
+12 - Beryl (Wind 1)
+13 - Emerald (Wind 2)
+14 - Olivine (Wind 3)
+15 - Jade (Wind 4)
+16 - Star Diamond (Wind 5 - Sylpheed)
+17 - Royal Jade (Wind 5 - Toreadore)
+18 - Dark Eye (Sharking)
+19 - Evil Eye (No. 86)
+1A - Black Diamond (Zulwarn)
+1B - Gratia (Ultragunner)
+
+Weapon Digits
+
+Quantity Digits to Accompany Weapon Modifier Codes
+00 - Eternus
+01 - Caliban
+02 - Soulstab
+03 - Dragontail
+04 - Mystaria
+05 - Steelburn
+06 - Ginsunami
+07 - Fridgia
+08 - Bloodblade
+09 - Gunganir
+0A - Skorsek
+0B - Demirune
+0C - Knuckle
+0D -
+0E -
+0F -
+10 - Gradius
+11 - Darkblade
+12 - Preshuze
+13 - Durandar
+14 - Spear
+15 - Partisan
+16 - Trident
+17 - Halberd
+18 - Hand Axe
+19 - Battle Axe
+1A - Great Axe
+1B - Break Axe
+1C - Tiger Blade
+1D - Shimmerswrd
+1E - Slashing Iron
+1F - Widowmaker
+20 - Quicksilver

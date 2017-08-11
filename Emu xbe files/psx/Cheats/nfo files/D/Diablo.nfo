@@ -1,0 +1,31 @@
+Quantity Digits to Accompany Weapon Type Part 1 Modifier Code
+00 - Item
+01 - Weapon
+02 - Armor
+
+Quantity Digits to Accompany Weapon Type Part 2 Modifier Code
+00 - Item
+01 - One Handed Weapon
+02 - Two Handed Weapon
+03 - Armor
+04 - Head Gear
+05 - Arm Gear
+06 - Neck Gear
+
+Quantity Digits to Accompany Weapon Picture Modifier Code
+00 - Full Mana Potion
+01 - Scroll?
+02 - Scroll?
+03 - Scroll?
+42 - Club
+76 - Short Bow
+
+Quantity Digits to Accompany Item Name Modifier Code
+00BF - Club
+03C4 - Short Bow
+
+Note 1:
+With this game, and the Enable Code, it will work for ALL version Cheat Devices, all you have to do is wait about 5-10 seconds and the game will boot past the Blizzard Copyright screen eventually. On a more personal note: Blizzard does this value, 0x029D8832, look familiar?
+
+Note 2:
+With this code, you can buy only one thing at a time!!! Buy something, then leave and come back!... Good old Blizzard really screwed up this game for us GS hackers!!!

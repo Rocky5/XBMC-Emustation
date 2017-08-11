@@ -1,0 +1,2 @@
+Note 1:
+With this code, it was tricky. If you just constantly write a high time in, the level will pause until it can verify the correct time before it starts, so you'd have to turn the Shark off before each level. What I did was have it write a high time when the timer hits about zero. Of course, Frogger counts down the time address when you win, to add to your score. Player should hit X to skip the "countdown", which goes on forever with the code on.

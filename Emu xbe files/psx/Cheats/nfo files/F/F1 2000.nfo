@@ -1,0 +1,14 @@
+Quantity Digits to Accompany # Of Laps In A Race Modifier Code
+00 - 4 Laps
+01 - 8 Laps
+02 - 16 Laps
+
+Quantity Digits to Accompany Difficulty Modifier Code
+00 - Easy
+01 - Medium
+02 - Hard
+03 - Expert
+
+Quantity Digits to Accompany Damage Modifier Code
+00 - Off
+01 - On

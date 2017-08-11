@@ -1,0 +1,241 @@
+Egg Digits
+
+Quantity Digits to Accompany Egg Modifier Codes
+1201 - Ultimate Egg
+1202 - Kewne Egg
+1203 - Dragon Egg
+1204 - Kid Egg
+1205 - Ifrit Egg
+1206 - Flame Egg
+1207 - Grineut Egg
+1208 - Griffon Egg
+1209 - Saber Egg
+120A - Snowman Egg
+120B - Ashra Egg
+120C - Arachne Egg
+120D - Battnel Egg
+120E - Nyuel Egg
+120F - Death Egg
+1210 - Clown Egg
+1211 - Univern Egg
+1212 - Unicorn Egg
+1213 - Metal Egg
+1214 - Block Egg
+1215 - Pulunpa Egg
+1216 - Troll Egg
+1217 - Noise Egg
+1218 - U-Boat Egg
+1219 - Baloon Egg
+121A - Dreamin Egg
+121B - Blume Egg
+121C - Volcano Egg
+121D - Cyclone Egg
+121E - Manoeva Egg
+121F - Barong Egg
+1220 - Picket Egg
+1221 - Kraken Egg
+1222 - Weadog Egg
+1223 - Stealth Egg
+1224 - Viper Egg
+1225 - Naplass Egg
+1226 - Zu Egg
+1227 - Mandara Egg
+1228 - Killer Egg
+1229 - Garuda Egg
+122A - Glacier Egg
+122B - Tyrant Egg
+122C - Golem Egg
+122D - Maximum Egg
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+Items
+0101 - Medicinal
+0102 - Antidote
+0103 - Antichaos
+0104 - Wake-Up
+0105 - Cure-All
+0106 - Harak
+0107 - Shomuro
+0108 - Healing Herb
+0109 - Poison
+010A - Paralyze
+010B - Harash
+010C - Horrey
+010D - Sleep
+010E - Roeam
+Familiar Food
+0111 - Pita
+0112 - Big Pita
+0113 - Tumna
+0114 - Leva
+0115 - Leolam
+0116 - Laev
+0117 - Roche
+0118 - Limit
+0119 - Oleen
+011A - Geropita
+Seeds
+011C - Harak
+011D - Shomuro
+011E - Mazarr
+011F - Mahell
+0120 - Light
+0121 - Sea
+0122 - Wind
+0123 - Lar
+0124 - Slow
+0125 - Tovar
+Balls
+0127 - Fire
+0128 - Blaze
+0129 - Flame
+012A - Pillar
+012B - Poison
+012C - Water
+012D - Repel
+012E - Ice Rock
+012F - Recovery
+0131 - Blinder
+0132 - Blinding
+0133 - Sleep
+0134 - Weak
+0137 - Acid Rain
+Beams
+0501 - Holy
+0502 - Malicious
+0503 - Trap
+0504 - Restore
+0505 - De-Curse
+0506 - Flat
+0507 - Alchemic
+Bells
+0509 - Holy
+050A - Malicious
+050B - Familiar
+Locators
+0510 - Exit
+0511 - Trap
+0512 - Focus
+0513 - Monster
+0514 - Treasure
+Crystals
+0601 - Wind
+0602 - Fire
+0603 - Water
+Misc.
+0605 - Rope
+0606 - Mallet
+0608 - B.Collar
+0609 - Box
+060A - Meat
+060B - Balloon
+060C - ?
+060D - Oleen
+Bags
+0A01 - Red
+0A02 - Blue
+0A03 - White
+Gifts
+0B01 - Cream
+0B02 - Roses
+0B03 - HandBag
+0B04 - Ring
+0B05 - Duck
+Special Items
+0B07 - Guru's Pot
+0B08 - W. Medal
+0B09 - Dumplings
+0B0A - Music Box
+0B0B - Eye Glasses
+0B0C - B. Cape
+0B0D - Chapple
+0B0F - Copper
+0B10 - Silver
+0B11 - Gold
+Troll Familiar Weapons
+0B1F - Troll
+0B20 - Hammer
+0B21 - Bow Gun
+Wands
+0B23 - Wooden Wand
+0B24 - Trained Wand
+0B25 - Life Wand
+0B26 - Paralyze Wand
+0B27 - Money Wand
+0B28 - Scarlet Wand
+0B29 - Stream Wand
+0B2A - Gulf Wand
+0B2B - Seal Wand
+Shields
+0B2D - Wooden Shield
+0B2E - Leather Shield
+0B2F - Mirror Shield
+0B30 - Copper Shield
+0B31 - Iron Shield
+0B32 - Steel Shield
+0B33 - Diamond Shield
+0B34 - Scorch Shield
+0B35 - Ice Shield
+0B36 - Earth Shield
+0B37 - Live Shield
+Equipped Familiar
+0B39 - Hikewne Familiar
+0B3A - Kewne Familiar
+0B3B - Dragon Familiar
+0B3C - Kid Familiar
+0B3D - Ifrit Familiar
+0B3E - Flame Familiar
+0B3F - Grineut Familiar
+0B40 - Griffon Familiar
+0B41 - Saber Familiar
+0B42 - Snowman Familiar
+0B43 - Ashra Familiar
+0B44 - Arachne Familiar
+0B45 - Battnel Familiar
+0B46 - Nyuel Familiar
+0B47 - Death Familiar
+0B48 - Clown Familiar
+0B49 - Univern Familiar
+0B4A - Unicorn Familiar
+0B4B - Metal Familiar
+0B4C - Block Familiar
+0B4D - Pulunpa Familiar
+0B4E - Troll Familiar
+0B4F - Noise Familiar
+0B50 - U-Boat Familiar
+0B51 - Baloon Familiar
+0B52 - Dreamin Familiar
+0B53 - Blume Familiar
+0B54 - Volcano Familiar
+0B55 - Cyclone Familiar
+0B56 - Manoeva Familiar
+0B57 - Barong Familiar
+0B58 - Picket Familiar
+0B59 - Kraken Familiar
+0B5A - Weadog Familiar
+0B5B - Stealth Familiar
+0B5C - Viper Familiar
+0B5D - Naplass Familiar
+0B5E - Zu Familiar
+0B5F - Mandara Familiar
+0B60 - Killer Familiar
+0B61 - Garuda Familiar
+0B62 - Glacier Familiar
+0B63 - Tyrant Familiar
+0B64 - Golem Familiar
+0B65 - Maximum Familiar
+Swords
+0F01 - Gold Sword
+0F02 - Copper Sword
+0F03 - Iron Sword
+0F04 - Steel Sword
+0F05 - Fire Sword
+0F06 - Blizzard Sword
+0F07 - Gulfwind Sword
+0F08 - Vital Sword
+0F09 - Dark Sword
+0F0A - Holy Sword
+0F0B - Seraphim Sword
+0F0C - Seraphim Sword (Equippable)

@@ -1,0 +1,9 @@
+Quick list of changes.
+
+1. Added in 8-bit, 16-bit code differences
+2. Split some game codes up
+3. Cleaned up some loose codes
+4. Deleted Caetla Codes
+5. Removed dash from slushs
+6. Removed repeated codes but kept first 2 (for difference in address and future referrence) and last (slot 1, 2..... 584)
+7. Combined [Note] Sub descriptions in with actual heading where needed.

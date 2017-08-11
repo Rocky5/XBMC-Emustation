@@ -1,0 +1,7598 @@
+#A Bug's Life#SCUS94288
+"Infinite Health
+800A6594 0004
+"Infinite Lives & Grain
+800A65A0 3209
+"FLIK
+300A65A2 000F
+"Start With Goldberry [Note 1]
+800A6596 0300
+"Start With Blueberry [Note 2]
+800A6596 0100
+"Start With Homing Berry [Note 3]
+800A6596 0200
+"Have All Enemies Killed
+800A658E 0000
+"Have All Movies Unlocked
+80082284 000F
+8009B878 0707
+8009B87A 0707
+8009B87C 0707
+8009B87E 0707
+8009B880 0707
+8009B882 0707
+8009B884 0707
+8009B886 0707
+8009B888 0707
+"Have All Levels Unlocked
+80082284 000F
+"Always Have Super Jump
+800A6590 0020
+"Infinite Lives
+300A65A0 0009
+"Infinite Grain
+300A65A1 0063
+"Unlock 1st Set Of Movies
+80082284 000F
+"Unlock 2nd Set Of Movies
+3009B878 0007
+"Unlock 3rd Set Of Movies
+3009B879 0007
+"Unlock 4th Set Of Movies
+3009B87A 0007
+"Unlock 5th Set Of Movies
+3009B87B 0007
+"Unlock 6th Set Of Movies
+3009B87C 0007
+"Unlock 7th Set Of Movies
+3009B87D 0007
+"Unlock 8th Set Of Movies
+3009B87E 0007
+"Unlock 9th Set Of Movies
+3009B87F 0007
+"Unlock 10th Set Of Movies
+3009B880 0007
+"Unlock 11th Set Of Movies
+3009B881 0007
+"Unlock 12th Set Of Movies
+3009B882 0007
+"Unlock 13th Set Of Movies
+3009B883 0007
+"Unlock 14th Set Of Movies
+3009B884 0007
+"Unlock 15th Set Of Movies
+3009B885 0007
+"Unlock 16h Set Of Movies
+3009B886 0007
+"Unlock 17th Set Of Movies
+3009B887 0007
+"Unlock 18th Set Of Movies
+3009B888 0007
+"Unlock 19th Set Of Movies
+3009B889 0007
+
+#A-Train#SLUS00003
+"Infinite Funds
+800A6230 9400
+800A6232 7735
+
+#Ace Combat 2#SLUS00404
+"Command
+D00B8278 ???? (add 16-bit value)
+"Have A-4 Plane
+30010C44 0001
+"Have F-4 Plane
+30010C45 0001
+"Have CF-C7 Plane
+30010C46 0001
+"Have A-6 Plane
+30010C47 0001
+"Have F-16 Plane
+30010C48 0001
+"Have X-29 Plane
+30010C49 0001
+"Have A-10 Plane
+30010C4A 0001
+"Have MiG-29 Plane
+30010C4B 0001
+"Have F-14 Plane
+30010C4C 0001
+"Have F-117A Plane
+30010C4D 0001
+"Have R-MO1 Plane
+30010C4E 0001
+"Have EF-2000 Plane
+30010C4F 0001
+"Have F/A-18E Plane
+30010C50 0001
+"Have Su-35 Plane
+30010C51 0001
+"Have YF-23A Plane
+30010C52 0001
+"Have F-22 Plane
+30010C53 0001
+"Infinite Money
+80010C1C 9676
+80010C1E 0098
+"Rapid Fire For Missiles
+8002C464 0000
+8002C466 0000
+80032BAC 0000
+80032BAE 0000
+"Cant Die From Hitting The Ground
+8002F748 0000
+8002F74A 0000
+"Infinite Health-Set 1 of 2 [Note 1]
+D00B8278 0001
+8002C370 0000
+D00B8278 0001
+8002C372 0000
+D00B8278 0001
+8002C360 0000
+D00B8278 0001
+8002C362 0000
+D00B8278 0001
+8002C364 0000
+D00B8278 0001
+8002C366 0000
+"Infinite Health-Set 2 of 2 [Note 2]
+D00B8278 0002
+8002C370 003F
+D00B8278 0002
+8002C372 3042
+D00B8278 0002
+8002C360 0010
+D00B8278 0002
+8002C362 1880
+D00B8278 0002
+8002C364 0018
+D00B8278 0002
+8002C366 ACA2
+"Infinite Missiles
+8002CAA8 0000
+8002CAAA 0000
+"Infinite Fuel
+8003936C 2400
+8003936E 82AC
+"Infinite Health
+8002C334 000F
+8002C336 3241
+8002C33A 2400
+8002C33C 001A
+8002C33E 1020
+"Extra Planes
+50000802 0000
+80010C44 0101
+"Max Planes Destroyed
+80010A7C E0FF
+80010A7E 05F5
+"Hits Suffered Always Zero
+80010A80 0000
+"Best Rank
+800B8490 0014
+
+#Ace Combat 3 - Electrosphere#SLUS00972
+"Plane Never Takes Damage
+800710BA 2400
+80071016 2400
+80070E36 2400
+"Infinite Normal Missiles
+800705CA 2400
+"Rapid Fire Missiles
+800704D4 0001
+"Unlock Music Player
+800BE624 0007
+"Infinite M.R.I.V. Missiles
+80070872 2400
+"Infinite Short Range Missiles
+8007072A 2400
+"Infinite Ground Range Missiles
+800705CA 2400
+"Have All Planes & Weapons
+50000A02 0000
+800BE66C 0101
+50000A02 0000
+800BE62C 0101
+50000702 0000
+800BE6A8 0101
+"Stop Regular Timer
+80052F06 2400
+"=Mission Passed [Note 1]
+"Mission 1
+E30BE911 0001
+300BE911 0001
+E30BE94D 0001
+300BE94D 0001
+E30BE989 0001
+300BE989 0001
+E30BEA01 0001
+300BEA01 0001
+"Mission 2
+E30BE912 0001
+300BE912 0001
+E30BE94E 0001
+300BE94E 0001
+E30BE98A 0001
+300BE98A 0001
+E30BEA02 0001
+300BEA02 0001
+"Mission 3
+E30BE913 0001
+300BE913 0001
+E30BE94F 0001
+300BE94F 0001
+E30BE98B 0001
+300BE98B 0001
+E30BEA03 0001
+300BEA03 0001
+"Mission 4
+E30BE914 0001
+300BE914 0001
+E30BE950 0001
+300BE950 0001
+E30BE98C 0001
+300BE98C 0001
+E30BEA04 0001
+300BEA04 0001
+"Mission 5
+E30BE915 0001
+300BE915 0001
+E30BE951 0001
+300BE951 0001
+E30BE98D 0001
+300BE98D 0001
+E30BEA05 0001
+300BEA05 0001
+"Mission 6
+E30BE916 0001
+300BE916 0001
+E30BE952 0001
+300BE952 0001
+E30BE98E 0001
+300BE98E 0001
+E30BEA06 0001
+300BEA06 0001
+"Mission 7
+E30BE917 0001
+300BE917 0001
+E30BE953 0001
+300BE953 0001
+E30BE98F 0001
+300BE98F 0001
+E30BEA07 0001
+300BEA07 0001
+"Mission 8
+E30BE918 0001
+300BE918 0001
+E30BE954 0001
+300BE954 0001
+E30BE990 0001
+300BE990 0001
+E30BEA08 0001
+300BEA08 0001
+"Mission 9
+E30BE919 0001
+300BE919 0001
+E30BE955 0001
+300BE955 0001
+E30BE991 0001
+300BE991 0001
+E30BEA09 0001
+300BEA09 0001
+"Mission 10
+E30BE91A 0001
+300BE91A 0001
+E30BE956 0001
+300BE956 0001
+E30BE992 0001
+300BE992 0001
+E30BEA0A 0001
+300BEA0A 0001
+"Mission 11
+E30BE91B 0001
+300BE91B 0001
+E30BE957 0001
+300BE957 0001
+E30BE993 0001
+300BE993 0001
+E30BEA0B 0001
+300BEA0B 0001
+"Mission 12
+E30BE91C 0001
+300BE91C 0001
+E30BE958 0001
+300BE958 0001
+E30BE994 0001
+300BE994 0001
+E30BEA0C 0001
+300BEA0C 0001
+"Mission 13
+E30BE91D 0001
+300BE91D 0001
+E30BE959 0001
+300BE959 0001
+E30BE995 0001
+300BE995 0001
+E30BEA0D 0001
+300BEA0D 0001
+"Mission 14
+E30BE91E 0001
+300BE91E 0001
+E30BE95A 0001
+300BE95A 0001
+E30BE996 0001
+300BE996 0001
+E30BEA0E 0001
+300BEA0E 0001
+"Mission 15
+E30BE91F 0001
+300BE91F 0001
+E30BE95B 0001
+300BE95B 0001
+E30BE997 0001
+300BE997 0001
+E30BEA0F 0001
+300BEA0F 0001
+"Mission 16
+E30BE920 0001
+300BE920 0001
+E30BE95C 0001
+300BE95C 0001
+E30BE998 0001
+300BE998 0001
+E30BEA10 0001
+300BEA10 0001
+"Mission 17
+E30BE921 0001
+300BE921 0001
+E30BE95D 0001
+300BE95D 0001
+E30BE999 0001
+300BE999 0001
+E30BEA11 0001
+300BEA11 0001
+"Mission 18
+E30BE922 0001
+300BE922 0001
+E30BE95E 0001
+300BE95E 0001
+E30BE99A 0001
+300BE99A 0001
+E30BEA12 0001
+300BEA12 0001
+"Mission 19
+E30BE923 0001
+300BE923 0001
+E30BE95F 0001
+300BE95F 0001
+E30BE99B 0001
+300BE99B 0001
+E30BEA13 0001
+300BEA13 0001
+"Mission 20
+E30BE924 0001
+300BE924 0001
+E30BE960 0001
+300BE960 0001
+E30BE99C 0001
+300BE99C 0001
+E30BEA14 0001
+300BEA14 0001
+"Mission 21
+E30BE925 0001
+300BE925 0001
+E30BE961 0001
+300BE961 0001
+E30BE99D 0001
+300BE99D 0001
+E30BEA15 0001
+300BEA15 0001
+"Mission 22
+E30BE926 0001
+300BE926 0001
+E30BE962 0001
+300BE962 0001
+E30BE99E 0001
+300BE99E 0001
+E30BEA16 0001
+300BEA16 0001
+"Mission 23
+E30BE927 0001
+300BE927 0001
+E30BE963 0001
+300BE963 0001
+E30BE99F 0001
+300BE99F 0001
+E30BEA17 0001
+300BEA17 0001
+"Mission 24
+E30BE928 0001
+300BE928 0001
+E30BE964 0001
+300BE964 0001
+E30BE9A0 0001
+300BE9A0 0001
+E30BEA18 0001
+300BEA18 0001
+"Mission 25
+E30BE929 0001
+300BE929 0001
+E30BE965 0001
+300BE965 0001
+E30BE9A1 0001
+300BE9A1 0001
+E30BEA19 0001
+300BEA19 0001
+"Mission 26
+E30BE92A 0001
+300BE92A 0001
+E30BE966 0001
+300BE966 0001
+E30BE9A2 0001
+300BE9A2 0001
+E30BEA1A 0001
+300BEA1A 0001
+"Mission 27
+E30BE92B 0001
+300BE92B 0001
+E30BE967 0001
+300BE967 0001
+E30BE9A3 0001
+300BE9A3 0001
+E30BEA1B 0001
+300BEA1B 0001
+"Mission 28
+E30BE92C 0001
+300BE92C 0001
+E30BE968 0001
+300BE968 0001
+E30BE9A4 0001
+300BE9A4 0001
+E30BEA1C 0001
+300BEA1C 0001
+"Mission 29
+E30BE92D 0001
+300BE92D 0001
+E30BE969 0001
+300BE969 0001
+E30BE9A5 0001
+300BE9A5 0001
+E30BEA1D 0001
+300BEA1D 0001
+"Mission 30
+E30BE92E 0001
+300BE92E 0001
+E30BE96A 0001
+300BE96A 0001
+E30BE9A6 0001
+300BE9A6 0001
+E30BEA1E 0001
+300BEA1E 0001
+"Mission 31
+E30BE92F 0001
+300BE92F 0001
+E30BE96B 0001
+300BE96B 0001
+E30BE9A7 0001
+300BE9A7 0001
+E30BEA1F 0001
+300BEA1F 0001
+"Mission 32
+E30BE930 0001
+300BE930 0001
+E30BE96C 0001
+300BE96C 0001
+E30BE9A8 0001
+300BE9A8 0001
+E30BEA20 0001
+300BEA20 0001
+"Mission 33
+E30BE931 0001
+300BE931 0001
+E30BE96D 0001
+300BE96D 0001
+E30BE9A9 0001
+300BE9A9 0001
+E30BEA21 0001
+300BEA21 0001
+"Mission 34
+E30BE932 0001
+300BE932 0001
+E30BE96E 0001
+300BE96E 0001
+E30BE9AA 0001
+300BE9AA 0001
+E30BEA22 0001
+300BEA22 0001
+"Mission 35
+E30BE933 0001
+300BE933 0001
+E30BE96F 0001
+300BE96F 0001
+E30BE9AB 0001
+300BE9AB 0001
+E30BEA23 0001
+300BEA23 0001
+"Mission 36
+E30BE934 0001
+300BE934 0001
+E30BE970 0001
+300BE970 0001
+E30BE9AC 0001
+300BE9AC 0001
+E30BEA23 0001
+300BEA23 0001
+"Have EF2000E Typhoon II
+300BE669 0001
+"Have MiG-33 Fulcrum SS
+300BE66A 0001
+"Have F/A-18U Hornet ADV
+300BE66B 0001
+"Have F-16XFU Gyrfalcon
+300BE66C 0001
+"Have R-101 Delphinus #1
+300BE66D 0001
+"Have R-201 Asterzoa
+300BE66E 0001
+"Have F-16XA Sakerfalcon
+300BE66F 0001
+"Have F-15S/MT Eagle+
+300BE670 0001
+"Have F-22C Raptor II
+300BE671 0001
+"Have F/A-32C Erne
+300BE672 0001
+"Have Su-37 Super Flanker
+300BE673 0001
+"Have R-102 Delphinus #2
+300BE674 0001
+"Have R-211 Orcinus
+300BE675 0001
+"Have Su-43 Berkut
+300BE676 0001
+"Have R-103 Delphinus #3
+300BE677 0001
+"Have XFA-36A Game
+300BE678 0001
+"Have RF-12A2 Blackbird
+300BE679 0001
+"Have R-352 Sepia
+300BE67A 0001
+"Have XR-900 Geopelia
+300BE67B 0001
+"Have X-49 Night Raven
+300BE67C 0001
+"Have UI-4054 Aurora
+300BE67D 0001
+"=Mission Sim 
+"Unlock Mission Sim
+800D9194 0007
+800D96A8 0008
+"Unlock All Missions
+50002402 0000
+300BE911 0001
+50002402 0000
+300BE94E 0001
+50002402 0000
+300BE98A 0001
+"Unlock All Planes/Weapons
+50000A02 0000
+800BE608 0101
+50000702 0000
+800BE6A8 0101
+"Plane Modifier (add 8-bit value)
+800FA07C 00??
+
+#Aces Of The Air#SLUS01470
+"Infinite Rockets
+800E02D2 0900
+"Quick Score Gain
+800E0024 FFFF
+"Max Score
+800E0024 E0FF
+800E0026 05F5
+
+#Action Bass#SLUS01248
+"Stop/Start Timer (Press Select+R1/Select+R2)
+D00677E0 0108
+80093AF2 2400
+D00677E0 0102
+80093AF2 AC43
+"Press Select+L2 To Have A Fish On The Hook
+D00677E0 0101
+800C9198 0003
+D00677E0 0101
+800C9D00 9D14
+D00677E0 0101
+800C9D02 8015
+"Open All Areas And The Extra Option
+3006F463 0001
+"Unlock Lucky Usachan Lure
+3006F462 0001
+"Unlock Noisy Lure
+3006F461 0001
+"Unlock Rubber Jig Lure
+3006F460 0001
+"Unlock Buzz Bait Lure
+3006F45F 0001
+"Unlock Crank Bait Lure
+3006F45E 0001
+"Infinite Time
+800CFDE0 2955
+"Lure Action Always At Lowest
+800C9190 0000
+"Lure Modifier (add 8-bit value)
+800D565C 00??
+"Line Tension Always At Lowest
+800C9200 0000
+"Max Weight Total
+800CFDF8 FFFF
+800CFDFA 0FFF
+
+#Action Man - Operation Extreme#SLUS00887
+"Have All Points & Unlock Everything
+50009002 0000
+800B3000 FFFF
+"=City Streets 
+"Infinite Health
+8011698C 03E8
+"=Desert Base 
+"Infinite Health
+801C12FC 03E8
+"=City Skies 
+"Infinite Health
+8010206E 03E8
+"=Island Base 
+"Infinite Health
+801C0CF0 03E8
+"=Ice Flow 
+"Infinite Health
+801338FA 03E8
+"=Ice Base 
+"Infinite Health
+801C1570 03E8
+
+#Adidas Power Soccer#SCUS94502
+"Team A Score Modifier (add 16-bit value)
+800DAC4E ????
+"Team B Score Modifier (add 16-bit value)
+800DAC50 ????
+
+#Adventures Of Lomax#SCUS94906
+"Infinite Lives
+8006B854 0003
+"Always Have helmet
+8006B714 FFFF
+8006B71C FFFF
+"Infinite Bridges
+8006B660 0009
+"Infinite Digging
+8006B8B4 0009
+"Infinite Flames
+8006B8C8 0009
+"Infinite Lives
+8006B854 0063
+"Infinite Credits
+8006B7E0 0009
+
+#Adventures Of Phix#SLUS01523
+"Infinite Time
+800E7778 FFFF
+"Infinite Health
+800E7784 0003
+"Infinite Lives
+800E7786 0064
+"99 Crystals
+800E7780 0063
+"Infinite Shield
+800E8484 0074
+
+#Agile Warrior F-11X#SLUS00023
+"Infinite Armor
+800D43DC 0064
+"Infinite Fuel
+800D43D8 FFFF
+"Infinite Sidewinders
+80060F26 0020
+"Infinite Rockets
+80060F28 0020
+"Infinite Mavericks
+80060F2A 0020
+"Infinite Napalm
+80060F2C 0020
+"Infinite Bunker Busters
+80060F2E 0020
+"Infinite Cluster Bombs
+80060F30 0020
+"Infinite Fuel Air Explosives
+80060F32 0020
+"Infinite B61 SRAM
+80060F34 0020
+"Infinite AMRAMM
+80060F36 0020
+"Speed Modifier (add 8-bit value)
+800D4398 00??
+"Infinite Armor (Uses Built in Cheat)
+800D432E 0101
+
+#Air Combat#SLUS00001
+"Unlimited Missiles
+800EEB0C 0040
+"Unlimited Guns
+300EEB10 0027
+"Unlimited Fuel
+800EEB00 8FFF
+"Invinicible
+800EEA2C 00C8
+"Max Money
+8001013C 967F
+8001013E 0098
+"Infinite Money
+8001013C FFFF
+"=Level Status Modifier (add 8-bit value)
+"Level 1
+30096E29 00??
+"Level 2
+30096E2A 00??
+"Level 3
+30096E2B 00??
+"Level 4
+30096E2C 00??
+"Level 5
+30096E2D 00??
+"Level 6
+30096E2E 00??
+"Level 7
+30096E2F 00??
+"Level 8
+30096E30 00??
+"Level 9
+30096E31 00??
+"Level 10
+30096E32 00??
+"Level 11
+30096E33 00??
+"Level 12
+30096E34 00??
+"Level 13
+30096E35 00??
+"Level 14
+30096E36 00??
+"Level 15
+30096E37 00??
+"Level 16
+30096E38 00??
+"Level 17
+30096E39 00??
+"All Levels
+50001101 0000
+30096E29 00??
+
+#Akuji-The Heartless#SLUS00715
+"Invincible
+800BA746 06CA
+"Infinite Spells On Pick-Up
+800BA744 0010
+"Infinite Health
+D006981E A4C2
+8006981E 2400
+"Extra Spell Ammo
+80091C24 0001
+"Enable All Levels
+800C4704 000F
+"Walk Thru Walls [Note 1]
+D00CA37E F5FE
+8007425E A482
+D00CA37E F5FE
+8007424A A482
+D00CA37E FAFE
+8007425E 2400
+D00CA37E FAFE
+8007424A 2400
+"Infinite Lives
+80080346 2400
+"Have Debug Option In Pause Menu
+300BA742 000C
+
+#Alexi Lalas International Soccer#SLUS00872
+"Command
+D00D7CD6 ???? (add 16-bit value)
+"Home Team Score Modifier (add 8-bit value)
+8011FF54 ??01
+"Away Team Score Modifier (add 8-bit value)
+80120178 ??01
+"Enable All Secret Teams
+800E4D3C FFFF
+
+#Alien Ressurrection#SLUS00633
+"Reverse Joker Command
+D00BDB92 ???? (add 16-bit value)
+"Infinite Health
+8010D620 2400
+"Infinite Pistol Ammo
+8011BCC4 0064
+"Infinite Shotgun Ammo
+8011BCC6 0064
+"Infinite Pulse Rifle Ammo
+8011BCC8 0064
+"Infinite Flamethrower Ammo
+8011BCCA 0064
+"Infinite Electric Gun Ammo
+8011BCCC 0064
+"Infinite Grenade Launcher Ammo
+8011BCCE 0064
+"Infinite Laser Ammo
+8011BCD0 0064
+"Infinite Rocket Launcher Ammo
+8011BCD2 0064
+"Infinite Small Medipacks
+8011BCE4 0009
+"Infinite Medium Medipacks
+8011BCE6 0009
+"Infinite Large Medipacks
+8011BCE8 0009
+"Infinite Flashlight
+8011BCFC 00FF
+"All Weapons [Note 1]
+3011BCBC 00FF
+"Timer Stopped
+8005C356 0000
+"More Time Press Select
+D00BDB92 FFFE
+8011BE0C 7080
+"Infinite Chestburst Time
+8005162C 0000
+"Items Never Decrease
+800525AE 0000
+"Infinite Shotgun Rounds
+3011BCD6 00FF
+"Infinite Pulse Rifle Rounds
+3011BCD8 00FF
+"Infinite Flamethrower Rounds
+3011BCDA 00FF
+"Infinite Electric Gun Rounds
+3011BCDC 00FF
+"Infinite Grenade Launcher Rounds
+3011BCDE 00FF
+"Infinite Laser Rounds
+3011BCE0 00FF
+"Infinite Rocket Launcher Rounds
+3011BCE2 00FF
+"Infinite Portable Autodoc
+3011BD02 00FF
+"Have Items
+8011BCBE FFFF
+"Have All Keycards
+8011BCEA 0001
+8011BCEC 0001
+8011BCEE 0001
+8011BCF0 0001
+8011BCF2 0001
+8011BCF4 0001
+8011BCF6 0001
+"Infinite Fire Extinguisher
+8011BCF8 0064
+"Have Detonator
+8011BCFA 0001
+"Infinite Batteries
+8011BD00 0064
+
+#Alien Trilogy#SLUS00007
+"Infinite Energy
+8009A040 03E7
+"Infinite Armor
+8009A042 03E7
+"Infinite Charge Grenades
+8009A058 03E7
+"Infinite Handgun Bullets
+8009A046 03E7
+"Infinite Shotgun Bullets
+8009A04A 03E7
+"Infinite Flame Thrower Rounds
+8009A052 03E7
+"Infinite Pulse Riffle Rounds
+8009A04C 03E7
+"Infinite Pulse Rifle Grenades
+8009A050 03E7
+"Infinite Smart Gun Rounds
+8009A054 03E7
+"Infinite Batteries
+8009A05A 03E7
+"Infinite Boots
+8009A044 03E7
+"Have Shotgun
+8008F33E 0029
+"Have Flame Thrower
+8008F34A 0029
+"Have Pulse Rifle
+8008F342 0029
+"Have Smart Gun
+8008F346 0029
+"Have Auto Mapper
+8009A03C 03E7
+"Rapid Firer
+8009A024 0001
+"Infinite Shoulder Lights
+8009A05C 0014
+"Infinite Night Vision
+8009A060 0014
+"Have Cheat Option (Main Menu)
+8008CDA8 0380
+"Always Play Level Modifier (add 8-bit value)
+8008D378 00??
+"Start On Level Modifier (add 8-bit value)
+D008D378 0000
+8008D378 00??
+
+#All-Star Baseball '97 - Featuring Frank Thomas#SLUS00392
+"Reverse Joker Command
+D0041428 ???? (add 16-bit value)
+"Infinite Balls
+80044084 0000
+"1 Ball And You Walk
+D0044084 0000
+80044084 0003
+"2 Balls And You Walk
+D0044084 0000
+80044084 0002
+"3 Balls And You Walk
+D0044084 0000
+80044084 0001
+"Infinite Strikes
+8004353E 0000
+"1 Strike And You Are Out
+D004353E 0000
+8004353E 0002
+"2 Strikes And You Are Out
+D004353E 0000
+8004353E 0001
+"Infinite Outs
+80043BA6 0000
+"1 Out And You Are Out
+D0043BA6 0000
+80043BA6 0002
+"2 Outs And You Are Out
+D0043BA6 0000
+80043BA6 0001
+"Away Team Score Modifier (add 8-bit value)
+30043969 00??
+"Home Team Score Modifier (add 8-bit value)
+30043698 00??
+"Run's Score Modifier (add 8-bit value)
+8015ECE0 00??
+
+#Allied General#SLUS00303
+"Infinite Prestige
+800F0ACC FFFF
+"Infinite Turns (Both Sides)
+8008C15C 090A
+
+#Alone In The Dark - One Eyed Jack's Revenge#SLUS00239
+"Infinite Energy [Note 1]
+801E65BC 0032
+"Infinite Revolver Ammo [Note 2]
+80110AD6 0006
+"Infinite Thompson Ammo [Note 3]
+80110AD8 001E
+"Infinite Thompson Ammo
+801EA39C 03E7
+"Infinite Pistol Ammo
+801EA3AE 03E7
+
+#Alone In The Dark - The New Nightmare#SLUS01201
+"Infinite Health
+801450D8 0064
+"Enable Item Code (Must Be On!) [Note 1]
+801451C0 005C
+"=Item Modifier (add 8-bit value)
+"Slot 1
+801451C4 00??
+"Slot 92
+80145330 00??
+"=Max Item 
+"Slot 1
+801451C6 0063
+"Slot 92
+80145332 0063
+
+#Alundra 2 - A New Legend Begins#SLUS01017
+"Joker Command
+D0081BFA ???? (add 16-bit value)
+"Infinite Health With Max Health
+80067710 03E7
+80067712 03E7
+"Infinite Money
+80067704 FFFF
+"Moon Jump
+E0081BFB 00BF
+8011D64C 8BA8
+E0081BFB 00BD
+8011D64C 8BA8
+"Max Money
+80067704 423F
+80067706 000F
+"All Shops Have Infinite Items In Stock
+50000E20 0000
+300674E5 00FF
+50000E20 0000
+800674E6 FFFF
+50000E20 0000
+800674E8 FFFF
+50000E20 0000
+800674EA FFFF
+50000E20 0000
+800674EC FFFF
+50000E20 0000
+800674EE FFFF
+50000E20 0000
+800674F0 FFFF
+50000E20 0000
+300674F2 00FF
+"Pocket 1 Modifier (add 8-bit value)
+30067464 00??
+"Pocket 2 Modifier (add 8-bit value)
+30067465 00??
+"Pocket 3 Modifier (add 8-bit value)
+30067466 00??
+"Equipped Weapon Modifier (add 8-bit value)
+3006746C 00??
+"Equipped Shield Modifier (add 8-bit value)
+3006746E 00??
+"Infinite Wonder Orb
+3006743F 0009
+"Infinite Herbs
+30067440 0009
+"Infinite Compass
+30067441 0009
+"Infinite Tonic
+30067442 0009
+"Infinite Elixir
+30067443 0009
+"Infinite Panacea
+30067444 0009
+"Infinite Lorien Nuts
+30067445 0009
+"Infinite Grapes of Eru
+30067446 0009
+"Infinite Round Key (Special Item)
+30067447 0009
+"Infinite Triangle Key (Special Item)
+30067448 0009
+"Infinite Ticket (Special Item)
+30067449 0009
+"Infinite Bone Dart (Special Item)
+3006744C 0009
+"Infinite Goo Goo Bird (Special Item)
+3006744D 0009
+"Infinite Puzzle Piece
+30067450 0009
+"Infinite Elf Ring
+30067452 0009
+"Infinite SP Elf Ring
+30067453 0009
+"Infinite Guard Ring
+30067454 0009
+"Infinite SP Guard Ring
+30067455 0009
+"Infinite Amulet
+30067456 0009
+"Infinite Elemental Ring
+30067458 0009
+"Infinite Elemental Charm
+30067459 0009
+"Infinite Crimson Cape (Special Item)
+3006745A 0009
+"All Items
+50001B01 0000
+3006743F 0009
+"=The Races Vs Bull Game 
+"Infinite Gray Coins
+801C72C0 0063
+"Infinite Tonic
+801C72BC 0009
+"Infinite Gold Coins
+801C72B8 0063
+"Infinite Dungeon Keys
+3006744F 0009
+"=Deadeye Zach's Game 
+"Always Have 5x Multi-Player
+800664B4 0005
+"Score Modifier (add 16-bit value)
+80154888 ????
+"Medal Modifier (add 16-bit value)(Gamar Island) 
+80067708 ????
+"Time Always 0:00
+80066BCC 0000
+80066BCE 0000
+"Infinite EP
+80067716 03E7
+"99 Darts (Deadeye Zach's Dart Game)
+8006744C 0063
+
+#Alundra#SLUS00553
+"Infinite Health With Max Health
+801AC70C 0032
+801AC710 0032
+"Moon Jump [Note 1]
+D01DDA48 0040
+801AC7B2 0003
+"Invincible
+801AC8C4 004E
+"Infinite Money (Gilder)
+801DD824 270F
+"Have All Keys
+801DD924 0063
+801DD954 0001
+801DD95C 0001
+"Infinite Magic
+801DD820 0004
+801DD822 0004
+"Have The Bow
+801DD848 0001
+"Have The Spirit Wand
+801DD84C 0001
+"Have The Legendary Sword
+801DD5F0 0001
+"Have The Iron Flail
+801DD854 0001
+"Have The Steel Flail
+801DD858 0001
+"Have The Ice Wand
+801DD868 0001
+"Have The Fire Wand
+801DD870 0001
+"Have 99 Gilded Falcons
+801DD82A 0063
+"Have Bomb
+801DD8BC 0001
+"Infinite Herbs
+801DD8C0 0009
+"Have Strength Elixir
+801DD8C4 0001
+"Have Magic Elixir
+801DD8C8 0001
+"Have Wonder Essence
+801DD8CC 0001
+"Have Aqua Cape
+801DD8D0 0001
+"Have Earth Scroll
+801DD8DC 0001
+"Have Earth Book
+801DD8E0 0001
+"Have Water Scroll
+801DD8E4 0001
+"Have Water Book
+801DD8E8 0001
+"Have Fire Scroll
+801DD8EC 0001
+"Have Fire Book
+801DD8F0 0001
+"Have Wind Scroll
+801DD8F4 0001
+"Have Wind Book
+801DD8F8 0001
+"Have Olga's Ring
+801DD8FC 0001
+"Have Oak's Ring
+801DD900 0001
+"Have Silver Armlet
+801DD904 0001
+"Have Nava's Charm
+801DD908 0001
+"Have Recover Ring
+801DD90C 0001
+"Have Refresher
+801DD910 0001
+"Have Secret Pass
+801DD914 0001
+"Have Power Glove
+801DD91C 0001
+"Have Elevator Key
+801DD920 0001
+"Have Ruby Crest
+801DD928 0001
+"Have Sapphire Crest
+801DD92C 0001
+"Have Topaz Crest
+801DD930 0001
+"Have Agate Crest
+801DD934 0001
+"Have Garnet Crest
+801DD938 0001
+"Have Emerald Crest
+801DD93C 0001
+"Have Bouquet
+801DD958 0001
+"Have Leather Armor
+801DD878 0001
+"Have Ancient Armor
+801DD87C 0001
+"Have Silver Armor
+801DD880 0001
+"Have Long Boots
+801DD898 0001
+"Have Merman Boots
+801DD89C 0001
+"Have Charm Boots
+801DD8A0 0001
+"Have Spring Bean
+801DD8AC 0001
+"Have Sand Cape
+801DD8B0 0001
+"Have Broken Armor
+801DD8B4 0001
+"Mega Jump
+D01DDA48 0040
+801AC816 0400
+"Tigger Jump (WACKY CODE)
+801DDA48 0000
+"Can't Jump
+801DDA48 0040
+"Slow Motion
+800CB54C 0B5F
+"Opens Three Doors at Imp Temple
+801DD3CC 0400
+801DD3CE 0011
+"6/8 Warp Gates Open
+801DD3E6 00FF
+"Walk Over Everything (Walk Thru Walls) [Note 2]
+D01DDA48 0104
+80038212 2400
+D01DDA48 0104
+80038216 2400
+D01DDA48 0108
+80038212 AE17
+D01DDA48 0108
+80038216 AE1E
+
+#Amazing Virtual Sea Monkeys#SLUS01475
+"Infinite Time
+8014A984 001E
+"No Goldfish
+3014E028 0000
+"No Blue Balls
+3014E029 0000
+"Infinite Attempts
+8014E030 0009
+
+#American Pool#SLUS01488
+"=8-Ball, 9-Ball & Matches 
+"Max Points P1
+8008847C 0064
+"No Points P1
+8008847C 0000
+"Max Points P2
+800884B4 0064
+"No Points P2
+800884B4 0000
+"=Basic, Rotation & 14-1 Ball 
+"Max Points P1
+8008847A 0009
+8008847C 0009
+"No Points P1
+8008847A 0000
+8008847C 0000
+"Max Points P2
+800884B2 0009
+800884B4 0009
+"No Points P2
+800884B2 0000
+800884B4 0000
+"Always P1's Turn
+800494A0 0000
+"Always P2's Turn
+800494A0 0002
+
+#Andretti Racing#SLUS00264
+"Infinite Fuel
+801EB3A8 3D60
+801ECA8C 3732
+801E0194 0040
+801E019C 0040
+"Always Have 1st Place
+801EB318 0001
+"Gives you 1st Place Without Racing
+801EB2D8 0063
+"Qualify in 1st
+801EB35C A36D
+801EB360 C9AE
+801EB374 0111
+"Unlock Stock Cars In Career Mode
+80082114 4F47
+80082116 4220
+80082118 4145
+8008211A 5352
+8008211C 0021
+"Unlock Formula 1 Cars In Career Mode
+80082114 4F47
+80082116 4220
+80082118 5552
+8008211A 4E49
+8008211C 2153
+
+#Animorphs - Shattered Reality#SLUS01010
+"A Coins Modifier (add 8-bit value)
+801DD48C 00??
+"Infinite Lives
+801EBFCC 0064
+"Infinite Health
+801EE8F4 0005
+"Infinite Time
+801DD488 00FF
+"Infinite Turbo
+801DD088 003C
+"All Levels Unlocked
+801EBFD0 0008
+
+#Ape Escape#SCUS94423
+"Command
+D00E5478 ???? (add 16-bit value)
+"Infinite Health
+800EC2C8 0005
+"Infinite Lives
+800F448C 0064
+"Infinite Air
+800F4DC8 0258
+"Only Need to Catch 1 Monkey to End Level
+800F44B6 00CE
+"Max Gold Triangles
+800F44B8 0063
+"Timer is 0:00:00
+800F4490 0000
+"Have All Gadgets
+D00F51C4 0003
+300F51C4 00FF
+"Enable Fossil Field 100% Complete
+300DFC71 0002
+"Enable Prinordial Ooze 100% Complete
+300DFC72 0002
+"Enable Molten Lava 100% Complete
+300DFC73 0002
+"Enable Thick Jungle 100% Complete
+300DFC74 0002
+"Enable Dark Ruins 100% Complete
+300DFC75 0002
+"Enable Cryptic Relics 100% Complete
+300DFC76 0002
+"Enable Stadium Attack 100% Complete
+300DFC77 0002
+"Enable Crabby Beach 100% Complete
+300DFC78 0002
+"Enable Coral Cave 100% Complete
+300DFC79 0002
+"Enable Dexter's Island 100% Complete
+300DFC7A 0002
+"Enable Snowy Mammoth 100% Complete
+300DFC7B 0002
+"Enable Frosty Retreat 100% Complete
+300DFC7C 0002
+"Enable Hot Springs 100% Complete
+300DFC7D 0002
+"Enable Gladiator Attack 100% Complete
+300DFC7E 0002
+"Enable Sushi Temple 100% Complete
+300DFC7F 0002
+"Enable Wabi Sabi Wall 100% Complete
+300DFC80 0002
+"Enable Crumbling Castle 100% Complete
+300DFC81 0002
+"Enable City Park 100% Complete
+300DFC84 0002
+"Enable Spectar's Factory 100% Complete
+300DFC85 0002
+"Enable TV Tower 100% Complete
+300DFC86 0002
+"Enable Monkey Madness 100% Complete
+300DFC88 0002
+"Enable Peak Point Matrix 100% Complete
+300DFC8E 0002
+"Have All Spectar Coins
+800F44BA 003C
+"Moon Jump [Note 1]
+D00E5478 0008
+800EC23E 0008
+"Have All Monkeys
+80139368 0001
+80139370 0001
+80139378 0001
+80139380 0001
+80139388 0001
+80139390 0001
+80139398 0001
+801393A0 0001
+801393A8 0001
+801393B0 0001
+801393B8 0001
+801393C0 0001
+801393C8 0001
+801393D0 0001
+801393D8 0001
+801393E0 0001
+801393E8 0001
+801393F0 0001
+801393F8 0001
+80139400 0001
+"Infinite Explosive Shots
+8007AB14 2400
+"Infinite 3-Way Shots
+8007AB54 2400
+
+#Apocalypse#SLUS00373
+"All Weapons
+80018BD2 2400
+80018BE4 03E8
+80018BE6 2402
+"Infinite Ammo
+80022B46 2400
+"Infinite Health
+8005DF06 2400
+"Infinite Lives
+800FF874 0005
+"Infinite Smart Bombs
+8005D45E 2400
+"Invincibility
+800FF31C 0001
+"Have Debug Screen Open
+800FF33C 0001
+"Stage Select
+800FF338 0001
+
+#Arc The Lad Collection-Arc The Lad I#SLUS01224
+"=Character 
+"=Arc 
+"Level 99
+30119C38 0063
+"Exp Modifier (add 8-bit value)
+80119C40 ???? (add 16-bit value)
+"Max Exp
+80119C40 E0FF
+80119C42 05F5
+"Max Level Ability 1
+30119C44 0063
+"Max Level Ability 2
+30119C45 0063
+"Max Level Ability 8
+30119C4B 0063
+"Max HP
+80119C4C 03E7
+"Infinite HP
+80119C4E 03E7
+"Max MP
+80119C50 03E7
+"Infinite MP
+80119C52 03E7
+"Max Attack
+80119C54 03E7
+"Max Magic
+80119C56 03E7
+"Max Defense
+80119C58 03E7
+"Max Agility
+80119C5A 03E7
+"Max Range
+80119C62 0009
+"Max Jump Level
+30119C6A 0009
+"Max Throw Level
+30119C6B 0009
+"Max Catch Level
+30119C6C 0009
+"Max Counterattack Level
+30119C6D 0009
+"=Choko 
+"Level 99
+3011A118 0063
+"Exp Modifier (add 16-bit value)
+8011A120 ????
+"Max Exp
+8011A120 E0FF
+8011A122 05F5
+"Max Level Ability 1
+3011A124 0063
+"Max Level Ability 2
+3011A125 0063
+"Max Level Ability 8
+3011A12B 0063
+"Max HP
+8011A12C 03E7
+"Infinite HP
+8011A12E 03E7
+"Max MP
+8011A130 03E7
+"Infinite MP
+8011A132 03E7
+"Max Attack
+8011A134 03E7
+"Max Magic
+8011A136 03E7
+"Max Defense
+8011A138 03E7
+"Max Agility
+8011A13A 03E7
+"Max Range
+8011A142 0009
+"Max Jump Level
+3011A14A 0009
+"Max Throw Level
+3011A14B 0009
+"Max Catch Level
+3011A14C 0009
+"Max Counterattack Level
+3011A14D 0009
+"=Chongara 
+"Level 99
+30119E78 0063
+"Exp Modifier (add 16-bit value)
+80119E80 ????
+"Max Exp
+80119E80 E0FF
+80119E82 05F5
+"Max Level Ability 1
+30119E84 0063
+"Max Level Ability 2
+30119E85 0063
+"Max Level Ability 8
+30119E8B 0063
+"Max HP
+80119E8C 03E7
+"Infinite HP
+80119E8E 03E7
+"Max MP
+80119E90 03E7
+"Infinite MP
+80119E92 03E7
+"Max Attack
+80119E94 03E7
+"Max Magic
+80119E96 03E7
+"Max Defense
+80119E98 03E7
+"Max Agility
+80119E9A 03E7
+"Max Range
+80119EA2 0009
+"Max Jump Level
+30119EAA 0009
+"Max Throw Level
+30119EAB 0009
+"Max Catch Level
+30119EAC 0009
+"Max Counterattack Level
+30119EAD 0009
+"=Fu-Jin 
+"Level 99
+30119F98 0063
+"Exp Modifier (add 16-bit value)
+80119FA0 ????
+"Max Exp
+80119FA0 E0FF
+80119FA2 05F5
+"Max Level Ability 1
+30119FA4 0063
+"Max Level Ability 2
+30119FA5 0063
+"Max Level Ability 8
+30119FAB 0063
+"Max HP
+80119FAC 03E7
+"Infinite HP
+80119FAE 03E7
+"Max MP
+80119FB0 03E7
+"Infinite MP
+80119FB2 03E7
+"Max Attack
+80119FB4 03E7
+"Max Magic
+80119FB6 03E7
+"Max Defense
+80119FB8 03E7
+"Max Agility
+80119FBA 03E7
+"Max Range
+80119FC2 0009
+"Max Jump Level
+30119FCA 0009
+"Max Throw Level
+30119FCB 0009
+"Max Catch Level
+30119FCC 0009
+"Max Counterattack Level
+30119FCD 0009
+"=Gogen 
+"Level 99
+30119DB8 0063
+"Exp Modifier (add 16-bit value)
+80119DC0 ????
+"Max Exp
+80119DC0 E0FF
+80119DC2 05F5
+"Max Level Ability 1
+30119DC4 0063
+"Max Level Ability 2
+30119DC5 0063
+"Max Level Ability 8
+30119DCB 0063
+"Max HP
+80119DCC 03E7
+"Infinite HP
+80119DCE 03E7
+"Max MP
+80119DD0 03E7
+"Infinite MP
+80119DD2 03E7
+"Max Attack
+80119DD4 03E7
+"Max Magic
+80119DD6 03E7
+"Max Defense
+80119DD8 03E7
+"Max Agility
+80119DDA 03E7
+"Max Range
+80119DE2 0009
+"Max Jump Level
+30119DEA 0009
+"Max Throw Level
+30119DEB 0009
+"Max Catch Level
+30119DEC 0009
+"Max Counterattack Level
+30119DED 0009
+"=Hemo-Ji 
+"Level 99
+3011A0B8 0063
+"Exp Modifier (add 16-bit value)
+8011A0C0 ????
+"Max Exp
+8011A0C0 E0FF
+8011A0C2 05F5
+"Max Level Ability 1
+3011A0C4 0063
+"Max Level Ability 2
+3011A0C5 0063
+"Max Level Ability 8
+3011A0CB 0063
+"Max HP
+8011A0CC 03E7
+"Infinite HP
+8011A0CE 03E7
+"Max MP
+8011A0D0 03E7
+"Infinite MP
+8011A0D2 03E7
+"Max Attack
+8011A0D4 03E7
+"Max Magic
+8011A0D6 03E7
+"Max Defense
+8011A0D8 03E7
+"Max Agility
+8011A0DA 03E7
+"Max Range
+8011A0E2 0009
+"Max Jump Level
+3011A0EA 0009
+"Max Throw Level
+3011A0EB 0009
+"Max Catch Level
+3011A0EC 0009
+"Max Counterattack Level
+3011A0ED 0009
+"=Iga 
+"Level 99
+30119E18 0063
+"Exp Modifier (add 16-bit value)
+80119E20 ????
+"Max Exp
+80119E20 E0FF
+80119E22 05F5
+"Max Level Ability 1
+30119E24 0063
+"Max Level Ability 2
+30119E25 0063
+"Max Level Ability 8
+30119E2B 0063
+"Max HP
+80119E2C 03E7
+"Infinite HP
+80119E2E 03E7
+"Max MP
+80119E30 03E7
+"Infinite MP
+80119E32 03E7
+"Max Attack
+80119E34 03E7
+"Max Magic
+80119E36 03E7
+"Max Defense
+80119E38 03E7
+"Max Agility
+80119E3A 03E7
+"Max Range
+80119E42 0009
+"Max Jump Level
+30119E4A 0009
+"Max Throw Level
+30119E4B 0009
+"Max Catch Level
+30119E4C 0009
+"Max Counterattack Level
+30119E4D 0009
+"=Keleck 
+"Level 99
+30119ED8 0063
+"Exp Modifier (add 16-bit value)
+80119EE0 ????
+"Max Exp
+80119EE0 E0FF
+80119EE2 05F5
+"Max Level Ability 1
+30119EE4 0063
+"Max Level Ability 2
+30119EE5 0063
+"Max Level Ability 8
+30119EEB 0063
+"Max HP
+80119EEC 03E7
+"Infinite HP
+80119EEE 03E7
+"Max MP
+80119EF0 03E7
+"Infinite MP
+80119EF2 03E7
+"Max Attack
+80119EF4 03E7
+"Max Magic
+80119EF6 03E7
+"Max Defense
+80119EF8 03E7
+"Max Agility
+80119EFA 03E7
+"Max Range
+80119F02 0009
+"Max Jump Level
+30119F0A 0009
+"Max Throw Level
+30119F0B 0009
+"Max Catch Level
+30119F0C 0009
+"Max Counterattack Level
+30119F0D 0009
+"=Kukuru 
+"Level 99
+30119C98 0063
+"Exp Modifier (add 16-bit value)
+80119CA0 ????
+"Max Exp
+80119CA0 E0FF
+80119CA2 05F5
+"Max Level Ability 1
+30119CA4 0063
+"Max Level Ability 2
+30119CA5 0063
+"Max Level Ability 8
+30119CAB 0063
+"Max HP
+80119CAC 03E7
+"Infinite HP
+80119CAE 03E7
+"Max MP
+80119CB0 03E7
+"Infinite MP
+80119CB2 03E7
+"Max Attack
+80119CB4 03E7
+"Max Magic
+80119CB6 03E7
+"Max Defense
+80119CB8 03E7
+"Max Agility
+80119CBA 03E7
+"Max Range
+80119CC2 0009
+"Max Jump Level
+30119CCA 0009
+"Max Throw Level
+30119CCB 0009
+"Max Catch Level
+30119CCC 0009
+"Max Counterattack Level
+30119CCD 0009
+"=Mofly 
+"Level 99
+30119F38 0063
+"Exp Modifier (add 16-bit value)
+80119F40 ????
+"Max Exp
+80119F40 E0FF
+80119F42 05F5
+"Max Level Ability 1
+30119F44 0063
+"Max Level Ability 2
+30119F45 0063
+"Max Level Ability 8
+30119F4B 0063
+"Max HP
+80119F4C 03E7
+"Infinite HP
+80119F4E 03E7
+"Max MP
+80119F50 03E7
+"Infinite MP
+80119F52 03E7
+"Max Attack
+80119F54 03E7
+"Max Magic
+80119F56 03E7
+"Max Defense
+80119F58 03E7
+"Max Agility
+80119F5A 03E7
+"Max Range
+80119F62 0009
+"Max Jump Level
+30119F6A 0009
+"Max Throw Level
+30119F6B 0009
+"Max Catch Level
+30119F6C 0009
+"Max Counterattack Level
+30119F6D 0009
+"=Odon 
+"Level 99
+3011A058 0063
+"Exp Modifier (add 16-bit value)
+8011A060 ????
+"Max Exp
+8011A060 E0FF
+8011A062 05F5
+"Max Level Ability 1
+3011A064 0063
+"Max Level Ability 2
+3011A065 0063
+"Max Level Ability 8
+3011A06B 0063
+"Max HP
+8011A06C 03E7
+"Infinite HP
+8011A06E 03E7
+"Max MP
+8011A070 03E7
+"Infinite MP
+8011A072 03E7
+"Max Attack
+8011A074 03E7
+"Max Magic
+8011A076 03E7
+"Max Defense
+8011A078 03E7
+"Max Agility
+8011A07A 03E7
+"Max Range
+8011A082 0009
+"Max Jump Level
+3011A08A 0009
+"Max Throw Level
+3011A08B 0009
+"Max Catch Level
+3011A08C 0009
+"Max Counterattack Level
+3011A08D 0009
+"=Poco 
+"Level 99
+30119D58 0063
+"Exp Modifier (add 16-bit value)
+80119D60 ????
+"Max Exp
+80119D60 E0FF
+80119D62 05F5
+"Max Level Ability 1
+30119D64 0063
+"Max Level Ability 2
+30119D65 0063
+"Max Level Ability 8
+30119D6B 0063
+"Max HP
+80119D6C 03E7
+"Infinite HP
+80119D6E 03E7
+"Max MP
+80119D70 03E7
+"Infinite MP
+80119D72 03E7
+"Max Attack
+80119D74 03E7
+"Max Magic
+80119D76 03E7
+"Max Defense
+80119D78 03E7
+"Max Agility
+80119D7A 03E7
+"Max Range
+80119D82 0009
+"Max Jump Level
+30119D8A 0009
+"Max Throw Level
+30119D8B 0009
+"Max Catch Level
+30119D8C 0009
+"Max Counterattack Level
+30119D8D 0009
+"=Rai-Jin 
+"Level 99
+30119FF8 0063
+"Exp Modifier (add 16-bit value)
+8011A000 ????
+"Max Exp
+8011A000 E0FF
+8011A002 05F5
+"Max Level Ability 1
+3011A004 0063
+"Max Level Ability 2
+3011A005 0063
+"Max Level Ability 8
+3011A00B 0063
+"Max HP
+8011A00C 03E7
+"Infinite HP
+8011A00E 03E7
+"Max MP
+8011A010 03E7
+"Infinite MP
+8011A012 03E7
+"Max Attack
+8011A014 03E7
+"Max Magic
+8011A016 03E7
+"Max Defense
+8011A018 03E7
+"Max Agility
+8011A01A 03E7
+"Max Range
+8011A022 0009
+"Max Jump Level
+3011A02A 0009
+"Max Throw Level
+3011A02B 0009
+"Max Catch Level
+3011A02C 0009
+"Max Counterattack Level
+3011A02D 0009
+"=Tosh 
+"Level 99
+30119CF8 0063
+"Exp Modifier (add 16-bit value)
+80119D00 ????
+"Max Exp
+80119D00 E0FF
+80119D02 05F5
+"Max Level Ability 1
+30119D04 0063
+"Max Level Ability 2
+30119D05 0063
+"Max Level Ability 8
+30119D0B 0063
+"Max HP
+80119D0C 03E7
+"Infinite HP
+80119D0E 03E7
+"Max MP
+80119D10 03E7
+"Infinite MP
+80119D12 03E7
+"Max Attack
+80119D14 03E7
+"Max Magic
+80119D16 03E7
+"Max Defense
+80119D18 03E7
+"Max Agility
+80119D1A 03E7
+"Max Range
+80119D22 0009
+"Max Jump Level
+30119D2A 0009
+"Max Throw Level
+30119D2B 0009
+"Max Catch Level
+30119D2C 0009
+"Max Counterattack Level
+30119D2D 0009
+"=Other
+"=Max Accessories 
+"Fire Charm
+30119830 0063
+"Ice Charm
+30119831 0063
+"Anti Hemo-ji
+30119832 0063
+"Healing Charm
+30119833 0063
+"Silk Belt
+30119834 0063
+"Magic Card
+30119835 0063
+"Insomnia Card
+30119836 0063
+"Power Gauntlet
+30119837 0063
+"Kaiser Glove
+30119838 0063
+"Phantom Gauntlet
+30119839 0063
+"Sunglasses
+3011983A 0063
+"Hit Scroll
+3011983B 0063
+"Throw Scroll
+3011983C 0063
+"Deity Fist
+3011983D 0063
+"Violet Necklace
+3011983E 0063
+"Necklace
+3011983F 0063
+"Prayer Beads
+30119840 0063
+"Senior Bandanna
+30119841 0063
+"Whirlwind Bandanna
+30119842 0063
+"Hyper Boots
+30119843 0063
+"Jump Boots
+30119844 0063
+"Counter Bracelet
+30119845 0063
+"Junk Bracelet
+30119846 0063
+"Skill Bracelet
+30119847 0063
+"Goddess Amulet
+30119848 0063
+"Power Wrist
+30119849 0063
+"Diel's Fang
+3011984A 0063
+"Monster's Fang
+3011984B 0063
+"Sea Breeze Harmony
+3011984C 0063
+"Shell
+3011984D 0063
+"Unicorn Horn
+3011984E 0063
+"Tragedy Glasses
+3011984F 0063
+"Mirror
+30119850 0063
+"Rune Ring
+30119851 0063
+"Phantom Ring
+30119852 0063
+"Magic Ring
+30119853 0063
+"Toy Ring
+30119854 0063
+"Antidote Ring
+30119855 0063
+"Phantom Shield
+30119856 0063
+"Warrior Charm
+30119857 0063
+"Elder's Charm
+30119858 0063
+"Great Cane
+30119859 0063
+"Hell Scope
+3011985A 0063
+"King's Image
+3011985B 0063
+"Hawk Statue
+3011985C 0063
+"Fiend Statue
+3011985D 0063
+"Short Sword
+3011985E 0063
+"Phantom Sword
+3011985F 0063
+"Raila's Hairpin
+30119860 0063
+"Confusion Amulet
+30119861 0063
+"Armor Stone
+30119862 0063
+"Romancing Stone 1
+30119863 0063
+"Romancing Stone 2
+30119864 0063
+"Romancing Stone 3
+30119865 0063
+"Romancing Stone 4
+30119866 0063
+"Sun Hat
+30119867 0063
+"Book Of Flower
+30119868 0063
+"Book Of Cravis
+30119869 0063
+"Music Book
+3011986A 0063
+"Monolith Crest
+3011986B 0063
+"Yukari's Crest
+3011986C 0063
+"Flay's Crest
+3011986D 0063
+"Hero Crest
+3011986E 0063
+"Unknown 1
+3011986F 0063
+"=Max Item 
+"Neba Neba
+30119810 0063
+"Power Jelly
+30119811 0063
+"Power Apple
+30119812 0063
+"Energy Fruit
+30119813 0063
+"Paralysis Apple
+30119814 0063
+"Stone
+30119815 0063
+"Reco's Grass
+30119816 0063
+"Herb
+30119817 0063
+"Poison Berry
+30119818 0063
+"Rue's Satchel
+30119819 0063
+"Speed Satchel
+3011981A 0063
+"Small Bomb
+3011981B 0063
+"Big Bomb
+3011981C 0063
+"Cure-All
+3011981D 0063
+"Sacred Water
+3011981E 0063
+"Revival Tonic
+3011981F 0063
+"Attack Tonic
+30119820 0063
+"Sleep Ball
+30119821 0063
+"Atrophy Ball
+30119822 0063
+"Power Nut
+30119823 0063
+"Palo Nut
+30119824 0063
+"Life Nut
+30119825 0063
+"Magic Leaf
+30119826 0063
+"Magic Sprig
+30119827 0063
+"Blindness Grass
+30119828 0063
+"Bitter Leaf
+30119829 0063
+"Nettle
+3011982A 0063
+"Hard Nettle
+3011982B 0063
+"Summon Pot
+3011982C 0063
+"Unknown 1
+3011982D 0063
+"Unknown 2
+3011982E 0063
+"Unknown 3
+3011982F 0063
+"=Misc. 
+"Extra Items
+80172A60 0001
+"Infinite Item Usage
+80172A62 2400
+
+#Arc The Lad Collection-Arc The Lad II (Character)#SLUS01252
+"=Character 
+"=Elc 
+"Max Level
+800BD938 03E7
+"Max HP
+800BD93A 03E7
+"Infinite HP
+800BD93C 03E7
+"Max MP
+800BD93E 03E7
+"Infinite MP
+800BD940 03E7
+"Max Attack
+800BD942 090B
+"Max Magic
+800BD944 090B
+"Max Defense
+800BD946 090B
+"Max Agility
+300BD948 00FF
+"Enable Character
+300BD949 0006
+"Quick Exp Gain
+800BD94C FFFF
+"Max Exp
+800BD94C E0FF
+800BD94E 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BD950 00??
+"Letter 16
+300BD95F 00??
+"Max Skills
+800BD98E FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BD996 00??
+"Slot 8
+800BD9B2 00??
+"=Magic Max Level 
+"Slot 1
+800BD998 9C41
+"Slot 8
+800BD9B4 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BD9C2 00FF
+"Slot 2
+800BD9C6 00FF
+"Slot 3
+800BD9CA 00FF
+"=Arc 
+"Max Level
+800BD424 03E7
+"Max HP
+800BD426 03E7
+"Infinite HP
+800BD428 03E7
+"Max MP
+800BD42A 03E7
+"Infinite MP
+800BD42C 03E7
+"Max Attack
+800BD42E 090B
+"Max Magic
+800BD430 090B
+"Max Defense
+800BD432 090B
+"Max Agility
+300BD434 00FF
+"Enable Character
+300BD435 0001
+"Quick Exp Gain
+800BD438 FFFF
+"Max Exp
+800BD438 E0FF
+800BD43A 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BD43C 00??
+"Letter 16
+300BD44B 00??
+"Max Skills
+800BD47A FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BD482 00??
+"Slot 8
+800BD4A0 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BD4AE 00FF
+"Slot 2
+800BD4B2 00FF
+"Slot 3
+800BD4B6 00FF
+"=Choko 
+"Max Level
+800BE770 03E7
+"Max HP
+800BE772 03E7
+"Infinite HP
+800BE774 03E7
+"Max MP
+800BE776 03E7
+"Infinite MP
+800BE778 03E7
+"Max Attack
+800BE77A 090B
+"Max Magic
+800BE77C 090B
+"Max Defense
+800BE77E 090B
+"Max Agility
+300BE780 00FF
+"Enable Character
+300BE781 0014
+"Quick Exp Gain
+800BE784 FFFF
+"Max Exp
+800BE784 E0FF
+800BE786 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE788 00??
+"Letter 16
+300BE797 00??
+"Max Skills
+800BE7C6 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE7CE 00??
+"Slot 8
+800BE7EA 00??
+"=Magic Max Level 
+"Slot 1
+800BE7D0 9C41
+"Slot 8
+800BE7EC 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE7FA 00FF
+"Slot 2
+800BE7FE 00FF
+"Slot 3
+800BE802 00FF
+"=Diekbeck 
+"Max Level
+800BDD48 03E7
+"Max HP
+800BDD4A 03E7
+"Infinite HP
+800BDD4C 03E7
+"Max MP
+800BDD4E 03E7
+"Infinite MP
+800BDD50 03E7
+"Max Attack
+800BDD52 090B
+"Max Magic
+800BDD54 090B
+"Max Defense
+800BDD56 090B
+"Max Agility
+300BDD58 00FF
+"Enable Character
+300BDD59 000A
+"Quick Exp Gain
+800BDD5C FFFF
+"Max Exp
+800BDD5C E0FF
+800BDD5E 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BDD60 00??
+"Letter 16
+300BDD6F 00??
+"Max Skills
+800BDD9E FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BDDA6 00??
+"Slot 8
+800BDDC2 00??
+"=Magic Max Level 
+"Slot 1
+800BDDA8 9C41
+"Slot 8
+800BDDC4 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BDDD2 00FF
+"Slot 2
+800BDDD6 00FF
+"Slot 3
+800BDDDA 00FF
+"=Fu-Jin 
+"Max Level
+800BE360 03E7
+"Max HP
+800BE362 03E7
+"Infinite HP
+800BE364 03E7
+"Max MP
+800BE366 03E7
+"Infinite MP
+800BE368 03E7
+"Max Attack
+800BE36A 090B
+"Max Magic
+800BE36C 090B
+"Max Defense
+800BE36E 090B
+"Max Agility
+300BE370 00FF
+"Enable Character
+300BE371 0010
+"Quick Exp Gain
+800BE374 FFFF
+"Max Exp
+800BE374 E0FF
+800BE376 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE378 00??
+"Letter 16
+300BE387 00??
+"Max Skills
+800BE3B6 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE3BE 00??
+"Slot 8
+800BE3DA 00??
+"=Magic Max Level 
+"Slot 1
+800BE3C0 9C41
+"Slot 8
+800BE3DC 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE3EA 00FF
+"Slot 2
+800BE3EE 00FF
+"Slot 3
+800BE3F2 00FF
+"=Gogen s
+"Max Level
+800BD834 03E7
+"Max HP
+800BD836 03E7
+"Infinite HP
+800BD838 03E7
+"Max MP
+800BD83A 03E7
+"Infinite MP
+800BD83C 03E7
+"Max Attack
+800BD83E 090B
+"Max Magic
+800BD840 090B
+"Max Defense
+800BD842 090B
+"Max Agility
+300BD844 00FF
+"Enable Character
+300BD845 0005
+"Quick Exp Gain
+800BD848 FFFF
+"Max Exp
+800BD848 E0FF
+800BD84A 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BD84C 00??
+"Letter 16
+300BD85B 00??
+"Max Skills
+800BD88A FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BD892 00??
+"Slot 8
+800BD8AE 00??
+"=Magic Max Level 
+"Slot 1
+800BD894 9C41
+"Slot 8
+800BD8B0 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BD8BE 00FF
+"Slot 2
+800BD8C2 00FF
+"Slot 3
+800BD8C6 00FF
+"=Gruga 
+"Max Level
+800BDF50 03E7
+"Max HP
+800BDF52 03E7
+"Infinite HP
+800BDF54 03E7
+"Max MP
+800BDF56 03E7
+"Infinite MP
+800BDF58 03E7
+"Max Attack
+800BDF5A 090B
+"Max Magic
+800BDF5C 090B
+"Max Defense
+800BDF5E 090B
+"Max Agility
+300BDF60 00FF
+"Enable Character
+300BDF61 000C
+"Quick Exp Gain
+800BDF64 FFFF
+"Max Exp
+800BDF64 E0FF
+800BDF66 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BDF68 00??
+"Letter 16
+300BDF77 00??
+"Max Skills
+800BDFA6 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BDFAE 00??
+"Slot 8
+800BDFCA 00??
+"=Magic Max Level 
+"Slot 1
+800BDFB0 9C41
+"Slot 8
+800BDFCC 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BDFDA 00FF
+"Slot 2
+800BDFDE 00FF
+"Slot 3
+800BDFE2 00FF
+"=Hemo-ji 
+"Max Level
+800BE25C 03E7
+"Max HP
+800BE25E 03E7
+"Infinite HP
+800BE260 03E7
+"Max MP
+800BE262 03E7
+"Infinite MP
+800BE264 03E7
+"Max Attack
+800BE266 090B
+"Max Magic
+800BE268 090B
+"Max Defense
+800BE26A 090B
+"Max Agility
+300BE26C 00FF
+"Enable Character
+300BE26D 000F
+"Quick Exp Gain
+800BE270 FFFF
+"Max Exp
+800BE270 E0FF
+800BE272 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE274 00??
+"Letter 16
+300BE283 00??
+"Max Skills
+800BE2B2 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE2BA 00??
+"Slot 8
+800BE2D6 00??
+"=Magic Max Level 
+"Slot 1
+800BE2BC 9C41
+"Slot 8
+800BE2D8 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE2E6 00FF
+"Slot 2
+800BE2EA 00FF
+"Slot 3
+800BE2EE 00FF
+"=Iga 
+"Max Level
+800BD730 03E7
+"Max HP
+800BD732 03E7
+"Infinite HP
+800BD734 03E7
+"Max MP
+800BD736 03E7
+"Infinite MP
+800BD738 03E7
+"Max Attack
+800BD73A 090B
+"Max Magic
+800BD73C 090B
+"Max Defense
+800BD73E 090B
+"Max Agility
+300BD740 00FF
+"Enable Character
+300BD741 0004
+"Quick Exp Gain
+800BD744 FFFF
+"Max Exp
+800BD744 E0FF
+800BD746 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BD748 00??
+"Letter 16
+300BD757 00??
+"Max Skills
+800BD786 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BD78E 00??
+"Slot 8
+800BD7AA 00??
+"=Magic Max Level 
+"Slot 1
+800BD790 9C41
+"Slot 8
+800BD7AC 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BD7BA 00FF
+"Slot 2
+800BD7BE 00FF
+"Slot 3
+800BD7C2 00FF
+"=Kelack 
+"Max Level
+800BE054 03E7
+"Max HP
+800BE056 03E7
+"Infinite HP
+800BE058 03E7
+"Max MP
+800BE05A 03E7
+"Infinite MP
+800BE05C 03E7
+"Max Attack
+800BE05E 090B
+"Max Magic
+800BE060 090B
+"Max Defense
+800BE062 090B
+"Max Agility
+300BE064 00FF
+"Enable Character
+300BE065 000D
+"Quick Exp Gain
+800BE068 FFFF
+"Max Exp
+800BE068 E0FF
+800BE06A 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE06C 00??
+"Letter 16
+300BE07B 00??
+"Max Skills
+800BE0AA FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE0B2 00??
+"Slot 8
+800BE0CE 00??
+"=Magic Max Level 
+"Slot 1
+800BE0B4 9C41
+"Slot 8
+800BE0D0 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE0DE 00FF
+"Slot 2
+800BE0E2 00FF
+"Slot 3
+800BE0E6 00FF
+"=Kukuru 
+"Max Level
+800BE66C 03E7
+"Max HP
+800BE66E 03E7
+"Infinite HP
+800BE670 03E7
+"Max MP
+800BE672 03E7
+"Infinite MP
+800BE674 03E7
+"Max Attack
+800BE676 090B
+"Max Magic
+800BE678 090B
+"Max Defense
+800BE67A 090B
+"Max Agility
+300BE67C 00FF
+"Enable Character
+300BE67D 0013
+"Quick Exp Gain
+800BE680 FFFF
+"Max Exp
+800BE680 E0FF
+800BE682 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE684 00??
+"Letter 16
+300BE693 00??
+"Max Skills
+800BE6C2 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE6CA 00??
+"Slot 8
+800BE6E6 00??
+"=Magic Max Level 
+"Slot 1
+800BE6CC 9C41
+"Slot 8
+800BE6E8 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE6F6 00FF
+"Slot 2
+800BE6FA 00FF
+"Slot 3
+800BE6FE 00FF
+"=Lieza 
+"Max Level
+800BDA3C 03E7
+"Max HP
+800BDA3E 03E7
+"Infinite HP
+800BDA40 03E7
+"Max MP
+800BDA42 03E7
+"Infinite MP
+800BDA44 03E7
+"Max Attack
+800BDA46 090B
+"Max Magic
+800BDA48 090B
+"Max Defense
+800BDA4A 090B
+"Max Agility
+300BDA4C 00FF
+"Enable Character
+300BDA4D 0007
+"Quick Exp Gain
+800BDA50 FFFF
+"Max Exp
+800BDA50 E0FF
+800BDA52 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BDA54 00??
+"Letter 16
+300BDA63 00??
+"Max Skills
+800BDA92 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BDA9A 00??
+"Slot 8
+800BDAB6 00??
+"=Magic Max Level 
+"Slot 1
+800BDA9C 9C41
+"Slot 8
+800BDAB8 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BDAC6 00FF
+"Slot 2
+800BDACA 00FF
+"Slot 3
+800BDACE 00FF
+"=Mofly 
+"Max Level
+800BE158 03E7
+"Max HP
+800BE15A 03E7
+"Infinite HP
+800BE15C 03E7
+"Max MP
+800BE15E 03E7
+"Infinite MP
+800BE160 03E7
+"Max Attack
+800BE162 090B
+"Max Magic
+800BE164 090B
+"Max Defense
+800BE166 090B
+"Max Agility
+300BE168 00FF
+"Enable Character
+300BE169 000E
+"Quick Exp Gain
+800BE16C FFFF
+"Max Exp
+800BE16C E0FF
+800BE16E 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE170 00??
+"Letter 16
+300BE17F 00??
+"Max Skills
+800BE1AE FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE1B6 00??
+"Slot 8
+800BE1D2 00??
+"=Magic Max Level 
+"Slot 1
+800BE1B8 9C41
+"Slot 8
+800BE1D4 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE1E2 00FF
+"Slot 2
+800BE1E6 00FF
+"Slot 3
+800BE1EA 00FF
+"=Odon 
+"Max Level
+800BE568 03E7
+"Max HP
+800BE56A 03E7
+"Infinite HP
+800BE56C 03E7
+"Max MP
+800BE56E 03E7
+"Infinite MP
+800BE570 03E7
+"Max Attack
+800BE572 090B
+"Max Magic
+800BE574 090B
+"Max Defense
+800BE576 090B
+"Max Agility
+300BE578 00FF
+"Enable Character
+300BE579 0012
+"Quick Exp Gain
+800BE57C FFFF
+"Max Exp
+800BE57C E0FF
+800BE57E 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE580 00??
+"Letter 16
+300BE58F 00??
+"Max Skills
+800BE5BE FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE5C6 00??
+"Slot 8
+800BE5E2 00??
+"=Magic Max Level 
+"Slot 1
+800BE5C8 9C41
+"Slot 8
+800BE5E4 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE5F2 00FF
+"Slot 2
+800BE5F6 00FF
+"Slot 3
+800BE5FA 00FF
+"=Paundit 
+"Max Level
+800BE874 03E7
+"Max HP
+800BE876 03E7
+"Infinite HP
+800BE878 03E7
+"Max MP
+800BE87A 03E7
+"Infinite MP
+800BE87C 03E7
+"Max Attack
+800BE87E 090B
+"Max Magic
+800BE880 090B
+"Max Defense
+800BE882 090B
+"Max Agility
+300BE884 00FF
+"Enable Character
+300BE885 0015
+"Quick Exp Gain
+800BE888 FFFF
+"Max Exp
+800BE888 E0FF
+800BE88A 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE88C 00??
+"Letter 16
+300BE89B 00??
+"Max Skills
+800BE8CA FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE8D2 00??
+"Slot 8
+800BE8EE 00??
+"=Magic Max Level 
+"Slot 1
+800BE8D4 9C41
+"Slot 8
+800BE8F0 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE8FE 00FF
+"Slot 2
+800BE902 00FF
+"Slot 3
+800BE906 00FF
+"=Poco 
+"Max Level
+800BD528 03E7
+"Max HP
+800BD52A 03E7
+"Infinite HP
+800BD52C 03E7
+"Max MP
+800BD52E 03E7
+"Infinite MP
+800BD530 03E7
+"Max Attack
+800BD532 090B
+"Max Magic
+800BD534 090B
+"Max Defense
+800BD536 090B
+"Max Agility
+300BD538 00FF
+"Enable Character
+300BD539 0002
+"Quick Exp Gain
+800BD53C FFFF
+"Max Exp
+800BD53C E0FF
+800BD53E 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BD540 00??
+"Letter 16
+300BD54F 00??
+"Max Skills
+800BD57E FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BD586 00??
+"Slot 8
+800BD5A2 00??
+"=Magic Max Level 
+"Slot 1
+800BD588 9C41
+"Slot 8
+800BD5A4 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BD5B2 00FF
+"Slot 2
+800BD5B6 00FF
+"Slot 3
+800BD5BA 00FF
+"=Rai-jin 
+"Max Level
+800BE464 03E7
+"Max HP
+800BE466 03E7
+"Infinite HP
+800BE468 03E7
+"Max MP
+800BE46A 03E7
+"Infinite MP
+800BE46C 03E7
+"Max Attack
+800BE46E 090B
+"Max Magic
+800BE470 090B
+"Max Defense
+800BE472 090B
+"Max Agility
+300BE474 00FF
+"Enable Character
+300BE475 0011
+"Quick Exp Gain
+800BE478 FFFF
+"Max Exp
+800BE478 E0FF
+800BE47A 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BE47C 00??
+"Letter 16
+300BE48B 00??
+"Max Skills
+800BE4BA FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BE4C2 00??
+"Slot 8
+800BE4DE 00??
+"=Magic Max Level 
+"Slot 1
+800BE4C4 9C41
+"Slot 8
+800BE4E0 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BE4EE 00FF
+"Slot 2
+800BE4F2 00FF
+"Slot 3
+800BE4F6 00FF
+"=Sania 
+"Max Level
+800BDE4C 03E7
+"Max HP
+800BDE4E 03E7
+"Infinite HP
+800BDE50 03E7
+"Max MP
+800BDE52 03E7
+"Infinite MP
+800BDE54 03E7
+"Max Attack
+800BDE56 090B
+"Max Magic
+800BDE58 090B
+"Max Defense
+800BDE5A 090B
+"Max Agility
+300BDE5C 00FF
+"Enable Character
+300BDE5D 000B
+"Quick Exp Gain
+800BDE60 FFFF
+"Max Exp
+800BDE60 E0FF
+800BDE62 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BDE64 00??
+"Letter 16
+300BDE73 00??
+"Max Skills
+800BDEA2 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BDEAA 00??
+"Slot 8
+800BDEC6 00??
+"=Magic Max Level 
+"Slot 1
+800BDEAC 9C41
+"Slot 8
+800BDEC8 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BDED6 00FF
+"Slot 2
+800BDEDA 00FF
+"Slot 3
+800BDEDE 00FF
+"=Shante 
+"Max Level
+800BDB40 03E7
+"Max HP
+800BDB42 03E7
+"Infinite HP
+800BDB44 03E7
+"Max MP
+800BDB46 03E7
+"Infinite MP
+800BDB48 03E7
+"Max Attack
+800BDB4A 090B
+"Max Magic
+800BDB4C 090B
+"Max Defense
+800BDB4E 090B
+"Max Agility
+300BDB50 00FF
+"Enable Character
+300BDB51 0008
+"Quick Exp Gain
+800BDB54 FFFF
+"Max Exp
+800BDB54 E0FF
+800BDB56 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BDB58 00??
+"Letter 16
+300BDB67 00??
+"Max Skills
+800BDB96 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BDB9E 00??
+"Slot 8
+800BDBBA 00??
+"=Magic Max Level 
+"Slot 1
+800BDBA0 9C41
+"Slot 8
+800BDBBC 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BDBCA 00FF
+"Slot 2
+800BDBCE 00FF
+"Slot 3
+800BDBD2 00FF
+"=Shu 
+"Max Level
+800BDC44 03E7
+"Max HP
+800BDC46 03E7
+"Infinite HP
+800BDC48 03E7
+"Max MP
+800BDC4A 03E7
+"Infinite MP
+800BDC4C 03E7
+"Max Attack
+800BDC4E 090B
+"Max Magic
+800BDC50 090B
+"Max Defense
+800BDC52 090B
+"Max Agility
+300BDC54 00FF
+"Enable Character
+300BDC55 0009
+"Quick Exp Gain
+800BDC58 FFFF
+"Max Exp
+800BDC58 E0FF
+800BDC5A 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BDC5C 00??
+"Letter 16
+300BDC6B 00??
+"Max Skills
+800BDC9A FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BDCA2 00??
+"Slot 8
+800BDCBE 00??
+"=Magic Max Level 
+"Slot 1
+800BDCA4 9C41
+"Slot 8
+800BDCC0 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BDCCE 00FF
+"Slot 2
+800BDCD2 00FF
+"Slot 3
+800BDCD6 00FF
+"=Tosh 
+"Max Level
+800BD62C 03E7
+"Max HP
+800BD62E 03E7
+"Infinite HP
+800BD630 03E7
+"Max MP
+800BD632 03E7
+"Infinite MP
+800BD634 03E7
+"Max Attack
+800BD636 090B
+"Max Magic
+800BD638 090B
+"Max Defense
+800BD63A 090B
+"Max Agility
+300BD63C 00FF
+"Enable Character
+300BD63D 0003
+"Quick Exp Gain
+800BD640 FFFF
+"Max Exp
+800BD640 E0FF
+800BD642 05F5
+"=Name Modifier (add 8-bit value)
+"Letter 1
+300BD644 00??
+"Letter 16
+300BD653 00??
+"Max Skills
+800BD682 FFFF
+"=Magic Modifier (add 8-bit value)
+"Slot 1
+800BD68A 00??
+"Slot 8
+800BD6A6 00??
+"=Magic Max Level 
+"Slot 1
+800BD68C 9C41
+"Slot 8
+800BD6A8 9C41
+"=Magic Weapon Level 
+"Slot 1
+800BD6B6 00FF
+"Slot 2
+800BD6BA 00FF
+"Slot 3
+800BD6BE 00FF
+
+#Arc The Lad Collection-Arc The Lad II (Other)#SLUS01252
+"=Other 
+"=Misc. 
+"Infinite Wealth
+800BD3EC FFFF
+"Max Wealth
+800BD3EC E0FF
+800BD3EE 05F5
+"Infinite Nol Skill
+800BD3F0 FFFF
+"Max Nol Skill
+800BD3F0 E0FF
+800BD3F2 05F5
+
+#Arc The Lad Collection-Arc The Lad III#SLUS01253
+"=Character 
+"=Alec 
+"Enable All Accessory Slots (Must Be On) [Note 1]
+300B098F 002C
+"Slot 1
+300B0C64 00??
+"Slot 44
+300B0CBA 00??
+"=Aneritta 
+"Enable All Armor Slots (Must Be On) [Note 1]
+300B098E 0031
+"Slot 1
+300B0C02 00??
+"Slot 49
+300B0C62 00??
+"=Cheryl 
+"Enable All Item Slots (Must Be On) [Note 1]
+300B098C 0028
+"Slot 1
+300B0AE0 00??
+"Slot 40
+300B0B2E 00??
+"=Elc 
+"Slot 1
+300B0C65 0063
+"Slot 44
+300B0CBB 0063
+"=Lutz 
+"Enable All Accessory Slots (Must Be On) [Note 1]
+300B098F 002C
+"Slot 1
+800B0C64 63??
+"Slot 44
+800B0CBA 63??
+"=Marisa 
+"Slot 1
+300B0C03 0063
+"Slot 49
+300B0C63 0063
+"=Shu 
+"Enable All Armor Slots (Must Be On) [Note 1]
+300B098E 0031
+"Slot 1
+800B0C02 63??
+"Slot 49
+800B0C62 63??
+"=Theo 
+"Slot 1
+300B0AE1 0063
+"Slot 40
+300B0B2F 0063
+"=Tosh 
+"Enable All Item Slots (Must Be On) [Note 1]
+300B098C 0028
+"Slot 1
+800B0AE0 63??
+"Slot 40
+800B0B2E 63??
+"=Velhart 
+"Slot 1
+300B0CBF 0063
+"Slot 21
+300B0CE7 0063
+"=Other 
+"=Accessory Modifier (add 8-bit value)
+"Enable All Synthesis Item Slots (Must Be On) [Note 1]
+300B0990 0016
+"Slot 1
+800B0CBE 63??
+"Slot 21
+800B0CE6 63??
+"=Armor Modifier (add 8-bit value)
+"Slot 1
+300B0B31 0063
+"Slot 105
+300B0C01 0063
+"=Item Modifier (add 8-bit value)
+"Enable All Weapon Slots (Must Be On) [Note 1]
+300B098D 0069
+"Slot 1
+800B0B30 63??
+"Slot 105
+800B0C00 63??
+"=Max Accessory 
+"Quick Wealth Gain
+8009F5C8 FFFF
+"Max Wealth
+8009F5C8 E0FF
+8009F5CA 05F5
+"=Max Accessory Modifier (add 8-bit value)
+"Enable All Synthesis Item Slots (Must Be On) [Note 1]
+300B0990 0016
+"Slot 1
+300B0CBE 00??
+"Slot 21
+300B0CE6 00??
+"=Max Armor 
+"Enable All Weapon Slots (Must Be On) [Note 1]
+300B098D 0069
+"Slot 1
+300B0B30 00??
+"Slot 105
+300B0C00 00??
+"=Max Armor Modifier (add 8-bit value)
+"Enable All Armor Slots (Must Be On) [Note 1]
+300B098E 0031
+"Slot 1
+800B0C02 63??
+"Slot 49
+800B0C62 63??
+"=Max Items 
+"Slot 1
+300B0AE1 0063
+"Slot 40
+300B0B2F 0063
+"=Max Item Modifier (add 8-bit value)
+"Enable All Item Slots (Must Be On) [Note 1]
+300B098C 0028
+"Slot 1
+800B0AE0 63??
+"Slot 40
+800B0B2E 63??
+"=Max Synthesis Item 
+"Slot 1
+300B0CBF 0063
+"Slot 21
+300B0CE7 0063
+"=Max Synthesis Item Modifier (add 8-bit value)
+"Enable All Synthesis Item Slots (Must Be On) [Note 1]
+300B0990 0016
+"Slot 1
+800B0CBE 63??
+"Slot 21
+800B0CE6 63??
+"=Max Weapon 
+"Slot 1
+300B0B31 0063
+"Slot 105
+300B0C01 0063
+"=Max Weapon Modifier (add 8-bit value)
+"Enable All Weapon Slots (Must Be On) [Note 1]
+300B098D 0069
+"Slot 1
+800B0B30 63??
+"Slot 105
+800B0C00 63??
+"=Misc. 
+"Quick Wealth Gain
+8009F5C8 FFFF
+"Max Wealth
+8009F5C8 E0FF
+8009F5CA 05F5
+"=Synthesis Item Modifier (add 8-bit value)
+"Enable All Synthesis Item Slots (Must Be On) [Note 1]
+300B0990 0016
+"Slot 1
+300B0CBE 00??
+"Slot 21
+300B0CE6 00??
+"=Weapon Modifier (add 8-bit value)
+"Enable All Weapon Slots (Must Be On) [Note 1]
+300B098D 0069
+"Slot 1
+300B0B30 00??
+"Slot 105
+300B0C00 00??
+
+#Arcade Party Pack#SLUS00952
+"=720 
+"=Joker Command (add 16-bit value)
+D01E3B44 ????
+"Max Score
+D01E3DE0 0000
+801E3DE0 FFFF
+"Infinite Cash
+801E3E08 0064
+"Infinite Timer
+801E40FC 007F
+"=Klax 
+"=Joker Command (add 16-bit value)
+D018A15A ????
+"P1 Max Score
+80189E60 FFFF
+"P1 Quick Win (When Counting Klax)
+80189FD8 0000
+"P1 Infinite Drop Meter
+80189E94 0000
+"P2 Max Score
+80189E64 FFFF
+"P2 Quick Win (When Counting Klax)
+80189FDC 0000
+"P2 Infinite Drop Meter
+80189E96 0000
+"=Rampage 
+"Command (add 16-bit value)
+D00A0368 ????
+"Infinite Health (All Players)
+800A4E86 2400
+"=Smash TV 
+"Command (add 16-bit value)
+D019442C ????
+"P1 Infinite Lives
+801A8C64 0009
+"P1 Weapon Modifier (add 8-bit value)
+8019771C 00??
+"P2 Infinite Lives
+801A8C9C 0009
+"P2 Weapon Modifier (add 8-bit value)
+80197CBC 00??
+"Infinite Lives (Both Players)
+80089E8E 2400
+"Add a Life Instead of Losing One (Both Players)
+80089E88 0001
+"=Toobin' 
+"P1 Max Score
+D00F9B20 0000
+800F9B20 FFFF
+"P1 Infinite Cans
+300F944A 0006
+"P2 Infinite Cans
+300F944B 0006
+"P1 Infinite Patches
+300F9732 0003
+"P2 Infinite Patches
+300F9733 0003
+
+#Arcade's Greatest Hits - The Midway Collection 2#SLUS00450
+"=Blaster 
+"Infinite Lives
+8006BD26 0003
+"=Burger Time 
+"Infinite Lives
+801E20E8 0002
+"Infinite Pepper
+801E20EA 0502
+"=Joust 2 
+"Infinite Lives
+8005A058 0700
+"=Moon Patrol 
+"Infinite Time
+80128B00 0000
+"Infinite Lives
+80128B04 0404
+"=Rootbeer Tapper 
+"Infinite Lives
+8012624E 0300
+"=Splat 
+"Infinite Lives
+80069910 0300
+"=Spy Hunter 
+"Infinite Timer
+801115E4 0303
+
+#Arcade's Greatest Hits - The William's Collection#SLUS00201
+"=Defender 1 
+"Infinite Lives P1
+801BA1C8 0200
+"Infinite Smart Bombs P1
+801BA1CA 0301
+"Infinite Smart Bombs P2
+801BAC08 0A03
+"Infinite Lives P2
+801BA206 0103
+"=Defender 2 
+"Infinite Lives P1
+801BBDDE 0120
+"Infinite Lives P2
+801BBE1C 0300
+"Player 1 Infinite Smart Bombs
+801BBDE0 0301
+"Player 1 Invisibility
+801BBDE0 1E00
+"Player 2 Infinite Smart Bombs
+801BBE1E 0301
+"Player 2 Invisibility
+801BBE20 0A1E
+"=Joust 
+"Infinite Lives P1
+801BA050 0400
+801BA052 0005
+"Infinite Lives P2
+801BA05A 0400
+801BA05C 0005
+"=Robotron 2084 
+"Infinite Lives P1
+801BBDEC 0103
+"Infinite Lives P2
+801BBE28 0103
+"=Sinistar 
+"Infinite Sinibombs P1
+801BA012 0900
+"Infinite Lives P1
+801B9FFC 0003
+
+#Arcade's Greatest Hits-The Atari Collection 2#SLUS00449
+"=Crystal Castle 
+"Infinite Lives
+80170F8A 0003
+"Invincible
+80170F90 0800
+"=Gauntlet [Note 1]
+"=Wizard 
+"Infinite Health
+801D7DD0 07CC
+"Infinite Keys [Note 2]
+80193762 0001
+"Infinite Potion [Note 3]
+80193416 0001
+"=Elf 
+"Infinite Health
+801D7DD4 07CC
+"Infinite Keys [Note 4]
+80193762 0100
+"Infinite Potion [Note 5]
+80193416 0100
+"=Warrior 
+"Infinite Health
+801D7DC8 07CC
+"Infinite Keys [Note 6]
+80193760 0001
+"Infinite Potion [Note 7]
+80193414 0001
+"=Marble Madness 
+"Infinite Time
+80133C7C 0063
+"=Millipede 
+"Infinite Lives
+8016782A 0203
+"=Paperboy 
+"Infinite Papers
+801E2540 000A
+"Infinite Lives
+801E2388 0004
+"Start With A Score Of 65,535
+801E237C FFFF
+"=Roadblasters 
+"Infinite Fuel
+8014FA10 00DB
+"Invincible
+8014F4C4 0041
+"Infinite Special Weapon Ammo
+8014F47C 0019
+"Have Nitro Injector
+8014F594 0001
+"Have Cruise Missiles
+8014F594 0002
+"Have Electric Field
+8014F594 0003
+"Have VZ Cannon
+8014F594 0004
+"=Valkyrie 
+"Infinite Health
+801D7DCC 07CC
+"Infinite Keys [Note 8]
+80193760 0101
+"Infinite Potion [Note 9]
+80193414 0101
+
+#Arcade's Greatest Hits-The Atari Collection#SLUS00399
+"=Asteroids 
+"Infinite Lives P1
+300F595B 0006
+"Infinite Lives P2
+300F595C 0006
+"Score Modifier P1 [Note 1] (add 16-bit value)
+800F5956 ????
+"Score Modifier P2 [Note 2] (add 16-bit value)
+800F5958 ????
+"=Battle Zone 
+"Infinite Lives
+80132E4C 0004
+"Score Modifier [Note 3] (add 16-bit value)
+80132E38 ????
+"=Centipede 
+"Infinite Lives P1
+3011A93D 0005
+"Infinite Lives P2
+3011A93E 0005
+"Score Modifier P1 [Note 4]
+3011A940 00??
+3011A942 00??
+"Score Modifier P2 [Note 5]
+3011A941 00??
+3011A943 00??
+"=Missile Command 
+"Infinite Cities P1
+3012438C 0006
+"Infinite Cities P2
+3012438D 0006
+"Score Modifier P1 [Note 6]
+301244A2 00??
+301244A4 00??
+"Score Modifier P2 [Note 7]
+301244A3 00??
+301244A5 00??
+"Infinite Shots (Alpha Fire)
+3012436C 000A
+"Infinite Shots (Delta Fire)
+3012436D 000A
+"Infinite Shots (Omega Fire)
+3012436E 000A
+"=Super Breakout 
+"Score Modifier P1 [Note 8]
+300FC314 00??
+"Score Modifier P2 [Note 9]
+300FC315 00??
+"Infinite Turns
+800FC2F8 0001
+"=Tempest 
+"Infinite Lives P1
+30125080 0003
+"Infinite Lives P2
+30125081 0003
+"Score Modifier P1 [Note 10] (add 16-bit value)
+80125078 ????
+"Score Modifier P2 [Note 11]
+3012507B 00??
+3012507C 00??
+
+#Area 51#SLUS00164
+"Infinite Ammo P1
+8006BE84 0008
+"Always Healthy P1
+8006BEA4 000A
+"Infinite Lives P1
+8006BEB0 0005
+"Infinite Grenades P1
+8006BE88 0001
+"Infinite Credits P1
+80067EA8 0009
+"Gun Modifier P1 (add 8-bit value)
+8006BE94 00??
+"Gun Modifier P2 (add 8-bit value)
+8006BF40 00??
+"Infinite Ammo P2
+8006BF30 0008
+"Always Healthy P2
+8006BF50 000A
+"Infinite Lives P2
+8006BF5C 0005
+"Infinite Grenades P2
+8006BF34 0001
+"Infinite Credits P2
+80067EAA 0009
+"Game Looping is On
+3006BE1A 0001
+"Game Looping is Off
+3006BE1A 0000
+"Gore is On
+3006BE1C 0001
+"Gore is Off
+3006BE1C 0000
+"Secret Rooms Are On
+3006BE1D 0000
+"Secret Rooms Are Off
+3006BE1D 0001
+"Game Difficulty Modifier (add 8-bit value)
+8006BE10 00??
+
+#Armored Core - Masters Of The Arena#SLUS01030
+"Infinite AP
+D007B7CA 1040
+801E73B0 9C3B
+"Max Credits
+8003EA74 E0FF
+8003EA76 05F5
+"Infinite & Max Ammo (All Weapons)
+8004547E 03E8
+80045480 03E8
+800454BC 03E8
+800454BE 03E8
+800454FA 03E8
+800454FC 03E8
+"Infinite Booster
+800451AE EA60
+"Arena-Infinite AP
+D007BBAE 1040
+801D8D70 9C3B
+"Arena-Quick Kill Enemy
+D007BBAE 1040
+801D8EE8 0000
+"Have All Head Parts
+50000702 0000
+80036FEC 0101
+30036FFA 0001
+"Have All Core Parts
+50000202 0000
+80036FFE 0101
+30037002 0001
+"=Head 
+"Have HD-01-Srut
+30036FEC 0001
+"Have HD-2002
+30036FED 0001
+"Have HD-X1487
+30036FEE 0001
+"Have HD-Redeye
+30036FEF 0001
+"Have HD-D-9066
+30036FF0 0001
+"Have HD-GRY-NX
+30036FF1 0001
+"Have HD-06-Radar
+30036FF2 0001
+"Have HD-One
+30036FF3 0001
+"Have HD-08-Dish
+30036FF4 0001
+"Have HD-Zero
+30036FF5 0001
+"Have HD-6780
+30036FF6 0001
+"Have HD-12-Radar
+30036FF7 0001
+"Have HD-Helm
+30036FF8 0001
+"Have HD-H10
+30036FF9 0001
+"Have HD-4004
+30036FFA 0001
+"=Core 
+"Have XCA-00
+30036FFE 0001
+"Have XCL-01
+30036FFF 0001
+"Have XCH-01
+30037000 0001
+"Have XXA-50
+30037001 0001
+"Have XXL-D0
+30037002 0001
+"=EX Arena 
+"Enable Champion Arena
+3003EAC9 0001
+"Enable Guest Arena
+3003EACB 0001
+"All Humanoid Legs Finished
+3004B67E 0001
+50000901 0000
+3004B608 0001
+"All Four Legs Finished
+3004B67F 0001
+50000901 0000
+3004B612 0001
+"All Reverse Joint Legs Finished
+3004B680 0001
+50000901 0000
+3004B61C 0001
+"All Caterpillars Finished
+3004B681 0001
+50000901 0000
+3004B626 0001
+"All Champions Finished
+50000802 0000
+8004B630 0101
+"All Guests Finished
+50000F02 0000
+8004B640 0101
+"All Fromsofts Finished
+3004B684 0001
+50000901 0000
+3004B65F 0001
+"All Masters Finished
+3004B685 0001
+50000A02 0000
+8004B668 0101
+"=Arm 
+"Unlock An-101
+30070009 0001
+"Unlock An-201
+3007000A 0001
+"Unlock An-K1
+3007000B 0001
+"Unlock An-D-7001
+3007000C 0001
+"Unlock An-3001
+3007000D 0001
+"Unlock Anks-1A46J
+3007000E 0001
+"Unlock An-863-B
+3007000F 0001
+"Unlock An-25
+30070010 0001
+"Unlock An-891-S
+30070011 0001
+"Unlock Aw-M625/2
+30070015 0001
+"Unlock Aw-GT2000
+30070016 0001
+"Unlock Aw-RF105
+30070017 0001
+"Unlock Aw-30/3
+30070018 0001
+"Unlock Aw-RF120
+30070019 0001
+"Unlock Aw-S60/2
+3007001A 0001
+"Unlock Aw-XC5500
+3007001B 0001
+"Unlock Aw-XC65
+3007001C 0001
+"Unlock Aw-DC/2
+3007001D 0001
+"Unlock All Arms
+30070009 0001
+50000402 0000
+8007000A 0101
+30070015 0001
+50000402 0000
+80070016 0101
+"=Generator 
+"Unlock GPS-VVA
+30037049 0001
+"Unlock GPS-V6
+3003704A 0001
+"Unlock GAD-RX5
+3003704B 0001
+"Unlock GAD-RX6
+3003704C 0001
+"Unlock GAD-RX7
+3003704D 0001
+"Unlock 6B6-10000
+3003704E 0001
+"Unlock 6B6-XR
+3003704F 0001
+"Unlock GBX-TL
+30037050 0001
+"Unlock GBX-XL
+30037051 0001
+"Unlock All Generators
+30037049 0001
+50000402 0000
+8003704A 0101
+"=FCS 
+"Unlock Comdex-C7
+30037058 0001
+"Unlock Comdex-60
+30037059 0001
+"Unlock Comdex-68
+3003705A 0001
+"Unlock QX-21
+3003705B 0001
+"Unlock QX-AF
+3003705C 0001
+"Unlock Tryx-Boxer
+3003705D 0001
+"Unlock Tryx-Quad
+3003705E 0001
+"Unlock QX-9009
+3003705F 0001
+"Unlock Fbmb-18x
+30037060 0001
+"Unlock Rator
+30037061 0001
+"Unlock All FCS Parts
+50000502 0000
+80037058 0101
+"=Booster 
+"Unlock B-P320
+3003707B 0001
+"Unlock B-P350
+3003707C 0001
+"Unlock B-T001
+3003707D 0001
+"Unlock B-T2
+3003707E 0001
+"Unlock B-P351
+3003707F 0001
+"Unlock B-UR-33
+30037080 0001
+"Unlock B-HP25
+30037081 0001
+"Unlock All Boosters
+3003707B 0001
+50000302 0000
+8003707C 0101
+"=Optional Parts 
+"All Optional Parts Equipped
+8003EA70 FFFF
+"Unlock Sp-Maw
+30037068 0001
+"Unlock Sp-Jam
+30037069 0001
+"Unlock Sp-M/Auto
+3003706A 0001
+"Unlock Sp-Abs
+3003706B 0001
+"Unlock Sp-Sap
+3003706C 0001
+"Unlock Sp-Cnd-K
+3003706D 0001
+"Unlock Sp-Axl
+3003706E 0001
+"Unlock Sp-S/SCR
+3003706F 0001
+"Unlock Sp-E/SCR
+30037070 0001
+"Unlock Sp-Eh
+30037071 0001
+"Unlock Sp-E+
+30037072 0001
+"Unlock Sp-DEtq
+30037073 0001
+"Unlock All Optional Parts
+50000602 0000
+80037068 0101
+"=Left Arm Weapon 
+"Unlock LS-2001
+300370DF 0001
+"Unlock LS-2006
+300370E0 0001
+"Unlock LS-3303
+300370E1 0001
+"Unlock LS-99-Moonlight
+300370E2 0001
+"Unlock All Left Arm Weapons
+300370DF 0001
+800370E0 0101
+300370E2 0001
+"=Right Arm Weapon 
+"Unlock WG-RF35
+300370C6 0001
+"Unlock WG-MGA1
+300370C7 0001
+"Unlock WG-M6500
+300370C8 0001
+"Unlock WG-AR1000
+300370C9 0001
+"Unlock WG-HG235
+300370CA 0001
+"Unlock WG-RF/5
+300370CB 0001
+"Unlock WG-RF/P
+300370CC 0001
+"Unlock WG-HG512
+300370CD 0001
+"Unlock WG-F699
+300370CE 0001
+"Unlock WG-B2120
+300370CF 0001
+"Unlock WG-B2180
+300370D0 0001
+"Unlock WG-XP1000
+300370D1 0001
+"Unlock WG-XP2000
+300370D2 0001
+"Unlock WG-XC4
+300370D3 0001
+"Unlock WG-1-Karasawa
+300370D4 0001
+"Unlock WG-RFM118
+300370D5 0001
+"Unlock WG-XF PPk
+300370D6 0001
+"Unlock WG-HG1
+300370D7 0001
+"Unlock WG-PB26
+300370D8 0001
+"Unlock WA-Finger
+300370D9 0001
+"Unlock All Right Arm Weapons
+50000A02 0000
+800370C6 0101
+"=Back Weapon 
+"Unlock WM-S40/1
+30037089 0002
+"Unlock WM-SA0/2
+3003708A 0002
+"Unlock WM-S60/4
+3003708B 0002
+"Unlock WM-S60/6
+3003708C 0002
+"Unlock WM-MVG404
+3003708D 0002
+"Unlock WM-MVG802
+3003708E 0002
+"Unlock WM-L201
+3003708F 0002
+"Unlock WM-X201
+30037090 0002
+"Unlock WM-X5-AA
+30037091 0002
+"Unlock WM-X10
+30037092 0002
+"Unlock WM-94001
+30037093 0002
+"Unlock WM-PS-2
+30037094 0002
+"Unlock WM-AT
+30037095 0002
+"Unlock WM-T0100
+30037096 0002
+"Unlock WM-SMSS24
+30037097 0002
+"Unlock M118-TD
+30037098 0002
+"Unlock WR-550
+3003709B 0002
+"Unlock WR-S100
+3003709C 0002
+"Unlock WR-M50
+3003709D 0002
+"Unlock WR-M70
+3003709E 0002
+"Unlock WR-L24
+3003709F 0002
+"Unlock WC-CM35
+300370A5 0002
+"Unlock WC-ST120
+300370A6 0002
+"Unlock WC-LN350
+300370A7 0002
+"Unlock WC-GN230
+300370A8 0002
+"Unlock WC-X94000
+300370A9 0002
+"Unlock WC-XC8000
+300370AA 0002
+"Unlock WC-01QL
+300370AB 0002
+"Unlock WC-SPGun
+300370AC 0002
+"Unlock WC-IR24
+300370AD 0002
+"Unlock RXA-01WE
+300370B1 0002
+"Unlock RZ-A0
+300370B2 0002
+"Unlock RXA-99
+300370B3 0002
+"Unlock RXA-77
+300370B4 0002
+"Unlock RZ-A1
+300370B5 0002
+"Unlock RZT-333
+300370B6 0002
+"Unlock RZ-BBP
+300370B7 0002
+"Unlock RZ-Fw2
+300370B8 0002
+"Unlock WX-S800/2
+300370BD 0001
+"Unlock WX-S800-GF
+300370BE 0001
+"Unlock XCS-9900
+300370BF 0001
+"Have All Back Weapons
+30037089 0002
+50000702 0000
+8003708A 0202
+30037098 0002
+3003709B 0002
+8003709C 0202
+8003709E 0202
+300370A5 0002
+50000402 0000
+800370A6 0202
+300370B1 0002
+50000302 0000
+800370B2 0202
+300370B8 0002
+300370BD 0001
+800370BE 0101
+"=Leg 
+"Unlock LN-1001
+30037021 0001
+"Unlock LN-SSVT
+30037022 0001
+"Unlock LN-3001
+30037023 0001
+"Unlock LN-1001-PX-0
+30037024 0001
+"Unlock LN-501
+30037025 0001
+"Unlock LN-SSVR
+30037026 0001
+"Unlock LN-1001B
+30037027 0001
+"Unlock LN-3001C
+30037029 0001
+"Unlock LN-502
+3003702B 0001
+"Unlock LN-D-8000R
+3003702C 0001
+"Unlock LN-2KZ-SP
+3003702D 0001
+"Unlock LNKS-1B46J
+3003702E 0001
+"Unlock LB-4400
+3003702F 0001
+"Unlock LB-4401
+30037031 0001
+"Unlock LB-4303
+30037032 0001
+"Unlock LB-1000-P
+30037033 0001
+"Unlock LBKS-2B45A
+30037034 0001
+"Unlock LF-205-SF
+30037036 0001
+"Unlock LFH-X3
+30037037 0001
+"Unlock LF-Dex-1
+30037038 0001
+"Unlock LFH-X5X
+3003703B 0001
+"Unlock LC-MOS18
+3003703C 0001
+"Unlock LC-UKI60
+3003703D 0001
+"Unlock LC-HTP-AAA
+3003703F 0001
+"Unlock LC-MOS4545
+30037040 0001
+"Have All Leg Parts
+30037021 0001
+50000302 0000
+80037022 0101
+30037029 0001
+3003702B 0001
+50000202 0000
+8003702C 0101
+30037031 0001
+50000402 0000
+80037032 0101
+3003703B 0001
+8003703C 0101
+3003703F 0001
+30037040 0001
+"=More Misc. 
+"Unlock LF-TF-0 (Leg)
+30037035 0001
+"Unlock LB-H230 (Leg)
+30037039 0001
+"Unlock SP-ABS/RE (Optional-New ABS)
+30037074 0001
+"Unlock LC-HTP-H5 (Leg)
+30037041 0001
+"Unlock WG FG100
+300370DC 0001
+"Unlock P77 ST
+300370C2 0001
+"Have Build Overweight Ability
+8003EACA 0001
+"Human Plus Activator (Max Level)
+3003EAC8 000F
+"Hand Weapon Max Range
+80045484 7D00
+80045486 7D00
+"Max Capacity-Hand Weapon Ammo
+8004547E 03E8
+"Superfast Lock On (All Weapons)
+80045488 00FF
+800454C8 00FF
+"Max Range-Back Weapons
+800454C4 7D00
+800454C6 7D00
+80045500 7D00
+"Max Capacity-Back Weapons Ammo
+800454FA 01F4
+800454BC 01F4
+"FCS-Hand Weapon (Widest Lock on)
+8004548C 00FF
+8004548E 00FF
+"FCS-Back Weapons (Widest Lock on)
+800454CA 00FF
+800454CC 00FF
+80045508 00FF
+8004550A 00FF
+"FCS-Missle Locks Max / All Weapons Autofire
+80045492 0006
+800454D0 0106
+8004550E 0106
+
+#Armored Core - Project Phantasma#SLUS00670
+"Infinite Cash
+8003BCD2 0020
+"Infinite Energy
+80042506 CB20
+"Infinite Armor (Arena Mode Only)
+D0041578 0001
+800734F0 CD5A
+"Infinite Ammo Right Arm
+800427D8 03E7
+"Infinite Ammo Back Weapon
+80042816 0064
+80042854 0064
+"Have All Heads
+800342F0 0101
+800342F2 0101
+800342F4 0101
+800342F6 0101
+800342F8 0101
+"Have All Cores
+80034302 0101
+80034304 0502
+"Have All Arms
+3003430D 0001
+8003430E 0101
+80034310 0101
+80034312 0101
+30034314 0001
+30034319 0001
+8003431A 0101
+8003431C 0101
+8003431E 0101
+80034320 0101
+"Have All Legs
+30034325 0001
+80034328 0101
+8003432A 0101
+3003432D 0001
+3003432F 0001
+80034330 0101
+80034332 0101
+30034335 0001
+80034336 0101
+30034338 0001
+8003433A 0101
+3003433C 0001
+80034340 0101
+30034343 0001
+"Have All Generators
+3003434D 0001
+8003434E 0101
+80034350 0101
+80034352 0101
+80034354 0101
+"Have All FCS
+8003435C 0101
+8003435E 0101
+80034360 0101
+80034362 0101
+80034364 0101
+"Have All Optional Parts
+8003436C 0101
+8003436E 0101
+80034370 0101
+80034372 0101
+80034374 0101
+80034376 0101
+"Have All Boosters
+3003437F 0001
+80034380 0101
+80034382 0101
+80034384 0101
+"Have All Back Weapons
+3003438D 0001
+8003438E 0101
+80034390 0101
+80034392 0101
+80034394 0101
+80034396 0101
+80034398 0101
+8003439A 0101
+8003439E 0101
+800343A0 0101
+800343A8 0101
+800343AA 0101
+800343AC 0101
+800343AE 0101
+300343B0 0001
+800343B4 0101
+800343B6 0101
+800343B8 0101
+800343BA 0101
+800343C0 0101
+300343C2 0001
+"Have All Right Arm Weapons
+300343C9 0001
+800343CA 0101
+800343CC 0101
+800343CE 0101
+800343D0 0101
+800343D2 0101
+800343D4 0101
+800343D6 0101
+800343D8 0101
+800343DA 0101
+"Have All Left Arm Weapons
+800343DC 0101
+800343DE 0101
+300343E0 0001
+"Infinite Armor (Missions Only)
+801E2F40 8000
+"=Head Pieces 
+"Have HD-01-SRVT
+300342F0 0001
+"Have HD-2002
+300342F1 0001
+"Have HD-X1487
+300342F2 0001
+"Have HD-Redeye
+300342F3 0001
+"Have HD-D-9066
+300342F4 0001
+"Have HD-Gry-NX
+300342F5 0001
+"Have HD-06-Radar
+300342F6 0001
+"Have HD-One
+300342F7 0001
+"Have HD-08-Dish
+300342F8 0001
+"Have HD-Zero
+300342F9 0001
+"Have HD-G780
+300342FA 0001
+"=Core Parts 
+"Have XCA-00
+30034302 0001
+"Have XCL-01
+30034303 0001
+"Have XCH-01
+30034304 0001
+"Have XXA_SO
+30034305 0001
+"=Arm Parts 
+"Have AN-201
+3003430D 0001
+"Have An-K1
+3003430E 0001
+"Have An-D-7001
+3003430F 0001
+"Have An-3001
+30034310 0001
+"Have ANKS-1A46J
+30034311 0001
+"Have AN-863-B
+30034312 0001
+"Have AN-25
+30034313 0001
+"Have Aw-MG25/2
+30034319 0001
+"Have AW-GT2000
+3003431A 0001
+"Have AW-RF105
+3003431B 0001
+"Have AW-30/3
+3003431C 0001
+"Have AW-RF120
+3003431D 0001
+"Have AW-S60/2
+3003431E 0001
+"Have AW-XC5500
+3003431F 0001
+"Have AW-XC65
+30034320 0001
+"Have AW-DC/2
+30034321 0001
+"=Leg Parts 
+"Have LN-1001
+30034325 0001
+"Have LN-1001-PX-0
+30034328 0001
+"Have LN-501
+30034329 0001
+"Have LN-SSVR
+3003432A 0001
+"Have LN-1001B
+3003432B 0001
+"Have LN-3001C
+3003432D 0001
+"Have LN-502
+3003432F 0001
+"Have LN-D-8000R
+30034330 0001
+"Have LN-2KZ-SP
+30034331 0001
+"Have LNKS-1B46J
+30034332 0001
+"Have LB-4400
+30034333 0001
+"Have LB-4401
+30034335 0001
+"Have LB-4303
+30034336 0001
+"Have LB-1000-P
+30034337 0001
+"Have LBKS-2B45A
+30034338 0001
+"Have LF-205-SF
+3003433A 0001
+"Have LFH-X3
+3003433B 0001
+"Have LF-DEX-1
+3003433C 0001
+"Have LC-MOS18
+30034340 0001
+"Have LC-UKI60
+30034341 0001
+"Have LC-HTP-AAA
+30034343 0001
+"=Generator Parts 
+"Have GPS-VVA
+3003434D 0001
+"Have GPS-V6
+3003434E 0001
+"Have GRD-RX5
+3003434F 0001
+"Have GRD-RX6
+30034350 0001
+"Have GRD-RX7
+30034351 0001
+"Have GBG-10000
+30034352 0001
+"Have GBG-XR
+30034353 0001
+"Have GBX-TL
+30034354 0001
+"Have GBX-XL
+30034355 0001
+"=FCS Parts 
+"Have COMDEX-C7
+3003435C 0001
+"Have COMDEX-GO
+3003435D 0001
+"Have COMDEX-G8
+3003435E 0001
+"Have QX-21
+3003435F 0001
+"Have QX-AF
+30034360 0001
+"Have TRYX-BOXER
+30034361 0001
+"Have TRYX-QUAD
+30034362 0001
+"Have QX-9009
+30034363 0001
+"Have FBMB-18X
+30034364 0001
+"Have RATOR
+30034365 0001
+"=Optional Parts 
+"Have SP-M/AUTO
+3003436C 0001
+"Have SP-ABS
+3003436D 0001
+"Have SP-SAP
+3003436E 0001
+"Have SP-CND-K
+3003436F 0001
+"Have SP-AXL
+30034370 0001
+"Have SP-S/SCR
+30034371 0001
+"Have SP-E/SCR
+30034372 0001
+"Have SP-EH
+30034373 0001
+"Have SP-E+
+30034374 0001
+"Have SP-DEHF
+30034375 0001
+"=Booster Parts 
+"Have B-P320
+3003437F 0001
+"Have B-P350
+30034380 0001
+"Have B-TOO1
+30034381 0001
+"Have B-72
+30034382 0001
+"Have B-P351
+30034383 0001
+"Have B-VR-33
+30034384 0001
+"Have B-HP25
+30034335 0001
+"=All Back Weapons 
+"Have WM-S40/1
+3003438D 0001
+"Have WM-S40/2
+3003438E 0001
+"Have WM-S60/4
+3003438F 0001
+"Have WM-S60/6
+30034390 0001
+"Have WM-MVG404
+30034391 0001
+"Have WM-MVG802
+30034392 0001
+"Have WM-L201
+30034393 0001
+"Have WM-X201
+30034394 0001
+"Have WM-X5-AA
+30034395 0001
+"Have WM-X10
+30034396 0001
+"Have WM-P4001
+30034397 0001
+"Have WM-PS-2
+30034398 0001
+"Have WM-AT
+30034399 0001
+"Have WM-T0100
+3003439A 0001
+"Have WM-SMSS24
+3003439B 0001
+"Have WM-S50
+3003439E 0001
+"Have WR-S100
+3003439F 0001
+"Have WR-M50
+300343A0 0001
+"Have WC-CN35
+300343A1 0001
+"Have WC-ST120
+300343A8 0001
+"Have WC-LN350
+300343A9 0001
+"Have WC-GN230
+300343AA 0001
+"Have WC-XP4000
+300343AB 0001
+"Have WC-XC8000
+300343AC 0001
+"Have WC-01QL
+300343AD 0001
+"Have WC-SPGUN
+300343AE 0001
+"Have WC-IR24
+300343AF 0001
+"Have RXA-01WE
+300343B0 0001
+"Have RZ-A0
+300343B4 0001
+"Have RXA-99
+300343B5 0001
+"Have RXA-77
+300343B6 0001
+"Have RZ-A1
+300343B7 0001
+"Have RZT-333
+300343B8 0001
+"Have RZ-BBP
+300343B9 0001
+"Have RZ-Fw2
+300343BA 0001
+"Have WX-S800/2
+300343BB 0001
+"Have WX-S800-GF
+300343C0 0001
+"Have XCS-9900
+300343C1 0001
+"=Right Arm Weapons 
+"Have WG-RF35
+300343C9 0001
+"Have WG-MGA1
+300343CA 0001
+"Have WG-MG500
+300343CB 0001
+"Have WG-AR1000
+300343CC 0001
+"Have WG-HG235
+300343CD 0001
+"Have WG-RF/5
+300343CE 0001
+"Have WF-RF/P
+300343CF 0001
+"Have WG-HG512
+300343D0 0001
+"Have WG-FG99
+300343D1 0001
+"Have WG-B2120
+300343D2 0001
+"Have WG-B218
+300343D3 0001
+"Have WG-XP1000
+300343D4 0001
+"Have WG-XP2000
+300343D5 0001
+"Have WG-XC4
+300343D6 0001
+"Have WG-1-KARASAWA
+300343D7 0001
+"Have WG-RFM118
+300343D8 0001
+"Have WG-XFwPPk
+300343D9 0001
+"Have WG-HG1
+300343DA 0001
+"Have WG-PB26
+300343DB 0001
+"=Left Arm Weapons 
+"Have LS-2001
+300343DC 0001
+"Have LS-200G
+300343DD 0001
+"Have LS-3303
+300343DE 0001
+"Have LS-99-MOONLIGHT
+300343DF 0001
+"Rapid Fire Right Arm
+800427EA 0006
+
+#Armored Core#SLUS01323
+"Infinite Energy
+80040FBE 6D60
+"Infinite Weapon 1
+8004128A 00C8
+"Infinite Weapon 2
+800412C6 00C8
+"Infinite Armor
+801A2818 7000
+"Infinite Time
+8019F52C FFFF
+"Change View to Far View
+801987EC F3E7
+"Change View to Left View
+801987F4 F3E7
+"Infinite Money
+80039CA6 00FF
+"Sorties Modifier (add 16-bit value)
+801F377C ????
+"Success Modifier (add 16-bit value)
+801F3780 ????
+"Failure Modifier (add 16-bit value)
+801F3784 ????
+"Tin Enemies
+801A2988 0000
+801A2AF8 0000
+801A2C68 0000
+801A2DD8 0000
+801A2F48 0000
+801A30B8 0000
+"Hand Weapon Range Max
+8004128E 7D00
+80041290 7D00
+"Max Capacity Hand Weapon Ammo
+80041288 03E8
+"Super Fast Lock On's (All Weapons)
+80041292 00FF
+800412CE 00FF
+8004130A 00FF
+"FCS-Hand Weapon (Widest Lock On)
+80041296 00FF
+80041298 00FF
+"Missle Locks Max / All Weapons Autofire
+8004129C 0006
+800412D8 0106
+80041214 0106
+"Back Weapon Ammo Capacity 500
+800412C4 01F4
+80041300 01F4
+"Back Weapon Maximum Range
+800412CA 7D00
+800412CC 7D00
+80041306 7D00
+80041308 7D00
+"FCS-Back Weapons (Widest Lock On)
+800412D2 00FF
+800412D4 00FF
+8004130E 00FF
+80041310 00FF
+"Have All Head Parts
+80031A94 0101
+80031A96 0101
+80031A98 0101
+80031A9A 0101
+80031A9C 0101
+"Have All Core Parts
+80031A9E 0101
+80031AA0 0101
+"Have All Arm Parts
+80031AA2 0101
+80031AA4 0101
+80031AA6 0101
+80031AA8 0101
+80031AAA 0101
+80031AAC 0101
+80031AAE 0101
+80031AB0 0101
+"Have All Leg Parts
+80031AB2 0101
+80031AB4 0101
+80031AB6 0101
+80031AB8 0101
+80031ABA 0101
+80031ABC 0101
+80031ABE 0101
+80031AC0 0101
+80031AC2 0101
+80031AC4 0101
+80031AC6 0101
+80031AC8 0101
+80031ACA 0101
+80031ACC 0101
+80031ACE 0101
+80031AD0 0101
+"Have All Generator Parts
+80031AD2 0101
+80031AD4 0101
+80031AD6 0101
+"Have All FCS Parts
+80031AD8 0101
+80031ADA 0101
+80031ADC 0101
+80031ADE 0101
+"Have All Optional Parts
+80031AE0 0101
+80031AE2 0101
+80031AE4 0101
+80031AE6 0101
+80031AE8 0101
+80031AEA 0101
+"Have All Booster Parts
+80031AEC 0101
+80031AEE 0101
+80031AF0 0101
+"Have All Left & Right Back Weapons
+80031AF2 0101
+80031AF4 0101
+80031AF6 0101
+80031AF8 0101
+80031AFA 0101
+80031AFC 0101
+80031AFE 0101
+80031B00 0101
+80031B02 0101
+80031B04 0101
+80031B06 0101
+80031B08 0101
+80031B0A 0101
+80031B0C 0101
+80031B0E 0101
+80031B10 0101
+80031B12 0101
+"Have All Right Arm Weapons
+80031B14 0101
+80031B16 0101
+80031B18 0101
+80031B1A 0101
+80031B1C 0101
+80031B1E 0101
+80031B20 0101
+80031B22 0101
+"Have All Left Arm Weapons
+80031B24 0101
+80031B26 0101
+"Human Plus Mode
+80039D20 0001
+"=Head Pieces 
+"Have HD-01-SRVT
+30031A94 0001
+"Have HD-2002
+30031A95 0001
+"Have HD-X1487
+30031A96 0001
+"Have HD-Redeye
+30031A97 0001
+"Have HD-D-9066
+30031A98 0001
+"Have HD-Gry-NX
+30031A99 0001
+"Have HD-06-Radar
+30031A9A 0001
+"Have HD-One
+30031A9B 0001
+"Have HD-08-Dish
+30031A9C 0001
+"Have HD-Zero
+30031A9D 0001
+"=Core Parts 
+"Have XCA-00
+30031A9E 0001
+"Have XCL-01
+30031A9F 0001
+"Have XCH-01
+30031AA0 0001
+"=Arm Parts 
+"Have AN-201
+30031AA2 0001
+"Have An-K1
+30031AA3 0001
+"Have An-D-7001
+30031AA4 0001
+"Have An-3001
+30031AA5 0001
+"Have ANKS-1A46J
+30031AA6 0001
+"Have AN-863-B
+30031AA7 0001
+"Have AN-25
+30031AA8 0001
+"Have Aw-MG25/2
+30031AA9 0001
+"Have AW-GT2000
+30031AAA 0001
+"Have AW-RF105
+30031AAB 0001
+"Have AW-30/3
+30031AAC 0001
+"Have AW-RF120
+30031AAD 0001
+"Have AW-S60/2
+30031AAE 0001
+"Have AW-XC5500
+30031AAF 0001
+"Have AW-XC65
+30031AB0 0001
+"=Leg Parts 
+"Have LN-SSVT
+30031AB2 0001
+"Have LN-3001
+30031AB3 0001
+"Have LN-1001-PX-0
+30031AB4 0001
+"Have LN-501
+30031AB5 0001
+"Have LN-SSVR
+30031AB6 0001
+"HaveLN-1001B
+30031AB7 0001
+"Have DUMMY
+30031AB8 0001
+"Have LN-3001C
+30031AB9 0001
+"Have DUMMY
+30031ABA 0001
+"Have LN-502
+30031ABB 0001
+"Have LN-D-8000R
+30031ABC 0001
+"Have DUMMY
+30031ABD 0001
+"Have LNKS-1B46J
+30031ABE 0001
+"Have LB-4400
+30031ABF 0001
+"Have DUMMY
+30031AC0 0001
+"Have LB-4401
+30031AC1 0001
+"Have LB-4303
+30031AC2 0001
+"Have LB-1000-P
+30031AC3 0001
+"Have LBKS-2B45A
+30031AC4 0001
+"Have DUMMY
+30031AC5 0001
+"Have LF-205-SF
+30031AC6 0001
+"Have LFH-X3
+30031AC7 0001
+"Have LF-DEX-1
+30031AC8 0001
+"Have DUMMY
+30031AC9 0001
+"Have DUMMY
+30031ACA 0001
+"Have LFH-X5X
+30031ACB 0001
+"Have LC-MOS18
+30031ACC 0001
+"Have LC-UKI60
+30031ACD 0001
+"Have DUMMY
+30031ACE 0001
+"Have LC-HTP-AAA
+30031ACF 0001
+"Have LC-MOS4545
+30031AD0 0001
+"=Generator Parts 
+"Have GPS-VVA
+30031AD2 0001
+"Have GPS-V6
+30031AD3 0001
+"Have GRD-RX5
+30031AD4 0001
+"Have GRD-RX6
+30031AD5 0001
+"Have GRD-RX7
+30031AD6 0001
+"Have GBG-10000
+30031AD7 0001
+"=FCS Parts 
+"Have COMDEX-C7
+30031AD8 0001
+"Have COMDEX-GO
+30031AD9 0001
+"Have COMDEX-G8
+30031ADA 0001
+"Have QX-21
+30031ADB 0001
+"Have QX-AF
+30031ADC 0001
+"Have TRYX-BOXER
+30031ADD 0001
+"Have TRYX-QUAD
+30031ADE 0001
+"Have QX-9009
+30031ADF 0001
+"=Optional Parts 
+"Have SP-MAW
+30031AE0 0001
+"Have SP-JAM
+30031AE1 0001
+"Have SP-M/AUTO
+30031AE2 0001
+"Have SP-ABS
+30031AE3 0001
+"Have SP-SAP
+30031AE4 0001
+"Have SP-CND-K
+30031AE5 0001
+"Have SP-AXL
+30031AE6 0001
+"Have SP-S/SCR
+30031AE7 0001
+"HaveSP-E/SCR
+30031AE8 0001
+"Have SP-EH
+30031AE9 0001
+"Have SP-E+
+30031AEA 0001
+"=Booster Parts 
+"Have B-P320
+30031AEC 0001
+"Have B-P350
+30031AED 0001
+"Have B-TOO1
+30031AEE 0001
+"Have B-72
+30031AEF 0001
+"Have B-P351
+30031AF0 0001
+"HaveB-VR-33
+30031AF1 0001
+"=Left And Right Back Weapons 
+"Have WM-S40/1
+30031AF2 0001
+"Have WM-S40/2
+30031AF3 0001
+"Have WM-S60/4
+30031AF4 0001
+"Have WM-S60/6
+30031AF5 0001
+"Have WM-MVG404
+30031AF6 0001
+"Have WM-MVG802
+30031AF7 0001
+"Have WM-L201
+30031AF8 0001
+"Have WM-X201
+30031AF9 0001
+"Have WM-X5-AA
+30031AFA 0001
+"Have WM-X10
+30031AFB 0001
+"Have WM-P4001
+30031AFC 0001
+"Have WM-PS-2
+30031AFD 0001
+"Have WR-S50
+30031AFE 0001
+"Have WR-S100
+30031AFF 0001
+"Have WR-M50
+30031B00 0001
+"Have WR-M70
+30031B01 0001
+"Have WR-L24
+30031B02 0001
+"Have WC-CN35
+30031B03 0001
+"Have WC-ST120
+30031B04 0001
+"Have WC-LN350
+30031B05 0001
+"Have WC-GN230
+30031B06 0001
+"Have WC-XP4000
+30031B07 0001
+"Have WC-XC8000
+30031B08 0001
+"Have WC-01QL
+30031B09 0001
+"Have RCA-01WE
+30031B0A 0001
+"=Right Arm Weapons 
+"Have WG-RF35
+30031B14 0001
+"Have WG-MGA1
+30031B15 0001
+"Have WG-MG500
+30031B16 0001
+"Have WG-AR1000
+30031B17 0001
+"Have WG-HG235
+30031B18 0001
+"Have WG-RF/5
+30031B19 0001
+"Have WF-RF/P
+30031B1A 0001
+"Have WG-HG512
+30031B1B 0001
+"Have WG-FG99
+30031B1C 0001
+"Have WG-B2120
+30031B1D 0001
+"Have WG-B2180
+30031B1E 0001
+"Have WG-XP1000
+30031B1F 0001
+"Have WG-XP2000
+30031B20 0001
+"Have WG-XC4
+30031B21 0001
+"Have WG-1-KARASAWA
+30031B22 0001
+"=Left Arm Weapons 
+"Have LS-2001
+30031B23 0001
+"Have LS-200G
+30031B24 0001
+"Have LS-3303
+30031B26 0001
+"Have LS-99-MOONLIGHT
+30031B27 0001
+"=Max Point 
+"P1
+80049E70 C350
+"Hustler One
+80049E74 C350
+"Losvaize
+80049E78 C350
+"Barutazaru
+80049E7C C350
+"Wolf
+80049E80 C350
+"Crescent
+80049E84 C350
+"Lynx Minx
+80049E88 C350
+"Nick Kawasaki
+80049E8C C350
+"Mizuho Kamui
+80049E90 C350
+"Peace Maker
+80049E94 C350
+"White Queen
+80049E98 C350
+"Puryunu Touri
+80049E9C C350
+"Invincible Q
+80049EA0 C350
+"Boss Savage
+80049EA4 C350
+"Dynamitable
+80049EA8 C350
+"Falcon
+80049EAC C350
+"=No Point 
+"P1
+80049E70 0000
+"Hustler One
+80049E74 0000
+"Losvaize
+80049E78 0000
+"Barutazaru
+80049E7C 0000
+"Wolf
+80049E80 0000
+"Crescent
+80049E84 0000
+"Lynx Minx
+80049E88 0000
+"Nick Kawasaki
+80049E8C 0000
+"Mizuho Kamui
+80049E90 0000
+"Peace Maker
+80049E94 0000
+"White Queen
+80049E98 0000
+"Puryunu Touri
+80049E9C 0000
+"Invincible Q
+80049EA0 0000
+"Boss Savage
+80049EA4 0000
+"Dynamitable
+80049EA8 0000
+"Falcon
+80049EAC 0000
+
+#Armorines - Project Swarm#SLUS01022
+"Infinite Health
+D00466EC 1023
+800466F2 2400
+"Infinite Ammo (Upon Pickup)
+D0046A60 1023
+80046A66 2400
+"Infinite Heatlh (Transport)
+D005BA88 0008
+8005BA8E 2400
+
+#Army Men - Air Attack 2#SLUS01132
+"=Level 1 
+"Extra Health
+D01C6752 0011
+801C6752 00FF
+"Infinite Copter Ammo
+D01C6D08 0001
+801C6D0A 0063
+"Infinite Copilot Ammo
+D01C6E3C 0001
+801C6E3E 0063
+"=Level 2 
+"Extra Health
+D01CB586 0011
+801CB586 00FF
+"Infinite Copter Ammo
+D01CBB3C 0001
+801CBB3E 0063
+"Infinite Copilot Ammo
+D01CBC70 0001
+801CBC72 0063
+"=Level 3 
+"Extra Health
+D01CC05A 0011
+801CC05A 00FF
+"Infinite Copter Ammo
+D01CC610 0001
+801CC612 0063
+"Infinite Copilot Ammo
+D01CC744 0001
+801CC746 0063
+"=Level 4 
+"Extra Health
+D01CB452 0011
+801CB452 00FF
+"Infinite Copter Ammo
+D01CBA08 0001
+801CBA0A 0063
+"Infinite Copilot Ammo
+D01CBB3E 0001
+D01CBB40 0063
+"=Level 5 And 6 
+"Extra Health
+D01CC65E 0011
+801CC65E 00FF
+"Infinite Copter Ammo
+D01CCC14 0001
+801CCC16 0063
+"Infinite Copilot Ammo
+D01CCD48 0001
+801CCD4A 0063
+"=Level 7 
+"Infinite Copter Ammo
+D01CD218 0001
+801CD21A 0063
+"Infinite Copilot Ammo
+D01CD34C 0001
+801CD34E 0063
+"=Level 8 
+"Infinite Copter Ammo
+D01CC744 0001
+801CC746 0063
+"Infinite Copilot Ammo
+D01CC878 0001
+801CC87A 0063
+"=Level 9 
+"Infinite Copter Ammo
+D01D51A0 0001
+801D51A2 0063
+"Infinite Copilot Ammo
+D01D52D4 0001
+801D52D6 0063
+"=Level 10 
+"Infinite Copter Ammo
+D01D22B4 0001
+801D22B6 0063
+"Infinite Copilot Ammo
+D01D23E8 0001
+801D23EA 0063
+"=Level 11 
+"Infinite Copter Ammo
+D01CE2F0 0001
+801CE2F2 0063
+"Infinite Copilot Ammo
+D01CE424 0001
+801CE426 0063
+"=Level 12 
+"Infinite Copter Ammo
+D01D1DE4 0001
+801D1DE6 0063
+"Infinite Copilot Ammo
+D01D1F18 0001
+801D1F1A 0063
+"=Level 13 
+"Infinite Copter Ammo
+D01D204C 0001
+801D204E 0063
+"Infinite Copilot Ammo
+D01D2180 0001
+801D2182 0063
+"=Level 14 
+"Infinite Copter Ammo
+D01D40C8 0001
+801D40CA 0063
+"Infinite Copilot Ammo
+D01D41FC 0001
+801D41FE 0063
+"=Level 15 
+"Infinite Copter Ammo
+D01C7A44 0001
+801C7A46 0063
+"Infinite Copilot Ammo
+D01C7B78 0001
+801C7B7A 0063
+"=Level 16 
+"Infinite Copter Ammo
+D01C53C4 0001
+801C53C6 0063
+"Infinite Copilot Ammo
+D01C54F8 0001
+801C54FA 0063
+"=Level 17 
+"Infinite Copter Ammo
+D01D51A0 0001
+801D51A2 0063
+"Infinite Copilot Ammo
+D01D52D4 0001
+801D52D6 0063
+"=Level 18 
+"Infinite Copter Ammo
+D01CA460 0001
+801CA462 0063
+"=Level 19 
+"Infinite Copter Ammo
+D01CBC70 0001
+801CBC72 0063
+"Infinite Copilot Ammo
+D01CBDA4 0001
+801CBDA6 0063
+"=Level 20 
+"Infinite Copter Ammo
+D01D1CB0 0001
+801D1CB2 0063
+"Infinite Copilot Ammo
+D01D1DE4 0001
+801D1DE6 0063
+"=Level 21 
+"Infinite Copter Ammo
+D01C4688 0001
+801C468A 0063
+"Infinite Copilot Ammo
+D01C47BC 0001
+801C47BE 0063
+"=Level 22 
+"Infinite Copter Ammo
+D01C213C 0001
+801C213E 0063
+"Infinite Copilot Ammo
+D01C2270 0001
+801C2272 0063
+
+#Army Men - Air Attack#SLUS00913
+"Joker Command (add 16-bit value)
+D00D473A ????
+"Co-Pilot Modifier (add 8-bit value)
+800EB1C4 00??
+"Open All Missions
+E00EB1D2 0001
+300EB1D2 0010
+"Open All Helicopters
+E00EB1D3 0001
+300EB1D3 0004
+"Open All Co-Pilots
+E00EB1D4 0003
+300EB1D4 0005
+"Infinite Health P1 ONLY
+8003BA50 0100
+8003BA52 3221
+8003BA5C 0002
+8003BA5E 1020
+"Infinite Health P2 ONLY
+8003BA50 0100
+8003BA52 3221
+8003BA5C 0002
+8003BA5E 1420
+"Infinite Health P1 & P2
+8003BA66 2400
+"Infinite Ammo All Weapons
+80050642 2400
+
+#Army Men - Green Rogue#SLUS01330
+"Infinite Lives
+800EDDEC 0003
+"Extra Lives
+D005C098 FFFF
+8005C098 0001
+"Infinite Health
+D005BF94 6FED
+8005BF9A 2400
+D005C604 718A
+8005C60A 2400
+"Score Modifier (add 16-bit value)
+800EDDE2 ????
+"Max Weapon
+300EE110 0003
+"Max Grenades
+300EE111 0003
+"Max Head Looking Thing?
+300EE114 0006
+
+#Army Men - Sarge's Heroes 2#SLUS01202
+"Infinite Health
+80127ACC 0001
+"Infinite Shields
+80136790 00FF
+"Have All Weapons & Ammo
+50001002 0000
+8013672A FFFF
+50000D04 0000
+80136750 0001
+80136788 0001
+8013678C 0001
+"All Levels Unlocked
+80127B28 0002
+80127B2C 0004
+"Have Assault Rifle
+80136750 0001
+8013672A FFFF
+"Have Crossbow
+80136754 0001
+8013672C FFFF
+"Have Machine Gun
+80136758 0001
+8013672E FFFF
+"Have Sniper Rifle
+8013675C 0001
+80136730 FFFF
+"Have Flame Thrower
+80136760 0001
+80136732 FFFF
+"Have Whip n' Pop
+80136764 0001
+80136734 FFFF
+"Have Bazooka
+80136768 0001
+80136736 FFFF
+"Have Swarmer
+8013676C 0001
+80136738 FFFF
+"Have Pierce Launcher
+80136770 0001
+8013673A FFFF
+"Have Grenade
+80136774 0001
+8013673C FFFF
+"Have Mortar
+80136778 0001
+8013673E FFFF
+"Have Dynamite
+8013677C 0001
+80136740 FFFF
+"Have Firecracker
+80136780 0001
+80136742 FFFF
+"Have Mine Sweeper
+80136788 0001
+80136746 FFFF
+"Have Binoculars
+8013678C 0001
+80136748 FFFF
+
+#Army Men - Sarge's Heroes#SLUS00914
+"Infinite Health
+E006DBA8 0028
+30107814 00FF
+"Infinite Ammo (All Weapons)
+D0074DF8 0002
+80074DFA 2400
+D0077330 0002
+80077332 2400
+"Unlock All Missions
+E00F85B0 0000
+300F85B0 0002
+E00F85B4 0000
+300F85B4 0005
+"Infinite Timer (Boot Camp)
+D00DF6B8 0373
+800DF6B8 0367
+"Infinite Health (Partner)
+E006D3AC 0028
+3010CEB4 00FF
+"All Weapons & Infinite Ammo
+80120430 5230
+80120432 8014
+80120434 52E0
+80120436 8014
+80120438 5390
+8012043A 8014
+8012043C 5440
+8012043E 8014
+80120440 54F0
+80120442 8014
+8012045C 55A0
+8012045E 8014
+80120460 5650
+80120462 8014
+80144D62 FFFF
+80145230 0001
+80145232 FFFF
+8014523C 0002
+8014524C 76EC
+8014524E 8010
+801452E0 0001
+801452E2 FFFF
+801452EC 0003
+801452FC 76EC
+801452FE 8010
+80145390 0001
+80145392 FFFF
+8014539C 0004
+801453AC 76EC
+801453AE 8010
+80145440 0001
+80145442 FFFF
+8014544C 0005
+8014545C 76EC
+8014545E 8010
+801454F0 0001
+801454F2 FFFF
+801454FC 0006
+8014550C 76EC
+8014550E 8010
+801455A0 0001
+801455A2 FFFF
+801455AC 000D
+801455BC 76EC
+801455BE 8010
+80145650 0001
+80145652 FFFF
+8014565C 000E
+8014566C 76EC
+8014566E 8010
+
+#Army Men - World War - Final Front#SLUS01327
+"Have Grenades
+300F0956 0063
+"Have Rocket Launcher
+300F0957 0063
+"Have Bazooka
+300F0958 0063
+"Have Flamethrower
+300F0959 0063
+"Have Machine Gun
+300F095A 0063
+"Have Dynamite
+300F095B 0063
+"Have Land Mine
+300F095C 0063
+"Have Medpaks
+300F095D 0063
+"Have Mine Detector
+300F095E 0001
+"Have Binoculars
+300F095F 0001
+"Infinite Health (Enemies Too)
+D0058AE8 0040
+80058AEE 2400
+D00591DC 6480
+800591E2 2400
+
+#Army Men - World War - Land, Sea & Air#SLUS01203
+"Infinite Health (Everyone-Including Enemies)
+8005B9FE 2400
+"Infinite Grenades
+300EF2B1 0064
+"Unlimited Grenades
+300EF2B1 00FF
+"Infinite Mortars
+300EF2B2 0064
+"Unlimited Mortars
+300EF2B2 00FF
+"Infinite Bazooka
+300EF2B3 0064
+"Unlimited Bazooka
+300EF2B3 00FF
+"Infinite Flame Thrower
+300EF2B4 0064
+"Unlimited Flame Thrower
+300EF2B4 00FF
+"Infinite Automatic Machinegun
+300EF2B5 0064
+"Unlimited Automatic Machinegun
+300EF2B5 00FF
+"Infinite Explosives
+300EF2B6 0064
+"Unlimited Explosives
+300EF2B6 00FF
+"Infinite Land Mines
+300EF2B7 0064
+"Unlimited Land Mines
+300EF2B7 00FF
+"Infinite Health Kits
+300EF2B8 0064
+"Unlimited Health Kits
+300EF2B9 00FF
+"Infinite Mine Detectors
+300EF2B9 0064
+"Unlimited Mine Detectors
+300EF2B8 00FF
+"Have All Weapons & Items
+50000901 0000
+300EF2B1 0064
+"Have All Unlimited Weapons & Items
+50000901 0000
+300EF2B1 00FF
+"Infinite All Weapons & Items (On Pickup)
+80025CA2 2400
+"=Mission 
+"=Boot Camp 
+"Infinite Health
+801983C0 0210
+"=Mission 1 
+"Infinite Health
+80193FCC 0210
+"=Mission 2 
+"Infinite Health (Jeep)
+80195D84 2410
+"Infinite Health
+80195C14 0210
+"=Mission 3 
+"Infinite Health
+80199D68 0210
+
+#Army Men - World War - Team Assault#SLUS01435
+"Infinite Health-Character 1
+80072B64 CC9E
+80072B66 0801
+"Infinite Health-Character 2
+80072B80 CC9E
+80072B82 0801
+"Infinite Rifle
+30110A4C 00C8
+"Infinite Grenades
+30110A4D 000A
+"Infinite Mortar
+30110A4E 000A
+"Infinite Rockets
+30110A4F 000A
+"Infinite Ammo Assualt Rifle
+30110A50 00C8
+"Infinite FlameThrower
+30110A51 00C8
+"Infinite Dynamite
+30110A52 0009
+"Infinite Mines
+30110A53 0009
+
+#Army Men - World War#SLUS01079
+"Infinite Health
+800FEB7C 0310
+"Have Grenades & Infinite Ammo
+300F8999 0005
+"Have Mortar & Infinite Shells
+300F899A 000A
+"Have Bazooka & Infinite Shells
+300F899B 000A
+"Have Flame Thrower & Infinite Fuel
+300F899C 0064
+"Have Auto Rifle & Infinite Rounds
+300F899D 00FA
+"Have Explosives & Infinite Ammo
+300F899E 0005
+"Have Infinite Medpacks
+300F89A0 0003
+"Have Mine Detector
+300F89A1 00FF
+"All Levels Unlocked [Note 1]
+800F7AD8 0002
+800F7ADC 0006
+D0156410 FF74
+800F87C4 F52C
+"Infinite Time
+D00586D0 D5C0
+800586D2 2400
+"Infinite Armor-PT Boat
+800FECA0 17F0
+"Infinite Armor-Jeep
+800FF808 14B0
+"Infinite Armor-Tank
+800FFA50 EAD0
+"Infinite Armor-Train
+80100C90 1FF0
+"Infinite Ammo/Supplies-All Weapons & Items
+300F8999 00FF
+800F899A FFFF
+800F899C FFFF
+300F899E 00FF
+800F89A0 FFFF
+800A0194 0003
+
+#Army Men 3D#SLUS00491
+"Infinite Health
+800432A0 2400
+"Infinite Ammo
+80057FD2 2400
+"Infinite Flamethrower Fuel
+80058E3E 2400
+"All Levels Unlocked [Note 1]
+800A0194 0003
+"=Have Rifleman, Bazookamen & Grenadiers (Multiplayer Levels) 
+"Tanks A Lot
+800E6904 0039
+800E690C 0039
+800E6914 0039
+"Cabin Fever
+800E69C8 0039
+800E69D0 0039
+800E69D8 0039
+"Snake Canyon
+800E6A94 0039
+800E6A9C 0039
+800E6AA4 0039
+"Clean Up This Mess
+800E6B60 0039
+800E6B68 0039
+800E6B70 0039
+"Santa Plastico
+800E6C28 0039
+800E6C30 0039
+800E6C38 0039
+"Walk Thru Walls/Up Hills
+8002F056 1000
+80042266 2400
+80042276 1000
+800422E2 1000
+80042792 1000
+8002D1CA 1000
+8002D792 1000
+
+#Arthur's Ready To Race#SLUS01090
+"Infinite Cards
+8009345C 0063
+"Infinite Coins
+80093468 0063
+"Time Always 00:00:00
+800191B0 0000
+
+#Ascii Demo Disc#SLUS90010
+"=Clock Tower 
+"Infinite Time
+80080614 3B3E
+
+#Assault Retribution#SLUS00713
+"Infinite Ammo P1
+800936B6 0006
+"Infinite Lives P1
+800936BC 0005
+"Have All Weapons P1
+30093681 0003
+30093682 0003
+30093683 0003
+30093684 0003
+"Infinite Health
+8004D458 C000
+8004D45A 0C07
+801F0000 8009
+801F0002 3C01
+801F0004 3288
+801F0006 3421
+801F0008 0002
+801F000A 1430
+801F000C 00C0
+801F000E 27FF
+801F0010 0010
+801F0012 27FF
+801F0014 0008
+801F0016 03E0
+801F001A 2400
+
+#Assault Rigs#SCUS94405
+"=Level 
+"=Level 1 
+"Infinite Bounce Ammo
+D01C98A2 FFFF
+801C98A4 0063
+"Infinite Shatter Ammo
+D01C98A2 FFFF
+801C98A8 0063
+"Infinite Homing Missle
+D01C98A2 FFFF
+801C98AC 0063
+"Infinite Guided Missle
+D01C98A2 FFFF
+801C98B0 0063
+"Infinite Laser
+D01C98A2 FFFF
+801C98B4 0063
+"Infinite Minigun
+D01C98A2 FFFF
+801C98B8 0063
+"Infinite Mines
+D01C98A2 FFFF
+801C98BC 0063
+"Infinite Sentry Gun
+D01C98A2 FFFF
+801C98C0 0063
+"Infinite Shield
+D01C98A2 FFFF
+801C98C4 0063
+"Infinite Warp
+D01C98A2 FFFF
+801C98C8 0063
+"Infinite Auto Turrent
+D01C98A2 FFFF
+801C98CC 0063
+"Infinite Block Hologram
+D01C98A2 FFFF
+801C98D0 0063
+"=Level 2 
+"Infinite Bounce Ammo
+D01C5AA6 FFFF
+801C5AA8 0063
+"Infinite Shatter Ammo
+D01C5AA6 FFFF
+801C5AAC 0063
+"Infinite Homing Missle
+D01C5AA6 FFFF
+801C5AB0 0063
+"Infinite Guided Missle
+D01C5AA6 FFFF
+801C5AB4 0063
+"Infinite Laser
+D01C5AA6 FFFF
+801C5AB8 0063
+"Infinite Minigun
+D01C5AA6 FFFF
+801C5ABC 0063
+"Infinite Mines
+D01C5AA6 FFFF
+801C5AC0 0063
+"Infinite Sentry Gun
+D01C5AA6 FFFF
+801C5AC4 0063
+"Infinite Shield
+D01C5AA6 FFFF
+801C5AC8 0063
+"Infinite Warp
+D01C5AA6 FFFF
+801C5ACC 0063
+"Infinite Auto Turrent
+D01C5AA6 FFFF
+801C5AD0 0063
+"Infinite Block Hologram
+D01C5AA6 FFFF
+801C5AD4 0063
+"=Level 3 
+"Infinite Bounce Ammo
+D01C3CD6 FFFF
+801C3CD8 0063
+"Infinite Shatter Ammo
+D01C3CD6 FFFF
+801C3CDC 0063
+"Infinite Homing Missle
+D01C3CD6 FFFF
+801C3CE0 0063
+"Infinite Guided Missle
+D01C3CD6 FFFF
+801C3CE4 0063
+"Infinite Laser
+D01C3CD6 FFFF
+801C3CE8 0063
+"Infinite Minigun
+D01C3CD6 FFFF
+801C3CEC 0063
+"Infinite Mines
+D01C3CD6 FFFF
+801C3CF0 0063
+"Infinite Sentry Gun
+D01C3CD6 FFFF
+801C3CF4 0063
+"Infinite Shield
+D01C3CD6 FFFF
+801C3CF8 0063
+"Infinite Warp
+D01C3CD6 FFFF
+801C3CFC 0063
+"Infinite Auto Turrent
+D01C3CD6 FFFF
+801C3D00 0063
+"Infinite Block Hologram
+D01C3CD6 FFFF
+801C3D04 0063
+"=Level 4 
+"Infinite Bounce Ammo
+D01C0B16 FFFF
+801C0B18 0063
+"Infinite Shatter Ammo
+D01C0B16 FFFF
+801C0B1C 0063
+"Infinite Homing Missle
+D01C0B16 FFFF
+801C0B20 0063
+"Infinite Guided Missle
+D01C0B16 FFFF
+801C0B24 0063
+"Infinite Laser
+D01C0B16 FFFF
+801C0B28 0063
+"Infinite Minigun
+D01C0B16 FFFF
+801C0B2C 0063
+"Infinite Mines
+D01C0B16 FFFF
+801C0B30 0063
+"Infinite Sentry Gun
+D01C0B16 FFFF
+801C0B34 0063
+"Infinite Shield
+D01C0B16 FFFF
+801C0B38 0063
+"Infinite Warp
+D01C0B16 FFFF
+801C0B3C 0063
+"Infinite Auto Turrent
+D01C0B16 FFFF
+801C0B40 0063
+"Infinite Block Hologram
+D01C0B16 FFFF
+801C0B44 0063
+"=Level 5 
+"Infinite Bounce Ammo
+D01C22E2 FFFF
+801C22DC 0063
+"Infinite Shatter Ammo
+D01C22E2 FFFF
+801C22E0 0063
+"Infinite Homing Missle
+D01C22E2 FFFF
+801C22E4 0063
+"Infinite Guided Missle
+D01C22E2 FFFF
+801C22E8 0063
+"Infinite Laser
+D01C22E2 FFFF
+801C22EC 0063
+"Infinite Minigun
+D01C22E2 FFFF
+801C22F0 0063
+"Infinite Mines
+D01C22E2 FFFF
+801C22F4 0063
+"Infinite Sentry Gun
+D01C22E2 FFFF
+801C22F8 0063
+"Infinite Shield
+D01C22E2 FFFF
+801C22FC 0063
+"Infinite Warp
+D01C22E2 FFFF
+801C2300 0063
+"Infinite Auto Turrent
+D01C22E2 FFFF
+801C2302 0063
+"Infinite Block Hologram
+D01C22E2 FFFF
+801C2304 0063
+"=Level 6 
+"Infinite Bounce Ammo
+D01C159E FFFF
+801C15A0 0063
+"Infinite Shatter Ammo
+D01C159E FFFF
+801C15A4 0063
+"Infinite Homing Missle
+D01C159E FFFF
+801C15A0 0063
+"Infinite Guided Missle
+D01C159E FFFF
+801C15A8 0063
+"Infinite Laser
+D01C159E FFFF
+801C15AC 0063
+"Infinite Minigun
+D01C159E FFFF
+801C15B0 0063
+"Infinite Mines
+D01C159E FFFF
+801C15B4 0063
+"Infinite Sentry Gun
+D01C159E FFFF
+801C15B8 0063
+"Infinite Shield
+D01C159E FFFF
+801C15BC 0063
+"Infinite Warp
+D01C159E FFFF
+801C15C0 0063
+"Infinite Auto Turrent
+D01C159E FFFF
+801C15C4 0063
+"Infinite Block Hologram
+D01C159E FFFF
+801C15C8 0063
+"=Level 7 
+"Infinite Bounce Ammo
+D01C136E FFFF
+801C1370 0063
+"Infinite Shatter Ammo
+D01C136E FFFF
+801C1374 0063
+"Infinite Homing Missle
+D01C136E FFFF
+801C1378 0063
+"Infinite Guided Missle
+D01C136E FFFF
+801C137C 0063
+"Infinite Laser
+D01C136E FFFF
+801C1380 0063
+"Infinite Minigun
+D01C136E FFFF
+801C1384 0063
+"Infinite Mines
+D01C136E FFFF
+801C1388 0063
+"Infinite Sentry Gun
+D01C136E FFFF
+801C138C 0063
+"Infinite Shield
+D01C136E FFFF
+801C1390 0063
+"Infinite Warp
+D01C136E FFFF
+801C1394 0063
+"Infinite Auto Turrent
+D01C136E FFFF
+801C1398 0063
+"Infinite Block Hologram
+D01C136E FFFF
+801C139C 0063
+"=Level 8 
+"Infinite Bounce Ammo
+D01B77AA FFFF
+801B77AC 0063
+"Infinite Shatter Ammo
+D01B77AA FFFF
+801B77B0 0063
+"Infinite Homing Missle
+D01B77AA FFFF
+801B77B4 0063
+"Infinite Guided Missle
+D01B77AA FFFF
+801B77B8 0063
+"Infinite Laser
+D01B77AA FFFF
+801B77BC 0063
+"Infinite Minigun
+D01B77AA FFFF
+801B77C0 0063
+"Infinite Mines
+D01B77AA FFFF
+801B77C4 0063
+"Infinite Sentry Gun
+D01B77AA FFFF
+801B77C8 0063
+"Infinite Shield
+D01B77AA FFFF
+801B77CC 0063
+"Infinite Warp
+D01B77AA FFFF
+801B77D0 0063
+"Infinite Auto Turrent
+D01B77AA FFFF
+801B77D4 0063
+"Infinite Block Hologram
+D01B77AA FFFF
+801B77D8 0063
+"=Level 9 
+"Infinite Bounce Ammo
+D01BE482 FFFF
+801BE484 0063
+"Infinite Shatter Ammo
+D01BE482 FFFF
+801BE488 0063
+"Infinite Homing Missle
+D01BE482 FFFF
+801BE48C 0063
+"Infinite Guided Missle
+D01BE482 FFFF
+801BE490 0063
+"Infinite Laser
+D01BE482 FFFF
+801BE494 0063
+"Infinite Minigun
+D01BE482 FFFF
+801BE498 0063
+"Infinite Mines
+D01BE482 FFFF
+801BE49C 0063
+"Infinite Sentry Gun
+D01BE482 FFFF
+801BE4A0 0063
+"Infinite Shield
+D01BE482 FFFF
+801BE4A4 0063
+"Infinite Warp
+D01BE482 FFFF
+801BE4A8 0063
+"Infinite Auto Turrent
+D01BE482 FFFF
+801BE4AC 0063
+"Infinite Block Hologram
+D01BE482 FFFF
+801BE4B0 0063
+"=Level 10 
+"Infinite Bounce Ammo
+D01BC8B6 FFFF
+801BC8B8 0063
+"Infinite Shatter Ammo
+D01BC8B6 FFFF
+801BC8BC 0063
+"Infinite Homing Missle
+D01BC8B6 FFFF
+801BC8C0 0063
+"Infinite Guided Missle
+D01BC8B6 FFFF
+801BC8C4 0063
+"Infinite Laser
+D01BC8B6 FFFF
+801BC8C8 0063
+"Infinite Minigun
+D01BC8B6 FFFF
+801BC8CC 0063
+"Infinite Mines
+D01BC8B6 FFFF
+801BC8D0 0063
+"Infinite Sentry Gun
+D01BC8B6 FFFF
+801BC8D4 0063
+"Infinite Shield
+D01BC8B6 FFFF
+801BC8D8 0063
+"Infinite Warp
+D01BC8B6 FFFF
+801BC8DC 0063
+"Infinite Auto Turrent
+D01BC8B6 FFFF
+801BC8E0 0063
+"Infinite Block Hologram
+D01BC8B6 FFFF
+801BC8E4 0063
+"=Level 11 
+"Infinite Bounce Ammo
+D01C0506 FFFF
+801C0508 0063
+"Infinite Shatter Ammo
+D01C0506 FFFF
+801C050C 0063
+"Infinite Homing Missle
+D01C0506 FFFF
+801C0510 0063
+"Infinite Guided Missle
+D01C0506 FFFF
+801C0514 0063
+"Infinite Laser
+D01C0506 FFFF
+801C0518 0063
+"Infinite Minigun
+D01C0506 FFFF
+801C051C 0063
+"Infinite Mines
+D01C0506 FFFF
+801C0520 0063
+"Infinite Sentry Gun
+D01C0506 FFFF
+801C0524 0063
+"Infinite Shield
+D01C0506 FFFF
+801C0528 0063
+"Infinite Warp
+D01C0506 FFFF
+801C052C 0063
+"Infinite Auto Turrent
+D01C0506 FFFF
+801C0530 0063
+"Infinite Block Hologram
+D01C0506 FFFF
+801C0534 0063
+"=Level 12 
+"Infinite Bounce Ammo
+D01BD61E FFFF
+801BD620 0063
+"Infinite Shatter Ammo
+D01BD61E FFFF
+801BD624 0063
+"Infinite Homing Missle
+D01BD61E FFFF
+801BD628 0063
+"Infinite Guided Missle
+D01BD61E FFFF
+801BD62C 0063
+"Infinite Laser
+D01BD61E FFFF
+801BD630 0063
+"Infinite Minigun
+D01BD61E FFFF
+801BD634 0063
+"Infinite Mines
+D01BD61E FFFF
+801BD638 0063
+"Infinite Sentry Gun
+D01BD61E FFFF
+801BD63C 0063
+"Infinite Shield
+D01BD61E FFFF
+801BD640 0063
+"Infinite Warp
+D01BD61E FFFF
+801BD644 0063
+"Infinite Auto Turrent
+D01BD61E FFFF
+801BD648 0063
+"Infinite Block Hologram
+D01BD61E FFFF
+801BD64C 0063
+"=Level 13 
+"Infinite Bounce Ammo
+D01C0BCE FFFF
+801C0BD0 0063
+"Infinite Shatter Ammo
+D01C0BCE FFFF
+801C0BD4 0063
+"Infinite Homing Missle
+D01C0BCE FFFF
+801C0BD8 0063
+"Infinite Guided Missle
+D01C0BCE FFFF
+801C0BDC 0063
+"Infinite Laser
+D01C0BCE FFFF
+801C0BE0 0063
+"Infinite Minigun
+D01C0BCE FFFF
+801C0BE4 0063
+"Infinite Mines
+D01C0BCE FFFF
+801C0BE8 0063
+"Infinite Sentry Gun
+D01C0BCE FFFF
+801C0BEC 0063
+"Infinite Shield
+D01C0BCE FFFF
+801C0BF0 0063
+"Infinite Warp
+D01C0BCE FFFF
+801C0BF4 0063
+"Infinite Auto Turrent
+D01C0BCE FFFF
+801C0BF8 0063
+"Infinite Block Hologram
+D01C0BCE FFFF
+801C0BFC 0063
+"=Level 14 
+"Infinite Bounce Ammo
+D01BBF96 FFFF
+801BBF98 0063
+"Infinite Shatter Ammo
+D01BBF96 FFFF
+801BBF9C 0063
+"Infinite Homing Missle
+D01BBF96 FFFF
+801BBFA0 0063
+"Infinite Guided Missle
+D01BBF96 FFFF
+801BBFA4 0063
+"Infinite Laser
+D01BBF96 FFFF
+801BBFA8 0063
+"Infinite Minigun
+D01BBF96 FFFF
+801BBFAC 0063
+"Infinite Mines
+D01BBF96 FFFF
+801BBFB0 0063
+"Infinite Sentry Gun
+D01BBF96 FFFF
+801BBFB4 0063
+"Infinite Shield
+D01BBF96 FFFF
+801BBFB8 0063
+"Infinite Warp
+D01BBF96 FFFF
+801BBFBC 0063
+"Infinite Auto Turrent
+D01BBF96 FFFF
+801BBFC0 0063
+"Infinite Block Hologram
+D01BBF96 FFFF
+801BBFC4 0063
+"=Level 15 
+"Infinite Bounce Ammo
+D01BC3E2 FFFF
+801BC3E4 0063
+"Infinite Shatter Ammo
+D01BC3E2 FFFF
+801BC3E8 0063
+"Infinite Homing Missle
+D01BC3E2 FFFF
+801BC3EC 0063
+"Infinite Guided Missle
+D01BC3E2 FFFF
+801BC3F0 0063
+"Infinite Laser
+D01BC3E2 FFFF
+801BC3F4 0063
+"Infinite Minigun
+D01BC3E2 FFFF
+801BC3F8 0063
+"Infinite Mines
+D01BC3E2 FFFF
+801BC3FC 0063
+"Infinite Sentry Gun
+D01BC3E2 FFFF
+801BC400 0063
+"Infinite Shield
+D01BC3E2 FFFF
+801BC404 0063
+"Infinite Warp
+D01BC3E2 FFFF
+801BC408 0063
+"Infinite Auto Turrent
+D01BC3E2 FFFF
+801BC40C 0063
+"Infinite Block Hologram
+D01BC3E2 FFFF
+801BC410 0063
+"=Level 16 
+"Infinite Bounce Ammo
+D01C3D6E FFFF
+801C3D68 0063
+"Infinite Shatter Ammo
+D01C3D6E FFFF
+801C3D6C 0063
+"Infinite Homing Missle
+D01C3D6E FFFF
+801C3D70 0063
+"Infinite Guided Missle
+D01C3D6E FFFF
+801C3D74 0063
+"Infinite Laser
+D01C3D6E FFFF
+801C3D78 0063
+"Infinite Minigun
+D01C3D6E FFFF
+801C3D7C 0063
+"Infinite Mines
+D01C3D6E FFFF
+801C3D80 0063
+"Infinite Sentry Gun
+D01C3D6E FFFF
+801C3D84 0063
+"Infinite Shield
+D01C3D6E FFFF
+801C3D88 0063
+"Infinite Warp
+D01C3D6E FFFF
+801C3D8C 0063
+"Infinite Auto Turrent
+D01C3D6E FFFF
+801C3D90 0063
+"Infinite Block Hologram
+D01C3D6E FFFF
+801C3D94 0063
+"=Level 17 
+"Infinite Bounce Ammo
+D01BD40A FFFF
+801BD40C 0063
+"Infinite Shatter Ammo
+D01BD40A FFFF
+801BD410 0063
+"Infinite Homing Missle
+D01BD40A FFFF
+801BD414 0063
+"Infinite Guided Missle
+D01BD40A FFFF
+801BD418 0063
+"Infinite Laser
+D01BD40A FFFF
+801BD41C 0063
+"Infinite Minigun
+D01BD40A FFFF
+801BD420 0063
+"Infinite Mines
+D01BD40A FFFF
+801BD424 0063
+"Infinite Sentry Gun
+D01BD40A FFFF
+801BD428 0063
+"Infinite Shield
+D01BD40A FFFF
+801BD42C 0063
+"Infinite Warp
+D01BD40A FFFF
+801BD430 0063
+"Infinite Auto Turrent
+D01BD40A FFFF
+801BD434 0063
+"Infinite Block Hologram
+D01BD40A FFFF
+801BD438 0063
+"=Level 18 
+"Infinite Bounce Ammo
+D01B85FE FFFF
+801B8600 0063
+"Infinite Shatter Ammo
+D01B85FE FFFF
+801B8604 0063
+"Infinite Homing Missle
+D01B85FE FFFF
+801B8608 0063
+"Infinite Guided Missle
+D01B85FE FFFF
+801B860C 0063
+"Infinite Laser
+D01B85FE FFFF
+801B8610 0063
+"Infinite Minigun
+D01B85FE FFFF
+801B8614 0063
+"Infinite Mines
+D01B85FE FFFF
+801B8618 0063
+"Infinite Sentry Gun
+D01B85FE FFFF
+801B861C 0063
+"Infinite Shield
+D01B85FE FFFF
+801B8620 0063
+"Infinite Warp
+D01B85FE FFFF
+801B8624 0063
+"Infinite Auto Turrent
+D01B85FE FFFF
+801B8628 0063
+"Infinite Block Hologram
+D01B85FE FFFF
+801B862C 0063
+"=Level 19 
+"Infinite Bounce Ammo
+D01BC43E FFFF
+801BC440 0063
+"Infinite Shatter Ammo
+D01BC43E FFFF
+801BC444 0063
+"Infinite Homing Missle
+D01BC43E FFFF
+801BC448 0063
+"Infinite Guided Missle
+D01BC43E FFFF
+801BC44C 0063
+"Infinite Laser
+D01BC43E FFFF
+801BC450 0063
+"Infinite Minigun
+D01BC43E FFFF
+801BC454 0063
+"Infinite Mines
+D01BC43E FFFF
+801BC458 0063
+"Infinite Sentry Gun
+D01BC43E FFFF
+801BC45C 0063
+"Infinite Shield
+D01BC43E FFFF
+801BC460 0063
+"Infinite Warp
+D01BC43E FFFF
+801BC464 0063
+"Infinite Auto Turrent
+D01BC43E FFFF
+801BC468 0063
+"Infinite Block Hologram
+D01BC43E FFFF
+801BC46C 0063
+"=Level 20 
+"Infinite Bounce Ammo
+D01B942A FFFF
+801B942C 001E
+"Infinite Shatter Ammo
+D01B942A FFFF
+801B9430 001E
+"Infinite Homing Missle
+D01B942A FFFF
+801B9434 0063
+"Infinite Guided Missle
+D01B942A FFFF
+801B9438 0063
+"Infinite Laser
+D01B942A FFFF
+801B943C 0063
+"Infinite Minigun
+D01B942A FFFF
+801B9440 0063
+"Infinite Mines
+D01B942A FFFF
+801B9444 0063
+"Infinite Sentry Gun
+D01B942A FFFF
+801B9448 0063
+"Infinite Shield
+D01B942A FFFF
+801B944C 0063
+"Infinite Warp
+D01B942A FFFF
+801B9450 0063
+"Infinite Auto Turrent
+D01B942A FFFF
+801B9454 0063
+"Infinite Block Hologram
+D01B942A FFFF
+801B9458 0063
+"=Level 21 
+"Infinite Bounce Ammo
+D01C6EAA FFFF
+801C6EAC 0063
+"Infinite Shatter Ammo
+D01C6EAA FFFF
+801C6EB0 0063
+"Infinite Homing Missle
+D01C6EAA FFFF
+801C6EB4 0063
+"Infinite Guided Missle
+D01C6EAA FFFF
+801C6EB8 0063
+"Infinite Laser
+D01C6EAA FFFF
+801C6EBC 0063
+"Infinite Minigun
+D01C6EAA FFFF
+801C6EC0 0063
+"Infinite Mines
+D01C6EAA FFFF
+801C6EC4 0063
+"Infinite Sentry Gun
+D01C6EAA FFFF
+801C6EC8 0063
+"Infinite Shield
+D01C6EAA FFFF
+801C6ECC 0063
+"Infinite Warp
+D01C6EAA FFFF
+801C6ED0 0063
+"Infinite Auto Turrent
+D01C6EAA FFFF
+801C6ED4 0063
+"Infinite Block Hologram
+D01C6EAA FFFF
+"=Level 22 
+"Infinite Bounce Ammo
+D01BA542 FFFF
+801BA544 0063
+"Infinite Shatter Ammo
+D01BA542 FFFF
+801BA548 0063
+"Infinite Homing Missle
+D01BA542 FFFF
+801BA54C 0063
+"Infinite Guided Missle
+D01BA542 FFFF
+801BA550 0063
+"Infinite Laser
+D01BA542 FFFF
+801BA554 0063
+"Infinite Minigun
+D01BA542 FFFF
+801BA558 0063
+"Infinite Mines
+D01BA542 FFFF
+801BA55C 0063
+"Infinite Sentry Gun
+D01BA542 FFFF
+801BA560 0063
+"Infinite Shield
+D01BA542 FFFF
+801BA564 0063
+"Infinite Warp
+D01BA542 FFFF
+801BA568 0063
+"Infinite Auto Turrent
+D01BA542 FFFF
+801BA56C 0063
+"Infinite Block Hologram
+D01BA542 FFFF
+801BA570 0063
+"=Level 23 
+"Infinite Bounce Ammo
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Shatter Ammo
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Homing Missle
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Guided Missle
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Laser
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Minigun
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Mines
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Sentry Gun
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Shield
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Warp
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Auto Turrent
+D01B88DA FFFF
+801B88DC 0063
+"Infinite Block Hologram
+D01B88DA FFFF
+801B88DC 0063
+"=Level 24 
+"Infinite Bounce Ammo
+D01BAB06 FFFF
+801BAB08 0063
+"Infinite Shatter Ammo
+D01BAB06 FFFF
+801BAB0C 0063
+"Infinite Homing Missle
+D01BAB06 FFFF
+801BAB10 0063
+"Infinite Guided Missle
+D01BAB06 FFFF
+801BAB14 0063
+"Infinite Laser
+D01BAB06 FFFF
+801BAB18 0063
+"Infinite Minigun
+D01BAB06 FFFF
+801BAB1C 0063
+"Infinite Mines
+D01BAB06 FFFF
+801BAB20 0063
+"Infinite Sentry Gun
+D01BAB06 FFFF
+801BAB24 0063
+"Infinite Shield
+D01BAB06 FFFF
+801BAB28 0063
+"Infinite Warp
+D01BAB06 FFFF
+801BAB2C 0063
+"Infinite Auto Turrent
+D01BAB06 FFFF
+801BAB30 0063
+"Infinite Block Hologram
+D01BAB06 FFFF
+801BAB34 0063
+"=Level 25 
+"Infinite Bounce Ammo
+D01BFD2A FFFF
+801BFD2C 0063
+"Infinite Shatter Ammo
+D01BFD2A FFFF
+801BFD30 0063
+"Infinite Homing Missle
+D01BFD2A FFFF
+801BFD34 0063
+"Infinite Guided Missle
+D01BFD2A FFFF
+801BFD38 0063
+"Infinite Laser
+D01BFD2A FFFF
+801BFD3C 0063
+"Infinite Minigun
+D01BFD2A FFFF
+801BFD40 0063
+"Infinite Mines
+D01BFD2A FFFF
+801BFD44 0063
+"Infinite Sentry Gun
+D01BFD2A FFFF
+801BFD48 0063
+"Infinite Shield
+D01BFD2A FFFF
+801BFD4C 0063
+"Infinite Warp
+D01BFD2A FFFF
+801BFD50 0063
+"Infinite Auto Turrent
+D01BFD2A FFFF
+801BFD54 0063
+"Infinite Block Hologram
+D01BFD2A FFFF
+801BFD58 0063
+"=Level 26 
+"Infinite Bounce Ammo
+D01BC3C2 FFFF
+801BC3C4 0063
+"Infinite Shatter Ammo
+D01BC3C2 FFFF
+801BC3C8 0063
+"Infinite Homing Missle
+D01BC3C2 FFFF
+801BC3CC 0063
+"Infinite Guided Missle
+D01BC3C2 FFFF
+801BC3D0 0063
+"Infinite Laser
+D01BC3C2 FFFF
+801BC3D4 0063
+"Infinite Minigun
+D01BC3C2 FFFF
+801BC3D8 0063
+"Infinite Mines
+D01BC3C2 FFFF
+801BC3DC 0063
+"Infinite Sentry Gun
+D01BC3C2 FFFF
+801BC3E0 0063
+"Infinite Shield
+D01BC3C2 FFFF
+801BC3E4 0063
+"Infinite Warp
+D01BC3C2 FFFF
+801BC3E8 0063
+"Infinite Auto Turrent
+D01BC3C2 FFFF
+801BC3EC 0063
+"Infinite Block Hologram
+D01BC3C2 FFFF
+801BC3F0 0063
+"=Level 27 
+"Infinite Bounce Ammo
+D01B8472 FFFF
+801B8474 0063
+"Infinite Shatter Ammo
+D01B8472 FFFF
+801B8478 0063
+"Infinite Homing Missle
+D01B8472 FFFF
+801B847C 0063
+"Infinite Guided Missle
+D01B8472 FFFF
+801B8480 0063
+"Infinite Laser
+D01B8472 FFFF
+801B8484 0063
+"Infinite Minigun
+D01B8472 FFFF
+801B8488 0063
+"Infinite Mines
+D01B8472 FFFF
+801B848C 0063
+"Infinite Sentry Gun
+D01B8472 FFFF
+801B8490 0063
+"Infinite Shield
+D01B8472 FFFF
+801B8494 0063
+"Infinite Warp
+D01B8472 FFFF
+801B8498 0063
+"Infinite Auto Turrent
+D01B8472 FFFF
+801B849C 0063
+"Infinite Block Hologram
+D01B8472 FFFF
+801B84A0 0063
+"=Level 28 
+"Infinite Bounce Ammo
+D01BBC6E FFFF
+801BBC70 0063
+"Infinite Shatter Ammo
+D01BBC6E FFFF
+801BBC74 0063
+"Infinite Homing Missle
+D01BBC6E FFFF
+801BBC78 0063
+"Infinite Guided Missle
+D01BBC6E FFFF
+801BBC7C 0063
+"Infinite Laser
+D01BBC6E FFFF
+801BBC80 0063
+"Infinite Minigun
+D01BBC6E FFFF
+801BBC84 0063
+"Infinite Mines
+D01BBC6E FFFF
+801BBC88 0063
+"Infinite Sentry Gun
+D01BBC6E FFFF
+801BBC8C 0063
+"Infinite Shield
+D01BBC6E FFFF
+801BBC90 0063
+"Infinite Warp
+D01BBC6E FFFF
+801BBC94 0063
+"Infinite Auto Turrent
+D01BBC6E FFFF
+801BBC98 0063
+"Infinite Block Hologram
+D01BBC6E FFFF
+801BBC9C 0063
+"=Level 29 
+"Infinite Bounce Ammo
+D01B9402 FFFF
+801B9404 0063
+"Infinite Shatter Ammo
+D01B9402 FFFF
+801B9408 0063
+"Infinite Homing Missle
+D01B9402 FFFF
+801B940C 0063
+"Infinite Guided Missle
+D01B9402 FFFF
+801B9410 0063
+"Infinite Laser
+D01B9402 FFFF
+801B9414 0063
+"Infinite Minigun
+D01B9402 FFFF
+801B9418 0063
+"Infinite Mines
+D01B9402 FFFF
+801B941C 0063
+"Infinite Sentry Gun
+D01B9402 FFFF
+801B9420 0063
+"Infinite Shield
+D01B9402 FFFF
+801B9424 0063
+"Infinite Warp
+D01B9402 FFFF
+801B9428 0063
+"Infinite Auto Turrent
+D01B9402 FFFF
+801B942C 0063
+"Infinite Block Hologram
+D01B9402 FFFF
+801B9430 0063
+"=Level 30 
+"Infinite Bounce Ammo
+D01B863E FFFF
+801B8640 0063
+"Infinite Shatter Ammo
+D01B863E FFFF
+801B8644 0063
+"Infinite Homing Missle
+D01B863E FFFF
+801B8648 0063
+"Infinite Guided Missle
+D01B863E FFFF
+801B864C 0063
+"Infinite Laser
+D01B863E FFFF
+801B8650 0063
+"Infinite Minigun
+D01B863E FFFF
+801B8654 0063
+"Infinite Mines
+D01B863E FFFF
+801B8658 0063
+"Infinite Sentry Gun
+D01B863E FFFF
+801B865C 0063
+"Infinite Shield
+D01B863E FFFF
+801B8660 0063
+"Infinite Warp
+D01B863E FFFF
+801B8664 0063
+"Infinite Auto Turrent
+D01B863E FFFF
+801B8668 0063
+"Infinite Block Hologram
+D01B863E FFFF
+801B866C 0063
+"=Level 31 
+"Infinite Bounce Ammo
+D01B6F9E FFFF
+801B6FA0 0063
+"Infinite Shatter Ammo
+D01B6F9E FFFF
+801B6FA4 0063
+"Infinite Homing Missle
+D01B6F9E FFFF
+801B6FA8 0063
+"Infinite Guided Missle
+D01B6F9E FFFF
+801B6FAC 0063
+"Infinite Laser
+D01B6F9E FFFF
+801B6FB0 0063
+"Infinite Minigun
+D01B6F9E FFFF
+801B6FB4 0063
+"Infinite Mines
+D01B6F9E FFFF
+801B6FB8 0063
+"Infinite Sentry Gun
+D01B6F9E FFFF
+801B6FBC 0063
+"Infinite Shield
+D01B6F9E FFFF
+801B6FBC 0063
+"Infinite Warp
+D01B6F9E FFFF
+801B6FC0 0063
+"Infinite Auto Turrent
+D01B6F9E FFFF
+801B6FC4 0063
+"Infinite Block Hologram
+D01B6F9E FFFF
+801B6FC8 0063
+"=Level 32 
+"Infinite Bounce Ammo
+D01B48CA FFFF
+801B48CC 0063
+"Infinite Shatter Ammo
+D01B48CA FFFF
+801B48D0 0063
+"Infinite Homing Missle
+D01B48CA FFFF
+801B48D4 0063
+"Infinite Guided Missle
+D01B48CA FFFF
+801B48D8 0063
+"Infinite Laser
+D01B48CA FFFF
+801B48DC 0063
+"Infinite Minigun
+D01B48CA FFFF
+801B48E0 0063
+"Infinite Mines
+D01B48CA FFFF
+801B48E4 0063
+"Infinite Sentry Gun
+D01B48CA FFFF
+801B48E8 0063
+"Infinite Shield
+D01B48CA FFFF
+801B48EC 0063
+"Infinite Warp
+D01B48CA FFFF
+801B48F0 0063
+"Infinite Auto Turrent
+D01B48CA FFFF
+801B48F4 0063
+"Infinite Block Hologram
+D01B48CA FFFF
+801B48F8 0063
+"=Level 33 
+"Infinite Bounce Ammo
+D01B4D5E FFFF
+801B4D60 0063
+"Infinite Shatter Ammo
+D01B4D5E FFFF
+801B4D64 0063
+"Infinite Homing Missle
+D01B4D5E FFFF
+801B4D68 0063
+"Infinite Guided Missle
+D01B4D5E FFFF
+801B4D6C 0063
+"Infinite Laser
+D01B4D5E FFFF
+801B4D70 0063
+"Infinite Minigun
+D01B4D5E FFFF
+801B4D74 0063
+"Infinite Mines
+D01B4D5E FFFF
+801B4D78 0063
+"Infinite Sentry Gun
+D01B4D5E FFFF
+801B4D7C 0063
+"Infinite Shield
+D01B4D5E FFFF
+801B4D80 0063
+"Infinite Warp
+D01B4D5E FFFF
+801B4D84 0063
+"Infinite Auto Turrent
+D01B4D5E FFFF
+801B4D88 0063
+"Infinite Block Hologram
+D01B4D5E FFFF
+801B4D8C 0063
+"=Level 34 
+"Infinite Bounce Ammo
+D01B5EDA FFFF
+801B5EDC 0063
+"Infinite Shatter Ammo
+D01B5EDA FFFF
+801B5EE0 0063
+"Infinite Homing Missle
+D01B5EDA FFFF
+801B5EE4 0063
+"Infinite Guided Missle
+D01B5EDA FFFF
+801B5EE8 0063
+"Infinite Laser
+D01B5EDA FFFF
+801B5EEC 0063
+"Infinite Minigun
+D01B5EDA FFFF
+801B5EF0 0063
+"Infinite Mines
+D01B5EDA FFFF
+801B5EF4 0063
+"Infinite Sentry Gun
+D01B5EDA FFFF
+801B5EF8 0063
+"Infinite Shield
+D01B5EDA FFFF
+801B5EFC 0063
+"Infinite Warp
+D01B5EDA FFFF
+801B5F00 0063
+"Infinite Auto Turrent
+D01B5EDA FFFF
+801B5F04 0063
+"Infinite Block Hologram
+D01B5EDA FFFF
+801B5F08 0063
+"=Level 35 
+"Infinite Bounce Ammo
+D01BA2AA FFFF
+801BA2AC 0063
+"Infinite Shatter Ammo
+D01BA2AA FFFF
+801BA2B0 0063
+"Infinite Homing Missle
+D01BA2AA FFFF
+801BA2B4 0063
+"Infinite Guided Missle
+D01BA2AA FFFF
+801BA2B8 0063
+"Infinite Laser
+D01BA2AA FFFF
+801BA2BC 0063
+"Infinite Minigun
+D01BA2AA FFFF
+801BA2C0 0063
+"Infinite Mines
+D01BA2AA FFFF
+801BA2C4 0063
+"Infinite Sentry Gun
+D01BA2AA FFFF
+801BA2C8 0063
+"Infinite Shield
+D01BA2AA FFFF
+801BA2CC 0063
+"Infinite Warp
+D01BA2AA FFFF
+801BA2D0 0063
+"Infinite Auto Turrent
+D01BA2AA FFFF
+801BA2D4 0063
+"Infinite Block Hologram
+D01BA2AA FFFF
+801BA2D8 0063
+"=Level 36 
+"Infinite Bounce Ammo
+D01B8C82 FFFF
+801B8C84 0063
+"Infinite Shatter Ammo
+D01B8C82 FFFF
+801B8C88 0063
+"Infinite Homing Missle
+D01B8C82 FFFF
+801B8C8C 0063
+"Infinite Guided Missle
+D01B8C82 FFFF
+801B8C90 0063
+"Infinite Laser
+D01B8C82 FFFF
+801B8C94 0063
+"Infinite Minigun
+D01B8C82 FFFF
+801B8C98 0063
+"Infinite Mines
+D01B8C82 FFFF
+801B8C9C 0063
+"Infinite Sentry Gun
+D01B8C82 FFFF
+801B8CA0 0063
+"Infinite Shield
+D01B8C82 FFFF
+801B8CA4 0063
+"Infinite Warp
+D01B8C82 FFFF
+801B8CA8 0063
+"Infinite Auto Turrent
+D01B8C82 FFFF
+801B8CAC 0063
+"Infinite Block Hologram
+D01B8C82 FFFF
+801B8CB0 0063
+"=Level 37 
+"Infinite Bounce Ammo
+D01AFB52 FFFF
+801AFB54 0063
+"Infinite Shatter Ammo
+D01AFB52 FFFF
+801AFB58 0063
+"Infinite Homing Missle
+D01AFB52 FFFF
+801AFB5C 0063
+"Infinite Guided Missle
+D01AFB52 FFFF
+801AFB60 0063
+"Infinite Laser
+D01AFB52 FFFF
+801AFB64 0063
+"Infinite Minigun
+D01AFB52 FFFF
+801AFB68 0063
+"Infinite Mines
+D01AFB52 FFFF
+801AFB6C 0063
+"Infinite Sentry Gun
+D01AFB52 FFFF
+801AFB70 0063
+"Infinite Shield
+D01AFB52 FFFF
+801AFB74 0063
+"Infinite Warp
+D01AFB52 FFFF
+801AFB78 0063
+"Infinite Auto Turrent
+D01AFB52 FFFF
+801AFB7C 0063
+"Infinite Block Hologram
+D01AFB52 FFFF
+801AFB80 0063
+"=Level 38 
+"Infinite Bounce Ammo
+D01B973A FFFF
+801B973C 0063
+"Infinite Shatter Ammo
+D01B973A FFFF
+801B9740 0063
+"Infinite Homing Missle
+D01B973A FFFF
+801B9744 0063
+"Infinite Guided Missle
+D01B973A FFFF
+801B9748 0063
+"Infinite Laser
+D01B973A FFFF
+801B974C 0063
+"Infinite Minigun
+D01B973A FFFF
+801B9750 0063
+"Infinite Mines
+D01B973A FFFF
+801B9754 0063
+"Infinite Sentry Gun
+D01B973A FFFF
+801B9758 0063
+"Infinite Shield
+D01B973A FFFF
+801B975C 0063
+"Infinite Warp
+D01B973A FFFF
+801B9760 0063
+"Infinite Auto Turrent
+D01B973A FFFF
+801B9764 0063
+"Infinite Block Hologram
+D01B973A FFFF
+801B9768 0063
+"=Level 39 
+"Infinite Bounce Ammo
+D01B918E FFFF
+801B9190 0063
+"Infinite Shatter Ammo
+D01B918E FFFF
+801B9194 0063
+"Infinite Homing Missle
+D01B918E FFFF
+801B9198 0063
+"Infinite Guided Missle
+D01B918E FFFF
+801B919C 0063
+"Infinite Laser
+D01B918E FFFF
+801B91A0 0063
+"Infinite Minigun
+D01B918E FFFF
+801B91A4 0063
+"Infinite Mines
+D01B918E FFFF
+801B91A8 0063
+"Infinite Sentry Gun
+D01B918E FFFF
+801B91AC 0063
+"Infinite Shield
+D01B918E FFFF
+801B91B0 0063
+"Infinite Warp
+D01B918E FFFF
+801B91B4 0063
+"Infinite Auto Turrent
+D01B918E FFFF
+801B91B8 0063
+"Infinite Block Hologram
+D01B918E FFFF
+801B91BC 0063
+"=Level 40 
+"Infinite Bounce Ammo
+D01B572A FFFF
+801B572C 0063
+"Infinite Shatter Ammo
+D01B572A FFFF
+801B5730 0063
+"Infinite Homing Missle
+D01B572A FFFF
+801B5734 0063
+"Infinite Guided Missle
+D01B572A FFFF
+801B5738 0063
+"Infinite Laser
+D01B572A FFFF
+801B573C 0063
+"Infinite Minigun
+D01B572A FFFF
+801B5740 0063
+"Infinite Mines
+D01B572A FFFF
+801B5744 0063
+"Infinite Sentry Gun
+D01B572A FFFF
+801B5748 0063
+"Infinite Shield
+D01B572A FFFF
+801B574C 0063
+"Infinite Warp
+D01B572A FFFF
+801B5750 0063
+"Infinite Auto Turrent
+D01B572A FFFF
+801B5754 0063
+"Infinite Block Hologram
+D01B572A FFFF
+801B5758 0063
+"=Level 41 
+"Infinite Bounce Ammo
+D01B9A22 FFFF
+801B9A24 0063
+"Infinite Shatter Ammo
+D01B9A22 FFFF
+801B9A28 0063
+"Infinite Homing Missle
+D01B9A22 FFFF
+801B9A2C 0063
+"Infinite Guided Missle
+D01B9A22 FFFF
+801B9A30 0063
+"Infinite Laser
+D01B9A22 FFFF
+801B9A34 0063
+"Infinite Minigun
+D01B9A22 FFFF
+801B9A38 0063
+"Infinite Mines
+D01B9A22 FFFF
+801B9A3C 0063
+"Infinite Sentry Gun
+D01B9A22 FFFF
+801B9A40 0063
+"Infinite Shield
+D01B9A22 FFFF
+801B9A44 0063
+"Infinite Warp
+D01B9A22 FFFF
+801B9A48 0063
+"Infinite Auto Turrent
+D01B9A22 FFFF
+801B9A4C 0063
+"Infinite Block Hologram
+D01B9A22 FFFF
+"=Other 
+"=Misc. 
+"Infinite Time
+801CFEBC 00CB
+"Infinite Energy
+801C9850 00B4
+801C9848 00B4
+801C984C 00B4
+801C9854 00B4
+"Orbs Collected Modifier (add 8-bit value)
+801C9880 00??
+
+#Asteroids#SLUS00773
+"Infinite Lives P1
+8011013C 0009
+"Infinite Lives P2
+80110140 0063
+"P1 Ship Modifier (add 8-bit value)
+800DF7C4 00??
+"P2 Ship Modifier (add 8-bit value)
+800DF7C8 00??
+"Enable Classic Asteroids
+80110428 0001
+"Stage Select+Invincibility [Note 1]
+801104B4 0001
+"=Classic Asteroids 
+"P1 Infinite Lives
+80111848 0003
+"P2 Infinite Lives
+8011184C 0003
+"Invincibility P1
+80110968 0000
+8011096A 0000
+"Infinite WildCard Ammo
+80110194 0030
+
+#Atari Anniversary Edition#SLUS01427
+"=Asteroids 
+"Max Score
+8016FD8A 9999
+"Infinite Lives
+8016FD8E 0900
+"=Asteroids Deluxe 
+"Quick Score Gain
+8016DB72 9999
+"Max Score
+8016DB72 9999
+8016DB74 9999
+"Infinite Lives
+8016DB7E 0900
+"=Battlezone 
+"Max Score
+801AFB90 9999
+"Infinite Lives
+801AFBA4 0009
+"=Black Widow 
+"Max Score
+80178E16 9999
+"Infinite Lives
+80178DE0 0009
+"=Centipede 
+"Quick Score Gain
+801BD5A8 9999
+"Max Score
+801BD5A8 9999
+801BD5AA 9999
+801BD5AC 9999
+"Infinite Lives
+801BD5A4 0103
+"=Gravitar 
+"Quick Score Gain
+8014074C 9999
+"Max Score
+8014074C 9999
+8014074E 9999
+"Infinite Lives
+8014062A 0909
+"=Missile Command 
+"Quick Score Gain
+801B63D0 9999
+"Max Score
+801B63CE 9999
+801B63D0 9999
+801B63D2 9999
+"=Pong 
+"No Points Left Side
+8017A250 0000
+"Max Points Left Side
+8017A250 0099
+"No Points Right Side
+8017A254 0000
+"Max Points Right Side
+8017A254 0099
+"=Space Duel 
+"Quick Score Gain
+8016D0AA 9999
+"Max Score
+8016D0AA 9999
+8016D0AC 9999
+"Infinite Lives
+8016D0B6 0900
+"=Super Breakout 
+"Max Score
+801A0634 9999
+"Always On 1st Ball
+801A0614 0001
+"=Tempest 
+"Quick Score Gain
+8018C1A8 9999
+"Max Score
+8018C1A8 9999
+8018C1AA 9999
+"Infinite Lives
+8018C1B0 0006
+"=Warlords 
+"Quick Score Gain
+801DA238 9999
+"Max Score
+801DA238 9999
+801DA23A 9999
+
+#ATV - Quad Power Racing#SLUS01137
+"Unlock Everything
+50000601 0000
+3004E255 0004
+"Time Always 0:00:00
+8005E676 2400
+"Unlock Forest Amateur Quads, Trophy & Tracks
+3004E255 0004
+"Unlock Desert Amateur Quads, Trophy & Tracks
+3004E256 0004
+"Unlock Snow Amateur Quads, Trophy & Tracks
+3004E257 0004
+"Unlock Forest Pro Quads, Trophy & Tracks
+3004E258 0004
+"Unlock Desert Pro Quads, Trophy & Tracks
+3004E259 0004
+"Unlock Snow Pro Quads, Trophy & Tracks
+3004E25A 0004
+"Lap Modifier (add 8-bit value)
+301FD2F8 00??
+
+#ATV Mania#SLUS01545
+"Time Always 0:00
+8007704C 0000
+"Lap Modifier (00-09) (add 8-bit value)
+800C7BFC 00??
+800C7BFE 00??
+"Start On Lap Modifier (01-09) (add 8-bit value)
+D00C7BFC 0000
+800C7BFC 00??
+D00C7BFE 0000
+800C7BFE 00??
+"Infinite Health
+800C7AF4 0ED7
+"Infinite Grenades
+800C7B0C 03E7
+"Infinite Mini Gun
+800C7B10 03E7
+"Infinite Missiles
+800C7B14 03E7
+"Infinite Bombs
+800C7B18 03E7
+"Infinite Mines
+800C7B1C 03E7
+
+#Austin Power's Pinball#SLUS01456
+"Quick Score Gain
+801F444A FFFF
+"Max Score
+801F444A E0FF
+801F444C 05F5
+"Infinite Balls
+801F4370 0000
+
+#Auto Destruct#SLUS00522
+"Command (add 16-bit value)
+D01A6D60 ????
+"Infinite Money
+800A7C6C FFFF
+"Infinite Fuel
+800A7E10 0064
+"Infinite Damage
+800A86A0 0800
+"Infinite Lives
+800A84A0 0004
+"Infinite Nitro
+800A5EF8 0003
+"=Have Weapon & Infinite Ammo 
+"Infinite Machine Gun Ammo
+800A5EC8 0064
+"Infinite Heavy Swarmers
+800A5EC2 0064
+"Infinite Swarmers
+800A5EC0 0064
+"Infinite Mines
+800A5EAC 0064
+"Infinite Heavy Mines
+800A5EAE 0064
+"Infinite Oil
+800A5EB0 0064
+"Infinite Oil Slick
+800A5EB2 0064
+"Infinite Rockets
+800A5EB6 0064
+"Infinite Medium Rockets
+800A5EB8 0064
+"Infinite Heavy Rockets
+800A5EBA 0064
+"Infinite Homers
+800A5EBC 0064
+"Infinite Heavy Homers
+800A5EBE 0064
+"Infinite Laser
+800A5ED8 0064
+"Infinite Double Laser
+800A5EDA 0064
+"Infinite Laser Beam
+800A5EDC 0064
+"Infinite Double Laser Beam
+800A5EDE 0064
+"Infinite Plasma
+800A5EE0 0064
+"Infinite Bouncer Ammo
+800A5ED0 0064
+"Infinite Cannon Ammo
+800A5ECC 0064
+"Infinite Heavy Cannon Ammo
+800A5ECE 0064
+"Infinite Smoke
+800A5EB4 0064
+"Infinite Grenades
+800A5ED2 0064
+"Infinite Bomb
+800A5ED4 0064
+"Infinite Heavy Bomb
+800A5ED6 0064
+"Infinite Nuclear Bomb
+800A5EE2 0064
+"Infinite Time Bomb
+800A5EE4 0064
+"Have Best Engine
+800A5EF4 0002
+"Have Best Tires
+800A5EF6 0002
+"Enable Cheat Menu (Must Be On)
+800A905C 0001
+"Enable Debug Menu
+800A9070 0001
+"Enable Car Tune-up Menu
+800A9082 0001
+"Enable Car Select (Car Tune-up Must Be On)
+800A9068 0001
+"Enable Choose Mission
+800A9072 0001
+"Enable Next Mission
+800A9074 0001
+"Enable Extra Nitros
+800A9076 0001
+"Enable Extra Money
+800A9078 0001
+"Enable Add 1 Minute To Time
+800A907A 0001
+"Enable Invulnerability
+800A907C 0001
+"Enable Infinite Fuel
+800A907E 0001
+"Enable Blood Mode
+800A905E 0001
+"Enable All Time Trials
+800A9080 0001
+"Enable New York Time Trial
+800A906A 0001
+"Enable Tokyo Time Trial
+800A906C 0001
+"Enable Subway Time Trial
+800A906E 0001
+"All Cheats
+50001702 0000
+800A905C 0001
+"All Weapons
+50001D02 0000
+800A5EAC 0064
+"Vehicle Modifier [Note 1]
+D00A6D60 0101
+80091E56 00??
+
+#Azure Dreams#SLUS00614
+"=Modifier (add 8-bit value)
+"=Items Equipped Position Modifier (add 8-bit value)
+"1st Position (add 16-bit value)
+80010248 ????
+8001029C 0248
+8001029E 8001
+"2nd Position (add 16-bit value)
+8001024C ????
+800102A0 024C
+800102A2 8001
+"20th Position (add 16-bit value)
+80010294 ????
+800102E8 0294
+800102EA 8001
+"=Monster Hut Position Modifier (add 8-bit value)
+"1st Position (add 16-bit value)
+80010980 ????
+"2nd Position (add 16-bit value)
+80010984????
+"65th Position (add 16-bit value)
+80010A80 ????
+"=Safe Position Modifier (add 8-bit value)
+"1st Position (add 16-bit value)
+80011F80 ????
+"2nd Position (add 16-bit value)
+80011F84 ????
+"60th Position (add 16-bit value)
+8001206C ????
+"=Other 
+"=In-Battle 
+"Invincible
+800834EA 031D
+"Max & Infinite Health
+800834E0 FFFF
+"Quick Level Up
+800834D2 00FF
+"Level 99
+800834D0 FFFF
+"Max Attack Power
+8008353C 647C
+"Max Defense Power
+8008353E 1064
+"=Misc. 
+"Infinite Money
+80012D5C FFFF
+80012D5E 05FF
+"Time Always 0:00:00
+8001021C 0000
+.end

@@ -1,0 +1,73 @@
+Quantity Digits to Accompany Enable Building Option Modifier Codes
+
+Building Modifier Digits
+00 - Nothing
+01 - Blank
+02 - Sandbag Wall
+03 - Chaing Link Fence
+04 - Concrete Wall
+05 - Tiberium Silo
+06 - Power Plant
+07 - Barracks [GDI Only]
+08 - Hand of Nod [NOD Only]
+09 - Guard Tower [GDI Only]
+0A - Hospital [GDI Only]
+0B - Bio-Research Lab [NOD Only]
+0C - Gun Turret [NOD Only]
+0D - Advanced Power Plant
+0E - Sam Site [NOD Only]
+0F - Communication Center
+10 - Advanced Guard Tower [GDI Only]
+11 - Repair Bay
+12 - Helicopter Pad
+13 - Obelisk Guard Tower [NOD Only]
+14 - Tiberium Refinery
+15 - Weapons Factory [GDI Only]
+16 - Air Strip [NOD Only]
+17 - Advanced Communciaiton Center [GDI Only]
+18 - Temple of Nod [NOD Only]
+
+Infantry Modifier Digits
+19 - Mini Gunner
+1A - Grenadier [GDI Only]
+1B - Flame Thrower [NOD Only]
+1C - Bazooka [GDI Only]
+1D - Chem Warrior [NOD Only]
+1E - Engineer
+1F - Commando
+
+Vehicle Modifier Digits
+20 - Nod Buggy [NOD Only]
+21 - Hum-Vee [GDI Only]
+22 - Artillery [NOD Only]
+23 - Recon Bike [NOD Only]
+24 - Light Tank [NOD Only]
+25 - APC [GDI Only]
+26 - S.S.M. Launcher
+27 - Med Tank [NOD Only]
+28 - Rocket Launcher
+29 - Flame Tank [NOD Only]
+2A - Visceroid
+2B - Stealth Tank [NOD Only]
+2C - Harvester
+2D - Mammoth Tank [GDI Only]
+2E - Mobile Construction Yard
+
+Aircraft Modifier Digits
+2F - Orca [GDI Only]
+30 - Attack Helicopter [NOD Only]
+31 - Transportational Helicopter
+
+Special Weapons Modifier Digits
+32 - Air Strike
+33 - Ion Cannon
+34 - Nuclear Strike
+
+Note 1:
+With this code, it only works on the Special Ops Mission 1 GDI Disc.
+
+Note 2:
+With this code, when the screen to start a new game is up...press Select ...you will see repair and the bottom...DO NOT ALTER ITS VALUE unless you have a Comms Link to reprogram your shark...it will lock up your shark..then just press up from the first menu option and hit X
+
+Note 3:
+With these codes, it is impossible to make Infinite Life for units and buildings because the units work on a random address system, in other words if I find a code for one tank, the next tank I build will have another code. I can however make codes for units and buildings that are already made when the mission starts. Unless you can find a universal code which may or may not exist. But then if you have Infinite Life on your minigunners then the enemy has Infinite Life minigunners also. This is the way it was on the PC.

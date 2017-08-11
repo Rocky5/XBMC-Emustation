@@ -1,0 +1,235 @@
+Quantity Digits to Accompany Item Modifier Codes
+00 - MANGO
+01 - CANDY
+02 - HERB
+03 - TAFFY
+04 - MINT LEAF
+05 - MYSTIC SNAKE
+06 - APPLE CAKE
+07 - VITAMIN A
+08 - VITAMIN B
+09 - PILL
+0A - FLY PILL
+0B - HEART PILL
+0C - VITAMIN C
+0D - VITAMIN D
+0E - MEDICINE A
+0F - MEDICINE B
+10 - GOLDEN PEACH
+11 - PLANT EGG
+12 - CD FRAGMENT #1
+13 - CD FRAGMENT #2
+14 - CD FRAGMENT #3
+15 - CD FRAGMENT #4
+16 - CD FRAGMENT #5
+17 - CD FRAGMENT #6
+18 - CD FRAGMENT #7
+19 - CD FRAGMENT #8
+1A - CD FRAGMENT #9
+1B - CD FRAGMENT #10
+1C - CD FRAGMENT #11
+1D - CD FRAGMENT #12
+1E - CD FRAGMENT #13
+1F - CD FRAGMENT #14
+20 - CD FRAGMENT #15
+21 - CD FRAGMENT #16
+22 - CD FRAGMENT #17
+23 - CD FRAGMENT #18
+24 - CD FRAGMENT #19
+25 - CD FRAGMENT #20
+26 - PURE GOLD
+27 - DIAMOND
+28 - EMERALD
+29 - PURE SILVER
+2A - STING DUST
+2B - CALM STONE
+2C- FIRE STONE
+2D - WIND WHISTLE
+2E - WIND DRUM
+2F - DRAGON TUSK
+30 - OLD MIRROR
+31 - CAT DOLL
+32 - CLAY DOLL
+33 - DOLL HEAD
+34 - DOLL HAND L
+35 - DOLL HAND R
+36 - DOLL LEG L
+37 - DOLL LEG R
+38 - MAGIC BANANA
+39 - GADAMON GOD
+3A - PURAGUMA GOD
+3B - FURELIA GOD
+3C - POTATO
+3D - FISH
+3E - MEAT
+
+Quantity Digits to Accompany Grade Modifier Code-Monster Info Modifier
+00 - E
+01 - D
+02 - C
+03 - B
+04 - A
+05 - S
+
+Quantity Digits to Accompany Month Modifier Code
+01 - JANUARY
+02 - FEBUARY
+03 - MARCH
+04 - APRIL
+05 - MAY
+06 - JUNE
+07 - JULY
+08 - AUGUST
+09 - SEPTEMBER
+0A - OCTOBER
+0B - NOVEMBER
+0C - DECEMBER
+
+Quantity Digits to Accompany Grade Modifier Code-Breed Info Modifier
+00 - BEGINNER
+01 - R-1
+02 - R-2
+03 - R-3
+04 - R-4
+05 - R-5
+06 - R-6
+07 - R-7
+08 - R-8
+09 - R-9
+0A - MASTER BREEDER
+
+Quantity Digits to Accompany Item Info Modifier Codes
+00 - MANGO
+02 - CANDY
+04 - HERB
+06 - TAFFY
+08 - MINT LEAF
+0A - MYSTIC SNAKE
+0C - APPLE CAKE
+0E - VITAMIN A
+10 - VITAMIN B
+12 - PILL
+14 - FLY PILL
+16 - HEART PILL
+18 - VITAMIN C
+1A - VITAMIN D
+1C - MEDICINE A
+1E - MEDICINE B
+20 - GOLDEN PEACH
+22 - PLANT EGG
+24 - CD FRAGMENT #1
+26 - CD FRAGMENT #2
+28 - CD FRAGMENT #3
+2A - CD FRAGMENT #4
+2C - CD FRAGMENT #5
+2E - CD FRAGMENT #6
+30 - CD FRAGMENT #7
+32 - CD FRAGMENT #8
+34 - CD FRAGMENT #9
+36 - CD FRAGMENT #10
+38 - CD FRAGMENT #11
+3A - CD FRAGMENT #12
+3C - CD FRAGMENT #13
+3E - CD FRAGMENT #14
+40 - CD FRAGMENT #15
+42 - CD FRAGMENT #16
+44 - CD FRAGMENT #17
+46 - CD FRAGMENT #18
+48 - CD FRAGMENT #19
+4A - CD FRAGMENT #20
+4C - PURE GOLD
+4E - DIAMOND
+50 - EMERALD
+52 - PURE SILVER
+54 - STING DUST
+56 - CALM STONE
+58 - FIRE STONE
+5A - WIND WHISTLE
+5C - WIND DRUM
+5E - DRAGON TUSK
+60 - OLD MIRROR
+62 - CAT DOLL
+64 - CLAY DOLL
+66 - DOLL HEAD
+68 - DOLL HAND L
+6A - DOLL HAND R
+6C - DOLL LEG L
+6E - DOLL LEG R
+70 - MAGIC BANANA
+72 - GADAMON GOD
+74 - PURAGUMA GOD
+76 - FURELIA GOD
+78 - POTATO
+7A - FISH
+7C - MEAT
+
+Quantity Digits to Accompany Monster Type Modifier Codes
+00 - DINO
+01 - GOLEM
+02 - TIGER
+03 - PIXIE
+04 - WORM
+05 - JELL
+06 - SUEZO
+07 - HARE
+08 - GALI
+09 - MONOL
+0A - NAGA
+0B - PLANT
+0C - DRAGON
+0D - MAGIC
+0E - HENGER
+0F - NYA
+10 - APE
+11 - GHOST
+12 - DOODLE
+13 - DISK
+
+Quantity Digits to Accompany Monster Sub-Type Modifier Codes
+00 - DINO
+01 - GOLEM
+02 - TIGER
+03 - PIXIE
+04 - WORM
+05 - JELL
+06 - SUEZO
+07 - HARE
+08 - GALI
+09 - MONOL
+0A - NAGA
+0B - PLANT
+0C - DRAGON
+0D - MAGIC
+0E - HENGER
+0F - NYA
+10 - APE
+11 - GHOST
+12 - DOODLE
+13 - DISK
+14 - ???
+15 - ???
+16 - ???
+
+Note 1:
+With this code, ?? ranges from 01 to 63 only.
+
+Note 2:
+With this code, it may have to be used with the Item Modifier/Item Info Modifier code as well for that slot. If this doesn't work for your inventory, it will work for the shops inventory. Just buy what you want from it.
+
+Note 3:
+With this code, it may have to be used with the Item Modifier/Item Info Modifier code as well for that slot. If this doesn't work for your inventory, it will work for the shops inventory. Just buy what you want from it.
+
+Note 4:
+With this code, if you are starting a new game, you must train the monster once before applying the code.
+
+Note 5:
+With this code, it will show that your monster is 999 years old but really isn't....once code is applied give your monster a rest and he'll wake up all grown up!
+
+Note 6:
+With this code, Listen closely! Make sure the monster you want to keep normal is frozen before activating code!!! Activate the code with whatever monster you want to make! Then go to the market an buy a Dino when its done freeze it! Then make a second Dino in the market...freeze it turn shark OFF then combine the two dinos to make a full breed of whatever creature you programmed the shark for!!!!
+
+Note 7:
+With this code, it basically is the sub-type monster code which gives you the mix breeds and rare monster.
+
+Note 8:
+With these codes, Max Stats Info, Enable all the codes turn shark off make your monster work and the stats will level out to its max stats.

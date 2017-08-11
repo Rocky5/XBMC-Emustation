@@ -1,0 +1,44 @@
+Quantity Digits to Accompany Bike Modifier Code
+00 - FireCracker 250RR
+01 - DuMoto 500
+02 - Scavenger 450
+03 - Rattler
+04 - MissileBlade 600CVR
+05 - DMG 747
+06 - Predator 750
+07 - Razorback
+08 - Tsunami XZR1000
+09 - DuMoto 999
+0A - Executioner 1000
+0B - HammerHead
+
+Quantity Digits to Accompany Weapon Modifier Code For Big Mode
+000 - Nothing
+001 - Chain
+002 - Club
+004 - Pipe
+008 - 2x4
+010 - Nunchaku
+020 - Crowbar
+040 - Cattle Prod
+080 - Stun Gun
+100 - Mace
+1FF - All Weapons
+
+Quantity Digits to Accompany Weapon Modifier Code For All Modes
+00 - Chain
+01 - Club
+02 - Pipe
+03 - 2x4
+04 - Nunchaku
+05 - Crowbar
+06 - Cattle Prod
+07 - Stun Gun
+08 - Mace
+09 - Fist
+
+Note 1:
+With this code, in order for the weapon to be used...simply load the weapon code in Big Game Mode...save to memory card turn code off then reload the saved data!
+
+Note 2:
+With this code, to use it, you must start the game with the Cheat Device off then start a race, turn on the Cheat Device then quit the race and start again. WARNING!!--this code is quite glitchy and does lock up sometimes.

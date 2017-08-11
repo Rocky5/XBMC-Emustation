@@ -1,0 +1,604 @@
+misc codes (notes)
+
+Note 1:
+WIth this code, Press X at the title screen to enter debug room/mode.
+
+Note 2:
+With this code, the game always thinks you are in debug mode. Hit start to enter debug menu.
+
+Quantity Digits
+Equipped Item Digits
+
+Quantity Digits to Accompany Equipped Item Modifier Codes
+000 - Nothing
+001 - Apple Gel
+002 - Orange Gel
+003 - Melange Gel
+004 - Lemon Gel
+005 - Pine Gel
+006 - Miracle Gel
+007 - Elixir
+008 - Savory
+009 - Sage
+00A - Lavender
+00B - Bellebane
+00C - Red Savory
+00D - Red Sage
+00E - Red Lavender
+00F - Red Bellebane
+010 - Panecea Bottle
+011 - Life Bottle
+012 - Flare Bottle
+013 - Syrup Bottle
+014 - Charm Bottle
+015 - Micracle Charm
+016 - Holy Bottle
+017 - Dark Bottle
+018 - Rune Bottle
+019 - Spectacles
+01A - Hourglass
+01B - Monster Collection
+01C - Collector's Book
+01D - Inferia Map
+01E - Talisman
+01F - Blue Talisman
+020 - Stun Charm
+021 - WakeUp Charm
+022 - Poison Charm
+023 - Rabbit's Foot
+024 - Warrior Symbol
+025 - Holy Symbol
+026 - Mystic Symbol
+027 - Demon's Seal
+028 - Emerald Ring
+029 - Faerie Ring
+02A - Mental Riing
+02B - Protect Ring
+02C - Force Ring
+02D - Resist Ring
+02E - Reflect Ring
+02F - Black Onyx
+030 - Magic Mist
+031 - Moon Crystal
+032 - Elven Boots
+033 - Jet Boots
+034 - Persha Boots
+035 - Watercloud
+036 - Cape
+037 - Leather Cape
+038 - Thief's Cape
+039 - Elven Cape
+03A - Flare Cape
+03B - Aqua Cape
+03C - Thunder Cape
+03D - Reverse Doll
+03E - Sephira
+03F - Long Sword
+040 - Saber
+041 - Rapier
+042 - Knight Saber
+043 - Bastard Sword
+044 - Shamsel
+045 - Nimble Rapier
+046 - Dao Blade
+047 - Flamberge
+048 - Saw Saber
+049 - Earth Blade
+04A - Destroyer
+04B - Ice Coffin
+04C - Ogre Sword
+04D - Voltic Sword
+04E - Flame Sword
+04F - Excalibur
+050 - Vorpal Sword
+051 - Ninja Sword
+052 - Eternal Sword
+053 - Short Spear
+054 - Long Spear
+055 - Ranseur
+056 - Short Lance
+057 - Partisan
+058 - Arc Wind
+059 - Trident
+05A - Ogre Lance
+05B - Demon Javelin
+05C - Dragger Lance
+05D - Flame Spear
+05E - Gungnir
+05F - Pole Axe
+060 - Heavy Grave
+061 - Halberd
+062 - War Hammer
+063 - Merenol
+064 - Saint Halberd
+065 - Deck Brush
+066 - Francesca
+067 - Battle Axe
+068 - Crescent Axe
+069 - Bardis
+06A - Battle Pick
+06B - Strike Axe
+06C - Gaia Cleaver
+06D - Hand Axe
+06E - Short Sword
+06F - Hydra Dagger
+070 - Assault Dagger
+071 - Gladius
+072 - Gnome Pick
+073 - Katar
+074 - Crystal Dagger
+075 - Steel Sword
+076 - Great Sword
+077 - Soul Eater
+078 - Dragon Vein
+079 - Hero Cane
+07A - Mystic Sword
+07B - Lid Shield
+07C - Wodden Shield
+07D - Buckler
+07E - Apple Shield
+07F - Storm Shield
+080 - Round Shield
+081 - Square Shield
+082 - Kite Shield
+083 - Omega Shield
+084 - Fine Shield
+085 - Red Shield
+086 - Order Shield
+087 - Rare Shield
+088 - Star Shield
+089 - Chaos Shield
+08A - Beam Shield
+08B - Blue Shield
+08C - Leather Arms
+08D - Power Arms
+08E - Chain Arms
+08F - Poison Thorn
+090 - Iron Arms
+091 - Needle Glove
+092 - Venom
+093 - Silver Knuckles
+094 - Bone Knuckles
+095 - Bear Claw
+096 - Ghost Shell
+097 - Crystal Shell
+098 - Dragon Fang
+099 - Mythril Arms
+09A - Flare Arms
+09B - Diamond Fist
+09C - Kaiser Fist
+09D - Omni Weapon
+09E - Rod
+09F - Mace
+0A0 - Gem Rod
+0A1 - Ruby Wand
+0A2 - Skull Staff
+0A3 - HolY Staff
+0A4 - Star Mace
+0A5 - Crystal Rod
+0A6 - Shistle
+0A7 - Chirp Whistle
+0A8 - Bird Whistle
+0A9 - Prety Whistle
+0AA - Memory Whistle
+0AB - Trumpet
+0AC - Twinkle Flute
+0AD - Eternia Melody
+0AE - Assault Shot
+0AF - Plasma Cannon
+0B0 - Grand Magnum
+0B1 - Impulse Cannon
+0B2 - Photon Ray
+0B3 - Mega Launcher
+0B4 - Chat Bag
+0B5 - Tote Bag
+0B6 - Big Bag
+0B7 - Luck Bag
+0B8 - Wonder Bag
+0B9 - Soft Leather
+0BA - Hard Leather
+0BB - Protector
+0BC - Chain Mail
+0BD - Ring Mail
+0BE - Splint Mail
+0BF - Plate Maile
+0C0 - Battlesuit
+0C1 - Silver Plate
+0C2 - Mythril Plate
+0C3 - Reflect
+0C4 - Rare Plate
+0C5 - Mumbane
+0C6 - Golden Armor
+0C7 - Cloak
+0C8 - White Cloak
+0C9 - Silk Cloak
+0CA - Wilver Cloak
+0CB - Amber Cloak
+0CC - Holy Cloak
+0CD - Mythril Mesh
+0CE - Star Cloak
+0CF - Robe
+0D0 - Misty Robe
+0D1 - Feather Robe
+0D2 - Crystal Robe
+0D3 - Bloody Robe
+0D4 - Scale Robe
+0D5 - Moon Robe
+0D6 - Spirit Robe
+0D7 - Leather Helm
+0D8 - Iron Helm
+0D9 - Ahmet Helm
+0DA - Cross Helm
+0DB - Duel Helm
+0DC - Mythril Helm
+0DD - Rare Helm
+0DE - Golden Helm
+0DF - Star Helm
+0E0 - Circlet
+0E1 - Gold Circlet
+0E2 - Mythril Circlet
+0E3 - Holy Circlet
+0E4 - Star Circlet
+0E5 - Aifread's Hat
+0E6 - Pirate's Hat
+0E7 - Captain's Hat
+0E8 - Ribbon
+0E9 - Blue Ribbon
+0EA - Striped Ribbon
+0EB - Tartan Ribbon
+0EC - Pretty Ribbon
+0ED - Magical Ribbon
+0EE - Wristband
+0EF - Iron Wrist
+0F0 - Bracelet
+0F1 - Gold Bracelet
+0F2 - Diamond Armlet
+0F3 - Mythril Bracelet
+0F4 - Star Bracelet
+0F5 - Lapis Bracelet
+0F6 - Angel Bracelet
+0F7 - Bread
+0F8 - Pasta
+0F9 - Rice
+0FA - Panyan
+0FB - Bear Meat
+0FC - Squid
+0FD - Shrimp
+0FE - Cheese
+0FF - Egg
+100 - Milk
+101 - Tusk Meat
+102 - Tuna
+103 - Lettuce
+104 - Cabbage
+105 - Potato
+106 - Cucumber
+107 - Carrot
+108 - Onion
+109 - Tomato
+10A - Beet
+10B - Radish
+10C - Kirima
+10D - Lemon
+10E - Strawberry
+10F - Banana
+110 - Kiwi
+111 - Amango
+112 - Tofu
+113 - Konia
+114 - Red Satay
+115 - White Satay
+116 - Black Satay
+117 - Purple Satay
+118 - Drain Charm
+119 - Freeze Charm
+11A - Step Ring
+11B - Combo Command
+11C - Heal Bracelet
+11D - Mental Bracelet
+11E - Smash Cape
+11F - Pico Revenge
+120 - Canceler
+121 - Technical Ring
+122 - Water Shard
+123 - Fire Shard
+124 - Earth Shard
+125 - Wind Shard
+126 - Snow Shard
+127 - Volt Shard
+128 - Light Shard
+129 - Shadow Shard
+12A - Water Crystal
+12B - Fire Crystal
+12C - Earth Crystal
+12D - Wind Crystal
+12E - Snow Crystal
+12F - Volt Crystal
+130 - Light Crystal
+131 - Shadow Crystal
+132 - Last Fencer
+133 - All-Divide
+134 - Reviverser
+135 - Saint Rapier
+136 - Kitchet Mitten
+137 - Pretty Mitten
+138 - Lovely Mitten
+139 - Cute Mitten
+13A - Goat Horn
+13B - Tuna Gel
+13C - Firewood Bug
+13D - Orz Earring
+13E - Manual
+13F - Sorcerer's Ring
+140 - Freeze Ring
+141 - Celestia Map
+142 - Etapoke1
+143 - Etapoke2
+144 - Etapoke3
+145 - Etapoke4
+146 - Boarding Pass
+147 - Train Cage
+148 - WHIS
+149 - Miacis Badge
+14A - Seyfert Key
+14B - GPS
+14C - Celesea Map
+14D - Insea Map
+14E - Silver Cage
+14F - Galaxy Stone
+150 - Resume Ring
+151 - Bush Baby
+152 - Colain's Pot
+153 - S.D.
+154 - Hyper Gauntlet
+155 - Banrea
+156 - Dried Peels
+157 - Snow Tomato
+158 - Derris Emblem
+159 - Inferi Cape
+15A - Celesti Cape
+15B - Extreme
+15C - Krona Symbol
+15D - Wind Bell
+15E - Losagna's Dress
+15F - Button
+160 - Donies Potpourri
+161 - Golden Choker
+162 - Crib Sheet
+163 - Drama Script
+164 - Face Powder
+165 - Uchiwa
+166 - Cress' Bandana
+167 - Arche Ribbon
+168 - Light Sphere
+169 - Dark Sphere
+
+Name Digits
+
+Quantity Digits to Accompany Name Modifier Codes
+21 - !
+22 - "
+23 - #
+24 - $
+25 - %
+26 - &
+27 - '
+28 - (
+29 - )
+2A - *
+2B - +
+2C - ,
+2D - -
+2E - .
+2F - /
+30 - 0
+31 - 1
+32 - 2
+33 - 3
+34 - 4
+35 - 5
+36 - 6
+37 - 7
+38 - 8
+39 - 9
+3A - :
+3B - ;
+3C -
+3F - ?
+40 - @
+41 - A
+42 - B
+43 - C
+44 - D
+45 - E
+46 - F
+47 - G
+48 - H
+49 - I
+4A - J
+4B - K
+4C - L
+4D - M
+4E - N
+4F - O
+50 - P
+51 - Q
+52 - R
+53 - S
+54 - T
+55 - U
+56 - V
+57 - W
+58 - X
+59 - Y
+5A - Z
+5B - [
+5C - \
+5D - ]
+5E - ^
+5F - _
+60 - `
+61 - a
+62 - b
+63 - c
+64 - d
+65 - e
+66 - f
+67 - g
+68 - h
+69 - i
+6A - j
+6B - k
+6C - l
+6D - m
+6E - n
+6F - o
+70 - p
+71 - q
+72 - r
+73 - s
+74 - t
+75 - u
+76 - v
+77 - w
+78 - x
+79 - y
+7A - z
+7B - {
+7C - |
+7D - }
+7E - ~
+7F - "
+
+Skill Digits
+
+Quantity Digits to Accompany Skill Modifier Codes
+00 - Nothing
+01 - Sonic Blade
+02 - Lightning Blade
+03 - Swarm
+04 - Demon Hammer
+05 - Spiral Attack
+06 - Tempest Strike
+07 - Twin Sonic Blade
+08 - Super Lightning Blade
+09 - Neo Swarm
+0A - Demon Twist
+0B - Double Spiral Attack
+0C - Omega Tempest Strike
+0D - Demon Lightning Hammer
+0E - Neosonic Swarm
+0F - Megasonic Thrust
+10 - Sonic Chaos
+11 - Neo Tempest Swar
+12- Demon Spiral Hammer
+13 - Omega Demon Chaos
+14 - Rising Phoenix
+15 - Omega Seal
+16 - Aurora Wall
+17 - Aurora Sword
+18 - Aurora Wave
+19 - palm Strike
+1A - Triple Blossom
+1B - Sonic Fist
+1C - Swallo Dance
+1D - Eagle Dive
+1E - Rising Dragon Strike
+1F - Twin Palm Strike
+20 - Death Blossom
+21 - Super Sonic Fist
+22 - Super Swallow Dance
+23 - Eagle Rage
+24 - Mirage
+25 - Chi
+26 - Fatal Fury
+27 - Healder
+28 - Detoxify
+29 - Life
+2A - Deadly Force
+2B - Undine
+2C - Sylph
+2D - Efreet
+2E - Gnome
+2F - Celsius
+30 - Volt
+31 - Rem
+32 - Shadow
+33 - Maxwell
+34 - Sekundes
+35 - Destiny
+36 - Heal
+37 - Nurse
+38 - Cure
+39 - Restore
+3A - Resurrection
+3B - Recover
+3C - Charge
+3D - Deep Mist
+3E - Acid Rain
+3F - Sharpness
+40 - Resist
+41 - Concentrate
+42 - Barrier
+43 - Holy Bliss
+44 - Stagnation
+45 - Delay
+46 - Aqua Edge
+47 - Spread
+48 - Wind Blade
+49 - Air Thrust
+4A - Cyclone
+4B - Fireball
+4C - Eruption
+4D - Flame Wall
+4E - Explode
+4F - Grave
+50 - Stalagmite
+51 - Ground Dasher
+52 - Ice Needles
+53 - Freeze Lancer
+54 - Blizzard
+55 - Absolute
+56 - Lightning
+57 - Thunder Blade
+58 - Indignation
+59 - Ray
+5A - Holy Lance
+5B - Dark Force
+5C - Bloody Howl
+5D - Meteor Swar
+5E - Shooting Star
+5F - Distortion
+60 - Burning Force
+61 - Air Blade
+62 - Aqua Spiral
+63 - Rage Laser
+64 - Dark Laser
+65 - Elemental Master
+66 - Super Lightning Blade
+67 - Neo Swarm
+68 - Dragon Swarm
+69 - Dragon Flash
+6A - Pow Hammer
+6B - Toss Hammer
+6C - Ice Hammer
+6D - Rover Tool
+6E - Para Ball
+6F - Eternal Hammer
+70 - Spark Wave
+71 - Prism Sword
+72 - +Mental Charge
+73 - +Medical Plus
+74 - +Life Up
+75 - +Mental Up
+76 - +Item Plush
+77 - +Life Rescue
+78 - +Mental Supply
+79 - +Poison Guard
+7A - +Stun Guard
+7B - +Freeze Guard
+7C - +Drain Guard
+7D - +Health
+7E - Consume TP
+7F - Focus Attack
+80 - Quick Attack

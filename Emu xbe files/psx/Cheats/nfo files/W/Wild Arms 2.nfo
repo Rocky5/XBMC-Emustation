@@ -1,0 +1,1008 @@
+misc codes note
+
+Note 1:
+With this code, as long as your ARM is not at level 10 when you turn this code on, you will always be able to perform an upgrade on it.
+
+Quantity Digits
+Anastasia Argetlahm Digits
+
+Quantity Digits to Accompany Anastasia Argetlahm Modifier Codes
+00 - Refresh
+01 - Providence
+02 - Air Guard
+03 - Salvation
+04 - Hot Fencer (?Not Sure If A Argetlahm)
+05 - Banisher (?Not Sure If A Argetlahm)
+06 - Hot Fencer (?Not Sure If A Argetlahm)
+07 - Gun Blaze (?Not Sure If A Argetlahm)
+08 - Banisher (?Not Sure If A Argetlahm)
+09 - Last Burst (?Not Sure If A Argetlahm)
+FF - Nothing
+
+Ashley Winchester ARMS Digits
+
+Quantity Digits to Accompany Ashley Winchester ARMS Modifier Codes
+00 - ShotWeapon
+01 - MultiBlast
+02 - BoltAction
+03 - DeadOrAlive
+04 - ShockSlide
+05 - FantomFang
+06 - Blast 'Em
+07 - RisingNova
+08 - Bazooka
+09 - Pineapple
+0A - AM Cluster
+0B - Lawnmower
+0C - MiniScud
+0D - Sky Eye
+0E - Rail Gun
+0F - EZ Missle
+FF - Nothing
+
+Auto Battle Mode Digits
+
+Quantity Digits to Accompany Auto Battle Mode Modifier Codes
+00 - Manual
+01 - Normal
+02 - Balanced
+
+Brad Evans ARMS Digits
+
+Quantity Digits to Accompany Brad Evans ARMS Modifier Codes
+00 - Bazooka
+01 - Pineapple
+02 - AM Cluster
+03 - Lawnmower
+04 - MiniScud
+05 - Sky Eye
+06 - Rail Gun
+07 - EZ Missle
+FF - Nothing
+
+Crest Sorcery Digits
+
+Quantity Digits to Accompany Crest Sorcery Modifier Codes
+00 - Break
+01 - Flame
+02 - Vortex
+03 - Aqua
+04 - Spark
+05 - Freeze
+06 - Dispel
+07 - Heal
+08 - Revive
+09 - MageWeapon
+0A - Shield
+0B - Protect
+0C - Quick
+0D - Reflect
+0E - Rise&Shine
+0F - Air Screen
+10 - Hi-Break
+11 - Hi-Flame
+12 - Hi-Vortex
+13 - Hi-Aqua
+14 - Hi-Spark
+15 - Hi-Freeze
+16 - Saber
+17 - Hi-Heal
+18 - Hi-Revive
+19 - HypeWeapon
+1A - Armor Down
+1B - Irresist
+1C - Slowdown
+1D - Might Body
+1E - Field
+1F - Restore
+
+Equipped Article Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+000 - Heal Berry
+001 - Big Berry
+002 - Mega Berry
+003 -
+004 - Revive Fruit
+005 - Full Revive
+006 -
+007 - Antidote
+008 - Medicine
+009 - Violet Rose
+00A - Pixie Dust
+00B - Pinwheel
+00C - Toy Hammer
+00D -
+00E - Softener
+00F - Peppy Acorn
+010 - War Respite
+011 -
+012 - Ambrosia
+013 - Lucky Card
+014 - Crest
+015 - Crest E
+016 - Crest S
+017 -
+018 - Crest Cap
+019 - DualCast
+01A - Cover
+01B - Break
+01C - Full Carrot
+01D - Mini Carrot
+01E - Bullet Load
+01F -
+020 -
+021 -
+022 - STR Apple
+023 - VIT Apple
+024 - SOR Apple
+025 - RES Apple
+026 - Mecha Boost
+027 - Tiny Flower
+028 -
+029 - AlbumCoupon
+02A - TeleportGem
+02B - TeleportOrb
+02C -
+02D - Map Scope
+02E - Duplicator
+02F - Gimel Coin
+030 - Stone
+031 - Boomerang
+032 - Chakram
+033 - Bust
+034 - Spoon
+035 - Grenade
+036 - Shuriken
+037 - Viper Fang
+038 - Earth Groan
+039 - Water Drip
+03A - Fire Rage
+03B - Zephyr Claw
+03C - Snowflake
+03D - Thunderclap
+03E - Light Flash
+03F - Pitch Dark
+040 - Moonstone
+041 - Hazel Sprig
+042 - Silver Harp
+043 - Blue Anklet
+044 - Clear Chime
+045 - Memo Pen
+046 -
+047 - gaze Mirror
+048 - Heart Leaf
+049 -
+04A - Full Libra
+04B - Earth Ring
+04C - Water Ring
+04D - Fire Ring
+04E - Wind Ring
+04F - Thor Ring
+050 - Light Ring
+051 - Dark Ring
+052 - Ice Ring
+053 - Talisman
+054 - Life Orb
+055 - Force Unit
+056 -
+057 - Power Boost
+058 - Mystic Word
+059 - Secret Sign
+05A - Holy Tablet
+05B - Necromicon
+05C - Mittens
+05D - Kid Gloves
+05E - Gauntlets
+05F - Reflex
+060 - Missanga
+061 - Amulet
+062 - Teddy Bear
+063 - Coin Purse
+064 - Scapegoat
+065 -
+066 - Holy Grail
+067 - Weathervane
+068 - Elven Boots
+069 - Odd Sandals
+06A - Elven Cloak
+06B -
+06C -
+06D -
+06E -
+06F - SheriffStar
+070 - Longhorn
+071 - Rhino Shot
+072 - Riot Ram
+073 - Greyhound
+074 - Raid Blast
+075 - Dual Shot
+076 - SniperShark
+077 - D Bison
+078 - Sonic Burst
+079 -
+07A - Obelisk Gun
+07B -
+07C -
+07D -
+07E - Shootn Star
+07F -
+080 - Jean Jacket
+081 - Hard Jumper
+082 - Flak Jacket
+083 - Ti Jacket
+084 - Chain Mail
+085 - Full Metal
+086 - Bounty Gard
+087 - Trench Coat
+088 - Cloth Coat
+089 -
+08A - Red Jacket
+08B -
+08C -
+08D -
+08E - Nine Lives
+08F -
+090 - Cowboy Hat
+091 - 10-Gal Hat
+092 - Red Cap
+093 - Migrant Hat
+094 - Lone Wolf
+095 - Sunbird Hat
+096 -
+097 - Texas No.
+098 - Mumbrella
+099 - Flumrella
+09A - PixyParasol
+09B - Sunshade
+09C - Gay Parasol
+09D - Elf Parasol
+09E - Geranium
+09F - Dumbrella
+0A0 - Bow Parasol
+0A1 -
+0A2 - Pulbo Calbo
+0A3 -
+0A4 -
+0A5 -
+0A6 - Black Queen
+0A7 -
+0A8 - Breeze Cape
+0A9 - Mage Robe
+0AA - Mist Blazer
+0AB - Purple Vest
+0AC - Silky Robe
+0AD - Shield Cape
+0AE - Maygas Robe
+0AF - Azure Vest
+0B0 - Shiny Cape
+0B1 -
+0B2 - Blue Blazer
+0B3 -
+0B4 -
+0B5 -
+0B6 - Bridal Gown
+0B7 -
+0B8 - Hairband
+0B9 - Cute Ribbon
+0BA - Barrette
+0BB - Serenade
+0BC - Blue Ribbon
+0BD - Moon Pin
+0BE -
+0BF - Tiara
+0C0 - Iron Fist
+0C1 - Hammer Fist
+0C2 - Punch Drunk
+0C3 - Knuckle Arm
+0C4 - Crisis Arm
+0C5 - Mirage Hand
+0C6 - Uppercut
+0C7 - 100 Knuckle
+0C8 - Giant Fist
+0C9 -
+0CA -
+0CB -
+0CC -
+0CD - Omega Crush
+0CE -
+0CF -
+0D0 - Army Vest
+0D1 - Ti Plate
+0D2 - Travel Vest
+0D3 - Camo Vest
+0D4 - Metal Plate
+0D5 - Ferdinand
+0D6 - Best Vest
+0D7 - Breastplate
+0D8 - Cromwell
+0D9 -
+0DA -
+0DB -
+0DC -
+0DD - Braver Vest
+0DE -
+0DF -
+0E0 - Bandanna
+0E1 - Head Gear
+0E2 - Hard Gear
+0E3 - Plus Band
+0E4 - Hyper Gear
+0E5 -
+0E6 - Dead Heat
+0E7 -
+0E8 - Magic Staff
+0E9 - Dream Wand
+0EA - Rune Staff
+0EB - Magic Wand
+0EC - Crest Wand
+0ED - Holy Staff
+0EE -
+0EF - Fate Staff
+0F0 -
+0F1 -
+0F2 -
+0F3 - Dist Dims
+0F4 - Chic Poncho
+0F5 - Sand Poncho
+0F6 - Cute Bolero
+0F7 - Sun Poncho
+0F8 - Blue Wind
+0F9 - Safe Bolero
+0FA -
+0FB - Shellwind
+0FC -
+0FD -
+0FE -
+0FF -
+100 - Labyrinthos
+101 - White Plume
+102 - Eagle Quill
+103 - Lucky Comb
+104 - Mir Feather
+105 -
+106 - Nisaba Wing
+107 - Baserade
+108 - Main Gauche
+109 - Bright Edge
+10A - Quick Knife
+10B -
+10C -
+10D -
+10E -
+10F - Violator
+110 - Breast Mail
+111 - Lamellar
+112 - White Chest
+113 - Cuirass
+114 -
+115 -
+116 -
+117 -
+118 - Coiste Bua
+119 - Circlet
+11A - Silver Circ
+11B -
+11C - Shamir
+11D - Hob & Nob
+11E - Hob & Nob
+11F - Hob & Nob
+120 - Hob & Nob
+121 - Black Cape
+122 - Ebony Shade
+123 - Bloody Cape
+124 -
+125 - Goggles
+126 - Mad Goggles
+127 -
+128 - Argetlahm
+129 - Ankh Cross
+12A - SilverTiara
+12B -
+12C -
+12D - Data Tablet
+12E -
+12F -
+130 -
+131 -
+132 -
+133 -
+134 -
+135 -
+136 - High Crest
+137 -
+138 -
+139 -
+13A -
+13B -
+13C -
+13D -
+13E -
+13F -
+140 -
+141 -
+142 -
+143 -
+144 -
+145 -
+146 -
+147 -
+148 -
+149 -
+14A -
+14B -
+14C -
+14D -
+14E -
+14F - Grudiev
+150 - Schturdark
+151 - Moor Gault
+152 - Fengalon
+153 - Nova Shax
+154 - Stare Roe
+155 - Leitea Salk
+156 - Aru Sulato
+157 - Rigobrite
+158 - Ge ramtos
+159 - Odoryuk
+15A - Dan Dairam
+15B - Raftina
+15C - Justine
+15D - Zephyr
+15E - Chapapanga
+15F -
+160 -
+161 -
+162 - Jail Card
+163 - Empathite
+164 - Germatron
+165 - Aguelite
+166 - Boss Symbol
+167 - Adult Mag
+168 - Recorder
+169 -
+16A - Secret Key
+16B - Moon Piece
+16C - Star Piece
+16D - Cloud Piece
+16E - Sun Piece
+16F - Letter
+170 - Eat My Dust
+171 - Tablet 1
+172 - Tablet 2
+173 - Tablet 3
+174 - Bridge Key
+175 - Stone Drago
+176 - Stone God
+177 - Stone Lion
+178 - Conductor
+179 - Equipment
+17A - MultiBlast
+17B - BoltAction
+17C - DeadOrAlive
+17D - ShockSlide
+17E - FantomFang
+17F - Blast 'Em
+180 - Rising Nova
+181 - Bazooka
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+FE00 - Heal Berry
+FE01 - Big Berry
+FE02 - Mega Berry
+FE03 -
+FE04 - Revive Fruit
+FE05 - Full Revive
+FE06 -
+FE07 - Antidote
+FE08 - Medicine
+FE09 - Violet Rose
+FE0A - Pixie Dust
+FE0B - Pinwheel
+FE0C - Toy Hammer
+FE0D -
+FE0E - Softener
+FE0F - Peppy Acorn
+FE10 - War Respite
+FE11 -
+FE12 - Ambrosia
+FE13 - Lucky Card
+FE14 - Crest
+FE15 - Crest E
+FE16 - Crest S
+FE17 -
+FE18 - Crest Cap
+FE19 - DualCast
+FE1A - Cover
+FE1B - Break
+FE1C - Full Carrot
+FE1D - Mini Carrot
+FE1E - Bullet Load
+FE1F -
+FE20 -
+FE21 -
+FE22 - STR Apple
+FE23 - VIT Apple
+FE24 - SOR Apple
+FE25 - RES Apple
+FE26 - Mecha Boost
+FE27 - Tiny Flower
+FE28 -
+FE29 - AlbumCoupon
+FE2A - TeleportGem
+FE2B - TeleportOrb
+FE2C -
+FE2D - Map Scope
+FE2E - Duplicator
+FE2F - Gimel Coin
+FE30 - Stone
+FE31 - Boomerang
+FE32 - Chakram
+FE33 - Bust
+FE34 - Spoon
+FE35 - Grenade
+FE36 - Shuriken
+FE37 - Viper Fang
+FE38 - Earth Groan
+FE39 - Water Drip
+FE3A - Fire Rage
+FE3B - Zephyr Claw
+FE3C - Snowflake
+FE3D - Thunderclap
+FE3E - Light Flash
+FE3F - Pitch Dark
+FE40 - Moonstone
+FE41 - Hazel Sprig
+FE42 - Silver Harp
+FE43 - Blue Anklet
+FE44 - Clear Chime
+FE45 - Memo Pen
+FE46 -
+FE47 - gaze Mirror
+FE48 - Heart Leaf
+FE49 -
+FE4A - Full Libra
+FE4B - Earth Ring
+FE4C - Water Ring
+FE4D - Fire Ring
+FE4E - Wind Ring
+FE4F - Thor Ring
+FE50 - Light Ring
+FE51 - Dark Ring
+FE52 - Ice Ring
+FE53 - Talisman
+FE54 - Life Orb
+FE55 - Force Unit
+FE56 -
+FE57 - Power Boost
+FE58 - Mystic Word
+FE59 - Secret Sign
+FE5A - Holy Tablet
+FE5B - Necromicon
+FE5C - Mittens
+FE5D - Kid Gloves
+FE5E - Gauntlets
+FE5F - Reflex
+FE60 - Missanga
+FE61 - Amulet
+FE62 - Teddy Bear
+FE63 - Coin Purse
+FE64 - Scapegoat
+FE65 -
+FE66 - Holy Grail
+FE67 - Weathervane
+FE68 - Elven Boots
+FE69 - Odd Sandals
+FE6A - Elven Cloak
+FE6B -
+FE6C -
+FE6D -
+FE6E -
+FE6F - SheriffStar
+FE70 - Longhorn
+FE71 - Rhino Shot
+FE72 - Riot Ram
+FE73 - Greyhound
+FE74 - Raid Blast
+FE75 - Dual Shot
+FE76 - SniperShark
+FE77 - D Bison
+FE78 - Sonic Burst
+FE79 -
+FE7A - Obelisk Gun
+FE7B -
+FE7C -
+FE7D -
+FE7E - Shootn Star
+FE7F -
+FE80 - Jean Jacket
+FE81 - Hard Jumper
+FE82 - Flak Jacket
+FE83 - Ti Jacket
+FE84 - Chain Mail
+FE85 - Full Metal
+FE86 - Bounty Gard
+FE87 - Trench Coat
+FE88 - Cloth Coat
+FE89 -
+FE8A - Red Jacket
+FE8B -
+FE8C -
+FE8D -
+FE8E - Nine Lives
+FE8F -
+FE90 - Cowboy Hat
+FE91 - 10-Gal Hat
+FE92 - Red Cap
+FE93 - Migrant Hat
+FE94 - Lone Wolf
+FE95 - Sunbird Hat
+FE96 -
+FE97 - Texas No.
+FE98 - Mumbrella
+FE99 - Flumrella
+FE9A - PixyParasol
+FE9B - Sunshade
+FE9C - Gay Parasol
+FE9D - Elf Parasol
+FE9E - Geranium
+FE9F - Dumbrella
+FEA0 - Bow Parasol
+FEA1 -
+FEA2 - Pulbo Calbo
+FEA3 -
+FEA4 -
+FEA5 -
+FEA6 - Black Queen
+FEA7 -
+FEA8 - Breeze Cape
+FEA9 - Mage Robe
+FEAA - Mist Blazer
+FEAB - Purple Vest
+FEAC - Silky Robe
+FEAD - Shield Cape
+FEAE - Maygas Robe
+FEAF - Azure Vest
+FEB0 - Shiny Cape
+FEB1 -
+FEB2 - Blue Blazer
+FEB3 -
+FEB4 -
+FEB5 -
+FEB6 - Bridal Gown
+FEB7 -
+FEB8 - Hairband
+FEB9 - Cute Ribbon
+FEBA - Barrette
+FEBB - Serenade
+FEBC - Blue Ribbon
+FEBD - Moon Pin
+FEBE -
+FEBF - Tiara
+FEC0 - Iron Fist
+FEC1 - Hammer Fist
+FEC2 - Punch Drunk
+FEC3 - Knuckle Arm
+FEC4 - Crisis Arm
+FEC5 - Mirage Hand
+FEC6 - Uppercut
+FEC7 - 100 Knuckle
+FEC8 - Giant Fist
+FEC9 -
+FECA -
+FECB -
+FECC -
+FECD - Omega Crush
+FECE -
+FECF -
+FED0 - Army Vest
+FED1 - Ti Plate
+FED2 - Travel Vest
+FED3 - Camo Vest
+FED4 - Metal Plate
+FED5 - Ferdinand
+FED6 - Best Vest
+FED7 - Breastplate
+FED8 - Cromwell
+FED9 -
+FEDA -
+FEDB -
+FEDC -
+FEDD - Braver Vest
+FEDE -
+FEDF -
+FEE0 - Bandanna
+FEE1 - Head Gear
+FEE2 - Hard Gear
+FEE3 - Plus Band
+FEE4 - Hyper Gear
+FEE5 -
+FEE6 - Dead Heat
+FEE7 -
+FEE8 - Magic Staff
+FEE9 - Dream Wand
+FEEA - Rune Staff
+FEEB - Magic Wand
+FEEC - Crest Wand
+FEED - Holy Staff
+FEEE -
+FEEF - Fate Staff
+FEF0 -
+FEF1 -
+FEF2 -
+FEF3 - Dist Dims
+FEF4 - Chic Poncho
+FEF5 - Sand Poncho
+FEF6 - Cute Bolero
+FEF7 - Sun Poncho
+FEF8 - Blue Wind
+FEF9 - Safe Bolero
+FEFA -
+FEFB - Shellwind
+FEFC -
+FEFD -
+FEFE -
+FEFF -
+FF00 - Labyrinthos
+FF01 - White Plume
+FF02 - Eagle Quill
+FF03 - Lucky Comb
+FF04 - Mir Feather
+FF05 -
+FF06 - Nisaba Wing
+FF07 - Baserade
+FF08 - Main Gauche
+FF09 - Bright Edge
+FF0A - Quick Knife
+FF0B -
+FF0C -
+FF0D -
+FF0E -
+FF0F - Violator
+FF10 - Breast Mail
+FF11 - Lamellar
+FF12 - White Chest
+FF13 - Cuirass
+FF14 -
+FF15 -
+FF16 -
+FF17 -
+FF18 - Coiste Bua
+FF19 - Circlet
+FF1A - Silver Circ
+FF1B -
+FF1C - Shamir
+FF1D - Hob & Nob
+FF1E - Hob & Nob
+FF1F - Hob & Nob
+FF20 - Hob & Nob
+FF21 - Black Cape
+FF22 - Ebony Shade
+FF23 - Bloody Cape
+FF24 -
+FF25 - Goggles
+FF26 - Mad Goggles
+FF27 -
+FF28 - Argetlahm
+FF29 - Ankh Cross
+FF2A - SilverTiara
+FF2B -
+FF2C -
+FF2D - Data Tablet
+FF2E -
+FF2F -
+FF30 -
+FF31 -
+FF32 -
+FF33 -
+FF34 -
+FF35 -
+FF36 - High Crest
+FF37 -
+FF38 -
+FF39 -
+FF3A -
+FF3B -
+FF3C -
+FF3D -
+FF3E -
+FF3F -
+FF40 -
+FF41 -
+FF42 -
+FF43 -
+FF44 -
+FF45 -
+FF46 -
+FF47 -
+FF48 -
+FF49 -
+FF4A -
+FF4B -
+FF4C -
+FF4D -
+FF4E -
+FF4F - Grudiev
+FF50 - Schturdark
+FF51 - Moor Gault
+FF52 - Fengalon
+FF53 - Nova Shax
+FF54 - Stare Roe
+FF55 - Leitea Salk
+FF56 - Aru Sulato
+FF57 - Rigobrite
+FF58 - Ge ramtos
+FF59 - Odoryuk
+FF5A - Dan Dairam
+FF5B - Raftina
+FF5C - Justine
+FF5D - Zephyr
+FF5E - Chapapanga
+FF5F -
+FF60 -
+FF61 -
+FF62 - Jail Card
+FF63 - Empathite
+FF64 - Germatron
+FF65 - Aguelite
+FF66 - Boss Symbol
+FF67 - Adult Mag
+FF68 - Recorder
+FF69 -
+FF6A - Secret Key
+FF6B - Moon Piece
+FF6C - Star Piece
+FF6D - Cloud Piece
+FF6E - Sun Piece
+FF6F - Letter
+FF70 - Eat My Dust
+FF71 - Tablet 1
+FF72 - Tablet 2
+FF73 - Tablet 3
+FF74 - Bridge Key
+FF75 - Stone Drago
+FF76 - Stone God
+FF77 - Stone Lion
+FF78 - Conductor
+FF79 - Equipment
+FF7A - MultiBlast
+FF7B - BoltAction
+FF7C - DeadOrAlive
+FF7D - ShockSlide
+FF7E - FantomFang
+FF7F - Blast 'Em
+FF80 - Rising Nova
+FF81 - Bazooka
+
+Kanon Bionic Arm Digits
+
+Quantity Digits to Accompany Kanon Bionic Arm Modifier Codes
+00 - Left Edge
+01 - Pike Kick
+02 - Drive Cut
+03 - Wire Fist
+04 - Arc Kick
+05 - Vortex Cut
+06 - Phalanx
+07 - Eagle Claw
+FF - Nothing
+
+Lucied Ruination Digits
+
+Quantity Digits to Accompany Lucied Ruination Modifier Codes
+00 - Wolf Fang
+01 - Last Fang
+02 - Counterattack (?Not Sure If A Ruination)
+03 - Defencer (?Not Sure If A Ruination)
+04 - Mad Lucied (?Not Sure If A Ruination)
+FF - Nothing
+
+Marivel Red Power Digits
+
+Quantity Digits to Accompany Marivel Red Power Modifier Codes
+00 - Life Drain
+01 - Skil Drain
+02 - Rock Gazer
+03 - Tera Break
+04 - Geyser
+05 - Maelstrom
+06 - Firebolt
+07 - Cremation
+08 - Air Slash
+09 - Twister
+0A - Inspire
+0B - Thunderbolt
+0C - Frigid
+0D - Absolute 0
+0E - Shadowbolt
+0F - Armageddon
+10 - Aport
+11 - Megaton
+12 - Sleep
+13 - Power Seal
+14 - Status Lok
+15 - Anti-Magic
+16 - Sacrifice
+17 - Guillotine
+18 - Demonangle
+19 - Booster
+1A - Erg Phasor
+1B - Wildcard
+1C - Esc Down
+1D - GellaCrazy
+1E - Def Down
+1F - Canceller
+FF - Nothing
+
+Party Digits
+
+Quantity Digits to Accompany Party Modifier Codes
+00 - Ashley
+01 - Brad
+02 - Lilka
+03 - Tim
+04 - Kanon
+05 - Marivel
+06 - Anastasia
+07 - Lucied
+FF - Nobody
+
+Tim Rhymeless Lore Digits
+
+Quantity Digits to Accompany Tim Rhymeless Lore Modifier Codes
+00 - Rock Bolt
+01 - Graviton
+02 - Water Gun
+03 - Submerge
+04 - Red Beaut
+05 - Napalm Hit
+06 - Sonic Claw
+07 - Tempest
+08 - Ice Beam
+09 - Arctic
+0A - Lightnin'
+0B - Plasma Tap
+0C - Arrow Shot
+0D - Nova Rain
+0E - Black Gate
+0F - Dark Star
+10 - Valkyrie
+11 - Cosmic Ray
+12 - First Aid
+13 - TurnUndead
+14 - Arcana 13
+15 - Thanatos X
+16 - Speed Down
+17 - Full Heal
+18 - Bold Lance
+19 - Apocalypse
+1A - Goldhammer
+1B - Lucky Word
+FF - Nothing
+
+Tool Digits
+
+Quantity Digits to Accompany Tool Modifier Codes
+00 - Hurl Knife
+01 - Booty Call
+02 - Flare Gun
+03 - Kick Boots
+04 - Bombs
+05 - Earthquake
+06 - Fire Rod
+07 - Freeze Rod
+08 - Change Rod
+09 - Pooka
+0A - Air Ballet
+0B - Mist Cloak
+0C - Wire Hook
+0D - Rad Blades
+0E - Jump Shoes
+0F - Electel
+
+Quantity Digits to Accompany Equipped Tool Modifier Codes
+00 - Tool Slot 1
+01 - Tool Slot 2
+02 - Tool Slot 3

@@ -1,0 +1,46 @@
+Quantity Digits to Accompany Mostly Weapons and 13th Item Modifier Code
+04 - .45
+05 - G-18
+06 - Combat Shotgun
+07 - Shotgun
+08 - PK-102
+09 - M-16
+0A - EIZ-2
+0B - HK-5
+0C - NightVision Rifle
+10 - M-79
+11 - K3G4
+12 - Viral Scanner
+13 - Grenade
+14 - Gas Grenade
+17 - Card Key
+18 - C4 Explosives
+19 - Antigen
+
+Quantity Digits to Accompany Mostly Weapons Only! Modifier Code
+607F - .45 & Combat Shotgun & G-18
+60FF - .45 & Combat Shotgun & G-18 & Shotgun
+61FF - .45 & Combat Shotgun & G-18 & Shotgun & PK-102
+63FF - .45 & Combat Shotgun & G-18 & Shotgun & PK-102 & M-16
+67FF - .45 & Combat Shotgun & G-18 & Shotgun & PK-102 & M-16 & EIZ-2
+6FFF - .45 & Combat Shotgun & G-18 & Shotgun & PK-102 & M-16 & EIZ-2 & HK-5
+7FFF - .45 & Combat Shotgun & G-18 & Shotgun & PK-102 & M-16 & EIZ-2 & HK-5 & NightVision Rifle
+
+Quantity Digits to Accompany Mostly Items Only! Modifier Code
+05 - Viral Scanner & M-79
+08 - Viral Scanner & M-79 & K3G4
+0F - Viral Scanner & M-79 & K3G4 & Grenade
+1F - Viral Scanner & M-79 & K3G4 & Grenade & Gas Grenade
+3F - Viral Scanner & M-79 & K3G4 & Grenade & Gas Grenade & FlashLight
+BF - Viral Scanner & M-79 & K3G4 & Grenade & Gas Grenade & FlashLight & Cardkey
+1BF - Viral Scanner & M-79 & K3G4 & Grenade & Gas Grenade & FlashLight & Cardkey & C4 Explosives
+3BF - Viral Scanner & M-79 & K3G4 & Grenade & Gas Grenade & FlashLight & Cardkey & C4 Explosives & Antigen
+
+Note 1:
+With this code, it gives the enemies infinite as well. The only way you can die, or kill enemies, is to get shot in the head or hurt by an explosion..
+
+Note 2:
+With this code, remember, if you shoot an enemy in the chest, and they are wearing a bullet proof vest, you will not be able to kill them, shoot them in the head, or in their legs til they die.
+
+Note 3:
+With this code, Press L2+Select to enable it, and to disable it, Press R2+Select. A big note to Sony: Hats off on this one, it took me quite some time to make this code. You masked the loading/storing routines very good, but not good enough :) Although nothing is hacker proof, you did a damn good try at it, and thanx for making my life more 'interesting' :)

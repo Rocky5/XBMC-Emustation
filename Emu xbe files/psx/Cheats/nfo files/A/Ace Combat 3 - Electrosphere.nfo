@@ -1,0 +1,32 @@
+Quantity Digits to Accompany Plane Modifier Code
+
+00 - EF2000E Typhoon II
+01 - MiG-33 Fulcrum SS
+02 - F/A-18U Hornet ADV
+03 - F-16XFU Gyrfalcon
+04 - R-101 Delphinus #1
+05 - R-201 Asterzoa
+06 - F-16XA Sakerfalcon
+07 - F-15S/MT Eagle+
+08 - F-22C Raptor II
+09 - F/A-32C Erne
+0A - Su-37 Super Flanker
+0B - R-102 Delphinus #2
+0C - R-211 Orcinus
+0D - Su-43 Berkut
+0E - R-103 Delphinus #3
+0F - XFA-36A Game
+10 - RF-12A2 Blackbird
+11 - R-352 Sepia
+12 - XR-900 Geopelia
+13 - X-49 Night Raven
+14 - UI-4054 Aurora
+
+
+Ace Combat 3-Electrosphere Notes
+
+Note 1:
+With these codes, you have to beat the mission and after you do, this will make it so you pass it no matter what grade you got.
+
+Note 2:
+Well, Namco, we must say that you caught us a bit off guard with this 'Protected' game. If you were targeting out Cheat Device codes being on, then you failed. Because with Cheat Device pro it doesnt turn codes on right away with out the C1000000 0000 code. I think that you should have waited a second or 2 longer before doing that checksum if you were in fact targeting out Cheat Device. Also Namco.. does this value mean anything to you?? A6E2BA6C... I would think it does :) If you were in fact targeting out 'Copied Discs' and not Cheat Device.. and it works for that purpose... then hats off for not blocking out Cheat Device and not blocking out modchipped systems. Obviously the game doesnt have anti-mod protection as it has been tested on 5 different modded machines here and boots fine. I think this is the better approach to take.. Its too bad that we'll still post codes like this to by pass your checksum tho.. Sorry, but if we didnt do it... noone would... For those who have no idea what I'm talking about goto the following http://www.htc.net/~brianj/ace3.gif And you'll see this 'Protection' that they put into the game.. However if you want to see it for yourself.. Enter the following code and you'll be able to see the screen live and up close...C1000000 0000D0164308 00238016430A 1000

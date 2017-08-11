@@ -1,0 +1,15 @@
+Quantity Digits to Accompany Weapon Modifier Code
+00 - Normal Weapon
+01 - Grenade Launcher
+02 - Electric
+03 - Missiles
+04 - Explosive Rounds
+05 - Heavy Machine Gun
+07 - Super Electric
+08 - Super Missiles
+09 - Super Explosive Rounds
+0A - Super Heavy Machine Gun
+0C - Super Homing Missiles
+0D - Weird?
+0E - Bouncing Bombs
+0F - Large Bullets?

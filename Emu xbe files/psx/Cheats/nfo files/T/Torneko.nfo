@@ -1,0 +1,227 @@
+Quantity Digits
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+00 - Nothing
+01 - Club
+02 - Gold Sword
+03 - Copper Sword
+04 - Iron Axe
+05 - Dragon X Sword
+06 - Metabble Sword
+07 - Abacus Sword
+08 - Surehit Sword
+09 - Eliminato Axe
+0A - Reaper Axe
+0B - Reserve Sword
+0C - Windshear Sword
+0D - Zombie X Sword
+0E - Doll X Sword
+0F - Demon X Sword
+10 - Wind Sword
+11 - Ice Sword
+12 - Pick Sword
+13 - Falcon Sword
+14 - Miracle Sword
+15 - Whirlwind Sword
+16 - Metal King Sword
+17 - Baby Fork Sword
+18 - Steel Sword
+19 - Loto Sword
+1A - Gold Pick Sword
+1B - Life Drain Sword
+1C - Seal Sword
+1D - Magic Sword
+1E - Leather Shield
+1F - Bronze Shield
+20 - Scale Shield
+21 - Silver Shield
+22 - Steel Shield
+23 - Dragon Shield
+24 - Metabble Shield
+25 - Blade Shield
+26 - Ogre Shield
+27 - Magic Shield
+28 - Parry Shield
+29 - Thief Stop Shield
+2A - Skill-X Shield
+2B - Metal King Shield
+2C - Explode-X Shield
+2D - Golden Shield
+2E - Seal Shield
+2F - Loto Shield
+30 - Skill-X{3}
+31 - Scapegoat{0}
+32 - TradeSpot{0}
+33 - Thunder{0}
+34 - Slow{-3}
+35 - Sleep{0}
+36 - Panic{5}
+37 - Disperse{5}
+38 - Change{5}
+39 - SpeedUp{0}
+3A - Invisible{0}
+3B - NoTrip{0}
+3C - Clone{0}
+3D - Beat{0}
+3E - DualEdge{0}
+3F - Loser{0}
+40 - Itemizer{3}
+41 - Mystifier{0}
+42 - Druid{0}
+43 - Heal{0}
+44 - Blowback{-3}
+45 - Golden{0}
+46 - Enchanter{5}
+47 - Wizard{5}
+48 - Terrify{5}
+49 - Sap{0}
+4A - Berserker{0}
+4B - Mimic{0}
+4C - Earner{0}
+4D - Identify{0}
+4E - Wooden Arrow{0}
+4F - Iron Arrow{0}
+50 - Silver Arrow{3}
+51 - Tractor Arrow{0}
+52 - Magic Arrow{0}
+53 - Poison Arrow{0}
+54 - Golden Arrow{-3}
+55 - Reserve{0}
+56 - Reserve{5}
+57 - Passage Ring
+58 - Discount Ring
+59 - Heal Ring
+5A - Rustproof Ring
+5B - Critical Ring
+5C - Brutal Ring
+5D - Curse-X Ring
+5E - Javelin Ring
+5F - Joy Ring
+60 - Item Drop Ring
+61 - See-All Ring
+62 - Confuse-X Ring
+63 - X-Ray Ring
+64 - Strength Ring
+65 - Poison-X Ring
+66 - Sleep-X Ring
+67 - Warp Ring
+68 - Hunger-X Ring
+69 - Thief Ring
+6A - Pretty Ring
+6B - Shadow Ring
+6C - Hunger Ring
+6D - Trap-X Ring
+6E - Doll-X Ring
+6F - Monster Wake Ring
+70 - Golden Ring
+71 - Explode Ring
+72 - Life Ring
+73 - Guard Ring
+74 - CurseOff
+75 - XRay
+76 - Bang
+77 - Mouth Seal
+78 - Outside
+79 - Trap
+7A - Big Room
+7B - Monster
+7C - Blank
+7D - TwinHits
+7E - Upper
+7F - Plating
+80 - Vacuum
+81 - Glue Down
+82 - Haven
+83 - See All
+84 - Bread
+85 - Prayer
+86 - Retry
+87 - Chance
+88 - Radiant
+89 - Paralyze
+8A - Quick Save
+8B - Scroll
+8C - Shiny Harp
+8D - Hear All
+8E - Step Guard
+8F - Typhoon
+90 - Pause
+91 - Defense
+92 - Tie Down
+93 - Item Pull
+94 - Identify
+95 - Gold
+96 - Revive
+97 - Spell Book
+98 - Scrap
+99 - Spell Book
+9A - Preserve{0}
+9B - Clone{-7}
+9C - XRay{-6}
+9D - Heal{-5}
+9E - Monster{-4}
+9F - Change{-3}
+A0 - Melding{3}
+A1 - Thief{-8}
+A2 - Exploding{-8}
+A3 - NoBreak{0}
+A4 - Liar{-11}
+A5 - Golden{-8}
+A6 - Storage{-3}
+A7 - Magic{-3}
+A8 - Reserve{-3}
+A9 - Herb
+AA - Super Herb
+AB - Eyedrop
+AC - World Leaf
+AD - Blinding
+AE - Disaster
+AF - Berserker
+B0 - Misleader
+B1 - Life
+B2 - Big Tum
+B3 - Small Tum
+B4 - Agility
+B5 - Strength
+B6 - Antidote
+B7 - Poison
+B8 - Panic
+B9 - Sleep
+BA - Weed
+BB - Warp
+BC - Flame
+BD - Belly Ache
+BE - Joy
+BF - Wake Up
+C0 - Golden
+C1 - Paralyze
+C2 - Dance
+C3 - Ironize
+C4 - Bogus
+C5 - Reserve
+C6 - Reserve
+C7 - Reserve
+C8 - Reserve
+C9 - Reserve
+CA - Reserve
+CB - Bread
+CC - Big
+CD - Moldy
+CE - Hude
+CF - Magic
+D0 - Rotten
+D1 - Golden
+D2 - Onion
+D3 - Reserve
+D4 - 5629 Gold
+D5 - Mimic
+D6 - Fire
+D7 - Tiny Medal
+D8 - Mystery Box
+D9 - Iron Sage
+DA - Silver Key
+DB - Bankers Safe
+DC - Corpse
+DD - Cedar
+EA - Cypress

@@ -1,0 +1,534 @@
+charactar notes
+
+Note 1:
+With this code, it will only allow a one-level increase per first-time use of weapon and magic type in battle, so character stats will increase along with the weapon/magic levels.
+
+misc code notes
+
+Note 1:
+With this code, go right of status and press X. All menus will be available. The debug menu is a hidden menu to the right of status.
+
+Quantity Digits
+Character Digits
+
+Quantity Digits to Accompany Character In Group Modifier Code
+00 - Justin
+01 - Justin\Sue
+02 - Justin\Sue\Feena
+03 - Justin\Feena
+04 - Justin\Sue\Feena w\Rem
+05 - Justin\Sue\Feena\Gadwin
+06 - Justin W\Leen
+08 - Justin\Feena\Gadwin
+09 - Justin\Feena\Rapp
+0A - Justin\Feena\Rapp\Milda
+0C - Justin\Feena\Rapp\Guido
+0E - Justin\Rapp\Guido
+0F - Justin\Feena\Rapp\Liete
+10 - Justin\Rapp\Liete
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+00A - Spirit Stone
+00B - Hero's Armband
+00C - Horn of Knowledge
+00D - Medal of Wisdom
+00E - Medal of Knowledge
+00F - Gaia Sprout
+010 - Gantz's Key
+011 - Intro Letter
+012 - Key to the Café
+013 - Java's Wallet
+014 - Steamer Pass
+015 - Lilly's Letter
+016 - Cabin Key
+017 - Sulfa Weed
+018 - Jail Key
+019 - Master Key
+01A - Nectar of the Gods
+01B - Mist-Clearing Nut
+01C - Sue's Shoes
+01D - Warrior's Spear
+01E - Teleportation Orb
+01F - Apron
+020 - Pot Lid
+021 - Iron Pot
+022 - Wooden Sword
+023 - Spirit Sword
+024 - Biscuits
+025 - Marie's Pin
+026 - Coal Candy
+027 - Letter to Clara
+028 - Pearl
+029 - Rainbow Key
+02A - Boiled Egg
+02B - Chocolate
+02C - Jawbreaker
+02D - Ring of Protection
+02E - Frost Herb
+02F - Amulet of Relief
+030 - Prohibited
+031 - Prohibited
+032 - Prohibited
+033 - Prohibited
+034 - Prohibited
+035 - Prohibited
+036 - Prohibited
+037 - Prohibited
+038 - Prohibited
+039 - Prohibited
+03A - Prohibited
+03B - Prohibited
+03C - Prohibited
+03D - Prohibited
+03E - Prohibited
+03F - Knife of Judgment
+040 - Rusty Knife
+041 - Paring Knife
+042 - Hunter's Knife
+043 - Flint Knife
+044 - Azure Knife
+045 - Shocking Knife
+046 - Poisoned Knife
+047 - Assassin's Dagger
+048 - Bloody Knife
+049 - Ice Pick
+04A - Force Knife
+04B - Godspeed Knife
+04C - Gust Knife
+04D - Ruination Knife
+04E - Thief Cutter
+04F - Zero Knife
+050 - Ceramic Sword
+051 - Prohibited
+052 - Admiral's Sword
+053 - Great Sword
+054 - Army Saber
+055 - The Sword Himmler
+056 - Angel's Darts
+057 - Swordfish Sword
+058 - Dragon Killer
+059 - Fire Sword
+05A - Shadow Sword
+05B - Gil Sword
+05C - Silence Sword
+05D - Prohibited
+05E - Wobbly Sword
+05F - Main Gauche
+060 - Holy Sword Lorenzo
+061 - Ice Blade
+062 - Lightning Sword
+063 - Battle Saber
+064 - Zero Sword
+065 - Wooden Pole
+066 - Metal Bat
+067 - Zero Rod
+068 - Officer's Baton
+069 - Magic Rod
+06A - Miner's Hammer
+06B - Iron Mace
+06C - Army Darts
+06D - Lassic Hammer
+06E - War Hammer
+06F - Hertz Spike
+070 - Oracle's Staff
+071 - Raincloud Staff
+072 - Staff of Life
+073 - Warp Staff
+074 - Holy Mace
+075 - Fire Rod
+076 - Aromatic Tree Root
+077 - Sparkling Rod
+078 - Spirit Staff
+079 - Home Run Hammer
+07A - Rusty Shovel
+07B - Hand Ax
+07C - Ceremonial Rock Ax
+07D - Big Hatchet
+07E - Woodchopper's Ax
+07F - Dragon Bone Ax
+080 - Klepp's Sickle
+081 - Frog Ax
+082 - Bone Splitter Ax
+083 - Earthen Ax
+084 - Buster Ax
+085 - Wrecking Ax
+086 - Bent Mattock
+087 - Zero Ax
+088 - Toy Bow and Arrow
+089 - Handmade Darts
+08A - Hunter's Bow
+08B - Flying Fish Bow
+08C - Hail Bow
+08D - Flint Bow
+08E - Exorcising Bow
+08F - Cafu Shuriken
+090 - Boomerang
+091 - Fire Darts
+092 - Evil Shuriken
+093 - Demonslayer Boomer
+094 - Discus
+095 - Cactus Thorns
+096 - Ice Boomerang
+097 - Thunder Arrow
+098 - Zero Shuriken
+099 - Zero Whip
+09A - Mist-Cracking Whip
+09B - Leather Whip
+09C - Thorny Whip
+09D - Catfish Whiskers
+09E - Giant Snake Whip
+09F - Binding Whip
+0A0 - Morning Star
+0A1 - Whip of Light
+0A2 - Burning Hot Whip
+0A3 - Gale Whip
+0A4 - Adventure Clothes
+0A5 - Sunday Best
+0A6 - Sports Wear
+0A7 - Work Clothes
+0A8 - Cactus Armor
+0A9 - Soldier's Uniform
+0AA - Officer's Uniform
+0AB - Fairy Robe
+0AC - Flying Dragon Vest
+0AD - Frog Shirt
+0AE - Spy Clothes
+0AF - Chain Mail
+0B0 - Battle Bikini
+0B1 - Mogay Clothes
+0B2 - Mink Coat
+0B3 - Enchantress' Robe
+0B4 - Angel's Robe
+0B5 - Robe of the Sun
+0B6 - Breastplate
+0B7 - Outdated Armor
+0B8 - Bamboo Armor
+0B9 - Shell Armor
+0BA - Thick Armor
+0BB - Swordfish Armor
+0BC - Skull Armor
+0BD - Chameleon Armor
+0BE - Plug Suit
+0BF - Aura Armor
+0C0 - Dark Armor
+0C1 - Warrior's Mail
+0C2 - Spirit Armor
+0C3 - Devil's Robe
+0C4 - Magic Robe
+0C5 - Cutting Board
+0C6 - Woolen Mittens
+0C7 - Leather Gloves
+0C8 - Escargot Shield
+0C9 - Oaken Shield
+0CA - Shell Shield
+0CB - Seashell Shield
+0CC - Mushroom Shield
+0CD - MagicMirror Shield
+0CE - Alligator Gauntlet
+0CF - Leaf Shield
+0D0 - Lafa Flower Shield
+0D1 - Power Shield
+0D2 - Moonlight Shield
+0D3 - Gauntlets
+0D4 - Dragon Gauntlet
+0D5 - Heavy Shield
+0D6 - Gauntlets of Light
+0D7 - Spirit Shield
+0D8 - Magic Gloves
+0D9 - Zero Shield
+0DA - Goggles
+0DB - Ribbon
+0DC - Fluffy Ribbon
+0DD - Barrette
+0DE - Pirate's Hat
+0DF - Cowboy Hat
+0E0 - Climbing Hat
+0E1 - Odd Hat
+0E2 - Headgear
+0E3 - Iron Bandana
+0E4 - Feathered Turban
+0E5 - Angel's Hat
+0E6 - Pope's Hat
+0E7 - Safety Helmet
+0E8 - Antler Helmet
+0E9 - Pearl Helmet
+0EA - Pirate's Helmet
+0EB - Stone Head
+0EC - Swallowtail Hat
+0ED - Mystic Mask
+0EE - Death Mask
+0EF - Ogre Helm
+0F0 - Charisma Helm
+0F1 - Spirit Helmet
+0F2 - Holy Crown
+0F3 - Cactus Helm
+0F4 - Fairy Tiara
+0F5 - Man's Headband
+0F6 - Battle Helm
+0F7 - Sneakers
+0F8 - Dress Shoes
+0F9 - Air Sneakers
+0FA - Shiny Shoes
+0FB - Rubber Boots
+0FC - Leather Greaves
+0FD - Hunter's Boots
+0FE - Army Boots
+0FF - Curious Clogs
+100 - Dragon Boots
+101 - Ninja Sandals
+102 - Winged Boots
+103 - Beach Sandals
+104 - Mach 1 Boots
+105 - Heavy Boots
+106 - Queen Heels
+107 - Iron Clogs
+108 - Ogre Boots
+109 - Rabbit Shoes
+10A - Rainbow High Heels
+10B - Wolf Boots
+10C - Lion Boots
+10D - Battle Boots
+10E - Spirit Shoes
+10F - Glass Slippers
+110 - Warp Shoes
+111 - Crampons
+112 - Zero Boots
+113 - Prohibited
+114 - Diana's Amulet
+115 - Hero's Badge
+116 - Demon Sword Amulet
+117 - Officer's Badge
+118 - Black Belt
+119 - Chain Earrings
+11A - Titan's Ring
+11B - Fireproof Cape
+11C - Fire Charm
+11D - Water Charm
+11E - Wind Charm
+11F - Earth Charm
+120 - Counter Ring
+121 - Secret Move Ring
+122 - Hurricane Belt
+123 - Mama's Amulet
+124 - Jade Charm
+125 - Tree God Amulet
+126 - Light God Amulet
+127 - Ancestor's Amulet
+128 - Raincoat
+129 - Iridescent Amulet
+12A - Move Unblocker
+12B - Medal of Yore
+12C - Spirit Charm
+12D - Phantom Silk
+12E - Lightning Charm
+12F - Forest Charm
+130 - Explosion Charm
+131 - Blizzard Charm
+132 - Wind Belt
+133 - Confusion Charm
+134 - Paralysis Charm
+135 - Magic Block Charm
+136 - Sudden Death Charm
+137 - Poison Charm
+138 - Talisman
+139 - Sonic Belt
+13A - Metal Frog
+13B - Revival Stone
+13C - Use Prohibited
+13D - Scarab
+13E - Demon Eye Stone
+13F - Jewel of Life
+140 - Ankh of Temptation
+141 - Anklet
+142 - Energy Ring
+143 - Disease Charm
+144 - Paperweight
+145 - Combat Anklet
+146 - Chain of Gems
+147 - Satisfaction Gem
+148 - Soul of Asura
+149 - Crescent Jade
+14A - Dragon Scales
+14B - Spectacles
+14C - Rune Ring
+14D - Tear Jewel
+14E - Spirit Potion
+14F - Would Salve
+150 - Baobab Fruit
+151 - Boiled Coconut
+152 - Chocolate Cookies
+153 - Honey
+154 - Ultra Drink
+155 - Weeds
+156 - Dried Fish
+157 - Bamboo Shoots
+158 - Beef Jerky
+159 - Box Lunch
+15A - Herbs
+15B - White Sulfa Weed
+15C - Smarna Weed
+15D - Cholla Flowers
+15E - Bamo Fruit
+15F - Squid Guts
+160 - Move Mushroom
+161 - Power Mushroom
+162 - Poison Antidote
+163 - Ginseng
+164 - Banana
+165 - Bandage
+166 - Box of Sweets
+167 - First Aid Kit
+168 - Red Medicine
+169 - Blue Medicine
+16A - Yellow Medicine
+16B - Crimson Potion
+16C - Deep Blue Potion
+16D - Golden Potion
+16E - Magic Lamp
+16F - Poison Antidote
+170 - Vaccine
+171 - Eye Drops
+172 - Smelling Salts
+173 - Paralysis Ointment
+174 - Spell Breaker
+175 - Move Breaker
+176 - Resurrect Potion
+177 - Panacea
+178 - Bond of Trust
+179 - Seed of Power
+17A - Seed of Defense
+17B - Seed of Speed
+17C - Seed of Running
+17D - All-Around Seed
+17E - Seed of Life
+17F - Seed of Magic
+180 - Seed of Moves
+181 - Mace Coloring Book
+182 - Bow Coloring Book
+183 - Sword Secrets
+184 - Fire Secrets
+185 - Earth Secrets
+186 - How to Cut 'Em
+187 - How to Pound 'Em
+188 - How to Chop 'Em
+189 - Roach Bomb
+18A - Firewood Sparks
+18B - Mana Egg
+18C - Holy Fire
+18D - Hand Grenade
+18E - Dynamite
+18F - Rocket Fireworks
+190 - Launch Fireworks
+191 - BOOM! Scroll
+192 - Howler Scroll
+193 - Vacuum Scroll
+194 - Tremor Scroll
+195 - Zap! Book
+196 - Lightning Scroll
+197 - Gale Scroll
+198 - Overflowing Walnut
+199 - Restraint Walnut
+19A - Sonic Walnut
+19B - Running Walnut
+19C - Snooze Scroll
+19D - Poisoned Apple
+19E - Culture Medium
+19F - Dream Truffle
+1A0 - Paralyze Mushroom
+1A1 - Orb of Silence
+1A2 - Black Onyx
+1A3 - Weak-Knee Weed
+1A4 - Ragged Weed
+1A5 - Slouch Weed
+1A6 - Trudge Weed
+1A7 - Root of Confusion
+1A8 - Torte's Whistle
+1A9 - Freesia Flowers
+1AA - Cone of Light
+1AB - Mikeroma Scroll
+1AC - Shuffle Card
+1AD - Miracle Drink
+1AE - Gold Key
+1AF - Silver Key
+1B0 - Key of Temptation
+1B1 - Soldier's Key
+1B2 - Pretty Jewel
+1B3 - Pretty Jewel
+1B4 - Pretty Jewel
+1B5 - Horn of Inogon
+1B6 - Key
+1B7 - Health Weed
+1B8 - Snake Earrings
+1B9 - Resurrect Potion
+1BA - Expensive Jewel
+1BB - Rainbow Weed
+1BC - Smoked Salmon
+1BD - Prime Rib
+1BE - Rescue Set
+1BF - Black Nail Polish
+1C0 - Prohibited
+1C1 - Thor's Fury
+1C2 - Magic Lipstick
+1C3 - Elite Badge
+1C4 - Fruit of Power
+1C5 - Fruit of Defense
+1C6 - Fruit of Speed
+1C7 - Fruit of Agility
+1C8 - All-Around Fruit
+1C9 - Fruit of Life
+1CA - Fruit of Magic
+1CB - Fruit of Moves
+1CC - Mogay Teachings 1
+1CD - Mogay Teachings 2
+1CE - Mogay Teachings 3
+1CF - Ring of Rage
+1D0 - Holy Ring
+1D1 - Mysterious Veil
+1D2 - Blizzard Scroll
+1D3 - Telescope
+1D4 - Energy Charm
+1D5 - Devil's Anklet
+1D6 - Prohibited
+1D7 - Astral Miracle
+1D8 - Ethereal Miracle
+1D9 - Miraculous Scales
+1DA - General's Staff
+1DB - Brown Crayon
+1DC - Blue Crayon
+1DD - Red Crayon
+1DE - Sky-Blue Crayon
+1DF - Emperor's Whip
+1E0 - Soldier's Soul
+1E1 - Poison of Power
+1E2 - Poison of Defense
+1E3 - Poison of Speed
+1E4 - Poison of Agility
+1E5 - All-Around Poison
+1E6 - Poison of Life
+1E7 - Poison of Magic
+1E8 - Poison of Moves
+1E9 - +1 Dagger Skill
+1EA - +5 Dagger Skill
+1EB - +1 Sword Skill
+1EC - +5 Sword Skill
+1ED - +1 Mace Skill
+1EE - +5 Mace Skill
+1EF - +1 Ax Skill
+1F0 - +5 Ax Skill
+1F1 - +1 Whip Skill
+1F2 - +5 Whip Skill
+1F3 - +1 Bow Skill
+1F4 - +5 Bow Skill
+1F5 - +1 Fire Skill
+1F6 - +5 Fire Skill
+1F7 - +1 Wind Skill
+1F8 - +5 Wind Skill
+1F9 - +1 Water Skill
+1FA - +5 Water Skill
+1FB - +1 Earth Skill
+1FC - +5 Earth Skill
+1FD - 100 Sword
+1FE - 100 Mace
+1FF - 100 Fire Mace

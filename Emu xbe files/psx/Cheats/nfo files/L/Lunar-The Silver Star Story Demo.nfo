@@ -1,0 +1,200 @@
+Quantity Digits to Accompany Item Modifier Codes
+00 - Nothing
+01 - Dagger
+02 - Short Sword
+03 - Long Sword
+04 - Broad Sword
+05 - Saber
+06 - Ice Blade
+07 - Silver Sword
+08 - Samurai Blade
+09 - Flame Sword
+0A - Bastard Sword
+0B - Great Sword
+0C - Wind Sword
+0D - Crystal Sword
+0E - Dark Sword
+0F - Master Sword
+10 - Insane Sword
+11 - Althena's Sword
+12 - Mace
+13 - Flail
+14 - Ice Mace
+15 - Water Mace
+16 - Judgment Mace
+17 - Holy Mace
+18 - Dark Mace
+19 - Sling
+1A - Poison Darts
+1B - Small Bow
+1C - Battle Bow
+1D - Stone Bow
+1E - Holy Bow
+1F - Pixie's Bow
+20 - Dream Bow
+21 - Starlight Bow
+22 - Fortune Cane
+23 - Water Cane
+24 - Fire Cane
+25 - Dream Cane
+26 - Ice Cane
+27 - Ethereal Cane
+28 - Sage's Cane
+29 - Wind Cane
+2A - Dragon Cane
+2C - Peasant Clothes
+2D - Heavy Clothes
+2E - Leather Clothes
+2F - Leather Armor
+30 - Iron Armor
+31 - Chain Mail
+32 - Steel Armor
+33 - Holy Armor
+34 - Silver Armor
+35 - Carapace Armor
+36 - Dark Armor
+37 - Insane Armor
+38 - Dragon Armor
+39 - Cool Clothes
+3A - Purity Clothes
+3B - Sage's Clothes
+3C - Radiance Clothes
+3D - Saint Clothes
+3E - Holy Clothes
+3F - Robe
+40 - Magic Robe
+41 - Sorcerer's Robe
+42 - Intelligent Robe
+43 - Saint's Robe
+44 - Wisdom Robe
+45 - Spirit Robe
+46 - Sage's Robe
+47 - Holy Robe
+48 - Aegis Robe
+4A - Garbage Can Lid
+4B - Wooden Shield
+4C - Iron Shield
+4D - Silver Shield
+4E - Steel Shield
+4F - Holy Shield
+50 - Dark Shield
+51 - Insane Shield
+52 - Dragon Shield
+53 - Iron Bracelet
+54 - Silver Bracelet
+55 - White Bracelet
+56 - Crystal Bracelet
+57 - Jewel Bracelet
+58 - Star Bracelet
+59 - Stone Bracelet
+5A - Iron Armlet
+5B - Steel Armlet
+5C - Silver Armlet
+5D - Crystal Armlet
+5E - Rainbow Armlet
+5F - Dragon Armlet
+60 - Hell Armlet
+61 - Fire Armlet
+62 - Wind Armlet
+63 - Detonator Armlet
+64 - Spook Armlet
+66 - Scarf
+67 - Hat
+68 - Headband
+69 - Iron Helmet
+6A - Steel Helmet
+6B - Holy Helmet
+6C - Dark Helmet
+6D - Insane Helmet
+6E - Dragon Helmet
+6F - Bandanna
+70 - Fruity Bandanna
+71 - Spirit Bandanna
+72 - Lucky Bandanna
+73 - Dragon Bandanna
+74 - Holy Bandanna
+75 - Jade Hairpin
+76 - Rainbow Tiara
+77 - Ruby Tiara
+78 - Fire Tiara
+79 - Spook Hairpin
+7A - Holy Hairpin
+7B - Phantom Ribbon
+7D - Wrath Ring
+7E - Crystal Pendant
+7F - Healing Ring
+80 - Chiro's Tail
+81 - Fresh Ring
+82 - Refresher Ring
+83 - Angel Ring
+84 - Tri-Ring
+85 - Ice Pendant
+86 - Flame Ring
+87 - Barrier Ring
+88 - Hell Ring
+89 - Fortune Ring
+8A - Shiro's Tail
+8B - Gale Ring
+8C - Ghaleon's Tear
+8D - Protection Ring
+8E - Devil Pendant
+8F - Spirit Talisman
+90 - Dragon Wings
+91 - Luna's Bromide 1
+92 - Luna's Bromide 2
+93 - Mia's Bromide 1
+94 - Mia's Bromide 2
+95 - Mia's Bromide 3
+96 - Mia's Bromide 4
+97 - Jess' Bromide 1
+98 - Jess' Bromide 2
+99 - Jess' Bromide 3
+9A - Jess' Bromide 4
+9B - Xenobia Bromide
+9C - Herb
+9D - Healing Nut
+9E - Star Light
+9F - Silver Light
+A0 - Angel's Tear
+A1 - Cleaning Water
+A2 - Antidote
+A3 - Holy Water
+A4 - Dragonfly Wing
+A5 - Phacia's Bromide
+A6 - Soap
+A7 - Royce's Bromide
+A8 - Alex's Ocarina
+A9 - Dragon Ring
+AA - Dragon Diamond
+AB - Sea Chart
+AC - Application
+AD - Althena's Mirror
+AE - Old Notebook
+AF - Thieve's Guide
+B0 - Thieve's Crest
+B1 - Balloon Blueprint
+B2 - Fluffy Bug
+B3 - Dragon Necklace
+B4 - Balloon Engine
+B5 - Rememberizer
+
+Quantity Digits to Accompany Magic Modifier Codes
+00 - Nothing
+01 - Sword Dance
+02 - Explosive Staff
+03 - Flash Cut
+04 - Vigor
+05 - Dragon Protect
+06 - Dragon Anger
+07 - Dragon Healing
+08 - Dragon Grief
+09 - Thunderbolt
+0A - Thunder Bomb
+0B - Thunder Thrust
+0C - Spark Ball
+0D - Heal Litany
+0E - Calm Litany
+0F - Saint Litany
+10 - Althena Litany
+11 - Miracle Litany
+12 - Cleanse Litany

@@ -1,0 +1,842 @@
+Quantity Digits
+Ability Digits
+
+Quantity Digits to Accompany Ability Modifier Codes
+0000 - Slash
+0001 - StunSlash
+0002 - DoubleSlash
+0003 - HardSlash
+0004 - Thrust
+0005 - CrossSlash
+0006 - Smash
+0007 - SwallowSwing
+0008 - ThunderThrust
+0009 - Heaven/Hell
+000A - WheelSlash
+000B - WillowBranch
+000C - Deflect
+000D - BearCrush
+000E - DeadEnd
+000F - HeadWind
+0010 - TripleThrust
+0011 - Kasumi
+0012 - NoMoment
+0013 - GaleSlash
+0014 - 2GaleSlash
+0015 - StillBeam
+0016 - TurbodCurrent
+0017 - CrossDeflect
+0018 - RisingNova
+0019 - RosarioImpale
+001A - TwinSword
+001B - Haze-to-Wheel
+001C - LifeSprinkler
+001D - Godless
+001E - Asura
+001F - AsuraRevenge
+0020 - MoonlightCut
+0021 - ShadowCounter
+0022 - Blizzard
+0023 - Tres Flores
+0024 - Katana
+0025 - RatSword (Alkaiser only)
+0026 - KaiserWing (Alkaiser only)
+0027 - KaiserSmash (Alkaiser only)
+0028 - DestructionBeam
+0029 - MaginRampage
+002A - ClawBit
+002B - ClawBit
+002C - ClawBit
+002D - ClawBit
+002E - Counter
+002F - CounterChop
+0030 - CounterFist
+0031 - CounterBckFist
+0032 - CounterThrust
+0033 - CounterSlice
+0034 - KOPunch
+0035 - KOKick
+0036 - KOFist
+0037 - KOKicks
+0038 - KOSwings
+0039 - KORun
+003A - DragonBeat
+003B - DragonFist
+003C - DragonSlide
+003D - DragonBckFist
+003E - DragonSuplex
+003F - DragonSwingGuns Techs
+0040 - Shot
+0041 - SharpShot
+0042 - FocusShot
+0043 - TotalShot
+0044 - TrickShot
+0045 - TrickShot
+0046 - Reaction
+0047 - StunShot
+0048 - CrossShot
+0049 - QuickDraw
+004A - TwoGun
+004B - TestShot
+004C - IronClogShot
+004D - HyperGaze
+004E - JudgmentX
+004F - ProtonRocketHand Techs
+0050 - MysticalChange
+0051 - AlkaiserChange (Alkaiser only)
+0052 - MagmaTouch
+0053 - MagicStone
+0054 - SonicWave
+0055 - BrightFist (Alkaiser only)
+0056 - SparklingRoll (Alkaiser only)
+0057 - FlashTurn (Alkaiser only)
+0058 - Al-Blaster (Alkaiser only)
+0059 - Al-Phoenix
+005A - Re-Al-Phoenix
+005B - ShinigKick
+005C - DeflectLance
+005D - FinalCrusade
+005E - Dark Phoenix
+005F - Lightn
+0060 - Punch
+0061 - Kick
+0062 - Air Throw
+0063 - Chop
+0064 - Sliding
+0065 - RollingCradle
+0066 - SwayBack
+0067 - Fist
+0068 - Backfist
+0069 - CrushBeat
+006A - RotationKick
+006B - KO Throw
+006C - Suplex
+006D - GiantSwing
+006E - GoldHand
+006F - BabelCrumble
+0070 - TrinagleKick
+0071 - OrgeRun
+0072 - Scuffle
+0073 - LocmotionG
+0074 - DragonTurn
+0075 - Lastshot
+0076 - Corkscrew
+0077 - Sky Twister
+0078 - DSC
+0079 - Contact
+007A - Shock
+007B - Beat
+007C - Touch
+007D - SwingDDT
+007E - VandalFLip
+007F - PowerBombMonster Techs
+0080 - Fang
+0081 - FangCrush
+0082 - DaggerJaw
+0083 - Beak
+0084 - Horn
+0085 - StunGaze
+0086 - CharmGaze
+0087 - StoneGaze
+0088 - DeathGaze
+0089 - Hypnotism
+008A - Bloodsuck
+008B - Grasp
+008C - Perify
+008D - DoubleAxe
+008F - BrainCrush
+0090 - Beat
+0091 - Scissors
+0092 - PowerBeat
+0093 - Psychout
+0094 - Chop
+0095 - Feeler
+0096 - Claw
+0097 - DeathGrip
+0098 - PoisonGrip
+0099 - GhostTouch
+009A - StunTouch
+009B - Blade
+009C - GaleAttack
+009D - GroundHit
+009E - HeatSmash
+009F - IceSmash
+00A0 - Titas Wave
+00A1 - Thrust
+00A2 - Kick
+00A3 - Trample
+00A4 - Griffith Scratch
+00A5 - Tail
+00A6 - Tailhit
+00A7 - Sweep
+00A8 - SpinAttack
+00A9 - Stinger
+00AA - PoisonNeedle
+00AB - Feint
+00AC - Minionstrike
+00AD - Heal
+00AE - Coils
+00AF - Tackle
+00B0 - Dash
+00B1 - Headbutt
+00B2 - Stampede
+00B3 - Wing
+00B4 - Gliderspike
+00B5 - Oscillation
+00B6 - Firekiss
+00B7 - Spore
+00B8 - Seedvulcan
+00B9 - Solvent
+00BA - Needles
+00BB - Firebarrier
+00BC - Icebarrier
+00BD - Boltbarrier
+00BE - Counterfear
+00BF - PsyReflector
+00C0 - Kusanagi
+00C1 - Gasflame
+00C2 - Firebreath
+00C3 - Flameblast
+00C4 - Articbreath
+00C5 - Boltbreath
+00C6 - Boltblast
+00C7 - Ink
+00C8 - Watercannon
+00C9 - Stinkgas
+00CA - Poisongas
+00CB - Stonegas
+00CC - Sleepgas
+00CD - Tripgas
+00CE - MadAttack
+00CF - Beetlejuice
+00D0 - Acidbreath
+00D1 - DeadlyMoss
+00D2 - SphinxRiddle
+00D3 - Kylin's Song
+00D4 - HP Drain
+00D5 - Seductin
+00D6 - Pheremone
+00D7 - Flash
+00D8 - Spidernet
+00D9 - Bladenet
+00DA - Ectoplasnet
+00DB - Thunderbolt
+00DC - Painpowder
+00DD - PoisonMist
+00DE - Illstorm
+00DF - Windblast
+00E0 - Tornado
+00E1 - SacredSong
+00E2 - MagicHeal
+00E3 - Assist
+00E4 - Spoil
+00E5 - GremlinTouch
+00E6 - Heatwave
+00E7 - Mighty Cyclone
+00E8 - Maelstrom
+00E9 - Elfshot
+00EA - Supersonic
+00EB - Lullaby
+00EC - Scream
+00ED - Siren
+00EE - Da-dum
+00EF - Lightball
+00F0 - Tremor
+00F1 - Quake
+00F2 - Quicksand
+00F3 - Rock
+00F4 - Magnetic Storm
+00F5 - Battlesong
+00F6 - Sadsong
+00F7 - Silf
+00F8 - Ignis
+00F9 - LifeRain
+00FA - Diving Press
+00FB - Poison Gun
+00FC - Centipede Crush
+00FD - Boomerang Hook
+00FE - Photosynthesis
+00FF - DeathsynthesisLight Magic
+0100 - Sunray
+0101 - StarlightHeal
+0102 - FlashFire
+0103 - FlashFlood
+0104 - LightSword
+0105 - MegaWindBlast
+0106 - Kyon'sSmile
+0107 - SalamanderShadow Magic
+0108 - PowerGrab
+0109 - HideBehindSpace Magic
+0110 - VaporBlast
+0111 - Vanish
+0112 - ReverseGravity
+0113 - LightShift
+0114 - DarkShift
+0115 - Vortex
+0116 - SatelliteBeam
+0117 - GravitonTime Magic
+0118 - DelayOrder
+0119 - Timeleap
+0120 - Energy Chain
+011D - OverdriveTime Magic
+011A - ChaosStream
+011B - TimeEclipse
+011C - TimeTwister
+011D - OverDrive
+011E - RevolutionG
+011F - RevolutionGRealm Magic
+0121 - Implosion
+0122 - PsychoArmor
+0123 - Gate
+0124 - PsychicPrison
+0125 - VermilionSand
+0126 - Regeneration
+0127 - BackFireMystic Magic
+0128 - Fascination
+0129 - PhantasmShot
+012A - GlassShield
+012B - PhantasmShot
+012C - MirrorShade
+012D - Selection
+012E - BrokenGlass
+012F - BrokenGlassMind Magic
+0130 - MindHeal
+0131 - SpellBound
+0132 - Evaporate
+0133 - IronPole
+0134 - LifeWave
+0135 - Awakening
+0136 - Yell
+0137 - DrunkEvil Magic
+0138 - RavaShot
+0139 - PainDoubler
+013A - DeathCurse
+013B - SharpPain
+013C - RavaBarrire
+013D - MagiDefense
+013E - RavaBarrire
+013F - PossessionArcane Magic
+0140 - Saber
+0141 - Shield
+0142 - Grail
+0143 - Gold
+0144 - Magician
+0145 - Death
+0146 - Tower
+0147 - FoolRune Magic
+0148 - VictoryRune
+0149 - VitalityRune
+014A - HideRune
+014B - FreedomRune
+014C - WallRune
+014D - DwarfRune
+014E - StasisRune
+014F - SoulRuneLife Magic
+0150 - Sacrifice
+0151 - Reviva
+0152 - DirtyFang
+0153 - ElementDissolve
+0154 - BraveHeart
+0155 - EnemyFire
+0156 - Reviva
+0157 - CounterMagicianMirage Magic
+0158 - BlackCat
+0159 - NightMare
+015A - Jackal
+015B - Cockatrice
+015C - Reaper
+015D - MillionDollers
+015E - ShadowHold
+015F - SilverFangDodge Techs
+0160 - DodgeDrain
+0161 - Dodgetouch
+0162 - DodgeGale
+0163 - DodgeSmash
+0164 - DodgeTail
+0165 - DodgeNeedle
+0166 - DodgeTackle
+0167 - DodgeWing
+0168 - DodgePowder
+0169 - DodgeRiddle
+016A - DodgeSeduction
+016B - DodgeFlash
+016C - DodgeNet
+016D - DodgeThunder
+016E - DodgeTremor
+016F - DodgeRock
+0170 - DodgeGaze
+0171 - DodgeDeathGrip
+0172 - Kyon's SmileSpecial/Mec Abilities
+0173 - Kyon's Smile
+0174 - Kyon's Smile
+0175 - EvasionLaser
+0176 - EvasionRocket
+0177 - EvasionBullet
+0178 - Virus
+0179 - Kyon'sSmile
+017A - ShootingMastery
+017B - CombatMastery
+017C - TigerProgram
+017D - DragonProgram
+017E - MaxwellProgram
+017F - SelfRepair
+0180 - Blaster
+0181 - BlasterSword
+0182 - Paralyzer
+0183 - SonicBlaster
+0184 - WaterCannon
+0185 - BeamCannon
+0186 - MagnaBlast
+0187 - Vulcan
+0188 - BoltCannon
+0189 - FlameThrower
+018A - BoltThrower
+018B - PlasmaBullet
+018C - HE Rocket
+018D - RandomBaz
+018E - Missile
+018F - MecSonata
+0190 - BeamSword
+0191 - ECM
+0192 - Hammer
+0193 - StarLightShower
+0194 - KAMIKAZE Crush
+0195 - AT-Missile
+0196 - MicroMissle
+0197 - InterceptSystem
+0198 - RailCannon
+0199 - MachineVulcan
+019A - ShockSoldier
+019B - Pop Knight
+019C - Laser
+019D - Graviton
+019E - Bit
+019F - SatelliteLink
+01A0 - Repair Pack
+01A1 - Cosmic Rave
+01A2 - Logic Bomb
+01A3 - Jammer
+01A4 - Hypno Flash
+01A5 - Plural Slasher
+01A6 - Counter ECM
+01A7 - V-Max
+01A8 - Crosshair
+01A9 - Range Fire
+01AA - Magnify
+01AB - V-End
+01AC - Hammer Crush
+01AD - Energy Supply
+01AE - Shoot All
+01AF - Ghost Cannon
+01A0 - Mystic Sword
+01B1 - Needle
+01B2 - Lance
+01B3 - Blood Sucker
+01B4 - Blade
+01B5 - Magic Heal
+01B6 - Gremlin Effect
+01B7 - Hypnotism
+01B8 - Fire Breath
+01B9 - Osciallation
+01BA - Psy Net
+01BB - Heat Smash
+01BC - Flash
+01BD - Griggith Scratch
+01BE - Portrait
+01BF - Portrait
+01C0 - Mystic Glove
+01C1 - Da-Dum
+01C2 - Water Cannon
+01C3 - Deadly Powder
+01C4 - Spoil
+01C5 - Poisonus Blow
+01C6 - Feeler
+01C7 - Psych-out
+01C8 - Spread Blaster
+01C9 - Hell Wing
+01CA - Grape Shot
+01CB - Arctic Breath
+01CC - Ice Smash
+01CD - Crystalizer
+01CE - Tiger Rampage
+01CF - Tiger Rampage
+01D0 - Sweep
+01D1 - Mystic Boots
+01D2 - Power Kick
+01D3 - Thunder Ball
+01D4 - Blade Net
+01D5 - Assist
+01D6 - Spiders
+01D7 - Suffocation
+01D8 - Tremor
+01D9 - Mystery Tap
+01DA - Quicksan
+01DC - Assasinate
+01DD - Titas Wave
+01DE - Portrait
+01DF - Shoot All
+01E0 - Bit
+01E1 - Poison Damage
+01E2 - Power Save
+01E3 - Berva Counter
+01E4 - Moon Scraper
+01E5 - God Hand
+01E6 - Lord Cannon
+01E7 - Lords Dinner
+01E8 - Vulcan
+01E9 - Chain Heat
+01EA - Iron Ball
+01EB - Retribution
+01EC - Space Contact
+01ED - Carnage
+01EE - Hypnotism
+01EF - Life Steal
+01F0 - Hyper Bazooka
+01F1 - Buster Launcher
+01F2 - Smile
+01F3 - 3 Mistresses
+01F4 - Anti Stone
+01F5 - Sabers
+01F6 - Call
+01F7 - Runaway
+01F8 - Stun Needle
+01F9 - Salmonella
+01FA - Flash Bomb
+01FB - Magic Stone
+01FC - Final Strike
+01FD - Trample
+01FE - Heavy Rail Cannon
+01FF - Defense
+
+Character Names Digits
+
+Quantity Digits to Accompany Character Names Modifier Codes
+00 - Emelia
+01 - Lute
+02 - Red
+03 - Fuse
+04 - Blue
+05 - Asellus
+06 - T260
+07 - Riki
+08 - Rouge
+09 - Roufas
+0A - Gen
+0B - Fei-on
+0C - Annie
+0D - Liza
+0E - Capt.Hamilton
+0F - Doll
+10 - Mei-ling
+11 - Woman
+12 - White Rose
+13 - Ildon
+14 - Mesarthim
+15 - Zozma
+16 - Rei
+17 - Silence
+18 - Dr.Nusakan
+19 - TimeLord
+1A - Rabbit
+1B - Leonard
+1C - ZEKE
+1D - BJ&K
+1E - PzkwV
+1F - EngineerCar
+20 - CommonMec
+21 - Thunder
+22 - Cotton
+23 - Sei
+24 - Kylin
+25 - Slime
+26 - Suzaku
+27 - RedTurnip
+28 - Emilia (Half-Mystic, Buggy)
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+Regular Items
+00 - Cure
+01 - PowerCure
+02 - MaxCure
+03 - Antistone
+04 - SnakeOil
+05 - LifeCandy
+06 - NotUse (This item restores HP and cures Poison - Called Tanzer Meat in Japanese Version
+07 - Backpack
+08 - RepairKit
+09 - RottenMeat
+0A - FlashBomb
+0B - MagicStone
+0C - LuckyCoin
+0D - UnluckyCoin
+0E - StunNeedle
+0F - NotUse (Really has no use)
+Swords
+10 - Knife
+11 - BroadSword
+12 - KukriBlade
+13 - ShadowDagger
+14 - FiendRod
+15 - LaserKnife
+16 - SamuraiSword
+17 - CeramicSword
+18 - TwinSword
+19 - SilverSpread
+1A - Osc-Sword
+1B - Katana
+1C - JackalSword
+1D - NotUse (Atk Pwr 39 Sword - Called Miracle Blade in Japanese Version
+1E - Glirandly
+1F - RaySword
+20 - RuneSword
+21 - TwinDragon
+22 - SplashSword
+23 - TwiggyRod
+24 - CometBlade
+25 - ZeroSword
+26 - Obsidian
+27 - Kusanagi
+28 - Murakumo
+29 - IronPipe
+2A - DragonSword
+2B - SilverMoon
+2C - Asura
+2D - GoldenLion
+2E - Lordstar
+2F - LightSword
+Guns
+30 - AGUNI-SSP
+31 - EasyRifle
+32 - NotUse (Atk Pwr 13 Gun - Called Derringer in Japanese Version
+33 - AGUNI-CP1
+34 - KillerRifle
+35 - TroopRifle
+36 - EagleGun
+37 - SniperRifle
+38 - BehemothRifle
+39 - AGUNI-MBX
+3A - DuelGun
+3B - LivingRifle
+3C - ZenGun
+3D - LethalGun
+3E - BrokenRifle
+3F - LightRifle
+40 - HandBlaster
+41 - LaserCarbine
+42 - HyperBlaster
+43 - BeamCannon
+44 - LightningCannon
+45 - SonicCannon
+46 - WaterCannon
+47 - JunkBazooka
+48 - LightVulcan
+49 - MachineVulcan
+4A - Thunderbolt
+4B - FlameThrower
+4C - BoltThrower
+4D - IonCannon
+4E - GrainCannon
+4F - HG-Cannon
+50 - GhostCannon
+51 - LightBazooka
+52 - HEATBazooka
+53 - HyperionBazooka
+54 - DOBBYBazooka
+55 - MissilePod
+56 - BigMissle
+57 - SuperMissle
+Mec Weapons/Parts
+58 - BeamSword
+59 - MegaBeamSword
+5A - Hammer
+5B - LaserCannon
+5C - AT Missile
+5D - AT Missle
+5E - RailCanon
+5F - MicroMissle
+60 - RailCannon
+61 - RailCannon
+62 - MachineVulcan
+63 - LaserCannon
+64 - MinorLaser
+65 - LaserCannon
+66 - DragonCannon
+67 - JunkVulcan
+68 - SatelliteBeam
+69 - BitSystem
+6A - MediPack
+6B - RepairPack
+6C - RepairPack
+6D - OctopusBoard
+6E - NakajimaBoard
+6F - NakajimaBoard
+70 - V-Special
+71 - V-System
+72 - JunkParts
+73 - RailCannon
+74 - MemoryBoard
+75 - SecretBoard
+76 - LastRing
+77 - TrainingGun
+Shields
+78 - Buckler
+79 - ShellShield
+7A - ExcelShielf
+7B - GenbuShield
+7C - DragonShield
+7D - Mizukagami
+7E - DurahanShield
+7F - WonderBangle
+Armor
+80 - FiberVest
+81 - HardLeather
+82 - ArmorVest
+83 - ElectroArmor
+84 - WarLordArmor
+85 - DarkRobe
+86 - BlueElf
+87 - GlowRobe
+88 - MoonlightRobe
+89 - StardustRobe
+8A - ShadeRobe
+8B - Accelerator
+8C - MiniPlant
+8D - MecBody
+8E - FortBody
+8F - ECMSystem
+90 - FireLeather
+91 - CelestialLeather
+92 - HyperScale
+93 - AngelArmor
+94 - PlutoArmor
+95 - BeastLeather
+96 - Protector
+97 - SlimyArmor
+98 - JerryArmor
+99 - BoneBreast
+9A - LivingArmor
+9B - HarmoniumArmor
+9C - SkeleMail
+9D - MasterRobe
+9E - GoldenFleece
+9F - MysticMail
+Suits
+A0 - CombatSuit
+A1 - JumpSuit
+A2 - CyberSuit
+A3 - PoweredSuit
+A4 - SprigganSuit
+A5 - RubberSuit
+A6 - GolemSuit
+A7 - WhiteDress
+Shirts
+A8 - CottonShirt
+A9 - SilkShirt
+AA - MagicWear
+AB - BudoWear
+AC - DefendWear
+AD - HyperWear
+AE - PowerBelt
+AF - MysticWear
+Helmets
+B0 - JunkHelm
+B1 - YolkHat
+B2 - FiberHood
+B3 - LaserScope
+B4 - MirrorGlass
+B5 - InfraScope
+B6 - EggHat
+B7 - Magihat
+Gloves
+B8 - LeatherGlove
+B9 - ShellBracer
+BA - ArmorGlove
+BB - CyberGlove
+BC - OgreGlove
+BD - NornsBangle
+BE - SH-Armlet
+BF - HarmoniumBangle
+Boots
+C0 - LeatherBoots
+C1 - RubberShoes
+C2 - JetBoots
+C3 - FeatherBoots
+C4 - IronClogs
+C5 - Catsocks
+C6 - SH-Anklet
+C7 - DanceShoes
+Accessories
+C8 - FangAmulet
+C9 - WingAmulet
+CA - FlowerAmulet
+CB - SteelAmulet
+CC - FireCrystal
+CD - IceCrystal
+CE - BoltCrystal
+CF - BloodChalice
+D0 - HarmoniumEarring
+D1 - EMESTag
+D2 - WindShell
+D3 - FeatherCharm
+D4 - SeaStone
+D5 - PurpleEye
+D6 - MellowRing
+D7 - PearlHeart
+D8 - KrisKnife
+D9 - UnicornTear
+DA - Tao-TiehPattern
+DB - FovosGrail
+DC - SandVessel
+DD - AngelBroach
+DE - CharmNecklace
+DF - RING/Guardian
+E0 - RING/Merchant
+E1 - RING/Thief
+E2 - RING/Schemer
+E3 - RING/Hero
+E4 - RING/Hermit
+E5 - RING/Healer
+E6 - RING/Fighter
+E7 - RING/Lord
+E8 - BrokenBumper
+E9 - Junk
+EA - Magatama
+EB - Bumper
+EC - JunkPart
+ED - SleetCoin
+EE - SolGrail
+EF - ThunderCharm
+Other Items
+F0 - GoldIngot
+F1 - VirgilKey
+F2 - BlackXKey
+F3 - SmallStone
+F4 - RuneStone
+F5 - Card
+F6 - ArcanaTarot
+F7 - SandVessel
+F8 - NotUse (No use)
+F9 - NotUse (No use)
+FA - Magi-Water
+FB - XMagi-Drink
+FC - SantuaryStone
+FD - RegionMap
+FE - NotUse (It Does Something If You Use It, Don't Know What)
+FF - Empty Slot
+
+Race Digits
+
+Quantity Digits to Accompany Race Modifier Codes
+00 - Half-Mystics
+01 - Human Neutral
+02 - Mystics Neutral
+04 - TYPE1 Neutral
+08 - Lummox
+0C - Type A Neutral
+10 - ?
+20 - ?
+40 - Half Mystics Female
+80 - Half Mystics Male
+E0 - Half-Mystics BI

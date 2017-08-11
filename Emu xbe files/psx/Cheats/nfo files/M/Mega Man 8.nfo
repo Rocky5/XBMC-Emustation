@@ -1,0 +1,18 @@
+Quantity Digits to Accompany Powerups Modifier Codes
+00 - Nothing
+01 - ?
+02 - Power Shield
+03 - Energy Balancer
+04 - Exit
+05 - ?
+06 - ?
+07 - Shooting Part
+08 - Spare Extra
+09 - ?
+0A - ?
+0B - Laser Shot
+0C - Arrow Shot
+0D - Auto Shooot
+
+Note 1:
+With this code, it will shoot multiple times per shot, but it doesnt like some weapons.

@@ -1,0 +1,26 @@
+Quantity Digits to Accompany Head & Feet Modifier Code
+01 - Small Heads & Feet
+02 - Big Heads & Big Feet
+
+Quantity Digits to Accompany Character Modifier Codes
+0A - Blistein
+0B - Kappah
+0C - Blood
+14-Real Bilstien
+
+Quantity Digits to Accompany Stage Modifier Codes
+09 - Bilstien's stage
+0A - Real Bilstien's stage
+0B - Training stage
+
+Note 1:
+With these codes, you can use values 01-09, 01 is the smallest & 09 is the largest.
+
+Note 2:
+With these codes, you can use values 01-09, 01 is the smallest & 09 is the largest.
+
+Note 3:
+With these codes, you can use values 1-9, 1 is the smallest & 9 is the largest.
+
+Note 4:
+With this code, it allows both players to hit, make contact, with each other no matter where they are on the screen.

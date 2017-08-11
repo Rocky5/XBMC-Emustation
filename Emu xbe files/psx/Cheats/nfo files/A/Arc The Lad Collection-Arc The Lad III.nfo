@@ -1,0 +1,508 @@
+all character notes
+
+Note 1:
+With this code, you must enable it to use the modifier codes below.
+
+
+
+
+Item Digits
+
+Quantity Digits to Accompany Armor, Weapon, Item Accessory & Synthesis Item Modifier Codes
+
+00 - Vigor Seed
+01 - Harmony Needle
+02 - Gravity Nut
+03 - Mint
+04 - Memory Plant
+05 - Power Jelly
+06 - Rue's Medicine
+07 - Recovery Tonic
+08 - General Tonic
+09 - Super General Tonic
+0A - Dead Bud
+0B - Herb
+0C - Amazing Herb
+0D - Super Amazing Herb
+0E - Potent Herb
+0F - ?
+10 - Apple Extract
+11 - Magic Apple
+12 - Hybrid Magic Apple
+13 - Red Apple
+14 - Super Potent Apple
+15 - ?
+16 - Life Nut
+17 - Ambrosia
+18 - Magic Power Nut
+19 - ?
+1A - Strength Nut
+1B - Reco Pod
+1C - Magic Sprig
+1D - Palo Nut
+1E - Violet Fruit
+1F - Potent Violent Fruit
+20 - Vitality Fruit
+21 - Gods Nectar Fruit
+22 - Bomb
+23 - Big Bomb
+24 - Antipersonnel Bomb
+25 - Rocket Bomb
+26 - Life Fruit
+27 - Soul Herb
+28 - Blunt Sword
+29 - Bronze Sword
+2A - Iron Sword
+2B - Steel Sword
+2C - Silver Sword
+2D - Platinum Sword
+2E - Crystal Sword
+2F - Alloy Blade
+30 - ?
+31 - Firangi
+32 - Ice Saber
+33 - Earth Blade
+34 - Storm Sword
+35 - Ray Sword
+36 - Diablo Edge
+37 - ?
+38 - Gorgeous Ring
+39 - Flame Saber
+3A - Crimson Edge
+3B - Butcher Knife
+3C - Bronze Dagger
+3D - Iron Knife
+3E - Steel Scalpel
+3F - Silver Knife
+40 - Platinum Knife
+41 - Crystal Knife
+42 - Super Alloy Knife
+43 - Rune Dagger
+44 - Assasin Knife
+45 - Silent Dagger
+46 - Gravity Dagger
+47 - Slumber Blade
+48 - Mind Smasher
+49 - Shadow Stitcher
+4A - ?
+4B - ?
+4C - Reciprocal Blade
+4D - Warped Spear
+4E - Iron Spear
+4F - Steel Spear
+50 - Silver Sarissa
+51 - Platinum Sarissa
+52 - Crystal Spear
+53 - Super Alloy Spear
+54 - Rune Spear
+55 - Muse Lance
+56 - Card Trident
+57 - ?
+58 - Magma Spear
+59 - Blizzard Spear
+5A - Gaia Spear
+5B - Hurricane Spear
+5C - Holy Spear
+5D - Dark Spear
+5E - Phalanx
+5F - Scrap Gun
+60 - Revolver
+61 - Sub Machine Gun
+62 - Assault Gun
+63 - Heavy Machine Gun
+64 - Grenade Launcher
+65 - Gatling Gun
+66 - Rocket Launcher
+67 - Rocket Launcher
+68 - Genocider
+69 - Shotgun
+6A - Nightmare
+6B - Hunter Rifle
+6C - Sniper Rifle
+6D - Hyper Shotgun
+6E - Lunar Blaster
+6F - Stone Gun
+70 - Dimension Gun
+71 - Uncanny Pole
+72 - Silver Rod
+73 - Platinum Rod
+74 - Crystal Rod
+75 - Hyper Alloy Rod
+76 - Rune Wand
+77 - Mirage Rod
+78 - Force Rod
+79 - Vlad Wand
+7A - Renewal Wand
+7B - Magic Stick
+7C - Tohroo Stick
+7D - Mystic Rod
+7E - Sacred Rod
+7F - Astral Rod
+80 - ?
+81 - Cursed blade
+82 - Silver Blade
+83 - Platinum Blade
+84 - Crystal Blade
+85 - Titanium Blade
+86 - Rune Blade
+87 - Avenger
+88 - Guardian
+89 - Blaze Guard
+8A - Glacier Guard
+8B - Earth Keeper
+8C - Wind Keeper
+8D - Light Protector
+8E - Dark Protector
+8F - ?
+90 - Light Saber
+91 - Warped Armor
+92 - Leather Armor
+93 - Steel Armor
+94 - Silver Mail
+95 - Platinum Mail
+96 - Rune Armor
+97 - Fire Armor
+98 - Water Armor
+99 - Earth Armor
+9A - Wind Armor
+9B - Light Armor
+9C - Dark Armor
+9D - ?
+9E - ?
+9F - Shininig Armor
+A0 - Traveler Robe
+A1 - Fur Cape
+A2 - Hunter Cape
+A3 - Platinum Robe
+A4 - Rune Robe
+A5 - Fire Robe
+A6 - Water Robe
+A7 - Earth Robe
+A8 - Wind Robe
+A9 - Light Robe
+AA - Dark Robe
+AB - ?
+AC - ?
+AD - ?
+AE - Decorator
+AF - Parade Coat
+B0 - Jeweled Dress
+B1 - Light Suit
+B2 - Cloth Suit
+B3 - Adventurer Vest
+B4 - Chain Vest
+B5 - Silver Breastplate
+B6 - Platinum Breastplate
+B7 - Rune Vest
+B8 - Fire Vest
+B9 - Ice Vest
+BA - Earth Vest
+BB - Wind Vest
+BC - Light Vest
+BD - Dark Vest
+BE - Battle Vest
+BF - ?
+C0 - ?
+C1 - Metal Arm
+C2 - Warped Amulet
+C3 - Red Talisman
+C4 - Blue Talisman
+C5 - Yellow Talisman
+C6 - Green Talisman
+C7 - White Talisman
+C8 - Black Talisman
+C9 - Flame Amulet
+CA - Ice Amulet
+CB - Earth Amulet
+CC - Wind Amulet
+CD - Light Amulet
+CE - Dark Amulet
+CF - Flame Madallion
+D0 - Hydro Medallion
+D1 - Earth Medallion
+D2 - Wind Medallion
+D3 - Holy Medallion
+D4 - Abyssar Medallion
+D5 - ?
+D6 - Soothing Ring
+D7 - Falcon Statue
+D8 - Magnetic Belt
+D9 - Insomnia Card
+DA - Tanzanite
+DB - Anti Hemo-ji
+DC - Emblem Of Lark
+DD - Book Of Cravis
+DE - Litch Ring
+DF - Strength Armlet
+E0 - Protection Armlet
+E1 - Magic Armlet
+E2 - Swift Armlet
+E3 - Muscle Ring
+E4 - Armor Ring
+E5 - Spirit Ring
+E6 - Speed Ring
+E7 - ?
+E8 - Soldiers Armlet
+E9 - Heretic Armlet
+EA - Romancing Stone
+EB - Flays Crest
+EC - Railas Mirror
+ED - Delight Heel
+EE - Kings Image
+EF - Flame Fragment
+F0 - Water Fragment
+F1 - Earth Fragment
+F2 - Wind Fragment
+F3 - Light Fragment
+F4 - Dark Fragment
+F5 - Shimmer Stone
+F6 - Light alloy
+F7 - Tough Alloy
+F8 - Mysterious Ore
+F9 - Rads Reagent
+FA - Tems Root
+FB - Wisdom Tablet
+FC - Inferno Powder
+FD - Vine Rope
+FE - Calm Nut
+FF - Nothing
+
+Magic Digits
+
+Quantity Digits to Accompany Magic Modifier Codes
+
+00 - Cure1
+01 - Cure2
+02 - Cure3
+03 - Force Ring1
+04 - Force Ring2
+05 - Force Ring3
+06 - Silent3
+07 - Resurrection3
+08 - Impulse Bomb1
+09 - Impulse Bomb2
+0A - Impulse Bomb3
+0B - Divide1
+0C - Divide2
+0D - Divide3
+0E - Crystal Dust1
+0F - Crystal Dust2
+10 - Crystal Dust3
+11 - Brain Blast1
+12 - Brain Blast2
+13 - Brain Blast3
+14 - Magic Shield1
+15 - Magic Shield2
+16 - Magic Shield3
+17 - Steal3
+18 - Refresh1
+19 - Refresh2
+1A - Refresh3
+1B - Knife Rain1
+1C - Knife Rain2
+1D - Knife Rain3
+1E - Fatal Dagger3
+1F - Excitement3
+20 - Cardish3
+21 - Card Field1
+22 - Card Field2
+23 - Card Field3
+24 - Rob Mind1
+25 - Rob Mind2
+26 - Rob Mind3
+27 - Cross Javelin1
+28 - Cross Javelin2
+29 - Cross Javelin3
+2A - Napalm Edge1
+2B - Napalm Edge2
+2C - Napalm Edge3
+2D - Double Illusion1
+2E - Double Illusion2
+2F - Double Illusion3
+30 - Night Raid1
+31 - Night Raid2
+32 - Night Raid3
+33 - Dark Out1
+34 - Dark Out2
+35 - Dark Out3
+36 - Heat Shell1
+37 - Heat Shell2
+38 - Heat Shell3
+39 - Water Crumble1
+3A - Water Crumble2
+3B - Water Crumble3
+3C - Land Ax1
+3D - Land Ax2
+3E - Land Ax3
+3F - Air Blast1
+40 - Air Blast2
+41 - Air Blast3
+42 - Light Arrow1
+43 - Light Arrow2
+44 - Light Arrow3
+45 - Dark Extreme1
+46 - Dark Extreme2
+47 - Dark Extreme3
+48 - Giga Plasma3
+49 - Omega Buster1
+4A - Omega Buster2
+4B - Omega Buster3
+4C - Omega Breaker3
+4D - Omega Burst1
+4E - Omega Burst2
+4F - Omega Burst3
+50 - Misou I1
+51 - Misou I2
+52 - Misou I3
+53 - Firestorm3
+54 - Strike Power3
+55 - Explosion3
+56 - Tenderly Shock3
+57 - Ouka-raibaku-zen3
+58 - Shinku-zen3
+59 - Monji Slash3
+5A - Jubakuken3
+5B - Ruby Laser3
+5C - Diamond Shower3
+5D - Platinum Pressure3
+5E - Jewelry Box3
+5F - Dog Breath3
+60 - Fire Breath3
+61 - Water Breath3
+62 - Earth Breath3
+63 - Wind Breath3
+64 - Light Breath3
+65 - Dark Breath3
+66 - Insane Laugh3
+67 - Banzai Run3
+68 - Fireball3
+69 - Inferno Sphere3
+6A - Gravity Liquid3
+6B - Menace3
+6D - Scattering3
+6E - Goo Spew3
+6F - Goo Smack3
+70 - Goo Down3
+71 - Sleep Scent3
+72 - Paralysis Scent3
+73 - Confusion Scent3
+74 - Paralysis Scream3
+75 - Silent Scream3
+76 - Unholy Scream3
+77 - Gravity Spore3
+78 - Sleep Spore3
+79 - Paralysis Spore3
+7A - Fire Swirl3
+7B - Earth Swirl3
+7C - Paralysis Swirl3
+7D - Heavy Eyes3
+7E - Hypno Eyes3
+7F - Medusa Glance3
+80 - Body Fluids3
+82 - Gravity Thread3
+83 - Sleep Magic3
+84 - Confusion Magic3
+85 - Restore3
+86 - Summons3
+87 - Hells Gate1
+88 - Hells Gate2
+89 - Hells Gate3
+8A - Silence Howl3
+8B - Gravity Howl3
+8E - Blast3
+90 - Supersonic Wave3
+91 - Stpme
+92 - Crystal Morph3
+93 - Possession3
+94 - Dark Seduction3
+95 - Darkest Seduction3
+96 - Bell3
+97 - Cannon3
+98 - Laser Cannon3
+99 - Reckless Cut3
+9A - Vacuum Cut3
+9B - Recovery Vibration3
+9C - Attack Vibration3
+9D - Spear Toss3
+9E - Mute Alarm3
+9F - Sword Dance
+A0 - Hurricane Attack3
+A1 - Circle Riot3
+A2 - Bees Nest3
+A3 - Sonic Wave3
+A4 - Heal Zone3
+A5 - Kill Zone3
+A9 - Bomb Toss3
+AA - Empower3
+AB - Seed Spray3
+AC - Smackdown3
+AD - Amaidar Fist3
+AE - Pickpocket3
+AF - Shrinkage3
+B0 - Hemo-ji Hammer3
+B1 - Icicle Cage3
+B2 - Blizzard Horn3
+B3 - Ice Masher3
+B4 - Prism Wall3
+B5 - Cyclone Fang3
+B6 - Filthy Mist3
+B7 - Raging Blaze3
+B8 - Genesis-X3
+B9 - Pincer Purification3
+BA - Thorn Thrust3
+BB - Fascination Laser3
+BC - Killing Mist3
+BD - Wing Cut3
+BE - Seal Thunder Cut3
+BF - Thunder God Fission3
+C0 - Matchless Thunder3
+C1 - Will-o-wisp Summon3
+C2 - Transform3
+C3 - Chain Gun Sweeping3
+C4 - High Orbit Explosive3
+C5 - Chaos Arms Cannon3
+C6 - Whupass Beam3
+C7 - Hyper Scrape3
+C8 - Flick Shield3
+C9 - Agility Bellow3
+CA - Wild Shout3
+CB - Break Slide3
+CC - Gatling Barrage3
+CD - Short Cannon3
+CE - Frenzy Laser3
+CF - Reactor Flare3
+D0 - Gravity Breath3
+D1 - Vortex Storm3
+D2 - Fire Crimson3
+D3 - White Shadow Dual3
+D4 - Storm Dance3
+D5 - Psycho Blade3
+D6 - Evil Vortex3
+D7 - Water Torture3
+D8 - Flashpoint3
+D9 - Dark Flash3
+DA - Chaotic Impulse3
+DB - Vice Crop3
+DC - Advent Of Demise3
+DD - Fire Breath3
+DE - Water breath3
+DF - Dark Breath3
+E0 - Frenzy Laser3
+E2 - Counterattack3
+E3 - Flame Thrower3
+E7 - Short Kiss Goodnight3
+E8 - Kiss off3
+E9 - Fire Breath1
+EA - Water Breath2
+ED - Bomb3
+EE - Amazing Bomb3
+EF - Super Amazing Bomb3
+F0 - Strongest Bomb3
+F1 - Heat Shell3
+F2 - Water Crumble3
+F3 - Land Ax3
+F4 - Air blast3
+F5 - Light Arrow3
+F6 - Dark Extreme3
+FE - Cardish Failed3
+FF - Nothing

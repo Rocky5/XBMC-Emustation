@@ -1,0 +1,250 @@
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b21 changes...
+
+* Load/Save state code modified to handle dual cores for NeogenplusGX.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b20 changes...
+
+* Only first Misc artwork directory was being displayed across a network share.  Fixed.
+
+-----------------------------------------------------------------------
+
+This will document all the changes to the Madmab Edition interface which essentially affects all emulators when they are compiled.  This will make tracking emulator differences for me easier seeing how I have 30 plus emulators under my belt.
+
+The interface version used by an emulator can be found in the help menu (example: CFv1b01 ).  If it is not present then the emulator has not been compiled since this change.
+
+Madmab Edition Interface CFv1b19 changes...
+
+* Fixed issue with screen size/position randomly changing when using global override and custom screen/size position.
+
+* Based on user feedback removed the following software filters 2xSai Scanline, 4xSai Scanline, Super 2xSai Scanline, Super 4xSai Scanline, Eagle 2x Scanline, Eagle 4x Scanline, Super Eagle2x Scanline, Super Eagle4x Scanline.
+
+*********************************
+* New Scanline Software Filters *
+*********************************
+
+* Added 6 new software filters from GensX and 2 from NeoGeo CD emulator to the the x-port arsenal.  
+
+* They are as follows Scanlines Filter and Scanlines 50 Filter from NeoGeo CD and Full Scanline, Interpolated Scanline, 50% Scanline, Interpolated 50% Scanline, 25% Scanline, Interpolated 25% Scanline from GensX.
+
+* These will be added to emulators as I can and will be reported in each emu's latest changes text file.
+
+* Here are the current rules for the scanline filters..  These may change as more testing occurs.
+
+The filters can be found in the "software filter" section towards the end of the list.
+
+-------------------------------------
+When you select a new scanline filter
+-------------------------------------
+
+If the game video mode is an HD mode the hardware filter will be changed to bilinear filter because the point filter does not look right unless Y pos is set to -1 and who wants part of the top of their screen missing. Flicker filter Level will be left alone.
+
+If the game video mode is an SD mode the flicker filter level will be set to 2. Hardware filter will be left alone.
+
+-----------------------------------
+When you change the game video mode
+-----------------------------------
+
+If the game video mode is an HD mode and the software filter is a "GensX scanline filter" the hardware filter will be changed to bilinear filter because the point filter does not look right unless Y pos is set to -1 and who wants part of the top of their screen missing. Flicker filter Level will be left alone.
+
+If the game video mode is an SD mode and the software filter is a "GensX scanline filter" the flicker filter level will be set to 2. Hardware filter will be left alone.
+
+----------------------------------------
+How the video size/screen position works
+----------------------------------------
+
+With the exception of "custom" video size/screen position. If you have the software filter set to a "GensX Scanline Filter" then the following rules apply. Otherwise it does what it always did.
+
+If the game video mode is an HD mode the hardware filter will be changed to bilinear filter because the point filter does not look right unless Y pos is set to -1 and who wants part of the top of their screen missing. Flicker filter Level will be left alone.
+
+If the game video mode is an SD mode the flicker filter level will be set to 2. Hardware filter will be left alone.
+
+*********************************
+* End Scanline Software Filters *
+*********************************
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b18 changes...
+
+* Software and Hardware filter are no longer saved with each individual game configuration.  Consider it effectively "global" now.
+
+* Video mode is now changed when sizing the screen if you are using a custom size and the game video mode is set to something other than the interface video mode.  For emulators that have game specific video modes, set the screensize while in-game.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b17 changes...
+
+* Sound is now paused on game "exit".  To (hopefully) prevent sound stuttering on exit.
+
+* Fixed issue where selecting the root directory with the A button would crash the emulator.  an oversite when I was modifying the game selection code.
+
+* More cleanup of the screenshot display code.  
+
+* Fixed left/right d-pad browsing code on the favorites menu.  Also fixed issue on game select menu when number of files in a directory is less than lines displayed by the skin.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b16 changes...
+
+* Fixed issue where interface was improperly numbering the savestates for Snes9xbox core 1.53 and thus you could save a state but not load it.
+
+* You can now disable the "Launch Inserted CD" option menu in the "Dummy/Lockdown Mode Settings" menu for emulators that use have this option.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b15 changes...
+
+* Fixed issue on emulators that use individual game modes where the interface video mode was reverting to a games video mode if the xbox was turned off before exiting the game.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b14 changes...
+
+* Fixed issue where game browser would revert to displaying normal filenames instead of long filenames when the file browser is used in-game.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b13 changes...
+
+* Fixed some issue with the manual screen advance code.  In particular manual advancement of box/cart art when the display time is set to 0.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b12 changes...
+
+* Saving screensize/position globally somehow got borked.  Hopefully fixed.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b11 changes...
+
+* File select menu allowed you to add/remove files from favorites or delete game saves even when you were not in the game select menu.  Fixed.
+
+* The indexes for box/cart art size/position were all wacked out causing some skins not to display boxart.  However some skins do not have their orientation options set correctly so you might have to fix that first.  Sorry for the big goof.  All of my testing were done with the official skins by Gilou999.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b10 changes...
+
+* Option to display static if no movie exists got borked.  Fixed.
+
+* Fixed the bubble sort in the unzip routine.  Whoopsie.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b09 changes...
+
+* Manually changing screenshots after first highlight of a game was not working correctly so if you had an action and some misc screenshots it would display the misc screenshot first.
+
+* Hardware filter being changed to bilinear for some reason when using on screen keyboard in SD modes (for example the "save controller configuration" option.  Fixed.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b08 changes...
+
+* Fixed a nasty bug related to allowing long filename to be passed in createlocal and unzipfile.
+
+* Default option for exactSecMatch in GetIniInt and GetIniString was reversed.  Corrected it.  Reversed entries in :ShowGameSynopsis and :LoadGameButtonList as well.  Updated all emulators that have a gamebase config to use the new format.
+
+* Moved "Show Action List Instead of Keyboard" option for emulators that use it into "commonfuncs" where it belongs.  Currently atarixlbox only.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b07 changes...
+
+* Added support for HD synopsis backgrounds.  However transitions in the synopsis are disabled if one is used.
+
+* Modified game select screen so if the game selected is at the midpoint in the list it will scroll the screen instead of waiting till you reach the top or bottom.
+
+* Corrected list positioning bug that occurs sometimes when backing out of a directory (controller Y) (filelist shorter than maxnumlines).
+
+* Fixed a couple bugs in the "Go to next letter (dpad-right)" code.  (While loop).
+
+* Fixed a bug in the "Go to next/prev letter (dpad-right/left)" code when in favorites and using longfilenames (xtra).
+
+* Fixed a glitch in the "Go to next/prev letter (dpad-right/left)" code regarding directories when using longfilenames (xtra).
+
+* Disabled mp3 volume controls in the media browser (graphics / manuals / etc ) because it conflicts with the "sizing" controls.
+
+* Disabled mp3 volume controls in the synopsis viewer to prevent accidental adjusting of the volume while hopping in/out of synopsis view.
+
+* Adjusted the text in the dummy/Lockdown mode menu ( for SD mode )
+
+* Added two new options to the Dummy/Lockdown mode menu.  "Prevent MP3 Vol Change In Game Select Menu? Yes/No" and "Prevent Movie Vol Change In Game Select Menu? Yes/No"
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b06 changes...
+
+* On emu's that have an NTSC filter the option to change the software filter is not shown if the NTSC filter is active ( still needs changing on atarixlbox and classic99x? )
+
+* Dual code for handing individual game screen size/position and global game screen size/position so either one can be used depending on the emulator.  Emulators currently affect..
+  global -> ( MekaX, Xboyadvance, WinstonX).  Individual -> ( X68000X, Winuaex, Dosxbox )
+
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b05 changes...
+
+* Modified createlocal and unzipFile so that they can return the longfilename if one exists (external files or within ZIP)
+
+* Modified GetValuePopup so it can handle increments other than 1 and numbers with decimal (some math required on your part :P ).
+
+* When selecting a file within a zip Pressing B to cancel would not close the zip file, thus preventing it from being selected again.  (fixed).
+
+* Fixed a bug with the IGM that would prevent some emu specific options from working properly.  Not sure how this one slipped by for so long.  :lol:
+
+* Modified game volume control so it can now control emulators where the core is MESS (aka A7800x)
+
+* Fixed a lockup bug in the action list "showGameControls" function.
+
+* doConfigureController and doConfigureControllers now return whether a change to the controller settings was made.
+
+* Now clears the Preset Controller name when the "Copy Configuration" option is used like it is supposed to.
+
+* YesNoMenu modified to allow selection of default response (yes or no).
+
+* Added new menu to "Xtras menu" to allow toggling debug output to file.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b04 changes...
+
+* Minor changes to allow proper action list support for DosXbox.  No effect on other emulators.
+
+* Minor fix to the manual browsing code that would have affected DosXbox.  No effect on other emulators.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b03 changes...
+
+* Fixed some issues involved with moving to the previous/next file when viewing manuals from within a zip file. (all emus)
+
+* Fixed another issue involved with moving to the previous/next file when viewing manuals from within a zip file in emulators that use the alternate unzip routine.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b02 changes...
+
+* Fixed an issue with samba share browsing on certain routers.  All I know is it now works on ARRIS routers used by Time Warner Cable and possibly others.
+
+* Added ability to show Box Front images from "Box Front 01" directory.  For now it is Box Front only.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b01 changes...
+
+* Fixed some bugs in the displaying of sprites in the IGM.
+
+* Added a new skin menu option "Select Static IGM Background Image".  This can be found in the "All 'Other' Menu Settings" menu.  It allows the skinner to have a background image other than the "other" menu background while in the IGM.  The idea is that when in the IGM the least amount of memory is available.  This helps with cases where sprites just wont display while IGM (long story).  If you use this feature the IGM sprites will be disabled and the emulator warns you of this.  To "disable" the static IGM backgroun menu just select the option and press "B", thus not selecting a file.
+
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface changes pre CPv1b01
+
+This will be updated later.  For now just look at the "Latest-emuname.txt" and "Readme-emuname.txt" files.

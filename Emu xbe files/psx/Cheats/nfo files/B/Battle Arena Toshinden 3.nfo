@@ -1,0 +1,12 @@
+Quantity Digits to Accompany View Modifier Code
+00 - Normal
+01 - Long View
+02 - Sky View
+03 - Overhead
+04 - Player
+
+Battle Arena Toshinden 3 Notes
+
+Note 1:
+
+With this code, it allows both players to hit, make contact, with each other no matter where they are on the screen.

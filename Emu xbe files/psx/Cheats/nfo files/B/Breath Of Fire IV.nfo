@@ -1,0 +1,783 @@
+Breath Of Fire IV Notes
+
+Note 1:
+
+With this code, turn off during boss battles, in Ludia when rescuing Cray, and while on the Golden Plain or the game could crash.
+
+Note 2:
+
+With this code, Press L1 to activate. Always the last fish you caught will bite when you activate it.
+
+Accessory Digits
+
+Quantity Digits to Accompany Accessory Modifier Codes
+00 - Nothing
+01 - Bandana
+02 - Hairband
+03 - Brass Helm
+04 - Glass Domino
+05 - Long Boots
+06 - Dress Shoes
+07 - Divine Helm
+08 - Combat Boots
+09 - Spats
+0A - DamacsusHelm
+0B - Dragon Helm
+0C - Titan's Boots
+0D - Wisdom Ring
+0E - Speed Boots
+0F - Hawk's Ring
+10 - Artemis' Cap
+11 - Hunting Cap
+12 - Winged Boots
+13 - Dream Ring
+14 - UV Goggles
+15 - Balance Ring
+16 - Bell Collar
+17 - Holy Mantle
+18 - Cupid's Lyre
+19 - Ivory Bangle
+1A - Ring of Fire
+1B - Ring of Wind
+1C - Ring of Ice
+1D - Ring of Clay
+1E - Aura Ring
+1F - Barrier Ring
+20 - Life Sandals
+21 - Light Bangle
+22 - Talisman
+23 - Diamond Ring
+24 - Topaz Tear
+25 - Poison Ward
+26 - Healing Ring
+27 - Dragon Tear
+28 - Shaman'sRing
+29 - Soul Ring
+2A - Spirit Ring
+2B - Soul Gem
+2C - Midas Stone
+2D - Coupons
+2E - Fire Ward
+2F - Wind Ward
+30 - Water Ward
+31 - Earth Ward
+32 - Astral Ward
+33 - Body Ward
+34 - HarmonicRing
+35 - Red Cape
+36 - Toothpick
+37 - Wooden Rod
+38 - Bamboo Rod
+39 - Deluxe Rod
+3A - Angling Rod
+3B - Spanner
+3C - Master's Rod
+3D - Silver Top
+3E - Gold Top
+3F - Platinum Top
+40 - Twister
+41 - Warbler
+42 - Dancer
+43 - Popper
+44 - Flattop
+45 - Swisher
+46 - Floater
+47 - Hanger
+48 - Deep Diver
+49 - Baby Frog
+4A - Toad
+4B - Fat Frog
+4C - Straight
+4D - Tail
+4E - Crab
+4F - Spoon
+50 - King Frog
+51 - Demon's Helm
+52 - BronzeShield
+53 - Buckler
+54 - Face Guard
+55 - Medallion
+
+Armor Digits
+
+Quantity Digits to Accompany Armor Modifier Codes
+00 - Nothing
+01 - LeatherArmor
+02 - Chain Cap
+03 - Cuirass
+04 - Scale Mail
+05 - AsbestosArmr
+06 - Amber BPlate
+07 - Brigandine
+08 - Full Plate
+09 - Silver Mail
+0A - Magma Armor
+0B - MithrilArmor
+0C - BlizzardMail
+0D - Force Armor
+0E - DamascusMail
+0F - Mist Armor
+10 - King's Armor
+11 - Life Armor
+12 - Dragon Armor
+13 - Gargantua
+14 - Chopam Plate
+15 - Clothing
+16 - Waistcloth
+17 - Ranger Garb
+18 - FightingRobe
+19 - Wetsuit
+1A - Lgt.Clothing
+1B - Armored Vest
+1C - Wolfskin
+1D - Burglar Garb
+1E - Gideon'sGarb
+1F - ManlyClothes
+20 - Fancy Dress
+21 - Crepe Cape
+22 - Mage's Robes
+23 - Short Skirt
+24 - Party Dress
+25 - Robe of Wind
+26 - Sage's Frock
+27 - Holy Robe
+28 - PhantomDress
+29 - Diana'sDress
+2A - Angel's Vest
+2B - Star Dress
+2C - Royal Armor
+2D - Steel BPlate
+2E - Midas' Armor
+2F - Stout Mail
+30 - Stout Mail?
+31 - Booster
+32 - Panzer
+33 - Maelstrom
+34 - Gravedigger
+35 - Orihalcyon
+36 - Defender
+37 - Quicksilver
+38 - Mithril Rig
+39 - Psychometer
+3A - Lightning
+3B - Fire Rig
+3C - Whirlwind
+3D - Water Rig
+3E - Earth Rig
+3F - Heavy Armor
+40 - Spirit Armor
+41 - Light Armor
+42 - Flame Armor
+43 - Wind Armor
+44 - Hydro Armor
+45 - Earth Armor
+
+Character Digits
+
+Quantity Digits to Accompany Character Modifier Codes
+00 - Ryu
+01 - Nina
+02 - Cray
+03 - Scias
+04 - Ursula
+05 - Ershin
+06 - Fou-Lu
+
+Fisherman Rank Digits
+
+Quantity Digits to Accompany Fisherman Rank Modifier Codes
+00 - Beginner
+01 - Beginner+
+02 - Beginner++
+03 - Rodman
+04 - Rodman+
+05 - Rodman++
+06 - Rodmaster
+07 - Rodmaster+
+08 - Rodmaster++
+09 - The Fish
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+00 - Nothing
+01 - Healing Herb
+02 - Vitamin
+03 - MultiVitamin
+04 - SuperVitamin
+05 - Vitamins
+06 - Berries
+07 - Apple
+08 - Wisdom Seed
+09 - Wisdom Fruit
+0A - Croc Tear
+0B - Antidote
+0C - Eye Drops
+0D - Jabberglass
+0E - Panacea
+0F - Ammonia
+10 - Life Shard
+11 - Magic Shard
+12 - Power Food
+13 - Protein
+14 - Swallow Eye
+15 - Fish-head
+16 - Ambrosia
+17 - Weather Vane
+18 - Void Sphere
+19 - Molotov
+1A - Firecracker
+1B - Electrode
+1C - Dynamite
+1D - Water Bomb
+1E - Icicle
+1F - Napalm
+20 - Taser
+21 - Belladonna
+22 - Scorched Rice
+23 - Aurum
+24 - Moon Tears
+25 - Ginseng
+26 - Ivory Dice
+27 - Dragon Scale
+28 - Headband
+29 - Knockout Gas
+2A - Flash Grenade
+2B - Poison Powder
+2C - Mouth Gag
+2D - Jelly Fish
+2E - Piranha
+2F - Bass
+30 - Blue Gill
+31 - Sweetfish
+32 - Browntail
+33 - Black Bass
+34 - Angelfish
+35 - Trout
+36 - Rainbow Trout
+37 - Bullcat
+38 - Martian Squid
+39 - Dorado
+3A - Salmon
+3B - Barandy
+3C - Sturgeon
+3D - Man-o'-War
+3E - Flying Fish
+3F - Blowfish
+40 - Moorfish
+41 - Sea Bass
+42 - Flatfish
+43 - Sea Bream
+44 - Octopus
+45 - Bonito
+46 - Black Porgy
+47 - Angler
+48 - Spearfish
+49 - Whale
+4A - Acheron
+4B - Rice Ball
+4C - Mozweed
+4D - Straw
+4E - Faerie Drop
+4F - Stamp Card
+50 - Ship Parts
+51 - Glass Shard
+52 - Iron Scraps
+53 - Lottery Stub
+54 - Ribs
+55 - Roast
+56 - Flank
+57 - Loins
+58 - Fire Seed
+59 - Wind Seed
+5A - Water Seed
+5B - Earth Seed
+5C - Spirit Seed
+5D - Vigor Seed
+5E - Phoenix Seed
+5F - Holy Seed
+60 - Strength Seed
+61 - Hard Seed
+62 - Speed Seed
+63 - Sage Seed
+64 - Strike Seed
+65 - Reflex Seed
+66 - Dodge Seed
+67 - Sight Seed
+68 - Target Seed
+69 - Elixer
+6A - Elixer+
+6B - Wassail
+6C - Wassail+
+6D - Draught
+6E - Draught+
+6F - Dark Daught
+70 - Bird Drop
+71 - Rotten Meat
+72 - Bent Screw
+73 - Old Tire
+74 - Dirty Filter
+75 - Burnt Plug
+76 - Rusty Pipe
+
+Item Type Digits
+
+Quantity Digits to Accompany Item Type Modifier Codes
+00 - Items
+01 - Weapons
+02 - Armor
+03 - Accessories
+
+Key Item Digits
+
+Quantity Digits to Accompany Key Item Modifier Codes
+00 - Nothing
+01 - Sluice Key
+02 - Fire Gem
+03 - Wind Gem
+04 - Water Gem
+05 - Earth Gem
+06 - Flawed Gem
+07 - Wind Flute
+08 - Jadestone
+09 - Crank
+0A - Insurance
+0B - Insurance
+0C - Insurance
+0D - Insurance
+0E - Insurance
+0F - Insurance
+10 - Insurance
+11 - Insurance
+12 - Salt Stone
+13 - Wave Stone
+14 - Jar
+15 - Blue Charm
+16 - Yellow Charm
+17 - Red Charm
+18 - Lead Ball
+19 - Lead Ball
+1A - Lead Ball
+1B - Lead Ball
+1C - Lead Ball
+1D - Lead Ball
+1E - Lead Ball
+1F - Bronze Ball
+20 - Iron Ball
+21 - Brass Ball
+22 - Tin Ball
+23 - Copper Ball
+24 - Silver Ball
+25 - ElectrumBall
+26 - Gold Ball
+27 - PlatinumBall
+28 - Castle Key
+29 - Won-qu's Gem
+2A - Bead
+2B - Bond
+2C - Bell
+
+Lure Digits
+
+Quantity Digits to Accompany Lure Modifier Codes
+00 - Silver Top
+01 - Gold Top
+02 - Platinum Top
+03 - Twister
+04 - Warbler
+05 - Dancer
+06 - Popper
+07 - Flattop
+08 - Swisher
+09 - Floater
+0A - Hanger
+0B - Deep Diver
+0C - Baby Frog
+0D - Toad
+0E - Fat Frog
+0F - Straight
+10 - Tail
+11 - Crab
+12 - Spoon
+13 - King Frog
+FF - Nothing
+
+Magic & Skill Digits
+
+Quantity Digits to Accompany Magic & Skill Modifier Codes
+00 - Nothing
+01 - Flare
+02 - Fireblast
+03 - Inferno
+04 - Sever
+05 - Cyclone
+06 - Typhoon
+07 - Frost
+08 - Ice Blast
+09 - Blizzard
+0A - Rock Blast
+0B - Stone Pillar
+0C - Quake
+0D - Firewind
+0E - Simoon
+0F - Gigaflare
+10 - Earthbreaker
+11 - Jolt
+12 - Lightning
+13 - Thunderstorm
+14 - Mjollnir
+15 - Storm
+16 - Tempest
+17 - Disaster
+18 - Catastrophe
+19 - Eruption
+1A - Magma Blast
+1B - Ragnarok
+1C - Supernova
+1D - Kyrie
+1E - Death
+1F - Sleep
+20 - Confuse
+21 - Silence
+22 - Blunt
+23 - Weaken
+24 - Slow
+25 - Enfeeble
+26 - Might
+27 - Protect
+28 - Shield
+29 - Speed
+2A - Inspire
+2B - Barrier
+2C - Heal
+2D - Rejuvenate
+2E - Restore
+2F - Vitalize
+30 - Vigor
+31 - Raise Dead
+32 - Resurrect
+33 - Purify
+34 - Remedy
+35 - Drain
+36 - Leech Power
+37 - Sacrifice
+38 - Boil
+39 - Hatch
+3A - Body Press
+3B - Filch
+3C - Gigaflame
+3D - MetaStrike
+3E - Waterspout
+3F - MeteorStrike
+40 - Stardrop
+41 - DragonBreath
+42 - KaiserBreath
+43 - Onslaught
+44 - Mud Flow
+45 - Healing Wind
+46 - Rainstorm
+47 - Flood Tide
+48 - Fulguration
+49 - Holy Circle
+4A - Eraser
+4B - Dark Wave
+4C - Meditate
+4D - Revert Form
+4E - Ponder
+4F - Feeding Time
+50 - Vacuum
+51 - Summon Kin
+52 - EldrichFlame
+53 - Aura Smash
+54 - Wild Swing
+55 - Risky Blow
+56 - Shadowwalk
+57 - Disembowel
+58 - Super Combo
+59 - Magic Ball
+5A - Blitz
+5B - SwordBreaker
+5C - Megaphone
+5D - Snap
+5E - Molasses
+5F - Chlorine
+60 - Knock Out
+61 - Feint
+62 - Blind
+63 - Muffle
+64 - Air Raid
+65 - Feign Swing
+66 - Distracted
+67 - Bad Back
+68 - Focus
+69 - Concentrate
+6A - Resist
+6B - Counter
+6C - Supplication
+6D - Last Resort
+6E - Celerity
+6F - Final Hope
+70 - Shout
+71 - Sanctuary
+72 - Command
+73 - Rest
+74 - Snooze
+75 - Palliate
+76 - Transfer
+77 - Benediction
+78 - Steal
+79 - Pilfer
+7A - Monopolize
+7B - Charm
+7C - Double Blow
+7D - Multistrike
+7E - Triple Blow
+7F - Oracle
+80 - Spray
+81 - Clip
+82 - SpiritBlast
+83 - Cleave
+84 - Flame Strike
+85 - Wind Strike
+86 - Frost Strike
+87 - Searing Sand
+88 - Holy Strike
+89 - Backhand
+8A - Timed Blow
+8B - Coward's Way
+8C - Reversal
+8D - Egghead
+8E - Douse
+8F - Curse
+90 - Sacrifice
+91 - FaerieBreath
+92 - War Shout
+93 - FaerieAttack
+94 - FaerieCharge
+95 - Ebonfire
+96 - Roulette
+97 - Mind Flay
+98 - Burn
+99 - Eddy
+9A - Icicle
+9B - Plateau
+9C - Target
+9D - Tiger Fist
+9E - Flex
+9F - Flame Pillar
+A0 - ?
+A1 - Hwa (fire)
+A2 - Jeh (fire)
+A3 - Hwajeh
+A4 - P'ung (Wind)
+A5 - Nah P'ung
+A6 - Ahryu P'ung
+A7 - Bing (water)
+A8 - Bing'ah
+A9 - Pa Bing'ah
+AA - Patoh(earth)
+AB - Chi Patoh
+AC - Patoh Pah
+AD - Phoenix
+AE - Mudslide
+AF - Ice Sword
+B0 - Reflect
+B1 - Lifestealer
+B2 - ShiningBlade
+B3 - Risky Shot
+B4 - Wild Shot
+B5 - Healing Herb
+B6 - MultiVitamin
+B7 - Absorb
+B8 - Dark Breath
+B9 - Chakra
+BA - Syphon
+BB - Devour
+BC - Ram
+BD - Flaming Fist
+BE - Howling
+BF - VenomBreath
+C0 - Spores
+C1 - Powder
+C2 - DreamBreath
+C3 - Ovum
+C4 - Gloom
+C5 - Mystic Fire
+C6 - Frost Breath
+C7 - Giant Growth
+C8 - Depress
+C9 - Recall
+CA - Primus
+CB - Backlash
+CC - Watch Enemy
+CD - Wither
+CE - Malefication
+CF - Jump
+D0 - Revolution
+D1 - Soul Rend
+D2 - Stasis
+D3 - Aura
+D4 - Kaiser
+D5 - Astral
+D6 - Tyrant
+D7 - Wyvern
+D8 - Weyr
+D9 - Myrmidon
+DA - Knight
+DB - Serpent
+DC - Peist
+DD - Behemoth
+DE - Mammoth
+DF - Mutant
+E0 - Punk
+E1 - Cheering
+E2 - CoveringFire
+E3 - Flail
+E4 - Whirlwind
+E5 - Jab
+E6 - Shift
+E7 - Nose Dive
+E8 - Power Flux
+E9 - Punch
+EA - Kick
+EB - SummonMinion
+EC - Mystic Fire
+ED - Flaming Fist
+EE - EldrichFlame
+EF - Identify
+F0 - Stand Out
+F1 - Rakhasa
+F2 - Aura Smash
+F3 - Whiteout
+F4 - Dark Wave
+F5 - Gigaflame
+F6 - Waterspout
+F7 - MeteorStrike
+F8 - MetaStrike
+F9 - Stardrop
+FA - Booster
+FB - Panzer
+FC - Maelstrom
+FD - Gravedigger
+FE - Defender
+FF - Quicksilver
+
+Master Digits
+
+Quantity Digits to Accompany Master Modifier Codes
+00 - Free
+01 - Rwolf
+02 - Momo
+03 - Kryrik
+04 - Abbess
+05 - Njomo
+06 - Gyosil
+07 - Stoll
+08 - Una
+09 - Bunyan
+0A - Lyta
+0B - Khan
+0C - Marlok
+
+Rod Digits
+
+Quantity Digits to Accompany Rod Modifier Codes
+00 - Wooden Rod
+01 - Bamboo Rod
+02 - Deluxe Rod
+03 - Angling Rod
+04 - Spanner
+05 - Master's Rod
+FF - Nothing
+
+Weapon Digits
+
+Quantity Digits to Accompany Weapon Modifier Codes
+00 - Nothing
+01 - King's Sword
+02 - Flame Sword
+03 - Bowie Knife
+04 - Broken Sword
+05 - Short Sword
+06 - Moon Sword
+07 - Scramasax
+08 - Katzbalger
+09 - Broad Sword
+0A - BastardSword
+0B - Claymore
+0C - PiercingEdge
+0D - Firangi
+0E - FeatherSword
+0F - Barbarossa
+10 - Ascension
+11 - Slicer
+12 - DamascusSwd
+13 - Dragon Blade
+14 - Royal Sword
+15 - GooKingSword
+16 - Cursed Sword
+17 - Chopsticks
+18 - Jang'do
+19 - Taegum
+1A - Ice Blade
+1B - Biter
+1C - Cleaver
+1D - Render
+1E - Hidden Dagger
+1F - Pointed Stick
+20 - Baton
+21 - Sage's Staff
+22 - Magic Wand
+23 - Ruby Scepter
+24 - Reed Baton
+25 - Wand of Air
+26 - WardingStaff
+27 - Rune Staff
+28 - BlessedStaff
+29 - Ouroboros
+2A - Skull Staff
+2B - Bamboo Stick
+2C - Log
+2D - Steel Bat
+2E - Spiked Rod
+2F - Mace
+30 - Quarterstaff
+31 - Stone Club
+32 - Flail
+33 - Crusher
+34 - Giant Club
+35 - Pole
+36 - Nunchaku
+37 - Earthbreaker
+38 - Cudgel
+39 - Linked Pole
+3A - MultiGun
+3B - Scattershot
+3C - Flintlock
+3D - Sparkler
+3E - Arquebus
+3F - Flamethrower
+40 - Repeater
+41 - Electrifier
+42 - Mortar
+43 - Culverin
+44 - Red Knuckles
+45 - Fork
+46 - Raptor Claws
+47 - Drill Punch
+48 - Homing Bomb
+49 - Rocket Punch
+4A - Toxic Claws
+4B - Stunner
+4C - Atomic Punch
+4D - Ghostbuster
+4E - Mass Driver
+4F - Power Glove
+50 - Flame Punch
+51 - Ice Punch
+52 - Weather Wand
+53 - Rusted Sword
+54 - Slayer
+55 - Earth Claws
+56 - Dragonslayer
+57 - Battle Rod

@@ -1,0 +1,140 @@
+SNES9XBox Super Nintendo Emulator for XBox v4 (The Kitchen Sink Edition!)
+
+I forgot to include the version of 1.53 with the apu/irq changes that makes some games playable (Sink or swim).  However it also slows down alot of games.  It is named default-apu.xbe.  Rename it to default.xbe if you wish to use it.
+
+
+**************************************
+*** Interface Related Changes ***
+**************************************
+
+* Fixed a couple lockup issues when attempting to view the synopsis for a game or file that has no synopsis.
+
+
+*********************************
+*** Changes To Snes9Xbox Core ***
+*********************************
+
+* Enabled rewind for the 1.42 core
+
+
+-------------------------------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v3 (The Kitchen Sink Edition!)
+-------------------------------------------------------------------------
+
+"Lock free.. like it should be!"
+"Always looking for new stuff rather than being satisfied with what is there"
+
+http://xport.xbox-scene.com
+http://www.emuxtras.net
+
+First off...  "You must have at least ONE rom for our emulator to work.  Really... how else are you gonna play you silly wabbit?".  :P
+
+I did this core update as a favor for Mega Man (?).
+
+
+*****************************************
+*** Changes To Snes9Xbox Core ***
+*****************************************
+
+* Core updated to Snes9x 1.51 and 1.53 (Dual cores!).  Selectable in the game configuration screen ala pcsxbox.
+  1.51 with the old sound core for those who want best speed at 720p and on Chip games.  1.53 with the new sound core and other 1.53 goodies for those who dont mind running problem games at 480i/p or who have a trusty box.
+  I've also inclued the v3 1.42 core for good measure.  So you have all possible options available to you!
+
+* Included is a 1.53 compile with the APU/IRQ timing code changes.  Just rename to default.xbe if you wanna use it.  :)  Warning the APU/IRQ timing code can slow things down!  That version is mainly intended for trusty users who don't care.
+
+*** important note *** - Old savestates do not work for 1.53 core.. Sorry guys.. (1.53 only).. They work just fine between 1.42, and 1.51.
+
+* Since savestates between 1.42/1.51 and 1.53 are incompatible the emu will display the version number of the emu the savestate was create with next to the savestate name (1.51) or (1.53).  If you try to load an incompatible state it will tell you.  1.42 is compatible with 1.51 so no worries there.
+
+* Now setup for multicore use (woo hoo!).  Just select which core you wanna use (1.42, 1.51 or 1.53) in the games configuration menu.
+
+* The game configuration menu will change depending on which core you have selected.  Options specific to 1.42/1.51 is "Enable Envelop Height Reading" and for 1.53 you have "Set Auto Max Skip Frames To 1 - Yes/No" and the Snes9x Filter stuff.
+
+* Some games that use hi-res mode ( A.S.P. Air Strike Patrol ) are displaying properly now.  However dont expect me to fix the sound on A.S.P. it's even messed up in earlier versions of Snes9xbox.  :P
+
+* Running NTSC ROM's on a PAL xbox on a PAL tv should work properly now.. :P
+
+* Setting "Set Auto Max Skip Frames To 1" to yes activates Snes9x's Framelimiter which allows the auto max skip frames to work.  Otherwise the framelimiter is off.  This setting is primarily intended for use with Chip games.  (1.53)
+
+* Implemented IPS/UPS patching.  Just make sure the name of the IPS/UPS file matches the name of the ROM and is in the same zip file.
+
+* IPS/UPS file applied to the ROM can now be selected on the game configuration screen or in the in game menu.  Patch is remembered and used on next run (just select nothing to clear it).  Old method of naming the ips file the same as the ROM still works as well.
+  Note:  1.42/1.51 build can only apply IPS patches.  1.53 build can do both.
+
+* new game configuration option (1.42/1.51 only) to turn "Envelope Height Reading" on or off.  X-port already had it set to on in earlier builds so I'm not sure how useful this will be.
+
+* Added "remove scanlines when using NTSC filters" option.
+
+* I included a sample "Buttonlist.dat" file.  It has Action Lists for a handful of games.  Like 2020 Super Baseball, 3 Ninja's Kick Back, Aaahh!! Real Monsters, ABC Monday Night Football, Acrobat Mission, Act Raiser I & II, Addam's Family, Addam's Family PSH, Adventures of Batman & Robin, Adventures of Rocky and Bullwinkle, Adventures of Tin Tin, Adventures Of Yogi Bear, Aero Fighters, Aero The Acro Bat I & II, Aerobiz, Uncharted WAters, Uniracers, Urban Strike, Wheel Of Fortune :D , Wings 2, Wolfchild, Wolfenstein 3D, WWF Raw, WWF Super Wrestlemania, X-men MA, Yoshi's Cookie, Young Merlin, and Zombies Ate My Neighbors.
+
+* Added a "per game" autoload save state option. Options are "No, 1-10, Most Recent".
+
+* (1.53) only.  Added back in APU time overflow fixes for the following games.  Porky Pig's Haunted Holiday, Big Sky Trooper, Mechwarrior 3050 / Battle Tech 3050, and Doom Troopers.  Seems I somehow misplaced them while working on the betas!  :P
+
+* BSX games now work properly.  Seems the Snes9x programmers decided to see it fit that the BSX bios is included.  So I included the BIOS as well as the BSX sram file needed to play games.  If you dont like the name I picked (hey I dont do katanese) you'll have to load the BSX cartridge yourself, pick your name and gender, and then copy the .save file over to the "BSX" directory and name it "bs-x.srm".
+
+* BSX also works for 1.51 core.  Seems it didnt work properly with the official 1.51 source so I patched in the fixes.  Say thank you Madmab!  :)  I don't think BSX ever worked for 1.42.
+
+* Activated movie playback ( http://tasvideos.org/Movies-SNES.html ).  However keep in mind movies recorded in Snes9x 1.51 or 1.42 will not work on 1.53.  So try the movie on both versions and if it does not play back right then try it on the PC versions (1.51 & 1.53).  If it works properly on the PC THEN and only THEN bother me about it.. :P
+
+* Game selectable video mode so you can use the interface (game select) at 720p or 1080i and have games that run slow at 720p run in 480i or 480p.  IGM video mode will match the one the game is set for except for the media browser which will change to match the video mode used outside of the game.
+
+* Fixed issue where game screen gets all blurry when user uses light gun calibration screen... thanks to PhilExile for reporting this long standing bug.
+
+* Robocop 3 (now working) (1.53 only?)
+
+* Mouse support added.  Some mouse games are Acme Animation Factory, Alice Paint Adventure, Arkanoid: Doh It Again, Bishoujo Senshi Sailor Moon S Kondowa Puzzle de Oshioikiyo! (Japan only), Brandish 2: Expert (Japan only), BreakThru!, Civilization, Cameltry (On The Ball in North America and the UK), Cannon Fodder, Dai3ji Super Robot Taisen (Japan only), Dai4ji Super Robot Taisen (Japan only), Doom D?ky?sei 2 (Japan only), Dragon Knight 4 (Japan only), Eye of the Beholder, Farland Story 2 (Japan only), Fun and Games, Galaxy Robo (Japan only), Hiouden: Mamono-tachi tono Chikai (Japan only), Jurassic Park, King Arthur's World, Koutetsu No Kishi (Japan only), Koutetsu No Kishi 2 (Japan only), Koutetsu No Kishi 3 (Japan only), Lamborghini American Challenge, Lemmings 2: The Tribes, Lord Monarch (Japan only), The Lord of the Rings, Mario and Wario (Japan only), Mario Paint, Mario's Super Picross (Japan only), Mario's Early Years: Pre-School, Mega Lo Mania, Might and Magic III, Motoko-chan no Wonder Kitchen (Japan only), Nobunaga's Ambition, On the ball, Operation Thunderbolt, Pieces, Populous II, Power Monger, Revolution X, San Goku Shi Seishi: Tenbu Spirits (Japan only), Shien's Revenge, SimAnt, Snoopy Concert, Super Caesars Palace, Super Game Boy, Super Castles (Japan only), Super Noah's Ark 3D, Super Pachi-slot Mahjong, Super Robot Wars 3, Super Solitaire, Terminator 2: The Arcade Game, Tin Star, Tokimeki Memorial (Japan only), Troddlers, Utopia, Vegas Stakes, Wolfenstein 3D, Wonder Project J, Zan 2: Spirits (Japan only), Zan 3: Spirits (Japan only).
+
+* Lightgun support has been added. You can control light gun games either with the left analog stick, ze mouse, or a real lightgun. I would suggest turning off the internal x-port crosshair. Most games have an onscreen cursor anyways.  If you are using mouse/controller press right mouse to reload, whatever button is assigned to SNES "B" to reload on the controller.  Only odd thing is with the ONE justifier game you have to point the lightgun to the top left corner of the screen to reload. Press START on your lightgun to start the game. 
+
+* Added a buttload of filters (1.53 only) including.. hq2x, hq2xS, hq2xBold, EPX A, EPX B, EPX C, Simple 3x, Tv Mode 3x, Dot Matrix 3x, hq3x, hq3xS, hq3xBold, lq3xBold, EPX 3.  Most of them from 2x on up run with slowdown. Off the top of my head I think only TV Mode, EPX A-C, Tv Mode 3x?, are about the only ones that ran full speed. The rest may or may not run full speed on the souped up Xbox's that some have out there.
+
+* Added a new option "Set Auto Max Skip Frames To 1 - Yes/No" (1.53 only).  This should help with the slowdown on FX games.  Only ones I've tested so far are Vortex and SMW II.  Here is a list of FX games if you did not know.  Star Fox, Stunt Race FX, Vortex, Dirt Racer Super FX, Dirt Trax FX, Super Mario World 2: Yoshi's Island Super, Doom, Winter Gold
+
+* NTSC filters are in 1.53 build, although fair warning.  They are a framerate suck (anywhere from 0-10fps) so don't come crying to me if your favorite game runs too slow with them on.
+
+* Fastforward is tied into throttle speed (general settings) for now.. 2 seems like a nice sane number.
+
+* Running NTSC ROM's on a PAL xbox on a PAL TV should work properly now.. :P
+
+* Perfect Pixel code now active.  For real!  Promise!  ;)  :P
+
+* New game config option to "Show ROM Info On Game Start - Yes/No".
+
+* "Show FPS" now works.  Framerate is displayed using Snes9X's built in frame rate detector. There are two numbers.. an FPS value and a x/60 value. The first is simply the number of frames emulated per second (including skipped), the second is how many of the last 60 frames were displayed. 
+
+
+************************************
+*** Dummy/Lockdown Mode Settings ***
+************************************
+
+See Latest-Snes9xbox.txt for list.
+
+-----------------------------------------
+--- In Game mapping useage prevention ---
+-----------------------------------------
+
+See Latest-Snes9xbox.txt for list.
+
+**************************************
+*** Interface Related Changes ***
+**************************************
+
+See Latest-Snes9xbox.txt for list.
+
+********************************************************************
+Here are the changes to the core as listed in the Snes9x Changelog..
+********************************************************************
+
+See Latest-Snes9xbox.txt for list.
+
+
+***************************
+*** To Do For Snes9Xbox ***
+***************************
+
+- Sound periodically glitches in the 1.53 core.  Still need to figure that one out.  There is an occasional stutter (watch DKC intro).  :(
+
+- Look at Dante_Ali's changes for possible speed improvements in either 1.51 or 1.53 core.
+
+- Find that damn whiteboard!  :P

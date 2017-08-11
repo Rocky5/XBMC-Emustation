@@ -1,0 +1,576 @@
+#007 Racing#SLUS01300
+"Reverse Joker Command
+D003C1FA ???? (add 16-bit value)
+"Infinite Health
+8005DF0A 0000
+"Infinite Ammo (On Pickup)
+D00C1C7A ACC2
+800C1C7A 2400
+"Quick Max Score
+D005E240 0000
+8005E240 FFFF
+"Infinite Shields (On Pickup)
+D00C1C12 AC82
+800C1C12 2400
+"Unlock All Missions & Movies
+8003DA7E 0101
+8003DA80 0101
+8003DA82 0101
+8003DA84 0101
+8003DA86 0101
+8003DA88 0101
+"Stop Timer
+D00CFDEA AC85
+800CFDEA 2400
+"Unlock Gimme a Break
+3003DA7F 0001
+"Unlock Ambush
+3003DA80 0001
+"Unlock Highway Hazard
+3003DA81 0001
+"Unlock Survive the Jungle
+3003DA82 0001
+"Unlock Air Strike
+3003DA83 0001
+"Unlock Escape
+3003DA84 0001
+"Unlock Breakout
+3003DA85 0001
+"Unlock River Race
+3003DA86 0001
+"Unlock Download
+3003DA87 0001
+"Unlock Submerged
+3003DA88 0001
+"Unlock Showdown
+3003DA89 0001
+"Press R1 For All Weapons
+D003C1FA F7FF
+8005E9CC 03E8
+D003C1FA F7FF
+8005E9D0 000A
+D003C1FA F7FF
+8005E9D4 0005
+D003C1FA F7FF
+8005E9D8 0078
+D003C1FA F7FF
+8005E9DC 000A
+D003C1FA F7FF
+8005E9E0 1000
+D003C1FA F7FF
+8005E9f0 0064
+D003C1FA F7FF
+8005E9f4 0001
+D003C1FA F7FF
+8005E9F8 000A
+D003C1FA F7FF
+8005E9fc 0064
+D003C1FA F7FF
+8005EA00 0001
+D003C1FA F7FF
+8005EA08 0001
+D003C1FA F7FF
+8005EA0C 00B4
+
+#102 Dalmations - Puppies To The Rescue#SLUS01152
+"Infinite Lives
+8001DB42 2400
+"Have All Puppies Found
+8007E1AC 0006
+"Have All Bones Found
+8007E23C 0064
+"All Levels & MiniGames
+8007E5F8 001F
+
+#1998 Collector's CD Volume 1 Demo (With Parasite Eve)#SLUS90028
+"=Character 
+"=Fei 
+"Max Attack
+800D0754 270F
+"Max Hit%
+800D0756 270F
+"Max Defense
+800D0758 270F
+"Max Evade%
+800D075A 270F
+"Max Ether
+800D075C 270F
+"Max Ether Defense
+800D075E 270F
+"Max Agility
+800D0760 270F
+"Max HP
+8006F232 270F
+"Infinite HP
+8006F230 270F
+"Max EP
+8006F236 03E7
+"Infinite EP
+8006F234 03E7
+"Level 99
+3006F246 0063
+"Quick Level Gain
+8006F228 0001
+"Weapon modifier (add 8-bit value)
+8006F24E 00??
+"=Accesories modifier (add 8-bit value) (add 8-bit value)
+"Slot 1
+3006F258 00??
+"Slot 2
+3006F259 00??
+"Slot 3
+3006F25A 00??
+"Low Weight
+3006F25B 0000
+"Infinite Fuel For Gear
+800CE65C 04B0
+"=Other 
+"=Item modifier (add 8-bit value) (add 8-bit value)
+"Slot 1
+300709FE 00??
+"Slot 150
+30070A93 00??
+"=Max Item 
+"Slot 1
+30070968 0063
+"Slot 150
+300709FD 0063
+"=Misc. 
+"Infinite Gold
+8007089C FFFF
+"Max Gold
+8007089C E0FF
+8007089E 05F5
+"Have All Items
+50009601 0000
+30070F08 0063
+5000FF01 0001
+30070F9E 0001
+
+#1998 Collector's CD Volume 2 Demo (With Brave Fencer Musashi)#SLUS90029
+"=Final Fantasy VIII Demo 
+"Quick Attack-Zell
+800D89D8 5DC0
+80068ACC 5DC0
+"Quick Attack-Squall
+800D8A30 5DC0
+80068C08 5DC0
+"Quick Attack-Rinoa
+800D8A88 5DC0
+80068D44 5DC0
+"Infinite HP-Zell
+80068AB0 03E7
+"Infinite HP-Squall
+80068BEC 03E7
+"Infinite HP-Rinoa
+80068D28 03E7
+"Infinite Cure Spells-Rinoa
+80068DC0 0014
+"Infinite Cure Spells-Zell
+8006883E 0014
+"Max HP-Squall
+80068BEE 270F
+"Max HP-Zell
+80068AB2 270F
+"Max HP-Rinoa
+80068D2A 270F
+"=Item modifier (add 8-bit value) (add 8-bit value)
+"Slot 1
+300D9CD0 00??
+"Slot 32
+300D9D6B 00??
+"=Max Item 
+"Slot 1
+300D9CD1 0063
+"Slot 32
+300D9D6C 0063
+
+#2000 Collector's CD Volume 3 Demo (With Vagrant Story)#SLUS90075
+"=Chocobo Racing 
+"Slow Motion
+800787C0 219A
+"Time Always 00:00:00
+80081794 0000
+"=Front Mission 3 
+"=Kazuki Takemura 
+"Infinite Body HP
+801E4FD2 2710
+"Max Body HP
+801E4FD4 129A
+"Infinite Leg HP
+801E5002 270F
+"Max Leg HP
+801E5004 143D
+"Infinite L Arm HP
+801E5032 2710
+"Max L Arm HP
+801E5034 16B6
+"Infinite R Arm HP
+801E5062 2710
+"Max R Arm HP
+801E5064 16B6
+"Infinite AP
+30118A30 0063
+"Max AP
+30118A31 0063
+"Max Ace Rank
+80118A1E 0190
+"Infinite Pilot HP
+80118A1A 270F
+"Max Pilot HP
+80118A1C 270F
+"Max Melee
+301189F6 3390
+"Max Shotgun
+801189FE 3390
+"=Ryogo Kusama 
+"Infinite Body HP
+801E523E 2710
+"Max Body HP
+801E5240 129A
+"Infinite Leg HP
+801E526E 270F
+"Max Leg HP
+801E5270 143D
+"Infinite L Arm HP
+801E529E 2710
+"Max L Arm HP
+801E52A0 16B6
+"Infinite R Arm HP
+801E52CE 2710
+"Max R Arm HP
+801E52D0 16B6
+"Infinite AP
+30118D18 0063
+"Max AP
+30118D19 0063
+"Max Ace Rank
+80118D06 0190
+"Infinite Pilot HP
+80118D02 270F
+"Max Pilot HP
+80118D04 270F
+"Max Melee
+30118D2E 3390
+"Max Shotgun
+80118D30 3390
+"=Threads Of Fate 
+"Max HP
+D009B1D4 003C
+8009B1D8 03E7
+"Infinite MP
+D009B1D4 003C
+8009B1D6 03E7
+"Max MP
+D009B1D4 003C
+8009B1DA 03E7
+"Max Strength
+D009B1D4 003C
+8009B1DC 03E7
+"Max Defense
+D009B1D4 003C
+8009B1E0 03E7
+
+#2Xtreme#SCUS94508
+"=Character Creation [Note 1]
+"Max Muscle
+80130004 00FF
+"Max Endurance
+8012FE2C 00FF
+"Max Speed
+8012FC54 00FF
+"Max Reflexes
+8012FA7C 00FF
+"Max Tricks
+8012F8A4 00FF
+"Max Skateboarding
+8012F6CC 00FF
+"Max Inlineskating
+8012F4F4 00FF
+"Max Snowboarding
+8012F31C 00FF
+"Max Mountainbiking
+8012F144 00FF
+"Max Handling (Skate Board)
+8012EF6C 00FF
+"Max Acceleration (Skate Board)
+8012ED94 00FF
+"Max Top Speed (Skate Board)
+8012EBBC 00FF
+"Max Handling (Inline Skates)
+8012E9E4 00FF
+"Max Acceleration (Inline Skates)
+8012E80C 00FF
+"Max Top Speed (Inline Skates)
+8012E634 00FF
+"Max Handling (Snow Board)
+8012E45C 00FF
+"Max Acceleration (Snow Board)
+8012E284 00FF
+"Max Top Speed (Snow Board)
+8012E0AC 00FF
+"Max Handling (Mountain Bike)
+8012DED4 00FF
+"Max Acceleration (Mountain Bike)
+8012DCFC 00FF
+"Max Top Speed (Mountain Bike)
+8012DB24 00FF
+"=Misc 
+"1st Place After Race P1
+8007D4CC 0000
+"Skate Boarders Speed modifier (add 8-bit value) P1 [Note 2]
+8007D490 00??
+"Race Time is 0.000
+80043E3C 0000
+"Can Max Out All Character Creation Attributes
+8002B4EE 2400
+
+#3D Baseball#SLUS00066
+"Infinite Strikes
+300B5924 0000
+"1 Strike And You Are Out
+D00B5924 0000
+300B5924 0002
+"2 Strikes And You Are Out
+D00B5924 0000
+300B5924 0001
+"Infinite Balls
+300B5923 0000
+"1 Ball And You Walk
+D00B5922 0000
+300B5923 0003
+"2 Balls And You Walk
+D00B5922 0000
+300B5923 0002
+"3 Balls And You Walk
+D00B5922 0000
+300B5923 0001
+"Infinite Outs
+300B5925 0000
+"1 Out And You Are Out
+D00B5924 0000
+300B5925 0002
+"2 Outs And You Are Out
+D00B5924 0000
+300B5925 0001
+"Home Team Score modifier (add 16-bit value)
+800B592C ????
+"Away Team Score modifier (add 16-bit value)
+800B592E ????
+
+#3Xtreme#SCUS94231
+"P1 Infinite Freestyle Time
+80143BD0 2400
+"P2 Infinite Freestyle Time
+801430B8 2400
+"Fake Always First
+8014E0B8 0001
+"Max Tournament Points
+30010224 00FF
+"Max Points to Buy Euipment
+8001010A FFFF
+"Have All Characters
+50001401 0000
+30010072 0001
+"Have Arroyo Grande 2 Level
+3001017A 0001
+"Have Seacliff 2 Level
+3001017B 0001
+"Have Aztec Island 1 Level
+3001017C 0001
+"Have Lakeside Park 2 Level
+3001017D 0001
+"Have The Metro Level
+30010182 0001
+"Have Lakeside Park 3 Level
+30010183 0001
+"Have Seacliff 3 Level
+30010184 0001
+"Have Arroyo Grande 3 Level
+30010185 0001
+"Have Aztec Island 3 Level
+30010186 0001
+"Have J. Carberry
+30010072 0001
+"Have Z. Cruz
+30010073 0001
+"Have Lug Nut
+30010074 0001
+"Have Bink
+30010075 0001
+"Have Red Car
+30010076 0001
+"Have K. Jones
+3001007A 0001
+"Have Y. Osaka
+3001007B 0001
+"Have TP
+3001007C 0001
+"Have Geep
+3001007D 0001
+"Have White Car
+3001007E 0001
+"Have C. Nappi
+30010081 0001
+"Have Spunkmeyer
+30010082 0001
+"Have Dominique
+30010083 0001
+"Have Nyub
+30010084 0001
+"Have Blue Car
+30010085 0001
+"=Have All Equipment-Frank Corsetti 
+"Have Horns Skate Board
+300100A6 0001
+"Have Engine Skate Board
+300100A7 0001
+"Have Demon Skate Board
+300100A8 0001
+"Have Magician Skate Board
+300100A9 0001
+"Have Snac Skate Board
+300100AA 0001
+"=Have All Equipment-Michelle Carlson 
+"Have F Sk8er Skate Board
+300100AD 0001
+"Have Yuck Fou Skate Board
+300100AE 0001
+"Have Skull + Bones Skate Board
+300100AF 0001
+"Have O.G. Star + Moon Skate Board
+300100B0 0001
+"Have Circle F Skate Board
+300100B1 0001
+"=Have All Equipment-Joe Carberry 
+"Have Barfer Skate Board
+300100B4 0001
+"Have Devil Cat Skate Board
+300100B5 0001
+"Have Robot Skate Board
+300100B6 0001
+"Have Fists Skate Board
+300100B7 0001
+"Have Monster Skate Board
+300100B8 0001
+"=Have All Equipment-Zach Cruz 
+"Have Zero Bold Skate Board
+300100BD 0001
+"Have Zero Bird Skate Board
+300100BE 0001
+"Have Big Skull Skate Board
+300100BF 0001
+"=Have All Equipment-Paul Dillon 
+"Have Bump Bike
+300100C5 0001
+"Have Pro Series Bike
+300100C6 0001
+"Have Fueler Bike
+300100C7 0001
+"Have Power Series 3.0 Bike
+300100C8 0001
+"Have Speed Series Bike
+300100C9 0001
+"=Have All Equipment-Steve Olsan 
+"Have F5 860 Bike
+300100CC 0001
+"Have Triple X Bike
+300100CD 0001
+"Have F5 880 Bike
+300100CE 0001
+"Have Proline Team
+300100CF 0001
+"Have XLR8R Bike
+300100D0 0001
+"=Have All Equipment-Kendra Jackson 
+"Have Vert 3 Bike
+300100D3 0001
+"Have TR20 Bike
+300100D4 0001
+"Have Team Issue 3 Bike
+300100D5 0001
+"Have Vert 4 Bike
+300100D6 0001
+"Have TR30 Bike
+300100D7 0001
+"=Have All Equipment-Karac Jones 
+"Have The Pick Bike
+300100DA 0001
+"Have Maintime Bike
+300100DB 0001
+"Have The Gambler Bike
+300100DC 0001
+"Have DMC Bike
+300100DD 0001
+"=Have All Equipment-Yukio Osaka 
+"Have Supra Deluxe Bike
+300100E0 0001
+"Have AL 3.0 Bike
+300100E1 0001
+"Have Monocoque Bike
+300100E2 0001
+"=Have All Equipment-Meg Tipre 
+"Have TR7 Skates
+300100E8 0001
+"Have TR8 Skates
+300100E9 0001
+"Have TR9 Skates
+300100EA 0001
+"Have ST8 Skates
+300100EB 0001
+"Have ST9 Skates
+300100EC 0001
+"=Have All Equipment-Sam Marubayashi 
+"Have TR7 Skates
+300100EF 0001
+"Have TR8 Skates
+300100F0 0001
+"Have TR9 Skates
+300100F1 0001
+"Have ST8 Skates
+300100F2 0001
+"Have ST9 Skates
+300100F3 0001
+"=Have All Equipment-Cale Nappi 
+"Have TR7 Skates
+300100F6 0001
+"Have TR8 Skates
+300100F7 0001
+"Have TR9 Skates
+300100F8 0001
+"Have ST8 Skates
+300100F9 0001
+"Have ST9 Skates
+300100FA 0001
+"=Have All Equipment-Spunkmeyer 
+"Have King 55 Skates
+300100FD 0001
+
+#40 Winks#SLUS00874
+"Infinite Lives
+80013352 2400
+"Max Tokens
+800B06B4 0064
+"Infinite Moons
+8003280E 2400
+"Max Cogs
+800B06AA 0064
+"Infinite Zzz's
+8001326E 2400
+"Infinite Air
+8002B8CE 2400
+"Infinite Costume Time
+8002C452 2400
+"Have All Dreamkeys
+50000C02 0000
+8009059C FFFF
+"All Levels Unlocked
+50000202 0000
+80090596 FFFF
+"Have All Winks
+50000302 0000
+8009058C FFFF
+"Big Head Mode
+8008E2DE 0100
+"Infinite Furbys
+.end

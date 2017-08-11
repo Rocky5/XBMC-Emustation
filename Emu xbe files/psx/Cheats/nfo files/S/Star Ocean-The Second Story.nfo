@@ -1,0 +1,1128 @@
+misc codes (notes)
+
+Note 1:
+With this code, the game is funky with its memory, so here's what you do. Start the Cheat Device with just this code and the enable code. I had the problem with not being able to load the game with too many codes on, so turn off the codes when the title screen comes up. Load your saved game and turn the codes back on. Save your game immediately. Then reset the PSX and turn back on any other codes you want. You should have 1023 items in your inventory.
+
+Note 2:
+With this code, when you got into your menus and such, you will be able to move past the end of the lists. If you highlight the very top option and press up, it will take you to the very bottom, which is a Debug type of menu. Press X on it, and then it will take y ou to a blank screen, Press X one more time, and the options will popup.
+
+Quantity Digits
+Character Digits
+
+Quantity Digits to Accompany Character Modifier Codes
+01 - Claude
+02 - Rena
+03 - Celine
+04 - Bowman
+05 - Dias
+06 - Precis
+07 - Ashton
+08 - Leon
+09 - Opera
+0A - Ernest
+0B - Noel
+0C - Chisato
+
+Item/Equipment Digits
+
+Quantity Digits to Accompany Equipment Modifier Codes
+5000 - (None)
+5001 - Magic Canvas
+5002 - 'Spring'
+5003 - 'The Scream'
+5004 - 'Judgment Day'
+5005 - 'The Last Supper'
+5006 - Portrait A
+5007 - Portrait B
+5008 - Portrait C
+5009 - Portrait G
+500A - Portrait I
+500B - Portrait D
+500C - Portrait F
+500D - Portrait J
+500E - Portrait H
+500F - Portrait E
+5010 - Portrait L
+5011 - Portrait K
+5012 - Scribbles
+5013 - Victorial Card
+5014 - Mortalial Card
+5015 - Revival Card
+5016 - Fol Up Card
+5017 - Dicovery Card
+5018 - Extension Card
+5019 - Fairies Card
+501A - Fountain Card
+501B - Silence Card
+501C - Hexagram Card
+501D - Magic Rock
+501E - Weird Lump
+501F - Tri-ball
+5020 - Hyperball
+5021 - Super Ball
+5022 - Angle's Statue
+5023 - Fairy's Statue
+5024 - Goddess Statue
+5025 - Dummy Doll
+5026 - Idol
+5027 - Skanda
+5028 - Treasure Chest
+5029 - Jack-in-the-box
+502A - Mirror of Wisdom
+502B - Magical Clay
+502C - Feather Pen
+502D - Piano
+502E - Cembalo
+502F - Illusive Shamisen
+5030 - Silver Trumpet
+5031 - Harmonica
+5032 - Lyre
+5033 - Violin
+5034 - Organ
+5035 - Conductor's Baton
+5036 - Spectacles
+5037 - Magical Drops
+5038 - Moonlight
+5039 - Silver Idol
+503A - Golden Idol
+503B - Pretty Idol
+503C - Weird Doll
+503D - Reverse Doll
+503E - Silver Pendant
+503F - Sturm Ring
+5040 - Green Bracelet
+5041 - Frog
+5042 - Glass Slippers
+5043 - Regeneration Ring
+5044 - Useless Decoration
+5045 - Luna Tablet
+5046 - Poison Check
+5047 - Paralysis Check
+5048 - Stone Check
+5049 - Purple Mist
+504A - Magic Mist
+504B - Necklace
+504C - Might Chain
+504D - Surrender Pendant
+504E - Leaf Pendant
+504F - Ruby Pendant
+5050 - Star Necklace
+5051 - Fairy Tear
+5052 - Pyre Tear
+5053 - Silver Charm
+5054 - Blue Talisman
+5055 - Talisman
+5056 - Luna Talisman
+5057 - Gold Ring
+5058 - Princess Ring
+5059 - Healing Ring
+505A - Mental Ring
+505B - Wisdom Ring
+505C - Weighty Ring
+505D - Hard Ring
+505E - Heavy Ring
+505F - Atlas Ring
+5060 - Eclipse Ring
+5061 - Insanity Ring
+5062 - Infinity Ring
+5063 - Battalia Ring
+5064 - Demonslayer Ring
+5065 - Reflection Ring
+5066 - Protection Ring
+5067 - Ring Of Happiness
+5068 - Ring of Sadness
+5069 - Promised Ring
+506A - Stardust Ring
+506B - Peep Half
+506C - Peep Non
+506D - Slayer's Ring
+506E - Meteor Ring
+506F - Lunatic Ring
+5070 - Berserk Ring
+5071 - Shield Ring
+5072 - Resistance Ring
+5073 - Aqua Ring
+5074 - Flare Ring
+5075 - General's Ring
+5076 - Prism Ring
+5077 - Holy Ring
+5078 - Emerald Ring
+5079 - Water Ring
+507A - Fire Ring
+507B - Thunder Ring
+507C - Fairy Ring
+507D - Black Earring
+507E - Golden Earring
+507F - Ruby Earring
+5080 - Blood Earring
+5081 - Shield Earring
+5082 - Zephyr Earring
+5083 - Flash Earring
+5084 - Gaudy Earring
+5085 - Gale Earring
+5086 - Hard Earring
+5087 - Emerald Earring
+5088 - Star Earring
+5089 - Attack Earring
+508A - First Earring
+508B - Lunatic Earring
+508C - Silver Cross
+508D - Golden Cross
+508E - Magic Cross
+508F - Silver Ring
+5090 - Right Cross
+5091 - Left Cross
+5092 - Silver Barrette
+5093 - Angle Hair
+5094 - Golden Bracelet
+5095 - Anklet
+5096 - Lot Bracelet
+5097 - Recoil Bracelet
+5098 - Dream Bracelet
+5099 - Golden Crown
+509A - Shiny Earring
+509B - Moon Earring
+509C - Mind Ring
+509D - Feet Symbol
+509E - Silver Earring
+509F - Misty Symbol
+50A0 - Crown
+50A1 - Dream Crown
+50A2 - Moon Tiara
+50A3 - Crumpled Paper
+50A4 - Fountain Pen
+50A5 - Beret
+50A6 - Pose Collection
+50A7 - Today's Dish
+50A8 - Musical Theory
+50A9 - Operation Manual
+50AA - Engineering
+50AB - Choose Ingredients
+50AC - Cook From The Heart
+50AD - Mystical Beings
+50AE - Heart Barriers
+50AF - Nature's Life Force
+50B0 - The Land's Secret
+50B1 - Pocket Encyclopedia
+50B2 - Gold/Silversmith
+50B3 - Pieces for Learners
+50B4 - No Need for Words
+50B5 - Grammar
+50B6 - The Hermes Theory
+50B7 - Forest Friends
+50B8 - All About Herbs
+50B9 - On Revenge
+50BA - On Training
+50BB - Before Tea's Ready
+50BC - Fanzine ?
+50BD - Fanzine ...
+50BE - Fanzine
+50BF - Fanzine (music note)
+50C0 - Fanzine !
+50C1 - Fanzine (heart)
+50C2 - Fanzine (male symbol(?))
+50C3 - Fanzine (female symbol(?))
+50C4 - Planet of the Winds
+50C5 - I Can Only See You
+50C6 - The World is Mine
+50C7 - Advanced Heraldry
+50C8 - The Bloody Road
+50C9 - New Civilization
+50CA - Cat House Murder
+50CB - Mr. 'No'
+50CC - Buy it... Ok?
+50CD - Living with Animals
+50CE - But One Truth
+50CF - Countdown
+50D0 - Ocean of Stars
+50D1 - Falling in Love
+50D2 - Lady in Red
+50D3 - Special Heraldry
+50D4 - To Live
+50D5 - Historic Greats
+50D6 - Wax Doll Murders
+50D7 - Never Turn Back
+50D8 - A Maiden's Secret
+50D9 - Principles of Nature
+50DA - Killer's Book
+50DB - Lost Sanctuary
+50DC - Mandrake
+50DD - Rose Hips
+50DE - Artemis Leaf
+50DF - Wolfsbane
+50E0 - Lavender
+50E1 - Aceras
+50E2 - Skanda Compress
+50E3 - Attack Vial
+50E4 - Energy Tonic
+50E5 - Kamikaze Tonic
+50E6 - Smelling Salts
+50E7 - Shock Oil
+50E8 - Smoke Oil
+50E9 - Twin's Tonic
+50EA - Herbal Oil
+50EB - Bubble Lotion
+50EC - Paralysis Oil
+50ED - Bitter Lotion
+50EE - Fairy Glass
+50EF - Fairy's Cologne
+50F0 - Merlin Drink
+50F1 - Medical Rinse
+50F2 - Melting Lotion
+50F3 - Ressurrection Mist
+50F4 - Risky Liquid
+50F5 - Lilith Tonic
+50F6 - Danger Pot
+50F7 - Nightmare Pot
+50F8 - Flash Pot
+50F9 - Mint Pot
+50FA - Mental Pot
+50FB - Sour Syrup
+50FC - Sweet Syrup
+50FD - Maple Syrup
+50FE - Fruit Syrup
+50FF - Fresh Syrup
+5100 - Hot Syrup
+5101 - Mixed Syrup
+5102 - Cure Poison
+5103 - Cure Paralysis
+5104 - Wonder Drug
+5105 - Natural High
+5106 - Crush Pill
+5107 - Care Tablet
+5108 - Violence Pill
+5109 - Marionette Pill
+510A - Skanda Ointment
+510B - Stink Gel
+510C - Succubus Cologne
+510D - Aphrodisiac
+510E - Pixie Cologne
+510F - Smoke Mist
+5110 - Paralysis Mist
+5111 - Fairy Mist
+5112 - Blanking Mist
+5113 - Holy Mist
+5114 - Madness Mist
+5115 - Resurrection Bottle
+5116 - Spring Water
+5117 - Seafood
+5118 - Fruit
+5119 - Grain
+511A - Meat
+511B - Vegetables
+511C - Egg/Dairy Products
+511D - Sashimi
+511E - ?MACHINE
+511F - Sole & Wine Sauce
+5120 - ?MACHINE
+5121 - Cracked Gem
+5122 - Shark Potstickers
+5123 - Shark Fin Soup
+5124 - Bird's Nest Soup
+5125 - Broth
+5126 - Mushroom Soup
+5127 - Steamed Aspic
+5128 - ?MACHINE
+5129 - Orangeade
+512A - Pear Compote
+512B - Stawberry Mochi
+512C - ?MACHINE
+512D - ?MACHINE
+512E - Muscat Grape Jelly
+512F - Konyaku Jelly
+5130 - ?MACHINE
+5131 - ?MACHINE
+5132 - Coconut Milk
+5133 - Sharpness (Sword)
+5134 - Fruit Sandwich
+5135 - Sole & Fruit Sauce
+5136 - Sweet Rice Cakes
+5137 - Fried Rice
+5138 - Meat Fried Rice
+5139 - Sake Lees Pickles
+513A - ?JEWELRY
+513B - French Toast
+513C - Israfil's Tear
+513D - Red Lotus Gem
+513E - Shrimp Shu-mai
+513F - Hamburger
+5140 - Sirlion Steak
+5141 - Tri-emplem
+5142 - Peking Duck
+5143 - Creamed Stew
+5144 - Lezard Flask
+5145 - Fish Squash Salad
+5146 - Valkyrie's Garb (Armor)
+5147 - Daikon Radish
+5148 - Happo-sai
+5149 - Fried Vegetables
+514A - Missing Number
+514B - Missing Number
+514C - Yogurt Salad
+514D - Missing Number
+514E - Tea Cloth Sushi
+514F - Plain Omlet
+5150 - Missing Number
+5151 - Toro Tuna
+5152 - Missing Number
+5153 - Seaweed Miso Soup
+5154 - Shu-mai
+5155 - Amoeba Soup
+5156 - Sacred Tear (Sword)
+5157 - Fallen Hope (Armor)
+5158 - Shrimp au Gratin
+5159 - Big Tuna
+515A - Salmon Omlet
+515B - Shrimp Pilaf
+515C - Link Combo
+515D - Root Beer
+515E - 'Ishidaya' Tea
+515F - Yukiyucho Tea
+5160 - Hassaku Tea
+5161 - Yaegaki Tea
+5162 - 'Usunigori' Tea
+5163 - Sambai Tea
+5164 - Sweet Dumpling
+5165 - Levantine Sword (Sword)
+5166 - Daikon Miso Soup
+5167 - Gruel
+5168 - Rice Cakes
+5169 - Pancakes
+516A - Hoy Sword Farwell (Sword)
+516B - Soda-Pop
+516C - Seraphic Garb (Armor)
+516D - Shrimp Doria
+516E - Rice Omlet
+516F - Million Staff (Staff)
+5170 - Berry Juice
+5171 - Seltzer
+5172 - Orange Sherbet
+5173 - Banana Crepes
+5174 - Apple Cider
+5175 - Pickled Plum
+5176 - Strawberry Mousse
+5177 - Apple Crepes
+5178 - Peach Ice Cream
+5179 - Aged Berry Juice
+517A - Orange Au Gratin
+517B - Bitter Juice
+517C - Meat Dumpling
+517D - Potstickers
+517E - Beef Croquettes
+517F - Chicken Skewers
+5180 - Jambalaya
+5181 - Angle Armband (strong)
+5182 - Chicken Doria
+5183 - Steak
+5184 - Baby Rabbit Risotto
+5185 - Ground Lamb Steak
+5186 - Gelatin Steak
+5187 - Bad Tasting Stew
+5188 - Weird Slayer (Knuckles)
+5189 - Bunny Shoe (Boot)
+518A - Squash Croquettes
+518B - Corn Potage
+518C - Funny Slayer (umm.... crap except against 'Funny'(?),weapon)
+518D - Spring Roll
+518E - Carrot Juice
+518F - Cabbage Roll
+5190 - Squash Spring Rolls
+5191 - Vegetable Juice
+5192 - Green Potage
+5193 - Wilted Salad
+5194 - Fried Eggs
+5195 - Slime Jelly
+5196 - Fruit Smoothie
+5197 - Yogurt
+5198 - Egg Sandwich
+5199 - Chocolate Crepes
+519A - Bacon & Eggs
+519B - Vanilla Ice Cream
+519C - Shortcake
+519D - Custard Pudding
+519E - Macaroni Au Gratin
+519F - Spicy Cake
+51A0 - Raw Milk
+51A1 - Fruit Nectar
+51A2 - Pet Food
+51A3 - Iron
+51A4 - Gold
+51A5 - Silver
+51A6 - Moonite
+51A7 - Orichalcum
+51A8 - Meteorite
+51A9 - Mithril
+51AA - Damascus
+51AB - Rune Metal
+51AC - Rock
+51AD - Green Beryl
+51AE - Sapphire
+51AF - Ruby
+51B0 - Star Ruby
+51B1 - Crystal
+51B2 - Sage's Stone
+51B3 - Diamond
+51B4 - Rainbow Diamond
+51B5 - Bandit's Gloves
+51B6 - Blurry Photo
+51B7 - Magical Camera
+51B8 - Magic Film
+51B9 - Music Box
+51BA - Element Analyzer
+51BB - Graphic Software
+51BC - Magician's Hand
+51BD - Rirca
+51BE - Killer Poison
+51BF - Peep-peep Bomb
+51C0 - Mind Bomb
+51C1 - Flare Bomb
+51C2 - Tetra-bomb
+51C3 - Assault Bomb
+51C4 - Protection Bomb
+51C5 - Half-dead Bomb
+51C6 - Soul Trap
+51C7 - Nuclear Bomb
+51C8 - Material Kit
+51C9 - Musical Software
+51CA - Erlenmeyer Flask
+51CB - Magical Rasp
+51CC - Soldering Iron
+51CD - Survival Kit
+51CE - Text Software
+51CF - Antiseptic Gloves
+51D0 - Holoprojector
+51D1 - Plasma Zap-stick
+51D2 - Mech Launcher
+51D3 - White System
+51D4 - Black System
+51D5 - Green System
+51D6 - Smith's Hammer
+51D7 - Odd Medicine
+51D8 - Lady Fingers
+51D9 - Vallum Paper
+51DA - Bounced Check
+51DB - Fill-up
+51DC - Forged Bills
+51DD - Forged Checks
+51DE - Forged Documents
+51DF - Second Ledger
+51E0 - Stock Certificates
+51E1 - Forged Medals
+51E2 - Lien
+51E3 - Contract
+51E4 - Life Insurance
+51E5 - Dull Sword (Sword)
+51E6 - Worn-out Sword (Sword)
+51E7 - Golden Fangs (Sword)
+51E8 - Silver Fangs (Sword)
+51E9 - Broad Sword (Sword)
+51EA - Long Sword (Sword)
+51EB - Sinclair Sabre (Sword)
+51EC - Flame Blade (Sword)
+51ED - Walloon Sword (Sword)
+51EE - Gusguine (Sword)
+51EF - Long Edge (Sword)
+51F0 - Sharp Edge (Sword)
+51F1 - Veil Piercer (Sword)
+51F2 - Grand Stinger (Sword)
+51F3 - Ignite Sword (Sword)
+51F4 - Heart Breaker (Sword)
+51F5 - Marvel Sword (Sword)
+51F6 - Minus Sword (Sword)
+51F7 - Sawed (Sword)
+51F8 - Force Sword (Sword)
+51F9 - Windsley Sword (Sword)
+51FA - Silvance (Sword)
+51FB - Eternal Sphere (Sword)
+51FC - Aura Blade (Sword)
+51FD - All-Purpose Knife (Master Chef,Sword)
+51FE - Bastard Sword (Sword)
+51FF - Baselard (Sword)
+5200 - Oriental Blade (Sword)
+5201 - Murasome Sword (Sword)
+5202 - Soul Slayer (Sword)
+5203 - Whirlwind (Sword)
+5204 - The Hope Of Breeze (Sword)
+5205 - Hard Cleaver (Sword)
+5206 - Ruins' Fate (Sword)
+5207 - Pleiad Sword (Sword)
+5208 - Crimson Diablos (Sword)
+5209 - Cromlea Sword (Sword)
+520A - Wobbly Sword (Sword)
+520B - Twin Swords (Dual-Sword)
+520C - Guard Sword (Dual-Sword)
+520D - Both Shaver (Dual-Sword)
+520E - Smaller (Dual-Sword)
+520F - Twin-edge (Dual-Sword)
+5210 - Pair Nuts (Dual-Sword)
+5211 - Shield Sword (Dual-Sword)
+5212 - Twin Picks (Dual-Sword)
+5213 - Scyther (Dual-Sword)
+5214 - Doubledemon Sword (Dual-Sword)
+5215 - Double Masher (Dual-Sword)
+5216 - Lotus Eater (Dual-Sword)
+5217 - Gemini (Dual-Sword)
+5218 - Holy Cross (Dual-Sword)
+5219 - Melufa (Dual-Sword)
+521A - Worn Knuckles (Knuckles)
+521B - Knuckles (Knuckles)
+521C - Hard Knuckles (Knuckles)
+521D - Cestus (Knuckles)
+521E - Fellper Nails (Knuckles)
+521F - Metal Fangs (Knuckles)
+5220 - Magical Gloves (Knuckles)
+5221 - Braised Knuckles (Knuckles)
+5222 - Pain Cestus (Knuckles)
+5223 - Dragon's Claws (Knuckles)
+5224 - Rune Full Moon (Knuckles)
+5225 - Sorceress Knuckles (Knuckles)
+5226 - Kaiser Knuckles (Knuckles)
+5227 - Empresia (Knuckles)
+5228 - Bagh Nakh (Knuckles)
+5229 - Giant Fists (Knuckles)
+522A - Hecatoncheire (Knuckles)
+522B - Asura (Knuckles)
+522C - Titan's Fists (Knuckles)
+522D - Flare Burst (Knuckles)
+522E - Moon Fists (Knuckles)
+522F - Cat's Fangs (Knuckles)
+5230 - Eagle's Claws (Knuckles)
+5231 - Serpent's Tooth (Knuckles)
+5232 - Death Fangs (Knuckles)
+5233 - Grizzly Claps (Knuckles)
+5234 - Tiger's Fangs (Knuckles)
+5235 - Platinum Nails (Knuckles)
+5236 - Bent Rod (Staff)
+5237 - Silver Rod (Staff)
+5238 - Rod (Staff)
+5239 - Ruby Wand (Staff)
+523A - Tongue Twister (Staff)
+523B - Crest Rod (Staff)
+523C - Holy Rod (Staff)
+523D - Silvermoon (Staff)
+523E - Prime Prayer (Staff)
+523F - Magical Rod (Staff)
+5240 - Rod of Snakes (Staff)
+5241 - Dragon's Tusk (Staff)
+5242 - Ruby Rod (Staff)
+5243 - Clap Rod (Staff)
+5244 - Scrap Iron
+5245 - Booster Box (Kaleidoscope)
+5246 - Radio Box (Kaleidoscope)
+5247 - Black Box (Kaleidoscope)
+5248 - Light Box (Kaleidoscope)
+5249 - Seventh Ray (Kaleidoscope)
+524A - X Box (Kaleidoscope)
+524B - Magic Box (Kaleidoscope)
+524C - Alpha Box (Kaleidoscope)
+524D - Burst Box (Kaleidoscope)
+524E - Psycho Box (Kaleidoscope)
+524F - Beta Box (Kaleidoscope)
+5250 - Gamma Box (Kaleidoscope)
+5251 - Pulse Box (Kaleidoscope)
+5252 - Magic Hand (Hand)
+5253 - Iron Punch (Hand)
+5254 - One-two Punch (Hand)
+5255 - Straight Punch (Hand)
+5256 - Fire Punch (Hand)
+5257 - Ice Punch (Hand)
+5258 - Thunder Punch (Hand)
+5259 - Ultra Punch (Hand)
+525A - Great Punch (Hand)
+525B - Hyper Punch (Hand)
+525C - Burning Hand (Hand)
+525D - Atomic Punch (Hand)
+525E - Spark Hand (Hand)
+525F - SD Punch (Hand)
+5260 - UGA Punch (Hand)
+5261 - SDUGA Punch (Hand)
+5262 - Limp Whip (Whip)
+5263 - Leather Whip (Whip)
+5264 - Splinter (Whip)
+5265 - Hard Whip (Whip)
+5266 - Twin-tail (Whip)
+5267 - Rose Whip (Whip)
+5268 - Flare Whip (Whip)
+5269 - Light Whip (Whip)
+526A - Cat o'9 Tails (Whip)
+526B - Freeze Whip (Whip)
+526C - Spark Whip (Whip)
+526D - Molecule Wire (Whip)
+526E - Dark Whip (Whip)
+526F - Invisible Whip (Whip)
+5270 - Thick Book (Book)
+5271 - Reference Book (Book)
+5272 - Brain Structure (Book)
+5273 - Illustrated Book (Book)
+5274 - Treatise (Book)
+5275 - Mental Revolution (Book)
+5276 - Heraldry (Book)
+5277 - Dictionary (Book)
+5278 - All About ESP (Book)
+5279 - Heraldry Book (Book)
+527A - Holy Scriptures (Book)
+527B - Book of Awakening (Book)
+527C - Encyclopedia (Book)
+527D - Ancient Wisdom (Book)
+527E - Book of Darkness (Book)
+527F - Book of Chaos (Book)
+5280 - 10 Volt Stun Gun (Gun)
+5281 - Stun Gun (Gun)
+5282 - Electric (Gun)
+5283 - Shock Gun (Gun)
+5284 - Voltage (Gun)
+5285 - Freeze (Gun)
+5286 - Electro Gun (Gun)
+5287 - Flame Gun (Gun)
+5288 - Lightning Gun (Gun)
+5289 - Cracker (Gun)
+528A - Aero Gun (Gun)
+528B - Spark (???)
+528C - Flare Gun (Gun)
+528D - Electron (???)
+528E - Psychic Gun (Gun)
+528F - Leather Helm (Helment)
+5290 - Odd Helment (Helment)
+5291 - Odd Hat (Helment)
+5292 - Banded Helm (Helment)
+5293 - Magical Hat (Helment)
+5294 - Fame Helm (Helment)
+5295 - Iron Helm (Helment)
+5296 - Rune Cap (Helment)
+5297 - Plate Helm (Helment)
+5298 - Isis Tiara (Helment)
+5299 - Steel Helm (Helment)
+529A - Jeanne's Helm (Helment)
+529B - Wizard's Hat (Helment)
+529C - Mithril Helm (Helment)
+529D - Sylvan Helm (Helment)
+529E - Duel Helm (Helment)
+529F - Hermit's Helm (Helment)
+52A0 - Odin's Helm (Helment)
+52A1 - Bloody Helm (Helment)
+52A2 - Salamander Helment (Helment)
+52A3 - Sacknoth's Helment (Helment)
+52A4 - Perforated Armor (Armor)
+52A5 - Leather Armor (Armor)
+52A6 - Flashy Armor (Armor)
+52A7 - Banded Mail (Armor)
+52A8 - Odd Clothes (Armor)
+52A9 - Robe (Armor)
+52AA - Ringed Mail (Armor)
+52AB - Silk Robe (Armor)
+52AC - Brigandine (Armor)
+52AD - Amber Robe (Armor)
+52AE - Evening Dress (Armor)
+52AF - Plate Mail (Armor)
+52B0 - Silver Robe (Armor)
+52B1 - Flying Hawk Robes (Armor)
+52B2 - Mirage Robe (Armor)
+52B3 - Mithril Coat (Armor)
+52B4 - Holy Cloak (Armor)
+52B5 - Mithril Dress (Armor)
+52B6 - Star Cloak (Armor)
+52B7 - Jeanne's Armor (Armor)
+52B8 - Steel Armor (Armor)
+52B9 - Battle Suit (Armor)
+52BA - Wizard's Mail (Armor)
+52BB - Ishtar's Robe (Armor)
+52BC - Core Plate (Armor)
+52BD - Mithril Mesh (Armor)
+52BE - Barrier Armor (Armor)
+52BF - Sylvan Mail (Armor)
+52C0 - Valiant Mail (Armor)
+52C1 - Duel Suit (Armor)
+52C2 - Reflective Armor (Armor)
+52C3 - Chaos Mail (Armor)
+52C4 - Bloody Armor (Armor)
+52C5 - Wooden Shield (Shield)
+52C6 - Round Shield (Shield)
+52C7 - Knight's Shield (Shield)
+52C8 - Odd Shield (Shield)
+52C9 - Odd Gauntlets (Shield)
+52CA - Buckler (Shield)
+52CB - Fine Shield (Shield)
+52CC - Rune Buckler (Shield)
+52CD - Crestier Guard (Shield)
+52CE - The Armband of Kali (Shield)
+52CF - Star Guard (Shield)
+52D0 - Rare Gauntlets (Shield)
+52D1 - Jeanne's Shield (Shield)
+52D2 - Algol (Shield)
+52D3 - Mithril Shield (Shield)
+52D4 - Valiant Guard (Shield)
+52D5 - Valkyrie Guard (Shield)
+52D6 - Barrier Shield (Shield)
+52D7 - Pallas Athena (Shield)
+52D8 - Sandals (Boot)
+52D9 - Leather Greaves (Boot)
+52DA - Boots (Boot)
+52DB - Secret Boots (Boot)
+52DC - Suede Boots (Boot)
+52DD - Iron Greaves (Boot)
+52DE - Original Boots (Boot)
+52DF - Leather Boots (Boot)
+52E0 - Plate Greaves (Boot)
+52E1 - High Heels (Boot)
+52E2 - High-laced Shoes (Boot)
+52E3 - Silver Greaves (Boot)
+52E4 - Odd Shoes (Boot)
+52E5 - Pin Heels (Boot)
+52E6 - Santa's Boots (Boot)
+52E7 - Mud Boots (Boot)
+52E8 - Valkyrie Boots (Boot)
+52E9 - Steel-toes Boots (Boot)
+52EA - Rune Shoes (Boot)
+52EB - Mithril Greaves (Boot)
+52EC - Witch's Boots (Boot)
+52ED - Valiant Boots (Boot)
+52EE - Sylvan Boots (Boot)
+52EF - Neo Greaves (Boot)
+52F0 - Star Greaves (Boot)
+52F1 - Neumann Boots (Boot)
+52F2 - Cinderella Glass
+52F3 - Aquaberry
+52F4 - Blackberry
+52F5 - Blueberry
+52F6 - Strawberry Jam
+52F7 - Raspberry Jam
+52F8 - Apple Jam
+52F9 - Aloe Jam
+52FA - Missing Number
+52FB - Tri-emblem
+52FC - Rice Croquettes
+52FD - Soy Milk
+52FE - Smelly Rice Cakes
+52FF - Quick Pickles
+5300 - Rice-bran Pickles
+5301 - Carrot Ice Cream
+5302 - Cure Stone
+5303 - Mischief
+5304 - Trickster
+5305 - Fortune
+5306 - Rotten Sashimi
+5307 - Go-home Frog
+5308 - ?HERB
+5309 - ?HERB
+530A - ?HERB
+530B - ?HERB
+530C - ?HERB
+530D - ?HERB
+530E - Purity Leaf
+530F - Juicy Beef
+5310 - Prime Tuna
+5311 - Ganze Sea Urchin
+5312 - Magical Rice
+5313 - Creamy Cheese
+5314 - Sweet Fruit
+5315 - Slippery Slime
+5316 - Jiggly Slime
+5317 - Milky Potage
+5318 - Special Stir-fry
+5319 - Magical Salad
+531A - Golden Stew
+531B - Fine Saute
+531C - Exciting Tenderloin
+531D - Prime Sirloin
+531E - Inviting Filet
+531F - Tuna Skewers
+5320 - Prine Tuna Steak
+5321 - Fish of Happiness
+5322 - Special Tuna
+5323 - Ichigoni
+5324 - Ichigoni Supreme
+5325 - Prince's Zoni Stew
+5326 - Sea Urchin on Rice
+5327 - Deluxe Doria
+5328 - Miracle Fried Rice
+5329 - Risotto Ecstasy
+532A - Heavenly Doria
+532B - Au Gratin Climax
+532C - Cheese Pizza
+532D - Assorted Cheeses
+532E - Gorgonzola
+532F - Gateau Marjolaine
+5330 - 1-up Pudding
+5331 - Beautiful Ice Cream
+5332 - Ginger Ale
+5333 - Genie's Veggie Soup
+5334 - Genie's Steak
+5335 - Energy Drink
+5336 - Yarma Cooking Set
+5337 - ? (japanese characters)
+5338 - ?MINERAL
+5339 - ?MINERAL
+533A - ?MINERAL
+533B - ?MINERAL
+533C - ?MINERAL
+533D - ?MINERAL
+533E - ?MINERAL
+533F - ?MINERAL
+5340 - ?MINERAL
+5341 - ?MINERAL
+5342 - ?WEAPON
+5343 - ?WEAPON
+5344 - ?WEAPON
+5345 - ?WEAPON
+5346 - ?WEAPON
+5347 - ?WEAPON
+5348 - ?WEAPON
+5349 - ?WEAPON
+534A - ?WEAPON
+534B - ?WEAPON
+534C - ?WEAPON
+534D - ?WEAPON
+534E - ?WEAPON
+534F - ?WEAPON
+5350 - ?WEAPON
+5351 - ?WEAPON
+5352 - ?WEAPON
+5353 - ?WEAPON
+5354 - ?WEAPON
+5355 - ?WEAPON
+5356 - ?WEAPON
+5357 - ?WEAPON
+5358 - ?WEAPON
+5359 - ?WEAPON
+535A - ?WEAPON
+535B - ?WEAPON
+535C - ?WEAPON
+535D - ?WEAPON
+535E - ?WEAPON
+535F - ?WEAPON
+5360 - ?WEAPON
+5361 - ?WEAPON
+5362 - ?WEAPON
+5363 - ?WEAPON
+5364 - ?WEAPON
+5365 - ?WEAPON
+5366 - ?WEAPON
+5367 - ?WEAPON
+5368 - ?WEAPON
+5369 - ?WEAPON
+536A - ?WEAPON
+536B - ?WEAPON
+536C - ?WEAPON
+536D - ?GUARD
+536E - ?GUARD
+536F - ?GUARD
+5370 - ?GUARD
+5371 - ?GUARD
+5372 - ?GUARD
+5373 - ?GUARD
+5374 - ?GUARD
+5375 - ?GUARD
+5376 - ?GUARD
+5377 - ?GUARD
+5378 - ?GUARD
+5379 - ?GUARD
+537A - ?GUARD
+537B - ?GUARD
+537C - ?GUARD
+537D - ?GUARD
+537E - ?GUARD
+537F - ?GUARD
+5380 - ?GUARD
+5381 - ?GUARD
+5382 - ?GUARD
+5383 - ?GUARD
+5384 - ?GUARD
+5385 - ?GUARD
+5386 - ?GUARD
+5387 - ?GUARD
+5388 - ?GUARD
+5389 - ?GUARD
+538A - ?GUARD
+538B - ?GUARD
+538C - ?JEWELRY
+538D - ?JEWELRY
+538E - ?JEWELRY
+538F - ?JEWELRY
+5390 - ?JEWELRY
+5391 - ?JEWELRY
+5392 - ?JEWELRY
+5393 - ?JEWELRY
+5394 - ?JEWELRY
+5395 - ?JEWELRY
+5396 - ?JEWELRY
+5397 - ?JEWELRY
+5398 - ?JEWELRY
+5399 - ?JEWELRY
+539A - ?JEWELRY
+539B - ?JEWELRY
+539C - ?JEWELRY
+539D - ?JEWELRY
+539E - ?JEWELRY
+539F - ?JEWELRY
+53A0 - ?JEWELRY
+53A1 - ?JEWELRY
+53A2 - ?JEWELRY
+53A3 - ?JEWELRY
+53A4 - ?JEWELRY
+53A5 - ?JEWELRY
+53A6 - ?JEWELRY
+53A7 - ?JEWELRY
+53A8 - ?JEWELRY
+53A9 - ?JEWELRY
+53AA - ?JEWELRY
+53AB - ?JEWELRY
+53AC - ?JEWELRY
+53AD - ?JEWELRY
+53AE - ?JEWELRY
+53AF - ?JEWELRY
+53B0 - ?JEWELRY
+53B1 - ?JEWELRY
+53B2 - ?JEWELRY
+53B3 - ?JEWELRY
+53B4 - ?JEWELRY
+53B5 - ?JEWELRY
+53B6 - ?JEWELRY
+53B7 - ?ITEM
+53B8 - ?ITEM
+53B9 - ?ITEM
+53BA - ?ITEM
+53BB - ?ITEM
+53BC - ?Book
+53BD - ?Book
+53BE - ?Book
+53BF - ?Book
+53C0 - ?Book
+53C1 - ?Book
+53C2 - ?FOOD
+53C3 - ?FOOD
+53C4 - ?FOOD
+53C5 - ?FOOD
+53C6 - ?FOOD
+53C7 - ?FOOD
+53C8 - ?FOOD
+53C9 - ?FOOD
+53CA - ?FOOD
+53CB - ?FOOD
+53CC - ?FOOD
+53CD - ?FOOD
+53CE - ?FOOD
+53CF - ?FOOD
+53D0 - ?FOOD
+53D1 - ?FOOD
+53D2 - ?FOOD
+53D3 - ?FOOD
+53D4 - ?FOOD
+53D5 - ?FOOD
+53D6 - ?FOOD
+53D7 - ?FOOD
+53D8 - ?FOOD
+53D9 - ?FOOD
+53DA - ?FOOD
+53DB - ?FOOD
+53DC - ?FOOD
+53DD - ?FOOD
+53DE - ?FOOD
+53DF - ?FOOD
+53E0 - ?FOOD
+53E1 - ?FOOD
+53E2 - ?FOOD
+53E3 - ?FOOD
+53E4 - ?FOOD
+53E5 - ?FOOD
+53E6 - ?FOOD
+53E7 - ?FOOD
+53E8 - ?FOOD
+53E9 - ?FOOD
+53EA - ?FOOD
+53EB - ?FOOD
+53EC - ?FOOD
+53ED - ?FOOD
+53EE - ?FOOD
+53EF - ?FOOD
+53F0 - ?FOOD
+53F1 - ?FOOD
+53F2 - ?FOOD
+53F3 - ?FOOD
+53F4 - ?FOOD
+53F5 - ?FOOD
+53F6 - ?FOOD
+53F7 - ?FOOD
+53F8 - ?FOOD
+53F9 - ?FOOD
+53FA - ?FOOD
+53FB - ?FOOD
+53FC - ?MACHINE
+53FD - ?MACHINE
+53FE - ?MACHINE
+53FF - ?MACHINE
+
+Killer Moves Digits
+
+Quantity Digits to Accompany 'Killer' Moves Modifier Codes
+00 - Nothing (Same For All Characters)
+Claude
+01 - Air Slash
+02 - Shooting Stars
+03 - Phase Gun
+04 - Headsplitter
+05 - Twin Slash
+06 - Energy Sword
+07 - Ripper Blast
+08 - Burst Knuckle
+09 - Dragon Howl
+0A - Sword Bomber
+0B - Mirror Slice
+Bowman
+01 - Spirit Attack
+02 - Poison Pills
+03 - Secret Medicine
+04 - Pillory
+05 - Sakura Attack
+06 - Firebird Attack
+07 - Death Siege
+08 - Explosion Pills
+09 - Whirlwind Fist
+0A - Burst Fist
+Ernest
+01 - Dimension Whip
+02 - Cloud Dust
+03 - Arc Attack
+04 - Thousand Whips
+05 - Sonic Whip
+06 - Broken Heart
+07 - Spiral Whip
+08 - Thunder Whip
+Opera
+01 - Healing Star
+02 - Cold Wind
+03 - Photo Prison
+04 - A On One
+05 - Flame Launcher
+06 - Lightining Blade
+07 - Spread Ray
+08 - Laser Bit
+09 - Gravity Shell
+0A - Hyper Launcher
+Precis
+01 - Big Bang Attack
+02 - Para Bola Beam
+03 - Ally-Oop
+04 - Mujin Super Beam
+05 - Bloody Mary
+06 - Mole
+07 - Rocket Punch
+08 - Hop Step
+09 - Holo - Holograph
+0A - Barrier
+Ashton
+01 - Sword Dance
+02 - Cross Slash
+03 - Twin Stab
+04 - Piercing Swords
+05 - Dead Triangle
+06 - Dragon Breath
+07 - Hurricane Slash
+08 - Leaf Slash
+09 - Northern Cross
+0A - Tri-Ace
+
+Talent Digits
+
+Quantity Digits to Accompany Max Talent Modifier Codes
+01FF - Non-Magic Users
+03FF - Magic Users

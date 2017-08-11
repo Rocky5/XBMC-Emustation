@@ -1,0 +1,385 @@
+Quantity Digits
+Item/Equipment Digits
+
+Quantity Digits to Accompany Item/Equipment Modifier Codes
+00 - Nothing
+01 - Ring
+02 - Canoe
+03 - Pass
+04 - Mythril
+05 - SnowCraft
+06 - Goddess's Bell
+07 - Egils Torch
+08 - Sunfire
+09 - Pendant
+0A - Dragon Egg
+0B - White Mask
+0C - Black Mask
+0D - Crystal Rod
+0E - Wind Drake
+0F - Discard
+10 - Potion
+11 - Antidote
+12 - Gold Needle
+13 - Cross
+14 - Maidens Kiss
+15 - Mallet
+16 - Eye Drops
+17 - Phoenix Down
+18 - Elixir
+19 - Ether
+1A - Hi-Potion
+1B - Cottage
+1C - Zephyr's Flute
+1D - Gaia Drum
+1E - Garlic
+1F - Unicorn Horn
+20 - Notus
+21 - Sages Wisdom
+22 - Saints Spirit
+23 - Hermes
+24 - Silk Web
+25 - Mute Bell
+26 - Hourglass
+27 - Thanatos
+28 - Bacchuss Wine
+29 - Acid Bottle
+2A - Slumber Stalk
+2B - Magiconch
+2C - Backstabber
+2D - Mythril Mirror
+2E - Hellfire
+2F - ?
+30 - ?
+31 - Buckler
+32 - Bronze Shield
+33 - Mythril Shield
+34 - Gold Shield
+35 - Ice Shield
+36 - Flame Shield
+37 - Diamond Shield
+38 - Dragon Shield
+39 - Aegis Shield
+3A - Knife
+3B - Dagger
+3C - Mythril Knife
+3D - Main Gauche
+3E - Orichaldagger
+3F - Ripper
+40 - Cat Claws
+41 - Staff
+42 - Mace
+43 - Mythril Mace
+44 - Werebane
+45 - Mages Staff
+46 - Power Staff
+47 - Spellbinder
+48 - Healing Staff
+49 - Diamond Mace
+4A - Javelin
+4B - Spear
+4C - Mythril Spear
+4D - Trident
+4E - Demon Spear
+4F - Flame Lance
+50 - Ice Lance
+51 - Thunder Spear
+52 - Holy Lance
+53 - Broadsword
+54 - Long Sword
+55 - Mythril Sword
+56 - Ancient Sword
+57 - Crescent
+58 - Wing Blade
+59 - Blood Sword
+5A - Terra Sword
+5B - Flame Sword
+5C - Ice Brand
+5D - Defender
+5E - Sunblade
+5F - Excalibur
+60 - Masamune
+61 - Axe
+62 - Battle Axe
+63 - Mythril Axe
+64 - Demon Axe
+65 - Ogrekiller
+66 - Venom Axe
+67 - Rune Axe
+68 - Bow
+69 - OLongbow
+6A - Mythril Bow
+6B - Shade Bow
+6C - Flame Bow
+6D - Ice Bow
+6E - ?
+6F - Yoichis Bow
+70 - Leather Cap
+71 - Bronze Helm
+72 - Myrhril Helm
+73 - Titans helm
+74 - Flame Helm
+75 - Diamond helm
+76 - Genji Helm
+77 - Headband
+78 - Gold Hairpin
+79 - Ribbon
+7A - Shirt
+7B - Leather Armor
+7C - Bronze Mail
+7D - Mythril Mail
+7E - Golden Mail
+7F - Knights Armor
+80 - Flame Mail
+81 - Ice Mail
+82 - Diamond Mail
+83 - Dragon mail
+84 - Genjii Armor
+85 - Copper Plate
+86 - Silver Plate
+87 - Ruby Plate
+88 - Gold Plate
+89 - Diamond Plate
+8A - White Robe
+8B - Black Robe
+8C - Power Sash
+8D - Ninja Suit
+8E - Leather Gloves
+8F - Bronze Gloves
+90 - Mythril Gloves
+91 - Thiefs Glove
+92 - Titans Gloves
+93 - Ice Gloves
+94 - Diamond Gloves
+95 - Genji Gloves
+96 - Protect Ring
+97 - Power Armlet
+98 - Fire Scroll
+99 - Bolt Scroll
+9A - Ice Scroll
+9B - Poison Scroll
+9C - Drain Scroll
+9D - Osmose Scroll
+9E - Flare Scroll
+9F - Sleep Scroll
+A0 - Stun Scroll
+A1 - Stop Scroll
+A2 - Muddle Scroll
+A3 - Blind Scroll
+A4 - Curse Scroll
+A5 - Toad Scroll
+A6 - Break Scroll
+A7 - Doom Scroll
+A8 - Banish Scroll
+A9 - Berserk Scroll
+AA - Haste Scroll
+AB - Aura Scroll
+AC - Cure Scroll
+AD - Life Scroll
+AE - Basuna Scroll
+AF - Esuna Scroll
+B0 - Barrier Scroll
+B1 - Blink Scroll
+B2 - Shield Scroll
+B3 - Shell Scroll
+B4 - Wall Scroll
+B5 - Dispel Scroll
+B6 - Mini Scroll
+B7 - Silence Scroll
+B8 - Faze Scroll
+B9 - Fog Scroll
+BA - Slow Scroll
+BB - Swap Scroll
+BC - Fear Scroll
+BD - Holy Scroll
+BE - Warp Scroll
+BF - Ultima Scroll
+
+Keyword Digits
+
+Quantity Digits to Accompany Keyword Modifier Codes
+00 - Nothing
+01 - Wild Rose
+02 - Mythril
+03 - Dreadnought
+04 - Palamecia
+05 - Airship
+06 - Goddess's Bell
+07 - Sunfire
+08 - Mysidia
+09 - Ultima Scroll
+0A - Dragoons
+0B - Wind Drake
+0C - Cyclone
+0D - Jade Passage
+0E - Mask
+0F - Ekmet Teloez
+10 - Altair
+11 - Gatrea
+12 - Paloom
+13 - Poft
+14 - Bafsk
+15 - Salamand
+16 - Mysidia
+17 - Fynn
+18 - Chocobo Forest
+19 - Camp
+1A - Rebels' Hideout
+1B - Castle Fynn 1F
+1C - Castle Fynn 2F
+1D - Castle Fynn 3F
+1E - Castle Fynn 4F
+1F - Castle Fynn B1
+20 - Castle Fynn B2
+21 - Castle Fynn B3
+22 - Castle Fynn B4
+23 - Castle Fynn B5
+24 - Semitt Falls B1
+25 - Semitt Falls B2
+26 - Semitt Falls B3
+27 - Semitt Falls B4
+28 - Semitt Falls B5
+29 - Bafsk Cave B1
+2A - Bafsk Cave 1F
+2B - Snow Cavern B1
+2C - Snow Cavern B2
+2D - Snow Cavern B3
+2E - Snow Cavern B4
+2F - Snow Cavern B5
+30 - Castle Kas'ion 1
+31 - Castle Kas'ion 2
+32 - Castle Kas'ion 3
+33 - Castle Kas'ion 4
+34 - Castle Kas'ion 5
+35 - Castle Deist 1F
+36 - Castle Deist 2F
+37 - Deist Cavern B1
+38 - Deist Cavern B2
+39 - Deist Cavern B3
+3A - Deist Cavern B4
+3B - Deist Cavern B5
+3C - Coliseum 1F
+3D - Coliseum B1
+3E - Coliseum B2
+3F - Dreadnought 1F
+40 - Dreadnought 2F
+41 - Dreadnought 3F
+42 - Dreadnought 4F
+43 - Dreadnought 5F
+44 - Mysidian Cave B1
+45 - Mysidian Cave B2
+46 - Mysidian Cave B3
+47 - Mysidian Cave B4
+48 - Mysidian Cave B5
+49 - Tropical Island
+4A - Tropical Island
+
+Magic Digits
+
+Quantity Digits to Accompany Magic Modifier Codes
+01 - Fire
+02 - Bolt
+03 - Ice
+04 - Poison
+05 - Drain
+06 - Osmose
+07 - Flare
+08 - Sleep
+09 - Stun
+0A - Stop
+0B - Muddle
+0C - Blind
+0D - Curse
+0E - Toad
+0F - Break
+10 - Doom
+11 - Banish
+12 - Berserk
+13 - Haste
+14 - Aura
+15 - Cure
+16 - Life
+17 - Basuna
+18 - Esuna
+19 - Barrier
+1A - Blink
+1B - Shield
+1C - Shell
+1D - Wall
+1E - Dispel
+1F - Mini
+20 - Silence
+21 - Faze
+22 - Fog
+23 - Slow
+24 - Swap
+25 - Fear
+26 - Holy
+27 - Warp
+28 - Ultima
+
+Name Digits
+
+Quantity Digits to Accompany Name Modifier Codes
+00 - 0
+01 - 1
+02 - 2
+03 - 3
+04 - 4
+05 - 5
+06 - 6
+07 - 7
+08 - 8
+09 - 9
+0A - A
+0B - B
+0C - C
+0D - D
+0E - E
+0F - F
+10 - G
+11 - H
+12 - I
+13 - J
+14 - K
+15 - L
+16 - M
+17 - N
+18 - O
+19 - P
+1A - Q
+1B - R
+1C - S
+1D - T
+1E - U
+1F - V
+20 - W
+21 - X
+22 - Y
+23 - Z
+24 - a
+25 - b
+26 - c
+27 - d
+28 - e
+29 - f
+2A - g
+2B - h
+2C - i
+2D - j
+2E - k
+2F - l
+30 - m
+31 - n
+32 - o
+33 - p
+34 - q
+35 - r
+36 - s
+37 - t
+38 - u
+39 - v
+3A - w
+3B - x
+3C - y
+3D - z

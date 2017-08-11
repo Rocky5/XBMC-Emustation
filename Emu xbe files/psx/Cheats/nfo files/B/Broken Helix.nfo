@@ -1,0 +1,40 @@
+Quantity Digits to Accompany Item Modifier Codes
+00 - Nothing
+01 - Health
+02 - Large Energy
+03 - Small Energy
+04 - Key1
+05 - Key2
+06 - Key3
+07 - Lift Key
+08 - Key5
+09 - Key6
+0A - Amplifier
+0B - Photo
+0C - Save Game
+0D - Normal Armor
+0E - Virus Antidote
+0F - Energy Pack
+10 - Gas Card
+11 - Jewel
+12 - Wire Cutters
+13 - Password
+14 - Helix Files
+15 - Detonator
+16 - Orders
+17 - Energy Armor
+18 - Heavy Armor
+19 - Force Field Device
+1A - Key4
+1B - Rapid Fire
+1C - Flame Thrower
+1D - Missile
+1E - Alien Weapon
+1F - Organic Attachment
+20 - Plasma
+21 - Key7
+22 - Key8
+23 - Key9
+24 - Key10
+25 - Grenades
+26 - C4 Explosive

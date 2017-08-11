@@ -1,0 +1,875 @@
+Misc. Codes notes
+
+Note 1:
+With this code, Press Down to increase Exp.
+
+Note 2:
+With this code, do not use it with the Super Exp Orb Code.
+
+Quantity Digits
+Ability Digits
+
+Quantity Digits to Accompany Ability Modifier Codes
+00 - Bolt Slash
+01 - Moment Slide
+02 - Vertical Raid
+03 - Nibelung Valesti
+05 - Critical Flare
+06 - Aerial Burst
+07 - Thunder Sword
+08 - Ether Strike
+0A - Spinning Back-Knuckle
+0B - High Wind
+0C - Wrenching Swing
+0D - Final Blast
+14 - Smash Axe
+15 - Prisoner Fang
+16 - Triple Thrust
+17 - Justice Stream
+19 - First Slash
+1A - Rising Slash
+1B - Piercing Crusade
+1C - Extreme Void
+1E - First Shot
+1F - Twin Shot
+20 - Aiming Wisp
+21 - Layer Storm
+23 - Low Swing
+24 - Beast Tackle
+25 - Air Pressure
+26 - Flashing Blade
+28 - Diseased Needle
+29 - Tri-Stinger
+2A - Restrain Flame
+2B - Guilty Break
+37 - Roundkick
+38 - Sonic Edge
+39 - Spinning Edge
+3A - Dreaded Dragon
+3C - Senko-Zan
+3D - Koei-Zan
+3E - So-Enbu
+3F - Senko-Jin
+46 - Flare Shot
+47 - Fifth Way
+48 - Lunatic Shot
+49 - Sphere Stike
+4B - Razor Edge
+4C - Mortal Razor
+4D - Energy Cannon
+4E - Icicle Disaster
+5F - Gleam Charge
+60 - Round Dance
+61 - Hind Edge
+62 - Eternal Raid
+64 - Shisen
+65 - Hyo-Reppa
+66 - Yasha-Uchi
+67 - Hyoso-Hojin
+6E - Air Slash
+6F - Slanting Blow
+70 - Shining Bolt
+71 - Round Rip Saber
+78 - Bloody Knuckle
+79 - Deadly Raid
+7A - Immortal Blow
+7B - Bloody Curse
+7D - Spread Shot
+7E - Tri-Blast
+7F - Infinity Blast
+80 - Nibelung Valesti
+
+Attack/Magic Screen
+
+Quantity Digits to Accompany Attack/Magic Screen Modifier Codes
+00 - Magic Screen
+01 - Attack Screen
+
+Character Digits
+
+Quantity Digits to Accompany Character Modifier Codes
+00 - Nothing
+01 - Valkyrie
+02 - Freya
+03 - Arngrim
+04 - Jelanda
+05 - Lawfer
+06 - Belenus
+07 - Llewelyn
+08 - Kashell
+09 - Janus
+0A - Nanami
+0B - Yumei
+0C - Aelia
+0D - Jun
+0E - Lyseria
+0F - Badrach
+10 - Grey
+11 - Lorenta
+12 - Mystina
+13 - Shiho
+14 - Jayle
+15 - Suo
+16 - Gandar
+17 - Lucian
+18 - Lezard Valeth
+19 - Brahms
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+000 - Nothing
+001 - Elixir
+002 - Banish
+003 - Union Plume
+004 - Prime Elixir
+005 - Prime Banish
+006 - Noble Elixir
+007 - Noble Banish
+008 - Spectacles
+009 - Creation Gem
+00A - Creation Jewel
+00B - ???
+00C - ???
+00D - ???
+00E - ???
+00F - ???
+010 - ???
+011 - ???
+012 - Might Potion
+013 - Nectar Potion
+014 - Secure Potion
+015 - Lucid Potion
+01F - Charge Break
+020 - Combo Potion
+021 - Angel Curio
+022 - Protect Charm
+023 - Magic Charm
+024 - Resist Charm
+025 - ???
+026 - ???
+027 - ???
+028 - Throwing Dagger
+029 - ???
+02A - Silver Dagger
+02B - ???
+02C - Cross Dagger
+02D - Fairy Earring
+02E - Fairy Ring
+02F - Powr Bangle
+030 - Magic Bangle
+031 - Protect Jewel
+032 - Resist Jewel
+033 - Combo Jewel
+034 - Material Earring
+035 - Material Gem
+036 - Magic Mist
+037 - Poison Check
+038 - Paralyze Check
+039 - Stone Check
+03A - Freeze Check
+03B - Curse Check
+03C - Stun Check
+03D - Mighty Check
+03E - Seraphic Symbol
+049 - Antler Sword
+04A - Viking Sword
+04B - Walloon Sword
+04C - Colichemarde
+04D - Sinclair Saber
+04E - Pallasch
+04F - Reiter Pallasch
+050 - Schweizer-Sword
+051 - Wa-to
+052 - Tachi
+053 - Seventh Sword
+054 - No-Dachi
+055 - Shisen-To
+056 - Kongou-To
+057 - Masamune
+058 - Muramasa
+059 - Two Handed Sword
+05A - Hack Blade
+05B - Zweihander
+05C - Striking-Sword
+05D - Claymore
+05E - Flamberge
+05F - Brandish-Sword
+060 - Brutish Edge
+061 - Awl-Pike
+062 - Winged-Spear
+063 - Boarding-Pike
+064 - Corsesca
+065 - Halberd
+066 - Pole-Axe
+067 - Ahlspiess
+068 - Saber-Halberd
+069 - ???
+06A - ???
+06B - ???
+06C - ???
+06D - ???
+06E - ???
+06F - ???
+070 - ???
+071 - Crossbow
+072 - Bolt-Crossbow
+073 - Rapid-Crossbow
+074 - Windlass-Crossbow
+075 - Fire-Crossbow
+076 - Arbalest
+077 - Serstine-Lock-Gun
+078 - Bolt-Aqqar
+079 - ???
+07A - ???
+07B - ???
+07C - ???
+07D - ???
+07E - ???
+07F - ???
+080 - ???
+081 - Ruby Mace
+082 - Formula Wand
+083 - Crystal Wand
+084 - Silver Mace
+085 - Alchemy Wand
+086 - Worship Mace
+087 - Deluge Scepter
+088 - Shining Scepter
+089 - Lightning Edge
+08A - Radiance Sword
+08B - Ice Coffin
+08C - Scarlet Forge
+08D - Go-Shorai Blade
+08E - Ten-Horin Blade
+08F - Ama-no-Murakumo Blade
+090 - Demon Blade
+091 - Elemental Edge
+092 - Ignite Sword
+093 - Bahamut Tear
+094 - Violet Forge
+095 - Spinning Spear
+096 - Heart Piercer
+097 - Arc Wind
+098 - Holy Halberd
+099 - ???
+09A - ???
+09B - ???
+09C - ???
+09D - Supreme Crossbow
+09E - Crescent Arrow
+09F - Last Avenger
+0A0 - Shiny Rupture
+0A1 - ???
+0A2 - ???
+0A3 - ???
+0A4 - ???
+0A5 - Holy Prayer
+0A6 - Accepter Rod
+0A7 - Noble Desire
+0A8 - Absolute Force
+0A9 - Valkyrie-Favor
+0AA - Sallet
+0AB - Silver Sallet
+0AC - Duel Helm
+0AD - Valor Helm
+0AE - Valiant Helm
+0AF - Tiara
+0B0 - Silver Tiara
+0B1 - Annointed Tiara
+0B2 - Anointed Garland
+0B3 - Supreme Garland
+0B4 - Cuirass
+0B5 - Silver Cuirass
+0B6 - Duel Armor
+0B7 - Valor Armor
+0B8 - Valiant Armor
+0B9 - Cloak
+0BA - Silver Cloak
+0BB - Anointed Cloak
+0BC - Anointed Garb
+0BD - Supreme Garb
+0BE - Gauntlet
+0BF - Silver Gauntlet
+0C0 - Duel Guarder
+0C1 - Valor Gauntlet
+0C2 - Valiant Guarder
+0C3 - Greaves
+0C4 - Silver Greaves
+0C5 - Duel Greaves
+0C6 - Valor Greaves
+0C7 - Valiant Greaves
+0C8 - Hand A
+0C9 - Hand B
+0CA - Hand C
+0CB - Leather Boots
+0CC - Suede Boots
+0CD - Elven Boots
+0CE - ???
+0CF - ???
+0D0 - ???
+0D1 - ???
+0D2 - ???
+0D3 - ???
+0D4 - Pearl Of Karula
+0D5 - Teachings Of Bethanus
+0D6 - Dharma Incense
+0D7 - Amber Of Happiness
+0D8 - Rabbits Foot
+0D9 - Angel Lips
+0DA - Monster Tome
+0DB - Demonic Tone
+0DC - Skull Of Devone
+0DD - Shell Of Laliu
+0DE - Sleipnirs Mane
+0DF - Flame Bandanna
+0E7 - Emerald Necklace
+0E8 - Secrets Of Zolon
+0E9 - Eye Of Heaven
+0EA - Phoenix Feather
+0EB - Holy Water Of Mithra
+0F0 - Scroll Of Golem
+0F1 - Arectaris Amulet
+0F2 - Harp Of Atrasia
+0F3 - Sealed Box
+0F4 - Mask Of The Dead King
+0F5 - Coffin Of The Lost Princess
+0F6 - Ambrosia
+0F7 - Enchanted Sword Murasame
+0F8 - Scarlet Lotus Sword
+0F9 - Soul Sword Kusanagi
+0FA - Sword Of Silvans
+0FB - Magic Blade Cromrea
+0FC - Slashing Sword Farewell
+0FD - Grand Sting
+0FE - Holy Sword Seraphy
+0FF - Faim Fenn
+100 - Demon Sword Levantine
+101 - Spear Basilisk
+102 - Holy Spear Gungnir
+103 - Spear Dark Angel
+104 - Dragoon Tyrant
+105 - Sylvan Bow
+106 - Elven Bow
+107 - Foul Slayer
+108 - Berserker Bow
+109 - Infernas
+10A - Arectaris
+10B - Shadzard
+10C - Dragons Fang
+10D - Phoenix Blade
+10E - Great Spear Dinosaur
+10F - Crimson Edge
+110 - Holy Wand Adventia
+111 - Eternal Fault
+112 - ???
+113 - ???
+114 - ???
+115 - ???
+116 - ???
+117 - ???
+118 - ???
+119 - Unicorns Horn
+11A - Wand Of Apocalypse
+11B - Holy Wand Of Telos
+11C - Lumiferous Wand
+11D - Reflect Armor
+11E - Armor Of Aleph
+11F - Armor Of The Abyss
+120 - Daemon Plate
+121 - Robe Of Bryttain
+122 - Slyphan Robe
+123 - Robe Of Elberreth
+124 - Mirage Robe
+125 - Dragoon Faith
+126 - ???
+127 - ???
+128 - ???
+129 - ???
+12A - Crown Of Felmar
+12B - Tiara Of The Holy Empress
+12C - Holy Crown
+12D - Enchanted Crown
+12E - Rust Red Circlet
+12F - Ether Freeze
+130 - Empress Garland
+131 - Eternal Shine
+132 - Brisingal
+133 - Orihalcon Boots
+134 - Ether Mail
+135 - Hourglass Of The Gods
+136 - Tome Of Alchemy
+137 - Inscribed Fragment
+138 - Star Guard
+139 - Secret Of Damascus
+13A - Secret Of Runework
+13B - Extreme Guard
+13C - Bracelet Of Zoe
+13D - Bark Of The Dryad
+13E - Sages Stone
+13F - Bewitching Statue
+140 - Artistic Statue
+141 - Fairy Bottle
+142 - Ogre Hand Bottle
+143 - Orihalcon
+144 - Golden Fowl
+145 - Gargoyle Statue
+146 - Coin Of Fortune
+147 - Ruby Music Box
+148 - Mithril
+149 - Daemon Leather
+14A - Shrine Goddess Amulet
+14B - Golden Egg
+14C - Floating Sphere
+14D - Mead Of The Gods
+14E - Wand Of Exchange
+14F - Mirror Of Pleiades
+150 - Richebourg
+151 - Bracelet Of Basilisk
+152 - Grimstyk
+153 - Broken Blade
+154 - Book Of Presents
+155 - Casket Of The Incubus
+156 - Holy Grail
+157 - Eternal Lamp
+158 - ???
+159 - ???
+15A - ???
+15B - ???
+15C - Autodoll
+15D - Incense Burner Of Darlis
+15E - Manual Of Resurrection
+15F - Tear Of The Cosmos
+160 - Feathered Tiara
+161 - Feathered Helm
+162 - Winged Helm
+163 - Aerial Garland
+164 - Seraphic Garland
+165 - Aegea Garb
+166 - Heraldic Garb
+167 - Radiant Garb
+168 - Divinity Garb
+169 - Seraphic Garb
+16A - Glance Reviver
+16B - Jeweled Blade Rimrist
+16C - Demon Sword Nefarious
+16D - Pitful Promise
+16E - Ethereal Divide
+16F - Razor Shaft
+170 - Wand Mystic Sage
+174 - Neckless Doll
+175 - Broken Blade
+176 - Bloodstained Dress
+177 - Basilisk Scale
+178 - Vegetable Seed
+179 - Foxglove
+17A - Aconite
+17B - Nightshade
+17C - Ghoul Powder
+17D - Savory
+17E - Mandrake
+17F - Book Of Everlasting Life
+180 - Invisibility Potion
+181 - Holy Water
+182 - Aqua Vitae
+183 - Holy Relic
+184 - Teachings Of Asa
+185 - Mithril Ore
+186 - Iron Ore
+187 - Feather
+188 - Raw Meat
+189 - Citrine
+18A - Unicorn Horn
+18B - Sage
+18C - Ebony Powder
+18D - Raptors Claw
+18E - Beasts Fangs
+18F - Burgundy Flask
+190 - Broken Spear
+191 - Broken Bow
+192 - Fresh Meat
+193 - Base Metal
+194 - Broken Armor
+195 - Flare Gem
+196 - Ice Gem
+197 - Thunder Gem
+198 - Poison Gem
+199 - Holy Gem
+19A - Shadow Gem
+19B - Flare Crystal
+19C - Ice Crystal
+19D - Thunder Crystal
+19E - Poison Crystal
+19F - Holy Crystal
+1A0 - Shadow Crystal
+1A1 - ???
+1A2 - ???
+1A3 - ???
+1A4 - ???
+1A5 - ???
+1A6 - Long Sword
+1A7 - Broad Sword
+1A8 - Bastard Sword
+1A9 - Falchion
+1AA - Estoc
+1AB - Flamberg
+1AC - Wassail-Rapier
+1AD - Damascus Sword
+1AE - Short Spear
+1AF - Glaive
+1B0 - Warhammer
+1B1 - Long Flail
+1B2 - Ranseur
+1B3 - Footmans Axe
+1B4 - Lucerne Hammer
+1B5 - Fine Halberd
+1B6 - Short Bow
+1B7 - Long Bow
+1B8 - Rapid Bow
+1B9 - Composite Bow
+1BA - Cranequin-Crossbow
+1BB - ???
+1BC - ???
+1BD - ???
+1BE - Dragon Slayer
+1BF - Daemon Slayer
+1C0 - Beast Slayer
+1C1 - Mage Slayer
+1C2 - Raven Slayer
+1C3 - Soul Slayer
+1CE - Vainslayer
+1CF - Moonflax
+1D0 - Ruins Fate
+1D1 - Flare Baselard
+1D2 - Dragonbane
+1D3 - Leather Armor
+1D4 - Chainmail
+1D5 - Lamellar
+1D6 - Breastplate
+1D7 - Silver Mail
+1D8 - Full Plate
+1D9 - Silver Plate
+1DA - Mithril Plate
+1DB - ???
+1DC - ???
+1DD - ???
+1DE - ???
+1DF - ???
+1E0 - ???
+1E4 - ???
+1E5 - Mind Potion
+1E6 - Skill Potion
+1E7 - Material Potion
+1E8 - Haste Ring
+1E9 - Energy Ring
+1EA - Crack Ring
+1EB - ???
+1EC - Blaze Guard
+1ED - Icicle Guard
+1EE - Glare Guard
+1EF - ???
+1F0 - Gem Of Creation
+1F1 - Gem Of Activity
+1F2 - Gem Of Illusion
+1F3 - ???
+1F4 - Icicle Sword
+1F5 - Glare Sword
+1F6 - ???
+1F7 - Lapis Lazuli
+1F8 - Quartz Gem
+1F9 - Earring Of Healing
+1FA - Ring Of Healing
+1FB - Ring Of Learning
+1FC - Scout Orb
+1FD - ???
+1FE - ???
+1FF - ???
+200 - Nibelungen Ring
+201 - Auto Item
+202 - Throw
+203 - Cure Conditions
+204 - Guts
+205 - Adept Illusion
+206 - Dancing Sword
+207 - Last Trial
+208 - Splash
+209 - Reverie
+20A - Combo Coun
+20C - Triple Distress
+20D - Steal Magic
+20E - Stun Magic
+20F - Concentration
+210 - Scarlet Edge
+211 - Charge
+212 - Strike Edge
+213 - Dark
+214 - Trick Step
+215 - Mental Reaction
+216 - Wait Reaction
+217 - Slanting Rain
+218 - Darkness Arrow
+219 - False Arrow
+21A - Attack Arrow
+21B - Defend
+21C - Avoid
+21D - Hit
+21E - Resist Damage
+21F - Magic Pow
+220 - Resist Magic
+221 - Fire Lance
+222 - Fire Storm
+223 - Icicle Edge
+224 - Frigid Damsel
+225 - Lightning Bolt
+226 - Prismatic Missile
+227 - Shadow Servant
+228 - Dark Savior
+229 - Poison Blow
+22A - Stone Touch
+22B - Mystic Cross
+22C - Sacred Javelin
+22D - Invoke Feather
+22E - Heal
+22F - Normalize
+230 - Enchanted Weapon
+231 - Might Reinforce
+232 - Guard Reinforce
+233 - Spell Reinforce
+234 - Sap Power
+235 - Sap Guard
+236 - Dampen Magic
+237 - Reflect Sorcery
+238 - Shield Critical
+23A - Timer Ring
+23B - Dimension Slip
+23C - Malice Search
+23D - Enemy Search
+23E - Treasure Search
+23F - Trap Search
+247 - Angel Slayer
+248 - Tri-Emblem
+249 - Book Of Riddles 8
+24A - Book Of Riddles 7
+24B - Book Of Riddles 6
+24C - Book Of Riddles 5
+24D - Book Of Riddles 4
+24E - Book Of Riddles 3
+24F - Book Of Riddles 2
+250 - Book Of Riddles 1
+251 - Gram
+252 - Diainslef
+253 - Eternal Garb
+254 - Bloody-Knuckle
+255 - Bloody-Duster
+256 - Ether Laser
+257 - Iron Barred Key
+258 - Element Scepter
+259 - Ether Scepter
+25A - Accursed Flame Gem
+25B - Accursed Flame Gem
+25C - Handwoven Bandanna
+25D - Fragment Of Lapis Gem
+25E - Infinity Rod
+25F - Goddess Pendant
+260 - Pressed Flower
+261 - Holy Drop
+262 - Scroll Of Spell Forgetting
+263 - Flame Jewel
+264 - Feathered Pocketwatch
+
+Magic Digits
+
+Quantity Digits to Accompany Magic Modifier Codes
+00 - Nothing
+01 - Fire Lance
+02 - Fire Storm
+03 - Icicle Edge
+04 - Frigid Damsel
+05 - Lightning Bolt
+06 - Prismatic Missile
+07 - Shadow Servant
+08 - Dark Savior
+09 - Poison Blow
+0A - Stone Touch
+0B - Mystic Cross
+0C - Sacred Javelin
+0D - Invoke Feather
+0E - Heal
+0F - Normalize
+10 - Enchanted Weapon
+11 - Might Reinforce
+12 - Guard Reinforce
+13 - Spell Reinforce
+14 - Sap Power
+15 - Sap Guard
+16 - Dampen Magic
+17 - Reflect sorcery
+18 - Shield Critical
+
+Perfume Digits
+
+Quantity Digits to Accompany Perfume Modifier Codes
+00 - None
+01 - Yellow Perfume
+02 - Red Perfume
+03 - Blue Perfume
+
+Skill Digits
+
+Quantity Digits to Accompany Skill Modifier Codes
+01 - First Aid
+02 - Auto Item
+03 - Throw
+04 - Cure Condition
+05 - Guts
+06 - Adept Illusion
+07 - Dancing Sword
+08 - Last Trial
+09 - Splash
+0A - Reverie
+0B - Combo Counter
+0C - Noise Arrow
+0D - Triple Distress
+0E - Steal Magic
+0F - Stun Magic
+10 - Concentration
+11 - Scarlet Edge
+12 - Charge
+13 - Strike Edge
+14 - Dark
+15 - Trick Step
+16 - Mental Reaction
+17 - Wait Reaction
+18 - Slanting Rain
+19 - Darkness Arrow
+1A - False Arrow
+1B - Tactics
+1C - Hear Noise
+1D - Find Trap
+1E - Survival
+1F - Identify
+20 - Leadership
+21 - Fight
+22 - Trick
+23 - March
+24 - Formation
+25 - Attack Pow
+26 - Defend
+27 - Avoid
+28 - Hit
+29 - Resist Damage
+2A - Magic Pow
+2B - Resist Magic
+2C - Monster Int
+2D - Undead Int
+2E - Demon Int
+2F - Counter
+
+Status Digits
+
+Quantity Digits to Accompany Status Modifier Codes
+00 - Nothing
+01 - !
+02 - Poison
+04 - Paralyze
+08 - Stone
+10 - Curse
+
+Trait Digits
+
+Quantity Digits to Accompany Trait Modifier Codes
+00 - Nothing
+01 - Brave
+02 - Cowardly
+03 - Lucky
+04 - Unlucky
+05 - Precise
+06 - Careless
+07 - Wise
+08 - Emotional
+09 - Moralistic
+0A - Lawless
+0B - Tenacious
+0C - Weakwilled
+0D - Sacrificing
+0E - Egotistical
+0F - Giving
+10 - Selfish
+11 - Articulate
+12 - Tonguetied
+13 - Altruistic
+14 - Covetous
+15 - Focused
+16 - Distracted
+17 - Likes Men
+18 - Hates Men
+19 - Outgoing
+1A - Withdrawn
+1B - Perceptive
+1C - Dense
+1D - Swimmer
+1E - Cant Swim
+1F - Nimble
+20 - Slow Footed
+21 - Healthy
+22 - Sickly
+23 - Beautiful
+24 - Ugly
+25 - Narcissistic
+26 - Empathetic
+27 - Coolheaded
+28 - Serious
+29 - Frivolous
+2A - Aware
+2B - Obtuse
+2C - Optimistic
+2D - Worrier
+2E - Never Lost
+2F - Gets Lost
+30 - Apolitical
+31 - Stubborn
+32 - Prudent
+33 - Reckless
+34 - Prideful
+35 - Flirty
+36 - Elegant
+37 - Vulgar
+38 - Romantic
+39 - Realist
+3A - Lecherous
+3B - Hates Girls
+3C - Flashy
+3D - Reserved
+3E - Good Ears
+3F - Bad Ears
+40 - Drinker
+41 - Nondrinker
+42 - Hates Hot
+43 - Hates Cold
+44 - Confident
+45 - Timid
+46 - Voluptuous
+47 - Cute
+48 - Unselfish
+49 - Greedy
+4A - Modest
+4B - Graceful
+4C - Beauty
+4D - Pessimist
+4E - Foolhardy
+4F - Blind
+50 - Yearning
+51 - Maternal
+52 - Hates Kids
+53 - Stout
+54 - Fragile
+55 - Fearful
+56 - Robust
+57 - Devoted
+58 - Snobbish
+59 - Loves Sis
+5A - Loves Dad
+5B - Loves Bro
+5C - Loves Mom
+5D - Shallow
+5E - Naivete

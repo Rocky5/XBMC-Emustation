@@ -1,0 +1,147 @@
+Quantity Digits to Accompany Vehicle Modifier Code
+00 - Nothing
+01 - Transport
+02 - Kev's Super Body
+03 - Fire Engine Body
+04 - Cyborg Assult Gunner Body
+05 - Cyborg Rocket1 Ground Body
+06 - Cyborg Flamer Body
+07 - Cyborg Machine Gun Body
+08 - Cyborg Chaingun1 Ground Body
+09 - Cyborg Cannon Body
+0A - Cyborg Cannon Body
+0B - Cyborg Nexus Rail1 Jump Body
+0C - Cyborg Nexus Pulse Laser Jump Body
+0D - Cyborg Nexus Missle Jump Body
+0E - Cyborg Flamer Body
+0F - Cyborg Body Rail 1
+10 - Cyborg Body Laser 1
+11 - Cyborg Body AT Missle
+12 - School Bus Body
+13 - Tiger Body
+14 - Scorpion Body
+15 - Cobra Body
+16 - Bug Body
+17 - Leopard Body
+18 - Viper Body
+19 - Mantis
+1A - Python
+1B - Trike Body
+1C - Rocket Buggy Body
+1D - Buggy Body
+1E - Rocket Jeep Body
+1F - Jeep Body
+20 - Baba Body (Humans)
+
+Quantity Digits to Accompany Vehicle Propulsion Modifier Code
+00 - Nothing
+01 - Wheels III
+02 - Wheels II
+03 - Wheels
+04 - VTOL III
+05 - VTOL II
+06 - VTOL
+07 - Tracks III
+08 - Tracks II
+09 - Tracks
+0A - Hover III
+0B - Hover II
+0C - Hover
+0D - Half-Tracks III
+0E - Half-Tracks II
+0F - Half-Tracks
+10 - Cyborg Propulsion III
+11 - Cyborg Propulsion II
+12 - Cyborg Propulsion
+13 - Baba Propulsion
+14 - Baba Legs
+15 - Invisible Super Propulsion (Costs TOO MUCH TOO to MAKE!!)
+16 - Monster Tracks III (Costs TOO MUCH TOO to MAKE!!)
+17 - Monster Tracks II (Costs TOO MUCH TOO to MAKE!!)
+18 - Monster Tracks (Costs TOO MUCH TOO to MAKE!!)
+19 - Bomber VTOL III
+1D - Upside Down Propulsion!!!
+
+Quantity Digits to Accompany Vehicle Sensors Turret Modifier Code
+00 - Nothing
+01 - Uplink Satellite
+02 - VTOL Strike Turret
+03 - CB Radar Turret
+04 - CB Tower
+05 - Sensor Turret
+06 - Hardened Sensor Tower
+07 - Sensor Tower
+0A - CC Sensor
+Quantity Digits to Accompany Vehicle Weapons Turret Modifier Code
+00 - Nothing
+01 - Machinegun
+02 - Alex's Super Weapon
+03 - Kev's Super Weapon
+04 - Scrambler
+05 - VTOL Mini-Pod
+06 - VTOL Lancer
+07 - VTOL Tank Killer
+08 - VTOL Bunker Buster
+09 - Mini-Pod
+0A - Mini-Rocket Artillery
+0B - Lancer
+0C - Ripple Rockets
+0D - Tank Killer
+0E - Bunker Buster
+0F - Hurricane AA
+10 - Nexus Cyborg Pulse Laser
+11 - Nexus Cyborg Missle
+12 - Nexus Cyborg Chaingun
+13 - Nexus Cyborg Rail1
+14 - Bombard
+15 - Mortar
+16 - Angel Missle
+17 - Heavy Machinegun
+18 - VTOL Heavy Machinegun
+19 - Heavy Machinegun Bunker?
+1A - Twin Machinegun
+1B - VTOL Twin Machinegun
+1C - Twin Machinegun Bunker?
+1D - Machinegun
+1E - VTOL Machinegun
+1F - Machinegun Bunker?
+20 - Inferno
+21 - Flamer
+22 - Cyborg Rotary Machinegun
+23 - Cyborg Lancer
+24 - Cyborg Flamer
+25 - Cyborg Machinegunner
+26 - Cyborg Heavy Gunner
+27 - Cyborg Weapon Rail1
+28 - Cyborg Weapon Laser
+29 - Cyborg Weapon AT Missles
+2A - Command
+2B - VTOL Assault Cannon
+2C - VTOL Hyper Velocity Cannon
+2D - Heavy Cannon
+2E - Medium Cannon
+2F - Light Cannon
+30 - VTOL Cannon
+31 - Bus Cannon
+32 - Buggy Machinegun
+33 - Trike Machinegun
+34 - Tower Machinegun
+35 - Jeep Machinegun
+36 - Baba Rocket
+37 - AT Rocket Pit
+38 - Baba Rocket Pit Launcher
+39 - Baba Machinegun
+3A - *Flamer*
+3B - Baba Cannon
+3C - Cyclone Flak
+
+Quantity Digits to Accompany Campaign Modifier Code
+01 - Campaign 1
+02 - Campaign 2
+03 - Campaign 3
+
+Note 1:
+With this code, it must be activated in order to use the others! Also it Enables the start Campaign 2 & 3 options!
+
+Note 2:
+With this code, activate this with weapon mod to give your trucks weapons.

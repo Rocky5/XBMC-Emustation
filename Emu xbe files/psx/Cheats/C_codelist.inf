@@ -1,0 +1,8149 @@
+#C - The Contra Adventure#SLUS00499
+"Infinite Lives-All Levels
+D00EB518 0005
+800EB518 0006
+"=Side Scroll Level [Note 1]
+"Moon Jump
+800CC6FC 5080
+"Invincible
+80118AD4 0055
+"Infinite Smart Bombs
+8008F104 0009
+"=3D & Overhead Level 
+"Moon Jump
+D00EBF38 0040
+800B80B4 B000
+"Invincible
+800B8100 0025
+"Infinite Smart Bombs On Pick-Up
+D00EB51A 0001
+800EB51A 0002
+
+#Cabela's Big Game Hunter-Ultimate Challenge#SLUS01391
+"Infinite Money
+8013A83C 869F
+8013A83E 0001
+"Never Reload
+8006985A 0005
+"Infinite Health
+800E2F2C 0024
+
+#Cabela's Ultimate Deer Hunt#SLUS01474
+"Quick Money Gain
+80129E08 FFFF
+"Max Money
+80129E08 E0FF
+80129E0A 05F5
+"Never Reload
+8012025C 0500
+"Infinite Health
+800D6AAC 0024
+
+#Caesar's Palace II#SLUS00780
+"Infinite Money
+801D5CC6 6554
+
+#Caesar's Palace#SLUS00285
+"Command (add 16-bit value)
+D00880A8 ????
+"Infinite Money P1
+800BB868 423F
+800BB86A 000F
+"Infinite Money P2
+800BB8FC 423F
+800BB8FE 000F
+"Infinite Money P3
+800BB990 FFFF
+"No Money P1
+800BB868 0000
+"No Money P2
+800BB8FC 0000
+"No Money P3
+800BB990 0000
+
+#Caesars Palace 2000 - Millenium Gold Edition#SLUS01089
+"P1 Max Infinite Cash
+800C7254 FFFF
+800C7256 FFFF
+"P1 Max Stats Blackjack
+300C6F94 0005
+300C6FB4 00FF
+800C6FC4 FFFF
+800C6FC6 FFFF
+"P1 Max Stats Spanish 21
+300C6FCC 0005
+300C6FEC 00FF
+800C6FFC FFFF
+800C6FFE FFFF
+"P1 Max Stats Mini Barracrat
+300C7004 0005
+300C7024 00FF
+800C7034 FFFF
+800C7036 FFFF
+"P1 Max Stats Red Dog
+300C703C 0005
+300C705C 00FF
+800C706C FFFF
+800C706E FFFF
+"P1 Max Stats Casino War
+300C7074 0005
+300C7094 00FF
+800C70A4 FFFF
+800C70A6 FFFF
+"P1 Max Stats Pai Gow Poker
+300C70AC 0005
+300C70CC 00FF
+800C70DE FFFF
+800C700A FFFF
+"P1 Max Stats Roulette
+300C70E4 0005
+300C7104 00FF
+800C7114 FFFF
+800C7116 FFFF
+"P1 Max Stats Craps
+300C711C 0005
+300C713C 00FF
+800C714C FFFF
+800C714E FFFF
+"P1 Max Stats Slots
+300C7154 0005
+300C7174 00FF
+800C7184 FFFF
+800C7186 FFFF
+"P1 Max Stats Poker Challenge
+300C718C 0005
+300C71AC 00FF
+800C71BC FFFF
+800C71BE FFFF
+"P1 Max Stats Video Poker
+300C71C4 0005
+300C71E4 00FF
+800C71F4 FFFF
+800C71F6 FFFF
+"P1 Max Stats Video Keno
+300C71FC 0005
+300C721C 00FF
+800C722C FFFF
+800C722E FFFF
+"P1 Max Stats All Games
+50000C38 0000
+300C6F94 0005
+50000C38 0000
+300C6FB4 00FF
+50000C38 0000
+800C6FC6 FFFF
+"P2 Max Infinite Cash
+800C757C FFFF
+800C757E FFFF
+"P2 Max Stats Blackjack
+300C72BC 0005
+300C72DC 00FF
+800C72EE FFFF
+"P2 Max Stats Spanish 21
+300C72F4 0005
+300C7314 00FF
+800C7326 FFFF
+"P2 Max Stats Mini Barracrat
+300C732C 0005
+300C734C 00FF
+800C735E FFFF
+"P2 Max Stats Red Dog
+300C7364 0005
+300C7384 00FF
+800C7396 FFFF
+"P2 Max Stats Casino War
+300C739C 0005
+300C73BC 00FF
+800C73CE FFFF
+"P2 Max Stats Pai Gow Poker
+300C73D4 0005
+300C73F4 00FF
+800C7406 FFFF
+"P2 Max Stats Roulette
+300C740C 0005
+300C742C 00FF
+800C743E FFFF
+"P2 Max Stats Craps
+300C7444 0005
+300C7464 00FF
+800C7476 FFFF
+"P2 Max Stats Slots
+300C747C 0005
+300C749C 00FF
+800C74AE FFFF
+"P2 Max Stats Poker Challenge
+300C74B4 0005
+300C74D4 00FF
+800C74E6 FFFF
+"P2 Max Stats Video Poker
+300C74EC 0005
+300C750C 00FF
+800C751E FFFF
+"P2 Max Stats Video Keno
+300C7524 0005
+300C7544 00FF
+800C7556 FFFF
+"P2 Max Stats All Games
+50000C38 0000
+300C72BC 0005
+50000C38 0000
+300C72DC 00FF
+50000C38 0000
+800C72EE FFFF
+"P3 Max Infinite Cash
+800C78A4 FFFF
+800C78A6 FFFF
+"P3 Max Stats Blackjack
+300C75E4 0005
+300C7504 00FF
+800C7516 FFFF
+"P3 Max Stats Spanish 21
+300C761C 0005
+300C753C 00FF
+800C754E FFFF
+"P3 Max Stats Mini Barracrat
+300C7654 0005
+300C7574 00FF
+800C7586 FFFF
+"P3 Max Stats Red Dog
+300C768C 0005
+300C75AC 00FF
+800C75BE FFFF
+"P3 Max Stats Casino War
+300C76C4 0005
+300C75E4 00FF
+800C75F6 FFFF
+"P3 Max Stats Pai Gow Poker
+300C76FC 0005
+300C761C 00FF
+800C762E FFFF
+"P3 Max Stats Roulette
+300C7734 0005
+300C7654 00FF
+800C7666 FFFF
+"P3 Max Stats Craps
+300C776C 0005
+300C768C 00FF
+800C769E FFFF
+"P3 Max Stats Slots
+300C77A4 0005
+300C76C4 00FF
+800C76D6 FFFF
+"P3 Max Stats Poker Challenge
+300C77DC 0005
+300C76FC 00FF
+800C770E FFFF
+"P3 Max Stats Video Poker
+300C7814 0005
+300C7734 00FF
+800C7746 FFFF
+"P3 Max Stats Video Keno
+300C784C 0005
+300C776C 00FF
+800C777E FFFF
+"P3 Max Stats All Games
+50000C38 0000
+300C75E4 0005
+50000C38 0000
+300C7504 00FF
+50000C38 0000
+800C7516 FFFF
+"P4 Max Infinite Cash
+800C7BCC FFFF
+800C7BCE FFFF
+"P4 Max Stats Blackjack
+300C790C 0005
+300C792C 00FF
+800C793E FFFF
+"P4 Max Stats Spanish 21
+300C7944 0005
+300C7964 00FF
+800C7976 FFFF
+"P4 Max Stats Mini Barracrat
+300C797C 0005
+300C799C 00FF
+800C79AE FFFF
+"P4 Max Stats Red Dog
+300C79B4 0005
+300C79D4 00FF
+800C79E6 FFFF
+"P4 Max Stats Casino War
+300C79EC 0005
+300C7A0C 00FF
+800C7A1E FFFF
+"P4 Max Stats Pai Gow Poker
+300C7A24 0005
+300C7A44 00FF
+800C7A56 FFFF
+"P4 Max Stats Roulette
+300C7A5C 0005
+300C7A7C 00FF
+800C7A8E FFFF
+"P4 Max Stats Craps
+300C7A94 0005
+300C7AB4 00FF
+800C7AC6 FFFF
+"P4 Max Stats Slots
+300C7ACC 0005
+300C7AEC 00FF
+800C7AFE FFFF
+"P4 Max Stats Poker Challenge
+300C7B04 0005
+300C7B24 00FF
+800C7B36 FFFF
+"P4 Max Stats Video Poker
+300C7B3C 0005
+300C7B5C 00FF
+800C7B6E FFFF
+"P4 Max Stats Video Keno
+300C7B74 0005
+300C7B94 00FF
+800C7BA6 FFFF
+"P4 Max Stats All Games
+50000C38 0000
+300C790C 0005
+50000C38 0000
+300C792C 00FF
+50000C38 0000
+800C793E FFFF
+
+#Card Games#SLUS01379
+"Infinite Credits
+800AA828 FFFF
+"Max Credits
+800AA828 FFFF
+800AA82A 7FFF
+"No Credits
+800AA828 0000
+"Casino Modifier (add 8-bit value)
+800EEDB8 00??
+
+#Cardinal Syn#SCUS94156
+"1 Round To Win P1
+801EE69C 0001
+"0 Rounds Won P2
+801EE6D4 0000
+"=Unlock Character 
+"Kahn
+801E7B2A 0100
+"Stygian
+801E7B2E 0100
+"Redemptor
+801E7B32 0100
+"Juni
+801E7B36 0100
+"Mongwan
+801E7B3A 0100
+"Vodu
+801E7B3E 0100
+"Bimorphia
+801E7B42 0100
+"Moloch
+801E7B46 0100
+"SYN
+801E7B48 0100
+"KRON
+801E7B4A 0100
+"=Finkster & McKrieg Stage Only! 
+"P1 Infinite Health
+8001E930 0190
+"P1 Invisible
+8001E93C 0004
+"P1 Visible
+8001E93C 0001
+"P1 Frozen
+8001E940 0001
+"P2 Infinite Health
+8001E570 0190
+"P2 Invisible
+8001E57C 0004
+"P2 Visible
+8001E57C 0001
+"P2 Frozen
+8001E580 0001
+"=Vanguard & Redemptor Stage Only! 
+"P1 Infinite Health
+8001F1F0 0190
+"P1 Invisible
+8001F1FC 0004
+"P1 Visible
+8001F1FC 0001
+"P1 Frozen
+8001F200 0001
+"P2 Infinite Health
+8001EF70 0190
+"P2 Invisible
+8001EF7C 0004
+"P2 Visible
+8001EF7C 0001
+"P2 Frozen
+8001EF80 0001
+"=Kahn Stage Only! 
+"P1 Infinite Health
+8001ECF0 0190
+"P1 Invisible
+8001ECFC 0004
+"P1 Visible
+8001ECFC 0001
+"P1 Frozen
+8001ED00 0001
+"P2 Infinite Health
+8001EA70 0190
+"P2 Invisible
+8001EA7C 0004
+"P2 Visible
+8001EA7C 0001
+"P2 Frozen
+8001EA80 0001
+"=Plague Stage Only! 
+"P1 Infinite Health
+8001EBB0 0190
+"P1 Invisible
+8001EBBC 0004
+"P1 Visible
+8001EBBC 0001
+"P1 Frozen
+8001EBC0 0001
+"P2 Infinite Health
+8001E930 0190
+"P2 Invisible
+8001E93C 0004
+"P2 Visible
+8001E93C 0001
+"P2 Frozen
+8001E940 0001
+"=Juni & Orion Stage Only! 
+"P1 Infinite Health
+8001F1F0 0190
+"P1 Invisible
+8001F1FC 0004
+"P1 Visible
+8001F1FC 0001
+"P1 Frozen
+8001F200 0001
+"P2 Infinite Health
+8001EE30 0190
+"P2 Invisible
+8001EE3C 0004
+"P2 Visible
+8001EE3C 0001
+"P2 Frozen
+8001EE40 0001
+"=Hecklar,Nephra & Bimorphia Stage Only! 
+"P1 Infinite Health
+8001ECF0 0190
+"P1 Invisible
+8001ECFC 0004
+"P1 Visible
+8001ECFC 0001
+"P1 Frozen
+8001ED00 0001
+"P2 Infinite Health
+8001E930 0190
+"P2 Invisible
+8001E93C 0004
+"P2 Visible
+8001E93C 0001
+"P2 Frozen
+8001E940 0001
+"=Vodu Stage Only! 
+"P1 Infinite Health
+8001EBB0 0190
+"P1 Invisible
+8001EBBC 0004
+"P1 Visible
+8001EBBC 0001
+"P1 Frozen
+8001EBC0 0001
+"P2 Infinite Health
+8001E7F0 0190
+"P2 Invisible
+8001E7FC 0004
+"P2 Visible
+8001E7FC 0001
+"P2 Frozen
+8001E800 0001
+"=Mongwan Stage Only! 
+"P1 Infinite Health
+8001F330 0190
+"P1 Invisible
+8001F33C 0004
+"P1 Visible
+8001F33C 0001
+"P1 Frozen
+8001F340 0001
+"P2 Infinite Health
+8001EF70 0190
+"P2 Invisible
+8001EF7C 0004
+"P2 Visible
+8001EF7C 0001
+"P2 Frozen
+8001EF80 0001
+"=Moloch Stage Only! 
+"P1 Infinite Health
+8001F0B0 0190
+"P1 Invisible
+8001F0BC 0004
+"P1 Visible
+8001F0BC 0001
+"P1 Frozen
+8001F0C0 0001
+"P2 Infinite Health
+8001ECF0 0190
+"P2 Invisible
+8001ECFC 0004
+"P2 Visible
+8001ECFC 0001
+"P2 Frozen
+8001ED00 0001
+"=Mongoro Stage Only! 
+"P1 Infinite Health
+8001EE30 0190
+"P1 Invisible
+8001EE3C 0004
+"P1 Visible
+8001EE3C 0001
+"P1 Frozen
+8001EE40 0001
+"P2 Infinite Health
+8001EA70 0190
+"P2 Invisible
+8001EA7C 0004
+"P2 Visible
+8001EA7C 0001
+"P2 Frozen
+8001EA80 0001
+"=Stygian Stage Only! 
+"P1 Infinite Health
+8001E7F0 0190
+"P1 Invisible
+8001E7FC 0004
+"P1 Visible
+8001E7FC 0001
+"P1 Frozen
+8001E800 0001
+"P2 Infinite Health
+8001E430 0190
+"P2 Invisible
+8001E43C 0004
+"P2 Visible
+8001E43C 0001
+"P2 Frozen
+8001E440 0001
+"=SYN Stage Only! 
+"P1 Infinite Health
+8001EF70 0190
+"P1 Invisible
+8001EF7C 0004
+"P1 Visible
+8001EF7C 0001
+"P1 Frozen
+8001EF80 0001
+"P2 Infinite Health
+8001EBB0 0190
+"P2 Invisible
+8001EBBC 0004
+"P2 Visible
+8001EBBC 0001
+"P2 Frozen
+8001EBC0 0001
+"=KRON Stage Only! 
+"P1 Infinite Health
+8001B1F0 0190
+"P1 Invisible
+8001B1FC 0004
+"P1 Visible
+8001B1FC 0001
+"P1 Frozen
+8001B200 0001
+"P2 Infinite Health
+8001AE30 0190
+"P2 Invisible
+8001AE3C 0004
+"P2 Visible
+8001AE3C 0001
+"P2 Frozen
+8001AE40 0001
+"=All Stages 
+"P1 Infinite Health ONLY
+801946E4 0008
+801946E6 3201
+801946EC 0002
+801946EE 1420
+"P2 Infinite Health ONLY
+801946E4 0008
+801946E6 3201
+801946EC 0002
+801946EE 1020
+"P1 & P2 Infinite Health
+801946F6 2400
+"P1 Character Modifier (add 8-bit value)
+801EE698 00??
+"P2 Character Modifier (add 8-bit value)
+801EE6D0 00??
+"P1 Infinite Potions
+801E9C90 0009
+"P1 No Potions
+801E9C90 0000
+"P2 Infinite Potions
+801EAA7C 0009
+"P2 No Potions
+801EAA7C 0000
+"P1 Infinite Shield
+801E9C18 02BC
+"P1 No Shield
+801E9C18 0000
+"P2 Infinite Shield
+801EAA04 02BC
+"P2 No Shield
+801EAA04 0000
+"P1 Costume Modifier (add 8-bit value)
+801EE6B4 00??
+"P2 Costume Modifier (add 8-bit value)
+801EE6EC 00??
+"P1 One-Hit Death ONLY DO NOT use with Infinite Health
+801946E8 0008
+801946EA 3201
+801946EC 0002
+801946EE 1420
+"P2 One-Hit Death ONLY DO NOT use with Infinite Health
+801946E8 0008
+801946EA 3201
+801946EC 0002
+801946EE 1020
+"P1 Wins Modifier (add 8-bit value)
+801EE69E 00??
+"P2 Wins Modifier (add 8-bit value)
+801EE6D6 00??
+"Stage Modifier (add 8-bit value)
+801E27C4 00??
+"Infinite Time to Choose Fighter
+801984CC 0000
+"P1 Control Modifier (add 8-bit value)
+801EE6CA 00??
+"P2 Control Modifier (add 8-bit value)
+801EE702 00??
+"P1 Automatically Loses
+801EE6A0 0000
+"P1 Start with 25% Life
+801EE6A0 0064
+"P1 Start with 50% Life
+801EE6A0 00C8
+"P1 Start with 75% Life
+801EE6A0 012C
+"P2 Automatically Loses
+801EE6D8 0000
+"P2 Start with 25% Life
+801EE6D8 0064
+"P2 Start with 50% Life
+801EE6D8 00C8
+"P2 Start with 75% Life
+801EE6D8 012C
+"P1 Immune to Most Attacks
+801E9C1A 0001
+"P1 Normal
+801E9C1A 0000
+"P2 Immune to Most Attacks
+801EAA06 0001
+"P2 Normal
+801EAA06 0000
+"Extra Characters
+50000D02 0000
+801E7B2A 0100
+
+#Carnage Heart#SCUS94604
+"Infinite Funds
+800DF38C 86A0
+"Always on Turn 1
+800DF37C 0001
+800DF380 0001
+"=Base 1 
+"Ammo Modifier (Small) (add 16-bit value)
+801350F4 ????
+"Ammo Modifier (Large) (add 16-bit value)
+801350F6 ????
+"Fuel Modifier (Small) (add 16-bit value)
+801350F8 ????
+"Fuel Modifier (Large) (add 16-bit value)
+801350FA ????
+"Level Modifier (Line 1) (add 8-bit value)
+80135102 000?
+"Capacity Modifier (Line 1) (add 8-bit value)
+80135104 00??
+"Level Modifier (Line 2) (add 8-bit value)
+8013510E 000?
+"Capacity Modifier (Line 2) (add 8-bit value)
+80135110 00??
+"Level Modifier (Line 3) (add 8-bit value)
+8013511A 000?
+"Capacity Modifier (Line 3) (add 8-bit value)
+8013511E 00??
+"Enables All 3 Lines
+80135144 0303
+"=Base 2 
+"Ammo Modifier (Small) (add 16-bit value)
+80135150 ????
+"Ammo Modifier (Large) (add 16-bit value)
+80135152 ????
+"Fuel Modifier (Small) (add 16-bit value)
+80135154 ????
+"Fuel Modifier (Large) (add 16-bit value)
+80135156 ????
+"Level Modifier (Line 1) (add 8-bit value)
+8013515E 000?
+"Capacity Modifier (Line 1) (add 8-bit value)
+80135160 00??
+"Level Modifier (Line 2) (add 8-bit value)
+8013516A 000?
+"Capacity Modifier (Line 2) (add 8-bit value)
+8013516C 00??
+"Level Modifier (Line 3) (add 8-bit value)
+80135176 000?
+"Capacity Modifier (Line 3) (add 8-bit value)
+80135178 00??
+"Enables All 3 Lines
+801351A0 0303
+"=Base 3 
+"Ammo Modifier (Small) (add 16-bit value)
+801351AC ????
+"Ammo Modifier (Large) (add 16-bit value)
+801351AE ????
+"Fuel Modifier (Small) (add 16-bit value)
+801351B0 ????
+"Fuel Modifier (Large) (add 16-bit value)
+801351B2 ????
+"Level Modifier (Line 1) (add 8-bit value)
+801351BA 000?
+"Capacity Modifier (Line 1) (add 8-bit value)
+801351BC 00??
+"Level Modifier (Line 2) (add 8-bit value)
+801351C6 000?
+"Capacity Modifier (Line 2) (add 8-bit value)
+801351C8 00??
+"Level Modifier (Line 3) (add 8-bit value)
+801351D2 000?
+"Capacity Modifier (Line 3) (add 8-bit value)
+801351D4 00??
+"Enables All 3 Lines
+801351FC 0303
+"=Base 4 
+"Ammo Modifier (Small) (add 16-bit value)
+80135208 ????
+"Ammo Modifier (Large) (add 16-bit value)
+8013520A ????
+"Fuel Modifier (Small) (add 16-bit value)
+8013520C ????
+"Fuel Modifier (Large) (add 16-bit value)
+8013520E ????
+"Level Modifier (Line 1) (add 8-bit value)
+80135216 000?
+"Capacity Modifier (Line 1) (add 8-bit value)
+80135218 00??
+"Level Modifier (Line 2) (add 8-bit value)
+80135222 000?
+"Capacity Modifier (Line 2) (add 8-bit value)
+80135224 00??
+"Level Modifier (Line 3) (add 8-bit value)
+8013522E 000?
+"Capacity Modifier (Line 3) (add 8-bit value)
+80135230 00??
+"Enables All 3 Lines
+80135258 0303
+"=Base 5 
+"Ammo Modifier (Small) (add 16-bit value)
+80135264 ????
+"Ammo Modifier (Large) (add 16-bit value)
+80135266 ????
+"Fuel Modifier (Small) (add 16-bit value)
+80135268 ????
+"Fuel Modifier (Large) (add 16-bit value)
+8013526A ????
+"Level Modifier (Line 1) (add 8-bit value)
+80135272 000?
+"Capacity Modifier (Line 1) (add 8-bit value)
+80135274 00??
+"Level Modifier (Line 2) (add 8-bit value)
+8013527E 000?
+"Capacity Modifier (Line 2) (add 8-bit value)
+80135280 00??
+"Level Modifier (Line 3) (add 8-bit value)
+8013528A 000?
+"Capacity Modifier (Line 3) (add 8-bit value)
+8013528C 00??
+"Enables All 3 Lines
+801352B4 0303
+"=Base 6 
+"Ammo Modifier (Small) (add 16-bit value)
+801352C0 ????
+"Ammo Modifier (Large) (add 16-bit value)
+801352C2 ????
+"Fuel Modifier (Small) (add 16-bit value)
+801352C4 ????
+"Fuel Modifier (Large) (add 16-bit value)
+801352C6 ????
+"Level Modifier (Line 1) (add 8-bit value)
+801352CE 000?
+"Capacity Modifier (Line 1) (add 8-bit value)
+801352D0 00??
+"Level Modifier (Line 2) (add 8-bit value)
+801352DA 000?
+"Capacity Modifier (Line 2) (add 8-bit value)
+801352DC 00??
+"Level Modifier (Line 3) (add 8-bit value)
+801352E6 000?
+"Capacity Modifier (Line 3) (add 8-bit value)
+801352E8 00??
+"Enables All 3 Lines
+80135310 0303
+"=Unit 
+"Unit 1 Ammo Modifier (add 16-bit value)
+80134B7E ????
+"Unit 1 Fuel Modifier (add 16-bit value)
+80134B80 ????
+"Unit 2 Ammo Modifier (add 16-bit value)
+80134B94 ????
+"Unit 2 Fuel Modifier (add 16-bit value)
+80134B96 ????
+"Unit 32 Ammo Modifier (add 16-bit value)
+80134E28 ????
+"Unit 32 Fuel Modifier (add 16-bit value)
+80134E2A ????
+
+#Cart World Series#SCUS94416
+"Maximum Speed
+800BB094 03E0
+"Always No 1
+800BB134 0001
+"Always Start On Lap 4 [Note 1]
+800B5F42 0003
+
+#Casper#SLUS00162
+"Infinite Health
+8007F01C 0064
+8007F02C 0064
+800FBD80 0064
+"Brass Key
+8007EA28 0001
+"Iron Key
+8007EA2C 0001
+"Infinite Fools Gold
+8007EA30 FFFF
+
+#Casper-Friends Around The World#SLUS01245
+"Infinite Health
+800DCAE0 000A
+"Infinite Floating Power
+80097C5C 0078
+"Infinite Lives
+300DCAB1 0003
+"Max Crystals
+300DCAB2 00FF
+"Infinite Continues
+300DCADE 0003
+"All Levels Unlocked
+300DCAAD 000A
+
+#Castlevania Chronicles#SLUS01384
+"Invincible
+8001D94E 2400
+"Max Time
+80059228 03E7
+"Max Lives
+8005922A 0063
+"Max Hearts
+8005A7D0 0063
+"Equipped Item Modifier (add 8-bit value)
+3005A7C5 00??
+"Infinite Health
+8005A7BA 0010
+
+#Castlevania-Symphony Of The Night#SLUS00067
+"Command (add 16-bit value)
+D0097490 ????
+"Player Level V99
+80097BEE 0FFF
+"Infinite Health
+80097BA0 270F
+"Max Health
+80097BA4 270F
+"Infinite MP
+80097BB0 270F
+"Max MP
+80097BB4 270F
+"Infinite Hearts
+80097BA8 00FF
+"Max Hearts
+80097BAC 270F
+"Infinite Gold
+80097BF2 0FFF
+"Max +Attribute Attack (Left)
+800F4BF6 1400
+"Max +Attribute Guard (Left)
+800F504E 1400
+"Max STR
+80097BB8 03E7
+"Max CON
+80097BBC 03E7
+"Max INT
+80097BC0 03E7
+"Max LCK
+80097BC4 03E7
+"Max EXP
+80097BEC 423F
+80097BEE 000F
+"Have All Special Items
+80097982 8180
+80097984 8382
+80097986 8584
+80097988 8786
+80097964 0303
+80097966 0303
+80097968 0303
+8009796A 0303
+8009796C 0303
+8009796E 0303
+80097970 0303
+80097972 0303
+80097974 0303
+80097976 0303
+80097978 0303
+8009797A 0303
+8009797C 0303
+8009797E 0303
+80097980 0303
+"Have Knight Shield
+30097990 0010
+"Have Iron Shield
+30097991 0010
+"Have Axelord Shield
+30097992 0010
+"Have Dark Shield
+30097994 0010
+"Have Shaman Shield
+30097996 0010
+"Have Skull Shield
+30097998 0010
+"Have Alucard Shield
+3009799A 0010
+"Have Basilard
+3009799C 0010
+"Have Short Sword
+3009799D 0010
+"Have Combat Knife
+3009799E 0010
+"Have Nunchaku
+3009799F 0010
+"Have Were Bane
+300979A0 0010
+"Have Rapier
+300979A1 0010
+"Have Karma Coin
+300979A2 0010
+"Have Magic Missile
+300979A3 0010
+"Have Takemitsu
+300979A5 0010
+"Have Shotel
+300979A6 0010
+"Have Orange
+300979A7 0010
+"Have Banana
+300979A9 0010
+"Have Shiitake
+300979AF 0010
+"Have Parfait
+300979B3 0010
+"Have Spaghetti
+300979C1 0010
+"Have Meal Ticket
+300979D0 0010
+"Have Power of Sire
+300979D2 0010
+"Have Pentagram
+300979D3 0010
+"Have Bat Pentagram
+300979D4 0010
+"Have Shuriken
+300979D5 0010
+"Have Cross Shuriken
+300979D6 0010
+"Have Buffalo Star
+300979D7 0010
+"Have Flame Star
+300979D8 0010
+"Have Tnt
+300979D9 0010
+"Have Bwaka Knife
+300979DA 0010
+"Have Boomerang
+300979DB 0010
+"Have Javelin
+300979DC 0010
+"Have Tyrfing
+300979DD 0010
+"Have Namakura
+300979DE 0010
+"Have Knuckle Duster
+300979DF 0010
+"Have Sword of Hador
+300979F0 0010
+"Have Zwei Hander
+300979F1 0010
+"Have Luminus
+300979F3 0010
+"Have Harper
+300979F4 0010
+"Have Obsidian Sword
+300979F5 0010
+"Have Gram
+300979F6 0010
+"Have Jewel Sword
+300979F7 0010
+"Have Mormagil
+300979F8 0010
+"Have Fire Brand
+300979F9 0010
+"Have Thunderbrand
+300979FA 0010
+"Have Ice Brand
+300979FB 0010
+"Have Stone Sword
+300979FC 0010
+"Have Holy Sword
+300979FD 0010
+"Have Terminus Est
+300979FE 0010
+"Have Dark Blade
+30097A00 0010
+"Have Fist of Tulkas
+30097A02 0010
+"Have Gurthang
+30097A03 0010
+"Have Mourneblade
+30097A04 0010
+"Have Alucard Sword
+30097A05 0010
+"Have Mablung Sword
+30097A06 0010
+"Have Badelaire
+30097A07 0010
+"Have Equipable Sword Familiar
+30097A08 0010
+"Have Great Sword
+30097A09 0010
+"Have Mace
+30097A0A 0010
+"Have Morning Star
+30097A0B 0010
+"Have Star Flail
+30097A0D 0010
+"Have Moon Rod
+30097A0E 0010
+"Have Chakram
+30097A0F 0010
+"Have Fire Boomerang
+30097A10 0010
+"Have Iron Ball
+30097A11 0010
+"Have Holbein Dagger
+30097A12 0010
+"Have Blue Knuckles
+30097A13 0010
+"Have Dynamite
+30097A14 0010
+"Have Osafune Katana
+30097A15 0010
+"Have Masasume
+30097A16 0010
+"Have Muramasa
+30097A17 0010
+"Have Heart Refresh
+30097A18 0010
+"Have Rune Sword
+30097A19 0010
+"Have Uncurse
+30097A1B 0010
+"Have Strength Potion
+30097A1E 0010
+"Have Luck Potion
+30097A1F 0010
+"Have Smart Potion
+30097A20 0010
+"Have Attack Potion
+30097A21 0010
+"Have Shield Potion
+30097A22 0010
+"Have Resist Fire
+30097A23 0010
+"Have Resist Thunder
+30097A24 0010
+"Have Resist Stone
+30097A26 0010
+"Have Resist Holy
+30097A27 0010
+"Have Resist Dark
+30097A28 0010
+"Have Elixir
+30097A2B 0010
+"Have Vorpal Blade
+30097A2D 0010
+"Have Yasutsuna
+30097A2F 0010
+"Have Library Card
+30097A30 0010
+"Have Alucard Shield
+30097A31 0010
+"Have Silver Plate
+30097A39 0010
+"Have Platinum Mail
+30097A3B 0010
+"Have Fire Mail
+30097A3D 0010
+"Have Ice Mail
+30097A3F 0010
+"Have Spike Breaker
+30097A41 0010
+"Have Dark Armor
+30097A43 0010
+"Have Holy Mail
+30097A45 0010
+"Have Brilliant Mail
+30097A47 0010
+"Have Fury Plate
+30097A49 0010
+"Have God's Garb
+30097A4B 0010
+"Have Ballroom Mask
+30097A4F 0010
+"Have Felt Hat
+30097A51 0010
+"Have Goggles
+30097A53 0010
+"Have Holy Glasses
+30097A55 0010
+"Have Stone Mask
+30097A57 0010
+"Have Gold Circlet
+30097A59 0010
+"Have Opal Circlet
+30097A5B 0010
+"Have Beryl Circlet
+30097A5D 0010
+"Have Coral Circlet
+30097A5F 0010
+"Have Slver Crown
+30097A61 0010
+"Have Reverse Cloak
+30097A65 0010
+"Have Elven Cloak
+30097A66 0010
+"Have Crystal Cloak
+30097A67 0010
+"Have Royal Cloak
+30097A68 0010
+"Have Blood Cloak
+30097A69 0010
+"Have Joseph's Cloak
+30097A6A 0010
+"Have Twilight Cloak
+30097A6B 0010
+"Have Moonstone
+30097A6D 0010
+"Have Sunstone
+30097A6E 0010
+"Have Bloodstone
+30097A6F 0010
+"Have Staurolite
+30097A70 0010
+"Have Ring of Pales
+30097A71 0010
+"Have Zircon
+30097A72 0010
+"Have Aquamarine
+30097A73 0010
+"Have Turquoise Ring
+30097A74 0010
+"Have Onyx
+30097A75 0010
+"Have Garnet Ring
+30097A76 0010
+"Have Opal
+30097A77 0010
+"Have Diamond Ring
+30097A78 0010
+"Have Lapis Lazuli
+30097A79 0010
+"Have Ring of Ares
+30097A7A 0010
+"Have Gold Ring
+30097A7B 0010
+"Have Silver Ring
+30097A7C 0010
+"Have Ring of Varda
+30097A7D 0010
+"Have Ring of Arcana
+30097A7E 0010
+"Have Mystic Pendant
+30097A7F 0010
+"Have Heart Broach
+30097A80 0010
+"Have Necklace of J
+30097A81 0010
+"Have Gauntlet
+30097A82 0010
+"Have Ankh of Life
+30097A83 0010
+"Have Ring of Feanor
+30097A84 0010
+"Have Medal
+30097A85 0010
+"Have Talisman
+30097A86 0010
+"Have Duplicator
+30097A87 0010
+"Have King's Stone
+30097A88 0010
+"Have Covenant Stone
+30097A89 0010
+"Have Nauglamir
+30097A8A 0010
+"Have Secret Boots
+30097A8B 0010
+"Weapon Modifier (add 8-bit value)
+80097BFC 00??
+"Have Over 200% Completion Value
+8003C760 0787
+"Right Hand Item Modifier (add 8-bit value)
+80097C00 00??
+"Left Hand Item Modifier (add 8-bit value)
+80097C04 00??
+"Head Garb Modifier (add 8-bit value)
+80097C08 00??
+"Armor Modifier (add 8-bit value)
+80097C0C 00??
+"Cloak Modifier (add 8-bit value)
+80097C10 00??
+"Other 1 Modifier (add 8-bit value)
+80097C14 00??
+"Other 2 Modifier (add 8-bit value)
+80097C18 00??
+"Super jump
+80097448 0090
+"Sword Familiar Max Level
+80097C74 FFFF
+"Faerie 1 Familiar Max Level
+80097C5C C3FF
+"Bat Familiar Max Level
+80097C44 C3FF
+"Ghost Familiar Max Level
+80097C50 C3FF
+"Slow Motion
+8002D374 3275
+"Have Heaven Sword
+30097A01 0010
+"Have Crissaegrim
+30097A2E 0010
+"Have Wizard Hat
+30097A62 0010
+"Devil 2 Familiar Max Level
+80097C8C 03E7
+"Faerie 2 Familiar Max Level
+80097C80 03E7
+"Quick Level Up Bat Familiar
+80097C48 FFFF
+"Quick Level Up Demon Familiar
+80097C6C FFFF
+"Quick Level Up Fairie Familiar
+80097C60 FFFF
+"Quick Level Up Ghost Familiar
+80097C54 FFFF
+"Quick Level Up Sword Familiar
+80097C78 FFFF
+"Money Bag You Collect Is 65535 Gold
+80097BF0 FFFF
+"Increase Kills By 65535
+80097BF4 FFFF
+"Every Room You Enter Increases Total 65535
+8003C760 FFFF
+"Game Time 00:00:00
+80097C38 0000
+"Super Jump (Press X+L1)
+D0097490 0044
+800733E4 0000
+"Hyper Hydrostorm (Richter ONLY) [Note 1]
+80074CFC FFFF
+"Character Modifier (add 8-bit value)
+3003C9A0 00??
+"Demon Familiar Max Level
+80097C68 0063
+"=199 Save Almost Anywhere (Press And Hold Triangle) [Note 2]
+D0097490 0010 
+3003C708 0020
+"Max Attack (Alucard)
+800A6408 03E7
+"Have All Items
+50008202 0000
+8009798A 1010
+"Hyper Mode [Note 3]
+D0097490 1010
+80015340 0000
+D0097490 4010
+80015340 0005
+"All Special Items
+50000402 0202
+80097982 8180
+50000F02 0000
+80097978 0303
+"HP Damage Modifier While Facing The Enemy (add 16-bit value)
+8007420C 0???
+"HP Damage Modifier While Behind Enemy (add 16-bit value)
+80073FD8 0???
+"HP Damage Modifier While Jumping At Enemy (add 16-bit value)
+800744FC 0???
+"Each Hit Damage Modifier (add 16-bit value)
+D01B2450 2821
+801B2454 0???
+D01B2450 2821
+801B2456 2414
+D01BA228 2821
+801BA22C 0???
+D01BA228 2821
+801BA22E 2415
+"1-Hit Boss Death (1st Level)
+D01B2664 003E
+801B2666 A640
+D01BA490 003E
+801BA492 A660
+
+#Castrol Honda Superbike Racing#SLUS00882
+"Lap Time Is 0:00:00
+8002BB8A 2400
+"Start on 3rd Lap
+80026234 C000
+80026236 0C07
+801F0000 0002
+801F0002 1E40
+801F0004 0000
+801F0006 2401
+801F0008 0003
+801F000A 2421
+801F000C 0008
+801F000E 03E0
+801F0010 0144
+801F0012 A201
+"Max Points In Season
+D009DEA6 0000
+8009DEA6 01F4
+"Start on Last Race In Season
+8009DDA4 000E
+
+#Centipede (Beta)#SLUS00807
+"=Adventure Mode 
+"Infinite Lives
+800B98A8 0004
+"Max Score
+80114E14 FFFF
+80114E16 00FF
+"=Arcade Mode 
+"P1 Infinite Lives
+80095D7C 0002
+"P2 Infinite Lives
+80095D80 0002
+"P1 Max Score
+D0095834 0000
+80095834 FFFF
+D0095836 0000
+80095836 00FF
+"P2 Max Score
+D0095838 0000
+80095838 FFFF
+D009583A 0000
+8009583A 00FF
+
+#Centipede#SLUS00807
+"=Adventure Mode 
+"Infinite Lives
+800B99F8 0004
+"Max Score
+D0114FE8 0000
+80114FE8 FFFF
+"Enable The Crack of Doom Level
+800569B0 0001
+"Enable Four Score Level
+800569EC 0001
+"Enable City Wall Level
+80056A28 0001
+"Enable Ant May Level
+80056A64 0001
+"Enable Trapped Under Ice Level
+80056AA0 0001
+"Enable A Glacier Runs Through It Level
+80056B18 0001
+"Enable Iceburg Let Us Level
+80056B54 0001
+"Enable Celtic Frost Level
+80056B90 0001
+"Enable Motel of Lost Champions Level
+80056BCC 0001
+"Enable Huckleberry Friend Level
+80056C08 0001
+"Enable Jump in The Fire Level
+80056C44 0001
+"Enable A Bridge Over Molten Magma Level
+80056C80 0001
+"Enable Schmokenden Level
+80056CBC 0001
+"Enable Furnace of Fools Level
+80056CF8 0001
+"Enable But It's A Dry Heat Level
+80056D34 0001
+"Enable Born of Fire Level
+80056D70 0001
+"Enable A Hero's Reckoning Level
+80056DAC 0001
+"Enable This Mad Machinery Level
+80056F50 0001
+"Enable Curiosity Caught the Wee Level
+80056F8C 0001
+"Enable Things Crawl in the Darkness Level
+80056FC8 0001
+"Enable Your Back's Against No Wall Level
+80057004 0001
+"Enable Her Dead Power, The Queen Pede Level
+80057040 0001
+"Have Last Level Completed
+8005707C 0001
+"When Paused Press Right To Gain Extra Lives
+800B96CC 0001
+"=Arcade Mode 
+"P1 Infinite Lives
+80095DCC 0003
+"P2 Infinite Lives
+80095DD0 0002
+
+#Championship Bass#SLUS01084
+"Stop Timer (Challenge Mode)
+800E798E 2400
+"Unlock Topwater Jerkbait
+800C4DE0 0001
+"Unlock Deep Diving Crankbait Lure
+800C4DF0 0001
+"Unlock Curly Tail Worm Lure
+800C4DFC 0001
+"Unlock Grub Lure
+800C4E00 0001
+"Unlock Tube Bait Lure
+800C4E04 0001
+"Unlock Popper Lure
+800C4E10 0001
+"Unlock Prop Lure
+800C4E18 0001
+"Start on Last Challenge Level
+D00C4D92 0000
+800C4D92 000E
+"Start/Stop Timer - Tournament (Press L1+L2 To Activate & R1+R2 To De-Activate)
+D00BB544 0005
+800E7A12 2400
+D00BB544 0005
+800E7A2E 2400
+D00BB544 000A
+800E7A10 45D8
+D00BB544 000A
+800E7A12 ACC2
+D00BB544 000A
+800E7A2C 45D8
+D00BB544 000A
+800E7A2E ACC2
+"Line Never Breaks
+801148B6 03EB
+
+#Championship Motocross 2001-Featuring Ricky Carmicheal#SLUS01230
+"Lap Timer Always 00:00:00
+8006F22C 0041
+"Start On 8th Round (Championship Mode)
+D00FE4F8 0000
+800FE4F8 0007
+"Start On Last Lap
+D0115CD4 0000
+80115CD4 0002
+"Max Money
+800DCF84 03E8
+"Score Modifier (Freestyle Mode) (add 16-bit value)
+800FE9CC ????
+"Max Score (Freestyle Mode)
+800FE9CC E0FF
+800FE9CE 05F5
+
+#Championship Motocross-Featuring Ricky Carmichael#SLUS00790
+"Unlock All Classes
+80086E68 000F
+"Unlock All Tracks
+80086E6C 0FFF
+"Unlock Mirror Mode
+80086E70 0001
+"Unlock View Fox Movie
+80086E7C 0001
+"Big Head & Tire Mode
+30086E34 0001
+
+#Championship Surfer#SLUS01216
+"Max Points
+800B1BCC FFFF
+"Infinite Waves
+D00B1B58 0001
+800B1B58 0000
+"Heat 1 Max Rating
+D00B1B88 0000
+800B1B88 270F
+"Heat 2 Max Rating
+D00B1B8C 0000
+800B1B8C 270F
+"Heat 3 Max Rating
+D00B1B90 0000
+800B1B90 270F
+"Max Score
+D00B1B5C 0000
+800B1B5C FFFF
+"Unlock Gnarly Point
+8009733C 0001
+"Unlock Rock Piles
+800973E4 0001
+"Unlock Boiling Point
+8009748C 0001
+"Unlock Snapper Break
+80097534 0001
+"Unlock Fiddle Sticks
+800975DC 0001
+"Unlock Sharp's Reef
+80097684 0001
+"Unlock Fool's Gold
+8009772C 0001
+"Unlock Dead Man's
+800977D4 0001
+"Unlock Time Attack
+800A72D8 0001
+"Unlock Bonus Level
+800A72DC 0001
+
+#Chess#SLUS01400
+"Always Low Time
+80079BFC 1856
+
+#Chessmaster II#SLUS00886
+"Time Always 00:00:00 For White
+8009B1F0 0000
+"Time Always 00:00:00 For Black
+8009B1F4 0000
+"Always White's Turn
+8009B19C 0010
+"Always Black's Turn
+8009B19C 0020
+
+#Chicken Run#SLUS01304
+"Have All Map Pieces
+50001001 0000
+300AA1F0 0001
+"Have All Movies
+50000B01 0000
+300AA178 0001
+"Have All Pictures
+50000A01 0000
+300AA183 0001
+"Have All Levels
+50000D01 0000
+300AA18D 0001
+"Have All Medals
+50000701 0000
+300AA19A 0003
+"Slot 1 Modifier (add 8-bit value)
+800AA202 00??
+"Slot 2 Modifier (add 8-bit value)
+800AA204 00??
+"Slot 6 Modifier (add 8-bit value)
+800AA20C 00??
+"=Movies Unlocked 
+"Act 1 Intro
+300AA178 0001
+"Act 1 Boss Intro
+300AA179 0001
+"Act 1 Boss Failure
+300AA17A 0001
+"Act 1 Complete
+300AA17B 0001
+"Act 2 Intro
+300AA17C 0001
+"Act 2 Boss Intro
+300AA17D 0001
+"Act 2 Complete
+300AA17E 0001
+"Act 3 Intro
+300AA17F 0001
+"Act 3 Boss Intro
+300AA180 0001
+"Act 3 Complete
+300AA181 0001
+"Bonus Ending
+300AA182 0001
+"=Unlock Level 
+"Begin Act 1
+300AA18D 0001
+"Dog Chase
+300AA18E 0001
+"Begin Act 2
+300AA18F 0001
+"Weight Expectations
+300AA190 0001
+"Fowl Shot
+300AA191 0001
+"Spring Chicken
+300AA192 0001
+"Pie Machine
+300AA193 0001
+"Begin Act 3
+300AA194 0001
+"The Bunty Eggs-press
+300AA195 0001
+"Poultry in Motion
+300AA196 0001
+"Hen At Work
+300AA197 0001
+"Chicken Wings
+300AA198 0001
+"The Crate
+300AA199 0001
+"=Medal Modifier (add 8-bit value)
+"Weight Expectations
+300AA19A 00??
+"Spring Chicken
+300AA19B 00??
+"Fowl Shot
+300AA19C 00??
+"Hen at Work
+300AA19D 00??
+"Poultry in Motion
+300AA19E 00??
+"Chicken Wings
+300AA19F 00??
+"The Bunty Eggs-Press
+300AA1A0 00??
+"Infinite Sprouts
+300AA1D0 0032
+
+#Chocobo Racing#SLUS00844
+"Command (add 16-bit value)
+D007B120 ????
+"Max Stats in Edit Mode (Press Select)
+D007B120 0100
+8008D75A 6363
+D007B120 0100
+8008D75C 6363
+D007B120 0100
+3008D75E 0063
+"Have All Crowns & Classes
+801E9290 FFFF
+801E9292 FFFF
+"Enable All Music
+800E9294 FFFF
+800E9296 FFFF
+"Enable All Movies
+801E9298 FFFF
+"Enable All Characters & Tracks
+801E929C FFFF
+300AF04F 0008
+"Time is 0:00:00
+80030338 2400
+"99 Points-Grand Prix Mode
+8008C028 0063
+"Quick Finish (Storybook Mode-Press Select To Finish The Race)
+D007B120 0100
+30105848 0004
+D007B120 0100
+30103578 0004
+D007B120 0100
+300FEAD8 0004
+D007B120 0100
+300FBC68 0004
+D007B120 0100
+300FE560 0004
+D007B120 0100
+300E3C80 0004
+D007B120 0100
+300DF9C0 0004
+D007B120 0100
+300DD028 0004
+D007B120 0100
+300E5AB8 0004
+D007B120 0100
+300E9DD8 0004
+D007B120 0100
+300EA510 0004
+D007B120 0100
+300E0568 0004
+D007B120 0100
+300EB2F8 0004
+D007B120 0100
+300E0470 0004
+"Character Modifier (add 8-bit value)
+300AF05E 00??
+
+#Chocobo's Dungeon 2#SLUS00814
+"=Chocobo 
+"Infinite HP
+801026B8 03E7
+"Max HP
+80103FB2 03E7
+"Quick Level Gain
+801026D6 0000
+"Infinite Chocobo Energy
+80103FAE 6464
+"Max Atk
+801055FA 0063
+"Max Def
+801055FC 0063
+"Max SpDef
+801055FE 0063
+"Max Stats
+50000302 0000
+801055FA 0063
+"Max Level
+301026BB 0063
+"Quick Level Up All Spells
+50000302 0000
+80104022 0000
+"Quick Level Up Fire Spell
+30104022 0000
+"Quick Level Up Blizzard Spell
+30104023 0000
+"Quick Level Up Aero Spell
+30104024 0000
+"Quick Level Up Thunder Spell
+30104025 0000
+"Quick Level Up Quake Spell
+30104026 0000
+"Quick Level Up Drain Spell
+30104027 0000
+"Max Level All Spells
+50000302 0000
+8010401C 6262
+"Max Level Fire Spell
+3010401C 0062
+"Max Level Blizzard Spell
+3010401D 0062
+"Max Level Aero Spell
+3010401E 0062
+"Max Level Thunder Spell
+3010401F 0062
+"Max Level Quake Spell
+30104020 0062
+"Max Level Drain Spell
+30104021 0062
+"=Partner 
+"Infinite HP
+80102844 03E7
+"Max HP
+80102860 03E7
+"=Misc. 
+"Max Gil
+80103FA8 967F
+80103FAA 0098
+"Infinite Spell Books/Stones (On Pickup)
+800282D2 2400
+800282E6 2400
+"All Infinite Items [Note 1]
+30103FB0 00DC
+5000DC08 0001
+301045A7 0001
+50000908 0000
+301045A9 0000
+50001308 0000
+301045F1 0001
+50002108 0000
+30104689 0002
+50001208 0000
+30104791 0003
+50001908 0000
+30104821 0004
+50000B08 0000
+301048F1 0005
+50002608 0000
+30104949 0006
+50001D08 0000
+30104A79 0007
+50001608 0000
+30104B61 0008
+50000F08 0000
+30104C11 0009
+"Zero Knock Outs And Teleports
+800D8AFA 0000
+"Max Item Capacity
+30103FB0 0040
+"Debug Room
+800D8B04 00FF
+"Have All Feathers
+80104014 FFFF
+80104016 FFFF
+80104018 FFFF
+3010401A FFFF
+"Max Steps
+800D8B14 FFFF
+"Have Break through Walls Ability
+80102702 0001
+"Quick HP Gain
+80105604 0001
+
+#Chrono Cross (Character)#SLUS01041
+"=Character 
+"=Serge 
+"Max HP
+8006EBDE 03E7
+"Infinite HP
+8006EC80 03E7
+"Max STR
+3006EBE0 00FF
+"Max RES
+3006EBE1 00FF
+"Max ACC
+3006EBE2 00FF
+"Max AGL
+3006EBE3 00FF
+"Max MAG
+3006EBE4 00FF
+"Max M.RES
+3006EBE5 00FF
+"Max Stamina Recovery
+8006EBE6 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006EBE8 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006EBEA 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006EBEC 00??
+"Slot 2
+8006EBEE 00??
+"Slot 3
+8006EBF0 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006EC08 ????
+"Slot 2
+8006EC0A ????
+"Slot 48
+8006EC66 ????
+"Enable All Element Slots
+50003002 0000
+3006EC09 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006EBF5 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006EBF8 00??
+"Level 2
+3006EBFA 00??
+"Level 8
+3006EC06 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006EBF8 003F
+"=Kid 
+"Max HP
+8006ECAA 03E7
+"Infinite HP
+8006ED4C 03E7
+"Max STR
+3006ECAC 00FF
+"Max RES
+3006ECAD 00FF
+"Max ACC
+3006ECAE 00FF
+"Max AGL
+3006ECAF 00FF
+"Max MAG
+3006ECB0 00FF
+"Max M.RES
+3006ECB1 00FF
+"Max Stamina Recovery
+8006ECB2 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006ECB4 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006ECB6 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006ECB8 00??
+"Slot 2
+8006ECBA 00??
+"Slot 3
+8006ECBC 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006ECD4 ????
+"Slot 2
+8006ECD6 ????
+"Slot 48
+8006ED32 ????
+"Enable All Element Slots
+50003002 0000
+3006ECD5 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006ECC1 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006ECC4 00??
+"Level 2
+3006ECC6 00??
+"Level 8
+3006ECD2 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006ECC4 003F
+"=Glenn 
+"Max HP
+8006FB02 03E7
+"Infinite HP
+8006FBA4 03E7
+"Max STR
+3006FB04 00FF
+"Max RES
+3006FB05 00FF
+"Max ACC
+3006FB06 00FF
+"Max AGL
+3006FB07 00FF
+"Max MAG
+3006FB08 00FF
+"Max M.RES
+3006FB09 00FF
+"Max Stamina Recovery
+8006FB0A FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FB0C 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FB0E 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FB10 00??
+"Slot 2
+8006FB12 00??
+"Slot 3
+8006FB14 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FB2C ????
+"Slot 2
+8006FB2E ????
+"Slot 48
+8006FB8A ????
+"Enable All Element Slots
+50003002 0000
+3006FB2D 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FB19 00??
+"=Element Grids Modifier (add 8-bit value)[Note 1]
+"Level 1
+3006FB1C 00??
+"Level 2
+3006FB1E 00??
+"Level 8
+3006FB2A 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FB1C 003F
+"=Doc 
+"Max HP
+80070AF2 03E7
+"Infinite HP
+80070B94 03E7
+"Max STR
+30070AF4 00FF
+"Max RES
+30070AF5 00FF
+"Max ACC
+30070AF6 00FF
+"Max AGL
+30070AF7 00FF
+"Max MAG
+30070AF8 00FF
+"Max M.RES
+30070AF9 00FF
+"Max Stamina Recovery
+80070AFA FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070AFC 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070AFE 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070B00 00??
+"Slot 2
+80070B02 00??
+"Slot 3
+80070B04 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070B1C ????
+"Slot 2
+80070B1E ????
+"Slot 48
+80070B7A ????
+"Enable All Element Slots
+50003002 0000
+30070B1D 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070B09 00??
+"=Element Grids Modifier (add 8-bit value)[Note 1]
+"Level 1
+30070B0C 00??
+"Level 2
+30070B0E 00??
+"Level 8
+30070B1A 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070B0C 003F
+"=Draggy 
+"Max HP
+8006FEFE 03E7
+"Infinite HP
+8006FFA0 03E7
+"Max STR
+3006FF00 00FF
+"Max RES
+3006FF01 00FF
+"Max ACC
+3006FF02 00FF
+"Max AGL
+3006FF03 00FF
+"Max MAG
+3006FF04 00FF
+"Max M.RES
+3006FF05 00FF
+"Max Stamina Recovery
+8006FF06 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FF08 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FF0A 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FF0C 00??
+"Slot 2
+8006FF0E 00??
+"Slot 3
+8006FF10 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FF28 ????
+"Slot 2
+8006FF2A ????
+"Slot 48
+8006FF86 ????
+"Enable All Element Slots
+50003002 0000
+3006FF29 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FF15 00??
+"=Element Grids Modifier (add 8-bit value)[Note 1]
+"Level 1
+3006FF18 00??
+"Level 2
+3006FF1A 00??
+"Level 8
+3006FF26 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FF18 003F
+"=Fargo 
+"Max HP
+8006F96A 03E7
+"Infinite HP
+8006FA0C 03E7
+"Max STR
+3006F96C 00FF
+"Max RES
+3006F96D 00FF
+"Max ACC
+3006F96E 00FF
+"Max AGL
+3006F96F 00FF
+"Max MAG
+3006F970 00FF
+"Max M.RES
+3006F971 00FF
+"Max Stamina Recovery
+8006F972 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F974 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F976 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F978 00??
+"Slot 2
+8006F97A 00??
+"Slot 3
+8006F97C 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F994 ????
+"Slot 2
+8006F996 ????
+"Slot 48
+8006F9F2 ????
+"Enable All Element Slots
+50003002 0000
+3006F995 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F981 00??
+"=Element Grids Modifier (add 8-bit value)[Note 1]
+"Level 1
+3006F984 00??
+"Level 2
+3006F986 00??
+"Level 8
+3006F992 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F984 003F
+"=Funguy 
+"Max HP
+8007055E 03E7
+"Infinite HP
+80070600 03E7
+"Max STR
+30070560 00FF
+"Max RES
+30070561 00FF
+"Max ACC
+30070562 00FF
+"Max AGL
+30070563 00FF
+"Max MAG
+30070564 00FF
+"Max M.RES
+30070565 00FF
+"Max Stamina Recovery
+80070566 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070568 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8007056A 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8007056C 00??
+"Slot 2
+8007056E 00??
+"Slot 3
+80070570 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070588 ????
+"Slot 2
+8007058A ????
+"Slot 48
+800705E6 ????
+"Enable All Element Slots
+50003002 0000
+30070589 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070575 00??
+"=Element Grids Modifier (add 8-bit value)[Note 1]
+"Level 1
+30070578 00??
+"Level 2
+3007057A 00??
+"Level 8
+30070586 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070578 003F
+"=Greco 
+"Max HP
+800703C6 03E7
+"Infinite HP
+80070468 03E7
+"Max STR
+300703C8 00FF
+"Max RES
+300703C9 00FF
+"Max ACC
+300703CA 00FF
+"Max AGL
+300703CB 00FF
+"Max MAG
+300703CC 00FF
+"Max M.RES
+300703CD 00FF
+"Max Stamina Recovery
+800703CE FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+800703D0 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+800703D2 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+800703D4 00??
+"Slot 2
+800703D6 00??
+"Slot 3
+800703D8 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+800703F0 ????
+"Slot 2
+800703F2 ????
+"Slot 48
+8007044E ????
+"Enable All Element Slots
+50003002 0000
+300703F1 0000
+"Picture/Sprite Modifier (add 8-bit value)
+300703DD 00??
+"=Element Grids Modifier (add 8-bit value)[Note 1]
+"Level 1
+300703E0 00??
+"Level 2
+300703E2 00??
+"Level 8
+300703EE 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+300703E0 003F
+"=Grobyc 
+"Max HP
+80070BBE 03E7
+"Infinite HP
+80070C60 03E7
+"Max STR
+30070BC0 00FF
+"Max RES
+30070BC1 00FF
+"Max ACC
+30070BC2 00FF
+"Max AGL
+30070BC3 00FF
+"Max MAG
+30070BC4 00FF
+"Max M.RES
+30070BC5 00FF
+"Max Stamina Recovery
+80070BC6 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070BC8 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070BCA 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070BCC 00??
+"Slot 2
+80070BCE 00??
+"Slot 3
+80070BD0 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070BE8 ????
+"Slot 2
+80070BEA ????
+"Slot 48
+80070C46 ????
+"Enable All Element Slots
+50003002 0000
+30070BE9 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070BD5 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070BD8 00??
+"Level 2
+30070BDA 00??
+"Level 8
+30070BE6 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070BD8 003F
+"=Guile 
+"Max HP
+8006ED76 03E7
+"Infinite HP
+8006EE18 03E7
+"Max STR
+3006ED78 00FF
+"Max RES
+3006ED79 00FF
+"Max ACC
+3006ED7A 00FF
+"Max AGL
+3006ED7B 00FF
+"Max MAG
+3006ED7C 00FF
+"Max M.RES
+3006ED7D 00FF
+"Max Stamina Recovery
+8006ED7E FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006ED80 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006ED82 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006ED84 00??
+"Slot 2
+8006ED86 00??
+"Slot 3
+8006ED88 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006EDA0 ????
+"Slot 2
+8006EDA2 ????
+"Slot 48
+8006EDFE ????
+"Enable All Element Slots
+50003002 0000
+3006EDA1 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006ED8D 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006ED90 00??
+"Level 2
+3006ED92 00??
+"Level 8
+3006ED9E 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006ED90 003F
+"=Harle 
+"Max HP
+8006FD66 03E7
+"Infinite HP
+8006FE08 03E7
+"Max STR
+3006FD68 00FF
+"Max RES
+3006FD69 00FF
+"Max ACC
+3006FD6A 00FF
+"Max AGL
+3006FD6B 00FF
+"Max MAG
+3006FD6C 00FF
+"Max M.RES
+3006FD6D 00FF
+"Max Stamina Recovery
+8006FD6E FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FD70 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FD72 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FD74 00??
+"Slot 2
+8006FD76 00??
+"Slot 3
+8006FD78 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FD90 ????
+"Slot 2
+8006FD92 ????
+"Slot 48
+8006FDEE ????
+"Enable All Element Slots
+50003002 0000
+3006FD91 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FD7D 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006FD80 00??
+"Level 2
+3006FD82 00??
+"Level 8
+3006FD8E 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FD80 003F
+"=Irenes 
+"Max HP
+8007062A 03E7
+"Infinite HP
+800706CC 03E7
+"Max STR
+3007062C 00FF
+"Max RES
+3007062D 00FF
+"Max ACC
+3007062E 00FF
+"Max AGL
+3007062F 00FF
+"Max MAG
+30070630 00FF
+"Max M.RES
+30070631 00FF
+"Max Stamina Recovery
+80070632 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070634 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070636 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070638 00??
+"Slot 2
+8007063A 00??
+"Slot 3
+8007063C 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070654 ????
+"Slot 2
+80070656 ????
+"Slot 48
+800706B2 ????
+"Enable All Element Slots
+50003002 0000
+30070655 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070641 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070644 00??
+"Level 2
+30070646 00??
+"Level 8
+30070652 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070644 003F
+"=Janice 
+"Max HP
+8006FE32 03E7
+"Infinite HP
+8006FED4 03E7
+"Max STR
+3006FE34 00FF
+"Max RES
+3006FE35 00FF
+"Max ACC
+3006FE36 00FF
+"Max AGL
+3006FE37 00FF
+"Max MAG
+3006FE38 00FF
+"Max M.RES
+3006FE39 00FF
+"Max Stamina Recovery
+8006FE3A FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FE3C 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FE3E 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FE40 00??
+"Slot 2
+8006FE42 00??
+"Slot 3
+8006FE44 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FE5C ????
+"Slot 2
+8006FE5E ????
+"Slot 48
+8006FEBA ????
+"Enable All Element Slots
+50003002 0000
+3006FE5D 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FE49 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006FE4C 00??
+"Level 2
+3006FE4E 00??
+"Level 8
+3006FE5A 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FE4C 003F
+"=Karsh 
+"Max HP
+8006F172 03E7
+"Infinite HP
+8006F214 03E7
+"Max STR
+3006F174 00FF
+"Max RES
+3006F175 00FF
+"Max ACC
+3006F176 00FF
+"Max AGL
+3006F177 00FF
+"Max MAG
+3006F178 00FF
+"Max M.RES
+3006F179 00FF
+"Max Stamina Recovery
+8006F17A FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F17C 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F17E 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F180 00??
+"Slot 2
+8006F182 00??
+"Slot 3
+8006F184 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F19C ????
+"Slot 2
+8006F19E ????
+"Slot 48
+8006F1FA ????
+"Enable All Element Slots
+50003002 0000
+3006F19D 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F189 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F18C 00??
+"Level 2
+3006F18E 00??
+"Level 8
+3006F19A 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F18C 003F
+"=Korcha 
+"Max HP
+8006F3D6 03E7
+"Infinite HP
+8006F478 03E7
+"Max STR
+3006F3D8 00FF
+"Max RES
+3006F3D9 00FF
+"Max ACC
+3006F3DA 00FF
+"Max AGL
+3006F3DB 00FF
+"Max MAG
+3006F3DC 00FF
+"Max M.RES
+3006F3DD 00FF
+"Max Stamina Recovery
+8006F3DE FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F3E0 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F3E2 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F3E4 00??
+"Slot 2
+8006F3E6 00??
+"Slot 3
+8006F3E8 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F400 ????
+"Slot 2
+8006F402 ????
+"Slot 48
+8006F45E ????
+"Enable All Element Slots
+50003002 0000
+3006F401 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F3ED 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F3F0 00??
+"Level 2
+3006F3F2 00??
+"Level 8
+3006F3FE 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F3F0 003F
+"=Leah 
+"Max HP
+800707C2 03E7
+"Infinite HP
+80070864 03E7
+"Max STR
+300707C4 00FF
+"Max RES
+300707C5 00FF
+"Max ACC
+300707C6 00FF
+"Max AGL
+300707C7 00FF
+"Max MAG
+300707C8 00FF
+"Max M.RES
+300707C9 00FF
+"Max Stamina Recovery
+800707CA FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+800707CC 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+800707CE 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+800707D0 00??
+"Slot 2
+800707D2 00??
+"Slot 3
+800707D4 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+800707EC ????
+"Slot 2
+800707EE ????
+"Slot 48
+8007084A ????
+"Enable All Element Slots
+50003002 0000
+300707ED 0000
+"Picture/Sprite Modifier (add 8-bit value)
+300707D9 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+300707DC 00??
+"Level 2
+300707DE 00??
+"Level 8
+300707EA 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+300707DC 003F
+"=Leena 
+"Max HP
+8006FBCE 03E7
+"Infinite HP
+8006FC70 03E7
+"Max STR
+3006FBD0 00FF
+"Max RES
+3006FBD1 00FF
+"Max ACC
+3006FBD2 00FF
+"Max AGL
+3006FBD3 00FF
+"Max MAG
+3006FBD4 00FF
+"Max M.RES
+3006FBD5 00FF
+"Max Stamina Recovery
+8006FBD6 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FBD8 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FBDA 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FBDC 00??
+"Slot 2
+8006FBDE 00??
+"Slot 3
+8006FBE0 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FBF8 ????
+"Slot 2
+8006FBFA ????
+"Slot 48
+8006FC56 ????
+"Enable All Element Slots
+50003002 0000
+3006FBF9 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FBE5 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006FBE8 00??
+"Level 2
+3006FBEA 00??
+"Level 8
+3006FBF6 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FBE8 003F
+"=Luccia 
+"Max HP
+8006F4A2 03E7
+"Infinite HP
+8006F544 03E7
+"Max STR
+3006F4A4 00FF
+"Max RES
+3006F4A5 00FF
+"Max ACC
+3006F4A6 00FF
+"Max AGL
+3006F4A7 00FF
+"Max MAG
+3006F4A8 00FF
+"Max M.RES
+3006F4A9 00FF
+"Max Stamina Recovery
+8006F4AA FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F4AC 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F4AE 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F4B0 00??
+"Slot 2
+8006F4B2 00??
+"Slot 3
+8006F4B4 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F4CC ????
+"Slot 2
+8006F4CE ????
+"Slot 48
+8006F52A ????
+"Enable All Element Slots
+50003002 0000
+3006F4CD 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F4B9 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F4BC 00??
+"Level 2
+3006F4BE 00??
+"Level 8
+3006F4CA 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F4BC 003F
+"=Macha 
+"Max HP
+8006FA36 03E7
+"Infinite HP
+8006FAD8 03E7
+"Max STR
+3006FA38 00FF
+"Max RES
+3006FA39 00FF
+"Max ACC
+3006FA3A 00FF
+"Max AGL
+3006FA3B 00FF
+"Max MAG
+3006FA3C 00FF
+"Max M.RES
+3006FA3D 00FF
+"Max Stamina Recovery
+8006FA3E FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FA40 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FA42 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FA44 00??
+"Slot 2
+8006FA46 00??
+"Slot 3
+8006FA48 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FA60 ????
+"Slot 2
+8006FA62 ????
+"Slot 48
+8006FABE ????
+"Enable All Element Slots
+50003002 0000
+3006FA61 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FA4D 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006FA50 00??
+"Level 2
+3006FA52 00??
+"Level 8
+3006FA5E 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FA50 003F
+"=Marcy 
+"Max HP
+8006F30A 03E7
+"Infinite HP
+8006F3AC 03E7
+"Max STR
+3006F30C 00FF
+"Max RES
+3006F30D 00FF
+"Max ACC
+3006F30E 00FF
+"Max AGL
+3006F30F 00FF
+"Max MAG
+3006F310 00FF
+"Max M.RES
+3006F311 00FF
+"Max Stamina Recovery
+8006F312 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F314 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F316 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F318 00??
+"Slot 2
+8006F31A 00??
+"Slot 3
+8006F31C 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F334 ????
+"Slot 2
+8006F336 ????
+"Slot 48
+8006F392 ????
+"Enable All Element Slots
+50003002 0000
+3006F335 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F321 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F324 00??
+"Level 2
+3006F326 00??
+"Level 8
+3006F332 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F324 003F
+"=Mel 
+"Max HP
+800706F6 03E7
+"Infinite HP
+80070798 03E7
+"Max STR
+300706F8 00FF
+"Max RES
+300706F9 00FF
+"Max ACC
+300706FA 00FF
+"Max AGL
+300706FB 00FF
+"Max MAG
+300706FC 00FF
+"Max M.RES
+300706FD 00FF
+"Max Stamina Recovery
+800706FE FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070700 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070702 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070704 00??
+"Slot 2
+80070706 00??
+"Slot 3
+80070708 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070720 ????
+"Slot 2
+80070722 ????
+"Slot 48
+8007077E ????
+"Enable All Element Slots
+50003002 0000
+30070721 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3007070D 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070710 00??
+"Level 2
+30070712 00??
+"Level 8
+3007071E 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070710 003F
+"=Miki 
+"Max HP
+8006FC9A 03E7
+"Infinite HP
+8006FD3C 03E7
+"Max STR
+3006FC9C 00FF
+"Max RES
+3006FC9D 00FF
+"Max ACC
+3006FC9E 00FF
+"Max AGL
+3006FC9F 00FF
+"Max MAG
+3006FCA0 00FF
+"Max M.RES
+3006FCA1 00FF
+"Max Stamina Recovery
+8006FCA2 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FCA4 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FCA6 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FCA8 00??
+"Slot 2
+8006FCAA 00??
+"Slot 3
+8006FCAC 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FCC4 ????
+"Slot 2
+8006FCC6 ????
+"Slot 48
+8006FD22 ????
+"Enable All Element Slots
+50003002 0000
+3006FCC5 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FCB1 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006FCB4 00??
+"Level 2
+3006FCB6 00??
+"Level 8
+3006FCC2 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FCB4 003F
+"=Mojo 
+"Max HP
+80070162 03E7
+"Infinite HP
+80070204 03E7
+"Max STR
+30070164 00FF
+"Max RES
+30070165 00FF
+"Max ACC
+30070166 00FF
+"Max AGL
+30070167 00FF
+"Max MAG
+30070168 00FF
+"Max M.RES
+30070169 00FF
+"Max Stamina Recovery
+8007016A FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8007016C 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8007016E 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070170 00??
+"Slot 2
+80070172 00??
+"Slot 3
+80070174 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8007018C ????
+"Slot 2
+8007018E ????
+"Slot 48
+800701EA ????
+"Enable All Element Slots
+50003002 0000
+3007018D 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070179 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3007017C 00??
+"Level 2
+3007017E 00??
+"Level 8
+3007018A 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3007017C 003F
+"=Neofio 
+"Max HP
+800702FA 03E7
+"Infinite HP
+8007039C 03E7
+"Max STR
+300702FC 00FF
+"Max RES
+300702FD 00FF
+"Max ACC
+300702FE 00FF
+"Max AGL
+300702FF 00FF
+"Max MAG
+30070300 00FF
+"Max M.RES
+30070301 00FF
+"Max Stamina Recovery
+80070302 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070304 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070306 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070308 00??
+"Slot 2
+8007030A 00??
+"Slot 3
+8007030C 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070324 ????
+"Slot 2
+80070326 ????
+"Slot 48
+80070382 ????
+"Enable All Element Slots
+50003002 0000
+30070325 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070311 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070314 00??
+"Level 2
+30070316 00??
+"Level 8
+30070322 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070314 003F
+"=Nikki 
+"Max HP
+8006EF0E 03E7
+"Infinite HP
+8006EFB0 03E7
+"Max STR
+3006EF10 00FF
+"Max RES
+3006EF11 00FF
+"Max ACC
+3006EF12 00FF
+"Max AGL
+3006EF13 00FF
+"Max MAG
+3006EF14 00FF
+"Max M.RES
+3006EF15 00FF
+"Max Stamina Recovery
+8006EF16 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006EF18 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006EF1A 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006EF1C 00??
+"Slot 2
+8006EF1E 00??
+"Slot 3
+8006EF20 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006EF38 ????
+"Slot 2
+8006EF3A ????
+"Slot 48
+8006EF96 ????
+"Enable All Element Slots
+50003002 0000
+3006EF39 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006EF25 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006EF28 00??
+"Level 2
+3006EF2A 00??
+"Level 8
+3006EF36 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006EF28 003F
+"=Norris 
+"Max HP
+8006EE42 03E7
+"Infinite HP
+8006EEE4 03E7
+"Max STR
+3006EE44 00FF
+"Max RES
+3006EE45 00FF
+"Max ACC
+3006EE46 00FF
+"Max AGL
+3006EE47 00FF
+"Max MAG
+3006EE48 00FF
+"Max M.RES
+3006EE49 00FF
+"Max Stamina Recovery
+8006EE4A FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006EE4C 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006EE4E 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006EE50 00??
+"Slot 2
+8006EE52 00??
+"Slot 3
+8006EE54 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006EE6C ????
+"Slot 2
+8006EE6E ????
+"Slot 48
+8006EECA ????
+"Enable All Element Slots
+50003002 0000
+3006EE6D 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006EE59 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006EE5C 00??
+"Level 2
+3006EE5E 00??
+"Level 8
+3006EE6A 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006EE5C 003F
+"=Orcha 
+"Max HP
+8006F7D2 03E7
+"Infinite HP
+8006F874 03E7
+"Max STR
+3006F7D4 00FF
+"Max RES
+3006F7D5 00FF
+"Max ACC
+3006F7D6 00FF
+"Max AGL
+3006F7D7 00FF
+"Max MAG
+3006F7D8 00FF
+"Max M.RES
+3006F7D9 00FF
+"Max Stamina Recovery
+8006F7DA FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F7DC 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F7DE 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F7E0 00??
+"Slot 2
+8006F7E2 00??
+"Slot 3
+8006F7E4 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F7FC ????
+"Slot 2
+8006F7FE ????
+"Slot 48
+8006F85A ????
+"Enable All Element Slots
+50003002 0000
+3006F7FD 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F7E9 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F7EC 00??
+"Level 2
+3006F7EE 00??
+"Level 8
+3006F7FA 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F7EC 003F
+"=Orlha 
+"Max HP
+80070D56 03E7
+"Infinite HP
+80070DF8 03E7
+"Max STR
+30070D58 00FF
+"Max RES
+30070D59 00FF
+"Max ACC
+30070D5A 00FF
+"Max AGL
+30070D5B 00FF
+"Max MAG
+30070D5C 00FF
+"Max M.RES
+30070D5D 00FF
+"Max Stamina Recovery
+80070D5E FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070C60 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070C62 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070C64 00??
+"Slot 2
+80070C66 00??
+"Slot 3
+80070C68 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070D80 ????
+"Slot 2
+80070D82 ????
+"Slot 48
+80070DDE ????
+"Enable All Element Slots
+50003002 0000
+30070D81 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070D6D 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070D70 00??
+"Level 2
+30070D72 00??
+"Level 8
+30070D7E 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070D70 003F
+"=Pierre 
+"Max HP
+80070C8A 03E7
+"Infinite HP
+80070D2C 03E7
+"Max STR
+30070C8C 00FF
+"Max RES
+30070C8D 00FF
+"Max ACC
+30070C8E 00FF
+"Max AGL
+30070C8F 00FF
+"Max MAG
+30070C90 00FF
+"Max M.RES
+30070C91 00FF
+"Max Stamina Recovery
+80070C92 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070C94 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070C96 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070C98 00??
+"Slot 2
+80070C9A 00??
+"Slot 3
+80070C9C 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070CB4 ????
+"Slot 2
+80070CB6 ????
+"Slot 48
+80070D12 ????
+"Enable All Element Slots
+50003002 0000
+30070CB5 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070CA1 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070CA4 00??
+"Level 2
+30070CA6 00??
+"Level 8
+30070CB2 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070CA4 003F
+"=Pip 
+"Max HP
+80070E22 03E7
+"Infinite HP
+80070EC4 03E7
+"Max STR
+30070E24 00FF
+"Max RES
+30070E25 00FF
+"Max ACC
+30070E26 00FF
+"Max AGL
+30070E27 00FF
+"Max MAG
+30070E28 00FF
+"Max M.RES
+30070E29 00FF
+"Max Stamina Recovery
+80070E2A FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070E2C 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070E2E 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070E30 00??
+"Slot 2
+80070E32 00??
+"Slot 3
+80070E34 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070E4C ????
+"Slot 2
+80070E4E ????
+"Slot 48
+80070EAA ????
+"Enable All Element Slots
+50003002 0000
+30070E4D 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070E39 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070E3C 00??
+"Level 2
+30070E3E 00??
+"Level 8
+30070E4A 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070E3C 003F
+"=Poshul 
+"Max HP
+8006F56E 03E7
+"Infinite HP
+8006F610 03E7
+"Max STR
+3006F570 00FF
+"Max RES
+3006F571 00FF
+"Max ACC
+3006F572 00FF
+"Max AGL
+3006F573 00FF
+"Max MAG
+3006F574 00FF
+"Max M.RES
+3006F575 00FF
+"Max Stamina Recovery
+8006F576 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F578 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F57A 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F57C 00??
+"Slot 2
+8006F57E 00??
+"Slot 3
+8006F580 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F598 ????
+"Slot 2
+8006F59A ????
+"Slot 48
+8006F5F6 ????
+"Enable All Element Slots
+50003002 0000
+3006F599 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F585 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F588 00??
+"Level 2
+3006F58A 00??
+"Level 8
+3006F596 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F588 003F
+"=Radius 
+"Max HP
+8006F89E 03E7
+"Infinite HP
+8006F940 03E7
+"Max STR
+3006F8A0 00FF
+"Max RES
+3006F8A1 00FF
+"Max ACC
+3006F8A2 00FF
+"Max AGL
+3006F8A3 00FF
+"Max MAG
+3006F8A4 00FF
+"Max M.RES
+3006F8A5 00FF
+"Max Stamina Recovery
+8006F8A6 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F8A8 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F8AA 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F8AC 00??
+"Slot 2
+8006F8AE 00??
+"Slot 3
+8006F8B0 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F8C8 ????
+"Slot 2
+8006F8CA ????
+"Slot 48
+8006F926 ????
+"Enable All Element Slots
+50003002 0000
+3006F8C9 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F8B5 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F8B8 00??
+"Level 2
+3006F8BA 00??
+"Level 8
+3006F8C6 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F8B8 003F
+"=Razzly 
+"Max HP
+8006F63A 03E7
+"Infinite HP
+8006F6DC 03E7
+"Max STR
+3006F63C 00FF
+"Max RES
+3006F63D 00FF
+"Max ACC
+3006F63E 00FF
+"Max AGL
+3006F63F 00FF
+"Max MAG
+3006F640 00FF
+"Max M.RES
+3006F641 00FF
+"Max Stamina Recovery
+8006F642 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F644 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F646 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F648 00??
+"Slot 2
+8006F64A 00??
+"Slot 3
+8006F64C 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F664 ????
+"Slot 2
+8006F666 ????
+"Slot 48
+8006F6C2 ????
+"Enable All Element Slots
+50003002 0000
+3006F665 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F651 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F654 00??
+"Level 2
+3006F656 00??
+"Level 8
+3006F662 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F654 003F
+"=Riddel 
+"Max HP
+8006F0A6 03E7
+"Infinite HP
+8006F148 03E7
+"Max STR
+3006F0A8 00FF
+"Max RES
+3006F0A9 00FF
+"Max ACC
+3006F0AA 00FF
+"Max AGL
+3006F0AB 00FF
+"Max MAG
+3006F0AC 00FF
+"Max M.RES
+3006F0AD 00FF
+"Max Stamina Recovery
+8006F0AE FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F0B0 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F0B2 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F0B4 00??
+"Slot 2
+8006F0B6 00??
+"Slot 3
+8006F0B8 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F0D0 ????
+"Slot 2
+8006F0D2 ????
+"Slot 48
+8006F12E ????
+"Enable All Element Slots
+50003002 0000
+3006F0D1 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F0BD 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F0C0 00??
+"Level 2
+3006F0C2 00??
+"Level 8
+3006F0CE 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F0C0 003F
+"=Skelly 
+"Max HP
+80070492 03E7
+"Infinite HP
+80070534 03E7
+"Max STR
+30070494 00FF
+"Max RES
+30070495 00FF
+"Max ACC
+30070496 00FF
+"Max AGL
+30070497 00FF
+"Max MAG
+30070498 00FF
+"Max M.RES
+30070499 00FF
+"Max Stamina Recovery
+8007049A FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8007049C 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8007049E 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+800704A0 00??
+"Slot 2
+800704A2 00??
+"Slot 3
+800704A4 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+800704BC ????
+"Slot 2
+800704BE ????
+"Slot 48
+8007051A ????
+"Enable All Element Slots
+50003002 0000
+300704BD 0000
+"Picture/Sprite Modifier (add 8-bit value)
+300704A9 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+300704AC 00??
+"Level 2
+300704AE 00??
+"Level 8
+300704BA 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+300704AC 003F
+"=Sneff 
+"Max HP
+8007095A 03E7
+"Infinite HP
+800709FC 03E7
+"Max STR
+3007095C 00FF
+"Max RES
+3007095D 00FF
+"Max ACC
+3007095E 00FF
+"Max AGL
+3007095F 00FF
+"Max MAG
+30070960 00FF
+"Max M.RES
+30070961 00FF
+"Max Stamina Recovery
+80070962 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070964 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070966 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070968 00??
+"Slot 2
+8007096A 00??
+"Slot 3
+8007096C 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070984 ????
+"Slot 2
+80070986 ????
+"Slot 48
+800709E2 ????
+"Enable All Element Slots
+50003002 0000
+30070985 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070971 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070974 00??
+"Level 2
+30070976 00??
+"Level 8
+30070982 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070974 003F
+"=Sprigg 
+"Max HP
+80070096 03E7
+"Infinite HP
+80070138 03E7
+"Max STR
+30070098 00FF
+"Max RES
+30070099 00FF
+"Max ACC
+3007009A 00FF
+"Max AGL
+3007009B 00FF
+"Max MAG
+3007009C 00FF
+"Max M.RES
+3007009D 00FF
+"Max Stamina Recovery
+8007009E FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+800700A0 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+800700A2 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+800700A4 00??
+"Slot 2
+800700A6 00??
+"Slot 3
+800700A8 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+800700C0 ????
+"Slot 2
+800700C2 ????
+"Slot 48
+8007011E ????
+"Enable All Element Slots
+50003002 0000
+300700C1 0000
+"Picture/Sprite Modifier (add 8-bit value)
+300700AD 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+300700B0 00??
+"Level 2
+300700B2 00??
+"Level 8
+300700BE 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+300700B0 003F
+"=Starky 
+"Max HP
+8006FFCA 03E7
+"Infinite HP
+8007006C 03E7
+"Max STR
+3006FFCC 00FF
+"Max RES
+3006FFCD 00FF
+"Max ACC
+3006FFCE 00FF
+"Max AGL
+3006FFCF 00FF
+"Max MAG
+3006FFD0 00FF
+"Max M.RES
+3006FFD1 00FF
+"Max Stamina Recovery
+8006FFD2 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006FFD4 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006FFD6 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006FFD8 00??
+"Slot 2
+8006FFDA 00??
+"Slot 3
+8006FFDC 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006FFF4 ????
+"Slot 2
+8006FFF6 ????
+"Slot 48
+80070052 ????
+"Enable All Element Slots
+50003002 0000
+3006FFF5 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006FFE1 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006FFE4 00??
+"Level 2
+3006FFE6 00??
+"Level 8
+3006FFF2 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006FFE4 003F
+"=Steena 
+"Max HP
+80070A26 03E7
+"Infinite HP
+80070AC8 03E7
+"Max STR
+30070A28 00FF
+"Max RES
+30070A29 00FF
+"Max ACC
+30070A2A 00FF
+"Max AGL
+30070A2B 00FF
+"Max MAG
+30070A2C 00FF
+"Max M.RES
+30070A2D 00FF
+"Max Stamina Recovery
+80070A2E FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070A30 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+80070A32 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+80070A34 00??
+"Slot 2
+80070A36 00??
+"Slot 3
+80070A38 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070A50 ????
+"Slot 2
+80070A52 ????
+"Slot 48
+80070AAE ????
+"Enable All Element Slots
+50003002 0000
+30070A51 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070A3D 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070A40 00??
+"Level 2
+30070A42 00??
+"Level 8
+30070A4E 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070A40 003F
+"=Turnip 
+"Max HP
+8007022E 03E7
+"Infinite HP
+800702D0 03E7
+"Max STR
+30070230 00FF
+"Max RES
+30070231 00FF
+"Max ACC
+30070232 00FF
+"Max AGL
+30070233 00FF
+"Max MAG
+30070234 00FF
+"Max M.RES
+30070235 00FF
+"Max Stamina Recovery
+80070236 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070238 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8007023A 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8007023C 00??
+"Slot 2
+8007023E 00??
+"Slot 3
+80070240 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+80070258 ????
+"Slot 2
+8007025A ????
+"Slot 48
+800702B6 ????
+"Enable All Element Slots
+50003002 0000
+30070259 0000
+"Picture/Sprite Modifier (add 8-bit value)
+30070245 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+30070248 00??
+"Level 2
+3007024A 00??
+"Level 8
+30070256 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+30070248 003F
+"=Van 
+"Max HP
+8007088E 03E7
+"Infinite HP
+80070930 03E7
+"Max STR
+30070890 00FF
+"Max RES
+30070891 00FF
+"Max ACC
+30070892 00FF
+"Max AGL
+30070893 00FF
+"Max MAG
+30070894 00FF
+"Max M.RES
+30070895 00FF
+"Max Stamina Recovery
+80070896 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+80070898 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8007089A 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8007089C 00??
+"Slot 2
+8007089E 00??
+"Slot 3
+800708A0 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+800708B8 ????
+"Slot 2
+800708BA ????
+"Slot 48
+80070916 ????
+"Enable All Element Slots
+50003002 0000
+300708B9 0000
+"Picture/Sprite Modifier (add 8-bit value)
+300708A5 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+300708A8 00??
+"Level 2
+300708AA 00??
+"Level 8
+300708B6 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+300708A8 003F
+"=Viper 
+"Max HP
+8006EFDA 03E7
+"Infinite HP
+8006F07C 03E7
+"Max STR
+3006EFDC 00FF
+"Max RES
+3006EFDD 00FF
+"Max ACC
+3006EFDE 00FF
+"Max AGL
+3006EFDF 00FF
+"Max MAG
+3006EFE0 00FF
+"Max M.RES
+3006EFE1 00FF
+"Max Stamina Recovery
+8006EFE2 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006EFE4 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006EFE6 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006EFE8 00??
+"Slot 2
+8006EFEA 00??
+"Slot 3
+8006EFEC 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F004 ????
+"Slot 2
+8006F006 ????
+"Slot 48
+8006F062 ????
+"Enable All Element Slots
+50003002 0000
+3006F005 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006EFF1 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006EFF4 00??
+"Level 2
+3006EFF6 00??
+"Level 8
+3006F002 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006EFF4 003F
+"=Zappa 
+"Max HP
+8006F706 03E7
+"Infinite HP
+8006F7A8 03E7
+"Max STR
+3006F708 00FF
+"Max RES
+3006F709 00FF
+"Max ACC
+3006F70A 00FF
+"Max AGL
+3006F70B 00FF
+"Max MAG
+3006F70C 00FF
+"Max M.RES
+3006F70D 00FF
+"Max Stamina Recovery
+8006F70E FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F710 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F712 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F714 00??
+"Slot 2
+8006F716 00??
+"Slot 3
+8006F718 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F730 ????
+"Slot 2
+8006F732 ????
+"Slot 48
+8006F78E ????
+"Enable All Element Slots
+50003002 0000
+3006F731 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F71D 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F720 00??
+"Level 2
+3006F722 00??
+"Level 8
+3006F72E 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F720 003F
+"=Zoah 
+"Max HP
+8006F23E 03E7
+"Infinite HP
+8006F2E0 03E7
+"Max STR
+3006F240 00FF
+"Max RES
+3006F241 00FF
+"Max ACC
+3006F242 00FF
+"Max AGL
+3006F243 00FF
+"Max MAG
+3006F244 00FF
+"Max M.RES
+3006F245 00FF
+"Max Stamina Recovery
+8006F246 FFFF
+"Weapon Equipped Modifier Code (add 8-bit value)
+8006F248 00??
+"Armor Equipped Modifier Code (add 8-bit value)
+8006F24A 00??
+"=Accessories Modifier (add 8-bit value)
+"Slot 1
+8006F24C 00??
+"Slot 2
+8006F24E 00??
+"Slot 3
+8006F250 00??
+"=Element Slot Modifier (add 16-bit value)
+"Slot 1
+8006F268 ????
+"Slot 2
+8006F26A ????
+"Slot 48
+8006F2C6 ????
+"Enable All Element Slots
+50003002 0000
+3006F269 0000
+"Picture/Sprite Modifier (add 8-bit value)
+3006F255 00??
+"=Element Grids Modifier (add 8-bit value) [Note 1]
+"Level 1
+3006F258 00??
+"Level 2
+3006F25A 00??
+"Level 8
+3006F266 00??
+"Have 6 Of All Levels Element Grids [Note 2]
+50000802 0000
+3006F258 003F
+
+#Chrono Cross (Other)#SLUS01041
+"=Other 
+"=All Character 
+"Max HP
+50002CCC 0000
+8006EBDE 03E7
+"Infinite HP
+50002CCC 0000
+8006EC80 03E7
+"Max STR & RES
+50002CCC 0000
+8006EBE0 FFFF
+"Max ACC & AGL
+50002CCC 0000
+8006EBE2 FFFF
+"Max MAG & M.RES
+50002CCC 0000
+8006EBE4 FFFF
+"Max Stamina Recovery
+50002CCC 0000
+8006EBE6 FFFF
+"Prism Mail Equipped
+50002CCC 0000
+8006EBEA 009B
+"Prism Helmet Equipped
+50002CCC 0000
+8006EBEC 00C7
+"Dreamer's Sarong Equipped
+50002CCC 0000
+8006EBEE 00FE
+"Star Fragment Equipped
+50002CCC 0000
+8006EBEE 00FD
+"=Element Modifier (Part 1) (add 8-bit value)
+"Slot 1
+80071760 00??
+"Slot 2
+80071762 00??
+"Slot 192
+800718DE 00??
+"=Equipment Modifier (Part 1) (add 8-bit value)
+"Slot 1
+800712E0 00??
+"Slot 2
+800712E2 00??
+"Slot 384
+800715DE 00??
+"=In-Battle 
+"Infinite Health-Character 1
+D10DB568 2C03
+800DB130 03E7
+"Infinite Health-Character 2
+D10DB568 2C03
+800DB568 03E7
+"Infinite Health-Character 3
+D10DB568 2C03
+800DB9A0 03E7
+"Infinite Stamina-Character 1
+D10DB568 2C03
+800DB216 0046
+"Infinite Stamina-Character 2
+D10DB568 2C03
+800DB64E 0046
+"Infinite Stamina-Character 3
+D10DB568 2C03
+800DBA86 0046
+"Level 8 Elements-Character 1
+D10DB568 2C03
+800DB1E6 0007
+"Level 8 Elements-Character 2
+D10DB568 2C03
+800DB61E 0007
+"Level 8 Elements-Character 3
+D10DB568 2C03
+800DBA56 0007
+"Normal Status-Character 1
+D10DB568 2C03
+800DB12A 0000
+D10DB568 2C03
+800DB228 0000
+"Normal Status-Character 2
+D10DB568 2C03
+800DB562 0000
+D10DB568 2C03
+800DB660 0000
+"Normal Status-Character 3
+D10DB568 2C03
+800DB99A 0000
+D10DB568 2C03
+800DBA98 0000
+"Elemental Attacks Heal-Character 1
+D10DB568 2C03
+800DB12C FFFF
+"Elemental Attacks Heal-Character 2
+D10DB568 2C03
+800DB564 FFFF
+"Elemental Attacks Heal-Character 3
+D10DB568 2C03
+800DB99C FFFF
+"Character 1 Modifier (add 8-bit value)
+D10DB568 2C03
+300DB0A5 00??
+"Character 2 Modifier (add 8-bit value)
+D10DB568 2C03
+300DB4DD 00??
+"Character 3 Modifier (add 8-bit value)
+D10DB568 2C03
+300DB915 00??
+"Infinite Element Usage
+D00CB574 0001
+800CB574 0000
+D00CB682 A083
+800CB682 2400
+"Infinite Stamina
+D00D0D56 A662
+800D0D56 2400
+D00D0E7E A662
+800D0E7E 2400
+"Always Have 99% Hit %
+D006EBC0 0001
+300DB066 0063
+D006EBC0 0001
+300DB068 0063
+D006EBC0 0001
+300DB06A 0063
+"=Alternate Infinite Health 
+"Character 1
+D00DAF18 0001
+800DB130 03E7
+"Character 2
+D00DAF18 0001
+800DB568 03E7
+"Character 3
+D00DAF18 0001
+800DB9A0 03E7
+"=Alternate Infinite Stamina 
+"Character 1
+D00DAF18 0001
+800DB216 0046
+"Character 2
+D00DAF18 0001
+800DB64E 0046
+"Character 3
+D00DAF18 0001
+800DBA86 0046
+"=Alternate Level 8 Elements 
+"Character 1
+D00DAF18 0001
+800DB1E6 0007
+"Character 2
+D00DAF18 0001
+800DB61E 0007
+"Character 3
+D00DAF18 0001
+800DBA56 0007
+"=Alternate Normal Status 
+"Character 1
+D00DAF18 0001
+800DB12A 0000
+D00DAF18 0001
+800DB228 0000
+"Character 2
+D00DAF18 0001
+800DB562 0000
+D00DAF18 0001
+800DB660 0000
+"Character 3
+D00DAF18 0001
+800DB99A 0000
+D00DAF18 0001
+800DBA98 0000
+"=Alternate Elemental Attacks Heal 
+"Character 1
+D00DAF18 0001
+800DB12C FFFF
+"Character 2
+D00DAF18 0001
+800DB564 FFFF
+"Character 3
+D00DAF18 0001
+800DB99C FFFF
+"Alternate Character 1 Modifier (add 8-bit value)
+D00DAF18 0001
+300DB0A5 00??
+"Alternate Character 2 Modifier (add 8-bit value)
+D00DAF18 0001
+300DB4DD 00??
+"Alternate Character 3 Modifier (add 8-bit value)
+D00DAF18 0001
+300DB915 00??
+"Press L2+R2 To Win Any Battle [Note 1]
+D007E9F0 0003
+800DDF40 0007
+"1-Hit Death (Enemies)
+800DBDD8 0001
+800DC210 0001
+800DC648 0001
+800DCA80 0001
+"=Max Element (Part 1)
+"Slot 1
+300718E0 0063
+"Slot 2
+300718E1 0063
+"Slot 192
+3007199F 0063
+"=Max Equipment (Part 1)
+"Slot 1
+300715E0 0063
+"Slot 2
+300715E1 0063
+"Slot 384
+3007175F 0063
+"=Misc. 
+"Command (add 16-bit value)
+D007E9F0 ????
+"Save Anywhere
+D00E21F8 0001
+800E21F8 0000
+"Have Most Elements [Note 1]
+5000C002 0001
+80071760 0001
+"Max Elements
+50006002 0000
+800718E0 6363
+"Max Gold
+800719A8 E0FF
+800719AA 05F5
+"Infinite Gold
+800719A8 FFFF
+"Max Stars
+80071C74 0063
+80071C76 0063
+"All Key Items
+50000601 0000
+300712D8 00FF
+800712DE 701F
+"Have All Weapons/Armor/Accessories/Forge Items
+5000FE02 0001
+800712E0 0001
+"Max All Weapons/Armor/Accessories/Forge Items
+50007F02 0000
+800715E0 6363
+"Character 1 Modifier (add 8-bit value)
+300719AC 00??
+"Character 2 Modifier (add 8-bit value)
+300719AD 00??
+"Character 3 Modifier (add 8-bit value)
+300719AE 00??
+"Enable All Characters
+800719A0 FFFF
+800719A2 FFFF
+800719A4 FFFF
+"World Status On
+800724E4 0001
+"Use Teleporter & Smith Spirit Anywhere
+D00E57DC 0000
+800E57DC 0001
+"Walk Thru Walls [Note 2]
+D007E9F0 0101
+800AF066 2400
+D007E9F0 0104
+800AF066 0040
+"Turn Field Effect Green (Press Select+Triangle)
+D007E9F0 0110
+800DA970 0101
+D007E9F0 0110
+800DA972 0101
+D007E9F0 0110
+800DA974 0101
+D007E9F0 0110
+800DA976 0101
+D007E9F0 0110
+800DA978 0101
+D007E9F0 0110
+800DA97A 0101
+"Turn Field Effect White (Press Select+R2)
+D007E9F0 0102
+800DA970 0202
+D007E9F0 0102
+800DA972 0202
+D007E9F0 0102
+800DA974 0202
+D007E9F0 0102
+800DA976 0202
+D007E9F0 0102
+800DA978 0202
+D007E9F0 0102
+800DA97A 0202
+"Turn Field Effect Black (Press Select+L2)
+D007E9F0 0101
+800DA970 0404
+D007E9F0 0101
+800DA972 0404
+D007E9F0 0101
+800DA974 0404
+D007E9F0 0101
+800DA976 0404
+D007E9F0 0101
+800DA978 0404
+D007E9F0 0101
+800DA97A 0404
+"Turn Field Effect Red (Press Select+Triangle+R2)
+D007E9F0 0112
+800DA970 0808
+D007E9F0 0112
+800DA972 0808
+D007E9F0 0112
+800DA974 0808
+D007E9F0 0112
+800DA976 0808
+D007E9F0 0112
+800DA978 0808
+D007E9F0 0112
+800DA97A 0808
+"Turn Field Effect Yellow (Press Select+Triangle+L2)
+D007E9F0 0111
+800DA970 1010
+D007E9F0 0111
+800DA972 1010
+D007E9F0 0111
+800DA974 1010
+D007E9F0 0111
+800DA976 1010
+D007E9F0 0111
+800DA978 1010
+D007E9F0 0111
+800DA97A 1010
+"Turn Field Effect Blue (Press Select+Triangle+R2+L2)
+D007E9F0 0113
+800DA970 2020
+D007E9F0 0113
+800DA972 2020
+D007E9F0 0113
+800DA974 2020
+D007E9F0 0113
+800DA976 2020
+D007E9F0 0113
+800DA978 2020
+D007E9F0 0113
+800DA97A 2020
+"Have All Key Items
+800712D8 FFFF
+800712DA FFFF
+800712DC FFFF
+800712DE 701F
+"Infinite Weapon/Armor/Forge Items
+D00DDD74 FFFF
+800DDD74 0000
+"Infinite Element Stock
+D00DD6BC FFFF
+800DD6BC 0000
+"Gain Star Level Every Battle
+3006EAC0 00FF
+"Ultimate Lynx [Note 3]
+3006EBF5 0031
+D006EBC0 0001
+300DB0A5 0033
+8006EC32 0099
+8006EC4C 0097
+8006EC5C 0098
+3006EBC9 0010
+"Serge Knows All Omega Techs
+8006EC1C 01E4
+8006EC1E 01E3
+8006EC20 01E0
+8006EC22 01E5
+8006EC24 01E2
+8006EC26 01E1
+
+#Chrono Trigger#SLUS01363
+"=Character 
+"=Crono 
+"Infinite HP
+30020603 00E7
+30020604 0003
+"Max HP
+30020605 00E7
+30020606 0003
+"Infinite MP
+30020607 0063
+"Max MP
+30020609 0063
+"Max PWR
+3002060B 0063
+"Max STAM
+3002060C 0063
+"Max SPD
+3002060D 0063
+"Max MGC
+3002060E 0063
+"Max HIT
+3002060F 0063
+"Max EV
+30020610 0063
+"Max M.DEF
+30020611 0063
+"Level 99
+30020612 0063
+"Max Earned Exp
+30020613 007F
+30020614 9896
+"Equipped Helm Modifier (add 8-bit value)
+30020627 00??
+"Equipped Armor Modifier (add 8-bit value)
+30020628 00??
+"Equipped Weapon Modifier (add 8-bit value)
+30020629 00??
+"Equipped Accessory Modifier (add 8-bit value)
+3002062A 00??
+"0 Exp to Next Level
+3002062B 0000
+3002062C 0000
+"0 Exp for Tech Level
+3002062D 0000
+"=Merle 
+"Infinite HP
+30020653 00E7
+30020654 0003
+"Max HP
+30020655 00E7
+30020656 0003
+"Infinite MP
+30020657 0063
+"Max MP
+30020659 0063
+"Max PWR
+3002065B 0063
+"Max STAM
+3002065C 0063
+"Max SPD
+3002065D 0063
+"Max MGC
+3002065E 0063
+"Max HIT
+3002065F 0063
+"Max EV
+30020660 0063
+"Max M.DEF
+30020661 0063
+"Level 99
+30020662 0063
+"Max Earned Exp
+30020663 007F
+30020664 9896
+"Equipped Helm Modifier (add 8-bit value)
+30020677 00??
+"Equipped Armor Modifier (add 8-bit value)
+30020678 00??
+"Equipped Weapon Modifier (add 8-bit value)
+30020679 00??
+"Equipped Accessory Modifier (add 8-bit value)
+3002067A 00??
+"0 Exp to Next Level
+3002067B 0000
+3002067C 0000
+"0 Exp for Tech Level
+3002067D 0000
+"=Lucca 
+"Infinite HP
+300206A3 00E7
+300206A4 0003
+"Max HP
+300206A5 00E7
+300206A6 0003
+"Infinite MP
+300206A7 0063
+"Max MP
+300206A9 0063
+"Max PWR
+300206AB 0063
+"Max STAM
+300206AC 0063
+"Max SPD
+300206AD 0063
+"Max MGC
+300206AE 0063
+"Max HIT
+300206AF 0063
+"Max EV
+300206B0 0063
+"Max M.DEF
+300206B1 0063
+"Level 99
+300206B2 0063
+"Max Earned Exp
+300206B3 007F
+300206B4 9896
+"Equipped Helm Modifier (add 8-bit value)
+300206C7 00??
+"Equipped Armor Modifier (add 8-bit value)
+300206C8 00??
+"Equipped Weapon Modifier (add 8-bit value)
+300206C9 00??
+"Equipped Accessory Modifier (add 8-bit value)
+300206CA 00??
+"0 Exp to Next Level
+300206CB 0000
+300206CC 0000
+"0 Exp for Tech Level
+300206CD 0000
+"=Robo 
+"Infinite HP
+300206F3 00E7
+300206F4 0003
+"Max HP
+300206F5 00E7
+300206F6 0003
+"Infinite MP
+300206F7 0063
+"Max MP
+300206F9 0063
+"Max PWR
+300206FB 0063
+"Max STAM
+300206FC 0063
+"Max SPD
+300206FD 0063
+"Max MGC
+300206FE 0063
+"Max HIT
+300206FF 0063
+"Max EV
+30020700 0063
+"Max M.DEF
+30020701 0063
+"Level 99
+30020702 0063
+"Max Earned Exp
+30020703 007F
+30020704 9896
+"Equipped Helm Modifier (add 8-bit value)
+30020717 00??
+"Equipped Armor Modifier (add 8-bit value)
+30020718 00??
+"Equipped Weapon Modifier (add 8-bit value)
+30020719 00??
+"Equipped Accessory Modifier (add 8-bit value)
+3002071A 00??
+"0 Exp to Next Level
+3002071B 0000
+3002071C 0000
+"0 Exp for Tech Level
+3002071D 0000
+"=Frog 
+"Infinite HP
+30020743 00E7
+30020744 0003
+"Max HP
+30020745 00E7
+30020746 0003
+"Infinite MP
+30020747 0063
+"Max MP
+30020749 0063
+"Max PWR
+3002074B 0063
+"Max STAM
+3002074C 0063
+"Max SPD
+3002074D 0063
+"Max MGC
+3002074E 0063
+"Max HIT
+3002074F 0063
+"Max EV
+30020750 0063
+"Max M.DEF
+30020751 0063
+"Level 99
+30020752 0063
+"Max Earned Exp
+30020753 007F
+30020754 9896
+"Equipped Helm Modifier (add 8-bit value)
+30020767 00??
+"Equipped Armor Modifier (add 8-bit value)
+30020768 00??
+"Equipped Weapon Modifier (add 8-bit value)
+30020769 00??
+"Equipped Accessory Modifier (add 8-bit value)
+3002076A 00??
+"0 Exp to Next Level
+3002076B 0000
+3002076C 0000
+"0 Exp for Tech Level
+3002076D 0000
+"=Ayla 
+"Infinite HP
+30020793 00E7
+30020794 0003
+"Max HP
+30020795 00E7
+30020796 0003
+"Infinite MP
+30020797 0063
+"Max MP
+30020799 0063
+"Max PWR
+3002079B 0063
+"Max STAM
+3002079C 0063
+"Max SPD
+3002079D 0063
+"Max MGC
+3002079E 0063
+"Max HIT
+3002079F 0063
+"Max EV
+300207A0 0063
+"Max M.DEF
+300207A1 0063
+"Level 99
+300207A2 0063
+"Max Earned Exp
+300207A3 007F
+300207A4 9896
+"Equipped Helm Modifier (add 8-bit value)
+300207B7 00??
+"Equipped Armor Modifier (add 8-bit value)
+300207B8 00??
+"Equipped Weapon Modifier (add 8-bit value)
+300207B9 00??
+"Equipped Accessory Modifier (add 8-bit value)
+300207BA 00??
+"0 Exp to Next Level
+300207BB 0000
+300207BC 0000
+"0 Exp for Tech Level
+300207BD 0000
+"=Magus 
+"Infinite HP
+300207E3 00E7
+300207E4 0003
+"Max HP
+300207E5 00E7
+300207E6 0003
+"Infinite MP
+300207E7 0063
+"Max MP
+300207E9 0063
+"Max PWR
+300207EB 0063
+"Max STAM
+300207EC 0063
+"Max SPD
+300207ED 0063
+"Max MGC
+300207EE 0063
+"Max HIT
+300207EF 0063
+"Max EV
+300207F0 0063
+"Max M.DEF
+300207F1 0063
+"Level 99
+300207F2 0063
+"Max Earned Exp
+300207F3 007F
+300207F4 9896
+"Equipped Helm Modifier (add 8-bit value)
+30020807 00??
+"Equipped Armor Modifier (add 8-bit value)
+30020808 00??
+"Equipped Weapon Modifier (add 8-bit value)
+30020809 00??
+"Equipped Accessory Modifier (add 8-bit value)
+3002080A 00??
+"0 Exp to Next Level
+3002080B 0000
+3002080C 0000
+"0 Exp for Tech Level
+3002080D 0000
+"=Other 
+"=In-Battle 
+"=Character Position 1 
+"Infinite HP
+80023E30 03E7
+"Infinite MP
+80023E34 0063
+"=Character Position 2 
+"Infinite HP
+80023EB0 03E7
+"Infinite MP
+80023EB4 0063
+"=Character Position 3 
+"Infinite HP
+80023F30 03E7
+"Infinite MP
+80023F34 0063
+"=Enemy Position ? 
+"No Health
+80023FB0 0000
+"=Enemy Position ? 
+"No Health
+80024330 0000
+"=Enemy Position ? 
+"No Health
+8002E0DA 0000
+"=Item Modifier (Part 1) (add 8-bit value)
+"Slot 1
+30020400 00??
+"Slot 2
+30020401 00??
+"Slot 256
+300204FF 00??
+"=Max Item (Part 1)
+"Slot 1
+30020500 0063
+"Slot 2
+30020501 0063
+"Slot 256
+300205FF 0063
+"=Misc. 
+"Max Gold
+80020C52 7F00
+80020C54 9896
+"Unlock All Extra Modes
+800DD70A FFFF
+"Enable New Game+
+800AC99C FFD0
+"Item Replicator [Note 1]
+D00AFA9A 97A2
+800AFA9A 2400
+"Star Level Modifier (01-64) (add 8-bit value)
+80071C74 00??
+80071C76 00??
+"All Items
+5000E701 0001
+30020400 0001
+"All Max Items
+5000E701 0000
+30020500 0063
+"Have All Tech
+50002002 0000
+80020836 FFFF
+"=In-Party Modifier (add 8-bit value)
+"Slot 1
+30020980 00??
+"Slot 2
+30020981 00??
+"Slot 3
+30020982 00??
+"=Out-Party Modifier (add 8-bit value)
+"Slot 1
+30020985 00??
+"Slot 2
+30020986 00??
+"Slot 3
+30020987 00??
+"Slot 4
+30020988 00??
+
+#Circuit Breakers#SLUS00697
+"Night Time Mode
+800A6D0C 0001
+"Race Upside Down
+800A6E28 0001
+"P1 Always 1st
+801F76F8 0001
+"=Have Levels Completed 
+"Group 2 Jungle 2
+301D8024 0001
+301D8025 0001
+301D8026 0001
+301D8027 0001
+301D8028 0001
+301D8029 0001
+301D802A 0001
+301D802B 0001
+"Group 2 Venice
+301D802C 0001
+301D802D 0001
+301D802E 0001
+301D802F 0001
+301D8030 0001
+301D8031 0001
+301D8032 0001
+301D8033 0001
+"Group 2 Swamp 2
+301D8034 0001
+301D8035 0001
+301D8036 0001
+301D8037 0001
+301D8038 0001
+301D8039 0001
+301D803A 0001
+301D803B 0001
+"Group 2 Arctic 1
+301D803C 0001
+301D803D 0001
+301D803E 0001
+301D803F 0001
+301D8040 0001
+301D8041 0001
+301D8042 0001
+301D8043 0001
+"Group 3 Canyon
+301D8044 0001
+301D8045 0001
+301D8046 0001
+301D8047 0001
+301D8048 0001
+301D8049 0001
+301D804A 0001
+301D804B 0001
+"Group 3 Venice 2
+301D804C 0001
+301D804D 0001
+301D804E 0001
+301D804F 0001
+301D8050 0001
+301D8051 0001
+301D8052 0001
+301D8053 0001
+"Group 3 Subaoua 1
+301D8054 0001
+301D8055 0001
+301D8056 0001
+301D8057 0001
+301D8058 0001
+301D8059 0001
+301D805A 0001
+301D805B 0001
+"Group 3 Arctic 2
+301D805C 0001
+301D805D 0001
+301D805E 0001
+301D805F 0001
+301D8060 0001
+301D8061 0001
+301D8062 0001
+301D8063 0001
+"Group 4 Canyon 2
+301D8064 0001
+301D8065 0001
+301D8066 0001
+301D8067 0001
+301D8068 0001
+301D8069 0001
+301D806A 0001
+301D806B 0001
+"Group 4 Highway 2
+301D806C 0001
+301D806D 0001
+301D806E 0001
+301D806F 0001
+301D8070 0001
+301D8071 0001
+301D8072 0001
+301D8073 0001
+"Group 4 Subaoua 2
+301D8074 0001
+301D8075 0001
+301D8076 0001
+301D8077 0001
+301D8078 0001
+301D8079 0001
+301D807A 0001
+301D807B 0001
+"Group 4 Egypt 2
+301D807C 0001
+301D807D 0001
+301D807E 0001
+301D807F 0001
+301D8080 0001
+301D8081 0001
+301D8082 0001
+301D8083 0001
+301D8084 0001
+301D8085 0001
+301D8086 0001
+301D8087 0001
+301D8088 0001
+301D8089 0001
+301D808A 0001
+301D808B 0001
+301D808C 0001
+301D808D 0001
+301D808E 0001
+301D808F 0001
+301D8090 0001
+301D8091 0001
+301D8092 0001
+301D8093 0001
+301D8094 0001
+301D8095 0001
+301D8096 0001
+301D8097 0001
+301D8098 0001
+301D8099 0001
+301D809A 0001
+301D809B 0001
+"Access to Groups 5,6,7,& 8 [Note 1]
+301D809C 0001
+301D809D 0001
+301D809E 0001
+301D809F 0001
+301D80A0 0001
+301D80A1 0001
+301D80A2 0001
+301D80A3 0001
+
+#Civilization 2#SLUS00792
+"=Infinite Money 
+"Celts, Romans, Russians
+80117C0C FFFF
+"Babylonians, Japanese, Zulus
+80118184 FFFF
+"French, Germans, Vikings
+801186FC FFFF
+"Aztecs, Egyptians, Spanish
+80118C74 FFFF
+"Americans, Chinese, Persians
+801191EC FFFF
+"Carthaginians, Greeks, English
+80119764 FFFF
+"Indians, Mongols, Sioux
+80119CDC FFFF
+"=Discoveries Modifier (add 8-bit value)
+"Celts, Romans, Russians
+80117C14 00??
+"Babylonians, Japanese, Zulus
+8011818C 00??
+"French, Germans, Vikings
+80118704 00??
+"Aztecs, Egyptians, Spanish
+80118C7C 00??
+"Americans, Chinese, Persians
+801191F4 00??
+"Carthaginians, Greeks, English
+8011976C 00??
+"Indians, Mongols, Sioux
+80119CE4 00??
+"Year Modifier (AD) (add 16-bit value)
+8011A264 ????
+"Scientific Advancement Every Turn (Greek Only)
+8011976A 7777
+"=Have Scientific Advancement Every Turn 
+"Celts, Romans, Russians
+80117C12 7777
+"Babylonians, Japanese, Zulus
+8011818A 7777
+"French, Germans, Vikings
+80118702 7777
+"Aztecs, Egyptians, Spanish
+80118C7A 7777
+"Americans, Chinese, Persians
+801191F2 7777
+"Carthaginians, Greeks, English
+8011976A 7777
+"Indians, Mongols, Sioux
+80119CE2 7777
+
+#Cleopatra's Fortune#SLUS01491
+"Quick Score Gain
+80140C64 FFFF
+"Max Score
+80140C64 E0FF
+80140C66 05F5
+"Max Blocks
+80140C6C 270F
+"Max Level
+80113FA4 0063
+
+#Clock Tower 2-The Struggle Within#SLUS00695
+"Command (add 16-bit value)
+D0065888 ????
+"Joker Command (add 16-bit value)
+D0065808 ????
+80065808 0000
+"Have All Hints
+8006F04A FFFF
+"Have All Endings & Extra Mode
+8006F048 FFFF
+"Infinite Ammo All Weapons
+80070954 0063
+"Infinite Ammo On Pickup
+800996DA 2400
+"Infinite HP
+80070A18 0003
+"Turn Into Bates
+80070A20 0020
+"Turn Back To Alyssa
+80070A20 0000
+"Play Time and Time Attack Mode Time 00:00:00
+80070A48 0000
+80070A54 0000
+"Equipped Item Modifier Code (add 8-bit value)
+800B61FA 00??
+"=Item Modifier (add 8-bit value)
+"Slot 1
+80070B1C 00??
+"Slot 2
+80070B20 00??
+"Slot 12
+80070B48 00??
+"=Extra Mode 
+"=Score Attack Modes 
+"Maxium Score
+800D9990 E0FF
+800D9992 05F5
+"Infinite Limit Gage
+800D84F8 0700
+"Rate x10000
+800D84F0 000A
+"=Time Attack Mode 
+"Infinite Gun Ammo
+800709CC 0063
+"Infinite Shotgun Ammo
+800709D0 0063
+"Infinite Machinegun Ammo
+800709D4 0063
+
+#Clock Tower#SLUS00539
+"Command (add 16-bit value)
+D007F5C8 ????
+"Enable All Hints
+800959EA 0100
+800959EC 0101
+800959EE 0101
+800959F0 0101
+800959F2 0101
+800959F4 0101
+"Enable All Endings (Jennifer)
+800959F4 0101
+800959F6 0101
+800959F8 0101
+"Enable All Endings (Helen)
+800959FA 0101
+800959FC 0101
+800959FE 0101
+"Have Office Key
+80095900 0100
+"Invincible [Note 1]
+8009580E 0000
+"=Jennifer Scenerio 1 
+"Office Door Open
+80095900 0200
+"Ladder Door Open
+80095854 0001
+
+#Codename-Tenka#SCUS94409
+"Command (add 16-bit value)
+80019EC8 ????
+"Infinite Ammo
+80059A6C 0063
+80059A78 0063
+"Infinite Armor
+80019DDA 00C8
+"Infinite Energy
+80019DD8 0064
+"Have Red Key
+800519C8 0001
+"Have Green Key
+800519CA 0001
+"Have Blue Key
+800519CC 0001
+"Have Yellow Key
+800519CE 0001
+"Have Purple Key
+800519D0 0001
+"Have Light Blue Key
+800519D2 0001
+"Infinite Grenades
+80019DEE 0001
+"Have Double Shot
+80019DE2 0001
+"Have Rapid Fire
+80019DE4 0001
+"Have Burst Laser
+80019DEA 0001
+"Infinite Laser Power
+80059A70 0014
+"Have All Weapons Option (Pause Menu)
+800662CE 0001
+"Have Level Warp Option (Pause Menu)
+800662D0 0001
+
+#Colin McRae Rally 2.0#SLUS01222
+"Instant Win-Rally
+D00E2BEC 0000
+800E2BEC 0FFF
+"Unlock All Tracks & Cars
+8004D9E4 FFFF
+"Unlock All Cheats
+3004C66C 00FF
+"Max Championship Points
+80050722 0064
+"Infinite Repair Time
+D0067554 0000
+80067556 2400
+
+#Colin McRae Rally#SCUS94474
+"Stop Lap Timer/Always Win
+D007B414 07B8
+800C6548 0000
+"Infinite Repair/Setup Time
+D0075648 0714
+800C64A4 003C
+"Unlock All Tracks, Cars, & Difficulites
+80010098 FFFF
+"Enable Cheat Modifier 1 [Note 1] (add 16-bit value)
+8001009A ????
+"Enable Cheat Modifier 2 [Note 2] (add 16-bit value)
+8001009C ????
+"=Rally School Mode 
+"Perfect Score/Always Pass
+80010358 AAAA
+8001035A AAAA
+"Enable Intermediate Difficuity
+D00D50B4 0100
+800D50B4 0101
+"Enable Expert Difficulity
+D00D50E8 0100
+800D50E8 0101
+"Novice Basic Loop Complete
+D0085828 0024
+800D5348 0101
+"Novice Simple Stage Complete
+D0085828 0024
+800D537C 0101
+"Intermediate Loop Complete
+D0085828 0024
+800D55A8 0101
+"Intermediate Figure of 8 Complete
+D0085828 0024
+800D55DC 0101
+"Intermediate Stage Complete
+D0085828 0024
+800D5610 0101
+"Intermediate Wet Stage Complete
+D0085828 0024
+800D5644 0101
+"Expert Loop Complete
+D0085828 0024
+800D583C 0101
+"Expert Figure of 8 Complete
+D0085828 0024
+800D5870 0101
+"Expert Stage Complete
+D0085828 0024
+800D58A4 0101
+"Expert Wet Stage Complete
+D0085828 0024
+800D58D8 0101
+"Expert Night Stage Complete
+D0085828 0024
+800D590C 0101
+
+#College Slam#SLUS00196
+"Team 1 Score Modifier (add 16-bit value)
+80065510 ????
+"Team 1 Infinite Boost
+80078208 002F
+"Team 2 Score Modifier (add 16-bit value)
+80065520 ????
+"Team 2 Infinite Boost
+80078528 002F
+"Infinite Time During Halfs [Note 1]
+800654CC 0002
+"Infinite Shot Clock Time
+800654B8 0011
+"Have All Special Teams
+80064F50 0035
+"Team 1 No Boost
+80078208 0000
+"Team 2 No Boost
+80078528 0000
+
+#Colony Wars 2-Vengeance#SLUS00722
+"Infinite Assign Power Points
+800C4D04 0008
+"Infinite Shields
+80045FB4 0064
+"Anti Shield Lasers Never Overheat
+8012E21C 0000
+"Lasers Never Overheat
+8012E274 0000
+"Seismic Lance Never Overheat
+8012E2CC 0000
+"Infinite Time
+8011E400 230C
+"Infinite AS Missles
+8012E388 0005
+"Infinite Plasma Missles
+8012E3E0 0005
+"Enable Wraith Ship
+8005513C 0100
+"Enable Diablo Ship
+80055142 0001
+"Enable Voodoo Ship
+80055146 0100
+"Have Stage Select Open
+300A9ECA 0030
+
+#Colony Wars III-Red Sun#SLUS00866
+"Infinite Shields
+8004D478 FFFF
+"Infinite Ammo
+D0114108 000C
+8011410A 2400
+"Never Overheat
+D00CDE6C 0000
+800CDE6E 2400
+"Max Infinite Money
+8004261C C9FF
+8004261E 3B9A
+"All Parts Slot Enabled
+80042610 0009
+"Infinite H's [Note 1]
+50000904 0000
+800425EE 0063
+"Enable All Weapons During Battle
+30041B28 0001
+"Unlock All Ships
+30041B29 0001
+"Unlock All Stations
+30041B2A 0001
+"Unlock All Weapons
+30041B2B 0001
+"Enable Complete Mission Cheat
+30041B2D 0001
+"Max Kills
+80042612 0063
+80042614 0063
+80042616 0063
+"Start/Stop Timer (L1/L2 to Start & R1/R2 to Stop)
+D004D662 0005
+80036B6C A05C
+D004D662 0005
+80036B6E ACC3
+D004D662 000A
+80036B6E 2400
+"=H [Note 2]
+"Infinite H1
+800425EE 0063
+"Infinite H2
+800425F2 0063
+"Infinite H3
+800425F6 0063
+"Infinite H4
+800425FA 0063
+"Infinite H5
+800425FE 0063
+"Infinite H6
+80042602 0063
+"Infinite H7
+80042606 0063
+"Infinite H8
+8004260A 0063
+"Infinite H9
+8004260E 0063
+"H1-Weapon Modifier (add 8-bit value)
+800425EC 00??
+"H2-Weapon Modifier (add 8-bit value)
+800425F0 00??
+"H3-Weapon Modifier (add 8-bit value)
+800425F4 00??
+"H4-Weapon Modifier (add 8-bit value)
+800425F8 00??
+"H5-Weapon Modifier (add 8-bit value)
+800425FC 00??
+"H6-Weapon Modifier (add 8-bit value)
+80042600 00??
+"H7-Weapon Modifier (add 8-bit value)
+80042604 00??
+"H8-Weapon Modifier (add 8-bit value)
+80042608 00??
+"H9-Weapon Modifier (add 8-bit value)
+8004260C 00??
+"Ship Modifier (add 8-bit value)
+80042620 00??
+
+#Colony Wars#SLUS00543
+"Infinite Shield
+800463B4 00EE
+"Infinite Missiles
+80119CC0 0006
+"Infinite Anti-Shield Lasers
+80119C4C 0000
+"Infinite Secondary Weapon
+80119D28 0005
+80119D5C 0005
+800FE472 0005
+80119CF4 0005
+"Energy Weapon Never Overheats
+80119C4C 0000
+80119C80 0000
+80119CB4 0000
+80119CE8 0000
+80119D1C 0000
+"=Fast Fire 
+"AS Laser
+80119C50 0000
+"Laser
+80119C84 0000
+"EMP Gun
+80119CB8 0000
+"Scatter Gun
+80119CEC 0000
+"Max Throttle [Note 1]
+80040F26 FFFF
+"Infinite Secondaries
+80119CC0 0002
+80119CF4 0002
+80119D28 0002
+80119D5C 0002
+"Infinite Energy
+30011934 0001
+"Stage Select Open
+30011935 0001
+"Infinite Secondary Weapon
+30011936 0001
+"Super Cooled Weapons
+30011937 0001
+
+#Command & Conquer#SLUS00379
+"Infinite Money (GDI DISK ONLY!!)
+8011B964 FFFF
+"Infinite Money (NOD DISK ONLY!!)
+8011C04C FFFF
+"=Building Build Options Only 
+"Enable 1st & 2nd Building Option Modifiers (add 16-bit value)
+800D54EC ????
+"Enable 3th & 4th Building Option Modifiers (add 16-bit value)
+800D54EE ????
+"Enable 21st & 22nd Building Option Modifiers (add 16-bit value)
+800D5500 ????
+"=Infantry Build Options Only 
+"Enable 23rd Building Option Modifier (add 8-bit value)
+300D5503 00??
+"Enable 24th & 25th Building Option Modifiers (add 16-bit value)
+800D5504 ????
+"Enable 44th & 45th Building Option Modifiers (add 16-bit value)
+800D5518 ????
+"=Vehicle Build Options Only 
+"Enable 46th & 47th Building Option Modifiers (add 16-bit value)
+800D551A ????
+"Enable 66th & 67th Building Option Modifiers (add 16-bit value)
+800D552E ????
+"=Aircraft Build Options Only 
+"Enable 68th Building Option Modifier (add 8-bit value)
+300D5531 00??
+"Enable 89th & 90th Building Option Modifiers (add 16-bit value)
+800D5546 ????
+"=Special Weapons Build Options Only 
+"Enable 93rd Building Option Modifier (add 8-bit value)
+300D554A 00??
+"=GDI Disc 
+"Instant Air Strikes
+300D5548 0032
+8011B8B8 0007
+"Instant Ion Cannon
+300D5549 0033
+8011B89C 0007
+"Instant Nuclear Strike
+300D554A 0034
+8011B8D4 0017
+"Infinite Power
+8011B984 FFFF
+"Instant Build Buildings
+8011B97C FFFF
+"Instant Build Units
+8011B974 FFFF
+"Instant Build Vehicles
+8011B978 FFFF
+"Instant Build Aircraft
+8011B970 FFFF
+"Infinite Life Commando [Note 1]
+80101D58 0050
+"=GDI Build Set 
+"Buildings
+800D54EC 0302
+800D54EE 0504
+800D54F0 0706
+800D54F2 0A09
+800D54F4 0F0D
+800D54F6 1110
+800D54F8 1412
+800D54FA 1715
+"Infantry
+800D5502 1900
+800D5504 1A1C
+800D5506 1E1F
+"Vehicles
+800D551A 2721
+800D551C 2625
+800D551E 2A28
+800D5520 2D2C
+800D5522 002E
+"Aircraft
+800D5530 2F00
+800D5532 0031
+"=NOD Disc 
+"Instant Air Strikes
+300D5548 0032
+8011BFA0 0007
+"Instant Ion Cannon
+300D5549 0033
+8011BF84 0007
+"Instant Nuclear Strike
+300D554A 0034
+8011BFBC 0017
+"Infinite Power
+8011C06C FFFF
+"Instant Build Buildings
+8011C064 FFFF
+"Instant Build Units
+8011C05C FFFF
+"Instant Build Vehicles
+8011C060 FFFF
+"Instant Build Aircraft
+8011C058 FFFF
+"=Both Discs 
+"Covert Ops Menu [Note 2]
+D012FFB4 0100
+801838BC 0007
+"Infinite Energy (All Land Troops)
+800323D4 C000
+800323D6 0C07
+801F0000 0055
+801F0002 9201
+801F0006 2400
+801F0008 FFF7
+801F000A 2421
+801F000C 0002
+801F000E 1420
+801F0012 2400
+801F0014 0004
+801F0016 27FF
+801F0018 0008
+801F001A 03E0
+801F001E 2400
+"Characters Speak In Japanese
+3012FB1C 0001
+"Have Convert Operations Open (Main Menu)
+3012FCE4 0001
+
+#Command & Conquer-Red Alert#SLUS00431
+"Command (add 16-bit value)
+D01BB9D8 ????
+"=Allied Disc 
+"Infinite Money
+8002A3D4 FFFF
+"Infinite Power [Note 1]
+8002A3F0 FFFF
+"=Soviet Disc 
+"Infinite Money
+8002A798 FFFF
+"Infinite Power
+8002A7B4 FFFF
+"=Skirmish Mode 
+"Infinite Money [Note 2]
+8002CD40 FFFF
+"Infinite Power [Note 3]
+8002CD5C FFFF
+"=Indoor Mission - Allied Disc 
+"Infinite Energy for 6 Minigunners
+80034E02 0032
+80034FE2 0032
+800341D2 0032
+80031022 0032
+8002DAB2 0032
+8002DC92 0032
+"Infinite Energy for 3 Engineers
+8002E232 0019
+8002E322 0019
+8002E142 0019
+"=Build Option Modifiers (add 8-bit value)
+"Main Menu Activator 
+801BB078 0404
+801BB07A 0404
+801BB07C 0404
+801BB07E 0404
+"=Soviet Slots Sub-Menu 
+"Slot 1
+80158144 01??
+"Slot 2
+80158146 01??
+"Slot 20
+8015816A 01??
+"=Vehicle Factory Sub-Menu 
+"Slot 1
+801580F4 01??
+"Slot 2
+801580F6 01??
+"Slot 20
+8015811A 01??
+"=Infantry Sub-Mune 
+"Slot 1
+8015811C 01??
+"Slot 2
+8015811E 01??
+"Slot 20
+80158142 01??
+"=Sea Units Sub-Menu 
+"Slot 1
+801580A4 01??
+"Slot 2
+801580A6 01??
+"Slot 20
+801580CA 01??
+"=Aircraft Sub-Menu 
+"Slot 1
+801580CC 01??
+"Slot 2
+801580CE 01??
+"Slot 20
+801580F2 01??
+"=Special Weapons 
+"Infinite Spyplane [Note 4]
+8002A6B8 000A
+"Infinite Paratroopers [Note 5]
+8002A6A0 000A
+"Infinite Parabombs [Note 6]
+8002A688 000A
+"Infinite Iron Curtain [Note 7]
+8002A6D0 000B
+"Infinite Sonar Ping [Note 8]
+8002A640 000A
+"Infinite ChronoShift [Note 9]
+8002A670 000A
+"Build Anywhere [Note 10]
+D01BB9D8 0008
+801B03A6 01FF
+"=Allied Disc 
+"Infinite Power [Note 11]
+D01BB9D8 0002
+8002A3F0 FFFF
+"=Soviet Disc 
+"Infinite Power [Note 12]
+D01BB9D8 0002
+8002A7B4 FFFF
+"=Both Discs 
+"Instant Build [Note 13]
+D01BB9D8 0100
+80029850 0000
+"Instant Build (Skirmish Mode) [Note 14]
+D01BB9D8 0100
+800298C8 0000
+D01BB9D8 0100
+800298F0 0000
+"Infinite Energy (Soviet Disc Only)
+8011E6F0 C000
+8011E6F2 0C07
+801F0000 007C
+801F0002 9201
+801F0006 2400
+801F0008 FF88
+801F000A 2421
+801F000C 0002
+801F000E 1420
+801F0012 2400
+801F0014 0004
+801F0016 27FF
+801F0018 0008
+801F001A 03E0
+801F001E 2400
+"Start Off With 60 Units (Skirmish Mode)
+801B0C28 003C
+
+#Command & Conquer-Retalliation#SLUS00665
+"=Separate Disc/Mode 
+"=Allied Disc 
+"Infinite Health
+8011B258 C000
+8011B25A 0C07
+8011B25E 2400
+801F0000 007C
+801F0002 9201
+801F0006 2400
+801F0008 FF4C
+801F000A 2421
+801F000C 0002
+801F000E 1020
+801F0012 2400
+801F0014 001E
+801F0016 A602
+801F0018 1400
+801F001A 0002
+801F001C 0008
+801F001E 03E0
+801F0022 2400
+"Infinite Money
+D001008A 0004
+8002A3D4 FFFF
+D001008A 0004
+8002A3D6 03FF
+"Infinite Power
+D001008A 0004
+8002A3F0 FFFF
+D001008A 0004
+8002A3F2 00FF
+"No Power Usage
+D001008A 0004
+8002A3F4 FFFF
+"No Silos Needed
+D001008A 0004
+8002A3D0 0000
+"=Special Weapons [Note 1]
+"Instant Sonar Ping
+D001008A 0004
+8002A27C 00FF
+"Instant Atomic Bombs
+D001008A 0004
+8002A294 00FF
+"Instant ChronoShift
+D001008A 0004
+8002A2AC 00FF
+"Instant Parabombs
+D001008A 0004
+8002A2C4 00FF
+"Instant Paratroopers
+D001008A 0004
+8002A2DC 00FF
+"Instant Spy Plane
+D001008A 0004
+8002A2F4 00FF
+"Instant Iron Curtain
+D001008A 0004
+8002A30C 00FF
+"=Skirmish Mode 
+"Infinite Money
+D001008A 0004
+8002CD40 FFFF
+D001008A 0004
+8002CD42 03FF
+"Infinite Power
+D001008A 0004
+8002CD5C FFFF
+D001008A 0004
+8002CD5E 00FF
+"No Power Usage
+D001008A 0004
+8002CD60 0000
+"No Silos Needed
+D001008A 0004
+8002CD3C 0000
+"=Special Weapons [Note 1]
+"Instant Sonar Ping
+D001008A 0004
+8002CBE8 00FF
+"Instant Atomic Bombs
+D001008A 0004
+8002CC00 00FF
+"Instant ChronoShift
+D001008A 0004
+8002CC18 00FF
+"Instant Parabombs
+D001008A 0004
+8002CC30 00FF
+"Instant Paratroopers
+D001008A 0004
+8002CC48 00FF
+"Instant Spy Plane
+D001008A 0004
+8002CC60 00FF
+"Instant Iron Curtain
+D001008A 0004
+8002CC78 00FF
+"Everyone Starts With 65535 Credits
+801A9FD0 FFFF
+"Everyone Starts With 0 Credits
+801A9FD0 0000
+"Everyone Starts With 50 Units
+801A9F68 0032
+"Everyone Starts With 0 Units
+801A9F68 0000
+"Start With 0 AI Teams
+801AA004 0000
+"Reveal Map
+301B4628 000F
+"Invincible
+8002CE2A 0000
+"Color Modifier (add 8-bit value)
+801A9F00 00??
+"=Soviet Disc 
+"Infinite Health
+8011B258 C000
+8011B25A 0C07
+8011B25E 2400
+801F0000 007C
+801F0002 9201
+801F0006 2400
+801F0008 FF88
+801F000A 2421
+801F000C 0002
+801F000E 1020
+801F0012 2400
+801F0014 001E
+801F0016 A602
+801F0018 1400
+801F001A 0002
+801F001C 0008
+801F001E 03E0
+801F0022 2400
+"Infinite Money
+D001008A 0004
+8002A798 FFFF
+D001008A 0004
+8002A79A 03FF
+"Infinite Power
+D001008A 0004
+8002A7B4 FFFF
+D001008A 0004
+8002A7B6 00FF
+"No Power Usage
+D001008A 0004
+8002A7B8 0000
+"No Silos Needed
+D001008A 0004
+8002A794 0000
+"=Special Weapons [Note 1]
+"Instant Sonar Ping
+D001008A 0004
+8002A640 00FF
+"Instant Atomic Bombs
+D001008A 0004
+8002A658 00FF
+"Instant ChronoShift
+D001008A 0004
+8002A670 00FF
+"Instant Parabombs
+D001008A 0004
+8002A688 00FF
+"Instant Paratroopers
+D001008A 0004
+8002A6A0 00FF
+"Instant Spy Plane
+D001008A 0004
+8002A6B8 00FF
+"Instant Iron Curtain
+D001008A 0004
+8002A6D0 00FF
+"=Both Disc 
+"=Build Modifier (add 8-bit value)
+"Main Menu Activator 
+801B4670 0202
+801B4672 0202
+801B4674 0202
+801B4676 0202
+801B5008 0202
+801B500A 0202
+"Special Weapons Menu Activator
+801B4670 0001
+"=Allied Buildings Menu 
+"Slot 1
+801569E0 01??
+"Slot 2
+801569E2 01??
+"Slot 20
+80156A06 01??
+"=Soviet Buildings Menu 
+"Slot 1
+801569B8 01??
+"Slot 2
+801569BA 01??
+"Slot 20
+801569DE 01??
+"=Infantry Menu 
+"Slot 1
+80156990 01??
+"Slot 2
+80156992 01??
+"Slot 20
+801569B6 01??
+"=Vehicle Menu 
+"Slot 1
+80156968 01??
+"Slot 2
+8015696A 01??
+"Slot 20
+8015698E 01??
+"=Aircraft Menu 
+"Slot 1
+80156940 01??
+"Slot 2
+80156942 01??
+"Slot 20
+80156966 01??
+"=Sea Units Menu 
+"Slot 1
+80156918 01??
+"Slot 2
+8015691A 01??
+"Slot 20
+8015693E 01??
+"=Misc. 
+"Command (add 16-bit value)
+D01B5270 ????
+"Instant Build
+D001008A 0004
+8002984C 0000
+"Build Costs Nothing
+D001008A 0004
+8002985C 0000
+"Money Doesn't Decrease
+801030D4 0009
+801030D6 1420
+"Build Anywhere (Press Select)
+D01B5270 0100
+801A9616 01FF
+"Rank & Theater Status Modifier (add 8-bit value)
+801A968C 000?
+"Reveal Map
+801B4628 0001
+
+#Contender 2#SCUS94494
+"P1 Juilo Infinite Energy
+80128EF0 0076
+"P1 Juilo Infinite Stamina
+80128F08 0064
+"P1 Gabrielle Infinite Health
+8012CDB4 0076
+"P1 Gabrielle Infinite Stamina
+8012CDCC 0064
+"P1 Sergio Infinite Health
+80124A98 0076
+"P1 Sergio Infinite Stamina
+80124AB0 0064
+"P1 Mabutu Infinite Health
+8012EB00 0076
+"P1 Mabutu Infinite Stamina
+8012EB18 0064
+"P1 Greta Infinite Health
+80124A3C 0076
+"P1 Greta Infinite Stamina
+80124A54 0064
+"P1 Bruno Infinite Health
+80128FC0 0076
+"P1 Bruno Infinite Stamina
+80128FD8 0064
+"P1 Alex Infinite Health
+801226F0 0076
+"P1 Alex Infinite Stamina
+80122708 0064
+"P1 Damien Infinite Health
+8012C820 0076
+"P1 Damien Infinite Stamina
+8012C838 0064
+"P1 Butcher Infinite Health
+8011D7C0 0076
+"P1 Butcher Infinite Stamina
+8011D7D8 0064
+"P1 Shark Infinite Health
+80120114 0076
+"P1 Shark Infinite Stamina
+8012012C 0064
+"P1 Sam Infinite Health
+8011F464 0076
+"P1 Sam Infinite Stamina
+8011F47C 0064
+"P1 Jet Infinite Health
+801226A0 0076
+"P1 Jet Infinite Stamina
+801226B8 0064
+"P1 Dragon Infinite Health
+80125CF4 0082
+"P1 Dragon Infinite Stamina
+80125D0C 0064
+"P1 Kai Infinite Health
+8011FF9C 0076
+"P1 Kai Infinite Stamina
+8011FFB4 0064
+"P1 Clarice Infinite Health
+80133CB4 0076
+"P1 Clarice Infinite Stamina
+80133CCC 0064
+"P1 Spike Infinite Health
+8011F6AC 0076
+"P1 Spike Infinite Stamina
+8011F6C4 0064
+"P1 Jackal Infinite Health
+8011FC94 0076
+"P1 Jackal Infinite Stamina
+8011FCAC 0064
+"P1 Cyclops Infinite Health
+80125E10 0090
+"P1 Cyclops Infinite Stamina
+80125E28 0064
+"Unlock All Characters
+50000902 0000
+800AE958 0101
+"Unlock The Butcher
+300AE959 0001
+"Unlock Dragon Leekpai
+300AE95D 0001
+"Unlock Clarice Bahamama
+300AE960 0001
+"Unlock The Cyclops
+300AE962 0001
+"Unlock Kai Feibig
+300AE963 0001
+"Unlock Sam Roxburgh
+300AE964 0001
+"Unlock Jer Honda
+300AE965 0001
+"Unlock Shark Garcia
+300AE966 0001
+"Unlock Spike Refello
+300AE967 0001
+"Unlock Jackel
+300AE968 0001
+
+#Contender#SCUS94294
+"Infinite Health & Stamina P1
+D00669D4 0000
+800669D4 0050
+D00669D6 0000
+800669D6 3241
+D0066A1C 0000
+80066A1C 000E
+D0066A1E 0000
+80066A1E 1420
+"Infinite Health & Stamina P2
+D00669D4 0000
+800669D4 0050
+D00669D6 0000
+800669D6 3241
+D0066A1C 0000
+80066A1C 000E
+D0066A1E 0000
+80066A1E 1020
+"P1 Infinite Super Punches
+80052C2C 0001
+"P1 No Super Punches
+80052C2C 0000
+"P2 Infinite Super Punches
+800530DC 0001
+"P2 No Super Punches
+800530DC 0000
+"1-Hit K. O.
+800530D8 0000
+800530DA 0000
+
+#Contra-Legacy Of War#SLUS00288
+"Command (add 16-bit value)
+800DC844 ????
+"Infinite Lives P1
+800DC784 0009
+"P1 Invisible
+8008C9D4 0065
+"P1 Immune To All Bullets
+8008C9D4 0066
+"P1 Moon Jump
+D00DC844 0020
+8008C98A FFFE
+"Infinite Lives P2
+800DC7AC 0009
+"P2 Invisible
+8008CA9C 0065
+"P2 Immune To All Bullets
+8008CA9C 0066
+"Infinite Continues
+800DEC92 0009
+"=This Code Appears in The 2nd Weapon Slot 
+"P1 Always Have Flame Gun
+3008BC15 0004
+"P2 Always Have Flame Gun
+3008BC19 0004
+"=This Code Appears in The 3rd Weapon Slot 
+"P1 Always Have Red Laser
+3008BC16 0009
+"P1 Always Have 1-Shot to Spread
+3008BC16 0008
+"P1 Always Have Spread
+3008BC16 0003
+"P1 Always Have Blue Pulse
+3008BC16 0000
+"P2 Always Have Red Laser
+3008BC1A 0009
+"P2 Always Have 1-Shot to Spread
+3008BC1A 0008
+"P2 Always Have Spread
+3008BC1A 0003
+"P2 Always Have Blue Pulse
+3008BC1A 0000
+"=This Code Appears in The 4th Weapon Slot 
+"P1 Always Have Homing Missiles
+3008BC17 0007
+"P1 Always Have Homing Blue Missiles
+3008BC17 0006
+"P1 Always Have 3-Shot Spread
+3008BC17 0005
+"P1 Always Have Homing Laser
+3008BC17 0001
+"P2 Always Have Homing Missiles
+3008BC1B 0007
+"P2 Always Have Homing Blue Missiles
+3008BC1B 0006
+"P2 Always Have 3-Shot Spread
+3008BC1B 0005
+"P2 Always Have Homing Laser
+3008BC1B 0001
+"Infinite Bamboo [Note 1]
+8008C950 0005
+"Have All Weapons [Note 2]
+3008BA08 0002
+
+#Cool Boarders 2#SCUS94358
+"Always Place 1st & Infinite Checkpoint Time
+8009103C 0000
+80130994 0001
+"Have 50.0 in Halfpipe & Opens Alien Boarder Gray
+8009A868 5555
+8009A87C 5555
+8009A882 5555
+8009A880 5555
+"Extra Boards
+80057102 0007
+"Enable Extra Characters
+80057100 FFFF
+"Extra Tracks
+800570FC 000A
+"Mirror Mode
+80057104 0001
+"Have All Awards
+80057100 FFFF
+8005710A FFFF
+8005710C FFFF
+
+#Cool Boarders 2001#SCUS94597
+"Score Modifier (add 16-bit value)
+800A68EC ????
+"Max Score
+800A68EC E0FF
+800A68EE 05F5
+"Infinite Time
+800A7F4C 03B8
+"Infinite Misses
+80077864 0000
+"Always Place 1st
+800A6892 0000
+"Unlock All Levels
+8006BE34 FFFF
+8006BE36 FFFF
+8006BE38 FFFF
+3006BE3A 00FF
+"Unlock All Characters
+8006C2FC FFFF
+"Unlock All Boards
+3006BF0C 00FF
+"Have All Medals
+8006BE3C FFFF
+8006BE3E FFFF
+"Max Tricks
+3006BE20 0010
+"Max Jumps
+3006BE21 0010
+"Max Agility
+3006BE22 0010
+"Max Speed
+3006BE23 0010
+"Max Stamina
+3006BE24 0010
+"Max Strength
+3006BE25 0010
+
+#Cool Boarders 3#SCUS94251
+"Have 50000 Points
+8009AD9C C350
+"Always Place First & Infinite Time
+8009C694 0000
+"Have All Mountains
+80069078 0005
+"Have Extra Characters
+800BD7CC 0015
+"Have Extra Free Style Boards
+800BDDE0 000A
+"Have Extra Free Ride Boards
+800BDEF8 000A
+"Have Extra Alpine Boards
+800BE010 0003
+
+#Cool Boarders 4#SCUS94559
+"Max Score
+800A1FC8 FFFF
+800A1FCA 000E
+"Perfect Time
+8004D32A 2400
+"Unlock All Mountains
+3006757C 00FF
+"Trick Master - All Difficulties Beaten
+3006757D 00FF
+8006757E FFFF
+"Vermont - Unlock All Events
+30067580 00FF
+30067587 00FF
+"Colorado - Unlock All Events
+30067581 00FF
+30067588 00FF
+"France - Unlock All Events
+30067582 00FF
+30067589 00FF
+"Japan - Unlock All Events
+30067583 00FF
+3006758A 00FF
+"Alaska - Unlock All Events
+30067584 00FF
+3006758B 00FF
+"Everything Unlocked
+50000402 0000
+8006757C FFFF
+30067584 00FF
+30067587 00FF
+50000202 0000
+80067588 FFFF
+
+#Cool Boarders#SCUS94356
+"FAKE Infinite Time
+8006234C 0000
+"Track Modifier (add 16-bit value)
+801E35E8 ????
+"Board Modifier (add 16-bit value)
+801E35EC ????
+"Infinite Check Point Time & Stop Total Timer
+8018B44C 67A4
+801FFEE0 044B
+"Extra Boards
+801EF82E 0007
+"Extra Tracks
+801EF82A 0005
+"High Stability
+801827A4 0000
+"Always be Snowman Boarder
+801EF82E 0017
+"High Scoring
+80016210 0000
+80016212 0000
+"Have Score Sheet
+8005D0C6 FFFF
+8005D1D2 FFFF
+"Tiny Boarder
+8018EF28 0F00
+"All Awards
+801EF97C 000F
+801EFAB8 000F
+801EFBF4 000F
+801EFD30 000F
+801EFE6C 000F
+"Camera Angle 1
+8018EF30 01A0
+
+#Countdown Vampires#SLUS00898
+"=In-Box Item 
+"=In-Box Item Modifier (Part 1) (add 16-bit value)
+"Slot 1
+800B3F8A 0???
+"Slot 2
+800B3F90 0???
+"Slot 256
+800B4584 0???
+"=In-Box Max Item (Part 1)
+"Slot 1
+800B3F8E 03E7
+"Slot 2
+800B3F94 03E7
+"Slot 256
+800B4588 03E7
+"=Other 
+"=Item 
+"=Item Modifier (add 16-bit value)
+"Slot 1
+800B3F42 0???
+"Slot 2
+800B3F48 0???
+"Slot 12
+800B3F84 0???
+"=Max Item 
+"Slot 1
+800B3F46 03E7
+"Slot 2
+800B3F4C 03E7
+"Slot 12
+800B3F88 03E7
+"=Name Modifier (add 8-bit value)
+"=First Name Modifier (add 8-bit value)
+"Letter 1
+300B4596 00??
+"Letter 2
+300B4597 00??
+"Letter 12
+300B45A1 00??
+"=Last Name Modifier (add 8-bit value)
+"Letter 1
+300B45AB 00??
+"Letter 2
+300B45AC 00??
+"Letter 12
+300B45B6 00??
+"=Misc. 
+"Stop Timer
+800CEB98 0017
+"Infinite Health
+800B3F2E 0064
+"Infinite Cash
+800B3F38 270F
+"Makes The Game Think You Never Saved
+800B3EFA 0000
+"100 Rescues (Needed For Ranking S)
+800B3F34 0064
+800B3F36 0064
+
+#Courier Crisis#SLUS00442
+"Infinite Time
+800A0E24 0000
+800A1218 0000
+800A1478 0000
+800A158C 0000
+800A183A 0000
+"Infinite Health
+800A17A4 0000
+800A17A6 0000
+800A1220 0000
+800A14E8 0000
+"Infinite Money
+800AD1B4 FFFF
+"Max Pedricide
+800A1870 FFFF
+"Max Cash Collected
+800A13D4 E0FF
+800A13D6 05F5
+
+#Covert Ops-Nuclear Dawn#SLUS01151
+"Command (add 16-bit value)
+D01BDE08 ????
+"Infinite Health
+80010402 1000
+"Infinite Ammo/Items (All Weapons/Items)
+D007D718 0000
+8007D71A 2400
+"=Item Modifier (add 8-bit value)
+"Slot 1
+3001045D 00??
+"Slot 2
+3001045F 00??
+"Slot 8
+3001046B 00??
+"=Max Item 
+"Slot 1
+3001045C 00FF
+"Slot 2
+3001045E 00FF
+"Slot 8
+3001046A 00FF
+"=Item Box Modifier (add 8-bit value)
+"Slot 1
+30010470 00??
+"Slot 2
+30010472 00??
+"Slot 32
+300104AE 00??
+"=Max Item Box 
+"Slot 1
+30010470 00FF
+"Slot 2
+30010472 00FF
+"Slot 32
+300104AE 00FF
+"Always Low Timer
+800103F0 0000
+800103F2 0000
+"All Maps Complete
+50000704 0000
+30010A80 0080
+50000804 0000
+30010AA0 0080
+50000404 0000
+30010AD0 0080
+50000204 0000
+30010AE4 0080
+50000604 0000
+30010B14 0080
+"All Maps Complete87
+30010A80 0080
+30010A84 0080
+30010A88 0080
+30010A8C 0080
+30010A90 0080
+30010A94 0080
+30010A98 0080
+30010AA0 0080
+30010AA4 0080
+30010AA8 0080
+30010AAC 0080
+30010AB0 0080
+30010AB4 0080
+30010AB8 0080
+30010ABC 0080
+30010AD0 0080
+30010AD4 0080
+30010AD8 0080
+30010ADC 0080
+30010AE4 0080
+30010AE8 0080
+30010B14 0080
+30010B18 0080
+30010B1C 0080
+30010B20 0080
+30010B24 0080
+30010B28 0080
+"Have All Memos
+50003901 0001
+3001088C 0000
+"=Have Memo Modifier (add 8-bit value)
+"Slot 1
+3001088C 00??
+"Slot 2
+3001088D 00??
+"Slot 56
+300108C3 00??
+
+#Crash Bandicoot 2-Cortex Strikes Back#SCUS94154
+"Command (add 16-bit value)
+D0069948 ????
+"=Turtle Woods 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD644 6300
+"Infinite Lives
+800AD648 0400
+"Infinite Masks (On Pick-up)
+800A0D5C 0200
+"Ultra Jump [Note 1]
+800AD568 FFFF
+"Super Jump
+800AD58C FFFF
+"Moon Jump [Note 2]
+D0069948 0040
+800AD58E 0009
+"=Snow Go 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD6D8 6300
+"Infinite Lives
+800AD6DC 0400
+"Infinite Masks (On Pickup)
+800A0DF0 0200
+"Ultra Jump [Note 3]
+800AD5FC FFFF
+"Super Jump
+800AD620 FFFF
+"Moon Jump [Note 4]
+D0069948 0040
+800AD622 0009
+"=Hang Eight 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD618 6300
+"Infinite Lives
+800AD61C 0400
+"Infinite Masks (On Pickup)
+800A0D30 0200
+"Ultra Jump [Note 5]
+800AD53C FFFF
+"Super Jump
+800AD560 FFFF
+"Moon Jump [Note 6]
+D0069948 0040
+800AD658 0009
+"=The Pits 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD7A0 6300
+"Infinite Lives
+800AD7A4 0400
+"Infinite Masks (On Pickup)
+800A0EB8 0200
+"Ultra Jump [Note 7]
+800AD6C4 FFFF
+"Super Jump
+800AD6E8 FFFF
+"Moon Jump [Note 8]
+D0069948 0040
+800AD6EA 0009
+"=Crash Dash 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD3C4 6300
+"Infinite Lives
+800AD3C8 0400
+"Ultra Jump [Note 9]
+800AD2E8 FFFF
+"Super Jump
+800AD30C FFFF
+"Moon Jump [Note 10]
+D0069948 0040
+800AD30E 0009
+"=Ripper Roo Boss 
+"Infinite Lives
+800AD0C0 0400
+"=Snow Biz 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD8FC 6300
+"Infinite Lives
+800AD900 0400
+"Infinite Masks (On Pickup)
+800A1014 0200
+"Ultra Jump [Note 11]
+800AD820 FFFF
+"Super Jump
+800AD844 FFFF
+"Moon Jump [Note 12]
+D0069948 0040
+800AD846 0009
+"=Air Crash 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD7A4 6300
+"Infinite Lives
+800AD7A8 0400
+"Infinite Masks (On Pickup)
+800A0EBC 0200
+"Ultra Jump [Note 13]
+800AD6C8 FFFF
+"Super Jump
+800AD6EC FFFF
+"Moon Jump [Note 14]
+D0069948 0040
+800AD6EE 0009
+"=Bear It 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD64C 6300
+"Infinite Lives
+800AD650 0400
+"Ultra Jump [Note 15]
+800AD570 FFFF
+"Super Jump
+800AD594 FFFF
+"Moon Jump [Note 16]
+D0069948 0040
+800AD596 0009
+"=Crash Crush 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD520 6300
+"Infinite Lives
+800AD524 0400
+"Ultra Jump [Note 17]
+800AD444 FFFF
+"Super Jump
+800AD468 FFFF
+"Moon Jump [Note 18]
+D0069948 0040
+800AD46A 0009
+"=Eel Deal 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD688 6300
+"Infinite Lives
+800AD68C 0400
+"Infinite Masks (On Pickup)
+800A0DA0 0200
+"Ultra Jump [Note 19]
+800AD5AC FFFF
+"Super Jump
+800AD5D0 FFFF
+"Moon Jump [Note 20]
+D0069948 0040
+800AD5D2 0009
+"=K. Brothers Boss 
+"Infinite Masks (On Pickup)
+800A0B9C 0200
+"=Plant Food 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD4F4 6300
+"Infinite Lives
+800AD4F8 0400
+"Infinite Masks (On Pickup)
+800A0C0C 0200
+"Ultra Jump [Note 21]
+800AD418 FFFF
+"Super Jump
+800AD43C FFFF
+"Moon Jump [Note 22]
+D0069948 0040
+800AD43E 0009
+"=Sewer or Later 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD500 6300
+"Infinite Lives
+800AD504 0400
+"Ultra Jump [Note 23]
+800AD424 FFFF
+"Super Jump
+800AD448 FFFF
+"Moon Jump [Note 24]
+D0069948 0040
+800AD44A 0009
+"=Road to Ruin 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD6A8 6300
+"Infinite Lives
+800AD6AC 0400
+"Infinite Masks (On Pickup)
+800A0DC0 0200
+"Ultra Jump [Note 25]
+800AD5CC FFFF
+"Super Jump
+800AD5F0 FFFF
+"Moon Jump [Note 26]
+D0069948 0040
+800AD5F2 0009
+"=Un-Bearable 
+"Push L1 For 99 Fruit
+D0079948 0004
+800AD9D4 6300
+"Infinite Lives
+800AD9D8 0400
+"Ultra Jump [Note 27]
+800AD8F8 FFFF
+"Super Jump
+800AD91C FFFF
+"Moon Jump [Note 28]
+D0069948 0040
+800AD91E 0009
+"=Bear Down 
+"Infinite Lives
+800AD740 0400
+"=Tiny Boss 
+"Infinite Lives
+800ACF64 0400
+"=Hangin' Out 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD5A0 6300
+"Infinite Lives
+800AD5A4 0400
+"Infinite Masks (On Pickup)
+800A0CB8 0200
+"Ultra Jump [Note 29]
+800AD4C4 FFFF
+"Super Jump
+800AD4E8 FFFF
+"Moon Jump [Note 30]
+D0069948 0040
+800AD4EA 0009
+"=Diggin' It 
+"Push L1 For 99 Fruit
+D0069948 0004
+800AD9F8 6300
+"Infinite Lives
+800AD9FC 0400
+"Infinite Masks (On Pickup)
+800A1110 0200
+"Ultra Jump [Note 31]
+800AD81C FFFF
+"Super Jump
+800AD840 FFFF
+"Moon Jump [Note 32]
+D0069948 0040
+800AD842 0009
+"=Cold Hard Crash 
+"Infinite Lives
+800AD9F0 0400
+"Infinite Masks (On Pickup)
+800A1104 0200
+"Ultra Jump [Note 33]
+800AD810 FFFF
+"Super Jump
+800AD834 FFFF
+"Moon Jump [Note 34]
+D0069948 0040
+800AD836 0009
+"=Ruination 
+"Infinite Lives
+800AD830 0400
+"Infinite Masks (On Pickup)
+800A0F44 0200
+"Ultra Jump [Note 35]
+800AD750 FFFF
+"Super Jump
+800AD774 FFFF
+"Moon Jump [Note 36]
+D0069948 0040
+800AD776 0009
+"=Bee-Having 
+"Infinite Lives
+800AD9A8 0400
+"Infinite Masks (On Pickup)
+800A10BC 0200
+"Ultra Jump [Note 37]
+800AD8C8 FFFF
+"Super Jump
+800AD8EC FFFF
+"Moon Jump [Note 38]
+D0069948 0040
+800AD8EE 0009
+"=N. Gin Boss 
+"Infinite Lives
+800AD104 0400
+"=Piston It Away 
+"Infinite Lives
+800AD760 0400
+"Infinite Masks (On Pickup)
+800A19A0 0200
+"Ultra Jump [Note 39]
+800AD680 FFFF
+"Super Jump
+800AD6A4 FFFF
+"Moon Jump [Note 40]
+D0069948 0040
+800AD6A6 0009
+"=Rock It 
+"Infinite Lives
+800AD4EC 0400
+"=Night Fight 
+"Infinite Lives
+800AD6C4 0400
+"=Pack Attack 
+"Infinite Lives
+800AD4E8 0400
+"=Spaced Out 
+"Infinite Lives
+800AD6D0 0400
+"Infinite Masks (On Pickup)
+800A0DE4 0200
+"Ultra Jump [Note 41]
+800AD5F0 FFFF
+"Super Jump
+800AD614 FFFF
+"Moon Jump [Note 42]
+D0069948 0040
+800AD616 0009
+"=N. Cortex 
+"Infinite Lives
+800ACFC0 0400
+"=Misc. 
+"Have All Silver & Colored Gems [Note 43]
+8006CC28 FFFF
+8006CC2A FFFF
+8006CC2C FFFF
+8006CC2E FFFF
+"Have All Crystals [Note 44]
+8006CDA4 FFFF
+8006CDA6 FFFF
+8006CDA8 FFFF
+
+#Crash Bandicoot 3-Warped#SCUS94244
+"99 Lives
+D005BEEC F64C
+800B5D4C 6300
+D005BEEC F64C
+80068F58 6300
+"Enable All Powers
+80069178 003F
+"Have All Gems
+80068FB0 FFFF
+80068FB2 FFFF
+80068FB4 FFFF
+80068FB6 FF00
+"Have All Sapphires
+800691B4 FFFF
+800691B6 FFFF
+800691B8 FFFF
+"Have All Crystals
+8006912C FFFF
+8006912E FFFF
+80069130 FFFF
+"Hyper Mode
+8003AE8C FFFF
+
+#Crash Bandicoot#SCUS94900
+"Infinite Lives (N. Sanity Beach) Stage
+8009E538 6300
+"Infinite Lives (Jungle Rollers) Stage
+8009E59C 6300
+"Infinite Lives (The Great Gate) Stage
+8009E750 6300
+"Infinite Lives (Boulders) Stage
+8009E584 6300
+"Infinite Lives (Upstream) Stage
+8009E5DC 6300
+"Infinite Lives (Papu Papu) Stage
+8009E0D0 6300
+"Infinite Lives (Rolling Stones) Stage
+8009E610 6300
+"Infinite Lives (Hog Wild) Stage
+8009E64C 6300
+"Infinite Lives (Native Fortress) Stage
+8009E7D0 6300
+"Infinite Lives (Up The Creek) Stage
+8009E6A0 6300
+"Infinite Lives (Ripp Roo) Stage
+8009E0E0 6300
+"Infinite Lives (The Lost City) Stage
+8009E6A4 6300
+"Infinite Lives (Temple Ruins) Stage
+8009E64C 6300
+"Infinite Lives (Road To Nowhere) Stage
+8009E620 6300
+"Infinite Lives (Boulder Dash ( Stage
+8009E808 6300
+"Infinite Lives (Sunset Vista) Stage
+8009E818 6300
+"Infinite Lives (Koala Kong) Stage
+8009E198 6300
+"Infinite Lives (Heavy Machinery) Stage
+8009E828 6300
+"Infinite Lives (Cortex Power) Stage
+8009E77C 6300
+"Infinite Lives (Generator Room) Stage
+8009E54C 6300
+"Infinite Lives (Toxic Waste) Stage
+8009E4CC 6300
+"Infinite Lives (Pinstripe) Stage
+8009E190 6300
+"Infinite Lives (The High Road) Stage
+8009E5C0 6300
+"Infinite Lives (Slippery Climb) Stage
+8009E5F0 6300
+"Infinite Lives (Lights Out) Stage
+8009E508 6300
+"Infinite Lives (Fumbling In The Dark) Stage
+8009E5AC 6300
+"Infinite Lives (Jaws Of Darkness) Stage
+8009E778 6300
+"Infinite Lives (Castle Machinery) Stage
+8009E88C 6300
+"Infinite Lives (Nitrus Brio) Stage
+8009E1A0 6300
+"Infinite Lives (The Lab) Stage
+8009E52C 6300
+"Infinite Lives (The Great Hall) Stage
+8009E368 6300
+"Infinite Lives (Dr. Neo Cortex) Stage
+8009E0F8 6300
+"Gives Crash 99 Wumpa Fruit (N. Sanity Beach) Stage
+8009E534 6300
+"Gives Crash 99 Wumpa Fruit (Jungle Rollers) Stage
+8009E598 6300
+"Gives Crash 99 Wumpa Fruit (The Great Gate) Stage
+8009E750 6300
+"Gives Crash 99 Wumpa Fruit (Boulders) Stage
+8009E584 6300
+"Gives Crash 99 Wumpa Fruit (Upstream) Stage
+8009E5DC 6300
+"Gives Crash 99 Wumpa Fruit (Papu Papu) Stage
+8009E0CC 6300
+"Gives Crash 99 Wumpa Fruit (Rolling Stones) Stage
+8009E60C 6300
+"Gives Crash 99 Wumpa Fruit (Hog Wild) Stage
+8009E648 6300
+"Gives Crash 99 Wumpa Fruit (Native Fortress) Stage
+8009E7CC 6300
+"Gives Crash 99 Wumpa Fruit (Up The Creek) Stage
+8009E69C 6300
+"Gives Crash 99 Wumpa Fruit (Ripp Roo) Stage
+8009E0DC 6300
+"Gives Crash 99 Wumpa Fruit (The Lost City) Stage
+8009E6A0 6300
+"Gives Crash 99 Wumpa Fruit (Temple Ruins) Stage
+8009E648 6300
+"Gives Crash 99 Wumpa Fruit (Road To Nowhere) Stage
+8009E61C 6300
+"Gives Crash 99 Wumpa Fruit (Boulder Dash ( Stage
+8009E804 6300
+"Gives Crash 99 Wumpa Fruit (Sunset Vista) Stage
+8009E814 6300
+"Gives Crash 99 Wumpa Fruit (Koala Kong) Stage
+8009E194 6300
+"Gives Crash 99 Wumpa Fruit (Heavy Machinery) Stage
+8009E824 6300
+"Gives Crash 99 Wumpa Fruit (Cortex Power) Stage
+8009E778 6300
+"Gives Crash 99 Wumpa Fruit (Generator Room) Stage
+8009E548 6300
+"Gives Crash 99 Wumpa Fruit (Toxic Waste) Stage
+8009E4C8 6300
+"Gives Crash 99 Wumpa Fruit (Pinstripe) Stage
+8009E18C 6300
+"Gives Crash 99 Wumpa Fruit (The High Road) Stage
+8009E5BC 6300
+"Gives Crash 99 Wumpa Fruit (Slippery Climb) Stage
+8009E5EC 6300
+"Gives Crash 99 Wumpa Fruit (Lights Out) Stage
+8009E504 6300
+"Gives Crash 99 Wumpa Fruit (Fumbling In The Dark) Stage
+8009E5A8 6300
+"Gives Crash 99 Wumpa Fruit (Jaws Of Darkness) Stage
+8009E774 6300
+"Gives Crash 99 Wumpa Fruit (Castle Machinery) Stage
+8009E888 6300
+"Gives Crash 99 Wumpa Fruit (Nitrus Brio) Stage
+8009E19C 6300
+"Gives Crash 99 Wumpa Fruit (The Lab) Stage
+8009E528 6300
+"Gives Crash 99 Wumpa Fruit (The Great Hall) Stage
+8009E364 6300
+"Gives Crash 99 Wumpa Fruit (Dr. Neo Cortex) Stage
+8009E0F4 6300
+"Infinite Witch Doctors Mask (On Pickup) (N. Sanity Beach) Stage
+80092898 0200
+"Infinite Witch Doctors Mask (On Pickup) (Jungle Rollers) Stage
+80091AD4 0200
+"Infinite Witch Doctors Mask (On Pickup) (The Great Gate) Stage
+80092AB0 0200
+"Level Select
+80061948 0020
+"Reset to 99 Lives at Map
+800618EC 6300
+"Reset to 2nd Mask at Map
+800618F0 0200
+"Instant Save Menu
+800A264C 0004
+"Speed Up Game
+80034520 FFFF
+
+#Crash Bash#SCUS94570
+"=Crash Ball 
+"P1 Infinite Points
+8009D57C 000F
+"P1 No Points
+8009D57C 0000
+"P2 Infinite Points
+8009D5E8 000F
+"P2 No Points
+8009D5E8 0000
+"P3 Infinite Points
+8009D654 000F
+"P3 No Points
+8009D654 0000
+"P4 Infinite Points
+8009D6C0 000F
+"P4 No Points
+8009D6C0 0000
+"=Pogo Painter 
+"P1 Point Modifier (add 16-bit value)
+8009D57C 0???
+"P2 Point Modifier (add 16-bit value)
+8009D5E8 0???
+"P3 Point Modifier (add 16-bit value)
+8009D654 0???
+"P4 Point Modifier (add 16-bit value)
+8009D6C0 0???
+"=Jungle Bash 
+"=P1 
+"Only Need 1 Trophy To Win
+D005A6E0 0000
+8005A6E0 0002
+"Infinite Ball Points
+8009D57C 000F
+"No Ball Points
+8009D57C 0000
+"Pogo Point Modifier (add 16-bit value)
+8009D57C 0???
+"Infinite Health
+8009D562 0014
+"No Heatlh
+8009D562 0000
+"Infinite Tank Health
+800CAD50 0063
+"No Tank Health
+800CAD50 0000
+"Infinite Mines
+800CAD78 0003
+"No Mines
+800CAD78 0000
+"=P2 
+"Infinite Ball Points
+8009D5E8 000F
+"No Ball Points
+8009D5E8 0000
+"Pogo Point Modifier (add 16-bit value)
+8009D5E8 0???
+"Infinite Health
+8009D5CE 0014
+"No Heatlh
+8009D5CE 0000
+"Infinite Tank Health
+800CADF4 0063
+"No Tank Health
+800CADF4 0000
+"Infinite Mines
+800CAE1C 0003
+"No Mines
+800CAE1C 0000
+"=P3 
+"Infinite Ball Points
+8009D654 000F
+"No Ball Points
+8009D654 0000
+"Pogo Point Modifier (add 16-bit value)
+8009D654 0???
+"Infinite Health
+8009D63A 0014
+"No Heatlh
+8009D63A 0000
+"Infinite Tank Health
+800CAE98 0063
+"No Tank Health
+800CAE98 0000
+"Infinite Mines
+800CAEC0 0003
+"No Mines
+800CAEC0 0000
+"=P4 
+"Infinite Ball Points
+8009D6C0 000F
+"No Ball Points
+8009D6C0 0000
+"Pogo Point Modifier (add 16-bit value)
+8009D6C0 0???
+"Infinite Health
+8009D6A6 0014
+"No Heatlh
+8009D6A6 0000
+"Infinite Tank Health
+800CAF3C 0063
+"No Tank Health
+800CAF3C 0000
+"Infinite Mines
+800CAF64 0003
+"No Mines
+800CAF64 0000
+"=Misc. 
+"Infinite Charge (Everyone)
+800D0A3E 2400
+"Have All Treasures
+50004302 0000
+8005A6F8 0202
+"Warp Room 2 Unlocked
+3005A780 0001
+"Warp Room 3 Unlocked
+3005A792 0001
+"Warp Room 4 Unlocked
+3005A785 0001
+"Warp Room 5 Unlocked
+3005A79B 0001
+
+#Crime Killer#SLUS00576
+"Level Modifier Code (add 8-bit value)
+80120630 00??
+"=Level 
+"=Hitting The Streets 
+"More Time
+80159D62 0000
+80159D64 0000
+"Infinite Ammo
+8015AB0C 00FF
+"Infinite Shields
+8015AB10 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+8015AB14 00??
+"=Suburbia 
+"More Time
+8017B4D2 0000
+8017B4D4 0000
+"Infinite Ammo
+8017C284 00FF
+"Infinite Shields
+8017C288 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+8017C28C 00??
+"=The Break In 
+"More Time
+801A991A 0000
+801A991C 0000
+"Infinite Ammo
+801AA784 00FF
+"Infinite Shields
+801AA788 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801AA78C 00??
+"=Rapid Responce 
+"More Time
+8019C06A 0000
+8019C06C 0000
+"Infinite Ammo
+8019CE4C 00FF
+"Infinite Shields
+8019CE50 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+8019CE54 00??
+"=Cult Moves 
+"More Time
+8019F702 0000
+8019F704 0000
+"Infinite Ammo
+801A053C 00FF
+"Infinite Shields
+801A0540 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801A0544 00??
+"=The Kidnap 
+"More Time
+801AB0AA 0000
+801AB0AC 0000
+"Infinite Ammo
+801ABED4 00FF
+"Infinite Shields
+801ABED8 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801ABDEC 00??
+"=Family 
+"More Time
+801A80DC 0000
+801A80E0 0000
+"Infinite Ammo
+801A8EFC 00FF
+"Infinite Shields
+801A8F00 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801A8F04 00??
+"=Police Hijack 
+"More Time
+8019CCFE 0000
+8019CD00 0000
+"Infinite Ammo
+8019DAEC 00FF
+"Infinite Shields
+8019DAF0 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+8019DAF4 00??
+"=The Rescue 
+"More Time
+801994EE 0000
+801994F0 0000
+"Infinite Ammo
+8019A33C 00FF
+"Infinite Shields
+8019A340 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+8019A344 00??
+"=Static 
+"More Time
+801A6B8A 0000
+801A6B8C 0000
+"Infinite Ammo
+801A7A3C 00FF
+"Infinite Shields
+801A7A40 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801A7A44 00??
+"=Use of Force 
+"More Time
+801A06E6 0000
+801A06E8 0000
+"Infinite Ammo
+801A14BC 00FF
+"Infinite Shields
+801A14C0 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801A14C4 00??
+"=The Deadline 
+"More Time
+801A2062 0000
+801A2064 0000
+"Infinite Ammo
+801A2E04 00FF
+"Infinite Shields
+801A2E08 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801A2E0C 00??
+"=M.E. 
+"More Time
+801AB1F6 0000
+801AB1F8 0000
+"Infinite Ammo
+801AC064 00FF
+"Infinite Shields
+801AC068 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801AC06C 00??
+"=Freeway Racers 
+"More Time
+8015486E 0000
+80154870 0000
+"Infinite Ammo
+801555EC 00FF
+"Infinite Shields
+801555F0 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801555F4 00??
+"=Revelation 
+"More Time
+801A3FC6 0000
+801A3FC8 0000
+"Infinite Ammo
+801A4E2C 00FF
+"Infinite Shields
+801A4E30 00FF
+"Weapon Upgrade Modifier (add 8-bit value)
+801A4E34 00??
+
+#Critical Depth#SLUS00428
+"Infinite Health P1
+801DF15E 007C
+"Have All Weapons & Infinite Ammo P1
+801DF5D0 6363
+801DF5D2 6363
+801DF5D4 6363
+801DF5D6 6363
+801DF5CE 0632
+"Infinite Shield Energy P1
+801DF5B0 03E8
+"Infinite Shaker/Pilot Torpedoes P1
+801DF5D2 0909
+"Infinite Slow Poke/Remote Charges P1
+801DF5D4 0909
+"Infinite Health P2
+801DF866 00B4
+"Have All Weapons & Infinite Ammo P2
+801DFCD6 0632
+801DFCD8 6363
+801DFCDA 6363
+801DFCDC 6363
+801DFCDE 0063
+"Infinite Shield Power P2
+801DFCB8 03E8
+"Remote Charges P1
+801DF5D4 0909
+"Infinite Magnetic Suckers/Infinite Neato Torpedoes P1
+801DF5D0 0909
+"Character Modifier (add 8-bit value)
+801D0094 00??
+
+#Criticom#SLUS00046
+"P1 Invulnerable
+D005A2F8 7D24
+80059DE8 0300
+D005A2F8 7D24
+80059F58 0320
+D005A2F8 7D24
+8005A0C8 0320
+"P2 Invulnerable
+D005A2F8 7D24
+80059C78 0320
+D005A2F8 7D24
+80059B08 0320
+D005A2F8 7D24
+80059DE8 0300
+
+#Croc 2#SLUS00634
+"Joker Command (add 16-bit value)
+D00720F8 ????
+"Infinite Lives
+80076AC0 0009
+"Max Lives
+80076ABC 0009
+"Max Crystals
+D0076B4C 0000
+80076B4C 0063
+"Max Swap Meet Pete Card
+80076AC4 270F
+"Always Have Magic Eye Zoomers
+80076B78 0002
+"Always Have Key
+80076B54 0001
+"Gain a Crystal Modifier [Note 1] (add 8-bit value)
+80037F4C 00??
+"Enable Cheat Menu (Press L2 + R2)
+8006FF88 0001
+"Infinite Crystal Craze Gummi Saver [Note 2]
+80076B5C 0002
+"Infinite Five Flavors Gummi Saver [Note 3]
+80076B60 0002
+"Infinite Wild Berries Gummi Saver [Note 4]
+80076B58 0002
+"Infinite Clockwork Gobbos [Note 5]
+80076B68 0002
+
+#Croc-Legend Of The Gobbos#SLUS00530
+"Always Have 100 Crystals
+80074964 0064
+"Always Have Saved 6 Gobbos
+8007496C 0006
+"Infinite Lives
+80074FDC 0003
+"Have All 5 Colored Crystals
+80074AC8 001F
+"Always Have Gold Key
+80074AC0 0001
+"Always Have Silver Key
+80074AC4 0001
+"Have All 8 Jigsaw Pieces
+80074E6C 0008
+"Lava Will Not Kill You Code
+80074964 FFFF
+8007C0DE 0000
+"Super Jump & Invincible Level 1-1 
+800D893A 4204
+800D8910 0500
+"Super Jump & Invincible Level 1-2 
+800D56CE 4204
+800D56A4 0500
+"Super Jump & Invincible Level 1-3 
+800D58E6 4204
+800D58BC 0500
+"Super Jump & Invincible Level 1-B1 
+800D03C6 4204
+800D039C 0500
+"Super Jump & Invincible Level 1-S1 
+800D9EC6 4204
+800D9E9C 0500
+"Super Jump & Invincible Level 1-4 
+800D484A 4204
+800D4820 0500
+"Super Jump & Invincible Level 1-5 
+800D7B12 4204
+800D7AE8 0500
+"Super Jump & Invincible Level 1-6 
+800D7752 4204
+800D7728 0500
+"Super Jump & Invincible Level 1-B2 
+800D1DC2 4204
+800D1D98 0500
+"Super Jump & Invincible Level 1-S1 
+800D8A1E 4204
+800D89F4 0500
+"Super Jump & Invincible Level 2-1 
+800D595E 4204
+800D5934 0500
+"Super Jump & Invincible Level 2-2 
+800D53E2 4204
+800D53B8 0500
+"Super Jump & Invincible Level 2-3 
+800D5FD6 4204
+800D5FAC 0500
+"Super Jump & Invincible Level 2-B1 
+800D078A 4204
+800D0760 0500
+"Super Jump & Invincible Level 2-S1 
+800D2AE2 4204
+800D2AB8 0500
+"Super Jump & Invincible Level 2-4 
+800D744A 4204
+800D7420 0500
+"Super Jump & Invincible Level 2-5 
+800D7F0E 4204
+800D7EE4 0500
+"Super Jump & Invincible Level 2-6 
+800D88D2 4204
+800D88A8 0500
+"Super Jump & Invincible Level 2-B2 
+800D2106 4204
+800D20DC 0500
+"Super Jump & Invincible Level 2-S2 
+800D59DE 4204
+800D59B4 0500
+"Super Jump & Invincible Level 3-1 
+800DA7FA 4204
+800DA7D0 0500
+"Super Jump & Invincible Level 3-2 
+800DC176 4204
+800DC14C 0500
+"Super Jump & Invincible Level 3-3 
+800D9CF6 4204
+800D9CCC 0500
+"Super Jump & Invincible Level 3-B1 
+800D0856 4204
+800D082C 0500
+"Super Jump & Invincible Level 3-S1 
+800D6C0A 4204
+800D6BE0 0500
+"Super Jump & Invincible Level 3-4 
+800DBDDA 4204
+800DBDB0 0500
+"Super Jump & Invincible Level 3-5 
+800DB9CA 4204
+800DB9A0 0500
+"Super Jump & Invincible Level 3-6 
+800DB636 4204
+800DB60C 0500
+"Super Jump & Invincible Level 3-B2 
+800D0A26 4204
+800D09FC 0500
+"Super Jump & Invincible Level 3-S2 
+800D2022 4204
+800D1FF8 0500
+"=Have Levels Unlocked 
+"1-2 Underground Overground
+8007BF88 8006
+"Shoutin Lava Lava Lava
+8007BF8A 8006
+"1-B1 Lair Of The Feeble
+8007BF8C 8006
+"1-S1 The Country Caverns
+8007BF8E 8000
+"1-4 The Tumbling Dantini
+8007BF90 8000
+"1-5 Cave Fear
+8007BF92 8006
+"1-6 Darkness Descends
+8007BF94 8006
+"1-B2 Filght Night With Flibby
+8007BF96 8006
+"1-S2 The Twisty Tunnels
+8007BF98 8000
+"2-1 The Ice Of Life
+8007BF9A 8000
+"2-2 Be Wheely Carful
+8007BF9C 8006
+"2-3 Riot Brrrrr
+8007BF9E 8006
+"2-B1 Chumly's Snow Den
+8007BFA0 8006
+"2-S1 Clouds Of Ice
+8007BFA2 8000
+"2-41 Snow Him So Well
+8007BFA4 8000
+"2-5 Say No Snow
+8007BFA6 8006
+"2-6 Licence To Chill
+8007BFA8 8006
+"2-B2 Demon Itsy's Ice Palace
+8007BFAA 8006
+"2-S2 Ice Bridge To Eternity
+8007BFAC 8000
+"3-1 Lights Camel Action
+8007BFAE 8000
+"3-2 Mud Pit Mania
+8007BFB0 8006
+"3-3 Goin Underground
+8007BFB2 8006
+"3-B1 The Deadly Tank Of Neptuna
+8007BFB4 8006
+"3-S1 Arabian Heights
+8007BFB6 8000
+"3-4 S& & Freedom
+8007BFB8 8000
+"3-5 Leap Of Faith
+8007BFBA 8006
+"3-6 Life's A Beach
+8007BFBC 8006
+"3-B2 Cactus Jack's Ranch
+8007BFBE 8006
+"3-S2 Defeato Burrito
+8007BFC0 8000
+"4-1 The Tower Of Power
+8007BFC2 8000
+"4-2 Hassle In The Castle
+8007BFC4 8006
+"4-3 Dungeon Of Defright
+8007BFC6 8006
+"4-B1 Fosley's Freaky Donut
+8007BFC8 8006
+"4-S1 Smash & See
+8007BFCA 8000
+"4-4 Ballistic Meg's Fairway
+8007BFCC 8000
+"4-5 Snipe Smiftly's Nicked Ride
+8007BFCE 8006
+"4-6 Panic At Platform Pete's Lair
+8007BFD0 8006
+"4-B2 Baron Dante's Funky Inferno
+8007BFD2 8006
+"4-S2 Jailhouse Croc
+8007BFD4 8000
+"5-1 & So The Adventure Returns
+8007BFD6 8000
+"5-2 Diet Brrrrr
+8007BFD8 C000
+"5-3 Trail On The Nile
+8007BFDA 8000
+"5-4 Crox Interactive
+8007BFDC 8000
+"5-B Secret Sentinel
+8007BFDE 8000
+
+#Crossroad Crisis#SLUS01342
+"Infinite Lives
+8011EFF8 0003
+"Extra Lives
+80055614 0001
+"Infinite Time
+800272E6 2400
+"Extra Points 1 Modifier (add 16-bit value)
+800246DC ????
+"Extra Points 2 Modifier (add 16-bit value)
+800246E8 ????
+"Goal Appears Immediately
+80023610 0000
+80023612 2402
+80023614 4330
+80023616 AE02
+
+#Crow-A City of Angels#SLUS00242
+"Infinite Heath
+80087862 007F
+8008313A B712
+
+#Crusader-No Remorse#SLUS00268
+"Infinite Health
+801457D0 0078
+"Infinite Magazines (RP 32)
+301457C8 000A
+"Infinite Rounds (RP 32)
+301457C9 000A
+"Infinite Detpacs
+80145762 000A
+"Infinite Spider Bombs
+8014576E 000A
+"Infinite Landmines
+8014576A 000A
+"Infinite Medi Kits
+80145772 000A
+"Infinite Batteries & Energy Cells
+80145776 000A
+"Infinite Blast Pacs
+8014577A 000A
+"Infinite Money
+801457D8 FFFF
+"Infinite Magazines (SG-A1)
+301457CC 000A
+"Infinite Rounds (SG-A1)
+301457CD 000A
+"Infinite Magazines (AR-7)
+301457C0 000A
+"Infinite Rounds (AR-7)
+301457C1 000A
+"Infinite Magazines (GL-303)
+301457C4 000A
+"Infinite Rounds (GL-303)
+301457C5 000A
+"Infinite Magazines (JL-2)
+301457BC 000A
+"Infinite Rounds (JL-2)
+301457BD 000A
+"Infinite Datalinks (Useless,only need one)
+80145766 000A
+"Have EMP Inhibitor
+80145752 0001
+"Have Brown Box?
+80145758 0001
+
+#Crusaders Of Might And Magic#SLUS00799
+"Command (add 16-bit value)
+D00D3BAC ????
+"Infinite Mana
+801051E0 03E7
+"Max Mana
+801051E4 03E7
+"Infinite Health
+800F1D0C 03E7
+"Max Health
+800F4E28 03E7
+"Infinite Gold
+801051D0 FFFF
+"Score Modifier (add 16-bit value)
+8010522C ????
+"Max Score
+8010522C FFFF
+8010522E 7FFF
+"Max Strength
+800F1D0E FFFF
+"Max Accurracy
+800F1D10 FFFF
+"Next Level Always 1 Away
+80105134 0001
+"Exp Modifier (add 16-bit value)
+80105130 ????
+"Have Battle Axe
+8010513C 0001
+"Have Long Sword
+8010513E 0001
+"Have Mace
+80105140 0001
+"Have War Hammer
+80105142 0001
+"Have Throwing Axe
+8010515C 0001
+"Have Spiked Shield
+80105172 0001
+"Have Kite Shield
+80105174 0001
+"Have Tower Shield
+80105176 0001
+"Have Exploding Gem
+80105160 0001
+"Have Fire Gem
+801051AE 03E7
+"Have Earth Gem
+801051B0 03E7
+"Have Air Gem
+801051B2 03E7
+"Have Water Gem
+801051B4 03E7
+"Have Spirit Gem
+801051B6 03E7
+"Have Body Gem
+801051B8 03E7
+"Have Mind Gem
+801051BA 03E7
+"Have Light Gem
+801051BC 03E7
+"Have Dark Gem
+801051BE 03E7
+"Have Sceptar Of Regency
+801051DC 03E7
+"Have Thundermaker Air Weapon
+8010519C 0001
+"Have Bone Mender Body Weapon
+8010519E 0001
+"Have Nightbringer Dark Weapon
+801051A0 0001
+"Have Oakheart Earth Weapon
+801051A2 0001
+"Have Flamefang Fire Weapon
+801051A4 0001
+"Have Star of Erathia Light Weapon
+801051A6 0001
+"Have Razor's Edige Mind Weapon
+801051A8 0001
+"Have Soul Bastion Spirit Weapon
+801051AA 0001
+"Have Ice Claw Water Weapon
+801051AC 0001
+"Have Healing Potions
+801051D2 03E7
+"Have Mana Potions
+801051D4 03E7
+"Have Restore Potions
+801051D6 03E7
+"Have Vanish Dusts
+801051D8 03E7
+"Have Dasher Nuts
+801051DA 03E7
+"=Spells May Not Function Properly 
+"Have Fire Storm
+30105449 0001
+"Have Lightning
+3010544A 0001
+"Have Holy Wrath
+3010544B 0001
+"Have Deadly Swarm
+3010544C 0001
+"Have Mana Shield
+3010544D 0001
+"Have Heroism
+3010544E 0001
+"Have Regeneration
+3010544F 0001
+"Have Snap Freeze
+30105450 0001
+"Have Gold ?
+30105451 0001
+"Have Red Potion ?
+30105452 0001
+"=More Misc. 
+"Have All Armor Talismans
+50000901 0000
+30105563 0001
+"Have All Shield Runes
+50000901 0000
+3010556F 0001
+"Have All Shields
+50000302 0000
+80105172 0001
+"Have All Spells
+50000801 0000
+30105649 0001
+"Special Difficulty (Must Start New Game)
+800D188A 0003
+"Have Black Guard Armor
+801051F0 0004
+"Infinite Gems
+50000902 0000
+801051AE 2710
+"Infinite Items
+50000502 0000
+801051D2 2710
+"Infinite Weapons
+50000402 0000
+8010513C 0001
+50000204 0000
+8010515C 2710
+"Max Spell Ranks
+50000801 0000
+30105654 0004
+"Max Weapon Ranks
+50000401 0000
+3010565E 000E
+50000202 0000
+3010566E 000E
+"All Weapon Talismans
+50000902 0000
+8010519C 0001
+
+#Crypt Killer#SLUS00335
+"Infinite Lives P1
+800FC174 0005
+"Infinite Smart Bombs P1
+800FC17A 0009
+"Weapon Modifier P1 (add 8-bit value)
+800FC178 00??
+"Infinite Lives P2
+800FC1D0 0005
+"Infinite Smart Bombs P2
+800FC1D6 0009
+"Weapon Modifier P2 (add 8-bit value)
+800FC1D4 00??
+"Infinite Credits
+8002278E 0601
+
+#CTR-Crash Team Racing#SCUS94426
+"Complete Adventure Mode Quickly
+50000A02 0000
+8008FBA2 FFFF
+"Unlock All Everything
+50000302 0000
+8008E6EC FFFF
+"Time Always 0:00:00
+80035012 2400
+"Activate Cheat Modifier 1 (add 16-bit value)
+80096B28 ????
+"Activate Cheat Modifier 2 (add 16-bit value)
+80096B2A ????
+"Freezes Clock in All Timed Races/Prevents Bosses From Using Power-Ups
+80098830 0000
+"Have All Awards
+8008FBA4 FFFF
+8008FBA6 FFFF
+8008FBA8 FFFF
+8008FBAA FFFF
+8008FBAC FFFF
+8008FBAE FFFF
+8008FBB0 FFFF
+8008FBB2 FFFF
+
+#CTR-Crash Test Racing Demo#SCUS94459
+"Reverse Joker Command P1 (add 16-bit value)
+D00A4542 ????
+"Reverse Joker Command P2 (add 16-bit value)
+D00A4564 ????
+"Reverse Joker Command P3 (add 16-bit value)
+D00A4686 ????
+"Reverse Joker Command P4 (add 16-bit value)
+D00A45A8 ????
+"=1-Player Game 
+"Start on Last Lap/Always First
+D01F6980 0000
+801F6980 0002
+"Max Fruit
+801F6970 007F
+"Weapon Modifier (add 8-bit value)
+D01F6974 000F
+801F6974 00??
+"Have Nitro (Press L1 + L2)
+D00A4542 FAFF
+801F6974 0000
+"Have Cannonball (Press L1 + Triangle)
+D00A4542 EBFF
+801F6974 0001
+"Have Homing Missile (Press L1 + Square)
+D00A4542 7BFF
+801F6974 0002
+"Have TNT Box (Press L2 + Triangle)
+D00A4542 EEFF
+801F6974 0003
+"Have Green Bottle (Press L2 + Square)
+D00A4542 7EFF
+801F6974 0004
+"Have Super Spring (Press L1 + R1)
+D00A4542 F3FF
+801F6974 0005
+"Have First Aid Shield (Press L2 + R1)
+D00A4542 F6FF
+801F6974 0006
+"Have Voodoo Mask (Press R1 + Triangle)
+D00A4542 E7FF
+801F6974 0007
+"Have Timer (Press R1 + Square)
+D00A4542 77FF
+801F6974 0008
+"Have Lightning Ball (Press Triangle + Square)
+D00A4542 6FFF
+801F6974 0009
+"Time is 0:00:00
+D0089AB8 0003
+8003A49A 2400
+"=2-Player Multi-Player 
+"P1 - Last Lap/Always 1st
+D01F41A0 0000
+801F41A0 0002
+"P1 - Max Fruit
+801F4190 007F
+"P1 - Weapon Modifier (add 8-bit value)
+D01F4194 000F
+801F4194 00??
+"P1 - Have Nitro (Press L1 + L2)
+D00A4542 FAFF
+801F4194 0000
+"P1 - Have Cannonball (Press L1 + Triangle)
+D00A4542 EBFF
+801F4194 0001
+"P1 - Have Homing Missile (Press L1 + Square)
+D00A4542 7BFF
+801F4194 0002
+"P1 - Have TNT Box (Press L2 + Triangle)
+D00A4542 EEFF
+801F4194 0003
+"P1 - Have Green Bottle (Press L2 + Square)
+D00A4542 7EFF
+801F4194 0004
+"P1 - Have Super Spring (Press L1 + R1)
+D00A4542 F3FF
+801F4194 0005
+"P1 - Have First Aid Shield (Press L2 + R1)
+D00A4542 F6FF
+801F4194 0006
+"P1 - Have Voodoo Mask (Press R1 + Triangle)
+D00A4542 E7FF
+801F4194 0007
+"P1 - Have Timer (Press R1 + Square)
+D00A4542 77FF
+801F4194 0008
+"P1 - Have Lightning Ball (Press Triangle + Square)
+D00A4542 6FFF
+801F4194 0009
+"P2 - Start on Last Lap
+D01F4A28 0000
+801F4A28 0002
+"P2 - Max Fruit
+801F4A18 007F
+"P2 - Weapon Modifier (add 8-bit value)
+D01F4A1C 000F
+801F4A1C 00??
+"P2 - Have Nitro (Press L1 + L2)
+D00A4564 FAFF
+801F4A1C 0000
+"P2 - Have Cannonball (Press L1 + Triangle)
+D00A4564 EBFF
+801F4A1C 0001
+"P2 - Have Homing Missile (Press L1 + Square)
+D00A4564 7BFF
+801F4A1C 0002
+"P2 - Have TNT Box (Press L2 + Triangle)
+D00A4564 EEFF
+801F4A1C 0003
+"P2 - Have Green Bottle (Press L2 + Square)
+D00A4564 7EFF
+801F4A1C 0004
+"P2 - Have Super Spring (Press L1 + R1)
+D00A4564 F3FF
+801F4A1C 0005
+"P2 - Have First Aid Shield (Press L2 + R1)
+D00A4564 F6FF
+801F4A1C 0006
+"P2 - Have Voodoo Mask (Press R1 + Triangle)
+D00A4564 E7FF
+801F4A1C 0007
+"P2 - Have Timer (Press R1 + Square)
+D00A4564 77FF
+801F4A1C 0008
+"P2 - Have Lightning Ball (Press Triangle + Square)
+D00A4564 6FFF
+801F4A1C 0009
+"=4-Player Multi-Player 
+"P1 - Start on Last Lap
+D01D7EE0 0000
+801D7EE0 0002
+"P1 - Max Fruit
+801D7ED0 0063
+"P1 - Weapon Modifier (add 8-bit value)
+D01D7ED4 000F
+801D7ED4 00??
+"P1 - Have Nitro (Press L1 + L2)
+D00A4542 FAFF
+801D7ED4 0000
+"P1 - Have Cannonball (Press L1 + Triangle)
+D00A4542 EBFF
+801D7ED4 0001
+"P1 - Have Homing Missile (Press L1 + Square)
+D00A4542 7BFF
+801D7ED4 0002
+"P1 - Have TNT Box (Press L2 + Triangle)
+D00A4542 EEFF
+801D7ED4 0003
+"P1 - Have Green Bottle (Press L2 + Square)
+D00A4542 7EFF
+801D7ED4 0004
+"P1 - Have Super Spring (Press L1 + R1)
+D00A4542 F3FF
+801D7ED4 0005
+"P1 - Have First Aid Shield (Press L2 + R1)
+D00A4542 F6FF
+801D7ED4 0006
+"P1 - Have Voodoo Mask (Press R1 + Triangle)
+D00A4542 E7FF
+801D7ED4 0007
+"P1 - Have Timer (Press R1 + Square)
+D00A4542 77FF
+801D7ED4 0008
+"P1 - Have Lightning Ball (Press Triangle + Square)
+D00A4542 6FFF
+801D7ED4 0009
+"P2 - Start on Last Lap
+D01D8768 0000
+801D8768 0002
+"P2 - Max Fruit
+801D8758 0063
+"P2 - Weapon Modifier (add 8-bit value)
+D01D875C 000F
+801D875C 00??
+"P2 - Have Nitro (Press L1 + L2)
+D00A4564 FAFF
+801D875C 0000
+"P2 - Have Cannonball (Press L1 + Triangle)
+D00A4564 EBFF
+801D875C 0001
+"P2 - Have Homing Missile (Press L1 + Square)
+D00A4564 7BFF
+801D875C 0002
+"P2 - Have TNT Box (Press L2 + Triangle)
+D00A4564 EEFF
+801D875C 0003
+"P2 - Have Green Bottle (Press L2 + Square)
+D00A4564 7EFF
+801D875C 0004
+"P2 - Have Super Spring (Press L1 + R1)
+D00A4564 F3FF
+801D875C 0005
+"P2 - Have First Aid Shield (Press L2 + R1)
+D00A4564 F6FF
+801D875C 0006
+"P2 - Have Voodoo Mask (Press R1 + Triangle)
+D00A4564 E7FF
+801D875C 0007
+"P2 - Have Timer (Press R1 + Square)
+D00A4564 77FF
+801D875C 0008
+"P2 - Have Lightning Ball (Press Triangle + Square)
+D00A4564 6FFF
+801D875C 0009
+"P3 - Start on Last Lap
+D01D8FF0 0000
+801D8FF0 0002
+"P3 - Max Fruit
+801D8FE0 0063
+"P3 - Weapon Modifier (add 8-bit value)
+D01D8FE4 000F
+801D8FE4 00??
+"P3 - Have Nitro (Press L1 + L2)
+D00A4586 FAFF
+801D8FE4 0000
+"P3 - Have Cannonball (Press L1 + Triangle)
+D00A4586 EBFF
+801D8FE4 0001
+"P3 - Have Homing Missile (Press L1 + Square)
+D00A4586 7BFF
+801D8FE4 0002
+"P3 - Have TNT Box (Press L2 + Triangle)
+D00A4586 EEFF
+801D8FE4 0003
+"P3 - Have Green Bottle (Press L2 + Square)
+D00A4586 7EFF
+801D8FE4 0004
+"P3 - Have Super Spring (Press L1 + R1)
+D00A4586 F3FF
+801D8FE4 0005
+"P3 - Have First Aid Shield (Press L2 + R1)
+D00A4586 F6FF
+801D8FE4 0006
+"P3 - Have Voodoo Mask (Press R1 + Triangle)
+D00A4586 E7FF
+801D8FE4 0007
+"P3 - Have Timer (Press R1 + Square)
+D00A4586 77FF
+801D8FE4 0008
+"P3 - Have Lightning Ball (Press Triangle + Square)
+D00A4586 6FFF
+801D8FE4 0009
+"P4 - Start on Last Lap
+D01D9878 0000
+801D9878 0002
+"P4 - Max Fruit
+801D9868 0063
+"P4 - Weapon Modifier (add 8-bit value)
+D01D986C 000F
+801D986C 00??
+"P4 - Have Nitro (Press L1 + L2)
+D00A45A8 FAFF
+801D986C 0000
+"P4 - Have Cannonball (Press L1 + Triangle)
+D00A45A8 EBFF
+801D986C 0001
+"P4 - Have Homing Missile (Press L1 + Square)
+D00A45A8 7BFF
+801D986C 0002
+"P4 - Have TNT Box (Press L2 + Triangle)
+D00A45A8 EEFF
+801D986C 0003
+"P4 - Have Green Bottle (Press L2 + Square)
+D00A45A8 7EFF
+801D986C 0004
+"P4 - Have Super Spring (Press L1 + R1)
+D00A45A8 F3FF
+801D986C 0005
+"P4 - Have First Aid Shield (Press L2 + R1)
+D00A45A8 F6FF
+801D986C 0006
+"P4 - Have Voodoo Mask (Press R1 + Triangle)
+D00A45A8 E7FF
+801D986C 0007
+"P4 - Have Timer (Press R1 + Square)
+D00A45A8 77FF
+801D986C 0008
+"P4 - Have Lightning Ball (Press Triangle + Square)
+D00A45A8 6FFF
+801D986C 0009
+
+#Cubix Robots For Everyone-Race 'N Robots#SLUS01422
+"Infinite Credits
+8009572E 270F
+"P1 Weapon Modifier (add 8-bit value)
+30095724 00??
+"=Coin Race Mode 
+"Max Coins P1
+8009572C 0063
+"Max Coins P2
+8009579C 0063
+"Max Coins P3
+8009580C 0063
+"Max Coins P4
+8009587C 0063
+"Unlock Picture Gallery
+50000902 0000
+80095740 0001
+
+#Cyber Sled#SLUS00008
+"Infinite Missiles
+8014A648 0005
+"Infinite Shields
+8014A662 1000
+
+#Cyber Speed#SLUS00116
+"Infinite Speed Boost
+800977A0 0004
+"Always Place 1st
+800977D8 0001
+"No Beam Stress Produced
+800976C4 0000
+"Infinite Strength
+80097784 2700
+
+#Cyber Tiger#SLUS01004
+"Enable All Courses & Characters
+8008D824 FFFF
+"Only Record One Shot P1
+800C0E44 0000
+"Infinite Super Balls P1
+300CCD40 0063
+"Infinite Eye Balls P1
+300CCD41 0063
+"Infinite Mulligan Balls P1
+300CCD42 0063
+"Infinite Gum Balls P1
+300CCD43 0063
+"Infinite Power Balls P1
+300CCD44 0063
+"Infinite Ghost Balls P1
+300CCD45 0063
+"Infinite Mystery Balls P1
+300CCD46 0063
+"Infinite Spin Balls P1
+300CCD47 0063
+"Have All Power-Up Balls P1
+50000402 0000
+800CCD40 6363
+"Only Record One Shot P2
+800C0F30 0000
+"Infinite Super Balls P2
+300CCEAC 0063
+"Infinite Eye Balls P2
+300CCEAD 0063
+"Infinite Mulligan Balls P2
+300CCEAE 0063
+"Infinite Gum Balls P2
+300CCEAF 0063
+"Infinite Power Balls P2
+300CCEB0 0063
+"Infinite Ghost Balls P2
+300CCEB1 0063
+"Infinite Mystery Balls P2
+300CCEB3 0063
+"Infinite Spin Balls P2
+300CCEB2 0063
+"Have All Power-Up Balls P2
+50000402 0000
+800CCEAC 6363
+"Only Record One Shot P3
+800C101C 0000
+"Infinite Super Balls P3
+300CD018 0063
+"Infinite Eye Balls P3
+300CD019 0063
+"Infinite Mulligan Balls P3
+300CD01A 0063
+"Infinite Gum Balls P3
+300CD01B 0063
+"Infinite Power Balls P3
+300CD01C 0063
+"Infinite Ghost Balls P3
+300CD01D 0063
+"Infinite Mystery Balls P3
+300CD01F 0063
+"Infinite Spin Balls P3
+300CD01E 0063
+"Have All Power-Up Balls P3
+50000402 0000
+800CD01A 6363
+"Only Record One Shot P4
+800C1108 0000
+"Infinite Super Balls P4
+300CD184 0063
+"Infinite Eye Balls P4
+300CD185 0063
+"Infinite Mulligan Balls P4
+300CD186 0063
+"Infinite Gum Balls P4
+300CD187 0063
+"Infinite Power Balls P4
+300CD188 0063
+"Infinite Ghost Balls P4
+300CD189 0063
+"Infinite Mystery Balls P4
+300CD18B 0063
+"Infinite Spin Balls P4
+300CD18A 0063
+"Have All Power-Up Balls P4
+50000402 0000
+800CD184 6363
+
+#Cyberia#SLUS00053
+"Infinite Shooting (Skeet Shoot)
+80067C0C FF64
+"Infinite Energy (Skeet Shoot)
+80067C10 0007
+"Infinite Energy & Shooting (All Flying)
+80068334 0190
+"Kills All Viruses [Note 1]
+8006832C 0009
+"Open All Levels
+30052DB4 0001
+30052DB5 0001
+30052DB6 0001
+30052DB7 0001
+30052DC1 0001
+30052DC2 0001
+30052DC3 0001
+30052DC4 0001
+30052DC5 0001
+30052DC8 0001
+30052DC9 0001
+30052DCA 0001
+30052DCB 0001
+30052DCC 0001
+30052DCD 0001
+30052DCE 0001
+30052DD2 0001
+30052DD3 0001
+30052DD4 0001
+30052DD5 0001
+30052DD6 0001
+30052DDD 0001
+30052DE0 0001
+
+.end

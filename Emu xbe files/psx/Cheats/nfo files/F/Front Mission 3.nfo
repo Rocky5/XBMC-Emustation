@@ -1,0 +1,475 @@
+Quantity Digits
+Backpack Item Digits
+
+Quantity Digits to Accompany Equipped/Backpack Item Modifier Codes
+00 - Blank
+01 - Land Mine
+02 - Area Mine
+03 - Grenade
+04 - Missile
+05 - Repair
+06 - Repair Mx
+07 - Restore Lo
+08 - Restore Hi
+09 - Restore Mx
+0A - Recover
+0B - Recover Mx
+0C - Shield Rpr
+0D - Shield Mx
+
+Battle Skill Digits
+
+Quantity Digits to Accompany Equipped/Battle Skill Modifier Codes
+00 - Blank
+01 - Blackout
+02 - Brace I
+03 - Brace II
+04 - Initiative I
+05 - Initiative II
+06 - Initiative III
+07 - AP-30%
+08 - AP-60%
+09 - AP-0
+0A - Evade I Up
+0B - Evade 2 Up
+0C - Evade-MAX
+0D - Def-C1 Up
+0E - Def-C2 Up
+0F - Def-CMAX
+10 - E-Def-C1 Down
+11 - E-Def-C2 Down
+12 - E-Def-Cnul
+13 - E-Evade 1 Down
+14 - E-Evade 2 Down
+15 - E-Evade Nul
+16 - E-Acc1 Down
+17 - E-Acc2 Down
+18 - E-Acc Nul
+19 - E-Skill 1
+1A - E-Skill 2
+1B - E-Skill 3
+1C - Chaff
+1D - Guard-B
+1E - Avoid20
+1F - Avoid40
+20 - Avoid80
+21 - DMGFix100
+22 - DMGFix200
+23 - DMGFix400
+24 - Prvnt Loss
+25 - Escape
+26 - AutoCountr
+27 - Auto I
+28 - Auto II
+29 - Rvnge-Body
+2A - Rvnge-Same
+2B - Revenge I
+2C - Revenge II
+2D - Revenge III
+2E - Dbl Punch I
+2F - Dbl Punch II
+30 - Dbl Shot I
+31 - Dbl Shot II
+32 - Dbl Assault
+33 - Salvo
+34 - Hrd Knocks
+35 - Tackle I
+36 - Tackle II
+37 - Tackle III
+38 - ShieldAtk I
+39 - ShieldAtk II
+3A - ShieldAtk III
+3B - ROFUP I
+3C - ROFUP II
+3D - ROFUP III
+3E - Body Smash
+3F - Arm Smash
+40 - Leg Smash
+41 - Rndm Smash
+42 - Aim Body
+43 - Aim-Arm
+44 - Aim-Leg
+45 - Aim
+46 - Skill+1 Up
+47 - Skill+2 Up
+48 - Skill+3 Up
+49 - Melee I
+4A - Melee II
+4B - Melee III
+4C - Hit or Miss
+4D - Zoom I
+4E - Zoom II
+4F - Zoom III
+50 - Stun Punch
+51 - Panic Shot
+52 - Eject Punch
+53 - Pilot DMG I
+54 - Pilot DMG II
+55 - Pilot DMG III
+56 - Fast Atk
+57 - ToppleShot
+58 - TopplePnch
+59 - Pilot Eject
+5A - EXPx2
+5B - EXPx3
+5C - EXPx4
+5D - BkupMelee
+5E - BkupFire
+5F - FiringSquad
+60 - GangBeating
+
+Class Digits
+
+Quantity Digits to Accompany Class Modifier Codes
+00 - N
+01 - P
+02 - I
+04 - F
+
+Def-C Class Digits
+
+Quantity Digits to Accompany Equipped Current Def-C Class Modifier Codes
+00 - Medal
+01 - Anti-P
+02 - Anti-I
+04 - Anti-F
+
+Part Name Digits
+
+Quantity Digits to Accompany Part Name Modifier Codes
+000 - Blank
+001 - Hardblow
+002 - Nothing
+003 - Bone Buster
+004 - Fear Fist
+005 - Mk10 Fist
+006 - Mk12 Fist
+007 - Fatal Buster
+00B - Mk16 Fist
+00C - Mk20 Fist
+00D - Max Weight
+00E - Big Buster
+00F - Attack Fist
+010 - Assault Fist
+011 - Heavy Fist
+012 - Heavy Weight
+013 - War Hammer
+014 - Cleave Axe
+015 - Mk9 Baton
+016 - Mk13 Baton
+017 - Venus
+018 - Riot Baton
+019 - Riot Baton
+01A - Sharp Spike
+01B - Heavy Spike
+01C - Mk18 Spike
+01D - Mk22 Spike
+01E - Last Strike
+01F - Franbar FF
+020 - Mk9 Sniper
+021 - Laoxing 6
+022 - Laohu 3
+023 - Mk11 Sniper
+024 - Barcam RR
+025 - Einband
+026 - Scarab F2
+027 - Mk8 Rifle
+028 - 80mm Gun
+029 - Kodo SN990
+02A - DGS-25
+02B - Mingda 2
+02C - Huida 3
+02D - Arc Barrel 4
+02E - Achin 51
+02F - Nissai 30
+030 - Shunda 4
+031 - Beckwood M9
+032 - Nissai 90MF
+033 - 17.5mm MG
+034 - 25mm MG
+035 - 30.2mm MG
+036 - 20mm MG
+037 - 27mm MG
+038 - 20mm MG
+039 - 12mm MG
+03A - 17mm MG
+03B - 17mm MG
+03C - 30mm MG
+03D - 32mm MG
+03E - 17.5mm MG
+03F - 20mm MG
+040 - 7.7mm MG
+041 - 17.5mm MG
+042 - 30mm MG
+043 - 17.5mm MG
+044 - 32mm MG
+045 - 27mm MG
+046 - Odin M98
+047 - SPPG 14
+048 - Chongdu 2
+049 - Chongta 3
+04A - Desoto M300
+04B - Chongte 0
+04C - Chongchang 1
+04D - Heat Stream
+04E - Huoliu 1
+04F - Huosai 2
+050 - Huoyao 3
+051 - Hot Gazel
+052 - Quill
+053 - Wagtail 2
+054 - Yunsheng 34
+055 - Zhiniao 50
+056 - Bjariger
+057 - Canary 2
+058 - Miner AT
+059 - Huoji 22
+05A - Drozel
+05B - Nightingale
+05C - Starling
+05D - Yunsheng 38
+05E - Zhiniao 61
+05F - Bantam
+060 - Huoji 34
+061 - Nothing
+062 - Yunsheng 39
+063 - Yunsheng 42
+064 - Kongsheng 2
+065 - Wagtail 1
+066 - Miner AT1
+067 - Kongsheng 1
+068 - Zhiniao 62
+069 - Yunsheng 44
+06A - 120mm Gun
+06B - Nothing
+06C - Nothing
+06D - 160mm Gun
+06E - Nothing
+06F - 120mm Gun
+070 - 130mm Gun
+071 - 100mm Gun
+072 - 40mm Gun
+073 - 100mm Gun
+074 - 80mm Gun
+075 - 92mm Gun
+076 - 130mm Gun
+077 - 130mm Gun
+078 - 130mm Gun
+079 - Exp Beam
+07A - P-Rifle
+07B - Exp P-Gun
+07C - Basic P-Gun
+07D - Hvy P-Gun
+07E - Wanzerfaust
+07F - Type 10 GR
+080 - Type 13 GR
+081 - Type 14 GR
+082 - Fause GGR
+083 - Type 15 GR
+084 - Type 10 GR
+085 - Type 13 GR
+086 - Type 15 GR
+087 - Type 13 GR
+088 - GGR 52
+089 - Type 13 GR
+08A - Mk6 Shield
+08B - SN-100G
+08C - Buckler
+08D - Hvy Shield
+08E - SN-107G
+08F - Riot Shield
+090 - Lite Shield
+091 - Def Shield
+092 - Last Defense
+093 - Mk10 Shield
+094 - BX002
+095 - BX056
+096 - BX090
+097 - BPT3A
+098 - BPT12B
+099 - BPT9MAX
+09A - Nothing
+09B - Nothing
+09C - Rucksack L
+09D - Placid
+09E - Mk3 Pack
+09F - Mk6 Pack
+0A0 - Mk5 E-Pack
+0A1 - Mk7 E-Pack
+0A2 - Mk8 E-Pack
+0A3 - Pistol
+0A4 - AT Rifle
+0A5 - Zenislev
+0A6 - Vinedrai
+0A7 - Whisk
+0A8 - Tiandong 3
+0A9 - Lenghe 1
+0AA - Pare PAW1
+0AB - Grapple M1
+0AC - Kyokei Mk108
+0AD - Yongsai 3
+0AE - Jinyo Mk110
+0AF - Drake M2C
+0B0 - Kyojun Mk107
+0B1 - Meledyne M1
+0B2 - Rekson M4F
+0B3 - Foura M12A
+0B4 - Enyo Mk109
+0B5 - Zeros
+0B6 - Teiqi 4
+0B7 - Shangdi 1
+0B8 - Kasel M2
+0B9 - Shunyo Mk111
+0BA - Genie
+0BB - Laiying 1
+0BC - Nothing
+0BD - Nothing
+0BE - Nothing
+0BF - Nothing
+0C0 - Grezex
+0C1 - Lanze
+0C2 - Dummy parts
+0C3 - Getty
+0C4 - Prov PAW2
+0C5 - Wude 3
+0C6 - Qibing 0
+0C7 - Mingtian 1
+0C8 - Shunwang 1
+0C9 - Nothing
+0CA - Hoshun Mk112
+0CB - Chixuan 6
+0CC - Oceanhahn
+0CD - Hanniger
+0CE - Hanniger
+0CF - Hanniger P
+0D0 - Shengfeng 5
+0D1 - Shengfeng 5K
+0D2 - Nothing
+0D3 - Nothing
+0D4 - Nothing
+0D5 - Nothing
+0D6 - MBT2 Kuarve
+0D7 - MBT2 Kuarve
+0D8 - Mk54 MBT
+0D9 - MBT2 Kuarve
+0DA - Mk59 APC
+0DB - Mk73 MBT
+0DC - Mk9 AFV
+0DD - Mk20 AFV
+0DE - Mk20 AFV
+0DF - Sekida
+0E0 - Sekida
+0E1 - Sekida
+0E2 - Mk12 AFV
+0E3 - Flatbed
+0E4 - Flatbed
+0E5 - Mk1 APC
+0E6 - Nothing
+0E7 - MMG3 Ship
+0E8 - MMG3 Ship
+0E9 - Mk39 PT Boat
+0EA - Mk39 PT Boat
+0EB - Mk39 PT Boat
+0EC - Mk39 PT Boat
+0ED - 12mm MG
+0EE - 40mm Gun
+0EF - Dual Cannon
+0F0 - Mk42 Quad
+0F1 - 100mm Gun
+0F2 - Yunsheng 42
+0F3 - Kehei 0
+0F4 - Genie Arm
+0F5 - Kexi 1
+0F6 - Brenos
+0F7 - Nilong 1
+0F8 - Cadenza Head
+0F9 - Cadenza Pack
+0FA - Cadenza
+0FB - Qinghuayu 1
+0FC - Monster
+0FD - Bihu 1
+0FE - Haolong 4
+0FF - Ziangyu 2
+100 - Methane WZR
+101 - Taita 4
+102 - Taita 4K
+103 - Mk8 Support
+104 - Armored Car
+105 - P-Gun Car
+106 - Mk5 AFV
+107 - Kodomari
+108 - Heidong 3
+109 - Land Mine
+10A - Area Mine
+10B - Grenade
+10C - Missile
+10D - Repair
+10E - Repair Hi
+10F - Repair Mx
+110 - Restore Lo
+111 - Restore Hi
+112 - Restore Mx
+113 - Recover
+114 - Recover Mx
+115 - Shield Rpr
+116 - Shield Mx
+117 - COM4
+118 - COMB652
+119 - COMB603
+11A - COMB554
+11B - COMC554
+11C - COMC654
+11D - COMC754
+11E - COMG10
+11F - COM5
+120 - COM6
+
+Part Type Digits
+
+Quantity Digits to Accompany Part Type Modifier Codes
+01 - Body
+02 - Arm
+03 - Leg
+04 - Weapon Part Name
+
+Picture Digits
+
+Quantity Digits to Accompany Equipped Picture Modifier Codes
+00 - Nothing
+01 - Hardblow
+02 - Bone Buster
+03 - Fear Fist
+04 - Mk10 Fist
+05 - Mk12 Fist
+06 - Fatal Buster
+07 - War Hammer
+08 - Cleave Axe
+09 - Mk9 Baton
+0A - Mk13 Baton
+0B - Venus
+0C - Sharp Spike
+0D - Heavy Spike
+0E - Mk18 Spike
+0F - Mk22 Spike
+10 - Last Spike
+11 - Franbar FF
+12 - Mk9 Sniper
+13 - Laoxing 6
+14 - Laohu 3
+15 - Mk11 Sniper
+16 - Kodo SN990
+17 - DGS-25
+18 - Mingda 2
+19 - Huida 3
+1A - Arc Barrel 4
+1B - Odin M98
+1C - SPPG 14
+1D - Chongdu 2
+1E - Chongta 3
+1F - Desoto M300
+20 - Heat Stream
+21 - Huoliu 1
+22 - Huosai 2
+23 - Huoyao 3
+24 - Hot Gazel
+30 - Hvy P-Gun

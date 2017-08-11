@@ -1,0 +1,320 @@
+Quantity Digits to Accompany Item Modifier Codes
+000 - Nothing
+001 - Sickle
+002 - Copper Sickle
+003 - Silver Sickle
+004 - Gold Sickle
+005 - Mystrile Sickle
+006 - Hoe
+007 - Copper Hoe
+008 - Silver Hoe
+009 - Gold Hoe
+00A - Mystrile Hoe
+00B - Ax
+00C - Copper Ax
+00D - Silver Ax
+00E - Gold Ax
+00F - Mystrile Ax
+010 - Hammer
+011 - Copper Hammer
+012 - Silver Hammer
+013 - Gold Hammer
+014 - Mystrile Hammer
+015 - Watering Can
+016 - Copper Watering Can
+017 - Silver Watering Can
+018 - Gold Watering Can
+019 - Mystrile Watering Can
+01A - Milker
+01B - Clippers
+01C - Brush
+01D - Bell
+01E - Animal Medicine
+01F - Cow Miracle Potion
+020 - Sheep Miracle Potion
+021 - Blue Feather
+022 - Turnip Seeds
+023 - Potato Seeds
+024 - Cucumber Seeds
+025 - Strawberry Seeds
+026 - Cabbage Seeds
+027 - Tomato Seeds
+028 - Corn Seeds
+029 - Onion Seeds
+02A - Pumpkin Seeds
+02B - Pineapple Seeds
+02C - Eggplant Seeds
+02D - Carrot Seeds
+02E - Sweet Potato Seeds
+02F - Spinach Seeds
+030 - Green Pepper Seeds
+031 - Moondrop Seeds
+032 - Pink Cat Seeds
+033 - Magic Red Seeds
+034 - Toy Flower Seeds
+035 - Orange Cup Seeds
+036 - Grass Seeds
+037 - Ocarina
+038 - Fishing Rod
+039 - Fishing Pole
+03A - Stone
+03B - Big Stone
+03C - Rock
+03D - Stump
+03E - Branch
+03F - Lumber
+040 - Weeds
+041 - Turnip
+042 - Potato
+043 - Cucumber
+044 - Strawberry
+045 - Cabbage
+046 - Tomato
+047 - Corn
+048 - Onion
+049 - Pumpkin
+04A - Pineapple
+04B - Eggplant
+04C - Carrot
+04D - Sweet Potato
+04E - Spinach
+04F - Green Pepper
+050 - Grass
+051 - Moon Drop Flower
+052 - Pink Cat Flower
+053 - Blue Magic Red Flower
+054 - Red Magic Red Flower
+055 - Toy Flower
+056 - Orange Cup Fruit
+057 - Apple
+058 - Bamboo Shoot
+059 - Wild Grape
+05A - Mushroom
+05B - Poisonous Mushroom
+05C - Truffle
+05D - Blue Grass
+05E - Red Grass
+05F - Green Grass
+060 - Mystrile
+061 - Orichalcum
+062 - Adamantite
+064 - Basket
+065 - Dog Ball
+066 - Coin
+067 - Power Berry
+068 - Fodder
+069 - Chicken Feed
+06A - Fodder
+06B - Chicken Feed
+06C - Fish Food
+06D - Rucksack Level 2
+06E - Rucksack Level 3
+06F - Pocketststion
+070 - Gift Wrap
+071 - Vase
+072 - Knife
+073 - Frying Pan
+074 - Pot
+075 - Mixer
+076 - Whisk
+077 - Rolling Pin
+078 - Oven
+079 - Seasoning Set
+07A - Gold
+07B - Silver
+07C - Copper
+07D - Carp Print
+07E - Char Print
+07F - Catfish Print
+080 - Squid Print
+081 - Angler Print
+082 - Sea Bream
+083 - Beehive
+084 - Fish Food
+085 - Orange Cup Fruit
+086 - Egg
+087 - Spa-boiled Egg
+088 - Mayonnaise S
+089 - Mayonnaise M
+08A - Mayonnaise L
+08B - Milk S
+08C - Milk M
+08D - Milk L
+08E - Cheese S
+08F - Cheese M
+090 - Cheese L
+091 - Wool S
+092 - Wool M
+093 - Wool L
+094 - Yarn S
+095 - Yarn M
+096 - Yarn L
+097 - Honey
+098 - SUGDW Apple
+099 - Riceballs
+09A - Bread
+09B - Bodigizer
+09C - Bodigizer XL
+09D - Turbojolt
+09E - Turbojolt XL
+09F - Wine
+0A0 - Grape Juice
+0A1 - Fish L
+0A2 - Fish M
+0A3 - Fish S
+0A4 - Gift
+0A5 - Oil
+0A6 - Flour
+0A7 - Curry Powder
+0A8 - Set Meal
+0A9 - Wild Grape Wine
+0AA - Milk
+0AB - Water
+0AC - Snowcone
+0AD - Veggie Pancake
+0AE - Fried Rice
+0AF - Stir Fry
+0B0 - Miso Soup
+0B1 - Stew
+0B2 - Curry
+0B3 - Salad
+0B4 - Fruit Juice
+0B5 - Veggie Juice
+0B6 - Mixed Juice
+0B7 - Sandwich
+0B8 - Pickled Turnips
+0B9 - Fries
+0BA - Pickles
+0BB - Strawberry Jam
+0BC - Strawberry Milk
+0BD - Tomato Juice
+0BE - Popcorn
+0BF - Pumpkin Pudding
+0C0 - Happy Eggplant
+0C1 - Sweet Potato (recipe)
+0C2 - Roasted Potatoes
+0C3 - Greens
+0C4 - Scrambled Eggs
+0C5 - Omelet
+0C6 - Boiled Egg
+0C7 - Hot Milk
+0C8 - Butter
+0C9 - Cheese Cake
+0CA - Cheese Fondue
+0CB - Apple Jam
+0CC - Apple Pie
+0CD - Bamboo Rice
+0CE - Mushroom Rice
+0CF - Truffle Rice
+0D0 - Grape Jam
+0D1 - Sushi
+0D2 - Chirashi Sushi
+0D3 - Jam Bun
+0D4 - Raisin Bread
+0D5 - Dinner Roll
+0D6 - Sashimi
+0D7 - Grilled Fish
+0D8 - Pizza
+0D9 - Pasta
+0DA - Noodles
+0DB - Curry Noodles
+0DC - Tempura Noodles
+0DD - Fried Noodles
+0DE - Tempura
+0DF - Cookie
+0E0 - Ice Cream
+0E1 - Cake
+0E2 - Food Fiasco
+0E3 - Milk G
+0E4 - Cheese G
+0E5 - Mayonnaise G
+0E6 - Yarn G
+0E7 - Wool G
+0E8 - Egg G
+0E9 - Can
+0EA - Message In Bottle
+0EB - Boot
+0EC - Dead Fish
+0ED - Carp
+0EE - Char
+0EF - Catfish
+0F0 - Squid
+0F1 - Angler
+0F2 - Sea Bream
+0F3 - CHOCOLATE
+0F4 - Chocolate Cookies
+0F5 - Chocolate Cake
+0F6 - Moonview Dumplings
+0F7 - Bracelet
+0F8 - Necklace
+0F9 - Earings
+0FA - Bandage
+0FB - Relax Tea Leaves
+0FC - Relaxation Tea
+0FD - Fruit Latte
+0FE - Veggie Latte
+0FF - Mixed Latte
+100 - Perfume
+101 - Cliff's Photo
+102 - Letter
+103 - Invitation
+104 - Woodcutter Book
+105 - Picturebook Of People
+106 - Adult Dog
+107 - Young Dog
+108 - Cat
+109 - Chicken
+10A - Chick
+10B - White Rabbit
+10C - Brown Rabbit
+10D - Suirrel
+10E - Fox
+10F - Monkey
+110 - Snake
+111 - Crab
+112 - Butterfly
+113 - Butterfly 2
+114 - Beetle
+115 - Stag Beetle
+116 - Cicada
+117 - Dragonfly
+118 - Cricket
+119 - Lady Bug
+11A - Grasshopper
+11B - Triangle Sandwich
+11C - Deluxe Sandwich
+11D - Riceball
+11E - Red Bean Bun
+11F - Pizza
+120 - Meat
+121 - Toast
+122 - Egg N
+123 - Egg G
+124 - Egg E
+125 - Popuri's Egg
+126 - Mystic Berry
+127 - Unclear Message In Bottle
+128 - Spring Seeds
+129 - Summer Seeds
+12A - Spring Seeds
+12B - Toy Chick
+12C - Cow Reins
+12D - God Map
+12E - Ketchup
+12F - Rice Omelet
+130 - Salad
+131 - Apple Pie
+132 - Cheese Cake
+133 - Cookie
+134 - Water
+135 - Roasted Corn
+136 - Pasta
+137 - Pizza
+138 - Junk Ore
+139 - Aja Grapes
+13A - Dead Weed
+13B - Winter Stone
+13C - Winter Branch
+13D - Winter Lumber
+13E - Water
+13F - Mayonnaise Maker

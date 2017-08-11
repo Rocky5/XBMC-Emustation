@@ -1,0 +1,47 @@
+Quantity Digits to Accompany Dragon Rank Modifier Code
+0000 - No Rank
+0001 - Fighter Rank A
+0002 - Junior Rank A
+0003 - Baby Rank A
+0004 - WDC Champion A
+0100 - WDC No.1
+0101 - Fighter Rank B
+0102 - Junior Rank B
+0103 - Baby Rank B
+0104 - WDC Champion B
+0200 - WDC No.2
+0201 - Fighter Rank C
+0202 - Junior Rank C
+0203 - Baby Rank C
+0204 - WDC Champion C
+0300 - WDC No.3
+0301 - Fighter Rank D
+0302 - Junior Rank D
+0303 - Baby Rank D
+0304 - WDC Champion D
+0400 - WDC No.4
+0401 - Fighter Rank E
+0402 - Junior Rank E
+0403 - Baby Rank E
+0404 - WDC Champion E
+
+Quantity Digits to Accompany Type Modifier 1 Code
+0 - No Dragon
+1 - Normal
+2 - Wild
+
+Quantity Digits to Accompany Type Modifier 2 Code
+0 - Saurian
+1 - Winged
+2 - Beetle
+3 - Wasp
+5 - Crustacean
+6 - Natura
+8 - Spirit
+9 - Evil
+
+Quantity Digits to Accompany Type Modifier 3 Code
+0 - Fire
+1 - Aqua
+2 - Storm
+3 - Neutral

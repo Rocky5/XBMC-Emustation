@@ -1,0 +1,27 @@
+Quantity Digits to Accompany Grenade Modifier Codes
+01 - Napalm Grenade
+02 - Dynamite
+03 - Airstike Beacon
+04 - Shatter Grenade
+
+Quantity Digits to Accompany Weapon Modifiers Codes
+01 - Spread Pulse Cannon
+02 - Napalm Grenade
+03 - Dynamite
+04 - Airstrike Beacon
+05 - Shatter Grenade
+06 - Multiple Warhead Rockets
+07 - Spyra Missles
+08 - Flame Thrower
+09 - Hominig Missiles
+0A - Portable Particle Accelerator
+0B - Vulcan Cannon
+0C - Shotgun
+0D - Phantasm
+0E - Mines
+0F - Reclaimed Alien Weapon
+10 - Laser Guided Missiles
+11 - Pulse Cannon
+
+Note 1:
+With these digits, you must use them with the Equip Any Grenade Into Any Weapon Slot Code, if you do not use them with this code, then you will not be able to fire the grenades.

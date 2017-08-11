@@ -1,0 +1,661 @@
+digimon codes notes
+
+Note 1:
+With this code, replace the ?? with the digimon modifier digits provided. Also, even though this code changes your digimon, the moves that it learns are those of the digimon it was before. However, if you digivolve them, the evolved form will learn its move.
+
+Note 2:
+With this code, simply replace the ?? with a hexadecimal value ranging from 00 to FF. If you do not know hexdecimal, simply open your windows calculator. Click View, and make sure the dot is on scientific. Next click the button on the left of Dec. Then put in any number ranging from 0 to 255. Next click the button to the left of Hex. The calculator will automatically convert thevalue for you. If you only see one character, place a 0 in front of it.
+
+Note 3:
+With this code, they modify the highest level you digimon can reach.
+
+Quantity Digits
+Digimon Digits
+
+Quantity Digits to Accompany Digimon Modifier Codes
+03 - Agumon
+04 - Betamon
+05 - Greymon
+06 - Devimon
+07 - Airdramon
+08 - Tyrannomon
+09 - Meramon
+0A - Seadramon
+0B - Numemon
+0C - MetalGreymon
+0D - Mamemon
+0E - Monzaemon
+11 - Gabumon
+12 - Elecmon
+13 - Kabuterimon
+14 - Angemon
+15 - Birdramon
+16 - Garurumon
+17 - Frigimon
+18 - Whamon
+19 - Vegiemon
+1A - SkullGreymon
+1B - MetalMamemon
+1C - Vademon
+1F - Patamon
+20 - Kunemon
+21 - Unimon
+22 - Ogremon
+23 - Shellmon
+24 - Centaurmon
+25 - Bakemon
+26 - Drimogemon
+27 - Sukamon
+28 - Andromon
+29 - Giromon
+2A - Etemon
+2D - Biyomon
+2E - Palmon
+2F - Monochromon
+30 - Leomon
+31 - Coelamon
+32 - Kokatorimon
+33 - Kuwagamon
+34 - Mojyamon
+35 - Nanimon
+36 - Megadramon
+37 - Piximon
+38 - Digitamamon
+39 - Pengiumon
+3A - Ninjamon
+3B - Phoenixmon
+3C - H-Kabuterimon
+3D - Megaseadramon
+3F - Panjyamon
+40 - Gigadramon
+41 - MetalEtemon
+42 - Myotismon
+43 - Yanmamon
+44 - Gotsumon
+45 - Flarerizamon
+46 - WaruMonzaemon
+47 - SnowAgumon
+48 - Hyogamon
+49 - P-Sukamon
+4A - Dokunemon
+4B - ShimaUnimon
+4C - Tankmon
+4E - J-Mojyamon
+4F - N-Drimogemon
+50 - Goburimon
+51 - Mudfrigimon
+52 - Psychemon
+53 - ModokiBetamon
+54 - ToyAgumon
+55 - Piddomon
+56 - Aruraumon
+57 - Geremon
+58 - Vermilimon
+59 - Fugamon
+5A - Tekkamon
+5B - MoriShellmon
+5C - Guardromon
+5D - Muchomon
+5E - Icemon
+5F - Akatorimon
+60 - Tsukaimon
+61 - Sharmamon
+62 - ClearAgumon
+63 - Zassomon
+64 - IceDevimon
+65 - Darkrizamon
+66 - SandYanmamon
+67 - SnowGoburimon
+69 - BlueMeramon
+6A - Gururumon
+6B - Soulmon
+6D - Otamamon
+6E - Gekomon
+6F - Tentomon
+70 - WaruSeadramon
+71 - Meteormon
+73 - Machinedramon
+75 - Jijimon
+77 - ShogunGekomon
+79 - Cherrymon
+7A - Hagurumon
+7B - Tinmon
+7C - Master Tyrannomon
+80 - Veedramon
+83 - Gazimon
+84 - Gizamon
+85 - Dark Tyrannomon
+86 - Cyclonemon
+87 - Devidramon
+88 - Tuskmon
+89 - Flymon
+8A - Deltamon
+8B - Raremon
+8C - Metal Tyrannomon
+8E - ExTyrannomon
+8F - Clockmon
+90 - Rosemon
+91 - Veemon
+92 - Flamedramon
+93 - Raidramon
+94 - Imperialdramon
+95 - Baihumon
+96 - Omnimon
+97 - Diaboromon
+B4 - AeroVeedramon
+B5 - M-Kabuterimon
+B6 - Gomamon
+B7 - WereGarurumon
+B8 - Togemon
+B9 - Zudomon
+BA - Lillymon
+BB - Garudamon
+BC - Candlemon
+BD - SkullMeramon
+BE - Boltmon
+BF - Floramon
+C0 - Deramon
+C1 - Gryphomon
+C2 - Wizardmon
+C3 - P-Mamemon
+C4 - M-Garurumon
+C5 - Crabmon
+C6 - Kiwimon
+C7 - Starmon
+C8 - Blossomon
+C9 - Pumpkinmon
+CA - Scorpiomon
+CB - Triceramon
+CC - M-Seadramon
+CD - SaberLeomon
+CE - Tapirmon
+CF - Apemon
+D0 - Tortomon
+D1 - Ikkakumon
+D2 - Dolphmon
+D3 - MagnaAngemon
+D4 - Mammothmon
+D5 - Wargreymon
+D6 - Seraphimon
+D7 - SkullMammothmon
+D8 - MarineAngemon
+D9 - DemiDevimon
+DA - Syakomon
+DB - Mushroomon
+DC - Gesomon
+DD - Octomon
+DE - Woodmon
+DF - Phantomon
+E0 - MarineDevimon
+E1 - Dragomon
+E2 - Okuwamon
+E3 - Garbagemon
+E4 - Piedmon
+E5 - Pukumon
+E6 - GranKuwagamon
+E7 - Puppetmon
+E8 - Preciomon
+E9 - Gatamon
+EA - Angewomon
+EB - Magnadramon
+EC - VenomMyostismon
+ED - Kimeramon
+F4 - Chaos Piedmon (Boss)
+F5 - Chaos Seadramon (Boss)
+F6 - Chaos Wargreymon (Boss)
+F7 - NeoCrimson (Boss)
+F8 - ChaosLord (Boss)
+F9 - ? (Virus Guardian) (Boss)
+FA - ? (Data Guardian) (Boss)
+FB - ? (Vaccine Guardian) (Boss)
+FC - ? (GAIA Arm)
+FD - ? (GAIA Arm)
+FE - ? (GAIA Form 1) (Final Boss)
+FF - ? (GAIA Form 2) (Final Boss)
+
+Note 1:
+With this game, and some of these digits, the digimon can not digivolve, but you can dna digivolve them, and use them in battles.
+
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+00 - Nothing
+01 - Wolf EG-1
+02 - Wolf EG-3
+03 - Wolf EG-3
+04 - Wolf EG-4
+05 - Wolf EG-5
+06 - Lion EG-1
+07 - Lion EG-3
+08 - Lion EG-3
+09 - Lion EG-4
+0A - Lion EG-5
+0B - Tiger EG-1
+0C - Tiger EG-3
+0D - Tiger EG-3
+0E - Tiger EG-4
+0F - Tiger EG-5
+10 - PegagusEG-1
+11 - PegagusEG-3
+12 - PegagusEG-3
+13 - PegagusEG-4
+14 - PegagusEG-5
+15 - GriffinEG-1
+16 - GriffinEG-3
+17 - GriffinEG-3
+18 - GriffinEG-4
+19 - GriffinEG-5
+1A - WyvernEG-1
+1B - WyvernEG-3
+1C - WyvernEG-3
+1D - WyvernEG-4
+1E - WyvernEG-5
+1F - DragonEG-1
+20 - DragonEG-3
+21 - DragonEG-3
+22 - DragonEG-4
+23 - DragonEG-5
+24 - Giant EG-1
+25 - Giant EG-3
+26 - Giant EG-3
+27 - Giant EG-4
+28 - Giant EG-5
+29 - MammothEG-1
+2A - MammothEG-3
+2B - MammothEG-3
+2C - MammothEG-4
+2D - MammothEG-5
+2E - Maximus EG
+2F - Crab BAT-1
+30 - Crab BAT-2
+31 - Crab BAT-3
+32 - Ant RAM
+33 - Wasp RAM
+34 - Spider RAM
+35 - Mantis RAM
+36 - Hornet RAM
+37 - Beetle RAM
+38 - Crab BAT-4
+39 - Crab BAT-5
+3A - TurtleBAT1
+3B - TurtleBAT2
+3C - TurtleBAT3
+3D - TurtleBAT4
+3E - TurtleBAT5
+3F - SharkBAT-1
+40 - SharkBAT-2
+41 - SharkBAT-3
+42 - SharkBAT-4
+43 - SharkBAT-5
+44 - Orca BAT-1
+45 - Orca BAT-2
+46 - Orca BAT-3
+47 - Orca BAT-4
+48 - Orca BAT-5
+49 - Whale BAT
+4A - Dodo BOX
+4B - Crow BOX
+4C - Crane BOX
+4D - Stork BOX
+4E - Hawk BOX
+4F - Eagle BOX
+50 - Ring TIRES
+51 - ChainTIRES
+52 - PlateTIRES
+53 - Aero TIRES
+54 - GraviTIRES
+55 - Shovel ARM
+56 - Drill ARM
+57 - Jet ARM
+58 - Laser ARM
+59 - Magnum ARM
+5A - Mech HAND
+5B - MagnetHAND
+5C - FantomHAND
+5D - Super HAND
+5E - Ultra HAND
+5F - ShooterGun
+60 - Bug Zapper
+61 - MissileGUn
+62 - RCannon-1
+63 - RCannon-2
+64 - RCannon-3
+65 - ZCannon-1
+66 - ZCannon-2
+67 - ZCannon-3
+68 - MineSWEEP1
+69 - MineSWEEP2
+6A - MineSWEEP3
+6B - MineSWEEP4
+6C - MineSWEEP5
+6D - BugSWEEP-1
+6E - BugSWEEP-2
+6F - BugSWEEP-3
+70 - BugSWP-4
+71 - BugSWP-5
+72 - DMTransfer
+73 - Radar
+74 - PowerRadar
+75 - Map Radar
+76 - Auto Pilot
+77 - PowerPilot
+78 - HP Disk-1
+79 - HP Disk-2
+7A - HP Disk-3
+7B - MP Disk-1
+7C - MP Disk-2
+7D - MP Disk-3
+7E - Anti-Dote
+7F - AntiFreeze
+80 - Anti Mixup
+81 - Power Disk
+82 - Mech Fix
+83 - MechFix-EX
+84 - Parts Fix
+85 - EP Pack-1
+86 - EP Pack-2
+87 - EP Pack-3
+88 - Mag.Miss-1
+89 - Mag.Miss-2
+8A - Mag.Miss-3
+8B - Mag.Miss-4
+8C - Mag.Miss-5
+8D - DrillMiss1
+8E - DrillMiss2
+8F - DrillMiss3
+90 - RetBugZap3
+91 - DrillMiss4
+92 - DrillMiss5
+93 - WaveMiss-1
+94 - WaveMiss-2
+95 - WaveMiss-3
+96 - WaveMiss-4
+97 - WaveMiss-5
+98 - BitBugZap1
+99 - BitBugZap2
+9A - BitBugZap3
+9B - EP-BugZap1
+9C - EP-BugZap2
+9D - EP-BugZap3
+9E - RetBugZap1
+9F - RetBugZap2
+A0 - MemBugZap1
+A1 - MemBugZap2
+A2 - MemBugZap3
+A3 - SupBugZap1
+A4 - SupBugZap2
+A5 - SupBugZap3
+A6 - Fire Blast
+A7 - WaterArrow
+A8 - Flash Bolt
+A9 - Iron Fist
+AA - Dark Fear
+AB - Inferno
+AC - Blizzard
+AD - Hurricane
+AE - RustStorm
+AF - Black Hole
+B0 - DATA Steel
+B1 - DATA Candy
+B2 - DATA Macho
+B3 - DATA Weak
+B4 - VAC. Steel
+B5 - VAC. Candy
+B6 - VAC. Macho
+B7 - VAC. Weak
+B8 - VIR. Steel
+B9 - VIR. Candy
+BA - VIR. Macho
+BB - VIR. Weak
+BC - Toy Car
+BD - Toy Truck
+BE - Toy Tank
+BF - Toy Boat
+C0 - Toy Plane
+C1 - Card Game
+C2 - Digivice
+C3 - CD Game
+C4 - DVD Game
+C5 - Laptop PC
+C6 - WristWatch
+C7 - CD Player
+C8 - Cell Phone
+C9 - DigiCamera
+CA - DVD PLayer
+CB - Kickboard
+CC - Skateboard
+CD - Skis
+CE - Snowboard
+CF - Surfboard
+D0 - HP CHip
+D1 - Junk Parts
+D2 - MP Chip
+D3 - Power Chip
+D4 - Armor Chip
+D5 - Speed Chip
+D6 - DNA-UpChip
+D7 - DNA-OnChip
+D8 - EXP Chip
+D9 - HPDriver-1
+DA - HPDriver-2
+DB - HPDriver-3
+DC - MPDriver-1
+DD - MPDriver-2
+DE - MPDriver-3
+DF - EX Driver
+E0 - VIR-MP-ROM
+E1 - VIR-RV-ROM
+E2 - Steel Body
+E3 - Titan Body
+E4 - AdmantBody
+E5 - Tamer-Lic.
+E6 - DB-Browser
+E7 - GoldH-Mark
+
+Move Digits
+
+Quantity Digits to Accompany Move Modifier Codes
+00 - Nothing
+01 - Poison Ivy
+02 - Rain Of Pollen
+03 - Boom Bubble
+04 - Flame Bomber
+05 - Scissor Magic
+06 - Rock Fist
+07 - S-Thunder Smack
+08 - Blue Blaster
+09 - Pummel Peck
+0A - Fireball
+0B - Fossil Bite
+0C - Hydro Blaster
+0D - Volcanic Strike
+0E - Blaze Blast
+0F - Stun Flame Shot
+10 - Iron Drill Spin
+11 - Solar Ray
+12 - Flower Cannon
+13 - Royal Smasher
+14 - Ninja Flower
+15 - Trick Or Treat
+16 - Metal Fireball
+17 - Lightning Spear
+18 - Trihorn Attack
+19 - Magical Tail
+1A - Tomahawk Crunch
+1B - Energy Blast
+1C - Howling Crusher
+1D - Legendary Blade
+1E - Freeze Breath
+1F - Pepper Breath
+20 - Spiral Twister
+21 - Super Shocker
+22 - Waking Dream
+23 - Marching Fishes
+24 - Nova Blast
+25 - V-Nova Blast
+26 - Spinning Needle
+27 - Meteor Wing
+28 - Fist Of Fate
+29 - Air Attack
+2A - Howling Blaster
+2B - Wolf Claw
+2C - Icicle Shot
+2D - Strong Carapace
+2E - Harpoon Torpedo
+2F - Pulse Blast
+30 - Giga Blaster
+31 - V-Wing Blade
+32 - Lightning Blade
+33 - Mega Bone Stick
+34 - Tusk Crusher
+35 - Vulcan's Hammer
+36 - Tidal Wave
+37 - Big Bang Boom
+38 - Terra Force
+39 - S-bone Crusher
+3A - Ocean Love
+3B - Electric Shock
+3C - Demi Dart
+3D - Black Pearl Shot
+3E - Stun Bubble
+3F - Electro Thread
+40 - Party Time
+41 - Evil Touch
+42 - Evil Charm
+43 - Coral Crusher
+44 - Spurting Ink
+45 - Sonic Crusher
+46 - Scissor Claw
+47 - Twig Tap
+48 - Alien Ray
+49 - Concert Crush
+4A - Dark Shot
+4B - Darkside Attack
+4C - Grisly Wing
+4D - Shadow Scythe(40MP)
+4E - Evil Wind
+50 - Musical Fist
+51 - Duo Scissor Claw
+52 - Pit Pelter
+53 - Junk Chunker
+54 - Trump Sword
+55 - Needle Squall
+56 - X-Scissor Claw
+57 - Puppet Pummel
+58 - Toy Flame
+59 - Super Slap
+5A - Hail Storm
+5B - Ice Blast
+5C - Hyper Cannon
+5D - Thunder Ray
+5E - Sad Water Blast
+5F - Rose Spear
+60 - SubZero Ice Punch
+61 - Lightning Paw
+62 - Heaven's Arrow
+63 - Fire Tornado
+64 - Darkness Gear
+65 - Bolt Strike
+66 - Protect Grenade
+67 - GigaByte Wing
+68 - Giga Cannon
+69 - E-Stun Blast
+6A - Spiral Saw
+6B - Brown Stinger
+6C - Hyper Heat
+6D - Triple Forces
+6E - Slamming Tusk
+6F - Fire Blast
+70 - Crimson Claw
+71 - Digital Bomb
+72 - Fire Blast II
+73 - Pretty Attack
+82 - Needle Spray
+83 - Meteor Stream
+84 - Thunder Ball
+85 - Tail Blade
+86 - Smiley Bomb
+87 - Energetic Bomb
+88 - Smiley Warhead
+89 - Pummel Whack
+8A - Ninja Knife Throw
+8B - Beast King Fist
+8C - Buffalo Breath
+A0 - Electro Shocker
+A1 - Wing Blade
+A2 - Horn Buster
+A3 - Giga Scissor Claw
+A4 - Venom Infusion
+A5 - Chrono Breaker
+A6 - MP Magic
+A7 - Life Shield
+A8 - MP Destroyer
+B4 - Hyper Flashing
+B5 - HP Recovery
+B6 - Virus Attack
+B7 - Crimson Flame
+B8 - Full HP Cure
+B9 - Fungus Cruncher
+BA - Rotten Rainballs
+BB - Banana Slip
+BC - Small HP Cure
+BD - Defensive Ray
+BE - Parameter Patch
+BF - Zip Boom
+C0 - Stun Ray
+C1 - Armor Coating
+C2 - Mech Ray
+C3 - Blaze Blaster
+C4 - Nature Hit Ray
+C5 - Invincibility
+C6 - Re-Format
+C7 - Recovery Power
+C8 - AntiDote
+C9 - AntiFreeze
+CA - AntiConfusion
+CB - Mega Heal
+CC - Zen Recovery
+CD - Full Recovery
+CE - Hung On Death
+CF - Friendly Fire
+D0 - Invisibility
+D1 - Water Ray
+D2 - Necro Magic
+D3 - Darkness Ray
+D4 - Re-Initialize
+D5 - Panic Wave
+D6 - Heart Break Hit
+D7 - Poison Wave
+D8 - Vee Head Butt
+D9 - Flaming Rocket
+DA - Lightning Blast
+DB - Mega Fire
+DC - Chaos Cannon
+DD - Blind Attack
+DE - Kongou
+E1 - HP Zapper
+E2 - Critical Blow
+E3 - Reset Status
+E4 - Transcend Sword
+E5 - Garuru Cannon
+E7 - Safety Sphere
+E8 - Karate Sweep
+E9 - Energy Blast
+EA - Alias Fake
+EB - Inferno Missle
+ED - Stun Punch
+EE - Rail Cannon
+EF - Armor Aid
+F0 - Titan Laser
+F1 - Fantasmic Bomb
+F2 - GAIA Gear
+F3 - Light Gun
+F4 - Fantasmic Ray
+F5 - Tubular Attack
+F6 - Left Hand
+F7 - Reduction Ray
+F8 - Right Hand
+F9 - Destabilizer Ray
+FB - Shadow Scythe(0 MP)
+FC - Poison Wing

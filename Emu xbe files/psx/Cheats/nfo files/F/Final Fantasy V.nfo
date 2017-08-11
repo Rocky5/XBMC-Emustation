@@ -1,0 +1,348 @@
+Quantity Digits
+Character Digits
+
+Quantity Digits to Accompany Character Modifier Codes
+00 - Hero
+01 - Reina
+
+Note 1:
+With these codes, you must have met the character before you can use that characters Quantity Digits.
+
+Class Digits
+
+Quantity Digits to Accompany Class Modifier Codes
+00 - Knight
+01 - Monk
+02 - Thief
+03 - Lancer
+04 - Ninja
+05 - Samurai
+06 - Berskerkr
+07 - Hunter
+08 - Sorcerer
+09 - W. Mage
+0A - B. Mage
+0B - TimeMage
+0C - Summoner
+0D - BlueMage
+0E - Red Mage
+0F - Trainer
+10 - Chemist
+11 - Geomancr
+12 - Bard
+13 - Dancer
+14 - Mime
+15 - Bare
+
+Item/Equipment/Relic Digits
+
+Quantity Digits to Accompany Item/Equipment/Relic Modifier Codes
+Weapons
+00 - Nothing
+01 - Unarmed
+02 - Knife
+03 - Dirk
+04 - Mythril Knife
+05 - Ninja Knife
+06 - Mage Slasher
+07 - Hunting Knife
+08 - Cluster
+09 - Halcyon Blade
+0A - Air Lancet
+0B - Assassin
+0C - Sasuke
+0D - Broadsword
+0E - Long Sword
+0F - Mythril Sword
+10 - Coral Sword
+11 - Ancient Sword
+12 - Regal Cutlass
+13 - Half Moon
+14 - Defender
+15 - Excalibur
+16 - Ragnarok
+17 - Javelin
+18 - Spear
+19 - Mythril Pike
+1A - Trident
+1B - Wind Lance
+1C - Partisan
+1D - Short Spear
+1E - Double Lance
+1F - Holy Lance
+20 - Dragon Lance
+21 - Battle Ax
+22 - Mythril Hammer
+23 - Cleaver
+24 - War Hammer
+25 - Poison Ax
+26 - Earth Hammer
+27 - Rune Ax
+28 - Thor's Hammer
+29 - Katana
+2A - Wind Sword
+2B - Kotetsu
+2C - Bizen's Pride
+2D - Ichimonji
+2E - Monster Killer
+2F - Masamune
+30 - Strato
+31 - Wooden Rod
+32 - Fire Rod
+33 - Ice Rod
+34 - Lightning Rod
+35 - Poison Rod
+36 - Power Rod
+37 - Magus Rod
+38 - Staff
+39 - Mythrill Staff
+3A - Power Staff
+3B - Healing Staff
+3C - Lumino Staff
+3D - Sage Staff
+3E - Judge Staff
+3F - Fire Bow
+40 - Ice Bow
+41 - Lightning Bow
+42 - Dark Bow
+43 - Cross Bow
+44 - Elfin Bow
+45 - Yoichi's Bow
+46 - Artemis
+47 - Silver Harp
+48 - Dream Harp
+49 - Lamia's Harp
+4A - Apollo Harp
+4B - Whip
+4C - Chain Whip
+4D - Shock Whip
+4E - Fire Bute
+4F - Dragon Beard
+50 - Monster Bell
+51 - Earth Bell
+52 - Rune Chime
+53 - Tinkerbell
+54 - Saber
+55 - Blood Sword
+56 - Rune Edge
+57 - Flame Saber
+58 - Blizzard
+59 - Moon Ring
+5A - Shuriken
+5B - Magi Shuriken
+5C - Excalipur
+5D - Beast Killer
+5E - Flail
+5F - Mace
+60 - Wonder Wand
+61 - Brave Blade
+62 - Ash
+63 - Chicken Knife
+64 - Razor Ring
+65 - Silver Bow
+66 - Gale Bow
+67 - Magic Bow
+68 - Ab Splitter
+69 - Death Sickle
+6A - Double Axe
+6B - Man Eater
+6C - Thief Knife
+6D - Dancing Dirk
+6E - Brave Blade
+Shields
+81 - Leather Shield
+82 - Bronze Shield
+83 - Iron Shield
+84 - Mythril Shield
+85 - Gold Shield
+86 - Aegis Shield
+87 - Diamond Shield
+88 - Crystal Shield
+C4 - Flame Shield
+C6 - Genji Shield
+CD - Ice Shield
+CE - Blood Shield
+Head Armor
+89 - Leather Cap
+8A - Bronze Helmet
+8B - Iron Helmet
+8C - Mythril Helmet
+8D - Gold Helmet
+8E - Diamond Helmet
+8F - Crystal Helmet
+90 - Plumed Hat
+91 - Wizard Hat
+92 - Poet Cap
+93 - Circlet
+94 - Hair Ornament
+95 - Ribbon
+96 - Rope Headband
+97 - Green Beret
+98 - Black Hood
+99 - Lamia's Tiara
+C3 - Tiger Mask
+C7 - Genji Helmet
+CC - Thornlet
+CB - Coronet
+Body Armor
+80 - Nude ?
+9A - Leather Armor
+9B - Bronze Armor
+9C - Iron Armor
+9D - Mythril Armor
+9E - Gold Armor
+9F - Diamond Armor
+A0 - Crystalmail
+A1 - Bronze Plate
+A2 - Kung Fu Suit
+A3 - Silver Plate
+A4 - Ninja Suit
+A5 - Diamond Plate
+A6 - Black Costume
+A7 - Cotton Robe
+A8 - Silk Robe
+A9 - Earth Robe
+AA - Poet Robe
+AB - Luminous Robe
+AC - Black Robe
+AD - White Robe
+AE - Mirage Vest
+B9 - Power Tasuki
+BB - Angel Robe
+BF - Bonemail
+CF - Prism Dress
+C8 - Genji Armor
+Relics
+AF - Protect Ring
+B0 - Thief's Glove
+B1 - Giant's Glove
+B2 - Elf Cloak
+B3 - Hex Ring
+B4 - Silver Glasses
+B5 - Winged Shoes
+B6 - Mythril Glove
+B7 - Silver Arm Band
+B8 - Diamond Arm Band
+BA - Power Wrist
+BC - Angel Ring
+BD - Fire Ring
+BE - Coral Ring
+C0 - Leather Shoes
+C1 - Kaisr Knuckles
+C2 - Gauntlet
+C5 - Kornago Gourd
+C9 - Genji Glove
+CA - Wall Ring
+D0 - Red Shoes
+Items
+E0 - Potion
+E1 - Tonic
+E2 - Ether
+E3 - Elixir
+E4 - Phoenix Down
+E5 - Maiden's Kiss
+E6 - Holy Water
+E7 - Turtle Shell
+E8 - Antidote
+E9 - Eye Drop
+EA - Dragon Fang
+EB - Dark Matter
+EC - Soft
+ED - Cornucopia
+EE - Dummy
+EF - Magic Lamp
+F0 - Tent
+F1 - Cottage
+F2 - Giant Drink
+F3 - Power Drink
+F4 - Speed Drink
+F5 - Hard Body
+F6 - Hero Drink
+F7 - Dragon Seal
+F8 - Omega Badge
+F9 - Ramuh
+FA - Shoat
+FB - Golem
+FC - Fire Skill
+FD - Water Skill
+FE - Lightning Skill
+FF - Nothing
+
+Menu Digits
+
+Quantity Digits to Accompany Menu Modifier Codes
+00 - Nothing
+01 - !Etc
+02 - !Item
+03 - !Row
+04 - !Def.
+05 - !Fight
+06 - !Guard
+07 - !Kick
+08 - !Store
+09 - !Chkra
+0A - !Flee
+0B - !Steal
+0C - !Mug
+0D - !Jump
+0E - !Lance
+0F - !Dustb
+10 - !Twin
+11 - !Throw
+12 - !Sslap
+13 - !$toss
+14 - !Fdraw
+15 - !Critt
+16 - !Aim
+17 - !Sshot
+18 - !Call
+19 - !Check
+1A - !View
+1B - !Tame
+1C - !Cntrl
+1D - !Catch
+1E - !Free
+1F - !Mix
+20 - !Drink
+21 - !Recvr
+22 - !Rvive
+23 - !Earth
+24 - !Dmy01
+25 - !Hide
+26 - !Ready
+27 - !Dmy02
+28 - !Sing
+29 - !Flirt
+2A - !Dance
+2B - !Mimic
+2C - !Sword
+
+New/Load Screen Character Digits
+
+Quantity Digits to Accompany New/Load Screen Character Modifier Codes
+0000 - Bartz
+0010 - Reina
+0020 - Galuf
+0030 - Faris
+0040 - Wizard
+0050 - Doctor
+0060 - Wolf
+0070 - ????
+0080 - Chocobo
+0090 - Mog
+00A0 - ????
+00B0 - ????
+00C0 - ????
+00D0 - Cloud
+00E0 - ????
+
+Vehicle Digits
+
+Quantity Digits to Accompany Vehicle Modifier Code
+00 - Main Character
+01 - Chocobo
+02 - Black Chocobo
+03 - Dragon
+04 - Submarine
+05 - Boat
+06 - Zeppelin

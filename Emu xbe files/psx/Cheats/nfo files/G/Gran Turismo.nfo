@@ -1,0 +1,239 @@
+Quantity Digits to Accompany 'Course Modifier' Codes
+C790 - Autumn Ring
+C71C - Autumn Ring 2
+C77C - Autumn Mini
+C748 - Autumn Mini 2
+C754 - Clubman Stage R5
+C728 - Clubman Stage R5 2
+C6D4 - Deep Forrest
+C6D8 - Deep Forrest 2
+C6F8 - Grand Valley
+C6C8 - Grand Valley 2
+C6B0 - Grand Valley East
+C6E0 - Grand Valley East 2
+C760 - High Speed Ring
+C738 - High Speed Ring 2
+C76C - Special Section R5
+C6EC - Special Section R5 2
+C6A8 - Special Section R11
+C710 - Special Section R11 2
+C774 - Test Course
+C784 - Trial Mountain
+C700 - Trial Mountain 2
+
+Quantity Digits to Accompany Hi-Res Course Modifier Codes
+00 - Grand Valley (Sim)
+01 - Grand Valley 2 (Sim)
+03 - Grand Valley (Arcade)
+04 - Grand Valley East (Sim)
+05 - Grand Valley East 2 (Sim)
+06 - Grand Valley East (Arcade)
+08 - Autumn Ring (Sim)
+09 - Autumn Ring 2 (Sim)
+0A - Autumn Ring (Arcade)
+0C - Autumn Mini (Sim)
+0D - Autumn Mini 2 (Sim)
+0E - Autumn Mini (Arcade)
+20 - High Speed Ring (Sim)
+21 - High Speed Ring 2 (Sim)
+22 - Deep Forest (Sim)
+23 - Deep Forest 2 (Sim)
+24 - Trial Mountain (Sim)
+25 - Trial Mountain 2 (Sim)
+26 - Test Course (Sim)
+2B - High Speed Ring (Arcade)
+2C - Deep Forest (Arcade)
+2D - Trial Mountain (Arcade)
+
+Quantity Digits to Accompany Have 100 Cars Code
+00-Toyota-STARLET GLANZA V
+01-Toyota-LEVIN BZ.G
+02-Toyota-Sprinter TRUENO BZ.G
+03-Toyota-CORONA EXIV 200GT
+04-Toyota-Celica SSII
+05-Toyota-Celica GT FOUR
+06-Toyota-* 1992 MARK II 2.5 TOURER V
+07-Toyota-1992 MARK II 2.5 TOURER S
+08-Toyota-CHASER 2.5 TOURER V
+09-Toyota-CHASER 2.5 TOURER S
+0A-Toyota-1995 SOARER 2.5 GT-T
+0B-Toyota-* SOARER 2.5 GT-T VVT-I
+0C-Toyota-MR2 G-Limited
+0D-Toyota-MR2 GT-S
+0E-Toyota-* 1995 SUPRA SZ-R
+0F-Toyota-1995 SUPRA RZ
+10-Toyota-SUPRA SZ-R
+11-Toyota-SUPRA RZ
+12-Toyota-SUPRA 3.0 GT Limited
+13-Toyota-SUPRA Twin Turbo R
+14-Toyota-COROLLA LEVIN 1600GT APEX
+15-Toyota-Sprinter TRUENO GT-APEX
+16-Toyota-* CASTROL SUPRA GT
+17-Toyota-Sprinter TRUENO GT-APEX (DUPLICATE)
+18-Toyota-* CHASER Limited Edition (Black)
+19-Toyota-* Celica SS II (Yellow)
+1A-Toyota-* SOARER 2.5 GT-T VVT-I (Red/Maroon)
+1B-Toyota-Supra RZ (Brown) (DUPLICATE)
+1C-Toyota-* TRD 3000GT (Silver)
+1D-Toyota-* CASTROL Supra GT (Black)
+1E-Nissan-Fairlady Z Version S 2BY2
+1F-Nissan-Fairlady Z + Twin Turbo
+20-Nissan-Fairlady Z Version S 2 SEATER
+21-Nissan-Fairlady Z Version S Twin Turbo 2 SEATER
+22-Nissan-1989 Skyline GT-R (Silver)
+23-Nissan-1991 Skyline GT-R
+24-Nissan-Skyline GT-R V-SPEC
+25-Nissan-Skyline GT-R V-SPEC II
+26-Nissan-* Nismo Skyline GT-R (Black)
+27-Nissan-Skyline GTS-T TYPE M
+28-Nissan-Skyline GTS25 TYPE S
+29-Nissan-Skyline GTS-4
+2A-Nissan-Skyline GTS25T TYPE M
+2B-Nissan-1995 Skyline GT-R
+2C-Nissan-1995 Skyline GT-R V-SPEC
+2D-Nissan-Skyline GT-R
+2E-Nissan-* Skyline GT-R V-SPEC
+2F-Nissan-Silvia Q'S AERO
+30-Nissan-Silvia K'S AERO
+31-Nissan-1995 Silvia Q'S AERO
+32-Nissan-1995 Silvia K'S AERO
+33-Nissan-1991 Silvia Q'S 2000CC
+34-Nissan-1991 Silvia K'S 2000CC
+35-Nissan-1988 Silvia Q'S 1800CC (AQUA/Grey)
+36-Nissan-1988 Silvia K'S 1800CC (AQUA/Grey)
+37-Nissan-1990 Primera 2.0 TE
+38-Nissan-1995 Primera 2.0 TE
+39-Nissan-* 1994 180SX TYPE X
+3A-Nissan-180SX TYPE X
+3B-Nissan-180SX TYPE S
+3C-Nissan-1994 PULSAR GTI-R
+3D-Nissan-* Nismo GT-R Limited Edition
+3E-Nissan-Skyline GT-R (Burgundy)
+3F-Nissan-* Nismo 400R (Silver)
+40-Nissan-* Nismo 400 GT-R Limited Edition (Silver)
+41-Nissan-Silvia Q'S 1800CC (Burgundy)
+42-Nissan-* Silvia Limited Edition (Red)
+43-Nissan-SIL EIGHTY (Yellow)
+44-Mitsubishi-1992 GTO
+45-Mitsubishi-1992 GTO Twin Turbo
+46-Mitsubishi-1995 GTO SR
+47-Mitsubishi-1995 GTO Twin Turbo
+48-Mitsubishi-1995 GTO Twin Turbo MR
+49-Mitsubishi-GTO SR
+4A-Mitsubishi-GTO Twin Turbo
+4B-Mitsubishi-GDI Galant VR-G Touring
+4C-Mitsubishi-VR-4 Galant
+4D-Mitsubishi-ECLIPSE (Black)
+4E-Mitsubishi-1994 FTO GR
+4F-Mitsubishi-1994 FTO GPX
+50-Mitsubishi-FTO GR
+51-Mitsubishi-FTO GPX
+52-Mitsubishi-FTO GP-R Version
+53-Mitsubishi-LANCER GSR EVOLUTION III
+54-Mitsubishi-LANCER GSR EVOLUTION II
+55-Mitsubishi-MIRAGE ASU RX
+56-Mitsubishi-1992 3000R MIRAGE CYBORG-R
+57-Mitsubishi-* GTO Limited Edition (Grey)
+58-Mitsubishi-* FTO Limited Edition (Black)
+59-Mitsubishi-* LANCER GSR EVOLUTION IV (Yellow)
+5A-Honda-1990 NSX
+5B-Honda-1992 NSX-R
+5C-Honda-NSX
+5D-Honda-NSX TYPE S
+5E-Honda-NSX TYPE S-ZERO
+5F-Honda-1991 PRELUDE SI
+60-Honda-1991 PRELUDE SI VTEC
+61-Honda-PRELUDE SIR
+62-Honda-PRELUDE TYPE S
+63-Honda-INTEGRA SIR-G
+64-Honda-INTEGRA TYPE R
+65-Honda-CIVIC FERIO SI-II
+66-Honda-CIVIC SIR II
+67-Honda-CIVIC TYPE R
+68-Honda-1992 CR-X DEL SOL VXI
+69-Honda-1992 CR-X DEL SOL SIR
+6A-Honda-CR-X DEL SOL VGI
+6B-Honda-CR-X DEL SOL SIR
+6C-Honda-1993 CIVIC SIR II
+6D-Honda-* 1993 CIVIC FERIO SIR
+6E-Honda-* CR-X SIR
+6F-Honda-ACCORD SIR
+70-Honda-ACCORD Wagon SIR
+71-Honda-* NSX R GTI Turbo (Black)
+72-Honda-* CR-X DEL SOL Limited EDITON (Black)
+73-Honda-* CR-X SIR (Black)
+74-Honda-* CIVIC TYPE R (Yellow/Black)
+75-Mazda-Eunos COSMO 13B TYPE-S CCS
+76-Mazda-Eunos COSMO 20B TYPE-E CCS
+77-Mazda-LANTI TYPE R 2000 4 DOOR Coupe
+78-Mazda-1989 Eunos Roadster 1600
+79-Mazda-1990 Eunos Roadster 1600 V-Special
+7A-Mazda-1992 Eunos Roadster 1600 S-Special
+7B-Mazda-Eunos Roadster
+7C-Mazda-Eunos Roadster V-Special
+7D-Mazda-Eunos Roadster S-Special
+7E-Mazda-1991 EFINI RX-7 TYPE R
+7F-Mazda-EFINI RX-7 TYPE RZ (Black)
+80-Mazda-EFINI RX-7 TYPE RB BATHHURST
+81-Mazda-EFINI RX-7 Touring X
+82-Mazda-EFINI RX-7 A-SPEC
+83-Mazda-SAVANNA RX-7 GT-X
+84-Mazda-SAVANNA RX-7 Infiniti III
+85-Mazda-DEMIO GL-X
+86-Mazda-DEMIO GL
+87-Mazda-DEMIO LX
+88-Mazda-* RX-7 Limited Edition (Red)
+89-Mazda-Eunos Roadster (Yellow)
+8A-Mazda-* DEMIO A-SPEC (Silver)
+8B-Mazda-* RX-7 A-SPEC Limited Edition (GREEN)
+8C-Subaru-ALCIONE SVX Version L
+8D-Subaru-ALCIONE SVX S4 (Silver)
+8E-Subaru-Legacy RS Touring Sedan
+8F-Subaru-Legacy GT-B Touring Sedan
+90-Subaru-Legacy RS Touring Sedan
+91-Subaru-1993 Legacy GT Touring Wagon
+92-Subaru-Impreza WRX TYPE R STI Version
+93-Subaru-1996 Impreza WRX
+94-Subaru-1996 Impreza WRX STI Version III
+95-Subaru-1996 Impreza WRX Sports Wagon (Silver)
+96-Subaru-1996 Impreza WRX Sports Wagon WRX STI Version III
+97-Subaru-1995 Impreza WRX STI Version II
+98-Subaru-1995 Impreza Sports Wagon WRX STI Version II
+99-Subaru-1994 Impreza WRX
+9A-Subaru-1994 Impreza WRX (Silver)
+9B-Subaru-* Impreza Rally Edition (Black)
+9C-Subaru-ALCIONE SVX S4 (DUPLICATE)
+9D-Subaru-1996 Impreza WRX STI Version III (Brown)
+9E-Aston Martin-DB7 Coupe (Silver)
+9F-Aston Martin-VOLANTE (Silver)
+A0-Aston Martin-DB7 Coupe
+A1-Chrysler-VIPER RT/10 (Red)
+A2-Chrysler-VIPER GTS (Red)
+A3-Chrysler-* CONCEPT Car (Brown)
+A4-Chrysler-* VIPER GTS-R
+A5-Chrysler-* CONCEPT Car (Yellow)
+A6-Chevrolet-1996 Corvette Grand SPORT (Blue)
+A7-Chevrolet-1996 Corvette Coupe
+A8-Chevrolet-Camaro Z28
+A9-Chevrolet-* Camaro Z28 30TH Anniversary Edition
+AA-TVR-Cerbera
+AB-TVR-Griffith 500 (Black)
+AC-TVR-Griffith BlackPOOL B340
+AD-TVR-* Cerbera Limited Edition (Grey/Burgundy)
+AF-Mazda-* Eunos Roadster RS
+B0-Chevrolet-* 1967 Corvette 427 Coupe
+
+Note 1:
+With this code, start it, then turn shark off then enter Arcade mode - then turn shark back on!! Also you save it to memory card and never worry about activating the code again! Same for money and License codes!!
+
+Note 2:
+With this code, replays saved with this code on must be replayed with this code on. Works for both arcade and simulation modes.
+
+Note 3:
+With these codes, they allow you to change the courses in both Arcade and Simulation Hi Res Modes, the courses are interchangeable so you can use arcade course values in simulation mode and vice versa, when using arcade courses in simulation mode you will notice some slowdown in speed but the greater detail and especially the jumps in courses like Trial Mountain are very wild !
+
+Note 4:
+With these codes, they change the courses in every race and are for Simulation Mode only.
+
+Note 5:
+With this code, you recieve 1000 dollars for qualifying and 5000 dollars for winning any Spot Race in Sim mode.

@@ -1,0 +1,14 @@
+Quantity Digits to Accompany Gun Modifier Codes
+
+00 - Normal
+01 - Shot Gun
+02 - Machine Gun
+03 - Auto Shot Gun
+
+Quantity Digits to Accompany Game Difficulty Modifier Code
+
+00 - Novice
+01 - Easy
+02 - Medium
+03 - Hard
+04 - Expert

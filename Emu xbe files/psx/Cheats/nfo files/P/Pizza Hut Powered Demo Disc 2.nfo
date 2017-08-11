@@ -1,0 +1,2 @@
+Note 1:
+With this code, it will do one of two things: 1) Make Spark invisible or 2) Make Spark stay at the start of each level or each save point. This code only works for the Skelos Badlands level. Also: There is a chance Spark will pop back up after disappearing, but will usually disappear again after you lose a life.

@@ -1,0 +1,75 @@
+XBoyAdvance - GBA/GBC/GB/SGB/SGB2 Emulator for XBox v24b7
+
+http://xport.xbox-scene.com
+goto http://www.emuxtras.net/ for latest cheats, rumbles, synopsis and skin updates.
+
+recent changes..
+
+* Updated to madmab edition interface CFv1b19. See "Interface Changelog.txt"
+
+* Added 6 new software filters from GensX and 2 from NeoGeo CD emulator (see interface changelog for more details).
+
+* Based on user feedback removed the following software filters 2xSai Scanline, 4xSai Scanline, Super 2xSai Scanline, Super 4xSai Scanline, Eagle 2x Scanline, Eagle 4x Scanline, Super Eagle2x Scanline, Super Eagle4x Scanline.
+
+* Fixed issue where FPS stop displaying after playing your first game.
+
+----------------------------------------------------------------------------
+
+XBoyAdvance - GBA/GBC/GB/SGB/SGB2 Emulator for XBox v24b6
+
+* Updated to madmab edition interface CFv1b17.
+
+----------------------------------------------------------------------------
+
+XBoyAdvance - GBA/GBC/GB/SGB/SGB2 Emulator for XBox v24b5
+
+* Updated to madmab edition interface CFv1b14.
+
+----------------------------------------------------------------------------
+
+XBoyAdvance - GBA/GBC/GB/SGB/SGB2 Emulator for XBox v24b4
+
+* Updated to madmab edition interface CFv1b13.
+
+----------------------------------------------------------------------------
+
+XBoyAdvance - GBA/GBC/GB/SGB/SGB2 Emulator for XBox v24b3
+
+http://xport.xbox-scene.com
+goto http://www.emuxtras.net/ for latest cheats, rumbles, synopsis and skin updates.
+
+recent changes..
+
+Updated to madmab edition interface CFv1b08.  This is currently beta.  More info and other goodies on actual release.
+
+* Optimizations from VBA Next by libretro team, Vba-m team, bgK.  cmkn1983 for porting the optimizations to the Xbox
+
+* These optimizations include
+
+- Graphic rendering engine change to tile-based rendering.  Emulator runs about 8 to 12 (depending on game) FPS more faster.  Some gba games now run at fullspeed on xbox with 0 frameskip, even with filter super scale 2x scanline enabled.
+
+Here are some results testing well known games with frameskip option on xboyadvanced set to 1:
+
+- Donkey Kong Country 1 - Fullspeed (60FPS) (0 Frameskip) no filter
+
+- Crash Bandicoot 2 n-tranced - Fullspeed (60FPS) (0 Frameskip) super scale 2x scanline enabled
+
+- Mario Kart - Fullspeed (60FPS) (0 Frameskip) no filter
+
+- Metroid Fusion - Fullspeed (60FPS) (some dips to 58,57 FPS here an there) no filter
+
+- Castlevaia Aria of Sorrow - Fullspeed (60FPS) (0 Frameskip) no filter
+
+- Castlevania Circle of the Moon - Fullspeed (60FPS) (0 frameskip) super scale 2x scanline enabled
+
+- Final Fantasy 1 & 2 - Fullspeed (60FPS) (FPS dips on batlle screen) super scale 2x scanline enabled
+
+- Golden Sun 1 - Fullspeed (60FPS) (0 Frameskip, FPS dips on Battle) super scale 2x scanline enabled
+
+- Sonic Adventure - Fullspeed (60FPS) (0 frameskip) no filter
+
+- Street Fighter Alpha 3 Fullspeed (60FPS) (0 frameskip) super scale 2x scanline enabled
+
+Unfortunately, some games like Donkey Kong 2,3, Tony Hawk games and others are still slow :(, but i think this is a good choice for those who dont have a trusty xbox.
+
+* If a faster processor is detected (aka Trusty) the Frameskip will default to 0.  This will only apply to games without configurations.  On games without configurations you have to manually set the framerate to 0.

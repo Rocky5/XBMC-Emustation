@@ -1,0 +1,70 @@
+Quantity Digits to Accompany Fighting Style Option Modifier Codes
+00 - Normal (Alpha)
+01 - CPU Conrolled (Don't use in Arcade Mode)
+02 - Mazi (SF2:CE)
+03 - Saikyou (Pocket Fighter)
+04 - Classical (SF2)
+
+Quantity Digits to Accompany Character Modifier Codes
+00 - Ryu
+01 - Ken
+02 - Akuma
+03 - Charlie
+04 - Chun Li
+05 - Adon
+06 - Sodom
+07 - Guy
+08 - Birdie
+09 - Rose
+0A - M.Bison (Normal)
+0B - Sagat
+0C - Dan
+0D - Sakura
+0E - Rolento
+0F - Dhalsim
+10 - Zangief
+11 - Gen
+12 - Chun Li (Classic)
+13 - Gen (Alternate)
+14 - Sodom (Alternate)
+15 - Balrog (Classic)
+16 - Cammy
+17 - Evil Ryu
+18 - E.Honda
+19 - Blanka
+1A - R.Mika
+1B - Cody
+1C - Vega
+1D - Karin
+1E - Juli
+1F - Juni
+20 - Guile
+21 - Fei Long
+22 - Dee Jay
+23 - T. Hawk
+24 - Shin Akuma
+25 - Balrog
+
+Quantity Digits to Accompany ISM (Super Meter) Modifier Codes
+00 - A-ISM (Z-ISM)
+01 - V-ISM
+FF- X-ISM
+
+Quantity Digits to Accompany Game Mode Modifier Code
+00 - Arcade Mode
+01 - Versus Mode
+02 - Training Mode
+03 - World Tour
+04 - Entry Mode
+05 - PocketStation Mode
+06 - Team Battle Mode
+07 - Survival Mode
+08 - Dramatic Battle Menu
+09 - Final Battle Mode
+0A - Options Menu
+
+Note 1:
+With this code, it allows both players to hit, make contact, with each other no matter where they are on the screen.
+
+Note 2:
+With this code, push the buttons when the enemy line-up screen appears. When the vs. screen appears, push and hold X or any direction button, and let go of the code keys. Then let go of the X or direction button.

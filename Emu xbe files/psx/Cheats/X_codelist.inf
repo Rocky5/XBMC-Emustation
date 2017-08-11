@@ -1,0 +1,2214 @@
+#X-Bladez-Inline Skater#SLUS01444
+"Max Points
+8005131C 869F
+8005131E 0001
+"Always 2X Trick
+30051326 00FF
+"=Unlock Level 
+"Pacific Blitz-Qualify
+30051348 0001
+"Pacific Blitz-Race
+30051349 0001
+"Moonlight Bay-Qualify
+3005134A 0001
+"Moonlight Bay-Race
+3005134B 0001
+"Curbside Park-Qualify
+3005134C 0001
+"Curbside Park-Race
+3005134D 0001
+"Park And Grind-Qualify
+3005134E 0001
+"Park And Grind-Race
+3005134F 0001
+"Death Valley Heat-Qualify
+30051350 0001
+"Death Valley Heat-Race
+30051351 0001
+"The Heat Of The Night-Qualify
+30051352 0001
+"The Heat Of The Night-Race
+30051353 0001
+"Astro Jam-Qualify
+30051354 0001
+"Astro Jam-Race
+30051355 0001
+"Starblaze-Qualify
+30051356 0001
+"Starblaze-Race
+30051357 0001
+"All Levels
+50000902 0000
+80051348 0101
+"=Unlock Character 
+"Kevin
+30051340 0001
+"Stephanie
+30051341 0001
+"Tyler
+30051342 0001
+"Gage
+30051343 0001
+"Harlie
+30051344 0001
+"Flap-Jax
+30051345 0001
+"Robot
+30051346 0001
+"All Characters
+50000302 0000
+80051340 0101
+
+#X-Com-U.F.O. Defense#SLUS00141
+"Joker Command (add 16-bit value)
+D00BC0E4 ????
+"Infinite Cash
+D000E110 2000
+800CEE36 0FFF
+"Infinite Time Units 1st Soldier
+80019A12 2240
+"Infinite Stamina 1st Soldier
+80019A14 4000
+"Infinite Shots 1st Soldier
+800146CC 0014
+"Infinite Time Units 2nd Soldier
+80019A8E 243A
+"Infinite Stamina 2nd Soldier
+80019A90 4400
+"Infinite Shots 2nd Soldier
+800146DC 0012
+"Infinite Time Units 3rd Soldier
+80019B0A 283C
+"Infinite Stamina 3rd Soldier
+80019B0C 3B00
+"Infinite Shots 3rd Soldier
+800146EC 0014
+"Infinite Time Units 4th Soldier
+80019B86 2432
+"Infinite Stamina 4th Soldier
+80019B88 3A00
+"Infinite Shots 4th Soldier
+800146FC 0014
+"Infinite Time Units 5th Soldier
+80019C02 1B33
+"Infinite Stamina 5th Soldier
+80019C04 2E00
+"Infinite Shots 5th Soldier
+8001470C 0014
+"Infinite Time Units 6th Soldier
+80019C7E 1D32
+"Infinite Stamina 6th Soldier
+80019C80 4300
+"Infinite Shots 6th Soldier
+8001471C 0014
+"Infinite Time Units 7th Soldier
+80019CFA 1C34
+"Infinite Stamina 7th Soldier
+80019CFC 3500
+"Infinite Shots 7th Soldier
+8001479C 0006
+"Infinite Time Units 8th Soldier
+80019D76 283C
+"Infinite Stamina 8th Soldier
+80019D78 4400
+"Infinite Shots 8th Soldier
+8001461C 000C
+"Infinite Time Units 9th Soldier
+80019DF2 2135
+"Infinite Stamina 9th Soldier
+80019DF4 2E00
+"Infinite Shots 9th Soldier
+8001471C 000E
+"Infinite Time Units 10th Soldier
+80019E6E 1B38
+"Infinite Stamina 10th Soldier
+80019E70 2900
+"Infinite Shots 10th Soldier
+8001472C 000E
+"Infinite Elerium 115
+80010DE4 00DC
+"Infinite Time Units (All Soldiers)
+800516FC 0000
+8004C5B0 0000
+800493A8 0000
+"Infinite Stamina (All Soldiers)
+80051704 0000
+"Infinite Stingray Launchers
+80010D6C 270F
+"Infinite Avalanche Launchers
+80010D6E 270F
+"Infinite Cannons
+80010D70 270F
+"Infinite Fusion Ball Launchers
+80010D72 270F
+"Infinite Laser Cannons
+80010D74 270F
+"Infinite Plasma Beams
+80010D76 270F
+"Infinite Stingray Missiles
+80010D78 270F
+"Infinite Avalanche Missiles
+80010D7A 270F
+"Infinite Cannon Rounds
+80010D7C 270F
+"Infinite Fusion Balls
+80010D7E 270F
+"Infinite Tank/Cannons
+80010D80 270F
+"Infinite Tank/Rocket Launchers
+80010D82 270F
+"Infinite Tank/Laser Cannons
+80010D84 270F
+"Infinite Hovertank/Plasms
+80010D86 270F
+"Infinite Hovertank/Launchers
+80010D88 270F
+"Infinite Pistols
+80010D8A 270F
+"Infinite Pistol Clips
+80010D8C 270F
+"Infinite Rifles
+80010D8E 270F
+"Infinite Rifle Clips
+80010D90 270F
+"Infinite Heavy Cannons
+80010D92 270F
+"Infinite HC-AP Ammo
+80010D94 270F
+"Infinite HC-HE Ammo
+80010D96 270F
+"Infinite HC-I Ammo
+80010D98 270F
+"Infinite Auto Cannon
+80010D9A 270F
+"Infinite AC-AP Ammo
+80010D9C 270F
+"Infinite AC-HE Ammo
+80010D9E 270F
+"Infinite AC-I Ammo
+80010DA0 270F
+"Infinite Rocket Launchers
+80010DA2 270F
+"Infinite Small Rockets
+80010DA4 270F
+"Infinite Large Rockets
+80010DA6 270F
+"Infinite Incendiary Rockets
+80010DA8 270F
+"Infinite Laser Pistols
+80010DAA 270F
+"Infinite Laser Rifles
+80010DAC 270F
+"Infinite Heavy Lasers
+80010DAE 270F
+"Infinite Grenades
+80010DB0 270F
+"Infinite Smoke Grenades
+80010DB2 270F
+"Infinite Proximity Grenades
+80010DB4 270F
+"Infinite High Explosives
+80010DB6 270F
+"Infinite Motion Scanner
+80010DB8 270F
+"Infinite Medi-Kits
+80010DBA 270F
+"Infinite PSI-Amps
+80010DBC 270F
+"Infinite Stun Rod
+80010DBE 270F
+"Infinite Electro-Flares
+80010DC0 270F
+"Infinite Heavy Plasmas
+80010DCE 270F
+"Infinite Heave Plasma Clips
+80010DD0 270F
+"Infinite Plasma Rifles
+80010DD2 270F
+"Infinite Plasma Rifle Clips
+80010DD4 270F
+"Infinite Plasma Pistols
+80010DD6 270F
+"Infinite Plasma Pistol Clips
+80010DD8 270F
+"Infinite Blaster Launchers
+80010DDA 270F
+"Infinite Blaster Bombs
+80010DDC 270F
+"Infinite Small Launchers
+80010DDE 270F
+"Infinite Stun Bombs
+80010DE0 270F
+"Infinite Alien Grenades
+80010DE2 270F
+"Infinite Mind Probes
+80010DE6 270F
+"Infinite Sectoind Corpses
+80010DEE 270F
+"Infinite Snakeman Corpses
+80010DF0 270F
+"Infinite Etereal Corpses
+80010DF2 270F
+"Infinite Muton Corpses
+80010DF4 270F
+"Infinite Floater Corpses
+80010DF6 270F
+"Infinite Celatid Corpses
+80010DF8 270F
+"Infinite Silacoid Corpses
+80010DFA 270F
+"Infinite Chryssalid Corpses
+80010DFC 270F
+"Infinite Reaper Corpses
+80010DFE 270F
+"Infinite Sectopod Corpses
+80010E00 270F
+"Infinite Cyberdisk Corpses
+80010E02 270F
+"Infinite UFO Power Sources
+80010E0C 270F
+"Infinite UFO Navigations
+80010E0E 270F
+"Infinite Alien Food
+80010E12 270F
+"Infinite Alien Entertainment
+80010E16 270F
+"Infinite Alein Alloys
+80010E1C 270F
+"Infinite Personal Armor
+80010E20 270F
+"Infinite Power Suits
+80010E22 270F
+"Infinite Flying Suits
+80010E24 270F
+
+#X-Files#SLUS00915
+"Reverse Joker Command (add 16-bit value)
+D00F2900 ????
+"Have All Items [Note 1]
+80128D84 FFFF
+80128D86 FFFF
+80128D88 FFFF
+
+#X-Men Vs. Street Fighter#SLUS00627
+"Command (add 16-bit value)
+D00420D0 ????
+"Infinite Energy P1
+80042C34 0090
+"25% Energy P1
+D0042C34 0090
+80042C34 0024
+"50% Energy P1
+D0042C34 0090
+80042C34 0048
+"75% Energy P1
+D0042C34 0090
+80042C34 007C
+"1-Hit Death P1
+D0042C34 0090
+80042C34 0001
+"No Energy P1
+80042C34 0000
+"Max Power Bar P1
+30042C38 0203
+"No Power Bar P1
+30042C38 0000
+"Play As Apocalypse P1
+80042A64 0010
+"Infinite Energy P2
+80042F7C 0090
+"25% Energy P2
+D0042F7C 0090
+80042F7C 0024
+"50% Energy P2
+D0042F7C 0090
+80042F7C 0048
+"75% Energy P2
+D0042F7C 0090
+80042F7C 007C
+"1-Hit Death P2
+D0042F7C 0090
+80042F7C 0001
+"No Energy P2
+80042F7C 0000
+"Max Power Bar P2
+30042F80 0203
+"No Power Bar P2
+30042F80 0000
+"Play As Apocalypse P2
+80042DAC 0010
+"Press Select To Open EX Menu At Main Menu
+D00420D0 0100
+80042180 0107
+"Tag Team Mode Always Active All Modes [Note 1]
+8004278C 0000
+"Hit Anywhere (Both Players) [Note 2]
+8003346E 2400
+800334EE 2400
+"Infinite Time
+30042350 0063
+"Play As Apocalypse P1
+80042A64 0010
+"All Attacks Hurt P1
+80072B9C 8004
+80072B9E 3C11
+80072BA4 2A10
+80072BA6 3631
+"All Attacks Hurt P2
+80072B9C 8004
+80072B9E 3C11
+80072BA4 2D58
+80072BA6 3631
+"1st Character Modifier P1 (add 8-bit value)
+8004299C 00??
+"2nd Character Modifier P1 (add 8-bit value)
+80043104 00??
+
+#X-Men - Children Of The Atom#SLUS00044
+"Joker Command (add 16-bit value)
+D00CAA08 ????
+"P1 Cant Move or Be Hit
+8003B596 0004
+"Infinite Energy P1
+8003B6E8 008F
+"25% Energy P1
+D003B6E8 008F
+8003B6E8 0023
+"50% Energy P1
+D003B6E8 008F
+8003B6E8 0047
+"75% Energy P1
+D003B6E8 008F
+8003B6E8 006B
+"No Energy P1
+8003B6E8 0000
+"1-Hit Death P1
+D003B6E8 008F
+8003B6E8 0001
+"Super Bar Always Full P1
+8003B6EC 008E
+"No Super Bar P1
+8003B6EC 0000
+"P2 Cant Move [Note 1]
+D00CAA08 0100
+8003B996 0004
+"Infinite Energy P2
+8003BAE8 008F
+"25% Energy P2
+D003BAE8 008F
+8003BAE8 0023
+"50% Energy P2
+D003BAE8 008F
+8003BAE8 0047
+"75% Energy P2
+D003BAE8 008F
+8003BAE8 006B
+"No Energy P2
+8003BAE8 0000
+"1-Hit Death P2
+D003BAE8 008F
+8003BAE8 0001
+"Super Bar Always Full P2
+8003BAEC 008E
+"No Super Bar P2
+8003BAEC 0000
+"Start With One Win P1
+D003BD58 0000
+3003BD58 0001
+"Start With One Win P2
+D003BD58 0000
+3003BD58 0002
+"P1 Never Wins
+3003BD58 0000
+"P2 Never Wins
+3003BD59 0000
+"Character Modifier P1 (add 8-bit value)
+8003BE58 01??
+"Character Modifier P2 (add 8-bit value)
+8003BE5A 01??
+
+#X-Men - Mutant Academy#SLUS00774
+"Command P1 (add 16-bit value)
+D009679C ????
+"Command P2 (add 16-bit value)
+D009679E ????
+"P1 Infinite Health
+800A1E5C B400
+"P1 75% Health
+D00A1E5C B400
+800A1E5C 8700
+"P1 50% Health
+D00A1E5C B400
+800A1E5C 5A00
+"P1 25% Health
+D00A1E5C B400
+800A1E5C 2D00
+"P1 Quick Death
+D00A1E5C B400
+800A1E5C 0000
+"P2 Infinite Health
+800A2430 B400
+"P2 75% Health
+D00A2430 B400
+800A2430 8700
+"P2 50% Health
+D00A2430 B400
+800A2430 5A00
+"P2 25% Health
+D00A2430 B400
+800A2430 2D00
+"P2 Quick Death
+D00A2430 B400
+800A2430 0000
+"See Ending After First Battle
+E009F0AC 0000
+3009F0AC 0009
+"Unlock Everything
+50000402 0000
+800BE56C FFFF
+"Infinite Round Time
+3009EB44 0063
+"P1 Infinite Super Meter
+800A1F38 1400
+"P1 Infinite Stringed Supers Meter
+800A1F3A 1E00
+"P1 Infinite X-treme Supers Meter
+800A1F3C 2A00
+800A1F34 1500
+"P1 Infinite Move Counters
+800A1F40 0000
+"P1 Never Loses
+800A1F28 0000
+"P1 Only Needs 1 Win
+D00A1F28 0000
+800A1F28 0001
+"P2 Infinite Super Meter
+800A250C 1400
+"P2 Infinite Stringed Supers Meter
+800A250E 1E00
+"P2 Infinite X-treme Supers Meter
+800A2510 2A00
+800A2508 1500
+"P2 Infinite Move Counters
+800A2514 0000
+"P2 Never Loses
+800A24FC 0000
+"P2 Only Needs 1 Win
+D00A24FC 0000
+800A24FC 0001
+"Instant Death (First Hit Kills) P1 & P2
+8001565E 2400
+80015676 A643
+"P1 Character Modifier (add 8-bit value)
+801FA680 00??
+"P2 Character Modifier (add 8-bit value)
+801FA684 00??
+"P1 Always Gets A Hella Combo Hit Total
+800CF348 FFFF
+"P2 Always Gets A Hella Combo Hit Total
+800CF358 FFFF
+
+#X-Men-Mutant Academy 2#SLUS01382
+"Infinite Health P1
+800ADE94 B400
+800ADE96 B400
+"25% Health P1
+D00ADE94 B400
+800ADE94 2D00
+D00ADE96 B400
+800ADE96 2D00
+"50% Health P1
+D00ADE94 B400
+800ADE94 5A00
+D00ADE96 B400
+800ADE96 5A00
+"75% Health P1
+D00ADE94 B400
+800ADE94 8700
+D00ADE96 B400
+800ADE96 8700
+"1-Hit Death P1
+D00ADE94 B400
+800ADE94 0100
+D00ADE96 B400
+800ADE96 0100
+"No Health P1
+800ADE94 0000
+800ADE96 0000
+"P1 Never Wins
+800ADF60 0000
+"P1 Needs 1 Win To Win
+D00ADF60 0000
+800ADF60 0001
+"Max Special 1 P1
+800ADF72 1400
+"Max Special 2 P1
+800ADF74 1E00
+"Max Special 3 P1
+800ADF76 2800
+"No Special 1 P1
+800ADF72 0000
+"No Special 2 P1
+800ADF74 0000
+"No Special 3 P1
+800ADF76 0000
+"Infinite Health P2
+800AE4E8 B400
+800AE4EA B400
+"25% Health P2
+D00AE4E8 B400
+800AE4E8 2D00
+D00AE4EA B400
+800AE4EA 2D00
+"50% Health P2
+D00AE4E8 B400
+800AE4E8 5A00
+D00AE4EA B400
+800AE4EA 5A00
+"75% Health P2
+D00AE4E8 B400
+800AE4E8 8700
+D00AE4EA B400
+800AE4EA 8700
+"1-Hit Death P2
+D00AE4E8 B400
+800AE4E8 0100
+D00AE4EA B400
+800AE4EA 0100
+"No Health P2
+800AE4E8 0000
+800AE4EA 0000
+"P2 Never Wins
+800AE5B4 0000
+"P2 Needs 1 Win To Win
+D00AE5B4 0000
+800AE5B4 0001
+"Max Special 1 P2
+800AE5C6 1400
+"Max Special 2 P2
+800AE5C8 1E00
+"Max Special 3 P2
+800AE5CA 2800
+"No Special 1 P2
+800AE5C6 0000
+"No Special 2 P2
+800AE5C8 0000
+"No Special 3 P2
+800AE5CA 0000
+"Infinite Time
+800AA958 0063
+"Hit Anywhere (Both Players)
+D001CFC4 0043
+8001CFC6 2400
+"=Unlock Cerebor Items (Non-Saveable)
+"Cyclops
+D01F760C 8011
+301F75E0 0000
+"Cyclops-Spider-Man
+D01F760C 8011
+301F75F1 0000
+"Wolverine
+D01F760C 8011
+301F75E1 0000
+"Gambit
+D01F760C 8011
+301F75E2 0000
+"Storm
+D01F760C 8011
+301F75E3 0000
+"Beast
+D01F760C 8011
+301F75E4 0000
+"Phoenix
+D01F760C 8011
+301F75E5 0000
+"Toad
+D01F760C 8011
+301F75E6 0000
+"Mystique
+D01F760C 8011
+301F75E7 0000
+"Sabretooth
+D01F760C 8011
+301F75E8 0000
+"Magneto
+D01F760C 8011
+301F75E9 0000
+"Magneto-Unlock Xavier
+D01F760C 8011
+301F75F0 0000
+"Juggernaut
+D01F760C 8011
+301F75EA 0000
+"NightCrawler
+D01F760C 8011
+301F75EB 0000
+"Forge
+D01F760C 8011
+301F75EC 0000
+"Rogue
+D01F760C 8011
+301F75ED 0000
+"Havok
+D01F760C 8011
+301F75EE 0000
+"Psylocke
+D01F760C 8011
+301F75EF 0000
+"All Characters
+D01F760C 8011
+50000902 0000
+801F75E0 0000
+
+#Xena - Warrior Princess#SLUS00977
+"Joker Command (add 16-bit value)
+D00F16E0 ????
+"Turbo Joker Command (add 16-bit value)
+D00F16D8 ????
+800F16D8 0000
+"Have Life Potion
+800FC0A8 0001
+"Have Homing Chakram Item
+800FC0F0 0001
+"Have Fire Weapon Item
+800FC114 0001
+"Have Inviniciblity Item
+800FC138 0001
+"Have Ice Weapon Item
+800FC15C 0001
+"Have Harp Item
+800FC180 0001
+"Have Resurrection Jewel
+300F277C 0001
+"Have Unlock Key
+300F277D 0001
+"Have Max Life Potions
+300F277E 00FF
+"Have Max Homing Chakram Item
+300F2780 00FF
+"Have Max Fire Weapon Item
+300F2781 00FF
+"Have Max Inviniciblity Item
+300F2782 00FF
+"Have Max Ice Weapon Item
+300F2783 00FF
+"Have Max Harp Item
+300F2784 00FF
+"Have Max Armor Upgrades
+300F2785 0063
+"Have Max Sword Upgrades
+300F2786 0063
+"Have Max Scrolls
+300F277A 0063
+"Max Chakram
+300F1135 0064
+"Super Xena
+800F1136 02F5
+"Invincible
+800F0CC2 016F
+800F0CDC 0001
+"Have Max Lightning Weapon Item
+300F277F 00FF
+"Monster Only Hits One Pole To Make Roof Fall (Temple Of The Pinnacles Level)
+800F109C 00FF
+"No Enemies [Note 1]
+300F2774 00FF
+"All Hostages Saved
+300F2776 00FF
+"Quick In-Game Reset\Quick Ending (Press L1+R1) [Note 2]
+D00F16E0 0140
+300F2772 001A
+"Level Modifier (add 8-bit value)
+800EE200 00??
+"=After Level Stats 
+"Have 255 Kills
+300F2775 00FF
+"Saved 255 Hostages
+300F2777 00FF
+"Got 255 Items
+800F2778 FFFF
+"Have 42 Scrolls
+300F277B 002A
+"Enable All Levels With First Save
+800F123C 001A
+"Enable All Scrolls With First Save
+800F26BC FFFF
+800F26BE FFFF
+800F26C0 FFFF
+800F26C2 FFFF
+"Have Max Ending Stats With First Save
+50005002 0000
+800F26C4 FFFF
+
+#Xenogears (Character)#SLUS00664
+"=Character 
+"=Fei Fong Wong 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006D8DC ????
+"Level Up
+8006D8E4 0001
+8006D8E6 0000
+"Infinite HP
+8006D8EC 03E7
+"Max HP
+8006D8EE 03E7
+"Infinite EP
+8006D8F0 03E7
+"Max EP
+8006D8F2 03E7
+"=Max Abilities 
+"Attack
+3006D8F8 00FF
+"Defense
+3006D8F9 00FF
+"Agility
+3006D8FA 00FF
+"Ether
+3006D8FB 00FF
+"Ether Defense
+3006D8FC 00FF
+"Hit %
+3006D8FE 00FF
+"Evade %
+3006D8FF 00FF
+"Level 99
+3006D902 0063
+"Weapon Modifier (add 8-bit value)
+3006D90A 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006D914 00??
+"Slot 2
+3006D915 00??
+"Slot 3
+3006D916 00??
+"Low Weight
+3006D917 0000
+"Learn A Skill Each Battle
+8006D930 FFFF
+8006D932 FFFF
+8006D934 FFFF
+8006D936 FFFF
+8006D938 FFFF
+8006D93A FFFF
+8006D93C FFFF
+8006D93E FFFF
+"Gear Modifier (add 8-bit value)
+8006D940 00??
+"Max Exp
+8006D8DC E0FF
+8006D8DE 05F5
+"All Abilities
+8006ECF6 FF00
+"All Skills
+8006ECF4 FFFF
+"7/7 AP
+3006ED0B 0007
+"=Citan Uzuki 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DA24 ????
+"Level Up
+8006DA2C 0001
+8006DA2E 0000
+"Infinite HP
+8006DA34 03E7
+"Max HP
+8006DA36 03E7
+"Infinite EP
+8006DA38 03E7
+"Max EP
+8006DA3A 03E7
+"=Max Abilities 
+"Attack
+3006DA40 00FF
+"Defense
+3006DA41 00FF
+"Agility
+3006DA42 00FF
+"Ether
+3006DA43 00FF
+"Ether Defense
+3006DA44 00FF
+"Hit %
+3006DA46 00FF
+"Evade %
+3006DA47 00FF
+"Level 99
+3006DA4A 0063
+"Weapon Modifier (add 8-bit value)
+3006DA52 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DA5C 00??
+"Slot 2
+3006DA5D 00??
+"Slot 3
+3006DA5E 00??
+"Low Weight
+3006DA5F 0000
+"Learn A Skills Each Battle
+8006DA78 FFFF
+8006DA7A FFFF
+8006DA7C FFFF
+8006DA7E FFFF
+8006DA80 FFFF
+8006DA82 FFFF
+8006DA84 FFFF
+8006DA86 FFFF
+"Gear Modifier (add 8-bit value)
+8006DA88 00??
+"Max Exp
+8006DA24 E0FF
+8006DA26 05F5
+"All Abilities
+8006ED36 FFE0
+"All Skills
+8006ED34 FFE0
+"7/7 Ap
+3006ED4B 0007
+"=Citan Uzuki (2nd) 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DEA0 ????
+"Level Up
+8006DEA8 0001
+8006DEAA 0000
+"Infinite HP
+8006DEB0 03E7
+"Max HP
+8006DEB2 03E7
+"Infinite EP
+8006DEB4 03E7
+"Max EP
+8006DEB6 03E7
+"=Max Abilities 
+"Attack
+3006DEBC 00FF
+"Defense
+3006DEBD 00FF
+"Agility
+3006DEBE 00FF
+"Ether
+3006DEBF 00FF
+"Ether Defense
+3006DEC0 00FF
+"Hit %
+3006DEC2 00FF
+"Evade %
+3006DEC3 00FF
+"Level 99
+3006DEC6 0063
+"Weapon Modifier (add 8-bit value)
+3006DECE 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DED8 00??
+"Slot 2
+3006DED9 00??
+"Slot 3
+3006DEDA 00??
+"Low Weight
+3006DEDB 0000
+"Learn A Skills Each Battle
+8006DEF4 FFFF
+8006DEF6 FFFF
+8006DEF8 FFFF
+8006DEFA FFFF
+8006DEFC FFFF
+8006DEFE FFFF
+8006DF00 FFFF
+8006DF02 FFFF
+"Gear Modifier (add 8-bit value)
+8006DF04 00??
+"Max Exp
+8006DEA0 E0FF
+8006DEA2 05F5
+"All Abilities
+8006EE16 FFE0
+"All Skills
+8006EE14 FFE0
+"7/7 Ap
+3006EE2B 0007
+"=Bartholomew Fatima 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DAC8 ????
+"Level Up
+8006DAD0 0001
+8006DAD2 0000
+"Infinite HP
+8006DAD8 03E7
+"Max HP
+8006DADA 03E7
+"Infinite EP
+8006DADC 03E7
+"Max EP
+8006DADE 03E7
+"=Max Abilities 
+"Attack
+3006DAE4 00FF
+"Defense
+3006DAE5 00FF
+"Agility
+3006DAE6 00FF
+"Ether
+3006DAE7 00FF
+"Ether Defense
+3006DAE8 00FF
+"Hit %
+3006DAEA 00FF
+"Evade %
+3006DAEB 00FF
+"Level 99
+3006DAEE 0063
+"Weapon Modifier (add 8-bit value)
+3006DAF6 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DB00 00??
+"Slot 2
+3006DB01 00??
+"Slot 3
+3006DB02 00??
+"Low Weight
+3006DB03 0000
+"Learn A Skills Each Battle
+8006DB1C FFFF
+8006DB1E FFFF
+8006DB20 FFFF
+8006DB22 FFFF
+8006DB24 FFFF
+8006DB26 FFFF
+8006DB28 FFFF
+8006DB2A FFFF
+"Gear Modifier (add 8-bit value)
+8006DB2C 00??
+"Max Exp
+8006DAC8 E0FF
+8006DACA 05F5
+"All Abilities
+8006ED56 FFC0
+"All Skills
+8006ED54 FFE0
+"7/7 Ap
+3006ED6B 0007
+"=Billy Lee Black 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DB6C ????
+"Level Up
+8006DB74 0001
+8006DB76 0000
+"Infinite HP
+8006DB7C 03E7
+"Max HP
+8006DB7E 03E7
+"Infinite EP
+8006DB80 03E7
+"Max EP
+8006DB82 03E7
+"=Max Abilities 
+"Attack
+8006DB86 FFFF
+"Defense
+8006DB88 FFFF
+"Agility
+3006DB8A 00FF
+"Ether
+3006DB8B 00FF
+"Ether Defense
+3006DB8C 00FF
+"Hit %
+3006DB8E 00FF
+"Evade %
+3006DB8F 00FF
+"Level 99
+3006DB92 0063
+"Weapon Modifier (add 8-bit value)
+3006DB9A 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DBA4 00??
+"Slot 2
+3006DBA5 00??
+"Slot 3
+3006DBA6 00??
+"Low Weight
+3006DBA7 0000
+"Learn A Skills Each Battle
+8006DBC0 FFFF
+8006DBC2 FFFF
+8006DBC4 FFFF
+8006DBC6 FFFF
+8006DBC8 FFFF
+8006DBCA FFFF
+8006DBCC FFFF
+8006DBCE FFFF
+"Gear Modifier (add 8-bit value)
+8006DBD0 00??
+"Max Exp
+8006DB6C E0FF
+8006DB6E 05F5
+"All Abilities
+8006ED76 FFC0
+"All Skills
+8006ED74 FFC0
+"7/7 Ap
+3006ED8B 0007
+"=Ammo Modifier (add 8-bit value)
+"Hand Gun
+3006DB9F 00??
+"Eth Gun R
+3006DBA0 00??
+"Eth Gun L
+3006DBA1 00??
+"Big Gun
+3006DBA2 00??
+"=Chu-Chu 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DD58 ????
+"Level Up
+8006DD60 0001
+8006DD62 0000
+"Infinite HP
+8006DD68 03E7
+"Max HP
+8006DD6A 03E7
+"Infinite EP
+8006DD6C 03E7
+"Max EP
+8006DD6E 03E7
+"=Max Abilities 
+"Attack
+3006DD74 00FF
+"Defense
+3006DD75 00FF
+"Agility
+3006DD76 00FF
+"Ether
+3006DD77 00FF
+"Ether Defense
+3006DD78 00FF
+"Hit %
+3006DD7A 00FF
+"Evade %
+3006DD7B 00FF
+"Level 99
+3006DD7E 0063
+"Weapon Modifier (add 8-bit value)
+3006DD86 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DD90 00??
+"Slot 2
+3006DD91 00??
+"Slot 3
+3006DD92 00??
+"Low Weight
+3006DD93 0000
+"Learn A Skills Each Battle
+8006DDAC FFFF
+8006DDAE FFFF
+8006DDB0 FFFF
+8006DDB2 FFFF
+8006DDB4 FFFF
+8006DDB6 FFFF
+8006DDB8 FFFF
+8006DDBA FFFF
+"Gear Modifier (add 8-bit value)
+8006DDBC 00??
+"Max Exp
+8006DD58 E0FF
+8006DD5A 05F5
+"All Abilities
+8006EDD6 FF00
+"7/7 Ap
+3006EDEB 0007
+"=Elhaym Van Houten 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006D980 ????
+"Level Up
+8006D988 0001
+8006D98A 0000
+"Infinite HP
+8006D990 03E7
+"Max HP
+8006D992 03E7
+"Infinite EP
+8006D994 03E7
+"Max EP
+8006D996 03E7
+"=Max Abilities 
+"Attack
+3006D99C 00FF
+"Defense
+3006D99D 00FF
+"Agility
+3006D99E 00FF
+"Ether
+3006D99F 00FF
+"Ether Defense
+3006D9A0 00FF
+"Hit %
+3006D9A2 00FF
+"Evade
+3006D9A3 00FF
+"Level 99
+3006D9A6 0063
+"Weapon Modifier (add 8-bit value)
+3006D9AE 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006D9B8 00??
+"Slot 2
+3006D9B9 00??
+"Slot 3
+3006D9BA 00??
+"Low Weight
+3006D9BB 0000
+"Learn A Skill Each Battle
+8006D9D4 FFFF
+8006D9D6 FFFF
+8006D9D8 FFFF
+8006D9DA FFFF
+8006D9DC FFFF
+8006D9DE FFFF
+8006D9E0 FFFF
+8006D9E2 FFFF
+"Gear Modifier (add 8-bit value)
+8006D9E4 00??
+"Max Exp
+8006D980 E0FF
+8006D982 05F5
+"All Abilities
+8006ED16 FFF0
+"All Skills
+8006ED14 FFE0
+"7/7 Ap
+3006ED2B 0007
+"=Emerelda 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DCB4 ????
+"Level Up
+8006DCBC 0001
+8006DCBE 0000
+"Infinite HP
+8006DCC4 03E7
+"Max HP
+8006DCC6 03E7
+"Infinite EP
+8006DCC8 03E7
+"Max EP
+8006DCCA 03E7
+"=Max Abilities 
+"Attack
+3006DCD0 00FF
+"Defense
+3006DCD1 00FF
+"Agility
+3006DCD2 00FF
+"Ether
+3006DCD3 00FF
+"Ether Defense
+3006DCD4 00FF
+"Hit %
+3006DCD6 00FF
+"Evade %
+3006DCD7 00FF
+"Level 99
+3006DCDA 0063
+"Weapon Modifier (add 8-bit value)
+3006DCE2 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DCEC 00??
+"Slot 2
+3006DCED 00??
+"Slot 3
+3006DCEE 00??
+"Low Weight
+3006DCEF 0000
+"Learn A Skills Each Battle
+8006DD08 FFFF
+8006DD0A FFFF
+8006DD0C FFFF
+8006DD0E FFFF
+8006DD10 FFFF
+8006DD12 FFFF
+8006DD14 FFFF
+8006DD16 FFFF
+"Gear Modifier (add 8-bit value)
+8006DD18 00??
+"Max Exp
+8006DCB4 E0FF
+8006DCB6 05F5
+"All Abilities
+8006EDB6 FF00
+"All Skills
+8006EDB4 FFC0
+"7/7 Ap
+3006EDCB 0007
+"=Emerelda (2nd) 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DF44 ????
+"Level Up
+8006DF4C 0001
+8006DF4E 0000
+"Infinite HP
+8006DF54 03E7
+"Max HP
+8006DF56 03E7
+"Infinite EP
+8006DF58 03E7
+"Max EP
+8006DF5A 03E7
+"=Max Abilities 
+"Attack
+3006DF60 00FF
+"Defense
+3006DF61 00FF
+"Agility
+3006DF62 00FF
+"Ether
+3006DF63 00FF
+"Ether Defense
+3006DF64 00FF
+"Hit %
+3006DF66 00FF
+"Evade %
+3006DF67 00FF
+"Level 99
+3006DF6A 0063
+"Weapon Modifier (add 8-bit value)
+3006DF72 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DF7C 00??
+"Slot 2
+3006DF7D 00??
+"Slot 3
+3006DF7E 00??
+"Low Weight
+3006DF7F 0000
+"Learn A Skills Each Battle
+8006DF98 FFFF
+8006DF9A FFFF
+8006DF9C FFFF
+8006DF9E FFFF
+8006DFA0 FFFF
+8006DFA2 FFFF
+8006DFA4 FFFF
+8006DFA6 FFFF
+"Gear Modifier (add 8-bit value)
+8006DFA8 00??
+"Max Exp
+8006DF44 E0FF
+8006DF46 05F5
+"All Abilities
+8006EE36 FF00
+"All Skills
+8006EE34 FFC0
+"7/7 Ap
+3006EE4B 0007
+"=Maria Balthasar 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DDFC ????
+"Level Up
+8006DE04 0001
+8006DE06 0000
+"Infinite HP
+8006DE0C 03E7
+"Max HP
+8006DE0E 03E7
+"Infinite EP
+8006DE10 03E7
+"Max EP
+8006DE12 03E7
+"=Max Abilities 
+"Attack
+3006DE18 00FF
+"Defense
+3006DE19 00FF
+"Agility
+3006DE1A 00FF
+"Ether
+3006DE1B 00FF
+"Ether Defense
+3006DE1C 00FF
+"Hit %
+3006DE1E 00FF
+"Evade %
+3006DE1F 00FF
+"Level 99
+3006DE22 0063
+"Weapon Modifier (add 8-bit value)
+3006DE2A 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DE34 00??
+"Slot 2
+3006DE35 00??
+"Slot 3
+3006DE36 00??
+"Low Weight
+3006DE37 0000
+"Learn A Skills Each Battle
+8006DE50 FFFF
+8006DE52 FFFF
+8006DE54 FFFF
+8006DE56 FFFF
+8006DE58 FFFF
+8006DE5A FFFF
+8006DE5C FFFF
+8006DE5E FFFF
+"Gear Modifier (add 8-bit value)
+8006DE60 00??
+"Max Exp
+8006DDFC E0FF
+8006DDFE 05F5
+"All Abilities
+8006EDF6 F800
+"7/7 Ap
+3006EE0B 0007
+"=Rico Banderas 
+"Experience Modifier [Note 1] (add 16-bit value)
+8006DC10 ????
+"Level Up
+8006DC18 0001
+8006DC1A 0000
+"Infinite HP
+8006DC20 03E7
+"Max HP
+8006DC22 03E7
+"Infinite EP
+8006DC24 03E7
+"Max EP
+8006DC26 03E7
+"=Max Abilities 
+"Attack
+3006DC2C 00FF
+"Defense
+3006DC2D 00FF
+"Agility
+3006DC2E 00FF
+"Ether
+3006DC2F 00FF
+"Ether Defense
+3006DC30 00FF
+"Hit %
+3006DC32 00FF
+"Evade %
+3006DC33 00FF
+"Level 99
+3006DC36 0063
+"Weapon Modifier (add 8-bit value)
+3006DC3E 00??
+"=Accessories Modifiers (add 8-bit value)
+"Slot 1
+3006DC48 00??
+"Slot 2
+3006DC49 00??
+"Slot 3
+3006DC4A 00??
+"Low Weight
+3006DC4B 0000
+"Learn A Skills Each Battle
+8006DC64 FFFF
+8006DC66 FFFF
+8006DC68 FFFF
+8006DC6A FFFF
+8006DC6C FFFF
+8006DC6E FFFF
+8006DC70 FFFF
+8006DC72 FFFF
+"Gear Modifier (add 8-bit value)
+8006DC74 00??
+"Max Exp
+8006DC10 E0FF
+8006DC12 05F5
+"All Abilities
+8006ED96 F000
+"All Skills
+8006ED94 FFC0
+"7/7 Ap
+3006EDAB 0007
+"=Gear 
+"=Andvali 
+"Max HP
+8006E674 967F
+8006E676 0098
+8006E678 967F
+8006E67A 0098
+"Max Fuel
+8006E64C 270F
+8006E64E 270F
+"=Max Abilities 
+"Attack
+8006E688 FFB5
+"Defense
+8006E684 FFC3
+"Ether Defense
+8006E686 4CF3
+"No Weight
+8006E67C 0000
+"Have Options
+3006F2D3 00FF
+"Armor Modifier (add 8-bit value)
+3006E61C 00??
+"Engine Modifier (add 8-bit value)
+3006E617 00??
+"Frame Modifier (add 8-bit value)
+3006E616 00??
+"=Bart Soldier 
+"Max HP
+8006E9A8 967F
+8006E9AA 0098
+8006E9AC 967F
+8006E9AE 0098
+"Max Fuel
+8006E980 270F
+8006E982 270F
+"=Max Abilities 
+"Attack
+8006E9BC FFB5
+"Defense
+8006E9B8 FFC3
+"Ether Defense
+8006E9BA 4CF3
+"No Weight
+8006E9B0 0000
+"Have Options
+3006F607 00FF
+"Armor Modifier (add 8-bit value)
+3006E950 00??
+"Engine Modifier (add 8-bit value)
+3006E94B 00??
+"Frame Modifier (add 8-bit value)
+3006E94A 00??
+"=Brigander 
+"Max HP
+8006E29C 967F
+8006E29E 0098
+8006E2A0 967F
+8006E2A2 0098
+"Max Fuel
+8006E274 270F
+8006E276 270F
+"=Max Abilities 
+"Attack
+8006E2B0 FFB5
+"Defense
+8006E2AC FFC3
+"Ether Defense
+8006E2AE 4CF3
+"No Weight
+8006E2A4 0000
+"Have Options
+3006EEFB 00FF
+"Armor Modifier (add 8-bit value)
+3006E244 00??
+"Engine Modifier (add 8-bit value)
+3006E23F 00??
+"Frame Modifier (add 8-bit value)
+3006E23E 00??
+"=Crescens 
+"Max HP
+8006E488 967F
+8006E48A 0098
+8006E48C 967F
+8006E48E 0098
+"Max Fuel
+8006E460 270F
+8006E462 270F
+"=Max Abilities 
+"Attack
+8006E49C FFB5
+"Defense
+8006E498 FFC3
+"Ether Defense
+8006E49A 4CF3
+"No Weight
+8006E490 0000
+"Have Options
+3006F0E7 00FF
+"Armor Modifier (add 8-bit value)
+3006E430 00??
+"Engine Modifier (add 8-bit value)
+3006E42B 00??
+"Frame Modifier (add 8-bit value)
+3006E42A 00??
+"=El Regrs 
+"Max HP
+8006E52C 967F
+8006E52E 0098
+8006E530 967F
+8006E532 0098
+"Max Fuel
+8006E504 270F
+8006E506 270F
+"=Max Abilities 
+"Attack
+8006E540 FFB5
+"Defense
+8006E53C FFC3
+"Ether Defense
+8006E53E 4CF3
+"No Weight
+8006E534 0000
+"Have Options
+3006F18B 00FF
+"Armor Modifier (add 8-bit value)
+3006E4D4 00??
+"Engine Modifier (add 8-bit value)
+3006E4CF 00??
+"Frame Modifier (add 8-bit value)
+3006E4CE 00??
+"=Fenrir 
+"Max HP
+8006E5D0 967F
+8006E5D2 0098
+8006E5D4 967F
+8006E5D6 0098
+"Max Fuel
+8006E5A8 270F
+8006E5AA 270F
+"=Max Abilities 
+"Attack
+8006E5E4 FFB5
+"Defense
+8006E5E0 FFC3
+"Ether Defense
+8006E5E2 4CF3
+"No Weight
+8006E5D8 0000
+"Have Options
+3006F22F 00FF
+"Armor Modifier (add 8-bit value)
+3006E578 00??
+"Engine Modifier (add 8-bit value)
+3006E573 00??
+"Frame Modifier (add 8-bit value)
+3006E572 00??
+"=Heimdal 
+"Max HP
+8006E1F8 967F
+8006E1FA 0098
+8006E1FC 967F
+8006E1FE 0098
+"Max Fuel
+8006E1D0 270F
+8006E1D2 270F
+"=Max Abilities 
+"Attack
+8006E20C FFB5
+"Defense
+8006E208 FFC3
+"Ether Defense
+8006E20A 4CF3
+"No Weight
+8006E200 0000
+"Have Options
+3006EE57 00FF
+"Armor Modifier (add 8-bit value)
+3006E1A0 00??
+"Engine Modifier (add 8-bit value)
+3006E19B 00??
+"Frame Modifier (add 8-bit value)
+3006E19A 00??
+"=Heimdal 2 
+"Max HP
+8006E904 967F
+8006E906 0098
+8006E908 967F
+8006E90A 0098
+"Max Fuel
+8006E8DC 270F
+8006E8DE 270F
+"=Max Abilities 
+"Attack
+8006E918 FFB5
+"Defense
+8006E914 FFC3
+"Ether Defense
+8006E916 4CF3
+"No Weight
+8006E90C 0000
+"Have Options
+3006F563 00FF
+"Armor Modifier (add 8-bit value)
+3006E8AC 00??
+"Engine Modifier (add 8-bit value)
+3006E8A7 00??
+"Frame Modifier (add 8-bit value)
+3006E8A6 00??
+"=Renmazuo 
+"Max HP
+8006E340 967F
+8006E342 0098
+8006E344 967F
+8006E346 0098
+"Max Fuel
+8006E318 270F
+8006E31A 270F
+"=Max Abilities 
+"Attack
+8006E354 FFB5
+"Defense
+8006E350 FFC3
+"Ether Defense
+8006E352 4CF3
+"No Weight
+8006E348 0000
+"Have Options
+3006EF9F 00FF
+"Armor Modifier (add 8-bit value)
+3006E2E8 00??
+"Engine Modifier (add 8-bit value)
+3006E2E3 00??
+"Frame Modifier (add 8-bit value)
+3006E2E2 00??
+"=Renmazuoi 
+"Max HP
+8006E718 967F
+8006E71A 0098
+8006E71C 967F
+8006E71E 0098
+"Max Fuel
+8006E6F0 270F
+8006E6F2 270F
+"=Max Abilities 
+"Attack
+8006E72C FFB5
+"Defense
+8006E728 FFC3
+"Ether Defense
+8006E72A 4CF3
+"No Weight
+8006E720 0000
+"Have Options
+3006F377 00FF
+"Armor Modifier (add 8-bit value)
+3006E6C0 00??
+"Engine Modifier (add 8-bit value)
+3006E6BB 00??
+"Frame Modifier (add 8-bit value)
+3006E6BA 00??
+"=Siebzen 
+"Max HP
+8006E488 967F
+8006E48A 0098
+8006E48C 967F
+8006E48E 0098
+"Max Fuel
+8006E460 270F
+8006E462 270F
+"=Max Abilities 
+"Attack
+8006E49C FFB5
+"Defense
+8006E498 FFC3
+"Ether Defense
+8006E49A 4CF3
+"No Weight
+8006E490 0000
+"Have Options
+3006F0E7 00FF
+"Armor Modifier (add 8-bit value)
+3006E430 00??
+"Engine Modifier (add 8-bit value)
+3006E42B 00??
+"Frame Modifier (add 8-bit value)
+3006E42A 00??
+"=Stier 
+"Max HP
+8006E3E4 967F
+8006E3E6 0098
+8006E3E8 967F
+8006E3EA 0098
+"Max Fuel
+8006E3BC 270F
+8006E3BE 270F
+"=Max Abilities 
+"Attack
+8006E3F8 FFB5
+"Defense
+8006E3F4 FFC3
+"Ether Defense
+8006E3F6 4CF3
+"No Weight
+8006E3EC 0000
+"Have Options
+3006F043 00FF
+"Armor Modifier (add 8-bit value)
+3006E38C 00??
+"Engine Modifier (add 8-bit value)
+3006E387 00??
+"Frame Modifier (add 8-bit value)
+3006E386 00??
+"=Stier 2 
+"Max HP
+8006E7BC 967F
+8006E7BE 0098
+8006E7C0 967F
+8006E7C2 0098
+"Max Fuel
+8006E794 270F
+8006E796 270F
+"=Max Abilities 
+"Attack
+8006E7D0 FFB5
+"Defense
+8006E7CC FFC3
+"Ether Defense
+8006E7CE 4CF3
+"No Weight
+8006E7C4 0000
+"Have Options
+3006F41B 00FF
+"Armor Modifier (add 8-bit value)
+3006E764 00??
+"Engine Modifier (add 8-bit value)
+3006E75F 00??
+"Frame Modifier (add 8-bit value)
+3006E75E 00??
+"=Vierge 
+"Max HP
+8006E154 967F
+8006E156 0098
+8006E158 967F
+8006E15A 0098
+"Max Fuel
+8006E12C 270F
+8006E12E 270F
+"=Max Abilities 
+"Attack
+8006E168 FFB5
+"Defense
+8006E164 FFC3
+"Ether Defense
+8006E166 4CF3
+"No Weight
+8006E15C 0000
+"Have Options
+3006EDB3 00FF
+"Armor Modifier (add 8-bit value)
+3006E0FC 00??
+"Engine Modifier (add 8-bit value)
+3006E0F7 00??
+"Frame Modifier (add 8-bit value)
+3006E0F6 00??
+"=WelTall 
+"Max HP
+8006E00C 967F
+8006E00E 0098
+8006E010 967F
+8006E012 0098
+"Max Fuel
+8006DFE4 270F
+8006DFE6 270F
+"=Max Abilities 
+"Attack
+8006E024 FFB5
+"Defense
+8006E020 FFC3
+"Ether Defense
+8006E022 4CF3
+"No Weight
+8006E014 0000
+"Have Options
+3006EC6B 00FF
+"Armor Modifier (add 8-bit value)
+3006DFB4 00??
+"Engine Modifier (add 8-bit value)
+3006DFAF 00??
+"Frame Modifier (add 8-bit value)
+3006DFAE 00??
+"=WelTall-2 
+"Max HP
+8006E0B0 967F
+8006E0B2 0098
+8006E0B4 967F
+8006E0B6 0098
+"Max Fuel
+8006E088 270F
+8006E08A 270F
+"=Max Abilities 
+"Attack
+8006E0C4 FFB5
+"Defense
+8006E0C0 FFC3
+"Ether Defense
+8006E0C2 4CF3
+"No Weight
+8006E0B8 0000
+"Have Options
+3006ED0F 00FF
+"Armor Modifier (add 8-bit value)
+3006E058 00??
+"Engine Modifier (add 8-bit value)
+3006E053 00??
+"Frame Modifier (add 8-bit value)
+3006E052 00??
+"=Xenogears 
+"Max HP
+8006E860 967F
+8006E862 0098
+8006E864 967F
+8006E866 0098
+"Max Fuel
+8006E838 270F
+8006E83A 270F
+"=Max Abilities 
+"Attack
+8006E874 FFB5
+"Defense
+8006E870 FFC3
+"Ether Defense
+8006E872 4CF3
+"No Weight
+8006E868 0000
+"Have Options
+3006F4BF 00FF
+"Armor Modifier (add 8-bit value)
+3006E808 00??
+"Engine Modifier (add 8-bit value)
+3006E803 00??
+"Frame Modifier (add 8-bit value)
+3006E802 00??
+"=Yggdrasil IV 
+"Max HP
+8006EA4C 967F
+8006EA4E 0098
+8006EA50 967F
+8006EA52 0098
+"Max Fuel
+8006EA24 270F
+8006EA26 270F
+"=Max Abilities 
+"Attack
+8006EA60 FFB5
+"Defense
+8006EA5C FFC3
+"Ether Defense
+8006EA5E 4CF3
+"No Weight
+8006EA54 0000
+"Have Options
+3006F6AB 00FF
+"Armor Modifier (add 8-bit value)
+3006E9F4 00??
+"Engine Modifier (add 8-bit value)
+3006E9EF 00??
+"Frame Modifier (add 8-bit value)
+3006E9EE 00??
+
+#Xenogears (Other)#SLUS00664
+"=Other 
+"=Character Accessory Modifier (add 8-bit value)
+"Slot 1
+3006F4FC 00??
+"Slot 2
+3006F4FD 00??
+"Slot 200
+3006F5C3 00??
+"=Character Weapon 
+"=Infinite Weapon (Elhaym Van Houten)
+"Slot 1
+3006F36C 0063
+"Slot 2
+3006F36D 0063
+"Slot 15
+3006F37A 0063
+"=Weapon Modifier (Elhaym Van Houten) (add 8-bit value)
+"Slot 1
+3006F3D0 00??
+"Slot 2
+3006F3D1 00??
+"Slot 15
+3006F3DE 00??
+"=Infinite Weapon (Bartholomew Fatima)
+"Slot 1
+3006F37B 0063
+"Slot 2
+3006F37C 0063
+"Slot 13
+3006F387 0063
+"=Weapon Modifier (Bartholomew Fatima) (add 8-bit value)
+"Slot 1
+3006F3DF 00??
+"Slot 2
+3006F3E0 00??
+"Slot 13
+3006F3EB 00??
+"=Infinite Weapon (Billy Lee Black)
+"Slot 1
+3006F388 0063
+"Slot 2
+3006F389 0063
+"Slot 3
+3006F38A 0063
+"Slot 4
+3006F38B 0063
+"=Weapon Modifier (Billy Lee Black) (add 8-bit value)
+"Slot 1
+3006F3EC 00??
+"Slot 2
+3006F3ED 00??
+"Slot 4
+3006F3EF 00??
+"=Infinite B & J M10 Gun Ammo (Billy Lee Black)
+"Slot 1
+3006F390 0063
+"Slot 2
+3006F391 0063
+"Slot 3
+3006F392 0063
+"=Infinite B & J M686 Gun Ammo (Billy Lee Black)
+"Slot 1
+3006F393 0063
+"Slot 2
+3006F394 0063
+"Slot 3
+3006F395 0063
+"=Infinite Matchlock Ammo (Billy Lee Black)
+"Slot 1
+3006F39B 0063
+"Slot 2
+3006F39C 0063
+"Slot 6
+3006F3A0 0063
+"=Infinite Godfather Ammo (Billy Lee Black)
+"Slot 1
+3006F396 0063
+"=Infinite Eth Gun Ammo (Billy Lee Black)
+"Slot 1
+3006F3A1 0063
+"Slot 2
+3006F3A2 0063
+"Slot 5
+3006F3A5 0063
+"=Infinite Big Gun Ammo (Billy Lee Black)
+"Slot 1
+3006F397 0063
+"Slot 2
+3006F398 0063
+"Slot 4
+3006F39A 0063
+"=B & J M10 Gun Modifier (Billy Lee Black) (add 8-bit value)
+"Slot 1
+3006F3F4 00??
+"Slot 2
+3006F3F5 00??
+"Slot 3
+3006F3F6 00??
+"=B & J M686 Gun Modifier (Billy Lee Black) (add 8-bit value)
+"Slot 1
+3006F3F7 00??
+"Slot 2
+3006F3F8 00??
+"Slot 3
+3006F3F9 00??
+"=Matchlock Modifier (Billy Lee Black) (add 8-bit value)
+"Slot 1
+3006F3FF 00??
+"Slot 2
+3006F400 00??
+"Slot 6
+3006F404 00??
+"=Godfather Modifier (Billy Lee Black) (add 8-bit value)
+"Slot 1
+3006F3FA 00??
+"=Eth Gun Modifier (Billy Lee Black) (add 8-bit value)
+"Slot 1
+3006F405 00??
+"Slot 2
+3006F406 00??
+"Slot 5
+3006F409 00??
+"=Big Gun Modifier (Billy Lee Black) (add 8-bit value)
+"Slot 1
+3006F3FB 00??
+"Slot 2
+3006F3FB 00??
+"Slot 4
+3006F3FB 00??
+"=Infinite Weapon (Citan Uzuki)
+"Slot 1
+3006F38C 0063
+"Slot 2
+3006F38D 0063
+"Slot 4
+3006F38F 0063
+"=Weapon Modifier (Citan Uzuki) (add 8-bit value)
+"Slot 1
+3006F3F0 00??
+"Slot 2
+3006F3F1 00??
+"Slot 4
+3006F3F3 00??
+"=Gear Accessory Modifier (add 8-bit value)
+"Slot 1
+3006F84E 00??
+"Slot 2
+3006F84F 00??
+"Slot 150
+3006F8E3 00??
+"=Gear Weapon Modifier (add 8-bit value)
+"Slot 1
+3006F754 00??
+"Slot 2
+3006F755 00??
+"Slot 100
+3006F7B7 00??
+"=Item Modifier (add 8-bit value)
+"Slot 1
+3006F65A 00??
+"Slot 2
+3006F65B 00??
+"Slot 150
+3006F6EF 00??
+"=Max Character Accessory 
+"Slot 1
+3006F434 0063
+"Slot 2
+3006F435 0063
+"Slot 200
+3006F4FB 0063
+"=Max Gear Accessory 
+"Slot 1
+3006F7B8 0063
+"Slot 2
+3006F7B9 0063
+"Slot 150
+3006F84D 0063
+"=Max Gear Weapon 
+"Slot 1
+3006F6F0 0063
+"Slot 2
+3006F6F1 0063
+"Slot 100
+3006F753 0063
+"=Max Items 
+"Items Slot 1
+3006F5C4 0063
+"Items Slot 2
+3006F5C5 0063
+"Items Slot 150
+3006F659 0063
+"=Misc. 
+"Command (add 16-bit value)
+D0059374 ????
+"Infinite Items (All Slots)
+801DBC32 2400
+"Infinite Gold
+8006EF58 967F
+8006EF5A 0098
+"Time Always 000:00:00
+80059488 0000
+8005948A 0000
+"Save Anywhere [Note 1]
+80059170 0100
+"Extra Items
+50003602 0000
+8006F5C4 0101
+50003602 0202
+8006F65A 0201
+"Debug Menu
+8004F34C 0000
+"Gears Always In Infinity Mode
+800D2C34 0804
+"No Random Battles on World Map
+8009D64C 0010
+"Have Won Four Straight RPS Games
+800C3E7A 0004
+"Have All Items & Infinite Items
+50009601 0001
+3006F65A 0001
+50009601 0000
+3006F5C4 0063
+"All Abilities (All Characters)
+50000B20 0000
+8006ECF6 FFFF
+"All Deathblow Skills (All Characters)
+50000B20 0000
+8006ECF4 FFFF
+50000B20 0000
+3006ED0B 0007
+"=In-Battle Character 1 [Note 1]
+"Infinite Health
+800CCD34 03E7
+"Infinite EP
+800CCD38 0063
+"Infinite AP
+800D32A0 0020
+"=In-Battle Character 2 [Note 2]
+"Infinite Health
+800CCEA4 03E7
+"Infinite EP
+800CCEA8 0063
+"Infinite AP
+800D32A8 0020
+"=In-Battle Character 3 [Note 3]
+"Infinite Health
+800CD014 03E7
+"Infinite EP
+800CD018 0063
+"Infinite AP
+800D32B0 0020
+"=In-Battle Gear 1 [Note 4]
+"Infinite Health
+800CCDEC FFFF
+"Infinite Fuel
+800CCDC4 FFFF
+"=In-Battle Gear 2 [Note 5]
+"Infinite Health
+800CCF5C FFFF
+"Infinite Fuel
+800CCF34 FFFF
+"=In-Battle Gear 3 [Note 6] 
+"Infinite Health
+800CD0CC FFFF
+"Infinite Fuel
+800CD0A4 FFFF
+"=Battling Arena 
+"Infinite Health
+800987E0 012C
+"Never Overheat
+800987E2 0000
+
+#Xevious 3D/G+#SLUS00461
+"=Super Xevious 
+"Infinite Lives P1
+8010D0F8 0009
+"Score Modifier P1 (add 16-bit value)
+8010D0F4 ????
+"=Xevious 
+"Infinite Lives P1
+8010D0F8 0009
+"Score Modifier P1 (add 16-bit value)
+8010D0F4 ????
+"=Xevious Arrangement 
+"Infinite Lives P1
+8011FBF8 0009
+"Score Modifier P1 (add 16-bit value)
+8011FBF4 ????
+"=Xevious 3D/G 
+"Infinite Lives P1
+8012DD58 0009
+"Score Modifier P1 (add 16-bit value)
+8012DCE0 ????
+"Weapon Modifier P1 (add 8-bit value)
+8012DCF0 00??
+"Weapon Power Up
+8011EA40 0002
+
+#XS Moto#SLUS01506
+"Infinite Time
+800F04D8 759C
+"Time Always 0:00
+800F0484 0000
+"Always Place First
+301BEF05 0001
+"Lap Modifier (add 8-bit value)
+801BEF02 00??
+"Start On Lap Modifier (01-0A) (add 8-bit value)
+D01BEF02 0000
+801BEF02 00??
+

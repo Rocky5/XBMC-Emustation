@@ -1,0 +1,18 @@
+Quantity Digits to Accompany Weapon Modifier Code
+00 - Pistol 1
+01 - Pistol 2
+02 - Pistol 3
+03 - Blaster 1
+04 - Blaster 2
+05 - Blaster 3
+06 - Rocket 1
+07 - Rocket 2
+08 - Rocket 3
+
+Quantity Digits to Accompany Glitch Tool Modifier Code
+09 - Mend
+0A - Mortar
+0B - FlameThrower
+0E - Box Gun
+0F - Vampire
+11 - Anti-Virus

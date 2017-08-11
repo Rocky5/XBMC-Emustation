@@ -1,0 +1,2 @@
+Note 1:
+With this code, pushing L1 will reset the timer to 60 and reset your lives to 9.The game clock code will still have the clock seconds count down, but the minutes will stay at 2. The game will last forever.

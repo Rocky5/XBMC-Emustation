@@ -1,0 +1,67 @@
+Quantity Digits to Accompany Owner Modifier Codes
+00 - For Sale
+01 - P1
+02 - P2
+03 - P3
+04 - P4
+
+Quantity Digits to Accompany House Modifier Codes
+00 - No Houses
+01 - 1 House
+02 - 2 Houses
+03 - 3 Houses
+04 - 4 Houses
+05 - Hotel
+
+Quantity Digits to Accompany Get Out Of Jail Free Card Modifier Codes
+00 - Normal
+01 - Have 1 Get out of Jail Card
+03 - Have 2 Get out of Jail Cards
+04 - Pin Jail
+05 - Pin Jail with 1 Get out of Jail Card
+07 - Pin Jail with 2 Get out of Jail Cards
+
+Quantity Digits to Accompany Place Modifier Codes
+00 - GO!
+01 - Mediterranean Avenue
+02 - Community Chest
+03 - Baltic Avenue
+04 - Income Tax
+05 - Reading Railroad
+06 - Oriental Avenue
+07 - Chance
+08 - Vermont Avenue
+09 - Connecticut Avenue
+0A - Jail
+0B - St. Charles Place
+0C - Electric Company
+0D - States Avenue
+0E - Virginia Avenue
+0F - Pennsylvania Railroad
+10 - St. James Place
+11 - Community Chest
+12 - Tennessee Avenue
+13 - New York Avenue
+14 - Free Parking
+15 - Kentucky Avenue
+16 - Chance
+17 - Indiana Avenue
+18 - Illinois Avenue
+19 - B. and O. Railroad
+1A - Atlantic Avenue
+1B - Ventnor Avenue
+1C - Water Works
+1D - Marvin Gardens
+1E - Connecticut Avenue
+1F - Pacific Avenue
+20 - North Carolina Avenue
+21 - Community Chest
+22 - Pennsylvania Avenue
+23 - Short Line Railroad
+24 - Chance
+25 - Park Place
+26 - Luxury Tax
+27 - Board Walk
+
+Note 1:
+With this code, it will set the amount of money you get when landing on the Free Parking space when the 'Free Parking Collects Fines' option is on.

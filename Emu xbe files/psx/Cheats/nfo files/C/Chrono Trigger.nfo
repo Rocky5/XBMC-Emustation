@@ -1,0 +1,252 @@
+misc code note
+
+Note 1:
+With this code, first select item you don't want then select item you do want to copy and swap...you now have 2 of the same item!
+
+Quantity Digits
+In-Party & Out-Party Modifier Digits
+
+Quantity Digits to Accompany In-Party & Out-Party Modifier Codes
+00 - Crono
+01 - Marle
+02 - Lucca
+03 - Robo
+04 - Frog
+05 - Ayla
+06 - Magus
+
+Item/Equipment Digits
+
+Quantity Digits to Accompany Item/Equipment Modifier Codes
+00 - Empty
+01 - Wood Sword
+02 - Iron Sword(crono)
+03 - Steel Saber
+04 - Lode Sword
+05 - Red Katana
+06 - Flint Edge
+07 - Dark Saber
+08 - Aeon Blade
+09 - Demon Edge
+0A - Alloy Blade
+0B - Star Sword
+0C - Vedic Blade
+0D - Kali Blade
+0E - Shiva Edge
+OF - Bolt Sword
+10 - Slasher
+11 - Bronze Bow
+12 - Iron Bow
+13 - Lode Bow
+14 - Robin Bow
+15 - Sage Bow
+16 - Dream Bow
+17 - Comet Arrow
+18 - Sonic Arrow
+19 - Valkerie
+1A - Siren
+1B - Bow Symbol
+1C - ^^ ^^
+1D - ^^ ^^
+1E - ^^ ^^
+1F - Air Gun
+20 - Dart Gun
+21 - Auto Gun
+22 - Picomagnum
+23 - Ruby Gun
+24 - Dream Gun
+25 - Megablast
+26 - Shockwave
+27 - Wondershot
+28 - Gradeus
+29 - Gun Symbol
+2A - ^^ ^^
+2B - ^^ ^^
+2C - ^^ ^^
+2D - ^^ ^^
+2E - Tin Arm
+2F - Hammer Arm
+30 - Mirage Hand
+31 - Stone Arm
+32 - Doom Finger
+33 - Magma Hand
+34 - Megaton Arm
+35 - Big Hand
+36 - Kaiser Arm
+37 - Giga Arm
+38 - Terra Arm
+39 - Crisis Arm
+3A - Parts/arm Symbol
+3B - Bronze Edge
+3C - Iron Sword(frog)
+3D - Masamune(weak)
+3E - Flash Blade
+3F - Pearl Edge
+40 - Rune Blade
+41 - Brave Sword
+42 - Masamune II
+43 - Demon Hit
+44 - Fist
+45 - Fist
+46 - Fist
+47 - Iron Fist
+48 - Bronze Fist
+49 - Fist Symbol
+4A - Fist Symbol
+4B - Dark Scythe
+4C - Hurricane
+4D - Star Scythe
+4E - Doom Sickle
+4F - Mop
+50 - Bent Sword
+51 - Bent Hilt
+52 - Masaune 0
+53 - Swallow
+54 - Slasher 2
+55 - Rainbow
+56 - Fake Item
+57 - Fake Item
+58 - Fake Item
+59 - Fake Item
+5A - Fake Item
+5B - Hide Tunic
+5C - Karate Gi
+5D - Bronze Mail
+5E - Maiden Suit
+5F - Iron Suit
+60 - Titan Vest
+61 - Gols Suit
+62 - Ruby Vest
+63 - Dark Mail
+64 - Mist Robe
+65 - Meso Mail
+66 - Lumin Robe
+67 - Flash Mail
+68 - Lode Vest
+69 - Aeon Suit
+6A - Zodiac Cape
+6B - Nova Armor
+6C - Prism Dress
+6D - Moon Armor
+6E - Ruby Armor
+6F - Raven Armor
+70 - Gloom Cape
+71 - White Mail
+72 - Black Mail
+73 - Blue Mail
+74 - Red Mail
+75 - White Vest
+76 - Black Vest
+77 - Blue Vest
+78 - Red Vest
+79 - Taban Vest
+7A - Taban Suit
+7B - Fake Item
+7C - Hide Cap
+7D - Bronze Helm
+7E - Iron Helm
+7F - Beret
+80 - Gold Helm
+81 - Rock Helm
+82 - Cera Topper
+83 - Glow Helm
+84 - Lode Helm
+85 - Aeon Helm
+86 - Prism Helm
+87 - Doom Helm
+88 - Dark Helm
+89 - Gloom Helm
+8A - Safe Helm
+8B - Taban Helm
+8C - Sight Cap
+8D - Memory Cap
+8E - Time Hat
+8F - Vigil Hat
+90 - Ozzie Pants
+91 - Haste Helm
+92 - R'bow Helm
+93 - Mermaid Cap
+94 - Blank Item
+95 - Bandana
+96 - Ribbon
+97 - Power Glove
+98 - Defender
+99 - Magic Scarf
+9A - Amulet
+9B - Dash Ring
+9C - Hit Ring
+9D - Power Ring
+9E - Magic Ring
+9F - Wall Ring
+A0 - Silver Erng
+A1 - Gold Erng
+A2 - Silver Stud
+A3 - Gold Stud
+A4 - Sight Scope
+A5 - Charm Top
+A6 - Rage Band
+A7 - Frenzy Band
+A8 - Third Eye
+A9 - Wallet
+AA - Green Dream
+AB - Berserker
+AC - Power Scarf
+AD - Speed Belt
+AE - Black Rock
+AF - Blue Rock
+B0 - Silver Rock
+B1 - White Rock
+B2 - Gold Rock
+B3 - Hero Medal
+B4 - Muscle Ring
+B5 - Flea Vest
+B6 - Magic Seal
+B7 - Power Seal
+B8 - Relic
+B9 - Seraph Song
+BA - Sun Shades
+BB - Prism Specs
+BC - Blank Item
+BD - Tonic
+BE - Mid Tonic
+BF - Full Tonic
+C0 - Ether
+C1 - Mid Ether
+C2 - Full Ether
+C3 - Elixir
+C4 - Hyperether
+C5 - Megaelixir
+C6 - Heal
+C7 - Revive
+C8 - Shelter
+C9 - Power Meal
+CA - Lapis
+CB - Fake Item
+CC - Barrier
+CD - Power Tab
+CE - Majic Tab
+CF - Speed Tab
+D0 - Petal
+D1 - Fang
+D2 - Horn
+D3 - Feather
+D4 - Seed
+D5 - Bike Key
+D6 - Pendant
+D7 - Gate Key
+D8 - Prismshard
+D9 - C. Trigger
+DA - Tools
+DB - Blank Item
+DC - Jerky
+DD - Race Log
+DE - Moon Stone
+DF - Sun Stone
+E0 - Ruby Knife
+E1 - Yakra Key
+E2 - Clone
+E3 - Toma's Pop
+E4 - 2 Pedals
+E5 - 2 Fangs
+E6 - 2 Horns
+E7 - 2 Feathers

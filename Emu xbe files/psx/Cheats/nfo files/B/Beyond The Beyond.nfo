@@ -1,0 +1,437 @@
+all Character notes 
+
+Note 1:
+
+With this code, change the ?'s to F's for Quick Level Gain.
+
+misc notes
+
+Note 1:
+
+With this code, face your character in the direction you want him to walk, then press X to launch him in that direction. (During this period he will continuously walk in that one direction, walking through walls and everything else.) Press O to stop the character from walking. Turn off Cheat Device when code is not frequently used.
+
+Character Size Digits
+
+Quantity Digits to Accompany Character Size Modifier Codes
+03 - Ant Size
+05 - Tiny
+10 - Dwarf
+14 - Midget
+18 - Normal
+20 - Large
+27 - Giant
+2F - Huge
+39 - Enormous
+45 - Yet But Even Bigger
+50 - Yep, Bigger
+5F - Once Again, Bigger
+72 - Takes up About 1/6 of Screen
+8F - Takes up About 1/4 of Screen
+B5 - Biggest
+
+Condition Digits
+
+Quantity Digits to Accompany Condition Modifier Codes
+0000 - Healthy
+0001 - Poisoned
+0002 - Cursed
+03E7 - Confused + Many Others
+0007 - Poisoned and Curse
+
+Form Digits
+
+Quantity Digits to Accompany Form Modifier Codes
+0000 - Position 1
+0001 - Position 2
+0002 - Position 3
+0003 - Position 4
+0004 - Position 5
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+000 - Herb
+002 - Healing Herb
+003 - Healing Jewel
+004 - Antidote
+005 - Cure Herb
+006 - Unicorn Horn
+007 - Mage's Potion
+008 - Mage's Jewel
+009 - Angel's Ocarina
+00A - Clone Statue
+00B - Reviving Herb
+00C - Source of Power
+00D - Source of Agility
+00E - Source of Wisdom
+00F - Source of Defense
+010 - Source of Vitality
+011 - Source of Life
+012 - Source of Magic
+013 - Source of Growth
+014 - Source of Courage
+015 - Smoke Bomb
+016 - Guiding Branch
+017 - Illusion Potion
+018 - Monster Bait
+019 - Vision Crystal
+01A - World Map
+01B - Critical Jewel
+01C - Tempest Jewel
+01D - Counter Jewel
+01E - Resist Jewel
+01F - Critical Orb
+020 - Tempest Orb
+021 - Counter Orb
+022 - Resist Orb
+023 - Silence Orb024 - Flame Card
+025 - FLame Scroll
+026 - Blizzard Card
+027 - Blizzard Scroll
+028 - Thunder Card
+029 - Thunder Scroll
+02A - Tornado Card
+02B - Tornado Scroll
+02C - Dragon Card
+02D - Dragon Scroll
+02E - Dragon Roar
+02F - War Amulet
+030 - Sleeping Powder
+031 - Awaken Stone
+032 - Silence Crystal
+033 - Illustion Powder
+034 - Slow Card
+035 - Confusion Feather
+036 - Drain Statue
+037 - Mystic Vase
+038 - BallL of Void
+039 - Medicinal Herb
+03A - Firedrake Vase
+03B - Wind Vase
+03C - Thunder Vase
+03D - TOrnado Vase
+03E - ? Vase
+03F - ? Vase
+040 - Short Sword
+041 - MIddle Sword
+042 - LOng Sword
+043 - Broad Sword
+044 - Great Sword
+045 - Tempest Sword
+046 - Rune Sword
+047 - ?? Sword
+048 - Guardian Blade
+049 - Mystic Blade
+04A - Counter Blade
+04B - Mithril Blade
+04C - Dragon Blade
+04D - Demons's Blade
+04E - Middle Axe
+050 - Braod Axe
+051 - Tomahawk
+052 - Battle Axe
+053 - War Axe
+054 - Tempest Axe
+055 - Rune Axe
+056 - Gimry's Axe
+057 - Eearth Breaker
+058 - Demon's Axe
+059 - (Nothing)
+05A - Wooden Rod
+05B - Short Rod
+05C - Bronze Rod
+05D - Iron Rod
+05E - Steel Rod
+05F - Lunar Rod
+060 - Mage's Staff
+061 - Shield Rod
+062 - Stun Rod
+063 - War Rod
+064 - Tempest Rod
+065 - Wizard's Staff
+066 - Magic Staff
+067 - Drain Rod
+068 - Malicious Rod
+069 - Priest's Cane
+06A - Wrath Cane
+06B - Seraphic Cane
+06C - Elder's Wand
+06D - Defense Wand
+06E - Darts
+06F - Short Knife
+070 - Throwing Knife
+071 - Dagger
+072 - ???
+073 - Mirthril Dagger
+074 - Mystic Dagger
+075 - Poisoned Fang
+076 - Leather Glove
+077 - Brass Knuckles
+078 - Power Knuckles
+079 - Mystic Knuckles
+07A - Dragon Claw
+07B - Demon's Fist
+07C - Cloth Jerkin
+07D - Leather Plate
+07E - Bronze Plate
+07F - Iron Plate
+080 - Steel Plate
+081 - Silver Plate
+082 - Dragon Scale
+083 - Mithril Scale
+084 - Hero Scale
+085 - Evil Scale
+086 - Bronze Mail
+087 - Steel Mail
+088 - Chain Mail
+089 - Heavy Mail
+08A - Great Mail
+08B - Mystic Mail
+08C - Mithril Armor
+08D - Evil Armor
+08E - Cloth Garment
+08F - Travel Garment
+090 - Leather Garment
+091 - Magic Cape
+092 - Wind Cloak
+093 - Wizard's Cloak
+094 - Mystic Cloak
+095 - Cloak of Light
+096 - Merlin's Cloak
+097 - Cloak of Darkness
+098 - Floral Dress
+099 - Travel Dress
+09A - Journey Dress
+09B - Battle Dress
+09C - Tempest Dress
+09D - Fairy Dress
+09E - Seraphic Robe
+09F - Goddess Robe
+0A0 - Robe of Darkness
+0A1 - Magical Hood
+0A2-0A8 - (Nothing)
+0A9 - Soft Leather
+0AA - Hard Leather
+0AB - Strong Leather
+0AC - Pirate's Leather
+0AD - Captain's Leather
+0AE - Demon's Leather
+0AF - Gi
+0B0 - Battle Gi
+0B1 - Dragon Gi
+0B2 - Mystic Gi
+0B3 - Shadow Gi
+0B4 - Light Shield
+0B5 - Wood Shield
+0B6 - Steel Shield
+0B7 - Spike Shield
+0B8 - Heavy Shield
+0B9 - Battle Shield
+0BA - Mithril Shield
+0BB - Chaos Shield
+0BC - Mystic Shield
+0BD - Leather Bracer
+0BE - Gauntlet
+0BF - Power Gauntlet
+0C0 - Warrior's Gauntlet
+0C1 - Rune Gauntlet
+0C2 - Mazin Gauntlet
+0C3 - Mithril Gauntlet
+0C4 - Demon's Gauntlet
+0C5 - Cloth Hood
+0C6 - Leather Hood
+0C7 - Travel Hood
+0C8 - War Hood
+0C9 - Wizard's Hood
+0CA - Mystic Hood
+0CB - Sage's Hood
+0CC - Death Hood
+0CD - Gundalf Hood
+0CE - Ribbon
+0CF - Silk Ribbon
+0D0 - Holy Ribbon
+0D1 - Angel Ribbon
+0D2 - Goddess Ribbon
+0D3 - Athena Ribbon
+0D4 - Devil Ribbon
+0D5 - Summoner Hat
+0D6 - Bandanna
+0D7 - Sailor Bandanna
+0D8 - Wind Bandanna
+0D9 - Storm Bandanna
+0DA - Oath Bandanna
+0DB - Cursed Bandanna
+0DC - Scarf
+0DD - Silk Scarf
+0DE - Battle Scarf
+0DF - Power Scarf
+0E0 - Cursed Scarf
+0E1 - Tempest Ring
+0E2 - Ring of Defense
+0E3 - Ring of Power
+0E4 - Ring of Revenge
+0E5 - Fire Ring
+0E6 - Ice Ring
+0E7 - Seraphic Ring
+0E8 - Ring of Death
+0E9 - Helium Ring
+0EA - Music Box
+0EB-0FF - (Nothing)
+100 - Flask
+101 - Prison Key
+102 - Bronze Key
+103 - Steel Key
+104 - Chain Key
+105 - Silver Key
+106 - Gold Key
+107 - Skeleton Key
+108 - Royal Pendant
+109 - Ancient Tablet
+10A - Final Tablet
+10B - Statue of Gaea
+10C - Moon Crescent
+10D - Magic Bean
+10E - Vase of Life
+10F - Light Orb
+110 - Magic Emerald
+111 - Flint Stone
+112 - Hammer
+113 - Torch
+114 - Orb of Light
+115 - Orb of Darkness
+116 - Mithril Silver
+117 - Herb
+
+Magic Digits
+
+Quantity Digits to Accompany Magic Modifier Codes
+00 - Heal Lvl1
+01 - Heal Rain Lvl1
+02 - Cure Lvl1
+03 - Awaken Lvl1
+04 - Resurrect Lvl1
+05 - Defense Lvl1
+06 - Slow Lvl1
+07 - Attack Lvl1
+08 - Silence Lvl1
+0A - Resist Magic Lvl1
+0B - Illusion Lvl1
+0C - Confusion Lvl1
+0D - Void Lvl1
+0E - Sleep Lvl1
+0F - Steal Lvl1
+10 - Retrun Lvl1
+11 - Escape Lvl1
+12 - Fire Lvl1
+13 - Ice Lvl1
+14 - Thunder Lvl1
+15 - Wind Lvl1
+16 - Holy Light Lvl1
+17 - Summon Lvl1
+18 - Firedrake Lvl1
+19 - Undhine Lvl1
+1A - Titan Lvl1
+1B - Tolle Lvl1
+1C - Mystery Lvl1
+1D - Soul Blast Lvl1
+1E - Fire Breath Lvl1
+1F - Blizzard Breath Lvl1
+20 - Steiner
+21 - Poison Spit Lvl1
+22 - Paralyze Roar Lvl1
+23 - Sleeping Fog Lvl1
+24 - Petrifying Glance Lvl1
+25 - Magic Drain Lvl1
+26 - Roar of Confusion Lvl1
+32 - Heal Lvl1
+33 - Attack Stat up Lvl1
+34 - LP up Lvl1
+35 - Experience up Lvl1
+36 - Critical Hit Lvl1 (Glitch Name)
+37 - Counterattack Lvl1 (Glitch Name)
+38 - Cant Use Magic Lvl1
+3A - Japanese Spell Lvl1
+40 - Heal Lvl2
+41 - Heal Rain Lvl2
+42 - Cure Lvl2
+43 - Awaken Lvl2
+44 - Resurrect Lvl2
+45 - Defense Lvl2
+46 - Slow Lvl2
+47 - Attack Lvl2
+48 - Silence Lvl2
+4A - Resist Magic Lvl2
+4B - Illusion Lvl2
+4C - Confusion Lvl2
+4D - Void Lvl2
+4E - Sleep Lvl2
+52 - Fire Lvl2
+53 - Ice Lvl2
+54 - Thunder Lvl2
+55 - Wind Lvl2
+56 - Holy Light Lvl2
+57 - Summon Lvl2
+58 - Firedrake Lvl2
+59 - Undhine Lvl2
+5A - Titan Lvl2
+5B - Tolle Lvl2
+5D - Soul Blast Lvl2
+5E - Fire Breath Lvl2
+5F - Blizzard Breath Lvl2
+61 - Venom Spit Lvl2
+62 - Paralyze Roar Lvl2
+63 - Sleeping Fog Lvl2
+64 - Petrifying Glance Lvl2
+65 - Magic Drain Lvl2
+66 - Roar of Confusion Lvl2
+6D - Japanese Spell Lvl2
+72 - Heal Lvl2
+73 - Defense up Lvl2
+74 - MP up Lvl2
+75 - Level +1 Lvl2
+76 - Critical Hit Lvl2 (Glitch Name)
+77 - Counterattack Lvl2 (Glitch Name)
+78 - Escape From Lvl2
+80 - Heal Lvl3
+81 - Heal Rain Lvl3
+84 - Resurrect Lvl3
+92 - Fire Lvl3
+93 - Ice Lvl3
+94 - Thunder Lvl3
+95 - Wind Lvl3
+96 - Holy Light Lvl3
+97 - Summon Lvl3
+9E - Fire Breath Lvl3
+9F - Blizzard Breath Lvl3
+A1 - Poisonous Spit Lvl3
+A2 - Paralyze Roar Lvl3
+A3 - Sleeping Fog Lvl3
+A4 - Empty Fog Lvl3
+A5 - Explosion Lvl3
+A6 - Spores of Confusion Lvl3 (Glitch Name)
+B2 - Heal Lvl3
+B3 - Speed up Lvl3
+B4 - Luck up Lvl3
+B5 - MP Recovery Lvl3
+B6 - Double Attack Lvl3 (Glitch Name)
+B7 - 1 Lvl3 (Glitch Name)
+C0 - Heal Lvl4
+C1 - Heal Rain Lvl4
+D2 - Fire Lvl4
+D3 - Ice Lvl4
+D4 - Thunder Lvl4
+D5 - Wind Lvl4
+D6 - Holy Light Lvl4
+D7 - Summon Lvl4
+E1 - Poisonous Spit Lvl4
+E2 - Paralyze Roar Lvl4
+E3 - Sleeping Fog Lvl4
+E4 - Empty Fog Lvl4
+E5 - Explosion Lvl4
+E6 - Call For Help Lvl4
+F2 - Heal Lvl4
+F3 - VP up Lvl4
+F4 - Intelligence up Lvl4
+F5 - Max MP Recovery Lvl4
+F6 - Double Attack Lvl4 (Glitch Name)
+F7 - 1 Lvl4 (Glitch Name)

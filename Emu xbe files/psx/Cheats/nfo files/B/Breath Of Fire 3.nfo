@@ -1,0 +1,531 @@
+Breath Of Fire 3 Notes
+
+Note 1:
+
+With this code, it allows you to select more songs than actually exist; however, DO NOT choose any song after Castle in the Sky!
+
+Note 2:
+
+With this code, it does NOT work while you're on the ship.- DO NOT USE "BREAK CAMP AFTER RESTING" COMMAND IN THE DESERT OF DEATH.The game will crash with a black screen. Instead, use the Rest command from the book in the tent. This will have the normal effect that Break Camp After Resting should have. "Break Camp Now" works 100%.
+
+Armor Digits
+
+Quantity Digits to Accompany Armor Modifier Codes
+00 - Erase Armor
+01 - Clothing
+02 - Leather Armor
+03 - Waist Cloth
+04 - Ranger Garb
+05 - Leather Apron
+06 - Mage's Robes
+07 - Cuirass
+08 - Breast Plate
+09 - Chain Cap
+0A - Scale Mail
+0B - Crepe Cape
+0C - Asbestos Armor
+0D - Mithril Armor
+0E - Lgt. Clothing
+0F - Magma Armor
+10 - Silver Mail
+11 - Robe Of Wind
+12 - Amber Bplate
+13 - Phantom Dress
+14 - Blizzard Mail
+15 - Lacquer Armor
+16 - Sage's Frock
+17 - Damascus Mail
+18 - Holy Robe
+19 - Burglar Garb
+1A - Royal Armor
+1B - Force Armor
+1C - Gideon's Garb
+1D - Diana's Dress
+1E - Dragon Armor
+1F - Life Armor
+20 - Mist Armor
+21 - Bandana
+22 - Hairband
+23 - Brass Helm
+24 - Iron Helm
+25 - Knight's Helm
+26 - Glass Domino
+27 - Mithril Helm
+28 - Laurel
+29 - Gold Hairpin
+2A - Platinum Helm
+2B - Uv Glasses
+2C - Tiger's Cap
+2D - Sun Mask
+2E - Lacquer Helm
+2F - Silver Tiara
+30 - Divine Helm
+31 - Dragon Helm
+32 - Bracers
+33 - Cloth Shield
+34 - Gauntlet
+35 - Bronze Shield
+36 - Buckler
+37 - Mithril Shield
+38 - Steel Gauntlets
+39 - Flame Shield
+3A - Kite Shield
+3B - Ice Shield
+3C - Spiked Gauntlets
+3D - Lacquer Shield
+3E - Protectors
+3F - Giant Shield
+40 - Mind Shield
+41 - Dragon Shield
+42 - Aries Gloves
+43 - Manly Clothes
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+00 - Erase Item
+01 - Green Apple
+02 - Bread
+03 - Healing Herb
+04 - Vitamin
+05 - Multivitamin
+06 - Vitamins
+07 - Wisdom Seed
+08 - Wisdom Fruit
+09 - Croc Tear
+0A - Antidote
+0B - Eye Drops
+0C - The Mochi
+0D - Panacea
+0E - Ammonia
+0F - Moon Tears
+10 - Dynamite
+11 - Weather Vane
+12 - Taser
+13 - Belladonna
+14 - Vodka Shot
+15 - Firecracker
+16 - Icicle
+17 - Napalm
+18 - Molotov
+19 - Life Shard
+1A - Magic Shard
+1B - Power Food
+1C - Protein
+1D - Swallow Eye
+1E - Fish-Head
+1F - Moxa
+20 - Hourglass
+21 - Ivory Dice
+22 - Plate
+23 - Shaly Seed
+24 - Vinegar
+25 - Rusted Metal
+26 - Gems
+27 - Beef Jerky
+28 - Cheese
+29 - Berries
+2A - Mandrake
+2B - Clay Vase
+2C - Marbles
+2D - Moldy Vase
+2E - Dirty Rags
+2F - Tea Cup
+30 - Beads
+31 - Rare Book
+32 - Old Painting
+33 - Myria Icon
+34 - Ladon Icon
+35 - Lithograph
+36 - Dragon Tear
+37 - Rice Ball
+38 - Jelly Fish
+39 - Pirana
+3A - Puffer
+3B - Trout
+3C - Rainbow Trout
+3D - Red Catfish
+3E - Bass
+3F - Martian Squid
+40 - Black Bass
+41 - Barandy
+42 - Man-O'-War
+43 - Flying Fish
+44 - Blowfish
+45 - Sea Bream
+46 - Sea Bass
+47 - Black Porgy
+48 - Octopus
+49 - Angler
+4A - Devil Fish
+4B - Spear Fish
+4C - Whale
+4D - Mackerel
+4E - Part A
+4F - Part B
+50 - Part C
+51 - Part D
+52 - Part E
+53 - Part F
+54 - Part G
+55 - Part H
+56 - Horseradish
+57 - Faerie Tiara
+58 - Skill Ink
+59 - Flower Jewel
+5A - Rakda Meat
+5B - Water Jug
+
+Magic & Skill Digits
+
+Quantity Digits to Accompany Magic & Skill Modifier Codes
+00 - Erase Spell
+01 - Nue Stomp
+02 - Gambit
+03 - Super Combo
+04 - Thunder Strike
+05 - Flame Strike
+06 - Mind Sword
+07 - Mind Flay
+08 - Blind
+09 - Chlorine
+0A - Unmotivate
+0B - Multistrike
+0C - Blitz
+0D - Snap
+0E - Flying Kick
+0F - Charge
+10 - Air Raid
+11 - Astral Warp
+12 - Giant Growth
+13 - Aura
+14 - Disembowel
+15 - Bone Break
+16 - Spirit Blast
+17 - Bad Back
+18 - Watch Enemy
+19 - Noting (Immunity Builder)
+1A - Counter
+1B - Hypnotize
+1C - Devour
+1D - Wind Strike
+1E - Molasses
+1F - Tarbaby
+20 - Absorb
+21 - Healing Herb
+22 - Steroids
+23 - Magic Belt
+24 - Recall
+25 - Magic Shuffle
+26 - War Scout
+27 - Focus
+28 - Enlighten
+29 - Berserk
+2A - Mind's Eye
+2B - Ward Of Light
+2C - Evil Eye
+2D - Bone Dart
+2E - Fire Breath
+2F - Ice Breath
+30 - Dream Breath
+31 - Frost Strike
+32 - Pollen
+33 - Venom Breath
+34 - Ovum
+35 - Lavaburst
+36 - Howling
+37 - Ebonfire
+38 - Sacrifice
+39 - Bone Dance
+3A - Sanctuary
+3B - Tornado
+3C - Identify
+3D - Target
+3E - Celerity
+3F - Sudden Death
+40 - Weretiger
+41 - Pilfer
+42 - Tsunami
+43 - Chill
+44 - Foretell
+45 - Influence
+46 - Heal
+47 - Rejuvenate
+48 - Restore
+49 - Vitalize
+4A - Vigor
+4B - Purify
+4C - Raise Dead
+4D - Resurrect
+4E - Leech Power
+4F - Drain
+50 - Noting (Reduces Battles)
+51 - Rottenbreath
+52 - Protect
+53 - Shield
+54 - Speed
+55 - Might
+56 - Barrier
+57 - Silence
+58 - Slow
+59 - Blunt
+5A - Weaken
+5B - Flare
+5C - Fireblast
+5D - Inferno
+5E - Frost
+5F - Iceblast
+60 - Blizzard
+61 - Jolt
+62 - Lightning
+63 - Myollnir
+64 - Cyclone
+65 - Typhoon
+66 - Quake
+67 - Simoon
+68 - Sirocco
+69 - Kyrie
+6A - Death
+6B - Sleep
+6C - Confuse
+6D - Depress
+6E - Ragnarok
+6F - Noting (Stop Time)
+70 - Noting (Jump Attack)
+71 - Noting (Holy Fire Attack)
+72 - Fire Whip
+73 - Remedy
+74 - Utmost Attack
+75 - Rest
+76 - Burn
+77 - Double Blow
+78 - Whelp Breath
+79 - Dragon Breath
+7A - Flame Breath
+7B - Frost Breath
+7C - Thunder Breath
+7D - Divine Breath
+7E - Shadow Breath
+7F - N/A
+80 - Head Cracker
+81 - Holocaust
+82 - Venom
+83 - Kaiser Breath
+84 - Doom Breath
+85 - Flame Claw
+86 - Frost Claw
+87 - Thunder Claw
+88 - Shining Claw
+89 - Corona
+8A - Main Cannon
+8B - Paralyzer
+8C - Trump
+8D - Triple Blow
+8E - Syphon
+8F - Thunder Clap
+90 - Wall Of Fire
+91 - Noting (The Answer Becomes Damage)
+92 - N/A
+93 - Noting (Weaken For Flame Attack)
+94 - N/a
+95 - Douse
+96 - Eye Beam
+97 - Accession
+98 - Snooze
+99 - Resist
+9A - Mighty Chop
+9B - Pyrokinesis
+9C - Holy Strike
+9D - Demonbane
+9E - Charm
+9F - Gloom
+A0 - Jump
+A1 - Timed Blow
+A2 - Transfer
+A3 - Meditation
+A4 - Feign Swing
+A5 - Backhand
+A6 - Monopolize
+A7 - Last Resort
+A8 - Cure
+A9 - Benediction
+AA - Risky Blow
+AB - Shadow Walk
+AC - Magic Ball
+AD - Intimidate
+D8 - Steal
+D9 - Restore Form
+DA - Aura Breath
+DB - Magma Breath
+DC - Geo Breath
+DD - Gaea's Breath
+DE - Combustion
+DF - Tempest
+E0 - Hurricane
+E1 - Temptation
+E2 - Meteor Strike
+
+Master Digits
+
+Quantity Digits to Accompany Master Modifier Codes
+00 - Bunyan
+01 - Mygas
+02 - Yggdrasi
+03 - D'lonzo
+04 - Fahl
+05 - Durandal
+06 - Giotto
+07 - Hondara
+08 - Emitai
+09 - Deis
+0A - Hachio
+0B - Bais
+0C - Lang
+0D - Lee
+0E - Wynn
+0F - Ladon
+10 - Meryleep
+11 - Woodsman
+
+Option Digits
+
+Quantity Digits to Accompany Option Modifier Codes
+00 - Erase Option
+01 - Titan Belt
+02 - High Boots
+03 - Speed Boots
+04 - Wisdom Ring
+05 - Lion's Belt
+06 - Dream Ring
+07 - Midas Stone
+08 - Balance Ring
+09 - Bat Amulet
+0A - Ring Of Ice
+0B - Ring Of Fire
+0C - Thunder Ring
+0D - Talisman
+0E - Diamond Ring
+0F - Life Sandals
+10 - Light Bangle
+11 - Barrier Ring
+12 - Hawk's Ring
+13 - Artemis' Cap
+14 - Bell Collar
+15 - Holy Mantle
+16 - Cupid's Lyre
+17 - Ivory Charm
+18 - Soul Gem
+19 - Shaman's Ring
+1A - Spirit Ring
+1B - Coupons
+1C - Worm
+1D - Spirit
+1E - Caro
+1F - Heavy Caro
+20 - Toad
+21 - Baby Frog
+22 - Frog
+23 - Fat Frog
+24 - Old Popper
+25 - Popper
+26 - Top
+27 - Dogwalker
+28 - Sinker
+29 - Float
+2A - Hanger
+2B - Deep Diver
+2C - Coin
+2D - Ding Frog
+2E - Wooden Rod
+2F - Bamboo Rod
+30 - Deluxe Rod
+31 - Angling Rod
+32 - Spanner
+33 - Master's Rod
+
+Weapon Digits
+
+Quantity Digits to Accompany Weapon Modifier Codes
+00 - Erase Weapon
+01 - Dagger
+02 - Ballockknife
+03 - Bronze Sword
+04 - Broad Sword
+05 - Silver Knife
+06 - Scramasax
+07 - Moon Sword
+08 - Claymore
+09 - Flare Sword
+0A - Feather Sword
+0B - Royal Dagger
+0C - Baselard
+0D - Deadly Blade
+0E - Heavy Dagger
+0F - Ascension
+10 - Heat Shotel
+11 - Barbarossa
+12 - Piercing Edge
+13 - Demonsbane
+14 - Damascus Sword
+15 - Seeking Sword
+16 - Dragon Blade
+17 - Holy Avenger
+18 - Royal Sword
+19 - Gooking Sword
+1A - Ashuras Sword
+1B - Hidden Dagger
+1C - Bent Sword
+1D - Pointed Stick
+1E - Oaken Stick
+1F - Mace
+20 - Magician Rod
+21 - Quarter Staff
+22 - Windcutter
+23 - Ruby Scepter
+24 - Lacquer Staff
+25 - Beryl Rod
+26 - Thunder Rod
+27 - Blessed Staff
+28 - Ouroboros
+29 - Spear
+2A - Long Spear
+2B - Halberd
+2C - Rood Spear
+2D - Flame Spear
+2E - Flying Spear
+2F - Piercing Pike
+30 - Gigantess
+31 - Gale Javelin
+32 - Ice Halberd
+33 - Aries Spear
+34 - Gunginir
+35 - Dragon Spear
+36 - Rufad's Spear
+37 - Claws
+38 - Rippers
+39 - Spiked Claws
+3A - Flame Talons
+3B - Tiger Claws
+3C - Raptor Claws
+3D - Rock Breaker
+3E - Brass Claws
+3F - Death Claws
+40 - Dragonfang
+41 - Thieves Knife
+42 - Katzbalger
+43 - Slicer
+44 - Life Stealer
+45 - Melted Blade
+46 - Ammo
+47 - Flame Chrysm
+48 - Ice Chrysm
+49 - Shotgun Shell
+4A - Sleep Shells
+4B - He Shells
+4C - Flash Shells
+4D - Homing Bomb
+4E - Ap Shells
+4F - Gas Shells
+50 - Atomic Bomb
+51 - Ghostbuster
+52 - Beast Spear

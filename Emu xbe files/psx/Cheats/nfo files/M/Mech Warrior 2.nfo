@@ -1,0 +1,59 @@
+Quantity Digits to Accompany Status Modifier Codes
+08 - Not Active & Doesnt Use Ammo
+09 - Not Active & Uses Ammo
+0A - Active & Doesnt Use Ammo
+0B - Active & Uses Ammo
+
+Quantity Digits to Accompany Weapon Modifier Codes
+BBEC - GAUSS
+BC3C - Inspect
+BC8C - JumpJet
+BCDC - LLASER
+BD2C - LPLAS
+BD7C - LRM-5
+BDCC - LRM-10
+BE1C - LRM-15
+BE6C - LRM-20
+BEBC - M-Gun
+BF0C - MLASER
+BF5C - MPLAS
+BFAC - PPC
+BFFC - SLASHER
+C04C - SPLAS
+C09C - SRM-2
+C0EC - SRM-4
+C13C - SRM-6
+C18C - SSRM-2
+C1DC - SSRM-4
+C22C - SSRM-6
+C27C - UAC-2
+C2CC - UAC-5
+C31C - UAC-10
+C36C - UAC-20
+C3BC - XAC-2
+C40C - XAC-5
+C45C - XAC-10
+C4AC - XAC-20
+C4FC - PPC
+C54C - LRM+5
+
+Quantity Digits to Accompany Activate Cheat Modifier Code
+0001 - Invincibility
+0002 - Extra Weapon Variants
+0004 - Access Tarantula Mech Chassis
+0008 - Access Elemental Mech Chassis
+0010 - Use Any Mech
+0020 - Infinite Ammo
+0040 - Slow Heat Build up
+0080 - ?
+0100 - Jump Jets For All Mechs
+0200 - ?
+0400 - Cruise Control Throttle
+0800 - ?
+FFFF - All Cheats
+
+Note 1:
+With this code, you have to turn off the effects to fall to the ground again!!
+
+Note 2:
+With this game, and the Weapon Status codes, the object isnt to let guns not USE ammo, the object is to have more than one weapon activated at the same time, so if you put in all the status modifier codes, with the value of '0B' then all the weapons will shoot when you hit the fire button!!

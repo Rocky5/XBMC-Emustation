@@ -1,0 +1,265 @@
+character codes (notes)
+
+Note 1:
+With this code, some Weapons don't have any attributes, so they are just matter.
+
+misc codes (notes)
+
+Note 1:
+With this code, it allows you to save in CAVES ONLY...Press L1+R1+L2+R2 to save.
+
+Note 2:
+With this code, it only works in caves or dungeons.
+
+Note 3:
+With this code, it only works on the overworld map! It might cause lockups when entering some towns....until we find a fix.
+
+Quantity Digits
+Accessory Digits
+
+Quantity Digits to Accompany Accessory Equipped Modifier Codes
+00 - Potion
+01 - Hi Potion
+02 - Potion EX
+03 - G Potion
+04 - Antidote
+05 - Hi Antidote
+06 - Antidote EX
+07 - Revive
+08 - Revive EX
+09 - Exilir
+0A - Hi Exilir
+0B - Exilir EX
+0C - Fire Bottle
+0D - Spark Bottle
+0E - Wind Bottle
+0F - Geo Bottle
+10 - Book Of Delay
+11 - Necronomicon
+12 - Holy Book
+13 - Book Of Wall
+14 - Devil Ring
+15 - Evade Ring
+16 - Thief Ring
+17 - Wise Ring
+18 - Holy Ring
+19 - Dragon Ring
+1A - Happy Glove
+1B - Sports Glove
+1C - War Glove
+1D - Power Bracer
+1E - Speed Bracer
+1F - Guard Bracer
+20 - Rune Bracer
+21 - Power Armor
+22 - Guard Armor
+23 - Lord Armor
+24 - Hard Armor
+25 - Fire Amulet
+26 - Water Amulet
+27 - Wind Amulet
+28 - Geo Amulet
+29 - Dama Amulet
+2A - Dekoi Doll
+2B - Battle Doll
+2C - Strength Doll
+2D - Ichimatsu Doll
+2E - Vividebavide D
+2F - Teleportum
+30 - Hougyoku No Ka
+31 - System Disk
+32 - Survival Tool
+33 - Silver Angel
+34 - Gold Angel
+35 - Diary
+36 - Sweater
+37 - Red Feather
+38 - Wooden Sword
+39 - Gerbera
+3A - Red Puppy
+3B - Sun Flower
+3C - Dozen Roses
+3D - Potted Plant
+3E - Cactus
+3F - Comic Book
+40 - Tragic Novel
+41 - Horror Novel
+42 - Romance Novel
+43 - Frog Story
+44 - Math Book
+45 - Physics Book
+46 - Adult Novel
+47 - Toy Frog
+48 - Teddy Bear
+49 - Toy Dog
+4A - Toy Horse
+4B - Toy Damashi
+4C - Frog Costume
+4D - Bear Costume
+4E - Big Teddy Bear
+4F - Ruby Ring
+50 - Diamond Ring
+51 - Emerald Ring
+52 - Classy Choker
+53 - Pearl Necklace
+54 - Gold Necklace
+55 - Gold Choker
+56 - Heart Pendant
+57 - Coral Brooch
+58 - Silver Choker
+59 - Shell Necklace
+5A - Cute Earrings
+5B - Lipstick
+5C - Lip Balm
+5D - Perfume
+5E - Cheap Perfume
+5F - Red Nail Color
+60 - Pink Nail Color
+61 - Aloe Lotion
+62 - Peach Lotion
+63 - Herbal Lotion
+64 - Blue Mascara
+65 - Eye Shadow
+66 - Soap
+67 - Bath Salts
+68 - Creamy Lotion
+69 - Facial Tissue
+6A - Gold Soap
+6B - Facial Powder
+6C - Sun Screen
+6D - Luxurious Soap
+6E - Scented Soap
+6F - Hair Band
+70 - Bamboo Hairpin
+71 - Oak Hairpin
+72 - Gold Hairpin
+73 - Wooden Comb
+74 - Classy Comb
+75 - Small Comb
+76 - Fine Brush
+77 - Pink Ribbon
+78 - Fancy Ribbon
+79 - White Ribbon
+7A - Music Box
+7B - Sweat Band
+7C - Dumbbell Set
+7D - Sewing Kit
+7E - Toiletry Kit
+7F - Bath Set
+80 - Tool Kit
+81 - Experiment Kit
+82 - Pet Frog
+83 - Tea Set
+84 - Money Tree
+85 - Metal Fan
+86 - Rusted Fan
+87 - Vermillion Fan
+88 - Glass Bell
+89 - Cats Bell
+8A - Gold Bell
+8B - Potpourri
+8C - Scented Candle
+8D - Yellow Purse
+8E - Funky Shoes
+8F - Classy Shoes
+90 - Workboots
+91 - Rubber Sandals
+92 - Pink Sandals
+93 - White Sandals
+94 - Red High-Heels
+95 - Fancy Scarf
+96 - Big Umbrella
+97 - Lacy Parasol
+98 - Cool Shades
+99 - Lapis Earrings
+9A - Gold Earrings
+9B - Backpack
+9C - Cute T-Shirt
+9D - Handkerchief
+9E - Silk Kerchief
+9F - Yellow Scarf
+A0 - Cloth Purse
+A1 - Silk Purse
+A2 - Sample Purse
+A3 - Fanny Pack
+A4 - Luxurious Bag
+A5 - Fine Bag
+A6 - Leopard Bag
+A7 - Leather Bag
+A8 - M Sword
+A9 - Claymore
+AA - Katana
+AB - S Knife
+AC - Hammer
+AD - Rapier
+AE - Needle
+AF - Rusty Sword
+B0 - Rusty Axe
+B1 - Rusty Katana
+B2 - Rusty Knife
+B3 - Rusty Stick
+B4 - Blunt Sword
+B5 - Rags
+B6 - S Knight
+B7 - Great Axe
+B8 - Misame
+B9 - A Heart
+BA - Gaia Maul
+BB - Gale Epee
+BC - School Girl
+BD - Broken Sword
+BE - Broken Sword
+BF - Dark Sword
+C0 - Disco Dancer
+C1 - Solider
+C2 - China Girl
+C3 - Nun
+C4 - Nurse
+C5 - Bunny Girl
+
+Character Activated In Party Position Digits
+
+Quantity Digits to Accompany Accessory Character Activated In Party Position Codes
+01 - Back 1
+02 - Back 2
+03 - Position 1 Right Side
+
+Weapon Digits
+
+Quantity Digits to Accompany Weapon Modifier Codes
+00 - M.Sword
+01 - Claymore
+02 - Katana
+03 - S. Knife
+04 - Hammer
+05 - Rapier
+06 - Needle
+07 - Rusty Sword
+08 - Rusty Axe
+09 - Rusty Katana
+0A - Rusty Knife
+0B - Rusty Stick
+0C - Blunt Sword
+0D - Rags
+0E - S. Knight
+0F - Great Axe
+10 - Misame
+11 - A. Heart
+12 - GaiaMaul
+13 - GaiaEpee
+14 - School Girl
+15 - Broken Sword
+16 - Broken Sword 2
+17 - Dark Sword
+
+Weapon Attribute Digits
+
+Quantity Digits to Accompany Weapon Attribute Modifier Codes
+00 - Matter
+01 - Light
+02 - Dark
+03 - Fire
+04 - Water
+05 - Wind
+06 - Earth
+07 - Nothing

@@ -1,0 +1,80 @@
+#Zero Divide#SLUS00183
+"Infinite Energy P1
+D00CA7D4 2400
+80110B3C 00D0
+"Infinite Energy P2
+D00CA7D4 2400
+801118C0 00D0
+"Infinite Time
+D00CA7D4 2400
+800E8968 0700
+"P1 No Health
+D00CA7D4 2400
+80110B3C 0000
+"P2 No Health
+D00CA7D4 2400
+801118C0 0000
+"When Timer Reaches Zero, It Resets
+D00CA7D4 2400
+800E896A 0700
+"Automtically Enables Switch View
+D00CA7D4 2400
+800E8960 0004
+"One of Xtal's Claws Twitches Violently
+D00CA7D4 2400
+80110C52 023A
+"Overall Playing Time is .01 Seconds
+D00CA7D4 2400
+800E811C 0020
+"Overall Playing Time is .00 Seconds
+D00CA7D4 2400
+800E811A 0021
+"X-Tal is Selectable
+D00CA7D4 2400
+800E811A 0021
+"Overall Playing Time Modifier (add 16-bit value)
+D00CA7D4 2400
+800E811E ????
+"Save Count Modifier (add 16-bit value)
+D00CA7D4 2400
+800E8120 ????
+"Best Time Modifier (add 16-bit value)
+D00CA7D4 2400
+800E8124 ????
+"Pal Mode
+D00CA7D4 2400
+800C40CC 0001
+"Start on Level 1, Room A
+D00EEC24 0000
+800EEC24 0000
+"Start on Level 1, Room B
+D00EEC24 0000
+800EEC24 0100
+"Start on Level 1, Room C
+D00EEC24 0000
+800EEC24 0200
+"=Tiny Phalanx 
+"Infinite Lives
+800AC634 0002
+"Infinite Bombs
+800AC4A0 0003
+"Start With 99 Lives
+D00AC634 0002
+800AC634 0063
+"Start With 99 Bombs
+D00AC4A0 0003
+800AC4A0 0063
+
+#Zoboomafoo#SLUS01401
+"Unlock All Levels
+8006791C FFFF
+"Max Score
+800679D8 7FFF
+"Infinite Food
+800679D0 0032
+"Always Max Food
+C20679D4 0001
+800679D0 0000
+"Invincible From Water
+80070DE6 0001
+.end

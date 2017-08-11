@@ -1,0 +1,3649 @@
+#G-Darius#SLUS00690
+"Infinite Credits
+800ABD80 0003
+"Infinite Lives P1
+800BA69E 0003
+"Invincibility P1
+800BA6A2 00E2
+"Infinite Capture Balls P1
+800BAC2A 0400
+"Max Missiles P1
+800BABD8 0502
+"Max Bombs P1
+800BAC08 0202
+"Max Arms P1
+800BAC28 0402
+"Infinite Lives P2
+800BADAA 0003
+"Invincibility P2
+800BADAE 00E2
+"Infinite Capture Balls P2
+800BB336 0400
+"Max Missiles P2
+800BB2E4 0502
+"Max Bombs P2
+800BB314 0202
+"Max Arms P2
+800BB334 0402
+"Never Lose Missile Power P1
+8004F79E 2400
+"Never Lose Bomb Power P1
+8004F922 2400
+"Never Lose Arms Power P1
+8004FA9A 2400
+"Have All Movies (Movie Option)
+800D5D18 001F
+
+#G-Police 2-Weapons of Justice#SLUS00798
+"=Database 
+"Movies Open & Not Played
+8004025C 0000
+8004025E 0000
+80040260 FFFF
+80040262 FFFF
+"Movies Open & Played
+8004025C FFFF
+8004025E FFFF
+80040260 FFFF
+80040262 FFFF
+"Music Open & Not Played
+80040264 0000
+80040266 0000
+80040268 FFFF
+8004026A FFFF
+"Music Open & Played
+80040264 FFFF
+80040266 FFFF
+80040268 FFFF
+8004026A FFFF
+"Missions Open & Not Played
+8004026C 0000
+8004026E 0000
+80040270 FFFF
+80040272 FFFF
+"Missions Open & Played
+8004026C FFFF
+8004026E FFFF
+80040270 FFFF
+80040272 FFFF
+"Artwork 1 Open & Not Viewed
+80040274 0000
+80040276 0000
+80040278 FFFF
+8004027A FFFF
+"Artwork 1 Open & Viewed
+80040274 FFFF
+80040276 FFFF
+80040278 FFFF
+8004027A FFFF
+"Artwork 1 Open & Not Viewed
+80040274 0000
+80040276 0000
+80040278 FFFF
+8004027A FFFF
+"Artwork 1 Open & Viewed
+80040274 FFFF
+80040276 FFFF
+80040278 FFFF
+8004027A FFFF
+"Artwork 2 Open & Not Viewed
+8004027C 0000
+8004027E 0000
+80040280 FFFF
+80040282 FFFF
+"Artwork 2 Open & Viewed
+8004027C FFFF
+8004027E FFFF
+80040280 FFFF
+80040282 FFFF
+"Artwork 3 Open & Not Viewed
+80040284 0000
+80040286 0000
+80040288 FFFF
+8004028A FFFF
+"Artwork 3 Open & Viewed
+80040284 FFFF
+80040286 FFFF
+80040288 FFFF
+8004028A FFFF
+"Artwork 4 Open & Not Viewed
+8004028C 0000
+8004028E 0000
+80040290 FFFF
+80040292 FFFF
+"Artwork 4 Open & Viewed
+8004028C FFFF
+8004028E FFFF
+80040290 FFFF
+80040292 FFFF
+"Artwork 5 Open & Not Viewed
+80040294 0000
+80040296 0000
+80040298 FFFF
+8004029A FFFF
+"Artwork 5 Open & Viewed
+80040294 FFFF
+80040296 FFFF
+80040298 FFFF
+8004029A FFFF
+"All Database Features Opened
+50002002 0000
+8004025C FFFF
+"All 30 Missions Open Easy Difficulty
+300402A4 001F
+300402A5 0000
+300402A6 0000
+"All 30 Missions Open Easy & Normal Difficulty
+300402A4 001F
+300402A5 001F
+300402A6 0000
+"All 30 Missions Open & All Difficulties Open
+300402A4 001F
+300402A5 001F
+300402A6 001F
+"=Level 16 
+"Infinite Shields
+801209F6 2400
+801216AA 2400
+"Infinite Ammo
+80121EBE 2400
+8012248E 2400
+
+#G-Police#SLUS00544
+"Infinite 6000 EPP
+800F5CDA 0063
+"Infinite 6000 Rockets
+800F5CBA 0063
+"Infinite Rockets
+800F5CB8 0063
+"Infinite Hyper Missiles
+800F5CAC 0063
+"Infinite Starburst Missiles
+800F5CB4 0063
+"Infinite Cluster Bombs
+800F5CBC 0063
+"Infinite Firestreak Missiles
+800F5CB0 0063
+"Infinite Lasers
+800F5CD4 0063
+"Infinite Plasma Beam
+800F5CD2 0063
+"Infinite EPP
+800F5CD8 0063
+"Infinite Drop Bombs
+800F5CE2 0063
+"Infinite Supplies
+800F5CE4 0063
+"Infinite Shield [Note 1]
+801EEE4C 1389
+"Invincible
+8008DBDC 0001
+"All Weapons & Infinite Ammo
+8008F1E0 0001
+"Bonus Camera Angle
+800921CC 0001
+"Enable Sirens
+80093038 0001
+"Fast Traffic
+800988C0 0001
+"Open Secret Training Missions
+80093990 003F
+"Level Modifier (add 8-bit value)
+8008F178 00??
+800936EC 00??
+
+#Galaga-Destination Earth#SLUS01258
+"Infinite Lives
+3008C054 0004
+"Infinite Health
+8008C07C 000F
+8008C07E 000F
+"Score Modifier (add 16-bit value)
+8008C000 ????
+"Always Have Nuke
+8008C0B0 0001
+"Max Merits
+8008C090 00FF
+"Max Shields
+8008C07A 0064
+
+#Galerians#SLUS00986
+"Infinite HP
+801C2F9C 00C8
+"Always Empty AP
+801AF96C 0000
+"Infinite Nalcon PPEC Gauge
+801AF978 00C8
+"Infinite Red PPEC Gauge
+801AF97C 00C8
+"Infinite D-Felon PPEC Gauge
+801AF980 00C8
+"Psychic Power Level Maxed
+301AF994 0003
+"Have D-Felon Ability
+801AF9AE FFFF
+"=Medicine Slots 
+"Slot 1
+801AFB00 00??
+"Slot 2
+801AFB02 00??
+"Slot 12
+801AFB16 00??
+"Infinite PPEC Gauge (Alternate)
+D01462FC 0628
+801462FE 2400
+"No AP Gauge (Alternate)
+D014943C 0664
+8014943E 2400
+"Overall Time Is 0:00:00
+801AFDEC 0000
+"Have Max Item Slots
+801AFAFE 0028
+"Have All Movies
+801FD004 FFFF
+801FD006 FFFF
+"=Item Modifier (add 8-bit value)
+"Slot 1
+801AFA0C 0020
+801AFAAC 00??
+"Slot 2
+801AFA10 0040
+801AFAAE 00??
+"Slot 40
+801AFAA8 0500
+801AFAFA 00??
+"Max Charge
+301C2FA6 00C8
+"Never Get Knocked Down Or Slowed Down By Enemy Attacks
+D01C2FD4 000E
+801C2FD4 0000
+D01C2FD4 000C
+801C2FD4 0000
+
+#Gallop Racer#SLUS00942
+"Command (add 16-bit value)
+D007228C ????
+"Infinite Jockey Points
+801FA288 FFFF
+"Max Jockey Points
+801FA288 967F
+801FA28A 0098
+"Jockey Points Never Decrease
+D0134EB2 AC43
+80134EB2 2400
+"=Starting Position 
+"1st Position Infinite Stamina
+800EAD76 00FF
+"2nd Position Infinite Stamina
+800EADB6 00FF
+"3rd Position Infinite Stamina
+800EADF6 00FF
+"4th Position Infinite Stamina
+800EAE36 00FF
+"5th Position Infinite Stamina
+800EAE76 00FF
+"6th Position Infinite Stamina
+800EAEB6 00FF
+"7th Position Infinite Stamina
+800EAEF6 00FF
+"8th Position Infinite Stamina
+800EAF36 00FF
+"9th Position Infinite Stamina
+800EAF76 00FF
+"10th Position Infinite Stamina
+800EAFB6 00FF
+"11th Position Infinite Stamina
+800EAFF6 00FF
+"12th Position Infinite Stamina
+800EB036 00FF
+"Infinite Stamina All Positions
+D00B5AE2 ACC4
+800B5AE2 2400
+
+#Gauntlet Legends#SLUS00624
+"Infinite Potions (On Pickup)
+D00289B4 00F4
+800289B6 2400
+"Infinite Breath's (On Pickup)
+D0028344 00FC
+80028346 2400
+D0025970 00FC
+80025972 2400
+"Infinite Throwing Weapons (On Pickup)
+D0025314 00FC
+80025316 2400
+D00252B0 00FC
+800252B2 2400
+"Infinite Status Ailment Changes (On Pickup)
+D00254A4 012C
+800254A6 2400
+"Infinite Earth Quakes (On Pickup)
+D0025D28 0228
+80025D2A 2400
+"Super Weapons/Powerups Enabler Code [Note 1]
+D0027754 0003
+80027756 1000
+"=1st Person to Pick A Character 
+"Infinite Health
+80096DBC 270F
+"Max Health
+80096DC0 270F
+"Level 99
+80096DC4 0063
+"Infinite Gold
+80096DC8 FFFF
+"Experience Modifier (add 16-bit value)
+80096DCC ????
+"Max Armor
+80096DD4 270F
+"Max Speed
+80096DD8 270F
+"Max Fight Power
+80096DE0 270F
+"Max Shot Power
+80096DE8 270F
+"Infinite Keys
+80096DF8 0063
+"Super Weapons/Powerups [Note 2]
+D0096E38 0000
+5000210C 0000
+80096E38 000F
+"Have Falconess
+80096FF0 0000
+"Have Jackal
+80096FF8 0001
+"Have Minotaur
+80097000 0001
+"Have Tigress
+80097008 0001
+"Max Magic
+80096DDC 270F
+"=2nd Person to Pick A Character 
+"Infinite Health
+80097638 270F
+"Max Health
+8009763C 270F
+"Level 99
+80097640 0063
+"Infinite Gold
+80097644 FFFF
+"Experience Modifier (add 16-bit value)
+80097648 ????
+"Max Armor
+80097650 270F
+"Max Speed
+80097654 270F
+"Max Fight Power
+8009765C 270F
+"Max Shot Power
+80097664 270F
+"Infinite Keys
+80097674 0063
+"Super Weapons/Powerups [Note 3]
+D00976B4 0000
+5000210C 0000
+800976B4 000F
+"Have Falconess
+8009786C 0000
+"Have Jackal
+80097874 0001
+"Have Minotaur
+8009787C 0001
+"Have Tigress
+80097884 0001
+"Max Magic
+80097658 270F
+
+#Gekido-Urban Fighters#SLUS00970
+"Stop Timer
+D001DB90 6AE6
+8001DB92 2400
+"P1 Refill Energy (Press R1)
+D00AED32 F7FF
+800BE146 0906
+"P1 Max Wipeout
+800CE486 03E8
+"P1 Max Rage
+800CE482 0BFF
+"P1 Max Score
+800B6D64 E0FF
+800B6D66 05F5
+"P1 Infinite Lives
+800BE164 0003
+"P2 Refill Health (Press R1)
+D00B6C74 F7FF
+800BE2E6 0906
+"P2 Max Rage
+800CE5D2 0FFF
+"P2 Max Wipeout
+800CE5D6 03E8
+"P2 Max Score
+800B6D68 E0FF
+800B6D6A 05F5
+"P2 Infinite Lives
+800BE304 0003
+"Unlock All Characters
+800B7170 FFFF
+"Unlock All Arenas
+800B717C FFFF
+"Enable Shadow Fighter
+800B7220 0001
+"Enable Team Battle
+800B722C 0001
+"Enable Survival
+800B7238 0001
+"Enable Street Gang Battle
+800B7244 0001
+"Infinite Continues
+800B6D5A 0003
+"P3 Refill Health (Press R1)
+D00BEBB6 F7FF
+800BE486 0906
+"P3 Max Wipeout
+800CE726 03E8
+"P3 Max Rage
+800CE722 0FFF
+"P4 Refill Health (Press R1)
+D00C6AF8 F7FF
+800BE626 0906
+"P4 Max Wipeout
+800CE876 03E8
+"P4 Max Rage
+800CE872 0FFF
+"Enable Deformed Mode
+300B731E 0001
+"Enable Skeleton Mode
+300B732A 0001
+
+#Gekioh Shooting King#SLUS01498
+"Infinite Lives P1
+80185520 0009
+"Quick Score Gain P1
+80185598 FFFF
+"Max Score P1
+80185598 E0FF
+8018559A 05F5
+"Infinite Bombs P1
+8018550C 0063
+"Infinite Credits
+801F6748 0009
+"Infinite Lives P2
+80185522 0009
+"Quick Score Gain P2
+8018559C FFFF
+"Max Score P2
+8018559C E0FF
+8018559E 05F5
+"Infinite Bombs P2
+8018550E 0063
+"=Bonus Mode 
+"Quick Score Gain
+80185168 FFFF
+"Max Score
+80185168 E0FF
+8018516A 05F5
+"Infinite Lives
+801849F8 0009
+
+#Gex 2-Enter The Gekko#SLUS00598
+"Have 99 Collectables On Pickup
+80095318 0063
+"Infinite Health
+80095314 0004
+"Infinite Lives
+80095310 0009
+"Invincible
+800A039C 001D
+"Moon Jump [Note 1]
+D00906B8 0080
+800897A8 0050
+"Have All Collectables
+80095318 0063
+8009531C 0062
+80095320 0062
+"Infinite Time Aztec 2 Step
+D0140C88 1500
+80140C88 1520
+"Infinite Time Thursday The 12th
+D013648C 1500
+8013648C 1520
+"Infinite Time Spy Who Loved Himself
+D014DDB0 1500
+8014DDB0 1520
+"Infinite Time In Drag Net
+D0137114 1500
+80137114 1520
+"=Have All Red Remotes For.... 
+"Out of Toon & Smellraiser
+8009755C 0707
+"Frankensteinfeld & Www.dotcom.com
+8009755E 0707
+"Mao Tse Tongue & The Umpire Strikes Out
+80097560 0707
+"Pangaea 90210 & Fine Tooning
+80097562 0707
+"This Old Cave & Honey I Shrunk The Gecko
+80097564 0707
+"Poltergex & Pain In The Asteroids
+80097566 0707
+"Samurai Night Fever & No Weddings and A Funeral
+80097568 0707
+"Lave Daba Doo
+80097572 0300
+"Texas Chainsaw Manicure & Mazed and Confused
+80097574 0707
+"Have All White Remotes
+80097580 FFFF
+80097582 0FFF
+"Have All Tan Remotes
+80097584 FFFF
+80097582 1F00
+"Charged Gex [Note 2]
+D0089368 0040
+800A039E 0186
+"Feather Gex [Note 3]
+800A034A 0391
+"Air Walking [Note 4]
+800A03AC 0000
+"Infinite Air Pain In Asteroids
+D0168EB6 012A
+80168EB6 012B
+"Infinite Air Umpire Strikes Back
+D0186856 012A
+80186856 012B
+"=Thunder2 Mega Cheats! (Do Not Use Together!) 
+"Debug Menu (Press Select)
+800975DC 0002
+"In Level Clock
+800975DC 0004
+"Rambling Gex Mode
+800975DC 0008
+"One Liner Gex (Press Select)
+800975DC 0010
+"MEGA CHEAT! [Note 5]
+800975DC 00FF
+"Fly Mode [Note 6]
+D00868A4 FEFE
+8004221E 2400
+D00868A4 FDFE
+8004221E A4A2
+"Walk Thru Walls [Note 7]
+D00868A4 FBFE
+8004D8A8 000D
+D00868A4 FBFE
+8004D8AA 1000
+D00868A4 F7FE
+8004D8AA 2400
+
+#Gex 3-Deep Cover Gecko#SLUS00806
+"Moon Jump
+D00A3E24 0080
+800A290C 006F
+"Invincible
+800B37B8 002E
+"Infinite Health
+800AA5D0 0005
+"Infinite Lives
+800AA5CC 0064
+"99 Coins
+800AA5DC 0063
+"99 Paws
+800AA5D8 0063
+"99 Flies
+800AA5D4 0063
+"99 Remotes
+800AA5E0 0063
+"Have Debug Menu Open (Press Select While Playing)
+300A3E9E 0008
+"Blabbermouth Gex (Press Select To Hear His Mouth)
+800AA6B4 2000
+"Have All Special Remotes
+800AA5EC FFFF
+800AA5EE FFFF
+"Infinite Air
+800B38EA 032A
+"=Have All Remote 
+"Totally Scrooged
+300AA5AC 00FF
+"Clueless In Seattle
+300AA5AD 00FF
+"Holy Moses!
+300AA5AE 00FF
+"War Is Heck
+300AA5AF 00FF
+"The Organ Trail
+300AA5B0 00FF
+"Cut Cheese Island
+300AA5B1 00FF
+"Unsolved Mythstories
+300AA5B2 00FF
+"Red Riding In The Hood
+300AA5B3 00FF
+"When Sushi Goes Bad
+300AA5B4 00FF
+"My Three Goons
+300AA5B5 00FF
+"SuperZeroes
+300AA5B6 00FF
+"Mission Control
+300AA5C3 0002
+"Lake Flaccid
+300AA5C4 0002
+"Slappy Vally
+300AA5C5 0002
+"Funky Town
+300AA5C6 0002
+"=Have All Coin 
+"Totally Scrooged
+800AA628 000E
+"Clueless In Seattle
+800AA62A 000E
+"Holy Moses!
+800AA62C 000E
+"War Is Heck
+800AA62E 000E
+"The Organ Trail
+800AA630 000E
+"Cut Cheese Island
+800AA632 000E
+"Unsolved Mythstories
+800AA634 000E
+"Red Riding In The Hood
+800AA636 000E
+"When Sushi Goes Bad
+800AA638 000E
+"My Three Goons
+800AA63A 000E
+"SuperZeroes
+800AA63C 000E
+"Mission Control
+800AA656 000E
+"Lake Flaccid
+800AA658 000E
+"Slappy Vally
+800AA65A 000E
+"Funky Town
+800AA65C 000E
+"Clueless In Seattle
+300AA5D0 0004
+
+#Gex#SLUS00042
+"Command (add 16-bit value)
+D009823C ????
+"Infinite Lives
+8009732C 0063
+"Invincible
+80097BD8 0001
+"Infinite Gold Flies
+80097AF8 0063
+"Blurr Mode
+80097CCC 0001
+"Fireball Mode
+80097BD6 0001
+"=Cemetery 
+"=Frankie & Heli 
+"Moon Jump
+D009823C 0400
+800D752A FFFB
+
+#Ghost In The Shell#SLUS00552
+"=Mission 1 
+"Infinite Energy
+80120258 00C8
+"Infinite Grenades
+8012025C 0001
+"=Mission 2 
+"Infinite Energy
+8011F390 00C8
+"Infinite Grenades
+8011F394 0001
+"=Mission 3 
+"Infinite Energy
+80120C30 00C8
+"Freeze Timer
+80120C24 0DF7
+"Infinite Grenades
+80120C34 0001
+"=Mission 4 
+"Infinite Energy
+801227A4 00C8
+"Freeze Timer
+80122798 0DF7
+"Infinite Grenades
+801227A8 0001
+"=Mission 5 
+"Infinite Energy
+8011FD4C 00C8
+"Infinite Grenades
+8011FD50 0001
+"=Mission 6 
+"Infinite Energy
+801276E4 00C8
+"Freeze Timer
+801276D8 0DF7
+"Infinite Grenades
+801276E8 0001
+"=Mission 7 
+"Infinite Energy
+80125D04 00C8
+"Infinite Grenades
+80125D08 0001
+"=Mission 8 
+"Infinite Energy
+801204A8 00C8
+"Infinite Grenades
+801204AC 0001
+"=Mission 9 
+"Infinite Energy
+801249D4 00C8
+"Infinite Grenades
+801249D8 0001
+"Freeze Timer
+801249C8 0DF7
+"=Mission 10 
+"Infinite Energy
+80125084 00C8
+"Infinite Grenades
+80125088 0001
+"=Mission 11 
+"Infinite Energy
+80122F84 00C8
+"Infinite Grenades
+80122F88 0001
+"=Mission 12 
+"Infinite Energy
+8012BD50 00C8
+"Infinite Grenades
+8012BD54 0001
+"=Training Mission 
+"Infinite Energy
+80117CD0 00C8
+"Freeze Timer
+80117CC4 0DF7
+"Infinite Grenades
+80117CD4 0001
+"Have All Movies
+80112736 0001
+80112738 0001
+8011273A 0001
+8011273C 0001
+8011273E 0001
+80112740 0001
+80112742 0001
+80112744 0001
+80112746 0001
+80112748 0001
+8011274A 0001
+8011274C 0001
+8011274E 0001
+80112750 0001
+80112752 0001
+80112754 0001
+"Have All Movies
+50001002 0000
+80112736 0001
+"Stage Select
+800140B8 000D
+
+#Glover#SLUS00890
+"Joker Command (add 16-bit value)
+D00C24D4 ????
+"Infinite Lives
+300D1BDD 0001
+"Moon Jump (Press L2)
+D00C24D4 0100
+800C2774 E976
+"Have All Cards
+300C29D0 0001
+300C29F4 0001
+"Infinite Health
+800D1BDE 0303
+"Infinite Health (Alternative)
+8004B78A 2400
+"Enemies Can't Touch You
+80041842 2400
+"Invincible
+800D1BE4 3900
+"Max Score
+800C28E0 FFFF
+"Infinite Test Tube Energy
+8004767E 2400
+"Infinite Jumps
+800D1BAC 0000
+
+#Goal Storm 97#SLUS00295
+"P1 Score Modifier (add 16-bit value)
+800A57DE ????
+"P2 Score Modifier (add 16-bit value)
+800A5802 ????
+
+#Goal Storm#SLUS00069
+"Command (add 16-bit value)
+D01616A8 ????
+"P1 Score Modifier (add 8-bit value)
+30161730 00??
+"P2 Score Modifier (add 8-bit value)
+30161731 00??
+"Time Modifier (add 16-bit value)
+80161714 ????
+"P1 Press Select To End Half
+D01616A8 0100
+80161714 0000
+"=Stats Modifier (add 8-bit value)
+"P1 Shot Modifier (add 8-bit value)
+3016188A 00??
+"P2 Shot Modifier (add 8-bit value)
+3016188B 00??
+
+#Golden Nugget#SLUS00319
+"Infinite Cash
+801E26A2 FFFF
+"Infinite Markers
+801E26B8 0009
+
+#Gran Turismo 2#SCUS94488
+"=Simulation Mode 
+"Max Cash
+801D156A 1525
+801D1568 E0FF
+"Have All Gold Licenses
+500045B4 0000
+801CACF8 0400
+"Gold Licenses B
+801CCD00 0400
+801CCDA4 0400
+801CCE48 0400
+801CCEEC 0400
+801CCF90 0400
+801CD034 0400
+801CD0D8 0400
+801CD17C 0400
+801CD220 0400
+801CD2C4 0400
+"Gold Licenses A
+801CC698 0400
+801CC73C 0400
+801CC7E0 0400
+801CC884 0400
+801CC982 0400
+801CC9CC 0400
+801CCA70 0400
+801CCB14 0400
+801CCBB8 0400
+801CCC5C 0400
+"Gold Licenses I-C
+801CC030 0400
+801CC0D4 0400
+801CC178 0400
+801CC21C 0400
+801CC2C0 0400
+801CC364 0400
+801CC408 0400
+801CC4AC 0400
+801CC550 0400
+801CC5F4 0400
+"Gold Licenses I-B
+801CB9C8 0400
+801CBA6C 0400
+801CBB10 0400
+801CBBB4 0400
+801CBC58 0400
+801CBCFC 0400
+801CBDA0 0400
+801CBE44 0400
+801CBEE8 0400
+801CBF8C 0400
+"Gold Licenses I-A
+801CB360 0400
+801CB404 0400
+801CB4A8 0400
+801CB54C 0400
+801CB5F0 0400
+801CB694 0400
+801CB738 0400
+801CB7DC 0400
+801CB880 0400
+801CB924 0400
+"Gold Super License
+801CACF8 0400
+801CAD9C 0400
+801CAE40 0400
+801CAEE4 0400
+801CAF88 0400
+801CB02C 0400
+801CB0D0 0400
+801CB174 0400
+801CB218 0400
+801CB2BC 0400
+"Any Car Can Play Any Circuit [Note 1]
+D00148E0 000C
+800148E2 1000
+"=Both Discs 
+"Quick Win
+D00A9F4C 0000
+800A9F4C 0002
+801D586A 0200
+"Start on 2nd Lap
+D00A9CBC 0000
+800A9CBC 0002
+
+#Gran Turismo#SCUS94194
+"=High Speed Ring 
+"A
+30081788 0004
+"B
+30081789 0004
+"C
+3008178A 0004
+"=Trial Mountain 
+"A
+3008178C 0004
+"B
+3008178D 0004
+"C
+3008178E 0004
+"=Grand Valley 
+"A
+30081790 0004
+"B
+30081791 0004
+"C
+30081792 0004
+"=Clubman Stage 5 
+"A
+30081794 0004
+"B
+30081795 0004
+"C
+30081796 0004
+"=Autumn Ring 
+"A
+30081798 0004
+"B
+30081799 0004
+"C
+3008179A 0004
+"=Deep Forest 
+"A
+3008179C 0004
+"B
+3008179D 0004
+"C
+3008179E 0004
+"=SS R5 
+"A
+300817A0 0004
+"B
+300817A1 0004
+"C
+300817A2 0004
+"=Grand Valley Speedway 
+"A
+300817A4 0004
+"B
+300817A5 0004
+"C
+300817A6 0004
+"=Simulation Mode 
+"1 Billion Dollars
+D0011840 FFE8
+8009B8F4 CA00
+D0011840 FFE8
+8009B8F6 3B9A
+"=B-Class License Gold 
+"Test 1
+3009E444 0003
+"Test 2
+3009E445 0003
+"Test 3
+3009E446 0003
+"Test 4
+3009E447 0003
+"Test 5
+3009E448 0003
+"Test 6
+3009E449 0003
+"Test 7
+3009E44A 0003
+"Test 8
+3009E44B 0003
+"=A-Class License Gold 
+"Test 1
+3009E44C 0003
+"Test 2
+3009E44D 0003
+"Test 3
+3009E44E 0003
+"Test 4
+3009E44F 0003
+"Test 5
+3009E450 0003
+"Test 6
+3009E451 0003
+"Test 7
+3009E452 0003
+"Test 8
+3009E453 0003
+"=International A-Class License Gold 
+"Test 1
+3009E454 0003
+"Test 2
+3009E455 0003
+"Test 3
+3009E456 0003
+"Test 4
+3009E457 0003
+"Test 5
+3009E458 0003
+"Test 6
+3009E459 0003
+"Test 7
+3009E45A 0003
+"Test 8
+3009E45B 0003
+"=Garage - Have 100 Cars of Your Choice! 
+"Set 1 - Do Not Change Must be Used!
+8007DAE8 0064
+8009B90A 0064
+"=Set 2 
+"Garage Space 1
+8009BA9C 00??
+"Garage Space 2
+8009BAFC 00??
+"Garage Space 100
+8009DFBC 00??
+"=More Misc. 
+"Cruise Control [Note 2]
+D00B6F48 0600
+300B6F48 0001
+D00B6F48 0100
+300B6F48 0001
+"=Hi-Res Course Modifiers (add 8-bit value) [Note 3]
+"Clubman Stage R5
+D00B63EC 0019
+300B63EC 00??
+"Special Stage R5
+D00B63EC 0114
+300B63EC 00??
+"Special Stage R11
+D00B63EC 021F
+300B63EC 00??
+"Total Laps In Race Modifier (add 8-bit value)
+300B637C 00??
+"=Course Modifier (add 8-bit value) [Note 4]
+"=Spot Races 
+"High Speed Ring (add 16-bit value)
+D0090E74 C760
+80090E74 ????
+"Grand Valley East (add 16-bit value)
+D0090E7C C6B0
+80090E7C ????
+"Autumn Mini (add 16-bit value)
+D0090E84 C77C
+80090E84 ????
+"Trial Mountain (add 16-bit value)
+D0090E8C C784
+80090E8C ????
+"Deep Forrest (add 16-bit value)
+D0090E94 C6D4
+80090E94 ????
+"=GT Cup Races 
+"=Sunday Cup 
+"Race 1 (add 16-bit value)
+D0090E0C C77C
+80090E0C ????
+"Race 2 (add 16-bit value)
+D0090E10 C760
+80090E10 ????
+"Race 3 (add 16-bit value)
+D0090E14 C6B0
+80090E14 ????
+"=Clubman Cup 
+"Race 1 (add 16-bit value)
+D0090E1C C790
+80090E1C ????
+"Race 2 (add 16-bit value)
+D0090E20 C754
+80090E20 ????
+"Race 3 (add 16-bit value)
+D0090E24 C784
+80090E24 ????
+"=GT Cup 
+"Race 1 (add 16-bit value)
+D0090E2C C6F8
+80090E2C ????
+"Race 2 (add 16-bit value)
+D0090E30 C6D4
+80090E30 ????
+"Race 3 (add 16-bit value)
+D0090E34 C76C
+80090E34 ????
+"Race 4 (add 16-bit value)
+D0090E38 C784
+80090E38 ????
+"=GT World Cup 
+"Race 1 (add 16-bit value)
+D0090E40 C760
+80090E40 ????
+"Race 2 (add 16-bit value)
+D0090E44 C784
+80090E44 ????
+"Race 3 (add 16-bit value)
+D0090E48 C6F8
+80090E48 ????
+"Race 4 (add 16-bit value)
+D0090E4C C76C
+80090E4C ????
+"Race 5 (add 16-bit value)
+D0090E50 C6D4
+80090E50 ????
+"Race 6 (add 16-bit value)
+D0090E54 C6A8
+80090E54 ????
+"=Special Event Races 
+"=FF Race 
+"Race 1 (add 16-bit value)
+D0090D44 C6D8
+80090D44 ????
+"Race 2 (add 16-bit value)
+D0090D48 C6B0
+80090D48 ????
+"Race 3 (add 16-bit value)
+D0090D4C C6A8
+80090D4C ????
+"=FR Race 
+"Race 1 (add 16-bit value)
+D0090D54 C6E0
+80090D54 ????
+"Race 2 (add 16-bit value)
+D0090D58 C6D4
+80090D58 ????
+"Race 3 (add 16-bit value)
+D0090D5C C6C8
+80090D5C ????
+"=4WD Race 
+"Race 1 (add 16-bit value)
+D0090D64 C700
+80090D64 ????
+"Race 2 (add 16-bit value)
+D0090D68 C6F8
+80090D68 ????
+"Race 3 (add 16-bit value)
+D0090D6C C6EC
+80090D6C ????
+"=Lightweight Race 
+"Race 1 (add 16-bit value)
+D0090DA4 C748
+80090DA4 ????
+"Race 2 (add 16-bit value)
+D0090DA8 C754
+80090DA8 ????
+"Race 3 (add 16-bit value)
+D0090DAC C6D8
+80090DAC ????
+"=US vs Japan 
+"Race 1 (add 16-bit value)
+D0090DB4 C700
+80090DB4 ????
+"Race 2 (add 16-bit value)
+D0090DB8 C76C
+80090DB8 ????
+"Race 3 (add 16-bit value)
+D0090DBC C760
+80090DBC ????
+"Race 4 (add 16-bit value)
+D0090DC0 C6E0
+80090DC0 ????
+"Race 5 (add 16-bit value)
+D0090DC4 C6A8
+80090DC4 ????
+"=UK vs Japan 
+"Race 1 (add 16-bit value)
+D0090DCC C700
+80090DCC ????
+"Race 2 (add 16-bit value)
+D0090DD0 C76C
+80090DD0 ????
+"Race 3 (add 16-bit value)
+D0090DD4 C760
+80090DD4 ????
+"Race 4 (add 16-bit value)
+D0090DD8 C6E0
+80090DD8 ????
+"Race 5 (add 16-bit value)
+D0090DDC C6A8
+80090DDC ????
+"=UK vs US 
+"Race 1 (add 16-bit value)
+D0090DE4 C700
+80090DE4 ????
+"Race 2 (add 16-bit value)
+D0090DE8 C76C
+80090DE8 ????
+"Race 3 (add 16-bit value)
+D0090DEC C760
+80090DEC ????
+"Race 4 (add 16-bit value)
+D0090DF0 C6E0
+80090DF0 ????
+"Race 5 (add 16-bit value)
+D0090DF4 C6A8
+80090DF4 ????
+"=Normal Race 
+"Race 1 (add 16-bit value)
+D0090D8C C748
+80090D8C ????
+"Race 2 (add 16-bit value)
+D0090D90 C6E0
+80090D90 ????
+"Race 3 (add 16-bit value)
+D0090D94 C728
+80090D94 ????
+"Race 4 (add 16-bit value)
+D0090D98 C6D8
+80090D98 ????
+"Race 5 (add 16-bit value)
+D0090D9C C6A8
+80090D9C ????
+"=Tuned Race 
+"Race 1 (add 16-bit value)
+D0090D74 C738
+80090D74 ????
+"Race 2 (add 16-bit value)
+D0090D78 C6C8
+80090D78 ????
+"Race 3 (add 16-bit value)
+D0090D7C C728
+80090D7C ????
+"Race 4 (add 16-bit value)
+D0090D80 C71C
+80090D80 ????
+"Race 5 (add 16-bit value)
+D0090D84 C710
+80090D84 ????
+"=Megaspeed Race 
+"Race 1 (add 16-bit value)
+D0090DFC C760
+80090DFC ????
+"Race 2 (add 16-bit value)
+D0090E00 C774
+80090E00 ????
+"Race 3 (add 16-bit value)
+D0090E04 C738
+80090E04 ????
+"Grand Valley 300 (add 16-bit value)
+D0090E5C C6F8
+80090E5C ????
+"All Night 1 (add 16-bit value)
+D0090E64 C6A8
+80090E64 ????
+"All Night 2 (add 16-bit value)
+D0090E6C C710
+80090E6C ????
+"Extra Spot Race Money [Note 5]
+D0091100 01F4
+80091100 03E8
+D0091104 03E8
+80091104 1388
+D0091124 01F4
+80091124 03E8
+D0091128 03E8
+80091128 1388
+D0091148 01F4
+80091148 03E8
+D009114C 03E8
+8009114C 1388
+D009116C 01F4
+8009116C 03E8
+D0091170 03E8
+80091170 1388
+D0091190 01F4
+80091190 03E8
+D0091194 03E8
+80091194 1388
+"Reset Timer Instantly
+D0093DBC 3A98
+80093DBC 0000
+"Start With $999,000,000+
+D0011840 FFE8
+80011844 3B9A
+D0011840 FFE8
+80011846 3C04
+"Start On Any Lap (Both Modes)
+D00B68E0 0000
+800B68E0 00??
+
+#Grand Slam Baseball#SLUS00127
+"Infinite Balls
+300F6027 0000
+"1 Ball And You Walk
+D00F6026 0000
+300F6027 0003
+"2 Balls And You Walk
+D00F6026 0000
+300F6027 0002
+"3 Balls And You Walk
+D00F6026 0000
+300F6027 0001
+"Infinite Strikes
+300F6028 0000
+"1 Strike And You Are Out
+D00F6028 0000
+300F5028 0002
+"2 Strikes And You Are Out
+D00F6028 0000
+300F5028 0001
+"Infinite Outs
+300F6029 0000
+"1 Out And You Are Out
+D00F6028 0000
+300F6029 0002
+"2 Outs And You Are Out
+D00F6028 0000
+300F6029 0001
+"Away Team Hits Modifier (add 16-bit value)
+800F5C4C ????
+"Home Team Hits Modifier (add 16-bit value)
+800F58F4 ????
+"Away Team Score Modifier (add 16-bit value)
+800F5C50 ????
+"Home Team Score Modifier (add 16-bit value)
+800F58F8 ????
+"Run's Score Modifier (add 8-bit value)
+80050864 00??
+
+#Grand Theft Auto 2#SLUS00789
+"Command (add 16-bit value)
+D0035510 ????
+"Infinite Health
+80145A9A 0064
+8012007E 000A
+"Infinite Lives
+80120008 0063
+"Max Money
+8011FD0C 967F
+8011FD0E 0098
+"Infinite Bonus & Kill Frenzy Time
+800A419A 2400
+"No Cops
+80145A8E 0000
+"Lots of Cops
+80145A8E 2EE0
+"No Kills
+8012A870 0000
+"Max Number of Kills
+8012A870 FFFF
+"=Have Weapon 
+"Pistol Max Ammo
+D0164D6C 0000
+80164D6C 03E7
+"Pistol (Kill Frenzy Ammo)
+D0164D6C 0000
+80164D6C FFFF
+"S-Uzi Machine Gun Max Ammo
+D0164D94 0000
+80164D94 03E7
+"S-Uzi Machine Gun (Kill Frenzy Ammo)
+D0164D94 0000
+80164D94 FFFF
+"Rocket Launcher Max Ammo
+D0164DBC 0000
+80164DBC 03E7
+"Rocket Launcher (Kill Frenzy Ammo)
+D0164DBC 0000
+80164DBC FFFF
+"Silenced S-Uzi Max Ammo
+D0164ED4 0000
+80164ED4 03E7
+"Silenced S-Uzi (Kill Frenzy Ammo)
+D0164ED4 0000
+80164ED4 FFFF
+"Zapper Max Ammo
+D0164DE4 0000
+80164DE4 03E7
+"Zapper (Kill Frenzy Ammo)
+D0164DE4 0000
+80164DE4 FFFF
+"Molotav Cocktail Max Ammo
+D0164E0C 0000
+80164E0C 03E7
+"Molotav Cocktail (Kill Frenzy Ammo)
+D0164E0C 0000
+80164E0C FFFF
+"Grenades Max Ammo
+D0164E34 0000
+80164E34 03E7
+"Grenades (Kill Frenzy Ammo)
+D0164E34 0000
+80164E34 FFFF
+"Shotgun Max Ammo
+D0164E5C 0000
+80164E5C 03E7
+"Shotgun (Kill Frenzy Ammo)
+D0164E5C 0000
+80164E5C FFFF
+"Tazer Max Ammo
+D0164E84 0000
+80164E84 03E7
+"Tazer (Kill Frenzy Ammo)
+D0164E84 0000
+80164E84 FFFF
+"Flame Thrower Max Ammo
+D0164EAC 0000
+80164EAC 03E7
+"Flame Thrower (Kill Frenzy Ammo)
+D0164EAC 0000
+80164EAC FFFF
+"All Weapons (Normal Max Ammo)
+D0164D6C 0000
+50000B28 0000
+80164D6C 03E7
+"All Weapons (Kill Frenzy Ammo)
+D0164D6C 0000
+50000B28 0000
+80164D6C FFFF
+"Open All Normal Areas
+80024F24 0003
+"Open All Bonus Areas
+D0024F1C 0000
+80024F1C 0001
+80024F28 0009
+"=In-Game Cheats 
+"Invincible
+30026348 0001
+"All Areas Unlocked
+30026349 0001
+"No Cops
+3002634A 0001
+"5x Multiplier
+3002634B 0001
+"10 Million Points
+3002634C 0001
+"Debug Basic Scripts [Note 1]
+3002634D 0001
+"All Weapons
+3002634E 0001
+"Most Wanted
+3002634F 0001
+"Bonus Multiplier x99
+80120040 0063
+"Respect From All Gangs
+801789E4 7530
+801788B4 7530
+80178784 7530
+"Level Select Cheat [Note 2]
+80024E86 5449
+80024E88 4153
+80024E8A 4C4C
+80024E8C 5055
+"Blood Mode
+30026351 0001
+"Display X Y Coordinates
+30026350 0001
+
+#Grand Theft Auto#SLUS00106
+"Joker Command (add 16-bit value)
+D002C440 ????
+"Infinite Lives
+8002C446 0009
+"Get Out Of Jail Free Key
+8002C45E 0001
+"65535 High Score
+D002C2F0 0000
+8002C2F0 FFFF
+"Extra Bonus Points
+8002C442 0063
+"Infinite Pistol Ammo
+8002C450 6300
+"Infinite Machinegun/Rocket Ammo
+8002C452 6363
+"Infinite Flamethrower Ammo
+8002C454 0063
+"Infinite Armor
+8002C438 0063
+"No Cops
+80026D84 2000
+"5 Million High Score
+D002C2F0 0000
+8002C2F0 4FFF
+D002C2F2 0000
+8002C2F2 004C
+"Less Traffic
+8002C3A4 05BD
+"Unlock Liberty City Part 2
+80026D20 0001
+"Unlock San Andreas Part 1
+80026D24 0001
+"Unlock San Andreas Part 2
+80026D28 0001
+"Unlock Vice City Part 1
+80026D2C 0001
+"Unlock Vice City Part 2
+80026D30 0001
+"Super Human Whacked & Crazy Mode! [Note 1]
+8002C932 6401
+8002C954 0002
+8002C976 00FF
+D002C440 0100
+8002C932 0000
+"Auto-Rapid Firing For All Weapons (Press O)
+8001A0DA 0000
+"Auto-Driving Enable
+8002C448 05BD
+"Strange Effects
+8002C968 C770
+
+#Grand Theft Auto-London 1969#SLUS00846
+"Joker Command (add 16-bit value)
+D003C528 ????
+"5 Million Points Score
+D002BE1C 0000
+8002BE1C 4FFF
+D002BE1E 0000
+8002BE1E 004C
+"Infinite Lives
+8002BF72 0004
+"Infinite Pistol Ammo
+3002BF7D 0063
+"Infinite Machine Gun Ammo
+3002BF7E 0063
+"Infinite Rocket Ammo
+3002BF7F 0063
+"Infinite Flame Thrower Fuel
+3002BF80 0063
+"Have Get Out of Jail Free Card
+8002BF8A 0001
+"Max Bonus Multiplier
+8002BF6E 0063
+"Enable Mods + Sods Level
+80026748 0001
+"Enable Chelsea Smile Level
+8002674C 0001
+"Enable Dead Certainity Level
+80026750 0001
+"Wanted Level Maxed Out
+80019C44 0004
+"No Cops
+8002BE08 0000
+"Disable The Need For Double Swap
+D0180C94 033F
+80180C96 2400
+"Disable The Need For Double Swap (Cheat Device Pro 3.xx Version)
+C1000000 0000
+D0180C94 033F
+80180C96 2400
+"Ulitimate Code #1 (Press R1 And Select For Weapons)
+D003C528 0801
+50000401 0000
+3002BF7D 0063
+"Ulitimate Code #1 (Press R2 And Select For Key)
+D003C528 0201
+8002BF8A 0001
+
+#Grand Tour Racing#SLUS00494
+"=Easter Island Level 
+"Ahmed
+80026936 0007
+"Baptiste
+8002698A 0007
+"Ivanov
+8002697E 0007
+"Lumiere
+80026966 0007
+"Morgen
+80026942 0007
+"Roberts
+80026972 0007
+"Rossi
+8002694E 0007
+"Xu
+8002695A 0007
+"=Egypt Level 
+"Ahmed
+8002693E 0007
+"Baptiste
+80026992 0007
+"Ivanov
+80026986 0007
+"Lumiere
+8002696E 0007
+"Morgen
+8002694A 0007
+"Roberts
+8002697A 0007
+"Rossi
+80026956 0007
+"Xu
+80026962 0007
+"=Hong Kong Level 
+"Ahmed
+8002693C 0007
+"Baptiste
+80026990 0007
+"Ivanov
+80026984 0007
+"Lumiere
+8002696C 0007
+"Morgen
+80026948 0007
+"Roberts
+80026978 0007
+"Rossi
+80026954 0007
+"Xu
+80026960 0007
+"=Moscow Level 
+"Ahmed
+80026934 0007
+"Baptiste
+80026988 0007
+"Ivanov
+8002697C 0007
+"Lumiere
+80026964 0007
+"Morgen
+80026940 0007
+"Roberts
+80026970 0007
+"Rossi
+8002694C 0007
+"Xu
+80026958 0007
+"=Scotland Level 
+"Ahmed
+8002693A 0007
+"Baptiste
+8002698E 0007
+"Ivanov
+80026982 0007
+"Lumiere
+8002696A 0007
+"Morgen
+80026946 0007
+"Roberts
+80026976 0007
+"Rossi
+80026952 0007
+"Xu
+8002695E 0007
+"=Switzerland Level 
+"Ahmed
+80026938 0007
+"Baptiste
+8002698C 0007
+"Ivanov
+80026980 0007
+"Lumiere
+80026968 0007
+"Morgen
+80026944 0007
+"Roberts
+80026974 0007
+"Rossi
+80026950 0007
+"Xu
+8002695C 0007
+"Have All Levels
+50003002 0000
+80026934 0007
+
+#Grandia (Character)#SCUS94457
+"=Character 
+"=Justin 
+"Infinite HP
+80010278 03E7
+"Max HP
+80010276 03E7
+"Infinite SP
+80010284 03E7
+"Max SP
+80010282 03E7
+"Infinite MP Lev 1
+300102A8 0063
+"Max MP Lev 1
+300102A9 0063
+"Infinite MP Lev 2
+300102AA 0063
+"Max MP Lev 2
+300102AB 0063
+"Infinite MP Lev 3
+300102AC 0063
+"Max MP Lev 3
+300102AD 0063
+"Level 99
+3001026F 0063
+"Have All Magic/Moves After 1 Fight
+50000702 0000
+80010288 03E7
+50000701 0000
+30010298 00FF
+"Fire Magic Max Exp
+80010288 03E7
+"Wind Magic Max Exp
+8001028C 03E7
+"Water Magic Max Exp
+8001028A 03E7
+"Earth Magic Max Exp
+8001028E 03E7
+"Fire Magic Max Level
+30010298 00FF
+"Wind Magic Max Level
+3001029A 00FF
+"Water Magic Max Level
+30010299 00FF
+"Earth Magic Max Level
+3001029B 00FF
+"Sword Max Exp
+80010290 03E7
+"Mace Max Exp
+80010292 03E7
+"Ax Max Exp
+80010294 03E7
+"Sword Max Level
+3001029C 00FF
+"Mace Max Level
+3001029D 00FF
+"Ax Max Level
+3001029E 00FF
+"Max Str
+8001027A 03E7
+"Max Vit
+8001027C 03E7
+"Max Wit
+8001027E 03E7
+"Max Agi
+80010280 03E7
+"Max Exp
+800102A0 FFFF
+800102A2 000F
+"Exp Modifier (add 16-bit value)
+800102A0 ????
+"All Moves
+50000A01 0000
+3001069E 0001
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+800102C4 0???
+"Slot 2
+800102C6 0???
+"Slot 12
+800102DA 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+800102B8 0???
+"Shield
+800102BA 0???
+"Armor
+800102BC 0???
+"Helmet
+800102BE 0???
+"Shoes
+800102C0 0???
+"Jewelry
+800102C2 0???
+"Quick Weapon/Magic Level [Note 1]
+50000702 0000
+80010288 0063
+"=Feena 
+"Infinite HP
+800102F8 03E7
+"Max HP
+800102F6 03E7
+"Infinite SP
+80010304 03E7
+"Max SP
+80010302 03E7
+"Infinite MP Lev 1
+30010328 0063
+"Max MP Lev 1
+30010329 0063
+"Infinite MP Lev 2
+3001032A 0063
+"Max MP Lev 2
+3001032B 0063
+"Infinite MP Lev 3
+3001032C 0063
+"Max MP Lev 3
+3001032D 0063
+"Level 99
+300102EF 0063
+"Have All Magic/Moves After 1 Fight
+50000702 0000
+80010308 03E7
+50000701 0000
+30010318 00FF
+"Fire Magic Max Exp
+80010308 03E7
+"Wind Magic Max Exp
+8001030C 03E7
+"Water Magic Max Exp
+8001030A 03E7
+"Earth Magic Max Exp
+8001030E 03E7
+"Fire Magic Max Level
+30010318 00FF
+"Wind Magic Max Level
+3001031A 00FF
+"Water Magic Max Level
+30010319 00FF
+"Earth Magic Max Level
+3001031B 00FF
+"Knife Max Exp
+80010310 03E7
+"Whip Max Exp
+80010312 03E7
+"Knife Max Level
+3001031C 00FF
+"Whip Max Level
+3001031D 00FF
+"Max Str
+800102FA 03E7
+"Max Vit
+800102FC 03E7
+"Max Wit
+800102FE 03E7
+"Max Agi
+80010300 03E7
+"Max Exp
+80010320 FFFF
+80010322 000F
+"Exp Modifier (add 16-bit value)
+80010320 ????
+"All Moves
+50000501 0000
+300106A8 0002
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+80010344 0???
+"Slot 2
+80010346 0???
+"Slot 12
+8001035A 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+80010338 0???
+"Shield
+8001033A 0???
+"Armor
+8001033C 0???
+"Helmet
+8001033E 0???
+"Shoes
+80010340 0???
+"Jewelry
+80010342 0???
+"Quick Weapon/Magic Level [Note 1]
+50000702 0000
+80010308 0063
+"=Gadwin 
+"Infinite HP
+800103F8 03E7
+"Max HP
+800103F6 03E7
+"Infinite SP
+80010404 03E7
+"Max SP
+80010302 03E7
+"Infinite MP Lev 1
+30010428 0063
+"Max MP Lev 1
+30010429 0063
+"Infinite MP Lev 2
+3001042A 0063
+"Max MP Lev 2
+3001042B 0063
+"Infinite MP Lev 3
+3001042C 0063
+"Max MP Lev 3
+3001042D 0063
+"Level 99
+300103EF 0063
+"Have All Magic/Moves After 1 Fight
+50000702 0000
+80010408 03E7
+50000701 0000
+30010418 00FF
+"Fire Magic Max Exp
+80010408 03E7
+"Wind Magic Max Exp
+8001040C 03E7
+"Water Magic Max Exp
+8001040A 03E7
+"Earth Magic Max Exp
+8001040E 03E7
+"Fire Magic Max Level
+30010418 00FF
+"Wind Magic Max Level
+3001041A 00FF
+"Water Magic Max Level
+30010419 00FF
+"Earth Magic Max Level
+3001041B 00FF
+"Sword Max Exp
+80010410 03E7
+"Sword Max Level
+3001041C 00FF
+"Max Str
+800103FA 03E7
+"Max Vit
+800103FC 03E7
+"Max Wit
+800103FE 03E7
+"Max Agi
+80010400 03E7
+"Max Exp
+80010420 FFFF
+80010422 000F
+"Exp Modifier (add 16-bit value)
+80010420 ????
+"All Moves
+50000301 0000
+300106B4 0008
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+80010444 0???
+"Slot 2
+80010446 0???
+"Slot 12
+8001045A 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+80010438 0???
+"Shield
+8001043A 0???
+"Armor
+8001043C 0???
+"Helmet
+8001043E 0???
+"Shoes
+80010440 0???
+"Jewelry
+80010442 0???
+"Quick Weapon/Magic Level [Note 1]
+50000702 0000
+80010408 0063
+"=Guido 
+"Infinite HP
+80010578 03E7
+"Max HP
+80010576 03E7
+"Infinite SP
+80010584 03E7
+"Max SP
+80010582 03E7
+"Infinite MP Lev 1
+300105A8 0063
+"Max MP Lev 1
+300105A9 0063
+"Infinite MP Lev 2
+300105AA 0063
+"Max MP Lev 2
+300105AB 0063
+"Infinite MP Lev 3
+300105AC 0063
+"Max MP Lev 3
+300105AD 0063
+"Level 99
+3001056F 0063
+"Have All Magic/Moves After 1 Fight
+50000702 0000
+80010588 03E7
+50000701 0000
+30010598 00FF
+"Fire Magic Max Exp
+80010588 03E7
+"Wind Magic Max Exp
+8001058C 03E7
+"Water Magic Max Exp
+8001058A 03E7
+"Earth Magic Max Exp
+8001058E 03E7
+"Fire Magic Max Level
+30010598 00FF
+"Wind Magic Max Level
+3001059A 00FF
+"Water Magic Max Level
+30010599 00FF
+"Earth Magic Max Level
+3001059B 00FF
+"Dagger Max Exp
+80010590 03E7
+"Sword Max Exp
+80010592 03E7
+"Bow Max Exp
+80010594 03E7
+"Dagger Max Level
+3001059C 00FF
+"Sword Max Level
+3001059D 00FF
+"Bow Max Level
+3001059E 00FF
+"Max Str
+8001057A 03E7
+"Max Vit
+8001057C 03E7
+"Max Wit
+8001057E 03E7
+"Max Agi
+80010580 03E7
+"Max Exp
+800105A0 FFFF
+800105A2 000F
+"Exp Modifier (add 16-bit value)
+800105A0 ????
+"All Moves
+50000301 0000
+300106C8 0040
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+800105C4 0???
+"Slot 2
+800105C6 0???
+"Slot 12
+800105DA 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+800104B8 0???
+"Shield
+800105BA 0???
+"Armor
+800105BC 0???
+"Helmet
+800105BE 0???
+"Shoes
+800105C0 0???
+"Jewelry
+800105C2 0???
+"Quick Weapon/Magic Level [Note 1]
+50000702 0000
+80010588 0063
+"=Liete 
+"Infinite HP
+800105F8 03E7
+"Max HP
+800105F6 03E7
+"Infinite SP
+80010604 03E7
+"Max SP
+80010602 03E7
+"Infinite MP Lev 1
+30010628 0063
+"Max MP Lev 1
+30010629 0063
+"Infinite MP Lev 2
+3001062A 0063
+"Max MP Lev 2
+3001062B 0063
+"Infinite MP Lev 3
+3001062C 0063
+"Max MP Lev 3
+3001062D 0063
+"Level 99
+300105EF 0063
+"Have All Magic/Moves After 1 Fight
+50000702 0000
+80010608 03E7
+50000701 0000
+30010618 00FF
+"Fire Magic Max Exp
+80010608 03E7
+"Wind Magic Max Exp
+8001060C 03E7
+"Water Magic Max Exp
+8001060A 03E7
+"Earth Magic Max Exp
+8001060E 03E7
+"Fire Magic Max Level
+30010618 00FF
+"Wind Magic Max Level
+3001061A 00FF
+"Water Magic Max Level
+30010619 00FF
+"Earth Magic Max Level
+3001061B 00FF
+"Mace Max Exp
+80010610 03E7
+"Mace Max Level
+3001061C 00FF
+"Max Str
+800105FA 03E7
+"Max Vit
+800105FC 03E7
+"Max Wit
+800105FE 03E7
+"Max Agi
+80010600 03E7
+"Max Exp
+80010620 FFFF
+80010622 000F
+"Exp Modifier (add 16-bit value)
+80010620 ????
+"All Moves
+300106CB 0080
+300106CC 0080
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+80010644 0???
+"Slot 2
+80010646 0???
+"Slot 12
+8001065A 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+80010638 0???
+"Shield
+8001063A 0???
+"Armor
+8001063C 0???
+"Helmet
+8001063E 0???
+"Shoes
+80010640 0???
+"Jewelry
+80010642 0???
+"Quick Weapon/Magic Level [Note 1]
+50000702 0000
+80010608 0063
+"=Milda 
+"Infinite HP
+800104F8 03E7
+"Max HP
+800104F6 03E7
+"Infinite SP
+80010504 03E7
+"Max SP
+80010502 03E7
+"Infinite MP Lev 1
+30010528 0063
+"Max MP Lev 1
+30010529 0063
+"Infinite MP Lev 2
+3001052A 0063
+"Max MP Lev 2
+3001052B 0063
+"Infinite MP Lev 3
+3001052C 0063
+"Max MP Lev 3
+3001052D 0063
+"Level 99
+300104EF 0063
+"Have All Magic/Moves After 1 Fight
+50000702 0000
+80010508 03E7
+50000701 0000
+30010518 00FF
+"Fire Magic Max Exp
+80010508 03E7
+"Wind Magic Max Exp
+8001050C 03E7
+"Water Magic Max Exp
+8001050A 03E7
+"Earth Magic Max Exp
+8001050E 03E7
+"Fire Magic Max Level
+30010518 00FF
+"Wind Magic Max Level
+3001051A 00FF
+"Water Magic Max Level
+30010519 00FF
+"Earth Magic Max Level
+3001051B 00FF
+"Sword Max Exp
+80010510 03E7
+"Mace Max Exp
+80010512 03E7
+"Ax Max Exp
+80010514 03E7
+"Sword Max Level
+3001051C 00FF
+"Mace Max Level
+3001051D 00FF
+"Ax Max Level
+3001051E 00FF
+"Max Str
+800104FA 03E7
+"Max Vit
+800104FC 03E7
+"Max Wit
+800104FE 03E7
+"Max Agi
+80010500 03E7
+"Max Exp
+80010520 FFFF
+80010522 000F
+"Exp Modifier (add 16-bit value)
+80010520 ????
+"All Moves
+50000601 0000
+300106C0 0020
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+80010544 0???
+"Slot 2
+80010546 0???
+"Slot 12
+8001055A 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+80010538 0???
+"Shield
+8001053A 0???
+"Armor
+8001053C 0???
+"Helmet
+8001053E 0???
+"Shoes
+80010540 0???
+"Jewelry
+80010542 0???
+"Quick Weapon/Magic Level [Note 1]
+50000702 0000
+80010508 0063
+"=Rapp 
+"Infinite HP
+80010478 03E7
+"Max HP
+80010476 03E7
+"Infinite SP
+80010484 03E7
+"Max SP
+80010482 03E7
+"Infinite MP Lev 1
+300104A8 0063
+"Max MP Lev 1
+300104A9 0063
+"Infinite MP Lev 2
+300104AA 0063
+"Max MP Lev 2
+300104AB 0063
+"Infinite MP Lev 3
+300104AC 0063
+"Max MP Lev 3
+300104AD 0063
+"Level 99
+3001046F 0063
+"Have All Magic/Moves After 1 Fight
+50000702 0000
+80010488 03E7
+50000701 0000
+30010498 00FF
+"Fire Magic Max Exp
+80010488 03E7
+"Wind Magic Max Exp
+8001048C 03E7
+"Water Magic Max Exp
+8001048A 03E7
+"Earth Magic Max Exp
+8001048E 03E7
+"Fire Magic Max Level
+30010498 00FF
+"Wind Magic Max Level
+3001049A 00FF
+"Water Magic Max Level
+30010499 00FF
+"Earth Magic Max Level
+3001049B 00FF
+"Dagger Max Exp
+80010490 03E7
+"Sword Max Exp
+80010492 03E7
+"Bow Max Exp
+80010494 03E7
+"Dagger Max Level
+3001049C 00FF
+"Sword Max Level
+3001049D 00FF
+"Bow Max Level
+3001049E 00FF
+"Max Str
+8001047A 03E7
+"Max Vit
+8001047C 03E7
+"Max Wit
+8001047E 03E7
+"Max Agi
+80010480 03E7
+"Max Exp
+800104A0 FFFF
+800104A2 000F
+"Exp Modifier (add 16-bit value)
+800104A0 ????
+"All Moves
+50000901 0000
+300106B7 0010
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+800104C4 0???
+"Slot 2
+800104C6 0???
+"Slot 12
+800104DA 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+800104B8 0???
+"Shield
+800104BA 0???
+"Armor
+800104BC 0???
+"Helmet
+800104BE 0???
+"Shoes
+800104C0 0???
+"Jewelry
+800104C2 0???
+"Quick Weapon/Magic Level [Note 1]
+50000702 0000
+80010488 0063
+"=Sue 
+"Infinite HP
+80010378 03E7
+"Max HP
+80010376 03E7
+"Infinite SP
+80010384 03E7
+"Max SP
+80010382 03E7
+"Infinite MP Lev 1
+300103A8 0063
+"Max MP Lev 1
+300103A9 0063
+"Infinite MP Lev 2
+300103AA 0063
+"Max MP Lev 2
+300103AB 0063
+"Infinite MP Lev 3
+300103AC 0063
+"Max MP Lev 3
+300103AD 0063
+"Level 99
+3001036F 0063
+"Have All Magic/Moves After 1 Fight
+50000602 0000
+80010388 03E7
+50000601 0000
+30010398 00FF
+"Mace Max Exp
+80010390 03E7
+"Bow Max Exp
+80010392 03E7
+"Mace Max Level
+3001039C 00FF
+"Bow Max Level
+3001039D 00FF
+"Max Str
+8001037A 03E7
+"Max Vit
+8001037C 03E7
+"Max Wit
+8001037E 03E7
+"Max Agi
+80010380 03E7
+"Max Exp
+800103A0 FFFF
+800103A2 000F
+"Exp Modifier (add 16-bit value)
+800103A0 ????
+"Fire Magic Max Exp
+80010388 03E7
+"Wind Magic Max Exp
+8001038C 03E7
+"Water Magic Max Exp
+8001038A 03E7
+"Earth Magic Max Exp
+8001038E 03E7
+"Fire Magic Max Level
+30010398 00FF
+"Wind Magic Max Level
+3001039A 00FF
+"Water Magic Max Level
+30010399 00FF
+"Earth Magic Max Level
+3001039B 00FF
+"All Moves
+50000701 0000
+300106AD 0004
+"=Item Slot Modifier (add 16-bit value)
+"Slot 1
+800103C4 0???
+"Slot 2
+800103C6 0???
+"Slot 12
+800103DA 0???
+"=Equipped Item Modifier (add 16-bit value)
+"Weapon
+800103B8 0???
+"Shield
+800103BA 0???
+"Armor
+800103BC 0???
+"Helmet
+800103BE 0???
+"Shoes
+800103C0 0???
+"Jewelry
+800103C2 0???
+"Quick Weapon/Magic Level [Note 1]
+50000602 0000
+80010388 0063
+
+#Grandia (Other)#SCUS94457
+"=Other 
+"=After Battle 
+"=Experience Modifier (add 16-bit value)
+"Character 1
+800C09E8 ????
+"Character 2
+800C0BD4 ????
+"Character 3
+800C0DC0 ????
+"Character 4
+800C0FAC ????
+"Lots of Exp & Gold After Battle
+D009C670 8000
+8009C688 FFFF
+D009C670 8000
+8009C68C FFFF
+"=In-Battle 
+"Character 1-Infinite HP
+800C0980 03E7
+"Character 1-Max HP
+800C0982 03E7
+"Character 2-Infinite HP
+800C0B6C 03E7
+"Character 2-Max HP
+800C0B6E 03E7
+"Character 1-Infinite SP
+800C09EE 03E7
+"Character 1-Max SP
+800C09F0 03E7
+"Character 2-Infinite SP
+800C0BDA 03E7
+"Character 2-Max SP
+800C0BDC 03E7
+"Character 3-Infinite HP
+800C0D58 03E7
+"Character 3-Max HP
+800C0D5A 03E7
+"Character 3-Infinite SP
+800C0DC6 03E7
+"Character 3-Max SP
+800C0DC8 03E7
+"Character 4-Infinite HP
+800C0F44 03E7
+"Character 4-Max HP
+800C0F46 03E7
+"Character 4-Infinite SP
+800C0FB2 03E7
+"Character 4-Max SP
+800C0FB4 03E7
+"Character 1-One-Hit Level Up Weapons
+50000802 0000
+800C09FE 0064
+"Character 2-One-Hit Level Up Weapons
+50000802 0000
+800C0BEA 0064
+"Character 3-One-Hit Level Up Weapons
+50000802 0000
+800C0DD6 0064
+"Character 4-One-Hit Level Up Weapons
+50000802 0000
+800C0FC2 0064
+"=Misc. 
+"Command (add 16-bit value)
+D01AF2E0 ????
+"Joker Command (add 16-bit value)
+D01AF2E8 ????
+801AF2E8 0000
+"=Misc. 
+"Infinite Money
+80010164 FFFF
+"Time is 0:00:00
+8003D684 0000
+8003D686 0000
+"Infinite Time To Swab Deck
+80192E50 0000
+"Infinite Mana Eggs In Shop
+801A9588 0063
+"Max Money
+80010164 967F
+80010166 0098
+"Infinite Money
+80010164 FFFF
+"Have All Magic (All Characters)
+50003201 0000
+3001066C 00FF
+800106CE FFFF
+"=All Items In Stashing Place 
+"Code 1
+50002601 0000
+300121A9 0063
+"Code 2
+50001201 0000
+300121DE 0063
+"Code 3
+50000B01 0000
+300121F1 0063
+"Code 4
+5000B501 0000
+300121FD 0063
+"Code 5
+50002801 0000
+300122B3 0063
+"Code 6
+5000A401 0000
+300122DC 0063
+"Character In Group Modifier (add 8-bit value)
+80010012 0100
+80010160 0000
+30010162 00??
+"Debug Menu [Note 1]
+D0191C74 0002
+80191C78 0006
+D0191C74 0002
+80191C7A 2402
+
+#Granstream Saga#SLUS00597
+"Infinite GP
+801C915C 869F
+801C915E 0001
+"Have Wind Orb
+301C9100 0001
+"Have Moon Stone
+301C9101 0001
+"Have Star Stone
+301C9102 0001
+"Have Tea Set
+301C9103 0001
+"Have Broken Sword
+301C9104 0001
+"Have Ocarina Book
+301C9105 0001
+"Have Amulet
+301C9106 0001
+"Have Magic Rock
+301C9107 0001
+"Have Wedding Ring
+301C9108 0001
+"Have Youth Troop Emblem
+301C9109 0001
+"Have Prison Key
+301C910A 0001
+"Have Ziruas's Potion
+301C910B 0001
+"Have Geinta's Stones
+301C910C 0001
+"Have Neutralizing Solution
+301C910D 0001
+"Have Acid Solution
+301C910E 0001
+"Have Gandor's Dagger
+301C910F 0001
+"Have Stone Tablet
+301C9110 0001
+"Have Fishing Equipment
+301C9111 0001
+"Have Gold Piece
+301C9112 0001
+"Have Silver Piece
+301C9113 0001
+"Have Bronze Piece
+301C9114 0001
+"Have Coral Necklace
+301C9115 0001
+"Have Level 1 ID Card
+301C9116 0001
+"Have Level 2 ID Card
+301C9117 0001
+"Have Sulfuric Acid
+301C9118 0001
+"Have Fake Treasure
+301C9119 0001
+"Have Card of Wind God
+301C911A 0001
+"Have Card of Water God
+301C911B 0001
+"Have Card of Fire God
+301C911C 0001
+"Have Card of Earth God
+301C911D 0001
+"Have Card of Giant God
+301C911E 0001
+"Have Card of Dragon God
+301C911F 0001
+"Have Soldier's Diary
+301C9120 0001
+"Have Key Card
+301C9121 0001
+"Have System Card
+301C9122 0001
+"Have Cell Key
+301C9123 0001
+"Have Piece of Metal
+301C9124 0001
+"Have Silver Comb
+301C9125 0001
+"Have Decayed Crest
+301C9126 0001
+"Have Burnt Sword
+301C912A 0001
+"Have Gem
+301C912C 0001
+"Have Source of Power
+301C912D 0001
+"Have 99 Elixirs
+301C912E 0063
+"Have 99 Anicent Mystery Stones
+301C912F 0063
+"Have 99 Dried Herbs
+301C9130 0063
+"Have 99 Fresh Herbs
+301C9131 0063
+"Have 99 Special Herbs
+301C9132 0063
+"Have 99 Low Potions
+301C9133 0063
+"Have 99 High Potions
+301C9134 0063
+"Have 99 Rare Potions
+301C9135 0063
+"Have 99 Life Elements
+301C9136 0063
+"Have 99 Miracle Fruits
+301C9137 0063
+"Have 99 Life Stones
+301C9138 0063
+"Have 99 Angel Feathers
+301C9139 0063
+"Have 99 Panther Eyes
+301C913A 0063
+"Have 99 Fruit of Venatawas
+301C913B 0063
+"Have 99 White Crystals
+301C913C 0063
+"Have 99 Black Crystals
+301C913D 0063
+"Have All Weapons
+801C9140 FFFF
+"Have All Shields
+801C9144 FFFF
+"Have All Armor
+801C9148 FFFF
+"Have All Magic
+801C914C FFFF
+801C914E FFFF
+801C9150 FFFF
+"Have All Scepters
+801C9154 FFFF
+801C9156 FFFF
+"Enemy Cant Move
+800BAE34 0000
+800BDE46 0000
+"Infinite Health In Battle
+800C0F04 001E
+"Level 99
+801C9820 0063
+"Max MP
+801C981E 03E7
+"Max HP
+80094380 00FF
+801C981C 00FF
+"Max AT
+80094386 00FF
+"Max DF
+80094388 00FF
+"Max LP
+8009437E 0011
+"Weapon Equipped Modifier (add 8-bit value)
+80088494 000?
+"Shield Equipped Modifier (add 8-bit value)
+80088492 000?
+"Armor Equipped Modifier (add 8-bit value)
+80088490 000?
+"Battle Magic Equipped Modifier (add 8-bit value)
+80088496 000?
+"Infinite Magic In Battle
+800C0F06 03E7
+"Have All Items
+50003E01 0000
+301C9100 0001
+"Infinite MP
+801C981E 03E7
+
+#Great Valley Racing Adventure#SLUS01213
+"Start On Last Lap
+D005D8D0 0000
+8005D8D0 0002
+"Stop Timer (Obstacles)
+8004D724 0000
+"Unlock All Obstacles (Press L2)
+8005D8EE FFFF
+"Have Speed Burst
+8004D6F0 0001
+"Press L2 For Traction
+D007770A FEFF
+80083B4A CB09
+
+#Grinch#SLUS01197
+"Infinite Rotten Eggs
+80010058 00C8
+"Have All 3000 Presents
+8001005A 0BB8
+"WhoVille - All Presents
+8001005C 01F4
+"All Missions Completed
+800100BE FFFF
+300100C5 000A
+800100C6 0A0A
+800100C8 0A0A
+800100CA 0A0A
+800100CC 0A0A
+300100E5 000A
+800100E6 050A
+300100EE 000A
+300100FE 000A
+"WhoForest - All Presents
+8001005E 02EE
+"The Dump - All Presents
+80010060 02EE
+"WhoLake - All Presents
+80010062 03E8
+"Have All Useful Items
+800101F8 FFFF
+800101FA FFFF
+"Have Binoculars Parts
+800102B6 4140
+800102B8 4544
+"Have Egg Launcher Parts
+800102BA 4140
+800102BC 4544
+"Have Rocket Spring Parts
+800102BE 4140
+800102C0 4442
+800102C2 4645
+800102C4 4948
+300102C6 004A
+"Have Slime Shooter Parts
+300102C7 0040
+800102C8 4241
+800102CA 4544
+800102CC 4846
+800102CE 4A49
+"Have Octopus Climbing Device Parts
+800102D0 4140
+800102D2 4442
+800102D4 4645
+800102D6 4948
+300102D8 004A
+"Have Marine Mobile Parts
+300102D9 0040
+800102DA 4241
+800102DC 4443
+800102DE 4645
+800102E0 4847
+800102E2 4A49
+800102E4 4C4B
+800102E6 4E4D
+300102E8 004F
+"Have Grinch Copter Parts
+300102E9 0040
+800102EA 4241
+800102EC 4443
+800102EE 4645
+800102F0 4847
+800102F2 4A49
+800102F4 4C4B
+800102F6 4E4D
+300102F8 004F
+"Unlock All Levels
+800100AA 00FF
+"Have All Blueprints
+800100F4 0404
+800100F6 1009
+800100F8 0909
+800100FA 0010
+"Stop Timer
+8008F6CA 002B
+
+#Grind Session#SCUS94568
+"Score Modifier (add 16-bit value)
+800A3F38 ????
+"Max Score
+800A3F38 E0FF
+800A3F3A 05F5
+"=Da Banks (NYC) 
+"Have All Points
+8009F618 2710
+"Have All Pro Points
+8009F658 4E20
+"Have All Boom Boxes
+3009F698 000A
+"Have All Tech Lines
+3009F6D8 000A
+"=S.F. Mission 
+"Have All Points
+8009F61C 2710
+"Have All Pro Points
+8009F65C 7530
+"Have All Trash Cans
+3009F69C 000A
+"Have All Tech Lines
+3009F6DC 000A
+"=Burnside 
+"Have All Points
+8009F620 2EE0
+"Have All Pro Points
+8009F660 9C40
+"Have All Pigeons
+3009F6A0 000A
+"Have All Tech Lines
+3009F6E0 000A
+"=Slam City Jam 
+"Highest Rank
+8009F624 0001
+"Have All Tech Lines
+3009DD2C 000A
+"=Atlanta 
+"Have All Points
+8009F628 4E20
+"Have All Pro Points
+8009F668 EA60
+"Have All Roadblocks
+3009F6A8 000A
+"Have All Tech Lines
+3009F6E8 000A
+"=Playstation Park London 
+"Have All Points
+8009F62C 7530
+"Have All Pro Points
+8009F66C 1170
+8009F66E 0001
+"Have All Bottles
+3009F6AC 000A
+"Have All Tech Lines
+3009F6EC 000A
+"=Detroit 
+"Have All Points
+8009F630 9C40
+"Have All Pro Points
+8009F670 3880
+8009F672 0001
+"Have All Values
+3009F6B0 000A
+"Have All Tech Lines
+3009F6F0 000A
+"=Huntington 
+"Highest Rank
+8009F634 0001
+"Have All Tech Lines
+3009DD2C 000A
+"=More Misc. 
+"Quick Max Points
+D00A3F38 0000
+800A3F38 FFFF
+D00A3F3A 0000
+800A3F3A 000F
+"Have All Vandilisms Completed
+8009DD28 000A
+8009F2C4 000A
+"Have All Tech Lines Completed
+8009DD2C 000A
+8009F2C8 000A
+"Have All Cameras Unlocked
+50000804 0000
+8009F718 0001
+"Have All Cameras Unlocked & Completed
+50000804 0000
+8009F718 0002
+"Have All Keys & Mansion Wings Unlocked
+50000804 0000
+8009F758 0001
+"Unlock Training Mode Boards & Master Ao
+8009EDA4 0076
+"Unlock Willy Santos Bonus
+50000804 0000
+800A1B2C 0001
+"Unlock Daewon Song Bonus
+50000804 0000
+800A1B6C 0001
+"Unlock Cara-Beth Bonus
+50000804 0000
+800A1BAC 0001
+"Unlock Ed Templeton Bonus
+50000804 0000
+800A1BEC 0001
+"Unlock Pig Pen Bonus
+50000804 0000
+800A1C2C 0001
+"Unlock John Cardiel Bonus
+50000804 0000
+800A1C6C 0001
+"Unlock Skater 1 Bonus
+50000804 0000
+800A1CAC 0001
+"Unlock Skater 2 Bonus
+50000804 0000
+800A1CEC 0001
+"Level Modifier (add 8-bit value)
+8009EDF0 00??
+"Start/Stop Timer (Press L1+R1 To Start & Press L1+R2 To Stop)
+D009362C 000C
+80037252 2400
+D009362C 0006
+80037250 04D0
+D009362C 0006
+80037252 AEA2
+"=Max Endurance 
+"Willy Santos
+50000804 0000
+800A1F2C 0001
+"Daewon Song
+50000804 0000
+800A1F6C 0001
+"Cara-Beth Burnside
+50000804 0000
+800A1FAC 0001
+"Ed Templeton
+50000804 0000
+800A1FEC 0001
+"Pigpen
+50000804 0000
+800A202C 0001
+"John Cardiel
+50000804 0000
+800A206C 0001
+"Skator
+50000804 0000
+800A20AC 0001
+"Rex
+50000804 0000
+800A20EC 0001
+"Hangman
+50000804 0000
+800A222C 0001
+"Stanley
+50000804 0000
+800A226C 0001
+"Dave Carnie
+50000804 0000
+800A22AC 0001
+"Demon
+50000804 0000
+800A22EC 0001
+"Stinger
+50000804 0000
+800A232C 0001
+"Golgotha
+50000804 0000
+800A236C 0001
+"Master Ao
+50000804 0000
+800A23AC 0001
+
+#Grudge Warriors#SLUS01150
+"Infinite Power & Ammo
+8002CA9E 2400
+"All Tokens Found
+800B2DBC 0000
+"All Generators Destroyed
+800B2DC0 0000
+"Max Total Tokens
+800B2DC4 FFFF
+
+#Guardians Crusade#SLUS00811
+"Reverse Joker Command (add 16-bit value)
+D01DD6DA ????
+"Max Rubies
+801B5518 967F
+801B551A 0098
+"Have All Living Toys [Note 1]
+801B551A FFFF
+801B551C FFFF
+801B551E FFFF
+801B5520 FFFF
+801B5522 FFFF
+801B5524 FFFF
+"Brightness Modifier (add 8-bit value)
+801FD628 00??
+"Slow Motion
+801BF058 29EA
+"Have All Junk
+50001E02 0001
+301B5419 00B8
+"Have All Items
+50000E02 0001
+301B53F1 0004
+"=Hero 
+"Normal Status (In-Battle)
+801CD1D0 0000
+"=Name Modifier (add 8-bit value)
+"Digit 1
+301CD790 00??
+"Digit 2
+301CD791 00??
+"Digit 7
+301CD796 00??
+"=Status 
+"Infinite HP
+801CD79C FFFF
+"Infinite PP
+801CD79E FFFF
+"Max HP
+801CD7A0 FFFF
+"Max PP
+801CD7A2 FFFF
+"Highest Level
+801CD7A4 FFFF
+"Max Agility
+801CD7A6 FFFF
+"Max Strength
+801CD7A8 FFFF
+"Max Power
+801CD7AA FFFF
+"Great Luck
+801CD7AE FFFF
+"Max Exp
+801CD7B4 CA00
+801CD7B6 3B9A
+"Have Strongest Sword
+301B540D 0042
+"Have Strongest Armor
+301B540F 0078
+"Have Strongest Helmet
+301B5411 007C
+"Have Strongest Shield
+301B5413 00A3
+"=Item Slot Modifier (add 8-bit value)
+"Slot1
+301B53F1 00??
+"Slot2
+301B53F3 00??
+"Slot20
+301B5417 00??
+"=Junk Slot Modifier (add 8-bit value)
+"Slot1
+301B5419 00??
+"Slot2
+301B541B 00??
+"Slot20
+301B543F 00??
+"=Baby 
+"=Name Modifier (add 8-bit value)
+"Digit 1
+301CD7B8 00??
+"Digit 2
+301CD7B9 00??
+"Digit 7
+301CD7BE 00??
+"=Status 
+"Infinite HP
+801CD7C4 FFFF
+"Max HP
+801CD7C8 FFFF
+"Highest Level
+801CD7CC FFFF
+"Max Agility
+801CD7CE FFFF
+"Max Strength
+801CD7D0 FFFF
+"Max Power
+801CD7D2 FFFF
+"Great Luck
+801CD7D6 FFFF
+"Max Exp
+801CD7DC CA00
+801CD7DE 3B9A
+"Have All Tranformations
+801CDC04 7FFF
+"Enable Baby [Note 2]
+801CE82E 0208
+"Have Full Baby Inventory [Note 3]
+5000BA01 0000
+301B5441 00FF
+"=Baby's Inventory 
+"=Items 
+"Max Candy Bar
+301B5441 00FF
+"Max Hamburger
+301B5442 00FF
+"Max Cheeseburger
+301B5443 00FF
+"Max Spinach Snack
+301B5444 00FF
+"Max Peach Potion
+301B5445 00FF
+"Max Apple
+301B5446 00FF
+"Max Rose
+301B5447 00FF
+"Max Lily
+301B5448 00FF
+"Max Angel's Tear
+301B5449 00FF
+"Max Sick Weed
+301B544A 00FF
+"Max Mind Berry
+301B544B 00FF
+"Max Rotten Weed
+301B544C 00FF
+"Max Freedom Root
+301B544D 00FF
+"Max Toadstool
+301B544E 00FF
+"Max Bubble Gum
+301B544F 00FF
+"Max Terror Seed
+301B5450 00FF
+"Max Go Go Bean
+301B5451 00FF
+"Max Snoozeweed
+301B5452 00FF
+"=Sword 
+"Max Short Sword
+301B5453 00FF
+"Max Long Sword
+301B5454 00FF
+"Max Copper Sword
+301B5455 00FF
+"Max Iron Swords
+301B5456 00FF
+"Max Steel Sword
+301B5457 00FF
+"Max Pirates Sword
+301B5458 00FF
+"Max Sage Sword
+301B5459 00FF
+"Max Viking Sword
+301B545A 00FF
+"Max Mystical Sword
+301B545B 00FF
+"Max Smash Sword
+301B545C 00FF
+"Max Raid Sword
+301B545D 00FF
+"Max Elven Sword
+301B545E 00FF
+"Max Dragon Sword
+301B545F 00FF
+"Max Scorpion Sword
+301B5460 00FF
+"Max Dwarf Sword
+301B5461 00FF
+"Max Zeus' Sword
+301B5462 00FF
+"Max White Sword
+301B5463 00FF
+"Max Broad Sword
+301B5464 00FF
+"Max Thunder Sword
+301B5465 00FF
+"Max Fire Sword
+301B5466 00FF
+"Max Jousting Sword
+301B5467 00FF
+"Max Cobra Sword
+301B5468 00FF
+"Max Sword of Ra
+301B5469 00FF
+"Max Kuldian Sword
+301B546A 00FF
+"Max Eagle Sword
+301B546B 00FF
+"Max Crusader Sword
+301B546C 00FF
+"Max Hawk Sword
+301B546D 00FF
+"Max Crusher Sword
+301B546E 00FF
+"Max Cleaver Sword
+301B546F 00FF
+"Max Black Sword
+301B5470 00FF
+"Max Celtic Sword
+301B5471 00FF
+"Max Demon Sword
+301B5472 00FF
+"Max Royal Sword
+301B5473 00FF
+"Max Holy Sword
+301B5474 00FF
+"Max Artesian Sword
+301B5475 00FF
+"Max Onyx Sword
+301B5476 00FF
+"Max Platinum Sword
+301B5477 00FF
+"Max Bronze Sword
+301B5478 00FF
+"Max Buccaneer Sword
+301B5479 00FF
+"Max Sword of Might
+301B547A 00FF
+"Max Crystal Sword
+301B547B 00FF
+"Max Attack Sword
+301B547C 00FF
+"Max Miracle Sword
+301B547D 00FF
+"Max Great Sword
+301B547E 00FF
+"Max Twisted Sword
+301B547F 00FF
+"Max Aztec Sword
+301B5480 00FF
+"Max Dark Sword
+301B5481 00FF
+"Max Relic Sword
+301B5482 00FF
+"Max Flame Sword
+301B5483 00FF
+"Max Water Sword
+301B5484 00FF
+"Max Gaian Sword
+301B5485 00FF
+"Max Avian Sword
+301B5486 00FF
+"Max Sword of Chaos
+301B5487 00FF
+"Max Sword of Order
+301B5488 00FF
+"=Armor 
+"Max Leather Armor
+301B5489 00FF
+"Max Padded Armor
+301B548A 00FF
+"Max Studded Armor
+301B548B 00FF
+"Max Iron Armor
+301B548C 00FF
+"Max Laminated Armor
+301B548D 00FF
+"Max Brigand Armor
+301B548E 00FF
+"Max Studded Armor
+301B548F 00FF
+"Max Viking Armor
+301B5490 00FF
+"Max Eelskin Armor
+301B5491 00FF
+"Max Rock Plate
+301B5492 00FF
+"Max Neptune's Armor
+301B5493 00FF
+"Max Elven Armor
+301B5494 00FF
+"Max Dragon Armor
+301B5495 00FF
+"Max Scorpion Plate
+301B5496 00FF
+"Max Dwarven Mail
+301B5497 00FF
+"Max Roman Armor
+301B5498 00FF
+"Max White Armor
+301B5499 00FF
+"Max Bone Plate
+301B549A 00FF
+"Max Thunder Plate
+301B549B 00FF
+"Max Fire Armor
+301B549C 00FF
+"Max Jousting Armor
+301B549D 00FF
+"Max Cobra Armor
+301B549E 00FF
+"Max Armor of Ra
+301B549F 00FF
+"Max Kuldian Armor
+301B54A0 00FF
+"Max Eagle Plate
+301B54A1 00FF
+"Max Crusader Armor
+301B54A2 00FF
+"Max Hawk Armor
+301B54A3 00FF
+"Max Chain Mail
+301B54A4 00FF
+"Max Bar Mail
+301B54A5 00FF
+"Max Black Plate
+301B54A6 00FF
+"Max Celtic Plate
+301B54A7 00FF
+"Max Leopard Armor
+301B54A8 00FF
+"Max Royal Armor
+301B54A9 00FF
+"Max Holy Armor
+301B54AA 00FF
+"Max Artesian Armor
+301B54AB 00FF
+"Max Onyx Armor
+301B54AC 00FF
+"Max Platinum Plate
+301B54AD 00FF
+"Max Bronze Mail
+301B54AE 00FF
+"Max Buccaneer Mail
+301B54AF 00FF
+"Max Kuldian Armor
+301B54B0 00FF
+"Max Crystal Armor
+301B54B1 00FF
+"Max Splint Mail
+301B54B2 00FF
+"Max Miracle Armor
+301B54B3 00FF
+"Max Full Plate
+301B54B4 00FF
+"Max Quilted Armor
+301B54B5 00FF
+"Max Obro Armor
+301B54B6 00FF
+"Max Dark Plate
+301B54B7 00FF
+"Max Relic Armor
+301B54B8 00FF
+"=Helmet 
+"Max Wooden Helmet
+301B54B9 00FF
+"Max Iron Helmet
+301B54BA 00FF
+"Max Viking Helmet
+301B54BB 00FF
+"Max Platinum Helmet
+301B54BC 00FF
+"Max Zeppetto Helmet
+301B54BD 00FF
+"Max Holy Helmet
+301B54BE 00FF
+"=Shield 
+"Max Wood Shield
+301B54BF 00FF
+"Max Wicker Shield
+301B54C0 00FF
+"Max Cooper Shield
+301B54C1 00FF
+"Max Iron Shield
+301B54C2 00FF
+"Max Full Shield
+301B54C3 00FF
+"Max Pirate Shield
+301B54C4 00FF
+"Max Studded Shield
+301B54C5 00FF
+"Max Viking Shield
+301B54C6 00FF
+"Max Eelskin Shield
+301B54C7 00FF
+"Max Marble Shield
+301B54C8 00FF
+"Max Oyster Shield
+301B54C9 00FF
+"Max Elven Shield
+301B54CA 00FF
+"Max Dragon Shield
+301B54CB 00FF
+"Max Scorpion Shield
+301B54CC 00FF
+"Max Dwarven Shield
+301B54CD 00FF
+"Max Zeus' Shield
+301B54CE 00FF
+"Max White Shield
+301B54CF 00FF
+"Max Bone Shield
+301B54D0 00FF
+"Max Thunder Shield
+301B54D1 00FF
+"Max Fire Shield
+301B54D2 00FF
+"Max Jousting Shield
+301B54D3 00FF
+"Max Cobra Shield
+301B54D4 00FF
+"Max Shield of Ra
+301B54D5 00FF
+"Max Kuldian Shield
+301B54D6 00FF
+"Max Eagle Shield
+301B54D7 00FF
+"Max Crusader Shield
+301B54D8 00FF
+"Max Hawk Shield
+301B54D9 00FF
+"Max Granite Shield
+301B54DA 00FF
+"Max Marble Shield
+301B54DB 00FF
+"Max Black Shield
+301B54DC 00FF
+"Max Celtic Shield
+301B54DD 00FF
+"Max Leopard Shield
+301B54DE 00FF
+"Max Royal Shield
+301B54DF 00FF
+"Max Holy Shield
+301B54E0 00FF
+"Max Artesian Shield
+301B54E1 00FF
+"Max Onyx Shield
+301B54E2 00FF
+"Max Platinum Shield
+301B54E3 00FF
+"Max Bronze Shield
+301B54E4 00FF
+"Max Tower Shield
+301B54E5 00FF
+"Max Bone Shield
+301B54E6 00FF
+"Max Crystal Shield
+301B54E7 00FF
+"Max Devil's Shield
+301B54E8 00FF
+"Max Miracle Shield
+301B54E9 00FF
+"Max Steel Shield
+301B54EA 00FF
+"Max Twisted Shield
+301B54EB 00FF
+"Max Obro Shield
+301B54EC 00FF
+"Max Dark Shield
+301B54ED 00FF
+"=Ring 
+"Max Ring of Calm
+301B54EE 00FF
+"Max Freedom Ring
+301B54EF 00FF
+"Max Brave Ring
+301B54F0 00FF
+"Max Wake Ring
+301B54F1 00FF
+"Max Cobra Ring
+301B54F2 00FF
+"Max Heat Ring
+301B54F3 00FF
+"Max Water Ring
+301B54F4 00FF
+"Max Fire Ring
+301B54F5 00FF
+"Max Wind Ring
+301B54F6 00FF
+"Max Earth Ring
+301B54F7 00FF
+"=Extra Item 
+"Max Chester Flute
+301B54F8 00FF
+"Max Warp Gate Key
+301B54F9 00FF
+"Max AFM324
+301B54FA 00FF
+"Max Headless Doll
+301B54FB 00FF
+"Max Bug
+301B54FC 00FF
+"Max Strange Bug
+301B54FD 00FF
+"Max Long-legged Bug
+301B54FE 00FF
+
+#Gubble#SLUS01466
+"Time Always 0.0
+80077DD0 0000
+"Infinite Health
+8007DD28 0064
+"Quick Score Gain
+80077D70 FFFF
+"Max Score
+80077D70 E0FF
+80077D72 05F5
+
+#Guilty Gear#SLUS00772
+"Infinite Health P1
+8007C898 00BC
+"Max Power P1
+8007C8B8 0040
+"Infinite Health P2
+8007CB68 00BC
+"Max Power P2
+8007CB88 0040
+"Infinite Time
+8007BF72 0000
+"Character Modifier P1 (add 8-bit value)
+80139048 00??
+"Character Modifier P2 (add 8-bit value)
+8013904C 00??
+"No Power P1
+8007C8B8 0000
+"No Power P2
+8007CB88 0000
+"Hit Anywhere (Both Players) [Note 1]
+800319E2 2400
+
+#Gundam Battle Assault 2#SLUS01418
+"Command P1 (add 16-bit value)
+D00BE312 ????
+"Command P2 (add 16-bit value)
+D00BE370 ????
+"Infinite Time
+80186F18 0063
+80186F1C 003C
+"Infinite Health P1
+8017B554 6000
+"Max Power P1
+8017B520 3000
+"Max Special Attacks P1
+8017B560 0003
+"Infinite Ammo P1
+8017B566 01F4
+"Infinite Health P2
+80180B6C 6000
+"Max Power P2
+80180B38 3000
+"Max Special Attacks P2
+80180B78 0003
+"Infinite Ammo P2
+80180B7E 01F4
+
+#Gundam Battle Assault#SLUS01226
+"P1 Infinite Health
+80157F3A 0002
+80157F3C 0000
+"P1 One Hit Kill
+80157F3A 0000
+80157F3C 7000
+"P1 Infinite Ammo
+80157F4A 01F4
+"P1 No Ammo
+80157F4A 0000
+"P1 Level 3 Power
+80157F56 0003
+"P1 Level 2 Power
+80157F56 0002
+"P1 Level 1 Power
+80157F56 0001
+"P1 No Power
+80157F56 0000
+"P1 Infinite Thrust
+80157F46 0000
+"P1 No Thrust
+80157F46 2A00
+"P2 Infinite Health
+80185ED6 0002
+80185ED8 0000
+"P2 One Hit Kill
+80185ED6 0000
+80185ED8 7000
+"P2 Infinite Ammo
+80185EE6 01F4
+"P2 No Ammo
+80185EE6 0000
+"P2 Level 3 Power
+80185EF2 0003
+"P2 Level 2 Power
+80185EF2 0002
+"P2 Level 1 Power
+80185EF2 0001
+"P2 No Power
+80185EF2 0000
+"P2 Infinite Thrust
+80185EE2 0000
+"P2 No Thrust
+80185EE2 2A00
+"Infinite Battle Timer
+8011FFDA 000E
+"Unlock Psycho
+800E13EC 0000
+"Unlock Big Zam
+800E13DC 0000
+"Unlock Neueziel
+800E13E4 0000
+"Unlock Hydra
+800E140C 0000
+"Unlock New Gundam
+800E13E8 0000
+"Unlock Gundam
+800E13F0 0000
+"Unlock Ball
+800E1410 0000
+"Unlock Char's Zaku
+800E1414 0000
+
+#Gunfighter-The Legend Of Jesse James#SLUS01398
+"Infinite Time
+8007D14E 003B
+8007D14A 003B
+"Infinite Health (All Levels)
+8009840A 2400
+"Never Reload (All Levels)
+800982D6 2400
+"Infinite Bullets (Target Take Down)
+80184CD4 0063
+"Infinite Bullets (Rolling Rampage)
+80184914 0063
+"=Saloon 
+"Infinite Health
+800E6CC4 0005
+"Never Reload
+800E6CC8 0006
+"=Train 
+"Infinite Health
+800EE8B4 0005
+"Never Reload
+800EE8B8 0006
+"=Town 
+"Infinite Health
+800B23D4 0005
+"Never Reload
+800B23D8 0006
+"=Mine 
+"Infinite Health
+80117FA4 0005
+"Never Reload
+80117FA8 0006
+"=Hanging 
+"Infinite Health
+800B84C4 0005
+"Never Reload
+.end

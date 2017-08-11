@@ -1,0 +1,84 @@
+Quantity Digits to Accompany Court Modifier Codes
+00 - Team 1
+01 - Street
+02 - Island
+03 - Team 2
+04 - Midway
+05 - NBC
+
+Quantity Digits to Accompany Character Modifier Codes
+00 - Hornet Mascot
+01 - Chicago Bulls
+02 - Indiana Pacers
+03 - Minnesota Timberwolves
+04 - Toronto Raptors
+05 - Houston Rockets
+06 - Atlanta Hawks
+08 - New Jersey Nets
+07 - Phoenix Suns
+09 - Denver Nuggets
+0A - Seattle Sonics
+0B - Utah Jazz
+0C - Small Alien
+0D - Large Alien
+0E - Nikko The Devil Dog
+0F - Lia The Female Player
+10 - Kerri The Female Player
+11 - Retro Rob
+12 - Old Man
+13 - Clown
+14 - Pumpkin
+15 - White Horse
+16 - Wizard
+17 - ?
+18 - ?
+19 - ?
+1A - ?
+1B - Referee
+1C - Lia-Alternate Uniform
+1D - Kerri In Alternate Uniform
+1E - Jennifer Hedrick-Alternate Uniform
+1F - Pinto Horse
+20 - ?
+21 - ?
+22 - Mark Turmell
+23 - Rob Gatson
+24 - Mark Guidarelli
+25 - Daniel Thompson
+26 - Jeff Johson
+27 - Sal DiVita
+28 - Jennifer Hedrick
+29 - Eugene Geer
+2A - Matt Gilmore
+2B - Tim Bryant
+2C - Jim Gentile
+2D - Jon Hey
+2E - Shawn Liptak
+2F - Isiah Thomas
+30 - Tim Kitzrow
+31 - Tim Moran
+32 - Willy Morris
+33 - Chad Edmunds
+34 - Chris Skrundz
+35 - Beth Smukowski
+36 - Dave Grossman
+37 - Jim Tianis
+38 - Larry Wotman
+39 - Mike Lynch
+3A - Jason Skiles
+3B - Paulo Garcia
+3C - Brian LeBaron
+3D - Alex Gilliam
+3E - Greg Cutler
+3F - John Root
+40 - Andy Eloff
+41 - Paul Martin
+
+Quantity Digits to Accompany In-Game Cheat Modifier Codes
+01 - P1
+02 - P2
+03 - P1 & P2
+04 - P3
+08 - P4
+0C - P3 & P4
+0F - All Of The Above

@@ -1,0 +1,240 @@
+Quantity Digits to Accompany Item Modifier Codes
+00 - Potato
+01 - Fish
+02 - Meat
+03 - Milk
+04 - Cup Jelly
+05 - Tablet
+06 - Sculpture
+07 - Gemini's Pot
+08 - Lump of Ice
+09 - Fire Stone
+0A - Pure Gold
+0B - Pure Gold
+0C - Pure Silver
+0D - Pure Platina
+0E - Mango
+0F - Candy
+10 - Smoked Snake
+11 - Apple Cake
+12 - Mint Leaf
+13 - Powder
+14 - Sweet Jelly
+15 - Sour Jelly
+16 - Crab's Claw
+17 - Nuts Oil
+18 - Nuts Oil
+19 - Star Prune
+1A - Gold Peach
+1B - Silver Peach
+1C - Magic Banana
+1D - Magic Banana
+1E - Magic Banana
+1F - Half Eaten Nuts
+20 - Irritator
+21 - Griever
+22 - Teromeann
+23 - Manseitan
+24 - Larox
+25 - Kasseitan
+26 - Troron
+27 - Nageel
+28 - ???
+29 - Paradoxina
+2A - Tiger's Disc
+2B - Hopper's Disc
+2C - Hare's Disc
+2D - Kato's Disc
+2E - Suezo's Disc
+2F - Naga's Disc
+30 - Gaboo's Disc
+31 - Jell's Disc
+32 - Niton's Disc
+33 - Plant's Disc
+34 - Mew's Disc
+35 - Mocchi's Disc
+36 - Zuum's Disc
+37 - Arrow Head's Disc
+38 - Ape's Disc
+39 - Monol's Disc
+3A - Bay Shrimp
+3B - Incense
+3C - Shoes
+3D - Rice Cracker
+3E - ???
+3F - Olive Oil
+40 - Kaleidoscope
+41 - Torles Water
+42 - ???
+43 - Perfume
+44 - Stick
+45 - Bone
+46 - Perfume Oil
+47 - Wood Ball
+48 - Cedar Log
+49 - Pile of Meat
+4A - Soil
+4B - Rock Candy
+4C - Dummy
+4D - Ice of Papas
+4E - Grease
+4F - DNA Capsule (Red)
+50 - DNA Capsule (Yellow)
+51 - DNA Capsule (Pink)
+52 - DNA Capsule (Gray)
+53 - DNA Capsule (White)
+54 - DNA Capsule (Green)
+55 - DNA Capsule (Black)
+56 - God's Slate
+57 - Hero Badge
+58 - Heel Badge
+59 - Quack Doll (Pieces)
+5A - Dragon Tusk
+5B - Old Sheath
+5C - Double-Edged
+5D - Magic Pot
+5E - Mask
+5F - Big Footstep
+60 - Big Boots
+61 - Fire Feather
+62 - Taurus' Horn
+63 - Dino's Tail
+64 - Zilla Beard
+65 - Fun Can
+66 - Strong Glue
+67 - Quack Doll (Built-See 59)
+68 - Mystic Seed
+69 - Parepare Tea
+6A - Match
+6B - Toothpick
+6C - Playmate
+6D - Whetstone
+6E - Polish
+6F - Silk Cloth
+70 - Disc Dish
+71 - Gramophone
+72 - Shiny Stone
+73 - Meteorite
+74 - Steamed Bun
+75 - Razor Blade
+76 - Ice Candy
+77 - Fish Bone
+78 - Sun Lamp
+79 - Silk Hat
+7A - Half Cake
+7B - Shaved Ice
+7C - Sweet Potato
+7D - Medal
+7E - Gold Medal
+7F - Silver Medal
+80 - Music Box
+81 - Medallion
+86 - Mirror
+87 - Colart Tea
+88 - Galoe Nut
+89 - Stick of Ice
+8A - Ocean Stone
+8B - Seaweed
+8C - Clay Doll #1
+8D - Clay Doll #2
+8E - Clay Doll #3
+8F - Mock Nut
+90 - Colt's Cake
+91 - Flower
+92 - Pixie's Disc
+93 - Dragon's Disc
+94 - Centaur's Disc
+95 - ColorPandora's Disc
+96 - Beaclon's Disc
+97 - Henger's Disc
+98 - Wracky's Disc
+99 - Golem's Disc
+9A - Durahan's Disc
+9B - Baku's Disc
+9C - Gali's Disc
+9D - Zilla's Disc
+9E - Bajarl's Disc
+9F - Phoenix's Disc
+A0 - Ghost's Disc
+A1 - Metalner's Disc
+A2 - Jill's Disc
+A3 - Joker's Disc
+A4 - Undine's Disc
+A5 - Mock's Disc
+A6 - Ducken's Disc
+A7 - Worm's Disc
+A8 - Gali Mask
+A9 - Crystal
+AA - Undine Slate
+AB - Reward #1
+AC - Reward #2
+AD - Stick
+AE - Cup Jelly
+AF - Spear
+B0 - Wracky Doll
+B1 - Quack Doll
+
+Quantity Digits to Accompany Breeder Grade Modifier Code
+00 - Beginner
+01 - Grade 9
+0A - Expert
+
+Quantity Digits to Accompany Type & Sub-Type Digits
+00 - Pixie
+01 - Dragon
+02 - Centaur
+03 - Color Pandora
+04 - Beaclon
+05 - Henger
+06 - Wracky
+07 - Golem
+08 - Zuum
+09 - Durahan
+0A - Arrow Head
+0B - Tiger
+0C - Hopper
+0D - Hare
+0E - Baku
+0F - Gali
+10 - Kato
+11 - Zilla
+12 - Bajarl
+13 - Mew
+14 - Phoenix
+15 - Ghost
+16 - Metalner
+17 - Suezo
+18 - Jill
+19 - Mocchi
+1A - Joker
+1B - Gaboo
+1C - Jell
+1D - Undine
+1E - Niton
+1F - Mock
+20 - Ducken
+21 - Plant
+22 - Monol
+23 - Ape
+24 - Worm
+25 - Naga
+Sub-Type ONLY!
+26 - ???
+27 - ???
+
+Quantity Digits to Accompany Form Modifier Code
+A4 - Skinny
+D4 - Slim
+00 - Normal
+34 - Fat
+64 - Plump
+
+Quantity Digits to Accompany Nature Modifier Code
+34 - Best
+14 - Good
+00 - Neutral
+D4 - Bad
+A4 - Worst
+
+Note 1:
+With these codes, monster has to be in the freezer before they will work.

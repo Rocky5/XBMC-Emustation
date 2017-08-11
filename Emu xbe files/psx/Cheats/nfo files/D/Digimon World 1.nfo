@@ -1,0 +1,354 @@
+Day Digits
+
+Quantity Digits to Accompany Day Modifier Codes
+
+00 - Night
+10 - Morning
+20 - Afternoon
+30 - Evening
+
+Digimon Digits
+
+Quantity Digits to Accompany Digimon Modifier Code
+
+00 - ????
+01 - Botamon
+02 - Koromon
+03 - Agumon
+04 - Betamon
+05 - Greymon
+06 - Devimon
+07 - Airdramon
+08 - Tyrannomon
+09 - Meramon
+0A - Seadramon
+0B - Numemon
+0C - Metalgreymon
+0D - Mamemon
+0E - Monzaemon
+0F - Punimon
+10 - Tsunomon
+11 - Gabumon
+12 - Elecmon
+13 - Kabuterimon
+14 - Angemon
+15 - Birdramon
+16 - Garurumon
+17 - Frigimon
+18 - Whamon
+19 - Vegiemon
+1A - Skullgreymon
+1B - Metalmamemon
+1C - Vademon
+1D - Poyomon
+1E - Tokomon
+1F - Patamon
+20 - Kunemon
+21 - Unimon
+22 - Ogremon
+23 - Shellmon
+24 - Centarumon
+25 - Bakemon
+26 - Drimogemon
+27 - Sukamon
+28 - Andromon
+29 - Giromon
+2A - Etemon
+2B - Yuramon
+2C - Tanemon
+2D - Biyomon
+2E - Palmon
+2F - Monochromon
+30 - Leomon
+31 - Coelamon
+32 - Kokatorimon
+33 - Kuwagamon
+34 - Mojyamon
+35 - Nanimon
+36 - Megadramon
+37 - Piximon
+38 - Digitamamon
+39 - Penguinmon
+3A - Ninjamon
+3B - Phoenixmon
+3C - H-Kabuterimon
+3D - Megaseadramon
+3E - Weregarurumon
+3F - Panjyamon
+40 - Gigadramon
+41 - Metaletemon
+42 - Myostismon
+43 - Yanmamon
+44 - Gotsumon
+45 - Flarerizamon
+46 - Warumonzaemon
+47 - Snowagumon
+48 - Hyogamon
+49 - Platinumsukamon
+4A - Dokunemon
+4B - Shimaunimon
+4C - Tankmon
+4D - Redvegiemon
+4E - J-Mojyamon
+4F - Nisedrimogemon
+50 - Goburimon
+51 - Mudfrigimon
+52 - Psychemon
+53 - Modokibetamon
+54 - Toyagumon
+55 - Piddomon
+56 - Aruraumon
+57 - Geremon
+58 - Vermilimon
+59 - Fugamon
+5A - Tekkamon
+5B - Morishellmon
+5C - Guardromon
+5D - Muchomon
+5E - Icemon
+5F - Akatorimon
+60 - Tsukaimon
+61 - Sharmamon
+62 - Clearagumon
+63 - Weedmon
+64 - Icedevimon
+65 - Darkrizamon
+66 - Sandyanmamon
+67 - Snowgoburimon
+68 - Bluemeramon
+69 - Gururumon
+6A - Saberdramon
+6B - Soulmon
+6C - Rockmon
+6D - Otamamon
+6E - Gekomon
+6F - Tentomon
+70 - Waruseadramon
+71 - Meteormon
+72 - ?????
+73 - Machinedramon
+74 - Analogman (LOL)
+75 - Jijimon
+76 - Market Manager (LOL)
+77 - Shogungekomon
+78 - King of Sukamon
+79 - Cherrymon
+7A - Hagurumon
+7B - Tinmon
+7C - Master Tyrannomon
+7D - Goburimon (Twice?)
+7E - Brachiomon
+7F - Demimeramon
+
+Digivolve Digits
+
+Quantity Digits to Accompany Digivolve Modifier Code
+
+01 - Botamon
+02 - Koromon
+03 - Agumon
+04 - Betamon
+05 - Greymon
+06 - Devimon
+07 - Airdramon
+08 - Tyrannomon
+09 - Meramon
+0A - Seadramon
+0B - Numemon
+0C - MetalGreymon
+0D - Mamemond
+0E - Monzaemon
+0F - Punimon
+10 - Tsunomon
+11 - Gabumon
+12 - Elecmon
+13 - Kabuterimon
+14 - Angemon
+15 - Birdramon
+16 - Garurumon
+17 - Frigimon
+18 - Whamon
+19 - Vegiemon
+1A - SkullGreymon
+1B - MetalMamemond
+1C - Vademon
+1D - Poyomon
+1E - Tokomon
+1F - Patamon
+20 - Kunemon
+21 - Unimon
+22 - Ogremon
+23 - Shellmon
+24 - Centarumon
+25 - Bakemon
+26 - Drimogemon
+27 - Sukamon
+28 - Andromon
+29 - Giromon
+2A - Etemon
+2B - Yuramon
+2C - Tanemon
+2D - Biyomond
+2E - Palmon
+2F - Monochromon
+30 - Leomon
+31 - Coelamon
+32 - Kokatorimon
+33 - Kuwagamon
+34 - Mojyamon
+35 - Nanimon
+36 - Megadramon
+37 - Piximon
+38 - Digitamamon
+39 - Penguinmon
+3A - Ninjamon
+3B - Phoenixmon
+3C - H-Kabuterimon
+3D - MegaSeadramon
+3F - Panjyamon
+40 - Gigadramon
+41 - MetalEtemon
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+
+00 - Small Recovery
+01 - Medium Recovery
+02 - Large Recovery
+03 - Super Recovery
+04 - MP Floppy
+05 - Medium MP
+06 - Large MP
+07 - Double Flop
+08 - Various
+09 - Omnipotent
+0A - Protection
+0B - Restore
+0C - Super Restore
+0D - Bandage
+0E - Medicine
+0F - Offense Disk
+10 - Defense Disk
+11 - Hi Speed Disk
+12 - Omni Disk
+13 - S. Offense Disk
+14 - S. Defense Disk
+15 - S. Speed Disk
+16 - Auto Pilot
+17 - Offense Chip
+18 - Defense Chip
+19 - Brain Chip
+1A - Quick Chip
+1B - HP Chip
+1C - MP Chip
+1D - DV Chip A
+1E - DV Chip D
+1F - DV Chip E
+20 - Port. Potty
+21 - Trn.Manual
+22 - Rest Pillow
+23 - Enemy Repel
+24 - Enemy Bell
+25 - Health Shoe
+26 - Meat
+27 - Giant Meat
+28 - Sirloin
+29 - Super Carrot
+2A - Hawk Radish
+2B - Spiny Green
+2C - Digimushroom
+2D - Ice Mushroom
+2E - Deluxe Mushroom
+2F - Digipine
+30 - Blue Apple
+31 - Red Berry
+32 - Gold Acorn
+33 - Big Berry
+34 - Sweet Nut
+35 - Super Veggy
+36 - Pricklypear
+37 - Orange Banana
+38 - Power Fruit
+39 - Power Ice
+3A - Speed Leaf
+3B - Sage Fruit
+3C - Muscle Yam
+3D - Calm Berry
+3E - Digianchovy
+3F - Digisnapper
+40 - DigiTrout
+41 - Black Trout
+42 - Digicatfish
+43 - Digiseabass
+44 - Moldy Meat
+45 - Happymushroom
+46 - Chain Melon
+47 - Grey Claws
+48 - Fireball
+49 - Flamingwing
+4A - Iron Hoof
+4B - Mono Stone
+4C - Steel Drill
+4D - White Fang
+4E - Black Wing
+4F - Spike Club
+50 - Flamingmane
+51 - White Wing
+52 - Torn Tatter
+53 - Electo Ring
+54 - Rainbowhorn
+55 - Rooster
+56 - Unihorn
+57 - Horn Helmet
+58 - Scissor Jaw
+59 - Fertilizer
+5A - Kogalaws
+5B - Water Bottle
+5C - North Star
+5D - Red Shell
+5E - Hard Scale
+5F - Bluecrystal
+60 - Ice Crystal
+61 - Hair Grower
+62 - Sunglasses
+63 - Metal Part
+64 - Fatal Bone
+65 - Cyber Part
+66 - Mega Hand
+67 - Silver Ball
+68 - Metal Armor
+69 - Chainsaw
+6A - Small Spear
+6B - X Bandage
+6C - Ray Gun
+6D - Gold Banana
+6E - Mysty Egg
+6F - Red Ruby
+70 - Beetlepearl
+71 - Coral Charm
+72 - Moon Mirror
+73 - Blue Flute
+74 - Old Fishrod
+75 - Amazing Rod
+76 - Leomonstone
+77 - Mansion Key
+78 - Gear
+79 - Rain Plant
+7A - Steak
+7B - Frig Key
+7C - AS Decoder
+7D - Giga Hand
+7E - Noble Mane
+7F - Metal Banana
+
+Digimon World 1 misc Notes
+
+Note 1:
+With this code, you can change your Digimon! But you won't be able to complete the Digimon Chart this way.. To use this code, Press Circle then immediatly go and save your game. Most of the times, this glitches or freezes the game.
+
+Note 2:
+With this code, taking Birdramon will cancel code...use auto pilot to restart code.
+
+Note 3:
+With this code, talking to Birdramon freezes game.

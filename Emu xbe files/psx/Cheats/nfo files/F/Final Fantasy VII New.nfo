@@ -1,0 +1,114 @@
+Golden Saucer Codes:
+
+Never Miss in Superdunk
+30075E3F 000D
+
+In SUPERDUNK you have to hold down O for the right amount of time to make a successful shot. When you press O a "timer" begins, that counts quickly from 0 to F. If you hit it from 0-C you miss short, if you hit F you go long. Only D and E count as successful. D is a "swish" while E hits the backboard. Only in the "DOUBLE CHANCE" does it change. If you hit D or E it hits the backboard (maybe to bring suspense haha). So this works with either D or E at the end. Depending on whether you wish for a swish or backboard shot.
+
+Superdunk Automatic Shooting (weird)
+80075E3D 0101
+
+This will make cloud continue to shoot without pressing O. After 10 shots you hit "DOUBLE CHANCE" where you need to press O to continue.
+
+Superdunk Award GP (Useless code but might aswell post)
+30075E25 00xx
+
+I'm sure there exists a 16bit code for this, but I don't care enough to make it. Place a number at the end and that will be your award for Superdunk (even if you miss your first shot)
+
+
+Speed Square Coaster BROOOOOOOM
+300D1C5C 007F
+
+Everyone knows this game. You shoot at ghosts and balloons and other things. When you hold O your power diminishes - not anymore. 7F counts as just below full bar 80 counts as full (if you use 80 the sound of the shot may not initiate)
+
+Materia Codes:
+
+Well. In FF7 there is all this talk about two materias (the black materia and holy) unfortunately you never get to use them - now you can!
+
+Changing Comet to Black materia - Comet2 to Meteor
+8006857E 4C22
+80068580 4341
+80068582 FF4B
+80066104 4C22
+80066106 4341
+30066108 004B
+80066BC2 452D
+80066BC4 4554
+80066BC6 524F
+30066BC8 00FF
+30070DD0 00FF
+30070DDB 00FF
+30070DDF 004F
+
+This will enable you to use Meteor instead of Comet2. I have made this magic EXTREMELY overpowered, just for the use of fun. If your magic stat is high enough this has a maximum damage of 789,921 (the game will not register this but the enemies will die). Making it by far the most powerful magic in the game. Unfortunately I believed that MP cost was a 16bit value, if it is then it has eluded me and therefore I could only make the MP cost 255 and not 999 as I had hoped. As this is so overly powerful the game does not register that it has obliterated pretty much everything in its path (the monsters do not show their death graphic, the battle simply ends with them standing there dead and you victorious) I may modify in future if I find a way around this.
+
+Changing Ultima into Holy
+300685AB 0028
+800685AC 4C4F
+800685AE FF59
+30066BED 0028
+80066BEE 4C4F
+80066BF0 FF59
+80066154 4F28
+80066156 594C
+80066158 5FB3
+8006615A 414D
+8006615C 4947
+8006615E FF43
+30070E81 00BC
+80070E82 2024
+3007367C 0008
+
+This will change ultima to holy. The effect of holy I have tried to keep consistent with its belief in the game. That it will kill those that are "bad" for the planet. Therefore I have made its effect to kill (no more, no less). It will take away the exact amount of hp that the target has. If it has 1200 HP it will do 1200 damage. I haven't tested it on enemies with more than 9999HP. Also I have changed the graphic to that of "Aero 3", and added the holy element to the materia (I have not added a holy element to the attack but can do so if it is wanted). I have kept the casting cost the same, 130.
+
+Now these two materia codes are quite big. But you only need to use them once! Turn on the codes, use both materia in battle, save the game, you shouldn't need them turned on again.
+
+
+
+Battle Codes:
+
+In Battle Limit Gain
+D0062D78 0014 (L1 and triangle)
+800F5E6A 00FF (Player 1)
+D0062D78 0084 (L1 and square)
+800F5E9E 00FF (Player 2)
+D0062D78 0044 (L1 and X)
+800F5ED2 00FF (Player 3)
+
+In Battle Lucky 7
+D0062D78 0018 (R1 and triangle)
+800F840C 1E61 (Player 1)
+D0062D78 0088 (R1 and Square)
+800F8474 1E61 (Player 2)
+D0062D78 0048 (R1 and X)
+800F84DC 1E61 (Player 3)
+
+For the lucky 7 code to work you need to have your maximum HP above 7777. otherwise using this code will simply replenish your HP.
+
+Notice that there are two different types of codes here. One type starting with D and the other with 8. the codes starting with D are joker/activation codes. meaning that the codes will only be activated when certain buttons are pressed. I have written the buttons next to the codes in order for the codes to be activated.
+
+In order to add these codes to your database you must use the database editor and add them individually. So open your database editor and find FF7 (for some reason in mine it is located after the game "zero divide" so i simply open my editor and hit 'z' and it takes me to "zero divide" and from there i go down to FF7), once you have found FF7 you can click on the little plus sign to view the codes already assigned to the game.. From here you should right click on the title of the game (Final Fantasy VII) and choose "Add Codename" then type 'In Battle Limit Gain'. after you have done that you should go down and find ur new code name 'In Battle Limit Gain'. Then right click and choose "Add Code" then add the first code D0062D78 0014 and then right and add the next code 800F5E6A 00FF. The codes must go in the order i have designated or they will not work properly.
+
+
+Rematch Emerald
+80116274 03D8
+
+Rematch Ruby
+80116274 03D6
+
+These two codes will allow you to repeat the two famous boss battles from FF7 as many times as you wish. So you can verse Emerald and Ruby multiple times with a different set up and tactics. In order for these codes to work only one can be activated at a time. Once the code is activated you simply need to encounter a random battle (however the battle will not be random as we have selected who we want to encounter!). If there are any other battles that people would like to rematch (perhaps the turks, jenova, or even sephiroth) then request the battle and i will post it.
+Also do not try these codes on the first cd! it is a good idea to wait until you are actually 'allowed' to verse these two weapons before using the codes (for on the first cd it may freeze the game). Again if you use the codes before you have a chance to verse the weapons properly then they will never appear on the world map (as the game checks if you have won the battle and then erases Ruby and Emerald from the world map). So it is a good idea to verse them (and beat them haha) before you attempt a rematch (try to make the rematch as challenging as possible!).
+
+USO Option
+D0062D78 002C (R1, L1 and circle)
+30049450 000B (option 11 USO)
+D0062D78 0020 (circle)
+30049450 0001 (option 1 item)
+
+This code is possibly already in your database. however i have changed the starting joker code to use R1 and L1 as i think it is easier to remember.
+
+The USO option is basically like a PHS (except so much better) it allows you to change players like the PHS however you can add any players you want. For example you may remember that someone rather special dies in the end of the first cd. well using the USO allows you to revive this player to use on the second and third cd. It also grants you the ability to use Sephiroth if you wish (but you must not acquire Vincent) or young cloud.
+
+Note on using sephiroth. You will notice in your cheat database that towards the bottom there are codes which talk of controlling sephiroth. If you do not activate these codes then sephiroth will be controlled by the computer (as he was in the kalm flash back after you exit midgar), he will also be invincible. However if you turn on the "control sephiroth" codes then you will be able to control him as if he is any other player, making him mortal. It is really up to you which you would prefer, personally i would rather control him.
+
+So how do u use the code?? it is simple. just go into ur option menu (press triangle) and hold L1, R1 and then press cirlce (you may be pushed into items as the code takes a turn to initiate, simply exit items and press circle again - like you want to re enter items - however you will be take to the USO menu). In the USO menu in order to navigate simple press left or right to change player. It is ok to play with clones in ur team (3 Clouds at a time if you wish), however in important parts of the story this may be a problem. So act wisely, for if you walk around with sephiroth, cloud and young cloud and then enter into a story changing conversation your game may freeze.

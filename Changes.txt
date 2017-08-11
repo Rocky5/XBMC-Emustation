@@ -1,3 +1,9 @@
+11/08/2017
+	1) Fixed the animations on the home screen.
+	2) Added the files necessary to get the PSX emulator working.
+	3) Added in the cheat files for PSX, Genesis and Sega32x
+	4) Added in al the documentations that come with emulators.
+
 10/08/2017
 	1) Updated the "create cut files.py" script to parse cue files if present in the _roms\psx folder.
 	2) Updated the readme.md file.

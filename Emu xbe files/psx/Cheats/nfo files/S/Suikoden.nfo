@@ -1,0 +1,501 @@
+Character Codes (notes)
+
+Note 1:
+With this code, they do not affect status, but if you need to be on a high level to get someone to join your party, this will let you get them if you modify your level high enough!
+
+Enable Character Modifier Codes (notes)
+
+Note 1:
+With this code, they do not affect status, but if you need to be on a high level to get someone to join your party, this will let you get them if you modify your level high enough!
+
+In-Battle Codes (notes)
+
+Note 1:
+With this code, they do not affect status, but if you need to be on a high level to get someone to join your party, this will let you get them if you modify your level high enough!
+
+misc codes (notes)
+
+Quantity Digits to Accompany Sound Setup Modifier Code
+00 - Stereo
+01 - Mono
+
+Quantity Digits to Accompany Window Frame Modifier Code
+00 - Default
+01 - Flowery
+02 - Gold 1
+03 - Buttonize
+04 - Gold 2
+
+QuantityDigits
+3	Window Color Modifier Code
+00 - Default
+01 - Green
+02 - Dark Blue
+03 - Red
+04 - Brown
+05 - Black/White
+06 - Gold
+07 - Purple
+
+Quantity Digits to Accompany Menu Sounds Modifier Code
+00 - Default
+01 - Voice
+02 - Animal
+03 - Wind
+04 - Percussion
+05 - Silent
+
+Quantity Digits to Accompany Message Speed Modifier Code
+00 - Fast
+01 - Normal
+02 - Slow
+
+Quantity Digits to Accompany Window Setup Modifier Code
+00 - Transparent
+01 - Opaque
+
+Quantity Digits
+Modifier Digits
+
+Quantity Digits to Accompany Enable Character Modifier Codes
+00 - Not in Your Party
+01 - In Your Party
+02 - In Your Party (But Dead)
+
+Quantity Digits to Accompany Condition Modifier Codes
+00 - Always Healthy
+01 - Poison
+02 - Balloon (1)
+03 - Poison and Balloon (1)
+04 - Balloon (2)
+05 - Poison and Balloon (2)
+08 - Balloon (3)
+09 - Poison and Balloon (3)
+
+Quantity Digits to Accompany Equipped Status Modifier Codes
+00 - Not Equipped
+01 - Equipped For Helmet
+02 - Equipped For Armor
+03 - Equipped For Shield
+04 - Equipped For Other(1)
+05 - Equipped For Other(2)
+
+Quantity Digits to Accompany Item Modifier Codes
+0000 - Nothing
+0001 - Bandana
+0002 - Headband
+0003 - Pointed Hat
+0004 - Half Helmet
+0005 - Head Gear
+0006 - Full Helmet
+0007 - Silver Hat
+0008 - Horned Helmet
+0009 - Robe
+000A - Tunic
+000B - Leather Coat
+000C - Brass Armor
+000D - Guard Robe
+000E - Karate Uniform
+000F - Leather Armor
+0010 - Half Armor
+0011 - Magic Robe
+0012 - Ninja Suit
+0013 - Dragon Armor
+0014 - Master Robe
+0015 - Full Armor
+0016 - Taikioku Wear
+0017 - Master Garb
+0018 - Windspun Armor
+0019 - Medicine
+001A - Antitoxin
+001B - Wooden Shoes
+001C - Boots
+001D - Toe Shoes
+001E - Wing Boots
+001F - Earth Boots
+0020 - Gloves
+0021 - Gauntlet
+0022 - Silverlet
+0023 - Goldlet
+0024 - Mangosh
+0025 - Power Gloves
+0026 - Cape
+0027 - Fur Cape
+0028 - Cape of Darkness
+0029 - Crimson Cape
+002A - Circlet
+002B - Blue Ribbon
+002C - Feather
+002D - Silver Ring
+002E - Leggings
+002F - Should Pads
+0030 - Emblem
+0031 - Star Earrings
+0032 - Rose Brooch
+0033 - Guard RIng
+0034 - Speed Ring
+0035 - Power Ring
+0036 - Necklace
+0037 - Silver Necklace
+0038 - Gold Necklace
+0039 - Fire Rune Piece
+003A - Water Rune Piece
+003B - Wind Rune Piece
+003C - Thunder Rune Piece
+003D - Earth Rune Piece
+003E - Fire Crystal
+003F - Water Crystal
+0040 - Wind Crystal
+0041 - Lightning Crystal
+0042 - Earth Crystal
+0043 - Wooden Shield
+0044 - Steel Shield
+0045 - Chaos Shield
+0046 - Earth Shield
+0047 - Needle
+0048 - Mega Medicine
+0049 - Escape Talisman
+004A - Power Rune Piece
+004B - Skill Rune Piece
+004C - Defense Rune Piece
+004D - Magic Rune Piece
+004E - Speed Rune Piece
+004F - Fortune Rune Piece
+0050 - Dragon Seal
+0051 - Blinking Mirror
+0052 - Suiko Map
+0053 - Sarifal Buddha
+0054 - Astrar Conclusions
+0055 - Earrings
+0056 - Running Hate Root
+0057 - Fake Orders
+0058 - Fire Spear
+0059 - Moonlight Grass
+005A - Mathiu's Letter
+005B - Sound Setting 0
+005C - Sound Setting 1
+005D - Sound Setting 2
+005E - Sound Setting 3
+005F - Window Setting 0
+0060 - Window Setting 1
+0061 - Window Setting 2
+0062 - Windows Setting 3
+0063 - Red Paint
+0064 - Blue Paint
+0065 - Yellow Paint
+0066 - Green Paint
+0067 - White Paint
+0068 - Black Paint
+0069 - Pink Paint
+006A - Old Book Vol. 1
+006B - Old Book Vol. 2
+006C - Old Book Vol. 3
+006D - Old Book Vol. 4
+006E - Old Book Vol. 5
+006F - Old Book Vol. 6
+0070 - Old Book Vol. 8
+0071 - Old Book Vol. 9
+0072 - Failure Urn
+0073 - Octopus Urn
+0074 - Vase
+0075 - Wide Urn
+0076 - Persian Lamp
+0077 - Blue Dragon Urn
+0078 - Celdadon Urn
+0079 - Black Urn
+007A - Fire Bone Ching
+007B - Hex Doll
+007C - Japanese Dish
+007D - Chinese Dish
+007E - Peeing Boy
+007F - Bonsai
+0080 - Knight Statue
+0081 - Goddess Statue
+0082 - Graffiti
+0083 - Flower Painting
+0084 - Lover's Garden
+0085 - Landscape Painting
+0086 - Beaties of Nature
+0087 - Boar Crystal
+0088 - Shriko Crystal
+0089 - Flacon Crystal
+008A - Flame Crystal
+008B - Trick Crystal
+008C - Clone Crystal
+008D - Double Beat Crystal
+008E - Killer Crystal
+008F - Counter Crystal
+0090 - Spark Crystal
+0091 - Hazy Crystal
+0092 - Gale Crystal
+0093 - Sun beam Crystal
+0094 - Holy Crystal
+0095 - Fortune Crystal
+0096 - Prosperity Crystal
+0097 - Champion's Crystal
+0098 - Turtle Crystal
+0099 - Phero Crystal
+009A - Nameless Urn
+009B - Opal
+009C - Soap
+009D - Soy Sauce
+009E - Salt
+009F - Yard Stick
+00A0 - Sugar
+00A1 - Red Flower Seeds
+00A2 - Blue Flower Seeds
+00A3 - Yellow Flower Seeds
+00A4 - Resurrection Crystal
+00A5 - Rage Crystal
+00A6 - Flowing Crystal
+00A7 - Cyclone Crystal
+00A8 - Meother Earth Crystal
+00A9 - Thunder Crystal
+00AA - Junk
+00AB - Sound Crystal
+00AC - Window Crystal
+00AD - War Scroll
+00AE - Binoculars
+00AF - Kirinji
+00B0 - Prodigy
+00B1 - Blue Print
+00B2 - Copper Axe
+00B3 - Mathiu's Letter
+
+Quantity Digits to Accompany Rune Modifier Codes
+00 - Nothing
+01 - Soul Eater
+02 - Fire Rune
+03 - Water Rune
+04 - Wind Rune
+05 - Lightning Rune
+06 - Earth Rune
+07 - Resurrection Rune
+08 - Boar Rune
+09 - Shrike Rune
+0A - Falcon Rune
+0B - Hate Rune
+0C - Trick Rune
+0D - Clone Rune
+0E - Double-Beat Rune
+0F - Kilver Rune
+10 - Counter Rune
+11 - Spark Rune
+12 - Hazy Rune
+13 - Gale Rune
+14 - Sunbeam Rune
+15 - Holy Rune
+16 - Fortune Rune
+17 - Prosperity Rune
+18 - Champion's Rune
+19 - Turtle Rune
+1A - Phero Rune
+1B - Rage Rune
+1C - Flowing Rune
+1D - Cyclone Rune
+1E - Mother Earth Rune
+1F - Thunder Rune
+20 - ?
+21 - True Holy Rune
+
+Quantity Digits to Accompany Rune Piece Modifier Codes
+00 - Nothing
+01 - Fire Rune Piece
+02 - Water Rune Piece
+03 - Wind Rune Piece
+04 - Thunder Rune Piece
+05 - Earth Rune Piece
+
+Quantity Digits to Accompany Weapon Modifier Codes
+00 - Nothing
+01 - Dragon Fang Staff
+02 - Axe
+03 - Claws
+04 - Airmoon Sword
+05 - Shiko Sword
+06 - Fenril
+07 - Gunnigle
+08 - Lightning Hatchet
+09 - Ryuseisui
+0A - Murasame
+0B - Odessa
+0C - Axe
+0D - Akemi
+0E - Seigetsu Spear
+0F - Wind Rod
+10 - Kirinji
+11 - Ruby Darts
+12 - Gold Needle
+13 - Iron Gear
+14 - Shine Bow
+15 - Stick
+16 - Regular Steel
+17 - Steel Rod
+18 - Kitchen Knife
+19 - Big Sakura
+1A - Titanium Hammer
+1B - Punishment
+1C - Sigmund
+1D - Valnalla
+1E - Light Knife
+1F - Tengaar
+20 - Alkaid Hatchet
+21 - Star Sword
+22 - Rose
+23 - Black Knife
+24 - Blue Moonlight
+25 - Blue
+26 - Moon Bow
+27 - Bow of Shield
+28 - Claw
+29 - Sword
+2A - Fire Sword
+2B - Flashing Sword
+2C - Second Sword
+2D - Rapier
+2E - Demon God Spear
+2F - Horse Killer Hatchet
+30 - Steel Sickle & Chaing
+31 - Double Axe
+32 - Sword
+33 - Bow of Garuda
+34 - Silver Rod
+35 - Super Shuriken
+36 - Silver Bow
+37 - Talons
+38 - Lighting
+39 - Lovely Shawl
+3A - Seeding Bow
+3B - Big Denta
+3C - Death
+3D - Assassin's Dagger
+3E - Laser Knife
+3F - Conjurer's Staff
+40 - Wolf
+41 - Wrench
+42 - Long Saw
+43 - Land Rod
+44 - Milk Pan
+45 - Pan
+46 - Stone Hammer
+47 - Chrome Hammer
+48 - Bronze Hammer
+49 - Gold Hammer
+4A - Storm
+4B - Death Crimson
+4C - Comet Rod
+4D - Copper Bow
+4E - Copper Bow
+4F - Black Dragon Sword
+
+Note 1:
+With these codes, the EXP Modifier codes, Change the ?'s to F's for QUICK LEVEL GAIN.
+
+Note 2:
+With these codes, the Level Modifier codes, they do not affect status, but if you need to be on a high level to get someone to join your party, this will let you get them if you modify your level high enough!
+
+Name Digits
+
+Quantity Digits to Accompany Name Modifier Codes
+11 - a
+12 - b
+13 - c
+14 - d
+15 - e
+16 - f
+17 - g
+18 - h
+19 - i
+1A - j
+1B - k
+1C - l
+1D - m
+1E - n
+1F - o
+20 - p
+21 - q
+22 - r
+23 - s
+24 - t
+25 - u
+26 - v
+27 - w
+28 - x
+29 - y
+2A - z
+2B - A
+2C - B
+2D - C
+2E - D
+2F - E
+30 - F
+31 - G
+32 - H
+33 - I
+34 - J
+35 - K
+36 - L
+37 - M
+38 - N
+39 - O
+3A - P
+3B - Q
+3C - R
+3D - S
+3E - T
+3F - U
+40 - V
+41 - W
+42 - X
+43 - Y
+44 - Z
+45 - 0
+46 - 1
+47 - 2
+48 - 3
+49 - 4
+4A - 5
+4B - 6
+4C - 7
+4D - 8
+4E - 9
+4F - :
+50 - ;
+51 - "
+52 - ' (Facing Right)
+53 - ' (Facing Left)
+54 - &
+55 - ,
+56 - .
+57 - !
+58 - ?
+59 - (
+5A - )
+5B - +
+5C - -
+5D - [ (Top Half)
+5E - ] (Bottom Half)
+5F - . (Centered)
+60 - [ (Top Half in 3-D)
+61 - ] (Bottom Half in 3-D)
+62 - Circle Button
+63 - X Button
+64 - square Button
+65 - Triangle Button
+66 - 3-D Star
+
+Soldiers Modifier in Large Scale Battle:
+Liberals-6125
+Imperial-9000
+Liberals-9325
+Imperial-12000
+
+Soldiers Modifier in Large Scale (Nothern Check Point)
+Liberals-14695
+Imperial-3700
+Liberals-17705
+Imperial-17000
+
+Soldiers Modifier in Large Scale (The Last Battle)
+Liberals-17985
+Imperial-20000

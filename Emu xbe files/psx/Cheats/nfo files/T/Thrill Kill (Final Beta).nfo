@@ -1,0 +1,40 @@
+Quantity Digits to Accompany Level Modifier Code
+03 - Chamber of Anguish
+05 - Slaughterhouse of Flesh
+07 - The Crematorium
+09 - The Lavatory
+0A - Insane Asylum
+0C - Sewer of Styx
+0E - Sinner's Cell
+11 - Homicide Avenue
+13 - Sacrificial Ruins
+15 - Dante's Cage
+
+Quantity Digits to Accompany Difficulty Modifier Code
+00 - Easy
+01 - Medium
+02 - Hard
+03 - Very Hard
+
+Quantity Digits to Accompany Character Modifier Codes
+00 - Tormentor
+01 - Odd Ball
+02 - Belladonna
+03 - Dr. Faustus
+04 - The Imp
+05 - Violet
+06 - Mammoth
+07 - Cleetus
+08 - Cain
+09 - Judas
+0A - Marukka
+
+Quantity Digits to Accompany Outfit Modifier Codes
+00 - First Outfit
+01 - Second Outfit
+02 - Third Outfit
+03 - Fourth Outfit
+04 - Bonus Outfit
+
+Note 1:
+With this code, do not try to boot Sacrificial Ruins or Dante's Cage up without having them unlocked first!!! It will cause the game to lock up.

@@ -1,0 +1,46 @@
+level codes (notes)
+
+Note 1:
+With this code, it has some weird effects. When Lara falls, she will flap her arms and fall slower. Also glitches periodically.
+
+Misc codes (notes)
+
+Note 1:
+With this code, you still die if you step in the hand.
+
+Quantity Digits
+Fur Digits
+
+Quantity Digits to Accompany Fur Modifier 1 Codes
+00 - No Fur
+01 - Some Fur
+02 - More Fur
+03 - More Fur Yet
+04 - Still More Fur
+05 - Has 4 Arms
+
+Level Digits
+
+Quantity Digits to Accompany Level Modifier Codes
+02 - City of Vicabama
+03 - Lost Valley
+04 - Tomb of Qualopec
+05 - St. Francis' Folly
+06 - Colosseum
+07 - Palace Midas
+08 - The Cistern
+09 - Tomb of Tihocan
+0A - City of Khamoon
+0B - Obelisk of Khamoon
+0C - Sanctuary of The Scion
+0D - Natla Mines
+0E - Atlantis
+0F - The Great Pyramid
+
+Skin Digits
+
+Quantity Digits to Accompany Skin Modifier Codes
+0000 - Pale
+0006 - Pale With Red Hair
+5000 - Black
+FFFF - Normal

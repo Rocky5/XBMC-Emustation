@@ -1,0 +1,40 @@
+Quantity Digits to Accompany Costume Modifier Code
+00 - Default (Square or X)
+01 - 2nd (Triangle or Circle)
+02 - 3rd (R1)
+
+Quantity Digits to Accompany Character Modifier Code
+00 - Kairi
+01 - Hokuto
+02 - Nanase
+03 - D.Dark
+04 - Pullum
+05 - Sharon
+06 - Skullomania
+07 - Shadow Geist
+08 - Jack
+09 - Guile
+0A - Dhalsim
+0B - Garuda
+0C - Ryu
+0D - Ken
+0E - Chun-Li
+0F - Zangief
+10 - Blanka
+11 - Vega
+12 - Kairi
+13 - Shadow Geist
+14 - Garuda
+15 - Bison
+16 - Sagat
+17 - Darun
+18 - Vulcano Rosso
+19 - Area
+1A - Bison
+1B - Bison II
+1C - Sagat
+1D - Cycloid
+1E - Hayate
+
+Note 1:
+With this code, it allows both players to hit, make contact, with each other no matter where they are on the screen.

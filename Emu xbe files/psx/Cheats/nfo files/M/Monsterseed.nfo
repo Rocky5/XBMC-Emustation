@@ -1,0 +1,174 @@
+Quantity Digits to Accompany Seed Slot Modifier Codes
+00 - Seed #1
+01 - Seed #2
+02 - Seed #3
+03 - Seed #4
+04 - Seed #5
+05 - Seed #6
+06 - Seed #7
+07 - Seed #8
+08 - Seed #9
+09 - Seed #10
+0A - Seed #11
+0B - Seed #12
+0C - Seed #13
+0D - Seed #14
+0E - Seed #15
+0F - Seed #16
+10 - Seed #17
+11 - Seed #18
+12 - Seed #19
+13 - Seed #20
+14 - Seed #21
+15 - Seed #22
+16 - Seed #23
+17 - Seed #24
+18 - Seed #25
+19 - Seed #26
+1A - Seed #27
+1B - Seed #28
+1C - Seed #29
+1D - Seed #30
+1E - Seed #31
+1F - Seed #32
+20 - Seed #33
+21 - Seed #34
+22 - Seed #35
+23 - Seed #36
+24 - Seed #37
+25 - Seed #38
+26 - Seed #39
+27 - Seed #40
+28 - Seed #41
+29 - Seed #42
+2A - Seed #43
+2B - Seed #44
+2C - Seed #45
+2D - Seed #46
+2E - Seed #47
+2F - Seed #48
+30 - Seed #49
+31 - Seed #50
+
+Quantity Digits to Accompany Solution Slot Modifier Codes
+00 - Life Force
+01 - Will Power
+02 - AT
+03 - Physical DEF
+04 - Mental DEF
+05 - Agility
+06 - Acting Power
+07 - Fire's Power
+08 - Water's Power
+09 - Ice's Power
+0A - Electricity's Power
+0B - Gas's Power
+0C - Sound's Power
+0D - Light's Power
+0E - Acid's Power
+
+Quantity Digits to Accompany Item Slot Modifier Codes
+00 - Bug
+01 - Blue Crystal Ball
+02 - Gatekeeper's Key
+03 - Gatekeeper's Key
+04 - Gatekeeper's Key
+05 - Copper Key
+06 - Silver Key
+07 - Gold Key
+08 - Key to The Dungeon
+09 - Blue Crystal Ball
+0A - Blue Stone
+0B - Dynamite
+0C - Kondol's Statue
+0D - Gatekeeper's Key
+0E - Yellow Card
+0F - Red Card
+10 - Green Card
+11 - Blue Card
+12 - Red Stone
+13 - Key to The Old Warehouse
+14 - Odyu - Book 3
+15 - Blue Necklace
+16 - Hammer
+17 - Molu
+32 - Guard Mask
+33 - Fine Mask
+34 - Gaaku Mask
+35 - Zean Mask
+36 - Fin Mask
+37 - Ston Mask
+38 - Nelt Mask
+39 - Venom Mask
+3A - Melashed Tears
+3B - Nervy Tears
+3C - Flowness Tears
+3D - Erenet Tears
+3E - Bonebay Tears
+3F - Nelt Resua
+40 - Venom Resua
+41 - Ston Resua
+42 - Zean Resua
+43 - Gaaku Resua
+44 - Fine Resua
+45 - Guard Resua
+46 - Fin Resua
+47 - Feni Wing
+78 - Confusion Liquor
+79 - Bitany
+7A - Miobita
+7B - Pronten
+7C - Myunbar
+7D - Dolphin
+7E - Ugo Cologne
+7F - Life Liquor
+80 - Fighshin
+81 - Wominjin
+82 - Ishin
+83 - Erepamido
+84 - Gakuraat
+85 - Sounmeton
+86 - Lightmeton
+87 - Acidnamin
+88 - Ackgal
+89 - Mackgal
+8A - Melafray
+8B - Nelfray
+8C - Flowfray
+8D - Elefray
+8E - Ashizufray
+8F - Venom Recurve
+90 - Fine Recurve
+91 - Guard Recurve
+92 - Zean Recurve
+93 - Nelt Recurve
+94 - Gaaku Recurve
+95 - Ston Recurve
+96 - Fin Recurve
+97 - High Vitasee
+98 - Highmine She
+99 - Biter Down
+9A - Mine Down
+9B - Salt Down
+9C - Agil Down
+9D - Abil Down
+9E - Melavale
+9F - Nelvale
+A0 - Haavale
+B4 - Old Stone Tablet
+E6 - Biter Drop
+E7 - Biter Aid
+E8 - Biter Myshin
+E9 - Mine Drop
+EA - Mine Aid
+EB - Mine Myshin
+FE - Tool
+FF - Nothing
+
+Quantity Digits to Accompany Item Type Slot Modifier Codes
+00 - Weapon
+01 - Item
+02 - Spell
+03 - Monster
+04 - Key
+05 - Egg

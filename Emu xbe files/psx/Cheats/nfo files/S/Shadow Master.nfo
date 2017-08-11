@@ -1,0 +1,49 @@
+Quantity Digits to Accompany Secondary Weapon Modifier Code Codes
+00 - N/A
+01 - Double Blue Laser
+02 - Double Green Laser
+03 - Triple Blue Laser
+04 - Triple Green Laser
+05 - Quad Blue Laser
+06 - Quad Green Laser
+07 - Plasma Cannon
+0A - Machine Gun
+0C - Rail Gun
+0D - Grenade Launcher
+0E - Dual Grenade Launchers
+0F - Triple Grenade Launchers
+10 - Rocket Launcher
+
+Quantity Digits to Accompany Primary Weapon Modifier Code
+00 - N/A
+01 - Double Blue Laser
+02 - Double Green Laser
+03 - Triple Blue Laser
+04 - Triple Green Laser
+05 - Quad Blue Laser
+06 - Quad Green Laser
+
+Quantity Digits to Accompany Single Shot Laser Position Modifier Code
+00 - Bottom Right
+01 - Top Right
+02 - Top Left
+03 - Bottom Left
+
+Quantity Digits to Accompany In Game Cheat Modifier Code
+01 - Invincibility (Energy Bars Falls But You Don't Die)
+02 - Level Select
+04 - Have All Weapons
+08 - ?
+10 - ?
+20 - ?
+40 - ?
+80 - ?
+
+Note 1:
+With these codes, do NOT use them together!
+
+Note 2:
+With these codes, do NOT use them together!
+
+Note 3:
+With these codes, do NOT use them together!

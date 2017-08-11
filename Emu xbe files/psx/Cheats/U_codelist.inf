@@ -1,0 +1,545 @@
+#Ultimate 8 Ball#SLUS00864
+"Joker Command P1 (add 16-bit value)
+D0138DE0 ????
+"Joker Command P2 (add 16-bit value)
+D0138E60 ????
+"Sight Line On
+80153C06 0001
+"P1 Max Score [Note 1]
+8011DD3C 0063
+"P1 No Score [Note 2]
+8011DD3C 0000
+"P2 Max Score
+8012F042 0063
+"P2 No Score
+8012F042 0000
+"P1 Infinite Lives [Note 3]
+8011DD3C 0003
+"P1 No Lives [Note 4]
+8011DD3C 0000
+"P1 Have 99 Games Won
+3011DBF8 0063
+"P1 Have 0 Games Won
+3011DBF8 0000
+"P2 Have 99 Games Won
+3011DBF9 0063
+"P2 Have 0 Games Won
+3011DBF9 0000
+"P1 Have No Fouls
+3011DC42 0000
+"P1 Have 3 Fouls
+3011DC42 0002
+"P2 Have No Fouls
+3011DC52 0000
+"P2 Have 3 Fouls
+3011DC52 0002
+"Time is 0:00:00
+80015916 2400
+"P2 Infinite Lives
+8011DD3E 0003
+"P2 No Lives
+8011DD3E 0000
+"Unlock Everything
+80153AC2 FFFF
+80153AC4 FFFF
+80153AC6 FFFF
+80153AC8 FFFF
+80153ACA FFFF
+80153ACC FFFF
+80153ACE FFFF
+"Maximum Credits
+8011DC2C 0063
+
+#Ultimate Fighting Championship#SLUS01143
+"Command P1 (add 16-bit value)
+D006F638 ????
+"Command P2 (add 16-bit value)
+D006F63A ????
+"Infinite Ability Points
+D0155538 0000
+80155538 01F4
+"P1 Control Config [Note 1]
+D006F638 0004
+8006F638 00C0
+D006F638 0001
+8006F638 0090
+D006F638 0002
+8006F638 0060
+"P2 Control Config [Note 2]
+D006F63A 0004
+8006F63A 00C0
+D006F63A 0001
+8006F63A 0090
+D006F63A 0002
+8006F63A 0060
+
+#Um Jammer Lammy#SCUS94448
+"P1 Always 'Rockin' Modifiermodifier (add 8-bit value)
+80072790 00??
+"P2 Always 'Rockin' Modifiermodifier (add 8-bit value)
+8007279A 00??
+"P1 Max Score (1 Player Mode)
+80078D12 270F
+"Enable All Stages
+301A58F9 0001
+801A58FA 3F3F
+801A58FC 3F3F
+801A58FE 3F3F
+"Have All Crowns
+301A58E9 000B
+801A58EA 3F3F
+801A58EC 3F3F
+801A58EE 3F3F
+"All Effect Possession (Press Select)
+301A58E7 003F
+"P1 Max Score (2 Player Mode)
+801A3514 270F
+"P2 Max Score (2 Player Mode)
+801A31E8 270F
+
+#Unholy War#SLUS00676
+"=Mayham Mode 
+"P1 Quicksilver Infinite Health
+801AF610 0258
+"P1 Quicksilver Infinite Energy
+801AF614 01F4
+"P1 Telsa Infinite Health
+801AFA48 0258
+"P1 Telsa Infinite Energy
+801AFA4C 0640
+"P1 Killcycle Infinite Health
+801AF9D0 01F4
+"P1 Killcycle Infinite Energy
+801AF9D4 0258
+"P1 Jaeger Infinite Health
+801AF710 03E8
+"P1 Jaegar Infinite Energy
+801AF714 0640
+"P1 Mantis Infinite Health
+801AF7A8 02EE
+"P1 Mantis Infinite Energy
+801AF7AC 03E8
+"P1 Razorfane Infinite Health
+801AF610 0320
+"P1 Razorfane Infinite Energy
+801AF614 01F4
+"P1 Wasp Infinite Health
+801AF7B0 0190
+"P1 Wasp Infinite Energy
+801AF7B4 0258
+"P1 Ecton Infinite Health
+801AF938 01F4
+"P1 Ecton Infinite Energy
+801AF93C 0640
+"P1 Prana Infinite Health
+801AF688 0258
+"P1 Prana Infinite Energy
+801AF68C 03E8
+"P1 Magnus Infinite Health
+801AF7A8 03E8
+"P1 Magnus Infinite Energy
+801AF7AC 01F4
+"P1 Brontu Infinite Health
+801AF540 03E8
+"P1 Brontu Infinite Energy
+801AF544 05DC
+"P1 Firewitch Infinite Health
+801AFA00 01F4
+"P1 Firewitch Infinite Energy
+801AFA04 01F4
+"P1 Angel Infinite Health
+801AF710 0315
+"P1 Angel Infinite Energy
+801AF714 03E8
+"P1 Mogalin Infinite Health
+801AF7F0 01F4
+"P1 Mogalin Infinite Energy
+801AF7F4 0384
+"P2 Quicksilver Infinite Health
+801D5E10 0258
+"P2 Quicksilver Infinite Energy
+801D5E14 01F4
+"P2 Telsa Infinite Health
+801D6248 0258
+"P2 Telsa Infinite Energy
+801D624C 0640
+"P2 Killcycle Infinite Health
+801D61D0 01F4
+"P2 Killcycle Infinite Energy
+801D61D4 0258
+"P2 Jaeger Infinite Health
+801D5F10 03E8
+"P2 Jaeger Infinite Energy
+801D5F14 0640
+"P2 Mantis Infinite Health
+801D5FA8 02EE
+"P2 Mantis Infinite Energy
+801D5FAC 03E8
+"P2 Razorfane Infinite Health
+801D5E10 0320
+"P2 Razorfane Infinite Energy
+801D5E10 01F4
+"P2 Wasp Infinite Health
+801D5FB0 0190
+"P2 Wasp Infinite Energy
+801D5FB4 0258
+"P2 Ecton Infinite Health
+801D6138 01F4
+"P2 Ecton Infinite Energy
+801D613C 0640
+"P2 Prana Infinite Health
+801D5E88 0258
+"P2 Prana Infinite Energy
+801D5E8C 03E8
+"P2 Magnus Infinite Health
+801D5FA8 03E8
+"P2 Magnus Infinite Energy
+801D5FAC 01F4
+"P2 Brontu Infinite Health
+801D5D40 03E8
+"P2 Brontu Infinite Energy
+801D5D44 05DC
+"P2 Firewitch Infinite Health
+801D6200 01F4
+"P2 Firewitch Infinite Energy
+801D6204 01F4
+"P2 Angel Infinite Health
+801D5F10 0315
+"P2 Angel Infinite Energy
+801D5F14 03E8
+"P2 Mogalin Infinite Health
+801D5FF0 01F4
+"P2 Mogalin Infinite Energy
+801D5FF4 0384
+"=Strategy Mode 
+"P1 Infinite AUR
+8011C5B8 FFFF
+"P2 Infinite AUR
+8011C914 FFFF
+
+#Uprising X#SLUS00686
+"All Weapons & Ammo
+801907F6 0063
+801907F8 0063
+801907FA 0063
+801907FC 0063
+801907FE 0063
+"Infinite Armor Level 1
+8011062A 0FFF
+"Infinite Armor Level 2
+801085FA 0FFF
+"Infinite Armor Level 3
+80103B16 0FFF
+"Infinite Armor Level 4
+800FE5DA 0FFF
+"Infinite Armor Level 5
+801006EA 0FFF
+"Infinite Armor Level 6
+800F81A6 0FFF
+"Infinite Armor Level 7
+8011977E 0FFF
+"Infinite Armor Level 8
+800F8E0E 0FFF
+"Infinite Armor Level 9
+800FD5C2 0FFF
+"Infinite Armor Level 10
+800FD926 0FFF
+"Infinite Armor Level 11
+80100EEE 0FFF
+"Infinite Armor Level 12
+800F657A 0FFF
+
+#Urban Chaos#SLUS01091
+"=Combat-Tutorial 
+"Infinite Health
+80198F04 00C8
+"=Physical Training 
+"Infinite Time
+80197184 2F00
+"Infinite Health
+80197E80 00C8
+"=Driving Bronze 
+"Infinite Time
+801970DC 2F00
+"Infinite Car Damage
+80197886 012C
+"=Combat Silver 
+"Infinite Time
+801977B8 2F00
+"Infinite Health
+80198994 00C8
+"=RTA 
+"Infinite Health
+80194F44 00C8
+"Infinite Car Damage
+8019439E 012C
+"Have Pistol
+30194F43 0001
+"Infinite Ammo Pistol
+30194F42 0063
+"=Driving Silver 
+"Infinite Time
+80196A5C 2F00
+"No Car Damage
+8019735E 012C
+"=Combat Gold 
+"Infinite Health
+80198C18 00C8
+"Infinite Time
+80197814 2F00
+"=The Jump 
+"Infinite Health
+80194F6C 00C8
+"=Driving Gold 
+"Infinite Time
+80196F68 3682
+"No Car Damage
+8019771E 012C
+"=Nitro Car 
+"Infinite Health
+80197AA4 00C8
+"Infinite Car Damage
+801970FE 012C
+"Infinite Ammo Pistol
+80197AA2 0163
+"Infinite Ammo Shotgun
+8019A260 0063
+"=Gun Hunt 
+"Infinite Health
+80195618 00C8
+"=Rat Catch 
+"Infinite Health
+80197820 00C8
+"Infinite Ammo Pistol
+3019781E 0063
+"Infinite Ammo Shotgun
+8019A13C 0063
+"Have Shotgun
+8019782C 003C
+"=Trouble In The Park 
+"Infinite Health
+80194A34 00C8
+"=Gatecrusher 
+"Infinite Health
+801914C4 00C8
+"Infinite Ammo Pistol
+801914C2 0163
+"Infinite Ammo Rifle
+80196834 0063
+"=Arms Breaker 
+"Infinite Health
+80194C04 00C8
+"Infinite Ammo Pistol
+80194C02 0163
+"=Media Trouble 
+"Infinite Health
+801955AC 00C8
+"Infinite Ammo Pistol
+801955AE 0163
+"Infinite Ammo Rifle
+801990D4 0063
+"=Urban Shakedown 
+"Infinite Health
+80195A20 00C8
+"Infinite Ammo Pistol
+80195A22 0163
+"Infinite Ammo Shotgun
+801987E4 0063
+"Infinite Time
+8019329C 2F00
+"=Auto-Destruct 
+"Infinite Health
+80196824 00C8
+"Infinite Ammo Pistol
+80196826 0163
+"Infinite Time
+80192E24 2F00
+"=Grim Gardens 
+"Infinite Health
+801954D4 00C8
+"Infinite Ammo Pistol
+801954D6 0163
+"=Semtex 
+"Infinite Health
+80194DD4 00C8
+"Infinite Ammo Pistol
+80194DD6 0163
+"=Cop Rescue 
+"Infinite Health
+8019146C 00C8
+"Infinite Ammo Pistol
+8019146E 0163
+"Infinite Ammo Shotgun
+801954B4 0063
+"=Southside Offensive 
+"Infinite Health
+8019495C 00C8
+"Infinite Ammo Pistol
+8019495E 0163
+"Infinite Grenades
+8019932C 0063
+"Infinite Ammo Shotgun
+801990FC 0063
+"=Psycho Park 
+"Infinite Health
+80194874 00C8
+"Infinite Ammo Pistol
+80194876 0163
+"Infinite Ammo Shotgun
+8019970C 0063
+"Infinite Ammo Rifle
+80199720 0063
+"=The Fallen 
+"Infinite Health
+801955E4 00C8
+"Infinite Ammo Pistol
+801955E6 0163
+"=Stern Revenge 
+"Infinite Health
+8019283C 00C8
+"Infinite Ammo Pistol
+8019283E 0163
+"Infinite Ammo Shotgun
+80198358 0063
+"Infinite Ammo Rifle
+801984AC 0063
+"=Transmission Terminated 
+"Infinite Health
+801925F8 00C8
+"Infinite Ammo Pistol
+801925FA 0163
+"Infinite Ammo Shotgun
+80197068 0063
+"=Estate Of Emergency 
+"Infinite Health
+80192314 00C8
+"Infinite Ammo Pistol
+80192314 0163
+"Infinite Ammo Rifle
+80197528 0063
+"Infinite Ammo Shotgun
+8019735C 0063
+"=Seek, Sneak & Seize 
+"Infinite Health
+80198544 00C8
+"Infinite Ammo Pistol
+80198546 0163
+"Infinite Ammo Rifle
+8019AC60 0063
+"=Target UC 
+"Infinite Health
+80196758 00C8
+"Infinite Ammo Pistol
+8019675A 0163
+"Infinite Ammo Shotgun
+80199C8C 0063
+"Infinite Explosives
+80199C64 0063
+"Infinite Time
+80194CE4 2F00
+"=Headline Hostage 
+"Infinite Health
+8019550C 00C8
+"Infinite Ammo Pistol
+8019550E 0163
+"Infinite Ammo Shotgun
+801992DC 0063
+"Infinite Grenades
+8019937C 0063
+"Infinite Time
+8019237C 2F00
+"=Insane Assault 
+"Infinite Health
+801919C0 00C8
+"Infinite Ammo Pistol
+801919C2 0163
+"=Day Of Reckoning 
+"Infinite Health
+8018AB24 0190
+"Infinite Ammo Pistol
+8018AB26 0163
+"Infinite Ammo Shotgun
+8018D97C 0063
+"Infinite Time
+80189390 2F00
+"=Assassin 
+"Infinite Health
+80196C1C 00C8
+"Infinite Ammo Pistol
+80196C1E 0163
+"Infinite Ammo Shotgun
+80199DB8 0063
+"=Have Levels Completed 
+"Combat: Tutorial
+300EB479 0001
+"Physical Training
+300EB47A 0001
+"Driving Bronze
+300EB47B 0001
+"Combat Silver
+300EB47C 0001
+"RTA
+300EB47D 0001
+"Driving Silver
+300EB47E 0001
+"Combat Gold
+300EB47F 0001
+"The Jump
+300EB480 0001
+"Driving Gold
+300EB481 0001
+"Nitro Car
+300EB482 0001
+"Gun Hunt
+300EB483 0001
+"Rat Catch
+300EB484 0001
+"Trouble In The Park
+300EB485 0001
+"Gatecrusher
+300EB486 0001
+"Arms Breaker
+300EB487 0001
+"Media Trouble
+300EB488 0001
+"Urban Shakedown
+300EB489 0001
+"Auto-Destruct
+300EB48A 0001
+"Grim Gardens
+300EB48B 0001
+"Semtex
+300EB48C 0001
+"Cop Rescue
+300EB48D 0001
+"Southside Offensive
+300EB48E 0001
+"Psycho Park
+300EB48F 0001
+"The Fallen
+300EB490 0001
+"Stern Revenge
+300EB491 0001
+"Transmission Terminated
+300EB492 0001
+"Estate Of Emergency
+300EB493 0001
+"Seek, Sneak & Seize
+300EB494 0001
+"Target UC
+300EB495 0001
+"Headline Hostage
+300EB496 0001
+"Insane Assault
+300EB498 0001
+"Day Of Reckoning
+300EB499 0001
+"Assassin
+300EB49A 0001
+"Have All Levels
+50002101 0000
+300EB479 0001
+"Have All Levels (Alternate)
+3010C9CC 0001
+
+.end

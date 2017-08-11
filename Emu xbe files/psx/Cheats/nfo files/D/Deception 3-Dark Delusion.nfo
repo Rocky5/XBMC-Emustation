@@ -1,0 +1,111 @@
+Quantity Digits to Accompany Trap Modifier Codes
+00 - Mega Rock
+01 - Volt Rock
+02 - Flare Rock
+03 - Snow Ball
+04 - Iron Ball
+05 - Bound Rock
+06 - Vampire Rock
+07 - Stealth Rock
+08 - Evil Stomp
+09 - Slave Rock
+0A - Pendulum
+0B - Thor Hammer
+0C - Fire Hammer
+0D - Snow Cradle
+0E - Smash Hammer
+0F - Mega Yo Yo
+10 - Poison Blade
+11 - Mega Buzzsaw
+12 - Evil Shoot
+13 - Slave Hammer
+14 - Vase
+15 - Blitz Vase
+16 - Bomb Vase
+17 - Freeze Vase
+18 - Basin
+19 - Crane
+1A - Oil Vase
+1B - Confuse Gas
+1C - Genocide Eye
+1D - Slave Mask
+1E - Push Wall
+1F - Thunder Wall
+20 - Heat Breath
+21 - Cold Breath
+22 - Smash Wall
+23 - Upper Wall
+24 - Vampire Wall
+25 - Expander
+26 - Evil Kick
+27 - Hunter Blade
+28 - Magnet Wall
+29 - Spark Magnet
+2A - Blast Magnet
+2B - Cold Magnet
+2C - Anti Magnet
+2D - Float Magnet
+2E - Berserker
+2F - Warp Hole
+30 - Call Of Hell
+31 - Slave Magnet
+32 - Arrow Slit
+33 - Volt Javelin
+34 - Fireball
+35 - Cold Arrow
+36 - Buzzsaw
+37 - Rising Ball
+38 - Flash Arrow
+39 - Chain Needle
+3A - Hell Laser
+3B - Rolling Bomb
+3C - Spring Floor
+3D - Spark Floor
+3E - Blast Floor
+3F - Ice Blizzard
+40 - Smash Floor
+41 - Rising Floor
+42 - Footcutter
+43 - Catapult
+44 - Evil Upper
+45 - Slide Floor
+46 - Vacuum Floor
+47 - Spark Vacuum
+48 - Blast Vacuum
+49 - Cold Vacuum
+4A - Anti Vacuum
+4B - Float Vacuum
+4C - Panic Vacuum
+4D - Graviton
+4E - Hell Vacuum
+4F - Slave Vacuum
+50 - Blast Bomb
+51 - Spark Rod
+52 - Hellfire
+53 - Cold Blast
+54 - Shockwave
+55 - Rising Mine
+56 - Flash Bomb
+57 - Quake Bomb
+58 - Hell Judge
+59 - Slave Bomb
+5A - Bear Trap
+5B - Thunder Claw
+5C - Blast Claw
+5D - Cold Claw
+5E - Heavy Claw
+5F - Lift Claw
+60 - Oil Claw
+61 - Magic Sac
+62 - Evil Claw
+63 - Slave Claw
+64 - Tombstone
+65 - Barracuda
+66 - Teleporter
+67 - Killer Top
+68 - Banana Peel
+69 - Delta Horse
+FF - Nothing
+
+Note 1:
+With this code, you can still lose health, but traps won't pull, push or knock you down, you can walk right through them, they only affect your enemies.

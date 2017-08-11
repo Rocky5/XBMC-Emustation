@@ -1,0 +1,190 @@
+Quantity Digits to Accompany Lure Sub-Type Modifier Codes
+
+10 - Grub
+20 - PorkRind
+
+Quantity Digits to Accompany Lure Color Modifier Codes
+
+00 - Appeal 3\Natural 0
+01 - Appeal 2\Natural 1
+02 - Appeal 1\Natural 1
+03 - Appeal 1\Natural 2
+04 - Appeal 0\Natural 3
+
+Quantity Digits to Accompany Line Group Modifier Codes
+
+1 - 6lb or less
+2 - 8lb to 12lb
+3 - 14lb to 20lb
+
+Quantity Digits to Accompany Lake Modifier Code
+
+00 - Lunker Lake
+01 - Crystal Lake
+02 - Alphine Lake
+03 - Mirror Lake
+04 - Bass Lake
+
+Quantity Digits to Accompany Accompany Rod Modifier Codes
+
+00 - ULS-66F
+01 - LS-66F
+02 - MLS-60F
+03 - MS-58S
+04 - MHS-55S
+05 - MLB-55F
+06 - MB-60F
+07 - MHB-66S
+08 - HB-66S
+09 - UHB-70S
+
+Quantity Digits to Accompany Reel Modifier Codes
+
+00 - Tournament 200 Expert
+01 - Tournament 400 Classic
+02 - Variable-2000
+
+Quantity Digits to Accompany Line Modifier Codes
+
+00 - 4lb
+01 - 6lb
+02 - 8lb
+03 - 10lb
+04 - 12lb
+05 - 14lb
+06 - 16lb
+07 - 20lb
+
+Quantity Digits to Accompany Lure Modifier Codes
+
+0000 - Popper
+0001 - Pencil Bait
+0002 - Swisher
+0003 - Vibrating Lure
+0004 - Floating Minnow
+0005 - Suspended Minnow
+0006 - Shad Minnow
+0007 - Shallow Crank
+0008 - Medium Crank
+0009 - Deep Crank
+000A - Spinner Bait-Colorado Type
+000B - Spinner Bait-Willow Leaf Type
+000C - Buzz Bait
+000D - Metal Jig
+0014 - Rubber Jig-1/2oz
+0015 - Rubber Jig-1/4oz
+010E - Straight Worm With Bo Sinker Rig
+010F - Straight Worm With Splitshot Rig
+0110 - Straight Worm With Carolina Rig
+0111 - Straight Worm With Texas Rig
+0112 - Straight Worm With Undershot Rig
+0113 - Straight Worm With Jighead Rig
+020E - Paddle-Tail Worm With No Sinker Rig
+020F - Paddle-Tail Worm With Splitshot Rig
+0210 - Paddle-Tail Worm With Carolina Rig
+0211 - Paddle-Tail Worm With Texas Rig
+0212 - Paddle-Tail Worm With Undershot Rig
+0213 - Paddle-Tail Worm With Jighead Rig
+040E - Curly-Tail Worm With No Sinker Rig
+040F - Curly-Tail Worm With Splitshot Rig
+0410 - Curly-Tail Worm With Carolina Rig
+0411 - Curly-Tail Worm With Texas Rig
+0412 - Curly-Tail Worm With Undershot Rig
+0413 - Curly-Tail Worm With Jighead Rig
+080E - Single-Tail Grub With No Sinker Rig
+080F - Single-Tail Grub With Splitshot Rig
+0810 - Single-Tail Grub With Carolina Rig
+0811 - Single-Tail Grub With Texas Rig
+0812 - Single-Tail Grub With Undershot Rig
+0813 - Single-Tail Grub With Jighead Rig
+100E - Twin-Tail Grub With No Sinker Rig
+100F - Twin-Tail Grub With Splitshot Rig
+1010 - Twin-Tail Grub With Carolina Rig
+1011 - Twin-Tail Grub With Texas Rig
+1012 - Twin-Tail Grub With Undershot Rig
+1013 - Twin-Tail Grub With Jighead Rig
+200E - Crawfish With No Sinker Rig
+200F - Crawfish With Splitshot Rig
+2010 - Crawfish With Carolina Rig
+2011 - Crawfish With Texas Rig
+2012 - Crawfish With Undershot Rig
+2013 - Crawfish With Jighead Rig
+400E - Tubeworm With No Sinker Rig
+400F - Tubeworm With Splitshot Rig
+4010 - Tubeworm With Carolina Rig
+4011 - Tubeworm With Texas Rig
+4012 - Tubeworm With Undershot Rig
+4013 - Tubeworm With Jighead Rig
+8014 - Rubber Jig-1/2oz Crawfish
+8015 - Rubber Jig-1/4oz Crawfish
+
+Quantity Digits to Accompany Name Input Modifier Codes
+
+4081 - Nothing
+4381 - ,
+4481 - .
+4881 - ?
+4981 - !
+6681 - '
+4F82 - 0
+5082 - 1
+5182 - 2
+5282 - 3
+5382 - 4
+5482 - 5
+5582 - 6
+5682 - 7
+5782 - 8
+5882 - 9
+6082 - A
+6182 - B
+6282 - C
+6382 - D
+6482 - E
+6582 - F
+6682 - G
+6782 - H
+6882 - I
+6982 - J
+6A82 - K
+6B82 - L
+6C82 - M
+6D82 - N
+6E82 - O
+6F82 - P
+7082 - Q
+7182 - R
+7282 - S
+7382 - T
+7482 - U
+7582 - V
+7682 - W
+7782 - X
+7882 - Y
+7982 - Z
+8182 - a
+8282 - b
+8382 - c
+8482 - d
+8582 - e
+8682 - f
+8782 - g
+8882 - h
+8982 - i
+8A82 - j
+8B82 - k
+8C82 - l
+8D82 - m
+8E82 - n
+8F82 - o
+9082 - p
+9182 - q
+9282 - r
+9382 - s
+9482 - t
+9582 - u
+9682 - v
+9782 - w
+9882 - x
+9982 - y
+9A82 - z

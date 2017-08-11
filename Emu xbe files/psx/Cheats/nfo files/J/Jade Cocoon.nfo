@@ -1,0 +1,143 @@
+Quantity Digits
+Armor Digits
+
+Quantity Digits to Accompany Armor Modifier Codes
+00 - Hunter's Vest
+01 - Leather Vest
+02 - Chain Mail Vest
+03 - Wire Vest
+04 - Plate Mail Vest
+05 - Reflecting Vest
+06 - Silver Vest
+07 - Divine Vest
+08 - Riketz' Garb
+09 - Nagi Garb
+0A - Bloody Garb
+0B - Navy Blue Garb
+0C - Forest Garb
+0D - Divine Garb 1
+0E - Divine Garb 2
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+00 - Mugwort
+01 - Meta-Mugwort
+02 - Bitter Mugwort
+03 - Great Walnut
+04 - Cheatnut Oil
+05 - Shishiudo Oil
+06 - Kukumira Oil
+07 - Bletilla Oil
+08 - Ichishi Oil
+09 - Shab Liquor
+0A - Fine Liquor
+0B - Excellent Liquor
+0C - Special Liquor
+0D - Tendai Uyaku
+0E - Valerian Powder
+0F - Ikari Powder
+10 - Ring of Venom
+11 - Ring of Sleep
+12 - Ring of Stoning
+13 - Ring of Death
+14 - Mirror of Deva
+15 - Urvy's Blessing
+16 - Vary's Blessing
+17 - Agni's Blessing
+18 - Malty's Blessing
+19 - Urvy's Seal 1
+1A - Urvy's Seal 2
+1B - Vary's Seal 1
+1C - Vary's Seal 2
+1D - Agni's Seal 1
+1E - Agni's Seal 2
+1F - Malty's Seal 1
+20 - Malty's Seal 2
+21 - Cloud Silk
+22 - Thunder Silk
+23 - Lily Silk
+24 - Pearl Silk
+25 - First Snow Silk
+26 - Angelwing Silk
+27 - Moonlight Silk
+28 - Skeleton Key
+29 - Sleep Spores
+2A - Attract Spores
+
+Other Digits
+
+Quantity Digits to Accompany Other Modifier Codes
+00 - Leather Headband
+01 - Iron Headband
+02 - Silver Headband
+03 - Blue Bead
+04 - Green Bead
+05 - Yellow Bead
+06 - Red Bead
+07 - Sparrow Ruff
+08 - Iron Bracelet
+09 - Silver Crown
+0A - Holly Ruff
+0B - Hawk Ruff
+0C - Poison Choker
+0D - Sleep Choker
+0E - Stone Choker
+0F - Super Choker
+10 - Nagi Belt
+
+Special Attributes Digits
+
+Quantity Digits to Accompany Special Attributes Modifier Codes
+00 - Nothing
+01 - Nothing
+02 - +Power
+03 - +Accuracy
+04 - +Critical
+
+Special Feature Digits
+
+Quantity Digits to Accompany Special Feature Modifier Codes
+00 - Nothing
+01 - Nothing
+02 - Earth Attack
+03 - Water Attack
+04 - Fire Attack
+05 - Wind Attack
+06 - Poison
+07 - Sleep
+08 - Flesh to Stone
+09 - Destroy Mana
+0A - Aborb HP
+0B - Aborb Mana
+0C - All Enemies
+0D - Critical
+0E - Break Legs
+0F - Rend Wings
+
+Weapon Digits
+
+Quantity Digits to Accompany Weapon Modifier Codes
+00 - Knife
+01 - Dagger
+02 - Aquazor
+03 - Bronze Sword
+04 - Sword of Speed
+05 - Iron Sword
+06 - Iron Axe
+07 - Life Stealer
+08 - White Horn
+09 - Little Bird
+0A - Whistler
+0B - Nightglow
+0C - Blue Phantom
+0D - Thunderbolt
+0E - Tsunami
+0F - Spring Blossom
+10 - Dragoncrest
+11 - Cloudcover
+12 - Palemoon
+13 - Reaper
+14 - Drainer
+15 - Autumn Moon
+16 - Icicle

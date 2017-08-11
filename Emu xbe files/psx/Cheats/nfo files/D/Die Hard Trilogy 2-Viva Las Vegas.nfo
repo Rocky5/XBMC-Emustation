@@ -1,0 +1,18 @@
+Quantity Digits to Accompany Weapon Modifier Codes
+01 - Pistol
+02 - Shotgun
+03 - MP5
+04 - Law 80 Rocket Launcher
+05 - JackHammer
+06 - Shock Rifle
+07 - Flame Thrower
+
+Quantity Digits to Accompany On/Off Modifier Codes
+00 - Off
+01 - On
+
+Note 1:
+With this code, when you first start switch to first person mode then back to third person perspective and you will have a skeleton body.
+
+Note 2:
+With this code, you must be at the main menu screen, and then you should press L1+L2 andit will instantly take you to the debug menu screen. To exit this screen, do not use anything other than Triangle by itself, if you do press Triangle and any other buttons in combination, it will go to a messed up memory card manager screen, just keep pressing Triangle and it will eventually go back to the main menu.

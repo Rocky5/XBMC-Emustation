@@ -1,0 +1,361 @@
+Quantity Digits to Accompany Character Modifier Codes (Normal Mode)
+00 - Rio
+01 - Han Daehan
+02 - Godhand
+03 - Lee Shuwen
+04 - Dasher Inoba
+05 - ?
+06 - Sasuke
+07 - Prince Naseem
+08 - YoYo Yoko
+09 - Jo
+0A - Cloud Strife
+0B - Tifa Lockhart
+0C - Django
+0D - Sephiroth
+0E - Koji Masuda
+0F - Clair Andrews
+10 - Yuffie Kisaragi
+11 - Vincent Valentine
+13 - Zax
+
+Quantity Digits to Accompany Stage Modifier Code
+00 - Dome
+01 - Roof
+02 - Airship
+03 - Hong Kong
+04 - Train
+05 - Coliseium
+06 - DigUp
+07 - Shelter
+08 - Elevator
+09 - Underground
+0A - Computer
+0B - Random
+
+Quantity Digits to Accompany Outfit Modifier Codes
+0 - Normal Outfit
+1 - Second Outfit
+
+Quantity Digits to Accompany Character Modifier Codes (RPG Mode)
+0000 - Koji
+0001 - Claire
+
+Quantity Digits to Accompany Item Modifier Codes (RPG Mode)
+0000 - Nothing
+0001 - Dagger
+0002 - Hunting Knife
+0003 - Kidney Knife
+0004 - Rondel Dagger
+0005 - Antenie Dagger
+0006 - Butter Knife
+0007 - Survival Knife
+0008 - Army Knife
+0009 - Andrew's Dagger
+000A - Assassin Dagger
+000B - Glass Dagger
+000C - Mugger's Knife
+000D - Berserk Knife
+000E - Short Sword
+000F - Bronze Sword
+0010 - Butterfly Edge
+0011 - Mythril Sword
+0012 - Iron Sword
+0013 - Saber
+0014 - Great Sword
+0015 - Glass Sword
+0016 - Enhanced Sword
+0017 - Long Sword
+0018 - Golden Sword
+0019 - Rune Blade
+001A - Blood Sword
+001B - Diamond Sword
+001C - Silver Sword
+001D - Hard Breaker
+001E - Gradius Sword
+001F - Falx
+0020 - Speed Blade
+0021 - Cursed Sword
+0022 - Crystal Sword
+0023 - Platinum Sword
+0024 - Broad Sword
+0025 - Force Eater
+0026 - Hero Blade
+0027 - Man Eater
+0028 - Replica Sword
+0029 - Orithalcon
+002A - Facts of Life
+002B - Buster Sword
+002C - Two-Handed Sword
+002D - Zweihander
+002E - Claymore
+002F - Excalibur
+0030 - Murasame
+0031 - Kotetsu
+0032 - Muramasa
+0033 - Yoshiyuki
+0034 - Sasuke's Katana
+0035 - Ragnarok
+0036 - Berserk Sword
+0037 - Ultima Weapon
+0038 - Masamune
+0039 - Kikvichimonji
+003A - Heaven's Cloud
+003B - Wanna-B Samurai
+003C - Mythril Rod
+003D - Small Rod
+003E - Iron Rod
+003F - Golden Rod
+0040 - Guard Stick
+0041 - Heal Rod
+0042 - Prism Staff
+0043 - Glass Rod
+0044 - Wizar Staff
+0045 - Platinum Rod
+0046 - Wizard Staff
+0047 - Bronze Rod
+0048 - Full Metal Staff
+0049 - Striking Staff
+004A - Aurora Rod
+004B - Sage's Rod
+004C - Silver Rod
+004D - Diamond Rod
+004E - Crystal Rod
+004F - Shallow Tail
+0050 - Princess Guard
+0051 - Fairy Tail
+0052 - Battle Axe
+0053 - Hand Axe
+0054 - Golden Axe
+0055 - Broad Axe
+0056 - Mast Axe
+0057 - Francisca
+0058 - Chopping Axe
+0059 - Lost Axe
+005A - Great Axe
+005B - Bronze Axe
+005C - Mythril Axe
+005D - Platinum Axe
+005E - Horseman's Axe
+005F - Crescent Axe
+0060 - Glass Axe
+0061 - Giant Acxe
+0062 - Ogre Killer
+0063 - Iron Axe
+0064 - Silver Axe
+0065 - Diamond Axe
+0066 - Crystal Axe
+0067 - Power Axe
+0068 - Hunger Axe
+0069 - Beast Axe
+006A - Pick Axe
+006B - Construction Tool
+006C - Sword Mattock
+006D - Spear
+006E - Long Spear
+006F - Golden Spear
+0070 - Diamond Spear
+0071 - Lance
+0072 - Javelin
+0073 - Dragoon Lance
+0074 - Quarter Staff
+0075 - Pitchfork
+0076 - Partisan
+0077 - Bronze Spear
+0078 - Mythril Spear
+0079 - Platinum Spear
+007A - Crystal Spear
+007B - Glaive
+007C - Slash Lance
+007D - Glass Spear
+007E - Spirit Lance
+007F - Iron Spear
+0080 - Silver Spear
+0081 - Halberd
+0082 - Trident
+0083 - Holy Lance
+0084 - Cursed Lance
+0085 - Vebus Gospel
+0086 - Kaiser Knuckle
+0087 - Leather Knuckle
+0088 - Metal Knuckle
+0089 - Golden Knuckle
+008A - Motor Drive
+008B - Dragon Claw
+008C - Professor
+008D - Gloves
+008E - Godhand
+008F - Bronze Knuckle
+0090 - Mythril Knuckle
+0091 - Diamond Knuckle
+0092 - Grand Glove
+0093 - Master Fist
+0094 - Iron Fist
+0095 - Premium Heart
+0096 - Iron Knuckle
+0097 - Silver Knuckle
+0098 - Platinum Knuckle
+0099 - Crystal Knuckle
+009A - Powersoul
+009B - Tiger Fang
+009C - Prince Doza
+009D - Glass Fist
+009E - Cursed Gloves
+009F - Hardpuncher
+00A0 - Leather Armor
+00A1 - Golden Armor
+00A2 - Hard Leather
+00A3 - Ring Nail
+00A4 - Sage's Armor
+00A5 - Bronze Armor
+00A6 - Scale Armor
+00A7 - Diamond Armor
+00A8 - Full Plate
+00A9 - Adematite Armor
+00AA - Hungry Armor
+00AB - Full Belly Armor
+00AC - Iron Armor
+00AD - Platinum Armor
+00AE - Brigandine
+00AF - Chain Armor
+00B0 - Tournament Armor
+00B1 - Dragon Rider Armor
+00B2 - Mythril Armor
+00B3 - Crystal Armor
+00B4 - Silver Armor
+00B5 - Heavy Armor
+00B6 - Blade Armor
+00B7 - Blessed Armor
+00B8 - Glass Armor
+00B9 - Hero Armor
+00BA - Sasuke's Armor
+00BB - Leather Helm
+00BC - Armet
+00BD - Circlet
+00BE - Cross Helm
+00BF - Sage's Helm
+00C0 - Bronze Helm
+00C1 - Platinum Helm
+00C2 - Helmet
+00C3 - Speed Helm
+00C4 - Hungry Helm
+00C5 - Iron Helm
+00C6 - Silver Helm
+00C7 - Diamond Helm
+00C8 - Viking Helm
+00C9 - Full Belly Helm
+00CA - Mythril Helm
+00CB - Golden Helm
+00CC - Kettle Hat
+00CD - Magic Helm
+00CE - Crystal Helm
+00CF - Hero Helm
+00D0 - Glass Helm
+00D1 - Sasuke's Helm
+00D2 - Leather Shield
+00D3 - Buckler
+00D4 - Round Shield
+00D5 - Kite Shield
+00D6 - Glass Shield
+00D7 - Small Shield
+00D8 - Silver Shield
+00D9 - Cross Shield
+00DA - Toy Shield
+00DB - Sage's Shield
+00DC - Bronze Shield
+00DD - Golden Shield
+00DE - Hungry Shield
+00DF - Full Belly Shield
+00E0 - Iron Shield
+00E1 - Platinum Shield
+00E2 - Heater Shield
+00E3 - Ageis Shield
+00E4 - Mythril Shield
+00E5 - Crystal Shield
+00E6 - Square Shield
+00E7 - Imperial Shield
+00E8 - Tower Shield
+00E9 - Dragon Shield
+00EA - Hero Shield
+00EB - Diamond Shield
+00EC - Magic Shield
+00ED - Bone
+00EE - Meat
+00EF - Dog Food
+00F0 - Fish
+00F1 - Tiger Meat
+00F2 - Dodo Meat
+00F3 - Moa Meat
+00F4 - Chewy Meat
+00F5 - Alligator Meat
+00F6 - Bear Meat
+00F7 - Dragon Meat
+00F8 - Lizard Tail
+00F9 - Lizard Tail
+00FA - Penguin Meat
+00FB - Left Bear Paw
+00FC - Right Bear Paw
+00FD - Dungeon Grass
+00FE - Onion
+00FF - Pumpkin
+0100 - Garlic
+0101 - Spinach
+0102 - Truffle
+0103 - Shiitake Mushroom
+0104 - Matsutake Mushroom
+0105 - Mushroom
+0106 - Strawberry
+0107 - Blue Jelly
+0108 - Green Jelly
+0109 - Pink Jelly
+010A - Slime Jelly
+010B - Ice Cream
+010C - White Wine
+010D - Red Wine
+010E - Sake
+010F - Beer
+0110 - Salt
+0111 - Fish Eyeball
+0112 - Coffee
+0113 - Clams
+0114 - Red Mushroom
+0115 - Yellow Mushroom
+0116 - Purple Mushroom
+0117 - Green Mushroom
+0118 - Blue Mushroom
+0119 - Banana
+011A - Watermelon
+011B - Tomato Juice
+011C - Octopus
+011D - Potion
+011E - Hi-Potion
+011F - X-Potion
+0120 - Potion
+0121 - Recipe Book
+0122 - Pheonix Down
+0123 - Koji's Ark
+0124 - Clair's Ark
+0125 - Dragon Wing
+0126 - Gargoyle Claws
+0127 - Bomb
+0128 - Explosion
+0129 - Coins
+012A - Magic Stones
+012B - Fire Materia
+012C - Ice Materia
+012D - Thunder Materia
+012E - Flare Materia
+012F - Freeze Materia
+0130 - Trine Materia
+0131 - Quake Materia
+0132 - Meteor Materia
+0133 - Ultima Materia
+0134 - Holy Materia
+0135 - Dragon Flame Materia (Do NOT use as ultra magic)
+0136 - Giant Dragon Flame Materia (Do NOT use as ultra magic)
+
+Note 1:
+With this code, it allows both players to hit, make contact, with each other no matter where they are on the screen.
+
+Note 2:
+With this code, when the trap closes you can still leave but the music wont change till you change floors.

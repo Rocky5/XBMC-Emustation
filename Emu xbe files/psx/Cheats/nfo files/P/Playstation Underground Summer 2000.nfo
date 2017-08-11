@@ -1,0 +1,251 @@
+Quantity Digits to Accompany Syphon Filter 2 Weapon Modifier Code
+00 - Nothing
+01 - Handgun
+03 - 45
+04 - M16
+05 - Silenced HK-5
+06 - HK-5
+07 - PK-102
+08 - Shotgun
+09 - UAS-12
+0A - G-18
+0B - Biz-2
+0C - K3G4
+0D - H-11
+0E - Silenced Sniper Rifle
+0F - Sniper Rifle
+10 - Nightvision Rifle
+11 - Crossbow
+12 - Taser
+13 - Hand Taser
+14 - Combat Knife
+15 - M-79
+16 - Grenades
+17 - Tear Gas Grenades
+18 - C4 Explosives
+19 - Transponder
+1A - Camera Angle
+1B - Modem
+1C - Tear Gas Launcher
+1F - Flamethrower
+20 - Binocular
+
+Quantity Digits to Accompany Legend Of Dragoon Item Modifier Codes
+00 - Broad Sword
+01 - Bastard Sword
+02 - Heat Blade
+03 - Falchion
+04 - Mind Crush
+05 - Fairy Sword
+06 - Claymore
+07 - Soul Eater
+08 - Axe
+09 - Tomahawk
+0A - Battle Axe
+0B - Great Axe
+0C - Indora's Axe
+0D - Rapier
+0E - Shadow Cutter
+0F - Dancing Dagger
+10 - Flamberge
+11 - Gladius
+12 - Dragon Buster
+13 - Demon Stiletto
+14 - Spear
+15 - Lance
+16 - Glaive
+17 - Spear Of Terror
+18 - Partisan
+19 - Halberd
+1A - Twister Glaive
+1B - Short Bow
+1C - Sparkle Arrow
+1D - Long Bow
+1E - Bemusing Arrow
+1F - Virulent
+20 - Detonate Arrow
+21 - Arrow Of Force
+22 - Mace
+23 - Morning Star
+24 - War Hammer
+25 - Heavy Mace
+26 - Basher
+27 - Pretty Hammer
+28 - Iron Knuckle
+29 - Beast Fang
+2A - Diamond Claw
+2B - Thunder Fist
+2C - Destroyer Mace
+2D - Brass Knuckle
+2E - Razor Armor
+2F - Scale Armor
+30 - Chain Mail
+31 - Plate Mail
+32 - Saint Armor
+33 - Red DG Armor
+34 - Jade DG Armor
+35 - Lion Fur
+36 - Breast Plate
+37 - Giganto Armor
+38 - Gold DG Armor
+39 - Disciple Vest
+3A - Warrior Dress
+3B - Masters Vest
+3C - Energy Girdle
+3D - Violet DG Armor
+3E - Cross
+3F - Leather Jacket
+40 - Silver Vest
+41 - Sparkle Dress
+42 - Robe
+43 - Silver DG Armor
+44 - Dark DG Armor
+45 - Blue DG Armor
+46 - Armor Of Yore
+47 - Satori Vest
+48 - Rainbow Dress
+49 - Angel Robe
+4A - Armor Of Legend
+4B - Nothing
+4C - Bandana
+4D - Sallet
+4E - Armet
+4F - Knight Helm
+50 - Giganto Helm
+51 - Soul Headband
+52 - Felt Hat
+53 - Cape
+54 - Tiara
+55 - Jeweled Crown
+56 - Rose' Hair Band
+57 - Nothing
+58 - Phoenix Plume
+59 - Legend Casque
+5A - Dragon Helm
+5B - Magical Hat
+5C - Nothing
+5D - Leather Boots
+5E - Iron Kneepiece
+5F - Combat Shoes
+60 - Leather Shoes
+61 - Soft Boots
+62 - Stardust Boots
+63 - Magical Leaf
+64 - Dancers Shoes
+65 - Bandits Shoes
+66 - Nothing
+67 - Poison Guard
+68 - Active Ring
+69 - Protector
+6A - Panic Guard
+6B - Stun Guard
+6C - Bravery Amulet
+6D - Magic Ego Bell
+6E - Destone Amulet
+6F - Power Wrist
+70 - Knight Shield
+71 - Magical Ring
+72 - Spiritual Ring
+73 - Attack Badge
+74 - Guard Badge
+75 - Giganto Ring
+76 - Elude Cloak
+77 - Spirit Cloak
+78 - Sage's Cloak
+79 - Physical Ring
+7A - Amulet
+7B - Wargod's Stash
+7C - Spirit Ring
+7D - Therapy Ring
+7E - Magical Ring
+7F - Wargod's Amulet
+80 - Talisman
+81 - Nothing
+82 - Holy Ankh
+83 - Dancer's Ring
+84 - Nothing
+85 - Bandits Ring
+86 - Red Eye Stone
+87 - Jade Stone
+88 - Silver Stone
+89 - Darkness Stone
+8A - Blue Sea Stone
+8B - Violet Stone
+8C - Golden Stone
+8D - Nothing
+8E - Ruby Ring
+8F - Sapphire Pin
+90 - Rainbow Earring
+91 - Nothing
+92 - Emerald Earring
+93 - Nothing
+94 - Platinum Collar
+95 - Phantom Shield
+96 - Dragon Shield
+97 - Angel Scarf
+98 - Bracelet
+99 - Fake Power Wrist
+9A - Fake Shield
+9B - Nothing
+9C - Wargod Calling
+9D - Ultimate Wargod
+9E-C0 - Nothing
+C1 - Detonate Rock
+C2 - Spark Net
+C3 - Burn Out
+C4 - Nothing
+C5 - Pellet
+C6 - Spear Frost
+C7 - Spinning Gale
+C8 - Attack Ball
+C9 - Trans Light
+CA - Dark Mist
+CB - Healing Potion
+CC - Depetrifier
+CD - Mind Purifier
+CE - Body Purifier
+CF - Thunderbolt
+D0 - Meteor Fall
+D1 - Gushing Magma
+D2 - Dancing Ray
+D3 - Spirit Potion
+D4 - Panic Bell
+D5 - Nothing
+D6 - Fatal Blizzard
+D7 - Stunning Hammer
+D8 - Black Rain
+D9 - Poison Needle
+DA - Midnight Terror
+DB - Nothing
+DC - Rave Twister
+DD - Total Vanishing
+DE - Angels Prayer
+DF - Charm Potion
+E0 - Pandemonium
+E1 - Recovery Ball
+E2 - Nothing
+E3 - Magic Shield
+E4 - Material Shield
+E5 - Sun Rhapsody
+E6 - Smoke Ball
+E7 - Healing Fog
+E8 - Magic Sig Stone
+E9 - Healing Rain
+EA - Moon Serenade
+EB - Power Up
+EC - Power Down
+ED - Speed Up
+EE - Speed Down
+EF - Nothing
+F0 - Sachet
+F1 - Psyche Bomb
+F2 - Burning Wave
+F3 - Frozen Jet
+F4 - Down Burst
+F5 - Gravity Rubber
+F6 - Spectral Flash
+F7 - Night Raid
+F8 - Flash Hall
+F9 - Healing Breeze
+FA - Psyche BombX
+FB-FF - Nothing

@@ -1,0 +1,235 @@
+Quantity Digits to Accompany Item Slot Modifier Codes
+00 - Nothing
+ITEMS
+04 - Angel's Tear
+05 - Peach Potion
+06 - Apple
+07 - Rose
+08 - Lily
+09 - Angel's Tear
+0A - Sick Weed
+0B - Mind Berry
+0C - Rotten Weed
+0D - Freedom Root
+0E - Toadstool
+0F - Bubble Gum
+10 - Terror Seed
+11 - Go Go Bean
+12 - Snoozeweed
+SWORDS
+13 - Short Sword
+14 - Long Sword
+15 - Copper Sword
+16 - Iron Sword
+17 - Steel Sword
+18 - Pirates Sword
+19 - Sage Sword
+1A - Viking Sword
+1B - Mystical Sword
+1C - Smash Sword
+1D - Raid Sword
+1E - Elven Sword
+1F - Dragon Sword
+20 - Scorpion Sword
+21 - Dwarf Sword
+22 - Zeus' Sword
+23 - White Sword
+24 - Broad Sword
+25 - Thunder Sword
+26 - Fire Sword
+27 - Jousting Sword
+28 - Cobra Sword
+29 - Sword of Ra
+2A - Kuldian Sword
+2B - Eagle Sword
+2C - Crusader Sword
+2D - Hawk Sword
+2E - Crusher Sword
+2F - Cleaver Sword
+30 - Black Sword
+31 - Celtic Sword
+32 - Demon Sword
+33 - Royal Sword
+34 - Holy Sword
+35 - Artesian Sword
+36 - Onyx Sword
+37 - Platinum Sword
+38 - Bronze Sword
+39 - Buccaneer Sword
+3A - Sword of Might
+3B - Crystal Sword
+3C - Attack Sword
+3D - Miracle Sword
+3E - Great Sword
+3F - Twisted Sword
+40 - Aztec Sword
+41 - Dark Sword
+42 - Relic Sword
+43 - Flame Sword
+44 - Water Sword
+45 - Gaian Sword
+46 - Avian Sword
+47 - Sword of Chaos
+48 - Sword of Order
+ARMOR
+49 - Leather Armor
+4A - Padded Armor
+4B - Studded Armor
+4C - Iron Armor
+4D - Laminated Armor
+4E - Brigand Armor
+4F - Studded Armor
+50 - Viking Armor
+51 - Eelskin Armor
+52 - Rock Plate
+53 - Neptune's Armor
+54 - Elven Armor
+55 - Dragon Armor
+56 - Scorpion Plate
+57 - Dwarven Mail
+58 - Roman Armor
+59 - White Armor
+5A - Bone Plate
+5B - Thunder Plate
+5C - Fire Armor
+5D - Jousting Armor
+5E - Cobra Armor
+5F - Armor of Ra
+60 - Kuldian Armor
+61 - Eagle Plate
+62 - Crusader Armor
+63 - Hawk Armor
+64 - Chain Mail
+65 - Bar Mail
+66 - Black Plate
+67 - Celtic Plate
+68 - Leopard Armor
+69 - Royal Armor
+6A - Holy Armor
+6B - Artesian Armor
+6C - Onyx Armor
+6D - Platinum Plate
+6E - Bronze Mail
+6F - Buccaneer Mail
+70 - Kuldian Armor
+71 - Crystal Armor
+72 - Splint Mail
+73 - Miracle Armor
+74 - Full Plate
+75 - Quilted Armor
+76 - Obro Armor
+77 - Dark Plate
+78 - Relic Armor
+HELMETS
+79 - Wooden Helmet
+7A - Iron Helmet
+7B - Viking Helmet
+7C - Platinum Helmet
+7D - Zeppetto Helmet
+7E - Holy Helmet
+SHIELDS
+7F - Wood Shield
+80 - Wicker Shield
+81 - Cooper Shield
+82 - Iron Shield
+83 - Full Shield
+84 - Pirate Shield
+85 - Studded Shield
+86 - Viking Shield
+87 - Eelskin Shield
+88 - Marble Shield
+89 - Oyster Shield
+8A - Elven Shield
+8B - Dragon Shield
+8C - Scorpion Shield
+8D - Dwarven Shield
+8E - Zeus' Shield
+8F - White Shield
+90 - Bone Shield
+91 - Thunder Shield
+92 - Fire Shield
+93 - Jousting Shield
+94 - Cobra Shield
+95 - Shield of Ra
+96 - Kuldian Shield
+97 - Eagle Shield
+98 - Crusader Shield
+99 - Hawk Shield
+9A - Granite Shield
+9B - Marble Shield
+9C - Black Shield
+9D - Celtic Shield
+9E - Leopard Shield
+9F - Royal Shield
+A0 - Holy Shield
+A1 - Artesian Shield
+A2 - Onyx Shield
+A3 - Platinum Shield
+A4 - Bronze Shield
+A5 - Tower Shield
+A6 - Bone Shield
+A7 - Crystal Shield
+A8 - Devil's Shield
+A9 - Miracle Shield
+AA - Steel Shield
+AB - Twisted Shield
+AC - Obro Shield
+AD - Dark Shield
+RINGS
+AE - Ring of Calm
+AF - Freedom Ring
+B0 - Brave Ring
+B1 - Wake Ring
+B2 - Cobra Ring
+B3 - Heat Ring
+B4 - Water Ring
+B5 - Fire Ring
+B6 - Wind Ring
+B7 - Earth Ring
+
+Quantity Digits to Accompany Junk Slot Modifier Codes
+B8 - Chester Flute
+B9 - Warp Gate Key
+BA - AFM324
+BB - Headless Doll
+BC - Bug
+BD - Strange Bug
+BE - Long-legged Bug
+BF - Sad Letter
+C0 - Happy Letter
+C1 - Lid
+C2 - Sea Shell
+C3 - Spring
+C4 - Record
+C5 - Wooden Cross
+C6 - Letter
+C7 - Wind-up Toy
+C8 - Weird Toy
+C9 - Rusted Toy
+CA - Dusty Toy
+CB - Solomon's Ring
+CC - Stone
+CD - Heavy Stone
+CE - Stone Slate
+CF - Mysterious Toy
+D0 - Cute Toy
+D1 - Cool Toy
+D2 - Tickets
+D3 - Wallet
+D4 - Courage
+D5 - Smile
+D6 - Garbage
+
+Quantity Digits to Accompany Brightness Modifier Code
+00 - Normal
+01 - 1F Darker
+20 - 50 Lighter
+
+Note 1:
+With this code, activate it, save the game, then turn off code and reload the game.
+
+Note 2:
+With this code, activate it, save the game, then turn off code and reload the game.
+
+Note 3:
+With this code, you must turn shark off when loading memory card.

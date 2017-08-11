@@ -1,0 +1,56 @@
+Quantity Digits to Accompany Item Equipped Modifier Codes
+00 - No
+01 - Yes
+
+Quantity Digits to Accompany Item Type Modifier Codes
+00 - Nothing
+01 - Weapon
+02 - Armor
+03 - Accessory
+04 - Tool
+
+Quantity Digits to Accompany Action In Battle Modifier Codes
+00 - Nothing
+01 - Bare Hands
+02 - Bunt Weapons
+03 - Daggers
+04 - Short Swords
+05 - Long Swords
+06 - Tridents
+07 - Spears
+08 - Gemstones/Crosses
+09 - Rifles/Shotguns
+0A - Pistols
+
+Quantity Digits to Accompany Item/Picture Modifier Codes
+!QuantityDigits
+Tools
+44 - STR Idol
+45 - VIT Idol
+46 - AGL Idol
+47 - DEX Idol
+48 - PIE Idol
+49 - MND Idol
+4A - INT Idol
+4B - LUC Idol
+Weapons
+4F - SA Pistol
+50 - DA Pistol
+51 - Automatic Pistol
+52 - Rifle RD
+53 - Shotgun RD
+54 - Rifle
+55 - Shotgun 2
+56 - Shotgun 6
+57 - Cat's Eye
+58 - Daniel's Cross
+59 - Girdle Sword
+5A - Galahad Sword
+5B - Lifedrinker
+5C - Sacnoth
+5D - Evil Horn
+Accessories
+5E - Flare Brooch
+
+Note 1:
+With this code, in the Level Up screen: Press Select+L1 to give you Infinite Bonus Points. When you want to exit, press Select+L2, this will disable the code, and then Press X and it will bring up the "OK/Cancel" option.

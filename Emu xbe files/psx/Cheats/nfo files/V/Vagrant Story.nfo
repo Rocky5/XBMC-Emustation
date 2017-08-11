@@ -1,0 +1,510 @@
+Misc. Codes notes
+
+Note 1:
+With this code, when you save at places other than a save point, the saved file will say "Corrupted file". The file is NOT corrupt, and will load/save properly.
+
+Note 2:
+With this code, you need to Press L1+L2+R1+R2 to open it.
+Note 3:
+With this code, damage inflicted by you and your enemies is affected so use the Infinite HP code as well.
+
+Note 4:
+With this code, hold R2+Square to Moon Jump. Then press a directional button to Lunar Descend. (Lunar Descent is when you float down to ground level.)
+
+Armor Digits
+
+Quantity Digits to Accompany Armor Modifier Codes
+8F - Bandana
+90 - Bear Mask
+91 - Wizard Hat
+92 - Bone Helm
+93 - Chain Coif
+94 - Spangenhelm
+95 - Cabasset
+96 - Sallet
+97 - Barbut
+98 - Basinet
+99 - Armet
+9A - Close Helm
+9B - Burgonet
+9C - Hoplite Helm
+9D - Jazeraint Helm
+9E - Dread Helm
+9F - Jerkin
+A0 - Hauberk
+A1 - Wizard Robe
+A2 - Cuirass
+A3 - Banded Mail
+A4 - Ring Mail
+A5 - Chain Mail
+A6 - Breastplate
+A7 - Segementata
+A8 - Scale Armor
+A9 - Brigandine
+AA - Plate Mail
+AB - Fluted Armor
+AC - Hoplite Armor
+AD - Jazeraint Armor
+AE - Dread Armor
+AF - Sandals
+B0 - Boots
+B1 - Long Boots
+B2 - Cuisse
+B3 - Light Grieve
+B4 - Ring Leggings
+B5 - Chain Leggings
+B6 - Fusskampf
+B7 - Poleyn
+B8 - Jambeau
+B9 - Missgalia
+BA - Plate Leggings
+BB - Fluted Leggings
+BC - Hoplite Leggings
+BD - Jazeraint Leggings
+BE - Dread Leggings
+BF - Bandage
+C0 - Leather Glove
+C1 - Reinforced Glove
+C2 - Knuckles
+C3 - Ring Sleeve
+C4 - Chain Sleeve
+C5 - Gauntlet
+C6 - Vambrace
+C7 - Plate Glove
+C8 - Rondanche
+C9 - Tilt Glove
+CA - Freiturnier
+CB - Fluted Glove
+CC - Hoplite Glove
+CD - Jazeraint Glove
+CE - Dread Glove
+CF - Rood Necklace
+E0 - Rune Earrings
+E1 - Lionhead
+E2 - Rusted Nails
+E3 - Sylphid Ring
+E4 - Marduk
+E5 - Salamander Ring
+E6 - Tamulis Tongue
+E7 - Gnome Bracelet
+E8 - Palolos Ring
+E9 - Undine Bracelet
+EA - Talian Ring
+EB - Agriass Balm
+EC - Kadesh Ring
+ED - Agrippas Choker
+EE - Diadras Earring
+EF - Titans Ring
+F0 - Lau Feis Armlet
+F1 - Swan Song
+F2 - Pushpaka
+F3 - Edgars Ring
+F4 - Cross Choker
+F5 - Ghost Hound
+F6 - Beaded Amulet
+F7 - Dragonhead
+F8 - Faufnir's Tear
+F9 - Agaless Chain
+FA - Balams Ring
+FB - Nimje Coif
+FC - Morgans Nails
+FD - Marlenes Ring
+
+Armor Type Digits
+
+Quantity Digits to Accompany Shield Type Modifier Codes
+02 - Helmet
+03 - Armor
+04 - Legging
+05 - Glove
+07 - Necklace
+
+Blade Digits
+
+Quantity Digits to Accompany Blade Modifier Codes
+00 - Nothing
+01 - Battle Knife
+02 - Scramasax
+03 - Dirk
+04 - Throwing Knife
+05 - Kudi
+06 - Cinquedea
+07 - Kris
+08 - Hatchet
+09 - Khukuri
+0A - Baselard
+0B - Stiletto
+0C - Jamadhar
+0D - Spatha
+0E - Scimitar
+0F - Rapier
+10 - Short Sword
+11 - Firangi
+12 - Shamshir
+13 - Falchion
+14 - Shotel
+15 - Khora
+16 - Khophish
+17 - Wakizashi
+18 - Rhomphaia
+19 - Broad Sword
+1A - Norse Sword
+1B - Katana
+1C - Executioner
+1D - Claymore
+1E - Schiavona
+1F - Bastard Sword
+20 - Nodachi
+21 - Rune Blade
+22 - Holy Wind
+23 - Hand Axe
+24 - Battle Axe
+25 - Francisca
+26 - Tabarzin
+27 - Chamkaq
+28 - Tabar
+29 - Bullova
+2A - Crescent
+2B - Goblin Club
+2C - Spiked Club
+2D - Ball Mace
+2E - Footmans Mace
+2F - Morning Star
+30 - War Hammer
+31 - Bec de Corbin
+32 - War Maul
+33 - Guisarme
+34 - Large Crescent
+35 - Sabre Halberd
+36 - Balbriggin
+37 - Double Blade
+38 - Halberd
+39 - Wizard Staff
+3A - Clergy Rod
+3B - Summoner Baton
+3C - Shamanic Staff
+3D - Bishops Crosier
+3E - Sages Cane
+3F - Langdebeve
+40 - Sabre Mace
+41 - Footmans Mace
+42 - Gloomwing
+43 - Mjolnir
+44 - Griever
+45 - Destroyer
+46 - Hand Of Light
+47 - Spear
+48 - Glaive
+49 - Scorpion
+4A - Corcesca
+4B - Trident
+4C - Awl Pike
+4D - Boar Spear
+4E - Fauchard
+4F - Voulge
+50 - Pole Axe
+51 - Bardysh
+52 - Brandestoc
+53 - Gastraph Bow
+54 - Light Crossbow
+55 - Target Bow
+56 - Windlass
+57 - Cranquein
+58 - Lug Crossbow
+59 - Siege Bow
+5A - Arbalest
+
+Blade Type Digits
+
+Quantity Digits to Accompany Blade Type Modifier Codes
+00 - Nothing
+01 - Dagger
+02 - Sword
+03 - Great Sword
+04 - Axe & Mace
+05 - Great Axe
+06 - Staff
+07 - Heavy Mace
+08 - Polearm
+09 - Crossbow
+0A - Bare Hands
+
+Blade Type 2 Digits
+
+Quantity Digits to Accompany Blade Type 2 Modifier Codes
+00 - Bare Hands
+01 - Blunt
+02 - Edged
+03 - Piercing
+
+Gems Digits
+
+Quantity Digits to Accompany Blade Modifier Codes
+05 - Talos Feldspear
+06 - Titan Malachite
+07 - Sylphid Topaz
+08 - Djinn Amber
+09 - Salamander Ruby
+0A - Ifrit Carnelian
+0B - Gnome Emerald
+0C - Dao Moonstone
+0D - Undine Jasper
+0E - Marid Aquamarine
+0F - Angel Pearl
+10 - Seraphim Diamond
+11 - Morlock Jet
+12 - Berial Black Pearl
+13 - Haeralis
+14 - Orlandu
+15 - Orion
+16 - Ogmius
+17 - Iocus
+18 - Balvus
+19 - Trinity
+1A - Beowulf
+1B - Dragonite
+1C - Sigguld
+1D - Demonia
+1E - Altema
+1F - Polaris
+20 - Basivalin
+21 - Galerian
+22 - Vedivier
+23 - Berion
+24 - Gervin
+25 - Tertia
+26 - Lancer
+27 - Arturos
+28 - Braveheart
+29 - Hellraiser
+2A - Nightkiller
+2B - Manabreaker
+2C - Powerfist
+2D - Brainshield
+2E - Speedster
+30 - Silent Queen
+31 - Dark Queen
+32 - Death Queen
+33 - White Queen
+
+Grip Digits
+
+Quantity Digits to Accompany Grip Modifier Codes
+60 - Short Hilt
+61 - Swept Hilt
+62 - Cross Guard
+63 - Knuckle Guard
+64 - Counter Guard
+65 - Side Ring
+66 - Power Palm
+67 - Murderers Hilt
+68 - Spirial Hilt
+69 - Wooden Grip
+6A - Sand Face
+6B - Czekan Type
+6C - Sarissa Grip
+6D - Gendarme
+6E - Heavy Grip
+6F - Runkasyle
+70 - Bhuj Type
+71 - Grimoire Grip
+72 - Elephant
+73 - Wooden Pole
+74 - Spiculum Pole
+75 - Winged Pole
+76 - Framea Pole
+77 - Ahlspies
+78 - Spiral Pole
+79 - Simple Bolt
+7A - Steel Bolt
+7B - Javelin Bolt
+7C - Falarica Bolt
+7D - Stone Bullet
+7E - Sonic Bullet
+
+Grip Type 2 Digits
+
+Quantity Digits to Accompany Grip Type 2 Modifier Codes
+01 - Grip For Daggers/Swords/Great Swords
+02 - Grip For Axes/Maces/Staves
+03 - Grip For Polearms
+04 - Grip For Crossbows
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+Normal Items
+43 - Cure Root
+44 - Cure Bulb
+45 - Cure Tonic
+46 - Cure Potion
+47 - Mana Root
+48 - Mana Bulb
+49 - Mana Tonic
+4A - Mana Potion
+4B - Vera Root
+4C - Vera Bulb
+4D - Vera Tonic
+4E - Vera Potion
+4F - Acolytes Nostrum
+50 - Saints Nostrum
+51 - Alchemists Reagent
+52 - Sorcerers Reagent
+53 - Yggdrasils Tears
+54 - Faerie Chortle
+55 - Spirit Orison
+56 - Angelic Paean
+57 - Panacea
+58 - Snowfly Draught
+59 - Faerie Wing
+5A - Elixir Of Kings
+5B - Elixir Of Sages
+5C - Elixir Of Dragoons
+5D - Elixir Of Queens
+5E - Elixir Of Mages
+5F - Valens
+60 - Prudens
+61 - Volare
+62 - Audentia
+63 - Virtus
+64 - Eye Of Argon
+Grimoire Items
+82 - Grimoire Zephyr
+83 - Grimoire Teslae
+84 - Grimoire Incendie
+85 - Grimoire Terre
+86 - Grimoire Glace
+87 - Grimoire Lux
+88 - Grimoire Pater
+89 - Grimoire Exsorcer
+8A - Grimoire Banish
+8B - Grimoire Demolir
+93 - Grimoire Flamme
+97 - Grimoire Gaea
+9B - Grimoire Avalanche
+9F - Grimoire Radius
+A1 - Grimoire Meteore
+A7 - Grimoire Egout
+A8 - Grimoire Demance
+A9 - Grimoire Guerir
+AA - Grimoire Mollesse
+AB - Grimoire Antidote
+AC - Grimoire Benir
+AD - Grimoire Purifier
+AE - Grimoire Vie
+AF - Grimoire Intensite
+B0 - Grimoire Debile
+B1 - Grimoire Eclairer
+B2 - Grimoire Nuageux
+B3 - Grimoire Agilite
+B4 - Grimoire Tardif
+B5 - Grimoire Ameliorer
+B6 - Grimoire Deterior
+B7 - Grimoire Muet
+B8 - Grimoire Annuler
+B9 - Grimoire Paralysie
+BA - Grimoire Venin
+BB - Grimoire Fleau
+BC - Grimoire Halte
+BD - Grimoire Dissiper
+BE - Grimoire Clef
+BF - Grimoire Visual
+C0 - Grimoire Snalyse
+C1 - Grimoire Sylphe
+C2 - Grimoire Salamander
+C3 - Grimoire Gnome
+C4 - Grimoire Undine
+C5 - Grimoire Parebrise
+C6 - Grimoire Ignifuge
+C7 - Grimoire Rempart
+C8 - Grimoire Barrer
+Key Items (On Max Codes Change 007F to 0001 For The Key Items)
+CA - Bronze Key
+CB - Iron Key
+CC - Silver Key
+CD - Gold Key
+CE - Platinum Key
+CF - Steel Key
+D0 - Crimson Key
+D1 - Chest Key
+D2 - Chamomile Sigil
+D3 - Lily Sigil
+D4 - Tearose Sigil
+D5 - Clematis Sigil
+D6 - Hyacinth Sigil
+D7 - Fern Sigil
+D8 - Aster Sigil
+D9 - Eulelia Sigil
+DA - Melissa Sigil
+DB - Calla Sigil
+DC - Laurel Sigil
+DD - Acacia Sigil
+DE - Palm Sigil
+DF - Kalmia Sigil
+E0 - Colombine Sigil
+E1 - Anemone Sigil
+E2 - Verbena Sigil
+E3 - Schirra Sigil
+E4 - Marigold Sigil
+E5 - Azalea Sigil
+E6 - Tigertail Sigil
+E7 - Stock Sigil
+E8 - Cattleya Sigil
+E9 - Mandrake Sigil
+
+Material Type Digits
+
+Quantity Digits to Accompany Material Type Modifier Codes
+01 - Wood
+02 - Leather
+03 - Bronze
+04 - Iron
+05 - Hagane
+06 - Silver
+07 - Damascus
+
+Shield Digits
+
+Quantity Digits to Accompany Shield Modifier Codes
+7F - Buckler
+80 - Pelta Shield
+81 - Targe
+82 - Quad Shield
+83 - Circle Shield
+84 - Tower Shield
+85 - Spiked Shield
+86 - Round Shield
+87 - Kite Shield
+88 - Casserole Shield
+89 - Heater Shield
+8A - Oval Shield
+8B - Knight Shield
+8C - Hoplite Shield
+8D - Jazeraint Shield
+8E - Dread Shield
+
+Shield Style Digits
+
+Quantity Digits to Accompany Shield Style Modifier Codes
+60 - Buckler
+61 - Pelta Shield
+62 - Targe
+63 - Quad Shield
+64 - Circle Shield
+65 - Tower Shield
+66 - Spiked Shield
+67 - Round Shield
+68 - Kite Shield
+69 - Casserole Shield
+6A - Heater Shield
+6B - Oval Shield
+6C - Knight Shield
+6D - Hoplite Shield
+6E - Jazeraint Shield
+6F - Dread Shield
+
+Weapon Status Digits
+
+Quantity Digits to Accompany Weapon Status Modifier Codes
+00 - Not Equipped
+01 - Equipped

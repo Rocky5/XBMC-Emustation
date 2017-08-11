@@ -1,0 +1,29 @@
+Quantity Digits to Accompany Planet Modifier Code
+00 - Pluto
+01 - Neptune
+02 - Uranus
+03 - Saturn
+04 - Jupiter
+05 - Mars
+06 - Venus
+07 - Earth
+08 - Mercury
+09 - Alien World
+
+Quantity Digits to Accompany Level In Planet Modifier Code
+00 - Level 10
+01 - Level 1
+02 - Level 2
+03 - Level 3
+04 - Level 4
+05 - Level 5
+06 - Level 6
+07 - Level 7
+08 - Level 8
+09 - Level 9
+
+Note 1:
+With these codes, you must use planet and level modifiers together. New planets start on level 1. Use next planet # and 00 to play the 10th level of the world before it. Also putting in 0 for both codes takes you to last level.
+
+Note 2:
+With these codes, you must use planet and level modifiers together. New planets start on level 1. Use next planet # and 00 to play the 10th level of the world before it. Also putting in 0 for both codes takes you to last level.

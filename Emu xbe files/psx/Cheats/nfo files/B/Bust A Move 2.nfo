@@ -1,0 +1,27 @@
+Quantity Digits to Accompany Difficulty Modifier Code
+00 - Easy
+01 - Normal
+02 - Hard
+Quantity Digits to Accompany Match Point Is Set On Modifier Code
+00 - 1 Round
+01 - 2 Rounds
+02 - 3 Rounds
+Quantity Digits to Accompany Music Volume & Sound Effects Modifier Codes
+00 - Off
+01 - 1
+02 - 2
+03 - 3
+04 - 4
+05 - 5
+06 - 6
+Quantity Digits to Accompany Screen Saver Modifier Code
+00 - Off
+01 - 1 Minute
+02 - 2 Minutes
+03 - 3 Minutes
+04 - 4 Minutes
+05 - 5 Minutes
+Quantity Digits to Accompany Controller Type Modifier Codes
+00 - Type A
+01 - Type B
+02 - Type C

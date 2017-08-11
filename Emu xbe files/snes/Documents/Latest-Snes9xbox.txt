@@ -1,0 +1,616 @@
+------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b07
+------------------------------------------------
+
+* All cores updated to madmab edition interface CFv1b28.  See "Interface Changelog.txt"
+
+* Fixed some of the odd looking text in cut scenes for the game Hook.
+
+* Right mouse button was not operable in all cores... Fixed.
+
+* Lightgun secondary fire and Justifier zapper clear got foobared when I modified the controller sequence.  Fixed.  Note:  1.43 core does not display a cursor.. so using the left analog as a lightgun is rather difficult.
+
+* New game configuration option.  "Disable Hi-Res?  Yes/No".  Defaults to yes.  This helps improve speed in games that uses the SNES hi-res mode (Jurassic Ppark and Super Bases Loaded 1 & 3).  However it can make text unreadable in some games.
+
+* Rewind code is now working for the 1.51 and 1.53 cores.  Due to too much slow down.  Rewind is disabled for chip games.
+
+* Implemented several speed hacks from the retroarch core (applies to 1.53 and 1.51).  Some of them provide noticeable speed improvements others I'm not sure (maybe in certain parts of games).  Here is a small list..
+
+- Mosaic Hack ( Romancing Saga 3 only )
+
+- Speed hacks ( 1.53 core only.  Star Fox and variants, Vortex, Super Street Fighter II, FF 6 & 3, Chrono Trigger ). There is one for Super Mario World as well, although I don't remember that game having speed issues.  Star Fox gets a pretty good speed bump that makes it almost full speed.  Try this with the new frameskip option below.
+
+- Subscreen hacks ( Many games.. I'm unsure if this benefits yet.  Secret Of Mana gets a nice little speed boost )
+
+- coldata_update_screen whatever that is ( TMNT Tour Fighters, K.I., Jikkyou Oshaberi Parodius )
+
+- clipping hack ( FF 6 and 3 only )
+
+* Implemented a special kind of frameskip option (1.53 core only) which is different from a traditional frameskip.  It is in the game configuration options as "Frameskip - Skip Every xx Frames".  This causes the emulator to skip 1 frame for every xx frames (Try every 2 frames for Bio-Metal, 1 for Yoshi's Island, 10 for Super Mario RPG).  Allowable range 0 to 10.
+
+* The FPS display on 1.43 and 1.52 were not very useful. So I enabled the default x-port FPS display for these cores.
+
+* New 1.53 APU core.  This one also has a new sound core modified by byu that is supposedly more accurate.  But I could not tell you how.  This accuracy comes with a price, however and slows down the SNES emulation even more.  This should not affect performance on xboxes with faster processsors (trusty) which this build is intended for anyways.
+
+* New 1.53 APU core has a different save state format.. It is still capable of loading older savestates.  However if you create savestates with this core, don't expect them to work with the normal 1.53 core.
+
+------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b06
+------------------------------------------------
+
+* All cores updated to madmab edition interface CFv1b21.  See "Interface Changelog.txt"
+
+* APU Sound core hiccup issue strikes again!  Seems the sound hiccup in core 1.53 was still affecting users running in 480i mode.  But the sound was fine in 720p mode.  Fixed.
+
+------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b05
+------------------------------------------------
+
+* Updated to madmab edition interface CFv1b18. See "Interface Changelog.txt"
+
+* Added 6 new software filters from GensX and 2 from NeoGeo CD emulator (see interface changelog for more details).
+
+* Based on user feedback removed the following software filters 2xSai Scanline, 4xSai Scanline, Super 2xSai Scanline, Super 4xSai Scanline, Eagle 2x Scanline, Eagle 4x Scanline, Super Eagle2x Scanline, Super Eagle4x Scanline.
+
+* Fixed issue where FPS stop displaying after playing your first game.
+
+------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b04
+------------------------------------------------
+
+Updated to madmab edition interface CFv1b17.
+
+------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b03
+------------------------------------------------
+
+Updated to madmab edition interface CFv1b16. 
+
+Special thanks to stf999 for reporting these.
+
+* Fixed issue where hi-res mode was not working in the 1.43 core ( eg: Power Drive, RPM Racing, Smash Tennis )
+
+* Fixed issue where interface was improperly numbering the savestates for Snes9xbox core 1.53 and thus you could save a state but not load it.
+
+* Added new game specific option "Change Xbox Refresh Rate To Match ROM Region?  Yes/No".  Setting this to no on some PAL games will give smoother scrolling ( Lucky Luke, Asterix & Obelix ).  Just keep in mind if this is set to "no" that technically these games are not running at the proper speed.
+
+* Fixed issue where 1.51 core was loading sram but not saving the sram for games that have it.
+
+------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b02
+------------------------------------------------
+
+Updated to madmab edition interface CFv1b14.
+
+------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b01
+------------------------------------------------
+
+Updated to madmab edition interface CFv1b08.
+
+*****************************
+* Changes To Snes9Xbox Core *
+*****************************
+
+* Fixed some issues with the IPS/UPS autoselection code.  Also should work now when then IPS/UPS filename is more than 42 characters.  However the IPS/UPS file still must be in the same ZIP file as the ROM.
+
+* Renamed 1.42 core to the proper version (1.43)... Whoopsie!
+
+
+-------------------------------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6 (The Kitchen Sink Edition!)
+-------------------------------------------------------------------------
+
+*****************************
+* Changes To Snes9Xbox Core *
+*****************************
+
+* New APU Sound core hiccup issues now solved!  Big super duper thanks to Philexile for pointing the way.
+
+* Border at bottom of screen should be gone now
+
+* No more lockups when using software filters (silly regression bug).  That's my story and I'm sticking to it!
+
+* Force Screen Size (Accurate Pixel Ratio) should work on all cores now.
+
+* MP3 Volume issue should hopefully be fixed when loading a game that switches the cores.
+
+* When switching cores you are now properly placed back to where you launched the game from (favorites or game select).
+
+
+*****************************
+* Interface Related Changes *
+*****************************
+
+**** This only needs to be done if you used Snes9xbox V4 or later.  Or if you used any of my beta's (once I rebuild them and make them available). ****
+
+* I foobared the code that stores the text/game screen size/position there are two ways to correct this..
+
+1) Go into Configuration -> Video Configuration -> Game and Text Screen Size/Position and configure your screen the way you want it to be.  Once you do that you will get a popup "Do you want to use these settings globally?".. select "Yes".  This will go thru all the existing saves and set them to match your selected game screen size/positions.
+
+1.2) If you have "Automatically Use Default Game Configuration?" set to yes.  Be sure to go into Configuration -> Set Default Game Configuration and set those as well.
+
+2) (the long way).. Delete the *.keh files for all save game configurations created using the beta.  The easiest way to do this is to copy the emulators "save" directory from the xbox over to a PC.  Use the windows explorer "search" option to search for "*.keh" files, select those files (ctrl-a) and delete them.  Then delete your saves directory off the xbox and copy the files back.  Doing so this way will keep your game configurations intact.  Sorry about that.. :s
+
+Sorry for the inconvenience... :s
+
+
+* Fixed screen blurring when selecting Return to launcher on the home screen and using a skin that uses "sprites as background".
+
+* Code that runs when you select "Yes" to save screen size/positions "globally" is now properly functioning.
+
+* Complete reworking of the auto screen sizing and lock code and I also tweaked the numbers a little.  It should be a little more intuitive now.  Unfortunately it had a bug which needs to be remedied with a few manual steps.
+
+* Fixed issue where emu would crash if no accurate pixel mode settings were defined for the currently selected video mode.
+
+* Checks put into the cheatcode database checker to let you know if the file is to big or has too many game entries and needs to be split up.
+
+* Gilou9999's HD Colour skins should work properly now (no weird hacks).  Be sure to at least copy over the "settings.ini" files in the skin directory and the skin "configurations" directories and "reload the skin".
+
+* Added new skin transition option "none".  Real handy for skins like Gilou9999's that uses the HD sprite trick.
+
+* Windows 7 users should have no more weird issues on samba shares!  Woohoo!
+
+* Fixed issue where emulator menu video mode was reverting to last played games video mode in emu's that support game specific video modes.
+
+-------------------------------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v5 (The Kitchen Sink Edition!)
+-------------------------------------------------------------------------
+
+*****************************
+* Changes To Snes9Xbox Core *
+*****************************
+
+* Force region now working for 1.42 and 1.51 cores.
+
+* Emu now only tries to load a save state if it actually exists.  This should fix the "refreshbytes at 0 or less" error and "snapshot thisgame.tt0 does not exist" msgs as well as lockups from attempting to do so.
+
+* Rewind now working in 1.42.  Whoopsie!  :D
+
+
+*****************************
+* Interface Related Changes *
+*****************************
+
+* Lockup when using the media browser is caused by the colour skin using too much RAM.  Be sure to copy over the new "Colours (True HD) skins". I also put some code in to help alleviate the situation.
+
+* Some software filters that were not working are now working properly.  Just be sure to copy over the new "Colourse (True HD) skin" or else you will get lockups when trying to load a game and use a software filter.
+
+
+
+-------------------------------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v4 (The Kitchen Sink Edition!)
+-------------------------------------------------------------------------
+
+I forgot to include the version of 1.53 with the apu/irq changes that makes some games playable (Sink or swim).  However it also slows down alot of games.  It is named default-apu.xbe.  Rename it to default.xbe if you wish to use it.
+
+
+*****************************
+* Interface Related Changes *
+*****************************
+
+* Fixed a couple lockup issues when attempting to view the synopsis for a game or file that has no synopsis.
+
+
+*****************************
+* Changes To Snes9Xbox Core *
+*****************************
+
+* Enabled rewind for the 1.42 core
+
+
+-------------------------------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v3 (The Kitchen Sink Edition!)
+-------------------------------------------------------------------------
+
+"Lock free.. like it should be!"
+"Always looking to improve rather than being satisfied with what is there"
+
+
+http://xport.xbox-scene.com
+http://www.emuxtras.net
+
+First off...  "You must have at least ONE rom for our emulator to work.  Really... how else are you gonna play you silly wabbit?".  :P
+
+I did this core update as a favor for Mega Man (?).
+
+
+------------------
+Special thanks....
+------------------
+
+X-port for porting a great collection of emu's over to the xbox, releasing the source code, and answering my stupid questions.
+
+Atariage (Albert in particular) - For providing a place for me to ramble on. For encouragement in general.
+
+Wimpy & Perr - For providing me even a better place for me to ramble on.
+
+Surreal CE team - Just because they are cool!
+
+Gilou9999 for a new COLOUR and "blue night" skin, synopsis, suggestions, rumble codes, etc.
+
+Mega Man (?) for rumble codes, lots of behind the scenes work and for AR and GG cheat codes.
+
+Bombloke for scripts to convert AR and GG codes into a format I can use.
+
+Guybird for the "Button List" concept/idea and waal for the "Popup Action List" idea.
+
+Bigby, gilou9999, cbagy, waal, mega man (?), neil222, weinersch, butanebob, dominater1, XtecuterX73, darknoir, yougottabecrazy, brandonheat8, silverjag4, excelsis, nobodyhere, philexile, makkusu, xcalibur, keropi, jamallego, elconejotres, yougottabecrazy, xtra-radical, destronger, Movax  and scorp316 for some beta testing and feedback.
+
+Shoutout to the Wii Snes9x-GX team.
+
+Comments of support from various interested parties.
+
+If I missed anybody shoot me an email and I'll update this file.
+
+
+*****************************
+* Changes To Snes9Xbox Core *
+*****************************
+
+* Core updated to Snes9x 1.51 and 1.53 (Dual cores!).  Selectable in the game configuration screen ala pcsxbox.
+  1.51 with the old sound core for those who want best speed at 720p and on Chip games.  1.53 with the new sound core and other 1.53 goodies for those who dont mind running problem games at 480i/p or who have a trusty box.
+  I've also inclued the v3 1.42 core for good measure.  So you have all possible options available to you!
+
+* Included is a 1.53 compile with the APU/IRQ timing code changes.  Just rename to default.xbe if you wanna use it.  :)  Warning the APU/IRQ timing code can slow things down!  That version is mainly intended for trusty users who don't care.
+
+*** important note *** - Old savestates do not work for 1.53 core.. Sorry guys.. (1.53 only).. They work just fine between 1.42, and 1.51.
+
+* Since savestates between 1.42/1.51 and 1.53 are incompatible the emu will display the version number of the emu the savestate was create with next to the savestate name (1.51) or (1.53).  If you try to load an incompatible state it will tell you.  1.42 is compatible with 1.51 so no worries there.
+
+* Now setup for multicore use (woo hoo!).  Just select which core you wanna use (1.42, 1.51 or 1.53) in the games configuration menu.
+
+* The game configuration menu will change depending on which core you have selected.  Options specific to 1.42/1.51 is "Enable Envelop Height Reading" and for 1.53 you have "Set Auto Max Skip Frames To 1 - Yes/No" and the Snes9x Filter stuff.
+
+* Some games that use hi-res mode ( A.S.P. Air Strike Patrol ) are displaying properly now.  However dont expect me to fix the sound on A.S.P. it's even messed up in earlier versions of Snes9xbox.  :P
+
+* Running NTSC ROM's on a PAL xbox on a PAL tv should work properly now.. :P
+
+* Setting "Set Auto Max Skip Frames To 1" to yes activates Snes9x's Framelimiter which allows the auto max skip frames to work.  Otherwise the framelimiter is off.  This setting is primarily intended for use with Chip games.  (1.53)
+
+* Implemented IPS/UPS patching.  Just make sure the name of the IPS/UPS file matches the name of the ROM and is in the same zip file.
+
+* IPS/UPS file applied to the ROM can now be selected on the game configuration screen or on the in game menu.  Patch is remembered and used on next run (just select nothing to clear it).  Old method of naming the ips file the same as the ROM still works as well.
+  Note:  1.42/1.51 build can only apply IPS patches.  1.53 build can do both.
+
+* New game configuration option (1.42/1.51 only) to turn "Envelope Height Reading" on or off.  X-port already had it set to on in earlier builds so I'm not sure how useful this will be.
+
+* Added "remove scanlines when using NTSC filters" option.
+
+* I included a sample "Buttonlist.dat" file.  It has Action Lists for a handful of games.  Like 2020 Super Baseball, 3 Ninja's Kick Back, Aaahh!! Real Monsters, ABC Monday Night Football, Acrobat Mission, Act Raiser I & II, Addam's Family, Addam's Family PSH, Adventures of Batman & Robin, Adventures of Rocky and Bullwinkle, Adventures of Tin Tin, Adventures Of Yogi Bear, Aero Fighters, Aero The Acro Bat I & II, Aerobiz, Uncharted WAters, Uniracers, Urban Strike, Wheel Of Fortune :D , Wings 2, Wolfchild, Wolfenstein 3D, WWF Raw, WWF Super Wrestlemania, X-men MA, Yoshi's Cookie, Young Merlin, and Zombies Ate My Neighbors.
+
+* Added a "per game" autoload save state option. Options are "No, 1-10, Most Recent".
+
+* (1.53) only.  Added back in APU time overflow fixes for the following games.  Porky Pig's Haunted Holiday, Big Sky Trooper, Mechwarrior 3050 / Battle Tech 3050, and Doom Troopers.  Seems I somehow misplaced them while working on the betas!  :P
+
+* BSX games now work properly.  Seems the Snes9x programmers decided to see it fit that the BSX bios is included.  So I included the BIOS as well as the BSX sram file needed to play games.  If you dont like the name I picked (hey I dont do katanese) you'll have to load the BSX cartridge yourself, pick your name and gender, and then copy the .save file over to the "BSX" directory and name it "bs-x.srm".
+
+* BSX also works for 1.51 core.  Seems it didnt work properly with the official 1.51 source so I patched in the fixes.  Say thank you Madmab!  :)  I don't think BSX ever worked for 1.42.
+
+* Activated movie playback ( http://tasvideos.org/Movies-SNES.html ).  However keep in mind movies recorded in Snes9x 1.51 or 1.42 will not work on 1.53.  So try the movie on both versions and if it does not play back right then try it on the PC versions (1.51 & 1.53).  If it works properly on the PC THEN and only THEN bother me about it.. :P
+
+* Game selectable video mode so you can use the interface (game select) at 720p or 1080i and have games that run slow at 720p run in 480i or 480p.  IGM video mode will match the one the game is set for except for the media browser which will change to match the video mode used outside of the game.
+
+* Fixed issue where game screen gets all blurry when user uses light gun calibration screen... thanks to PhilExile for reporting this long standing bug.
+
+* Robocop 3 (now working) (1.53 only?)
+
+* Mouse support added.  Some mouse games are Acme Animation Factory, Alice Paint Adventure, Arkanoid: Doh It Again, Bishoujo Senshi Sailor Moon S Kondowa Puzzle de Oshioikiyo! (Japan only), Brandish 2: Expert (Japan only), BreakThru!, Civilization, Cameltry (On The Ball in North America and the UK), Cannon Fodder, Dai3ji Super Robot Taisen (Japan only), Dai4ji Super Robot Taisen (Japan only), Doom D?ky?sei 2 (Japan only), Dragon Knight 4 (Japan only), Eye of the Beholder, Farland Story 2 (Japan only), Fun and Games, Galaxy Robo (Japan only), Hiouden: Mamono-tachi tono Chikai (Japan only), Jurassic Park, King Arthur's World, Koutetsu No Kishi (Japan only), Koutetsu No Kishi 2 (Japan only), Koutetsu No Kishi 3 (Japan only), Lamborghini American Challenge, Lemmings 2: The Tribes, Lord Monarch (Japan only), The Lord of the Rings, Mario and Wario (Japan only), Mario Paint, Mario's Super Picross (Japan only), Mario's Early Years: Pre-School, Mega Lo Mania, Might and Magic III, Motoko-chan no Wonder Kitchen (Japan only), Nobunaga's Ambition, On the ball, Operation Thunderbolt, Pieces, Populous II, Power Monger, Revolution X, San Goku Shi Seishi: Tenbu Spirits (Japan only), Shien's Revenge, SimAnt, Snoopy Concert, Super Caesars Palace, Super Game Boy, Super Castles (Japan only), Super Noah's Ark 3D, Super Pachi-slot Mahjong, Super Robot Wars 3, Super Solitaire, Terminator 2: The Arcade Game, Tin Star, Tokimeki Memorial (Japan only), Troddlers, Utopia, Vegas Stakes, Wolfenstein 3D, Wonder Project J, Zan 2: Spirits (Japan only), Zan 3: Spirits (Japan only).
+
+* Lightgun support has been added. You can control light gun games either with the left analog stick, ze mouse, or a real lightgun.  I would suggest turning off the internal x-port crosshair.  Most games have an onscreen cursor anyways.  If you are using mouse/controller press right mouse to reload, whatever button is assigned to SNES "B" to reload on the controller.  Only odd thing is with the ONE justifier game you have to point the lightgun to the top left corner of the screen to reload. Press START on your lightgun to start the game. 
+
+* Added a buttload of filters (1.53 only) including.. hq2x, hq2xS, hq2xBold, EPX A, EPX B, EPX C, Simple 3x, Tv Mode 3x, Dot Matrix 3x, hq3x, hq3xS, hq3xBold, lq3xBold, EPX 3.  Most of them from 2x on up run with slowdown. Off the top of my head I think only TV Mode, EPX A-C, Tv Mode 3x?, are about the only ones that ran full speed. The rest may or may not run full speed on the souped up Xbox's that some have out there.
+
+* NTSC filters are in 1.53 build, although fair warning.  They are a framerate suck (anywhere from 0-10fps) so don't come crying to me if your favorite game runs too slow with them on.
+
+* Added a new option "Set Auto Max Skip Frames To 1 - Yes/No" (1.53 only).  This should help with the slowdown on FX games.  Only ones I've tested so far are Vortex and SMW II.  Here is a list of FX games if you did not know.  Star Fox, Stunt Race FX, Vortex, Dirt Racer Super FX, Dirt Trax FX, Super Mario World 2: Yoshi's Island Super, Doom, Winter Gold
+
+* Fastforward is tied into throttle speed (general settings) for now.. 2 seems like a nice sane number.
+
+* Running NTSC ROM's on a PAL xbox on a PAL TV should work properly now.. :P
+
+* Perfect Pixel code now active.  For real!  Promise!  ;)  :P
+
+* New game config option to "Show ROM Info On Game Start - Yes/No".
+
+* "Show FPS" now works.  Framerate is displayed using Snes9X's built in frame rate detector. There are two numbers.. an FPS value and a x/60 value. The first is simply the number of frames emulated per second (including skipped), the second is how many of the last 60 frames were displayed. 
+
+
+********************************
+* Dummy/Lockdown Mode Settings *
+********************************
+
+This is a new feature which means lots of changes in regards to the menu interface and a bunch of internal stuff.  :)
+
+There is a new menu option in the "Configuration" screen called "Dummy/Lockdown Mode Settings" menu options in this screen are.
+
+"Full Fledged Lock Down Mode?" (Yes/No)
+-> This activates all options and sets them all to Yes or if they are on it will deactivate them and set them all to No.
+
+"Password Protect?" (No, Configuration Only, Skin Menu Only, Configuration & Skin Menu)
+-> Password is 10 buttons presses max.  Acceptable buttons are A, B, X, Y, WHITE, BLACK, BACK, Dpad Up, Dpad Down, Dpad Left, Dpad Right, L3 and R3.  Password is stored (non encrypted) in the .ini file for those of you who set it and forgot what it is.  It even has a nice key to tell you what the characters mean.. :D
+
+"Change/Set Password"
+-> Why change or set the password of course!
+
+"Change/Set In Game mapping useage prevention"
+-> This allows you to deactivate in game mapping settings that may be defined in a game's controller settings.  This will also disable any related "In Game Menu" options.  See below for the list.
+
+"Prevent user from adding/removing favorites?" (Yes/No)
+-> If you do not like people mucking around with your favorites list on the game select or favorites menu, set this to Yes.
+
+"Prevent removal of save configuration files?" (Yes/No)
+-> Keeps people from pressing black and erasing all your hard work configuring games.  :)
+
+"Prevent user from pressing X to configure game?" (Yes/No)
+-> Keeps people from going in and mucking up your wonderful game configuration setup that you spent hours tweaking.  ;)
+
+"Ask Before Moving to Garbage Dir?" (Yes/No/Never Move)
+-> Same as before.. just moved here and removed from the general settings menu.
+
+"Keep user Within ROM Directory Tree?" (Yes/No)
+-> Same as before.. just moved here and removed from the general settings menu.
+
+"Allow Skin Access" - (Full Access, Select Skin & Load Configuration Only, No Access PERIOD!)
+-> This will allow you to limit the user to just selecting the skin or skin configurations.  Slight overlap with the password protect option.
+
+"Lockout In Game Menu (Hold Back To Exit Game)"  (Yes/No)
+-> Wanna keep the user out of the In Game Menu?  This option is for you!  Gamer needs to only hold "BACK" down for 4 seconds to exit the game.
+
+"Remove 'Shutdown Xbox' From Main Menu?" (Yes/No)
+-> Removes the "Shutdown Xbox" from the main menu in case you have a bad habit of accidently selecting it.
+
+
+-----------------------------------------
+--- In Game mapping useage prevention ---
+-----------------------------------------
+
+This allows you to deactivate in game mapping settings that may be defined in a games controller settings.  It's use should be pretty obvious.  This will also disable any related "In Game Menu" options.
+
+"Prevent All On List?" (Yes/No)
+"Prevent in game Sfx Volume Adjustment?" (Yes/No)
+"Prevent in game Bgm Volume Adjustment?" (Yes/No)
+"Prevent in game Rewind and Rewind Toggling?" (Yes/No)
+"Prevent in game Fast Forward?" (Yes/No)
+"Prevent in game Slowdown?" (Yes/No)
+"Prevent in game Save/Load/Save State Slot Changing?" (Yes/No)
+"Prevent in game Screenshots?" (Yes/No)
+"Prevent in game Auto-Screenshot Capture Mode?" (Yes/No)
+"Prevent in game Filter Changing?" (Yes/No)
+"Prevent in game Music Control Menu Use?" (Yes/No)
+"Prevent in game Playback and Recording?" (Yes/No)
+"Prevent in game Media Browser Useage?" (Yes/No)
+
+
+*****************************
+* Interface Related Changes *
+*****************************
+
+* Added in a feature "Sprites Used As Background? Yes/No" to allow the use of "sprites" as the background.  Setting this to "Yes" allows the game screenshot to be seen in the IGM as well as the savestate screenshots in the select state menu.  However skin designers keep in mind the more memory your skin uses the less room that leaves for me to add new features.  Things are tight enough as it is.
+
+* Fixed an issue where the synopsis was not always displaying for an unzipped file.
+
+* Fixed a weird issue where if you are missing the "Title" or "Action" directory/picture for a game it would not be displayed correctly in the gameselect or favorites screen.
+
+* Synopsis screen transition now works like it is supposed to.
+
+* Fixed an issue where the preset controller settings were not saved properly (sorry guys. :( ).  This only effects certain emus with preset controller definitions.
+
+* Synopsis code completely rewritten to support the new synopsis format.  Old synopsis.txt file is now officially defunct!  :P
+
+* Another new option "Use Default Emu Filter?".  This will apply a preset filter custom designed for each emu core.  It is also used internally by the synopsis code so user interaction is not required in some cases (like when a .zip file contains an IPS/UPS patch or movie file).
+
+* Modified L/R file scrolling so it doesnt kick off the movie so quickly.  Hopefully this will fix interference from movies being accessed from a samba or relax share.
+
+* Fixed long standing issue with "Autoload last savestate" where it could potentially pick the wrong savestate.  Of course it also helps to make sure your xbox date is set correctly.  :P
+
+* Now have the ability to display long names for games.  This currently relies on having Xtras ROM files.  In the future I will be providing other options.
+
+* Fixed issue where emu would lock up if the media directory path was longer that 36 characters.  (Thanks to those who reported it and AMOC for testing for me)
+
+* Fixed issue where emulator would lock up in favorites menu if you start removing games from the bottom up ..  (Thanks to hyper_eye for reporting this).
+
+* Fixed issue with wacky numbers when trying to adjust the volumes while in the IGM.
+
+* Fixed issue where Popup msg window was messing up transitions.
+
+* Screen size and position settings were not always being restored properly this primarily affected emu's that use preset controllers and in particular games defined as using a particular preset controller.
+
+* File select now has the ability to filter extensions.  That way if you have movie (smv) and patch files (ips/ups) in the zip file you wont see those when simply selecting a game to play.  Same goes for movie selection and patch files.  Only relevant files are seen.  If only one match is found with the extension filter it will simply unzip that file.
+
+* Set Game Screen Size/Position now has the same options as "Override Game Screen Size (Global)".  So you can use these when setting Game Screen Size position in game or from the main menu.
+
+* Tweaked the synopsis word wrap so the left/right margins are a little more even.
+
+* Fixed Screenblur when displaying on screen keyboard.  For good this time.. :P  (For emu's that use it) 
+
+* Modified many menus so while in IGM only relevant menu's are displayed.  (Too many to mention)
+
+* New filename sort code.  Filenames should sort properly.  No more need to add a I, II, or III to filenames to get them to sort right!
+
+* Fixed bug where viewing the synopsis in the in-game menu, and then going back to the favorites list could cause a crash.
+
+* Now only displays valid available video modes (set in dash) in the "Video Mode" select screen.
+
+* "Lock Game Screen Size For All Games" added. Options are "Full screen" ( +/- 20 or so on top/bottom/left/right of screen), "Size to Fit (Keep Ratio)", "Pixel Perfect", and "Custom".
+
+* The interface now keeps track of all screen size settings for all video modes. This is for all individual games. It will also auto adjust the size for all video modes if "Override Game Screen" is activated in some form. This also opens up the possibility of allowing different video modes for different games.
+
+* Minimum sound volume bumped up to something more reasonable.  That way if you do accidently lower the volume it wont take as long to get it back.  :P
+
+* Media browser will properly back out now if you are in a ZIP file and press B to exit out.
+
+* Numerous fixes to prevent controller button presses from making their way back to the game when you are done (still needs some work)
+
+* Fixed lockup when viewing a certain number of FAQs or the same FAQ several times.  Stupid me forgot to dealloc the buffer after exiting.
+
+* Fixed lockup that would occur when you tried to edit an action replay cheat code.
+
+* Fixed problem where you could get stuck in the media browser and not get out (happened when you had media browser mapped to a key)
+
+* Remove all the annoying questions when you switch to 480p and higher video modes.  X-port code has detected and auto switched to lower resolutions for some time now.  If someone could verify this for me just to be sure. :P
+
+* Modified the media browser so that when viewing images (e.g. manuals or maps) that it will try reverting to 480p in order to view the manual if it will not load if you are at 720p or higher.
+
+* Synopsis now displays properly in the "In game menu"
+
+* Controller presses are cleared on savestate load/save that way nothing will accidently happen when you go back to the game (used for show savestate screen = yes)
+
+* Loop movies option (Yes/No) added.
+
+* Fixed issue with wrong screen coming up when "Always display save state menu" is set to yes.
+
+* Code for "action lists" mostly done.  
+
+* Improved the screenshot, box/cart art, and movie streaming to make browsing games a little smoother.
+
+
+********************************************************************
+Here are the changes to the core as listed in the Snes9x Changelog..
+********************************************************************
+
+Whats New in 1.53:
+
+    * Improved overall timings, now Snes9x can handle events in a opcode a little. (zones) 
+    * Improved screen interlace and sprite interlace supports. (OV2, zones) 
+    * Fixed Hi-Res pixel plotter. (BearOso, zones, OV2) 
+    * Fixed C4 for Mega Man X2's "weapon get" screen. (Jonas Quinn) 
+    * Fixed Super Buster Bros. graphics after reset. (Jonas Quinn) 
+    * Added SA-1 CC2 support. (Jonas Quinn, byuu) 
+    * Fixed SA-1 NMI override mode. (zones) 
+    * Fixed Dual Orb 2 sound glitch. (byuu) 
+    * New APU timing hack, fixes various games that exhibit problems with Blargg's SNES_SPC library. (OV2) 
+    * Fixed the problem that echo buffer breaks IPL ROM. (zones, OV2) 
+    * Fixed crash relating to double-closed descriptor. (BearOso) 
+    * Removed CPUShutdown speedhack, DisableHDMA and DisableIRQ options. (zones) 
+    * Removed remaining outdated asm code. (zones) 
+    * JMA 64 bit support. (kode54, Nach, friedrich.goepel) 
+
+Here is an incomplete list of games that have been fixed/improved in 1.53: 
+
+	Battle Blaze (glitched title screen) 
+	Earthworm Jim 2 (freeze on start) 
+	F1 Grand Prix (flickering in-game HUD) 
+	Lion King (freeze on start, works after reset) 
+	Ms Pacman (black screen on rom load) 
+	Mutant Chronicles - Doom Troopers (freeze on start) 
+	NBA Hang Time (freeze on start) 
+	Primal Rage (freeze on start) 
+	Robocop 3 (black screen on game start) 
+	SD Gundam G-Next (garbled scenario map pictures) 
+	Secret of Mana (mode7 flicker)
+	Sink or Swim (display corruption on scrolling) (APU version only)
+	Super Buster Bros 1.0 (garbled graphics after reset) 
+	The King of Dragons (no sound effects) 
+	The Mask (black screen on rom load) 
+
+Whats New in 1.52:
+
+    * IMPORTANT NOTICE: The structure of savestates (also known as snapshots / freeze files) is incompatible with older versions! Snes9x 1.52 cannot read the savestates created by 1.51 or older. (zones)
+
+    * Highly accurate SPC700 and S-DSP emulation. (Blargg)
+
+    * Replaced APU emulation cores (SPC700 and S-DSP) with ones provided by Blargg's SNES_SPC library. This renders savestates incompatible with older versions. (BearOso, zones)
+
+    * SPC7110 emulation. (byuu, neviksti)
+
+    * Merged bsnes' SPC7110 emulation code. Note that the .rtc file of Far East of Eden Zero is incompatible with older versions. (zones)
+
+    * Removed graphics pack support. It's no more necessary. (zones)
+
+    * Replaced RTC emulation code with bsnes' one to keep the good compatibility of .rtc files between the two emulators. As a result, Daikaijuu Monogatari 2 now outputs the .rtc file, and its .srm file is incompatible with older versions. (zones)
+
+    * Added savestate supports for DSP-2, DSP-4, ST-010 and OBC1. (zones)
+    * Added UPS support. (byuu)
+    * Fixed DSP-4 AI problem. (Jonas Quinn)
+    * Fixed invalid memory accesses in C4 and OBC1 codes. (zones)
+    * Fixed invalid memory accesses in BSX codes. My mistake. (zones)
+    * Fixed the read value of $213e, $4210 and $4211. (zones)
+    * Fixed the writing of word values at the memory boundary. (zones)
+    * Fixed the bug that the unnecessary SA-1 emulation continues once any SA-1 games are launched. (zones)
+    * Removed old color blending codes. (zones)
+    * Removed too-old Snes96 and ZSNES snapshot support. (zones)
+    * Code cleaning. (zones)
+    * Win32: Added Blargg's ntsc filter (three presets). (OV2)
+
+Whats new for 1.51:
+
+    * Added DSP1 and SuperFX savestate support. (nitsuja)
+    * Fixed desync when loading inconsistent state in playback. (nitsuja)
+    * Win32: Added EPX,EPX2,EPX3,HQ2X,HQ3X,TV3X,DM3X filters. (nitsuja)
+    * Win32: Added hires support for Interlace and TV Mode. (nitsuja)
+    * Fix for save state blocks > 999999 bytes. (Bisqwit)
+    * C4 games now save C4 data in save states. (DeHackEd)
+    * Fixed slow versions of branch opcodes. (anomie)
+    * Fixed the mosaic offset bug. (anomie)
+    * No sorting by priority in C4 command 00 00. MegaMan X2 can go behind the legs of the intro stage boss. (anomie)
+    * New RTO discovery, fixes Super Conflict: The Mideast title screen. (anomie, byuu)
+    * A 1->0 transition on $2100.7 causes OAM Address Reset. (anomie, byuu)
+
+    * The final HDMA Indirect Address load is only weird on the last channel of the scanline. Touge Densetsu Saisoku Battle problem solved. (anomie, byuu)
+
+    * Fixed BGnVOFS bug. Only HOFS needs ~&7 update. (byuu)
+    * Fixed superfluous VIRQ triggers. (zones)
+    * Fixed missing IRQ trigger just after the previous one. (zones)
+    * Fixed missing IRQ while writing to $4200. (zones)
+    * Fixed IRQ timing after WRAM refresh. (zones)
+    * Fixed NMA timing after DMA transfer. (zones)
+    * Fixed superfluous auto-joypad-reading. (zones)
+    * Fixed missing WRAM refresh during DMA transfer. (zones)
+    * Fixed DMA so that HDMA and any HC triggered events can run during DMA transfer. (zones)
+
+    * Roughly fixed the case that HDMA and DMA use the same channel at the same time. HDMA kills DMA. Thanks byuu. (zones)
+
+    * Changed initial DMA registers values. (zones)
+    * Slightly modified APU execute timings. (zones)
+    * Fixed APU I/O registers to get/set the proper value. (zones)
+
+    * Blocked invalid VRAM writings, though you can turn off this option due to Snes9x's inaccurate timings. (zones)
+
+    * Added Sufami Turbo support. (zones)
+    * Added Same Game add-on cart support. (zones)
+    * Fixed HiROM SRAM and DSP1-4 memory maps a little. (zones)
+    * Improved mirroring. (Nach, grinvader, byuu)
+    * CRC32 on BS dumps now follows uCONSRT standard. (Nach)
+    * BS dumps now always run in NTSC mode. (Nach)
+    * Unknown regions (generally betas) default to NTSC. (Nach)
+    * Now support NSRT headers for setting up controllers. (Nach, nitsuja)
+    * Removed some weird code which was crashing Korean League and its varients. (Nach)
+    * Win32: ZSNES C4 and SuperFX compiles once again. (Jonas Quinn)
+
+Whats New for 1.50:
+
+    * Support for IPS patches in the zip file (anomie)
+    * OBC1 savestate fix (Overload)
+    * CPU instruction fixes (mostly emulation mode & timing) (anomie)
+    * Mode 7 fixes (anomie)
+    * Rewrote the renderer. Enjoy! (anomie)
+    * Correct-ish memmap boundary testing. (anomie)
+    * Added 4-point gaussian interpolation and proper envelopes many thanks to Brad Martin and TRAC. (zones)
+    * Fixed several sound problems. (zones)
+    * Fixed the memory access problem in C++ Super FX core. (zones)
+    * Speed adjustment of C++ Super FX emulation. (zones)
+
+    * Various timing fixes: NMI, IRQ, WRAM refresh, cycles per line, HBlank start, etc. Many thanks to byuu for much information. (zones)
+
+    * Removed some game specific hacks. (zones)
+    * Added partial Satellaview (BS) emulation. (Dreamer Nom, zones)
+    * Updated JMA to v1 (Nach)
+    * Fixed buffer over/under flow due to incorrect logical operator in S-RTC code (byuu)
+    * Fixed HDMA flags bug. (byuu, anomie)
+    * Completed DSP-1 code. (Andreas Naive, Overload, Nach)
+    * Updated DSP-3 code. (Nach, z80 gaiden)
+    * Updated DSP-4 code. (Dreamer Nom, Nach, z80 gaiden)
+    * Overhauled BS detection. (Nach)
+    * Fixed infiniti loop and invalid read bug in C++ C4 core. (Nach)
+
+
+***********************
+* To Do For Snes9Xbox *
+***********************
+
+- Look at Dante_Ali's changes for possible speed improvements in either 1.51 or 1.53 core.
+
+- Find that damn whiteboard!  :P
+
+- Rename 1.42 core to 1.43 (doi!)

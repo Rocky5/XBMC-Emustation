@@ -1,0 +1,56 @@
+#Q-Bert#SLUS00904
+"=Adventure Mode 
+"Max Score
+80146A28 FFFF
+"Infinite Lives
+30146A35 0003
+"Unlock All Levels & Max Score
+50003504 0000
+80145D9C FFFF
+"=Classic Mode 
+"Infinite Lives
+301131B0 0003
+
+#Quake II#SLUS00757
+"Joker Command P1 (add 16-bit value)
+D00C7DD0 ????
+"=Player 1 
+"Infinite Health
+800CBDA0 0064
+"Have All Weapons (Upon Pickup)
+800C7F38 0FFF
+"Infinite Armor
+800C7F1E 0064
+"Infinite Shotgun & Super Shotgun Ammo
+800C7F3C 0064
+"Infinite Machine Gun & Chaingun Ammo
+800C7F3E 0064
+"Infinite Grenades & Grenade Launcher Ammo
+800C7F40 0064
+"Infinite Rocket Launcher Ammo
+800C7F42 0064
+"Infinite Hyper Blaster + BFG Ammo
+800C7F44 0064
+"Infinite Rail Gun Ammo
+800C7F46 0064
+"Super Jump (Press Square)
+D00C7DD0 8000
+800CBD86 FEC7
+"Have All Multiplayer Options
+800B35CC 0303
+"Weapon Modifier (add 8-bit value)
+800C7F36 00??
+"Frags P1
+800B3708 00??
+"Frags P2
+800B370A 00??
+"Frags P3
+800B370C 00??
+"Frags P4
+800B370E 00??
+"Invisibility P1(Multiplayer only)
+800B352A 0005
+"P1 Deadman
+800CBDA6 00C8
+
+.end

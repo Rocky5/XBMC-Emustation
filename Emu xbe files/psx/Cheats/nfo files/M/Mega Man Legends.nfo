@@ -1,0 +1,66 @@
+Quantity Digits to Accompany Character & Stage Modifier Codes
+00 - Nothing
+01 - Blaster Unit Omega
+02 - Sniper Unit Omega
+03 - Laser
+04 - Sniper Range
+05 - Turbo Battery
+06 - Power Raiser Omega
+07 - Range Booster Omega
+08 - Turbo Charger Omega
+09 - Blast Unit
+0A - Sniper Unit
+0B - Power Raiser Alpha
+0C - Range Booster Alpha
+0D - Turbo Charger Alpha
+0E - Power Raiser
+0F - Range Booster
+10 - Turbo Charger
+11 - Buster Max
+12 - Power Stream
+13 - Blaster Unit R
+14 - Buster Unit Omega
+15 - Omni-Unit Omega
+16 - Auto Battery
+17 - Sniper Scope
+18 - Rapid Striker
+19 - Gatlin Gun
+1A - Omni-Unit
+1B - Power Blaster R
+1C - Power Blaster L
+1D - Machine Gun
+1E - Triple Access
+1F - Buster Unit
+20 - Rapid Fire
+21 - Helmet
+
+Quantity Digits to Accompany Equipped Special Weapons Modifier Codes
+0 - Kick
+1 - Mega Buster
+2 - Machine Buster
+3 - Powered Buster
+4 - Drill Arm
+5 - Grenade Arm
+6 - Spread Buster
+7 - Vacuum Arm
+8 - Active Buster
+9 - Blade Arm
+A - Grand Grenade
+B - Splash Mine
+C - Shield Arm
+D - Shining Laser
+
+Note 1:
+With this code, since Roll is the one that has to equip the weapons before you can even use them...i made the Equipped Special Weapon Modifier code to remedy that problem!
+
+Note 2:
+With this code, they are to be used with have all Special Weapons code!
+
+Note 3:
+With this code, they are to be used with have all Special Weapons code!
+
+Note 4:
+With this code, its been tested with the all Special Items and it seems to mess up when you give the red crystal to Roll early in the game....also the citizen cards still don't work nor does the other crystal...so i made a code to give you the only special items that work early in the game! Just active code save it and turn the code off!
+
+Note 5:
+With this code, if you go too far on the other side of a wall you may not be able to get back to a position to where you can go on.

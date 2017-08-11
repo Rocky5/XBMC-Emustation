@@ -1,0 +1,837 @@
+Quantity Digits
+Art Digits
+
+Quantity Digits to Accompany Equip Arts Modifier Codes
+001 - Ready 0
+002 - Charge 0
+003 - Focus 0
+004 - Feint 0
+005 - Lunge 0
+006 - Retreat 0
+007 - Dummy 0
+008 - Punch
+009 - Kick
+00A - Grab
+00B - Hit 0
+00C - Bite 0
+00D - Hit 0
+00E - Kick 0
+00F - Dummy 0
+010 - Slash
+011 - Backslash
+012 - Cleave
+013 - Slash 0
+014 - Backslash 0
+015 - Claw 0
+016 - Dummy 0
+017 - Dummy 0
+018 - Slash
+019 - Backslash
+01A - Throw
+01B - HardBlow
+01C - BackSlash 0
+01D - Fang 0
+01E - Brawl Hit
+01F - Fang
+020 - Beat
+021 - Swing
+022 - Whirl Beat
+023 - Body Double 3
+024 - Big Spin
+025 - Hornets Nest
+026 - Twig Glaive 0
+027 - Dummy 0
+028 - Thrust
+029 - BackSlash
+02A - Thrust 0
+02B - Stab 0
+02C - Thrust 0
+02D - Stab 0
+02E - Dummy 0
+02F - Dummy 0
+030 - Shoot
+031 - QuickShot 0
+032 - Sonic Blaster
+033 - Air Pressure
+034 - Earth Beat
+035 - Psycho Whisper
+036 - Dummy 0
+037 - Dummy 0
+038 - Trap 0
+039 - Air Axe 0
+03A - Beetle Rush 0
+03B - Dummy 0
+03C - Dummy 0
+03D - Close In 0
+03E - Yell 0
+03F - Defend 0
+040 - Tree 2
+041 - Tree 2
+042 - Pollen Gas 2
+043 - Leaf Dance 2
+044 - Song Of Earth 8
+045 - Deadly Moss 3
+046 - The World For World Is ???
+047 - Invisible Wave 4
+048 - Stone 2
+049 - Stone 2
+04A - Delta Petra 6
+04B - Dummy 4
+04C - Dummy 3
+04D - Dummy 2
+04E - Dummy 0
+04F - Dummy 0
+050 - Flame 2
+051 - Flame 2
+052 - Heat Wave 0
+053 - Burning Rush 4
+054 - Meteor Swarm 2
+055 - Fireball 2
+056 - Egg 0
+057 - Magmaxplosion 5
+058 - Water 2
+059 - Water 2
+05A - Aqua Viper 4
+05B - Ice Bullet 4
+05C - Call Thunder 4
+05D - Box Thunder 0
+05E - Bloody Gas 0
+05F - Big Hammer 0
+060 - Tone 2
+061 - Tone 2
+062 - Tone 2
+063 - Tone 2
+064 - Tone 2
+065 - Dummy 2
+066 - Dummy 2
+067 - Dummy 2
+068 - Beast 1
+069 - Beast 1
+06A - Rotten Breath 1
+06B - Strongest Hit 2
+06C - Draconian Slicer 5
+06D - Dummy 2
+06E - Dummy 2
+06F - Shooting Star 0
+070 - Shooting Star 0
+071 - Star Quake 0
+072 - Reincarnate 0
+073 - Ancient Curse 0
+074 - Xenocide 0
+075 - Dummy 0
+076 - Dummy 0
+077 - Dummy 0
+078 - Ghoul Scratch 1
+079 - Griffith Scratch 1
+07A - Claw Hammer 1
+07B - Stone Lance 1
+07C - Sap 1
+07D - Death Looper 1
+07E - Kings Tounge 1
+07F - Screw Vine 1
+080 - Fang 0
+081 - Fang Crush 0
+082 - Beak 0
+083 - Pierce 0
+084 - Melty Kiss 6
+085 - Thantos Kiss 4
+086 - Bite Off 3
+087 - Queens Kiss 4
+088 - Spider Surf 8
+089 - Thrust 0
+08A - Swallow 0
+08B - Blood Suck 0
+08C - Tongue 0
+08D - Break Down 4
+08E - Poisonous Bite 0
+08F - Double Thrust 2
+090 - Check 2
+091 - Horn 0
+092 - Headbutt 0
+093 - Missle Head 3
+094 - Pierce 0
+095 - Scissor Break 4
+096 - Horn Swing 0
+097 - Deadly Loop 3
+098 - Air Slider 3
+099 - Tackle 0
+09A - Run Through 3
+09B - Plunge 5
+09C - Nail Driver 3
+09D - Fire Dance 4
+09E - Step In 4
+09F - Glider Spike 5
+0A0 - Rush 2
+0A1 - Hypnotism 0
+0A2 - Crippling Gaze 0
+0A3 - Charm Gaze 0
+0A4 - Petra Gaze 0
+0A5 - Petra Pray 0
+0A6 - Deaths Gaze 0
+0A7 - Knights Kiss 0
+0A8 - Slash 0
+0A9 - Fire Breath 10
+0AA - Fire Breath 10
+0AB - Ice Breath 10
+0AC - Thunder Breath 10
+0AD - Thunder Breath 10
+0AE - Acidic Spray 10
+0AF - Poison Gas 8
+0B0 - Nature's Anger 4
+0B1 - Zeal 0
+0B2 - Dissolve 0
+0B3 - Acid 0
+0B4 - Water 0
+0B5 - Eruption 0
+0B6 - Seed Shot 0
+0B7 - Spit Fire 0
+0B8 - Pollen Gas 2
+0B9 - Shout 0
+0BA - Hyper Sonic 0
+0BB - Scream 0
+0BC - Poison Gun 0
+0BD - Spore 1
+0BE - Hypnotic Gas 1
+0BF - Dust 1
+0C0 - Poison Dust 1
+0C1 - Heavy Hit 1
+0C2 - Touch 1
+0C3 - Stab 1
+0C4 - Heavy Blow 3
+0C5 - Crush 3
+0C6 - Rapid Hit 5
+0C7 - Bombard 4
+0C8 - Stab 0
+0C9 - Gentle Touch 3
+0CA - Dig 0
+0CB - Wing Clap 2
+0CC - Wing Slash 4
+0CD - Kick 0
+0CE - Push 0
+0CF - Hish - Rise 3
+0D0 - Somersault 2
+0D1 - Heavy Kick 2
+0D2 - Scratch 4
+0D3 - Dance Dance 10
+0D4 - Smile 0
+0D5 - Earthquake 0
+0D6 - Mega Eruption 0
+0D7 - Charge 0
+0D8 - Skewer 0
+0D9 - Reverse Drop 0
+0DA - Rock Down 0
+0DB - Stun Swing 0
+0DC - Hard Slash 0
+0DD - Reverse Cross 0
+0DE - Multi - Way 0
+0DF - Thunderbolt 0
+0E0 - Oil 0
+0E1 - Oscillation 1
+0E2 - Press 4
+0E3 - Energy Wire 2
+0E4 - Alien 4
+0E5 - Blizzard 2
+0E6 - Volcano Crush 3
+0E7 - Soul Crunch 4
+0E8 - Hard Form 8
+0E9 - Hidden Hit 0
+0EA - Torpedo 3
+0EB - Body Doub0le 3
+0EC - Ice Smash 6
+0ED - Steam Cyclone 6
+0EE - Nightmare 2
+0EF - Chiefs Temper 2
+0F0 - Meditation 0
+0F1 - Wide Shot 4
+0F2 - Assimilation 8
+0F3 - Dummy 0
+0F4 - Dummy 0
+0F5 - Dummy 0
+0F6 - Hyper Rush 5
+0F7 - Heavy Gale 3
+0F8 - Dummy 10
+0F9 - Fossil Cry 0
+0FA - Lava Shower 8
+0FB - Dummy 0
+0FC - Dummy 0
+0FD - Dummy 0
+0FE - Dummy 0
+0FF - Dummy 0
+100 - Dummy 0
+101 - Counter 0
+102 - Deflect 0
+103 - Dummy 0
+104 - Block 0
+105 - Windmill 0
+106 - Reaction Shot 0
+107 - Dummy 0
+108 - Karate Punch 2
+109 - Backhand 3
+10A - Rotation Kick 3
+10B - Bear Paw 4
+10C - Brawl 4
+10D - Ogre Run 4
+10E - Crush Beat 4
+10F - Heart Breaker 5
+110 - Arm Hammer 5
+111 - Kick Rush 5
+112 - Corkscrew 6
+113 - Somersault 5
+114 - Triangle Kick 6
+115 - Sumo Throw 8
+116 - Kitchen Sink 7
+117 - Dummy 8
+118 - Rolling Thunder 9
+119 - Tumbler 9
+11A - Cascade Rising 10
+11B - Dragon Revolution 10
+11C - Kamikaze 10
+11D - Eradication 10
+11E - Dummy 10
+11F - Dummy 10
+120 - Double Slash 2
+121 - Cross Slash 3
+122 - Strike Slash 3
+123 - Running Slash 3
+124 - Smash 4
+125 - Dummy 3
+126 - Mist Double 3
+127 - Final Letter 6
+128 - Dead End 7
+129 - Double Stroke 4
+12A - Cross Break 5
+12B - Slice And Dice 5
+12C - Dragon Tail 5
+12D - Head Cracker 6
+12E - Heaven And Hell 6
+12F - Head Wind 7
+130 - Bull Crush 8
+131 - Dummy 8
+132 - Dummy 8
+133 - Dummy 8
+134 - Aftervision 7
+135 - No Moment 8
+136 - Blade Spray 9
+137 - Bear Crush 10
+138 - Multi Way 13
+139 - Thunder Blade 7
+13A - Dummy 5
+13B - Dummy 5
+13C - Dummy 5
+13D - Dummy 5
+13E - Dummy 5
+13F - Dummy 5
+140 - Tomahawk 2
+141 - Heel Crush 2
+142 - Hyper Hammer 3
+143 - Wood Cutter 4
+144 - Fake Out 3
+145 - Skull Crush 4
+146 - Axel Turn 5
+147 - Ogre Crossing 4
+148 - Sky Drive 5
+149 - MegaHit 6
+14A - YOYO 7
+14B - Wheel Grind 5
+14C - Flash Trinity 8
+14D - Sky Rendezvous 9
+14E - Tornado Divide 12
+14F - Dummy 10
+150 - Roll Beat 2
+151 - Heart Beat 3
+152 - Dummy 2
+153 - Dummy 2
+154 - Lobster Slayer 4
+155 - Bone Crush 4
+156 - Head Splitter 4
+157 - Gong Beat 6
+158 - Painful Beat 5
+159 - Dummy 5
+15A - Rock Crush 7
+15B - Turtle Killer 10
+15C - Grand Slam 8
+15D - Time And Tide 14
+15E - Dummy 10
+15F - Dummy 10
+160 - Swing And Stab 2
+161 - Double Thrust 2
+162 - Lawn Mower 4
+163 - Rush 3
+164 - Skewer 4
+165 - Wave Thrust 5
+166 - Wind Swing 5
+167 - Brain Shaker 4
+168 - Aiming 5
+169 - Squash 6
+16A - Shining Arm 8
+16B - Heavenly Strike 10
+16C - Beast Lightning 9
+16D - Thousand Cross 12
+16E - Fearless Triple 14
+16F - Dummy
+170 - Aim Shot 3
+171 - Random Shot 2
+172 - Shadow Bird 3
+173 - Arrow Rain 3
+174 - Mind Break 5
+175 - Sidewinder 4
+176 - Shadowslayer 6
+177 - Thousand Needle 6
+178 - Rapid Fire 7
+179 - Hi Speed Arrow 7
+17A - Crystal Prism 9
+17B - Dummy 10
+17C - Dummy 10
+17D - Dummy 10
+17E - Dummy 10
+17F - Dummy 10
+180 - Needle Shot 4
+181 - Bushfire 6
+182 - Life Water 5
+183 - Woodstock 5
+184 - Sleep 5
+185 - Song Of Earth 5
+186 - Dummy 2
+187 - Needle Burst 10
+188 - Deltra Petra 6
+189 - Magmaxplosion
+18A - Water Hammer 5
+18B - Guard Beast 9
+18C - Stone Armor 4
+18D - Dummy
+18E - Dummy
+18F - Dummy
+190 - Recovery Breath 4
+191 - Flame Naga 5
+192 - Firestorm 8
+193 - Incineration 10
+194 - Soul Hymn 16
+195 - Dummy
+196 - Dummy
+197 - Dummy
+198 - Sonic Poison 5
+199 - Aqua Viper 4
+19A - Call Thunder 7
+19B - Permenance 8
+19C - Heavens Thunder
+19D - Deadly Snake 4
+19E - Dummy
+19F - Dummy
+1A0 - Sonic Burner 6
+1A1 - Spoil Wave 3
+1A2 - Sonic Sanctuary 4
+1A3 - Stone Memory 7
+1A4 - Hymnal 11
+1A5 - Dummy
+1A6 - Dummy
+1A7 - Dummy
+1A8 - Mindscape 3
+1A9 - Howling Heaven 5
+1AA - Reviva 9
+1AB - Berserk 3
+1AC - Regenerate 3
+1AD - Dummy 3
+1AE - Dummy 3
+1AF - Dummy 3
+1B0 - Commet Fall 8
+1B1 - Megabolt 12
+1B2 - Astral Stair 5
+1B3 - Shrub Storm 8
+1B4 - Slime Net 3
+1B5 - Berry Dance
+1B6 - Mystic Dance
+1B7 - Rasberry Dance
+1B8 - Bloodberry Dance
+1B9 - Divine Forest 2
+1BA - Dummy
+1BB - Dummy
+1BC - Dummy
+1BD - Dummy
+1BE - Dummy
+1BF - Dummy
+1C0 - Dummy
+1C1 - Dummy
+1C2 - Dummy
+1C3 - Dummy
+1C4 - Tornado Blade 7
+1C5 - Gale Blade 10
+1C6 - Thunder Blade 6
+1C7 - Dummy
+1C8 - Dummy
+1C9 - Fire Wheel 5
+1CA - Dummy
+1CB - Gale Strike 7
+1CC - Dummy
+1CD - Snake Blaster 6
+1CE - Twin Dragon 9
+1CF - Jewel Strike 15
+1D0 - Dummy
+1D1 - Bird Hunter 2
+1D2 - Poison Arrow 4
+1D3 - Death Shot 4
+1D4 - Spark Shot 7
+1D5 - Windbreaker 8
+1D6 - Spectrual Shot 9
+1D7 - Fire Bird 9
+1D8 - Dummy
+1D9 - Dummy
+1DA - Dummy
+1DB - Dummy
+1DC - Wood Punch
+1DD - Stone Punch
+1DE - Flame Punch
+1DF - Tone Punch
+1E0 - Wood Sword 2
+1E1 - Stone Sword 2
+1E2 - Flame Sword 2
+1E3 - Tone Sword 2
+1E4 - Wood Axe 2
+1E5 - Stone Axe 2
+1E6 - Flame Axe 2
+1E7 - Tone Axe 2
+1E8 - Stone Staff 2
+1EA - Flame Staff 2
+1EB - Tone Staff 2
+1EC - Wood Spear 2
+1ED - Stone Spear 2
+1EE - Flame Spear 2
+1EF - Tone Spear 2
+1F0 - Wood Arrow 2
+1F1 - Stone Arrow 2
+1F2 - Flame Arrow 2
+1F3 - Tone Arrow 2
+1F4 - Arrow Rain 0
+1F5-1FE Dummy
+1FF - ???
+
+Battle Role Digits
+
+Quantity Digits to Accompany Battle Role Modifier Codes
+00 - Solo Action
+01 - Heavy Atk
+02 - Blitz
+03 - War God
+04 - WALL
+05 - Dodge
+06 - Heavy Spell
+07 - Spell Atk
+08 - Recover
+09 - Protean
+0A - Marksman
+0B - Versatile
+0C - Counter
+0D - Cannonball
+0E - Bandwagon
+0F - Ace
+10 - Dummy
+11 - Dummy
+12 - Preemptive
+13 - Scout
+14 - Decoy
+15 - Diversion
+16 - Perplexion
+17 - Support
+18 - Defense
+19 - Dummy
+1A - Commander
+1B - Leader
+1C - Dummy
+1D - Diplomat
+1E - Intimidate
+1F - Getaway
+
+Character Digits
+
+Quantity Digits to Accompany Character Modifier Codes
+00 - Nebelstern
+01 - Cielmer
+02 - Narcisse
+03 - Nina
+04 - Labelle
+05 - Gustave
+06 - Kelvin
+07 - Tyler
+08 - Cordelia
+09 - Wil Knights
+0A - Diana
+0B - Johan
+0C - Ventarbre
+0D - Julie
+0E - Eleanor
+0F - Raymond
+10 - Sargon
+11 - Rich
+12 - Patrick
+13 - Gustaf
+14 - Meythia
+15 - Roberto
+16 - Primeria
+17 - Ginny Knights
+FF - Empty
+
+Item Digits
+
+Quantity Digits to Accompany Weapon/Armor/Item Modifier Codes
+00 - Nothing
+01 - Tree Twig
+02 - Mushroom
+03 - Pasture
+04 - Rocky Wall
+05 - Stonetile
+06 - Wastelands
+07 - Rock Surface
+08 - Puddle
+09 - Snow & Ice
+0A - Sea Breeze
+0B - Deep Mist
+0C - Wood Roots
+0D - Fire Sparks
+0E - ITEM
+0F - ITEM
+10 - Wood Dagger
+11 - Stone Knife
+12 - Fong Dagger
+13 - Flame Rod
+14 - Blast Sword
+15 - Lightning Sword
+16 - Fossil Dagger
+17 - Screamer
+18 - Wood Sword
+19 - Fossil Sword
+1A - Carithel
+1B - Beowulf
+1C - Flame Sword
+1D - Valleria Heart
+1E - Kris Knife
+1F - Firebrand
+20 - Stone Axe
+21 - Flint Axe
+22 - Rock Axe
+23 - Dew Axe
+24 - Berserker Axe
+25 - Obsidian Axe
+26 - Hawk Wind
+27 - Golden Axe
+28 - Sapling Staff
+29 - Oak Staff
+2A - Holly Staff
+2B - Snake Staff
+2C - Ice Staff
+2D - Silver Staff
+2E - Sandwurm Staff
+2F - Granite Staff
+30 - Limstokes
+31 - Eternity Staff
+32 - Wood Spear
+33 - Light Spear
+34 - Coral Spear
+35 - Sacred Spear
+36 - Antler Spear
+37 - Seo-Beast Horn
+38 - Babrashka
+39 - Diamond Spear
+3A - Uroborus
+3B - Ice Lance
+3C - Hunter Bow
+3D - Ranger Bow
+3E - Pit Spider
+3F - Silence Bow
+40 - Elder Bow
+41 - Wysteria Bow
+42 - Wild Rose
+43 - Beast Dancer
+44 - ITEM
+45 - Elven Lyre
+46 - Trial Dagger
+47 - Gustave's Sword (Abl 29)
+48 - Gustave's Sword (Abl 53)
+49 - CinderforgeSword
+4A - Steel Sword
+4B - Steel Spear
+4C - Steel Bow
+4D - Steel Dagger
+4E - ITEM
+4F - ITEM
+50 - Paladin Sword
+51 - Paladin Spear
+52 - Paladin Bow
+53 - Gustaf's Sword
+54 - Gustave's Sword (Abl 53, forged by Gustave)
+55 - Beast Lance
+56 - ITEM
+57 - ITEM
+58 - Buckler
+59 - House Guard
+5A - Stone Shield
+5B - Knight Shield
+5C - Lava Shield
+5D - Glacier Shield
+5E - Warlord Shield
+5F - Water Mirror
+60 - Plate Armor
+61 - Full Armor
+62 - Leather Suit
+63 - Field Suit
+64 - Reinforced Suit
+65 - Hydra Suit
+66 - Armor Suit
+67 - ITEM
+68 - Caster Cloth
+69 - Leather Armor
+6A - Padded Mail
+6B - ITEM
+6C - Hard Leather
+6D - Caster Armor
+6E - Alligator Armor
+6F - Bone Armor
+70 - Enhanced Armor
+71 - Stone Plate
+72 - Redstone Armor
+73 - Lobster Mail
+74 - Ceramic Mail
+75 - Blackstone Armor
+76 - ITEM
+77 - ITEM
+78 - ITEM
+79 - ITEM
+7A - ITEM
+7B - ITEM
+7C - Silk Toga
+7D - Caster Robe
+7E - Lake Robe
+7F - Stardust Robe
+80 - Fur
+81 - Alligator Skin
+82 - SLIME MAIL
+83 - MEGA SLIME MAIL
+84 - Fire-Beast Skin
+85 - Protector
+86 - SKELTON MAIL
+87 - Bone Breastplate
+88 - ITEM
+89 - ITEM
+8A - ITEM
+8B - ITEM
+8C - ITEM
+8D - ITEM
+8E - ITEM
+8F - ITEM
+90 - Iron Breastplate
+91 - Brigandine
+92 - Steal Armor
+93 - Warlord Armor
+94 - Heavy Armor
+95 - Silver chain
+96 - ITEM
+97 - ITEM
+98 - Head Band
+99 - Hat
+9A - Red Hood
+9B - Scale Visor
+9C - Feather Cap
+9D - Mystic Veil
+9E - Gem Band
+9F - Funny Cap
+A0 - Work Gloves
+A1 - Coral Ring
+A2 - Gauntlet
+A3 - Bone Gloves
+A4 - Obsidian Gloves
+A5 - Silver Gloves
+A6 - Dominant Gloves
+A7 - Birch Ring
+A8 - Wood Shoes
+A9 - Fur Boots
+AA - Rubber Soles
+AB - Alligator Shoes
+AC - Steel Greaves
+AD - Pop Shoes
+AE - Crystal Wings
+AF - Titus Greaves
+B0 - Gem Particle
+B1 - Cross Branch
+B2 - Rock Heart
+B3 - Fire Charm
+B4 - Blue Water
+B5 - Wind Shell
+B6 - Beast Amulet
+B7 - Red Ore
+B8 - Blue Ore
+B9 - Green Ore
+BA - Red Scarf
+BB - Canary Heart
+BC - Demongrass Fang
+BD - ITEM
+BE - ITEM
+BF - Mushroom Tear
+C0 - Devil's Tear
+C1 - Dead Stone
+C2 - Peg Heart
+C3 - Hyper Water
+C4 - Fire Flake
+C5 - Green Glass
+C6 - Cielmerlion
+C7 - Steel Amulet
+C8 - Bone Gloves
+C9 - Amber King
+CA - Stardust
+CB - Blue Chip
+CC - Hyper Steel
+CD - Last Leaf
+CE - Eternal Rock
+CF - Nova Heart
+D0 - Deep Blue
+D1 - Harmonium
+D2 - Tao Motif
+D3 - Cat's Eye
+D4 - Pan Flute
+D5 - Beast Rune
+D6 - Rock-Beast Tag
+D7 - ITEM
+D8 - ITEM
+D9 - ITEM
+DA - ITEM
+DB - ITEM
+DC - ITEM
+DD - ITEM
+DE - ITEM
+DF - ITEM
+E0 - ITEM
+E1 - ITEM
+E2 - Scorpion Tail
+E3 - ITEM
+E4 - ITEM
+E5 - ITEM
+E6 - ITEM
+E7 - ITEM
+E8 - ITEM
+E9 - Hot Stone
+EA - Blood Star
+EB - Dryad Grail
+EC - Spring Orb
+ED - Soul Crystal
+EE - Anima Crytal
+EF - ITEM
+F0 - Pocket Dragon
+F1 - Amber Maleate
+F2 - Anthurium
+F3 - Night Medallion
+F4 - Life Seed
+F5 - Ark Stone
+F6 - Forest Map
+F7 - Seven-Star Blade
+F8 - Galatyn
+F9 - ITEM
+FA - Egg
+FB - Pirate Bandana
+FC - ITEM
+FD - ITEM
+FE - ITEM
+FF - No Description
+
+Scenario Digits
+
+Quantity Digits to Accompany Scenario Access Modifier Codes
+00 - Not Shown
+02 - Available to Play
+FE - Already Finished (Grayed Out)

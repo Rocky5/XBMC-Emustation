@@ -1,0 +1,123 @@
+MednafenX-NES - NES Emulator for XBox v15b13
+
+Updated to madmab edition interface CFv1b27. See "Interface Changelog.txt"
+
+* Fixed a weird issue where the message "ERROR : Could not open selected CUE file" was being displayed when trying to run a NES game for some users.
+
+------------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b12
+
+Updated to madmab edition interface CFv1b23. See "Interface Changelog.txt"
+
+* Fixed problem where Sprite var was being trashed when changing video mode when playing a game.  This prevented the game genie code edit screen from working properly.
+
+* Game Configurations settings for Controller 1, Controller 2, Expansion Port Device Mapper and Mirroring were being reset when going into the game configuration screen.  Fixed.
+
+* Updated mapper 99.  (See Vs. Super Mario Bros. - Home Edition - http://www.romhacking.net/hacks/1014/)
+
+------------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b11
+
+* Fixed an issue with the fps counter being all wacky and not displaying correctly. (It did not affect emulation speed)
+
+------------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b10
+
+Updated to madmab edition interface CFv1b18. See "Interface Changelog.txt"
+
+* Added 6 new software filters from GensX and 2 from NeoGeo CD emulator (see interface changelog for more details).
+
+* Based on user feedback removed the following software filters 2xSai Scanline, 4xSai Scanline, Super 2xSai Scanline, Super 4xSai Scanline, Eagle 2x Scanline, Eagle 4x Scanline, Super Eagle2x Scanline, Super Eagle4x Scanline.
+
+* Fixed issue where FPS stop displaying after playing your first game.
+
+------------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b09
+
+Updated to madmab edition interface CFv1b17. See "Interface Changelog.txt"
+
+------------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b08
+
+Updated to madmab edition interface CFv1b14. See "Interface Changelog.txt"
+
+* v7b07 was an unoffically released (osd buf test)
+
+----------------
+emu core related
+----------------
+
+* Disabled MednafenX-NES' internal screen buffer to help save on some memory.
+
+------------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b06
+
+Updated to madmab edition interface CFv1b11. See "Interface Changelog.txt"
+
+------------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b05
+
+Updated to madmab edition interface CFv1b08. See "Interface Changelog.txt"
+
+----------------
+emu core related
+----------------
+
+* Mapper 163 added (See Final Fantasy VII NES Project http://www.romhacking.net/hacks/1657/).  For those who are worthy.
+
+* Goofed on the game config screen code.  Fixed.
+
+-----------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15b03
+
+http://mednafen.com/
+http://xport.xbox-scene.com
+
+Updated to the latest madmab edition interface.
+
+----------------
+emu core related
+----------------
+
+* In game menu FDS options are only displayed when a FDS image is loaded.
+
+*****************************
+* Interface Related Changes *
+*****************************
+
+* (for skin designers) - Freesprites is only called when an FDS game is run (too much memory).  So IGM sprites should work for all NES games except FDS.
+
+
+-----------------------------------------------------------------------
+
+MednafenX-NES - NES Emulator for XBox v15
+
+
+v14 never saw the light of day... 
+
+http://mednafen.com/
+http://xport.xbox-scene.com
+
+recent changes..
+
+* New feature "Seconds before playing movie" determines how long the emu will wait before playing a movie.  The default is half a second.  This will help speed up rom browsing.  Especially useful for people streaming stuff (like movies) across the network.
+
+* If streaming movies from across the network and the user press on the dpad or a, b, x or y the emulator will abort the transfer.  This should help speed up rom browsing and allow the user an "out" especially for the larger movies.
+
+* Fixed an issue with the software filters displaying garbage.
+
+* Activated the "Keep user Within ROM Directory Tree?" which I somehow missed.
+
+* Fixed up the box/cart art position on a few skins.
+
+* Fixed a problem where setting the box/cart orientation was screwed up.
+
+* Fixed the bug that screwed up Gilou's skin to begin with (too weird to explain).  :P

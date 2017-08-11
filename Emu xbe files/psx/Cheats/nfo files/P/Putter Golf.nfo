@@ -1,0 +1,4 @@
+Quantity Digits to Accompany Shots Taken Modifier Codes
+8000-FFFF - -32767 to -1
+0000 - 0
+0001-7FFF - 1 to 32768

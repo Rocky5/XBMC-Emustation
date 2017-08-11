@@ -1,0 +1,117 @@
+Quantity Digits to Accompany Item Modifier Codes
+00 - First Aid Kit
+02 - Hand Grenade
+03 - Plastic Explosive
+05 - Memo
+06 - Silver Cigarette Case
+07 - Microfilm A
+08 - Microfilm B
+09 - Microfilm C
+0A - Card Key (G)
+0B - Card Key (B)
+0C - Rewritten Card Key (B)
+0D -Card Key (R)
+0E - Special Key
+0F - Card Key (GR)
+10 - Small Key 1
+11 - Card Key (W)
+12 - Card Key (BLK)
+13 - Card Key (Y)
+14 - Steel Key
+15 - Room Key
+16 - Golden Lamb Pendant (2)
+17 - Small Key 2
+18 - Unit
+19 - System Disc
+1A - Gold Plate
+1B - Screwdriver
+1C - Crossbow
+1D - Grappling Hook
+1F - Infra-Red Scope
+20 - Endoscope
+21 - Blood Pack (Prepared)
+22 - Blood Pack (Base Fluid)
+23 - IC Chip
+24 - Secret Information Disk
+25 - Disc A
+26 - Disc B
+27 - Bullet Proof Vest
+28 - Golden Lamb Pendent
+29 - Pliers
+2A - Back Up Radio
+2C - Handgun
+2E - Twin Handguns
+30 - Handgun & Long Magazine
+31 - Machine Gun
+32 - Machine Gun & Custom Barrel
+33 - Machine Gun & Twin Magazine
+37 - Assault Rifle (Use 2 Inventory Slots)
+39 - Grenade Launcher (Use 2 Inventory Slots)
+3B - Handgun Magazine
+3C - Machine Gun Magazine
+3D - Assault Rifle Magazine
+3E - Grenade Launcher Ammo
+3F - Add-On Grenade Launcher
+40 - Handgun Long Magazine
+41 - Machine Gun Twin Magazine
+42 - Machine Gun Custom Barrel
+43 - Scope
+
+Quantity Digits to Accompany Memo Modifier Codes
+00 - List Of Artwork
+01 - Armored Car Specs
+02 - Guards Letter
+03 - NCO File 1
+04 - NCO File 2
+05 - Officers Note
+06 - BH Train Info
+07 - NCO's Diary
+08 - Billy's Diary
+09 - Warnings
+0A - Ambassadors Schedule
+0B - Wanted Terrorists
+0C - Communication Scrap 2
+0D - Chef's Memo
+0E - Communication Scrap 1
+0F - Passengers In VIP Car
+10 - Cook's Diary
+11 - Reguest To Ambassador
+12 - SP Rook's Memo
+13 - Ambassador's Note 1
+14 - Ambassador's Note 2
+15 - BH Performance Chart
+16 - Missle Specifications
+17 - Domo & Sherry
+18 - Treatment Unit Report
+19 - Experiment Diary
+1A - Laboratory Warnings
+1B - Emergency Manual 1
+1C - Desk Note
+1D - Equipment Record
+1E - Power Reactor Note
+1F - Emergency Manual 2
+20 - Boris's Speech
+21 - Service Diary
+22 - Rail Gun Instructions
+23 - Bug Report
+24 - Infrared Room Records
+25 - Infrared Room Guard List
+26 - Plan Document Folder
+27 - Radiation Suit Manual
+28 - Philip's Memo
+29 - Cargo Transport Manual
+2A - Car 2 Completion Plans
+2B - Coded Message
+2C - Coded Message A
+2D - Coded Message B
+2E - Coded Message C
+2F - Decoding Table A
+30 - Decoding Table B
+31 - Decoded Instructions
+32 - Driving Manual
+33 - Synthetic Blood FCB Info
+34 - Maintenance Hatch Info
+35 - Memo
+36 - Microfilm A
+37 - Microfilm B
+38 - Microfilm C

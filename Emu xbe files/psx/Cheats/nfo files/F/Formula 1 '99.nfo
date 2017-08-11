@@ -1,0 +1,77 @@
+Quantity Digits to Accompany Driver Modifier Code
+Team McLaren
+01 - Mika Hakkinen
+02 - David Coulthard
+Team Ferrari
+03 - Mike Schumacher
+04 - Eddie Irvine
+Team Williams
+05 - Alessandro Zanardi
+06 - Ralf Schumacher
+Team Jordan
+07 - Damon Hill
+08 - Heinz-Harald Frentzen
+Team Benetton
+09 - Giancarlo Fisichella
+0A - Alexander Wurz
+Team Sauber
+0B - Jean Alesi
+0C - Pedro Diniz
+Team Arrows
+0D - Pedro de la Rosa
+0E - Toranosuke Takagi
+Team Stewart
+0F - Rubens Barrichello
+10 - Johnny Herbert
+Team Prost
+11 - Olivier Panis
+12 - Jarno Trulli
+Team Minardi
+13 - Luca Badoer
+14 - Marc Gene
+Team British American Racing
+15 - Jacques Villeneuve
+16 - Ricardo Zonta
+Team Safety Car
+17 - Mika Salo (Glitchy Fast Car)
+18 - Stephane Sarrazin (Glitchy Fast Car)
+
+Quantity Digits to Accompany Position View Modifier Code
+00 - 1st
+01 - 2nd
+02 - 3rd
+03 - 4th
+04 - 5th
+05 - 6th
+06 - 7th
+07 - 8th
+08 - 9th
+09 - 10th
+0A - 11th
+0B - 12th
+0C - 13th
+0D - 14th
+0E - 15th
+0F - 16th
+10 - 17th
+11 - 18th
+12 - 19th
+13 - 20th
+14 - 21st
+15 - 22nd
+
+Quantity Digits to Accompany Mode Modifier Code
+00 - Quick Race
+01 - Single Race
+02 - Championship
+03 - Test Drive
+04 - High Speed
+05 - Medium Speed
+06 - Low Speed
+07 - Quick Race+
+
+Note 1:
+With this code, do not use it in 2-Player Mode.
+
+Note 2:
+With this code, there is no need to qualify.

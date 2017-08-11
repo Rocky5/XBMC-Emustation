@@ -1,0 +1,75 @@
+Quantity Digits to Accompany Weapon Modifier Codes
+00 - GP Laser MK I
+01 - GP Laser MK II
+02 - GP Laser MK III
+03 - Shield Laser
+04 - Shield Laser MK II
+05 - Hull Laser MK III
+06 - Hull Laser
+07 - Hull Laser MK II
+08 - Shield Laser MK III
+09 - Cooled GP Laser
+0A - Cooled Shield Laser
+0B - Cooled Hull Laser
+0C - Plasma Cannon
+0D - Gauss Gun
+0E - Scatter Gun
+0F - BFG
+10 - Sha`Har Grapple
+11 - Turret Laser
+12 - Turret Laser
+13 - Turret Laser
+14 - Turret Laser
+15 - SAAD Laser
+16 - SAAD Laser
+17 - SAAD Laser
+18 - Shield Missile
+19 - Shield Missile MK II
+1A - Weak Shield Missile
+1B - Hull Missile
+1C - Hull Missile MK II
+1D - Weak Hull Missile
+1E - Plasma Missile
+1F - Weak Plasma Missile
+20 - Stun Missile
+21 - Jamma Missile
+22 - Nanotech Missile
+23 - Two Stage Missile
+24 - Stun Torpedo
+25 - Plasma Torpedo
+26 - Nanotech Torpedo
+27 - Scarab HDW
+28 - B D S 9000
+29 - Photon Torpedo
+2A - Flare
+2B - Distress Flare
+2C - Decloaker Missile
+2D - Cloak Device
+2E - Frapple Gun
+2F - Offense Pod
+30 - Defence Pod
+31 - Repair Pod
+32 - ECM Pod
+33 - Phase Distorter Beacon
+34 - Waypoint Beacon
+35 - Cooling Vents
+36 - Heat Sinks
+37 - Recharge Boost
+38 - Shield Maximiser
+
+Quantity Digits to Accompany Ship Modifier Code
+00 - Magentech CR8 Snapdragon
+01 - Zaibatsu Zu-7 Ryusei
+02 - Zaibatsu Zu-15A Shinden
+03 - Harper-Jones H25 Cobra
+04 - Harper-Jones H4E Magnum
+05 - BSI 919 Medusa II
+06 - BSI 303 Hyper Zeroid
+07 - BSI 606 Super Medusa
+08 - Sha`Har Fighter
+
+Note 1:
+With this code, once you use this code and all H's have been set to 99, save your game and then reboot with the code turned off.
+
+Note 2:
+With this code, once you use this code and all H's have been set to 99, save your game and then reboot with the code turned off.

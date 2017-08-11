@@ -1,0 +1,41 @@
+Quantity Digits to Accompany Character Modifier Codes
+00 - Japple
+01 - Divita
+02 - Turmell
+03 - Thompson
+04 - Geer
+05 - Carlton
+06 - Hedrick
+07 - Hey
+08 - Morris
+09 - Bardo
+0A - Minifee
+0B - Martinez
+0C - Pesina
+0D - Liptak
+0E - Ferrier
+0F - Vinikour
+10 - Rivett
+11 - Ehrlich
+12 - Root
+13 - Mednick
+14 - Roan
+15 - Fitzgerald
+16 - Boon
+17 - Tobias
+18 - Oursler
+19 - Skiles
+1A - Quinn
+1B - Perry
+1C - Funk
+1D - M-Dog
+1F - Oldboy
+21 - North
+22 - Amrich
+23 - Jiggetts
+
+Note 1:
+With this code, it works for both teams.
+
+Note 2:
+With this code, dunks are always equal to 2 points. Press R1 to make every basket worth 10 points. Do not press R1 when the CPU/P2 shoots or he will also score 10 points.

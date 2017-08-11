@@ -1,0 +1,19 @@
+Quantity Digits to Accompany Equipped Modifier Codes
+0000 - Assault Rifle
+0001 - Rocket Launcher
+0002 - Chainsaw
+0003 - Gatling Gun
+0004 - Hand Grenade
+0005 - Rail Cannon
+0006 - Shield
+0007 - Cruise Missile
+0008 - Fist
+0009 - Grenade Launcher
+000A - ???
+000B - Homing Missle
+000C - Heavy Machine Gun
+000D - Shotgun
+000E - Flamethrower
+000F - ???
+0010 - Time Bomb
+FFFF - Nothing

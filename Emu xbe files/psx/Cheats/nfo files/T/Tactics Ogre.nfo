@@ -1,0 +1,409 @@
+in battle codes (notes)
+
+Note 1:
+With this code, if you don't have 10 characters in battle then the enemy's level goes up!.
+
+Note 2:
+With this code, it works for all unit enemy, guest and your characters....It also prevents anyone from healing....you can however use it with the turn modifier so that the code activates when it the enemies turn that way when the enemy attacks it doesn't effect you!
+
+misc codes (notes)
+
+Note 1:
+With this code, goto a shop, try to buy something and everything appears normal, Hold L2+R2 and you'll get access to every spell and piece of equipment in the game.
+
+Note 2:
+With this code, when holding L2, the person you are in control of stays active. Let go of L2 when you want to switch to a different character. (Doesnt work for guests or enemies.)
+
+Quantity Digits
+Item Digits
+
+Quantity Digits to Accompany Item Equipped Modifier Codes
+00 - UNEQUIP ITEM
+SWORDS,DAGGERS,AND BLADES
+01 - MINI SWORD
+02 - SHORT SWORD
+03 - BALDER DAGGER
+04 - BALDER SWORD
+05 - FAFNIEL SWORD
+06 - BALMUCK SWORD
+07 - DRAGON SWORD
+08 - !Header
+UNKNOWN
+09 - !Header
+UNKNOWN
+0A - !Header
+UNKNOWN
+0B - VICE SWORD
+0C - KACHUA SWORD
+0D - MILDAIN SWORD
+0E - WARRIOR SWORD
+0F - ZENOBIA SWORD
+10 - DESERT SWORD
+11 - ISLEBERG BLADE
+12 - NOTOS BLADE
+13 - FIRE SWORD
+14 - GRANITE SWORD
+15 - ICE SWORD
+16 - NYFRET BLADE
+17 - ORICON BLADE
+18 - PENETENT SWORD
+19 - ANGEL SWORD
+1A - BRUNHILD BLADE
+1B - OGRE SWORD
+AXE'S
+1C - PHLANKA AXE
+1D - BALDER AXE
+1E - HEAVY AXE
+1F - BOLEAS AXE
+20 - PROCS AXE
+21 - GRAMROCK AXE
+22 - EARTH AXE
+23 - ICE AXE
+24 - RUNE AXE
+25 - BLOOD AXE
+HAMMER'S
+26 - HEAVY HAMMER
+27 - BALDER HAMMER
+28 - POWER HAMMER
+29 - EROS HAMMER
+2A - FLAME HAMMER
+2B - PHALANX HAMMER
+2C - EARTH HAMMER
+2D - AQUA HAMMER
+2E - LIGHT HAMMER
+2F - DARK HAMMER
+CLAW'S
+30 - MATOU CLAW
+31 - BLUE CLAW
+32 - THUNDER CLAW
+33 - CAT CLAW
+34 - GALDIA
+STAFF'S
+35 - CEDAR STAFF
+36 - BALDER STAFF
+37 - LIFE STAFF
+38 - CLEAR STAFF
+39 - CHARGE STAFF
+3A - WIND STAFF
+3B - FIRE STAFF
+3C - EARTH STAFF
+3D - POISON STAFF
+3E - RIPPLE STAFF
+3F - DRAGON STAFF
+SPEARS & LANCES
+40 - SPEAR
+41 - SLENDER LANCE
+42 - BALDER LANCE
+43 - UNICORN LANCE
+44 - ZEPYULOS LANCE
+45 - VOLANCO LANCE
+46 - IGUNIS LANCE
+47 - EARTH LANCE
+48 - HERO LANCE
+49 - HOLY LANCE
+4A - EVIL LANCE
+WHIPS
+4B - GUARD WHIP
+4C - COMET WHIP
+4D - BLOOD WHIP
+4E - ROSEBUD WHIP
+PROJECTILES
+4F - RIMFIRE GUN
+50 - SHOTGUN
+51 - RIFLE
+52 - SHORT BOW
+53 - GREAT BOW
+54 - BALDER BOW
+55 - LIGHT BOW
+56 - FIRE BOW
+57 - SAND BOW
+58 - ICE BOW
+59 - STAR BOW
+5A - CHAOS BOW
+5B - DARK BOW
+5C - CROSSBOW
+5D - GEMINI BOW
+5E - SAINT BOW
+5F - PARAGUN
+60 - RIMFIRE
+61 - SHOTGUN
+62 - RIFLE
+SHIELDS
+63 - TOWER SHIELD
+64 - BALDER SHIELD
+65 - DRAGON SHIELD
+66 - BLACK SHIELD
+67 - THUNDER SHIELD
+68 - FLAME SHIELD
+69 - EARTH SHIELD
+6A - ICE SHIELD
+6B - ANGEL SHIELD
+6C - OGRE SHIELD
+GLOVES
+6D - POWER GLOVE
+6E - BALDER GLOVE
+6F - WARRIOR GLOVE
+70 - !Header
+HAND?
+ARMOR
+71 - LEATHER ARMOR
+72 - CHAIN MAIL
+73 - BALDER ARMOR
+74 - FAERIE ARMOR
+75 - DRAGON ARMOR
+76 - WARRIOR ARMOR
+77 - WING ARMOR
+78 - PHOENIX ARMOR
+79 - GRANITE ARMOR
+7A - AQUA ARMOR
+7B - ANGEL ARMOR
+7C - GRIM ARMOR
+7D - OGRE ARMOR
+7E - ROBE ARMOR
+7F - BALDER ARMOR
+80 - CRYSTAL ARMOR
+CLOAKS
+81 - WIND CLOAK
+82 - FIRE CLOAK
+83 - SOIL CLOAK
+84 - AQUA CLOAK
+85 - HOLY CLOAK
+86 - EVIL CLOAK
+HEAD GEAR
+87 - LEATHER HAT
+88 - BALDER HELMET
+89 - DRAGON HELMET
+8A - WARRIOR HELMET
+8B - HOLY CROWN
+8C - LIGHT HELMET
+8D - SKULL HELMET
+8E - OGRE HELMET
+FOOT GEAR
+8F - BATTLE BOOTS
+90 - WING BOOTS
+91 - WARP BOOTS
+92 - SPARK BOOTS
+93 - GREASE BOOTS
+94 - HOLY BOOTS
+95 - ZOMBIE BOOTS
+RINGS
+96 - MAGIC RING
+97 - MIND RING
+98 - WING RING
+99 - WARP RING
+9A - FLOAT RING
+9B - WIND RING
+9C - FIRE RING
+9D - SOIL RING
+9E - AQUA RING
+9F - HOLY RING
+A0 - EVIL RING
+A1 - UNDEAD RING
+NECKLACES
+A2 - VAN CHARM NECKLACE
+A3 - FOL CHARM NECKLACE
+A4 - SOL CHARM NECKLACE
+A5 - OHN CHARM NECKLACE
+A6 - BLACK NECKLACE
+A7 - RED NECKLACE
+A8 - BLUE NECKLACE
+A9 - EVIL NECKLACE
+ITEMS
+AA - BLOWHORN
+AB - HARP
+AC - AILERON
+AD - DRAGOS
+AE - WORD ROCK
+AF - CURE
+B0 - CURE+
+B1 - CURE++
+B2 - CURE+++
+B3 - MAGI
+B4 - MAGI+
+B5 - MAGI++
+B6 - MAGI+++
+B7 - MIND KIWI
+B8 - HOLY PLUM
+B9 - FOUL PEAR
+BA - LIFE ROCK
+BB - ANTIDOTE
+BC - AMBROSIA
+BD - ARISE
+BE - POMME
+BF - BLESSING
+C0 - JOY STONE
+C1 - NEST
+C2 - OBELON
+C3 - WIND ORB
+C4 - FIRE ORB
+C5 - EARTH ORB
+C6 - WATER ORB
+C7 - HOLY ORB
+C8 - DARK ORB
+C9 - FIRE SEAL
+CA - STEAK
+CB - CHICKEN
+CC - BURGER
+CD - OCTO BALL
+CE - ESCAPE
+CF - PUMPKIN
+
+Race Digits
+
+Quantity Digits to Accompany Race Modifier Codes
+00 - Zenobian
+01 - Lodis
+02 - Walstanian
+03 - Gargastan
+04 - Bacrum
+05 - Indistinct
+
+Turn Modifier Digits
+
+Quantity Digits to Accompany Turn Modifier Codes
+00 - Character 1
+01 - Character 2
+02 - Character 3
+03 - Character 4
+04 - Character 5
+05 - Character 6
+06 - Character 7
+07 - Character 8
+08 - Character 9
+09 - Character 10
+0A - Guest/Enemy
+0B - Guest/Enemy
+0C - Guest/Enemy
+0D - Enemy
+0E - Enemy
+0F - Enemy
+10 - Enemy
+11 - Enemy
+12 - Enemy
+13 - Enemy
+14 - Enemy
+15 - Enemy
+16 - Enemy
+
+Type Modifier Digits
+
+Quantity Digits to Accompany Type Modifier Codes
+Digit - Class Type - Character
+00 - Nothing
+01 - Soldier
+02 - Knight
+03 - Berzerker
+04 - Terror Knight
+05 - Sword Master
+06 - Dragoon
+07 - Ninja
+08 - Beast Tamer
+09 - Wizard
+0A - Warlock
+0B - Exorcist
+0C - Lich
+0D - Gunner
+0E - Amazon
+0F - Valkyrie
+10 - Archer
+11 - Dragon Tamer
+12 - Siren
+13 - Witch
+14 - Cleric
+15 - Priest
+16 - Angel Knight
+17 - Faerie
+18 - Gremlin
+19 - Hawk Man
+1A - Lizard Man
+1B - Pumpkin Head
+1C - Skeleton
+1D - Ghost
+1E - Templar Knight
+1F - Thunder Dragon
+20 - Red Dragon
+21 - Earth Dragon
+22 - Blue Dragon
+23 - White Dragon
+24 - Holy Dragon
+25 - Black Dragon
+26 - Tiamat
+27 - Gryphon
+28 - Cockatrice
+29 - Octopus
+2A - Octopus?
+2B - Golem
+2C - Hydra
+2D - Cyclops
+2E - Gorgon
+2F - Goblin
+30 - Beast Master
+31 - Sorceress
+32 - Denim
+33 - Lord - Main Hero's Picture
+34 - Soldier - Vice
+35 - High Priest - Kachua
+36 - Dark Priest - Kachua
+37 - Princess - Kachua
+38 - Paladin - Good Lans
+39 - Lord Mancer - Warren
+3A - Eagle Man - Canopus
+3B - White Knight?
+3C - White Knight?
+3D - Shaman (male)
+3E - Shaman (female)
+3F - Shaman? (female)
+40 - Shaman? (female)
+41 - Death Templar
+42 - Bishop
+43 - Dark Element
+44 - Temple Commando?
+45 - Temple Commando?
+46 - Temple Commando?
+47 - Temple Commando?
+48 - Temple Commando?
+49 - Temple Commando?
+4A - Temple Commando Oz
+5E - Demon
+5F - Veinfic
+60 - Searzist
+61 - Vice (Evil)
+62 - Summoner
+63 - Vice (Good)
+64 - Sorceror
+67/68/69 - Death Knight
+6A - Lich (Nybass)
+6B - Warrior
+6C - Beast Trainer (Gnab)
+6D - Guardian (Holy Dragon)
+6E - Guardian (Golem)
+6F - Guardian (Gryphon)
+70 - Guardian (Tiamat)
+71 - Gabiar
+72 - Relic Knight
+73 - Dark Stalker
+74 - Dark Dragon
+75 - Dark Eye
+76 - Dark Wing
+77 - Obinick
+78 - Iron Golem
+79 - Raven Man
+7A - Death Dragon
+7B - Lucifer Crow
+7C - Phenox
+7D - Salamander
+7E - Fire Drake
+7F - Fire Brass
+80 - Ice Giant
+81 - Kraken
+83 - Gargoyle
+84 - Lufu
+85 - Basalisk
+86 - Death Hydra
+87 - Hippogryph
+88 - Dragon Zombie
+8A - Zombie (Soldier)
+8D - Zombie (Beserker)
+8E - Zombie (Wizard)
+8F - Zombie (Amazon)
+90 - Zombie (Archer)

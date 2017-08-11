@@ -1,0 +1,113 @@
+Quantity Digits to Accompany Background Change Modifier Code
+00 - Stage 1
+01 - Stage 2
+02 - Stage 3
+03 - Stage 4
+04 - Stage 5
+05 - Stage 6
+06 - Stage 7
+07 - Stage 8
+08 - Stage 9
+09 - Stage 10
+
+Quantity Digits to Accompany Background Change Modifier Code
+00 - Paul's Background
+01 - Law's Background
+02 - Yoshimitsu's Background
+03 - Xiaoyu's Background
+04 - Hwoarang's Background
+05 - Lei's Background
+06 - Ogre's Background
+07 - School Background
+08 - Jin's Background
+09 - Nina's Background
+0A - Eddy's Background
+0B - King's Background
+0C - Heihachi's Background
+0D - Gon's Background
+0E - Dr. Boskonovitch's Background
+
+Quantity Digits to Accompany Motion Capture Change Modifier Codes
+00 - Paul's Moves
+01 - Law's Moves
+02 - Lei's Moves
+03 - King's Moves
+04 - Yoshimitsu's Moves
+05 - Nina's Moves
+06 - Hwoarang's Moves
+07 - Xiaoyu's Moves
+08 - Eddy & Tiger's Moves
+09 - Jin's Moves
+0A - Julia's Moves
+0B - Kuma & Panda's Moves
+0C - Bryan's Moves
+0D - Heihachi's Moves
+0E - Ogre & True Ogre's Moves
+0F - None (This is where Mokujin's moves would go, but he has none!)
+10 - Gun Jack's Moves
+11 - Anna's Moves
+12 - Dr. Boskonovitch's Moves
+13 - Gon's Moves
+14 - Force Mode Enemies' Moves
+
+Quantity Digits to Accompany Costume Modifier Code
+00 - First Costume
+01 - Second Costume
+02 - Third Costume
+
+Quantity Digits to Accompany Skin Modifier Code
+00 - Paul (First Costume)
+01 - Paul (Second Costume)
+02 - N/A
+03 - Law (First Costume)
+04 - (Glitch)
+05 - Lei (First Costume)
+06 - King (First Costume)
+07 - King (Second Costume)
+08-25 - N/A
+26 - Xiaoyu (Third Costume)
+
+Note 1:
+With this code, you get, all 22 characters, including Tiger. All secret costumes (press "Start" to select them - the characters that have them are Jin, Eddy, Law, Xiaoyu, Anna, and Gun Jack), Tekken Ball Mode, Theater Mode with all endings, including Gun Jack's good ending. And uou can save this stuff to Memory Card when the code is active, by the way.
+
+Note 2:
+With this code, it replaces your character's motion capture with another character's. In other words, this allows you to use another character's moves. This way, you can play, for example, Xiaoyu with Ogre's moves. Replace the two "xx"s in the codes below with the number corresponding to the character's moves you'd like to have. Both "xx"s must have the same number in them. The list of numerals corresponding to the moves can be found here. With this code active, every character you choose will play like the character whose moves you've selected.This code has some drawbacks. These are: 1.) If you Continue in Arcade Mode, your character will revert back to his or her normal moves. As soon as you reach the next stage, however, they will change back to what you've chosen via the code. 2.) If you play more than one match in VS Mode, your moves will revert back to normal. To fix this, simply Soft Reset (Select+Start) after each match you play in VS Mode, then go back into VS Mode. 3.) Sometimes you cannot play against the character whose moves you're using. Example: If you've selected Jin, and the code's given you Eddy's moves, if you fight against Eddy the game may occasionally crash. Usually it doesn't, so you can take the risk.
+
+Note 3:
+With this code, it will allow you to play as the four Force Mode enemies, Crow, Falcon, Hawk and Owl. One thing you MUST keep in mind when using this code is that you must play one normal match in any mode before selecting these characters. If you don't, the game will crash. This code works for both 1P and 2P. Here's how to use it: In Arcade, Practice, Time Attack and Survival Modes: 1.) Start a match in any mode using any character EXCEPT one of the Force Mode enemies. 2.) Soft Reset (Start+Select) 3.) At the character select screen, choose any character*. As soon as you've chosen, press and hold Select until the matchup screen appears. * Press Square to choose Crow, press X to choose Falcon, Press Triangle to choose Hawk and press Select+Circle to choose Owl. In VS, Team Battle and Tekken Ball Modes: 1.) Start a match in any mode using any character EXCEPT one of the Force Mode enemies. 2.) Soft Reset (Start+Select) 3.) At the character select screen, Press Select+Square to choose Crow, Press Select+X to choose Falcon, Press Select+Triangle to choose Hawk, Press Select+Circle to choose Owl. This code comes in three sets. Input all three sets exactly as they appear here, with each in their own code slot. Make sure all three sets are active when you use this code. The Force Mode enemies' move set is somewhat pathetic. They can't jump, can't duck, and can only dash, not walk. They have painfully few moves as well, so I recommend replacing their moves with the code below, "Replace Force Mode Enemies' Moves With Better Ones." If you do decide to keep the Force Mode enemies' original moves, remember this astonishingly simple 75% damage combo: Down-towards + RP , Down-towards + RP, Down-towards + RP. Important Notes: Don't select "Command" from the Pause menu when playing one of the Force Mode enemies. If you do, the game may crash. This code does not work with Force Mode. If you enter Force Mode with this code active the game will crash. Use the code below to play as Crow, Falcon, Hawk and Owl in Force Mode. Play as the Force Mode enemies IN Force Mode
+
+Note 4:
+With this code, to use, enter Force Mode and choose any character. Press Square to choose Crow, press X to choose Falcon, press Triangle to choose Hawk, and press Select+Circle to choose Owl. This code is for Player 1 only. Do not use this code with any mode other than Force Mode.
+
+Note 5:
+The Force Mode enemies' moves are pretty poor. With this code, you can replace them with those of any other character. Replace both "xx"s with the same number. Pick them from this list. This code has the same drawbacks as the Motion Capture Change code, which you can read about above.
+
+Note 6:
+With this code, you will ALWAYS fight on the background you choose. Replace "xx" with the background of your choice from this list. Note that this code will crash Force Mode.
+
+Note 7:
+With this code, the P2 pad will control the opponent in 1P Arcade Mode! This can be a fun alternative to Versus Mode with a friend... one person controls a single character, while the other gets to control each opponent... all the way up to True Ogre! It's fun!
+
+Note 8:
+With this code, the 2P side character's back will always be turned. It's fun to play the CPU this way - Watch them flail about and not be able to hit you! Remember, however, if you sidestep around you can get the CPU to face you, so watch out. This works in any mode, by the way. Try it on an unsuspecting friend!
+
+Note 9:
+With this code, it will remove the darkness that covers BGs during True Ogre fights. Since there are now polygons being used to display the BG, prepare for a tad more breakup, especially during a True Ogre VS. True Ogre match.
+
+Note 10:
+With this code, it makes the life bars invisible, allowing for some interesting matches... you never know when you're about to die!
+
+Note 11:
+With this code, you thought my RE2 Super Ridiculous Codes were crazy? Ah, you have no idea of the mania that awaits you! With this code active, simply start a match in any mode except Force Mode and let the insanity begin!
+
+Note 12:
+With this code, nope, I'm not telling you what this code does. You'll have to see for yourself. Be sure to enter each set (there are three) in its own code slot in the exact order they appear here, and make sure all three are ON when you start the game. One mistake could cause the whole code to not work, so be careful! Also, don't expect too much with this code... it's just for fun. And don't worry, you should be able to see what effect it has instantly! Note that you must have everything unlocked to use this code. If you don't, nothing will happen. Make sure you load a saved game with everything unlocked or have the "Absolutely Everything Unlocked" code active at the same time.
+
+Note 13:
+With this code, not all Characters have a 3rd costume so if you activate the 3rd costume on a character that doesn't have one then it will lock up the game.
+
+Note 14:
+With this code, it will only work if Dr. Boskonovitch has NOT been enabled. Code #38 can be saved to memory. If you are "unlocking everything" with code #3, change the last two digits of line "3009-7EF2-001F" to "17". Code "3009-7EF2-001F" can be made as a seperate code to enable the last character whenever you want to use him. To play all 5 stages as Dr. Boskonovitch, use with code #39.
+
+Note 15:
+With this code, it allows both players to hit, make contact, with each other no matter where they are on the screen.

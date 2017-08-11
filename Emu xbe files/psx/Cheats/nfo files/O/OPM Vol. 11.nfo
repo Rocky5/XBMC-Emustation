@@ -1,0 +1,29 @@
+Quantity Digits to Accompany Character Modifier Codes
+00 - Paul
+02 - Lei
+07 - Xiaoyu
+08 - Eddy
+
+Quantity Digits to Accompany Stage Modifier Code
+00 - Paul's stage
+03 - Xiaoyu's stage
+05 - Lei's stage
+0A - Eddy's stage
+
+Quantity Digits to Accompany Costume Modifier Codes
+00 -Costume 1
+01 - Costume 2
+
+Quantity Digits to Accompany Wire Frame Modifier Code
+00 - Paul 1
+01 - Paul 2
+04 - Lei 1
+05 - Lei 2
+0E - Xiaoyu 1
+0F - Xiaoyu 2
+10 - Eddy 1
+11 - Eddy 2
+
+Quantity Digits to Accompany Control Modifier Code
+00 - Player
+01 - Cpu

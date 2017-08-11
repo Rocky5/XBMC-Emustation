@@ -1,0 +1,513 @@
+Main Character Equipped Weapon Codes note
+
+Note 1:
+With this code, as soon as you equip your weapon, it will have maxed out everything.
+
+Quantity Digits
+Elemental Spirit Digits
+
+Quantity Digits to Accompany Elemental Spirit Modifier Codes
+00 - Wisp
+01 - Shade
+02 - Dryad
+03 - Aura
+04 - Salamander
+05 - Gnome
+06 - Jinn
+07 - Undine
+
+Item Material Digits
+
+Quantity Digits to Accompany Item Material Modifier Codes
+00 - MenosBronze
+01 - ForsenaIron
+02 - GranzSteel
+03 - LorantSilver
+04 - WendelSilver
+05 - VizelGold
+06 - IshePlatinum
+07 - LorimarIron
+08 - AltenaAlloy
+09 - MaiaLead
+0A - Orihalcon
+10 - OakWood
+11 - HollyWood
+12 - BaobabWood
+13 - EbonyWood
+14 - MapleWood
+15 - DiorWood
+16 - AshWood
+17 - FossilWood
+18 - Marble
+19 - Obsidian
+1A - PedanStone
+1B - Gaeus'sTears
+1C - AnimalHide
+1D - GatorSkin
+1E - CentaurHide
+1F - DragonSkin
+20 - FishScales
+21 - LizardScales
+22 - SnakeScales
+23 - DragonScales
+24 - AnimalBone
+25 - Ivory
+26 - CursedBone
+27 - Fossil
+28 - ToppleCotton
+29 - Sultan'sSilk
+2A - JuddHemp
+2B - AltenaFelt
+2C - JacobiniRock
+2D - HalleyRock
+2E - AnkhRock
+2F - Vinekrock
+30 - TuttleRock
+31 - NemesisRock
+32 - BiellaRock
+33 - SwifteRock
+34 - Adamantite
+35 - Fullmetal
+36 - Coral
+37 - TortoiseShell
+38 - Shell
+39 - Emerald
+3E - Pearl
+3F - LapisLazuli
+
+Item Type Digits
+
+Quantity Digits to Accompany Item Type Modifier Codes
+00 - Knife (Weapon)
+01 - Shield (Armor)
+02 - Harp (Instrument)
+04 - Sword (Weapon)
+05 - Helm (Armor)
+06 - Marimba (Instrument)
+08 - Axe (Weapon)
+09 - Hat (Armor)
+0A - Flute (Instrument)
+0C - 2H Sword (Weapon)
+0D - Hauberk (Armor)
+0E - Drum (Instrument)
+10 - 2H Axe (Weapon)
+11 - Robe (Armor)
+14 - Hammer (Weapon)
+15 - Gauntlets (Armor)
+18 - Spear (Weapon)
+19 - Ring (Armor)
+1C - Staff (Weapon)
+1D - Boots (Armor)
+20 - Glove (Weapon)
+21 - Shoes (Armor)
+24 - Flail (Weapon)
+25 - Armor (Armor)
+28 - Bow (Weapon)
+29 - Mantle (Armor)
+2D - Pendant (Armor)
+
+Magic Equipped Digits
+
+Quantity Digits to Accompany Magic Equipped Modifier Codes
+00 - Admonition
+01 - Rising Eagle
+02 - Vortex Of Death
+03 - Vapor Blade
+04 - Sonic Wave
+05 - Rising Dragon
+06 - Crescent Moon
+07 - Eclipse
+08 - Backstab
+09 - Puppet
+0A - Cobra Fang
+0B - Ninja Drop
+0C - Pouncing Cat
+0D - Back Slasher
+0E - Reaping The Mist
+0F - Dark Assassins
+10 - Dance Of Roses
+11 - Looking Glass
+12 - Aerial Reaver
+13 - Phoenix
+14 - Air Strike
+19 - Iai Strike
+1A - Cutting Bamboo
+1B - Maelstrom
+1C - Rising Sun
+1D - Blade Launcher
+1E - Cutting Pine
+1F - Bird Of Prey
+20 - Corkscrew
+21 - Cross Strike
+22 - Tiger Claw
+23 - Clean Sleep
+24 - Dragons Tail
+25 - Orbiting Blades
+26 - Motion Of Truth
+27 - Smashing Blade
+28 - Invisible
+29 - Dynamite X
+2A - Terminal Velocity
+2B - Golden Dragon
+2C - Laser Blade
+30 - Deep Slice
+31 - Axe Bomb
+32 - Tornado
+33 - Electronic Yo Yo
+34 - Retribution
+35 - Bird Of Prey
+36 - Salmon Upstream
+37 - Rising Sun
+38 - Cutting Pine
+39 - Axe Bomber
+3A - Black Wings
+3B - Boulder Dash
+3C - Orbiting Blades
+3D - Cross Strike
+3E - True Strike
+3F - Dynamite X
+40 - Time Burst
+41 - Karma
+42 - Ground Breaker
+48 - Lunging Arc
+49 - Rising Crush
+4A - Spiral Wave
+4B - Shish Kebob
+4C - Impulse
+4D - Shield breaker
+4E - Windslasher
+4F - Windwalker
+50 - Splashblade
+51 - Rain Of Blood
+52 - Bring It On
+53 - Marble Stream
+54 - Skullsplitter
+55 - Beautiful Three
+56 - Quakebringer
+57 - Triple Offense
+58 - Deep Swing
+59 - Raging Pain
+5A - Lifestealer
+60 - Sideswipe
+61 - Rising Claw
+62 - Flying Sawblades
+63 - Rolling Throw
+64 - Blurred Axe
+65 - Rising Crush
+66 - Spiral Wave
+67 - Impulse
+68 - Divine Right
+69 - Snowfall
+6A - Spinning Hawk
+6B - Tidal Wave
+6C - Splashblade
+6D - Angelic Lumberjack
+6E - Buzzsaw Of Doom
+6F - Spikestike
+70 - Sparkling Rampage
+78 - Superslugger
+79 - Big Bang
+7A - Blammo
+7B - Mole Hunting
+7C - Ground Zero
+7D - Rising Crush
+7E - Windwalker
+7F - Retribution
+
+Monster Breed Digits
+
+Quantity Digits to Accompany Monster Breed Modifier Codes
+00 - Rabite
+01 - Molebear
+02 - Teedie
+03 - Howler
+04 - Gray Ox
+05 - Lullabud
+06 - Mushboom
+07 - Shrieknip
+08 - Malboro
+09 - Wooding
+0A - Stinger Bug
+0B - Hoppin' Tick
+0C - Silkspitter
+0D - Sand Scorpion
+0E - Gloomoth
+0F - Tonpole
+10 - Lizardon
+11 - Rattler Boa
+12 - Basilisk
+13 - Tyrranos
+14 - Iffish
+15 - Pincher Crab
+16 - Seajack
+17 - Sea Dragon
+18 - Big Baby
+19 - Needlebeak
+1A - Bloodsucker
+1B - Cockatrice
+1C - Chocobo
+1D - Garuda
+1E - Shadow Zero
+1F - Slime
+20 - Tezla
+21 - Denden
+22 - Moldy Goo
+23 - Skullbeast
+24 - Zombine
+25 - Specter
+26 - Skeleton
+27 - Ape Mummy
+28 - Imp
+29 - Fierce Face
+2A - Punkster
+2B - Dark Stalker
+2C - Chimera Beast
+2D - Kid Dragon
+2E - Sky Dragon
+2F - Land Dragon
+30 - Eye Spy
+31 - Spiny Cone
+32 - Poto
+33 - Beholder
+34 - Springball
+35 - Cursed Doll
+36 - Polter Box
+37 - Chess Knight
+38 - Dainslaif
+39 -
+3A - Chobin Hood
+3B - Goblin
+3C - Tomato Man
+3D - Sahagin
+3E - Succubus
+3F - Narcissis
+40 - Mad Mallard
+41-47 -
+48-53 -
+
+Mystical Powers Digits
+
+Quantity Digits to Accompany Mystical Powers Modifier Codes
+00 - Yggdrasil
+01 - Ancient Moon
+02 - Mirrored World
+03 - Heavens Scale
+04 - Dying Earth
+05 - Ragnarok
+0F - Bed Of Thorn
+10 - Volcano
+11 - Metropolis
+12 - Tower
+13 - Spring
+14 - Ruler Of Sky
+21 - Mother Of Gods
+22 - Sun God
+23 - Moon Goddess
+24 - Thunder God
+25 - Goddess Of Love
+26 - Fertility Goddess
+27 - Ocean God
+28 - Wind God
+29 - Wisdom Goddess
+2A - Blacksmith God
+2B - God Of War
+2C - Fallen Angel
+2D - Witch Of Moon
+2E - Lord Of Flies
+2F - Wings Of Darkness
+30 - God Of Destruction
+31 - Beast Headed God
+32 - Leviathan
+33 - Sage
+34 - Man Of Valour
+35 - Wanderer
+36 - Sacrificed Nymph
+3F - Enticed Nymph
+40 - Nymph Of The Sky
+41 - Nymph Of Orchads
+42 - Nymph Of Dawn
+43 - Spirit
+51 - Pixie
+58 - Phoenix
+59 - Unicorn
+60 - Wisp
+61 - Shade
+62 - Dyrad
+63 - Aura
+64 - Salamander
+65 - Gnome
+66 - Jinn
+67 - Undine
+68 - Raven
+72 - Wolf
+73 - Horse
+75 - Sorcerer
+89 - Witch
+8A - King
+8B - Princess
+8C - Clown
+8D - Cleric
+
+Name Digits
+
+Quantity Digits to Accompany Name Modifier Codes
+21 - !
+22 - "
+23 - #
+24 - $
+25 - %
+26 - &
+27 - '
+28 - (
+29 - )
+2A - *
+2B - +
+2C - ,
+2D - -
+2E - .
+2F - /
+30 - 0
+31 - 1
+32 - 2
+33 - 3
+34 - 4
+35 - 5
+36 - 6
+37 - 7
+38 - 8
+39 - 9
+3A - :
+3B - ;
+3C -
+3F - ?
+40 - @
+41 - A
+42 - B
+43 - C
+44 - D
+45 - E
+46 - F
+47 - G
+48 - H
+49 - I
+4A - J
+4B - K
+4C - L
+4D - M
+4E - N
+4F - O
+50 - P
+51 - Q
+52 - R
+53 - S
+54 - T
+55 - U
+56 - V
+57 - W
+58 - X
+59 - Y
+5A - Z
+5B - [
+5C - \
+5D - ]
+5E - ^
+5F - _
+60 - `
+61 - a
+62 - b
+63 - c
+64 - d
+65 - e
+66 - f
+67 - g
+68 - h
+69 - i
+6A - j
+6B - k
+6C - l
+6D - m
+6E - n
+6F - o
+70 - p
+71 - q
+72 - r
+73 - s
+74 - t
+75 - u
+76 - v
+77 - w
+78 - x
+79 - y
+7A - z
+7B - {
+7C - |
+7D - }
+7E - ~
+7F - "
+
+Plunge Attack Digits
+
+Quantity Digits to Accompany Plunge Attack Codes
+02 - Quick Attack
+03 - Flash Blade
+04 - Ice Blade
+05 - Quick Blade
+06 - Ripper Blade
+07 - Cats Claw
+08 - Lions Claw
+09 - Numbing Blade
+0A - Poison Blade
+0B - Sinister Blade
+0C - Power Attack
+0D - Thrust
+0E - Uppercut
+0F - Jump
+17 - Flame Tongue
+18 - Icebrand
+19 - Moonlight
+1A - Sunlight
+1B - Vampsword
+1C - Power Attack
+1D - Thrust
+1E - Uppercut
+1F - Jump
+2A - Dragonslayer
+2B - Woodchopper
+2C - Power Attack
+2D - Thrust
+39 - Chaotic Avenger
+3A - Holy Avenger
+3B - Ragnorak
+3C - Power Attack
+4B - Treefeller
+4C - Great Axe Attack
+58 - Mjolnir
+59 - Sledge Hammer
+5A - Magma Hammer
+5B - Quake Hammer
+69 - Gungnir
+6A - Spear Of Light
+6B - Trident
+6C - Extreme Attack
+78 - Electrosceptre
+79 - Golden Touch
+7A - Demonicide
+7B - Caduceus
+89 - Flying Fist
+8A - Bullslayer
+8B - Hand Of Midas
+99 - Game Of Death
+9A - Green Princess
+9B - Red Dream
+9C - Flail Flog
+A4 - Medusas Arrow
+A5 - Flaming Arrow
+A6 - Icicle
+A7 - Phoenix Falling
+A8 - Solar Flare
+A9 - Lunar Shot
+AA - Magical Shot
+AB - Elven Archer
+AC - Power Attack
+AD - Double Shot
+AE - Shot

@@ -1,0 +1,235 @@
+Accessory Digits
+
+Quantity Digits to Accompany Accessory Modifier Codes
+00 - Empty
+01 - Martial Wear
+02 - Fencing Wear
+03 - Leather Vest
+04 - Metal Vest
+05 - Metal Jacket
+06 - Penguin Coat
+07 - War Mail
+08 - Crimson Vest
+09 - Black Leather
+0A - Golden Vest
+0B - Plain Clothes
+0C - Empty
+0D - Empty
+0E - Empty
+0F - Wedding Dress
+10 - Martial Cap
+11 - Fencing Cap
+12 - Leather Hat
+13 - Metal Helmet
+14 - War Helm
+15 - Feathered Cap
+16 - Black Helmet
+17 - Golden Hood
+18 - Plain Head Wear
+19 - Uniform
+1A - Bellonatunic
+1B - Dervishdress
+1C - Mermaid Mail
+1D - Beastly Robe
+1E - Executorgown
+1F - Angelic Robe
+20 - Goddess Robe
+21 - Blessed Habit
+22 - Empty
+23 - White Beret
+24 - Silver Beret
+25 - Ruby Helmet
+26 - Starlight
+27 - Vivid Turban
+28 - Empty
+29 - Blessed Helm
+2A - Empty
+2B - Red Mail
+2C - Iron Mail
+2D - Knight Mail
+2E - Dark Armor
+2F - Rose Tabard
+30 - Slayer Robe
+31 - Manly Mantle
+32 - Hero Costume
+33 - Legendary Robe
+34 - Kingly Armor
+35 - Iron Helmet
+36 - Knight Helm
+37 - Dark Helm
+38 - Kings Helm
+39 - Kaiser Helm
+3A - Mens Hat
+3B - Pilotuniform
+3C - Battle Vest
+3D - Holy Habit
+3E - Devil Dress
+3F - Fuzzy Frock
+40 - Battle Dress
+5A - Power Ring
+5B - Power Ring S
+5C - Stamina Ring
+5D - Stamina Ring S
+5E - Glasses
+5F - Super Goggles
+60 - Step Shoes
+61 - Premier Shoes
+62 - Ether Stone
+63 - Ether Stong Lg
+64 - Anti Eth Stone
+65 - Anti Eth Rock L
+66 - Speed Ring
+67 - Speed Ring S
+68 - Gallant Belt
+69 - Yamato Belt
+6A - Economether
+6B - Wizardry Ring
+6C - Hercules Ring
+6D - Trader Card
+6E - Holy Pendant
+6F - Coin Of Fate
+70 - Life Stone
+71 - Power Crisis
+72 - Guardian Ring
+73 - Evasion Ring
+74 - Long Dark Coat
+75 - Battle Apron
+76 - Body Guard
+77 - Wind Guard
+78 - Poison Guard
+79 - Sleep Guard
+7A - Cool Shades
+7B - Brain Guard
+7C - Speed Shoes
+7D - Muscle Belt
+7E - Ether Doubler
+7F - Ether Guard
+80 - Wind Ring
+81 - Earth Ring
+82 - Fire Ring
+83 - Water Ring
+84 - Ether Reversa
+85 - Ether Veiler
+86 - Ether Maxer
+87 - Fei Jr.doll
+88 - Bart Jr.doll
+89 - Billy Jr.doll
+8A - Elly Jr.doll
+8B - Emer Jr.doll
+8C - Mermaid Ring
+8D - Combo Star
+8E - Chu-Chu Idol
+8F - Momentochain
+
+Item Digits
+
+Quantity Digits to Accompany Item Modifier Codes
+00 - Nothing
+01 - Aquasol
+02 - Aquasol S
+03 - Aquasol DX
+04 - Alphasol
+05 - Panalphsol
+06 - Rosesol
+07 - Rosesol S
+08 - Rosesol DX
+09 - Sigmasol
+0A - Zetasol
+0B - Zetasol DX
+0C - Physisol
+0D - Mentsol
+0E - Physimentsol
+0F - White Star
+10 - Brown Star
+11 - Red Star
+12 - Blue Star
+13 - Hard Star
+14 - Speed Star
+15 - Tragedienne
+16 - Comedienne
+17 - Igissol
+18 - Aegissol
+19 - Blue Rose
+1A - Red Rose
+1B - Black Rose
+1C - ElementAero
+1D - ElementTerra
+1E - ElementPyro
+1F - ElementHydro
+20 - Samson's Hair
+21 - Debug Item
+22 - Debug Skill
+23 - Weak vs Wind
+24 - Weak vs Earth
+25 - Weak vs Fire
+26 - Weak vs Water
+27 - Stop!
+28 - Sleep!
+29 - Weakling
+2A - Confusion
+2B - Armor Loss
+2C - EXP Ball
+2D - Combo Ball
+2E - Omni
+2F - option (?????)
+30 - Option (?????)
+31 - Omegasol
+32 - Survival Tent
+33 - STR Drive
+34 - VIT Drive
+35 - ETH Drive
+36 - ETHDEF Drive
+37 - HP Drive
+38 - EP Drive
+39 - Hob-Jerky
+3A - Hob-Meat
+3B - Hob-Steak
+3C - Fang
+3D - Eyeball
+3E - Scales
+3F - Bizfruit
+40 - Elfanana
+41 - Ariberry
+42 - Radish
+43 - Durian Juice
+44 - Nisan Water
+45 - Aveh Water
+46 - Toy gun
+47 - Minigear
+48 - Anoret Seed
+49 - Anoret Fruit
+4A - Bulimy Seed
+4B - Bulimy Fruit
+4C - RPS Badge
+4D - H&S Badge
+4E - Tag Badge
+4F - Mermaid Tear
+50 - UFO Photo
+51 - Master Key
+52 - Sewer Keys
+53 - Bell Amulet
+54 - Book 1
+55 - Book 2
+56 - Book 3
+57 - Spider
+58 - Bird Egg
+59 - Dog Food
+5A - Gold Nugget
+5B - Spider Web
+5C - M Disk
+5D - Chu-chu Doll
+5E - Tickets
+5F - Chu-chu Idol
+60 - Cabin Key
+61 - Kislev Map
+62 - Merkava Map
+63 - Shevat Map
+64 - Rock
+65 - Dawn Rock
+66 - Dusk Rock
+67 - Dark Rock
+68 - Gold Bullion
+69 - Ivory
+6A - Army Cardkey
+6B - Work Permit
+6C - Dirty Badge
