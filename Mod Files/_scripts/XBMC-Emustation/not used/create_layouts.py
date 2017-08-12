@@ -14,26 +14,27 @@ print "| -----------------------------------------------------------------------
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 MyPrograms_Path					= xbmc.translatePath( 'special://skin/720p/MyPrograms.xml' )
-Default_layout_xml_Path			= xbmc.translatePath( 'special://xbmc/_layouts/default/layout.xml' )
+ThemeType						= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
+Default_Layout_XML_Path			= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/layout.xml' )
 Content_List_Path				= xbmc.translatePath( "Special://skin/720p/content lists/" )
 
 for Items in sorted( os.listdir( Content_List_Path ) ):
 	if os.path.isfile( os.path.join( Content_List_Path,Items ) ):
 		#####	Sets variables.
 		Emu_Name			= Items[:-4]
-		layout_xml_Path		= xbmc.translatePath( 'special://xbmc/_layouts/' + Emu_Name + '/layout.xml' )
+		Layout_XML_Path		= xbmc.translatePath( 'special://xbmc/_layouts/' + Emu_Name + '/' + ThemeType + '/layout.xml' )
 		###########
 
 		## this is here so not to mess with the actual menulabel
-		if not os.path.isfile( layout_xml_Path ):
+		if not os.path.isfile( Layout_XML_Path ):
 			MenuLabel_XML = "default"
 		else:
 			MenuLabel_XML = Emu_Name
 			
-		Header_Data						= '<window id="1">\n\
+		Header_Data				= '<window id="1">\n\
 			<defaultcontrol always="false">9000</defaultcontrol>\n\
 			<allowoverlay>no</allowoverlay>\n\
-			<views>50,51,52,53,54,55,56,57,58,59,60</views>\n\
+			<views>50</views>\n\
 			<layout>' + MenuLabel_XML + '</layout>\n\
 			<controls>\n\
 			<include>CommonBackground</include>\n\
@@ -49,7 +50,7 @@ for Items in sorted( os.listdir( Content_List_Path ) ):
 				<texture background="false" fallback="layouts/' + MenuLabel_XML + '/menu_background.png">Special://xbmc/_layouts/' + MenuLabel_XML + '/menu_background.png</texture>\n\
 			</control>\n\
 		'
-		Footer_Data						= '\n\
+		Footer_Data				= '\n\
 			<control type="image">\n\
 				<posx>0</posx>\n\
 				<posy>85r</posy>\n\
@@ -64,9 +65,9 @@ for Items in sorted( os.listdir( Content_List_Path ) ):
 
 		if not os.path.isdir( Content_List_Path + 'merged' ): os.makedirs( Content_List_Path + 'merged' )
 		
-		if os.path.isfile( layout_xml_Path ):
+		if os.path.isfile( Layout_XML_Path ):
 			try:
-				with open( layout_xml_Path ) as layoutfile:
+				with open( Layout_XML_Path ) as layoutfile:
 					with open(Content_List_Path + 'merged\\layout_' + Emu_Name + '.xml', "w") as inputfile:		
 						inputfile.write(Header_Data)
 						for code in layoutfile:
@@ -84,9 +85,9 @@ for Items in sorted( os.listdir( Content_List_Path ) ):
 			except:
 				pass
 
-		elif os.path.isfile( Default_layout_xml_Path ):
+		elif os.path.isfile( Default_Layout_XML_Path ):
 			try:
-				with open( Default_layout_xml_Path ) as layoutfile:
+				with open( Default_Layout_XML_Path ) as layoutfile:
 					with open(Content_List_Path + 'merged\\layout_' + Emu_Name + '.xml', "w") as inputfile:		
 						inputfile.write(Header_Data)
 						for code in layoutfile:
@@ -104,6 +105,6 @@ for Items in sorted( os.listdir( Content_List_Path ) ):
 			except:
 				pass
 		else:	# default layout is missing so error!
-			dialog.ok("FATAL ERROR","Reinstall XBMC-Emustation","or reinstall",layout_xml_Path)
+			dialog.ok("FATAL ERROR","Reinstall XBMC-Emustation","or reinstall",Layout_XML_Path)
 			
 xbmc.executebuiltin("Notification(Complete,All layouts refreshed)")

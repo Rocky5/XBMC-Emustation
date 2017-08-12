@@ -19,7 +19,7 @@
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
-								<font>extra50</font>
+								<font>size_50</font>
 								<label>$LOCALIZE[32001]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
@@ -48,7 +48,7 @@
 										<posy>0</posy>
 										<label>[UPPERCASE]$LOCALIZE[24022] $LOCALIZE[15108][/UPPERCASE]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript("Special://xbmc/_scripts/xbmc-emustation/dis-enable sound.py")</onclick>
+										<onclick>RunScript("Special://xbmc/_scripts/xbmc-emustation/dis-enable_sound.py")</onclick>
 										<selected>!Skin.HasSetting(DisabledSound)</selected>
 								</control>
 						</control>
@@ -60,7 +60,7 @@
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
-								<font>extra23</font>
+								<font>size_23</font>
 								<label>[UPPERCASE]$INFO[Player.Volume][/UPPERCASE]</label>
 								<textcolor>menu_select_label</textcolor>
 								<visible>Control.HasFocus(1)</visible>
@@ -73,7 +73,7 @@
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
-								<font>extra23</font>
+								<font>size_23</font>
 								<label>[UPPERCASE]$INFO[Player.Volume][/UPPERCASE]</label>
 								<textcolor>menu_deselect_label</textcolor>
 								<visible>!Control.HasFocus(1)</visible>

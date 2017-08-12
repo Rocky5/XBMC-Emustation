@@ -43,7 +43,7 @@
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
-								<font>extra50</font>
+								<font>size_50</font>
 								<label>WELCOME</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
@@ -54,7 +54,7 @@
 								<height>300</height>
 								<align>center</align>
 								<aligny>-</aligny>
-								<font>extra17</font>
+								<font>size_17</font>
 								<label>[UPPERCASE]to xbmc-emustation[CR][CR]this is a pet project of mine and its a combination of a skin, python scripts and source edits to XBMC.[CR][CR]so don't expect something spectacular.[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(1)</visible>
@@ -76,7 +76,7 @@
 								<height>300</height>
 								<align>center</align>
 								<aligny>-</aligny>
-								<font>extra17</font>
+								<font>size_17</font>
 								<label>[UPPERCASE]emulator files are placed in the subdirectories inside the [B]_emulators[/B] directory.[CR][CR]Roms are placed in the subdirectories inside the [B]_roms[/B] directory[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(2)</visible>
@@ -99,7 +99,7 @@
 								<height>300</height>
 								<align>center</align>
 								<aligny>-</aligny>
-								<font>extra17</font>
+								<font>size_17</font>
 								<label>[UPPERCASE]only exception to using the [B]_roms[/B] folder are FBA/L and MAME there roms must go in the roms folder in the root of there emulator folder.[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(3)</visible>
@@ -122,7 +122,7 @@
 								<height>300</height>
 								<align>center</align>
 								<aligny>-</aligny>
-								<font>extra17</font>
+								<font>size_17</font>
 								<label>[UPPERCASE]tbn images are placed in the subdirectories inside the [B]_tbns[/B] directory.[CR]the subdirectories are created after you scan in your roms, then you match the rom name.[CR][CR]example:[CR]Mario world.smc = mario world.tbn[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(4)</visible>
@@ -145,7 +145,7 @@
 								<height>300</height>
 								<align>center</align>
 								<aligny>-</aligny>
-								<font>extra17</font>
+								<font>size_17</font>
 								<label>[UPPERCASE][CR][CR]i will now create the folder structure for the roms folder and allow you to calibrate your screen.[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(5)</visible>
@@ -158,7 +158,7 @@
 										<posy>0</posy>
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
-										<onclick>RunScript(Special://xbmc/_scripts/xbmc-emustation/scan.py,scan_emus,0,scan_xbes)</onclick>
+										<onclick>RunScript(Special://xbmc/_scripts/xbmc-emustation/scanner.py,scan_emus,0,scan_xbes,silent_mode)</onclick>
 										<onclick>SetFocus(6)</onclick>
 								</control>
 						</control>
@@ -172,7 +172,7 @@
 										<posy>0</posy>
 										<width>340</width>
 										<height>50</height>
-										<font>extra23</font>
+										<font>size_23</font>
 										<align>center</align>
 										<aligny>center</aligny>
 										<label>$LOCALIZE[32022]</label>
@@ -195,7 +195,7 @@
 								<height>50</height>
 								<align>center</align>
 								<aligny>-</aligny>
-								<font>extra17</font>
+								<font>size_17</font>
 								<label>[UPPERCASE]press (a) to continue[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>

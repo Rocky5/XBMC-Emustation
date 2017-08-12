@@ -2,13 +2,13 @@
 		<defaultcontrol always="true">1</defaultcontrol>
 		<controls>
 				<control type="group">
-						<posy>17</posy>
+						<posy>41.5</posy>
 						<control type="image">
 								<description>background image</description>
 								<posx>320</posx>
 								<posy>108</posy>
 								<width>640</width>
-								<height>470</height>
+								<height>421</height>
 								<texture border="20,20,20,20">menu_back.png</texture>
 						</control>
 						<control type="label">
@@ -19,7 +19,7 @@
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
-								<font>extra50</font>
+								<font>size_50</font>
 								<label>$LOCALIZE[32002]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>

@@ -6,9 +6,8 @@
 import glob, os, shutil, sqlite3, sys,time, xbmc, xbmcgui
 
 #####	Start markings for the log file.
-print "================================================================================"
-print "| _Scripts\XBMC-Emustation\launchemu.py loaded."
-print "| ------------------------------------------------------------------------------"
+print "| _Scripts\XBMC-Emustation\direct_launch_emulator.py loaded."
+
 pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()
 
@@ -21,7 +20,10 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 		if found:
 			Working_Directory		= ( right[:CharCount] )
 			Root_Directory 			= Working_Directory[:-12] # Removed \default.xbe
-			Emulator_Path			= Root_Directory + '_emulators\\'
+			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
+				Emulator_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
+			else:
+				Emulator_Path		= Root_Directory + '_emulators\\'
 			if xbmc.getCondVisibility( '!Skin.HasSetting(althomelayout)' ): MenuLabel = xbmc.getInfoLabel('Container(9001).ListItem.Label2')
 			if xbmc.getCondVisibility( 'Skin.HasSetting(althomelayout)' ): MenuLabel = xbmc.getInfoLabel('Container(9002).ListItem.Label2')
 ###########

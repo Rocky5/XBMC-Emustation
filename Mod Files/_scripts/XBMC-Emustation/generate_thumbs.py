@@ -6,9 +6,8 @@
 import glob, os, shutil, sqlite3, sys,time, xbmc, xbmcgui
 
 #####	Start markings for the log file.
-print "================================================================================"
-print "| _Scripts\XBMC-Emustation\generate thumbs.py loaded."
-print "| ------------------------------------------------------------------------------"
+print "| _Scripts\XBMC-Emustation\generate_thumbs.py loaded."
+
 pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()
 pDialog.update( 0 )
@@ -31,9 +30,15 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 		if found:
 			Working_Directory		= ( right[:CharCount] )
 			Root_Directory 			= Working_Directory[:-12] # Removed \default.xbe
-			Emulator_Path			= Root_Directory + '_emulators\\'
+			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
+				Emulator_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
+			else:
+				Emulator_Path		= Root_Directory + '_emulators\\'
+			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Roms_Path)' ) ) == "1":
+				Roms_Path			= xbmc.getInfoLabel( 'Skin.String(Custom_Roms_Path)' )
+			else:
+				Roms_Path			= Root_Directory + '_roms\\'
 			CUTFile_Path			= Root_Directory + '_cuts\\'
-			Rom_Path				= Root_Directory + '_roms\\'
 			Game_Directories		= [ "E:\\Games\\","E:\\Games1\\","E:\\Games2\\","F:\\Games\\","F:\\Games1\\","F:\\Games2\\","G:\\Games\\","G:\\Games1\\","G:\\Games2\\" ]
 			Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\" ]
 			MyPrograms6_db			= xbmc.translatePath( "special://profile/database/MyPrograms6.db" )

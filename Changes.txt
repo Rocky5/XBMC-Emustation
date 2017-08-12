@@ -1,3 +1,18 @@
+12/08/2017
+	1) Fixed some typos in the python scripts.
+	2) Added support for custom root directories for Emulators and Roms.
+	   ( Note: a rescan of all cut files will be needed if you use a custom _roms or _emulator path.
+	   The folder structure must be the same but you can place the directory on a different partition now
+	   Example: I have mine in F:\XBMC-Emustation files\ and XBMC-Emustation on the E partition. )
+	3) Updated the font.xml and all corresponding files.
+	4) Redone the _Layouts files layout and structure and how they are processed. Its all done on the fly now.
+	5) Slight update to the home.xml when you select an entry it focuses a hidden button so you cant move.
+	   ( the script will refocus you to the list if there is no content )
+	6) Updated the Customize Home menu.
+	7) Added the update batch file, it just prepares the XBMC-Emustation folder for FTP.
+	8) Renamed all the python scripts, also updated all xml files that use them.
+	9) Python script optimizations.
+
 11/08/2017
 	1) Fixed the animations on the home screen.
 	2) Added the files necessary to get the PSX emulator working.

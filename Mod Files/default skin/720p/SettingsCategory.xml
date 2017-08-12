@@ -91,7 +91,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<height>45</height>
-						<font>extra20</font>
+						<font>size_20</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>black</focusedcolor>
 						<texturefocus border="5">ThumbFO.png</texturefocus>
@@ -102,7 +102,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<height>45</height>
-						<font>extra20</font>
+						<font>size_20</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>black</focusedcolor>
 						<texturefocus border="5">ThumbFO.png</texturefocus>
@@ -113,7 +113,7 @@
 						<posx>0</posx>
 						<posy>0</posy>
 						<height>45</height>
-						<font>extra20</font>
+						<font>size_20</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>black</focusedcolor>
 						<texturefocus border="5">ThumbFO.png</texturefocus>

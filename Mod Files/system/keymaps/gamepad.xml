@@ -58,7 +58,7 @@
 		<Home>
 				<gamepad>
 						<B>highlight</B>
-						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/launchemu.py)</Y>
+						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/direct_launch_emulator.py)</Y>
 						<start>XBMC.ActivateWindow(1111)</start>
 						<black>XBMC.Skin.ToggleSetting(HomeViewToggle)</black>
 				</gamepad>

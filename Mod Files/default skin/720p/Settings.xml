@@ -41,7 +41,7 @@
 												<posy>100</posy>
 												<width>236</width>
 												<height>20</height>
-												<font>extra20</font>
+												<font>size_20</font>
 												<textcolor>white</textcolor>
 												<selectedcolor>blue</selectedcolor>
 												<align>left</align>
@@ -72,7 +72,7 @@
 												<posy>100</posy>
 												<width>236</width>
 												<height>20</height>
-												<font>extra20</font>
+												<font>size_20</font>
 												<textcolor>black</textcolor>
 												<selectedcolor>blue2</selectedcolor>
 												<align>left</align>

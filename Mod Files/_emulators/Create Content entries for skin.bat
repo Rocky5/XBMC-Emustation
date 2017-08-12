@@ -22,7 +22,8 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
-			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/default.py^)^</onclick^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
 			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
@@ -32,7 +33,8 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
-			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/default.py^)^</onclick^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
 			Echo 	^</item^>
@@ -41,7 +43,8 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
-			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/default.py^)^</onclick^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
 			Echo 	^</item^>
@@ -67,7 +70,8 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
-			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/default.py^)^</onclick^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
 			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
@@ -77,7 +81,8 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
-			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/default.py^)^</onclick^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
 			Echo 	^</item^>
@@ -86,7 +91,8 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
-			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/default.py^)^</onclick^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
 			Echo 	^</item^>

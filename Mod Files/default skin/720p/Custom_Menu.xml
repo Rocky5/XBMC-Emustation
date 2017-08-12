@@ -23,7 +23,7 @@
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
-								<font>extra50</font>
+								<font>size_50</font>
 								<label>$LOCALIZE[32000]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
@@ -43,7 +43,7 @@
 										<posy>0</posy>
 										<label>$LOCALIZE[32005]</label>
 										<include>MenuFolderButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/default.py)</onclick>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
 								</control>
 								<control type="button" id="2">
 										<posx>0</posx>

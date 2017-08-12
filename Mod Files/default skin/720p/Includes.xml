@@ -7,7 +7,7 @@
 		<include name="CustomSettingsButtons">
 				<width>1170</width>
 				<height>51</height>
-				<font>extra20</font>
+				<font>size_20</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>black</focusedcolor>
 				<texturefocus border="5">thumbfO.png</texturefocus>
@@ -90,14 +90,14 @@
 								<aligny>center</aligny>
 								<label>[B]$INFO[ListItem.SortLetter][/B]</label>
 								<textcolor>black</textcolor>
-								<font>extra35</font>
+								<font>size_35</font>
 						</control>
 				</control>
 		</include>
 		<include name="MenuButtonCommonValues">
 				<width>640</width>
 				<height>50</height>
-				<font>extra23</font>
+				<font>size_23</font>
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>menu_deselect_label</textcolor>
@@ -110,7 +110,7 @@
 		<include name="MenuFolderButtonCommonValues">
 				<width>640</width>
 				<height>50</height>
-				<font>extra23</font>
+				<font>size_23</font>
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>menu_deselect_label</textcolor>
@@ -123,7 +123,7 @@
 		<include name="MenuVolumeButtonCommonValues">
 				<width>640</width>
 				<height>50</height>
-				<font>extra23</font>
+				<font>size_23</font>
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>menu_deselect_label</textcolor>
@@ -136,7 +136,7 @@
 		<include name="MenuYesNoButtonCommonValues">
 				<width>100</width>
 				<height>51</height>
-				<font>extra23</font>
+				<font>size_23</font>
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>menu_deselect_label</textcolor>
@@ -147,9 +147,9 @@
 				<texturenofocus border="20,20,20,20">yes_no_nofocus.png</texturenofocus>
 		</include>
 		<include name="MenuCustomButtonCommonValues">
-				<width>640</width>
-				<height>32</height>
-				<font>extra18</font>
+				<width>600</width>
+				<height>50</height>
+				<font>size_23</font>
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>menu_deselect_label</textcolor>
@@ -166,7 +166,7 @@
 				<focusedcolor>white</focusedcolor>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>extra20</font>
+				<font>size_20</font>
 				<texturefocus border="5">button-focus2.png</texturefocus>
 				<texturenofocus border="5">-</texturenofocus>
 				<pulseonselect>true</pulseonselect>
@@ -174,7 +174,7 @@
 		<include name="ButtonInfoDialogsCommonValues">
 				<height>25</height>
 				<width>200</width>
-				<font>extra20</font>
+				<font>size_20</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<shadowcolor>black</shadowcolor>

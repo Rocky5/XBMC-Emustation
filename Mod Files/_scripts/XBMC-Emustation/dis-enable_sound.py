@@ -6,9 +6,8 @@
 import os, xbmc
 
 #####	Start markings for the log file.
-print "================================================================================"
-print "| _Scripts\XBMC-Emustation\dis-enable sound.py loaded."
-print "| ------------------------------------------------------------------------------"
+print "| _Scripts\XBMC-Emustation\dis-enable_sound.py loaded."
+
 
 Sound_XML_Path					= xbmc.translatePath( 'special://skin/sounds/sounds.xml' )
 

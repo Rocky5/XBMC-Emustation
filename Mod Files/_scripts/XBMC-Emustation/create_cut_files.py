@@ -16,9 +16,8 @@ except:
 	Full_Scan	= "0"
 
 #####	Start markings for the log file.
-print "================================================================================"
 print "| _Scripts\XBMC-Emustation\scan.py loaded."
-print "| ------------------------------------------------------------------------------"
+
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 
@@ -31,10 +30,16 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 		if found:
 			Working_Directory	= ( right[:CharCount] )
 			Root_Directory		= Working_Directory[:-12] # Removed default.xbe
-			Emulator_Path		= Root_Directory + '_emulators\\'
+			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
+				Emulator_Path	= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
+			else:
+				Emulator_Path	= Root_Directory + '_emulators\\'
+			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Roms_Path)' ) ) == "1":
+				Roms_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Roms_Path)' )
+			else:
+				Roms_Path		= Root_Directory + '_roms\\'
 			CUTFile_Path		= Root_Directory + '_cuts\\'
 			Scripts_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\'
-			Roms_Path			= Root_Directory + '_roms\\'
 			TBN_Path			= Root_Directory + '_tbns\\'
 			Content_List_Path	= xbmc.translatePath( "Special://skin/720p/content lists/" )
 			Extensions			= [ "zip","bin","cue","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
@@ -49,7 +54,7 @@ def manual_scan():
 	log('|	Check if _emulators directory is selected instead of the emulator its self.')
 	if Emu_Path == Emulator_Path: return
 		
-	log('|	Convert Q:\\ to XBMCs internal special protocol')
+	log('|	Convert Q:\\ to a direct path')
 	if Emu_Path.startswith("Q:\\"): Emu_Path = Emu_Path.replace( "Q:\\", Root_Directory )
 
 	log('|	Checking to make sure the emulator you selected exists.')
@@ -71,6 +76,7 @@ def manual_scan():
 		
 		log('|	Check for previous layout xml and if it exists remove it.')
 		if os.path.isfile( Content_List_Path + Emu_Name + '.xml' ): os.remove( Content_List_Path + Emu_Name + '.xml' )
+		if not os.path.isdir( Content_List_Path ): os.makedirs( Content_List_Path )
 
 		log('|	Write new layout xml header.')
 		with open( Content_List_Path + Emu_Name + '.xml', "w") as outputmenufile:
@@ -79,17 +85,17 @@ def manual_scan():
 		
 		log('|	Check to see if the folder you selected it fba, or mame as these emulators must have there roms in there own roms folder in the emulators root directory')
 		if Emu_Name == "fba":
-			Roms_Folder	= Emulator_Path + '\\fba\\roms\\'
+			Roms_Folder	= Emulator_Path + 'fba\\roms\\'
 			Parse_FBL_XML = 1
 		elif Emu_Name == "mame":
-			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Emulator_Path + '\\mame\\roms\\' )
+			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Emulator_Path + 'mame\\roms\\' )
 		elif Emu_Name == "psx":
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
 			Parse_CUE_File = 1
 		else:
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
 		
-		log('|	Convert Q:\\ to XBMCs internal special protocol')
+		log('|	Convert Q:\\ to a direct path')
 		if Roms_Folder.startswith("Q:\\"): Roms_Folder = Roms_Folder.replace( "Q:\\", Root_Directory )
 		
 		log('|	Couple more vars being set')
@@ -190,19 +196,17 @@ def manual_scan():
 		xbmcgui.Window(xbmcgui.getCurrentWindowId()).setProperty("MyScript.ExternalRunning", "True")
 		
 		log('|	Running the scan script to update the counters.')
-		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scan.py,scan_emus,scan_cuts,0)' )
+		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scanner.py,scan_emus,scan_cuts,0,0)' )
 		
 		log('|	Loop.')
 		while (xbmcgui.Window(xbmcgui.getCurrentWindowId()).getProperty("MyScript.ExternalRunning") == "True"):
 			time.sleep(0.2)
 
-		log('|	Run the create layouts script to refresh them.')
-		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'create layouts.py)' )
 	pDialog.close()
 	return
 
 
-def full_scan(): ## not working yet
+def full_scan():
 
 	Found_Roms = 0
 	
@@ -227,6 +231,7 @@ def full_scan(): ## not working yet
 				
 				log('|	Check for previous layout xml and if it exists remove it.')
 				if os.path.isfile( Content_List_Path + Emu_Name + '.xml' ): os.remove( Content_List_Path + Emu_Name + '.xml' )
+				if not os.path.isdir( Content_List_Path ): os.makedirs( Content_List_Path )
 				
 				log('|	Write new layout xml header.')
 				with open( Content_List_Path + Emu_Name + '.xml', "w") as outputmenufile:
@@ -242,17 +247,17 @@ def full_scan(): ## not working yet
 				
 					log('|	Check to see if the current directory is fba or mame and set the roms path.')
 					if Emu_Name == "fba":
-						Roms_Folder	= Emulator_Path + '\\fba\\roms\\'
+						Roms_Folder	= Emulator_Path + 'fba\\roms\\'
 						Parse_FBL_XML = 1
 					elif Emu_Name == "mame":
-						Roms_Folder	= Emulator_Path + '\\mame\\roms\\'
+						Roms_Folder	= Emulator_Path + 'mame\\roms\\'
 					elif Emu_Name == "psx":
 						Roms_Folder	= Roms_Path + Emu_Name
 						Parse_CUE_File = 1
 					else:
 						Roms_Folder	= Roms_Path + Emu_Name
 						
-					log('|	Convert Q:\\ to XBMCs internal special protocol')
+					log('|	Convert Q:\\ to a direct path')
 					if Roms_Folder.startswith("Q:\\"): Roms_Folder = Roms_Folder.replace( "Q:\\", Root_Directory )
 					
 					log('|	Couple more vars being set')
@@ -352,14 +357,12 @@ def full_scan(): ## not working yet
 		xbmcgui.Window(xbmcgui.getCurrentWindowId()).setProperty("MyScript.ExternalRunning", "True")
 		
 		log('|	Running the scan script to update the counters.')
-		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scan.py,scan_emus,scan_cuts,scan_xbes)' )
+		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scanner.py,scan_emus,scan_cuts,0,0)' )
 		
 		log('|	Loop.')
 		while (xbmcgui.Window(xbmcgui.getCurrentWindowId()).getProperty("MyScript.ExternalRunning") == "True"):
 			time.sleep(0.2)
 
-		log('|	Run the create layouts script to refresh them.')
-		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'create layouts.py)' )
 	pDialog.close()
 	return
 
@@ -383,7 +386,6 @@ menu_entry			= '\n\
 menu_entry_footer	= '\n</content>'
 
 logging = 0 # Setting this to 1 will spam the living hell out of your log file if you run the Auto mode, you have been warned
-if not os.path.isdir( Content_List_Path + 'merged' ): os.makedirs( Content_List_Path + 'merged' )
 if Manual_Scan == "manual" : manual_scan()
 if Full_Scan == "auto" : full_scan()
 

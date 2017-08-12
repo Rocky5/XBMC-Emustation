@@ -32,7 +32,7 @@
 						<posy>0</posy>
 						<width>370</width>
 						<height>50</height>
-						<font>extra23</font>
+						<font>size_23</font>
 						<align>center</align>
 						<aligny>center</aligny>
 						<textcolor>menu_deselect_label</textcolor>

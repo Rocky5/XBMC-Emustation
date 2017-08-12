@@ -776,23 +776,23 @@ msgid "[UPPERCASE]generate cached thumbnails[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32050"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]custom paths[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32051"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]emulators folder[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32052"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]roms folder[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32053"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]reset[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32054"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]other stuff[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32055"

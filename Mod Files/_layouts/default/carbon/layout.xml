@@ -1,0 +1,242 @@
+<!-- ================== -->
+<!-- Custom Layout file -->
+<!-- ================== -->
+<!-- list area -->
+<control type="image">
+	<description>top bar behind logo</description>
+	<posx>27</posx>
+	<posy>0</posy>
+	<width>582</width>
+	<height>89</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF000000</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<animation effect="fade" start="75" end="75" time="0" condition="true">Conditional</animation>
+</control>
+<control type="image">
+	<description>top bar behind logo</description>
+	<posx>27</posx>
+	<posy>0</posy>
+	<width>582</width>
+	<height>89</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<animation effect="fade" start="25" end="25" time="0" condition="true">Conditional</animation>
+</control>
+<control type="image">
+	<description>bar under logo</description>
+	<posx>27</posx>
+	<posy>90</posy>
+	<width>582</width>
+	<height>4</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<description>left bar bar</description>
+	<posx>23</posx>
+	<posy>0</posy>
+	<width>4</width>
+	<height>662</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<description>right bar bar</description>
+	<posx>609</posx>
+	<posy>0</posy>
+	<width>4</width>
+	<height>662</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- synopsis area -->
+<control type="image">
+	<posx>692</posx>
+	<posy>405</posy>
+	<width>4</width>
+	<height>246</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<posx>1198</posx>
+	<posy>405</posy>
+	<width>4</width>
+	<height>246</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<posx>696</posx>
+	<posy>405</posy>
+	<width>502</width>
+	<height>4</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<posx>696</posx>
+	<posy>647</posy>
+	<width>502</width>
+	<height>4</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<description>top bar behind logo</description>
+	<posx>696</posx>
+	<posy>409</posy>
+	<width>502</width>
+	<height>239</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF000000</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<animation effect="fade" start="75" end="75" time="0" condition="true">Conditional</animation>
+</control>
+<control type="image">
+	<posx>696</posx>
+	<posy>409</posy>
+	<width>502</width>
+	<height>46</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<animation effect="fade" start="25" end="25" time="0" condition="true">Conditional</animation>
+</control>	
+<!-- Other images -->
+<control type="image">
+	<description>logo</description>
+	<posx>37</posx>
+	<posy>8</posy>
+	<width>562</width>
+	<height>71</height>
+	<aspectratio>keep</aspectratio>
+	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
+</control>
+<control type="image">
+	<posx>0</posx>
+	<posy>58r</posy>
+	<width>1280</width>
+	<height>58</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture background="true">layouts/art/help_background.png</texture>
+</control>
+<!-- thumbnail image -->
+<control type="image">
+	<posx>721</posx>
+	<posy>44</posy>
+	<width>457</width>
+	<height>320</height>
+	<aspectratio>keep</aspectratio>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+</control>
+<!-- synopsis image -->
+<control type="image">
+	<posx>696</posx>
+	<posy>409</posy>
+	<width>502</width>
+	<height>239</height>
+	<aspectratio>stretch</aspectratio>
+	<texture background="true">special://xbmc/_tbns/$INFO[Skin.String(emuname)]/$INFO[Skin.CurrentTheme]/$INFO[Container(9000).listitem.Label].png</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+</control>
+<!-- screenshot image -->
+<control type="image">
+	<posx>721</posx>
+	<posy>44</posy>
+	<width>457</width>
+	<height>320</height>
+	<aspectratio>stretch</aspectratio>
+	<texture background="true">special://xbmc/_tbns/$INFO[Skin.String(emuname)]/$INFO[Skin.CurrentTheme]/$INFO[Container(9000).listitem.Label].jpg</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+</control>
+<!-- list -->
+<control type="list" id="9000">
+	<posx>27</posx>
+	<posy>93</posy>
+	<width>582</width>
+	<height>570</height>
+	<onright>51</onright>
+	<onup>9000</onup>
+	<ondown>9000</ondown>
+	<viewtype label="List">List</viewtype>
+	<pagecontrol>51</pagecontrol>
+	<scrolltime>150</scrolltime>
+	<preloaditems>6</preloaditems>
+	<itemlayout height="30" width="582">
+		<control type="label">
+			<posx>5</posx>
+			<posy>0</posy>
+			<width>573</width>
+			<height>30</height>
+			<font>size_23</font>
+			<textcolor>55BDBDBD</textcolor>
+			<selectedcolor>blue</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+		</control>
+	</itemlayout>
+	<focusedlayout height="30" width="582">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>588</width>
+			<height>31</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>FF000000</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+			<animation effect="fade" start="75" end="75" time="0" condition="true">Conditional</animation>
+		</control>
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>588</width>
+			<height>31</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+			<animation effect="fade" start="35" end="35" time="0" condition="true">Conditional</animation>
+		</control>
+		<control type="label">
+			<posx>5</posx>
+			<posy>0</posy>
+			<width>573</width>
+			<height>30</height>
+			<font>size_23</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<selectedcolor>blue</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+		</control>
+	</focusedlayout>
+</control>
+<!-- Scroll bar fails to work due to the scrolltime being set to 200 :-/ -->
+<control type="scrollbar" id="51">
+	<posx>1270</posx>
+	<posy>0</posy>
+	<width>10</width>
+	<height>662</height>
+	<texturesliderbackground>-</texturesliderbackground>
+	<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+	<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+	<textureslidernib>scrollbar_nib.png</textureslidernib>
+	<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+	<onleft>9000</onleft>
+	<showonepage>false</showonepage>
+	<orientation>vertical</orientation>
+	<animation reversible="true" effect="fade" start="0" end="100" delay="" time="300">visible</animation>
+	<animation reversible="true" effect="fade" start="100" end="0" delay="" time="300">hidden</animation>
+</control>

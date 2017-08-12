@@ -47,7 +47,7 @@
 						<height>50</height>
 						<align>center</align>
 						<aligny>center</aligny>
-						<font>extra50</font>
+						<font>size_50</font>
 						<label>13406</label>
 						<textcolor>menu_header_label</textcolor>
 				</control>
@@ -58,7 +58,7 @@
 						<width>680</width>
 						<height>50</height>
 						<label>-</label>
-						<font>extra28</font>
+						<font>size_28</font>
 						<textcolor>menu_deselect_label</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -70,7 +70,7 @@
 						<width>680</width>
 						<height>50</height>
 						<label>-</label>
-						<font>extra28</font>
+						<font>size_28</font>
 						<textcolor>menu_deselect_label</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -82,7 +82,7 @@
 						<width>680</width>
 						<height>50</height>
 						<label>-</label>
-						<font>extra28</font>
+						<font>size_28</font>
 						<textcolor>menu_deselect_label</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
