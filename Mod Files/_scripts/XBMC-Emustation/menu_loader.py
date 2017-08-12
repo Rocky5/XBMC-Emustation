@@ -59,7 +59,7 @@ if XBE_Files == 0:
 		Footer_Data				= '\n\
 			<control type="image">\n\
 				<posx>0</posx>\n\
-				<posy>85r</posy>\n\
+				<posy>635</posy>\n\
 				<width>1280</width>\n\
 				<height>85</height>\n\
 				<aspectratio>stretch</aspectratio>\n\
@@ -150,7 +150,7 @@ if XBE_Files == 1:
 	Footer_Data					= '\n\
 	<control type="image">\n\
 		<posx>0</posx>\n\
-		<posy>85r</posy>\n\
+		<posy>635</posy>\n\
 		<width>1280</width>\n\
 		<height>85</height>\n\
 		<aspectratio>stretch</aspectratio>\n\

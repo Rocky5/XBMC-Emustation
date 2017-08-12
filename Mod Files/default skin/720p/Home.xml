@@ -249,7 +249,7 @@
 						</control>
 						<control type="image">
 								<posx>0</posx>
-								<posy>58r</posy>
+								<posy>662</posy>
 								<width>1280</width>
 								<height>58</height>
 								<aspectratio>stretch</aspectratio>
@@ -258,7 +258,7 @@
 						</control>
 						<control type="image">
 								<posx>0</posx>
-								<posy>85r</posy>
+								<posy>635</posy>
 								<width>1280</width>
 								<height>85</height>
 								<aspectratio>stretch</aspectratio>
