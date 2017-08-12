@@ -247,23 +247,6 @@
 								<texture background="true">layouts/art/alt_carousel_bar.png</texture>
 								<visible>Skin.HasSetting(altcarouselbar)</visible>
 						</control>
-						<control type="image">
-								<posx>0</posx>
-								<posy>662</posy>
-								<width>1280</width>
-								<height>58</height>
-								<aspectratio>stretch</aspectratio>
-								<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-								<texture background="true">layouts/art/help_background.png</texture>
-						</control>
-						<control type="image">
-								<posx>0</posx>
-								<posy>635</posy>
-								<width>1280</width>
-								<height>85</height>
-								<aspectratio>stretch</aspectratio>
-								<texture background="true">layouts/art/system_help.png</texture>
-						</control>
 						<!-- default home layout labels -->
 						<control type="label">
 								<posx>0</posx>
@@ -1645,6 +1628,24 @@
 										</item>
 								</content>
 						</control>
+				</control>
+				<!-- This is at the bottom so its out of the animation loop -->
+				<control type="image">
+						<posx>0</posx>
+						<posy>662</posy>
+						<width>1280</width>
+						<height>58</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+						<texture background="true">layouts/art/help_background.png</texture>
+				</control>
+				<control type="image">
+						<posx>0</posx>
+						<posy>635</posy>
+						<width>1280</width>
+						<height>85</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">layouts/art/system_help.png</texture>
 				</control>
 		</controls>
 </window>

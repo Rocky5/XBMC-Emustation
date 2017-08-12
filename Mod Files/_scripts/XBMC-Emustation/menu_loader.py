@@ -44,9 +44,6 @@ if XBE_Files == 0:
 			<layout>' + MenuLabel_XML + '</layout>\n\
 			<controls>\n\
 			<include>CommonBackground</include>\n\
-			<control type="group">\n\
-			<animation effect="fade" time="250">WindowOpen</animation>\n\
-			<animation effect="fade" time="150">WindowClose</animation>\n\
 			<control type="image">\n\
 				<posx>0</posx>\n\
 				<posy>0</posy>\n\
@@ -64,7 +61,6 @@ if XBE_Files == 0:
 				<height>85</height>\n\
 				<aspectratio>stretch</aspectratio>\n\
 				<texture background="true">layouts/art/gamelist_help_emus.png</texture>\n\
-			</control>\n\
 			</control>\n\
 		</controls>\n\
 	</window>'
@@ -135,9 +131,6 @@ if XBE_Files == 1:
 		<layout>' + MenuLabel_XML + '</layout>\n\
 		<controls>\n\
 		<include>CommonBackground</include>\n\
-		<control type="group">\n\
-		<animation effect="fade" time="250">WindowOpen</animation>\n\
-		<animation effect="fade" time="150">WindowClose</animation>\n\
 		<control type="image">\n\
 			<posx>0</posx>\n\
 			<posy>0</posy>\n\
@@ -155,7 +148,6 @@ if XBE_Files == 1:
 		<height>85</height>\n\
 		<aspectratio>stretch</aspectratio>\n\
 		<texture background="true">layouts/art/gamelist_help.png</texture>\n\
-	</control>\n\
 	</control>\n\
 	</controls>\n\
 	</window>'

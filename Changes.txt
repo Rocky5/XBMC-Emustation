@@ -12,6 +12,9 @@
 	7) Added the update batch file, it just prepares the XBMC-Emustation folder for FTP.
 	8) Renamed all the python scripts, also updated all xml files that use them.
 	9) Python script optimizations.
+	
+	..: added after first commit :..
+	10) Made the button images at the bottom not use the window open close animations.
 
 11/08/2017
 	1) Fixed the animations on the home screen.
