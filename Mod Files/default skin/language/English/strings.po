@@ -683,7 +683,7 @@ msgid "[UPPERCASE]enable intro video[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32027"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]enable synopsis views if available[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32028"

@@ -18,9 +18,27 @@ if str(xbmcgui.getCurrentWindowId()) == "11111": MenuLabel = xbmc.getInfoLabel('
 if MenuLabel == "dummy label for python script":	MenuLabel = "apps"
 MyPrograms_Path					= xbmc.translatePath( 'special://skin/720p/MyPrograms.xml' )
 ThemeType						= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
-Default_Layout_XML_Path			= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/layout.xml' )
-Layout_XML_Path					= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/layout.xml' )
 Content_List_Path				= xbmc.translatePath( "Special://skin/720p/content lists/" )
+Default_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/layout.xml' )
+Default_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/synopsis_layout.xml' )
+XBE_Default_Layout				= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/XBE files/layout.xml' )
+XBE_Default_Synopsis_Layout		= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/XBE files/synopsis_layout.xml' )
+Custom_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/layout.xml' )
+Synopsis_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/synopsis_layout.xml' )
+
+if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
+	if os.path.isfile( Default_Synopsis_Layout ):
+		Default_Layout_XML_Path		= Default_Synopsis_Layout
+	else:
+		Default_Layout_XML_Path		= Default_Layout
+	
+	if os.path.isfile( Synopsis_Layout ):
+		Layout_XML_Path				= Synopsis_Layout
+	else:
+		Layout_XML_Path				= Custom_Layout
+else:
+	Default_Layout_XML_Path			= Default_Layout
+	Layout_XML_Path					= Custom_Layout
 
 if MenuLabel == "apps":	XBE_Files = 1
 if MenuLabel == "xbox": XBE_Files = 1
@@ -43,6 +61,9 @@ if XBE_Files == 0:
 			<views>50</views>\n\
 			<layout>' + MenuLabel_XML + '</layout>\n\
 			<controls>\n\
+			<control type="group">\n\
+			<animation effect="fade" time="150">WindowOpen</animation>\n\
+			<animation effect="fade" time="150">WindowClose</animation>\n\
 			<include>CommonBackground</include>\n\
 			<control type="image">\n\
 				<posx>0</posx>\n\
@@ -61,6 +82,7 @@ if XBE_Files == 0:
 				<height>85</height>\n\
 				<aspectratio>stretch</aspectratio>\n\
 				<texture background="true">layouts/art/gamelist_help_emus.png</texture>\n\
+			</control>\n\
 			</control>\n\
 		</controls>\n\
 	</window>'
@@ -114,10 +136,23 @@ if XBE_Files == 0:
 	else:	# default layout is missing so error!
 		dialog.ok("ERROR","No content list found","Rescan this emulator for CUT files to fix.",os.path.join( Content_List_Path,MenuLabel + '.xml' ))
 else:		
-	xbmc.executebuiltin( 'SetFocus(9000)' )
+	if not XBE_Files == 1: xbmc.executebuiltin( 'SetFocus(9000)' )
 
 if XBE_Files == 1:
-	Default_Layout_XML_Path		= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/XBE files/layout.xml' )
+	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
+		if os.path.isfile( XBE_Default_Synopsis_Layout ):
+			Default_Layout_XML_Path		= XBE_Default_Synopsis_Layout
+		else:
+			Default_Layout_XML_Path		= XBE_Default_Layout
+		
+		if os.path.isfile( Synopsis_Layout ):
+			Layout_XML_Path				= Synopsis_Layout
+		else:
+			Layout_XML_Path				= Custom_Layout
+	else:
+		Default_Layout_XML_Path			= XBE_Default_Layout
+		Layout_XML_Path					= Custom_Layout
+		
 	## this is here so not to mess with the actual menulabel
 	if not os.path.isfile( Layout_XML_Path	 ):
 		MenuLabel_XML = "default"
@@ -130,6 +165,9 @@ if XBE_Files == 1:
 		<views>50</views>\n\
 		<layout>' + MenuLabel_XML + '</layout>\n\
 		<controls>\n\
+		<control type="group">\n\
+		<animation effect="fade" time="150">WindowOpen</animation>\n\
+		<animation effect="fade" time="150">WindowClose</animation>\n\
 		<include>CommonBackground</include>\n\
 		<control type="image">\n\
 			<posx>0</posx>\n\
@@ -148,6 +186,7 @@ if XBE_Files == 1:
 		<height>85</height>\n\
 		<aspectratio>stretch</aspectratio>\n\
 		<texture background="true">layouts/art/gamelist_help.png</texture>\n\
+	</control>\n\
 	</control>\n\
 	</controls>\n\
 	</window>'

@@ -51,6 +51,14 @@
 										<onclick>Skin.SetFile(selectedintrofile,.avi | .mp4 | .wmv | .xmv,Special://xbmc/)</onclick>
 										<visible>Skin.HasSetting(introenabled)</visible>
 								</control>
+								<control type="radiobutton" id="3">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32027]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(synopsislayout)</onclick>
+										<selected>Skin.HasSetting(synopsislayout)</selected>
+								</control>
 								<control type="button" id="20">
 										<posx>0</posx>
 										<posy>0</posy>
