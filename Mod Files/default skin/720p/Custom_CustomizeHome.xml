@@ -210,12 +210,20 @@
 								</control>
 								<control type="image">
 										<posx>0</posx>
-										<posy>278r</posy>
+										<posy>662</posy>
 										<width>1280</width>
 										<height>58</height>
 										<aspectratio>stretch</aspectratio>
 										<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 										<texture background="true">layouts/art/help_background.png</texture>
+								</control>
+								<control type="image">
+										<posx>0</posx>
+										<posy>635</posy>
+										<width>1280</width>
+										<height>85</height>
+										<aspectratio>stretch</aspectratio>
+										<texture background="true">layouts/art/system_help.png</texture>
 								</control>
 								<control type="label">
 										<posx>0</posx>
