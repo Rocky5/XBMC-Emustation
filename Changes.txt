@@ -15,6 +15,9 @@
 	
 	..: added after first commit :..
 	10) Made the button images at the bottom not use the window open close animations.
+	11) Added the option to have synopsis layout, so now there are two types.
+	12) New window animations for open close. ( matches ES )
+	13) New Carbon synopsis template
 
 11/08/2017
 	1) Fixed the animations on the home screen.
