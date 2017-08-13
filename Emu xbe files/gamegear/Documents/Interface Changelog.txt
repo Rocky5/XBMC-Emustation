@@ -1,3 +1,158 @@
+This will document all the changes to the Madmab Edition interface which essentially affects all emulators when they are compiled.  This will make tracking emulator differences for me easier seeing how I have 30 plus emulators under my belt.
+
+The interface version used by an emulator can be found in the help menu (example: CFv1b01 ).  If it is not present then the emulator has not been compiled since this change.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b30 changes ...
+
+* Fixed an issue where changing the software filter in-game would cause a crash (Neogenplus GX core only)
+
+* BoxCart art and screenshot textures are cleared on game start to help free up a little memory before launching a game.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b29 changes ...
+
+* Running any emulator on a PAL50 system with videomode 640x480 and Force PAL 50 set to No would cause a crash (black screen).  Fixed.  :)
+
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b28 changes ...
+
+* Fixed were it was possible to lower CDDA volume and MP3 music volume (background music) below 0...
+
+* Fixed issue where setting the game screen size/position to other than Pixel Accurate would reset the flicker fixer, software and hardware filters to ( 0, point, and none).
+
+* Fixed another case where the UI was not going back to the "ROM directory" when changing default directories.
+
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b27 changes ...
+
+* Fixed Issue where background music was not stopping when running actual original CD games (for emulators that support it) if user has it set to turn off on game start.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b26 changes ...
+
+* Fixed issue where CDDA mp3 volume adjust code had a little bug where if using the dpad to change the volume and it was changed to less than 0 or greater than 100 it would produce wacky numbers.
+
+* Fixed issue where calls to function selectFile() were not resetting the xtras names and causing the currently selected game to be messed up.  For example, selecing a new controller config and then trying to load a new disk into the drives.
+
+* INI file is no longer saved after manually changing the volume with the analog sticks due to potential INI file corruption on systems with wonky analog sticks and the user just powering off the xbox.
+
+* I somehow reverted the synopsis code that allows the use of higher def backgrounds.  Fixed.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b25 changes (PAL60 version :P ) ...
+
+* Added support for 640x576 PAL mode.  So now you PAL and PAL60 users can enjoy using it!  The new mode called "640x576" is located in the slot reserved for 480p (since it is not available on HD sets).  You can set the menu video mode to this or you can set the game video to this for some PAL sized goodness.  Great for systems like the C64 or Amiga in PAL mode.  We currently do not have any accurate pixel settings for this mode except for Winuaex.  So any input is appreciated.
+
+* When in PAL or PAL60 mode the video mode 720x480 in-game uses a refresh of 60 like it should.  However if you really insist you can use the "Force PAL 50 mode" to change that.  However the screen will be stretched and 720x576 is the better option anyways for 50hz modes.
+
+* Fixed issue for PAL60 users where wrong video mode is highlighted when changing the video mode.
+
+* Fixed a minor issue for PAL60 users where refresh rate was not being set properly when changing the interface video mode.
+
+* Fixed a minor issue for PAL60 users where refresh rate was not being set properly to 50hz when changing the game video mode.
+
+* Disabled some code that was initializing Video on game load (was not needed).
+
+* Fixed an issue where if pixel perfect settings were not defined for the 720x modes and they were used the screensize variables would be set incorrectly.
+
+* To save confusion the interface now asks you if you want to "Activate Default Game Configuration Use?" if you set the default game configuration and the option is not turned on.
+
+* New option added for "Pixel Perfect" users "Use Offsets From Pixel Perfect Table? (Yes/No).  You'll only see it if "Pixel Perfect" is activated.  It is located under "Configuration -> Video Configuration -> Game and Text Screen Size/Position".
+
+- This is a new feature that will be added for certain emulators to help center the screen a little better based on a comparison to the real console.  The Amiga is a little different so be sure to read the "latest_winuaex.txt" file.
+
+* SelectFile routine was modified to place the selection on the closest matching filename if the passed filename variable contains a value.  (hopefully this wont cause odd behavior)
+
+* Added a new Preset controller option in the Controller menu modified "Overwrite Existing Controller Config".  It will allow you to save the current settings over an already existing preset controller file.  If you changed the settings (which clears the loaded preset controller) it will remember the last name used to help save you some time.  If you want to create a new presetC just use "Save Current Controller Config".
+
+* Added new option in the General Settings menu (Page 2).  "Pressing BLACK Deletes Game Settings Only? Yes/No".  Having this set to yes will delete a games configuration settings but will preserve other things like SRAM saves, save states, and recordings.  "No" will completely remove any files associated with a game.  This setting carries over to the newly added "Game Save Management" menu.
+
+* "Game Save Management" now brings up a new menu with the following options.  
+
+"Remove Settings & Saves Per Game" -> This option will allow the user to select individual game configurations and will completely remove any files associated with a game.
+
+"Remove Only Settings Per Game" -> This option will allow the user to select individual game configurations and will delete the configuration settings but will keep other things like SRAM saves, save states, and recordings.
+
+"Remove Only Settings For ALL Games" -> This option will go through every game configuration that exists in your saves folder and will delete the configuration settings but will keep other things like SRAM saves, save states, and recordings.
+
+* "skin_settings.ini" in the saves folder is now "settings.ini".  If the emu finds "skin_settings.ini" it will rename it to "settings.ini" and then from that point on use "settings.ini".  This is to make it easier to copy into the actual skin's folder if you like your settings.
+
+* When going into "Change default directories" and changing the "ROM Directory" the game select screen switches to the newly selected default directory instead of going back to the old one.
+
+* Sticky left analog sticks should no longer cause hangups at the game select or game favorites menu.
+
+* Some more optermizations to the :showScreeshot function (sigh).
+
+* Changed it so if "Always Display Save State Menu?" is set to Yes there will be no popup asking "Overwrite existing state?" if "Confirm Save State" is set to "Yes".
+
+* Changed text on "Volume Control Menu" from "MP3 Music Volume" to "Background Music Volume" to be less ambiguous.
+
+* Some tweaks to the synopsis display code to, hopefully, fix some issues when using the pop-up window.
+
+* Somehow accidently removed the code to display a skin's synopsis background image if one is included.  Whooopsie!  Fixed.
+
+* Synopsis tries to convert some oddball international characters into ones that will display properly on the xbox. (Open/close quotes, etc).
+
+* Created a new alternate "directory" layout for artwork files. This was mainly created to fix speed issues with game browsing on asphodel's C64 Xtras collection (which is huge!).  Artwork can now be stored in alphabet folders underneath each respective directory.  For example "Action\0", "Action\A", "Titles\Z", "Titles\S".  This applies to all folders except for the MISC folders.  In order for the emulator to detect that you are using this new layout there has to exist an "Action\A" folder (no files needed inside).  Otherwise the emulator will use the old artwork layout.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b24 changes...
+
+* Autoload savestate code in commonfuncs fixed to deal with multi-core emulators.  Affected emulators were pcsxbox (reloaded and redux), snes9xbox, NeoGensPlusGX and MessTrex.
+
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b23 changes...
+
+* Fixed a bug with the xbox_compatible_name code that would fudge up the extension of a filename longer than 42 characters and with a space before the filename extension, thus losing the extension.
+
+* Fixed a synopsis bug where selecting a CD image on a networked drive would copy the image over to the xbox.  This issue did not affect PCSXBOX.
+
+* Modified action list load code and synopsis viewer to handle Amiga CD32 images.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b22 changes...
+
+* Added an "About" menu to the "Utilities" menu to display info about the emulator core.  This info will be added in each emulator when they are next released.
+
+* Added in support for multiple accurate pixel entries for multi-core systems rather than the two seperate list approach previously used.
+
+* Merged in the e:\saves\ fixes from a test build.  What this means is you can now point the "saves" directory elsewhere (like F:) and the emulator will remember that.  This should also mean no more "hex-editing" XBE's to split up multi system emulators!
+
+Note: If you have an ini file for the emulator (example: winuaex.ini) in the emulators directory.  Be sure to remove it before running any emulator that has been update to CFv1b22 and above.
+
+Basically the emulator works like this.
+
+1. Check "D:" drive (the emulators directory) for the ini file and load.
+
+2. If present and emulator is being run from DVD, reload INI settings from saves directory specified in the ini file. This allows a user to modify emulator settings (except for save directory) if running from DVD.
+
+3. If no ini present check default saves directory "E:\Saves\emuname" for ini and load.
+
+4. Last resort... if unable to load ANY ini file use defaults.
+
+So how do you get this to work?
+
+1.  Create a saves directory where you want it to be.  For example ( F:\saves\emuname ).
+
+2.  Either edit the .ini file to point to the new location or you could just load up the emulator and point it to the new saves directory.
+
+3.  Exit the emulator.  The ini file is then saved to the emulators directory (D:).
+
+4.  Move your saves to the new location.  It should be safe now to remove your e:\saves\emuname directory.
+
 -----------------------------------------------------------------------
 
 Madmab Edition Interface CFv1b21 changes...
@@ -11,10 +166,6 @@ Madmab Edition Interface CFv1b20 changes...
 * Only first Misc artwork directory was being displayed across a network share.  Fixed.
 
 -----------------------------------------------------------------------
-
-This will document all the changes to the Madmab Edition interface which essentially affects all emulators when they are compiled.  This will make tracking emulator differences for me easier seeing how I have 30 plus emulators under my belt.
-
-The interface version used by an emulator can be found in the help menu (example: CFv1b01 ).  If it is not present then the emulator has not been compiled since this change.
 
 Madmab Edition Interface CFv1b19 changes...
 

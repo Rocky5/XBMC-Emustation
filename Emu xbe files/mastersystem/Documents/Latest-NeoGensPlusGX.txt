@@ -1,3 +1,34 @@
+NeoGensPlusGX v1b08 - A multicore emu.  Madmab Edition.  A XtecuterX73 and Madmab collaboration.
+Emulates - Sega Genesis/Megadrive, 32X, SegaCD/MegaCD, Sega Master System, Game Gear, SG-1000, SC-3000, SF-7000, MK3 Emulator
+Cores - Gens (Neogenesis), Genesis Plus GX, and possibly Meka.
+
+* Updated to madmab edition interface CFv1b30. See "Interface Changelog.txt"
+
+* Returned to the original size for software filter temp buffers.  The reduced size was causing issues with some filters and rewind.
+
+**************************
+* Genesis Plus GX v1.13b *
+**************************
+
+* Fixed an issue where changing the software filter in-game would cause a crash (Neogenplus GX core only)
+
+**********************
+* Neogenesis v25.19b *
+**********************
+
+* Version bump because of change to the software filter temp buffer sizes and madmab edition interface version.
+
+***************
+* Known Issue *
+***************
+
+* If you run a Sega CD game and then run a game with 68000 overclock set to "Yes" (Zero Wing) the game will freeze for brief periods of time (enough to drop the framerate to 20fps).
+
+http://xport.xbox-scene.com
+goto http://www.emuxtras.net/ for latest cheats, rumbles, synopsis and skin updates.
+
+---------------------------------------------------------------------------------------
+
 NeoGensPlusGX v1b07 - A multicore emu.  Madmab Edition.  A XtecuterX73 and Madmab collaboration.
 Emulates - Sega Genesis/Megadrive, 32X, SegaCD/MegaCD, Sega Master System, Game Gear, SG-1000, SC-3000, SF-7000, MK3 Emulator
 Cores - Gens (Neogenesis), Genesis Plus GX, and possibly Meka.
