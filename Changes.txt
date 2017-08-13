@@ -1,3 +1,8 @@
+13/08/2017
+	1) Updated the Synopsis psd file to include the skindefault theme.
+	2) Updated the skindefault layouts to match ES.
+	3) Added synopsis layouts for skindefault.
+
 12/08/2017
 	1) Fixed some typos in the python scripts.
 	2) Added support for custom root directories for Emulators and Roms.

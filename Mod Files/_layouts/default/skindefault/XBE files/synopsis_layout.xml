@@ -32,12 +32,32 @@
 	<aspectratio align="left">keep</aspectratio>
 	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
 </control>
+<!-- synopsis image -->
+<control type="image">
+	<posx>32</posx>
+	<posy>158</posy>
+	<width>723</width>
+	<height>472</height>
+	<aspectratio>stretch</aspectratio>
+	<texture background="true">$INFO[listitem.path,,_resources/skindefault/synopsis.png]</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+</control>
+<!-- thumbnail image -->
+<control type="image">
+	<posx>32</posx>
+	<posy>158</posy>
+	<width>312</width>
+	<height>217</height>
+	<aspectratio>keep</aspectratio>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+</control>
 <!-- list -->
 <control type="list" id="50">
-	<posx>32</posx>
-	<posy>120</posy>
-	<width>1216</width>
-	<height>545</height>
+	<posx>787</posx>
+	<posy>158</posy>
+	<width>460</width>
+	<height>450</height>
 	<onright>70</onright>
 	<onup>50</onup>
 	<ondown>50</ondown>
@@ -45,39 +65,39 @@
 	<pagecontrol>70</pagecontrol>
 	<scrolltime>150</scrolltime>
 	<preloaditems>6</preloaditems>
-	<itemlayout height="38.5" width="1216">
+	<itemlayout height="30" width="460">
 		<control type="label">
-			<posx>608</posx>
+			<posx>14</posx>
 			<posy>0</posy>
-			<width>1216</width>
-			<height>40</height>
+			<width>432</width>
+			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FF282A2B</textcolor>
 			<selectedcolor>blue</selectedcolor>
-			<align>center</align>
+			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
 		</control>
 	</itemlayout>
-	<focusedlayout height="38.5" width="1216">
+	<focusedlayout height="30" width="460">
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1216</width>
-			<height>41</height>
+			<width>460</width>
+			<height>31</height>
 			<aspectratio>stretch</aspectratio>
 			<colordiffuse>FF393A3B</colordiffuse>
 			<texture border="1">background diffuse.png</texture>
 		</control>
 		<control type="label">
-			<posx>608</posx>
+			<posx>14</posx>
 			<posy>0</posy>
-			<width>1216</width>
-			<height>40</height>
+			<width>432</width>
+			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FF949799</textcolor>
 			<selectedcolor>blue</selectedcolor>
-			<align>center</align>
+			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
 		</control>

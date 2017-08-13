@@ -3,23 +3,23 @@
 <!-- ================== -->
 <!-- background images -->
 <control type="image">
-	<description>background</description>
-	<posx>0</posx>
-	<posy>0</posy>
-	<width>1280</width>
-	<height>720</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF97999B</colordiffuse>
-	<texture>background diffuse.png</texture>
-</control>
-<control type="image">
 	<description>top bar</description>
 	<posx>0</posx>
 	<posy>0</posy>
 	<width>1280</width>
-	<height>119</height>
+	<height>113</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FFC8CACB</colordiffuse>
+	<colordiffuse>FF000000</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<description>top coloured bar</description>
+	<posx>0</posx>
+	<posy>115</posy>
+	<width>1280</width>
+	<height>4</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF008a00</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
 <!-- logo image -->
@@ -31,6 +31,25 @@
 	<height>72</height>
 	<aspectratio align="left">keep</aspectratio>
 	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
+</control>
+<control type="image">
+	<description>controller</description>
+	<posx>1000</posx>
+	<posy>5</posy>
+	<width>280</width>
+	<height>100</height>
+	<aspectratio align="left">keep</aspectratio>
+	<texture>layouts/$INFO[Skin.String(emuname)]/art/system_art_small.png</texture>
+	<animation effect="fade" start="50" end="50" time="0" condition="true">Conditional</animation>
+</control>
+<control type="image">
+	<posx>0</posx>
+	<posy>662</posy>
+	<width>1280</width>
+	<height>58</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF008a00</colordiffuse>
+	<texture background="true">layouts/art/help_background.png</texture>
 </control>
 <!-- list -->
 <control type="list" id="50">
@@ -52,7 +71,7 @@
 			<width>1216</width>
 			<height>40</height>
 			<font>size_23</font>
-			<textcolor>FF282A2B</textcolor>
+			<textcolor>FF969696</textcolor>
 			<selectedcolor>blue</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
@@ -66,7 +85,7 @@
 			<width>1216</width>
 			<height>41</height>
 			<aspectratio>stretch</aspectratio>
-			<colordiffuse>FF393A3B</colordiffuse>
+			<colordiffuse>FF1C1C1C</colordiffuse>
 			<texture border="1">background diffuse.png</texture>
 		</control>
 		<control type="label">
@@ -75,7 +94,7 @@
 			<width>1216</width>
 			<height>40</height>
 			<font>size_23</font>
-			<textcolor>FF949799</textcolor>
+			<textcolor>FF008a00</textcolor>
 			<selectedcolor>blue</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
@@ -99,13 +118,4 @@
 	<orientation>vertical</orientation>
 	<animation reversible="true" effect="fade" start="0" end="100" delay="" time="300">visible</animation>
 	<animation reversible="true" effect="fade" start="100" end="0" delay="" time="300">hidden</animation>
-</control>
-<control type="image">
-	<posx>0</posx>
-	<posy>662</posy>
-	<width>1280</width>
-	<height>58</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FFC5C6C7</colordiffuse>
-	<texture>background diffuse.png</texture>
 </control>
