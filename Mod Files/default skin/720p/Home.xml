@@ -170,9 +170,9 @@
 			</control>
 			<!-- Carbon theme -->
 			<control type="image">
-				<posx>470</posx>
-				<posy>-5</posy>
-				<width>340</width>
+				<posx>448</posx>
+				<posy>-7</posy>
+				<width>385</width>
 				<height>300</height>
 				<aspectratio>keep</aspectratio>
 				<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
@@ -201,9 +201,9 @@
 				<visible>!Skin.HasSetting(altcarouselbar)</visible>
 				<control type="image">
 					<posx>0</posx>
-					<posy>181</posy>
+					<posy>200</posy>
 					<width>1280</width>
-					<height>406</height>
+					<height>310</height>
 					<aspectratio>stretch</aspectratio>
 					<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 					<texture background="true">layouts/art/carousel_bar_haze.png</texture>

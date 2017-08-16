@@ -1,3 +1,9 @@
+16/08/2017
+	1) Updated the transparency of the footer and header in the carbon theme.
+	2) Updated the fade image and position in the background in the carbon theme.
+	3) Updated the system_art/small images.
+	4) Updated the controller images positions and size on the home screen.
+
 13/08/2017
 	1) Updated the Synopsis psd file to include the skindefault theme.
 	2) Updated the skindefault layouts to match ES.

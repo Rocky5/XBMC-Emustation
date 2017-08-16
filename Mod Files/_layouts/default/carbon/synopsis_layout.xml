@@ -9,7 +9,7 @@
 	<width>1280</width>
 	<height>113</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF000000</colordiffuse>
+	<colordiffuse>73000000</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
 <control type="image">
