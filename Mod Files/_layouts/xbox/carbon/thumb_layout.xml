@@ -42,6 +42,18 @@
 	<texture>layouts/$INFO[Skin.String(emuname)]/art/system_art_small.png</texture>
 	<animation effect="fade" start="50" end="50" time="0" condition="true">Conditional</animation>
 </control>
+<!-- fanart image -->
+<control type="image">
+	<description>right bar</description>
+	<posx>0</posx>
+	<posy>119</posy>
+	<width>1280</width>
+	<height>543</height>
+	<aspectratio scalediffuse="true">scale</aspectratio>
+	<colordiffuse>10FFFFFF</colordiffuse>
+	<texture background="true" diffuse="background diffuse.png">$INFO[listitem.path,,fanart.jpg]</texture>
+	<fadetime>FanartCrossfadeTime</fadetime>
+</control>
 <!-- thumbnail image -->
 <control type="image">
 	<posx>686</posx>
