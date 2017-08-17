@@ -1,0 +1,24 @@
+;GAME GENIE FOR SEGA Game Gear
+;Codes from the offical Galoob - "Sega Game Gear" Game Genie code book.
+;Database made by: Mega_Man_(?) Bomb_Bloke and Madmab
+
+
+------------------------------ A ----------------------------
+
+#Addams Family#1D01F999
+"Start with 1/4 energy 1st life
+3AB9F9195
+"Start with 1/2 energy 1st life
+7AB9F9195
+"Start with 3/4 energy 1st life
+BBB9F9195
+"Start with 2 lives
+01BAD9F7E
+"Start with 8 lives
+07BAD9F7E
+"Start with 10 lives
+09BAD9F7E
+"Immune to everything
+00646FF7A
+"Infinite lives
+3A4D1F2A2

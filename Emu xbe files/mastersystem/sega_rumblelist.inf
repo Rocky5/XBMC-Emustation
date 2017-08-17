@@ -1,0 +1,191 @@
+mekax Custom Rumble DB 7/15/10
+Created By Gilou9999
+
+#Asterix#8C9D5BE8,147E02FA
+"rumble on energy loss
+30000226 0000
+.200,200,180,180,000,001,002,000
+"rumble on actions
+300000C2 0004
+.100,100,130,130,000,001,000,000
+
+#Action Fighter#3658F3E0,D91B340D
+"rumble on crash
+30000C5D 0000
+.175,175,300,300,000,001,002,000
+
+#Alex Kidd in Miracle World#AED9AAC4,17A40E29,CF4A09EA,9C5BAD91,08C9EC91
+"rumble on life loss
+3000012C 0090
+.135,135,050,050,001,001,000,000
+"rumble on money pickup
+30000030 0002
+.100,100,130,130,000,001,000,000
+
+#Alex Kidd in Shinobi World#D2417ED7
+"rumble on energy loss
+3000022E 0002
+.170,170,150,150,000,001,000,000
+"rumble on attacks
+300000D0 0002
+.100,100,130,130,000,001,000,000
+
+#Aztec Adventure: The Golden Road to Paradise#FF614EB3
+"rumble on energy loss
+30000147 0037
+.180,180,180,180,000,001,000,000
+"rumble on gold pickup
+3000014C 0004
+.110,110,130,130,000,001,000,000
+
+#Black Belt#DA3A2F57
+"rumble on energy loss
+30001B93 001C
+.180,180,150,150,000,001,001,000
+"rumble on attacks
+30001B6D 0002
+.110,110,130,130,000,001,000,000
+
+#Deep Duck Trouble Starring Donald Duck#42FC3A6E
+"rumble on energy loss
+300012B2 0001
+.180,180,180,180,000,001,000,000
+
+#Bonanza Bros#D778F3FE,CAEA8002
+"rumble on energy loss
+300004E1 0001
+.190,190,220,220,000,001,001,000
+"rumble on attacks
+30000260 0000
+.100,100,130,130,000,001,002,000
+
+#Dynamite Dux#0E1CC1E0
+"rumble on energy loss
+30000227 001F
+.170,170,250,250,000,001,000,000
+
+#E-SWAT: City Under Siege (Easy Version)#C4BB1676
+"rumble on energy loss
+30000064 0001
+.170,170,120,120,000,001,001,000
+"rumble on attacks
+30000044 0004
+.100,100,120,120,000,001,000,000
+
+#Ghost House#C3E7C1ED,F1F8FF2D,C0F3CE7E,763BA9EE
+"rumble on energy loss
+300001F5 0091
+.220,220,150,150,000,001,000,000
+"rumble on attacks
+300001C2 0050
+.115,115,130,130,000,001,000,000
+
+#Golvellius: Valley of Doom#A51376FE
+"rumble on energy loss
+3000081A 0004
+.200,200,170,170,000,001,000,000
+"rumble on attacks
+30000841 0004
+.120,120,120,120,000,001,000,000
+
+#Kung Fu Kid#1E949D1F
+"rumble on energy loss
+30000459 001C
+.200,200,160,160,000,001,001,000
+"rumble on attacks
+30000087 0008
+.120,120,120,120,000,001,000,000
+
+#Ninja Gaiden#761E9396,1B1D8CC2
+"rumble on energy loss
+30001FC8 0006
+.200,200,170,170,000,001,001,000
+"rumble on attacks
+30001FD9 0003
+.120,120,130,130,000,001,000,000
+
+#Penguin Land#F97E9875
+"rumble on ice break
+3000017C 0000
+.130,130,150,150,000,001,002,000
+
+#Psycho Fox#97993479
+"rumble on energy loss
+30000255 0000
+.190,190,160,160,000,001,002,000
+"rumble on actions
+30000014 0003
+.120,120,130,130,000,001,002,000
+
+#Master of Darkness#96FB4D4B
+"rumble on energy loss
+30000A3A 000E
+.190,190,160,160,000,001,000,000
+"rumble on actions
+30001FCA 0006
+.120,120,120,120,000,001,000,000
+
+#Phantasy Star#75971BEF,6605D36A,747E83B5,E4A65E79,00BEF1D7
+"rumble on combat actions
+30000401 0006
+.190,190,180,180,000,001,001,000
+
+#Rastan#C547EB1B
+"rumble on energy loss
+3000007A 0003
+.180,180,180,180,000,001,001,000
+"actions
+30000022 0060
+.120,120,120,120,000,001,000,000
+
+#Shinobi#11FDDFB2,0C6FAC4E,E1FFF1BB
+"rumble on energy loss
+3000006C 0002
+.180,180,180,180,000,001,000,000
+"rumble on actions
+30000042 0020
+.120,120,120,120,000,001,000,000
+
+#Sonic Blast#96B3F29E
+"rumble on ring pickup
+3000125E 0007
+.120,120,120,120,000,001,000,000
+
+#Sonic Chaos#AEDF3BDF
+"rumble on ring pickup
+3000129A 0004
+.120,120,120,120,000,001,000,000
+
+#Sonic the Hedgehog#B519E833,81C3476B
+"rumble on ring pickup
+300012AA 0002
+.100,100,120,120,000,001,000,000
+
+#Sonic the Hedgehog 2#D6F2BFCA,5B3B922C
+"rumble on ring pickup
+30001299 0002
+.100,100,120,120,000,001,000,000
+
+#Star Wars#D4B8F66D
+"rumble on energy
+30001A65 000A
+.190,190,180,180,000,001,000,000
+
+#Teddy Boy#2728FAA3
+"rumble on actions
+30000010 0024
+.120,120,120,120,000,001,002,000
+
+#Wonder Boy 2#43933407
+"rumble on energy loss
+300000BC 0012
+.190,190,180,180,000,001,000,000
+"rumble on gold
+300000B9 0013
+.115,115,120,120,000,001,000,000
+
+#Zillion#5718762C,60C19645,7BA54510
+"rumble on energy loss
+30000143 0022
+.190,190,180,180,000,001,000,000
+

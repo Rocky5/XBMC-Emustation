@@ -42,7 +42,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 			Scripts_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\'
 			TBN_Path			= Root_Directory + '_tbns\\'
 			Content_List_Path	= xbmc.translatePath( "Special://skin/720p/content lists/" )
-			Extensions			= [ "zip","bin","cue","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
+			Extensions			= [ "zip","bin","ccd","cue","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 
 def log( input ):
 	if logging: print "%s" % str( input )
@@ -62,7 +62,7 @@ def manual_scan():
 		
 		log('|	Set the Countlist variable and set the emu_name variable.')
 		CountList = 1
-		Parse_CUE_File = 0
+		Parse_PSX_File = 0
 		Parse_FBL_XML = 0
 		Write_CUT_File = 1
 		Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
@@ -91,7 +91,7 @@ def manual_scan():
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Emulator_Path + 'mame\\roms\\' )
 		elif Emu_Name == "psx":
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
-			Parse_CUE_File = 1
+			Parse_PSX_File = 1
 		else:
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
 		
@@ -115,6 +115,7 @@ def manual_scan():
 						Rom_Name = Items
 						Rom_Name_noext = Rom_Name[:-4]
 						PSX_Name_CUE = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".cue"
+						PSX_Name_CCD = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".ccd"
 						Rom_Path = os.path.join( Roms_Folder, Rom_Name )
 
 						log('|	Check if fba was found and parse its xml files to get the correct rom names for the list.')
@@ -126,15 +127,15 @@ def manual_scan():
 								FBA_Rom_Name = Rom_Name_noext
 								
 						log('|	Check if psx was found and parse its directory for cue files.')
-						if Parse_CUE_File == 1:
-							if os.path.isfile( PSX_Name_CUE ):
-								if Rom_Path == PSX_Name_CUE:
-									Write_CUT_File = 0
-								else:
-									Rom_Path = PSX_Name_CUE
-									Write_CUT_File = 1
-							else:
+						if Parse_PSX_File == 1:
+							if Items.endswith( '.cue' ):
+								Rom_Path = PSX_Name_CUE
 								Write_CUT_File = 1
+							elif Items.endswith( '.ccd' ):
+								Rom_Path = PSX_Name_CCD
+								Write_CUT_File = 1
+							else:
+								Write_CUT_File = 0
 						
 						log('|	Check to see if vars are the value I need and create a new dialog.')
 						if CountList == 1 and Found_Roms == 0: pDialog.create( "Scanning for Roms","","Please wait..." )
@@ -218,7 +219,7 @@ def full_scan():
 		
 			log('|	Set the Countlist variable.')
 			CountList = 1
-			Parse_CUE_File = 0
+			Parse_PSX_File = 0
 			Parse_FBL_XML = 0
 			Write_CUT_File = 1
 			
@@ -253,7 +254,7 @@ def full_scan():
 						Roms_Folder	= Emulator_Path + 'mame\\roms\\'
 					elif Emu_Name == "psx":
 						Roms_Folder	= Roms_Path + Emu_Name
-						Parse_CUE_File = 1
+						Parse_PSX_File = 1
 					else:
 						Roms_Folder	= Roms_Path + Emu_Name
 						
@@ -277,6 +278,7 @@ def full_scan():
 								Rom_Name = Items
 								Rom_Name_noext = Rom_Name[:-4]
 								PSX_Name_CUE = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".cue"
+								PSX_Name_CCD = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".ccd"
 								Rom_Path = os.path.join( Roms_Folder, Rom_Name )
 								
 								log('|	Check if fba was found and parse its xml files to get the correct rom names for the list.')
@@ -288,15 +290,15 @@ def full_scan():
 										FBA_Rom_Name = Rom_Name_noext
 										
 								log('|	Check if psx was found and parse its directory for cue files.')
-								if Parse_CUE_File == 1:
-									if os.path.isfile( PSX_Name_CUE ):
-										if Rom_Path == PSX_Name_CUE:
-											Write_CUT_File = 0
-										else:
-											Rom_Path = PSX_Name_CUE
-											Write_CUT_File = 1
-									else:
+								if Parse_PSX_File == 1:
+									if Items.endswith( '.cue' ):
+										Rom_Path = PSX_Name_CUE
 										Write_CUT_File = 1
+									elif Items.endswith( '.ccd' ):
+										Rom_Path = PSX_Name_CCD
+										Write_CUT_File = 1
+									else:
+										Write_CUT_File = 0
 									
 								log('|	Check to see if vars are the value I need and create a new dialog.')
 								if CountList == 1 and Found_Roms == 0: pDialog.create( "Scanning for Roms","","Please wait..." )

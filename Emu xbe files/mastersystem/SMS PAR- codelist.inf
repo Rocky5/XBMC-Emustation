@@ -1,0 +1,1180 @@
+;Pro Action Replay FOR SEGA Master System
+;Codes from the offical Galoob - "Sega Game Gear" Game Genie code book.
+; http://www.smspower.org/Cheats/Index
+;Database made by: Mega_Man_(?) Bomb_Bloke and Madmab
+
+#Ace Of Aces#887D9F6B
+"Fuel Tanks Modifier (0-2) Set value to (0-2)
+00D5BD01
+"Small Missiles Modifier (0-9)Set value to (0-9)
+00D5BA01
+"Yellow/Red Striped Missile
+00D5B901
+"Bomb Modifier (Any Value Works)
+00D5B801
+
+#Action Fighter#3658F3E0,D91B340D
+"Infinite time (keeps showing 968)
+00C118C9
+"All letters (A to F)
+00C11E06
+"Mission 2
+00C11501
+"Mission 3
+00C11502
+"Mission 4
+00C11503
+"Mission 5
+00C11504
+"Trigger music and sound effects replace value with hexadecimal number from 81 to A4
+00CC0000
+
+#Addams Family, The#72420F38
+"Infinite Lives
+00C32D09
+"Infinite Energy
+00C308FF
+"Have Attic Key (turn the code off after getting Wednesday's message)
+00C31101
+"Have Blue Egg
+00C32001
+"Have Bone
+00C32B01
+"Have Bucket
+00C31701
+"Have Fog
+00C32A01
+"Have House Key
+00C31401
+"Have Snorkel
+00C31D01
+"Have Tree Key
+00C31301
+"Have Umbrella
+00C31601
+"Lurch Rescued
+00C32301
+"Morticia Rescued
+00C31F01
+"Pugsley Rescued
+00C32201
+"Thing Always Active
+00C31C09
+"Thing Enabled
+00C31A01
+"Umbrella Always Active
+00C32F01
+
+#Aerial Assault#15576613,ECF491CF
+"Trigger music and sound effects replace value with hexadecimal number from 81 to 9D
+00D00381
+"Infinite Lives
+00C13909
+"Infinite Bomb
+00C13709
+"Bomb Modifer (Normal)
+00C13900
+"Bomb Modifer (Cluster)
+00C13901
+"Bomb Modifer (Air To Surface)
+00C13902
+"Bomb Modifer (Blockbuster)
+00C13903
+"Bomb Modifer (Fireball)
+00C13904
+"Always have Forcefield
+00C14201
+"Always have Max Speed
+00C14103
+"Start on Round 0
+00C13400
+"Start on Round 1
+00C13401
+"Start on Round 2
+00C13402
+"Start on Round 3
+00C13403
+"Start on Round 4
+00C13404
+"Shot Modifier (Normal)
+00C13500
+"Shot Modifier (3 Way)
+00C13501
+"Shot Modifier (8 Way Burst)
+00C13502
+"Shot Modifier (Laser)
+00C13503
+"Shot Modifier (Wave)
+00C13504
+"Shot Modifier (Missile)
+00C13505
+"Shot Modifier (Flak Cannon)
+00C13506
+"Shot Modifier (8 Way)
+00C13507
+"Shot Modifier (Directional Blaster)
+00C13508
+
+#After Burner#1C951F8E
+"Infinite lives (keeps showing 7)
+00C01807
+"Stage select (turn it off before end of stage). Replace value with hexadecimal number from 00 to 11
+00C01701
+"Trigger music and sound effects replace value with hexadecimal number from 81 to 93
+00DE0381
+
+#Air Rescue#8B43D21D
+"Trigger music and sound effects replace value with hexadecimal number from 81 to AF
+00DE0381
+"Infinite Lives
+00C11309
+"Infinite Continues
+00C10609
+"No of Hostages Rescued.  Set value to number.
+00CC2E09
+"No of Hostages to be saved.  Set value to number.
+00CC1D09
+"Infinite Time
+00CC0A09
+
+#Aladdin, Disney's#C8718D40
+"Infinite Health
+00C11606
+"Invincibility
+00C467FF
+"Always Have Key
+00C43CFF
+"Unlimited Rocks
+00C45699
+"Enable Test Mode
+00C20001
+
+#Alex Kidd in Miracle World#AED9AAC4,17A40E29,CF4A09EA,9C5BAD91,08C9EC91
+"Infinite Lives
+00C02503 
+"Infinite money (keeps showing 900)
+00C03090
+"Item: Power Bracelet
+00C04D01
+"Item: Magic Capsule A
+00C04601
+"Item: Magic Capsule B
+00C04701
+"Item: interrogation box (invincibility)
+00C04A01
+"Item: Cane of Flight
+00C04901
+"Item: Telepathy Ball
+00C04801
+"Item: Moonstone Medallion
+00C04B01
+"Item: letter to Nibana
+00C04C01
+"Item: Hirotta Stone
+00C04E01
+"Super Jumps
+00C31BFF
+"Trigger music and sound effects replace value with hexadecimal number from 81 to B0
+00C11081
+
+#Alex Kidd The Lost Stars#C13896D5
+"Invincibility after the first hit (time makes the energy bar decrease)
+00CD0A01
+"Infinite energy (not invincible)  Disable the code at the end of the level, or else the bonus points will count forever) 
+00CD1D02
+"Unlimited cloud shots
+00CD0114
+"High jump (makes a really annoying sound) 
+00CD0601
+"Trigger music and sound effects replace value with hexadecimal number from 81 to B4
+00D00281
+
+#Alex Kidd in High Tech World#013C0A94
+"Infinite time (keeps showing 9:00)
+00C10E00
+"Map pieces (replace value with a number from 1 to 8 to get the specified piece)
+00C08201
+"Fake map piece
+00C08209
+"Item: ladder
+00C08401
+"Item: restorer
+00C08501
+"Item: key
+00C08601
+"Item: pencil
+00C08701
+"Item: eraser
+00C08801
+"Item: cloth
+00C08901
+"Item: hang glider
+00C08A01
+"Trigger music and sound effects replace value with hexadecimal number from 81 to A5 
+00C20081
+
+#Alex Kidd in Shinobi World#D2417ED7
+"infinite lives
+00C22F01 
+"Infinite energy 
+00C22E06
+"Trigger music and sound effects replace value with hexadecimal number from 81 to B4
+00DE0381
+
+#Alien 3#B618B144
+"Infinite energy (keeps showing 099)
+00C46A63
+"Infinite time (keeps showing 03:58)
+00C4783B
+"Infinite lives (keeps showing 3)
+00C42403
+"Infinite machine gun ammo (keeps showing 098 after first shot)
+00C42763
+"Infinite bazooka ammo (keeps showing 098 after first shot)
+00C42B63
+"Infinite flame gun "ammo" (keeps showing 098 after first use)
+00C42963
+"Infinite grenades (keeps showing 098 after first throwing) 
+00C42D63
+"Start On Level 0
+00C42300
+"Start On Level 1
+00C42301
+"Start On Level 2
+00C42302
+"Start On Level 3
+00C42303
+"Start On Level 4
+00C42304
+"Start On Level 5
+00C42305
+"Start On Level 6
+00C42306
+"Start On Level 7
+00C42307
+"Start On Level 8
+00C42308
+"Start On Level 9
+00C42309
+"Start On Level 10
+00C4230A
+"Start On Level 11
+00C4230B
+"Start On Level 12
+00C4230C
+"Start On Level 13
+00C4230D
+"Start On Level 14
+00C4230E
+"Start On Level 15
+00C4230F
+"Start On Level 16
+00C42310
+"Start On Level 17
+00C42311
+"Start On Level 18
+00C42312
+"Start On Level 19
+00C42313
+"See Ending
+00C42314
+
+#Alien Storm#7F30F793
+"Infinite Life
+00C11310
+
+#Alien Syndrome#5CBFE997,4CC11DF9
+"Infinite lives (keeps showing 3)
+00C05403
+"Infinite time (keeps showing 305)
+00C07B06
+"Starts with only one hostage needed to open the exit
+00C07501
+"Flame weapon 
+00C8ED01
+"Trigger music and sound effects replace value with hexadecimal number from 81 to 9C
+00D00281
+
+#Altered Beast#BBA2FE98
+"Infinite energy
+00C0900C
+"Infinite lives (keeps showing 3) 
+00C08F03
+"Permanent Invulnerability
+00C26180
+"Trigger music and sound effects replace value with hexadecimal number from 81 to B7
+00DF0381
+
+#Arcade Smash Hits#E4163163
+"Infinite lives for Breakout and Centipede
+00C02104
+;(keeps showing four hearts [i.e. the number of lives] no matter if you choose 4 or 7 lives on the "Options" menu) 
+
+#Assault City#0BD8DA96
+"Infinite Energy (switch off at end of levels)
+00C0D90A 
+
+#Asterix#8C9D5BE8,147E02FA
+"Infinite Lives
+00C09D03 
+"Invincibility 
+00C09A03
+"Infinite time (disable at the end of each level)
+00C0A116
+
+#Astro Warrior#299CBB74
+"Infinite lives (keeps showing 7) 
+00C23F08
+
+#Aztec Adventure: The Golden Road to Paradise#FF614EB3
+"Infinite energy
+00C14740
+"Infinite lives (keeps showing 9)
+00C1440A
+"Infinite money (keeps showing 9)
+00C14C09
+"Infinite iron balls (keeps showing 9)
+00C14D09
+"Infinite "4-directional" iron balls (keeps showing 9)
+00C14F09
+"Infinite spears (keeps showing 9)
+00C14E09
+"Infinite special items (keeps showing 9)
+00C15009
+"Final level
+00C1460A
+ 
+#Back to the Future II#E5FF50D8
+"Infinite Energy
+00C36B05 
+"Infinite Lives 
+00C36304 
+
+#Bank Panic#655FB1F4
+"Infinite Lives 
+00C01F03
+"Infinite time (may show garbage at the end of the stage)
+00C02960
+"Fair Average is always 0:00 (10000 point bonus at the end of the stage, screen doesn't update in-game though)
+00C02C00
+"Lock bomb timer (always at 99 seconds)
+00C19963
+
+#Bart vs. The Space Mutants, The Simpsons#C0009274
+"Infinite lives (keeps showing 3)
+00C01003
+"Infinite time (keeps showing 609)
+00C3AF09
+
+#Batman Returns#B154EC38
+"Infinite lives (keeps showing 2 after losing the first life)
+00D29B03
+"Invincibility (Turn off before end of level or game will freeze)
+00D50340
+;turn the code off before the end of the level for preventing Batman to freeze
+"Stage select value with a number from 0 to 4.
+00D29800
+
+#Battle Out Run#C19430CE
+"Infinite Time
+00C19F96
+"Infinite Money
+00C2E6FF
+
+#Black Belt#DA3A2F57
+"Level select (Press 'Up' on controller 2 at title screen to activate)
+00DB6AFF
+;Press 'Up' on controller 2 at title screen to activate 
+"Infinite energy
+00DB9340
+ 
+#Bomber Raid#3084CF11
+"Infinite lives (keeps showing 5)
+00C04205
+"Infinite cluster bombs (keeps showing 3)
+00C15303
+"Always have max shot power
+00C15525
+"Always have max speed
+00C15004
+"Always Invincible (you always keep your fighter escort)
+00C15405
+
+#Castle of Illusion: Starring Micky Mouse#B9DB4282,953F42E1,BD610939
+"Infinite energy
+00C0BD03
+"Infinite lives (keeps showing 3)
+00C0C803
+"Infinite time (keeps showing 404)
+00DC0005
+
+#Choplifter#4A21C15F,16EC3575
+"Infinite lives (keeps showing 2, but it will show 1 for a short period of time after you die)
+00C29B03
+"Number of rescued hostages (00-99). 40 or higher will advance to next level.
+00C29100
+"Invincibility
+00C0E000
+
+#Chuck Rock II: Son of Chuck#C30E690A,87783C04
+"Stoneage Suburbs 1 
+00D2DD00
+00D2DF00
+"Stoneage Suburbs 2
+00D2DD00
+00D2DF01
+"Stoneage Suburbs 3 
+00D2DD00
+00D2DF02
+"Stoneage Suburbs 4 
+00D2DD00
+00D2DF03
+"Dinosaur Munchies
+00D2DD00
+00D2DF04
+"Dipping Dinosaur
+00D2DD01
+00D2DF00
+"Monkey Business
+00D2DD02
+00D2DF00
+"Monkey Mania
+00D2DD02
+00D2DF01
+"Wacky Waterfalls
+00D2DD02
+00D2DF02
+"Ozric's Tentacles
+00D2DD02
+00D2DF03
+"Lively Lava
+00D2DD03
+00D2DF00
+"Mind That Magma
+00D2DD03
+00D2DF01
+"Going Up The Tree
+00D2DD03
+00D2DF02
+"Going Down The Tree
+00D2DD03
+00D2DF03
+"Watch The Birdie
+00D2DD03
+00D2DF04
+"Fruit Mountain
+00D2DD04
+00D2DF00
+"Snow Joke 1
+00D2DD04
+00D2DF01
+"Snow Joke 2
+00D2DD04
+00D2DF02
+"Sergei The Sea Slug
+00D2DD04
+00D2DF03
+"The Sewers 1
+00D2DD05
+00D2DF00
+"The Sewers 2
+00D2DD05
+00D2DF01
+"Look Out Its Brick
+00D2DD05
+00D2DF02
+"Ending
+00D2DD06
+00D2DF00
+"Infinite energy
+00DDFD07
+
+#Cloud Master#E7F62E6D
+"Invincibility
+00C4C703
+"Infinite lives (keeps showing 5)
+00C4C905
+"Maximum firepower
+00C4C307
+"Maximum speed
+00C4C405
+"3-Directional special magic (button 2)
+00C4C503
+
+#Cyber Shinobi, The#1350E4F8
+"Infinite lives (keeps showing 99)
+00C00E63
+"Infinite energy
+00C11C23
+"Infinite time (keeps showing 10:01)
+00C01405
+
+#Cyborg Hunter#908E7524
+"Infinite Energy
+00C21B20
+
+#Desert Strike#6C1433F9
+"Infinite Lives
+00CED503
+"Infinite Bullets
+00CEDBFF
+"Infinite Missiles/Hydras
+00CEDD05
+"Infinite Hellfires
+00CEDE05
+"Infinite Health
+00CED8FF
+"Infinite Fuel
+00CEDAFF
+"Start On Level 0
+00CEEF00
+"Start On Level 1
+00CEEF01
+"Start On Level 2
+00CEEF02
+"Start On Level 3
+00CEEF03
+
+#Dick Tracy#F6FAB48D
+"Infinite lives (keeps showing 3)
+00CE6703
+"Invincibility
+00C1ED06
+
+#Double Dragon#A55D89F3
+"Infinite lives (keeps showing 1 after losing the first life)
+00CB2B03
+"Infinite energy (shows an "used" unit of the life meter after getting hit by an enemy and then it gets cleared)
+00CB2A54
+"Invincibility
+00CB1604
+"Start on Mission 0
+00C11000
+"Start on Mission 1
+00C11001
+"Start on Mission 2
+00C11002
+"Start on Mission 3
+00C11003
+
+#Double Hawk#8370F6CD,F76D5CEE
+"Infinite bombs (99)
+00C39663
+"Infinite lives (9)
+00C3980A
+"Always (super)high-speed (faster than power-up)
+00C39104
+"Always super-fire (S Power-up)
+00C39302
+"Invulnerability
+00C397FF
+
+#Dragon Crystal#9549FCE4
+"Infinite HP (gets down after getting hit by an enemy, but it will eventually come back to 97) 
+00C62160
+
+#Enduro Racer#Enduro Racer
+"Infinite time
+00C39255
+"No damage
+00C39600
+
+#E-SWAT: City Under Siege#00000000
+"Infinite Energy
+00C0640C
+
+#Fantasy Zone#65D7E4E0,F46264FE,0FFBCAA3
+"Infinite lives (keeps showing 6)
+00C06507
+"Infinite money (keeps showing $300000)
+00C06803
+
+#Fantasy Zone II: The Tears of Opa-Opa#B8B141F9,C722FB42
+"Infinite energy
+00C0AB0C
+"Infinite lives (keeps showing 5)
+00C0A307
+
+#Fantasy Zone: The Maze#D29889AD
+"Infinite lives - Player 1
+00C06705
+"Infinite lives - Player 2
+00C06805
+
+#Flinstones, The#00000000
+"Infinite lives
+00C9A203
+"Infinite paint
+00C9F20F
+"Infinite time
+00C9A504
+
+#Forgotten Worlds#38C53916
+"Infinite energy
+00CC8CD8
+
+#Galaxy Force#6C827520,A4AC35D8
+"Infinite Energy
+00C07F10
+
+#Ghost House#C3E7C1ED,F1F8FF2D,C0F3CE7E,763BA9EE
+"Infinite Lives
+00C1BA02
+"Infinite Energy
+00C1F5C0
+
+#Ghouls'n Ghosts#7A92EBA6
+"Infinite Lives
+00C03302
+"Infinite Energy
+00C04C02
+
+#Global Gladiators#B67CEB76
+"Infinite Energy
+00D0BA3F
+
+#G-Loc Air Battle#05CDC24E
+"Infinite Missiles
+00CC0E28
+"Infinite Time
+00CB2C38
+
+#Golden Axe#C08132FB
+"Infinite Energy
+00C1871F
+"Infinite Magic Potions (1-8).  Set value
+00C00601
+"Infinite Lives
+00C00503
+
+#Golden Axe Warrior#C7DED988
+"Infinite Energy
+00C31880
+
+#Golvellius: Valley of Doom#A51376FE
+"Infinite money
+00C84099
+"Infinite energy
+00C83690
+"All bridges built and blockades removed
+00C845FF
+"Super sword
+00C848FF
+
+#Hang On#071B045E,5C01ADF9,8EDF7AC6,1C5059F0,E167A561,91E93385
+"Infinite Time
+00C00D3C
+
+#James 'Buster' Douglas Knockout Boxing#6A664405
+"Infinite energy
+00C128AD
+"Infinite strength
+00C11104
+"Infinite super-punch
+00C11505
+"Enable Cheat Mode
+00C10301
+
+#Jungle Book, Disney's The#695A9A15
+"Infinite Lives
+00C82E09
+"Level Select Enabled
+00C80E01
+
+#Kenseiden#516ED32E,05EA5353
+"Infinite Lives
+00C09002
+"Infinite Energy
+00C11114
+
+#Land of Illusion - Starring Mickey Mouse#24E97200
+"Infinite energy
+00C09902
+"Infinite tries
+00C09F03
+"Infinite time
+00C0A295
+"Infinite air on water stages
+00C0AD07
+
+#Lemmings#0FDE7BAA,51548F61
+"Always Rescue 100% of the lemmings
+00DB5C64
+
+#Lord of the Sword#E8511B08,AA7D6F45
+"Infinite Energy
+00C12930
+
+#Lucky Dime Caper Starring Donald Duck, The#7F6D0DF6,A1710F13
+"Donald floats in the air (you can walk on the air after jumping, and if you stop, your falling time will be increased)
+00C12112
+"Infinite lives
+00C06909
+"Infinite energy and weapons
+00C13E01
+"Maximum hammer power
+00C08805
+
+#Master of Darkness#96FB4D4B
+"Infinite Energy
+00CA3A20
+
+#Masters of Combat#93141463
+"Enable Extra Difficulty Level, Faster on NTSC and Enemy Zero Life options
+00C4B102
+
+#Mortal Kombat#302DC686
+"Infinite energy - Player 1
+00C48848
+"Infinite energy - Player 2
+00C48A48
+"Infinite "continues"
+00C40B07
+"Infinite Time
+00C43609
+"Blood code activated
+00C40928
+"Level select (0-A). Set value.
+00C42401
+
+#Ms. Pac-Man#3CD816C6
+"Infinite Lives
+00DA4E02
+
+#New Zealand Story, The#C660FF34
+"Infinite Lives
+00DDEC09
+"Invincibility
+00DE1504
+
+#Ninja, The#66A15BD9
+"Infinite Lives
+00CDC009
+"Invincibility (disable the code to collect scrolls)
+00CEA301
+
+#Ninja Gaiden#761E9396,1B1D8CC2
+"Infinite energy
+00DFC814
+"Infinite lives
+00DFC704
+"Infinite weapons
+00DFC3E7
+"Infinite time
+00DFB106
+
+#Out Run#5589D8D2
+"Infinite time (disable before the end of the race)
+00DE0172
+
+#Pac-Mania#BE57A9A5
+"Infinite Lives
+00C04003
+
+#Paperboy#F54B6803
+"Infinite Lives
+00D50E03
+"Infinite Papers
+00D50F0A
+
+#Penguin Land#346556B9
+"Infinite lives/eggs
+00C11903
+"Infinite time
+00C11D63
+"Infinite polar bears while on "Editor" mode
+00C1A205
+
+#Phantasy Star#75971BEF,6605D36A,747E83B5,E4A65E79,00BEF1D7
+"Infinite HP Alis
+00C401FF
+"Infinite MP Alis
+00C402FF
+"Maximum Level Alis
+00C405FF
+"Maximum HP – "Status" screen Alis
+00C406FF
+"Maximum MP – "Status" screen Alis
+00C407FF
+"Maximum attack points Alis
+00C408FF
+"Maximum defense points Alis
+00C409FF
+"Infinite HP Myau
+00C411FF
+"Infinite MP Myau
+00C412FF
+"Maximum Level Myau
+00C415FF
+"Maximum HP – "Status" screen Myau
+00C416FF
+"Maximum MP – "Status" screen Myau
+00C417FF
+"Maximum attack points Myau
+00C418FF
+"Maximum defense points Myau
+00C419FF
+"Infinite HP Odin
+00C421FF
+"Infinite MP Odin
+00C422FF
+"Maximum Level Odin
+00C425FF
+"Maximum HP – "Status" screen Odin
+00C426FF
+"Maximum MP – "Status" screen Odin
+00C427FF
+"Maximum attack points Odin
+00C428FF
+"Maximum defense points Odin
+00C429FF
+"Infinite HP Noah
+00C431FF
+"Infinite MP Noah
+00C432FF
+"Maximum Level Noah
+00C435FF
+"Maximum HP – "Status" screen Noah
+00C436FF
+"Maximum MP – "Status" screen Noah
+00C437FF
+"Maximum attack points Noah
+00C438FF
+"Maximum defense points Noah
+00C439FF
+
+#Power Strike#4077EFD9
+"Infinite Lives
+00C81203
+
+#Psycho Fox#97993479
+"Infinite lives
+00C016FF
+"Start with BirdFly
+00C01C03
+"Rapid Fire BirdFly (BirdFly does not wait to come back to you)
+00C0B701
+"Infinite bonus/money (turn it off to finish betting. If you place more than 5 bets on the same route, you'll end up seeing some game tiles instead of the numbers each fox usually carry. Internally, however, the numbers are counted correctly)
+00C01905
+"Infinite potions
+00C01B09
+"Infinite Effigies
+00C01809
+"Infinite Psycho Sticks
+00C01A09
+"Start as Hippo
+00C01701
+"Start as Monkey
+00C01702
+"Start as Tiger
+00C01703
+"Level select (00-14 hex normal stages) (15-1C warp zones) (1D-FF weird stages of the game)
+00C02001
+
+#Quartet#E0F34FA6
+"Invincibility
+00C2C110
+"Infinite lives – Player 1
+00C01603
+"Infinite time – Player 1
+00C2C099
+"Stage select (0-5) Set value.
+00C00F01
+
+#Rainbow Islands: The Story of Bubble Bobble 2#C172A22C,00EC173A
+"Infinite Lives
+00C02E99
+
+#Rastan#C547EB1B
+"Infinite energy
+00C02064
+"Invincibility
+00C01703
+"Round Select (hex 0-15)
+00C14A01
+
+#Rambo: First Blood Part II#BBDA65F0
+"Infinite lives – Player 1 (keeps showing 9)
+00C11F09
+"Infinite lives – Player 2 (keeps showing 9)
+00C12009
+"Infinite arrows – Player 1 (keeps showing 9)
+00C12109
+"Infinite arrows – Player 2 (keeps showing 9)
+00C12209
+
+#Renegade#3BE7F641
+"Infinite energy – Players 1 and 2 
+00C24BA0
+"Infinite lives – Players 1 and 2
+00C3AB99
+"Infinite time
+00C3A159
+"Mission select (0-3)
+00C21E01
+
+#R-Type#BB54B6B0
+"Infinite Lives
+00CE0103
+
+#Sagaia#66388128
+"Infinite Lives
+00C82609
+
+#Shadow Dancer#3793C01A
+"Infinite Lives
+00C05909
+"Infinite Special Attacks
+00C05A05
+
+#Shadow of the Beast#1575581D
+"Infinite energy
+00DA5109
+"Infinite lives
+00DA5003
+"Always have the Gun
+00DA5401
+
+#Shinobi#0C6FAC4E,E1FFF1BB
+"Infinite lives
+00C07A04
+"Boosts energy bar to 18 units
+00C06D11
+"Infinite energy
+00C06C12
+
+#Sonic Chaos#AEDF3BDF
+"Infinite Lives
+00D29909
+"Higher jumps (pressure sensitive. Warning: this code may mess with the game's behavior in general)
+00D50C95
+"Freeze Timer
+00D2BF01
+"Zone Select (01-05)(enable before the game starts, disable after the level begins)
+00D29701
+"Act Select (01-02)(disable the code after starting the level)
+00D29801
+
+#Sonic The Hedgehog#B519E833,81C3476B
+"Keep 10 rings (disable at the end of each level, enable at the start of the next level)
+00D2AA10
+"Infinite lives
+00D24609
+"Infinite continues (not that you need them)
+00D28409
+"Infinite time (locks the actual timer, not the minutes/seconds)
+00D2D000
+"Level Select (01-11) (enable before the game starts, disable after the level begins)
+00D23E01
+"Always invincible
+00D28D08
+"Always have Power Sneakers
+00D41105
+"Always have 6 Chaos Emeralds
+00D27F06
+"Fly Jump (keep button pressed to jump higher; you can't jump if you fall off a ledge or the edge however)
+00D28EFF
+
+#Sonic The Hedgehog 2#D6F2BFCA,5B3B922C
+"Infinite lives
+00D29809
+"Keep 10 rings (disable at the end of each level, enable at the start of the next level)
+00D29909 
+"Freeze Timer
+00D2B901
+"Zone Select (1-6) (enable before the game starts, disable after the level begins)
+00D29501
+"Act Select (0-2) (enable before the game starts, disable after the level begins)
+00D29601
+
+#Space Harrier#CA1D3752,BEDDF80E
+"Infinite Lives
+00C12309
+
+#Spider-Man vs. The Kingpin#908FF25C
+"Infinite energy
+00DF7FFF
+"Infinite webs
+00DF9208
+"Infinite time
+00DF7A08
+
+#Star Wars#D4B8F66D
+"Infinite energy
+00DA6510
+"Infinite lives
+00DA6F09
+
+#Streets Of Rage#4AB3790F
+"Infinite Lives
+00C01309
+
+#Strider#9802ED31
+"Infinite lives
+00D48503
+"Infinite time
+00D26509
+"Infinite energy
+00D48709
+
+#Superman: The Man of Steel#6F9AC98F
+"Infinite Energy
+00CC1514
+
+#Super Monaco GP#55BF81A0,3EF12BAA
+"Always Finish First
+00C36201
+
+#Ayrton Senna's Super Monaco GP II#E890331D
+"Easy racing (disable if you get stuck behind another code, then re-enable) 
+00C52981
+
+#Taz-Mania#1B312E04,7CC3E837
+"Infinite Lives
+00C10009
+
+#Teddy Boy#2728FAA3
+"Infinite Lives
+00C01B05
+
+#Terminator, The#EDC5C012
+"Infinite Energy
+00CC163C
+
+#Thunder Blade#AE920E4B
+"Infinite Lives
+00C00A09
+
+#Time Soldiers#51BD14BE
+"Infinite Lives (Player 1)
+00C01309
+"Infinite Lives (Player 2)
+00C01409
+
+#Tom and Jerry: The Movie#BF7B7285
+"Infinite Energy
+00C43908
+
+#Vigilante#DFB0B161
+"Infinite lives
+00C01405
+"Infinite energy
+00C2514F
+"Infinite time
+00C29164
+
+#Wanted!#5359762D
+"Infinite Energy
+00C05509
+"Level Select (2-7) Set Value.
+00C05602
+
+#Wolfchild#1F8EFA1D
+"Infinite Energy
+00C10107
+"Infinite Lives
+00C10009
+
+#Wonder Boy#73705C02
+"Invincibility; start with Stone Hammers
+00C12703
+"Infinite energy
+00CC360C
+"Infinite lives
+00C14309
+"Rapid Fire on controller buttons
+00C173FF
+
+#Wonder Boy III: The Dragon's Trap#679E1676
+"Infinite energy
+00CF5308
+"Infinite potions
+00CF4A63
+"Start as Lizard-Man (transforming occurs after the first button pressing)
+00C24F01
+"Start as Mouse-Man (transforming occurs after the first button pressing)
+00C24F02
+"Start as Piranha-Man (transforming occurs after the first button pressing)
+00C24F03
+"Start as Lion-Man (transforming occurs after the first button pressing)
+00C24F04
+"Start as Hawk-Man (transforming occurs after the first button pressing)
+00C24F05
+
+#Wonderboy In Monster Land#8CBEF0C1
+"Infinite energy
+00C0BC14
+"Infinite time
+00C19B00
+"Infinite Revival Potions
+00C1AB04
+"Mega jumps
+00C1C301
+"Infinite gold
+00C0BA99
+"Start with the Knight Shield
+00C1A102
+"Start with the Gauntlet
+00C1A302
+"Start with the Helmet
+00C1A502
+"Start with the Wing Boots
+00C1A702
+"Start with the Key
+00C1BF03
+"Start with the Sword of Legend
+00C1A204
+"Start with the Armor of Legend
+00C1A005
+"Start with the Scroll to Catharine
+00C1EC01
+"Start with the Charm of Star
+00C1EC02
+"Start with the Hero's Emblem
+00C1EC03
+"Start with the Ruby
+00C1EC04
+"Start with the Bell
+00C1EC05
+
+#World Class Leader Board#C9A449B7
+"Always score a Hole-in-One
+00D36200
+
+#World Grand Prix#7B369892,4AAAD0D6
+"Infinite Time
+00D09100
+
+#Xenon 2: Megablast#5C205EE1,EC726C0D
+"Infinite Lives
+00D0E207
+
+#Zaxxon 3-D#A3EF13CB,BBA74147
+"Infinite lives
+00C0A305
+"Infinite fuel
+00C0AE20
+"Play in 2-D Mode
+00C002FF
+
+#Zillion#5718762C,60C19645,7BA54510
+"Infinite energy
+00C14399
+"Infinite ID Cards
+00C12910
+"Start with the Red ID Card
+00C12A01
+"Start with the 5 Floppy Disks
+00C12B05
+"Start with Zillion Power at maximum
+00C14602
+"Start with Player Level at 9
+00C14508
+
+#Zillion II: The Tri Formation#2F2E3BC9
+"Infinite lives
+00C01F09
+"Infinite energy
+00C0183F
+"Gun Power at 3 (pick up one "Z" for maximum Gun Power)
+00C01E03

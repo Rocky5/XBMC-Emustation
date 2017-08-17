@@ -1,0 +1,1589 @@
+;Pro Action Replay FOR SEGA Game Gear
+;Codes from http://www.smspower.org/dev/docs/wiki/uploads/MemorySystem/parcodes.txt
+;  http://www.smspower.org/Cheats/Index
+;Database made by: Mega_Man_(?) Bomb_Bloke and Madmab
+
+#007 James Bond- The Duel#881A4524
+"Infinite Health
+00C11304 
+"Infinite Lives
+00C74463 
+
+#Addams Family#1D01F999
+"Infinite Health
+00C514FF
+"Infinite Lives
+00C53809
+
+#Adventures of Batman & Robin, The#BB4F23FF
+"Infinite Health
+00D80A28 
+"Infinite Lives
+00D80C09 
+
+#Aerial Assault#3E549B7A,04FE6DDE
+"Infinite Lives
+00C41C02
+
+#Aah! Harimanada#1D17D2A0
+"Infinite Health
+00C80418
+
+#Aladdin, Disney's#770E95E1,7A41C1DC
+"Infinite Health
+00C11606
+
+#Aleste#1B80A75B
+"Infinite Lives
+00C1D709 
+
+#Alien 3#11A68C08
+"Infinite lives
+00C42403
+"Infinite energy
+00C46A55
+"Infinite machine gun
+00C42763
+"Infinite flamethrower
+00C4290A
+"Infinite grenades
+00C42D0F
+"Infinite time
+00C47903
+"Infinite missiles
+00C42B99
+"Invincible
+00C48504
+
+#Alien Syndrome#BB5E10E0,FFE4ED47
+"Infinite Health
+00C01504
+"Infinite Time
+00C113FF
+
+#Arch Rivals#F0204191
+"Away Team Can't Score
+00C44400 
+
+#Arena - Maze Of Death#7CB3FACF
+"Infinite lives
+00D2F210
+"Infinite Health
+00D29B80
+"Infinite gun
+00D2AA10
+"Infinite 3 way, pick up 3 way to use
+00D2AC10
+"Infinite rapid fire, pick up rapid fire to use
+00D2AE10
+"Infinite grenades, pick up grenades to use
+00D2B410
+"Infinite blaster, pick up blaster to use
+00D2B010
+
+#Ariel the little Mermaid#97E3A18C
+"Infinite lives (ver 1)
+00C24805
+"Infinite Lives (ver 2)
+00C24A04
+"Infinite Health
+00C24908
+
+#Asterix and The Great Rescue#328C5CC8,78208B40
+"Infinite lives
+00C19703
+"Infinite energy
+00C19603
+"Invincible
+00C19E01
+"Mega power, turn Action Replay on after game starts
+00C1B102
+
+#Asterix and The Secret Mission#C01A8051
+"Infinite energy
+00C0E303
+"Infinite lives
+00C0DC03
+"Invincible, turn off Action Replay to use swords
+00C52705
+"Infinite potion power
+00C0EB05
+
+#Ax Battler: A Legend of Golden Axe#663BCF8A,DFCF555F
+"Infinite energy
+00C05506
+"Enemy energy at zero, one blow kills
+00C86300
+"Infinite vases
+00C0591F
+
+#Baku Baku Animal#8D8BFDC4,10AC9374
+"Infinite Time
+00C49100 
+
+#Bartman Meets Radioactive Man, The Simpsons#FFA447A9
+"Infinite Health
+00DD8414 
+"Infinite Lives
+00C1DB09 
+
+#Bart vs The Space Mutants, The Simpsons#C0009274
+"Infinite lives
+00C01003
+"Painted items are at 0
+00C01E00
+"Infinite paint
+00C01201
+"Infinite timer (switch Action Replay off at end of a level)
+00C39E09
+"Infinite coins
+00C01101
+"Infinite Cherry Bombs
+00C01301
+"Infinite rockets
+00C01401
+"Infinite wrench
+00C01501
+"Infinite keys
+00C01601
+"Infinite magnet
+00C01701
+"Infinite whistle
+00C01801
+"Moonwalking Bart
+00C43B00
+
+#Bart vs The World, The Simpsons#DA7BD5C7
+"Infinite throwing bombs
+00D0BC08
+"Infinite Health
+00D2A204
+"Infinite Lives
+00D2A103
+"Infinite tries at the cards matching game
+00D22801
+
+#Batman Forever#618B19E2
+"Infinite Lives
+00D93009 
+"Infinite Health
+00DABC3F
+"Infinite Health & All Ammo
+00D93E24
+
+#Batman Returns#7AC4A3CA
+"Infinite lives
+00C02103
+"Infinite energy
+00C1590A
+"Infinite specials
+00C01F02
+
+#Batter Up#16448209
+"No Balls
+00C13500 
+"No Strikes
+00C13600 
+"No Outs
+00C13700
+
+#Battletoads#817CC0CA,CB3CD075
+"Infinite lives
+00C00802
+"Infinite energy
+00CA1F05
+"Infinite continues
+00C01203
+
+#Beavis and Butthead#A6BF865E,3858F14F
+"Infinite Health
+00D0A708 
+"Infinite Lives
+00D0AB09 
+
+#Berenstain Bears' Camping Adventure, The#A4BB9FFB
+"Infinite Health
+00C31910 
+"Infinite Lives
+00C31A09 
+
+#Bonkers: Wax Up!, Disney's#BFCEBA5F
+"Infinite Lives
+00C37509 
+"Infinite Health
+00C376E8 
+
+#Bram Stoker's Dracula#69EBE5FA
+"Infinite Health
+00C53E06 
+"Infinite Lives
+00C53D09 
+
+#Bubble Bobble#FBA338C5
+"Infinite lives
+00CEB707
+
+#Bugs Bunny in Double Trouble#5C34D9CD
+"Infinite Lives
+00D95C63
+"Infinite Health
+00D95914
+
+#Buster Fight#A72A1753
+"Difficulty Modifier (0-4) (set value)
+00C4B000
+"Play as Alien (turn the code on while at the character select screen)
+00C51204
+
+#Captain America and the Avengers#5675DFDD
+"Infinite Lives
+00C32064
+
+#Castle of Illusion Starring Mickey Mouse#59840FD6
+"Infinite lives
+00C0C803
+"Infinite energy
+00C0BD03
+"Infinite timer
+00DC0005
+
+#Chakan: The Foverever Man#DFC7ADC8
+"Infinite Health
+00DFB3F0
+"Start with Fire/Ice Super Sword
+00DFA504
+"Start with Lightning Sword
+00DFA503
+"Have Heat Seeking Missiles 
+00D17B01
+
+#Chicago Syndicate#6B0FCEC3
+"Infinite Health
+00C82564
+
+#Choplifter III#C2E8A692
+"Infinite Lives
+00C9F603
+"Infinite Health
+00D16B14
+
+#Chuck Rock#191B1ED8
+"Infinite Lives
+00C08E03
+"Infinite Energy
+00C08F06
+"Level select (2-4). Replace value with level.
+00C08C02
+
+#Chuck Rock II: Son of Chuck#656708BF,3FCC28C9
+"Infinite lives
+00DD5C03
+"Infinite energy
+00DD5D08
+
+#Cliffhanger#BF75B153
+"Infinite Lives
+00D4C209
+"Infinite Health
+00D4C110
+
+#Coca-Cola Kid#B9CE5F45
+"Infinite Time
+00D2C100
+"Infinite Lives
+00D29B99
+"Infinite Health
+00D52603
+
+#Columns#F3CA6676,83FA26D9
+"Level Select.  Replace value with level.
+00C69901
+
+#Cool Spot#2C758FC8
+"Infinite energy
+00D18F2F
+"Infinite lives
+00D18E03
+"Invincibility
+00D1BD02
+"Invincibility (Cool Spot Invisible)
+00D1BD01
+"Infinite time, switch off at end of level
+00D09055
+
+#Cosmic Spacehead#6CAA625B
+"Infinite Lives
+00C23E09
+
+#Crystal Warriors#529C864E
+"Infinite HP Iris
+00C48763
+"Infinite MP Iris
+00C48963
+"Max AP Iris
+00C48F:63
+"Max DP Iris
+00C49063
+"Max LK Iris
+00C49263
+"Max SP Iris
+00C49E63
+"Iris at Level xx (set value to desired level)
+00C48201
+"Infinite HP Dayne
+00C4A763
+"Infinite MP Dayne
+00C4A963
+"Max AP Dayne
+00C4AF63
+"Max DP Dayne
+00C4B063
+"Max LK Dayne
+00C4B263
+"Max SP Dayne
+00C4BE63
+"Dayne at Level xx (set value to desired level)
+00C4A201
+"Infinite HP Eldor
+00C4C763
+"Infinite MP Eldor
+00C4C963
+"Max AP Eldor
+00C4CF63
+"Max BP Eldor
+00C4D063
+"Max LK Eldor
+00C4D263
+"Max SP Eldor
+00C4DE63
+"Eldor at Level xx (set value to desired level)
+00C4C201
+"Infinite HP Ratt
+00C4E763
+"Infinite MP Ratt
+00C4E963
+"Max AP Ratt
+00C4EF63
+"Max DP Ratt
+00C4F063
+"Max LK Ratt
+00C4F263
+"Max SP Ratt
+00C4FE63
+"Ratt at Level xx (set value to desired level)
+00C4E201
+"Infinite HP Murak
+00C50763
+"Infinite MP Murak
+00C50963
+"Max AP Murak
+00C50F63
+"Max DP Murak
+00C51063
+"Max LK Murak 
+00C51263
+"Max SP Murak
+00C51E63
+"Murak at Level xx (set value to desired level)
+00C50201
+"Infinite HP Frye
+00C52720
+"Infinite MP Frye
+00C52940
+"Max AP Frye
+00C52F63
+"Max DP Frye
+00C53063
+"Max LK Frye
+00C53263
+"Max SP Frye
+00C53E63
+"Frye at Level xx (set value to desired level)
+00C52201
+
+#Cutthroat Island#6A24E47E
+"Infinite Health
+00DBEB17
+"Max Weapon
+00DBED17
+"Infinite Lives
+00DC2309
+
+#Daffy Duck in Hollywood#AAE268FC
+"Infinite Lives
+00C58A0B
+
+#Deep Duck Trouble#5A136D7E
+"Infinite lives
+00D2B103
+"Infinite energy
+00D2B203
+"Invincible
+00D36903
+
+#Defenders of Oasis#E2791CC1
+"Infinite Dinar (money)
+00DB79FF
+"Infinite energy - Prince
+00DC01FF
+"Infinite energy - Genie
+00DC11FF
+"Infinite energy - Salem
+00DC21FF
+"Infinite energy - Agmar
+00DC31FF
+
+#Desert Speedtrap starring Road Runner & Wile E. Coyote#EC808026,C2E111AC
+"Invincible
+00CAE501
+"Infinite continues
+00C02803
+"Infinite lives
+00C02902
+
+#Desert Strike: Return to the Gulf#F6C400DA
+"Extra armour
+00C5E606
+"Unlimited fuel
+00C56099
+"Unlimited hellfires
+00C5E508
+"Unlimited hydras
+00C5E434
+"Infinite lives
+00C5DE03
+
+#Devilish#C01293B0,25DB174F,D43AC6C5
+"Start with xx number of balls (value is in hex)
+00CEA401
+"Infinite balls
+00CF4D04
+"Bat speed mach x (change value)
+00CEC301
+"Access Level Select (US version)  Turn code on while on the main menu, then press Start, then turn it off.
+00CB3702
+"Access Level Select (JP version)  Turn code on while on the main menu, then press Start, then turn it off.
+00CCCF02
+
+#Donald Duck#
+"Infinite lives
+00C08303
+"Infinite energy
+00C13E01
+"Level select (1-6).  Set value.
+00C05B01
+
+#Double Dragon#1307A290,331904C0
+"Infinite Health
+00C09410
+"Infinite Lives
+00C09503
+
+#Dragon Crystal#0EF2ED93
+"Level select (Change value)
+00C61F01
+"Starting power (Change value)
+00C62F01
+"World (Change value)
+00C01A01
+"Infinite food
+00C62030
+"Infinite energy
+00C62199
+
+#Dragon: the Bruce Lee Story#19E1CF2B,17F588E8
+"Infinite Lives
+00CCA909
+
+#Dropzone#152F0DCC
+"Infinite Lives
+00CF7303
+
+#Dynamite Headdy#610FF95C,F6AF4B6B
+"Infinite Health
+00CB1930
+"Infinite Lives
+00C01303
+
+#Earthworm Jim#5D3F23A9
+"Infinite Health
+00C1D764
+"Infinite Lives
+00C1D60A
+"Infinite Bullets
+00C193FF
+
+#Ecco The Dolphin#866C7113,A32EB9D5
+"Infinite air and energy
+00CAC123
+"Infinite air
+00CABF21
+
+#Ecco - The Tides of Time#E2F3B203,BA9CEF4F
+"Infinite Health & Air
+00DB3901
+"Swim Through Walls
+00DB3801
+
+#F-15 Strike Eagle#8BDB0806
+"Infinite Bullets
+00CD1FFF
+
+#Factory Panic#59E3BE92
+"Only 1 Person Left To Feed
+00D15B01
+"Infinite Continues
+00C39C0A
+"Infinite Health
+00C39603
+
+#Fatal Fury Special#449787E2
+"Infinite Time
+00C0B49A
+"Player 1 Infinite Health
+00DB3B40
+
+#Foreman for Real#D46D5685
+"Infinite Time
+00D0CB01
+
+#Frogger#02BBF994
+"Infinite Lives
+00C0190A
+
+#Galaga 91#0593BA24
+"Infinite lives
+00C83E02
+
+#Garfield: Caught in the Act#CD53F3AF
+"Infinite Lives
+00D9AB09
+"Infinite Throw
+00D9AA63
+"Infinite Health
+00D9AC0A
+
+#George Foreman's KO Boxing#58B44585
+"Infinite energy (player 1)
+00C12880
+"Infinite power punch (player 1)
+00C11503
+"Level select (1-4) switch code off at end of level
+00C11001
+"Round select (1-9) switch code off at end of round
+00C12001
+"Infinite timer
+00C13309
+"Full power punch power meter (player 1)
+00C11104
+"Full recovery power meter (player 1)
+00C11204
+"Full footwork power meter (player 1)
+00C11304
+"Full power punch power meter (player 2/computer)
+00C11604
+"Full recovery power meter (player 2/computer)
+00C11704
+"Full footwork power meter (player 2/computer)
+00C11804
+"Full energy (player 2/computer)
+00C12980
+"Infinite power punches (player 2/computer)
+00C11A01
+"Enable Cheat Mode
+00C10301
+
+#Gladiators#
+"Infinite lives
+00D0B905
+
+#G-LOC Air Battle#18DE59ED,33237F50,2333F615
+"Infinite time
+00DFCC0A
+"Invincible armour and infinite fuel
+00C2C91F
+
+#Global Gladiators#D2B6021E
+"Use with code below for infinite energy
+00D0BA3F
+00DBFEF3
+"Infinite Time
+00D4EA59
+"Infinite Tokens
+00D50199
+"Infinite Lives
+00D0B909
+"Invincibility 
+00D510A6
+
+#GP Rider#876E9B72,7A26EC6A
+"Infinite Time
+00C02E63
+
+#Greendog: The Beached Surfer Dude!#F27925B0
+"Infinite Lives
+00DC0409
+"Infinite Health
+00CA4E18
+
+#Halley Wars#7E9DEA46,DEF5A5D0
+"Super rapid fire
+00C0480D
+"Fast ship
+00C04904
+"Full weapons
+00C04A05
+"Infinite lives
+00C04C03
+"Stop damage meter from reaching 100%
+00C06D00
+"Invincibility
+00C21A81
+
+#Home Alone#DDE29F74
+"Infinite Time
+00C60101
+
+#Hook#F53CED2E
+"Infinite Time
+00DAAB01
+"Infinite Lives
+00DAF709
+"Infinite Health
+00DAA903
+
+#Hurricanes, The#0A25EEC5
+"Max Score
+00D55E99
+00D55F99
+00D56009
+
+#Incredible Crash Dummies, The#087FC247
+"Infinite Time
+00C08599
+
+#Incredible Hulk, The#D7055F88
+"Infinite Lives
+00C40F04
+"Infinite Health
+00C418FF
+
+#Indiana Jones and the Last Crusade#B875226B
+"Unlimited lives
+00C98806
+"Infinite Time
+00CBBF0A
+"Infinite Health
+00C9C230
+
+#Iron Man X - Man o' War in Heavy Metal#8927B69B
+"Infinite Health
+00DAB8FF
+
+#Itchy & Scratchy Game, The#44E7E2DA
+"Infinite Health
+00D6E964
+"Instantly Beat Each Level
+00D72C00
+"1 Hit Until Scratchy Dead
+00D72C01
+
+#James Pond II: Codename RoboCod#9FB5C155
+"Infinite energy
+00DA7E03
+"Infinite lives
+00DA7D03
+"Infinite continues
+00DA7C03
+"Invincible
+00DAC303
+
+#Joe Montana's Football#4A98678B,2E01BA6C
+"Infinite Time
+00C7B201
+
+#Judge Dredd#04D23FC4
+"Infinite Lives
+00D9CD09
+"Infinite Health
+00D9BD40
+
+#Junction#A8EF36A7
+"Infinite Time
+00DA7AFF
+
+#Jungle Book#90100884,30C09F31
+"Invincible
+00C8B102
+"Infinite Lives
+00C82E04
+"Infinite Energy
+00C82F06
+"Banana Gun from start
+00C83332
+"Boomerang from start
+00C83081
+
+#Jurassic Park#BD6F2321,2F536AE3
+"Infinite energy
+00CA0003
+"Infinite energy in the car
+00C90003
+"Infinite energy in Action Scene
+00C1EA04
+"Infinite lives
+00C02404
+"Infinite Health
+00C02D03
+"Infinite Lives
+00C02F09
+"Infinite Continue
+00C03309
+"Infinite Medkit
+00C03209
+
+#Kawasaki Superbike Challenge#23F9150A
+"Go 255 MPH
+00C930FF
+
+#Klax#9B40FC8E
+"Unlimited credits
+00C0DB03
+"Infinite lives
+00C09401
+"Level select (00-64) switch Action Replay off at end of level
+00C1F000
+
+#Krusty's Super Funhouse#D01E784F
+"Infinite lives
+00C42903
+"Level select
+00C42B0x
+
+#Land of Illusion Starring Mickey Mouse#52DBF3E1
+"Infinite time
+00C0A295
+"Infinite air
+00C0AD07
+"Infinite lives
+00C09F03
+"Infinite Health
+00C09902
+"Invincibility
+00C22601
+
+#Last Action Hero#2D367C43
+"Infinite energy
+00C13509
+"Invincible
+00C1CB03
+"0 tickets
+00C13100
+
+#Lemmings#0FDE7BAA,51548F61
+"Infinite climbers
+00DB720A
+"Infinite floaters
+00DB730A
+"Infinite bombers
+00DB740A
+"Infinite blockers
+00DB750A
+"Infinite builders
+00DB760A
+"Infinite bashers
+00DB770A
+"Infinite miners
+00DB780A
+"Infinite diggers
+00DB790A
+"Infinite time
+00DAD309
+"Always have 100% Lemmings saved (just nuke em to jump level)
+00DB4C64
+"Level select (hex 00-23) (1-30)
+00DB9D00
+
+#Lion King#C352C7EB
+"Infinite lives
+00C63D05
+"Infinite energy
+00C63E0C
+"Invincibility
+00C6DC06
+"Level Select enabled
+00C61A01
+
+#Lucky Dime Caper#07A7815A
+"infinite lives
+00C08303
+"infinite energy
+00C13e01
+"invincible (character flickers though)
+00C13f01
+
+#Madden NFL '95#75C71EBF
+"Infinite Time
+00DD2501
+
+#Madden NFL '96#9F59D302
+"Infinite Time
+00DD2501
+
+#Magical Puzzle Popils#CF6D7BC5
+"Infinite lives
+00C32003
+
+#Majors Pro Baseball, The#36EBCD6D
+"0 Strikes
+00C40F00
+"0 Balls
+00C41100
+
+#Marble Madness#9559E339
+"Infinite time
+00DFACB3
+
+#Marko's Magic Football#22C418BF
+"Infinite Health
+00C70603
+"Max Score
+00C46609
+00C46709
+00C46809
+00C46909
+00C46A09
+00C46B09
+
+#Mickey Mouse World Of Illusion#
+"Infinite lives
+00C09F03
+"Infinite energy
+00C09902
+
+#Mighty Morphin Power Rangers#9289DFCC
+"View the ending - boot the game with the code on, then turn it off on the main menu before hitting a button.
+00C51505
+"Stage Select (0-6) Set value to stage number.
+00C80A00
+"Substage Select (0-1) Set value to substage.
+00C80100
+
+#Might Morphin Power Rangers the Movie#B47C19E5
+"Enable "Extra Option" cheat
+00C4B101
+"Stage Select (0-5) Set value to stage number.
+00C80A00
+
+#Monster Truck Wars#453C5CEC
+"Infinite Time
+00D2C600
+
+#Mortal Kombat#07494F2A,DBFF0461
+"Infinite energy
+00C48848
+"Infinite continues
+00C40B07
+"Infinite time
+00C43B09
+"Level select
+00C42401
+
+#Mortal Kombat 2#4B304E0F
+"Player 1 Infinite Health
+00C48847
+"Infinite Time
+00C43663
+
+#Mortal Kombat 3#C2BE62BB
+"Infinite Time
+00D25E99
+"Player 1 Infinite Health
+00D2B138
+"Player 1 Won One Round
+00D2B901
+
+#Ms. Pac-Man#5EE88BD5
+"Infinite Lives
+00C3A003
+
+#NBA Action starring David Robinson#19030108
+"Infinite Timeouts
+00DC1609
+"Player 1 Always Win
+00DA0D09
+
+#NBA Jam#A49E9033,820FA4AB,8F17597E
+"Infinite Time
+00DADD01
+"Away Team Cant Score
+00CAD600
+"Infinite Shot Clock
+00DC1E0A
+
+#NBA Jam Tournament Edition#86C32E5B
+"Infinite Shot Clock
+00CB030A
+
+#Ninja Gaiden#20EF017A,C578756B
+"Infinite lives
+00C44803
+"Infinite energy
+00C4210F
+"Infinite Time
+00C42F89
+
+#Ninku Gaiden: Hiroyuki Daikatsugeki#9140F239
+"Infinite Health
+00CF05FF
+
+#Outrun#D58CB27C
+"Infinite time
+00C16909
+"Full revs all the time (takes car to 315 km/h)
+00C36127
+
+#Outrun Europa#F037EC00
+"Infinite shields
+00C0E208
+"Infinite ammo
+00C15D05
+"Infinite turbos
+00C15402
+
+#Ottifants, The#1E673168
+"Infinite Lives
+00D16009
+"Infinite Health
+00CF166F
+"Enable Cheat Mode
+00D16D01
+
+#Pacman#A16C5E58
+"Infinite lives
+00C13303
+
+#Pac-In-Time#64C28E20
+"Infinite Time
+00D67B63
+"Infinite Lives
+00D67D09
+"Round select (0-9) Set value to (0-9)
+00D66401
+"Stage select (0-3) Set value to (0-3)
+00D66501
+
+#Pac-Attack#9273EE2C
+"Max Score
+00C35A09
+00C35B09
+00C35C09
+00C35D09
+00C35E09
+00C35F09
+00C36009
+
+#Paperboy#F54B6803
+"Infinite lives
+00D51303
+"Infinite papers
+00D5140C
+
+#Paper-Boy II#8B2C454B
+"Infinite Paper
+00C01C63
+"Infinite Lives
+00DA6B0A
+
+#Pengo#CE863DBA,0DA23CC1
+"Infinite lives
+00C13804
+"Elimintes sno-bees, used with below code will keep eggs flashing
+00C21100
+"Keeps timer at 00, used with above code will keep eggs flashing
+00C12F00
+
+#Phantasy Star Gaiden#1C98154A
+"Infinite Money
+00C58CFF
+"Infinite Wood
+00C58E63
+"Infinite Short
+00C58F63
+"Infinite Leather
+00C5A263
+"Infinite Monomate
+00C5C063
+"Infinite Wisdom
+00C5D463
+"Infinite Light
+00C5C063
+
+#Phantom 2040#281B1C3A
+"Infinite Bullets
+00CF8A99
+"Infinite Health
+00D7BE64
+
+#Power Rangers#
+"Infinite energy
+00C939F0
+
+#Power Strike II#09DE1528
+"Infinite Lives
+00C03D09
+"Infinite Bombs
+00D9F409
+
+#Prince of Persia#45F058D6,311D2863
+"Infinite energy (spikes & big falls can still kill though)
+00C29203
+"Infinite time
+00C2983B
+
+#Primal Rage#2A34B5C7
+"Infinite Time
+00DD8299
+"Player 1 Infinite Health
+00DC3E40
+
+#Psychic World#73779B22
+"Infinite ESP
+00DF1238
+"Infinite H.P (Hit Points)
+00DF1038
+
+#Put and Putter#407AC070,ECC301DD
+"Lots of balls
+00DD1999
+
+#R.B.I. Baseball 1994#6DC3295E
+"Cant Strike Out
+00CC2600
+
+#Ren & Stimpy - Quest for the Shaven Yak#6C451EE1
+"Infinite lives for Ren
+00C2F206
+"Infinite lives for Stimpy
+00C2F306
+"Infinite energy for Ren
+00C2F406
+"Infinite energy for Stimpy
+00C2F506
+"Invincibility - turn code off to pick up items and when you reach the end of a level
+00D4CA11 
+"Show Developers Character Select Background
+00D49501
+
+#Revenge of Drancon#03E9C607
+"Infinite Lives
+00C12D09
+"Infinite Vitality
+00CC36FE
+
+#Rise of the Robots#100B77B2
+"Infinite Health
+00C45130
+"Infinite Time
+00C45B09
+
+#Ristar: The Shooting Star#EFE65B3B
+"Infinite lives
+00DC4102
+"Infinite Health
+00DC4204
+"Infinite Stars
+00DC4362
+
+#Road Rash#96045F76
+"Infinite Time
+00C2A100
+
+#Robocop 3#069A0704
+"Infinite Time
+00CE6401
+"Infinite Lives
+00CE6A0A
+"Infinite Bullets
+00CE9F99
+
+#RoboCop versus The Terminator#4AB7FA4E
+"Infinite Lives
+00D05B09
+"Infinite Health
+00D069FF
+
+#Samurai Shodown#98171DEB
+"Infinite Time
+00C20063
+"Player 1 Infinite Health
+00C090FF
+
+#Shaq Fu#6FCB8AB0
+"Player 1 Infinite Health
+00CD4F32
+
+#Shinobi#30F1C984
+"Infinite energy
+00D20B04
+"Infinite special weapons
+00D21E01
+"Invincible
+00D27B86
+
+#Shinobi II - The Silent Fury#6201C694
+"Infinite lives
+00C04004
+"Infinite energy
+00C02404
+"Eunlimite Ninjuts points
+00C04109
+"Activate all new Ninjas
+00C028FF
+"All crystals collected
+00C027FF
+"Go straight to round 5 (enemy base)
+00C02005
+"Infinite magic
+00C04102
+
+#Slider (Skweek)#4DC6F555
+"Infinite Time
+00C35463
+"Get 1 Tile To Beat Level
+00C34201
+
+#Smash T.V.#1006E4E3
+"Infinite Lives
+00C51207
+"Infinite Credits
+00C2A909
+
+#Smurfs, The#354E1CBD
+"Infinite Time
+00D92FB0
+"Infinite Lives
+00D92363
+"Infinite Health
+00D92404
+
+#Sonic & Tails 1#663F2ABB
+"Infinite Time
+00D2C100
+"Infinite Lives
+00D29B99
+"Infinite Rings
+00D29C98
+
+#Sonic Blast#031B9DA9
+"Infinite Rings
+00D25E98
+"Infinite Rings Bonus Level
+00DD9E98
+
+#Sonic Chaos#663F2ABB
+"Infinite lives
+00D29B99
+"Infinite Time
+00D2C199
+"Sonic can't jump
+00D50380
+"Donic can't move
+00D50389
+"Invincibility
+00D29C05
+"Better invincibility - either collect a ring or use with above cheat to activate
+00D3B101
+"Infinite Rings
+00D29C99
+"Sonic runs backwards
+00D50410
+"High jump
+00D50C95
+"Rocket jump
+00D51830
+"No enemies
+00D74000
+"New level
+00D160C8
+"Level select (1-C Hex) level 2-6 and special stage 1-5
+00D29901
+
+#Sonic Drift 1#68F0A776,BAAC1FC0
+"Infinite Rings
+00DA0063
+
+#Sonic Drift 2#D6E8A305
+"Infinite Rings
+00DCC363
+
+#Sonic Labyrinth#5550173B
+"Infinite time
+00C50109
+"Infinite lives
+00C5060A
+
+#Sonic Spinball#A9210434
+"Infinite lives
+00DA1606
+"Infinite Continues
+00DA1B09
+
+#Sonic The Hedgehog#3E31CB8C,816C0A1E,D163356E
+"Freezes the time
+00D2D106
+"Infinite Time
+00D2D000
+"Infinite Lives
+00D24003
+"Strange noises
+00D7F700
+"Infinite shields
+00D2D628
+"Infinite sneakers
+00DC0A02
+"Infinite Rings
+00D2A901
+"Changes the music
+00DC31FF
+"Super invinciblity - walk through enemies/spikes
+00D20901
+
+#Sonic The Hedgehog 2#95A18EC7
+"Infinite Lives
+00D29803
+"Infinite rings press button 1 at end of level during score totalising
+00D29905 
+"Better invincibility.  Either collect a ring or use with above cheat to activate
+00D3A915
+"Level select - Zone (0-6) activate after the first 2 title screens but before the level starts, after the level starts disable
+00D29500
+"Level select - Act (0-2) 1-3. activate after the first 2 title screens but before the level starts, after the level starts disable
+00D29600
+"Keeps time at zero
+00D2B999
+"Infinite rings
+00D29999
+"Glider From Start
+00D50213
+"Invisible Sonic
+00D52876
+
+#Sonic The Hedgehog: Triple Trouble (Sonic & Tails 2)#D23A2A93
+"Infinite Time
+00D15D00
+"Infinite Lives
+00D14099
+"Infinite Rings
+0098D159
+
+#Space Harrier#600C15B3
+"Infinite lives
+00C12302
+"Invincible
+00C15801
+
+#Spiderman 2#
+"Infinite continues
+00C16082
+"Infinite web
+00C16D08
+"No collision
+00C16B07
+"Infinite energy
+00C16A08
+
+#Spider-Man: Return of the Sinister Six#BC240779
+"Infinite Health
+00C1AA08
+
+#Spiderman & X-Men - Arcade's Revenge#742A372B
+"Infinite Health
+00D3732F
+
+#Spiderman vs The Kingpin#2651024E
+"Infinite web fluid
+00DF7520
+"Infinite time
+00DF7205
+"Infinite energy
+00DF76FF
+
+#Star Trek Generations - Beyond the Nexus#087FC5F0
+"Infinite Shields
+00D31464
+"Infinite Lazers
+00D31564
+
+#Star Wars#DB9BC599,0228769C
+"Infinite energy, use with below code after level 1
+00DAA310
+"use with above code after level 1
+00DAA410
+"Infinite lives
+00DAAD02
+
+#Streets of Rage#3D8BCF1D
+"Infinite energy
+00CCF317
+"Send opponents 'flying'
+00CF98FB
+"Infinite lives
+00CD0903
+"Infinite timer
+00CEEE01
+"Level select (0-4) switch code off at end of level
+00C66700
+"Infinite Health
+00C66901
+"Enable 2 Hidden Options in the options menu
+00CF2905
+
+#Streets of Rage II#0B618409
+"Infinite lives
+00C9A603
+"Infinite energy
+00C98617
+
+#Strider Returns, Journey from Darkness#1EBFA5CA
+"Infinite Time
+00D6C639
+"Infinite Lives
+00D51B09
+"Infinite Health
+00D52660
+
+#Super Return of the Jedi#4A38B6B6
+"Infinite Lives
+00D9EF09
+"Infinite Health
+00D9F00C
+
+#Superman: The Man of Steel#73DF5A15
+"Infinite Health
+00CC1514
+"Infinite Continues
+00CEC409
+
+#Super Off Road#E8B42B1F
+"Infinite nitros
+00C20319
+"Infinite credits (only works on dumped rom 'B')
+00D04002
+"Infinite money
+00D03F09
+"Yellow car's nitros at 0
+00C23800
+"Blue car's nitros at 0
+00C26D00
+"Grey car's nitros at 0
+00C2A200
+"Accelerator stuck down, achieve nitro speed, turns accelerator button into brake
+00C21BFF 
+"Permanent nitro speed with no brakes, car can bounce around like a pinball at times
+00C21EFF
+
+#Super Smash TV#E0B1AFF8
+"Infinite lives
+00C51205
+
+#Super Space Invaders#DFE38E24
+"Invulnerability
+00C7EE03
+"Shoot one invader to clear round
+00C84601
+"Infinite lives
+00C7EC03
+"Faster shooting
+00C7E702
+"Use with Faster Shooting makes one of your bullets stick to the top of the screen so you can always hit the flying saucer
+00C7E922 
+"Makes you invisible
+00C7E601
+
+#Sylvan Tale#947C2921
+"Infinite Health
+00C0A520
+
+#Tails Sky Patrol#88618AFA
+"Infinite Lives
+00D795009
+"Infinite Fuel
+00D78E20
+
+#TaleSpin, Disney's#F1732FFE
+"Infinite Lives
+00D72D09
+"Infinite Credits
+00D73209
+
+#Taz in Escape from Mars#EEBAD66B
+"Infinite Lives
+00C36C09
+
+#Taz-Mania: The Search for the Lost Seabirds#36040C24
+"Infinite energy
+00C70A08
+"Infinite lives
+00C00205
+"Infinite spin
+00C3097F
+
+#Tempo JR#DE466796
+"Infinite Lives
+00C47463
+"Infinite Coins
+00C47563
+"Infinite Health
+00C4730F
+
+#Terminator, The#C029A5FD
+"Infinite energy
+00CC1664
+
+#Terminator 2#
+"Infinite lives
+00DD0F04
+
+#Terminator 2 - Judgement Day#1BD15773
+"Infinite Health
+00CF3F38
+
+#Terminator 2 - The Arcade Game#9479C83A
+"Infinite Energy
+00DCCF80
+
+#Tesserae#CA0E11CC
+"Always Zero Moves
+00C92500
+
+#Tintin in Tibet#969CF389
+"Infinite Lives
+00C4E608
+"Infinite Health
+00C4E505
+
+#Tom and Jerry - the Movie#5CD33FF2
+"Infinite Health
+00CB2A08
+
+#True Lies#5173B02A
+"Infinite Health
+00CC3F14
+"Infinite Bullets
+00D3C363
+
+#Urban Strike#185E9FC1
+Infinite Armor
+00DAB2FF
+"Infinite Fuel
+00DAB8FF
+"Infinite Lives
+00DAA909
+
+#Vampire Master of Darkness#7EC64025
+"Infinite lives
+00DFBA03
+"Infinite energy
+00CA3A20
+
+#Virtua Fighter Animation#D431C452
+"Infinite Time
+00C40963
+"Infinite Health
+00C42232
+
+#VR Troopers#B0F22745
+"Infinite Time
+00CDF4FF
+"Infinite Health
+00CDDC64
+
+#Wizard Pinball#9E03F96C
+"Infinite balls
+00DB0005
+"Infinite balls for player 2
+00DB0A05
+
+#Wolfchild#840A8F8E
+"Infinite Health
+00C10107
+
+#Wonderboy#EA2DD3A7
+"Infinite lives
+00C12D02
+"Infinite vitality
+00CC360C
+"Invincible and always have throwing hammers
+00C12703
+"Zone select, switch code off at end of level
+00C12901
+"Round and area select (00-27 hex), switch code off at end of level
+00C12800
+"Killer Skateboard
+00C12797
+
+#Wonderboy 3: The Dragons Trap#A74C97A7,DB1B5B44
+"Invincible
+00C24080
+"Infinite Health
+00CF5280
+"Infinite Potion
+00CF4A09
+"Max Money
+00CF5509
+00CF5609
+00CF5709
+00CF5809
+00CF5909
+00CF5A09
+
+#Woody Pop#B74F3A4F,9C0E5A04
+"Infinite lives
+00C11103
+"Alter ball speed (change value)
+00C84F01
+"Morphing ball
+00C84503
+
+#World Class Leader Board Golf#868FE528
+"Always finish under par (found by Rid)
+00D36800
+
+#WWF Raw#8DC68D92
+"Player 1 Infinite Health
+00D3B163
+
+#WWF Wrestlemania Steel Cage Challenge#DA8E95A9
+"Unlimited energy for first character
+00C40DEF
+"Unlimited energy for second character in tag match
+00C44CEF
+
+#X-men#567A5EE6
+"Mutant Power Always On
+00DF8A09
+"Infinite Health
+00DF8BFF
+"Infinite Mutant Power
+00DF8CFF
+
+#X-Men: Gamemaster's Legacy#C169C344
+"Mutant Power Always On
+00DF8A09
+"Infinite Health
+00DF8BFF
+"Infinite Mutant Power
+00DF8CFF
+
+#X-Men: Mojo World#C2CBA9D7
+"Mutant Power Always On
+00DF8A09
+"Infinite Health
+00DF8BFF
+"Infinite Mutant Power
+00DF8CFF
+
+#Yuu Yuu Hakusho 2#DCBF3355
+"Infinite Health
+00C40880
