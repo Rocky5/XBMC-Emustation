@@ -11,6 +11,8 @@ print "| _Scripts\XBMC-Emustation\menu_loader.py loaded."
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 XBE_Files						= 0
+Default_Layout_XML_Path			= 0
+Layout_XML_Path					= 0
 
 if xbmc.getCondVisibility( '!Skin.HasSetting(althomelayout)' ): MenuLabel = xbmc.getInfoLabel('Container(9001).ListItem.Label2')
 if xbmc.getCondVisibility( 'Skin.HasSetting(althomelayout)' ): MenuLabel = xbmc.getInfoLabel('Container(9002).ListItem.Label2')
@@ -37,20 +39,26 @@ if MenuLabel == "ports": XBE_Files = 1
 xbmc.executebuiltin('Skin.SetString(emuname,' + MenuLabel + ')')
 
 if XBE_Files == 0:
-	Default_Layout_XML_Path			= Default_Layout
-	Layout_XML_Path					= Custom_Layout
-	
+
 	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 		if os.path.isfile( Default_Synopsis_Layout ):
 			Default_Layout_XML_Path		= Default_Synopsis_Layout
 		if os.path.isfile( Custom_Synopsis_Layout ):
 			Layout_XML_Path				= Custom_Synopsis_Layout
+		else:
+			Layout_XML_Path				= Default_Synopsis_Layout
 
-	if xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
+	elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
 		if os.path.isfile( Default_Thumb_Layout ):
 			Default_Layout_XML_Path		= Default_Thumb_Layout
 		if os.path.isfile( Custom_Thumb_Layout ):
 			Layout_XML_Path				= Custom_Thumb_Layout
+		else:
+			Layout_XML_Path				= Default_Thumb_Layout
+
+	else:
+		Default_Layout_XML_Path			= XBE_Default_Layout
+		Layout_XML_Path					= Custom_Layout
 
 	if os.path.isfile( os.path.join( Content_List_Path,MenuLabel + '.xml' ) ):
 		## this is here so not to mess with the actual menulabel
@@ -143,20 +151,26 @@ else:
 	if not XBE_Files == 1: xbmc.executebuiltin( 'SetFocus(9000)' )
 
 if XBE_Files == 1:
-	Default_Layout_XML_Path			= XBE_Default_Layout
-	Layout_XML_Path					= Custom_Layout
 	
 	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 		if os.path.isfile( XBE_Default_Synopsis_Layout ):
 			Default_Layout_XML_Path		= XBE_Default_Synopsis_Layout
 		if os.path.isfile( Custom_Synopsis_Layout ):
 			Layout_XML_Path				= Custom_Synopsis_Layout
+		else:
+			Layout_XML_Path				= XBE_Default_Synopsis_Layout
 
-	if xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
+	elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
 		if os.path.isfile( XBE_Default_Thumb_Layout ):
 			Default_Layout_XML_Path		= XBE_Default_Thumb_Layout
 		if os.path.isfile( Custom_Thumb_Layout ):
 			Layout_XML_Path				= Custom_Thumb_Layout
+		else:
+			Layout_XML_Path				= XBE_Default_Thumb_Layout
+
+	else:
+		Default_Layout_XML_Path			= XBE_Default_Layout
+		Layout_XML_Path					= Custom_Layout
 		
 	## this is here so not to mess with the actual menulabel
 	if not os.path.isfile( Layout_XML_Path	 ):
