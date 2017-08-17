@@ -21,24 +21,13 @@ ThemeType						= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
 Content_List_Path				= xbmc.translatePath( "Special://skin/720p/content lists/" )
 Default_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/layout.xml' )
 Default_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/synopsis_layout.xml' )
+Default_Thumb_Layout			= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/thumb_layout.xml' )
 XBE_Default_Layout				= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/XBE files/layout.xml' )
 XBE_Default_Synopsis_Layout		= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/XBE files/synopsis_layout.xml' )
+XBE_Default_Thumb_Layout		= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/XBE files/thumb_layout.xml' )
 Custom_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/layout.xml' )
-Synopsis_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/synopsis_layout.xml' )
-
-if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
-	if os.path.isfile( Default_Synopsis_Layout ):
-		Default_Layout_XML_Path		= Default_Synopsis_Layout
-	else:
-		Default_Layout_XML_Path		= Default_Layout
-	
-	if os.path.isfile( Synopsis_Layout ):
-		Layout_XML_Path				= Synopsis_Layout
-	else:
-		Layout_XML_Path				= Custom_Layout
-else:
-	Default_Layout_XML_Path			= Default_Layout
-	Layout_XML_Path					= Custom_Layout
+Custom_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/synopsis_layout.xml' )
+Custom_Thumb_Layout				= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/thumb_layout.xml' )
 
 if MenuLabel == "apps":	XBE_Files = 1
 if MenuLabel == "xbox": XBE_Files = 1
@@ -48,6 +37,21 @@ if MenuLabel == "ports": XBE_Files = 1
 xbmc.executebuiltin('Skin.SetString(emuname,' + MenuLabel + ')')
 
 if XBE_Files == 0:
+	Default_Layout_XML_Path			= Default_Layout
+	Layout_XML_Path					= Custom_Layout
+	
+	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
+		if os.path.isfile( Default_Synopsis_Layout ):
+			Default_Layout_XML_Path		= Default_Synopsis_Layout
+		if os.path.isfile( Custom_Synopsis_Layout ):
+			Layout_XML_Path				= Custom_Synopsis_Layout
+
+	if xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
+		if os.path.isfile( Default_Thumb_Layout ):
+			Default_Layout_XML_Path		= Default_Thumb_Layout
+		if os.path.isfile( Custom_Thumb_Layout ):
+			Layout_XML_Path				= Custom_Thumb_Layout
+
 	if os.path.isfile( os.path.join( Content_List_Path,MenuLabel + '.xml' ) ):
 		## this is here so not to mess with the actual menulabel
 		if not os.path.isfile( Layout_XML_Path ):
@@ -139,19 +143,20 @@ else:
 	if not XBE_Files == 1: xbmc.executebuiltin( 'SetFocus(9000)' )
 
 if XBE_Files == 1:
+	Default_Layout_XML_Path			= XBE_Default_Layout
+	Layout_XML_Path					= Custom_Layout
+	
 	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 		if os.path.isfile( XBE_Default_Synopsis_Layout ):
 			Default_Layout_XML_Path		= XBE_Default_Synopsis_Layout
-		else:
-			Default_Layout_XML_Path		= XBE_Default_Layout
-		
-		if os.path.isfile( Synopsis_Layout ):
-			Layout_XML_Path				= Synopsis_Layout
-		else:
-			Layout_XML_Path				= Custom_Layout
-	else:
-		Default_Layout_XML_Path			= XBE_Default_Layout
-		Layout_XML_Path					= Custom_Layout
+		if os.path.isfile( Custom_Synopsis_Layout ):
+			Layout_XML_Path				= Custom_Synopsis_Layout
+
+	if xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
+		if os.path.isfile( XBE_Default_Thumb_Layout ):
+			Default_Layout_XML_Path		= XBE_Default_Thumb_Layout
+		if os.path.isfile( Custom_Thumb_Layout ):
+			Layout_XML_Path				= Custom_Thumb_Layout
 		
 	## this is here so not to mess with the actual menulabel
 	if not os.path.isfile( Layout_XML_Path	 ):
