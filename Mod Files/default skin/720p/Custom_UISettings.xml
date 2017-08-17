@@ -56,8 +56,18 @@
 										<posy>0</posy>
 										<label>$LOCALIZE[32027]</label>
 										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.Reset(thumblayout)</onclick>
 										<onclick>Skin.ToggleSetting(synopsislayout)</onclick>
 										<selected>Skin.HasSetting(synopsislayout)</selected>
+								</control>
+								<control type="radiobutton" id="4">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32028]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.Reset(synopsislayout)</onclick>
+										<onclick>Skin.ToggleSetting(thumblayout)</onclick>
+										<selected>Skin.HasSetting(thumblayout)</selected>
 								</control>
 								<control type="button" id="20">
 										<posx>0</posx>

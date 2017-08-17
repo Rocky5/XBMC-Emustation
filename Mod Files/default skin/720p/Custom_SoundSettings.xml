@@ -2,13 +2,13 @@
 		<defaultcontrol always="true">1</defaultcontrol>
 		<controls>
 				<control type="group">
-						<posy>90</posy>
+						<posy>41.5</posy>
 						<control type="image">
 								<description>background image</description>
 								<posx>320</posx>
 								<posy>108</posy>
 								<width>640</width>
-								<height>324</height>
+								<height>421</height>
 								<texture border="20,20,20,20">menu_back.png</texture>
 						</control>
 						<control type="label">
@@ -50,6 +50,36 @@
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript("Special://xbmc/_scripts/xbmc-emustation/dis-enable_sound.py")</onclick>
 										<selected>!Skin.HasSetting(DisabledSound)</selected>
+								</control>
+								<control type="radiobutton" id="3">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31137][/UPPERCASE]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(Use_Startup_Playback)</onclick>
+										<selected>Skin.HasSetting(Use_Startup_Playback)</selected>
+								</control>
+								<control type="button" id="4">
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>VolumeUp</onright>
+										<onleft>VolumeDown</onleft>
+										<label> &gt; $LOCALIZE[21801]</label>
+										<label2>$INFO[Skin.String(Startup_Playback_Path)]</label2>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript( Special://xbmc/_scripts/xbmc-emustation/generate_random_playlist.py )</onclick>
+										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
+								</control>
+								<control type="button" id="5">
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>VolumeUp</onright>
+										<onleft>VolumeDown</onleft>
+										<label> &gt; $LOCALIZE[10503]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>ActivateWindow(500)</onclick>
+										<onclick>Dialog.Close(1112,true)</onclick>
+										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
 								</control>
 						</control>
 						<control type="label">

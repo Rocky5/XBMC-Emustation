@@ -1,8 +1,8 @@
 <settings>
 		<mymusic>
 				<playlist>
-						<repeat>false</repeat>
-						<shuffle>false</shuffle>
+						<repeat>true</repeat>
+						<shuffle>true</shuffle>
 				</playlist>
 				<scanning>
 						<isscanning>false</isscanning>
@@ -404,13 +404,13 @@
 		<locale>
 				<charset>DEFAULT</charset>
 				<country>UK (24h)</country>
-				<date>Mon, 7 Aug 2017</date>
+				<date>Tue, 3 Jan 2017</date>
 				<language>english</language>
 				<sep1>
 				</sep1>
 				<sep2>
 				</sep2>
-				<time>4:57</time>
+				<time>1:35</time>
 				<timeserver>false</timeserver>
 				<timeserveraddress>pool.ntp.org</timeserveraddress>
 				<timezone>25</timezone>
@@ -559,11 +559,10 @@
 				</sep1>
 				<sep2>
 				</sep2>
-				<slideshowpath pathversion="1">
-				</slideshowpath>
+				<slideshowpath pathversion="1"></slideshowpath>
 				<time>5</time>
-				<usedimonpause>true</usedimonpause>
-				<usemusicvisinstead>true</usemusicvisinstead>
+				<usedimonpause>false</usedimonpause>
+				<usemusicvisinstead>false</usemusicvisinstead>
 		</screensaver>
 		<scrobbler>
 				<lastfmpass>
@@ -599,7 +598,7 @@
 				</sep3>
 				<upnprenderer>false</upnprenderer>
 				<upnpserver>false</upnpserver>
-				<webserver>false</webserver>
+				<webserver>true</webserver>
 				<webserverpassword>
 				</webserverpassword>
 				<webserverport>80</webserverport>

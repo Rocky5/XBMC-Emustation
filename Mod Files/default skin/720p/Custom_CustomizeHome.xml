@@ -157,17 +157,17 @@
 										<visible>!Skin.HasSetting(althomelayout) + StringCompare(Skin.CurrentTheme,carbon)</visible>
 								</control>
 								<control type="group">
-									<visible>!Skin.HasSetting(altcarouselbar)</visible>
-									<control type="image">
-										<posx>0</posx>
-										<posy>200</posy>
-										<width>1280</width>
-										<height>310</height>
-										<aspectratio>stretch</aspectratio>
-										<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-										<texture background="true">layouts/art/carousel_bar_haze.png</texture>
-										<visible>!Container(9001).OnNext + !Container(9002).OnNext + !Container(9001).OnPrevious + !Container(9002).OnPrevious + StringCompare(Skin.CurrentTheme,carbon)</visible>
-									</control>
+										<visible>!Skin.HasSetting(altcarouselbar)</visible>
+										<control type="image">
+												<posx>0</posx>
+												<posy>200</posy>
+												<width>1280</width>
+												<height>310</height>
+												<aspectratio>stretch</aspectratio>
+												<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+												<texture background="true">layouts/art/carousel_bar_haze.png</texture>
+												<visible>!Container(9001).OnNext + !Container(9002).OnNext + !Container(9001).OnPrevious + !Container(9002).OnPrevious + StringCompare(Skin.CurrentTheme,carbon)</visible>
+										</control>
 								</control>
 								<!-- Carbon theme end -->
 								<control type="group">

@@ -2,28 +2,11 @@
 		<defaultcontrol always="true">605</defaultcontrol>
 		<include>dialogeffect</include>
 		<controls>
+				<include>CommonBackground</include>
 				<control type="button" id="605">
 						<posx>-500</posx>
 						<onfocus>dialog.close(114,true)</onfocus>
 						<visible>!Player.HasMedia</visible>
-				</control>
-				<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
-						<width>1280</width>
-						<height>720</height>
-						<texture fallback="Background.png">$INFO[skin.string(background_color)]</texture>
-						<aspectratio>stretch</aspectratio>
-						<visible>!IsEmpty.($INFO[Skin.String(Background_Custom_Color)])</visible>
-				</control>
-				<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
-						<width>1280</width>
-						<height>720</height>
-						<texture>background diffuse.png</texture>
-						<colordiffuse>$VAR[var-bgcustcolour]</colordiffuse>
-						<aspectratio>stretch</aspectratio>
 				</control>
 				<control type="visualisation.">
 						<posx>0</posx>
@@ -93,7 +76,7 @@
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-up.png</texture>
-						<colordiffuse>$VAR[var-labelcolour]</colordiffuse>
+						<colordiffuse>grey2</colordiffuse>
 						<visible>!ControlGroup(9002).HasFocus</visible>
 						<animation type="Conditional" condition="System.IdleTime(5)" loop="true" reversable="false">
 								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
@@ -281,7 +264,7 @@
 								<height>40</height>
 								<font>size_15</font>
 								<align>right</align>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<textcolor>grey2</textcolor>
 								<label>$INFO[Player.Time(hh:mm:ss)]</label>
 						</control>
 						<control type="progress">
@@ -304,7 +287,7 @@
 								<height>40</height>
 								<font>size_15</font>
 								<align>left</align>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<textcolor>grey2</textcolor>
 								<label>$INFO[Player.Duration(hh:mm:ss)]</label>
 						</control>
 				</control>
@@ -320,7 +303,7 @@
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>size_25</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<textcolor>grey2</textcolor>
 								<shadowcolor>-</shadowcolor>
 								<scrollout>false</scrollout>
 								<pauseatend>2000</pauseatend>
@@ -334,7 +317,7 @@
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>size_20</font>
-								<textcolor>$VAR[var-labelcolour]</textcolor>
+								<textcolor>grey2</textcolor>
 								<shadowcolor>-</shadowcolor>
 								<scrollout>false</scrollout>
 								<pauseatend>2000</pauseatend>

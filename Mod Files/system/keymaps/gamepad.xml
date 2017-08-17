@@ -36,10 +36,10 @@
 				<gamepad>
 						<A>Select</A>
 						<B>Back</B>
-						<X>FullScreen</X>
+						<X>XBMC.ActivateWindow(PlayerControls)</X>
 						<white>ContextMenu</white>
-						<black />
-						<start>XBMC.ActivateWindow(PlayerControls)</start>
+						<black/>
+						<start/>
 						<back>PreviousMenu</back>
 						<dpadleft>Left</dpadleft>
 						<dpadright>Right</dpadright>

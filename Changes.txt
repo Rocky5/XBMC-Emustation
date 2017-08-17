@@ -1,3 +1,12 @@
+17/08.2017
+	1) Added support for startup playlists.
+	2) Added my Generate startup playlist script. ( will create a playlist from files that are in "E:\F:\G:\Music" )
+	3) Added Playlist Editor to the above.
+	4) Fixed the player controls, Use (X) to open them when media is playing.
+	5) Moved the intro script into the XBMC-Emustation folder.
+	6) Mega Drive skindefault layout.
+	7) New Thumb_Layout.xml this has a large thumbnail.
+
 16/08/2017
 	1) Updated the transparency of the footer and header in the carbon theme.
 	2) Updated the fade image and position in the background in the carbon theme.
