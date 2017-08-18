@@ -57,7 +57,7 @@ if XBE_Files == 0:
 			Layout_XML_Path				= Default_Thumb_Layout
 
 	else:
-		Default_Layout_XML_Path			= XBE_Default_Layout
+		Default_Layout_XML_Path			= Default_Layout
 		Layout_XML_Path					= Custom_Layout
 
 	if os.path.isfile( os.path.join( Content_List_Path,MenuLabel + '.xml' ) ):
