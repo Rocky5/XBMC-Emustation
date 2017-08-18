@@ -67,7 +67,7 @@
 										<label> &gt; $LOCALIZE[21801]</label>
 										<label2>$INFO[Skin.String(Startup_Playback_Path)]</label2>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript( Special://xbmc/_scripts/xbmc-emustation/generate_random_playlist.py )</onclick>
+										<onclick>RunScript( Special://xbmc/_scripts/xbmc-emustation/generate_playlist.py )</onclick>
 										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
 								</control>
 								<control type="button" id="5">

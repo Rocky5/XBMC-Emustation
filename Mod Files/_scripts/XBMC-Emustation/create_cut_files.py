@@ -123,6 +123,7 @@ def manual_scan():
 							if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini" ):
 								with open( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini", 'r') as ini:
 									FBA_Rom_Name = ini.readline()[:-1]
+									if FBA_Rom_Name.endswith( '.' ): FBA_Rom_Name = FBA_Rom_Name[:-1]
 							else:
 								FBA_Rom_Name = Rom_Name_noext
 								
@@ -161,6 +162,7 @@ def manual_scan():
 							log('|	Create the rest of the layout xml file.')
 							with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 								if Emu_Name == "fba":
+									#WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name + ' - ('+ Rom_Name_noext + ')','Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
 									WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
 								elif Emu_Name == "mame":
 									WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + Rom_Name_noext + '.cut" )',TBN_File + Rom_Name_noext + '.tbn',TBN_File + Rom_Name_noext + '.tbn')
@@ -286,6 +288,7 @@ def full_scan():
 									if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini" ):
 										with open( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini", 'r') as ini:
 											FBA_Rom_Name = ini.readline()[:-1]
+											if FBA_Rom_Name.endswith( '.' ): FBA_Rom_Name = FBA_Rom_Name[:-1]
 									else:
 										FBA_Rom_Name = Rom_Name_noext
 										
@@ -377,10 +380,11 @@ CUT_File_Layout = '<shortcut>\n\
 		</custom>\n\
 </shortcut>'
 		
-menu_entry_header	= '<content>'		
+menu_entry_header	= '<content>'
+## had to add a space to the end of the label or XBMC will use the damn internal labels for games with numbers for names
 menu_entry			= '\n\
 	<item id="%s">\n\
-		<label>%s</label>\n\
+		<label>%s </label>\n\
 		<onclick>%s</onclick>\n\
 		<icon>%s</icon>\n\
 		<thumb>%s</thumb>\n\

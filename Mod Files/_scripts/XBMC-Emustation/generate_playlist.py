@@ -19,7 +19,7 @@ except:
 try:
 	Music_Extension = sys.argv[2][3][4]
 except:
-	Music_Extension = [ "mp3","wma","ogg" ]
+	Music_Extension = [ "mp3","wma","ogg","m4a" ]
 	
 Playlist = xbmc.translatePath( "special://Profile/playlists/music/random.m3u" )
 
