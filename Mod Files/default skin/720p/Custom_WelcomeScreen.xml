@@ -158,6 +158,7 @@
 										<posy>0</posy>
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
+										<onclick>Skin.SetBool(firstrun)</onclick>
 										<onclick>RunScript(Special://xbmc/_scripts/xbmc-emustation/scanner.py,scan_emus,0,scan_xbes,silent_mode)</onclick>
 										<onclick>SetFocus(6)</onclick>
 								</control>
@@ -183,7 +184,6 @@
 										<texturefocus border="5">button-focus4.png</texturefocus>
 										<texturenofocus>button-nofocus4.png</texturenofocus>
 										<onclick>ReplaceWindow(guicalibration)</onclick>
-										<onclick>Skin.SetBool(firstrun)</onclick>
 										<visible allowhiddenfocus="true">Control.HasFocus(6)</visible>
 								</control>
 						</control>
