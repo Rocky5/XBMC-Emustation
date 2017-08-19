@@ -470,6 +470,16 @@
 												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
 										</item>
 										<item id="10">
+												<label>$INFO[Skin.String(atarijaguarcd_games)]</label>
+												<label2>atarijaguarcd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/atarijaguarcd/art/system_art.png</icon>
+												<thumb>layouts/atarijaguarcd/art/logo.png</thumb>
+												<visible>Skin.HasSetting(atarijaguarcd_exists)</visible>
+										</item>
+										<item id="11">
 												<label>$INFO[Skin.String(atarilynx_games)]</label>
 												<label2>atarilynx</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -479,7 +489,7 @@
 												<thumb>layouts/atarilynx/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarilynx_exists)</visible>
 										</item>
-										<item id="11">
+										<item id="12">
 												<label>$INFO[Skin.String(atarist_games)]</label>
 												<label2>atarist</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -489,7 +499,7 @@
 												<thumb>layouts/atarist/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarist_exists)</visible>
 										</item>
-										<item id="12">
+										<item id="13">
 												<label>$INFO[Skin.String(atarixe_games)]</label>
 												<label2>atarixe</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -499,7 +509,7 @@
 												<thumb>layouts/atarixe/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarixe_exists)</visible>
 										</item>
-										<item id="13">
+										<item id="14">
 												<label>$INFO[Skin.String(atarixl_games)]</label>
 												<label2>atarixl</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -509,7 +519,7 @@
 												<thumb>layouts/atarixl/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarixl_exists)</visible>
 										</item>
-										<item id="14">
+										<item id="15">
 												<label>$INFO[Skin.String(c64_games)]</label>
 												<label2>c64</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -519,7 +529,7 @@
 												<thumb>layouts/c64/art/logo.png</thumb>
 												<visible>Skin.HasSetting(c64_exists)</visible>
 										</item>
-										<item id="15">
+										<item id="16">
 												<label>$INFO[Skin.String(c64pet_games)]</label>
 												<label2>c64pet</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -529,7 +539,7 @@
 												<thumb>layouts/c64pet/art/logo.png</thumb>
 												<visible>Skin.HasSetting(c64pet_exists)</visible>
 										</item>
-										<item id="16">
+										<item id="17">
 												<label>$INFO[Skin.String(chip8x_games)]</label>
 												<label2>chip8x</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -539,7 +549,7 @@
 												<thumb>layouts/chip8x/art/logo.png</thumb>
 												<visible>Skin.HasSetting(chip8x_exists)</visible>
 										</item>
-										<item id="17">
+										<item id="18">
 												<label>$INFO[Skin.String(coco_games)]</label>
 												<label2>coco</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -549,7 +559,7 @@
 												<thumb>layouts/coco/art/logo.png</thumb>
 												<visible>Skin.HasSetting(coco_exists)</visible>
 										</item>
-										<item id="18">
+										<item id="19">
 												<label>$INFO[Skin.String(colecovision_games)]</label>
 												<label2>colecovision</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -559,7 +569,7 @@
 												<thumb>layouts/colecovision/art/logo.png</thumb>
 												<visible>Skin.HasSetting(colecovision_exists)</visible>
 										</item>
-										<item id="19">
+										<item id="20">
 												<label>$INFO[Skin.String(cv20_games)]</label>
 												<label2>cv20</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -569,17 +579,17 @@
 												<thumb>layouts/cv20/art/logo.png</thumb>
 												<visible>Skin.HasSetting(cv20_exists)</visible>
 										</item>
-										<item id="20">
-												<label>$INFO[Skin.String(daphnex_games)]</label>
-												<label2>daphnex</label2>
+										<item id="21">
+												<label>$INFO[Skin.String(daphne_games)]</label>
+												<label2>daphne</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
 												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
-												<icon>layouts/daphnex/art/system_art.png</icon>
-												<thumb>layouts/daphnex/art/logo.png</thumb>
-												<visible>Skin.HasSetting(daphnex_exists)</visible>
+												<icon>layouts/daphne/art/system_art.png</icon>
+												<thumb>layouts/daphne/art/logo.png</thumb>
+												<visible>Skin.HasSetting(daphne_exists)</visible>
 										</item>
-										<item id="21">
+										<item id="22">
 												<label>$INFO[Skin.String(dreamcastvmu_games)]</label>
 												<label2>dreamcastvmu</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -589,7 +599,7 @@
 												<thumb>layouts/dreamcastvmu/art/logo.png</thumb>
 												<visible>Skin.HasSetting(dreamcastvmu_exists)</visible>
 										</item>
-										<item id="22">
+										<item id="23">
 												<label>$INFO[Skin.String(fba_games)]</label>
 												<label2>fba</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -599,7 +609,7 @@
 												<thumb>layouts/fba/art/logo.png</thumb>
 												<visible>Skin.HasSetting(fba_exists)</visible>
 										</item>
-										<item id="23">
+										<item id="24">
 												<label>$INFO[Skin.String(gamegear_games)]</label>
 												<label2>gamegear</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -609,7 +619,7 @@
 												<thumb>layouts/gamegear/art/logo.png</thumb>
 												<visible>Skin.HasSetting(gamegear_exists)</visible>
 										</item>
-										<item id="24">
+										<item id="25">
 												<label>$INFO[Skin.String(gb_games)]</label>
 												<label2>gb</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -619,7 +629,7 @@
 												<thumb>layouts/gb/art/logo.png</thumb>
 												<visible>Skin.HasSetting(gb_exists)</visible>
 										</item>
-										<item id="25">
+										<item id="26">
 												<label>$INFO[Skin.String(gba_games)]</label>
 												<label2>gba</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -629,7 +639,7 @@
 												<thumb>layouts/gba/art/logo.png</thumb>
 												<visible>Skin.HasSetting(gba_exists)</visible>
 										</item>
-										<item id="26">
+										<item id="27">
 												<label>$INFO[Skin.String(gbc_games)]</label>
 												<label2>gbc</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -639,7 +649,7 @@
 												<thumb>layouts/gbc/art/logo.png</thumb>
 												<visible>Skin.HasSetting(gbc_exists)</visible>
 										</item>
-										<item id="27">
+										<item id="28">
 												<label>$INFO[Skin.String(genesis_games)]</label>
 												<label2>genesis</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -649,7 +659,7 @@
 												<thumb>layouts/genesis/art/logo.png</thumb>
 												<visible>Skin.HasSetting(genesis_exists)</visible>
 										</item>
-										<item id="28">
+										<item id="29">
 												<label>$INFO[Skin.String(intellivision_games)]</label>
 												<label2>intellivision</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -659,7 +669,7 @@
 												<thumb>layouts/intellivision/art/logo.png</thumb>
 												<visible>Skin.HasSetting(intellivision_exists)</visible>
 										</item>
-										<item id="29">
+										<item id="30">
 												<label>$INFO[Skin.String(mame_games)]</label>
 												<label2>mame</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -669,7 +679,7 @@
 												<thumb>layouts/mame/art/logo.png</thumb>
 												<visible>Skin.HasSetting(mame_exists)</visible>
 										</item>
-										<item id="30">
+										<item id="31">
 												<label>$INFO[Skin.String(mastersystem_games)]</label>
 												<label2>mastersystem</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -679,7 +689,7 @@
 												<thumb>layouts/mastersystem/art/logo.png</thumb>
 												<visible>Skin.HasSetting(mastersystem_exists)</visible>
 										</item>
-										<item id="31">
+										<item id="32">
 												<label>$INFO[Skin.String(megadrive_games)]</label>
 												<label2>megadrive</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -689,7 +699,7 @@
 												<thumb>layouts/megadrive/art/logo.png</thumb>
 												<visible>Skin.HasSetting(megadrive_exists)</visible>
 										</item>
-										<item id="32">
+										<item id="33">
 												<label>$INFO[Skin.String(mess_games)]</label>
 												<label2>mess</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -699,7 +709,7 @@
 												<thumb>layouts/mess/art/logo.png</thumb>
 												<visible>Skin.HasSetting(mess_exists)</visible>
 										</item>
-										<item id="33">
+										<item id="34">
 												<label>$INFO[Skin.String(msx_games)]</label>
 												<label2>msx</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -709,7 +719,7 @@
 												<thumb>layouts/msx/art/logo.png</thumb>
 												<visible>Skin.HasSetting(msx_exists)</visible>
 										</item>
-										<item id="34">
+										<item id="35">
 												<label>$INFO[Skin.String(n64_games)]</label>
 												<label2>n64</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -719,7 +729,7 @@
 												<thumb>layouts/n64/art/logo.png</thumb>
 												<visible>Skin.HasSetting(n64_exists)</visible>
 										</item>
-										<item id="35">
+										<item id="36">
 												<label>$INFO[Skin.String(nds_games)]</label>
 												<label2>nds</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -729,7 +739,17 @@
 												<thumb>layouts/nds/art/logo.png</thumb>
 												<visible>Skin.HasSetting(nds_exists)</visible>
 										</item>
-										<item id="36">
+										<item id="37">
+												<label>$INFO[Skin.String(neogeo_games)]</label>
+												<label2>neogeo</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/neogeo/art/system_art.png</icon>
+												<thumb>layouts/neogeo/art/logo.png</thumb>
+												<visible>Skin.HasSetting(neogeo_exists)</visible>
+										</item>
+										<item id="38">
 												<label>$INFO[Skin.String(neogeocd_games)]</label>
 												<label2>neogeocd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -739,7 +759,7 @@
 												<thumb>layouts/neogeocd/art/logo.png</thumb>
 												<visible>Skin.HasSetting(neogeocd_exists)</visible>
 										</item>
-										<item id="37">
+										<item id="39">
 												<label>$INFO[Skin.String(nes_games)]</label>
 												<label2>nes</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -749,7 +769,17 @@
 												<thumb>layouts/nes/art/logo.png</thumb>
 												<visible>Skin.HasSetting(nes_exists)</visible>
 										</item>
-										<item id="38">
+										<item id="40">
+												<label>$INFO[Skin.String(ngp_games)]</label>
+												<label2>ngp</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/ngp/art/system_art.png</icon>
+												<thumb>layouts/ngp/art/logo.png</thumb>
+												<visible>Skin.HasSetting(ngp_exists)</visible>
+										</item>
+										<item id="41">
 												<label>$INFO[Skin.String(ngpc_games)]</label>
 												<label2>ngpc</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -759,7 +789,7 @@
 												<thumb>layouts/ngpc/art/logo.png</thumb>
 												<visible>Skin.HasSetting(ngpc_exists)</visible>
 										</item>
-										<item id="39">
+										<item id="42">
 												<label>$INFO[Skin.String(odyssey2_games)]</label>
 												<label2>odyssey2</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -769,7 +799,7 @@
 												<thumb>layouts/odyssey2/art/logo.png</thumb>
 												<visible>Skin.HasSetting(odyssey2_exists)</visible>
 										</item>
-										<item id="40">
+										<item id="43">
 												<label>$INFO[Skin.String(pc-98_games)]</label>
 												<label2>pc-98</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -779,7 +809,17 @@
 												<thumb>layouts/pc-98/art/logo.png</thumb>
 												<visible>Skin.HasSetting(pc-98_exists)</visible>
 										</item>
-										<item id="41">
+										<item id="44">
+												<label>$INFO[Skin.String(pce-cd_games)]</label>
+												<label2>pce-cd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/pce-cd/art/system_art.png</icon>
+												<thumb>layouts/pce-cd/art/logo.png</thumb>
+												<visible>Skin.HasSetting(pce-cd_exists)</visible>
+										</item>
+										<item id="45">
 												<label>$INFO[Skin.String(pcengine_games)]</label>
 												<label2>pcengine</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -789,7 +829,7 @@
 												<thumb>layouts/pcengine/art/logo.png</thumb>
 												<visible>Skin.HasSetting(pcengine_exists)</visible>
 										</item>
-										<item id="42">
+										<item id="46">
 												<label>$INFO[Skin.String(ports_games)]</label>
 												<label2>ports</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -798,7 +838,7 @@
 												<icon>layouts/ports/art/system_art.png</icon>
 												<thumb>layouts/ports/art/logo.png</thumb>
 										</item>
-										<item id="43">
+										<item id="47">
 												<label>$INFO[Skin.String(psx_games)]</label>
 												<label2>psx</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -808,7 +848,7 @@
 												<thumb>layouts/psx/art/logo.png</thumb>
 												<visible>Skin.HasSetting(psx_exists)</visible>
 										</item>
-										<item id="44">
+										<item id="48">
 												<label>$INFO[Skin.String(samcoupe_games)]</label>
 												<label2>samcoupe</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -818,7 +858,7 @@
 												<thumb>layouts/samcoupe/art/logo.png</thumb>
 												<visible>Skin.HasSetting(samcoupe_exists)</visible>
 										</item>
-										<item id="45">
+										<item id="49">
 												<label>$INFO[Skin.String(saturn_games)]</label>
 												<label2>saturn</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -828,7 +868,7 @@
 												<thumb>layouts/saturn/art/logo.png</thumb>
 												<visible>Skin.HasSetting(saturn_exists)</visible>
 										</item>
-										<item id="46">
+										<item id="50">
 												<label>$INFO[Skin.String(sc-3000_games)]</label>
 												<label2>sc-3000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -838,7 +878,7 @@
 												<thumb>layouts/sc-3000/art/logo.png</thumb>
 												<visible>Skin.HasSetting(sc-3000_exists)</visible>
 										</item>
-										<item id="47">
+										<item id="51">
 												<label>$INFO[Skin.String(scummvm_games)]</label>
 												<label2>scummvm</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -848,7 +888,7 @@
 												<thumb>layouts/scummvm/art/logo.png</thumb>
 												<visible>Skin.HasSetting(scummvm_exists)</visible>
 										</item>
-										<item id="48">
+										<item id="52">
 												<label>$INFO[Skin.String(sega32x_games)]</label>
 												<label2>sega32x</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -858,7 +898,7 @@
 												<thumb>layouts/sega32x/art/logo.png</thumb>
 												<visible>Skin.HasSetting(sega32x_exists)</visible>
 										</item>
-										<item id="49">
+										<item id="53">
 												<label>$INFO[Skin.String(segacd_games)]</label>
 												<label2>segacd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -868,7 +908,7 @@
 												<thumb>layouts/segacd/art/logo.png</thumb>
 												<visible>Skin.HasSetting(segacd_exists)</visible>
 										</item>
-										<item id="50">
+										<item id="54">
 												<label>$INFO[Skin.String(sf-7000_games)]</label>
 												<label2>sf-7000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -878,7 +918,7 @@
 												<thumb>layouts/sf-7000/art/logo.png</thumb>
 												<visible>Skin.HasSetting(sf-7000_exists)</visible>
 										</item>
-										<item id="51">
+										<item id="55">
 												<label>$INFO[Skin.String(sg-1000_games)]</label>
 												<label2>sg-1000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -888,7 +928,7 @@
 												<thumb>layouts/sg-1000/art/logo.png</thumb>
 												<visible>Skin.HasSetting(sg-1000_exists)</visible>
 										</item>
-										<item id="52">
+										<item id="56">
 												<label>$INFO[Skin.String(sgb_games)]</label>
 												<label2>sgb</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -898,7 +938,7 @@
 												<thumb>layouts/sgb/art/logo.png</thumb>
 												<visible>Skin.HasSetting(sgb_exists)</visible>
 										</item>
-										<item id="53">
+										<item id="57">
 												<label>$INFO[Skin.String(sgb2_games)]</label>
 												<label2>sgb2</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -908,7 +948,7 @@
 												<thumb>layouts/sgb2/art/logo.png</thumb>
 												<visible>Skin.HasSetting(sgb2_exists)</visible>
 										</item>
-										<item id="54">
+										<item id="58">
 												<label>$INFO[Skin.String(snes_games)]</label>
 												<label2>snes</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -918,7 +958,7 @@
 												<thumb>layouts/snes/art/logo.png</thumb>
 												<visible>Skin.HasSetting(snes_exists)</visible>
 										</item>
-										<item id="55">
+										<item id="59">
 												<label>$INFO[Skin.String(ti99_games)]</label>
 												<label2>ti99</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -928,7 +968,7 @@
 												<thumb>layouts/ti99/art/logo.png</thumb>
 												<visible>Skin.HasSetting(ti99_exists)</visible>
 										</item>
-										<item id="56">
+										<item id="60">
 												<label>$INFO[Skin.String(virtualboy_games)]</label>
 												<label2>virtualboy</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -938,7 +978,7 @@
 												<thumb>layouts/virtualboy/art/logo.png</thumb>
 												<visible>Skin.HasSetting(virtualboy_exists)</visible>
 										</item>
-										<item id="57">
+										<item id="61">
 												<label>$INFO[Skin.String(waterasupervision_games)]</label>
 												<label2>waterasupervision</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -948,7 +988,7 @@
 												<thumb>layouts/waterasupervision/art/logo.png</thumb>
 												<visible>Skin.HasSetting(waterasupervision_exists)</visible>
 										</item>
-										<item id="58">
+										<item id="62">
 												<label>$INFO[Skin.String(wonderswan_games)]</label>
 												<label2>wonderswan</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -958,7 +998,7 @@
 												<thumb>layouts/wonderswan/art/logo.png</thumb>
 												<visible>Skin.HasSetting(wonderswan_exists)</visible>
 										</item>
-										<item id="59">
+										<item id="63">
 												<label>$INFO[Skin.String(x68000_games)]</label>
 												<label2>x68000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -968,7 +1008,7 @@
 												<thumb>layouts/x68000/art/logo.png</thumb>
 												<visible>Skin.HasSetting(x68000_exists)</visible>
 										</item>
-										<item id="60">
+										<item id="64">
 												<label>$INFO[Skin.String(xbox_games)]</label>
 												<label2>xbox</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -977,7 +1017,7 @@
 												<icon>layouts/xbox/art/system_art.png</icon>
 												<thumb>layouts/xbox/art/logo.png</thumb>
 										</item>
-										<item id="61">
+										<item id="65">
 												<label>$INFO[Skin.String(zxspectrum_games)]</label>
 												<label2>zxspectrum</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1126,6 +1166,16 @@
 												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
 										</item>
 										<item id="10">
+												<label>$INFO[Skin.String(atarijaguarcd_games)]</label>
+												<label2>atarijaguarcd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/atarijaguarcd/art/system_art.png</icon>
+												<thumb>layouts/atarijaguarcd/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(atarijaguarcd_exists)</visible>
+										</item>
+										<item id="11">
 												<label>$INFO[Skin.String(atarilynx_games)]</label>
 												<label2>atarilynx</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1135,7 +1185,7 @@
 												<thumb>layouts/atarilynx/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(atarilynx_exists)</visible>
 										</item>
-										<item id="11">
+										<item id="12">
 												<label>$INFO[Skin.String(atarist_games)]</label>
 												<label2>atarist</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1145,7 +1195,7 @@
 												<thumb>layouts/atarist/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(atarist_exists)</visible>
 										</item>
-										<item id="12">
+										<item id="13">
 												<label>$INFO[Skin.String(atarixe_games)]</label>
 												<label2>atarixe</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1155,7 +1205,7 @@
 												<thumb>layouts/atarixe/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(atarixe_exists)</visible>
 										</item>
-										<item id="13">
+										<item id="14">
 												<label>$INFO[Skin.String(atarixl_games)]</label>
 												<label2>atarixl</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1165,7 +1215,7 @@
 												<thumb>layouts/atarixl/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(atarixl_exists)</visible>
 										</item>
-										<item id="14">
+										<item id="15">
 												<label>$INFO[Skin.String(c64_games)]</label>
 												<label2>c64</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1175,7 +1225,7 @@
 												<thumb>layouts/c64/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(c64_exists)</visible>
 										</item>
-										<item id="15">
+										<item id="16">
 												<label>$INFO[Skin.String(c64pet_games)]</label>
 												<label2>c64pet</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1185,7 +1235,7 @@
 												<thumb>layouts/c64pet/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(c64pet_exists)</visible>
 										</item>
-										<item id="16">
+										<item id="17">
 												<label>$INFO[Skin.String(chip8x_games)]</label>
 												<label2>chip8x</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1195,7 +1245,7 @@
 												<thumb>layouts/chip8x/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(chip8x_exists)</visible>
 										</item>
-										<item id="17">
+										<item id="18">
 												<label>$INFO[Skin.String(coco_games)]</label>
 												<label2>coco</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1205,7 +1255,7 @@
 												<thumb>layouts/coco/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(coco_exists)</visible>
 										</item>
-										<item id="18">
+										<item id="19">
 												<label>$INFO[Skin.String(colecovision_games)]</label>
 												<label2>colecovision</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1215,7 +1265,7 @@
 												<thumb>layouts/colecovision/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(colecovision_exists)</visible>
 										</item>
-										<item id="19">
+										<item id="20">
 												<label>$INFO[Skin.String(cv20_games)]</label>
 												<label2>cv20</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1225,17 +1275,17 @@
 												<thumb>layouts/cv20/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(cv20_exists)</visible>
 										</item>
-										<item id="20">
-												<label>$INFO[Skin.String(daphnex_games)]</label>
-												<label2>daphnex</label2>
+										<item id="21">
+												<label>$INFO[Skin.String(daphne_games)]</label>
+												<label2>daphne</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
 												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
-												<icon>layouts/daphnex/art/system_art.png</icon>
-												<thumb>layouts/daphnex/art/carousel_logo.png</thumb>
-												<visible>Skin.HasSetting(daphnex_exists)</visible>
+												<icon>layouts/daphne/art/system_art.png</icon>
+												<thumb>layouts/daphne/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(daphne_exists)</visible>
 										</item>
-										<item id="21">
+										<item id="22">
 												<label>$INFO[Skin.String(dreamcastvmu_games)]</label>
 												<label2>dreamcastvmu</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1245,7 +1295,7 @@
 												<thumb>layouts/dreamcastvmu/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(dreamcastvmu_exists)</visible>
 										</item>
-										<item id="22">
+										<item id="23">
 												<label>$INFO[Skin.String(fba_games)]</label>
 												<label2>fba</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1255,7 +1305,7 @@
 												<thumb>layouts/fba/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(fba_exists)</visible>
 										</item>
-										<item id="23">
+										<item id="24">
 												<label>$INFO[Skin.String(gamegear_games)]</label>
 												<label2>gamegear</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1265,7 +1315,7 @@
 												<thumb>layouts/gamegear/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(gamegear_exists)</visible>
 										</item>
-										<item id="24">
+										<item id="25">
 												<label>$INFO[Skin.String(gb_games)]</label>
 												<label2>gb</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1275,7 +1325,7 @@
 												<thumb>layouts/gb/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(gb_exists)</visible>
 										</item>
-										<item id="25">
+										<item id="26">
 												<label>$INFO[Skin.String(gba_games)]</label>
 												<label2>gba</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1285,7 +1335,7 @@
 												<thumb>layouts/gba/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(gba_exists)</visible>
 										</item>
-										<item id="26">
+										<item id="27">
 												<label>$INFO[Skin.String(gbc_games)]</label>
 												<label2>gbc</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1295,7 +1345,7 @@
 												<thumb>layouts/gbc/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(gbc_exists)</visible>
 										</item>
-										<item id="27">
+										<item id="28">
 												<label>$INFO[Skin.String(genesis_games)]</label>
 												<label2>genesis</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1305,7 +1355,7 @@
 												<thumb>layouts/genesis/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(genesis_exists)</visible>
 										</item>
-										<item id="28">
+										<item id="29">
 												<label>$INFO[Skin.String(intellivision_games)]</label>
 												<label2>intellivision</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1315,7 +1365,7 @@
 												<thumb>layouts/intellivision/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(intellivision_exists)</visible>
 										</item>
-										<item id="29">
+										<item id="30">
 												<label>$INFO[Skin.String(mame_games)]</label>
 												<label2>mame</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1325,7 +1375,7 @@
 												<thumb>layouts/mame/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(mame_exists)</visible>
 										</item>
-										<item id="30">
+										<item id="31">
 												<label>$INFO[Skin.String(mastersystem_games)]</label>
 												<label2>mastersystem</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1335,7 +1385,7 @@
 												<thumb>layouts/mastersystem/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(mastersystem_exists)</visible>
 										</item>
-										<item id="31">
+										<item id="32">
 												<label>$INFO[Skin.String(megadrive_games)]</label>
 												<label2>megadrive</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1345,7 +1395,7 @@
 												<thumb>layouts/megadrive/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(megadrive_exists)</visible>
 										</item>
-										<item id="32">
+										<item id="33">
 												<label>$INFO[Skin.String(mess_games)]</label>
 												<label2>mess</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1355,7 +1405,7 @@
 												<thumb>layouts/mess/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(mess_exists)</visible>
 										</item>
-										<item id="33">
+										<item id="34">
 												<label>$INFO[Skin.String(msx_games)]</label>
 												<label2>msx</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1365,7 +1415,7 @@
 												<thumb>layouts/msx/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(msx_exists)</visible>
 										</item>
-										<item id="34">
+										<item id="35">
 												<label>$INFO[Skin.String(n64_games)]</label>
 												<label2>n64</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1375,7 +1425,7 @@
 												<thumb>layouts/n64/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(n64_exists)</visible>
 										</item>
-										<item id="35">
+										<item id="36">
 												<label>$INFO[Skin.String(nds_games)]</label>
 												<label2>nds</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1385,7 +1435,17 @@
 												<thumb>layouts/nds/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(nds_exists)</visible>
 										</item>
-										<item id="36">
+										<item id="37">
+												<label>$INFO[Skin.String(neogeo_games)]</label>
+												<label2>neogeo</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/neogeo/art/system_art.png</icon>
+												<thumb>layouts/neogeo/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(neogeo_exists)</visible>
+										</item>
+										<item id="38">
 												<label>$INFO[Skin.String(neogeocd_games)]</label>
 												<label2>neogeocd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1395,7 +1455,7 @@
 												<thumb>layouts/neogeocd/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(neogeocd_exists)</visible>
 										</item>
-										<item id="37">
+										<item id="39">
 												<label>$INFO[Skin.String(nes_games)]</label>
 												<label2>nes</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1405,7 +1465,17 @@
 												<thumb>layouts/nes/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(nes_exists)</visible>
 										</item>
-										<item id="38">
+										<item id="40">
+												<label>$INFO[Skin.String(ngp_games)]</label>
+												<label2>ngp</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/ngp/art/system_art.png</icon>
+												<thumb>layouts/ngp/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(ngp_exists)</visible>
+										</item>
+										<item id="41">
 												<label>$INFO[Skin.String(ngpc_games)]</label>
 												<label2>ngpc</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1415,7 +1485,7 @@
 												<thumb>layouts/ngpc/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(ngpc_exists)</visible>
 										</item>
-										<item id="39">
+										<item id="42">
 												<label>$INFO[Skin.String(odyssey2_games)]</label>
 												<label2>odyssey2</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1425,7 +1495,7 @@
 												<thumb>layouts/odyssey2/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(odyssey2_exists)</visible>
 										</item>
-										<item id="40">
+										<item id="43">
 												<label>$INFO[Skin.String(pc-98_games)]</label>
 												<label2>pc-98</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1435,7 +1505,17 @@
 												<thumb>layouts/pc-98/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(pc-98_exists)</visible>
 										</item>
-										<item id="41">
+										<item id="44">
+												<label>$INFO[Skin.String(pce-cd_games)]</label>
+												<label2>pce-cd</label2>
+												<!-- this is the folder name used for layouts, CUT files and emulator files -->
+												<onclick>SetFocus(9100)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<icon>layouts/pce-cd/art/system_art.png</icon>
+												<thumb>layouts/pce-cd/art/carousel_logo.png</thumb>
+												<visible>Skin.HasSetting(pce-cd_exists)</visible>
+										</item>
+										<item id="45">
 												<label>$INFO[Skin.String(pcengine_games)]</label>
 												<label2>pcengine</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1445,7 +1525,7 @@
 												<thumb>layouts/pcengine/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(pcengine_exists)</visible>
 										</item>
-										<item id="42">
+										<item id="46">
 												<label>$INFO[Skin.String(ports_games)]</label>
 												<label2>ports</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1454,7 +1534,7 @@
 												<icon>layouts/ports/art/system_art.png</icon>
 												<thumb>layouts/ports/art/carousel_logo.png</thumb>
 										</item>
-										<item id="43">
+										<item id="47">
 												<label>$INFO[Skin.String(psx_games)]</label>
 												<label2>psx</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1464,7 +1544,7 @@
 												<thumb>layouts/psx/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(psx_exists)</visible>
 										</item>
-										<item id="44">
+										<item id="48">
 												<label>$INFO[Skin.String(samcoupe_games)]</label>
 												<label2>samcoupe</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1474,7 +1554,7 @@
 												<thumb>layouts/samcoupe/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(samcoupe_exists)</visible>
 										</item>
-										<item id="45">
+										<item id="49">
 												<label>$INFO[Skin.String(saturn_games)]</label>
 												<label2>saturn</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1484,7 +1564,7 @@
 												<thumb>layouts/saturn/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(saturn_exists)</visible>
 										</item>
-										<item id="46">
+										<item id="50">
 												<label>$INFO[Skin.String(sc-3000_games)]</label>
 												<label2>sc-3000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1494,7 +1574,7 @@
 												<thumb>layouts/sc-3000/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(sc-3000_exists)</visible>
 										</item>
-										<item id="47">
+										<item id="51">
 												<label>$INFO[Skin.String(scummvm_games)]</label>
 												<label2>scummvm</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1504,7 +1584,7 @@
 												<thumb>layouts/scummvm/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(scummvm_exists)</visible>
 										</item>
-										<item id="48">
+										<item id="52">
 												<label>$INFO[Skin.String(sega32x_games)]</label>
 												<label2>sega32x</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1514,7 +1594,7 @@
 												<thumb>layouts/sega32x/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(sega32x_exists)</visible>
 										</item>
-										<item id="49">
+										<item id="53">
 												<label>$INFO[Skin.String(segacd_games)]</label>
 												<label2>segacd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1524,7 +1604,7 @@
 												<thumb>layouts/segacd/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(segacd_exists)</visible>
 										</item>
-										<item id="50">
+										<item id="54">
 												<label>$INFO[Skin.String(sf-7000_games)]</label>
 												<label2>sf-7000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1534,7 +1614,7 @@
 												<thumb>layouts/sf-7000/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(sf-7000_exists)</visible>
 										</item>
-										<item id="51">
+										<item id="55">
 												<label>$INFO[Skin.String(sg-1000_games)]</label>
 												<label2>sg-1000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1544,7 +1624,7 @@
 												<thumb>layouts/sg-1000/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(sg-1000_exists)</visible>
 										</item>
-										<item id="52">
+										<item id="56">
 												<label>$INFO[Skin.String(sgb_games)]</label>
 												<label2>sgb</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1554,7 +1634,7 @@
 												<thumb>layouts/sgb/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(sgb_exists)</visible>
 										</item>
-										<item id="53">
+										<item id="57">
 												<label>$INFO[Skin.String(sgb2_games)]</label>
 												<label2>sgb2</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1564,7 +1644,7 @@
 												<thumb>layouts/sgb2/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(sgb2_exists)</visible>
 										</item>
-										<item id="54">
+										<item id="58">
 												<label>$INFO[Skin.String(snes_games)]</label>
 												<label2>snes</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1574,7 +1654,7 @@
 												<thumb>layouts/snes/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(snes_exists)</visible>
 										</item>
-										<item id="55">
+										<item id="59">
 												<label>$INFO[Skin.String(ti99_games)]</label>
 												<label2>ti99</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1584,7 +1664,7 @@
 												<thumb>layouts/ti99/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(ti99_exists)</visible>
 										</item>
-										<item id="56">
+										<item id="60">
 												<label>$INFO[Skin.String(virtualboy_games)]</label>
 												<label2>virtualboy</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1594,7 +1674,7 @@
 												<thumb>layouts/virtualboy/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(virtualboy_exists)</visible>
 										</item>
-										<item id="57">
+										<item id="61">
 												<label>$INFO[Skin.String(waterasupervision_games)]</label>
 												<label2>waterasupervision</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1604,7 +1684,7 @@
 												<thumb>layouts/waterasupervision/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(waterasupervision_exists)</visible>
 										</item>
-										<item id="58">
+										<item id="62">
 												<label>$INFO[Skin.String(wonderswan_games)]</label>
 												<label2>wonderswan</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1614,7 +1694,7 @@
 												<thumb>layouts/wonderswan/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(wonderswan_exists)</visible>
 										</item>
-										<item id="59">
+										<item id="63">
 												<label>$INFO[Skin.String(x68000_games)]</label>
 												<label2>x68000</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1624,7 +1704,7 @@
 												<thumb>layouts/x68000/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(x68000_exists)</visible>
 										</item>
-										<item id="60">
+										<item id="64">
 												<label>$INFO[Skin.String(xbox_games)]</label>
 												<label2>xbox</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
@@ -1633,7 +1713,7 @@
 												<icon>layouts/xbox/art/system_art.png</icon>
 												<thumb>layouts/xbox/art/carousel_logo.png</thumb>
 										</item>
-										<item id="61">
+										<item id="65">
 												<label>$INFO[Skin.String(zxspectrum_games)]</label>
 												<label2>zxspectrum</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->

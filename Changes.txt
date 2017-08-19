@@ -1,3 +1,9 @@
+19/08/2017
+	1) Added atarijaguarcd, daphne, neogeo and pce-cd to the emulators and menu list.
+	2) Fixed the ctreate_cut_files.py
+	3) Updated the scanner.py to add the new emulator directories.
+	4) Textures for the emulators are added also.
+
 17/08.2017
 	1) Added support for startup playlists.
 	2) Added my Generate startup playlist script. ( will create a playlist from files that are in "E:\F:\G:\Music" )

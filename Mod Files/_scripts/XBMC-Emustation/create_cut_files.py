@@ -89,7 +89,7 @@ def manual_scan():
 			Parse_FBL_XML = 1
 		elif Emu_Name == "mame":
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Emulator_Path + 'mame\\roms\\' )
-		elif Emu_Name == "ngcd":
+		elif Emu_Name == "neogeocd":
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
 			Parse_CUE_CCD_File = 1
 		elif Emu_Name == "saturn":
@@ -263,17 +263,17 @@ def full_scan():
 						Parse_FBL_XML = 1
 					elif Emu_Name == "mame":
 						Roms_Folder	= Emulator_Path + 'mame\\roms\\'
-					elif Emu_Name == "ngcd":
-						Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
+					elif Emu_Name == "neogeocd":
+						Roms_Folder	= Roms_Path + Emu_Name
 						Parse_CUE_CCD_File = 1
 					elif Emu_Name == "saturn":
-						Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
+						Roms_Folder	= Roms_Path + Emu_Name
 						Parse_CUE_CCD_File = 1
 					elif Emu_Name == "segacd":
-						Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
+						Roms_Folder	= Roms_Path + Emu_Name
 						Parse_CUE_CCD_File = 1
 					elif Emu_Name == "psx":
-						Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
+						Roms_Folder	= Roms_Path + Emu_Name
 						Parse_CUE_CCD_File = 1
 					else:
 						Roms_Folder	= Roms_Path + Emu_Name
