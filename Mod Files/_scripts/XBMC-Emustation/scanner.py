@@ -58,6 +58,8 @@ if Updaye_Emulators == "scan_emus":
 			
 			if EMU_Directories == "fba":
 				pass
+			elif EMU_Directories == "atarijaguar":
+				pass
 			elif EMU_Directories == "mame":
 				pass
 			else:
@@ -74,6 +76,8 @@ if Updaye_Emulators == "scan_emus":
 			
 			if EmuFolder == "fba":
 				Roms_Folder = os.path.join( Emulator_Path + Items  ) +  "\\roms"
+			elif EmuFolder == "atarijaguar":
+				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
 			elif EmuFolder == "mame":
 				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
 			else:

@@ -3,6 +3,11 @@
 	2) Fixed the ctreate_cut_files.py
 	3) Updated the scanner.py to add the new emulator directories.
 	4) Textures for the emulators are added also.
+	5) Added Atari Jaguar rom parsing, but it doesn't work via CUT files so kinda pointless.
+	
+	..: added after first commit :..
+	5) Added cue and cdd parsing for PCE-CD
+	6) Added Atari Jaguar rom parsing, but it doesn't work via CUT files so kinda pointless.
 
 17/08.2017
 	1) Added support for startup playlists.

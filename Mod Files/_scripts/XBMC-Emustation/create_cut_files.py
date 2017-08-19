@@ -42,7 +42,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 			Scripts_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\'
 			TBN_Path			= Root_Directory + '_tbns\\'
 			Content_List_Path	= xbmc.translatePath( "Special://skin/720p/content lists/" )
-			Extensions			= [ "zip","bin","ccd","cue","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
+			Extensions			= [ "zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 
 def log( input ):
 	if logging: print "%s" % str( input )
@@ -87,9 +87,14 @@ def manual_scan():
 		if Emu_Name == "fba":
 			Roms_Folder	= Emulator_Path + 'fba\\roms\\'
 			Parse_FBL_XML = 1
+		elif Emu_Name == "atarijaguar":
+			Roms_Folder	= Emulator_Path + 'atarijaguar\\roms\\'
 		elif Emu_Name == "mame":
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Emulator_Path + 'mame\\roms\\' )
 		elif Emu_Name == "neogeocd":
+			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
+			Parse_CUE_CCD_File = 1
+		elif Emu_Name == "pce-cd":
 			Roms_Folder	= dialog.browse( 0,"Select the Roms folder","files",'',False,False,Roms_Path + Emu_Name )
 			Parse_CUE_CCD_File = 1
 		elif Emu_Name == "saturn":
@@ -183,6 +188,8 @@ def manual_scan():
 							with open(Output_Path + Rom_Name_noext + '.cut', "w") as outputfile:
 								if Emu_Name == "fba":
 									WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,Rom_Name_noext )
+								if Emu_Name == "atarijaguar":
+									WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Name_noext )
 								elif Emu_Name == "mame":
 									WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Name_noext )
 								elif Emu_Name == "psx":
@@ -261,9 +268,14 @@ def full_scan():
 					if Emu_Name == "fba":
 						Roms_Folder	= Emulator_Path + 'fba\\roms\\'
 						Parse_FBL_XML = 1
+					elif Emu_Name == "atarijaguar":
+						Roms_Folder	= Emulator_Path + 'atarijaguar\\roms\\'
 					elif Emu_Name == "mame":
 						Roms_Folder	= Emulator_Path + 'mame\\roms\\'
 					elif Emu_Name == "neogeocd":
+						Roms_Folder	= Roms_Path + Emu_Name
+						Parse_CUE_CCD_File = 1
+					elif Emu_Name == "pce-cd":
 						Roms_Folder	= Roms_Path + Emu_Name
 						Parse_CUE_CCD_File = 1
 					elif Emu_Name == "saturn":
@@ -356,6 +368,8 @@ def full_scan():
 									with open(Output_Path + Rom_Name_noext + '.cut', "w") as outputfile:
 										if Emu_Name == "fba":
 											WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,Rom_Name_noext )
+										if Emu_Name == "atarijaguar":
+											WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Name_noext )
 										elif Emu_Name == "mame":
 											WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Name_noext,Rom_Name_noext )
 										else:
