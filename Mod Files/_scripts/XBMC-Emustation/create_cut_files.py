@@ -465,7 +465,7 @@ menu_entry_header	= '<content>'
 ## had to add a space to the end of the label or XBMC will use the damn internal labels for games with numbers for names
 menu_entry			= '\n\
 	<item id="%s">\n\
-		<label>%s </label>\n\
+		<label>%s</label>\n\
 		<onclick>%s</onclick>\n\
 		<icon>%s</icon>\n\
 		<thumb>%s</thumb>\n\
