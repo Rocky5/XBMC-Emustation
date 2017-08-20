@@ -194,7 +194,7 @@ if XBE_Files == 1:
 			<width>1280</width>\n\
 			<height>720</height>\n\
 			<aspectratio>stretch</aspectratio>\n\
-			<texture background="false" fallback="layouts/' + MenuLabel_XML + '/menu_background.png">Special://skin/layouts/' + MenuLabel_XML + '/' + ThemeType + '/menu_background.png</texture>\n\
+			<texture background="false" fallback="layouts/' + MenuLabel_XML + '/menu_background.png">Special://xbmc/_layouts/' + MenuLabel_XML + '/' + ThemeType + '/menu_background.png</texture>\n\
 		</control>\n\
 	'
 	Footer_Data					= '\n\

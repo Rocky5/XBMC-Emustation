@@ -1,3 +1,9 @@
+20/08/2017
+	1) Updated the create_cut_files.py script to parse .iso, .bin and .img files only. ( SegaCD the bugger )
+	2) Same as above but added .ISO parsing to the cue and ccd parsing. ( so it now parses cue, ccd and iso files )
+	3) Fixed a typo in the menu_loader.py script.
+	4) Changed the create_cut_files.py script manual mode, you just select the emulator folder and it defaults to the correct roms directory.
+
 19/08/2017
 	1) Added atarijaguarcd, daphne, neogeo and pce-cd to the emulators and menu list.
 	2) Fixed the ctreate_cut_files.py
