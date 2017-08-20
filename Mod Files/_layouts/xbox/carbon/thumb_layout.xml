@@ -19,7 +19,7 @@
 	<width>1280</width>
 	<height>4</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF008a00</colordiffuse>
+	<colordiffuse>FF77ba3f</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
 <!-- logo image -->
@@ -107,7 +107,7 @@
 			<width>532</width>
 			<height>30</height>
 			<font>size_23</font>
-			<textcolor>FF008a00</textcolor>
+			<textcolor>FF77ba3f</textcolor>
 			<selectedcolor>blue</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
@@ -138,6 +138,6 @@
 	<width>1280</width>
 	<height>58</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF008a00</colordiffuse>
+	<colordiffuse>FF77ba3f</colordiffuse>
 	<texture background="true">layouts/art/help_background.png</texture>
 </control>

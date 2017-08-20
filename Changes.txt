@@ -3,6 +3,10 @@
 	2) Same as above but added .ISO parsing to the cue and ccd parsing. ( so it now parses cue, ccd and iso files )
 	3) Fixed a typo in the menu_loader.py script.
 	4) Changed the create_cut_files.py script manual mode, you just select the emulator folder and it defaults to the correct roms directory.
+	
+	..: added after first commit :..
+	5) Updated/Added some textures for the carbon theme.
+	6) Updated the Xbox layout files to have green tints.
 
 19/08/2017
 	1) Added atarijaguarcd, daphne, neogeo and pce-cd to the emulators and menu list.
