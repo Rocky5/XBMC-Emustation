@@ -125,9 +125,9 @@ def manual_scan():
 					CUT_File_Name = Rom_Name[:-4]
 					Rom_Name_noext = Rom_Name[:-4]
 					# Damn internal labelling system kicks in if these are left alone.
-					if Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
-					if Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
-					if Rom_Name_noext == "720": Rom_Name_noext = "720 "
+					if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
+					if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
+					if Emu_Name == "nes" and Rom_Name_noext == "720": Rom_Name_noext = "720 "
 					Rom_Name_ISO = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".iso"
 					Rom_Name_BIN = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".bin"
 					Rom_Name_IMG = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".img"
@@ -334,9 +334,9 @@ def full_scan():
 								CUT_File_Name = Rom_Name[:-4]
 								Rom_Name_noext = Rom_Name[:-4]
 								# Damn internal labelling system kicks in if these are left alone.
-								if Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
-								if Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
-								if Rom_Name_noext == "720": Rom_Name_noext = "720 "
+								if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
+								if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
+								if Emu_Name == "nes" and Rom_Name_noext == "720": Rom_Name_noext = "720 "
 								Rom_Name_ISO = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".iso"
 								Rom_Name_BIN = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".bin"
 								Rom_Name_IMG = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".img"
