@@ -12,7 +12,7 @@ pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()
 
 #####	Sets paths.
-# Gets current XBMC4Gamers directory.
+# Gets current XBMC-Emustation directory.
 CharCount = 100 # How many characters you want after 'The executable running is: '
 with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as XBMCLOG:
 	for line in XBMCLOG:

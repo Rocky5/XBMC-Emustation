@@ -460,21 +460,21 @@
 												<visible>Skin.HasSetting(atari800_exists)</visible>
 										</item>
 										<item id="9">
-												<label>$INFO[Skin.String(atarijaguar_games)]</label>
+												<label>Direct Launch Only</label>
 												<label2>atarijaguar</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
-												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py)</onclick>
 												<icon>layouts/atarijaguar/art/system_art.png</icon>
 												<thumb>layouts/atarijaguar/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
 										</item>
 										<item id="10">
-												<label>$INFO[Skin.String(atarijaguarcd_games)]</label>
+												<label>Direct Launch Only</label>
 												<label2>atarijaguarcd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
-												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py)</onclick>
 												<icon>layouts/atarijaguarcd/art/system_art.png</icon>
 												<thumb>layouts/atarijaguarcd/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarijaguarcd_exists)</visible>
@@ -1156,21 +1156,21 @@
 												<visible>Skin.HasSetting(atari800_exists)</visible>
 										</item>
 										<item id="9">
-												<label>$INFO[Skin.String(atarijaguar_games)]</label>
+												<label>Direct Launch Only</label>
 												<label2>atarijaguar</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
-												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py)</onclick>
 												<icon>layouts/atarijaguar/art/system_art.png</icon>
 												<thumb>layouts/atarijaguar/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
 										</item>
 										<item id="10">
-												<label>$INFO[Skin.String(atarijaguarcd_games)]</label>
+												<label>Direct Launch Only</label>
 												<label2>atarijaguarcd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
-												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py)</onclick>
 												<icon>layouts/atarijaguarcd/art/system_art.png</icon>
 												<thumb>layouts/atarijaguarcd/art/carousel_logo.png</thumb>
 												<visible>Skin.HasSetting(atarijaguarcd_exists)</visible>

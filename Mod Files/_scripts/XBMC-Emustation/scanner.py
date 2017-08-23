@@ -25,7 +25,7 @@ except:
 	SilentMode		 = "0"
 
 #####	Sets paths.
-# Gets current XBMC4Gamers directory.
+# Gets current XBMC-Emustation directory.
 CharCount = 100 # How many characters you want after 'The executable running is: '
 with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as XBMCLOG:
 	for line in XBMCLOG:
@@ -60,6 +60,8 @@ if Updaye_Emulators == "scan_emus":
 				pass
 			elif EMU_Directories == "atarijaguar":
 				pass
+			elif EMU_Directories == "atarijaguarcd":
+				pass
 			elif EMU_Directories == "mame":
 				pass
 			else:
@@ -77,6 +79,8 @@ if Updaye_Emulators == "scan_emus":
 			if EmuFolder == "fba":
 				Roms_Folder = os.path.join( Emulator_Path + Items  ) +  "\\roms"
 			elif EmuFolder == "atarijaguar":
+				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
+			elif EmuFolder == "atarijaguarcd":
 				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
 			elif EmuFolder == "mame":
 				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"

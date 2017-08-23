@@ -18,7 +18,7 @@ md xbox
 Set /a count=1
 for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 	Echo  %%~na
-		if not "%%~na"=="ports" if not "%%~na"=="xbox" (
+		if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="atarijaguar" if not "%%~na"=="atarijaguarcd" (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
@@ -27,6 +27,26 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
 			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
+			Echo 	^</item^>
+		)>>"Logo.xml"
+		if "%%~na"=="atarijaguar" (
+			Echo 	^<item id^="!count!"^>
+			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
+			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
+			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
+			Echo 	^</item^>
+		)>>"Logo.xml"
+		if "%%~na"=="atarijaguarcd" (
+			Echo 	^<item id^="!count!"^>
+			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
+			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
+			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
 			Echo 	^</item^>
 		)>>"Logo.xml"
 		if "%%~na"=="ports" (
@@ -66,7 +86,7 @@ Echo ^</content^> >>"Logo.xml"
 Set /a count=1
 for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 	Echo  %%~na
-		if not "%%~na"=="ports" if not "%%~na"=="xbox" (
+		if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="atarijaguar" if not "%%~na"=="atarijaguarcd" (
 			Echo 	^<item id^="!count!"^>
 			Echo 		^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
@@ -75,6 +95,26 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
 			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
+			Echo 	^</item^>
+		)>>"Carousel.xml"
+		if "%%~na"=="atarijaguar" (
+			Echo 	^<item id^="!count!"^>
+			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
+			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
+			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
+			Echo 	^</item^>
+		)>>"Carousel.xml"
+		if "%%~na"=="atarijaguarcd" (
+			Echo 	^<item id^="!count!"^>
+			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
+			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
+			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
+			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
+			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
 			Echo 	^</item^>
 		)>>"Carousel.xml"
 		if "%%~na"=="ports" (

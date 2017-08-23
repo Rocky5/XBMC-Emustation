@@ -1,3 +1,10 @@
+23/08/2017
+	1) Updated the create_cut_files.py script to parse the new name files I done for all FBA Roms.
+	2) Added FBA rom names folder that is used to name the menu entries for the FBA Roms. ( Based on FBL 1.24, not released yet )
+	3) Added skin settings.ini files for madmab emulators so the menus are a bit more organised looking.
+	
+	Todo: still need to update the cut file script to work with MESS emulator.
+
 20/08/2017
 	1) Updated the create_cut_files.py script to parse .iso, .bin and .img files only. ( SegaCD the bugger )
 	2) Same as above but added .ISO parsing to the cue and ccd parsing. ( so it now parses cue, ccd and iso files )

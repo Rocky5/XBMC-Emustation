@@ -22,7 +22,7 @@ pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 
 #####	Sets paths.
-# Gets current XBMC4Gamers directory.
+# Gets current XBMC-Emustation directory.
 CharCount = 100 # How many characters you want after 'The executable running is: '
 with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as XBMCLOG:
 	for line in XBMCLOG:
@@ -61,7 +61,7 @@ def manual_scan():
 	Parse_CUE_CCD_ISO_File = 0
 	Parse_ISO_BIN_IMG_File = 0
 	Parse_ISO_File = 0
-	Parse_FBL_XML = 0
+	Parse_FBL_TXT = 0
 	Write_CUT_File = 1
 	Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
 	
@@ -86,9 +86,11 @@ def manual_scan():
 	log('|	Check to see if the folder you selected it fba, or mame as these emulators must have there roms in there own roms folder in the emulators root directory')
 	if Emu_Name == "fba":
 		Roms_Folder	= Emulator_Path + 'fba\\roms\\'
-		Parse_FBL_XML = 1
+		Parse_FBL_TXT = 1
 	elif Emu_Name == "atarijaguar":
 		Roms_Folder	= Emulator_Path + 'atarijaguar\\roms\\'
+	elif Emu_Name == "atarijaguarcd":
+		Roms_Folder	= Emulator_Path + 'atarijaguarcd\\roms\\'
 	elif Emu_Name == "mame":
 		Roms_Folder	= Emulator_Path + 'mame\\roms\\'
 	elif Emu_Name == "neogeocd":
@@ -135,14 +137,24 @@ def manual_scan():
 					Rom_Name_CCD = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".ccd"
 					Rom_Path = os.path.join( Roms_Folder, Rom_Name )
 
-					log('|	Check if fba was found and parse its xml files to get the correct rom names for the list.')
-					if Parse_FBL_XML == 1:
-						if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini" ):
-							with open( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini", 'r') as ini:
-								FBA_Rom_Name = ini.readline()[:-1]
-								if FBA_Rom_Name.endswith( '.' ): FBA_Rom_Name = FBA_Rom_Name[:-1]
+					log('|	Check if fba was found and parse the name text files to get the correct rom names for the list.')
+					if Parse_FBL_TXT == 1:
+						if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt" ):
+							with open( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt", 'r') as txt:
+								FBA_Rom_Name = txt.readline()[:-2]
+								Write_CUT_File = 1
 						else:
-							FBA_Rom_Name = Rom_Name_noext
+							if Rom_Name == "isgsm.zip":
+								Write_CUT_File = 0
+							elif Rom_Name == "neogeo.zip":
+								Write_CUT_File = 0
+							elif Rom_Name == "nmk004.zip":
+								Write_CUT_File = 0
+							elif Rom_Name == "pgm.zip":
+								Write_CUT_File = 0
+							else:
+								FBA_Rom_Name = Rom_Name_noext
+								Write_CUT_File = 1
 							
 					log('|	Check and parse the directory for iso files.')
 					if Parse_ISO_File == 1:
@@ -215,7 +227,9 @@ def manual_scan():
 						with open(Output_Path + CUT_File_Name + '.cut', "w") as outputfile:
 							if Emu_Name == "fba":
 								WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,CUT_File_Name )
-							if Emu_Name == "atarijaguar":
+							elif Emu_Name == "atarijaguar":
+								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+							elif Emu_Name == "atarijaguarcd":
 								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
 							elif Emu_Name == "mame":
 								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
@@ -265,7 +279,7 @@ def full_scan():
 			Parse_CUE_CCD_ISO_File = 0
 			Parse_ISO_BIN_IMG_File = 0
 			Parse_ISO_File = 0
-			Parse_FBL_XML = 0
+			Parse_FBL_TXT = 0
 			Write_CUT_File = 1
 			
 			log('|	Checking to make sure the emulator you selected exists.')
@@ -295,9 +309,11 @@ def full_scan():
 					Roms_Folder	= Roms_Path + Emu_Name
 					if Emu_Name == "fba":
 						Roms_Folder	= Emulator_Path + 'fba\\roms\\'
-						Parse_FBL_XML = 1
+						Parse_FBL_TXT = 1
 					elif Emu_Name == "atarijaguar":
 						Roms_Folder	= Emulator_Path + 'atarijaguar\\roms\\'
+					elif Emu_Name == "atarijaguarcd":
+						Roms_Folder	= Emulator_Path + 'atarijaguarcd\\roms\\'
 					elif Emu_Name == "mame":
 						Roms_Folder	= Emulator_Path + 'mame\\roms\\'
 					elif Emu_Name == "neogeocd":
@@ -343,15 +359,25 @@ def full_scan():
 								Rom_Name_CUE = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".cue"
 								Rom_Name_CCD = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".ccd"
 								Rom_Path = os.path.join( Roms_Folder, Rom_Name )
-								
-								log('|	Check if fba was found and parse its xml files to get the correct rom names for the list.')
-								if Parse_FBL_XML == 1:
-									if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini" ):
-										with open( os.path.join( Emulator_Path, "fba\\info\\emulation\\" ) + Rom_Name_noext + ".ini", 'r') as ini:
-											FBA_Rom_Name = ini.readline()[:-1]
-											if FBA_Rom_Name.endswith( '.' ): FBA_Rom_Name = FBA_Rom_Name[:-1]
+
+								log('|	Check if fba was found and parse the name text files to get the correct rom names for the list.')
+								if Parse_FBL_TXT == 1:
+									if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt" ):
+										with open( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt", 'r') as txt:
+											FBA_Rom_Name = txt.readline()[:-2]
+											Write_CUT_File = 1
 									else:
-										FBA_Rom_Name = Rom_Name_noext
+										if Rom_Name == "isgsm.zip":
+											Write_CUT_File = 0
+										elif Rom_Name == "neogeo.zip":
+											Write_CUT_File = 0
+										elif Rom_Name == "nmk004.zip":
+											Write_CUT_File = 0
+										elif Rom_Name == "pgm.zip":
+											Write_CUT_File = 0
+										else:
+											FBA_Rom_Name = Rom_Name_noext
+											Write_CUT_File = 1
 										
 								log('|	Check and parse the directory for iso files.')
 								if Parse_ISO_File == 1:
@@ -424,7 +450,9 @@ def full_scan():
 									with open(Output_Path + CUT_File_Name + '.cut', "w") as outputfile:
 										if Emu_Name == "fba":
 											WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,CUT_File_Name )
-										if Emu_Name == "atarijaguar":
+										elif Emu_Name == "atarijaguar":
+											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+										elif Emu_Name == "atarijaguarcd":
 											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
 										elif Emu_Name == "mame":
 											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
