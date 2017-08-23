@@ -460,7 +460,7 @@
 												<visible>Skin.HasSetting(atari800_exists)</visible>
 										</item>
 										<item id="9">
-												<label>Direct Launch Only</label>
+												<label>Direct Launch Only $INFO[Skin.String(atarijaguar_games)]</label>
 												<label2>atarijaguar</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
@@ -470,7 +470,7 @@
 												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
 										</item>
 										<item id="10">
-												<label>Direct Launch Only</label>
+												<label>Direct Launch Only $INFO[Skin.String(atarijaguarcd_games)]</label>
 												<label2>atarijaguarcd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
@@ -1156,7 +1156,7 @@
 												<visible>Skin.HasSetting(atari800_exists)</visible>
 										</item>
 										<item id="9">
-												<label>Direct Launch Only</label>
+												<label>Direct Launch Only $INFO[Skin.String(atarijaguar_games)]</label>
 												<label2>atarijaguar</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>
@@ -1166,7 +1166,7 @@
 												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
 										</item>
 										<item id="10">
-												<label>Direct Launch Only</label>
+												<label>Direct Launch Only $INFO[Skin.String(atarijaguarcd_games)]</label>
 												<label2>atarijaguarcd</label2>
 												<!-- this is the folder name used for layouts, CUT files and emulator files -->
 												<onclick>SetFocus(9100)</onclick>

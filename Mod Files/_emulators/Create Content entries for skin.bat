@@ -31,7 +31,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 		)>>"Logo.xml"
 		if "%%~na"=="atarijaguar" (
 			Echo 	^<item id^="!count!"^>
-			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label^>Direct Launch Only $INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
 			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
@@ -41,7 +41,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 		)>>"Logo.xml"
 		if "%%~na"=="atarijaguarcd" (
 			Echo 	^<item id^="!count!"^>
-			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label^>Direct Launch Only $INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
 			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
@@ -99,7 +99,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 		)>>"Carousel.xml"
 		if "%%~na"=="atarijaguar" (
 			Echo 	^<item id^="!count!"^>
-			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label^>Direct Launch Only $INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
 			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
@@ -109,7 +109,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 		)>>"Carousel.xml"
 		if "%%~na"=="atarijaguarcd" (
 			Echo 	^<item id^="!count!"^>
-			Echo 		^<label^>Direct Launch Only^</label^>
+			Echo 		^<label^>Direct Launch Only $INFO^[Skin.String^(%%~na_games^)^]^</label^>
 			Echo 		^<label2^>%%~na^</label2^> ^<^^!-- this is the folder name used for layouts, CUT files and emulator files --^>
 			Echo 		^<onclick^>SetFocus^(9100^)^</onclick^>
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
