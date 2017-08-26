@@ -154,7 +154,7 @@
 										<aspectratio>keep</aspectratio>
 										<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 										<texture background="true">layouts/settings/art/system_art.png</texture>
-										<visible>!Skin.HasSetting(althomelayout) + StringCompare(Skin.CurrentTheme,carbon)</visible>
+										<visible>StringCompare(Skin.CurrentTheme,carbon)</visible>
 								</control>
 								<control type="group">
 										<visible>!Skin.HasSetting(altcarouselbar)</visible>

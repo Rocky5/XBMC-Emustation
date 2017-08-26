@@ -40,7 +40,7 @@
 	<height>100</height>
 	<aspectratio align="left">keep</aspectratio>
 	<texture>layouts/$INFO[Skin.String(emuname)]/art/system_art_small.png</texture>
-	<animation effect="fade" start="50" end="50" time="0" condition="true">Conditional</animation>
+	<animation effect="fade" start="100" end="100" time="0" condition="true">Conditional</animation>
 </control>
 <!-- thumbnail image -->
 <control type="image">
