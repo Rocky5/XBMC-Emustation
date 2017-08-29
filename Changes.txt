@@ -1,3 +1,7 @@
+29/08/2017
+	1) Updated the UI Settings window, now have a scrolling system for view modes.
+	2) Updated the list of emulators that require there roms to be in there root directory to the welcome screen.
+
 26/08/2017
 	1) Updated all the logo images and the system_art files for both default and carbon theme.
 	   ( they look a lot better now )

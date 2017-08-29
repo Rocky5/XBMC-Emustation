@@ -1,5 +1,8 @@
 <window type="dialog" id="1113">
-		<defaultcontrol always="true">1</defaultcontrol>
+		<defaultcontrol always="true">9999</defaultcontrol>
+		<onload condition="!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout)">SetFocus(1)</onload>
+		<onload condition="Skin.HasSetting(synopsislayout)">SetFocus(2)</onload>
+		<onload condition="Skin.HasSetting(thumblayout)">SetFocus(3)</onload>
 		<controls>
 				<control type="group">
 						<posy>41.5</posy>
@@ -23,18 +26,58 @@
 								<label>$LOCALIZE[32002]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
-						<!-- Main Menu -->
 						<control type="grouplist" id="9000">
 								<posx>320</posx>
-								<posy>200</posy>
+								<posy>201</posy>
 								<width>640</width>
-								<height>295</height>
+								<height>50</height>
 								<onleft>9000</onleft>
 								<onright>9000</onright>
+								<onup>30</onup>
+								<ondown>5</ondown>
+								<itemgap>-1</itemgap>
+								<scrolltime>0</scrolltime>
+								<orientation>horizontal</orientation>
+								<control type="button" id="1">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[582][/UPPERCASE]</label>
+										<label2>&lt; [UPPERCASE]$LOCALIZE[571][/UPPERCASE] &gt;</label2>
+										<include>MenuButtonCommonValues</include>
+										<onfocus>Skin.Reset(synopsislayout)</onfocus>
+										<onfocus>Skin.Reset(thumblayout)</onfocus>
+								</control>
+								<control type="button" id="2">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[582][/UPPERCASE]</label>
+										<label2>&lt; $LOCALIZE[32028] &gt;</label2>
+										<include>MenuButtonCommonValues</include>
+										<onfocus>Skin.ToggleSetting(synopsislayout)</onfocus>
+										<onfocus>Skin.Reset(thumblayout)</onfocus>
+								</control>
+								<control type="button" id="3">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[582][/UPPERCASE]</label>
+										<label2>&lt; $LOCALIZE[32029] &gt;</label2>
+										<include>MenuButtonCommonValues</include>
+										<onfocus>Skin.ToggleSetting(thumblayout)</onfocus>
+										<onfocus>Skin.Reset(synopsislayout)</onfocus>
+								</control>
+						</control>
+						<!-- Main Menu -->
+						<control type="grouplist" id="9001">
+								<posx>320</posx>
+								<posy>250</posy>
+								<width>640</width>
+								<height>245</height>
+								<onleft>-</onleft>
+								<onright>-</onright>
 								<onup>9000</onup>
 								<ondown>9000</ondown>
 								<itemgap>-1</itemgap>
-								<control type="radiobutton" id="1">
+								<control type="radiobutton" id="5">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label>$LOCALIZE[32026]</label>
@@ -42,7 +85,7 @@
 										<onclick>Skin.ToggleSetting(introenabled)</onclick>
 										<selected>Skin.HasSetting(introenabled)</selected>
 								</control>
-								<control type="button" id="2">
+								<control type="button" id="6">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[424] $LOCALIZE[561]</label>
@@ -50,24 +93,6 @@
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.SetFile(selectedintrofile,.avi | .mp4 | .wmv | .xmv,Special://xbmc/)</onclick>
 										<visible>Skin.HasSetting(introenabled)</visible>
-								</control>
-								<control type="radiobutton" id="3">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32027]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.Reset(thumblayout)</onclick>
-										<onclick>Skin.ToggleSetting(synopsislayout)</onclick>
-										<selected>Skin.HasSetting(synopsislayout)</selected>
-								</control>
-								<control type="radiobutton" id="4">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32028]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.Reset(synopsislayout)</onclick>
-										<onclick>Skin.ToggleSetting(thumblayout)</onclick>
-										<selected>Skin.HasSetting(thumblayout)</selected>
 								</control>
 								<control type="button" id="20">
 										<posx>0</posx>
