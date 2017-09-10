@@ -5,7 +5,7 @@
 @Echo off & SetLocal EnableDelayedExpansion & Mode con:cols=100 lines=10 & Color 0B
 title XBMC-Emustation Builder
 
-Set "foldername=XBMC-Emustation"
+Set "foldername=XBMC-Emustation-update-files"
 
 cls
 Echo: & Echo: & Echo: & Echo   Please wait...
@@ -24,6 +24,6 @@ rd /q /s "%foldername%\_tbns"
 )
 cls
 Echo: & Echo:
-Echo  Just overwrite your existing install of %foldername%
+Echo  Just overwrite your existing install of XBMC-Emustation
 Echo  None of your scanned content or settings will be lost.
 timeout /t 15 >NUL
