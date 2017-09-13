@@ -1,0 +1,61 @@
+NARC
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1990
+Developer: Acclaim
+Players: 1-2
+_________________________
+
+PROJECT NARC
+
+Dear Sirs,
+
+As you may well know, our position in the war on drugs has gotten worse. Much worse.
+
+The N.O. has currently identified several groups of known offenders. Dealers, pushers, mobsters, gangsters--even psycho clowns--they're all in on it.
+
+They seem to have an unlimited supply of weapons. Government reports claim that the entire operation is being directed and financed by a Mr. Big--who, it seems, runs the largest underground drug trafficking and terrorist organization in the world.
+
+We'd send in the army's special operations division, but that would just send up flags. We need to act more covertly. Which is why you two have been chosen to go in there and spearhead this operation.
+
+You will have to cover a lot of territory. Mr. Big's people are everywhere! What's more, the action doesn't stop at the street. You'll catch them down in their underground drug labs (destroy as much of that poison as you can) and up in the top floors of classy, highrise hotels.
+
+We'll supply you with machine gun ammo and all the rocket bombs you can carry. But you'll probably go through them fast. So replenish your supply with the stuff dropped on the street.
+
+And speaking of the street, pick up anything and everything you can. Cash...Contraband...Even magnetic entry cards--they'll open doors for you.
+
+Keep in touch with us via your Mobile Scanner Unit. We'll give you progress reports as well as updates on your assignment.
+
+N.O. and the entire country are counting on you. Good Luck.
+
+Spencer Williams
+N.O. Chairman
+
+--From the NES Narc instruction manual.
+
+Overview:
+
+Earning your way through training, you have become one of the DEA's top narcs. Shortly after the promotion, you get a call from headquarters reminding that there is a drug bust occuring near downtown. Your goal is to stop the dealers before everyone in the city becomes addicted to their highly dangerous drug. Good luck! In the game, you shoot and bust the bad guys and get to the next level. Unfortunately, some have to be shot. Your weapons include an Uzi and a rocket launcher. To complete the level, you have to get the safe cards and insert them near the exit. I think that they did a decent job on this game, but there are some problems. If you want to shoot the gun, you have to hold down the B button, while just pressing it will shoot rockets. A lot of the backgrounds have changed from the arcade version. Because of this, I prefer the arcade version over the NES version. Remember, say no to drugs!
+
+Directions:
+
+Shoot and bust all the drug dealers and other criminals in the city before it's too late. 
+
+Controls:
+
+A Button: Hold for gun, press for rockets
+B Button: Press to jump, hold to duck
+Start Button: Pause
+Select Button: Nothing
+
+Hints:
+
+Continue Game
+Hold A+B+Select+Start and press Up-Right. 
+
+Reviewer: MethodOne
+http://consoleclassix.com/nes/narc.html

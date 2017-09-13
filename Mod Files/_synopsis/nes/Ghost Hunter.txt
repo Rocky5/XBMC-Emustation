@@ -1,0 +1,17 @@
+Ghost Hunter
+Original title: Seirei Gari
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure 
+Gametype: Translated
+Release Year: 2008
+Translated by: snark
+Version: 1.0
+_________________________
+The original game is Seirei Gari c. 1989 by Hudson Soft licensed for the NES Famicom. This title translates as "Ghost Hunter" which is a Deja Vu or Shadowgate type adventure game. This translation patch was created so that you could play this game in English on an eight-bit Nintendo Entertainment system emulator.
+
+Mike (or otherwise known as Michimune in Japanese) with the help of Professor Kiyojo must rescue his girlfriend Miu from the nefarious clutches of the phantom of Christian Rosencreutz. Travel to a haunted manor, mystic ruins of Asuka, and to the mythical land of Shambala in order to uncover the mysterious trail.
+
+http://www.romhacking.net/trans/1279/

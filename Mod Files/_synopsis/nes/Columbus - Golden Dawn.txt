@@ -1,0 +1,20 @@
+Columbus: Golden Dawn
+Original title: Columbus: Ougon no Yoake
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2008
+Translated by: aishsha
+Version: 1.02
+_________________________
+It's... a role playing game! Set in what I can only assume to be the time period of Columbus! Due to my limited knowledge of Japanese, that's about all I know about the game. Oh, and the combat is really weird, like Lunar, only you take a step and your turn ends. You've got to admit it's clever, so maybe one day this will be translated, or something. Yeah.
+
+Translated Description:
+
+This is a complete patch for Columbus. Some minor changes were added to this patch version - see readme for more details.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/1285/

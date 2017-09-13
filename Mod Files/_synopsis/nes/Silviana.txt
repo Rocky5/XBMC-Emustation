@@ -1,0 +1,24 @@
+Silviana
+Original title: Silviana (Ai Ippai no Boukensha)
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 2002
+Translated by: Mute
+Version: 1.0
+_________________________
+
+Silviana is an Ys clone for the FDS. You play as this girl named Silviana who's looking for medicine for her sick mom. The graphics are pretty, the story is decent if fairly plain, and the game is hard as all hell. Allow me to explain...
+
+First of all, you don't gain levels, you have to find powerups. That's not so bad, to be honest, but it really could work better. In fact, it would work better if combat were more true to the standard Ys gameplay - there SEEMS to be no avoiding taking damage when you slam through an enemy in an attempt to destroy 'em. I've managed it once or twice, to be honest, but it seems to be exceedingly random. This means that, at the beginning of the game, you can take out 30 enemies or so before Silviana is toast. When you get into the cave, the damage the enemies do approximately triples and you're extremely lucky if you survive past the third or fourth screen.
+
+I'm afraid I didn't play too far in it, so I'm probably not the best person to review it, but the rather steep difficulty curve turned me off early. Who knows though, you might be better at it, or maybe it's just NNNesterJ running kinda choppy for me. It's worth a shot anyway, just to see if you like it or what.
+
+Translation Description:
+
+I didn't play the patch very far (mainly because I got torn to pieces three screens into the cave) but for Mute's first project it's done exceptionally well. Let's hope we see more quality work in the future!
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/616/

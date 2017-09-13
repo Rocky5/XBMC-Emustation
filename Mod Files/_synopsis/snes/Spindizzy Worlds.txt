@@ -1,0 +1,70 @@
+Spindizzy Worlds
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Isometric, Puzzle
+Gametype: Licensed
+Release Year: 1993
+Developer: ASCII
+Publisher: ASCII
+Players: 1
+_________________________
+"An interesting, innovative game, but the controls will make your head spin!"
+
+Yet another "strange" game of the early 90's. This one is very innovative and very irritating at the same time.
+
+Story: 7/10
+
+If I remember correctly, a star exploded, and its core went flying into space. It whizzed past some planets and caused them to spin on their axis much faster. How they didn't get fried like cosmic chickens, I don't know. Back on Earth, some astronomers noticed these high-speed spinning planets and became interested in them. Upon further study, these planets had gems on them that would make a very good fuel. However, they all were spinning way too fast for humans to land on them. So, they crafted a top-looking robot, G.E.R.A.L.D., to collect the gems for them.
+
+Graphics: 8/10
+
+This was released in 1992, so the 3-D effects probably were pretty nifty. Now, it kinda looks like everything was drawn in Mario Paint. Still, the 3-D effects are good, and nothing looks like it would belong on the Atari 2600 instead. The terrain ranges from bleaches to Lego blocks(!). The aliens range from evil version of Pac-Man to penguins that can run really fast. You can get crushed by boulders that look like Easter eggs. The gems kinda look like these odd geometric shapes, like spheres and black pyramids.
+
+Sound: 7/10
+
+The sound isn't so bad, but it's not exactly memorable either. The opening and stage select themes are okay, and I liked the Game Over theme (which you'll probably hear a lot!). Fortunately, none of the music is overly annoying. The gems make a "shinng!" sound when you grab them, while the spherical ones make a "gulp!" noise. The monsters making a weird "quack!" sound when you kill them(?!).
+
+Controls: 4/10
+
+Argh! The controls can be pretty sloppy. The D-Pad is on a diagonal this time. That means Up doesn't make you move north, it makes you move northwest. So when you first start the game and press Up and Left, or any other two directions, you'll find yourself moving in an arc instead! You'll be fighting yourself trying to remember that the game is on an angle. The B and X buttons are G.E.R.A.L.D.'s brakes, and you'll find yourself mashing on of those buttons a lot. G.E.R.A.L.D. has a bad habit of moving way to fast and moves in weird arcs when you try to switch directions. You practically have to use the brakes every time you want it to change directions...unless of course, you want it to go over that ledge. The A and Y buttons speed G.E.R.A.L.D. up, which helps it get over ramps or hurry up when there's a timer on a level. However, you can easily lose control of it when it's moving that fast. The L and the R buttons change the camera angle, and there's a log pause in between switching angles.
+
+Gameplay: 6/10
+
+This game is a cross between a puzzle game and an action game. Your job is to collect all the gems in each level. Once you grab all the gems, you can move on to the next planet. When all the small planets move on, you finally move on to the big planet (Easydizzy or Spindizzy). To collect all the gems, you either have to solve puzzles, or guide G.E.R.A.L.D. through a maze. The puzzles and mazes range of easy to "wanna hang yourself with the controller." There are a few of them I've encountered that are nearly impossible. Sometimes, there's also a timer on a level, and you must get G.E.R.A.L.D. through the maze before it runs out. The problem is, there never seems to be enough time to get through those mazes. Finally, after each level, you get a bonus round which allows you to collect extra gems within a time limit. In these rounds, the round simply ends if you run out of time or fall off a ledge.
+
+G.E.R.A.L.D. has a health bar, and it goes down every time you fall off a ledge, fall down from too far a height, get crushed by an Easter egg-oops!-I mean boulder, or touch a monster. It also slowly loses fuel by just standing around. It can replenish its fuel bar by grabbing gems or flags. Flags also temporarily make G.E.R.A.L.D. lose no fuel when it touches a monster. If G.E.R.A.L.D. runs out of fuel, it breaks down and the game is over. You also lose if you run out of time in a regular level. Then you have the option of starting the level over, starting a new level, or starting a new game.
+
+As I've mentioned before, the puzzles and mazes can get pretty tough and irritating. Couple that with the sloppy controls, and this makes a very frustrating game!
+
+Breakdown!
+
+Good points:
+-Innovative gameplay.
+-Good 3-D graphics for 1992.
+-Good for puzzle lovers.
+
+Bad points:
+-Tough or nearly impossible puzzles can be downright aggravating.
+-Timed levels never seem to have enough time on the clock, even in easy mode.
+-Very sloppy controls. You'll be mashing the brake buttons a lot.
+-D-Pad is on an angle which can cause some confusion. Confusion that might make you lose a couple of times.
+
+What should you do?
+
+Your best bet is to borrow this from a friend or emulate it. If your friends don't have it, or if you don't want to emulate, then rent this or buy it really cheap. If you're a die-hard puzzle fan, then I definitely recommend this game!
+
+Reviewer's Score: 6/10, Originally Posted: 07/26/04
+
+Tips:
+
+Spindizzy Worlds
+
+Final level passwords
+Enter these passwords on the password screen to instantly be taken to the games final levels
+MpBBBVB&amp; Final normal game stage
+P6BBCBB+ Final practice game stage
+
+Reviewer: Fox Fire
+http://www.gamefaqs.com/console/snes/review/R76814.html

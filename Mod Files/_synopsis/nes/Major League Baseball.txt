@@ -1,0 +1,27 @@
+Major League Baseball
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Baseball
+Gametype: Licensed
+Release Year: 1988
+Developer: Enteractive
+Publisher: LJB
+Players: 1 or 2 VS
+_________________________
+
+Officially licensed by Major League Baseball, the most immediately visible aspect of the game is that it features all twenty-six teams that existed in 1987. In addition, the lineups and the player numbers are accurate to the team rosters that year. Since the game did not have the endorsement of the Major League Baseball Players Association at the time, the team members are only listed by number, not name. This means that, in modern times, it is difficult to ascertain who the actual players are. In addition to their numbers, the players are represented by their statistics, abilities, throwing arm and even placement in the batting order. 1988's Major League Baseball was therefore the first NES game to be officially endorsed by Major League Baseball and to feature accurate contemporary lineups, albeit without the actual player names attached to their numbers.
+
+Managerial decisions are an important focus and, based on the reviews, a large portion of the appeal of this version. Game players are allowed to select their own lineups, although the game lacks Sabremetrics statistics due to the limitations of the era. Instead, the "manager" must make their decisions based on data such as player's average and home run totals. They also have the ability to change and decide who will be a pinch-hitter and who will be a substitute pitcher. One is even allowed to pick out a designated hitter. The game prohibits one from putting out more team members in a certain part of the field than would normally be allowed, which makes deciding which player will be used where a crucial part of the experience. There are three modes that can be played with teams from either the American League or the National League: regular season games, All-star games or the World Series (interleague). The World Series rounds, however, are only one match each, which is not accurate to the real World Series. 
+Due to the licensing, the teams even appear complete in their official uniforms and colours and also have all the options that a real baseball player would have, including bunting, pitching out, base stealing and throwing errors.
+
+Gameplay Issues:
+
+Pitching in the game contains several flaws. The quality of the AI means that when the computer plays as the batter, it hits nearly every ball it swings at, making it difficult for the player to perform a strike and only slightly easier to manage a walk. This forces the player to pitch fastballs, which in turn quickly wears the pitcher down to a point where he can no longer maintain the required speed. Furthermore, the pitcher is unable to move around the pitcher's mound. Many are also able to perform the feat of 100 mph (160 km/h) pitches.
+
+Upon contact, the system's fielding is flawed as well. The rapid pace of the batters running to the base, combined with the "erratic" speed of the ball means throwing out an opponent is an extremely difficult feat. The ball's physics have been called into question, with the ball stopping on a dime after three or less bounces. Furthermore, even catching a fly ball requires much effort because of the slow and uncoordinated rate at which the outfielders run. The game's camera system does not function properly either. When a ball is hit, the outfield camera follows the ball looking upwards, making it impossible for the game player to see where their fielders are.
+
+The ball can also be thrown and get stuck in the well between the stands and the field on an overthrow of a baseman, and cause inside the park home runs, which would not happen within a real game (in that case a ground rule double and/or error would be scored instead). Another bug allows players to go into the stands past the wall with the ball if they enter at certain points in foul territory. There are also gameplay issues when the player takes their turn to bat. The AI is not developed and, when the player hits a pitch, it nearly always takes the longest possible route to the ball, making runs easy to score. It also lacks the capability to throw out a runner who is returning to a base (instead of advancing) or perform a double play after catching a fly ball. Furthermore, the batter can only move vertically, not horizontally, in the batter's box, meaning many balls on the edge of strike zone are often missed.
+
+http://en.wikipedia.org/wiki/Major_League_Baseball_(video_game)

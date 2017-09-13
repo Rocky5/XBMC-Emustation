@@ -1,0 +1,82 @@
+Keeper
+Platform: Super Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1994
+Developer: Fupac
+Publisher: Datam Polystar
+Players: 1 or 2 CO-OP, VS
+_________________________
+Keeper is a Puzzle game, developed by Fupac and published by Datam Polystar, which was released in Japan in 1994.
+
+Tips:
+
+Play Doubles Mode
+DOUBLE
+
+Puzzle Mode Level Passwords:
+START 01
+SECOND 02
+FIVES 03
+TURTLE 04
+TCRUSH 05
+SEVEN 06
+MATOME 07
+CIRCLE 08
+PEACH 09
+ALMIGH 10
+MOAZAIC 11
+KOME 12
+JAMANE 13
+IPPAI 14
+SQUARE 15
+NICOLI 16
+KAKKO 17
+TILES 18
+TWOSET 19
+BLAST 20
+KOUJI 21
+DELUXE 22
+WAKU 23
+VECTOR 24
+MANIAC 25
+SWORD 26
+MRHEX 27
+RIVER 28
+TRAP 29
+TEFTEF 30
+NANAKO 31
+SPARK 32
+CONGA 33
+YOUBIN 34
+DRAGON 35
+AKANBE 36
+SAYUU 37
+M 38
+TWOII 39
+FIXED 40
+OHYOJI 41
+TANBO 42
+IKARI 43
+PEKE 44
+THESUN 45
+IGETA 46
+SELECT 47
+ICHMTS 48
+YUNOMI 49
+OWARI 50
+ATOMIC 51
+BURN 52
+FLOWER 53
+KUJIRA 54
+WITCH 55
+THREE 56
+SARURU 57
+MARS 58
+TRIANG 59
+MUCHA 60
+
+http://www.gamefaqs.com/console/snes/home/571092.html

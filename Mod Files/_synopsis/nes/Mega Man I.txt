@@ -1,0 +1,60 @@
+Mega Man
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1987
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+
+Dr. Light and Dr. Wily were partners, working together on a new robotics technology. Together they create Protoman, the first of the Robot Masters. After Protoman, they create six other robots designed to aid society. Dr. Light then created Rock and Roll to act as household aids to him. Because of this technological breakthrough, Dr. Light was given the Nobel Prize.
+
+Now, Dr. Wily, jealous and infuriated, stole the six robots made for society and reprogrammed them into robotic warriors to terrorize the public. As a last act of desperation, Dr. Light changed Rock into a super combat warrior named Mega Man to combat the six robots and stop Dr. Wily.
+
+Mega Man is the first in a classic series of video games that had more sequels than Rocky Balboa (And now Pongo's review of Rocky Five..... thousand). The graphics in this game were revolutionary and only get better as you go up in the series. The music in this game had a futuristic feel to it, albeit 8-bit sounds, but definitely keeps the game exciting and has become as classic as the video game itself. All in all, this is a classic game that deserves to be played over and over again, and if you like this one, then don't hesitate to play all the others in the series. Lock and load, and Good Luck!
+
+Gameplay:
+
+Mega Man is made up of six stages, with a Robot Master at the end guarding a weapon. The stage select screen allows the player to choose from these six stages, which can be replayed if they were cleared. When they are all completed, the seventh and last stage appears in the middle of the menu, replacing the text "Stage Select, Press Start". This last stage, known as the Wily Fortress, is in fact more like four regular stages linked together, some a bit shorter than average, but with bosses that are considered harder than usual. During the two final stages, the six Robot Masters must also be fought again as well in a predetermined order, before the final confrontation against Dr. Wily.
+
+The stages in Mega Man are designed in the "platformer" genre. In each stage, Mega Man fights his way through various enemies and obstacles before facing a Robot Master at the level's end. Upon defeating a Robot Master, Mega Man is able to assimilate the Robot Master's signature attack into his arsenal for the rest of the game.
+
+Unlike his standard blaster, however, the Robot Master powers have limited ammunition which must be replenished by collecting ammo cells randomly dropped by defeated enemies. While the player is free to proceed through the game in any order, each Robot Master is designed to be especially vulnerable to a specific weapon, encouraging the player to complete certain stages before others. Some vulnerabilities can be determined by observation (e.g., Fire Man is vulnerable to Ice Slasher) and others only by experimentation. Aside from the weapons taken from the Robot Masters, Mega Man is also able to get a platform generator item known as Magnet Beam, which is mandatory in order to advance through the last stage.
+
+Localization: 
+
+Character designer Keiji Inafune stated in a G4 interview that the concept of the game was inspired by Rock, Paper, Scissors; every weapon and Robot Master has a strength and a weakness.[1]
+
+Due to Nintendo of America's strict rules concerning religious references at the time, the Yellow Devil boss was instead named the "Rock Monster" for the original NES version[citation needed]. Also, when released in America, Capcom was forced to change the title of the game from Rock Man to Mega Man because Scholz Research &amp; Development, Inc. had copyrighted the name for their Rockman amplifier.
+
+(I had heard that the reason they changed the name was because "Rock Man" sounded too much like a drug dealer reference..... seriously... ~Rx)
+
+In the original U.S. Instruction manual, "Dr. Light" is referred to as "Dr. Wright". In Mega Man 2, he is called "Dr. Light". The in-game text of Mega Man 3 refers to him as "Dr. Right". However, "Dr. Light" remains his official romanized name.
+
+In the original Japanese version of the story, Dr. Wily was not Dr. Light's partner. Instead, he is simply a mad scientist who gets revenge on the world for not recognizing his scientific work.
+
+Reception:
+
+Mega Man was rated the 61st best game made on a Nintendo System in Nintendo Power's Top 200 Games list.
+
+The picture on the game's American box has been criticized as it contains virtually nothing that can be found in the game. Mega Man himself resembles a middle-aged man rather than a boy, and he is holding a handgun instead of his Arm Cannon. The game's cover is commonly ridiculed because of its inaccuracy; GameSpy placed it in first place of its Top Ten Worst Covers list. The European box cover, however, features Mega Man looking more like his video game counterpart.
+
+Controls:
+
+A Button: Jump
+B Button: Use weapon
+Start Button: Open Menu
+Select Button: Pause game
+
+Hints:
+
+The Select Trick
+When using a weapon that goes through an enemy, press the Select button (this pauses the game with out bringing up the weapon menu) when the weapon is making contact with the enemy. While the game is paused this way the enemy will continue to flash. When the flashing has stopped, press the Select button again to un-pause the game and the weapon will 'hit' the enemy again causing more damage. You can do this trick repeatedly with many of the bosses, making them very easy to beat.
+
+Reviewer: grimjockey
+http://consoleclassix.com/nes/mega_man.html
+http://en.wikipedia.org/wiki/Mega_Man_(video_game)

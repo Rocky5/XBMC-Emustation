@@ -1,0 +1,11 @@
+Congo: The Game
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Prototype
+Release Year: Unreleased
+Developer: None
+Publisher: None
+_________________________

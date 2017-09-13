@@ -1,0 +1,18 @@
+Championship Pool
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Sports - Pool
+Gametype: Licensed
+Release Year: 1993
+Developer: Bitmasters
+Publisher: Mindscape
+_________________________
+Championship Pool is a pool game where players can 8-ball or 9-ball pool tournament that starts off with the BCA Regional Championship where the player must defeat 32 opponents in a first to four games match. If the player loses against any of the 32 opponents, they are then eliminated from the tournament. The winner of that then goes onto the World Championship.
+
+All of the gameplay is done from a top down view of the table. The player moves an icon to indicate location they want to hit the ball too. To aid in the aiming, a ghost of the cue ball and the first ball that is hit is repetitively played out to show the path of the hit ball. With the all the shots there is a very small margin of error, but this is only notable when a long shot is played or a shot from a sharp angle and the ghost balls will randomly play out all the possible occurrences. The player can also change the power and spin of the played shot with the ghost balls will updating to show the outcome of those changes.
+
+There are 4 different game modes that can be chosen, each with a different set of pool games.
+
+http://www.mobygames.com/game/gameboy/championship-pool

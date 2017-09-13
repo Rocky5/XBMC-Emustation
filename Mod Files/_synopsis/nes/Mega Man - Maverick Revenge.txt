@@ -1,0 +1,22 @@
+Mega Man 4: Maverick Revenge
+Original title: Mega Man IV
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: mickevincent
+Version: 1.0
+_________________________
+This is the first time I have tried to edit a game, and with zero programming skills it wasn't easy. But with some help from MegaFLE X and Matrix I was able to anyway. There are some KNOWN bugs in this hack, but like I said, because of limited knowledge of ASM I wasn't able to fix everything.
+
+Don't get confused by the name, it doesn't have anything to do with the Mavericks. There is no story line in this game, no intro or anything. It's just a game!
+
+The bosses and enemies are generally the same, but the levels have been completely changed, as have some of the graphics
+
+Happy gaming! :)
+
+http://www.romhacking.net/hacks/562/

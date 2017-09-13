@@ -1,0 +1,40 @@
+Whomp 'Em
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+_________________________
+
+Whomp 'Em is the story of Soaring Eagle, a young Indian Brave who ventures into the world seeking totems for his magic pouch. Whomp 'Em consists of eight worlds. The first world acquaints you with the game. The next six worlds may be traveled in any order. The final world is a secret!
+
+--From the NES Whomp'Em instruction manual.
+
+Whomp 'Em is an action platformer, akin to many games at the time. It is notable for being one of the few video games to feature a Native American as the protagonist. After completing the first stage, the player can play the other six in any order. Each of the stages revolve around elements, such as fire and water. After each stage, the player gains a new weapon, much like in the original Mega Man series, which was extremely popular at the time.
+
+Both Whomp 'Em and its prequel (which was an adaptation of Wonder Boy in Monster Land), are based on the Journey to the West novel.
+
+The title, "Whomp 'Em" is a pun, based on wampum, white beads used by Native American tribes primarily for trading.
+
+Controls:
+
+Directional Pad - Controls Soaring Eagle's movements
+START - Press to select a Totem to use
+SELECT - Pauses/resumes the game, shows how many more Gourds before you get an extra Heart
+A Button - Jump
+B Button - Strikes with Soaring Eagle's spear or Totem
+
+Hints:
+
+-Access Sound Test
+At the title screen, hold down A + B on Controller #2 and press Start on Controller #1. Continue holding A + Buntil the message ''BGM + SE 00'' pops up on the screen.
+
+-Extra Energy
+When you begin the game, die quickly and continue. You'll continue with two energy bottles. Repeat the process to begin with three energy bottles(the maximum).
+
+http://en.wikipedia.org/wiki/Whomp_%27Em
+http://www.gamefaqs.com/console/nes/code/587768.html

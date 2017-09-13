@@ -1,0 +1,22 @@
+Super Mario USA II
+Platform: Super Nintendo Entertainment System
+Region: Special Release (Japan)
+Media: Satellaview Download
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1997
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+BS Super Mario USA is the game that we knew as Super Mario Bros. 2, released on the Japan-only BS Satellaview system. You know, the system that let you download and play games only on certain dates and times? Well, the game is just like Super Mario Bros. 2 on Super Mario All-Stars on the SNES, except there's no music (probably an emulation issue), and there are hidden statues in the game. There are four known dumps, and each dump goes through one world and a final boss. Oh yeah, there's a score, too! And it seems like characters speak to you, but you can't hear or read anything for some reason. And you can only use Mario.
+
+But the games are just as fun as the original.
+
+Translation Description:
+
+This patch translates what little text that shows up on the games, which is when you can change the control scheme or when you check the status inbetween levels. The patch was originally tested to work on BS Mario 1 by KingMike, but I've tested it on all four roms and it works perfectly.
+
+Reviewer: Kitsune Sniper
+http://www.romhacking.net/trans/831/

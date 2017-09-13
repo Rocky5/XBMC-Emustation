@@ -1,0 +1,13 @@
+Uchuu Senkan Gomora
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1991
+Developer: Aisystem Tokyo
+Publisher: UPL
+Players: 1
+_________________________
+Uchuu Senkan Gomora, is a shoot-em-up by UPL, originally released in 1990 for the arcade, and then ported to the Sega Mega Drive in 1991. While the arcade version was released overseas (in the US under license from American Sammy under the name Bio-Ship Paladin), the MD version was only released in Japan - however an American title screen is present in the ROM and displayable if the region is set to US, which may mean a US release was planned (this is unconfirmed). It is UPL's only Mega Drive game - they would go bankrupt shortly after publishing it (the later Task Force Harrier EX was ported and published by Treco).

@@ -1,0 +1,52 @@
+Nintendo World Championships 1990
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Compilation
+Gametype: Licensed
+Release Year: 1990
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+
+For the competition, 116 special game cartridges were manufactured. 90 of these copies exist in a grey cartridge and were given out to semi-finalists of the 1990 NWC. 26 of these cartridges are gold - like the Legend of Zelda cartridge - and were given out to winners and runners-up in a contest held by Nintendo Power magazine.
+
+To play the cartridge, one must have a controller connected to both controller ports and press start on the second player's controller. For the competition, there was a special switch that would start all cartridges simultaneously.
+
+Both versions of the cartridge feature DIP switches on the front, which can alter the time limit.
+
+The Nintendo World Championships 1990 game cartridge is considered to be the rarest and most valuable NES cartridge released, promo cartridges aside,[1] and the gold variation is nicknamed the holy grail of video game collecting[2]. Recently, a grey cartridge went on eBay and sold for a record $6,100. In June 2009 a collector paid $17,500 for NWC Gold in a private transaction.
+
+On April 17th, 2007, a gold cartridge was inadvertently sold by a father who was selling his son's possessions who had died in Iraq on myebid.com. The father was selling 24 cartridges, with no special attention paid to the Nintendo World Championships 1990 cartridge. The listing ended at $21,400[1], though it is unlikely that this amount was actually paid. Collectors have speculated that this listing was not legitimate to begin with, and that the bids may also not have been legitimate.
+
+To date, of the 26 NWC gold cartridges produced, only 12 copies have ever surfaced. The last copy sold in June 2009 for $17,500 to a collector in Colorado[6]. The NWC Gold cartridge is often compared to "holy grail" items from other collectible hobbies, such as the T206 Honus Wagner baseball card, Inverted Jenny postage stamp or Action Comics #1 comic book. Reproductions of the game cartridge, with the DIP switches, can be purchased from RetroZone for $55.
+
+Games:
+
+Officially, a player has 6 minutes and 21 seconds to play in the contest, which is divided up into three minigames. The first minigame of the competition is to collect 50 coins in Super Mario Brothers. The next minigame is a version of Rad Racer where players must complete a specialized Nintendo World Championship course. The final minigame is Tetris and this lasts until time expires. Once time does expire, a player's score is totaled using the following formula:
+
+    Super Mario Bros. score
+    + Rad Racer score times 10
+    + Tetris score times 25
+
+Most players focused their tactic on getting a high score in Tetris while other players tried to exploit a trick in Super Mario Brothers where a part of the game can be played repeatedly using warp pipes.
+
+The first two games were modified so that a player could not get a "game over." In Super Mario Bros., the player was given 99 lives, and in Rad Racer, the in-game timer was permanently fixed at 99 seconds. But in Tetris, placing a block over the top of the playing field would effectively end the game prematurely, and the player could not start again -- the game would freeze at the "game over" screen until the 6:21 competition time ran out.
+
+Pressing the RESET button during either Rad Racer or Tetris would take you to the point add up.
+
+Competition structure:
+
+The Nintendo World Championships consisted of eight rounds, all separated into the three age groups. Contestants entered by going to one of 30 local competitions, which were held at the 1990 Nintendo PowerFest. On the first two days of the PowerFest, contestants would play in groups of up to 50 at a time, and the top seven scorers were brought onto a main stage to compete against each other. Contestants could re-enter the first round as many times as they wished.
+
+Each second round winner was invited back to the last day of the PowerFest at that location. All the players in each age group played a third round, and again the top seven scorers were brought on-stage to compete in a fourth round. The top two scorers in the fourth round then competed head-to-head for the title of local competition winner in their age group. There were 90 finalists, 30 in each age group. Each finalist won a trophy, some other relatively small prizes, and a trip for two to Hollywood for the main Nintendo World Championships event.
+
+The Championships were held at Universal Studios. Each age group's finalists competed simultaneously in the sixth round, and the top seven scorers were brought on stage for the seventh round. Finally, the top two scorers in the seventh round competed head-to-head for the title of Nintendo World Champion for their age group.
+
+Results:
+
+There were three age categories in the competition: 11 and under, 12-17, and 18 and older. Jeff Hansen won in the 11 and under category, Thor Aackerlund won in the 12-17 category, and Robert Whiteman won in the 18 and older category. Below is a full listing of the ninety finalists from each city for each age category.
+
+http://en.wikipedia.org/wiki/Nintendo_World_Championships

@@ -1,0 +1,19 @@
+Gameboy Wars Turbo
+Platform: Nintendo Game Boy
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gameboy
+Genre: Strategy
+Gametype: Translated
+Release Year: 1990
+Translated by: TransBRC
+Version: .91
+_________________________
+This is a mecha-boring game. But I'm kind of biased, since I hate pure strategy games. Especially ones that are a war of attrition due to your opponents always having equal resources to yourself. It's usually interesting to have opponents that are slightly better or slightly weaker than you are. Otherwise, it just becomes a long, drawn siege-type-deal. Just like this game. You may have noticed the translation for Gameboy Wars 2 somewhere around this one. It's practically the same game, and it's in color, so you probably want to try that one instead.
+
+Translation Description:
+
+This patch is essentially complete, but hasn't been tested so it may contain bugs in the script. However, since blibber seems to disappeared, I wouldn't hold your breath on him to make sure it's finished ;).
+
+Reviewer: wraith
+http://www.romhacking.net/trans/24/

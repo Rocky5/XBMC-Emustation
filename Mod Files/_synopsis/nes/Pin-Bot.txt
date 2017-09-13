@@ -1,0 +1,39 @@
+Pin-Bot
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1990
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1-4
+_________________________
+
+Pin Bot, one of the finest pinball machines ever made, has now been converted to video. All of the action of the real game is here: robot-like speech, multi-ball play, the jet bumpers, and the mysterious robot visor. Some new features have been added as well: 6 progressively more difficult levels, enemies that attack your flippers or try to steal the ball on the playfield, and different ball shapes. Pin Bot talks. Pin Bot observes. Pin Bot challenges you.
+
+--From the NES Pinbot instruction manual.
+
+Overview:
+
+Pinbot was a pretty fun game, but I think Pinbot fans were expecting a little more. The controls were done pretty well with an easy-to-learn scheme. They were also resposive enough to convert your real pinball skills over to the NES. The graphics were mediocre. They weren't drawn too bad, but I didn't really like the color scheme. The sounds were not too aggravating and were almost enjoyable. I really like the ability to play four players. That was a good idea. It also had a multiball feature that was a lot of fun. Overall I'd say that this is a fun game to play, but if you are an old Pinbot fan, watchout, you might be let down a little.
+
+Directions:
+
+Use your flippers to keep the ball up to get the highest score you can.
+
+Controls:
+
+A Button: Right Flipper
+B Button: Plunger
+Start Button: Start/Pause
+Select Button: Select
+
+Hints:
+
+Shaking
+Use select to shake the machine to the left, and use start to shake the machine to the right. Be careful though, if you do it too much it will tilt.
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/pinbot.html

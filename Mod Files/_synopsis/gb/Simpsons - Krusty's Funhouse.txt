@@ -1,0 +1,16 @@
+Krusty's Fun House
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1994
+Developer: Audiogenic Ltd.
+Publisher: Acclaim
+_________________________
+Krusty the Clown's Fun House has been overrun by rats. You must help him to herd the rats into trap machines to clear them out. In order to do so, Krusty must manipulate his environment to set up pathways so that the rats are headed in the right direction. Objects that Krusty move around include blocks, fans, and pipe pieces.
+
+The trap machines are operated by other recognizable Simpson's characters: Bart, Homer, Sideshow Mel, and Corporal Punishment.
+
+http://www.mobygames.com/game/gameboy/krustys-fun-house

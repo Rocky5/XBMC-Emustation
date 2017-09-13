@@ -1,0 +1,22 @@
+Star Wars Arcade
+Platform: Sega 32X
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1994
+Developer: SEGA
+Publisher: SEGA
+Players: 1 or 2 CO-OP
+_________________________
+Star Wars Arcade is a 3D shoot 'em-up set in Episodes 4, 5, and 6 of the Star Wars saga. You take control of either an X-Wing or Y-Wing, and are put right in the middle of the space combat. In some levels, you have to shoot down a specific number of TIE fighters before time runs out. In other levels, your goal is to simply to make it to the end without getting blasted out of the sky.
+
+Some of the missions take place in deep space, around asteroids, or near Star Destroyers. Other missions take place on the surface of the Death Star and re-create the Luke Skywalker's famous trench run to destroy it.
+
+Hints:
+
+- Sound Test -
+Pause the game and enter: Up, Right, Left, A, Down, C
+
+http://www.mobygames.com/game/sega-32x/star-wars-arcade

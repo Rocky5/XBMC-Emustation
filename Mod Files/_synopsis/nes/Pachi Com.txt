@@ -1,0 +1,15 @@
+Pachi Com
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Casino
+Gametype: Licensed
+Release Year: 1988
+Developer: Shouei
+Publisher: Toshiba EMI
+_________________________
+
+Pachicom is a Casino game, developed by Shouei and published by Toshiba EMI, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/579337.html

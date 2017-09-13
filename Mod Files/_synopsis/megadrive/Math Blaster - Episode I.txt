@@ -1,0 +1,32 @@
+Math Blaster: Episode I
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1994
+Developer: Western Technologies, Inc.
+Publisher: Davidson &amp; Associates
+Players: 1
+_________________________
+A follow-up to the original Math Blaster! games, Math Blaster: In Search of Spot is an educational title with arcade elements designed to help students learn maths while having fun.
+
+The game allows students to practice basic addition, subtraction, multiplication, and division skills in addition to fractions, decimals, percents, estimation, and number patterns. The subjects can be practiced separately or together in review. Six levels of difficulty are provided. Like the previous titles, the game also includes an editor to create new problem sets (present in the PC version only).
+
+Math Blaster's friend and assistant, Spot, is kidnapped by the evil Trash Alien at the beginning of the game. The Galactic Commander gives Math Blaster the mission to follow the Trash Alien to his home planet and rescue Spot.
+
+The game starts with a complete mission (story mode). The mission consists of a series of four (three in the console versions) math activities (mini-games) strung together with cut-scenes. The activities can also be played separately, for practice or for score.
+
+The activities are as follows:
+Trash Zapper - Solve equations to gain tractor beam power, then use the tractor beam to collect space trash.
+
+Number Recycler (PC version only) - Create equations by pushing around columns of numbers and operators. Correct equations allow you to turn the trash you collected into fuel.
+
+Cave Runner - Use Math Blaster's jet pack to fly through a cave. He has a number on his chest, and it must be arithmetically between the numbers on each side of an opening in order for him to pass through. Droplets of water falling from above can change this number by performing an operation on it. There are also gems which can be collected for bonus points, and in higher levels, monsters appear that can knock Math Blaster down.
+
+Math Blaster - The Trash Alien's spaceship displays an equation, and the four portholes serve as multiple-choice answers. Use the jet pack to fly into the correct portholes while avoiding floating trash and energy blasts from the ship. Bonus gems also appear at random, and after five problems a bonus round occurs where players get a chance to collect as many gems as they can within a time limit.
+Upon finishing the complete mission, the player is presented with a certificate that can be printed out (PC version only). Their final score is also added to a high score board for their account.
+
+Reviewer: chirinea, Halleck, jonathan basinger
+http://www.mobygames.com/game/genesis/math-blaster-episode-1-in-search-of-spot

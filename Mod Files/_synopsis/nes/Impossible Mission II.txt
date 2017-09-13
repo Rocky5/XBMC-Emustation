@@ -1,0 +1,17 @@
+Impossible Mission 2
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Epyx
+Publisher: SEI
+_________________________
+
+Impossible Mission II is a direct sequel to Epyx's 1983 game Impossible Mission. The game follows directly from the same plot, with Elvin Atombender seeking revenge, and the player having to stop him. The overall game structure and basic gameplay is mostly similar, but there are a few differences and new features.
+
+The game takes place in Elvin's fortress, which consists of nine towers. Each of the eight outer towers has a specific theme, such as computers, automobiles, furniture and so on. Each tower consists of several rooms connected by two verical corridors with elevators and two horizontal corridors leading to other towers. This time, the corridors leading between different towers are locked, and can only be unlocked by figuring out a numerical puzzle. The map and all of it's rooms are randomly generated every time the game is played.
+
+http://www.nesguide.com/games/impossiblemission2/

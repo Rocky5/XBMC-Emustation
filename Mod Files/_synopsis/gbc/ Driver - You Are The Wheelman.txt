@@ -1,0 +1,14 @@
+Driver: You are the Wheelman
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Racing
+Gametype: Licensed
+Release Year: 2000
+Developer: Crawfish Interactive
+Publisher: Infogrames
+_________________________
+In Driver, you are the wheelman in a series of Hollywood-style car-chases. A great getaway driver is only as good as his equipment, which is why Driver has a selection of performance-packed muscle cars, complete with realistic handling, damage modeling, and real-world physics reactions. Driver also comes fully equipped with a replay/director mode that gives you all the necessary tools to "film" their own car chase and multiple views that allow you to look around when you're driving. Put the pedal to the metal and be the best driver around.
+
+http://www.gamefaqs.com/portable/gbcolor/home/914355.html

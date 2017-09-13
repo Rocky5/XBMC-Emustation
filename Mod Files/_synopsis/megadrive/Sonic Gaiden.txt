@@ -1,0 +1,24 @@
+Sonic Gaiden
+Original title: Sonic the Hedgehog
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2003
+Players: 1
+Hacked by: Yuski the Dog and Esrael
+Version: 0.4
+_________________________
+Sonic Gaiden is a 2003 fan-made hack of the original Sonic the Hedgehog game for the Sega Genesis/Mega Drive.
+
+This hack is significant in the Sonic ROM-hacking community for several reasons. First, it's a hack of a Sonic 1 title; at the time of its release, such hacks were slightly rarer as Sonic 2 was the most frequently hacked Sonic game. Secondly, it is a hack of the Japanese Sonic 1 ROM; the U.S. Sonic 1 is more commonly used, but the Japanese revision has added features such as scrolling clouds and rippling water. Thirdly, the hack allows the option to play as either Sonic or as Mighty the Armadillo, who became popular as a founding member of the Chaotix crew and as a playable character in SegaSonic the Hedgehog. In addition, the hack includes new levels with new artwork and separate endings for each character.
+
+The hack is a co-operative effort between two noteworthy hackers in the community, Yuski the Dog and Esrael Neto. Esrael is most famous for his work on Sonic 2 Delta, a hack of the Sonic 2 Beta ROM which re-coded all the incomplete elements and restored deleted levels. Yuski had created a previous hack in 2000 called Mighty the Armadillo which was a sprite and palette hack of the U.S. Sonic 1 ROM. Sonic Gaiden was born when Esrael e-mailed Yuki a Sonic 1 ROM-hack with both Sonic and Mighty playable.
+
+The difference between Sonic and Mighty is purely cosmetic. Choosing between the two is simply a matter of which sprites will be loaded. Therefore, not only do they both have identical abilities, but Mighty's trademark moves such as spin-dashing and wall-kicking are absent.
+
+It is worth noting that Mighty may have been an original design prototype for Sonic. Despite only having appeared in a couple of Sonic games, he has gained a small fan following. 
+
+http://info.sonicretro.org/Sonic_Gaiden

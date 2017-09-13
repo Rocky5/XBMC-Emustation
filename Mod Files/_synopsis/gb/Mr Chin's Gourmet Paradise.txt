@@ -1,0 +1,16 @@
+Mr. Chin's Gourmet Paradise
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1990
+Developer: Romstar
+Publisher: Romstar
+_________________________
+Mr. Chin is hungry! Help him eat his favorite snack, the delectable peach, by using laser emitting bowls to trap enemies and making them safe to chomp up. As Mr. Chin, you can drop bowls on the ground with the B Button. If you place one bowl on the left and one on the right, a laser will fire between the two bowls, and any enemies will be caught between, transforming into peaches. Mr. Chin can then gobble up the peaches - if he grabs more in a row, their value increases (Mr. Chin's score is measured in calories). When Mr. Chin eats all the enemies on-screen, more quickly take their place. Gobble them all up, and when there are no more enemies in the level, you can progress to the next one.
+
+Enemies in the levels can walk on thin line paths, but Mr. Chin will fall through these - he can only walk on bricks. Mr. Chin can also smash the bricks by punching them from underneath - sometimes this will reveal a power up, such as invincibility and the ability to turn all foes into peaches instantly.
+
+http://www.mobygames.com/game/gameboy/mr-chins-gourmet-paradise

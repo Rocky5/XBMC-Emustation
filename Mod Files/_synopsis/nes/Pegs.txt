@@ -1,0 +1,19 @@
+Pegs
+Platform: Nintendo Entertainment System
+Region: Original Homebrew
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Homebrew
+Developer: Sly Dog Studios
+Publisher: Membeler Industries
+_________________________
+The whole premise of the game is to choose an spot on the board where you don't want a peg to be, then jump pegs, one over the other, until there is one peg left on the board, or there are no more moves to make. It's a rather simple game, but it's pretty fun! If you're not sure exactly what game I'm talking about, go to your local Cracker Barrel and you'll know what I'm talking about.
+
+I developed this game for the Garage Cart 2 release being published by Memblers. Go here for more informationNESDev Forum on that. Besides that, I am offering the game up as a free download, with source included. There is label art created by my buddy Kevin, also. He did an outstanding job on it, so if you end up making your own cart of Pegs, I highly recommend the label he made for it!
+
+What I've been doing, in terms of development, is learning little things at a time, then basing a program around those things. For instance, I had never done alot of bitwise operations before, so I did alot of that with this game. I had also figured out how to do an 8-bit RLE decompression routine, so I included that in the program. I had never done any stand-alone sample playing before. The only time I had was through use of a tracker, so that was something new. The scrolling part in the credits is new for me too, so I guess there are lots of things that I learned! I suppose that's a good thing ;)
+
+Anyway, I hope you like my second NES game. There's still a whole lot of stuff to learn on my end, but it's fun! Oh yeah, my sons' mug is on the label, and that's his voice in the game. He was awesome to work with on this project! Downloads are under the screenshots.
+
+http://robertlbryant.com/gaming/pegs.htm

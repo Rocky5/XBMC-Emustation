@@ -1,0 +1,37 @@
+World Champ
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Boxing
+Gametype: Licensed
+Release Year: 1990
+Developer: Visco
+Publisher: Romstar
+Players: 1
+_________________________
+
+It was first released in Japan under the name Great Boxing: Rush Up, and was later published in the US by Romstar. The game play is very similar to Ring King, another NES boxing game.
+
+Controls:
+
+Choose one of the three boxing events by using the SELECT button.
+
+Directional Pad Move boxer
+B Defensive
+A Offensive
+START Pause
+
+Hints:
+
+Use the A button for offensive moves, the B button for defensive moves. Use the directions for some fancy footwork.
+
+Password Effect
+SWJMNWGBX Final Match
+DZLMNZLMN Start at cruiser weight with max power
+SZLMNZLMN Start at heavy weight with max power
+QZLMNZLMN Start at middle weight with max power
+BZLMNZLMN Start at Welter Weight with Max All
+
+http://en.wikipedia.org/wiki/World_Champ
+http://www.gamefaqs.com/console/nes/game/587779.html

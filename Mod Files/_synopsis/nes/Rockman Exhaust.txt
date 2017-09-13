@@ -1,0 +1,16 @@
+Rockman Exhaust
+Original title: Rockman II
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2005
+Players: 1
+Hacked by: DHI
+Version: 1.0
+_________________________
+Rockman Exhaust has custom levels and including music. It's a great gameplay.
+
+http://www.romhacking.net/hacks/305/

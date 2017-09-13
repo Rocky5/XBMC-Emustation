@@ -1,0 +1,36 @@
+Snow Bros: Nick &amp; Tom
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: Toaplan Co., Ltd.
+Publisher: Tengen
+Players: 1
+_________________________
+Nick and Tom are two Princes living the dream with two beautiful princesses. When suddenly the evil King Scorch freezes Prince Nick and Tom and kidnaps the Princesses. Now Nick and Tom find themselves with abilities dealing with snow and ice. These two Snow Brothers will need to hunt down the evil King Scorch and rescue the princesses.
+
+Gameplay:
+
+Snow Bros. is a fixed-screen platform game where players must defeat all enemies on each level (screen), 50 altogether. The Snow Bros use snow as their weapon, throwing it at the enemies to stun them. When lots of snow is thrown at an enemy, it becomes covered in a flurry and unable to move. These can be rolled into giant snowballs and pushed or kicked into other enemies. If left alone, enemies will eventually defrost and become angry at the player. The enemy filled snowballs are a much stronger weapon then the regular handful of snow and are the only effective weapon Nick and Tom have against the bosses.
+
+Hints:
+
+- Level Passwords -
+FIJLFloor 10 - First Boss
+ABSXFloor 11
+PBSXFloor 20 - Second Boss
+ACSXFloor 21
+IJXSFloor 30 - Third Boss
+AESXFloor 31
+ELFKFloor 40 - Fourth Boss
+AJSXFloor 41
+PFSXFloor 49
+ISAPFloor 51
+FCJLFloor 60 - Sixth Boss
+IEAPFloor 61
+
+http://www.mobygames.com/game/genesis/snow-bros-nick-tom
+http://www.gamefaqs.com/console/genesis/code/565837.html

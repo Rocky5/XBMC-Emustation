@@ -1,0 +1,15 @@
+Phantasy Star II [English Fix]
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2000
+Players: 1
+Translated by: Naflign's Ego
+Version: 1.0
+_________________________
+Once, long ago, some folks who could both english and japanese realized something. The script for one of the greatest 16-bit RPGs of all-time had been butchered in its English translation. Which is quite a pity, to be sure. So some fellows going by Hirata and Zickefoose rectified it by tranaslating the game into English, and stick it in a text file somewhere. Then Naflign steps in. He adored Phantasy 2 (as anyone in their right mind SHOULD), and set about hacking this script into the game. And guess what?! He met with success. So now, you can enjoy Phantasy Star 2 in it's proper english glory.
+
+http://www.romhacking.net/trans/72/

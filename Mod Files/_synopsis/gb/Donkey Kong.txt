@@ -1,0 +1,16 @@
+Donkey Kong
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+The big ape has returned in this update of the classic Nintendo arcade game. Although at first it appears to be just a port, the familiar levels from the arcade game are just a prelude to the real platform jumping adventure. Instead of rescuing Pauline at the end of the fourth level, Donkey Kong makes off with her once again!
+
+There are 96 levels spread out over 12 worlds. These levels are much more complex than the originals, featuring scrolling backgrounds, numerous objects to collect, and enemies to avoid. Along the way, you will encounter several "boss" style battles with Donkey Kong, as well.
+
+http://www.mobygames.com/game/gameboy/donkey-kong-

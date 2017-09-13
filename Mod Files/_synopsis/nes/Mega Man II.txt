@@ -1,0 +1,67 @@
+Mega Man 2
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1989
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+
+One year after Mega Man defeated the original Robot Masters along with Dr. Wily, that crazy man is back with eight new robots of his own design. His sole purpose, to get back at Mega Man for defeating him a year earlier. Now Mega Man must jump back into action and save the world from Dr. Wily's army of robot minions and the eight Robot Masters that lead them.
+
+Mega Man 2 was the most popular of the Mega Man series. It was named by GameSpot as the Greatest Game of All Time, and it made number 33 in Nintendo Power's Top 200 games list. The graphics of this game are much improved from the original, and the music as been reworked and sounds better and even catchier. Mega Man 2 is also one of the few Mega Man games that held a contest in Japan so that the fans could participate in the design of the Eight Robot Masters.
+
+So enjoy what many believe to be the best of the best in the Mega Man series.
+
+Gameplay:
+
+Mega Man 2 is a platformer and action game like its predecessor, Mega Man. The player controls Mega Man as he traverses eight different stages to defeat the bosses, Dr. Wily's Robot Masters. Mega Man gains the signature weapon of each Robot Master after defeating him. The Robot Masters have weaknesses to the weapons of certain other Robot Masters; therefore, choosing the order in which the levels are played is a vital component of the gameplay. After completing certain stages, Mega Man receives a special item. These items create platforms that allow Mega Man to access areas that the he could not otherwise.
+
+After defeating the eight Robot Masters, the player proceeds to Dr. Wily's fortress, which consists of six levels that are played linearly. As in the original Mega Man, the player is required to fight each Robot Master a second time in Dr. Wily's fortress. However, in Mega Man 2, these battles take place in a single room with teleportation devices that lead to each Robot Master. The devices can be entered in any order, but are not labeled.
+
+The North American release of the game has two difficulty modes: normal and difficult. The "difficult" setting is the standard difficulty level that was used in the Japanese version, while the "normal" setting makes all enemies and Robot Masters weaker. Rereleases in North America do not contain this feature and instead default to "difficult". The choice of difficulty mode has no effect on the password system.
+
+Mega Man 2 added several new gameplay elements. The E-Tank allows a player to refill Mega Man's health at any time. These are found placed throughout the game. Also introduced is a password system. After defeating each Robot Master a password is displayed, allowing the player to return to that particular point in the game after restarting the system. The password stores the particular list of completed Robot Masters, as well as the number of E-Tanks that the player has accumulated.
+
+Several features available in Mega Man were removed. Unlike the original Mega Man, the game does not keep a running score for the player. The player is unable to return to Robot Master levels once they have been completed.
+
+Development:
+
+Mega Man 2 was developed and published by Capcom. The first Mega Man game did not have a large enough success to lead to an immediate sequel. Mega Man creator Keiji Inafune claims the development of Mega Man 2 was a "rogue effort". Inafune was given the chance to create a sequel on the condition that he work concurrently on other projects as well. The Mega Man 2 development team spent their own time on the project to improve upon the original by adding more levels and weapons, as well as improving the graphics. Due to the limited amount of cartridge space available for the original Mega Man, much of the leftover design elements from the game were transferred to Mega Man 2.
+
+The soundtrack for Mega Man 2 was composed by a team of three people: Ogeretsu Kun, Manami Ietel, and Yuukichan's Papa, who composed the music for the original Mega Man. The three composers were credited with pseudonyms. Manami Matsumae and Yoshihiro Sakaguchi are credited as Ietel and Yuukichan's Papa, respectively. Ogeretsu Kun is a nickname implying rudeness, geretsu meaning rudeness or depraved in Japanese. Ippo Yamada, composer for Mega Man 7, offered some explanation for this saying that even in 1995 "Capcom... was just beginning to transition from crediting staff members by aliases to their full names."
+
+Reception and Legacy:
+
+Despite relatively low sales of the first Mega Man game, Mega Man 2 was a huge success. Since its 1988 release, Mega Man 2 has sold over 1.5 million copies worldwide. The game is the highest selling in the Mega Man series and is Capcom's 20th highest selling title. Mega Man 2 was named by GameSpot as one of "The Greatest Games of All Time". It ranked at number 33 in Nintendo Power's "Top 200 Nintendo Games Ever" list. It ranked fifth on Game Informer's list of The Top 10 Video Game Openings. Creator Keiji Inafune claims the success of Mega Man 2 is what made the Mega Man series a hit that continues to spawn sequels. In ScrewAttack's "Top 10 Video Game Themes Ever" video, the Doctor Wily Stage Theme is ranked second in the countdown, behind only The Legend of Zelda Theme.
+
+Many of the conventions of the original Mega Man series were defined by Mega Man, but Mega Man 2 added its own conventions, which were retained by the series. The traditional number of Robot Masters for Mega Man games is eight as used in Mega Man 2, rather than the six used in the original. The Game Boy versions used eight Robot Masters, but they were divided into two sets of four. The E-Tank became the series' iconic health refill item. The teleporter room where the player confronts all of the Robot Masters for a second time has become a staple of the games, replacing the preset sequence used by Mega Man. Mega Man 2 initiated the idea of special movement items, precursors to Mega Man's robot dog companion, Rush.
+
+Controls:
+
+A Button: Jump
+B Button: Shoot
+Start Button: Bring up menu
+Select Button: Nothing
+
+Hints:
+
+Robot Master Weaknesses
+To beat them easily us these:
+
+Metal Man ~Boomerang (Metal Blade)
+Flash Man ~Heat Blast
+Quick Man ~Flash Stopper
+Wood Man ~Metal Blade
+Air Man ~Leaf Shield
+Crash Man ~Air Shooter
+Bubble Man ~Crash Bombs
+Heat Man ~Lead Bubble
+
+Reviewer: grimjockey
+http://consoleclassix.com/nes/mega_man_2.html
+http://en.wikipedia.org/wiki/Mega_Man_2

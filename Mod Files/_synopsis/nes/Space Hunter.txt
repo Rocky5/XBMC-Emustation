@@ -1,0 +1,16 @@
+Space Hunter
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1986
+Publisher: Kemco
+_________________________
+
+NOTE: Only works in NestopiaX
+
+Space Hunter is an Action game, published by Kemco, which was released in Japan in 1986.
+
+http://www.gamefaqs.com/console/nes/home/578314.html

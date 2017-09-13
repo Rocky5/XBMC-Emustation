@@ -1,0 +1,18 @@
+Robotnik's Revenge
+Original title: Sonic the Hedgehog
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: ColinC10
+Version: 1.0
+_________________________
+Robotnik's Revenge is a hack of Sonic the Hedgehog 2 by ColinC10. It is a "boss rush" hack, in which all seventeen bosses from Sonic the Hedgehog and Sonic the Hedgehog 2 are fought in a somewhat arbitrary order over the course of a single level. The game takes place in Death Egg Zone from Sonic 2, and is meant to imply that there is more to the ship than there is in the original game.
+
+Time spent completing the boss run is kept and the total time is given at the end of the course, along with a ranking. In Time Attack mode there are infinite lives and rings that can be found in-between battles. In survival mode there are only 3 lives and no rings. 
+
+http://info.sonicretro.org/Robotnik%27s_Revenge

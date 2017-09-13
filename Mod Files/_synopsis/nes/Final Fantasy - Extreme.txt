@@ -1,0 +1,36 @@
+Final Fantasy: Extreme
+Original title: Final Fantasy
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Release Year: 1997
+Players: 1
+Hacked by: Magus
+Version: 0.9
+_________________________
+What's been changed:
+
+- Fighter => Rydia
+
+- Thief => Butz
+
+- B. Belt => Lenna as the "Monk" class
+
+- RedMage => Cecil, Paladin
+
+- W. Mage => Plain Lenna with a cape
+
+- B. Mage => Butz (I think) as the "Black Mage" class
+
+- The class-changed characters are original creations, so they are not from any other game, however they may slightly resemble their former selves in most cases.
+
+- The palette for the 16-24 character sprites (the ones you control in combat) has been changed to better colors.
+
+- Hammers have been replace by whips.
+
+- The starting values for chars have been grossly inflated to enable you to progress throught the game at a faster pace.
+
+http://www.romhacking.net/hacks/62/

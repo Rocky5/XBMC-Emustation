@@ -1,0 +1,146 @@
+Chrono Trigger
+Platform: Super Nintendo Entertainment System
+Region: USA, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1995
+Developer: Square
+Publisher: Square
+Players: 1
+_________________________
+THE WORLD OF CHRONO TRIGGER
+
+Living in the seemingly peaceful kingdom of Guardia in 1000 A.D., the child CRONO was chosen by guardian spirits to save the world from ultimate devastation. Though Doomsday will not happen until the year 1999, the ancient seeds of destruction were planted long ago by the evil LAVOS. Your mission in the world of CHRONO TRIGGER is to travel back and forth through time to change the course of history, and stop Lavos from succeeding in his dark plan. On your journey, you will battle monsters and meet many helpful people in both the past and the future. Some will become your faithful and powerful companions, while others will give you clues by telling you stories. Pay attention to what they say, and good luck in your adventure.
+
+FUTURE
+
+In the future, 2300 A.D., the world has almost been destroyed by the evil Lavos. Those who survive are hungry, hurt, and hopeless. Find out how to help them, because the future of the world depends on you.
+
+PRESENT
+
+In 1000 A.D., beneath the surface of peaceful surroundings, monsters from the past are scheming to destroy the world while residents, unaware of the approaching peril, celebrate in the kingdom of Guardia.
+
+PAST
+
+Back in 600 A.D., humans are at war against monsters controlled by the evil Prince of Darkness. He has already defeated many Guardia knights, so in order to help them, you must travel even further back - to 65 Million B.C. - when Lavos first arrived on earth.
+
+--From the SNES Chrono Trigger instruction manual.
+
+Overview:
+
+Chrono Trigger is one of the best early role playing games made. Thats why it shipped more than 2.36 million copies in Japan and 290,000 abroad. The graphics were very colorful and detailed. The controls were easy to use, and had a high functionality. The music in this game was also very successful. The are several songs from the game that are widely recognized by it's huge fanbase. The major stand out of this game from others was the storyline and how there were several different ones depending on what you decided to do in the game. This made the replayability factor very high. This is a must play for any classic gamer.
+
+Directions:
+
+Chrono Trigger features standard console role-playing game (RPG) gameplay with several innovations. The player controls the protagonist and his companions in the game's two-dimensional fictional world, consisting of various forests, cities, and dungeons
+
+Navigation occurs via an overworld map, depicting the landscape from a scaled down overhead view. Areas such as forests, cities, and similar places are depicted as more realistic scaled down maps, in which players can converse with locals to procure items and services, solve puzzles and challenges, or encounter enemies. Chrono Trigger's gameplay deviates from that of traditional RPGs in that, rather than appearing in random encounters, many enemies are openly visible on field maps or lie in wait to ambush the party. Contact with enemies on a field map initiates a battle that occurs directly on the map rather than on a separate battle screen.
+
+Players and enemies may use physical or magical attacks to wound targets during battle, and players may use items to heal or protect themselves. Each character and enemy has a certain number of hit points, and successful attacks reduce that character's hit points, while hit points can be restored with potions and spells. When a playable character loses all hit points, he or she faints; if all the player's characters fall in battle, the game ends and must be restored from a previously saved chapter, except in specific storyline-related battles that allow or force the player to lose. Between battles, the player can equip his/her characters with weapons, armor, helmets, and accessories that provide special effects (such as increased attack power or defense against magic), and various consumable items can be used both in and out of battles. Items and equipment can be purchased in shops or found on field maps, often in treasure chests. 
+
+By exploring new areas and fighting enemies, players progress through Chrono Trigger's story.
+
+Each character can take action in battle once a personal timer dependent on the character's speed statistic counts to zero. Magic and special physical techniques are handled through a system called "Techs". Techs deplete a character's magic points (a numerical meter like hit points), and often have special areas of effect; some spells damage huddled monsters, while others can harm enemies spread in a line. Enemies often change positions during battle, creating opportunities for tactical Tech use. A unique feature of Chrono Trigger's Tech system is that numerous cooperative techniques exist. Each character receives eight personal Techs which can be used in conjunction with others' to create Double and Triple Techs for greater effect. For instance, Crono's sword-spinning Cyclone Tech can be combined with Lucca's Flame Toss to create Fire Whirl. When characters with compatible Techs have enough magic points available to perform their techniques, the game automatically displays the combo as an option.
+
+Chrono Trigger features several other unique gameplay traits, including time travel. Players have access to seven eras of the game world's history, and past actions affect future events. Throughout history, players find new allies, complete side quests, and search for keynote villains. Time travel is accomplished via portals and pillars of light called "time gates", as well as a time machine named Epoch. The game contains thirteen unique endings; the ending the player receives depends on when and how he or she reaches and completes the game's final battle. Chrono Trigger also introduces a New Game+ optionafter completing the game, the player may begin a new game with the same character levels, techniques, and equipment (but not money) that he or she ended the previous game with. Certain items central to the storyline are removed and must be found again, such as the sword Masamune. 
+
+Controls:
+
+A Button - Talk, Accept, enter areas on the world map
+B Button - Dash / Cancel
+X Button - Open Menu
+Y Button - Change Party Members, Time compass on Epoch
+L+R Buttons - Run from battle
+Start Button - Pause
+Select Button - View World Map
+
+Hints:
+
+New Game Extras
+If you beat the game, you will have the option of taking your old characters/items/levels into a harder version of the game with extra endings.
+
+Tips:
+
+Erase saved games
+At the save game selection screen, select the save you wish to delete and press Start + Select on Controller 2.
+You will be given a Yes/No confirmation box before the save is deleted.
+
+Factory Passcodes
+There are two points in the Factory in 2300 AD in which you must enter a passcode to proceed. The first point
+requires you to enter codes to control a crane, and the second requires you to enter the master password for the entire factory. The following lists those three such passcodes. Remember to press the buttons in order, not all at the same time.
+
+Factory Crane Passcode 2 B, B
+Factory Crane Passcode 1 X, A
+Factory Master Password X, A, B, Y
+
+Save Lucca's Mother
+In the event where Lucca's mother gets caught in the machine, walk to the lower rightmost accessible portion
+of the machine, press A, and you will be prompted to enter a code to stop it.
+
+L, A, R, A Saves Lucca's Mother
+
+Game Ending
+There are 13 Endings possible in this game, depending on when you choose to fight Lavos. 
+
+Ending 01 Beyond Time 
+Beat Lavos at the end of the game
+
+Ending 02 Reunion 
+Beat Lavos while Chrono is 'dead'
+
+Ending 03 The Dream Project 
+Beat Lavos in the Black Omen OR right after Marle joins your party (New Game+ only)
+
+Ending 04 The Successor of Guardia 
+Beat Lavos as soon as you return from 600 AD  [right telepod, again-only new game +]
+
+Ending 05 Good Night 
+Beat Lavos as soon as you get to the End of Time  [use bucket]
+
+Ending 06 Legendary Hero 
+Beat Lavos before you get the Hero Medal, but  after you hear Tata is the hero
+
+Ending 07 The Unknown Past 
+Beat Lavos after getting the Hero Medal, but  before the Masamune is fixed
+
+Ending 08 People of the Times 
+Beat Lavos after you get the gate key back in 65, 000, 000 BC
+
+Ending 09 The Oath 
+Beat Lavos after getting the Masamune fixed, but  before opening the magic cave
+
+Ending 10 Dino Age 
+Beat Lavos after defeating Magus, but before defeating Azala
+
+Ending 11 What the Prophet Seeks 
+Beat Lavos after defeating Azala
+
+Ending 12 A Slide Show 
+Beat Lavos after Schala uses her pendant, but  before yours is powered
+
+Ending 13 Day of Lavos 
+Fight Lavos and lose
+
+Infinite Power Tabs
+When on the black omen, you will come across a Tubster (Which at first looks like a tornado on the ground)
+Attack it and have Ayla use Charm, then escape, and go back through the door you came in and repeat.
+
+Infinite Shelters
+When you exit Guardia Forest in the beginning of the game there is a bush near the exit that will move, when
+you try to communicate with it a strange creature should run out dropping a free shelter, after this leave the forest towards the castle but don't progress further, instead go back into the forest to where the bush was, you will be able to interact with it again thusly giving you another free shelter. There are a few enemies about but by going around where the enemies come out you should be able to avoid them. By using this cheat you can use the shelters to recover many times or sell them for 75 gold each.
+
+Save anywhere
+In Giants Claw or Tyrono Fortress there are a few switches. One activates a save point, one starts a
+battle, and one makes part of the floor disappear.
+
+Activate the save point, then make the floor disappear. Go to the top of the left hole, jump off and press A
+just as you go onto it. Save and continue. If done correctly, you should be able to save anywhere!
+Note: This affect will wear off if you turn the system off.
+
+Get 10 Mid Ethers at Lab 32
+After getting the Race Log to track your best scores in the bike race, race Johnny and attain a score of 777.  Rx-xR will reward you with 10 Mid Ethers.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/snes/chrono_trigger.html

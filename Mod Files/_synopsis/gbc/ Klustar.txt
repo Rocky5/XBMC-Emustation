@@ -1,0 +1,14 @@
+Klustar
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1999
+Developer: Rebellion
+Publisher: Infogrames
+_________________________
+Klustar is a Puzzle game, developed by Rebellion and published by Infogrames, which was released in 1999.
+
+http://www.gamefaqs.com/portable/gbcolor/home/575438.html

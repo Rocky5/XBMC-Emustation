@@ -1,0 +1,18 @@
+Challenging Lolo
+Original title: Adventures of Lolo
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Hack
+Release Year: 2004
+Players: 1
+Hacked by: Sivak Drac
+Version: 1.0
+_________________________
+This hack modifies the game Adventures of Lolo. Features 50 new rooms, some sprites changed to the Lolo 2/3 ones, some palette changes, and some text changes.
+
+Special thanks to bbitmaster's editor for making all this possible.
+
+http://www.romhacking.net/hacks/201/

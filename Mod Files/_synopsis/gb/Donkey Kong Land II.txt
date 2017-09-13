@@ -1,0 +1,17 @@
+Donkey Kong Land 2
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1997
+Developer: Rare Ltd.
+Publisher: Nintendo
+Players: 1
+_________________________
+Donkey Kong has been captured by the evil Kaptain K. Rool. Diddy and Dixie must make their way through more side-scrolling levels in this Game Boy adventure. Fortunately, they will have plenty of help along the way from their friends.
+
+Like Donkey Kong Land, all the graphics in this game are pre-rendered three dimensional models. Gameplay is similar also, and consists of much platform jumping and banana collecting.
+
+http://www.mobygames.com/game/gameboy/donkey-kong-land-2-diddys-kong-quest

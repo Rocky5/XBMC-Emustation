@@ -1,0 +1,14 @@
+Test Drive Cycles
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Racing
+Gametype: Licensed
+Release Year: 2000
+Developer: Xantera
+Publisher: Infogrames
+_________________________
+Test Drive Cycles is a Motorcycle Racing game, developed by Xantera and published by Infogrames, which was released in 2000.
+
+http://www.gamefaqs.com/portable/gbcolor/home/914429.html

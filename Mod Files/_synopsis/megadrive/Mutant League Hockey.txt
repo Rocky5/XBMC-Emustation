@@ -1,0 +1,13 @@
+Mutant League Hockey
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1994
+Developer: Electronic Arts
+Publisher: Electronic Arts
+Players: 1 or 2 VS; CO-OP
+_________________________
+Mutant League Hockey is an ice hockey game developed and published by Electronic Arts. It runs on the engine which powered NHL '94 and is very similar to that game, though features various bizarre creatures and more unrealistic violence (including the mechanics to allow players to smash through the ice and float around underneath the play area).

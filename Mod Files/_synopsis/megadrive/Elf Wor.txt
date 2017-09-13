@@ -1,0 +1,14 @@
+Elf Wor
+Platform: Sega Genesis / Mega Drive
+Region: China
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Pirate
+Developer: Gamtec
+Publisher: Ming Super Chip Electronic Co., Ltd
+Players: 1
+_________________________
+Elf Wor is an unlicensed Sega Mega Drive game developed by Gamtec. Its true identity is unknown - whereas the ROM header lists the game's name as "Elf Wor", the title screen calls it Spiritual Magic Priest, and Super Magician. It has also been referred to as Reigen Doushi and Revenge of Fu Manchu.
+
+The game is strikingly similar to Zombies Ate My Neighbors, though has a more eastern setting.

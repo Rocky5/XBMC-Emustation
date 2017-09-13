@@ -1,0 +1,20 @@
+Zombie Hunter
+Original title: Zombie Hunter
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure 
+Gametype: Translated
+Release Year: 2003
+Translated by: KingMike's Translations
+Version: 1.01
+_________________________
+Zombie Hunter, which was once slated to be released in the US as Zombie Master, is a scrolling hack and slash adventure. It's like Zelda II in a way, except Link has a shield that he can actually use, instead of just adding to his total defense rating like in Zombie Hunter. Having a functional shield would've made this game a LOT more tolerable, I imagine. Anyways you walk to the right and slash at various foes that appear. Eventually you get enough experience to level up, and you also get gold sometimes, and items even less of the time. Like, you can get Food that (thank God) restores your HP, or maybe you'll get more powerful weapons or equipment, or maybe the key that unlocks the last door that lets you finish the level. The enemies don't seem to do any damage by themselves (you can jump on them for much amusement), but they can all fire projectiles that hurt quite a bit. Why your shield is, again, useless for deflecting projectiles, is just a bit annoying.
+
+Translation Description:
+
+Everything's translated except for that voice that chastises you whenever you die. Which happens a lot. Yeah, the game has synthesized voices in a couple places. It's pretty kewl.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/545/

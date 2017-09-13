@@ -1,0 +1,45 @@
+Gradius
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter - Horizontal
+Gametype: Licensed
+Release Year: 1986
+Developer: Konami
+Publisher: Konami
+Players: 1 or 2 Alternating
+_________________________
+
+The people of Gradius are in trouble. The ameoboid Bacterions have launched an all out attack against the planet, and it's up to you to fly into battle and save them.
+
+Along the way you'll be able to power up your ship with hyper speed, force fields, lasers, missiles, double beam cannons and more to help you battle. Based on the arcade game, Gradius is a side scrolling shooter. Shooting certain enemies will leave a power up pod behind which can be collected to add more power to your ship. Each level features a wide variety of enemies trying to stop you, with a large boss at the end. Gameplay is for one player or two players alternating.
+
+Gradius was one of the first really popular space shooters. It was a revolutionary new type of game which ended up spawning many others. While not as fun as some of its sequels, Gradius still manages to pack a punch.
+
+The graphics are amazing for the time. On it's own it looks like a very well-done Nintendo game. But more astoundingly is the fact that it's an arcade-perfect port. Your ship is small, but quite detailed. Some weapons are your ship's size or smaller. But, the bosses are also huge. In some cases, they can take up nearly half of the screen! Ranging from giant space stations to huge space monsters, to floating Easter Heads (?), the graphics are great. Not to mention some of the better backgrounds.
+
+The story seems to be nonexistent. It's pretty typical otherwise. You, a small little space ship, must save the world from destruction and face impossible odds. You know how it goes. But then again, this is a space shooter. How many do we know of that actually tries to incorporate a story anyway?
+
+Controls:
+
+A Button: Shoot
+B Button: Use Power Up
+Start Button: Pause
+Select Button: Nothing
+
+Hints:
+
+Warp Ahead
+Destroy the boss of the level within five seconds to warp to the level two levels! For example, this would take you from level 1 to level 3.
+Super Ship
+Pause during a game and enter the Konami code (UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT B A START) and you will have all equipment. Only works once per game.
+
+Secret Message
+Hold B + A while turning the power on or resetting to get the following message:
+
+KONAMI ONE
+GRADIUS ONE
+
+Reviewer: Agoaj
+http://consoleclassix.com/nes/gradius.html

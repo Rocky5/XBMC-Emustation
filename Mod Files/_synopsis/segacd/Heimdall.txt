@@ -1,0 +1,37 @@
+Heimdall
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Undefined
+Release Year: 1994
+Developer: Core Design Ltd.
+Publisher: JVC Digital Studios
+_________________________
+One of the more obscure releases for the Sega CD, although I suppose you can argue just about all of them were obscure, was a port of a computer game called Heimdall. Now, before moving on to the game itself, a little history lesson is in order. Heimdall is a game based off of Norse myths, or for those who don't know, the people that the Vikings came from. Heimdall happens to be the name of a Guardian of the bridge leading from Earth to the world of the gods. Now that that's all clear I'll move on to the game itself.
+
+Heimdall was rather obscure, and though it pains me to say it, there were several good reasons for that. To start with, the plot isn't exactly what you would hope to find in an RPG/puzzle/adventure hybrid. Loki, the ambiguous God of Mischief, has stolen three weapons of the Gods and scattered them amongst the three worlds; Asgard, the world of the gods, Midgard, the world of humans, and Jotenhiem, the world of the giants. This hails the start of the age of Ragnarok, the age of continuous warfare, amongst other things, and it's up to you to retrieve the items. Sounds simple enough eh? Well it is. The plot does advance, but in rather minimal ways to the point of being, "retrieve Thor's hammer and go here. Listen to the rare piece of dialogue, try this island and get more items. Repeat process to the end of the game." As you can see, the story leaves something to be desired. On the other hand, I was always a huge fan of Norse myths and the plot holds a soft spot in my heart solely for that reason.
+
+The game is pretty bad graphically. Almost everything in it is indistinct and grainy. Admittedly, when choosing locations to sail to on the world map, you don't need to be able to tell anything beyond what is an island and what is not, but all the same I would expect a bit higher quality from the game. There are some good points however such as the mini games, specifically the axe-throwing contest. It's large and easy to see and the color is fairly well used. When wandering around on islands, the detail is clear enough to be satisfying, but it's still somewhat lacking. Though I generally don't care about graphics, even I take notice of ones that are so mediocre. The greatest fault though, is the text. In most instances it is very hard to read. The words are a pale color and fancy font, against a solid wall of dull black that was almost dark gray. That is a prime example of sloppy programming. The battle scenes generally have better detail however and that, at least, is something to be thankful for.
+
+Overall though, the graphic quality is some of the worst that I've seen in a Sega CD game.
+
+The music is very difficult to bring to mind. Which makes it one of the few areas of the game that I give a lot of credit to. Usually, remembering the music to a game means that it was either good or bad. When you don't remember it, it was bad but that's not especially so here. From what little there is worth recalling, it's rather dull. The game seemed to be based more-so on sound effects than on music and there at least, it did a decent job. The greatest problem with the sound effects is that they're boring, but thankfully they don't grate on your nerves.
+
+The control is another part of the game that is poorly implemented. To start with, this is not a game for people who want to have instant fun, as it will force you to read the manual. Though that's usually not a problem for most people, seeing that most (myself included) always read the manual to a new game before playing it, or at least they ask the friend that they're borrowing it from what the controls are. Heimdall has rather confusing controls. First of all, in the quest part of the game the whole thing is menu based with icons. This may have worked in the original Amiga release, but it doesn't work nearly as well with the Genesis stock pad. Apparently the days of simple, easy to understand icons, like in Shining Force, is gone. Instead, we have indistinct pictures that we'll have to guess on. I honestly couldn't tell what most were supposed to be and had to use the manual to get past my first couple of hours. Then there's the fact that Heimdall is played from an isometric viewpoint.
+
+Now I shall be frank, I do not like isometric viewpoints. To me they make games and control awkward. There are titles that do a good enough job that I can get through them with little trouble. Landstalker is a supreme example of this. Though Heimdall does a decent job of it, for those who find it difficult to get into, dodging traps on the first couple of islands probably won't happen, and you can only stomach so many "game overs" in a night.
+
+Gameplay is a difficult area to score, as it's rather mixed. In order to traverse the dangers of the road you're going to need some military support, and a group of Vikings to guide along your quest. Though it's not clear how you gain this support, you do have a certain amount of control over their abilities when you play the three different mini games. How well you do in them determines what type of statistics your group will have. Pretty cool huh? The mini games do the job well enough, the first one being the axe-throwing contest, which is fun, if occasionally frustrating. You've been drinking, so your aim is none too steady, and as a result you do have to work to lose the axe at the point that you want it. Simplistic, but strangely amusing.
+
+The second of these mini games is pig wrestling. Yes, you heard me. You wrestle a pig on a field of slippery mud. This one is ridiculously easy. All you have to do is run up to the pig, press the tackle button, and nine times out of ten you'll be guaranteed success.
+
+The last of one involves you running to the end of a boat while dodging enemy swords. The problem is that the dodging is practically non-existent and your character's running and jumping is stiff and awkward. The game doesn't get a whole lot better once you've really started either. When you're walking around dodging traps and solving puzzles on isometric islands things aren't too bad. In fact, one can really start enjoying things, although the controls remain a bit awkward. Unfortunately your sense of enjoyment will deteriorate as soon as you engage in battle, as you will almost certainly lose most of your health before you figure out the system. Furthermore, most battles consist purely of tapping a single button as fast as you can. Though the gameplay offers some promise in concept, it ultimately falls flat on its face.
+
+In the end, I think that Heimdall is a game of wasted potential. Despite the lousy graphics and stiff gameplay, if the controls were less horrendous then the game might be tolerable and even amusing. The creators should have worked on that and thrown in a great big whopping story based on the mythology, and then it would be a game worth playing. Unfortunately it's got boring sound, stiff gameplay, lousy graphics, and generally terrible control. Despite all of this, I retain a soft spot for Heimdall, perhaps from growing up with the Norse myths. Play this game only if you have a strong stomach for wasted potential and poor ports. 
+
+Reviewer Score: 4.0   |   Avg. Reader Score: 5.5
+
+Reviewer: Zack Young
+http://www.sega-16.com/review_page.php?id=1107&amp;title=Heimdall

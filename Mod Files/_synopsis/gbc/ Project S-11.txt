@@ -1,0 +1,14 @@
+Project S-11
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Shooter
+Gametype: Licensed
+Release Year: 2000
+Developer: Paragon 5
+Publisher: SunSoft
+_________________________
+Project S-11 is a Shoot-'Em-Up game, developed by Paragon 5 and published by SunSoft, which was released in 2000.
+
+http://www.gamefaqs.com/portable/gbcolor/home/371312.html

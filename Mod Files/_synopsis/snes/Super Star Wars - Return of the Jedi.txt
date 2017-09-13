@@ -1,0 +1,137 @@
+Super Star Wars: Return of the Jedi
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1994
+Developer: Sculptured Software
+Publisher: Lucasarts
+Players: 1
+_________________________
+A long time ago in a galaxy far, far away...
+
+Episode VI
+
+Return of the Jedi
+
+Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.
+
+Little does Luke know that the GALACTIC EMPIRE has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star.
+
+When completed, this ultimate weapon will spell certain doom for the small band of rebels struggling to restore freedom to the galaxy....
+
+~ From the actual game.
+
+You've watched the movie, now play the game! Take control of the main characters as you speed to Tatooine to rescue Han, travel to Endor and face Darth Vader in the new Death Star. Like the prequels, this isn't going to be easy! Use passwords to actually complete the game.
+
+Directions:
+
+The final part of the three-part Super Star Wars trilogy is bigger and badder than the first two. Now you also take control of Leia and those furry Wickets. More land battles, more space battles.
+
+Controls:
+
+A Button - Weapon Select (Luke)
+B Button - Jump
+X Button - Special
+Y Button - Fire
+L Button - Slight Screen Scroll
+R Button - Slight Screen Scroll
+Start Button - Pause
+Select Button - Force Select (Luke)
+
+Tips:
+
+Code
+
+At main menu hold L + R on controller 2 and press A, A, B, B, X, X, Y, Y, A, B, X, Y, A, B, X, Y on controller 1. Press
+L + R on controller 2.
+Debug Mode
+
+At main menu hold L + R on controller 2 and press A, A, B, B, X, X, Y, Y, A, B, X, Y, A, B, X, Y on controller 1. Press
+B + Start on controller 1. 
+Finish Level
+
+On the main menu, press B, X, B, X, B, X, B, B, B, Y 
+Infinite Thermal Detonators
+
+During any side-scrolling level, hold A + B + X + Y and press Select 
+Invincibility and Display Coordinates
+
+On the main menu appears, press Y, Y, Y, Y. When you start a game, use L/R and the control pad to manipulate
+the logo and text. 
+Play with Star Wars Logo/Intro Text
+
+At the Title Screen, press A, B, A, Y, A, X. 
+Seven Continues (Instead of three)
+
+At any regular sidescroll stage, hold down Down + X+Y + A+B at the same time.. 
+Sound Test
+
+At the title screen, press A, B, A, B, A, B, A, B 
+View Credits
+
+Passwords:
+LBRHFR Attack On Sail Barge (BRAVE)
+WDSMNNB Emperor's Chamber (Brave)
+WDSMNN Emperor's Chamber (BRAVE)
+HLQMVL Emperor's Chamber (EASY)
+PPNNZY Emperor's Chamber (JEDI)
+GRMJYX Endor (BRAVE)
+QDQGKH Endor (EASY)
+MFWHQM Endor (JEDI)
+TLVHFT Ewok Village 1 (BRAVE)
+QYXYHB Ewok Village 1 (EASY)
+XNHPSF Ewok Village 1 (JEDI)
+NVBJJH Ewok Village 2 (BRAVE)
+LFWLTQ Ewok Village 2 (EASY)
+KQMLXP Ewok Village 2 (JEDI)
+BGSWLD Final Stage (EASY)
+ZZSTXZ Final Stage (EASY)
+TXQLTM Final Stage (JEDI)
+VKCDFD Inside Barge (BRAVE)
+VKCDFD Inside Barge (EASY)
+XXVPBG Inside Barge (JEDI)
+KXVZZD Inside Death Star (BRAVE)
+BPFFZQ Inside Death Star (EASY)
+DSFYGD Inside Death Star (JEDI)
+GPTDZC Inside Sail Barge (BRAVE)
+JVPLHP Jabba's Hall(BRAVE)
+ZJLMRJ Jabba's Hall(EASY)
+YQYHJN Jabba's Hall(JEDI)
+VDLBGG Jabba's Palace(BRAVE)
+LZLKJF Jabba's Palace(EASY)
+ZPNKKZ Jabba's Palace(JEDI)
+ZKQHQD Millenium Falcon I (BRAVE)
+CPMRZY Millenium Falcon I (EASY)
+CPMRZV Millennium Falcon 1 (EASY)
+VCYNNP Millennium Falcon 1 (JEDI)
+BWHPHZ Millennium Falcon 2 (BRAVE)
+RMNVLC Millennium Falcon 2 (EASY)
+NJHPHL Millennium Falcon 2 (JEDI)
+CDWLTY Power Generator (EASY)
+BPSDVS. Power Generator (JEDI)
+MKYXVN Rancor Pit (BRAVE)
+VTYMZX Rancor Pit (EASY)
+BZGBJX Rancor Pit (JEDI)
+LBRHRF Sail Barge (BRAVE)
+QZNFPP Sail Barge (EASY)
+MSDZZR Sail Barge (JEDI)
+WCBMKS Shield Generator (BRAVE)
+WCBMKS Shield Generator (Easy)
+DDDQYZ Speeder Bike (BRAVE)
+ZCTKFC Speeder Bike (EASY)
+CQQBKP Speeder Bike (JEDI)
+BGFSMH Tattoine (BRAVE)
+RLGQMN Tattoine (EASY)
+RRSBTS Tattoine (JEDI)
+MKZYDP Tower (BRAVE)
+RVKFKG Tower (EASY)
+BZCBCB Tower (JEDI)
+KHWKCB Tower Entrance-Vader (BRAVE)
+VQXDQJ Tower Entrance-Vader (EASY)
+VGKSNJ Tower Entrance-Vader (JEDI)
+
+Reviewer: Nestea
+http://www.consoleclassix.com/snes/super_star_wars_return_jedi.html

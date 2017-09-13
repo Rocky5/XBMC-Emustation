@@ -1,0 +1,30 @@
+Super Soccer Champ
+Alternative title: Euro Football Champ
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Soccer
+Gametype: Licensed
+Release Year: 1992
+Developer: Taito Soccer
+Publisher: Taito Soccer
+Players: 1 or 2 CO-OP, VS
+_________________________
+The player must first choose one of eight national football teams, followed by a star player from a choice of four available for each team. In the game a win is needed to progress to the next game. A draw will end as a 'game over', with no option for penalties, but a chance to continue by restarting the game in which a win was not achieved. Each opposition team is chosen according to a tier strategy, with the player's team removed:
+
+1. Spain and France.
+2. Netherlands and Brazil.
+3. England and Italy.
+4. Argentina and Germany.
+
+Thus, playing with Germany, the first two games will be Spain or France in some order, the second two games will be Netherlands in Brazil in some order, the third two games will be England and Italy in some order, and the seventh game will be Argentina. The game is completed when all seven other teams have been beaten. The level of difficulty increases the further you progress. In addition, the game notices when individual team players score a hat trick. Scoring hat tricks has the effect of increasing the difficulty as well.
+
+The game gained some notoriety for giving you the ability to use violence (including punches, flying kicks and shirt pulling). You could get away with this without giving away a free kick as long as the referee was either far enough or knocked onto the floor. The referee punishes every foul with a yellow card. Red cards occur at the third, seventh, and eleventh fouls, although every so often the game appears to miscount. No fourth red card is given by the referee. Besides the rough play, the game introduced the super shot, which occurs with 30 seconds remaining or less and when the score is tied or the player is losing by 1 goal. The star player chosen kicks a shot that pushes the goalkeeper into the stands.
+
+Tips:
+
+Ace Striker Team
+At the title screen press Up, X, Left, Y, Right, A, Down, B, Left, Up, Right, Down, Select, and Start.
+
+http://en.wikipedia.org/wiki/Football_Champ

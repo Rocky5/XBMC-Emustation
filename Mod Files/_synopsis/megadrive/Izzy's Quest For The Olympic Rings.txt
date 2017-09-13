@@ -1,0 +1,15 @@
+Izzy's Quest For The Olympic Rings
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Developer: Alexandria
+Publisher: U.S. Gold
+Players: 1
+_________________________
+Izzy's Quest for the Olympic Rings is a platform game developed by Alexandria and published by U.S. Gold for the SNES and Sega Mega Drive. It features Izzy, the mascot of the 1996 Summer Olympics, hosted in Atlanta, Georgia, USA.
+
+Izzy has to collect the five olympic rings, which have been captured by various enemies across the world.

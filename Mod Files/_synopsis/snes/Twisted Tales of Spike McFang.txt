@@ -1,0 +1,32 @@
+Twisted Tales of Spike McFang, The
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1994
+Developer: Red Entertainment
+Publisher: Bullet Proof Software
+Players: 1
+_________________________
+The game is the sequel of a TurboGrafx-16 game titled Makai Prince Dorabochan.
+
+The game follows the adventures of a young vampire, the title character Spike McFang, who is set to battle with the evil zombie general Von Hessler, who attempts to invade his parents' and his friend Camelia's kingdoms. The game plays from a top-down perspective; the player encounters several enemies in the game and by defeating them, can gain experience points and increase his level. Spike's main weapons are his cape, that attacks in a short range (though Spike can extend its range at the risk of dizzying himself for a short time) and his hat, which can be thrown like a boomerang. He is also able to utilize magical cards with a wide variety of special effects, including, but not limited to:
+
+ - Invisibility
+ - Summoning angels and bats
+ - Turning all foes into small, furry animals
+ - Grabbing a balloon and floating to safety.
+ - Elemental Attacks
+ - Powered up parter
+ - Recovering Health
+
+The American release was edited to be more family friendly, replacing Spike's penchant for eating creatures' hearts to regain health with a hunger for tomatoes.
+
+Tips:
+
+Play As Rudy
+Go to the title screen and press Down, B, Left, B, Up, Y, Right, Y. If the trick worked, you'll hear a chime.  Now when you beat Felina, Rudy comes to your rescue. As you return to town, you can control him with Controller Two.
+
+http://en.wikipedia.org/wiki/The_Twisted_Tales_of_Spike_McFang

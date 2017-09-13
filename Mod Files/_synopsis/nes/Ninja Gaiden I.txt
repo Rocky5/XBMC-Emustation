@@ -1,0 +1,42 @@
+Ninja Gaiden
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1989
+Developer: Tecmo
+Players: 1
+_________________________
+
+The wind howls as the two "Dueling" Ninjas glare at each other in the moonlight. Though these men seem like little more than shadows in the air, the moonlight reveals just for an instant, a glint of light that proves to be the end of the contest. Ken, head of the Hayabusa clan which has for generations been the guardian of the Dragon sword, is defeated.
+
+Ken's son Ryu, after learning of his father's defeat, finds a letter. In it Ryu is told that if his father does not return, he must take the secret Dragon sword and go to America. Ryu senses danger awaiting him in America. What will be the fate of Ninja Ryu!?
+
+--From the NES Ninja Gaiden instruction manual.
+
+Overview:
+
+Ninja Gaiden is the first installment in a long and illustrious series. This game was super-popular in the arcade, and this is a pretty nice port. The graphics aren't as good as they were in the arcade, but the game-play is about the same. Ninja Gaiden was one of those games that would sell a bunch of copies just because it had the word 'ninja' in the title. It was still a great game, though. Cross classic side-scrolling platform with cool ninja magic and abilities, and you've got yourself a fun game. If you haven't played Ninja Gaiden, give it a try. 
+
+Directions:
+
+Everybody is Kung Fu fighting! Use your ninja skills to clear the levels. Ryu can grab onto and jump from walls, so if you are falling there is still hope!
+
+Slash open objects to get power-ups, which you can use with Up-B. 
+
+Controls:
+
+A Button: Jump
+B Button: Attack
+Start Button: Pause
+Up+B: Use Power
+
+Hints:
+
+Sound Test
+During the 'Tecmo Presents 1989' screen, hold Left, Down, Select, A, B and press Start. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/ninja_gaiden.html

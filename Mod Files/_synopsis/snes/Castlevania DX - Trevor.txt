@@ -1,0 +1,61 @@
+Castlevania: Dracula X [Trevor]
+Original title: Castlevania: Dracula X
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2003
+Players: 1
+Hacked by: Thaddeus
+Version: 1.2
+_________________________
+This hack replaces Richter with the Trevor Sprite from Castlevania : SOTN. Alot of people have been looking to play as him in SOTN, but since that will never happen this is the next best thing. This hack also decensors the blood and gives Trevor his Bone Boomerang Subweapon.
+
+Tips:
+
+Last stage with best ending
+At the password screen, simply change the bottom right fire to an axe. Last stage with best ending
+
+Stage Passwords:
+
+Blank, Holy Water, Axe Axe, Axe, Axe Axe, Holy Water, Holy Water 
+2
+
+Holy Water, Blank, Blank Axe, Axe, Blank Blank, Holy Water, Holy Water 
+3
+
+Axe, Axe, Axe Blank, Holy Water, Holy Water Axe, Heart, Heart 
+4
+
+Holy Water, Axe, Holy Water, Axe, Blank, Heart, Axe, Blank, Axe 
+4 (Alt.)
+
+Holy Water, Heart, Fire Fire, Holy Water, Axe, Holy Water, Heart, Heart 
+5
+
+Axe, Heart, Axe, Axe, Blank, Axe, Heart, Heart, Blank  
+5 (Alt.)
+
+Holy Water, Axe, Axe Holy Water, Blank, Holy Water Axe, Holy Water, Blank 
+6
+
+Holy Water, Holy Water, Holy Water Axe, Blank, Heart, Blank, Blank, Axe 
+7
+
+Heart, Axe, Holy Water Fire, Fire, Fire Axe, Holy Water, Fire 
+Final
+
+Extra 1-ups
+To get an extra 1-up, beat each stage without getting hit. If you come out unscathed (no, you cannot get hit
+and eat a frankfurter), you will receive a 1-up after every stage you complete.
+
+The Key's Secret
+After collecting the Key item which goes into your sub-weapon box in Stage 3, if you have 15 hearts or
+more, use the Item Crash button. While to most people it seems to do nothing more than make a question mark
+appear over your head, if the key itself makes contact with an enemy or boss during this brief
+animation, they'll sustain heavy damage. The best part of this secret is while you must have 15 hearts or more
+to enable the item crash, actually using it consumes ZERO hearts allowing the attack to be used continuously! It also has the highest attack power killing most enemies in a single hit even if used regularly as well (Up + Attack) and once again consumes no hearts however to balance it's attack power, it's also the closest range 'weapon' in the game needing to be used immediately in front of the enemy.  
+
+http://romhacking.net/hacks/184/

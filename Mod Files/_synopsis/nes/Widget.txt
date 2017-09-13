@@ -1,0 +1,42 @@
+Widget
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Zodiac Entertainment
+Publisher: Atlus
+Players: 1
+_________________________
+
+Widget must stop his evil twin from destroying the planet Earth. Widget was sent to Earth and uses his changing powers to fight enemies.
+
+Overview:
+
+Widget is a platformer, much like Mega Man where you play as an alien who shoots pellets out of a gun. Also like Mega Man, the player can choose which level to play first, after beating the first level, and gains a new weapon (in this case new creatures he can change into) each time he beats a boss.
+
+It is based on the cartoon series Widget the World Watcher, staring a purple alien named Widget who has the unique ability to transform into other versions of himself, including a golem, a cannon, a bird and a speedy mouse. It also had a sequel by the name of Super Widget on the Super NES.
+
+Controls:
+
+D-Pad = Move
+A = Jump
+B = Shoot
+Start = Pause
+Select = Transformation Menu
+
+Hints:
+
+Password Effect
+723736 1_Mouse Widget
+142262 2_Bird-Man Widget
+373674 3_Rock-Man Widget
+392562 4_Dolphin Widget
+596900 Final Planet
+323174 Super Password
+
+Reviewer: Da Hui
+http://www.gamefaqs.com/console/nes/code/587769.html
+http://en.wikipedia.org/wiki/Widget_(video_game)

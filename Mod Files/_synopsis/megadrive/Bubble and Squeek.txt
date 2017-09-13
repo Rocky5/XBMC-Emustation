@@ -1,0 +1,13 @@
+Bubble and Squeek
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1994
+Developer: Fox Williams
+Publisher: SunSoft
+Players: 1
+_________________________
+Bubble and Squeak is a platform-puzzle game developed by Fox Williams and published by Audiogenic Software. Initially released for the Commodore Amiga, it was ported to the Sega Mega Drive in 1994 by Sunsoft. It also saw a release on the short-lived Amiga CD32 console.

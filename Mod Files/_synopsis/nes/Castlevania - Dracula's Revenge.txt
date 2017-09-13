@@ -1,0 +1,13 @@
+Castlevania: Dracula's Revenge
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+_________________________
+A Castlevania hack that alters the block placement and backgrounds of the stages It is characterized by having bridges over many areas, making the game easier.
+
+http://castlevania.wikia.com/wiki/Castlevania:_Dracula%27s_Revenge

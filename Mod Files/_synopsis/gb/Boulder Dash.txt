@@ -1,0 +1,14 @@
+Boulder Dash
+Platform: Nintendo Game Boy
+Region: Europe
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: Beam Software
+Publisher: Nintendo
+_________________________
+You're Rockford and have to dig through monster infested caves in search of diamonds. In each level you must collect a certain number of these diamonds, in order to open a portal to the next stage. Enemies can be squashed by falling boulders, which are released when the ground below them is removed or they are pushed onto empty ground, but be careful because these can also squash you. In later levels, difficulty is increased by many puzzle elements and shorter time limits.
+
+http://www.mobygames.com/game/gameboy/boulder-dash

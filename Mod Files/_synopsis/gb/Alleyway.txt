@@ -1,0 +1,16 @@
+Alleyway
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Breakout
+Gametype: Licensed
+Release Year: 1989
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+A basic breakout clone. As mario you must control a "podship" and deflect the ball towards the mass of blocks. Hitting a block will either weaken or destroy it. Once all the blocks are destroyed, the level is complete.
+
+Alleyway uses a small number of repeating tables along with twists such as horizontal rotation, periodical vertical drop of the entire mass of blocks etc. 
+
+http://www.mobygames.com/game/gameboy/alleyway

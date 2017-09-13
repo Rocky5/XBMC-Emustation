@@ -1,0 +1,41 @@
+Power Blade
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1991
+Developer: Taito
+Players: 1
+_________________________
+
+"In 2191, Earth's blissful existence was governed by a powerful master computer. Then one day, something went wrong ith the master control program! Chaos ensued as people paniced! Nova was summoned. - Nova, you must contact six agents, that are hiding in the six sectors protecting the master computer. Your contacts are:
+John Gordon, Robert Williams, David Strader, Lynda Baker, Martin Douglas, Daniel Leeds.
+
+Each contact will give you an ID card used to access the security room located in a different sector. Defeat the guards within the security rooms and grap the secret tape units. After you obtain all the six security units, you will gain access to the control center. At the control center, you must defeat the guards to destroy the computer and restore the society.
+
+Be careful Nova....and watch your backside!" 
+
+Directions:
+
+In each stage, you must get a contact, which is necessary to complete the level. Why, you ask? Without it, you can't fight the boss. Then you must find the portal. You will start with a lone boomerang, but as you progress, you can collect items that will increase attack length and number of boomerangs.
+
+Controls:
+
+A Button: Jump
+B Button: Throw boomerang
+Start Button: Pause/Unpause, see item menu
+Select Button: Use special weapon
+
+Hints:
+
+Passwords and their stage effects
+D 2 B B 3 9 4 0 = Sector 3
+9 6 B 3 D 1 2 5 = Sector 4
+B 4 D F 5 7 2 D = Sector 5
+5 J 5 2 9 F 0 0 = Sector 6
+7 7 K D 1 0 G J = Sector 7 
+
+Reviewer: LinkOfHyrule
+http://consoleclassix.com/nes/power_blade.html

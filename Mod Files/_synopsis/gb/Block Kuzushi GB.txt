@@ -1,0 +1,22 @@
+Block Kuzushi GB
+Original title: Block Destruction GB
+Platform: Nintendo Game Boy
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Translated
+Release Year: 2004
+Translated by: PentarouZero
+Version: 1.0
+_________________________
+It's?a Breakout clone! Yaaaaaaay. It seems like a fairly good one, though. There's the expected Arkanoid business where powerups fall from special blocks and certain blocks take several hits, and you get a lot of other innovations like blocks that fade in and out of existence, blocks that regenerate after a few seconds, exploding blocks, blocks that shoot back at you, boss fights, and so on. Multiball is insane. The music is pretty wretched and repetitious, but what can you do.
+
+The game also, for once in the genre, attaches a goofy little plot, just in case you needed a justification to smash stuff with haphazardly flying projectiles. You are Jon Takahashi, a bounty hunter who "travels all over the universe collecting prize money with his machine, the Reflector." One day a floating robot head named Kuwar enlists him to find the rest of his robot body, which was snatched by evil-doers who get off on dismantling robots, I guess. Which really isn't that appalling, but maybe they're into genocide too, I dunno. Anyway, Jon's getting "10,000,000 paohs" out of it, so he's probably not too concerned.
+
+Translation Description:
+
+The translation is complete! Pentarou's technical work looks very slick, and the English text doesn't look constrained at all. There are the occasional odd sentences and punctuation issues, but Al LaPrade's translation fits nicely with the oddball tone of the story.
+
+Reviewer: Shih Tzu
+http://www.romhacking.net/trans/819/

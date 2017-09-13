@@ -1,0 +1,13 @@
+Batman
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1991
+Developer: SunSoft
+Publisher: SunSoft
+Players: 1
+_________________________
+Batman, sometimes known as Batman: The Video Game is a sidescrolling action game for the Sega Mega Drive developed by Sunsoft. This version is unique to the Mega Drive, and is entirely different to the other Batman games made by Sunsoft for the Nintendo Entertainment System, Game Boy and TurboGrafx-16. All four games are based on the 1989 film of the same name.

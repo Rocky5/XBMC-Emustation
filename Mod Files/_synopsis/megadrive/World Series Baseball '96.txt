@@ -1,0 +1,22 @@
+World Series Baseball '96
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Baseball
+Gametype: Licensed
+Release Year: 1995
+Developer: Bluesky Software
+Publisher: SEGA
+Players: 1 or 2 VS
+_________________________
+The most revered baseball game in Genesis history returns with more realistic action than ever before. Featuring updated rosters and stats (all current through the end of the 1995 season); WORLD SERIES BASEBALL '96 presents gives you access to the actual Major League schedule for the 1996 season. Choose from five different season lengths, or just brush up your skills in an Exhibition game. The game showcases all 28 current Major League teams and accurate stadium graphics, and more than 700 real MLB players are along for the ride. If you're looking for a quick fix, try the all-new Home Run Derby! Battery backup saves all progress, and you can play alone or against a friend.
+
+Hints:
+
+World Series Baseball '96 Easy Out - First walk the batter that is at the plate. then when the batter is walking to first base throw the ball to the first baseman and he will be called out if you do it before the runner reaches first 
+
+Debug mode and Bluesky team - First you have to access the debug screen. To do this wait for the main title screen to start to fade and hit A+B+C+Start. I just hold A, B, and C until it starts tofade and hit start. Once you see the Bluesky screen hit Start twice. Set the options from top to bottom 3, 1, 3. Next, hold A+B+C+Start until the screen fades out and you get the Bluesky screen again. Hit Start twice. There will now be a Bluesky option. Set it to on, and pictures of the games programmers appear on the screen. Now just hit start to exit and you'll find the team in exhibition game mode. Too bad it doesn't let you use the team in season mode
+
+http://au.cheats.ign.com/objects/013/013650.html
+http://www.gamefaqs.com/console/genesis/code/586614.html

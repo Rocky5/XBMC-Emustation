@@ -1,0 +1,45 @@
+Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1983
+Developer: Nintendo R&amp;D1
+Publisher: Nintendo
+Players: 1 or 2 CO-OP
+_________________________
+
+You can play alone, or team up with a friend as Mario and Luigi tackle this underground adventure together. There are plenty of cagey critters to conquer -- turtles, crabs and fireflies, to mention a few. You'll progress through endless levels of challenge collecting gold coins and building your score as you go.
+
+--From the NES Mario Brothers instruction manual.
+
+Overview:
+Selling over 1.6 million copies, this arcade game port was, to say the least, very popular. The game was a lot more successfull here in the U.S. than it was in Japan. It looked just as good as it's arcade counterpart, graphically, and the sounds were well ported also. The controls were easy to learn besause there were only two functions, move and jump. The story is kinda silly with it being set in the sewers of New York. This arcade mega classic offers a lot of fun and a ton of replayability.
+
+Directions:
+
+Mario Bros. features two plumbers, Mario and Luigi, having to investigate the sewers of New York after strange creatures have been appearing down there.
+
+The objective of the game is to defeat all of the enemies in each phase.
+
+Both sides of every phase feature a mechanism that allows the player to go off-screen to the left and appear on the right, and vice versa.
+
+Like many other arcade games at the time, Mario Bros. features a scoring system. Points may be earned in a number of ways, be it by collecting coins or defeating enemies. The player may get points by defeating multiple enemies one after the other, and the player may participate in a bonus round that gives him or her an opportunity to gather more points. Enemies are defeated by hitting them from below the platform they are on to flip them onto their back, and then to them and kick them, ultimately defeating them. If the player allows the enemy to get up, the enemy will be angry, and have increased speed. Each phase has a certain number of enemies, with a more powerful enemy indicating the final enemy in that phase. Enemies come in variantsfor example, Sidesteppers, a type of crab, are usually red, but when they recover from being flipped or if they're the final enemy, they will turn blue and become faster than before.
+
+Each enemy has their own mechanicsthe Shellcreeper, a type of turtle, can be made vulnerable by hitting them from below once, the Fighter Fly, a type of fly, jumps into the air every once in a while and must be hit from below when they are not in the air, and the Sidesteppers must be hit twice from below in that fashion to become vulnerable.[18] Another enemy is called a Freezie, which has the ability to melt down and freeze the platform it is on, making it more difficult for the player to control Mario or Luigi. 
+
+Controls:
+
+A Button: Jump
+Start Button: Pause, Unpause
+Select Button: Choose between 1 or 2-Player Game
+
+Hints:
+
+POWs
+Be sure to save the POWs for when you really need them, you only get three at a time. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/mario_brothers.html

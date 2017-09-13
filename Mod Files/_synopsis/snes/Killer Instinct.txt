@@ -1,0 +1,100 @@
+Killer Instinct
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1995
+Developer: Rare
+Publisher: Nintendo
+Players: 1 or 2 VS
+_________________________
+Fight and defeat your opponent by kicking, punching, using combos and special moves. Defeat you opponent, and move on to the next match, until you defeat them all!
+
+Directions:
+
+Try to defeat your opponent before he defeats you. Try to empty his life bar by kicking, punching, and using special moves. Emptying the life bar will result in victory.
+
+Each character has different special moves, each having a different button order. Find out how to do a special move, and use it to bring down your opponent's life bar.
+
+Along with using special moves, use combos (repeated hits) to get bonus points for a higher score. Using combos will also help you win faster. 
+
+Controls:
+
+A Button - Fierce Kick
+B Button - Medium Kick
+X Button - Fierce Punch
+Y Button - Medium Punch
+L Button - Weak Punch
+R Button - Weak Kick
+Start Button - Pause game
+Select Button - N/A
+
+Hints:
+
+Easy Combo Breakers
+During the vs. screen, press Down and Start at the same time. 
+
+Tips:
+
+Easy Combo Breakers
+During the vs. screen, press Down and Start at the same time.
+
+No Combo Breaker
+Hold left then press b, a, b, a on the vs. screen 
+
+Fast Speed
+Hold Right + L + X + Y on the Vs. Screen (Both controllers if 2-Players)
+
+Faster Speed
+Hold Right + R + A + B on the Vs. Screen (Both controllers if 2-Players)
+
+Fastest Speed
+Hold Left + L + X + Y on the Vs. Screen (Both controllers if 2-Players)
+
+Slow Speed
+Hold Left + R + A + B on the Vs. Screen (Both controllers if 2-Players)
+
+Get Alternate Costumes
+When selecting a character press: up or down.
+
+Play as Eyedol
+Select Cinder. At the VS. screen, hold right and press L, R, X, B, Y, A.
+
+Select Random Characters
+When you are selecting characters hold Up and press Start.
+
+Stage Select/Music Select
+On the character select screen, Hold U or D with the specific buttons as shown below. The button you press will also choose your character, so be sure the fighter you want is highlighted when you do the code.  In two player mode, The first person to pick their character gets to choose the stage. The second player gets to pick the music according to the same button combinations used for the stage select.
+D + Y Bloody Arena
+D + L Canyon Bridge
+U + R Castle Roof
+U + B City Roof
+D + R City Street
+U + A Desert Roof
+D + A Factory
+D + B Fireplace
+U + X Ice Sculpture
+U + L Ice Temple
+D + X Lava Pit
+U + Y Skull Room
+U + Start Random level
+D + B simultaneously on controllers one and two will take you to a Secret Sky level
+
+Come back to life
+In VS. mode, when you run out of life and your opponent has the opportunity to finish you off, start hitting
+random buttons like crazy. There is no specific sequence. If you manage to hit the buttons fast enough before your opponent hits you again, you will come back to life with only a sliver of health, but your attack power will be enhanced greatly. If you get hit again, it's over.
+
+Practice Against Eyedol
+Fight your way up to Eyedol, then let him kill you. At the game-over screen, let the timer run down and then
+go to 'Practice', pick your character, then you'll be practicing against Eyedol.
+
+Special ending
+Complete the game under the hardest difficulty level without using a continue any continues.
+
+Select practice mode opponent
+Use controller two to enter practice mode. Select a character and press Start(2) to return to the title screen. Use controller one to enter practice mode to fight the character that was chosen using controller two.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/snes/killer_instinct.html

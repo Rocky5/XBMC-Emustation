@@ -1,0 +1,15 @@
+Gargoyles
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Developer: Buena Vista Interactive
+Publisher: SEGA
+Players: 1
+_________________________
+Gargoyles is an action game for the Sega Mega Drive made in 1995 by Buena Vista Interactive made to tie in with the Gargoyles television series created by Buena Vista for Disney (though the Disney name is nowhere to be found on the actual game).
+
+The game uses the MC68000's tas (test and set) opcode to do condition-related things (exactly what is unknown; TODO). tas runs in a different way from other CPUs, and for some unknown reason the Genesis is wired differently. The designers of the Genesis 3 overlooked this, and for some unknown reason, the game will not run on this model, making it the only game not to run on the Genesis 3 due to something other than additional hardware not being supported.

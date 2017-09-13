@@ -1,0 +1,26 @@
+Michael Jordan: Chaos in the Windy City
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Electronic Arts
+Publisher: Electronic Arts
+Players: 1
+_________________________
+The game played much like other 2D platformers of its time, collecting keys and defeating enemies with a variety of different techniques. The player controls Michael Jordan on a quest to save the rest of the players for an All-Star charity game, who have all been kidnapped. The player attacks enemies using different basketballs, each with its own ability; for example, the freeze ball can freeze the ground and create a slippery surface, the bomb ball makes a large explosion, and so on. The player must find keys throughout the game to unlock different doors and rescue teammates. Michael can also slam dunk for a secondary attack. This is also used to activate powerup baskets and various checkpoints along the way.
+
+Passwords:
+TJQ33CDQZZD Cells and factory only
+JGL8PKGHWTS Cells and lab only
+3K5BGX0DR9X Cells only
+2SQZ21ZYRHB Cells, Lab, and factory
+TSMMHGBW43D Cells, Lab, Factory with all captives rescued
+MCHLJRDN-23 Most of game complete, 25 lives and super energy
+00000000009 Start game with 24 Lives
+01234567890 Start game with 69 Lives
+99999999999 Start game with 93 Lives
+
+http://en.wikipedia.org/wiki/Michael_Jordan:_Chaos_in_the_Windy_City

@@ -1,0 +1,12 @@
+Sokoban
+Platform: Nintendo Entertainment System
+Region: Original Homebrew
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Homebrew
+Developer: bapple
+_________________________
+Sokoban homebrew game for the NES.
+
+http://www.update.uu.se/~johannes/sokoban/index.htm

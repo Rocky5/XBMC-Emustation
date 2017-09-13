@@ -1,0 +1,18 @@
+Hot Slots
+Platform: The Family Computer Disk System
+Region: Japan (Unlicensed)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1991
+Developer: Hacker International
+Publisher: Panesian
+Players: 1
+_________________________
+
+NOTE: Only works in NestopiaX
+
+Hot Slots is a Casino game, developed by Hacker International, which was released in Asia in 1991.
+
+http://www.gamefaqs.com/console/nes/home/587344.html

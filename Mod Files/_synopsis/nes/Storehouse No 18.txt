@@ -1,0 +1,21 @@
+Storehouse No.18
+Original title: Warehouse No. 18
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Translated
+Release Year: 2008
+Translated by: Gil Galad
+Version: 1.0
+_________________________
+Storehouse No.18 is a Russian Sokoban clone that has many storehouses to play and even an editor to design your own storehouses. Despite the bland looking graphics, a lot of fun can be had from this game.
+
+This game's original GoodNES name is Warehouse No.18, renamed according to the translation. Warehouse and storehouse in Russian being nearly the same, storehouse being more accurate from what I was told by blackhole89 who is from Russia.
+
+All text has been translated in the game, as far as I can tell. Several assembly hacks have been made, most notably in my opinion is the removal of the hack protection scheme that caused the game to hang in reset if you changed a single byte. Most areas that I tried changing before removing the hack protection scheme always seemed to hang the game in reset.
+
+Also the grey screen at the beginning of the game has been limited to a single frame in order to be less noticeable. Many of the windows have been resized, text has been repositioned by assembly hacking. The ROM has also been expanded to 32K PRG. Normally, ROM expansion for mapper 0 16K games to 32K is easy as cake, not so with this game. The text pointers are assembly hard-coded, so that required some basic assembly hacking.
+
+http://www.romhacking.net/trans/1307/

@@ -1,0 +1,15 @@
+Spectre
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Vehicular Combat, 3D
+Gametype: Licensed
+Release Year: 1994
+Developer: Synergistic Software
+Publisher: Cybersoft
+Players: 1
+_________________________
+The goal of the game was to drive the tank around the playfield, collecting ten flags by driving over them, while avoiding obstacles (including rotating windmills) and the shots of computer-generated enemy tanks.
+
+http://en.wikipedia.org/wiki/Spectre_(video_game)

@@ -1,0 +1,39 @@
+War 2410
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1995
+Developer: Advanced Productions
+Publisher: Advanced Productions
+Players: 1
+_________________________
+The year is 2410.  Scientists have developed the perfect soldier through genetic engineering. Three groups of soldiers meant to protect humanity have revolted against their masters. As a result, four factions are fighting it out for control of the Earth. Each side has infantry, tanks, and the air force needed to get the job done. The player is in command of the GDA (Global Defense Alliance) and the primary objective for the game's 20 missions is total annihilation against M.A.R.S. (a group of unsavory superhumans who have turned against their masters), the Orcs, and the Cromes (An Army of Self-Sentient, Self-Aware Combat Robots). Capturing a lab results in the ability to build a super weapon to destroy the other factions.
+
+This war would decide the fate of humanity and set the stage clear for its sequel War 3010: The Revolution.
+
+Tips:
+
+Passwords:
+C L L N S M N Stage 10
+S T V N S M N Stage 11
+D N J R C M S T R Stage 12
+N T H N V R D C C Stage 13
+J N N M R P H Stage 14
+T M M L V Y Stage 15
+J S P H M R N L L Stage 16
+J N N Y S M N Stage 17
+S L J R S M N Stage 18
+P T M M R G N Stage 19
+K M D N N M L V Y Stage 2
+C R T N Y L G H Stage 3
+S H L Y M R Stage 4
+D B R N N M R N L Stage 5
+S L V T R M R N L Stage 6
+N D R N N M R C L Stage 7
+H R V M R C L Stage 8
+D N C M S T R Stage 9
+
+http://en.wikipedia.org/wiki/War_2410

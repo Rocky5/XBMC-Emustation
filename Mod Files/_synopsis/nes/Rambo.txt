@@ -1,0 +1,15 @@
+Rambo
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1988
+Developer: Acclaim
+Players: 1
+_________________________
+
+While the game's cover art predominantly displays Rambo firing heavy ammo, unlike the movies the game has Rambo fightly mostly snakes, spiders, and animals, with little fighting with actual people. Also, Rambo's primary weapon for the majority of the game is a knife.
+
+http://www.nesguide.com/games/rambo/

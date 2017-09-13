@@ -1,0 +1,45 @@
+Rad Racer
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Racing - Cars
+Gametype: Licensed
+Release Year: 1987
+Developer: Square
+Publisher: Nintendo
+Players: 1
+_________________________
+
+As the last traces of color leave the sky you're hanging out by your new wheels, anxious for the race to start. Transamerica - from the West Coast to the East Coast. Okay. It's time. You jump into the driver's seat, feeling the awesome power beneath you. Stepping through the gears, the cars around you fade into tiny specks in the rear view mirror.
+
+Look out! You're on top of a hairpin curve. Whoa. The tires screech and your heart hits your rib cage, but you make it, laughing. There's only a few more of these 'till you reach the plains.
+
+Then it happens. Another curve hits you in the face. It's too fast. You struggle for the shoulder, but the next thing you know you're catapulting through the air - almost weightless - until your body tears up against the seat belt. Then. All is still.
+
+Not a scratch on you. And the protective ceramic overcoating on your car did the trick - no major damage. You let out a scream, turn the car around, and hit it. There's still time. But you've got to be cool. Alert. You're headed straight for the coast and those glorious checkered flags. Defying the odds again.
+
+--From the NES Rad Racer instruction manual.
+
+Overview:
+
+This was probably the first popular racing game on the NES. I always loved the ability to change the music while you are driving. The controls were great. They were easy to learn and very responsive. Rad Racer also had a very unique feature. It had a 3-D mode. If you hit select during gameplay, it would switch into 3-D mode. You needed a pair of red and blue 3-D glasses to see it, but it was pretty cool. Rad Racer was definitly a landmark game, I reccomend you give it a go. 
+
+Directions:
+
+Be the raddest racer you can be and out race the competition. 
+
+Controls:
+
+A Button: Gas
+B Button: Brake
+Start Button: Start/Pause
+Select Button: Select/3-D mode
+
+Hints:
+
+Continue
+After losing a race, hold in A when you hit start, and you will start from the track you lost on. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/rad_racer.html

@@ -1,0 +1,22 @@
+Phantasy Star 2: Kind's Adventure (translation)
+Original title: Phantasy Star II Text Adventure: Kind no Bouken
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2008
+Players: 1
+Translated by: MIJET
+Version: 801213
+_________________________
+Translation Description:
+
+Full English release in typical MIJET fashion. That means, VWF, dual language support by region, and top quality work. No known issues. A patcher program is available on the author's website if you prefer it over the typical IPS patching solution.
+
+Update:
+
+A major overhaul of what some critics are calling "the Blade Runner of very short text adventures."
+
+http://www.romhacking.net/trans/1150/

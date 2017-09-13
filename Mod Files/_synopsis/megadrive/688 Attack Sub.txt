@@ -1,0 +1,13 @@
+688 Attack Sub
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Simulation, Boats
+Gametype: Licensed
+Release Year: 1991
+Developer: Electronic Arts
+Publisher: SEGA
+Players: 1
+_________________________
+688 Attack Sub is a 1991 submarine simulator game developed by Electronic Arts for the Sega Mega Drive and published by Sega exclusively in the US and Europe. It is a port of a MS-DOS game which was also released on Amiga computers.

@@ -1,0 +1,28 @@
+Final Fantasy V Spoof
+Original title: Final Fantasy V
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: Tzepish
+Version: 1.01
+_________________________
+This is a comedy / parody hack of Final Fantasy 5. Unlike most other "spoofs" out there, I have taken every precaution necessary to make sure this spoof doesn't end up filled with lame, juvenile humor.
+
+My four pillars were:
+
+- No crude humor.
+
+- The plot must be better than FF5's.
+
+- The characters must be believable.
+
+- It must be funny.
+
+I hope I have succeeded on all four, but only you can be the judge of that.
+
+http://www.romhacking.net/hacks/493/

@@ -1,0 +1,53 @@
+Final Fantasy II
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1991
+Developer: Square
+Publisher: Square
+Players: 1
+_________________________
+Five Airships speed across the sky. The Red Wings, the air force of the Kingdom of Baron headed by Captain Cecil, are on their way back to Baron after completing a mission in Mysidia.
+
+Cecil reflects back on an event which took place only hours ago. Although it was the King's order, Cecil and his men feel guilty about taking the Crystal from the people of Mysidia. But Cecil reminds them all that they are the proud and mighty Red Wings of Baron.
+
+Still questioning the royal command, Cecil brings the Crystal to the King of Baron. He starts to leave, but decides to ask the King of his intentions.
+
+Accused of disloyalty, Cecil is removed from his post in the Red Wings and is ordered to go hunt the Summoned Monster in the Misty Valley to the northwest of Baron. Kain, the captain of the Dragoons, tries to defend his friend. But he too, is ordered to go with Cecil to fight the monster, and to deliver a package to the Village of Mist.
+
+Cecil apologizes to Kain for involving him. But Kain does not blame him. "The King will return you to the Red Wings after this mission," says Cecil before parting.
+
+--From the SNES Final Fantasy 2 instruction manual.
+
+Overview:
+
+The story of Final Fantasy 2 follows Cecil, a soldier of the Red Wings who gets banished from his kingdom for having the courage to speak out against the questionable actions of his king. Cecil is more the classic hero as opposed to the hip, rabble-rousing brats that Square favours as its Final Fantasy protagonists these days. As the plot unfolds, Cecil matures and evolves from a straightforward military man into a knight with a broader purpose and worldview, just as the game's story becomes more involved and sprawling as well. The cast of supporting characters is small but interesting, and it's a shame that their personalities are compromised at times by awkwardly translated dialogue. The most sympathetic of the companions has to be Kain, a Dragoon knight and friend of Cecil who struggles throughout the game with guilt over his love for Rosa, Cecil's girlfriend, and his betrayal of Cecil while under the mind-control spell of the villain Golbez.
+
+Final Fantasy 2 features upgraded graphics and sound, in a new story with the classic style of the original.
+
+Directions:
+
+Traditional turn-based RPG on a quest to save the world! 
+
+Controls:
+
+A Button - Confirm
+B Button - Cancel
+X Button - Menu
+Y Button - World Map
+L Button - Use with R to run
+R Button - Use with L to run
+Start Button - Pauses Battles
+Select Button - N/A
+
+Hints:
+
+250 of any weapon
+First, find the Avenger sword in the game, you'll need it for the trick. Equip Cecil with arrows in his right hand, and any kind of bow in his left. Get into a battle and make sure that nobody does anything. If a character's turn comes before his, have them parry (press right and the parry option will come up). Once it gets to Cecil's turn, enter the item screen. Grab the arrows he has equipped and bring them down to an empty slot. Without leaving the window, select the Avenger sword and move it up to his BAD hand.
+
+From there, press B to exit the items window and his commands will disappear because the Avenger sword causes the person with it equipped to be berserked. Don't have any other characters do ANYTHING! Just let Cecil beat up all the enemies. After the battle, go to the Equip screen for Cecil. Move the Avenger sword to an empty slot, and then without leaving the screen move the sword you would like to duplicate 250 times into his right hand. De-equip, and re-equip, and you should have a sword with a circle and number next to it in your inventory. This trick must be followed TO THE LETTER. 
+
+http://www.consoleclassix.com/snes/final_fantasy_2.html

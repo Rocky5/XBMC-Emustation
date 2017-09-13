@@ -1,0 +1,70 @@
+Final Fantasy IV: Last Hope
+Original title: Final Fantasy IV
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: TheNattak
+Version: FINAL
+_________________________
+This is a rather large FF6 hack that I have been hard at work on for quite some time.
+
+Some of the obvious changes are as follows?
+
+ - Increase in difficulty
+
+ - Script changes
+
+ - Changed the dialog font
+
+ - Lots of new monsters (from other games)
+
+ - New Espers
+
+ - New portraits for all
+
+ - Guile (Leo sprite) replaces Edgar, Edgar is Leo
+
+ - Changed who equips certain items
+
+ - New bosses
+
+ - Mature dialog (cussing)
+
+ - A few new Relics, and no more Moogle Charm
+
+ - Hold "B" to sprint
+
+ - Renamed most of the items
+
+ - Custom battle scripts
+
+ - High end magic cost more
+
+ - A lot of the major known bugs fixed (Evade Bug, Vanish/Doom Bug, Rippler Bug, along with many other lesser patches.)
+
+ - Changed some character sprites
+
+ - Czar Dragon enabled
+
+ - Custom title screen
+
+ - A lot of various nerfs &amp; buffs
+
+ - Some graphics restored to original uncensored
+
+ - Auto Bow-Gun reduced damage and can miss
+
+ - Bum Rush damage reduced
+
+ - Ultima and Flare damage reduced
+
+ - Tornado changed so its not so useless
+
+Please enjoy!
+
+http://www.romhacking.net/hacks/597/

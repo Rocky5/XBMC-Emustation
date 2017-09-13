@@ -1,0 +1,31 @@
+Duck Tales
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+
+Uncle Scrooge is a world class millionaire and a lover of adventure. His goal this time is to obtain the five lost treasures that were scattered throughout the world. He is off on his adventure with the help of Huey, Dewey, Louie and Webby.
+
+They will travel with him through the jungles of the Amazon, the snow topped peaks of the Himalayas, the haunted house in Transylvania, the subterranean mines of Africa, and to the surface of the Moon. How many of the lost treasures will you be able to find?
+
+Controls:
+
+A Button: Jump
+B Button: Use Cane
+Start Button: Pause
+Select Button: Change Level
+
+Hints:
+
+Bonus Stage;
+- If you have a 7 in the ten thousands place (I.E. 70,000, 170,000, 270,000) and you go back with Launch Pad(the big duck) he will drop you off in a bonus stage. 
+
+Reviewer: Agoaj
+http://www.consoleclassix.com/nes/duck_tales.html

@@ -1,0 +1,14 @@
+Gem Smashers
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2003
+Developer: Frame Studios Interactive
+Publisher: Metro3D
+_________________________
+Gem Smashers is a Puzzle game, developed by Frame Studios Interactive and published by Metro3D, which was released in 2003.
+
+http://www.gamefaqs.com/portable/gbadvance/home/915134.html

@@ -1,0 +1,36 @@
+Pro Quarterback
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1992
+Developer: Tradewest
+Publisher: Tradewest
+Players: 1 or 2 VS; CO-OP
+_________________________
+Pro Quarterback is an arcade-style football game with a view just behind the quarterback, allowing you to see down the field without the use of passing windows. Choose between 26 professional caliber teams and challenge either the computer or a friend on one of six different field surfaces: grass, mud, dirt, snow, rain and artificial turf. Want to team up against the computer? Pro Quarterback also allows for cooperative play with one person playing QB and the other controlling the receiver. After the kickoff, select from seven plays on defense or up to eight plays on offense, which can be flipped to keep your opponent guessing. The game also has instant replay, adjustable quarters (2, 5, 10 or 15 minutes) and game statistics updated during halftime and at the end of the game. Gridiron fans take note: Pro Quarterback does not feature an NFL or NFLPA license to include real teams or players.
+
+Controls:
+
+OFFENSE
+
+D-Pad: Pan camera to sidelines, adjust kick direction, move player.
+D-Pad + B: Dive.
+Start: Pause for time out or instant replay.
+C: Cycle receivers.
+B: Snap, kick, pass, dive, instant replay.
+A: QB becomes runner, time out, break tackle.
+
+DEFENSE
+
+D-Pad: Move player.
+D-Pad + B: Dive.
+Start: Pause for time out or instant replay.
+C: Cycle players before snap, choose closest to ball after snap.
+B: Dive, block, instant replay.
+A: Jump, call time out.
+
+Reviewer: Scott Alan Marriott
+http://www.allgame.com/game.php?id=12601

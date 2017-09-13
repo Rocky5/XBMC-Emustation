@@ -1,0 +1,14 @@
+Mortal Kombat V
+Platform: Sega Genesis / Mega Drive
+Region: China
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Pirate
+Players: 1
+_________________________
+This one is definitely the oddest of them all. Mortal Combat 5 (as it reads on the title screen) is an attempt to re-create the Playstation game Mortal Kombat Mythologies on the Genesis. All sprites in this game have been ripped out of previous Genesis Mortal Kombat games (I assume Ultimate MK 3 was used). You control Sub-Zero and battle through sprite-swapped variations of Kano, Sonya or Liu Kang, running through levels which are visually designed to resemble their Playstation counterparts. The backgrounds constantly repeat themselves, which makes the maze-like design of the stages irritatingly hard! Also, there are a lot of cheap instant-kill deathtraps in this game that increase the insane base difficulty even more (the difficulty settings in the option screen seem like a bad joke). However, this game is strangely compelling, so you keep playing nevertheless even though you know it'll only frustrate you.
+
+In theory, the whole thing is rather short and incomplete (it apparently ends abruptly after stage four), but it certainly doesn't feel that way!
+
+http://sega-16.com/feature_page.php?id=380&amp;title=Hacks+&amp;+Homebrews:+Unofficial+Ports

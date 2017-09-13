@@ -1,0 +1,40 @@
+Air Fortress
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1987
+Developer: HAL Laboratory
+Publisher: HAL Laboratory
+Players: 1
+_________________________
+
+Eight deadly Air Fortresses are speeding through space on a course of destruction, feeding off planets and entire solar systems. Whole fleets have been demolished in the attempt to stop or even slow down the invading juggernauts. However, there is hope that one man may succeed where armadas of star ships have failed, by infiltrating the Air Fortress and finding a way to disable it from the inside. You are that man! You must penetrate the defenses, find your way through the labyrinthine halls, and destroy the main reactor to stop each mighty Air Fortress before they consume your home world.
+
+This is one of the more fun games I've played for such a level of simplicity. The graphics are decent, the main character is a bit simple but the enemies and backgrounds are pretty neat. The sound effects are pretty much standard, while the music might become a hazard to your mental stability after a while, which is also standard for games of the time. The game-play is plenty of fun. It's not as crazy hard as a lot of games in the same category, but it has nuances that make it interesting, for example moving with your jet-pack: you are never stable, gravity is pulling you down, firing pushes you backwards, occasionally gravity generators pull you down faster or pull in different directions, etc.
+
+Directions:
+
+Each level consists of two sections of play: First the penetration of the Air Fortress's outer defenses, called the 'Air Base', in a side-scrolling shooter of the Section-Z variety, only a bit less hectic.
+
+Controls:
+
+After you pass this section, you will take an elevator into the main core of the space station. In the first level it's pretty straight-forward, but later levels become complicated mazes. Think Metroid with a jet-pack. Your goal is to find and shut down (i.e. by blowing it up) the core reactor, then escape before the Air Fortress explodes with you inside. I suggest finding the escape pod before attacking the reactor ;-)
+
+The most important thing in the Air Base section is to collect Energy Capsules (E) and Bombs (B). Energy capsules increase your maximum energy, which lets you live and fight longer. Bombs do more damage than your standard gun and are necessary to defeat certain enemies (You won't be able to blow certain reactors without enough bombs). Also found in the Air Base section are (+) icons which instantly destroy all enemies on-screen, and Barrier icons (diamond shape) which make you invincible for a few seconds. Use these to collect hard-to-reach (E) and (B) power-ups.
+
+Inside the Air Fortress, you must watch your energy carefully. Everything costs you energy, from flying to shooting, even just walking. If you stand still your energy will recharge up to a point, but when you are damaged by an enemy that energy is lost permanently. Just remember to rest after a long flight or lots of shooting, so you will be less vulnerable. 
+
+A Button: Fire
+B Button: Launch Bombs
+Start Button: Start, Pause
+
+Hints:
+
+Passwords
+- Enter the password 11NA to skip to Fortress Two of the Second Quest.
+
+Reviewer: jcooper
+http://www.consoleclassix.com/nes/air_fortress.html

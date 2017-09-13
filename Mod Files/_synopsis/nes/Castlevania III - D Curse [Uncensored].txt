@@ -1,0 +1,27 @@
+Castlevania III: Dracula's Curse [Uncensored]
+Original title: Castlevania III: Dracula's Curse
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2005
+Players: 1
+Hacked by: Dragonsbrethren
+Version: 1.0
+_________________________
+Description:
+
+This patch fixes a small number of graphical oversights in Castlevania III. Most of these are related from reusing graphics from the first Castlevania game but forgetting to reorder two colors in their palette. Whether these are actually bugs is debatable, I made this patch for my own personal use but decided to release it publicly. The archive also includes a patch to use uncensored graphics in CV3 and a few patches for Akumajo Densetsu.
+
+Bugfixes:
+
+- Holy Water: In CV3 this suffers from two colors being reversed, in Akumajo Densetsu it is missing a color entirely.
+- Candlestand: Suffers from two colors being reversed. Possibly intentional, it still looks good this way.
+- Rosary: Better known as the Cross, this is the item that kills every enemy onscreen. It had two of its colors reversed.
+- Money Bag: In CV1 two of the money bags use a dark colored bag with a light colored dollar sign, the other reverses the colors. CV3's money bags all use a light bag with a dark dollar sign, this reverses the colors in CV3.
+- Points: The points when you pick up a money bag or kill more than one enemy with a subweapon were light-colored in CV1 and future CV titles, leading me to believe the blue numbers in CV3 were a mistakethey do look better, however.
+- Censored Graphics: All are related to topless women, mostly just statues except for Medusa, who was made a male in CV3.
+
+http://www.romhacking.net/hacks/88/

@@ -1,0 +1,51 @@
+8 Eyes
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1988
+Developer: Thinking Rabbit
+Publisher: Taxan
+Players: 1 or 2 CO-OP
+_________________________
+
+After hundreds of years of chaos, mankind has finally emerged from the ruins of nuclear war. This world of the distant future has once again flourished under the guidance of the Great King, who harnessed the power of the 8 Eyes to rebuild the planet.
+
+These strange jewels of power were formed at the eyes, or centers, of the eight nuclear explosions which nearly destroyed the Earth. In the wrong hands, the 8 Eyes could cause untold destruction... and now, they have been seized by the Great King's eight Dukes, in a desperate bid to gain control of the world for themselves. They have banished the King to the nuclear wastelands, and already their squabbling threatens to plunge the world into war once again!
+
+The task of retrieving the 8 Eyes falls to you, Orin the Falconer, the bravest and mightiest of the King's Guardsmen. With your fighting falcon, Cutrus, you must penetrate each of the eight Duke's castles. There you will face the Duke's soldiers, and battle strange nuclear mutants such as living skeletons, giant wasps, and mud men. You must defeat the monstrous Boss of each castle to retrieve the Jewel of Power he guards.
+
+Then, to complete your quest, return the 8 Eyes to the Altar of Peace to await the return of the Great King, so that he may finish the rebuilding of Earth. Your reward will be the eternal gratitude of all mankind!
+
+--From the NES 8 Eyes instruction manual.
+
+Directions:
+
+In the one-player game of 8 Eyes, you control both Orin (the hero) and Cutrus (the bird). In a two-player game, Player 1 controls Orin and Player 2 controls Cutrus. 
+
+Press Up + B to release or recall Cutrus, and Down + B while he's flying, to make him attack. Similar to Castlevania, you can also pick up special weapons with various powers, which you can use by pressing Up + A.
+
+Each level you defeat gives you a new sword, but each boss is only vulnerable to one kind of sword, so you have to somehow find out which order to beat the levels in. According to the 8 Eyes Instruction Manual, 'The sword you start with is weak and only good for a country near France.' 
+
+Controls:
+
+A Button: Jump
+Up + A Button: Use weapon
+B Button: Use Sword
+Start Button: Start Level, pause game
+Select Button: View Clues (level select screen), change weapon 
+
+Hints:
+
+Passwords
+TAXANTAXAN = Start at 2nd Quest
+FINALSTAGE = Start at 3rd Quest
+EAAPPPDPNE = House of Ruth
+LOAPHGAHGE = Alternate House of Ruth
+ONAPPMBPPF = Ending 1
+CKBPPAAPEE = Ending 2
+GBCPHAAHAD = Ending 3
+
+http://www.consoleclassix.com/nes/8_eyes.html

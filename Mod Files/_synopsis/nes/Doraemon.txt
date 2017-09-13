@@ -1,0 +1,22 @@
+Doraemon
+Original title: Doraemon
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2001
+Translated by: Neokid
+Version: 1.1
+_________________________
+Well, you're a cat. And you walk around, and try to avoid these monsters. Oh, and there's no goal, and you have a really crappy weapon, that you have to find. HAVE FUN!
+
+Translation Description:
+
+Ermm.. apparently, all the romaji has been translated. Hopefully NeoKid means all the kana has been translated; otherwise this was a pretty quick job, haha! The level intros are translated too, but may be buggy, like when you see the screen with all the items. Actually, all that's left is the title screen, but who cares about the title screen.
+
+Use this patch on the mapper 15 hacked rom, otherwise it won't work. Well it'll work, but it'll look bad. Bah!
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/119/

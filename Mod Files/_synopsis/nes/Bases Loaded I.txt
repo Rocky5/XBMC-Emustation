@@ -1,0 +1,52 @@
+Bases Loaded
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Baseball
+Gametype: Licensed
+Release Year: 1988
+Developer: TOSE
+Publisher: Jaleco
+Players: 1 or 2 VS
+_________________________
+
+It's the top of the ninth and you're at bat in the seventh and final game of the World Series. Your team is ahead by one run - that's not a lot, since your opponent just scored three in the eighth!
+
+You've battled back in every game - no one figured it would be this tough. Your best hitter is in a slump; but, the rookie has gotten a hot bat the past two games. The bottom of your line-up will face your opponent's ace reliever. They've got the momentum. But you've got the heart.
+
+So, ready for what could be your last at-bat, you've got to pick your hitters carefully. Use your imagination. Catch your opponent off guard. Wait for the right pitch. Bunt. Steal. Play aggressively or don't play at all.
+
+The inning you've been waiting for all season is finally here. Make the most of it. After 11 years of waiting, you're ready to wear that World Series' ring and bring home that trophy.
+
+--From the NES Bases Loaded instruction manual.
+
+Overview:
+
+Bases Loaded is filled to the brim with eight bit fun. The graphics were good for the time. It was the first game to be in the perspective of the pitcher. Prior to this, baseball games were usually from the batter's perspective, or an overhead view of the whole field. It was also the first baseball game to make the batter have to decide to swing high or low. The attention to detail made this game worthwhile. You can make substitutions while batting or pitching. Definitely a good attempt at realism. The sounds were realistic, but the music was annoying.
+
+Directions:
+
+Compete with your friends in baseball, or join the race for the pennant by yourself. Choose your team and play the best game of baseball you can. When playing offense, you can swing the bat by pressing A.
+
+Watch the catcher's glove to see where the ball is headed, and press down while you swing if the ball goes low, and press up while you swing if the ball is going high. You can also press B to bunt, but you will still have to move the bat up or down to make sure you hit the ball. After you hit the ball you can press down and A at the same time to make your baserunner run. If you press down and B the runner will go back. Also if you press down and B while you're batting and have a runner on base, the runner will try to steal.
+
+When you play defense you can press A to pitch the ball, or B to try to pick off a runner that is on base. Pressing the D-pad before you throw it will move the pitcher on the mound. Pressing the D-pad while the pitcher is in his wind up will move the ball's path. Pressing up will add speed and pressing down will make it slower. While fielding the ball, you can throw to the different bases by pressing the d-pad while throwing the ball. Right will throw it to first, up will throw it to second, left will throw it to third, and down will throw it home. Pressing both buttons at the same time when the ball tries to go by a fielder will make that fielder slide or jump for the ball. At any time during the game you can press Start to call timeout and make substitutions. 
+
+Controls:
+
+Start Button: Pause/Timeout
+Offense
+A Button: Swing, Run
+B Button: Bunt, Return
+Defense
+A Button: Pitch, Throw
+B Button: Pick Off, Throw
+
+Hints:
+
+Selecting a Pitcher
+- When selecting a pitcher remember that the lower a pitcher's E.R.A., the better he is.
+
+Reviewer: Adrian
+- http://www.consoleclassix.com/nes/bases_loaded.html

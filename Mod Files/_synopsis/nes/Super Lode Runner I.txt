@@ -1,0 +1,16 @@
+Super Lode Runner
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Irem
+Publisher: Irem
+Players: 1
+_________________________
+
+Super Lode Runner is an Action Puzzle game, published by Irem, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578389.html

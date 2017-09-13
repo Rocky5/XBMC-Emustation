@@ -1,0 +1,17 @@
+Bob-omb Mafia
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: giangurgolo &amp; Omega
+Version: Final
+_________________________
+Bowser's last deal with the so-called Bob-omb Mafia has left him empty-handed: the four koopa shells that belong to him still remain in the mafia's hands. Bowser has kidnapped the princess and is holding her for a ransomit's Mario's task to fulfill the mafia's end of the bargain and acquire Bowser's shells to rescue the princess.
+
+A Note from the Authors: This hack was created using only Lazy Shell as a demonstration of the ability and scope of the editor. Enjoy it, learn from it, and find the motivation and creativity to give back to the community.
+
+http://romhacking.net/hacks/536/

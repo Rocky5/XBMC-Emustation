@@ -1,0 +1,13 @@
+Heavy Unit: Mega Drive Special
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Horizontal
+Gametype: Licensed
+Release Year: 1990
+Developer: Kaneko
+Publisher: Toho
+Players: 1 or 2 Alternating
+_________________________
+Heavy Unit: Mega Drive Special is a 1990 Sega Mega Drive shoot-'em-up developed by Kaneko and published by Toho exclusively in Japan. It is a port of Kaneko's 1988 arcade shoot-'em-up Heavy Unit. Humans have developed an artificial planet, "Le Tau," which is being attacked by aliens, and only the Heavy Unit transforming ship can stop them.

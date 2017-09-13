@@ -1,0 +1,15 @@
+Joust More
+Original title: Balloon Fight
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platforme
+Gametype: Hack
+Hacked by: Grimlick
+_________________________
+Joust More is a hack of the old NES game Balloon Fight. This ROM hack takes place in the distant future when supplies of fossil fuels have been rendered extinct and people need balloons to travel from place to place. When Grimlick first played the game, it surprised him how similar the gameplay was to Joust. It was a pretty simple process to switch the graphics to the ones that are in the NES Joust game using the Tile Layer program.
+
+The gameplay is the same as Joust, the player press the button to flap his wings and he has to be above the enemy to destroy him. And as in Joust, dont get too close to the lava pit or the Troll of the Lava Pits will grab the player. The parts of the game that are different are the ability to get hit twice by an enemy before dying. Also, after being hit by the player, the enemy buzzards try to protect the eggs as they float down to the surface. The player must hit the buzzard again to get it to drop the egg into the lava. When the egg hits the lava, it will get enveloped in a lava bubble and float up to the sky where the player can grab it and get extra points. 
+
+http://www.datacrystal.org/wiki/Joust_More

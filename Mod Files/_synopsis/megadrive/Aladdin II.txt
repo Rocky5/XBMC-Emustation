@@ -1,0 +1,26 @@
+Aladdin II
+Platform: Sega Genesis / Mega Drive
+Region: China
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Pirate
+Developer: Capcom
+Publisher: Capcom
+Players: 1 - 2
+_________________________
+Up until the movie Aladdin was released, the licensing rights for adapting Disney characters into video games were handled separately for the Sega and the Nintendo consoles: Sega released some games featuring Disney characters (like Castle of Illusion, or Quackshot) but didn't adapt any movies or series. Meanwhile, Capcom adapted exactly those series and movies for their rival Nintendo, exclusively. This changed in 1993, when Virgin was allowed to create a game based on the movie Aladdin, which was critically praised. Capcom, however, still held the rights to do an adaptation on their own. So the Genesis and the Super Nintendo saw both their own version of Disney's Aladdin, both based on the same movie but produced by different companies. Later Disney adaptations would be handled by Virgin for both consoles following the release of The Lion King in 1994.
+
+So this Aladdin II is not a game based on the TV series or some sort of sequel, but rather a retelling of the same story. Other than using the same story, however, the two games are different in almost every regard. So, keeping above in mind, it's quite understandable why the people responsible for porting the Super Nintendo game to Sega's 16-bitter would opt to call the game Aladdin II. It is, in fact, the second Aladdin game on that console. And as far as ports go, this one actually is pretty accurate.
+
+The game mechanics have remained the same as they did in the Super Nintendo original: Aladdin can throw apples (which he can collect throughout the levels) to stun enemies or dispatch smaller foes. Enemies are generally defeated by jumping on them. Bosses can take several hits. The programmers managed to get the game controls down pretty well, although they occasionally seem a bit sluggish. Also, the collision detection seems to be a bit off, but it's bearable, albeit irritating at times. However, in order to fit the game on a 16-Meg cartridge, the porters have decided to make some changes.
+
+The first noticeable one would be the new title screen  although this has probably just been done in order to remove all copyright notices referring to Capcom or Nintendo. More importantly, however, is that the programmers have removed quite a number of sprites. The snipped a few frames out a few characters animations, which leads to some jerky movement. This becomes particularly apparent during boss battles. The first boss hardly seems animated at all whenever he strikes with his sword, and the last battles against Jafar require play totally different since the attack patterns have changed (for example the moving floor has been removed out of the very last boss battle). Some minor character sprites  like one-time foes, or background sprites like Apu, the walking animations of the magic carpet, or the appearance of Jasmin at the end of level one have been cut entirely.
+
+Some changes do influence the gameplay a bit, however. The password option has been entirely cut out of the game, so you have to play through it in one sitting. Further, the SNES version had a Scarab in most of the levels, which served as a mid-level save point. The omission of these Scarabs means that there are no save points either. To offset this, (and in some cases because the programmers didn't manage to pull off a fluent change in the stages background) the porters have decided to cut some levels into smaller stages. Also, where you originally could find a Scarab you now get an additional heart to your life bar. Two levels, which were very dependant on one-time only sprites, have also been cut entirely (Inside the lamp, stage three and the magic carpet ride bonus stage). So, once you master the somewhat jerky controls, the game becomes easier than it originally was overall. 
+
+The port had to take big hits in the sounds and graphics departments. For all the twenty+ levels, there are only three different background tracks in the Genesis version, and I'm positive that I've heard at least one of those in another pirated game (Donkey Kong '99, to be exact!). This music quite often doesn't fit the mood of the stages. For example, a stage with a fiery cave that included fireballs and lava ended up having soothing, slow muzak. Also, contrary to the SNES version, there unfortunately is no multi-layered background scrolling. Last but not least, while the porters did take the background graphics directly from the original game, they somewhat suffered during the port, leading to some ugly artifacts and pixels in the background graphics (as you can see for yourself in these screen shots).
+
+Overall, however, I have to admit I was pleasantly surprised with this port. It's very close to the original and plays pretty well! Definitely an effort well made (for a hack, anyway). 
+
+http://sega-16.com/feature_page.php?id=380&amp;title=Hacks+&amp;+Homebrews:+Unofficial+Ports

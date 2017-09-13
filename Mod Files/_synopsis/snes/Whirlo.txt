@@ -1,0 +1,41 @@
+Whirlo
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Namco
+Publisher: Namco
+Players: 1
+_________________________
+A platformer title starring Valkyrie's lizard friend Xandra. In the game, which plays as a prequel of the Valkyrie games, you control Xandra as he leaves his enchanted forest in order to get help for his family. This will eventually lead him to meet up with our beloved Valkyrie and mark the beginning of their adventures.
+
+Xandra has all the abilities of a standard platformer character, which allow him to jump around and navigate the many obstacles found in the game. Additionally he's armed with a pitchfork which he can use to impale his enemies and stick to some surfaces. Collecting coins allow him to purchase extra lives, but there are no added weapons or spells as in the Valkyrie games.
+
+Tips:
+
+Passwords:
+Leaf, Blank, Moon, Sphere, Leaf, Blank, Blank, Blank, Blank, Octopus, Blank, Tear, Octopus, Heart, snake, Leaf 
+Area 2 Mt. Alsandra
+
+Tear Drop, Sphere, Sphere, Tear, Leaf, Blank, Blank, Blank, Blank, Blank, Sphere, Leaf, Blank, Leaf, Snake, Leaf 
+Area 3 Cauldra Castle
+
+Tear, Moon, Leaf, Snake, Leaf, Blank, Blank, Blank, Blank, Octopus, Sphere, Octopus, Heart, Blank, Octopus, Leaf 
+Area 4 Dragon Forest
+
+Leaf, Snake, Snake, Octopus, Leaf, Blank, Blank, Blank, Blank, Blank, Tear, Leaf, Snake, Sphere, Octopus, Leaf 
+Area 5 Sea of Sirrah
+
+Snake, Tear, Octopus, Heart, Leaf, Blank, Blank, Blank, Blank, Octopus, Tear, Tear, Tear, Moon, Octopus, Leaf 
+Area 6 Tree Island
+
+Tear, Snake, Leaf, Leaf, Leaf, Blank, Blank, Blank, Blank, Blank, Moon, Tear, Octopus, Blank, Heart, Leaf 
+Area 7 Neverland
+
+Moon, Leaf, Tear, Blank, Moon, Blank, Blank, Blank, Blank, Octopus, Moon, Leaf, Leaf, Tear, Heart, Leaf 
+Area 8 Endless Desert
+
+http://www.mobygames.com/game/snes/whirlo

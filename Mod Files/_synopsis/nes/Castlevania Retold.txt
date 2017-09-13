@@ -1,0 +1,18 @@
+Castlevania Retold
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2004
+Players: 1
+Hacked by: Dragonsbrethren
+Version: 2.0
+_________________________
+Castlevania Retold isas the name suggesta retelling of the original NES Castlevania. I wanted to keep the original story intact (Many of the CV games are retellings of the first one, this is no different) but offer new levels and graphics, this is just that. All the levels have the same themes to them they originally had, but with new layouts and enemy placement, I also wanted to keep the classic feel to it, which is why I used mostly graphics from CV2 and 3. There are very few custom graphics in the hack, I'm not good with graphics at all, but I did make a new title screen using the new CV logo (Which Moonchile later enhanced) and enhanced some of the orignal sprits. Any Castlevania fan will probably like this, but until recently I didn't notice it's one downside: It's hard. As I made this hack I pretty much learned how everything in CV's game engine works, the exact timing of enemies and such. 
+
+So, while I can play through most of it with no problems even my friends who are good at Castlevania die several times on the first level.
+
+http://romhacking.net/hacks/13/

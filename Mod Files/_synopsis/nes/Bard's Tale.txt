@@ -1,0 +1,40 @@
+The Bard's Tale: Tales of the Unknown
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1985
+Developer: Interplay
+Publisher: Electronic Arts, Interplay
+Players: 1
+_________________________
+
+The Bard's Tale is a very good round based rpg. It's a very long game and it has a lot of detail. The graphics aren't great, but they are good. The sounds are also pleasant without too many beeps or white noise. The controls were easy to learn because it's all menus to thumb through. The story was pretty interesting and had enough detail to seem real. A good storyline is essential to make a good RPG. With upgradeable characters and countless items to find, this game has hours of roleplaying enjoyment to offer.
+
+Directions:
+
+The Bard's Tale is a straightforward "dungeon crawl". The objective is to gain experience and advance characters' skills through (mostly) random combat with enemies and monsters. This is done while exploring maze-like dungeons, solving occasional puzzles and riddles, and finding or buying better weapons and armor.
+
+Combat is round-based and abstract, described in text rather than shown graphically; there is no notion of moving characters around on a map during combat. The second and third games of the series do have a concept of distance between the player's party and its enemies, so that close-range weapons are not usable until the distance has been suitably reduced; however the only movement available to the party is an abstract "advancing". Cash and experience points are distributed evenly to all surviving party members after a particular encounter is won.
+
+When beginning the game, the player may create up to six player characters, chosen from among the following classes: bard, hunter, monk, paladin, rogue, warrior, magician, and conjurer. The classes sorcerer and wizard were available to experienced conjurers and magicians. A typical well-balanced party might consist of a couple of fighters, a rogue, a bard, and a couple of magic users.
+
+The most important character was arguably the bard, whose magical songs functioned like long-lasting spells and affected the player's party in various wayssuch as strengthening their armour, or increasing their attack speed, much like "buffs" in modern day MMORPGs. A number of obligatory puzzles in the game were unsolvable without the use of bard songs. Each bard song triggered corresponding music while he played (some classical, some original).
+
+With only a map of the town of Skara Brae included on the box, it was usually necessary for players to use pencil and graph paper to make their own maps as they played through the game.
+
+Magic users were allowed to change classes permanently. The game manual describes a magic user who has mastered all spells from all four classes as "an Archmage, the most powerful being in the world of The Bard's Tale." However, Archmage status had no effect on gameplay other than simply having all spells available.
+
+Casting one of the 85 magic user spells consisted of typing a four-letter code found only in the printed game manual, which perhaps helped limit piracy and contributed to the commercial success of the game
+
+Controls:
+
+A Button: Select Command, Move Party
+B Button: Cancel Command, Window Display
+Start Button: Start Game
+Select Button: Enter/Exit Main Menu
+
+Reviewer: adrian
+http://www.consoleclassix.com/nes/bards_tale.html

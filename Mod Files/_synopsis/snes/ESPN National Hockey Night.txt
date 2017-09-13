@@ -1,0 +1,17 @@
+ESPN National Hockey Night
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1993
+Developer: Sony Imagesoft
+Publisher: Sony Imagesoft
+Players: 1 to 5 CO-OP, VS
+_________________________
+ESPN National Hockey Night is a Super NES, Sega Mega Drive and PC action game where the player is cast right straight into NHL action on his TV screen. Like most ESPN games, there is an exhibition mode, a season mode, and a playoff mode.
+
+The AI of this game is very difficult, like a hockey equivalent of Super Bases Loaded. The side view makes it more tricky and the computer opponent can sneak in goals when the player thinks that he is secure in a tied game or in a game in which he is narrowly winning. Most of the notable NHL players from the 1990s are here complete with stats to make them more realistic.
+
+http://en.wikipedia.org/wiki/ESPN_National_Hockey_Night_(game)

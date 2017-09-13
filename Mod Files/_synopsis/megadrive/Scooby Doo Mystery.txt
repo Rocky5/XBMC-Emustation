@@ -1,0 +1,99 @@
+Scooby Doo Mystery
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1995
+Developer: Sunsoft
+Publisher: Acclaim Entertainment
+Players: 1
+_________________________
+Rev up the Mystery Machine because Shaggy, Scooby and the rest of the gang have some mysteries to solve. Put yourself in the shoes of Shaggy, as he and Scooby venture off in search of snacks while Freddy, Daphne and Velma head in another direction. Unfortunately, Shaggy and Scooby find more than snacks - they also find trouble.
+
+At Blake's Hotel, find the clues that will trap the so-called ghost of an ancient chieftain that is scaring away all of the guests of Daphne's Uncle.
+
+A fun-filled day at the carnival turns into a mission to find a clown bent on revenge and rescue Fred, Daphne and Velma. These interactive mysteries let Shaggy pick-up and examine objects, and eventually use them to set a trap. Scooby will help out by pointing and sniffing around. Put all the clues together and you've solved the mystery!
+
+--From the Genesis Scooby Doo Mystery instruction manual.
+
+Directions:
+
+Directions-
+Listen to the introductions to the games, look at everything and use the Actions. You have unlimited time, lives and energy.
+
+Actions-
+
+To select an action from the list at the bottom of the screen: press the B-Button to change from Shaggy to the cursor, move the cursor with the D-Control to the action that you want to use (it will appear in a blue rectangle) and then press the B-Button again and the action will turn white. Then using the D-Control, move the cursor to the object that you want to use the action on and press the B-Button to actually use the action. It is a lot easier to do it than to describe it.
+
+Two Word Special Actions-
+
+Use___With___ that allows Shaggy to direct an Action of one object to another object.
+Example- "Use Scissors with Paper"
+
+Give___To___ that allows Shaggy to give an object from the Inventory to a person or animal
+Example: "Give food To Scooby-Doo.
+
+Inventory-
+
+You collect items that you find using the "Take" action that adds them to your inventory. You view the items in the Inventory by pressing the C-Button. You select them the same way that you select an Action.
+
+Gameplay:
+
+The player controls Norville "Shaggy" Rogers as well as Scooby Doo simultaneously (he automatically mimics any movements that the player makes as Shaggy} making gameplay unique. The object of the game is to find clues to solve the 4 mysteries in the game. These clues can be obtained by finding them in the open, completing a specific task, or having Scooby "sniff out" hidden clues in each area. These clues give the players Mystery points and more points can be earned in the bonus levels. If the player accumulates 10,000 points, they will receive an extra life. In addition, the player must avoid hazards such as small creatures, falls from high areas, or the level Monster. Each of these will add to the players "Fright Meter" which, if full, will result in the player losing a life. Once enough clues have been gathered, Velma will send you to Fred to help him build a trap to catch the monster. The player then has to lure the monster to the trap before the end of level cutscene plays.
+
+At the beginning of each level, only a small portion will be accessible, but as more clues are found, more of the level can be explored. Between each case, a game clip of the Mystery Machine driving along with on-screen dialogue from the gang inside is shown. The mysteries themselves don't have much plot before or after each case, and the person in the monster suit is usually never met until they are unmasked.
+
+- Characters -
+
+The other three members of Mystery Inc. are there to help solve the case as well, though they are not playable. They do each serve a specific task however:
+
+Fred Jones - The leader of the group, he will usually provide information on the mystery as well as help Shaggy and Scooby open locked doors. At the end of each mystery, the player must find specific items which Fred will use to build a trap to catch the monster.
+
+Daphne Blake - The beauty of the group, Daphne may not help with the case itself, but she will provide Shaggy and Scooby with a supply of Scooby Snacks which will help keeps the players "Fright Meter" down. She will only give a Scooby Snack if the player has found enough clues.
+
+Velma Dinkley - The brains of the group, the player must bring any clues they find to her for analysis. Each clue adds to the players point total which will give them a life for gaining enough of them.
+
+- Levels -
+
+There are four levels in the game, and the player receives a password after each one to allow them to return at any time.
+
+1) Spooky Shipwreck - This is the Red Ryan which is being haunted by a ghostly pirate named One-Eyed Matt. He is actually after treasure on sunken ships nearby which he planned to melt down and steal .
+
+2) Haunted Amusement Park - The Fun Fair is being haunted by an Evil Clown who seeks to close the park as revenge for being fired when he was the parks janitor.
+
+3) Abandoned Ranch - The Tar Monster is scaring everyone away from this ranch in order to buy the land cheap and then sell it at a profit due to it containing valuable minerals.
+
+4) Haunted House - A house belonging to Daphne's Uncle which is being haunted by a vampire named Count Bagosi. He is trying to scare everyone away to protect his illegal counterfeiting operation.
+
+- Bonus Levels -
+
+There are two bonus levels hidden in each mystery.
+
+The first is found in the kitchen area. In this level, the player controls Scooby Doo who is standing on his hind legs holding a slice of bread in each hand. Shaggy is behind him in a refrigerator with his back to the screen. Shaggy throws food items out which the player must catch by moving Scooby side to side. The food stacks up as it is caught but if Scooby moves too fast some of it will fall. If the sandwich is large enough, then the player will be awarded with a Scooby Bonus.
+
+The second is found randomly in each level, but usually appears upon entering a new area of the level. On this level, Shaggy plays a game of "Whack a Mole" with a mallet on three vases. The player must use the directional buttons to tell Shaggy where to swing. The object is to hit as many monsters (ghosts, vampires, knights, etc) as possible without hitting Scooby or the other members of the gang. Points are added for monsters hits and subtracted for hits to friends. Time Bonus, Time Freeze, and Speed Boost can also be collected from the vases to prolong the game and get more points. If the player scores enough points in the time limit, they receive a Scooby Bonus.
+
+Controls:  
+
+A Button: Select Shaggy / Use Action
+B Button: Cursor / Select Action / Select Inventory
+C Button: Action / Inventory
+Start Button: Start / Pause / Get Password
+
+Hints:
+
+- Ending passwords -
+Blake's Hotel Chapter
+D*OX% AZY%# YM*UV NTKSH !MCLE
+%TU!T SOJZH E#TSO JZHE# TSOJY
+(Use the medallion with the hook to see the ending.)
+
+- Ha Ha Carnival Chapter -
+CN?NE L*QG* UM*I* IFEJC HW*++
+PN%XW *++PN %XW*+ +PN%X W*++P
+(Just use the dart with the ball to see the ending.)
+
+http://www.consoleclassix.com/genesis/scooby_doo_mystery.html
+http://en.wikipedia.org/wiki/Scooby-Doo_Mystery

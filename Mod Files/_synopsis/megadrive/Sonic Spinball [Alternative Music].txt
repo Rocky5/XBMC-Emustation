@@ -1,0 +1,11 @@
+Sonic Spinball [Alternative Music]
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Pinball
+Gametype: Hack
+Release Year: 199x
+Players: 1-4
+_________________________
+Sonic Spinball with altered Title Screen music.

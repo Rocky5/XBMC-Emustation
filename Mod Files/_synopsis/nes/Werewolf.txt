@@ -1,0 +1,40 @@
+Werewolf: The Last Warrior
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Takara
+Publisher: Data East
+Players: 1
+_________________________
+
+He's BAD, RAD and extremely MAD - because to a WEREWOLF, there's nothing like revenge! The world's been destroyed by Dr. Faryan, a twisted madman possessed by an ancient spirit. Faryan's henchmen rule. But one buff warrior's been granted magical powers of the wolf and is now out to bust-up Faryan. And when WEREWOLF finds him, the fur and fangs will fly!
+
+"I will destroy you, Faryan..."
+
+But in order to get to Faryan, you've got to battle your way past his army of death slaves. Nothing in Faryan's New World can be taken for granted - evil lurks everywhere. There are five levels you must clear in order to reach Faryan. Easier said than done - each level is protected by one of Faryan's Level Bosses. And they get gnarlier as you go along. But you've been granted powers of the Great Spirit, War Wolf. You know what you must do. The time has come to live your vision. Destroy Faryan.
+
+--From the NES Werewolf: The Last Warrior instruction manual.
+
+Controls:
+
+Basic controls (for all forms)
+------------------------------
+Up : climb up ladder
+Down : crouch, climb down ladder
+Left : move left
+Right : move right
+B : jump
+A : punch, use power ray attack (hold button down and release)
+Select : display score (while game is paused)
+Start : start game, pause/resume game
+Up + B : high jump
+Up + A : attack upward (while jumping and only as a werewolf)
+Down + B : drop down from a ledge
+Down + Left : move left while crouching
+Down + Right: move right while crouching
+
+http://www.gamefaqs.com/console/nes/home/587762.html

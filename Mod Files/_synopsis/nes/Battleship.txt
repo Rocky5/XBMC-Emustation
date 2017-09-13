@@ -1,0 +1,36 @@
+Battleship
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Strategy - Turnbased
+Gametype: Licensed
+Release Year: 1993
+Developer: Mindscape
+Publisher: Mindscape
+Players: 1
+_________________________
+
+Most people are probably familiar with the Battleship board game, and this is pretty much the same. First you set out your ships on the board, then you attack the opponent's board, trying to locate and sink his navy before he can do the same to yours. The biggest difference in play is that in the board game, you can only fire a single shot at a time, while the NES version has special weapons which cover a spread of several squares. This helps the game go faster by making it easier to locate the enemy quickly, and adds an extra element of strategy as well. Plus it's just plain more fun to have choices of which missiles to send up over the wall!
+
+Directions:
+
+Battleship is one of the best efforts I've seen to translate a board game into a video game. In most cases, I would say that the best way to make it work is to make the video game as much like the board game as possible, but in this case I think they have actually improved it.
+
+The Nintendo version of Battleship has extra features that would be very difficult to implement on the board game version, but which make it much more interesting and fun. There are six ship types instead of five, and they have changed the sizes around somewhat. Most significantly, each ship comes equipped with a limited number of special weapons, which attack in certain patterns instead of striking only one square at a time. Aside from letting you scan more of the board at once, these special weapons can do massive damage to a ship, or ships, on a lucky strike.
+
+Pay attention to which ships you and your opponent have remaining, because each special weapon is tied to a ship type. If a ship sinks before its specials are fired, the specials sink with it. 
+
+Controls:
+
+A Button: Place Ship, Select Area to Attack
+B Button: Rotate Ship, Select Area to Attack
+Start Button: View Your Own Board (during Attack)
+Select Button: Choose Weapons
+
+Hints:
+
+Use Special Weapons!
+- Your Special Weapons have limited shots and are connected with certain ships. Try to use them all at the beginning to locate enemy vessels. Remember, if you lose a ship before firing its special weapon, you lose the weapon.
+
+http://www.consoleclassix.com/nes/battleship.html

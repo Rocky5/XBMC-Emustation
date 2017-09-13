@@ -1,0 +1,14 @@
+Robin Hood
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2001
+Developer: Planet Interactive
+Publisher: Electronic Arts
+_________________________
+Robin Hood is a action game in the style of The Legend of Zelda. You control Robin Hood from a top-down perspective. You'll have to explore, fight enemies, solve puzzles and acquire items to progress in the game. You can shoot enemies with arrows or hit them with a staff or sword. The game's targeting system allows the player to lock onto a target while walking in other directions. Acquired items can be bought and sold and NPC characters can be spoken with for hints and plot progression. The game features fifteen levels.
+
+http://www.mobygames.com/game/gameboy-color/robin-hood_

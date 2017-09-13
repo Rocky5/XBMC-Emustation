@@ -1,0 +1,31 @@
+DOOM
+Platform: Sega 32X
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter, First Person
+Gametype: Licensed
+Release Year: 1994
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+The Union Aerospace Corporation has been experimenting with teleportation technology on Mars' moons Phobos and Deimos. After early successes, something goes wrong. It seems the scientists have opened a gateway straight to Hell.
+
+Phobos base is overrun with demonic creatures, and the whole of Deimos simply vanishes. A squad of marines is sent to Phobos, but all except one are quickly slaughtered. It falls to the surviving marine to grab some guns and strike back at the demons.
+
+Hints:
+
+- Full Ammo -
+(6 button pad required) Pause the game, and press A, C, Mode and Up simultaneously
+
+- God Mode -
+(6 button pad required) Pause anytime during play, and press X, Z, Mode and Up simultaneously.
+
+- Invincibility -
+Press X + Y + Mode + Up during gameplay.
+
+- Unlock all Weapons -
+Pause the game and press A, B, C, X, Y, and Z at the same time to unlock all weapons.
+
+http://www.mobygames.com/game/sega-32x/doom

@@ -1,0 +1,53 @@
+Ignition Factor, The
+Alternative title: Fire Fighting
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1995
+Developer: Jaleco
+Publisher: Jaleco
+Players: 1
+_________________________
+The Ignition Factor is a 2D adventure where the player controls a firefighter (ostensibly "you") through emergency situations in differing locations. Each level consists of multiple rooms, areas, or building floors where players can possibly explore, extinguish fires, and rescue people. Most levels dictate a specific number of people that must be saved within a set time limit for the mission to be considered a success. Fire spreads throughout an area automatically, and the player can be injured when touching a patch of fire on screen. The player can also be harmed by falling through holes in the floor.
+
+The player has various tools of firefighting at their disposal. Before a level begins, the player may choose the primary and secondary equipment they wish to begin the level with. Only one of each type of equipment can be equipped at once.[3] Primary equipment consists of an oxygen mask and tank and three types of fire extinguishers that correspond to the different types of fires that can be encountered in the game; regular, chemical, and electrical. These fires and their extinguishers are red-orange, green, and blue, respectively. As these are used, a counter goes from 99 to 0. The counter of the regular extinguisher rapidly increases back to 99 after a brief period of inactivity, while the oxygen tank and mask and the other extinguishers can only go back to 99 after being resupplied by allies in the level.
+
+Secondary equipment consists of a trusty fireman's axe, a rope for crossing gaps, a metal pole to reveal holes by checking for weak places in the floor, plastic explosives to blow through debris and certain wall sections, and CO2 bombs to extinguish large areas of fire. Only five plastic explosives and CO2 bombs can be carried at one time and can be replenished by an ally on the map.
+
+Controls:
+
+The direction pad is used to direct the character on screen. Pressing the pad twice in one direction causes the character to sprint. It should be noted that though the character can walk diagonally, he can not run diagonally. The character can jump with the use of the B button and can kick in jammed doors with the X button. The Y and A buttons are used to initiate the actions of the primary equipment and the secondary equipment that are equipped respectively. The use of the Start button pauses the game and brings up the inventory screen while the select button pauses the game and brings up the map screen.
+
+The character is only capable of carrying five items (including the required red extinguisher/oxygen tank and mask) before their weight begins to affect his actions. While carrying five or six items, he is incapable of running or kicking but he will still walk at his normal speed. If he carries seven or more items not only can he not run or kick, his walking speed is drastically reduced.
+
+Failing a mission occurs when the player either dies or runs out of time. The player is then shown a screen that displays the number of chances left (the game's term for continues) and is given the choice to try again, quit, or enter a password. The game allows the player a total of three chances. If the player chooses the try again, one chance is consumed and the player is returned to the level select screen and allowed to select a different level or retry the same level. If all chances are used, the game is over.
+
+Reception:
+
+After its American debut in 1995, The Ignition Factor has received varying levels of critical response. For instance, Electronic Gaming Monthly rated the game a 8.25 out of a possible ten, while Allgame gives a rating of three stars out of five.
+
+Tips:
+
+Level Codes
+
+Hold the R button on Controller 2 and press start on Controller 1
+Access the Mines, Dino Park or Whitney Appliances scenarios
+
+Hold the L button on Controller 2 and press start on Controller 1 
+Access the Towers, Shylock Center or Paris Mine
+
+Hold both L and R on Controller 2 and press start on Controller 1 
+Secret 'Peacekeepers' Level
+
+Level Passwords:
+Enter the following passwords in the password menu.
+SSK8 8038 LP88 5002 Last stage
+SSKD 0008 280G 84L2 Level 2
+
+Bonus mission
+Score over 4500 points in Missions 1 through 8.
+
+http://en.wikipedia.org/wiki/Ignition_Factor

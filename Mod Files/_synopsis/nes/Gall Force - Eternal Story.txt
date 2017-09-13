@@ -1,0 +1,22 @@
+Gall Force: Eternal Story
+Original title: Gall Force: Eternal Story
+Platform: Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Shooter 
+Gametype: Undefined
+Release Year: 2008
+Players: 1
+Translated by: Gil Galad
+Version: 1.0
+_________________________
+Gall Force: Eternal Story is a FDS 2D shooter based on the Gall Force Anime. You the player control a space vessel called the Starfleaf to rescue all of the Solnoid crew that have been captured by the Paranoids.
+
+This is a mini-translation. Once the font was changed to an English font set, I had discovered that the text was in Romanized Romaji, thus the intro and some of the ending needed translated.
+
+Hoonokatana translated the scripts, so thanks to him.
+
+I have done some minor ASM hacking to this game such as adding punctuation. Merely adding the punctuation font tiles would not work. Also, slowing down the intro text so that it's easier to read.
+
+http://www.romhacking.net/trans/1356/

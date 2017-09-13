@@ -1,0 +1,22 @@
+Super Ice Hockey
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1994
+Developer: Sunsoft
+Publisher: Sunsoft
+Players: 1 to 4 CO-OP, VS
+_________________________
+There are several gameplay modes that can be chosen from the main menu of the game. These include exhibition mode, playoff mode, and an Olympic mode that is loosely based on the 1994 Winter Olympics. The object of the Olympic mode is to simply win the gold medal while the defeated team receives a silver medal. In order to qualify for the gold medal game, he or she must rank in the top four in either "League A" or "League B" during the round robin format; an X refers to a win while an O refers to a defeat. Achieving this will promote the player's team to a playoff of eight teams that will determine the gold and silver medal recipients Teams that belong to opposite leagues eventually get to play against each other in the playoff mode.
+
+Periods can either be 1 minutes, 2 minutes or 3 minutes long. Referees can be set to either strict (real), normal, or absent (referred to in the game as free mode). In the real mode, penalties are given for every body check while most body checking is allowed in normal. However, both participants in hockey fights are penalized in both normal and real mode. This is offset by using extremely short durations in the penalty box due to the unrealistically low period durations.
+
+Tips:
+
+See the Ending
+Password : SUPERHOCKEY94YONEZA
+
+http://en.wikipedia.org/wiki/Super_Hockey_%2794

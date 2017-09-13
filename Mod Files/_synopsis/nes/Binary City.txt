@@ -1,0 +1,33 @@
+Binary City
+Original title: Battle City
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Hack
+Release Year: 2009
+Hacked by: AnS
+Version: 0.999
+_________________________
+Very sophisticated hack of Battle City. The game begins as usual tanks action with Binary Land's gimmick, but its gameplay keeps being fresh until the very last level. There are stages with various handicaps, timer racings, pure puzzles and even stealth action.
+
+The game was greatly reprogrammed, now there's twice more code than was in original ROM. There are new map objects, better AI, boss stages, new music, particle effects and physics tweaks.
+
+You should see the game trailer here: http://www.youtube.com/watch?v=fZe7q6Ki42g
+
+The game consists of 6 chapters:
+
+1. Reverse mode - simple tutorial on game mechanics
+
+2. Impulse mode - learning new quirks + puzzles
+
+3. Dual challenge - combining everything you've learnt
+
+4. VG history - mimicking classic video games
+
+5. Postmodern Age - some weird stuff + memes
+
+6. Superplay - 7 steps of learning TASing
+
+http://www.romhacking.net/hacks/569/

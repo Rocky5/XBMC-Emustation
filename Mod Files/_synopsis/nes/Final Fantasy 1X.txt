@@ -1,0 +1,44 @@
+Final Fantasy 1X
+Original title: Final Fantasy
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Release Year: 2003
+Players: 1
+Hacked by: RPG Man
+Version: 2.0
+_________________________
+Final Fantasy 1X changes the appearances of the characters in battle and makes some of the useless weapons, armor, and magic better. It also gives the black belt/master class his own set of skills.
+
+Here are some of the changes, take from RPG Man's website:
+
+Weapons:
+
+- Falcon Sword (renamed from Falchon) can be used by FI/KN/TH/NI/RM/RW.
+
+- Power Staff has been renamed Golden Staff.
+
+- Vorpal Sword has been changed to the Sage Staff.
+
+Armor:
+
+- Allowed the BB/MA to equip the ProCape.
+
+Magic:
+
+- LV1 - FOG has been replaced by PURE and LOCK has been replaced by KICK
+
+- LV2 - LAMP has been replaced by ABLT (Aura Bolt)
+
+- LV3 - LOK2 has been replaced by FDAN (Fire Dance)
+
+- LV4 - PURE has been replaced by CHKA (Chakra)
+
+- LV5 - HEL2 has been replaced by MNTA (Mantra)
+
+- LV6 - STUN has been replaced by LSTM (Lightning Storm)
+
+http://www.romhacking.net/hacks/73/

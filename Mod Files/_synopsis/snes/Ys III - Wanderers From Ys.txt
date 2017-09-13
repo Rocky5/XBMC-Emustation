@@ -1,0 +1,58 @@
+Ys III: Wanderers from Ys
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1989
+Developer: Nihon FAlcom Corporation
+Publisher: Nihon Falcom Corporation
+Players: 1
+_________________________
+The main character, Adol, returns from adventuring with his friend Dogi to find his home town in trouble. Thus begins his side-scrolling RPG adventure, which will take him all over the world, again. To save the people from a creature of overwhelming evil bent on taking over the world, again.
+
+Basically it's your normal side-scrolling type game with RPG features added in. A bit of an odd combination to me but it works out well in this case.
+
+Graphically this game was right on, the characters and monsters are well done, animation is smooth, the scenery and backgrounds are great. The music isn't my favorite but you might like it. ;-)
+
+Directions:
+
+The Y's series is one of the classics, and if you play this game you'll know why. It has a great combination of storytelling and action, the perfect mix for many RPG gamers. 
+
+The user interface for equipment was a bit counter-intuitive to me, but it's not difficult when you get used to it.
+
+Be sure to buy equipment and equip it on the menu before leaving town. Press Select, choose Equipment, then select each type of equipment by pressing up or down, and equip the item by highlighting it. However, don't equip a ring as soon as you find it, because rings are always on and it drains their power.
+
+You can duck and crawl to get through tight spaces, as well as swing your sword while crouching to attack low enemies. You can also swing your sword straight up or while jumping. Press Up to open doors and boxes, some need keys though. Press diagonally to go up or down stairs. 
+
+Controls:  
+
+A Button - Use Item
+B Button - Jump, Confirm option
+Y Button - Attack, Talk, Cancel option
+Start Button - Start or Pause
+Select Button - Open Menu
+
+Tips:
+
+Debug Code
+Turn on the game and wait for the Sammy logo to fade completely in. Then quickly enter this code on Controller 2: Up, Down, Up, Down, Select, Start. Start the game, and press Select to bring up the menu. Choose Status, then press Select on Controller 2. The word 'Debug' will appear next to 'Status'. This will make you invincible and give you access to all areas on the world map.
+
+Infinite Life
+Start a game and then save and exit. You must have 2 controllers plugged in for this to work. 
+1) Turn the power on and wait until the logo screen appears (can't remember exactly what it is, but it is the one that fades in and out). 
+
+2) On the 2nd controller, when the logo gets through fading in (on mine, it fades in really white then gets a shade darker) and press Up, Down, Up, Down, Select, and Start before the logo fades out. 
+
+3) Continue with the game you started. While in the game, go to the status subscreen.
+
+4) On controller 2 hit Select and you should see DEBUG pop up. If not, then you must try the code again. After DEBUG pops up you are invincible. Your health can go all the way back down, but after it gets past 1, it goes all the way back up. Enjoy.
+
+Invincibility Code
+Note to the gamer: The code is extremely hard to pull off. I myself have only successefully entered in ONCE so if you have trouble, please don't say this is a fake code, because it is very hard to do. Start the game, then hit RESET on your SNES to reset the game.  When the American Sammy logo appears, press UP, DOWN, UP, DOWN, SELECT, START on controller TWO. You must wait till the logo COMPLETEY fades in and enter it before it BEGINS to fade out. It's not easy.  When the Start/Continue Screen appears, choose Continue on controller ONE. Use any saved game. During gameplay, bring up the menu. Go to the STATUS screen.  Press START on controller TWO. The word DEBUG should appear next to the word STATUS and you will be invincible.
+
+Sound Test
+Press Select on Controller 1 to bring up the menu, then press Select on Controller 2 for a sound test.
+
+http://www.consoleclassix.com/snes/ys_3_wanderers_from_ys.html

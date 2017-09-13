@@ -1,0 +1,48 @@
+NHLPA Hockey '93
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1992
+Developer: Electronic Arts
+Publisher: EA Sports Network
+Players: 1 or 2 CO-OP, VS
+_________________________
+It featured organ music and a digitized audience that cheered and jeered with every decision made on the ice. There is an exhibition mode and a playoff mode with the winner of the playoff mode collecting a trophy similar to the Stanley Cup. Offsides and penalties can be turned on and off but icing must remain on at all times. Notable contemporary players like Doug Gilmour and Wayne Gretzky can be seen as they attempt to score goals and steer clear from the penalty box. This game was released near the Christmas of 1992. Also, the game featured fighting, blood, and the ability for the glass of the arena to break. These features were removed in the following hockey games, except for fighting which was refeatured in NHL 96 and onwards.
+
+The game had an NHLPA license but not an NHL license. As a result, the game included all player names and numbers, but not real team names or logos. Instead, teams were identified by their city and colors, which meant that the New York Islanders were referred to as "Long Island," even though the official name designated the team as such. Also introduced were Tampa Bay and Ottawa to the 22 teams of "NHL Hockey". The Sega Mega Drive version also included EEPROM battery saving, which allowed one to save lines and the ongoing Playoff, rather than use passwords.
+
+The game also started a dispute between EA and the ruling bodies of ice-hockey. In the game, injured players often bleed, misaimed shots can break the glass behind the net, and the instruction manual makes references to injuring opposing key players, stating "Player injuries  it's a part of the game. Knock key opposing players out of the game with an extra hard body check."
+
+A glitch in the game, which makes scoring extraordinarily easy, is found when one wraps around the right side of the near-side net. The goalie will never switch sides, allowing for a quick put in every time.
+
+Tips:
+
+Passwords:
+
+D2JFJSNPP33HC6DN Chicago vs. Boston, Final Round
+D152Y23X87NXLV32 Chicago vs. Minnesota, Second Round
+D2B7K5NGRPH4DKHZ Chicago vs. Vancouver, Third Round
+FHNCGK835RLMPT5P Montreal vs. Boston, Final Round
+F4OCRB8ZP631FNK8 Montreal vs. Boston, Second Round
+F5BNDGGC28TMY68B Montreal vs. Chicago, Final Round
+BWBFFMCD8NJHHW18 Montreal vs. Hartford, Second Round
+BWHKPD6X4PWVC57H Montreal vs. Long Island, Third Round
+BWNSMO6434F6CT36 Montreal vs. Minnesota, Final Round
+F45H7166PF6S441M Montreal vs. New Jersey, Third Round
+HFKSH66HGRPH4DL7 New York vs. Boston, Third Round
+HFRYWR81X88115Y8 New York vs. St. Louis, Final Round
+HFDL41RN4GLP5W25 New York vs. Washington, Second Round
+HFG6P33771OYVXDB Vancouver vs. Detroit, Third Round
+HD9121KPTK5P15OF Vancouver vs. Los Angeles, Second Round
+F446LTVTHBNLZK9Y Winnipeg vs. Chicago, Third Round
+F5BCB8ONDO79VH29 Winnipeg vs. Quebec, Final Round
+F4Z123XKH3KV73WK Winnipeg vs. Vancouver, Second Round
+
+Easy Goal
+Skate behind the opponent's net, and go left to right.  The goalie will be stuck on one side. Skate out in front, and fire for an easy goal.
+
+
+http://en.wikipedia.org/wiki/NHLPA_Hockey_%2793

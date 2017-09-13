@@ -1,0 +1,22 @@
+Wolfchild
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: Core Design Ltd.
+Publisher: JVC Musical Industries, Inc.
+Players: 1
+_________________________
+Dr. Kal Morrow, expert in genetic research and creation of human-animal hybrids, has been kidnapped and his family brutally murdered by the terrorist organization CHIMERA. His surviving son Saul takes it upon himself to avenge his family. Using his father's research, he turns into a man-wolf and sets out to find CHIMERA's base and defeat their leader Karl Draxx.
+
+As Saul, it is your job to traverse five different areas on your way to Draxx. When Saul collects enough power-ups, he turns into his wolf form and gains a special psychic shot attack, which can be improved by collecting futher power-ups. However, if Saul loses health, he turns back into his human form and only has his fists to fight the numerous enemies.
+
+Gameplay:
+
+Wolfchild was designed by Simon Phipps, also responsible for the earlier Switchblade 2, a rather similar game. The action is viewed from the side and scrolls in eight directions. The player must guide Saul through five levels, negotiating platforms and shooting various monsters, the result of Chimera experiments. Initially, the player character is Saul in his normal, human form. Only when enough energy has been collected does he turn into a wolf-human, giving him much better attack techniques.
+
+http://en.wikipedia.org/wiki/Wolfchild
+http://www.mobygames.com/game/genesis/wolfchild

@@ -1,0 +1,27 @@
+X-Kaliber 2097
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1994
+Developer: Fupac
+Publisher: Activision
+Players: 1
+_________________________
+The game takes place in the near-anarchic future of the year 2097, in which the world's economy has been devastated, governments have collapsed, and organized crime has gained dramatic influence.
+
+X-Kaliber 2097's American soundtrack was arranged by 90s electronic/industrial music group Psykosonik. Psykosonik's soundtrack became an unusually large part of the game's marketing, and was often plugged in marketing blurbs. The soundtrack is also mentioned on the game packaging, and has its own section in the game manual.
+
+In X-Kaliber 2097, the player guides a swordsman named Slash through a side-scrolling environment. Boss encounters take place as one-on-one matches in the style of versus fighting games.
+
+Tips:
+
+Invincibility
+At the title screen, press: Left, Left, Right, Right, Down, Up, Right, Up, Up, Up. Go to the Options menu and activate the 'No Damage' option.
+
+Level Select
+At the title screen, press: Right, Right, Left, Left, Up, Down, Left, Down, Down, Down. Then press A to select the level.
+
+http://en.wikipedia.org/wiki/X-Kaliber_2097

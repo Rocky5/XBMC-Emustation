@@ -1,0 +1,22 @@
+Wizardry I-II-III: Story of Llylgamyn
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Satellaview Download
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2000
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+Rock on! Wizardry is neat little first-person dungeon crawler that first appeared on the Apple ][. It has a very Dungeons &amp; Dragons feel to it, which comes from the basic game play system, and the general "ambiance" of the game.
+
+Anyway, the first three Wizardry Games (Proving Ground of the Mad Overlord, Knight of Diamonds, and Legacy of Llylgamyn) were all ported to the Nes, and were decent as far as Nes first-person games go ;).However, only "Proving grounds," and "Knight of Diamonds" were translated to English, leaving Legacy behind.
+
+Not terribly long ago, these three games were given a bit of a makeover (read: graphics), and re-released for the Snes. The nifty thing is that it was released with both English and Japanese script, with an option to choose which language you'd like.
+
+However, this didn't translate everything, so Gideon picked it up and remedied the situation. He fixed various menus, spell descriptions, and (most importantly) added a lowercase font. In order to set the game to English you *MUST* open the option menu on the screen that appears after you choose which of the three games you're playing, and set all the language options to 'English.' Simple, eh?
+
+Anyway, this games comes highly recommended. You should check it out.
+
+http://www.romhacking.net/trans/496/

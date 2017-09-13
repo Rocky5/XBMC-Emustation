@@ -1,0 +1,13 @@
+Ishido: The Way of the Stones
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: Accolade, Publishing International
+Publisher: Accolade
+Players: 1
+_________________________
+Ishido: The Way of Stones is a 1989 game by Accolade and Publishing International for various home computers and consoles, including a US-only release on the Sega Genesis in 1990. It was one of Accolade's first Mega Drive releases, and as such, is unlicensed. It also predates Accolade's discovery of how TMSS worked, so will only work on Model 1 Genesis models.

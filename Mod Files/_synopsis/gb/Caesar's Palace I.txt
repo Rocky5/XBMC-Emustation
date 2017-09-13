@@ -1,0 +1,14 @@
+Caesars Palace
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Casino
+Gametype: Licensed
+Release Year: 1991
+Developer: Coconuts Japan
+Publisher: Arcadia Systems
+_________________________
+This game allows you to play in the Caesar's Palace casino. You wander around the casino and play poker, roulette, or slot machines. You bet and win chips and then exchange them for money whenever you like. The interaction is done via a cursor, everything is viewed from first-person perspective. You come to the casino on a taxi - will you be able to leave it in your own limousine?
+
+http://www.mobygames.com/game/gameboy/caesars-palace

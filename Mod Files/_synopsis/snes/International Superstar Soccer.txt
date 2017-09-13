@@ -1,0 +1,40 @@
+International Superstar Soccer
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Soccer
+Gametype: Licensed
+Release Year: 1995
+Developer: Konami
+Publisher: Konami
+Players: 1 or 2 VS
+_________________________
+International Superstar Soccer ("Live World Soccer Perfect Eleven" in Japan) is a soccer game developed by Konami for the Super NES. It is known as the best soccer game available for any 16-bit systems, mostly due to its lifelike approach, innovative for the time, that showed diversified players in the same team, with an adult look and back numbers on their respective jerseys, corresponding to real-life players of the time.
+
+ - Open Game: A simple friendly match, that can be played against the CPU, another player, or just watched as the CPU controls both teams.
+
+ - International Cup: A mode that emulates the FIFA World Cup, where teams are distributed in six groups of four teams each. The best 16 in this stage qualify to the knockout stage until the champion is known.
+
+ - World Series: A league competition where all teams play against each other in a round-robin system.
+
+ - Training: A series of challenges in different respects (dribbling, passing, shooting to the goal, defending and corner kick taking, in order), where the player must complete these challenges successfully under the established time, with the goal to sharpening the player's abilities.
+
+ - Scenario: Enables the player to select one among nine matches running their courses, in order to achieve victory before time runs out (all matches start during the second half, and the player's team may be losing or tied). A draw results in failure.
+
+ - Penalty Kick: A simple penalty kick match. Each team takes five shots alternately and, if there is no winner after these shots, they go into a sudden death round.
+
+The game uses a password system in order to save and load International Cup and World Series matches.
+
+Tips:
+
+All Star team
+Press B(2), X(2), A, Y, A, Y, Right, Left, X on controller two at the title screen.
+
+Happy players
+Press Up(2), Down(2), Left, Right, Left, Right, B, A, Start at the title screen and begin game play in open mode.
+
+Passwords:
+Play against Colombian team 2KR!L YM2WG T-BFQ -BFQ-BFQ-B FQ-BFG
+
+http://en.wikipedia.org/wiki/International_Superstar_Soccer_(video_game)

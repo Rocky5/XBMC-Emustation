@@ -1,0 +1,41 @@
+PGA Tour Golf III
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Golf
+Gametype: Licensed
+Release Year: 1994
+Developer: Polygames
+Publisher: EA Sports
+Players: 1 or 4 VS
+_________________________
+In PGA Tour Golf III for the Sega Genesis, you can choose from these Tournament Players Club courses: Summerlin, Sawgrass, Avenel, Scottsdale, Southwind, River Highlands, Las Colinas, and Woodlands. Prior to entering a tournament, where you must compete for cash against 60 professional golfers and up to three friends, you can hone your skills in the practice round, the driving range, or the putting green. Tournament play includes a Skins Challenge, Match Play, and the EA Sports Shoot-Out, which is a three-hole elimination contest.
+
+When you are getting ready to hit the ball, you must decide if you want to hook or slice the ball or if you want to hit it straight, depending on the lie of the ball, what obstacles are on the course, and what your follow up shot is going to be like. You must also decide what club to use, how much arc to put on the ball, how hard to hit the ball, and what effect the wind will have on the ball. When putting, you can look at a contour grid, which shows the topography of the putting surface.
+
+Controls:
+
+On the Course
+
+A: Display Overhead View
+B: Press three times to hit ball
+C: Display ball lie window
+D-Pad: Left/right to aim cursor, up/down to change club selection
+Start: Display/exit pause menu, pause
+
+The Ball Lie Window
+
+A or B: Cycle through special shots
+C: Display/exit ball lie window
+D-Pad: Left/right to adjust draw/fade meter, up/down to adjust arc meter
+
+On the Green
+
+A: Display green grid
+B: Press three times to hit ball
+D-Pad: Left/right to adjust aiming cursor, up/down to rotate green grid or adjust distance
+Start: Display exit/pause menu, pause
+
+Reviewer: Brett Alan Weiss
+http://www.allgame.com/game.php?id=12584

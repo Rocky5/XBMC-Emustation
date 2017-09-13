@@ -1,0 +1,17 @@
+Argus
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1986
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+_________________________
+
+Argus is a standard vertical shooting game like Raptor or Tyrian; this game bears a strong resemblance to Terra Cresta, an arcade game. There is no story, this game is a straight arcade-action shooter.
+
+The game scrolls upward as waves of enemies attempt to impede your progress, shooting slow and fast moving bullets at your ship. Armed with air-to-air and air-to-ground missiles, blast your way forward while looking for bonuses. Crudely drawn buildings must be shot or avoided since it is possible to crash into them. While moving forward the game allows your ship to move as far left or right as necessary. Finally, at the end of each level you will have to destroy a large enemy. 
+
+http://www.mobygames.com/game/nes/argus

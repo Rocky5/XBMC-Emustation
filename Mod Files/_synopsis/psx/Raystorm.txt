@@ -1,0 +1,19 @@
+RayStorm
+Platform: Playstation 1
+Region: USA
+Media: Disc
+Controller: Standard Control Pad
+Genre: Arcade - Shooter - Top Down
+Gametype: Licensed
+Release Year: 1997
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1 or 2 Alternating
+_________________________
+RayStorm is a shoot'em-up game created for the arcades, later ported to the Playstation and Saturn home consoles. Although there is no story connection, it is often thought of as the spiritual successor to RayForce, which had similar gameplay.
+
+You have 2 weapons at you disposal, a vulcan gun and a lock-on missile attack. You can also do 2 special attacks by using the lock-on system in a special way. The graphics are all in 3D, but the gameplay mechanics are in 2D. There are 7 stages, each ending with a giant end boss.
+ 
+http://www.mobygames.com/game/playstation/raystorm
+
+

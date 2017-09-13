@@ -1,0 +1,20 @@
+Gamera: The Guardian of the Universe
+Original title: Gamera: Daikai Jukutyu Kessen
+Platform: Nintendo Game Boy
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gameboy
+Genre: VS Fighter
+Gametype: Translated
+Release Year: 1999
+Translated by: TransBRC
+Version: .991
+_________________________
+This is a pretty interesting. It plays like a cross between a Vs. Fighter and a turn-based RPG. As is the code for any fighting game, battles are 1-on-1 and are determined on a best two-out-of-three basis. Pretty much it works like this: you hit a combination of buttons, and then watch Gamera perform whatever move you just did. It's kinda neet-o.
+
+Translation Description:
+
+All I have to say about the translation is ugh. Double ugh. Blibber got a great a deal of the text, but . . .UGH! I've seen better english in Godzilla movies than in this game. However, that's not entirely the fault of blibber, the text windows are tiny, and it is after all a Gameboy game? It's not like there's mounds of empty space that a quality translation would need. 
+
+Reviewer: wraith
+http://www.romhacking.net/trans/25/

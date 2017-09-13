@@ -1,0 +1,50 @@
+Stunt Race FX
+Alternative title: Wild Trax
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Cars
+Gametype: Licensed
+Release Year: 1994
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 or 2 VS
+_________________________
+Stunt Race FX appears to be like a zany version of SEGA's Virtua Racing. The gameplay differs from Nintendo's own Super Mario Kart by being somewhat more difficult and through the lack of weapons to use to attack other vehicles in the game. Similarities with Nintendo's F-Zero include the ability to boost the speed of the vehicles, the use of the L and R buttons to make sharper turns, and the possibility of damaging vehicles by running into walls, hazards, or other vehicles; falling damage is also possible.
+
+Graphics:
+
+The capabilities of the Super FX chip are demonstrated extensively in Stunt Race FX. Each course appears to be constructed with 3D polygons, complete with road bumps and overhead passes, resulting in a considerably large number of animation screens. Detailed billboard advertisements also appear throughout each race course. These realistic representations were possible on the Super NES because the Super FX chip rendered 2D sprites in a visual format that resembled 3D polygons. Under this format, polygons would not "crash" together to become distorted, though the graphics would run slower. This lack of speed was incorporated into the gameplay by featuring cars that were heavier and clumsier than those included in conventional racing games.
+
+Since polygons would not crash together under the FX graphics chip, it became impossible to depict cars crashing into water or being submerged in water. In courses with lakes or rivers, where it is possible for the player to run off the race course into the water, the player's vehicle automatically veers off-screen when the vehicle is about to enter a body of water. The game screen then fades-out to return to another camera angle.
+
+Tips:
+
+Reset memory
+At the title screen when it says 'Push Start', press Up, left, down, right, X, Y, B, A
+
+Toggle Views
+Pause the game and press Select. The car that's in the pause animation will now go backward. Now press L, R, L, R, L, R, L, R.
+
+Unlockables
+
+2WD (Dirt Bike) 
+Beat Speed Trax on the Master difficulty
+
+Radio Control Option 
+Get a perfect on all of the stunt courses (Get  all 40 stars)
+
+Master Class 
+Beat speed trax on novice and expert.
+
+Arwing in Night Owl
+In the Night Owl stage, there should be four small 'StarFox' signs on the walls of the course, that fall if you crash into them. Ram all four signs, and an Arwing from Star Fox will fly in and drop a power-up.
+
+Control the animation when the game is paused Pause the game and when the pause animation comes up, press R to make the animation run in slow motion. Press Y to speed up the car in the animation, or press Select to make it run backwards.
+
+One-Player Battle Trax
+To play battle Trax alone, select Battle Trax made and cars for both players. After the green light, wait about two seconds before hitting the gas. Any vehicle not activated by a controller will be driven by the CPU.
+
+
+http://en.wikipedia.org/wiki/Stunt_Race_FX

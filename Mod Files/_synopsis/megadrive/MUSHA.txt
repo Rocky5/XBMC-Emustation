@@ -1,0 +1,29 @@
+M.U.S.H.A.
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Vertical
+Gametype: Licensed
+Release Year: 1990
+Developer: Compile
+Publisher: Seismic
+Players: 1
+_________________________
+A spin-off from the successful Aleste series by Compile, Musha Aleste takes the same top-down shooter mechanics of it's predecessors but stages the action in a bizarre universe that merges traditional Japanese lore with sci-fi mecha action.
+
+Instead of commanding a ship, you will actually step into the cockpit of a ninja-styled mecha as you fight through the many levels in the game, with several option satellites that can be configured to use different formations.
+
+Hints:
+
+- Five Bonus Lives: -
+To earn five bonus lives, pause the game and push Right, Down, Right, Down, Left, Up, Left, Up, B, C, A and than Start.
+
+- Full powered up M.U.S.H.A.: -
+To fully power up your M.U.S.H.A., pause the game and push B, B, C, B, B, C, Up, Down and then A.
+
+- Start with Twenty Options: -
+To start with twenty options, pause the game then hit up, up, up, down, down, down, Left, Left, Left, Right, Right, Right, C, C, B, A and then Start.
+
+Reviewer: Zovni, Grog Logen
+http://www.mobygames.com/game/genesis/musha

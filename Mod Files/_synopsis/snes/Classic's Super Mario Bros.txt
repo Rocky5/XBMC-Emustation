@@ -1,0 +1,34 @@
+Classic's Super Mario Bros
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Hacked by: Lunartoad
+_________________________
+A SMB remake with the original SMW Graphics.
+
+Custom sprites :
+-Firebar
+-Blooper
+-Hammer Brother
+-Classic Bowser
+-Nokobon/Koopa Bomb (remplace Buzzy Beetle in World 8-2)
+
+Patches :
+-SMB2 music patch
+-Spin Jump disable
+-Classics fireball
+-SMB3 Koopa
+
+-The warp zones is trappeds (like in SMB2 japan)
+-The texts is in English
+
+Super Mario Bros 1985 Nintendo.
+Super Mario World 1990 Nintendo.
+Classic's Super Mario Brothers hack Remake 2008 BOBO/Lunartoad.
+Good game!
+
+http://www.smwcentral.net/?p=showhack&amp;id=1181

@@ -1,0 +1,53 @@
+Zero Wing
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Horizontal
+Gametype: Licensed
+Release Year: 1991
+Developer: Toaplan
+Publisher: Toaplan
+Players: 1
+_________________________
+Cats, the leader of a band of swashbuckling space pirates, is terrorizing the galaxy. You must pilot the only remaining Milky Way attack craft into combat and stop Cats and his buccaneers!
+
+Gameplay:
+
+As with other scrolling shooters, the aim of the game is to shoot all enemies that appear on screen and avoid getting obliterated by lasers, crashing into enemies or into foreground scenery. There are mid-level and end-of-level boss enemies that stay with the player until they are defeated.
+
+The player, a "ZIG" star fighter, has several ways to attack:
+
+    - Using the main cannon: scatter-shot (red weapon), lasers (blue weapon), or homing missiles (green weapon). Similar to configuring the Vic Viper in Gradius
+
+    - Ramming smaller enemies with the orbital cannons that appear above and below the ZIG. These cannons fire whatever weapon is equipped on the main ship at the time.
+
+    - Grabbing an enemy using the tractor beam and releasing it at another enemy, similar to the Kirby games.
+
+    - Releasing the spherical front shield once it is collected, like in R-Type.
+
+Soon after starting, the player encounters power-up ships. If destroyed, they leave behind power-ups. These run in the sequence of red weapon, blue weapon, green weapon, and speed-up, and then start with red again. There is also an occasional shield power-up, which attaches to the front of the ship. Once the first weapon power-up is collected, two small ships appear above and below the ZIG, and follow its exact movements. These extra ships are impervious and can be used as shields. As they occasionally move nearer the ZIG when blocked by large enemies or foreground scenery, they can serve as a warning to the player that they should move carefully to avoid a collision.
+
+Each of the three main weapons has three power levels. Each time the same weapon is collected, the power level increases. If a different weapon is collected, it starts back on level 1 power, unless level 3 power was already attained previously. If you have a spherical front shield while you're already holding one, a special power-up will replace it which increase all weapons to a special, otherwise unattainable, level 4. Another way to obtain level 4 is if you're already carrying a bomb and detonate an object that would yield another bomb power up. In the intro scenes, the ZIG's windows are green. In the game itself, the windows change color depending on what weapon the player has.
+
+Trivia:
+
+"All your base are belong to us"
+
+In the Sega Mega Drive version, to expand on the game's plot, an introductory cut scene was added to the game. This introductory scene was translated to English from Japanese rather poorly for the European release, because of the European version being rushed,[citation needed] resulting in dialogue such as "Somebody set up us the bomb", "All your base are belong to us" (often shortened to "All Your Base", "AYBABTU", or simply "AYB"), and "You have no chance of survive make your time." The introduction does not appear in the arcade version.
+
+In 1999, Zero Wing's introduction was re-discovered, culminating in the wildly popular "All your base are belong to us" memetic phenomenon. This also popularized the introductory and Level 3 background music by Tatsuya Uemura.[citation needed]
+
+The console version of Zero Wing was never released in North America for the Turbo Grafx (PC Engine) or Sega Genesis (Mega Drive) due to the release of the arcade version distributed by Williams Electronics, which lacks the AYB intro. However, the European Mega Drive version of the game will play on American consoles due to a lack of region protection.
+
+Hints:
+
+- Alternative Endings -
+There are three different endings depending on how many times you beat this game non-stop. No such thing as Expert Mode. Only Easy and Normal(Hard). Beat the game and your back at NATOLS, keep going for more endings.
+
+Beat the Game Once - Worst Ending
+Beat the Game Thrice - Best Ending
+Beat the Game Twice - 2nd Best Ending
+
+http://www.gamefaqs.com/console/genesis/home/468841.html
+http://en.wikipedia.org/wiki/Zero_Wing

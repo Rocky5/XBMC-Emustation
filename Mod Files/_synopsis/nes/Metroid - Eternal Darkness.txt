@@ -1,0 +1,15 @@
+Metroid: Eternal Darkness
+Original title: Metroid
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: Vandal's Hacks
+Version: Patch v0.50
+_________________________
+This Metroid hack contains entirely new levels, new enemies, new palletes, etc.
+
+http://www.zophar.net/hacks/nes/metroid-12/Metroid-Eternal-Darkness-197.html

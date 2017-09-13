@@ -1,0 +1,34 @@
+Cybernoid: The Fighting Machine
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Multi-Directional
+Gametype: Licensed
+Developer: Raffaele Cecco
+Publisher: Hewson Consultants
+Players: 1
+_________________________
+
+Zoggians Invade Asteroids
+
+It figures. If anyone could've found the riches we'd stored on those remote asteroids, it'd be the Zoggians. They were three anonymous asteroids, in a storm of thousands of other asteroids. All of which looked almost identical.
+That's why we thought they'd be a great hiding place - for rare minerals and precious gems. And they were.
+
+Until the Zog pirates caught whiff of them.
+
+Now, it's a universal disaster. They've attacked the asteroids, infiltrated our storage rooms, and confiscated jillions of astralbucks worth of commodities.Experience has taught us that conventional tactics don't work well against Zoggians. They're much too clever for that.
+
+That's why we want to try out our newest advancement in armed spacefighter technology on them. The Cybernoid. This one's got everything. Standard laser blasters? Sure. But more. Much more. There are mega-ton blasting bombs, genocide missile exterminators, and off-the-wall bouncers for hair-raising action. Plus heat-sensitive seekers - to hone in on enemy ground installations. Not to mention the magnetic superconductor shield - for impact-proof protection. There's also a rear firing blaster - for double the defensive power.
+Then there's our top-secret weapon - never before tried anywhere in the universe - CyberMace. You just have to see this one to believe it. And see it you will, because you're the one selected to fly Cybernoid's maiden mission. And you're the one who'll have to purge the asteroids of the Zoggian pirates. So go get 'em.
+
+--From the NES Cybernoid instruction manual.
+
+Gameplay:
+
+Cybernoid is split into levels with each level consisting of several screen which are travelled via a flick-screen system of play rather than scrolling. The hazards in each screen can be different - some will have just enemy pirate ships, some homing missiles, some gun turrets, some indestructible enemies on fixed-paths that have to be traversed and some a mixture of these. The Cybernoid ship can collect power-ups for assistance (including a rear-gun and a giant spiked ball which flies around the ship) and also use a variety of built-in special weapons such as shields and homing missiles.
+
+Shooting pirate ships often leaves power-ups or jewels which Cybernoid can then collect.
+
+http://en.wikipedia.org/wiki/Cybernoid:_The_Fighting_Machine
+http://www.consoleclassix.com/nes/cybernoid.html

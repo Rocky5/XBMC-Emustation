@@ -1,0 +1,53 @@
+NBA Live '95
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Basketball
+Gametype: Licensed
+Release Year: 1994
+Developer: Hitmen Productions
+Publisher: EA Sports
+Players: 1 to 4 VS; CO-OP
+_________________________
+Electronic Arts abandons the engine found in their previous four Genesis basketball games with the release of NBA Live 95. The title features a new 30 degree perspective to expand your view of the court and a TV-style presentation that updates player stats, streaks and shooting percentages along the bottom of the screen.
+
+Passing on the run, blocks, alley-oops and dunks are also included to give you complete control of the action. Use the turbo button to streak by defenders trying to stop your drive to the net! Those who prefer a more strategic game will appreciate the 46 offensive plays and four defensive sets. 
+
+Three difficulty levels, four different quarter settings, and thirteen rules (including fatigue and injuries) can be adjusted to suit your style of play. Game modes include playing a full or reduced Season, Exhibition game or Playoffs. This 16-Meg cartridge offers battery backup to save user, team and individual player statistics along with season records and playoff position. 
+
+All 27 NBA teams from the 1994-95 season are included (ratings are based on the 1993-94 season), as well as two All-Star and four custom teams. Key differences from the Super Nintendo version include: complete statistical tracking during season, 4 Way Play support, automatic steals and updated rosters.
+
+Controls:
+
+D-Pad: Move player
+Start Button: Pause game
+A Button: Turbo
+
+OFFENSE (With the Ball)
+
+B Button: Pass
+C Button: Shoot
+
+OFFENSE (Without Ball)
+
+B Button: Switch players
+C Button: Jump/rebound
+
+DEFENSE
+
+B Button: Switch to player nearest to the ball
+C Button: Jump to rebound/block shot
+
+Hints:
+
+- Golf Mode -
+Go into Exibition Mode then in the player select screen press up until you get to Start New then press Start and enter the following code: REFLOG.
+Then you should be able to play a round of golf.
+
+- Shooting practice. -
+During a game, hold A and press start. 
+All of the players, but the one you are currently controlling, will freeze. This allows you to practice with a shot percentage. 
+
+Reviewer: Scott Alan Marriott
+http://www.allgame.com/game.php?id=1654

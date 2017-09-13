@@ -1,0 +1,18 @@
+Ghost Manor
+Original title: Youkai Yashiki
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Maze - Platformer
+Gametype: Translated
+Release Year: 2008
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+
+This is a simple but fun little maze platformer for the FDS. You must find your way through several levels, searching for the flags so you can defeat various Japanese monsters. Only then will you be able to save your girlfriend. A port of an MSX game, this one has improved graphics and some new level design.
+
+This patch only translates the title screen, but that is believed to be the only Japanese text.
+
+http://www.romhacking.net/trans/1308/

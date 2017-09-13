@@ -1,0 +1,37 @@
+Commando
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Run 'n Gun - Top Down
+Gametype: Licensed
+Release Year: 1986
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+
+"Super Joe" and your skill must defeat the evil enemy army. Armed with a rifle and limited grenades, your assignment is to rescue hostages and keep the evil army from controlling the world. "Super Joe" must be watchful of the hidden characters that give him additional power and points. Also hidden are ladders that can open secret hidding places where hostages are being held.
+
+--From the NES Commando instruction manual.
+
+Directions:
+
+Shoot your way through enemy forces with the B button. You have a limited supply of grenade you can toss with the A button. Free the captives (blue guys) by touching them.
+
+Controls:
+
+A Button: Chuck Grenade
+B Button: Shoot
+Start Button: Pause
+Select Button: Select Mode
+
+Hints:
+
+Level Select
+- Play a game and lose, put your cursor over continue and press Left, Right, A, B, Down, Up on controller 2. Then hold select and A on controller 1.
+
+Show Secrets In Game
+- At the title screen press Left, Left, Left, B, B, A, A, A, A, Right on controller 2. Then press start on controller 1.
+
+http://www.consoleclassix.com/nes/commando.html

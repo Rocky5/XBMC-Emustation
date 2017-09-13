@@ -1,0 +1,16 @@
+Desert Commander
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Strategy - Turnbased
+Gametype: Licensed
+Release Year: 1989
+Developer: Kemco
+Publisher: Kemco
+Players: 1 or 2 VS
+_________________________
+
+The original Japanese game was a simulation of the North African battles of World War II. Nintendo of America made Kemco neutralize the graphics (enemy units were originally represented by swastikas).
+
+http://www.digitpress.com/

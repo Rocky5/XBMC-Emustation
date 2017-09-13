@@ -1,0 +1,50 @@
+Abadox
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1989
+Developer: Natsume
+Publisher: Natsume
+Players: 1
+_________________________
+
+In the year 5012, a strange cytoplasmic creature is sighted in your galaxy. It's Parasitis! A deadly, formless mass which feeds on all life forms and assumes the shape of its swallowed prey! Parasitis rapidly advances upon your home planet, Abadox, and engulfs it!
+
+From nearby space stations, the World Alive Force launches a full-scale attack. But the massive Parasitis crushes the entire squadron! An orbiting hospital ship is even swallowed whole - with the beautiful Princess Maria on board!
+
+You are Second Lieutenant Nazal, the lone survivor of the Force. Sidelined from the action by your ship's faulty energy drive, you witness the attack! But it's not too late to join the battle!
+
+Now your weapons are ready and your ship has been repaired! Jettison from your spacecraft, ignite your power pack and zoom into Parasitis' grisly surface. Your Mission: To blast your way inside Parasitis' nightmarish body and battle your way to its Core - to destroy it!
+
+Fight your way inside its deadly mouth! Travel down its throat, through its nerve center - battling hordes of enemy antibodies and bacteria! Use lasers, guided missiles, and special orbiting shields to destroy them! Beware the Guardians that ward off all intruders - bombard them with fierce fire power! You must succeed to save the Universe and rescue Princess Maria!
+
+--From the NES Abadox instruction manual.
+
+Overview:
+
+Parasitis, a planet-swallowing monster, has swallowed a hospital ship with the princess of Abadox aboard. You are Lieutenant Nazal. Your job is to fly inside Parasitis, rescue Princess Maria, and destroy parasitis from the inside.
+
+Abadox is a side scrolling shooter where you're inside a giant alien. The game plays a lot like Life Force or Gradius in that it is a shooter with upgradeable weapons and speed. In Abadox, however, you are a spaceman rather than a man in a spaceship.
+
+The graphics in this game had a surprising amount of detail for an 8-bit system. The alien's organs and veins look pretty real. Sometimes they even move. There seems to be a repeat of the same background music for a good many of the levels. The sound effects were good, though.
+
+Directions:
+
+Fly Lt. Nazal through the alien to save Princess Maria. Be sure to get at least one speed power-up, or you won't be fast enough to move out of the way of enemies and their fire. Some people prefer two, but don't get three. You will be too fast and hard to control. Grabbing power-ups is essential, because they add to your firepower. With three-way and five-way shots, laser beams, and circle beams, there are a lot of options for weapons. They also have power-ups that will protect you from enemies. It will start circling you as soon as you get it, and give you an extra hitpoint. Other than that, you only have one hitpoint.
+
+Controls:
+
+A Button: Adjust the radius of your protective shields
+B Button: Fire weapon
+Start Button: Pause game
+
+Hints:
+
+Invincibility
+At the title screen press: A, A, Up, B, B, Down, A, B, Start. When you start the game, press pause to become invincible. 
+
+Reviewer: Adrian
+http://www.consoleclassix.com/nes/abadox.html

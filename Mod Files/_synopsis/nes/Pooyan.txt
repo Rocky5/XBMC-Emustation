@@ -1,0 +1,15 @@
+Pooyan
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1985
+Developer: Konami
+Publisher: Hudson
+_________________________
+
+Pooyan is a Shoot-'Em-Up game, developed by Konami and published by Hudson, which was released in Japan in 1985.
+
+http://www.gamefaqs.com/console/nes/home/578249.html

@@ -1,0 +1,81 @@
+Super Mario Kart
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1992
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 to 2 VS
+_________________________
+Hi everybody! Thanks for dropping to by the Super Mario Kart race track. My name is Lakitu, I run this track. If you need my help, I'll be around.
+
+We race one seater, metal pipe frame go carts here. There are two engine sizes to choose from: 50cc or 100cc. All of the go carts are more or less the same, it's the individual drivers that make the difference when it comes to winning. Each driver has their strengths and weaknesses. Try using different drivers until you find the best one for you.
+
+--From the SNES Super Mario Kart instruction manual.
+
+Overview:
+
+Become the greatest kart racer in the whole Mushroom Kingdom! All the racers are determined. You better be, too, because the competition will be fierce and the courses are very unpredictable! So keep your wits, and good luck!
+
+Directions:
+
+Like any racing game, get to the finish before any of the other racers.
+
+There are 4 modes of play: The 1 Player Grand Prix, where you race against the computer to win! The 2 Player Grand Prix, where it's basically the same as 1 Player, except you play with another person! The Battle Mode is where you can use weapons against the computer! Finally the Time Trial is where you race to get low times to beat your latest record. 
+
+Controls:
+
+A Button - Use weapon
+B Button - Accelerate
+X Button - Behind View
+Y Button - Brake
+L Button - Hop
+R Button - Hop
+Start Button - Pause/Unpause
+Select Button - Behind View
+
+Hints:
+
+Shortcuts
+Be sure to keep your eyes peeled for shortcuts, the other guys won't take them. 
+
+Tips:
+
+Small Racers
+When at the character select screen (only in racing) hold Y and push A and your character will become small.  This will not effect speed whatsoever, it will only make it so your opponents can run you over to slow you down. Hold Y and push A to make yourself big again.
+
+Unlock Special Cup
+At the cup select screen, press the following buttons in order: L, R, L, R, L, L, R, R.
+
+Unlock Special Cup on Time Trial
+Go to Time Trial, put the cursor on Mushroom Cup and press: L, R, L, R, L, L, R, R, A. If you haven't unlocked Special Cup already, it'll be available now.
+
+Unlockables
+
+150cc Circuit 
+Obtain the Gold Cup in the Mushroom, Flower, Star,  and Special Cups in the 100cc mode.
+
+Special Cup Tracks 
+Win the Gold Cup in the Mushroom, Flower, and Star Cups in 100cc
+
+Camera Pan
+Choose any character and go to any time trial and finish it without making any mistakes. Now, when you watch the little replay clip of your race, press L or R to make the camera swing around your character.
+
+Extra Credits
+If you finish three races in the same place, you'll earn an extra continue.
+
+Ghost Racer Save, Race Against Saved Ghost
+When you have a ghost that you'd like to save in Time Trials, hold L, R, and Y at the menu screen that displays after you've completed a Time Trial race and press X. The name of the course on which the ghost was saved will be highlighted in yellow on the Course Select menu. To race against the ghost you saved, choose the course (the one highlighted in yellow) and hold L or R while pressing B when the screen asks 'Is this OK?' and the arrow is pointing to 'Yes'.
+
+Race ghost COM player in Time Trials.
+Select 1P Time Trials and then on the select driver screen, press START on 2nd controller. It will bring up a driver select for COM. Select who you want it to be. You can now race a ghost driver anytime.
+
+Speed Boost
+This speed boost can occur at the beginning of a race.  When the three lights begin to count down, if you press
+the Acceleration button just before the second light lights up, and you hold it until the race starts, you get a boost of speed. If this speed boost is timed and positioned right, it can easily put you in first place right from the start.
+
+Reviewer: LinkOfHyrule
+http://www.consoleclassix.com/snes/super_mario_kart.html

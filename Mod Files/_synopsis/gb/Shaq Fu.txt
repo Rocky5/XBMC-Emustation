@@ -1,0 +1,13 @@
+Shaq Fu
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: VS Fighter
+Gametype: Licensed
+_________________________
+While en route to a charity game in Tokyo, basketball star Shaquille O'Neill (called "Shaq" for short) is drawn into an alternate dimension by a local man who believes only Shaq can save his grandson. Once there, he must fight a succession of 11 opponents, one at a time, with gameplay resembling Street Fighter 2 or Mortal Kombat.
+
+The game's graphics used similar rotoscoping techniques (similar to those used in Flashback or Prince of Persia) making Shaq's 7'2" frame is represented. As well as the story mode, the player can play individual fights, either with 1 or 2 players, although one human player must always be Shaq. Shaq can jump a huge distance, although he struggles to block.
+
+http://www.mobygames.com/game/gameboy/shaq-fu

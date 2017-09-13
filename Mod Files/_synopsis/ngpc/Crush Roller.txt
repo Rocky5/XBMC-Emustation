@@ -1,0 +1,23 @@
+Crush Roller
+Platform: Neo Geo Pocket
+Region: USA
+Media: Cartridge
+Controller: Neo-Geo Pocket Color Controls
+Genre: Arcade - Maze
+Gametype: Licensed
+Release Year: 1999
+Developer: ADK
+Publisher: SNK
+Players: 1
+_________________________
+Crush Roller is a game for the Neo Geo Pocket Color based on the 1981 arcade game Make Trax, which was released as Crush Roller in Europe and Asia.
+
+The object of the game is to color the entire maze-like playing field with a paint brush. While you paint, two enemies walk around in the maze, when they hit you, you lose a life.
+
+A level has rollers which you can push forward with your paint brush. If you capture an enemy in the path of the roller he dies and is temporarily taken out of the game. This scores you extra points. Each subsequent enemy rolled over is worth more points.
+
+Every once in a while another creature will pop up, it will run around leaving behind track marks in your paint. Painting over this creature removes it from the game and scores you additional points. His tracks have to be repainted.
+
+When the entire maze is painted you win the level. Unlike the original arcade version the Neo Geo Pocket Color version has multiple levels.
+
+http://www.mobygames.com/game/neo-geo-pocket-color/crush-roller

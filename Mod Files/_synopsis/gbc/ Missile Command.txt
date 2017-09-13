@@ -1,0 +1,14 @@
+Missile Command
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1999
+Developer: The Code Monkeys
+Publisher: Hasbro Interactive
+_________________________
+Missile Command is a Shoot-'Em-Up game, developed by The Code Monkeys and published by Hasbro Interactive, which was released in 1999.
+
+http://www.gamefaqs.com/portable/gbcolor/home/576833.html

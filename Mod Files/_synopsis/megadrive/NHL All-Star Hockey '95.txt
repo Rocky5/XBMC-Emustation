@@ -1,0 +1,51 @@
+NHL All-Star Hockey '95
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1995
+Developer: SEGA
+Publisher: SEGA
+Players: 1 to 2 VS; CO-OP
+_________________________
+Sega's second attempt at hockey for the Genesis (after Mario Lemieux Hockey) offers 26 NHL teams and 650 professional players rated in 15 categories. Team rosters and the season schedule are based on the NHL's 1994-95 season. Also noteworthy is the inclusion of broadcaster Marv Albert to provide color commentary. Other features include: one-timers, line changes, adjustable penalties, fighting, speed bursts, cross-checks, instant replay, manual or automatic goalies, and complete statistical tracking saved to battery. Game modes include: Exhibition, Full Season, New Playoffs, and New Playoffs/7 Game. All modes support two players except for the full 84 game season. Special attention was given to the animation, with players having over 1,000 frames to make them look smooth on the ice.
+
+Controls:
+
+MENUS
+
+D-Pad: Highlight option/toggle data.
+Start Button: Exit screen.
+A/B/C Buttons: Select option.
+
+OFFENSE
+
+D-Pad: Skate, aim pass or shot.
+A Button: Shoot.
+B Button: Pass.
+C Button: Line charge.
+
+DEFENSE
+
+D-Pad: Skate.
+A Button: Stick check.
+A Button: Activate closest defender, poke check.
+C Button: Speed burst, shoulder check.
+A + B Buttons: Hold/hook.
+B + C Buttons: Trip.
+
+FIGHTING
+
+D-Pad: Move.
+A Button: Head punch.
+A Button: Block.
+C Button: Lunge/hold.
+D-Pad Down + A Button: Body punch.
+D-Pad Up + A Button: Push.
+D-Pad Down + A Button: Duck.
+C Button (tap):Health.
+
+Reviewer: Scott Alan Marriott
+http://www.allgame.com/game.php?id=12620

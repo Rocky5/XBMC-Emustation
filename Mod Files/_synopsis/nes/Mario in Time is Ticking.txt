@@ -1,0 +1,17 @@
+Mario in Time is Ticking
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2007
+Hacked by: Googie
+Version: 1.0
+_________________________
+Here's a hack that's only 6 levels long and the object of the game is you gotta beat the levels before the 99 seconds run out. Please read the readme for more information that's in the zip file.
+
+Enjoy?
+
+http://www.romhacking.net/hacks/306/

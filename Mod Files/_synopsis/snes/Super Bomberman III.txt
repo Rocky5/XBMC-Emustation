@@ -1,0 +1,64 @@
+Super Bomberman 3
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Fixed
+Gametype: Licensed
+Release Year: 1995
+Developer: Hudson Soft
+Publisher: Hudson Soft
+Players: 1 to 4 VS
+_________________________
+This game scales back a lot of gameplay additions made in Super Bomberman 2 and returns to the classic formula. As for multiplayer, the game adds a lot over the previous game by adding more characters, each representing a country of Earth (including one of the villains, Pretty Bomber, as France, which marks her first appearance as a non-enemy character). There are also new cutscenes for the Story mode, which centers around the resurrection of the Five Dastardly Bombers who were previously defeated in Super Bomberman 2, as Shirobon and Kurobon adventure across various element themed stars in which the Five are causing havoc, under the rule of their creator, Bagular. Super Bomberman 3 is also the first game in the Super Bomberman series to feature Louies, which would become frequent in the next installments.
+
+The overall animation graphics changed with the 3rd installment; unlike Super Bomberman 1 and 2, the 3rd sequel's graphics were simplified, which look similar to the graphics of the old PC-Engine/TurboGrafx-16 Bomberman games, and most of the music in the game are remixed versions of previous older Bomberman soundtracks.
+
+Tips:
+
+Change Multiplayer Levels
+4622
+
+Level Passwords:
+5358 1-1
+9486 1-2
+4332 1-3
+3306 1-4
+6408 2-1
+5862 2-2
+4836 2-3
+7938 2-4
+9438 3-1
+8412 3-2
+7386 3-3
+5880 3-4
+8916 4-1
+7890 4-2
+5360 4-3
+3309 4-4
+5865 5-1
+8967 5-2
+2787 5-3
+9473 5-4
+2280 Boss 1
+6912 Boss 2
+4854 Boss 3
+6411 Boss 4
+2301 Boss 5
+6363 Final Stage
+
+Normal Game + Battle Mode Codes
+0704 Area 1 (all equipment)
+3200 Area 2 (all equipment)
+2711 Area 3 (all equipment)
+3870 Area 4 (all equipment)
+4501 Area 5 (all equipment)
+0606 Area 6 (all equipment)
+3104 Final Boss (all equipment)
+1511 Harder Opponents in Battle Game (Lvl 4)
+1616 New Battle Mode Arenas
+4622 New Battle Mode Arenas
+3194 New Battle Mode Arenas
+5656 Yellow Character (Player needs to win single battle mode to obtain effect)
+
+http://en.wikipedia.org/wiki/Super_Bomberman_3

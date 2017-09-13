@@ -1,0 +1,14 @@
+Super Demo World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2001
+Hacked by: FuSoYa
+Version: 1.0
+_________________________
+The first version of Demo World was released on September 10, 2001. While it only contained a few short levels, it's primary purpose was to serve as an example for how to do custom block ASM. To this end, it was the first hack to implement the animated "breakable brick" from Mario 3. The brick could be broken only when Mario hit it from below when big or from the side with a cape. It would also turn into a coin when a POW was hit. There were a few other custom blocks as well, such as a block that would break only when Mario hit it with a fireball, and a Mario 3 style frozen coin. 
+
+http://fusoya.eludevisibility.org/lm/dw.html

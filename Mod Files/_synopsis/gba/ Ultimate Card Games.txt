@@ -1,0 +1,20 @@
+Ultimate Card Games
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Board Game
+Gametype: Licensed
+Release Year: 2004
+Developer: Cosmigo
+Publisher: Telegames, Inc.
+_________________________
+A comprehensive collection of card games for the GBA. Includes options for both single player and multi-player games. On screen rules and demo modes are provided for the games. Simple controls (ala windows-style) allow easy navigation. Options to change background image, music, and card deck backs are included. Also includes an option to create a custom face for your player using the built in face generator. The following games are included (by category)
+
+Casino: Poker, Black Jack, Video Poker
+
+Classic: Hearts, Spades, Euchre, Canasta, Bridge, Cribbage, Go Fish, Gin Rummy, Crazy Eights
+
+Solitaire: Klondike, FreeCell, Canfield, Pyramid, Gold, Spiderette, Baker's Dozen, Bristol, Castle, Aces Up, Baroness, Eagle Wing, Eight Off, Calculation, Betsy Ross
+
+http://www.mobygames.com/game/gameboy-advance/ultimate-card-games

@@ -1,0 +1,38 @@
+Uno 52
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Board Game
+Gametype: Licensed
+Release Year: 2006
+Developer: Black Lantern Studios
+Publisher: DSI Games
+_________________________
+The classic game of Uno comes to the DS with different game modes. Players can customize the entire game setup based on the number of players, individual customization, game type, number of cards, alternate cards and house rules. The predefined game types include:
+
+- Endless: no win conditions and endless rounds. Between each round chips, pot wins, first-out wins and poker hand wins are shown.
+
+- Chips: earn 50 to 500 to win. Players start with 25 chips and can go into debt.
+
+- Uno Wins: win 1 to 10 rounds by going out first.
+
+- Poker Wins: win 1 to 10 rounds with a poker hand.
+
+- Pot Wins: win the pot in 1 to 10 rounds.
+
+- Survival: extra ante based on the number of players still at the table. Players who lose all their chips are eliminated.
+
+There are also four special modes available:
+
+- Challenge Mode: play five unique or randomly-generated levels with different win conditions.
+
+- Endurance Mode: maximize the score without running out of chips.
+
+- Timed Mode: earn as much as possible before time runs out.
+
+- Solitaire Mode: play all cards in a twist on the classic Solitaire card game.
+
+All the classic cards are available as well as the alternate poker rules for cards. Wireless multiplayer is supported for up to four players for the DS version, which is generally a port of the GBA release with stretched screens and ported sound. The number 52 in the title refers to the included game variation.
+
+http://www.mobygames.com/game/gameboy-advance/uno-52

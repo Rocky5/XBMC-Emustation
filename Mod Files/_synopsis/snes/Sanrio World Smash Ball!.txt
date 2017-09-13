@@ -1,0 +1,374 @@
+Sanrio World Smash Ball!
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports
+Gametype: Translated
+Release Year: 1999
+Translated by: Suicidal Translations
+Version: 1.00
+_________________________
+This is a pretty sweet game. It plays kinda like pong, but 100 times better, and with Sanrio! The object is simple, you pick a character (Kero Kero Keroppi, Tabo, Pokyopon, or Hangyodon), then you play against one of the other three characters. The object is simple: hit the smashball back and forth and try to get it in your ooponent's goal. First person to score three times wins. Anyway, it's fun, it's Sanrio, so you better check it out. K? K.
+
+Translation Description:
+
+The game is completely finished! And look at that font! LordTech seriously rocks, you guys.
+
+Hangyodon Stage Passwords:
+At the menu screen, select continue and enter the code for whichever stage you want to skip to.
+
+Acorn, Acorn, Lime, Lime Hangyodon
+Stage 1
+
+Strawberry, Acorn, Lime, Lime Hangyodon
+Stage 2
+
+Acorn, Strawberry, Lime, Lime Hangyodon
+Stage 3
+
+Strawberry, Strawberry, Lime, Lime Hangyodon
+Stage 4
+
+Acorn, Acorn, Orange, Lime Hangyodon
+Stage 5
+
+Strawberry, Acorn, Orange, Lime Hangyodon
+Stage 6
+
+Apple, Strawberry, Orange, Lime Hangyodon
+Stage 7
+
+Cherry, Strawberry, Orange, Lime Hangyodon
+Stage 8
+
+Apple, Acorn, Lime, Orange Hangyodon
+Stage 9
+
+Cherry, Acorn, Lime, Orange Hangyodon
+Stage 10
+
+Apple, Strawberry, Lime, Orange Hangyodon
+Stage 11
+
+Cherry, Strawberry, Lime, Orange Hangyodon
+Stage 12
+
+Acorn, Apple, Orange, Orange Hangyodon
+Stage 13
+
+Strawberry, Apple, Orange, Orange Hangyodon
+Stage 14
+
+Acorn, Cherry, Orange, Orange Hangyodon
+Stage 15
+
+Strawberry, Cherry, Orange, Orange Hangyodon
+Stage 16
+
+Lime, Apple, Lime, Lime Hangyodon
+Stage 17
+
+Orange, Apple, Lime, Lime Hangyodon
+Stage 18
+
+Lime, Cherry, Lime, Lime Hangyodon
+Stage 19
+
+Orange, Cherry, Lime, Lime Hangyodon
+Stage 20
+
+Lime, Apple, Grape, Lime Hangyodon
+Stage 21
+
+Orange, Apple, Grape, Lime Hangyodon
+Stage 22
+
+Lime, Cherry, Grape, Lime Hangyodon
+Stage 23
+
+Orange, Cherry, Grape, Lime Hangyodon
+Stage 24
+
+Lime, Apple, Banana, Orange Hangyodon
+Stage 25
+
+Orange, Apple, Banana, Orange Hangyodon
+Stage 26
+
+Lime, Cherry, Banana, Orange Hangyodon
+Stage 27
+
+Orange, Cherry, Banana, Orange Hangyodon
+Stage 28
+
+Lime, Apple, Orange, Grape Hangyodon
+Stage 29
+
+Orange, Apple, Orange, Grape Hangyodon
+Stage 30
+
+Keroppi Stage Passwords:
+At the menu screen, select continue and enter the code for whichever stage you want to skip to.
+
+Acorn, Acorn, Acorn, Acorn 
+Keroppi Stage 1
+
+Strawberry, Acorn, Acorn, Acorn 
+Keroppi Stage 2
+
+Acorn, Strawberry, Acorn, Acorn 
+Keroppi Stage 3
+
+Strawberry, Strawberry, Acorn, Acorn 
+Keroppi Stage 4
+
+Acorn, Acorn, Strawberry, Acorn 
+Keroppi Stage 5
+
+Strawberry, Acorn, Strawberry, Acorn 
+Keroppi Stage 6
+
+Acorn, Strawberry, Strawberry, Acorn 
+Keroppi Stage 7
+
+Strawberry, Strawberry, Strawberry, Acorn 
+Keroppi Stage 8
+
+Acorn, Acorn, Acorn, Strawberry 
+Keroppi Stage 9
+
+Strawberry, Acorn, Acorn, Strawberry 
+Keroppi Stage 10
+
+Acorn, Strawberry, Acorn, Strawberry 
+Keroppi Stage 11
+
+Strawberry, Strawberry, Acorn, Strawberry 
+Keroppi Stage 12
+
+Acorn, Acorn, Strawberry, Strawberry 
+Keroppi Stage 13
+
+Strawberry, Acorn, Strawberry, Strawberry 
+Keroppi Stage 14
+
+Acorn, Strawberry, Strawberry, Strawberry 
+Keroppi Stage 15
+
+Strawberry, Strawberry, Strawberry, Strawberry 
+Keroppi Stage 16
+
+Lime, Acorn, Acorn, Acorn 
+Keroppi Stage 17
+
+Orange, Acorn, Acorn, Acorn 
+Keroppi Stage 18
+
+Lime, Strawberry, Acorn, Acorn 
+Keroppi Stage 19
+
+Orange, Strawberry, Acorn, Acorn 
+Keroppi Stage 20
+
+Lime, Acorn, Strawberry, Acorn 
+Keroppi Stage 21
+
+Orange, Acorn, Strawberry, Acorn 
+Keroppi Stage 22
+
+Lime, Strawberry, Strawberry, Acorn 
+Keroppi Stage 23
+
+Orange, Strawberry, Strawberry, Acorn 
+Keroppi Stage 24
+
+Lime, Acorn, Acorn, Strawberry 
+Keroppi Stage 25
+
+Orange, Acorn, Acorn, Strawberry 
+Keroppi Stage 26
+
+Lime, Strawberry, Acorn, Strawberry 
+Keroppi Stage 27
+
+Orange, Strawberry, Acorn, Strawberry 
+Keroppi Stage 28
+
+Lime, Acorn, Cherry, Strawberry 
+Keroppi Stage 29
+
+Orange, Acorn, Cherry, Strawberry 
+Keroppi Stage 30
+
+Pokopon Stage Passwords:
+At the menu screen, select continue and enter the code for whichever stage you want to skip to.
+
+Acorn, Acorn, Acorn, Lime 
+Pokopon Stage 1
+
+Strawberry, Acorn, Acorn, Lime 
+Pokopon Stage 2
+
+Acorn, Strawberry, Acorn, Lime 
+Pokopon Stage 3
+
+Cherry, Acorn, Acorn, Apple 
+Pokopon Stage 10
+
+Apple, Strawberry, Acorn, Orange 
+Pokopon Stage 11
+
+Cherry, Strawberry, Acorn, Orange 
+Pokopon Stage 12
+
+Acorn, Apple, Strawberry, Orange 
+Pokopon Stage 13
+
+Strawberry, Apple, Strawberry, Orange 
+Pokopon Stage 14
+
+Acorn, Cherry, Strawberry, Orange 
+Pokopon Stage 15
+
+Strawberry, Cherry, Strawberry, Orange 
+Pokopon Stage 16
+
+Lime, Apple, Acorn, Lime 
+Pokopon Stage 17
+
+Orange, Apple, Acorn, Lime 
+Pokopon Stage 18
+
+Lime, Cherry, Acorn, Lime 
+Pokopon Stage 19
+
+Orange, Cherry, Acorn, Lime 
+Pokopon Stage 20
+
+Lime, Apple, Strawberry, Lime 
+Pokopon Stage 21
+
+Orange, Apple, Strawberry, Lime 
+Pokopon Stage 22
+
+Lime, Cherry, Strawberry, Lime 
+Pokopon Stage 23
+
+Orange, Cherry, Strawberry, Lime 
+Pokopon Stage 24
+
+Lime, Apple, Acorn, Orange 
+Pokopon Stage 25
+
+Orange, Apple, Acorn, Orange 
+Pokopon Stage 26
+
+Lime, Cherry, Acorn, Orange 
+Pokopon Stage 27
+
+Orange, Cherry, Acorn, Orange 
+Pokopon Stage 28
+
+Lime, Apple, Strawberry, Orange 
+Pokopon Stage 29
+
+Orange, Apple, Strawberry, Orange 
+Pokopon Stage 30
+
+Tabo Stage Passwords:
+
+At the menu screen, select continue and enter the code for whichever stage you want to skip to.
+
+Acorn, Acorn, Lime, Acorn 
+Tabo Stage 1
+
+Strawberry, Acorn, Lime, Acorn 
+Tabo Stage 2
+
+Acorn, Strawberry, Lime, Acorn 
+Tabo Stage 3
+
+Strawberry, Strawberry, Lime, Acorn 
+Tabo Stage 4
+
+Acorn, Acorn, Orange, Acorn 
+Tabo Stage 5
+
+Strawberry, Acorn, Orange, Acorn 
+Tabo Stage 6
+
+Apple, Strawberry, Orange, Acorn 
+Tabo Stage 7
+
+Cherry, Strawberry, Orange, Acorn 
+Tabo Stage 8
+
+Apple, Acorn, Lime, Strawberry 
+Tabo Stage 9
+
+Cherry, Acorn, Lime Strawberry 
+Tabo Stage 10
+
+Apple, Strawberry, Lime, Strawberry 
+Tabo Stage 11
+
+Cherry, Strawberry, Lime, Strawberry 
+Tabo Stage 12
+
+Acorn, Apple, Orange, Strawberry 
+Tabo Stage 13
+
+Strawberry, Apple, Orange, Strawberry 
+Tabo Stage 14
+
+Acorn, Cherry, Orange, Strawberry 
+Tabo Stage 15
+
+Strawberry, Cherry, Orange, Strawberry 
+Tabo Stage 16
+
+Lime, Apple, Lime, Acorn 
+Tabo Stage 17
+
+Orange, Apple, Lime, Acorn 
+Tabo Stage 18
+
+Lime, Cherry, Lime, Acorn 
+Tabo Stage 19
+
+Orange, Cherry, Lime, Acorn 
+Tabo Stage 20
+
+Lime, Apple, Orange, Acorn 
+Tabo Stage 21
+
+Orange, Apple, Orange, Acorn 
+Tabo Stage 22
+
+Lime, Cherry, Orange, Acorn 
+Tabo Stage 23
+
+Orange, Cherry, Orange, Acorn 
+Tabo Stage 24
+
+Lime, Apple, Lime, Strawberry 
+Tabo Stage 25
+
+Orange, Apple, Lime, Strawberry 
+Tabo Stage 26
+
+Lime, Cherry, Lime, Strawberry 
+Tabo Stage 27
+
+Orange, Cherry, Lime, Strawberry 
+Tabo Stage 28
+
+Lime, Apple, Orange, Strawberry 
+Tabo Stage 29
+
+Orange, Apple, Orange, Strawberry 
+Tabo Stage 30
+
+Reviewer: wraith
+http://www.romhacking.net/trans/437/

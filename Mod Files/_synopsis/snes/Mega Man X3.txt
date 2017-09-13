@@ -1,0 +1,225 @@
+Megaman X3
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+EMERGENCY
+
+Alert! Alert! The DOPPLER research reploid has inspired a revolt in DOPPLER-TOWN. The Maverick VIRUS has broken through the Doppler ANTI-VIRUS, and it appears Doppler has caused it. All previous postings here about the anti-virus are incorrect. The anti-virus is a placebo. REPEAT: THE ANTI-VIRUS IS A PLACEBO!
+
+DopplerTown is over-run with Mavericks. Utopia has ended before it even started. Take cover quickly. Virus is spreading rapidly. Cain Laboratory is being infiltrated. MAVERICK HUNTER UNITS on FULL ALERT. MEGA MAN X and ZERO... mobilize! Grave Danger!
+
+--From the SNES Mega Man X 3 instruction manual.
+
+Overview:
+
+Mega Man X, Zero, and the rest of the Maverick hunters still have more work to do thanks to Dr. Doppler's army of Maverick Robots. Can X and Zero finally destroy all the Mavericks and wipe the Sigma virus from the face of the planet?
+
+Directions:
+
+I strongly suggest you play through Mega Man X before playing Mega Man X3.
+
+In this game you don't have to search for the ability to dash, you have it from the start (If you are using a controller I suggest going into options and changing dash to R or L). Mega Man can fire small, medium, or large charged blasts. The longer you hold the button the more powerful it becomes.
+
+Just jump up against a wall to cling to it. You'll slowly slide down it. If you press jump and push towards the wall you'll be able to climb it. If you press jump and dash from a wall you'll leap to otherwise unreachable areas.
+
+Mega Man X3 adds new upgrades to the mix. Now the dash upgrade lets Mega Man dash left, right, and up when he's in the air. This is an upgrade you NEED. You'll have to find it in Blizzard Buffalo's stage.
+
+During the early levels of the game, you may not have enough power to get through some tough spots, so once every level you may call Zero by going into the menu and press L select (Default L) to pop up the COM window. Press A to call Zero. Zero will leave when he comes up against a boss door. If Zero is killed he is dead for the rest of the game and cannot be called again.
+
+Need even more firepower? Those X platforms spread throughout the game let you call on Mechs you've collected in other levels. To be able to use these X platforms, you'll need to get the Chimera Armor in Blast Hornet's Stage. It's hidden well, you'll need the Tunnel Fang to find it. 
+
+Controls:
+
+A Button - Dash
+B Button - Jump
+X Button - Nothing
+Y Button - Shoot
+L Button - Select Weapon
+R Button - Select Weapon
+Start Button - Menu
+Select Button - Nothing
+
+Hints:
+
+Golden Armor
+To get the Super Golden Armor, you must destroy all the bosses (that means you have to kill Bit, Byte, and Vile with the weapons they are weak against) as well as collect all the upgrades, energy tanks, heart tanks, mechs, and NOT GET ANY upgrade CHIPS. While going through Doppler's fortress you'll meet an acid spitting boss. Defeat him and proceed. KEEP YOUR HEALTH HIGH. You have to have max health to get the upgrade. The first pit you come up to slide down, holding onto the left wall. You'll find a secret passage, and if you did everything right you'll see the capsule for the Golden Armor. Now you have all the Chip powers instead of just one.
+
+Z Sabre
+To equip X with the Z Sabre, you have to destroy Vile (you MUST kill him with his weakness). Zero must be alive, and you must not use him too early in Doppler's second stage. In Doppler's second stage, right after the water part you will see a boss door. Change to Zero and go in and fight the boss. Zero will give X his sabre whether he wins or looses. Use it like you would with Zero. Charge up till you're green, fire two charged shots, and the third will be the sabre. The Sabre strike can kill any boss in two hits. 
+
+Tips:
+
+Code
+All armor parts, all enemy skills, all sub-tanks, all heart tanks, all ride armors and no enhance chip aquire, so you can still have the change to obtain the gold armor in doppler stage. The stage start at where Doppler stage just shown out at the MAP selection screen
+
+7357, 5363, 6462, 7841 
+Bit=Beaten, Byte=Beaten, Vile=Beaten
+
+6414, 4155, 6872, 3356 
+Bit=Beaten, Byte=Beaten, Vile=NotBeaten
+
+5464, 4155, 6872, 3158 
+Bit=Beaten, Byte=NotBeaten, Vile=Beaten
+
+6464, 4155, 6872, 3358 
+Bit=Beaten, Byte=NotBeaten, Vile=Not Beaten
+
+3317, 1153, 6772, 3827 
+Bit=NotBeaten, Byte=Beaten, Vile=Beaten
+
+2357, 5163, 6462, 7747 
+Bit=NotBeaten, Byte=Beaten, Vile=Not Beaten
+
+5464, 4355, 6872, 3156 
+Bit=Not Beaten, Byte=NotBeaten, Vile=Beaten
+
+6464, 4355, 6872, 3356 
+Bit=Not Beaten, Byte=NotBeaten, Vile=Not Beaten
+
+Passwords:
+
+3421 2337 6378 7156 
+All 19 items obtained w/Vile destroyed w/Leg and Arm Capsule
+
+8447 4335 6646 5556 
+All heart tanks, all subtanks, no robot changers,  no bosses defeated.
+
+5418 3153 6877 3155 
+All Weapons, Hearts, Ride Armors w/Zero's Saber
+
+1454 3535 6162 7162 
+At last boss with everything, including Golden Suit.
+
+3668 4884 3851 4221 
+Blast Hornet and Blizzard Buffalo defeated
+
+7745 5253 1441 5486 
+Blast Hornet defeated
+
+3661 4888 3851 2227 
+Blast Hornet, Blizzard Buffalo, and  Gravity Beetle defeated
+
+3661 4884 3351 2227 
+Blast Hornet, Blizzard Buffalo, Gravity Beetle, and  Toxic Seahorse defeated
+
+1778 5232 3541 6488 
+Blast Hornet, Blizzard Buffalo, Gravity Beetle, Toxic  Seahorse, and Volt Catfish defeated
+
+3661 4884 3321 8227 
+Blast Hornet, Blizzard Buffalo, Gravity Beetle, Toxic  Seahorse, Volt Catfish, and Crush Crawfish defeated
+
+3661 4888 3327 8221 
+Blast Hornet, Blizzard Buffalo, Gravity Beetle, Toxic  Seahorse, Volt Catfish, Crush Crawfish, and Tunnel  Rhino defeated
+
+7771 5231 3541 2486 
+Blizzard Buffalo and Toxic Seahorse defeated,  no upgrades
+
+5275 1266 1751 5458 
+Blizzard Buffalo defeated
+
+8216 4156 6742 3821 
+Crush Crawfish defeated
+
+6764 7864 3622 8653 
+Doopler stage 1 with Z-Sabre and Full armor
+
+8677 3261 3662 8322 
+Doopler Stage 1 with Z-Sabre, all Ride Armors  and full Armor
+
+4664 8854 1272 3753 
+Doopler stage 1 with Z-sabre, all Ride Armors,  all Sub-Tanks and Full Armor
+
+6778 8864 3362 8753 
+Doopler stage 1 with Z-Sabre, all Ride Armors,  Leg and Arm parts
+
+6774 8864 7362 8753 
+Doopler stage 1 with Z-Sabre, all Ride Armors,  Leg, Body and Arm parts
+
+2671 3251 3282 6542 
+Doopler Stage 1 with Z-Sabre, Arm and  Leg parts only
+
+4868 7851 7282 6783 
+Doopler stage 1 with Z-Sabre, Leg part, Chimera,  Frog and Kangaroo Rider Armors
+
+8661 6264 7322 8522 
+Dooppler stage 1 with Z-Sabre and leg part only
+
+4778 7851 3587 6683 
+Dooppler stage 1 With Z-Sabre only
+
+2677 3251 7282 6542 
+Dooppler stage 1 with Z-Sabre, Arm, Leg  and Body parts only
+
+3317 8683 6772 3873 
+Doppler Fortress 1 or 2. Gold chip and Z-Sabre.
+
+8127 4365 6316 5311 
+Dual Air Dash, Hyper Crash, Energy Recharge,  no bosses defeated
+
+8841 5233 6646 5856 
+F-Ride Armor 4 Heart Tanks 3 Sub Tanks Leg  Capsules No Bosses Defeated
+
+1454 3365 6162 7183 
+Gives you all Heart Tanks, Sub-Tanks, Ride Armor, Regular Armor pieces (No Super Chips),  Maverick Weapons, and the Z-Saber
+
+7743 5256 1441 5486 
+Gravity Beetle defeated
+
+5114 4185 6872 3111 
+Have Everything Except Z-Sabre, and have 3 of the 4 Chips
+
+6414 4585 6872 3111 
+Last level with all power ups
+
+6718 1861 3627 8656 
+Last Level with NO items, NO armor upgrades,  NO power-ups. (Bit, Byte and Vile are all beaten)
+
+8367 1683 6772 3878 
+Level 1 of Dr. Doppler's lab. All upgrades  except the Z Sabre
+
+3723 1283 1751 1456 
+Neon Tiger defeated
+
+7741 5231 3441 2486 
+Opening Stage beat
+
+8317 1683 6772 3876 
+Start off at Dr. Doppler's lab
+
+8127 4565 6316 5316 
+Super Armor, Dual Air Dash and Energy Recharge,  no bosses defeated
+
+8127 4535 6316 5311 
+Super Armor, Dual Air Dash and Hyper Crash,  no bosses defeated
+
+8127 4565 6316 5351 
+Super Armor, Hyper Crash, and Energy Recharge,  no bosses defeated
+
+2376 2163 6258 7841 
+Toxic Seahorse defeated
+
+5765 1263 1756 5488 
+Tunnel Rhino defeated
+
+5768 1267 4758 5488 
+Volt Catfish defeated
+
+Zero's Status
+Depending on Zero's status in the game, you can have different endings and a different charge on your Buster.
+6464 4355 6878 7356 Alive
+6464 4355 6878 7355 Defeated
+6464 6355 6878 7355 Z-Saber Accessible
+
+Cx4 test
+Hold B on controller 2, then turn on the power of the Super Nintendo to view the stats of the game's Cx4 chip.
+
+Reviewer: agoaj
+http://www.consoleclassix.com/snes/mega_man_x_3.html

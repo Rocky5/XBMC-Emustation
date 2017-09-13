@@ -1,0 +1,15 @@
+Boulder Dash Greed
+Original title: Boulder Dash
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Hack
+Players: 1
+Hacked by: Dragon Eye Studios
+Version: Patch v0.8
+_________________________
+This is a hack of Boulder Dash, a fairly obscure game for the NES. New levels have been added using "Quarry" the Boulder Dash level editor created by Dan.
+
+http://www.zophar.net/hacks/nes/boulder-dash.html

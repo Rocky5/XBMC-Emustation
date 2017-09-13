@@ -1,0 +1,34 @@
+Little Nemo: The Dream Master
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Publisher: Capcom
+Players: 1
+_________________________
+
+Little Nemo is invited to the royal palace of the King of Slumberland. Along the way he has many adventures in a land where dreams are real, and danger is everywhere. The good King of Slumberland has been kidnapped by the wicked King of Nightmares. Can you help Little Nemo rescue the good King, and restore peace to the land of dreams?
+
+--From the NES Little Nemo Dream Master instruction manual.
+
+Directions:
+
+Collect all the keys to unlock the door at the end of the level! Feed candy to animals and they may help you. If they fall asleep after eating candy, try jumping on them!
+
+Controls:
+
+A Button: Jump
+B Button: Throw Candy
+Start Button: Pause
+Select Button: Hop off animal
+
+Hints:
+
+Level Select
+Press Up, Select, Left, Right, A, A, B at the title screen. 
+
+Reviewer: Agoaj
+http://consoleclassix.com/nes/little_nemo_dream_master.html

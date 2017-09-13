@@ -1,0 +1,30 @@
+Back to the Future
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1985
+Developer: Software Images
+Publisher: Electric Dreams Software
+Players: 1
+_________________________
+
+Poor Marty McFly. He's not having a very good day. First his friend Professor Emmett Brown is shot by a bunch of gun-toting crazies, all because he cheated them out of a little plutonium. Then Marty was just barely able to escape in the Prof's new sports car turned time machine.
+
+The problem is that this time machine propelled him back to the year 1955. To make matters worse, Marty managed to interfere with George McFly and Lorraine Baine's first meeting, they are the 50's teenagers that will some day be his parents. Because of Marty, they do not meet as before, which means that they won't fall in love, get married and raise a family. That means Marty will never be born.
+
+Marty has only one hope and that is you! Somehow you have to help him undo the damage he did when he first arrived in the past. You both have to make sure that history repeats itself and his parents fall in love at the big dance. Keep in mind though, that Marty has made lots of enemies among the local bullies. So getting from place to place is going to be a real challenge. And time is definitely not on your side.
+
+--From the NES Back to the Future instruction manual.
+
+Gameplay:
+
+In the single mode game, the player controls Marty McFly through various stages set in 1955 in which he collects various clock icons in order to advance to the next level, and avoid the gradual vanishing of his future (indicated by a fading photograph at the bottom of the screen.) If the photograph fades fully, Marty would lose a life as it would show him vanishing. Collecting 100 clocks restored the photograph to its full, unfaded status. Two power-ups can help improve Marty's control: bowling balls that can destroy enemies and a skateboard which can speed up gameplay. There are also three minigames at the end of each stage, featuring such scenarios as Marty repelling Biff Tannen's gang of bullies from a cafe, blocking all the kisses Lorraine sends Marty (in the shape of little hearts), and having to position his guitar properly to stay in tune at the dance in order for George and Lorraine to kiss. The gameplay on these stages is often compared to that of Paperboy.
+
+In the final stage, Marty gets to control the DeLorean time machine on the street at night, dodging lightning bolts and obstacles while accelerating in such a way as to reach 88 miles per hour precisely at the end of the stage, enabling the time machine to bring Marty home to 1985.
+
+If Marty loses all his lives, there would be a losing screen shot which reads "Tough luck Marty! It looks like you are stuck here". The player would also be shown that screen shot if Marty failed to get the DeLorean to 88 mph by the time he reached the wires, regardless of how many lives he had left.
+
+http://www.consoleclassix.com/nes/back_future.html

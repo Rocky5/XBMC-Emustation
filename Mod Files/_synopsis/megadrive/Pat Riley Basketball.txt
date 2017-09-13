@@ -1,0 +1,35 @@
+Pat Riley Basketball
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Basketball
+Gametype: Licensed
+Release Year: 1990
+Developer: SEGA
+Publisher: SEGA
+Players: 1 to 2 VS
+_________________________
+The first hoops game to appear on the Genesis, Pat Riley Basketball features two modes of play: Exhibition and Tournament. You can choose from three game times (20-minute, 48-minute and 80-minute), two game speeds (Normal and Slow) and two types of defense (Man to Man and Zone).
+
+Due to the lack of an NBA license, no real players appear in the game. Instead, there are eight generic teams (such as the Los Angeles Hoops and the Dallas Wings) with five faux players on each team. Players are rated according to speed, shooting accuracy, passing ability and defensive skill. 
+
+Stats are kept for points scored, shots taken and fouls committed. In addition to fouls, there are numerous infractions you can commit. These include out of bounds, traveling, over and back, 5-second violation, 10-second violation, and 24-second violation. There are no substitutions in the game (therefore no foul-outs), but you can switch the positions of your players as needed.
+
+During slam-dunks, free throws and three-pointers, the camera angle switches to a graphically enhanced close-up of the action. To sink a free throw or dunk, you must accurately stop a ball that moves on a meter bar. On defense, you can block shots (including dunks) and steal the ball.
+
+Trivia:
+
+This game borrows heavily from Double Dribble (1987) for the NES. Pat Riley has coached for the Los Angeles Lakers (where he won four NBA titles), the New York Knicks and the Miami Heat. When not coaching, he is a highly paid motivational speaker.
+
+Controls:
+
+D-Pad: Move player with ball or signal direction of pass attempt when on offense, move player marked with arrow when on defense
+Start: Pause/unpause
+A: Call time out during dead-ball situations, select players in position-charge situations
+B: Shoot or dunk ball, attempt to block dunk shots, move control arrow to player nearest ball when on defense
+C: Pass ball to teammate, throw ball in from out of bounds, steal ball from opposing player in mid-dribble
+A, B, or C: Tap ball in center-court tip-off before each quarter
+
+Reviewer: Brett Alan Weiss
+http://www.allgame.com/game.php?id=70

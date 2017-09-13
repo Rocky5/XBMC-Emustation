@@ -1,0 +1,14 @@
+ATV: Quad Power Racing
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Racing
+Gametype: Licensed
+Release Year: 2002
+Developer: Tantalus Interactive
+Publisher: Acclaim
+_________________________
+Race around closed circuit tracks on a collection of four wheel motorbikes, each with positive and negative features (handling, speed, etc.). Finish each race above the needed result and you'll move onto the next level. Once you complete a circuit, you'll move up the rankings to harder tracks, better bikes and more difficult enemy AI riders.
+
+http://www.mobygames.com/game/gameboy-advance/atv-quad-power-racing

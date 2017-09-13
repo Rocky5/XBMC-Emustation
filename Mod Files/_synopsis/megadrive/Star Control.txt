@@ -1,0 +1,29 @@
+Star Control
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1991
+Developer: Eurocom
+Publisher: Virgin Games
+Players: 1 or 2 Alternating
+_________________________
+Star Control is a science-fiction wargame which pits the forces of the Alliance of Free Stars against those of the predatory Ur-Quan Hierarchy. The games are designed so that you can ease into play, familiarizing yourself with menus, options and player controls. The Alliance and Hierarchy each possess different types of warships. Each vessel has its own maneuvering and firing characteristics, plus a unique special power that you can employ when circumstances dictate.
+
+Gameplay:
+
+The game featured the basic Spacewar!-style combat engine, M?l?e (as it was called due to the close combat involved, even though the ships actually fired projectile weapons at each other and engage one by one) as well as a strategic game engine with a three-dimensional cluster of stars as the terrain. There was no real story component to the game, aside from a cursory background story explaining the existence of two alliances of alien races at war, the Alliance of Free Stars and the Hierarchy of Battle Thralls. However, the main attraction to this game was the well thought-out spacecraft design, resulting in a highly effective balance between the two sides. It could be played by one or two players as the complete game, or purely as either melee or strategy. Single player mode pitted the player against the computer AI, that featured a selectable ferocity.
+
+As in the later games, the various races' ships have widely differing appearances and abilities. The ships' sizes, maneuverability, and speed vary; in addition, each ship has a distinct primary weapon and a secondary ability. For instance, the Ur-Quan Dreadnought has a powerful main gun and the ability to launch independent fighters; while the Mmrnmhrm Transformer has the ability to change between two forms, a slow but quickly-turning one with a short-range laser as its main weapon, and the other quick but slowly-turning with long-range guided missiles. Despite the mishmash of unique ships the designers were able to create a finely-tuned balance.
+
+Hints:
+
+- Add Precursor relics to any Full Game scenario -
+In the Full Game module, select a scenario to play, choose visible or hidden stars, then tap the B button to read through the scenario description. As the ''ENTERING NEW STAR CLUSTER'' screen appears, immediately press and hold the left arrow on the controller's directional pad (''D-pad''). Continue to hold the D-pad in the left direction until the star cluster appears, then release it.
+There will now be Precursor relics at most of the unexplored stars in the cluster.
+
+http://www.mobygames.com/game/genesis/star-control
+http://en.wikipedia.org/wiki/Star_Control
+http://www.gamefaqs.com/console/genesis/code/586486.html

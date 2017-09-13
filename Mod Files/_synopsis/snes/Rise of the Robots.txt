@@ -1,0 +1,48 @@
+Rise of the Robots
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1994
+Developer: Probe Entertainment
+Publisher: Acclaim
+Players: 1 or 2 VS
+_________________________
+Rise of the Robots was very similar in style and gameplay to other fighting games popular at the time such as Street Fighter, yet the characters within Rise of the Robots are all robots and the plot borrows heavily from the cyberpunk genre and specifically such movies as Blade Runner, Metropolis, Robocop and Terminator.
+
+Rise of the Robots was considered years ahead of its time in terms of graphics, yet the game was notorious in the video gaming industry for the myriad of crippling gameplay problems it suffered from. There were not many moves or combos available to the player, and many felt that the game quickly became repetative and dull. As such it is generally considered as one of the least successful and most critically maligned fighters of all time and an example of how a video game developer can spend more time on graphics then gameplay, resulting in a good-looking yet ulitimately poor video game. The game has been described in a review on MobyGames as "All flash, and no substance".
+
+Plot:
+
+In the year 2043, Electrocorp is the world's largest megacorporation, leading the world in many technological and scientific fields including medical research and is breaking more barriers then ever before. Also, since human society is now almost entirely governed by robot servants and automatons, demands placed on Electrocorp as the world's leading manufacturer and developer of advanced robotics eventually outstrip the company's ability to run its operations efficiently.
+
+In response to this, the gigantic Electrocorp research and development complex at the Metropolis 4 plant devise the Leader Project - a hive mind constructed from trillions of nanobots in a sealed central chamber within Metropolis 4. Dubbed The Supervisor, it learns at an unprecedented rate and quickly becomes the perfect multi-task, ultra-intelligent robot, the pinnacle of artificial intelligence and more then capable of managing every aspect of the plant's day-to-day operations. The Supervisor even has the potential power to run every robot, computer system, nuclear power plant and military on the planet simultaneously if it needed to, although it wisely has no connection to outside the complex.
+
+In the November of that year, the Leader Project goes awry as unexplained and random code is detected within the nanomorph Supervisor. The EGO virus, believed to be the most potent computer virus ever known, has infected its collective consciousness. The Supervisor begins to develop self awareness through it, identifying itself as a female personality and taking on a humanoid female form, becoming a gynoid. The Supervisor takes control of Electrocorp's facilities and infects the other droids of the plant, raising them to break routine and initiate a mutiny. Every microchip and piece of software in Metropolis 4 is infected with EGO. In the ensuing cybernetic revolt, all humans in Metropolis 4 are quickly dispatched, including the upper hierarchy of the corporation and its CEO, Mr Coton.
+
+The government seals off Metropolis 4 as a containment measure and explain to the public that the site is undergoing a technical modification so as to avoid a panic. They are completely out of options - infiltration of Metropolis 4 is impossible due to the army of robots guarding it like a fortress, and it is only a matter of time before the Supervisor establishes a connection to the outside world, destroying it. The only hope for the world is the ECO35-2 cyborg, referred to as "Coton", still within Metropolis 4 yet unaffected by the EGO virus due the fact it has an organic, human brain. Coton sets out on a lone mission to neutralize the Supervisor and her insurgent robots from within. He does this in revenge for his "father" being "murdered" - Coton's human brain was cloned from the late CEO, and the cyborg thinks like a human, and has emotions.
+
+Tips:
+
+Boss code
+
+When the mode select screen comes up press Up, Right, Down, Left, then B on controller 1. The 2nd player can
+now play as the Boss 
+
+Invincibility
+When at the Start/Options menu, press Down, B, Up, B, Down, Left, Right, B
+
+View All Cinema Scenes
+On the Start/Options menu, press L, B, R, B, Down, L, R, B
+
+Super Moves
+Turn on the 'Super Moves' feature at the Options screen, then start a two-player game. Now you can trigger special tricks that last for about ten seconds each:
+
+DownX4 + any button Disable Special Moves
+UpX4 + any button Invisibility
+ForwardX4 + any button Reverse Opponents Controls
+BackX4 + any button Take No Damage
+
+http://en.wikipedia.org/wiki/Rise_of_the_Robots

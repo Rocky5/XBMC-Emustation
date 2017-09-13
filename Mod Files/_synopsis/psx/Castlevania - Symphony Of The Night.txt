@@ -1,0 +1,37 @@
+Castlevania: Symphony Of The Night
+Platform: Playstation 1
+Region: USA
+Media: Disc
+Controller: Standard Control Pad
+Genre: Action - Platformer - Side-Scrolling
+Gametype: Licensed
+Release Year: 1997
+Developer: Konami Computer Entertainment
+Publisher: Konami of America
+Players: 1
+_________________________
+Five years ago, Richter Belmont, the latest in the Belmont lineage and the one destined to be a Vampire Hunter, defeated Dracula in a brutal battle which nearly cost him the love of his life, Annette, and her sister, Maria. Now, Richter has suddenly vanished, CastleVania has mysteriously reappeared, and Maria, now a young woman, sets off to find Richter. Alucard, the son of Dracula, is awakened from his eternal slumber after this large shift in power, and enters into Castlevania to find some answers and perhaps destroy the castle once again.
+
+Symphony of the Night is a direct sequel to Dracula X: Rondo of Blood. The game is set in a castle which you can explore freely with many different paths, although often items in certain areas need to be found that will allow passage to others. The action-based gameplay incorporates now strong RPG elements. The hero receives experience points for defeating enemies, gains levels and becomes more powerful. There is also money to be found in the game, and various accessories to buy. In a separate screen, players need to equip attack weapons, shields and other items. Magic plays an important role, as well as secondary weapons and a large amount of "special moves" that are executed similar to advanced one-on-one fighting games.
+
+The Saturn release adds two new areas to the castle (the Underground Garden and the Haunted Path), a third playable character (Maria), and a few new remixed music tracks. However, it sacrifices a few of the graphical effects from the PlayStation version, particularly true transparencies. All other releases are based on the PlayStation version, and do not feature these changes.
+
+
+Trivia:
+
+On September 5, 2009, the freelance translators Devil Hackers released a translation patch that fully translates the Japanese version of Castlevania: Symphony of the Night into English. The reason for this release is the notoriously low quality of the official translation. Also, since this patch is for the Japanese version, the players can also be spared the poor voice acting of the US release.
+
+"Symphony of the Night" is not the translation of the Japanese "Gekka no Yasoukyoku", which actually means "Nocturne Under the Moon".
+
+There are 5 possible endings for the game, they are triggered by: killing Richter with the Holy Glasses; Killing Richter without the Holy Glasses; Killing Dracula with less than 200%; killing him with over 200%; and of course, the "Castlevania Classic" Richter ending.
+
+What few people know is that a sixth ending was planned but eventually scrapped from the final game, this ending is a variation of the "vs Richter" ones, and has Maria coming in to his rescue, then transforming into some sort of demon and fighting Alucard. No part of this ending was coded so don't bother looking for it, but the voice files are in the game cd, you can extract it using any PSX-extracting utility and listen to the entire recorded audio (including Alucard mourning Maria and Richter upon victory). 
+
+When you have the Shield Rod equipped, press Back, Foward+Attack. Alucard will toss out a little swirling ball, which is actually the Shield from the Gradius series! It even protects you from small projectile attacks!
+
+To map all of the two castles (I think you can get 200.6%) you need to use the library recall card when facing Dracula, allowing you to add his room to your map.
+
+There is a second castle in the game which is a vertically mirrored copy of the first. To access it you must meet with Maria inside the main clock where whe will tell you the truth behind Richter. The monsters and items in the second castle are much harder than the first and some of the bosses from the first appear as regular monsters.
+
+http://www.mobygames.com/game/playstation/castlevania-symphony-of-the-night
+

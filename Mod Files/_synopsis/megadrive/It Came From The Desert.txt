@@ -1,0 +1,20 @@
+It Came From the Desert
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Prototype
+Release Year: Unreleased
+Developer: New World Computing
+Publisher: None
+Players: 1
+_________________________
+For a young, unseasoned video game developer, nothing quite beats the grand satisfaction of seeing his or her first commercial project through to the end. After many long, hard days and nights of coding, testing and debugging, the light at the end of the tunnel finally approaches, and the pride and expectation of wanting to view the final product on a store shelf is nearly overwhelming. Unfortunately for some, despite having thrown their heart and soul into the work and endured all the stress along the way, that wondrous day of release... never comes. Instead, their heart sinks as they are shuffled off to another project.
+
+Such was the story for Matt Harmon, the lead designer and programmer of the Sega Genesis action game, It Came From The Desert. An eager young hacker turned professional developer, Matt was put in charge of the entire project and worked feverishly to complete it in good time. However, despite getting the game to a near completed state, he was told that it was over; the game had been shelved indefinitely by the publisher.
+
+While the prototype version of It Came From The Desert is legally available for free download directly from Cinemaware's website, it's certainly not the style of release Matt had originally hoped for, nor the only one this game deserved. However, while the chances for neglected title's commercial release may have died many years ago, its story will be immortalized. 
+
+The whole interview with Matt Harmon can be read here:
+http://www.sega-16.com/feature_page.php?id=383&amp;title=Interview:+Matt+Harmon

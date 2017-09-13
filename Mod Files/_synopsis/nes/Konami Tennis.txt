@@ -1,0 +1,15 @@
+Konamic Tennis
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Tennis
+Gametype: Licensed
+Release Year: 1988
+Developer: Konami
+Publisher: Konami
+_________________________
+
+Konamic Tennis is a Tennis game, developed and published by Konami, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578639.html

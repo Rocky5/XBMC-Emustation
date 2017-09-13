@@ -1,0 +1,14 @@
+Hugo: Black Diamond Fever
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Platformer
+Gametype: Licensed
+Release Year: 2001
+Developer: ITE Media
+Publisher: ITE Media
+_________________________
+Hugo is a 2D Platformer game, developed by ITE Media, which was released in Europe in 2001.
+
+http://www.gamefaqs.com/portable/gbcolor/home/566673.html

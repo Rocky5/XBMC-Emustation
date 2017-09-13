@@ -1,0 +1,31 @@
+Waterworld
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1995
+Developer: Ocean
+Publisher: Ocean
+Players: 1
+_________________________
+The game was played from an overhead/isometric perspective with the player controlling the Mariner's boat on the ocean. The point of the game was to destroy the Smokers' boats and dive for sunken artifacts, at which point the game switches to a side on perspective so that the player can directly control the Mariner underwater.
+
+Tips:
+
+Level codes
+Enter these in the password screen:
+HQSUP Go to 2nd level
+HKFBM Go to 3rd level
+QJWLX Go to 4th level
+YTWKN Go to 5th level
+QKSVC Go to 6th level
+QHHJS Go to 7th level
+WWKJQ Go to 8th level
+
+Level Passwords:
+HKSVP Stage One
+HKFBM Stage Two
+
+http://en.wikipedia.org/wiki/Waterworld_(video_game)#Super_Nintendo_game

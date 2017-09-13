@@ -1,0 +1,16 @@
+Tyrian 2000
+Platform: Nintendo Game Boy Color
+Region: Prototype (USA)
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Shooter
+Gametype: Prototype
+Release Year: 2000
+Developer: Eclipse Productions
+Publisher: Unpublished
+_________________________
+The original Tyrian was a shoot 'em up developed for the PC by Eclipse Productions (later named World Tree Games) and published in 1995 by Epic MegaGames. A version of Tyrian 2000 was in development for the Game Boy Color, but it was later cancelled to work on the Tyrian 2000 GBA version. The game was eventually leaked online as a rom.
+
+In the Game Boy Color version, the Full Game incorporates a shorter stories (from Episodes 1-4) than the original DOS game, but planet Ixmucane core always gets destroyed at the end, and the levels were redesigned. The rear weapon from the DOS game is not available. Player can carry 2 Sidekick weapons at once, but only 1 is usable at a time. New game modes and items can be unlocked by purchasing Extras using credits obtained by completing a stage.
+
+http://www.unseen64.net/2009/06/23/tyrian-2000-gbc-cancelled/

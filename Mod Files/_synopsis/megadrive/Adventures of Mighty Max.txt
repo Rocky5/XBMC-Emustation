@@ -1,0 +1,15 @@
+Adventures of Mighty Max, The
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: WJS Design
+Publisher: Ocean Software
+Players: 1
+_________________________
+The Adventures of Mighty Max is a platform game developed by WJS Design and published by Ocean Software. It is based on the US cartoon of the same name, which was in turn based on a UK toyline available in the 1990s.
+
+It follows Mighty Max, a kid with a magic cap allowing him to travel to different dimensions.

@@ -1,0 +1,22 @@
+Wolfchild
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: Core Design
+Publisher: Virgin Interactive
+Players: 1
+_________________________
+The plot revolves around biotechnology researcher Kal Morrow and his son Saul. When the former is kidnapped by the evil Chimera organization, Saul uses one of his father's inventions to turn himself into a wolf-human hybrid (similar to a werewolf) that may be capable of defeating Chimera.
+
+Wolfchild was designed by Simon Phipps, also responsible for the earlier Switchblade 2, a rather similar game. The action is viewed from the side and scrolls in eight directions. The player must guide Saul through five levels, negotiating platforms and shooting various monsters, the result of Chimera experiments. Initially, the player character is Saul in his normal, human form. Only when enough energy has been collected does he turn into a wolf-human, giving him much better attack techniques.
+
+Tips:
+
+Invincibility
+When the 1st level boss dies and you raise your arm in victory press A + B+Start. This lasts until you get an Energy/Mutation icon.
+
+http://en.wikipedia.org/wiki/Wolfchild

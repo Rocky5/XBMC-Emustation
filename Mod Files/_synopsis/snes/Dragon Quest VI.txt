@@ -1,0 +1,57 @@
+Dragon Quest VI
+Original title: Dragon Quest VI: Maboroshi no Daichi
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Turnbased
+Gametype: Translated
+Release Year: 2001
+Translated by: NoProgress
+Version: .90 (2)
+_________________________
+Ok, let's go back in time a bit?say 10 years or so? The Year is 1995, towards the twilight of the 16-bit era. You are Enix, creator of the record-selling,ground breaking RPG series Dragon Quest. Now, it's been 3 years since the series last outing, the incredible Dragon Quest 5. Obviously, Enix was presented with a challenge. How can you improve upon a game like Dragon Quest 5? A game that had such things as a multi-generation storyline, monsters joining your battle party, numerous mini-games and other distractions. The answer? Take most of what was good about it, and expand upon it even more. With the exception of the multi-generation aspect, everything you loved about Dragon Quest 5 has returned here intact, and in some cases?improved. A welcome addition is the return of the class system, last seen in Dragon Quest 3. However, unlike Dragon Quest 3, you can now freely switch your characters between classes, and work them up to new advanced level jobs.
+
+Each class, as you'd expect has special abilities and spells, to make each one useful in a different way. Now, besides that?the game brings several other firsts. For one, the game features not 1 ,not 2, not 3, but 4 different worlds to explore. Also , it's the first game in the series to feature monster animation, and better than average graphics.
+
+Story:
+
+A pretty good story, but not quite as good as DQ5's. The game begins in a rather strange fashion. With you, and your fellow party members being massacred by Uglypeople.com Spokesmodel, and all around not-nice guy, Mudo. As you can probably guess, this is not a good thing. But just when you think the games over before it even begins, you wake up! The whole ordeal was just a dream. But still, it leaves you with many questions. Who were those other people who were fighting with you? And more importantly? who was that big tough-guy who kicked the crap out of your dreaming arse?! So you set out on a quest to find answers to those questions, and many more. Overall, it's an interesting and engrossing storyline. Of course, since it's a Dragon Quest?don't expect much in the way of character development. But the main over-arching story will keep you guessing what will happen next.Very good, but still room for improvement in some places.
+
+Gameplay:
+
+Classic Dragon Quest here all the way! The menu's are as simple and easy to use as ever. No real changes from the previous games here. Anyone with even the slighest experience with previous games in the series will have no trouble getting used to the controls. Of course, there were some changes here and there?but nothing major enough to make you have to re-learn everything. The biggest difference in gameplay is in the re-introduction of the newly expanded class system. Unlike before however? there are now advanced classes, as well as more variety in the basic ones.
+
+Challenge/Difficulty:
+
+The game starts out easy enough, but eventually things gets more and more challenging. Although this may not be THE HARDEST RPG you'll ever play, it can rank up there pretty high. My best tips are the obvious. Keep leveling up, and buy all the latest equipment. Besides that, save often. And even then, you shouldn't be playing this game expecting a walk in the park. This is old-school difficulty that will leave the youngsters raised on the modern fluff running home to mommy and daddy.
+
+Graphics:
+
+The first Dragon Quest that put effort into trying impress us visually. Not only are the overall graphics of a much higher quality than DQ5's, but the game takes a chapter out of Sega's Phantasy Star series by implementing monster animations! Something every Dragon Quest game since, original or remix has had. Overall, this is a pretty game.
+
+Sound:
+
+As usual, Sugiyama never fails to impress. In fact, this may be one of his best works ever. A great emotional, and moodsetting soundtrack. You gotta hear the Orchestrated Soundtrack CD as well. Not a bad song in this game!
+
+Replay Value:
+
+You'll play it and replay it. There's plenty of little extras here and there to keep you coming back. Bonus-Dungeon upon beating the game, loads of mini-games and things to collect. What more could you want?!
+
+Overall:
+
+Ok, so you must all think i'm biased for giving every Dragon Quest a VERY favorable review. While that's true, I try and give every game what I think it's deserving of. Dragon Quest 6 has so much to offer, missing out should be a crime. Play this game already!
+
+Translation Description:
+
+You may have seen NoPrgress mentioned on DeJap and stuff, but don't be fooled! This patch right here is entirely his own work. And it looks sweeeeeet! You can play the game from beginning to end; the untranslated 10% is just random strings here and there that have no real bearing on the game. There are some fatal bugs in the game (most notably, backing out of the Info->All option sometimes crashes the game), so if you plan to use this translation (and you should, since it's currently the furthest along), be sure to keep a batch of savestates at the ready.
+
+NoPrgress has stopped working on this translation, and DeJap is taking over the project.
+
+Tips:
+
+Bonus Dungeon.
+Complete the game and start a new one. Now go to the torch room in Darma Shinden after having leveled up all 18 classes to at least level 6 to unlock the bonus dungeon.
+
+Reviewer: Grave Wisdom
+http://www.romhacking.net/trans/344/

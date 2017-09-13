@@ -1,0 +1,63 @@
+Zombies Ate My Neighbors
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Run 'n Gun
+Gametype: Licensed
+Release Year: 1993
+Developer: LucasArts
+Publisher: Konami
+Players: 1
+_________________________
+In the game you are a male or female protagonist (Zeke or Julia), fighting the vampires, mummies, zombies, etc. on over 50 levels (not including secrets) and saving all of the people you find. There are defined number of neighbors you save on every level. When they are free then "Exit" door opens and you jump on next level.
+
+The levels differ from mall and grocery store to beaches and football fields. Using different weapons such as bazooka or water gun you have to kill the bosses such as huge babies, dragons or ants at the end of levels. You can play the game with two players cooperatively
+
+Gameplay:
+
+The player chooses between two teenage characters, Zeke and Julie, or both in two-player mode. They navigate suburban neighborhoods, shopping malls, pyramids, and other areas, destroying a variety of horror-movie monsters, including vampires, werewolves, huge demonic babies, and the game's flagship, zombies. In each of the 48 stages (excluding the bonus levels) the goal is to rescue the surviving neighbors, at which point a magical door opens that will take the player to the next stage. However, if the player is not careful, any enemy in the game will kill the neighbors, preventing them from being saved. At least one neighbor must be saved from each level to progress to the next. The game is lost if all of the neighbors in a certain stage are killed or if the player(s) lose all of their lives. Scoring points earns players more neighbors to save (but only up to the maximum of 10) and extra lives.
+
+Each level has a maximum of ten neighbors. If they all die without the player saving at least one throughout the stage, the game is over. The neighbors are saved by touching them. Each neighbor is worth a certain amount of points.
+
+Trivia:
+
+- In the Game -
+The monsters in the game are based on horror movies made in the 1950s as well as more modern movies such as Friday the 13th or The Texas Chainsaw Massacre. For example, the man with the chainsaw is based on Jason and Leatherface respectively. The weapons usefulness is also based on these depictions, such that werewolfs die in one attack if attacked with silverware, or vampires die faster if attacked with the crucifix. The crucifix is the most powerful weapon and Pandora's Box is the most powerful special item. In the SNES version of the game, there is a flame thrower which is not incuded in the uncensored Sega Megadrive version.
+
+There is an extra level in which the character is permited to walk around Lucas Arts and talk to the staff responsible for the game.
+
+- Censorship -
+Due to the theme of the game, it was subject to some censorship. This game was released before the ESRB came along and before then, Nintendo did not want anything violent in their video games such as blood and gore. Nintendo of America itself ordered all depictions of red blood and gore be removed or changed to green ooze. Censorship committees at several European Nations, i.e. United Kingdom, Italy, France and Germany had the game renamed to just: 'Zombies' and ordered other changes, including making the chainsaw-wielding lunatics replaced with lumberjacks with axes.
+
+Hints:
+
+- Level Passwords -
+LCFJLevel 13
+BMLKLevel 17
+VQBBLevel 21
+OLNKLevel 25
+QNKRLevel 29
+SDHMLevel 33
+BKVRLevel 37
+BZPMLevel 41
+VNYQLevel 45
+TYZRLevel 5
+CBRKLevel 9
+QSDZSee the credits and fight a boss
+RCFLStage 12
+MMLWStage 16
+BQBTStage 20
+RLNWStage 24
+RNKDStage 28
+QDHLStage 32
+MKVDStage 36
+QYZTStage 4
+MZPLStage 40
+BNYZStage 44
+SBRZStage 8
+RLNW and BCDFTwo bonus passwords
+
+http://www.mobygames.com/game/genesis/zombies-ate-my-neighbors
+http://en.wikipedia.org/wiki/Zombies_Ate_My_Neighbors
+http://www.gamefaqs.com/console/genesis/code/563360.html

@@ -1,0 +1,16 @@
+Final Fantasy Legend III [Translation Fix]
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Hacked by: Youji
+Version: 1.5
+_________________________
+Basically, this is a minor text / graphics update for Final Fantasy Legend III, (or "SaGa 3: Jikuu no Hasha" ) which seeks to remedy some of the inaccuracies in the naming conventions. (engrish, misleading / inconsistent inventory names, etc.) Most of the spell and item inventories have been revised, and I've also detailed some of the game's icons. (such as the cursor, the trash can icon in the inventory and treasure chests)
+
+Bear in mind, this isn't really a re-translation, or anything. It's just an attempt to make the inventories appear more consistent. (for example, "Samurai Shield" contradicts itself, and some of the "Bronze, Iron, Silver, Gold" items were appearing in an inconsistent order) Also, I couldn't really mess around with the dialogue since it appears to be encoded, so there might be a few odd references intact. (such as referring to Excalibur as "Xcalibr") 
+
+http://www.romhacking.net/hacks/331/

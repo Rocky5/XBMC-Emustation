@@ -1,0 +1,31 @@
+Super Skidmarks
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Cars
+Gametype: Licensed
+Release Year: 1995
+Developer: Acid Software
+Publisher: Codemasters Software Company Limited, The
+Players: 1
+_________________________
+A vague descendant of Super Sprint with a mass of features, and one of the last multi-format games to have roots on the Amiga.
+
+A multitude of cars are available, ranging from F1 cars and Sportscars to Minis and VWs were on offer, with the option to have up to 8 of these on more powerful machines - with up to 3 different models of car. You could link 2 Amiga 1200s (or faster) and use them to display the track across 2 separate screens. There were two novelty options of sorts as well - motorized cows, and the chance to have the cars pulling caravans as you race - using the caravan to push an opponent off-line was a skill worth mastering.
+
+24 circuits are provided, all of them with walls around them to ensure crash-bang-wallop racing, and most of them have parts which cross with other parts, making collisions possible if you're much ahead of (or behind) other cars (fortunately there's no car damage). They can be raced forwards or backwards - perhaps the first game with this feature available. You could either run single races, or one of the in-built championships - one for each car, across a specially selected set of tracks.
+
+The customizable nature of the game goes even further - the number of laps can be set, as can the colour and power of the cars. As you repeatedly race a track, the markings on the course are eroded by the cars running over them.
+
+Hints:
+
+- Passwords -
+Enter these passwords to obtain what follows:
+SPRINTER: gives you access to the Pro League and Nitro speed setting.
+GUARDIAN: gives you access to the Acid Grand Prix and allows to select Forula 1 cars in single races.
+CHOCMILK: gives you access to the Bovine Warrior league and allows to select the wheeled cows in single races.
+SPACEMAN: turns on a low gravity mode racing.
+
+http://www.mobygames.com/game/genesis/super-skidmarks
+http://www.gamefaqs.com/console/genesis/code/917231.html

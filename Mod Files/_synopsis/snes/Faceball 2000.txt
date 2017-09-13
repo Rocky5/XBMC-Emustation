@@ -1,0 +1,33 @@
+Faceball 2000
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, 3D, Shooter
+Gametype: Licensed
+Release Year: 1992
+Developer: Xanth Software
+Publisher: Bullet Proof Software
+Players: 2
+_________________________
+You are about to enter FaceBall 2000 where you may compete with a friend one- on-one in the Arena, or tackle the ever more difficult challenges of the CyberZone.
+
+In CyberZone, thc object is quite simple: defeat the Master Smiloid and become the new CyberZone Champion. To do this, you must make your way through 41 challenging levels filled with Power-Ups and hostile Smiloids.
+
+In the Arena, play a computerized version of tag. The first player to get ten "tags" is the winner, at least until the next match begins. You may also try your hand (or face) against a selection of Smiloids. One or two players may play free-for-all or on a team.
+
+--From the SNES Faceball 2000 instruction manual.
+
+Tips:
+
+Cyberscape (Puzzle Mode)
+Hold down L &amp; R while selecting the number of players, then let go when the screen fades to black.
+
+Cyberzone Cheat Menu
+At the Cyberzone starting level selection screen, hold L and R and press Start.
+
+Hidden Warp Rooms
+Start a Game in 'Cyberscape' mode. On Level 1 ('Find the Exit'), when you see the exit (It's a flashing wall) shoot it 5 times. You'll magically warp to another part of the level with a Speedup Pod, an 9 Extra Lives Pod, and exits to levels 10, 15, 20, and 25.  If you shoot the Nine Lives Pod three times, there will be a key inside. Take it and another part of the room will open, with a Speedup Pod, a Automag Pod, a Level 3 Armor Pod, Warp doors to levels 30, 35, 40, and a Rover enemy.  You'll note that like the Nine Lives Pod before it, the Armor Pod didn't disappear when you took armor from it.  Travel around the corner and you should face a dead end. (The exit to level 40 will be at a 90-degree angle to this wall, on the right.) Shoot that wall once, and then touch it. Travel back around the
+corner to the former Armor Pod, Touch it once, and then shoot it twice to get a key that will open that wall.  On the other side are Automag, Speedup and Armor Pods, as well as two Bouncers and warps to levels 60 and 65.  Finally, go near the East wall of this room. (It's near the small 'block' on your map.) Move slightly to the left of the center, then touch that part of the wall five times, then shoot it once to open the final secret portion of the level. Just inside the Room is a warp to Level 71, but also Two Ninjas, a Guard, a Vampire, and a Kamikaze...
+
+http://www.consoleclassix.com/snes/faceball_2000.html

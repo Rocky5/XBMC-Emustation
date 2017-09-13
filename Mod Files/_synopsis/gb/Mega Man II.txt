@@ -1,0 +1,18 @@
+Megaman II
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Capcom
+Publisher: Capcom
+_________________________
+Dr. Wily has broken into the Chronos Institute and stolen a machine called Time Skimmer. According to Dr. Light's calculations, he has used the machine to travel roughly 37,426 years into the future. This can mean nothing good and so Mega Man, along with his dog Rush, sets out to find out more about Dr. Wily's plans.
+
+Mega Man II follows the same formula as its predecessors, meaning the player has to complete a number of side-scrolling, platforming levels that are guarded by different bosses. Mega Man can only shoot left or right, but defeating a boss rewards him with a new weapon. Sometimes he will also find upgrades for Rush, which enable him to use Rush as a trampoline, a submarine or a jet.
+
+While Mega Man II is not a conversion, the first four stages look and play very similar to some levels of Mega Man 2 for the NES. Likewise, levels five to eight resemble some levels of Mega Man 3. The bosses of the first eight stages are also old familiars from Mega Man 2 and 3.
+
+http://www.mobygames.com/game/gameboy/mega-man-ii

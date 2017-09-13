@@ -1,0 +1,17 @@
+T-MEK
+Platform: Sega 32X
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1995
+Developer: Bits Studios
+Publisher: Time Warner Interactive
+Players: 1 or 2 VS
+_________________________
+T-Mek is essentially an updated Battlezone. You are a warrior battling in the T-Mek competition, a hugely popular event in the future. You control a hovercraft and try to blow up everyone else.
+
+The action is viewed from your perspective as you travel around the arena. You also have an overall view of where your opponents are. Terrain surfaces and characteristics vary in each battle. In most levels you need to reach a certain score to progress, however there are out-and-out one-off Deathmatch duels to deal with periodically.
+
+http://www.mobygames.com/game/sega-32x/t-mek

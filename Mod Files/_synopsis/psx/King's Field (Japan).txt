@@ -1,0 +1,13 @@
+King's Field (Japan)
+Platform: Playstation 1
+Region: Japan
+Media: CD
+Controller: Standard Control Pad
+Genre: Action - Role Playing Game - Fantasy
+Gametype: Licensed
+Release Year: 1994
+Developer: FromSoftware
+Publisher: FromSoftware
+Players: 1
+_________________________
+An unofficial, English translation patch was made by John Osborne, and is available for download on the web. The patch is applied to a CD image of the game, after which you can play the game in English either on an emulator, og on a CDR compatible system if you choose to burn the disc.

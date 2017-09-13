@@ -1,0 +1,14 @@
+Darkman
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1992
+Developer: Ocean
+Publisher: Ocean
+_________________________
+Based on the film by Sam Raimi. You play Peyton Westlake, returned from the dead as the many faced "Darkman", seeking your revenge against mobster Robert G.Durant. Live through all the high spots of the movie - the breathtaking helicopter fight sequence - the skyscraper shoot-out - dice with death as you swing into heaving freeway traffic dangling from a helicopter.
+
+http://www.mobygames.com/game/gameboy/darkman

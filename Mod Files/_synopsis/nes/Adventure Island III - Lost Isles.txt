@@ -1,0 +1,19 @@
+Adventure Island 3: The Lost Isles
+Original title: Adventure Island III
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2008
+Hacked by: Aether Knight
+Version: 1.0
+_________________________
+This hack was started back in December 2007. Most of the levels were finished by mid February. The title screen was ripped from the translated NES ROM "Adventure Island 4". Since I am an amateur ROM hacker (is there a professional ROM Hacker?) in every sense of the word, this took much longer to edit than someone with more experience and abilities. Also you'll notice that the palette on the title screen is a little off :P
+
+All 8 worlds and 8 levels each have been altered. (with the exception of world 4-4 although most enemies have been changed) This is not meant to be a "hardtype" hack but later levels can be very challenging. All levels can be completed without any enhancements. (hammer, dinosaur etc.) However it is recommended that you save your items for later levels.
+
+I've tested this patch thoroughly but there is always a chance I missed something somewhere. If you do find a glitch, I'd like to know about it so drop me a line at aetherknight2k@aol.com
+
+http://www.romhacking.net/hacks/387/

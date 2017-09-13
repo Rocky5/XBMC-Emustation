@@ -1,0 +1,103 @@
+Shadow Blasters
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Sage's Creation
+Publisher: Sigma Enterprises
+Players: 1 or 2 CO-OP
+_________________________
+At some time in either the past or the future... once again an evil force from the sky is descending down upon us. Its aim is to subjugate all human beings with its diabolic forces. Only those of us with a sound mind and a strong body will be able to endure this evil force and banish it from the face of the Earth.
+
+Meanwhile, in another dimension not known to us mere mortals, is a heavenly haven enjoyed only by gods. These benevolent gods had been the proprietous protectors of mankind, but as time went on, our morals eroded and wickedness set in hard.
+
+At this, the gods were terribly shocked and disconcerted, so they closed and locked the two doors of their sanctuary.
+
+Ashura, the King of the Evil World, saw this as his golden opportunity. He sent in his minions of malice who faced no resistance in taking over the already debaucherous human race. The Earth was now under the spell of Ashura.
+
+Saddened by this tragic event, the good gods gathered around and thought about what to do.
+
+Said one kindly god:
+
+"Ashura is trying to rule not only the Evil World but the lowly human world as well. Shouldn't we help these humans?"
+
+Said another not-so-kindly god:
+
+"Let them suffer!"
+
+After much debate, they decided to try to save the humans.
+
+Among the good gods Hyprion was the greatest. He ordered the assemblage:
+ 
+"Choose four worthy humans on whom I will bestow my power. Through them we may save the Earth."
+
+Suddenly, the clouds parted and with a flash of lightening Hyprion's supreme power and message were injected into the bodies of these four humans.
+
+--From the Genesis Shadow Blasters instruction manual.
+
+Directions:
+
+Shadow Blasters has nine stages and you can choose the sequence of play of the first six stages. You have a choice of four Warriors. You will see their capabilities when you make your choice. Choose wisely.
+
+I chose Don Knotts. Not too wise. Actually you can use the Start-Button to change Warriors during the game. If you are wondering the names of the standard weapons that each Warrior uses, so am I. Nothing that I can find gives them names. But they have great sounds and exciting effects.
+
+Each Warrior has a Special Weapon that will kill all opponents on the screen when you press the C-Button. But each Warrior can use their Special Weapon only once in each round. So don't press the C-Button casually. Which means, if my math is right, that you actually have four Special Weapons in each round. Just change Warriors when you need some really heavy artillery. And if you make it through the round, voila: each Warrior gets a new, freshly minted, hot off the press Special Weapon!
+
+Emblems: Taken when Certain Enemies Are Defeated:
+     Red         Increases speed but can only use three at a time
+     Blue        Increases jump height
+     White       Nine will increase power
+     Crimson     Adds one life
+     Explosive   Complete recovery
+
+Battle Sites and the Monsters Who Love Them:
+     Mountain          Boss Skeltar
+     Street            Boss Brutus
+     Glen              Boss Kallus
+     Harbor            Boss Tarman
+     Forest            Boss Vallevo
+     Future            Boss Gyrrina
+     Wicked World      Boss Hawkus
+     Heavenly Sky      Boss Wortan
+     Space             Ashura 
+
+Gameplay:
+
+- Mechanics -
+
+The game is a standard sidescrolling platform game. The player can control one character at a time and can choose from a pool of four characters. Each character is able to walk, jump, crouch, and fire a projectile weapon unique to that character. For the most part, the player is free to move forward and backward through a given level as desired. As the player progresses, characters become more powerful by picking up power-ups for the attributes of speed, jump, and power. Power-ups do not "roll over" into the character pool if the current character is at the maximum for the respective attribute - a character can only gain attribute points from a power-up if that character is in play when the power-up is collected.
+
+- Characters -
+
+There are four characters that player can choose from. Each character has 4 distinct stages to his or her weapon. The player can switch characters at any point during game play simply by going to the character select screen and choosing a different character. While this is a powerful asset, once a character dies, he or she cannot ever be revived. This effectively limits the total "lives" of the player to 4. Once the last character is dead, the game is over.
+
+- Levels -
+
+- Part I
+Level selection screen.
+
+The first part of the game consists of six levels: Mountain, Street, Glenn, Harbor, Forest, and Future. One unique aspect of this game is that these six levels may be played in any order the player desires.
+
+- Part II
+
+The second part of the game consists of two levels and a final battle, arranged in a predetermined order.
+
+Controls:  
+
+A Button: Use Weapon
+B Button: Jump Up / Down
+C Button: Use Special Weapon
+Down: Warriors Kneel
+Start Button: Start / Select / Change Warrior
+
+Hints:
+
+- Invincibility -
+To be invincible, start a two player game, when one of the characters used run out of life points and their death animation begins, have the other player press the start button. (If player 1 dies, player 2 should press start or vice versa.) Then have the player choose that character again, the character will then be alive but have no life points, and thus be invincible. 
+
+http://www.consoleclassix.com/genesis/shadow_blasters.html
+http://en.wikipedia.org/wiki/Shadow_Blasters
+http://www.gamefaqs.com/console/genesis/code/586449.html

@@ -1,0 +1,20 @@
+Eggerland: Revival of the Labyrinth
+Original title: Eggerland: Meikyuu no Fukkatsu
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Translated
+Release Year: 2006
+Translated by: Kapow
+Version: 0.9
+_________________________
+The Western release of Adventures of Lolo 1 was partially based on this game. However, the map was replaced with a linear series of levels, and the four gods and the final battle sequence were removed. These features have never appeared in a Lolo/Eggerland game outside of Japan.
+
+Translation Description
+
+This is a nearly complete v0.9 release. Everything important (dialogue wise) is translated. There's a large sign that says ?????? "Defeat Lolo" that isn't done. The passwords are still in kana, and if that's changed, the two secret phrases need to be changed to read something in English.
+
+Reviewer: Nightcrawler
+http://www.romhacking.net/trans/941/

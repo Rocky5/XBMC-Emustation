@@ -1,0 +1,30 @@
+On the Ball
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1992
+Developer: Taito
+Publisher: Taito
+Players: 1 or 2
+_________________________
+The gameplay consists of moving a ball through a labyrinth by rotating the board itself around the ball.
+
+Tips:
+
+Passwords:
+GFXJF Change Ball
+ZLJPJ Change Gravity
+MHWYR Expert Mode
+BIRTH Field 2
+BUILD Field 3
+SMILE Field 4
+QWNQP Level Select
+HCCWD Master Mode
+NRRRP Sound Test
+WRJMH Special Mode
+ZNGGX Time Records
+
+http://en.wikipedia.org/wiki/Cameltry

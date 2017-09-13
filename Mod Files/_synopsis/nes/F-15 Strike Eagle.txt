@@ -1,0 +1,20 @@
+F-15 Strike Eagle
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Flight Simulator
+Gametype: Licensed
+Release Year: 1992
+Developer: MicroProse
+Publisher: MicroProse
+Players: 1
+_________________________
+
+F-15 Strike Eagle is an F-15 Strike Eagle combat flight simulator first released in 1985 by MicroProse and is the first in the F-15 Strike Eagle series comprising also of the sequels F-15 Strike Eagle II and F-15 Strike Eagle III. It was published for the Amstrad CPC in 1986 and ZX Spectrum in 1987.
+
+The game won the "Action game of the Year" in Computer Gaming World's 1985 reader poll, and sold over 1.5 million copies.
+
+The game features three enemy aircraft and three types of enemy SAMs.
+
+http://en.wikipedia.org/wiki/F-15_Strike_Eagle_(video_game)

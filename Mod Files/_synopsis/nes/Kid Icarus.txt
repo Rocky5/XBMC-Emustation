@@ -1,0 +1,64 @@
+Kid Icarus
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo R&amp;D 1
+Publisher: Nintendo
+Players: 1
+_________________________
+
+Let us go back to the distant past to an age when the Gods and Man lived together in harmony. There was once a kingdom called "Angel Land." This kingdom was ruled by two beautiful goddesses, Palutena who administered light and Medusa who ruled darkness.
+
+Palutena lived in the Palace in the Sky and administered light so that man could live in happiness. And bathed in this light man grew food and lived in peace.
+
+However, Medusa the goddess of darkness was different. Medusa hated mankind. She took great pleasure in drying up the crops that man took great pains to grow and in turning people into stone statues.
+
+In her anger Palutena changed Medusa into an ugly monster and banished her to the deep, dark Underworld. For being changed into this ugly monster and forced to live in the Underworld, Medusa promised to take over the Palace in the Sky where Palutena lived. So great was Medusa's anger that she joined forces with the monsters and evil spirits of the Underworld and Medusa's army soon began to surpass Palutena's army in strength.
+
+Soon a war between Palutena and Medusa began. Medusa led a surprise attack on Palutena's army which could barely fend off the attack. Palutena's army suffered major losses and was heavily defeated in the final battle. What's more, Medusa's army took the Three Sacred Treasures - the Mirror Shield, the Arrow of Light, and the Wings of Pegasus - away from them. Almost all of the warriors in Palutena's army were turned into stone statues and Palutena herself was imprisoned deep in the Palace in the Sky.
+
+The peaceful realm of Angel Land came to be inhabited by foul and terrible monsters and was turned into a land of darkness ruled by the wicked Medusa. Locked in the depths of the Palace in the Sky, Palutena's strength was drained to its last.
+
+As a last resort, she sought the help of the angel youth Pit who was being held prisoner locked in a deep dungeon in the Underworld. Pit was a valiant warrior who used to be in charge of Palutena's personal bodyguards.
+
+Armed with a boy and arrow brought to him through Palutena's magical strength, Pit attempted an escape from the Underworld. The guard at this time was low in number as Medusa's army had advanced to the Palace in the Sky. Pit succeeded in his escape and set out on his long adventure to rescue Palutena. Yet to defeat Medusa he had to get the Three Sacred Treasures.
+
+Will Pit be able to restore Palutena's light and return it to Angel Land? Only you can answer that question.
+
+--From the NES Kid Icarus instruction manual.
+
+Overview:
+
+I thought this was one of the best stories Nintendo came up with on the NES. This platformer was a lot of fun to play. While I would classify this game as a platformer, it has a few RPG elements, like the ability to gain experience. You had to "buy" your strength upgrades rather than your character just growing though. I liked how you could go into one side of the screen and come out the other. I also liked how you could shoot straight up if you needed to. The music and sounds were enjoyable, but not great. I really like the graphics, though. They were well drawn. The monsters and your character were well rendered, although the backgrounds left a little to be desired sometimes. All in all, I think Kid Icarus was one of the best games Nintendo put out on the NES.
+
+Directions:
+
+Save your world from the evil Medusa by rescuing the goddess of light, Palutena. Fight your way through three levels with a boss at the end of each one, and a fourth level that contains the final boss.
+
+Each of the first three levels are divided into four stages, while the fourth is just the boss fight. The bosses are: Twinbellows, Hewdraw, Pandora, and Medusa.
+
+You gain levels by collecting experience points. You will gain a level at 20,000; 50,000; 100,000; and 200,000. The top level will be five. Each time you gain a level, you will gain hit points. There are also rooms where you can get better weapons and increased strength. The weapons are a shield, a sacred bow, and fire arrows.
+
+Hearts are the currency in this game. A small heart is worth one, a half of a big heart is worth five, and a big heart is worth ten. A harp will turn all the enemies into mallets for a short time. Mallets are used to free centurions in the palace stages. They will help you fight the boss in that palace. A credit card will allow you to buy something and pay for it later. You buy the item, then your heart balance will stay at zero until you've collected enough to pay for the item. An angel's feather will allow you to fly instead of fall off a cliff. A glass of the water of life will return seven hit points instantly, while a bottle will restore the hit points when your life reaches zero. A barrel will allow you to carry up to eight bottles. Maps can be found in the fortresses and are visible on the pause screen. A torch can be bought in the fortress stores. It will show your position on the map. A pencil will show you which rooms you've already been to by turning them green. 
+
+Controls:
+
+A Button: Jump
+B Button: Use weapons
+Start Button: Begin game, pause/unpause
+Select Button: Select between "START" or "CONTINUE"
+
+Hints:
+
+"Fully loaded" Password
+Input the following password:
+
+PAKING PAKING
+PAKING PAKING 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/kid_icarus.html

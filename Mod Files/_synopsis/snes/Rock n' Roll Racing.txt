@@ -1,0 +1,71 @@
+Rock n' Roll Racing
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1993
+Developer: Blizzard Entertainment
+Publisher: Interplay
+Players: 1 or 2 VS
+_________________________
+The background music consists of instrumental versions of several heavy metal and rock n' roll songs, hence the game's title. The game was ported to the Game Boy Advance in 2003.
+
+Rock N' Roll Racing was initially developed as "RPMII", a sequel to the company's SNES game RPM Racing. At the end of the project, Interplay marketing added licensed music and changed the name to Rock N' Roll Racing. It is also similar in gameplay to the NES game R.C. Pro-Am developed by Rare in 1988.
+
+The game pits four racers against each other, with up to two of them being player-controlled and the rest being AI opponents. Each race consists of four laps around tracks viewed from an isometric perspective, which enables players to discern the presence of frequent sloping sections spread throughout the game's various tracks. In addition to navigating the turns, racers must also maneuver hills and dips without falling or jumping over the guard rail at the track's edge.
+
+While it is a racing game, there is heavy emphasis on attacking competitor's vehicles; since the cars always reappear with full health just a few seconds after blowing up, the only "harm" done is falling behind in the race. Players are rewarded with a monetary "attack bonus" each time they provide the finishing blow against another car using their projectile weapons (and a similar "lapping bonus" when they gain a full one-lap lead on an opponent during the race). In accordance with the continual destruction and restoration of the racing vehicles, the tracks are littered with mines and health power-ups, as well as money power-ups. Other hazards include oil slicks, snow drifts, and lava, depending on the planet hosting the race.
+
+Players are updated on the race by commentator "Loudmouth Larry" (Larry "Supermouth" Huffman), who makes comments like "The stage is set, the green flag drops!" (or "Let the carnage begin!"), and "Rip: is about to blow!" in an enthusiastic tone at appropriate moments during the race. (There is a slight pause between a character's name and any given phrase, as each name and each phrase is its own sound effect, which can be heard in the F/X screen.)
+
+Between races, players can spend the money they've earned on more advanced equipment for their vehicle (engines, tires, shocks, and shielding) or on increasing their capacity for the frontal weapon (energy blasts or missiles), rear weapon (slip sauce or mines), and turbo boost (jump jets or nitro boosts), each of which can max out at seven. Despite their limited capacity, every vehicle will have its weapon and boost charges replenished at the completion of each lap in a race. Racers can also buy more advanced car models, and any upgrades already acquired are disregarded when purchasing a new vehicle.
+
+The first three drivers to complete a race are awarded both money and points according to the final standings. Points are required for advancement to the next racing division or the next planet, with two divisions on each planet. A player who has not obtained enough points during a division's racing season must repeat the division, again starting with zero points, but all changes to the player's money and car remain in effect. In two-player mode, when only one player has sufficient points, the character in charge of advancement asks "Leave your loser friend behind?", allowing the leading player to continue alone by removing the other player from the game. The dropped player can continue from that point later by using their most recent password, once the game is reset.
+
+Rock N' Roll Racing was awarded Best Driving Game of 1993 by Electronic Gaming Monthly.
+
+Tips:
+
+Race On Inferno In VS. Mode
+In the planet selection screen on VS. mode, go to NHO and hold L, R + SELECT, while holding them, press right once
+
+Secret Character-Olaf
+At the character select screen, hold down L, R, and select with Snake shown on the screen, then press left and right.
+
+Passwords:
+KFBR Q8RD 92J! Bogmire, A Class
+!CB8 Q8TD SWJ! Bogmire, B Class
+OBD8 QQRX SWJ! Chem IV, A Class
+DR8R QQTX RS6M Chem IV, B Class
+ZCB8 Q8R5 SWJ! Drakonis, A Class
+7CB8 Q8T5 SWJ! Drakonis, B Class
+BFYR Q8Q5 5TJ! INFERNO, A Class
+LFYR Q8S5 5TJ! INFERNO, B Class
+JFBR Q8RN 92J! New Mojave, A Class
+SFBR Q8TN 92J! New Mojave, B Class
+CFYR Q8QX 5TJ! NHO, A Class
+MFBR Q8SX 92J! NHO, B Class
+
+Warrior mode Passwords:
+Enter the following passwords to take you to the desired level in warrior mode
+7JM8 QQCB 9SPS Bogmire
+!B!R T5C3 X5PT Drakonis
+XWC7 HZB5 5TJ! Inferno
+1FQ8 R5CL 9KK2 New Mojave
+V2L8 14BV 92K! Nho
+
+Secret Character (Not Olaf)
+Enter in T5D7 HQPV SWJ! as a password
+
+Restarting the game with the same car and money.
+Play the game normally, get a good car, equip it and get some money, as you usually do. Go to the options screen and take the password. Then start a new game in the same skill level you've started before, choose any driver and car and go to the options screen, and take the password.
+
+There's the trick: start a 2P game using passwords, and input both passwords you've got. This will start a game 
+in the first planet, with one basic player and a overpower player! Play the division B pressing start and  selecting 'give up' with the basic player, leave him behind when you go to division A and voila! You'll play alone, with your end game car, in the beginning of the game. Take the chance and make lots of money!
+
+Sound Test
+At the options screen, turn off Larry. Then, using either A, B, X, or Y, turn Larry back on and keep holding that button. Now, when you press L, you'll hear a different sound than Larry.
+
+http://en.wikipedia.org/wiki/Rock_N%27_Roll_Racing

@@ -1,0 +1,18 @@
+International Karate 2000
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2000
+Developer: Studio 3
+Publisher: Virgin Interactive
+_________________________
+International Karate 2000 is a remake of the classic beat 'em up International Karate in which you play as a new entry in the International Karate championship and travel the world in hopes of defeating each local champion in tournament-legal (for points) matches.
+
+The game is played from a non-scrolling side view, with your attacks being determined by combinations of the attack buttons and the directional arrows. As mentioned you win matches via points awarded whenever you connect a direct hit or perform a successful move.
+
+The GBC version also adds a health bar that influences your performance and a round-based system. Furthermore all graphics have been redrawn and the character selection has been expanded and now includes 12 playable characters, each from a different location.
+
+http://www.mobygames.com/game/gameboy-color/international-karate-2000

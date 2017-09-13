@@ -1,0 +1,14 @@
+Bubble Bobble Madness 2: Insanity
+Original title: Bubble Bobble 2
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Hacked by: Weasel
+Version: 0.15
+_________________________
+Bubble Bobble Madness 2: Insanity is the sequel to the rom hack Bubble Bobble Madness. Like the first Madness game, it is intended to have much harder levels than the original game. The current version of BBM2 has 19 levels edited and some small graphics edits.
+
+http://desnet.kodewerx.org/index.php?page=hacks&amp;system=0&amp;id=9

@@ -1,0 +1,18 @@
+Final Fantasy III US HardType+ (FF3usHT)
+Original title: Final Fantasy VI
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2004
+Players: 1
+Hacked by: JCE3000GT
+Version: 1.2
+_________________________
+"This is a modification of the game Final Fantasy 3 US Version 1.0. This makes the game MUCH harder and adds more flavor than the original."
+
+This is a difficult hack of Final Fantasy III US. In addition to being challenging there are new monsters, some dialogue changes, and a whole new way of learning magic. Overall, it's a good hack if you mastered the original game.
+
+http://www.romhacking.net/hacks/77/

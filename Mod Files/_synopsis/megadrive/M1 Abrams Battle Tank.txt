@@ -1,0 +1,35 @@
+M-1 Abrams Battle Tank
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Vehicular Combat
+Gametype: Licensed
+Release Year: 1991
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+Take the most powerful NATO tank, the M-1 Abrams, in 8 difficult missions against the Warsaw Pact forces. The four tank stations and the other aspects of the tank are quite nicely simulated, with different types of cannon rounds, coax machine guns, and all that. There's also the independent turret and track rotation commands. 
+
+The controls are difficult at first But once you get that part down it gets pretty fun.
+
+Directions:
+
+You've got 3 different types of ammo, though I can't figure out how to switch between them &amp; There are separate controls for the tracks &amp; turret
+
+Trivia:
+
+This is the first game Dynamix tried (and applied) its proprietary 3D engine, which later caused so much excitement when used in Betrayal at Krondor.
+
+Controls:
+
+A Button: Fires the gun
+B Button: Brings up the in-game menu
+C Button: Hold to turn the turret independently
+D-pad Left &amp; Right: Turn tank
+D-pad Up and Down: Control the throttle
+
+Reviewer: Kasey Chang, Robbb
+http://www.mobygames.com/game/genesis/abrams-battle-tank
+http://www.consoleclassix.com/genesis/abrams_battle_tank.html

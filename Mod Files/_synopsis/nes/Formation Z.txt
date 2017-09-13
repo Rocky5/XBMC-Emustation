@@ -1,0 +1,17 @@
+Formation Z
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1985
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+_________________________
+
+The player competes in a marathon continuous scrolling horizontal shoot-em-up game across land, sea, air and outer space. You can hold down the fire button for a burst of Charged fire, which is especially essential to defeat the bosses.
+
+The player can hold down the Jump button to transform back and forth between a Mobile Robot or an Aero Fighter. Some sections have confrontations on both ground and air; others insist on aerial battling. Your time in the Aero Fighter is limited by its fuel requirement.
+
+http://www.mobygames.com/game/nes/formation-z

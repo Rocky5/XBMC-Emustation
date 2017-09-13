@@ -1,0 +1,35 @@
+Brandish
+Platform: Super Nintendo Entertainment System
+Region: USA, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1995
+Developer: Nihon Falcom
+Publisher: Koei
+Players: 1
+_________________________
+A long time ago, a small kingdom called Berimya was built around a lofty tower, which pierced the sky. The inhabitants of the city, guarded by a mighty Dragon, lived in peace and abundance. However, King Berebus, the ruler of Berimya, desired to expand his kingdom. He ordered the scholars to research the Tower.
+
+Soon, one of the scholars brought a tome written in an ancient language from the tower to Berebus, which they started deciphering. As they were deciphering the tome, some scholars feared that they might be laying their hands on the forbidden knowledge of the ancients.
+
+When the scholars decipher the tome, it read, "The Great Guardian of Berimya, the Dragon, and the Essence of Power lies in the top of the Tower; the one who possesses the Essence will possess all." Undaunted by the otherwise ominous words of the tome, Berebus decided to make the Essence of Power his own.
+
+He secretly organized an army, which soon seized the Tower and raised their swords against the Dragon. Even the Dragon could not resist the power of Berebus' army. As Berebus grasped at the Essence of Power, the Dragon gave up its own life to destroy the Essence of Power. The Essence, losing control, transformed the King into a hideous monster and sank the entire kingdom of Berimya, including the great tower, under the ground. All people on the surface of the earth forgot about Berimya and the Tower in its center, and a thousand years passed.
+
+A mysterious swordsman, known as Varik, is pursued by a sorceress named Alexis (Dela Delon in Japan) who seeks revenge for the murder of her master. When Alexis catches up with Varik and attacks, her magic causes the ground beneath them collapsed and both fell into the Ruins of Berimya. The player assumes the role of Varik and must escape from the sunken city.
+
+Reception:
+
+The Super NES version isn't very well known or popular because of its late release, when the SNES market was beginning to fade off in anticipation of the Nintendo 64 and PlayStation. Also, the game was published by Koei, which was known at the time for their strategic war games and not many RPG nor any action games. Another problem was the core gameplay, which affected all versions: The game plays in a top-down view and the controls are very tricky. When the default buttons are chosen, Varik moves without turning in another direction (strafe) unless the directions are pressed in combination with the rotate buttons, and when he rotates, the screen also does, which can easily confuse newcomers.
+
+Tips:
+
+Alternate Ending
+Instead of helping Alexis fight him for an alternate ending.
+
+Refill your Health
+For an easy health refill: tap L + R at the same time-the screen will go black and your HP will slowly refill.
+
+http://en.wikipedia.org/wiki/Brandish

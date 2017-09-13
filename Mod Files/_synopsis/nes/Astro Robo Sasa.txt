@@ -1,0 +1,15 @@
+Astro Robo Sasa
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1985
+Developer: MTL
+Publisher: ASCII Entertainment
+_________________________
+
+Astro Robo Sasa is a Shoot-'Em-Up game, developed by MTL and published by ASCII Entertainment, which was released in Japan in 1985.
+
+http://www.gamefaqs.com/console/nes/home/578245.html

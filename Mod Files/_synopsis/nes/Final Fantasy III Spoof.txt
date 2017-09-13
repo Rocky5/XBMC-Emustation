@@ -1,0 +1,13 @@
+Final Fantasy III Spoof
+Original title: Final Fantasy III
+Platform: Nintendo Entertainment System
+Region: Japan (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Players: 1
+_________________________
+In this basic ROM hack almost all of the text is changed from the original Final Fantasy III to make funny statements and remarks about the scenarios that the good guys encounter throughout the game. 
+
+http://datacrystal.org/wiki/Final_Fantasy_III:_Spoof

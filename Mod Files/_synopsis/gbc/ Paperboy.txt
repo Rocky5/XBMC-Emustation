@@ -1,0 +1,14 @@
+Paperboy
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 1999
+Developer: Digital Eclipse
+Publisher: Midway
+_________________________
+Based on the arcade game, the object of Paperboy is to deliver papers to your customers while inflicting as much damage as possible to the houses of your non-customers. To make things more difficult, numerous obstacles get in your way including construction workers, rogue tires, skateboarders, dogs and cats, cars, and even the occasional tornado.
+
+http://www.mobygames.com/game/gameboy-color/paperboy

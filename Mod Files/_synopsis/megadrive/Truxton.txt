@@ -1,0 +1,15 @@
+Truxton
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Vertical
+Gametype: Licensed
+Release Year: 1989
+Developer: Toaplan
+Publisher: SEGA
+Players: 1
+_________________________
+Truxton, called Tatsujin in Japan, is a 1988 arcade shoot-'em-up developed by Toaplan. It was ported to the Sega Mega Drive and released internationally in 1989 (1990 in Europe). Gidans have begun an invasion of Borogo and have managed to destroy all but one Borogo fighter ship; the player must take control of this ship (the "Super Fighter") and defeat the Gidans.
+
+A sequel, Truxton II (Tatsujin Oh! in Japan) was released in 1992 but skipped Sega systems.

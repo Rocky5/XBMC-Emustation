@@ -1,0 +1,15 @@
+Super Mario Bros. DX
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2005
+Hacked by: flamepanther
+Version: 2.0
+_________________________
+Super Mario Bros. DX is a complete graphics upgrade for Super Mario Bros., based partly on Super Mario Bros. 3 including a combination of directly-imported, modified, and entirely new graphics. Special attention has been paid to color. This hack may be combined with separate level hacks, or (if credited) used as a springboard for your own hacks.
+
+http://www.romhacking.net/hacks/144/

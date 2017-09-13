@@ -1,0 +1,13 @@
+Budokan: The Martial Spirit
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1990
+Developer: Electronic Arts
+Publisher: Electronic Arts
+Players: 1
+_________________________
+Budokan: The Martial Spirit is a fighting game developed and published by Electronic Arts for the Sega Mega Drive, DOS and a few home computers. American versions of the game do not have TMSS support and will only work on early Model 1 Mega Drives.

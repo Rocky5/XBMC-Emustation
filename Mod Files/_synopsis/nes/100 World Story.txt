@@ -1,0 +1,24 @@
+100 World Story
+Original title: Hyaku no Sekai no Monogatari: The Tales on a Watery Wilderness
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game > Turnbased 
+Gametype: Translated
+Release Year: 2007
+Translated by: AlanMidas
+Version: BS.VQt
+_________________________
+Have you ever been lying awake at night, thinking "wow, wouldn't it be cool if there was a board game RPG?" Well, the Ask Corporation has answered our prayers, dear boy! And as simple as a "board game RPG" might sound, 100 World Story truly defies explanation. Well, sort of. You roll dice and traverse the land, entering towns, passing through forests and killing small woodland animals, finding treasure, spending treasure, losing treasure, and enduring fetch quest after fetch quest to become strong enough to accomplish the scenario's main goal. There are two ways to win: Accomplish the main goal (there's three scenarios: slay the dragon, find the legendary treasure, and rescue the princess), or have the most points (gold, equipment, etc) after all the rounds are over. Random people will give you experience, you always tend to find items lying around on the road.. It's always completely random and fun.
+
+Battles are pretty typical RPG stuff, you pick the option to fight, magic, etc. and the combat only lasts a turn before it's the next person's turn to play. It's great fun, so play the game.
+
+Translation Description:
+
+Midas has done a great job translating this, as I can only imagine there must be tons of text in this little game. The only problem (and it's kind of a big one) is that the translation won't work in a lot of emulators. Use NESticle for best results, even if it's an ancient pain in the ass.
+
+Update 25 April 2007: Most of the bugs should have been fixed in the latest bs.vq version.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/85/

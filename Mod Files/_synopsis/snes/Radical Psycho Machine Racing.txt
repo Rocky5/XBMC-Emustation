@@ -1,0 +1,33 @@
+Radical Psycho Machine Racing
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1991
+Developer: Blizzard Entertainment
+Publisher: Interplay
+Players: 1 or 2 VS
+_________________________
+RPM was a successful remake of the Commodore 64 program Racing Destruction Set, developed by Electronic Arts in 1985. It claims to be the first American-developed game for the SNES system.
+
+RPM was one of the first SNES games developed in 'High Resolution Graphics Mode' which allowed for sharper detail but fewer colors. While the higher resolution gave finer detail, it also severely limited the number of colors and amount of unique graphics that could be displayed from the SNES video memory. Due to this, the sequel to RPM (RPMII which was later renamed Rock N' Roll Racing) was developed in the lower resolution graphics mode allowing for much more vibrant colors and graphic detail.
+
+The logic engine and track editor for RPM were ported from an older EA title Racing Destruction Set. The 6502 assembly code was modified for 16 bit but otherwise mostly left intact.
+
+There is an easter egg in the game on Track 29 which spells 'Eat Me' very clearly. This surprisingly made it through Nintendo's QA process and wasn't mentioned in any of the post reviews of the game.
+
+Gameplay:
+
+In the game, players can race in a regular season, a single race, and even get to create their own course. The courses can be straight and oval like NASCAR, curvy and flat like Formula One, or hilly and unpredictable like a monster truck track. The winner gets money and a chance to score his initials for the fastest time.
+
+Development:
+
+RPM was developed using the 'Sluggo' development system created by Bill Heineman and his partner which allowed uploading of bin files to a device that emulated a cartridge for the SNES. System did not include step through or trace functionality.
+
+RPM was programmed in 65816 Assembly Language using a cross compiler on an IBM computer.
+
+Development took 5 months and was programmed almost exclusively by Allen Adham with graphics supplied by Interplay.
+
+http://en.wikipedia.org/wiki/RPM_Racing

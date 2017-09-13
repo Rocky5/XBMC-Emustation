@@ -1,0 +1,19 @@
+Qix
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1991
+Developer: Taito
+Players: 1-2
+_________________________
+
+The objective of Qix is to fence off, or "claim", a supermajority of the playfield. At the start of each level, the playing field is a large, empty rectangle, containing the Qixa sticklike entity that performs graceful, but unpredictable motions within the confines of the rectangle. 
+
+The player controls a small diamond-shaped marker that can move around the edges of the rectangle. To claim an area of the screen, the player must detach from an edge and draw Stix within the rectangle. Stix are simply lines traced out by moving the marker. When the marker completes a closed shape, the captured area becomes solid and points are awarded. The player may draw either Fast Stix, which appear blue when solid, or Slow Stix, which appear red. Slow Stix take longer to draw, but are worth twice as many points.
+
+The player is vulnerable and can lose a life when drawing Stix if the Qix touches a Stix line as it is being drawn, before it becomes solid. Once the player has claimed an area, the marker can safely move along the border of that claimed area.
+
+http://www.nesguide.com/games/qix/

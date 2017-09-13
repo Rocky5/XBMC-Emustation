@@ -1,0 +1,33 @@
+Popeye
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Arcade
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo
+Players: 1
+_________________________
+
+Popeye and Brutus are at it again in this video contest for Olive Oyl's affection. As Popeye, you must battle the likes of Brutus and the Sea Hag while you race to collect all of the floating hearts that Olive tosses to you. Once you have Spinach power, Popeye can conquer all, but without it, watch out!
+
+--From the NES Popeye instruction manual.
+
+Overview:
+
+Just like the cartoon series, Popeye and Brutus are fighting over the beautiful Olive. So Brutus kidnaps Olive, and Popeye must save her! Brutus and his pals will try to stop Popeye, but Popeye can use many things to his advantage!
+
+Directions:
+
+To score points and beat the level, you must collect the heart-shaped tokens that Olive drops. Also, avoid Brutus so he doesn't kill you. But that doesn't make you totally vulnerable! Grab the spinach that Popeye loves oh so much to become super-strong, and you can kill Brutus that way. But it only works for the level you're using it.
+
+Controls:
+
+A Button: Punch
+B Button: No use
+Start Button: Start game, Pause, Unpause
+Select Button: Select between games on main menu
+
+Reviewer: LinkOfHyrule
+http://consoleclassix.com/nes/popeye.html

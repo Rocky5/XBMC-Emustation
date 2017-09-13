@@ -1,0 +1,18 @@
+Mega Man Alpha
+Original title: Mega Man
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer > Action > Adventure 
+Gametype: Hack
+Players: 1
+Hacked by: Redrum
+_________________________
+This is a graphical hack of Mega Man.
+
+Mega Man takes on a more futuristic look, and his much-lampooned jump animation has been changed. Many of the minor enemies look different, and Ice Man is somewhat more menacing.
+
+Beyond that, the game is exactly the same. Any FCEU movies recorded with the original Mega Man ROM will work exactly the same under Mega Man Alpha. 
+
+http://datacrystal.org/wiki/Mega_Man_Alpha

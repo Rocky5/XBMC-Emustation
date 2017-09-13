@@ -1,0 +1,25 @@
+Undead Line (English Translation)
+Original title: Undead Line
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Translated
+Release Year: 2007
+Players: 1
+Translated by: MIJET
+Version: 1.0
+_________________________
+Undead Line is a top-down arcade shooter with scrolling screens, like Commando and other games. The player controls a character (from a selection of three on the MSX 2 version) that shoots projectiles at enemy monsters.
+
+The six levels available are presented in a menu and can be selected and played in any order. There is a boss battle at the end of each one.
+
+Chests with power-ups are scattered throughout the levels. They open when shot, and in the Genesis version it is possible to cycle through the available power-ups by keeping firing at them. The power-ups include armor and speed boosts, and several types of projectiles.
+
+Translation Description:
+
+This is a translation patch for the Mega Drive game called "Undeadline". It sports a variable-width font engine with kerning and, as usual, it is a "dual-language" patch, meaning that it supports both Japanese and English, depending on the country code of your machine. There are also two fonts to choose from.
+
+http://www.mobygames.com/game/genesis/undead-line
+http://www.romhacking.net/trans/1223/

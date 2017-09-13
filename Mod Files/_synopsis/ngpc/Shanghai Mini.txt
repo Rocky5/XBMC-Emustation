@@ -1,0 +1,17 @@
+Shanghai Mini
+Platform: Neo Geo Pocket
+Region: USA
+Media: Cartridge
+Controller: Neo-Geo Pocket Color Controls
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2000
+Developer: SNK
+Publisher: SNK
+Players: 1
+_________________________
+Shanghai Mini is a release for one more platform in the for ever continuing series of Activision's tile matching game.
+
+Included are classic, tournament and dynasty modes. Classic is normal game with six different board layouts. In tournament game player challenges the Tower of Shanghai and tries to beat the Shanghai Master by solving different board layouts within time limit. Dynasty is two player competition - against computer or human (requires link cable) opponent.
+
+http://www.mobygames.com/game/neo-geo-pocket-color/shanghai-mini

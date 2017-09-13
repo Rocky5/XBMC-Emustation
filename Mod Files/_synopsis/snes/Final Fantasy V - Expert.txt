@@ -1,0 +1,16 @@
+Final Fantasy V Xpert
+Original title: Final Fantasy V
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2001
+Players: 1
+Hacked by: JCE3000GT
+Version: 0.947
+_________________________
+This patch makes FF5 much harder by beefing up the enemies. That's basically all that's in this version. I never finished doing anything else. So if you thought FF5 was too easy give this a try.
+
+http://www.romhacking.net/hacks/272/

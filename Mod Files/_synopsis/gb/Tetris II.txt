@@ -1,0 +1,15 @@
+Tetris 2
+Alternative title: Tetris Flash
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1993
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+Unlike the original Tetris, Tetris 2 has you clearing the field of blocks in a different way. Each play field starts with different colored dots (in this case black, gray and white), with one of each color flashing. The blocks are made up of the same three colors, and by matching blocks of the same color over the top or to the side of the dot will clear the dot and those blocks from the screen. If you clear a flashing dot, all the corresponding dots of the same color will be cleared. To complete the round just clear the dots, not the blocks themselves.
+
+http://www.mobygames.com/game/gameboy/tetris-2

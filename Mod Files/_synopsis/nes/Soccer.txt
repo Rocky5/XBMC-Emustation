@@ -1,0 +1,16 @@
+Soccer
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Soccer
+Gametype: Licensed
+Release Year: 1985
+Developer: Intelligent Systems
+Publisher: Nintendo
+Players: 1 or 2 VS
+_________________________
+
+Soccer is an action game for two players or one player against the computer. You can play the game in one of five skill levels, choose from several different teams, and select the amount of time the match will take. Soccer features throw-ins, goal kicks, corner kicks, penalty kicks and an overhead view of the field which scrolls to follow the action.
+
+http://www.mobygames.com/game/nes/soccer

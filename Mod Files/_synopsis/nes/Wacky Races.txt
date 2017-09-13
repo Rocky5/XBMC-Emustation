@@ -1,0 +1,37 @@
+Wacky Races
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Atlus Co.
+Publisher: Atlus Co.
+Players: 1
+_________________________
+
+Warning: Wacky Race is a platformer, not a racing game!
+
+The player controls Muttley through three different areas (Hip Hop, Splish Splash and Go Go America) in typical platform action. By collecting 100 diamonds, Muttley gains an extra life and by finding a bone, Muttley can switch out another one of his weapons, adding a slight strategy element to the game.
+
+Controls:
+
+Down - Crouch
+Left - Move back 
+Right - Move forward
+A - Jump
+B - Use weapon (if any)
+SELECT - Pick option in menu bar
+Start - Pause game (press again to resume)
+
+Hints:
+
+-Secret area in Hip Hop A-1
+When you are in the castle and must drop down the hole to reach the next section, don't do so yet. Continue to the right instead and you'll find you can pass through the wall. You'll reach a new area, which contains 4 crystals, 2 bones and 1 life-up as well as an enemy.
+
+-Easier boss fights
+To make boss battles easier, try to encounter the bosses with the arrow in the menu bar on the third slot. There's always one bone when you fight against a boss. Now, you just need to take it and you can refill your health when you're low.
+
+http://en.wikipedia.org/wiki/Wacky_Races_(video_game)
+http://www.gamefaqs.com/console/nes/file/563474/15167

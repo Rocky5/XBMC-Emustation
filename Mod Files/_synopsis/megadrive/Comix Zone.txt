@@ -1,0 +1,23 @@
+Comix Zone
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1995
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+Comix Zone is a platform action game for the Sega Mega Drive/Genesis. Play involves defeating enemies with punches, kicks, and holds, managing your inventory, and solving puzzles.
+
+The game's most remarkable feature is that it is set within the "panels" of a comic book. Each level consists of two "pages", and secrets are discovered by shredding the "paper" and revealing items. Dialogue is rendered within talk bubbles with the typical comic font. Sprites and backgrounds possess the bright colors and dynamic drawing style favored by superhero comics.
+
+The plot concerns Sketch Turner, a cartoonist that during an unusual thunderstorm, becomes trapped in his own comic book while Mortus, the villain of his story, is flung out of it. Inside the comic book, he meets General Alissa Cyan, who believes he's a superhero that came to save their post-apocalyptic world from the evil. In the real world, Mortus would literally draw new villains on the pages of the comic book, trying to kill Sketch Turner, and so obtaining his "real" body to conquer the real world with. Sketch Turner would have to battle his way through the pages, his only help being his pet rat Roadkill, who got electrocuted during this thunderstorm, enabling him to zap enemies.
+
+The game is hidden within the Japanese version of Sonic Mega Collection and is locked part of all region versions of Sonic Mega Collection Plus, which is unlockable with having a Sonic Heroes gamesave, or is unlocked over time.
+
+The original Genesis game came with a bonus music CD, which had vocal tracks of the 6 main tunes in the game. The music was performed by the band "Roadkill", which was lead by Howard Drossin.
+
+Comix Zone was ported to the GBA and released in Europe in 2002.

@@ -1,0 +1,18 @@
+Stinger
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+
+Save Professor Cinnamon! When aliens from the planet Attackon kidnap the inventor during their invasion of Earth, two Twinbee Stinger jets (armed with boxing gloves) are unleashed to rescue Cinnamon before the aliens turn the Earth into a giant ball of cotton candy!
+
+In this vertical and horizontal scrolling shooter, blast away unusual creatures and even more bizarre bosses, while collecting power-ups and super weapons. By repeatedly shooting bells that come out of the clouds, these bells will change colors, each color giving a different ability. Getting shot down releases a ghost of Stinger, which can be recollected to gain the jet's powers back.
+
+http://www.mobygames.com/game/nes/stinger

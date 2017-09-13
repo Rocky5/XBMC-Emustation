@@ -1,0 +1,17 @@
+ESPN Baseball Tonight
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Baseball
+Gametype: Licensed
+Release Year: 1994
+Developer: Park Place Productions
+Publisher: Sony Imagesoft
+Players: 1 or 2 VS
+_________________________
+ESPN Baseball Tonight is a baseball game for the PC, Super NES, Sega Mega Drive/Genesis, and Sega [Mega-]CD. The game was licensed by MLB, but not by the Players Association, so while actual team names and logos are used, no player names are in the game.
+
+The lead programmers for the project were James Grove and Phil King. The game's simulation engine was based on the code used for Tony La Russa Baseball, another Stormfront Studios product. The game featured video clips of Chris Berman.
+
+http://en.wikipedia.org/wiki/ESPN_Baseball_Tonight

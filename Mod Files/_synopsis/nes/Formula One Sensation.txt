@@ -1,0 +1,17 @@
+Formula 1 Sensation
+Platform: Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1993
+Developer: Konami
+Publisher: Palcom
+_________________________
+
+This 3D racing game featuring Formula 1 cars and circuits. Besides a racing a F1 grand prix championship you can also choose to practice a specific race track.
+
+You can select the F1 race track you want to race. Cars are custom made you can select the body type of the car, the body color, the chassis. You can even select your rival drivers.
+
+http://www.mobygames.com/game/nes/formula-1-sensation

@@ -1,0 +1,32 @@
+Sorcerer's Kingdom
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1992
+Developer: Treco
+Publisher: Treco
+Players: 1
+_________________________
+Overview:
+
+The ear-splitting cry of a Griffin wracks your brain and echoes down the long dark corridors of Sorcerer's Kingdom. Only your sense of duty to your King gives you the courage to venture forth. As you defeat foe after foe in this precarious land, you feel your muscles growing stronger and your reflexes getting swifter. Up ahead you finally glimpse the daylight and run for fear of what is closing in behind you. You find yourself at the edge of a towering cliff where your only hope for escape is to don your magical wings and fly...
+
+Gameplay:
+
+Sorcerer's Kingdom is a mix of RPG and strategy game. You play a young adventurer, who is sent out by the king to find out the reason for the increasing number of monsters that threaten the land and restore peace to the kingdom. Starting out as an Adventurer you are eventually given higher titles by the king, as a reward for completing quests.
+
+The game plays like a typical RPG but the battles are a little unusual. Whenever you are attacked or attack a monster that is within your current range, a turn-based battle starts immediately without taking you to a separate fighting area, and you have to fight all enemies that were visible the moment the battle started.
+
+Hints:
+
+- Sound Test -
+Right before the Sorcerers kingdom title page comes up imput this code in and hold them untill you get to a black screen with the soundeffects and music.
+ABC+Start
+
+Reviewer:
+
+http://www.gamefaqs.com/console/genesis/home/586473.html
+http://www.mobygames.com/game/genesis/sorcerers-kingdom

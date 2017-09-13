@@ -1,0 +1,15 @@
+Super Metroid: MockingBird Station
+Original title: Super Metroid
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: Xaggoth
+_________________________
+Samus has been hired to investigate MockingBird Station.  Others have come before her, but none of them have returned.  Upon arrival the station sealed the hanger doors blocking her way out.  After scanning her systems, Samus finds that she must disable the stations power generator before she can leave.  Unfortunately the most direct route to the generator has been blocked and she must take a more roundabout path.  The only thing that she knows is that much of the station is in lock down and she will need to release bulkheads to open more of the station.  A larger bulkhead in engineering is blocking the alternate route.  Disabling the generator will destroy the station, but there is no other option.
+
+http://m2k2.taigaforum.com/post/sm_sm_mockingbird_station_mini.html

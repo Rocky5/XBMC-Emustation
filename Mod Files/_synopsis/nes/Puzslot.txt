@@ -1,0 +1,15 @@
+Puzslot
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1992
+Developer: Sammy Studios
+Publisher: Sammy Studios
+_________________________
+
+Puzslot is a Puzzle game, developed and published by Sammy Studios, which was released in Japan in 1992.
+
+http://www.gamefaqs.com/console/nes/home/570644.html

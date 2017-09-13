@@ -1,0 +1,16 @@
+Zero Wing (Clean Version)
+Original title: Zero Wing
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Horizontal
+Gametype: Hack
+Release Year: 200x
+Players: 1
+Hacked by: Vincent404
+Version: Patch 1
+_________________________
+This is a "grammar hack" making the grammar in Zero Wing a little better.
+
+http://www.zophar.net/hacks/genesis/zero-wing/-clean-zero-wing.html

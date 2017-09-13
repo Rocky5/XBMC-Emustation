@@ -1,0 +1,14 @@
+JonBound: Dark Future
+Original title: EarthBound
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Players: 1
+Hacked by: Blue Antoid
+_________________________
+Blue Antoid's seminal, acclaimed, n00btastic work. It's the first full-length hack of EB, though it came before any sort of map or compressed graphics editing. It was also pretty much made up on the spot, with no real plan - just an accumulation of random ideas and plot threads gleaned from a forum topic, and tied together with minty dental floss. It generally follows the EarthBound story line (if not the plot) in a "new" scenario with new characters and enemies. (Most people hail JonBound as the Holy Grail of EB hacking, but Blue Antoid really hopes a newcomer will arrive and blow it away. Problem is he's been waiting since 2001!)
+
+http://starmen.net/pkhack/pk_junk/down_hack.php

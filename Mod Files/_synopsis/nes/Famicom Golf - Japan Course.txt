@@ -1,0 +1,15 @@
+Famicom Golf: Japan Course
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Golf
+Gametype: Licensed
+Release Year: 1987
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+
+Famicom Golf: Japan Course is a Golf Sim game, developed and published by Nintendo, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578378.html

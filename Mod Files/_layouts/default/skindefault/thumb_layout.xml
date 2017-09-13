@@ -48,7 +48,8 @@
 	<posy>158</posy>
 	<width>560</width>
 	<height>450</height>
-	<onright>70</onright>
+	<onleft>PageUp</onleft>
+	<onright>PageDown</onright>
 	<onup>9000</onup>
 	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
@@ -107,6 +108,7 @@
 	<onleft>9000</onleft>
 	<showonepage>false</showonepage>
 	<orientation>vertical</orientation>
+	<visible>false</visible>
 	<animation reversible="true" effect="fade" start="0" end="100" delay="" time="300">visible</animation>
 	<animation reversible="true" effect="fade" start="100" end="0" delay="" time="300">hidden</animation>
 </control>

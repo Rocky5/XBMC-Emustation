@@ -1,0 +1,26 @@
+Pulseman (English Translation)
+Original title: Pulseman
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Translated
+Release Year: 2007
+Players: 1
+Translated by: MIJET
+Version: 070226
+_________________________
+Pulseman is an electric hero who was created to fight cyber crime. Combat the galaxy gang throughout 7 stages with around 50 levels. Pulseman is best described as a fusion between the gameplay of Sonic the Hedgehog and Mega Man in ways of gameplay.
+
+Translation Description:
+
+As seems to be standard practice with MIJET's work, the patch contains both the original Japanese and the English translation. The correct translation is chosen based on the region of your Genesis or emulator internally thanks to some ROM Hack wizardry. Check the readme if you're interested in getting an inside look at the hacking from the author's perspective.
+
+As for the translation itself, it's stellar work as usual. There wasn't much text in the game (the readme states a mere 22 strings), but it was all handled with tender loving care, which shows brilliantly. Strangely enough, there is some spoken English in the game, but that's translated. In addition, all instances of Engrish have been fixed.
+
+Overall, this is a very nice translation, and since it's the only one for this game, I highly recommend it.
+
+Reviewer: boffin limbuddle
+http://www.mobygames.com/game/genesis/pulseman
+http://www.romhacking.net/trans/1099/

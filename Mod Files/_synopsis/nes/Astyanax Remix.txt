@@ -1,0 +1,18 @@
+Astyanax Remix
+Original title: Astyanax
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2006
+Version: 1.0
+_________________________
+This is the world's first Astyanax level hack, This hack was being worked on and off for almost 2 years. You'll notice that the levels and text has been changed, and there's also some minor graphics changes.
+
+People who'll remember this game can tell you that the gameplay is similar to Legendary Axe on the TG-16. And people'll also enjoyed the original game will get get their Astyanax fix. :p
+
+Well, I hope you all enjoy playing this hack as much as I had fun making it. :)
+
+http://www.romhacking.net/hacks/146/

@@ -1,0 +1,18 @@
+Destination Earthstar
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - First Person
+Gametype: Licensed
+Release Year: 1990
+Developer: Imagineering
+Publisher: Acclaim
+Players: 1
+_________________________
+
+Destination Earthstar is a futuristic, first person, space shooter game for the Nintendo Entertainment System. The view of the game is from the cockpit of a spacecraft. The goal of the game is to explore a grid which is displayed on screen in search of opponents to destroy and to land on planets some of which refuel the energy and refill ammo to your arsenal of weapons which consist of your photon laser which is your primary weapon and your secondary weapon torpedoes. After you have destroyed every enemy that is on the grid indicated by a number.
+
+The number represents how many enemies are in that quadrant of the grid you will finally be able to to go to the planet labeled "B" on the grid. these planets are unlike the other planets as they do not refill your vehicles energy or ammo but they are an enemy base that proceeds with you entering a 8 bit cutscene of your space craft entering the base's gravitational orbit with the game play changing from a first person cockpit you had on the grid stage to a horizntal 2D shmup stage similar to Konami's Gradius or R-Type where you can fire projectiles from the front or back of your ship.
+
+http://en.wikipedia.org/wiki/Destination_Earthstar

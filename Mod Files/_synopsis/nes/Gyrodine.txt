@@ -1,0 +1,15 @@
+Gyrodine
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1986
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+
+Gyrodine is basic vertical shooter based on Taito's arcade game with the same name. You pilot a helicopter and have to shoot as many enemies you can. You will fight against enemy helicopters, bunkers, tanks and fighter jets above different terrains like water, desserts and military camps. There is no background story and there are no levels.
+
+http://www.mobygames.com/game/nes/gyrodine

@@ -1,0 +1,13 @@
+F1 Circus MD
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Formula 1
+Gametype: Licensed
+Release Year: 1991
+Developer: Nihon Bussan
+Publisher: Nihon Bussan
+Players: 1
+_________________________
+F1 Circus MD is a 1991 racing game by Nihon Bussan for the Sega Mega Drive in their F1 Circus series, which also contains a Mega CD game.

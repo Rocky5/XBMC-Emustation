@@ -1,0 +1,23 @@
+Space Megaforce
+Alternative title: Super Aleste
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Vertical
+Gametype: Licensed
+Release Year: 1992
+Developer: Compile
+Publisher: Toho
+Players: 1
+_________________________
+Space Megaforce is a vertical-scrolling shooter game, published by Toho and part of the Aleste series by Compile. In a traditional fashion, the player pilots a space ship through a variety of locales crawling with enemy squadrons to shoot down, though the story in the Japanese version is different from American and European ones. However, Super Aleste also offers a "Short Game", where only a set of small levels are played, with the emphasis on scoring as many points as possible.
+
+There are eight types of weapons to use, and each can be powered up by collecting chips (small spherical items). Picking up chips causes the player's current weapon to level-up, to a maximum of six. There are two types of chips to find; Orange chips contribute to a level-up, but at higher levels, more chips are required to reach the next level. Green chips make the weapon level up instantly. Each weapon has a function that can be manipulated with the Shot-Control button, changing around the weapon's abilities to suit different situations. Switching to another weapon is done by picking up a numbered item, with initials representing one of the eight weapons.
+
+Tips:
+
+Warning Signal
+On the main menu, press Select twice and hold it. The option selection should be highlighted. Press Start.  During game play, the last digit of the score will indicate the level of danger, with zero displaying for low danger areas to seven for high danger areas.
+
+http://en.wikipedia.org/wiki/Super_Aleste

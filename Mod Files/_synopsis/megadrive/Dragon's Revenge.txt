@@ -1,0 +1,15 @@
+Dragon's Revenge
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1993
+Developer: Tengen
+Publisher: Tengen
+Players: 1
+_________________________
+Dragon's Revenge is a pinball game developed and published by Tengen as a sequel to Dragon's Fury/Devil Crash MD. The game was released exclusively on the Sega Mega Drive in 1993. Despite it being marked as a sequel, its production did not involve either Naxat Soft or Compile, who were responsible for the development of Devil Crash and the rest of the "Crush" pinball series (and in fact, they had already made a sequel to Devil Crush by then, the Japan-exclusive SNES Jaki Crush released in 1992), nor did it involve Technosoft who had ported Devil Crash to the Mega Drive and licensed it out to Tengen for it to be published overseas.
+
+The goal, gameplay, and controls are identical to Dragon's Fury; it is unknown whether or not there is a way to win the game. Pausing will immediately show the password.

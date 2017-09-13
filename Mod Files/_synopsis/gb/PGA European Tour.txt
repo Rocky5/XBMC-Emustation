@@ -1,0 +1,18 @@
+PGA European Tour
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Sports - Golf
+Gametype: Licensed
+Release Year: 1995
+Developer: Unexpected Development
+Publisher: Malibu
+_________________________
+European Tour is best thought of as a remake of the original game, rather than a sequel as such. It features 5 courses from across Europe, and 60 top European pros, rather than the US-leaned lineup of the original. The graphics are much more detailed and colorful, as you'd expect considering the intervening years of advances in programming skill.
+
+The control system is the standard three-click method used in most golf games, but you can now define intended draw/fade levels in advance of playing the shot, so that a perfect aim leads to a measured effect, and an imperfect one exaggerating the effect.
+
+As well as the Stroke Play games of the original (where you count the total score across the whole round of 18 holes, and compare this to your opponent), there are also Match Play (where the aim is to win as many individual holes as possible) and Skins (the same, but with money) modes as well.
+
+http://www.mobygames.com/game/gameboy/pga-european-tour

@@ -1,0 +1,16 @@
+Chocobo's Dungeon World
+Original title: Bomberman
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Maze 
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: Celice
+Version: 1.0
+_________________________
+A small hack of Bomberman I was motivated to do after seeing Googie crank out some cool screenshots, as per usual. It's a small hack that modifies Bomberman to have a Chocobo-like wrapper around various graphics and sprites, with some text modified for the end. It's really just a fun little hack ^^
+
+http://www.romhacking.net/hacks/549/

@@ -1,0 +1,15 @@
+Thexder
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1985
+Developer: Game Arts
+Publisher: SquareSoft
+_________________________
+
+Thexder is a Shoot-'Em-Up game, developed by Game Arts and published by SquareSoft, which was released in Japan in 1985.
+
+http://www.gamefaqs.com/console/nes/home/578267.html

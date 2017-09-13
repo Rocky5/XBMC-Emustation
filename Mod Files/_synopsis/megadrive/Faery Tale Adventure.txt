@@ -1,0 +1,13 @@
+Faery Tale Adventure, The
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1991
+Developer: MicroIllusions
+Publisher: Electronic Arts
+Players: 1
+_________________________
+The Faery Tale Adventure is an RPG which was ported to the Sega Mega Drive.

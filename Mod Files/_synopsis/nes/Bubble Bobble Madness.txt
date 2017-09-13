@@ -1,0 +1,17 @@
+Bubble Bobble Madness
+Original title: Bubble Bobble
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2002
+Hacked by: Weasel
+Version: 1.0
+_________________________
+BBM is a complete overhaul of original Bubble Bobble, with much, much harder stages and some neat graphics and palette changes. Note that it is possible to beat the first 15 levels without a continue, not really that hard, hehe.
+
+All levels have been hacked. Enemy Graphics have been given a facelift or totally changed. Graphics for just about everything else has been edited.
+
+http://www.romhacking.net/hacks/388/

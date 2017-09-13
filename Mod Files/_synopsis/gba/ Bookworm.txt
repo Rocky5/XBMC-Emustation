@@ -1,0 +1,14 @@
+Bookworm
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2004
+Developer: PopCap
+Publisher: Majesco Games
+_________________________
+Bookworm, a simple yet addictive Web game, is now available on the Game Boy Advance. In the game, you must link letters and create words to feed the hungry bookworm. If you make long words, you'll be rewarded with bonus letters. Watch out for fiery red letters--if they reach the bottom of your library, then the game is over. Make as many words as you can to advance levels, and eventually become a master bookworm.
+
+http://www.gamefaqs.com/portable/gbadvance/home/919765.html

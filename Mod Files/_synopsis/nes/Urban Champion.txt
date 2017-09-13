@@ -1,0 +1,18 @@
+Urban Champion
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 or 2 vs
+_________________________
+
+The purpose of the game is to knock the other player into a sewer manhole.There is a time limit, and the player has a set limit of stamina, both of which are represented by numbers. The player has two types of attacks: a light punch and a heavy punch. The light punch doesn't push your opponent as far as the heavy punch, but it is harder to block. The heavy punch sends your opponent reeling backwards, but can be blocked easily and takes a bit longer to pull off.
+
+For every punch you throw, you lose 1 stamina. Flower pots are occasionally dropped from windows, which, if one hits a person, they will be dazed and will lose 5 stamina. In addition, a police car will pass by the fighting every 30 seconds which causes the players to return to their starting positions.
+
+http://www.nesguide.com/games/urbanchampion/

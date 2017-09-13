@@ -1,0 +1,14 @@
+Penguin Land
+Platform: Nintendo Game Boy
+Region: Japan
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: Atelier Double
+Publisher: Pony Canyon
+_________________________
+Penguin Land is a Puzzle game, developed by Atelier Double and published by Pony Canyon, which was released in Japan in 1990.
+
+http://www.gamefaqs.com/portable/gameboy/home/575137.html

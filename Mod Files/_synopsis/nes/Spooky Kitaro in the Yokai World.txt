@@ -1,0 +1,15 @@
+Spooky Kitaro in the Yokai World
+Original title: Gegege no Kitaro: Youkai Daimakyou
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Translated
+Release Year: 2009
+Translated by: aishsha
+Version: 1.0
+_________________________
+This is the first game about Kitaro made for Famicom in 1986. In comparison to its successor - this is a true old-school platformer, which was later released in the US as Ninja Kid. That localization had practically nothing left from the original protagonist, as it changed even items in the game.
+
+http://www.romhacking.net/trans/1421/

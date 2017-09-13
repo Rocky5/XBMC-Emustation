@@ -1,0 +1,41 @@
+Legend of Zelda: Stone Tablets (Part 2), The
+Platform: Super Nintendo Entertainment System
+Region: Special Release (Japan)
+Media: Satellaview Download
+Controller: Gamepad
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1997
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+I, BS The Legend of Zelda - Map 1 and Map 2 (BS Zelda no Densetsu: Map 1 and Map 2) 
+
+BS The Legend of Zelda was a remake of the NES game The Legend of Zelda, released for the Satellaview attachment for the Super Famicom in Japan.
+
+BS stands for Broadcast Satellaview (commonly referred to as the BS-X). Using this add-on gamers could download the game from the satellite and save it onto either the base unit's memory or onto a BS-X Special Broadcast Cassette (but only Triforce of the Gods could be played outside of broadcast time).
+
+Gameplay:
+
+The gameplay was identical to its predecessor, but the maximum Rupees was increased to allow you more than a thousand (rather than 255 as in The Legend of Zelda), the overworld was heavily altered, and dungeons were completely different. This game was broadcasted in two versions, Map 1 and Map 2. Map 1 is sometimes referred to as a "Third Quest", in reference to The Legend of Zelda's Second Quest, and Map 2 would therefore be a Fourth Quest. 
+
+Presentation: 
+
+The game was divided into four weekly episodes. These episodes were downloaded from Satellite and played live, just as a TV programme. Due to technical limitations, the download time was a whole seven minutes just for one episode. The Satellaview was also used to broadcast actual videogame themed shows (probably containing ads and such to promote Nintendo games).
+
+Here you may read a translation (with pictures) of a video taken during the original broadcast of the first week of Map 1.
+
+Character Selection:
+
+The player could configure their name and gender in the Satellaview game-selection interface. This then carried across to the game (similarly to Miis in Wii games). The characters themselves are nameless in-game. In actuality, they're Satellaview's mascots, and "come from another world" in this game (or at least they do in BS Zelda: Kodai no Sekiban, where either of them is known as the Hero of Light).
+
+Live Voice:
+
+BS Zelda's implementation of Live Voice was significantly different to that in BS Zelda: Kodai no Sekiban. When the clock hit certain times the game would pause and display Japanese writing onscreen (that apparently reads "listen"), and the player would hear a narrator (apparently playing the part of the Old Man, and allegedly the same voice actor as Sahasrahla) give a hint or suggestion. Under emulation the pauses are about two to three minutes long, which seems rather long winded and could be a result of faulty emulation (but it's hard to tell really). After that time the text disappears and gameplay resumes as before. 
+
+Emulation:
+
+Due to the live nature of the game in its original incarnation, the game's ROM could not be played properly on emulators. Many hackers have since created patches that removed the game's download pauses and time limits, pieced together all four episodes and given the game a title screen and file selection screen (both of which are reminiscent of the title screen and file selection screen from the original Legend of Zelda), all of which has ultimately allowed BS Zelda to be played as a traditional, non-Satellaview game. Some patches can even replace the game's protagonist with Link himself, or allow the player to select Link or one of the game's original characters via the file selection screen. 
+
+http://bszelda.zeldalegends.net/bszelda.shtml

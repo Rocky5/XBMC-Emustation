@@ -1,0 +1,20 @@
+NES Play Action Football
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Football
+Gametype: Licensed
+Release Year: 1990
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1-2
+_________________________
+
+This game was highly impressive for its time. It allowed players to choose from eight real teams from various cities, and each team featured all the actual players that were currently playing for them. The teams were: Chicago Bears, Denver Broncos, Houston Oilers, Los Angeles Rams, Miami Dolphins, New York Giants, San Francisco 49ers and Washington Redskins.
+
+The game used an isometric view, presenting the game at an angle to make it appear 3-D, and the game allowed a very large number of moving objects (all the players) to be on screen at the same time; in earlier games, the system couldn't handle it. In a typical NES game, few moving objects could be onscreen before they all started flashing, because the system couldn't render them all at once, but NES PAF managed to avoid this somehow and allow the system to render two entire football teams onscreen simultaneously.
+
+Another feature that was ahead of its time was the use of real voices. NES PAF was one of an extremely small number of NES games to feature voices. Most games never bothered to implement this feature because of the primitive sound capabilities, but in NES PAF, players hear the referee say in a real voice "Touchdown!" or "First down!" You can even hear the football players yell "Ready! Set! Hut, hut.." before the play begins. At the end of each game, Nester appears as a commentator, announcing who wins and who lost.
+
+http://en.wikipedia.org/wiki/NES_Play_Action_Football

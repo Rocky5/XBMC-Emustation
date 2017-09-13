@@ -1,0 +1,16 @@
+Twin Cobra
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter - Scrolling - Flight
+Gametype: Licensed
+Release Year: 1990
+Developer: American Sammy
+Publisher: Taito Corporation
+Players: 1-2
+_________________________
+
+Twin Cobra is a two-player helicopter scrolling shooting game published by Taito Corporation, distributed in North America by Romstar, and one of the more popular arcade games developed by Toaplan. The game is a sequel to Tiger Heli, and it was ported to the NES, Sega Mega Drive, and PC Engine. The music was created by Tatsuya Uemura.
+
+http://www.nesguide.com/games/twincobra/

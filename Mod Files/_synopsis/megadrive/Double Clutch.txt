@@ -1,0 +1,13 @@
+Double Clutch
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Cars, Top Down
+Gametype: Licensed
+Release Year: 1993
+Developer: ASCII Entertainment
+Publisher: SEGA
+Players: 1-2
+_________________________
+Double Clutch is a top-down racing game developed for the Sega Mega Drive. It was only released in PAL regions.

@@ -1,0 +1,22 @@
+Shell Monsters Story
+Original title: Kaijuu Monogatari
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2006
+Translated by: KingMike's Translations
+Version: 1.0beta2
+_________________________
+Yet another Dragon Warrior/Quest clone. In this, you take the role of a generic hero... who wears a shell on his back; I assume it's a turtle shell. And you have to look for three other beings (monsters) that also have shells on their backs so you can all save the world.
+
+So yes, it is a generic RPG storyline. The game is a generic RPG. The battles are quite tough, though. The first few fights will be frustrating at the very least, because even the weakest enemies need at least three turns -each- to be killed, and you start the game alone. The music's decent, and the graphics are kinda simple when you're in the overworld, but the monsters look allright, and they change a bit when they're almost defeated.
+
+Translation Description:
+
+This is a complete translation aside from a few minor graphical glitches. It uses the Namcot 106 mapper (iNES mapper #19). The patch works only on the properly dumped Japanese ROM. I believe this is Kaijyu Monogatari (J). You will need to expand the Japanese ROM from 256KB to 384KB before applying the patch. Consult the readme for further information.
+
+Reviewer: Kitsune Sniper
+http://www.romhacking.net/trans/619/

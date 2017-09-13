@@ -1,0 +1,14 @@
+SWiV
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Shooter
+Gametype: Licensed
+Release Year: 2001
+Developer: TCC
+Publisher: SCi
+_________________________
+SWiV is a Shoot-'Em-Up game, developed by TCC, which was released in Europe in 2001.
+
+http://www.gamefaqs.com/portable/gbcolor/home/580473.html

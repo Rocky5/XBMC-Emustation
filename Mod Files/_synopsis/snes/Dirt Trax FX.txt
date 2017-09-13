@@ -1,0 +1,17 @@
+Dirt Trax FX
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Action
+Gametype: Licensed
+Release Year: 1995
+Developer: Sculptured Software
+Publisher: Acclaim Entertainment
+Players: 1 or 2 VS
+_________________________
+Dirt Trax Fx is a Motocross racing game in which players can choose between 8 drivers, differing in top speed, acceleration, turning and braking, to compete on 22 different tracks. The tracks feature lots of mounds, ramps, pits and other similar obstacles. Parts of a track might also be covered in water mud or ice. To successfully navigate the motorbike through these obstacles, the shoulder buttons can be used to lean the bike, while pressing up or down changes the angle of the bike. Before the game begins, players can choose between four different bikes ranging from 50cc to 500cc (the last bike needs to be unlocked first). The choice of the bike greatly affects the game's speed as well as the overall difficulty.
+
+Apart from the main race, there is also a "Rad Tag" mode. In this mode, a timer ticks down that can only be stopped by hitting the opponent. The driver whose timer reaches zero first loses. 
+
+http://www.mobygames.com/game/snes/dirt-trax-fx

@@ -1,0 +1,47 @@
+Parodius: Non-Sense Fantasy
+Original title: Parodius Da! Shinwa kara Owarai he
+Alternative title: Parodius
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Side-Scrolling
+Gametype: Licensed
+Release Year: 1992
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+This is mostly the parody of Gradius (Nemesis on some systems), with some flavor from other shoot-em-ups, like Twinbee. The series is available on numerous platforms.
+
+The game is a right-to-left scrolling shoot-em-up. You can choose from 4 different flying creatures, with different weapons. You must finish 7 stages, each having a boss at the end. You may start at either one, but must complete every level to advance to the final stage.
+
+Tips:
+
+Cheat Codes
+Pause the game to enter the following codes:
+
+X, X, X, B, B, B, Y, Y, Y, A, A, A, L, R, START 
+3 Super bombs
+
+up, up, down, down, left, right, left, right, B, A, START 
+Commit suicide!
+
+Up, Up, Down, Down, L, R, L, R, B, A. 
+Disables all active cheats
+
+B, B, X, X, A, Y, A, Y, up, left, START 
+Full options, speed up, missile and shield
+
+L, R, Up, X, Right, A, Left, Y, Down, B, A, Y, A, Y, R. 
+Invincibility
+
+Up, Right, Down, Left, X, A, B, Y 
+Level select
+
+Debug menu
+Highlight Octopus on the character selection screen, and hold Up + L+X for around 30 seconds. A menu will then
+be displayed allowing you to select your starting stage, scene, and 'Mutek' (set it to 01 for a fully powered up, invincible ship)
+
+
+http://www.mobygames.com/game/snes/parodius

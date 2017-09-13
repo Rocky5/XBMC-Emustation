@@ -1,0 +1,30 @@
+Mickey Mania: The Timeless Adventures of Mickey Mouse
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Traveller's Tales
+Publisher: SCEE
+Players: 1
+_________________________
+Mickey Mouse gets a chance to go down memory lane and walk through the timeless adventures he has lived. Mickey Mania is a platformer where all the levels are based on Mickey's most famous cartoons. The levels range about 75 years, starting off with "Steamboat Willie" and going all the way to "The Prince and the Pauper".
+
+Gameplay:
+
+Like many other games of its genre, the player takes the role of Mickey and progresses through each level, defeating enemies in the way and solving the occasional puzzle. Most enemies can be defeated by jumping on them or throwing marbles at them. Frequently, the player must jump from platform to platform to advance, sometimes with a time limit (such as escaping a collapsing tower).
+
+Trivia:
+
+The four versions of the game differ greatly from each other. The Super NES version is missing the Band Concert level and the staircase sequence in the Mad Doctor level, as well as a few special effects and some of Pluto's appearances. It also adds loading screens between each area. In contrast, the Sega CD and Playstation versions add a sequence near the end of the Prince and the Pauper level where Mickey must find pencils to call the other Mickeys from the six main levels to attack Pete, as well as giving Mickey extensive dialogue relevant to situations throughout the game. The Playstation version, meanwhile, enhances the graphics and adds a sequence at the end of the Mickey and the Beanstalk level where Mickey must run away from Willie the Giant (Willie makes no appearance in any of the other versions despite being mentioned in the manuals of all four versions).
+
+Controls:
+
+B Button: Throw
+A or C Button: Jump
+
+Reviewer: mandersson, Syed GJ
+http://www.mobygames.com/game/genesis/mickey-mania
+http://en.wikipedia.org/wiki/Mickey_Mania

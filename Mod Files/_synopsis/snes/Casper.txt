@@ -1,0 +1,20 @@
+Casper
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1997
+Developer: Absolute Entertainment
+Publisher: Natsume
+Players: 1
+_________________________
+The player controls Casper, followed by Kat Harvey whom he has to protect from any danger. Being a ghost, Casper can pass through walls and other obstacles, but he can't go away from Kat too much, or else Carrigan's ghost will abduct her. The game follows loosely the plot of the movie.
+
+Tips:
+
+All items and 5 lives
+At any room (except the first room -- i. e., except the room where Casper starts), plug SNES Mouse to Port 2.
+
+http://en.wikipedia.org/wiki/Casper_(video_game)

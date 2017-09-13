@@ -1,0 +1,19 @@
+Super Mario Bros.: Deluxe
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2005
+Hacked by: peter_ac
+Version: 1.2
+_________________________
+This is an exceptional remake of all 32 levels of Super Mario Bros. 1, including the "Minus World", and "World 36", with SMB Allstars (SMB3) style graphics.
+
+It's an original and refreshing take to be able to play such a classic with the up to date Super Mario World game engine. While it is similar to Super Mario All Stars, it's still very different. Everything is changed in this hack. There are new over worlds, some additional custom levels, changed tunes and more!
+
+On top of that, many of the original's secrets and glitches are also there. The author paid good attention to detail! If you were a fan of the original SMB, you really should try this hack out.
+
+http://romhacking.net/hacks/66/

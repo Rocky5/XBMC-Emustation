@@ -1,0 +1,43 @@
+Virtual Pinball
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1993
+Developer: BudgeCo
+Publisher: Electronic Arts
+Players: 1
+_________________________
+Virtual Pinball is the spiritual successor to Bill Budge's classic Pinball Construction Set. Programmed by Bill Budge, this Sega Genesis game allows the player to try different pre-built pinball tables and additionally create, save and play custom tables.
+
+Directions:
+
+First, there are a bunch of options to choose before you start the game. Choose what board you want. There are also a lot of secret boards you can access with cheat codes in the "enter code" section of play mode.
+
+Then choose which background you want to play on. You may also change what the flippers, bumpers, and obstacles theme is.
+
+After you do this, you may choose the music and one or two players. In two player mode, you just take turns playing one ball.
+
+The A button will pull back the plunger. B is used to shake the machine. Shake all you want, because it is impossible to tilt it. The only complaint in the gameplay is the fact that in multiball mode you can't see both balls. The board is so big you can't see the whole thing at once, so the camera will follow your first ball, and you'll lose track of the extra one. 
+
+Gameplay:
+
+A player will start with 4 balls. Once a game is started a ball is placed in the launcher. The ball is launched by pressing and holding the A button, with the time held determing the power of the launch. All left flippers are controlled by the D-pad, while all right flippers are controlled by the C button. Hitting B will nudge the table, and can be used in conjunction with the D-pad to nudge in a certain direction.
+
+Controls:  
+
+A Button: Pull Plunger
+B Button: Shake Machine
+C Button: Right Flipper
+D-pad: Left Flipper
+Start Button: Start, Pause
+
+Hints:  
+
+- No Tilt - 
+You can't tilt the machine, so be sure to shake all you want to keep the ball from going down the "drain." 
+
+http://www.mobygames.com/game/genesis/virtual-pinball
+http://en.wikipedia.org/wiki/Virtual_Pinball

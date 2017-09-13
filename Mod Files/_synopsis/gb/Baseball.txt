@@ -1,0 +1,14 @@
+Baseball
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Sports - Baseball
+Gametype: Licensed
+Release Year: 1989
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+Baseball is a game where you can pitch, hit, field, and run just like in a real baseball game. You can choose between USA and Japan modes, two different teams, and among a line-up of unique players. In the 1-player game, you play against the computer, and the in the 2-player game, your friend is your opponent.
+
+http://www.mobygames.com/game/gameboy/baseball

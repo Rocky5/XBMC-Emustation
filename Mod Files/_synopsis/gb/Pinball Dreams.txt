@@ -1,0 +1,18 @@
+Pinball Dreams
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1993
+Developer: Spidersoft
+Publisher: GameTek
+_________________________
+The first in a line of pinball games from 21st Century and Digital Illusions, with four tables covering themes such as the wild west for Steel Wheel, space rockets for Ignition, a haunted graveyard for Nightmare and pop music for Beat Box.
+
+The portable versions for the Game Boy and Game Gear only have 3 of the 4 original tables with the removal of Beat Box.
+
+The iPhone version includes updated graphics (optional) and gameplay in both portrait and landscape orientation.
+
+http://www.mobygames.com/game/gameboy/pinball-dreams

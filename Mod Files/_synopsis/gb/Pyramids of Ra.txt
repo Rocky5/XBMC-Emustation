@@ -1,0 +1,14 @@
+Pyramids of Ra
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1994
+Developer: Micros
+Publisher: Matchbox
+_________________________
+In this game you control an adventuring archaeologist who you navigate through a maze of tombs. Each level consists of tiles which must all be broken to proceed to the next level. In order to break the tiles you must first land on the tile, then jump off causing it to crumble. The tricky part of this game is that you need to first break all the tiles and then return to the start tile before advancing.
+
+http://www.mobygames.com/game/gameboy/pyramids-of-ra

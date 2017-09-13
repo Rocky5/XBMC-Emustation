@@ -1,0 +1,42 @@
+F1 ROC: Race of Champions
+Alternative title: Exhaust Heat
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1992
+Developer: Seta
+Publisher: Seta
+Players: 1
+_________________________
+Have you ever dreamed of being a Formula 1 racer? Have you fantasized about modifying your car to go faster and turn sweeter than any of the others? Have you imagined taking your F1 racer all around the world and becoming the best racer ever? Then look no further, because at least you can play a game where you can do all that, 'cause you know it's never gonna happen in real life. I mean honestly, did you really think it would?
+
+F1 ROC is a fun racing game that lets you customize your racer and make it better than the other cars on the track. The graphics of this game were good for its time, however it's not the best SNES game as far as graphics go. The music is alright however, much like in other racers, the music only plays on the title and menu screens and is silent during gameplay. Despite that this is a fun racer that I highly recommend.
+
+Directions:
+
+F-1 ROC is a fun and simple game to play. Start the game by choosing if you want to play Grand Prix or Single race. With Single race you get to choose which track you run, and then you spend a predetermined amount of money modifying you car. You car, however, does not keep its modifications for the next race.
+
+In Grand Prix however, you race on all the tracks from America to Japan and even countries like Portugal. You earn money depending on what place you finish the race in, and with that money add modifications to your car such as a better engine, suspension, tires, and other car parts. Then all you do is get racing and have a blast. So sit down, log in, and have fun. 
+
+Controls:
+
+A Button - ACCELERATE / NITRO
+B Button - ACCELERATE
+X Button - BRAKE
+Y Button - BRAKE
+Start Button - PAUSE
+Select Button - REMOVE / REPLACE DISPLAY
+
+Tips:
+
+Codes
+Enter the following codes at the Select Player screen:
+
+OTO Sound Test
+SETAUSA Start with $10, 000
+
+Reviewer: grimjockey
+http://www.consoleclassix.com/snes/f1_roc.html

@@ -1,0 +1,36 @@
+Putty Squad
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: System 3
+Publisher: Ocean Software
+Players: 1 or 2 CO-OP
+_________________________
+Putty Squad is a platform game in which the player controls an amorphous blue blob, tasked with rescuing imprisoned putties. The player's putty can stretch in a variety of ways: sidewards to cover ground faster, squash flat to absorb pick-up items, stretch upwards to climb, morph a fist to attack, or inflate to float upwards.
+
+Putty can collect stars that increase his attack power: at first increasing the potency of his punch, but later allowing him to blow darts, electrocute enemies or throw bombs. This star power is reduced every time Putty is hit by an enemy.
+
+Tips:
+
+Level Passwords:
+After the title screen choose select password and enter the following chain.
+
+BZTPJ Area 02 The Bazaar Al Kebab
+LYQCB Area 03 Downtown Klud
+TXMJD Area 04 The Jungles of Squirt
+KFTWF Area 05 Dr. Sushi's Laboratory of Terror
+GNHZX Area 06 Dr. Sushi's Dinner of Fear
+SHCLB Area 07 The House of Fun
+VMCRM Area 08 Major Smith's Escape Tunnel
+GKSTX Area 09 The Gateway to the North
+FRLDK Area 10 The Tower of London
+WWFPM Area 11 Jumble Street
+YVLPD Area 12 Cloud Castle
+GXDKP Area 13 The Wizard's Frozen Garden
+JPWSW Area 14 The Depths of Despair
+
+http://en.wikipedia.org/wiki/Putty_Squad

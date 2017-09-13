@@ -1,0 +1,23 @@
+Pinball Fantasies
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1995
+Developer: 21st Century Entertainment
+Publisher: GameTek
+Players: 1 to 8
+_________________________
+Pinball Fantasies contains four themed tables with various difficulty levels.
+
+ - Party Land is a table oriented around an amusement park, where the letters of either PARTY or CRAZY must be lit to start a high-scoring event. This is the easiest table due to several high scoring targets such as the Arcade and the Loop Ramp. This is the table included in the shareware release.
+
+ - Speed Devils is focused on car racing, and the player must overtake cars to take the lead. This is more difficult due to much fewer high-scoring targets.
+
+ - Billion Dollar Gameshow is a gameshow-style table where the player attempts to win prizes by achieving certain combinations of ramps. This is the most difficult, as if the player loses the ball before winning the jackpot the prizes are lost.
+
+ - Stones 'N Bones is based on a haunted house, where the player must go through different modes of play (by hitting targets spelling out "Stone" and "Bone"), with the later modes scoring more points. This is generally considered the highest-scoring table. It is similar in theme to Nightmare in Pinball Dreams.
+
+http://en.wikipedia.org/wiki/Pinball_Fantasies

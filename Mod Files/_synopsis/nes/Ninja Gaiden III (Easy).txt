@@ -1,0 +1,16 @@
+Ninja Gaiden III [Easy]
+Original title: Ninja Gaiden III: The Ancient Ship of Doom
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: MottZilla
+Version: 1.0
+_________________________
+This patch changes the US version of Ninja Gaiden III to be less difficult like the original Japanese version. In the US version each enemy deals more damage per hit than in the Japanese version and you have only 5 continues. This patch brings damage back to original Japanese levels and grants you unlimited continues like the Japanese version.
+
+http://www.romhacking.net/hacks/570/

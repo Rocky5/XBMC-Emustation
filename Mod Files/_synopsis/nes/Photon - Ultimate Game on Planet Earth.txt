@@ -1,0 +1,22 @@
+Photon: The Ultimate Game on Planet Earth
+Original title: Foton: The Ultimate Game on Planet Earth
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter 
+Gametype: Translated
+Release Year: 2003
+Translated by: KingMike's Translations
+Version: 1.00
+_________________________
+Photon is an interesting idea for a game. The developers played Space Invaders one day, and they thought that it was fun that you could shoot upwards only. So naturally, they got together and coded an NES game just like Space Invaders! Except, they took out the bases. And the UFO's. And the aliens come at you one at a time, and they don't move in predictable patterns. And they made it so you could move along more than one axis. And they added a first-person dungeon to it, and even stole the graphics for it right out of the Ultima games. And they added pits. And they made it insanely easy to get lost unless you make a map with your trusty graph paper.
+
+So, I guess you end up with a game that's isn't really like Space Invaders at all. Unless you count the upward shooting. That's still pretty fun.
+
+Translation Description:
+
+Everything is translated, but KingMike plans on going back later and expanding the windows to fit in bigger words and stuff. This may or may not actually happen however.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/634/

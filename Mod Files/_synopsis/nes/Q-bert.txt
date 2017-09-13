@@ -1,0 +1,38 @@
+Q*bert
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Arcade
+Gametype: Licensed
+Release Year: 1989
+Developer: Ultra
+Players: 1-2 Alt
+_________________________
+
+Q*bert has been captured by the Tazmanians and thrown into a time warp. To escape, he must hop his way through the deadly pyramids, changing each square to the proper color and avoiding nasty foes all the while.
+
+"Your supreme challenge is to guide Q*bert through the entire time warp, until you free the pug nosed hero so he can return to his true calling in life -- playing a stuntman double for Don Johnson!"
+
+--from the NES Q*bert instruction manual
+
+Q Bert was one of my favorite games on the NES. It was ported fairly well from the arcade game. The controls were a little weird at first, but once you get used to them they're not too bad. Q Bert was a big hit in the arcade. It was still a big hit when it came out on the NES. Now, it's kinda been forgotten. Relive the past and give this arcade classic a try!
+
+Directions:
+
+Hop on the blocks to change the color to the designated color for that stage. Q Bert was a fairly difficult game to get good at. It's not too bad at first, but once you get to the higher levels, you have to step on the blocks twice, and after that, they will change back to their original color if you hop them twice. I've never made it past the first stage of the third level.
+
+Controls:
+
+A Button: None
+B Button: None
+Start Button: Start/Pause
+Select Button: Select
+
+Hints:
+
+Maximum Point Score
+If you can keep from using your flying discs, you will get more points for them after beating the level. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/q_bert.html

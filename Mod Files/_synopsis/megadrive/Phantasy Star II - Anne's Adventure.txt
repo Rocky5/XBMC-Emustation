@@ -1,0 +1,18 @@
+Phantasy Star 2: Anne's Adventure (translation)
+Original title: Phantasy Star II Text Adventure: Anne no Bouken
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2007
+Players: 1
+Translated by: MIJET
+Version: 1.0
+_________________________
+Translation Description:
+
+This is a translation patch for the Mega Drive Sega Net game entitled "Phantasy Star II: Anne's Adventure". It sports a variable-width font engine with kerning and, as usual, it is a "dual-language" patch, meaning that it supports both Japanese and English, depending on the country code of your machine.
+
+http://www.romhacking.net/trans/1221/

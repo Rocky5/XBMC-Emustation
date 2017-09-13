@@ -1,0 +1,25 @@
+Stadium Games
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Sports - Competitive Events
+Gametype: Licensed
+Release Year: 2004
+Developer: Ignition Entertainment
+Publisher: Crave
+_________________________
+Stadium Games is a olympiad style sports game where you can compete in these six events:
+
+- Shooting
+- Archery
+- Javelin
+- Football
+- Pole Vault
+- Hammer Throw
+
+In the Shooting game, you have to shoot down pairs of clay pigeons that are shot in from the side. You view the event from a third person perspective, and have full control of the cross hair. The rest of the events are different. They all use timing meters, one for strength and one for accuracy, where the player has to hit the button at the right spot on the meter.
+
+Two game modes are available. Practice is the first, where one player can play any of the events at any time, without going through the rest. The second is the tournament where one or two players sharing the same machine can go through all the events. For each event the player will earn points, and there is a high score table for overall scores.
+
+http://www.mobygames.com/game/gameboy-advance/stadium-games

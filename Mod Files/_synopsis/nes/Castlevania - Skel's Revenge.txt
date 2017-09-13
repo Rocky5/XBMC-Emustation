@@ -1,0 +1,14 @@
+Castlevania: Skel's Revenge
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: Redrum
+_________________________
+A hack of the original Castlevania game by Redrum featuring a playable Skeleton and redesigned levels. 
+
+http://castlevania.wikia.com/wiki/Castlevania:_Skel%27s_Revenge

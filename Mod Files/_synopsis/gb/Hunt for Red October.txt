@@ -1,0 +1,16 @@
+The Hunt for Red October
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1991
+Developer: Beam Software
+Publisher: Hi-Tech
+_________________________
+Based on the movie of the same name, the Soviet Union have been building in secret a Typhoon-class submarine with nuclear strike capabilities. This war machine has been named the Red October. While on its trial run, the captain, Marko Ramius has hijacked the submarine along with it's crew. They plan to defect to the United States. Naturally, such a weapon must not be allowed to fall into American plans, and so orders are issued among the Soviet forces to destroy the Red October.
+
+You control the Red October during its run for freedom. The game plays as an underwater sidescroller. The Red October submarine can move in any of four directions. The A button fires torpedoes horizontally towards the right and the B button fires missiles vertically, upwards. Additionally, the Caterpillar drive (invisibility) may be activated for short periods of time. The player may also activate a ECM blast that will destroy all nearby offensive weapons. On the screen at all times are displays for Armor (health) and Power (fuel); should either run low, the Red October in danger of being destroyed. Power-Ups to increase or decrease the power of missiles and torpedoes may be found by destroying enemies.
+
+http://www.mobygames.com/game/gameboy/hunt-for-red-october__

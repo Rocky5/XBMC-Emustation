@@ -1,0 +1,13 @@
+DJ Boy
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1989
+Developer: Kaneko
+Publisher: Kaneko
+Players: 1
+_________________________
+DJ Boy is a 1989 arcade beat-'em-up by Kaneko running on Kaneko-designed hardware and distributed by Sega in Japan and American Sammy elsewhere. Sega and Kaneko ported it to the Sega Mega Drive in 1990.

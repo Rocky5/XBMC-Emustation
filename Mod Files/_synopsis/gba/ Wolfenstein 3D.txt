@@ -1,0 +1,22 @@
+Wolfenstein 3D
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Shooter - First Person
+Gametype: Licensed
+Release Year: 2002
+Developer: Stalker Entertainment
+Publisher: Bam Entertainment
+_________________________
+Inspired by the top-down infiltration game Castle Wolfenstein, this groundbreaking episodic FPS puts the player in the boots of B.J. Blazkowicz, allied spy. There are six episodes (the first distributed complete as shareware), the second and the third available after registration and the three final missions (which happen before the events of the first episode) available in the "Nocturnal Missions" pack. However, they don't need to be played in sequence to be enjoyed!
+
+In the first episode (Escape from Wolfenstein), B.J. was captured, but overpowered a guard with the help of a concealed knife and managed to get out of his cell. Throughout the next 9 levels the player guides B.J. searching for an escape from Wolfenstein, guarded by Hans Grosse. After returning to Allied territory, B.J. is given the instructions to Operation: Eisenfaust, where he has to stop Dr. Schabbs and his army of mutant prototypes before they are released into the battlefields. The final mission (Die, F?hrer, Die!) has a simple goal: infiltrate the bunker under the Reichstag, and terminate Hitler (in a robotic suit) himself. The Nocturnal Missions are focused on the Nazi plans for chemical warfare, and start with Dark Secret, where B.J. hunts for lead researcher Dr. Otto Giftmacher. It's followed by Trail of the Madman, where the goal is capturing the war plans guarded by Gretel Grosse, and the final episode Confrontation, where B.J. meets General Fettgesicht, the planner for the chemical assault.
+
+Each episode has 9 levels (eight regular and a final Boss level), plus a secret level activated by an hidden switch somewhere in the eight first levels. Regular levels often feature a maze-like appearance or large areas with many enemies (the number of them on each area depends on the difficulty level), where the player must reach the exit elevator. To do so, he must kill the enemies (while it's possible to move behind the guards' backs and even there's a slight bonus in attacking them from behind, most enemies have to be dealt with by fire power), and depending on the level, activate "push walls" and/or get silver and golden keys to open certain doors.
+
+Many objects can be found in a level, from medikits, chicken meals and even dog food (to restore health), ammo and treasures, which solely exist for points. There are four weapons (knife, pistol, machine gun and Gatling), all of them using the same bullets except the knife. The knife and the pistol are given at the start of the level, while the machine gun is either found (usually in secret areas) or picked up from SS troopers and the Gatling is always dropped somewhere in the level. There are five kinds of enemies (excluding bosses) - Dogs (fast, but more a nuisance than life-threatening), Army Soldiers (dressed in regular brown outfit, not very powerful but usually found in large groups), Officers (dressed in white, armed with a very accurate pistol and tough to kill), SS Troopers (blue attire, armed with a machine gun and tough to kill) and Mutants (the rarest and toughest of regular enemies, pale-skinned troopers with green clothes and a machine gun stuck in their chest).
+
+Unlike modern FPS games, the player has a number of lives, and once the player loses the last life, the game ends. To win extra lives, the player either has to find the 1-up item in the level, get 20 000 points by killing enemies and capturing treasures or completing a level below the "par" time and killing all enemies, finding all secrets (push walls) and collecting all treasure points.
+
+http://www.mobygames.com/game/gameboy-advance/wolfenstein-3d

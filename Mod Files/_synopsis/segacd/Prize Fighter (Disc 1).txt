@@ -1,0 +1,18 @@
+Prize Fighter
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Sports, Boxing
+Gametype: Undefined
+Release Year: 1994
+Developer: Digital Pictures
+Publisher: SEGA
+_________________________
+Prize Fighter is a FMV boxing game which puts the player in the body of "The Kid" against four opponents: Honeyboy Fernandez, Mega Joe Falco, Rex Hawkins, and the ultimate challenge, Nuke "The Duke" Johnson, divided over two CDs.
+
+While the game requires a completely different approach than sprite or polygonal games, the tactics are still the same - jab, punch and deliver uppercuts when the opponent has his defenses down, and block and bob as he makes his moves. After a win the player can improve his left and right glove abilities and stamina by assigning "Power Points" to each area.
+
+The only sprites visible during the bouts are the player gloves and the health indicators - the boxers and the rest of the ring are black and white FMV. Like with other FMV games, the player can enable tips, which indicates to hit certain butttons when required.
+
+http://www.mobygames.com/game/sega-cd/prize-fighter

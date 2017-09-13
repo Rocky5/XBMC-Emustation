@@ -1,0 +1,16 @@
+AirForce Delta
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Flight Simulator
+Gametype: Licensed
+Release Year: 2000
+Developer: Climax Entertainment
+Publisher: Konami
+_________________________
+As a jet fighter pilot in a civil war, you'll take to the skies in a behind-the-plane view for 10 missions with a selection of up to 8 aircraft. Each mission earns money for your efforts. The money can then be can be used to purchase new planes and upgrades for those planes.
+
+To complete a mission, you must destroy a certain number of enemy aircraft or ground targets then destroy a boss air or ground craft. When you have beaten the boss, you can then use the money to add to your aircraft collection.
+
+http://www.mobygames.com/game/gameboy-color/airforce-delta_

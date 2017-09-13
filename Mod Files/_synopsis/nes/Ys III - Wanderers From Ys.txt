@@ -1,0 +1,20 @@
+Ys III: Wanderers From Ys
+Original title: Ys III: Wanderers From Ys
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2005
+Translated by: Vice Translations
+Version: 1.00
+_________________________
+This yet another port of another game in Falcom's Ys series. Why is this series of games ported to EVERY platform? Because it rules, that's why. Unfortunately, this particular Ys game is the black sheep. First of all, it's a side-scroller. Second, it is insanely (infuriatingly, even) difficult. I never beat the SNES version without the invincibility code. It's that hard. And this one has no such code. Hopefully some of the later stages are easier because the NES can't handle the amount of sprites the SNES could. Either way, check this game out, or don't. If you do, I can't be held responsible if you end up hurling your gamepad at the wall in frustration.
+
+Translation Description:
+
+After being worked on for a period of several YEARS, this thing is finally done! The script has been fully edited and polished, making this a very nice looking translation indeed. No known bugs or issues exist with this patch, but if any are found, Kitsune wants to hear about it so he can fix them. Otherwise, this translation seems very complete. Enjoy!
+
+Reviewer: wraith
+http://www.romhacking.net/trans/240/

@@ -1,0 +1,71 @@
+Monopoly
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1992
+Developer: Sculptured Software
+Publisher: Parker Bros
+Players: 1 to 8 VS
+_________________________
+Parker Brothers' MONOPOLY Real Estate Trading Game was presented to Parker Brothers during the Depression by Charles B. Darrow of Germantown, Pennsylvania. Darrow had made the first games by hand, given them to friends and sold a few through a Philadelphia department store. But as demand grew, he could not keep up with the orders and arranged for Parker Brothers to acquire the rights to the game in 1935.
+
+Since then, it has become the leading proprietary game not only in the United States but throughout the Western world. It is published under license in 32 countries and in 23 foreign languages!
+
+This Sega Genesis version of the MONOPOLY game conforms to all the rules of the board game and some of the rules used in tournament play. The beauty of this version is that the system acts as the Banker and takes care of all the accounting and money management tasks - which speeds up play and prevents mathematical errors in the High Finance Department!
+
+Note, too, that we've created a special series of 12 Wheel and Deal Preset Games. These four-player game setups assume you have already acquired certain properties and assign all players a certain amount of cash, which varies from scenario to scenario, so you can "cut to the chase" and begin the game at the high-stakes trading level. You may also create your own preset game by selecting "Options"; this way, you decide who gets what.
+
+--From the Genesis Monopoly instruction manual.
+
+Overview:
+
+It was the worst of times, it was the worst of times. The Depression was still rolling on and what game did people love? That's right, one about tossing poor people into the streets. Nothing like "Fuzzy Bear brings Christmas Cheer to the Forest". Nope, nothing about lovable and generous neighbors harvesting your wheat for you. No, this game was about grabbing all of the gusto and chunking little Miss Maybell, the beloved elderly school teacher, out in the cold on her wrinkly butt. So if you are looking for a game with love and compassion, don't play Monopoly, play Resident Evil.
+
+Excellent graphics, sounds and game action. Not much more to say, the computer game plays like the board game. One major problem is that if you make a mistake playing against the computer, you cannot undo it. The computer will blissfully move along ignoring all of your protests.
+
+The great difference between playing the board game and the computer version is that even Charles Manson can play. "Friends? We don't need no stinking friends". So like Solitaire and Pro Basketball, you can play the game alone. Not that you have to. I mean, you can always invite Britney Spears and Lyndsay Lohan over for a spirited game. I do it all the time. Of course I end up playing alone against the computer. As you are likely to, also.
+
+Directions:
+
+Most of the choices that you make will have prompting on the screen telling you the appropriate buttons to select.
+
+If you press the C Button to bring up the Main Menu, you will be asked which player you are. Choose the appropriate player with the D-Control and press the "A" Button. The Main Menu displays Buildings, Mortgages, Trades, Deeds and General. Select which one you want.
+
+When you land on a piece of property, you can buy it or put it up for auction. If you put it up for auction, the Auction Screen opens and you have a chance to bid against the other players in the game.
+
+To see what everybody has: property, cash, "Get Out of Jail Free" card, press the B button on your turn.
+
+To get out of jail, you can chance rolling doubles on your turn or press the C Button to bring up the Main Menu. From the Main Menu, select the "Get Out of Jail" option to either use a "Get Out of Jail Free" card, if you have one, or to pay $50.00 if you don't.
+
+Trading:
+
+The process of trading can appear to be complex but actually isn't. First choose the Main Menu with the C Button, and then naturally select "Trade" with the D-Control and the A Button. Using the D-Control, point the Rich Uncle's hand towards your player and then select Property or Cash. Then using the D-Control and the "A" Button, choose the properties that you want to trade and/or the amount of cash that you are offering (D-Control UP or DOWN allows to change the cash value). If you are playing against the computer, you must do the same for him. Then move the Rich Uncle's hand to your Accept and push the A Button. If trading with a human player, they would do the same. If playing against the computer, he will evaluate the deal and accept it or refuse it. The computer is not stupid, so don't expect to get any easy deals.
+
+Buying Houses or Hotels:
+
+Press the C Button to bring up the Main Menu and choose Buildings. Choose buy houses or hotels. The screen should then allow you to scroll to the property that you want to place the buildings on. Then you should be given a screen allowing you to choose the number of houses to buy.
+
+Selling Houses or Hotels:
+Similar to Buying House or Hotels except it is a buyer's market; you sell at a great loss.
+
+Controls:
+
+A Button: Select/Buy/Bid/Menu
+B Button: Auction/Assets
+C Button: Main Menu
+Start Button: Start Game
+
+Hints:
+
+20/20 Hindsight Advice
+Don't invest in ENRON
+
+Trivia:
+
+The Sega Master System version (others might, too) of this game uses the classical music piece "The Entertainer", composed by Scott Joplin, for the theme song.
+
+Reviewer: J. Michael Bottorff
+http://www.mobygames.com/game/genesis/monopoly

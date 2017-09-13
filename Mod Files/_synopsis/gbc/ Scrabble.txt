@@ -1,0 +1,14 @@
+SCRABBLE
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Board Game
+Gametype: Licensed
+Release Year: 2001
+Developer: Runecraft
+Publisher: Ubisoft
+_________________________
+Scrabble is a Board game, developed by Runecraft, which was released in Europe in 2001.
+
+http://www.gamefaqs.com/portable/gbcolor/home/565841.html

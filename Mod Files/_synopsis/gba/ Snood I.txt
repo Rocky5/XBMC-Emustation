@@ -1,0 +1,18 @@
+Snood
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Action
+Gametype: Licensed
+Release Year: 2001
+Developer: Rebellion
+Publisher: Destination Software
+_________________________
+Snood is a puzzle game based on a simple idea, of the kind that was commonplace in the late 1980s. The game is set out with a grid of small differently-coloured shapes, each featuring faces drawn on them. A succession of blocks are placed in an aiming device at the bottom of the screen, and you must rotate this so as to aim them, off the walls if necessary, to hit ones of the same colour.
+
+When 3 or more of the same colour make contact, they are removed from the field of play. Any blocks which were only connected to those blocks (and not to any others or the ceiling) get removed from play as well. This is crucial, because each shot that fails to drop any blocks off causes a meter to move on one level. When this reaches the top, the line of blocks drops by one level. Once it reaches the point where blocks are moved down below the playing area, it is Game Over.
+
+There are five skill levels, as well as a set of 50 challenge levels, and a Journey mode in which you play through one level from each difficulty. From medium difficulty upwards, you'll have to contend with Skulls among the layout - these can only be removed by being dropped away.
+
+http://www.mobygames.com/game/gameboy-advance/snood

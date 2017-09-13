@@ -1,0 +1,14 @@
+Jelly Boy
+Platform: Nintendo Game Boy
+Region: Europe
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Probe Entertainment Limited
+Publisher: Ocean
+_________________________
+Jelly Boy is a 2D Platformer game, developed by Probe Entertainment Limited, which was released in Europe in 1991.
+
+http://www.gamefaqs.com/portable/gameboy/home/581677.html

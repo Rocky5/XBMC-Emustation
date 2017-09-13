@@ -1,0 +1,31 @@
+Dragon Quest I &amp; II
+Original title: Dragon Quest I &amp; II
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Turnbased
+Gametype: Translated
+Release Year: 2003
+Translated by: RPGONE
+Version: 2.0
+_________________________
+Yup, it's Dragon Warrior and Dragon Warrior II with some improved graphics and sound. That's all, really. If it's anything like the (already in english) Gameboy Color game, DW2 has been tweaked a little to not make it so unbearably slow and boring late into the game. Still, Dragon Warrior is cool, and don't forget it.
+
+Translation Description:
+
+There's two patches for this game: the DW patch (version 2.0) has names that are in keeping with the NES DW games, like Brecconary and Gwaelin and stuff. The DQ patch (version 2.0) has the translated Japanese names, like Roto, and some others I can't think of. This is an extremely high-quality translation, though not without its faults, and if Enix America actually gave a damn about its fans I'd say don't play this and buy the Gameboy Color game, but for now I say leech away! Enjoy the fruits of Yuji Horii's love for free, and be satisfied.
+
+Version 2.0 includes tons of bugfixes and assembly-level improvements, like speed increases on copiers and stuff. Good work, this.
+
+Tips:
+
+Rename the Prince and Princess
+To rename the Prince (2nd character) to whatever you want, start the game up, then choose to Continue an
+Adventure. When you are at the 'file screen', put the cursor to the left of the file you want to change the name.
+Hold the directional pad to the Left and also hold the Start button and push the A button with them still held down.  A naming prompt will then appear for you to enter in the new name.
+
+To change the name of the Princess (3rd character), put the cursor to the left of the file you want to change her name in, and this time hold Right on the directional pad along with the Start button, and then press the A button while still holding right + Start. A naming prompt will then appear for her.  You must have the Prince in the party for the code to change his name work, and the same for the Princess.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/337/

@@ -1,0 +1,28 @@
+Digital Devil Story
+Original title: Shin Megami Tensei
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, First Person
+Gametype: Translated
+Release Year: 2002
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+This game is at its heart a dungeon crawler. You walk around dungeons in a first-person perspective and fight monsters. But you don't necessarily have to fight them, oh no! You can also talk to them. If they don't like what you have to say they'll start attacking you, or get a buddy to help kill you, or just ignore you altogether. If they DO like what you're saying, they can give you money, or even join your party, or they can just leave you alone. You can even fuse the minions you recruit to create new, more powerful minions. Very open-ended stuff.
+
+The plot is crazy and fantastic, taking place in modern-day Japan, and involving a group of people who want to summon the god of Law to Earth so he can rule us all and everything will be orderly and, therefore, happy. Then there's this bunch of guys who want to stop this from happening, and try to summon the god of Chaos who will give everyone free will, making everyone, again, happy. It's your job to choose sides, which determines the outcome: Law or Chaos. Or you can choose neither, and kick everyone's ass. Kinda hard to do though.
+
+While the graphics aren't astounding, they're merely a backdrop to the neat gameplay and storyline. At least the artwork's good though. Some of those demons look super cool.
+
+Translation Description:
+
+A lot of people seem to have trouble patching the game. It's really easy guys, just make sure you use the version 1.0 rom, and that the rom has a header. Okay? If you don't know how to check those, get SMC.COM from the FAQ page.
+
+Also, the game seems to have random problems with crashing and such under ZSNES. SNES9x works fine though.
+
+The translation for the game is excellent, and while there's the occasional hacking problem (overrunning and other such), there's nothing getting in the way of you having an enjoyable demon-summoning experience.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/571/

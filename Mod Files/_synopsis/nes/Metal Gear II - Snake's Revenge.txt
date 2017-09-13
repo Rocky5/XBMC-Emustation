@@ -1,0 +1,40 @@
+Metal Gear 2: Snake's Revenge
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action - Stealth
+Gametype: Licensed
+Release Year: 1990
+Developer: Konami
+_________________________
+
+Set three years after the events of the original Metal Gear, FOXHOUND discovers that an undisclosed hostile nation may have gotten a hold of the plans for Metal Gear and are secretly constructing a new model. Lt. Solid Snake, the FOXHOUND operative responsible for the destruction of Metal Gear, is given orders to lead a three man team to the enemy's base consisting of himself and two fellow operatives: John Turner, a Navy Intelligence agent and infiltration pro; and Nick Myer, a weapons and explosive expert formerly with the Marines. The codename of the mission is Operation 747.
+
+Snake infiltrates the enemy's jungle base with the help of John, who acts as a decoy by allowing himself to be captured. Snake eventually learns that the enemy are transporting their weapons, a set of mass-produced Metal Gear tanks, on a cargo ship. Snake blows up the ship's ammunition cache and escapes with the help of the team's helicopter pilot while the ship sinks.
+
+The pilot informs Snake that the enemy has a prototype of the new Metal Gear 2 model in their main base and is told to contact their double agent, Jennifer, on the inside. As Snake goes deep into the base, he defeats an impostor posing as John, regains contact with Nick and eventually comes in touch with Jennifer, who reveals that the enemy commander is planning to launch nukes around the face of the globe. However, as Snake approaches the commander's lair, Nick is mortally wounded and dies, while Jennifer is exposed as a spy and gets captured. Snake confronts the enemy's commander, who reveals himself to be a cybernetically enhanced Big Boss, having survived his previous encounter with Snake. Snake defeats Big Boss and rescues Jennifer, who shows him to the storage facility where Metal Gear 2 is located. Snake destroys the weapon before its launch countdown is completed.
+
+In the aftermath of Operation 747, the United Nation declares "World Peace Day". John Turner is declared missing in action and removed from Navy records, while Nick Myer is awarded three posthumous promotions.
+
+Gameplay:
+
+Like in the original Metal Gear, the objective of the game is for the player to infiltrate the enemy's stronghold while avoiding being seen by the enemy. To fulfill their mission, the player must collect a variety of weapons and equipment, such as firearms, explosives and rations, as well as card keys for access to new areas. If the player is discovered by the enemy, the game will enter an alert phase where enemies will rush to the screen to attack the player. The player must kill a set number of guards to resume infiltration. In some cases, particularly when an enemy sees the player and only a single exclamation mark (!) instead of two (!!) appears, the player can merely escape by going to the adjacent screen.
+
+A change to the original Metal Gear formula is the fact that the player now begins the game with a combat knife and a handgun already in their equipment. The player can assign the B button to "punch" or use the "knife". The knife can be used for an instant kill in close range, although enemies killed by knife stabs do not leave behind ammo nor food like punched enemies. In addition to rescuing prisoners, the player can also interrogate enemy commanders by using a unit of truth gas on one. The number of enemy commanders interrogated are taken into account along with the prisoners rescued by the player and the player receives a promotion after rescuing/interrogating a set number of prisoners/commanders, increasing their life energy and carrying capacity, the highest possible rank in the game being six stars. The transceiver has been simplified from the original Metal Gear, with only three set contacts available (John, Nick and Jennifer). The transceiver is disabled when the game enters alert phase. The player can use the radar equipped in their transceiver whenever an ally is transmitting their whereabouts.
+
+The game features a more varied progression of areas such as a jungle, a warehouse, a cargo ship, and a train, as well as the usual set boss battles. In addition to the regular top-view areas, the player must also progress through side-view areas as well. In the side-view areas, the player can jump and crawl like in most action games to avoid traps, while still avoiding being seen by the enemy. In these stages, the player can switch between the knife and the handgun as their weapon of choice, and use plastic explosives to blow up underwater obstructions.
+
+Production:
+
+Konami produced Snake's Revenge following the release of the NES version of Metal Gear, as a sequel produced specifically for the Western market. Hideo Kojima, the designer of the original MSX2 version of Metal Gear, was not involved in the production of Snake's Revenge. According to Kojima, he became acquainted with one of the staff members working on Snake's Revenge, who told him that Snake's Revenge was not an authentic sequel and requested that a true sequel be made by him. This inspired Kojima to produce his own sequel, Metal Gear 2: Solid Snake for the MSX2, which was released as the official sequel to Metal Gear in Japan.
+
+Snake's Revenge was released in North America and Europe with no corresponding Japanese version. The fictional events of Snake's Revenge are ignored in Metal Gear Solid, which follows up on the original MSX2 games instead, and is hardly mentioned (if at all) in any of the subsequent Metal Gear sequels and spinoffs.
+
+Although Kojima feels that the NES version of the first Metal Gear is "complete garbage", when asked about Snake's Revenge he stated that he enjoys the game and thinks it is "faithful to the Metal Gear concept".
+
+The game has been referred in publications by the alternate title of Snake's Revenge: Metal Gear II, although it is never actually used on the game's packaging nor title screen.
+
+Much like the NES version of original Metal Gear and other Konami games released at the time, the packaging and instruction manual for Snake's Revenge features an alternate version of the story that is inconsistent with the actual plot featured in the game. Whereas the game reveals the main villain to be Big Boss, who betrayed Snake in the first Metal Gear, the instruction manual identifies the villain as "Higharolla Kockamamie" (a play on Ayatollah Khomeini), an Eastern despot who obtained the plans for his "Ultra-Sheik Nuclear Attack Tank" (the manual's name for Metal Gear) from Vermon CaTaffy (the supposed villain from the original Metal Gear).
+
+http://en.wikipedia.org/wiki/Snake%27s_Revenge

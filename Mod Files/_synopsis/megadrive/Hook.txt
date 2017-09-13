@@ -1,0 +1,13 @@
+Hook
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Ukiyotei Company
+Publisher: Sony Imagesoft
+Players: 1
+_________________________
+Hook is a video game adaption of the movie with the same name, released for a variety of consoles including the Sega Mega Drive, Sega Mega CD and Sega Game Gear. Plans for a Sega Master System version of the game were put in place, but were ultimately scrapped.

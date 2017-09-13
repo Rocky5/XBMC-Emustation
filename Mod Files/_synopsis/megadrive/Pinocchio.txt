@@ -1,0 +1,13 @@
+Pinocchio
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1996
+Developer: Disney Interactive
+Publisher: THQ
+Players: 1
+_________________________
+Pinocchio is a sidescrolling action game for the Sega Mega Drive based on the Disney film with the same name.

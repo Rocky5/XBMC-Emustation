@@ -1,0 +1,43 @@
+Super Smash T.V.
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter, Fixed
+Gametype: Licensed
+Release Year: 1992
+Developer: Beam Software
+Publisher: Acclaim
+Players: 2
+_________________________
+The year is 1999. Television is cashing in on the blood lust of its viewers. Violence dominates the screen.
+
+Topping the ratings are the TV game shows that offer the ultimate in prizes: your life! Winning and losing has become "destroyed or be destroyed." One show stands as the toughest, most spectacular, most dangerous, and most rewarding contest of all: SMASH TV.
+
+Alone, or in a pair, powerfully armed contestants are sent into a closed arena. There, before a live studio audience and devoted TV viewers from around the globe, they battle opp2onents - human, humanoid, and inhuman - and search out the cash and prizes that will make them SMASH TV Grand Champions. Ready for prime time?
+
+The future is now. You are the next lucky contestant...
+
+--From the SNES Super Smash TV instruction manual.
+
+Tips:
+
+Extra Lives and Continues
+On the Player Select / Skill Select screen, enter this code: Down, L, R, Up
+
+Kill all Enemies
+Enter the stage select code first. Begin playing. Press and hold Select
+
+Sound Test Mode
+On the Player Select / Skill Select screen, enter this code: L, R, L, L, R
+
+Speed-Up Code
+At the player/skill selection screen, press left, right, left, up, R, R
+
+Stage Select
+Press Right, Right, Up, Down, R, L, and Start on the Player Select Screen.
+
+View the Programmer Screen
+When the Beam Software logo appears, press and hold buttons L, R and B.
+
+http://www.consoleclassix.com/snes/super_smash_tv.html

@@ -1,0 +1,20 @@
+Super Battleship
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1993
+Developer: Synergistic
+Publisher: Mindscape
+Players: 1
+_________________________
+Super Battleship is a World War II themed video game released for the Sega Genesis and the Super Nintendo.
+
+Gameplay:
+
+The game had two modes: Super Battleship mode and Classic Battleship mode. Classic Battleship mode is essentially an electronic version of the board game Battleship. Super Battleship is a naval simulator played by sailing ships to a close enough range to shoot one's opponent's ships. Ships have four different weapons: missiles, torpedoes, depth charges, and guns.
+
+http://www.gamefaqs.com/console/genesis/code/563345.html
+http://en.wikipedia.org/wiki/Super_Battleship

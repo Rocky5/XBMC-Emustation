@@ -1,0 +1,29 @@
+Mask, The
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1995
+Developer: Black Pearl Software
+Publisher: Black Pearl Software
+Players: 1
+_________________________
+The Mask is a Super Nintendo Entertainment System side-scrolling action game based on the the first Mask movie. The player controls Stanley Ipkiss, a mild mannered bank clerk who transforms into the namesake character after discovering a green Loki mask. The player has to navigate through an apartment, a high-rent district, outside and inside the bank, the local park, inside a prison, and finally through a ritzy nightclub to fight his evil arch nemesis, Dorian who is also wearing the mask. If the player runs out of health, then he returns to being Ipkiss, wearing his pajamas. Many of The Mask's moves featured in the game were based on scenes in the movie, such as the mallet (which he uses to smash the alarm clock in the movie), the tornado, the massive guns he pulls from his pocket during the final confrontation during the movie, and the huge "living" horn.
+
+It also features other moves, such as a sneaking move which makes The Mask invulnerable (his enemies do not see him), a dash move (as well as a "superdash" move where he runs at supersonic speed), and his primary attack which is a basic punch move with cartoon boxing gloves. Many of the special moves (the mallet, guns, horn, etc.) use The Mask's "Morph" power, which is replenished with power ups. If his morph meter runs out it slowly replenishes to a smaller amount than that he started out with, much like the ammo replenishes for the main gun in Earthworm Jim.
+
+Tips:
+
+Cheat Menu
+You must input this code at the Options screen. And you must do it on the first try. If you fail, turn the SNES
+off and retry again.  
+A, B, X, Y, L, R, L, A, B
+(L and R are the L and R Triggers, not Left or Right)
+
+Get 99 Lives
+Ok go to your apartment and move the couch against the wall, go into the hole that just appeared and ta-da! you
+have 99 lives!
+
+http://en.wikipedia.org/wiki/The_Mask_(video_game)

@@ -1,0 +1,13 @@
+Cadash
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1
+_________________________
+Cadash is a side-scrolling action game developed and published by Taito. It was ported to the Sega Mega Drive in 1992, and released in North America and South Korea.

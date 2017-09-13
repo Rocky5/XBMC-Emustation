@@ -1,0 +1,19 @@
+X Zone
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Super Scope
+Genre: Shooter, Rail Shooter
+Gametype: Licensed
+Release Year: 1992
+Developer: Kemco
+Publisher: Kemco
+Players: 1
+_________________________
+Unknown circumstances have caused The Nation's automatic defense main-frame computer to malfunction. Infiltrate the "X-termination Zone" around the highly fortified "research center" and download systems shutdown sequence into central Bio-computer.
+
+Regain control of the defense system before computer controlled missile launch and satellite attacks can begin total global X-tinction.
+
+--From the SNES X-Zone instruction manual.
+
+http://www.consoleclassix.com/snes/x_zone.html

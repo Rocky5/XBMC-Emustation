@@ -1,0 +1,103 @@
+Raiden Trad
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Vertical
+Gametype: Licensed
+Release Year: 1993
+Developer: Seibu Kaihatsu
+Publisher: Micronet
+Players: 1 or 2 CO-OP
+_________________________
+In the year 2090, Earth is invaded by extra-terrestrials. The World Alliance of Nations has developed a supersonic attack fighter, Raiden, to defend the Earth. A pilot must take control of the experimental fighter to destroy the alien warships that just happen to look like odd variations of typical military tanks and planes with gadgets attached to them.
+
+Gameplay:
+
+The formula of the game is simple and typical for the era of this game. The player pilots the "Raiden Supersonic Attack Fighter" through waves of enemies, and several levels. There are two types of weapons, and the player can collect several powerups for them to make them stronger. There are bombs and missile powerups as well as collectable medals which add to the score.
+
+- Fighter -
+
+Raiden fighter always starts with vulcan main weapon.
+
+When player dies, the fighter drops items, based on the former fighter's weapon powers.
+
+- Weapons -
+
+    - Main weapon. There are 8 weapon levels:
+
+        - Vulcan: Fires wide formation shots (max 7 directions).
+
+        - Laser: Fires forward-concentrating shots.
+
+    - Sub weapon. There are 4 weapon levels:
+
+        - Homing Missile: Fires enemy chasing missiles.
+
+        - Nuclear Missile: Fires forward-concentrating missiles. When it hits an enemy, the blast persists for a short period.
+
+    - Bomb: Destroys bullets on screen, and damages enemies in the blast area. There is a moment of delay between pressing bomb button and explosion.
+
+When a player's fighter shoots the other player's fighter, the attacker's projectiles transform into 'stars' that radiates from the attacked fighter.
+
+When player dies, the fighter's fragments become projectiles that damage enemies.
+
+- Items -
+
+    - Red icon: Switches main weapon type to vulcan main shot. If the fighter already uses the weapon, the weapon power level is increased by 1, or gets 5000 points if weapon power is already full.
+
+    - Blue icon: Switches main weapon type to laser main shot. If the fighter already uses the weapon, the weapon power level is increased by 1, or gets 5000 points if weapon power is already full.
+
+    - H: Switches sub-weapon type to homing missile. If the fighter already uses the weapon, the weapon power level is increased by 1, or gets 5000 points if weapon power is already full.
+
+    - M: Switches sub-weapon type to nuclear missile. If the fighter already uses the weapon, the weapon power level is increased by 1, or gets 5000 points if weapon power is already full.
+
+    - 1UP: Increases life stock by 1.
+
+    - P: Maximizes both main shot and sub shot levels, assuming the fighter has the weapon type. If both shot type powers are already full, players gets 10000 points.
+
+    - B: Increases bomb stock by 1. If player already has 7 bombs, player gets 5000 points.
+
+    - Medal: Increases score by 300.
+
+    - Miclus: Increases score by 3000.
+
+    - Fairy: Increases score by 10000.
+
+- Stages -
+
+There are 8 stages in the game.
+
+When continuing after all players are dead, player resumes from a predefined check point.
+
+At the end of each stage, player gains stage bonus equals to the number of medals gained in a stage with current life, multiplied by number of bombs player possesses, multiplied by a 1000. If medal or bomb stock is 0, the count is equal to 1 for each affected field for scoring purposes.
+
+After defeating the Stage 0 boss, the mission is completed, and player receives 1 million points for each completed loop. Afterwards, it will start back to Stage 1. This time around, enemies shoot faster and at a more rapid rate.
+
+Hints:
+
+1. AKWT-AA9J Infinite bombs
+
+2. AE9A-AAF0 Start with 1 bomb
+
+3. A29A-AAF0 Start with 6 bombs
+
+4. BA9A-AAF0 Start with 8 bombs
+
+5. AJFT-AA5C Infinite lives
+
+6. PFCA-BJXG Each bomb power-up item is worth 2
+
+7. AEIT-AAHT Some smaller obstacles easier to explode
+
+8. AHEA-CAGY Some bigger obstacles easier to explode
+
+9. BA9A-AA8E Don't lose missile power when you lose a life
+
+10. A69A-BE8E Permanent invisible missiles
+
+11. BBCT-BA5Y First laser power-up item gives you maximum power.
+
+http://www.cheatbook.de/cfiles/raidentradsega.htm
+http://www.mobygames.com/game/genesis/raiden
+http://en.wikipedia.org/wiki/Raiden_Trad#Raiden_Trad

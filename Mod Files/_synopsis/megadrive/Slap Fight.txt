@@ -1,0 +1,21 @@
+Slap Fight
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Horizontal
+Gametype: Licensed
+Release Year: 1986
+Developer: Toaplan
+Publisher: Tengen
+Players: 1
+_________________________
+Slap Fight, also known as Alcon, is a 1986 vertically scrolling shooter arcade game developed by Toaplan and published by Taito. It takes its inspiration from Xevious (being a vertical scroller) and Gradius (from which it borrows its power-up system). The game takes place in an Earth-type environment with metallic, land-based enemies; some are mobile armor and others are fortifications embedded in natural terrain.
+
+Enemies always appear in the same location, at every new game or wrap of the map. Certain enemies leave power-up stars upon destruction. Collecting these stars "turns on" an upgrade menu at the bottom of the screen and moves a lit cursor through the list of power-ups described below. If any power-up is lit, but a ship is lost before a power-up could be selected, the star is "carried over" and the Speed block is lit on the next life.
+
+Single hits to the unshielded main ship destroy it, and the player loses any accumulated upgrades including Speed. This can make successive lives difficult to keep in the heat of battle.
+
+This game does not support continues with extra credits, and is believed to be endless; that is, after the final boss, gameplay resumes at the beginning of the play map but at successively higher difficulty due to enemies shooting faster and more frequently. This has been tested to at least three "wraps."
+
+http://en.wikipedia.org/wiki/Slap_Fight

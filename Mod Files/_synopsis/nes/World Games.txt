@@ -1,0 +1,26 @@
+World Games
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Competitive Events
+Gametype: Licensed
+Release Year: 1989
+Developer: Rare
+Publisher: Milton Bradley
+_________________________
+
+World Games is the predecessor of California Games.
+
+Events:
+
+1) Weight Lifting
+2) Barrel Jumping
+3) Cliff Diving
+4) Slalom Skiing
+5) Log Rolling
+6) Bull Riding
+7) Caber Toss
+8) Sumo Wrestling
+
+http://www.gamefaqs.com/console/nes/data/587783.html

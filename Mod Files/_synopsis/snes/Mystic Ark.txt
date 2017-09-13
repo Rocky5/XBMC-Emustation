@@ -1,0 +1,20 @@
+Mystic Ark [Dynamic-Designs Version]
+Original title: Mystic Ark
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2009
+Players: 1
+Translated by: Dynamic-Designs
+Version: 1.0
+_________________________
+Contrary to my earlier beliefs, Mystic Ark is definitely not a true sequel to 7th Saga, although there are many similarities in the sylistics and characters. 7th Saga was a sprawling RPG directed toward vanquishing an ultimate foe, involving time travel. Mystic Ark appears to be a series of separate sketches that can be concluded in favor of several characters interacting with the main fighter, Remeer. Looks like a super fun game, as the dialogue I've seen so far promises a rollicking adventure.
+
+As for this patch, it requires a headerless, de-interleaved ROM. CRC32 value FEB80589.
+
+Due to incompatible coding with the real hardware (transferring to VRAM without waiting for vblank), this patch does not work correctly on most current versions of available SNES emulators other than ZSNES 1.51. This includes BSNES, SNES9x, and SNESGT. It has been reported to work on older versions such as SNES9x 1.4X and SNESGT .0218 that allow this incorrect behavior.
+
+http://www.romhacking.net/trans/1428/

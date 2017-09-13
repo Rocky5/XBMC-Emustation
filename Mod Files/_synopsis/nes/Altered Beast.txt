@@ -1,0 +1,20 @@
+Altered Beast
+Original title: Juuouki
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Translated
+Release Year: 2005
+Translated by: aka translations
+Version: 1.0
+_________________________
+This is a version of Altered Beast that is stripped-down for the NES. As such, it's more-or-less just another pretty unremarkable (and frustrating) side-scrolling beat-'em-up. For those unfamiliar with Altered Beast, the gist of the game is that you are a warrior who comes back from the dead to punch and kick monsters through various levels because a god told you to. However, this is where THE GIMMICK comes in  as you collect power-ups, your warrior will gradually lose his clothes and grow larger man-boobs! Collect enough, and you can turn into some sort of were-animal, ranging from the slightly useful (wolf) to the absolutely ridiculous (teddy bear). So it's sort of like a beat-'em-up meets hentai game meets furry fantasy.
+
+Translation Description:
+
+As far as I can tell, this patch will translate that pesky Japanese title screen into something more familiar. I wish I could tell you more, but after spending about an hour being terrible at the game, the frustration got to me and I gave up hope that there might be translated text at the end. Plus, the readme doesn't really go into details, but considering the nature of the game that's fair enough.
+
+Reviewer: satsu
+http://www.romhacking.net/trans/886/

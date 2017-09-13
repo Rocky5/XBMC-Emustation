@@ -1,0 +1,39 @@
+Fun 'n Games
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad or Mouse
+Genre: Educational, Graphic, Music
+Gametype: Licensed
+Release Year: 1994
+Developer: Leland Interactive Media
+Publisher: Tradewest
+Players: 1
+_________________________
+Fun 'N Games presents a mixture of games and "applications". The main menu is divided into four sections:
+
+ - Paint:
+
+      A paint program that offers different tools and brushes, a few pre-made backgrounds and objects as well as the option to import figures that were created in the sub-games 'Stylin' Stuff' and 'mix 'n match'.
+
+ - Games:
+
+      Mouse Maze: A Pac-Man-clone in which the player guides a mouse through a top-down labyrinth. To complete a level, all cheese symbol have to be collected while cats have to be avoided. Collecting a bone temporarily transforms the mouse into a dog that can kill the cats.
+
+      Space Lazer: A shooter seen from the cockpit of a space-ship. The player controls a crosshair and has to shoot increasingly difficult enemies.
+
+      Whack a Clown: This game is exclusive to the Genesis Version and plays like 'Whac-a-Mole' only with clowns instead of moles.
+
+ - Music:
+
+      Songs can be composed by choosing from several instruments and putting notes onto a stave. It is also possible to add sound effects (animal noises and others) or edit provided songs.
+
+ - Style:
+
+      This section contains two mini-games:
+
+      Stylin' Stuff: Here, the player can edit the sprite of a woman by selecting different clothes, hats or haircuts.
+
+      mix 'n match: Sprites can be created by putting together different heads, torsi and legs. 
+
+http://www.mobygames.com/game/snes/fun-n-games

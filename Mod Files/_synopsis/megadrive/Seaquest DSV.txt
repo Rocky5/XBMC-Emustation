@@ -1,0 +1,40 @@
+Seaquest DSV
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Horizontal
+Gametype: Licensed
+Release Year: 1994
+Developer: Sculptured Software, Inc.
+Publisher: Black Pearl Software
+Players: 1
+_________________________
+Based on the first season of the TV series of the same, your character is an officer of the UEO: The Underwater Earth Organization. You begin the game inside a training simulation, which upon successful completion ensures your transfer to the crew of the SeaQuest DSV where you will be called upon to perform the same duties.
+
+Primarily, your function is to navigate the SeaQuest Deep Submergence Vessel around the underwater map to various 'mission areas' where you will be called upon to use the on board vehicles to accomplish some task. Typical missions include salvage operations, rescue operations, disarmament of underwater explosives, termination of enemies and exploration. Damage of underwater property is deducted from your budget and completion of objectives adds to it. The money must be used to resupply weapons and buy additional vehicles. Underwater is a dangerous place.
+
+The vehicles you have at your command include
+
+    - The Speeder: A simple two-man vessel designed entirely for speed. It is also a combat vessel and may fire forwards, move up &amp; down and change orientation between facing left and facing right
+
+    - Stinger: A prototype "next generation" attack vessel, this one-man sub allows you to orientate in any direction to fire your weapon accurately.
+
+    - Sea Truck: Slow and bulky, this vessel may move up and down and change it's orientation between left and right. It's weapons are torpedoes and mines which may be dropped behind it. Furthermore it is the only vessel that can pick up undersea objects for transport
+
+    - Remote (HR) Probe: Small and agile, this vehicle contains only a very simple weapon. It's main purpose however is underwater welding and repair of objects. It can also activate switches
+
+    - Darwin - Intelligent Dolphin and SeaQuest mascot: Darwin the dolphin is perhaps the most agile of the vehicles, and may take off in bursts of speed. However Darwin has no weapons with which to defend himself and is very vulnerable. Darwin is able to get into tiny spaces that none of the other vehicles can reach. Darwin is able to activate switches.
+
+Gameplay:
+
+The game is divided into two parts; one in which you control the seaQuest in an isometric perspective overworld and are able to buy equipment and weapons and travel the ocean quadrant, and the actual horizontal scrolling shooter style missions, in which you are to achieve various objectives using a complement of mini-subs, robots, and even a trained dolphin wearing an aqua-lung. Some of the missions are simplistic and require you to make use of only one of the seaQuest's vessels, others have you make use of several of them in succession. For example, there's a mission in the first ocean quadrants where you have to rescue the crew of an exploration vessel trapped in a caved-in underwater cave, and have to use armed subs to clear several cave-ins before you can bring in the only mini-sub you have that's equipped to rescue personnel from other subs.
+
+The missions also typically involve combat between your mini-subs and the units of pirates, eco-terrorists, and other foes, but also more often than not require you to perform some sort of non-combat task such as the aforementioned rescue operation.
+
+The other part of the game is the overworld where the player controls the seaQuest herself. These areas give you access to several menus in which you can replace lost equipment, buy new weapons for the seaQuest, and read up on the various missions you will receive while in your quadrant. While traveling your quadrant, you will also come across minefields, automated torpedo launchers and hostile submarines, many of which you need to destroy in order to achieve missions you are assigned in their area. For example, there's a mission in which you are to seal the leaks in an oil tanker sunk by ecological terrorists. In addition to accomplish this objective with your mini-subs, you need to not only complete the mission itself, but also to use the seaQuest herself to sink every terrorist submarine near the oil tanker wreck.
+
+The game features a currency system, and awards you money for destroying enemy targets and completing objectives. The player can also lose money for destroying underwater settlements and killing animals present in some missions. Money is spent on weapons, countermeasures and mines for your seaQuest submarine, as well as replacements for lost vessels in missions. You don't need to spend money on repairs, though, as the seaQuest and her complement subs repair themselves over time.
+
+http://www.mobygames.com/game/genesis/seaquest-dsv
+http://en.wikipedia.org/wiki/SeaQuest_DSV_(video_game)

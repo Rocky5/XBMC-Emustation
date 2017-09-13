@@ -1,0 +1,14 @@
+Nail'n Scale
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1992
+Developer: I'Max
+Publisher: Data East
+_________________________
+Nail'N Scale is a mixture of Jump'n Run and puzzle game. The player character can jump and throw nails at his enemies. Apart from killing enemies, nails can also serve as platform when they are thrown into blocks. Some blocks can be destroyed when you throw a nail into them and jump on the nail, whereas other blocks cannot even be penetrated by the nails. As the game progresses, levels get more and more complicated and new types of nails,such as explosive nails that remove particularly resilient blocks, become available.
+
+http://www.mobygames.com/game/gameboy/nailn-scale

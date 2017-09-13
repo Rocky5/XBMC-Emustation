@@ -1,0 +1,19 @@
+Microcosm
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1993
+Developer: Psygnosis
+Publisher: Psygnosis
+Players: 1
+_________________________
+In the year 2051, two mega corporations battle it out for supremacy over an overcrowded, overpolluted planet. CyberTech Industries, the dominant company on the planet, is being challenged by Axiom, who blames the former for their president's death. To gain revenge, they secretly inject CyberTech's president, Anton Korsby, with a virus that threatens to take over his body--and ultimately destroy himself and CyberTech. Your mission is to enter Korsby's body, destroy the virus, and defeat the organism that controls his brain.
+
+Microcosm is a 3D action shooter, similar to Descent, that takes place entirely within the human body. You pilot your way through various parts of the anatomy, blasting virii and enemy ships, while gaining power-ups and faster, stronger craft to aid you in your mission. Eventually you will make your way to the brain, where you must stop Grey M, the entity that controls Korsby's body.
+
+Microcosm makes heavy use of full-motion video and features high-resolution fractal graphics (to simulate the walls of veins and arteries), digital music and sound effects.
+
+http://www.mobygames.com/game/sega-cd/microcosm

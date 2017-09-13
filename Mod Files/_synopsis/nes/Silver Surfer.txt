@@ -1,0 +1,18 @@
+Silver Surfer
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1990
+Developer: Software Creations
+Publisher: Arcadia Systems
+Players: 1
+_________________________
+
+The Silver Surfer roams throughout space as herald to Galactus, looking for new planets for him to feed on. However his mission is interrupted by a summon from Galactus. Silver Surfer learns that creatures from the Magick Dimension are trying to break through into the universe and their coming will end all life. Vowing to stop them, Silver Surfer must assemble the pieces of a mysterious Cosmic Device and use it to push them back. The pieces of the Device are currently in the hands of some malicious creatures: Reptyl, Mephisto, Skrull Emperor, Possessor and Firelord. Silver Surfer must travel to their domains and defeat them in order to obtain pieces of the device.
+
+Silver Surfer is a shooter game, with some levels taking place vertically and some horizontally. The Surfer's only ability is to move around on the screen and to shoot directly in front of him. Power-ups that can be picked up include: the letter "F" (Firepower) which will increase the number and power of his projectiles, Smart bombs which destroy everything on the screen, the letter "S" (Speedup) which increases the surfer's movement and Orbs which will also fire the Surfer's weapon. Orbs are special in that two can be obtained (only 1 is shown on horizontal scrolling levels) and they can be positioned to fire forwards, backwards or sideways.
+
+http://www.mobygames.com/game/nes/silver-surfer

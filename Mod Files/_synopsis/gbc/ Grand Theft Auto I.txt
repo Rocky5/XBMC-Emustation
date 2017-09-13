@@ -1,0 +1,20 @@
+Grand Theft Auto
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 1999
+Developer: Tarantula Studios
+Publisher: Rockstar Games
+_________________________
+In Grand Theft Auto, the player takes the role of a small-time criminal trying to make it big with the mob. Stealing cars, doing jobs for the gangsters and behaving generally anti-social are the way to success.
+
+The action moves through six levels spread over three different cities, each based on a real US city: Liberty City (based on New York City), San Andreas (based on San Francisco) and Vice City (based on Miami). To finish a level, a certain score must be reached. Stealing cars and crashing into traffic, driving over pedestrians and killing cops all raise the score, but the big points are made through jobs. Answering phones or entering special cars brings mission assignments, from simple "ditch-a-hot-car" jobs to supporting bank robberies or carrying out assassinations. Completing a mission will raise the score substantially and also increase the score multiplier, so that completing the next felony will gain even more points.
+
+Criminal behavior comes with a price of course: if policemen witness a crime, the player's wanted level rises. At the lowest level, a single police car might give chase, whereas at the highest level whole car squads hunt the player, the police set up roadblocks and shoot to kill. The only way to evade the cops is to find a respray shop and get a new paint job with new license plates. This costs money which is deducted from the score, however. But even dying or being arrested are not the end. The player has several lives, and ending up in jail simply results in being stripped of all weapons and armor and the score multiplier being lowered.
+
+The entire action is viewed from a top-down perspective, which zooms out while driving a car, for a better overview at high speeds. The cities are many screens large and can be freely explored. Crates are scattered over the cities, which might include weapons (from pistols to rocket launchers), armor or other bonus items: extra lives, police bribes (used to reduce the wanted level to zero) and get-out-of-jail-free cards (used to retain score multiplier and weapons when busted). Dozens of different vehicles are available for the taking, each with unique characteristics: a bus will handle very differently than a sports car.
+
+http://www.mobygames.com/game/gameboy-color/grand-theft-auto

@@ -1,0 +1,38 @@
+Rings of Power: The Hand of Nexus
+Original title: Rings of Power
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: Whipon
+Version: 2.0
+_________________________
+Well, Rings of Power is insanely hard. You can wander forever without any luck. You can be killed instantly. Your money/food/water drains very quickly. The Naughty Dog staff made a great game, but the difficulty is very hard for any average player.
+
+But now you can beat the game. You have lots of advantages in the hacked version "The Hand of Nexus":
+
+- Your party is Invincible. You can't loose HP or MP on battle nor the Temple of Variation and Necropolis, except in some very rare cases where you can loose a bit of HP in battle.
+
+- All your characters will gain the max level when you get them some experience.
+
+- You will always have all the goods at max value.
+
+- You will start with the So Sym, Map, Sextant and the Magic Leaf. No more need to go the annoying Magic Leaf maze.
+
+- When you enter the map, you will teleport to any point where you left the pointer on it.
+
+- You will start with max Food, Water and Gold.
+
+- You have infinite Food, Water and Gold.
+
+- You can access the Inventory in Battle! Just hold right and press start after you select the spells.
+
+- You have all the spells of the whole party.
+
+Thanks a lot to Pugsy and Ugetab, and all the cool people at GSHI. Without their support, I never could make this hack possible.
+
+http://www.romhacking.net/hacks/354/

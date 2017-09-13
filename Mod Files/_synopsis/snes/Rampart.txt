@@ -1,0 +1,66 @@
+Rampart
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1992
+Developer: Bitmasters
+Publisher: Electronic Arts
+Players: 1 or 2
+_________________________
+In Rampart, the player is in control of a set of castles, which they must defend, by alternately shooting at attacking ships (or other players), and repairing any damage done to them within a time limit. Surrounding this castle is a wall, made up of small blocks, completely surrounding a region of the board. This area is considered the player's territory, and it may contain one or more castles, and any number of cannons. The maintenance of this territory is the primary focus of the game.
+
+Tips:
+
+Level Passwords:
+BCBCBCBC 01
+CDDDXXXC 02
+BBCXBCBB 03
+BBDFGDFG 04
+DFDFDXTF 05
+BCDFXXBT 06
+BBZXTZZZ 07
+YYDYCCDC 08
+BXTBCDDB 09
+WWTTNWWZ 10
+CZCTCZCZ 11
+BBBZTZDD 12
+CXTXCRCR 13
+CDCDXXCD 14
+BZBDBXBZ 15
+H PPYJ Y 16
+CCBXXBCC 17
+WWCRYCCB 18
+BCXWBBCB 19
+BDFGXGDD 20
+FWDXWDFB 21
+CCBBFDCB 22
+BGTZBFZY 23
+YCCFYCCB 24
+BDFFBTDW 25
+WFWDWWWC 26
+ZFGWZCZB 27
+BZDCDZZC 28
+CDWRCDCC 29
+CDDCDFFD 30
+BZZBZFFZ 31
+HSWJFPYJ 32
+BCBBCFCC 33
+CWCFRTCC 34
+BWWDBFBC 35
+BHFFGBBD 36
+DFDQFDFF 37
+BCFBYBCC 38
+BBZFZYBZ 39
+YMYCWCYC 40
+QRDDBBCD 41
+WBCWZCWW 42
+CZDFCCZZ 43
+BCWZXCBZ 44
+CCRCRMCC 45
+CZWXDCDD 46
+BZKLWMZZ 47
+
+http://en.wikipedia.org/wiki/Rampart_(video_game)

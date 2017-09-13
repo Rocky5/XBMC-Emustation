@@ -1,0 +1,23 @@
+Rush'n Attack G
+Original title: Rush'n Attack
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2006
+Hacked by: Googie
+Version: 1.0
+_________________________
+What's been done?
+
+- Changed the font.
+- Did some minor palette changes.
+- All levels are edited.
+
+Why hack this game? you may ask?
+
+I hacked this game because no one ever released a hack of this game since Dan released his editor Trip &amp; Slip back in 2004.
+
+http://www.romhacking.net/hacks/135/

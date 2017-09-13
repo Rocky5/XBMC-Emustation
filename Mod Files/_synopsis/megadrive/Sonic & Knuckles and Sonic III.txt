@@ -1,0 +1,14 @@
+Sonic &amp; Knuckles and Sonic III
+Original title: Sonic the Hedgehog II
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Sonic Team
+Publisher: SEGA
+Players: 1
+_________________________
+Hack to allow the Sonic &amp; Knuclkes addon to work with the Sonic the Hedgehog III rom.

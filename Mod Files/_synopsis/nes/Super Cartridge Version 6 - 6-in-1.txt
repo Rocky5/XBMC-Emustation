@@ -1,0 +1,9 @@
+Super Cartridge 6: 6-in-1
+Platform: Nintendo Entertainment System
+Region: Unlicensed
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Compilation 
+Gametype: Unlicensed
+_________________________
+This contains "Pipe V" and "Dancing Blocks", which are non-working roms on their own.  ~Dnyce1987

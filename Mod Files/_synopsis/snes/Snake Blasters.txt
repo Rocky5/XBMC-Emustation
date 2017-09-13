@@ -1,0 +1,10 @@
+Snake Blasters
+Platform: Super Nintendo Entertainment System
+Region: Homebrew
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Arcade, Fixed
+Gametype: Homebrew
+Players: 1
+_________________________
+This game is a lot like the Pang games out there.  ~Rx

@@ -1,0 +1,21 @@
+Final Fantasy I &amp; II [Unofficial Update]
+Original title: Final Fantasy I &amp; II
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Players: 1
+Hacked by: Grond, Neo Demiforce
+Version: v1.0, v1.0
+_________________________
+Neo Demiforce's Translation
+
+Anyway, this isn't too exciting, just the official Final Fantasy translation and the Neo Demiforce Final Fantasy 2 translation. That's all. There was going to be a new intro for the game, but it never happened, so here we are. La.
+
+http://www.romhacking.net/trans/138/
+
+Grond's Bugfix
+
+http://www.romhacking.net/hacks/165/

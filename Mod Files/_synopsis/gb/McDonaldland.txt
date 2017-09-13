@@ -1,0 +1,16 @@
+McDonaldland
+Platform: Nintendo Game Boy
+Region: Europe
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Visual Concepts
+Publisher: Ocean
+_________________________
+McDonaldland is a 2D Platformer game, developed by Visual Concepts and published by Virgin Interactive, which was released in 1993.
+
+This is nearly identical to the US Game Boy game "Spot's Cool Adventure".  ~Rx
+
+http://www.gamefaqs.com/portable/gameboy/home/585917.html

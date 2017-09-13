@@ -1,0 +1,17 @@
+Vectorman
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Developer: Blue Sky Software
+Publisher: SEGA
+Players: 1
+_________________________
+Vectorman is a platform game developed by BlueSky Software and published by Sega for the Sega Mega Drive. It was released on October 24, 1995 in North America and on November 30, 1995 in Europe.
+
+Vectorman was made partly in response to Nintendo/Rare's Donkey Kong Country, which contained pioneering graphics with pre-rendered 3D models as sprites. Donkey Kong Country's marketing stated that the game was impossible to do on Sega's Mega Drive, and Vectorman acts as one attempt to prove Nintendo wrong.
+
+The game was first released in Japan on the PC compilation Sega Archives From USA Vol.1. The game is also a part of the Sega Mega Drive Collection for the PlayStation 2 and PlayStation Portable and is part of the Sonic Gems Collection for the Nintendo GameCube. It was released on the Wii Virtual Console on February 27, 2007 in Japan and April 5, 2007 in Europe, and in North America on September 22, 2008. Vectorman is part of Sega Mega Drive Ultimate Collection as well.

@@ -1,0 +1,16 @@
+Denki Blocks!
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2001
+Developer: Rage Software
+Publisher: Majesco Games
+_________________________
+Denki Blocks! uses a single, simple digital toy set to provide a collection of 'puzzle games'.
+
+Denki Blocks! is played by sliding blocks around a board. When blocks of the same colour touch, they stick together to form clumps. Sometimes the player has to join all blocks of the same colour in any way possible. Sometimes specific shapes have to be made. 
+
+http://www.mobygames.com/game/gameboy-advance/denki-blocks

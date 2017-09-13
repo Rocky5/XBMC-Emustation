@@ -1,0 +1,24 @@
+Hiouden: Legend of the Scarlet King - The Demonic Oath
+Original title: Hiouden: Mamono Tachi to no Chikai
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Strategy, Fantasy
+Gametype: Translated
+Release Year: 2005
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+Hiouden is a quirky title from many of the developers who went on to make games like Tenshi no Uta, Tales of Phantasia, the Star Ocean series and Valkyrie Profile. You play a crown prince who has fled from his castle under attack, and begin to employ monsters to help you.
+
+It's a point and click strategy RPG, and for an SNES game is very PC-like. (You can even make windows so you can follow the action easier when you split your party up.) The PC-like implementation does suffer a bit from the SNES' small display, but the graphics don't look too rough and the intro is quite pretty. If you're a Motoi Sakuraba fan, you'll love the sound; if not, you might find it a bit dull.
+
+If you can handle the quirkiness, you've got a neat SRPG on your hands.
+
+Translation Description:
+
+The translation's complete, so get cracking! And read the readme, the patch isn't perfect and the game still has some bugs (which were already in the untranslated game).
+
+Reviewer: satsu
+http://www.romhacking.net/trans/907/

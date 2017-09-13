@@ -1,0 +1,14 @@
+Ultimate Paintball
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2000
+Developer: Morning Star Multimedia
+Publisher: Majesco Games
+_________________________
+Paintball game for the Game Boy Color. It's a capture the flag game containing several levels. You wander around the map from a topdown view, and when you run into hazardous territory, the game switches to a sidescrolling first person environment where your feet are fixed in a central spot. Here you'll battle your opponents using your pellet gun and paint grenades. As you play on the levels gets harder and on later maps there is more than one flag. You also get to buy more weapons.
+
+http://www.mobygames.com/game/gameboy-color/ultimate-paintball

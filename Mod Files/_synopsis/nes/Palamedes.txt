@@ -1,0 +1,17 @@
+Palamedes
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: Hot B
+Players: 1
+_________________________
+
+Palamedes is a simplistic Tetris-like game for the NES and Game Boy game systems requiring the player to match the dice they are holding to the dice on top of the screen. Using the "B" button, the player can change the number on his dice, then throw the dice using the "A" button when it matches the dice at the top of the screen, which wipes the target dice off the screen.
+
+The player can play in "solitaire" mode against the computer or another player, or "tournament" mode against CPU opponents. There are 6 sides and numbers on the dice, making an attempt to match all the numbers on the screen and eliminating them a challenge.
+
+http://www.nesguide.com/games/palamedes/

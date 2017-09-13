@@ -1,0 +1,28 @@
+Lufia: Decensored
+Original title: Lufia &amp; the Fortress of Doom
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2006
+Players: 1
+Hacked by: D
+Version: 1.0
+_________________________
+This patch changes all the following:
+
+- Character Names: Dios, Erin and Arty are back to normal.
+
+- Monster Names: Gardios and too many others to count.
+
+- Censorship: Bars now sell booze instead of cider. Church is run by a priest instead of a grey-haired shemale. Bunny girls kiss the hero on the second floor of Forfeit Isle. The dress is once again a One-Piece swimsuit. All references to death restored in place of gloom. Shop sells Bunny Ears and Bunny Suits.
+
+- Item Names: Brone to Bronze. Tan to Leather. Carbo to Holy. Might to Ancient. Stuffed Monkey. Rum, Vodka, Gin, Moonshine and Whiskey sold in stores. Lots more.
+
+- Magic Names: All magic names restored to their original, unintelligible syllables. Have fun figuring out what does what. It's Phantasy Star IV again!
+
+- Dialogue: Corrected the Gades in Sheran reference when Lufia first sees Gades so it is no longer Tarzan-speak.
+
+http://www.romhacking.net/hacks/129/

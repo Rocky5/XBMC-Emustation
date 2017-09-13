@@ -1,0 +1,24 @@
+Kirby's Star Stacker
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1997
+Developer: HAL
+Publisher: Nintendo
+_________________________
+Kirby's Star Stacker is a Tetris-like puzzle game. There are varying modes of play, such as Time Trial, Challenge and Story Mode, but the basic idea of play is the same: you must sandwich Star Blocks between two like Friend Blocks, either horizontally or vertically. The Friend Blocks and any Star Blocks in-between are then removed from play. Similar to Tetris, sets of blocks fall into the bin that contain any two of the following types:
+
+Star Blocks: The most important block, as all of the game types rely on it. Sandwich these blocks between two Friend Blocks either horizontally or vertically, and they will be cleared. The more stars you clear, the higher the score.
+
+Friend Blocks: These blocks have pictures of Kirby's friends - Rick the Hamster, Kine the Fish, and Coo the Owl (all from Kirby's Dream Land 2) - on them. Match two of each to clear them from the screen. Any Star Blocks between the two character blocks will also be cleared.
+
+Bomb Blocks: Sandwich a Bomb Block in between two Friend Blocks, and the bomb will explode, removing all blocks in the same row.
+
+Hard Blocks: You have to clear these blocks twice to clear them from the screen. Clear them once and they transform into an ordinary Star Block, and then can be removed in the normal way.
+
+The game also features a clever 'chain' system that rewards you for clearing blocks which then clear other blocks. If you clear two or more blocks in this manner, then you'll be rewarded with Kirby raining down that amount of Stars, which can fill in gaps, which in turn could complete a row and allow it to chain even further!
+
+http://www.mobygames.com/game/gameboy/kirbys-star-stacker

@@ -1,0 +1,38 @@
+King's Knight
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1989
+Developer: square
+Players: 1
+_________________________
+
+In the Kingdom of Izander, the fair Princess Claire has been kidnapped by a foul and insidious Dragon and it is the mission of four brave fighters to save her. These fearless champions will come together, after proving them- selves on their own, to fight their way to the lair of the Dragon and restore the kingdom to its peaceful start. The Knight, Ray Jack, will go first. He is the most experienced of the group and he carries a strong weapon. The Wizard, Kaliva is next. He has magic and good jumping abilities. The Monster, Barusa, follows. This scaly creature has strong defenses and can take many hits. The Thief, Toby, is the youngest and quickest member of the team. They must first set out solo and build their individual fighting abilities. Once they each have advanced skills, these courageous warriors will come together to seek out and save the princess. You must help them reach their goal as you are now part of the team that will fight to free the princess from her imprisonment.
+
+Keep your wits about you, plan your strategy and set off on an exciting adventure!
+
+--From the NES King's Knight instruction manual.
+
+Overview:
+In the great kingdom of Izander, the Princess Claire has been captured by an evil dragon. A party, which consists of a knight, a wizard, a monster, and a thief must split up and fight in different places. They might come together, so keep playing on to capture the real feel of the story!
+
+Directions:
+This game plays as a game which you only move vertically, with the bottom of the screen moving up. Monsters will come all around and begin to attack with mostly long-range weapons, which will be an up for the challenge factor. There are different pickups, which you can, well, pick up! Touch them to see what they do! I won't spoil much, so play the game for yourself!
+
+Controls:
+
+A Button: Fire weapon
+B Button: Use character's spell in Stage Five (only can be used certain times)
+Start Button: Pause/Unpause
+Select Button: Go to Continue Mode from Title Screen
+
+Hints:
+
+Revive Player
+After beating the first four stages, if you die, reset and press Select on controller one. Select the player to revive, then hold A and press Start
+
+Reviewer: LinkOfHyrule
+http://consoleclassix.com/nes/kings_knight.html

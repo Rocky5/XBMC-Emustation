@@ -1,0 +1,24 @@
+Final Fantasy Legend II [Enhanced]
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2007
+Hacked by: amuseum
+Version: 3.003
+_________________________
+Summary of alterations:
+
+- Allows long player names (up to 8 letters long using DTE).
+
+- Modified mutant skill list.
+
+- Corrected and made cooler names.
+
+- Toned down robot stats.
+
+- Replaced banana with heroin.
+
+http://www.romhacking.net/hacks/357/

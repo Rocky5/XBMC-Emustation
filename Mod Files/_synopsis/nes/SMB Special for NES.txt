@@ -1,0 +1,17 @@
+SMB Special for NES
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2009
+Hacked by: frantik
+Version: 20090219
+_________________________
+This release (20090219) is the second official beta test of the Super Mario Bros. Special for NES port. SMBS is a SMB based game licensed by Nintendo and created by Hudson Soft for the Japanese PC8801 computer. It was later ported to the Sharp X1. However, beyond these (now) obscure platforms, it was largely ignored and forgotten until suddenly becoming a cult hit in the emulation scene.
+
+The game became notorious for it's fiendish difficulty and it's (unusual for a Mario game) use of single screens rather than smooth scrolling. The suggestion was made to give the game a facelift and expose it to a wider audience by porting it to the NES. This is the result of that effort.
+
+http://www.romhacking.net/hacks/527/

@@ -1,0 +1,15 @@
+Exodus: Journey to the Promised Land
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Unlicensed
+Release Year: 1993
+Developer: Wisdom Tree
+Publisher: Wisdom Tree
+Players: 1
+_________________________
+Crystal Mines is a 1989 unlicensed puzzle game for the NES by Color Dreams. When they established Wisdom Tree, they repackaged the game twice: in 1991 as Exodus: Journey to the Promised Land and in 1992 as Joshua &amp; The Battle of Jericho, with Joshua labeled a sequel to Exodus. These two versions would be remade for the Sega Mega Drive in 1993 and 1994, respectively.
+
+Though the games do have a TMSS check, they will only do the $A14000 write if they detect the region of the console they are running on as US - therefore, the games will only boot on either any US Mega Drive or on any other Model 1 Mega Drive without TMSS (making that a partly useless form of region lockout).

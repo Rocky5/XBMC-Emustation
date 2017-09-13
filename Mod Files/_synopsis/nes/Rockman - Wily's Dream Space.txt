@@ -1,0 +1,22 @@
+Rockman 5 Wily's Dream Space
+Original title: Rockman V
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: Tar
+Version: 1.0
+_________________________
+This is one of the most unique Megaman 5 hacks ever, created by the author of Rockman 2 Minimum. Many new features including?
+
+- Custom music
+- New graphics
+- Enemy and boss behavior mods
+- New level layouts
+- Weapon behavior modifications
+
+http://www.romhacking.net/hacks/544/

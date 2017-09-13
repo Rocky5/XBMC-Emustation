@@ -1,0 +1,15 @@
+Whac-A-Critter
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Unlicensed
+Release Year: 1995
+Developer: Realtec
+Publisher: Realtec
+Players: 1
+_________________________
+Whac-A-Critter is an Action game, developed and published by Realtec, which was released in 1995.
+
+http://www.gamefaqs.com/console/genesis/home/932228.html

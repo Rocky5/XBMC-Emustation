@@ -1,0 +1,18 @@
+To The Earth
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Zapper
+Genre: Light Gun
+Gametype: Licensed
+Release Year: 1989
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+
+The object of the game is to destroy incoming bombs, asteroids, etc. without destroying friendly vessels. Due to the very quick speeds of the enemy ships and asteroids, the game is considered to be one of the most challenging Zapper games for the NES. The player must retrieve vials of medicine and deliver them to the Earth to win.
+
+Game bosses are fought at the end of each level as the player moves through the Solar system. When the player reaches the Earth level, the player must keep the final boss, an alien named Nemesis, from reaching the planet's atmosphere.
+
+http://www.nesguide.com/games/totheearth/

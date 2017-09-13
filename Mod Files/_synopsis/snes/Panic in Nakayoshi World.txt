@@ -1,0 +1,37 @@
+Panic in Nakayoshi World
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Top Down
+Gametype: Translated
+Release Year: 2000
+Players: 1
+Translated by: Project: Sailor Moon
+Version: 1.00
+_________________________
+How to explain this game ? hmm ? AH!
+
+Panic in Nakayoshi World is a lot like The Adventures of Lolo (for Nes). You walk around in a single-screen room that has an overhead-view. Kinda like Lolo. However, there's no real puzzles involved, and you don't have a limited number of shots with which to kill stuff, so that little "which enemy do I kill?" strategy element is kind of ? non-existant. Unfortunately, those elements are what made Adventures of Lolo a great game, and the lack thereof is what makes this game crappy. Oh yeah, and Sailormoon is in it too. So I suppose that makes it that much worse. So? maybe it's not a lot like Lolo.
+
+What the game boils down to is this: you're one of four characters from various animes. You have to save the world. Saving the world involves going through various rooms. To advance to the next room, you have to kill enough monsters (may not make sense in real life, but this makes perfect sense in the world of video game logic). After six levels of this, you fight a boss. Then, the scenery changes, I suppose to "break the monotony". The game probably ends eventually, with a silly anime cut scene where Sailormoon probably steals the show from the worthwhile characters. For me, it ended an hour after I started playing it, right after I exited out of ZSNES.
+
+Anyway, if this type of game is your cup of tea, try it out.
+
+Translation Description:
+
+Everything is fully englishedized, even if the script is a little strange at times. So there.
+
+Tips:
+
+Secret stages
+On the battle map select screen hold L and R when selecting a map and you'll go to one of six secret ones.
+
+Passwords:
+7731 Stage 2
+6208 Stage 3
+9420 Stage 4
+0725 Stage 5
+
+Reviewer: wraith
+http://www.romhacking.net/trans/399/

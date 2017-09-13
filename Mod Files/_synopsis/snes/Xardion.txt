@@ -1,0 +1,25 @@
+Xardion
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Jorudan
+Publisher: Asmik
+Players: 1
+_________________________
+The Alpha 1 Solar System, threatened by invaders from the artificial world NGC-1611, has gathered together the systems best defenses in an effort to repel the invasion. Three pilots and their machines are dispatched, charged with the task of destroying the invader's power source and, if possible, locate the legendary weapon Xardion in the process.
+
+Gameplay:
+
+While possessing the typical qualities of action platformers at the time it was made (jump, duck, shoot etc.), Xardion made use of a few novel elements. Additionally, the game had a role-playing element where experience points could be accrued by defeating enemies and bosses, and each level up increased the player's maximum life and special ability points.
+
+During the game, the player takes control of one of three available robot forms. Each form represents one of the three inhabited worlds in the system: Alcedes, from the Fire Planet; Triton, from the Water Planet, and Panthera, from the Desert Planet.
+
+Each form has its own particular abilities and weaknesses. For example, Panthera is less than half the height of the others, and as such can enter narrow passages to collect items. Additionally, each form possesses its own health and special ability points, and must be upgraded separately from the others. This is equivalent to a 'tag-team' game mechanic, where one heavily-damaged character can be swapped instantly for another.
+
+Eventually, one of the robot forms is replaced by Xardion, which combines the abilities of all three previous forms and exceeds them. Xardion only becomes available near the end of the game, but joins the team at level one. An obstruction that can only be cleared by a sufficiently leveled Xardion forces the player to return to earlier levels in order to gain levels and develop special abilities.
+
+http://en.wikipedia.org/wiki/Xardion

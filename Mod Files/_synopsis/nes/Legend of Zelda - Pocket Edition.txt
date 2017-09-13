@@ -1,0 +1,16 @@
+The Legend of Zelda: Pocket Edition
+Original title: The Legend of Zelda
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure 
+Gametype: Hack
+Release Year: 2006
+Players: 1
+Hacked by: PocketNES Resource
+Version: 1.0
+_________________________
+100% of graphics updated to look more like Zelda 3/Oracle Series. Other changes (item names) kept minimal so this can be mixed and matched with other level mods. Font optimized for PocketNES.
+
+http://www.romhacking.net/hacks/117/

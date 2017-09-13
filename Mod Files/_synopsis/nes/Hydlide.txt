@@ -1,0 +1,43 @@
+Hydlide
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1986
+Developer: T&amp;E Soft
+Publisher: FCI
+Players: 1
+_________________________
+
+In the kingdom of Fairyland, three magic jewels were enshrined in the palace to maintain peace in the kingdom. One day, an evil man broke into the palace and stole one of the three magic jewels. Without the third jewel, the two remaining jewels lost their magic sparkle. The magic spell that sealed the power of Boralis, the most vicious demon in the kingdom, was broken. During the turmoil which followed, the last two jewels were stolen. Boralis cast a special magic on Princess Ann, turning her into three fairies, and hid her somewhere in the kingdom. He then let loose a horde of monsters across the land and became the ruler of the kingdom.
+
+Finally, the young knight Jim stood up and took action to restore peace in the kingdom. He bravely made his way into the wilderness in full armour to fight the monsters...
+
+--From the NES Hydlide instruction manual.
+
+Overview:
+
+Once there was a kingdom called Fairyland. In Fairyland, there were three magic jewels enshrined in the palace that were put there to keep peace in the kingdom. All was well until an evil man snuck into the palace and stole one of the jewels. When he did, the other two jewels lost their "magic sparkle." There was a demon (Boralis) trapped by the sparkle of the jewels, so he was released when the evil man took one. After that there was much turmoil, in which the last two jewels were stolen as well. Boralis took over the world by taking Princess Ann, turning her into three fairies, and hiding them somewhere in the kingdom. At this point, he let loose a horde of monsters across the land. After a while, the young knight Jim, stood up to him so he could restore peace to the land.
+
+This game has gotten a bad rap throughout the years. I think it was good idea, despite its semi-corny storyline. It was probably one of the worst RPG's on NES, but that doesn't make it a horrible game. The graphics weren't that bad, although the sound did leave a lot to be desired. Hydlide tried to be an awesome game but in the end I think it just came out an O.K. game. 
+
+Controls:
+
+A Button: Attack/Defend
+B Button: Choose/Fire Magic
+Start Button: Start/Pause
+Select Button: Menu
+
+Hints:
+
+XBNMAMPNWQMNQHB2: Skip to Boralis
+WMRRBHLNX3TDJ8N6: Start game at final area with Max. Life/Max. Strength/Max. Magic/All Equipment/All Fairies rescued
+P6M9L7GBJ6PQJKH7: Start new game with Max. Life/Max. Strength/Max. Magic
+RJPMBKJNL64GMK71: Start new game with Max. Life/Max. Strength/Max. Magic/All Equipment
+
+Free Magic
+In the desert, destroy three sandworms in a row with one wave of magic power, and a set of footprints will appear in the sand. For a short time, you'll be able to use magic without depleting magic power.
+
+http://consoleclassix.com/nes/hydlide.html

@@ -1,0 +1,15 @@
+Dune: Battle for Arrakis
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Simulation
+Gametype: Licensed
+Release Year: 1993
+Developer: Westwood Studios
+Publisher: Virgin Interactive
+Players: 1
+_________________________
+Dune II: Battle for Arrakis, known as Dune: The Battle for Arrakis in the US, is a strategy game developed by Westwood Studios and published by Virgin Interactive for the Sega Mega Drive. The game was also translated to German as Dune II: Kampf um den Wustenplaneten.
+
+Battle for Arrakis is a complete overhaul of Dune II: The Building of a Dynasty, a DOS/Amiga game released a year earlier. The Mega Drive version features streamlined controls, gameplay tweaks, new levels and an entirely new set of graphics. Dune II is considered a milestone in the real-time strategy genre, though was bettered by Command &amp; Conquer a few years down the line.

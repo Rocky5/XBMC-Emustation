@@ -1,0 +1,41 @@
+Othello
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1988
+Developer: Acclaim
+Players: 1-2
+_________________________
+
+Othello is touted as the game that takes "A Minute to Learn, A Lifetime to Master". It is a two-player board game played on a board with 64 squares using discs colored black on one side and white on the other. As in checkers, the players are represented by the colors of the disc. The objective is to trap your opponent's discs and convert them to your color. Whoever has the most discs at the end of the game wins.
+
+Othello is an addictive game like Tetris. The graphics are not comparable to modern games (the discs are flat and crude looking circles), but who cares, the fun is trying to beat your opponent, not watching special effects.
+
+Directions:
+
+Press Start to begin the game and choose the options that you desire. The game starts with two black discs and two white discs in the center of the board. To place a disc on the board use the Control Pad to move the hand to the square that you have chosen and then press the "A" button.
+
+If you are not trapping your opponent's discs, you will be advised to "Try Again".     Players alternate placing discs on the board, trapping the opponent's discs which allows the disc to be flipped to expose the color of the "trapping" player. Trapping is accomplished by placing a disc such that it "traps" your opponent's discs (either in a vertical, horizontal or diagonal line) between two of your discs. The opponent's discs are then flipped to expose your color. You must "pass" play to your opponent if you cannot place a disc that will trap your opponent. The game ends when the time expires or neither player can make a trapping move. Depending upon the level that you choose , you may be able to cancel a move. To cancel a move simply press the "B" button when it becomes your turn again. Supposedly, if you wait when the game begins, there will be demonstration games displayed.
+
+Skill Levels
+     1  Player may cancel as many moves as desired
+     2  Player may cancel only three moves per game
+     3  Player may cancel only three moves per game
+     4  No move canceling allowed
+
+Controls:
+
+A Button: Place Disc
+B Button: Cancel Moves
+Start Button: Starts Game
+
+Hints:
+
+Disc Placement
+Try to place your discs on the edge of the board, and try to capture a corner of the board.
+
+Reviewer: WillyTheRat
+http://consoleclassix.com/nes/othello.html

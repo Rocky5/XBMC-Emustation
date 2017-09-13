@@ -1,0 +1,37 @@
+Fire 'n Ice
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1993
+Developer: Tecmo
+Publisher: Tecmo
+Players: 1
+_________________________
+
+This is a pretty cool little puzzle game. You are Dana, a wizard, of Coolmint Island. Coolmint has become plagued with flames and will melt if you don't get rid of them. It's a bright and colorful little game that is simple and straightforward to play. The music is simple and unobtrusive, which is the way I feel a puzzler's music should be.
+
+Directions:
+
+Work your way through each temple, defeating all enemies within. Create blocks of ice next to walls to secure them in space and create stairs or bridges. Drop blocks of ice down onto enemies or push loose blocks of ice into them. When you create ice with your wand, you create it at an angle in front of and below you, so you must be standing on a surface that is higher and behind where you want to create ice.
+
+The time at the bottom of the screen is only for personal scoring and does not affect the game play. The only place where you have to worry about time is in the labyrinths. There you must destroy all enemies before the rising lava level reaches you. You cannot stop the lava with ice.
+
+If you have made a mistake that doesn't allow you to progress any further in a level, don't panic. You aren't trapped there and you don't have to reset the game. Just press start and choose "TRY AGAIN". No worries.
+
+Eventually you will get to tunnels that you can move through. You can move up through these. The levels get more and more difficult, sometimes requiring you to drop the enemies down by destroying the ice under them before you can destroy them. Keep trying and you will succeed! 
+
+Controls:
+
+A Button: Create/Destroy Ice
+B Button: Create/Destroy Ice
+Start Button: Start Game
+
+Hints:
+
+Create It Before You Break It
+Make sure you really don't need a piece of ice before you destroy it. You can't get it back sometimes without restarting. Stand on top of loose pieces of ice and create a spare if you're not sure. Just make two more blocks, now there should be three, and destroy the middle one. Now you have an extra, just in case. 
+
+http://consoleclassix.com/nes/fire_n_ice.html

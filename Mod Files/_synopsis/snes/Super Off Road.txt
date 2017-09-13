@@ -1,0 +1,27 @@
+Super Off Road
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1991
+Developer: Software Creations
+Publisher: Tradewest
+Players: 1 or 2 VS
+_________________________
+In the game the drivers compete against each other or the computer in racing around several top-view indoor off-road truck tracks of increasing difficulty. Good results earn the player points to continue in the championship and money with which to upgrade their truck or buy more nitro boosters. The goal is to reach the end of the season with the most money earned. Continues are available but whereas players can get extra money in the arcade version, in the home versions, the player's money is reset to 0. This is one of the first games where the player could upgrade his or her vehicle by earning points or money (although in Atari Games' Sprint series, one could upgrade their racer using wrenches), a system that is used in most arcade-style racing games today.
+
+Licensing:
+
+The Super NES version was notable for prominently featuring the Toyota brand; the name and logo were displayed on various tracks, and pre-race music was inspired by the "I love what you do for me Toyota" jingle that was used by the company's marketing campaign at the time of the game's release. This version also lacked any licensing or reference to Ivan Stewart, replacing him instead with the late Mickey Thompson in the gray truck.
+
+Tips:
+
+Slow opponent
+The CPU driver will drive much slower if you input the same initials assigned to that driver.
+
+Never finish 4th place again.
+Plug in both controllers, and start a 2 player game. When you start racing, the blue truck will sit idle, for it is controlled by the 2nd player. Therefore, you can always finish 3rd or better and be able to go onto the next event.
+
+http://en.wikipedia.org/wiki/Super_Off_Road#The_Baja

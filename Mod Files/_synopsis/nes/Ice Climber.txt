@@ -1,0 +1,39 @@
+Ice Climber
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1985
+Developer: Nintendo R&amp;D1
+Publisher: Nintendo
+Players: 1 or 2 CO-OP
+_________________________
+
+It's only you and an ice hammer as you make your way to the top of the mountain! If you can break through 8 levels of treacherous arctic ice, you'll reach the top of the mountain. But watch out - the Nitpicker, condors and Polar Bears don't want you up there. And they've got a bag of tricks that will block your rise to the top. There are 32 challenging peaks to scale - face them alone or with a friend.
+
+--From the NES Ice Climber instruction manual.
+
+Overview:
+
+Two ice climbers, Nana and Popo have heard of magical vegetables on the mountain tops. So they went off in search of them, while fighting off Yetis, birds, and whatnot.
+
+Directions:
+
+Fight monsters and break blocks with mallets to get to the top, and collect vegetables to gain bonus points. Play with another person for a better playing experience.
+
+Controls:
+
+A Button: Jump
+B Button: Use mallet
+Start Button: Pause/Unpause
+Select Button: Choose One or Two Players
+
+Hints:
+
+Infinite Lives
+In level two, if you hit the block that is colored pink, then you will hear a ringing sound and you will have infinite lives. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/ice_climber.html

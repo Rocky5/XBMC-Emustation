@@ -1,0 +1,20 @@
+Final Fantasy IV: Celes &amp; Terra
+Original title: Final Fantasy IV
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2002
+Players: 1
+Hacked by: Drum Solo
+Version: 1.0
+_________________________
+This ROM hack alters the game into a story mostly centered on characters from at least one other game in the Final Fantasy series, notably Celes and Terra.
+
+The game was modified to a large degree. Both graphics (mainly character graphics) and text were modified. One character was even changed into a totally new character.
+
+The text was changed from a base script of J2E's translation of the game. The game is now more female related. It is also a bit sapphic in nature, centering on the relationship of Celes and Terra.
+
+http://romhacking.net/hacks/46/

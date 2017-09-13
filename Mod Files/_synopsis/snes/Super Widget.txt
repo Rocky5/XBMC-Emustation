@@ -1,0 +1,36 @@
+Super Widget
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Side-Scrolling
+Gametype: Licensed
+Release Year: 1993
+Developer: Atlus
+Publisher: Atlus
+Players: 1
+_________________________
+Super Widget was a video game for the SNES made in 1993 by Atlus. It was based on the cartoon Widget the World Watcher. It is a sequel to Widget for the NES.
+
+A new alien force threatens Earth. Widget, with his sidekick Mega-Brain, must explore the Horsehead Nebula and save the planet once again.
+
+Level Passwords:
+RJRBFF Aqua Planet
+JHKBHW Blue Beach
+JSRFKL Dwarf Planet:
+JLLJKL Flim Flam Station
+HWBLBF Ghostship
+WLKKKL Home Planet
+KFBRSJ Mega Slank Base
+RBLHKH Moon
+WSRMHH Planet of Seven Colors
+JJRSHH Planet of the Giants
+JBKFFR Rachet's Castle
+RMLLKL Space Wonderland and Water Planet
+KHHRSJ Special Level 1
+RLJBKL Special Level 2
+LRBBJJ Star of the Demons
+JKJMFW Volcano Eruption Zone
+RKJSHR Wonderland
+
+http://en.wikipedia.org/wiki/Super_Widget

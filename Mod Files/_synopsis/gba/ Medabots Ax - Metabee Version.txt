@@ -1,0 +1,24 @@
+Medabots AX: Metabee Version
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 2002
+Developer: Natsume
+Publisher: Natsume
+_________________________
+Welcome to the world of MedaBots. MetaBots are robots that can have various parts upgraded and swapped to change and improve them. These parts can be purchased, or can be received as the spoils of battle if you win.
+
+Enter your character... a boy who loves MedaBots. Sent to the store to get Spice-A-Roni, he ends up with a MedaBot instead. From this point on, his life is thrown into Robattles with other MedaBots.
+
+MedaBots are made up of a basic body (male or female), four main parts (head, legs, right arm, and left arm), and a medal. The medal is what powers the MedaBot. All these parts can be changed. And because each part has multiple properties, you don't really "upgrade" your MedaBot... you just change it. Sometimes you will want a powerful weapon attack, sometimes you may want a less powerful weapon attack that can do Chain Damage or Status Damage.
+
+When you battle, you take turns based on the speed your MedaBot can reach the center of the field. After it attacks, you hurry back to the outside and then return to the center. This is really just a timer thing to show how the speed of your MedaBot is affecting the attack speeds.
+
+Your attack can damage the various parts of the other MedaBot(s) as long as it hits. Destroying a part will prevent the MedaBot from attacking with that part. Destroying the head will give you a victory even if you destroy nothing else. However, you cannot aim at each part. The defense rating of each part helps determine what is hit first.
+
+Follow the story as you gain experience and level up your MedaBot's medal to gain more powerful attacks, better aim, etc. Get more bodies and medals for MedaBots so you can battle with up to 3-on-3 battles.
+
+http://www.mobygames.com/game/gameboy-advance/medabots-metabee-version

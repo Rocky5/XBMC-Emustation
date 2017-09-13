@@ -1,0 +1,30 @@
+Dragon Ball Z: Taiketsu
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 2003
+Developer: Webfoot Technologies
+Publisher: Atari
+_________________________
+Taiketsu is another game adaptation that is based on the famous Dragon Ball manga series that were written and illustrated by Akira Toriyama. The current Dragon Ball game features the following options:
+
+- One Player: Option that allows you to compete as one of the 15 Dragon Ball fighters in the modes available.
+
+Tournament: You start with 7 fighters but can unlock more to reach a total of 15. All fighters have the same combos and moves (like block, throws, ki blasts, etc.) and a set of 3 unique attacks that do more damage to the opponents. There's also a combo of buttons that if pressed allows the battle to take place on the air. When on air you can't use any of your current fighter's moves but instead you must press rapidly the buttons that appear at the bottom of the screen in order to inflict damage to the opponent. When completing this mode you either get money as a prize or a new character is unlocked.
+
+Endurance: Mode in which you have to fight a set number of opponents with only one life bar.
+
+Time Challenge: Just like Tournament mode you fight a number of opponents with the exception that here you must do the least possible time. Again just like the Tournament mode if you complete the Time Challenge you either get money as a prize or unlock a new character.
+
+Sparring: Here you can select any of the fighters and practice their moves.
+
+Endurance 2x: Same as Endurance mode apart from the number of opponents which is doubled this time. The current mode is unlocked via the Z-Store.
+
+- Multiplayer: By teaming up with another player via the link cable you can fight two opponents controlled by the CPU.
+
+- Z-Store: The place where you can spent the money you have earned to buy images, character bios, bonus settings (make both fighters invisible, one hit instant death and others), etc.
+
+http://www.mobygames.com/game/gameboy-advance/dragon-ball-z-taiketsu

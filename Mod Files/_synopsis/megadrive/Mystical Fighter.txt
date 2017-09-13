@@ -1,0 +1,21 @@
+Mystical Fighter
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1991
+Developer: Dreamworks INC.
+Publisher: Taito
+Players: 1 or 2 CO-OP
+_________________________
+Mystical Fighter is a beat 'em up game. This game is known in Japan as Mao Renjishi. Mao literally means demon king in Japanese.
+
+The story, designs, and characters are base on Japanese mythology. Like in most scrolling fighters, the player (who controls a kabuki) can use combos, flips and swings fight against tough opponents. There is also a timed limit, usually about forty seconds, for the player to finish the stage. If the time reaches zero before the player passes the stage it results in a defeat. Similar to Golden Axes the player can use a special magic power, but instead of bottles the player must manually pick up scrolls. The more scrolls the player has the stronger the magic attack will be, however if the player chooses to use this attack all the scrolls will consumed.
+
+Gameplay:
+
+Despite the time limit the player will spend most of the time mashing mainly the A and B button while fighting three to five opponents at in time. There are also hidden bonus stages that can be accessed if the player approaches certain doors or rooms. These bonus stages depend on which level they are located in and contain either magic scrolls or items to increase the character's health bar. The boss fights are often easier than regular enemies. There are also traps and holes that both the player or the enemies could fall in if they are not careful. The traps and pits do not always hinder the player, and in fact can be beneficial if the player throws an enemy directly into the pit.
+
+http://en.wikipedia.org/wiki/Mystical_Fighter_(video_game)

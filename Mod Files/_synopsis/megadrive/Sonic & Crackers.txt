@@ -1,0 +1,23 @@
+Sonic &amp; Crackers
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Prototype
+Release Year: 1994
+Developer: Sonic Team
+Publisher: SEGA
+Players: 1
+_________________________
+Sonic Crackers, also known by the name in the ROM header, Sonic Studium, is an early Sonic the Hedgehog prototype game for the Sega Mega Drive/Genesis. It is believed to have been an engine test, containing essentially multiple different game engines, swapped out in realtime using code written into RAM. The concepts, engine and various other materials in the prototype was subsequently implemented in the Sega 32X game Knuckles' Chaotix. Sonic Crackers was not a commercial release but is widely distributed on the Internet.
+
+Gameplay:
+
+The game has Sonic and Tails joined together by a band of rings. This would later become the idea for Knuckles' Chaotix for the Sega 32X.
+
+The ROM has two "adventure" levels, one of which appears multiple times with a different palette each time, and two "field" levels. One is highly reminiscent of the Techno Tower Zone level in Knuckles' Chaotix, the objective being to make it to the top of the screen; if this is done or three full minutes elapses on the clock, the Sonic 1 "game over" music plays and the player is brought to the first field level, featuring a clouded background and a waterfall.
+
+The "field" levels are only half-complete; there is no collision set, and Sonic can walk anywhere on the field with impunity. If the player pauses and hits a button, the game goes to a carnival-like level reminiscent of Chaotix' Speed Slider Zone that goes around in an infinite loop. After one minute has elapsed, the circus level ends and another "field" level begins. After the player pauses and hits another button, he or she is brought back to the Techno Tower Zone level with a different palette, four in all.
+
+http://en.wikipedia.org/wiki/Sonic_Crackers

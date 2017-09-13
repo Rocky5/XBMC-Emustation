@@ -1,0 +1,30 @@
+Tabo's Tactics
+Original title: Minna no Taabou no Nakayoshi Daisakusen
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Translated
+Release Year: 2003
+Translated by: Suicidal Translations
+Version: 1.01
+_________________________
+It's Sanrio! And you get two games in one cartridge! Such a deal. Er, you're Tabo, and you run around avoiding ghosts and stuff. Tabo's cool because his mouth is perpetually open. Hell yeah! And on occasion he even opens his eyes! How awesome is that? In the Card game, he just runs around flipping cards that match, like Memory or Concentration or something. The Cube game is just weird, because you're sort of shifting rows of blocks to line up blocks of the same type. Trust me, it makes a lot more sense when you play it. So play it!
+
+Translation Description:
+
+Feb. 22nd 2006 Addendum: - Hap's Addendum Patch was released Feb. 18th 2006 and fixes the problem that the game doesn't work on some emulators, and adds a missing translation. This is an unofficial addendum patch.
+
+First off, here is an animated gif of the ending credits, from the old 0.95 patch. InVerse wanted me to add that because he says it's l33t. After the 1.00 release (which screws up the ending for me), I took the liberty of making my own ending sequence. I'm sure it says something about my hentai worship or pedophilia or something, but who can say, really.
+
+As far as I know, this patch (actually, this GAME) will only work in NESticle. I've tried Nesten, FCE Ultra, and about five or six unofficial Nesters, and all I got was a black screen. Choose wisely, kay? Oh, and that image in the lower right is outdated. That cube game is hard, okay? I don't wanna fix it.
+
+Update by Sliver X:
+
+This release (1.01) fixes the ending credits, some glitches, and includes some save states for various NES emulators. Save states, you ask? See the above mentioned inability of the best NES emu's to play the game? Well, these save states can get the game working on them.
+
+Apparently, it's something in the intro that makes emu's choke, so if you can jump past that, you're good to go.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/223/

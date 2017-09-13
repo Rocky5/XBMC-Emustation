@@ -1,0 +1,14 @@
+DK: King of Swing
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Platformer
+Gametype: Licensed
+Release Year: 2005
+Developer: Paon Corporation
+Publisher: Nintendo
+_________________________
+Cranky is hosting the Jungle Jam contest. Before the contest can begin, King K. Rool steals the medallions. It's up to Donkey Kong to retrieve the medals. Players use the L and R Buttons to move left and right and to rotate counter-clockwise and clockwise on pegs. Most of the action takes place on these pegs. DK attacks by either charging up by holding on to two pegs at once or throwing things such as rocks or bombs.
+
+http://www.mobygames.com/game/gameboy-advance/dk-king-of-swing

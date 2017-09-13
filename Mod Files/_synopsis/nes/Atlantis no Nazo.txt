@@ -1,0 +1,18 @@
+Atlantis no Nazo
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1
+_________________________
+
+In "Atlantis no Nazo", you play a nameless archaeologist who must descend into the dangerous caverns of the lost continent Atlantis, and eventually find his way to the inner sanctum with the legendary treasure. The game plays like a standard action-based platformer. The levels feature plenty of enemies and gaps you must jump over. Your only weapon are sticks of dynamite. When you throw a stick, it will bounce off the floor and explode only after a couple of seconds, so very precise aiming and timing are needed to defeat the enemies. Many levels contain optional treasure chests as well as hidden doors that lead to bonus levels. Sometimes level progression is non-linear, i.e. you can jump straight to a high-numbered zone if you find the correspondent door on the level. All the levels are timed. The protagonist dies when he falls into a pit, touches an enemy, or runs out of time.
+
+This game was to be sent to the US as Super Pitfall II, but was cancelled.
+
+http://www.mobygames.com/game/nes/atlantis-no-nazo

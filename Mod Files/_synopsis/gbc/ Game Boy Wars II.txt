@@ -1,0 +1,21 @@
+Gameboy Wars II
+Platform: Nintendo Game Boy Color
+Region: Japan (Transalted)
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Strategy
+Gametype: Translated
+Release Year: 1999
+Translated by: TransBRC
+Version: 1.02
+_________________________
+I really, really wish I had something good to say about this game, but I don't. Well, I guess if you're a hardcore (and do I mean hardcore) strategy game fan, you'll like this. Otherwise, I'd steer clear of this game. Stages take between three to five hours to complete, and there's a whole lot of stages. The graphics are drab and built from the ever-so-diverse GBC palette. The music is pretty much the same throughout. Both you and and your opponent have the same types of units available pretty much throughout the entire game. The gameplay is repetitive and monotous, kind of like the tone of these sentences I'm writing? Get the picture?
+
+Translation Description:
+
+Blibber did a very thorough job on the translation, and managed to nab every bit of text as well as the title screen. However there was little text to begin with, so there wasn't really much to play around with in the way making it more flavorful (and trust me, it could've used a little injection of flavor).
+
+*October 2008 update* Changed status to incomplete. After you beat the game once, you get an extra set of special maps. After you beat it a second time, you get one last special map which is in Japanese from there on.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/23/

@@ -1,0 +1,18 @@
+Rockman III Endless
+Original title: Mega Man III
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: Rock5easily
+Version: 090301
+_________________________
+Rockman 3 Endless is a recreation of Mega Man 9's Endless Attack mode. It is an endurance mode; areas are picked at random, you start at a teleporter and must get to another teleporter at the end of the area. After so many screens you will face a robot master from the original game. You start the game with all of the robot masters' weapons and Rush adapters; your only goal is to survive for as many screens as possible. A similar hack, by the same creator, is also available for Rockman 5.
+
+The version number on this page is based on the time stamp attached to the patch in the archive, as there is no official version number and the hack is updated with new areas often. Dragonsbrethren has an archive site where past versions of the hack can be obtained, which is located here.
+
+http://www.romhacking.net/hacks/478/

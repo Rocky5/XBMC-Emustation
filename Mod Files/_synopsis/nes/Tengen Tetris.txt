@@ -1,0 +1,16 @@
+Tengen Tetris
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1989
+Developer: Tengen
+Publisher: Tengen
+Players: 1-2
+_________________________
+
+TETRIS is a dynamic puzzle that seems easy enough: Rotate and flip moving geometric blocks into unbroken rows. When you completely fill up the bottom row, it disappears from the screen and your score rises. When enough rows vanish, the blocks descend faster and faster. Nothing to it, right? Wrong! When you can't find the way to make the pieces fit together and more blocks tumble down to clog your screen, you'll wish you had ten hands - and ten brains. Warning: Although TETRIS may be great food for thought, it's so much fun, it's positively addictive. So don't forget to eat something to fuel your body (maybe apple pie?).
+
+http://www.gamefaqs.com/console/nes/home/587696.html

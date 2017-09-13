@@ -1,0 +1,14 @@
+Ferrari Grand Prix Challenge
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Racing
+Gametype: Licensed
+Release Year: 1992
+Developer: System 3
+Publisher: Acclaim
+_________________________
+The player takes the role of a Ferrari team driver who's objective is to become an F1 Champion during the standard 16 round season. The player competes against 25 computer opponents representing different F1 teams. Every round consists of a qualification race (1 lap) and a main race (5 laps). The qualification race determines where the players vehicle will be placed at the beginning of the main race. The player is rewarded points which determine their standings at the end of a main race with more points being given for the higher position finished in the race. Also during a race, the player can make a pit stop to change their worn down tires and to refuel, which involves playing a minigame. There is also a practice mode, where the player can choose the number of practice laps they wish to practice.
+
+http://www.mobygames.com/game/gameboy/ferrari-grand-prix-challenge

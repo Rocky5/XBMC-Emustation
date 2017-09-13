@@ -1,0 +1,22 @@
+Mortal Kombat [Dullard Cheat Menu Enhancement]
+Original title: Mortal Kombat
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Hack
+Release Year: 2006
+Players: 1 vs 2
+Hacked by: hiro1112
+Version: 1.0
+_________________________
+This rom hack is mostly for fixing those DULLARD cheat menu options to have more clear descriptions, like the Sega CD version has. But I also enabled the blood and changed "Rayden" to have his correct name "Raiden".
+
+This patch makes a couple of minor changes to the Rev 00 game.
+
+Mostly it changes the cheat menu's to have menu names like the Sega CD version to be more clear in their use.
+
+I also enabled blood from the start and changed "Rayden" to be "Raiden" as he is called in the arcade counterparts.
+
+http://www.romhacking.net/hacks/151/

@@ -1,0 +1,29 @@
+Aim for the Ace!
+Alternative title: Ace wo Nerae!
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Tennis
+Gametype: Translated
+Release Year: 2004
+Developer: Nippon Corp.
+Publisher: Nippon Telnet
+Players: 1
+Translated by: RPGOne
+Version: 1.2
+_________________________
+Aim for the Ace uses the DSP chip to very good potential, but is sadly not emulated very well by any emulator. It's got this weird chase-camera thing going on where the camera is always following behind you, so the court is always moving around and crazy stuff. It seems like it'd be pretty cool, but it really doesn't work at all on emulators. The multiplayer modes don't have this problem though, cause they're all overhead.
+
+Anyways. You're some girlie, who loooves tennis. This coach guy sees your inner talent, and works with you to have your true power shine through, and play like a true pro. I got all this information online, cause I couldn't beat the first stage, cause of the weird emulation. I keep swinging about two seconds before the ball actually gets to me. Haha!
+
+Ace wo Nerae seems to be an old anime/manga series back in the 70s. Why they make a Super Famicom game about it I don't know, but it's pretty cool. It looks really sharp, and the sound effects are just about dead-on. It's like you're REALLY THERE!
+
+Translation Description:
+
+This patch absolutely requires a non-interleaved ROM with a header. If you have an interleaved ROM, you will have to find a different one. That is, you'll have to dump your original ROM differently! Of course.
+
+There's not much to say about the translation, and in this case, no news is good news. The game's complete, and looks very nice. Version 1.2 has some various dialogue fixes and stuff.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/688/

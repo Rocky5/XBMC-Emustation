@@ -1,0 +1,14 @@
+Mario's Picross
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1995
+Developer: Jupiter Multimedia
+Publisher: Nintendo
+_________________________
+Similar to the puzzle game Minesweeper, the play field is covered by filled-in squares. Using the clues provided (each clue is a number along the side of a row or column to tell you how many squares are filled in) you must select which squares have something inside of them and which do not. The result in each play field is a random letter. You are also timed during play, so if you run out of time before you figure out what the letter is, it's game over. Mario and Yoshi also appear throughout the game.
+
+http://www.mobygames.com/game/gameboy/marios-picross

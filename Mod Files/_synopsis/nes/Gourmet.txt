@@ -1,0 +1,17 @@
+Gourmet
+Original title: Oishinbo
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure > Text 
+Gametype: Translated
+Release Year: 2008
+Translated by: snark
+Version: 1.0
+_________________________
+The original game is Oishinbo c. 1989 by Shinsei , T. Kariya, A Hanasaki, Shogakukan, and U. Company licensed for Famicom / Nintendo. This title translates as "Gourmet," graphic and text adventure game based on the popular manga comic book series "Oishinbo." This IPS translation patch was created so that you can play this game in English on a eight bit NES emulator.
+
+Who knew a game about food could be interesting? Before you can even say kawahagi(filefish) or fugu (blowfish), you too can become an enthusiast of the culinary arts of Japan. You won't have to watch Iron Chef to know the difference between foie gras and ankimo (monkfish liver). Follow the exploits of Shiro Yamaoka with the help of intern Yuko Kurita to find the best entr?e for the Tozai Publishing 100th Anniversary banquet. Enjoy this translation which has been lightly enhanced for playability (no MSG!)
+
+http://www.romhacking.net/trans/1280/

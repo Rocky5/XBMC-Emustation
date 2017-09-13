@@ -1,0 +1,24 @@
+Final Fantasy VI: Hardtype
+Original title: Final Fantasy VI
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: Eternal248
+Version: 1.3
+_________________________
+This new Final Fantasy VI hack makes quite a few changes to gameplay whilst leaving the original story intact.
+
+This hack has increased enemy stats, given the AI new (and smarter moves) while altering equipment and Espers. Equipment has been made more unique to each character, and certain characters have new skillsets- for example, Mog has Jump instead of Attack.
+
+Equipment has been rebalanced, meaning you won't see any more Genji Glove/Offering combos. You'll have to form strategies to deal with each boss!
+
+Additionally, most glitch fix patches have already been applied to the game.
+
+This hack is my first ever, and I appreciate all comments. My e-mail is in the Readme file. Have fun!
+
+http://www.romhacking.net/hacks/617/

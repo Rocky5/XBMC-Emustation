@@ -1,0 +1,38 @@
+Zanac
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1987
+Developer: Compile
+Publisher: FCI, Inc.
+Players: 1
+_________________________
+
+The "system" was created by an organic intelligence body many millenniums ago and began attacking the human race. The earth was thrown into turmoil with only one hope for salvation. Fighter model AFX-6502 ZANAC was perfected by the 256th Riot Fleet to ward off the enemy system. It's your job, as ZANAC, to save the human race. Using eight special weapons and secret power forces buried along the way, guide ZANAC through 12 screens of enemy creatures to victory.
+
+Storyline:
+
+First it was probably a tiny dot. A few thousand years later, it grew gigantic enough to cover the whole universe. The system created by an organic intelligence body a long time agp was still active even after the organic intelligence body perished. The system had a purpose: giving wisdom to those who opened the icon properly, and giving punishment of ruin to those who opened it improperly.
+
+One day, someone opened the icon improperly. The system started operation and startted attacking them. Then, they opened it properly. The icon ordered the system to suspend the attack. The system however ignored this order and became a slaughter device. The human beings who opened the icon fell into crisis. The attack from the system overwhelmed the offensive power of the human beings. When they were about to perish, there was one hope - the system is basically a strategic machine and is equipped for fighting against a multitude. If a single object confronts the system by itself, the system might not be able to cope with it effectively.
+
+It was a risky gamble, yet it was carried out in hope of success. They produced the fighter model AFX-6502-ZANAC which took off to begin fighting alone against the system.
+
+--From the NES Zanac instruction manual.
+
+Controls:
+
+D-Pad - Move
+A - Special
+B - Fire
+Start - Pause
+Select - Not Used
+
+Hints:
+
+Periodically, you will find a weapon upgrade. The Conventional Weapon is usually upgraded by collecting the POWER CHIPS dropped by Boxes. You can upgrade or switch Special Weapons by collecting the numbered bonus, which you receive, from Ground Targets or WEAPON DROPs.
+
+http://www.consoleclassix.com/nes/zanac.html

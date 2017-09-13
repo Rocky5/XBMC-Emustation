@@ -1,0 +1,15 @@
+Rockman 2 Dash Plus
+Original title: Rockman 2
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2004
+Players: 1
+Hacked by: Smart Apple
+_________________________
+Rockman 2 Dash is a hack of Rock Man 2 credited to a Japanese ROM-Hacker named Smart Apple in 2004. In this hack, all of the original levels of Rock Man 2 have been totally redesigned as if were Rock Man 1, which includes graphics and music, as well as additional challenge due to more aggressive monsters. The plus version is expected more of a challenge.
+
+http://www.datacrystal.org/wiki/Rockman_Dash

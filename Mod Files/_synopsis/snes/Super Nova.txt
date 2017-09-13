@@ -1,0 +1,20 @@
+Super Nova
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Side-Scrolling
+Gametype: Licensed
+Release Year: 1993
+Developer: Taito Software
+Publisher: Taito Software
+Players: 1
+_________________________
+Darius Force was released in America under the name of Super Nova in 1993. This game has been changed to resemble the original Darius game particularly in the use of an active check point system and rotating levels. There are three final levels and there are three ships to choose, each with different abilities; two are from the original Darius games, and a new third one.
+
+Tips:
+
+Boss Mode
+Press Down, X, Up, B, L, R, Left, A on controller 2 when the Taito logo appears
+
+http://en.wikipedia.org/wiki/Darius_(series)#Darius_Force.2FSuper_Nova

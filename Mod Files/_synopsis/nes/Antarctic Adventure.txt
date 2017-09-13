@@ -1,0 +1,26 @@
+Antarctic Adventure
+Original title: Antarctic Adventure
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Racing 
+Gametype: Translated
+Release Year: 2005
+Translated by: DvD Translations
+Version: 1.00
+_________________________
+This is one of Konami's first NES games from way back in the day, and the possible origin for their old obsession with penguins.
+
+In Antarctic Adventure, you play the role of a penguin that goes around the South Pole on a race, visiting different stations for no reason at all. On the way you'll have to brave holes and seals while trying to catch fish and flags for extra points. Grab a flashing flag and you'll get a special boost which allows you to float for a few seconds once while jumping.
+
+There's not much else to do in this game other than go forward and beat the clock. The game is fun, but it's also very simple, so many people will get bored of it rather quickly.
+
+Translation Description:
+
+This is one of the frickin' smallest patches we have hosted here. The game didn't really have much to translate other than one line. One FRICKIN' line. In the map screen, you formerly had three kanjis. Now there's a line that says "South Pole". And the font was cleaned up a bit. And there's an ad for DVD Translations in the title. And that's it.
+
+No more comments. :P
+
+Reviewer: Kitsune Sniper
+http://www.romhacking.net/trans/864/

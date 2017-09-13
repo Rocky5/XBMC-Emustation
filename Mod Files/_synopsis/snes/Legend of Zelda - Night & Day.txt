@@ -1,0 +1,16 @@
+Legend of Zelda: Night &amp; Day, The
+Original title: Zelda: A Link to the Past
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Adventure
+Gametype: Hack
+Release Year: 2006
+Players: 1
+Hacked by: JaSp
+Version: 2.0
+_________________________
+This improvement adds a virtual in-game clock displayed on the status bar, along with a day/night cycling system using this clock that tints the palettes (excluding the status bar) in the overworld areas according to the hours. Tint colors and timer speed are easily customisable, everything is explained in the readme and it is easily usable for custom hacks. ASM source is included in the archive. It can be applied to a normal Zelda 3 ROM so that you would play through the whole game with this effect (though it doesn't change any event of the story), it hasn't been tested everywhere but it should work fine.
+
+http://romhacking.net/hacks/155/

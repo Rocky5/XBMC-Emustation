@@ -1,0 +1,26 @@
+Final Fantasy III Eviltype
+Original title: Final Fantasy VI
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: SageAcrin
+Version: 1.07
+_________________________
+Final Fantasy 3 Eviltype is a patch of Final Fantasy 3 designed to completely rebalance the overall game, in such a way that it is as hard as reasonably possible without making it impossible for a theoretical newcomer to the game to still complete without unbelievable amounts of effort.
+
+In less cheaply ripped-from-the-readme terms, Final Fantasy 3 Eviltype's goals are to both vastly increase the game's overall challenge, and to increase the usefulness of characters and equipment that were, in the author's opinion, somewhat flawed.
+
+The degree of changes vary, for how notable they are; Does anyone remember how the Epee was totally forgettable? Probably not, they forgot it. On the other hand, how many people noticed how, well, mediocre Umaro was? Quite a few people. These are the things Eviltype attempts to rebalance into more useful forms.
+
+It attempts to do this by improving the flawed issues, though; Only a scant handful of negative "nerfs" were added(Three spells, one removed steal, and one altered Rage.), and only when they were felt absolutely necessary.
+
+But don't think this is going to be an easier trip because of this. Every single monster has been vastly improved on durability, damage, skillset, you name it, it's been improved?except when you least expect it, and often how you least expect it!
+
+Hopefully, you'll enjoy it. Regardless, the goal I set out for when I made it was completed when I finished it; I enjoyed it. ^_^
+
+http://www.romhacking.net/hacks/294/

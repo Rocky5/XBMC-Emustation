@@ -1,0 +1,19 @@
+Bio Metal
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Side-Scrolling, Sci-Fi
+Gametype: Licensed
+Release Year: 1993
+Developer: Athena
+Publisher: Activision
+Players: 1
+_________________________
+It's the year GC 232 (Galaxy Century Year 232). A huge war that had begun years and years before has divided the Milky Way and all of its natural resources have been exhausted. The Milky Way Galactic Council is forced to send a fleet of starships to a nearby planet by the name of UP457 in search of any resources that can replenish the ones lost during the battle. However, during this mission, the fleet is destroyed by a race of half machine, half animal aliens referred to as "BIOMETAL" by the Galactic Council. One of the Council's super computers then calculates that the number of these "BIOMETALS" is increasing rapidly and will have the Milky Way completely taken over within 32 hours. So the Halbard's crew, young pilot Kid Ray and biologist Anita, along with their fleet, WASP, are assigned to eliminate the hostile threat on UP457.
+
+Weapon power-ups are gained by destroying pods and picking up the released power-ups, which cycle through the various weapon types as in Raiden. Some weapons cancel each other out. The player also has a shield in the form of four spinning orbs that circle around the ship when the engaged. Charge power is drained when the shield is active. The shield can be used as protection against enemy fire.
+
+The graphics have Giger-esque quality, which was a popular style during the late 80's/early 90's. The in-game effects use a lot of mode-7 raster effects and some impressive parallax scrolling.
+
+http://en.wikipedia.org/wiki/BioMetal_(video_game)

@@ -1,0 +1,37 @@
+Knuckles Chaotix
+Platform: Sega 32X
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Developer: SEGA
+Publisher: SEGA
+Players: 1 or 2 CO-OP
+_________________________
+Knuckles Chaotix is a spin-off of the Sonic the Hedgehog series of Genesis games. The starring character in this title is Knuckles the Echidna, who first appeared in Sonic the Hedgehog 3. Knuckles works at Carnival Island, an amusement park.
+
+It's his job to protect the park and make it a happy place for visitors. Dr. Robotnik, as usual, has an evil plan for the park. He wants the power emerald which supplies electricity to the entire island. What's worse, he has imprisoned several of Knuckles' friends in the "combi confiner." This contraption only allows Knuckles to free one of his friends at a time be attaching a tether between himself and them. Therefore, when you play the game you are always attached to another character.
+
+Although the basic gameplay of Knuckles Chaotix is similar to the Sonic games, the bungee cord between the two characters creates new challenges. The new characters that appear are Vector the Crocodile, Mighty the Armadillo, Espio the Chameleon and Charmy Bee. There also two characters whose sole purpose is to slow you down, Heavy the Robot, and Bomb. Chaotix adds several new power-ups and 3D bonus levels as well.
+
+Hints:
+
+- Wireframe Special Stage -
+After completing all special stages and getting all Chaos Rings, you will begin at the first stage, and then on they will all be wireframes. Completing the wireframe special stage gives you a big point bonus
+
+- Change Music Speed -
+At the Sound Test, use X and Y to choose between Stereo or Mono, instead of the normal selection buttons. This will cause the music to be at a different speed than usual.
+
+- Move Characters Anywhere in Level- 
+With the Stage Select mode enabled, choose any stage you want. Next, pause the game. You'll notice a little X/Y location guide in a black box has appeared on screen. Just push any direction on the D-Pad to move your characters anywhere. Holding A, B, or C will move said characters faster.
+
+- Warp to the End of the Game -
+Choose ''World Enterence,'' then set the Level to 1. Press Start. This will put you directly at the Metal Sonic rotation screen with all five zones complete.
+Choose ''World Enterence,'' then set the Level to 2. Press Start. You warp straight to Metallix, even though he's a little on the glitchy side.
+
+- View Bad Ending -
+Choose ''Not Used'', then set the Level to 0. Press Start. This plunks you directly into the bad ending.
+
+http://www.mobygames.com/game/sega-32x/knuckles-chaotix

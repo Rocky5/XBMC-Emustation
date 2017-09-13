@@ -1,0 +1,17 @@
+Super Mario World Color Restoration
+Original title: Super Mario World: Super Mario Advance 2
+Platform: Nintendo Game Boy Advance
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Platformer
+Gametype: Hack
+Release Year: 2008
+Hacked by: Asaki
+Version: 0.91
+_________________________
+A lot of GBA games were released with brighter colors to accommodate the original GBA's dim screen. This always bothered me, so I thought I'd take matters into my own hands and remedy this. All colors were taken directly from the SNES ROM.
+
+Check the website for more in-depth details: http://redwax.circa1984.com/smwcr/
+
+http://www.romhacking.net/hacks/470/

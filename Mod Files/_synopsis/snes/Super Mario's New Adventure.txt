@@ -1,0 +1,25 @@
+Super Mario's New Adventure
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Hacked by: Ansem
+_________________________
+It is finally here, The sequel to SM:BLS that I have worked on since October of last year. I know many of you guys may not have downloaded SM:BLS, But I hope that you all enjoy this hack as much as I have enjoyed making it.
+
+This file also come with a text document that tell the Backstory that underlies this hack's plot.
+
+I would like to thank many people for supporting me. including Ahkan, for His Advice for various aspects of game and for taking the time to proofread my texts and dialogs in my hack.
+
+Firebar for ripping several Foregrounds and Backgrounds from the Mega Man series.
+
+Jimmy52905 for porting several songs from the Megaman series and from SMB3.
+
+Ice Man for porting Fire Man Theme from Mega man 1.
+
+and Geno_4_Ever for Beta-Testing My hack. (Ahkan also beta-tested)
+
+http://www.smwcentral.net/?p=showhack&amp;id=2177

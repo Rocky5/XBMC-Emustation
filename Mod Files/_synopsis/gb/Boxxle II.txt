@@ -1,0 +1,14 @@
+Boxxle 2
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1991
+Developer: Thinking Rabbit
+Publisher: FCI, Inc.
+_________________________
+In this sequel to Boxxle, Willy's girlfriend has been kidnapped by a UFO and now he wants to earn enough money to buy a rocket and rescue her. And what better way is there to earn money than pushing crates? And there are lots of crates to be pushed in all 120 levels of the game. The new levels are the major difference between Boxxle 2 and its predecessor as there are no graphical changes to speak of. To solve all these levels, you'll once again have to push crates onto certain spots, which is made difficult by the fact that you can only push but not pull them so that it can easily happen that you push a crate into a dead end or block your own way. A password records your progress, but there is no battery to save your self-created levels.
+
+http://www.mobygames.com/game/gameboy/boxxle-2

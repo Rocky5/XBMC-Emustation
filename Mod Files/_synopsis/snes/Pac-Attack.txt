@@ -1,0 +1,129 @@
+Pac-Attack
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1993
+Developer: Namco
+Publisher: Namco
+Players: 1
+_________________________
+Pac-Attack is a puzzle game somewhat similar to Tetris. Basically Pac-Man is ghost hunting once again, not gobbling pellets this time but concentrating on wiping out his enemies. Your job is to set up the bricks so that they make complete lines which are eliminated, and also set up the ghosts so that when Pac-Man drops in he eats as many as possible.
+
+Pac-Attack has really good graphics for a simple puzzle game. I guess the only disappointment is that all the ghosts are the same. But then, if they were supposed to be the original Pac-Man ghosts, I guess you could only have four at a time.
+
+Directions:
+
+Rotate the pieces as they fall, to set them up the way you want. Each piece contains three squares, which can be a brick, a ghost or a Pac-Man. The pieces aren't solid, meaning that everything falls to the lowest point possible. The bricks can be eliminated by forming a solid line just like in Tetris. The ghosts all turn blue when Pac-Man drops in, so he can eat them. Pac-Man will follow the path of least resistance down the screen, so the trick is to put the ghosts where he will be able to get them all before he hits bottom.
+
+Tips:
+
+Level Select
+Go to a 2P Puzzle Modem then when the Game Over screen appears hit L to change levels.
+
+Level Passwords:
+STR 001
+HNM 002
+KST 003
+TRT 004
+MYX 005
+KHL 006
+RTS 007
+SKB 008
+HNT 009
+SRY 010
+YSK 011
+RCF 012
+HSM 013
+PWW 014
+MTN 015
+TKY 016
+RGH 017
+TNS 018
+YKM 019
+MWS 020
+KTY 021
+TYK 022
+SMN 023
+NFL 024
+SRT 025
+KKT 026
+MDD 027
+CWD 028
+DRC 029
+WHT 030
+FLT 031
+SKM 032
+QTN 033
+SMN 034
+TGR 035
+WKR 036
+YYP 037
+SLS 038
+THD 039
+RMN 040
+CNK 041
+FRB 042
+MLR 043
+FRP 044
+SDB 045
+BQJ 046
+VSM 047
+RDY 048
+XPL 049
+WLC 050
+TMF 051
+QNS 052
+GWR 053
+PLT 054
+KRW 055
+HRC 056
+RPN 057
+CNT 058
+BTT 059
+TMP 060
+MNS 061
+SWD 062
+LDM 063
+YST 064
+QTM 065
+BRP 066
+MRS 067
+PPY 068
+SWT 069
+WTM 070
+FST 071
+SLW 072
+XWF 073
+RGJ 074
+SNC 075
+BKP 076
+CRN 077
+XNT 078
+RNT 079
+BSK 080
+JWK 081
+GSN 082
+MMT 083
+DNK 084
+HPN 085
+DCR 086
+BNS 087
+SDC 088
+MRH 089
+BTF 090
+NSM 091
+QYZ 092
+KTT 093
+FGS 094
+RRC 095
+YLW 096
+PNN 097
+SPR 098
+CHB 099
+LST 100
+JFK Game End
+
+http://www.consoleclassix.com/genesis/pac_attack.html

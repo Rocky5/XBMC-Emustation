@@ -1,0 +1,13 @@
+Batman (Prototype)
+Alternative title: Real Shitty Batman
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Arcade, Side-Scrolling
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Software Creations
+Players: 1
+_________________________
+No information online about this US prototype.  The only reason I know it's a prototype is because of the No-Intro datfiles.  ~Rx

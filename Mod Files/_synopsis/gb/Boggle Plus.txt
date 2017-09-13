@@ -1,0 +1,14 @@
+Boggle Plus
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1992
+Developer: Sculptured Software
+Publisher: Parker Brothers
+_________________________
+Boggle Plus is a Puzzle game, developed by Sculptured Software and published by Parker Bros, which was released in 1992.
+
+http://www.gamefaqs.com/portable/gameboy/home/585639.html

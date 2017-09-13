@@ -1,0 +1,17 @@
+Woody Poko
+Original title: Woody Poko
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure 
+Gametype: Translated
+Release Year: 2010
+Translated by: sqpat
+Version: Final
+_________________________
+Woody Poko was a pretty mediocre Famicom game that was (unsurprisingly) never localized outside of Japan. It's a pretty simple adventure game in which you can walk and jump around, kill enemies, collect money and items, use those items to reach more locations and then progress through the game's levels.
+
+This hack was finished about a year before I ever actually released it anywhere. In the mean time, apparently someone translated the MSX version of the game, which is probably both a way better game and a way better translation hack. You should probably play that one, honestly.
+
+http://www.romhacking.net/trans/1477/

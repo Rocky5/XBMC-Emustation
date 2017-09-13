@@ -1,0 +1,33 @@
+Roger Clements' MVP Baseball
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Baseball
+Gametype: Licensed
+Release Year: 1992
+Developer: Sculptured Software
+Publisher: Flying Edge
+Players: 1 or 2 VS
+_________________________
+Roger Clemens is known by some as the greatest pitcher in baseball history. In  Roger Clemens MPV Baseball players play a standard a 9 innings baseball game in Exhibition mode and a full regular season can be played including the World Championship Playoffs in the Regular Season mode. While playing in Regular Season mode the player can see their chosen team's progress by using the in game calendar showing all the games.
+
+Players select a fictional team from the following groups:
+
+    - National Division West: San Francisco Quakes, Los Angeles Apaches, Cincinnati Big Cats, San Diego Suns, Houston Mustangs, and Atlanta Condors.
+
+    - National Division East: Chicago Swords, Montreal Lumberjacks, New York Buffalos, St. Louis Commandos, Pittsburgh Panthers, and Philadelphia Generals.
+
+    - American Division West: Oakland Bashers, Seattle Pioneers, Minnesota Hounds, California Waves, Texas Cowboys, Chicago Red Birds, and Kansas City Kings.
+
+    - American Division East: Toronto Bears, Boston Hornets, New York Rebels, Detroit Wheels, Milwaukee Marshals, Baltimore Eagles, and Cleveland Tomahawks.
+
+Each team has a set of players the make up the team each with their own skill level and statistics which, like the teams, is fictional other then Clemens himself who is on the Boston Hornets team.
+
+When controlling the pitcher the player can control the speed and spin of the pitch as well as the pitchers position on the plate. The pitcher can also stop the opponent stealing a base which can be seen via windows showing the positions of all the baserunners. When controlling the batter the player has to time the hit to successfully hit the ball so it will not be a missed hit or a foul, or has the option to not hit in case of a 'ball'. The player can also steal a base while batting. After the ball is hit the game goes into fielding mode where the camera shifts to a view that is lower than the normal 45 degree angle (the fielder gets smaller as he moves away from the camera). The player then controls the closest fielder to get or catch the ball and then throw it to the selected base.
+
+There are many different cameras angles that the game selects depending on the location of the ball. The camera can be on the left, center, or right side of the field in ether infield or outfield position and all cameras can pan to follow the ball.
+
+The player can use a password to save their progress in Regular Season mode. An exhibition match can be played in two player mode with the use of two controllers.
+
+http://www.mobygames.com/game/genesis/roger-clemens-mvp-baseball

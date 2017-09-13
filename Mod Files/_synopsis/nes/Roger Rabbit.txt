@@ -1,0 +1,15 @@
+Roger Rabbit
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1989
+Developer: Kotobuki Systems
+Publisher: Kemco
+_________________________
+
+Roger Rabbit is a 2D Platformer game, developed by Kotobuki Systems and published by Kemco, which was released in Japan in 1989.
+
+http://www.gamefaqs.com/console/fds/home/579409.html

@@ -1,0 +1,20 @@
+Dirty Pair: Project Eden
+Original title: Dirty Pair - Project Eden
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 1999
+Translated by: Ballz
+Version: 0.9
+_________________________
+
+This game is a really bad game, that is only worth mentioning because it features.. TADA! The Lovely Angels! Maybe I'm too tough on the game (it came out over fifteen years ago, for God's sake), but it certainly doesn't hold up well in any case. The first stages are just your running and shooting things with your pistol stages. Sometimes you can grab a medallion thing and Kei can come in her little car thing and you can hop in and fly through the stage! And then you will get to the vaguely Metroid-ish base stage and you will get stuck and quit playing. So there.
+
+Translation Description:
+
+This translation is probably complete. I say *probably* because no one can beat the game and see if the ending text actually looks right. Yes, the game IS that impossibly frustrating, No, savestates will NOT save you. If you can beat the game, by all means, send a savestate or screenshot to Ballz so this can get a 1.0 and be moved to the "complete" list! Ballz has even made a FAQ on the game, so now you know as much as anyone else does!
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/2/

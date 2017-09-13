@@ -1,0 +1,28 @@
+Ring Rage
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Sports - Wrestling
+Gametype: Licensed
+Release Year: 1993
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+Ring Rage is a standard wrestling game, just without the glitz and glamour of licensed games. There are six wrestlers total, but only five are playable:
+
+- Gunboat Rody, a former Navy sailor
+
+- Spike, a giant of a man from the means streets of New York
+
+- Yasha, a masked Japanese wrestler
+
+- Shadam, a Middle Eastern grappler
+
+- KO Joe, a former boxer now trying his hand at professional wrestling.
+
+Killer Cane, an unknown wrestler from Canada is faced in the championship bout of the tournament, but he is not a playable character.
+
+There are only three modes, 1P v. CPU, 1P v. 2P (which is achieved through a cable link and an extra cartridge) and a tournament which you compete to go for the TWF (Taito Wrestling Federation) championship.
+
+http://www.mobygames.com/game/gameboy/ring-rage

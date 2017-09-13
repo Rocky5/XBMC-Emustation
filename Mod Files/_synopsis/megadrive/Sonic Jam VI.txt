@@ -1,0 +1,20 @@
+Sonic Jam VI
+Platform: Sega Genesis / Mega Drive
+Region: China
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Pirate
+Players: 1
+_________________________
+Sonic Jam 6 is a hack of Super 1998 Mario 2, an unlicensed clone of Super Mario Bros. for the Sega Megadrive that uses tiles appropriated from Super Mario All-Stars.
+
+The Mario sprite of Super 1998 Mario 2 was replaced by Sonic the Hedgehog, who is red without a mushroom and blue with one. The title screen was also changed to feature Sonic, as well as the "intermission" screens that show you the remaining lives and the "Game Over" screen. Mario's name above the score readout was also changed to Sonic's. Curiously, the large Mario head in the underground bonus areas still remains. Controls are also modified; only the C button allows Sonic to jump and A shoots fireballs (if Sonic has grabbed a Fire Flower.)
+
+The game originated from China.
+
+This game is not to be confused with the legitimate Sega Saturn game Sonic Jam, although it does use an almost identical title screen.
+
+When running on the popular emulator Gens or the outmoded emulator Genecyst, the game freezes on world 4-1, as the Lakitu throws so many Spinies that the game freezes. This is a bug in Gens, and does not occur on Kega Fusion or on a real Genesis. 
+
+http://info.sonicretro.org/Sonic_Jam_6

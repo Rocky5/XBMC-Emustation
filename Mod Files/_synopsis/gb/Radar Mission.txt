@@ -1,0 +1,16 @@
+Radar Mission
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1990
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+Radar Mission is mostly a Battleship board game clone with two game modes. The first is very recognizable, with a map to select and place the ships. Then the game is played by picking squares (e.g. A5). There are several different ships, ranging from the five-hit aircraft carriers to the two hit cruisers, even a fighter jet in later levels.
+
+The second mode is more of a side-scrolling shooter. The player controls a submarine, trying to destroy the enemy fleet before they take the player's vessel out. Either the player takes out all the battleships causing the enemy submarine to surrender or he directly destroys the submarine to end the level. When submerged a radar view appears, showing the player's ships along with the enemies, providing a strategic intermission to plot out the attack.
+
+http://www.mobygames.com/game/gameboy/radar-mission

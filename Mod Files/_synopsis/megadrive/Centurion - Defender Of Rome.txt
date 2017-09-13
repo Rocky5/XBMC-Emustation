@@ -1,0 +1,13 @@
+Centurion: Defender of Rome
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1991
+Developer: Bits of Magic, Electronic Arts
+Publisher: Electronic Arts
+Players: 1
+_________________________
+Centurion: Defender of Rome is a strategy game developed by Bits of Magic for DOS, and later ported to the Sega Mega Drive and Amiga by Electronic Arts.

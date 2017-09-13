@@ -1,0 +1,14 @@
+Dragon's Lair: The Legend
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: MotiveTime, Ltd.
+Publisher: Ubisoft
+_________________________
+The Game Boy version for Dragon's Lair is actually a port of Roller Coaster, with its protagonist replaced by Dirk the Daring. Dirk must collect all "lifestones" scattered all around the game world (by walking or jumping) to finally save Princess Daphne. The game world is divided in several screens which can be freely navigated and are a little wider than Game Boy's screen. As Dirk moves the screen will scroll and when its limit is reached, it will flick to a new one. To help him move around, Dirk can jump over bumper cars, flying magic hats and other kinds of moving platforms.
+
+http://www.mobygames.com/game/gameboy/dragons-lair-the-legend

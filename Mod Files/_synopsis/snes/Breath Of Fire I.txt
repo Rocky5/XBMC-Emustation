@@ -1,0 +1,70 @@
+Breath of Fire
+Platform: Super Nintendo Entertainment System
+Region: USA, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1994
+Developer: Capcom
+Publisher: Squaresoft
+Players: 1
+_________________________
+Drogen
+
+After many years of peace, the Dark Dragons have amassed an army and have begun to take the land by force. The world needs a hero.
+
+Camlon Castle
+
+A band of ruthless monsters have descended upon Camlon Castle. As the hero of the Light Dragon Clan, you are the only hope for the kingdom. It is up to you to enter the castle and do away with the offending beasts.
+
+Nanai
+
+A series of earthquakes is rocking the world. Travel to Nanai by night and stop the quakes by shutting off an earth-shaking machine in the town's underground.
+
+--From the SNES Breath of Fire instruction manual.
+
+Overview:
+
+Breath of fire was another great RPG by Squaresoft. Squaresoft had some of the best RPG's in classic gaming history. The graphics were bright, colorful and well drawn. The sounds effects were good and the music was catchy. After playing this game for a little while, you may find yourself humming the songs. The gameplay was awesome, leaving room to make different choices during next game, thus providing a new experience. The controls are easy to use since mostly you'll be thumbing through menus. Breath of Fire is definitely a must play for anyone who enjoys the RPG genre.
+
+Directions:
+
+Breath of Fire consists of four basic modes of gameplay: an overworld map, town and dungeon field maps, a battle screen, and a menu screen.[3] The overworld is a scaled-down, simplified version of the game's fictional world, which the player uses to navigate between various locations. With a few plot-driven exceptions, enemies are randomly encountered while traveling though field maps or on the overworld. As the player commands the lead character to move, the other members of the traveling follow in a line behind him/her. The order of the group line can be changed at any time, allowing another character to take the lead. Most playable characters display a unique field skill outside of battle, which can only be accessed by placing them at the front. Some areas cannot be entered unless a certain character has joined; for example, the party cannot walk through forests unless Bo is at the head of the group.
+The color palette of field maps changes depending on the time of day. Whenever the traveling party appears on the overworld screen, the sun rises and sets with each passing minute of real time. Non-player characters can be found milling about inside towns at daytime, whereas they will retire to their homes at night and early morning. In certain instances, the player must wait until nightfall before they can enter a given town.
+The game's story develops as the player visits towns and dungeons. Townspeople offer helpful information, and some residents own item or equipment shops. Since the player's inventory space is limited, most item shops double as banks which offer to hold spare items or GP (the game's currency). Dungeons primarily appear in the form of castles, caves, and towers. Towers consist of several floors, often composed of puzzles or mazes, further complicating the party's task of reaching the top.
+The menu screen is where the player makes such decisions as which characters will be in the traveling party, which equipment they wield, and the configuration of the gameplay. It is also used to track experience points and levels.
+Fishing and hunting play a small role in Breath of Fire's gameplay. By outfitting Ryu with a rod and bait, the player can fish at designated spots on the overworld, often nabbing rare equipment in the process. Birds, wild boar, and deer randomly appear on the overworld. If Bo is leading the group, he can hunt animals by firing arrows at them. Once struck, the animal will change into an item (Meat) which can be then picked up. Certain types of meat restore Health Points (HP), while others refill Ability Points (AP).
+
+Combat
+
+During its turn-based fight sequences, Breath of Fire switches to a 3/4 perspective. Up to four characters may participate in a battle, though each can be swapped out for another party member if the player so chooses. The battle screen is a detailed representation of whatever area the party is currently in, such as a desert or grassland. Although characters are miniaturized on maps, in combat their sprites are normal-sized and more realistic.
+
+A maximum of four characters may participate in battles, although each can be swapped out for another party member at any time. Each character acts in an order dependent on their individual statistics. Players are rewarded for winning battles with experience points and GP. When characters attain a certain amount of experience points, they gain a level, which increases their statistics. Each party member has the option to attack, cast a magic spell, use a restorative item, or escape the fight by running away. The party can also be placed under automatic control, causing them to attack without the player's input.
+
+The Hit Points and Ability Points of each party member is visible via a HUD at the bottom of the screen. Enemies' HP remains unseen, though a life bar measuring an enemy's health will appear whenever a foe takes damage. An identical display appears during boss battles, but in this case, the life bar is misleading; the bar very often will drop to zero, only to see the boss acquire a second wind and continue to attack without any visible HP.
+
+At the beginning of the game, Ryu is powerless except for his sword-fighting skill. He can awaken his innate powers by visiting small, isolated shrines on the overworld known as Dragon Temples. After accepting a challenge from the monk inside, Ryu is separated from the rest of his party and pitted in a one-on-one battle against a dragon. If he wins, Ryu earns the ability to morph into various dragons during battles. Whenever this occurs Ryu's sprite is replaced with a dragon, and the strength of his attacks increases.
+
+Karn is another character who can change forms. Hidden throughout the game are four members of an ancient clan who claim to Karn's blood relatives. Each clansman enables Karn to change into powerful mutant creatures by "Fusing" together with Bo, Ox, and Gobi. Although this removes the fused characters from the party roster, it also grants Karn a boost in HP and overall strength. Unlike Ryu, Karn stays in his fused state outside of battle, and will remain so until the player commands him to revert back. 
+
+Controls:
+
+A Button - Action
+B Button - Back up a step in Command screens
+Start Button - Map
+Select Button - Command Screen
+
+Hints:
+
+9999 experience and 9999 gold
+Before battling Jade in Obelisk, he will ask you if you want to join him. Answer "Yes", and whenever he asks you if you want to change your mind, answer "No". Do not push any buttons and he will soon say, "I'm bored. Entertain me!" After this, there will be a battle scene. You will fight a D.Flea, a Crab, a Flower, a G.Slime, and finally an M.Slime which, when defeated, will give you 9999 experience and 9999 gold.
+
+Tips:
+
+Chun-Li in Breath of Fire
+To see a cameo of Chun-Li from Street Fighter, go to the town Bleak. Go to the magician kid's house and talk
+to him. He will say to put 100 GP on the table and he will make them disappear. When he asks you this, say 'yes. ' When he says 'look behind you' say 'no' twice then yes. It'll show Chun-Li in a room doing her famous 'Lightning Kick. '
+
+Reviewer: adrian
+http://www.consoleclassix.com/snes/breath_of_fire.html

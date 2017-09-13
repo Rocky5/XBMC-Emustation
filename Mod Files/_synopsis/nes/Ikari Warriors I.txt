@@ -1,0 +1,44 @@
+Ikari Warriors
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Run 'n Gun - Top Down
+Gametype: Licensed
+Release Year: 1987
+Developer: Micronics
+Publisher: Tradewest
+Players: 1 or 2 CO-OP
+_________________________
+
+There was almost no story to this game. This is what the manual said:
+
+Paul and Vince are warriors with secret orders to invade an enemy nation. Working together as a team, they must fight for survival against a relentless onslaught of enemies!
+
+The only story I've come across that was worse was Bad Dudes. Besides the story, the game still sucked. I didn't like the game-play. You couldn't throw the grenades far enough and what's worse is that they didn't blow up big enough. You were better off just shooting your gun, it covered just as much ground. The coolest thing by far was getting in a tank. I think Ikari Warriors got better as their sequels came out, but this one was a bit of a flop.
+
+Directions:
+
+Invade and take over the enemy's territory, using your rifle and grenades. Be careful not to run out of ammo! 
+
+There are various upgrades you can get for your rifle, but not for your grenades, unfortunately. This limits the usefulness of grenades, because you can shoot as far with your gun and the grenade doesn't cover a large area. Just use grenades for things you can't blow up with bullets.
+
+The best part of this game is getting a tank, which you can find at various points in the game. Press A to climb in, then you can steer the tank around, aim the turret, and fire explosive rounds. Now, your tank ammo does have some good upgrades, improving both its range and blast radius. Just make sure you find plenty of gas cans, because for some bizarre reason, these tanks will explode when they run out of gas. 
+
+Controls:
+
+A Button: Throw grenade, enter tank
+B Button: Shoot weapon
+Start Button: Pause/Unpause
+Select Button: Choose 1 or 2 Players
+
+Hints:
+
+Level Select
+Quickly press Up, Down, A(2), B, Left, Right, A, B, Up, A, Down, Right(2), Left, B, Up, Left, A, Right, B, Left, Right, A, Left, Up, A, Down, A, Right, Left, A, Start at the title screen. The phrase "Stage 1" will appear next to the airplane landing screen to confirm correct code entry. Press A or B to change the starting level.
+
+Continue
+After you lose all your lives, press A, B, B, A to continue the game. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/ikari_warriors.html

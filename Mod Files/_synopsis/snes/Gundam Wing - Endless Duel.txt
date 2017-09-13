@@ -1,0 +1,28 @@
+Gundam Wing: Endless Duel
+Original title: Shin Kidou Senki Gundam W: Endless Duel
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up, Sci-Fi
+Gametype: Translated
+Release Year: 2002
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+Okay. Normally, I'm not the biggest fighting game fan in the world. I usually stick to my Capcom and my SNK and wave my middle fingers at the crappy knock-offs that other companies try to throw at me. Having said that, I was shocked to find that this game is not only pretty good, it's great. Bandai usually churns out ho-hum games based on anime licenses, but this is an exception. I mean, yeah, it's still an anime license, but it's not ho-hum. The graphics are very pretty, the music is rockin, and the gameplay mechanics are smooth as you could want them to be. If you're bored with Super Duper Ultimate Mecha World Champion Street Fighter 2 Omega3, give this a shot.
+
+Translation Description:
+
+Well, there wasn't much to do, besides menus, post-fight banter and intro/ending text, and of course having been a project of THE ZHI, all that stuff is done. Play this game without fear of random Japanese phrases!
+
+Tips:
+
+Play as Epyon
+To play as Epyon, only in Trial or VS. mode, highlight Tallgeese and press L, L, L, L, R, R, R, R, L, R, L, R, L, R, L, R
+
+Use Super Moves in mid-air (Specific Units) glitch
+This glitch applies for the following Units: HEAVYARMS, SANDROCK, WINGZERO, MERCURIOUS, and TALLGEESE. Normally, these Units cannot perform any super moves in the air or while jumping. This can be bypassed, however, by jumping and then inputting the command for the super (Usually: down, down-forward, forward x2) plus BOOSTER (any two attack buttons simultaneously except Buttons L and R) instead of pressing just one button! The Unit will perform the super but still be in the 'standing-on-solid-ground' animation!
+
+Reviewer: wraith
+http://www.romhacking.net/trans/570/

@@ -1,0 +1,47 @@
+Vs Excitebike
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Racing - Motorcycles
+Gametype: Licensed
+Release Year: 1986
+Publisher: Nintendo
+Players: 1
+_________________________
+
+"A near perfect port of the VS arcade version."
+
+Excitebike was originally released as an arcade game in 1984, and eventually ended up on the Nintendo Famicom home console. The home console version was not quite as faithful to to the VS arcade version. This updated port for the Famicom Disk System version is more true to the arcade version, and includes a bit extra. This enhanced version was never released outside Japan.
+
+Story - 6/10
+The original arcade version didn't really feature a story and neither does the FDS version, it's basically a motorcycle stunt race where you must qualify in each event to pass through to the next round.
+
+Presentation/Graphics - 7/10
+The game's presentation isn't like the arcade version but it presents a nice and colourful title screen that looks pleasing. The menu options are easy to navigate and are in English despite being a Japanese game.
+
+The game's visuals are on par with the original Famicom version and the intermission and reward scenes are faithfully adapted from the Vs version. The visuals are of the quality seen in many first generation Famicom titles - basic colors and uncomplicated track design.
+
+Gameplay - 8/10
+The game is a side scrolling motorcycle stunt race viewed on a 2.5 degree playfield. Move your bike vertically across the playfield while advancing and negotiating jumps, ramps, dirt traps and avoiding the other racers. The game consists of solo time trial events where you must make the qualifying time by yourself, then replay the track with up to 6 other competitors on screen. The games difficulty gradually increases as you advance. Some bonus stages are scattered throughout where you must jump over train carriages.
+
+Apart from making it across the jumps you must carefully monitor your bikes temperature gauge. When riding in turbo speed you temp gage can overheat if you're not careful and you lose valuable time waiting for the engine to cool down. The alternate acceleration mode is slower but prevents the engine overheating. There are indicators on the track that will cool down the temp when you ride over them, but you can save a lot of steam by letting got of the accelerator all together when flying mid-aim after jumping off a ramp.
+
+The other racers will get in your way but you can knock them off by cutting across them and hitting their front tires. This can also happen to you and you'll get knocked off and lose race time.
+
+Multiplayer - 5/10
+The game features the original arcade gameplay with alternate 2 player mode, and a new VS battle mode with split screen gameplay. Both players compete in a vertically split screen race, that can be decided by a number of rounds on various courses. Best lap times can be saved to the disk.
+
+Control - 9/10
+Nothing really problematic here, the control is as sharp on the Famicom controller as it was with the arcade sticks.
+
+Soundtrack/Audio - 7/10
+The game features all of the tunes from the arcade version with a small remix thanks to the Famicom Disk System's added sound channels. A nice selection of mellow tunes like that of many other Nintendo classics. The sound effects are the same as in the arcade and cartridge versions - the monotonous hum of the motorcycles, the odd jump noises and the scratchy crash sounds.
+
+Replayability - 6/10
+If you played the game many times at the arcades and were disappointed with the home cartridge conversion, the Disk System port is on par with added 2 player goodness. The game is a rare find on eBay, but it's surely great for import game collectors.
+
+Reviewer's Score: 7/10, Originally Posted: 07/29/05
+
+Reviewer: Auction Sniper
+http://www.gamefaqs.com/console/fds/review/R90324.html

@@ -1,0 +1,19 @@
+Super Turrican
+Platform: Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer - Side-Scrolling
+Gametype: Licensed
+Release Year: 1993
+Developer: Rainbow Arts
+Publisher: Imagineer
+_________________________
+
+Like other entries in the series, Super Turrican for the NES is a side-scrolling platformer in which players explore large levels filled with enemies items and secret areas. Three different, upgradable weapons are available: multiple (spreadshot), laser and rebound. Holding down the fire button activates a rotatable laser that is useful for discovering hidden power-up capsules.
+
+Despite carrying the same name as one of its big brothers, Super Turrican for the NES is based on Turrican and Turrican II. While some levels are very similar to those found in Turrican I and II (with only slight changes of layout and enemy types), others are entirely new.
+
+Apart from different/new level design, there are other notable changes: Holding down the fire button let's Turrican run, there is no time limit to levels anymore, energy wheel usage is limitless and the shield isn't time based anymore, but can sustain a certain number of hits.
+
+http://www.mobygames.com/game/nes/super-turrican_

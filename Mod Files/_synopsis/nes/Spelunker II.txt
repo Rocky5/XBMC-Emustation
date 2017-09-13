@@ -1,0 +1,26 @@
+Spelunker 2
+Original title: Spelunker 2: Yuusha heno Chousen
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Translated
+Release Year: 2003
+Translated by: Sarysa
+Version: 0.9
+_________________________
+Did anyone ever play the original Spelunker? That really old game where you ran around in a cave and died if you fell four feet? Or if you ran into a smallish hill? Yeah, great game. Fortunately Spelunker 2 is a little bit better. This game introduces the concept of Health. Sure, you can fall from a ways and lose health, but it isn't as ridiculous as the first game. Sure, you can still lose health if you run into a smallish mound of dirt. Well, that's still stupid, I'll have to give you that.
+
+You can choose from three heroes in this game: the Explorer, the Priest, and the ESPer. I can't really tell the difference, but they have different items and stuff. Alls I know is, your Explorer's little knife is crap. You can stab and stab at those damned enemies and it won't help much. Like those stupid bees. DAMN THOSE BEES!
+
+But still, yeah, the game's pretty cool, if you can stand that sort of thing. Honestly though, those bees suck. And those boar things? They also suck. And all those indestructible zombies and ghosts and such? Okay, so maybe the game isn't as great as I thought.
+
+Translation Description:
+
+The only reason this patch is at version 0.9 is because you can apparently continue using controller 2 somehow, but Sarysa can't figure out how. Shouldn't ruin the game for all you savestate-happy freaks out there though.
+
+A few cosmetic changes have been made to the game here: the lifebar has been replaced by a series of hearts, Zelda-style, for instance. Your Toku meter's been changed to a Holy meter. Unimportant stuff. Why it was changed in the first place, I don't know. But it's complete, and that's what matters. I guess.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/662/

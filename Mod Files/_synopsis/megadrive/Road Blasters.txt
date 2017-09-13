@@ -1,0 +1,106 @@
+Road Blasters
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Cars
+Gametype: Licensed
+Release Year: 1991
+Developer: Sterling Silver Software
+Publisher: Tengen
+Players: 1
+_________________________
+Grab the controls of your sleek and deadly high-performance racing machine and head into an action packed race of the future, where survival is the only law. Roar down the straightaways and spin around turns while dodging land mines and toxic spills. Blast enemies out of your way with your high-calibre machine guns and other special weapons dropped by your support jet.
+
+Your object is to reach the Rally Point at the end of each level - 5O in all. The further you get, the more difficult it becomes. Avoid crashing into enemy cars. Watch out for crossfire from gun turrets. And if that's not enough for you, some levels are mined!
+
+To help you reach the Rally Point, you get refueled at the Check point (the halfway point of each level). You can also get extra fuel by picking up green globes you find along the way or by blasting certain enemies to force them to give up their fuel (shown as a red globe).
+
+Keep a close eye on your fuel level! If you run out, it'll cost you one of five lives.
+
+--From the Genesis Road Blasters instruction manual.
+
+Directions:
+
+     Run and Gun! Use your weapons to destroy everything that moves, except for the green balls on the road, which are extra fuel. Run over them and continue on your merry killing-spree way. You have 50 levels of car-crashing, missile-launching, machine gun firing insanity ahead of you.
+
+Have a blast!
+
+     You get to play with high tech weapons like Cruise Missiles, an Electro Shield that protects your car, Nitro Injector for increased speed and an U.Z. Cannon. And sometimes there is a jet that brings these goodies to you just like Santa. Free and everything. Yeah, at first I thought it was an alien space ship come to probe me, but it wasn't. Just drive under the plane and the goodies come to you. If you've been a good little boy.
+
+For the bean Counters:
+     Stingers             50 points
+     Command Cars         100 points
+     Rat Jeeps            50 points
+     Cycles               100 points
+     Gun Turrets          200 points
+
+Special Controller Options:
+     Option A:
+     Speed is pre-set
+     Option B:
+     Use B-Button or UP to control speed 
+
+Gameplay:
+
+- Object of the Game -
+
+The object of the game is to complete all 50 rallies without running out of fuel. There is no limit to how many vehicles a player can receive to complete a rally, as long as they have fuel. However, the destruction of the vehicle will subtract a small amount from the player's fuel tank. In the arcade version, players could start the game at a higher rally, with additional opportunities to jump several levels from time to time. Players can continue their game from where they left off, however the player has only one chance to complete the 50th and final rally.
+
+- Fuel -
+
+Players can get fuel in four ways: green globes, red globes, a checkpoint, and the rally point. Green globes are on the road, and fill the main gas tank. Red globes are revealed by shooting enemies on the road. After completing each rally, the player is awarded extra reserve fuel determined by how many enemies were destroyed during the level. Each consecutive kill shot increases the multiplier, from 1 up to 10. A miss lowers that multiplier by 1. Whatever the multiplier is at when the finish line is crossed is multiplied by the value of the enemies slain, and that much fuel is awarded.
+
+Each rally features a midway point, denoted by a line on the road which the vehicle crosses. At this point, the amount of fuel in the main tank is restored to what it was at the beginning of the rally (the amount of fuel in the main tank given at the rally's start fluctuates throughout the game). The amount of fuel in the reserve tank, however, is not restored.
+
+When a player gets low on fuel in their main tank, a fuel light will blink on and an alarm will sound on the display. Using up the main tank will mean the vehicle then uses what reserve fuel is stored.
+
+- Enemies - 
+
+There are various enemies that appear throughout the rallies.
+
+    - Stingers (orange cars)
+
+    - Command Cars (purple) - bulletproof bumpers, must be killed by a cruise missile
+
+    - Cycles
+
+    - Rat Jeeps - comes in from the left, stops, then swerves to the right
+
+    - Gun Turrets - stationary on the side of the road
+
+    - Mines - set on the road, cannot be destroyed. A special alarm on the display alerts players when mines have been laid ahead.
+
+    - Toxic Spills (driving the vehicle over them will spin the car out)
+
+- Special Weapons -
+
+At various points along the course, an airplane will come into view and drop a weapon from its underbelly. If the player lines up the car to catch the weapon, the secondary weapon is activated. That weapon is kept until it is used up, the car crashed or another weapon picked up. If a player catches a special weapon while using another one, the first will be replaced by the newest weapon.
+
+    - UZ Cannon: A rapid fire gun that does not deplete the multiplier. A limited amount of ammunition is supplied.
+
+    - Cruise Missile: Detonation eliminates all enemies on the screen. Three missiles are included.
+
+    - Nitro Inject: Increases the speed of the car from 210 to 298 km/h for a limited distance. Three nitros to a pack.
+
+    - Electro Shield: Allows the car to drive through any enemy or obstacle unharmed for a short distance. Three to a pack.
+
+- Production -
+
+The game's creators originally intended for an electronicized version of the '50s pop song "Mr. Sandman" to play during one of the levels. This was never implemented into the game.
+
+A promotional giveaway was accessible on the original arcade version, where players could send in their score (when all 50 levels are completed) and receive a free RoadBlasters T-shirt.
+
+During gameplay, a slightly robotic-sounding female voice gives the player advice in the form of several short phrases, often related to using the Nitro Inject, or when a player destroys several enemies in a few seconds. These phrases include "Hit it" and "Eat lead, roadhog".
+
+When a player has the Nitro Inject activated when crossing the rally's finish line, the vehicle will drive off into the horizon, and the female voice will state, "Now that's cruising."
+
+Controls:  
+
+A Button: Regular Gunfire
+C Button: Fire Special Weapon
+Down: Slow Car Down
+Start Button: Start / Select
+
+http://en.wikipedia.org/wiki/Road_Blasters
+http://www.consoleclassix.com/genesis/road_blasters.html

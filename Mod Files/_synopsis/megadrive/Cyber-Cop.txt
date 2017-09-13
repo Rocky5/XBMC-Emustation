@@ -1,0 +1,13 @@
+Cyber-Cop
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1992
+Developer: Core Design Ltd.
+Publisher: Virgin Interactive
+Players: 1
+_________________________
+Corporation, is a first person shooter game developed for the Amiga. It was ported to the Sega Mega Drive in 1992. The North American version of the game was renamed Cyber-Cop.

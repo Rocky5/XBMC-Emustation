@@ -1,0 +1,39 @@
+Muhammad Ali Heavyweight Boxing
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Boxing
+Gametype: Licensed
+Release Year: 1992
+Developer: Park Place Productions
+Publisher: Virgin Interactive
+Players: 1 or 2 VS
+_________________________
+Muhammad Ali Heavyweight Boxing is a boxing video game that was developed by Park Place Productions and published by Virgin Interactive in 1992. It was released for the Sega Mega Drive / Sega Genesis console.
+
+The game features Muhammad Ali, and 9 fictional heavyweight boxers. The game uses a mixture of 2D sprites and 3D ring to allow boxers to move 360 degrees about the ring.
+
+In career mode, the player can choose to fight as any of the game's 10 boxers. They start at rank 10 in the heavyweight division, and fight their way through all the others in order.
+
+Gameplay:
+
+During fights, available punches to be throw include jabs, hooks, crosses and uppercuts. In simulation mode it is possible to choose to throw any type of punch with either hand, whereas in arcade mode, the player chooses which type of punch to throw and the Megadrive determines which of the boxer's fists is the most appropriate to throw it. Defensive manoeuvers include blocking and clinching. The more punches a boxer throws, the less damage their punches do.
+
+The game can be played in either arcade or simulation mode. Many in-game features are customizeable, including ring length, number of rounds, and the length of time a boxer must be floored to be classed as knocked out.
+
+The visuals of a fight are made up of 2D sprite-based boxers, and a simple 3D rendering of the ring. The boxers' sprites include views of them from a side-on position, and from viewpoints that show them having turned a small distance clockwise or anti-clockwise around the ring. As a boxer attempt to moves around the ring, the appropriate series of sprites are shown, which works to give the illusion of them turning about (or attempting to).
+
+Blood effects simulate the cuts that boxers sometimes suffer during matches. However, the effect is wildly exaggerated in the game, so that huge splashes of blood can sometimes be seen flying off a boxer's face. Blood stains remain on the ring floor for the rest of a match; combined with the amount of blood that comes out of fighters' faces, this often leads to much of the ring being covered in it by the end of a match. The damage received to a boxer's face is shown by close-up pictures that are shown between rounds. Such images show wounds such as bloody noses or black eyes. Such wounds start off semi-realistic, but after sustained punishment, often develop into wildly exaggerated versions of the kind of injuries boxers suffer- in the later rounds of a fight, boxers' faces will sometimes be ripped open by so many large, gaping cuts that they are practically unrecognisable as human beings, let alone individual boxers.
+
+Rather than providing an accurate representation of reality, the game's sound effects reflect an attempt to make the game more exciting by exaggerating the impact force of punches. The effects for hard punches, in particular, sound extremely forceful, being more reminiscent of a car door being slammed shut than boxing-glove covered fists impacting with another person.
+
+The game featured digitised speech effects for the introduction of fighters, knockdown counts, and the announcement of the outcome of a fight. It is also one of the few boxing games to depict an in-game referee.
+
+While after each fight, judges' scorecards are shown for each round, these almost always have no bearing on who the winner is. This is because the winner is decided solely by whichever boxer lands more punches in a fight. The only occasion these scorecards decide an outcome is if both fighters land the exact same number of punches during a fight.
+
+Trivia:
+
+The in-game boxer, Bruno Franko, is a play on the name of real-life heavyweight boxer, Frank Bruno.
+
+http://en.wikipedia.org/wiki/Muhammad_Ali_Heavyweight_Boxing

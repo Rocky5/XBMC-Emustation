@@ -1,0 +1,15 @@
+Thunder Force II
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1989
+Developer: TechnoSoft
+Publisher: TechnoSoft
+Players: 1
+_________________________
+Thunder Force II, known in Japan as Thunder Force II MD, is the second installment of the Thunder Force series of shoot-'em-ups by Technosoft. Initially released in 1988 for the Sharp X68000, it was ported to the Sega Mega Drive and released internationally in 1989. It was the first Sega Mega Drive game in Japan, and by extension, the first game on a Sega console, published by a third party.
+
+After the events of the first Thunder Force, the defeated ORN Empire decide to attack the Galaxy Federation again. Using Plealos, their new battleship, ORN is able to destroy the planet Reda and take the planet Nepura as their own. Fortunately, the Galaxy Federation discovers Nepura is used to hold Plealos when it is not being used, and they set out to destroy Plealos.

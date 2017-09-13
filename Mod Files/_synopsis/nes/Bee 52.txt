@@ -1,0 +1,20 @@
+Bee 52
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1992
+Developer: Codemasters
+Publisher: Camerica
+Players: 1 or 2
+_________________________
+
+The player controls Bee 52, a honeybee with large eyes and a fly-like sucker for a mouth, through which it can spit projectiles at enemies. The game is played through 12 levels, the first four in a backyard, the next four in a swamp, and the last four inside a house. There are traps and enemies added for each level, from ants, grasshoppers, and even dragonflies and "venus flytraps" in the later levels. The player must find and collect from many flowers scattered all over the sidescrolling level and return to the hive after three flowers are visited to add honey to the jar. The level is complete when the jar is full, in the case of levels 3-12, this requires every flower to be visited.
+
+Gameplay:
+
+Bee 52 is a flying side scroller. The bee is maneuvered by the control pad up down left and right over enemies, and through holes. The player can shoot at enemies straight ahead with the A button, or use the B button to sting enemies from above. Bee 52 can find add ons such as a super stinger with a longer reach, or more powerful projectiles either by killing a special lightning bug whose appearance is random, or visiting certain secret holes. There is also a small insect called Junior that, when found, will orbit Bee 52 indefinitely. If the bee is struck, Junior will be sacrificed rather than losing a life. Without Junior, a single hit will kill Bee 52, and lose all weapons found.
+
+http://en.wikipedia.org/wiki/Bee_52

@@ -1,0 +1,21 @@
+Rod Land
+Platform: Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: Sales Curve Interactive
+Publisher: Jaleco Entertainment
+_________________________
+
+Taking a rather literal view of the term 'slap-stick humour', Rodland features two fairies called Tam and Rit, whose mission is to rescue their mum who's been captured and taken to a castle.
+
+There are 40 screens to clear, all full of baddies, who are disposed of by grabbing them with a stick, and flipping them from side to side to inflict damage. The hits needn't all be inflicted at the same time, as it's possible to release them to move them out of the way.
+
+When killed, each bad guy releases some kind of extra, ranging from points bonuses to various devices which can be used to kill other enemies.
+
+Each level also contains a certain amount of fruit. If you can collect all of this (with some bad guys still alive - you move on immediately once they're gone) you enter a bonus game, in which each enemy's death results in one of the letters E,X,T,R and A being released - collect them all for an invaluable extra life.
+
+http://www.mobygames.com/game/nes/rodland

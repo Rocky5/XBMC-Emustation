@@ -1,0 +1,22 @@
+Wario Blast Featuring Bomberman!
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1994
+Developer: Hudson
+Publisher: Nintendo
+_________________________
+This game is about the same style as the Bomberman Series. The principal game functions are that you, as either Wario or Bomberman walk around on a level and try to blow up your opponent.
+
+By blowing up blocks that are blocking your way you can uncover power-ups, that can give you three abilities: 1) The bombs get a longer blast. 2) You can place more bombs at once. 3) You get invulnerable but are also unable to place bombs.
+
+Every power-up except for the third one works during the entire round and can be increased by picking up more power-ups of the same type.
+
+In the single-player game, you fight as Wario against different amounts of Bombermen, and at the forth course of every "world" you face a boss.
+
+In multiplayer, you play as either Wario or Bomberman, and try to blow up your friend / enemy.
+
+http://www.mobygames.com/game/gameboy/wario-blast

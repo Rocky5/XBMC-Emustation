@@ -1,0 +1,41 @@
+World Heroes
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1994
+Developer: SEGA
+Publisher: SEGA
+Players: 1 or 2 VS
+_________________________
+An alien entity known as Geegus threatens the Earth in the year 3091. As all of Earth's forces have been defeated, a scientist uses his recently-built time machine to find the greatest fighters of different eras to compete against Geegus.
+
+Featuring a cast of characters ranging from ninjas to a cybernetic supersoldier, you'll fight your way through standard-fare one-on-one matches or take on an opponent in a Deathmatch, where spiked walls and landmines add to the danger.
+
+Directions:
+
+Punch, Kick, and Throw your opponent until they just can't take anymore, or their health bar runs out! Defeat enemy after enemy to become the world hero. In death matches watch for the ropes! Be sure to please the scientist who sent you on this trip!
+
+Gameplay:
+
+The game plays like many other fighting games, but instead of a 6-button layout, the original World Heroes uses only 3 of the standard 4 Neo-Geo buttons: one for punching, another for kicking, and the last for throwing. The former two buttons can be held down longer in order to deliver stronger attacks, similar to the first Street Fighter control scheme, with only two levels of strength and using standard buttons instead of pneumatic buttons. In the SNES version (and later games, starting with World Heroes 2 Jet), it is possible to assign the 4 basic attacks to different buttons. In World Heroes Perfect, each character had a traditional four-button attack layout, but could also achieve stronger attacks by pushing down two respective punch or kick buttons at the same time.
+
+In World Heroes Perfect, every character has an ABC Special Move that can be activated by pressing the A, B, and C buttons at the same time. Moves vary by character, though they all require strategic use and are easy to activate, allowing for more tactical battles. For example, the character Fuuma's ABC Special allows him to fake a special move; J. Max's ABC Special allows him to catch, hold onto, and throw back projectiles; and Kim Dragon's ABC Special allows him to perform counters while blocking.
+
+Aside from the normal tournament mode, there is also a popular Deathmatch mode (which was removed in World Heroes 2 Jet and World Heroes Perfect). In it, the arenas are filled with different kinds of traps that can change conditions in the bouts or even damage the characters (such as spikes, bombs, greasy or sticky floors, etc.). Deathmatch mode may have been inspired by the growing popularity of deathmatch style professional wrestling in Japan at the time, mostly made famous by Frontier Martial-Arts Wrestling.
+
+Controls:  
+
+A Button: Punch
+B Button: Kick
+C Button: Throw
+X Button: Punch
+Y Button: Kick
+Z Button: Throw
+Start Button: Start/Pause
+
+http://www.gamefaqs.com/console/genesis/data/586612.html
+http://www.consoleclassix.com/genesis/world_heroes.html
+http://en.wikipedia.org/wiki/World_Heroes

@@ -1,0 +1,17 @@
+Chiki Chiki Boys
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up, Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: Capcom
+Publisher: SEGA
+Players: 1-2
+_________________________
+Chiki Chiki Boys, also known as Mega Twins in some areas, is an arcade game by Capcom first released in 1990 and ported to the Sega Mega Drive in 1992 by Sega and Visco. The game features two twins who are attempting to re-take control of their land, Alurea, after a monster unexpectedly attacks, destroying everything in its path. The people of Alurea have lived in peace for a thousand years and have forgotten how to fight, yet the land's only survivors, the twin sons of the king, must take up the challenge and return their kingdom to its former glory.
+
+The two twins, aged around 15 at the time the game takes place, venture forth in search of a legendary stone known as "Dragon Blue Eyes," which is rumoured to be able to put everything back to rights.
+
+The game is notable in the Sonic scene for its Mega Drive version; the Sonic 2 Simon Wai prototype contains some leftover graphics from the game once thought to be part of Sonic 2. The ROM is believed to have been dumped from a cart which originally had Chiki Chiki Boys before being overwritten with the Sonic 2 beta ROM.

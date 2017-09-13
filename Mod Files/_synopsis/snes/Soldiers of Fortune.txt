@@ -1,0 +1,48 @@
+Soldiers of Fortune
+Alternative title: The Chaos Engine
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Multi-Directional, Shooter
+Gametype: Licensed
+Release Year: 1993
+Developer: Bitmap Brothers
+Publisher: Spectrum Holobyte
+Players: 1 or 2 CO-OP
+_________________________
+The setting is a steampunk Victorian era England. Baron Fortesque, a grand inventor, has succeeded in his greatest creation yet - the Chaos Engine. Unfortunately (for the rest of the proud kingdom), the Engine then proceeds to both capture and assimilate its creator, then begins to change the countryside for the worse. Vile monsters and destructive automata appear everywhere, bringing the citizens to the verge of panic. This lures a number of mercenaries on a potentially rewarding quest to find the root of the problem and swiftly bring a full stop to it.
+
+The player(s) choose two mercenaries from the group of six to take on the task of defeating the mad Baron Fortesque and the Chaos Engine itself. In one-player mode, the computer artificial intelligence controls the second player (in a co-operative fashion), so that one never has to fight the chaos alone.
+
+The predetermined weapons of the six "heroes" are as follows:
+
+The Cannon (Navvie) and the Rifle (Brigand) act like like a powerful forward shot. At their full power both weapons will have a tight 4 bullet spread.
+
+The Shotgun (Thug) and the Machine Gun (Mercenary) are similar to one another. The shot gun has a wider spread, shoots more bullets in one go but and a slower rate of fire. The Machine gun however has a continuous fire rate and closer spread.
+
+The Pistol (Gentleman) and the Lightening Gun (Preacher) are different to the other weapons. They do not fire bullets, except they have their own "shots," exclusive to each other. They both pass through monsters which in turn can cause damage to any monster or spawn device behind it. The Pistol's Flame shot can be upgraded to fire two shots at once where as the Lightning Gun's Lightning will only have one shot that eventually grows to a larger size.
+
+Sub-Weapons/items can also be bought in the shop, as well as stats and lives, after every 2 stages. Each character will have one Sub-weapon/items each at the start. Only 2 Sub-weapons/items can be held at one time (one for each character) which, in 1 player mode, can be swapped by pressing the space bar. Holding down the fire button activates a Sub-weapon/items.
+
+Sub-weapons/items include screen clearing sticks of dynamite, Bombs, Maps, First Aid Boxes, Molotov Cocktails and 8 way bursts of bullets. Items will similar effects are found in game as well.
+
+Tips:
+
+Gain Extra Money
+After you bet a certain level you gain a password.
+Example: A1B2C3D4E5F6
+
+After receiving a level password simply re-enter the code but put the last 6 characters in reverse.
+Example: A1B2C36F5E4D
+
+Level Passwords:
+W1V19S2SH21Q Level 2 (Brigand and Thug)
+C9W18N209ZPW Level 2 (Gentleman and Mercenary)
+CJWI9D2QQ2XF Level 2 (Navvie and Scientist)
+RI8VDQWF0IVP Level 3 (Brigand and Thug)
+RJXVD8WFPIVP Level 3 (Navvie and Scientist)
+4I4ILIV4QVX6 Level 4 (Brigand and Thug)
+4J3WLPV9XWSC Level 4 (Navvie and Scientist)
+
+http://en.wikipedia.org/wiki/The_Chaos_Engine

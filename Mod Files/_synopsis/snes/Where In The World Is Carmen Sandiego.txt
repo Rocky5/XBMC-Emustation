@@ -1,0 +1,77 @@
+Where in the World is Carmen Sandiego
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1993
+Developer: Broderbund
+Publisher: Hi Tech Expressions
+Players: 1
+_________________________
+THE CHASE IS ON...
+
+Monday, 5 a.m. A ringing sound jars you awake. You grope the phone and drop the receiver on the floor. Out of the darkness comes the voice of the chief: "Wake up, kid. Got an assignment for you."
+
+You stumble out of bed, turn on the light and grab your brand new detective's notebook.
+
+"Just got a call from Interpol," says the chief. "Looks like Carmen's gang has pulled another caper." "Any leads?" you ask. "Not with this bunch. They're too slick. Can't give you any more details on the phone. Better get down to the office double quick. It's going to be a rough one."
+
+"Right chief."
+
+As your trembling hand replaces the phone on the cradle, you wonder why you ever got into this line pf work. Before this morning, Carmen Sandiego and her Villains' International League of Evil (V.I.L.E.) were just sensational headlines in the newspaper. For more than five years, Carmen and her gang of felons had managed to stockpile the world's most valuable treasures while outwitting every so-called crime expert from New York to Sydney. Now they've struck again. And you, the newest employee of the Acme Detective Agency, Have been given the near-impossible assignment of tracking them down.
+
+--from the SNES Where in the World is Carmen Sandiego? instruction manual
+
+
+The goal of the game is to track Carmen's villains around the world, arrest them and ultimately arrest Carmen herself. The player begins the game by first going to the country where the crime took place and then obtaining hints from various sources on where the thief went next, leading to a chase around the world to find the thief before "time" runs out.
+
+Each case begins with the user being alerted that a spectacular theft has been committed. Starting by first traveling to the scene of the crime, the player is given several opportunities to collect clues about the suspect's next location, which come in the form of pun-filled word play about the target place. There are thirty countries that can be visited in the game and each is identified by the name of a prominent city, though this city is not always consistent with the image of the country shown in the game. For example, Lima is given for Peru, but the game instead shows an image of Machu Picchu.
+
+If the player travels to an incorrect location, they receive nonsensical clues and will have to backtrack to the previous location to try again. If the player travels to the correct location, a simple animation of an obvious but otherwise harmless V.I.L.E. henchman lurking across the screen is played. The gameplay continues to repeat in this manner as the player travels from location to location several times before catching up to the criminal.
+
+The case will be lost if the user "runs out of time". Throughout the game, the time is shown as the hour accompanied by the day of the week and every action taken in the game (questioning a witness, traveling to another location, etc.) causes a few hours to progresses. At the start of the game a "deadline" is given by which point the crook must be arrested and, if that time is passed, the case is lost and the crook escapes. The times given in the game do not take changes of time zones into account.
+
+
+The Warrant and the Arrest:
+
+The player will occasionally be given information on the suspect, which is used to obtain a warrant on them so as to narrow down the suspect to one of the V.I.L.E. members in the database. Once the player reaches the final location, the animation of the nearby V.I.L.E. henchman becomes more aggressive and implies imminent danger and any clues the player receive simply suggest that they should watch their back. Investigating further clues lead to a chase scene and the apprehending of the suspect, which is always automatically successful. However, the mission is only successful if the appropriate warrant was issued. Having an incorrect warrant or no warrant at all causes the criminal to be found innocent in court, therefore causing the whole mission to have been wasted.
+
+Each successful mission is noted in the player's record and they will occasionally go up in rank. Before being promoted, the user had to correctly answer a geography question with the help of a reference book that was included with the program. This was included as a form of protection against disk copying. Each rank gives harder assignments with more locations to travel to before arriving at the final one. In the final case, the culprit is Carmen Sandiego herself and apprehending her lands the player in the hall of fame.
+
+Tips:
+
+Passwords:
+dbt 1 case solved, Rank: Sleuth
+tbd 10 cases solved, Rank: Private Eye
+ybb 11 cases solved, Rank: Private Eye
+wbp 12 cases solved, Rank: Investigator
+xbn 13 cases solved, Rank: Investigator
+zbm 14 cases solved, Rank: Investigator
+Bbk 15 cases solved, Rank: Investigator
+DbS 16 cases solved, Rank: Investigator
+FbR 17 cases solved, Rank: Investigator
+GbP 18 cases solved, Rank: Investigator
+HbN 19 cases solved, Rank: Investigator
+fbs 2 cases solved, Rank: Sleuth
+JbZ 20 cases solved, Rank: Ace Detective
+KbX 21 cases solved, Rank: Ace Detective
+LbW 22 cases solved, Rank: Ace Detective
+MbT 23 cases solved, Rank: Ace Detective
+NbH 24 cases solved, Rank: Ace Detective
+PbG 25 cases solved, Rank: Ace Detective
+RbF 26 cases solved, Rank: Ace Detective
+SbD 27 cases solved, Rank: Ace Detective
+TbM 28 cases solved, Rank: Ace Detective
+gbr 3 cases solved, Rank: Sleuth
+kbB 4 cases solved, Rank: Sleuth
+mbz 5 cases solved, Rank: Private Eye
+nbx 6 cases solved, Rank: Private Eye
+pbw 7 cases solved, Rank: Private Eye
+rbg 8 cases solved, Rank: Private Eye
+sbf 9 cases solved, Rank: Private Eye
+WbL Final level
+
+
+http://en.wikipedia.org/wiki/Where_in_the_World_is_Carmen_Sandiego%3F

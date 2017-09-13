@@ -1,0 +1,47 @@
+Metroid
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+
+Space pirates have attacked a deep-space research spaceship and seized a capsule containing an unknown life-form that had just been discovered on planet SR388. This life-form is in a state of suspended animation, but can be reactivated and will multiply when exposed to beta rays for 24 hours. There is a strong possibility that the life-form just discovered was the cause of the planet's destruction. The Federation researchers had named it "Metroid" and were bringing it back to Earth when it was stolen by space pirates!
+
+If Metroid is multiplied by the space pirates and then used as a weapon, the entire galactic civilization will be destroyed. After a desperate search, the Federation Police have at last found the pirates' headquarters, the fortress planet Zebes, and launched a general attack. As a last resort, the Federation Police have decided on this strategy: to send a space hunter to penetrate the center of the fortress and destroy the Mother Brain. The space hunter chosen for this mission is Samus Aran. He is the greatest of all the space bounty hunters and has successfully completed numerous missions that everybody thought were absolutely impossible. He is a cyborg: his entire body has been surgically strengthened with robotics, giving him superpowers. Even the space pirates fear his space suit, which can absorb any enemies power. But his true form is shrouded in mystery.
+
+The planet Zebes is a natural fortress. Its sides are covered with a special kind of stone, and its interior is a complicated maze. On top of that, the pirates have planted devices and booby traps in the maze, and the pirates' eerie followers lie in wait around every corner. Samus has now succeeded in penetrating Zebes. But time is running out. Will he be able to destroy the Metroid and save the galaxy?
+
+--From the NES Metroid instruction manual.
+
+Overview:
+
+Metroid is a classic that has it all. Great graphics, sound, controls, and story line. It is one of the greatest games ever made. Metroid brought us into the SciFi realm and made us a hero. You play as Samus Aran, a bounty hunter of the highest quality. Half human, half machine, and all bad--to the bone. Your mission is to kill all space pirates and destroy the stolen Metroid. This mission will not be easy, but you will pull through using your whole arsenal.
+
+That's right, you will gain new abilities as well as new weapons along the way to make your journey just a little easier. Metroid was the start of a great series and I hope that you enjoy it as much as I do. Have fun, and good luck with Metroid. 
+
+Directions:
+
+Space pirates have taken a Metroid, and they are planning to use it against the galaxy. Your job, as the bounty hunter Samus Aran, is to stop this from happening.
+
+Controls:
+
+A Button: Jump
+B Button: Shoot Missiles
+Start Button: Pause/Unpause
+Select Button: Switch to Missiles--Choose between "START" or "CONTINUE"
+
+Hints:
+
+Invincibility, Infinite Missiles
+Password: NARPAS SWORD0 000000 000000
+
+Play as Samus Without Armor
+Justin Bailey ------ ------
+
+http://consoleclassix.com/nes/metroid.html

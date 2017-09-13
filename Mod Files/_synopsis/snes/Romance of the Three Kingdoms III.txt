@@ -1,0 +1,48 @@
+Romance of the Three Kingdoms III: Dragon of Destiny
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Historical
+Gametype: Licensed
+Release Year: 1993
+Developer: Koei
+Publisher: Koei
+Players: 1
+_________________________
+Until the second century A.D. in China, the clan of Han controlled the Dragon's Throne, the Emperor's seat of power. Over successive generations the Throne was occupied by descendants of Han with little contest. There came a day, however, when the Throne was left unguarded and an ambitious warlord saw his chance to install new power at the palace. For the next century, China was torn apart by warlords, each seeking to unite the people under a new dynasty.
+
+Romance of the Three Kingdoms III: Dragon of Destiny is the third game in the Koei Historical Simulation Series which recounts the history of China during the Three Kingdoms period. This game includes over 500 historical characters, and highlights rulers such as Cao Rui and Liu Chan who were destined to rise to power after their fathers, Cao Cao and Liu Bei. Six scenarios cover the three kingdoms period. Play an historical ruler, or create your own ruler and subordinates. Civil officers will aid your domestic endeavors and military officers will bring skill to your war tactics. Gain control of China and the Dragon Throne will be yours!
+--from the SNES Romance of the Three Kingdoms 3 instruction booklet
+
+The third edition of the Romance of the Three Kingdoms series is truly a masterpiece of strategic gaming. This version brings in some major changes including much more detailed control over your generals and officers. Taking advantage of this gives you more options for your domestic life and your battles and wars.
+
+The graphics are much improved over previous editions, and most importantly, the sound is a lot better. The music won't drive you mad, and the effects are actually pretty good.
+
+So get out there and conquer (I mean unite) all your squabbling neighbors. You could be the next Emperor of China!
+
+Tips:
+
+}Maximize all exchanges
+Whenever an opponent comes to you and asks to exchange
+goods (happens more frequently the more powerful you
+become), submit new terms for the trade. Use the
+same two types of goods, maximizing the number of goods
+your opponent will be giving you, and minimizing the
+amount you will give your opponent. As long as
+you and your opponent have a decent relationship (you
+will know right away that you don't if the opponent's
+original terms were ridiculously unacceptable)
+your opponent should present a counteroffer that is
+greatly in your favor!
+
+Nice little way to get troops from the computer
+Most of the time when you ask for troops from an allied ruler with an adviser present, they'll flat out reject you and never offer a counter offer. However, this is a nice little exploit if you start in a city that doesn't have a lot of population, and you want to conserve the population so it will expand.
+
+First, check around for rulers that don't have advisers. This is important. You can do this through trade agreements or alliance requests, or just simply spying. When you find a ruler that has no adviser (they almost always ask one for advice during a diplomatic venture if one is present in their city), ally yourself with them. Then, select 'Help' under the diplomacy menu. Input a small number (usually under 3000 to be safe) of troops to request. Send the
+messenger. The ruler will not accept your request straight out, but will present you with a counter-offer most times. Accept whatever they counter with. This is a nice and easy way to get some extra troops if you're population makes drafting prohibitive.
+
+No penalty demotion, moving officers quickly, achieving high loyalty.  If a general or advisor has 100% loyalty, you can demote the officer to a lower rank without lowering his loyalty. This may be done either because you are trapped for gold or wish to use the character's ability for long-term jobs such as spying or cultivation. Simply 'Hide' the officer in any random enemy city, and immediately 'Withdraw' him. The computer will have you assign rank as if he were a newly recruited officer, except he will maintain his 100% loyalty rating.  The only drawback of this method is that the officers who 'Withdraw' from hiding go directly to the home city. This may be used to your advantage, however.  For example, you are ruling Cao Cao\'s sprawling empire in one of the later scenarios and wish to quickly move several loyal officers from Chang'An to your capital Runan. Using this method takes 1 month instead of 4-5 months.  Achieve high initial loyalty in newly recruited and captured officers by shuttling them in groups to a peripheral city which has only one or two neighbors, both of which you should occupy. Then, fire them all and rehire them in the neighboring city. For example, suppose you defeat Ma Teng and occupy Tianshui and Xiliang. To give a quick loyalty boost to Ma Teng's former officers, send them to Xiliang and fire them en masse. Rehire them the same month in Tianshui.  They will frequently have significantly higher loyalty than previously and, if not, this process can be repeated.
+
+http://www.consoleclassix.com/snes/romance_three_kingdoms_3_dragon_destiny.html
+

@@ -1,0 +1,15 @@
+Spirou
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Side-Scrolling
+Gametype: Licensed
+Release Year: 1995
+Developer: Infogrames
+Publisher: Infogrames
+Players: 1
+_________________________
+This is a simple platform game, you're in a role of porter, jumping down the streets and buildings, and taking as many points as you can get. There's no strong background story.
+
+http://www.mobygames.com/game/snes/spirou

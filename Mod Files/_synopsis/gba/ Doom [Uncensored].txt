@@ -1,0 +1,17 @@
+GBA Doom Blood Decensoring Patch
+Original title: Doom
+Platform: Nintendo Game Boy Advance
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Shooter - First Person
+Gametype: Hack
+Release Year: 2006
+Hacked by: SVKaiser
+Version: 1.0
+_________________________
+This patch changes the color of the blood in the GBA version of Doom from green to red. It also replaces some censored textures with uncensored ones from the Jaguar version of Doom, which the GBA version was based on.
+
+The archive contains both an IPS patch and a custom patcher. In order to use the custom patcher you just have to give it the path to your Doom ROM, and it'll saved a patched ROM to your C: drive.
+
+http://www.romhacking.net/hacks/474/

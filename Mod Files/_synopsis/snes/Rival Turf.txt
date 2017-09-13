@@ -1,0 +1,23 @@
+Rival Turf
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1992
+Developer: Jaleco
+Publisher: Jaleco
+Players: 1 or 2 CO-OP, VS
+_________________________
+The player controls one of two characters: Jack Flack (known in Japan as "Rick Norton") or Oozie Nelson (known in Japan as "Douglas Bild") in a one or two player mode, to defeat a plethora of enemies using fists, feet, and various weapons collected throughout the course of the game. The game also includes an "angry" mode where the character becomes temporarily invincible and does more damage after taking too much damage. The game also has a 2 player versus mode.
+
+Tips:
+
+Change names for every character in the game
+Play through the game until you get to enter your name in the high score screen. When at the high score screen, enter your name as CHRCONF. After you do that, a hidden character configuration screen will appear, letting you change each character's name.
+
+Hidden Level 4 Warp
+Defeat at least thirty enemies. Locate the door on level 4 and press Up to jump to the end of the level to fight the Boss.
+
+http://en.wikipedia.org/wiki/Rival_Turf!

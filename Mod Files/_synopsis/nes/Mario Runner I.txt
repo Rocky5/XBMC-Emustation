@@ -1,0 +1,17 @@
+Mario Runner
+Original title: Lode Runner
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2007
+Hacked by: Guyver (X.B.M.)
+Version: 1.0.0
+_________________________
+This hack is based on the good old game - Lode Runner. Anyone familiar with Lode Runner knows the basic gameplay. Traveling around looking for gold on 50 levels. The Hero collects coins and avoids obstacles along with three enemies, which try to stop the hero from succeeding.
+
+In this hack I have changed - graphics, text and music. The Music and graphics were taken from the Mario series. The language of the game is russian.
+
+http://www.romhacking.net/hacks/228/

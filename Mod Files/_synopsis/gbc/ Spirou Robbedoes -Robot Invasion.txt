@@ -1,0 +1,18 @@
+Spirou: The Robot Invasion
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2000
+Developer: Planet Interactive
+Publisher: Ubisoft
+_________________________
+Spirou: The Robot Invasion is a 2D side'scrolling platform game based on the Franco-Belgian comic Spirou et Fantasio.
+
+Fantasio bought a strange mechanical device. When he brings it home and thoroughly inspects it, it turns out to be a malevolent robot who subsequently escapes from the house. Soon a villain called Cyanide appears to be involved and the entire town is crawling with evil robots. It's up to the player (as Spirou) to set things straight! Armed with a maul you have to trash the robots. Controls are similar to other platform games: you can walk, jump, attack, use a switch and grab a ledge. You'll have to solve simples puzzles such as pressing switches to open doors. You can pick up items that restore your health or unlock bonus levels. The game also has a UBI key that allows you to unlock a secret level, and can also be used to unlock secrets in other Ubi Soft games.
+
+The game is presented in comic strip style much like in Comix Zone, where you move from frame to frame, each divided by a white border.
+
+http://www.mobygames.com/game/gameboy-color/spirou-the-robot-invasion

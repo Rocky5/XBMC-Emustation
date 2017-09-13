@@ -1,0 +1,26 @@
+Super Turrican 2
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Side-Scrolling
+Gametype: Licensed
+Release Year: 1995
+Developer: Factor 5
+Publisher: Ocean Software
+Players: 1
+_________________________
+Super Turrican 2 featured more action than the first part and used Dolby Pro-Logic surround sound as well as many "Mode 7" effects, but sacrificed the big levels of the original Turrican games. The major addition is a grappling arm, similar to that used in Bionic Commando, which can be used to swing between platforms and grab power-ups. The game was released on the Virtual Console in North America on September 29, 2008.
+
+Tips:
+
+Level skip
+Pause the game then press R, L, X, B, Y, A, Left, Down, Up, and Right
+
+Smart bomb refill
+Pause the game then press X, A, L, R, B, Y, Left, and Right
+
+Wheel time refill
+Pause the game then press Up, Down, Right, Down, Left, and B
+
+http://en.wikipedia.org/wiki/Super_Turrican

@@ -1,0 +1,15 @@
+S.D.F.: Space Defending Force
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1990
+Developer: HAL
+Publisher: HAL
+_________________________
+
+Uchuu Keibitai SDF is a Shoot-'Em-Up game, developed and published by Hal, which was released in Japan in 1990.
+
+http://www.gamefaqs.com/console/nes/home/579688.html

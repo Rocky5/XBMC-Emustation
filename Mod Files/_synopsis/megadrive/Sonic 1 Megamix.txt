@@ -1,0 +1,42 @@
+Sonic 1 Megamix
+Original title: Sonic the Hedgehog II
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: Tweaker
+Version: 3.0
+_________________________
+Highlights for version 3.0:
+
+- All level layouts edited (some complete; others pending)
+
+- Each character now has a unique set of moves (though Sonic and Shadow share homing attack)
+
+- Most levels (not all) have a small intro, ala S3K, where they perform some sort of action when starting the level. i.e, running in from the left.
+
+- Loads of music edits
+
+- There is now a "preferences" screen, where you can customize certain aspects of the game (suggestions are welcome)
+
+- Cheat codes have been changed - figuring them out will grant you access to a new, special level select (which is a bit buggy - just don't hit left/right on zone selections =P)
+
+- "Original Mode" allows you to play the original levels from Sonic the Hedgehog, using all of the additions from Sonic Megamix (such as bugfixes, moves, preferences, etc). There is also a seperate save slot for a character's original mode.
+
+- Title screen demos have been edited. Credits demos have not.
+
+- Super forms have been added.
+
+- Elemental shields, ala S3K, have been added.
+
+- Credits have been edited; each character has a unique end pose on the ending sequence.
+
+- Various other changes. See the Wiki page for more info.
+
+This is, pending future changes, considered a "complete" release. Future changes are planned, but not assured. More information can be found on the Manual/Wiki page, located here: http://info.sonicretro.org/Sonic_1_Megamix
+
+http://www.romhacking.net/hacks/171/

@@ -1,0 +1,30 @@
+MM2: Revenge of the 8 Robot Masters
+Original title: Mega Man II
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2005
+Players: 1
+Hacked by: DurfarC
+Version: 1.1
+_________________________
+This is a hack of Capcom's Mega Man 2 for the NES. The hack isn't a complete remake of the original game, but all levels have been changed to look different from the original ones. The colors have also been changed, and a new title screen has been made.
+
+This hack includes:
+
+- New levels
+
+- New colour palettes
+
+- A few graphic changes (very few though)
+
+- Various HEX fixes
+
+Version 1,1 (incl. some bug fixes) released on 19 August 2009.
+
+(I feel the need to inform you that Air Man's level is possible, there are ladders hidden in the clouds. Evil.)
+
+http://www.romhacking.net/hacks/103/

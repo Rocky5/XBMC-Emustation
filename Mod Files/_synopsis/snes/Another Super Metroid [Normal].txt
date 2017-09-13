@@ -1,0 +1,20 @@
+Another Super Metroid [Normal Version]
+Original title: Super Metroid
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2004
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+Hacked by: Suka Banaoya
+Version: 1.0
+_________________________
+This hack is essentially a “New Game Plus” for Super Metroid. While the map layout itself hasn’t been changed, the tile arrangements within each room has been altered. Normal and Hard difficulty patches are included.
+
+To some, rearranged tiles by themselves may not mean much. However, combined with Hard mode, THE Another of Super Metroid is the “Master Quest” that Super Metroid never had.
+
+http://www.romhacking.net/hacks/739/

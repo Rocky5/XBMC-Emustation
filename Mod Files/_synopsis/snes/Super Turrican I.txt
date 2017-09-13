@@ -1,0 +1,29 @@
+Super Turrican
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Run 'n Gun, Side-Scrolling
+Gametype: Licensed
+Release Year: 1993
+Developer: Factor 5
+Publisher: Seika Corp
+Players: 1
+_________________________
+Super Turrican plays similarly to Mega Turrican and shares a similar visual style. The game has a different set of levels, however, and features a freeze beam in place of the original lightning whip. The videogame was released on the Virtual Console in Europe and Australia on February 29, 2008, and in North America on March 3, 2008.
+
+Tips:
+
+Invincibility
+Pause the game then press L, L, L, R, R, R, L, L, L
+
+Level skip
+Pause the game then press Right, Left, Down, Right, A
+
+Sound test
+Go to the Options menu and highlight Exit then hold down L, R, X, A and press start
+
+View ending
+Pause the game then press Right, Left, Down, Right, B
+
+http://en.wikipedia.org/wiki/Super_Turrican

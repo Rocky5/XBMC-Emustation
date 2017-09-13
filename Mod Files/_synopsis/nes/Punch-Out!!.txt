@@ -1,0 +1,70 @@
+Punch-Out!!
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Boxing
+Gametype: Licensed
+Release Year: 1990
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+
+Development:
+
+Genyo Takeda, who produced the Punch-Out!! arcade games, directed the NES versions. Because the NES was not as powerful as the arcade hardware, Takeda and his crew realized that it would be too difficult to make the NES port completely simulate the arcade versions. Instead of making the playable boxer wire-framed or transparent to see an opponent, they decided to shrink the playable boxer, so that players could easily see his opponents over his head. Though the arcade's playable boxer didn't have an official name, he was referred to as "Little Mac", because of his small stature. Other things added to the NES version that the arcade versions lacked were a rough plot, a background music track played during fights, animated cutscenes and a password system for saving progress.
+
+Around the time the Gold Version was released, Nintendo of America's founder and former president Minoru Arakawa attended a boxing match featuring Mike Tyson. While watching the boxer fight, Arakawa became so astonished with the athlete's "power and skill", he was inspired to use the athlete's name and likeness in the upcoming port of the Punch-Out!! series to help the game sell well.
+
+Gameplay:
+
+Punch-Out!! features a boxer named Little Mac working his way up the professional boxing circuits, facing a series of colorful, fictional boxers, leading to a final fight with real-life boxer, the then-World Heavyweight Champion, which is Mike Tyson in the original version and Mr. Dream in the later version. The game requires good reflexes in reaction to the computer-controlled boxers' moves, as the more advanced boxers give very little indication of their coming moves. However, Punch-Out!! can be mastered by learning the computer-controlled boxers' consistent patterns.
+
+Little Mac has a limited repertoire compared to most of his opponents. His punches are limited to left and right jabs, left and right body blows, and a powerful uppercut. The uppercut can only be used once the player earns a star, which is typically accomplished by counter-punching the opponent directly before or after certain attacks are launched. For defensive techniques, Mac can dodge left or right, duck, and block attacks.
+
+Little Mac also has a heart meter, which decreases by three upon being struck by an opponent and one upon blocking an attack or an opponent blocking the player's attack. When the heart meter decreases to zero, Little Mac temporarily turns pink and appears exhausted, leaving the player unable to attack, but still able to defend. At this point, Mac can regain some hearts (and his normal color palette) only by avoiding the opponent's punches.
+
+A bout can end by knockout (KO), if a fighter is unable to get up within 10 seconds after being knocked down; by technical knockout (TKO), if a fighter is knocked down three times in one round; or by decision, if the bout lasts three full rounds without a clear winner. In order to win by decision, the player must accumulate a high enough point total by punching the opponent and/or knocking him down. However, some bouts cannot be won in this manner.
+
+When Little Mac loses his first bout, the opponent will offer a rematch. However if he loses a Title Bout, he will be ranked down (sometimes more than one place in the rankings.) On his second loss (if the loss was a rematch), he drops one place in the rankings (unless he is already at the bottom of his circuit) and must fight his way back up. A third loss (not necessarily a consecutive one) ends the game. The exception is the final fight against Mike Tyson/Mr. Dream; a loss to them automatically results in a game over.
+
+Characters:
+
+The character models in Mike Tyson's Punch-Out!! are each used twice, with the exception of King Hippo, just changing the head image, colors, and the unique special moves performed. The pairing is as follows:
+
+Glass Joe/Don Flamenco, Von Kaiser/Great Tiger, Piston Honda/Mike Tyson or Mr. Dream, King Hippo/(Unique), Bald Bull/Mr. Sandman, Soda Popinski/Super Macho Man.
+
+Other versions:
+
+Before the release of Mike Tyson's Punch-Out!! in North America, Nintendo released it in a gold-colored Famicom cartridge simply titled Punch-Out!! in Japan, without Mike Tyson in it, as a prize for the Golf U.S. Course Famicom Tournament.[4] This version's final boxer was Super Macho Man, who was also the final boxer of the Super Punch-Out!! arcade. When Mike Tyson's Punch-Out!! sold well in North America, Nintendo later released the Mike Tyson version in Japan.[5]
+
+Punch-Out!! featuring Mr. Dream:
+
+Towards the end of the NES's run, Nintendo's license to use Mike Tyson as a special Punch-Out!! character expired. Therefore, Nintendo replaced Tyson with a fictional character based on a then-Nintendo tournament champion, Mr. Dream. A popular myth is that Tyson was removed due to his divorce from actress Robin Givens[3], and his conviction for rape, which did not occur until a year after the changeover. It is also believed by some[who?] that because Tyson lost the Heavyweight Championship to James "Buster" Douglas by the contract expiration, Nintendo made no attempt to negotiate a new one with him.[citation needed] In August, 1990, the game was re-released simply as Punch-Out!! (or Punch-Out!! featuring Mr. Dream according to Nintendo Power) only in North America. This version has become the "official" incarnation of the NES Punch-Out!!
+
+Other releases:
+
+Along with several NES titles by Nintendo, Punch-Out!! featuring Mr. Dream was later ported to several other platforms in Nintendo media. In Animal Crossing, it was one of the rarer unlockable NES games one could acquire within the game[citation needed]. It was also released through the Wii's Virtual Console service on March 30, 2007 to the European and Australian regions, April 3, 2007 in Japan, and in North America on April 16, 2007. During that release, reports have surfaced stating that when the game is played in progressive scan, the Virtual Console version of Punch-Out!! suffers from a lag in controls, which significantly raises the difficulty level compared to other versions of it.[6] Nintendo later rereleased the Game &amp; Watch game, Boxing, retitled as Punch-Out!! to promote Punch-Out!! featuring Mr. Dream's release. A remake of the game was released for the Wii in 2009.
+
+Reception:
+
+With its unique playability, graphics, and characters, Punch-Out!! has been well-received by many players and critics. It was rated the 17th best game made on a Nintendo System in Nintendo Power's Top 200 Games list.[7] GameSpot has also placed it among the best games of all time. The title has been a source of satire[9] and nostalgic tribute[10] throughout the several years following its release.
+
+The video game incarnation of Mike Tyson was named the 25th most diabolical video game villain of all time by GamePro.[11]
+
+Other appearances:
+
+Punch-Out!! was featured in the comic books of Valiant's Nintendo Comics System.Three stories are based around Little Mac, Doc Louis, and other boxers from the NES version, and Mac briefly appears in the comic that introduces the story of Captain N: The Game Master Mac doesn't appear in the Captain N stories himself; however, King Hippo is featured as a villain. Also, in the opening sequence of the Captain N TV series, the protagonist Kevin Keene was seen playing Mike Tyson's Punch-Out!! before being forced into a vortex that formed in his television's screen.
+
+In Super Smash Bros. Brawl, Little Mac appears as a regular Trophy and an Assist Trophy. He sports a more textured look and performs punches and uppercuts.[12] In the same game, the music from the Manhattan skyline scene in Punch-Out!! can be heard in the song titled "Famicom Medley."[citation needed]
+
+In the Wii game titled Captain Rainbow, Little Mac appears as a supporting character.
+
+In the Family Guy episode Not All Dogs Go to Heaven, when Peter is asked to say the grace, he prays for cheat codes to Mike Tyson's Punch-Out!! because he has been stuck on Bald Bull for 4 years.
+
+In Harold &amp; Kumar Escape from Guantanamo Bay, Kumar mentions that he can play Punch-Out!! on his iPhone while driving after leaving the bottomless mansion party.
+
+The game I Wanna Be the Guy uses Mike Tyson's rendering from this game as a boss.
+
+http://en.wikipedia.org/wiki/Punch-Out!!_(NES)

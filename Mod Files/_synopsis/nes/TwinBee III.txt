@@ -1,0 +1,20 @@
+Twinbee III
+Original title: TwinBee 3: Poko Poko Dai Maou
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter 
+Gametype: Translated
+Release Year: 1998
+Translated by: Neo Demiforce
+Version: 1.02
+_________________________
+It's Twinbee! Everybody loves Twinbee. This is a cutesy shooter, where you have to shoot bells to get cooler powerups, like in Parodius and Cotton and stuff. Wait, were bells in Parodius? I can't remember. I think so though. Anyway, Twinbee 3.
+
+Translation Description:
+
+I don't know if this is complete or not, thanks to Neo Demiforce's lovely new layout, so I'll leave this here until proven otherwise. Anyway, this patch was dedicated to Sardu and Bloodlust Software, since version 0.42 of NESticle was able to play the game flawlessly (and also turned out to be the last release). From the start it's obvious that Demi translated it, since you'll see various things like "k" and "oh!" as you're flying around. That kinda stuff was really cool in Konami World, but it just seems out of place here. Oh well, enough bitching. Have fun with the game, and somebody let me know if it's finished or not.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/231/

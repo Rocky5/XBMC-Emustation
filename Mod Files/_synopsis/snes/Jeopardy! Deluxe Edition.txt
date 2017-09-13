@@ -1,0 +1,46 @@
+Jeopardy! Deluxe Edition
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Game Show
+Gametype: Licensed
+Release Year: 1994
+Developer: GameTek
+Publisher: GameTek
+Players: 1 to 3
+_________________________
+PRESENTING JEOPARDY! Deluxe Edition FEATURING ALEX TREBEK for your SUPER NINTENDO ENTERTAINMENT SYSTEM. With over 3,500 new questions in over 700 categories, amazing new digitized graphics and sound effects, you'll feel as if you're actually in the studio. Soon you'll experience the challenge of one of America's favorite TV game shows.
+
+--From the SNES Jeopardy! Deluxe Edition instruction manual.
+
+Overview:
+
+Jeopardy is one of America's most popular and longest running game shows. It was spawned as an answer to the Quiz Show Scandals of the 50's. It came to light that the quiz shows of the 50's were rigged, and this installment was to be the first fair challenge. Naturally, it has spawned several video and board games.
+
+This SNES version is pretty good. The graphics are nicely done, and the sounds are very close to the originals from the show. The gameplay is great because it comes directly from the game show. The controls are easy to use, it's just point and click on the action you want. The only complaint I had was that not only do you have to know the answer, but you also have to be able to spell it correctly. Other than that, it's a lot of fun. If you like Jeopardy, you'll love this game.
+
+Directions:
+
+Play the best game of Jeopardy you can. You can play against two other computer players, or you can play against one of your friends and one computer player. First, you get to pick what you want your character to look like.
+
+After that you can put your name in, and the game will start.
+
+Pick your category and try to answer the question, or question the answer in this case. The more questions you answer, I mean answers you question, the more money you will receive. Each correct response will award the point value associated with it, but an incorrect response will take that much money away from you. A Daily Double will allow you to decide on how much the answer is worth, you can wager up to your current score (thus Doubling your money, thus the name). There are two Daily Doubles per round.
+
+Try to get as much money as you can before Final Jeopardy, where you will be given a category to decide how much of your money to bet. After you have made your wager, you will get a shot at questioning the final answer. If you end up with the most money, you win. 
+
+Controls:
+
+A Button - Enter/ Buzz In
+B Button - Delete
+Start Button - Start/ Done
+Select Button - Select
+
+Hints:
+
+Spelling
+Since the original Jeopardy game did not require you to be able to spell your answer, I don't consider this cheating. If you are unsure how to spell your answer, hit Esc. and ZSNES will be in window mode, thus pausing the game. Now go check your spelling with a dictionary or dictionary.com. 
+
+Reviewer: Adrian
+http://www.consoleclassix.com/snes/jeopardy_deluxe_edition.html

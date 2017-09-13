@@ -1,0 +1,15 @@
+After World 8
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2006
+Hacked by: insectduel
+Version: 1.0
+_________________________
+This is the hack of SMB1 with all new levels and the new World A of this game. This is for SMB champions who have already completed World 8 in the original SMB1.
+
+http://www.romhacking.net/hacks/178/

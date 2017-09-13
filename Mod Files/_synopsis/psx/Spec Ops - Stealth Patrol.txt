@@ -1,0 +1,21 @@
+Spec Ops - Stealth Patrol
+Platform: Playstation 1
+Region: USA
+Media: Disc
+Controller: Analog Control Pad
+Genre: Action - Third Person - Shooter
+Gametype: Licensed
+Release Year: 2000
+Developer: Runecraft, Ltd.
+Publisher: Take-Two Interactive Software, Inc.
+Players: 1 or 2 Co-Op
+_________________________
+Stealth Patrol is the first console adaptation of the long-running PC military Spec Ops series. Players command two rangers on a variety of missions. Instead of working with a squad like the PC versions, only two rangers can be controlled. This can be done by two human players working together. When there is only one player, the computer AI takes over the second ranger, but the player can switch between them at any time. Also different in this console adaptation is the change of gameplay perspective from first-person to third-person.
+
+Before starting a mission, players select the ranger best suited to complete objectives, based on five classes: machine gunner, grenadier, rifleman, close quarters specialist, or sniper. Each class has different abilities, and access to specific weapons or items. Each type also has a certain encumbrance, but the equipment can be further customized based on the available options. Some of the included weapons are shotguns, grenades, tripwire mines, machine guns and sniper rifles, but also more general items such as nightvision goggles.
+
+The missions are set in a forest in Siberia, snowy mountains in Bosnia, the desert in Iraq, mountains in North Korea, and the jungle in Vietnam. The radar is an important element during gameplay. When a ranger is shot at, the enemy position briefly lights up on the radar as a red dot. Killed enemies often leave behind medkits and additional item pick-ups such as ammunition.
+ 
+http://www.mobygames.com/game/playstation/spec-ops-stealth-patrol
+
+

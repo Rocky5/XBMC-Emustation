@@ -1,0 +1,16 @@
+Cute Zelda
+Original title: The Legend of Zelda
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure 
+Gametype: Hack
+Release Year: 2001
+Players: 1
+Hacked by: Crabby Gabby
+Version: 1.0
+_________________________
+You are probably aware that there are a great many hacks of "The Legend of Zelda". So why bother creating yet another? Well, I beleive that even at this hack's early stages of development, it surpasses many others in terms of graphical enhancement. The graphical additions are borrowed largely from "Link's Awakening", but in some cases, are improvised following the tradition of modern (post 1990) Nintendo graphic art. A slight amount of text has been varied, and there have been no dungeon or overworld changes to date, although once I have completed updating the graphics, you can expect to see a separate version containing the "third" and "fourth" quests, possibly with a few added enemies and characters.
+
+http://www.romhacking.net/hacks/26/

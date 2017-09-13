@@ -1,0 +1,20 @@
+Arn's Winter Quest: Gway Edition
+Original title: Earthbound
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2006
+Developer: HAL Laboratory
+Publisher: Nintendo
+Players: 1
+Hacked by: Radiation
+Version: 1.02
+_________________________
+In the words of its creator, "Arn's Winter Quest has been a labor of love for me for two months, and rivals those hacks such as Hat Quest and EarthBound 2.5: Electric Boogaloo Joint Jive. It has a lot of fun inside jokes, an incoherent story, and all new battle graphics. This hack is basically linear Dragon Warrior with a bunch of humor thrown in, so if you like fighting and you like funny and you like very hard viewtiful fun time hacks, then don't play this hack because it'll satisfy your cravings and your head will probably explode."
+
+There are also lots of bugs. Reset everytime you save in a new place. Actually save. If you die without save-reset, then you'll end up the first place you saved. If you haven't saved throughout the game, you'll be dropped in a death ocean.
+
+http://romhacking.net/hacks/37/

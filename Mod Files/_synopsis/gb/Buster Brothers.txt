@@ -1,0 +1,18 @@
+Buster Brothers
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1993
+Developer: Hudson
+Publisher: Hudson
+_________________________
+Buster Brothers is a platform game which consists of 50 levels in total. It can be played with one or two players on the same screen, and the other player can join anytime within the game.
+
+Your goal is to destroy the balloons which bounce around the playfield. To accomplish this, you can shoot hooks which travel upwards, and blow up any balloon they touch. Depending on their size, they either split on two smaller ones, or evaporate if they're at their minimum size. Apart from balloons, some levels also have barriers that have to be destroyed with your hooks, since they often block your access to balloons. There are also some barriers which cannot ever be destroyed. Your character has the ability to climb ladders, but cannot jump.
+
+You can also pick up power-ups such as: the ability to fire two shots at once, at once, the hook that attaches to the ceiling and waits 'til something bumps into it, a gun which has a high rate of fire but cannot destroy barriers. Beside extra weapons, you can also pick certain things like clock (halting time for a small period), dynamite (reducing all balls to minimum size, thus making you able to reach more points), life, and such.
+
+http://www.mobygames.com/game/gameboy/pang

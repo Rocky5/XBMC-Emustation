@@ -1,0 +1,15 @@
+Samus: Mother Brain Returns
+Original title: Metroid
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: Odb718
+Version: Final
+_________________________
+Samus' suit is redesigned, all of the maps have been edited, title screen, mission text, credits, and boss and item locations are changed.
+
+http://www.zophar.net/hacks/nes/metroid-1/Samus-Mother-Brain-Returns-517.html

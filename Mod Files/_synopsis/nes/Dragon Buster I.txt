@@ -1,0 +1,15 @@
+Dragon Buster
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Namco
+Publisher: Namco
+_________________________
+
+"Dragon Buster" is a conversion of Namco's arcade game from 1984. The game is composed of several large levels, each one containing various stages: a cave, a tower, a castle, etc. Your goal in every level is to reach the final stage where you face the level boss. There are often several ways to reach the final stages, and not all stages are necessary to visit. Equipped with a sword, you move through the platform-like stages, clearing them of diverse monsters, collecting power-ups and trying to stay in good health until the level boss, since you can't heal your character between the stages.
+
+http://www.mobygames.com/game/nes/dragon-buster

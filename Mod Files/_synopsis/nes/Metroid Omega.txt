@@ -1,0 +1,16 @@
+Metroid Omega
+Original title: Metroid
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: Redrum
+Version: 1.0
+_________________________
+Celebrating the release of Metroid Prime/Fusion, I created Metroid Omega. Every graphic of the game is changed thanks to Jorge Fuentes's great artistic skill, and Brinstar is transformed into an evil deathtrap. Once I finish a few other projects, the rest of the levels will be made just as evil as it, so have fun trying to survive!
+
+http://www.romhacking.net/hacks/446/

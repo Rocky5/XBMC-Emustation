@@ -1,0 +1,20 @@
+Knuckles in Sonic the Hedgehog
+Original title: Sonic the Hedgehog
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2005
+Players: 1
+Hacked by: Stealth
+Version: Rev 01
+_________________________
+Stealth has created a hack that imports Knuckles into Sonic the Hedgehog 1. This is a very advanced hack and includes all of Knuckles moves Spin Dash, Gliding, Wall climbing, and even a bonus feature which can be accessed by imputing the following codes on the title screen.
+
+- Super Knuckles (once all emeralds are obtained): B B B B Up Down Left Right (You'll hear a ring sound if code is implimented correctly)
+
+- Cheat (Start with all emeralds): B B B B B B Up Down Left Right (If implimented correctly you should hear the same sound as when you get an extra continue)
+
+http://www.romhacking.net/hacks/172/

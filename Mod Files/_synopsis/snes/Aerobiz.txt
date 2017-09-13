@@ -1,0 +1,43 @@
+Aerobiz
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1993
+Developer: Koei
+Publisher: Koei
+Players: 1-4
+_________________________
+Aerobiz features two timeframes to play the game through: 1963 to 1995, and 1983 to 2015. After selecting the timeframe, the players then choose a city for their airline's headquarters. This allows a certain amount of handicapping: some cities, such as New York, London, and Tokyo, start the player with many airplanes and a large amount of money; others, such as Lima, Nairobi, and Honolulu, start the player with only a couple of airplanes and a small amount of money. The players then select a difficulty level, which affects the amount of passengers, world events (and the reactions of the passengers to those world events), and the win conditions.
+
+The gameplay is superficially straightforward: players negotiate for access slots at each airport, buy airplanes, then open routes and start business.
+
+The routes command allows the player to open new routes (up to 30), change existing routes, or close unprofitable/redundant routes.
+
+The negotiation command allows the player to assign representatives to bid for access slots into each airport or give back unneeded slots.
+
+The trade command allows the player to buy and sell airplanes.
+
+The budget command allows the player to set the maintenance, service, and advertising budgets.
+
+The marketing command allows the player to run special ad campaigns in order to boost traffic.
+
+The investment command allows the player to set up airport hubs to create new routes, build hotels to attract passengers, and buy and sell stock in charter companies.
+
+The board meeting command gives the player some hints on possible moves to make in order to increase business.
+
+Information on the cities, distances between two cities and any air routes flying between them, and data on the player's company is also available.
+
+After each player has made their desired moves, the game shows any world events that affect the players (for instance, a labor strike will delay shipments of aircraft from that company, while the Olympic Games will boost traffic worldwide, particularly to the host city). The game then shows the results of direct competition between airlines flying the same routes, then the quarterly results of sales, expenses, profits, and passengers flown. After the January-March quarter of every year, it also shows annual results.
+
+The game is won by the first player to achieve the win conditions: link all 22 cities and carry a certain number of passengers (between 2.5 million and 4.5 million, based on difficulty level), all while remaining profitable. If a player goes for four quarters with a negative balance, the company is declared bankrupt and offered reorganization. If the game goes for 32 years (128 turns) without any player meeting the win conditions, the game is called a loss.
+
+Tips:
+
+Sound Test
+At the New Game / Continue screen, press Select. Then you should go to the sound test mode. Press Up or down
+to scroll, A to play the song and B to return to the game.
+
+http://en.wikipedia.org/wiki/Aerobiz

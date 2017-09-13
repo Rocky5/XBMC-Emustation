@@ -1,0 +1,25 @@
+Art of Fighting
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1994
+Developer: SNK
+Publisher: Takara
+Players: 1 or 2 VS
+_________________________
+The Art of Fighting series follows the conventions of the time in the sense that the player faces a variety of opponents in best two-out-of-three matches. Each of the game's characters have a unique fighting style and set of special techniques. The player has two basic attacks--punch and kick--as well as a utility button that switches between punches, kicks, and throws. A fourth button is used for taunting. Art of Fighting's contribution to the genre was the inclusion of a "spirit gauge" underneath the character's life bar. When characters perform special techniques, their spirit gauge is depleted and their special attacks become weaker. Players can also drain their opponent's spirit gauge by taunting them.
+
+The Art of Fighting series was also the first fighting series to allow players to perform a "super attack." In the original Art of Fighting, the player's character learns a super attack (dubbed the super death blow) by completing one of the game's bonus rounds (this technique is available by default in the 3rd game). All three games (except the original Art of Fighting for the Neo Geo) also feature "Desperation Attacks" that can only be performed when the player's health is low and the life bar is flashing red.
+
+The series also introduced graphical scaling into the genre: as the characters move away from each other, the camera will zoom out to keep both players on the screen. In previous fighting titles, the left and right sides of the screen acted as invisible boundaries; characters could only move as far from one another as the width of the screen permitted. Scaling allowed for a broader range of movement; the only boundaries in Art of Fighting are the edges of the stage. Character sprites in Art of Fighting change as the fight progresses to become more bruised and cut as damage is taken.
+
+Tips:
+
+Skip to Credits
+Start a new game, then select the Story Mode. When the game starts, pause and press: 
+Up, X, Left, Y, Down, B, Right, A, L, Y
+
+http://en.wikipedia.org/wiki/Art_of_Fighting

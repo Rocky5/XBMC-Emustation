@@ -1,0 +1,13 @@
+Columns
+Platform: Sega Genesis / Mega Drive
+Region: World
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+Columns is a puzzle game first created in 1989 by Jay Geertsen of Hewlett-Packard on the HP/UX with X Window System, with ports to DOS, Macintosh. Windows, and the Atari ST. In 1990, Geertsen sold the rights to Sega, where it was ported to the System C arcade board. This version was successful enough to be ported to various Sega and non-Sega hardware (including being both a Game Gear launch title and pack-in) and launched a series of sequels, that, despite bottomed-out popularity, continues to receive attention today.

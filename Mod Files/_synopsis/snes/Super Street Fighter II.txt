@@ -1,0 +1,34 @@
+Super Street Fighter II: The New Challengers
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1994
+Developer: Capcom
+Publisher: Capcom
+Players: 1 or 2 VS
+_________________________
+Super Street Fighter II was released for the Super Nintendo Entertainment System and Sega Genesis in 1994. The 16-bit console versions included additional game modes such as Group Battle, Tournament Battle and Time Challenge, as well as adjustable game speed.
+
+Tips:
+
+Different Color Outfits!
+To get different color outfits for the characters use different buttons to select them.
+
+Edit buttons right before a fight
+To edit what button does what right before a fight, simply hold select sometime before the versus screen appears, and do whatever you would normally do, until the edit screen appears. This should work in any mode, and in versus mode you can even select if either player should be CPU, or human }Reach M. Bison(Vega) without fighting CPU Select Arcade Mode normally. When you start your fight press START on the controller 2. Then select for the second player the same fighter the CPU was using and beat it. You will see yourself in the second fight!  Repeat this until you find M. Bison(Vega) and fight for your life!
+
+Select the 8th outfit
+When you select your fighter, press and hold all 3 punches or all 3 kicks until the outfit changes color.
+
+Use Up to 8 of Each Fighter in Group Battle
+Group Battle usually limits you to two instances of each fighter, but this code increases that number to eight.
+
+From the Game Start screen, enter Group Battle mode.  Then, using the second controller, alternately and repeatedly tap L and R until Vega laughs. Choose Match Play or Elimination from the menu. You and your opponent will now be able to use up to eight instances of each fighter.
+
+View Character Profiles
+When you start the game wait for the first profile and hold:  L + R on 2P
+
+http://en.wikipedia.org/wiki/Super_Street_Fighter_II

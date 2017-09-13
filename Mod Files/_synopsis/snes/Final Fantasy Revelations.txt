@@ -1,0 +1,66 @@
+Final Fantasy Revelations
+Original title: Final Fantasy VI
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: Zeemis
+Version: 1.0
+_________________________
+This is the "Core Hack" meaning it's not the whole game. What it is though is a large series of modifications I made to the game with help from other contributors which I'll list in the credits below.
+
+This hack contains:
+
+- New Title Screen
+
+- New Characters
+
+- New Spells
+
+- New Lores (Replaced to "Weave")
+
+- New Dialog/Menu Font
+
+- New Item Icons
+
+- New Items
+
+- New Content
+
+- Hold "B" to run.
+
+- Vicks/Wedge start with all Magitech skills.
+
+- "Annihilated" changed to Owned.
+
+- Psycho Cyan fix.
+
+- "Summon" ability now works.
+
+- "Sword Tech" is now sped up.
+
+- Names are now lower case.
+
+You may be wondering what "Weave" is, well when you combine two elements, it makes a new spell. This is what I call a "Spell Weave", original or not I liked the idea and implemented it.
+
+This hack was mainly made for rom hackers who hack bosses or for any other use which pertains to rom hacking.
+
+ Credits 
+
+- Dragonsbrethren for Magitek Enhancement Patch and help with title screen.
+
+- Lenophis for Esper Battle Menu Fix patch, "Summon This!" and helping me understand a lot of stuff.
+
+- ArmorVil for Cyans Sword Tech tweak.
+
+- Assassin for Alphabetized Rage tweak.
+
+- Anyone else I forgot.
+
+- Me, for making this possible.
+
+http://www.romhacking.net/hacks/492/

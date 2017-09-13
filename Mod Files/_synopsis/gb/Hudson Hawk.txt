@@ -1,0 +1,15 @@
+Hudson Hawk
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1992
+Developer: Ocean
+Publisher: Sony Imagesoft
+Players: 1
+_________________________
+Hudson Hawk, a cat burglar, has a mission: steal three of Da Vinci's works of art, which include a rocking horse known as "The Sforza", his sketchbook that he called "The Codex", and a precious crystal. The mission will take him through a mansion, castles, rooftops, subways, and the Vatican. Of course, getting all these items will not be as easy as it sounds. Not only does Hawk face security guards, guard dogs, and others, but he must also avoid setting off alarms. To help him, Hawk can either punch enemies, or throw a ball at them. 
+
+http://www.mobygames.com/game/gameboy/hudson-hawk

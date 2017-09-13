@@ -1,0 +1,15 @@
+Family Composer
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Gametype: Licensed
+Release Year: 1987
+Developer: Tokyo Shoseki
+Publisher: Tokyo Shoseki
+Players: 1
+_________________________
+
+Family Composer is a Rhythm / Music game, developed and published by Tokyo Shoseki, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578499.html

@@ -1,0 +1,14 @@
+Cool Spot
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: NMS Software
+Publisher: Virgin Interactive
+_________________________
+Cool Spot is a solid, colorful platform game featuring the 7-up mascot in the hero position. The game objective is fairly simple; you have to collect enough number of bonuses throughout each level in order to find the trapped Spots.
+
+http://www.mobygames.com/game/gameboy/cool-spot

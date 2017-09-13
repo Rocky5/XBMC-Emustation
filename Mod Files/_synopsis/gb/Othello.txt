@@ -1,0 +1,13 @@
+Othello
+Platform: Nintendo Game Boy
+Region: Europe
+Media: Cartridge
+Controller: Gameboy
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1990
+Publisher: Nintendo
+_________________________
+Othello is a Board game, published by Nintendo, which was released in Europe in 1990.
+
+http://www.gamefaqs.com/portable/gameboy/home/579567.html

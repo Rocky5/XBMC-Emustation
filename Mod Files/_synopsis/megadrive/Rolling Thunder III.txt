@@ -1,0 +1,77 @@
+Rolling Thunder III
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1993
+Developer: Namco
+Publisher: Namco
+Players: 1
+_________________________
+The game's plot is set around the same time period as its predecessor Rolling Thunder 2. With Albatross and Leila currently assigned to tracking down Gimdo, a new Rolling Thunder agent codenamed Jay is given the task to track down Geldra's second-in-command, Dread (a green skinned humanoid resembling Maboo from the first game). The story is presented in a more cinematic fashion than the previous games, featuring animated cut scenes between stages and on-screen text dialogue between the characters. Jay is assisted via radio by a contact named Ellen, who provides him with mission objectives.
+
+Gameplay:
+
+The game maintains the "shoot-and-take cover" formula of the previous installments. In Rolling Thunder 3, the player progresses through 10 levels and 3 secret areas (including an abandoned version of the original game's first stage) mostly by shooting hostile enemies, replenishing ammo by entering specially marked doors, and dodging or crouching under enemy fire by hiding behind objects such as crates. Unlike Rolling Thunder 2, the game features only a single-player mode. However, Rolling Thunder 3 builds upon the formula by adding additional elements to the series.
+
+Rolling Thunder 3 offers its fair share of new features to the series. Players now have the option to select one weapon from a total nine before beginning each level. In addition to the sub-machine gun, there's a flamethrower and laser gun similar to the ones in the Genesis version of Rolling Thunder 2 and three different types of grenades: regular, flash and cracker. Once the player's starting special weapon has been chosen in one stage, it cannot be chosen again in later stages.
+
+There are now two separate fire buttons, with one button mapped for the standard pistol and the other for the special weapon. The player also has the ability to shoot at angles or slash enemies with a knife when no special weapon is equipped. As they progress through the game, players will also be introduced to fast-paced vehicle stages, controlling Jay as he rides either a motorcycle on slick highways or jet-skis across rapid waters.
+
+The game does not require the player to complete the stages within a time limit and thus eliminates the time bonus doors. However, taking too long summons a sniper who begins shooting at Jay. Fortunately, the player's health bar consists of three health units instead of one, giving Jay the ability to endure more hits before dying. In addition, when Jay dies, the game allows the player to restart from the exact position he died at, rather than forcing the player to continue from a check point or the beginning of the stage as the prequels had done.
+
+As with the console versions of the previous games, the game gives player a password to begin a harder second quest that features a slightly extended ending once the game has been finished once. There are also another hidden password that replaces Jay's sprite in the game with that of Ellen dressed as a female agent. She has no cut scenes and the ending remains unchanged.
+
+Hints:
+
+- Extra Lives -
+Enter 'ANNOY' as a password to start out with 5 lives instead of the usual 3 lives.
+
+- Level Passwords -
+Factory
+SSEPP
+
+Highway
+APEOO
+AKEOP
+
+Las Vegas Night
+FXEOA
+
+Dread's Building
+AIKEJ
+AHEOU
+
+Pacific Ocean
+SLUEJ
+SFEKF
+
+Easter Island
+KISZO
+
+Underground Base
+LOSZU
+SFBZI
+
+Highjack
+BZSSZ
+
+Dread's Castle
+HJSAJ
+
+- Play as Ellen -
+Enter the following code at the Password Screen....
+GREED
+You should begin the game with Ellen instead of Jay
+
+- Play expert mode -
+Enter password as RISKY.
+
+- Level Select - 
+Enter the following code at the Password Screen....
+REIGN
+
+http://en.wikipedia.org/wiki/Rolling_Thunder_3
+http://www.gamefaqs.com/console/genesis/code/586435.html

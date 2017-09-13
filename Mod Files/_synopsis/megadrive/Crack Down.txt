@@ -1,0 +1,19 @@
+Crack Down
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1991
+Developer: SEGA
+Publisher: Sage's Creation
+Players: 1-2
+_________________________
+Crack Down is a top-down arcade shoot-'em-up title developed by Sega for their Sega System 24 arcade board. It has subsequently been ported to a variety of systems, including the Sega Mega Drive, Commodore Amiga, Amstrad CPC, Atari ST, Commodore 64, DOS and ZX Spectrum. The Mega Drive version is a common choice for compilations, and has therefore seen several re-releases among other early Mega Drive titles. It has also been brought to the Wii's Virtual Console service. For whatever reason, Sega had Sage's Creation publish the Mega Drive port in North America (it may have had to do with HOT-B making the port).
+
+The game features two heroes, Ben and Andy, who have to get through a series of levels as quickly as possible by placing bombs on marked X spots scattered around the levels. The levels are heavily defended, but the player has an array of weaponry including a cannon, machine gun, and superbombs at their disposal in order to stay alive.
+
+Crack Down is unusual in that its System 24 roots mean that the screen is always split into two. As a result, one of the main complaints for weaker systems (with lower screen resolutions) is that the majority of the screen is not used when playing a one-player game.
+
+There is a known glitch in the Amiga version of the game which causes the final level to crash. Recent fan hacks have fixed the problem, but it was never addressed during the production run.

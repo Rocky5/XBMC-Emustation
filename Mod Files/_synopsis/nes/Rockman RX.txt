@@ -1,0 +1,14 @@
+Rockman RX
+Original title: Rockman
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer > Action > Adventure 
+Gametype: Hack
+Players: 1
+Hacked by: Tokkan Kouzi Kanrinin
+_________________________
+Rockman RX is a completed hack that includes new graphics, altered bosses/weapons, damage sets, and completly new level layouts. Rockman RX is a superior Rockman hack. 
+
+http://www.datacrystal.org/wiki/Rockman_RX

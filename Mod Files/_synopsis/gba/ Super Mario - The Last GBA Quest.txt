@@ -1,0 +1,43 @@
+Super Mario : The Last GBA Quest
+Platform: Nintendo Game Boy Advance
+Region: Original Homebrew
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Platformer
+Gametype: Homebrew
+Release Year: 2008
+Developer: YodaJr, Omg
+_________________________
+"SUPER MARIO : The Last GBA Quest" is a platform game starring Mario on Gameboy Advance System.
+
+There are 7 levels, each one contain one hidden PA coin.
+
+You need to find all of these PA coins to go to the 8th level and rescue Peach.
+
+Story :
+ 
+A month after Mario Galaxy Adventures, Princess Peach had been captured by a mysterious bad guy. Go Mario! Save Peach again!
+
+How to play :
+ 
+Into world Map :
+
+Left and Right to select level.
+
+A/START to begin the selected level.
+
+Into a level :
+
+Left &amp; Right to Move
+
+Down to enter in a Warp Pipe
+
+B to run or shoot a fireball (only when you are Fire Mario)
+
+A to jump
+
+Secret :
+
+If you are Super Mario you can jump higher if you press down+A
+
+http://www.neoflash.com/forum/index.php/topic,4997.0.html

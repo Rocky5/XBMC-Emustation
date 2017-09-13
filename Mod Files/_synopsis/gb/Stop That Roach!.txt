@@ -1,0 +1,20 @@
+Stop That Roach!
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1994
+Developer: Koei
+Publisher: Koei
+_________________________
+Stop that Roach! is a turn-based strategy game where the player has to eliminate a number of cockroaches on each level.
+
+The player has five turns in which he can move of a certain amount of tiles, place traps, stomp to frighten the cockroaches, step on them, hit them with a broom or spray them with an insecticide. Next come the cockroaches' turn, their actions being defined by precise rules.
+
+If the insects can escape or reach the piece of food you're meant to protect, you lose the round. Victory is achieved if all cockroaches are either destroyed or captured.
+
+The game includes a detailed tutorial with explanations of all the game mechanics.
+
+http://www.mobygames.com/game/gameboy/stop-that-roach

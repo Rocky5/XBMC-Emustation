@@ -1,0 +1,15 @@
+Ballblazer
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Soccer
+Gametype: Licensed
+Release Year: 1988
+Developer: Lucasfilm Games
+Publisher: Pony Canyon
+_________________________
+
+Ballblazer is a one-on-one soccer match set in the future. You control a robot and try to snare a floating ball called a Plasmorb, which could then be fired or carried into the opponent's goal. You play on a simple 3d playfield which is split in half. You can play against the computer or against another robot controlled by a human player.
+
+http://www.mobygames.com/game/nes/ballblazer

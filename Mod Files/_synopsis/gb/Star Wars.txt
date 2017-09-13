@@ -1,0 +1,16 @@
+Star Wars
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: NMS Software
+Publisher: Nintendo
+_________________________
+This game is based closely on Star Wars Episode IV: A New Hope. It combines a number of gameplay styles, but primarily it is a side scrolling run-and-jump platformer.
+
+The game begins on Tatooine, where you, as Luke Skywalker, must travel around and meet up with R2D2, C3PO, Obi-Wan, and so on. Eventually, you travel through Mos Eisley and the Death Star as well. While most of the game has you controlling Luke, Han or Leia directly, some of the various game styles include a first-person Millennium Falcon asteroid belt sequence, and an overhead view Death Star trench run.
+
+http://www.mobygames.com/game/gameboy/star-wars_

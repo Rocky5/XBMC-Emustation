@@ -1,0 +1,20 @@
+Silva Saga
+Original title: Silva Saga
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2009
+Players: 1
+Translated by: aishsha
+Version: 1.0
+_________________________
+Complete patch for Silva Saga (sequel to Minelvaton Saga) on NES. This is a rather well-done Dragon Quest clone with nice plot and kickass visuals.
+
+Important note before you start playing:
+
+The game was dumped very badly so DELETE ALL THE SAVE FILES ON THE TITLE SCREEN, THEN CHOOSE AN EMPTY ONE! If you don't do that, you'll stuck in the middle of nowhere!!!!!!!!
+
+http://www.romhacking.net/trans/1394/

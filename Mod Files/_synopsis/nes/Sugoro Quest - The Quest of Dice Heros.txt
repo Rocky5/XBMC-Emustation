@@ -1,0 +1,34 @@
+Sugoro Quest: The Quest of Dice Heros
+Original title: Sugoro Quest: Dice no Senshitachi
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2007
+Translated by: AlanMidas
+Version: koogly.titivilus
+_________________________
+Sugoro Quest is a genre-bender of a game. It's an RPG, but yet it has many board game elements. It may sound like a strange combination, but it works surprisingly well. It almost comes off as a tabletop RPG simulation.
+
+The back-story is fairly simple. The Kingdom of Siland is plagued with various problems, all of which involve monsters living in caves wreaking havoc on the countryside. Of course, what kind of game would it be if there weren't fearless heroes to step in and fix things? That's where the four Dice Heroes step in. The four Dice Heroes will, of course, be under your control.
+
+The four Dice Heroes are your basic stock-issue fantasy characters. There's the fighter, he's got a moderately high amount of strength, and a decent balance of everything. There's the dwarf, who's got plenty of strength and endurance, but he's dumb as a brick. There's the elf, who's really good at magic but has no HP and very little strength. Then there's the half-elf, who's fair and balanced. You must pick one of these characters before each level, and you're stuck with them until you finish.
+
+Now, all of this may sound cliche, and you'd be correct. But all the cliches in the story are offset but the offbeat game play. Each area is made up of a path that is predetermined for the most part. Every time you move, you roll a die and move that many spaces. Some squares trigger events, which range from encounters with townsfolk, to warp tiles, to healing spring, and more. Some squares have multiple exits, and the one you end up using depends on which character you are, or how you answer a certain question. Any square without an event leads to a battle.
+
+Battle is a bit different compared to most NES role-playing games. You face monsters one-on-one, and each side rolls a die. The side that rolls the higher number gets a number of attack equal to the difference between the die rolls. So if you roll a four and the monster rolls a two, you get two attacks. The loser gets to sit there and take it. In the even of the tie, you keep the tying roll and roll again. The winner of that roll gets to attack, and the defender loses their defenses. Using magic operates on the same principal.
+
+Basically, each level continues like this until you either die, or you reach the cave where the boss resides. Then you can go back to the castle, buy some gear, and get your next assignment, until you finish the game.
+
+If you're looking for an NES role-playing game that's a welcome departure from Dragon Warrior and Final Fantasy clones, this game is right up your alley.
+
+Translation Description:
+
+There was a complete translation of this game made years earlier (done by, I think, RPG Castle), but the dialogue was completely made up, so it doesn't really count as a translation.
+
+So AlanMidas stepped in and did an actual translation. The game is completely in English and playable, but there are some bugs. Sometimes, the text in the status screen is gibberish (though the stats themselves are fine), and there's the occasional typo. But if you can deal with that, (I've made it to the end, myself), then feel free to check it out.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/218/

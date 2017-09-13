@@ -1,0 +1,14 @@
+DynaMike
+Platform: Nintendo Game Boy Color
+Region: Protoype (USA)
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Puzzle
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Engine Software
+Publisher: Unpublished
+_________________________
+DynaMike is a Puzzle game, developed and published by Engine Software, which was cancelled before it was released.
+
+http://www.gamefaqs.com/portable/gbcolor/home/939192.html

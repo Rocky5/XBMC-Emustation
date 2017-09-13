@@ -1,0 +1,19 @@
+Smurfs Travel the World, The
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1996
+Developer: Virtual Studio
+Publisher: Infogrames
+Players: 1
+_________________________
+Night falls at the Smurf Village. Inquisitive Smurf brings Smurfette along to Papa Smurfs' laboratory to see the Magic Crystal that allows them to travel to anywhere in the world, but suddenly Smurfette breaks it, and they are gone! Now they must face the challenges in all continents in order to retrieve all shards of the Crystal and return home.
+
+A classic platformer, this title allows the player to choose between Inquisitive Smurf and Smurfette (there are no differences between characters) and collect all 10 shards scattered on the playfield. There is a larger emphasis on exploring the levels rather than killing enemies (no score is given for them), so they can be avoided in most occasions, but if the needs arise, be dealt with a kick or in Mario fashion by jumping over them. Some shards can only be obtained by jumping on an enemy, using the sprint jump or using the scenario (ropes, or vines). While large falls don't harm the Smurfs, improper contact with enemies does. Each 1-up has four hearts, and at the fifth contact a life is lost and the player must restart the level.
+
+Once all lives are lost, the game is over - there are no continues. To fill the meter there are hearts and small Smurf icons scattered or hidden somewhere in the level, and on all stages there's a key that unlocks a bonus level if all three are collected at the end of the continent. In these bonus levels the player collects as much objects as possible which translate into hearts when the time closes. If the player fills the meter, a 1-up is awarded.
+
+http://www.mobygames.com/game/genesis/smurfs-travel-the-world

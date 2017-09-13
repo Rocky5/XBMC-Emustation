@@ -1,0 +1,19 @@
+Mushroom Nightmare
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2004
+Hacked by: Shadic
+Version: v1.2
+_________________________
+Mushroom Nightmare is a hack of the classic game, Super Mario Brothers. It features completely revamped graphics, along with major level editing throughout the game. It also features a new storyline, as the brothers aren't trying to save the Princess anymore, it's the Chancellor they're after.
+
+Bowser has taken the Mushroom Chancellor hostage, and is using his power to warp the landscape to his wicked desire. His forces are all over the land, and the Brothers must come to the rescue again, before the King of the Koopa forces the Chancellor to forfeit his powers to him. This game takes place right after the original SMB.
+
+The brothers now have different abilities! Mario, being the one that previously rescued the princess, is more experienced of the two. He is able to jump higher than his brother. However, due to his larger mass, it takes a longer amount of time and distance for him to stop, after a sprint. Luigi plays exactly like Mario, or Luigi from the original SMB.
+
+http://www.romhacking.net/hacks/114/

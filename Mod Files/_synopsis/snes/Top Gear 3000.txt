@@ -1,0 +1,95 @@
+Top Gear 3000
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1993
+Developer: Kemco
+Publisher: Kemco
+Players: 1 to 4
+_________________________
+The last game of the Top Gear series for the SNES exceeds ordinary dimensions and goes into outer space. Face the challenges found in 48 exciting tracks and become the best pilot in the entire galaxy! Just like the previous games, Top Gear 3000 comes with a password system that allows the player to continue a game in progress. The upgrade system of Top Gear 2 gained new breath and now comes with newly designed parts: ranging from tires to engines up to atomic turbos! As players travel from one planet to another via spacecraft, they race on various planets in different systems, getting progressively harder. The prize money earned in each race increases as does the price of new car parts... Moreover, the game comes with a versus mode which allows up to 4 players to race simultaneously via splitscreen.
+
+Tips:
+
+}Codes
+Go to the passwords screen and enter:
+WJMR BCPR 22T1 BPL0 112 Get $1, 000, 000
+MICKSMELANIE Qualify Every time
+Enter B in all spaces Start with $3, 000, 000
+MICK4CLAUDIA Unlock All Power Ups
+}System Passwords:
+Enter these passwords at the password entry screen to
+go to the corresponding system.
+JSM9 3FR1 ?HQL B6R0 3R6 Alderam System
+KS7M 3FR1 ?G98 86R0 3R7 Kajam System
+0SL2 LFR? ?GYJ C2?0 3F7 Kraz System
+?9S1 LFRS ?H6L C6P0 3N8 Lesath System
+QS3N 3FRS ?HS3 C6P0 3F6 Miram System
+YSRX LFR? ?H?X C2?0 3P7 Naosphein System
+G9XF 3FR1 9G99 86R1 377 Sarin System
+SSJ5 LFRS ?HB7 C6P0 326 Subrat System
+V9HL LFRS ?G68 CPP0 387 Toygeta System
+WSB1 LFR? ?H29 C2?0 376 Vega 5 System
+CSZ1 LFR1 9HX9 86R1 316 Zosmar System
+
+Various Passwords:...
+Enter the following passwords at the PASSWORD screen.  All passwords start the game with 6 Million+Credits/ALL car upgrades set at Level 6(max.)/ALL optional upgrades.
+
+0TDW 3FJ6 R3ZT MR16 356 
+Final Stage 'Kraz System'/1 PLAYER FULL/Difficulty  set at EASY
+
+0MDW 3FJ6 R3ZT MR16 L58 
+Final Stage 'Kraz System'/1 PLAYER FULL/Difficulty set at HARD
+
+0MDW 3FJ6 R3ZT MR16 V58 
+Final Stage 'Kraz System'/1 PLAYER FULL/Difficulty set at MEDIUM
+
+0TDW 3FJ6 R3ZT MR16 546 
+Final Stage 'Kraz System'/1 PLAYER SPLIT/Difficulty set at EASY
+
+0MDW 3FJ6 R3ZT MR16 ?48 
+Final Stage 'Kraz System'/1 PLAYER SPLIT/Difficulty set at HARD
+
+0MDW 3FJ6 R3ZT MR16 X48 
+Final Stage 'Kraz System'/1 PLAYER SPLIT/Difficulty set at MEDIUM
+
+0CDW M816 R3ZT MR16 90M 
+Final Stage 'Kraz System'/2 PLAYERS/Difficulty set at EASY
+
+0WDW M816 R3ZT MR16 S0C 
+Final Stage 'Kraz System'/2 PLAYERS/Difficulty set at HARD
+
+0WDW M816 R3ZT MR16 10C 
+Final Stage 'Kraz System'/2 PLAYERS/Difficulty set at MEDIUM
+
+CTDW 3FR1 83ZT MR16 3W6 
+Stage 2 'Zosmar System'/1 PLAYER FULL/Difficulty set at EASY
+
+CTDW 3FR1 83ZT MR16 LX6 
+Stage 2 'Zosmar System'/1 PLAYER FULL/Difficulty set at HARD
+
+CTDW 3FR1 83ZT MR16 VX6 
+Stage 2 'Zosmar System'/1 PLAYER FULL/Difficulty set at MEDIUM
+
+CTDW 3FR1 83ZT MR16 5V6 
+Stage 2 'Zosmar System'/1 PLAYER SPLIT/Difficulty set at EASY
+
+CTDW 3FR1 83ZT MR16 ?W6 
+Stage 2 'Zosmar System'/1 PLAYER SPLIT/Difficulty set at HARD
+
+CTDW 3FR1 83ZT MR16 XW6 
+Stage 2 'Zosmar System'/1 PLAYER SPLIT/Difficulty set at MEDIUM
+
+CCDW M816 R3ZT MR16 9RM 
+Stage 2 'Zosmar System'/2 PLAYERS/Difficulty set at EASY
+
+CCDW M816 R3ZT MR16 SSM 
+Stage 2 'Zosmar System'/2 PLAYERS/Difficulty set at HARD
+
+CCDW M816 R3ZT MR16 1SM 
+Stage 2 'Zosmar System'/2 PLAYERS/Difficulty set at MEDIUM
+
+http://www.mobygames.com/game/snes/top-gear-3000

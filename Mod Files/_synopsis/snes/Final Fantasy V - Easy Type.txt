@@ -1,0 +1,47 @@
+Final Fantasy V EasyType
+Original title: Final Fantasy V
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2001
+Players: 1
+Hacked by: JCE3000GT
+Version: 1.0
+_________________________
+What this does is make monsters extremely easy to beat, in fact if you spend longer than 5 seconds in battle there must be something wrong. This patch was requested of me in 2001 by someone who didn't want to play through the game normally but still wanted to see the story unfold.
+
+These patches were intended for those who want to participate in a good story without having to do mindless leveing and tedious battles.
+
+Tips:
+
+Unsealed Dark Elf's Cave
+I'm sure most of you remember that if you use weapons, armor, or accessories made out of any metal or any silver in the Dark Elf's cave. However, there's a little glitch that can be exploited if you don't feel like using wooden gear or your bare hands to fight.  Simply put, make sure all metallic/silver equipment is unequipped before the start of any random battle. Then when you get into battle, equip your metal weaponry(and shields, if you want) and you won't be paralyzed for that battle! Just remember to unequip the items after the battle and before the next battle
+and you can dominate your way through the Dark Elf's cave! As far as I know, this works in the Playstation and WonderSwan re-releases, too, but I know for a fact it works in the original FFII and FFIV carts.
+
+250 of a weapon!
+OK, this glitch is a way to get 250-255 of a weapon.  However, make sure you follow my directions EXACTLY how
+I say to, or else the trick will not work.  To start the trick, you need the Avenger sword, which you can find in the Sylvan cave in the underground, I think.  First, equip Cecil with arrows in his GOOD hand, and the any kind of bow in his BAD. Get into a battle (preferably an easy one), and make sure that nobody does anything. If a character's turn comes before his, have them parry (press right and the parry option will come up). Once it gets to Cecil's turn, enter the item screen. Grab the arrows he has equipped and bring them down to an empty slot. Without leaving the
+window, select the Avenger sword and move it up to his BAD hand.  From there, press B to exit the items window and his commands will disappear because the Avenger sword causes the person with it equipped to be berserked.
+Don't have any other characters do ANYTHING! Just let Cecil beat up all the enemies.  After the battle, go to the Equip screen for Cecil.  Move the Avenger sword to an empty slot, and then without leaving the screen move the sword you would like to duplicate 250 times into his GOOD hand (the one with the numbers). De-equip, and re-equip, and voila!  You should have a sword with a circle and a number next to it in your inventory. If not, make sure
+you followed my directions EXACTLY.  This works well for duplicating the Excalibur, and having Edge throw it for massive damage. Happy gaming!
+
+How to skip the Sealed Cave
+This has to be done right after the battle with Golbez in the underworld, right after the battle you get Rydia back. You cast Warp and you return to the Crystal Room with the Crystal returned. Doing this makes you completely eliminate the quest of the Sealed Cave.
+
+No MP cost Sylph spell
+Once you have the Sylph spell, simply arrange Rydia's spell list so that Sylph is in the top-right corner.  Whenever you cast the spell, Rydia will not lose any MP. Note, though, that if Rydia does not have at least 25 MP (the normal casting cost), you will not be able to select the spell for casting.
+
+Unlike the duplicate weapon trick, this glitch DOES NOT work in the PlayStation re-release (Final Fantasy Chronicles).
+
+Obtain the hidden summons quicke
+The Mage and Bomb summon spells are very random to archive after a battle with either a bomb or mage.  Hunting them down can very time consuming especially with a low encounter rate. A good way to enhance the chances of receiving it is with multiple kills in only one battle. You will need a lot of phoenix downs for this.  In a battle with either a mage or bomb (there must at least be two), memorize the party's attack order. With one member, select to kill the enemy. The next party member should IMMEDIATELY select a phoenix down and place it on the enemy. The result will be the enemy is killed and then resurrected by the next party member. You may repeat this for as many phoenix downs as you have, then finish the battle. The amount of treasure you earn will be a lot greater, and
+you will most likely earn a bomb or mage spell in the process.
+
+Item Duplication
+Firstly make sure you have the item you want to duplicate, and enter a battle and select the item option of the person with the item you wish to duplicate.  Then Scroll down to a blank space on the item list and press A to place a glove there, scroll back up to the equipped items then press A on the one you'll be duplicating, then press B to leave the screen.  Next, hold the L and R buttons to run from the battle, press X to see the subscreen, select Equip and the character who has the item, press A on empty spot the item used to occupy, then press A on the actual
+item that's now in the items list. You will now see that your character has two of the selected item equipped.
+
+http://www.romhacking.net/hacks/273/

@@ -1,0 +1,33 @@
+Wario's Woods
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1994
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 or 2 VS
+_________________________
+
+Toad, the player's avatar in the game, has to arrange monsters and bombs to stop Wario from taking control of the forest. The player controls a character that moves the already fallen objects. Toad can pick up individual objects or entire columns of objects and move them elsewhere. The object of the game is to clear the player's screen of objects, the objects of this game being the monsters. This is accomplished by arranging monsters and bombs of the same color in horizontal, diagonal or vertical rows of three or more blocks. Clearing four objects at once lowers your opponent's screen by one row in vs. mode, or gives you more time in single-player mode.
+
+Trivia:
+
+The NES version was later re-released for Wii's Virtual Console in 2006, and in Animal Crossing in 2002. Wario's Woods is a Tetris-derived falling block game, although in this case the blocks are actually forest-dwelling creatures and bombs. Due to the increasing popularity of the Super NES, Wario's Woods was the last licensed game released for the Nintendo Entertainment System in North America. [1] This game is the only game in which Toad has the starring role, although he has been available as a playable character in various games since Super Mario Bros. 2.
+
+Controls: (I wish this could align)
+
+Move = Directional Pad
+Pause = PauseStart/Select
+Grab (one) = A
+Grab (pile) = B
+
+Hints:
+
+-Hard Battles
+Highlight "VS. Computer Mode" and hold Left, then press Start
+
+http://www.gamefaqs.com/console/nes/home/587758.html
+http://en.wikipedia.org/wiki/Wario%27s_Woods

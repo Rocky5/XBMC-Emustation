@@ -1,0 +1,17 @@
+Kawasaki Superbike Challenge
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Motorcycles
+Gametype: Licensed
+Release Year: 1995
+Developer: Domark
+Publisher: Time Warner Interactive
+Players: 1 or 2
+_________________________
+Kawasaki Superbike Challenge is a motorcycle racing game that uses the same engine as F1. It includes 14 standard-length race tracks, plus the Suzuka 8 Hours endurance race, available in both training and Championship modes. The game is unlicensed (except by Kawasaki), so all riders and teams are fictional.
+
+The game now has more polygonal roadside objects than F1, and there is still a Turbo mode, allowing for faster racing at the expense of some of the detail. You have the ability to turn on or off weather (during rainy days the graphics are darker and the bike has less traction). The number of laps on each course can be 5, 10 or 15, and there are 4 skill levels. Some changes have been made to how the vehicle handles, to emphasize the switch from cars to bikes.
+
+http://en.wikipedia.org/wiki/Kawasaki_Superbike_Challenge

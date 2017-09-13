@@ -1,0 +1,34 @@
+Aero Fighters
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Vertical
+Gametype: Licensed
+Release Year: 1992
+Developer: Video System
+Publisher: McO'River, Inc.
+Players: 1 or 2 CO-OP
+_________________________
+There are 8 stages in this game. The beginning stages consists of randomly chosen areas from nations of unselected fighters (assuming those fighters have nations). If Rabio or Lepus is chosen, all 4 rival nation stages become playable. After completing all rival nation stages, there are 4 more stages.
+
+In SNES version, the are 2 stage loops, and the order of rival nations is fixed. In 2nd loop, the game's difficulty increased, except in VERY HARD difficulty, where 2nd loop is easier.
+
+Player and team-specific endings occur after completing 1st loop. After completing 2nd loop, ending consists of all pilot pairs giving a speech, with 2nd pilot in the last pair giving cheat code.
+
+The SNES version adds hidden boss attack and time attack modes, Rabio and Lepus fighters (from Rabio Lepus, known outside of Japan as Rabbit Punch).
+
+English version was released in limited quantities, and is one of the rarest cartridges for the Super NES.
+
+Tips:
+
+Player Select Screen Codes
+At the player select screen, hold the R button then enter the code on Controller 2
+
+A, Left, Y, Right, X, Down, B, Up 
+Endurance Mode
+
+Left, Down, Right, X, Y, A, B, Left, Down, Right, Down, X, Y, A, B 
+Play as Rabio
+
+http://en.wikipedia.org/wiki/Aero_Fighters

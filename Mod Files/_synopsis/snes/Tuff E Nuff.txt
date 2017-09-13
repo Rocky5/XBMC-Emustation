@@ -1,0 +1,157 @@
+Tuff E Nuff
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1993
+Developer: Jaleco
+Publisher: Jaleco
+Players: 1 or 2 VS
+_________________________
+The story is set in a post apocalyptic Earth in the year AD 2151. To the inhabitants on Earth it seems like the only chance for a decent life is to fight, in a "survival of the fittest" scenario. A man named Jado finds a powerful blue fighting armor and calls himself "The Fighting King". With it, he quickly gains control of the world. Using his newfound power, he erects a tower with six guards. Many try to take Jado's power away, but unfortunately, they die in their attempt. Some weeks after the building of the tower, a tournament is held all over the world to see who is the strongest. Of the many tournaments, only four people are chosen. Now they need to fight each other to see who is going in the tower.
+
+Tips:
+
+Tuff E Nuff
+
+Fight as boss against CPU
+On the Main Menu press Left(3), Right(3), Left(7) then press Start.
+
+Slow motion
+During a 1-player game press start on controller two
+
+Play as Bosses in the Two-Player Mode
+This is to allow Bosses to be playable in the Two-Player Mode Input the Boss code, hit the Reset button, then input
+the code listed below.  Note: The Boss code for One Player MUST be inputed first or the Two-Player code will not work.  Right 3 times, Left 3 times, Right 7 times, press Start
+
+Kotono's Passwords:
+423235 Final Stage (easy)
+734524 Final Stage (hard)
+734344 Final Stage (normal)
+477611 Stage 1 (easy)
+740100 Stage 1 (hard)
+477071 Stage 1 (normal)
+467671 Stage 2 (easy)
+770160 Stage 2 (hard)
+770700 Stage 2(normal)
+440500 Stage 3 (easy)
+751037 Stage 3 (hard)
+440760 Stage 3 (normal)
+470560 Stage 4 (easy)
+741017 Stage 4 (hard)
+741637 Stage 4 (normal)
+451437 Stage 5 (easy)
+722726 Stage 5 (hard)
+451617 Stage 5 (normal)
+441417 Stage 6 (easy)
+752706 Stage 6 (hard)
+752526 Stage 6 (normal)
+422326 Stage 7 (easy)
+733655 Stage 7 (hard)
+422506 Stage 7 (normal)
+452306 Stage 8 (easy)
+723635 Stage 8 (hard)
+723455 Stage 8 (normal)
+433255 Stage 9 (easy)
+704544 Stage 9 (hard)
+433435 Stage 9 (normal)
+
+Syoh's Passwords:
+512306 Final Stage (easy)
+463635 Final Stage (hard)
+463455 Final Stage (normal)
+526762 Stage 1 (easy)
+437211 Stage 1 (hard)
+526142 Stage 1 (normal)
+556742 Stage 2 (easy)
+427271 Stage 2 (hard)
+427011 Stage 2 (normal)
+537611 Stage 3 (easy)
+400100 Stage 3 (hard)
+537071 Stage 3 (normal)
+527671 Stage 4 (easy)
+430160 Stage 4 (hard)
+430700 Stage 4 (normal)
+500500 Stage 5 (easy)
+411037 Stage 5 (hard)
+500760 Stage 5 (normal)
+530560 Stage 6 (easy)
+401017 Stage 6 (hard)
+401637 Stage 6 (normal)
+511437 Stage 7 (easy)
+462726 Stage 7 (hard)
+511617 Stage 7 (normal)
+501417 Stage 8 (easy)
+412706 Stage 8 (hard)
+412526 Stage 8 (normal)
+562326 Stage 9 (easy)
+473655 Stage 9 (hard)
+562506 Stage 9 (normal)
+
+Vortz's Passwords:
+754144 Final Stage (easy)
+625473 Final Stage (hard)
+754324 Final Stage (normal)
+417671 Stage 1 (easy)
+760160 Stage 1 (hard)
+760700 Stage 1 (normal)
+710500 Stage 2 (easy)
+661037 Stage 2 (hard)
+710760 Stage 2(normal)
+460560 Stage 3 (easy)
+771017 Stage 3 (hard)
+771637 Stage 3 (normal)
+761437 Stage 4 (easy)
+672726 Stage 4 (hard)
+761617 Stage 4 (normal)
+471417 Stage 5 (easy)
+742706 Stage 5 (hard)
+742526 Stage 5 (normal)
+772326 Stage 6 (easy)
+643655 Stage 6 (hard)
+772506 Stage 6 (normal)
+442306 Stage 7 (easy)
+753635 Stage 7 (hard)
+753455 Stage 7 (normal)
+743255 Stage 8 (easy)
+654544 Stage 8 (hard)
+743435 Stage 8 (normal)
+453235 Stage 9 (easy)
+724524 Stage 9 (hard)
+724344 Stage 9 (normal)
+
+Zazi's Passwords:
+403255 Final Stage (easy)
+714544 Final Stage (hard)
+403435 Final Stage (normal)
+546742 Stage 1 (easy)
+457271 Stage 1 (hard)
+457011 Stage 1 (normal)
+447611 Stage 2 (easy)
+750100 Stage 2 (hard)
+447071 Stage 2(normal)
+557671 Stage 3 (easy)
+420160 Stage 3 (hard)
+420700 Stage 3 (normal)
+450500 Stage 4 (easy)
+721037 Stage 4 (hard)
+450760 Stage 4 (normal)
+520560 Stage 5 (easy)
+431017 Stage 5 (hard)
+431637 Stage 5 (normal)
+421437 Stage 6 (easy)
+732726 Stage 6 (hard)
+421617 Stage 6 (normal)
+531417 Stage 7 (easy)
+402706 Stage 7 (hard)
+402526 Stage 7 (normal)
+432326 Stage 8 (easy)
+703655 Stage 8 (hard)
+432506 Stage 8 (normal)
+502306 Stage 9 (easy)
+413635 Stage 9 (hard)
+413455 Stage 9 (normal)
+
+http://en.wikipedia.org/wiki/Tuff_E_Nuff

@@ -1,0 +1,26 @@
+Kunio-Kun's Soccer League
+Original title: Kunio-kun no Nekketsu Soccer League
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports > Soccer 
+Gametype: Translated
+Release Year: 2003
+Translated by: PentarouZero
+Version: 1.2
+_________________________
+Like almost everything Technos has ever made, Kunio Kun Soccer is a tribute to violence. It's a sequel to World Cup Soccer, which is the American bastardization of another Kunio game.
+
+Along with all the normal violence you'd come to expect from a Kunio sports game (namely, the ability to beat up other players to gain possession of the ball), this game offers some other interesting features. You have some weather effects, which make things more difficult by adding stuff like wind gusts and lightning strikes (which fry anyone who happens to be standing in a puddle). ALl the weather effects seem to tax the NES, however  thanks to good old slowdown. YOu also get to strategize, and tell the other players what to do, though most oftne they'll ignore you and run in circles and pass the ball to absolutely no one.
+
+It's an alright game, but there's probably much more soccer fun to be had elsewhere.
+
+Translation Description:
+
+Well, as far as everybody knows, there is no Japanese left in this game. It's definitely playable, all the menus and such are in english and readable. However, the nitpicky-ness in me must point out the non-menu stuff sounds kind of odd, and there are plenty abbreviations which seem to be the result of a lack of screen real estate. Given that fixing all that would require major-league reprogramming, you can't totally knock PentarouZero for it. In short  it's playable.
+
+~Version 1.2 adds some fixes and such~
+
+Reviewer: wraith
+http://www.romhacking.net/trans/569/

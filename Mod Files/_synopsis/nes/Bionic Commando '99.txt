@@ -1,0 +1,16 @@
+Bionic Commando '99
+Original title: Bionic Commando
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2006
+Players: 1
+Hacked by: Chris Covell
+Version: 1.0
+_________________________
+The original Japanese version of Bionic Commando (Hitler no Fukkatsu: Top Secret) underwent quite a bit of censoring before being released in English. Due to Nintendo's strict censorship policies, all references to the Nazi Party, such as swastikas and the word "Nazi", had been replaced with inoffensive material. This hack attempts to make the game be more like its Japanese counterpart. A few graphics have been switched, and the Badds are now Nazis. A few colors in the pallete were darkened, too, as Nintendo felt it was necessary to brighten everything up a bit. Also, a few parts of the script were rewritten/corrected, which unfortunately includes a famous quote by a soldier in one of the neutral areas.
+
+http://www.romhacking.net/hacks/82/

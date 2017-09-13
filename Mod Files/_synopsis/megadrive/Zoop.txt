@@ -1,0 +1,49 @@
+Zoop
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1995
+Developer: Hookstone
+Publisher: Viacom New Media
+Players: 1
+_________________________
+WHY ARE YOU WASTING TIME READING THE BOX WHEN YOU COULD BE PLAYING THE GAME?! Right here inside this little box is the excitement you crave, the challenge you need. Level after level of brain-burning action coming at you from all sides, faster and faster until your thumbs are numb, your eyes are aching and your mind is molten. And there's only ONE thing you know... "I can't stop playing this game!"
+
+Gameplay:
+
+The player controls a triangle in the center of the screen. Every second (or more often in advanced levels), a piece comes in from the side and possibly pushes other pieces forward. Two consecutive pieces will never come in from the same quadrant, and runs of consecutive identical pieces on one row are longer than one might think statistically.
+
+If a piece falls into the center square, the game is over.
+
+If the player shoots a piece of the same color as their triangle, it will be "zooped" (cleared) and points are earned. If the piece behind the target piece is also of the same color, it is also "zooped." The same goes for the next piece, and so on. In the example Image:Zoop genesis.jpg, shooting to the left of the position in the screenshot will "zoop" the green pieces and return the player to the center, facing right (the opposite direction).
+
+If a piece of a different color than the player's current piece is shot, the player's piece will switch colors with it. This is also what happens when a piece of a different color is encountered after zooping one or more pieces of the same color. In the example, shooting down would bounce off the orange piece (leaving a green piece behind), and return with the orange piece.
+
+When the quota of "zooped" pieces is met, the game speeds up and (before level 10) the background changes.
+
+Various special pieces do different things:
+
+    - A proximity bomb (shaped like a lightning bolt) blows up pieces in a 3-3 area centered at the target piece.
+
+    - A line bomb (often shaped like a gear) clears a whole target line of pieces.
+
+    - A color bomb (often shaped like a paint splotch) clears all the pieces in a quadrant that match the target piece.
+
+    - Collect five spring pieces to clear the whole screen.
+
+    - If a piece is pushed right next to the center square, it immediately disappears. In this way, the player may not lose because of a powerup entering the middle square.
+
+- Points -
+Generally speaking, every cleared piece is worth 100 points. In the case of zooping more than one piece at once, each piece is worth 100 points more than the piece before it. For example, zooping 3 pieces results in 100 + 200 + 300 = 600 points. In addition, if a row is full (one more piece being added will cause a loss of game) and all the pieces are of the same color, zooping the row earns a bonus of 5,000 points for the smaller rows on the top and bottom, and 10,000 for the rows on the left and right. All pieces cleared as a result of any of the four powerup items are worth 100 points.
+
+- Opti-Challenge -
+To make matters even more difficult, the game also employed what was referred to as "opti-challenge" backgrounds. As the game progressed, the backgrounds would become increasingly distracting. Early on, this would involve the use of contrasting colours, and increasingly intricate colour schemes. Background patterns would also become more intricate and would make subtle use of asymmetrical elements. Ultimately, the background on level 9 employed black and white tiles, roughly the size of the invading pieces, while the center square contained a picture of clouds, which expanded to fill the screen on levels 10 and later. Although the opti-challenge element of the game was used as a selling point, very little information exists about the technique itself, and no other game on the market has ever openly claimed to use opti-challenge graphics.
+
+- Sound and music -
+The MS-DOS version of the game supports various sound cards, and features wavetable-like MIDI music. The sound effects have a cartoonish tone to match the vivid colors used through the stages. The music is basically jazz, and "evolves" with the game. The title and options screens, and the first stages, feature "smooth jazz" tunes. As the levels get harder, the music gets more and more tense, adding to the fast-paced atmosphere of the game.
+
+http://www.gamefaqs.com/console/genesis/home/586629.html
+http://en.wikipedia.org/wiki/Zoop

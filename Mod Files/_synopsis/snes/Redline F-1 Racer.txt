@@ -1,0 +1,15 @@
+Redline F-1 Racer
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Cars
+Gametype: Licensed
+Release Year: 1993
+Developer: Absolute Entertainment
+Publisher: Absolute Entertainment
+Players: 1 or 2 VS
+_________________________
+Redline F-1 Racer is a Formula One simulator for the Super Nintendo Entertainment System. Everything from treacherous right turns to gasoline is simulated as the player tries to win the Formula One championship. The player can play a single race or a season mode where the winner takes all, and the losers can wait until next year.
+
+http://en.wikipedia.org/wiki/Aguri_Suzuki_F-1_Super_Driving

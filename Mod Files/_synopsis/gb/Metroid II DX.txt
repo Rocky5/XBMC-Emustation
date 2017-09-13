@@ -1,0 +1,19 @@
+Metroid II DX
+Original title: Metroid II: The Return of Samus
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Hack
+Release Year: 2003
+Hacked by: Metroid Evolution
+Version: 1.0
+_________________________
+This is basically an updated version of Dan Davis' already excellent color file from the Game Boy Colorizer homepage. There are too many individual changes to list, but in general terms here are the changes in the updated version:
+
+-All inadvertently revealed secrets are once again secrets! -All mismatched tiles now match! -Small changes to a few sprites. -Very small color changes to a few background elements.
+
+There are a few minor glitches which are documented at the Metroid Evolution site.
+
+http://www.romhacking.net/hacks/175/

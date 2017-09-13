@@ -1,0 +1,15 @@
+Great Waldo Search, The
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle, Strategy
+Gametype: Licensed
+Release Year: 1992
+Developer: Radiance Software
+Publisher: THQ
+Players: 1
+_________________________
+The Great Waldo Search is a 1992 search game based on the 1989 book of the same name by British illustrator Martin Hanford. The game was produced by American-based developer Radiance Software and published by THQ for the Nintendo Entertainment System, Super NES and Mega Drive.
+
+The game has two modes, normal and expert. In expert mode, objects are more well-hidden, and clocks with clues give one text clue instead of having the clue over audio clip. Completing all five levels ends the game.

@@ -1,0 +1,43 @@
+Jeopardy!
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Game Show
+Gametype: Licensed
+Release Year: 1987
+Developer: Rare
+Publisher: Gametek
+Players: 1 to 3 VS
+_________________________
+
+It was the famous game-show that shocked the world when it made its return in 1984 - What is Jeopardy? Correct!
+
+Jeopardy is a game-show based on not answering a question, but rather questioning an answer. Your mind will be tested, your brain will be challenged, and you will be in Jeopardy!
+
+Directions:
+
+The object of Jeopardy is to question answers on a board with 6 categories with clues that range from $100-$500 in the first round, then $200-$1000 in the second round. It's not as easy as it sounds.
+
+The scoring is dead simple.
+
+If you can get a correct response, you win the dollar amount selected and get to choose the next answer. However, if you don't get a correct response, you lose your money, but it doesn't necessarily mean you lose your turn. If one of your opponents can place a correct response, they win the money and choice of the next answer.
+
+There are 3 Daily Doubles throughout the game: one in the first round (Jeopardy), two in the second round (Double Jeopardy). If you are in control of the board and get a Daily Double, you get to wager an amount not to exceed the total you have. If you're below Zero (We've all been there) you can wager a maximum of 500 in the first round, 1000 in the second. If you get a correct response, you win the money. If you don't, you lose the amount you wagered.
+
+In Final Jeopardy, the round after Double Jeopardy, contestants are given a category and they must wager an amount not exceeding the total they have and whoever has the most money at the end wins. 
+
+Controls:
+
+Control pad Up: Ring In
+A Button: Pick letters and numbers
+B Button: Pick letters and numbers
+Start Button: Start game after main menu
+
+Hints:
+
+Winning the Final Jeopardy round
+There's a simple strategy called "Doing the math." Firsthand, you need a calculator. Next, (now this is just an example) if you've got 7000, and your nearest opponent has 3000, use the calculator, to times their score by 2, which will be 6000, in this case. Then, minus 6000 from 7000. You'll have 1000. Now, minus one from 1000. You'll have 999. Now wager that and win the game, because there's no way for him to win, even if you get the answer wrong and he gets it right. 
+
+Reviewer: Bloody_riven
+http://consoleclassix.com/nes/jeopardy.html

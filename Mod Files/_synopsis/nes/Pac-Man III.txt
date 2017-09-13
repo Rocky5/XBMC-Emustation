@@ -1,0 +1,18 @@
+Pac-Man III
+Original title: Ms. Pac-Man
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Maze 
+Gametype: Hack
+Release Year: 2006
+Hacked by: DahrkDaiz
+_________________________
+Pac-Man III is an inventive hack of the NES version of Ms. Pac-Man that adds new boards, new colors, new features, and new eyeballs.
+
+Yes, new eyeballs. Ms. Pac-Man has appropriately been changed to Mr. Pac-Man for this hack, but for some reason DahrkDaiz, in his ceaseless quest for NES graphical enhancement perfection, decided to give Pac-Man bulging white eyeballs (if you'll recall, Pac-Man was originally eyeless in the first Pac-Man). After playing this game for about thirty minutes, those disturbingly googly eyes have a startling way of being permanently etched into your brain.
+
+Nightmares aside, this is a really fun hack. DahrkDaiz designed 32 new levels for a wide-eyed Pac-Man to chomp his way through. Some of them are on the traditional side of things (ho-hum square-ish), while some are quite devious (invisible walls!). Never one to just modify a few tiles and walk away, DD had to provide a completely new feature or two. In this case, he provided a new way to play the levels: on the title screen, you can select either "Linear" play, which takes you through the boards in sequential order, or "Random" play, in which (surprise!) you play the boards in a random order. DD also added a pellet counter in the upper-right portion of the screen which keeps track of how many pellets you have left to eat before completing the board.
+
+http://www.vintagecomputing.com/index.php/archives/category/retrogaming/nes-famicom/page/7/

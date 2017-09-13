@@ -1,0 +1,14 @@
+Iridion 3D
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Action
+Gametype: Licensed
+Release Year: 2001
+Developer: Shin'en
+Publisher: Majesco Games
+_________________________
+In this Afterburner-inspired Gameboy Advance launch title, a player pilots the SHN fighter through seven pseudo-3D levels. Returning to Earth from a space mission, the protagonist notices that the Iridion empire has taken over. The SHN fighter can be upgraded with five different types of weapons for varying methods of destruction. This is German developer Shin'en's first English game, however, they have prior experience, having developed sound drivers for both the GBA and GBC. 
+
+http://www.mobygames.com/game/gameboy-advance/iridion-3d

@@ -1,0 +1,15 @@
+Gift
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2001
+Publisher: Cryo Interactive
+_________________________
+Unlike its big 3D brother on the PC and Playstation 2, Gift for the Game Boy Color is a top down 2D action game.
+
+As Gift, a small cute red devil-like creature with an attitude, you have to save Lolita Globo and defeat the Shadow of Black Deep Dark Night. To do so you must find seven treasures and seven gnomes in seven different worlds. Worlds are divided in rooms, in rooms puzzles have to be solved and enemies to be fought. Finally each world is guarded by a level boss.
+
+http://www.mobygames.com/game/gameboy-color/gift_

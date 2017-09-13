@@ -1,0 +1,83 @@
+Super Star Wars
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1992
+Developer: Sculptured Software
+Publisher: Lucas Arts
+Players: 1
+_________________________
+A long time ago in a galaxy far, far away...
+
+Episode IV
+
+A New Hope
+
+It is a period of civil war. Rebel spaceships, striking form a hidden base, have won their first victory against the evil Galactic Empire.
+
+During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet.
+
+Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy....
+
+~ From the actual game.
+
+You've watched the movie, now play the game! Super Star Wars takes you from Tatooine to the Death Star as Luke, Han, and Chewbacca. Be warned: This platformer can get tough.
+
+Directions:
+
+Take control as Luke Skywalker, Han Solo, and Chewbacca, as you fight on foot, on a landspeeder, and in the air in order to destroy the death star and save the princess!
+
+Controls:
+
+A Button - Weapon Select (Luke)
+B Button - Jump
+X Button - Special
+Y Button - Fire
+L Button - Slight Screen Scroll
+R Button - Slight Screen Scroll
+Start Button - Pause
+Select Button - n/a
+
+Tips:
+
+Codes
+On the title screen press: X, B, B, A, Y. NOTE: This code can't be entered with any other codes. 
+5 Extra Continues
+
+Press A, A, A, A, X, B, B, B, B, Y, X, X, X, X, A, Y, Y, Y, Y, B at the title screen. During game, press L + R on controller 2. 
+Debug Menu
+
+A, B, A, Y, A + X when the 'Start Game' and 'Option Menu' selections appear 
+Four Continues
+
+Press A, A, A, A, X, B, B, B, B, Y, X, X, X, X, A, Y, Y, Y, Y, B at the title screen. During game, hold A + B+X + Y and press select
+Invincibility
+
+During game, hold A + B+X + Y and press Start. Left/Right select music, up/down to switch menus, press A to play
+music.  Play certain stages with whatever music you want During the game press and hold A, B, Y, X, and then press start 
+Sound Test
+
+Press A, A, A, A, X, B, B, B, B, Y, X, X, X, X, A, Y, Y, Y, Y, B at the title screen. During game, press START on controller 2.
+Stage Skip
+
+At the title screen, press Y, Y, X, X, A, B, X, and A. 
+Start with Luke's Lightsaber
+
+When the Start Game option appears on the title screen press A, B, A, B, A, B, A, B. 
+View Credits
+
+Character looks at you
+Press Select to make your character look at you. If playing as Chewbacca, he will also growl.
+
+Ninety-nine lives
+There are two sets of floating rocks that must be jumped across in the Sand People level. At the very beginning of the second set of rocks, jump off the edge of the cliff and face to the left. Luke will land on a ledge and enter a small cave area. Ignore the falling rocks and shoot the blaster in the air to reveal several extra lives. Collect them and lose your current life to restart the level at the top of the cliff.  Repeat this procedure to collect up to ninety-nine lives.
+
+Secret Room
+In the Inside Sandcrawler level, immediately before the half way location when you cross the drilling spikes, jump forward into a wall instead of jumping to the sliding doors to the lasers. There will be two guns and three or four hearts located there. Besides the ledge with the flamethrower, shoot at the opening side. There will be an extra life.
+
+
+Reviewer: Nestea
+http://www.consoleclassix.com/snes/super_star_wars.html

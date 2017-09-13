@@ -1,0 +1,17 @@
+Super Mario Bash
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2001
+Hacked by: Jeremy Bash
+Version: 1.0
+_________________________
+Super Mario Bash includes all new levels (all 8 worlds) and new graphics. I find most Mario hacks to be too hard (by making them super-hard they get away with only changing world 1?), and not actually fun, like it's supposed to be. So my levels are more like what you'd find in a real Mario game.
+
+BTW, I borrowed some graphics from the Japanese Mario 2, but I think there's a little bit from other hacks as well. It's been 5+ years since I made it so I can't remember for sure, nevertheless find and contact the original authors to ask for permission. Hope it's not a problem.
+
+http://www.romhacking.net/hacks/205/

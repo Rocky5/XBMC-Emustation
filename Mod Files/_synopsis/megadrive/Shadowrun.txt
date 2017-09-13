@@ -1,0 +1,70 @@
+Shadowrun
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1994
+Developer: BlueSky Software
+Publisher: SEGA Entertainment
+Players: 1
+_________________________
+The year is 2050 and the megacorps rule by the power of information. everyone is on file in the global mainframe... everyone but you and a handful of "invisible" outlaws called shadowrunners. Move through the grim and magical realities of futuristic Seattle and uncover a diabolical plot that could destroy the world. Team up with spell casting mages, wire-headed deckers, or mythic orcs and trolls of the distant past. Take on a variety of shadowruns including: Cleaning up the streets, jacking into the Matrix for a big time cyber-heist or pulling off a risky "Corporate Extraction." Stalk the cities in real-time combat and glide through the virtual battlefield of the Matrix, where an encounter with Black ICE may be your last!
+
+Gameplay:
+
+Shadowrun offers the player an open style of gameplay, where one controls the main character, Joshua, in third person perspective during both exploration and combat. Battles are real time, and although of varying difficulty, tend to be relatively short. Initially, the player is restricted to a single area of the game, but shortly gains access to almost all other areas. Access to other areas is accomplished primarily by taxi, although various restrictions and other modes of travel also exist, such as requiring a visa or bypassing the visa check with the use of a helicopter.
+
+As in most RPG videogames, the characters' skills and attributes can be improved. However, Shadowrun uses a unique "Karma" system, which allows full character customization. Karma, roughly equivalent to experience, is earned for successfully completing a run, killing enough enemies, or advancing the game's plot. Karma is then spent on specific stats as determined by the player.
+
+To earn money and Karma, the player must participate in shadowruns, illegal jobs provided by pseudo-anonymous contractors who are, within the legal boundaries of their work, referred to simply as Mr. Johnsons. Mr. Johnsons usually are corporate liaisons who want their bosses' dirty work done without compromising them. All Mr. Johnsons work in backroom booths in different clubs and bars through the city. Depending on the Johnson, they will randomly offer one of four types of jobs: courier missions, Ghoul hunting, Matrix runs, or infiltrating a corporate headquarters. Different Mr. Johnsons have varying levels of difficulty and pay for their jobs, which can be influenced by the player's negotiation statistic.
+
+At the start of the game, the player can choose for Joshua to be either a samurai, a decker, or a gator shaman. These only determine Joshua's beginning statistics and equipment; samurai begin focused on combat, deckers on use of the Matrix and electronics, and shamans on the use of magic. Over the course of the game, the player may choose to continue to focus on one particular skill or set of skills or branch out into other areas; however, only characters who choose to start as a shaman (and allied mages) can use magic and getting too many "cyberware" implants can reduce its effectiveness.
+
+To help the player make things easier during hard shadowruns, Joshua can also recruit other characters to help him in his shadowruns. These are called shadowrunners, and can also be customized as Joshua can. The price of hiring a shadowrunner depends on the duration of the contract, as well as the runner's attitude toward the player. Shadowrunners can be hired for a single run or for a lifetime for ten times the price. The player can only directly control one character at a time; other characters (including Joshua) are controlled by the computer's AI.
+
+The primary method of combat in Shadowrun is the use of firearms, although magic plays a significant role in combat in both an offensive and defensive capacity. Shadowrun keeps track of ammunition; if a character runs out they may have to resort to melee. The use of magic, on the other hand, is kept in check by damaging the player for casting high-level spells: the player can mitigate or even eliminate this through the use of items, or by reducing the success chance and/or power of the spell.
+
+A variety of shops exist throughout the game, providing guns and modifications, cyberware, spells and spell upgrades, cyberdecks and utilities, and other miscellaneous items. In addition to the numerous shops in the game, the player can collect a variety of contacts who provide the player with information, services, or (frequently illegal) goods.
+
+- The Matrix -
+
+In tone with the Shadowrun pen-and-paper universe, certain characters can also explore the Matrix, a global computer network that can be accessed through cyberterminals. It is there that the player, in a third person perspective, can hack networked systems for various purposes. However, in order to do so, a series of intrusion countermeasures must be dealt with, the difficulty of which is proportionate to the system being attacked: the high-end systems of law enforcement and influential corporations will be significantly more difficult to break than that of a nameless hotel.
+
+The cyberdeck, carried by Joshua, can be used by any shadowrunner, and like real computers has a variety of statistics, such as memory, storage, and loading speed. These can be improved individually through upgrades or all at once by purchasing a more advanced model. Primarily, the cyberdeck's use, aside from entering the Matrix, is to hold various utilities to hack the networks properly (such as Masking, Attack, and Analyzing programs) and to save data downloaded from the Matrix itself.
+Shadowrun's Matrix system gameplay.
+
+While inside the Matrix, the interface changes. The shadowrunner that entered it is replaced by a chromed character - referred to as persona, its reflection in the cyberworld - which navigates through the network. Networks are made up of a series of nodes: geometric shapes representing different facets of the system, such as the CPU or data stores. Each node has a different function: the CPU, for example, can cancel system alerts and crash the entire system. The difficultly of defeating a particular node is determined by its color: blue (unprotected node), green (weak and occasionally unprotected), orange (average), and red (strong).
+
+Each node is (usually) protected by intrusion countermeasures called ICs (pronounced "Ice"). These are designed to forcibly dump the persona from the system by various means. ICs appear as different figures covering the nodes, and have different effects depending on their type. Trace IC, for example, will force the player out of the system after a certain period of time. Other forms will attempt to trigger alerts, thereby increasing the strength of other IC, or attack the player until they are forced to log out. Tar IC, which hide behind other forms of IC, can even permanently delete the player's utilities, effectively making further progress impossible.
+
+Matrix runs consist of stealing or erasing data, or crashing a system via the CPU. During corporate infiltrations, the player can use internal cyberterminals to shut off the building's security, making the run easier. In addition to its role in shadowruns, the Matrix can be used as a direct source of income by pilfering data from systems and selling it. Files sell for a semi-random price based on the system of origin and difficultly rating of the node the data was stolen from; a single file can sell for as much as 10,000 nuyen, or turn out to be completely worthless.
+
+- Gangs -
+
+In Seattle, there are three local racial gangs that have well-defined territories and many influences on corporation affairs. These gangs are:
+
+Halloweeners Humans Redmond Barrens    Yakuza
+Eye-Fivers       Elves Penumbra District    Mafia
+Orks             Orcs       Puyallup Barrens    Lone Star
+
+The player can visit each of these gangs, and pay to speak with their leaders (or be asked to do so, depending on his reputation). There, he can ask for protection from the gangs' random attacks, as well as for the phone number of their allegiance bosses. After Joshua's reputation has been highly upgraded, and after he obtains the numbers of these bosses, he can contact the Yakuza and Mafia, and pledge loyalty to either one of them himself, obtaining specific benefits and exclusive items and discounts. Of course, after he sides with any of these criminal organizations, the rival gangs will attack him indiscriminately. On the other hand Lone Star, the government's police force, can't be contacted directly.
+
+Hints:
+
+- Cheat Menu -
+Enter the following code at the Title Screen....
+A - B - B - A - C - A - B
+Then fo into the pocket secratary, below the Save/Load is a blank line. Go into that option and you can unlock some awesome cheats
+
+- Lower Shadowrunner Hiring Costs at No Risk -
+Complete a moderate or advanced Shadowrun that requires you to collect payment from the Johnson you contracted with. Then hire a shadowrunner for the short-term BEFORE collecting your payment. Upon receiving payment, the game will treat your hired shadowrunner like he/she successfully completed the contract with you, and will lower his/her hiring price anyway.
+
+- Easy Stolen Package Corp Run -
+Stolen packages are always randomly located in safes in corporate buildings. Each time you exit and reenter a corp building, the package relocates to a different safe.
+That said, always take the Corp Run that requires you to retrieve a stolen package from Lone Star Security. The Lone Star building has a safe right next to the exit. Enter, check the safe, exit the building, and repeat the procedure until the package appears in that safe. It is the easiest Corp Run in the game.
+
+http://www.gamefaqs.com/console/genesis/code/366854.html
+http://www.gamefaqs.com/console/genesis/home/366854.html
+http://en.wikipedia.org/wiki/Shadowrun_(Sega)

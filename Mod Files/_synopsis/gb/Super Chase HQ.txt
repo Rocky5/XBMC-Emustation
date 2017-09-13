@@ -1,0 +1,16 @@
+Super Chase H.Q.
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Racing
+Gametype: Licensed
+Release Year: 1993
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+As an undercover agent of Chase Headquarters, your job is to patrol the streets and track down five criminals. You are given a mission briefing before you start which gives information on the suspect and what car they drive. Then you drive across the city without crashing into other cars, and catch up with the criminal's car. To arrest the suspects, you must keep bumping into their car until it is no longer functional. And you have to do this under a strict time limit. You can't afford to crash into cars or buildings or you waste time getting on the road again.
+
+However, once you've caught up with your suspect, you are given more time. Your car is also equipped with turbo boosts, which you can use to gain extra speed if you are way behind the criminal. Each arrest is based on a "suspicion".
+
+http://www.mobygames.com/game/gameboy/chase-hq

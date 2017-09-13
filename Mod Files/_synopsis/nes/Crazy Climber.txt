@@ -1,0 +1,26 @@
+Crazy Climber
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1986
+Developer: Nihon Bussan
+Publisher: Nichibutsu
+_________________________
+
+As Crazy Climber, climb your way to the top of a series of buildings, where a helicopter is waiting to pick you up and take you to the next building. As Climber scales a building, he is able to climb up and sideways but he cannot climb down. While climbing a building, windows will open and close simultaneously. If any window closes on either of his hands he will lose his grip. However, if a window closes on both of his hands, he will fall to his death, resulting in the loss of a life. You have three Climbers in total, but you are awarded an extra Climber every 30,000 points. Besides windows, Climber is faced with other dangers, including:
+
+- Bald-headed guys who hurl various objects at you.
+- Pesky condors who fly by, dropping eggs and droppings of an unpleasant substance.
+- Falling steel girders and iron dumbells.
+- Electrical "Nichibutsu" signs with a dangling live wire.
+- Falling "Crazy Climber" signs.
+- King Kong leaping from side to side of the building and slams his hands against the windows.
+
+The climber must try to avoid or overcome each of those hazards which he will encounter as he continues climbing in his attempt to reach the rooftop. If he falls to his death by windows or objects, another climber will replace him and will start at the same location where the last one fell. The specific danger will not be present at the same point, so the climber can go further up to face the next danger. Most of the hazards are announced by certain recognizable musical themes.
+
+Crazy Climber is awarded a bonus score on each building every time after getting carried off by the helicopter. However, each bonus score will decrease by every ten seconds that the climber will spend scaling each building as he attempts reach the top. Somewhere in the game, there is "The Lucky Balloon", which can lift Climber about ten stories and raise the player's bonus score if he catches it.
+
+http://www.mobygames.com/game/nes/crazy-climber

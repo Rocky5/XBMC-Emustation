@@ -1,0 +1,23 @@
+U.N. Squadron
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter, Side-Scrolling, Flight
+Gametype: Licensed
+Release Year: 1991
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+The game is a typical side scrolling shooter, going against the trend of other Capcom shooters, such as 1942, and 1943: The Battle of Midway, which are vertically scrolling shooters. However, like other Capcom shooters, the player has a life / energy bar that is consumed over the course of a single life as the player sustains damage. A trait highly uncommon among other comparable arcade style shooters which normally use a system of reserve lives, where one of which is lost upon a single enemy hit.
+
+The player can choose between three mercenary pilots: Shin Kazama, Mickey Simon, and Greg Gates. Each pilot flies a specific plane and has slightly different capabilities.
+
+Tips:
+
+Gamer Mode
+At the options menu, highlight Game Level with controller one and hold X and A on controller two.  Press Right twice on controller one. Exit the menu, and enjoy.
+
+
+http://en.wikipedia.org/wiki/U.N._Squadron

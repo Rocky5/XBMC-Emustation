@@ -1,0 +1,29 @@
+Warlock
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle, Side-Scrolling
+Gametype: Licensed
+Release Year: 1995
+Developer: Realtime Associates
+Publisher: LJN
+Players: 1
+_________________________
+The goal of the game is to collect 6 stones and then defeat the evil Warlock.
+
+Trivia:
+
+Level Passwords:
+THKTH Fifth Rune, Area 1
+DCTFF Fifth Rune, Area 5
+BRSHT Fourth Rune, Area 1
+HBLST Fourth Rune, Area 3
+GRKKL Second Rune
+BSTJK Sixth Rune, Area 1
+LHBHL Sixth Rune, Area 4
+DFGBH Sixth Rune, Area 6
+SHPJL Third Rune, Area 1
+CDJHL Third Rune, Area 2
+
+http://en.wikipedia.org/wiki/Warlock_(video_game)

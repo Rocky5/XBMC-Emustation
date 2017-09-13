@@ -1,0 +1,42 @@
+Metal Marines
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Sci-Fi
+Gametype: Licensed
+Release Year: 1993
+Developer: Namco
+Publisher: Namco
+Players: 1
+_________________________
+The game is set in the year 2117, two years after the Antimatter War. The player leads a military force whose main unit is the Metal Marine: a 16 meter (50 ft) high, 93-plus ton mecha.
+
+Tips:
+
+Start with more Money and Energy for each level 
+Enter CSDV as a password
+
+Level Passwords:
+HBBT 02
+PCRC 03
+NWTN 04
+LSMD 05
+CLST 06
+JPTR 07
+NBLR 08
+PRSC 09
+PHTN 10
+TRNS 11
+RNSN 12
+ZDCP 13
+FKDV 14
+YSHM 15
+CLPD 16
+LNVV 17
+JFMR 18
+JCRY 19
+KNLB 20
+
+
+http://en.wikipedia.org/wiki/Metal_Marines

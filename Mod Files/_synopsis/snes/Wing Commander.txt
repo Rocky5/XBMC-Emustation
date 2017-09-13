@@ -1,0 +1,71 @@
+Wing Commander
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Flight Simulator
+Gametype: Licensed
+Release Year: 1992
+Developer: Origin Systems
+Publisher: Mindscape
+Players: 1
+_________________________
+In The Distant Future, Mankind Is Locked In A Deadly War...
+
+2629 A.D. Terran Confederation exploration ship, Iason, penetrates the Vega Sector and encounters a spacecraft of unknown origin. Iason Commander, Jedora Andropolous, beams the greeting designed by Earth's Committee for Interaction with Alien Intelligences. The alien vessel opens up with all guns, destroying the Iason and all hands.
+
+2634 A.D. The Terran Confederation declares war on the Empire of Kilrah in the Vega Sector. The Kilrathi, a vicious catlike race, retaliate with a punitive strike against the human colony on McAuliffe. After days of intense combat, the Kilrathi spearhead is momentarily broken.
+
+2639 A.D. Kilrathi forces occupy and enslave the human world of Enyo. In Phase I of the Enyo Engagement, a small human attack force drops space mines and engages enemy ships. As the Kilrathi escape the mined region, they belatedly realize that it is the jump point for Phase II of the attack. The Enyo Engagement ends with the Kilrathi forced into retreat.
+
+2649 A.D. Terran ground forces launch an attack on a Kilrathi colonial fortification, but are routed by unexpected Kilrathi fighter-craft support. TCS Tiger's Claw fights a delaying action to give the Terran fleet time to reach safety. The Tiger's Claw is able to jump back into Terran space with most of its engines destroyed and half its pilots listed as casualties. The carrier spends six months in space dock, being repaired and refitted.
+
+Today You are a rookie pilot on the refurbished Tiger's Claw. You will learn your mission objectives for attacking and fighting the Kilrathi in secret briefings onboard the mother ship.
+
+--From the SNES Wing Commander instruction manual.
+
+Directions:
+
+"The game begins on your mother ship, the TCS Tiger's Claw. Onboard, you move from room to room to learn about your comrades-in-arms and your combat mission. Once you know your flight mission, you're off to fight the Kilrathi.
+
+If you fail, the dreaded Kilrathi will prevail as overlords on all human worlds. So get out there and kick some tail!" (This paragraph can be found in the instruction booklet)
+
+The basis of how this game works is that you complete a series of missions by clearing checkpoints, escorting other ships, overcoming obstacles, and more. This can be a challenging task, especially since enemies ships can surround you at any time. There are a lot of controls in this game which can be kind of confusing, but once you get used it you'll find that this game can be quite fun. Please take note at all the controls listed below, because there are a lot of actions that require multiple buttons to perform. 
+
+Controls:
+
+A Button - Fire special weapon
+B Button - Fire normal gun
+X Button - View navigation map (will not work if navigation system is damaged)
+Y Button - Afterburner
+L Button - Decrease speed
+R Button - Increase speed
+Start Button - Pause
+Select Button - Use with other button to perform a specific action (see below)
+L + R buttons - Reduce speed to 0
+Select + A Button - Cycle to next available weapon
+Select + B Button - Cycle to next available gun type
+Select + X Button - Select target to lock on to. (Press X again to lock on, only works in targeting mode.)
+Select + Y Button - Engage autopilot (when no enemies/obstacles around)
+Select + L Button - Switch between weapons and damage display
+Select + R Button - Select navigation, targeting, or communications systems.
+L + R + Select + Start Eject
+
+Hints:
+
+Dodging enemies
+If you are being attacked, use the afterburner and fly all around (not straight) to avoid them. Then try to get the enemy in your view by using your radar so you can attack back.
+
+Get partner to break and attack
+When you're in range of enemies, quickly press select + R until you get to communications then tell your partner to break and attack by pushing x (or press select + x to cycle through other commands).
+
+Tips:
+
+Invincibility &amp; Sound Test
+At title screen, press B, A, B, Y, B, Y, L, A, R, A, Start.  Then in options select any of the missions from the 13 areas.
+
+Start in the middle of the game, w/ 20 kills in one sortie in the Rostov system, flying a Raptor with Iceman Go to continue, and input AABBCCDD as your handle and BBCCDDFFGG as your code.
+
+Reviewer: Matt
+http://www.consoleclassix.com/snes/wing_commander.html
+

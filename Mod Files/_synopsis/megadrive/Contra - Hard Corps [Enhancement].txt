@@ -1,0 +1,32 @@
+Contra: Hard Corps [Enhancement]
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Hack
+Release Year: 2008
+Developer: Konami
+Publisher: Konami
+Players: 1 or 2 CO-OP
+Hacked by: MIJET
+Version: 1.0
+_________________________
+It's a hack, not a retranslation, although the script has been cleaned up. Lots of minor tweaks and things to make this my ideal version of the far superior USA release. There may even be some undocumented stuff I added…
+
+- Copyright screen edited slightly.
+- Copyright screen can now be skipped by pressing the start button.
+- Minor rewording in options menus.
+- Maximum number of lives in options menu increased to 5 (default is still 3).
+- Got rid of the annoying "press start to exit" feature in some menus.
+- Start button can now be used to confirm some options.
+- Start button can now be used to select your character.
+- Mission briefings can now be skipped by pressing the start button.
+- You can now hold buttons B &amp; C to skip through text faster.
+- In-game font fixed such that lower-case characters are now usable.
+- Added an alternate font (activated with a code).
+- Added 'e accent aigu' for 'coup d'état'.
+- Script corrected, edited, and optimized.
+- Soft reset added.
+
+http://www.romhacking.net/hacks/450/

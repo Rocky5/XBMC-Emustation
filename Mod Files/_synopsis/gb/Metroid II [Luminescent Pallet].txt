@@ -1,0 +1,15 @@
+Metroid II [Luminescent Pallet]
+Original title: Metroid II: The Return of Samus
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Hack
+Release Year: 2007
+Hacked by: Zman
+Version: 1.0
+_________________________
+This is a color hack for Metroid II. I used the Game Boy Colorizer for this. As there have been other color hacks for this game. I found I had a different vision in mind. So I made this more luminescent and thematic version. I looked for a continued feeling from the original nes game. Please enjoy this color hack.
+
+http://www.romhacking.net/hacks/204/

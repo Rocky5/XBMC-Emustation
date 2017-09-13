@@ -1,0 +1,41 @@
+King's Bounty
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1991
+Developer: New World Computing
+Publisher: Electronic Arts
+Players: 1
+_________________________
+Maximus was a good king. His subjects were happy, businesses were successful, food was tasty, and all seemed right. Since he ruled over four continents with only his wise judgment and Scepter of Order, this was a considerable achievement. Little did the King know, however, that an evil creature named Arech Dragonbreath planned on stealing the scepter to throw the world into chaos.
+
+One night while Maximus slept, Arech teleported inside the Royal Chambers and pulled the Scepter of Order from the King's grip. He then ordered his followers to attack the continents and take as much land as they desired. Meanwhile, Maximus grew seriously ill. It seems the Scepter's return will not only restore the kingdom to its former glory, but also save the King's life.
+
+Arech shattered the magical instrument into 25 pieces, giving sixteen to evil nobles, one for himself, and scattering the remaining eight across the continents. This is where you come in. You'll need to save the dying king and four continents by retrieving all 25 parts of the Scepter of Order. Depending on the difficulty level you select, you'll either have 200, 400, 600 or 900 days to accomplish this.
+
+The four characters you'll choose from include Sir Crimsaun the Knight, Lord Palmer the Paladin, Tynnestra the Sorceress, and Mad Moham the Barbarian. During your quest you'll be able to amass armies (depending on your character's leadership skills), siege castles, obtain contracts, fight turn-based battles and manage your weekly commission. Passwords will allow players to continue their game at any time.
+
+Controls:
+
+Movement
+
+D-Pad: Move in direction you want to sail, ride or fly
+B Button: Fly, press again to land over grassy spot
+
+Siege
+
+D-Pad Up or Down: Choose troop to garrison castle
+A or C Button: Assign troop
+B Button: Leave castle
+
+Combat
+
+A or C Button: Activate arrow target
+D-Pad: Move target
+A or C Button: Move to selected area or attack enemy (if target is on enemy)
+
+Reviewer: by Scott Alan Marriott
+http://www.allgame.com/game.php?id=14677&amp;tab=overview

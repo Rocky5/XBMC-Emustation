@@ -1,0 +1,16 @@
+Double Dragon NES: Arcade Mix
+Original title: Double Dragon
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Beat 'em Up 
+Gametype: Hack
+Release Year: 2006
+Players: 1 or 2 CO-OP
+Hacked by: hiro1112
+Version: v1.1
+_________________________
+This is a hack of Double Dragon for the NES. What I have been trying to do was make the NES version a bit more authentic to the Arcade original. I changed a few graphics that I felt didn't really fit in or changed them to look like something from the original. I also changed palletes to look like the original. Probably the biggest pallette change you will notice is the Final level. It is white by default, but the arcade was goldish. So I changed the whole level to be that pallette.
+
+http://www.romhacking.net/hacks/138/

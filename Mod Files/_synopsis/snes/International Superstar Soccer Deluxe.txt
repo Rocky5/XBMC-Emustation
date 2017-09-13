@@ -1,0 +1,52 @@
+International Superstar Soccer Deluxe
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Soccer
+Gametype: Licensed
+Release Year: 1995
+Developer: Konami
+Publisher: Konami
+Players: 1 to 4 CO-OP, VS
+_________________________
+International Superstar Soccer Deluxe (ISS Deluxe) is the sequel to International Superstar Soccer (ISS), Konami's saga of soccer games.
+
+ISS Deluxe has realistic animations and player sprites. The player can choose from 16 formations and 8 strategies and can compete with 36 national teams with recognizable celebrity players (like Valderrama, Baggio, Ravanelli, Petkov, ...), but their names are fictitious.
+
+There are several competitions available: International Cup, World Series (League), Scenario Mode and customizable mini-cups/leagues.
+
+The Deluxe version, released in the same year as ISS, contains several developments over the original. These changes refer to the SNES version.
+
+ - It was made possible to play with two players co-operatively against the CPU
+
+ - Extra commentary was added, although it was basic and consisted of a few set phrases such as "Down the wing!" and "Blocked shot!", which sometimes played a little too late, to comical effect
+
+ - Player graphics and game AI were improved
+
+ - Substitution and player selection was improved, making it possible to tell the type of player being selected, striker, defender, etc.
+
+ - Activating one of the set strategies results in the name of the strategy appearing on screen
+
+ - Corner kicks and direct free kicks no longer have a few seconds before taking where the camera pans around the players. It was made possible to control panning before the kick is taken
+
+ - The timer shows a ring graphic which counts down the time in each half
+
+ - It is possible to tackle the goalkeeper when the ball is out of play, frequently (but not always) resulting in a red card
+
+ - Curling the ball became more pronounced, including the ability to curl kicks taken by the keeper
+
+ - It's no longer possible to knock down the reporters standing behind the goal by hitting them with the ball.
+
+Tips:
+
+All Star Team
+At the title screen press R, Up, Down, L, X, B, Left, A, Right, Y, if you did it correctly you will hear a dog's bark. Note: You have to use the 2nd controller (1st doesn't work at all for this code)
+
+Dog Code
+At the start screen, press Up, Up, Down, Down, Left, Right, Left, Right, B, A and start. It must be done in the 2nd controller (doesn't work in the 1st)
+
+Extra skill points
+Enter edit players mode before the match and use all available skill points. Highlight the 'Cancel' option and press Y for 200 additional skill points.
+
+http://en.wikipedia.org/wiki/International_Superstar_Soccer_Deluxe

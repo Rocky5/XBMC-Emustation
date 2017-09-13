@@ -1,0 +1,29 @@
+Jelly Boy
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Side-Scrolling
+Gametype: Licensed
+Release Year: 1991
+Developer: Probe Entertainment
+Publisher: Ocean Software
+Players: 1
+_________________________
+Jelly Boy is a gelatinous humanoid pink blob on a mission throughout some strange worlds. He travels throughout such landscapes as giant toy factories and arctic snowfields during his quest, facing down all manner of dangerous enemies and obstacles. He can jump and he can launch a large fist from his stomach (he is a blob, after all). Further, different levels have special power-ups that allow the blob to assume different forms that are useful in specific circumstances. These include a hot air balloon (for floating up to special items), a hammer (for smashing obstructing blocks), a submarine (for more effectively navigating an undersea bonus level), a skateboard (for blazing through a level on a deadline), and a pogo stick (for extra high jumping). Not all of the power-ups are useful, though. One item turns Jelly Boy into a block so that he is unable to move for several seconds.
+
+Jelly Boy collects musical notes in lieu of having a power meter. Being hit knocks away all of his collected notes and if he gets hit again without having any notes, he will lose a life. Jelly Boy also collects a variety of fruit throughout his quest. Accumulate enough fruit to earn extra lives. Certain types of fruit have other side effects (orange = more time on the clock, avocado = invincibility).
+
+Tip:
+
+Jelly Boy
+
+Passwords:
+9YYP1H 2TXQ6F BQP934 CSGCQP Aztec Adventure clear
+9YYP25 LVXQ6F BQP935 9W5CQY Desert Zone clear
+9YYGLH 2TXQ6F BQP9KH CSGCQT Ice Zone clear
+9YYP25 LVRV6F BQP935 9W690Y Sky World clear
+9YYP25 TTXQ6F BQP935 99GCQF Space World clear
+9VQZLH 2TXQGF BQQCKH CSGCQR Toy Land clear
+
+http://www.mobygames.com/game/snes/jelly-boy

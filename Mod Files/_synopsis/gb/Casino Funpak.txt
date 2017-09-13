@@ -1,0 +1,14 @@
+Casino Funpak
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Casino
+Gametype: Licensed
+Release Year: 1995
+Developer: Beam Software
+Publisher: Interplay
+_________________________
+In Casino FunPak, you walk around in a casino, partaking in a multitude of games and competing in tournaments to earn as much money as you can. You can play Roulette, Video Poker, Slot Machines, Blackjack and Craps. The tournament mode contains a large tour of the five games.
+
+http://www.mobygames.com/game/gameboy/casino-funpak

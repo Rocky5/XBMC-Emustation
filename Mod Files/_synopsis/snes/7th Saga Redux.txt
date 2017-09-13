@@ -1,0 +1,18 @@
+7th Saga Redux
+Original title: The 7th Saga
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Developer: Produce
+Publisher: Enix
+Players: 1
+Hacked by: Nati
+Version: 1.0
+_________________________
+7th Saga was a challenging and original RPG for SNES, but suffered from ridiculous difficulty and tedious level grinding. This hack attempts to address the difficulty so that the game is challenging without being frustrating, and to add a few fun elements to expand the strategy. Equipment and attack spells have been powered-up. Some enemies have been given elemental weaknesses, and a new spell has been introduced.
+
+http://www.romhacking.net/hacks/421/

@@ -1,0 +1,44 @@
+SimAnt
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Realtime
+Gametype: Licensed
+Release Year: 1993
+Developer: Tomcat System
+Publisher: Maxis
+Players: 1
+_________________________
+The game is essentially a simulation of an ant colony. The game consists of three modes: a Quick Game, a Full Game, and an Experimental Game. It was released for the IBM PC, Commodore Amiga, Apple Macintosh, and Super Nintendo Entertainment System. The Nintendo version also added eight scenarios, where the goal in each is to eliminate the enemy red ants in various locales, each with different hazards.
+
+In SimAnt, the player plays the role of an ant in a colony of black ants in the back yard of a suburban home. The ant colony must battle against enemy red ants. The ultimate goal is to spread throughout the garden, into the house, and finally to drive out the antlions, spiders and human owners. In this respect, SimAnt differed from other 'Sim' games that were open-ended and had no victory conditions.
+
+In the Quick Game, the player establishes a black ant colony in a small patch of yard, shown in top-down perspective. The computer opponent establishes a competing red ant colony in the same patch. Underground ant colonies are depicted in a side view. The player has direct control of a single ant at a time, indicated by a yellow color, and may switch control to a different ant at any time (by double-clicking the desired ant). (A little known fact is that the spider in the game can also be controlled by double clicking it.) The player's yellow ant may influence the behavior of other black ants by leaving pheromone trails to destinations such as food and enemy ant colonies and can control the other ants in a limited way (by ordering a certain number to follow it, for instance). The quick game is won or lost when either the red or black colony in said patch is defeated.
+
+The player's yellow ant may pick up food and pebbles, engage in trophallaxis (by receiving regurgitated food from friendly ants), and attack enemy ants. Groups of ants (or yellow ant with his recruits) may attack and kill bigger enemies like spiders, caterpillars, and antlions. Natural hazards include human footsteps, electrical outlets, bugspray, spiders, antlions, lawnmowers, and rain, which washes away pheromone trails and can flood the bottom of ant nests.
+
+In the Full Game, the player begins with an ant colony in an overhead view, much like the Quick Game. The region of this overhead view is a single square of a map containing a yard and house. The player spreads to other areas by producing young queens and drones to mate with each other. The full game is lost when the black colonies are eliminated and won when the red colonies are eliminated and the humans are driven out of the house.
+
+The Experimental Game is similar to the Quick Game, except the player can also control red ants and has access to a set of experimental tools. These tools allow the player to place pheromone trails, maze walls, rocks, ants, pesticides and food.
+
+The boxed game also comes with a thoroughly researched instruction manual, which not only covers game mechanics, but also contains a large amount of information regarding ants and ant societies.
+
+Tips:
+
+Shortcut to Red Ant Nest
+This is a glitch that allows you to easily get to the red ant nest. When you have about 50 ants, dig all the way to the bottom, then dig all the way left and all the way right. If the conditions are right a hole should appear and if you go through it you will be transported to the red ant nest. Unfortunately, you can't bring other ants with you. This glitch could be used to get some food or eggs and easily kill the queen without going through the chaos above ground.
+WARNING: When it rains and if you're outside the hole will disappear.
+
+Access all Scenarios.
+Plug an SNES mouse into controller port 2 and click on the scenarios to light them up, then use controller 1 to select them.
+
+Convert to Queen
+Enter the house and move between the television and the chair.  Use the electric socket closest to the colony to shock yourself.  The word 'Change' will appear to confirm correct trick entry. You will reappear in the colony as the
+Queen.
+
+Turn to Queen Ant
+Simply die when you are the last ant left. You SHOULD be reborn as the Queen
+
+
+http://en.wikipedia.org/wiki/SimAnt

@@ -1,0 +1,18 @@
+Defender
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Shooter
+Gametype: Licensed
+Release Year: 2002
+Developer: OutLook Entertainment
+Publisher: Midway
+_________________________
+Released in conjunction with a 3D update of the classic arcade game on consoles, the Game Boy Advance version is also an update of the original, but retains its side-scrolling gameplay.
+
+The cartridge includes several variants of the game. The main mode is called "XGP". Its basics are the same as in the original: The player's spaceship flies left or right over a scrolling landscape that wraps around after a few screens. The goal is destroy all invading aliens before they can capture the humans sitting on the ground. Besides updated graphics with various backgrounds and sprites for the enemies and humans, there are other differences as well: players can select from different ships, all with slightly different weapons and ratings for shields and speed. The XGP mode offers six different levels to complete. It can also be played by two players over the System Link.
+
+The cartridge also includes "Classic" mode, which is a port of the original arcade game. Finally, "XG" mode is the same gameplay-wise as Classic, but has been updated with graphics similar to the XGP mode.
+
+http://www.mobygames.com/game/gameboy-advance/defender_

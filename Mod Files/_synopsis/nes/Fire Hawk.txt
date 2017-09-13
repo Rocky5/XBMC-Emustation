@@ -1,0 +1,28 @@
+FireHawk
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action - Flight - Top Down
+Gametype: Licensed
+Release Year: 1991
+Developer: Codemasters
+Publisher: Camerica
+_________________________
+
+Fire Hawk is a real treat, like a top-down Choplifter!. The gameplay is solid, very similar in ways to the "___ Strike" games. The actual rescue scenes are frought with action as well. Overall, it's a solid entry.
+
+Gameplay:
+
+Control Pad left/right: Swivel copter
+Control Pad up: Move forward in directionf faces.
+Control Pad down: 
+
+A: Bombs
+B: Gun
+
+Select: switch between Para crosshair and Carrier crosshair
+Start: Pause
+
+Reviewer: Matthew McIntyre
+http://www.gamefaqs.com/console/nes/file/587276/54658

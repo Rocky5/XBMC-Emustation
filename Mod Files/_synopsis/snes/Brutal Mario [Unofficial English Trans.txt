@@ -1,0 +1,14 @@
+Brutal Mario [Unofficial English Trans]
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Hacked by: Carol
+Version: Demo v1.7 (Unfinished)
+_________________________
+Brutal Mario has been a very popular hack. However, most people have had one problem with it; they can't read Japanese. So many people have been wondering what the text boxes say and what the levels are called. Because of this, I decided to translate it into english. This is the exact same Brutal Mario we all know and love, just in english instead of japanese. I modified nothing other than the text.
+
+http://www.smwcentral.net/?p=showhack&amp;id=2526

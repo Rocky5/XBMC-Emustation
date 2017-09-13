@@ -1,0 +1,49 @@
+Star Trek: The Next Generation - Future's Past
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Adventure, Sci-Fi
+Gametype: Licensed
+Release Year: 1994
+Developer: Spectrum Holobyte
+Publisher: Spectrum Holobyte
+Players: 1
+_________________________
+Future's Past is an adventure game in which the player is investigating the relationship between the Romulans, an alien race called the Chodak, and a temporal device. The game plays as an episode of the series does, in that the player communicates with members of the crew and interacts with them in a variety of ways. In game areas include the main bridge, transporter room, conference room, alien ships, and planet surfaces.
+
+The main bridge offers a large amount of interactivity. Here the player can interact with each crew member, interviewing them to gain knowledge for the mission and to solicit opinions on how to proceed. The bridge has a variety of terminals, including the Conn, communications, engineering, the main computer, and access to the transporter room and conference room. The engineering terminal gives the player control over ship repair duties, in a similar style to the PC game Star Trek: The Next Generation - A Final Unity. The main computer offers a material to research for missions, and general information about the Star Trek universe. The Conn is the ship's navigational control and is where the player plots course and speed to various game destinations. In the conference room the player is briefed with the crew regarding how to proceed at various points throughout the story.
+
+When the player goes to the transporter room, planning to beam to a destination, he can choose his crew to bring along. Each crew member has stats that decide how effective he will be at certain tasks, such as tactical, technical, strength and health. Choosing a selection of characters that target the mission goals can make the gameplay much easier. At the destination, the player has individual access to each character and their inventory. The phaser, tricorder, and various specialized devices (such as medical equipment) are used in the game to interact with the environment.
+
+In-game events are played out through conversations on the main bridge viewscreen, in-person on away missions, and via short in-game animated cinematics. The game's intro mimics the intro of television series.
+
+Gameplay:
+
+The game has three different settings.
+
+Bridge- Various interface stations allow the player to navigate, start away missions, and access the password system which can be used to play saved games at different points of the game.
+
+Combat- Should an enemy attack the Enterprise D, the red alert klaxons go off and the visual is transferred to a tatical grid that shows the Enterprise and the attacking ship. The player may fire phasers and photon torpedoes while maneuvering. Damage sustained during these battles can either be repaired at the Engineering console on the bridge, or at one of the three starbases in the sector. Damage inflicted can affect various systems, such as being unable to beam down to away missions, unable to access navigation, blurred and garbled communications, or ship destruction.
+
+Away Mission- The player controls four members of an away team. The player can control each one in turn by switching to the respective portrait. Certain characters have different abilities based on their service branch.
+
+Tips:
+
+Level Select
+When the Star Trek Logo appears, press Y, Y, X, X, A, A, B, B. Then, when you begin the game, pause the game and press Y.
+
+Level Passwords:
+QTTCTBB Appearance of the IFD
+BKFTCTBB Collect mineral Samples on Orientis GammaIII
+LHTTMTBV Crystal Shard 1
+MGTTMTBV Crystal Shard 2
+NNTTHTBB Crystal Shard 3
+CGTTBTBB Eunacian's Derelict Spacecraft
+BGTTBTBU Orientis Alpha IV Epidemic
+JFTTCTBV Rescue captured Nakamoti Freighter
+PHTTNTBV The Final Test
+BDTTCTBV Trapped Miners on Orientis Gamma II
+GCTTCTBV Trip to Codis Mu IV concerning the Tavad
+
+http://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation:_Future%27s_Past

@@ -1,0 +1,14 @@
+Max
+Platform: Nintendo Game Boy
+Region: Europe
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1992
+Developer: A-Wave
+Publisher: King Records
+_________________________
+Max is an Action game, developed by A-Wave and published by King Records, which was released in Europe in 1992.
+
+http://www.gamefaqs.com/portable/gameboy/home/575143.html

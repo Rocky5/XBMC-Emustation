@@ -1,0 +1,36 @@
+Nobunaga's Ambition
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1993
+Developer: Koei
+Publisher: Koei
+Players: 1
+_________________________
+When Japanese leader Shogun Ashikaga Yoshimasa fell from power in 1467, it basically left Japan without a central government. This lead to a war amongst Japanese fiefs (states). Each fief was ruled by a powerful lord called a daimyo. Each daimyo believed he was the most qualified to be the new Shogun. The war lasted for more than 100 years. Nobunaga's Ambition is based on these events. As a daimyo in this Warring States Period of Japan, it is your job to unify all the fiefs into one sovereign nation. In the first scenario, you must unify central Japan, which is composed of 17 fiefs. In the other three scenarios, the Japanese nation is divided into 50 fiefs, all of which must be conquered.
+
+After you have created a name for you daimyo and chosen your home base, it's time to get to work. Prior to setting out to conquer other territories, you should fortify your home base. This involves cultivating your land, protecting it against floods, and winning the approval of your people. To gain loyalty amongst your population, you should pay your people from the gold you collect from your rice crops. You should also use your gold to hire soldiers.
+
+Other factors important to winning the war include the age, health, drive, luck, charm, and intelligence of your daimyo. Among the ways you can add or subtract to these attributes are by winning battles, conducting successful negotiations, and by earning the loyalty of your people. Fief conditions also apply. You must ensure that your fief has an ample supply of gold, rice, productivity, wealth, men, morale, skill, and arms.
+
+When confronting the surrounding fiefs, you can send a ninja to spy on them, attack them outright, or sign a non-aggression pact. Other things you can do in this game include marrying another daimyo's daughter, bribing rival fief's peasants, borrowing money, deploying troops, and staving off peasant uprisings. The game is over when your daimyo dies from illness, old age, or battle wounds.
+
+Controls:
+
+Start Button: Skip through introduction.
+A Button: Switch between main command window and full map display, answer yes to yes or no questions.
+B Button: Cancel selections, answer no, end command turn.
+C Button: Select highlighted commands and items, answer yes.
+D-Pad: Direct cursor across map and through command menus, scroll through lists or flip through pages of information.
+
+MOUSE
+
+Left Button: Select highlighted commands and items, answer yes.
+Right Button: Cancel selections, end command turn.
+Mouse: Direct cursor across map and command menus.
+
+Reviewer: Brett Alan Weiss
+http://www.allgame.com/game.php?id=12547

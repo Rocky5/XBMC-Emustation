@@ -1,0 +1,19 @@
+Wordtris
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1991
+Developer: Realtime Associates
+Publisher: Spectrum HoloByte
+Players: 1 or 2 CO-OP, VS
+_________________________
+The object of the game is to build words of three letters or more using the tiles that fall from the top of the playing area. Words can be constructed horizontally or vertically, and multiple words can overlap each other. If the player manages to construct the magic word at the top of the screen, the well will be cleared of all tiles and the player will receive a large bonus.
+
+Occasionally, a free tile (denoted by a "?") will drop. Its letter can be selected by the player (either by typing it in the PC version, or scrolling through letters with a button on the console versions). If the player does not choose a letter, the block will become a random letter when it stops. Eraser blocks will fall and remove whatever letter that they land on (in the SNES version, the eraser is replaced with bombs and vials of acid).
+
+In the Super Nintendo version, players advance from levels "A" to "J." There is no level after "J."
+
+http://en.wikipedia.org/wiki/Wordtris

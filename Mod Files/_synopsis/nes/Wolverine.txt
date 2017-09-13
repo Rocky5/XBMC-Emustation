@@ -1,0 +1,37 @@
+Wolverine
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1991
+Developer: Software Creations
+Publisher: LJN Ltd.
+Players: 1
+_________________________
+
+You are Wolverine.
+
+You were just on the receiving end of the evil Dr. Cornelius' horrific experiments. They turned you into a walking switchblade, and now you're angry. In this Action/Adventure game you're on a mission to find answers about your mysterious past, but along the way you are confronted by the bloodthirsty Sabretooth and the evil Magneto. Now you and the X-men are the only ones who can save the world.
+
+WOLVERINE uses classic NES graphics, and the sound quality is good. The general game play starts slow, but picks up later in the game, and can get addicting.
+
+Directions:
+
+As Wolverine, you are given a set of ADAMANTIUM CLAWS. These will serve as your weapons. Use them to cut down enemies and jump from pieces of land or pipes, and try to make it to the exit or defeat the boss. Look out for items along the way, like the health hamburger or the berserker rage bottle. For each enemy you kill, you get two bars on the berserker rage meter. Be sure to look for your friends Jubilee, Havok, and Psylocke. They will give you key items that you will need, to proceed to other levels.
+
+Controls:
+
+A Button Punch/Claw
+B Button Jump
+Start Button Pause
+Select Button Extend/retract claws
+
+Hints:
+
+-Invincible Berserker
+When Berserker Rage meter is full, you are temporarily invincible 
+
+Reviewer: wbowers 
+http://www.consoleclassix.com/nes/wolverine.html

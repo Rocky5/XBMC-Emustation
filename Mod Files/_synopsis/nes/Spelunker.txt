@@ -1,0 +1,16 @@
+Spelunker
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action - Platformer - Third Person
+Gametype: Licensed
+Release Year: 1987
+Developer: MicroGraphicImage
+Publisher: Broderbund
+Players: 1
+_________________________
+
+In this game, you are a spelunker who climbs deep down mountain caves in search for treasure. The levels consist of many platforms, connected to each other by a riding cart, ladders, ropes, etc. You'll have to time your jumping well, because a slight fall will lead to your death, and the abyss is near! You should jump over various obstacles, avoid ghost-like enemies, climb on ropes, and use inventory items such as bombs to create little explosions that will bring you nearer to the desired treasure.
+
+http://www.mobygames.com/game/nes/spelunker

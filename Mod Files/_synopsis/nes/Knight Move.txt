@@ -1,0 +1,31 @@
+Knight Move
+Original title: Knight Move
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Board Game
+Gametype: Translated
+Release Year: 2003
+Translated by: PentarouZero
+Version: 1.0
+_________________________
+
+This game is... interesting. It's by Alexei Pazhitnov, the author of what is quite possibly world's most famous game ever, Tetris. That said, this is nothing like Tetris, and unfortunately it's not nearly as good or as addicting.
+
+The basic premise is simple. You're a Knight (you know, the Chess kind) and you move around a board trying to collect hearts. Of course, you can only move in the standard Knight's L-shaped pattern, which makes things difficult. Each time you land on a square, it'll turn blue. If it's already blue, it'll turn a darker shade of blue. If it's already that darker shade of blue, it'll disappear, and if you land on it again, you'll fall through and the game ends. Completing a round (either by collecting a single heart in A type or by collecting all of the hearts in B type) will cause all holes to be replaced by white tiles again.
+
+The main difference between A type and B type is that the heart in B type has a counter on it. It'll move after you make six jumps. This makes it a little more difficult, plus you have to collect multiple hearts to clear a round in B type. Yikes.
+
+The premise is simple enough, but unfortunately it doesn't really work well, in my opinion. It's alright in the beginning, but the game speeds up as you go - which it should, it needs to get harder - but the fact is that it ends up so fast by round 4 or 6 or so that you don't know where the hell the cursor is. Your little knight guy will be hopping merrily around, and you'll be pulling your hair out because you're trying to figure out where the hell the cursor's going to end up if you press left or right on the control pad. It almost seems to jump around at times, and that, in this game where the control scheme is literally just about the most important thing in the game, is what breaks it for me, I'm sorry to say.
+
+Translation Description:
+
+This patch behaves as advertised, fixing the spelling on Alexei's last name and translating the one song title. Of worthy note are the known issues mentioned in the readme, reproduced here for you lazy sods who probably wouldn't read it anyway:
+
+"Some emulators seem to "remember" FDS games, so if you have played the original unpatched version, it may still appear to be unmodified after patching. I don't know what the reason for this is, and I am entirely too lazy find out, but to get around this problem just rename the patched Knight Move disk image to something else."
+
+This happened to me, so it could happen to you! YES!
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/691/

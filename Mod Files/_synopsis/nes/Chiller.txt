@@ -1,0 +1,16 @@
+Chiller
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad, NES Zapper
+Genre: Light Gun
+Gametype: Licensed
+Release Year: 1986
+Developer: American Game Cartridges
+Publisher: American Game Cartridges
+Players: 1-2 Simultaneous
+_________________________
+
+Chiller is a first person shooter for one or two players. Back in the middle ages a castle on the outskirts of town has been invaded by an evil force which is causing the dead to come back to life! You need to stop this force before it can create a large army and take over the town. As you make your way to and eventually inside the castle, numerous dead creatures will be trying to stop you. Each level has a monster counter, and you need to shoot this many monsters before the timer runs out to continue on. Each level also has 8 talismans hidden in it; you need to find and destroy these to stop the monsters from appearing. If you complete a level without destroying all of the talisman, you will need to return to the level later on. There are 32 talisman in all that need to be destroyed in order to rid the town of the monsters!
+
+http://www.mobygames.com/game/nes/chiller

@@ -1,0 +1,37 @@
+Trampoline Terror!
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1990
+Developer: NCS
+Publisher: DreamWorks
+Players: 1
+_________________________
+From space, a menacing fortress appears in the sky. Surrounding it, a "trampoline" sidewalk armed with bombs and patrolled by enemy invaders. You, the Trampoline Terror, have the guts to fight back. Stealthful observation reveals self-destruct switches planted on 32 strongholds. Triggering each one will be no simple task. Powerful alien patrols will thwart your efforts, pushing you to the edge... and beyond! And beware the trampolines, whose very structure weakens with your every jump. Only your bounding skill and sharp cunning can save the day. So hop to it!
+
+Directions:
+
+The objective of the game is to activate every mine/switch in the level without falling off or getting hit by an enemy.
+
+You've got two skills, Jumping and Throwing. There is only one thing you can throw, the black tubs. If you have any just press B to throw them in front of you. Normally they only go one square's distance, but if they land on a trampoline they will keep going.
+Jump! The jump is your friend and enemy. By jumping on the trampolines, you wear them out, but you move faster and are harder to hit. If you hold the jump button when you land/jump from a trampoline you will jump extra high and will be able to reach platforms that are farther away. In other words you can jump over one square of empty space.
+
+Controls:  
+
+A Button: Jump
+B Button: Throw object
+C Button: Jump
+Start Button: Jump
+
+Hints:
+
+- Debug Mode -
+Enter the following code at the Title screen....
+Hold A + B + C + Up and press Start - Start
+Then you should go to a debug room where you can choose your level and lives
+
+http://www.consoleclassix.com/genesis/trampoline_terror.html
+http://www.gamefaqs.com/console/genesis/home/586559.html

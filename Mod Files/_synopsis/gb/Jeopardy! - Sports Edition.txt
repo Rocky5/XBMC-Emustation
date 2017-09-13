@@ -1,0 +1,14 @@
+Jeopardy!: Sports Edition
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Game Show
+Gametype: Licensed
+Release Year: 1994
+Developer: Data Design Interactive
+Publisher: GameTek
+_________________________
+This handheld version differs from its Game Gear version though it does run along the same lines. While it does feature sports related questions ranging from football to baseball and soccer, it does not feature any digitized voices or likeness of either contestants or Alex Trebek, instead opting for generic cartoon-like characters instead.
+
+http://www.mobygames.com/game/gameboy/jeopardy-sports-edition__

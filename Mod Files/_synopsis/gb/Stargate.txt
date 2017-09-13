@@ -1,0 +1,20 @@
+Stargate
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1994
+Developer: Probe Entertainment Limited
+Publisher: Acclaim
+_________________________
+The handheld version of Stargate is a matching puzzle game, similar to a 3-D Tetris. Players drop tiles into a Stargate, and try to stack three identical symbols. Doing so clears those tiles. Mismatched tiles simply build stacks higher and higher, and the player loses if the tiles reach the top of the gate. The player is also given a seven-symbol Stargate "address" along the top of the screen. Stacking three copies of a symbol listed in the address will clear the stack and counts toward completing the address.
+
+There are two game modes building on this basic concept:
+
+- Skill Mode is a single-player challenge where the player tries to complete as many addresses as they can before being overwhelmed. Speed increases with completed addresses.
+
+- Battle Mode can be played against the computer, or against a second player connected with a link cable. In Battle Mode, any stacks you clear are sent through the Stargate and appear on your opponent's side. A height level meter is added on the sides to show how close you and your opponent are to overflowing their gates. You can win by outlasting your opponent (while sending complete stacks through to make things more difficult for them) or by being the first to complete the address.
+
+http://www.mobygames.com/game/gameboy/stargate__

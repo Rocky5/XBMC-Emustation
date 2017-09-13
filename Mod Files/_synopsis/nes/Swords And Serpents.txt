@@ -1,0 +1,37 @@
+Swords And Serpents
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1990
+Developer: Interplay Productions
+Publisher: Acclaim
+Players: 1 - 4
+_________________________
+
+Swords and serpents chronicles the journey of four adventurers through the dark depths of a foreboding dungeon. Fierce Monsters, mind numbing puzzles, and crusty old men who give cryptic advice, all stand between our heroes and the riches they seek. In the greatest depths of the dungeon lies the Serpent King, who has plagued the land for hundreds of years. Your quest is simple: Destroy the Serpent King.
+
+Directions:
+
+You begin your quest with the creation of your own party, by rolling stats and choosing each character's class. Both the character generation and combat systems closely resemble popular D&amp;D games. The player must create four characters, choosing from Warrior, Wizard, and Thief classes.
+
+To create these characters, you must first roll for your abilities, which consist of Strength, Intelligence, and Agility. The top score is 19 and the bottom is 1. Then you must choose the character's name and class. The Warrior is more or less the tank of the group, running into combat and beating everything with his sword. His main strength is his... well, Strength. The Thief will help you evade traps, relying on his Agility. The Wizard is the spell caster, with both combat and healing spells. He needs high Intelligence to cast effectively. Your choice of party members determines the experience of the game.
+
+After the party has been created, you begin your exploration of the dungeon. You must take your characters through sixteen levels of mazes, monsters and traps before you can face the mighty Serpent King. To reach and finally defeat him, you will need to build your party into an effective fighting machine, combining the best elements of brawn and brains. 
+
+Controls:
+
+A Button: Action / Attack
+B Button: Spell List (Combat only)
+Start Button: Game Menu
+Select Button: Character menu
+
+Hints:
+
+Password
+To continue the game you are given five passwords to input, one for each player and the fifth for the overall game progress. 
+
+Reviewer: grimjockey
+http://consoleclassix.com/nes/swords_and_serpents.html

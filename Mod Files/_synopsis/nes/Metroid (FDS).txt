@@ -1,0 +1,23 @@
+Metroid
+Original title: Metroid
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Action - Platformer - Side-Scrolling
+Gametype: Translated
+Release Year: 2001
+Translated by: AlanMidas
+Version: cant.hack
+_________________________
+
+Poor, poor America. We never had the luxury of the Famicom Disk System, like in Japan. We were forced to use passwords and battery saves. BAH! Disk games such as Metroid could have their data saved directly on the disk for easy retrieval, but everyone else in the world had to use PASSWORDS! Bah! Hmph. Oh! Anyway this is the same ol oldskewl game that everyone loves. Now you can save your game! And because the FDS had an extra sound channel, a lot of the tunes now sound super sweet. Go try it out at least.
+
+Translation Description
+
+If you get the "ERR 07" error, what is most likely the case is that your emulator doesn't support writing to the disk image. So, you can't save. Use a different emulator.
+
+Anyways, there ain't much text in Metroid, but what is there is in English. So enjoy the game. Or you can just beat Metroid Fusion. Wahahaha!
+
+Reviwer: Spinner 8
+http://www.romhacking.net/trans/6/

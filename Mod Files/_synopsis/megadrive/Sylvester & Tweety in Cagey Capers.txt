@@ -1,0 +1,80 @@
+Sylvester &amp; Tweety in Cagey Capers
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Alexandria, Inc.
+Publisher: TecMagik Entertainment Ltd.
+Players: 1
+_________________________
+Another Warner Bros licensed title. You are Sylvester (the cat) and you have to catch Tweety (the bird)
+
+This game is a 2d side-scrolling action, platform and reflexion game. In order to catch tweety you will have to solve many puzzles, which become more and more difficult as you progress into the game.
+
+Gameplay:
+
+Players play as Sylvester and he must try and catch Tweety in each level. You must chase Tweety to the end of the level until Sylvester finally catches him. There are however characters from the Looney Tunes universe such as Granny, Hippety Hopper and Big Tweety who will try to stop you. Sylvester can pick up things such as boxing gloves and bones to fight these enemies. He can also use things such as umbrellas and boxes to try and reach Tweety. He also has "Tweety scope" which locates where Tweety is.
+
+Sylvester can also hide from his enemies behind lamps or in barrels. Depeding on what difficulty you choose at the beginning of the game depends on how far you can get. If you only put the difficulty at 0% you can only do 1 level. You can also gain points by knocking things off the shelves or from bags of catnip.
+
+- Levels -
+
+Domestic Devils- The first level is in Granny's house, which means that Granny and Spike are guarding Tweety. The player chases Tweety from the living room all the way to the attic.
+
+Domestic Devils 2- The backyard is full of different challenges. From the picket fence to the clothesline and electrical wires, Sylvester must calm Spike down in order to pursue Tweety up into the heights of his bird house.
+
+Mayhem Express- From the luggage car to the train roof, Sylvester must pursue Tweety out of the train. But beware of freight doors which suck Sylvester back to the beginning of the level. Figure out how Hipperty Hopper actually helps Sylvester out of the level!
+
+Back Alley Blues- A fence and an alleyway hide a huge apartment building which Tweety is trying to get to. Sylvester has to use flag polls and window ledges to trap Tweety and also avoid the alley cats, which pelt Sylevester with boots and books. Rocky and Mugsy can be seen as a silhouette in the apartment windows, as well as Spike the Bulldog and Chester the Terrier and Hipperty Hopper.
+
+Hyde and Shriek- Sylvester has followed Tweety into Dr Jekyll's lab, and Tweety has swallowed some of the formula which turns him into a giant Tweety. The only thing to use against the monster is a bottle of Antidote potion. Avoid the Tweety monster, but resume the chase when Tweety shrinks down to his original size.
+
+Hyde and Shriek 2- Sylevster has swallowed another of Jekyll's potions which shrinks him down. The smallest of beaks now becomes the biggest of obstacles in this oversized version of the lab. Watch out for bunsen burners and electric sparks. Use the transporter to change locations quickly.
+
+Oceans of Trouble- This is the last level which takes place on a boat. Sylevester must fight his old enemies again for the last time to reach Tweety. Jump from the dock to a maze of portholes. Head up to the deck to eventually capture Tweety.
+
+Hints:
+
+- Become Invincible -
+To become invincible, you need to pause the game and enter the following:
+B, B, Up, A, Left, Right, Down, Right, B, B, C
+Although, this only lasts for a short time.
+
+- Extra Time -
+Extra Time- Press Start to pause, then press Up, A, B, C, C, A, Up, C, C, C, Up. The clock will be reset to zero.
+
+- Get 10,000 Points -
+To get 10,000 points, you need to pause the game and enter the following:
+C, C, C, C, B, C, A, A, C, B, A.
+
+- Get Another Continue -
+To get another continue, you need to pause the game and enter the following
+Right, Left, A, A, B, Up, C, A, B, B, C.
+
+- Reset The Game Clock -
+To reset the game clock, you need to pause the game and enter the following:
+Up, A, B, C, C, A, Up, C, C, C, Up.
+
+- Skip To Level 4 -
+To skip to level four, you need to pause the game and enter the following from level three:
+C, C, B, C, A, B, C, A, B, C, Down.
+
+- Skip To Level 5 -
+To skip to level five, you need to pause the game and enter the following
+If on level 1: A, B, B, A, A, B, B, A, A.
+If on another level: A, A, A, B, B, B, A, B, C.
+
+- Sylvester Full Health -
+To get full health for Sylvester, you need to pause the game and enter the following:
+A, A, A, B, B, , A, B, C.
+
+-View The Credits -
+To view the credits, you need to pause the game and enter the following:
+Down, Right, A, B, B, B, C, C, B, A, A. 
+
+http://www.gamefaqs.com/console/genesis/code/586517.html
+http://www.mobygames.com/game/genesis/sylvester-and-tweety-in-cagey-capers
+http://en.wikipedia.org/wiki/Sylvester_and_Tweety_in_Cagey_Capers

@@ -1,0 +1,31 @@
+Treasure Hunter G
+Original title: Treasure Hunter G
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2004
+Translated by: Metalhawk's Translations, obsole
+Version: Post Beta 2
+_________________________
+One of those games Square never released in the United States!
+
+Translation Description: 
+
+This new patch includes some new fonts and fixes a bug that happened at Herman's Cave if you read the Notebook for the first time at the door. Some names have also been reworked. But seeing that Metalhawk hasn't tested the patch properly, he still considers it incomplete.
+
+Tips:
+
+Frog Casino-Secret Area
+In the grand Frog Casino at the Port City of Akrass (the first town of the third island), there is a golden frog statue. Talking to it will bring up a dialog asking for a secret code. It will ask for a four-character/digit code.
+
+In the Japanese game the three options are all katakana syllables. The idea is to spell out 'KE' 'RO' 'KE' 'RO' ('kerokero' = the Japanese equivalent of 'ribbit').
+
+In the English patched version, the choices correspond to '3' '1' '3' '1' for the code (or, basically, the third, first, third and first options, on each dialog respectively).
+
+Once you enter the code, the statue will open its jaws and you can walk into it to find a secret basement area with more game tables to play at.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/490/

@@ -1,0 +1,42 @@
+Xenophobe
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1988
+Developer: Bally Midway
+Publisher: SunSoft
+Players: 1 or 2 CO-OP
+_________________________
+
+Zee-no-phobe: fear of anything alien. At first glance, you'd never guess there was a living thing aboard the deserted star base. But inside, it's alive and crawling - with the most gruesome hoard of alien life forms in the arcade galaxy. They lurk around every corner; they blend into every background. They multiply, they metamorphize, they jump from room to room and screen to screen. Watch out or you'll get slimed! So grab your joystick and get ready for the latest, most frightening split-screen action imaginable. Xenophobe conquered the arcade. Now it wants you!
+
+GAME OBJECTIVES
+1. To exterminate hostile alien life forms (called "Xenos") that are infesting derelict space stations and moon bases.
+2. To collect various forms of valuable hardware found at each derelict space station and moon base. 
+
+Directions:
+
+Xenophobe is a port from an arcade game which originally allowed up to three players at the same time. The NES version uses a split screen, with Player 1 in the top and Player 2 in the bottom. The graphics are somewhat lacking, but Xenophobe is surprisingly fun to play, with its variety of characters, monsters, and items.
+
+First you get to choose your character from three Xenophobe Exterminators.
+
+As far as I know this is merely an aesthetic choice, but none of your options are particularly pleasing to the eye. Next your ship delivers you to the base, where your job is to kill everything that moves. Some enemies will drop items which you can pick up, including ID cards, Fuel, Medicine, Skulls, Tools, and Knives. They are worth bonus points at the end of the mission, and some give you back some of your lost health. Occasionally you can also get weapons upgrades. These include the Laser Pistol, Lightning Gun, Smoke Gun, and Bombs. The Smoke Gun has the most powerful shot but a very short range.
+
+A great variety of enemies await, some apparently fixed to certain locations, others appearing randomly wherever your explorations take you. There is no set number of enemies or items per level, so just destroy as many as you can in order to clear the mission. If you take too long, the base will self-destruct! 
+
+Controls:
+
+A Button Jump, Get Item, Sit or crawl (+Down), Stand up, Call Elevator, Throw Bomb
+B Button Fire Weapon
+Start Button Start, Pause Game
+Select Button Choose 1 or 2 Players, Choose Exterminator
+
+Hints:
+
+Watch your health carefully. There are only three ways to get health back in Xenophobe: find Medicine, find the Coffee Cup, and clear the level of Xenos. Since you can't count on finding the power-ups you need, concentrate on killing Xenos as quickly as possible. If the end message says, "Overrun by Xenos" then you lose points and don't recover any health points.
+
+Reviewer: jcooper 
+http://www.consoleclassix.com/nes/xenophobe.html

@@ -1,0 +1,27 @@
+NEW Sonic the Hedgehog
+Original title: Sonic the Hedgehog
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: kchrules
+Version: 1.0
+_________________________
+A must play hack of Sonic the Hedgehog. Marble, Starlight and Green hill zone bosses have been changed to be completely hard and at some points just insane.
+
+More than just the bosses though, theres the spindash, theres also new pallets. Green Hill Zone is completely done. The beginning of clock work is done, the "doom path" in Labyrinth is changed. There is even a nice transition from Labyrinth to marble. Level order is changed too:
+
+- Green Hill
+- Labyrinth
+- Marble
+- Star Light
+- Sparkling (spring yard)
+- Clock work(Scrap Brain)
+
+If you like sonic hacks I strongly encourage you to try this one.
+
+http://www.romhacking.net/hacks/359/

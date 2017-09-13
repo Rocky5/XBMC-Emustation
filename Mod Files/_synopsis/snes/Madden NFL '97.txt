@@ -1,0 +1,122 @@
+Madden NFL '97
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1996
+Developer: Tiburon Entertainment
+Publisher: Electronic Arts
+Players: 1 to 5
+_________________________
+This was the first edition of Madden to implement the use of a salary cap when customizing team rosters. It also featured the new Baltimore Ravens, the expansion franchise that absorbed the roster of the Cleveland Browns for the 1996 season. The game also adds a team of real free agents (as opposed to the blank slate used in Madden 96) which can be traded and added to other teams' rosters (led by recently semi-retired quarterback Randall Cunningham), and could be played by using a cheat code.
+
+Classic teams were once again used, although most were different from the previous year's teams; the years ranged as far back as 1952 (Detroit Lions) and as recent as 1990 (Buffalo Bills). Jacksonville and Carolina, once again, did not get classic teams, but Baltimore was attached to a classic Cleveland Browns team.
+
+Tips:
+
+Codes
+Y, A, Y, A, R (highlight quarter length on game setup screen) 
+15-Second Quarters
+
+Highlight the Lions, then press Select, Y, L, L, and Y 
+1952 Lions
+
+Highlight the Packers and press Select, R, B, A, Y 
+1966 Packers
+
+Highlight the Jets, then press Y, Y, A, L, and L 
+1968 Jets
+
+Highlight the Chiefs, then press L, Y, R, R, and A 
+1969 Chiefs
+
+Highlight the Colts and press B, R, Select, Select, Y 
+1970 Colts
+
+Highlight the Dolphins and press A, L, L, B, Select 
+1972 Dolphins
+
+Highlight the Cardinals, then press Y, R, A, L, and L 
+1975 Cardinals
+
+Highlight the Raiders and press B, R, A, L, Y 
+1976 Raiders
+
+Highlight the Vikings, then press B, R, R, R, and R 
+1976 Vikings
+
+Highlight the Cowboys and press B, A, R, R, Y 
+1977 Cowboys
+
+Highlight the Seahawks and press A, R, R, Y, Y 
+1978 Seahawks
+
+Highlight the Steelers and press Select, L, A, Select, R 
+1978 Steelers
+
+Highlight the Buccaneers, then press R, R, L, L, and Select 
+1979 Buccaneers
+
+Highlight the Rams, then press L, R, R, A, and Select 
+1979 Rams
+
+Highlight the Eagles, then press B, A, L, B, and Y 
+1980 Eagles
+
+Highlight the Falcons and press A, L, L, Y, R 
+1980 Falcons
+
+Highlight the Bengals, then press B, L, A, R, and A 
+1981 Bengals
+
+Highlight the Redskins, then press B, L, L, R, and R 
+1982 Redskins
+
+Highlight the Bears, then press A, L, L, R, and B 
+1985 Bears
+
+Highlight the Patriots and press B, L, Y, Select, and A 
+1985 Patriots
+
+Highlight the Broncos, then press L, L, Y, A, and Y 
+1986 Broncos
+
+Highlight the Ravens and press B, Y, R, R, Y 
+1986 Browns
+
+Highlight the Saints, then press L, B, L, B, and Select 
+1987 Saints
+
+Highlight the 49ers and press B, A, Y, Y, R 
+1988 49ers
+
+Highlight the Bills, then press B, Y, L, L, and Select 
+1990 Bills
+
+Highlight the Giants, then press B, Y, R, L, and Select 
+1990 Giants
+
+Highlight the Oilers, then press R, Select, R, Select, and Y 
+1993 Oilers
+
+Highlight the Chargers, then press Select, A, L, L, and Y 
+1994 Chargers
+
+Y, A, Select, A (on trade violation screen) 
+Bypass Trade Salary Cap
+
+Highlight the Panthers, then press L, A, R, R, and Y 
+EA Sports Team
+
+Highlight the All-Madden team and press A, L, L, A, L, L 
+NFLPA Team
+
+Highlight the Jaguars and press Select, Y, Select, R, and L 
+Tiburon Team
+
+A, Y, A, Y, R (on game setup screen) 
+View Superbowl Win Screen
+
+http://en.wikipedia.org/wiki/Madden_NFL_97

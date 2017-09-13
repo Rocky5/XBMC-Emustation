@@ -1,0 +1,26 @@
+Moero Yakyuuken
+Original title: Moero Yakyuuken
+Platform: The Family Computer Disk System
+Region: Pirate (Japan)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 2002
+Version: 0.99; August 22, 2002
+_________________________
+
+Game Review (By Spinner 8):
+
+Well, for a pirate game, it's not all that bad... Aw hell who am I kidding, the game's really bad. It's a strip janken game. Janken's just a fancy Japanese word for rock-paper-scissors I think, but janken's easier to type. The whole "strip" part of the game is, for every match you lose, you take off an article of clothing. Woo! For every match you win, Emi (the girl you play against) takes off an article of clothing. WOO! For every match you tie, Emi puts back on an article of clothing. WHAT?! Yeah, it's a pirate game, no one said it had to be fair.
+
+What's even more unfair is, once you get Emi down to like, four articles of clothing, you have to win three times against various barnyard animals. Win three times against a barnyard animal, win against Emi, she loses another article of clothing. Win three MORE times against another barnyard animal, win against Emi, she loses another article of clothing. So yeah, the match is pretty easily stacked in her favor, wouldn't you say? Too bad you don't have any mammals lying around to protect YOU in your strip janken game. Maybe Emi has magical telekinetic animal-summoning powers, but still, it doesn't mean that these guys can interrupt my game. I want to see boobies it!
+
+So yeah, just use up and down to cycle through the different hands, and hit A to choose what you want. Yeah, really complicated. Just go play the game now.
+
+Translation Description:
+
+Despite this being a crappy porn game, a lot of work went into this translation. Since there wasn't enough space on-screen to show all the text, an ASM hack (or two) was made to expand the available text to three times what it once was. As a result, the text was moved into the upper-right corner, so things will look weird sometimes, like when you get a game over or something. But it's not a big deal, because we finally, finally, have this game in English for everyone to love and enjoy, and then forget about.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/587/

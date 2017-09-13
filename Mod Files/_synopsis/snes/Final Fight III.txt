@@ -1,0 +1,32 @@
+Final Fight 3
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1995
+Developer: Capcom
+Publisher: Capcom
+Players: 1 or 2 CO-OP
+_________________________
+Following the annihilation of the Mad Gear Gang, a new criminal element named the Skull Cross Gang emerges above the others as the new dominant street gang in Metro City. When Guy returns to Metro City from his martial art training to become reacquainted with his friend Mayor Haggar, the two are informed that the Skull Cross Gang has started a riot in the downtown area of the city. Joined by Lucia, an officer of the Metro City's Special Crimes Unit, and Dean, a street fighter who appears to be familiar with the Skull Cross Gang, Guy and Haggar join forces once again to save Metro City from its newest menace.
+
+Gameplay:
+
+The player has a choice between four characters: Guy and Haggar from the original Final Fight return, along with new heroes Lucia and Dean. As in the previous Final Fight games, each character has their own set moves, techniques and abilities unique to their character. Like in Final Fight 2, the game can be played alone or with a second player, along with an additional game mode that allows a single player be accompanied by a CPU-controlled partner.
+
+The player has many new abilities which were not available in the previous Final Fight games. The player can now dash and performing dashing attacks or dashing jump attacks like in the previous Capcom beat-em-up Captain Commando. The player can also grab enemies from behind and perform holding and throwing attacks, as well as move while keeping the direction the player is facing locked.
+
+The player also has access to command-based special techniques similar to the Street Fighter, including a Super move. Much like the Super Combos featured in Super Street Fighter II Turbo, the player has a Super Move gauge which fills up as the player performs their regular attacks against enemy. When gauge is filled, the player will have access to powerful Super move, which will consume the entire gauge. If the Super gauge remains for a certain period and the Super move is not used, then the gauge will be emptied automatically.
+
+Like in the previous Final Fight games, the player has access to weapons, health-restoring food and other bonus point items, which are stored inside breakable drums. Each character in Final Fight 3 specializes in a specific and if the player picks up their character's preferred weapon, then they will have access to a unique combo attack exclusive to the character (for example, Guy specializes in using nunchaku).
+
+There's a total of six stages in the game, each with their unique boss character. The stages in the game feature multiple paths that changes the areas the player will visit, as well as the enemies and bosses they encounter. The game's ending changes depending on the character the player is using, the path taken to reach the end of the game, and the difficulty setting.
+
+Tips:
+
+Debug Menu
+Select + Start (on Capcom screen)
+
+http://en.wikipedia.org/wiki/Final_Fight_3

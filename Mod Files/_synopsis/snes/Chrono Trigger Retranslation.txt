@@ -1,0 +1,42 @@
+Chrono Trigger Retranslation
+Original title: Chrono Trigger
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2008
+Translated by: Doctor L
+Version: 1.01
+_________________________
+Come on, who hasn't played Chrono Trigger? All of Square's biggest talents teamed with Dragon Quest producer Yuji Horii and character designer Akira Toriyama to make a truly classic RPG. It's amazing to think that from a company that puts all of its resources into the Final Fantasy franchise, most people instead consider Chrono Trigger to be the best RPG ever made. Yep, it's that good. All the loser Squaresoft fanboys you keep seeing and managing to talk to? Play Chrono Trigger and you'll understand.
+
+You play as Crono, a mute (yet beloved.. why?) character whose friend Lucca accidentally creates a rift in the space-time continuum and sucks a girl back four hundred years in time. You go in to rescue her and set in motion a chain of events that will save the world from total destruction a thousand years from now by an evil otherworldly entity. It's a good game, seriously.
+
+Translation Description:
+
+So, you're probably wondering why a great game that already had a decent translation and a recently released retranslation from fans would need another fan translation. Normally, I'd be wondering the same thing. However, here we are.
+
+Late in January of 2008, I had a desire to play Chrono Trigger again after having not played for at least 7 years. When I discovered that KWhazit, ZeaLitY, and company had finished a new English retranslation, I immediately applied it to the game and started playing.
+
+No, discredit to them, but I felt much of the text was incoherent and/or awkward. I soon discovered I was not the only one who felt this way. Therefore, instead of complaining, I decided to take action. I acquired all the necessary tools to begin doing my re-retranslation. For the next 3 months, I went to work.
+
+I want to make it clear that, despite not enjoying their version, I would not have been able to do this without Chrono Compendium's retranslation forerunners like ZeaLitY and KWhazit. The resources they provided pointed me in the right direction to complete this.
+
+In the end, here are the fruits of my labor. I aimed not so much for a literal translation, but localization, clear and easily understood text, and the inclusion of any missing elements left out from the US version due to Nintendo's censorship policy from back in the day.
+
+Hopefully, you'll find it to be an enjoyable experience.
+
+*NOTES* I will not provide you or tell you where to get an illegal ROM image of Chrono Trigger. Don't ask. You are expected to provide your own legit copy.
+
+Regarding the change of the element icon 'Lightning' to 'Sky' and then to 'Heaven' in my version: I have strong reasoning for doing this. I will explain. The Japanese character used for Crono's element can be rendered as Sky or Heaven in English. ZeaLitY decided on Sky. However, here are my reasons for choosing Heaven:
+
+1. Crono's final tech's, Shining (Luminaire in original English version), description reads literally from Japanese, "Ultimate holy magic on all enemies." Any version of heaven across all cultures in a spiritual, metaphysical, or magical sense is associated with being holy.
+
+2. If the element truly was supposed to be Sky, why would the localization team change it to Lightning? Such changes were generally only done for three reasons: The original meaning held religious context (as heaven does), cultural difference no one here would readily understand, or was of an adult nature.
+
+I based my ROM edit off of a copy of Chrono Trigger patched with Chrono Compendium's retranslation patch. So, their CronoNick fix and the ending artwork are both still in-tact. I take no credit for these whatsoever and you have them to thank.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/1258/

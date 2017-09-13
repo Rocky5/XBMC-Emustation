@@ -1,0 +1,45 @@
+Willow
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1989
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+
+It is a time of great turmoil to the world. Bavmorda, a former messenger from the Spirit of the Skies, has turned towards evil. Her plan is to rule the world through her twisted magic. Her force is incredible and her armies are unstoppable. She even dared to transform Fin Raziel, the messenger from the Spirit of the Earth, into a small animal. Bavmorda believes that there is no one that can stop her.
+
+But she had not heard of the tribe of the Nelwyns. There had been a prophecy among these people that one of their tribe would help lead the world out of its darkest hour. The High Aldwyn, the wizard of the Nelwyn tribe, recognized Willow Ufgood as the chosen one. The adventure begins for Willow as he leaves his family and friends and sets out to stop all of the evil that Bavmorda has created.
+
+--From the NES Willow instruction manual.
+
+Directions:
+
+Defeat Bavmorda and her minions with your sword and magic. Your sword (once obtained) can be used in two different ways. Jab and Swipe. To Jab, move while pressing B. To Swipe, stand still and press B.
+You can also cast magic (once obtained) with A. 
+
+Controls:
+
+A Button Use Magic
+B Button Use Sword
+Start Button Menu
+Select Button Nothing
+
+Hints:
+
+Password Effect
+ftT ZAs zAf eXh JQr 6H3 Experience Level 11
+Xg8 QTT opf KUh JQD kQK Experience Level 13
+6oF nJJ r7N itL 5I1 R!v Experience Level 16
+nBW IhS JuU nNz rld P8x Start new game at final area at Max. Level with All Swords/All Shields/All Magic/All Items
+PvY 7en iVv S6Y y!3 TOm Start new game at final area at Max. Level with All Swords/All Shields/All Magic/All Items/Enabled Warp Option
+VD5 Wt8 hVu S5W t8h VrU Start new game at Max. Level
+tQW 5IT gxq Xev Vzf xvn Warp Password
+
+Reviewer: Agoaj 
+http://www.consoleclassix.com/nes/willow.html
+http://www.gamefaqs.com/console/nes/code/563478.html

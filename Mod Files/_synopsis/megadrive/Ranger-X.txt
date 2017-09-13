@@ -1,0 +1,15 @@
+Ranger-X
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: GAU Entertainment
+Publisher: SEGA
+Players: 1
+_________________________
+Ranger-X, called Ex-Ranza in Japan, is a run-and-gun game developed by Gau Entertainment (who were bought by Nextech shortly after the game's release) and published by Sega for the Sega Mega Drive in 1993.
+
+You play as a robot fighter called EX-CP who shoots at specified targets in a level while destroying the various enemies and ammunition you may encounter. You can move left to right freely (so if you miss a target you can go back) and can either walk or hover up and fly, but will come down automatically after you release up or stay up too long.

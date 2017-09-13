@@ -1,0 +1,20 @@
+Last Action Hero
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1993
+Developer: Bits Studios
+Publisher: Sony Imagesoft
+Players: 1
+_________________________
+Unlike many such adaptations, the game closely follows the plot and scenery of the movie. The game, like the movie, was not received with much enthusiasm from the public. In fact, all versions of the game faced an even poorer reception than the film, receiving mostly negative reviews.
+
+Tips:
+
+Energy refill
+On the first level, go right until you reach the first police car. Hit its tail light 20 times and you should hear an explosion and gain 5000 points.  You can then refill your energy bar at any time by pressing and holding the R button.
+
+http://en.wikipedia.org/wiki/Last_Action_Hero_(video_game)

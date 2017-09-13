@@ -1,0 +1,14 @@
+Chaos Engine 2
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Bitmap Brothers
+Publisher: Unreleased
+_________________________
+Chaos Engine 2 appeared in 1996 for AGA Amigas and 1 MB Amiga 500, with a rough beta version also in existence for Sega Mega Drive/Genesis. The game pits the player characters against each other as prisoners of Baron Fortesque, and is basically a competition game instead of a co-operation one. It was severely unfinished when released, due to the publisher rushing it out, and the game brought disappointment to many fans of the finely-honed first game. Little concrete information is found on the sequel, save for the page on the developers' website.
+
+http://digiex.net/console-roms/750-megadrive-genesis-chaos-engine-2-a.html

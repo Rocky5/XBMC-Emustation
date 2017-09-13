@@ -1,0 +1,56 @@
+Dick Tracy
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1990
+Developer: Bandai
+Publisher: Bandai
+Players: 1
+_________________________
+
+Ace detective Dick Tracy pored over the crime files and mug shots that littered the desk in his dimly lit office down at police headquarters. 'This crime wave has to be the work of Big Boy Caprice,' he thought to himself. 'I can smell his greasy handiwork behind each of these cases. But I need to get some hard evidence on him. If only I can nab some of his hoods-Itchy, Flattop, and the rest. I'd rearrange their thinking and have them singing like that nightclub temptress, Breathless Mahoney. Then I could put Caprice behind bars for good.' Suddenly Tracy's two-way wrist radio seized the detective's attention. 'Calling Dick Tracy, Calling Dick Tracy.' He sprang to his feet and burst into the squad room shouting: 'O.K. boys, let's go! This could be our big break!'
+
+--From the NES Dick Tracy instruction manual.
+
+Directions:
+
+The main objective in this game is to solve a series of cases dealing with crime (suspects are all associated with Big Boy, of course). This game can be quite difficult and complex, but it is a lot of fun once you get into it.
+
+You must follow clues and the testimonies of those you interrogate, starting with the first clue that is given to you. The clues will lead to certain places and certain people within the city. As you continue to gather clues and interrogate suspects, you will eventually gain enough evidence to solve the case and make an arrest. As the game goes on, the cases take a bit more brain power to work through and the buildings are a lot harder to get through alive.
+
+At the very beginning of the first case, start by looking at your notepad. It will give you your first clue which will say, "Fake $20 bill used near Steve the Tramp's flophouse." It is best at this point to go find out where Steve the Tramp is and interrogate him. You can get the location of suspects by looking at the mugshots, which is 5th and B for Steve the Tramp. After you know where you want to go, pick "hit the street" and go find it. The areas are fairly organized so it shouldn't be too hard to find, but be extremely careful avoiding guns on the way. Your life is very limited in this game. Steve will give additional information that will either lead to other clues or people in other places. Just keep following the clues until you have solved the case.
+
+Whenever you enter a building to find a suspect or a clue, you will have to get through a whole building of people trying to beat you up or trying to kill you. So fight back by punching them. You can also use your gun on men that are shooting at you, but do not shoot men that are unarmed or you will lose life. If you get to a clue it will be really obvious because it will have a big arrow that says "clue". Suspects that you need to interrogate will be a different color than the usual guys, and they won't be attacking you like everyone else in the building.
+
+If after exiting a building you come to a situation where a car suddenly pulls away quickly (your car siren will be on if this happens), then follow the car and keep shooting at it until you get it to stop. Then interrogate whoever it was. They will give you additional information you will need to solve the case. You can usually expect one of these car chases to happen if you get a really vague clue that doesn't really lead you to what you should do next.
+
+Please be aware that you must have all the clues in order to arrest someone and finish a case, even if the clues you do have make it seem perfectly obvious who is guilty.
+
+It can be extremely difficult to make it through a case alive, so be very cautious on the streets and in buildings. And whenever you see a heart looking thing, go get it because they refill your life and are extremely helpful (there is one in the warehouse where Steve the Tramp is). 
+
+Controls:
+
+A Button: On the Streets = Brake / In a Building:= Jump
+B Button: On the Streets = Shoot gun / In a Building = Punch, use gun, or use item.
+Start Button: Pause
+Select Button: On the Streets = Get out of Car / In a Building = Select between using fist, gun, or item.
+
+Hints:
+
+Instruction Booklet Suggestions
+- Here is some suggestions from the original instruction booklet:
+
+Follow the clues
+- Each clue tells you which location or criminal to seek out next. You may need to examine the Mug Shot book at a police station to link a clue to a particular criminal.
+
+Conserve your Shots
+- Tracy runs out of bullets, he must get another clip at any police station. His energy can also be restored by up to one badge when he returns to a station.
+
+Remove Snipers
+- When Tracy is out of his car, he can use it as a shield to protect him from sniper fire. If he kills a sniper, the sniper will not appear again until the next case."
+
+Reviewer: Matt
+http://www.consoleclassix.com/nes/dick_tracy.html

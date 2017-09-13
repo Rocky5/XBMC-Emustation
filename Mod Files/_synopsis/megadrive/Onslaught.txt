@@ -1,0 +1,24 @@
+Onslaught
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Nextgrand
+Publisher: Ballistic
+Players: 1
+_________________________
+As a highly respected warrior, you are attempting to conquer as many regions as possible. This is a three-stage task, as first you must fight through hordes of fighters simply to reach the castle, and then you have to climb the various sections of the castle, before battling with its existing inhabitant.
+
+The bulk of the game is side-scrolling platform hack 'n' slash action, with mines to avoid on the route. You can collect a number of spells, and select them using the function keys. Your physical and mental energy are measured separately throughout the game, and must both be kept high.
+
+Hints:
+
+- End Password -
+Enter the following code at the Password Screen: 0000 - 0000 - 00
+Then you should have all but the last territory conquered.
+
+Reviewer: B.L. Stryker
+http://www.mobygames.com/game/genesis/onslaught_

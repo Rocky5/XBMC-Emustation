@@ -1,0 +1,18 @@
+FIFA Soccer '95
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1994
+Developer: Extended Play Productions
+Publisher: Electronic Arts
+Players: 1 - 4
+_________________________
+FIFA Soccer 95 is a football game developed by Extended Play Productions published by Electronic Arts. It is the second licensed FIFA video game, following FIFA International Soccer and was the first to start the annual naming trend which continues to this day.
+
+FIFA 95 was only released on the Sega Mega Drive and Sega Game Gear, under the motto "The best console soccer can get!". It was the first soccer game to feature licensed clubs from several different international leagues, like the Major League (USA), Premier League (UK) and the Bundesliga (Germany).
+The game was also famous for its music, made by Jeff Dyck. The sound driver is very advanced and uses two PCM channels using software mixing and variable sample frequency.
+
+It also offers a four-player mode using Electronic Arts' "4-Way-Play" device.

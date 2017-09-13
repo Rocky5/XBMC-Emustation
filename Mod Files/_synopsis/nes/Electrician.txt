@@ -1,0 +1,22 @@
+Electrician
+Original title: Electrician
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 2001
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+
+Being produced in Japan in 1986, I had very low expectations of this game. But God dammit, this is a fun game. Fun in that simple kind of way. You just run around, fixing all the wirirng in various buildings, making sure that inchworms, rats, and spiders don't undo your work. Occasionally, you have to stop the occasional looting, as well. And between levels, you have to run through the sewers of Washington and New York. Just don't ask me how you enter a building in Washington, and exit it in New York. Or even better, don't ask me how the building interiors are all decisively Japanese.
+
+Sure, it feels like any old-school Atari or arcade game. But that's what's great about this game. A little man runs around, wiring buildings and frolicking through sewers. Meanwhile you forget about all the troubles of the world. Great huh? At what point did videogames decide that we needed to do all sorts of thinking and remembering. Probably around when Reader Rabbit was released. Damn you Reader Rabbit. Damn you to HELL.
+
+Translation Description:
+
+Everything is translated, and the savegames are deleted! Hurray for deleted savegames!
+
+Reviewer: wraith
+http://www.romhacking.net/trans/5/

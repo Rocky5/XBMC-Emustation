@@ -1,0 +1,30 @@
+Alfred Chicken
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1989
+Developer: Twilight Games
+Publisher: Mindscape
+Players: 1
+_________________________
+
+The player takes the role of a chicken named Alfred who must find his way through bizarre levels full of balloons, telephones, cheese and other strange elements. While he is on the ground, Alfred can walk, jump, and peck balloons and ground switches. While he is in the air he can dive bomb enemies or springs. Dive bombing enemies will destroy them. Dive bombing springs will bounce Alfred much higher so he can reach platforms well above his normal jumping ability. If he does not hit an enemy or a spring, Alfred will get stuck in the ground for a short time.
+
+To complete a level, Alfred must find and peck all the balloons. The last balloon will take him to a boss fight. If Alfred dies, he starts as an egg located at the last balloon pecked.
+
+Alfred can receive a few powerups during the game. For one power up, he must answer a telephone in secret areas to make a giant flower give him a pot of jam. The jam gives Alfred the ability to shoot a bomb (about the size of Alfred himself) which bounces around the screen collecting things and hurting enemies. Another power up is a worm that spins around Alfred destroying enemies that it touches. You must find a can of worms to get this power up.
+
+The music in Alfred Chicken is usually upbeat and silly. Mixed with the gameplay and characters, the overall feel of the game can be described as similar.
+
+Marketing:
+
+Karl Fitzhugh, the Product Manager of the Amiga version of the Alfred Chicken video game, ran as the Alfred Chicken Party candidate in the 1993 by-election in the Christchurch, Dorset constituency. The exercise was done to promote the original game's release. Fitzhugh finished second last with 18 votes, two votes ahead of the Rainbow Party candidate.[1]
+
+The marketing attempt was partially successful. The Alfred Chicken Party was cited, along with other "frivolous or 'commercial' candidates" as a reason to increase the number of signatures required for an individual to be nominated as a political candidate at election.[2]
+
+There was also a toll free number set up where you could call and Alfred himself would give a promotional speech about the game. It was setup after the game was released in the United States.
+
+http://en.wikipedia.org/wiki/Alfred_Chicken

@@ -1,0 +1,30 @@
+Pocky &amp; Rocky
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Top Down, Multi-Directional
+Gametype: Licensed
+Release Year: 1993
+Developer: Natsume
+Publisher: Natsume
+Players: 1 or 2 CO-OP
+_________________________
+Set in Feudal Japan, Pocky &amp; Rocky has the player assume the role of a young girl who, while tending to a shrine one night, is visited by Rocky, a tanuki and member of a group of yokai known as the "Nopino Goblins", all of whom have recently been driven insane by an unknown force. Together, Pocky and Rocky must travel through several levels consisting of various ancient Japanese locales while battling a number of creatures from popular Japanese myth, including kappas, obake, and yurei. Eventually, they must breach the stronghold of the mysterious Black Mantle, who has been using these monsters (collectively referred to as the "Gorgonzola Goblins") to fulfill his evil deeds. Whichever character the player chooses to play will make no difference in the outcome of the story.
+
+Pocky &amp; Rocky takes place from a top-down perspective with the characters moving either horizontally or vertically through a level while defeating approaching enemies and destroying obstacles that may block the player's path. Pocky can use her o-fuda talismans (simply called "cards" in the English language version) to attack enemies from afar, or purification rod, which she swings at a wide arc, to hit ones close up. Likewise, Rocky can throw leaves across the screen or quickly turn his backside towards the enemy and swing his tail from side to side. By holding the short-ranged attack button down and then releasing it, Pocky does a spinning attack that can hit any enemy around her, while Rocky is able to transform into a statue, rendering him invulnerable to all attacks for a short time while leaving him immobile. Both characters can also slide across the ground, covering an area quickly. 
+
+If a player bumps into the other while sliding, it will cause them to spin out of control across the screen, damaging any enemies they come in contact with, though the initial bump causes some damage to the receiving character. A limited-use special attack can be used to hit several or all the enemies present on the screen, and is only available once per life (they differ in actual range and power between the two characters). Though most enemies only require a few attacks to defeat, boss monsters present at the end of each level take much more, and may require an additional use of strategy.
+
+Various power-ups can also be acquired that will increase the effectiveness of either Pocky or Rocky's attacks, such as making their projectiles larger or giving them the ability to throw multiple ones at once. Others include the ability to become invincible, or regain hit points, giving them more endurance. Each item obtained will add to the player's total score, and when a certain amount is reached, they are given an additional life, another chance to complete the current level.
+
+Three levels of difficulty can be selected before a player begins the game: easy, normal or hard. Selecting a higher difficulty will make the enemy creatures more difficult to defeat and provide a higher challenge to the player, as well as increase the number of hits required to defeat a boss. Defeating the game on a harder mode will not yield any greater ending or reward, and it is merely for the player's own gameplay preference.
+
+Tips:
+
+Stage Select
+At the select player screen, hold down the X and Y buttons while pressing
+A, A, A, A, B, B, B, B, A, B, A, B, A, B, A, B, START
+
+
+http://en.wikipedia.org/wiki/Pocky_%26_Rocky

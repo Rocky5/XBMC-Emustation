@@ -1,0 +1,16 @@
+Bram Stoker's Dracula
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1993
+Developer: Probe Entertainment Limited
+Publisher: Sony Imagesoft
+_________________________
+Bram Stoker's Dracula is the title given to a number of games based on the 1992 film of the same name. Gameplay for each game varies greatly from platform to platform, but they all retain a similar plot based on the movie. You control a young lawyer named Jonathan Harker. Harker must free himself from Dracula's capture, follow him to London, and end his reign of terror.
+
+The DOS version is an adventure game played from a first person perspective. The 16-bit console versions are side-scrolling hack-and-slash games. The Game Boy version is also a side scrolling adventure game, but places more emphasis on level exploration than fighting. Finally, the Sega/Mega CD version is a side-scrolling fighting game that uses full-motion video backdrops and digitized actors.
+
+http://www.mobygames.com/game/gameboy/bram-stokers-dracula

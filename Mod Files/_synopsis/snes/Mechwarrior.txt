@@ -1,0 +1,36 @@
+Mechwarrior
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, 3D, First Person
+Gametype: Licensed
+Release Year: 1993
+Developer: Beam Software
+Publisher: Activision
+Players: 1
+_________________________
+3017
+
+It was the year of the septicentennial of the founding of the Federated Suns. For exactly 700 years, House Davion had ruled this portion of the Inner Sphere. Herra Ragen's father was a Colonel of an elite force in the powerful Davion army, but the army of Hanse Davion was not on the planet of Redondo that fateful night of January 12th. Colonel Joseph T. Ragen was an idol to his son. He was the best MechWarrior in the best force in the army of the best of the Successor Houses. But there was more to the man than the boy knew. The colonel had been working to infiltrate and destroy the renegade mercenary cartel called the Dark Wing Lance--and he'd learned entirely too much. Somehow, the location of his residence had leaked to the Dark Wing Lance, and a plan was drawn up for a covert hit operation. 
+
+Before taking action, the members made a pact; immediately after the hit they would disband and lay low for 10 years, maintaining a code of strict secrecy, before regrouping to again undertake their nefarious enterprise.
+
+Under cover of night, the lance attacked. While playing at a friend's house, young Herras heard the sounds of the firing. Rushing home, he found a roaring inferno where he and his mother and father and sister had lived and eaten and laughed and cried together. Orphaned at the age of 12; he vowed that someday he would have revenge on those who had done this.
+
+3027
+
+The outrage and shock that echoed through every home in the Federated Suns has long since died down, but it lives on in the heart of Herras Ragen, now a young man. After he saw what happened to his family, Herras could not serve the House of Davion. Now he makes his living, one day at a time, as a freelance MechWarrior--selling his services, not to the highest bidder, but to anyone whose contract might lead him closer yet to the insidious Dark Wing Lance.
+
+Herras has tirelessly and obsessively chased down every rumor about the Dark Wing Lance. This quest has led him here, to the planet Galatea, where mercenary MechWarriors and the dregs of the Inner Sphere gather.
+
+But we don't need to tell you this--for you are Herras Ragen.
+
+--From the SNES Mechwarrior instruction manual.
+
+Tips:
+
+Invincibility
+A, L, L, Y, A, L, L, Y, A, L, L, Y
+
+http://www.consoleclassix.com/snes/mechwarrior.html

@@ -1,0 +1,22 @@
+Mega Man: The Return of Dr. Wily
+Original title: Mega Man
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: Jimmy52905
+Version: 1.0
+_________________________
+Some of you may have heard about me working on this hack for a while. And I'm proud to announce that it's finally finished!
+
+So anyway, here's the story: Wily has returned to try to achieve World Domination again! He used the same 6 robot masters that he used in his first attempt to destroy Megaman. Only this time, they have no weaknesses! (Or do they?)
+
+This hack features completely redesigned levels, graphics and palette changes, enemy AI changes, and even some custom music! Be careful though, this hack is alot harder than the original Mega Man, so save states are strongly recommended.
+
+So good luck and have fun! ;)
+
+http://www.romhacking.net/hacks/438/

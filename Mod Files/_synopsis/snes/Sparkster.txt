@@ -1,0 +1,86 @@
+Sparkster
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Side-Scrolling
+Gametype: Licensed
+Release Year: 1994
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+Sparkster is a 16-bit generation side scrolling platformer produced and released in 1994 by Konami for the Super Nintendo Entertainment System, directed by Hideo Ueda (Axelay). The eponymous main character is an opossum knight who fights an army of wolves and robots. He is armed with a sword that can fire energy bolts and a rocket pack that allows him to fly short distances.
+
+Although it is another game that features Sparkster, it has no storyline continuity with the Sega Genesis versions of Rocket Knight Adventures, thereby making it more of a spin-off, or perhaps an alternate universe instead.
+
+Sparkster was awarded Best Sound Effects of 1994 by Electronic Gaming Monthly.
+
+Tips:
+
+Sparkster
+
+Crazy Hard Mode
+Go to the Set Up Screen, highlight Level and press Left, Left, Right, Right, Down, Up, Down, Up, A, X.
+
+Sound Effects Test (Japanese Version Only)
+At the options menu, highlight 'Sound' and hit select.
+
+Immortality
+Pause the game and press A, B, X, Y, L, R. Unpause and sparkster won't take any damage from hits. To reverse
+the code just pause the game and put it in again.
+
+End Passwords:
+Crystal, Crystal, Crystal, Crystal, Crystal, Banana, Space, Space, Apple, Crystal, Apple, Banana 
+Last Stage (Hard)
+
+Space, Banana, Apple, Space, Space, Banana, Apple, Apple, Crystal, Apple, Apple, Apple 
+Last Stage (Very Hard)
+
+Passwords:
+At the title screen select password and attack the empty boxes to change them.
+
+A: Apple B: Banana C: Crystal N: Nothing
+T: top row M: middle row B: bottom row
+T: NNBC M: NNCN B: NBCN Crazy Hard Level 1
+T: BCAB M: ABNN B: AACN Crazy Hard Level 2
+T: CCAN M: CABN B: ACAC Crazy Hard Level 3
+T: NBNC M: NNBN B: NBCN Crazy Hard Level 4
+T: ANBA M: BCNN B: BNAC Crazy Hard Level 5
+T: CCCN M: CACN B: ACAC Crazy Hard Level 6
+T: CCCB M: CNBN B: CCAC Crazy Hard Level 7
+T: NBBA M: NACN B: BBCN Crazy Hard Level 8
+T: BBCN M: ACNN B: CACN Crazy Hard Level 9
+T: ABAN M: CBCN B: BAAB Easy Level 1
+T: ABAN M: ACCA B: NACN Easy Level 3
+T: NNBB M: NABN B: NBCN Easy Level 4
+T: ANCN M: ACBA B: NACN Easy Level 6
+T: BANA M: NCBN B: ANCA Easy Level 7
+T: NNAB M: NCCN B: NCCN Hard Level 1
+T: BCNC M: AANN B: ANCN Hard Level 2
+T: CABA M: CBBN B: ABAC Hard Level 3
+T: NNCB M: NCBN B: NCCN Hard Level 4
+T: ANCN M: BNNN B: BAAC Hard Level 5
+T: CCNA M: CBCN B: ABAC Hard Level 6
+T: CCBC M: CCBN B: CBAC Hard Level 7
+T: NBCN M: NBCN B: BCCN Hard Level 8
+T: BANA M: ANNN B: CNCN Hard Level 9
+T: CACA M: CABA B: BACC Normal Level 1
+T: NNBB M: NNCA B: ANAA Normal Level 2
+T: ABNN M: BCAA B: ABCB Normal Level 3
+T: NNBB M: BABN B: ANCB Normal Level 4
+T: BACC M: ACAA B: NCAN Normal Level 5
+T: ANBN M: BCNA B: ABCB Normal Level 6
+T: EBAE M: EACA B: AAAE Normal Level 7
+T: ANAB M: NBAN B: ACAN Normal Level 8
+T: BCCC M: ANBA B: NCAA Very Hard Level 1
+T: ABNN M: BNCA B: CBCC Very Hard Level 2
+T: NNBB M: NBAA B: CNAN Very Hard Level 3
+T: BCAC M: ANCA B: NCAA Very Hard Level 4
+T: CCAA M: CCAA B: BACB Very Hard Level 5
+T: NBNB M: NBNA B: CNAN Very Hard Level 6
+T: NBNN M: NCAA B: ANAN Very Hard Level 7
+T: BAAA M: AABA B: BCAA Very Hard Level 8
+T: ANNB M: BACA B: ABCC Very Hard Level 9
+
+http://en.wikipedia.org/wiki/Sparkster_(SNES)

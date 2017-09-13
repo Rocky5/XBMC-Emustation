@@ -1,0 +1,44 @@
+NHL Hockey '95
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1995
+Developer: High Score Productions
+Publisher: Electronic Arts
+Players: 1 to 4 VS; CO-OP
+_________________________
+NHL '95 is one game in a prolific series of fast-paced hockey simulations from EA Sports. You choose from amongst the 1994 rosters and take the ice with players such as Sergei Federov and Joe Sakic.
+
+In NHL '95, for the Sega Genesis, up to four players face off from an overhead perspective. NHL '95 contains all the trappings of a real game and the graphics are fluid and smooth. You have the option to adjust realistic features such as penalties, off-sides and line changes. In addition, NHL '95 offers a full season mode with in depth statistics, trades, and player creation. You can even practice your breakaway moves on the "shootout" mode.
+
+Controls:
+
+OFFENCE
+
+A: Flip puck down ice.
+Hold A: Bring up line menu.
+B: Pass, you control the direction with d-pad.
+C: Shoot, you control the direction with the d-pad and the power with the duration of your depression.
+Start: Pause.
+
+DEFENCE
+
+A: "Stick work"
+Hold A: Bring up line change menu.
+B: Switch to nearest player to the puck.
+C: Speed burst or "check."
+Start: Pause.
+
+Hints:
+
+- 0 Second Periods -
+At the controller configuration screen, hold A,C, and Start, then release. When the scouting report screen appears, press and hold A,C, and start again. Next select Abort Game, and when the Main Menu appears, the Period length is 30 seconds.
+
+- More players -
+When you go into the screen to create players, press A + C then press START and you'll get to choose different people.
+
+Reviewer: Jeff Irwin
+http://www.allgame.com/game.php?id=7570

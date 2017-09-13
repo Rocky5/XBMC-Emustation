@@ -1,0 +1,20 @@
+Motocross Challenge
+Platform: Nintendo Game Boy Advance
+Region: Prototype (USA)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Racing - Cars - Scrolling
+Gametype: Prototype
+Release Year: 2007
+Developer: DHG Games
+Publisher: DHG Games
+_________________________
+Motocross Challenge is a 2D side-scrolling motorcycle game combining regular racing and tricks. The game can only be played through an emulator or a GBA flashcard but is not strictly homebrew. It is a game made by a commercial developer, but when the project was cancelled by two publishers, they decided to release the game for free. The game can also be ordered on a cartridge from the developer's website.
+
+The tracks remind of Excitebike while the gameplay seems inspired by Motocross Maniacs. The game offers two main modes: Free Ride (choose an unlocked bike and track to practise) and Challenge. The Challenge mode involves a series of events in 3 major categories: Beat the Clock (time-based), Trick Attack (points-based) and World Tour (race against 3 AI opponents). When all courses are finished, the final event, MXC Championship, is unlocked. The events are divided over different trees and completing certain courses unlocks new tracks or one of the 8 available bikes. The bikes have different statistics based on speed, handling, acceleration, height, boost and suspension.
+
+Gameplay involves a fair amount of physics. When the bike accelerates, the front wheel leaves the ground and this needs to be compensated by nudging the d-pad. Up and down on the d-pad is used to switch lanes. Many tricks (activated through the L-button) involve balance and constant correcting is needed. Next to accelerating, braking and tricks, there is a button for boost. Only a limited amount is offered, but it constantly regenerates at a slow rate. It is used to gain extra speed, especially before big jumps to gain extra air time. The full amount of boost should never be used or let maxed out, as too little or too much slows the bike down. While in the air, using a combination of the L-button and the d-pad, players can perform tricks such as superman, nac-nac of backflip. By completing Trick Attack events, new tricks can be unlocked.
+
+There are different types of tracks, set on a beach, an arena, downtown, in the snow, in a forest, in a desert and even a dump. They contain a series of jumps but also areas that slow down the bike, along with obstacles. The game screen shows the current position of the player (in World Tour), the current location on the track along with the finish, the time (remaining time in Beat the Clock), the current lap (in World Tour), the boost meter and the amount of points for a trick, and the remaining trick points needed (in Trick Attack). The game supports passwords to save and restore the player's progress.
+
+http://www.mobygames.com/game/gameboy-advance/motocross-challenge

@@ -1,0 +1,34 @@
+Karate Champ
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1984
+Developer: Technos
+Publisher: Data East
+Players: 1 or 2 VS
+_________________________
+
+Karate Champ is a 1984 arcade game developed by Technos Japan Corporation for Data East. It is one of the first fighting games and has been believed to be the first to use today's common side-perspective. However, Heavyweight Champ, released in Japan by Sega, used the same perspective and predates Karate Champ by eight years.
+
+Overview:
+
+The player assumes the role of a Karate competitor and fights against another player or the computer. Using two joysticks, players can execute a number of moves.
+
+Gameplay consists of a two dimensional fight between Karate characters wearing white and red gi, followed by various bonus rounds for the successful player. This pattern repeats itself in the next, more challenging round set against a new background. Unlike most later fighter-type games, there are no health bar or hit points. A hit successfully landed ends the round and earns the player or his opponent either one point or half point (along with a numeric score for the top ten but this has no effect on winning a match per se). The first to two points is the winner. The game also featured some early speech synthesis, in which the judge would call out such phrases as "Fight!" or "Winner!" It's also spoken in japanese in the Japanese version.
+
+Player vs. Player Edition:
+
+Karate Champ led to the creation of a direct sequel titled Karate Champ  Player vs Player which was also released in 1984. It was released in Japan as Taisen Karate Do: Bish?jo Seishun Hen, which roughly translates "Competitive Karate Road: Young Pretty Girl Edition"). Both versions are very similar in the sense that they use the same hardware, have the same sprites and title screen, and the gameplay is essentially the same although the computer AI is greatly improved along with control and hit detection. Whereas the original game started with the first level taking place at a dojo and all the following levels taking place at a tournament stadium, Player vs Player has the characters fighting it out over girls at locations around the world.
+
+Ports and Release Information:
+
+Karate Champ was ported to the Apple II, Commodore 64 and the Nintendo Entertainment System. The Apple II and Commodore 64 ports were both developed by Berkeley Softworks. The NES version was developed in-house by Data East in the United States and released in 1986. This port was later released in Japan for the Famicom Disk System on July 22, 1988, but never made it to the cartridge-based Famicom.
+
+An emulation of the arcade version was released by Hamster for the PlayStation 2 as part of their Ore-tachi Gesen Zoku lineup.
+
+The game is seen briefly in the movie Bloodsport starring Jean Claude Van Damme.
+
+http://en.wikipedia.org/wiki/Karate_Champ

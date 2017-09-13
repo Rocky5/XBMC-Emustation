@@ -1,0 +1,22 @@
+NBA Showdown '94
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Basketball
+Gametype: Licensed
+Release Year: 1993
+Developer: Electronic Arts
+Publisher: EA Sports
+Players: 1 or 2 CO-OP, VS
+_________________________
+The game could be played in various ways: players could play against each other, or against the computer. Games against the computer were divided into two levels, "exhibition" or "playoffs". Players could pick from any of the NBA teams for the first time, including non-playoff teams. Games could be configured for 2, 5, 8 or 12 minute quarters.
+
+ - It was one of the first basketball games to feature every NBA team in the league. Tecmo NBA Basketball, which was released in 1991, was the first game to do so.
+ - It was the first game to feature multiple generic custom teams like Skyers and Flyers.
+ - It was the first basketball game to feature in-game 3rd party advertisements for companies like Starter and Topps stadium.
+ - It was the first game to deviate from the traditional Eastern Conference finals team vs Western Conference finals team naming convention. Sequentially this title should have been called Bulls versus Suns following the 1993 Finals. There were controversies as to whether star players like Charles Barkley opting out of the players licensing had a profound effect on EA changing to a more generic name like NBA Showdown.
+ - It was the first basketball game in which EA Sports, the entity, within EA officially took over the game.
+ - The first EA sports game to have the tenths of a second rule in the last minute.
+
+http://en.wikipedia.org/wiki/NBA_Showdown_94

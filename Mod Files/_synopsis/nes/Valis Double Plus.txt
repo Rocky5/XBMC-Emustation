@@ -1,0 +1,23 @@
+Valis++
+Original title: Valis: The Fantasm Soldier
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure 
+Gametype: Hack
+Release Year: 2007
+Hacked by: Silver X
+Version: 1.01
+_________________________
+This is an alternative patch to the standard translation. What's different, you may ask?
+
+For one, you always have a map, and the maps have things such as the exits marked for you.
+
+Also, both Up and Down exits alert you to their presence: This was one of the most aggravating things about the original game.
+
+And finally, you take half damage; this makes things a lot more fair.
+
+So basically, this is a big step towards what the game should've been like in the first place.
+
+http://www.romhacking.net/hacks/248/

@@ -1,0 +1,60 @@
+RoboCop
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1989
+Developer: Data East
+Players: 1
+_________________________
+
+Welcome to Old Detroit
+
+Your first assignment may sound simple, but it isn't: Clean up the streets. You'll encounter thugs firing at you from the sidewalk, from windows and rooftops. Get rid of as many of them as possible. Be sure to pick ip food and weapons you come across - without them you won't be able to finish the job.
+
+City Hall
+
+A disgruntled employee is holding the mayor at City Hall. And the other half of the petty criminal in Detroit - the ones who weren't around when you took care of their comrades - have crawled out of their holes and are bent on revenge. Waste 'em!
+
+The Warehouse
+
+Your infrared vision will lead you to some startling discoveries. Just remember the directive "protect the innocent."
+
+O.C.P. Headquarters
+
+The drug lord, Clarence Boddicker, spilled his guts to you at the factory to save his own miserable neck. He tells you he works for Dick Jones, Senior Vice President at O.C.P., and Jones is behind about every major crime that's been committed, including the murder of a police officer. When you confront Jones at O.C.P. Headquarters and attempt to arrest him, you learn the nature of the mysterious classified Directive 4 - you can't act against any of O.C.P.'s corporate officers. He orders you to obey Directive 4 and put down your weapon - then your personal nightmare begins.
+
+The Steelworks
+
+Work your way up and down the many levels of the steelworks. Many more vicious scum bags wait for you here - heavily armed scum bags like Clarence Boddicker. You've never seen such firepower before. Use you head. There's a way to turn their strength against them.
+
+The Boardroom
+
+At last you come face to face with Dick Jones. The president of O.C.P. has fired Jones, so he's no longer protected by Directive 4. Unfortunately, the worst is yet to come. Will he stop at nothing? Be careful. It will take the strength of RoboCop to rid Detroit of Dick Jones.
+
+--From the NES RoboCop instruction manual.
+
+Overview:
+
+Patrolman Murphy was gunned down in Detroit by a gang. They found what was left of Murphy, erased his memory and programmed his mind, and made him into a deadly killing machine, but they were not able to erase his memory of what the gang had done to him. Now he sets out to track down the gang responsible while fighting criminals in the streets, as RoboCop, the future in Law Enforcement! 
+
+Directions:
+
+In this game, you must punch or shoot any people or dogs that are around you. They will try to kill you, so try killing them before they hurt you. 
+
+Controls:
+
+A Button: Punch/Shoots if gun is in hand
+B Button: Punch
+Start Button: Pause
+Select Button: Block
+
+Hints:
+
+Infinite continues
+After using all your continues, hold A+B+Select on the Game Over screen, then press Start and Continue from Main Menu. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/robocop.html

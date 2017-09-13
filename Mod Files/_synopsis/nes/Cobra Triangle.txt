@@ -1,0 +1,18 @@
+Cobra Triangle
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Racing - Boats
+Gametype: Licensed
+Release Year: 1989
+Developer: Rare
+Publisher: Nintendo
+Players: 1
+_________________________
+
+Put your skill and reflexes to the test at the controls of a highly modified Cobra Class Speed Boat. Push it to the limit on every level where you'll race against other boats, avoid treacherous whirlpools, battle deadly sea monsters and protect a group of helpless swimmers. Increase your boat's performance by collecting Pods which will allow you to upgrade your speed and firepower. 25 stages of high speed, river running action await you.
+
+--From the NES Cobra Triangle instruction manual.
+
+http://www.consoleclassix.com/nes/cobra_triangle.html

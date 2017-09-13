@@ -1,0 +1,15 @@
+Hurricanes
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: U.S. Gold
+Publisher: U.S. Gold
+Players: 1
+_________________________
+Hurricanes is a 1994 platformer for various systems, including the Sega Mega Drive and Sega Game Gear, by U.S. Gold based on DiC's Hurricanes cartoon. The MD and GG versions were only released in Europe (a SNES port developed by Probe was released in the US). Each version has different levels.
+
+The game is a platformer similar to Marko's Magic Football: you play as one of the players on the fictional Hurricanes football team as they use their football to destroy enemies through various platforming levels.

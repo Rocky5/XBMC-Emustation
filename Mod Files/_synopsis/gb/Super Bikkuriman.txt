@@ -1,0 +1,22 @@
+Super Bikkuriman
+Original title: Super Bikkuri
+Platform: Nintendo Game Boy
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Translated
+Release Year: 2003
+Translated by: PentarouZero
+Version: 1.0
+_________________________
+When you work at a translation news site, and you have to play all these games that were never released here and all really kind of play the same, the word "generic" takes on an entirely new meaning. Super Bikkuriman, while not at all a bad game, is amazingly generic. You walk to the right and bitchslap enemies as they come towards you. The sprites are way too big for the Gameboy's itty bitty screen, so they're basically on top of you before you have a change to react. The hook in this game is the black bar on your life bar that charges when you attack enemies. Once it fills, you hit Start and change costumes, and get a (somewhat) projectile weapon and stuff. What's kind of clever is, the lower your life, the longer the black bar has to be before you can use it. If that makes sense. After you use it the first time, if you use it again there's this Whoosh kind of animation thing, and that's it. Maybe it kills all the enemies on the screen or something.
+
+Oh, and there's this funky Beyblade kind of game where these discs spin around and you can't control them and then someone wins. Pretty weird, if you ask me.
+
+Translation Description:
+
+Not much needed translating, aside from between-level story stuff and the title screen. But it's done very nicely.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/754/

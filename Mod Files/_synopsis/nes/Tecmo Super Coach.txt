@@ -1,0 +1,59 @@
+NFL Tecmo Super Coach 2009-10: Real Men Coach
+Original title: Tecmo Super Bowl
+Platform: Nintendo Entertainment System
+Region: Original Homebrew
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports > Football 
+Gametype: Homebrew
+Release Year: 2010
+Developer: Maynard_G_Krebs
+Version: 1.2
+_________________________
+Choose your team from the 32 NFL teams.
+
+Can you get to the Super Bowl?
+
+
+Based off of Tecmo Super Bowl, but this game is so entirely different that it is basically an original game. 
+
+In the words of the programmer:
+
+"In typical Tecmo Super Bowl, you can control the players. This game is more defined for a coaching experience, though. I've even taken some of the 'manual' elements out of the game to enhance the coaching experience. That being said, now having priority WRs that the QB selects makes the strategy and 'option selecting' better defined, which in turn, gives more 'control' to the coaching aspect."
+
+_________________________
+
+What's NEW in Tecmo Super Coach?
+
+TECMO SUPER COACH 2009-10: { Real Men Coach.}
+
+The TSC Instruction Book can be found at the Author's Web site: 
+
+http://www.supertecmobowl.com/tsc_instructions/index.html
+
+GAME PLAY DESCRIPTION:
+
+Most importantly, changed in Tecmo Super Bowl is a complete tightening of its legendary football gaming experience, through creating in it specific custom Defensive formations in response to the Offense chosen by the opposing Human or CPU-controlled player. Defensive formations, in combination with a total "Tecmo Super Coach" graphic re-branding, Offensive game play overhaul, and hundreds upon hundreds of hours invested equates to the most complete TSB coaching experience ever!
+
+GAME PLAY DETAILS:
+
+Previously, Tecmo Super Bowl had very unspecific Defensive reactions. Any controller option selected by the Defensive to confront the Offense with was, more-or-less, randomly selected by the player with no notation of what was being chosen, or why. The goal of the original TSB was for the player on Defense to pick the same play as the opposing Offense, which would send all of your Defensive players 'blitzing' towards the ball carrier. Ultimately, this feat would be your only true success in the game on the Defensive play-calling side of the ball.
+
+What I have done, along with a handful of talented Tecmo Super Bowl enthusiasts, is recode each and every individual player AI reaction so that both Offensive and Defensive sides of the ball work together to create a more fluid football gaming simulation. In addition to dozens of visual and functional game engine mechanics, every modification in Tecmo Super Coach has been made to compliment, specifically, the coaching experience of the game, and to provide what I view as a more simplified (some might say 'chill') version of a more authentic TSB football experience!
+
+QB SPECIFICS:
+
+Also previously found in Tecmo Super Bowl was a set pattern of extremely sloppy Quarterback AI. As a coaching player, you often didn't see the kind of results you would have liked in the QB decision-making process. Quarterbacks now scramble less, throw faster, and react quicker to Defensive pressure!
+
+GENERAL MODIFICATIONS LIST:
+
+- Complete "Tecmo Super Coach" graphical re-branding
+- Complete 2009-2010 NFL 'End of Season' Rosters update
+- Complete Custom Defensive Playbook creation
+- Complete Offensive Playbook integration
+- New Offensive Plays
+- Dozens of Game Play Hacks and Edits
+- And much, much more!
+
+http://www.romhacking.net/hacks/575/
+http://www.everyvideogame.com/released-tecmo-super-coach-2009-10-nes--t12144.htm-sid=2ec4479f6bb94dc93cf67a3610049a61

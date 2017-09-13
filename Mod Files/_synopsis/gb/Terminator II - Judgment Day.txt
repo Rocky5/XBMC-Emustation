@@ -1,0 +1,18 @@
+Terminator 2: Judgment Day
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1992
+Developer: LJN Ltd.
+Publisher: Capcom
+_________________________
+Terminator 2: Judgement Day is a game based on the movie of the same name. The Game Boy version is unlike the console and computer versions of the game. The game takes place in two time periods: 2029, when the Terminators have taken over the world, and 1994, when John Connor is ten years old and his future self has reprogrammed a Terminator to protect him from a more advanced model.
+
+In the early levels of the game, you play as the future John Connor - your objectives are to destroy generators to gain access to Skynet. Once inside, you must make your way through Skynet and obtain a Terminator yourself. These levels are played in a side-scrolling fashion. The next level is a difficult puzzle - you must reprogram the Terminator so that it will protect John Connor instead of killing him. You need to realign the wires so that power cells can reach their destinations and reset the program.
+
+Once you pass this level, you take on the role of the Terminator in 1994. You must protect John Connor while on a motorbike being chased by the T-1000. Later levels include infiltrating Cyberdyne to obtain the previous Terminator's arm and chip, and the final showdown with the T-1000 at the steel mill.
+
+http://www.mobygames.com/game/gameboy/t2-terminator-2-judgment-day

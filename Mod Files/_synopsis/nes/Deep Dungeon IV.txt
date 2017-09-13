@@ -1,0 +1,24 @@
+Deep Dungeon IV: Kuro no Youjutsushi
+Original title: Deep Dungeon IV: Kuro no Youjutsushi
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 1999
+Translated by: Dragoon-X
+Version: 1.0
+_________________________
+This here is a first-person RPG. Most first-person RPGs suck, at least to me (I always die really easily and get lost frequently), but Deep Dungeon 4 isn't so bad. Sure, I get lost all the time, but after I remember to equip my weapons, I actually have a pretty good time with it. It's not TONS of fun, but it's head and shoulders above stuff like Might and Magic 1. Yuk.
+
+Translation Description:
+
+The script formatting here is pretty bad, and really noticeable in a lot of places, due to a lack of space in the ROM to put line breaks and such. In addition, the game's pointers are screwed up, making the game practically unplayable because the dialogue (including quest descriptions and other important things) makes no sense and doesn't match up with the Japanese script. kueller promised a 1.1 patch to fix all these problems, but this will most likely never ever happen. As it stands now, at some point in the game the graphics will glitch up so badly that you cannot progress any longer.
+
+A little warning: applying this patch changed my rom's mapper to 193 (due to the patch being made with one of those stupid Ni0330 ROMS), which causes it to not work in anything but Nesticle, and even then some graphics are messed up. Be sure and use NES.COM or another NES ROM utility to fix the mapper (to Mapper 1), and the ROM should work after that.
+
+Alternately, you can apply Spinner 8's addendum patch. This fixes the mapper issue, though not the other issues.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/115/

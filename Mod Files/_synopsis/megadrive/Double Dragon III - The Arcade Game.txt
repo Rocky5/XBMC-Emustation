@@ -1,0 +1,15 @@
+Double Dragon 3: The Rosetta Stone
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1992
+Developer: Software Creations
+Publisher: Flying Edge
+Players: 1-2
+_________________________
+Double Dragon 3: The Rosetta Stone is a 1991 arcade beat-'em-up by Technos; it was ported by Software Creations to the Sega Mega Drive and published in 1992/1993 by Flying Edge. Although the boxart refers to the game as Double Dragon 3: The Arcade Game, the title screen remains the same as the arcade version.
+
+Graphics are improved though lacking the amount of colors of the arcade version. Character animation is increased. Added animation in some cutscenes. Some voice samples are missing. Credits/Coins can be earned through gameplay. Control is somewhat improved and movement is sped up slightly. Three player mode is gone and the max simultaneous players is two now.

@@ -1,0 +1,12 @@
+Castlequest
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Gametype: Licensed
+Release Year: 1986
+Developer: Ascii Corporation
+Publisher: Nexoft Corporation
+Players: 1
+_________________________
+

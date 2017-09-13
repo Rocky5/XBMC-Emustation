@@ -1,0 +1,37 @@
+Final Fantasy
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1987
+Developer: Squaresoft
+Publisher: Squaresoft
+Players: 1
+_________________________
+
+Hironobu Sakaguchi's Final Fantasy... the first of one of the longest role-playing game series known to mankind. Final Fantasy is the game for the NES console that started it all.
+
+The world is veiled in darkness. Winds don't blow, the seas are stormy, and the earth rots. All people can hope for is that the ancient prophecy will be finally fulfilled. "When the world is veiled in darkness, four warriors will come..." And indeed, they come - the four characters you have previously chosen. Their first quest is to free a princess from the evil Garland.
+
+Final Fantasy uses a turn-based combat system. The enemies wait until all of your party members have performed their moves, and the ATB (active-time battle) system is not used. You can buy weapons and rest in the towns, and the world map is populated by monsters, with which you will be engaged in random fights.
+
+Before the game starts, you choose four characters from six different classes: Fighter, Thief, Blue Belt, White Mage, Red Mage, and Black Mage. Which four classes you choose for your character is entirely up to you. You also give the characters names.
+
+Controls:
+
+A Button: Talk, make selection
+B Button: Cancel, go back
+Start Button: Show status screen
+Select Button: Change order of marching
+
+Hints:
+
+Hidden Puzzle Game
+When you're on the ship, hold down the A button and press the B button 55 times to access the hidden puzzle game.
+
+Extra Classes
+The first 6 classes don't just stop there. Later on in the game, you get a secondary classes, which include Knight, Ninja, Master, White Wizard, Red Wizard, and Black Wizard.
+
+http://consoleclassix.com/nes/final_fantasy.html

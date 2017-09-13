@@ -1,0 +1,15 @@
+RISK
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1994
+Developer: Sculptured Software
+Publisher: Parker Bros
+Players: 1 to 4 VS
+_________________________
+Risk is a 1994 conversion of the board game Risk produced by Sculptured Software for the Sega Mega Drive. Risk is a turn-based game for two to six players, either player- or computer-controlled, which works very similarly to the Parker Brothers board game. The standard version is played on a board depicting a stylised Napoleonic-era political map of the Earth, divided into forty-two territories, which are grouped into six continents. Players control armies with which they attempt to capture territories from other players. The primary object of the game is "world domination," or to occupy every territory on the board and in so doing, eliminate all other players. Using area movement, Risk ignores limitations such as the vast size of the world and the logistics of long campaigns.
+
+There are three difficulties for the computer players to be. Beginner difficulty computers shoot slowly in arcade mode and difficult ones shoot very quickly and with a better range accuracy. They also tend to try and overwhelm an area rather than build up in multiple places.

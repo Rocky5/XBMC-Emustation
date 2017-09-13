@@ -1,0 +1,13 @@
+Wetrix GB
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2000
+Publisher: Infogrames
+_________________________
+Wetrix GB is a Puzzle game, published by Imagineer, which was released in Europe in 2000.
+
+http://www.gamefaqs.com/portable/gbcolor/home/579039.html

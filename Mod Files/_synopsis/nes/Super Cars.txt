@@ -1,0 +1,24 @@
+Super Cars
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1991
+Developer: Magnetic Fields
+Publisher: Electro Brain
+Players: 1
+_________________________
+
+This is a top-view racing game, stylistically influenced by Super Sprint, from the company who later produced the Lotus series of games.
+
+There are 9 tracks at each of the 4 difficulty levels, which can be raced in any order (although the last track you race is made harder than usual). In the races you win money, which can be spent on the usual handling and power upgrades, as well as forward-shooting missiles. You must finish in the top 3 of each race to progress - initially there are 4 computer opponents, but more are added as you progress through the game
+
+You can upgrade your car throughout the game via the shop section. You are given an initial price, but also a number of options of things to say to the salesman  get the right combination and the price will drop.
+
+Hints:
+
+An unusual easter egg was featured in the game, whereby typing in a certain swear word in the name screen will reset the game.
+
+http://www.mobygames.com/game/nes/super-cars

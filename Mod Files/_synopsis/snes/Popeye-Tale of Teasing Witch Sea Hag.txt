@@ -1,0 +1,18 @@
+Popeye: Tale of Teasing Witch Sea Hag
+Original title: Popeye: Ijiwaru Majo Sea Hag no Maki
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Board Game, Platformer
+Gametype: Translated
+Release Year: 2008
+Players: 1
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+This is a translation patch for the Popeye board game/platformer for SNES.
+
+This is playable from start to finish in English. I missed the password screen character labels and there is a tiny bit of a timing issue in the ending I'm not sure what to do with.
+
+http://www.romhacking.net/trans/1355/

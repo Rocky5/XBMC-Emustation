@@ -1,0 +1,35 @@
+Bandai Golf: Challenge Pebble Beach
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Golf
+Gametype: Licensed
+Release Year: 1988
+Developer: Bandai
+Publisher: Bandai
+Players: 1 or 2 VS
+_________________________
+
+Pebble Beach is a golf course right on California's pristine Pacific Coast. The land is a nice piece of real estate. Your goal is to play the best round of golf you can.
+
+Directions:
+
+This is a golf game with real world physics, as well as the rules of golf apply to this game. Wind will affect the direction of the ball when it is hit, hitting the ball out of sand traps will be more difficult than hitting the ball from the fairway, and most importantly, the slope of the greens will make a putted ball roll off course. If the player believes that these factors will not affect the way the game is played, then the player's score will reflect that notion.
+
+Controls:
+
+A Button: Revert to the SHOT, COURSE, SCORE screen
+B Button: Go to SHOT Strength screen
+Start Button: Not used during the SHOT screen
+Select Button: Not used during the SHOT screen
+Left and Right: Changes the desired flight path of the ball
+Up and Down: Changes the club to be used for the shot
+
+Hints:
+
+Slice and Hook
+- Remember that if you stop the meter early it will slice the ball and if you stop it late it will hook the ball.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/nes/bandai_golf.html

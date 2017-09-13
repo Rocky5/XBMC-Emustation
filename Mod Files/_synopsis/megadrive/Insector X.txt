@@ -1,0 +1,17 @@
+Insector X
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1990
+Developer: Taito Corporation
+Publisher: Sage's Creation
+Players: 1
+_________________________
+Insector X is a side-scrolling shooter developed by Taito for the arcades in 1989 and ported to the Sega Mega Drive in 1990, with HOT-B publishing it in Japan and Sage's Creation publishing it in the US. It is the only Mega Drive game Taito developed but not published themselves (in fact the port may have actually been made by HOT-B but this requires confirmation).
+
+The game has the insect-like main character, Kai, going through a number of nature-based and cave environments. The player can collect a variety of powerups and weapon upgrades to defeat oncoming enemies and bosses.
+
+The plot is fairly simplistic and ultimately involves defeating the dark ruler queen, freeing the insect world from her power.

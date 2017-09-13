@@ -1,0 +1,15 @@
+Fatal Fury
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1993
+Developer: SNK
+Publisher: SEGA
+Players: 1 or 2 VS
+_________________________
+Fatal Fury, called Garou Densetsu: Shukumei No Tatakai in Japan, is the first in a successful line of versus fighting games developed by SNK. Initially released in arcades, the game was ported to a variety of home platforms including the Sega Mega Drive in 1993. The Mega Drive port was handled by Takara (but published by Sega), and, like the SNES version, is said to be inferior to the Neo Geo original.
+
+In Fatal Fury, the user can select one of three characters - brothers Terry Bogard and Andy Bogard or Joe, who must defeat Geese Howard.

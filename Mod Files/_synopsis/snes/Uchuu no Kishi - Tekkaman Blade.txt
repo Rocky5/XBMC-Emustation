@@ -1,0 +1,38 @@
+Space Knight Tekkaman Blade
+Original title: Uchuu no Kishi Tekkaman Blade
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Maze
+Gametype: Translated
+Release Year: 2004
+Translated by: D
+Version: 1.0
+_________________________
+This game is laughably bad. Most of it's played in a sidescrolling shootemup format. Your character chops up generic-looking aliens with his dual-pronged spear thing, collects the occasional powerup, takes a lot of hits, and tends to get snagged on tiny floating obstacles and pushed off the back edge of the screen. Hit detection's poor, your ranged attack is pathetically weak for the amount of damage enemies tend to take, and you move about as fast as a sunday driver. Did I mention that the colors are extremely washed out and the music sounds like it's coming from a Genesis?
+
+When you reach the end of the level, you're transported into a 1-on-1 boss fight, Street Fighter style. Only, the slightest tap of the controller sends your character zooming around in every direction, your attacks again don't do nearly enough damage for the time limit imposed on you, and again the music and color usage are pretty abysmal. Suffice it to say, if Street Fighter 2 played like this, the genre may have never taken off.
+
+There is painfully little story in it as well. It's largely boss fight chats, and even these don't last very long.
+
+All in all, Tekkaman Blade is a stinker through and through. It's a pity, as it really could have been something really good, but it fails to achieve even the most minimal of quality standards.
+
+Translation Description:
+
+To D-Boy's credit, he and byuu managed to do an amazing amount of work on the game. They added an intro, expansive text scrolls, and pre-level briefings on exactly what's going on in the anime that the game is based off of. It really is quite amazing, not in the least that they cared enough about the game to give it such a world-class treatment. Beautiful though their work is, it doesn't do anything for the gameplay, which remains awful.
+
+Tips:
+
+Secondary Colors for Tekkamen
+After you press Start on the Title Screen and the menu pops up, press: L + R and then Start while highlighting 2P Play
+
+Unlockable Vs. Mode Characters
+B. Blade 
+Beat Dagger, Evil, Axe, Lance, Sword, B. Evil,  and Omega on Hard Mode
+
+B. Evil 
+Beat Dagger, Evil, Axe, Lance, Sword, B. Evil,  and Omega on Hard Mode
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/843/

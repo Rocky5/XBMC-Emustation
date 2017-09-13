@@ -1,0 +1,13 @@
+3-D World Runner
+Platform: Nintendo Entertainment System
+Region: Free
+Media: cart
+Controller: Standard Controller
+Genre: Action
+Gametype: Licensed
+Release Year: 1985
+Developer: Akklaim
+Publisher: Akklaim
+Players: 1-2
+_________________________
+

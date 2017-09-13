@@ -1,0 +1,52 @@
+Startropics II: Zoda's Revenge
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1994
+Developer: Nintendo IRD
+Publisher: Nintendo
+Players: 1
+_________________________
+
+The mystery of the cipher
+
+Not long ago, high school student and part-time adventurer Mike Jones jour- neyed to the South Seas and single-handedly put an end to the schemes of an evil alien named Zoda. He also managed to save his uncle, the famous archae- ologist Dr. Steve Jones, and seven space children from Zoda's clutches.
+
+Mike has now returned to his home is Seattle where Dr. Jones is attempting to decipher a strange inscription that he found on the side of the space child- ren's escape pod. The cipher was written by Hirocon, the leader of the planet Argonia. WHen Zoda's forces attacked Argonia, Hirocon sent the children away so that they could escape from the wrath of this powerful villain. If Dr. Jones can decipher the inscription, it may clue Mike in on how he can destroy the evil aliens once and for all.
+
+Dr. Jones believes that the answer to the puzzle lies somewhere in The Oxford Wonder World, a book that he received some time ago from a very wise old man. It includes stories of cavemen, Cleopatra, Leonardo da Vinci and many other people of the past. If Dr. Jones can uncover the mystery of the inscription, he might be able to find a connection between the stories in the book and the plight of the Argonians.
+
+--From the NES Startropics II: Zoda's Revenge instruction manual.
+
+Controls:
+
+Travel Screen Controls
+
+Directional Pad: Moves Mike
+B Button: Cancels Conversation
+A Button: Start Conversation/Inspect
+Select: Shows what chapter you are in
+Start: None
+
+Action Screen Controls
+
+Directional Pad: Moves Mike
+B Button: Attack
+A Button: Jump (Use item, when paused)
+Select: Next item in inventory
+Start: Pause
+
+Hints:
+
+It takes Mike about half a second to turn when you push the button. It's not a huge deal, but keep that in mind when you have to make those split second turns.
+
+This time, you get to diagonal jump and move. It may seem like a lifesaver, and I definitely appreciated it, but be wary that some jumps will be FAR harder to make now than they normally were, due to the fact you can turn in midair and land in water or somewhere you didn't want to land.
+
+Save the weapons and special items for when you need them. You don't get an unlimited amount of them; so don't waste them on easy enemies or bosses.
+
+Remember that Mike can only jump one space at a time, so don't make those two tile jumps, unless you have the special item that allows you to.
+
+http://www.consoleclassix.com/nes/startropics_ii_zodas_revenge.html

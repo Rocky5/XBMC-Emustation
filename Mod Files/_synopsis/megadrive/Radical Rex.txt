@@ -1,0 +1,28 @@
+Radical Rex
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Beam Software Pty
+Publisher: Activision
+Players: 1 or 2 CO-OP
+_________________________
+Radical Rex is a fire-breathing Tyrannosaurus on a skateboard who has to save the dinosaur race under the spell of an evil creature. The game consists of 10 levels set in the prehistoric age. Radical Rex can use a skateboard or glide down hills, jump, kick and breath fire. Tougher enemies need multiple hits and when burnt Rex needs to kick them once more to destroy them or use his scream (hits everything on the screen). While playing Rex collects eggs, health, power-ups for his fire breath and scream refills. Checkpoints are shown as torches that need to be charged with fire. After each level, there is a Bomberman-like sequence to earn an extra continue. Enemies include flies, turtles, toads and all kinds of dinosaurs.
+
+Hints:
+
+- Stage Select -
+
+At the title screen, press the following on Controller 2:
+
+A, C, Down, Right, Up, B
+
+- Stage Select -
+
+Press A, C, Down, Right, Up, B, on Contoller 2 to get a Stage Select.
+
+http://www.mobygames.com/game/genesis/radical-rex
+http://www.gamefaqs.com/console/genesis/code/586410.html

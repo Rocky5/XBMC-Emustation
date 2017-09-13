@@ -1,0 +1,15 @@
+Sub-Terrania
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1993
+Developer: Zyrinx
+Publisher: Scavenger
+Players: 1
+_________________________
+Sub-Terrania is a 1993 shoot-em-up by Zyrinx released for the Sega Mega Drive.
+
+A group of aliens has attacked an underground mine and it is up to you to rescue the survivors and drive the aliens away. Unlike most ships, the underground ship you are given puts you in complete control.

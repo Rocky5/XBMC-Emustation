@@ -1,0 +1,198 @@
+Ultimate Mortal Kombat 3
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1996
+Developer: Avalanche Software
+Publisher: Midway
+Players: 1 or 2 VS
+_________________________
+THERE IS NO KNOWLEDGE THAT IS NOT POWER...
+
+"You have been chosen to represent Earth in Mortal Kombat. Be warned. For although your souls are safe from Shao Kahn's evil: your lives are not. I can no longer interfere, as your Earth is now ruled by the Outworld gods."
+
+...These are the words of Rayden
+
+The Shaolin Tournament for Martial Arts, better known as Mortal Kombat was, for countless ages, a noble institution that tested the metal of the very best Warriors. Years ago, the Tournament was corrupted by the evil sorcerer Shang Tsung who dared to take not only the lives of his opponents, but their very souls. Eventually, it became known that Shang Tsung was acting at the behest of his diabolical master Shao Kahn, Emperor of the Outworld, who planned to claim all the souls on earth. The Champions of Earth: Liu Kang, Kung Lao, their Ancestors and others have, so far, thwarted this plan. For centuries Earth has used Mortal Kombat to defend itself against the Outworld's Emperor, Shao Kahn.
+
+Frustrated by failed attempts to take Earth through Tournament battle, Kahn enacts a plan which began 10,000 years ago. During that time Shao Kahn had a Queen named Sindel and her early death was unexpected. Kahn's Shadow Priests, led by Shang Tsung, made it possible for Sindel's spirit to someday be reborn: not on the Outworld, but on the Earth Realm itself.
+
+This evil act gives Shao Kahn the power to step through the dimensional gates and reclaim his Queen, thus enabling him to finally seize the Earth Realm.
+
+Upon breaching the portal into Earth, Shao Kahn slowly transforms the planet into a part of the Outworld. He strips the Earth of all human life-claiming every soul as his own. But there are souls which Kahn cannot take. These souls belong to the Warriors chosen to represent Earth in a new Mortal Kombat. The remaining humans are scattered throughout the planet. Shao Kahn sends an army of fierce Outworld Warriors to find and eliminate them. Some of Earth's Warriors survive the attacks. Most do not. The remaining few hold the one chance at saving all of human kind.
+
+--From the SNES Mortal Kombat 3: Ultimate instruction manual.
+
+Overview:
+
+Gameplay was identical to MK3 but introduced a few new elements. Two new tournament modes were introduced. One was entitled 2-on-2 Kombat Mode which was similar to an Endurance match but with human players on both sides. There was also a new eight player tournament mode. "Chain combos" could be started by using a jump punch (vertical or angled) or a vertical jump kick which created more comboing opportunities. Some characters were given extra combos and some combos were even damage reduced. Combos that knock opponents in the air would no longer send one's opponent to the level above in multi layered levels. Only regular uppercuts would allow for this. New MK3 characters are added in UMK3 including Kitana, Jade, Reptile and Scorpion.
+
+Some characters were given new moves. Stryker now has a "Riot Gun" special move. Kano's cannonball move could be performed in two ways; one would make Kano move straight ahead like in MK3 and the other moved diagonally. Liu Kang and Sonya have new combos which can knock opponents in the air, leading to more combo possibilities.
+
+Tips:
+
+Codes
+At the title screen, highlight 'Start', then Hold L +
+
+R and press Start
+ 8-on-8 Endurance Match
+
+At the VS. screen, enter the following: BL-2
+ Blocking Disabled
+
+At the VS. screen, enter the following: HP-9, BL-9, LK-5
+ Close Combos Disabled
+
+At the VS. screen, enter the following: HP-6, BL-8, LK-8
+ Dark Kombat (Player 1)
+
+At the VS. screen, enter the following: HP-4, BL-2, LK-2
+ Dark Kombat (Player 2)
+
+At the VS. screen, enter the following: HP-9, BL-5, LK-5
+ Extended Fatality Time
+
+At the VS. screen, enter the following: HP-7, BL-8, LK-8
+ Fast Uppercut Recovery (Player 1)
+
+At the VS. screen, enter the following: HP-3, BL-2, LK-2
+ Fast Uppercut Recovery (Player 2)
+
+At the VS. screen, enter the following: BL-1, LK-2
+ Health Recovery
+
+At the VS. screen, enter the following: HP-4, BL-4, LK-9
+ Invisible Fighters
+
+At manin menu press- Right, Up, B, B, A, Down, Up, B, Down, Up, B
+ Kool Stuff Menu
+
+At the main menu, press Up, B, A, Left, Down, and Y
+ Kooler Stuff
+
+At the VS. screen, enter the following: HP-2, BL-8, LK-2
+ No Fear EB Button Sky Dive Max Countdown Message
+
+On the character select screen, select Robot Smoke, then press and hold Back, High Punch, High Kick, Block &amp; Run
+ Play As Human Smoke
+
+At the fighter selection screen, hold Up and press  Start to have the game choose a random fighter
+ Random Select
+
+At the main menu screen, press B, A, Down, Down, Left, A, X, B, A, B, and Y
+ Scott's Stuff
+
+At the main menu, press Left, Down, Y, and Y
+ Sound Test
+
+Passwords:
+P1: (0, 4, 4) P2: (4, 4, 0)
+ 1 hit kills
+
+P1: (0, 3, 3) P2: (0, 0, 0)
+ 1/2 half energy
+
+P1: (0, 0, 0) P2: (7, 0, 7)
+ 1/4 half energy
+
+P1: (9, 8, 9) P2: (8, 9, 8)
+ 8 Man Tournament (Random Characters)
+
+P1: (0, 2, 0) P2: (0, 2, 0)
+ Blocking disabled
+
+P1: (0, 2, 0) P2: (0, 2, 0)
+ Disable Blocking
+
+P1: (9, 9, 9) P2: (9, 9, 5)
+ Disable In-close combos
+
+P1: (0, 9, 1) P2: (2, 9, 3)
+ Disable Sweeping
+
+P1: (1, 0, 0) P2: (1, 0, 0)
+ Disable Throwing
+
+P1: (9, 5, 5) P2: (9, 5, 5)
+ Extended fatality time
+
+P1: (3, 3, 0) P2: (0, 3, 3)
+ Fight at Jade's Desert
+
+P1: (0, 0, 4) P2: (7, 0, 0)
+ Fight at Kahn's Kave
+
+P1: (8, 2, 0) P2: (0, 2, 8)
+ Fight at Pit III
+
+P1: (6, 6, 6) P2: (4, 4, 4)
+ Fight at Scorpion's Lair
+
+P1: (0, 0, 2) P2: (0, 0, 3)
+ Fight at The River
+
+P1: (3, 4, 3) P2: (3, 4, 3)
+ Fight on The Roof
+
+P1: (9, 8, 7) P2: (6, 6, 6)
+ Flipper message
+
+P1: (0, 1, 2) P2: (0, 1, 2)
+ Health Recovery
+
+P1: (1, 9, 1) P2: (1, 9, 1)
+ Hyper Speed
+
+P1: (9, 9, 9) P2: (9, 9, 5)
+ In-close combos disabled
+
+P1: (4, 4, 9) P2: (4, 4, 9)
+ Invisible fighters
+
+P1: (4, 3, 2) P2: (2, 3, 4)
+ Minimal damage
+
+P1: (2, 8, 2) P2: (2, 8, 2)
+ No Fear message
+
+P1: (3, 0, 0) P2: (3, 0, 0)
+ No music
+
+P1: (0, 1, 2) P2: (3, 4, 5)
+ One button brutalities (Press High Punch)
+
+P1: (9, 4, 4) P2: (9, 4, 4)
+ One button fatalities
+
+P1: (0, 1, 0) P2: (0, 1, 0)
+ Throwing encouraged
+
+P1: (4, 4, 5) P2: (any)
+ Timer disabled
+
+P1: (any) P2: (4, 4, 5)
+ Timer disabled (2nd option)
+
+P1: (4, 6, 6) P2: (4, 6, 6)
+ Unlimited running
+
+P1: (2, 2, 1) P2: (5, 5, 7)
+ Uppercut changes stage every time
+
+P1: (0, 3, 3) P2: (5, 6, 4)
+ Winner fights Motaro
+
+P1: (7, 6, 9) P2: (3, 4, 2)
+ Winner fights Noob
+
+P1: (9, 6, 9) P2: (1, 4, 1)
+ Winner fights Shao Kahn
+
+P1: (2, 0, 5) P2: (2, 0, 5)
+ Winner fights Smoke
+
+
+http://en.wikipedia.org/wiki/Ultimate_Mortal_Kombat_3

@@ -1,0 +1,17 @@
+ABC Monday Night Football
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1990
+Developer: Data East
+Publisher: Data East
+Players: 1 or 2 VS
+_________________________
+ABC Monday Night Football is an football computer game named after the television broadcast of the same name.
+
+It was licensed by ABC Sports, but did not obtain an NFL or NFLPA license, and as such contains made-up teams, such as the Indianapolis Rays and the Miami Sharks.
+
+http://en.wikipedia.org/wiki/ABC_Monday_Night_Football_(computer_game)

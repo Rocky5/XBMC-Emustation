@@ -1,0 +1,40 @@
+MTV Remote Control
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Game Show
+Gametype: Licensed
+Release Year: 1990
+Developer: Hi Tech
+Players: 1-2
+_________________________
+
+Welcome to MTV's Remote Control. Now you can play MTV's ridiculous trivia quiz game show on your NES system! MTV's Remote Control will challenge your knowledge of Classic TV Sitcoms, Rock Stars, Celebrities, and Rumors; as well as Soaps and Cop Shows. So try to upstage and outclass your friends or favorite NES opponents with the results of your years of cultural research in this irreverent, fast-paced game for today's generation of TV trivia heads. And remember, if you win, you should be ashamed of yourself. Here's how to get started down the road to intellectual degradation.
+
+--From the NES MTV's Remote Control instruction manual.
+
+Overview:
+
+This game is based on the show which aired on MTV in the late 1980s. It uses your usual quiz show format and asks you about the characters and events in popular TV show. You pick a category out of nine and a question is given. Buzz in first for your chance to answer the question. If you get the answer wrong, the question goes to the other players. The person with the highest score wins!
+
+You'll expect some of the crazy things found in the show, but don't expect everything to be in the NES version. Also the theme song of the show is played the ENTIRE time, which is annoying after a while.
+
+Directions:
+
+Try to beat the other contestants in a game show that tests your knowledge about TV shows. 
+
+Controls:
+
+A Button: Buzz In, Confirm
+B Button: Cancel
+Start Button: Start Game
+Select Button: Nothing
+
+Hints:
+
+Difficulty of Questions
+The questions are of average difficulty, but you might not know the answers to some these questions right away because you were too young or haven't watched the shows mentioned in the game.
+
+Reviewer: MethodOne
+http://consoleclassix.com/nes/mtvs_remote_control.html

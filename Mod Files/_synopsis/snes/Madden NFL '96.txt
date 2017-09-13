@@ -1,0 +1,137 @@
+Madden NFL '96
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1995
+Developer: Tiburon Entertainment
+Publisher: Electronic Arts
+Players: 1 to 5
+_________________________
+Among the innovations in Madden 96, the Create A Player feature was added, which included many position specific mini-games that would determine the ability of your player.
+
+The game also was the first in the Madden series to include secret "classic" teams, which were unlocked by playing any of the 28 pre-expansion NFL franchises in the playoffs and by winning Super Bowl XXX with that team (a rather easy feat as the playoff tournament system allows a player to abort the game while in the lead and still win). The 28 pre-expansion teams were each represented by a classic era equivalent, which ranged from 1960 (Philadelphia Eagles) to 1986 (New York Giants), although all players identified as number-only. Jacksonville Jaguars and Carolina Panthers, having debuted in 1995, did not have a secret classic team revealed in this manner, nor did the All-Madden team. However, Carolina was attached to the blank slate NFLPA team used for Create-A-Player, and Jacksonville and All-Madden hid the "superteams" with players named after the developers; these teams were accessed using unstated cheat codes.
+
+Tips:
+
+Codes to get teams
+
+Unlock '73 Bills 
+Highlight the Bills and press: A, L, A, B, Y
+
+Unlock '85 Bears 
+Highlight the Bears and press: Y, A, B, B, A
+
+Unlock '81 Bengals 
+Highlight the Bengals and pressR, A, L ,L, Y
+
+Unlock '75 Cardnials 
+Highlight the Cardnials and press: A, B, B, A
+
+Unlock '80 Falcons 
+Highlight the Falcons and Press: L, Y, B, R, A
+
+Unlock '77 Broncos 
+On the team selection screenHighlight the Broncos and press B, R, A, Y
+
+Unlock '65 Browns 
+On the team selection screenHighlight the Browns and press A, L, L, R, B
+
+Unlock '79 Buccs 
+On the team selection screen Highlight the Buccs and press Y, A, R, R
+
+Unlock '81 Chargers 
+On the team selection screen Highlight the Chargers and press A, Y, R, B, A, L, L
+
+Unlock '69 Chiefs 
+On the team selection screen Highlight the Chiefs and press B, A, L, L, Y, R, A, Y
+
+Unlock '68 Colts 
+On the team selection screen Highlight the Colts and press B, A, L, B, A, L, L
+
+Unlock '78 Cowboys 
+On the team selection screen Highlight the Cowboys and press B, A, R, B, Y
+
+Unlock '72 Dolphins 
+On the team selection screen Highlight the Dolphins and press L, R, B, B
+
+Unlock '60 Eagles 
+On the team selection screen Highlight the Eagles and press A, L, L, Y
+
+Unlock '84 Forty-Niners 
+On the team selection screen Highlight the Forty-Niners and press B, A, Y, A, R, Y, A
+
+Unlock '86 Giants 
+On the team selection screen Highlight the Giants and press L, B, L, A, R, R, Y
+
+Unlock Tiburon Team 
+On the team selection screen Highlight the Jaguars and press A, Y, B, A, B, Y
+
+Unlock '68 Jets 
+On the team selection screen Highlight the Jets and press A, R, R, A, Y
+
+Unlock '62 Lions 
+On the team selection screen Highlight the Lions and press B, A, R, R, Y
+
+Unlock '80 Oilers 
+On the team selection screen Highlight the Oilers and press A, R, B, Y, A
+
+Unlock '67 Packers 
+On the team selection screen Highlight the Packers and press B, A, Y, B, A, L, L
+
+Unlock Players Inc. Team 
+On the team selection screen Highlight the Panthers and press L, Y, B, R, A, Right, Y
+
+Unlock '85 Patriots
+On the team selection screen Highlight the Patriots and press R, A, Y, B, A, R, Y
+
+Unlock '77 Raiders 
+On the team selection screen Highlight the Raiders and press B, Y, B, Y, L, A
+
+Unlock '68 Rams 
+On the team selection screen Highlight the Rams and press B, A, R, L, Y
+
+Unlock '82 Redskins 
+On the team selection screen Highlight the Redskins and press L, Y, B, R, L
+
+Unlock '79 Saints 
+On the team selection screen Highlight the Saints and press Y, A, L, L
+
+Unlock '78 Seahawks 
+On the team selection screen Highlight the Seahawks and press A, L, A, R
+
+Unlock '78 Steelers 
+On the team selection screen Highlight the Steelers and press L, A, Y, B, R
+
+Unlock '76 Vikings 
+On the team selection screen Highlight the Vikings and press B, R, A, L, L
+
+EA Sports Team
+Highlight the All-Madden team and press B, A, L, L, Select.
+
+Erase Saved Game Files
+Hold START, SELECT, L, R, A on Controller 2 while turning the game on. Once at the hidden 'Gamepak Stats'
+screen, you can clear the battery backed memory by simultaneously pressing DOWN, B, Y, L, R.  This will erase all the stats.
+
+NFLPA Free Agents
+On the team selection screen Highlight the Panthers and press: L, Y, B, R, A, R, Y
+
+Short Quarters
+At the Game Setup screen, highlight the Quarter Length option and put in the following code to get 15 second
+long quarters.
+
+Super Bowl Win
+To get the Super Bowl Win screen, enter the following code at the Game Setup screen: A, Y, A, Y, L Button
+
+Tiburon Gotcha
+On the team selection screen Highlight the Jaguars and press: A, Y, B, A, B, Y
+
+View Ending Sequence
+At the Setup Menu, press A, Y, A, Y, L. 
+
+Debug Screen
+As you turn on the system hold the start, select, L, R, and A buttons on the second controller.
+
+http://en.wikipedia.org/wiki/Madden_NFL_%2796

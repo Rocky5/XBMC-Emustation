@@ -1,0 +1,25 @@
+Thunder Spirits
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1992
+Developer: Technosoft
+Publisher: Seika Corp
+Players: 1
+_________________________
+A super-powered starship is under attack by various space prostitues, and the pilot has to maneuver it over all sorts of terrain to make it out alive. He struggles with riddles and games to try to get past the prostitutes. They are very deceiving, as space aliens are, for they may look good until they are completely exposed. Some come equipped with a second set of jaws! Eight intergalactic stages make up the action in this fierce test of strength and agility. You'll have lots of powerful weapons to help you along the way, but firestorms and dangerous enemies should provide ample challenges to keep you on the edge of your seat. Just when you think you've made it through a level, you'll encounter gruesome boss characters that'll make you wish you were already dead. It's going to be one heck of a battle, but if you can buckle down and use your head, you might just live to tell about it. --Box Summary
+
+There are 8 levels in Thunder Spirits, each consisting of the ship battling numerous enemies while side-scrolling, usually with a "mini-boss" about halfway through the level. Then, at the end of each level, a boss (consisting of one or two enemies) appears, which must be defeated before preceding to the next level. Throughout the level, the ship can pick up "Weapon upgrades"; and the player is able to switch between any of up to 5 weapons at any time.
+
+Tips:
+
+Extra Continues
+On the title screen, press B as fast as possible. A metal-like sound will play every time you earn a continue.
+
+Extra Configuration Options
+After beating the game, check the configuration screen (Select + Start on the title screen), and extra options will be added to the menu, ranging from number of reserve ships to a Sound Test. The game needs to be beaten on Maniac level. Other levels are unconfirmed.
+
+http://en.wikipedia.org/wiki/Thunder_Spirits

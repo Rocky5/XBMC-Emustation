@@ -1,0 +1,17 @@
+Arcade Classics
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1996
+Developer: Atari, Al Baker and Associates
+Publisher: SEGA
+Players: 1 - 2
+_________________________
+Arcade Classics is a compilation of three arcade games originally released by Atari during the 1970s and early 1980s. The compilation was released for the Sega Mega Drive and Sega Game Gear in 1996.
+
+As well as providing "classic" versions of the games, there are also enhanced "Sega" versions, which update the graphics. Sadly the games are plagued by framerate issues, slowing down considerably when numerous objects are on screen.
+
+Sega wanted three Atari classics converted to the Genesis with as much integrity as possible. Therefore, the games used in the compilation were based directly off Atari code. The Atari 7800 version of Centipede and Atari 2600 version of Missile Command were converted from the original 6502 assembly language code to the Z80 for the Game Gear version and then from Z80 to the 68000 for the Mega Drive. While all the code specifically associated with sound and graphics had to be re-written, the initial conversions were done using the developer's own 6502 to Z80 and Z80 to 68000 assembly language converters. Pong, a hard-wired console game which was reverse engineered for the Game Gear, was initially converted from the Game Gear to the Genesis using a Z80 to 68000 assembly language converter. The video and sound modules were then rewritten to complete the process.

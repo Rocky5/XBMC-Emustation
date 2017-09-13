@@ -1,0 +1,25 @@
+Ultra Baseball Jitsumeiban
+Original title: Ultra Baseball Jitsumeiban
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Baseball
+Gametype: Translated
+Release Year: 2009
+Translated by: VX
+Version: 1.04 Final
+_________________________
+I am pleased to present you with the complete English translation of Ultra Baseball Jitsumeiban.
+
+Our final patch for UBBJ is finished:
+
+V.104 Final - 04/01/09 -Fixed untranslated text from Manager Mode that was missed. -Multiple text changes. -Converted KM/h to MPH using CB's method. -Added Stadium Sizes w/ converted Meters to FT. -Corrected some minor GFX issues.
+
+"This is the ultimate baseball game! Precise pitching, bulls-eye batting, and Awesome fielding! It's all under your control with simpler yet more sophisticated operation. With loads of features, you'll be an All Star! It is the ultimate baseball simulation you've dreamed of."
+
+Ultra Baseball Jitsumeiban (or Real Names Version) is the third game released in the Ultra Baseball Series. The first two games were released in the US under the titles of "Baseball Simulator 1,000.
+
+The Baseball games are unique as they allow players to fully edit and automate entire leagues and seasons. Additionally it's the optional "super power" Ultra League that gives players the unique ability to well?.play some very wacky baseball!
+
+http://www.romhacking.net/trans/1371/

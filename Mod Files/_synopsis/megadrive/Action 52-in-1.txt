@@ -1,0 +1,66 @@
+Action 52
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Compilation
+Gametype: Unlicensed
+Release Year: 1993
+Developer: Farsight Technologies
+Publisher: Active Enterprises
+Players: Differs
+_________________________
+Action 52 features 52 different games in a single cartridge! The games are selected from a colored menu and are mostly side scrolling, platform or shooter action games. Each game is written in one color, yellow meaning "expert", purple "intermediate", green "beginner", blue "two players" and white "special". The games included are:
+
+   1. Go Bonkers
+   2. Darksyne
+   3. Dyno Tennis
+   4. Ooze
+   5. Star Ball
+   6. Sidewinder
+   7. Daytona
+   8. 15 Puzzle
+   9. Sketch
+  10. Star Duel
+  11. Haunted Hills
+  12. Alfredo
+  13. The Cheetahmen
+  14. Skirmish
+  15. Depth Charge
+  16. Minds Eye
+  17. Alien Attack
+  18. Billy Bob
+  19. Sharks
+  20. Knockout
+  21. Intruder
+  22. Echo
+  23. Freeway
+  24. Mousetrap
+  25. Ninja
+  26. Slalom
+  27. Dauntless
+  28. Force One
+  29. Spidey
+  30. Appleseed
+  31. Skater
+  32. Sunday Drive
+  33. Star Evil
+  34. Air Command
+  35. Shootout
+  36. Bombs Away
+  37. Speedboat
+  38. Dedant
+  39. G Fighter
+  40. Man At Arms
+  41. Norman
+  42. Armor Battle
+  43. Magic Bean
+  44. Apache
+  45. Paratrooper
+  46. Sky Avenger
+  47. Sharpshooter
+  48. Meteor
+  49. Black Hole
+  50. The Boss
+  51. First Video Game (Pong)
+  52. Challenge (the most difficult levels of each previous game)

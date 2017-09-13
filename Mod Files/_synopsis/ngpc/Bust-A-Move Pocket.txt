@@ -1,0 +1,15 @@
+Bust-A-Move Pocket
+Platform: Neo Geo Pocket
+Region: USA
+Media: Cartridge
+Controller: Neo-Geo Pocket Color Controls
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1999
+Developer: Ukiyotei
+Publisher: SNK
+Players: 1
+_________________________
+The classic game Bubble Bobble is the ancestor of Puzzle Bobble. Your aim in each stage is to break all the bubbles, by breaking 3 or more of the same color. The game contains a two-player mode where each player tries to break all bubbles first.
+
+http://www.mobygames.com/game/neo-geo-pocket-color/bust-a-move

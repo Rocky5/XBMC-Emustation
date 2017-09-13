@@ -1,0 +1,27 @@
+Mysterious Dungeon 2
+Original title: Fushigi no Dungeon 2: Fuurai no Shiren
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Fantasy
+Gametype: Translated
+Release Year: 2006
+Players: 1
+Translated by: Aeon Genesis
+Version: 1.0
+_________________________
+Shiren is the simple story of a man following his friend's dying wish to find the Land of the Sun at the top of Table Mountain in feudal Japan. It's a rougelike - that is, the dungeon is randomly generated every time you visit it, and you start at level 1 with little or no equipment every time you play. The game has a few subplots you can advance by continually playing through, which is nice, and all of them will have some bonus to you as a player at their successful conclusion, be it a helper to follow you around or a new item becoming available in the dungeon.
+
+Once you complete the main (Impasse Valley) dungeon, as well as a few of the subplots, you'll unlock a food-themed dungeon and a trap-themed dungeon for extra gameplay. Once these are completed and all of Fei's puzzles are finished, you'll unlock the ultimate challenge, a 100-floor dungeon (which, I might add, none of my testers were able to complete.)
+
+Good luck, and remember, just because the random number generator hates you, it doesn't mean that the game's completely impossible!
+
+Translation Description:
+
+Here is what Gideon Zhi himself had to say about this patch:
+
+"Shiren the Wanderer is the result of a number of years of work, and a number of hurdles that needed to be overcome. Among these are a nasty system of enscribable scrolls which needed to be reworked in English, a variable width AND height font, 24-24 text, and a slew of other, smaller issues. Suffice it to say that this release is quite pretty and, while not without a few minor flaws, is very much a playable and enjoyable game."
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/483/

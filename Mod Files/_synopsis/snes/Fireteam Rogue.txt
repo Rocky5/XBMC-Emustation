@@ -1,0 +1,30 @@
+Fireteam Rogue (Prototype)
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Multi-Directional, Fantasy
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Accolade
+Publisher: Accolade
+Players: 1
+_________________________
+Fireteam Rogue was to be released by Accolade in late 1995 - late 1996. According to the February 1995 issue of Gamepro, the game was to contain 100 hours of gameplay. You could control 5 different characters and featured varied gameplay, including action/adventure, fighting, airborne shooting, and puzzle solving.
+
+I contacted Russell Borogove, who worked as an engineer on the game:
+
+There were four playable characters - Chance, a human in a crystalline battle suit; Aja Dae, an elfin sorceress, Shadowblade, a sort of cat/monkey alien ninja, and Broc, a big lizard alien. We had a hell of a lot of levels in the game (the goal was, I think, 100 hours of gameplay; I don't know if we actually got there.) The levels were broken down into four regions, one for each character, but you could actually play any character in any level. In addition to the hoppy-jumpy fighting mechanics,you also played a flying arcade shooter (think Afterburner) when you went from region to region. (The landscape for the flying portion was done using the SNES "mode 7" rotate/scale hardware if I remember rightly.) There were some interesting things like switches in one region which would open doors in other regions, so you had to do a lot of back-and-forth in the game to finish.
+
+The project had a lot of problems in development. We spent a lot more time developing ridiculous data compression schemes to fit all the levels into the game, when we should have cut a couple of enemies and a handful of levels in order to get it done. There were also some personality conflicts that culminated with the producer of the project quitting when we were at beta. Shortly after that, the head of product development at Accolade asked us if we thought we should continue the project or not. It was unclear to me how much more work it was going to take to finish it and if the game was going to be good enough to compete in the market by the time we actually got it out, and I advised that we should shut it down. I don't remember what the others said.
+
+"My recollection is that we did not complete the game before it was officially killed - I know that conflicts with Betty Cunningham's version of the story. I could well be wrong, though. The game was definitely playable, but I think there were still some showstopping bugs in it.
+
+I assume that Atari (via Infogrames, via Accolade) now holds all the FTR intellectual property, and probably no one now at Atari knows anything about it. :)"
+
+Well, finally the prototype for Fireteam Rogue has been dumped, and is now ready for release. Thanks goes to Carnivol and Li Wang for donating this piece of SNES history to the community. This prototype was originally aquired from a former game magazine employee. It found its way to DreamTR, who in turn sold this as he had two copies.
+
+The game is in a deep alpha state, and only one level shows any semblance of completeness. The character animation is jerky, and the controls are not all that responsive. The graphics are decent enough, though there isn't a whole lot of variety. The music in the game is actually pretty good, though there is a bug that it will turn off almost immediately after starting the level. This is remedied by going into the start menu and toggling the sound option. The most complete level is the Shadowblade's, though even it gets to the point where you can't proceed. It is unfortuate that it isn't more complete, as it sounds as though Accolade had plenty of levels for the game. Anyways, give it a shot. Maybe someday we will see a more complete version of it.
+
+Reviewer: Evan G
+http://www.snescentral.com/article.php?id=0113

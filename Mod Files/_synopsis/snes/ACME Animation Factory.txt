@@ -1,0 +1,25 @@
+ACME Animation Factory
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1994
+Developer: Sunsoft
+Publisher: Sunsoft
+Players: 1
+_________________________
+In ACME Animation Factory, the player is given a series of tools to create his or her own cartoons, using the most famous characters of Looney Tunes, including graphics, animation and music. When the cartoon has been created, it can be saved and later replayed.
+
+Tips:
+
+Hidden Sound Effects
+In the title screen, click on letter L, O, O, N, E, and Y (located above the picture of Looney Tunes
+characters), and T, U, N, and E (located below the picture of Looney Tunes characters) to play various
+sound effects. Note that for the letter O, you must click near the center of the letter.
+
+View Credits
+At the main screen, click the letter S (in TUNES)
+
+http://en.wikipedia.org/wiki/ACME_Animation_Factory

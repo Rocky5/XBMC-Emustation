@@ -1,0 +1,22 @@
+Streets of Rage 3 (English Translation)
+Original title: Streets of Rage 3
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Translated
+Release Year: 2009
+Developer: SEGA AM7
+Publisher: SEGA
+Players: 1-2 Co-Op
+Translated by: Twilight Translations
+Version: 1.0
+_________________________
+Translation Description:
+
+All the text in the game has been translated. This includes both dialogue in the story mode and the win/lose quotes in the Battle mode, and the Engrish in the battle mode has been fixed. The patch has been thoroughly tested and works on the hardware. If you find a platform it doesn't work on, contact the author.
+
+There are currently no known bugs. Please note, however, that the patch has only been tested on an American Sega Genesis Model 2. The code has been written in such a way that it should work on all models, though.
+
+http://www.romhacking.net/trans/1375/

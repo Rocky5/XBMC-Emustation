@@ -1,0 +1,20 @@
+Radical Rex
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Side-Scrolling
+Gametype: Licensed
+Release Year: 1994
+Developer: Laser Beam Entertainment
+Publisher: Acclaim
+Players: 1
+_________________________
+Radical Rex is a relatively simple game, where the protagonist, Radical Rex must save his land, and his girlfriend Rexanne, from an evil magician. In his way are dinosaurs, sea creatures, and other monsters. Rex has a few abilities, including a roar that kills or hurts all enemies on screen, a fire breath which can temporarily immobilize enemies, and a bubble spray which he can use while under water.
+
+Tips:
+
+Go to the Title Screen. On Controller 2, enter the code Right, A, Down, Right, Y, X.
+Effect: Stage Select
+
+http://en.wikipedia.org/wiki/Radical_Rex

@@ -1,0 +1,13 @@
+Dragon's Fury
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1991
+Developer: TechnoSoft
+Publisher: Tengen
+Players: 1-2
+_________________________
+Devil Crash (or Devil's Crush in USA) is a pinball game ghost-developed by Compile under license from Naxat Soft for the TurboGrafx-16, as part of Naxat's Crush series of pinball games. Technosoft acquired a license to port the game to the Sega Mega Drive, calling it Devil Crash MD and releasing it in Japan. They would then license it to Tengen for localization overseas; Tengen censored a few graphics deemed too Satanic for western audiences and released the final product as Dragon's Fury in the US and Europe (hence the page name) despite the TurboGrafx-16 version having been released internationally beforehand. While Naxat furthered the series itself, Tengen would later release a sequel, Dragon's Revenge, not under license from anyone.

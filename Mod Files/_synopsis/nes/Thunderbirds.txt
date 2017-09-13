@@ -1,0 +1,17 @@
+Thunderbirds
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1990
+Developer: Activision
+Players: 1
+_________________________
+
+Each of the pilots have been assigned a particular ship, but only DR. BRAIN can visualize the global extent of HOOD's plants - and even he can't comprehend the full dimensions of the scheme. But as DR. BRAIN determines the targets of HOOD's attacks, he'll mark them on a world map in yellow.
+
+When you choose to take on a site, the marker will change to a blue triangle. When a site has been neutralized, it turns pink. Due to the massive nature of HOOD's threat, it will take him 60 days to ready his power source. But that doesn't help the TBirds much, since a TBird ship damaged in an attack can take 3 days to repain, and there's no guarantee that DR. BRANI can determine all of the places the TBirds will need to attack when he first evaluates HOOD's scheme. So, there's no time to waste!
+
+http://www.nesguide.com/games/thunderbirds/

@@ -1,0 +1,34 @@
+Elevator Action
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Natsume
+Publisher: Taito Corporation
+_________________________
+You are Agent 17 (codename: "Otto"). Your mission is to secure all top secret documents from a security building and escape in the getaway car, located in the basement of the building.
+
+Enemies spies are scattered throughout the 30-floor building and they have only one mission: execute Agent 17 at all costs. There are several ways in which Agent 17 can kill them:
+
+- Shooting them with his gun.
+
+- Kicking them by jumping onto them.
+
+- Shooting a light on the ceiling while in an elevator, dropping the light onto one of them.
+
+- Crushing them with an elevator.
+
+Whenever a light has been dropped, the hallways will be dark for a short period of time, making the enemy spies harder to see. The same holds true for hallways that are already dark.
+
+While Otto is in an elevator, he will have complete control of it by moving up or down. Agent 17 can still get killed if he's already in an elevator if a bullet's trajectory is aimed at it.. When Otto is not in an elevator, it will move from floor to floor automatically, even when enemy spies are in it. Otto is able to leap over the elevator gaps, but he must be as close to the edge as possible without falling off in order to make the jump safely. If there is an elevator cable in the way, however, it will block him, causing him to fall.
+
+Just because the game is called Elevator Action doesn't mean that elevators are the only means of travel. There are also escalators which you can ride up or down, useful if you want to avoid gunfire and don't have time to jump.
+
+Otto must go into the rooms with red doors to collect the top secret documents. If he tries to get to his car without getting all the documents, he cannot escape and must go back and collect the remaining documents. Once he has all the documents and drives away, he then proceeds to the next building.
+
+If Otto takes too much time to collect the documents, the alarm will go off, and he will have trouble controlling the elevators, which will take time to react. Bad guys will be especially aggressive. The alarm doesn't go off when Otto loses a life, it only resets after finishing a building. Besides ducking, bad guys may also drop themselves and lay flat on the floor. It's virtually impossible for Otto to shoot bad guys when they do this. Also, Otto cannot duck when in an elevator.
+
+http://www.mobygames.com/game/gameboy/elevator-action

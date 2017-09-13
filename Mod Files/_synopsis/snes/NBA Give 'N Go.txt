@@ -1,0 +1,24 @@
+NBA Give 'n Go
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Basketball
+Gametype: Licensed
+Release Year: 1995
+Developer: Konami
+Publisher: Konami
+Players: 1 to 4 CO-OP, VS
+_________________________
+Similar to Run and Gun, the in-game camera is at one end of the basketball court. Gameplay is fast-paced, much like NBA Jam and Konami's own Run and Gun. Elements lifted from arcade basketball games included limited fouls (that automatically lead to free throw shots), faster than real time clock, and basketballs rarely travel out of bounds. Free throw shots are simply a manner of trying to get two dots in the center as possible. The shot always goes in as long as both dots are blue; otherwise the shot always misses.
+
+Gaming options include exhibition, regular season, playoffs, and arcade mode. Certain slam dunk and three-point field goal shots are replayed periodically. A play-by-play announcer comments on the in-game action. In addition to an arcade-style game, players can also customize in-game rules, or play a full-fledged simulation of professional basketball.
+
+Players who wish to play in the playoff mode can choose either to re-enact the 1995 NBA Playoffs, have their playoff tree randomized by the computer or customize their own NBA playoff experience. Regular season games can also be customized while games in the "arcade mode" use the 1995 NBA Playoffs. Players can be substituted before a game but not during it. All NBA players are evaluated on a scale of 0 to 3 stars; 3 stars being the highest rating. Shaquille O'Neal and Michael Jordan are missing from the game's rosters.
+
+Tips:
+
+Super Difficulty Level (go to Options to activate)
+Up, Up, Down, Down, Left, Right, Left, Right, B, A (on title screen)
+
+http://en.wikipedia.org/wiki/NBA_Give_%27N_Go

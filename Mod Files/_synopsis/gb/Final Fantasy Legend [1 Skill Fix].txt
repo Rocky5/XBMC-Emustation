@@ -1,0 +1,19 @@
+Final Fantasy Legend [1 Skill Fix]
+Original title: Final Fantasy Legend
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2007
+Hacked by: Skygor
+Version: 000
+_________________________
+- ESP works like monster Shell and non-magic shields.
+
+- King Shield now gives OAll and 50% evade rather than the mixed up OIce, OStone, OPara, and 255% evade. (The bytes were swapped.)
+
+- Optionally, Glass Sword when found comes with 1 use as it was intended rather than 50.
+
+http://www.romhacking.net/hacks/327/

@@ -1,0 +1,16 @@
+Road Runner
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Arcade
+Gametype: Licensed
+Release Year: 1989
+Developer: Tengen
+Publisher: Tengen
+Players: 1
+_________________________
+
+Road Runner is an interesting variant of the platformer genre, based on the Road Runner cartoon. The gameplay is very simple: the player controls Road Runner, who is chased by Wile E. Coyote. In order to escape, Road Runner runs endlessly to the left while the landscape scrolls by. In addition to avoiding the coyote, the player must pick up bird seeds on the street, avoid obstacles like cars, and get through mazes.
+
+http://www.nesguide.com/games/roadrunner/

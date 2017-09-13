@@ -1,0 +1,19 @@
+Love Hina Advance
+Platform: Nintendo Game Boy Advance
+Region: (Translated)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Strategy - Virtual Life
+Gametype: Translated
+Release Year: 2002
+Translated by: LHAProject
+Version: 0.98
+_________________________
+Have you ever wanted to watch the entire Love Hina anime series, only to play it as a GAME? Well if you've never seen the anime or the manga, you're out of luck, because even though it seems that this game follows the storyline episode-for-episode word-for-word, it doesn't actually explain who the hell anyone is. For the slobbering Love Hina fanboys only. It is a very pretty game though, which explains the huge file size.
+
+Translation Description:
+
+According to the readme, everything's done except for a couple of karaoke songs. There's two patches in the zip file, giving you a choice of fonts, but both fonts look kinda rushed and funky. The translation itself is really nice though, even if you don't know who's talking or what's going on sometimes, but I think that's mostly the game's fault.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/581/

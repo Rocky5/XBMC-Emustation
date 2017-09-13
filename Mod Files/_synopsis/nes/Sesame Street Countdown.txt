@@ -1,0 +1,15 @@
+Sesame Street Countdown
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1992
+Developer: Hi Tech
+Players: 1
+_________________________
+
+Sesame Street's Count von Count stars in this educational game where the point is to learn how to identify numbers. You can choose to either hop or run across the levels trying to collect as many examples of the number of the day required for that particular level. The number of the day is selected randomly by a spinning number wheel. The only way to lose in the game is to touch the incorrect numbers (numbers other than the one you are required to find) which will drain your life bar. There are also two bonus levels that involve using counting and addition/subtraction skills. 
+
+http://www.mobygames.com/game/nes/sesame-street-countdown

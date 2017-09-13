@@ -1,0 +1,16 @@
+The Getaway: High Speed II
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1995
+Developer: Unexpected Development
+Publisher: Williams
+_________________________
+A handheld version of the William's pinball machine, the basic gameplay is a pinball board with racing themes such as roads and on-ramps, hitting various bumpers and targets to gain a higher score.
+
+There is also a mini-game if they player can hit a special ramp on the board that takes the player to a driving game, something like OutRun, dodging traffic to gain points. The game is over once the player reaches the hideout, trying to avoid pursuing cops using various methods including multiple balls to try confuse them.
+
+http://www.mobygames.com/game/gameboy/getaway-high-speed-ii

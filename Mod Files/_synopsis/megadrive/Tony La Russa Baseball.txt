@@ -1,0 +1,33 @@
+Tony La Russa Baseball
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Baseball
+Gametype: Licensed
+Release Year: 1993
+Developer: High Score Productions
+Publisher: Electronic Arts
+Players: 1 or 2 VS
+_________________________
+At last, real baseball strategy for real baseball fans. Match wits with the major league manager of the year Tony La Russa in the most realistic baseball simulation ever created for the Sega Genesis. Pull your infield in, play your outfield at the warning track, send in a pinch hitter to dig in and crank that hanging curve into another time zone! Send 'em to the showers, put on the hit and run, pull the suicide squeeze - you're the manager - you make the calls! Digitized pitcher and batter animations - is it a slider or a smokin' fastball?
+
+Hints:
+
+- Guaranteed Home Runs Glitch -
+
+Both Francisco Cabrera of the Braves and Joe Magrane of the Cardinals have their slugging percentage listed incorrectly in the game; both are listed as having Slugging Percentages of well over 1.000. Because of this, you are guaranteed to hit a home run when either player makes contact while swinging for power.
+
+Note that in the case of Cabrera, this glitch only works if he's batting 7th in the lineup.
+
+- Nearly one-man team -
+
+In the Texas Rangers roster, Julio Franco is listed six times and all six can be in the starting line-up together.
+
+- Roster Glitch -
+
+Before you start a game, select "See Lineups". Not only can you edit position players and batting order and such in your own lineup, but the game allows you to do so for the other team as well.
+
+This means that you can force the other team to yield a unit of scrubs all in the wrong position and throw out the worst pitcher on their roster on a daily basis. Have fun enjoying all the free wins.
+
+http://www.gamefaqs.com/console/genesis/home/586552.html

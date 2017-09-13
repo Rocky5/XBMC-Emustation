@@ -1,0 +1,18 @@
+Dragon Warrior Plus
+Original title: Dragon Warrior
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Release Year: 1986
+Players: 1
+Hacked by: interordi
+Version: V0.33
+_________________________
+Dragon Warrior 1 is a great NES game, but the graphics aren't very good. That's normal, since the original Japanese game was released in 1986 in the early day of the NES. On the other site, Dragon Warrior 4, released a few years later, was very nice-looking. As such, I decided to replace the graphics of DW1 by those of DW4.
+
+I did a lot of graphics changes. I also hacked the palette for the overworld map and inside Tantagel castle. As you can see in the screenshots below, the overworld is pretty much complete, besides a few color mistakes. I'll do my best to fix that. I began to work inside Tantagel castle, but the work there is quite early. I still need to change all the characters sprites and palettes.
+
+http://www.interordi.com/romhack/dw1plus/index.php

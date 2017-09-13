@@ -1,0 +1,13 @@
+Fantastic Dizzy
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1993
+Developer: Codemasters
+Publisher: Codemasters
+Players: 1
+_________________________
+Fantastic Dizzy is a platform game developed by Codemasters.

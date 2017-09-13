@@ -1,0 +1,14 @@
+Fire Fighter
+Platform: Nintendo Game Boy
+Region: Prototype (USA)
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Teeny Weeny Games
+Publisher: Mindscape
+_________________________
+In this game you play the role of a fireman who has to rescue babies from burning buildings. The gameplay involves you putting out fires with your hose in order to proceed past to save the babies. There are various things that can harm you including wind up toy soldiers and jack in the boxes which can be killed with your fire Axe. The babies are saved by you picking them up one at a time and returning them to your truck. Each level has more babies for you to save and more enemies to kill. The houses have multiple floors as well so you have to do a lot of back tracking to save all the babies.
+
+http://www.mobygames.com/game/gameboy/fire-fighter

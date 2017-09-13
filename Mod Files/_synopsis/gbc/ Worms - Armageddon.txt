@@ -1,0 +1,20 @@
+Worms Armageddon
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Strategy
+Gametype: Licensed
+Release Year: 2000
+Developer: Infogrames
+Publisher: Infogrames
+_________________________
+The final sequel (at least using the present engine) to the strategy game Worms, Worms Armageddon expands on Worms 2 by improving quite a few facets of gameplay and including play over the Internet through Team 17's WORMNET.
+
+For those who've never played Worms, it's at heart similar to the old game Artillery, which you control an artillery piece. In essence, you give it a shot angle and shot power, and try to hit your enemy, despite wind effects and the enemy firing back at you. Worms puts you in command of a team of Worms, but not only can you move around the landscape, you can use many types of weapons to try to dispatch the enemy, from bazookas to mini-guns to exploding sheep.
+
+Everything is presented in a humorous cartoonish style, from the landscapes to the worms themselves and their cries of triumph or despair, depending on how you do.
+
+Armageddon uses an enhanced version of the Worms 2 engine, and while an improvement over Worms 2, it's not a huge change.
+
+http://www.mobygames.com/game/gameboy-color/worms-armageddon

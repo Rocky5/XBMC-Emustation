@@ -1,0 +1,11 @@
+GP-1 Racing
+Platform: Nintendo Game Boy Advance
+Region: Prototype (USA)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Racing
+Gametype: Prototype
+Release Year: 2003
+Publisher: Edge Interact
+_________________________
+This game is a prototype per the Goodset for GBA.  Unable to find info online for it otherwise.  ~Rx

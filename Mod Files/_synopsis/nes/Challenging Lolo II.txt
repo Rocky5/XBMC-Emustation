@@ -1,0 +1,17 @@
+Challenging Lolo 2
+Original title: Adventures of Lolo 2
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Hack
+Release Year: 2007
+Hacked by: Sivak Drac
+Version: 1.0
+_________________________
+This is a hack of Adventures of Lolo 2. Just like Challenging Lolo, it features 54 new levels, palette changes, and a few graphics changed.
+
+Special thanks to bbitmaster's level editor for making all this possible and thanks to him for making the 4 new pro maps possible as well!
+
+http://www.romhacking.net/hacks/202/

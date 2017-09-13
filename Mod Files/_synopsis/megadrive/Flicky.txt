@@ -1,0 +1,13 @@
+Flicky
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1991
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+Flicky is a video game released for Sega System 1 arcade hardware in 1984. The game stars a little blue bird called Flicky tasked with saving smaller birds from being eaten by predators. It was designed by Youji Ishii, a member of Sonic Team until August 1999, when he left for Artoon.

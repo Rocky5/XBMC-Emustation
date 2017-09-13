@@ -1,0 +1,29 @@
+Master of Weapon
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Horizontal
+Gametype: Licensed
+Release Year: 1991
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1
+_________________________
+Master of Weapon is a game released by Taito for arcades and for the Sega Genesis/Mega Drive. It is a basic shoot 'em up game in which the player controls a space ship that has upgradeable weapons. These upgrades are collected by destroying green transport vessels which release the upgrade for the player to pick up.
+
+Gameplay:
+
+The spaceship starts with a basic photon cannon and air-to-ground bombs. Both of these weapons can fire continuously without a need for pause. The photon cannon can be upgraded five times for up to five streams of photons by collecting P upgrades. Additionally, the exhaust of the ship can be used as a weapon.
+
+Special Weapons
+
+Special weapons can be collected by picking up boxes with specific labels through destroying transport vessels.
+P- Pier- Essentially the same as the conventional air-to-ground bomb. This is the default special weapon.
+L- Laser- Very powerful but has a short range. It can attack both air and ground targets.
+G- Guide- Shoots several green projectiles that track all targets on screen, self-destruct, and destroy the target.
+W- Wide- a somewhat powerful launch of several projectiles in a star pattern.
+H- H-Bomb- destroys all enemies on the screen for a few seconds. Can only be used once.
+S- Increases the exhaust of the ship, allows it to damage enemies at a further range and increases movement speed of the ship.
+
+http://en.wikipedia.org/wiki/Master_of_Weapon

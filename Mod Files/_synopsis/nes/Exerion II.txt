@@ -1,0 +1,20 @@
+Exerion II
+Platform: Nintendo Entertainment System
+Region: Prototype
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter 
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Jaleco Ltd
+Publisher: Jaleco Ltd
+_________________________
+The NintendoAge community has collected donations from its members to purchase and release yet another NES game from the vault of prototype/rarity hoarder Jason "DreamTR" Wilson, this time forking $500 for the prototype of Exerion II. Somehow, this group actually managed to find something more obscure than their previous acquisitions, Mike Tyson's Intergalactic Power Punch and U-Force Power Games.
+
+If you've never heard of the first Exerion, it was originally an arcade shoot'em up developed by Jaleco (Bases Loaded), brought to the U.S. in 1984 courtesy of Taito. The game was ported to Famicom, Sega SG-1000, and MSX (also appearing on collections for PS1 and GBA before hitting Wii's Virtual Console in 2007), but none of those home console versions ever crossed the Pacific.
+
+A sequel titled Exerion II: Zorni appeared on MSX in Japan, but an NES edition intended for a 1989 release never made it to stores. Up until this week, little was known about the NES version, save that Wilson had acquired a possessed a prototype for the game. Thanks to NintendoAge and the contributions of some 25 members, the prototype ROM for Exerion II is now available to download.
+
+Those who've played the original Exerion and now the sequel say that the gameplay is identical in the follow-up, but with new graphics and audio, as well as a quad-shot gun.
+
+http://www.gamesetwatch.com/2009/05/exerion_ii_prototype_rom_dumpe.php

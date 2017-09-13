@@ -1,0 +1,46 @@
+Bump 'n' Jump
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1988
+Developer: Data East
+Publisher: Data East
+Players: 1 or 2 Alternating
+_________________________
+
+While enjoying a drive with your girlfriend in your car that you have named "Popper", you are attacked by a ruthless gang called Jackals.
+
+Your girlfriend is kidnapped by Jackals in their big off-road vehicle. The girl's pleading voice is heard to say "Help me!" as the vehicle speeds away.
+
+You, of course, must chase down the gang's getaway car, and when you meet up with these enemies, you will have to fight them anyway you can.
+
+You will try bumping with your own car, crashing into them, even leaping on top of them in the hope that they will be crushed. All this is necessary to save the girl and get her back!!
+
+--From the NES Bump 'n Jump instruction manual.
+
+Overview:
+
+The story is kind of like Macbeth meets Dukes of Hazzard meets Knight Rider. Of course, this is all just theory.
+
+Ok ok... it's just a simple 'bad guys stole your girlfriend story'.
+
+Directions:
+
+A simple, yet addictive arcade game. The premise is to get to the end of the road, crashing as many cars as you can. You can do this by knocking them into the side, or by jumping on them. You'll have to be careful, though: every time you hit a car you lose Power, and you'll need to collect more from the Power cans out in the road. You'll also have to jump obstacles.
+
+Controls:
+
+A Button: Jump
+B Button: Brake
+Start Button: Pause
+Select Button: Nothing
+
+Hints:
+
+Continue
+- After you lose all your lives, hold down select on controller 1, then hold A and B on controller 2. Now simply press start two times on controller 1.
+
+http://www.consoleclassix.com/nes/bump_n_jump.html

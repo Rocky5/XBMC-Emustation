@@ -1,0 +1,14 @@
+Xybots
+Platform: Nintendo Entertainment System
+Region: Prototype (USA)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action 
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Tengen
+Publisher: Tengen
+_________________________
+Xybots is an Action game, published by Tengen, which was cancelled before it was released.
+
+http://www.gamefaqs.com/console/nes/home/587792.html

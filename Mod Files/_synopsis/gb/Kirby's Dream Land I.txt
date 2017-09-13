@@ -1,0 +1,17 @@
+Kirby's Dream Land
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: HAL Labs
+Publisher: Nintendo
+Players: 1
+_________________________
+Kirby is a an interesting little super-hero. Although he appears to be a weak little marshmallow, he is actually quite powerful. He has the ability to suck up his enemies like a vacuum, and then shoot them out at other enemies. Kirby can also swallow air, allowing him to fly through the air.
+
+In this game, Kirby must save his land from the evil King Dedede. There are 4 levels of side-scrolling platform action.
+
+http://www.mobygames.com/game/gameboy/kirbys-dream-land

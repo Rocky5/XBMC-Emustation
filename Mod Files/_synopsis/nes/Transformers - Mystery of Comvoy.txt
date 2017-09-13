@@ -1,0 +1,24 @@
+Transformers: Mystery of Comvoy
+Original title: Transformers: Comvoy no Nazo
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Translated
+Release Year: 2007
+Translated by: Talent Translations, Spinner 8
+Version: 1.00 Addendum
+_________________________
+If you're thinking about playing this game, don't. I usually try not to say anything terribly bad about non-DBZ games on the site, because the people who translated it (usually) put a lot of effort into it. However, this game is just bad.
+
+You are a large, 8pixel x 16 pixel red, white, and blue blob that can be Optimus Prime, or Inferno. I'm not really sure. And there's lot's of stuff zipping around the screen, and it all shoots at you, and it all can kill you in one hit. You hear the same song through the whole game. Many of the levels are palette swaps of the previous level. THREE of the bosses you'll fight are nothing more than a giant Decepticon symbol. (Yes, kids. Before there were Predicons, there were Decepticons. And they'd kick the Predicons' asses in). But the best part is, if you're patient enough to play this game for more than five minutes, there's some kind of an infinite loop in Stage 9. You get to the end ... and instead of fighting a boss (which is probably just another giant Decepticon symbol), you get whisked back to the beginning of the stage. Kinda remniscient of many old Atari games that never end. Anyway, play this horrible, horrible game at your own risk.
+
+Translation Description:
+
+This is an unofficial, independent addendum patch for the Transformers - Mystery of Comvoy version 1.00 translation done by No Talent Translations in 2000.
+
+This patch corrects some emulator related issues. It does not alter the translation in any way.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/1197/

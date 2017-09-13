@@ -1,0 +1,24 @@
+Die Hard Trilogy
+Platform: Playstation 1
+Region: USA
+Media: Disc
+Controller: Standard Control Pad, Mouse
+Genre: Action - Third Person - Shooter
+Gametype: Licensed
+Release Year: 1996
+Developer: Probe Entertainment
+Publisher: Fox Interactive
+Players: 1
+_________________________
+Die Hard Trilogy lets players guide New York cop John McClane through three arcade-style games based on each of the three Die Hard movies. Each movie is represented through a totally different style, making this a "3 games in 1" style package. 
+
+Die Hard is a third person action/adventure through thirty floors of the Nakatomi Tower high-rise. Terrorists have interrupted the company's Christmas party and taken hostages. As McClane, the player must search for hostages through computer, construction, maintenance, and executive levels. McClane's default pistol holds infinite ammo, and the player can collect limited-ammo machine guns and grenades inside the levels. Walls turn transparent when they intersect the camera, allowing players to follow McClane through hallways and rooms with ease. After all the hostages on a level have been rescued, the player has 30 seconds to locate a bomb sent down by elevator, then use that elevator to move to the next level. 
+
+Die Hard 2: Die Harder is a first-person arcade gun game, nearly identical to Virtua Cop. Terrorists have attacked Washington/Dulles Airport. The player automatically moves through the airport and surrounding areas "on rails," shooting bad guys that appear from behind the scenery. Weapon upgrade icons can be shot to be collected, and either use limited ammo, or are retained until the player is hit (identical to Lethal Enforcers). Players can also destroy parts of the environment by shooting it, which can be used to take out nearby terrorists (with explosions, or by shooting overhead items to drop on them). This game supports pad controls, or any of the PlayStation's gun controllers. 
+
+Die Hard With A Vengeance has players racing through New York City streets in a variety of vehicles, trying to locate bombs before they explode. A strict timer ticks off the next explosion, and the player is guided only by a direction arrow and the vocal suggestions of their co-driver. Bombs are hidden inside everyday objects (like phone booths and benches) and are defused by ramming them, which activates the timer on the next bomb. Occasional "bomb cars" must be chased and rammed until their life bar is depleted. Powerups can be collected by running over icons in the streets, and include extra time, turbo boosts, and jumps to rocket over obstacles.
+
+All three games are exaggeratedly bloody (players can run over pedestrians in Die Hard 3 and wipe the blood away with windshield wipers). Each of the three games also uses a combination of textured polygons and sprites to generate their worlds, resulting in warping textures and some quirky "paper doll" effects.
+
+
+http://www.mobygames.com/game/playstation/die-hard-trilogy

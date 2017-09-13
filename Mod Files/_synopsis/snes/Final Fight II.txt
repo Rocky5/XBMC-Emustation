@@ -1,0 +1,34 @@
+Final Fight 2
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1993
+Developer: Capcom
+Publisher: Capcom
+Players: 1 or 2 CO-OP
+_________________________
+Time has passed since Mike Haggar, along with his friends Cody and Guy, defeated the Mad Gear Gang and restored peace to Metro City. While the trio has continued living their normal lives, with Cody taking a vacation with his girlfriend Jessica, Guy going off to a training journey, and Haggar continuing to run Metro City as Mayor, the surviving Mad Gear members have secretly regrouped plotting their revenge under a new leader. They begin by kidnapping Guy's fiancee in Japan, Rena, along with her father and Guy's former sensei Genryusai. With Guy nowhere to be found, Rena's younger sister, Maki, calls Haggar and informs him of the situation. Accompanied by his friend Carlos Miyamoto, Haggar travels to Eurasia and meets up with Maki, and the three of them join forces to take on the newly revived Mad Gear.
+
+Gameplay:
+
+Final Fight 2 does not deviate much from the original Final Fight in terms of gameplay, although unlike the SNES version of the first game (and the alternate version Final Fight Guy), Final Fight 2 features a two-player cooperative mode in addition to the single-player mode. The player has a choice between three characters: Haggar, who uses professional wrestling techniques; Maki, a female master of the fictional Bushin-ryu Ninpo, similar to Guy from the first game; and Carlos, a South American martial artist of Japanese descent who uses a sword for his Special Move. Like in the original game, each character has their own set of fighting techniques and abilities unique to each character.
+
+The gameplay remains the same as in the original game. The player has two main action buttons (Attack and Jump), which when pressed together, makes the player's character perform their Special Move (a third button can also be assigned for this purpose). The player proceed through levels fighting against hordes of underlings before reaching a boss character at the end of each stage. Health-restoring food items and other bonus point items are hidden away in breakable drums and barrels. There are also three retrievable weapons in the game, a tonfa, a piece of lumber and a knife. There's also a "Genryusai Doll" which makes the player invulnerable for a limited period and a "Guy Doll" which gives the player an extra life.
+
+There's a total of six stages in the game, each set in a distinct Eurasia country: Hong Kong, France, Holland, England, Italy and Japan. As in the original game, the player will face against numerous types of recurring enemy characters thorough the entire game. The only returning enemy characters from the original SNES game are the Andore family. Rolento, a boss character who was in the first Final Fight but missing in the SNES port, appears as a boss character in this game (with his name spelled "Rolent").
+
+The player can adjust the difficulty (along with other settings) of the game in the Option Menu. Like in Final Fight Guy, each difficulty setting reveals only a certain portion of the ending, with the full ending being shown only by completing the game on the Expert setting.
+
+Localization:
+
+The Japanese version of Final Fight 2 features two enemy characters named Mary and Eliza, who were knife-wielding female enemies with acrobatic techniques. Mary and Eliza were replaced by two substitute characters named Leon and Roberts in the international versions of the game. Unlike Poison and Roxy (their counterparts from the original Final Fight), Mary and Eliza were characterized as actually female characters instead of transvestites. Additionally, the first stage boss Wong Wong, wields a meat cleaver in the Japanese version, which was also removed in the overseas versions.
+
+Tips:
+
+Same Player Code
+Down, Down, Up, Up, Right, Left, Right, Left, L, R  (on title screen)
+
+http://en.wikipedia.org/wiki/Final_Fight_2

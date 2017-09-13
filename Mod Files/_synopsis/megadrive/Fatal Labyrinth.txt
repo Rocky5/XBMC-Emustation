@@ -1,0 +1,17 @@
+Fatal Labyrinth
+Platform: Sega Genesis / Mega Drive
+Region: Japan, USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1991
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+Fatal Labyrinth, called Shi no Meikyuu: Labyrinth of Death in Japan, is a role-playing game developed and published by Sega for the Sega Mega Drive in 1991. In Japan, it was a Sega Game Toshokan download exclusive. In the game you play as Trykaar, who must enter Dragonia, the castle of doom and traverse its thirty levels to retrieve the Holy Goblet.
+
+The game is a roguelike where most levels of the castle are chosen at random from a predefined set. You will find monsters and items scattered at random.
+
+The game ends when you run out of health. You regain health by eating food found as items on the ground; health will slowly regenerate while you have health left to regenerate. If you run out of food, you will rapidly lose health until you eat food or die. If you eat too much food (the "F" counter on the HUD exceeds 80), you will slow down. Eat more (F=99) and you die.

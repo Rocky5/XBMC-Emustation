@@ -1,0 +1,57 @@
+Crystalis
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1990
+Developer: SNK
+Publisher: SNK
+Players: 1
+_________________________
+
+THE STORY OF CRYSTALIS
+
+It has been said that an ending is merely a beginning in disguise. And so it was that when the Great War engulfed the world, bringing civilization as we know it to an end, it ushered in the dawn of a new era. An era in which science and technology were shunned - for they had proven to be mankind's downfall - and the ancient arts of sorcery and magic were revived.
+
+As the survivors slowly rebuilt their world, towns and villages began to spring up, and the wisest and most capable of the magicians used their magic to keep order. Peace reigned over the land for a hundred years... Until a powerful Magician named Draygon intrigued by the forbidden ways of science, began to study the principles of machines and flying. Realizing the power he might wield if he combined his magic with technology, his mind became twisted by the urge to control and dominate his fellow man.
+
+Draygon created a computer capable of simulating his magic powers. He placed it in a floating fortified tower; and from his airborne fortress, he built and controlled his growing empire, until the entire planet was threatened by his ever spreading evil.
+
+In a attempt to combat Draygon, the other magicians constructed a series of powerful swords, along with powerful items to use with these swords. Based on the basic elements of the land - wind, fire, water, and thunder - the four swords if used together at full power, would transform into the next elemental stage - that of crystal. This would be the mightiest weapon ever created: the sword Crystalis.
+
+Learning of their idea, Draygon seized the weapons; but they had made them too well, and he was unable to destroy them. Knowing they could only defeat him if used together, Draygon scattered the weapons throughout the land, and stripped the wise magicians of most of their powers.
+
+In desperation, they began to study the writings from the time of the Great War, where they learned of a great magician, the most powerful who ever lived. He had been imprisoned in a cave and frozen by the evil forces of the Great War, who had hoped to use his powers to control the world after the war. Searching the globe, the wise men found the cave, and were amazed to find that the mighty magician frozen within was a mere lad.
+
+Through they knew it might destroy them, they pooled all of their remaining power in an attempt to will him back to life. When the boy awoke - his mind a blank, even his name forgotten - they had vanished, leaving him to find his destiny in this strange new world.
+
+--From the NES Crystalis instruction manual.
+
+Overview:
+
+In Crystalis the world was almost totally destroyed. The destruction caused many people of the world to be mutated. The few people that made it started to rebuild their cities and homes. You wake up from a cryogenic sleep to find the world you remember to be in shambles. You learn that the Empire of Dragonia is evil and must be stopped.
+
+The graphics in this game were excellent. They did quite well despite the limitations of the eight-bit Nintendo. This was a very challenging and fun gaming experience.
+
+Directions:
+
+Collect all four swords(Wind, Fire, Water, and Thunder) to form the Crystalis sword, and save the world.
+
+This game reminds most people of the Zelda games. The environment is much the same. You go through towns talking to townsfolk and learning information and getting items. Then, of course, you go out to the wilderness to battle evil. As you defeat enemies you will gain experience and money. You can use money to buy items that will help on your journey. 
+
+Controls:
+
+A Button: Use magic, Jump, Select item
+B Button: Attack (charge while standing still), Cancel
+Start Button: Status screen, Save (from item menu)
+Select Button: Show item menu
+
+Hints:
+
+Game Pause
+- To pause the game press B on the second controller.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/nes/crystalis.html

@@ -1,0 +1,14 @@
+Serpent
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1990
+Developer: Naxat Soft
+Publisher: Taxan
+_________________________
+Serpent is an Action game, developed by Naxat Soft and published by Taxan, which was released in 1990.
+
+http://www.gamefaqs.com/portable/gameboy/home/585888.html

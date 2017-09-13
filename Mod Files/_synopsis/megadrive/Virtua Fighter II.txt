@@ -1,0 +1,45 @@
+Virtua Fighter 2
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1996
+Developer: SEGA-AM2
+Publisher: SEGA
+Players: 1 or 2 VS
+_________________________
+One year after after the first tournament Akira, Wolf, Pai, Jeffry, Kage, Jacky, Sarah and defending champion Lau are invited to the World Fighting Tournament, and are joined by the master of drunken Kung-Fu Shun-di, who wants to prove he's more than an old geezer and Lion Rafale, who's fighting for his freedom. Each fighter has his own style, from the lightning fast attacks of Pai to the powerful slams of Jeffry.
+
+Gameplay:
+
+Home port of Sega's popular Model 2A arcade vs. fighter released in 1995. Game modes include classic arcade mode, 2P vs mode, Expert mode (where the computer character progressively learns and counters players' technique), Ranking Mode (similar to Arcade, but at the end, a fighting style analysis is shown based on number of specials and time to knock down an opponent), Team Battle Mode (two teams composed of five fighters go against each other, the first to beat five characters being the winner) and Watch mode (allows choosing two fighters and then see them fighting). Both VF2 and VF2.1 (a tweaked version available only in Japan) modes are included. Gameplay keeps the same style from the first game, adding more moves to each fighters' roll. Using a three-key layout (block, kick and punch, being possible to assign button combinations to the extra keys) the player is able to control their fighter, aiming to knock or push the opponent outside the rink inside the time limit. Combo moves range from the quickest, which require the player to push up to five buttons quickly, to strong moves that require more button presses along d-pad nudges to be successful. As with the previous game, fighting is realistic (except the physics-defying leaps), and each fighter has nothing but their body to harm the opponent.
+
+While in comparison with the arcade version some parts took a hit on graphical quality (such as the texture details and backgrounds), the game uses the Saturn High-Resolution mode and flowing 60-fps to bring the arcade experience home.
+
+Trivia:
+
+ - This was the first Sega Mega Drive game to be released in Japan on Virtual Console for Nintendo Wii.
+
+ - The Sega Genesis port doesn't feature Shun Di and Lion Rafale, the two new characters introduced in the arcade version of Virtua Fighter 2.
+
+Hints:
+
+- Different Costumes -
+To play in a character's different costumes, Hold UP and then select your character with the A button or C button. or Hold DOWN and select your character with the A button or C button or Start button.
+
+- Extra Character Selection Time -
+Press Down, Up, Right, and A + Left at the Character Selection Screen for 99 seconds of time.
+
+- Hidden options -
+Enter the options screen,then highlight the ''Exit'' selection, and tap Left until the hidden options are displayed
+
+- No Damage -
+Hold B while highlighting player 1's life selection at the Options screen, until the message ''No Damage'' appears. Then press Start.
+
+- Play as Dural -
+Just highlight Akira if using controller one or Jacky if using controller two. Then press Left and then Right on the D-Pad. Repeat this a few times and Dural should then appear as a selectable character. Now you can use him as your character in the game!
+
+http://www.mobygames.com/game/genesis/virtua-fighter-2_
+http://www.gamefaqs.com/console/genesis/code/586580.html

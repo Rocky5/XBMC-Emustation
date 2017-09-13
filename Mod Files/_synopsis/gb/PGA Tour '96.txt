@@ -1,0 +1,18 @@
+PGA Tour '96
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Sports - Golf
+Gametype: Licensed
+Release Year: 1995
+Developer: Unexpected Development
+Publisher: Black Pearl
+_________________________
+The handheld versions of their console brethren still features the PGA license, but is missing the pros and instead uses generic golfers. Additionally, only three courses are available for play: Sawgrass, Summerlin, River High and has four game modes: Practice, Putting, Driving, Skins and Tournament.
+
+The gameplay is similar to many others of the genre, the player is shown an overhead view of the map and then taken to a perspective directly behind the golfer. Using the D-pad to move a cursor on screen to aim their shot and pressing a main button to activate the power/accuracy meter below, pressing once to set the power and again for accuracy.
+
+Each version also has multiplayer capabilities using their respective Game Links (Game Gear has four player capabilities while Game Boy only features two).
+
+http://www.mobygames.com/game/gameboy/pga-tour-96_

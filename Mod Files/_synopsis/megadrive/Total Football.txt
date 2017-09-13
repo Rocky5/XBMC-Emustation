@@ -1,0 +1,19 @@
+Total Football
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1995
+Developer: Domark
+Publisher: Acclaim Entertainment, Inc.
+Players: 1 or 2 VS
+_________________________
+Named after the tactic invented by Rinus Michels and their "Clockwork Oranges" Dutch team of the 70's, Total Football is an International competition game including 52 teams (including an all-star team) and compete in a 16 team league, 32 team knockout and a 32 team tournament similar to the World Cup.
+
+Featuring a low-angle isometric view (not compensated by the d-pad, meaning pressing right will move the player along the half-way line (his right), not in the direction of the right corner flag (the screens' right) like in most games featuring axonometric views, while buttons allow to pass the ball in different strengths or kick at goal. Managing is limited to the choice of eight different formations at the start of the game and half-time.
+
+Options include the usual in the genre: half length (3,5,10,20 and 45 minutes), weather conditions (sunny, rainy, overcast, indoors), referee strictness (full, no cards, no fouls), time stoppages, tie decision (shootout or overtime) and sound (music and sfx, only one of them or none).
+
+http://www.mobygames.com/game/genesis/total-football

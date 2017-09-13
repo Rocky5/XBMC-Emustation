@@ -1,0 +1,35 @@
+Pretty Soldier Sailer Moon
+Original title: Bishoujo Senshi Sailor Moon: Another Story
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 1999
+Translated by: Bishoujo Senshi Translations
+Version: 1.00
+_________________________
+Yep, it's a Sailor Moon RPG. Pretty nifty, huh? The game is pretty standard I guess; there are some pretty cool things in it though, like the nifty techniques and stuff. However, it is pretty hard to make sense of things (especially in the beginning) without a good knowledge of the series; the game continues the unfortunate "You'd damn well better know who everyone is before you play, cause no way in hell are we going to explain it to you" syndrome of anime gaming. Of course, this game isn't meant for just your average Joe guy, it's meant for people who like Sailor Moon. So, uhh, there you go.
+
+Translation Description:
+
+To further confuse things for most Cartoon Network-lovers who haven't seen the subtitled anime, this translation uses the Japanese names. Serena becomes Usagi, etcetc. Even with the patch's included liner notes, it's still confusing. But whose fault is that? Not theirs! Blame Cartoon Network! Those name-changing sons of bitches! Sure, they didn't do it themselves, but hey, who else are you gonna blame?
+
+As for the translation itself, it is nothing short of astounding. FuSoYa has done a superb job, even adding new code for a variable width font which looks really nice. Even the signs have been translated, which is a really nice touch. Of all the people I've talked to who played this game, even the ones who hated the game were still very impressed with the translation's degree of professionalism. Which is saying a lot, knowing all the assholes that I know.
+
+Hints:
+
+Use Same Character in 2P Mode
+When the cursor is on Player 2, hold down L and R, and push Start. Now both players can select the same character.
+
+Tips:
+
+Begin game with level 99 characters and mostly 255 stats
+Hold A on controller 2 and on controller 1 press Up, Up, Down, Down, Left, Left, Right
+
+Senshi start at level 16
+Press and hold the X button at the Title Screen then start a new game.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/401/

@@ -1,0 +1,13 @@
+Berzerk
+Platform: Sega Genesis / Mega Drive
+Media: Cartridge
+Controller: Gamepad
+Genre: Maze
+Gametype: Homebrew
+Release Year: Unreleased
+Developer: Paul Lee
+Players: 1 or 2
+_________________________
+This hombrew was created by a guy named Paul Lee who has been referenced on several sites involving romhacking.  His homepage is no longer active.
+
+This is a port of Berzerk that features sound and digital speech.

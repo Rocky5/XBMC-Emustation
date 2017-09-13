@@ -1,0 +1,14 @@
+Robopon: Sun Version
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 2000
+Developer: Hudson
+Publisher: Atlus Co.
+_________________________
+Robopon: Sun Version is a Role-Playing game, developed by Hudson and published by Atlus Co., which was released in 2000.
+
+http://www.gamefaqs.com/portable/gbcolor/home/575974.html

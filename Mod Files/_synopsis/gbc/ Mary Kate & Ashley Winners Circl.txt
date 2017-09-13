@@ -1,0 +1,16 @@
+Mary-Kate and Ashley: Winners Circle
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2001
+Developer: M4 Limited
+Publisher: Acclaim
+_________________________
+Mary Kate and Ashley: Winner's Circle is an isometric horse racing game. You pick either one of the Olsens, and a horse, then an event. Most events are essentially clock or checkpoint race where you must make it through the track or jump all the gates before time runs out, but there are also challenge stages with more varied goals such as collection.
+
+Controls can be done either Mary-Kate style, where you use left and right to turn the horse, or Ashley style, where the horse will point in the direction you press on the D-pad. In both cases, B kicks the horse to get them moving and A signals them to jump.
+
+http://www.mobygames.com/game/gameboy-color/mary-kate-and-ashley-winners-circle

@@ -1,0 +1,14 @@
+Terminator 2: The Arcade Game
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1994
+Developer: Beam Software
+Publisher: Acclaim
+_________________________
+A conversion of the arcade game. A typical gun game based on the film Terminator 2. One or two players can play at the same time shooting the Terminators and various other bad guys culminating in the virtually indestructible T-1000 himself.
+
+http://www.mobygames.com/game/gameboy/t2-the-arcade-game

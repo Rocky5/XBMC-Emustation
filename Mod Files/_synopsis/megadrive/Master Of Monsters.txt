@@ -1,0 +1,27 @@
+Master Of Monsters
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1991
+Developer: OperaHouse
+Publisher: Renovation
+Players: 1
+_________________________
+Master of Monsters is a turn-based strategy game in which you choose one of five different wizards and fight the other wizards for domination of the land that stands without a ruler after the master wizard's death. You can play in two campaigns against the computer which requires you to defeat the enemy wizards on all maps and allows you to take all units that have survived a battle into the next one. You can also play all maps individually with up two four human players. In battles, you can summon different monsters and cast spells. Which monsters you can summon and which spells you can use depends on which wizard you have chosen. Your aim in every battle is to defeat all other wizards and thus conquering the land (In the campaigns you only have a limited number of turns to do so). Your wizard and monsters gain experience from fighting and your monsters' abilities differ largely from one-another. For example some monsters can execute long-range attacks, some have strong magic attacks but are physically weak.
+Furthermore, their movement is affected by different terrain types. While flying monsters can move freely, most of the other monster have a preferred terrain type (lizards move best in water etc.). You can summon up two 30 monsters per battle, but how many monsters you can summon each turn is not only determined by the amount of MP, but also by the number of towers that you control, which makes conquering and defending towers a key-element in battles.
+
+Trivia:
+
+Master of Monsters is in fact a fantasy spin-off of Systemsoft's more successful Daisenryaku series, with military units replaced by monsters and cities replaced by warlocks and towers.
+
+Hints:
+
+Sound Test
+Do the following at the title screen:
+Hold A, B, and C and then press Start
+
+Reviewer: Kaminari, Supernintendo Chalmers, ???? ?????
+http://www.mobygames.com/game/genesis/master-of-monsters

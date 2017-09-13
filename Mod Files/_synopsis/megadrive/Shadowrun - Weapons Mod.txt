@@ -1,0 +1,26 @@
+Shadowrun [Weapons Mod]
+Original title: Shadowrun
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: Magus77
+Version: 2.2
+_________________________
+Mod Homepage: http://magus57.googlepages.com/shadowrunconversionmod
+
+This is a mod for the Sega Genesis version of Shadowrun. It replaces all of the guns in the game either with real-life equivalents, or good alternatives to the in-game guns. It also makes a few minor changes detailed in the readme file.
+
+It's also a complete change of the starting characters/races, along with their skills, attributes, and inventories. It may not make complete sense with the game's story, but in my opinion, it makes the gameplay more fresh.
+
+Finally, it also changes a bit of the dialogue, and much of the menus and text. I will update the mod in the regard of modified dialogue every so often, whenever I feel I've made a worthwhile amount of changes.
+
+More information in the readme. Mod is a single IPS patch.
+
+While this mod is pretty much complete, I'm open to changes, especially if you can help me with some of the stuff mentioned in the readme. Just email me using the email in the readme.
+
+http://www.romhacking.net/hacks/565/

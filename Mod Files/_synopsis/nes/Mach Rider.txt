@@ -1,0 +1,20 @@
+Mach Rider
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1985
+Developer: Nintendo R&amp;D1
+Publisher: Nintendo
+Players: 1
+_________________________
+
+Mach Rider takes place in the year 2112, and planet Earth has been invaded by evil forces known as Quadrunners. The player controls Mach Rider, who travels from sector to sector on a motorcycle, searching for survivors and destroying the enemies in his path.
+
+The game's controls are somewhat more complex than other games at its time. The left and right directions on the Control Pad steer Mach Rider and the A button accelerates. The B button fires Mach Rider's machine gun which can be used to destroy enemies and obstacles on the road. The up and down buttons are used to change gears. Mach Rider's bike has four gears and travels at an immense speed in top gear.
+
+In each round, points can be scored by destroying enemies and certain obstacles with the machine gun. The number of points scored for destroying enemies and obstacles are determined by the power of the enemy destroyed and the type of obstacle destroyed. If the player "BLOCKS" an enemy by knocking it into a hazard on the track, they obtain more points, and this also replenishes Mach Rider's bullets.
+
+http://en.wikipedia.org/wiki/Mach_Rider

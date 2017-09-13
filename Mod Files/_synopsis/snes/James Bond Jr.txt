@@ -1,0 +1,30 @@
+James Bond Jr.
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Side-Scrolling
+Gametype: Licensed
+Release Year: 1992
+Developer: Gray Matter
+Publisher: THQ
+Players: 1
+_________________________
+"The world's greatest scientists have disappeared and now it's up to you as James Bond Jr. to rescue them! Intelligence reports indicates that your old enemy S.C.U.M Lord has imprisoned them on his island fortress in the Caribbean. You head out on four dangerous missions to save the scientists and thwart S.C.U.M. Lord's plans!"
+
+Tips:
+
+Level Passwords:
+3 0007
+4 3675
+5 9025
+6 1813
+7 3353
+
+Sound Test
+At The Password Screen enter 12345
+
+View Credits
+At The Password Screen enter 888888
+
+~Developer's Website: http://www.eurocom.co.uk/content/view/83/43/

@@ -1,0 +1,16 @@
+IS - Internal Section
+Known issue (if you can help join the forum): Needs HLE bios.  Only tested on 1.6 core.
+Platform: Playstation 1
+Region: USA
+Media: Disc
+Controller: Analog Control Pad
+Genre: Shoot 'em Up - Tube Shooter
+Gametype: Licensed
+Release Year: 1999
+Developer: Positron Co
+Publisher: Square Soft
+Players: 1
+_________________________
+Internal Section is a "tube shooter" in the tradition of Tempest and S.T.U.N Runner. The game uses a flat shaded, untextured polygons to keep a high frame rate in the PlayStation's high resolution mode. Players have access to twelve different weapons, each named after a sign of the Chinese Zodiac. The in-game soundtrack is techno, and much like SCEI's Vib Ribbon, IS can dynamically change the environments based off of music CDs in certain modes. The game is very similar in terms of gameplay and style to Rez, and actually was released nearly 3 years earlier. 
+
+http://www.mobygames.com/game/playstation/internal-section

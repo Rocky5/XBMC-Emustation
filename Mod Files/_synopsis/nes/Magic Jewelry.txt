@@ -1,0 +1,53 @@
+Magic Jewelry
+Platform: Nintendo Entertainment System
+Region: Unlicensed
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Unlicensed
+Release Year: 1990
+Developer: Hwang Shinwei
+Publisher: RCM
+_________________________
+"A minimalistic, yet solid Columns-clone"
+
+Magic Jewelry
+
+Introduction
+
+With Magic Jewelry, Hwang Shinwei created (and RCM published, even without the license from Nintendo) one of the Tetris-inspired puzzle games that possess a high probability for addiction. It is basically the same variation as the better known Columns games that came out e.g. for the Sega Master System, however it was only ever released for the Famicom in Japan and never found its way (officially) to the US or Europe.
+
+The game has (at least part of) its name from the fact that the building blocks consist of differently colored jewels. The 'magic' part possibly is there only for fanciness. ;-)
+
+Story - NA/10
+
+As far I know there is no story to this game, but who needs on in a puzzle game? So umh... on to the next point.
+
+Gameplay - 7/10
+
+The game concept is quite simple. Similar to the genre reference Tetris, blocks are falling down from the top of the screen in a 'quantized' movement, with the play screen being 6 units wide and 13 units high. Each of these blocks consists of three elements in the form of jewels on top of each other. These jewels have different colors (also their form is different, but the color is more easily recognizable). As the player, you can move the blocks sideways and switch the order of the jewels. In order to prevent the screen from filling up and the blocks from reaching the top of the screen, you have to arrange the jewels such that they form rows of (at least) 3 of the same kind, either horizontally, vertically or diagonally. This causes said row to disappear and the upper blocks to fall down and fill the free spots. With some luck or even better, careful planning, you can cause chain reactions that way that may clear half a screen and net you a lot of points.
+
+After every 70 jewels that disappeared, a bonus block consisting of three x-symbols appears. This block makes all jewels of the one color disappear, on which it lands. With this, you advance one level and the speed of the falling blocks increases a bit. Thus, the further you get and the more jewels you make disappear, the more challenging the game becomes as you have less time to react and arrange your blocks.
+
+Graphics - 4.5/10
+
+The game is visually very colorful except for the basically black background. The blocks and jewels are mainly distinguished by their color, and this is well done. But further than that and the basic scores indications, there is only one background (or rather sideboard) theme. At least it doesn't interfere with the jewel colors, but nevertheless, that's quite disappointing. So in short, the graphics do their job, but nothing more.
+
+Sound - 3/10
+
+This is a bit of a two-edged sword. The tunes that were implemented as background music change with every new level you reach. And they actually are quite ok, e.g. one I recognized was 'Greensleeves'. HOWEVER, the sound quality is very bad. It is more like unclear beeping notes played one after another offending the ear. So I suggest turning off the sound completely while listening to some music on your stereo instead.
+
+Replayability - 6.5/10
+
+Given the case that you like the concept of the game, replayability is good, as it's of course always the same game. And you can always try to advance to further levels (with increasing speed) and try to beat your point record. However, if you'd like to train your skills at increased speed, you don't have to possibility to do so from a menu - you always have to start out slow.
+
+The strongest point of criticism, however, is that there are no other modes to play. Once you've grown tired of the standard game, there's no further mode, no 2-player mode, no special formation or time attack mode or such, to motivate you.
+
+Overall - 5/10
+
+If you like the Tetris-inspired puzzle games, Magic Jewelry may be for you, too. However, if you already have the 'original' Columns, there's no need to even try out this game. Aside from the (admittedly addictive) basic concept, it offers no additional incentive such as e.g. more game modes, especially nice graphics or convincing music - it's too minimalistic in my opinion. There are better alternatives of the genre out there.
+
+Reviewer's Score: 5/10, Originally Posted: 02/15/07
+
+Reviewer: Lagoona
+http://www.gamefaqs.com/console/nes/review/R110738.html

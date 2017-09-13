@@ -1,0 +1,26 @@
+Final Fantasy VI: The Eternal Crystals
+Original title: Final Fantasy VI
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: MakouEyes
+Version: 9.08
+_________________________
+The hack replaces characters, enemies, bosses, items, commands, spells. I also changed much of the dialogue so that the story line follows the old "Warriors of Light" scenarios.
+
+Fixed since last version posted on romhacking.net:
+
+- difficulty increased
+- "new" character
+- All palettes fixes
+- battle glitches fixed (especially text)
+- new monsters
+- new monster attacks/ behaviors
+- storyline fixes (for consistency)
+
+http://www.romhacking.net/hacks/431/

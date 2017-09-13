@@ -1,0 +1,24 @@
+Moon Ranger
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter - Horizontal
+Gametype: Licensed
+Release Year: 1990
+Developer: Odyssey Software Inc.
+Publisher: Bunch Games
+_________________________
+
+An alien species has set up a dormant space craft on the moon to mine the solar system's resources. As a side note, this will destroy the Earth. Not good. But never fear, Moon Ranger is here to save us!
+
+You must fly through space, destroying meteors and aliens then you land and enter the first alien base. You must fight your way through and recover a piece of the gamma bomb that can destroy the aliens. After you get the gamma bomb piece, it is off to the next base. Gather all the gamma bomb parts to destroy the alien menace.
+
+Controls:
+
+A Button: Fire
+B Button: Boost
+Start: Pause
+Select: Menu
+
+http://www.mobygames.com/game/nes/moon-ranger

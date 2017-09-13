@@ -1,0 +1,20 @@
+Square's Tom Sawyer
+Original title: Square no Tom Sawyer
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 1998
+Translated by: Kikuyama
+Version: 0.07
+_________________________
+God, and people think King's Knight is bad. This is an RPG (with decent graphics, at least) that follows the life of one Tom Sawyer. Although that Becky chick is totally hot, you oughta see what the black people look like. Christ, it's no wonder this was never translated. Aside from the fact that it sucks, of course. Next time someone tells you how great Square is, you say "Tom Sawyer, now shut the fuck up." Thank you.
+
+Translation Description:
+
+Kikuyama's native language (I'm pretty sure, anyway) is Swedish, and it really shows in this translation. Not a whole lot has been done, just basically the prologue and some menus, along with scattered dialogue. It's odd, because I remember Toma talking a long time ago about how the text in this game was compressed.. Well anyway, don't expect too much from this. This patch used to include both the patch and the already-patched rom, but for legal reasons only the patch is in this one. Deal.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/216/

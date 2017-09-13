@@ -1,0 +1,15 @@
+Wings of Wor
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1991
+Developer: NCS
+Publisher: Dreamworks
+Players: 1
+_________________________
+Gynoug, called Wings of Wor in the US, is a shoot-'em-up developed by NCS in 1991 for the Sega Mega Drive. It was published by Masaya in Japan and Europe and DreamWorks in the US. You play as Wor, an angel who has to drive the evils of Iccus, who are attacking the heavens, back to their home and destroy them.
+
+Gynoug uses a string of orbs to represent power level: collecting red and blue orbs will add one to a meter of the appropriate color in the HUD (and will consequently power up your weapons); losing a life takes one away from each.

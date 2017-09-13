@@ -1,0 +1,18 @@
+Warsong [Graphics Hack]
+Original title: Warsong
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: MIJET
+Version: 1.0
+_________________________
+Another victim of localization was Langrisser, at least graphically. When it became Warsong, Treco redid a few of the character portraits. Not really a big deal, and some might even prefer the changes, but this patch will revert the graphics anyway.
+
+This patch is more interesting when combined with D's text hack, which fixes the names to better match Langrisser. Make sure you apply this graphics patch last.
+
+http://www.romhacking.net/hacks/406/

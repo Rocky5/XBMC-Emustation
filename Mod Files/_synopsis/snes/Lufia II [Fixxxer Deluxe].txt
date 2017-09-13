@@ -1,0 +1,66 @@
+Lufia II Fixxxer Deluxe
+Original title: Lufia II: Rise of the Sinistrals
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2005
+Players: 1
+Hacked by: Relnqshd
+Version: 1.0
+_________________________
+General Fixes:
+
+- Glitched map names (Gratze Kingdom, Capsule Monsters Cave)
+
+- Glitched Submarine Shrine/Ancient Cave Final Floor maps
+
+- Battle background for Shrine of Vengeance B2
+
+- Music menu glitch (AKA the "Level 0" bug)
+
+- Equip menu glitch (e.x. Tia has a Knife, Maxim has "no equip". Scroll from Maxim to Tia. Now, Tia suddenly has a Knifeuip equipped. What's fixed is that last part.)
+
+Item Problems:
+
+- Statue (Doesn't freeze/reset the game when used at the main menu)
+
+- Sea ring (Makes attacks fire elemental.)
+
+Enemy Problems:
+
+- Mirror Check (Archfiend, Sphinx, Demise, Leech, Nosferato, and Sly Fox can use the Mirror spell effectively.)
+
+- Nosferato's Contact (Nosferato now recovers HP when he uses Contact)
+
+- Resistances and weaknesses of Copper Dragon and Ninja
+
+- Dark Warrior's palette
+
+- Bolt Fish lock up (No longer freezes the game when it runs out of MP)
+
+- Frue Gades (You now fight the strongest version of Gades in Shuman Tower and Fortress of Doom!)
+
+- Erim now casts Eerie light, Zap, and Thunder
+
+Miscellaneous:
+
+- PERCELYTE
+
+- Grassei Kingdom
+
+- ball of Chence
+
+- Bunny girls restored
+
+- One or two other minor bugs/errors
+
+Disclaimer: In his own words, the creator of this hack never released it for the following reasons:
+
+- "I never played through whole patched ROM to see if everything is alright. I verified that each of the changes I made works as intended, but I can't be 100% sure than I didn't screw some other things up while tinkering with the game."
+
+- "The most important reason in my eyes: I never took the time to write the credits. Several people helped me during the creation of this patch, and I really wanted to mention all of them in the readme file."
+
+http://www.romhacking.net/hacks/229/

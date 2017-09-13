@@ -1,0 +1,30 @@
+Nigel Mansell's World Championship Racing
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Cars
+Gametype: Licensed
+Release Year: 1993
+Developer: Gremlin Graphics Software
+Publisher: GameTek
+Players: 1
+_________________________
+Nigel Mansell's F-1 Challenge is a Super Famicom game that takes places in the Formula One circuit. The player can race a single race, do a season of Formula One, or practice their skills on a particular race track. Either music, sound effects, or both can be shut off on the options menu. The changing of the tires is mandatory on pit road during the middle of each race, and weather can determine whether the player should use hard tires, soft tires, or rain tires.
+
+Being licensed by Mansell, the game followed the 1992 Formula One season, which he won. The player takes on Mansell's role to try and win the title again, against eleven other drivers. Like Sega's own Super Monaco GP, each of them belongs to their own team (instead of common F1 format of two drivers per constructor), however all are real-life drivers.
+
+Tips:
+
+Final Level Passwords:
+Enter the following code at the Password screen....
+X4LWJ01XN6LW0D3KVY
+
+See the ending
+Enter the password: P V 2 J T F B K 4 Y 6 9 6 H 4 D X Y
+
+View Credits
+Enter the following code at the Password screen....
+VM. 20HQDMSN0QWLT2Q
+
+http://en.wikipedia.org/wiki/Nigel_Mansell%27s_F-1_Challenge

@@ -1,0 +1,17 @@
+SMB: Mario in Zebes
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2004
+Hacked by: Slimeous
+Version: 1.0
+_________________________
+This is a hack of our old-time fav Super Mario Brothers 1 for the NES. Mario has been abducted by Cyber-Ridley and taken to Zebes, and Samus' mission is to save Mario so he can go back to Mushroom Land to save the Princess.
+
+The hack was created by me and took just a couple of months. Specifically, I've worked on this project from December 2003 to February 2004. Every level and almost all graphics has been changed from the original game. The fireball movement has been changed as well!
+
+http://www.romhacking.net/hacks/298/

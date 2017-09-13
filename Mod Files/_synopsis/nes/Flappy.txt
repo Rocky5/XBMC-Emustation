@@ -1,0 +1,17 @@
+Flappy
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1985
+Developer: DB Soft
+Publisher: DB Soft
+_________________________
+
+In this puzzle game, you control Flappy, a yellow mole. The object of the game is to help Flappy push the Blue Stone onto its Blue Platform in each level.
+
+Red Stones are placed in key locations across the levels. They can be pushed, stacked on top of each other, and even destroyed. Flappy must strategically take advantage of the gravity and the Red Stones in order to clear the path for pushing the Blue Stone. Three different types of enemies will try to prevent Flappy from clearing the level, so you must either avoid the enemies, crush them from above with the Stones, or pick up Sleeping Mushrooms to knock them out temporarily.
+
+http://www.mobygames.com/game/nes/flappy

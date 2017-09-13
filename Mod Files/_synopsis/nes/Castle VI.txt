@@ -1,0 +1,14 @@
+Castle VI
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: ZCNE
+_________________________
+A hack of Castlevania I by ZCNE. The basic level structure and enemy locations remains the same, but the block placement and background remains is rearranged drastically. Characterized by some particularly nasty sudden death falling situations.
+
+http://castlevania.wikia.com/wiki/Castle_VI

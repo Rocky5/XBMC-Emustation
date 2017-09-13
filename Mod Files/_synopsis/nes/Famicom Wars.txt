@@ -1,0 +1,20 @@
+Famicom Wars
+Original title: Famicom Wars
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Strategy 
+Gametype: Translated
+Release Year: 2008
+Translated by: aka translations
+Version: 1.11
+_________________________
+This is a pretty neat little game.. Well, from what I played anyway. I screwed up and made both players me, so I easily won. Still, it's a [system] Wars game, and while they can't all be as brilliant as Advance Wars, they pretty much all play the same. Except (wraith) doesn't like em.
+
+Translation Description:
+
+Seems pretty cool. He made little icons for the funky vertical menus down at the bottom of the screen! This patch should now be complete with the latest update.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/911/

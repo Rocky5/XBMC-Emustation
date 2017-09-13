@@ -1,0 +1,2596 @@
+*
+D208227F
+Adian no Tsue
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1986
+Developer: SunSoft
+Publisher: SunSoft
+_________________________
+*
+Adian no Tsue is an Adventure game, developed and published by SunSoft, which was released in Japan in 1986.
+
+http://www.gamefaqs.com/console/fds/home/578355.html
+*
+
+*
+769D55FC
+Adventure of Error
+Original title: Zelda II: The Adventure of Link
+Platform: The Family Computer Disk System
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure - Pr0n
+Gametype: Hack
+Release Year: 2004
+Players: 1
+Hacked by: Nesplayer
+Version: 1.0
+_________________________
+*
+After Ganon was destroyed, Link had a nervous break down that forced him into retirement. And evil portal opened up and let in horrible enemies to take over Hyrule. Only one man can save the princess. 
+
+Only one man has the girth and brain power for such a dangerous quest.
+
+That man is Error.
+
+Notes/Changes:
+
+- Error doesn't need a shield... his belly is a tough enough protection!
+
+- Error regains power by smelling farts.
+
+- Error is a very horny man. "He's on a quest for action.. in more ways than one!"
+
+- When he gets excited, Error often wets himself,
+causing his clothes to briefly change colors. (HINT: Find farts. Error also happens to be have a kinky obsession with them.)
+
+Controls: 
+
+Operations on the land map--
++ Directional Pad:
+Moves Error.
+
+Start:
+Game pauses/restarts.
+
+B Button:
+Play Flute.
+
+A Button:
+Use Hammer.
+
+Operations in Fight Scenes--
++ Directional Pad to the left or right:
+Moves Error.
+High attack.
+High belly block.
+
+Directional Pad pressed down:
+Come down from jump with a Downward Thrust.
+Low belly block.
+Low attack.
+
+Select Button:
+Use Magic.
+
+Start Button:
+Calls up Sub Screen.
+Raises Error's level when new Experience Level is reached.
+
+B Button:
+Swing sword.
+
+A Button:
+Jump.
+
+Operations in a town--
+Directional Pad to the left or right:
+Moves Error.
+
+Directional Pad up:
+For entering a house.
+
+B Button:
+Speak to townsfolk.
+
+http://www.romhacking.net/hacks/102/
+*
+
+*
+672B7F6C
+Aki to Tsukasa no Fushigi no Kabe
+Platform: The Family Computer Disk System
+Region: Japan (Unlicensed)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Developer: Super PIG
+Publisher: Super PIG
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+41A471B3
+Akumajou Dracula
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+*
+"Strangers in the night, exchanging grievous bodily harm . . ."
+
+As black clouds slither across the moon overhead, our hero straps on his tight leather outfit and swaggers towards the rusty gates before him. Just ahead lies an ancient castle, its ruined spires consumed by the darkness; before this night is through, he's going to subject its occupant to the crack of his whip and a violent end upon his hard wooden stake.
+
+But don't be afraid, this nocturnal miscreant is merely Simon Belmondo, lash-toting vampire hunter for hire, and he's setting off to fulfill his ancestral charge. You know the one: ridding the land of the dread Count Dracula and his legions of undying horrors dredged up from beyond the peace of the grave.
+
+That's right, this is a Castlevania game!
+
+In fact, it's the very same "Castlevania" that we all know and many love on the NES  save for few key differences, the most important of which will probably make you groan like one of its tortured shades. Accompanied by a radically different MSX2 adventure (a review for another day), this celebrated vampire-stalking franchise began right here with one of the best games developed for the ill-conceived Famicom Disk System. Fortunately AKUMAJOU DRACULA, like so many of that platform's gems  most notably the first two Zeldas and Metroid  was subsequently thrown onto the cartridge format, where it quickly proceeded to both delight and frustrate gamers throughout the rest of the world. Considering the popularity of the above titles, it's a good thing those honorable Japanese businessmen separated the wheat from the chaff, eh?
+
+Whichever version you choose to play, Simon's journey will take us through six challenging levels cloaked in a feeling of pervading gloom. True, today its visuals are threadbare even by 8-bit standards, but they're nonetheless suitably creepy with settings like the stone crypts that soon give way to a laboratory filled with ominous machinery, chained skeletons and piles of skulls. Particularly notable were the simple yet haunting melodies that struck a chord with us all for years to come as we slowly ascended desolate towers of reddish brick and deadly spike traps, or traipsed across the moonlit ramparts alongside ravens who perched atop the broken statues before giving flight and attempting to peck our hero's eyes out. Who can forget listening to the seminal tune "Vampire Killer" as one tread beneath the tattered red curtains and moldering walls of the first stage, whipping down groups of ghouls clad in ragged shrouds, and avoiding the panthers who would suddenly spring to their feet and lunge after us?
+
+Simon may not have a face, but he certainly has an atmospheric environment to blindly stumble about in.
+
+There's no shortage of eldritch creatures for him to slay while he's there, like the horrifying guardian of that first level  you'll fearfully stare into the baleful eyes of a hellish denizen spawned from deep within the foulest pits of the Abyss! Well . . . actually, it's a giant bat. 
+
+But they get better! Besides the Count, you'll fend off many of the classic staples of monsterography: the lanky Frankenstein, a pair of tightly-wrapped mummies, and of course our good friend, the scythe-wielding Grim Reaper. It even established a good number of staples of its own, be they the carnivorous mermen that shoot up from the murky waters deep below the castle or the deadly gears of the clock tower high above. And while you won't run into any peasant mobs brandishing torches, you will encounter plenty of flickering candles.
+
+Ah yes, the candles. In a fine example of Nintendo logic at work, these tallow sources of illumination that litter the walls in each and every hallway, occasionally suspended in midair, actually dispense the little red hearts that flutter down to feed your lethal arsenal. As you're no doubt aware, Simon can grab one of a small complement of sub-weapons that are frequently useful in various situations, armaments ranging from the axe that swings upward in a wide arc, to the fragile vials of holy water he lobs downwards to scorch the ground. Knowing when to take a new weapon you come across and when to keep what you already have often holds a noticeable influence over your success, as many bosses suffer from a profound weakness against a specific combination.
+
+There's also much to be found secreted away if you're thorough  not merely treasure bags, crowns, and moai heads worth major points (and thus, extra lives), but also Double Shots and life-replenishing meat hidden in the walls or the nondescript blocks underneath your boots, just waiting to be savaged open by your probing whip.
+
+You'll definitely need such things, as this game quite deservedly founded the series' early reputation for offering a potent challenge. Unfortunately, most of Akumajou Dracula's difficulty actually stems from its draconian controls. Simon can only whip something that's directly in front of him, and the attack first requires a few seconds for him to wind up before the enemy will finally taste its punishing sting. Moreover, this enemy will merely shrug off your repeated assaults until it finally bursts into flame; if you get hit, however, our hero will tumble three feet back with a muffled "oof," often careening backwards into a nearby bottomless pit that some sinister programmer thoughtfully placed there for your convenience. Speaking of which, any attempt to descend stairs adjacent to a ledge that's made without holding "down" on the crosspad will result in Simon plummeting to his doom; try a mighty leap up onto a staircase and he'll sail right through it.
+
+The most famous pratfall, however, is the fact that you can't control the direction of a jump once you've dared to hit the button, making it rather unwieldy to avoid moving objects and often sending you straight into the rotting arms of a hitherto unseen danger as the screen scrolls forward.
+
+Couple that with the enemies Dracula throws your way and you've got the makings of a throbbing headache. Medusa heads that wildly swoop across your path to knock you off a ledge or interfere with your struggles against the projectiles of axe-hurling knights, bone dragons that violently snake up and down while spitting fireballs, and bleached skeletons flinging their femurs all over the screen with reckless abandon . . . all of these follow definite patterns and probably wouldn't be all that tough under normal circumstances, but they're unusually treacherous thanks to Simon's cumbersome ineptitude. That's not solely the fault of the controls, either; in the later areas, he can only withstand a few hits before expiring. With only six levels, Akumajou is a pretty short game  but it doesn't much feel that way considering the patience it takes to master them.
+
+This is pretty significant, as one of the complaints I frequently hear levied against the domestic Castlevania (as well as spiritual sibling Ninja Gaiden) targets its lack of a password system. I certainly would have appreciated one myself way back then; instead most of us simply became very, very good at repeating the levels over and over again until we could trounce them in our sleep. The rest simply went insane, never realizing
+
+THE HORRIBLE TRUTH:
+
+Boot up this disk and you'll immediately notice a nice little name registration screen nestled within a border of tiny little skulls, each with a stake poking out of its bleeding eye socket. How cute, it looks just a grislier adaptation of the one you see in our battery-backed Zelda games. But wait . . . that would mean . . . yes, the Famicom Disk version allows you to SAVE YOUR GAME. You heard me, Simon's first outing was actually designed to let you pick up from whatever level you last met your demise in whenever you wanted to, but Konami removed the idea completely when they brought it over! Interestingly, Japan didn't get their own cartridge version of Akumajou Dracula until over half a decade later in 1993. That copy doesn't have a save feature either  it has an EASY MODE.
+
+But despite its faults, this is still a strong game, if a typically overrated one. Today the first Castlevania may find itself hopelessly overshadowed by nearly all of its descendants; later installments added stunning gothic visuals, increasingly focused on multiple characters and divergent exploration to complement the traditional action, and steadily chipped away at the original's difficulty until they actually became too easy. Their great granddaddy nevertheless stands out as one of the creepiest games to be found anywhere on the Famicom and retains both the evocative music and the classic gameplay elements that are still the series' trademarks. It's not the masterpiece that some might claim it to be, but neither is it a mere footnote for greater things to come. It's simply a game that, warts and all, is still pretty fun to play, plain and simple.
+
+Reviewer's Score: 7/10, Originally Posted: 07/15/04
+
+Reviewer: Tachibana Ukyo
+http://www.gamefaqs.com/console/fds/review/R76152.html
+*
+
+*
+A1CDD7CC
+Akuu Senki Raijin
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1988
+Developer: Micro Cabin
+Publisher: SquareSoft
+_________________________
+*
+Final Fantasy what? Here's one of the toughest Square games to track down in Japan.
+
+The 64DD wasn't the first time that Nintendo experimented with a magnetic disk format for game delivery. The 1986 Famicom Disk System used little yellow floppy disks to deliver 8-bit gaming goodness, and many famous game series like Castlevania, Zelda, and Mario had exclusive entries on the FDS. The advantages of the disk format were primarily cost-based: disks were cheaper than ROM carts, and once you got tired of a game, you could write a brand new one onto your existing disk by taking it to a store that had a Disk Writer.
+
+Making matters very complicated for collectors, many games were only released through the Disk Writer system, meaning that you couldn't buy the games in a brand new package in a store  you could only get them by having the game written to a disk at a participating location. The shopkeeper would put the stickers for the game right on the disk, and give you a slipcover and a monochrome printed sheet of paper with instructions. Prices started at around 500 yen, or $5.
+
+When I was living in Japan, I tried to collect all of Square's Famicom and Super Famicom releases. The only ones I could never track down were Akuu Senki Raijin and Moon Ball Magic, and I soon found out that this was because they were only released in the manner described above. The former is a shooter, the latter a pinball game. The other day, on a trip into Akihabara, I saw a copy of Raijin sitting in the glass showcase of a store called Liberty. At only 2000 yen or $20, it wasn't a bad deal, even though it didn't have the aforementioned instruction sheet.
+
+Hmm, now I think I'm just one game away from a complete Square Enix Famicom Disk System collection. Wonder if I can find Moon Ball Magic anywhere.
+
+http://www.wired.com/gamelife/2009/09/akara-senki-raijin/
+*
+
+*
+B4D032CA
+All Night Nippon Super Mario Bros
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+*
+All Night Nippon Super Mario Bros. is a 2D Platformer game, developed and published by Nintendo, which was released in Japan in 1986.
+
+http://www.gamefaqs.com/console/fds/home/925395.html
+*
+
+*
+0EB045BD
+Armana no Kiseki
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+*
+Armana no Kiseki is an Action game, developed and published by Konami, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578467.html
+*
+
+*
+7304E4C0
+Bakutoushi Patton-Kun
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1988
+Developer: Soft Pro
+Publisher: Soft Pro
+Players: 1
+_________________________
+*
+Bakutoushi Patton-Kun is an Action game, developed and published by Soft Pro, which was released in Japan in 1988.
+
+Needlessly drops the F-Bomb when loading the game.  ~Rx
+
+http://www.gamefaqs.com/console/fds/home/578635.html
+*
+
+*
+FCDB9FC9
+Big Challenge!: Dogfight Spirits
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1988
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+Players: 1
+_________________________
+*
+Big Challenge! Dogfight Spirits is a Shoot-'Em-Up game, published by Jaleco Entertainment, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/579339.html
+*
+
+*
+067EF486
+Big Challenge!: Gun Fighter
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1989
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+_________________________
+*
+Big Challenge! Gun Fighter is a Shoot-'Em-Up game, published by Jaleco Entertainment, which was released in Japan in 1989.
+
+http://www.gamefaqs.com/console/fds/home/579423.html
+*
+
+*
+058330FE
+Bishoujo Control
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1985
+Developer: SuperPig
+Publisher: SuperPig
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+FF74DA58
+Bishoujo Sexy Puzzle
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1985
+Developer: SuperPig
+Publisher: SuperPig
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+C0D538C0
+Boxxle: Warehouse Evening of Tears
+Original title: Namida no Soukoban Special
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Translated
+Release Year: 2001
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+*
+Spinner 8 will now proceed to review this game in the traditional GameFAQs manner. Please note that Spinner 8 loves Boxxle/Soukoban in all its forms, and isn't a slam against the game so much as it is a slam against just about the entire GameFAQs community. Fortunately, however, no one will ever EVER read this, so phew.
+
+Introduction:
+
+After playing classic puzzle games like DOCTOR MARIO and FANTASVISION, I suddenyl declared myself a Fan of puzzle games, and now I had to play all kinds of puzzle games because I am a hardcore puzzle game player!! I also like RPGS because I have played THE LEGEND OF DRAGOON. And I found this BOXXLE game at a flea market so I bought it, it's kewl and all but it doesn't stand a chance next to Puzzle games like FANTAVISION.
+
+
+Graphics: 1
+
+OMFG this game looks so crappy!! I know this game is for that Disk System thing and it was made in 1986, but wow guys, you need to put some more work into it!!
+
+
+Music &amp; Sound: 1
+
+The BOXXLE game has music that is just a bunch of boops and beeps!! And there's no sound fx at all, not even one I don't think!! The game makers really shouldve listened to BUST A MOVE, it has really kewl music.
+
+
+Challenge: 1
+
+This game is harrrrrrrd!! I give it a 1 because it is too challenging!!
+
+
+Gameplay: 1
+
+All you do is move around boxes, it's not fun because you just move around boxes. You don't get powerups, or combos and it's only one player!! And the more you walk around the more points you get, I got a really high score from just walking a lot, this is a really stupid way to get a high score.
+
+
+Story: 1
+
+There's no story in this game, you just move around boxes because you have to move around boxes, you don't know why.
+Replay Value: 1
+
+The game is never different when you play!! Every game you play the same rooms until you quit, why play a game if you already know how to beat it!! You can save your game I think but I don't think my emulator can do that I mean my NINTENDO can't do that, I hate pirates!!
+
+
+Overall: 1
+
+This game is totally dumb, I mean FANTASISION is so much Better than this game, it's to bad because BOXXLE could've been really good but it's not.
+
+
+Translation Description:
+
+I can only imagine that very little needed to be translated in this game. Note the gibberish in the above picture this looks like a problem with my own rom, due to FDSSpray sucking considerable ass.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/1/
+*
+
+*
+DE8FE836
+Breeder
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1986
+Developer: Soft Pro
+Publisher: Soft Pro
+Players: 1
+_________________________
+*
+Breeder is a Strategy game, developed and published by Soft Pro, which was released in Japan in 1986.
+
+http://www.gamefaqs.com/console/fds/home/578359.html
+*
+
+*
+C787A8FF
+Chisoko Tairiku Orudora
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Gametype: Licensed
+Release Year: 1987
+Developer: SunSoft
+Publisher: SunSoft
+_________________________
+*
+Chisoko Tairiku Orudora is a Miscellaneous game, developed and published by SunSoft, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578395.html
+*
+
+*
+E588C55E
+Clu Clu Land
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1992
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+*
+Clu Clu Land is an Action game, developed by Nintendo, which was released in Japan in 1992.
+
+http://www.gamefaqs.com/console/fds/home/922336.html
+*
+
+*
+F106F568
+Crystal Dragon
+Original title: Suishou no Ryuu
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure - Text
+Gametype: Translated
+Release Year: 2003
+Translated by: Mute
+Version: 1.0
+_________________________
+*
+Oh great, it's one of these things. You know, one of those text adventure games that nobody likes. I'm not trying to trivialize the genre or anything, but...well, the ability to really enjoy this type of game has more to do with a quality that one possesses - a virtue, if you will - that I unfortunately lack. Patience, I think it's called.
+
+If you, on the other hand, are a patient person who is also a fan of text adventure games...you're probably going to still be disappointed by Crystal Dragon. If you're wondering what it's like, think Snatcher, only without all the good stuff. That's pretty much it. The graphics are often laughably bad, the controls are unnecessarily obtuse (hold B and push left and right to flip through menu options? what the hell ever, man), and there's NO MUSIC. None whatsoever! Well, except for the blippy title screen piece, but that's it. Sound effects are pretty damned sparse, as well. In fact, the whole experience is about as basic and primitive as it can possibly be for a game of this type, which almost gives it sort of an endearing quality, but not quite.
+
+But hey, it's a Square game, so.
+
+Translation Description:
+
+Fully translated and playable in English from start to finish. It's a really good translation, too! Perhaps better than what this game deserves. But still...yeah.
+
+You might want to check out the readme, by the way, since it explains the game's controls, which aren't immediately obvious if you've never played it before. It also drops tantalizing hints at the possibility of getting to shoot people later in the game, which might inspire you to keep playing for another two minutes or so. SQUARESOFT!
+
+Reviewer: Sardius
+http://www.romhacking.net/trans/657/
+*
+
+*
+99671024
+Deep Dungeon: The Heretic War
+Original title: Deep Dungeon - Madou Senki
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Role Playing Game - First Person
+Gametype: Translated
+Release Year: 2006
+Developer: Square
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+*
+Deep Dungeon is a series of first-person RPGs that was developed by Square (but oft-published by other companies). The game is nothing much to write home about, the thing with first-person RPGs is that if you've played one, you've played them all, and this is no exception.
+
+Translation Description:
+
+This translation is complete.
+
+Reviwer: wraith
+http://www.romhacking.net/trans/613/
+*
+
+*
+C02D358B
+Dirty Pair: Project Eden
+Original title: Dirty Pair - Project Eden
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 1999
+Translated by: Ballz
+Version: 0.9
+_________________________
+*
+This game is a really bad game, that is only worth mentioning because it features.. TADA! The Lovely Angels! Maybe I'm too tough on the game (it came out over fifteen years ago, for God's sake), but it certainly doesn't hold up well in any case. The first stages are just your running and shooting things with your pistol stages. Sometimes you can grab a medallion thing and Kei can come in her little car thing and you can hop in and fly through the stage! And then you will get to the vaguely Metroid-ish base stage and you will get stuck and quit playing. So there.
+
+Translation Description:
+
+This translation is probably complete. I say *probably* because no one can beat the game and see if the ending text actually looks right. Yes, the game IS that impossibly frustrating, No, savestates will NOT save you. If you can beat the game, by all means, send a savestate or screenshot to Ballz so this can get a 1.0 and be moved to the "complete" list! Ballz has even made a FAQ on the game, so now you know as much as anyone else does!
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/2/
+*
+
+*
+2D1EC77C
+Dracula II: Noroi no Fuuin
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+*
+Dracula II: Noroi no Fuuin is a Horror Action Adventure game, developed and published by Konami, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578470.html
+*
+
+*
+D9E2F346, 0C5D7B83
+Dream World Doki Doki Panic!
+Original title: Yume Koujou Doki Doki Panic
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Translated
+Release Year: 2001
+Translated by: Vice Translations
+Version: 1.1
+_________________________
+*
+Doki! Doki! Panic is the game that Super Mario Brothers 2 was based on. When Nintendo released Super Mario Brothers 2 (The Lost Levels to us Americans) in japan, its popularity was eclipsed by this game, which came out at about the same time. So Nintendo in all their wisdom decided to hack some Mario characters into it and release it as SMB2 stateside. There\'s a few more differences than the character changes, though they don\'t really amount to much. Gameplay wise, this is almost exactly the same as SMB2, so if you\'re a fan of that game, or of the Mario series in general, you should give this one a whirl.
+
+Translation Description:
+
+Everything is translated, including the loverly ending. Rejoice!
+
+Reviewer: Silver X
+http://www.romhacking.net/trans/3/
+*
+
+*
+0BD5CE13
+Dreamiko
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+_________________________
+*
+Dreamiko is a Rhythm / Music game, developed and published by Konami, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578512.html
+*
+
+*
+E978A8AE
+Druid
+Platform: The Family Computer Disk System
+Region: Europe
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+_________________________
+*
+NOTE: Only works in NestopiaX
+
+No information online about this game. ~Rx
+*
+
+*
+B149EF10
+EggerLand
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1987
+Developer: HAL
+Publisher: HAL
+Players: 1
+_________________________
+*
+Eggerland is a Puzzle game, developed and published by Hal, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578372.html
+*
+
+*
+1C4AD090
+Eggerland: Souzouhe no Tabidachi
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1988
+Publisher: HAL
+Players: 1
+_________________________
+*
+Eggerland: Souzouhe no Tabidachi is a Puzzle game, published by Hal, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578641.html
+*
+
+*
+68CB5EF0
+Electrician
+Original title: Electrician
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 2001
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+*
+Being produced in Japan in 1986, I had very low expectations of this game. But God dammit, this is a fun game. Fun in that simple kind of way. You just run around, fixing all the wirirng in various buildings, making sure that inchworms, rats, and spiders don't undo your work. Occasionally, you have to stop the occasional looting, as well. And between levels, you have to run through the sewers of Washington and New York. Just don't ask me how you enter a building in Washington, and exit it in New York. Or even better, don't ask me how the building interiors are all decisively Japanese.
+
+Sure, it feels like any old-school Atari or arcade game. But that's what's great about this game. A little man runs around, wiring buildings and frolicking through sewers. Meanwhile you forget about all the troubles of the world. Great huh? At what point did videogames decide that we needed to do all sorts of thinking and remembering. Probably around when Reader Rabbit was released. Damn you Reader Rabbit. Damn you to HELL.
+
+Translation Description:
+
+Everything is translated, and the savegames are deleted! Hurray for deleted savegames!
+
+Reviewer: wraith
+http://www.romhacking.net/trans/5/
+*
+
+*
+05A5519F
+Esper Dream
+Original title: Esper Dream
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure
+Gametype: Translated
+Release Year: 2003
+Translated by: Mute
+Version: 1
+_________________________
+*
+This game is actually pretty cool, although given it's an extremely old FDS game so, as is typical for games of that time, you're not told much about what you're supposed to do. Your character is just a normal guy who likes books, and one day he's sucked into the book he's reading. See, the village he's reading about got attacked by five big evil monsters and the mayor's daughter got kidnapped, so now it's up to him to find eight-someodd weird items, kill the monsters, and rescue the daughter from the footprints that are walking all over the place.
+
+Speaking of, the footprints are the game's wandering monsters. Touch them and you're warped to a boxed-in battle scene where you run around and blast the bejesus out of whatever enemies happen to materialize. If you don't think you can win, you can try to guess which of the walls the exit will appear in and try to shoot it down. Combat's pretty fun overall, although in the beginning at least there isn't much for monster variety and they don't do much other than float/crawl/fly in your general direction.
+
+I never really did figure out quite what you're supposed to be doing (other than the above stated, anyway.) I managed to go through a few mini-dungeons, found a ring, a letter, and a weird blue box thing that didn't show up in my inventory. I gained a few levels and made it to the second (?) town. The game's honestly pretty fun, but it really basically just drops you into the world and says "GO DO STUFF" and while I'm normally fine with that, I just don't seem to have the patience I used to :/ Once you figure it out (and get around the insanely high-priced equipment) I imagine it gets quite a bit better.
+
+Translation Description:
+
+Translation's great, everything's done. Have fun!
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/656/
+*
+
+*
+FA860775
+Exciting Baseball
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Baseball
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+_________________________
+*
+Exciting Baseball is a Baseball Sim game, published by Konami, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578513.html
+*
+
+*
+AC7ED005
+Fairy Pinball: Yousei Tachi no Pinbal
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Developer: Hacker International
+Publisher: Hacker International
+Players: 1
+_________________________
+*
+I'm not kidding when I say that Video Pinball for the 2600 is far superior to this game. Choppy graphics and gameplay that defies physics make for a painful gaming experience. 
+
+When I finished the short game, that blonde girl with oversized blue eyes looked so sad for me and the size of my.... um score.
+
+Reviewer: Ressurectionx
+*
+
+*
+5442C889
+Falsion
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+*
+Falsion is a Shoot-'Em-Up game, developed and published by Konami, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578496.html
+*
+
+*
+8F25B303
+Famicom Golf: Japan Course
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Golf
+Gametype: Licensed
+Release Year: 1987
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+*
+Famicom Golf: Japan Course is a Golf Sim game, developed and published by Nintendo, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578378.html
+*
+
+*
+A02BB651
+Famicom Golf: US Course
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Golf
+Gametype: Licensed
+Release Year: 1987
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+*
+Famicom Golf: US Course is a Golf Sim game, published by Nintendo, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578433.html
+*
+
+*
+AF349626
+Famicom Grand Prix F1 Race
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1987
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+*
+Famicom Grand Prix F1 Race is a Formula One Racing game, developed and published by Nintendo, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578498.html
+*
+
+*
+85CDD2E9
+Famicom Grand Prix II: 3D Hot Rally
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1988
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+*
+NOTE: Only works in NestopiaX
+
+Ganon, the King of Evil, breaks free from the Dark World and captures Hyrule's beloved Princess Zelda. Before she is caught, Zelda manages to shatter the Triforce of Wisdom and scatter its eight pieces throughout Hyrule. Link swears to recover the Triforce pieces and rescue Princess Zelda from Ganon's clutches.
+
+http://www.gamefaqs.com/console/fds/home/578278.html
+*
+
+*
+90F4D3ED
+Family Composer
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Gametype: Licensed
+Release Year: 1987
+Developer: Tokyo Shoseki
+Publisher: Tokyo Shoseki
+Players: 1
+_________________________
+*
+Family Composer is a Rhythm / Music game, developed and published by Tokyo Shoseki, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578499.html
+*
+
+*
+4BB9F8B6
+Famimaga Disk Vol. 1: Hong Kong
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Publisher: Tokuma Shoten
+_________________________
+*
+Hong Kong is a Puzzle game, published by Tokuma Shoten, which was released in Japan in 1990.
+
+http://www.gamefaqs.com/console/fds/home/579583.html
+*
+
+*
+CBEF3928
+Famimaga Disk Vol. 2: Space Panic
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Publisher: Tokuma Shoten
+_________________________
+*
+Panic Space is a Puzzle game, published by Tokuma Shoten, which was released in Japan in 1990.
+
+http://www.gamefaqs.com/console/fds/home/579716.html
+*
+
+*
+A4CC702B
+Famimaga Disk Vol. 3: All One
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1991
+Publisher: Tokuma Shoten
+_________________________
+*
+All 1 is a Puzzle game, published by Tokuma Shoten, which was released in Japan in 1991.
+
+http://www.gamefaqs.com/console/fds/home/570523.html
+*
+
+*
+AB7EB51C
+Famimaga Disk Vol. 4: Clox
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1991
+Publisher: Tokuma Shoten
+_________________________
+*
+Clocks - Famimaga Disk Vol. 4 is a Puzzle game, published by Tokuma Shoten, which was released in Japan in 1991.
+
+http://www.gamefaqs.com/console/fds/home/570524.html
+*
+
+*
+A65568A9
+Final Lap
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Racing - Cars
+Gametype: Licensed
+Release Year: 1988
+Developer: Namco
+Publisher: Namco
+_________________________
+*
+Final Lap is a Formula One Racing game, developed and published by Namco, which was released in Japan in 1988.
+
+http://www.famicomworld.com/Games/Game.php?dbid=355
+*
+
+*
+2407415B
+Fire Bam
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1988
+Developer: HAL
+Publisher: HAL
+Players: 1
+_________________________
+*
+Fire Bam is an Action Role-Playing game, developed by HAL Labs and published by Hal, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578554.html
+*
+
+*
+9BA34C1E
+Fire Rock
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: System Sacom
+Publisher: Use
+Players: 1
+_________________________
+*
+Fire Rock is an Action game, developed by System Sacom and published by Use, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578598.html
+*
+
+*
+6804DCD5
+Fuuun Shaolin Kyo
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+_________________________
+*
+Fuuun Shaolin Kyo is an Action game, developed and published by Jaleco Entertainment, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578407.html
+*
+
+*
+B12193E3
+Fuuun Shaolin Kyo: Ankoku no Maou
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+_________________________
+*
+Fuuun Shaolin Kyo: Ankoku no Maou is an Action game, developed and published by Jaleco Entertainment, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578582.html
+*
+
+*
+546589AB
+Ghost Manor
+Original title: Youkai Yashiki
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Maze - Platformer
+Gametype: Translated
+Release Year: 2008
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+*
+This is a simple but fun little maze platformer for the FDS. You must find your way through several levels, searching for the flags so you can defeat various Japanese monsters. Only then will you be able to save your girlfriend. A port of an MSX game, this one has improved graphics and some new level design.
+
+This patch only translates the title screen, but that is believed to be the only Japanese text.
+
+http://www.romhacking.net/trans/1308/
+*
+
+*
+9AE119DE
+Gokuraku Yuugi: Game Tengoku
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1987
+Developer: Sofel
+Publisher: Sofel
+_________________________
+*
+Gokuraku Yuugi: Game Tengoku is a Board game, developed and published by Sofel, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578515.html
+*
+
+*
+E60874B0
+Golf: Bishoujo Classic
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Golf
+Gametype: Hack
+Players: 1
+Hacked by: Hacker International
+_________________________
+*
+Wow... what a great Golf game not. 
+
+Not that I've ever seen a Golf game that was better than Hal's Hole in One Golf for SNES, but this is crazy bad. I've never played a Golf game where you might have to put 3 times to reach the hole on the green if you're not close enough to it. Not to mention the 16 directions you can hit the ball doesn't exactly make for precision play. I started out good, but ended up 32 over par for the 9 holes. If you love excruciating gameplay with no payoff on the back end, look no furthrer. 
+
+All the while I was waiting for that sexy 8-bit golfgirl to show me some Japanime lovin for my troubles, but alas, no dice. 
+
+Oh... wait..... there it is, I think.... 
+
+Yes! After loading when you're done it looks like one piece of the pink background is available and I can see the Anime girl with pink hair lying down with her eyes closed. Is she naked? I can't tell.... it's just her face. My guess she is, given the other great FDS games brought to us by Hacker International. Guess you got to play and beat my 32 over par to find out. 
+
+Reviewer: Ressurectionx
+*
+
+*
+E7F0577B
+Green Beret
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+*
+Green Beret is an Action game, developed and published by Konami, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578404.html
+*
+
+*
+D2A68BDF
+Gyruss
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+*
+It's A.D. 2500 and mankind has penetrated the galaxy's fringes, establishing colonies of peace from Mercury to Pluto. Suddenly, the tranquility of the Milky Way erupts into a frothing fury as armadas of alien deathships swarm into our solar system like killer bees preying on an innocent bystander. No one is spared. Even beloved Mother Earth is stung. These vicious cosmic Visigoths are war starved Gyrusians. And, led by the immortal Genghis Khan (whom they recruited from Mongolia centuries ago), they're out to trash civilization. With our galactic fleet flattened, you're the lone space cowboy who escaped the Gyruss shroud of doom. Now you must scorch through the galaxy, freeing planets by zapping endless enemy attacks with Neo-Bomb-Blastic Cannons and Ultra-Lazonic Phasers. So prepare for the fight of your life. And don't flinch, or else the entire universe will get pulverized!
+
+http://www.gamefaqs.com/console/fds/home/922352.html
+*
+
+*
+08F9E8FC
+Halley Wars
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1989
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1
+_________________________
+*
+Halley Wars is a Shoot-'Em-Up game, developed and published by Taito Corporation, which was released in Japan in 1989.
+
+http://www.gamefaqs.com/console/fds/home/579395.html
+*
+
+*
+5A215391
+Hao-Kun no Fushigi na Tabi
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1987
+Developer: Carry Lab.
+Publisher: SquareSoft
+_________________________
+*
+Hao-Kun no Fushigi na Tabi is an Adventure game, developed by Carry Lab. and published by Square Enix, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578415.html
+*
+
+*
+7CA47B40
+Hot Slots
+Platform: The Family Computer Disk System
+Region: Japan (Unlicensed)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1991
+Developer: Hacker International
+Publisher: Panesian
+Players: 1
+_________________________
+*
+NOTE: Only works in NestopiaX
+
+Hot Slots is a Casino game, developed by Hacker International, which was released in Asia in 1991.
+
+http://www.gamefaqs.com/console/nes/home/587344.html
+*
+
+*
+6F812F99
+Jikai Shounen Mettomag
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1987
+Developer: Thinking Rabbit
+Publisher: SquareSoft
+_________________________
+*
+Jikai Shounen Mettomag is a Puzzle game, developed by Thinking Rabbit and published by Square Enix, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578448.html
+*
+
+*
+4F4AAB3D
+Kaettekita Mario Bros
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1988
+Developer: Nintendo
+Publisher: Nintendo
+_________________________
+*
+Kaettekita Mario Bros. is an Action game, developed and published by Nintendo, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/579358.html
+*
+
+*
+79A4D387
+Kamen Rider Black
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Bandai
+Publisher: Bandai
+Players: 1
+_________________________
+*
+Kamen Rider Black is an Action game, developed and published by Bandai, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578580.html
+*
+
+*
+23BEFAE6
+Kick and Run
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Soccer
+Gametype: Licensed
+Release Year: 1988
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1 or 2 VS
+_________________________
+*
+Kick and Run is a Soccer Sim game, developed and published by Taito Corporation, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/579331.html
+*
+
+*
+78A12D0A
+Kick Challenger Air Foot
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Vap
+Publisher: Vap
+Players: 1
+_________________________
+*
+Kick Challenger: Air Foot is an Action game, developed and published by Vap, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578508.html
+*
+
+*
+4C791779
+Kiki Kaikai: Dotou Hen
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+*
+Kiki Kaikai: Dotou Hen is an Action game, developed and published by Taito Corporation, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578469.html
+*
+
+*
+5149B663
+Kinniku Man: Kinniku Ookurai Soudatsu
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Bandai
+Publisher: Bandai
+_________________________
+*
+Kinnikuman: Kinniku Ookurai Soudatsusen is an Action game, developed and published by Bandai, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578414.html
+*
+
+*
+474B83C4
+Knight Move
+Original title: Knight Move
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Board Game
+Gametype: Translated
+Release Year: 2003
+Translated by: PentarouZero
+Version: 1.0
+_________________________
+*
+This game is... interesting. It's by Alexei Pazhitnov, the author of what is quite possibly world's most famous game ever, Tetris. That said, this is nothing like Tetris, and unfortunately it's not nearly as good or as addicting.
+
+The basic premise is simple. You're a Knight (you know, the Chess kind) and you move around a board trying to collect hearts. Of course, you can only move in the standard Knight's L-shaped pattern, which makes things difficult. Each time you land on a square, it'll turn blue. If it's already blue, it'll turn a darker shade of blue. If it's already that darker shade of blue, it'll disappear, and if you land on it again, you'll fall through and the game ends. Completing a round (either by collecting a single heart in A type or by collecting all of the hearts in B type) will cause all holes to be replaced by white tiles again.
+
+The main difference between A type and B type is that the heart in B type has a counter on it. It'll move after you make six jumps. This makes it a little more difficult, plus you have to collect multiple hearts to clear a round in B type. Yikes.
+
+The premise is simple enough, but unfortunately it doesn't really work well, in my opinion. It's alright in the beginning, but the game speeds up as you go - which it should, it needs to get harder - but the fact is that it ends up so fast by round 4 or 6 or so that you don't know where the hell the cursor is. Your little knight guy will be hopping merrily around, and you'll be pulling your hair out because you're trying to figure out where the hell the cursor's going to end up if you press left or right on the control pad. It almost seems to jump around at times, and that, in this game where the control scheme is literally just about the most important thing in the game, is what breaks it for me, I'm sorry to say.
+
+Translation Description:
+
+This patch behaves as advertised, fixing the spelling on Alexei's last name and translating the one song title. Of worthy note are the known issues mentioned in the readme, reproduced here for you lazy sods who probably wouldn't read it anyway:
+
+"Some emulators seem to "remember" FDS games, so if you have played the original unpatched version, it may still appear to be unmodified after patching. I don't know what the reason for this is, and I am entirely too lazy find out, but to get around this problem just rename the patched Knight Move disk image to something else."
+
+This happened to me, so it could happen to you! YES!
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/691/
+*
+
+*
+AC4ED201
+Konamic Tennis
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Tennis
+Gametype: Licensed
+Release Year: 1988
+Developer: Konami
+Publisher: Konami
+_________________________
+*
+Konamic Tennis is a Tennis game, developed and published by Konami, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578639.html
+*
+
+*
+0B3B5780
+Koneko Monogatari: The Adventures of Chatran
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Pony Canyon
+Publisher: Pony Canyon
+_________________________
+*
+Koneko Monogatari is an Adventure game, developed and published by Pony Canyon, which was released in Japan in 1986.
+
+http://www.gamefaqs.com/console/fds/home/578316.html
+*
+
+*
+23D325E5
+Lutter
+Original title: Lutter
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 2003
+Translated by: Mute
+Version: 1.0
+_________________________
+*
+Whoever thought crossing Lode Runner with Hydlide must have been wasted out of his mind. Oddly though, it works out pretty nice. You're a guy who runs around in this dungeon, I don't know why. You can't jump, which makes your running-around options kind of limited. There's monsters running around too, which you attack by (get this) running into them. Get enough experience from running into monsters, and you go up a level. You can also find equipment scattered around the place, which improves your abilities as well as making you look cooler.
+
+Honestly, that's pretty much it.
+
+Translation Description:
+
+Well it doesn't look like there was much to translate in the first place, but what IS translated is nice enough to be indistinguishable from the rest of the English text that was in the game to begin with. And really, what more could a translator want?
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/658/
+*
+
+*
+4A3E7F59
+Mato no Hokai: The Hero of Babel
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Gametype: Licensed
+Release Year: 1988
+Developer: Pony Canyon
+Publisher: Pony Canyon
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+B488B769
+Meikyuu Jiin Dababa
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+*
+Meikyuu Jiin Dababa is an Action game, developed and published by Konami, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578420.html
+*
+
+*
+8EAA8991
+Metroid
+Original title: Metroid
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Action - Platformer - Side-Scrolling
+Gametype: Translated
+Release Year: 2001
+Translated by: AlanMidas
+Version: cant.hack
+_________________________
+*
+Poor, poor America. We never had the luxury of the Famicom Disk System, like in Japan. We were forced to use passwords and battery saves. BAH! Disk games such as Metroid could have their data saved directly on the disk for easy retrieval, but everyone else in the world had to use PASSWORDS! Bah! Hmph. Oh! Anyway this is the same ol oldskewl game that everyone loves. Now you can save your game! And because the FDS had an extra sound channel, a lot of the tunes now sound super sweet. Go try it out at least.
+
+Translation Description
+
+If you get the "ERR 07" error, what is most likely the case is that your emulator doesn't support writing to the disk image. So, you can't save. Use a different emulator.
+
+Anyways, there ain't much text in Metroid, but what is there is in English. So enjoy the game. Or you can just beat Metroid Fusion. Wahahaha!
+
+Reviwer: Spinner 8
+http://www.romhacking.net/trans/6/
+*
+
+*
+B199123A
+Michael English Daibouken
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1987
+Developer: Scorpion Soft
+Publisher: Scorpion Soft
+_________________________
+*
+Michael English Daibouken is a Miscellaneous game, developed and published by Scorpion Soft, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578435.html
+*
+
+*
+094ACC80
+Mobile Police Patlabor
+Original title: Kidou Keisatsu Patlabor
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 2003
+Translated by: Vice Translations
+Version: 1.0
+_________________________
+*
+Patlabor's an anime. As you can imagine, it involves giant robots fighting things, or something. I don't know, I only saw one episode, and apparently it had nothing to do with the series because it was pretty funny, but it didn't make any sense. And that's my Patlabor story.
+
+This game is pretty standard FDS fare, you walk to the right and hit things with your sword, uhh, I mean your police baton or something. Or if you don't like your baton, you can always just shoot them. Haha, kinda funny if you think about it!
+
+Also there's a whole bunch of powerups that I don't know what the hell they do.
+
+Translation Description:
+
+This game of course uses the famous Kitsunefont that, while it might not have been made by him, has at least been mainstreamed and popularized by him. Must be a pretty good font, I reckon.
+
+Not much needed translating (it's a crappy FDS sidescroller for God's sake), but it's there and in English and stuff. There's a bug in the text when you restart a level after continuing, but it's not a big deal. Bleh.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/751/
+*
+
+*
+F64B9547
+Moero Yakyuuken
+Original title: Moero Yakyuuken
+Platform: The Family Computer Disk System
+Region: Pirate (Japan)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 2002
+Version: 0.99; August 22, 2002
+_________________________
+*
+Game Review (By Spinner 8):
+
+Well, for a pirate game, it's not all that bad... Aw hell who am I kidding, the game's really bad. It's a strip janken game. Janken's just a fancy Japanese word for rock-paper-scissors I think, but janken's easier to type. The whole "strip" part of the game is, for every match you lose, you take off an article of clothing. Woo! For every match you win, Emi (the girl you play against) takes off an article of clothing. WOO! For every match you tie, Emi puts back on an article of clothing. WHAT?! Yeah, it's a pirate game, no one said it had to be fair.
+
+What's even more unfair is, once you get Emi down to like, four articles of clothing, you have to win three times against various barnyard animals. Win three times against a barnyard animal, win against Emi, she loses another article of clothing. Win three MORE times against another barnyard animal, win against Emi, she loses another article of clothing. So yeah, the match is pretty easily stacked in her favor, wouldn't you say? Too bad you don't have any mammals lying around to protect YOU in your strip janken game. Maybe Emi has magical telekinetic animal-summoning powers, but still, it doesn't mean that these guys can interrupt my game. I want to see boobies it!
+
+So yeah, just use up and down to cycle through the different hands, and hit A to choose what you want. Yeah, really complicated. Just go play the game now.
+
+Translation Description:
+
+Despite this being a crappy porn game, a lot of work went into this translation. Since there wasn't enough space on-screen to show all the text, an ASM hack (or two) was made to expand the available text to three times what it once was. As a result, the text was moved into the upper-right corner, so things will look weird sometimes, like when you get a game over or something. But it's not a big deal, because we finally, finally, have this game in English for everyone to love and enjoy, and then forget about.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/587/
+*
+
+*
+36094115
+Monitor Puzzle: Kinetic Connection
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1986
+Developer: Irem
+Publisher: Irem
+Players: 1
+_________________________
+*
+Kineko is an innovative little puzzler where you have a moving picture broken into rectangular tiles, and your job is to reconstruct it based on what you can see. You can rearrange the possible tiles however you want in the puzzle above, and you may need to flip them vertically or horizontally. While this seems outrageously taxing the first time you play it, you will soon earn that there is evidence you can rely on to test what should go where.
+
+The game has an hour in the "best time" list, and if your mind wanders or you get frustrated, it will be necessary. Still, if you keep your head and focus on one part of the puzzle at a time, you should do okay. The game also allows for if you oriented the puzzle incorrectly.
+
+Reviewer: ASchultz
+http://www.gamefaqs.com/console/fds/file/578334/51205
+*
+
+*
+746F76B0
+Monitor Puzzle: Kinetic Connection II
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1987
+Developer: Irem
+Publisher: Irem
+Players: 1
+_________________________
+*
+Monitor Puzzle: Kinetic Connection II is a Puzzle game, published by Irem, which was released in Japan in 1987
+
+http://www.gamefaqs.com/console/fds/home/578387.html
+*
+
+*
+F37893B9
+Monty on the Run
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1987
+Developer: Jaleco Entertainment
+Publisher: Jaleco Entertainment
+Players: 1
+_________________________
+*
+That's a mighty crappy platformer that you're starring in there Bluebeard...
+
+Reviewer: Ressurectionx
+*
+
+*
+7C61B94D
+Moonball Magic
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1988
+Developer: System Sacom
+Publisher: SquareSoft
+Players: 1
+_________________________
+*
+Moon Ball Magic is a Pinball game, developed by System Sacom and published by SquareSoft, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578615.html
+*
+
+*
+31DC1C4A
+Otocky
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: ASCII Entertainment
+Publisher: ASCII Entertainment
+Players: 1
+_________________________
+*
+Otocky is a Rhythm / Music game, developed and published by ASCII Entertainment, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578393.html
+*
+
+*
+65E47753
+Pachi Com
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Casino
+Gametype: Licensed
+Release Year: 1988
+Developer: Shouei
+Publisher: Toshiba EMI
+_________________________
+*
+Pachicom is a Casino game, developed by Shouei and published by Toshiba EMI, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/579337.html
+*
+
+*
+9902AA6F
+Panchinko Grand Prix
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1988
+Publisher: Data East
+_________________________
+*
+Cool little pinball type game.
+*
+
+*
+5B273E7F
+Papillon Gals
+Platform: The Family Computer Disk System
+Region: Unlicensed
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1989
+Developer: Hacker International
+Publisher: Sachen
+_________________________
+*
+No information online about this game.  ~Rx
+
+http://www.er.uqam.ca/merlin/fd491499/nintendo/nes/hackerinternational/papillon/
+*
+
+*
+6E390A75
+Pretty Girl's Sexy Derby
+Original title: Bishoujo Sexy Derby
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1999
+Translated by: Spinner 8
+Version: 1.3
+_________________________
+*
+This game plays like crap, and involves incessantly mashing the A button to move your horse forward, and you always lose anyways (unless you've got some Turbo thing enabled). So, it's a typical hentai game in that respect. Once you win a certain amount of money, the chick you chose takes off a little bit of her clothes, and.. yeah. Anyway, that's the game for you. Sounds like tons of fun, right? Well it's not.
+
+Translation Description:
+
+This translation's first release essentially translated all the Japanese verbatim, so it ended up sounding pretty dumb. The new 1.3 release goes back in and cleans up almost every text string so it actually makes sense. Also the hidden bonus text was reworded, cause stupid Japanese puns are not fun to translate.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/7/
+*
+
+*
+E269FCA3
+Reflect World
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1987
+Developer: East Cube
+Publisher: East Cube
+_________________________
+*
+Reflect World is a Shoot-'Em-Up game, developed and published by East Cube, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578430.html
+*
+
+*
+7B9A7A32
+Relics: Ankoku Yousai
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Bothtec
+Publisher: Bothtec
+_________________________
+*
+Relics: Ankoku Yousai is an Action game, developed by Bothtec and published by Bottom Up, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578406.html
+*
+
+*
+E0DA43F8
+Replicart
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+*
+Replicart is an Action game, developed and published by Taito Corporation, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578556.html
+*
+
+*
+FC2E653E
+Riddle of Murasame Castle
+Original title: Nazo no Murasamejou
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 2002
+Translated by: Spinner 8
+Version: 1.0
+_________________________
+*
+Game Review (By Spinner 8):
+
+You're a samurai. You throw a lot of things though, which to me would make you more akin to a ninja. Maybe you're a samurai-ninja hybrid. Or! You're a ninja, disguised as a samurai! Very clever, those ninjas! There's no real plot, so you're just fighting for no reason. Maybe you're out to reclaim your ninja clan from the evil hand of your rival. Maybe you're out to avenge the death of your entire clan by your twin brother in your rival clan. Ooh, or maybe your master was killed! And you have to avenge his death! My my, I love ninjas.
+
+Anyways, you fight, like, thousands of other ninjas, and you can throw things, like shurikens, or knives, or some kind of fire thing, at them. And if you get close enough, you can attack them with your sword. You can even deflect most projectiles with your sword! Pretty badass! The first part of the stages consists of you fighting in the countryside. The second part is in the castle, where you fight even more ninjas, kill the boss and, I assume, liberate the surrounding area.
+
+Ummm, that's pretty much it.
+
+Translation Description:
+
+Everything is complete! And doesn't that title screen rock?
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/628/
+*
+
+*
+33CF8AE8
+Roger Rabbit
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1989
+Developer: Kotobuki Systems
+Publisher: Kemco
+_________________________
+*
+Roger Rabbit is a 2D Platformer game, developed by Kotobuki Systems and published by Kemco, which was released in Japan in 1989.
+
+http://www.gamefaqs.com/console/fds/home/579409.html
+*
+
+*
+A6B85A58
+Sailor Fuku Bishoujo Zukan: Volume 1
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1989
+Developer: Hacker International
+Publisher: Mimi Pro
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+DA347669
+Sailor Fuku Bishoujo Zukan: Volume 3
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1989
+Developer: Hacker International
+Publisher: Mimi Pro
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+A887BC15
+Sailor Fuku Bishoujo Zukan: Volume 4
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1989
+Developer: Hacker International
+Publisher: Mimi Pro
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+C09721A9
+Sailor Fuku Bishoujo Zukan: Volume 5
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1989
+Developer: Hacker International
+Publisher: Mimi Pro
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+69B6AFED
+Sailor Fuku Bishoujo Zukan: Volume 6
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1989
+Developer: Hacker International
+Publisher: Mimi Pro
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+F5420F86
+Samurai Sword
+Original title: Samurai Sword
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure - Graphic
+Gametype: Translated
+Release Year: 2003
+Translated by: Mute
+Version: 1.0
+_________________________
+*
+Samurai Sword is a graphic adventure title, similar to Shadowgate or Uninvited. Your character is the last remaining warrior who's fighting against the dark priest Soron, and the game opens with you getting your ass handed to you. You wake up in a forest filled with elves, crazy old geezers, a barkeeper and his daughter. And a bird. Yes, one bird.
+
+Still, I've got a soft spot for graphic adventure titles, and as far as the genre goes I've played much worse. The graphics are decent, the puzzles are fairly intuitive - I never got stuck for more than five or ten minutes, they're mostly pretty easy - and although the music can get a little repetitive at times, it's easy enough to tune it out. It even manages to add a few "fights" to it! I played through the entire first area - the forest - in about half an hour or so, and saved at the start of the second area - a desert - when the game gave me ERR 07 which no doubt was because I hadn't yet figured out NNNesterJ's FDS disk swap keys. I'll probably go back to it now that I know what they are, though! It really is a decent little game, I strongly recommend it!
+
+Translation Description:
+
+Mute's patch is excellent as usual, and for a game that's as text-heavy as this, it really shows! Good job!
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/699/
+*
+
+*
+C867DCF5
+Santa Claus' Toybox
+Original title: Santa Claus no Takarabako
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Casino
+Gametype: Translated
+Release Year: 2003
+Translated by: Gil Galad
+Version: 1.01
+_________________________
+*
+Santa Claus no Takarabako: Possibly the strangest release from Data East evar. It's actually two things in one; a computerized christmas card, and that great staple of every traditional christmas, gambling games.
+
+The card section allows you to choose from three different backgrounds, three songs, and you can type in your own scrolling message, and even redraw the walking Santa to whatever you want. Basically, this offers you 10 to 20 minutes of semi-enjoyable time killing.
+
+Sadly, this is the pinnacle of fun for the game. The gambling, or "Party Games" as they're called, require basically no skill whatsoever to play. You hit A, and the cards fall as they may. You have a Slot Machine, Roulette Wheel, some strange Bingo game, and a dice game I can't comprehend.
+
+All of these games are hard as hell, too; I think ol' Santa's got his casino rigged. After 10 minutes of getting the worst luck ever, I finally just quit. Santa's pretty greedy when it's money on the line, I guess.
+
+Translation Description:
+
+The translation is good, with no grammatical or technical errors. Note that while this isn't the final version (A new title screen is being designed), for all intents and purposes it is complete.
+
+Reviewer: Silver X
+http://www.romhacking.net/trans/752/
+*
+
+*
+2DB7A34D, A0887210
+SD Gundam World: Scramble Wars
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1988
+Publisher: Bandai
+_________________________
+*
+SD Gundam World: Gachapon Senshi - Scramble Wars is a Sci-Fi Turn-Based Strategy game, published by Bandai, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578543.html
+*
+
+*
+C419DEDF
+SD Gundam World: Scramble Wars - Map Collection
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1989
+Publisher: Bandai
+_________________________
+*
+SD Gundam World Map Collection is a Strategy game, published by Bandai, which was released in Japan in 1989.
+
+http://www.gamefaqs.com/console/fds/home/579421.html
+*
+
+*
+747FD83C
+Seiken Psychocalibur
+Original title: Seiken Saikokaribaa (Majuu no Mori Densetsu)
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure
+Gametype: Translated
+Release Year: 2000
+Translated by: Spoony Bard
+Version: 1.0
+_________________________
+*
+Alright. First things first. This is not a Seiken Densetsu ("Secret of Mana") game. Yes, it says Seiken in the title, but that does not make it Seiken Densetsu. Okay, now that I've gotten that out of the way...
+
+Seiken Psycho Calibur is a Zelda clone for the Famicom Disk System (Hence, you need Famtasia or fwNes to emulate this game). It's your classic over-head view hack and slash adventure. It's pretty decent, but it lacks the character of Zelda. And it tries so hard to be like Zelda, too. The play mechanics are like Zelda, the enemies seem like something out of Zelda, even the screen scrolls EXACTLY like it does in Zelda. But the plot isn't that very interesting ... there's no hook. Sure, there's this Demon-thing trying to take over the country. But the situation doesn't seem all that desperate, and the side quests just don't have much to draw you into the game. Where's my MOTIVATION, dammit!?!?
+
+But, my opinion is being swayed by the likes of Final Fantasy IX and Shen Mue, so it may be a bit loaded right now. No. It IS a bit loaded. There's definitely no maybe involved.
+
+Translation Description:
+
+Toma has translated everything in the game! And the title screen, as always, is very pretty.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/8/
+*
+
+*
+963B047C
+Sexy Invaders
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Release Year: 1985
+Developer: Super Pig
+Publisher: Super Pig
+Players: 1
+_________________________
+*
+No information online about this game.  ~Rx
+*
+
+*
+F42B45D8
+Silviana
+Original title: Silviana (Ai Ippai no Boukensha)
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Gametype: Translated
+Release Year: 2002
+Translated by: Mute
+Version: 1.0
+_________________________
+*
+Silviana is an Ys clone for the FDS. You play as this girl named Silviana who's looking for medicine for her sick mom. The graphics are pretty, the story is decent if fairly plain, and the game is hard as all hell. Allow me to explain...
+
+First of all, you don't gain levels, you have to find powerups. That's not so bad, to be honest, but it really could work better. In fact, it would work better if combat were more true to the standard Ys gameplay - there SEEMS to be no avoiding taking damage when you slam through an enemy in an attempt to destroy 'em. I've managed it once or twice, to be honest, but it seems to be exceedingly random. This means that, at the beginning of the game, you can take out 30 enemies or so before Silviana is toast. When you get into the cave, the damage the enemies do approximately triples and you're extremely lucky if you survive past the third or fourth screen.
+
+I'm afraid I didn't play too far in it, so I'm probably not the best person to review it, but the rather steep difficulty curve turned me off early. Who knows though, you might be better at it, or maybe it's just NNNesterJ running kinda choppy for me. It's worth a shot anyway, just to see if you like it or what.
+
+Translation Description:
+
+I didn't play the patch very far (mainly because I got torn to pieces three screens into the cave) but for Mute's first project it's done exceptionally well. Let's hope we see more quality work in the future!
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/616/
+*
+
+*
+D4DAAFFC
+Smash Ping Pong
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Sports - Tennis
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Publisher: Nintendo
+Players: 1 or 2 VS
+_________________________
+*
+Smash Ping Pong is a Sports game, developed by Konami and published by Nintendo, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578419.html
+*
+
+*
+A360FD38
+SMB Paradyce2j
+Original title: Super Mario Brothers 2
+Platform: The Family Computer Disk System
+Region: Japan (Update Hacks)
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2006
+Hacked by: insectduel
+Version: 1.0
+_________________________
+*
+A graphics upgrade for Super Mario Bros. that brings the graphics up to the style seen in Super Mario Bros. 2 the American Version that substitutes the original version of this game. There are various graphic patches. This patch can only be patched without graphic and TSA changes.
+
+http://www.romhacking.net/hacks/223/
+*
+
+*
+6F0656C4
+Smb2jplus 2
+Original title: Super Mario Brothers 2
+Platform: The Family Computer Disk System
+Region: Japan (Update Hacks)
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2007
+Hacked by: insectduel
+Version: 1.0
+_________________________
+*
+The remake version of SMB1's Lost Levels 2 only with neater levels and no crazy or glitchfest levels like the last SMB2J Plus. This hack was orginally finished on May 2007. View the Readme on how I got this idea. The author Mysticgokou is the orginal creator of the Lost Levels 2.
+
+http://www.romhacking.net/hacks/374/
+*
+
+*
+9237E34B
+Super Boy Allan
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1987
+Developer: SunSoft
+Publisher: SunSoft
+_________________________
+*
+Super Boy Allan is a Miscellaneous game, developed and published by SunSoft, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578394.html
+*
+
+*
+9F8BB21B
+Super Lode Runner
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Irem
+Publisher: Irem
+Players: 1
+_________________________
+*
+Super Lode Runner is an Action Puzzle game, published by Irem, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578389.html
+*
+
+*
+758888F4
+Super Lode Runner 2
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1987
+Developer: Irem
+Publisher: Irem
+Players: 1
+_________________________
+*
+Super Lode Runner II is an Action Puzzle game, published by Irem, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578468.html
+*
+
+*
+E0890CF2
+Super Mario Brothers
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 or 2 Alternating
+_________________________
+*
+Super Mario Brothers is a 2D Platformer game, developed by Nintendo, which was released in Japan in 1986.
+
+http://www.gamefaqs.com/console/fds/home/578277.html
+*
+
+*
+F04CD4CD
+Super Mario Brothers 2
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+*
+"YES!!! I'm at the final Bowser!! Now all I need to do is jump over this fire chain and-AUUUUGGGGGHHHH!!!! NOOOOOOOO!!!!"
+
+The year is 1986, in Japan. Your fans are bloodthirsty for a sequel to the wildly successful Super Mario Bros. It has been three years since Super Mario Bros. was released (in Japan.)
+
+The good folks at Nintendo finally notice this, and Miyamoto starts work on his latest creation. A game with the exact same storyline as the original, only with improved graphics, new items and enemies, and five times as hard!!!!
+
+THE MUSHROOM KINGDOM IS NO LONGER THE LAND OF MILK AND HONEY.......
+
+This is classic Mario gameplay, folks. For those of you who have never played the original Super Mario Bros., you don't know what you're missing. It's the exact same concept as the original: maneuver your li'l on-screen Mario to the end of each level, where you will jump onto a flagpole and continue onto the next level. Getting there won't be easy, however: various enemies such as the walking mushroom Goomba and the somewhat awkward Koopas will try to stop you at every turn.
+
+There are four levels in a world, eight worlds in all......but wait!!! If you can finish the game without dying (insane), you can unlock five additional worlds! At the end of each world, you will have a showdown with the King Koopa himself, known as Bowser. If you hustle your butt past Bowser before he jumpsbreathes fire on you, you can grab an axe that will cause Bowser to fall into the lava below. But it's not the real Bowser, it would seem, as instead of finding the Princess behind Bowser, you will find an annoying Mushroom Retainer who will tell you that ''Our Princess is in another castle.''
+
+Now, for those of you who have already played Super Mario Bros., you ain't seen nothin' yet.
+
+The first thing you will notice as you boot up the game for the first time is how easy it is to get a Game Over on level 1-1. I know I sure did. But knowing that you got a Game Over on the first level just makes you so frustrated that you go back and try again. You may get to level 3-1, and unexpectedly find a Warp Zone! You may jump for glee, only to find that it is one of the many 'Yer Screwed Zones' in the game, as you go all the way back to 1-1. The difficulty of this game is ridiculous. It's on par with such games as Battletoads, Contra III, and StarCraft. Funny thing is, this game was released years before any of those classics.
+
+I SAID JUMP!!!! WHY DON'T YOU LISTEN TO ME!? *snap*
+
+The controls are VERY simple: A to jump, B to run and throw fireballs, D-Pad to move and duck, and Start to pause.
+
+However, I would reccomend buying a few extra controllers with this game; they are somewhat easy to break after getting that twentieth Game Over. Level design is, in fact, superior to the original Super Mario Bros. You'll actually have to solve puzzles (which pipe to take, how to get across that gigantic pit, etc.) in this game, something notably missing from pretty much every other 2D Super Mario game. You'll also have to pull off stunts that you never had to accomplish in the original, such as timing a jump so you bounce off a Paratroopa, thus landing safely on the other side of a crevasse. In another level, you'll have to find hidden blocks to get up to a walkway that stretches to the top of the screen. There are pits on the walkway that you must do a running jump over, but you can't see your position. The new items and enemies are welcome. The Super Spring lets you float above the screen for 10 seconds or so, and the Poison Mushrooms make you shrink instead of grow.
+
+Thus, you have to see what kind of Mushroom is coming out of a block before you grab it. Flying Bloopers are there to annoy you in the platforming levels, and Red Piranha Plants move twice as fast as their green counterparts.
+
+DOO DOO DUH D-D-DUH, DOO! *Mario enters pipe*
+
+The graphics are slightly improved over Super Mario Bros. All the character sprites look the same, but the backgrounds are a bit more detailed than they used to be. Not much else to say here, other than that they look positively prehistoric today. The music and sound effects are also exactly the same as in the original. Not that I'm complaining. The main overworld theme is a timeless classic that never seems to get old. The underwater theme is a series of low and high notes, to simulate the swaying of a ship, I guess. The castle theme is an ominous, upbeat tune that really makes you grit your teeth after awhile. It almost seems to make you WANT to kill Bowser and take back the Princess. The Super Star theme has been used in every Super Mario game, and for good reason. I like to call it 'The Tune of Death.' However, the best song in this game is the Underground Theme. This simple song fits the atmosphere unbelievably well, and was the turning point in my desicion to give this game a 9 instead of an 8.
+
+STRONG POINTS:
+
+-Lots of fun
+-Music is awesome
+-Two-player mode
+-Fans of Super Mario Bros. will be instantly at home with this
+-New items and enemies are cool
+-It's a Mario game, people. C'mon!
+
+WEAK POINTS:
+
+-Shelling out the money for extra controllers
+-Obscene difficulty may turn off casual gamers
+-Released in Japan only
+-Same pathetic storyline
+
+This game shouldn't be too hard to find on eBay or Funcoland. If you can find it, buy it. Phediuk out. 
+
+Reviwer: Phediuk
+http://www.gamefaqs.com/console/fds/review/R38982.html
+*
+
+*
+9F80CB9B
+Sword of Kalin
+Original title: Kalin no Tsurugi
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2005
+Developer: Square
+Publisher: Square
+Translated by: filler, KingMike's Translations,
+Version: 1.0
+_________________________
+*
+Sword of Kalin (or Kalin no Tsurugi if you're Japanese, (or Karin no Ken if your Gamefaqs)) was Square's first foray into the world of RPGs on the NES. For a game released in 1987, it isn't too bad. It has elements of many "staple" RPGs in it's gameplay (read: derivitive), but that doesn't make it boring, even by today's standards.
+
+The game plays kind of like a cross between Ultima, Ys, and Dragon Warrior. Enemy encounters and exploration occur much as they do in Ultima: you explore the world one screen at a time, and running into an enemy takes you to a battlefield. On the battle field, you run into things kamikaze style, a la Ys. The menu interface is very much like Dragon Warrior.
+
+It makes for an interesting blend and will certainly give you something to do when you're feeling bored very "1987? on a given evening, and don't feel like beating Dragon Warrior for the 27th time.
+
+Translation Description:
+
+Well, most everything is translated and bug-free, excepting a minor issue that occurs sometimes when you use way more healing potions than you would ever need to.
+
+Filler and satsu handled the scripts, and KingMike handled the translation. Congratulations to KingMike! This translation marks the four-year anniversary of his group.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/887/
+*
+
+*
+4C6AF0C5
+Tama &amp; Friends: 3 Choume Dai Bouken
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1989
+Developer: Bandai
+Publisher: Bandai
+_________________________
+*
+Tama and Friends is an Action game, developed and published by Bandai, which was released in Japan in 1989.
+
+http://www.gamefaqs.com/console/fds/home/579410.html
+*
+
+*
+7BF73C75
+Topple Zip
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1987
+Developer: Bothtec
+Publisher: Bothtec
+_________________________
+*
+Topple Zip is a Racing game, developed and published by Bothtec, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578495.html
+*
+
+*
+8BD904CD
+Transformer: The Head Masters
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1987
+Developer: Takara
+Publisher: Takara
+_________________________
+*
+Transformers: The Head Masters is a Shoot-'Em-Up game, developed and published by Takara, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578471.html
+*
+
+*
+9FF61360
+Ultraman: Kaijuu Teikoku no Gyakushuu
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Publisher: Bandai
+_________________________
+*
+Ultraman: Kaijuu Teikoku no Gyakushuu is an Action game, published by Bandai, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578371.html
+*
+
+*
+FEBE1841
+Vs Excitebike
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Racing - Motorcycles
+Gametype: Licensed
+Release Year: 1986
+Publisher: Nintendo
+Players: 1
+_________________________
+*
+"A near perfect port of the VS arcade version."
+
+Excitebike was originally released as an arcade game in 1984, and eventually ended up on the Nintendo Famicom home console. The home console version was not quite as faithful to to the VS arcade version. This updated port for the Famicom Disk System version is more true to the arcade version, and includes a bit extra. This enhanced version was never released outside Japan.
+
+Story - 6/10
+The original arcade version didn't really feature a story and neither does the FDS version, it's basically a motorcycle stunt race where you must qualify in each event to pass through to the next round.
+
+Presentation/Graphics - 7/10
+The game's presentation isn't like the arcade version but it presents a nice and colourful title screen that looks pleasing. The menu options are easy to navigate and are in English despite being a Japanese game.
+
+The game's visuals are on par with the original Famicom version and the intermission and reward scenes are faithfully adapted from the Vs version. The visuals are of the quality seen in many first generation Famicom titles - basic colors and uncomplicated track design.
+
+Gameplay - 8/10
+The game is a side scrolling motorcycle stunt race viewed on a 2.5 degree playfield. Move your bike vertically across the playfield while advancing and negotiating jumps, ramps, dirt traps and avoiding the other racers. The game consists of solo time trial events where you must make the qualifying time by yourself, then replay the track with up to 6 other competitors on screen. The games difficulty gradually increases as you advance. Some bonus stages are scattered throughout where you must jump over train carriages.
+
+Apart from making it across the jumps you must carefully monitor your bikes temperature gauge. When riding in turbo speed you temp gage can overheat if you're not careful and you lose valuable time waiting for the engine to cool down. The alternate acceleration mode is slower but prevents the engine overheating. There are indicators on the track that will cool down the temp when you ride over them, but you can save a lot of steam by letting got of the accelerator all together when flying mid-aim after jumping off a ramp.
+
+The other racers will get in your way but you can knock them off by cutting across them and hitting their front tires. This can also happen to you and you'll get knocked off and lose race time.
+
+Multiplayer - 5/10
+The game features the original arcade gameplay with alternate 2 player mode, and a new VS battle mode with split screen gameplay. Both players compete in a vertically split screen race, that can be decided by a number of rounds on various courses. Best lap times can be saved to the disk.
+
+Control - 9/10
+Nothing really problematic here, the control is as sharp on the Famicom controller as it was with the arcade sticks.
+
+Soundtrack/Audio - 7/10
+The game features all of the tunes from the arcade version with a small remix thanks to the Famicom Disk System's added sound channels. A nice selection of mellow tunes like that of many other Nintendo classics. The sound effects are the same as in the arcade and cartridge versions - the monotonous hum of the motorcycles, the odd jump noises and the scratchy crash sounds.
+
+Replayability - 6/10
+If you played the game many times at the arcades and were disappointed with the home cartridge conversion, the Disk System port is on par with added 2 player goodness. The game is a rare find on eBay, but it's surely great for import game collectors.
+
+Reviewer's Score: 7/10, Originally Posted: 07/29/05
+
+Reviewer: Auction Sniper
+http://www.gamefaqs.com/console/fds/review/R90324.html
+*
+
+*
+2437FA88
+Wakusei Aton Gaiden
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Gametype: Licensed
+Release Year: 1990
+Developer: Kokuzeichou
+Publisher: Kokuzeichou
+Players: 1
+_________________________
+*
+Given out by Japan's National Tax Agency (seriously? ~Rx)
+
+http://www.famicomworld.com/Games/Game.php?dbid=1480
+*
+
+*
+9D9B3FED
+Wardner no Mori
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+*
+Wardner no Mori is an Action game, developed and published by Taito Corporation, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/578563.html
+*
+
+*
+609BC9C3
+Yakyuuken Part II - Gal's Dungeon
+Original title: Yakyuuken Part II: Gal's Dungeon
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adult
+Gametype: Hack
+Players: 1
+Translated by: Spinner 8
+Version: 1.0
+_________________________
+*
+This game is an unlicensed (and hentai) dungeon-crawler for the FDS. Similar to its predecessor, Moero Yakyuuken, it has janken/rock-paper-scissors battles. Spinner says it's a much better game, and I'll trust him on that. I only played it long enough to get pictures.
+
+http://www.romhacking.net/trans/1336/
+*
+
+*
+7DB80E2B
+Yuu Maze
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Maze
+Gametype: Licensed
+Release Year: 1988
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1
+_________________________
+*
+Yuu Maze is an Action game, developed and published by Taito Corporation, which was released in Japan in 1988.
+
+http://www.gamefaqs.com/console/fds/home/579342.html
+*
+
+*
+28AD571E
+Zelda: The Hyrule Fantasy
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1986
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+*
+Ganon, the King of Evil, breaks free from the Dark World and captures Hyrule's beloved Princess Zelda. Before she is caught, Zelda manages to shatter the Triforce of Wisdom and scatter its eight pieces throughout Hyrule. Link swears to recover the Triforce pieces and rescue Princess Zelda from Ganon's clutches.
+
+http://www.gamefaqs.com/console/fds/home/578278.html
+*
+

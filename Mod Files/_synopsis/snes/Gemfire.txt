@@ -1,0 +1,29 @@
+Gemfire
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1992
+Developer: Koei
+Publisher: Koei
+Players: 1 or 2
+_________________________
+The game takes place in the fictitious Isle of Ishmeria. Once upon a time, six wizards, each wielding a unique brand of magic, used their powers to protect the island and maintain peace. This was disrupted when they were collectively challenged by a Fire Dragon, summoned forth by a wizard intent on plunging the country into darkness.
+
+The sea-dwelling dragon of peace known as the Pastha charged the six wizards with the task of fighting back. They succeeded, sealing the Fire Dragon away into a ruby at the top of a crown, and themselves became the six jewels around the crown's base. The crown, called Gemfire, was a symbol of utmost power and authority.
+
+When Gemfire fell into the hands of the now current King of Ishmeria, Eselred, he sought to abuse the object's power, using it to embark on a tyrannical reign, instilling fear within his oppressed subjects. Ishmeria fell into despair as his power flourished. Finally, his young daughter, Princess Robyn, could bear to watch her father's grievous misdeeds no longer--she seized Gemfire and pried the six wizard gems loose, causing them to shoot upward into the sky and circle briefly overhead before scattering themselves to different parts of Ishmeria. When a furious Eselred learned of Robyn's actions, he had her locked her away in a tower; but it was futile as the deed had already been done, and Robyn had taken the crucial first step toward freeing her people.
+
+Meanwhile, the six wizards each take up residence with a prominent family of Ishmeria. The two most powerful of these clans are the Blanches, led by Prince Erin and supported by Zendor, Emerald Wizard and Wielder of Lightning; and the Lyles, led by Prince Ander and backed by Pluvius, Sapphire Wizard and Caster of Meteors. Four other clans (Flax, Coryll, Chrysalis and Molbrew) also have wizards of Gemfire at their disposal in the beginning. With the breaking of the spell on Gemfire, each of these clans sets out to unseat Eselred, claim the throne as their own and restore order and peace to Ishmeria.
+
+Gameplay:
+
+At the outset of the game, the player has the option of selecting a scenario and family. The chosen scenario only changes the relative power and territories of the families, although the minor families are only present in one or two scenarios. Ultimately, the player is charged with conquering the entire map.
+
+Gameplay is divided into the main world map screen and individual battle screens. On the map screen, the player is allowed one action per turn (in-game month) per territory. With that action, the player may hire or move troops, upgrade the territory's economy or defenses, engage in diplomatic actions (such as sabotage or plunder a neighboring territory), or attack an adjacent neighboring territory.
+
+Upon attacking or being attacked by an enemy, the focus then shifts to that battle. The player moves individual companies of troops about the map in a turn-based tactics fashion; certain units may build fences to keep enemies out. One army wins if the enemy base is captured, all enemy units are defeated, or the enemy army runs out of food.
+
+http://en.wikipedia.org/wiki/Gemfire

@@ -1,0 +1,15 @@
+Air Diver
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1990
+Developer: Asmik Corporation of America
+Publisher: Seismic
+Players: 1
+_________________________
+Air Diver is a 1990 shoot-'em-up by Asmik for the Sega Mega Drive. Middle Eastern terrorists have created a military force world powers cannot take down with their own militaries and it's up to you to stop them with your F-119 stealth fighter.
+
+The game plays like After Burner and G-LOC: a 3D flight-simulation shooter where, like G-LOC, you are situated behind the cockpit.

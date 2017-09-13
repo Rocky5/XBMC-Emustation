@@ -1,0 +1,17 @@
+Dino Dini's Soccer!
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Soccer
+Gametype: Licensed
+Release Year: 1994
+Developer: Eurocom
+Publisher: Virgin Games
+Players: 1 to 8
+_________________________
+Although this soccer game is based on Goal, it features a very different control method, with the ball on sticking to your foot to make running with the ball easier. The game is viewed from above and played up and down the pitch, without the left-to-right option of Goal. Matches can be between 2 or 20 minutes, and the scanner which shows player positions on the rest of the pitch can be moved, resized or disabled. The method of triggering aftertouch onto a pass can be chosen as well.
+
+The game features a variety of tournaments, including the full World Cup and its qualifying rounds, and the European Championships, or individual matches, as well as being able to configure a league or cup tournament ot your own specification. Only international teams are included, although their names can be customised. Unlike most soccer games of the time, player ethnicities are accurately depicted.
+
+http://www.mobygames.com/game/snes/dino-dinis-soccer

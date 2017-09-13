@@ -1,0 +1,16 @@
+Star X
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Shooter
+Gametype: Licensed
+Release Year: 2002
+Developer: Graphic State
+Publisher: Bam Entertainment
+_________________________
+You have been sent on a peace envoy to a newly-discovered alien race, only to find out that what they want is not peace, but the human race as slaves. You must fight your way back to Earth in order to warn the human race of the threat that these aliens pose.
+
+Gameplay consists of 3rd-person shooting, viewed from behind your ship, with different weapons, weapon upgrades, and shield power-ups, being picked up during each stage. Some stages end in a boss fight, while others simply require you to perform a task, such as shooting all the space mines within a given stage, before moving on.
+
+http://www.mobygames.com/game/gameboy-advance/star-x

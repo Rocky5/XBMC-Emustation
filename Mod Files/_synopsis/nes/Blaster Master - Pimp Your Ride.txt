@@ -1,0 +1,19 @@
+Blaster Maseter: Pimp Your Ride
+Original title: Blaster Master
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2007
+Hacked by: Jigglysaint
+Version: 1.1
+_________________________
+Blaster Master: Pimp your Ride, is an assembly hack for the NES platformer Blaster Master. Changes to most of the areas are minor save for areas 1 and 2 tank section, which are re-done. The changes are made to utilize the full effect of the ASM hack, and premise of this hack which is the 8 new additional upgardes the tank can get.
+
+Yes, 8 new upgrades. That means the game has a total of 15 upgrades in all, and almost all of them are going to be needed to finish the game. Along with that are some other ASM changes, one that would need explaining is the gun powerup system. Instead of one gun unit equaling one level, you must collect many gun units to raise you gun power. The upside is that you do not lose your gun level if you get hit or die. This means that any powerup you find will not be wasteful.
+
+There are also other changes as well that will become apparent when you play. This hack was started sometime last spring or summer and deamed complete on December 31 2006. If there are any bugs, don't hesitate to point them out.
+
+http://www.romhacking.net/hacks/199/

@@ -1,0 +1,35 @@
+Mick &amp; Mack As The Global Gladiators
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Virgin Interactive
+Publisher: Virgin Interactive
+Players: 1
+_________________________
+Global Gladiators (also known as Mick and Mack: Global Gladiators) is a 1992 platform game by Virgin Interactive, originally programmed by David Perry for the Sega Mega Drive/Genesis and eventually ported by other Virgin Interactive teams to the Sega Master System, Sega Game Gear and the Commodore Amiga. A Super Nintendo port was also in development but was never completed for undisclosed reasons, though a prototype exists on the internet. The game is loosely based on the McDonald's fast food chain and has a strong environmentalist message.
+
+A Gameboy port of the title was also fully developed (by Damian Stones, of Climax) but was never released for the same legal reasons as the Super Nintendo port.
+
+Gameplay:
+
+In the single-player game, the player controls Mick or Mack through four worlds; Slime World, Mystical Forest, Toxi-town and Arctic World. Each world has several sub-stages where the character must collect a certain number of Golden Arches to advance.
+They are guided in their quest by Ronald McDonald, who appears at the beginning and the end of the game. The characters are armed with Super Soaker-type gun that shoots gooey projectiles.
+
+The game engine is the same used in other Virgin Interactive games such as Cool Spot and Disney's Aladdin, as all of them (Mega Drive/Genesis versions) were handled by David Perry's programming team, which eventually turned into Shiny Entertainment.
+
+Hints:
+
+- Cheat Menu -
+Press [C, B, A, Start] four times at the Sega logo to display the cheat menu screen.
+
+- Extra Lives -
+Pause game play and press A three times, B three times, C four times, B, and then A.
+
+- Level Select -
+Pause the game and press B, C, B, A, B, B, C, B, A, and B.
+
+http://en.wikipedia.org/wiki/Global_Gladiators

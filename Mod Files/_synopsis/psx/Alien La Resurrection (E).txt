@@ -1,0 +1,21 @@
+Alien La Resurrection
+Alternative title: Alien Resurrection
+Platform: Playstation 1
+Region: Europe
+Media: Disc
+Controller: DualShock Control Pad, Mouse
+Genre: Shooter - First Person
+Gametype: Licensed
+Release Year: 2000
+Developer: Argonaut Software
+Publisher: Fox Interactive
+Players: 1
+_________________________
+Two hundred years after the events of Alien³, Lieutenant Ellen Ripley is cloned by military scientists interested in the Alien Queen she had become a host for. Like the "Company" from the earlier films, the military intends to use the Queen to breed a force of bio-weapons. But then something goes wrong; the Aliens they are studying manage to escape, and swarm throughout the science ship. It's up to four stranded heroes - Ripley, Call, DiStephano and Christie - to wipe out the Aliens, and return the ship safely to Earth.
+
+Gameplay is standard FPS action, with limited ammo and plenty of hazards to detour around or find the switch to deactivate. The player switches between the four main characters at each level change, each with a slightly different set of abilities (Call has a motion tracker, Christie has his twin pistols from the film). Levels are based around keeping the Auriga running, and making their way through the ship to escape.
+
+The game uses a true 3-D engine, allowing for ladders, rooms over rooms, and the ability to look up and down. Aliens also make use of the 3-D space, and can crawl along walls and ceilings, or leap out from the shadows to attack. Scripting is also heavily used, to set up cinematic moments (such as an Alien chasing a fleeing guard) throughout the levels.
+
+
+http://www.mobygames.com/game/playstation/alien-resurrection

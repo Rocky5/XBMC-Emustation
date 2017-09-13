@@ -1,0 +1,15 @@
+Second Reality Project (SNES Version)
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2004
+Hacked by: FPI Productions
+Version: 1.0
+_________________________
+This is an easier version of the original Second Reality 1 Project. It's called SNES-Version, because this one is definetely beatable, if you play it on a real SNES without savestates! The game for itself, it's still hard, but absolutely possible to beat. A lot of things are changed in mostly every level to decrease the difficulty. Many more midway points have been added, gameplay is edited, some enemies are deleted, more power-ups are added, and so on. I'm sure you will notice some changes. Enjoy it! :D
+
+http://romhacking.net/hacks/42/

@@ -16,7 +16,7 @@ except:
 	Full_Scan	= "0"
 
 #####	Start markings for the log file.
-print "| _Scripts\XBMC-Emustation\scan.py loaded."
+print "| _Scripts\XBMC-Emustation\create_cut_files.py loaded."
 
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
@@ -38,6 +38,8 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 				Roms_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Roms_Path)' )
 			else:
 				Roms_Path		= Root_Directory + '_roms\\'
+				
+			Synopsis_Path		= Root_Directory + '_synopsis\\'
 			CUTFile_Path		= Root_Directory + '_cuts\\'
 			Scripts_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\'
 			TBN_Path			= Root_Directory + '_tbns\\'
@@ -126,6 +128,14 @@ def manual_scan():
 					Rom_Name = Items
 					CUT_File_Name = Rom_Name[:-4]
 					Rom_Name_noext = Rom_Name[:-4]
+					try:
+						with open( os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' ) ) as input:
+							Synopsis = input.read()
+							Synopsis1 = Synopsis.split('_________________________', 1)[0]
+							Synopsis2 = Synopsis.split('_________________________', 1)[1]
+					except:
+						Synopsis1 = "No Synopsis"
+						Synopsis2 = ""
 					# Damn internal labelling system kicks in if these are left alone.
 					if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
 					if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
@@ -216,25 +226,25 @@ def manual_scan():
 						log('|	Create the rest of the layout xml file.')
 						with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 							if Emu_Name == "fba":
-								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',TBN_File + CUT_File_Name + '.jpg',TBN_File + CUT_File_Name + '.tbn')
+								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
 							elif Emu_Name == "mame":
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',TBN_File + CUT_File_Name + '.jpg',TBN_File + CUT_File_Name + '.tbn')
+								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
 							else:
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',TBN_File + CUT_File_Name + '.jpg',TBN_File + CUT_File_Name + '.tbn')
+								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
 							outputmenufile.write( WriteMenuFile )
 
 						log('|	Create the cut file for this rom.')
 						with open(Output_Path + CUT_File_Name + '.cut', "w") as outputfile:
 							if Emu_Name == "fba":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,CUT_File_Name )
+								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 							elif Emu_Name == "atarijaguar":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 							elif Emu_Name == "atarijaguarcd":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 							elif Emu_Name == "mame":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 							else:
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,Rom_Path )
+								WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
 							outputfile.write( WriteFile )
 					
 					log('|	Add 1 to the Countlist.')
@@ -349,6 +359,14 @@ def full_scan():
 								Rom_Name = Items
 								CUT_File_Name = Rom_Name[:-4]
 								Rom_Name_noext = Rom_Name[:-4]
+								try:
+									with open( os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' ) ) as input:
+										Synopsis = input.read()
+										Synopsis1 = Synopsis.split('_________________________')[0]
+										Synopsis2 = Synopsis.split('_________________________')[1]
+								except:
+									Synopsis1 = "No Synopsis"
+									Synopsis2 = ""
 								# Damn internal labelling system kicks in if these are left alone.
 								if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
 								if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
@@ -439,25 +457,25 @@ def full_scan():
 									log('|	Create the rest of the layout xml file.')
 									with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 										if Emu_Name == "fba":
-											WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',TBN_File + CUT_File_Name + '.jpg',TBN_File + CUT_File_Name + '.tbn')
+											WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
 										elif Emu_Name == "mame":
-											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',TBN_File + CUT_File_Name + '.jpg',TBN_File + CUT_File_Name + '.tbn')
+											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
 										else:
-											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',TBN_File + CUT_File_Name + '.jpg',TBN_File + CUT_File_Name + '.tbn')
+											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
 										outputmenufile.write( WriteMenuFile )
 
 									log('|	Create the cut file for this rom.')
 									with open(Output_Path + CUT_File_Name + '.cut', "w") as outputfile:
 										if Emu_Name == "fba":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,FBA_Rom_Name,CUT_File_Name )
+											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 										elif Emu_Name == "atarijaguar":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 										elif Emu_Name == "atarijaguarcd":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 										elif Emu_Name == "mame":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,CUT_File_Name )
+											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
 										else:
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name,Rom_Path )
+											WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
 										outputfile.write( WriteFile )
 								
 								log('|	Add 1 to the Countlist.')
@@ -488,19 +506,14 @@ def full_scan():
 	return
 
 				
-CUT_File_Layout = '<shortcut>\n\
-	<path>%s</path>\n\
-	<label>%s</label>\n\
-		<custom>\n\
-			<game>%s</game>\n\
-		</custom>\n\
-</shortcut>'
+CUT_File_Layout = '<shortcut><path>%s</path><custom><game>%s</game></custom></shortcut>'
 		
 menu_entry_header	= '<content>'
 ## had to add a space to the end of the label or XBMC will use the damn internal labels for games with numbers for names
 menu_entry			= '\n\
 	<item id="%s">\n\
 		<label>%s</label>\n\
+		<label2>%s</label2>\n\
 		<onclick>%s</onclick>\n\
 		<icon>%s</icon>\n\
 		<thumb>%s</thumb>\n\

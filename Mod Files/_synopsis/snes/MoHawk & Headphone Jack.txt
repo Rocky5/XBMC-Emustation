@@ -1,0 +1,30 @@
+Mohawk &amp; Headphone Jack
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Multi-Directional
+Gametype: Licensed
+Release Year: 1996
+Developer: Black Pearl Software
+Publisher: THQ
+Players: 1
+_________________________
+The aim of each level is to collect enough CDs in order to open the exit to the next level. The CD number in the top left-hand corner will sound an alert and begin flashing when the required number has been reached. The exit appears on the map as a flashing X (not to be confused with the player's current location) after the required number of CDs has been reached. There are different coloured CDs worth a different amount of points, as well as large CDs that can be collected that unlock different audio tracks (the final one being Elephant Funk). Every second level ends with a boss, and will lead to a different world upon completion.
+
+Mohawk's health is represented by yellow triangles and each time he is hit by an enemy, the number will go down (maximum of five). However, spikes bring instant death like in most classic video games. He can also collect floating balls (maximum of 3) which allow him to explode, killing all enemies on screen. There are also a variety of forms Mohawk can become including wheelie, springs, angel and mer-hawk.
+
+Tips:
+
+Level Passwords:
+508917 Level 10
+049389 Level 2
+095649 Level 3
+111592 Level 4
+037090 Level 5
+028113 Level 6
+689992 Level 7
+987009 Level 8
+685497 Level 9
+
+http://en.wikipedia.org/wiki/Mohawk_%26_Headphone_Jack

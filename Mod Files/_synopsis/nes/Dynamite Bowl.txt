@@ -1,0 +1,15 @@
+Dynamite Bowl
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Bowling
+Gametype: Licensed
+Release Year: 1987
+Developer: Soft Vision International
+Publisher: Toshiba EMI
+_________________________
+
+Dynamite Bowl is a bowling game simulation based on the real bowling sport and can be played up to five players at one of the thirty lanes. The game has two difficulty levels. Game variables that can be controlled are: your position at the lane, set the strength of the throw and control the loft and curve of the bowling ball.
+
+http://www.mobygames.com/game/nes/dynamite-bowl

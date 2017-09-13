@@ -1,0 +1,37 @@
+Marsupilami
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+Based on the character developed by Belgian cartoon artist Franquin, this platform features the player controlling Marsupilami, a strange animal with a large tail, who was poached along with Bonelli the Elephant from the Palombian jungle by Bring M. Backalive and sold to a Circus. Seizing the opportunity when the animal trainer fell asleep, Marsupilami got the key using his long tail and released all animals, and with the help of their Palombian friends No?, Bip and Sarah tries to return to Palombia.
+
+While it might seem a typical platform game at first sight, it includes a twist: Instead of dozens of enemies, Marsupilami has to guide Bonelli through gaps and other obstacles (not much different than the Earthworm Jim levels where Jim has to steer Peter Puppy to safety), by shaping his tail intro stairs, bridges or an umbrella, but to do so, he must first collect an icon with the abilities required to complete the level, up to four on each. Always available is the ability to shape into a giant fist not only to swat guards and other enemies away, but also to change Bonelli's direction. The player also collects fruits along the way, which not only provide extra points at the end of the level, but can be dropped out to slow down Bonelli. Each level is timed, so the player can't make many mistakes, even if some time bonus items are occasionally available.
+
+Hints:
+
+Stage 1 Password:
+Enter the following at the password screen: CATG
+
+Stage 2 Password:
+Enter the following at the password screen: NKEM
+
+Stage 3 Password:
+Enter the following at the password screen: YKRZ
+
+Stage 4 Password:
+Enter the following at the password screen: GWQB
+
+Stage 5 Password:
+Enter the following at the password screen: RPMJ
+
+Stage 6 Password:
+Enter the following at the password screen: PNNX
+
+http://www.mobygames.com/game/genesis/marsupilami

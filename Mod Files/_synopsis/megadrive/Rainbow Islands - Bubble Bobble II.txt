@@ -1,0 +1,32 @@
+Rainbow Islands: Bubble Bobble II
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1987
+Developer: Taito
+Publisher: Taito
+Players: 1 or 2 Alternating
+_________________________
+Rainbow Islands is a 1987 arcade game from Taito. The game is subtitled "The Story of Bubble Bobble 2" and is the sequel to Taito's hit game Bubble Bobble from the previous year. It is the second of four arcade games in the Bubble Bobble series (followed by Bubble Symphony and Bubble Memories, but itself has two direct sequels: Parasol Stars and Bubble Bobble Part 2). The game was ported for numerous home computers and game consoles.
+
+The basic premise of the game is that each level is an island which is slowly sinking into the sea. The player must therefore get to the top of each level, by jumping on platforms and making use of the game's most distinctive feature: the ability to produce solid rainbows, which are used both as platforms to stand on, and as a weapon.
+
+One of the features which sets this game apart from many others (and has no doubt been responsible for the game's popularity) is its 'hidden depths'. While initially appearing to be quite a simple game, Rainbow Islands in fact has a vast number of secrets for the player to discover, including secret levels, secret power-ups and riddles. Because of these elements, completing the game properly requires a large amount of dedication from the player. The scoring system also has secrets, which allow vastly higher scores to be achieved than normal.
+
+Gameplay:
+
+The game is set on a chain of ten islands, each one with a different theme. Each island provides four rounds of gameplay, and once these are complete the player moves to the next island in the chain. The islands get progressively more difficult, with enemies moving much faster on the later ones. These are depicted on a map screen before the start of each island. The three secret islands are not visible until all 7 big diamonds are collected. Most consumer versions of the game completely lack the secret islands.
+
+The main characters are Bubblun and Bobblun, the protagonists of Bubble Bobble (known as "Bub and Bob" in the western releases). However, in this game they appear in their human forms as "Bubby" and "Bobby", as opposed to the "bubble dragons" of the first game. Also unlike the first game, players must now "alternate" (i.e., take turns), with player one as Bubby (green shirt), and player 2 as Bobby (blue shirt) (as with the first game).
+
+Hints:
+
+- Start the game with virtually infinite lives -
+
+In the option menu, choose number of lives and select '0'. Then you can start your game normally. When you died, instead of Game Over, you get a lot of extra lives like ??, ?! and other symbols in pair as your number of lives. However, it is not really unlimited. After you died a lot of times (about 400 times), your number of lives became 99, and when it reached 0, the game is over.
+
+http://en.wikipedia.org/wiki/Rainbow_Islands
+http://www.gamefaqs.com/console/genesis/code/579725.html

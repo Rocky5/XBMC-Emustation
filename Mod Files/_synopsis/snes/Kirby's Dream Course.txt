@@ -1,0 +1,98 @@
+Kirby's Dream Course
+Alternative title: Special Tee Shot
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Golf, Action
+Gametype: Licensed
+Release Year: 1995
+Developer: HAL Laboratory
+Publisher: Nintendo
+Players: 1
+_________________________
+Once upon a time, on a little star, there was a small, peaceful country called Dream Land. The Dream Spring incident was over and the inhabitants of Dream Land returned to their normal, peaceful lives. Every day, they would eat delicious meals and take wonderful afternoon naps. There was no need to worry about anything since everything was so peaceful.
+
+One night, the inhabitants said to one another, "Let's gaze at the star-lit sky and have wonderful dreams tonight." However, when they gazed up into the sky they noticed something was different. The sky was black. There wasn't a single star in sight! Everyone became upset and asked each other "What happened to the stars?" "Will we ever see them again?" Then, someone said, "Don't worry! Surely, the sky will be full of stars again!" However, the stars did not return that night, or the night after. Everyone in Dream Land became very sad.
+
+Another dark, gloomy night loomed over Dream Land. All sorts of rumors had been spreading, and everyone was saying, "It looks like King Dedede is behind this." "I bet he's hogging all those beautiful stars for himself!"
+
+If it's true, there's only one hero that can save the stars. Yes, that young hero is Kirby. He comes in with the spring breeze and saves Dream Land in times of crisis.
+
+Kirby heads for King Dedede's floating castle. The king has set up many traps in his castle. His servants each have a star and they wait for Kirby's arrival at the castle.
+
+This adventure is full of new and amazing challenges. Good luck, Kirby!
+
+--From the SNES Kirby's Dream Course instruction manual.
+
+Overview:
+
+Kirby's Dream Course is a golf-type game, but it is anything but typical. It combines aspects of golf with aspects of classic Kirby game play, for a very interesting and unique experience. There are eight standard courses, with eight 'holes' each, plus several bonus courses. Using Kirby as a ball, knock out the enemies, then sink Kirby into the cup to complete each hole. Sounds simple, right? Well, it's more difficult than you might think.
+
+I like the sound effects. It sounds like you're stretching Kirby to his limit and then THWAP! letting him go! Makes me giggle on the inside. The graphics are pretty good. At least the courses are clear and easily maneuvered, since it's obvious what you should and shouldn't hit (except in the case of the floating black puffer fish guys, they aren't baddies and you'll lose a tomato if you bump one). Also, it's worth it to play this game just to watch Kirby's victory dance when he gets his medals. Whoa he's squishy!
+
+Directions:
+
+Guide Kirby through the course to destroy the baddies and release the star they have. The last baddie turns into the cup you have to sink Kirby in. If you get a hole in one, you get an extra man. You start the game with 2 men and you lose one whenever you fall off the course or lose all your tomatoes.
+
+You start the game with 4 tomatoes and you lose one of these whenever you take a shot or Kirby gets hurt. You gain a tomato whenever Kirby kills a baddie or goes in the cup.
+
+The game has a demo that is very helpful, and, while I will try to explain as well, I recommend going through the demo. Seeing it in action helps.
+
+Spin: You can put a spin on Kirby by holding down B and pressing left or right. This will cause Kirby to curve, allowing you to knock out baddies around obstacles. When doing a fly shot you can also put forward or back spin on Kirby. Do this by selecting a fly shot (press up) then hold down B and press up or down. When you go to take the shot (by pressing A) there will be a green cursor that moves up and down the center vertical bar. Press A when the green cursor meets the white one you set to get the same shot that the dotted lines showed you (you must also hit the ball full strength to get the same path as the line). Forward spin will make Kirby go further after he lands and back spin will stop him and even reverse his direction.
+On Shots: Fly shots will get you over gaps and over some obstacles. Pressing A at the right moment will give Kirby a boost. This works best when you need extra height on a bounce off a fly shot. On ground shots, it tends to only shorten your shot. Either way, boosting will alter your shot.
+Course Particulars: "Yes Jim, it does look like Kirby has hit this one directly into the spike trap! Oooo, that's gotta hurt!" Different courses will have different traps and special squares. Warps warp, and spikes spike. They are pretty obvious mostly. (O.K. so the trampoline is hard to guess. It's a blue lined rectangle with white lines running across it width-wise.) Not so obvious is that you can destroy some obstacles, like the tree, with certain abilities.
+Abilities: You can gain abilities that will allow Kirby to do things he normally can't by pressing B while Kirby is moving. The ability you get depends on which baddie you kill (the flashy ones have the powers). The sparky guy gives you the ability to pass under storm clouds unharmed and to destroy trees. You will exchange a current ability with the new one if you kill a new baddie with a new ability. Dying loses you that ability.
+Two Players: *NOT IN DEMO* When you play against your friends, you alternate turns with them. Whenever either of you gets into the cup you both will advance to the next hole. In 2 player mode, the player who gets the most stars wins. Get stars by defeating baddies or stealing the stars of the baddies your friend has killed, but beware, they can steal them back, too. You also have energy instead of tomatoes and lives. When you lose all of your energy Kirby goes to sleep and your friend gets to take two turns. You lose energy when Kirby gets hurt or if he goes over the edge. If you crash into each other you will lose energy as well (kamikaze Kirby.... could be a useful strategy...). Also when you bump into each other you will trade your current abilities. Roll over a moon and sun square to swap you and your friend's star points for this level. OOooO dirty! 
+
+Controls:
+
+A Button - Shoot Kirby, Give Kirby an Extra Boost
+B Button - Hold and Press Left or Right to Add Spin
+X Button - N/A
+Y Button - Hold and Press D-pad To Scroll Map
+Start Button - Pause
+Select Button - Look at Score Cards
+Up - Fly Shot
+Down - Ground Shot
+L Button - Move Guideline 45 Degrees
+R Button - Move Guideline 45 Degrees
+Left and Right - Move Guideline 1 Degree
+
+Hints:
+
+PERFECT!
+Sometimes you just have to smash the mess outta Kirby. When you shoot him at full strength (the power meter turns pink) he will take the same course as the guideline showed. Hard to pull off, but sometimes just exactly what you need to finish a hole with a hole in one.
+
+Tips:
+
+Medal Rewards
+1-Player Extra Courses 
+Get a Silver or Gold medal on every normal Course
+
+2-Player Extra Courses 
+Get any medal on every normal Course
+
+Map Select for Extra courses 
+Get Gold medals in every Extra course
+
+Map Select for Normal courses 
+Get Silver or Gold medals in every Extra course
+
+Sound Test 
+Get any medal on every Extra Course
+
+Gaining extra lives
+To gain an extra life, you must make a Hole in One on any level. It's usually pretty tough to do, but the
+extra lives come in handy late in the game!
+
+Name Change
+To change your name without restarting the game, go to the member screen and highlight the file to be changed.
+Press L, R, and A at the same time to get to the Name Entry Screen.
+
+Sound Room and Dance Select
+If you complete all EXTRA courses with a silver or gold medal (you have to have already completed all regular
+courses with a silver or gold medal) two new items will appear on the main menu: Sound Room and Dance Select. Sound Room gives you a classic sound test screen where you can hear all 125 effects and 31 music tracks. Dance Select lets you view any of the kirby dances that happen at the end of each single and 2-player round.
+
+Reviewer: fallenrain
+http://www.consoleclassix.com/snes/kirbys_dream_course.html

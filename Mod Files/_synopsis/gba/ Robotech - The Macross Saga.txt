@@ -1,0 +1,14 @@
+Robotech: The Macross Saga
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Shooter
+Gametype: Licensed
+Release Year: 2002
+Developer: Lucky Chicken
+Publisher: TDK Mediactive
+_________________________
+A classic 2D shooter based on the Robotech license that mixes side-scrolling and forced perspective gameplay. Select from 4 characters initially. There are a total of 6 side scroll and 2 forced perspective levels. The characters each have 5 abilities that the player can upgrade with experience points earned based on performance in each level. There are both cooperative (2 player) and deathmatch (4 player) multi-play modes supported via the link cable.
+
+http://www.mobygames.com/game/gameboy-advance/robotech-the-macross-saga

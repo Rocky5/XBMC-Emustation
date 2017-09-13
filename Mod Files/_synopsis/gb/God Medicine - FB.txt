@@ -1,0 +1,27 @@
+God Medicine FB
+Platform: Nintendo Game Boy
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gameboy
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2004
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+God Medicine is a very clich? RPG, to the say the least. However, it gets away with being clich? because the game kind of pokes fun at the repetitiveness of the genre during the 8- and 16-bit eras.
+
+The story of the game is basically the cookie-cutter plot of the Brave Youngters vs. The Ultimate Evil (which, honestly, can be applied to almost any RPG the way Propp's plot outlines can be applied to any Folk Tale). But there is a twist. The children are actually transported inside a video game where they do their battles, and that's what sets God Medicine apart, and where it draws some of it's humor from. For example, one of the player characters proclaims to a skeptical king, "You must have a fetch quest or two we can complete!"
+
+While the plot may have it's humorous moments that are cookie-cutter in a tongue-in-cheek manner, the gameplay is also very clich?. Unfortunately, the gameplay and plot are two different things, and while the plot in this case can take liberties with being another repetitive RPG, the gameplay suffers. This is mainly due to the fact you've probably played this game before if you've ever played any Gameboy RPG.
+
+Overall, you may get bored of this game a little bit if you can't get past the gameplay. But if you do, you will be rewarded with a refreshing plot line.
+
+Translation Description:
+
+Well Then! Everything known in the game is translated, it is fully playable. The script is very readable, and accolades are due for Sogabe and Cidolfas for their translations and script edits, respectively. And of course to Gideon and akujin, for their expert technical work on the patch.
+
+There is currently only one minor issue though, with the Yamima Monster Files. Some of the move and magic text runs of eachother, or the window border, so just be aware of that.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/600/

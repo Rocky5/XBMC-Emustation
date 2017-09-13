@@ -1,0 +1,18 @@
+Yogi Bear in Yogi Bear's Goldrush
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Entertainment Int
+Publisher: GameTek
+_________________________
+Jellystone National Park is in trouble and it is up to Yogi Bear to save the day. The money needed to keep the park up and running for the winter has been stolen by an evil ghost named Jake, determined to shut down the park and has hidden them in 12 safes throughout the park. The player must travel to six different locations to locate these safes (a forest, a pirate ship, the big city, an underground cavern, the old west and a final showdown with Jake).
+
+The gameplay is fairly simply, using Yogi the player can travel from left to right and right to left on the screen and to kill certain enemies they must jump on them. Some enemies, however, can't be killed and must be avoided since Yogi has no weapons to harm them and avoid various pitfalls and hazards as well.
+
+There are no true power-ups, instead there are picnic baskets scattered throughout the stage that when the player picks up a 100 of them will get an extra life. Likewise, there are icons labeled "1-UP" that will give the player and can pick items to refill their health. There are also hidden doors and areas that the player must find in order to locate the various safes. When the player enters these safes they must collect the 25 gold coins to get a bar of gold, collecting 12 of these gold bars will give Yogi the money needed to win the game.
+
+http://www.mobygames.com/game/gameboy/yogi-bears-goldrush

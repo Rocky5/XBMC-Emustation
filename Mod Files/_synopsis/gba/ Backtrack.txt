@@ -1,0 +1,14 @@
+BackTrack
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Shooter
+Gametype: Licensed
+Release Year: 2001
+Developer: JV Games
+Publisher: Telegames Inc.
+_________________________
+Domingoanix and his army of mutants have taken over the secret base on moon. They have assimilated thousands of humans into an army of droids that can be used to overwhelm earth. It is your job to infiltrate the base and stop them by triggering the self-destruct sequence to terminate the moon base and the aliens. BackTrack is a first-person shooter with graphics and gameplay comparable to Wolfenstein 3D. In contrast to the all-time classic it comes with several multiplayer modes like Deathmatch and Matrix Assault. Bots are also supported in multiplayer sessions.
+
+http://www.mobygames.com/game/gameboy-advance/backtrack

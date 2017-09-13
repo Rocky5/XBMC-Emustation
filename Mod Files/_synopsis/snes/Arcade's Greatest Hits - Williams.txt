@@ -1,0 +1,50 @@
+Williams Arcade's Greatest Hits
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Compilation, Arcade
+Gametype: Licensed
+Release Year: 1996
+Developer: Digital Eclipse Software
+Publisher: Midway
+Players: 1 or 2
+_________________________
+This is one of the compilations that game companies occasionally come up with. The games are as follows:
+
+Defender: In this side-scrolling space shooter, you have to defeat all the enemies to continue to the next level.
+
+Defender II: The sequel to Defender. In addition to all the features in the original, you can warp to the other side of the planet.
+
+Joust: Knock all the enemies off the vultures and collect the eggs.
+
+Robotron: 2084: Shoot the robots with your laser to proceed to the next level. Remember, the last human family's fate is in your hands.
+
+Sinistar: Your goal in this game is to mine Sinibombs from asteroids and defeat Sinistar (the big white guy floating around). Also beware of the little aliens waiting to attack you.
+
+I like the fact that Williams ported these games to SNES, but I don't get to see the attract screens. I would rather play the games in their Shockwave versions and in Midway Arcade Treasures (PS2, Xbox, GCN) than play ports that don't have the feel of the original.
+
+I will list the controls for the games in the order that they're presented in the main menu.
+
+Directions:
+
+Relive the moments of your favorite arcade hits from the '80s. 
+
+Controls:
+
+A Button - Nothing, Inviso, Flap, Fire Right, Nothing
+B Button - Hyperspace, Hyperspace, Flap, Fire Down, Nothing
+X Button - Bomb, Bomb, Flap, Fire Up, Sinibomb
+Y Button - Fire, Fire, Flap, Fire Left, Fire
+L Button - Switch Direction, Switch Direction, Flap, Nothing, Nothing
+R Button - Move, Move, Flap, Nothing, Hide Status Bar
+Start Button - Pause
+Select Button - Nothing, Nothing, Nothing, Auto-Fire, Slow Motion
+
+Hints:
+
+255 Lives
+This will only happen if Sinistar sucks you in on your last life and a UFO appears during this action. A -1 will appear in your lives. 
+
+Reviewer: MethodOne
+http://www.consoleclassix.com/snes/williams_arcades_greatest_hits.html

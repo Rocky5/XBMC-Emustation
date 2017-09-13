@@ -1,0 +1,37 @@
+SimCity
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Realtime
+Gametype: Licensed
+Release Year: 1991
+Developer: Maxis
+Publisher: Nintendo
+Players: 1
+_________________________
+The objective of SimCity, as the name of the game suggests, is to build and design a city, without specific goals to achieve (except in the scenarios, see below). The player can mark land as being zoned as commercial, industrial, or residential, add buildings, change the tax rate, build a power grid, build transportation systems and many other actions, in order to enhance the city.
+
+Also, the player may face disasters including: flooding, tornadoes, fires (often from air disasters or even shipwrecks), earthquakes and attacks by monsters. In addition, monsters and tornadoes can trigger train crashes by running into passing trains. Later disasters in the game's sequels included lightning strikes, volcanoes, meteors and attack by extraterrestrial craft.
+
+In the SNES version and later, one can also build rewards when they are given to them, such as a mayor's mansion, casino, etc.
+
+Unlockable Levels
+
+Beat the Las Vegas scenario Freeland Beat the six game scenarios and have at least one city with over 100,000 citizens living in it saved to the game. 
+Las Vegas Scenario
+
+Get away with not paying funds
+As far as I know, Auto-Budget must be off to use this code. When the Budget screen comes up at the end of the
+year, set all funds to 0%. Now select Go With Figures. Immediately save the game, then reload it. The game should continue as if you set all funds to 100%, but you weren't charged for them on the budget.
+
+$999,999
+At any time while playing a city, spend all of your money. When the tax screen appears at the end of December hold down L. Select 'Go With Figures' and then go back to the tax screen. Turn all of the dues to 100% and exit still holding L. When you release L your money will be at $999,999.
+
+999 extra city maps
+There is normally only 999 city maps, but if for any strange reason you need 999 more, here's a way to
+unlock 999 more maps. Start a new city, and choose any map number, then start the game. Now select the 'Go to
+Menu' Icon located at the top of the screen, and choose Start New City without saving. After a short period of time, the map will change, but the number wont.
+
+
+http://en.wikipedia.org/wiki/SimCity

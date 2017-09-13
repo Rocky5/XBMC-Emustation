@@ -1,0 +1,39 @@
+ActRaiser
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Side-Scrolling, Strategy
+Gametype: Licensed
+Release Year: 1991
+Developer: Quintet
+Publisher: Enix
+Players: 1
+_________________________
+You are The Master, a deity who once protected a world full of worshippers from any evil that would threaten the peace. The Evil One, hereinafter referred as Tanzra, sent his six guardians to conquer your world and defeat you in the process. After Tanzra and his guardians entrapped you in the Sky Palace after a brutal battle, where you have been recovering your strength in a deep sleep for the past few hundred years. Your goal is to first purify your lands - Fillmore, Bloodpool, Kasandora, Aitos, Marahna, and Northwall - in the Action portion, then direct your people to rebuild and repopulate them in the Simulation portion. Good luck!
+
+Directions:
+
+It's 2 games in one! Action Mode and Sim Mode. Action Mode is simple, make you way through the level swinging your sword to kill enemies. In Sim Mode, you must help the town prosper and keep the monsters at bay by shooting them. Keep the people happy and prosperous to open up a way to another action section, then another sim section.
+
+Controls:
+
+A Button - Nothing
+B Button - Jump (Menu in Sim Mode)
+X Button - Use Magic
+Y Button - Sword (Shoot arrows and cancel commands in Sim mode)
+Start Button - Pause
+Select Button - Nothing
+
+Hints:
+
+Hidden Lives
+In Fillmore use the compass
+In Bloodpool make rain over the big lake.
+In Kasandora cast earthquake after you find the pyramid.
+In Northwall strike the town's shrine with a lightning bolt.
+
+Professional Mode
+Once you beat the game, press down or select at the title screen to activate professional mode.
+
+http://www.consoleclassix.com/snes/act_raiser.html

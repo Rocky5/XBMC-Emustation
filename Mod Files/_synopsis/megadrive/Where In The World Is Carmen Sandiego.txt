@@ -1,0 +1,65 @@
+Where In The World Is Carmen Sandiego
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1992
+Developer: Broderbund
+Publisher: Electronic Arts
+Players: 1
+_________________________
+Worldwide Crime Wave!
+
+ACME Detective Agency Hot On The Trail Of Master Thief Carmen Sandiego And Her Henchmen.
+
+WANTED: Detective to locate and capture Carmen and her gang. Must be a hard working, independent, fun-seeking individual willing to travel the world. No experience necessary. 
+
+Gameplay:
+
+Carmen Sandiego is a game that tests the player's knowledge about geography and general knowledge about different countries. Missions will begin with a treasure being stolen and the player flying to that location. A time limit counts down while they must search the area and interview witnesses to find enough clues to figure out what country the thief flew to next. The player always has a limited selection (usually three or four) of flights available in any given country. This process is repeated until either the villain is found or time expires and they are able to get away. Along with finding out where the thief has headed, the player must discover who the thief is, by best matching personal characteristics (gender, hair color, eye color, hobbies, notable features) to dossiers on Carmen's gang. There must be enough characteristics matched in order to obtain a warrant, which is essential to legally arrest the suspect once they have been found.
+
+Progress in arresting VILE members will expose other members, eventually leading up to Carmen Sandiego herself.
+
+Hints:
+
+- Mission Passwords -
+After entering your details at the front-end, type in the following codes to commence on a particular mission. (N.B: These codes are cASE sENSITIVE!)
+bbvMission 01
+dbtMission 02
+fbsMission 03
+gbrMission 04
+kbBMission 05
+mbzMission 06
+nbxMission 07
+pbwMission 08
+rbgMission 09
+sbfMission 10
+WbLMission 30 (Final Level)
+
+- Passwords - 
+tbd10 cases solved, Rank: Private Eye
+ybb11 cases solved, Rank: Private Eye
+wbp12 cases solved, Rank: Investigator
+xbn13 cases solved, Rank: Investigator
+zbm14 cases solved, Rank: Investigator
+Bbk15 cases solved, Rank: Investigator
+DbS16 cases solved, Rank: Investigator
+FbR17 cases solved, Rank: Investigator
+GbP18 cases solved, Rank: Investigator
+HbN19 cases solved, Rank: Investigator
+JbZ20 cases solved, Rank: Ace Detective
+KbX21 cases solved, Rank: Ace Detective
+LbW22 cases solved, Rank: Ace Detective
+MbT23 cases solved, Rank: Ace Detective
+NbH24 cases solved, Rank: Ace Detective
+PbG25 cases solved, Rank: Ace Detective
+RbF26 cases solved, Rank: Ace Detective
+SbD27 cases solved, Rank: Ace Detective
+TbM28 cases solved, Rank: Ace Detective
+
+http://www.consoleclassix.com/genesis/where_in_the_world_is_carmen_sandiego.html
+http://en.wikipedia.org/wiki/Where_In_The_World_Is_Carmen_Sandiego
+http://www.mobygames.com/game/genesis/where-in-the-world-is-carmen-sandiego
+http://www.gamefaqs.com/console/genesis/code/586597.html

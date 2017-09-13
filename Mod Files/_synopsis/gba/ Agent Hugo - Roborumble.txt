@@ -1,0 +1,14 @@
+Agent Hugo: Roborumble
+Platform: Nintendo Game Boy Advance
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Action
+Gametype: Licensed
+Release Year: 2007
+Developer: Program-Ace
+Publisher: ITE Media
+_________________________
+Agent Hugo: Roborumble is an Action game, developed by Program-Ace and published by ITE Media, which was released in Europe in 2007.
+
+http://www.gamefaqs.com/portable/gbadvance/home/958300.html

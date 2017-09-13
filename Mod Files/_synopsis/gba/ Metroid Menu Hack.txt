@@ -1,0 +1,15 @@
+Metroid Menu Hack
+Original title: Metroid: Zero Mission
+Platform: Nintendo Game Boy Advance
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Platformer
+Gametype: Hack
+Release Year: 2007
+Hacked by: Trunaur68
+Version: 1.0
+_________________________
+A hack for MZM which enables the debug fuction that allows you to toggle equipment on and off. Additionally, it will also allow you to toggle suits on and off(something the debug fuction didn't do) as well as a color fix for the fully powered suit for when you toggle the gravity suit off.
+
+http://www.romhacking.net/hacks/332/

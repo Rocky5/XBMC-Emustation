@@ -1,0 +1,14 @@
+NBA Jam
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Sports - Basketball
+Gametype: Licensed
+Release Year: 1994
+Developer: Beam Software
+Publisher: Acclaim
+_________________________
+NBA Jam is a two-on-two basketball game You can play any NBA team, and you can play as players like Barkley, Starks, Pippen, and Grant. Each human player controls a single player, so choose your squad wisely to take team-mate skill into account. The game is action-oriented, and players can perform unrealistic slam-dunks. Full performance statistics are automatically recorded. The play clock and 3-point line apply, but other rules are largely overlooked.
+
+http://www.mobygames.com/game/gameboy/nba-jam

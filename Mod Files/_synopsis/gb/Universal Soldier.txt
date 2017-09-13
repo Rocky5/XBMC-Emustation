@@ -1,0 +1,16 @@
+Universal Soldier
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1992
+Developer: The Code Monkeys
+Publisher: Accolade
+_________________________
+Universal Soldier is the licensed video game based on the 1992 movie starring Jean-Claude Van Damme. You control Van Damme's character as he turns against his platoon and attempts to bring down the corrupt government organization that created him.
+
+This game uses the Turrican engine. It's basically the same as Turrican, but with different graphics and levels.
+
+http://www.mobygames.com/game/gameboy/universal-soldier

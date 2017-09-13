@@ -1,0 +1,19 @@
+Panic in the Mushroom Kingdom 2
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2007
+Hacked by: Ghettoyouth
+Version: 1.3
+_________________________
+It's my 3rd Super Mario World hack and the sequel to Panic in the Mushroom Kingdom. It features custom blocks/sprites, SMAS music, a new overworld and, of course, brand new levels.
+
+The "Story":
+
+Mario has to save Toad who has been captured by Bowser's brother.
+
+http://romhacking.net/hacks/258/

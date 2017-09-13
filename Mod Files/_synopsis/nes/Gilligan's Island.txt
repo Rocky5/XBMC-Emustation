@@ -1,0 +1,39 @@
+The Adventures of Gilligan's Island
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1990
+Developer: Human
+Publisher: Bandai
+Players: 1
+_________________________
+
+Gilligan's Island is a pretty neat little adventure/puzzler game. The graphics and sound aren't great, but then, you don't need them to be. That's not the point. The point is to wander around and find the clues to solve each episode, while having a little action thrown in to keep things exciting. Of course, most of what you do is avoid fights, because there are only certain ones that you need to win, and those require plot points to provide the right weapon to beat the fight. Other than that, it's a matter of keeping the Skipper alive and not letting Gilligan get lost.
+
+Directions:
+
+You are the Skipper, and your task is to help the shipwrecked crew of the Minnow survive and escape the island. As an added bonus, Gilligan follows you around to 'help' you, but he mostly gets himself and you into trouble, so you have to keep him safe. Also, you have to keep him close by, because the Skipper can't collect clues from the other Islanders if Gilligan isn't with him.
+
+To get through each episode, you must first locate all the Crew Members, including the Professor, Mary Anne, and Mr. and Mrs. Howell, then follow the clues they give you to complete a specified task. The task and initial clues are given at the beginning of the episode in a conversation between the Skipper and the Islanders.
+
+Use the Map to check your location and the locations of the Islanders you have located so far. You have to talk to them in a specific order to follow their clues, and of course there is a time limit, so if you have to backtrack do it as quickly as you can. If the Skipper gets low on Energy he can use Food from the main menu, and if he needs to find Gilligan in a hurry he can use the Rope.
+
+So take Gilligan's Island for a spin, and have a little puzzle-solving fun. The real puzzle, I think, is why Ginger didn't make it onto the game. 
+
+Controls:
+
+A Button: Jump
+B Button: Attack
+Start Button: Confirm Selections
+Select Button: Display Menu
+
+Hints:
+
+Level Password
+At the Continue Screen, enter the Code LJJGDMPC to skip to Episode 2. 
+
+Reviewer: jcooper
+http://consoleclassix.com/nes/adventures_gilligans_island.html

@@ -1,0 +1,45 @@
+Yuu Yuu Hakusho: Makyou Toitsusen (translation)
+Original title: Yuu Yuu Hakusho: Makyou Toitsusen
+Known issue (if you can help join the forum): need to confirm that this rom is either Yuu Yuu Hakusho: Makyou Toitsusen or Yuu Yuu Hakusho: Gaiden. rom uploaded to synopsis. after confirm need to upload pix n\' stuff.
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Translated
+Release Year: 2007
+Players: 1-4
+Translated by: MIJET
+Version: 1.0
+_________________________
+Based on the manga/anim? series Yuu Yuu Hakusho. This is a story of a teenager delinquent Yuusuke Urameshi, who was hit by a car while trying to save a child. However, there was no place found for him either in paradise or in hell, and Koenma, the son of the death god Enma, sends him back to our world, where he has to be an "occult detective" and to fight against demons. Several characters join him on his quest: Kazuma Kuwabara, his ex-rival and best friend; Kurama, a 1400-year-old demon fox; and Hiei, formerly a demon who tried to conquer the world and had to repent for his sins by helping Yuusuke.
+
+Gameplay:
+
+You must play the individual chapters of the four playable characters (Yuusuke, Kuwabara, Kurama, and Hiei), until in the final chapter you control them all in the ultimate confrontation against evil forces. The game is a Japanese-style adventure (no puzzles, menu-driven interface) with the addition of battles. The battles are real time; similarly to fighting games, you can kick, punch, defend, and use special techniques. Unlike most Japanese adventures, you view the game world from platform-like third person perspective (although you cannot move physically in adventure mode).
+
+Hints:
+
+- Open The Debug Mode -
+At the title screen (echo "press start button"),hold a &amp; b &amp; c buttons,then press start button , move the cursor to "option" item, last hold start &amp; a &amp; b &amp; c buttons untils the option screen displayed, release all the buttons, you 'll find in the bottom of the option list, add another one, enable it.
+Then entry the game, on play mode select screen, 1-2 &amp; 1-3 mode has been opened.
+
+- Cheats -
+In match ,press start, then hold "left" and press x or y: The fisrt player's life will be full or empty
+
+In match ,press start, then hold "right" and press x or y: The fourth player's life will be full or empty
+
+In match ,press start, then hold "up" and press x or y: The second player's life will be full or empty
+
+In match ,press start, then hold "down" and press x or y: The third player's life will be full or empty
+
+- Extra Mode -
+Beat the game in the first mode and you'll receive an extra option in the Main Menu wich allows you to play 1-2 or 1-3 fights.
+
+Translation Description:
+
+This is a translation patch for the Mega Drive game "Yu Yu Hakusho". It sports a variable-width font engine with kerning and, as usual, it is a "dual-language" patch, meaning that it supports both Japanese and English, depending on the country code of your machine.
+
+http://www.mobygames.com/game/genesis/yuu-yuu-hakusho-gaiden
+http://www.gamefaqs.com/console/genesis/code/586623.html
+http://www.romhacking.net/trans/1222/

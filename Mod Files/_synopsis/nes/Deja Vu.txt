@@ -1,0 +1,41 @@
+Deja Vu
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure - Graphic
+Gametype: Licensed
+Release Year: 1990
+Developer: ICOM Simulations
+Publisher: MindScape
+Players: 1
+_________________________
+
+You emerge from a groggy stupor and find your right palm covered with dried blood. Hmmm... no wounds... must be someone else's blood. The pain in your left forearm grabs your attention and you notice a tiny puncture. Is this from some type of injection? Your heart skips a beat as you realize that you can't remember who you are!
+
+--From the NES Deja Vu instruction manual.
+
+Overview:
+
+Deja Vu plays almost just like Shadowgate. It was made by the same people and even used the same engine. Deja Vu is set in a more modern time though. It was pretty cool for a point and click game. It was pretty hard though. They made it where you could do things that would make it virtually impossible to beat the game, which means you had to start all over. Deja Vu is pretty fun, but be careful, or you'll have to start over.
+
+Directions:
+
+Solve the mystery of who you are and why you can't remember.
+
+Controls:
+
+A Button: Make a selection with the pointer. Also used to read the next part of a message.
+B Button: Deselect commands.
+Start Button: Start the Game
+Select Button: Select
+
+Hints:
+
+Take Everything
+- Be sure to take everything the game will let you, you never know where you are gonna need something.
+
+Reviewer:
+
+Adrian
+http://www.consoleclassix.com/nes/deja_vu.html

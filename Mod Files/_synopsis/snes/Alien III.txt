@@ -1,0 +1,96 @@
+Alien 3
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Action, Movie adaptation
+Gametype: Licensed
+Release Year: 1993
+Developer: Probe Entertainment
+Publisher: LJN
+Players: 1
+_________________________
+Urgent Communique
+
+F161-C-WYCORP-NTCMCN-01500
+
+...Urgent...Code Red Alert...Multiple Xenomorph Presence Confirmed on Fiorina 161...Several Prisoners Confirmed Dead...Nesting Activities Suspected Near Disabled Central Power Generators...Prime Directive: Do Not Destroy Xenomorphs...Prisoners Are Expendable...Repeat: Do Not Destroy Xenomorphs...Prisoners Are Expendable...Rescue Ship Dispatched...ETA: 12 Hours...Weyland-Yutani Network
+
+COMCON 01500 OUT...ENDMSG
+
+The Alien Horror Lives...And Thrives!
+
+You are Ripley, a C-3 Grade Lieutenant for the Weyland-Yutani Corporation. After barely surviving an encounter with the alien xenomorph life forms, you were returning to earth in hypersleep aboard your ship, the Sulaco. The Sulaco malfunctioned, jettisoning the emergency escape vehicle with the crew's cryotubes towards Fiorina "Fury" 161, a nearly abandoned maximum security work prison deep in space. You awoke to find yourself stranded on the isolated planet, the only survivor of the crash.
+
+The only Human survivor, that is.
+
+Because the Aliens you thought you'd left behind, the living nightmares you'd hoped, you'd prayed, you'd never see again, are with you. And the horror you thought was over is beginning anew.
+
+Somewhere in Fury 161, a Queen Alien is spawning dozens, if not hundreds, of offspring that feed on flesh. The alien egg pods are everywhere, but that's only the start of your problems. The aliens multiply by invading human bodies and growing inside them, and they've kidnapped the entire population of Fury 161!
+
+You've lived through this once before. Somehow, you survived. Now, you must face the Aliens again, and stop them once and for all!
+
+Armed with your weapons and your wits, you are on a mission of survival. Your objectives are clear: free the prisoners that have been trapped in alien cocoons, eliminate the alien offspring that are infesting fury 161, and destroy the Queen nesting deep within the prison. If this weren't enough, all of this must be completed before the Weyland-Yutani ship arrives and gives the xenomorphs an opportunity to escape and infest other worlds.
+
+You are engaged in the most frightening life or death struggle imaginable, and the odds are stacked against you.
+
+--From the SNES Alien 3 instruction manual.
+
+Overview:
+
+Alien 3 was definitely a fun game. It had an already mega-popular story because of the huge success of the Alien movies. The graphics were awesome, with great attention to shading.
+
+The game wasn't always just shoot the enemies, sometimes you had to repair some computer equipment or weld doors shut. This added to the realism of the game, and this was the first time I had seen anything like that in a video game. It makes you feel like you really are Ripley, and you have to survive this nightmare. Survive by not just mindless violence, but by using your head, and skills.
+
+When it comes to firepower, this game had it all, from machine guns to flame throwers. The sounds effects sounded just like the movie, giving it that same scary movie feel. An action packed thrill ride stuffed to the brim with malevolent aliens trying to lay their eggs in your stomach. 
+
+Directions:
+
+Alien 3, here's where it starts to get really good. All of your time is spent in the penal colony, running around in tunnels, getting supplies from the infirmary, blowing the heck out of aliens, saving prisoners, and welding doors shut to keep the aliens contained. When welding a door or fixing electronics, be sure the area is clear of enemies, so you will have enough time to finish the task. If you get hit before your timer runs out, you will have to start your task all over again.
+
+Controls:
+
+A Button - Machine Gun
+B Button - Jump
+X Button - Grenade Launcher
+Y Button - Flame Thrower
+L Button - Scroll through your ammo
+R Button - Scroll through your ammo
+Start Button - Start, Pause
+Select Button - Motion Tracker
+
+Hints:
+
+End Sequence
+To view the ending put in this code- OVERGAME 
+
+Tips:
+
+Invincibility, unlimited weapons, and no damage codes.
+Begin the game and press ABYX on controller 2. Press A on controller 1 and a number will appear in the top
+corner. Re-enter the code on controller 2 and press B or X to increase the number to one of the ones below:
+3 Invincibility
+1 Invincibility
+2 No damage
+4 Unlimited weapons
+5 Unlimited weapons and invincibility
+6 Unlimited weapons and no damage
+
+Level Passwords:
+VERGAME Ending
+QUESTION Level 02
+MASTERED Level 03
+MOTORWAY Level 04
+CABINETS Level 05
+SQUIRREL Level 06
+
+Various Cheats
+On Controller 2 press A-B-Y-X then enter the following code on Controller 1....
+A-Invincibility
+B-Double Damage Inflicted on Enemies
+X-Infinite Ammo
+
+Note: You can do all three of these cheats, but you will have to re-enter the code for Controller 2
+
+Reviewer: Adrian
+http://www.consoleclassix.com/snes/alien_3.html

@@ -1,0 +1,43 @@
+HyperZone
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, 3D, Shooter
+Gametype: Licensed
+Release Year: 1991
+Developer: HAL Laboratory
+Publisher: HAL America
+Players: 1
+_________________________
+HyperZone plays like a cross between a racing game and shooter. The object of the game is to navigate each level while shooting enemies and earning points, until finally an encounter with a boss ends each level. After enough points are acquired, the player earns an "extend" and his or her ship is upgraded in the next stage. The player's ship can receive up to six upgrades.
+
+As a racing game, the resemblance is visual. The mode 7 "tracks" bear a resemblance to the well-known progenitor of mode 7 racing, F-Zero. As a rail shooter, in the same vein as Star Fox, the player's ship is constantly pushed forward through each level. While it is possible to slow down, doing so eventually causes damage to the player's ship.
+
+HyperZone contains eight levels in total. After the initial game is finished, it restarts from the beginning with the player continuing in the same ship and keeping score; the game loops infinitely.
+
+Development &amp; Reception:
+
+HyperZone bears a striking resemblance to Eliminator, a game released for the Amiga and various 8-Bit computers. The game's perspective and its unusual landscapes were inspired by the "Star Gate" sequence of 2001: A Space Odyssey. The offtrack landscape in the Material Factory (Area 1 in the US/European version, Area 3 in the Japanese version) is a tessellation of flashing tetrominos that resemble those in Tetris; the boss in Area 3 resembles the right part of the SNES controller, and buttonsof the same four colors as the Super Famicom logocircle around it. Another HAL game, Kirby's Dream Land 3, references this game: the final area in the game is called Hyperzone, and several other areas share names.
+
+The authors of Video Game Bible: 1985-2002 praised the game's "impressive graphics and level design" and called it a cross between Space Harrier and F-Zero, but criticized its short length and "shallow" gameplay.
+
+Tips:
+
+Level Select
+At the title screen press B, B, L, R, Left, Left, Select. Now you can push up to change levels.
+
+Sound Test
+At the title screen, hold both L and R together. Select music or sound by pressing Right or Left on the d-pad,
+then hitting A. 
+
+Unlockable ships
+After you accumulate a certain amount of points in this game, you will gain a new ship (which you will pilot after the level switches). You will also gain one stock (life) along with the ship (after you have got all the upgrades, you will no longer gain any stock).
+
+BM 4 Reform 170 000
+H Wing 30 000
+P-7 60 000
+RW 91 80 000
+X 003 140 000
+
+http://en.wikipedia.org/wiki/HyperZone

@@ -1,0 +1,30 @@
+Target: Renegade
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Beat 'em Up
+Gametype: Licensed
+Release Year: 1990
+Developer: Software Creations
+Players: 1 or 2
+_________________________
+
+Here is Mr. K once again. After defeating the recent gangs from the past, and their leaders Mr. K restored peace in his city. But one day, a mob boss by the name of Mr. Big came to Mr. K's city with a arsenal of new gangs like: The Berserk Bikers(who look like Brett ''The Hitman'' Hart), The Biker Ladies, The Southside Stranglers, The Baseball Boys(who have arms like ''Big Poppa Pump'' Scott Steiner), The Dagger Dudes, The Bruise Brigade, The Skate Lords, The Hammerheads, and the Karate Clan. Mr. Big ordered them to kidnap Mr. K's brother and he also put a contract out on Mr. K's head. But, Mr. K is not running away. He is going to go through three parking garage levels, downtown, the park, and uptown all the way to the Big Pig Pen, where Mr. Big hides out. But, beware its not only the gangs he has to worry about its also Mr. Big's right-handed men like: Achilles, Big Bob, Ciggy and a army of Mr. Big's bounces.
+
+So its up Mr. K to put an end to Mr. Big and the gangs and save his brother if he doesn't lose his head first.
+
+Controls:
+A Button: Punch. Press in conjunction with the up, left and right arrows to perform different punches. 
+A+Down: Pick up an item.
+B Button: Kick.
+D-Pad: Moves Renegade. Down arrow makes him crouch or stand on an object to be picked up.
+
+Special Moves:
+Down+B: Ankle sweep.
+Up+B: Jump kick. You'll get to know it well, trust me.
+Press A in conjunction with Left, Right or Up to perform different
+punches.
+
+Reviewer: Master HEJ
+http://www.gamefaqs.com/console/nes/review/R33147.html

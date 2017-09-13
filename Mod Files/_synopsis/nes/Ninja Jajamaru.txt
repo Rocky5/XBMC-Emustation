@@ -1,0 +1,22 @@
+Ninja Jajamaru: Legend of a Demon's Gate
+Original title: Jajamaru Gekimaden: Maboroshi no Kinmajou
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Translated
+Release Year: 2009
+Translated by: aishsha, Stardust Crusaders
+Version: 1.0
+_________________________
+NOTE: Only works in NestopiaX
+
+I guess in a sense, this game is like Zelda, but with ninjas instead and a yoyo for a weapon instead of a sword. So some hellish monk decides to resurrect some great, big and evil demon and you're charged with the task of defeating them/it. Overall I'd say the game is pretty good with good music and a good story. I suppose the dungeon design was pretty uninspired as they kind of seemed the same, but it's not a big deal.
+
+Translation Description
+
+After a few months of work, aishsha and I have complete transaltion patch for Jajamaru Gekimaden. We have translated the title as Ninja Jajamaru: Legend of the Demon's Attack ~Castle of Dreams~ Hopefully the patch should be without issues.
+
+Reviewer: Pennywise
+http://www.romhacking.net/trans/1444/

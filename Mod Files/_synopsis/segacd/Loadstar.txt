@@ -1,0 +1,16 @@
+Loadstar: The Legend of Tully Bodine
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Shooter
+Gametype: Undefined
+Release Year: 1994
+Developer: Rocket Science Games
+Publisher: Rocket Science Games
+_________________________
+Loadstar is a rail-shooter concerned with shooting enemies while navigating your ship, much like Sewer Shark. You're actually on rails in this game, as you travel in a truck/train called Loadstar along a magnetic rail network covering the moon. Shifting the cursor to the edge of the screen changes to a different track when available, with incorrect turns either killing you instantly or moving you off-course from the level end. Direction indicators and distant landmarks help keep you driving in the right direction, while accidents, track closures, and robot cops work to keep you from it. Your weapons "tag" enemies and force them to explode, or can tag incoming shots and deflect them with a separate shield button.
+
+Gameplay is broken into three levels as you race from one destination to another to escape with your cargo. The game features sophisticated full-motion video cutscenes breaking up the levels and providing the story. Barry Primus and Ned Beatty star.
+
+http://www.mobygames.com/game/sega-cd/loadstar-the-legend-of-tully-bodine

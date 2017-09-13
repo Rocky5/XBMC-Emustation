@@ -1,0 +1,64 @@
+Bomberman
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1985
+Developer: Hudson Soft
+Publisher: Hudson Soft
+Players: 1
+_________________________
+
+Bomberman is a robot engaged in the production of bombs. Like his fellow robots, he had been put to work in an underground compound by evil forces. Bomberman found it to be an unbearably dreary existence. One day, he heard an encouraging rumor. According to the rumor, any robot that could escape the underground compound and make it to the surface could become human. Bomberman leaped at the opportunity, but escape proved to be no small task. Alerted to Bomberman's betrayal, large numbers of the enemy set out in pursuit. Bomberman can rely on bombs of his own production for his defense. Will he ever make it up to the surface? Once there, will he really become human?
+
+--From the NES Bomberman instruction manual.
+
+Overview:
+
+Blow up everything! Well, except yourself, and that gets harder and harder. Blow up walls and baddies. Collect cool bomb upgrades that do things like allow you to drop more than one bomb at a time, or give you a bigger explosion thus allowing you to destroy more blocks faster.
+
+The graphics are fairly simple, but it doesn't make the game any less fun to play. The enemies look really surprised when they die, it's funny. Most of the sound effects are your standard bleeps and blips but the explosion sound is pretty good. The music is cornball but hey, I love it.
+
+Directions:
+
+Work your way across the screen blasting walls and baddies. Upgrades work as follows:
+
+BOMB lets you drop more bombs (max of ten)
+
+FIRE increases your blast by one square in each direction (max of five)
+
+HEART allows you to detonate bombs remotely whenever you want
+
+SKATES allow you to move faster
+
+QUESTION MARK makes you invincible to baddies and explosions for 35 secs
+
+BOMB WITH LINES allows you to walk through your bombs
+
+MAN WITH LINES allows you to walk through bricks
+
+BLACK FIGURE WITH FLAMES means you are now fire proof and can't be hurt by your bomb's fire
+
+Collect the upgrades to make your game easier, and find the door within the time limit. If the time runs out, red button baddies will appear and they're super fast. They are just about impossible to survive. Defeat the enemies and then go through the door.
+
+If it's a bonus level, then there will be nothing but baddies. You cannot be hurt on this level, so let loose and kill as many baddies as you can within the time limit. 
+
+Controls:
+
+A Button: Leave a bomb
+B Button: Detonate bombs remotely (with HEART upgrade)
+Start Button: Pause
+Select Button: Switch Choices in Startup
+
+Hints:
+
+Baddie Boom
+- If you bomb a door or an upgrade, then meaner, faster baddies will come out of it. Avoid that.
+
+Know Your Losses
+- If you are killed, you only lose the walk-through upgrades, detonator, and flame-proof upgrades.
+
+Reviewer: fallenrain
+- http://www.consoleclassix.com/nes/bomberman.html

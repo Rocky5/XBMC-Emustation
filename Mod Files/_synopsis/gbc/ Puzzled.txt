@@ -1,0 +1,18 @@
+Puzzled
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2001
+Developer: Elo Interactive
+Publisher: Conspiracy Entertainment
+_________________________
+Disguised behind a 50's style B-movie background story about an evil professor (trying to take over the world, of course) who turns the hero (you) into a shapeless 'blob', is an increasingly complex strategic puzzle game with a variety of different targets. Typical Mission goals would be centered around clearing the screen of all elements, but hitting certain targets on the way and making sure that there is still a route to the exit. If the player reaches the exit with all mission objectives complete, the next level is introduced by a password. Playtime per level is up to 20 minutes and there are 150 levels. The first 20 or so levels introduce all game elements one by one.
+
+There are various extras, allowing to manipulate puzzle pieces, remove blocked routes and so on, as well as special blocks such as teleporters (beaming you around the playfield), or ice (making direction changes impossible) etc.
+
+The basic principle is like memory, i.e. two equal looking puzzle pieces need to be found and are then taken of the playfield. To do that the player can 'clone' the blob, and send his alter ego to connect the blocks occupied by the main character and the clone.
+
+http://www.mobygames.com/game/gameboy-color/puzzled

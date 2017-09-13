@@ -1,0 +1,32 @@
+Dual Orb 2
+Original title: Dual Orb 2
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Turnbased
+Gametype: Translated
+Release Year: 2008
+Translated by: Translation Corporation
+Version: 1.5
+_________________________
+Dual Orb 2 is a fairly generic RPG for the SNES. The graphics are good, the plot's alright, the music's good (although the inclusion of a boss battle theme would have been nice?), and the whole thing screams of "basically above average."
+
+You play as Aleth, heir-successor-person who was mysteriously found on a mountainside. You grow up being trained as a priest next to the crown prince Lagnus, and all is hunky-dory. You even go out and build a fort in the woods when you're a kid. Then, at one point, a visiting bard (who happens to be the only bard in any RPG I've played who can really kick some ass in battle) needs to get to the neighboring country, so you and Lagnus tail along. You naturally do your damnedest to get in trouble and break a seal and wake up your third real party member, and when you get back home, the place has been ransacked by the stereotypical Evil Invading Empire, and stuff happens and things. Yep. Again, nothing groundbreaking, but it works.
+
+The interesting thing about the game is that there are very few real weapons that you can buy, maybe only ten or fifteen varieties total. Rather, you can spend your money upgrading your weaponry. Each time you upgrade it, it gets stronger (naturally) and once you upgrade it past a certain point, it becomes an uberweapon and you can use a special sekrit technique if you're low on health.
+
+You wander around in dungeons and on the overworld, like in standard RPGs, and this is where one of my minor gripes comes in. The overworld is done in a tilted Mode-7 style, like FF3/6's overworld, but quite simply, it's too zoomed-in. The world is kind of small, but when you're trying to explore the massive southern continent with the desert on it, the zoomed-in view, combined with the encounter rate, actually started to get me kinda lost.
+
+Speaking of the encounter rate, I might as well mention right here and now that it's high. Very high. Some might consider it to be ridiculously high. Battles go by quickly so it wasn't much of a big deal for me, but it might be for some people. Another thing I should probably mention in this paragraph, while I'm dealing with the combat system, is the difficult level. Some people consider this to be one of the hardest SNES RPGs ever, but I can't say I had a very difficult time of it? The fact of the matter is that stat-boosting spells and items are cumulative and last for the duration of the battle (or your character's health bar) so you can just pump your party up until the enemies aren't doing squat for damage against you and then just slaughter them.
+
+The high encounter rate and general above-average difficulty of the normal random battles was nice, though. I found myself actually having to level up. Not for extremely excessive amounts of time - the game is only 20 or 30 someodd hours long - but it was definitely necessary. The prospect of a bit of a challenge was fun for a change.
+
+I freely admit to not having beaten many fan-translated games (aside from the ones I've worked on, heh?) I can probably count them all on one hand. Suffice to say, I beat Dual Orb 2, and I was very satisfied with it. Your mileage may vary.
+
+Translation Description:
+
+6 years after the original release, Nightcrawler continues to improve the Dual Orb 2 translation. The newest version (1.5) introduces a host of fixes and minor improvements. This translation is looking better than ever though two somewhat obscure minor issues remain (check readme file for details), though most players will probably never notice.
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/345/

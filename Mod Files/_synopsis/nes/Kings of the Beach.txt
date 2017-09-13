@@ -1,0 +1,49 @@
+Kings of the Beach
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Beachvolley
+Gametype: Licensed
+Release Year: 1990
+Developer: Ultra
+Players: 1-4
+_________________________
+
+Beach bums move into Beverly Hills
+
+Back in the '50's (just before Frankie and Annette hit the scene) beach volleyball was uncomplicated. No audiences. No publicity. No prizes. No babes. The guys were just kings of their own little sand castles.
+
+Today, the game has outgrown its Southern California britches. Pro beach volleyball has fans in places as diverse as San Diego, Honolulu, Rio de Janeiro and Sydney. Prize money can go as high as $100,000 for a tournament. If these guys still have a beach bum image, it's a gold-tinted one.
+
+Of course, one thing is still the same in this modern-day sport of kings. And that's motivation. It's all about being King of the Beach, where the royal garb is a golden tan and the queen is dressed in a leopard-skinned bikini!
+
+--From the NES Kings of the Beach instruction manual.
+
+Overview:
+
+Kings of the Beach is a pretty fun volleyball game. The graphics look good. The sprites are well drawn, and so are the backgrounds. There isn't much of a story, it's just you trying to be the best volleyball team you can be. The gameplay is fun because you can play against a friend or go for the gold against the computer. The controls are kinda slow, but they are simple. The only thing I found difficult was spiking the ball. You use both of the buttons, and you have to time them just right with a set from your partner. The sounds were decent. The music is good because there isn't too much of it, and the sound effects were pretty realistic for a NES game. Overall, a fun game to play.
+
+Directions:
+
+Play against other teams in 2-on-2 beach volleyball. You must beat all challengers, in order to be crowned as King of the Beach. Or, you can battle your friends in two-player mode. You can also practice by choosing a game mode named after the aspect of the game you want to practice: bump, set, or spike.
+
+When serving, you have two options. You can press A to throw the ball, and then press A again to jump-serve it. Or, you can just press A and B at the same time and serve the ball without jumping. The latter is much easier to perform, but it will be much easier for your opponents to field.
+
+Most of the time you won't have to move the player you're controlling too much, he will move to where the ball is landing on his own. The only time he won't is when it's too far away. If you press A to hit the ball, you will bump the ball. If you press B, you will set the ball. After your teammate sets the ball, you can spike it by pressing A and B when the ball is on it's way down. Your timing will determine how hard the spike is. You can also press the directional pad in the direction you want the spike to go. 
+
+Controls:
+
+A Button: Bump
+B Button: Set
+A and B Button: Spike/Block
+Start Button: Pause
+Select Button: N/A
+
+Hints:
+
+Stage 5
+To get to stage five, put in the code Australia Sundevil. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/kings_beach.html

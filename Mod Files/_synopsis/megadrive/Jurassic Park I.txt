@@ -1,0 +1,13 @@
+Jurassic Park
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: Blue Sky Software
+Publisher: SEGA
+Players: 1
+_________________________
+Jurassic Park for the Sega Mega Drive is a platform game developed by BlueSky Software and published by Sega in 1993. The player can play as either Dr. Grant or a Velociraptor, each with varying gameplay objectives.

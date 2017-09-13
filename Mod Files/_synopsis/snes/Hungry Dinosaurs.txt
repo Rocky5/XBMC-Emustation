@@ -1,0 +1,28 @@
+Hungry Dinosaurs
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle, Static
+Gametype: Licensed
+Release Year: 1995
+Developer: Magical Co., Ltd.
+Publisher: GameTek
+Players: 2
+_________________________
+"This game doesn't know who to appeal to"
+
+I tried out Hungry Dinosaurs (JP: Harapeko Bakka) on a whim, since I had no clue exactly what it was. It turned out to be a simply-designed puzzle game, a kind of game which really isn't seen much anymore. This game isn't as good as some others of this genre, however, mainly because it tries to cater to younger audiences and more mature audiences, and fails on both counts.
+
+There's no story to speak of, as far as I can tell. However, games like this didn't thrive on even a semblance of a story, so this isn't a big problem. As for the play, it's straightforward. Single-player mode pits one player against the computer. The characters are essentially Yoshi rip-offs with more teeth. Play takes place on a 10 x 10 grid. As one of the dinosaurs, you have to lay down as many eggs as you possibly can. By some strange feat of genetic engineering which proves that dinosaurs are smarter than humans, you can change the parent of the eggs (the color, if you don't follow) by having a row, column, or diagonal of eggs encompassed by two eggs of your color. Example: R is Red's eggs, G is Green's eggs. If the laid-down row looks like (RRRRRRG), if you place a G on the opposite end of the row of the placed G (GRRRRRRG), you turn the entire row to G (GGGGGGGG). The object is, by the end of the time period (about 40 seconds), to have the most eggs of your color laid down on the grid.
+
+There are problems with this game. The visuals appear to be made more for younger players; more mature gamers might be turned away by their simplicity. So, it's a game that appeals to younger players, then? Not quite. Even on the easiest difficulty, the game is impressively hard. The AI performs very well, and often times you will lose despite trying your best. You can find strategies to use, but they change with every stage, and take a lot of time to figure out. This is something that the younger of our generations do not fare so well at, if my own observations are any indication. This means that the game caters to an indistinct audience, and that doesn't make it overly appealing.
+
+The multiplayer function confuses me. I haven't played the multiplayer, not having anyone to help me try it out, but they offer a range of two to four players. That's a mean feat on a console with only two controller slots, and I've never heard of an SNES accessory that adds the number of possible players (though there's probably one out there). They do offer hat appears to be a sort of tag-team play, but I don't get that either.
+
+I suppose, if one could get past the kiddy graphics and focus mainly on the puzzle aspect of the game, they would enjoy the challenge. That's a lot to ask for for many people, though, and with other puzzle games that are more fun to play, like Yoshi's Cookie or Tetris, this one will fall by the wayside.
+
+Reviewer's Score: 4/10, Originally Posted: 11/21/05
+
+Reviewer: Genesis_Dragon
+http://www.gamefaqs.com/console/snes/review/R94494.html

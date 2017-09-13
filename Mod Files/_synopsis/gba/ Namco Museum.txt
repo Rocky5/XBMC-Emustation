@@ -1,0 +1,22 @@
+Namco Museum
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Compilation - Arcade
+Gametype: Licensed
+Release Year: 2001
+Developer: Mass Media
+Publisher: Namco
+_________________________
+This collection of classic arcade titles includes:
+
+- Dig Dug
+- Galaga
+- Galaxian
+- Ms. Pac-Man (both scrolling and full screen)
+- Pole Position
+
+For certain games the settings can be tweaked.
+
+http://www.mobygames.com/game/gameboy-advance/namco-museum_

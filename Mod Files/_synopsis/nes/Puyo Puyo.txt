@@ -1,0 +1,20 @@
+Puyo Puyo
+Original title: Puyo Puyo
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Translated
+Release Year: 2000
+Translated by: Aeon Genesis
+Version: 1.0
+_________________________
+This is a nifty little game here. It's like Tetris or Columns, except a hundred times better :). Basically, Puyo fall from the top of the screen, and you have to match at least four of the same color to clear them. You can play it infinitely until you die ala Tetris and Columns, or you can play with certain goals, like trying to clear so many Puyo all at once, or to chain two clears together, etc. It's wicked fun, so try it out!
+
+Translation Description:
+
+Yep, everything's been translated. LA.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/203/

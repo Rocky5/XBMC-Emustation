@@ -1,0 +1,14 @@
+Rox
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2001
+Developer: Altron
+Publisher: Titus Software
+_________________________
+Rox is a Stacking Puzzle game, developed by Altron and published by Titus Software, which was released in Europe in 2001.
+
+http://www.gamefaqs.com/portable/gbcolor/home/579231.html

@@ -1,0 +1,16 @@
+EggerLand
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1987
+Developer: HAL
+Publisher: HAL
+Players: 1
+_________________________
+
+Eggerland is a Puzzle game, developed and published by Hal, which was released in Japan in 1987.
+
+http://www.gamefaqs.com/console/fds/home/578372.html

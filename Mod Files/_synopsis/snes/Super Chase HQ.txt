@@ -1,0 +1,21 @@
+Super Chase H.Q.
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Cars
+Gametype: Licensed
+Release Year: 1993
+Developer: Taito Software
+Publisher: Taito Software
+Players: 1
+_________________________
+Super Chase H.Q. is an enhanced sequel to Chase H.Q. As usual, you must drive your way towards a criminal's vehicle, which is known to be involved in some crime, while avoiding passing cars to gain points. Your car also comes equipped with three turbos, which can be useful if you are way behind the vehicle.
+
+But this time, cars aren't just the only things that you have to worry about. You will also encounter bikes that shoot or throw firebombs at you, as well as cars that go the wrong way. (If you crash into one of these, you'll be sent flying through the air.) Not to mention other obstacles such as barricades.
+
+Furthermore, as well as the criminal's damage indicator, you also have your own. When you finally catch up with each criminal, they are likely to shoot at you if you get too close to their vehicle, but you may encounter criminals who have different ways of attacking you. The fourth criminal, for example, launches a missile at you if you are further behind him. Once you are shot at and hit, your indicator decreases for every time you are hit, but this rule does not apply when you're hit by passing cars. When your indicator is empty or when you're out of time, the game ends.
+
+When you complete each round, a statistics screen will appear, and you are awarded points based on the time remaining, how much damage you've done, and the number of nitros that are used. One of the options allow you to display the game's speedometer in either MPH or Km/h. The game also has a storyline, which can be viewed in between rounds.
+
+http://www.mobygames.com/game/snes/super-chase-hq

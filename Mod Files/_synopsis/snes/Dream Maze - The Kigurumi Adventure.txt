@@ -1,0 +1,28 @@
+Dream Maze: The Kigurumi Adventure
+Original title: Yume Meikyuu: Kigurumi Daibouken
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Maze
+Gametype: Translated
+Release Year: 2005
+Translated by: KingMike's Translations
+Version: 1.0b
+_________________________
+This is one of the weirdest Super Famicom games I've ever had the chance of playing. And it's also pretty damn fun. There's not much of a story to start with, but it's enough to get you started.
+
+You play a generic hero (who's a kid) destined to dream the same thing over and over until you rescue the world of Enderia, which is governed by the evil demon Akumu. But the hero isn't alone. Along the way, he'll find companions which will hopefully help him out.
+
+The game is different from most console RPGs in two ways: First, you can find different "kigurumis", or costumes, when you beat your enemies - and when you wear it, your abilities will change for the better or worse. This is rather interesting because of the amount of enemies that there are in the game; you begin with a sparrow costume (which the hero does not like), but eventually you find other costumes which you can change in special dressing rooms spread across the mazes. Oh yeah, there's also tailor shops where you can modify, store or take out your suits, since you can only carry six at a time. And each suit may have a special ability as well.
+
+The other curious thing is the battle system. You basically have a typical turn-by-turn mode, but you attack using punches or kicks along a grid that surrounds your enemies. You can choose exactly where to hit them; this may prove to be useful to find weak spots. Also, certain enemies are weak to punches or kicks. The game will tell you if you did something right, which helps.
+
+The music is? well? it's catchy. There's some areas in the game that sound totally trippy, like something out of a Mexican late-1960's movie. Ever seen any of those badly dubbed lucha libre movies on MST3K or public access channels? Well, something like that. But even trippier.
+
+Translation Description:
+
+Well, the translation is finished, but it still has a few bugs. The hacking in this game is amazing, just as the rest of KingMike's works. And check out that pretty dialogue font!
+
+Reviewer: Kitsune Sniper
+http://www.romhacking.net/trans/860/

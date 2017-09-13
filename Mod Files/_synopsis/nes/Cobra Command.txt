@@ -1,0 +1,19 @@
+Cobra Command
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1988
+Developer: Data East
+Publisher: Data East
+_________________________
+
+Based on the 1984 Data East coin-op.
+
+Game Review by Santulli Slant:
+
+This game tries hard to be everything BUT unique. Power it up and it plays quite a bit like the classic Choplifter. All of this under a decidedly Metal Gear presentation. Despite its efforts to imitate, it stands fairly well on its own.
+
+http://www.digitpress.com/

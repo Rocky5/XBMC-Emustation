@@ -1,0 +1,38 @@
+Gyromite
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: R.O.B.
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1985
+Developer: Nintendo R&amp;D1
+Publisher: Nintendo
+Players: 1 or 2 Alternating
+_________________________
+
+Professor Hector and his assistant, Professor Vector, navigate side-scrolling platform levels with the help of their creation, R.O.B. Their lives are threatened by dynamite and hungry little lizards called Smicks, and Professor Hector's sleep-walking tendencies get him in trouble as well.
+
+Gameplay:
+
+As the Professor character moves through the levels, R.O.B. must aid navigation by raising and lowering red and blue gates. When a Gyro depresses the red pedestal, red gates are lowered. When a gyro depresses the blue pedestal, blue gates are lowered. The action on the screen never stops, so, while operating R.O.B., the on-screen character continues to be vulnerable.
+
+Game Modes:
+ 
+Game A (1 or 2 players)
+
+In this mode, the player controls both R.O.B. and a Professor character, switching on the fly. Professor Hector (Player 1) and Professor Vector (Player 2) must collect all of the bundles of dynamite in each of 40 successive levels. When the player presses start: the screen turns blue, the Professor looks outward from the screen toward R.O.B., and the next button pressed issues one command to R.O.B.every command to R.O.B. must be preceded by a press of the Start button. Wandering Smicks are a threat, but are harmless when eating the turnips found throughout the phases, which the professor may pick up and move at will. A Smick crushed in a gate is worth 500 points. Bundles of dynamite are worth 100 points. Seconds left on the clock after each level are worth 100 points. Five extra lives are supplied.
+
+Game B (1 player)
+
+In this mode, Professor Hector is sleepwalking, and the player controls only R.O.B. Commands need not be preceded by the Start button, as R.O.B. is controlled directly. The Professor starts at the left edge of the screen, and walks slowly toward the right side of the screen. If he hits a gate, he'll just continue to walk straight into it until it moves out of his way. The player must use R.O.B. to move the gates, allowing the Professor to reach the right side of the screen. Smicks are present in this mode, but they mostly confine themselves to dead ends. There are 25 phases in this mode. Three extra lives are supplied.
+
+Test 
+
+Serves only to confirm that the R.O.B. can receive signals via the television. Pressing select sends a signal that should cause his red LED to light up.
+
+Direct 
+
+In this mode, no game is played: commands are simply sent directly to R.O.B. First-time players or players who just want to operate R.O.B. without playing Gyromite can use this mode to deliver R.O.B.'s commands. Pressing up or down on the directional pad causes the arms to move up and down. Left and right make the arms swivel counter-clockwise and clockwise. The A button opens the big penal arms, and the B button closes them.
+
+http://en.wikipedia.org/wiki/Gyromite

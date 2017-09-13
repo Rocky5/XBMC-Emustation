@@ -1,0 +1,17 @@
+Super Mario Bros Challenge
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2006
+Hacked by: Googie
+Version: 1.0
+_________________________
+This is an old SMB hack that was being worked on by Challenge Games back in 1999 to 2002 (you can find the old demo at Zophar's Domain) This hack was long forgotten and someone needed to finish it, so here it is. There's also a HTM file with this patch that talks about this hack from the original authors.
+
+So here's the final version of Super Mario Bros. Challenge, a tribute if you will, to The Challenge Games Community. Enjoy the hack everyone. :D
+
+http://www.romhacking.net/hacks/192/

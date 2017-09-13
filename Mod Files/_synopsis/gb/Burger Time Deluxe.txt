@@ -1,0 +1,14 @@
+Burger Time Deluxe
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Data East Corporation
+Publisher: Data East USA, Inc.
+_________________________
+You play as Peter Pepper, Chef Extrodinaire. Your objective is to make burgers by walking across the all the parts completely. Each area where the burger pieces are, are connected by ladders. Watch out though, these areas are patrolled by the food foes, Me. Hot Dog, Mr. Pickle, and Mr. Egg. Pepper is his best weapon against them. One shake can send send them into a crying fit allowing Peter to pass by. Pepper is a precious commodity and must be conserved. Each successive level gets harder with more enemies and parts of the burger to walk across.
+
+http://www.mobygames.com/game/gameboy/burger-time-deluxe

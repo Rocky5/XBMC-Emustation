@@ -1,0 +1,19 @@
+Dezaemon
+Original title: Dezaemon
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter 
+Gametype: Translated
+Release Year: 2000
+Version: 1.1
+_________________________
+This is a pretty interesting game. You can use it to pretty much create your own scrolling shooter game. It's pretty simple: you go in and create a title screen, soome enemy and player sprites using a fairly simple editor, then design your map and place the enemies. It was probably one of the first "Make your own ... "-type-game. You should also note that it comes with a pre-made game, however it is insanely difficult!
+
+Translation Description:
+
+This patch translates all of the menus, and well .. everything. Pick it up and try it out!
+
+Reviewer: wraith
+http://www.romhacking.net/trans/117/

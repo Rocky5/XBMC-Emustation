@@ -1,0 +1,18 @@
+Mega Man III Return
+Original title: Mega Man III
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2009
+Players: 1
+Hacked by: Pantheon Sasuke
+Version: 1.0
+_________________________
+Mega Man III Return changes the majority of the graphics from the original Mega Man III. Level design, enemy placement, and enemy resistances have also been altered in order to ramp up the difficulty, but there are no true modifications made to the AI.
+
+If you were looking for a Mega Man III hack with new gameplay elements and enemy actions, I'm afraid this isn't the hack you're looking for. If you are looking for a challenge, though, you might want to consider trying it out.
+
+http://www.romhacking.net/hacks/552/

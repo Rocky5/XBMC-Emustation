@@ -1,0 +1,43 @@
+Adventures of Lolo
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: HAL Laboratory
+Publisher: Hal Laboratory
+Players: 1
+_________________________
+
+The Great Devil has kidnapped Princess Lala! It's up to Prince Lolo to go to the haunted castle and navigate through the Devil's many mazes, ultimately defeating the Great Devil and rescuing Lala.
+
+Directions:
+
+Adventures of Lolo is a cute little puzzle game. The point of each level is to collect all the Heart blocks, which will open up a chest containing a jewel. When you get the jewel, the room is cleared of monsters and the door opens to the next level.
+
+Each room is a maze of various blocks, including Heart blocks, Emerald blocks which you can push around, One-Way Passes which only allow movement in one direction, rocks, trees and water. The rooms are also populated with monsters who will try to block your path or destroy you. Most monsters become more dangerous after the jewel chest opens, so try to get a clear path to the chest when you get the last Heart.
+
+Some Heart blocks will give you Magic Shots. Use them to turn enemies into an egg temporarily. You can push eggs around, and sometimes you can push them into the river and use them as a raft, but if the water is not flowing then Lolo will sink. Shooting an egg will make it fly out of the screen if you need to clear a path where a monster is. The monster will return to its original position after a short time.
+
+Finally there are some tools which become available when you need them, which you can use after you pick up certain Hearts. Bridges can be used to cross small streams, Hammers can be used to destroy rocks in your way, and One-way tools are used to reverse the direction of a One-Way Pass.
+
+If you get stuck in a level and realize that you can't beat it from where you are, press Select to restart the level with one less life remaining.
+
+Controls:
+
+A Button: Use Magic Shot or Tool
+B Button: Not used
+Start Button: Start Game
+Select Button: Suicide
+
+Hints:
+
+Passwords
+BJBM....Level 2-1
+BQBG....Level 3-1
+BZZY....Level 4-1
+CHZP....Level 5-1
+
+http://www.consoleclassix.com/nes/adventures_lolo.html

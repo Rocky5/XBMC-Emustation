@@ -1,0 +1,15 @@
+After Burner II
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1990
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+After Burner II is the sequel to After Burner, developed by Sega AM2 in 1987. The game is essentially the same as its prequel, however now features a throttle control which allows the player to adjust his/her speed during gameplay. There are also three new stages, bringing the total to 21 and various gameplay and music tweaks.
+
+Whereas the original After Burner saw ports to simpler video game consoles/computers such as the Sega Master System, After Burner II was ported to more advanced 16-bit systems including the Sega Mega Drive, J2ME, and TurboGrafx-16. After Burner II also saw release as part of the Sega Ages: Volume 1 compilation on the Sega Saturn, and is playable within Shenmue II.

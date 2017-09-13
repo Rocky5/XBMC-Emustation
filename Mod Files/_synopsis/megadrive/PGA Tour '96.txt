@@ -1,0 +1,22 @@
+PGA Tour '96
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Golf
+Gametype: Licensed
+Release Year: 1995
+Developer: NuFX
+Publisher: EA Sports
+Players: 1 or 2 VS
+_________________________
+PGA Tour 96 represents a significant departure from previous games in Electronic Arts's popular Genesis golf series. The links are now modeled in 3D, allowing for visible slopes and varied terrain instead of the straight, flat courses in earlier titles. A new swing meter replaces the tried-and-true horizontal bar, appearing as a blue arc just behind your digitized golfer.
+
+Once you press the button to begin the shot, a line will move up along the arc simulating the natural motion of a backswing: hit the button again to determine power and once more for accuracy. If you don't time the swing correctly, you'll either hook or slice the ball depending on where the line falls on the arc.
+
+The three authentic courses include the TPC at River Highlands, TPC at Sawgrass and Spyglass Hill GC. Players can create their own golfers or elect to play as or against one of ten different PGA Tour pros (with statistics based on the 1994 season): Brad Faxon, Fuzzy Zoeller, Craig Stadler, Jeff Sluman, Mark O'Meara, Davis Love III, Bruce Lietzke, Tom Kite, Lee Janzen and Peter Jacobsen.
+
+The five play modes consist of Tournament (against 56 additional roster players), Match Play, Skins, EA Shoot-Out and Practice. Those who would rather get a feel for the swing meter can also "visit" a Driving Range or Putting Green to work out the kinks. Rounding out the package is battery backup to record statistics (both individual and course), tournament progress and created golfers.
+
+Reviewer: Scott Alan Marriott
+http://www.allgame.com/game.php?id=7576

@@ -1,0 +1,13 @@
+James Pond: Underwater Agent
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Millennium Interactive
+Publisher: Electronic Arts
+Players: 1
+_________________________
+James Pond: Underwater Agent is first in a series of games developed by Millennium Interactive. It was first released on the Commodore Amiga and Atari ST in 1990, and was ported to the Sega Mega Drive and Acorn Archimedes in 1991. In the game, the player controls a fish named Pond, who needs to complete a series of rescue missions and stop the evil Doctor Maybe from polluting the world's oceans. Unlike later games in the series, James Pond is not a traditional platform game, as most of the game takes place underwater (similar to Ecco the Dolphin).

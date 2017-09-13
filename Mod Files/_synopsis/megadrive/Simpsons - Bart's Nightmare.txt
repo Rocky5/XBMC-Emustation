@@ -1,0 +1,50 @@
+Simpsons: Bart's Nightmare, The
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1993
+Developer: Sculptured Software
+Publisher: Acclaim Entertainment
+Players: 1
+_________________________
+I can hear you saying: "Bart Simpson lost his homework? Suuure. What's his lame excuse this time?" Hey, I swear, I fell asleep! What a nightmare. Eight levels, each one scarier than the last, with villains like Homer Kong, Momthra, and Barney Gumble riding a pink elephant. I have to collect a page on each level, before I wake up and blow the whole assignment. You're my only hope, man.
+
+Gameplay:
+
+The game is split in two parts. The first is set on a street (probably Evergreen Terrace, but referred to as Windy World). Bart walks around and has to find pages of his homework while avoiding enemies such as post boxes, Lisa and various characters from the show. Bart can collect his skateboard, which acts as a power-up and temporarily increases the player's speed.
+
+Principal Skinner occasionally appears and tries to dress Bart in his Sunday suit. If the player walks into Skinner, Bart will change appearance and become very slow and not be able to fire at enemies. The suit will also protect him from all enemies and will not take damage.
+
+When a page is found in Windy World, the player must jump onto it, where Bart will shrink down on the page, and the player has to choose one out of a selection of two randomly chosen mini-games. The player must point Bart to one of the two color-coded doors to play a mini-game and retrieve a lost page of Bart's homework (if the player doesn't choose, Bart will automatically select the left-hand side door). The doors and games are:
+
+    - The blue door: Bartman, where Bart flies over Springfield as a superhero. Along the way he fights many bosses, including Sherri and Terri, Barney Gumble, Waylon Smithers (you face him twice), and eventually Mr. Burns. Bart also receives power-ups from Apu in this level.
+
+    - The orange door: Indiana Bart, where Bart must navigate the maze-like "Temple of Maggie"
+
+    - The green door: Bartzilla, where Bart must stomp through the streets of Springfield, eventually climbing the Springfield State Building and fighting "Homer Kong" and "Momthra."
+
+    - The yellow door: Itchy and Scratchy, where Bart must avoid the manic duo, as well as various other household objects that become enemies (the oven shoots fire, the telephone explodes, Pyro-Vacuums etc.) This is the only mini-game divided in two; Bart must play one half first and the other half next.
+
+    - The violet door: A journey into Bart's blood stream, where Bart must use an air pump to inflate and destroy germs. This mini-game has a cameo appearance from Smiling Joe Fission (a character from the first-season episode "Homer's Odyssey").
+
+The mini-games can be played in any order; the pages awarded will be 1 through 8 depending on the order they were retrieved.
+
+Upon either losing all the lives in the respective mini-game (and not getting the page back) or completing the mini-game (and receiving the page as a reward), the screen will flash back to Bart's room at night, which shows the amount of points the player has and the number of pages collected, while Bart snores. The completed mini-game will not resurface later in the game. If there is only one mini-game left, both doors will be the same color.
+
+The game ends when Bart dies (thus ending his dream) by losing all of his Zs (Windy World will be covered in a white fog, suggesting Bart is about to wake up) and taking damage one more time, or if he accomplishes all the mini-games. The first shot is a pic of Bart asleep at his desk in his room; if not all pages are recovered, Bart's homework will end in a scrawl, but recovering all pages will have the words "THE END" written on Bart's paper. Depending on how many mini-games Bart finishes and how many points he gets, he is awarded a letter grade. Bart will hold it up for the player to see, and then we see the family's reactions to Bart's grade by having the paper affixed to the refrigerator. An "F" grade would have the entire family upset at him, but a slightly higher grade would cause at least Homer to be pleased with Bart's work.
+
+If one manages to beat all the mini-games and thus collect all the lost pages, the aforementioned room will turn from night to day, Bart will wake up on his own and the proper "ending" is shown.
+
+This mini-game orientated gameplay gave the game an arcade style. Although much of the game could be categorized as platformer, some of the mini-games could fit in the shoot-em-up genre, particularly the Bartman and Bartzilla stages.
+
+Hints:
+
+- Level Select -
+During the opening section when Bart is falling, press:
+A, B, B, A, DOWN, UP, RIGHT, RIGHT, A - Level Select
+
+http://www.gamefaqs.com/console/genesis/home/586459.html
+http://en.wikipedia.org/wiki/Bart%27s_Nightmare

@@ -1,0 +1,24 @@
+Emerald Dragon
+Original title: Emerald Dragon
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Top Down, Fantasy
+Gametype: Translated
+Release Year: 2008
+Translated by: Translation Corporation
+Version: 1.1
+_________________________
+Okay, this is a different sort of RPG. It kinda falls into the same category as Star Ocean and Tales of Phantasia, or perhaps Radia - at least from what I can see - with a top-down, action-oriented system for fighting random battles. The graphics and cinematics are pretty, but I can't say much for the story due to my rather profound lack of Japanese knowledge, heh.
+
+Translation Description:
+
+This is the complete translation.
+
+Nightcrawler has tested on real hardware to ensure it works. If you are unfamiliar with how to apply SNES patches, Nightcrawler has provided a Windows program to ensure the patch is applied correctly. For the rest of you, Nightcrawler has included a standard IPS. Also, be sure to check out the readme for some history on the translation.
+
+The version 1.1 release fixed all reported issues to date (Nov 2008).
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/690/

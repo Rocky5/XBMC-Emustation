@@ -1,0 +1,15 @@
+Side Pocket
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Pool
+Gametype: Licensed
+Release Year: 1992
+Developer: Data East Corporation
+Publisher: Data East USA, Inc.
+Players: 1 or 2 VS
+_________________________
+Side Pocket is a 1986 arcade billiards game by Data East. It was "ported" to the Sega Mega Drive, Sega Game Gear (US only), and SNES in 1992, 1994, and 1993, respectively.
+
+There are three game modes: "Pocket" (the original arcade game, but without move count limits), "9-Ball," and "Trick." "Pocket" and "9-Ball" are typical billiards games. "Trick" has you performing a trick shot to get a ball around bumpers and into select holes in one shot.

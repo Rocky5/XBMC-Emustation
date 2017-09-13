@@ -1,0 +1,19 @@
+Villgust
+Original title: Kouryu Densetsu Villgust: Kieta Shojo
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 1999
+Translated by: Magic Destiny
+Version: 1.00
+_________________________
+This game is an adaptation of a popular anime series of the same name. Unfortunately, neither the anime nor the Nes or Snes games have seen a release in the US. So, I must thank Taskforce &amp; Co. for this excellent translation.
+
+The game itself is standard RPG fare: five heroes are set off to save the world, interspersed with anime cut scenes and random monster encounters. Of course, if you're anything like me (chances are you're not), you'll love this game. It's fun ^_^. If you're a fan of the "old-school" RPG, you'll love this game, download the patch now!
+
+The readme doesn't mention it, but this patch needs a ROM with a header to work.
+
+http://www.romhacking.net/trans/494/

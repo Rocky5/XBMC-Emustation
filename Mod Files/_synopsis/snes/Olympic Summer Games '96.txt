@@ -1,0 +1,17 @@
+Olympic Summer Games
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Competitive Events
+Gametype: Licensed
+Release Year: 1996
+Developer: Black Pearl Software
+Publisher: U.S. Gold
+Players: 1 to 8
+_________________________
+As in the previous titles, there are three difficulty levels and both Olympics and mini-olympics (here called custom game) modes; however, the points table was removed, and the only way to compare results is by the medals' table. In the sprinting events, there are two qualifying rounds, and only the winner (out of only four competitors) pass to the next round. On long jump, triple jump, discus and javelin each player has three attempts; the best 10 progress to the final and have three extra attempts. The best result overall wins. In high jump and pole vault there aren't qualifying rounds, the players jump in turns until missing three consecutive jumps.
+
+The difficulty levels are terribly uneven. While in the high jump they can break the olympic record in easy and miss the 5.80 m barrier at hard, in skeet at easy, top computer players hit 3, in normal 4 and in hard 5. This also leads at an incredibly long medal-awarding ceremony, with four or five competitors in the bronze or silver medal. It's impossible to break the records on archery and skeet events, as the best possible result in skeet is 25 (5x5, the equivalent of only one perfect day) while the record is set on 200 points, and archery with a possible result of 180 (6 arrows in 3 rounds) and 338 points as the record. The remaining records are perfectly possible to be beaten by expert players. The lack of EEPROM saving (which was already common in 1996) means the records are not logged inside the game, and as soon as the console is unplugged (rather than just reset), the default records return.
+
+http://en.wikipedia.org/wiki/Olympic_Summer_Games_(video_game)

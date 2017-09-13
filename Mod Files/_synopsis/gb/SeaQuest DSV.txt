@@ -1,0 +1,30 @@
+SeaQuest DSV
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1994
+Developer: Unexpected Development
+Publisher: Malibu
+_________________________
+Based on the first season of the TV series of the same name, your character is an officer of the UEO: The United Earth Oceans Organization. You begin the game inside a training simulation, which upon successful completion ensures your transfer to the crew of the seaQuest DSV where you will be called upon to perform the same duties.
+
+Primarily, your function is to navigate the seaQuest Deep Submergence Vessel around the underwater map to various 'mission areas' where you will be called upon to use the on board vehicles to accomplish some task. Typical missions include salvage operations, rescue operations, disarmament of underwater explosives, termination of enemies and exploration. Damage of underwater property is deducted from your budget and completion of objectives adds to it. The money must be used to resupply weapons and buy additional vehicles. Underwater is a dangerous place.
+
+The vehicles you have at your command include
+
+- Speeder: A simple two-man vessel designed entirely for speed. It is also a combat vessel and may fire forwards, move up &amp; down and change orientation between facing left and facing right
+
+- Stinger: A prototype "next generation" attack vessel, this one-man sub allows you to orientate in any direction to fire your weapon accurately.
+
+- Sea Crab: A slow vehicle used for excavation, mining, and rescue missions. It is the only vessel that can dock with other vessels and one of only two that can pick up undersea objects for transport. It comes with a water jet to clear debris and a retractable drill
+
+- Sea Truck: Slow and bulky, this vessel may move up and down and change it's orientation between left and right. It's weapons are torpedoes and mines which may be dropped behind it. Furthermore it can also pick up undersea objects for transport
+
+- Remote (HR) Probe: Small and agile, this vehicle contains only a very simple weapon. It's main purpose however is underwater welding and repair of objects. It can also activate switches
+
+- Darwin - Intelligent Dolphin and seaQuest mascot: Darwin the Dolphin is perhaps the most agile of the vehicles, and may take off in bursts of speed. However Darwin has no weapons with which to defend himself and is very vulnerable. Darwin is able to get into tiny spaces that none of the other vehicles can reach. Darwin is able to activate switches.
+
+http://www.mobygames.com/game/gameboy/seaquest-dsv

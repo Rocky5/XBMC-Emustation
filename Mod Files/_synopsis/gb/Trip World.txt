@@ -1,0 +1,14 @@
+Trip World
+Platform: Nintendo Game Boy
+Region: Japan
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: SunSoft
+Publisher: SunSoft
+_________________________
+Trip World is a 2D Platformer game, developed and published by SunSoft, which was released in Japan in 1992.
+
+http://www.gamefaqs.com/portable/gameboy/home/575152.html

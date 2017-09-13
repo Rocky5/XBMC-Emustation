@@ -1,0 +1,15 @@
+Challenger
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1985
+Developer: Hudson
+Publisher: Hudson
+_________________________
+
+Challenger is an Action game, developed and published by Hudson, which was released in Japan in 1985.
+
+http://www.gamefaqs.com/console/nes/home/578251.html

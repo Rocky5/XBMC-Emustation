@@ -1,0 +1,44 @@
+NHL Hockey '98
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1997
+Developer: High Score Productions
+Publisher: EA Sports
+Players: 1 to 4 VS; CO-OP
+_________________________
+Electronic Arts' longstanding hockey franchise comes to a 16-bit end with NHL 98, the seventh game released in the Genesis series. While the same engine found in both NHL 96 and NHL 97 is used in this game, there are a few new features that set this title apart from the rest. These include the following: three different game speeds to choose from; a two-line pass rule; a "Coaching Style" menu allowing players to apply one of five strategies (offense, defense, balanced, all-out offense or all-out defense) to different lines; updated team rosters to reflect the 1997 season; player ratings based on the 1996 season; automatic goalie switching; and enhanced penalty awareness. 
+
+Returning to the game are 26 NHL teams, two All-Star squads, and three National teams (United States, Canada and Europe). Battery backup will track statistics, season progress and All-Time Records in thirteen categories, including "Most Breakaways," "Fastest Goal" and "Best Shooting Percentage." The seven game modes consist of Regular Game, Playoffs, Best-of-Seven Playoffs, Season, Shootout, Practice, and Skills Challenge. Complete roster management lets you trade, create, release or sign players, so you can put yourself in the game if you so desire! Up to four players can play simultaneously with the 4-Way Play adapter.
+
+Controls:
+
+OFFENSE
+
+D-Pad: Move player, control direction of shot
+A: Clear puck/flip pass
+B: Pass puck
+C: Wrist-shot (hold for slap shot) or one-timer without the puck
+A + D-Pad Up or Down: Drop pass
+Start: Pause game, go to menu screen
+
+DEFENSE
+
+A: Holds/hooks (tap A for a block shot)
+B: Poke check/trip/switch to closest man (hold B to switch to goalie in manual control)
+C + D-Pad: Speed burst
+Pad: Controls skating direction
+
+Hints:
+
+- Hidden teams -
+Hold A and B and C and Start at the same time at the game menu screen until the team selection menu appears. The EA Sports and THQ Inc. teams may now selectable. 
+
+- Play with man advantage -
+This code only works when you play against the computer, and they only have 2 active goalies. First, you must injure the opponents starting goalie. This works best by running into him many times. It would be helpful to turn penalties off, so you don't get called for interference. Once he is injured, score enough goals for the computer to switch goalies. When this happens, one of their defensemen will be the goalie, but he won't be replaced. The game still treats this as even strength, so icing still applies.
+
+Reviewer: Scott Alan Marriott
+http://www.allgame.com/game.php?id=7572

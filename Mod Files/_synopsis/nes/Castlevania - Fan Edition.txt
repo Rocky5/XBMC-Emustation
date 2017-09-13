@@ -1,0 +1,14 @@
+Castlevania: Fan Edition
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: Thaddeus
+_________________________
+A Castlevania I hack by Thaddeus. It changes the character, enemy, and backgrounds to have Simon's Quest sprites. The position of the blocks and some enemies is altered. 
+
+http://castlevania.wikia.com/wiki/Castlevania:_Fan_Edition

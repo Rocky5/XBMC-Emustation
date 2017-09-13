@@ -1,0 +1,19 @@
+The Ninja Warriors
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Beat 'em Up
+Gametype: Undefined
+Release Year: 1993
+Developer: Natsume
+Publisher: Taito Corporation
+Players: 2
+_________________________
+Two player side scrolling beat-em-up converted from the Taito coin-op that featured three monitor screens side by side. The Amiga version was developed in letterbox format in order to show as much of the wide screen background graphics as possible.
+
+The player(s) controlled robot Ninjas, which battled their way through the levels using Shuriken and knives. As the Ninja's took damage their classic Ninja garb was torn away to reveal robotic limbs, torso or head. When the damage reached critical the Ninja Robot would explode, scattering mechanical body parts.
+
+As with The Sales Curve's later title SWIV, The Ninja Warriors used the company's Dynamic Loading System to load sprites, sound and background graphics from disk on the fly.
+
+http://www.mobygames.com/game/sega-cd/ninja-warriors

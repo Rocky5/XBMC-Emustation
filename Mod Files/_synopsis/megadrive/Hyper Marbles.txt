@@ -1,0 +1,15 @@
+Hyper Marbles
+Platform: Sega NET
+Region: Japan
+Media: SegaNET Download
+Controller: Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1991
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+The goal of this game is the bump ships into some kind of electrical fences with your own ship.
+
+http://www.hidden-palace.org/?releases/13

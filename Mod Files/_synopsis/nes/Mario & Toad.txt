@@ -1,0 +1,27 @@
+Mario &amp; Toad
+Original title: Nuts &amp; Milk
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2006
+Players: 1 or 2 VS
+Hacked by: Evil_Spock
+Version: 1.0
+_________________________
+This is a hack of a Japanese NES (famicom) game called "Nuts &amp; Milk" that I completed overnight in the summer of 2000. The gameplay was simple but fun, yet the graphics were absolutely horrendous. You controlled these little animals that looked like a cross between a pig and a mailbox. Thus, I decided to hack in some graphics from SMB3. I think it makes the game much more bearable, and I hope you think so too.
+
+Game Story (hastily concocted): Toadworld has been infiltrated by the evil Wario clones. You, Mario, must save your friend Toad from the Warios. Collect all the mushrooms and leaves, then hurry and save Toad before the Warios stop you!
+
+How to Play: All the items in this game should be familiar to anyone who's played Super Mario Brothers 3. The Mushrooms and Leaves are GOOD. You must get them all before you can save Toad. The Warios and Boos are BAD! Avoid them or you'll lose a life. Don't fall in the lava, that stuff is hot. As in SMB3, the notes will bounce you into the air, the vines are for climbing, the clouds and blocks are for walking on, etc. In the Bonus Stage, you must again collect all the items and then proceed to save Toad.
+
+What's Been Hacked: Sprites/Tiles? Virtually all sprites and tiles have been replaced with SMB3 graphics. A few notable exceptions: The vines are actually from Donkey Kong Jr. I really wanted all the game elements to be as close to SMB3 as possible but because of the way the tiles were set up in the original game, I was forced to improvise. I believe I drew the mushroom house on my own, using some smaller tiles from SMB3 as a reference. Title Screen? Basically copied from SMB3, with a bit of rearranging on my part to create the "+ Toad" part. Palette? The palette isn't perfect, I know this. I did my best to match the colors up appropriately but I was forced to compromise at times (most notably, with the "splashing" lava). There were also some palette changes that occur at the Bonus Stages that I could not find in the ROM. It is most noticeable when you successfully complete a bonus stage the background becomes black and the arrangement of stars looks decidedly ugly. Because this was a "just for fun" project, 
+I had no interest in devoting the time to fix these little palette goofs.
+
+Tools Used: Tile Layer, for the graphics changes. Hexposure, for the palette hacking.
+
+Notes on Future Releases: There will be none, at least not by me. However, if you find this game endearing enough to want to expand on this hack, or at least clean up some of the flaws in the palette? please feel free. If you do, give yourself a credit on the title screen and repost it for the world to enjoy.
+
+http://www.romhacking.net/hacks/156/

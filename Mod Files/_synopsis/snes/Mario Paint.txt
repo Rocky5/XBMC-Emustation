@@ -1,0 +1,61 @@
+Mario Paint
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Mouse
+Genre: Educational, Graphic
+Gametype: Licensed
+Release Year: 1992
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+The game allowed the user to create artwork using various tools controlled by a mouse (similar to computer painting programs like Microsoft Paint). Not only could the user paint and draw freehand, but colorless pre-made drawings could be displayed and then colored in using various methods similar to coloring books. Another feature included pictures that could be inserted with the stamp tool. Stamps of everyday objects such as the Sun and fruit were provided by default, and users could even make custom stamps pixel-by-pixel. Several publications, such as Nintendo Power, released how-to guides on how to create iconic Nintendo related stamps for use within Mario Paint. Besides just creating static pictures, a user could also make simple looping animations which could then be set to music created in the music generator. 
+
+These animations painted by the user could only be viewed on a television screen, and while instructions were provided to users on how to record these to a video cassette recorder, there was no other way to export any of the work done in Mario Paint.
+
+Mini Games:
+
+Mario Paint also contains a fly-swatting mini-game, known as "Coffee Break" or "Gnat Attack," which is a fast-paced action game that takes full advantage of the Super NES mouse. The player controls a gloved hand (similar to the one seen on the title screen) holding a flyswatter, which must swat flying insects on the screen, before the insect stings the player's hand in one way or another. There are three levels, each with 100 insects and a boss. When you win the last boss it takes you back to level one and adds a small icon in the top left corner of the screen. There is no final level or reward, as the game will loop endlessly.
+
+The title screen for Mario Paint proved to be a mini-game of sorts. The user was able to click each letter in the title to trigger a certain action. Certain letters would cause the music to change, have Yoshi run by on screen, make Mario shrink and grow, and even allow the user to temporarily paint the background. Also, occasionally, a star would fly across the screen very quickly which the user could click on and make it rain down lots of stars and change the music for the duration of this.
+
+Tips:
+
+Messed up scenery.
+When you click the letter that makes the grass appear along with several things such as fire flowers trains and animals, every so often a star will shoot down, if you manage to click it (which can be difficult) the music will change and everything will mess up by raining all sorts of objects.
+
+Alternate Music
+Click on the letter I or O in the word Mario.
+
+Change Mario's Size
+Click on the letter M in the word Mario Paint.
+
+Color Title Screen
+Click on the letter T in the word Paint
+
+Hidden Sounds
+Click on the letter P in the word Mario Paint.
+
+Hit Mario
+Click on the letter A in the word Mario Paint.
+
+Living Undoing Dog
+Click on the grid icon and wait. After a while, the undo icon will come to life and will walk around. If you move the mouse, it will run back and turn into an icon.
+
+Secret Developer's song
+When Mario turns and faces away from the screen on the title screen, quickly click on him (he turns away fast). If you do this correctly there'll be a chanting song as you enter the game.
+
+Shake the Screen
+Click on the letter I in the word Paint.
+
+View Credits
+Click on the letter N in the word Paint.
+
+Walking R
+Click on the letter R in the word Mario Paint.
+
+Yoshi Cameo
+Click on the letter A in the word Paint.
+
+http://en.wikipedia.org/wiki/Mario_Paint

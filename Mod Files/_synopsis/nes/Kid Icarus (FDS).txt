@@ -1,0 +1,15 @@
+Kid Icarus
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Undefined
+Release Year: 1986
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+The original Famicom Disk System versions feature save slots, unlike the North American version which uses a password system (known in-game as "Sacred Words"). As with Metroid, the FDS version of Kid Icarus also features higher quality music and sound effects that take advantage of the system's additional sound channels.
+
+http://en.wikipedia.org/wiki/Kid_Icarus

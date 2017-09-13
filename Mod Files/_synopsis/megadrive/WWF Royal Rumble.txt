@@ -1,0 +1,89 @@
+WWF Royal Rumble
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Wrestling
+Gametype: Licensed
+Release Year: 1993
+Developer: Sculptured Software
+Publisher: LJN, Flying Edge
+Players: 1 or 2 VS
+_________________________
+Control one of twelve World Wrestling Federation stars in a "no holds barred brawl" -- in other words, do whatever moves you want, from choke holds, piledrivers, and even chair slams, until your opponent is knocked out. You can even go outside the ring if you like. Several modes of play are available, including one-on-one, tag team (two-on-two), and three-on-three tag team. You can play as the following WWF wresters: Bret Hart, Razor Ramon, Randy Savage, Shawn Michaels, The Undertaker, Tatanka, Mr. Perfect, Crush, Ric Flair, Yokozuna, Ted Dibiase, and Lex Luger.
+
+Directions:
+
+There are many game types:
+
+In 1-on-1, you face an opponent alone.
+
+In 2-on-2 tag match, you team with a person to take on two opponents.
+
+In 3-on-3 tag match, it's like 2 on 2, but with 3 people on each team. Duh!
+
+In Royal Rumble, you must fight 11 other guys in an "over-the-top-rope" elimination match. The name speaks for itself. Opponents are thrown out by use of the tie-up and tapping the A button while near the ropes.
+
+Rules can be switched. There are 3 types of rules:
+
+In One Fall, it's a normal match, with count-outs and DQs.
+
+In Brawl, there is no ref, no count-out, and all types of moves are legal
+
+In Tournament, you face an opponent to advance on to face others.
+
+
+When Grappling, to do the following moves:
+
+Send them to the ropes: Tap "A" a few times
+
+Atomic Drop: Tap "A"+"B"
+
+Gutbuster: Hold Down Press "A"+"B"
+
+Bodyslam: Tap "B"
+
+Head butt: Tap "C"
+
+Suplex: Tap "B"+"C"
+
+Hip toss: Tap "A", then when they approach you, Press "B"
+
+Throw out of ring: Tap "A" near the ropes.
+
+Choke: Tap "A"+"B" Near them.
+
+Face Rake: Tap "A"+"B" At a distance.
+
+When your opponent's bar is low and red, you can use your finisher! When in the right position, press A + B to execute it to give your opponent a beating! It helps a lot!
+
+Gameplay:
+
+- Match types - 
+
+In a One-on-One match, two wrestlers (one player versus the computer or two players) square off for a face-to-face bout. One Fall, Brawl, and Tournament variations are available. One Fall matches feature an in-ring referee and are contested under standard rules. Victory is achieved by a 3-count pinfall or a count-out if a wrestler stays outside of the ring for a full 10 count. In a Brawl, however, the referee is absent. This allows unlimited time outside the ring and illegal moves such as eye raking and choking are allowed at all times. The Brawl match doesn't require a pinfall to win; instead, the first player to be entirely drained of their stamina submits in defeat. In a Tournament, a player must battle through the entire roster in a series of One Fall matches to win the championship belt.
+
+A Tag Team match is made up of two teams of two wrestlers (if two players are involved, they can choose to either control opposite teams or be on the same team against the computer). Whenever one wrestler gets tired, they can tag in their partner. A wrestler on the apron can grab an opponent if they get close to the ropes, allowing their partner to attack them. One Fall, Brawl, and Tournament configurations are available. The same rules for the singles One Fall and Brawl matches apply to tag team matches. In the tag team Tournament mode, either one player or two cooperative players will choose two wrestlers to form a team and then must defeat the remaining wrestlers in a series of One Fall tag team matches to win the tag team championship.
+
+A Triple Tag Team match is similar to a Tag Team match, except instead of two wrestlers to a team, there are three wrestlers on each team. Only one partner for each team appears on the apron at a time. The player can switch outside partners by pressing a button. One Fall and Brawl options are available (with one player or two players head-to-head), with the same rules as singles and tag team matches.
+
+The Royal Rumble begins with two wrestlers, and more adversaries enter until six wrestlers are in the ring. Additional wrestlers enter as others are eliminated. There are no holds barred, and elimination occurs when a wrestler is thrown out of the ring. A wrestler must be worn down before they can be thrown out, unless they're caught running with a hip toss. The last wrestler remaining in the ring after all twelve have entered wins the match. At the end of a Royal Rumble, score rankings are shown giving a wrestler's total time in the ring along with a list of opponents they eliminated.
+
+Controls:  
+
+A Button: Run
+B Button: Punch, dropkick while running, grapple while pressing C
+C Button: Kick, Grapple while pressing B
+
+Hints:
+
+- Continue match -
+Hold A+B+C after being thrown out. The sound of the bell will confirm correct code entry. You will return as one of the remaining wrestlers.
+
+- Same character match -
+Highlight any character, hold Start, and press B + Up. The corresponding wrestler may be selected as both characters in a match.
+
+http://www.mobygames.com/game/genesis/wwf-royal-rumble
+http://www.consoleclassix.com/genesis/wwf_royal_rumble.html
+http://en.wikipedia.org/wiki/WWF_Royal_Rumble
+http://www.gamefaqs.com/console/genesis/code/563356.html

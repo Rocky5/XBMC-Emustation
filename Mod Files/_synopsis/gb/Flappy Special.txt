@@ -1,0 +1,13 @@
+Flappy Special
+Platform: Nintendo Game Boy
+Region: Japan
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Publisher: Victor Interactive Software
+_________________________
+Flappy Special is a Puzzle game, published by Victor Interactive Software, which was released in Japan in 1990.
+
+http://www.gamefaqs.com/portable/gameboy/home/575124.html

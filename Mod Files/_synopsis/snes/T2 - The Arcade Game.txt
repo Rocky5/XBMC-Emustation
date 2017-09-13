@@ -1,0 +1,44 @@
+T2: The Arcade Game
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1994
+Developer: Probe Entertainment
+Publisher: Acclaim Entertainment
+Players: 1 or 2 CO-OP
+_________________________
+The story of the game falls in line with the movie Terminator 2: Judgment Day: to save the leader of the Human Resistance, John Connor, and his mother, Sarah, from the T-1000, a mimetic poly-alloy Terminator, bent on killing them both.
+
+The first mission is actually a backstory on what happened before the T-800 and the T-1000 entered Skynet. It also showed some of Skynet's machines that didn't appear in the film (for example, the Silverfish).
+
+Running on the once-popular Williams/Midway Y-Unit arcade hardware, the 2 players essentially take part in controlling a T-800 model and gun down the terminators of the opposing side in a light gun style fashion, even though the controller was technically a joystick. The gameplay utilizes a first-person perspective, like the rest of the games in the genre, but what was noteworthy about T2 was the use of digitized actors from footage specially shot during the making of the film. This made for realistic 2D sprites in a Light gun game for the time. Arnold Schwarzenegger, Robert Patrick, and Eddie Furlong all reprised their respective roles for the making of the arcade game. Linda Hamilton did not lend her likeness as Sarah Connor in any footage of the game; she is instead played by Debbie Evans.
+
+In the demo sequence, the game has been rated "R" (for Righteous) by the Motion Picture Gaming Association of America.
+
+In the original coin-op version of the game, if one presses the Player-1 or Player-2 'Start' button without any credits being available, a sample of Arnold Schwarzenegger's voice will say "No way, Jose!"
+
+Running on the once-popular Williams/Midway Y-Unit arcade hardware, the 2 players essentially take part in controlling a T-800 model and gun down the terminators of the opposing side in a light gun style fashion, even though the controller was technically a joystick. The gameplay utilizes a first-person perspective, like the rest of the games in the genre, but what was noteworthy about T2 was the use of digitized actors from footage specially shot during the making of the film. This made for realistic 2D sprites in a Light gun game for the time. Arnold Schwarzenegger, Robert Patrick, and Eddie Furlong all reprised their respective roles for the making of the arcade game. Linda Hamilton did not lend her likeness as Sarah Connor in any footage of the game; she is instead played by Debbie Evans.
+
+In the demo sequence, the game has been rated "R" (for Righteous) by the Motion Picture Gaming Association of America.
+
+In the original coin-op version of the game, if one presses the Player-1 or Player-2 'Start' button without any credits being available, a sample of Arnold Schwarzenegger's voice will say "No way, Jose!"
+
+Arnold Schwarzenegger provided custom speech for this game.
+
+Tips:
+
+Codes
+
+At the title screen, quickly press Left, Up, Right, Up, Left, Left, Left, Right, Down, Down, then enter these codes as stated:
+
+Level skip
+When the 'High Score' screen appears, quickly press RIGHT, UP, UP, LEFT, RIGHT, RIGHT, RIGHT, LEFT, DOWN,
+DOWN, RIGHT, UP
+
+Unlimited credits
+Press the 'R' button at any time during game play to get nine credits.
+
+http://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day_(arcade_game)

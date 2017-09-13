@@ -1,0 +1,17 @@
+Battle City
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1985
+Developer: Namco
+Publisher: Namco
+_________________________
+
+Destroy different enemy tanks, while trying to keep them away from your base. When you have destroyed 20 enemy tanks you advance to the next level with different layout. In each level there's some obstacles which you can use to your advantage. Obstacles include red bricks which you can shoot out of your way, silver bricks which are highly armored, water and ice. You start the game with a basic tank, which you can power up to better one little by little.
+
+The game includes a construction mode, so you can make your own levels when you have played through all the 35 original levels.
+
+http://www.mobygames.com/game/nes/battle-city

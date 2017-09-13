@@ -1,0 +1,26 @@
+Yoshi's Safari
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Super Scope
+Genre: Shooter, Rail Shooter
+Gametype: Licensed
+Release Year: 1993
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 or 2
+_________________________
+Mario and Yoshi have to save King Fret and his son Prince Pine of Jewellery Land from King Bowser and his Koopalings. Unlike most Mario games, it is a rail shooter, with support for the Super Scope light gun.
+
+The game is played from the perspective of Mario, riding on Yoshi's back. Yoshi's head is always visible, and accidentally shooting at him causes a loss of health. The Super Scope can be fired automatically, which quickly drains power. The RPM of the Super Scope would decrease when its Power Meter was close to empty. When completely empty, it will continue firing but only one shot at a time if the Fire Button was still held down, signifying that the player needs to release the fire button and let it recharge. There are two fire flowers in the game and Collecting them increased the amount of time that the scope could shoot before needing to recharge.
+
+Yoshi's Safari puts emphasis on platforming, and at times is imperative to jump (via the Cursor button) in order to avoid some obstacles. Also, there are branching paths that leads to different enemies, mini-bosses or prizes, though they always end in a same main road, which leads to a boss. The bosses can be the Koopalings with some of them piloting Mechs, bigger versions of normal enemies (such as a big Magikoopa or the Big Boo) to Bowser himself, wearing a suit of armor equipped with two Gun-Hands and a devastating energy cannon located in the stomach.
+
+At the end of the game, a code for a harder game is given to use at the title screen. This not only changes the colors of the levels, but it also makes the bosses harder and changes the text of the story scenes to say that the events of the story are repeating themselves.
+
+Trivia:
+
+Secret Mode
+At the title screen, hold X, Y, L, R and press Start.
+
+http://en.wikipedia.org/wiki/Yoshi%27s_Safari

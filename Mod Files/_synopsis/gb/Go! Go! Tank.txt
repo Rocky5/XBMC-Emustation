@@ -1,0 +1,19 @@
+Go! Go! Tank
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1991
+Developer: Copya Systems
+Publisher: ElectroBrain
+Players: 1 or 2
+_________________________
+A peaceful nation has been invaded by an enemy army, and you must help clear the way for your own forces by plane. You must guide your tank to the end of each stage by arranging boxes with a hook attached to the bottom of your plane, as well as by shooting enemy planes and batteries that threaten it. The tank will roll forward on its own and climb up any wall that is only a single block high -- anything taller and it will crash into it and turn around, taking damage. If your tank takes too much damage, it will be destroyed and the game is over. If you get hit, you lose a plane, and if you run out of planes, the game will also be over.
+
+There are several special items to help you on your way, including a power hook that allows you to directly carry the tank, a bomb that can destroy all enemies on the screen, and an option that makes a second plan follow yours and mimic your actions.
+
+The game features ten stages, as well as a 2-player cooperative mode (two planes) when played via link cable.
+
+http://www.mobygames.com/game/gameboy/go-go-tank

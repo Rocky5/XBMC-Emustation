@@ -1,0 +1,16 @@
+NASCAR 2000
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Racing
+Gametype: Undefined
+Release Year: 2000
+Developer: THQ
+Publisher: EA Sports
+_________________________
+This NASCAR stock car racing simulation is a sequel of sorts to NASCAR Revolution. The game features 18 real world tracks plus several fantasy road courses, and 30 active NASCAR drivers plus some "legend" drivers.
+
+Game modes include quick races, full weekend events, a full or abridged championship series, a Race Against the King mode where you race against Richard Petty in a series of events, and multiplayer support for up to 4 players. Updated physics and AI help the game aim for more realism.
+
+http://www.mobygames.com/game/gameboy-color/nascar-2000

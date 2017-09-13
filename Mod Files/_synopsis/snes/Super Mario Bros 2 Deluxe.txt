@@ -1,0 +1,15 @@
+Super Mario Bros. 2: Deluxe
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2006
+Hacked by: SSM
+Version: 1.0
+_________________________
+A hack that ports the graphics and levels of Super Mario Bros. 2 into Super Mario World. A must play for SMB2 fans. Requires a Super Mario World ROM to patch with a x200 byte header. Keep in mind that this hack is locked if used with Lunar Magic.
+
+http://romhacking.net/hacks/194/

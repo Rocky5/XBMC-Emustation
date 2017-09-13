@@ -1,0 +1,20 @@
+Downtown
+Original title: Downtown: Nekketsu Koushin Kyoku: Soreyuke Daiundoukai
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports 
+Gametype: Translated
+Release Year: 1999
+Translated by: Disconnected Translations
+Version: 0.15
+_________________________
+Technos? Hell yeah, people. Yet another in the huuuuuuuuge series of Technos Nekketsu games, this one involves you racing against three other people. There's weapons strewn all about the course, so fair play is definitely not encouraged here. I think there's some other events, but damned if I know what they are. And how come I'm always slower than the other guys? Am I unable to dash here or what?
+
+Translated Description:
+
+You officially know as much about this patch as I do. Jiji's website is (apparently) long gone, so there's no info on this patch. Hell it might even have a readme somewhere, I just kinda found this patch at RPGd, even though they say that Ballz translated it. At least, the intro setup stuff is done, so you can get through a race without encountering the accursed gibberish.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/596/

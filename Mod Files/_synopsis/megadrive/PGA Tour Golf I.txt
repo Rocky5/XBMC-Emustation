@@ -1,0 +1,27 @@
+PGA Tour Golf I
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Golf
+Gametype: Licensed
+Release Year: 1991
+Developer: Sterling Silver Software
+Publisher: Electronic Arts
+Players: 1 or 4 VS
+_________________________
+PGA Tour Golf features 60 real PGA Tour pros; ten of them give advice throughout the game. Modes of play include: practice round, tournament, driving range, and putting green.
+
+Tournament mode allows you to compete against all 60 pro golfers and up to three of your friends. Every shot you take in tournament play is compiled in your career statistics. Battery backup saves your tournament at any time and keeps track of all of your statistics.
+
+There is also four courses, three of which are actual PGA courses, multiple camera angles, and instant replay.
+
+Controls:
+
+A Button: Confirms choices
+B Button: Hits the ball
+C Button: Activates menus
+Start: Return to pro shop
+
+Reviewer: Jonathan Sutyak
+http://www.allgame.com/game.php?id=12001

@@ -1,0 +1,16 @@
+Monster Party
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer - Scrolling - Horizontal
+Gametype: Licensed
+Release Year: 1989
+Developer: Human Entertainment
+_________________________
+
+The game scrolls horizontally. While using the bat to destroy the monsters, move to the right. Along the way, there will be rooms where "boss" monsters live. Enter these rooms to fight them. When all the "boss" monsters are defeated, you will get a key that will allow to clear the round. A round cannot be compleated until the key is obtained. When MARK defeats the monsters, various items will appear. He must get them by grabbing them. Attack and destroy the monsters by using MARK'S bat to hit and return their photon lazers and other weapons.
+
+--From the NES Monster Party instruction manual.
+
+http://consoleclassix.com/nes/monster_party.html

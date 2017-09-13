@@ -1,0 +1,22 @@
+NBA Live '97
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Basketball
+Gametype: Licensed
+Release Year: 1996
+Developer: Electronic Arts
+Publisher: EA Sports
+Players: 1 to 5 CO-OP, VS
+_________________________
+Originally, the NBA Live series was released for the Sega Mega Drive/Genesis and SNES with NBA Live 95. The naming was changed from utilizing the last two digits of the year to the entire year number from 2000-2005, but returned to the original naming convention with NBA Live 06.
+
+The Create-A-Player feature was not available in the 1995 versions of the game, but have been a mainstay since NBA Live 96. NBA Live 98 in 1997 was the last NBA Live game for the Sega Mega Drive/Genesis and the SNES. NBA Live 98 also was the first NBA Live series game to support 3Dfx graphic cards. Only first generation Voodoo and Voodoo Rush cards were officially supported.
+
+Tips:
+
+Play as All-Stars
+Up, Up, Down, Down, Left, Left, Right, Right, Select, B, A, Y, X (on options screen)
+
+http://en.wikipedia.org/wiki/NBA_Live_series

@@ -1,0 +1,26 @@
+Metal Morph
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Shooter, Side-Scrolling
+Gametype: Licensed
+Release Year: 1994
+Developer: Origin Systems
+Publisher: FCI
+Players: 1
+_________________________
+Metal Morph is a video game developed by Origin Systems and published by FCI, Inc. for the Super Nintendo Entertainment System. The gameplay alternated between run and gun and scrolling shooter (playing as a space ship). Both the player character and his space ship are able to use MetalMorphosis (a fictional transformation ability unique to the game) to navigate certain areas. The player must retrieve missing pieces of the ship, while simultaneously fending off aliens who desire the secret of MetalMorphosis.
+
+Tips:
+
+Misc. Codes
+Pause the game and enter the following:
+
+At the title screen, highlight Start, enter L, R, L, R, A, B, A, B, X, Y, X, Y
+Activates Weasel Mode and full Level Select in the Options screen. Also in the Options screen, Exit will be changed to Weasel
+
+While the game is paused, Up, Down, Left, Right, X, B, Y, A
+Invincibility. Hold A and use the D-Pad to move anywhere in the level. Press Select to skip straight to the next stage.
+
+http://en.wikipedia.org/wiki/Metal_Morph

@@ -1,0 +1,38 @@
+Raiden Trad
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Visual Novel
+Gametype: Licensed
+Release Year: 1992
+Developer: Micronics
+Publisher: Electro Brain
+Players: 2
+_________________________
+Raiden Trad is a spin-off of the original Raiden arcade game for Super NES, Sega Genesis and FM Towns.
+
+The Super NES version includes the following changes:
+
+ - Player always continue from the place where last player died.
+ - After dying, a fairy appears in the middle of screen to drop a main weapon, a sub weapon, and a bomb, instead of dead fighter dropping items.
+ - Main shot only has 7 power levels. In case of vulcan, it only fires 5 ways at highest level.
+ - Player can carry maximum 9 bombs.
+ - Limited number of continues.
+ - Auto-fire option.
+ - At lowest homing missile level 4 missiles are fired instead of 2.
+ - When bomb explodes, it hits every enemy on-screen, including enemy outside blast range.
+ - After all bosses in a stage are destroyed, player's fighter are forced to move to centre of screen, which may cause remaining enemy bullets to hit the fighter.
+ - Mid-size gunship that flown off the bottom of screen does not fly back up.
+ - Enemy fires fewer bullets, and has lower life points.
+ - The locations of medals are changed.
+ - Redesigned stage 6, which eliminates land terrains.
+ - The stage 6 boss becomes a recycled stage 2 boss, now named Flying Fox Mk-II.
+ - Stage 7 boss already has pre-attached side turrets.
+ - Redesigned stage 8 boss, which is now a stationary boss.
+ - If the stage clear bonus exceeds 65535 points, the actual gained score is the remainder of the score divided by 65536.
+ - Stage 0 is now called stage 8.
+ - After completing stage 8, the game ends with surviving fighter(s) landing on damaged mother ship, with ending messages and credit.
+ - Player cannot enter names in high score table.
+
+http://en.wikipedia.org/wiki/Raiden_(arcade_game)

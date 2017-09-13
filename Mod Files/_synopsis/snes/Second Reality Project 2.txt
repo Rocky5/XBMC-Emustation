@@ -1,0 +1,23 @@
+Second Reality Project 2
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2007
+Hacked by: FPI Productions
+Version: 1.2
+_________________________
+A One-Eyed Big Boo called Zycloboo wants to conquer the Mushroom Kingdom, and like Bowser in "The Second Reality Project 1 he wants to use the power source from another dimension called the Second Reality to get to his goal. To get Mario out of sight (or maybe for some other reasons?) he warps Mario and his Castle in the Second Reality. Mario's only chance to stop Zycloboo is to find the Power Supply station, which can give him the power he needs for the task - or at least that's what Zycloboo told him, heeheehee!
+
+About the game:
+
+The levels for itself are most of the time very "big" compared to the typical SMW-level. From the length, they have more of a Yoshi's Island-level. You can find a lot of hidden stuff here and there, dozens of bonus rooms and so on. There are also a few levels, where you can go different roads. Sometimes, the second route is more hidden and harder to beat, but it will lead to a secret exit. There are a lot puzzles in the hack as well, but with one major exception near the end of the game they aren't on the normal route, which means the secret levels are usually more puzzling than the normal ones, but very often they are also more "special".
+
+Unlike my first hack, this time it's not necessary to find all the hidden Switch Palaces to beat the final boss, but it could be helpful to find them nevertheless. If you stay just on the normal route (without finding any secret exit) you can complete the game after 55 levels. But in that case, you would leave out 36 additional levels. You see, there is much to explore. ;)
+
+About the worlds... nothing outstanding here: World 1 is the typical grassland-World, World 2 is the typical Forest-World, World 3 is the Beach and the Desert, World 4 and 5 aren't really themed. Here you can find Ice-, Canyon-, Cheese-level and whatever. World 6 is the Venom Underground World, which contains some of the first levels I did for this hack. World 7 is the typical futuristic Base-World, with some underground parts (World 7 covers two submaps).
+
+http://romhacking.net/hacks/203/

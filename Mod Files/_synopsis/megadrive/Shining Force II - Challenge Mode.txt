@@ -1,0 +1,18 @@
+Shining Force II: Challenge Mode
+Original title: Shining Force II
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Players: 1
+Hacked by: Obob
+Version: 1.01
+_________________________
+This hack makes the monsters much stronger, and improves the weaker force members to better balance the team. Many members have new spells and abilities. Most monsters have double HP, 10% more attack and 10% more defense. Boss monsters are much harder. A comprehensive list of changes is included in the readme file.
+
+Version 1.01 (released 6/30/2008) further improves the Zeon battle. It is compatible with saves from previous versions, provided those saves weren't made during the Zeon battle.
+
+http://www.romhacking.net/hacks/409/

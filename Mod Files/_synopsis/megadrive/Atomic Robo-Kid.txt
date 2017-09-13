@@ -1,0 +1,13 @@
+Atomic Robo-Kid
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1990
+Developer: UPL, Treco
+Publisher: Treco
+Players: 1
+_________________________
+Atomic Robo-Kid is a 1988 arcade game by UPL. Treco ported it to the Sega Mega Drive in 1990. Radiation and alien invasion have nearly destroyed the Earth outpost colony Terra-12, and it's up to you, Atomic Robo-Kid, to stop it.

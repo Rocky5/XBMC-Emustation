@@ -1,0 +1,34 @@
+Contra
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Run 'n Gun
+Gametype: Licensed
+Release Year: 1988
+Developer: Konami
+Publisher: Konami
+Players: 1 or 2 CO-OP
+_________________________
+
+In the year 2631, a small meteorite has fallen into the Galuga archipelago, located 20km northeast off the coast of New Zealand. Two years later, a terrorist group known as Red Falcon has seized the island in preparation for an alien invasion. The earth's marines sent two members of their elite Contra unit, Bill Rizer and Lance Bean, to neutralize the terrorists.
+
+As either, Bill (player 1) or Lance (player 2), the player must get to the end of each stage, shooting everything in sight, while avoiding enemy fire themselves. The player can upgrade their standard-issue rifle into one of four different weapons, including the powerful spread shot.
+
+Controls:
+
+A Button: Jump
+B Button: Shoot Weapon
+Start Button: Pause, Unpause
+Select Button: Select 1 or 2 Players
+
+Hints:
+
+30 Lives
+- At the Title Screen press Up, Up, Down, Down, Left, Right, Left, Right, B, A, Start.
+
+Stage Select Mode
+- At the title screen, hold the D-pad up-left along with the Select and A button, and push Start.
+
+Reviewer: grimjockey
+http://www.consoleclassix.com/nes/conquest_of_crystal_palace.html

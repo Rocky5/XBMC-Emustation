@@ -1,0 +1,23 @@
+Contra
+Original title: Contra
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter 
+Gametype: Translated
+Release Year: 1998
+Players: 1 or 2 CO-OP
+Translated by: MadHacker
+Version: 1.00
+_________________________
+Well damn, what more can you say about this game? It's Contra! It kicks ass! There's a flimsy plotline in the Japanese version! The 30-man code still works! Seriously, this game is a blast.. I'm sure everyone knows that though. This is of course the Japanese release of Contra, and there are some extra bonus things that don't really amount to much in the end, but they're still pretty cool, and they make you wonder why Konami took that stuff out of the U.S. release. Anyway, go play dammit! And get a second player, for God's sake.. It's twice as fun!
+
+Translation Description:
+
+The MadHacker calls this Gryzor, for reasons mentioned in the readme. I'd go with Gryzor too, if nothing more than the fact that it has a cooler title screen.
+
+There's two patches. One is for Contra, the other for Gryzor. The only differences are in the title screen and some slight text changes due to the name change. (This is the Contra Version)
+
+Reviwer: Spinner 8
+http://www.romhacking.net/trans/155/

@@ -1,0 +1,34 @@
+ActRaiser
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game, Side-Scrolling, Strategy
+Gametype: Translated
+Release Year: 2006
+Developer: Quintet
+Publisher: Enix
+Players: 1
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+Developers trying to make their games fresh and new by slapping something "innovative" onto a successful formula is nothing new. It's also nothing exclusive to video games. It is, however, a rare thing in any medium to discover that such an act was done right.
+
+Actraiser is one of those rare games. The game starts with an interesting concept. You are a god. Literally. You even have your very own little cherub buddy to help you out. The world is very much your oyster. Then you're thrown into a sidescrolling action game. okay, that's kind of cool. hacking and slashing is fun, and the backgrounds, enemies, and bosses are pretty slick-looking. And then the gameplay completely changes into a relatively simple simulation-type game, with you in total control.
+
+Actraiser takes these two very different game types and seamlessly melds them into a work of pure gaming bliss. The world is divided up into different regions. The first time you go to a region, you enter a side-scrolling platformer stage. If you make it through and defeat the boss, you gain access to the overhead sim part of the region. During this portion of the game you guide villagers in the construction of the town. You have to destroy terrain that inhibits expansion, and appease your worshipers. And you have to guide your cherub buddy in keeping the monsters at bay until the villagers can seal the portals they're coming out of. keep the villagers happy and they give you gifts, which range from power-ups to items to use in other villages. Once you've sealed all the monster portals the final dungeon for the region is revealed-another sidescroller. Beat that stage and you've cleared the region.
+
+You can play the regions in any order, but you'll likely have to keep revisiting previous regions as you progress to use some item that you just received to solve a lingering problem in another village. It's this kind of interaction that really brings the game together-it really feels like you're getting to know the people who are worshipping you.
+
+The other point to the simulation part is to level up the avatar you go spelunking through dungeons with. As the total population of the world increases, so too do your levels. Increased levels in turn give you more spell charges and higher maximum health, which make the sidescrolling stages easier.
+
+Actraiser is a brilliant combination of two different, yet popular genres. Each portion of the game feels natural, and blatantly effects the other-everything you do matters. Nothing feels gimmicky or tacked-on. It's sad that it saw just one sequel, and that nobody has seen fit to try and create something like it since.
+
+Translation Description:
+
+Shame on you if you've never played Actraiser before! This version, other than having an amazingly badass logo, is actually a lot harder than the US release of the game. Even in Fillmore 1, there are more brambles, more monsters, more everything. It's crazy great. Ian Kelley wanted to retranslate the game, so here it is! Far be it from me to deprive one of my star translators from an awesome request or two!
+
+If you've never played it, now's your chance. The translation is complete and, to my knowledge, bug-free. Enjoy!
+
+Reviewer: Suzaku
+http://www.romhacking.net/trans/1063/

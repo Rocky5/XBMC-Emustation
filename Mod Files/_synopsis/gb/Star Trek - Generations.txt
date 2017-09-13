@@ -1,0 +1,22 @@
+Star Trek Generations: Beyond the Nexus
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1994
+Developer: Absolute Entertainment
+Publisher: Absolute Entertainment
+_________________________
+Beyond the Nexus is based on the seventh Star Trek movie and its story: Captains Kirk and Picard must team up to stop a mad scientist from destroying an inhabited planet so that he might reenter the mysterious Nexus energy ribbon.
+
+The game has several different playing modes. The first is starship combat: seen from the main screen of the Enterprise (both the -B or the -D version) you navigate the ship through space, firing phasers or photon torpedoes at enemies like Tholians, Klingons and Romulans. Another mode has you navigating the ship to its destination by flying through rectangles in space.
+
+On away missions, the view switches to a top-down perspective where you control a single character and can fire your phaser at enemies.
+
+Finally, the game has two puzzle modes. In the first one, frequencies must be decoded: this is done by putting symbols into the right order. One can only guess the order at first, but after an attempt the game reveals how many of the selected symbols are part of the combination and how many are in the right place. Using logic, the right order can be determined, but there are only a limited number of tries.
+
+The second puzzle mode is used to reroute power from one system to another. To do so, a path must be built on a grid for the energy to flow through. The path must be built out of randomly assigned pieces that don't always fit together, similar to the concept of Pipe Mania.
+
+http://www.mobygames.com/game/gameboy/star-trek-generations-beyond-the-nexus

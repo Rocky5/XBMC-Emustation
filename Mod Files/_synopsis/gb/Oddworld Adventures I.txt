@@ -1,0 +1,18 @@
+Oddworld Adventures
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1998
+Developer: Saffire
+Publisher: GT Interactive
+_________________________
+In this side scroller, you play as Abe from Oddworld: Abe's Oddysee. You have to save the paramites and scrabs from being turned into food by Ruptured Farms.
+
+You'll need to get to, and unlock, the outer temple door, get all the temple lights lit then get through the temple to save the paramites and scrabs.
+
+This is essentially a side-scrolling, puzzle-solving game. You will use meat to distract paramites, use rocks to destroy explosives, use hypnotic chants to control a slig (who's gun you can then use), and use levers for various tasks. Sometimes you will just sneak past an enemy or paramite.
+
+http://www.mobygames.com/game/gameboy/oddworld-adventures

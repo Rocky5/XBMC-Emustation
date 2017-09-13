@@ -1,0 +1,15 @@
+Route-16 Turbo
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Vehicular Combat
+Gametype: Licensed
+Release Year: 1985
+Developer: SunSoft
+Publisher: SunSoft
+_________________________
+
+Route-16 Turbo is a Car Combat game, developed and published by SunSoft, which was released in Japan in 1985.
+
+http://www.gamefaqs.com/console/nes/home/578250.html

@@ -1,0 +1,17 @@
+Evander Holyfield's Real Deal Boxing
+Platform: Sega Genesis / Mega Drive
+Region: Japan, USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Boxing
+Gametype: Licensed
+Release Year: 1992
+Developer: ACME Interactive
+Publisher: SEGA
+Players: 1-2
+_________________________
+Evander Holyfield's "Real Deal" Boxing, also called Evander Holyfield Boxing in Japan, is a 1992 boxing game for the Sega Mega Drive by Sega and Acme Interactive.
+
+In Career Mode, you can create your own boxer with several predefined appearance settings and stats (which are mutual - changing one will change the others appropriately). In Exhibition Mode, you can only choose from various professional boxers.
+
+The graphics and match engine would be reused in the 1994 game Greatest Heavyweights.

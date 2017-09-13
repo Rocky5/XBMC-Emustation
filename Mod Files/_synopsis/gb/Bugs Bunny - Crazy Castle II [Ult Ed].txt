@@ -1,0 +1,18 @@
+The Ultimate Bugs Bunny Crazy Castle II Mayhem Edition
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Hack
+Release Year: 2009
+Hacked by: willj168
+Version: Final
+_________________________
+Created and edited by willj168 and Frank Maggiore, this is a level-based hack of Bugs Bunny Crazy Castle II.
+
+All levels were designed by willj168 and mapped by Frank Maggiore using a hex editor.
+
+There are new passwords (see readme file)
+
+http://www.romhacking.net/hacks/571/

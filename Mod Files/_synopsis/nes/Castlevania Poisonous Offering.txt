@@ -1,0 +1,25 @@
+Castlevania: Poisonous Offering
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: Morgoth Galaxius
+_________________________
+Hack of first Castlevania game by Morgoth Galaxius using Kent Hansen's CV1edit and Tile Layer Pro. The general layout of the levels remains the same, except the location of the blocks and candles has changed and the background has changed. The location of enemies remains the same. Some of the item sprites have been replaced with other sprites, usually sprites that were from the original ROM but never made it in the game.
+
+Of special note is the Red Axe subweapon, which has replaced the Ax subweapon. It does not use any hearts and it is possible to throw it and whip simultaneously. It is not possible to gain double or triple shots with this subweapon, however.
+
+The following items have been replaced with the following sprites:
+
+- Meat -> Basket
+- Crucifix -> White Bible
+- Invisibility Jar -> Love Letter
+- Crown -> Slippers
+- Treasure Chest -> Coffee Cup
+- Boomerang -> Cross from Vampire Killer 
+
+http://castlevania.wikia.com/wiki/Castlevania_Poisonous_Offering

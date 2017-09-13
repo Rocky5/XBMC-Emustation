@@ -1,0 +1,13 @@
+Red Zone
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Top Down
+Gametype: Licensed
+Release Year: 1994
+Developer: Zyrinx
+Publisher: Time Warner Interactive, Inc.
+Players: 1
+_________________________
+Red Zone, known as Hardwired during development, is a Sega Mega Drive game released in 1994 by Zyrinx. It is noteworthy for achieving sprite rotations, 3D vectors and full motion video; things that were often considered impossible to do on Mega Drive hardware. Zyrinx were previously responsible for Sub-Terrania, and the two games share similar graphics and logos.

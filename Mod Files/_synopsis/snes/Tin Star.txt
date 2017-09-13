@@ -1,0 +1,43 @@
+Tin Star
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad, Super Scope, Mouse
+Genre: Shooter, Fixed
+Gametype: Licensed
+Release Year: 1994
+Developer: Software Creations
+Publisher: Nintendo
+Players: 1
+_________________________
+The game is set in a place called the Ol' West, which was inhabited by robots. The main protagonist is a mechanical sheriff name Tin Star, who has a side kick name Mo Crash. In the beginning, Tin Star and Mo rode on a stagecoach to a town called East Driftwood to stop the Bad Oil Gang and their leader, Black Bart, from committing crimes. While riding on a stagecoach, a member of the Bad Oil Gang wearing spring shoes name Joe Twiddley saw them inside of the stagecoach and tried to attack them along with his gang, but Tin Star defeated them, and made it to East Driftwood safely. Upon their arrival, the story begins when Tin Star tried to help the old lady carry her bags, while she pushed him away from her and made him accidentally step on and broke a potted plant won by Tiny Johnson at a contest.
+
+Gameplay:
+
+Tin Star was designed to be compatible not only with a standard Super NES controller, but also with the Super Scope and the SNES Mouse. The gameplay contains levels titled as "days". Each day is filled with four types of screens called "scenes".
+
+Scenes:
+
+ - Training - Each day begins with a training session. Players can practice their gunslinging and try to rack up as much money as possible. Players can also test their aim by shooting the jugs on the screen. A jug will twirl up into the air when shot. As the jug comes down, players must shoot it again to "juggle" it and rack up loads of cash. A jug will break if it hits the bottom of the screen. The color of the jug also changes and will break when it becomes red for a while.
+
+ - Action - In this type of scene, players must fight their way through such scenes as cattle stampedes, a train, a bank robbery, barroom brawls, jail breaks, etc, while shooting the members of the Bad Oil Gang as they appear on the screen. Some Action screens are first-person viewed, while some are third-person viewed. If players let them stay on the screen too long, they will shoot Tin Star. Players can shoot canteens to restore health. Some targets can be shot for extra money. Some of the action screens will also have a boss at the end of each third-person viewed, Action screen.
+
+ - Showdown - At the end of each day, players usually have to face one member of the Bad Oil Gang in an old-fashioned quick draw gunfight. As players face down their adversary, they must watch for the "Draw" icon, which is shaped like the cylinder of a revolver, to appear. Players must quickly shoot the icon, and then shoot the opponent as fast as possible. Speed and accuracy are the most important in this scene.
+
+ - Bonus Screens - To access these, players should not shoot a single canteen. The bonus screen shows a woman spinning around on a round board with stars next to her body. Shooting the stars without missing and without accidentally shooting the woman will help players pick up large amounts of money. Bonus screens cannot be accessed after completing each Showdown screen.
+
+Tips:
+
+Changing Tin Star's color
+At the title screen, when you start a new game, press A, B, X, or Y to change Tin Star's color.
+
+A Blue Tin Star
+Y Normal Tin Star
+B Silver Tin Star
+X Teal Tin Star
+
+Secret Bonus
+To earn a chance at the Secret Bonus in a level, simply beat the level without shooting a single health canteen. Sounds simple, but it was very difficult to figure it out!
+
+
+http://en.wikipedia.org/wiki/Tin_Star_(video_game)

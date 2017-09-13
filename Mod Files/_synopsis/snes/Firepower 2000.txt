@@ -1,0 +1,35 @@
+Firepower 2000
+Alternative title: Super SWIV
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Vertical
+Gametype: Licensed
+Release Year: 1992
+Developer: Storm Sales
+Publisher: Sunsoft
+Players: 1 or 2 CO-OP
+_________________________
+Firepower 2000 is a vertically scrolling shoot-em-up which plays in a typical fashion to other games in it's genre, The player chooses between using either a helicopter or a Jeep at the beginning of the game and then plays in their chosen vehicles through scrolling levels shooting at oncoming enemies. Certain enemies when shot drop shield power-ups which can be either picked up to afford temporarily invincibility or detonated to destroy all enemies onscreen. Every so often a boss enemy will attack you, the destruction of these bosses will give you upgrades to your forward firing gun.  It is the sequel to the game known as SWIV in Europe.
+
+Tips:
+
+Control both Vehicles in one player mode
+Highlight the two-player option on the title screen, then press START + A.
+
+Quick Game Over
+Press Start to pause the game, then hold Select for a few seconds.
+
+Stage Skip Codes
+During the game, pause and press the following buttons on the appropriate stage to skip ahead one stage
+R, L, R, R, L, L, R, L, R, R, L, L 1 to 2
+R, L, R, R, L, L, R, R, R, L, R, R 2 to 3
+L, R, L, L, R, R, L, L, L, L, R, R, R, L 3 to 4
+R, R, R, L, L, L, R, R, L, L, R, L, R, L 4 to 5
+R, L, R, L, L, L, R, R, L, L, R, L, R, L, L 5 to 6
+
+Power Up
+At the beginning of Level 1, steer to the far right to find a yellow container. Blast it open and collect the Bullet tokens to power up.
+
+http://en.wikipedia.org/wiki/SWIV

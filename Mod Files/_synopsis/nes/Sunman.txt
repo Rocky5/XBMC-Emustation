@@ -1,0 +1,14 @@
+Sunman
+Platform: Nintendo Entertainment System
+Region: Prototype (USA)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Prototype
+Release Year: Unreleased
+Developer: SunSoft
+Publisher: SunSoft
+_________________________
+Sunman is a 2D Platformer game, developed and published by SunSoft, which was cancelled before it was released.
+
+http://www.gamefaqs.com/console/nes/home/929003.html

@@ -1,0 +1,19 @@
+Lode Runner
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Arcade
+Gametype: Licensed
+Release Year: 1987
+Developer: Broderbund
+Players: 1
+_________________________
+
+The player controls a stick figure, collecting all the gold in the level, and avoiding robots trying to catch the player. The levels feature a multi-story brick platform motif, with ladders and hand-to-hand bars suspended in the air offering multiple ways to travel within the level. The player can dig holes into the brick floors and temporarily trap the robots.
+
+The player may safely walk on top of a robot trapped in a hole. Over time the turf regenerates. If a hole is filled before a robot escapes, it is consumed and immediately respawns at a random place at the top of the level. The player's character can fall from an unlimited height without being injured, but cannot jump, so it is possible for the player to become trapped in a pit and have to abort the character life (the game starts with five lives; each level passed earns an extra life). Certain parts of turf are trapdoors through which the player and robots will fall.
+
+The player's character finishes each level by collecting all the boxes available in that level and traveling to the top of the screen.
+
+http://www.nesguide.com/games/loderunner/

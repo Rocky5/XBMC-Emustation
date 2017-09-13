@@ -1,0 +1,60 @@
+MLBPA Baseball
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Baseball
+Gametype: Licensed
+Release Year: 1994
+Developer: High Score Productions
+Publisher: EA Sports
+Players: 1 or 2 CO-OP, VS
+_________________________
+One Game
+
+One Game is a single game between two teams. It is not part of a regular season or playoff series. One Game play can be between any two teams, regardless of what league or division they are in. A team can even play against itself.
+
+LEAGUE PLAYOFF
+
+League Playoffs are a best of 7 games series between the divisional champions in both leagues. The winner of a league playoffs series goes on to the League Championship.
+
+THE SERIES
+
+The series is the best-of-seven-game championship playoffs between the A and N league champions in MLBPA baseball. When you choose The Series, one team from each league is chosen at random as league champion.
+
+FULL SEASON
+
+Full season sets up a complete MLBPA Baseball season. You can either play out the full season game by game or in sections (a day at a time, a week at a time, etc.). League playoffs follow the conclusion of a full season, and the Series follows the League Playoffs.
+
+--From the SNES MLBPA Baseball instruction manual.
+
+Tips:
+
+Cheat Passwords:
+Enter these cheat passwords by selecting restore season option:
+
+PWRHT 
+All batters have max power every swing
+
+PWRP 
+All pitchers can pitch 40 mph faster
+
+VRRM 
+All players speed is doubled
+
+XXXXX 
+Computer is tougher
+
+ZZNG 
+Fielders speed is twice as fast
+
+NNTH 
+Go into the bottom of the 9th inning with home team leading 4-0
+
+BRRR 
+Ice Field
+
+RBBR 
+Rubber Field
+
+http://www.consoleclassix.com/snes/mlbpa_baseball.html

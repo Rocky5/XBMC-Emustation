@@ -1,0 +1,25 @@
+Vocals of Phantasia
+Original title: Tales of Phantasia
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Players: 1
+Translated by: J2e Translations
+Version: 1.0
+_________________________
+A long time ago, the evil king, Mao, armed with seemingly unlimited power, attacked your country. The poor people were scared, but stood strong against his advances. The people came together against King Mao and defeated him in a flash of brilliance. No one was sure if Mao was truly dead, and the all feared his return...
+
+FEATURES:
+
+LMB: Linear Motion Battle System
+
+This new battle system allows for the speed and action not present in many turn based RPG battle systems. You control the main charachter, Cless, but you can also give orders to your other characters allowing the computer's sophisticated AI to control them. Both length and height are included, allowing for many levels of attack. 
+
+FVD: Flexible Voice Driver
+
+Usually, the Super FamCom's sound hardware would not be able to handle playing full voice samples. However, with the Flexible Voice Driver, you can include even full songs, like the opening theme "The Dream Will Not Die". All the attacks and spells are fully voiced, but you can control how much voice you hear from the game. Many talented voice actors and actresses lent their talents for this marvelous game.
+
+http://topping.zophar.net/vop/info.htm

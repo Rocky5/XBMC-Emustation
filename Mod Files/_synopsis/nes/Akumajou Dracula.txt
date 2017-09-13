@@ -1,0 +1,53 @@
+Akumajou Dracula
+Platform: The Family Computer Disk System
+Region: Japan
+Media: Disk
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1986
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+
+"Strangers in the night, exchanging grievous bodily harm . . ."
+
+As black clouds slither across the moon overhead, our hero straps on his tight leather outfit and swaggers towards the rusty gates before him. Just ahead lies an ancient castle, its ruined spires consumed by the darkness; before this night is through, he's going to subject its occupant to the crack of his whip and a violent end upon his hard wooden stake.
+
+But don't be afraid, this nocturnal miscreant is merely Simon Belmondo, lash-toting vampire hunter for hire, and he's setting off to fulfill his ancestral charge. You know the one: ridding the land of the dread Count Dracula and his legions of undying horrors dredged up from beyond the peace of the grave.
+
+That's right, this is a Castlevania game!
+
+In fact, it's the very same "Castlevania" that we all know and many love on the NES  save for few key differences, the most important of which will probably make you groan like one of its tortured shades. Accompanied by a radically different MSX2 adventure (a review for another day), this celebrated vampire-stalking franchise began right here with one of the best games developed for the ill-conceived Famicom Disk System. Fortunately AKUMAJOU DRACULA, like so many of that platform's gems  most notably the first two Zeldas and Metroid  was subsequently thrown onto the cartridge format, where it quickly proceeded to both delight and frustrate gamers throughout the rest of the world. Considering the popularity of the above titles, it's a good thing those honorable Japanese businessmen separated the wheat from the chaff, eh?
+
+Whichever version you choose to play, Simon's journey will take us through six challenging levels cloaked in a feeling of pervading gloom. True, today its visuals are threadbare even by 8-bit standards, but they're nonetheless suitably creepy with settings like the stone crypts that soon give way to a laboratory filled with ominous machinery, chained skeletons and piles of skulls. Particularly notable were the simple yet haunting melodies that struck a chord with us all for years to come as we slowly ascended desolate towers of reddish brick and deadly spike traps, or traipsed across the moonlit ramparts alongside ravens who perched atop the broken statues before giving flight and attempting to peck our hero's eyes out. Who can forget listening to the seminal tune "Vampire Killer" as one tread beneath the tattered red curtains and moldering walls of the first stage, whipping down groups of ghouls clad in ragged shrouds, and avoiding the panthers who would suddenly spring to their feet and lunge after us?
+
+Simon may not have a face, but he certainly has an atmospheric environment to blindly stumble about in.
+
+There's no shortage of eldritch creatures for him to slay while he's there, like the horrifying guardian of that first level  you'll fearfully stare into the baleful eyes of a hellish denizen spawned from deep within the foulest pits of the Abyss! Well . . . actually, it's a giant bat. 
+
+But they get better! Besides the Count, you'll fend off many of the classic staples of monsterography: the lanky Frankenstein, a pair of tightly-wrapped mummies, and of course our good friend, the scythe-wielding Grim Reaper. It even established a good number of staples of its own, be they the carnivorous mermen that shoot up from the murky waters deep below the castle or the deadly gears of the clock tower high above. And while you won't run into any peasant mobs brandishing torches, you will encounter plenty of flickering candles.
+
+Ah yes, the candles. In a fine example of Nintendo logic at work, these tallow sources of illumination that litter the walls in each and every hallway, occasionally suspended in midair, actually dispense the little red hearts that flutter down to feed your lethal arsenal. As you're no doubt aware, Simon can grab one of a small complement of sub-weapons that are frequently useful in various situations, armaments ranging from the axe that swings upward in a wide arc, to the fragile vials of holy water he lobs downwards to scorch the ground. Knowing when to take a new weapon you come across and when to keep what you already have often holds a noticeable influence over your success, as many bosses suffer from a profound weakness against a specific combination.
+
+There's also much to be found secreted away if you're thorough  not merely treasure bags, crowns, and moai heads worth major points (and thus, extra lives), but also Double Shots and life-replenishing meat hidden in the walls or the nondescript blocks underneath your boots, just waiting to be savaged open by your probing whip.
+
+You'll definitely need such things, as this game quite deservedly founded the series' early reputation for offering a potent challenge. Unfortunately, most of Akumajou Dracula's difficulty actually stems from its draconian controls. Simon can only whip something that's directly in front of him, and the attack first requires a few seconds for him to wind up before the enemy will finally taste its punishing sting. Moreover, this enemy will merely shrug off your repeated assaults until it finally bursts into flame; if you get hit, however, our hero will tumble three feet back with a muffled "oof," often careening backwards into a nearby bottomless pit that some sinister programmer thoughtfully placed there for your convenience. Speaking of which, any attempt to descend stairs adjacent to a ledge that's made without holding "down" on the crosspad will result in Simon plummeting to his doom; try a mighty leap up onto a staircase and he'll sail right through it.
+
+The most famous pratfall, however, is the fact that you can't control the direction of a jump once you've dared to hit the button, making it rather unwieldy to avoid moving objects and often sending you straight into the rotting arms of a hitherto unseen danger as the screen scrolls forward.
+
+Couple that with the enemies Dracula throws your way and you've got the makings of a throbbing headache. Medusa heads that wildly swoop across your path to knock you off a ledge or interfere with your struggles against the projectiles of axe-hurling knights, bone dragons that violently snake up and down while spitting fireballs, and bleached skeletons flinging their femurs all over the screen with reckless abandon . . . all of these follow definite patterns and probably wouldn't be all that tough under normal circumstances, but they're unusually treacherous thanks to Simon's cumbersome ineptitude. That's not solely the fault of the controls, either; in the later areas, he can only withstand a few hits before expiring. With only six levels, Akumajou is a pretty short game  but it doesn't much feel that way considering the patience it takes to master them.
+
+This is pretty significant, as one of the complaints I frequently hear levied against the domestic Castlevania (as well as spiritual sibling Ninja Gaiden) targets its lack of a password system. I certainly would have appreciated one myself way back then; instead most of us simply became very, very good at repeating the levels over and over again until we could trounce them in our sleep. The rest simply went insane, never realizing
+
+THE HORRIBLE TRUTH:
+
+Boot up this disk and you'll immediately notice a nice little name registration screen nestled within a border of tiny little skulls, each with a stake poking out of its bleeding eye socket. How cute, it looks just a grislier adaptation of the one you see in our battery-backed Zelda games. But wait . . . that would mean . . . yes, the Famicom Disk version allows you to SAVE YOUR GAME. You heard me, Simon's first outing was actually designed to let you pick up from whatever level you last met your demise in whenever you wanted to, but Konami removed the idea completely when they brought it over! Interestingly, Japan didn't get their own cartridge version of Akumajou Dracula until over half a decade later in 1993. That copy doesn't have a save feature either  it has an EASY MODE.
+
+But despite its faults, this is still a strong game, if a typically overrated one. Today the first Castlevania may find itself hopelessly overshadowed by nearly all of its descendants; later installments added stunning gothic visuals, increasingly focused on multiple characters and divergent exploration to complement the traditional action, and steadily chipped away at the original's difficulty until they actually became too easy. Their great granddaddy nevertheless stands out as one of the creepiest games to be found anywhere on the Famicom and retains both the evocative music and the classic gameplay elements that are still the series' trademarks. It's not the masterpiece that some might claim it to be, but neither is it a mere footnote for greater things to come. It's simply a game that, warts and all, is still pretty fun to play, plain and simple.
+
+Reviewer's Score: 7/10, Originally Posted: 07/15/04
+
+Reviewer: Tachibana Ukyo
+http://www.gamefaqs.com/console/fds/review/R76152.html

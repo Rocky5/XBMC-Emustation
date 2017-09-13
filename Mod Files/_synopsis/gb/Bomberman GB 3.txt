@@ -1,0 +1,23 @@
+Bomberman GB3
+Platform: Nintendo Game Boy
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Translated
+Release Year: 2000
+Translated by: David Mullen, Duke Serkol
+Version: 1.0
+_________________________
+For the uneducated, Bomberman is helluva great series that has had many incarnations across many different consoles. It's a great game series in general, but where it really shines is as multiplayer game. Especially the versions that allow for like four players.
+
+The game is simple. They tell you before every level what you have to do to beat the level. Don't waste your time. Anything they say to you pretty much equates to "Blow up everything that isn't you, and isn't indestructible." How? Very easy. I mean, Jesus, you're Bomberman. You just run around drop bombs and hope an enemy wanders close to it. Of course, it is harder than that. At first, you can lay only one bomb at a time and they only have a range of one tile. But you can pick up stuff that increases both your range and the amount of bombs you lay? but at a cost. As you range increases, you'll find that you're blowing yourself up more often than the bad guys. Which is infuriating in Single Player Mode, but somehow funny in Versus Mode.
+
+You should also note that this was actually the fourth Bomberman to grace the Gameboy, and it was also the only one that wasn't officially translated into English.
+
+Translation Description:
+
+This was a project that David Mullen helped Duke Serkol out with in order to get his feet wet with the whole romhacking thing. It translates probably all the text in the game, except a few graphical things which were beyond the abilities of both romhackers. So close to completeion, and yet so far.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/17/

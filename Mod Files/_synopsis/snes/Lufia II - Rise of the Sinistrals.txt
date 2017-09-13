@@ -1,0 +1,64 @@
+Lufia II: Rise of the Sinistrals
+Alternative title: Lufia
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1996
+Developer: Neverland
+Publisher: Natsume
+Players: 1
+_________________________
+History Past
+
+In its long history, the land of Lufia, like most civilizations, has experienced both the devastation of war and the prosperity of peace. According to Lufian legend, the ultimate disaster was averted generations ago when four brave heroes saved their people from certain destruction at the hands of villainous creatures known as Sinistrals. Although the courage and fame of these bold warriors has been passed down through the ages in legend and myth... it was not the first time they rescued their homeland from the threat of destruction. Now the complete history of their brave heroics will unfold for all to see.
+
+Power and Glory
+
+There are many reasons for war: greed, a difference in beliefs, or a hunger for power. The Sinistrals started a war for the most selfish of reasons. They simply wanted the land of Lufia for their own. And they knew that the time to strike was when the Dual Blade, a sword of great power, was resonating. Arek, the leader of the Sinistrals, could read the signs. The Dual Blade would be his key to victory. The poor, pitiful Humans of the land would soon know the power of the Dual Blade. And Arek would have victory for once and for all.
+
+A Time For Heroes
+
+The Sinistrals may have the upper hand with the knowledge of the Dual Blade's power, but the Humans are not done yet. If the monster hunter, Maxim, has anything to say about the future of the world, the Sinistrals will not have their wish. His story has begun. Now he will find others who will join his revolution against the Sinistrals. Now he will find the source of the war on the world. And, now his band of warriors will rise triumphantly over the Sinistrals. At least, that's the plan.
+--from the SNES Lufia 2: Rise of the Sinistrals instruction manual
+
+This game was a lot of fun to play. The graphics were some of the best I've ever seen on the SNES. The colors are very bright and the rendering of the characters and monsters are great. I like very much the round based combat style. If you like RPG's, you'll love Lufia II.
+
+Directions:
+
+Stop the Sinistrals from taking over the world. 
+
+Lufia II, and Lufia I for that matter, was one of the best games ever put on the SNES. A lot of people like RPG's and this is one to remember. The game starts you off in town and you meet a shop owner girl that is obviously wanting to be your woman. After you sell her some monsters you've captured you can buy some stuff from her if you want. After that you will be approached by an old man that wants you to meet him in a southern cave for a tutorial on dungeon exploring. When you get done with that, you can go back to town and you will hear some upsetting news after you eat dinner with the shop owner girl. Monsters have taken over the northern cave and they want you to win it back, hence, your first assignment. 
+
+Controls:
+
+A Button - Confirm, Talk, Open Chest, Get Item
+B Button - Cancel Command, Swing Sword (outside combat)
+X Button - Item Info, Hide Menu
+Y Button - Use Skill
+L Button - Quick Attack, Special Skill
+R Button - Attack Multiple Enemies, Change Direction Without Moving
+Start Button - Start, Verify
+Select Button - Select from Menu
+
+Hints:
+
+Ending bonus:
+Successfully complete the game and allow the credits to end. Eventually, information about how well you did during the game will appear.
+
+Tips:
+
+Easy Capsule leveling up.
+To do this, feed any Capsule Monster a Long Knife (purchasable at any store early on) Now, save the game.  Use the soft reset (l + R + start + select) When you load, instead of requiring a rarer item for the next feeding, you'll only have to use another Long Knife.  This is an apparent glitch that resets the list of items needed to level up monsters. NOTE: You MUST use the Soft Reset option, not a regular reset)
+
+Easy Egg Dragon
+To defeat the Egg Dragon in less than one round, you only need: A healing item/spell and enough hit points to survive his attack.  First, you just heal him and then attack him once and he will die.  This is because he has max possible hp and the programmers forgot a hp-cap to prevent this.
+
+Secret Game Modes
+Once you've beaten the game the first time through you will unlock the retry mode. In this mode you will receive four times as much exp and gold as the first time through. Then once you beat the game with retry mode you unlock gift mode. This is useful only for the Ancient Dungeon, it allows you to select your party for the dungeon.
+
+Unlock Gift mode without beating the game twice
+Defeat the Jelly at the bottom of the Ancient Cave in your first play-through and you will receive the Gift mode option without having to beat the game in retry mode.
+

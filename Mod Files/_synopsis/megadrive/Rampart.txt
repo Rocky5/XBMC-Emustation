@@ -1,0 +1,13 @@
+Rampart
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1990
+Developer: Atari Games
+Publisher: Tengen
+Players: 1 to 3 VS
+_________________________
+Rampart is an arcade game developed by Atari Games. It was brought to the Sega Mega Drive and Sega Master System in 1991.

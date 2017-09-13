@@ -1,0 +1,73 @@
+Wolfenstein 3D
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter, First Person
+Gametype: Licensed
+Release Year: 1995
+Developer: id Software
+Publisher: Imagineer
+Players: 1
+_________________________
+You are B.J. Blazkowicz, top Republic spy and terminal action seeker. After building your reputation as a one man strike team, you now report directly to the president, who sends you on perilous missions of paramount importance. Somehow, you always manage to get the job done and get out alive - there's more medals than material showing on your uniform.
+
+These are the chronicles of a series of increasingly deadly missions, culminating with an attempt on the Master State's commander-in-chief, the Staatmeister.
+
+--From the SNES Wolfenstein 3-D instruction manual.
+
+Wolfenstein 3D is a video game that is generally regarded as having popularized the first person shooter genre on the PC.
+
+In Wolfenstein 3D, the protagonist is an American soldier (Polish descent) named William "B.J." Blazkowicz attempting to escape from the titular Nazi stronghold; there are many armed guards, as well as attack dogs. The building has a number of hidden rooms containing various treasures, food supplies, and medical kits, as well as three different guns and ammunition.
+
+Tips:
+
+299 Rounds
+Press and hold R while turning the power on. Release R at the title screen, then start a game. Pause and press R, Up, B, and A.
+
+Best weapons and maximum ammo
+Hold R on controller 2, turn on the SNES and release R at the title screen. During game pause and press R, up,B, A.
+
+Full map and all keys
+Hold R on controller 2, turn on the SNES and release R at the title screen. During game pause and press A, A, up, B.
+
+God Mode
+Hold R on controller 1, turn on the SNES and release R at the title screen. During game pause the game and press B, Up, B, A.
+
+Level Select
+Hold R on controller 1, turn on the SNES and release R at the title screen, then immediately press up and select.
+
+Level Skip
+Hold R on controller 1, turn on the SNES and release R at the title screen. During game pause the game and press UP, B, R, B.
+
+Level/Floor Passwords:
+BNHFMR A one way ticket to level 6-7. Enter the pain!!
+TSKLRM Mission 1 Floor 2
+VJKLSQ Mission 1 Floor 3
+VRTLRP Mission 2 Floor 1
+RHKLVS. Mission 2 Floor 2
+RRKLVS. Mission 2 Floor 3
+SHKLTR Mission 2 Floor 4
+SRKLTR Mission 3 Floor 1
+PLTLPT Mission 3 Floor 2
+PVTLPT Mission 3 Floor 3
+QLTLQN Mission 3 Floor 4
+MLKLMM Mission 4 Floor 1
+MTTLNQ Mission 4 Floor 2
+NKTLMP Mission 4 Floor 3
+NTTLMP Mission 4 Floor 4
+KNTLMR Mission 5 Floor 1
+LCKLNV Mission 5 Floor 2
+LNJFTM Mission 5 Floor 3
+MCKLPT Mission 5 Floor 4
+HNKLPT Mission 5 Floor 5
+JCKLQN Mission 5 Floor 6
+JNKLQN Mission 6 Floor 1
+DCKLRM Mission 6 Floor 2
+DNKLRM Mission 6 Floor 3
+FCKLSQ Mission 6 Floor 4
+FNCFTM Mission 6 Floor 5
+BCJFNV Mission 6 Floor 6
+
+
+http://en.wikipedia.org/wiki/Wolfenstein_3D

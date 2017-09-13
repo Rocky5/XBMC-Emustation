@@ -1,0 +1,23 @@
+Shanghai
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1989
+Publisher: HAL
+_________________________
+This is a portable edition of the solitaire game Shanghai, the game uses traditional Mah Jong tiles. The aim of the game is to match tiles, four of each type will be put on the playing field, when two tiles are matched they are removed when none remain you win. Only tiles that can be moved freely to the left or right may be matched. A wrong move may result in you not being able to clear the field.
+
+A slight story mode is presented in the Shanghai mode; each tile setup is based on a Zodiac animal that needs it power restored. The goal is to complete all twelve of these stages there by restoring the animals power.
+
+Some variants are also included:
+
+- Kong Kong: Compete against a computer to clear tiles. If you go slowly you will have tiles sent over to your by your opponent. This type of play is similar to games like Puyo Pop. Kong Kong may be played against another player by using a link cable or against a computer.
+
+- Challenge (WonderSwan only): A large Shanghai game that you'll try to race through to get the best score.
+
+- Goldrush: In this mode you will race against an opponent to reach a tile marked 'G'. G is for GOLD, boy! So get cracking.
+
+http://www.mobygames.com/game/gameboy/shanghai-pocket

@@ -1,0 +1,57 @@
+Tagin' Dragon
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1989
+Developer: Thin Chen Enterprises
+Publisher: Bunch Games
+_________________________
+
+
+Play tag with maze after maze full of dragons. Catch them if you can! Only adragon's tail is vulnerable, so sneak up from behind and munch till they turnto bones. If you are fast enough to snatch the Magic Lantern, you can discover the secrets buried within the walls of each maze.
+
+Directions:
+
+The object of the game is to outmaneuver the opponent dragons. Run behind themand bite the tail. It will chew off part of it and make it weaker. A weaker dragon is open for attacks from the front as well. The dragon can regain its tail by biting off another dragon's tail. If a dragon is weak and is bitten once more - it dies (turns into a skeleton). The player must us appropriate tactics by observing each dragon's tail. For example, if dragons of equal tails approach each other head on, the snapping dragon will hurt the dragon with a closed jaw. If one has a shorter tail, he cannot defeat the other even if he snaps.
+
+There is a time limit on each level. The time indicator is in the lower left corner along with the amount of dragon's left and the player's score.
+
+There are several objects in a zone you can pick up or destroy. The basic hedges that divide the area can be eaten after you have picked up a special lantern. The metal blocks cannot be removed and are permanent obstacles.
+
+Not every area is the same. If there is ice on the floor you will run through them very quickly and cannot control your movement. Another zone is called "Time Zone", which kill you if you stay in them for too long.
+
+Items:
+
+Magic Lantern:
+Enables the dragon to eat up the hedges in a maze, to reveal more bonus items.
+
+Dragon Egg:
+Extra live.
+
+Light:
+300 points.
+
+Fire Capsule:
+300 points.
+
+Corn:
+300 points.
+
+Fruits:
+300 points.
+
+Cherries:
+300 points.
+
+Controls:
+
+Directional Pad: Move the dragon into that direction.
+A Button: Bite
+Select Button: Option for mode selection. See below.
+Start Button: Pauses Game, Starts Game
+
+Reviewer: PianoChampion90
+http://www.gamefaqs.com/console/nes/file/587678/49820

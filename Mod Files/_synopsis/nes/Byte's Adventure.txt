@@ -1,0 +1,18 @@
+Byte's Adventure
+Original title: Mega Man
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: Darkdata
+Version: 1.4
+_________________________
+This hack is of Rockman J NES. It stared out as nothing serious, but it soon grew into what it is today. Thanks to the help of a good friend named Glyph, it also features an ASM hack that makes it stand apart from other Mega Man hacks. You will see it when you play. :)
+
+Thank you all for taking the time to play my hack.
+
+http://www.romhacking.net/hacks/296/

@@ -1,0 +1,62 @@
+Bible Adventures
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Christian
+Gametype: Unlicensed
+Release Year: 1995
+Developer: Color Dreams
+Publisher: Wisdom Tree
+Players: 1
+_________________________
+Noah's Ark
+
+God looked upon the earth, and behold, it was corrupt. So God asked Noah to make an ark of cypress wood and bring into the ark two of every living thing of all flesh; they shall be male and female. Help Noah gather animals and food for his long journey before the flood arrives.
+
+Save Baby Moses
+
+The Pharaoh of Egypt has given orders to his soldiers to cast every male baby born to the Hebrews into the Nile River. A daughter of the house of Levi has given birth to a goodly son. Baby Moses is doomed unless you safely carry him to the weeds at the river's edge. There baby Moses will be placed into a little ark made of bulrushes and pitch.
+
+David and Goliath
+
+Young David is in charge of his family's sheep. After finding all the sheep and carrying them to safety, David faces his greatest challenge. Armed only with his sling and stones, David must defeat Goliath, the giant champion of the Philistine army, and save the nation of Israel.
+
+--From the Genesis Bible Adventures instruction manual.
+
+Overview:
+
+Before getting into the game, let me give you a bit of a background on the game's company, Wisdom Tree. A Christian video game company, Wisdom Tree made religious games for the NES, SNES, Genesis, PC, and a couple of others. But the games made were unauthorized and without any kind of permission from either Nintendo, Sega, or what have you. These games were reportedly sold in Christian bookstores rather than video game retail outlets. Many of Wisdom Tree's games were criticized, though, for being dangerously similar to more well known games like Super Mario, Zelda, and Wolfenstein 3D.
+
+Bible Adventures, originally released on the NES in 1991, had been ported to the Sega Genesis in 1995 to the create the game here, giving it new music and updated graphics. The gameplay is drastically similar to the classic Super Mario Bros 2. in that you pick things up over your head and carry them, as well as just the layout being similar. However, this game isn't as easy to control, and using the character you want can often feel slippery. The sound leaves a bit to be desired, too, the music not being all that memorable, and it might annoy you more than anything. If you're into something different from what major game companies authorize, or a pretty big Christian, you can give this a go, but otherwise I wouldn't recommend it.
+
+Directions:
+
+Bible Adventures consists of three different games for you to play: Noah's Ark, Baby Moses, and David and Goliath. Here is how you play each of them: 
+
+Noah's Ark: In this game, you play as Noah and your goal is round up two of each type of animal: cows, horses, monkeys, snakes, pigs, and oxen. When you retrieve the animals, you must bring them back to the middle where the ark is, and drop them in (press Up to do so). Some animals you can just walk up to and pick them up with ease, but sometimes you need more effort and this results in you knocking them out with what appears to be a honeycomb. If you somehow find yourself low on health, you can read the Bible verses scattered about the levels to help give yourself more health. Your Inventory will tell you which animals you still need to find and which ones you already have. Be aware that the snakes you are trying to catch are not the same as the ones in the trees that try to kill you. There are several stages to this game, each with a different list of animals to find.
+
+Baby Moses: The Pharoah has ordered that all male Hebrew children are to be killed, but with you as the role of Jochebed, you must get your son, Moses, through the level unharmed. To do this, you have to carry Moses over your head in the same way you would the animals in Noah's Ark. However, you must avoid the hunters, for they can attack you as well as capture Moses. Keep this in mind, though: you can complete the game without bringing Moses with you.
+
+David and Goliath: With you taking the role of David, your goal in the beginning is to capture sheep, again in the same way by lifting them over your head, and bringing them to the pen. However, different animals such as lions and bears will come after you, so you may have to dodge them to avoid being struck. After you complete this portion, you must scale a mountain, all the while dodging guards and creatures as well as tumbling rocks. The last part of the game consists of you in a showdown between both the shield-bearer of Goliath as well as Goliath himself. 
+
+Noah's Ark: In this game, you play as Noah and your goal is round up two of each type of animal: cows, horses, monkeys, snakes, pigs, and oxen. When you retrieve the animals, you must bring them back to the middle where the ark is, and drop them in (press Up to do so). Some animals you can just walk up to and pick them up with ease, but sometimes you need more effort and this results in you knocking them out with what appears to be a honeycomb. If you somehow find yourself low on health, you can read the Bible verses scattered about the levels to help give yourself more health. Your Inventory will tell you which animals you still need to find and which ones you already have. Be aware that the snakes you are trying to catch are not the same as the ones in the trees that try to kill you. There are several stages to this game, each with a different list of animals to find.
+
+Baby Moses: The Pharoah has ordered that all male Hebrew children are to be killed, but with you as the role of Jochebed, you must get your son, Moses, through the level unharmed. To do this, you have to carry Moses over your head in the same way you would the animals in Noah's Ark. However, you must avoid the hunters, for they can attack you as well as capture Moses. Keep this in mind, though: you can complete the game without bringing Moses with you.
+
+David and Goliath: With you taking the role of David, your goal in the beginning is to capture sheep, again in the same way by lifting them over your head, and bringing them to the pen. However, different animals such as lions and bears will come after you, so you may have to dodge them to avoid being struck. After you complete this portion, you must scale a mountain, all the while dodging guards and creatures as well as tumbling rocks. The last part of the game consists of you in a showdown between both the shield-bearer of Goliath as well as Goliath himself. 
+
+Controls:
+
+A Button: Jump
+B Button: Pick Up/ Throw/ Use Weapon
+C Button: Jump
+Start Button: Pause/ Bring Up Inventory
+
+Hints:
+
+Bible Pages
+Along with being a source of health, they can occasionally leave you with hints to help you if you're stuck in the game. 
+
+Reviewer: LinkOfHyrule
+http://www.consoleclassix.com/genesis/bible_adventures.html

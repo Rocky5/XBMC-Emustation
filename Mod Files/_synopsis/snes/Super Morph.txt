@@ -1,0 +1,21 @@
+Super Morph
+Platform: Super Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Side-Scrolling
+Gametype: Licensed
+Release Year: 1993
+Developer: Millennium Interactive
+Publisher: Sony Imagsoft
+Players: 1
+_________________________
+Super Morph's plot is of a child who is given a temporary ability to change between states of Solid, Liquid, Gas coming in the forms of a cannonball,a rubber ball, a water droplet, and a cloud. The player must go through over 36 challenging levels set in 4 different zones collecting special cogs from each level in order to fix a machine capable of turning him back into a normal boy.
+
+Gameplay:
+
+Before playing takes place there is a cutscene of a young boy outside his uncle's house. Once the boy goes inside the house, a scientist lets the boy try out his new machine which can allow him to change state. The machine works but something goes wrong and the machine explodes sending most of its parts everywhere. The boy must now using his new abilities go around all areas of his uncle's property and find all the missing cogs.
+
+When the game starts, the player has a choice of which area to start in. The choices are: Laboratory, Garden, Sewer or Factory. There are 12 levels in each stage, each get harder as you go along. There are also hazards for each of the forms you change into: the rubber ball will inflate when it touches spikes, the bowling ball will burn when exposed to fire, the water drop will sink when in liquid, and the cloud can be sucked in by fans. The objective for each level is to find a cog which is hidden somewhere in the level. Once you have found all 36 cogs the uncle can fix the machine and Morph can change back to his normal form, a boy.
+
+http://en.wikipedia.org/wiki/Super_Morph

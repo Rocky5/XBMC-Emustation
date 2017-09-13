@@ -1,0 +1,35 @@
+Seiken Densetsu III
+Original title: Seiken Densetsu III
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Translated
+Release Year: 2000
+Translated by: LNF Translations, Neill Corlett,
+Version: 1.01
+_________________________
+Ahhh, the famous Seiken Densetsu 3. Calling this game "Secret of Mana 2" in front of the romhacking "scene" elite will earn you a quick correction, let me tell you something. Just think, all the newbies just take it for granted that SD3 is in English. You guys didn't have to endure the sheer pain that came before. The dull, empty void. Such is the way of all translations, I suppose.
+
+So yeah, this is Seiken Densetsu 3, which is (still) to date the only game in the series to not make it overseas. It's a damned shame too, because this installment is unquestionably the best. Sure, Secret of Mana may give it some competition, but I couldn't stand SoM for some reason. And the less said about Sword of Mana the better.
+
+SD3 uses the old Squaresoft crutch of multiple playable characters within the same timeframe (see: Rudra, RS3). The whole "see the same events from a different perspective" thing works out really well here, it turns out. I seem to say that about every game, though. As far as gameplay, if you've played Secret of Mana you know what to expect. If you've played the others in the series, like Legend of Mana or Final Fantasy Adventure? well, you still know what to expect: run around and hit things with your sword. In realtime. It's like Zelda, Squareified, for a complete lack of a better comparison.
+
+Hiroki Kikuta returns (I think) to compose the music in SD3. The end result is gorgeous. The game comes highly recommended, but play the game for its music, if nothing else.
+
+Translation Description:
+
+It's a shame that Neill Corlett isn't really into ROM hacking anymore, because he did a hell of a job. Also a hell of a script edit.
+
+Tips:
+
+Sound Test
+Hold down the L and R buttons while pushing reset on the system.
+
+Faster Spells
+When you are in a battle and use magic from either your Magician or Cleric (or any other char that takes a long
+time to do a spell) press the item button and stay on the menu for around 3 sec. When you go back to the battle, your character will use the magic without the waiting time.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/440/

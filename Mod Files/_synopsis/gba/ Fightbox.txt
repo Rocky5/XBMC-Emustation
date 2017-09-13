@@ -1,0 +1,14 @@
+FightBox
+Platform: Nintendo Game Boy Advance
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Action
+Gametype: Licensed
+Release Year: 2004
+Developer: Gamezlab
+Publisher: BBC Multimedia
+_________________________
+FightBox is an Action game, developed by Gamezlab and published by BBC Multimedia, which was released in Europe in 2004.
+
+http://www.gamefaqs.com/portable/gbadvance/home/919548.html

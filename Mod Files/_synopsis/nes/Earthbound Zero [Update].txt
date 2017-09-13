@@ -1,0 +1,15 @@
+Earthbound Zero [Update]
+Original title: Earthbound Zero
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Release Year: 2001
+Players: 1
+Hacked by: Starmen.net
+_________________________
+This is an old hack (circa 2001). It was meant to make all the game text more palatable, which it succeeds in. It was also meant to double the experience you get from enemies, but it turns out this feature doesn't work right. There are other little changes here and there as well. It's also a little buggy in places, so only try this hack if you're bored and have nothing better to do. I was planning to do more work on this hack, but it's pretty much a dead project at this point.
+
+http://starmen.net/vote/vote.php?id=17876

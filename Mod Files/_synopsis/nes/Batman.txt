@@ -1,0 +1,49 @@
+Batman: The Video Game
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1989
+Developer: Sunsoft
+Publisher: Sunsoft
+Players: 1
+_________________________
+
+The citizens of GOTHAM CITY are busy planning the city's 200th Anniversary Festival, but there is not much to celebrate. Crime and violence rule the city.
+
+The only man who can free the city from THE JOKER'S evil clutches is the one and only - BATMAN!
+
+With your help, the CAPED CRUSADER can defeat THE JOKER and save the good people of GOTHAM CITY. BATMAN is armed with special weapons and acrobatic strength. He must destroy 15 different types of enemies and 5 bosses, while traveling through 5 stages.
+
+Finally, BATMAN comes face-to-face with THE JOKER! But who will prevail? It's up to you!
+
+--From the NES Batman instruction manual.
+
+Overview:
+
+Batman is based loosely on the Michael Keaton/Jack Nicholson movie. Batman is out to stop the Joker from terrorizing Gotham City. There are some cinema scenes between levels, that show the Batmobile driving around or confrontations with the Joker. The cut-scenes have nice graphics to look at. The in-game graphics are good, too.
+
+There are some quotes from the movie included, and much of the scenery came right from the movie, too, such as the Axis Chemical Plant, and Batman's final showdown against the Joker in the clock tower. The sounds were also reminiscent of the movie.
+
+The controls were a little tricky at first, but easy to use once you get used to them. The ability to make Batman jump off the walls was a really fun feature. This platformer based on the movie was definitely an exception to the rule that all games based on movies are crappy.
+
+Directions:
+
+Help Batman save Gotham City by fighting your way through five different levels of bad guys, with a boss at the end of each one. Bosses include the flying beetle man, a room of death to navigate (gauntlet), the electric claw man, duel blocks, the bat-demon, and of course, the Joker. Items you will need: blue boxes with a B on it that are worth 1000 points, blue boxes with a missile that are worth ten ammo, and hearts that are worth one hit point (you'll have eight total). You will be able to switch your weapon when you collect the first missile box by pressing start and toggling between your weapons. You won't ever be able to get more life or weapons, so what you see is what you get. Being able to jump off the walls is very important to finding your way through the levels. Jump into a wall, then as soon as you make contact with it, press jump again and Batman will jump off of it. 
+
+Controls:
+
+A Button: Jump
+B Button: Attack
+Start Button: Start, Pause
+Select Button: Select
+
+Hints:
+
+Unlimited Continues
+- Press Up(2), Left, right, left, right, A+B at the tittle screen.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/nes/batman.html

@@ -1,0 +1,41 @@
+Young Merlin
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1994
+Developer: Westwood Studios
+Publisher: Virgin Interactive
+Players: 1
+_________________________
+The game follows a young Merlin as he enlists the help of the Lady of the Lake to help him defeat the evil Shadow King. It was developed by Westwood Studios, and Frank Klepacki composed its score.
+
+Tips:
+
+Progress Passwords:
+NOTE: ^ = Up on directional pad. v = Down on directional pad. > = Right on directional pad. less-than sign = Left on directional pad.
+
+YR>vvvYR YYYBYRvB 
+All items; near end of game
+
+X^LRRvYB LXR>^YBB 
+At Underground Dungeon
+
+>LX>vvYY YRRX^RXB 
+Half way through Rainbow Land
+
+XBLYYBBB RBBLBBBB 
+Post battle with Thunder Pig
+
+XRBLRvYX RRRL>^RB 
+ Post freeing the Elf
+
+BXLXYBBB RBB>YYBB 
+Post returning the Faerie's Reflection
+
+LRB^RvYX RRL>^RBB 
+Prior to entering the Rainbow Gate
+
+http://en.wikipedia.org/wiki/Young_Merlin

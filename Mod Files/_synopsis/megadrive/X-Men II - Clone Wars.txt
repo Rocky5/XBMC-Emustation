@@ -1,0 +1,51 @@
+X-Men 2: Clone Wars
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Developer: Headgames
+Publisher: SEGA
+Players: 1 or 2 CO-OP
+_________________________
+The X-Men engage in a battle so world-threatening, even Magneto switches sides! Mutantkind races to the edge of oblivion at the hands of an evil techno-bio cloning organism... the Phalanx! Be Wolverine, Cyclops, Gambit, Nightcrawler, Beast, Psylocke and for the first time ever... play as Magneto! X-Men are at their fiercest with Cyclops' optic blast, Wolverine's slashing adamantium claws and Gambit's hyper-charged cards! Use each mutant's super-powered attack to defend the world!
+
+Gameplay:
+
+The character lineup for the game includes Beast, Psylocke, Gambit, Cyclops, Wolverine, and Nightcrawler. Upon defeating the third level, Magneto becomes a playable character.
+
+Each character has a "mutant power" which can be used in fighting. Some of these can be charged to a greater effect by holding down the power button, and all of them are increased in power when the character has nine or ten bars of health. In addition to these powers, some characters are capable of climbing the walls and ceiling, or grabbing onto the wall. These powers can be used to reach hidden health (which is in the shape of a double helix) or as a shortcut. Also, some characters had attacks that propelled them forward, enabling them to jump further. Finally, some characters had double jumps, useful for shortcuts. Also, Wolverine could heal up to three bars of health if he had only one or two bars remaining. This healing occurs automatically with time, so the player could simply wait until Wolverine healed before continuing.
+
+Trivia
+
+    - This game was innovative in that the player was immediately thrust into the game; the first level begins as soon as the game loads with a random character, leading some players to hit the Restart button on the console repeatedly until the desired character appeared. The first level comprised only one stage, allowing players to switch out characters after the opening stage. The title screen and credits roll only after completing the first level. In emulation outside the Genesis/Megadrive system, the character randomization appears to be non-functional, with the first level always beginning with Cyclops. FUSION emulates character randomization.
+
+    - The game garnered considerable attention through the introduction of X-Man villain Magneto as a playable character.
+
+    - Oddly enough, the European release of the game reused the same cover art of X-Men 2: Game Master's Legacy for the Game Gear, a different and unrelated game.
+
+    - Some levels featured different soundtrack elements depending on the character selected,with the basic structure of the level's musical theme remaining the same.
+
+Hints:
+
+- 99 Lives -
+Press C + Down then press Up - Left - Up - Right - Right - C99 Lives
+
+- Change Characters -
+First do the Level Skip Code. Pause the game and press Left and C at the same time.Change Characters
+
+- Invincibility -
+Pause the game, press up+B. Then up, right, down, up, right, down, down, up, B. Unpause game; pause it again and press up+B
+
+- Level Skip -
+Pause the game,then simultaneously press Left,C.Next, press up,up,left,down,down,right,CLevel Skip
+
+- Fight Phalanx-Magneto in the Last Level -
+What you need to do is defeat all the Phalanx X-Men clones except for one. It doesn\'t matter what order you do it in just so long as all but one are dead. Now, once you\'ve done that, head back down to the very bottom of the area -- the end of the hallway where the Phalanx mech\'s claws turned into your character(s). Now, hit the wall to the left. If you do this, the wall should emit a circle of explosions which circle around twice and into a sort of close-eyed blank-looking smiley face.(Looks like this -> -_-) Now, head back up into the second room from the bottom on the right. This room should have a wall blocking your progression. However, if you did as I said, if you hit this small wall, it should shatter like glass. Walk into the room, and there, you will fight Phalanx-Magneto!
+
+Note: This does not effect the ending. It is just a nifty little bonus for those of you who like to explore.
+
+http://www.gamefaqs.com/console/genesis/data/366867.html
+http://en.wikipedia.org/wiki/X-Men_2:_Clone_Wars

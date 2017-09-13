@@ -1,0 +1,17 @@
+Skeleton Krew
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Isometric
+Gametype: Licensed
+Release Year: 1995
+Developer: Core Design Ltd.
+Publisher: Front Street Publishing
+Players: 1
+_________________________
+Skeleton Krew is an action game for the Sega Mega Drive. It uses an isometric perspective.
+
+The game takes place in the year 2062. A baddy named Moribund Kadaver has assumed control of a cryogenics plant near Monstro City. Kadaver is apparently a former mortician who has dabbled in cryogenics ever since he purchased Deadly Enforcement Aggressive Destruction Incorporated, aka DEAD Inc. Now he has the power to unleash mutants called Psykogenix on the population of Monstro City! The Military Ascertainment Department (MAD) has decided to call upon the world's most vicious mercenaries: the Skeleton Krew.
+
+Skeleton Krew has you choosing between three members of the deadly organization: Spine, Joint, and Rib. The object of the game is to make it through four planets on your way to stop Kadaver's nefarious plans.

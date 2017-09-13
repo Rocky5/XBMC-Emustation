@@ -1,0 +1,20 @@
+Vigilante 8
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Vehicular Combat
+Gametype: Licensed
+Release Year: 1999
+Developer: Vicarious Visions
+Publisher: Vatical Entertainment
+_________________________
+This handheld version of Vigilante 8 keeps its style, but is implemented in different graphical way. Now gameplay is shown in a top-down view with movable vehicle and a scrolling playfield.
+
+In the beginning you may choose one of six Vigilantes or six Coyotes to play with. Each of them has its own slogan and is sitting in a unique car. Five game modes (Road Trip, Arcade, Timed Attack, Progressive, Survival) as well as several themed battlefield locations are available.
+
+When gameplay itself begins, you should accelerate/decelerate your car, turn its wheel, find the enemy, and shoot at him/her until you win. Game modes add some variation to your mission.
+
+The game is available for 1 and 2 players to play against each other.
+
+http://www.mobygames.com/game/gameboy-color/vigilante-8_

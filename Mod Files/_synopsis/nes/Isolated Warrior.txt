@@ -1,0 +1,24 @@
+Isolated Warrior
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter - Action
+Gametype: Licensed
+Release Year: 1991
+Developer: NTVIC
+Publisher: NTVIC
+Players: 1
+_________________________
+
+The game is shown entirely from an overhead perspective, as in traditional top-down shooters. The player must collect weapon upgrades and operate various machines to combat the alien enemies. Various obstacles, such as pitfalls and land mines, must be avoided. There was a boss battle at the end of each level, and sometimes mid-level as well. The player's progress in the game could be saved using a password system. Between levels, images and text were sometimes displayed which showed Maverick's thoughts or reminiscence about his life.
+
+Story:
+
+The story takes place on a planet outside of Earth's galaxy called "Pan", which is suddenly attacked by a mysterious alien force. The aliens have the unique power to consume any living thing, as well as machines and buildings. Pan soon becomes overtaken by the alien force and the army of Pan begins losing all of its military power. The soldiers and people of Pan are told to evacuate the planet, however, a captain of the army, Max Maverick , refuses to leave. He instead suits for battle and faces the aliens alone, using a motorcycle and Hover-craft as his means of transportation. Max must stop the alien menace or face the destruction of his world.
+
+Trivia:
+
+A pirate version of the game called "Contra 8" exists. It has an altered title screen with a black-haired Bill Ryzer and a bit altered player sprite, so that it looks like a woman.
+
+http://en.wikipedia.org/wiki/Isolated_Warrior

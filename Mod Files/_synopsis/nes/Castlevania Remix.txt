@@ -1,0 +1,20 @@
+Castlevania Remix
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2002
+Players: 1
+Hacked by: Thaddeus
+Version: 1.0
+_________________________
+Castlevania Remix is a hack of Castlevania which incorporates the use of a few simple tones for the palette in order to create a bit of a sepia/black-and-white quality to the game, which lends itself very well to Castlevania, making it look more like a silver-age era monster film, which is definitely where the idea for Castlevania originated. Some might scoff at the use of a palette like this, but making the graphics look this detailed on the NES with a small set of colors is no small feat.
+
+Besides the graphical changes, the level layouts are also changed, and in some spots it's a lot more difficult, and in others it's easier. One thing to watch out for, though, is a distinct lack of hearts, which makes bosses a lot harder to defeat since you will only get off a few shots with your weapons before having to resort to your whip. Oh, and also be on the look-out for camoflaged staircases in a few spots if you can't find them, you may find yourself stuck.
+
+Also of interest is that the soundtrack has been rearranged slightly, and in some spots modifiedbut the sound hacks still need a little work. Perhaps in a future version.
+
+http://www.romhacking.net/hacks/8/

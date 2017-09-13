@@ -1,0 +1,15 @@
+Kid Icarus Remix
+Original title: Kid Icarus
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: Dragon Eye Studios
+Version: Patch v4-1
+_________________________
+Kid Icarus Remix is a level hack of Kid Icarus. Although enemies aren't moved (due to lack of data), the levels are still well crafted, and the hack is overall very fun.
+
+http://www.zophar.net/hacks/nes/kid-icarus/kid-icarus-remix.html

@@ -1,0 +1,28 @@
+Snoopy Tennis
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Sports - Tennis
+Gametype: Licensed
+Release Year: 2001
+Developer: Mermaid Studios
+Publisher: Infogrames
+_________________________
+Snoopy Tennis lets the player take control of Charles Schultz's famous Peanuts Gang and compete in a series of tennis games similar to Mario Tennis. The player can initially choose from eight characters to play (Snoopy, Charlie Brown, Lucy, Linus, Franklin, Sally, Peppermint Patty &amp; Schroeder) each with their unique strengths and weaknesses. By winning against certain opponents and various modes the player can unlock an additional four characters (Pigpen, Marcie, Rerun and Woodstock).
+
+There are four different courts to choose from, a forest location, the beach, the schoolyard and Charlie Brown's backyard, with an additional four locations unlocked during gameplay. There are six different single player game modes to choose from:
+
+- Normal, which is a best two-out-of-three game set.
+
+- Power, where the player plays a game of tennis with the ability to use power-ups during the match.
+
+- Points Win, which the player with the most points within a two minutes wins the match.
+
+- Sudden Win, which has no service breaks and the first player with two victories wins the game.
+
+- Squash, which is still a normal game of tennis, but adds walls to both sides of the court.
+
+There is also the Championship mode where the player takes on several different characters on different courts in order to win the Peanuts' Tennis Championship and unlock other characters under different difficulty settings (easy, medium and hard). There is also a two-player mode using a Game Link and supports three languages to choose from (English, French and Spanish).
+
+http://www.mobygames.com/game/gameboy-color/snoopy-tennis

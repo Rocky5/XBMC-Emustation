@@ -1,0 +1,40 @@
+Pac-in-Time
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer, Side-Scrolling
+Gametype: Licensed
+Release Year: 1995
+Developer: Kalisto
+Publisher: Namco
+Players: 1
+_________________________
+The evil Ghost Witch has cast a vicious spell on Pac-Man and thrown him back in time to when he was a Pac-Boy. Only you can save him now. Down some Pac-Pellets and get ready to battle your way through a totally supersonic side-scrolling adventure. Journey through snowy mountains and forests, collect fireballs and bubbles, crush Pac-Bats and ghosts, swim like a fish and swing like a monkey...and ultimately get Pac-Man back to the real world!
+
+--From the SNES Pac-In-Time instruction manual.
+
+Overview:
+
+Pac-In-Time is a bit of an unusual platformer, and definitely a change of pace from most Pac-Man games. Defeat the Ghost Witch and her minions to help return Pac-Man to his proper time and place.
+
+Pac-In-Time was a pretty good-looking game for the SNES system. Nice and cartoonish, good backgrounds and sprites, decent animation. The sounds seemed a bit behind the times, but not bad enough to detract from playing the game.
+
+Tips:
+
+Level Passwords:
+
+CVFTZ Area 11
+BPQGY Area 16
+TRQCZ Area 21
+CQQSH Area 26
+STFVF Area 31
+DJZZZ Area 36
+BLBJN Area 41
+DFLTQ Area 46
+SMPSN Area 6
+
+Stage Select
+First enter 'LVDYK, ' as your password. Return to the title screen and enter the following code: Place cursor over 'one-player', then hold Left, L and R and press Start. Use A, X, L, or R to
+
+http://www.consoleclassix.com/snes/pac_in_time.html

@@ -1,0 +1,19 @@
+Galaxy Force II
+Platform: Sega Genesis / Mega Drive
+Region: World
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Isometric
+Gametype: Licensed
+Release Year: 1991
+Developer: SEGA AM2
+Publisher: SEGA
+Players: 1
+_________________________
+Galaxy Force II is a 1988 arcade game developed by Sega AM2. It is a sequel to Galaxy Force, though the differences between the two games minimal. It is a third person on-the-rails shoot 'em up, where the player controls a spaceship traveling across various planets destroying enemies. Like all Sega Y Board games, it is heavily reliant on sprite scaling and rotations.
+
+Besides a change in title screen, the exact differences between Galaxy Force and Galaxy Force II are not yet known. Galaxy Force II, however, was housed in much simpler, "traditional" arcade cabinets unlike its prequel.
+
+Galaxy Force II was ported to the Sega Mega Drive in 1989, and a selection of computers including the Amiga, Amstrad CPC, Atari ST, Commodore 64 and ZX Spectrum. Due to the inferior hardware of these systems, large cutbacks were made regarding detail and the reception has hence been mixed. There was a more respectable port to the FM Towns Marty in Japan however, which kept the sprite scaling, and there was a re-release for the Sega Saturn under the Sega Ages label. Many of the computer releases mis-label the packaging as "Galaxy Force" rather than "Galaxy Force II", but the in-game title screens retain the numbering. A port to NEC's SuperGrafx was also in development and shown in magazines, but never completed.
+
+The arcade game has since been re-released in Japan as part of the PlayStation 2's Sega Ages 2500 series. More recently, the Mega Drive version of the game was brought to the Wii's Virtual Console service.

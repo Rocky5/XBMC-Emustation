@@ -1,0 +1,87 @@
+Super Bomberman 5
+Platform: Super Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1995
+Developer: Hudson
+Publisher: Hudson
+Players: 1 to 5 VS
+_________________________
+Super Bomberman 5 is an Action game, developed by Hudson and published by Capcom, which was released in Japan in 1997.
+
+Tips:
+
+}Cheat Characters
+In Configuration Battle Mode go to Password Load-enter
+these:
+W24LKN 
+W24G0N 
+D344J6 
+W04VJ4 
+D24GJN 
+W04V0T 
+W1440E 
+D24L1A
+}Cheat Codes
+5656 9 Lives
+0110 Power-ups everywhere
+1999 See the good ending
+2657 Start with lots of power-ups
+0926 (requires 100% completion of game mode) Unlock
+ the Gold Bomberman in Battle Mode
+0803 Watch the bad ending
+}passwords
+They should be entered under the 'Options' screen off
+the main menu. Each password changes either Battle Mode
+or Normal Mode, and after a correct password
+entry the game will automatically take you to the
+appropriate mode.
+3879 Allows you to fight all the Normal Mode bosses, 
+one after another.
+0413 This changes the configuration of hard blocks
+and unique items on the levels in Battle Mode.
+1999 This displays the so-called 'good ending' that
+you get after beating stage 5-I in Normal Mode.
+5656 This gives you 9 total lives and increases the
+time limit on each stage to 8 minutes in Normal Mode.
+0926 This moves the start positions in Battle Mode
+inward by a few squares, and also decreases the amount
+of open space in the level.
+4622 This starts everyone very close to the center
+of each Battle Mode stage.
+2657 This starts you in Normal Mode with 8 bombs, 8
+firepower, and 8 speed (the maximum for each). You also
+get Detonators, the Boot, and the Power Glove.
+0110 This turns every soft block on a Battle Mode
+stage into a powerup.
+1103 Unlocks 'super' computer difficulty in battle
+mode. This only needs to be entered once.
+
+Boss Character Passwords: for Configuration Battle Mode
+Well, through the cunning use of patch codes, I have been able to make near-exact duplicates of each and every boss character in Configuration Battle Mode. They can't take as many hits as they can in Single Player Mode due to how Configuration Battle Mode works, and certain characters' unique powers might be diminished slightly due to how Battle Mode works in general(IE, Bomber Woof can't lay more than one Land Mine Bomb at a time, Baron Bombano can't scatter Skulls and Geta about, etc.). . .and their colors aren't 100% precise. . .but the Items, Fire, Bomb Up, and Speed Up statuses are perfectly accurate. Check 'em out.
+
+Mokushiroku no Bomberman'
+Notes: This is a warped creation of mine. He's basically the same old Bomberman you'd have by the end of a Single Player session, but he has not the maximum of 8 Bomb Ups, Fires, and Speed Ups, but a total of 9 of each, and also has each and every obtainable item aside from the Bomb Kick and Pursuing Bomb items! As far as I can tell, however, the Land Mine Bombs override the Remote Controlled Bombs.('Mokushiroku no Bomberman' translates to 'Bomberman of the Apocalypse, ' for anyone who cares.)
+
+'Subordinate Bomber' 
+Notes: The Subordinate Bomber works perfectly fine in battle games, but keep in mind.  Playing with him will result in some odd(but completely harmless) graphical glitches on the Win Counter in-game and possibly the battlefield. He has no victory sound name-sound.(Like when playing a Single Match and Dave Bomber wins, you'd hear 'Deibu
+Bondaa' during the Victory screen.) This, of course, makes the game crash, seeing as it can't find the sound it wants to play. He's entirely safe to use in Tag Matches, though. Finally, his stats come from when you've destroyed Pirate Bomber before him. He gets a boost from 2 Fires to 8 Fires. Nothing more.
+
+Subordinate Bomber 2YLPVD
+Bomber Woof AFK4VH
+Mokushiroku no Bomberman BXMBJJ
+Baron Bombano CP6NVN
+Muscle Bomber EU0PLE
+Plunder Bomber KT3MT5
+Gary Bomber QN3PDU
+Dave Bomber RNHPC2
+Iron Mask Bomber WN6XCH
+Pirate Bomber YK1PLG
+
+Configure Cheat
+In the Configure Option in the Battle Mode, Input 23D830 as a password to acquire the following:  The character you get is a red Subordinate Bomber (The guy that helps Pirate Bomber when you fight him as a boss.) who isn't normally playable. On his stats screen, his Bomb and Speed levels are at 8, The number that tells the level of his firepower is screwed up (Changing it will mess up your screen), he'll have all of the special items (I. E. Kick, Punch, Throw, Wall Passer, etc.), and he'll still have 98 build points left! Save him, and he'll be shown on the character select screen as a red X and his face is a red Bomberman because Hudson Soft didn't create a face of him. Playing as him will often cause weird, messed up sprites to appear on screen.
+
+http://www.gamefaqs.com/console/snes/home/562899.html

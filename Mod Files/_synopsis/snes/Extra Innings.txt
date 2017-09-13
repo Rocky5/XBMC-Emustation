@@ -1,0 +1,48 @@
+Extra Innings
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Baseball
+Gametype: Licensed
+Release Year: 1992
+Developer: Sony Imagesoft
+Publisher: Sony Imagesoft
+Players: 1 or 2 VS
+_________________________
+Extra Innings (known as Hakunetsu Pro Yakyuu Ganba League in Japan) is a baseball game released for the North American Super NES. The game did not use real life teams from either American or Japanese baseball, instead using 12 fictional teams with all fictional players. The players are animated in a cartoony, anime type of style. In addition to these 12 teams, players can also create two custom teams, the players of which can have their names and ratings edited any number of times. For the most part, the game adhered to realistic rules of baseball, though omitting some of the more complex strategies such as the double switch.
+
+Like many baseball games from the era in which it was developed, Extra Innings's controls were somewhat primitive. For example, unlike modern baseball games, rather than the player choosing one player to move independently, moving the D-Pad will move all players in the field in unison.
+
+Like most baseball video and computer games, either one or two players can join in for some simultaneous action. This game is recommended for children ages 6 and up.
+
+Gameplay Modes:
+
+Extra Innings features 4 different types of play within the game. Players can choose from these four options:
+
+Player VS. Computer - Player chooses a team, (or creates and uses a Custom team), and plays a single game against the computer.
+
+Player VS. Player - Both players choose a team, (or creates and uses 1 or both Custom teams), and play a single game.
+
+All-Star - 2 player option where players choose between the two league divisions: The "All N" League, and The "ALL A" League. Players can pick and choose team members from their respective league teams and face-off in an All-Star division league game.
+
+Pennant Race - Single player option where player chooses a home team, and 5 computer teams, to play for the pennant. Player can choose 10, 20, 30,... up to 130 games for the pennant season. Best overall season win average clinches the pennant.
+
+Custom Teams:
+
+Players can create 2 custom teams within the game. When creating a custom team, players can name all the members of the team. Players also have the ability to rearrange player ratings within the team. These stats control various team aspects such as hitting, pitching, speed, etc. Each of the two custom teams is alloted a certain number of points that can be alloted as the player chooses across the team's entire roster.
+
+Custom teams can be played in all the gameplay areas except All-Star mode. In All-Star mode, only the regular pre-made teams can be used.
+
+Tips:
+
+Always Be Home Team
+While selecting your teams hold down Select 
+
+Sound Test
+Go to the Mode Select screen, highlight Set-Up, hold L + R and press Start.
+
+Turbo Mode
+At the Team Select screen Hold down L and R.
+
+http://en.wikipedia.org/wiki/Extra_Innings_(video_game)

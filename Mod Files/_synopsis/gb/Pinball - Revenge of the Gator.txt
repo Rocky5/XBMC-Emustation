@@ -1,0 +1,16 @@
+Pinball: Revenge of the 'Gator
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1990
+Developer: HAL
+Publisher: HAL
+_________________________
+Revenge of the 'Gator is a pinball game with an alligator motif. There is one table, and 3 bonus areas that are accessed by knocking down specific targets in the main playing area.
+
+There are several modes of play. First, there is the standard single player game. Second, there is a two-player alternating mode. Finally, there is a linked mode for two simultaneous players.
+
+http://www.mobygames.com/game/gameboy/pinball-revenge-of-the-gator

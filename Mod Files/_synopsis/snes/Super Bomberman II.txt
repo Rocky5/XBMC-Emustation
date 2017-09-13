@@ -1,0 +1,47 @@
+Super Bomberman 2
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Fixed
+Gametype: Licensed
+Release Year: 1994
+Developer: Hudson Soft
+Publisher: Hudson Soft
+Players: 1 to 4 VS
+_________________________
+Five evil cyborgs, called the "Five Dastardly Bombers" are bent on taking over the universe. At the planet Earth, they capture the original Bomberman, and he is placed a prison cell in their base. He awakens in the dungeon of Magnet Bomber and must fight his way to a final showdown with the Magnet Bomber himself. In the following four levels, Bomberman will challenge Golem Bomber, Pretty Bomber, Brain Bomber, and their leader, Plasma Bomber in an effort to free the Earth of these alien invaders as well as save himself.
+
+Gameplay:
+
+The gameplay consists of walking through maze-like areas filled with monsters with a goal of opening the gate leading to the next area. Playing as a bomberman, the player can lay bombs to destroy all of the monsters, which will subsequently open the gate. Destroying blocks in the maze may uncover useful items including remote control bombs, accelerators, and hearts. There are five levels total and at the end of each is a boss. Each boss is faced first alone in an arena until he or she has been defeated. The boss then retreats back to another arena where the play will face him or her in a personalized machine. After the boss is defeated, the player will continue to the next level.
+
+Multiplayer:
+
+In Battle Mode, one to four players can face off against one another in one of ten arenas designed specifically for multiplayer play. Matches can be customized as battle royal matches or as team matches. Besides the regular items found in singleplayer mode, the glove (allowing Bomberman to pick up and toss bombs) and speed increases can be found in multiplayer. A special option called G-Bomber can also be enabled allowing the winner of each match to be given a special item to begin the next match with and also to be colored golden.
+
+Tips:
+
+Change the color of your character
+Press Select at the player select screen.
+
+Sudden Death Vs. mode
+5656
+
+Jump in More Battle Mode Arenas
+(Note: This requires a Multitap.)  At the title screen, enter Battle Mode by pressing A on a controller in socket #5. For the duration of your game, you can now jump by pressing Y in every zone except Zones 2 and 3.
+
+Passwords:
+4361 Stage 1
+1111 Stage 1 (Full Power)
+6442 Stage 2
+5462 Stage 2 (Full Power)
+3903 Stage 3
+6763 Stage 3 (Full Power)
+9564 Stage 4
+8784 Stage 4 (Full Power)
+7735 Stage 5
+6925 Stage 5 (Full Power)
+
+
+http://en.wikipedia.org/wiki/Super_Bomberman_2

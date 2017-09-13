@@ -1,0 +1,40 @@
+Galaga
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Fixed
+Gametype: Licensed
+Release Year: 1988
+Publisher: Namco
+Players: 1 or 2 Alternating
+_________________________
+
+The "Galaga" are an unknown alien, which has an insect shape. They fly in formation and begin attacking. The boss "Galaga," in the highest position, is the only one capable of shooting the tractor-beam. If the boss "Galaga" is destroyed, the remaining "Galagas" attack power is temporarily weakened.
+
+--From the NES Galaga instruction manual.
+
+Overview:
+
+Shoot and destroy alien spaceships that are attacking you in this arcade classic!
+
+Galaga is the super smash hit sequel to Galaxian. Galaga made it to the big time as soon as it hit the arcades. People instantly fell in love. Galaga was ported very well from the old arcade machines to the Nintendo console. Galaga is one of the biggest classic arcade games of all time. When you ask people which arcade games were the biggest in the 80's, they will probably say, Centipede, Space Invaders, Donkey Kong, Pac Man, or Galaga. They even had a machine that had Galaga and Ms. Pac Man together. If you are a fan of arcade classics or space shooters, you'll love this game!
+
+Directions:
+
+Simply shoot all the spaceships that you see. You may have to move around to avoid getting attacked. 
+
+Controls:
+
+A Button: Shoot
+B Button: Shoot
+Start Button: Pause
+Select Button: N/A
+
+Hints:
+
+Don't give up!
+If a Galaga's tractor beam starts pulling you in, you will spin about, but you will still be able to shoot at enemies. If you happen to end up shooting upward and destroy the Galaga before you are captured, you will just drop back into play. 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/galaga.html

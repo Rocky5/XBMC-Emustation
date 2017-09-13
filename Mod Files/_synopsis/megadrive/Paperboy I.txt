@@ -1,0 +1,30 @@
+Paperboy
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1991
+Developer: MotiveTime, Ltd.
+Publisher: Tengen
+Players: 1 or 2 VS
+_________________________
+In Paperboy your job is to ride your bicycle through the neighborhood, throwing newspapers into subscribers' mailboxes or onto their front porches. If you miss one of the target homes, that particular household will drop their subscription. Vengeful paperboy that you are, you can break the windows of nonsubscribers' houses for extra points.
+
+The life of a paperboy in this game is tougher than you might think as the neighborhood is probably a little different than your own. While delivering papers, you will be assaulted by lawn mowers, tornadoes, workmen, breakdancers, dogs, and even the Grim Reaper. You can avoid these enemies or throw papers at them for extra points. There are also obstacles you must deal with such as trees, tires, grates, fire hydrants, fences, garbage cans, and man holes. And if that's not enough, cars, motorcycles, and other vehicles cruise recklessly down the street, hoping to run over you. After you finish each day of your daily route, you will enter a training course. In this timed bonus round, you must avoid obstacles, jump ramps, and throw newspapers at targets.
+
+Controls:
+
+D-Pad Up: Accelerate
+D-Pad Down: Brake
+D-Pad Left: Move slowly left
+D-Pad Right: Move slowly right
+D-Pad Diagonally Left: Move quickly left
+D-Pad Diagonally Right: Move quickly right
+A Button: Throw newspaper
+B Button: Throw newspaper
+C Button: Throw newspaper
+
+Reviewer: Brett Alan Weiss
+http://www.allgame.com/game.php?id=12556

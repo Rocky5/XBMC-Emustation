@@ -1,0 +1,23 @@
+Samurai Sword
+Original title: Samurai Sword
+Platform: The Family Computer Disk System
+Region: Japan (Translated)
+Media: Disk
+Controller: NES Gamepad
+Genre: Adventure - Graphic
+Gametype: Translated
+Release Year: 2003
+Translated by: Mute
+Version: 1.0
+_________________________
+
+Samurai Sword is a graphic adventure title, similar to Shadowgate or Uninvited. Your character is the last remaining warrior who's fighting against the dark priest Soron, and the game opens with you getting your ass handed to you. You wake up in a forest filled with elves, crazy old geezers, a barkeeper and his daughter. And a bird. Yes, one bird.
+
+Still, I've got a soft spot for graphic adventure titles, and as far as the genre goes I've played much worse. The graphics are decent, the puzzles are fairly intuitive - I never got stuck for more than five or ten minutes, they're mostly pretty easy - and although the music can get a little repetitive at times, it's easy enough to tune it out. It even manages to add a few "fights" to it! I played through the entire first area - the forest - in about half an hour or so, and saved at the start of the second area - a desert - when the game gave me ERR 07 which no doubt was because I hadn't yet figured out NNNesterJ's FDS disk swap keys. I'll probably go back to it now that I know what they are, though! It really is a decent little game, I strongly recommend it!
+
+Translation Description:
+
+Mute's patch is excellent as usual, and for a game that's as text-heavy as this, it really shows! Good job!
+
+Reviewer: Gideon Zhi
+http://www.romhacking.net/trans/699/

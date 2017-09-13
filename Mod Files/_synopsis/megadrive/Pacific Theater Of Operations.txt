@@ -1,0 +1,36 @@
+Pacific Theater Of Operations
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy, Turnbased
+Gametype: Licensed
+Release Year: 1993
+Developer: Koei
+Publisher: Koei
+Players: 1 or 2 VS
+_________________________
+Although it doesn't offer anything spectacular in the way of graphics or sounds (the music is downright silly for a war game), P.T.O. (Pacific Theater of Operations) is a satisfyingly realistic simulation that lets players act as Supreme Commander in WWII of either the Japanese or Allied Forces. The turn-based action, which relies heavily on tactical maneuvering and strategic command decisions, involves planning attacks, launching air strikes, managing a budget, implementing a draft, and much, much more. The game boasts a sophisticated mapping system for plotting your course, 250 ships based on those that fought during the war, and nine historical scenarios, including the bombing of Pearl Harbor and the Battle of Midway.
+
+Controls:
+
+D-Pad:
+Scroll to select commands and sub-commands/mark positions for movement, attack targets and future reference/press left to answer yes and right to answer no to yes or no questions/press left or right to access other info for data summaries.
+
+A:
+Input commands and selections/answer. Yes to yes or no questions.
+
+B:
+Cancel commands and selections/escape from maps and windows of information/access base data while at port/access information on #1 fleet whil at sea/answer no to yes or no questions.
+
+L/R:
+Access map of the pacific/return to a main command screen/scroll through additional screens of information/change speed of scrolling messages.
+
+Select:
+Access the options menu from a main command screen.
+
+Start:
+Skip to set-up from the.
+
+Reviewer: Brett Alan Weiss
+http://www.allgame.com/game.php?id=7448

@@ -1,0 +1,48 @@
+Sink or Swim
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Puzzle, Side-Scrolling
+Gametype: Licensed
+Release Year: 1996
+Developer: Zeppelin Games
+Publisher: Titus Software
+Players: 1
+_________________________
+You play Kevin Codner, our aquatic hero. You hear that the SS Lucifer has suffered some sort of mishap (the exact nature of the incident is not made clear in the game. Somehow the captain is shown pulling the plug from his bath, and a fountain of water shoots up and starts flooding the ship.). Kevin gets into a yellow submarine and begin saving the passengers.
+
+Each level has a certain number of passengers on it, and a certain quota to save to pass. Kevin must guide the passengers to their level exit, and then make his way to his own exit. There may be obstacles in the way, and there may also be water pouring into the ship's compartment, forcing the player to play quickly.
+
+Kevin has explosives at his disposal, allowing him to blast open doors or blast apart cargo crates that are blocking the way. There may be gaps that the passengers need to cross to reach their exit. These may be covered by pulling a simple lever and activating the bridge, but other times Kevin will have to build a bridge from cargo crates.
+
+There are conveyor belts and magnetic hoists to help in this task - but the conveyor belts may prevent the passengers from reaching their destination also. Kevin will have to find the correct levers to switch the direction of the belts.
+
+The passengers are very stupid - they will walk into fires or off platforms and get themselves killed. Kevin can use his life-boat to give them a little time in the water - but it will not last forever, and if they have not reached a ladder by the time it deflates, they are back where they started - in the freezing water. If they stay there too long, they will die. There are a few jetpacks that passengers can use for instant escape, but never enough.
+
+The player must patch up burst pipes spraying scalding steam, prevent passengers from falling into pools of acid, and cover up fires with cargo crates.
+
+Tips:
+
+Level Passwords:
+UMPED Level 10
+JIGSAW Level 15
+WARSAW Level 20
+BANANA Level 25
+OYSTER Level 30
+TENNIS Level 35
+ISLAND Level 40
+CRATER Level 45
+CRUMBS Level 5
+DENNIS Level 50
+PADDLE Level 55
+FATMAN Level 60
+SUMMER Level 65
+CLOUDS Level 70
+KEBABS Level 75
+LIZARD Level 80
+SILVER Level 85
+BRIDGE Level 90
+RECORD Level 95
+
+http://en.wikipedia.org/wiki/Sink_or_Swim_(video_game)

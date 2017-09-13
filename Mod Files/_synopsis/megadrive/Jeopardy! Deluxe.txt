@@ -1,0 +1,15 @@
+Jeopardy! Deluxe Edition
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Game Show
+Gametype: Licensed
+Release Year: 1993
+Developer: Park Place Productions
+Publisher: GameTek
+Players: 1 - 3
+_________________________
+Jeopardy!: Deluxe Edition is a 1993 game by Park Place Productions and GameTek based on the Jeopardy! television game show. Unlike GameTek's other Jeopardy! games, this one only appeared on two platforms: the Sega Mega Drive and the SNES.
+
+The game itself looks, sounds, and plays exactly like the regular Jeopardy! Mega Drive game (to the point that "Deluxe Edition" does not appear anywhere except the ROM header; this is not the case in the SNES version, where the "Deluxe Edition" is shown in-game).

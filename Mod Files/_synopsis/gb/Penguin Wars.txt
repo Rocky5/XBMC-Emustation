@@ -1,0 +1,14 @@
+Penguin Wars
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1990
+Developer: ASCII Entertainment
+Publisher: ASCII Entertainment
+_________________________
+A penguin rolls spheres across a table attempting to knock its opponent out for points. The character with the fewest spheres on its side of the table at the end of the timed match is the winner.
+
+http://www.mobygames.com/game/gameboy/penguin-kun-wars

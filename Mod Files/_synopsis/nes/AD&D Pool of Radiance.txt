@@ -1,0 +1,39 @@
+Advanced Dungeons &amp; Dragons: Pool of Radiance
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1989
+Developer: Marionette
+Publisher: FCI
+Players: 1
+_________________________
+
+This is one of the first games to incorporate the "golden box" game engine. This RPG is a good example of an excellent port from one medium to another. There were a PC and a C64 version, and the NES version featured original music, its own interface, and had different graphics. The graphics were good on the NES version. There was a nice amount of detail to the character's faces. This game allowed you to build your own party and characters, giving you total control.
+
+The story was very detailed and interesting. It was in a Forgotten Realms setting, and they almost always deliver. That, with open ended gameplay, made for a gaming experience much like real D&amp;D. The major difference being that you don't get to pick your feats and skills.
+
+Directions:
+
+Free Phlan from Tyranthraxus. There are several missions you can undertake that will earn rewards. Not all of them are mandatory. All you really have to do is clear the outer areas of Phlan so you can get to Valjevo Castle and fight Tyranthraxus.
+
+Be sure you have enough experience before you attempt to beat him, though. As with all RPGs, be sure to check everything and talk to everyone.
+
+Controlling your party is pretty close playing tabletop D&amp;D. You use the d-pad when not in combat, in a first-person view. To perform actions, just hit the A button to bring up the menu. From there you will be able to equip weapons and armor, make camp, use items, etc. Once you spot an enemy, you will have to decide whether or not to engage. If you do decide to fight, it will go into an overhead view of round-based combat. Each one of your characters will get their turn. On his/her turn you will be able to move and fight, or preform other actions that take the same amount of time. You can even delay your turn if you want. This will give your next turn sooner. D&amp;D rules apply, things like moving out of threatened areas will provoke attacks of opportunity. Remember to search your enemy's bodies after you defeat them. 
+
+Controls:
+
+A Button: Choose
+B Button: Cancel
+Start Button: Pause
+Select Button: Select
+
+Hints:
+
+Undead
+- Remember that slashing weapons only do half damage to undead creatures.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/nes/add_pool_of_radiance.html

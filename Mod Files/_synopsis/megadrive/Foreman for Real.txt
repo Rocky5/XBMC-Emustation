@@ -1,0 +1,13 @@
+Foreman for Real
+Platform: Sega Genesis / Mega Drive
+Region: World
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Boxing
+Gametype: Licensed
+Release Year: 1995
+Developer: Software Creations
+Publisher: Acclaim
+Players: 1
+_________________________
+Foreman For Real is a boxing game staring George Foreman. It is a spiritual sequel to George Foreman's KO Boxing, being both published by Acclaim, but having slightly different gameplay and different developers. Also unlike KO Boxing, the player is able to play as George Foreman in this game, among other boxers.

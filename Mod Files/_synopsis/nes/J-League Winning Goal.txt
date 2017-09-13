@@ -1,0 +1,15 @@
+J-League: Winning Goal
+Original title: J-League: Winning Goal
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports > Soccer 
+Gametype: Translated
+Release Year: 2009
+Translated by: Stardust Crusaders
+Version: 1.0
+_________________________
+This is a complete translation patch for the soccer/football game.
+
+http://www.romhacking.net/trans/1363/

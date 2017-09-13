@@ -1,0 +1,47 @@
+Mega Man 5
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+
+In the year 20XX, after a brief period of peace, an army led by what appears to be Proto Man storms throughout the world wreaking havoc. One day, Dr. Light turns up missing (he had been kidnapped by "Proto Man") and the only clues left behind to Mega Man are a brief note from Proto Man and his signature yellow scarf. Mega Man wonders why his brother is doing this, but with little choice left except to save the doctor, he sets out to stop the madness before it gets out of hand.
+
+This time, his Mega Buster has been upgraded slightly thanks to the help of their new ally, Dr. Cossack, and also, Cossack has created a bird friend by the name of "Beat" to join the cause. Cossack serves as Mega Man's mentor since Dr. Light is in captivity and helps him where needed during this quest.
+
+Once Mega Man defeats the eight Robot Masters who are controlling Proto Man's army, he gains access to his base. After a long, grueling journey through Proto Man's fortress, Mega Man is stopped by a piercing whistle  distinctly more off-key than usual. Proto Man arrives and attacks Mega Man, but both are stopped by another, more in-tune whistle. The real Proto Man appears between them and reveals Mega Man's adversary to be the impostor Dark Man. After Mega Man defeats this enemy, Dr. Wily appears, fleeing to his newly designed castle where Dr. Light is being held prisoner.
+
+Mega Man fights and defeats Wily. He then frees Dr. Light. The victory is short lived: the entire ceiling collapses, but Mega Man raises his arms and holds the entire massive weight, keeping it from crushing Dr. Light and Wily. Wily takes his chance and escapes. Mega Man cannot move from the force that is bearing down on him, all of his strength spent on keeping Dr. Light and himself from being crushed. Dr. Light can't save himself, as Mega Man and the ceiling are both blocking the way.
+
+Just when it seems Mega Man is about to slip, Proto Man's whistle splits the air. A section of the ceiling is blown off, and Mega Man and Dr. Light waste no time in escaping as the fortress explodes. Outside, Mega Man and Dr. Light watch as Wily's saucer flees and the fortress begins to burn. Their timely savior, Proto Man, also watches from afar, unnoticed by anyone.
+
+Controls:
+
+A Button: Jump, Get items
+B Button: Use current Weapon
+Down + A: Slide
+Start Button: Pause / Unpause, Display menu
+Select Button: No use
+
+Hints:
+
+Passwords
+Red: C1, D4, F6; Blue: B4, D6, F1 = Charge Man Defeated
+Red: A5, D2, E3; Blue: B1, B3, E5 = Crystal Man Defeated
+Red: C1, D4, F6; Blue: B4, D6, F1 = Dr. Wily's Lair
+Red: A5, B1, F4; Blue: C4, E5, F1 = Gravity Man Defeated
+Red: A5, B1, E3; Blue: B3, E5, F1 = Gyro Man Defeated
+Red: A5, C1, E3; Blue: B3, E2, E5 = Napalm Man Defeated
+Red: B1, B6, F4; Blue: C4, E6, F1 = Star Man Defeated
+Red: C1, E3, F6; Blue: B3, D6, E2 = Stone Man Defeated
+Red: B1, B6, D3; Blue: B3, E6, F1 = Wave Man Defeated 
+
+Reviewer: grimjockey
+http://consoleclassix.com/nes/mega_man_5.html
+http://en.wikipedia.org/wiki/Mega_Man_5

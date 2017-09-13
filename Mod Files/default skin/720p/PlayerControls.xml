@@ -26,7 +26,6 @@
 								<texture>$INFO[musicplayer.offset(-2).cover]</texture>
 								<bordertexture border="5">black-back.png</bordertexture>
 								<bordersize>1</bordersize>
-								<visible>!Skin.HasSetting(MusicVis)</visible>
 						</control>
 						<control type="image">
 								<posx>85</posx>
@@ -36,7 +35,6 @@
 								<aspectratio>scale</aspectratio>
 								<texture>$INFO[musicplayer.offset(-1).cover]</texture>
 								<bordersize>1</bordersize>
-								<visible>!Skin.HasSetting(MusicVis)</visible>
 						</control>
 						<control type="image">
 								<posx>435</posx>
@@ -46,7 +44,6 @@
 								<aspectratio>scale</aspectratio>
 								<texture>$INFO[musicplayer.cover]</texture>
 								<bordersize>1</bordersize>
-								<visible>!Skin.HasSetting(MusicVis)</visible>
 						</control>
 						<control type="image">
 								<posx>895</posx>
@@ -56,7 +53,6 @@
 								<aspectratio>scale</aspectratio>
 								<texture>$INFO[musicplayer.offset(1).cover]</texture>
 								<bordersize>1</bordersize>
-								<visible>!Skin.HasSetting(MusicVis)</visible>
 						</control>
 						<control type="image">
 								<posx>1245</posx>
@@ -66,7 +62,6 @@
 								<aspectratio>scale</aspectratio>
 								<texture>$INFO[musicplayer.offset(2).cover]</texture>
 								<bordersize>1</bordersize>
-								<visible>!Skin.HasSetting(MusicVis)</visible>
 						</control>
 				</control>
 				<!-- Chevron -->
@@ -325,62 +320,5 @@
 								<animation effect="fade" start="0" end="80" time="0" condition="true">Conditional</animation>
 						</control>
 				</control>
-				<!-- Not used
-		<control type="button" id="606">
-			<posx>55r</posx>
-			<posy>50r</posy>
-			<width>44</width>
-			<height>44</height>
-			<label>-</label>
-			<texturefocus border="5">button-focus3.png</texturefocus>
-			<texturenofocus>-</texturenofocus>
-			<onleft>605</onleft>
-			<onright>-</onright>
-			<onup>-</onup>
-			<ondown>-</ondown>
-			<onclick>Skin.ToggleSetting(MusicVis)</onclick>
-		</control>
-		<control type="image">
-			<description>Music Vis image disabled</description>
-			<posx>55r</posx>
-			<posy>50r</posy>
-			<width>44</width>
-			<height>44</height>
-			<texture>PlayerControls-MusicVis-Disabled.png</texture>
-			<visible>!Skin.HasSetting(MusicVis)</visible>
-		</control>
-		<control type="image">
-			<description>Music Vis image enabled</description>
-			<posx>55r</posx>
-			<posy>50r</posy>
-			<width>44</width>
-			<height>44</height>
-			<texture>PlayerControls-MusicVis-Enabled.png</texture>
-			<visible>Skin.HasSetting(MusicVis)</visible>
-		</control>
-		<control type="multiimage">
-			<posx>435</posx>
-			<posy>70</posy>
-			<width>410</width>
-			<height>410</height>
-			<imagepath>musicvis</imagepath>
-			<timeperimage>80</timeperimage>
-			<fadetime>0</fadetime>
-			<pauseatend>0</pauseatend>
-			<randomize>true</randomize>
-			<loop>yes</loop>
-			<aspectratio>stretch</aspectratio>
-			<visible>Player.HasMedia + Player.Playing</visible>
-		</control>
-		<control type="image">
-			<posx>435</posx>
-			<posy>70</posy>
-			<width>410</width>
-			<height>410</height>
-			<aspectratio>scale</aspectratio>
-			<texture>musicvis_off.png</texture>
-			<visible>!Player.Playing</visible>
-		</control>
-		-->
 		</controls>
 </window>

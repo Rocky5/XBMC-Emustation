@@ -1,0 +1,29 @@
+Donkey Kong Classics
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1988
+Developer: Nintendo R&amp;D1
+Publisher: Nintendo
+Players: 1 or 2 Alternating
+_________________________
+
+Donkey Kong Classics features both the original Donkey Kong and Donkey Kong Jr. on a single cartridge. In Donkey Kong, you need to guide Mario safely up the scaffolding to rescue his girlfriend, Pauline. In Donkey Kong Jr., the roles are reversed; you control Jr. who needs to rescue his father, who has been captured by Mario.
+
+Controls:
+
+A Button: Jump
+B Button: No use
+Start Button: Pause/Unpause the game
+Select Button: Selects between Donkey Kong and Donkey Kong Jr.
+
+Hints:
+
+Donkey Kong Jr.
+- When playing Donkey Kong Jr. remember that you will go up faster on two vines while you will go down faster on one.
+
+Reviewer: LinkOfHyrule
+http://www.consoleclassix.com/nes/donkey_kong_classics.html

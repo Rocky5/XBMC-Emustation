@@ -1,0 +1,76 @@
+Brainies, The
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1996
+Developer: Atreid Concept
+Publisher: Titus Software
+Players: 1
+_________________________
+The Brainies is a puzzle game released on the Super Nintendo Entertainment System console and Atari ST, Amiga, and Amstrad CPC computers. Gameplay revolves around Mexican jumping beans. There are four difficulty levels and the object is to return the Mexican jumping beans safely home. This game was reviewed in an issue of Nintendo Power.
+
+Level Passwords:
+Red, Green, Red, Red, Red, Yellow 
+Level10
+
+Yellow, Blue, Green, Blue, Green, Red 
+Level100
+
+Yellow, Yellow, Blue, Yellow, Green, Red 
+Level15
+
+Yellow, Yellow, Green, Yellow, Green, Red 
+Level20
+
+Red, Blue, Green, Red, Red, Yellow 
+Level25
+
+Green, Blue, Yellow, Green, Red, Red 
+Level30
+
+Blue, Red, Green, Blue, Yellow, Blue 
+Level35
+
+Blue, Red, Red, Yellow, Yellow, Red 
+Level40
+
+Green, Blue, Red, Yellow, Blue, Green 
+Level45
+
+Blue, Yellow, Red, Green, Yellow, Red 
+Level5
+
+Yellow, Green, Red, Blue, Green, Green 
+Level50
+
+Yellow, Green, Yellow, Blue, Red, Blue 
+Level55
+
+Blue, Yellow, Green, Red, Yellow, Red 
+Level60
+
+Red, Yellow, Green, Red, Blue, Blue 
+Level65
+
+Yellow, Green, Green, Yellow, Blue, Yellow 
+Level70
+
+Green, Blue, Blue, Red, Blue, Blue 
+Level75
+
+Red, Blue, Red, Yellow, Blue, Green 
+Level80
+
+Yellow, Yellow, Red, Red, Green, Red 
+Level85
+
+Green, Green, Yellow, Green, Yellow, Green 
+Level90
+
+Red, Yellow, Yellow, Green, Blue, Green 
+Level95
+
+http://en.wikipedia.org/wiki/Brainies,_The

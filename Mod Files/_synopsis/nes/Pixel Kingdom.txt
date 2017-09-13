@@ -1,0 +1,15 @@
+The Pixel Kingdom
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2008
+Hacked by: Tyrukia
+Version: 1.0
+_________________________
+A graphics hack that is the opposite of most; instead of an improvement, it is a downgrade. The effects are pretty cool. Be sure to check out the castle level.
+
+http://www.romhacking.net/hacks/394/

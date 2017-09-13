@@ -1,0 +1,20 @@
+RoboCop 3
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Side-Scrolling
+Gametype: Licensed
+Release Year: 1992
+Developer: Ocean Software
+Publisher: Ocean Software
+Players: 1
+_________________________
+The Super NES edition of RoboCop 3 is also a traditional single-player side-scrolling game. It was developed by Ocean Software and had what many considered to be extremely difficult gameplay. It was largely critically panned upon release. Flying Edge (a subsidiary of Acclaim Entertainment) would later port this version to other consoles, including the Sega Genesis and Sega Master System.
+
+Tips:
+
+Give yourself a full power supply
+In the middle of a level, press START, then press SELECT three times.
+
+http://en.wikipedia.org/wiki/RoboCop_computer_and_video_games#RoboCop_3

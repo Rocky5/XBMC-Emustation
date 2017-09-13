@@ -1,0 +1,14 @@
+Paperboy 2
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1992
+Developer: Tengen
+Publisher: Mindscape
+_________________________
+You're a paper boy. Get on your bicycle. Avoid obstacles on the road, such as dogs, cars, and basically everything you can imagine. Hell, some people shoot cannon balls at you! And you'd better be very sure to only throw papers at the right houses! (and at people, that's fun :)
+
+http://www.mobygames.com/game/gameboy/paperboy-2

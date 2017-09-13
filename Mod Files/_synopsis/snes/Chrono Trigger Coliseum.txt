@@ -1,0 +1,15 @@
+Chrono Trigger Coliseum
+Original title: Chrono Trigger
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2006
+Hacked by: Kajar Laboratories
+Version: 2.0
+_________________________
+The perfect place to test your might, the Coliseum offers a new challenge to old veterans and breathes new life into the renowned battle system of Chrono Trigger. It is also arguably the most complicated event hack of the game to date, serving as indisputable proof that the Temporal Flux editor indeed has unlocked countless opportunities for reshaping the game. Three modes of difficulty are available for solo or party battles, and points can be accumulated to achieve rewards. Additionally, a cameo by a legendary swordsman appears for those who beat Hard mode on Solo.
+
+http://romhacking.net/hacks/21/

@@ -1,0 +1,14 @@
+Earthbound Easy
+Original title: Earthbound Zero
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Players: 1
+Hacked by: Starmen.Net
+_________________________
+For a lot of people, EarthBound Zero isn't very fun because of the excessive level-grinding necessary, particularly during the early parts of the game. To help alleviate this problem, we've made a very small IPS patch that doubles the experience and the money you receive from enemies. According to some, this actually makes the game a little too easy, but for the first-time player, it's probably pretty decent.
+
+http://starmen.net/mother1/easypatch/

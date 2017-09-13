@@ -1,0 +1,19 @@
+Arkanoid II
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+
+Revenge of Doh is a direct sequel to the original arcade smash Arkanoid. Along with improved graphic engine, better sound and music, better hardware support and more levels, Revenge of Doh also features a built-in editor and allows you to create your own level sets!
+
+Revenge of Doh continues Arkanoid's plot as follows, directly taken (including typoes) from the game:
+
+A long time period passed and the dimension controlling force Doh has again come back to life. Occupying the huge starship Xorg, it has entered our universe from a different dimension. Mixtec, Arkanoid type spaceship, has lauched the craft Vaus II to make a preemptive attack on Xorg.
+
+http://www.mobygames.com/game/nes/arkanoid-ii-revenge-of-doh

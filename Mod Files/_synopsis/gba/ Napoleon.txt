@@ -1,0 +1,14 @@
+Napoleon
+Platform: Nintendo Game Boy Advance
+Region: (Translated)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Strategy
+Gametype: Translated
+Release Year: 2006
+Translated by: Nebelwurfer HQ
+Version: 0.50
+_________________________
+All 30 campaigns and 7 flashback scenarios have been translated. So that means you can play the game through to completion without fear of "FQWEZ^@Z" being shouted at you.
+
+http://www.romhacking.net/trans/684/

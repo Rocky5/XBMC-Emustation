@@ -1,0 +1,48 @@
+NHLPA Hockey '93
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Hockey
+Gametype: Licensed
+Release Year: 1992
+Developer: Park Place Productions
+Publisher: EA Sports
+Players: 1 to 2 VS; CO-OP
+_________________________
+NHLPA Hockey 93 follows in the footsteps of NHL Hockey, while offering over 20 new features. Modes include Exhibition, One Game Playoffs and Seven Game Playoffs. New features include more statistic tracking, most valuable players awarded at the game's conclusion, and a crowd noise meter that affects how well your team is playing. This time around full NHLPA rosters are included as well as the ability to create and save team lines via the battery backup. Realistic elements have also been added such as player fights and a pane of glass behind the goal that can now be shattered. Injuries can knock players out of a period or a game, and will cause the injured player to release a small pool of blood onto the ice. Classic features include instant replay and two-player cooperative mode.
+
+Controls:
+
+OFFENSE
+
+A Button: Change lines
+B Button: Passes puck
+C Button: Wrist shot
+C Button (hold): Slap shot
+D-Pad: Controls direction of pass/shot and player
+
+DEFENSE
+
+A Button: Holds/hooks
+B Button: Poke check/trip
+C Button: Speed burst (body check)
+D-Pad: Controls skating direction
+
+FIGHTING
+
+A Button: Holds
+B Button: Body punch
+C Button: Head punch
+D-Pad: Move forward/back
+
+Hints:
+
+- Edit the opposition's line for them -
+Plug a second pad into the machine. Play a game as normal. Once you are into the game, pause using the second pad. Move the cursor down to 'Edit Lines', and now you can mess with the opposition's lines.
+
+- No opposition Goalie -
+Plug a second controller into the machine. Select your teams as normal. Once in the game, pause the game with the second contoller. Move the cursor to 'Change Goalie', and select 'No Goalie'.
+
+Reviewer: Chris Cavanaugh
+http://www.allgame.com/game.php?id=11943

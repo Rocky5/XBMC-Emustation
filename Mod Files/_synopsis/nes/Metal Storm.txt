@@ -1,0 +1,18 @@
+MetalStorm
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer - Action
+Gametype: Licensed
+Release Year: 1991
+Developer: Irem Corporation
+_________________________
+
+The year is 2501, and the dawning of a new century has brought mankind to the brink of disaster. The powerful LaserGun on the planet Pluto's battle station "Cyberg" is wreaking havoc. It was originally designed to protect Earth from hostile aliens, but, due to a computer malfunction, is systematically destroying all the planets in the Solar System! Most recently the Earth Nation watched helplessly as Neptune exploded.
+
+The system's self-destruct device could stop the LaserGun, but it has mysteriously jammed and is aimed at Earth. Even if the device can be manually activated, there is still only a slim chance that Earth can be saved. Your mission is to enter Cyberg using the most sophisticated weaponry available, the M-308 Gunner, and unlock that self-destruct device!
+
+--From the NES MetalStorm instruction manual.
+
+http://consoleclassix.com/nes/metalstorm.html

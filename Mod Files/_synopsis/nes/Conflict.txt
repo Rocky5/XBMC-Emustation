@@ -1,0 +1,20 @@
+Conflict
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Strategy - Turnbased
+Gametype: Licensed
+Release Year: 1990
+Developer: Vic Tokai
+Publisher: Vic Tokai
+Players: 1 or 2 VS
+_________________________
+
+Conflict is a hex-based war game where the player is a three-star general who must accompany his troops to the ultimate victory. The player can earn or lose victory points by occupying cities and destroying units of the opponent's army. The player controls the Western Bloc while the computer (or second player) controls Eastern Bloc troops.
+
+Periodicals:
+
+Received honorable mention for "Best Military-Strategy Game of 1990" by Video Games &amp; Computer Entertainment Magazine.
+
+http://www.digitpress.com/

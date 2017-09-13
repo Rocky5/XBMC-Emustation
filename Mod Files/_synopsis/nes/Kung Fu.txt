@@ -1,0 +1,47 @@
+Kung-Fu
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1985
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 or 2 Alt
+_________________________
+
+In this side-scrolling adventure, you are Kung Fu Master Thomas. Your goal is to punch and kick your way through the ranks of the enemy martial arts gang, to rescue your girlfriend Sylvia from the mysterious Mr X.
+
+Directions:
+
+This is one of the first and remained one of the best games of its type for the NES platform. It doesn't have the wide variety of moves that we're used to in recent games, and, okay, the plot's a little thin, but still this game is a whole lotta fun, which is what it's really all about.
+
+In two-player mode you take turns to see who can get the highest score. Mode A might be considered as "Easy" and Mode B as "Hard" since it comes with a lot more enemies who are also smarter and stronger. The only thing I might have wished for was a mode in which two players could cooperate, but alas, Thomas has to do this on his own.
+
+There are lots of different enemies, so try to use jumping or crouching moves as well as regular punches and kicks to see what is most effective in each situation. Punches generally give more points because they have shorter range.
+
+Finally, after you defeat Mr X and rescue Sylvia, the whole thing starts over again. Why does Thomas keep letting his girlfriend get kidnapped? Too much time in the Dojo, says I. 
+
+Controls:
+
+A Button: Punch
+B Button: Kick
+Up: Jump
+Down: Crouch
+Start Button: Start/Pause Game
+Select Button: Choose Game Type
+
+Hints:
+
+Extra Points
+Defeat the Twelfth enemy on each level using a jump kick to gain 5,000 points instead of the regular score for that enemy.
+
+Alternate Ending
+Beat the game twice in a row to see a different version of the ending sequence.
+
+Fight Sylvia
+If you beat the game 50 times, you can fight Sylvia instead of Mr X in the final challenge. 
+
+Reviewer: jcooper
+http://consoleclassix.com/nes/kung_fu.html

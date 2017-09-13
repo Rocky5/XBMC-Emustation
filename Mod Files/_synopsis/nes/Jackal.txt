@@ -1,0 +1,61 @@
+Jackal
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Run 'n Gun - Top Down
+Gametype: Licensed
+Release Year: 1988
+Developer: Konami
+Publisher: Konami
+Players: 1 or 2 CO-OP
+_________________________
+
+Return to 'Nam
+
+Infrared satellites soaring miles above Earth have spotted dozens of American prisoners of war still trapped on enemy soil.
+
+Missing for years but never forgotten, these men must be brought home.
+
+But America is in no position to risk an all-out invasion that could prompt retaliation. Instead, the only possible hope for their freedom is a small scale commando raid - code name JACKAL.
+
+Immediately the President turns to the Green Berets and their combat-ready, tactical infiltrating "Jeep Squad". The Jeep Squad is comprised of twenty all- terrain, four-wheel drive, super-mobile attack jeeps, each equipped with one driver and one gunner. Only forty of the Green Berets' bravest and most cunning soldiers belong to this elite fighting force, and because of the secrecy of the mission, only a few of them qualify for the rescue attempt.
+
+Needless to say, you've been chosen to be one of the few, the proud, the Jackals.
+
+So work up your courage and polish up your guns, because it's time to save the life of each and every brave American POW.
+
+And before you go, your country would just like to say, "Good luck, son. Don't come home alone."
+
+--From the NES Jackal instruction manual.
+
+Overview:
+
+Driving your Jeep with machine guns blazing, rescue POW's from the enemy and destroy his fortress of evil. "You'll need a pocket full of miracles, and the ferocity of a wild Jackal!"
+
+I have to say this is probably one of the best games for the NES platform, technically speaking. The graphics were truly excellent for the time, and the music and sound effects are great too.
+
+Directions:
+
+Jackal is one of the first games I can remember where your enemes have to actually attack you to hurt you. So your jeep can run over puny mortals that get in your way as long as they don't shoot you first.
+
+You can ram enemy vehicles as well, but that's more of a kamikaze thing because it kills both of you. The attack system is very interesting: you have a machine gun that always fires forward and a grenade gun which always fires the direction your jeep is facing. This gives you some flexibility in your attack options and is great when there are many enemies on screen. Another interesting detail: you actually have to physically rescue the POWs in-game, it's not just some plot point. They are being held in various tents and barracks, which you have to blow up with a grenade to let them out. When you free them, you have to drive up to them and they all pile into your jeep. There are green POWs that just give you points, and there are flashing POWs or Officers who upgrade your weapon from Grenade to Missile and then increase the explosive damage of your Missiles. If your jeep is destroyed some of the POWs will survive and you can pick them up again, but Officers never make it, so you're back to Grenades. 
+
+You have to actually carry the hostages to the end of the level to get full credit for rescuing them, but I think you get some points for picking them up the first time.
+
+Jackal is a relatively short game for its genre, but it makes up for it in challenge and pure fun. There are a wide variety of enemies and bosses, different terrain and various obstacles to overcome. Don't worry, it won't seem short, and when you do finally defeat the final boss, Jackal loops back to Level 1, so the pursuit of fun and incredible High Scores never ends! 
+
+Controls:
+
+A Button:Fire Grenade or Missile
+B Button: Fire Machine Gun
+Start Button: Start/Pause Game
+Select Button: Choose 1 or 2 Players
+
+Hints:
+
+2-Player Life Steal
+In a two-player game, if one player runs out of lives while the other player still has extra lives left, the dead player can steal a life from his partner by pressing A and B simultaneously. 
+
+Reviewer: jcooper
+http://consoleclassix.com/nes/jackal.html

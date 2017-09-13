@@ -1,0 +1,27 @@
+Super Mario Bros II 1998
+Platform: Sega Genesis / Mega Drive
+Region: China
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Pirate
+Release Year: 200x
+Players: 1-2
+_________________________
+Here, the naming situation seems to be a bit confusing at first. As far as I can tell, the first Mario game that was unofficially programmed was the Genesis Super Mario World, the strange hack of an unfinished Chip 'n Dale prototype (on the pirate market released under the name of Squirrel King, by the way). So, this here is the second Mario game for the Genesis, even though it's a port of the original Super Mario Bros.
+
+The programmers who dealt with this port didn't quite have the troubles the porters of Aladdin II went through in order to match the game to cartridge size: They simply took the Super Nintendo game Super Mario All-Stars, which included Super Mario Bros. 1-3 and the former Japanese-only Lost Levels, and only left the very first game in! That way, they could leave the entire game intact rather effortlessly. Well, more or less, at least. 
+
+This port is more or less the polar opposite of Aladdin II, quality-wise. Sounds and Graphics have hardly suffered, so you get the original Mario themes to each stage, and the level layout hasn't been touched at all. Unfortunately, the controls and game mechanics are an entirely different matter.
+
+The control scheme has been changed to fit the three-button layout of the Genesis pad. Ignoring the old mantra "If it ain't broke, don't attempt to fix it," they decided to switch some of the controls around. So now, C makes you jump, B is the Dash, and A is - if you've picked the flower - the fireball. They hadn't changed the old two-button layout for the SNES-version, and for good reason: The old two-button scheme was simple and worked just fine. An additional button makes it a bit harder if you want to fire in the midst of a sprint-jump, for example.
+
+Furthermore, Mario is hardly controllable at all whenever you're dashing or jumping. Mario Bros. always hard floaty physics, but you could usually pinpoint a jump quite well. Here, trying to control Mario feels more like trying to steer a cow over thin ice  sliding uncontrollably, hardly able to change direction, and once it starts moving, you never now when it'll stop, though it usually ends up being into an opponent or at the bottom of a pit. Also, the porters followed the "jump on an opponent" formula of dispatching enemies a bit too closely: You can even kill foes who originally were immune to these kind of attacks, like the venus Fly Traps or the spikes!
+
+And finally, there are the glitches! Super Mario Bros. 2 is full of them, and they range from smaller graphical issues (The green Luigi sprite turning into a red Mario when having the flower-power up and getting hit) to annoying (fireballs or Bowser turning into a mess of jumbled pixels) to downright irritating (gravity and jumping occasionally spinning out of control whenever floating platforms are involved for example, which leads to many accidental deaths).
+
+While it is a nice oddity to have, gameplay-wise the quality of this port is pretty shoddy. The bad controls make the game way harder than it was before, and the glitches and bugs make the whole game more irritating than enjoyable. Still, when you see this cartridge, I would pick it up, if only for the curiosity-factor! 
+
+FUN FACT: There is a Sonic pirate out there (My cart reads Sonic 6, but I've also seen it floating around under the label of Sonic Jam) that is actually a sprite hack of this game! The Mario sprite has been replaced by a red Sonic that turns blue when picking up a mushroom, though all other power ups have also remained in their original Mario Bros. state! Even more oddly, the controls of Sonic seem a bit more tighter than in Mario Bros. 2, making playing that game a tad more enjoyable! 
+
+http://sega-16.com/feature_page.php?id=380&amp;title=Hacks+&amp;+Homebrews:+Unofficial+Ports

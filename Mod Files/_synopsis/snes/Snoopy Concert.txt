@@ -1,0 +1,33 @@
+Snoopy's Concert
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Adventure, Animation
+Gametype: Translated
+Release Year: 2007
+Players: 1
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+Snoopy Concert is less a game and more a collection of four smaller ones. Snoopy (of Peanuts fame, yes that Snoopy) is preparing to give a concert to the Peanuts gang, but so far, Marcie and Patty are the only ones who've shown up. Snoopy (and occasionally Woodstock) must then help solve the gang's various problems - with each character having a distinctly different minigame to play. Rerun's segment is a stroller chase, Schroeder's is a standard point-and-click style abstract adventure game, Linus's is a bit of a reflex test and Charlie Brown's is a trading game.
+
+This is not the best game ever, but it is clever, cute, and a fun diversion while it lasts. Personally, I liked Schroeder's game the best.
+
+Snoopy Concert is mouse compatible, so if you're playing via copier or flashcart (or if your emulator supports the SNES Mouse) be sure to try it the way it was meant to be played. It makes Rerun's segment quite a bit easier, that's for sure...
+
+Tips:
+
+Passwords: for Schroeder's mini-game
+
+The password is in the form of a telephone number, which you 'dial' on the telephone that appears after selecting a character. Use a password to enter a specific stage within a character's mini-game.
+
+033-3032 Athletic event stage
+077-5290 Backyard/Garden stage
+033-1254 Campsite stage
+022-0240 Dynamite stage
+055-4161 Forest stage
+055-2383 Forest stage (continued)
+098-9084 Outer Space stage
+
+http://www.romhacking.net/trans/1105/

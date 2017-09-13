@@ -1,0 +1,18 @@
+Iron Helix
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Action
+Gametype: Undefined
+Release Year: 1992
+Developer: Brian A. Rice, Inc
+Publisher: Spectrup Holobyte
+_________________________
+A rogue navy ship, Jeremiah Obrian, threatens to start a war. A virus has wiped out its crew, but the threat of it firing its Iron Helix doomsday weapon is still there. You must remotely pilot an unarmed science robot to explore the ship and work out how to shut the weapon down.
+
+The game uses interactive quarter-screen footage to display the ship's interiors. The main challenge is that an automated security device is chasing you down, and must be avoided and ultimately destroyed. A delay between your commands and the robot's receipt of them forces you to pay close attention to the security drone and plan several steps ahead.
+
+As you explore the ship, you will find data ports, which can be jacked into to gain information or to open doorways. To access most of these, you will need to find and collect a DNA sample from a member of staff whose role gave him/her access. 
+
+http://www.mobygames.com/game/sega-cd/iron-helix

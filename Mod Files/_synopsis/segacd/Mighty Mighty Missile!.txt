@@ -1,0 +1,24 @@
+Mighty Mighty Missile!
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Undefined
+Release Year: 2004
+Developer: Good Deal Games
+Publisher: Good Deal Games
+_________________________
+Recently, I spoke to Michael Thomasson, who runs Good Deal Games. A small company based in Hamburg, New York, Good Deal Games is in the business of completing and bringing unreleased prototypes to market. It has released numerous titles for such long-discontinued consoles like the Colecovision, CD-I, and Vectrex. Not content with simply finding and completing lost games, GDG also funds homebrew projects and is always eager to help aspiring developers make their games a reality.
+
+Some of its most prolific support has been for the Sega CD. Already, six titles are available, including Mighty Mighty Missile, which made its debut at this year's Classic Gaming Expo in San Jose, California. Mr. Thomasson was kind enough to give us some of his time to discuss their efforts to bring new titles to the Sega CD.
+
+Sega-16: Tell us a bit about Mighty Mighty Missile. How long was it in production?
+
+Michael Thomasson: Our newest title, Mighty Mighty Missile, was programmed in-house and was by far the most difficult and most fun to complete. Not only is it a new game for the system, but it also pushed the boundaries of the Sega CD as it it moves more sprites/objects per second than any other Sega CD game ever manufactured. And we proudly state that it does it without any slowdown, which was a common problem for such games during the 16-bit era.
+
+
+Interviewer: Ken Horowitz
+
+Complete interview can be found here:
+http://www.sega-16.com/feature_page.php?id=226&amp;title=Interview:+Michael+Thomasson

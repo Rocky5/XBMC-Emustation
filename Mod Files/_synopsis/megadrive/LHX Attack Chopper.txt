@@ -1,0 +1,20 @@
+LHX Attack Chopper
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Flight Simulator
+Gametype: Licensed
+Release Year: 1992
+Developer: Electronic Arts
+Publisher: Electronic Arts
+Players: 1
+_________________________
+LHX: Attack Chopper is a helicopter simulation with a strong arcade focus. You can freely choose which missions to fly first, and which helicopter to fly in a given mission. There are a total of four helicopters: Apache, Blackhawk, Osprey and LHX. With this fine selection of death machines you will engage countless enemy targets in Libya, East Germany and Vietnam throughout the game.
+
+Trivia:
+
+As of the year 2000, LHX is still the ONLY flight-sim that simulates the V-22 Osprey.
+
+Reviewer: NGC, IJan
+http://www.mobygames.com/game/genesis/lhx-attack-chopper

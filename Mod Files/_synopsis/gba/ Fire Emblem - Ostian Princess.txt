@@ -1,0 +1,53 @@
+Fire Emblem Different Dimensions: The Ostian Princess
+Platform: Nintendo Game Boy Advance
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2008
+Hacked by: Mig64
+Version: 1.2
+_________________________
+Introduction and Info:
+
+Project Name: Fire Emblem - The Ostian Princess
+
+Based from: Fire Emblem - The Blazing Sword (FE7) [US Version]
+
+Ok, guys. This is my first Fire Emblem Hack, and it tells a story similar to Lyn's. It features the daughter of Lilina(from Fire Emblem VI), Lilian. A young girl who looks a lot like her mother when she was young, like Lyn, she was born on the Lorca tribe but her father was not Hassar(of course!XD), Lilian's father was Monke, a former member of the Djute clan(who also appears as a boss in Fire Emblem VI). Monke joined the Lorca because that was the most peaceful tribe to live happily with his wife and daughter. There, he became the Lorca tribe's chief. The rest of the story you will find out.
+
+Changes
+
+Basic changes, it's my first hack, so please take it easy.
+
+Here's the list of changes:
+
+- New characters (Playables and Enemies).
+- Different story(similar to Lyn's, but different).
+- Some new weapons.
+- Extra scenes in some parts of the game/hack.
+
+Credits
+
+-Utilities used-
+
+- Visual Boy Advance
+- Nightmare
+- unLZ-GBA
+- TileLayerPro
+- IpsXP
+- StealthPatch
+- Tsukumoyi
+
+-ROM Editing-
+
+- The creators of all the Nightmare Modules I used, check out the list here.
+
+- Twilkitri - parser used for text.
+
+Disclaimer:
+
+I do not own the rights to Fire Emblem, also, I'm not affiliated in ANY way with Nintendo, nor Intelligent Systems.
+
+http://www.romhacking.net/hacks/432/

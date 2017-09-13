@@ -1,0 +1,42 @@
+Breath of Fire II
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1995
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+The fictional world of Breath of Fire II is very reminiscent of the previous game, though very few locations have endured the 500-year transition. Windia, home to the royal Wing Clan, still resides to the north. The island of Tunlan, home to a people who communicate entirely though flute-playing, also makes a return. New species include the Shell Clan, a race of giant armadillos, and the Creeping Clan, a monarchy of artisan frogs. The Dragon Clan from Breath of Fire has all but perished, leaving only scattered statues as proof of their existence. Somehow, Karn (a standard human) and Bo (a Forest Clan member), two playable characters from the original game, have endured the 500 years and now live in a hut on a secluded island.
+
+A new religious idol named St. Eva has replaced the Dragon God, and the St. Eva church is rapidly becoming popular all over. Unbeknown to its followers, the church is actually a front for demons in order to channel the people's prayers into energy and send it to their master, Deathevn.
+
+Long ago, a demon attacked the woodland town of Gate. According to local legend, a huge dragon suddenly appeared and banished the demon away. The dragon can still be found slumbering on the outskirts of Gate, where it guards the entrance to the demon realm.
+
+Gameplay:
+
+Of the five games in the series, Breath of Fire II bears the most similarities to the original entry. Like Breath of Fire, the game consists of four modes of play: the world map, the field map, a menu screen, and a battle screen. The world map is seen through an aerial view display in which players navigate across a small-scale version of the game world. As the player character moves around, other members of his traveling party walk behind them in a line. The group's lineup can be rearranged at any time, allowing another character to become leader. Every character has a unique skill that is used outside of battle; depending on who is currently leading the group, the player can use these skills to fish, hunt animals, bridge chasms, or swim across water.
+
+As in the previous game, the color palette of outdoor areas and towns changes depending on the time of day. Whenever the overworld screen appears, the sun rises and sets with each minute of real time. Non-player characters are found milling about inside towns at daytime, whereas they retire to their homes at night and early morning.
+
+Fishing and hunting once again play a role in the game, this time as short minigames. Hunting areas (indicated by tufts of grass) randomly spawn on the world map.[4] These spots transport the party to a small forest that is populated by animals. Very few characters have the ability to hunt; Bow comes equipped with a crossbow, while Katt attacks with her staff. Depending on their size, animals take anywhere from 1-10 hits to defeat, whereupon they transform into a restorative item.
+
+Fishing spots (indicated by a leaping fish) behave in a similar manner, with the exception that they always respawn in the same location. During these sequences, the game switches to a side-view camera angle of Ryu standing over a coral reef. Ryu must be outfitted with a rod and a lure before he can catch fish. A on-screen gauge measures the strength of Ryu's fishing line; if a fish bites the lure, the Tension meter steadily rises until Ryu reels in the fish. If the meter reaches maximum, the line snaps and the fish goes free. Additionally, it is possible to hook a Manillo salesman (a recurring species in Breath of Fire) by replacing bait with Gold as a lure. The Manillo then offers to sell his wares, which often includes equipment from areas that Ryu has not visited yet.
+
+Breath of Fire II introduces the gameplay element of building a town, soon to be revisited in later entries. At a mid-way point in the game, Ryu is given a choice between distinct style of houses to build, including standard two-story houses, wooden cottages on stilts, and Arabian-style dwellings. As the town expands, players are allowed to seek out potential occupants who are scattered throughout the game. Some of these characters perform a restorative function, while others set up taverns or shops.
+
+Tips:
+
+Old Friends
+At Giant Island, in the northern area of the map above the town Gate (Press select for the map), you'll find
+Bo and Karn from the first Breath of Fire game.  They don't do anything though, but you can talk to
+them. You'll need the whale or the bird to get there though.
+
+Infinite Healing Items or Gold Coins
+After you have the carpenter build the house for the old lady that unites shamans, go to the northeastern
+house where the carpenter cooks. Talk to the carpenter and he'll tell you he can cook anything. In the item selection screen use two herbs to make a HelpBL four to make an Elixer. Now to make it infinte, next use either four HelpBL's or two elixers to make a LifePL. So that would mean that you used 8 hervs. for a total of 64gp to make one LifePL for a total of 250gp. So sell your LifePL's to make alot of money, buy more herbs and do it again!
+
+http://en.wikipedia.org/wiki/Breath_of_Fire_II

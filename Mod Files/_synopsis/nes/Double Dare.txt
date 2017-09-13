@@ -1,0 +1,43 @@
+Double Dare
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Game Show
+Gametype: Licensed
+Release Year: 1988
+Developer: GameTek
+Publisher: GameTek
+Players: 1 or 2 VS
+_________________________
+
+This is a gameshow that used to air on the television station Nickelodeon a while ago that was hosted by Mark Summers. This game is filled with a lot of messy, sloppy challenges as well as pop-trivia. Out score your opponents and you will get to race against the clock in the obstacle course, full of difficult and messy challenges, to win yourself a lot of great prizes!
+
+Directions:
+
+The game starts with an opening challenge to determine who gets control. In this challenge push left on the control pad to start the speed/angle cursor, right on the control pad to pick where to stop on speed meter, and the B button to stop on the angle meter.
+
+Your guy will then huck a banana, hit a golf ball, or do whatever depending on what your speed and angle was. Complete the challenge before your opponent to win $10 and gain control.
+
+The team in control then gets a trivia question asked to them by Mark. They can either answer the question for $10 or dare the other team to answer it. If they answer right another question is asked for $10. But if they decide to dare, the point value for the question then gets doubled to $20. The team that gets dared can then answer or double dare. If they double dare the question goes back to the original controlling team for $40. The controlling team from this point has the option of either answering the question for $40 or taking a physical challenge. If you take a physical challenge you must accomplish a certain task in a limited amount of time. Before a physical challenge there will be a screen that describes what you must do. (Please note that a computer opponent always guess after being double dared rather than taking a physical challenge.)
+
+If there a dare or double dare involved, and a team gets the question wrong or does not complete the physical challenge, the points are awarded to the other team who also gains control. If a first question is answered wrong, then no money is awarded but the other team still gets control. In the second round all values are doubled (i.e. they go up to $20, $40, and $80). Whoever has the most money wins and goes on to the obstacle course.
+
+In the obstacle course, press left and right on the control pad alternatively as fast as you can to run or climb up things. When you are near the flag, use the control pad to line yourself up to grab it then press the B button to jump. From there continue alternating between left and right until you need to jump for whatever reason. Complete all eight obstacles in 60 seconds to win the grand prize.
+
+Controls:
+
+A Button: Select answer/action (in challenges)
+B Button: Same thing as A Button
+Start Button: Start Game
+Select Button: Nothing
+
+Hints:
+
+Strategy on Dares
+- Sometimes you may want to take a chance and dare even if you know the right answer because if the question comes back to you on a double dare, you will get four times the money for answering it.
+
+- On the other hand sometimes you may just want to guess instead of daring, especially if the other team steals from you a lot when you dare. In this case the other team will not get any money if you guess wrong, but they will still get control.
+
+Reviewer: Matt
+http://www.consoleclassix.com/nes/double_dare.html

@@ -1,0 +1,77 @@
+Biker Mice from Mars
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing, Motorcycles
+Gametype: Licensed
+Release Year: 1994
+Developer: Konami
+Publisher: Konami
+Players: 1 or 2 VS
+_________________________
+Biker Mice From Mars is a Super Nintendo Entertainment System video game made in 1994 by Konami, based on the animated series of the same name. The object is to defeat space aliens in a series of motorcycle races. The winner gets the trophy and the losers have to start again.
+
+Tpis:
+
+Extra Difficulty Setting
+At the title screen, use Controller 2 and press Up, X, Left, Y, Down, B, Right, A, Up, X
+
+Level Passwords:
+Round 1 Completed (Easy)
+Blank, X, Diamond, Lightning Bolt, Triangle, Blank, Blank, Triangle, Blank, Square, Blank, Circle, Lightning Bolt, Circle, Diamond
+
+Round 1 Completed (Hard)
+Circle, Triangle, Square, Lightning Bolt, Blank, Blank, Blank, Triangle, Triangle, Square, Blank, Diamond, Lightning Bolt, Light
+
+Round 1 completed (Normal) 
+Blank, Triangle, Circle, Triangle, Diamond, Blank, Blank, Triangle, X, Square, Blank, Triangle, Lightning
+Bolt, Lightning Bolt
+
+Round 2 Completed (Easy)
+Blank, Lightning Bolt, Blank, Circle, Lightning Bolt, Square, Blank, Diamond, X, Blank, Blank, Blank, Square, Lightning Bolt, Square
+
+Round 2 Completed (Hard)
+Circle, Lightning Bolt, Circle, Blank, Lightning Bolt, Square, Blank, Diamond, X, Blank, Blank, X, Square, Circle, Square, V 
+R
+ound 2 completed (Normal)
+Blank, Lightning, Diamond, Blank, X, Square, Blank, Diamond, Square, Square, Blank, Diamond, Square,
+Circle, V, Diamond
+
+Round 3 Completed (Hard)
+Circle, Diamond, V, Lightning Bolt, Circle, Square, Blank, Triangle, Square, Blank, Square, V, Circle,
+Lightning Bolt, Triangle
+
+Round 3 completed (Normal) 
+Blank, Diamond, Diamond, Lightning, Diamond, Square, Blank, Diamond, Triangle, Square, Square, Diamond,
+Circle, Blank, Blank, Blank
+
+Round 4 Completed (Hard)
+Lightning Bolt, X, Blank, Triangle, Triangle, Blank, Blank, Lightning Bolt, X, Square, Blank, Diamond,
+Blank, Lightning Bolt, Blank
+
+Round 4 completed (Normal)
+Triangle, Triangle, Triangle, Circle, Square, Blank, Blank, V, Blank, Square, Square, Diamond, Blank,
+Circle, Circle, Circle
+
+Start game with $30, 000
+blank, triangle, square in square, blank X, square in square, blank, circle in circle blank, square in
+square, blank, X square in square
+
+Start with all upgrades for Modo in Hard Mode
+Circle, Diamond, Diamond, Lightning Bolt, Circle, Space, Square, square, X, Square, Square, V, Space,
+Lightning Bolt, Diamond, Diamond
+
+Start with all upgrades for Modo in Normal Mode
+Space, Diamond, Lightning Bolt, Lightning Bolt, V, Space, Square, Square, X, Square, Square, V, Space,
+Lightning Bolt, Diamond
+
+Start with all upgrades with Modo
+Space, Diamond, V, Lightning Bolt, Circle, Space, Square, Square, X, Space, Square, V, Space, Lightning
+Bolt, Diamond, Circle
+
+Extra boost of speed
+While running in any type of race, you can rapidly press the B button to gain a boost of energy that is
+similar to a nitro.
+
+http://en.wikipedia.org/wiki/Biker_Mice_From_Mars_(1994_video_game)

@@ -1,0 +1,23 @@
+Tecmo Cup Soccer Game
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Soccer
+Gametype: Licensed
+Release Year: 1992
+Developer: Tecmo
+Players: 1-2
+_________________________
+
+Tecmo Cup Soccer Game (known as Captain Tsubasa in Japan) is a video game for the Nintendo Entertainment System. Released in 1992 by Tecmo, it is a football (soccer) game. In the game you must fight your way from junior league all the way to the finals of World Cup.
+
+Tecmo Cup Soccer Game is a heavily Americanized version of Japanese Captain Tsubasa football (soccer) game released for the Famicom system, featuring a different main character, a different introduction and more western-looking players. The game contains elements from role-playing games as the players have skill levels and are mostly controlled by different kinds of text commands. Because of the unusual interface and presentation, Tecmo Cup Soccer Game did not attract casual gamers in its time and therefore had a relatively small fanbase.
+
+Controls:
+Control Pad: move selected player
+A button: confirm selection
+B button: bring up menu while in possession/cancel selection
+Start: pause game
+
+http://en.wikipedia.org/wiki/Tecmo_Cup_Soccer_Game

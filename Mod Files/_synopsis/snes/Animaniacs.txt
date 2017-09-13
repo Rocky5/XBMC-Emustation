@@ -1,0 +1,39 @@
+Animaniacs
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Side-Scrolling, Puzzle
+Gametype: Licensed
+Release Year: 1994
+Developer: Konami
+Publisher: Konami
+Players: 1
+_________________________
+This game is out of the ordinary because movement is forwards, backwards, and side to side a movement style usually reserved for Beat 'em ups, in most side scrolling platform games the player can only go forward and backward. Pinky and the Brain once again have another plan to conquer the world by deciding to steal the script of the Greatest Movie ever while it was under development (this is not any actual movie or parody of one). The CEO of Warner Brothers studio reluctantly asks the Warner Brothers and Sister for their assistance to retrieve all 24 pages of the script, which is the primary objective of the game. This game can be completed without obtaining all of them, however. The game focuses more on parodies of films at the different stages that are once more based on different genres of movies.
+
+This game is different from the genesis version. Firstly, the characters have no health bar, lives (the game ends when all the characters are defeated/captured, one by one) or special abilities making the game highly difficult due to the one-hit kills. Secondly, there is the slot system, which is a slot machine at the bottom of the screen. It is activated after obtaining a certain number of coins and can be used for a range of power ups such as temporary invincibility or bringing back characters who were defeated or captured earlier.
+
+Throughout the game, there are small robots with white block heads, red bodies and yellow appendages who work for Pinky and the Brain.
+
+Tips:
+
+All 24 Scripts
+EO, Yakko, Wakko, Dot, Ralph, Pinky, Brain, Hello Nurse, CEO, Yakko, Yakko, Ralph 
+
+All Levels Open
+Pinky, Dot, Nurse, Pinky, CEO, Wakko, Ralph, Brain, Nurse, Brain, Brain, Yakko 
+
+Dot Studio
+Ralph, Ralph, Brain, CEO, Wakko, Pinky, Dot, Yakko, Dot, Nurse, Brain, 
+
+Studio &amp; Sci-Fi
+Brain, Dot, Brain, Dot, Ralph, Nurse, Wakko, Dot, Yakko, CEO, Pinky, Wakko 
+
+Studio, Sci-Fi, and Fantasy
+Ralph, Wakko, Pinky, Nurse, Yakko, Pinky, Dot, Wakko, Dot, Nurse, Wakko, Dot 
+
+Studio, Sci-Fi, Fantasy, and Aqua
+Nurse, Nurse, Brain, Ralph, Dot, Brain, Yakko, Dot, Yakko, CEO, CEO, Wakko 
+
+http://en.wikipedia.org/wiki/Animaniacs_(video_game)

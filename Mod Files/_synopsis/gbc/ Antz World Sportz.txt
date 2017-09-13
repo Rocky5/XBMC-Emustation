@@ -1,0 +1,20 @@
+Antz World Sportz
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Sports - Competitive Events
+Gametype: Licensed
+Release Year: 2001
+Developer: M4 Limited
+Publisher: LSP
+_________________________
+Based on the computer animated movie Antz produced by DreamWorks, this game represents the Olympic-style light athletic challenge between 4 main characters (Z, Bala, Weaver, Mandible). Other characters, such as Cutter, and Azteca are present in the game also.
+
+The tournament begins with four sportz activities, and four additional events are available based on your performance. Heated competitions like the 100mm race, flea hurdles, and pebble toss are scheduled. Strength, endurance, and dexterity are not enough to win the Olympic title in these events. You will also have to apply your individual character's skills as well as those of your competitors. Athletic ability and calculated gaming tactics are needed to claim your title of Olympic champion of the Anthill.
+
+In 2D side-scrolling mode, you should press the buttons quickly to run or to throw an sports item. There are 5 stages in the game, and each following stage may be accessed only receiving the medal in previous stage. Current progress may be resumed with a password.
+
+The game has two difficulty levels and is available in English, French, German, Spanish, Italian, and Dutch languages.
+
+http://www.mobygames.com/game/gameboy-color/antz-world-sportz

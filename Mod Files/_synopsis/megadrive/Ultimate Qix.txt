@@ -1,0 +1,15 @@
+Ultimate Qix
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1991
+Developer: Taito
+Publisher: Taito
+Players: 1
+_________________________
+Volfied is an update to the arcade game Qix, and was released by Taito in 1989 in arcades. It was ported to the Sega Mega Drive in 1991. with the American release renaming it Ultimate Qix. The idea is to corner off 80% of the screen while avoiding obstacles.
+
+The Mega Drive version of the game was not released in Europe.

@@ -1,0 +1,39 @@
+Amagon
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1989
+Developer: Aicom
+Publisher: Sammy Corp
+Players: 1
+_________________________
+
+Amagon is another generic, hackneyed, regurgitated platformer. The graphics, while well-drawn, were poor in the choice of color palette. The sound wasn't good. The music was too high-pitched and beepy, and the sound effects were very annoying. The controls were easy to learn and responsive, but the game was very difficult because you only have one hit point, so be careful.
+
+Directions:
+
+Armed only with your rifle, you must journey across 6 dangerous zones that are split into two halves, and escape on a boat. At the end of each zone you will have to fight a boss. If you get hit once, you're dead.
+
+The only time you have hit points is when you become Megagon.
+
+You can turn into Megagon after you get the mega key and press Select. To increase the amount of hit points Megagon has, you must accumulate points. To get max hit points, get 70,000 points. You can jump 2x higher as Megagon. If you kill a boss in Megagon form, you revert back to normal afterwards.
+
+There are point power-ups that will increase your point score by the number indicated on the power-up. The black crown gives you 10,000 extra points. There is also a bullet magazine that will have twenty bullets in it. If you find a smiley face, it will give you a one-up. 
+
+Controls:
+
+A Button: Jump
+B Button: Shoot/Swing Rifle, Uppercut
+Start Button: Pause
+Select Button: Turn into Megagon
+
+Hints:
+
+Defeating the Elephant Man
+- An Elephant Man will attack your character in level 2-1. Jump on the branch that is on the left end of the screen. Move as far to the left as possible on the branch to force Elephant Man to disappear from the screen.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/nes/amagon.html

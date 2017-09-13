@@ -1,0 +1,17 @@
+Jeopardy!
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Game Show
+Gametype: Licensed
+Release Year: 1992
+Developer: Park Place Productions
+Publisher: GameTek
+Players: 1 - 3
+_________________________
+Jeopardy! is a video game version of the game show of the same name published by GameTek on several systems, including the Sega Mega Drive and Sega Game Gear.
+
+The Mega Drive version supports up to three human players and looks like the original show (during the game's release), however the Game Gear version is rather stripped down, with only two contestants in a game, no CPU-vs.-CPU play, and poorer quality graphics.
+
+Both games received updates in Jeopardy!: Sports Edition and the Mega Drive version received one in Jeopardy!: Deluxe Edition.

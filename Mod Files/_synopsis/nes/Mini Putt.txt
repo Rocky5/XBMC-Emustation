@@ -1,0 +1,20 @@
+Mini Putt
+Original title: Mini Putt
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports > Golf 
+Gametype: Translated
+Release Year: 2000
+Translated by: No Talent Translations
+Version: 1.00
+_________________________
+This is a Nes miniature golf simulator. It seems to follow imaginary physics. I wish I had something more in-depth to say ... but that pretty much sums this game up.
+
+Translation Description:
+
+The only thing that was in Japanese was the title screen, so a new title screen was hacked in and... well, that's it. Enjoy your new English game kids.
+
+Reviewer: wraith
+http://www.romhacking.net/trans/185/

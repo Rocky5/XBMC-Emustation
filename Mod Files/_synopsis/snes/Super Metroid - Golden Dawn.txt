@@ -1,0 +1,22 @@
+Super Metroid: Golden Dawn
+Original title: Super Metroid
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: Black Telomeres
+Version: 2.66
+_________________________
+Nearly 7 months in the making, and it's finally finished. Every room has been disassembled and remade, and several areas of the planet bear no resemblance to what they once were.
+
+Walljumping is absolutely required from the very beginning. Other techniques that are required to complete the game are "infinite" single-wall walljumping (only in a couple of places though), single bombjumping, and the midair morph. Some insane crumble block skills are also required. As with most hacks, "infinite" bombjumping is not required.
+
+There's some early difficulty with crumble blocks but if you do have problems, you can try to abuse savestates to get through it and move on to the juicy exploration-based center.
+
+Save states are required because of the lack of save points, they cause bad errors when inserted into this game.
+
+http://romhacking.net/hacks/318/

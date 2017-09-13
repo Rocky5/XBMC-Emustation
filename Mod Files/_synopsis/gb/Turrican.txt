@@ -1,0 +1,16 @@
+Turrican
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer - Side-Scrolling
+Gametype: Licensed
+Release Year: 1991
+Developer: The Code Monkeys
+Publisher: Accolade
+_________________________
+Three-headed demon Morgul has been influencing people's dreams to create nightmares, but more recently these nightmares have become real. Only Turrican can save them in this fast paced side scrolling shoot-em up. It features 5 worlds and 13 levels of challenging gameplay.
+
+Gameplay is conceptually simple: just jump, shoot and explore. However, this game puts a lot of emphasis on finding and using the 10 different weapons Turrican can collect.
+
+http://www.mobygames.com/game/gameboy/turrican

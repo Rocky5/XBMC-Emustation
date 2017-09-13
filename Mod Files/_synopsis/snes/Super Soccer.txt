@@ -1,0 +1,156 @@
+Super Soccer
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Soccer
+Gametype: Licensed
+Release Year: 1992
+Developer: Human Entertainment
+Publisher: Nintendo
+Players: 1 or 2 CO-OP, VS
+_________________________
+16 of the worlds best soccer teams have come together to have a tournament! Take control of one of the teams and burst your way through big, bad soccer players!
+
+I'm not much of a soccer fan, but this game had me glued to my seat. It's one hard game. And when I say hard, I mean "Sit down and do this math test" hard. But there's a lot of cool stuff besides the tournament. Like shootout mode and a cool intro animation. 
+
+Directions:
+
+The object is to use your team to kick a ball around and get it into your opponent's net. your opponent is trying to do the same to you. The person who scores the most points wins. If there's a tie, a shootout happens. 5 shots go. If the score is tied after the balls have been shot, it keeps going until the score evens out.
+
+Controls:
+
+A Button - Passes, cancels
+B Button - Selects, shoots
+X Button - Nothing
+Y Button - Checks
+L Button - Nothing
+R Button - Nothing
+Start Button - Starts game
+Select Button - Pauses Game
+
+Hints:
+
+Jumping team
+Wanna see your team jump? during the half-time segment when your team is running on and off the field, hit B to make them jump. 
+
+Tips:
+
+Expert Mode
+Up-Right (Diagonal), Down-Left, Right, Down, Down-Right, Left, Down-Left, Up-Left
+
+Play as Nintendo team
+Choose a 2-player exhibition game and player 1 chooses any team first. Then player 2 selects any team, holding
+down B and START.
+
+Watch computer game
+Up-right, Up-left, Right, Down-left, Right, Right, Up, Right
+
+Watch the ending
+UP, UP, UP-RIGHT, DOWN, RIGHT, DOWN-RIGHT, UP-LEFT, DOWN-LEFT
+
+Germany vs. Codes
+
+up, down-right, up, right, down-right, down-right, up, down-left 
+Argentina
+
+right, right, right, up, right, down-right, down, up 
+Brazil
+
+up, left, up, down, down-right, up-right, down, up-right 
+Cameroon
+
+right, down-left, down, left, down-right, down, down, down 
+Columbia
+
+up, up-right, down, right, up-right, up-right, down, up-right 
+England
+
+up, down-left, right, right, down-right, left, down, up 
+France
+
+right, down-left, down, left, right, down-left, down, down 
+Holland
+
+right, down-left, down, left, down-right, right, up, up 
+Ireland
+
+right, up-right, left, down, right, down-right, down, up 
+Italy
+
+right, right, up, up, down-right, left, up, down
+Japan
+
+right, up-right, up, left, up-right, down-right, up, down-left 
+Nintendo
+
+up, up-right, up, up, down-right, up-right, down, up-right 
+Romania
+
+up, right, down, down, up-right, left, up, down 
+U. S.A
+
+right, down-left, right, down, up-right, up, up, up 
+Uruguay
+
+up, down-left, up, right, down-right, down, down, down 
+Yugoslavia
+
+Team Italy Tournament Passwords:
+At Title Screen, choose 'Tournament', then 'Continue', then enter these directional pad codes:
+U, L, DR, D, DR, UL, D, DL To Play Argentina
+R, L, UR, U, R, DR, U, U To Play Brazil
+U, R, UL, D, U, DL, U, D To Play Cameroon
+R, DL, UR, L, D, U, D, DL To Play Columbia
+U, UR, UR, R, R, DL, D, D To Play England
+R, L, DL, R, D, R, U, DL To Play France
+R, L, DL, R, DL, DR, U, DL To Play Germany
+U, R, UR, L, R, DL, D, D To Play Holland
+R, UR, DL, L, DR, R, U, U To Play Ireland
+U, UR, DL, U, U, L, U, UR To Play Japan
+U, UR, DL, U, U, UR, D, D To Play Romania
+U, L, DR, D, DR, L, D, U To Play United States
+U, L, UR, D, DR, D, D, D To Play Uruguay
+R, L, DL, R, D, D, D, UR To Play Yugoslavia
+
+Team Holland Passwords:
+The password screen is found by choosing 'Continue' on the main screen.
+DL R DR R DR UR D vs. Argentina
+R DL R DL UL D D U vs. Belgium
+R L L UR UR UL UR DL vs. Brazil
+R L R DR DR DL D DL vs. Cameron
+DL L UR U L UR DL vs. Columbia
+R UR U UL U UR U U vs. England
+L R UR R R UR UR vs. France
+L U UL R UL D U vs. Germany
+R L L UR U UR D U vs. Ireland
+R UR D DL DR DR D DL vs. Italy
+R UR L DL R L UR DL vs. Japan
+R DL U DL UR UR U DL vs. Romania
+R R L DR UL U D U vs. Uruguay
+DL U DR R L D DL vs. USA
+L U UL DR U U U vs. Yugoslavia
+
+Team USA Tournament Passwords:
+U, L, UR, D, R, DR, R, DL To Play Argentina
+U, R, DR, L, R, UR, R, DL To Play Brazil
+R, R, DL, U, U, UR, L, UR To Play Cameroon
+U, R, DR, L, R, U, R, U To Play Colombia
+R, UR, DL, D, UR, UR, R, R To Play England
+R, DL, DL, D, DR, R, R, DL To Play France
+U, UR, DR, R, DR, UL, L, R To Play Germany
+U, UR, UR, R, DL, DR, L, L To Play Holland
+U, UR, DL, R, R, L, L, U To Play Ireland
+R, L, DR, U, DR, UL, L, R To Play Italy
+R, L, UR, U, DL, R, R, DL To Play Japan
+U, L, DL, L, DL, DR, R, R To Play Nintendo
+R, UR, DL, L, DR, R, R, DL To Play Romania
+U, L, UR, D, R, D, L, D To Play Uruguay
+R, L, DL, R, D, D, L, D To Play Yugoslavia
+
+No Red Cards
+When the referee takes out a red card keep holding L and R and the game will act as if he gave you a yellow card.
+
+
+Reviewer: Bloody_riven
+http://www.consoleclassix.com/snes/super_soccer.html

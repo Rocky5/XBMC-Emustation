@@ -1,0 +1,14 @@
+Cars
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 2006
+Developer: Helixe
+Publisher: THQ
+_________________________
+Cars is a Mission-based Driving game, developed by Helixe and published by THQ, which was released in 2006.
+
+http://www.gamefaqs.com/portable/gbadvance/home/932086.html

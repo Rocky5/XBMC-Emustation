@@ -1,0 +1,38 @@
+Eurit (Prototype)
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Multi-Directional, Strategy
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Radical Entertainment
+Publisher: Radical Entertainment
+Players: 2
+_________________________
+Eurit is an action game that was being developed by Radical. The game is basically a souped up version of childhood games of Tag and Capture the Flag. The game features a split-screen and is an ideal two player game. A near complete beta of this game was discovered by DreamTR, and it is probably one of the best unreleased games for the snes.
+
+The story behind the game is that the ruler of the galaxy decides that he will retire. In order to find a suitable replacement, he sets up a tournament where wizards and warriors compete to determine who shall be ruler. Throughout the game, you travel to many worlds across the galaxy to prove your might.
+
+There are four characters to chose from at the start of the game. Each has their own strengths and weaknesses, based on their speed, spellcasting agility, and magic capacity. Through my playthrough, I used the average character.
+
+The gameplay is very addictive, and relatively easy to get into. Basically, one of the characters starts off being "it". The person who is it cannot capture flags, so they must chase down the other character and touch them. Once you are not it, you can collect flags necessary to win the stage. 
+
+Complicating the game is the obstacles you face. To proceed through the level, you basically have to build platforms. There are many levels with enemy creatures that usually require a number of blasts with your gun to kill. Speed tiles send you running really quickly, which can either make you quickly escape your foe, or send you far away from him.
+
+Probably the most compelling gameplay feature for experts is the magic system. Before each level, you learn a new magic spell. Some spells are mundane, like destroying a platform, but others can devistate your opponent, like the spell that causes all the creatures in the level to attack your opponent. Powerup balls throughout the level allow you to charge your magic meter.
+
+The music is pretty typical "sci-fi game" fare, comparible to games like Blackthorne, B.O.B., and The Lost Vikings. The sound effects are somewhat muted, though the voice that tells you "player 1 is now it" is really well done. The graphics aren't anything too special, but they do the job.
+
+On the whole, I liked this game. Had it been released, it would be an instant 2-player classic. The controls are a bit touchy, though not terrible. I really liked the thrill of chasing your opponent down and make him "it".
+
+One caveat about this prototype is when you die. Although there is a password system, the game tends to crash after the death scene. I guess that is why they call it a prototype. Or perhaps it is just a problem with the emulator.
+
+I asked Darren Schebek, a programmer who worked on the game about why it was never released:
+
+"Radical tried very hard to find a publisher for Eurit (it was an original project being developed in-house), but in the end decided that the SNES market was kaput and canned the project very close to the end of development in order to cut their losses. Instead, they adapted the game for the newer platforms. The new, pseudo-3D version became Grid Runner on the PS1, Saturn, and PC. They later created another game
+
+DreamTR owns a prototype of this game, and has taken some shots of it. Oddly enough, the prototype cart says "property of Electronic Arts", suggesting that they may have been interested in publishing it. 
+
+Reviewer: Evan G
+http://www.snescentral.com/article.php?id=0787

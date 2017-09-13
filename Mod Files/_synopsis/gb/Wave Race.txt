@@ -1,0 +1,16 @@
+Wave Race
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Racing
+Gametype: Licensed
+Release Year: 1992
+Developer: Pax Softonica
+Publisher: Nintendo
+_________________________
+Wave Race for the Game Boy is an aquatic racing game. You control a personal water craft around courses that are marked out by buoys in the circuit mode. In the slalom mode, you must maneuver through several sets of gates floating on the water.
+
+Gameplay is viewed from an overhead perspective. There are four racers in each race. They can be controlled either by human players or by very tough AI controlled players. 
+
+http://www.mobygames.com/game/gameboy/wave-race

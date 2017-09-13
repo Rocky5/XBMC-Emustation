@@ -1,0 +1,16 @@
+Sted [Easy]
+Original title: Sted
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: ded302
+Version: 1.0
+_________________________
+This patch has 2 minor asm hacks that halves the enemies hp and shop prices.
+
+http://www.romhacking.net/hacks/277/

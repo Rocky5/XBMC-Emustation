@@ -1,0 +1,38 @@
+Wile E Coyote's Revenge (Prototype)
+Platform: Super Nintendo Entertainment System
+Region: Prototype (USA)
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Software Creations
+Publisher: Sunsoft
+Players: 1
+_________________________
+Road Runner's Death Valley Rally was an awkward platform game. The logical step for the sequel would be to have you control Wile E. Coyote as he pursued the Road Runner. The development duties went to Software Creations, who created games like Plok and Blaster Master 2 for the Genesis. The game is sort of a 2.5D game, where Wile E Coyote can move up and down to take different paths.
+
+A rom exists of an early version of the game, though it appears to be in more primitive form.
+
+The first level seems pretty much complete. To complete the level, you chase after the Road Runner and break open various boxes. There are various traps that are straight from the cartoon, such as the infamous rubber band trick. Unfortunately, the game crashes after the first level in the rom. 
+
+The graphics are simple, though it is pretty faithful to the style of the cartoons. In the rom, the sound effects were pretty standard fare, and the music was extremely muted. The play control was down pat, though. I'm sure if this game were finished, it would have been one of the better licenced platform games in the snes era.
+
+Rene Boutin, producer of this game gives a synopsis of development and overview of the game:
+
+The high level concept of the game was that the player got to be "the bad guy" (Coyote) for once. You'd speed through a level collecting parts to a contraption, and meanwhile being antagonized by the Road Runner. Then the next level, you'd have your contraption built and you'd be using it.
+
+Now Warner Bros would NEVER allow Coyote to actually catch RR, so in the game every time you got within a few pixels of RR, he takes off. I think once players would catch on to the futility of trying to chase RR, they'd probably ignore him altogether. And this was one of the big flaws in the overall design of the game (Which I readily admit to having had a big responsibility in}. 
+
+The other angle to the gameplay was for a game with lots of fast running along really long levels. A kind of fervent fast racing type of gameplay with SOME elements of platformers. But that just wasn't panning out by this stage in the project. Something was seriously lacking. In hindsight we could have had a sort of meter that the player would have to keep full by staying real close to the Road Runner as much as possible, while hunting for the parts to his contraption. But instead, the best we could come up with at the time was good old "collecting stuff" (bleah!). Trying to co-design a game with a team that was half-way across the globe didn't help either. Ideally a designer needs to be working hand in hand with a programmer. Ah what a decade+ of wisdom and game experience can do, huh?
+
+Last info I want to share with you is the reasons for the cancellation. Although I've conveyed here that the game lacked depth by that point, the big event was Sunsoft's closure for bankruptcy. 
+
+Reviewer: Evan G
+http://www.snescentral.com/article.php?id=0850
+
+At the copyright screen, as the yellow "WILE E COYOTES REVENGE" letters begin leaving hold A + B + X + Y + Select + Left (you may need to stretch out a bit for this one).
+
+The level select screen allows you to play any of the available levels, though being a rough prototype most of the options cause the game to crash. Press B to see the unfinished and otherwise inaccessible end credits. 
+
+http://tcrf.net/Wile_E._Coyote%27s_Revenge

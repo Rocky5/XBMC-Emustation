@@ -1,0 +1,43 @@
+Monopoly
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1991
+Developer: Parker Brothers
+_________________________
+
+Parker Brothers' MONOPOLY Real Estate Trading Game was presented to Parker Brothers during the Depression by Charles B. Darrow of Germantown, Pennsylvania. Darrow had made the first games by hand, given them to friends and sold a few through Phila delphia department store. But as demand grew, he could not keep up with the orders and arranged for Parker Brothers to acquire the rights to the game in 1935.
+
+Since then, it has become the leading proprietary game not only in the United States but throughout the Western world. It is published under licence in 32 countries and in 23 foreign languages!
+
+--From the NES Monopoly instruction manual.
+
+Overview:
+
+The classic of all classic board games, brought to life on the Nintendo Entertainment System! Buy, sell, and trade property, trying to ammass the greatest fortune and drive your competition out of business.
+
+Directions:
+
+Monoploy is a game everyone is familiar with, so I doubt I need to explain what the game is about. The great thing about a video version is that it does all the tedious stuff like banking (no one ever wants to be the banker when you sit down to play, unless he's trying to cheat).
+
+Also you can play by yourself against computer opponents, or have up to 8 human players.
+
+One of the great features of this particular version is a Game Editor, which you can use to assign properties and cash to different players before the game begins. This way you can start a game in the middle, as it were, saving time on the first few trips around the board to collect property, etc. 
+
+Controls:
+
+A Button: Confirm Selections, Buy Property
+B Button: Cancel Selection, Auction Property
+Start Button: Start Game
+Select Button: Access Main Menu
+
+Hints:
+
+Computer Players
+Each computer opponent has a distinct personality, so you can learn to take advantage of their strengths and weaknesses. 
+
+Reviewer: jcooper
+http://consoleclassix.com/nes/monopoly.html

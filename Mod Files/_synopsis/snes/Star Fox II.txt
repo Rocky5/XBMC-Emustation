@@ -1,0 +1,21 @@
+Star Fox 2
+Original title: Star Fox 2
+Platform: Super Nintendo Entertainment System
+Region: Prototype (Japan), Translated
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, 3D
+Gametype: Translated
+Release Year: 2004
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+Translated by: Aeon Genesis
+Version: 1.00
+_________________________
+The holy grail of unreleased Snes games finally came to life several years ago with the release of Star Fox 2 final beta rom. Long had it been sought after, with only tastes of it from two early alpha roms. The game promised freedom from the rails of the original, and a new walker mode, and it delivered. With its release date so close to the release of the N64, it was finally shelved, along with the other Super FX games, Commanche and FX Fighter.
+
+Through the great efforts of Aeon Genesis (Gideon Zhi, d4s, Fusoya, and satsu), we now have a patch that fixes the remaining issues with the beta, as well as translate it English. You can download it from the Aeon Genesis website.
+
+Reviewer: Evan G
+http://www.snescentral.com/article.php?id=0077

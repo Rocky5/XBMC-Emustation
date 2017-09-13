@@ -1,0 +1,61 @@
+NFL '95
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1994
+Developer: High Score Productions
+Publisher: EA Sports
+Players: 1 to 4 VS; CO-OP
+_________________________
+NFL '95 improves the passing game of previous Sega football titles by allowing the player to see up to 65 yards down the field. The view is not fixed, however; it will dynamically change during play. Whenever a running back or receiver grabs the ball, the camera will zoom in for a close-up of the action. You can also elect to play as the receiver from the line of scrimmage, so you can run your own route and then signal for the ball. 
+
+Both the NFL and NFLPA licenses are included, so all 28 pro teams are here as well as over 1,500 players rated in thirteen categories based on the 1993 season. Full season play is also available with multiple schedules, instant replays, injuries, trades, free agents and playoffs in your bid to become Super Bowl champion. Battery backup means you can track league leaders and save team standings through an entire season, along with the records of up to seven users.
+
+Controls:
+
+OFFENSE BEFORE SNAP
+
+A Button: Switch receiver (hold to be the receiver)
+B Button: Call audible
+C Button: Snap ball
+
+OFFENSE AFTER SNAP
+
+PASSING
+
+A Button: Switch receiver
+C Button: Pass (hold for bullet pass)
+
+RECEIVING
+
+A Button: Catch
+B Button: Speed burst
+C Button: Dive
+
+BALL CARRIER
+
+A Button: Spin
+B Button: Speed burst/hurdle/highstep when in the clear (hold)
+C Button: Dive
+
+DEFENSE BEFORE SNAP
+
+A Button: Switch to next defender
+B Button: Call audible
+C Button: Talk trash
+
+DEFENSE AFTER SNAP
+
+A Button: Switch to closest defender
+B Button: Tackle/speed burst/hurdle
+C Button: Dive
+
+KICKING
+
+C Button: Snap/swing/punt
+
+Reviewer: Scott Alan Marriott
+http://www.allgame.com/game.php?id=7568

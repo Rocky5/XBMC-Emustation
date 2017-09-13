@@ -1,0 +1,12 @@
+Pokemon Crazy Drummer
+Platform: Sega Genesis / Mega Drive
+Region: China
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Pirate
+Players: 1
+_________________________
+Chinese Pirate developed with Tomsoft's MD development tools.  
+
+http://www.sega-16.com/forum/showthread.php?t=4175

@@ -1,0 +1,14 @@
+Force 21
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2000
+Developer: The Code Monkeys
+Publisher: Red Storm Entertainment
+_________________________
+It is the year 2015, and China is invading Russia for more resources. In their way is the US "Force 21". Take either side in this 3D RTS. There are no unit building. What you got is what you have to work with. Command over 40 different units of high-tech combat in 30 single-player campaigns and 10 multiplayer maps. Up to 4 players can join multiplayer action. Edit your own maps and missions with the included editor.
+
+http://www.mobygames.com/game/gameboy-color/force-21

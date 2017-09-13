@@ -1,0 +1,44 @@
+Mega Man 4
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+
+Peace has once again come to the world after the defeat of Dr. Wily during the Gamma Project incident. That is, until Dr. Light gets a letter from a Russian scientist, Dr. Cossack, proclaiming himself the top Robotics designer and that he had created eight of his own robots which he will unleash upon the world to test Dr. Light's robots. So Mega Man must be called off his search to find Dr. Wily, and go after Dr. Cossack and his robots. Dr. Light had also given Mega Man an upgrade to his weapon, the mega buster, which gives Mega Man the ability to focus a blast that does more damage.
+
+Mega Man 4 in many ways, mostly musical, is like Mega Man 2. The intro and finale music are identical to its predecessor. The graphics have improved since Mega Man 3, as far as the Mega Buster charging and the general look of the game. This game makes an excellent fourth installment to the classic Mega Man series.
+
+Gameplay: 
+
+The gameplay of Mega Man 4 is nearly identical to the previous installments; however, some additions have been made. For example, players can now "charge" a shot, resulting in a blast far more powerful than the standard shot. Additionally, tools are available, which can aid the player in reaching areas not normally accessible, but must be found in the stages, rather than being awarded for defeating a robot master.
+
+Controls:
+
+A Button: Jump, Pick items at Menu
+B Button: Shoot weapon (hold down to make shot more powerful), Pick items at menu
+Start Button: Pause, Make Menu appear
+Select Button: No use
+
+Hints:
+
+Passwords
+A4 B1 B5 E2 E6 F3 = Toad Man defeated
+A2 B4 B5 C4 D3 F2 = Skull Man defeated
+A2 B3 B4 B6 D1 D3 = Ring Man defeated
+A2 A5 B2 B4 D1 D3 = Pharaoh Man defeated
+A1 A4 B5 E2 F1 F3 = Final stage of Dr.Cossack's Citadel
+A2 B4 B5 C1 D1 D3 = Dust Man defeated
+A2 A4 B5 E2 E4 F3 = Drill Man defeated
+A2 B4 B5 D2 E2 F3 = Dive Man defeated
+A1 A4 B5 E2 F1 F3 = Bright Man defeated 
+
+Reviewer: grimjockey
+http://consoleclassix.com/nes/mega_man_4.html
+http://en.wikipedia.org/wiki/Mega_Man_4

@@ -1,0 +1,32 @@
+Night Striker
+Platform: Sega / Mega CD
+Region: Japan
+Media: Compact Disc
+Controller: Gamepad
+Genre: Racing
+Gametype: Undefined
+Release Year: 1993
+Developer: Taito Corporation
+Publisher: Taito Corporation
+Players: 1
+_________________________
+Taito had created plenty of great arcade games during the '80s and throughout the early 1990s. One of my favorite from the era was Night Striker. Taking the best gameplay elements from OutRun, Afterburner, Thunder Blade, and Space Harrier; Night Striker is one really great rail shooter that should be played by everyone. You have to understand that Night Striker runs on very advanced 2D sprite scaling hardware and porting the game onto any cartridge based 16-bit system would had been impossible. When the Mega CD attachment came out in Japan, its sprite scaling abilities were able to handle most of Night Striker. So when Taito ported it onto the Mega CD, I knew I had to play it. However, after playing for about twenty-five minutes, I had a sour taste in my mouth.
+
+Unlike in Space Harrier, where one hit means you're dead, Night Striker uses the shield system for your car's "health." At the start of the game you have five shields, but you can increase your shield count if you complete a stage without taking a single hit. After each stage, your shield number will be extended by one point, and you lose a shield point if you get hit by either enemy fire, or crash into an object. Learn to control the car perfectly so you'll be able to get to the last stage with plenty of shield points!
+
+Taken from OutRun is the level branching system (the same system as in another Taito shooter, Darius). You can only play six stages on one credit, but there are twenty-one stages in all. The action starts off in stage A, but later on you have to choose a different level each time you completed a stage, and you keep choosing levels until you have completed the game. The result is that there are many different final stages and you must choose one in order to finally beat the game. Luckily, each final stage has a very challenging boss, and defeating him will give you a different ending. This gives Night Striker a high replay level because you can always change the paths as many times as you want!
+
+What made Night Striker so great in the arcade was its gameplay. You controlled a flying automobile and went through many different levels of destroying enemies, objects, and bosses. The game had you dodging a lot of enemy fire and homing missiles, and another thing you had to worry about was not crashing into a wall, or an object like a tree. Most of this made it home intact...notice that I said most.
+
+The biggest problem with the Mega CD port of Night Striker is the graphics. The arcade game requires a lot of RAM for animations, and since the Mega CD doesn't have enough, Taito had no choice but to lower the resolution down to a pixilated pulp in order to add in it all. The game is very pixilated and it's hard to judge the distance from any object to your car. Even worse, the game uses few colors on screen, and it looks terrible. It's is still playable, but at certain times it's hard to see anything on screen. The resolution is so low at times that you don't know what the enemy looks like from all the horrible pixilation! In the long run, this tends to almost ruin the experience.
+
+Since the game is in CD-ROM format, the great music from Taito's music band Zutata remains perfectly intact. Night Striker always had that great soundtrack that you just want to keep hearing when you finished playing the game. Luckily, you can put the disc in a CD player and hear the great music for your enjoyment! In the options menu, you can switch to the arranged soundtrack, but I prefer the original one for its coolness. The sound effects are very similar to the arcade machine, but they are down sampled because of RAM limitations. The down sampling is not bad at all and they actually sound very good on the Mega CD.
+
+At certain times when playing Night Striker, you'll encounter heavy slowdown that will make the game even harder to play. An interesting fact is that the original arcade version had little, if any slowdown whatsoever. This is mostly because Night Striker was running on a very advanced 2D sprite scaling hardware (Taito's Z hardware board).
+
+Ater playing the Mega CD port of Night Striker, I was disappointed with the pixilated graphics. The game looks so good in the arcade, but on the Mega CD it looks like a pixilated mess! Be happy that the music and gameplay weren't completely ruined, because that's what saved this port from being a total disaster. Fans of the game looking for the best version might want to avoid it completely and get the Saturn or PSX version instead, but Sega CD fans with an itch should play this one with caution. 
+
+Reviewer Score: 6.0   |   Avg. Reader Score: 4.0
+
+Reviewer: Uri Cohen
+http://www.sega-16.com/review_page.php?id=1153&amp;title=Night%20Striker

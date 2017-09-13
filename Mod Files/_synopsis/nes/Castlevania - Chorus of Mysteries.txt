@@ -1,0 +1,43 @@
+Castlevania: Chorus of Mysteries
+Original title: Castlevania
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: optomon/Dr. Mario
+Version: 1.1
+_________________________
+Epic Hack
+
+This is a pretty good hack Dr. Mario and Optomon have put together. The graphics are really great and it looks like almost none of the original graphics remain. And the new level layout, themes, and MUSIC make this seem like it's a new Castlevania game. It's worth playing through to the end due to the Dance of Pales remix included in the last level, that's one of the things that made me play through the whole thing. I rarely play through a hack from beginning to end so I think that says something. I highly recommend playing this hack at least once if you are a Castlevania fan.
+
+Hack Description:
+
+This is a hack of the original Castlevania for NES that optomon and I have been working on for over a year. Optomon has done all the coding, music, and some level design, and I've done all the graphics, some level design, and the map. So what's changed?
+
++ New GFX
++ New levels
++ New level paths
++ New map
++ New sub-weapon
++ New music
++ Music on the title screen
++ New enemies
++ New bosses
+
+STORY
+
+1476, Romania. A terrifying castle rises up from the mist. Along with the castle rose a dark powerful being named Count Dracula Vlad Tepes. A man named Trevor Belmont was fated to defeat the powerful vampire, aided by a witch named Sypha, Dracula's own son Alucard, and a pirate named Grant DeNasty. Together the team traversed the dark halls of Castlevania, defeating the count and his countless minions.
+
+In 1777 a young child was born, and abandoned on a merchant ship with nothing but a headband with a mysterious crest, and the name Armund. The sailors raised the child on the high seas, and taught him the ways of being a sailor. Armund grew to be one of the greatest men that the merchant ship ever saw.
+
+Late 1797, word started to spread of the legends of Count Dracula, and his tyranny in the land of Romania. It was about that time, that Armund ran into an old Romanian man in Serbia. The old man knew a lot about the history of Count Dracula, and his reign of terror in Romania. The old man recognized the crest on Armund's bandanna, and told him that it belonged to the DeNasty clan, and that his ancestor helped defeat Dracula. Armund decided to leave his life on the high seas to seek out more answers about his ancestry.
+
+Romania, 1800. It's been 3 years since Alucard defeated his father in battle and has gone into eternal slumber. Armund's search has taken him to the mountains of Romania, not far from the town of Jova. A mysterious letter hinted that he might be able to find answers in the castle of Count Olrox, a servant of Count Dracula's. Armund set out of Olrox's castle, armed only with an enchanted barbed rope from Serbia. This will truly be the greatest and most arduous adventure of Armund DeNasty's life.
+
+Reviewer: deespence2929
+http://www.romhacking.net/hacks/263/

@@ -1,0 +1,13 @@
+Spirou
+Platform: Sega Genesis / Mega Drive
+Region: Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1995
+Developer: Infogrames
+Publisher: Infogrames
+Players: 1
+_________________________
+Spirou is a 1995 action game for the Sega Mega Drive and SNES by Infogrames based on the Spirou comic franchise. It was only released in Europe.

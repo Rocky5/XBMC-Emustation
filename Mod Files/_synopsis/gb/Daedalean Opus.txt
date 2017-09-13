@@ -1,0 +1,14 @@
+Daedalian Opus
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: Vic Tokai
+Publisher: Vic Tokai
+_________________________
+In this game you play as Daedaleanopus. Your mission is to solve puzzles. These puzzles consist of placing shaped pieces into a space and completely filling the area with all the pieces- sort of like Tetris except you try to fill up all the space on the board. Each puzzle is timed and after every puzzle you get a password so you can continue your game later.
+
+http://www.mobygames.com/game/gameboy/daedalian-opus

@@ -1,0 +1,15 @@
+Super Mario World: GFX Hack
+Original title: Super Mario World
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2005
+Hacked by: peter_ac
+Version: 1.2
+_________________________
+A complete overhaul of SMW, replacing eveything with GFX from SMB3. This hack is meant to be used as a base for other hacks.
+
+http://www.romhacking.net/hacks/58/

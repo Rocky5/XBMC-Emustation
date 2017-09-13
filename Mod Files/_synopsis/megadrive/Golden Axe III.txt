@@ -1,0 +1,17 @@
+Golden Axe III
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Beat 'em Up, Action
+Gametype: Licensed
+Release Year: 1993
+Developer: SEGA
+Publisher: SEGA
+Players: 1-2
+_________________________
+Golden Axe III is a Sega Mega Drive exclusive sequel to Golden Axe II. Its original Mega Drive release never showed up in the west, only being available in Japan, Asia and South Korea. It has since been brought to the Wii's Virtual Console service and has been made available for more regions of the world.
+
+The game is similar to previous entries in the series, but includes new characters, an expanded moveset and forks within levels where you can choose which path to take.
+
+By changing RAM values while the game is running, it is possible to play as any standard enemy within the game (though many will cause the game to crash when their special move is activated, or will have glitched graphics/collision values when played).

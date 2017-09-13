@@ -1,0 +1,17 @@
+Racket Attack
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Tennis
+Gametype: Licensed
+Release Year: 1988
+Developer: Jaleco
+Players: 1-2
+_________________________
+
+In Racket Attack you choose between two different modes of play. One Player tennis drops you right into the middle of a national tennis tournament.
+
+Win seven increasingly difficult matches and you'll take home the championship trophy. Two Plater tennis puts you on opposite sides of the net, hitting it out in head-to-head singles action. Once you've selected your mode of play decide between men's and women's tennis and choose from eight players in each category. each of the eight different men and women players has different strengths and weaknesses. Once you've picked your player, it's time to select your court surface. The game features hard, clay, and grass courts. Then it's time to serve it up. Play follows the regular rules of tennis. Win your match by winning two out of three sets.
+
+http://www.nesguide.com/games/racketattack/

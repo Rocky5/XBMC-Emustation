@@ -1,0 +1,40 @@
+Gauntlet
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure - Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Tengen
+Publisher: Tengen
+Players: 1 or 2 CO-OP
+_________________________
+
+Gauntlet, the original arcade smash hit, is a fighting game where you choose a character and let rip into the hordes of enemies that assault you on you way to the end of the level. One or two players must make their way through 100 levels of mayhem and magic.
+
+It featured a choice of four characters to play with, each with different weapons. Thor the Warrior, has a bludgeoning battle axe, Thyra the Valkyrie, has a close range sword, Questor the Elf has his long range bow, and Merlin the Wizard has magical bolts.
+
+Ghosts, goblins and even the life draining Death are your enemies. Enemies stream out of generators, so destroy these before tackling the rest.
+
+Keys are needed to open the many doors within the levels, and in some situations a door will contain only bonus items, not a progressive route. Scattered magic potions act like smart bombs and clear the screen of all enemies. Beware of poison though, this reduces your energy level. Treasure is abundant throughout the levels and adds to your score.
+
+Story:
+
+In a land known as Rendar, Morak, a hooded devil-like creature, has stolen the Sacred Orb that protected the lands. He hid this along with other treasures he stole in the Gauntlet which is protected by his evil creatures. Of the four heroes from the original Gauntlet only two were able to enter the portal and go after the Sacred Orb.
+
+Gameplay:
+
+As with most early Gauntlet games the player is seen from above, keys must be found to open doors, and closed treasure chests. Potions and keys can be found throughout the levels, however unlike the Arcade version the doors will not unlock on their own, after a period of time has passed. Although the Unlicensed version states "The #1 Arcade game!", there are many differences between the Arcade and NES versions, one of the biggest being the helpful hints provided from a Dungeon Master type voice are missing from the NES version; however, the grunts and "Ummm" sounds of players getting hurt or enjoying food can still be heard.
+
+The player can choose any of the original four players that were in the arcade version, Thor, Thyra, Merlin, and Questor; each varies with respect to magic power, shot power, hand-to-hand fighting skill, armor and movement speed. Gathering gold can increase these powers like experience points, and there are also specialized potions that permanently increase these abilities slightly. Temporary abilities can also be acquired from box shaped items that grant enemy-repulsing power, invisibility, invulnerability, super shots and reflective shots.
+
+A map of each land is shown between the stages. There are five worlds to journey through: Castle, Forest, Caverns, Water, and Volcano. In each area the walls are made to look like different kinds of blocks; trees, brick, rock, crystal rock, and invisible (water levels). A new addition to the Gauntlet style of play is that the NES version has pushable walls.
+
+Besides the normal fighting maze levels there are also two other types of rooms. In treasure rooms, collecting treasures will build up the players' experience and allow them to have more maximum health points, stronger attacks, and greater speed. These abilities grow every 50, 100, 200, 400, 800, 1600 treasures, but if the player gets more than 2,000 treasures the password they are given won't work.[1] No enemies are in the treasure rooms, but health is regained only when the exit is found before time runs out, thus limiting the amount of treasures that can be collected. A password will appear after exiting the treasure room if the room is exited before the timer expired. The other type of room is the Clue Room, of which there are eight throughout the game. Once inside these rooms the player must find a question mark '?' tile and exit before a timer runs out, in order to get a part of a combination that will unlock the 100th level. After finding the '?' and exiting, "Morak will appear and give you a clue."[2] The player must navigate around stun tiles, trap floors which flash and cause walls to disappear when stepped on, and teleporters that send them to different places depending on which direction the player enters them from. The password system proved troublesome for players as some characters, such as 'h' and 'k', 'S' and '5', and 'l' and '1', looked very similar.
+
+Trivia:
+
+After the release of Gauntlet on the NES, three juveniles in Pompano Beach, Florida were arrested for behavior they claim was motivated by the game. The youths attacked an elderly couple by throwing toy axes and flaming trash. The event caused a minor stir in the local media.
+
+http://en.wikipedia.org/wiki/Gauntlet_(NES)

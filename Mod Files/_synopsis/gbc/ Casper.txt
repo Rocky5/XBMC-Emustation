@@ -1,0 +1,14 @@
+Casper
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 2000
+Developer: G3 Interactive
+Publisher: Interplay
+_________________________
+Casper is a Role-Playing game, developed by G3 Interactive and published by Interplay, which was released in 2000.
+
+http://www.gamefaqs.com/portable/gbcolor/home/257228.html

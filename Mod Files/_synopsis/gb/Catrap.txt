@@ -1,0 +1,18 @@
+Catrap
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: Asmik Ace Entertainment, Inc
+Publisher: Asmik Ace Entertainment, Inc
+_________________________
+Catrap is a single screen puzzle game with 100 rounds. You and your sister (or girlfriend?) have somehow been turned into cathumans and you're are trapped in a castle full of baddies. The gameplay is best described as a mix between Boulder Dash and Soko-Ban.
+
+The goal is to clear each screen of badguys, in 100 increasingly difficult rounds. You can punch a badguy by walking onto it from the left or right. You can't attack from above or below, but you can stand on top of a monster, or underneath a monster. Other elements to make the game more interesting are loose ground which you can stand on or dig through, ladders to climb and boulders you can push around.
+
+You can choose to play each round as a boy or a girl, but this doesn't affect gameplay, only the background music. During the game, you can rewind to undo certain moves. You can play the rounds in any order, so you can skip to more difficult ones and solve them at a later time. There is a round editor to create your own puzzles, but these selfmade rounds can't be saved.
+
+http://www.mobygames.com/game/gameboy/catrap

@@ -1,0 +1,40 @@
+Phantom 2040
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Side-Scrolling
+Gametype: Licensed
+Release Year: 1995
+Developer: Viacom New Media
+Publisher: Viacom New Media
+Players: 1
+_________________________
+The game follows primarily side-scrolling action elements not unlike those of the SNES game Super Metroid, but other aspects of gameplay are considerable different. While Super Metroid has the player focus on collecting necessary weapons and upgrades in a set order, Phantom 2040 instead makes upgrades optional and has the player focus on following the story of the 24th Phantom, who the player controls. However, this style of game progression draws the game back to Super Metroid's style, due to the way further locations are unlocked as the game goes on without previous locations becoming unavailable. At several points in the storyline, players can make a direct choice about which path they take.
+
+Also like Super Metroid, Phantom 2040 has a heavy emphasis on exploration. Each area is colourful, distinct and vast, and it is up to the player to locate the area's objective or exit. Some areas are larger and more expansive than others, and every area offers large amounts of optional exploration to recover helpful restoration kits or powerful weapon upgrades. Some areas are locked by numbered gates that must be opened by destroying the remote lock of the same number, located elsewhere in that area (additionally, some locks can only be accessed if the area is reached by a secret underground network of sewer systems which connect every area). Most exploration is completely optional, and players can go directly to complete the area's objective, which may include locating a keycard, dealing with a boss or simply finding access to the next area. The majority of areas can all be revisited at the player's leisure anytime after they are unlocked.
+
+Tips:
+
+Passwords:
+Note: Each line of the password is divided by a forward slash mark (/).
+
+J V H 9 T W G Z T L D G / G G B 8 L N D C G ? F W / K B G D Y 7 9 K H Y Q Q / 5 N C Z ? 2 B 9 F D D 4 
+Chapter 2
+
+D V H 1 Y 1 G 9 7 L D F / 8 J B X Q 6 C H H 2 F W / K B G D Y 7 9 Q J Y S 8 / 5 N 1 Z 4 1 1 P-7 Y ? 
+Chapter 3
+
+B B J M 5 1 P B 3 K X F / 8 J 8 D J ? 1 H N 3 Y W / K B Q D Y 9 1 7 J Y S 8 / 5 M 1 7 4 6 F V 2 3 Q T 
+Chapter 4
+
+J G B H 3 3 P H 8 L X F / 8 X 8 D J ? 1 1 J 6 D W / K C Q D Y 1 W 3 J Y S 7 / 5 M 2 7 6 V C 7 K 5 4 S 
+Chapter 5
+
+J B B H 3 3 P N H S W F / 8 X ? D J ? 1 J B 2 J T / Y C Q D Y 1 X 3 J Y S 7 / 5 M 2 9 Z D 2-R N W 6 
+Chapter 6
+
+J D B 1 9 5 P S 6 S Y F / 8 X 9 W J ? 1 H H 9 J Q / 2 C Q D Y H T 4 G Z S 7 / 5 C 2 9 V J M R H W J K 
+Chapter 7
+
+http://en.wikipedia.org/wiki/Phantom_2040_(video_game)

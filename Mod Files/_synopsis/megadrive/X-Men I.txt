@@ -1,0 +1,57 @@
+X-Men
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1993
+Developer: Western Technologies Inc.
+Publisher: SEGA
+Players: 1 or 2 CO-OP
+_________________________
+The evil mutant Magneto has devised the world's deadliest computer virus. Its sole purpose: To destroy the Uncanny X-Men. Now Wolverine, Gambit, Cyclops and Nightcrawler join Storm, Iceman, Archangel, Jean Grey and Rogue to stop Magneto from carrying out his diabolical plan. Their target is Magneto's secret base on Asteroid M. But lying in ambush are the murderous arch villains Juggernaut, Sabretooth, Mojo and Deathbird. Will Wolverine's adamantium claws and Gambit's energy-charged playing cards be enough to defeat the forces of Magneto? That's up to you.
+
+Gameplay:
+
+The game takes place in the Danger Room, a training area for the X-Men inside the X-Mansion. A virus transmitted via satellite has infected the Danger Room, disabling control and safety limits. The X-Men must endure the unpredictable behavior of the Danger Room until the virus can be located and eliminated. Once the virus is eliminated, the X-Men discover that Magneto is behind the computer virus and the final stage involves a battle with him.
+
+Gambit, Nightcrawler, Wolverine, and Cyclops are available to play. Each character can jump and use various unlimited weapons (i.e. punch, kick) and a superpower which had a usefulness limited by a mutant power bar similar to a life meter, making the player rely more on standard attacks. The mutant power bar would slowly regenerate when depleted and when switching characters in mid-game, would revert to the status of the next characters mutant power bar from the last use.
+
+- The four primary characters - 
+
+Wolverine: As in other X-Men games, possessed a healing factor that enabled the character to recover from injury (i.e. replenish the life bar). When utilized properly, he can jump much higher than everyone else.
+
+Wolverine's mutant ability was the use of his adamantium claws. Keeping the claws extended reduced Wolverine's mutant power bar. When the mutant power bar was depleted, Wolverine would go into a "Berserker" rage, slashing wildly and uncontrollably for a few seconds simultaneously depleting the life bar.
+
+Gambit: Gambit made use of his trademark bo staff as a weapon in the game and also was one of the better jumpers.
+
+Gambit's mutant ability was his kinetically charged cards but, unlike other games in which he has appeared, the cards would not launch straight across the screen but rather "track" the nearest enemy and destroy them, even through walls. Gambit's ability could be "charged" for additional effect.
+
+Cyclops: Cyclops made use of his optic blast as his ability. As opposed to a screen long optic beam as one finds in other X-Men games, Cyclops's optic blast could be bounced off of walls to hit enemies from a safe location. His mutant power could be charged for an even more powerful blast. This character is also arguably the highest jumper of the game.
+
+Nightcrawler: Nightcrawler's teleportation ability is made use of to the highest degree in this game. The character can actually teleport through walls and past obstacles, giving Nightcrawler the ability to bypass sections of a level the three other characters cannot. In addition, Nightcrawler could teleport the second player's character when the two stand together. He had arguably the worst jumping ability of the games characters, as he had the lowest ascending jump. This is an ironic twist since out of the four selectable characters, he would really be the best jumper by a large margin, and is typically a better jumper in other X-Men video games.
+
+Other X-Men such as Storm, Rogue, Iceman, and Archangel can be called upon for support. Jean Grey also appears as support to pick up characters that fall. There are several levels, most having boss fights with familiar X-Men villains.
+
+- Resetting the Computer - 
+
+At the time, this game is one of few games which break the 4th wall. Once Mojo is defeated, the player must "reset the computer" for the Danger Room to stop the virus being emitted on Mojo's level. However, there are no switches for doing so. Resetting the computer is meant to be literal, in that the player has to lightly press the reset button on the Sega Mega Drive/Genesis console before the time ran out. This trick was widely panned by both video game magazine critics and consumers. Holding down the reset button too long would simply reset the system as one would normally expect. This also makes the game impossible to complete when playing on the Sega Nomad, as the portable Sega Mega Drive/Genesis has no reset button.
+
+Hints:
+
+- Extending the downtime in the Danger Room -
+There is a machine in the upper right corner of the Danger Room. Destroying it will greatly extend the time in between stages.
+
+- Full life -
+Enable the ''Level select'' code.Select two-player mode.Hold Down+A+C. Remove the controller from port one and plug it into port two.Press Start.Select characters,a starting level,and begin game play.Press Start(2)for full life.
+
+- Level Select -
+Hold Down + A + C and then press (or switch) power on the Genesis. With those buttons held, hold Start when the ''Press Start'' text appears on the opening screen. Continue to hold the buttons until the difficulty selection screen appears.
+
+Select any difficulty level and character, and walk to the right when the game play starts. Eight panels representing the eight game levels will appear on the wall. Crouch in front of a panel and press C to jump to the corresponding level.
+
+Note: This code will not work if a controller is plugged into port two
+
+http://en.wikipedia.org/wiki/X-Men_(Sega_video_game)
+http://www.gamefaqs.com/console/genesis/home/586618.html

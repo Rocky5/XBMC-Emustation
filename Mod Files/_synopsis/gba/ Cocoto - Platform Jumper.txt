@@ -1,0 +1,14 @@
+Cocoto: Platform Jumper
+Platform: Nintendo Game Boy Advance
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Platformer
+Gametype: Licensed
+Release Year: 2007
+Developer: Neko Entertainment
+Publisher: Big Ben Interactive
+_________________________
+Cocoto Platform Jumper is a 2D Platformer game, developed and published by Neko Entertainment, which was released in Europe in 2007.
+
+http://www.gamefaqs.com/portable/gbadvance/home/946504.html

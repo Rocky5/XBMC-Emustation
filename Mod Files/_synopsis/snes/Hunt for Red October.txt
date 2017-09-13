@@ -1,0 +1,25 @@
+Hunt for Red October, The
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe, Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1993
+Developer: Riedel Software Productions
+Publisher: Hi Tech Expressions
+Players: 1
+_________________________
+The game featured deep sea combat, side-scrolling action, and cinematic sequences. The object is to evade destruction and eliminate saboteurs. The caterpillar drive is particularly useful for quietly escaping the enemy.
+
+The Super NES version is one of only a few games that use the Super Scope accessory, though it is only used to play bonus stages that put the submarine in first person view, where the player has to destroy a number of enemies and projectiles. The use of the Super Scope is merely optional.
+
+Tips:
+
+Level Skip
+Pause the game and press A, B, Select, Right, Left, Left, Right, Select, B, A, B, B, A. Can only be used once per game
+
+Power-up the Sub
+Pause the game and press A, B, Select, A, B, Select, A, B, Select, A, B, Select, A, B, Select, A, B, Select.
+
+http://en.wikipedia.org/wiki/The_Hunt_for_Red_October_(video_game)#Based_on_the_movie

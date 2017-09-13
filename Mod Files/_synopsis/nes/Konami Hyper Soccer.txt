@@ -1,0 +1,20 @@
+Konami Hyper Soccer
+Platform: Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Soccer
+Gametype: Licensed
+Release Year: 1992
+Developer: Konami
+Publisher: Konami
+Players: 1-2
+_________________________
+
+Konami's Hyper Soccer is a soccer game in the Hyper Sports series. This is an action game for one or two players against the computer or each other.
+
+You can play the game in tournament mode or play just one match in demonstration mode. You can choose from several different national teams, select the start formation of the team and other player parameters as speed, technique, offense, defense, kick and even luck.
+
+Soccer features throw-ins, goal kicks, corner kicks, penalty kicks and an overhead view of the field which scrolls to follow the action.
+
+http://www.mobygames.com/game/nes/konami-hyper-soccer

@@ -1,0 +1,46 @@
+Sonic Remastered
+Original title: Sonic the Hedgehog
+Platform: Sega Genesis / Mega Drive
+Region: Update Hack (USA)
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: Puto
+Version: 1.1
+_________________________
+Sonic 1 Remastered is a hack of Sonic the Hedgehog (16-bit) for the Sega Mega Drive/Genesis by Puto. Unlike most hacks, Remastered isn't a level art/palette hack as much as an "additional features" hack done in ASM. One of the major additions to the game is added with the choice of using Sonic, Tails or Knuckles throughout the game (selecting a character is done at the title screen.) All characters have the Spin Dash, Sonic has the peelout and high speed dash (an attack that sends you rolling forward at a specific speed when you press A or B) while Tails flies/swims, and Knuckles climbs/glides.
+
+Ports of music from the other 16-bit Sonic games and original compositions are featured in each level. 
+
+Features: 
+
+- Multiple characters
+
+- Speed limit removed
+
+- New zone title/results font based on Sonic 3 title/results font
+
+- Some art from Sonic 3k, such as the Sonic and Tails sprites, rocks, starposts, monitors etc
+
+- Spike damage behavior changed to that of Sonic 2
+
+- Abilities gained as Chaos Emeralds are collected (might be subject to change)
+
+- Timer ends after defeating a boss instead of after opening egg prison
+
+- Super Sonic/Tails/Knuckles added
+
+- The ability to carry leftover rings into the next act
+
+- The ability to save your progress to SRAM
+
+- Transitions between different zones
+
+- Elemental Shields from Sonic 3 &amp; Knuckles and the Insta-Shield.
+
+- An options screen with a character choosing, shield style, sprite style, soundtrack switching, auto rolling switching, retain rings switching, and a sound test. 
+
+http://info.sonicretro.org/Sonic_1_Remastered

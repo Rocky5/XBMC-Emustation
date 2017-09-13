@@ -1,0 +1,31 @@
+Mendel Palace
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1989
+Developer: Game Freak
+Publisher: Hudson Soft
+Players: 1 or 2 CO-OP
+_________________________
+
+In a land of dolls, all seems peaceful and happy. Until a gang of evil dolls imprison a young girl. Bun-Bun, her boyfriend, has decided to go to the palace and save his girl! Can he do it? Dolls are never as they seem....
+
+Directions:
+
+This game takes place in an overhead view. In order to defeat a level of enemies, you must flip the tiles the baddies are under. How will this help? Only if you flip the tiles, and ram them into the walls will they be defeated! It will get harder as you advance, obviously! If you find special tiles, they can hold really cool stuff, so keep an eye out.
+
+Controls:
+
+A Button: Flip block tile
+B Button: Flip block tile
+
+Hints:
+
+Extra Mendel Palace!
+Hold Select + Start, then Reset NES (during game). It should say "Extra Mendle Palace on the title screen. 
+
+Reviewer: LinkOfHyrule
+http://consoleclassix.com/nes/mendel_palace.html

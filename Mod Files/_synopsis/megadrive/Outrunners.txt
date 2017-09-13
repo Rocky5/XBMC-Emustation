@@ -1,0 +1,29 @@
+OutRunners
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1994
+Developer: SEGA
+Publisher: Data East
+Players: 1 to 2 VS
+_________________________
+OutRunners is a sequel to the classic arcade racer OutRun. It puts you behind the wheel of 8 different race cars with the aim being coming up first on a world-wide cross-country racing tournament.
+
+As mentioned you get to select from 8 differently tuned cars, each with different handling and speed specs. and then ride out in hopes of getting the trophy. At the end of each stage you get to select between different branching routes that determine what your next stage will be, and thus the different routes you take to the end game determine what ending you get (if you manage to beat the other players).
+
+OutRunners places a big emphasis on competitive gameplay as you are always racing against another car, be it an AI or human-controlled one in a perpetual split-screen multiplayer mode.
+
+Trivia:
+
+The arcade original featured up to 8 simultaneous racers by linking four 2-seater cabinets.
+
+Hints:
+
+- Play as the Virtua Formula -
+One the title screen, take controller one and enter this code: LEFT, RIGHT, LEFT, RIGHT, B, C, A. You'll hear a noise if it worked. Press START and choose the Arcade Mode with button C. To the left of the first car is the Virtua Formula. Wait for the pictures and stats of the cars and you'll eventually see the Virtua Formula Car. (Note: This trick works on an early version of the game. It may or may not work the same on later versions.)
+
+Reviewer: Zovni
+http://www.mobygames.com/game/genesis/outrunners

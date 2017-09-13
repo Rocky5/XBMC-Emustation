@@ -1,0 +1,24 @@
+Bomberman 2
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1993
+Developer: Hudson Soft
+Publisher: Hudson Soft
+Players: 1 to 3 VS
+_________________________
+
+A Bomberman named White Bomberman is framed for terrible crimes by Black Bomberman. After being accused of robbing a bank, White Bomberman is thrown in jail. Bomberman's mission is to escape his prison cell and the guards.
+
+Gameplay:
+
+The game follows the classic Bomberman formula: you are in a room full of blocks and enemies and Bomberman must plant bombs to destroy the blocks and enemies. Several blocks contain power-ups (such as blast radius increasers or fuse shorteners), and one in each level contains a door, which takes Bomberman to the next level.
+
+Passwords are given after game over, recording the level, number of bombs, and strength of bombs. These passwords can be entered when the game starts allowing the player to continue where they left off.
+
+New to the series are the multi-player modes. Vs Mode is a 2-player mode, while Battle Mode is a 3-player mode. The objective is to kill the opposing Bomberman by planting bombs. An NES Four Score is required to play the 3-player mode.
+
+http://en.wikipedia.org/wiki/Bomberman_II

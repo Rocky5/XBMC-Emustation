@@ -1,0 +1,42 @@
+Snake Rattle'n Roll
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Rare
+Publisher: Nintendo
+Players: 1 or 2 VS
+_________________________
+
+Snake Rattle N Roll takes you into the fun filled world of two of the hippest snakes around --- Rattle and Roll! You must work you way through 11 levels of wacky landscapes and wild enemies. In each level you need to consume enough Nibbley Pibbleys to activate the scale that will open the door to the next area. Good Luck!
+
+--From the NES Snake Rattle 'n Roll instruction manual.
+
+Overview:
+
+As a couple of little snakes called Rattle and Roll, your mission is to crawl, jump, and eat your way through 11 levels of checkerboard landscapes, waterfalls, and an assortment of wierd enemies.
+
+Directions:
+
+This is a pretty neat little action/puzzle game. Your basic goal is to eat the little round things called Pibbleys, by flicking your tongue at them. When you eat enough, your snake grows an extra segment on its tail. You have to have a certain number of segments to complete each level. There is a "scale" which you must hop on, and if you weigh enough it rings the bell which opens the door to the next level. As well as Pibbleys there are lots of other things to eat. Most enemies require several consecutive tongue flicks to kill, and some can't be killed at all. Many of them drop extra lives or other good stuff when you kill them. You can't always do everything, though, because you have a time limit, so be careful. Some power-ups you can find include tongue extensions, clocks that give you extra time, and a diamond that gives temporary invincibility. Look for Lids on the ground, open them up and see what's inside, it may be an enemy, a power-up, or even a bonus level!
+
+Controls:
+
+A Button: Jump
+B Button: Flick Toungue, Swim, Open Lids
+Start Button: Start/Pause Game
+Select Button: Choose 1 or 2 Players
+
+Hints:
+
+Rocket Warp
+As soon as the game begins on level 1, run to the right as fast as you can, jump to avoid enemies, you have to be really fast. At the end of the board there is a rocket, if you jump on it in time it takes you to level 8.
+
+Level 3 Warp
+Also on level 1, go to the first little island with no lid on it. If you get on it and tap B a few times you'll find a hidden lid that warps you to level 3. 
+
+Reviewer: jcooper
+http://consoleclassix.com/nes/snake_rattle_n_roll.html

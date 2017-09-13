@@ -1,0 +1,53 @@
+Phantasy Star II
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1989
+Developer: SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+In the dark, vast reaches of space, light years from the planet we call home, floats the Algo Star System. It contains three planets, and the middle one is a green, hospitable world called Mota, gripped in a web of insanity.
+
+Phantasy Star II is a role-playing experience like no other. Featuring complex plot twists, numerous characters, and a mixture of sci-fi and fantasy elements. Join forces with Hugh the Biologist, Shir the Thief, Kain the Wrecker, Rudo the Hunter, and many others as you try to unravel the mystery of why Mother Brain has let the planet fall apart.
+
+Controls:
+
+Start Button: Pause; unpause
+D-Pad: Move cursor, move player
+A Button: Talk to townspeople, advance dialog box, inspect objects
+B Button: Cancel command, close selection box
+C Button: Open update box, open selection box, activate commonds in selection box
+
+Hints:
+
+- Become invisible -
+In battle, get all of your team members KO-ed except for Nei. Then get Nei to cast Nasak and she should KO herself. Then, your characters will turn invisible and you can walk around dungeons freely. 
+(This works in all version of PS2)
+
+- Make the game scroll one frame at a time. -
+When paused, press C and one frame should go by.
+
+- Slow motion play -
+When paused, press and hold B and play as normal. The game should play very slow.
+
+- Switch game music -
+This trick allows you to have different music play in other areas, using the slow motion code. First, you go to the area that has the music you want, like the weapons shop for instance. Next, press start and hold B. The game will move in slow motion with no sound, so you can still move. Now, then go to another place and let go of B, then press Start. The music from the place where you first pressed B and Start now plays in this area! Cool glitch!
+
+- Equip armor glitch -
+It is possible to have armor equipped even if it is not in your possession. First make sure you have at least two pieces of armor in a characters possession.
+1. Go to the equip screen and highlight the armor you want to keep equipped.
+2. This is the tricky part...equip/unequip the armor...when it says ".....takes armor" press a confirm button and then QUICKLY press down to the next armor below it and equip/unequip that armor. You need to do it
+fast enough so that you see only a little change in the attack,defense, and/or agility from changing equipment.
+3. You'll know if the glitch worked because you won't be able to unequip the first piece of armor. Now you can give the armor to another character! Who says you can't have powerful equipment like the NEIMET on just one character?
+To cancel the glitch, simply equip another piece of armor over the affected armor slot.
+It may take a few tries to get the glitch working because the equipping/unequipping must be done very quickly.
+
+- No random encounters -
+When examining the nearby area with the A (Talk, Examine) button, the next step you take is guaranteed not to take you into a battle. Keep hitting the A button (Talk, Examine) while you walk, so that after every step it will say ''There seems to be nothing unusual here.'' No random encounters will happen, but it will take quite a while to maneuver through dungeons this way.
+
+Reviewer: Chris Cuson
+http://www.allgame.com/game.php?id=1665

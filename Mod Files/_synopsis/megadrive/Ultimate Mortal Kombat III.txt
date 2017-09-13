@@ -1,0 +1,69 @@
+Ultimate Mortal Kombat 3
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1996
+Developer: Midway Games
+Publisher: Williams Entertainment
+Players: 1 or 2 VS
+_________________________
+The fight of your life... Enter the world of ULTIMATE Mortal Kombat 3 and discover what awaits you... 23 immediately playable fighters and 2 bosses. Meet up with some old adversaries. Think you know them? Guess again. They've got new combos, fatalities, brutalities and babalities and they're looking for you! There's also a few dudes playing their own version of hide and seek - find 'em if you can! Battle against the computer, opt for 2-on-2 fighting, or try out the very cool 8-fighter Tournament mode! Dazzling graphics, incredible sound and motion-capture technology produce the most realistic battles you'll ever fight!
+
+Gameplay:
+
+Ultimate Mortal Kombat 3 combines the best of all the Mortal Kombats into a single cartridge. 23 playable characters are immediately available, such as Reptile, Cyrax, Scorpion, Sub-Zero, Jax, Katana, Sonya, and more. There are two bosses that are unlockable, as well as additional characters.
+
+There is a variety of new levels, some of which are interactive. Characters can uppercut someone, causing them to hit the ground hard and crash through to the bottom floor, or they can knocked someone off a bridge, landing in a pit of spikes.
+
+Players can go against the computer one-on-one, two-on-two, or take part in the 8-fighter tournament.
+
+Gameplay was identical to MK3 but introduced a few new elements. Two new tournament modes were introduced. One was entitled 2-on-2 Kombat Mode which was similar to an Endurance match but with human players on both sides. There was also a new eight player tournament mode. "Chain combos" could be started by using a jump punch (vertical or angled) or a vertical jump kick which created more comboing opportunities. Some characters were given extra combos and some combos were even damage reduced. Combos that knock opponents in the air would no longer send one's opponent to the level above in multi layered levels. Only regular uppercuts would allow for this.
+
+Some characters were given new moves. Stryker now has a "Riot Gun" special move. Kano's cannonball move could be performed in two ways; one would make Kano move straight ahead like in MK3 and the other moved diagonally. Liu Kang and Sonya have new combos which can knock opponents in the air, leading to more combo possibilities.
+
+Some character moves were altered a bit, in most cases to balance the gameplay. Stryker's Baton Throw and Sonya's Leg Grab were given special damage protection propertues. Kabal could not perform his ground saw move after a spin and a certain number of comboed hits, however this makes little difference though as any moves performed on someone after the ground saw can be blocked unless the opponent is in the air. Kabal's ground combo damage was also reduced by approximately 10%. Sub-Zero was toned down a bit as he can no longer create an ice clone next to the opponent to freeze him on the spot. If he tries, the statue will not form. Smoke's spear is disabled after 4 combo hits. Also worth noting, the spear actually comes out of the compartment on his chest, whereas in MK3 it was actually summoned from behind him. When Shang Tsung juggles an opponent with his fireball, there is now a minimum of two other hits needed before another fireball can be performed.
+
+Performing a roundhouse when one's opponent is in the corner pushes the player's character out of the corner. Sonya's MK3 Friendship, which had her waving her arms back-and-forth in a silly manner, is removed. Now she simply does her victory pose and a row of flowers grow out of the ground. Other notable alterations include: Cyrax's air throw adds to the "combo meter" and his bombs cannot be done while his net is on screen. Both Cyrax and Sheeva's ground throw activates damage protection. Performing Liu Kang's bicycle kick special drains the run meter, Jax's projectiles have a longer recovery time, and both Sektor and Robot Smoke's Teleport Punch can now home in on their target better than the previous game. Kung Lao's Spin has better collision detection; no longer causes pushback in the corner; and it also now activates Damage Protection. Nightwolf's bow and arrow has reduced start up time when comboed (which just means situations where your opponent cannot control their character after being hit).
+
+Player 1 side Sektor can fire Dumb Missiles while Homing Missiles are activated (possible glitch or incomplete programming).
+
+Additionally several miscellaneous features were added and changed to UMK3. The original red portal background used for the "Choose Your Destiny" screen is now replaced with a blue portal and an extra "Master" difficulty is added as well. In the additional "Master" difficulty setting, "Endurance Matches" return, in which the player can face as many as three opponents in a given round. These were not seen since the first Mortal Kombat. Shao Kahn's Lost Treasures are introduced after either the main game or the 8-player tournament are completed. These Lost Treasures are selectable prizes, some are extra fights, others lead to various cutscenes or other things. The smallest alterations to the game include character announcements when Shang Tsung transforms and the "Toasty!" sound is now played during the game's end credits, when Dan Forden's image is shown.
+
+While ROMS were added to the game and nothing was actually removed, some elements from MK3 were subsequently missing from UMK3's presenation. The only bios featured are for Kitana, Jade, Scorpion, and Reptile (the ninja characters who weren't featured in the original MK3 and do not have to be unlocked via Ultimate Kombat Kode in this game). All of the bios and the full body portrait of each character from MK3 are missing. The bios that are featured use their versus screen portrait with text on a background of the battleplan/portal. Like the bios, all of the character endings show the player's character's versus screen picture accompanied by text, instead of using original art as MK3 did (a spelling mistake, however, in Sindel's ending is corrected). The storyline pictures and accompanying text are never shown (beginning with "These are the words of Raiden" and explaining the plan to conquer Earth and the Tournament warriors' struggle).
+
+Finally, The Bank, the only stage missing from MK3, was removed completely from gameplay.
+
+In UMK3, the CPU AI was improved. However, it introduced two flaws: while backflipping away from an opponent, if the player performs a jump kick, the CPU will always throw a projectile. This leaves the CPU vulnerable to attacks such as Sektor's teleport-uppercut, which can easily lead into a devastating combo and if the player walks back-and-forth, not getting too close to the CPU opponent and not walking too far away from it, the CPU will mimic the player's walking movements the entire round and never attack. This gameplay flaw remained and was not corrected for Mortal Kombat Trilogy. In addition, UMK3 1.1 AI was used instead of 1.2, which is even less developed AI.
+
+This game is rated M on the Nintendo DS, Xbox 360, Genesis, Saturn, and SNES versions. On the last three versions, it is rated M for Realistic Violence and Realistic Blood and Gore; for the Nintendo DS and Xbox 360 the M rating is for Blood and Gore and Intense Violence.
+
+Hints:
+
+- 8 lives in Galaxian -
+Note that you need a six-button controller for this cheat.
+
+Enable the cheat menu and select ''play hidden game''. While the intro screen is running hold (X+A+Z+C) . Hold this down until the game starts. You should know the code has worked if you hear a firing sound and see no laser fire on screen. You now have 8 lives. Enjoy!
+
+- Bonus Level -
+Complete the game using anybody, and make sure there's a controller in the second socket. Press Start on controller two when the green lightning appears from Shao Kahn's tower.
+
+- Cheat Mode -
+At the title screen that says ''Start and Options, enter B, A, down, left, A, down, C, right, up, down. You will hear a sound if entered correctly and Cheats, Secrets, and Killer Kodes will appear on the main menu.
+
+- Stage Skip -
+Start a one-player game. Press Start on controller two after the first round ends to advance to the next opponent.
+
+- Another code for Cheats, Secret and Killer Kombos -
+At the screen which says Start and Options:
+
+A, C, Up, B, Up, B, A, Down - Enables Killer Kombo, Cheats and Secret Option.
+
+Random Select - 
+At the character select screen, Hold Up and press START.
+
+http://www.mobygames.com/game/genesis/ultimate-mortal-kombat-3
+http://www.gamefaqs.com/console/genesis/home/563352.html
+http://en.wikipedia.org/wiki/Ultimate_Mortal_Kombat_3

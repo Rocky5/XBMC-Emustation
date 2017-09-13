@@ -1,0 +1,41 @@
+HAL's Hole in One Golf
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Golf
+Gametype: Licensed
+Release Year: 1991
+Developer: HAL Laboratory
+Publisher: HAL America
+Players: 1 or 2 VS
+_________________________
+STROKE PLAY - One to four players. Best result after the 18 holes wins.
+
+MATCH PLAY - Two players compete against eachother by every hole, the one that finished most holes wins.
+
+TOURNAMENT - One to four players plays against 60 computer-controlled players 18 holes.
+
+VS HAL - Compete with the Pro-player Hal. If you win you'll receive a password that ables you to use the same kinda metal-clubs he uses. When you've got the password you can use the clubs in every game.
+
+--From the SNES Hal's Hole in One Golf instruction manual.
+
+Tips:
+
+Music test
+Type BGM at the Memory Shot screen for a music test.
+
+Play with Metal Clubs
+Enter METAL PLAY as your name.
+
+Watch Hole in One Replays
+Enter CQJB83CFDFJ#H?LBBT7BJCF or B!5B9GB5SFGB3J5BB?GBMYQ as a memory shot password.
+
+Slow Ball or Shorter Shot
+Hold Down while the ball is mid-air to force it to fall sooner.
+
+Play 19th Hole
+Select practice mode and play to the end. Another hole is here, although there is no pin displayed. Move
+towards the out-of-bounds area in top portion of the course. Aim for the point approximately in the top left and middle portion of the screen.
+
+http://www.consoleclassix.com/snes/hals_hole_in_one_golf.html

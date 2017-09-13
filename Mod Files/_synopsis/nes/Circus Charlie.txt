@@ -1,0 +1,27 @@
+Circus Charlie
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1986
+Developer: Konami
+Publisher: Soft Pro
+_________________________
+
+You are Charlie, a member of a circus troupe. Your job is to please the crowd by performing five death-defying stunts:
+
+Stunt #1: You and the lion must jump through several rings of fire. Remember to avoid the jugs that emit fire. You must do this for 100 meters.
+
+Stunt #2: Walk the tightrope for 70 meters, avoiding the monkeys that get in your way. Jump the cyan monkeys for 500 points.
+
+Stunt #3: Roll on a ball for 80 meters, jumping from ball to ball. You can move balls backwards if the target is too close to make a successful jump. Avoid contact with the ground.
+
+Stunt #4: Ride a horse for 200 meters, bouncing on trampolines along the way. Be careful not to miss the jump or go over the tops of trampolines. You can speed up or slow down the horse.
+
+Stunt #5: Finally, trapeze from swing to swing for 50 meters. If you miss, make sure that you land on the platforms below so you bounce back on a swing.
+
+Once you have completed all five stunts, you have to do them again and hopefully, more points will be awarded.
+
+http://www.mobygames.com/game/nes/circus-charlie

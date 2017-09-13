@@ -1,0 +1,14 @@
+Winning Eleven: World Soccer
+Platform: Nintendo Game Boy Advance
+Region: (Translated)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Sports - Soccer
+Gametype: Translated
+Release Year: 2008
+Translated by: knighTeen87
+Version: 0.99
+_________________________
+There were no complete English patches for Winning Eleven World Soccer on GBA. But, thanks to separate projects of shingyau, Thielong, K'dsh7 (Player names) and Odin_Knight (Menu translations), I combined these partial translation patches into a complete one. That is how this complete translation was born. Nearly everything is in English, except some little words. Here is the only full English patch for WE on GBA. Have fun!!!
+
+http://www.romhacking.net/trans/1277/

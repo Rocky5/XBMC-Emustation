@@ -1,0 +1,18 @@
+Super Metroid: Zebes Returns
+Original title: Super Metroid
+Platform: Super Nintendo Entertainment System
+Region: Update Hacks
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2006
+Players: 1
+Hacked by: Crocomire
+Version: 3.0
+_________________________
+The hack totally changes the order in which you play the game (for example, you start by collecting power bombs instead of missiles and going into the middle of brinstar).
+
+The storyline is: After Samus' last mission to Zebes, the whole planet was destroyed and Samus assumed that she would never have to face its familiar terrain again. However, a powerful creature called Regenertron was secretly regenerating Zebes in every detail, as the space pirate Ridley asked him to. Regenertron was able to recreate everything on Zebes, but not quite as it was before. He was also able to recreate the Space Colony and the friendly Metroid from SR-388. Samus did not realise this was going on as she was on a mission to investigate an all new type of Metroid that had just been discovered. However, it was a fake and then Samus received a distress signal she knew all too well. CERES STATION WAS UNDER ATTACK!!
+
+http://romhacking.net/hacks/119/

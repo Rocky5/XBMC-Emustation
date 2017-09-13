@@ -1,0 +1,30 @@
+Labyrinth
+Original title: Labyrinth
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2003
+Translated by: Suicidal Translations
+Version: Beta
+_________________________
+I don't know why GameFAQs refers to the game as "Reverence". I mean sure, you could think that if it were written out in katakana, but the name's right there. Maybe it's different on the cover box or something.
+
+Well, if you guessed that Labyrinth is based on the Jennifer Connelly movie of the same name, then you guessed rightly. I've never seen the movie, and I can't understand the game, so I can't tell you much about it, except that you're in a Labyrinth, and that Jennifer Connelly is hot and sexy.
+
+You pretty much just run around and shoot things that randomly pop up and attack you, and you can pick up various items. What's neat is you don't have a life meter; whenever you get hit you lose time. When your timer goes to zero, it's Game Over. Fortunately you can pick up little clocks to increase your time left, or you can buy time from people. Pretty interesting. What's not as cool is the fact that whenever your character gets hit, he flashes so that he doesn't get hit again for a second. But during that time, you can't move at all. So it's very easy to just sit there and get pummeled by this guy, and you can't even so much as run away from the fellow. It's not so bad, cause you can still shoot when you're immobile.
+
+The problem is those faeries! When they can fly over obstacles and move wherever they want at random and you can only shoot in eight cardinal directions... Well, it gets pretty goddamn annoying. And do they always have to come in packs of three or more? Also, a manual would be nice for this game. I'm picking up hearts and necklaces and books and such, why? What do they do? It is a mystery.
+
+Translation Description:
+
+This patch is now currently offered here at RHDN. This patch was previously only available at the Suicidal Translations page. Unfortunately, Suicidal Translations has died, and the author, Inverse, is unreachable for potentially several years due to a personal situation.
+
+At this point and time, the translation group, this project, and the author are defunct. We are offering this patch under the assumption that Inverse would have wanted his work preserved.
+
+This patch was considered Beta and may have bugs and/or not be fully complete. It was not a final patch release.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/663/

@@ -1,0 +1,48 @@
+BreakThru!
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle, Strategy
+Gametype: Licensed
+Release Year: 1995
+Developer: Artech Digital Entertainment
+Publisher: Spectrum Holobyte
+Players: 1 or 2 CO-OP or VS
+_________________________
+As it says, it's from the guy who created Tetris. It's a puzzler involving blocks of different colors. Your goal is to eliminate blocks by taking out groups of two or more matching squares.
+
+The graphics aren't great, but hey, when you love a puzzler you don't mind. The music makes me think of Buster Keaton for some reason.... oh well.
+
+Directions:
+
+Move your cursor to the block you wish to make disappear and press B. Only sets of at least two of the same color will disappear. Remove smaller sets from between bigger ones to get larger groups of the same color, then make the whole thing vanish.
+
+If you press down and A you will drop the blocks (and dynamite sticks and various other items) that are floating across the top of the screen down onto your blocks.
+
+Using X allows you to shift the blocks from one side to the other, if you have made a space all the way down to the bottom. When you eliminate all the blocks in a column, the blocks will pull themselves together to close off the space if it's in the middle. Now you have an empty space on the end to move the blocks left or right.
+
+Drop the blocks overhead when colors match up or when special items will benefit you most. The block that is split into four different colors that keep changing will allow you to get rid of all of a specific color. To do this, move the cursor over to this block and press B. When the screen has a yellow border, you can now move the cursor to a color of your choice and press B again. All the blocks that are that color will disappear. Dynamite is the most common special block. When you drop one stick on another they will explode and take some of the blocks around them with them. Also, when dynamite is resting on the bottom of the screen you may select it at any time to make it explode.
+
+Press B on a block that has a flashing arrow on it and it will turn into a rocket and shoot across the screen in whichever direction the arrow was facing and take out all of the blocks in its path!
+
+The flashing blue and yellow blocks that are on your board (in later levels) can only be eliminated by special blocks. Try to get rid of most of the other blocks first, that makes it easier to make sure that the special items will be where you need them to eliminate these blocks. 
+
+Controls:
+
+A Button - Drops blocks while pressing down
+B Button - Knock out blocks
+X Button - Shift Blocks
+Y Button - Guiding lines On/Off
+Start Button - Begin game/ Pause
+
+Hints:
+
+Plan Things Out
+Sure, you could sit there and randomly press B all over the screen to make block sets disappear, but most of the time that will leave you with a mess at the bottom of the screen that is going to be harder to get rid of.
+
+Strike Out the Colors
+Once you've eliminated all blocks of one color on the playing board, that color will no longer bother you. No more blocks of that color will fall from the skies, so get rid of a color as soon as you can. 
+
+Reviewer: fallenrain
+http://www.consoleclassix.com/snes/breakthru.html

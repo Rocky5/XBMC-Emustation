@@ -1,0 +1,20 @@
+BLOCKER
+Original title: Super Mario Bros.
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2009
+Hacked by: Eclypsis
+Version: 1.0
+_________________________
+I knew from the time that I say this hack sitting in the queue that it was going to be one of those quirky hacks that just makes me laugh for no apparent reason. While one could argue that this patch is entirely pointless, which for the most part it is, the concept behind it is somewhat absurd and amusing.
+
+I do have a bit of criticism, however: The sprites and BG graphics are still using their original mappings. For some things which are already block-shaped, like Mario, this works out fine. For others, though, it does not, and they don't look nearly as blockilicious as they could. Ideally the mappings should be edited so everything looks like it's constructed entirely out of stacked blocks. The palettes for some things don't look so hot either, I think those could do with a bit of editing. Also, the new ending text is lame, bitch!
+
+I honestly want to see a version 2.0 of this hack, with edited levels designed to take advantage of this new, block-based Mario reality. Justify its presence on this site, Eclypsis! The hack just barely made it on as a graphics and text overall, go the rest of the way and make it truely complete!
+
+Reviewer: Dragonsbrethren
+http://www.romhacking.net/hacks/558/

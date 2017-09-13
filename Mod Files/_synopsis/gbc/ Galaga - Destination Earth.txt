@@ -1,0 +1,16 @@
+Galaga: Destination Earth
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Shooter
+Gametype: Licensed
+Release Year: 2000
+Developer: Pipe Dream Interactive
+Publisher: Hasbro Interactive
+_________________________
+This handheld version is in the same spirit as its console cousins, excluding the graphics and the 3-D perspective. This version has four different backgrounds that will vertically scroll along with a plethora of colorful enemy ships.
+
+Players can upgrade to more powerful weapons including doubling their firepower by recapturing their ships that can be taken by Galaga command ships. However, this version does not have Challenge stages that its other versions have.
+
+http://www.mobygames.com/game/gameboy-color/galaga-destination-earth_

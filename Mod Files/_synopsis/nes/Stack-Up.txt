@@ -1,0 +1,18 @@
+Stack-Up (Robot Block)
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1985
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1 or 2 CO-OP
+_________________________
+
+Set up R.O.B. with the colored discs included in the game and then control his movements in the game by using Professor Hector to jump onto various blocks. The blocks represent commands given to R.O.B. in sequence.
+
+This game can be played in several different ways. In the regular game, you have to stack up the colored discs as fast as possible and in a certain pattern and sequence. In memory mode you program an entire sequence of movements to move the discs and won't know if it actually works until you RUN the program. Finally there is a 1 or 2 player bingo mode in which you align different columns and rows to BINGO and activate rob commands. An opponent will also hop around activating commands. Your goal is to have R.O.B. move as many of the colored discs without dropping them.
+
+http://www.mobygames.com/game/nes/stack-up

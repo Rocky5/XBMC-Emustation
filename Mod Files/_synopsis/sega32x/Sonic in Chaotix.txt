@@ -1,0 +1,16 @@
+Sonic in Chaotix
+Original title: Knuckles Chaotix
+Platform: Sega 32X
+Region: Update Hack (USA)
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Hack
+Release Year: 2006
+Players: 1 or 2
+Hacked by: JJFTails
+Version: 1.2
+_________________________
+This is a hack which replaces Mighty the Armadillo with Sonic the Hedgehog. The Special stage sprites were replaced with Sonic CD sprites and in level sprites were ripped from Sonic Crackers. A few of the sprites were drawn from scratch.
+
+http://www.romhacking.net/hacks/399/

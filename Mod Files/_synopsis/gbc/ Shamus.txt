@@ -1,0 +1,14 @@
+Shamus
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 1999
+Developer: Junglevision Software
+Publisher: Vatical Entertainment
+_________________________
+A combination of Berzerk and Adventure -- explore over 120 rooms to find the evil enemy.
+
+http://www.mobygames.com/game/gameboy-color/shamus

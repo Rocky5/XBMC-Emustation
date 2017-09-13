@@ -1,0 +1,39 @@
+Videomation
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Educational
+Gametype: Licensed
+Release Year: 1991
+Developer: THQ
+Publisher: THQ
+Players: 1
+_________________________
+
+What Is Videomation?
+
+It's a fantastic way to draw!
+
+The Videomation cartridge has drawing tools, colors, stamps and an animation feature that allows you to make lots of sensational pictures with your Nintendo Entertainment System.
+
+It's easy to use!
+
+Just press a few buttons on the controller to use all the features in Videomgation. The drawing tools help you create lines, circles, squares and other shapes. You can paint your drawings with lots of colors - even colors that move! There are fun stamps to add to your pictures: suns, hearts, dogs and more. The Animations bring action into your drawings!
+
+Let your imagination go wild!!
+
+You can make all kinds of pictures with Videomation. Crazy geometric designs with intense patches of color... graceful birds flying over untamed jungles... supped-up cars on a race track... dinosaurs in your backyard... and much more!
+
+Your adventures in Videomation are just beginning! Remember, the only limitation is your imagination!
+
+--From the NES Videomation instruction manual.
+
+Controls:
+
+D-Pad - Moves your cursor.
+A - Draw with current tool in drawing mode, select new tool in toolbar.
+Start - Change cursor speed [indicated by graph in top left].
+Select - Switch between drawing mode and toolbar.
+
+http://www.consoleclassix.com/nes/videomation.html

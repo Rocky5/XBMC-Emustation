@@ -1,0 +1,16 @@
+bit Generations: Orbital
+Platform: Nintendo Game Boy Advance
+Region: Japan
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2006
+Developer: Skip Ltd.
+Publisher: Nintendo
+_________________________
+Take control of a small moon and consume all in your path! Orbital is an action game where you pilot a moon in outer space. Your goal is to have the sun orbiting around your small planet. Before you can do that, however, you'll need to become big enough. You can increase the size of your moon by engulfing planets and satellites that are smaller than your own. If you try to run into anything larger than yourself (or the sun), you'll crash and lose a life. Once you've reached a large enough size, the sun will turn yellow, and you'll be able to collect it by navigating close enough to it to snare it in your moon's orbit.
+
+Control for Orbital is very simple. By pressing the A Button, you'll attract to the nearest planet. By pressing the B Button, you'll repel away from it. By using a combination of these simple controls, you'll be able to weave in and out of other planets, dodging the dangerous ones and collecting the smaller ones. You can also collect smaller planets around your own as satellites for bonus points. To do this, you must navigate close enough to the planet to attract it, but not run into it. You can also collect the bonus moon that appears in this manner for a special bonus.
+
+http://www.mobygames.com/game/orbital

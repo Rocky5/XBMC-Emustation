@@ -1,0 +1,20 @@
+Polarium Advance
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2006
+Developer: Mitchell
+Publisher: Atlus Co.
+_________________________
+Polarium Advance is basically the same as Polarium for the Nintendo DS, but a couple of new blocks have been added.
+
+This is a puzzle game in which the player must create horizontal lines of all the same color (either black or white). To change the color (or "polarity") of a block, you must select the blocks in one line. In most puzzles, you can use the border to lengthen the line. The new blocks in the Advance version are: Hurdle Tiles, which you cannot pass, Multi-Tiles, which count as black or white, and Solid Tiles, which will not turn but are removed so that the tiles above them fall down. There are 365 puzzles in this mode (Daily Polarium) ranging from very easy to quite challenging.
+
+The Time Attack Mode requires you to solve either ten easy puzzles or five hard puzzles within the time given. Leaving a block of the wrong color in a line results in a 30 seconds penalty.
+
+It is possible to create your own puzzles and share them with friends. Puzzles created in the Nintendo DS version of the game are compatible with the GBA version.
+
+http://www.mobygames.com/game/gameboy-advance/polarium-advance

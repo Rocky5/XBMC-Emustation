@@ -1,0 +1,26 @@
+Realm
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Shooter, Side-Scrolling
+Gametype: Licensed
+Release Year: 1996
+Developer: Titus Software
+Publisher: Titus Software
+Players: 1
+_________________________
+Take control of a super cyborg called Biomech, Earth's secret weapon in the battle against alien invasion. Adventure through four warped landscapes, from the dark forest home of the resistance, through the stratosphere, to Plasma Port, and then onto the alien's Battle Station. Penetrate the station's defenses and make your way through the maze-like interior in order to destroy the station and end the alien's occupation of Earth.
+
+--From the SNES Realm instruction manual.
+
+Tips:
+
+Invincible
+To start the game with invincibility hold Up, X, B, R and start at the title screen until it fades.
+
+Skip Level
+After holding Up + X + B + R + Start at the title screen(invincibility)
+Press Start + Select during game play to jump to the next level
+
+http://www.consoleclassix.com/snes/realm.html

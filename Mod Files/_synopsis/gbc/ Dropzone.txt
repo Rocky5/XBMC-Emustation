@@ -1,0 +1,18 @@
+Dropzone
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1999
+Developer: Awesome Developments
+Publisher: Acclaim
+_________________________
+Dropzone was the first game to propel Archer Maclean to stardom. The game, originally written for the 8-bit Ataris, is basically a Defender clone, but popular because it so closely recreates the gameplay of the original Defender, with its speedy scrolling and frantic gameplay.
+
+The player is a spaceman with a jet-pack, flying across a barren landscape whose skies are inhabited by a number of different aliens; from the simple Planter to the slowly advancing Blunder Storm or the quick, aggressive Nemesite.
+
+Planters and Nemesites will try to pickup the small men walking on the surface, who must then be rescued. You must shoot down the alien, while avoiding to hit the man. Sometimes, the aliens will carry an android, which is similar to the human but deadly. Care must be taken so as to not pick up the androids. All men must be transported to a surface base, where they are put in safety. This is the Dropzone.
+
+http://www.mobygames.com/game/gameboy-color/dropzone

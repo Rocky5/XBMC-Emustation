@@ -1,0 +1,66 @@
+Pac-Man 2: The New Adventures
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Maze
+Gametype: Licensed
+Release Year: 1994
+Developer: Namco
+Publisher: Namco
+Players: 1
+_________________________
+Welcome to Pac-World!
+
+You are about to enter a cartoon universe that is home to the greatest video-game hero ever: Pac-Man! In Pac-World, Pac-Man is free to explore every nook and cranny of a wild and wacky cartoon land. Along the way, he goes on some way-out adventures (and even runs into a little trouble). The world's first interactive cartoon concludes with a battle against the Ghost Witch of Netor to return all the stolen bubble gum to the kids of Pac-City!
+
+--From the SNES Pac-Man 2: The New Adventures instruction manual.
+
+Overview:
+
+Another update of the popular Pac-Man series. This new version is more of an interactive cartoon than a video game. Pac-Man and his family have normal problems like any family might have, like needing milk for the baby. These little problems are Pac-Man's "missions" which you must help him solve. Unfortunately you don't control Pac-Man directly, but you guide him by trying to call his attention to certain things, manipulating obstacles in his path, and shooting him a Power Pellet when he needs a Super Pac-Man boost.
+
+Beware, in addition completing to Pac-Man's tasks, you also have to watch out for the good ol' ghosts. They'll come looking for you and try to ruin Pac-Man's life and hurt the ones he loves. But don't relax just because you don't see any bad guys, there are lots of other ways for Pac-Man to hurt himself if you let him.
+
+Tips:
+
+Level 1 passwords
+Select the password option on the main menu and enter.  Note that 'pac' denotes using the Pac-Man symbol. These
+passwords are great if you're hunting for percentages.
+
+FYpacW4XW Begin level 1
+ZYVW4Vpac Lucy's room.
+FFpacD3TW Old Arcade, left side.
+ZYVWMVT Old Arcade, right side.
+FYTW4XC Old Game Center
+YFpacW4XW Pac-man's house, left side.
+pacFpacV5TW Pac-man's house, right side.
+ZYBW4VT Pac-man's room.
+ZYpacC2VT Park, left side.
+FYBD3WW Park, right side.
+YFTWMXW Stock Farm, left side.
+FFVXNTW Stock Farm, right side.
+ZYVC4VT Village Way, exiting Lucy's house.
+FYTC4XW Village Way, left side.
+YFTC4XW Village Way, right side.
+
+Passwords:
+OFYFJJ8 Final Boss
+FODWW5W Level 2
+BWHY37Y Level 3
+JWGOVZ6 Level 4
+FFTDB2W Mine Cart Level
+MSPCMND Ms. Pac-Man Arcade
+PCMNDPW Original Pac-Man Arcade
+PCMNPTT Pattern Test
+BGMRQST Sound Test
+TRLMDPW Time Trial
+
+Secret Path
+When you're in the sewers on the way to the Ghost Witch's lair, remain happy. Hit Pac-Man with your slingshot once to make him angry , and then use the slingshot to direct him to a big hole in the wall. This hole in the wall contains 2 burglars. Pac-Man will chase them out. Have Pac-Man go to the left by pressing the D-pad left and the Y button at the same time. Use the slingshot on the left most wall until it spins, and 'Voila'. A secret path with a mine cart appears.
+
+View Game Percentage
+Press start to go to the item screen, and then hold Select and X. The percentage of the number of secrets you've found will be displayed above your current password.
+
+
+http://www.consoleclassix.com/snes/pac_man_2_new_adventures.html

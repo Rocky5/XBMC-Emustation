@@ -1,0 +1,14 @@
+Tail 'Gator
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Natsume
+Publisher: Natsume
+_________________________
+Tail 'Gator is a 2D Platformer game, developed and published by Natsume, which was released in 1991.
+
+http://www.gamefaqs.com/portable/gameboy/home/585941.html

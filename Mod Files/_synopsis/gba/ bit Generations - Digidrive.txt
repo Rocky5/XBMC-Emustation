@@ -1,0 +1,16 @@
+bit Generations: Digidrive
+Platform: Nintendo Game Boy Advance
+Region: Japan
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2006
+Developer: Q Games
+Publisher: Nintendo
+_________________________
+Digidrive is a puzzle game for the Game Boy Advance. The goal of Digidrive is to achieve highest score, which can be done by elevating a fuel propelled disc. To make the disc move, player needs to collect fuel units, combine them and make an ignition. This can be done in repetition, until the disc is crushed by a piston that is following it, which means game over.
+
+There is a two player mode, where players push the same ball against each other. It can be played against human opponent or CPU.
+
+http://www.mobygames.com/game/digidrive

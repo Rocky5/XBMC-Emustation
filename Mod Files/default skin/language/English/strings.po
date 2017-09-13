@@ -764,11 +764,11 @@ msgid "[UPPERCASE]Scan Rom files[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32047"
-msgid "[UPPERCASE]auto create cut files[/UPPERCASE]"
+msgid "[UPPERCASE]auto scan roms[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32048"
-msgid "[UPPERCASE]select directory (manual mode)[/UPPERCASE]"
+msgid "[UPPERCASE]update selected systems (manual mode)[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32049"

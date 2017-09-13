@@ -1,0 +1,47 @@
+Star Wars
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Namco
+Publisher: JVC
+Players: 1
+_________________________
+
+EPISODE IV A NEW HOPE
+
+It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the Death Star, an armored space station with enough power to destroy an entire planet. Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy.
+
+--From the NES Star Wars instruction manual.
+
+Overview:
+
+This game, although not an award winning piece, is worth playing. The graphics, although not the best, are a good size and look smooth. The sounds and music score are pretty good, though. The game-play varies from platform to first person pilot. You'll probably have to practice to get the feel of these. The storyline is kinda silly because they strayed from the movie that it's supposed to be based on. You have to rescue people like Obi Wan, R2, and 3PO from different systems. You do blow up the Death Star at the end though. This game is a lot of fun for anybody who likes Star Wars or video games that involve differetn types of gameplay.
+
+Directions:
+
+For the most part, the game is a typical side-scrolling platformer with two difficulty settings-the Novice Mission and the Pro Mission. Luke uses the lightsaber as his primary attack and can also use the Force to execute special maneuvers like floating, speeding and stopping time, among others. Energy to activate Force powers can be obtained through diamonds collected after killing an enemy. When the characters are rescued, they will help Luke by providing hints and other actions that are important to progress through the game.
+
+Between planets, the Millennium Falcon is forced to fight a wave of TIE Fighters that prevent it's entrance to the next planet. The game switches to a first-person shooter perspective.
+
+The final level involves using the X-Wing against the Death Star. While the film's climactic sequence occurred inside a long trench, the game's version can be roughly described as a vertically-scrolling overhead maze-like stage, complete with dead ends and intersections. At the end, there is the reactor's duct where the proton torpedoes will be shot automatically to destroy the station. If the player fails to get to the end within a limited amount of time, the Death Star will destroy Yavin IV and the game will be over.
+
+The game is particularly difficult, as the player only has three lives and two continues (activated with enough diamonds), and Luke dies upon touching an enemy. The Millennium Falcon can sustain only one hit before being destroyed, which could be prevented using one of three deflector shield bursts.
+
+Controls:
+
+A Button: Jump
+B Button: Fire, use weapon, accelerate Landspeeder
+Start Button: Pause game
+Select Button: Open select screen
+
+Hints:
+
+Come In Blasting!
+Always fire first and ask questions later. If you shoot ahead of you, chances are you will kill enemies before they appear. You have unlimited ammo and you can't hurt your allies, so blast away! 
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/star_wars.html

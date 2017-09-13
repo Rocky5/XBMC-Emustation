@@ -1,0 +1,13 @@
+Clue
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1992
+Developer: Sculptured Software
+Publisher: Parker Brothers
+Players: 1-6 Alternating
+_________________________
+Clue is a video game interpretation of the board game Cluedo (Clue in US) for the Sega Mega Drive. It was only released in North America.

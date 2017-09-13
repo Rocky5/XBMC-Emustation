@@ -1,0 +1,16 @@
+Dragon's Lair
+Platform: Nintendo Game Boy Color
+Region: USA
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Action
+Gametype: Licensed
+Release Year: 2001
+Developer: Digital Eclipse
+Publisher: Capcom
+_________________________
+Players control Dirk the Daring, a knight on a quest to rescue Princess Daphne from the evil dragon, Singe. They must negotiate their way through a mad wizard's castle, fighting and dodging traps all the way.
+
+This GBC conversion of the 1983 arcade classic is just about complete, minus one or two pieces of animation here and there, as well as a few sound files, replaced with MIDI alternatives. But the gameplay stays the same, control and press the right buttons at the same time to continue the movie, until Dirk defeats all evil standing in his way of Princess Daphne.
+
+http://www.mobygames.com/game/gameboy-color/dragons-lair____

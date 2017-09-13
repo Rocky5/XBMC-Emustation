@@ -1,0 +1,41 @@
+Sonic Eraser
+Original title: Sonic Eraser
+Platform: Sega NET
+Region: Translated (Japan)
+Media: SegaNET Download
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2004
+Players: 1 or 2
+Translated by: D
+Version: 1.0
+_________________________
+Sonic Eraser was a puzzle game that was available to owners of the Sega Meganet, a modem for the Sega Mega Drive in Japan. While it is technically a title in the Sonic the Hedgehog series, other than his sprite, there is little that relates the game with the rest of the franchise.
+
+Since the Meganet modem never achieved worldwide availability, Sonic Eraser became a "lost" Sonic game, until February 2004, when research site Sonic CulT found a copy of the ROM image through Sega's Japan-only download service.
+
+In the versus mode, when a player gets a combination of three consecutive lineups of pieces, that player's Sonic attacks the other player's Sonic. The other player momentarily loses control of his pieces.
+
+The game is on Sega's B-Club download service.
+
+Gameplay:
+
+The game offers 4 unique modes of gameplay.
+
+    - Round Mode: This is sort of a puzzle mode consisting of 10 stages (09). Each stage has a bunch of whirlybob ring shapes interspersed with other normal shapes. Just like the other shapes, the whirlybobs disappear when paired. The object is to clear them all from the play field by eliminating the shapes between them. The time limit is three minutes for each round.
+    - Normal Mode: This is just the standard low-pressure game. Play for points as long as you like. The better the player performs, the higher his or her level will rise. As the player climbs the ladder, the speed at which clusters fall increases.
+    - Doubt Mode: The rules are normal except that white squares will never fall. Instead, a single shape from almost every cluster will turn into a white square when it hits the ground.
+    - Block Mode: This mode has clusters stand on-end, allowing for massive chain reactions.
+
+This is one of many Genesis games that were recently released for online play only in Japan by Sega using their online buy and play Emulator service; this game, among others, was recently dumped by Sonic Cult. Surprisingly, this isn't a Columns or Puyo Puyo clone! You earn points by joining two tiles that have the same design. And you move them around using the pad and the buttons. And that's it. There isn't much in the game department.
+
+Except that you get to play as Sonic, against Sonic! Isn't that neat?! I know, it isn't. Oh, and most of the music really sucks. At least the game includes some instructions? if you can read Japanese?
+
+Translation Description:
+
+Well, D did a great job on this translation? there wasn't much to do anyway, just the instructions that appear in the game before starting a match. At least they mamage to make the game much more entertaining. By a bit.
+
+Reviewer: Kitsune Sniper
+http://en.wikipedia.org/wiki/Sonic_Eraser
+http://www.romhacking.net/trans/799/

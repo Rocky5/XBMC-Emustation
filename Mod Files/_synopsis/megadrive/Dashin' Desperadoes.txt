@@ -1,0 +1,13 @@
+Dashin' Desperadoes
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Racing
+Gametype: Licensed
+Release Year: 1993
+Developer: Data East
+Publisher: Data East
+Players: 1-2
+_________________________
+Dashin' Desperadoes is a 1993 platforming/racing game developed by Data East and released exclusively in North America for the Sega Genesis. The ROM's header indicates that had the game been released in Japan it may have been called Rumble Kids there, but there has yet to be any proof that plans for such a release existed.

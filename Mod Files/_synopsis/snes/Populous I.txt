@@ -1,0 +1,90 @@
+Populous
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1991
+Developer: Bullfrog Productions
+Publisher: Acclaim
+Players: 1
+_________________________
+You are a supreme being...with the power to command the forces of nature. Earthquakes, floods, volcanoes, the power to turn the very oceans into fertile plains or the plains into barren rock is yours. But such power is not limitless. Its source is in the number of your followers--the followers of Good--scattered on worlds throughout the universe. These people look to you to level their land so they can raise their crops, build towns and multiply. In return, as their number increases, so does your power to smite the enemy, the followers of Evil.
+
+The forces of darkness threaten to engulf every world in the universe. Your followers will be overrun and you with them, unless you help them prosper and grow, unless you call them to glory, to conquest, to purge the worlds of Evil.
+
+With enough power you can move the Good Papal Magnet. Place it anywhere in the world and your followers will be drawn to it, cultivating the land as they go, or confronting Evil. Make the Good people's Leader into a crusading Knight, and he will invade the enemy, attacking their people, burning towns and crops.
+
+Victory depends on the elimination of Evil. Send your people to hunt them down. Wreak havoc on them with the forces of nature. Wipe them off the face of the world, or if Good outnumbers Evil, call for Armageddon. Every person--Good and Evil--will come together for the final doomsday battle.
+
+From world to world you must go, aiding your followers, destroying the enemy. The landscapes will become increasingly formidable, the power of Evil ever greater.
+
+The Good depend on you to triumph.
+
+Oblivion awaits the loser...
+
+--From the SNES Populous instruction manual.
+
+Overview:
+
+The endless struggle between Good and Evil. In Populous, take control as the deity of Good, guiding your people as they confront the forces of Evil across hundreds of different landscapes.
+
+Directions:
+
+It's a classical religious synergy. Use your wisdom to guide, and your control over Nature to help more directly, as you build up your followers to become stronger and more, well... Populous. In turn, you gain more power and influence from the strength and numbers of your followers.
+
+Controls:
+
+A Button - Make selections, Raise Land
+B Button - Make selections, Lower Land
+X Button - Flatten Land around Settlement
+Y Button - Locate Settlements
+Start Button - Start and Pause Game
+Select Button - Access Command Icons
+
+Hints:
+
+Knights!
+A Knight is perhaps your primary weapon against Evil, as he actively seeks them out to destroy them. When you want to attack, you need the strongest Knight possible. Move your Papal Magnet to a position near the enemy land you wish to attack (remember you need a leader to do this). Then set your Influence to Go To Magnet(arrow pointing to Ankh). Use the Question Mark Icon to set the shield on the leader (first one to touch the Magnet if there wasn't one already). Watch the shield until it shows a full yellow bar for your leader, then use the Knight spell. The resulting Knight will be almost impossible to kill. It may take a little while but it's worth the wait. Also remember not to leave your Influence on that setting forever, because your walkers will never settle again. 
+
+Tips:
+
+Challenge Series Passwords:
+
+SW15H1M World #120 (Cakeland)
+B2NP4LD World #17 (Silly Land)
+S1D2LD World #325 (Piglet World)
+SC51SM4T World #375 (Grassy Plains)
+L1PH2PT World #397 (Japanesque)
+SH1DW2L5LD World #482 (Rock &amp; Lava)
+Q1Z3B5Y World #555 (Japanesque)
+B2LW2L2CK World #842 (Desert)
+H5B4P1L World #900 (Japanesque)
+N2M2K45RD World #921 (Silly Land)
+}Final Stage Password
+V4RY5ZL2N Final Stage-(World 988: Desert)
+}Your Advantange Passwords:
+GENESIS World #0
+T2M1SH5L4 World #1
+K2LL3M4 World #181 (Cakeland)
+SH1DG453T World #2
+J5S2N5ND World #244 (Silly Land)
+H3RTYD5R World #3
+M2M5M1R World #307 (Japanesque)
+H5BS5DP1L World #4
+K2LLTB1R World #405 (Bit Plains)
+B1D53TT World #462 (Piglet World)
+S1DW2L4R World #5
+B2L41H5L4 World #586 (Francais)
+SW12ND5R World #632 (Silly Land)
+S1D53T5LD World #677 (Snow &amp; Ice)
+B2NGBP1L World #712 (Rock &amp; Lava)
+E51L5PT5RY World #890 (Desert)
+
+Stage Select
+While playing Conquest Mode, select the Pause Icon and move the cursor over the map. Now hold down L and press
+A. After this, hold down R and press these buttons in the following order: Y, B, X, A and Select.  Now select the Armageddon icon. If it stays gray, the code worked. Go into the setup screen and press A next to Conquest, then select your level using the X and B buttons.
+
+Reviewer: jcooper
+http://www.consoleclassix.com/snes/populous.html

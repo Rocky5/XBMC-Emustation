@@ -1,0 +1,21 @@
+North &amp; South
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1990
+Developer: Kemco
+Players: 1-2
+_________________________
+
+Overview:
+
+Taking an extremely simplified board interface, the game features a strategic map of the USA separated into states and territories, where army units are moved around. In each state which "owns" a railway station, there is a fort, the capture of which leads to the player overtaking the whole state. Otherwise, capturing a state involves simple movement, unless there is another army "on" the state.
+
+Armies can be reinforced in two ways. By turning on an option at the main menu the player controlling the state of North Carolina will get periodic reinforcements by ship. Also, railways generate money which in turn generate soldiers. Moving their army units, the player may expand westwards into unoccupied territory. If two antagonistic armies clash, it will result in a battle.
+
+There is an option on the main menu where the player can turn off in-game missions and battles to make it purely like a board game. Whenever opposing armies meet in board-game mode, the results of the battles are randomised, although the side with the largest army is more likely to win and either army may retreat from the battle. Whenever a side attempts to capture an enemy fort or rob a train, the result is also randomised, sometimes they are successful, sometimes they are not.
+
+http://www.nesguide.com/games/northandsouth/

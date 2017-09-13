@@ -1,0 +1,14 @@
+Elevator Action EX
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Platformer
+Gametype: Licensed
+Release Year: 2000
+Developer: Altron Corporation
+Publisher: TDK
+_________________________
+Elevator Action EX has the same gameplay style as the original, only with a few differences. As Mike, Guy, or Sarah, you must obtain all secret documents, keys, and discs that are behind closed doors marked with a white exclamation mark. There are also doors with question marks which have different weapons behind them, as well as an extra health bar. Once you obtained all the items within the building, you will have to go through the building in the opposite direction twice before facing all your opponents in one room. Once you have done this, you move on to the next one, that has tougher enemies than the last one. You will always start at each building with the same weapon.
+
+http://www.mobygames.com/game/gameboy-color/elevator-action-ex

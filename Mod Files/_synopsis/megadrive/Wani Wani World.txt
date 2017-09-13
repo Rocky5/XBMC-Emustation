@@ -1,0 +1,17 @@
+Wani Wani World
+Platform: Sega Genesis / Mega Drive
+Region: Japan
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1992
+Developer: Kaneko
+Publisher: SEGA
+Players: 1
+_________________________
+Wani Wani World is a modified conversion of the 1991 Kaneko coin-op The Berlin Wall, itself based on the 1980 coin-op Space Panic. Two small dinosaurs with very large hammers, Charlie and Smiley, make their way through numerous screens of platforms and ladders filled with enemies. Their only method of attack is to bash a hole in the ground, wait for an enemy to fall into it, and then bash the enemy in the head, which causes the enemy to fall and transform into items and delicious food.
+
+There are five worlds, each with several screens and large boss at the end, as well as a minigame between worlds where bonus items can be earned. The game can be played alone or two-player cooperatively.
+
+http://www.mobygames.com/game/genesis/wani-wani-world

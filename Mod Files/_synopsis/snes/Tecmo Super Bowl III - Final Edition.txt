@@ -1,0 +1,29 @@
+Tecmo Super Bowl III: Final Edition
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1995
+Developer: Tecmo
+Publisher: Tecmo
+Players: 1 or 2 VS
+_________________________
+The full NFL license is used and the action is realistic for a side-view football game.
+
+The game is closer to the real-life sport in comparison to its NES predecessors in several ways. Each team has a playbook of 8 passing plays and 8 running plays, any one of which can be switched out and another put in its place in the middle of a game. It also included some of the more nuanced strategies of football, such as attempting two-point conversions, and onside kicks. Also setting itself apart from the NES-era games was the in-game presentation, which is more akin to the realistic "TV style" presentation of modern football games like the Madden series. After a big offensive play, or a turnover or sack on defense, a box would appear on screen with a small grayscale picture of the player involved alongside his current statistics for the game.
+
+The series' shift towards greater realism is also reflected in the game's season mode, which included a full 16-game NFL schedule and playoffs. Firstly, it records fairly detailed statistics of each game, and records and save cumulative statistics for each team in the league throughout the season. Also throughout the season the game would maintain a list of leaders across the league in each major statistical category, and would record when a player or team broke an NFL record. The rosters for each team can also be customized by the user, and the stating lineup of a user-controlled team can be changed at any point in Season mode. Tecmo Super Bowl III's season mode also features occasional injuries, which would last for varied amounts of time just as in real life.
+
+Tips:
+
+Heal an injured player
+When you start a game while one of your players is injured, go to the setup screen and then go back to the main menu, do this over and over until you see that your player has returned
+
+Hall of Fame players unlocked
+Win 3 straight Super Bowls with the same team. When you enter the 4th season have trade mode on. Now you can
+sign hall of fame players from the free agent pool.
+
+
+http://en.wikipedia.org/wiki/Tecmo_Super_Bowl_3

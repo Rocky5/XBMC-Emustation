@@ -1,0 +1,16 @@
+Blackjack
+Platform: Nintendo Entertainment System
+Region: USA (Unlicensed)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Card Game - Poker
+Gametype: Licensed
+Release Year: 1992
+Developer: Odyssey Software
+Publisher: American Video Entertainment
+Players: 1
+_________________________
+
+The game features blackjack action and a dealer who deals from 1-3 card decks. After winning a certain amount of money or losing it all, the game automatically ends.
+
+http://en.wikipedia.org/wiki/Blackjack_(video_game)

@@ -1,0 +1,16 @@
+Tonic Trouble
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Platformer
+Gametype: Licensed
+Release Year: 2000
+Developer: RFX Interactive
+Publisher: Ubisoft
+_________________________
+Tonic Trouble for the Game Boy Color is a side-scrolling platform game featuring the alien janitor Ed as the protagonist, who spilled a toxic drink on Earth. This is causing all kinds of things to mutate, so agent XYZ is ordering Ed to go clean things up. Meanwhile badguy Grock is taking advantage of the Tonic.
+
+While the story is the same as for the Windows and Nintendo 64 version, the gameplay and levels are quite different. The Game Boy Color version is completely in 2D and plays like a classic 2D platform game. Ed can walk and jump and has to avoid obstacles such as pits, falling platforms, poison spitting holes, and mutated enemies.
+
+http://www.mobygames.com/game/gameboy-color/tonic-trouble_

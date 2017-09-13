@@ -1,0 +1,15 @@
+Decap Attack
+Platform: Sega Genesis / Mega Drive
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1991
+Developer: Vic Tokai
+Publisher: SEGA
+Players: 1
+_________________________
+Decap Attack (also styled DEcapAttack) is a 1991 platforming game for the Sega Mega Drive by VIC Tokai. It is a hack of their 1990 game Magical Hat no Buttobi Turbo! Daibouken replacing everything except the basic gameplay and most of the engine (the sound driver was changed from SMPS to that used by composer Fumito Tamayama's company Graphic Research). You play as Chuck D. Head, a decapitated mummy who must defeat the forces of the evil Max D.Cap, an underworld warlord who is invading the world of the living.
+
+Gameplay is identical to that of Magical Hat.

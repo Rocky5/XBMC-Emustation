@@ -1,0 +1,27 @@
+World Heroes 2
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1995
+Developer: Alpha Denshi
+Publisher: Sunsoft
+Players: 1 or 2 VS
+_________________________
+The game plays like many other fighting games, but instead of a 6-button layout, the original World Heroes uses only 3 of the standard 4 Neo-Geo buttons: one for punching, another for kicking, and the last for throwing. The former two buttons can be held down longer in order to deliver stronger attacks, similar to the first Street Fighter control scheme, with only two levels of strength and using standard buttons instead of pneumatic buttons. In the SNES version (and later games, starting with World Heroes 2 Jet), it is possible to assign the 4 basic attacks to different buttons. In World Heroes Perfect, each character had a traditional four-button attack layout, but could also achieve stronger attacks by pushing down two respective punch or kick buttons at the same time.
+
+In World Heroes Perfect, every character has an ABC Special Move that can be activated by pressing the A, B, and C buttons at the same time. Moves vary by character, though they all require strategic use and are easy to activate, allowing for more tactical battles. For example, the character Fuuma's ABC Special allows him to fake a special move; J. Max's ABC Special allows him to catch, hold onto, and throw back projectiles; and Kim Dragon's ABC Special allows him to perform counters while blocking.
+
+Aside from the normal tournament mode, there is also a popular Deathmatch mode (which was removed in World Heroes 2 Jet and World Heroes Perfect). In it, the arenas are filled with different kinds of traps that can change conditions in the bouts or even damage the characters (such as spikes, bombs, greasy or sticky floors, etc.). Deathmatch mode may have been inspired by the growing popularity of deathmatch style professional wrestling in Japan at the time, mostly made famous by Frontier Martial-Arts Wrestling.
+
+Tips:
+
+Boss Code
+At the title screen, press Select, A, Up, R, Up, Select. You should then hear a ringing sound. Now to play as one of the bosses, hold the following buttons and go to the Player Select Screen:
+
+Hold Select and L Dio
+Hold Select and R Neo Geeguse
+
+http://en.wikipedia.org/wiki/World_Heroes_2

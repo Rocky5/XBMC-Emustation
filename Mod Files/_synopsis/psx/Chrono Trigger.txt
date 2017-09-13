@@ -1,0 +1,37 @@
+Chrono Trigger
+Platform: Playstation 1
+Region: USA
+Media: Disc
+Controller: Standard Control Pad
+Genre: Role Playing Game
+Gametype: Licensed
+Release Year: 1999
+Developer: Square Co.
+Publisher: Square Co.
+Players: 1
+_________________________
+What begins as a carefree day at the Millennial Fair for a young man named Crono turns into his ultimate adventure. When Crono meets a young girl named Marle, little does he realize that this young girl, his best friend Lucca's invention, and a mysterious pendant will thrust him into the ultimate trip through time and space, encountering new friends, defeating the forces of evil, and encountering the one who would destroy the flow of time.
+
+Chrono Trigger is a role-playing game, with the usual game mechanics fare for such: the player takes control of a variably large party, developing the combat skills of its members and managing their equipment. As the characters grow in power, not only their ability scores increase, but they also learn new "Techs" - special powerful attacks and maneuvers which cost them "Magic Points" to use in battle. 
+
+The game utilizes the ATB (active time battle) combat system from Final Fantasy games - sort of a mix of turn-based and real-time combat - adding to it combo attacks. Apart from normal Techs, it is possible to use Double and Triple Techniques - super-powerful attacks which involve two or three characters using their abilities at once. There are no random battles in the game, as all the enemies are visible on screen, and it's even possible to just pass by them entirely. 
+
+The game allows you to face your ultimate adversary at different points of time, which leads to several different endings. There is also a New Game+ option, which allows you to carry over your powerful characters to a new game, and adds even more endings to the already existing ones.
+
+
+Trivia:
+
+The game's engine featured an event tracking system, which was used to update the save screen's "chapter title", change certain characters' dialogue, and alter the maps to conform to the current point in the story. It was also used for checking bugs and consistency within the game.
+
+If events happen out of order (if the cartridge's save RAM (SRAM) is corrupt, or if the player uses a Game Genie code to walk through walls and skip over certain events, for example), a creature called a Nu will appear in front of the doorway to Epoch's construction bay in 2300 A.D. and state that the Time Axis is out of alignment. Aside from this warning, the game will still continue, cheats/hacks included
+
+The PS1 version of Chrono Trigger was rather unique technically from other SNES-PS1 Squaresoft ports.
+
+First, if you popped this CD into your PC, you'd find a file with the extension ".ROM". It's actually the Super NES version's ROM! The PS1 version uses the ROM for most of its data, while the game code is PS1 data. Changes were mostly made to have the anime cut scenes play when appropriate.
+
+While there is additional data on the disc, most of it is dummy data, but it shows (quite interestingly) that Square at first intended to fully port CT as a full-fledged PS1 game, but cut the project either due to lack of time, laziness, or both.
+
+Exactly one week after Chrono Trigger was released on the PlayStation in Japan, its sequel, Chrono Cross, was released in Japan! Chrono Trigger was released November 11th, 1999, and Chrono Cross was released November 18th, 1999.
+
+
+http://www.mobygames.com/game/playstation/chrono-trigger

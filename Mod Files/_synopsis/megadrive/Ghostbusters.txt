@@ -1,0 +1,13 @@
+Ghostbusters
+Platform: Sega Genesis / Mega Drive
+Region: World
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1990
+Developer: Compile, SEGA
+Publisher: SEGA
+Players: 1
+_________________________
+Ghostbusters is a Sega Mega Drive game developed by Compile (though they are not credited and do not credit themselves on their website, some of the names in the Production Credits are Compile employees) and Sega and released in 1990 by Sega. It is a Mega Drive exclusive - a completely different title from the Master System game with the same name despite both being developed by Compile. It is a platformer which stars the Ghostbusters Peter, Ray and Egon, though for some reason omits Winston.

@@ -1,0 +1,17 @@
+Power Monger
+Platform: Sega / Mega CD
+Region: USA
+Media: Compact Disc
+Controller: Gamepad
+Genre: Strategy
+Gametype: Undefined
+Release Year: 1994
+Developer: Sprytes
+Publisher: Electronic Arts
+Players: 1
+_________________________
+Powermonger takes the basic design and concepts of Bullfrog's previous game Populous, and places it in a war context. The game cast the player as a dispossessed warlord plundering his way through 195 territories on the way to world conquest. Several other leaders have the same goal.
+
+The gameworld is now made up of polygons, so the view can be rotated and moved with greater freedom than Populous. Trade, diplomacy, inventions, and scorched earth invasions all play a key role in how the player progressed through the game. Two-player games via modem links are available on computer versions.
+
+http://www.mobygames.com/game/sega-cd/powermonger

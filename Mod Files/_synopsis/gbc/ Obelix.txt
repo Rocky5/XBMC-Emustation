@@ -1,0 +1,15 @@
+Obelix
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1995
+Publisher: Infogrames
+_________________________
+Obelix is an Action game, published by Infogrames, which was released in Europe in 1995.
+
+I'm not sure why, but every rom titled "Asterix &amp; Obelix" for GBC is actually just "Obelix".  Even the boxart for the game says "Asterix &amp; Obelix".  ~Rx
+
+http://www.gamefaqs.com/portable/gbcolor/home/576048.html

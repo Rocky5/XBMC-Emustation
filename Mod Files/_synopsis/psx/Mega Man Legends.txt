@@ -1,0 +1,31 @@
+Mega Man Legends
+Alternative title: RockMan Dash
+Platform: Playstation 1
+Region: USA
+Media: Disc
+Controller: Standard Control Pad
+Genre: Action - Shooter - Third Person
+Gametype: Licensed
+Release Year: 1997
+Developer: Capcom Co.
+Publisher: Capcom Entertainment
+Players: 1
+_________________________
+In a world covered almost entirely in water, there exist small islands that hide huge treasures. And where there's treasure, you can find treasure hunters called Diggers, who live for the thrill of the hunt...
+
+Barrel Casket was once one of the greatest Diggers, but he has now retired. He now cares for his young granddaughter, Roll, whose parents disappeared while on a dig. He had also discovered a strange baby boy in some ruins one time, who he also took under his care alongside Roll. He named the baby boy Rock Voulnut, and Rock grew up to be an expert Digger, sometimes known by his nickname, MegaMan.
+
+While out exploring one day, Rock, Roll, and Barrel's airship, the Flutter, crash lands on an island named Kattelox. As they explore Kattelox in hopes of fixing their ship, they hear word of a huge treasure, the legendary Mother Lode, that is buried somewhere on the island. Rock, Roll, and Barrel decide to look for the treasure, but at the same time, they're going to get a little competition from a pirate family named the Bonnes...
+
+Mega Man Legends is the first of the Mega Man series to take place in fully explorable 3D, and is paced more like an RPG than the previous stage-to-stage action games. Rock can explore the town and follow the story to find entrances to the underground ruins, where in he will find traps, feral Reaverbots, and large boss robots. Destroying enemies will reward Rock with health, sub-weapon energy, and the power cores of the robots, which people in his world use as currency. By searching through the town and ruins Rock will find items of dubious use and value, and they can be brought back to Roll to be assembled into useful items and upgradable sub-weapons, although not for free. Rock can run while shooting, go into first person mode for aimed shots, and also lock onto an enemy and circle around them to avoid their attacks.
+
+
+Trivia:
+
+Yet another case of cultural deprivation by Capcom: the wonderful Japanese opening theme, "Another Sun", and the Japanese ending theme, "Your Wind is Blowing" (and NOT that wind, you sickos!), were both completely yanked out of the U.S. and European versions of Mega Man Legends. This is a crying shame, because out of all the Rockman themes, Rockman Dash/Mega Man Legends had the best opening and ending themes, next to Rockman 8's.
+
+
+The PC version of Mega Man Legends uses the exact same format for its save games as the PlayStation version. So if you have a Dex Drive and a PSX memory card with MML saves, you can extract them from the card and use them in the game! You'll need a hex editor to extract the individual saves, though.
+
+
+http://www.mobygames.com/game/playstation/mega-man-legends

@@ -1,0 +1,20 @@
+Fortress
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2001
+Developer: Pipe Dream Interactive
+Publisher: Majesco Games
+_________________________
+Fortress is a Tetris-variant puzzle game. As in that classic game, geometric pieces fall from the top of the screen and must be arranged in lines. Only instead of eliminating lines, the objective this time is to add them to the screen. The game starts with a timer (that counts a moment where neither player attack) and a castle gate falling between two flags (the opponent's flags can be seen to the left of the screen). Once placed, the remaining pieces are used to build a castle around it, as every 2x3 grid of pieces transforms into its walls. A grid of 8x3 pieces transforms into a wizard's tower that can summon a creature to attack the enemy castle.
+
+Certain special blocks add features to the building: a cannon block places a shooting cannon that starts to attack automatically the opponent's fortress. A block with a window adds one to the building. Repairing peons come out of it to help fix the damage to the castle's walls. A block with a bomb adds a cannon that fires a peon towards the opponent's castle (an aiming reticule is shown over the enemy castle to help choose the right spot). Building walls around these special blocks prevent their destruction from the enemy attack. A monster appears randomly at the bottom of the screen to attack both players.
+
+The player's goal at each level is to reach a number of score points before the opponent. The pieces can be maneuvered with the digital pad, and pressing UP on it makes them fall fast downwards. They can be rotated clockwise and anti-clockwise with the A and B buttons, respectively. Holding the R trigger allows the player to move the screen with the digital pad (for a full view of battle scene). When pressed, the L trigger destroys the top 3 rows of your castle and decreases the score.
+
+The game has three game modes: tournament, battle and blitz. They vary in the amount of seconds on the timer and the goal score. There are four themes: pre-historic, medieval, pirate and space.
+
+http://www.mobygames.com/game/gameboy-advance/fortress_

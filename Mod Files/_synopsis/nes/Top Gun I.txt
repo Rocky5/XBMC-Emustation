@@ -1,0 +1,29 @@
+Top Gun
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1987
+Developer: Konami
+Players: 1
+_________________________
+
+You are a pilot. Blow stuff up.
+
+Directions:
+
+Complete the objective given to you during your briefing. Before each mission, you can choose a missile type. The more powerful the missile, the less you have.
+
+When landing or refueling be sure to watch the instructions and follow them. Press A to Speed up and B to Slow down when they ask you to. 
+
+Controls:
+
+A Button: Fire Missile
+B Button: Shoot
+Start Button: Refuel when Low
+Select Button: Nothing
+
+Reviewer: Agoaj
+http://consoleclassix.com/nes/top_gun.html

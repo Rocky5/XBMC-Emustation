@@ -1,0 +1,38 @@
+Rygar
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1987
+Developer: Tecmo
+Players: 1
+_________________________
+
+You are Rygar, legendary hero of the land of Argool. Wielding your awesome Diskarmer which looks like a shield but works like a twirling yo-yo of death, fight your way through the evil monsters to confront Ligar, the King of Beasts!
+
+This is a really cool game with lots of great features. It is mostly a side-scrolling adventure with occasional vertical scrolling on towers a such. Also some areas have an overhead view where the action is somewhat different. There are also a lot of power-ups and items for Rygar to find which will help you progress through the game.
+
+Directions:
+
+Pressing the Start button brings up the sub-menu which is pretty confusing at first. The box on the left contains TONE which refers to the strength of Rygar's weapon, LAST which refers to his durability, and MIND which refers to capsules of spiritual power which Rygar can pick up from enemies.
+
+TONE and LAST will increase as Rygar defeats his enemies, making his weapon stronger, and when LAST reaches a high enough number Rygar gains another bubble on his energy meter (Life, hit points, whatever you want to call it). MIND capsules look like stars on the screen after you kill an enemy. You can hold up to seven capsules, and use them from the sub-menu on the right side, Potential. Choose Power Up which makes Rygar's weapon reach longer and costs 3 capsules, Attack and Assail which allows Rygar to temporarily damage every enemy on screen when he uses his weapon (costs 5), or Recover which fills up Rygar's life (costs 7). The boxes at the bottom of the sub-menu hold items Rygar can pick up in the game. On the right are items he can use all the time, on the left are items he can use from the sub-menu. Select the item and press B to use it.
+
+Press down to crouch (lots of your enemies are low to the ground). Press up or down to climb ropes. Some enemies can be stunned by jumping on them. In case of flying enemies, remember you can attack while jumping or climbing.
+
+Controls:
+
+A Button: Jump
+B Button: Attack
+Start Button: Display Sub-menu
+Select Button: Pause the game
+
+Hints:
+
+Life Meter
+Build up your life meter at the beginning of the game instead of waiting to gradually kill enough enemies. On the first stage, find a place where you can put your back to a wall (or a pit will do but if you goof you get knocked in and die). With enemies coming from only one side, you can just keep attacking until you get your life meter filled up. After that it's easier and safer to avoid most of the enemies you'll meet. This takes a while but it's worth it, and since Console Classix lets you save your game, you'll only ever have to do it once! 
+
+Reviwer: jcooper
+http://consoleclassix.com/nes/rygar.html

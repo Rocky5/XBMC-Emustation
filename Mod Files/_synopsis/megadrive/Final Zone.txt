@@ -1,0 +1,15 @@
+Final Zone
+Platform: Sega Genesis / Mega Drive
+Region: Japan, USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Isometric
+Gametype: Licensed
+Release Year: 1990
+Developer: Wolf Team
+Publisher: Renovation
+Players: 1
+_________________________
+FZ Senki Axis, called Final Zone in the US, is a 1990 game by Wolf Team for the Sega Mega Drive and Sharp X68000.
+
+You are a mech placed in several isometric-projection levels and your goal is to destroy a fixed number of targets without dying once.

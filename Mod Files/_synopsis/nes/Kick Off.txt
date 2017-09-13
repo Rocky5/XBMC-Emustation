@@ -1,0 +1,15 @@
+Kick Off
+Platform: Nintendo Entertainment System
+Region: Europe
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports - Soccer
+Gametype: Licensed
+Release Year: 1992
+Developer: Anco Games
+Publisher: Imagineer
+_________________________
+
+Kick Off was the first football game of its kind, having a top down view and unlike other football games of that time the ball was not glued to the feet of the players. Playing Kick Off requires skills in boll control. There is an option to learn these skills without being harassed by the opposition. The set pieces like corner kicks, passing, sliding tackles and dribbling can be practiced to perfection. Each player on the pitch has a unique combination of 4 attributes, namely Pace, Stamina, Accuracy and Aggression. As you progress you will need to adapt to to different types of players. You can play in a league consisting of 8 teams. The teams in the league are on the whole evenly matched but have different styles of play with players attribute to match that style. There is 12 different referees in the game.
+
+http://www.mobygames.com/game/nes/kick-off

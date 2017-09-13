@@ -1,0 +1,30 @@
+Jim Power: The Lost Dimension in 3D
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shoot 'em Up, Side-Scrolling
+Gametype: Licensed
+Release Year: 1993
+Developer: Loriciel
+Publisher: Electro Brain
+Players: 1
+_________________________
+Jim Power: The Lost Dimension in 3-D is a platform game designed by French developer Loriciel and published by Electro Brain for the Super NES in 1993. The game features several contrasting modes of gameplay, including side-view platforming, top-view, and horizontal shoot 'em up. It follows Jim Power in Mutant Planet from the Jim Power series.
+
+Jim Power: The Lost Dimension in 3-D is often considered by gaming aficionados to be one of the most difficult games ever made.[1][2] Despite its name, it is an entirely 2D game, although the game uses many layers of parallax scrolling backgrounds moving in opposite directions to give a great sense of depth. Together with the 3D glasses that were packaged with the game, designed around the Pulfrich effect, this provided a unique "3D" experience for the time when polygonal 3D graphics were rudimentary and too expensive to implement.
+
+The soundtrack was composed by Chris Hulsbeck of Turrican fame.
+
+Tips:
+
+Bonus Codes
+When you begin a game, find a place safe from enemy attacks and then press X, A, B, Y, A, B, Y, X, B, Y, X, A, Y, X, A and B on Controller 2. You should hear a tone. Now press these buttons on Controller 2 to get the respective bonus
+
+L Level Skip
+Down Nine Bombs
+Left Nine Keys
+Up Nine Lives
+Right Reset Timer
+
+http://en.wikipedia.org/wiki/Jim_Power:_The_Lost_Dimension_in_3-D

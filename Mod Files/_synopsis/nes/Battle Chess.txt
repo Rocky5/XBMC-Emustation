@@ -1,0 +1,33 @@
+Battle Chess
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Board Game - Chess
+Gametype: Licensed
+Release Year: 1990
+Developer: Interplay
+Publisher: Interplay
+Players: 1 or 2 VS
+_________________________
+
+This was a pretty good chess game. Really it was a great idea that just couldn't be handled very well by eight-bit Nintendo. The idea was to make a chess game that animates a fight scene when one player takes the other player's piece. Well, the drawback was slow gameplay with mediocre graphics. The game plays a lot better if you play on the regular board with no animations or cut scenes.
+
+Directions:
+
+Same rules as chess: defeat your opponent by trapping his king into certain death. Use the cursor to click on the piece that you want to move, then click on the space that you want to move to. If the animation seems to slow you up too much, there is a two dimensional mode. You have to start the game, then hit select to access the options menu. That is also where you have to go to set up a two player game, difficulty level, etc.
+
+Controls:
+
+A Button: Deselect Piece
+B Button: Select Piece
+Start Button: Start Game
+Select Button: Options Menu
+
+Hints:
+
+Strategy
+- Be sure not to leave a piece where it can be taken unless it's guarded by another piece.
+
+Reviewer: Adrian
+- http://www.consoleclassix.com/nes/battle_chess.html

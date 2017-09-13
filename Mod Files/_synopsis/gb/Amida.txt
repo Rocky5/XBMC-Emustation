@@ -1,0 +1,14 @@
+Amida
+Platform: Nintendo Game Boy
+Region: Japan
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1990
+Developer: Sofix
+Publisher: Coconuts Japan
+_________________________
+Amida is an Action game, developed by Sofix and published by Coconuts Japan, which was released in Japan in 1990.
+
+http://www.gamefaqs.com/portable/gameboy/home/574768.html

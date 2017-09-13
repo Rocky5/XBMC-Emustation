@@ -1,0 +1,233 @@
+Megaman X
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1994
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+THE JOURNAL OF DR. CAIN
+
+April 10th
+
+I can't believe what I found! Several meters below the surface was the remains of a lab. Although most of the lab was damaged, I did manage to find papers that indicate that it belonged to the famous robot designer, Dr. Thomas Light. I've begun to review what is left of Dr. Light's notes and it looks like he was onto a major breakthrough.
+
+April 14th
+
+Today I met "Mega Man X". Not simply a robot, Mega Man X is something totally different. Light has given him the ability to think and make his own decisions. At times, Mega Man X seems more like a man than like a machine.
+
+November 22nd
+
+With Mega Man X's help I have completed my first "Reploid". Although I don't completely understand how all of Dr. Light's systems work, I was able to make some minor modifications and the Reploid seems to be functioning perfectly. His strength and intelligence seem limitless and he is fully able to make his own decisions. In fact, we got into our first argument. How intriguing!
+
+January 3rd
+
+The new reploids have been running off the assembly line for several weeks. It's amazing how easily they have been able to adapt to even the most difficult jobs. It still is a bit odd to see them working side by side with humans, but everyone seems to be happy to accept them.
+
+February 16th
+
+Three reploids went "maverick" today and injured two people before they were stopped. This is the third instance of this type of behavior and I still have no idea what is causing it! There is some talk about stopping the assembly of any more reploids, but I don't think it will happen. Maybe we've become too dependent on them....
+
+The council has now decided to set up a group of "Hunters" to destroy any maverick before it can cause injury. The reploid named Sigma has been assigned to lead the Hunters. Sigma is one of the most intelligent reploids I've created and contains my latest circuit designs. His systems should be immune to any problems.
+
+June 4th
+
+My worst nightmare has just come true. Sigma went maverick today and took most of the other hunters with him. His motives are unclear, but it seems that he "decided" that humans are inferior and limiting the growth of the Reploids. For that reason, he decided that all humans should be eradicated.
+
+Most of the population is in hiding or trying to flee the city. I'm not sure how long we can hold out against Sigma's forces. I fear I have built the Reploids too well.
+
+Mega Man X is taking the news of the war very personally. He wants to join ZERO, the new leader of the Maverick Hunters, when he goes after Sigma. I'm doubtful of their chances, but I won't stop him. Something has to be done....
+
+--From the SNES Mega Man X instruction manual.
+
+Overview:
+
+This was one of the best games ever made for the SNES. Mega Man X took full advantage of the capabilities of the SNES in the realms of graphics, playability, sound, and controls. It was very simple to play, yet hard to master. Like most Mega Man games there were plenty of secrets to find and lots of weapons to gain (from the sub-bosses of course).
+
+This was also the first game that had Zero. Zero is another robot based on Mega Man X's design who helps in certain parts of the game. Any Mega Man fan should certainly play this game in the series along with Mega man X 2 &amp; 3. 
+
+Directions:
+
+Like most Mega Man games you must lead Mega Man through many sub boss levels in order to get to the head boss. In Mega Man X it is no different.
+
+Controls:
+
+A Button Dash
+B Button - Jump
+X Button - No use
+Y Button - Use selected weapon
+L Button - Cycle weapon list
+R Button - Cycle weapon list
+Start Button - Pause/Unpause, bring up start menu
+Select Button - No use
+
+Tips:
+
+Misc. Passwords:
+Select the password option at the title screen and enter the following in the 3X4 grid, inputting the password from left to right, starting from the top left corner:
+
+S8441 2176 4423 
+4 Sub-Tanks, All Turbo Hearts, All  Upgrades, All Bosses Defeated
+
+5724 8418 3588 
+All 4 Subtanks, no armor, no weapons, no hearts
+
+2653 3858 7584 
+All 4 Tanks, all heart tanks, and all bosses defeated.
+
+8447 4666 6156 
+All abilities, heart tanks, sub-tanks, all  bosses defeated, Zero's buster
+
+6624 5468 8588 
+All armor upgrades, subtanks
+
+4723 2486 1324 
+All Bosses Defeated-No Leg/Body/Helmet /Buster/Heart/SubTank
+
+4653 4688 7884 
+All bosses defeated 2 turbo hearts 2 subtanks
+
+2137 3188 8121 
+All bosses except Boomer Kuwanger  and Sting Chameleon dead.
+
+2556 2582 7114 
+All bosses except Sting Chameleon dead.
+
+8441 2176 4423 
+All Items All Bosses Defeated and Hadoken Fireball
+
+3676 4667 5148 
+All powerups and armor upgrades, all  bosses beaten the first time through.
+
+3748 8612 5524 
+All Subtanks &amp; Hearts, NO Armor &amp; Weapons
+
+6485 1146 2321 
+All Upgrades No bosses Defeated
+
+5583 4618 5824 
+All Upgrades, All bosses defeated, 1 turbo heart.
+
+4423 8832 7824 
+All Upgrades, Chill Penguin Defeated, Storm  Eagle Defeated
+
+8141 2136 4426 
+All weapons, sub tanks, hearts, and levels completed
+
+4764 8768 7748 
+Arm Capsule only
+
+5147 8437 4536 
+Armored Armadillo defeated
+
+7374 2268 6281 
+Beat the top half, and have collected the power  ups on the top half.
+
+4764 5788 3748 
+Body Capsule only
+
+5151 3427 4261 
+Boomer Kuwanger defeated
+
+5286 7136 5124 
+Chill Penguin and Storm Eagle dead.
+
+4768 7258 1871 
+Chill Penguin Defeated
+
+5337 5377 4171 
+Chill Penguin, Storm Eagle, and Flame Mammoth dead.
+
+2147 5277 1281 
+Chill Penguin, Storm Eagle, Flame Mammoth, and Spark Mandrill dead.
+
+6431 5168 8171 
+Chill Penguin, Storm Eagle, Flame Mammoth, Spark  Mandrill, and Armored Armadillo dead plus slide ability and head capsule.
+
+2656 5112 3164 
+Chill Penguin, Storm Eagle, Flame Mammoth, Spark  Mandrill, and Armored Armadillo dead.
+
+7431 3842 8523 
+Everything unlocked except no beaten Sigma
+
+8437, 2788, 8161 
+everyone accept sting chameleon defeated, 6 heart  tanks, 3 armor upgrades, and 3 sub-tanks
+
+8441 2336 2421 
+Everything obtained except Leg Capsule
+
+3733 6838 8744 
+Final Sigma Level/Last Battle
+
+1764 1488 7748 
+First mini-level beaten
+
+1573 5232 7264  Flame Mammoth defeated
+
+1447 1838 1271 
+Full armor, 2 hearts, 2 sub-tanks, Chill  Penguin, Storm Eagle and Flame Mammoth defeated
+
+5447 4177 4536 
+Get an extra life tank
+
+5778 8422 3577 
+Have all your powers, Sub takes, and Heart Takes at the first level.
+
+6111 8747 4181 
+Have Storm Eagle, Flame Mammoth, Chill  Penguin, &amp; Boomer Kuwangtang dead w/ chest, helmet,  arms, leg upgrades, 1 sub-tank, &amp; a turbo heart
+
+4664 1718 7748 
+Head Capsule only
+
+1556 6642 7448 
+Launch Octopus defeated
+
+5382 8566 2656 
+Leg Dash No bosses Defeated
+
+4425 7272 3821 
+Leg Dash, Helmet Enhancement, No Bosses Defeated
+
+1422 1412 7756 
+Leg Dash, Helmet enhancement with no bosses defeated
+
+2653 7248 6488 
+No Leg Dash, Chill Penguin Defeated
+
+5385 7136 6321 
+Opening Stage beat
+
+5131 7358 4181 
+Spark Mandrill defeated
+
+5385 7136 6861 
+Sting Chameleon defeated
+
+6483 7376 5124 
+Storm Eagle defeated
+
+3475 5668 2581 
+To have all Turbo Hearts, all Sub-Tanks, and  all Armor Upgrades with no bosses defeated
+
+Zero's Buster
+This is done by not getting the arm Power up in Flame mamoth's stage, Go to Sigma stage 1 and when Zero will die he will give you his buster.
+
+Subtank Glitch
+Get three sub-tanks and make sure one of your special weapons has less than full power. Then, with the weapon
+that has less than full power selected, grab a weapon capsule and immediately hit start. If you did it right, you'll have a fourth sub-tank. Fill it using the same method, just don't over fill or you'll delete it and your third one. It recovers health just like the a normal one.
+
+Mega Man Fireball
+Must have Heart Tanks, Sub-Tanks, enemy weapons, and power-ups. Then, go to Armored Armadillo's level. Reach
+the final mine cart, which launches you through the air at the end of the level. Just before you reach the wall, jump up and climb the wall. At the top, there will be a large Energy Unit. Get it, and then jump into the pit and die. Repeat this step five times.  On the fifth time through, a capsule will appear on that same ledge. Dr. Light will then give you a Ryu-style fireball for Mega Man to use.
+
+Stage Secrets
+Some stages are a little different if you beat a certain boss first. If you beat Chill Penguin, the Lava in Flame Mammoth's stage will be frozen. If you beat Storm Eagle, the lights in Spark Mandrill's stage will flicker on and off. If you beat Launch Octopus, Sting Chameleon's stage will be partially flooded.
+
+Stronger normal shots
+Dash while firing your uncharged X-Buster to cause the shot to deal double damage. This is useful when you don't have time to wait for a shot to charge.
+
+http://www.consoleclassix.com/snes/mega_man_x.html

@@ -1,0 +1,17 @@
+Batman [Easy]
+Original title: Batman
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Release Year: 2008
+Hacked by: Deespence2929
+Version: 1.0
+_________________________
+This is a hack which aims to make the Batman for NES game much easier and beatable then it originally was. I found the original to be very fun, yet difficult to beat. With this hack it's much more possible to beat the game in one set of lives.
+
+I edited most of the levels (including boss levels) to make them easier and have some alternate shortcuts to them rather than having to always progress through the levels on a set path. I also removed several traps and added platforms to help avoid them. Enemy health has also been adjusted to make them easier to defeat. Some bosses it is more noticable, especially the final 2 bosses where I felt the battles were too difficult. Joker takes only a few hits to defeat, as he does in the movie. I also increased the amount of weapon ammo you get from powerups and also the health given by health powerups.
+
+http://www.romhacking.net/hacks/367/

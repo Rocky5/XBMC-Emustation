@@ -1,0 +1,14 @@
+Cool Bricks
+Platform: Nintendo Game Boy Color
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Color
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1999
+Developer: Freestylez
+Publisher: SCi
+_________________________
+Cool Bricks is a Breakout-style game, updated for the modern market. Players use the bat and ball to smash all the breakable bricks to complete each level. Cool Bricks also features a wide range of power-ups including the Ghost, Ninja and Poison. New technological tricks allow for high-colour screens and in excess of 150 levels. The game also features a durable High-Score board.
+
+http://www.mobygames.com/game/gameboy-color/cool-bricks

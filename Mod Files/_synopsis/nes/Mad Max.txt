@@ -1,0 +1,23 @@
+Mad Max
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1990
+Developer: Mindscape
+Publisher: Mindscape
+_________________________
+
+Mad Max is based on the film Mad Max 2: The Road Warrior. The object is to survive life after the end of the world by battling survivalists and collecting valuable food, water, gasoline, and money in order to continue racing into the desert wasteland that lies beyond.
+
+The player begins the game in Max's Pursuit Special (his famous car featured in the movie series). As the player drives through the non-linear stage (referred to as a Road War), they encounter enemy vehicles, roadblocks, and dynamite-hurling bunkers. The player is given a very limited supply of dynamite to be used on these threats by throwing it directly at them. In each level, a small, run-down service station can be found, offering goods such as fuel and dynamite, as well as auto repair services in exchange for food and water.
+
+Scattered throughout the levels are abandoned mines, marked by a small shed. By driving into the shed, Max will leave his vehicle and enter the mine. While inside the mine, Max may explore the area in a pseudo-3D environment. Food, water, fuel, and ammunition may be found inside the mines. Enemy survivalists are also present inside the mine, and will protect the items found within, however Max is armed with a shotgun, which also has limited ammo. Additional ammo may be found inside the mine.
+
+The main goal of each level is to enter the arena and battle the enemy gangs. The player must gather enough food and water to trade at the service station for an Arena Pass. Once the pass is obtained, the player must find the Arena, which appears as a large cave. Once inside the arena, the player must be the last vehicle to survive the demolition derby inside. Enemy vehicles drive around the arena and attempt to push the player, as well as each other, off of the road into the abyss below. In addition, several areas of the floor open up at random, leaving vehicles to fall into the pitfall. Once all enemy vehicles are destroyed, the player advances to the next Road War level of the game.
+
+After the third and final arena battle, you will engage in a one-on-one crossbow battle with the final boss of the game. The crossbow and ammo are both collected within the mines on the third Road War level.|
+
+http://en.wikipedia.org/wiki/Mad_Max_(video_game)

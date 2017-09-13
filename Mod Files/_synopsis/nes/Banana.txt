@@ -1,0 +1,17 @@
+Banana
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1986
+Developer: Victor Musical Industries
+Publisher: Victor Musical Industries
+_________________________
+
+In this puzzle game, you have to navigate a mole through various levels, making it to the exit. The task is not as simple as it sounds. First, the mole cannot jump or climb up unless there is a ladder nearby. So you have to plan your route ahead, otherwise you can get stuck at the bottom. Second, boulders will fall and block your way. And third, you have a wife. You should first find her, and then lead her securely to the exit. The wife will sometimes make things harder, forcing you to find alternate ways to the exit. But sometimes she'll also be helpful, pushing away boulders and clearing the road for you.
+
+On every level, there is also various food scattered around, primarily bananas. You'll be able to complete a level if you have gathered enough of those fruits. You'll also gain superpowers from bananas that will allow you to skip level sections that you find too difficult. The entire game is played only with the four directional buttons. There are no enemies and you cannot die - although you can get irrevocably stuck, in which case you'll have to restart a level.
+
+http://www.mobygames.com/game/nes/banana

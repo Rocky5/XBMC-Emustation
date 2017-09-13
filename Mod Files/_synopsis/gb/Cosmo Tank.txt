@@ -1,0 +1,14 @@
+Cosmo Tank
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1990
+Developer: Asuka Technologies
+Publisher: Atlas Co.
+_________________________
+Cosmo Tank is a Shoot-'Em-Up game, developed by Asuka Technologies and published by Atlus Co., which was released in 1990.
+
+http://www.gamefaqs.com/portable/gameboy/home/585673.html

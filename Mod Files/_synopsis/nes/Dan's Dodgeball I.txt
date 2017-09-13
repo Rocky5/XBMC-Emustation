@@ -1,0 +1,19 @@
+Dan's Dodge Ball
+Original title: Honoo no Doukyuuji: Dodge Danpei
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Sports > Dodgeball 
+Gametype: Translated
+Release Year: 2008
+Translated by: TransGen
+Version: 1.0.b
+_________________________
+Translation Description:
+
+This patch completely translates this great card-based dodge ball game. We had some problems with some ram/tile values, but it's nothing important.
+
+As an update, I've fixed some values that gave some display problems on some emulators.
+
+http://www.romhacking.net/trans/1255/

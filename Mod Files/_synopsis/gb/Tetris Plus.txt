@@ -1,0 +1,14 @@
+Tetris Plus
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1996
+Developer: Natsume
+Publisher: Jaleco Entertainment
+_________________________
+This is yet another updated version of Tetris which was released for PlayStation, Saturn, and Game Boy. This version features Classic mode, Puzzle mode, Versus mode, and Edit mode. In Puzzle mode, you must save the professor who climbs his way to the top. In order to do that, you must clear the blocks away and bring him to the bottom. Versus mode brings you head to head with another player. Edit mode allows you to create and save your own custom levels.
+
+http://www.mobygames.com/game/gameboy/tetris-plus

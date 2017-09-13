@@ -1,0 +1,19 @@
+Dragon Scroll: Ressurection of the Demon Dragon
+Original title: Dragon Scroll: Yomigaerishi Maryuu
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Role Playing Game 
+Gametype: Translated
+Release Year: 2008
+Translated by: KingMike's Translations
+Version: 1.0
+_________________________
+Translation Description:
+
+Dragon Scroll is an action-RPG much in the vein of the original Zelda. Three thieves have stolen the eight Magic Books sealing the evil in the world. You, the Gold Dragon must assume the form of the hero Feram and get those books back. Much like Zelda, finding out what you're supposed to do is probably the hardest part.
+
+This patch should be complete, down to an Easter egg I just found out about from a Japanese video. I did have to fix up some of Konami's bugs in the text window drawing routines. I partially added SRAM support to help out with the translation, but if you'd like to use it, see the readme.
+
+http://www.romhacking.net/trans/1267/

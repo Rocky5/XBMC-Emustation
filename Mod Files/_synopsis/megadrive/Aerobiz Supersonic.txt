@@ -1,0 +1,13 @@
+Aerobiz Supersonic
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1994
+Developer: Koei
+Publisher: Koei
+Players: 1
+_________________________
+Air Management II: Koukuuou o Mezase is an airline business simulator by Koei and the sequel to Aerobiz, which are both part of their Executive Series. It was first released in 1993 on the NEC PC-98 before being ported to a variety of platforms, including to the Sega Mega Drive in 1994. Western releases called the game Aerobiz Supersonic.

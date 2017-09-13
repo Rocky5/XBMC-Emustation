@@ -1,0 +1,38 @@
+The Legend of Zelda
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1987
+Developer: Nintendo
+Publisher: Nintendo
+Players: 1
+_________________________
+
+Overview:
+
+In one of the darkest times in the Kingdom of Hyrule, a young, pointy-eared boy named Link takes on an epic quest to restore the fragmented Triforce of Wisdom and save the Princess Zelda from the clutches of the evil, power-hungry Ganon.
+
+The Legend of Zelda for the NES marks the first action-adventure title of the popular Nintendo series. Players must make their way through the various forests, graveyards, plains, and deserts of the Overworld to find the secret entrances of the eight dungeons in an attempt to piece together the broken Triforce. Once all pieces are joined, Link will be able to gain entry to Death Mountain, home of Ganon, and prison of Princess Zelda.
+
+The Legend of Zelda is known for several factors that were revolutionary at the time: A full world that could be freely explored, power-ups that would permanently enhance your character's abilities, and a battery back-up save feature that allowed players to retain their progress instead of having to start over. The gameplay balanced out frequent action sequences with discovery, secrets, and exploration.
+
+Controls:
+
+A Button: Input letter on Register Screen, Use Sword
+B Button: Backspace on Reg Screen, Use selected item
+Start Button: Items Menu
+Select Button: Select game file, Pause
+
+Hints:
+
+Save game
+Press Start on Controller #1 to bring up the pause menu. On Controller #2, press Up and A, then a screen with the options 'Continue, Save, Retry' will show up.
+
+Second Quest
+To start your game in the second quest, enter your name as "ZELDA".
+
+Reviewer: Adrian
+http://consoleclassix.com/nes/legend_of_zelda.html

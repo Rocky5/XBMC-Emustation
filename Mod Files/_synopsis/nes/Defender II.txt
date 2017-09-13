@@ -1,0 +1,39 @@
+Defender II
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1981
+Developer: Vid Kids
+Publisher: Williams
+Players: 1 or 2 Alternating
+_________________________
+
+Star date 7211, the distant planet, Ligaras, is being attacked by alien marauders. The residents of Ligaras are being abducted and turned into mutants. You as the top gun of the Defender team, must save these people. The aliens are mean and vicious. You must fight with Landers, Mutants, Yllabian Space Guppys, and more. There is a special gate in each screen which you can warp into the other side of the planet. You meet more enemies there to fight. You are the only one who can save the planet, battle with aliens at the speed exceeding the speed of light, in dark unknown space.
+
+--From the NES Defender 2 instruction manual.
+
+Overview:
+
+Defender is one of the biggest classics of all time. You get to defend the whole planet from the attack of aliens. Who could ask for more? This port onto the Nintendo was great. The graphics and controls were upgraded, but not too much so it still had that old arcade feel. I liked how you could actually see the alien craft picking up the innocent bystanders and carrying them off. You could still shoot the craft, but be careful not to hit the person being abducted. Play Defender and relive the past in style!
+
+Directions:
+
+Save the people of your planet from being abducted by Aliens! Kill the Aliens!
+
+Controls:
+
+A Button: Shoot
+B Button: Bomb
+Start Button: Start/Pause
+Select Button: Select
+
+Hints:
+
+Smart Bombs
+- Be sure to save your smart bombs for when you really need them. The bombs you start with are all you will get.
+
+Reviewer: Adrian
+http://www.consoleclassix.com/nes/defender_2.html

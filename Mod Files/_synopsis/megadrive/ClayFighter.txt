@@ -1,0 +1,15 @@
+ClayFighter
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: VS Fighter
+Gametype: Licensed
+Release Year: 1994
+Developer: Visual Concepts
+Publisher: Interplay
+Players: 1-2
+_________________________
+ClayFighter, is a fighting game developed by Visual Concepts and published by Interplay in 1994 for the Sega Mega Drive. This game is a port from the Super Nintendo, with several gameplay changes taken from the updated SNES version, Clay Fighter: Tournament Edition. The game was most known for its colorful graphics, with each character rendered from clay to give the game its unique look.
+
+The game features eight playable characters, battling each other to become the 'King of the Circus'. The one-player game has the selected character battle through several matches, including a few rematches against previously beaten opponents, before fighting the game's final enemy, N. Boss. Each character has a set of special moves performed with special button combinations. When a character receives heavy damage, the word 'KO!' will appear above them, if they are hit with a special move during this time, they will take extra damage.

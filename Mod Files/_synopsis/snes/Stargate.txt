@@ -1,0 +1,47 @@
+Stargate
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Movie Adaption
+Gametype: Licensed
+Release Year: 1995
+Developer: Probe Entertainment
+Publisher: Acclaim
+Players: 1
+_________________________
+Based on the movie of the same name, A mystical circular portal called a "Stargate" has been uncovered. In attempting to unlock it's secrets, it's power is unlocked creating a passageway to a different world named Abydos. A special forces team is sent to the new world to investigate but is soon ambushed and it's supplies taken including a powerful nuclear bomb.
+
+As Colonel O'Neil, a variety of objectives must be met starting with the recovery of supplies and the finding of other teammates, including civilian archaeologist Daniel Jackson. Once regrouped, O'Neil must lead the attack on the god, Ra and escape back to Earth before the power of the nuclear bomb can be unleashed on this new world.
+
+The game is a side-scroller platform adventure. The player controls O'Neil on a variety of objectives and is armed with a rifle weapon and grenades. Embarking through desert, caverns and nomad towns... eventually to the palace of Ra.
+
+Tips:
+
+Passwords:
+
+Door, Beetle, Foot, Water, Eye, Beetle, Water 
+Arm the Nagadans
+
+Door, Triangle, Door, Water, Triangle, Beetle, Eye 
+Do battle with Ra
+
+Water, Triangle, Foot, Eye, Blank, Foot, Water 
+Fight Anubis
+
+Water, Beetle, Foot, Eye, Beetle, Beetle, Eye 
+Find marines
+
+Water, Triangle, Beetle, Water, Blank, Door, Water 
+Rescue Sha'uri
+
+Water, Triangle, Beetle, Water, Beetle, Blank, Eye 
+Shoot the traitors
+
+Door, Beetle, Foot, Water, Blank, Door, Eye 
+Steal alien weapons
+
+Water, Triangle, Beetle, Eye, Blank, Blank, Water 
+Through the east gate
+
+http://www.mobygames.com/game/snes/stargate_

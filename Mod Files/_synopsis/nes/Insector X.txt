@@ -1,0 +1,17 @@
+Insector X
+Platform: Nintendo Entertainment System
+Region: Japan
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1990
+Developer: Taito Corporation
+Publisher: Taito Corporation
+_________________________
+
+Mecha Insect forces collide in this side-scrolling shooter, set in a garden, passing buildings and other scenery. Fight wasps, bees and flies to decide the fate of the back yard.
+
+There are three skill levels, with more enemies on the higher ones, and each level ends with a boss. As well as your main weapon, who can collect power-up tokens for special weapons, which are made available randomly.
+
+http://www.mobygames.com/game/nes/insector-x

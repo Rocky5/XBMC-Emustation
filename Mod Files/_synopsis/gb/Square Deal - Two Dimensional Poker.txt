@@ -1,0 +1,13 @@
+Square Deal: Two Dimensional Poker
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Card Game - Poker
+Gametype: Licensed
+Release Year: 1992
+Publisher: DTMC
+_________________________
+Square Deal is a card based game based on poker. 52 cards are shuffled and then the top 4 cards are shown. The cards drop from the screen 1 at a time. There is a 5 x 5 grid that these cards are put into. In order to get the cards to disappear a poker hand must be lined up. Hands can only appear vertically or horizontally. The objective is to eliminate all 52 cards. If this is done, you advance to the next level. Levels differ in difficulty by speeding up the descent of the cards and limiting the amount of time you can pause the game to make decisions.
+
+http://www.mobygames.com/game/gameboy/square-deal

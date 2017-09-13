@@ -1,0 +1,16 @@
+Tyrian 2000
+Platform: Nintendo Game Boy Advance
+Region: Prototype (USA)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Shooter
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Eclipse Productions
+Publisher: Symmetry Entertainment
+_________________________
+The original Tyrian was a shoot 'em up developed for the PC by Eclipse Productions (later named World Tree Games) and published in 1995 by Epic MegaGames. A version of Tyrian 2000 was in development for the Game Boy Advance, but after the then publisher Symmetry Entertainment had closed business, the European publisher Stealth Productions, Inc. (Stealth Media Group, Inc.) obtained the publish rights, but it was cancelled. The game was eventually leaked online as a rom.
+
+2 Sidekick weapons can be fired at the same time. Super Arcade and audio are not included. New to this game is Challenge mode, where additional levels are unlocked by completing existing Challenge levels. 
+
+http://www.unseen64.net/2009/05/16/tyrian-2000-gba-cancelled/

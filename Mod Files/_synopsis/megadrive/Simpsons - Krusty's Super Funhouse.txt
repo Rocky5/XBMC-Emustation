@@ -1,0 +1,23 @@
+Simpsons: Krusty's Super Funhouse, The
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Adventure
+Gametype: Licensed
+Release Year: 1993
+Developer: Fox Williams
+Publisher: Acclaim Entertainment
+Players: 1
+_________________________
+Krusty's Fun House (also released as Krusty's Super Fun House) is a video game based on the cartoon series The Simpsons. The player directs small rats to an extermination area through complicated maze-like levels. The game was released in 1992-1993 for the Amiga, NES, IBM PC, Sega Master System, Game Boy, Super NES, and Mega Drive/Genesis. Originally named Rat-Trap, it was developed by Fox William for the British software house Audiogenic, who licensed it to Acclaim Entertainment, the US-based publishers of a range of games based on The Simpsons. Acclaim published the console versions, and sub-licensed the home computer versions to Virgin.
+
+Gameplay:
+
+The player controls Krusty the Clown who must navigate through his Krusty Brand Fun House. Each level is a puzzle in which a number of rats must be exterminated. Using different objects and obstacles, Krusty must create a path for the rats to follow, and guide them towards an extermination device. Other creatures such as snakes and flying pigs attempt to hinder Krusty's progress by injuring him; he must throw pies in order to defeat them.
+
+In each stage the extermination devices are run by a different character, including Bart, Homer, Corporal Punishment, and Sideshow Mel.
+
+The game has a password system, notably all the passwords are the names of actual Simpsons characters. The only exception is the best password in the SNES game, which is "_Joshua_", a reference to the film WarGames.
+
+http://en.wikipedia.org/wiki/Krusty%27s_Fun_House

@@ -1,0 +1,28 @@
+Prehistorik Man
+Platform: Super Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Licensed
+Release Year: 1996
+Developer: Titus Software
+Publisher: Titus Software
+Players: 1
+_________________________
+The game is a simple platform game where the player walks and jumps his/her way through the levels and whacks enemies in the head with a club. Points can be collected by both whacking enemies and collecting items (including food, diamonds, video games, etc). The levels contain hidden food items which can be discovered by hitting the right spots with the club.
+
+The creators added a lot of detail to the game, which indeed increases the entertainment factor. If the player runs for a long distance and then stops, the caveman will be out of breath. Also, without drinking for a long time, the caveman's lips will turn purple.
+
+Controlling the game is very simple, with only the four arrow keys for movement and the space bar as attack button.
+
+Tips:
+
+Stage Select/Skip
+From the title screen, choose 'Options'. Highlight the 'Exit' option, then hold L and press Start. Back at the title screen, with 'Game Start' highlighted, hold R and press Start. The game will begin.
+
+To access the stage select screen, press Start to pause the game, then press Select. Choose a stage from the list (there are more pages if you scroll down) and press B or Start to begin there.
+
+To skip to the next level (or to see the ending when you're at the last level) press Select during gameplay.
+
+http://en.wikipedia.org/wiki/Prehistorik_Man

@@ -1,0 +1,39 @@
+Sonic: The Lost Land
+Original title: Sonic the Hedgehog
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2007
+Players: 1
+Hacked by: Shadow Fire, Cinossu, drx, Jman,
+Version: 4
+_________________________
+Sonic: The Lost Land is a hack of Sonic the Hedgehog for the Sega Mega Drive by Shadow Fire. The game is comprised of 7 levels, each filled with traps and badniks intent on bringing down Sonic once and for all. There is also a special realm consisting of 6 Chaos Emeralds. If you have collected at least 50 rings by the time you finish the level, you will see a giant ring. Jump into it to be taken to the secret realm. A dynamic palette system is set up , making each act load its own palette (a la Knuckles' Chaotix), as well as a dynamic music system, allowing each act to load its own music. 
+
+Story
+
+The Lost Land. A beautiful island paradise, once inhabited by creatures known only as the ancients. Unfortunately, it has recently come under threat by the mechanic menace known as EggRobo. Sonic knows that EggRobo must be stopped, and with the help of Shadow, who is contemplating his future, he sets off to put an end to the mech's plans.
+
+Characters
+
+Sonic - The Lost Land allows for two playable characters, with the evil Dr Eggman as the antagonist.
+
+Sonic the Hedgehog
+
+Sonic is a blue, 15-year-old hedgehog who lives on the planet Earth. He has the ability to run at supersonic speeds, hence his name. He is always running all over the world, rarely stopping for anything. He is carefree and relaxed; however, he is also very intolerant of injustice, and he will do anything he can to help those in need. He has also got a quick wit, short temper, and a fairly large ego.
+
+Shadow the Hedgehog
+
+Shadow is the ultimate life form experiment, a joint-creation of Professor Gerald Robotnik and Black Doom aboard the space colony ARK. His exact age isn't approximated, but he is assumed to be around 50 years old. Once hungry for revenge after the death of Maria, Gerald's granddaughter, he is now aware of his past, and who he "is." He prefers to be a loner, but he occasionally tags along with Sonic and his friends when Eggman is up to no good. He is black, with red stripes down his spines and arms. He uses his ability, Chaos Control, to harness the powers of the Chaos Emeralds to enhance his natural abilities. While he is unable to move very quickly on his own, he possesses fire-powered jet skates, which allow him to move much faster than he would be able to without them.
+
+Please note: Shadow is not available in the current or previous releases of this hack.
+
+EggRobo
+
+Created by the evil genius scientist Dr. Eggman, the EggRobo was originally a decoy to trick Knuckles into trusting Eggman, who then attempted to steal and harness the power of the legendary Master Emerald. However, after malfunctioning, he intends to destroy all organic life on Earth, starting with Sonic the Hedgehog. 
+
+For more instructions go to this website:
+http://info.sonicretro.org/Sonic_-_The_Lost_Land

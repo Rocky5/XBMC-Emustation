@@ -1,0 +1,15 @@
+Kirby's Block Ball
+Platform: Nintendo Game Boy
+Region: USA
+Media: Cartridge
+Controller: Gameboy
+Genre: Action
+Gametype: Licensed
+Release Year: 1996
+Developer: HAL Labs
+Publisher: Nintendo
+Players: 1
+_________________________
+Kirby takes on a new challenge, blockball. The playing field contains a variety of blocks, and using Kirby's rolling technique, you must set him into motion (with paddles situated around the field of play, similar to pinball) to clear the blocks from the field. Each level contains more and more blocks to clear, and after a few rounds you take on boss characters in a one-on-one round to see if you can clear more blocks.
+
+http://www.mobygames.com/game/gameboy/kirbys-block-ball

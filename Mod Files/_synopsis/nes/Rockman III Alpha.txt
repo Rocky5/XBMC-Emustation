@@ -1,0 +1,14 @@
+Rockman 3 Alpha
+Original title: Rockman 3
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1
+Hacked by: Smart Apple
+_________________________
+The only completed Rockman 3 Hack created by a Japanese ROM-Hacker named Smart Apple. It has level layouts and a few palette changes. The hack is extremely difficult. Players are frustrated when playing this hack because the damage sets are too high.
+
+http://www.datacrystal.org/wiki/Rockman_3_Alpha

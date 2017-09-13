@@ -1,0 +1,21 @@
+Super Buster Bros.
+Alternative title: Super Pang
+Platform: Super Nintendo Entertainment System
+Region: USA, Europe
+Media: Cartridge
+Controller: Gamepad
+Genre: Action, Fixed
+Gametype: Licensed
+Release Year: 1992
+Developer: Capcom
+Publisher: Capcom
+Players: 1
+_________________________
+The object of the game is to use your gun to pop bubbles that bounce around your screen. There are two different modes in this game: Panic Mode or Arcade Mode. When a player pops a bubble, it splits into two smaller bubbles. This happens repeatedly, but eventually, the bubbles get so small that they pop when shot. Occasionally, monsters will walk or fly on to the screen, these can be seen as a help or harm to the player. When the player touches a monster, they die, but monsters can pop bubbles. This is the next part of super pang with added stages. Although the Super Buster Bros. arcade game allowed two players to play simultaneously, the Super Nintendo version has only one player mode.
+
+Tips:
+
+Level Select (press up or down to select)
+At the game select screen press: L, R, R, L, Up, Down
+
+http://en.wikipedia.org/wiki/Super_Buster_Bros.

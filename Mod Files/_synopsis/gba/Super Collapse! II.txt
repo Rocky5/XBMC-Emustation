@@ -1,0 +1,32 @@
+Super Collapse! II
+Platform: Nintendo Game Boy Advance
+Region: USA
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2004
+Developer: GameHouse
+Publisher: Majesco Games
+_________________________
+The game concept is that you have to eliminate clusters of at least 3 blocks with your mouse, but the more you remove at once, the more you score. Once that happens, all blocks above the ones, which have vanished, will fall down and close the gap.
+
+Beneath the lowest row, there you see the new row building up. Once all blocks are present, this row will be now the lowest row, while all others are moving up. Once one block reaches the top of the playfield, you loose.
+
+Each individual level has a preset value of rows, which will build up. To win a level, all you have to do, is to prevent that a full vertical row (from bottom to top) gets stacked up.
+
+The game offers 4 game modes: Traditional, Puzzle, Relapse, and Strategy. Two of them need a brain, while the other two just need a fast hand.
+
+Traditional works like explained above. New rows show automatically, with increasing speed not only from level to level, but also in a level. Means: the level starts slow, but in the end, new rows will complete every second. Power-Ups are available in this game mode.
+
+Relapse works exactly like Traditional, but with one major difference. The action isn't just limited to the bottom of the playfield, in fact, both bottom and top now filling with blocks. Power-Ups used on one side affecting both. How to win is the same, but you loose, when blocks from one side touching the other.
+
+Strategy is one of the two game modes where you must think. Clicking fast will only help to see the Game Over screen. New rows won't appear automatically, instead for each cluster you remove, a full new line will appear. So you have to plan carefully before neutralizing a cluster.
+
+Puzzle is the game mode, where no new lines appear. Also there are no Power-Ups here. But this is the most complex game mode. Your task is to completely remove all blocks, if at least one block is still available, you loose. There is also no time limit, so you can think as long as you want.
+
+The first three game modes offering bonus levels, which works like the Puzzle mode. So, if one block remains, you only scoring the normal points for removed clusters. Only when all blocks are removed, you score the bonus points. There are only two differences: it isn't so complex, and you only have 15 seconds time.
+
+There are 5 different Power-Ups in the game (2 good, 2 bad, 1 depending of the situation): Platform Block (won't move, just blocking the vertical row where it is), Indestructible Block (does move like a regular block, but can't removed with normal actions), Color Bomb (one of each of the 5 colors, will detonate all same colored blocks in it's big radius), Super Bomb (shorter range than the Color Bomb, but blow up all blocks, regardless the color; only way to remove Platform/Indestructible Blocks), and finally, the Gravity Block (only available in Relapse Mode, will shift all blocks from the side where it was activated to the other side).
+
+http://www.mobygames.com/game/gameboy-advance/super-collapse-ii

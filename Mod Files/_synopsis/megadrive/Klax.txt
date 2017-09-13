@@ -1,0 +1,15 @@
+KLAX
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1991
+Developer: Atari Games
+Publisher: Tengen
+Players: 1 or 2 VS
+_________________________
+Klax is a straightforward puzzle game developed by the Tengen who licensed it from the Atari Games Corporation. Most remember it because of its edgy catch phrase, "It is the Nineties and there is time for Klax."
+
+Basically, you have to clear the blocks while the fall which is called a Klax when you line up three of the same color vertically, horizontally or diagonally. The main difference from most puzzle games is that you can see more than one of them as they fall end over end down a slope.

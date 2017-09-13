@@ -1,0 +1,17 @@
+Cadillac
+Platform: Nintendo Entertainment System
+Region: Translated (Japan)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle 
+Gametype: Translated
+Release Year: 2009
+Translated by: Gil Galad
+_________________________
+Transtlaion Description:
+
+Cadillac is a puzzle card game featuring several women that try to take every last bit of money from you. The object of the game is to clear all of the cards at the end of the deck, which can be pretty tricky. During the game, you have cards that come down from the top and make their way to the bottom where you position them to make poker combinations, like three of a kind, 4 of a kind, 5 of a kind, flushes and straights. There are 10 levels to beat in this game. Your reward on a few levels is to see a full screen view of one of the women that host the game. This game is a one or two player game.
+
+There are glitches and flickering in this game that are normally in the non-hacked version of the ROM.
+
+http://romhacking.net/trans/1374/

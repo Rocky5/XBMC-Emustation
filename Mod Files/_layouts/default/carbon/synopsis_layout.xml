@@ -42,15 +42,32 @@
 	<texture>layouts/$INFO[Skin.String(emuname)]/art/system_art_small.png</texture>
 	<animation effect="fade" start="100" end="100" time="0" condition="true">Conditional</animation>
 </control>
-<!-- synopsis image -->
-<control type="image">
+<!-- synopsis -->
+<!-- This is the games publisher, how many players eg... -->
+<control type="textbox">
+	<posx>332</posx>
+	<posy>160</posy>
+	<width>412</width>
+	<height>210</height>
+	<font>size_15</font>
+	<textcolor>FF969696</textcolor>
+	<align>left</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[B][UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE][/B]</label>
+</control>
+<!-- This is the game description and hits eg... -->
+<control type="textbox">
 	<posx>32</posx>
-	<posy>158</posy>
+	<posy>395</posy>
 	<width>723</width>
-	<height>472</height>
-	<aspectratio>stretch</aspectratio>
-	<texture background="true">special://xbmc/_tbns/$INFO[Skin.String(emuname)]/$INFO[Skin.CurrentTheme]/$INFO[Container(9000).listitem.Label].png</texture>
-	<fadetime>ThumbCrossfadeTime</fadetime>
+	<height>240</height>
+	<font>size_15</font>
+	<textcolor>FF969696</textcolor>
+	<align>left</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[B][UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE][/B]</label>
 </control>
 <!-- thumbnail image -->
 <control type="image">
@@ -68,7 +85,8 @@
 	<posy>158</posy>
 	<width>460</width>
 	<height>450</height>
-	<onright>70</onright>
+	<onleft>PageUp</onleft>
+	<onright>PageDown</onright>
 	<onup>9000</onup>
 	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
@@ -127,6 +145,7 @@
 	<onleft>9000</onleft>
 	<showonepage>false</showonepage>
 	<orientation>vertical</orientation>
+	<visible>false</visible>
 	<animation reversible="true" effect="fade" start="0" end="100" delay="" time="300">visible</animation>
 	<animation reversible="true" effect="fade" start="100" end="0" delay="" time="300">hidden</animation>
 </control>

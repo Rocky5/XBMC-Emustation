@@ -1,0 +1,14 @@
+SMB: Mystery of the Flying Fish
+Original title: Super Mario Bros. 3
+Platform: Nintendo Entertainment System
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Platformer 
+Gametype: Hack
+Players: 1 or 2 Alternating
+Hacked by: PSlugworth
+_________________________
+While Mario is romping through the Mushroom Kingdom's royal water fountains one day, he is witness to a mysterious phenomenon: the fish from around the kingdom begin to take flight! It's up to the Mario Brothers to find out what is responsible (I wonder...) and stop it before the local fish markets are all dried up! Note that this is a "mini-hack" -- a novelty/concept hack that is complete and spawns only one world.
+
+http://www.derok.net/nes-roms/super-mario-bros-3

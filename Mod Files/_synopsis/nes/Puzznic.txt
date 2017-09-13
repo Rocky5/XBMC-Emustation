@@ -1,0 +1,43 @@
+Puzznic
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1990
+Developer: Taito
+Players: 1
+_________________________
+
+This is..... a puzzle game!!! Did ya guess that already? Well, the name might not be very puzzling, but some of the levels in this game sure are! Puzznic is very similar to Fire and Ice (another NES game) in game play, but there's more color (thank goodness!).
+
+The music is, quite honestly, terrible. When you begin to run out of time, it's nerve jangling, utterly out of tune, and sour. But hey, it's also unnecessary, so just turn it off if you can't tolerate it. The jeweled puzzle pieces are pretty and nice to look at. The screen is uncomplicated by the awful obfuscating backgrounds that so many puzzle games like this have. In other words, you can see what you're doing and there's no wondering if you're trying to move part of the puzzle or part of the scenery. Gravnic (another option in this game) has a different look as well as different game play than Puzznic. In Gravnic, you don't have a time limit so the music doesn't turn rotten on you (again, thank goodness!).
+
+Game play is simple but engaging for both Puzznic and Gravnic. The controls and rules aren't difficult to figure out, but the solution to each stage can be!
+
+Directions:
+
+Puzznic: 
+
+Slide the pieces to match them up and clear each stage of all pieces. Press A or B and hold it when then cursor is over the piece you want to move. Then, press a direction to slide the piece in that direction. You must get at least two pieces to touch horizontally or vertically to clear them, but you can get more than that to vanish at once for more points. Be careful. While there may be more than one way to solve each stage, not every way will work! If you have just one of any kind of block left, you won't be able to clear that block or complete the stage without retrying or continuing. Some stages will have moving parts that make it harder to get pieces to where you need them to be. Sometimes, timing will be crucial as you have to move a block onto a moving block and then move it back quickly! You can move pieces while other pieces are still dropping, and sometimes that's what you'll have to do to clear a stage.
+
+Sometimes you will have to build a bridge by dropping pieces down on top of each other so that you can get to a previously unreachable area, and some stages will have more than one area on the screen that needs to be cleared. Since each stage is timed, you have to work quickly. If the time runs out you will have to continue, which will lose any points you've accumulated.
+
+Gravnic:
+
+In Gravnic, you must still clear all pieces. Pieces will vanish when two of the same color touch on a side, not corners. Instead of a time limit, there is a limit on the number of moves you can make. "MAX" tells you how many moves you have left to complete the stage, but you don't have to use them all. The less moves you clear the stage in, the more points you'll make. When you press a direction the pieces will all move in that direction (as if you changed gravity to pull the pieces in that direction, thus the name Gravnic). Obstructions will keep certain pieces back while allowing others to pass through. Some obstructions are stationary and won't move when you change gravity, but some will slide with the pieces. By paying attention to the shape of the board, you can decide which directions to move the pieces so that they match up in the end without leaving any one piece of any color. 
+
+Controls:
+
+A Button: Select Block (Puzznic), Select Direction (Gravnic)
+B Button: Select Block (Puzznic), Select Direction (Gravnic)
+Start Button: Start Game, Pause, Continue/Retry
+
+Hints:
+
+Don't Go 'Round
+Note that, in Puzznic, you can move the cursor over the grey blocks on the screen that aren't part of the edge. This means that you don't have to go around them. Knowing that can save you valuable seconds! 
+
+Reviewer: fallenrain
+http://consoleclassix.com/nes/puzznic.html

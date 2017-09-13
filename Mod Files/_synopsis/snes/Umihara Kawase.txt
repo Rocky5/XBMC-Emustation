@@ -1,0 +1,28 @@
+Umihara Kawase
+Original title: Umihara Kawase
+Platform: Super Nintendo Entertainment System
+Region: Japan (Translated)
+Media: Cartridge
+Controller: Gamepad
+Genre: Platformer
+Gametype: Translated
+Release Year: 2007
+Translated by: satsu
+Version: 0.90
+_________________________
+I can clearly say, without any doubt, that this is the greatest game ever. To hell with MGS, move over SotN, Umihara Kawase is the game of choice for me, thank you very much. And why, you ask? Because you're a girl with a fishing line for a weapon, that's why! All the enemies are fish, and you have to hook on to them and reel them in! Pretty cool eh? Well the coolest part is that your fishing line is also used as a grappling hook. So you can swing around and do all kinds of fun crazy things. Of course, this makes for some pretty endless replay value. It's even fun to die, for reasons that just can not be explained. I always laugh maniacally when she dies, because it's just so much FUN, and it makes this hilarious "sploosh" sound when she falls in the water! Of course it kind of sucks when you've wasted all your lives goofing around. So, for the benefit of our loyal visitors, here is a ZSNES CHT file I made, which allows for infinite lives. Now you can screw around all you want!
+
+Translation Description:
+
+Well the only thing that was in Japanese was the Replay menus, so those are all translated and happy. So things are groovy, and all is happy. Yep.
+
+Tips:
+
+Hard Mode
+On the title screen, press the Select button exactly 100 times. A 5 minute time limit appear in green text next to the start option. If you press Select again, the green text will disappear.
+
+Code: Press Select 100 times, then Start. 
+Effect: Five minute time limit.
+
+Reviewer: Spinner 8
+http://www.romhacking.net/trans/493/

@@ -1,0 +1,15 @@
+Pokemon Red: Dark and Steel Types
+Original title: Pokemon Red
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Role Playing Game
+Gametype: Hack
+Release Year: 2007
+Hacked by: Koolboyman
+Version: 1.0
+_________________________
+This patch adds the dark and steel types to a Pok?mon Red ROM.
+
+http://www.romhacking.net/hacks/238/

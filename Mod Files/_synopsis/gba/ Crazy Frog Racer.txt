@@ -1,0 +1,16 @@
+Crazy Frog Racer
+Platform: Nintendo Game Boy Advance
+Region: Europe
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Racing
+Gametype: Licensed
+Release Year: 2005
+Developer: Independent Arts
+Publisher: Digital Jesters
+_________________________
+This racing game is based on the Crazy Frog license, a character used in the marketing of a ring tone, originally designed by Erik Wernquist. The GBA version was licensed separately, and only the characters remind of the Crazy Frog world. The typical music and soundbites are not present.
+
+Only singleplayer is available, and no story at all. The main game modes are Grand Prix, two modes based on checkpoints (alone or against opponents), and Last Man Standing where the last one drops after each lap. Grand Prix consists of three classes based on different speed, with three cups each, and and extra cup. Controls allow for speeding up, braking, using items to hinder your opponents (mines, nails, boxing gloves...), and there is a button to drift through the corners. Record times can be saved on the Battery Backed RAM.
+
+http://www.mobygames.com/game/gameboy-advance/crazy-frog-racer_

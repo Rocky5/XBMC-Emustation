@@ -1,0 +1,56 @@
+Flashback Legends
+Original title: Flashback Legends
+Platform: Nintendo Game Boy Advance
+Region: USA (Update Hacks)
+Media: Cartridge
+Controller: Gameboy Advance
+Genre: Platformer
+Gametype: Hack
+Release Year: 2009
+Hacked by: VanishedOne
+Version: 1.0
+_________________________
+Flashback Legends was to be the third in the Flashback series, a Game Boy Advance side-scroller in the style of the first game, but it was left incomplete when Delphine, the developer, went bankrupt in 2002. A prototype ROM image was later leaked, with all language options producing French dialogue (and menus and item names in English). If you should come by the magisterially named 'Flashback Legends (France) (En,Fr) (Proto).gba', this IPS patch will enable the 'English' option on the language selection screen actually to produce an English version of the game's dialogue.
+
+This is a translation patch only; it does NOT fix any of the prototype's many glitchy, dummied or absent elements. The game's text is fully Anglicised, but much of it isn't actually implemented in the prototype; it's uncompressed and almost pure ASCII, though, so it's easily read with a suitable hex editor. If you manage to un-dummy any of it, you'll almost certainly find the alignment is wonky.
+
+Owing to the state of the prototype, the game cannot be completed (and features like the password entry and difficulty selection screens are nonexistent); thanks to http://www.gameanyone.com/game/GBA/2449.html we know it's possible to advance to the next level at any time by pressing all the GBA's buttons at once (although this may be awkward under keyboard-controlled emulation). Consequently there is no sense in which the patch could be 'fully tested'. Insofar as Flashback Legends can be played through, however, this patch will let you play through it in English.
+
+Whoever leaked this to the public doubtless hoped to show us where the series mighthave gone, rather than letting Delphine's final labours go to waste in concealment.I hope this translation expands its audience in like spirit.
+
+CONTROLS:
+
+UP: less-than signnormal> jump, pull yourself up
+DOWN: crouch
+A: toggle combat and normal modes; less-than signinventory> view item description
+B: less-than signnormal> run (hold B and press left or right), short jump (hold B and press up), use lifts (hold B and press up or down); less-than signcombat> shoot; less-than signinventory> select item
+
+L: throw a stone if you've selected it
+R: get gameplay hints in the first level when the corresponding icon appears, if you've enabled this in the pause menu
+
+SELECT: access/cancel inventory
+START: pause menu
+
+HINTS:
+
+Conrad jumps to some high ledges automatically, given a run up; many of these can't be reached with manual jumps.
+
+There's a jump early in New Eden that seems to be possible only if you run right, then turn Conrad around while running to let him jump to the ledge.
+
+The game is full of annoying enemies on ledges who'll shoot you straight off given half the chance. You're meant to hang off the ledge, or hang around below it, until the guard turns his back; this can take a while and is still fiddly. 
+
+So you may wish to note...
+
+Conrad's health is stored at 0x0201f204 in RAM. "That's not a gameplay tip, it's a cheat!"
+
+"This isn't a finished game, it's a prototype with game-stopping bugs."
+
+If you want to play properly, get used to performing forward rolls (while crouching) with your gun drawn. 
+
+Items are sometimes glitchy: note in particular that to open one gate in the first level, you MUST open your inventory, select the keycard with B, THEN use it on the terminal with B, otherwise you won't be able to progress. In later levels you'll find 'empty' cells sometimes aren't.
+
+Most of the gates don't display properly, so they look open, but in reality aren't.
+
+~From the ReadMe...
+
+http://www.romhacking.net/trans/1411/

@@ -1,0 +1,18 @@
+CVA Quick Fix
+Original title: Castlevania Adventure
+Platform: Nintendo Game Boy
+Region: USA (Update Hack)
+Media: Cartridge
+Controller: Gameboy
+Genre: Platformer
+Gametype: Hack
+Release Year: 2006
+Players: 1
+Hacked by: hiro1112
+Version: 1.0
+_________________________
+A quick hack I worked on. Made on behalf of those who have played CV Adventure and hated it due to certain drawbacks. Namely, the inability to take a hit without losing your Whips power. Also, the default speed of Christopher. I believe those who have played the game enough will love these changes. Perhaps if the game had been made in this fashion originally there may of been less neigh-sayers of this game.
+
+There is also a patch which works for the color version of Castlevania Adventure which is found in Konami GB Collection Vol. 1.
+
+http://www.romhacking.net/hacks/190/

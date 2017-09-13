@@ -1,0 +1,17 @@
+Renegade
+Platform: Nintendo Entertainment System
+Region: USA
+Media: Cartridge
+Controller: NES Gamepad
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Taito
+Players: 1-2
+_________________________
+
+In Renegade, the player controls a nameless thug who fights a variety of street gangs on his way to save his girlfriend. Unlike other similar games like Double Dragon and Final Fight, the playfield is limited to one two-screen-wide area (a subway platform, a park, an alley, a parking lot) and does not scroll continuously.
+
+Out of the four levels in the game, the first and third each begin with the player fighting a group made up of two different types of enemies; one with a stronger attack but less hit points, and one with a weaker attack and the ability to hold the player, but more hit points.
+
+http://www.nesguide.com/games/renegade/

@@ -1,0 +1,20 @@
+Kolibri
+Platform: Sega 32X
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Shooter
+Gametype: Licensed
+Release Year: 1995
+Developer: Novotrade
+Publisher: SEGA
+Players: 1 or 2 CO-OP
+_________________________
+Deep in the Earth, a powerful ancient crystal hums, fueling the balance of nature. But when its toxic twin plummets to Earth, nature totters on the edge of extinction! Only one hope survives - Kolibri. Though small and alone, the hummingbird must battle the invasive mutation in all its malignant form to restore Earth. But at what cost?
+
+Hints:
+
+- Enables Debug Menu -
+Hold A and press Left, Right, release A. Hold B and press Down,Right, release B. Hold C and press Down,Up, release C.
+
+http://www.gamefaqs.com/console/32x/home/584363.html

@@ -1,0 +1,68 @@
+NFL Quarterback Club
+Platform: Sega Genesis / Mega Drive
+Region: USA
+Media: Cartridge
+Controller: Gamepad
+Genre: Sports, Football
+Gametype: Licensed
+Release Year: 1994
+Developer: Iguana Entertainment
+Publisher: Acclaim
+Players: 1 to 2 VS; CO-OP
+_________________________
+The 24-Meg NFL Quarterback Club offers three different ways to play: QB Challenge, Simulation Mode and NFL Play. The QB Challenge has you choosing a quarterback (or creating up to five of your own) as you prepare to compete in four events: distance; accuracy; speed and mobility; and read and recognition. Simulation Mode has you playing through one of thirty different scenarios, while NFL Play lets players embark on a full 16-game Season, Preseason, Playoffs, or Pro Bowl with progress saved to battery. 
+
+While the game does not feature an NFLPA license for real players, it does offer nineteen actual quarterbacks from the 1993 season, including Steve Young, Dan Marino, John Elway and Troy Aikman. Other notable features include: over 430 plays to choose from; instant replay; variable weather (fair, rain or snow); custom audibles; three difficulty levels (rookie, pro or all-pro); adjustable quarter lengths (from one to fifteen minutes); and player animation showing taunts, spikes, high-steps, and various other moves.
+
+Controls:
+
+OFFENSE Before Snap
+
+D-Pad Left or Right: Put tight end in motion
+A: Call audible, press A, B or C to select play
+B: Fake hike
+C: Hike ball
+
+OFFENSE Passing
+
+D-Pad: Move player
+A: Bring up pass tags, throw to receiver "A"
+B: Throw to receiver "B"
+C: Throw to receiver "C"
+Start: Pause game, bring up options
+
+OFFENSE Running
+
+D-Pad: Control player
+A: Dive
+B: Juke, hold for spin
+C: Burst
+
+OFFENSE Receiving
+
+D-Pad: Control player
+D-Pad + A: Dive for ball
+C: Standing catch
+Pad + C: Jumping catch
+
+DEFENSE Before Snap
+
+A: Call audible, press A, B or C for play
+B: Switch player
+C: Switch player
+
+DEFENSE After Snap
+
+B: Control player closest to ball
+C: Burst
+A: Dive
+D-Pad + A (while ball is in air): Diving catch
+D-Pad + C (while ball is in air): Jump for interception or block kick
+
+KICKING
+
+C: Start kick meter, press again for distance
+D-Pad: Aim kick
+
+Reviewer: Scott Alan Marriott
+http://www.allgame.com/game.php?id=7585
