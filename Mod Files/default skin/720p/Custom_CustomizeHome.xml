@@ -4,8 +4,6 @@
 		<controls>
 				<include>CommonBackground</include>
 				<control type="group">
-						<animation effect="fade" delay="100" time="100">WindowOpen</animation>
-						<animation effect="fade" time="100">WindowClose</animation>
 						<control type="group">
 								<posx>10</posx>
 								<posy>75</posy>
@@ -137,10 +135,7 @@
 								<animation effect="zoom" start="100" end="50" center="auto" time="0" condition="true">Conditional</animation>
 								<include>CommonBackground</include>
 								<control type="image">
-										<posx>0</posx>
-										<posy>0</posy>
-										<width>1280</width>
-										<height>720</height>
+										<include>1280x720</include>
 										<aspectratio>stretch</aspectratio>
 										<texture background="true">layouts/settings/art/system_art.png</texture>
 										<visible>!StringCompare(Skin.CurrentTheme,carbon)</visible>
@@ -218,26 +213,12 @@
 										<texture background="true">layouts/art/system_help.png</texture>
 								</control>
 								<control type="label">
-										<posx>0</posx>
-										<posy>448</posy>
-										<width>1280</width>
-										<height>41</height>
-										<align>center</align>
-										<aligny>center</aligny>
-										<font>size_28</font>
-										<textcolor>$VAR[var-labelcolour]</textcolor>
+										<include>CarouselLabelCommonValues</include>
 										<label>[UPPERCASE]$LOCALIZE[5][/UPPERCASE]</label>
 										<visible>!Skin.HasSetting(altlabelposition)</visible>
 								</control>
 								<control type="label">
-										<posx>406</posx>
-										<posy>163</posy>
-										<width>468</width>
-										<height>41</height>
-										<align>center</align>
-										<aligny>center</aligny>
-										<font>size_35</font>
-										<textcolor>$VAR[var-labelcolour]</textcolor>
+										<include>CarouselAltLabelCommonValues</include>
 										<label>[UPPERCASE]$LOCALIZE[5][/UPPERCASE]</label>
 										<visible>Skin.HasSetting(altlabelposition) + !Skin.HasSetting(althomelayout)</visible>
 								</control>

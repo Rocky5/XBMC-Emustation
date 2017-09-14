@@ -1,3 +1,12 @@
+14/09/2017
+	1) Updated the busy dialog
+	2) Updated the home.xml moved some things to includes to reduce the size also cleaned up some of the code.
+	3) Reorganised menu_loader.py, simpler to edit and cleaned code not needed.
+	4) Changed the settings menus to window instead of dialogs.
+	5) Updated the readme.md
+	6) Slight label change
+	
+
 13/09/2017
 	1) Updated the Home.xml reorganised and redone the placements of the images. ( should have done this to begin with )
 	2) Added synopsis support for roms, I include a couple thousand .txt files for the emus I supply.

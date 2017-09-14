@@ -1,12 +1,10 @@
 <window type="window" id="1111">
 		<defaultcontrol always="true">9000</defaultcontrol>
+		<onload>Dialog.Close(All,false)</onload>
 		<controls>
 				<include>CommonBackground</include>
 				<control type="group">
-						<visible allowhiddenfocus="true">!Window.IsActive(1112) + !Window.IsActive(1113) + !Window.IsActive(1114) + !Window.IsActive(1115)</visible>
 						<posy>41.5</posy>
-						<animation effect="fade" delay="100" time="100">WindowOpen</animation>
-						<animation effect="fade" time="100">WindowClose</animation>
 						<control type="image">
 								<description>background image</description>
 								<posx>320</posx>

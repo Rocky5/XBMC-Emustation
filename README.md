@@ -10,20 +10,29 @@
 
 ## Installation
  * Download [XBMC-Emustation](https://github.com/Rocky5/XBMC-Emustation/archive/master.zip) and extract the **XBMC-Emustation-master** folder to your desktop.
- * Download [XBMC4XBOX-3.5.3.zip](https://drive.google.com/drive/folders/0B9zNhNcNUdDTRVFBbHcwc2JCZFE) and extract the **XBMC** folder to your desktop\\**XBMC-Emustation-master**\\ folder.
+ * Download the latest [XBMC4XBOX-*****.zip](https://drive.google.com/drive/folders/0B9zNhNcNUdDTRVFBbHcwc2JCZFE) and extract the **XBMC** folder that is inside the zip to your desktop\\**XBMC-Emustation-master**\\ folder.
  * Now double click the **Build XBMC-Emustation.bat** that's inside the **XBMC-Emustation-master** folder and wait. It will output a new folder named **XBMC-Emustation**
  * FTP this new folder to your Xbox and enjoy.
  
 ## Roms and Emulators
  * You place your roms in the designated subdirectory in the **_roms** folder.
  * Same exact thing for the emulators, but in the **_emulators** folder.
+ * **note:** these paths can be customized in the Other Settings menu
  
 ## Scanning Roms
- * Press start on the main screen. Other Settings > Auto Create Cut Files
+ * Press start on the main screen. Other Settings > Auto Scan Roms
+ * Press start on the main screen. Other Settings > Update Selected Systems (Manual Mode)
  
 ## Updating emulator list
  * Press start on the main screen. Other Settings > Refresh Emulator list.
-  ( **note:** If there are no roms present for this emulator it will not show )
+ * **note:** this is automatically done if any of the **Scan Roms Files** options are run.
+ 
+## Custom _Rom/_emulators Paths
+ * Press start on the main screen. Other Settings > _Emulators Folder
+ * Press start on the main screen. Other Settings > _Roms Folder
+  
+## Customize Home
+ * Press start on the main screen. UI Settings > Home Screen Customization.
   
 ## Everything else
  * The rest should be self explanatory, its all in the menu.

@@ -4,12 +4,12 @@
 		<nodvdrom>false</nodvdrom>
 		<!-- this value gives the best quality and doesn't run out of ram -->
 		<!-- Note: its slower to draw the images when scrolling fast ( triggers ) -->
-		<thumbsize>308</thumbsize>
+		<thumbsize>508</thumbsize>
 		<bginfoloadermaxthreads>5</bginfoloadermaxthreads>
 		<myprograms>
-				<trainerpath>Q:\trainers\</trainerpath>
+				<trainerpath>Q:\system\trainers\</trainerpath>
 		</myprograms>
 		<pictures>
-				<screenshotpath>Q:\Screenshots\</screenshotpath>
+				<screenshotpath>Q:\system\Screenshots\</screenshotpath>
 		</pictures>
 </advancedsettings>

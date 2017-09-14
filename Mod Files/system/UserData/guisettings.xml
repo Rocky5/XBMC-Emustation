@@ -559,7 +559,8 @@
 				</sep1>
 				<sep2>
 				</sep2>
-				<slideshowpath pathversion="1"></slideshowpath>
+				<slideshowpath pathversion="1">
+				</slideshowpath>
 				<time>5</time>
 				<usedimonpause>false</usedimonpause>
 				<usemusicvisinstead>false</usemusicvisinstead>

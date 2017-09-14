@@ -94,8 +94,12 @@
 						</control>
 				</control>
 		</include>
+		<include name="1280x720">
+				<width>1280</width>
+				<height>720</height>
+		</include>
 		<include name="CarouselLabelCommonValues">
-				<posx>85</posx>
+				<posx>0</posx>
 				<posy>448</posy>
 				<width>1280</width>
 				<height>41</height>
@@ -105,13 +109,13 @@
 				<textcolor>$VAR[var-labelcolour]</textcolor>
 		</include>
 		<include name="CarouselAltLabelCommonValues">
-				<posx>128</posx>
-				<posy>448</posy>
-				<width>1280</width>
+				<posx>406</posx>
+				<posy>163</posy>
+				<width>468</width>
 				<height>41</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>size_28</font>
+				<font>size_35</font>
 				<textcolor>$VAR[var-labelcolour]</textcolor>
 		</include>
 		<include name="MenuButtonCommonValues">

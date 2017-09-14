@@ -780,11 +780,11 @@ msgid "[UPPERCASE]custom paths[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32051"
-msgid "[UPPERCASE]emulators folder[/UPPERCASE]"
+msgid "[UPPERCASE]_emulators folder[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32052"
-msgid "[UPPERCASE]roms folder[/UPPERCASE]"
+msgid "[UPPERCASE]_roms folder[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32053"
