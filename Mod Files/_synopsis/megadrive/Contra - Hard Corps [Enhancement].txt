@@ -22,7 +22,7 @@ It's a hack, not a retranslation, although the script has been cleaned up. Lots 
 - Start button can now be used to confirm some options.
 - Start button can now be used to select your character.
 - Mission briefings can now be skipped by pressing the start button.
-- You can now hold buttons B &amp; C to skip through text faster.
+- You can now hold buttons B & C to skip through text faster.
 - In-game font fixed such that lower-case characters are now usable.
 - Added an alternate font (activated with a code).
 - Added 'e accent aigu' for 'coup d'état'.

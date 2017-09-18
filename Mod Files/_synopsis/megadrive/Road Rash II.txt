@@ -98,7 +98,7 @@ Put the following codes as your password on the options screen:
 001K 410QLevel 4, $100, Shuriken 400
 001K 510RLevel 5, $100, Shuriken 400
 
-- Various Level &amp; Final Level Passwords -
+- Various Level & Final Level Passwords -
 Enter the following passwords at the password screen...
 EVVU 1U09Start game at Level 1 with Wild Thing 2000/327,670 Cash
 EVVU 2U0AStart game at Level 2 with Wild Thing 2000/327,670 Cash

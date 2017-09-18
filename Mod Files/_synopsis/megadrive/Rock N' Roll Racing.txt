@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Racing
 Gametype: Licensed
 Release Year: 1993
-Developer: Silicon &amp; Synapse
+Developer: Silicon & Synapse
 Publisher: Interplay Entertainment
 Players: 1 or 2 VS
 _________________________
@@ -34,7 +34,7 @@ Each race goes on for four laps, and the final standings provide rewards. Money 
     - Cyberhawk (Serpentis)
     - Olaf from The Lost Vikings (Valhalla)
 
-There are six characters that are readily selectable, each of which has a +1 enhancement for two of the four skills that are related to how well their vehicle handles: acceleration, top speed, cornering, and jumping. Olaf, from The Lost Vikings, another Silicon &amp; Synapse game that was in development at the same time, is a hidden character, requiring a code to access him, and instead of two skills, Olaf has three. At the character selection screen (with Snake showing on the screen), while holding down L, R, and Select, press left then right on the d-pad, and Olaf will appear. There is an eighth character, also hidden, who has no picture or name but has the +1 bonus for all four of the available skills. This character is sometimes called the "Phantom", and he/she/it is only accessible using specially-crafted passwords.
+There are six characters that are readily selectable, each of which has a +1 enhancement for two of the four skills that are related to how well their vehicle handles: acceleration, top speed, cornering, and jumping. Olaf, from The Lost Vikings, another Silicon & Synapse game that was in development at the same time, is a hidden character, requiring a code to access him, and instead of two skills, Olaf has three. At the character selection screen (with Snake showing on the screen), while holding down L, R, and Select, press left then right on the d-pad, and Olaf will appear. There is an eighth character, also hidden, who has no picture or name but has the +1 bonus for all four of the available skills. This character is sometimes called the "Phantom", and he/she/it is only accessible using specially-crafted passwords.
 
 Many of the characters, location names, etc. take their name or likeness from hard rock music. Snake Sanders is based on Whitesnake vocalist David Coverdale, Jake Badlands is named for Jake E. Lee, guitarist for a band called Badlands, and Cyberhawk is most likely a reference to the cover art for the Judas Priest album Screaming for Vengeance.
 

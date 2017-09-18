@@ -18,7 +18,7 @@ There are three types of ships to choose from, each with different strengths and
 
 The game supports either one or two players.  In two player mode, the object is to simply outscore your opponent in a random zone and level.  You cannot directly kill your opponent by shooting him, but there are other ways....
 
-Lastly, if you shoot the classic-style asteroid in level 15 of the first zone, you'll find the option of &amp;quot;Classic Asteroids&amp;quot; now appearing on the main menu.
+Lastly, if you shoot the classic-style asteroid in level 15 of the first zone, you'll find the option of &quot;Classic Asteroids&quot; now appearing on the main menu.
  
 http://www.mobygames.com/game/playstation/asteroids
 

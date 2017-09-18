@@ -20,7 +20,7 @@ Hints:
 Hold Up/Left and A on controller 2. Press start at the title screen with the 1 player controller to start a one player game. The phrase round one will appear on the screen. Press left or right to change rounds and then press start to play.
 
 - Play as a Robot -
-In level 5-2, walk up the pair of steps where you first start off. walk to the right until you see the first opening &amp; closing drop .fall through and hold right to land on the surface under it. after that, open the door and rescue child. Then go all the way to the left where you first were but move to the right side of the box door. wait for the star to come and jump up to get it.
+In level 5-2, walk up the pair of steps where you first start off. walk to the right until you see the first opening & closing drop .fall through and hold right to land on the surface under it. after that, open the door and rescue child. Then go all the way to the left where you first were but move to the right side of the box door. wait for the star to come and jump up to get it.
 
 Note: This must be the first child rescued in this level.
 

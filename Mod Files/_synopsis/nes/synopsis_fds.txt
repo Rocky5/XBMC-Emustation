@@ -367,7 +367,7 @@ Graphics: 1
 OMFG this game looks so crappy!! I know this game is for that Disk System thing and it was made in 1986, but wow guys, you need to put some more work into it!!
 
 
-Music &amp; Sound: 1
+Music & Sound: 1
 
 The BOXXLE game has music that is just a bunch of boops and beeps!! And there's no sound fx at all, not even one I don't think!! The game makers really shouldve listened to BUST A MOVE, it has really kewl music.
 
@@ -2372,7 +2372,7 @@ http://www.romhacking.net/trans/887/
 
 *
 4C6AF0C5
-Tama &amp; Friends: 3 Choume Dai Bouken
+Tama & Friends: 3 Choume Dai Bouken
 Platform: The Family Computer Disk System
 Region: Japan
 Media: Disk

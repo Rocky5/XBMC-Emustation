@@ -21,8 +21,8 @@ You must play the individual chapters of the four playable characters (Yuusuke, 
 Hints:
 
 - Open The Debug Mode -
-At the title screen (echo "press start button"),hold a &amp; b &amp; c buttons,then press start button , move the cursor to "option" item, last hold start &amp; a &amp; b &amp; c buttons untils the option screen displayed, release all the buttons, you 'll find in the bottom of the option list, add another one, enable it.
-Then entry the game, on play mode select screen, 1-2 &amp; 1-3 mode has been opened.
+At the title screen (echo "press start button"),hold a & b & c buttons,then press start button , move the cursor to "option" item, last hold start & a & b & c buttons untils the option screen displayed, release all the buttons, you 'll find in the bottom of the option list, add another one, enable it.
+Then entry the game, on play mode select screen, 1-2 & 1-3 mode has been opened.
 
 - Cheats -
 In match ,press start, then hold "left" and press x or y: The fisrt player's life will be full or empty

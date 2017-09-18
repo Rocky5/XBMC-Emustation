@@ -7,7 +7,7 @@ Genre: Educational
 Gametype: Licensed
 Release Year: 1994
 Developer: Western Technologies
-Publisher: Davidson &amp; Associates
+Publisher: Davidson & Associates
 Players: 1
 _________________________
 The game's story is a simple rescue mission, centering on the efforts of Blasternaut to retrieve Spot from the clutches of the malicious "Trash Alien," who, apparently, litters out of sheer spite. The garbage he leaves behind consists primarily of empty containers and bad food, though coil-springs, boots and fish skeletons are also present.

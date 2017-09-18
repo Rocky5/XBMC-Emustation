@@ -54,7 +54,7 @@ Levels:
  - 36 Joust
  - 37 Millipede
  - 38 Warpman
- - 39 Nuts &amp; Milk
+ - 39 Nuts & Milk
  - 40 Burger Time
  - 41 Dig Dug
  - 42 Chack'n Pop

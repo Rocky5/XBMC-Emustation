@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Racing
 Gametype: Licensed
 Release Year: 1985
-Developer: Nintendo R&amp;D1
+Developer: Nintendo R&D1
 Publisher: Nintendo
 Players: 1
 _________________________

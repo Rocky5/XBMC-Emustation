@@ -7,7 +7,7 @@ Genre: Educational
 Gametype: Licensed
 Release Year: 1994
 Developer: Western Technologies, Inc.
-Publisher: Davidson &amp; Associates
+Publisher: Davidson & Associates
 Players: 1
 _________________________
 A follow-up to the original Math Blaster! games, Math Blaster: In Search of Spot is an educational title with arcade elements designed to help students learn maths while having fun.

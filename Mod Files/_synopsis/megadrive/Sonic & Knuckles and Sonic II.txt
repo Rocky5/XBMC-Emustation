@@ -1,4 +1,4 @@
-Sonic &amp; Knuckles and Sonic II
+Sonic & Knuckles and Sonic II
 Original title: Sonic the Hedgehog II
 Platform: Sega Genesis / Mega Drive
 Region: USA
@@ -11,4 +11,4 @@ Developer: Sonic Team
 Publisher: SEGA
 Players: 1
 _________________________
-Hack to allow the Sonic &amp; Knuclkes addon to work with the Sonic the Hedgehog II rom.
+Hack to allow the Sonic & Knuclkes addon to work with the Sonic the Hedgehog II rom.

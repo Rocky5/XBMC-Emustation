@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Strategy - Simulation - Action
 Gametype: Licensed
 Release Year: 1991
-Developer: Braben &amp; Bell
+Developer: Braben & Bell
 Publisher: Imagineer
 Players: 1
 _________________________

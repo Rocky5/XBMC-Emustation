@@ -13,7 +13,7 @@ _________________________
 
 A classic Dungeon-crawler. Fight your way to the bottom of the labyrinth to confront an evil wizard and recover the Overlord's lost Amulet.
 
-Wizardry is one of the true classics. It comes from a time when RPG meant simply fighting your way through a maze, with some few puzzles and such along the way, but primarily focused on gaining levels through combat. The features we now think of, e.g. overland travel, NPC interaction, etc., were considered the realm of Adventure Gaming. So we have a very simple plot in which an evil wizard has stolen an incredibly powerful artifact and hidden with it in a huge labyrinth beneath the Overlord's city. Your job is to fight your way to the bottom level, destroy him and recover the stolen item. To do this you will create a party of up to six characters of different types (loosely based on D&amp;D rules) who will then fight, cast, and sneak their way through the maze, picking up treasure and experience along the way. Of course it seems quite simple by today's standards, but it is still an extremely fun game, and one of the must-plays if you are an RPG gamer.
+Wizardry is one of the true classics. It comes from a time when RPG meant simply fighting your way through a maze, with some few puzzles and such along the way, but primarily focused on gaining levels through combat. The features we now think of, e.g. overland travel, NPC interaction, etc., were considered the realm of Adventure Gaming. So we have a very simple plot in which an evil wizard has stolen an incredibly powerful artifact and hidden with it in a huge labyrinth beneath the Overlord's city. Your job is to fight your way to the bottom level, destroy him and recover the stolen item. To do this you will create a party of up to six characters of different types (loosely based on D&D rules) who will then fight, cast, and sneak their way through the maze, picking up treasure and experience along the way. Of course it seems quite simple by today's standards, but it is still an extremely fun game, and one of the must-plays if you are an RPG gamer.
 
 Directions:
 
@@ -21,7 +21,7 @@ It is almost impossible to tell you everything you'll want to know to play this 
 
 The Classes are Fighter (Needs 11 Str), Mage (11 IQ), Cleric (11 Piety), and Thief (11 Agility). There are also Elite classes which you usually won't be able to choose until later in a character's career as his stats increase: Wizard, a sort of Cleric/Mage (12 IQ and 12 Piety); Samurai, a Fighter/Mage (15 Str, 11 IQ, 10 Piety, 14 Vitality, 10 Agility); Lord, a Fighter/Cleric (15 Str, 12 IQ, 12 Piety, 15 Vit, 14 Ag, 15 Luck); and Ninja, a super-Thief (needs 17 in all Stats). However, changing the class of an existing character will reduce his stats to his racial defaults.
 
-Armor Class: similar to old D&amp;D rules, your base armor class is 10, and lower is better.
+Armor Class: similar to old D&D rules, your base armor class is 10, and lower is better.
 
 Spells
 Unless you want to bully around the game with no casters, you'll need to know what the spells do, but there's no way within the game to find out, except trial and error. So here's a partial list to help you get started:

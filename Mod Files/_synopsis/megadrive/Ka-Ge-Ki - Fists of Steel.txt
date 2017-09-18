@@ -23,7 +23,7 @@ D-Pad: Move character in all directions
 A Button: Jump
 B Button: Jab, super jab
 C Button: Straight punch
-B &amp; C simultaneously: Duck
+B & C simultaneously: Duck
 
 Reviewer: Brett Alan Weiss
 http://www.allgame.com/game.php?id=12552

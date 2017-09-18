@@ -12,4 +12,4 @@ This is my SMW hack. It has almost none of SMW's GFX left in it.
 
 Chocolate and his brother Vanilla must trek across a series of islands in an attempt to find a way home.
 
-http://www.smwcentral.net/?p=showhack&amp;id=1125
+http://www.smwcentral.net/?p=showhack&id=1125

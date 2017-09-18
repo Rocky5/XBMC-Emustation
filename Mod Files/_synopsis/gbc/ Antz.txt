@@ -6,7 +6,7 @@ Controller: Gameboy Color
 Genre: Movie Adaption
 Gametype: Licensed
 Release Year: 1999
-Developer: CLCE &amp; Planet
+Developer: CLCE & Planet
 Publisher: Atari
 _________________________
 From the hit movie, Antz, comes a side-scrolling adventure where you play Z, and you set out to win the heart of Princess Bala. Each of the 19 levels you explore are taken from situations in the movie. Your character has a variety of actions: crouching down, going through tunnels, hiding from enemies, jumping over obstacles, hanging from trees, climbing ropes and more. You also encounter "boss" characters to keep the game exciting. Simple gameplay and easy controls make it ideal for children and older platform lovers as well.

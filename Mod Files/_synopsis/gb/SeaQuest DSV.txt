@@ -15,7 +15,7 @@ Primarily, your function is to navigate the seaQuest Deep Submergence Vessel aro
 
 The vehicles you have at your command include
 
-- Speeder: A simple two-man vessel designed entirely for speed. It is also a combat vessel and may fire forwards, move up &amp; down and change orientation between facing left and facing right
+- Speeder: A simple two-man vessel designed entirely for speed. It is also a combat vessel and may fire forwards, move up & down and change orientation between facing left and facing right
 
 - Stinger: A prototype "next generation" attack vessel, this one-man sub allows you to orientate in any direction to fire your weapon accurately.
 

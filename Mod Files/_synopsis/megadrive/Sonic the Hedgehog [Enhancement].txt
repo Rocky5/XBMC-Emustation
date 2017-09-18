@@ -1,4 +1,4 @@
-Sonic the Hedgehog [Spike Bug Fix &amp; Spindash]
+Sonic the Hedgehog [Spike Bug Fix & Spindash]
 Original title: Sonic the Hedgehog
 Platform: Sega Genesis / Mega Drive
 Region: USA
@@ -21,9 +21,9 @@ Hack Description:
 
 This is a hack which fixes the "Spike bug" and also implements a near perfect rendition of the Spindash. There is animation while doing the spindash like in the later games. The only thing missing is the dust underneath.
 
-Special thanks to Lightning &amp; FraGag for their guides on how to implement this.
+Special thanks to Lightning & FraGag for their guides on how to implement this.
 
 For some reason it doesn't like opening in a level editor, I don't know why. However, if you decompress the original Sonic 1 and decompress this ROM, you can open those decompressed original Sonic 1 files, then after you edit them, recompress them into the edit? I Think.
 
 http://www.romhacking.net/hacks/401/
-http://sega-16.com/feature_page.php?id=376&amp;title=Hacks%20and%20Homebrews:%20Sonic%20Hacks
+http://sega-16.com/feature_page.php?id=376&title=Hacks%20and%20Homebrews:%20Sonic%20Hacks

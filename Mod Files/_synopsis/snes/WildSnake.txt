@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Strategy
 Gametype: Licensed
 Release Year: 1994
-Developer: Manley &amp; Associates
+Developer: Manley & Associates
 Publisher: Spectrum Holobyte
 Players: 1 or 2 VS
 _________________________

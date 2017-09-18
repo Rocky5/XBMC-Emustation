@@ -6,11 +6,11 @@ Controller: Gamepad
 Genre: Puzzle
 Gametype: Licensed
 Release Year: 1993
-Developer: Silicon &amp; Synapse
+Developer: Silicon & Synapse
 Publisher: Interplay
 Players: 1 or 2 CO-OP
 _________________________
-The Lost Vikings is a platform-puzzle game developed by Silicon &amp; Synapse (now Blizzard Entertainment) and published by Interplay for a variety of platforms including the Sega Mega Drive.
+The Lost Vikings is a platform-puzzle game developed by Silicon & Synapse (now Blizzard Entertainment) and published by Interplay for a variety of platforms including the Sega Mega Drive.
 
 The game follows three Vikings, Eric the Swift, Olaf the Stout and Baleog the Fierce, who have been plucked out of their own timezone by the evil Tomator, who is collecting lifeforms from all over the universe. It is up to the player to guide all three Vikings through various periods in time to get back to their ship. Each Viking has their own set of skills which are needed to progress through the stage. The player can only control one Viking at once, but can switch between them at any point and share items.
 

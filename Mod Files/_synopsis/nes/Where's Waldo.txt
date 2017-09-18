@@ -19,7 +19,7 @@ The main theme of the game is easy enough to understand: if you see Waldo, just 
 
 You don't get a message if you've found Waldo, so listen out for the "Mission Accomplished" style music.
 
-There are 4 modes to choose from: Practice, Easy, Medium &amp; Hard. The difficulty increases by giving you less time to find Waldo, and also the map space increases with difficulty. The practice mode, however, doesn't have a time limit, so you can take as long as you want searching for Waldo. There are 9 levels in total, varying from everyday places such as a train station, to the moon...
+There are 4 modes to choose from: Practice, Easy, Medium & Hard. The difficulty increases by giving you less time to find Waldo, and also the map space increases with difficulty. The practice mode, however, doesn't have a time limit, so you can take as long as you want searching for Waldo. There are 9 levels in total, varying from everyday places such as a train station, to the moon...
 
 Most of the levels keep the same aspect of simply finding Waldo, but there are a odd few that are random mini games such as the revolving maze.
 

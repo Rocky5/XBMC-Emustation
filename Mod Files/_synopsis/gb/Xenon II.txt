@@ -9,7 +9,7 @@ Release Year: 1992
 Developer: Teeny Weeny Games
 Publisher: Mindscape
 _________________________
-Xenon 2: Megablast is vertically scrolling space shooter, in which you have to pass several levels, filled with waves of enemies, that all end with a level boss creature. Each group of enemies you destroy grants you a cash reward and every once in a while you enter Colin's Bargain Basement, where you can use this cash to purchase upgrades for your ship like better weapons, speed &amp; health upgrades etc. Some upgrades can also be picked up during the levels.
+Xenon 2: Megablast is vertically scrolling space shooter, in which you have to pass several levels, filled with waves of enemies, that all end with a level boss creature. Each group of enemies you destroy grants you a cash reward and every once in a while you enter Colin's Bargain Basement, where you can use this cash to purchase upgrades for your ship like better weapons, speed & health upgrades etc. Some upgrades can also be picked up during the levels.
 
 The first part of the game has an organic feel to it, while the second part of the game features mechanical enemies. As there are some maze-like sections with dead-ends in the game, your spaceship scrolls backwards when you keep pressing the down key.
 

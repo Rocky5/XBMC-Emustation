@@ -1,4 +1,4 @@
-Rockman: Battle &amp; Fighters
+Rockman: Battle & Fighters
 Platform: Neo Geo Pocket
 Region: Japan
 Media: Cartridge
@@ -10,6 +10,6 @@ Developer: Capcom
 Publisher: Capcom
 Players: 1
 _________________________
-RockMan Battle &amp; Fighters is an Action game, developed and published by Capcom, which was released in Japan in 2000.
+RockMan Battle & Fighters is an Action game, developed and published by Capcom, which was released in Japan in 2000.
 
 http://www.gamefaqs.com/portable/neopocket/home/918000.html

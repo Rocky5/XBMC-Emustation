@@ -6,8 +6,8 @@ Controller: Gamepad
 Genre: Role Playing Game
 Gametype: Pirate
 Release Year: 1994
-Developer: C&amp;E INC.
-Publisher: C&amp;E INC.
+Developer: C&E INC.
+Publisher: C&E INC.
 Players: 1
 _________________________
 This is a strategy RPG based on the events of the famous classic Chinese novel "Shuihuzhuan" (Water Margins, also known as Outlaws of the Marsh), which tells the story of 108 heroes who fought against the corrupt regime of the Song dynasty (12th century). You take control of a group led by Song Jiang, a famous robber and the leader of the heroes, starting as the young Zhao He. Their town is under attack by imperial soldiers, and their long quest for freedom begins with this battle...

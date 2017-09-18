@@ -6,7 +6,7 @@ Controller: Gameboy
 Genre: Racing - Cars
 Gametype: Licensed
 Release Year: 1998
-Developer: Velez &amp; Dubail
+Developer: Velez & Dubail
 Publisher: Ocean
 _________________________
 The GameBoy version of the popular  V-Rally series, includes 4 licensed cars and 20 racing tracks from different countries with varying weather conditions (raining on the English track, snow in Sweden etc.), and two game modes: Arcade and Championship. In Arcade mode you race against the clock, and in Championship mode you race against other cars to get to the finish line first.

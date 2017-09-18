@@ -1,7 +1,7 @@
 35669 | Crue Ball
 25240 | Exile
 5554 | International Sensible Soccer LE: World Champions
-5662 | Joshua &amp; the Battle of Jericho
+5662 | Joshua & the Battle of Jericho
 26179 | Last Battle
 26180 | Last Battle
 26181 | Last Battle
@@ -14,7 +14,7 @@
 26172 | Ranger-X
 26169 | RBI Baseball '94
 26167 | Red Zone
-26168 | Ren &amp; Stimpy: Stimpy's Invention
+26168 | Ren & Stimpy: Stimpy's Invention
 26165 | Revenge of Shinobi
 26166 | Revenge of Shinobi
 26164 | Revolution X
@@ -68,10 +68,10 @@
 26119 | Skitchin'
 5625 | Socket
 5334 | Soldiers of Fortune
-26115 | Sonic &amp; Knuckles
-26116 | Sonic &amp; Knuckles
-26117 | Sonic &amp; Knuckles
-26118 | Sonic &amp; Knuckles
+26115 | Sonic & Knuckles
+26116 | Sonic & Knuckles
+26117 | Sonic & Knuckles
+26118 | Sonic & Knuckles
 26113 | Sonic 3D Blast
 26114 | Sonic 3D Blast
 26109 | Sonic Spinball
@@ -94,9 +94,9 @@
 26095 | Sparkster: Rocket Knight Adventures 2
 26093 | Speedball 2: Brutal Deluxe
 26094 | Speedball 2: Brutal Deluxe
-26092 | Spider-Man &amp; The X-Men: Arcade's Revenge
-26091 | Spider-Man &amp; Venom: Maximum Carnage
-26090 | Spider-Man &amp; Venom: Separation Anxiety
+26092 | Spider-Man & The X-Men: Arcade's Revenge
+26091 | Spider-Man & Venom: Maximum Carnage
+26090 | Spider-Man & Venom: Separation Anxiety
 26088 | Spider-Man vs The Kingpin
 26089 | Spider-Man vs The Kingpin
 26086 | Spider-Man: The Animated Series
@@ -165,14 +165,14 @@
 26004 | Teenage Mutant Ninja Turtles: The Hyperstone Heist
 26060 | Terminator 2: Judgment Day
 26059 | The Death and Return of Superman
-26058 | The Great Circus Mystery Starring Mickey &amp; Minnie
+26058 | The Great Circus Mystery Starring Mickey & Minnie
 26056 | The Ooze
 26052 | Theme Park
 26051 | Thunder Force II
 26049 | Thunder Force III
-26043 | Toejam &amp; Earl
-26045 | Toejam &amp; Earl
-26042 | Toejam &amp; Earl 2: Panic on Funkotron
+26043 | Toejam & Earl
+26045 | Toejam & Earl
+26042 | Toejam & Earl 2: Panic on Funkotron
 26040 | Toki: Going Ape Spit
 26041 | Toki: Going Ape Spit
 26039 | Toughman Contest

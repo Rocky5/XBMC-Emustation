@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Sports > Competitive Events 
 Gametype: Unlicensed
 Release Year: 1992
-Developer: Computer &amp; Entertainment
-Publisher: Computer &amp; Entertainment
+Developer: Computer & Entertainment
+Publisher: Computer & Entertainment
 _________________________
 No information online about this Unlicensed game.  ~Rx

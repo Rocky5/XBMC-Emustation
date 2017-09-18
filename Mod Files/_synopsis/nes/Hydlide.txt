@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Role Playing Game
 Gametype: Licensed
 Release Year: 1986
-Developer: T&amp;E Soft
+Developer: T&E Soft
 Publisher: FCI
 Players: 1
 _________________________

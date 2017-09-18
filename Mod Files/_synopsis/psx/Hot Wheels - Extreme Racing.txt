@@ -14,7 +14,7 @@ Based on the Hot Wheels toy car collection, this racing game takes you on a wild
 
 The basic gameplay is similar to most racing games. The player controls a car and races around tracks as fast as possible. By collecting pick-ups new properties can be obtained, such as nitro boosts, oil slicks, projectiles and other weapons. The computer-controlled cars can also collect the pick-ups and use them.
 
-Cars have the ability to transform into four different types of vehicles: racing, truck, plane and boat. While transforming the body of the car stays the same while the side of the car &amp;quot;grows&amp;quot; wheels, wings or fins. The stages are divided into different parts, each designed for a specific vehicle. The parts are separated by a &amp;quot;transformation portal&amp;quot;. When the player drives though such a portal the car will change into another type.
+Cars have the ability to transform into four different types of vehicles: racing, truck, plane and boat. While transforming the body of the car stays the same while the side of the car &quot;grows&quot; wheels, wings or fins. The stages are divided into different parts, each designed for a specific vehicle. The parts are separated by a &quot;transformation portal&quot;. When the player drives though such a portal the car will change into another type.
  
 http://www.mobygames.com/game/playstation/hot-wheels-extreme-racing
 

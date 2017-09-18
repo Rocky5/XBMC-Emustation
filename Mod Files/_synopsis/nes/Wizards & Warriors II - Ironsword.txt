@@ -1,4 +1,4 @@
-IronSword: Wizards &amp; Warriors II
+IronSword: Wizards & Warriors II
 Platform: Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -11,7 +11,7 @@ Publisher: Acclaim
 Players: 1
 _________________________
 
-Ironsword: Wizards &amp; Warriors II is the second video game in the Wizards and Warriors trilogy for the Nintendo Entertainment System. It was developed by Zippo Games for Rare and first released in 1989 by Acclaim. The hero of the series, Kuros, must face off once again against the evil wizard Malkil, who has taken control of the four elementals of the worldwind, water, fire and earth.
+Ironsword: Wizards & Warriors II is the second video game in the Wizards and Warriors trilogy for the Nintendo Entertainment System. It was developed by Zippo Games for Rare and first released in 1989 by Acclaim. The hero of the series, Kuros, must face off once again against the evil wizard Malkil, who has taken control of the four elementals of the worldwind, water, fire and earth.
 
 Each of the four elemental realms consists of two stages. In the first stage, Kuros must find a golden artifact which belongs to the Animal King of the realm; once accomplished, the path to the second part of the realm will appear. In the second stage, the goal is to find the magic spell which can be used to fight the elemental boss. Without the spell, it is impossible to damage the boss. Once the elemental in each stage has been destroyed, Kuros will pick up a piece of the legendary Iron Sword, which is needed for the final battle on Icefire Mountain.
 

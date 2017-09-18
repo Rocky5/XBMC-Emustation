@@ -1,4 +1,4 @@
-Mick &amp; Mack as the Global Gladiators (Prototype)
+Mick & Mack as the Global Gladiators (Prototype)
 Platform: Super Nintendo Entertainment System
 Region: Prototype (USA)
 Media: Cartridge
@@ -10,7 +10,7 @@ Developer: Virgin Games USA
 Publisher: Virgin Interactive
 Players: 1
 _________________________
-Mick &amp; Mack was a McDonald's liscensed game developed by David Perry at Virgin Games. It appeared on various Sega systems and the Amiga, though they cancelled the snes version. It is a simple platform shooter game. The game was shown at the Winter 1993 CES.
+Mick & Mack was a McDonald's liscensed game developed by David Perry at Virgin Games. It appeared on various Sega systems and the Amiga, though they cancelled the snes version. It is a simple platform shooter game. The game was shown at the Winter 1993 CES.
 
 A prototype rom image of this game shows that it was at a beta state at the very least for the snes. When you first load the rom, there is a bunch of debug stuff, which allows you to choose various levels. The levels seem to be pretty much complete, but there isn't really much you can do. Most enemies are static and do not harm your character. You can also use the L button to float around the levels, which is very necessary since pits do not kill you. Pressing the R button skips you to the bonus stages for each level.
 

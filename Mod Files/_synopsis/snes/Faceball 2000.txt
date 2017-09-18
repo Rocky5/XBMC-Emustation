@@ -21,7 +21,7 @@ In the Arena, play a computerized version of tag. The first player to get ten "t
 Tips:
 
 Cyberscape (Puzzle Mode)
-Hold down L &amp; R while selecting the number of players, then let go when the screen fades to black.
+Hold down L & R while selecting the number of players, then let go when the screen fades to black.
 
 Cyberzone Cheat Menu
 At the Cyberzone starting level selection screen, hold L and R and press Start.

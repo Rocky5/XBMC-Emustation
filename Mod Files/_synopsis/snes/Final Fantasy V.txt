@@ -36,12 +36,12 @@ In Kelb town, enter the Inn. You'll find a man sitting on a table talk to him th
 
 Avoiding the final battle
 If you don't want to fight Neo Exdeath (the transform of Exdeath) you need to use the command Mix (an ability
-of Chemist Job), then mix the items Maiden's Kiss &amp; Holy Water to create Kiss of Blessing, then give it to Exdeath and kill him, he won't transform to Neo Exdeath &amp; you can see the ending.
+of Chemist Job), then mix the items Maiden's Kiss & Holy Water to create Kiss of Blessing, then give it to Exdeath and kill him, he won't transform to Neo Exdeath & you can see the ending.
 
 Killing carbunle in 1 hit
 If you don't want to fight Neo Exdeath (the transform of Exdeath) you need to use the command Mix (an ability
-of Chemist Job), then mix the items Maiden's Kiss &amp; Holy Water to create Kiss of Blessing, then give
-it to Exdeath and kill him, he won't transform to Neo Exdeath &amp; you can see the ending.
+of Chemist Job), then mix the items Maiden's Kiss & Holy Water to create Kiss of Blessing, then give
+it to Exdeath and kill him, he won't transform to Neo Exdeath & you can see the ending.
 
 Make the game impossible.
 If you have a mystic knight on your party, cast Fire 3 and in the next round hit Carbuncle with it. It will not show any damage, but it will kill him.

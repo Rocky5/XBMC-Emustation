@@ -10,7 +10,7 @@ Release Year: 2007
 Hacked by: Quest Games
 Version: 1.0
 _________________________
-This was an attempt at making the game more "challenging" in an adequate way although the enemies' health was (for the most part) increased, the player is given extra continues, more health, &amp; the ability to keep weapons after an enemy dies. The biggest drawback is the sprite change when a different enemy appears on screen when the previous enemy's weapon is still on-screen.
+This was an attempt at making the game more "challenging" in an adequate way although the enemies' health was (for the most part) increased, the player is given extra continues, more health, & the ability to keep weapons after an enemy dies. The biggest drawback is the sprite change when a different enemy appears on screen when the previous enemy's weapon is still on-screen.
 
 The mistakes in text have been corrected as well as other numerous changes which have escaped me now.
 

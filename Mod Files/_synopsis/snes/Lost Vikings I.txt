@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Platformer
 Gametype: Licensed
 Release Year: 1993
-Developer: Silicon &amp; Synapse
+Developer: Silicon & Synapse
 Publisher: Interplay
 Players: 1
 _________________________

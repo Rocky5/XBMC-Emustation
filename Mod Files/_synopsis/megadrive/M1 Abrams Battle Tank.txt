@@ -16,7 +16,7 @@ The controls are difficult at first But once you get that part down it gets pret
 
 Directions:
 
-You've got 3 different types of ammo, though I can't figure out how to switch between them &amp; There are separate controls for the tracks &amp; turret
+You've got 3 different types of ammo, though I can't figure out how to switch between them & There are separate controls for the tracks & turret
 
 Trivia:
 
@@ -27,7 +27,7 @@ Controls:
 A Button: Fires the gun
 B Button: Brings up the in-game menu
 C Button: Hold to turn the turret independently
-D-pad Left &amp; Right: Turn tank
+D-pad Left & Right: Turn tank
 D-pad Up and Down: Control the throttle
 
 Reviewer: Kasey Chang, Robbb

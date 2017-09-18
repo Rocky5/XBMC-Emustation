@@ -10,7 +10,7 @@ Developer: Infocom
 Players: 1
 _________________________
 
-Tombs &amp; Treasure is predominantly about solving puzzles and interacting objects with one another as they are found throughout the Mayan city. When travelling from temple to temple, the only available action is to walk using the D-pad. However, once a temple is entered, the player may start exploring much more thoroughly. Using a list of picture-based action keys ("Go", "Push", "Wash", etc.), the characters can interact with the environment, inspecting it for clues and manipulating it to unlock another area elsewhere.
+Tombs & Treasure is predominantly about solving puzzles and interacting objects with one another as they are found throughout the Mayan city. When travelling from temple to temple, the only available action is to walk using the D-pad. However, once a temple is entered, the player may start exploring much more thoroughly. Using a list of picture-based action keys ("Go", "Push", "Wash", etc.), the characters can interact with the environment, inspecting it for clues and manipulating it to unlock another area elsewhere.
 
 There are several items to collect, as well, whose purpose can be learned by looking at them. Interestingly, the game gives each of the three characters -- the boy, the girl, and Jos? -- their own special attributes to let them all contribute to the quest. The boy is the player's in-game avatar and usually does the most hands-on work; the girl is talented musically; and Jos? is very strong and able to move things the other two cannot. However, some light turn-based combat also faces the player when a demon is encountered inside a ruin. These encounters almost always happen in the very first room of a ruin, although there are some exceptions.
 

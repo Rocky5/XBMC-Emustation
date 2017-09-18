@@ -39,6 +39,6 @@ B Button: Jump
 C Button: Action
 
 Reviewer: Alex Vo, Guy Chapman
-http://www.allgame.com/game.php?id=11759&amp;tab=controls
+http://www.allgame.com/game.php?id=11759&tab=controls
 http://www.mobygames.com/game/genesis/landstalker-treasure-of-king-nole
 http://en.wikipedia.org/wiki/Land_Stalker

@@ -95,6 +95,15 @@
 										<onclick>Skin.SetFile(selectedintrofile,.avi | .mp4 | .wmv | .xmv,Special://xbmc/)</onclick>
 										<visible>Skin.HasSetting(introenabled)</visible>
 								</control>
+								<control type="radiobutton" id="7">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32030]</label>
+										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(lastromlist)</onclick>
+										<selected>Skin.HasSetting(lastromlist)</selected>
+								</control>
 								<control type="button" id="20">
 										<posx>0</posx>
 										<posy>0</posy>

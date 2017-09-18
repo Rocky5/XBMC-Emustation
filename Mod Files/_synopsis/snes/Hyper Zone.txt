@@ -16,7 +16,7 @@ As a racing game, the resemblance is visual. The mode 7 "tracks" bear a resembla
 
 HyperZone contains eight levels in total. After the initial game is finished, it restarts from the beginning with the player continuing in the same ship and keeping score; the game loops infinitely.
 
-Development &amp; Reception:
+Development & Reception:
 
 HyperZone bears a striking resemblance to Eliminator, a game released for the Amiga and various 8-Bit computers. The game's perspective and its unusual landscapes were inspired by the "Star Gate" sequence of 2001: A Space Odyssey. The offtrack landscape in the Material Factory (Area 1 in the US/European version, Area 3 in the Japanese version) is a tessellation of flashing tetrominos that resemble those in Tetris; the boss in Area 3 resembles the right part of the SNES controller, and buttonsof the same four colors as the Super Famicom logocircle around it. Another HAL game, Kirby's Dream Land 3, references this game: the final area in the game is called Hyperzone, and several other areas share names.
 

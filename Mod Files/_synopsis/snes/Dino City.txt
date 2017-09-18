@@ -16,7 +16,7 @@ In order to pass each of the game's six levels, players must navigate through a 
 
 Level Passwords:
 8SHTK$S3HNDM 2
-HF4Nless-than signNBC41KT 3
+HF4N<NBC41KT 3
 5SKXT$S9HNZ4 4
 XKC5T$SWHNN4 5
 5CX6D$SOHF94 6

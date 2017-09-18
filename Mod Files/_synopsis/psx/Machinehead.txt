@@ -12,7 +12,7 @@ Players: 1 Player
 _________________________
 Blam! Machinehead is basically a normal 3D shooter where you shoot enemies and explore the futuristic, barren wastelands and abandoned factories and such as you try to save the world. 
 The player controls Kimberly Stride, who is a scientist.
-She has to save the world from bad DNA that is slowly &amp;quot;eating&amp;quot; everything away.
+She has to save the world from bad DNA that is slowly &quot;eating&quot; everything away.
 
 As a player, you control this hovercraft-thingy which was designed to be a safe vehicle to be in while travelling through this infested world. The game has nice 3D graphics and a very unique mood to it that separates it from the more common shooters.
  

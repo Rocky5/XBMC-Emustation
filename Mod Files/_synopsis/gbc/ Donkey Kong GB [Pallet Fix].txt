@@ -1,5 +1,5 @@
 Donkey Kong GB: Color Pallet Hack
-Original title: Donkey Kong GB: Dinky Kong &amp; Dixie Kong
+Original title: Donkey Kong GB: Dinky Kong & Dixie Kong
 Platform: Nintendo Game Boy Color
 Region: USA (Update Hacks)
 Media: Cartridge
@@ -10,7 +10,7 @@ Release Year: 2008
 Hacked by: BZlaziken257
 Version: 1.2
 _________________________
-This hack modifies and improves color palettes in Donkey Kong GB: Dinky Kong &amp; Dixie Kong. This is the Japanese version of Donkey Kong Land III, and is the only one for the Game Boy Color. This hack will not work for the English version, since it's for the regular Game Boy.
+This hack modifies and improves color palettes in Donkey Kong GB: Dinky Kong & Dixie Kong. This is the Japanese version of Donkey Kong Land III, and is the only one for the Game Boy Color. This hack will not work for the English version, since it's for the regular Game Boy.
 
 This hack modifies the colors of many sprites, some levels (most notably the river and waterfall levels), most of the world maps (they all have different colors from each other now), and some screens like the title screen and the bonus screens.
 

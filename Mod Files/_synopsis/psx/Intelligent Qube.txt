@@ -6,7 +6,7 @@ Controller: Standard Control Pad
 Genre: Puzzle - 3D - Third Person
 Gametype: Licensed
 Release Year: 1997
-Developer: G-artists, Sugar &amp; Rockets
+Developer: G-artists, Sugar & Rockets
 Publisher: Sony Computer Entertainment America
 Players: 1 or 2 VS
 _________________________

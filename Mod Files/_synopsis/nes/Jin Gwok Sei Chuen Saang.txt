@@ -6,8 +6,8 @@ Controller: NES Gamepad
 Genre: Board Game 
 Gametype: Unlicensed
 Release Year: 1990
-Developer: Computer &amp; Entertainment Inc
-Publisher: Computer &amp; Entertainment Inc
+Developer: Computer & Entertainment Inc
+Publisher: Computer & Entertainment Inc
 _________________________
 NOTE: Only works in NestopiaX
 

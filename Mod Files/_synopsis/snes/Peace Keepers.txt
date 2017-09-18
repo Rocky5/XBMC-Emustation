@@ -27,7 +27,7 @@ A one to two player game (four player for versus mode), The Peace Keepers spans 
 Tips:
 
 Both players can choose the same character
-Highlight 1P game, hold L, R, &amp; Down both controllers.  The cursor should then be in '2P Game', press start on controller 1
+Highlight 1P game, hold L, R, & Down both controllers.  The cursor should then be in '2P Game', press start on controller 1
 
 Secret Move
 If Flynn's energy is below 10%, he can turn into his fire haired superhuman mode. Hold R, and press Down, Down + Right, Right, and X

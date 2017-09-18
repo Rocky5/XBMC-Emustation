@@ -6,8 +6,8 @@ Controller: Gamepad
 Genre: Sports, Golf
 Gametype: Licensed
 Release Year: 1992
-Developer: T&amp;E Soft
-Publisher: T&amp;E Soft
+Developer: T&E Soft
+Publisher: T&E Soft
 Players: 1 to 4
 _________________________
 "3D Golfing: 1992-Style!"

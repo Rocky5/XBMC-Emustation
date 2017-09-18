@@ -39,7 +39,7 @@ Features:
 
 - Transitions between different zones
 
-- Elemental Shields from Sonic 3 &amp; Knuckles and the Insta-Shield.
+- Elemental Shields from Sonic 3 & Knuckles and the Insta-Shield.
 
 - An options screen with a character choosing, shield style, sprite style, soundtrack switching, auto rolling switching, retain rings switching, and a sound test. 
 

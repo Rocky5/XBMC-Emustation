@@ -1,4 +1,4 @@
-King Arthur &amp; The Knights of Justice
+King Arthur & The Knights of Justice
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Adventure, Top Down, Fantasy
 Gametype: Licensed
 Release Year: 1995
-Developer: Manley &amp; Associates
+Developer: Manley & Associates
 Publisher: Enix
 Players: 1
 _________________________

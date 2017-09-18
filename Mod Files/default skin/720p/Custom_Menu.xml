@@ -1,6 +1,5 @@
 <window type="window" id="1111">
 		<defaultcontrol always="true">9000</defaultcontrol>
-		<onload>Dialog.Close(All,false)</onload>
 		<controls>
 				<include>CommonBackground</include>
 				<control type="group">

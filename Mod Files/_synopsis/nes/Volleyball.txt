@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Sports - Volleyball
 Gametype: Licensed
 Release Year: 1986
-Developer: Nintendo R&amp;D3 &amp; Pax Softnica
+Developer: Nintendo R&D3 & Pax Softnica
 Publisher: Nintendo Co., Ltd.
 Players: 1 or 2 CO-OP
 _________________________

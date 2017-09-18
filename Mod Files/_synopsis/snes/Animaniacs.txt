@@ -27,7 +27,7 @@ Pinky, Dot, Nurse, Pinky, CEO, Wakko, Ralph, Brain, Nurse, Brain, Brain, Yakko
 Dot Studio
 Ralph, Ralph, Brain, CEO, Wakko, Pinky, Dot, Yakko, Dot, Nurse, Brain, 
 
-Studio &amp; Sci-Fi
+Studio & Sci-Fi
 Brain, Dot, Brain, Dot, Ralph, Nurse, Wakko, Dot, Yakko, CEO, Pinky, Wakko 
 
 Studio, Sci-Fi, and Fantasy

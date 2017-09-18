@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Sports - Hockey
 Gametype: Licensed
 Release Year: 1988
-Developer: Nintendo R&amp;D3
+Developer: Nintendo R&D3
 Publisher: Nintendo
 Players: 1 or 2 VS
 _________________________

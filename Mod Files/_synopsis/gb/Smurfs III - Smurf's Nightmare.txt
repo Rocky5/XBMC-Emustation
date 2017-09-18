@@ -6,7 +6,7 @@ Controller: Gameboy
 Genre: Platformer
 Gametype: Licensed
 Release Year: 1997
-Developer: Velez &amp; Dubail
+Developer: Velez & Dubail
 Publisher: Infogrames
 _________________________
 The Smurfs' Nightmare is the third installment of the Smurfs series about little blue dwarfs and their arch-nemesis, evil wizard Gargamel.

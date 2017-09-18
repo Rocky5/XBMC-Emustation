@@ -14,6 +14,6 @@ This is a vertical platformer with horizontal wrap-around. For the entertainment
 
 This game requires a lot of memorization of enemy movement patterns and optimum routes. A unique feature is that when you die, you can watch a replay and take over at any point to continue your game. You can also hit the HELP button at the start of each level to view a map, helping you plan your route.
 
-It was released in the US as Fatal Rewind This is the Japanese version released in 1993 with remixed baddies/level changes &amp; a nice intro missing from the US version.
+It was released in the US as Fatal Rewind This is the Japanese version released in 1993 with remixed baddies/level changes & a nice intro missing from the US version.
 
 http://www.mobygames.com/game/genesis/killing-game-show

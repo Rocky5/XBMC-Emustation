@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Puzzle
 Gametype: Licensed
 Release Year: 1990
-Developer: Nintendo R&amp;D1
+Developer: Nintendo R&D1
 Publisher: Nintendo
 Players: 1 or 2 VS
 _________________________

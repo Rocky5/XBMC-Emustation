@@ -44,7 +44,7 @@ Infinite Continues
 Before the end of the first level, you have to break a special egg. It's on the left edge of the piece of land the G sign is on, close to the platform. Jump around until it appears. Break it and grab the Hudson Bee inside. Now, whenever you die you can simply hold right and press Start to continue from the level where you died. 
 
 Get to the world you like!
-When you are at the main menu, you can put in a code that let you teleport to any other world (1-8).less-than sign>less-than sign>ABAB Teleport to another world.
+When you are at the main menu, you can put in a code that let you teleport to any other world (1-8).<><>ABAB Teleport to another world.
 
 See the next boss ahead of time
 When you defeat the first boss, pause the game as the first boss leaves the screen. You'll be able to see the next boss.

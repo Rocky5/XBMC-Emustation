@@ -56,7 +56,7 @@ Xtrasname=Addams Family
 Xtrasname=Addams Family - Pugsley's Scavenger Hu
 
 [96B0C568, B3EF81F5, 610A1191]
-Xtrasname=Adventures of Batman &amp; Robin
+Xtrasname=Adventures of Batman & Robin
 
 [E4925F15, CFAB3BBA]
 Xtrasname=Adventures of Dr. Franken
@@ -170,7 +170,7 @@ Xtrasname=Assault Suits Valken
 Xtrasname=Asterix
 
 [83AF6152]
-Xtrasname=Asterix &amp; Obelix
+Xtrasname=Asterix & Obelix
 
 [F43F6743, B0A02734, F812B533]
 Xtrasname=Axelay
@@ -251,7 +251,7 @@ Xtrasname=Battle Soccer - Field no Hasha
 Xtrasname=Battle Soccer II
 
 [043F3773, 8B18AC01, F60ABA70]
-Xtrasname=Battletoads &amp; Double Dragon
+Xtrasname=Battletoads & Double Dragon
 
 [BBF1CF8D, 48F15B03, 617AC925]
 Xtrasname=Battletoads In Battlemaniacs
@@ -623,7 +623,7 @@ Xtrasname=Der Langrisser
 Xtrasname=Desert Strike - Return to the Gulf
 
 [954340F8]
-Xtrasname=Dig &amp; Spike Volleyball
+Xtrasname=Dig & Spike Volleyball
 
 [1AFE71A8]
 Xtrasname=Shin Megami Tensei I
@@ -716,7 +716,7 @@ Xtrasname=Dragon Ball Z - Super Butouden II
 Xtrasname=Dragon Ball Z - Super Butouden III
 
 [B5AE1E89]
-Xtrasname=Dragon Quest I &amp; II
+Xtrasname=Dragon Quest I & II
 
 [391CBF6A]
 Xtrasname=Dragon Quest III
@@ -815,7 +815,7 @@ Xtrasname=Eurit
 Xtrasname=Extra Innings
 
 [F6AD28A3, 20143571, 8A2CC850]
-Xtrasname=AD&amp;D - Eye Of The Beholder
+Xtrasname=AD&D - Eye Of The Beholder
 
 [F1D8F5DA, 7681EFC1, AA0E31DE, F9F30F5C]
 Xtrasname=F-Zero
@@ -905,7 +905,7 @@ Xtrasname=Final Fantasy IV
 Xtrasname=FFIV - Cosmetic Changes
 
 [A7749187]
-Xtrasname=Final Fantasy IV - Celes &amp; Terra
+Xtrasname=Final Fantasy IV - Celes & Terra
 
 [A9920E9B]
 Xtrasname=Final Fantasy IV - Last Hope
@@ -1226,7 +1226,7 @@ Xtrasname=Irem Skins Game
 Xtrasname=Iron Commando
 
 [95B65DFE, C402347A]
-Xtrasname=Itchy &amp; Scratchy Game
+Xtrasname=Itchy & Scratchy Game
 
 [B096E82E, E9BB68C7]
 Xtrasname=Izzy's Quest for the Olympic Rings
@@ -1289,10 +1289,10 @@ Xtrasname=Jimmy Connors Pro Tennis Tour
 Xtrasname=Jimmy Houston's Bass Tournament USA
 
 [3A2B6167, FB9F19BA, DB8447EB, 1048576]
-Xtrasname=Joe &amp; Mac I
+Xtrasname=Joe & Mac I
 
 [0C3B4201, EC7A2ED3]
-Xtrasname=Joe &amp; Mac II - Lost in the Tropics
+Xtrasname=Joe & Mac II - Lost in the Tropics
 
 [796294C6]
 Xtrasname=John Madden Football
@@ -1379,7 +1379,7 @@ Xtrasname=Kid Klown in Crazy Chase
 Xtrasname=Killer Instinct
 
 [615A183B]
-Xtrasname=King Arthur &amp; The Knights of Justice
+Xtrasname=King Arthur & The Knights of Justice
 
 [A0972C36, 99BD1FE1, CF00D401, 81B9EEF2]
 Xtrasname=King Arthur's World
@@ -1475,7 +1475,7 @@ Xtrasname=Legend of Zelda - Map 2
 Xtrasname=Legend of Zelda - Master Quest
 
 [2A7999F6]
-Xtrasname=Legend of Zelda - Night &amp; Day
+Xtrasname=Legend of Zelda - Night & Day
 
 [B65E3092]
 Xtrasname=Legend of Zelda - Omega
@@ -1607,10 +1607,10 @@ Xtrasname=Magna Braban - Henreki no Yuusha
 Xtrasname=Manchester United Championship Soccer
 
 [86416D2C]
-Xtrasname=Mario &amp; Luigi and the 7 Eggs
+Xtrasname=Mario & Luigi and the 7 Eggs
 
 [C6695E34, 7BC22342, B52C3A46]
-Xtrasname=Mario &amp; Wario
+Xtrasname=Mario & Wario
 
 [5E04EFB5, 2EC7C6FE, F6F739A9, E51A3FCD]
 Xtrasname=Mario is Missing!
@@ -1718,7 +1718,7 @@ Xtrasname=Michael Andretti's Indy Car Challenge
 Xtrasname=Michael Jordan Chaos in the Windy City
 
 [F9014863, 240442EA]
-Xtrasname=Mick &amp; Mack as the Global Gladiators
+Xtrasname=Mick & Mack as the Global Gladiators
 
 [9656424D]
 Xtrasname=Mickey to Donald - Magical Adventure
@@ -1769,7 +1769,7 @@ Xtrasname=Mobile Suit Gundam - Cross Dimension
 Xtrasname=Mobile Suit V-Gundam
 
 [6CF14848, 0B207E7F]
-Xtrasname=MoHawk &amp; Headphone Jack
+Xtrasname=MoHawk & Headphone Jack
 
 [42FE51E1, D6DA408E, 88D54085]
 Xtrasname=Monopoly
@@ -2006,7 +2006,7 @@ Xtrasname=Pac-In-Time
 Xtrasname=Pac-Man II - The New Adventures
 
 [BAB26E9C]
-Xtrasname=Packy &amp; Marlon
+Xtrasname=Packy & Marlon
 
 [3C42A7B6, 26C38EEE, 6F2C46C6]
 Xtrasname=Pagemaster
@@ -2087,10 +2087,10 @@ Xtrasname=Pitfall - The Mayan Adventure
 Xtrasname=Plok!
 
 [B3F491C6, 99F8D70B, 2B0E7EA3]
-Xtrasname=Pocky &amp; Rocky I
+Xtrasname=Pocky & Rocky I
 
 [226929CF, FC00BB1B, 3B94B032]
-Xtrasname=Pocky &amp; Rocky II
+Xtrasname=Pocky & Rocky II
 
 [F863C642]
 Xtrasname=Pokemon Stadium
@@ -2210,16 +2210,16 @@ Xtrasname=Redline F-1 Racer
 Xtrasname=Relief Pitcher
 
 [672EBF39, 723959E7]
-Xtrasname=Ren &amp; Stimpy Show - Buckeroos!
+Xtrasname=Ren & Stimpy Show - Buckeroos!
 
 [0B472197]
-Xtrasname=Ren &amp; Stimpy Show - Fire Dogs
+Xtrasname=Ren & Stimpy Show - Fire Dogs
 
 [5CBF87B5, DE8FE3E8]
-Xtrasname=Ren &amp; Stimpy Show - Time Warp
+Xtrasname=Ren & Stimpy Show - Time Warp
 
 [06DDBB0D, FD1C12A3, A893E64B]
-Xtrasname=Ren &amp; Stimpy Show - Veediots!
+Xtrasname=Ren & Stimpy Show - Veediots!
 
 [8FB5AC86]
 Xtrasname=Rendering Ranger R2
@@ -2267,7 +2267,7 @@ Xtrasname=Rock n' Roll Racing
 Xtrasname=Rocketeer
 
 [0ECDC493]
-Xtrasname=Rockman &amp; Forte
+Xtrasname=Rockman & Forte
 
 [197B4CBA, AD080FD7]
 Xtrasname=Rocko's Modern Life
@@ -2477,13 +2477,13 @@ Xtrasname=Spell Craft
 Xtrasname=Spider-Man
 
 [D2B0D5FE, 7EF2BB0C, 1362465B]
-Xtrasname=Spider-Man &amp; Venom - Maximum Carnage
+Xtrasname=Spider-Man & Venom - Maximum Carnage
 
 [CD274974, 919C509D]
-Xtrasname=Spider-Man &amp; Venom - Separation Anxiet
+Xtrasname=Spider-Man & Venom - Separation Anxiet
 
 [D679058D, AE878CCB, 6FD2CD8C]
-Xtrasname=Spider-Man &amp; the X-Men in Arcade's Rev
+Xtrasname=Spider-Man & the X-Men in Arcade's Rev
 
 [4FFDC221, 8F5B2404, 52B68163]
 Xtrasname=Spindizzy Worlds
@@ -2714,7 +2714,7 @@ Xtrasname=Super Loopz
 Xtrasname=Super Luigi - The Power Scepters
 
 [925FFA69, 925637C7, 303205D8, F84305B1, C0998849]
-Xtrasname=Super Mario AllStars &amp; SMW
+Xtrasname=Super Mario AllStars & SMW
 
 [1B5E35C4]
 Xtrasname=Super Mario Blooper World
@@ -3053,7 +3053,7 @@ Xtrasname=Terminator I
 Xtrasname=Terranigma
 
 [523E4153, 6C852EF3]
-Xtrasname=Tetris &amp; Dr. Mario
+Xtrasname=Tetris & Dr. Mario
 
 [19B69A57, CE3392B1, 3BC7054A]
 Xtrasname=Tetris II
@@ -3083,7 +3083,7 @@ Xtrasname=Time Trax
 Xtrasname=Time Cop
 
 [5E91C599, 341C6FB0]
-Xtrasname=Timon &amp; Pumbaa's Jungle Games
+Xtrasname=Timon & Pumbaa's Jungle Games
 
 [EC26F75B]
 Xtrasname=Tin Star
@@ -3107,7 +3107,7 @@ Xtrasname=TKO Super Championship Boxing
 Xtrasname=TNN Bass Tournament of Champions
 
 [72B57042, BA2DE054, 8B1DAFBB, CB6D3883]
-Xtrasname=Tom &amp; Jerry
+Xtrasname=Tom & Jerry
 
 [3D005F22]
 Xtrasname=Winter Extreme Skiing and Snowboarding

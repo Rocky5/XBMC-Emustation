@@ -6,8 +6,8 @@ Controller: Gamepad
 Genre: Sports, Golf
 Gametype: Licensed
 Release Year: 1993
-Developer: T&amp;E Soft
-Publisher: T&amp;E Soft
+Developer: T&E Soft
+Publisher: T&E Soft
 Players: 1 to 4
 _________________________
 True Golf: Wicked 18 (known in Japan as Devil's Course) is a Super NES and 3DO golfing game that takes place on the hardest simulated golf course in the world. The object is to guide the golf ball through nearly impossible obstacles as the player tries to score as low as possible in order to win the day. Using the caddy, it is possible to scan the situation before hitting the ball with an analyzer that is similar to RoboCop. This game shows players what the golf course in Hell will be like when they die. The bunkers are extremely treacherous, there is lava as well as water hazards, and out of bounds can be in the middle of the hole. There are no demons to battle as the player attempts to win in stroke play, match play, or tournament play (but just getting to the green can be dangerous).

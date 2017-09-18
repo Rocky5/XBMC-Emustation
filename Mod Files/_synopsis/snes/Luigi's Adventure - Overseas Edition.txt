@@ -11,4 +11,4 @@ Hacked by: Anikiti
 _________________________
 This is the work which remade "Luigi's Adventure" which is the first item to a base in "Luigi's Adventure" for foreign countries. It is made a language English, and degree of difficulty adjustment and the bugfix are done.
 
-http://www.smwcentral.net/?p=showhack&amp;id=2806
+http://www.smwcentral.net/?p=showhack&id=2806

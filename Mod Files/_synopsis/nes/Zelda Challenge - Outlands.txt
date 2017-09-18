@@ -19,7 +19,7 @@ Secrets are now locked according to what quest you're playing. For example, the 
 
 Most of the monsters have new graphics (including all bosses) and some even have new colors.
 
-There are 42 possible block, water &amp; statue arrangements for the many dungeon rooms, and all but 3 are brand new.
+There are 42 possible block, water & statue arrangements for the many dungeon rooms, and all but 3 are brand new.
 
 That's just a taste of what has been changed and how much work went into this hack!
 

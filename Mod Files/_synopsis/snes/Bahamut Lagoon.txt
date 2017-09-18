@@ -38,7 +38,7 @@ Once you clear the game once, hit reset at the ending screen, and you'll notice 
 screen, 'Ex Game'. Using EX game you can keep your levels, items, and gold.
 
 Music Test
-Hold the L &amp; R buttons and press RESET to bring up the music test screen.
+Hold the L & R buttons and press RESET to bring up the music test screen.
 
 Reviewer: Spinner 8
 http://www.romhacking.net/trans/280/

@@ -1,4 +1,4 @@
-Tetris &amp; Dr. Mario
+Tetris & Dr. Mario
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Puzzle
 Gametype: Licensed
 Release Year: 1994
-Developer: Nintendo Research &amp; Development 1
+Developer: Nintendo Research & Development 1
 Publisher: Nintendo
 Players: 2
 _________________________

@@ -9,7 +9,7 @@ Release Year: 2000
 Translated by: Aeon Genesis
 Version: 1.00
 _________________________
-Rock on! Wizardry is neat little first-person dungeon crawler that first appeared on the Apple ][. It has a very Dungeons &amp; Dragons feel to it, which comes from the basic game play system, and the general "ambiance" of the game.
+Rock on! Wizardry is neat little first-person dungeon crawler that first appeared on the Apple ][. It has a very Dungeons & Dragons feel to it, which comes from the basic game play system, and the general "ambiance" of the game.
 
 Anyway, the first three Wizardry Games (Proving Ground of the Mad Overlord, Knight of Diamonds, and Legacy of Llylgamyn) were all ported to the Nes, and were decent as far as Nes first-person games go ;).However, only "Proving grounds," and "Knight of Diamonds" were translated to English, leaving Legacy behind.
 

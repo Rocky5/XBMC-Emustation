@@ -8,6 +8,6 @@ Gametype: Homebrew
 Release Year: 2002
 Developer: Snowbro Software
 _________________________
-2002 homebrew game based off the Game &amp; Watch original.
+2002 homebrew game based off the Game & Watch original.
 
 http://torp.110mb.com/game100in1gba.html

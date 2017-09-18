@@ -7,7 +7,7 @@ Controller: Gamepad
 Genre: Platformer
 Gametype: Licensed
 Release Year: 1993
-Developer: Al Baker &amp; Associates, Accolade
+Developer: Al Baker & Associates, Accolade
 Publisher: Accolade
 Players: 1
 _________________________

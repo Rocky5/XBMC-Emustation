@@ -17,7 +17,7 @@ In Dark Delusion, you play as Reina, a girl who was kidnapped with her family an
 
 You control the character in a 3D environment in which you place traps to kill your persecutors (who have weapons). It's a real-time game that allows you to use a system of (timing + skill of activating traps) through the rooms of a medieval castle as the opponents try to kill you. As you activate the traps, you can link them to activate each other, in way to increase the number of combos.
 
-Depending on how you kill your opponents, and how many of them, determines how much &amp;quot;Ark&amp;quot; (money) you get to develop better traps. They can be created by using ancient black magic: emblems (fire, ice, thunder, poison, etc.), orbs (that improve the power of the trap) and rings (automatic, charge, damage, zero, etc.).
+Depending on how you kill your opponents, and how many of them, determines how much &quot;Ark&quot; (money) you get to develop better traps. They can be created by using ancient black magic: emblems (fire, ice, thunder, poison, etc.), orbs (that improve the power of the trap) and rings (automatic, charge, damage, zero, etc.).
 
 There are many other traps set over the environment, working automatically out of control of the player (spears, spikes, fans, etc.). They also can be used to increase the (combos + damage) inflicted at your victims. Oh, I mean, invaders...
 

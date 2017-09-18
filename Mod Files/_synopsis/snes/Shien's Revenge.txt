@@ -3,7 +3,7 @@ Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
 Controller: Gamepad
-Genre: Action, Hack &amp; Slash, First Person
+Genre: Action, Hack & Slash, First Person
 Gametype: Licensed
 Release Year: 1994
 Developer: Almanic

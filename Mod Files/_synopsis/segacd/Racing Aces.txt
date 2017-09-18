@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Action
 Gametype: Undefined
 Release Year: 1993
-Developer: Hammond &amp; Leyland
+Developer: Hammond & Leyland
 Publisher: SEGA
 _________________________
 The cold war has ended. Big defense contractors, specifically the ones that make fighter planes, organize a new sport. Pilots fly planes of various historical significance in low altitude races for big prizes.

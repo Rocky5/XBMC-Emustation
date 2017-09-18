@@ -6,8 +6,8 @@ Controller: Gamepad
 Genre: Puzzle
 Gametype: Translated
 Release Year: 2001
-Developer: T&amp;E Soft
-Publisher: T&amp;E Soft
+Developer: T&E Soft
+Publisher: T&E Soft
 Players: 1
 Translated by: Aeon Genesis
 Version: 1.00

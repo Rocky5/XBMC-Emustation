@@ -25,4 +25,4 @@ Well, guess what? For some reason, this feature has been removed! The only weapo
 
 So, what we have here is a Mega Man port where the programmers took a Mega Man game, kept the sprites and levels, and removed all the mechanics that made this series stand out amongst all the other platformers out there! It seems the programmers weren't quite up to the task of capturing the essence of capturing and adequately adapting the original game mechanics to the Genesis, which seems to be a lot harder to do as it is the case with a classic jump-'n-run. Considering this, however, it was a very odd choice to try and adapt Mega Man in the first place. 
 
-http://sega-16.com/feature_page.php?id=380&amp;title=Hacks+&amp;+Homebrews:+Unofficial+Ports
+http://sega-16.com/feature_page.php?id=380&title=Hacks+&+Homebrews:+Unofficial+Ports

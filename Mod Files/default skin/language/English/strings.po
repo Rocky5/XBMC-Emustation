@@ -695,7 +695,7 @@ msgid "[UPPERCASE]thumb[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32030"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]default to last systems rom list?[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32031"
@@ -736,27 +736,27 @@ msgstr ""
 
 ##  Other Settings Menu
 msgctxt "#32040"
-msgid "[UPPERCASE]refresh emulator list[/UPPERCASE]"
+msgid "[UPPERCASE]emulator list[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32041"
-msgid "[UPPERCASE]refresh all layouts[/UPPERCASE]"
+msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32042"
-msgid "[UPPERCASE]Menu Counters[/UPPERCASE]"
+msgid "[UPPERCASE]refresh stuff[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32043"
-msgid "[UPPERCASE]refresh cut files[/UPPERCASE]"
+msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32044"
-msgid "[UPPERCASE]refresh xbe files[/UPPERCASE]"
+msgid "[UPPERCASE]xbox/ports menu counters[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32045"
-msgid "[UPPERCASE]refresh all[/UPPERCASE]"
+msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32046"
@@ -768,7 +768,7 @@ msgid "[UPPERCASE]auto scan roms[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32048"
-msgid "[UPPERCASE]update selected systems (manual mode)[/UPPERCASE]"
+msgid "[UPPERCASE]update selected systems[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32049"

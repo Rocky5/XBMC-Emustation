@@ -6,6 +6,6 @@ Controller: NES Gamepad
 Genre: Platformer 
 Gametype: Pirate
 _________________________
-This is a hack of Monster in my Pocket for the NES, where the 2 main guys were replaced by Batman and Flash. Nothing else except these 2 sprites and the main menu was changed. The title on the actual cart was "Batman &amp; Flashman". 
+This is a hack of Monster in my Pocket for the NES, where the 2 main guys were replaced by Batman and Flash. Nothing else except these 2 sprites and the main menu was changed. The title on the actual cart was "Batman & Flashman". 
 
 http://www.youtube.com/watch?v=TgDGBTGkvPM

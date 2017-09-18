@@ -1,5 +1,5 @@
 <window type="window" id="1114">
-		<defaultcontrol always="true">1</defaultcontrol>
+		<defaultcontrol always="true">2</defaultcontrol>
 		<onload condition="Skin.HasSetting(menucounters)">Skin.Reset(menucounters)</onload>
 		<onload condition="Skin.HasSetting(menucutcreate)">Skin.Reset(menucutcreate)</onload>
 		<controls>
@@ -37,15 +37,8 @@
 								<onup>9000</onup>
 								<ondown>9000</ondown>
 								<itemgap>-1</itemgap>
-								<control type="button" id="1">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32040]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scanner.py,scan_emus,0,0,0)</onclick>
-								</control>
-								<!-- refresh counters -->
-								<control type="label" id="10">
+								<!-- refresh stuff -->
+								<control type="label" id="1">
 										<posx>320</posx>
 										<posy>130</posy>
 										<width>640</width>
@@ -56,15 +49,14 @@
 										<label>$LOCALIZE[32042]</label>
 										<textcolor>menu_header_label</textcolor>
 								</control>
-								<control type="button" id="11">
+								<control type="button" id="2">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32043]</label>
+										<label> &gt; $LOCALIZE[32040]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scanner.py,0,scan_cuts,0,0)</onclick>
-										<animation effect="fade" time="0">hidden</animation>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scanner.py,scan_emus,0,0,0)</onclick>
 								</control>
-								<control type="button" id="12">
+								<control type="button" id="3">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32044]</label>
@@ -72,15 +64,7 @@
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scanner.py,0,0,scan_xbes,0)</onclick>
 										<animation effect="fade" time="0">hidden</animation>
 								</control>
-								<control type="button" id="13">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32045]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scanner.py,0,scan_cuts,scan_xbes,0)</onclick>
-										<animation effect="fade" time="0">hidden</animation>
-								</control>
-								<!-- Cut creation -->
+								<!-- Scan Roms -->
 								<control type="label" id="20">
 										<posx>320</posx>
 										<posy>130</posy>
@@ -97,7 +81,7 @@
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32047]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create_cut_files.py,0,auto)</onclick>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create_rom_lists.py,0,auto)</onclick>
 										<animation effect="fade" time="0">hidden</animation>
 								</control>
 								<control type="button" id="22">
@@ -105,7 +89,7 @@
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32048]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create_cut_files.py,manual,0)</onclick>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create_rom_lists.py,manual,0)</onclick>
 										<animation effect="fade" time="0">hidden</animation>
 								</control>
 								<!-- custom paths -->
@@ -166,7 +150,6 @@
 										<label>$LOCALIZE[32054]</label>
 										<textcolor>menu_header_label</textcolor>
 								</control>
-								<!-- gui calibrate -->
 								<control type="button" id="41">
 										<posx>0</posx>
 										<posy>0</posy>
@@ -174,7 +157,6 @@
 										<include>MenuButtonCommonValues</include>
 										<onfocus condition="Skin.HasSetting(menucutcreate)">Skin.Reset(menucutcreate)</onfocus>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/generate_thumbs.py)</onclick>
-										<onclick>Dialog.Close(1115,true)</onclick>
 								</control>
 						</control>
 				</control>

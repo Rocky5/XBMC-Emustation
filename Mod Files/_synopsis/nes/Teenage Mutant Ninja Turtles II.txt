@@ -43,7 +43,7 @@ Select Button: Select between 1 or 2 Turtles
 
 Hints:
 
-Extra lives &amp; Stage select
+Extra lives & Stage select
 At the Title Screen press B, A, B, A, Up, Down, B, A, Left, Right, B, A, Start 
 
 Reviewer: LinkOfHyrule

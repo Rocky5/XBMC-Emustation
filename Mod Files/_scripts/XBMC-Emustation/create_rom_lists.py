@@ -1,9 +1,9 @@
 '''
 	Script by Rocky5
-	Used to create .cut files from your emulator and roms folder.
+	Used to create static lists from your emulator and roms folder.
 	
 	Mame and FBA, must have there roms placed inside there root directory.
-	( the script will generate the correct cut file for these emulators )
+	( the script will generate static lists for emulators )
 '''
 
 import glob, os, shutil, sys, time, xbmc, xbmcgui
@@ -16,7 +16,7 @@ except:
 	Full_Scan	= "0"
 
 #####	Start markings for the log file.
-print "| _Scripts\XBMC-Emustation\create_cut_files.py loaded."
+print "| _Scripts\XBMC-Emustation\create_rom_lists.py loaded."
 
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
@@ -43,7 +43,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 			CUTFile_Path		= Root_Directory + '_cuts\\'
 			Scripts_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\'
 			TBN_Path			= Root_Directory + '_tbns\\'
-			Content_List_Path	= xbmc.translatePath( "Special://skin/720p/content lists/" )
+			Rom_List_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\rom lists\\'
 			Extensions			= [ "zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 
 def log( input ):
@@ -60,6 +60,7 @@ def manual_scan():
 
 	log('|	Set the Countlist variable and set the emu_name variable.')
 	CountList = 1
+	CUTCount = 0
 	Parse_CUE_CCD_ISO_File = 0
 	Parse_ISO_BIN_IMG_File = 0
 	Parse_ISO_File = 0
@@ -77,11 +78,11 @@ def manual_scan():
 		return manual_scan()
 	
 	log('|	Check for previous layout xml and if it exists remove it.')
-	if os.path.isfile( Content_List_Path + Emu_Name + '.xml' ): os.remove( Content_List_Path + Emu_Name + '.xml' )
-	if not os.path.isdir( Content_List_Path ): os.makedirs( Content_List_Path )
+	if os.path.isfile( Rom_List_Path + Emu_Name + '.xml' ): os.remove( Rom_List_Path + Emu_Name + '.xml' )
+	if not os.path.isdir( Rom_List_Path ): os.makedirs( Rom_List_Path )
 
 	log('|	Write new layout xml header.')
-	with open( Content_List_Path + Emu_Name + '.xml', "w") as outputmenufile:
+	with open( Rom_List_Path + Emu_Name + '.xml', "wb") as outputmenufile:
 		WriteMenuFile = menu_entry_header
 		outputmenufile.write( WriteMenuFile )
 	
@@ -111,10 +112,6 @@ def manual_scan():
 	log('|	Convert Q:\\ to a direct path')
 	if Roms_Folder.startswith("Q:\\"): Roms_Folder = Roms_Folder.replace( "Q:\\", Root_Directory )
 	
-	log('|	Couple more vars being set')
-	Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
-	TBN_File = os.path.join( TBN_Path, Emu_Name ) + '\\'
-	
 	log('|	Check to see if the emulators = rom folder is empty and exit if it is.')
 	if len(os.listdir( Roms_Folder )) > 0:
 		
@@ -128,15 +125,27 @@ def manual_scan():
 					Rom_Name = Items
 					CUT_File_Name = Rom_Name[:-4]
 					Rom_Name_noext = Rom_Name[:-4]
+	
+					log('|	Couple more vars being set')
+					Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
+					TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.tbn'
+					
 					try:
 						with open( os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' ) ) as input:
 							Synopsis = input.read()
 							Synopsis1 = Synopsis.split('_________________________', 1)[0]
 							Synopsis2 = Synopsis.split('_________________________', 1)[1]
+							Synopsis1 = Synopsis1.replace( '&', '&amp;' )
+							Synopsis1 = Synopsis1.replace( '>', '&gt;' )
+							Synopsis1 = Synopsis1.replace( '<', '&lt;' )
+							Synopsis2 = Synopsis2.replace( '&', '&amp;' )
+							Synopsis2 = Synopsis2.replace( '>', '&gt;' )
+							Synopsis2 = Synopsis2.replace( '<', '&lt;' )
 					except:
 						Synopsis1 = "No Synopsis"
 						Synopsis2 = ""
 					# Damn internal labelling system kicks in if these are left alone.
+					if Emu_Name == "gbc" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
 					if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
 					if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
 					if Emu_Name == "nes" and Rom_Name_noext == "720": Rom_Name_noext = "720 "
@@ -209,53 +218,56 @@ def manual_scan():
 					Found_Roms = 1
 					
 					log('|	Check to see if _tbns folder exists and if it doesnt create it.')
-					if not os.path.isdir( TBN_File ): os.makedirs( TBN_File )
+					if not os.path.isdir( os.path.join( TBN_Path, Emu_Name ) ): os.makedirs( os.path.join( TBN_Path, Emu_Name ) )
 					
 					log('|	Check to see if the output directory exists and remove it.')
 					if CountList == 1 and os.path.isdir( Output_Path ):
 						pDialog.update( 0,"","Doing house cleaning" )
 						shutil.rmtree( Output_Path )# remove old cut files
 					
-					log('|	Create a new output directory.')
-					if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
+					#log('|	Create a new output directory.')
+					#if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
 					
 					log('|	Show the progress bar progress.')
 					pDialog.update( ( CountList * 100 ) / len( os.listdir( Roms_Folder ) ),"Processing Roms",Rom_Name_noext,"Please wait..." )
 					
 					if Write_CUT_File:
 						log('|	Create the rest of the layout xml file.')
-						with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
+						CUTCount = CUTCount + 1
+						with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 							if Emu_Name == "fba":
-								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
+								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
 							elif Emu_Name == "mame":
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
+								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
 							else:
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
+								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',Synopsis2,TBN_File)
 							outputmenufile.write( WriteMenuFile )
 
-						log('|	Create the cut file for this rom.')
-						with open(Output_Path + CUT_File_Name + '.cut', "w") as outputfile:
-							if Emu_Name == "fba":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							elif Emu_Name == "atarijaguar":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							elif Emu_Name == "atarijaguarcd":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							elif Emu_Name == "mame":
-								WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							else:
-								WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
-							outputfile.write( WriteFile )
+						# log('|	Create the cut file for this rom.')
+						# with open(Output_Path + CUT_File_Name + '.cut', "wb") as outputfile:
+							# if Emu_Name == "fba":
+								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+							# elif Emu_Name == "atarijaguar":
+								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+							# elif Emu_Name == "atarijaguarcd":
+								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+							# elif Emu_Name == "mame":
+								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+							# else:
+								# WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
+							# outputfile.write( WriteFile )
 					
 					log('|	Add 1 to the Countlist.')
 					CountList = CountList + 1
+				
+		xbmc.executebuiltin('Skin.SetString('+ Emu_Name +'_games,'+ str( CUTCount ) + ')')	
 	else:
 		log('|	No roms exist so do some cleanup.')
-		shutil.rmtree( Output_Path )# remove old cut files
-		if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
+		# shutil.rmtree( Output_Path )# remove old cut files
+		# if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
 	
 	log('|	Add the footer to the layout xml file.')
-	with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
+	with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 		WriteMenuFile = menu_entry_footer
 		outputmenufile.write( WriteMenuFile )
 		
@@ -264,7 +276,7 @@ def manual_scan():
 		xbmcgui.Window(xbmcgui.getCurrentWindowId()).setProperty("MyScript.ExternalRunning", "True")
 		
 		log('|	Running the scan script to update the counters.')
-		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scanner.py,scan_emus,scan_cuts,0,0)' )
+		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scanner.py,scan_emus,0,0,0)' )
 		
 		log('|	Loop.')
 		while (xbmcgui.Window(xbmcgui.getCurrentWindowId()).getProperty("MyScript.ExternalRunning") == "True"):
@@ -286,6 +298,7 @@ def full_scan():
 		
 			log('|	Set the Countlist variable.')
 			CountList = 1
+			CUTCount = 0
 			Parse_CUE_CCD_ISO_File = 0
 			Parse_ISO_BIN_IMG_File = 0
 			Parse_ISO_File = 0
@@ -300,11 +313,11 @@ def full_scan():
 				Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
 				
 				log('|	Check for previous layout xml and if it exists remove it.')
-				if os.path.isfile( Content_List_Path + Emu_Name + '.xml' ): os.remove( Content_List_Path + Emu_Name + '.xml' )
-				if not os.path.isdir( Content_List_Path ): os.makedirs( Content_List_Path )
+				if os.path.isfile( Rom_List_Path + Emu_Name + '.xml' ): os.remove( Rom_List_Path + Emu_Name + '.xml' )
+				if not os.path.isdir( Rom_List_Path ): os.makedirs( Rom_List_Path )
 				
 				log('|	Write new layout xml header.')
-				with open( Content_List_Path + Emu_Name + '.xml', "w") as outputmenufile:
+				with open( Rom_List_Path + Emu_Name + '.xml', "wb") as outputmenufile:
 				
 					WriteMenuFile = menu_entry_header
 					outputmenufile.write( WriteMenuFile )
@@ -342,10 +355,6 @@ def full_scan():
 					log('|	Convert Q:\\ to a direct path')
 					if Roms_Folder.startswith("Q:\\"): Roms_Folder = Roms_Folder.replace( "Q:\\", Root_Directory )
 					
-					log('|	Couple more vars being set')
-					Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
-					TBN_File = os.path.join( TBN_Path, Emu_Name ) + '\\'
-					
 					log('|	Check to see if the emulators = rom folder is empty and exit if it is.')
 					if len(os.listdir( Roms_Folder )) > 0:
 					
@@ -359,15 +368,27 @@ def full_scan():
 								Rom_Name = Items
 								CUT_File_Name = Rom_Name[:-4]
 								Rom_Name_noext = Rom_Name[:-4]
+
+								log('|	Couple more vars being set')
+								Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
+								TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.tbn'
+								
 								try:
 									with open( os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' ) ) as input:
 										Synopsis = input.read()
 										Synopsis1 = Synopsis.split('_________________________')[0]
 										Synopsis2 = Synopsis.split('_________________________')[1]
+										Synopsis1 = Synopsis1.replace( '&', '&amp;' )
+										Synopsis1 = Synopsis1.replace( '>', '&gt;' )
+										Synopsis1 = Synopsis1.replace( '<', '&lt;' )
+										Synopsis2 = Synopsis2.replace( '&', '&amp;' )
+										Synopsis2 = Synopsis2.replace( '>', '&gt;' )
+										Synopsis2 = Synopsis2.replace( '<', '&lt;' )
 								except:
 									Synopsis1 = "No Synopsis"
 									Synopsis2 = ""
 								# Damn internal labelling system kicks in if these are left alone.
+								if Emu_Name == "gbc" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
 								if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
 								if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
 								if Emu_Name == "nes" and Rom_Name_noext == "720": Rom_Name_noext = "720 "
@@ -440,54 +461,56 @@ def full_scan():
 								Found_Roms = 1
 
 								log('|	Check to see if _tbns folder exists and if it doesnt create it.')
-								if not os.path.isdir( TBN_File ): os.makedirs( TBN_File )
+								if not os.path.isdir( os.path.join( TBN_Path, Emu_Name ) ): os.makedirs( os.path.join( TBN_Path, Emu_Name ) )
 
 								log('|	Check to see if the output directory exists and remove it.')
 								if CountList == 1 and os.path.isdir( Output_Path ):
 									pDialog.update( 0,"","Doing house cleaning" )
 									shutil.rmtree( Output_Path )# remove old cut files
 				
-								log('|	Create a new output directory.')
-								if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
+								#log('|	Create a new output directory.')
+								#if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
 								
 								log('|	Show the progress bar progress.')
 								pDialog.update( ( CountList * 100 ) / len( os.listdir( Roms_Folder ) ),"Processing [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Roms",Rom_Name_noext,"Please wait..." )
 								
 								if Write_CUT_File:
 									log('|	Create the rest of the layout xml file.')
-									with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
+									CUTCount = CUTCount + 1
+									with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 										if Emu_Name == "fba":
-											WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
+											WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
 										elif Emu_Name == "mame":
-											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
+											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
 										else:
-											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'Runxbe( "' + Output_Path + CUT_File_Name + '.cut" )',Synopsis2,TBN_File + CUT_File_Name + '.tbn')
+											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',Synopsis2,TBN_File)
 										outputmenufile.write( WriteMenuFile )
 
-									log('|	Create the cut file for this rom.')
-									with open(Output_Path + CUT_File_Name + '.cut', "w") as outputfile:
-										if Emu_Name == "fba":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-										elif Emu_Name == "atarijaguar":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-										elif Emu_Name == "atarijaguarcd":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-										elif Emu_Name == "mame":
-											WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-										else:
-											WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
-										outputfile.write( WriteFile )
+									# log('|	Create the cut file for this rom.')
+									# with open(Output_Path + CUT_File_Name + '.cut', "wb") as outputfile:
+										# if Emu_Name == "fba":
+											# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+										# elif Emu_Name == "atarijaguar":
+											# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+										# elif Emu_Name == "atarijaguarcd":
+											# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+										# elif Emu_Name == "mame":
+											# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+										# else:
+											# WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
+										# outputfile.write( WriteFile )
 								
 								log('|	Add 1 to the Countlist.')
 								CountList = CountList + 1
-					
+
+						xbmc.executebuiltin('Skin.SetString('+ Emu_Name +'_games,'+ str( CUTCount ) + ')')	
 					else:
 						log('|	No roms exist so do some cleanup.')
-						shutil.rmtree( Output_Path )# remove old cut files
-						if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
+						#shutil.rmtree( Output_Path )# remove old cut files
+						#if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
 						
 			log('|	Add the footer to the layout xml file.')
-			with open( Content_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
+			with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 				WriteMenuFile = menu_entry_footer
 				outputmenufile.write( WriteMenuFile )
 	
@@ -496,7 +519,7 @@ def full_scan():
 		xbmcgui.Window(xbmcgui.getCurrentWindowId()).setProperty("MyScript.ExternalRunning", "True")
 		
 		log('|	Running the scan script to update the counters.')
-		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scanner.py,scan_emus,scan_cuts,0,0)' )
+		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'scanner.py,scan_emus,0,0,0)' )
 		
 		log('|	Loop.')
 		while (xbmcgui.Window(xbmcgui.getCurrentWindowId()).getProperty("MyScript.ExternalRunning") == "True"):
@@ -521,6 +544,8 @@ menu_entry			= '\n\
 menu_entry_footer	= '\n</content>'
 
 logging = 0 # Setting this to 1 will spam the living hell out of your log file if you run the Auto mode, you have been warned
+if os.path.isdir( xbmc.translatePath( "Special://skin/720p/content lists/" ) ): shutil.rmtree( xbmc.translatePath( "Special://skin/720p/content lists/" ) ) # Remove old content files folder if it exists
+
 if Manual_Scan == "manual" : manual_scan()
 if Full_Scan == "auto" : full_scan()
 

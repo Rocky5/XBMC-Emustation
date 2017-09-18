@@ -9,6 +9,6 @@ Release Year: Unreleased
 Developer: Daou
 Publisher: Innovation Tech
 _________________________
-Buzz &amp; Waldog is a 2D Platformer game, developed by Daou and published by Innovation Tech, which was cancelled before it was released.
+Buzz & Waldog is a 2D Platformer game, developed by Daou and published by Innovation Tech, which was cancelled before it was released.
 
 http://www.gamefaqs.com/console/nes/home/938374.html

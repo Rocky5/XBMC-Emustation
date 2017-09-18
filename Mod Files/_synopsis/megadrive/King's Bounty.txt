@@ -38,4 +38,4 @@ D-Pad: Move target
 A or C Button: Move to selected area or attack enemy (if target is on enemy)
 
 Reviewer: by Scott Alan Marriott
-http://www.allgame.com/game.php?id=14677&amp;tab=overview
+http://www.allgame.com/game.php?id=14677&tab=overview

@@ -1,5 +1,5 @@
-Mario &amp; Toad
-Original title: Nuts &amp; Milk
+Mario & Toad
+Original title: Nuts & Milk
 Platform: Nintendo Entertainment System
 Region: USA (Update Hacks)
 Media: Cartridge
@@ -11,7 +11,7 @@ Players: 1 or 2 VS
 Hacked by: Evil_Spock
 Version: 1.0
 _________________________
-This is a hack of a Japanese NES (famicom) game called "Nuts &amp; Milk" that I completed overnight in the summer of 2000. The gameplay was simple but fun, yet the graphics were absolutely horrendous. You controlled these little animals that looked like a cross between a pig and a mailbox. Thus, I decided to hack in some graphics from SMB3. I think it makes the game much more bearable, and I hope you think so too.
+This is a hack of a Japanese NES (famicom) game called "Nuts & Milk" that I completed overnight in the summer of 2000. The gameplay was simple but fun, yet the graphics were absolutely horrendous. You controlled these little animals that looked like a cross between a pig and a mailbox. Thus, I decided to hack in some graphics from SMB3. I think it makes the game much more bearable, and I hope you think so too.
 
 Game Story (hastily concocted): Toadworld has been infiltrated by the evil Wario clones. You, Mario, must save your friend Toad from the Warios. Collect all the mushrooms and leaves, then hurry and save Toad before the Warios stop you!
 

@@ -26,5 +26,5 @@ C Button: Knee attack, guillotine drop, somersault drop, elbow drop
 contol pad: Moves character around the screen
 
 Reviewer: Tibes80
-http://www.allgame.com/game.php?id=226&amp;tab=controls
+http://www.allgame.com/game.php?id=226&tab=controls
 http://www.mobygames.com/game/genesis/king-of-the-monsters

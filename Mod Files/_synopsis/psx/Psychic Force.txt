@@ -10,7 +10,7 @@ Developer: Taito Corporation
 Publisher: Taito Corporation
 Players: 1 or 2 VS
 _________________________
-The year is 2010, and people are being born with special powerful abilities, such as the power to control the elements. These people are deemed &amp;quot;Psychics&amp;quot;. A large group of underground Psychics are plotting something mysterious, which may endanger everyone, and this group is called &amp;quot;Noa&amp;quot;. Psychic Force follows the intertwined adventures of a group of Psychics as they each struggle to reach their goal, and ultimately defeat the threat of Noa.
+The year is 2010, and people are being born with special powerful abilities, such as the power to control the elements. These people are deemed &quot;Psychics&quot;. A large group of underground Psychics are plotting something mysterious, which may endanger everyone, and this group is called &quot;Noa&quot;. Psychic Force follows the intertwined adventures of a group of Psychics as they each struggle to reach their goal, and ultimately defeat the threat of Noa.
 
 Psychic Force is a one-on-one fighting game and battles take place in a flying, floating cube on a 2D plane. The characters use a combination of Psi powers and combat techniques, with each player having his/her own special abilities. Each Psychic character has attacks relevant to the element they control (fire, ice, thunder, wind, gravity, etc.), while Gates (the only non-Psychic character) has a built-in weapons system. Every character has two light attacks, two heavy attacks, one ultimate attack, a charge and the ability to block attacks. There is a Training mode, where players can learn and test out Psi powers, the regular Arcade mode, and a Story mode in which the main characters fulfil their quests.
  

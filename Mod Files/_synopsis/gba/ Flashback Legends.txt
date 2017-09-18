@@ -20,10 +20,10 @@ Whoever leaked this to the public doubtless hoped to show us where the series mi
 
 CONTROLS:
 
-UP: less-than signnormal> jump, pull yourself up
+UP: &lt;normal&gt; jump, pull yourself up
 DOWN: crouch
-A: toggle combat and normal modes; less-than signinventory> view item description
-B: less-than signnormal> run (hold B and press left or right), short jump (hold B and press up), use lifts (hold B and press up or down); less-than signcombat> shoot; less-than signinventory> select item
+A: toggle combat and normal modes; &lt;inventory&gt; view item description
+B: &lt;normal&gt; run (hold B and press left or right), short jump (hold B and press up), use lifts (hold B and press up or down); &lt;combat&gt; shoot; &lt;inventory&gt; select item
 
 L: throw a stone if you've selected it
 R: get gameplay hints in the first level when the corresponding icon appears, if you've enabled this in the pause menu

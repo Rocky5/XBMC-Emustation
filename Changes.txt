@@ -1,3 +1,13 @@
+18/09/2017
+	1) Fixed the xbmc skinning engine crashing when trying to exit the Other Settings menu after scanning roms.
+	2) Updated the synopsis txt files to there original status. ( the script changes them on the fly to work with the static menus )
+	3) Updated how the Roms are scanned in, no more cut files are created. ( Faster! )
+	4) Added a new script to launch roms, this creates the cut file on the fly and loads it.
+	5) Option to re-enter the last emulator menu upon exiting a emulator. ( UI Setting Menu )
+	6) Updated the dialog select to match the rest.
+	7) Other scripts modifications.
+	
+
 14/09/2017
 	1) Updated the busy dialog
 	2) Updated the home.xml moved some things to includes to reduce the size also cleaned up some of the code.

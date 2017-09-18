@@ -61,7 +61,7 @@ When you're in range of enemies, quickly press select + R until you get to commu
 
 Tips:
 
-Invincibility &amp; Sound Test
+Invincibility & Sound Test
 At title screen, press B, A, B, Y, B, Y, L, A, R, A, Start.  Then in options select any of the missions from the 13 areas.
 
 Start in the middle of the game, w/ 20 kills in one sortie in the Rostov system, flying a Raptor with Iceman Go to continue, and input AABBCCDD as your handle and BBCCDDFFGG as your code.

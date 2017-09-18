@@ -53,7 +53,7 @@ Some of the obvious changes are as follows?
 
  - Custom title screen
 
- - A lot of various nerfs &amp; buffs
+ - A lot of various nerfs & buffs
 
  - Some graphics restored to original uncensored
 

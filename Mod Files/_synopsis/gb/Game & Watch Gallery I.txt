@@ -1,4 +1,4 @@
-Game &amp; Watch Gallery
+Game & Watch Gallery
 Platform: Nintendo Game Boy
 Region: USA
 Media: Cartridge
@@ -9,9 +9,9 @@ Release Year: 1997
 Developer: Nintendo
 Publisher: Nintendo
 _________________________
-The Game &amp; Watch Gallery is Nintendo's first portable compilation featuring their popular line of original 1980's handheld games, featuring the popular "Mr. Game &amp; Watch" himself, as well as Mario and friends.
+The Game & Watch Gallery is Nintendo's first portable compilation featuring their popular line of original 1980's handheld games, featuring the popular "Mr. Game & Watch" himself, as well as Mario and friends.
 
-The compilation consists of four popular titles from the Game &amp; Watch Series, each with a "Classic" and "Modern" version of each game:
+The compilation consists of four popular titles from the Game & Watch Series, each with a "Classic" and "Modern" version of each game:
 
 - Octopus: Collects as much treasure as your bag can hold, while avoiding the octopus tentacles that continually swing around you. In the "Modern" version, Mario becomes the diver, and as he collects more treasure, his bag becomes heavier, making it harder to return to the surface. Mario can also delay the octopus tentacles by throwing treasure at them.
 

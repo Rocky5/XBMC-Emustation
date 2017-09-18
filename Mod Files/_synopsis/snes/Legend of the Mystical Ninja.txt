@@ -27,7 +27,7 @@ In America and Europe, this game was followed by Mystical Ninja Starring Goemon 
 Tips:
 
 Unlimited Hamburgers
-Enter v, x, Z, +, +, I, h, :, @, Y, n, n, 3, +, !, $, T, +, K, K, h, G, :, !, less-than sign, +, !, +, X, @, r
+Enter v, x, Z, +, +, I, h, :, @, Y, n, n, 3, +, !, $, T, +, K, K, h, G, :, !, <, +, !, +, X, @, r
 
 Level Passwords:
 MRbjhj 1
@@ -35,9 +35,9 @@ MRbjhj 1
 8hXwow 3
 W: 3LNL 4
 K=bPbR 5
-1tlless-than signHless-than sign 6
+1tl<H< 6
 '?kk5k 8
-&amp;xT>X> 9
+&xT>X> 9
 H-WNxN Final Level
 
 Win the Lottery

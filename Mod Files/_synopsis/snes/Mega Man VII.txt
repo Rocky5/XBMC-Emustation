@@ -171,7 +171,7 @@ from the egg; let all of them run into the shield and
 they will die).
 }Versus Mode
 Enter the following password: 1415 5585 7823 6251
-Then press and hold R &amp; L, and push the start button.
+Then press and hold R & L, and push the start button.
 After doing so you'll be taken to the Versus Mode
 character select screen.
 

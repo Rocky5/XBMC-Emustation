@@ -20,7 +20,7 @@ if str(xbmcgui.getCurrentWindowId()) == "11111": MenuLabel = xbmc.getInfoLabel('
 if MenuLabel == "dummy label for python script":	MenuLabel = "apps"
 MyPrograms_Path					= xbmc.translatePath( 'special://skin/720p/MyPrograms.xml' )
 ThemeType						= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
-Content_List_Path				= xbmc.translatePath( "Special://skin/720p/content lists/" )
+Rom_List_Path					= xbmc.translatePath( "Special://xbmc/_scripts/XBMC-Emustation/rom lists/" )
 Default_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/layout.xml' )
 Default_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/synopsis_layout.xml' )
 Default_Thumb_Layout			= xbmc.translatePath( 'special://xbmc/_layouts/default/' + ThemeType + '/thumb_layout.xml' )
@@ -124,7 +124,7 @@ if XBE_Files == 0:
 		Default_Layout_XML_Path			= Default_Layout
 		Layout_XML_Path					= Custom_Layout
 
-	if os.path.isfile( os.path.join( Content_List_Path,MenuLabel + '.xml' ) ):
+	if os.path.isfile( os.path.join( Rom_List_Path,MenuLabel + '.xml' ) ):
 		## this is here so not to mess with the actual menulabel
 		if not os.path.isfile( Layout_XML_Path ):
 			MenuLabel_XML = "default"
@@ -143,7 +143,7 @@ if XBE_Files == 0:
 						inputfile.write( Footer_Data_EMU )
 						inputfile.close()
 
-				with open( Content_List_Path + MenuLabel + '.xml' ) as countfile:
+				with open( Rom_List_Path + MenuLabel + '.xml' ) as countfile:
 					countfile = countfile.read()
 					for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
 						if '</focusedlayout>' in line:
@@ -165,7 +165,7 @@ if XBE_Files == 0:
 						inputfile.write( Footer_Data_EMU )	
 						inputfile.close()
 
-				with open( Content_List_Path + MenuLabel + '.xml' ) as countfile:
+				with open( Rom_List_Path + MenuLabel + '.xml' ) as countfile:
 					countfile = countfile.read()
 					for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
 						if '</focusedlayout>' in line:
@@ -177,10 +177,12 @@ if XBE_Files == 0:
 			xbmc.executebuiltin( 'ActivateWindow(Programs,Static_Menu,return)' )
 
 		else:	# default layout is missing so error!
+			xbmc.executebuiltin('SetFocus(9000)')
 			dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XML_Path )
 
 	else:	# default layout is missing so error!
-		dialog.ok("ERROR","No content list found","Rescan this emulator for CUT files to fix.",os.path.join( Content_List_Path,MenuLabel + '.xml' ))
+		xbmc.executebuiltin('SetFocus(9000)')
+		dialog.ok("ERROR","No rom list found","Rescan this emulator for roms to fix.",os.path.join( Rom_List_Path,MenuLabel + '.xml' ))
 else:		
 	pass
 
@@ -233,6 +235,7 @@ if XBE_Files == 1:
 				xbmc.executebuiltin( 'ActivateWindow(Programs,'+ MenuLabel +',return)' )
 				
 	else:	# default layout is missing so error!
+		xbmc.executebuiltin('SetFocus(9000)')
 		dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XML_Path )
-else:		
-	pass
+else:
+	xbmc.executebuiltin('SetFocus(9000)')

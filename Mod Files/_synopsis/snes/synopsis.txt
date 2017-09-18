@@ -359,7 +359,7 @@ And the highlight is the last (secret) level where you have to fight a (WARNING:
 All in all I give it 9 of 10 possible points.
 
 Reviewer: Mastermind
-http://www.smwcentral.net/?p=showhack&amp;id=1833
+http://www.smwcentral.net/?p=showhack&id=1833
 *
 
 *
@@ -756,7 +756,7 @@ Addams Family Values is challenging but rarely frustrating, once you become adep
 
 Directions:
 
-Help Fester, Gomez, Morticia, Granny, Wednesday, Pugsly, Thing, Lurch &amp; Cousin It find baby Pubert and stop the evil Debby Jelinsky. 
+Help Fester, Gomez, Morticia, Granny, Wednesday, Pugsly, Thing, Lurch & Cousin It find baby Pubert and stop the evil Debby Jelinsky. 
 
 Trivia:
 
@@ -804,16 +804,16 @@ BZXYC 5 Hearts, Pugsley rescued
 BLKGZ 62Lives5Hearts + FamilyMemberssaved+FinalLevel
 BLKX8 70 Lives
 BDSXY 72 Lives, Granny rescued
-B&amp;1&amp;B 80 Lives, 5 Hearts, Granny &amp; Pugsley rescued
+B&1&B 80 Lives, 5 Hearts, Granny & Pugsley rescued
 BL91B After Fester
-B&amp;J15 After Grandma
+B&J15 After Grandma
 V1913 After Pugsly
 BD#K4 After Wednesday
-BLS&amp;P Ending (walk through Music Room)
-BLS&amp;P Final door open
+BLS&P Ending (walk through Music Room)
+BLS&P Final door open
 2211B Maxed Out Code
-&amp;#KKN Start of Game
-&amp;191? Start The Game with Giant Budgie Beaten
+&#KKN Start of Game
+&191? Start The Game with Giant Budgie Beaten
 99966 Start with 3 hearts
 
 Snap Things Fingers
@@ -864,7 +864,7 @@ http://en.wikipedia.org/wiki/The_Addams_Family:_Pugsley%27s_Scavenger_Hunt
 
 *
 96B0C568, B3EF81F5, 610A1191
-Adventures of Batman &amp; Robin, The
+Adventures of Batman & Robin, The
 Platform: Super Nintendo Entertainment System
 Region: USA, Europe
 Media: Cartridge
@@ -1029,7 +1029,7 @@ W99TXP Inca Cleared
 Z5FSDW Volcano Cleared
 89S9FGF0 Water Cleared
 
-http://www.gamespot.com/snes/action/mightymax/player_review.html?id=407838&amp;tag=player-reviews;continue;1
+http://www.gamespot.com/snes/action/mightymax/player_review.html?id=407838&tag=player-reviews;continue;1
 *
 
 *
@@ -1807,7 +1807,7 @@ Pinky, Dot, Nurse, Pinky, CEO, Wakko, Ralph, Brain, Nurse, Brain, Brain, Yakko
 Dot Studio
 Ralph, Ralph, Brain, CEO, Wakko, Pinky, Dot, Yakko, Dot, Nurse, Brain, 
 
-Studio &amp; Sci-Fi
+Studio & Sci-Fi
 Brain, Dot, Brain, Dot, Ralph, Nurse, Wakko, Dot, Yakko, CEO, Pinky, Wakko 
 
 Studio, Sci-Fi, and Fantasy
@@ -2117,7 +2117,7 @@ Misc. Codes
 Enter the following at the title screen:
 
 Die holding L + A. 
-B&amp;W Ardy
+B&W Ardy
 Press Start + Right + Y 
 
 Introductory Level Skip
@@ -2498,12 +2498,12 @@ Developer: Infogrames
 Publisher: Infogrames
 Players: 1 or 2
 _________________________*
-Asterix &amp; Obelix is a game released by Infogrames in 1996, for the PC, SNES, Game Boy and Game Boy Color, the player can choose to play with both Asterix or Obelix. The game also supports two players at the same time (both in the keyboard).
+Asterix & Obelix is a game released by Infogrames in 1996, for the PC, SNES, Game Boy and Game Boy Color, the player can choose to play with both Asterix or Obelix. The game also supports two players at the same time (both in the keyboard).
 *
 
 *
 83AF6152
-Asterix &amp; Obelix
+Asterix & Obelix
 Platform: Super Nintendo Entertainment System
 Region: Europe
 Media: Cartridge
@@ -2515,7 +2515,7 @@ Developer: Infogrames
 Publisher: Infogrames
 Players: 1 or 2 CO-OP
 _________________________*
-Asterix &amp; Obelix is a platform game where one player can choose to control either Asterix or Obelix or two players can play simultaneously. The mission of the two Gauls is to acquire artifacts from all across Europe.
+Asterix & Obelix is a platform game where one player can choose to control either Asterix or Obelix or two players can play simultaneously. The mission of the two Gauls is to acquire artifacts from all across Europe.
 
 The game, like the comics, is set around 50 BC. It includes some bonus levels like a rugby match and the Olympic Games in Greece. Codes are used to save the player's progress.
 
@@ -2648,7 +2648,7 @@ Once you clear the game once, hit reset at the ending screen, and you'll notice 
 screen, 'Ex Game'. Using EX game you can keep your levels, items, and gold.
 
 Music Test
-Hold the L &amp; R buttons and press RESET to bring up the music test screen.
+Hold the L & R buttons and press RESET to bring up the music test screen.
 
 Reviewer: Spinner 8
 http://www.romhacking.net/trans/280/
@@ -3461,7 +3461,7 @@ http://www.gamefaqs.com/console/snes/home/571179.html
 
 *
 043F3773, 8B18AC01, F60ABA70
-Battletoads &amp; Double Dragon: The Ultimate Team
+Battletoads & Double Dragon: The Ultimate Team
 Platform: Super Nintendo Entertainment System
 Region: USA, Europe
 Media: Cartridge
@@ -4220,7 +4220,7 @@ Genre: Role Playing Game
 Gametype: Hack
 Release Year: 2009
 Players: 1
-Hacked by: giangurgolo &amp; Omega
+Hacked by: giangurgolo & Omega
 Version: Final
 _________________________*
 Bowser's last deal with the so-called Bob-omb Mafia has left him empty-handed: the four koopa shells that belong to him still remain in the mafia's hands. Bowser has kidnapped the princess and is holding her for a ransomit's Mario's task to fulfill the mafia's end of the bargain and acquire Bowser's shells to rescue the princess.
@@ -4703,7 +4703,7 @@ Release Year: 2009
 Translated by: Synchronicity
 Version: 1.0
 _________________________*
-Brandish 2 - The Planet Buster (SFC) Original game by Nihon Falcom Translation by Synchronicity (sqykly &amp; denpa)
+Brandish 2 - The Planet Buster (SFC) Original game by Nihon Falcom Translation by Synchronicity (sqykly & denpa)
 
 *Original exploration experience  Wander through over 40 different areas in this 2D game that combines first person mechanics with an overhead viewpoint. The series trademark camera system combined with the AutoMap function makes even friendly towns and harbors exciting places to explore.
 
@@ -5065,7 +5065,7 @@ Version: Demo v1.7 (Unfinished)
 _________________________*
 Brutal Mario has been a very popular hack. However, most people have had one problem with it; they can't read Japanese. So many people have been wondering what the text boxes say and what the levels are called. Because of this, I decided to translate it into english. This is the exact same Brutal Mario we all know and love, just in english instead of japanese. I modified nothing other than the text.
 
-http://www.smwcentral.net/?p=showhack&amp;id=2526
+http://www.smwcentral.net/?p=showhack&id=2526
 *
 
 *
@@ -5823,7 +5823,7 @@ Players: 1 or 2 VS
 _________________________*
 No information can be found online about this game except for the fact that Jueno80 from the gamefaqs.com message board loves this game.  "MVP MVP"
 
-http://www.gamefaqs.com/boards/genmessage.php?board=588506&amp;topic=48346507
+http://www.gamefaqs.com/boards/genmessage.php?board=588506&topic=48346507
 *
 
 *
@@ -6777,13 +6777,13 @@ Hacked by: Chrono Compendium
 _________________________*
 Chrono Trigger: Crimson Echoes was a fan project modification of the Chrono Trigger ROM begun in late 2004. Development continued thanks to a dedicated group of fans through 2009. By May 2009, the game featured ~35 hours of game play, 10 multiple endings, and 23 chapters, much like the original Chrono Trigger; it was around 98% complete. The plot featured the original cast as they struggled against a new villain risen from the legacy of Zeal.
 
-The team planned to release Crimson Echoes on May 31, 2009 as the first feature-length fan Chrono series game, and an unprecedentedly exhaustive work in the ROM modification community. On May 8, 2009, Chrono Trigger: Crimson Echoes received a cease &amp; desist letter, along with all other game modification activity (even research) at the Chrono Compendium. In compliance with the letter, the development team ceased development on the game, and existing modifications (including Prophet's Guile) were taken down.
+The team planned to release Crimson Echoes on May 31, 2009 as the first feature-length fan Chrono series game, and an unprecedentedly exhaustive work in the ROM modification community. On May 8, 2009, Chrono Trigger: Crimson Echoes received a cease & desist letter, along with all other game modification activity (even research) at the Chrono Compendium. In compliance with the letter, the development team ceased development on the game, and existing modifications (including Prophet's Guile) were taken down.
 
 We thank those fans who followed the game's development, and also those who poured countless hours into the vision of a fun, new Chrono game, made by fans for fans without copyright claim or intent to make profit.
 
 We understand the frustration. I sincerely hope this action is a sign that Square Enix cares about the franchise and intends to produce future titles, and not merely a shortsighted legal exercise that will further alienate a tired, neglected fan-base.
 
-As a matter of public record, you may view the cease &amp; desist letter here: http://www.crimsonechoes.com/letter.pdf
+As a matter of public record, you may view the cease & desist letter here: http://www.crimsonechoes.com/letter.pdf
 
 http://www.crimsonechoes.com/
 *
@@ -6946,7 +6946,7 @@ Super Mario World 1990 Nintendo.
 Classic's Super Mario Brothers hack Remake 2008 BOBO/Lunartoad.
 Good game!
 
-http://www.smwcentral.net/?p=showhack&amp;id=1181
+http://www.smwcentral.net/?p=showhack&id=1181
 *
 
 *
@@ -7015,7 +7015,7 @@ Players: 1 or 2 VS
 _________________________*
 Clayfighter: Tournament Edition was a Super Nintendo exclusive fix of the original with many things changed, such as:
 
- - Most stages from the original were modified. Bad Mr. Frosty &amp; Blob's stages had no changes, however (as well as N. Boss's stage, since his was just a recolor of Blob's stage), while the other six fighters had edited stages. The edits were either slightly edited, some redone from scratch.
+ - Most stages from the original were modified. Bad Mr. Frosty & Blob's stages had no changes, however (as well as N. Boss's stage, since his was just a recolor of Blob's stage), while the other six fighters had edited stages. The edits were either slightly edited, some redone from scratch.
 
  - Many glitches from the original were fixed. Notably, the glitch to play as N. Boss was removed.
 
@@ -7436,7 +7436,7 @@ On the digitpress forum, a poster named furor had the following information:
 
 If you want to read the thread, this is the link:
 
-http://www.digitpress.com/forum/viewtopic.php?t=6765&amp;highlight=congo
+http://www.digitpress.com/forum/viewtopic.php?t=6765&highlight=congo
 
 I went and did some digging on usenet, and I found this, dated 1995/12/05:
 
@@ -7741,8 +7741,8 @@ Controller: Gamepad
 Genre: Puzzle
 Gametype: Translated
 Release Year: 2001
-Developer: T&amp;E Soft
-Publisher: T&amp;E Soft
+Developer: T&E Soft
+Publisher: T&E Soft
 Players: 1
 Translated by: Aeon Genesis
 Version: 1.00
@@ -7767,7 +7767,7 @@ Genre: Beat 'em Up, Movie adaptation
 Gametype: Licensed
 Release Year: 1996
 Developer: Software Creations
-Publisher: Acclain &amp; LJN
+Publisher: Acclain & LJN
 Players: 1 or 2 CO-OP
 _________________________*
 Cuttthroat Island is a pretty fun game. It is somewhat based on the movie of the same name. Your quest is to help your friend escape from prison and find the buried treasure.
@@ -8472,7 +8472,7 @@ Secret Scenarios
 Secret Scenario 1:
 On Scenario 6, place Elwin at the upper left corner of the map on the spot where the wall juts in a little bit more and kill all enemies. You will be given the option to investigate the Muscular Shrine. Say yes to access the secret level.
 
-Secret Level 2 &amp; 3:
+Secret Level 2 & 3:
 On Scenario 8, place Elwin at the bottom right corner of the map where there is a small pool with a stick sticking out of it and kill all enemies. Depending on whether you're in the Light or Imperial path, you'll go to either Secret Scenario 2 or 3 
 
 Starting Items Trick
@@ -8533,7 +8533,7 @@ http://www.consoleclassix.com/snes/desert_strike_return_gulf.html
 
 *
 954340F8
-Dig &amp; Spike Volleyball
+Dig & Spike Volleyball
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -8545,9 +8545,9 @@ Developer: Hudson Soft
 Publisher: Hudson Soft
 Players: 1 or 2 CO-OP or VS
 _________________________*
-DIG &amp; SPIKE VOLLEYBALL brings all the action of world-class v-ball into your living room. You can choose your country and play a 6-on-6 match against some of the best teams on the planet, or you can hit the beach and opt for some 2-on-2 action. In either mode, use all the techniques and skills you see on the pro circuit and in international competitions: digs, spike, power serves, dekes, and blocks. If you're interested in volleyball but aren't familiar with how it's played, head to the Training mode and learn the skills you'll need to succeed. When you find a team that fits your playing style, use the save feature and play with that same team again and again. The Two-Player mode allows you to play with or against a friend in either mode. So serve, set, and spike your way to victory with DIG &amp; SPIKE VOLLEYBALL.
+DIG & SPIKE VOLLEYBALL brings all the action of world-class v-ball into your living room. You can choose your country and play a 6-on-6 match against some of the best teams on the planet, or you can hit the beach and opt for some 2-on-2 action. In either mode, use all the techniques and skills you see on the pro circuit and in international competitions: digs, spike, power serves, dekes, and blocks. If you're interested in volleyball but aren't familiar with how it's played, head to the Training mode and learn the skills you'll need to succeed. When you find a team that fits your playing style, use the save feature and play with that same team again and again. The Two-Player mode allows you to play with or against a friend in either mode. So serve, set, and spike your way to victory with DIG & SPIKE VOLLEYBALL.
 
-Dig &amp; Spike Volleyball
+Dig & Spike Volleyball
 
 KIN team
 In Indoor Volleyball Mode, highlight the Algerian Flag and press Down + L + R + X + A
@@ -8642,7 +8642,7 @@ In order to pass each of the game's six levels, players must navigate through a 
 
 Level Passwords:
 8SHTK$S3HNDM 2
-HF4Nless-than signNBC41KT 3
+HF4N<NBC41KT 3
 5SKXT$S9HNZ4 4
 XKC5T$SWHNN4 5
 5CX6D$SOHF94 6
@@ -9135,7 +9135,7 @@ Unlimited lives
 To make this work you must use a save game. On your last life die as Diddy Kong. Then press start at the
 screen. When Cranky Kong appears press down, Y, down, down, Y. You will be brought to a room with 3 of each golden animal. You can enter any of these bonus games as often as you like. To exit, just press start, then select. You will be brought back to the last place you died in your save game.
 
-Warp past Stop &amp; Go Station.
+Warp past Stop & Go Station.
 As soon as you start the level, walk left back into the entrance. You will warp to the end of the stage, where some maneuvering will get you past the level.  
 
 Reviewer: Agoaj
@@ -9855,8 +9855,8 @@ http://www.romhacking.net/trans/334/
 
 *
 B5AE1E89
-Dragon Quest I &amp; II
-Original title: Dragon Quest I &amp; II
+Dragon Quest I & II
+Original title: Dragon Quest I & II
 Platform: Super Nintendo Entertainment System
 Region: Japan (Translated)
 Media: Cartridge
@@ -10344,7 +10344,7 @@ Developer: Software Heaven
 Publisher: JVC
 Players: 1
 _________________________*
-While previous games such as Alternate Reality: The Dungeon, The Bard's Tale, Ultima and Wizardry offered Dungeons &amp; Dragons-style role playing, Dungeon Master established several new standards for role playing and computer games in general. Dungeon Master was a realtime game instead of the traditional turn-based approach that was prevalent until then. Instead of using text-based commands to interact with the environment, players directly manipulated objects and the environment by clicking the mouse in the enlarged first-person view. Abstract Dungeons and Dragons style experience points and levels were eschewed in favor of a system where the characters' skills were improved directly via using them. It also introduced some novel control methods including the spell casting system, which involved learning sequences of runes which represented the form and function of a spell's effect. For example, a fireball spell was created by mixing the fire symbol with the wing symbol.
+While previous games such as Alternate Reality: The Dungeon, The Bard's Tale, Ultima and Wizardry offered Dungeons & Dragons-style role playing, Dungeon Master established several new standards for role playing and computer games in general. Dungeon Master was a realtime game instead of the traditional turn-based approach that was prevalent until then. Instead of using text-based commands to interact with the environment, players directly manipulated objects and the environment by clicking the mouse in the enlarged first-person view. Abstract Dungeons and Dragons style experience points and levels were eschewed in favor of a system where the characters' skills were improved directly via using them. It also introduced some novel control methods including the spell casting system, which involved learning sequences of runes which represented the form and function of a spell's effect. For example, a fireball spell was created by mixing the fire symbol with the wing symbol.
 
 This kind of attention to detail and focus on the user interface was typical of the game and helped create an often captivating sense of craft and ingenuity. Other factors in immersiveness were the then-revolutionary use of sound effects to indicate when a creature was nearby, and (primitive) dynamic lighting.
 
@@ -11224,13 +11224,13 @@ I will return to the Council soon, my investigations here are clearly fruitless.
 Your trusted friend,
 Khelben
 
---From the SNES AD&amp;D Eye of the Beholder instruction manual.
+--From the SNES AD&D Eye of the Beholder instruction manual.
 
 Overview:
 
 Go and destroy the beholder that is holding the town "hostage".
 
-Eye of the Beholder has a never-ending quality about it. Just when you think you have beaten a level, you can find secret areas. The game play is outstanding, almost perfectly imitating the real AD&amp;D game. The graphics are good, and so is the sound quality. A very good game in all respects, and true to the game of AD&amp;D.
+Eye of the Beholder has a never-ending quality about it. Just when you think you have beaten a level, you can find secret areas. The game play is outstanding, almost perfectly imitating the real AD&D game. The graphics are good, and so is the sound quality. A very good game in all respects, and true to the game of AD&D.
 
 Directions:
 
@@ -11279,7 +11279,7 @@ When the first Grand Prix race was held, people were angered at the brutality of
 
 In a very short time, people came to call this Grand Prix simply "F-Zero".
 
-Directly from the F-Zero instruction booklet (pg. 3 &amp; 4) ?1991, 1997 Nintendo of America, Inc.
+Directly from the F-Zero instruction booklet (pg. 3 & 4) ?1991, 1997 Nintendo of America, Inc.
 
 Good fast Mode 7 racer. This is where the intense F-zero X and F-zero GX come from. The controls are smooth and in no time you'll be rounding that curve and flying off the road to your death with no one to blame but yourself. Good old-school fun.
 
@@ -11547,7 +11547,7 @@ In the Arena, play a computerized version of tag. The first player to get ten "t
 Tips:
 
 Cyberscape (Puzzle Mode)
-Hold down L &amp; R while selecting the number of players, then let go when the screen fades to black.
+Hold down L & R while selecting the number of players, then let go when the screen fades to black.
 
 Cyberzone Cheat Menu
 At the Cyberzone starting level selection screen, hold L and R and press Start.
@@ -12203,7 +12203,7 @@ http://www.romhacking.net/hacks/609/
 
 *
 A7749187
-Final Fantasy IV: Celes &amp; Terra
+Final Fantasy IV: Celes & Terra
 Original title: Final Fantasy IV
 Platform: Super Nintendo Entertainment System
 Region: Update Hacks
@@ -12282,7 +12282,7 @@ Some of the obvious changes are as follows?
 
  - Custom title screen
 
- - A lot of various nerfs &amp; buffs
+ - A lot of various nerfs & buffs
 
  - Some graphics restored to original uncensored
 
@@ -12409,12 +12409,12 @@ In Kelb town, enter the Inn. You'll find a man sitting on a table talk to him th
 
 Avoiding the final battle
 If you don't want to fight Neo Exdeath (the transform of Exdeath) you need to use the command Mix (an ability
-of Chemist Job), then mix the items Maiden's Kiss &amp; Holy Water to create Kiss of Blessing, then give it to Exdeath and kill him, he won't transform to Neo Exdeath &amp; you can see the ending.
+of Chemist Job), then mix the items Maiden's Kiss & Holy Water to create Kiss of Blessing, then give it to Exdeath and kill him, he won't transform to Neo Exdeath & you can see the ending.
 
 Killing carbunle in 1 hit
 If you don't want to fight Neo Exdeath (the transform of Exdeath) you need to use the command Mix (an ability
-of Chemist Job), then mix the items Maiden's Kiss &amp; Holy Water to create Kiss of Blessing, then give
-it to Exdeath and kill him, he won't transform to Neo Exdeath &amp; you can see the ending.
+of Chemist Job), then mix the items Maiden's Kiss & Holy Water to create Kiss of Blessing, then give
+it to Exdeath and kill him, he won't transform to Neo Exdeath & you can see the ending.
 
 Make the game impossible.
 If you have a mystic knight on your party, cast Fire 3 and in the next round hit Carbuncle with it. It will not show any damage, but it will kill him.
@@ -13027,7 +13027,7 @@ Controller: Gamepad
 Genre: Pinball, Action, Fantasy
 Gametype: Licensed
 Release Year: 1994
-Developer: Hect &amp; Axes Art Amuser
+Developer: Hect & Axes Art Amuser
 Publisher: DTMC
 Players: 1 to 4
 _________________________*
@@ -13266,7 +13266,7 @@ View Credits
 CLIFF HIDES HOT JUICE 
 Volcanic 1
 
-http://www.gamefaqs.com/boards/genmessage.php?board=588340&amp;topic=42088145
+http://www.gamefaqs.com/boards/genmessage.php?board=588340&topic=42088145
 *
 
 *
@@ -13382,15 +13382,15 @@ Developer: Haus Teknikka
 Publisher: GameTek
 Players: 1
 _________________________*
-In the darkest depths of space many beings lurk... some are unimaginable creatures of terror... &amp; others just happen to be rather nice (despite being green &amp; spotty!). The Insideos are, however, definitely the former... evil, twisted &amp; purple - their one aim is to conquer all lifeforms who possess more than one leg - for, by a curious twist of fate, the Insideo race have always been monopods. This is the root cause of their insane jealousy - they hate anyone - or anything that possess more than one limb (many planets in the galaxy have been taken over by the snarling Insideo hordes!).
+In the darkest depths of space many beings lurk... some are unimaginable creatures of terror... & others just happen to be rather nice (despite being green & spotty!). The Insideos are, however, definitely the former... evil, twisted & purple - their one aim is to conquer all lifeforms who possess more than one leg - for, by a curious twist of fate, the Insideo race have always been monopods. This is the root cause of their insane jealousy - they hate anyone - or anything that possess more than one limb (many planets in the galaxy have been taken over by the snarling Insideo hordes!).
 
-The Insideos learn of the peaceful Fleaworld, where the inhabitants have not only two legs - but four arms... &amp; that, to an Insideo, is simply adding insult to injury! So, on the Insideo home world, the massive DESTRUKTOKON starships are launched - with the Evil Baron Von Spitz at their helm, with a mission to cut the Fleaworld down to size!!
+The Insideos learn of the peaceful Fleaworld, where the inhabitants have not only two legs - but four arms... & that, to an Insideo, is simply adding insult to injury! So, on the Insideo home world, the massive DESTRUKTOKON starships are launched - with the Evil Baron Von Spitz at their helm, with a mission to cut the Fleaworld down to size!!
 
-The attack comes quickly - the citizens of Fleaworld are a peaceful bunch - so the Insideo Troopers take very little time in herding the small &amp; helpless fleas into the detention cells, deep in their Destruktokons... all, that is, save one little flea... a flea they happen to call Frantic!
+The attack comes quickly - the citizens of Fleaworld are a peaceful bunch - so the Insideo Troopers take very little time in herding the small & helpless fleas into the detention cells, deep in their Destruktokons... all, that is, save one little flea... a flea they happen to call Frantic!
 
-As darkness falls Frantic sneaks into the Insideo ship - the advantage of his tiny size means he can easily avoid the Insideo detection devices. Eventually he reaches the holding pens &amp; manages to set his brothers &amp; sisters free. The newly liberated Minifleas scatter everywhere in blind panic searching the ship in an attempt to reach the exit doors... &amp; freedom!
+As darkness falls Frantic sneaks into the Insideo ship - the advantage of his tiny size means he can easily avoid the Insideo detection devices. Eventually he reaches the holding pens & manages to set his brothers & sisters free. The newly liberated Minifleas scatter everywhere in blind panic searching the ship in an attempt to reach the exit doors... & freedom!
 
-Meanwhile, inside the bowels of the ship, Frantic stumbles into an empty electronic lab (full of half finished Insideo devices) - as he searches around he stumbles over a massive machine marked 'Enormotron' (the only good habit the Insideos have is the clear labelling of their nefarious devices!). Frantic makes a snap decision - activates the machine &amp; jumps inside. The machine magically increases his size to that of the Insideos... now, not only can he help his friends &amp; even the odds... but kick purple alien butt too!
+Meanwhile, inside the bowels of the ship, Frantic stumbles into an empty electronic lab (full of half finished Insideo devices) - as he searches around he stumbles over a massive machine marked 'Enormotron' (the only good habit the Insideos have is the clear labelling of their nefarious devices!). Frantic makes a snap decision - activates the machine & jumps inside. The machine magically increases his size to that of the Insideos... now, not only can he help his friends & even the odds... but kick purple alien butt too!
 
 --From the SNES Frantic Flea instruction manual.
 
@@ -14234,11 +14234,11 @@ J126B1CX PZBZ5XKHP G128TGBB KBGRBBCZW Round 05
 J527B1CX PZB25XSJY O6G4XGBB MBGSBWGDB Round 06
 J93FB1CX PZB25XZKZ D#14OGWB MWGYBWCK6 Round 07
 KC3FB1CX PZBZ5X7K7 XFJW3HBB QWG3BWKQJ Round 08
-KJKFB1CX PZBZ5YFMQ &amp;K3G6JBB RBG5BWJVD Round 09
-KPKGB1CX PZBZ5YQP0 SRK88J40 TBG5BWHY&amp; Round 10
+KJKFB1CX PZBZ5YFMQ &K3G6JBB RBG5BWJVD Round 09
+KPKGB1CX PZBZ5YQP0 SRK88J40 TBG5BWHY& Round 10
 KTKGB1CX PZBZ5YYP0 5W48#6BD WBL8BWZFZ Round 11
 KPKGB1CX PZBZ5Y6RH K1MXBLLD YBL8CMBJF Round 12
-K2KGB1CX PZBZ52BSS 356SBMLD ZBR&amp;CMJPF Round 13
+K2KGB1CX PZBZ52BSS 356SBMLD ZBR&CMJPF Round 13
 
 http://www.consoleclassix.com/snes/gp_1_part_2.html
 *
@@ -14402,7 +14402,7 @@ http://www.gamefaqs.com/console/snes/home/570831.html
 
 *
 1903EA89, 7DE42137
-Great Circus Mystery Starring Mickey &amp; Minnie, The
+Great Circus Mystery Starring Mickey & Minnie, The
 Platform: Super Nintendo Entertainment System
 Region: USA, Europe
 Media: Cartridge
@@ -14708,7 +14708,7 @@ Players: 1 to 4
 _________________________*
 "Wrestling Purists Only"
 
-Hammerlock is a good wrestling game for those you who like the All Japan wrestling show, it is very much All Japan-esque. You have characters straight out of Japan that are sampled from real life wrestlers. The Great Muta, Stan Hansen(Baron Kaiser), The Great Tenryu, Hulk Hogan, and Vader(Alpha Bosak) are characters sampled in this game. It has a wide variety of slams &amp; suplexes for the wrestling purists. A handful of dirty tactics such as a foreign object to the face behind the ref's back made their way into this game. It's hard to find this game, it's from Jaleco(The people who produced NES' Bases Loaded). The game features many different ways to play, it's the first game to feature the Round Robin tournament system. There are several bloated wrestlers in this game who appear to be sumo wrestlers. The game play is slow, every time you hit a move your wrestlers takes a brief nap on the mat. The graphics are good, the game appears much like a comic book would.
+Hammerlock is a good wrestling game for those you who like the All Japan wrestling show, it is very much All Japan-esque. You have characters straight out of Japan that are sampled from real life wrestlers. The Great Muta, Stan Hansen(Baron Kaiser), The Great Tenryu, Hulk Hogan, and Vader(Alpha Bosak) are characters sampled in this game. It has a wide variety of slams & suplexes for the wrestling purists. A handful of dirty tactics such as a foreign object to the face behind the ref's back made their way into this game. It's hard to find this game, it's from Jaleco(The people who produced NES' Bases Loaded). The game features many different ways to play, it's the first game to feature the Round Robin tournament system. There are several bloated wrestlers in this game who appear to be sumo wrestlers. The game play is slow, every time you hit a move your wrestlers takes a brief nap on the mat. The graphics are good, the game appears much like a comic book would.
 
 The sound is decent, the crowd gets into the match if you hit a lot of moves, but it gets pretty quiet when you're not locking up or exchanging punches. Each wrestler has his own personalized theme music though. No wild brawling, beer bottles, or such. All the cheating and brawling in this game is done inside the ring. It's a very hard to find title for SNES like I said, I recommend it for wrestling purists that own the SNES. It handles like Super Fire Pro does for the Famicom. The game is a goodie, I like it because of all the different suplexes, martial art kicks, and a slew of submission holds. There is even a small dose of areal moves such as moonsaults, and leg drops from the top rope. I don't recommend this game to people who can't handle a game where your man falls to the ground after every move he hits except for the body slam. Patience is the key to Hammerlock wrestling.
 
@@ -15453,7 +15453,7 @@ As a racing game, the resemblance is visual. The mode 7 "tracks" bear a resembla
 
 HyperZone contains eight levels in total. After the initial game is finished, it restarts from the beginning with the player continuing in the same ship and keeping score; the game loops infinitely.
 
-Development &amp; Reception:
+Development & Reception:
 
 HyperZone bears a striking resemblance to Eliminator, a game released for the Amiga and various 8-Bit computers. The game's perspective and its unusual landscapes were inspired by the "Star Gate" sequence of 2001: A Space Odyssey. The offtrack landscape in the Material Factory (Area 1 in the US/European version, Area 3 in the Japanese version) is a tessellation of flashing tetrominos that resemble those in Tetris; the boss in Area 3 resembles the right part of the SNES controller, and buttonsof the same four colors as the Super Famicom logocircle around it. Another HAL game, Kirby's Dream Land 3, references this game: the final area in the game is called Hyperzone, and several other areas share names.
 
@@ -16089,7 +16089,7 @@ http://www.gamefaqs.com/console/snes/review/R115301.html
 
 *
 95B65DFE, C402347A
-Itchy &amp; Scratchy Game, The
+Itchy & Scratchy Game, The
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -16101,9 +16101,9 @@ Developer: Bits Studios
 Publisher: Acclaim Entertainment
 Players: 1
 _________________________*
-They fight! and fight! and fight, and fight, and fight!... Itchy &amp; Scratchy, from The Simpsons, are a cat and mouse cartoon duo. Itchy the mouse and Scratchy the cat exist only to find new and creative ways to attack and kill one another. As the latest cartoon adventures appear on the television, the violence spreads to brand new places.
+They fight! and fight! and fight, and fight, and fight!... Itchy & Scratchy, from The Simpsons, are a cat and mouse cartoon duo. Itchy the mouse and Scratchy the cat exist only to find new and creative ways to attack and kill one another. As the latest cartoon adventures appear on the television, the violence spreads to brand new places.
 
-Itchy &amp; Scratchy is a single player platform side-scroller. The player controls Itchy, the mouse, and must defeat Scratchy, the cat, with a variety of weapons. Itchy caries a default mallet, but can pick up additional weapons on particular levels. Each of the seven levels takes place in a different fictional location and is designed as a maze of doors and platforms. After defeating Scratchy, he usually will return with a special contraption to attack Itchy, and must therefore be defeated again.
+Itchy & Scratchy is a single player platform side-scroller. The player controls Itchy, the mouse, and must defeat Scratchy, the cat, with a variety of weapons. Itchy caries a default mallet, but can pick up additional weapons on particular levels. Each of the seven levels takes place in a different fictional location and is designed as a maze of doors and platforms. After defeating Scratchy, he usually will return with a special contraption to attack Itchy, and must therefore be defeated again.
 
 http://www.mobygames.com/game/snes/itchy-scratchy-game
 *
@@ -16746,7 +16746,7 @@ April-1st-220 pts
 BWBM @@@G @@@4 @G@@ @@@@ @M@G @@@@ @@@G @5CD 
 February-1st-100 pts
 
-CHCR @M@G TL@S @DBK @MTK @G@G @L@K @D@F @W&amp;M 
+CHCR @M@G TL@S @DBK @MTK @G@G @L@K @D@F @W&M 
 March-1st-140 pts
 
 http://en.wikipedia.org/wiki/Jimmy_Connors_Pro_Tennis_Tour
@@ -16777,8 +16777,8 @@ SO MUCH BASS IT WILL KNOCK YOU FLAT ON YOUR A$$!!!
 
 *
 3A2B6167, FB9F19BA, DB8447EB, 1048576
-Joe &amp; Mac
-Alternative title: Joe &amp; Mac: Caveman Ninja
+Joe & Mac
+Alternative title: Joe & Mac: Caveman Ninja
 Platform: Super Nintendo Entertainment System
 Region: USA, Europe
 Media: Cartridge
@@ -16834,8 +16834,8 @@ http://www.consoleclassix.com/snes/joe_mac.html
 
 *
 0C3B4201, EC7A2ED3
-Joe &amp; Mac 2: Lost in the Tropics
-Alternative title: Joe &amp; Mac 3: Lost in the Tropics
+Joe & Mac 2: Lost in the Tropics
+Alternative title: Joe & Mac 3: Lost in the Tropics
 Platform: Super Nintendo Entertainment System
 Region: USA, Europe
 Media: Cartridge
@@ -17117,7 +17117,7 @@ Level Password
  17 XCWV
  18 TQZH
 
-http://www.consoleclassix.com/titleslist.html?list=IJ&amp;system=SNES
+http://www.consoleclassix.com/titleslist.html?list=IJ&system=SNES
 *
 
 *
@@ -17870,14 +17870,14 @@ This game use :
 -ExGFX
 -Customs sprites
 -Customs musics
--New ending &amp; credits
+-New ending & credits
 -News characters.
 
 The final boss is not impossible has to beat, you owe find yourself the means to eliminate him(it).
 
 Kid Adventure by BOBO/Lunartoad, good game!
 
-http://www.smwcentral.net/?p=showhack&amp;id=2031
+http://www.smwcentral.net/?p=showhack&id=2031
 *
 
 *
@@ -17904,7 +17904,7 @@ There is a glitch on the map when we reach the last level, but when you make a r
 
 Kid Adventure 2 by BOBO/Lunartoad, good game!
 
-http://www.smwcentral.net/?p=showhack&amp;id=2252
+http://www.smwcentral.net/?p=showhack&id=2252
 *
 
 *
@@ -18072,7 +18072,7 @@ http://www.consoleclassix.com/snes/killer_instinct.html
 
 *
 615A183B
-King Arthur &amp; The Knights of Justice
+King Arthur & The Knights of Justice
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -18080,7 +18080,7 @@ Controller: Gamepad
 Genre: Adventure, Top Down, Fantasy
 Gametype: Licensed
 Release Year: 1995
-Developer: Manley &amp; Associates
+Developer: Manley & Associates
 Publisher: Enix
 Players: 1
 _________________________*
@@ -19019,7 +19019,7 @@ In America and Europe, this game was followed by Mystical Ninja Starring Goemon 
 Tips:
 
 Unlimited Hamburgers
-Enter v, x, Z, +, +, I, h, :, @, Y, n, n, 3, +, !, $, T, +, K, K, h, G, :, !, less-than sign, +, !, +, X, @, r
+Enter v, x, Z, +, +, I, h, :, @, Y, n, n, 3, +, !, $, T, +, K, K, h, G, :, !, <, +, !, +, X, @, r
 
 Level Passwords:
 MRbjhj 1
@@ -19027,9 +19027,9 @@ MRbjhj 1
 8hXwow 3
 W: 3LNL 4
 K=bPbR 5
-1tlless-than signHless-than sign 6
+1tl<H< 6
 '?kk5k 8
-&amp;xT>X> 9
+&xT>X> 9
 H-WNxN Final Level
 
 Win the Lottery
@@ -19441,7 +19441,7 @@ http://www.romhacking.net/hacks/170/
 
 *
 2A7999F6
-Legend of Zelda: Night &amp; Day, The
+Legend of Zelda: Night & Day, The
 Original title: Zelda: A Link to the Past
 Platform: Super Nintendo Entertainment System
 Region: Update Hacks
@@ -20267,7 +20267,7 @@ Or nearly so - for after their wild extraterrestrial adventures, the three broth
 
 Dissatisfied with his job as senior polar bear wrangler, Baleog the Fierce auditioned for the Nordic Gladiators but stomped out in disgust when he was barred from bringing his own weaponry. It was then that Baleog realized his responsibility to pass on his skills to the next generation of Vikings. He formed Baleog's School of Plunder, with a popular curriculum focusing on Pillaging, Plundering, and Setting Things On Fire. He became famous throughout Scandinavia for a brilliant lecture course entitled Geat-Crushing In Three Easy Steps. ("Step One: Select a Geat. Step Two: Aim high. Step Three: Crush.") He then went on a tour promoting his book Stalking The Wild Geat and its wildly successful sequel Just What IS A Geat, Anyway?
 
-Olaf the Stout decided to pursue his dream of becoming a sumo wrestler and set off in search of the Land of the Rising Sun. He made it as far as the Land of the Noonish Sun before he turned back - not because the journey was too tough but because he couldn't find lasagna anywhere beyond the Mediterranean. Instead, he returned sheepishly home to his family and devoted himself to instructing his children in the arts of swordsmanship, looting, thundering, and making decent goat cheese. Both of his daughters now attend the Baleog School of Plunder- Olaf is especially proud of his eldest, Gerda, who has achieved the rank of Honorary Valkyrie AND can out eat her dad any day of the week. Olaf has appeared on "Lifestyles Of The Large &amp; Bearded" and is busy working on a Combat Frisbee, although the neighbors insist that the idea will never fly.
+Olaf the Stout decided to pursue his dream of becoming a sumo wrestler and set off in search of the Land of the Rising Sun. He made it as far as the Land of the Noonish Sun before he turned back - not because the journey was too tough but because he couldn't find lasagna anywhere beyond the Mediterranean. Instead, he returned sheepishly home to his family and devoted himself to instructing his children in the arts of swordsmanship, looting, thundering, and making decent goat cheese. Both of his daughters now attend the Baleog School of Plunder- Olaf is especially proud of his eldest, Gerda, who has achieved the rank of Honorary Valkyrie AND can out eat her dad any day of the week. Olaf has appeared on "Lifestyles Of The Large & Bearded" and is busy working on a Combat Frisbee, although the neighbors insist that the idea will never fly.
 
 Erik the Swift's experiences in outer space left him bored with village life. He ended up with the mystic Order of the Leaping Mountain Goat, where he finally learned peace, enlightenment, and how to eat a tin can whole. In fact, Erik emptied his mind so thoroughly that he then spent months wandering around dazed and confused, sculpting fjords out of mashed potatoes and believing he was an iguana. He regained his memory after several knocks on the head, all self-inflicted whilst attempting to ram open a can of tuna: --KANG! KANG!-- "Wait a minute! I'm not an iguana at all!" --KANG! KANG!- "Heeey, I'm Erik the Swift!" He swiped a ship and hurried home to the village, where he was warmly greeted by his brothers... especially Olaf, who was thrilled to discover that his own journey had NOT been the most ridiculous one in the history of the village, after all.
 
@@ -20351,7 +20351,7 @@ Controller: Gamepad
 Genre: Platformer
 Gametype: Licensed
 Release Year: 1993
-Developer: Silicon &amp; Synapse
+Developer: Silicon & Synapse
 Publisher: Interplay
 Players: 1
 _________________________*
@@ -20451,7 +20451,7 @@ http://en.wikipedia.org/wiki/Lucky_Luke
 
 *
 5E1AA1A6, FDB80165, 8278693D, 380D91FE, D93C0DD4, F4225C87
-Lufia &amp; The Fortress of Doom
+Lufia & The Fortress of Doom
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -20477,7 +20477,7 @@ I will help you get started by showing you how Maxim led his warriors to victory
 
 Overview:
 
-Lufia and the Fortress of Doom is a lot of fun to play. It's no wonder it's one of our most popular games. There is a terrific story to the game and the graphics look great. The fact that Lufia is an RPG helps it's popularity too. A lot of the people that use our service love RPG's. A lot of people have misconceptions about what a role playing game (RPG) is. Originally, the term just meant a game in which you play the role of another (usually fictional) person. Then, it started to be used to describe games such as D&amp;D and the like. As a matter of fact, I still think of D&amp;D whenever I hear the term. Now, however, it is used to describe almost any game that has one or all of the elements mentioned above. RPG's used to be for what most people would call nerds, now RPG gamers are diverse and numerous. 
+Lufia and the Fortress of Doom is a lot of fun to play. It's no wonder it's one of our most popular games. There is a terrific story to the game and the graphics look great. The fact that Lufia is an RPG helps it's popularity too. A lot of the people that use our service love RPG's. A lot of people have misconceptions about what a role playing game (RPG) is. Originally, the term just meant a game in which you play the role of another (usually fictional) person. Then, it started to be used to describe games such as D&D and the like. As a matter of fact, I still think of D&D whenever I hear the term. Now, however, it is used to describe almost any game that has one or all of the elements mentioned above. RPG's used to be for what most people would call nerds, now RPG gamers are diverse and numerous. 
 
 RPG's have gone mainstream with games like Final Fantasy (parts 1-100 or something), Harvest Moon, and now they even have a Lord of the Rings RPG entitled The Third Age. RPG's are some of the most challenging games that software developers have to offer. If you like them, then give Lufia and the Fortress of Doom a try!
 
@@ -20648,7 +20648,7 @@ Defeat the Jelly at the bottom of the Ancient Cave in your first play-through an
 *
 9F6FC2B9
 Lufia: Decensored
-Original title: Lufia &amp; the Fortress of Doom
+Original title: Lufia & the Fortress of Doom
 Platform: Super Nintendo Entertainment System
 Region: Update Hacks
 Media: Cartridge
@@ -20692,7 +20692,7 @@ Hacked by: Anikiti
 _________________________*
 This is the work which remade "Luigi's Adventure" which is the first item to a base in "Luigi's Adventure" for foreign countries. It is made a language English, and degree of difficulty adjustment and the bugfix are done.
 
-http://www.smwcentral.net/?p=showhack&amp;id=2806
+http://www.smwcentral.net/?p=showhack&id=2806
 *
 
 *
@@ -21435,7 +21435,7 @@ http://www.gamefaqs.com/console/snes/home/578847.html
 
 *
 86416D2C
-Mario &amp; Luigi and the 7 Eggs
+Mario & Luigi and the 7 Eggs
 Original title: Super Mario World
 Platform: Super Nintendo Entertainment System
 Region: Update Hacks
@@ -21447,12 +21447,12 @@ Hacked by: cyphermur9t
 _________________________*
 The seven eggs of peace have been stolen and the land turned rotten. Mario and Luigi venture out in search of the eggs and collect them one by one...
 
-http://www.smwcentral.net/?p=showhack&amp;id=1518
+http://www.smwcentral.net/?p=showhack&id=1518
 *
 
 *
 C6695E34, 7BC22342, B52C3A46
-Mario &amp; Wario
+Mario & Wario
 Platform: Super Nintendo Entertainment System
 Region: Japan
 Media: Cartridge
@@ -21672,7 +21672,7 @@ Hacked by: superwiidude
 _________________________*
 An epic journey that takes place all across the mushroom kingdom, as two rivals match wits. it's the plumbers vs the evil king koopa, Bowser. also please delete the other two versions apon aproval. have fun everyone.
 
-http://www.smwcentral.net/?p=showhack&amp;id=2757
+http://www.smwcentral.net/?p=showhack&id=2757
 *
 
 *
@@ -21867,7 +21867,7 @@ This is a beta not in the commonly-seen sense of "I want to show something off e
 
 This hack contains 88 exits across 68 levels.
 
-http://www.smwcentral.net/?p=showhack&amp;id=2320
+http://www.smwcentral.net/?p=showhack&id=2320
 *
 
 *
@@ -22076,7 +22076,7 @@ Genre: Educational
 Gametype: Licensed
 Release Year: 1994
 Developer: Western Technologies
-Publisher: Davidson &amp; Associates
+Publisher: Davidson & Associates
 Players: 1
 _________________________*
 The game's story is a simple rescue mission, centering on the efforts of Blasternaut to retrieve Spot from the clutches of the malicious "Trash Alien," who, apparently, litters out of sheer spite. The garbage he leaves behind consists primarily of empty containers and bad food, though coil-springs, boots and fish skeletons are also present.
@@ -22245,7 +22245,7 @@ Hacked by: superwiidude
 _________________________*
 With the evil king of the koopas desending upon the land of dinosaurs, its up to rex to stop him. 
 
-http://www.smwcentral.net/?p=showhack&amp;id=3031
+http://www.smwcentral.net/?p=showhack&id=3031
 *
 
 *
@@ -22567,7 +22567,7 @@ from the egg; let all of them run into the shield and
 they will die).
 }Versus Mode
 Enter the following password: 1415 5585 7823 6251
-Then press and hold R &amp; L, and push the start button.
+Then press and hold R & L, and push the start button.
 After doing so you'll be taken to the Versus Mode
 character select screen.
 
@@ -22626,7 +22626,7 @@ Overview:
 
 This was one of the best games ever made for the SNES. Mega Man X took full advantage of the capabilities of the SNES in the realms of graphics, playability, sound, and controls. It was very simple to play, yet hard to master. Like most Mega Man games there were plenty of secrets to find and lots of weapons to gain (from the sub-bosses of course).
 
-This was also the first game that had Zero. Zero is another robot based on Mega Man X's design who helps in certain parts of the game. Any Mega Man fan should certainly play this game in the series along with Mega man X 2 &amp; 3. 
+This was also the first game that had Zero. Zero is another robot based on Mega Man X's design who helps in certain parts of the game. Any Mega Man fan should certainly play this game in the series along with Mega man X 2 & 3. 
 
 Directions:
 
@@ -22682,7 +22682,7 @@ All Items All Bosses Defeated and Hadoken Fireball
 All powerups and armor upgrades, all  bosses beaten the first time through.
 
 3748 8612 5524 
-All Subtanks &amp; Hearts, NO Armor &amp; Weapons
+All Subtanks & Hearts, NO Armor & Weapons
 
 6485 1146 2321 
 All Upgrades No bosses Defeated
@@ -22756,7 +22756,7 @@ Get an extra life tank
 Have all your powers, Sub takes, and Heart Takes at the first level.
 
 6111 8747 4181 
-Have Storm Eagle, Flame Mammoth, Chill  Penguin, &amp; Boomer Kuwangtang dead w/ chest, helmet,  arms, leg upgrades, 1 sub-tank, &amp; a turbo heart
+Have Storm Eagle, Flame Mammoth, Chill  Penguin, & Boomer Kuwangtang dead w/ chest, helmet,  arms, leg upgrades, 1 sub-tank, & a turbo heart
 
 4664 1718 7748 
 Head Capsule only
@@ -23567,7 +23567,7 @@ http://en.wikipedia.org/wiki/Michael_Jordan:_Chaos_in_the_Windy_City
 
 *
 F9014863, 240442EA
-Mick &amp; Mack as the Global Gladiators (Prototype)
+Mick & Mack as the Global Gladiators (Prototype)
 Platform: Super Nintendo Entertainment System
 Region: Prototype (USA)
 Media: Cartridge
@@ -23579,7 +23579,7 @@ Developer: Virgin Games USA
 Publisher: Virgin Interactive
 Players: 1
 _________________________*
-Mick &amp; Mack was a McDonald's liscensed game developed by David Perry at Virgin Games. It appeared on various Sega systems and the Amiga, though they cancelled the snes version. It is a simple platform shooter game. The game was shown at the Winter 1993 CES.
+Mick & Mack was a McDonald's liscensed game developed by David Perry at Virgin Games. It appeared on various Sega systems and the Amiga, though they cancelled the snes version. It is a simple platform shooter game. The game was shown at the Winter 1993 CES.
 
 A prototype rom image of this game shows that it was at a beta state at the very least for the snes. When you first load the rom, there is a bunch of debug stuff, which allows you to choose various levels. The levels seem to be pretty much complete, but there isn't really much you can do. Most enemies are static and do not harm your character. You can also use the L button to float around the levels, which is very necessary since pits do not kill you. Pressing the R button skips you to the bonus stages for each level.
 
@@ -24121,7 +24121,7 @@ http://www.romhacking.net/trans/900/
 
 *
 6CF14848, 0B207E7F
-Mohawk &amp; Headphone Jack
+Mohawk & Headphone Jack
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -25664,7 +25664,7 @@ Genre: Sports, Basketball
 Gametype: Licensed
 Release Year: 1992
 Developer: Sculptured Software
-Publisher: Hal America &amp; Nintendo
+Publisher: Hal America & Nintendo
 Players: 1 or 2 VS
 _________________________*
 THE ORIGINS OF BASKETBALL
@@ -25810,7 +25810,7 @@ Super Mario Bros With NDS graphics.
 
 Enjoy it!
 
-http://www.smwcentral.net/?p=showhack&amp;id=2287
+http://www.smwcentral.net/?p=showhack&id=2287
 *
 
 *
@@ -27250,7 +27250,7 @@ http://www.consoleclassix.com/snes/pac_man_2_new_adventures.html
 
 *
 BAB26E9C
-Packy &amp; Marlon
+Packy & Marlon
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -27368,7 +27368,7 @@ Players: 1
 Translated by: Zuqkeo
 Version: 1.0
 _________________________*
-Patch contains IPS patch for both Header &amp; non Header versions of the game. This patch translates all textual images into English as well as the Dialogue (using custom Variable Font Width routines). The fontset used in this game was ripped from Tetris Attack as it was most suitable to use.
+Patch contains IPS patch for both Header & non Header versions of the game. This patch translates all textual images into English as well as the Dialogue (using custom Variable Font Width routines). The fontset used in this game was ripped from Tetris Attack as it was most suitable to use.
 
 The only thing that is not translated is the character voices.
 
@@ -27597,7 +27597,7 @@ A one to two player game (four player for versus mode), The Peace Keepers spans 
 Tips:
 
 Both players can choose the same character
-Highlight 1P game, hold L, R, &amp; Down both controllers.  The cursor should then be in '2P Game', press start on controller 1
+Highlight 1P game, hold L, R, & Down both controllers.  The cursor should then be in '2P Game', press start on controller 1
 
 Secret Move
 If Flynn's energy is below 10%, he can turn into his fire haired superhuman mode. Hold R, and press Down, Down + Right, Right, and X
@@ -28183,7 +28183,7 @@ http://www.consoleclassix.com/snes/plok.html
 
 *
 B3F491C6, 99F8D70B, 2B0E7EA3
-Pocky &amp; Rocky
+Pocky & Rocky
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -28195,9 +28195,9 @@ Developer: Natsume
 Publisher: Natsume
 Players: 1 or 2 CO-OP
 _________________________*
-Set in Feudal Japan, Pocky &amp; Rocky has the player assume the role of a young girl who, while tending to a shrine one night, is visited by Rocky, a tanuki and member of a group of yokai known as the "Nopino Goblins", all of whom have recently been driven insane by an unknown force. Together, Pocky and Rocky must travel through several levels consisting of various ancient Japanese locales while battling a number of creatures from popular Japanese myth, including kappas, obake, and yurei. Eventually, they must breach the stronghold of the mysterious Black Mantle, who has been using these monsters (collectively referred to as the "Gorgonzola Goblins") to fulfill his evil deeds. Whichever character the player chooses to play will make no difference in the outcome of the story.
+Set in Feudal Japan, Pocky & Rocky has the player assume the role of a young girl who, while tending to a shrine one night, is visited by Rocky, a tanuki and member of a group of yokai known as the "Nopino Goblins", all of whom have recently been driven insane by an unknown force. Together, Pocky and Rocky must travel through several levels consisting of various ancient Japanese locales while battling a number of creatures from popular Japanese myth, including kappas, obake, and yurei. Eventually, they must breach the stronghold of the mysterious Black Mantle, who has been using these monsters (collectively referred to as the "Gorgonzola Goblins") to fulfill his evil deeds. Whichever character the player chooses to play will make no difference in the outcome of the story.
 
-Pocky &amp; Rocky takes place from a top-down perspective with the characters moving either horizontally or vertically through a level while defeating approaching enemies and destroying obstacles that may block the player's path. Pocky can use her o-fuda talismans (simply called "cards" in the English language version) to attack enemies from afar, or purification rod, which she swings at a wide arc, to hit ones close up. Likewise, Rocky can throw leaves across the screen or quickly turn his backside towards the enemy and swing his tail from side to side. By holding the short-ranged attack button down and then releasing it, Pocky does a spinning attack that can hit any enemy around her, while Rocky is able to transform into a statue, rendering him invulnerable to all attacks for a short time while leaving him immobile. Both characters can also slide across the ground, covering an area quickly. 
+Pocky & Rocky takes place from a top-down perspective with the characters moving either horizontally or vertically through a level while defeating approaching enemies and destroying obstacles that may block the player's path. Pocky can use her o-fuda talismans (simply called "cards" in the English language version) to attack enemies from afar, or purification rod, which she swings at a wide arc, to hit ones close up. Likewise, Rocky can throw leaves across the screen or quickly turn his backside towards the enemy and swing his tail from side to side. By holding the short-ranged attack button down and then releasing it, Pocky does a spinning attack that can hit any enemy around her, while Rocky is able to transform into a statue, rendering him invulnerable to all attacks for a short time while leaving him immobile. Both characters can also slide across the ground, covering an area quickly. 
 
 If a player bumps into the other while sliding, it will cause them to spin out of control across the screen, damaging any enemies they come in contact with, though the initial bump causes some damage to the receiving character. A limited-use special attack can be used to hit several or all the enemies present on the screen, and is only available once per life (they differ in actual range and power between the two characters). Though most enemies only require a few attacks to defeat, boss monsters present at the end of each level take much more, and may require an additional use of strategy.
 
@@ -28217,7 +28217,7 @@ http://en.wikipedia.org/wiki/Pocky_%26_Rocky
 
 *
 226929CF, FC00BB1B, 3B94B032
-Pocky &amp; Rocky 2
+Pocky & Rocky 2
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -28229,7 +28229,7 @@ Developer: Natsume
 Publisher: Natsume
 Players: 2
 _________________________*
-Pocky &amp; Rocky 2 is an action-adventure video game developed and published by Natsume in Japan and North America, and published in PAL regions by Ocean for the Super NES video game console. It is the sequel to Pocky &amp; Rocky.
+Pocky & Rocky 2 is an action-adventure video game developed and published by Natsume in Japan and North America, and published in PAL regions by Ocean for the Super NES video game console. It is the sequel to Pocky & Rocky.
 
 Tips:
 
@@ -28425,7 +28425,7 @@ B2NP4LD World #17 (Silly Land)
 S1D2LD World #325 (Piglet World)
 SC51SM4T World #375 (Grassy Plains)
 L1PH2PT World #397 (Japanesque)
-SH1DW2L5LD World #482 (Rock &amp; Lava)
+SH1DW2L5LD World #482 (Rock & Lava)
 Q1Z3B5Y World #555 (Japanesque)
 B2LW2L2CK World #842 (Desert)
 H5B4P1L World #900 (Japanesque)
@@ -28446,8 +28446,8 @@ B1D53TT World #462 (Piglet World)
 S1DW2L4R World #5
 B2L41H5L4 World #586 (Francais)
 SW12ND5R World #632 (Silly Land)
-S1D53T5LD World #677 (Snow &amp; Ice)
-B2NGBP1L World #712 (Rock &amp; Lava)
+S1D53T5LD World #677 (Snow & Ice)
+B2NGBP1L World #712 (Rock & Lava)
 E51L5PT5RY World #890 (Desert)
 
 Stage Select
@@ -28975,7 +28975,7 @@ http://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)
 
 *
 2D25A9E1, 50581D9D
-Prince of Persia 2: The Shadow &amp; The Flame
+Prince of Persia 2: The Shadow & The Flame
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -29763,7 +29763,7 @@ http://www.snescentral.com/article.php?id=0575
 
 *
 672EBF39, 723959E7
-Ren &amp; Stimpy Show: Buckeroo$!, The
+Ren & Stimpy Show: Buckeroo$!, The
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -29777,19 +29777,19 @@ Players: 1
 _________________________*
 "Happy Happy Joy Joy? Not Really"
 
-Ren &amp; Stimpy license games have always been rather weak. When the BEST game in the series is Veediots, a very average platformer, you know you're in trouble. But some of them, like Buckeroo$, are so horrible that you wonder if the games ever got tested for quality control.
+Ren & Stimpy license games have always been rather weak. When the BEST game in the series is Veediots, a very average platformer, you know you're in trouble. But some of them, like Buckeroo$, are so horrible that you wonder if the games ever got tested for quality control.
 
 1) Graphics. Bland. Backgrounds are cartoony but are possess little creativity, and are recycled ad nauseum throughout the whole game. Animations are extremely weak; most movements consist of two or three frames, all of which are ugly. I'm amazed John K., a guy who favors full animation, allowed such limited and stiff movements.
 
 2) Sound. TURN THE VOLUME DOWN! I swear, this game has some of the most pathetic sound design I've ever heard in any game. It has less than a half dozen melodies TOTAL, all of which are not only repeated for multiple levels but which are extremely short and begin looping after about 15 seconds. Oh, so you like "Happy Happy Joy Joy"? Not after you hear it for the 29 billionth time. And the choice of musical instruments is appalling as well. Everything sounds empty and seems to use the same irritating trumpets over and over. Voice bytes sound NOTHING like the show, especially Stimpy's voice.
 
-3) Controls. They're bad, plain and simple. Ren &amp; Stimpy both walk by default, which is agonizingly slow and lethargic. There IS a run button, but the programmers stupidly placed it on the X Button, making for some unnatural reaching.
+3) Controls. They're bad, plain and simple. Ren & Stimpy both walk by default, which is agonizingly slow and lethargic. There IS a run button, but the programmers stupidly placed it on the X Button, making for some unnatural reaching.
 
 4) Gameplay. Here's the gameplay in a nutshell: Go from left to right, slap some bad guys (or in Stimpy's case, belch hairballs), hop from platform to platform here and there, rinse, repeat. Nothing even remotely original or enthralling exists here, especially since the pace of the game is tortuously SLOW and boring. And the A.I. is cheap, because it takes a ton of hits to kill some of them (such as the sheriff of Dodge City), all while they beat you to nearly dead.
 
 As if the game engine wasn't bad enough, there are only three variations of level themes in the game: Western, medieval, and space. And the space levels are awful; it tries to pull a Lemmings, wherein your protect Ren while he wanders aimlessly around the ship. But after about a minute of this, you'll want the suffering to stop.
 
-5) Overall. This game is a sad, sad "effort" that puts the Ren &amp; Stimpy name to shame. It reeks of executives trying to cash in on a popular craze without taking any time to work on it, and the uber repetitive backgrounds/level design, snail-speed gameplay pace, uninspired, ridiculously repeated enemies, and never-ending music will all make you want to pull your hair out. Even if you find this game for $1 at a bargain bin, don't even think about picking it up.
+5) Overall. This game is a sad, sad "effort" that puts the Ren & Stimpy name to shame. It reeks of executives trying to cash in on a popular craze without taking any time to work on it, and the uber repetitive backgrounds/level design, snail-speed gameplay pace, uninspired, ridiculously repeated enemies, and never-ending music will all make you want to pull your hair out. Even if you find this game for $1 at a bargain bin, don't even think about picking it up.
 
 Reviewer's Score: 1/10, Originally Posted: 12/09/05
 
@@ -29815,7 +29815,7 @@ http://www.gamefaqs.com/console/snes/review/R95257.html
 
 *
 0B472197
-Ren &amp; Stimpy Show: Fire Dogs, The
+Ren & Stimpy Show: Fire Dogs, The
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -29834,7 +29834,7 @@ http://en.wikipedia.org/wiki/Ren_%26_Stimpy_Show_Part_II:_Fire_Dogs
 
 *
 5CBF87B5, DE8FE3E8
-Ren &amp; Stimpy Show: Time Warp, The
+Ren & Stimpy Show: Time Warp, The
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -29888,7 +29888,7 @@ Conclusion: Ren and Stimpy was one of my favorite cartoons as a kid and the game
 
 Reviewer's Score: 2/10, Originally Posted: 06/22/06, Updated 08/06/08
 
-Game Release: The Ren &amp; Stimpy Show: Time Warp (US, November 1994)
+Game Release: The Ren & Stimpy Show: Time Warp (US, November 1994)
 
 Tips:
 
@@ -29907,7 +29907,7 @@ http://www.gamefaqs.com/console/snes/review/R102195.html
 
 *
 06DDBB0D, FD1C12A3, A893E64B
-Ren &amp; Stimpy Show: Veediots!, The
+Ren & Stimpy Show: Veediots!, The
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -30425,8 +30425,8 @@ http://www.gamefaqs.com/console/snes/review/R20112.html
 
 *
 0ECDC493
-Rockman &amp; Forte
-Original title: Rockman &amp; Forte
+Rockman & Forte
+Original title: Rockman & Forte
 Platform: Super Nintendo Entertainment System
 Region: Japan (Translated)
 Media: Cartridge
@@ -31456,7 +31456,7 @@ This patch is made on IPS format. The patch include several changes, from monste
 
 http://www.romhacking.net/hacks/602/
 
-&amp;
+&
 
 Secret of Evermore 2 Player Edition
 
@@ -31710,7 +31710,7 @@ And your mom told me she liked this game too.
 
 ~Rx
 
-http://www.gamefaqs.com/boards/genmessage.php?board=588652&amp;topic=44289148
+http://www.gamefaqs.com/boards/genmessage.php?board=588652&topic=44289148
 *
 
 *
@@ -31799,7 +31799,7 @@ Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
 Controller: Gamepad
-Genre: Action, Hack &amp; Slash, First Person
+Genre: Action, Hack & Slash, First Person
 Gametype: Licensed
 Release Year: 1994
 Developer: Almanic
@@ -31965,7 +31965,7 @@ The passwords in Kunio Tachi no Banka consist of Four digits. The first and thir
 6X5X 52-Inside Villa 2
 7X5X 53-Vs. Misuzu, Round 2
 8X5X 54-Inside Villa 3
-9X5X 55-Conversation between Ken &amp; Sabu
+9X5X 55-Conversation between Ken & Sabu
 0X6X 56-Vs. Ken
 1X6X 57-Vs. Sabu
 2X6X 58-Ending
@@ -32731,7 +32731,7 @@ The sequel, entitled Sonic Blastman II, plays similarly to its predecesor, as we
 Tips:
 
 Choose the same character
-At the character select screen, hold down the L &amp; R shoulder buttons on controller 2
+At the character select screen, hold down the L & R shoulder buttons on controller 2
 
 http://en.wikipedia.org/wiki/Sonic_Blast_Man#Sequel
 *
@@ -33420,7 +33420,7 @@ http://en.wikipedia.org/wiki/Spider-Man:_The_Animated_Series_(video_game)
 
 *
 D2B0D5FE, 7EF2BB0C, 1362465B
-Spider-Man &amp; Venom: Maximum Carnage
+Spider-Man & Venom: Maximum Carnage
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -33453,7 +33453,7 @@ Select Button - Select hero
 
 Tips:
 
-Spider-Man &amp; Venom-Maximum Carnage
+Spider-Man & Venom-Maximum Carnage
 
 5 continues
 Enter the following on the Start screen with Cont. 2.  You must do so VERY fast though. Very, VERY fast, or it
@@ -33473,7 +33473,7 @@ http://www.consoleclassix.com/snes/spider_man_venom_maximum_carnage.html
 
 *
 CD274974, 919C509D
-Spider-Man &amp; Venom: Separation Anxiety
+Spider-Man & Venom: Separation Anxiety
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -33615,7 +33615,7 @@ Spindizzy Worlds
 
 Final level passwords
 Enter these passwords on the password screen to instantly be taken to the games final levels
-MpBBBVB&amp; Final normal game stage
+MpBBBVB& Final normal game stage
 P6BBCBB+ Final practice game stage
 
 Reviewer: Fox Fire
@@ -33664,7 +33664,7 @@ http://cheats.ign.com/objects/855/855073.html
 
 *
 D4874966, ED9AA0E1
-Sports Illustrated Championship Football &amp; Baseball
+Sports Illustrated Championship Football & Baseball
 Alternative title: All-American Championship Football
 Platform: Super Nintendo Entertainment System
 Region: USA
@@ -33677,7 +33677,7 @@ Developer: Malibu
 Publisher: Malibu
 Players: 1 or 2 VS
 _________________________*
-Sports Illustrated Championship Football &amp; Baseball is a Sports game, developed and published by Malibu, which was released in 1994.
+Sports Illustrated Championship Football & Baseball is a Sports game, developed and published by Malibu, which was released in 1994.
 
 http://www.gamefaqs.com/console/snes/home/588689.html
 *
@@ -35846,7 +35846,7 @@ This is my SMW hack. It has almost none of SMW's GFX left in it.
 
 Chocolate and his brother Vanilla must trek across a series of islands in an attempt to find a way home.
 
-http://www.smwcentral.net/?p=showhack&amp;id=1125
+http://www.smwcentral.net/?p=showhack&id=1125
 *
 
 *
@@ -36421,7 +36421,7 @@ Enjoy and feel free to use anything from this hack. Just remember to give me cre
 
 I will finish it.
 
-http://www.smwcentral.net/?p=showhack&amp;id=1307
+http://www.smwcentral.net/?p=showhack&id=1307
 *
 
 *
@@ -36593,7 +36593,7 @@ the mushroom kingdom and mario making them all blue! Mario now must head to bloo
 
 Hope you enjoy it :)
 
-http://www.smwcentral.net/?p=showhack&amp;id=1057
+http://www.smwcentral.net/?p=showhack&id=1057
 *
 
 *
@@ -36630,7 +36630,7 @@ Hacked by: KoyuKiller
 _________________________*
 The Southern Part of Mushroom Kingdom is under attack!Mario must defeat Bowser and the Koopa Kids once and for all.This is a SMB3 syled hack with a few twist like YI,Super Mario Land and SMAS SMB1 style level.New boss battles included.
 
-http://www.smwcentral.net/?p=showhack&amp;id=2799
+http://www.smwcentral.net/?p=showhack&id=2799
 *
 
 *
@@ -36902,7 +36902,7 @@ You can enjoy it in two modes:
 Story: Samus, must go to Planet Zebes again, because Mother Brain is still alive,
 and she must destroy it to save the universe.
 
-http://www.smwcentral.net/?p=showhack&amp;id=1717
+http://www.smwcentral.net/?p=showhack&id=1717
 *
 
 *
@@ -36927,7 +36927,7 @@ You can enjoy it in two modes:
 Story: Samus, must go to Planet Zebes again, because Mother Brain is still alive,
 and she must destroy it to save the universe.
 
-http://www.smwcentral.net/?p=showhack&amp;id=1717
+http://www.smwcentral.net/?p=showhack&id=1717
 *
 
 *
@@ -36947,7 +36947,7 @@ Some call it the best hack ever made, even though it's only a demo.
 
 Difficulty: Hard
 
-http://www.smwcentral.net/?p=showhack&amp;id=1032
+http://www.smwcentral.net/?p=showhack&id=1032
 *
 
 *
@@ -36964,7 +36964,7 @@ Hacked by: Higsby
 _________________________*
 This hack is the result of two and a half years of hard work. Join Mario as he travels through over seven unique worlds on his quest to rescue Princess Peach.
 
-http://www.smwcentral.net/?p=showhack&amp;id=3032
+http://www.smwcentral.net/?p=showhack&id=3032
 *
 
 *
@@ -37430,7 +37430,7 @@ The Essence Star...it was sent to Mario's realm from the heavens above with one 
 
 Find out all of this and more...in SMW2+3: The Essence Star.
 
-http://www.smwcentral.net/?p=showhack&amp;id=2854
+http://www.smwcentral.net/?p=showhack&id=2854
 *
 
 *
@@ -37678,7 +37678,7 @@ Pallet fix
 Statusscreen fixed all levels.
 ENJOY
 
-http://www.smwcentral.net/?p=showhack&amp;id=1329
+http://www.smwcentral.net/?p=showhack&id=1329
 *
 
 *
@@ -37706,7 +37706,7 @@ and more.
 
 Enjoy my game
 
-http://www.smwcentral.net/?p=showhack&amp;id=2651
+http://www.smwcentral.net/?p=showhack&id=2651
 *
 
 *
@@ -37754,7 +37754,7 @@ Ice Man for porting Fire Man Theme from Mega man 1.
 
 and Geno_4_Ever for Beta-Testing My hack. (Ahkan also beta-tested)
 
-http://www.smwcentral.net/?p=showhack&amp;id=2177
+http://www.smwcentral.net/?p=showhack&id=2177
 *
 
 *
@@ -37772,7 +37772,7 @@ _________________________*
 This is a really nice hack. I love how you started the game with assorted Super Mario Bros. retros. I thought it would have been cool if I could pick up those sprouts like in a Fake Mario 2. Nice lakitu boss and SMB3 lakitu. I'm wondering how I can make the SMB3 lakitu go away. And it would be nice if you used that custom block from STARSW.zip for the flagpole (SMB Goal Pole and Goal Block with Music (Acts like 130)). This is really short, too. Anyway, good job!
 
 Reviewer: GameGuy10
-http://www.smwcentral.net/?p=showhack&amp;id=1873
+http://www.smwcentral.net/?p=showhack&id=1873
 *
 
 *
@@ -40105,7 +40105,7 @@ Passwords:
 Begin the game with 1. 5 million credits, along with several agents and weapons
 
 BBGX2-------FTJ9GB 
-Cryo chamber full with 16 Agents. All weapons researched, developed and available. Version 3 Modifications available. Only Western Europe &amp; Scandinavia completed. 7, 565, 312 Credits.
+Cryo chamber full with 16 Agents. All weapons researched, developed and available. Version 3 Modifications available. Only Western Europe & Scandinavia completed. 7, 565, 312 Credits.
 
 Reviewer: Arkhaine
 http://www.gamefaqs.com/console/snes/review/R17918.html
@@ -40696,7 +40696,7 @@ http://en.wikipedia.org/wiki/Terranigma
 
 *
 523E4153, 6C852EF3
-Tetris &amp; Dr. Mario
+Tetris & Dr. Mario
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -40704,7 +40704,7 @@ Controller: Gamepad
 Genre: Puzzle
 Gametype: Licensed
 Release Year: 1994
-Developer: Nintendo Research &amp; Development 1
+Developer: Nintendo Research & Development 1
 Publisher: Nintendo
 Players: 2
 _________________________*
@@ -40919,11 +40919,11 @@ SY?L7B9! Stage 11
 SY?L767! Stage 12
 S6?L7B7! Stage 12
 STDJ7YJ! Stage 2
-S&amp;DJ77J! Stage 2
+S&DJ77J! Stage 2
 SKDJ97J! Stage 2
 S!DJ7SJ! Stage 2
 STDG7S9! Stage 3
-S&amp;DG799! Stage 3
+S&DG799! Stage 3
 SXDG779! Stage 3
 SNDG7Y9! Stage 3
 SHD87Y7! Stage 4
@@ -40958,7 +40958,7 @@ SM?L75J! Go to Level 10, Normal difficulty
 SB?L769! Go to Level 11, Hard difficulty
 SC?L759! Go to Level 11, Normal difficulty
 SY?L767! Go to Level 12, Hard difficulty
-S&amp;DJ77J! Go to Level 2, Hard difficulty
+S&DJ77J! Go to Level 2, Hard difficulty
 S!DJ7SJ! Go to Level 2, Normal difficulty
 SXDG779! Go to Level 3, Hard difficulty
 STDG7S9! Go to Level 3, Normal difficulty
@@ -40991,7 +40991,7 @@ FPYJ29CL 2-02
 FP6D29CN 2-03
 FP6J29CX 2-04
 FP7D29CT 2-05
-FP7J29C&amp; 2-06
+FP7J29C& 2-06
 FPFD29CC 2-07
 FPFJ29CM 2-08
 FP1D29C1 2-09
@@ -41078,7 +41078,7 @@ FPYJ29CL 2-02
 FP6D29CN 2-03
 FP6J29CX 2-04
 FP7D29CT 2-05
-FP7J29C&amp; 2-06
+FP7J29C& 2-06
 FPFD29CC 2-07
 FPFJ29CM 2-08
 FP1D29C1 2-09
@@ -41103,14 +41103,14 @@ FP4D29MD 4-07
 FP4J29MR 4-08
 FP2D29MZ 4-09
 FP2J29M? 4-10
-FP&amp;D29M2 5-01
-FP&amp;J29M4 5-02
+FP&D29M2 5-01
+FP&J29M4 5-02
 FPTD29MH 5-03
 FPTJ29ML 5-04
 FPXD29MN 5-05
 FPXJ29MX 5-06
 FPND29MT 5-07
-FPNJ29M&amp; 5-08
+FPNJ29M& 5-08
 FPPD29MC 5-09
 FPPJ29MM 5-10
 FP3D29M1 6-01
@@ -41202,7 +41202,7 @@ FPYJ29JL 2-02
 FP6D29JN 2-03
 FP6J29JX 2-04
 FP7D29JT 2-05
-FP7J29J&amp; 2-06
+FP7J29J& 2-06
 FPFD29JC 2-07
 FPFJ29JM 2-08
 FP1D29J1 2-09
@@ -41227,14 +41227,14 @@ FP4D29GD 4-07
 FP4J29GR 4-08
 FP2D29GZ 4-09
 FP2J29G? 4-10
-FP&amp;D29G2 5-01
-FP&amp;J29G4 5-02
+FP&D29G2 5-01
+FP&J29G4 5-02
 FPTD29GH 5-03
 FPTJ29GL 5-04
 FPXD29GN 5-05
 FPXJ29GX 5-06
 FPND29GT 5-07
-FPNJ29G&amp; 5-08
+FPNJ29G& 5-08
 FPPD29GC 5-09
 FPPJ29GM 5-10
 FP3D29G1 6-01
@@ -41248,8 +41248,8 @@ FP?J29G% 6-08
 FPZD29GS 6-09
 FPZJ29G5 6-10
 }Stage Clear Mode
-&amp;GTMNHS? 4-5 
-&amp;RG8NB&amp;X 2-5 
+&GTMNHS? 4-5 
+&RG8NB&X 2-5 
 N4JZN5KZ 1-5 
 XXG!NGI5 3-5 
 
@@ -41532,7 +41532,7 @@ http://www.gamefaqs.com/console/snes/review/R63816.html
 
 *
 5E91C599, 341C6FB0
-Timon &amp; Pumbaa's Jungle Games
+Timon & Pumbaa's Jungle Games
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -41544,7 +41544,7 @@ Developer: Tiertx
 Publisher: THQ
 Players: 1 or 2
 _________________________*
-Timon &amp; Pumbaa's Jungle Games includes Jungle Pinball (self explanitory), Burper (a shooter type game, using pumbaa to belch gas), Hippo Hop (a platformer), Bug drop (similar to tetris) and Slingshooter (a shooting with a slingshot game) accessible directly from the menu. The object in this game is to have fun while Timon and Pumbaa from The Lion King entertain the player with glimpses of jungle living, especially when certain mini-games require the player to consume insects. The PC version featured a full voiceover, complete with humorous introductions to games. The SNES version does not feature the voiceover, but has some sound effects from the PC version intact. The PC version also has a new game called Bug Drop, a Puyo Pop styled game.
+Timon & Pumbaa's Jungle Games includes Jungle Pinball (self explanitory), Burper (a shooter type game, using pumbaa to belch gas), Hippo Hop (a platformer), Bug drop (similar to tetris) and Slingshooter (a shooting with a slingshot game) accessible directly from the menu. The object in this game is to have fun while Timon and Pumbaa from The Lion King entertain the player with glimpses of jungle living, especially when certain mini-games require the player to consume insects. The PC version featured a full voiceover, complete with humorous introductions to games. The SNES version does not feature the voiceover, but has some sound effects from the PC version intact. The PC version also has a new game called Bug Drop, a Puyo Pop styled game.
 
 http://en.wikipedia.org/wiki/Timon_%26_Pumbaa%27s_Jungle_Games
 *
@@ -41706,7 +41706,7 @@ http://en.wikipedia.org/wiki/Tiny_Toon_Adventures:_Buster_Busts_Loose
 *
 AFE72FF0
 Tiny Toon Adventures: Wacky Sports Challenge
-Alternative title: Tiny Toon Adventures: Wild &amp; Wacky Sports
+Alternative title: Tiny Toon Adventures: Wild & Wacky Sports
 Platform: Super Nintendo Entertainment System
 Region: USA, Europe
 Media: Cartridge
@@ -41724,7 +41724,7 @@ Password Codes
 Shirley, Sweety, Plucky 
 Hard Mode
 Babs, Montana Max, Bookworm 
-Level Select &amp; Marathon Unlock
+Level Select & Marathon Unlock
 Coyote, Little Beeper, Montana Max 
 Normal Mode
 Coyote, Elmira, Babs 
@@ -41820,7 +41820,7 @@ http://en.wikipedia.org/wiki/TNN_Bass_Tournament_of_Champions
 
 *
 72B57042, BA2DE054, 8B1DAFBB, CB6D3883
-Tom &amp; Jerry
+Tom & Jerry
 Platform: Super Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -42032,21 +42032,21 @@ Tips:
 Track Passwords:
 
 ##HF V#32 Y2J? LY?RQ D??YY Australia
-less-than signP63 less-than signJMC Nless-than signRR >>P85 TPN?? Britain
-P7GC Rless-than signPM 1VVR RDYless-than sign5 3YWCC Canada
+<P63 <JMC N<RR >>P85 TPN?? Britain
+P7GC R<PM 1VVR RDY<5 3YWCC Canada
 W574 >>PB GRYL GL3MM ?87NN Egypt
-JCFB Q5Y# #less-than signW? >>#WR less-than sign?#RR France
-?#># HF#8 P8DQ TWP>less-than sign VQPless-than signless-than sign Germany
+JCFB Q5Y# #<W? >>#WR <?#RR France
+?#># HF#8 P8DQ TWP>< VQP<< Germany
 4HHD T549 7DCY M1RGB 743HH Greece
-7CD> PJ#V CRT# N?L#9 YTRless-than signless-than sign India
-?NWR 7345 29less-than signless-than sign C3N?# 1VT>> Ireland
-68>less-than sign LTP3 VGDP 8>P?# 1VT>> Italy
-7less-than signB> Mless-than signVN YYC5 GQ6LJ >#9QQ Japan
-7W3Y ?HQless-than sign 5>87 JT8NM >less-than sign?TT Scandinavia
+7CD> PJ#V CRT# N?L#9 YTR<< India
+?NWR 7345 29<< C3N?# 1VT>> Ireland
+68>< LTP3 VGDP 8>P?# 1VT>> Italy
+7<B> M<VN YYC5 GQ6LJ >#9QQ Japan
+7W3Y ?HQ< 5>87 JT8NM ><?TT Scandinavia
 WV3Y ?QF> R>#5 GQ6LJ >#9QQ South America
 5RJ6 WFB2 C8R2 CM3GF #76MM Spain
-L1RP 539Y GRFJ 5less-than signL87 VQPless-than signless-than sign Switzerland
-#MBless-than sign NW29 Gless-than signCT less-than signFV>less-than sign 521FF United States
+L1RP 539Y GRFJ 5<L87 VQP<< Switzerland
+#MB< NW29 G<CT <FV>< 521FF United States
 
 http://www.consoleclassix.com/snes/top_gear_2.html
 *
@@ -42554,8 +42554,8 @@ Controller: Gamepad
 Genre: Sports, Golf
 Gametype: Licensed
 Release Year: 1992
-Developer: T&amp;E Soft
-Publisher: T&amp;E Soft
+Developer: T&E Soft
+Publisher: T&E Soft
 Players: 1 to 4
 _________________________*
 "3D Golfing: 1992-Style!"
@@ -42592,8 +42592,8 @@ Controller: Gamepad
 Genre: Sports, Golf
 Gametype: Licensed
 Release Year: 1991
-Developer: T&amp;E Soft
-Publisher: T&amp;E Soft
+Developer: T&E Soft
+Publisher: T&E Soft
 Players: 1 to 4
 _________________________*
 True Golf Classics: Waialae Country Club is a Super NES golfing game that is based in the Waialae Country Club, located in Hawaii.
@@ -42611,8 +42611,8 @@ Controller: Gamepad
 Genre: Sports, Golf
 Gametype: Licensed
 Release Year: 1993
-Developer: T&amp;E Soft
-Publisher: T&amp;E Soft
+Developer: T&E Soft
+Publisher: T&E Soft
 Players: 1 to 4
 _________________________*
 True Golf: Wicked 18 (known in Japan as Devil's Course) is a Super NES and 3DO golfing game that takes place on the hardest simulated golf course in the world. The object is to guide the golf ball through nearly impossible obstacles as the player tries to score as low as possible in order to win the day. Using the caddy, it is possible to scan the situation before hitting the ball with an analyzer that is similar to RoboCop. This game shows players what the golf course in Hell will be like when they die. The bunkers are extremely treacherous, there is lava as well as water hazards, and out of bounds can be in the middle of the hole. There are no demons to battle as the player attempts to win in stroke play, match play, or tournament play (but just getting to the green can be dangerous).
@@ -43117,7 +43117,7 @@ At the main menu, press Up, B, A, Left, Down, and Y
 At the VS. screen, enter the following: HP-2, BL-8, LK-2
  No Fear EB Button Sky Dive Max Countdown Message
 
-On the character select screen, select Robot Smoke, then press and hold Back, High Punch, High Kick, Block &amp; Run
+On the character select screen, select Robot Smoke, then press and hold Back, High Punch, High Kick, Block & Run
  Play As Human Smoke
 
 At the fighter selection screen, hold Up and press  Start to have the game choose a random fighter
@@ -43733,7 +43733,7 @@ Release Year: 1999
 Translated by: Magic Destiny
 Version: 1.00
 _________________________*
-This game is an adaptation of a popular anime series of the same name. Unfortunately, neither the anime nor the Nes or Snes games have seen a release in the US. So, I must thank Taskforce &amp; Co. for this excellent translation.
+This game is an adaptation of a popular anime series of the same name. Unfortunately, neither the anime nor the Nes or Snes games have seen a release in the US. So, I must thank Taskforce & Co. for this excellent translation.
 
 The game itself is standard RPG fare: five heroes are set off to save the world, interspersed with anime cut scenes and random monster encounters. Of course, if you're anything like me (chances are you're not), you'll love this game. It's fun ^_^. If you're a fan of the "old-school" RPG, you'll love this game, download the patch now!
 
@@ -44176,7 +44176,7 @@ It's 10:30pm Friday night. What's it time for? Exsqueeze me? Baking powder? Did 
 
 You'll Laugh, You'll Cry, You'll Hurl!
 
-Are you ready for this? Number One of the Top Ten Most Bizarre Things to Happen This Year: Garth has been kidnapped! No WAY, you say? Hway!! It all begins down at Noah's Arcade, where Wayne &amp; Garth are engrossed (with a capital G) in a most heinous game called Zantar. All of a sudden there's a blinding flash, and Ka-Boom! The two find themselves inside the game! IN the wink of an eye, the hapless Garth is inhaled by Zantar, the gelatinous cube - a pixelated purple putridosity of the first degree! Before our stunned hero can react, Zantar is gone... and Garth along with him. And no you, Wayne Campbell, must heartily rescue your excellent sidekick from a fate most unbecoming!
+Are you ready for this? Number One of the Top Ten Most Bizarre Things to Happen This Year: Garth has been kidnapped! No WAY, you say? Hway!! It all begins down at Noah's Arcade, where Wayne & Garth are engrossed (with a capital G) in a most heinous game called Zantar. All of a sudden there's a blinding flash, and Ka-Boom! The two find themselves inside the game! IN the wink of an eye, the hapless Garth is inhaled by Zantar, the gelatinous cube - a pixelated purple putridosity of the first degree! Before our stunned hero can react, Zantar is gone... and Garth along with him. And no you, Wayne Campbell, must heartily rescue your excellent sidekick from a fate most unbecoming!
 
 But as you make your way through your familiar and beloved hangouts in search of Garth, you'll notice something disturbingly different. This world is twisted, warped, and distorted version of reality as you know it! Armed with your mighty guitar and the power the SCHWING, you must brave the surrealistic perils of Kramer's Music Store, Stan Mikita's Donut Shop, the Gasworks night club, and surburbia. There, you will spar with such Dweeboids as monster bagpipes, accordions, and kazoos (shyeah, rright!), spewing coffee cups and dangerous Disco balls (as if!), hair-whipping headbangers and a strange Psycho Hose Beast (way!)
 
@@ -44639,7 +44639,7 @@ Controller: Gamepad
 Genre: Strategy
 Gametype: Licensed
 Release Year: 1994
-Developer: Manley &amp; Associates
+Developer: Manley & Associates
 Publisher: Spectrum Holobyte
 Players: 1 or 2 VS
 _________________________*
@@ -44817,7 +44817,7 @@ When you're in range of enemies, quickly press select + R until you get to commu
 
 Tips:
 
-Invincibility &amp; Sound Test
+Invincibility & Sound Test
 At title screen, press B, A, B, Y, B, Y, L, A, R, A, Start.  Then in options select any of the missions from the 13 areas.
 
 Start in the middle of the game, w/ 20 kills in one sortie in the Rostov system, flying a Raptor with Iceman Go to continue, and input AABBCCDD as your handle and BBCCDDFFGG as your code.
@@ -45014,7 +45014,7 @@ Release Year: 2000
 Translated by: Aeon Genesis
 Version: 1.00
 _________________________*
-Rock on! Wizardry is neat little first-person dungeon crawler that first appeared on the Apple ][. It has a very Dungeons &amp; Dragons feel to it, which comes from the basic game play system, and the general "ambiance" of the game.
+Rock on! Wizardry is neat little first-person dungeon crawler that first appeared on the Apple ][. It has a very Dungeons & Dragons feel to it, which comes from the basic game play system, and the general "ambiance" of the game.
 
 Anyway, the first three Wizardry Games (Proving Ground of the Mad Overlord, Knight of Diamonds, and Legacy of Llylgamyn) were all ported to the Nes, and were decent as far as Nes first-person games go ;).However, only "Proving grounds," and "Knight of Diamonds" were translated to English, leaving Legacy behind.
 
@@ -46054,7 +46054,7 @@ The game follows a young Merlin as he enlists the help of the Lady of the Lake t
 Tips:
 
 Progress Passwords:
-NOTE: ^ = Up on directional pad. v = Down on directional pad. > = Right on directional pad. less-than sign = Left on directional pad.
+NOTE: ^ = Up on directional pad. v = Down on directional pad. > = Right on directional pad. < = Left on directional pad.
 
 YR>vvvYR YYYBYRvB 
 All items; near end of game

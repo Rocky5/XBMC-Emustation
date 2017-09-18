@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Pinball, Action, Fantasy
 Gametype: Licensed
 Release Year: 1994
-Developer: Hect &amp; Axes Art Amuser
+Developer: Hect & Axes Art Amuser
 Publisher: DTMC
 Players: 1 to 4
 _________________________

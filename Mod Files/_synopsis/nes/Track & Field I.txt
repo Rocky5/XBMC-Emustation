@@ -1,4 +1,4 @@
-Track &amp; Field
+Track & Field
 Platform: Nintendo Entertainment System
 Region: USA
 Media: Cartridge
@@ -11,6 +11,6 @@ Publisher: Konami
 Players: 1-2
 _________________________
 
-Track &amp; Field helped to popularize the button-mashing style of gameplay, in which a player must hit a button on their controller as fast and as many times as possible in order to make their in-game athlete move quicker. This design rapidly incorporated into clones like Epyx's Summer Games. Many contemporary athletics games still use this form of control as a part of their gameplay.
+Track & Field helped to popularize the button-mashing style of gameplay, in which a player must hit a button on their controller as fast and as many times as possible in order to make their in-game athlete move quicker. This design rapidly incorporated into clones like Epyx's Summer Games. Many contemporary athletics games still use this form of control as a part of their gameplay.
 
 http://www.nesguide.com/games/trackandfield/

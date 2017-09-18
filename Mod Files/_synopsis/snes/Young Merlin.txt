@@ -15,7 +15,7 @@ The game follows a young Merlin as he enlists the help of the Lady of the Lake t
 Tips:
 
 Progress Passwords:
-NOTE: ^ = Up on directional pad. v = Down on directional pad. > = Right on directional pad. less-than sign = Left on directional pad.
+NOTE: ^ = Up on directional pad. v = Down on directional pad. > = Right on directional pad. < = Left on directional pad.
 
 YR>vvvYR YYYBYRvB 
 All items; near end of game

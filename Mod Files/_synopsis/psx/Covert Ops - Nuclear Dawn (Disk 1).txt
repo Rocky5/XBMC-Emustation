@@ -6,7 +6,7 @@ Controller: DualShock
 Genre: Action
 Gametype: Licensed
 Release Year: 2000
-Developer: Sugar &amp; Rockets, Inc., TYO Entertainment Inc.
+Developer: Sugar & Rockets, Inc., TYO Entertainment Inc.
 Publisher: Sony Computer Entertainment Europe Ltd.
 Players: 1 Player
 _________________________

@@ -6,7 +6,7 @@ Controller: NES Gamepad
 Genre: Platformer
 Gametype: Licensed
 Release Year: 1986
-Developer: Nintendo R&amp;D 1
+Developer: Nintendo R&D 1
 Publisher: Nintendo
 Players: 1
 _________________________

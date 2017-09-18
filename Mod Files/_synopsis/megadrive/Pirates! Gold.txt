@@ -27,4 +27,4 @@ B Button: Secondary selector
 C Button: Captains cabin
 
 Reviewer: Scott Alan Marriott
-http://www.allgame.com/game.php?id=14623&amp;tab=controls
+http://www.allgame.com/game.php?id=14623&tab=controls

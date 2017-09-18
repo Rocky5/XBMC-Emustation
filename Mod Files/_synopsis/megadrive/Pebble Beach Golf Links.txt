@@ -6,7 +6,7 @@ Controller: Gamepad
 Genre: Sports, Golf
 Gametype: Licensed
 Release Year: 1993
-Developer: T&amp;E Soft
+Developer: T&E Soft
 Publisher: SEGA
 Players: 1 to 4 VS
 _________________________
