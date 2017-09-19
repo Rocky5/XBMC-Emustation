@@ -1,3 +1,10 @@
+19/09/2017
+	1) New default.xbe - Added the option to disable the splash image via the advancedsettings.xml ( <splash>false</splash> )
+	2) Added a new file (nosplash.bin) to skip the splash screen, saves editing the advancedsettings.xml or renaming the splash.png file via python.
+	3) Updated the launcher.py to reflect the above changes. ( So now if you have the load last rom list enabled it will skip the splash )
+	4) Other minor changes.
+
+
 18/09/2017
 	1) Fixed the xbmc skinning engine crashing when trying to exit the Other Settings menu after scanning roms.
 	2) Updated the synopsis txt files to there original status. ( the script changes them on the fly to work with the static menus )

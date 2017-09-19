@@ -22,6 +22,7 @@
 #include "Splash.h"
 #include "guiImage.h"
 #include "FileSystem/File.h"
+#include "settings/AdvancedSettings.h"
 #include "log.h"
 
 using namespace XFILE;
@@ -129,6 +130,14 @@ void CSplash::Process()
 
 bool CSplash::Start()
 {
+  if (CFile::Exists("special://xbmc/system/nosplash.bin"))
+  {
+    return false;
+  }
+  if (!g_advancedSettings.m_splashImage)
+  {
+    return false;
+  }
   if (m_ImageName.IsEmpty() || !CFile::Exists(m_ImageName))
   {
     CLog::Log(LOGDEBUG, "Splash image %s not found", m_ImageName.c_str());

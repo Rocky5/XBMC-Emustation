@@ -236,11 +236,11 @@ def manual_scan():
 						CUTCount = CUTCount + 1
 						with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 							if Emu_Name == "fba":
-								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
+								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 							elif Emu_Name == "mame":
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
+								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 							else:
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',Synopsis2,TBN_File)
+								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 							outputmenufile.write( WriteMenuFile )
 
 						# log('|	Create the cut file for this rom.')
@@ -479,11 +479,11 @@ def full_scan():
 									CUTCount = CUTCount + 1
 									with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 										if Emu_Name == "fba":
-											WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
+											WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 										elif Emu_Name == "mame":
-											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',Synopsis2,TBN_File)
+											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 										else:
-											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',Synopsis2,TBN_File)
+											WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 										outputmenufile.write( WriteMenuFile )
 
 									# log('|	Create the cut file for this rom.')
@@ -538,13 +538,16 @@ menu_entry			= '\n\
 		<label>%s</label>\n\
 		<label2>%s</label2>\n\
 		<onclick>%s</onclick>\n\
+		<onclick>%s</onclick>\n\
 		<icon>%s</icon>\n\
 		<thumb>%s</thumb>\n\
 	</item>'
 menu_entry_footer	= '\n</content>'
 
 logging = 0 # Setting this to 1 will spam the living hell out of your log file if you run the Auto mode, you have been warned
-if os.path.isdir( xbmc.translatePath( "Special://skin/720p/content lists/" ) ): shutil.rmtree( xbmc.translatePath( "Special://skin/720p/content lists/" ) ) # Remove old content files folder if it exists
+
+# Remove old content files folder if it exists
+if os.path.isdir( xbmc.translatePath( "Special://skin/720p/content lists/" ) ): shutil.rmtree( xbmc.translatePath( "Special://skin/720p/content lists/" ) )
 
 if Manual_Scan == "manual" : manual_scan()
 if Full_Scan == "auto" : full_scan()

@@ -1,13 +1,14 @@
 ..:: XBMC4Xbox 3.6-DEV-r33024 Modifications ::..
 
-1) Changed how the login screen works when launching a profile for the first time. It no longer asks to edit the info.
-2) Removed some of the functionality from the profile settings dialog. ALso copies the guisettings & sources automatically.
-3) Changed how the game save menu works, it now doesn't list "TitleMeta.xbx" files as files, there in the own directory like the rest.
-4) Increased the Splash screen display time, no point having a nice splash if you dont get to see it.
-5) Fullscreen Splashscreen!
-6) Faster loading of your games library. ( disables the directory check/scan when entering the games menu )
-7) Added my Synopsis script to the context menu for the MyPrograms windows
-8) Added a new custom window _script*.xml will now be automatically parsed like Custom*.xml
-9) Rearranged the folders structure to make it cleaner.
-10) removed the extension from Skin.CurrentTheme
-11) Moved screensavers to the system folder :) ( Had to use XP to build the screensavers )
+1) Changed how the game save menu works, it now doesn't list "TitleMeta.xbx" files as files, there in the own directory like the rest.
+2) Increased the Splash screen display time, no point having a nice splash if you dont get to see it.
+3) Fullscreen Splashscreen!
+4) Faster loading of your games library.
+( disables the directory check/scan when entering the games menu, also disabled by default. enable create af file called "faster_game_loading.bin" and place it next to the xbe file )
+5) Added my Synopsis script to the context menu for the MyPrograms windows
+6) Added a new custom window _script*.xml will now be automatically parsed like Custom*.xml
+7) Rearranged the folders structure to make it cleaner.
+8) removed the extension from Skin.CurrentTheme
+9) Moved screensavers to the system folder :) ( Had to use XP to build the screensavers )
+10) Added the option to disable the splash image via the advancedsettings.xml ( <splash>false</splash> )
+11) nosplash.bin added to the system folder to easily disable the splash if you don't want to use the advancedsettings.xml
