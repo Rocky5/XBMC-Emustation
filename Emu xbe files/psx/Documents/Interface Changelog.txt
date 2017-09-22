@@ -2,6 +2,80 @@ This will document all the changes to the Madmab Edition interface which essenti
 
 The interface version used by an emulator can be found in the help menu (example: CFv1b01 ).  If it is not present then the emulator has not been compiled since this change.
 
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b21 changes...
+
+* Load/Save state code modified to handle dual cores for NeogenplusGX.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b20 changes...
+
+* Only first Misc artwork directory was being displayed across a network share.  Fixed.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b19 changes...
+
+* Fixed issue with screen size/position randomly changing when using global override and custom screen/size position.
+
+* Based on user feedback removed the following software filters 2xSai Scanline, 4xSai Scanline, Super 2xSai Scanline, Super 4xSai Scanline, Eagle 2x Scanline, Eagle 4x Scanline, Super Eagle2x Scanline, Super Eagle4x Scanline.
+
+*********************************
+* New Scanline Software Filters *
+*********************************
+
+* Added 6 new software filters from GensX and 2 from NeoGeo CD emulator to the the x-port arsenal.  
+
+* They are as follows Scanlines Filter and Scanlines 50 Filter from NeoGeo CD and Full Scanline, Interpolated Scanline, 50% Scanline, Interpolated 50% Scanline, 25% Scanline, Interpolated 25% Scanline from GensX.
+
+* These will be added to emulators as I can and will be reported in each emu's latest changes text file.
+
+* Here are the current rules for the scanline filters..  These may change as more testing occurs.
+
+The filters can be found in the "software filter" section towards the end of the list.
+
+-------------------------------------
+When you select a new scanline filter
+-------------------------------------
+
+If the game video mode is an HD mode the hardware filter will be changed to bilinear filter because the point filter does not look right unless Y pos is set to -1 and who wants part of the top of their screen missing. Flicker filter Level will be left alone.
+
+If the game video mode is an SD mode the flicker filter level will be set to 2. Hardware filter will be left alone.
+
+-----------------------------------
+When you change the game video mode
+-----------------------------------
+
+If the game video mode is an HD mode and the software filter is a "GensX scanline filter" the hardware filter will be changed to bilinear filter because the point filter does not look right unless Y pos is set to -1 and who wants part of the top of their screen missing. Flicker filter Level will be left alone.
+
+If the game video mode is an SD mode and the software filter is a "GensX scanline filter" the flicker filter level will be set to 2. Hardware filter will be left alone.
+
+----------------------------------------
+How the video size/screen position works
+----------------------------------------
+
+With the exception of "custom" video size/screen position. If you have the software filter set to a "GensX Scanline Filter" then the following rules apply. Otherwise it does what it always did.
+
+If the game video mode is an HD mode the hardware filter will be changed to bilinear filter because the point filter does not look right unless Y pos is set to -1 and who wants part of the top of their screen missing. Flicker filter Level will be left alone.
+
+If the game video mode is an SD mode the flicker filter level will be set to 2. Hardware filter will be left alone.
+
+*********************************
+* End Scanline Software Filters *
+*********************************
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b18 changes...
+
+* Software and Hardware filter are no longer saved with each individual game configuration.  Consider it effectively "global" now.
+
+* Video mode is now changed when sizing the screen if you are using a custom size and the game video mode is set to something other than the interface video mode.  For emulators that have game specific video modes, set the screensize while in-game.
+
+-----------------------------------------------------------------------
+
 Madmab Edition Interface CFv1b17 changes...
 
 * Sound is now paused on game "exit".  To (hopefully) prevent sound stuttering on exit.
@@ -13,10 +87,6 @@ Madmab Edition Interface CFv1b17 changes...
 * Fixed left/right d-pad browsing code on the favorites menu.  Also fixed issue on game select menu when number of files in a directory is less than lines displayed by the skin.
 
 -----------------------------------------------------------------------
-
-This will document all the changes to the Madmab Edition interface which essentially affects all emulators when they are compiled.  This will make tracking emulator differences for me easier seeing how I have 30 plus emulators under my belt.
-
-The interface version used by an emulator can be found in the help menu (example: CFv1b01 ).  If it is not present then the emulator has not been compiled since this change.
 
 Madmab Edition Interface CFv1b16 changes...
 
