@@ -131,7 +131,11 @@ def manual_scan():
 					TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.tbn'
 					
 					try:
-						with open( os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' ) ) as input:
+						if Emu_Name == "genesis":
+							Synopsis_File = os.path.join( Synopsis_Path, "megadrive", Rom_Name_noext + '.txt' )
+						else:
+							Synopsis_File = os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' )
+						with open( Synopsis_File ) as input:
 							Synopsis = input.read()
 							Synopsis1 = Synopsis.split('_________________________', 1)[0]
 							Synopsis2 = Synopsis.split('_________________________', 1)[1]
@@ -374,7 +378,11 @@ def full_scan():
 								TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.tbn'
 								
 								try:
-									with open( os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' ) ) as input:
+									if Emu_Name == "genesis":
+										Synopsis_File = os.path.join( Synopsis_Path, "megadrive", Rom_Name_noext + '.txt' )
+									else:
+										Synopsis_File = os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' )
+									with open( Synopsis_File ) as input:
 										Synopsis = input.read()
 										Synopsis1 = Synopsis.split('_________________________')[0]
 										Synopsis2 = Synopsis.split('_________________________')[1]

@@ -1,3 +1,31 @@
+NeoGensPlusGX v1b09 - A multicore emu.  Madmab Edition.  A XtecuterX73 and Madmab collaboration.
+Emulates - Sega Genesis/Megadrive, 32X, SegaCD/MegaCD, Sega Master System, Game Gear, SG-1000, SC-3000, SF-7000, MK3 Emulator
+Cores - Gens (Neogenesis), Genesis Plus GX, and possibly Meka.
+
+* Updated to madmab edition interface CFv1b30. See "Interface Changelog.txt"
+
+**************************
+* Genesis Plus GX v1.14b *
+**************************
+
+* Fixed issue where SRAM and BRAM was saving but not loading properly in the GX core.
+
+* Some weird typo in the updated CD handling code was causing some CD games not to run properly (only when .cue file selected?)
+
+**********************
+* Neogenesis v25.19b *
+**********************
+
+* No changes
+
+***************
+* Known Issue *
+***************
+
+* If you run a Sega CD game and then run a game with 68000 overclock set to "Yes" (Zero Wing) the game will freeze for brief periods of time (enough to drop the framerate to 20fps).
+
+---------------------------------------------------------------------------------------
+
 NeoGensPlusGX v1b08 - A multicore emu.  Madmab Edition.  A XtecuterX73 and Madmab collaboration.
 Emulates - Sega Genesis/Megadrive, 32X, SegaCD/MegaCD, Sega Master System, Game Gear, SG-1000, SC-3000, SF-7000, MK3 Emulator
 Cores - Gens (Neogenesis), Genesis Plus GX, and possibly Meka.

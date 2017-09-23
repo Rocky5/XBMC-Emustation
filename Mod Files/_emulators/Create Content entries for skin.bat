@@ -11,11 +11,21 @@ md xbox
 	Echo 		^<label^>^$LOCALIZE^[5^]^</label^>
 	Echo 		^<label2^>^$LOCALIZE^[5^]^</label2^>
 	Echo 		^<onclick^>ActivateWindow^(Settings,return^)^</onclick^>
-	Echo 		^<icon^>layouts/Settings/art/system_art.png^</icon^>
-	Echo 		^<thumb^>layouts/%Settings/art/logo.png^</thumb^>
+	Echo 		^<icon^>layouts/settings/art/system_art.png^</icon^>
+	Echo 		^<thumb^>layouts/settings/art/logo.png^</thumb^>
+	Echo 	^</item^>
+)>"Logo.xml"
+(
+	Echo 	^<item id^="1"^>
+	Echo 		^<label^>^$LOCALIZE^[518^] ^$LOCALIZE^[427^]^</label^>
+	Echo 		^<label2^>^$LOCALIZE^[427^]^</label2^>
+	Echo 		^<onclick^>PlayDVD^(^)^</onclick^>
+	Echo 		^<icon^>layouts/disc/art/system_art.png^</icon^>
+	Echo 		^<thumb^>layouts/disc/art/logo.png^</thumb^>
+	Echo 		^<visible^>System.HasMediaDVD^</visible^>
 	Echo 	^</item^>
 )>>"Logo.xml"
-Set /a count=1
+Set /a count=2
 for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 	Echo  %%~na
 		if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="atarijaguar" if not "%%~na"=="atarijaguarcd" (
@@ -37,6 +47,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
+			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
 			Echo 	^</item^>
 		)>>"Logo.xml"
 		if "%%~na"=="atarijaguarcd" (
@@ -47,6 +58,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
+			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
 			Echo 	^</item^>
 		)>>"Logo.xml"
 		if "%%~na"=="ports" (
@@ -79,11 +91,21 @@ Echo ^</content^> >>"Logo.xml"
 	Echo 		^<label^>^$LOCALIZE^[5^]^</label^>
 	Echo 		^<label2^>^$LOCALIZE^[5^]^</label2^>
 	Echo 		^<onclick^>ActivateWindow^(Settings,return^)^</onclick^>
-	Echo 		^<icon^>layouts/Settings/art/system_art.png^</icon^>
-	Echo 		^<thumb^>layouts/%Settings/art/carousel_logo.png^</thumb^>
+	Echo 		^<icon^>layouts/settings/art/system_art.png^</icon^>
+	Echo 		^<thumb^>layouts/settings/art/carousel_logo.png^</thumb^>
+	Echo 	^</item^>
+)>"Carousel.xml"
+(
+	Echo 	^<item id^="1"^>
+	Echo 		^<label^>^$LOCALIZE^[518^] ^$LOCALIZE^[427^]^</label^>
+	Echo 		^<label2^>^$LOCALIZE^[427^]^</label2^>
+	Echo 		^<onclick^>PlayDVD^(^)^</onclick^>
+	Echo 		^<icon^>layouts/disc/art/system_art.png^</icon^>
+	Echo 		^<thumb^>layouts/disc/art/carousel_logo.png^</thumb^>
+	Echo 		^<visible^>System.HasMediaDVD^</visible^>
 	Echo 	^</item^>
 )>>"Carousel.xml"
-Set /a count=1
+Set /a count=2
 for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 	Echo  %%~na
 		if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="atarijaguar" if not "%%~na"=="atarijaguarcd" (
@@ -105,6 +127,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
+			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
 			Echo 	^</item^>
 		)>>"Carousel.xml"
 		if "%%~na"=="atarijaguarcd" (
@@ -115,6 +138,7 @@ for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 			Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py^)^</onclick^>
 			Echo 		^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 			Echo 		^<thumb^>layouts/%%~na/art/carousel_logo.png^</thumb^>
+			Echo 		^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
 			Echo 	^</item^>
 		)>>"Carousel.xml"
 		if "%%~na"=="ports" (

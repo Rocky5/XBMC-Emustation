@@ -1,3 +1,12 @@
+23/09/2017
+	1) Updated the sega consoles emulator files to the latest build.
+	2) Made genesis use the megadrive synopsis folder for well synopsis information.
+	3) New script to patch the emulator xbe files save paths to D:\ instead of E:\
+	4) Added a new button to Other Settings for the above script
+	5) Changed all Emulators software and hardware filters off
+	6) Added a new menu entry to home when a disc is inserted.
+
+
 22/09/2017
 	1) Updated the PSX emulator the latest version of Pcsxbox, v22b25.
 

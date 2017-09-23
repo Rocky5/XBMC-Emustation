@@ -1,7 +1,5 @@
 <window type="window" id="1114">
 		<defaultcontrol always="true">2</defaultcontrol>
-		<onload condition="Skin.HasSetting(menucounters)">Skin.Reset(menucounters)</onload>
-		<onload condition="Skin.HasSetting(menucutcreate)">Skin.Reset(menucutcreate)</onload>
 		<controls>
 				<include>CommonBackground</include>
 				<control type="group">
@@ -153,9 +151,15 @@
 								<control type="button" id="41">
 										<posx>0</posx>
 										<posy>0</posy>
+										<label>$LOCALIZE[32055]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/patch_xbe_paths.py)</onclick>
+								</control>
+								<control type="button" id="42">
+										<posx>0</posx>
+										<posy>0</posy>
 										<label>$LOCALIZE[32049]</label>
 										<include>MenuButtonCommonValues</include>
-										<onfocus condition="Skin.HasSetting(menucutcreate)">Skin.Reset(menucutcreate)</onfocus>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/generate_thumbs.py)</onclick>
 								</control>
 						</control>

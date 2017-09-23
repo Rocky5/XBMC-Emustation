@@ -100,7 +100,7 @@ if Updaye_Emulators == "scan_emus":
 					
 			else:
 				pass
-				#xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)' )
+				xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)' )
 				
 			if not SilentMode == "silent_mode": pDialog.update( ( CountList * 100 ) / len( os.listdir( Emulator_Path ) ),"Scanning folders",EmuFolder )
 			time.sleep(0.1) ## this is here so the progress bar can update
