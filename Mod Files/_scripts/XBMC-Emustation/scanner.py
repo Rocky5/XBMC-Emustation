@@ -50,64 +50,62 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 
 if Updaye_Emulators == "scan_emus":
 
-	if os.path.isdir( Emulator_Path ):
+	if not os.path.isdir( Emulator_Path ): os.makedirs( Emulator_Path )
+	if not os.path.isdir( Roms_Path ): os.makedirs( Roms_Path )
+
+	for EMU_Directories in EMU_Directories:
 	
-		for EMU_Directories in EMU_Directories:
+		if not os.path.isdir( os.path.join( Emulator_Path, EMU_Directories ) ): os.makedirs( os.path.join( Emulator_Path, EMU_Directories ) )
 		
-			if not os.path.isdir( os.path.join( Emulator_Path, EMU_Directories ) ): os.makedirs( os.path.join( Emulator_Path, EMU_Directories ) )
+		if EMU_Directories == "fba":
+			pass
+		elif EMU_Directories == "atarijaguar":
+			pass
+		elif EMU_Directories == "atarijaguarcd":
+			pass
+		elif EMU_Directories == "mame":
+			pass
+		else:
+			if not os.path.isdir( os.path.join( Roms_Path, EMU_Directories ) ): os.makedirs( os.path.join( Roms_Path, EMU_Directories ) )
+	
+	CountList = 1
+	pDialog.update( 0 )
+	
+	if not SilentMode == "silent_mode": pDialog.create( "Refreshing Emulator List","","Please wait..." )
+	
+	for Items in sorted( os.listdir( Emulator_Path ) ):
+	
+		EmuFolder = Items
+		
+		if EmuFolder == "fba":
+			Roms_Folder = os.path.join( Emulator_Path + Items  ) +  "\\roms"
+		elif EmuFolder == "atarijaguar":
+			Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
+		elif EmuFolder == "atarijaguarcd":
+			Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
+		elif EmuFolder == "mame":
+			Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
+		else:
+			Roms_Folder = os.path.join( Roms_Path + Items )
+		
+		if len(os.listdir( Roms_Folder )) > 0:
+		
+			if os.path.isdir(os.path.join( Emulator_Path, Items)):
 			
-			if EMU_Directories == "fba":
-				pass
-			elif EMU_Directories == "atarijaguar":
-				pass
-			elif EMU_Directories == "atarijaguarcd":
-				pass
-			elif EMU_Directories == "mame":
-				pass
-			else:
-				if not os.path.isdir( os.path.join( Roms_Path, EMU_Directories ) ): os.makedirs( os.path.join( Roms_Path, EMU_Directories ) )
-		
-		CountList = 1
-		pDialog.update( 0 )
-		
-		if not SilentMode == "silent_mode": pDialog.create( "Refreshing Emulator List","","Please wait..." )
-		
-		for Items in sorted( os.listdir( Emulator_Path ) ):
-		
-			EmuFolder = Items
-			
-			if EmuFolder == "fba":
-				Roms_Folder = os.path.join( Emulator_Path + Items  ) +  "\\roms"
-			elif EmuFolder == "atarijaguar":
-				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
-			elif EmuFolder == "atarijaguarcd":
-				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
-			elif EmuFolder == "mame":
-				Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
-			else:
-				Roms_Folder = os.path.join( Roms_Path + Items )
-			
-			if len(os.listdir( Roms_Folder )) > 0:
-			
-				if os.path.isdir(os.path.join( Emulator_Path, Items)):
+				Emulator	= os.path.join( Emulator_Path, Items ) + '\\'
 				
-					Emulator	= os.path.join( Emulator_Path, Items ) + '\\'
-					
-					if os.path.isfile( os.path.join( Emulator, "default.xbe" ) ):
-						xbmc.executebuiltin('Skin.SetBool('+ EmuFolder  +'_exists)')
-					else:
-						xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)')
-					
-			else:
-				pass
-				xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)' )
+				if os.path.isfile( os.path.join( Emulator, "default.xbe" ) ):
+					xbmc.executebuiltin('Skin.SetBool('+ EmuFolder  +'_exists)')
+				else:
+					xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)')
 				
-			if not SilentMode == "silent_mode": pDialog.update( ( CountList * 100 ) / len( os.listdir( Emulator_Path ) ),"Scanning folders",EmuFolder )
-			time.sleep(0.1) ## this is here so the progress bar can update
-			CountList = CountList + 1
+		else:
+			pass
+			xbmc.executebuiltin('Skin.Reset('+ EmuFolder +'_exists)' )
 			
-	else:
-		dialog.ok( "Error",'No [B]"_emulator files"[/B] folder found.' )
+		if not SilentMode == "silent_mode": pDialog.update( ( CountList * 100 ) / len( os.listdir( Emulator_Path ) ),"Scanning folders",EmuFolder )
+		time.sleep(0.1) ## this is here so the progress bar can update
+		CountList = CountList + 1
 
 if Update_CUT_Games == "scan_cuts":	
 
