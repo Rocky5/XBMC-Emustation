@@ -1,3 +1,8 @@
+25/09/2017
+	1) Created images for SC-3000 and SF-7000 Sega systems.
+	2) Updated the Xbox pad controller image for the carbon theme, made the lines thicker.
+
+
 23/09/2017
 	1) Updated the sega consoles emulator files to the latest build.
 	2) Made genesis use the megadrive synopsis folder for well synopsis information.
