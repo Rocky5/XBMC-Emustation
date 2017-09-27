@@ -1,3 +1,13 @@
+27/09/2017
+	1) Updated all supplied emulators controller buttons.
+	   SFX volume up and down = R-STick up or down
+	   CDDA volume up and down = Back + R-STick up or down
+	   Save Save State = Back + D-Pad Up
+	   Load Save State = Back + D-Pad Down
+	   Change Save State = Back + D-Pad Right
+	   Fast forward = Black ( psx is Back + Black )
+	
+
 26/09/2017
 	1) Updated the scanner.py to create the _emulators and _roms directories if it doesn't exist.
 	2) Added images and svg files for supervision, chip8x and x6800 systems.
