@@ -1,11 +1,13 @@
 27/09/2017
 	1) Updated all supplied emulators controller buttons.
-	   SFX volume up and down = R-STick up or down
-	   CDDA volume up and down = Back + R-STick up or down
+	   SFX volume up and down = R-Stick up or down ( psx add Back  )
+	   CDDA volume up and down = Back + R-Stick up or down
 	   Save Save State = Back + D-Pad Up
 	   Load Save State = Back + D-Pad Down
 	   Change Save State = Back + D-Pad Right
-	   Fast forward = Black ( psx is Back + Black )
+	   Fast forward = Black ( psx add Back  )
+	2) Bugger forgot to update all the default key files :@
+	3) Updated all aspect rations and screen sizes to be pixel accurate.
 	
 
 26/09/2017
