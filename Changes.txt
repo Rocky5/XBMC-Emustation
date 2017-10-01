@@ -1,3 +1,8 @@
+01/10/2017
+	1) Updated the "create_rom_lists.py" to extract the new fbl rom names.zip if present.
+	   ( I now use this zip file and extract it on the xbox as it saves time FTPing the files over, its also quicker to extract on the xbox )
+
+
 27/09/2017
 	1) Updated all supplied emulators controller buttons.
 	   SFX volume up and down = R-Stick up or down ( psx add Back  )

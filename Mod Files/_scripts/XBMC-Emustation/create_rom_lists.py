@@ -6,7 +6,7 @@
 	( the script will generate static lists for emulators )
 '''
 
-import glob, os, shutil, sys, time, xbmc, xbmcgui
+import glob, os, shutil, sys, time, xbmc, xbmcgui, zipfile
 
 try:
 	Manual_Scan	= sys.argv[1:][0]
@@ -61,6 +61,7 @@ def manual_scan():
 	log('|	Set the Countlist variable and set the emu_name variable.')
 	CountList = 1
 	CUTCount = 0
+	ZipCount = 0
 	Parse_CUE_CCD_ISO_File = 0
 	Parse_ISO_BIN_IMG_File = 0
 	Parse_ISO_File = 0
@@ -162,6 +163,21 @@ def manual_scan():
 
 					log('|	Check if fba was found and parse the name text files to get the correct rom names for the list.')
 					if Parse_FBL_TXT == 1:
+						if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ):
+							log('|	Extracting the rom name files from the zip.')
+							with zipfile.ZipFile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ) as zip:
+								if not os.path.isdir( os.path.join( Emulator_Path, "fba\\info\\rom names" ) ): os.makedirs( os.path.join( Emulator_Path, "fba\\info\\rom names" ) )
+								if ZipCount == 0:
+									pDialog.create( "Extracting Zip","","Please wait..." )
+									Total_TXT_Files = len( zip.namelist() ) or 1
+									Devide = 100.0 / Total_TXT_Files
+									Percent = 0
+									for item in zip.namelist():
+										Percent += Devide
+										pDialog.update( int( Percent ),"Extracting final burn legends rom names","This only happens once per update","Please wait..." )
+										zip.extract( item, os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) )
+									ZipCount = 1
+							os.remove( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" )
 						if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt" ):
 							with open( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt", 'r') as txt:
 								FBA_Rom_Name = txt.readline()[:-2]
@@ -303,6 +319,7 @@ def full_scan():
 			log('|	Set the Countlist variable.')
 			CountList = 1
 			CUTCount = 0
+			ZipCount = 0
 			Parse_CUE_CCD_ISO_File = 0
 			Parse_ISO_BIN_IMG_File = 0
 			Parse_ISO_File = 0
@@ -409,6 +426,21 @@ def full_scan():
 
 								log('|	Check if fba was found and parse the name text files to get the correct rom names for the list.')
 								if Parse_FBL_TXT == 1:
+									if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ):
+										log('|	Extracting the rom name files from the zip.')
+										with zipfile.ZipFile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ) as zip:
+											if not os.path.isdir( os.path.join( Emulator_Path, "fba\\info\\rom names" ) ): os.makedirs( os.path.join( Emulator_Path, "fba\\info\\rom names" ) )
+											if ZipCount == 0:
+												pDialog.create( "Extracting Zip","","Please wait..." )
+												Total_TXT_Files = len( zip.namelist() ) or 1
+												Devide = 100.0 / Total_TXT_Files
+												Percent = 0
+												for item in zip.namelist():
+													Percent += Devide
+													pDialog.update( int( Percent ),"Extracting final burn legends rom names","This only happens once per update","Please wait..." )
+													zip.extract( item, os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) )
+												ZipCount = 1
+										os.remove( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" )
 									if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt" ):
 										with open( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt", 'r') as txt:
 											FBA_Rom_Name = txt.readline()[:-2]
