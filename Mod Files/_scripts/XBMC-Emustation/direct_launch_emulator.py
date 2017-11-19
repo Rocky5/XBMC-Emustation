@@ -27,4 +27,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 			if xbmc.getCondVisibility( '!Skin.HasSetting(althomelayout)' ): MenuLabel = xbmc.getInfoLabel('Container(9001).ListItem.Label2')
 			if xbmc.getCondVisibility( 'Skin.HasSetting(althomelayout)' ): MenuLabel = xbmc.getInfoLabel('Container(9002).ListItem.Label2')
 ###########
-xbmc.executebuiltin('runxbe(' + Emulator_Path + '' + MenuLabel + '\\default.xbe)')
+if os.path.isfile( os.path.join( Emulator_Path, MenuLabel, 'default.xbe' ) ):
+	xbmc.executebuiltin('runxbe(' + Emulator_Path + '' + MenuLabel + '\\default.xbe)')
+else:
+	pass

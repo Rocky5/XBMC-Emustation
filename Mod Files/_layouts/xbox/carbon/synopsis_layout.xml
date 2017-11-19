@@ -62,6 +62,26 @@
 	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 </control>
+<control type="image">
+	<description>video preview window background</description>
+	<posx>32</posx>
+	<posy>158</posy>
+	<width>312</width>
+	<height>217</height>
+	<aspectratio>keep</aspectratio>
+	<texture>black-back.png</texture>
+	<visible>Player.HasVideo</visible>
+</control>
+<control type="videowindow">
+	<description>video preview window</description>
+	<posx>32</posx>
+	<posy>158</posy>
+	<width>312</width>
+	<height>217</height>
+	<aspectratio>keep</aspectratio>
+	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
+	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
+</control>
 <!-- list -->
 <control type="list" id="50">
 	<posx>787</posx>

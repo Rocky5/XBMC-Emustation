@@ -63,6 +63,11 @@
 						<black>XBMC.Skin.ToggleSetting(HomeViewToggle)</black>
 				</gamepad>
 		</Home>
+		<MyPrograms>
+				<gamepad>
+						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/play_preview.py)</Y>
+				</gamepad>
+		</MyPrograms>
 		<MyFiles>
 				<gamepad>
 						<Y>Highlight</Y>

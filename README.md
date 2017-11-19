@@ -8,6 +8,11 @@
  
  But it wasn't that simple, I wanted menu loading instant and there was no simple way to do that with over 700 roms or a few hundred games, so I modified the XBMC source to bypass the folder check for xbe files. This worked for games, but not roms, so again had to think outside of the box and came up with a workaround :) I create static menus when you scan your roms. There are also a few other scripts I made to do other tasks, but hopefully you like what I have made and get some use out of it.
 
+### Contributions
+ If you'd like to say thanks by sending a small donation, it'd be a huge help, and it'll allow me to keep spending time towards contributing to the Xbox community in the future.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=65NJWU9PUUX7W&lc=GB&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)
+ 
 ## Installation
  * Download [XBMC-Emustation](https://github.com/Rocky5/XBMC-Emustation/archive/master.zip) and extract the **XBMC-Emustation-master** folder to your desktop.
  * Download the latest [XBMC4XBOX-*****.zip](https://drive.google.com/drive/folders/0B9zNhNcNUdDTRVFBbHcwc2JCZFE) and extract the **XBMC** folder that is inside the zip to your desktop\\**XBMC-Emustation-master**\\ folder.

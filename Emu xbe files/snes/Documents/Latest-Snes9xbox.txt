@@ -1,4 +1,32 @@
 ------------------------------------------------
+SNES9XBox Super Nintendo Emulator for XBox v6b08
+------------------------------------------------
+
+* All cores updated to madmab edition interface CFv1b31.  See "Interface Changelog.txt"
+
+* Fixed fast forward in 1.51 and 1.53 cores which got messed up with the new frameskip options.
+
+* Fixed issue for PAL50 users (see "Interface Changelog.txt")
+
+* Fixed issue where using a real mouse was not working in 1.51 and 1.53 cores.
+
+* Changes to the screenshot code to account for new directory layout when using "Extras menu" screenshot options.
+
+* Added perfect pixel modes for 720x480 and 720x576.
+
+* Translation patch for Tengai Makyou Zero : Far East Of Eden now works (1.53 core only).
+
+* Bumped up the rewind frameskip to accomodate for the slowdown cause by rewind in the 1.53 core.
+
+* Added SPC7110 games to the list of games that rewind is auto disabled for.
+
+* Lots of fixes to the lightgun code for those using real lightguns.  Back button is mapped to secondary fire (mouse right button).  Up/down/left/right on lightgun mapped to snes pad gamepad.  Reload (by aiming off screen and firing) should work properly now except for T2.
+
+* Internal snes9x cross hair does not display when using a real lightgun.
+
+* Mouse middle button now mapped to super scope pause button
+
+------------------------------------------------
 SNES9XBox Super Nintendo Emulator for XBox v6b07
 ------------------------------------------------
 
@@ -8,7 +36,7 @@ SNES9XBox Super Nintendo Emulator for XBox v6b07
 
 * Right mouse button was not operable in all cores... Fixed.
 
-* Lightgun secondary fire and Justifier zapper clear got foobared when I modified the controller sequence.  Fixed.  Note:  1.43 core does not display a cursor.. so using the left analog as a lightgun is rather difficult.
+* Lightgun secondary fire and Justifier zapper clear got foobared when I modified the controller sequence.  Fixed.  Note:  1.43 core does not display a crosshair.. so using the left analog as a lightgun is rather difficult.
 
 * New game configuration option.  "Disable Hi-Res?  Yes/No".  Defaults to yes.  This helps improve speed in games that uses the SNES hi-res mode (Jurassic Ppark and Super Bases Loaded 1 & 3).  However it can make text unreadable in some games.
 

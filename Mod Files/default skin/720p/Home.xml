@@ -1,4 +1,5 @@
 <window id="0">
+		<onload condition="Player.HasVideo">Stop</onload>
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<controls>
 				<!-- These are used to select the correct view -->

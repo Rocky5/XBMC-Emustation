@@ -1,3 +1,13 @@
+19/11/2017
+	1) Added preview video support
+	2) Added the option to customise the _preview path. ( Just like the emulators and roms )
+	3) Updated the "direct_launch_emulator.py" script to check if the xbe files exists before trying to load it.
+	4) New "play_preview.py" script used to well play a preview video.
+	5) Updated the SNES emulator xbes to the latest version.
+	6) Updated the readme.md files with a donation button.
+	7) Other script changes and stuff.
+	
+
 01/10/2017
 	1) Updated the "create_rom_lists.py" to extract the new fbl rom names.zip if present.
 	   ( I now use this zip file and extract it on the xbox as it saves time FTPing the files over, its also quicker to extract on the xbox )

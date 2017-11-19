@@ -136,6 +136,23 @@
 										<onclick>SetFocus(33)</onclick>
 										<visible>!IsEmpty(Skin.String(Custom_Roms_Path))</visible>
 								</control>
+								<control type="button" id="35">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32056]</label>
+										<label2>$INFO[Skin.String(Custom_Preview_Path)]</label2>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.SetPath(Custom_Preview_Path)</onclick>
+								</control>
+								<control type="button" id="36">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32056]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.Reset(Custom_Preview_Path)</onclick>
+										<onclick>SetFocus(35)</onclick>
+										<visible>!IsEmpty(Skin.String(Custom_Preview_Path))</visible>
+								</control>
 								<!-- other stuff-->
 								<control type="label" id="40">
 										<posx>320</posx>

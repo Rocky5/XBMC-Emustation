@@ -56,6 +56,17 @@ Header_Data_EMU					= '<window id="1">\n\
 			<aspectratio>stretch</aspectratio>\n\
 			<texture background="false" fallback="layouts/%s/menu_background.png">Special://xbmc/_layouts/%s/%s/menu_background.png</texture>\n\
 		</control>\n\
+		<control type="button" id="9100">\n\
+			<posx>-500</posx>\n\
+			<onup>stop</onup>\n\
+			<onup>setfocus(9000)</onup>\n\
+			<onup>Control.Move(9000,-1)</onup>\n\
+			<ondown>stop</ondown>\n\
+			<ondown>setfocus(9000)</ondown>\n\
+			<ondown>Control.Move(9000,1)</ondown>\n\
+			<onclick>stop</onclick>\n\
+			<onclick>setfocus(9000)</onclick>\n\
+		</control>\n\
 	'
 Footer_Data_EMU					= '\n\
 	<control type="image">\n\
@@ -65,6 +76,16 @@ Footer_Data_EMU					= '\n\
 		<height>85</height>\n\
 		<aspectratio>stretch</aspectratio>\n\
 		<texture background="true">layouts/art/gamelist_help_emus.png</texture>\n\
+		<visible>!Skin.HasSetting(synopsislayout)</visible>\n\
+	</control>\n\
+	<control type="image">\n\
+		<posx>0</posx>\n\
+		<posy>635</posy>\n\
+		<width>1280</width>\n\
+		<height>85</height>\n\
+		<aspectratio>stretch</aspectratio>\n\
+		<texture background="true">layouts/art/gamelist_help_emus_synopsis.png</texture>\n\
+		<visible>Skin.HasSetting(synopsislayout)</visible>\n\
 	</control>\n\
 	</control>\n\
 	</controls>\n\
@@ -88,6 +109,17 @@ Header_Data_XBE					= '<window id="1">\n\
 			<aspectratio>stretch</aspectratio>\n\
 			<texture background="false" fallback="layouts/%s/menu_background.png">Special://xbmc/_layouts/%s/%s/menu_background.png</texture>\n\
 		</control>\n\
+		<control type="button" id="9100">\n\
+			<posx>-500</posx>\n\
+			<onup>stop</onup>\n\
+			<onup>setfocus(50)</onup>\n\
+			<onup>Control.Move(50,-1)</onup>\n\
+			<ondown>stop</ondown>\n\
+			<ondown>setfocus(50)</ondown>\n\
+			<ondown>Control.Move(50,1)</ondown>\n\
+			<onclick>stop</onclick>\n\
+			<onclick>setfocus(50)</onclick>\n\
+		</control>\n\
 	'
 Footer_Data_XBE					= '\n\
 	<control type="image">\n\
@@ -97,6 +129,16 @@ Footer_Data_XBE					= '\n\
 		<height>85</height>\n\
 		<aspectratio>stretch</aspectratio>\n\
 		<texture background="true">layouts/art/gamelist_help.png</texture>\n\
+		<visible>!Skin.HasSetting(synopsislayout)</visible>\n\
+	</control>\n\
+	<control type="image">\n\
+		<posx>0</posx>\n\
+		<posy>635</posy>\n\
+		<width>1280</width>\n\
+		<height>85</height>\n\
+		<aspectratio>stretch</aspectratio>\n\
+		<texture background="true">layouts/art/gamelist_help_synopsis.png</texture>\n\
+		<visible>Skin.HasSetting(synopsislayout)</visible>\n\
 	</control>\n\
 	</control>\n\
 	</controls>\n\
