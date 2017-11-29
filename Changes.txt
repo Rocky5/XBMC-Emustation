@@ -1,3 +1,8 @@
+29/11/2017
+	1) Fixed master systems and Gamegear controller configuration.
+	2) Updated all Sega systems to the latest build of NeoGensPlusGX, v1b10.
+
+
 19/11/2017
 	1) Added preview video support
 	2) Added the option to customise the _preview path. ( Just like the emulators and roms )

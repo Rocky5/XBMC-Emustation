@@ -1,3 +1,65 @@
+---------------------------------------------------------------------------------------
+
+NeoGensPlusGX v1b10 - A multicore emu.  Madmab Edition.  A XtecuterX73 and Madmab collaboration.
+Emulates - Sega Genesis/Megadrive, 32X, SegaCD/MegaCD, Sega Master System, Game Gear, SG-1000, SC-3000, SF-7000, MK3 Emulator
+Cores - Gens (Neogenesis), Genesis Plus GX, and possibly Meka.
+
+* Updated to madmab edition interface CFv1b30. See "Interface Changelog.txt"
+
+**************************
+* Genesis Plus GX v1.15b *
+**************************
+
+* Changes to the screenshot code to account for new directory layout when using "Extras menu" screenshot options.
+
+* Thunder Force III was hanging due to the improved fifo timing accuracy and later fixed by an update, see below core changes.
+
+* Pier Solar was not working in previous build but appears to be working now (may be due to the fifo timing fixes)
+
+* Rewind was causing framerate issues with some games when running in 720p mode.  (Example:  Beginning of Sonic 3 Angel Island Zone).  Fixed.
+
+* Core updated to all changes up to 09/20/17.  See below changelog.
+
+[Core/IO]
+
+* Increased Sega Mouse latency (fixes mouse support in Star Blade)
+
+[Core/Sound]
+
+* Fixed PSG noise channel bug.
+
+* Fixed 3-Band EQ implementation.
+
+[Core/VDP]
+
+* Allow active screen width to be modified during first two lines (Bugs Bunny in Double Trouble).
+
+* Improved VDP status read timing accuracy (fixes 'Marvel Land' demo mode).
+
+[Core/CD]
+
+* Fixed CD hardware buffer initialization when using dynamic memory allocation.
+
+	
+[Core/MD]
+
+* Added (very basic) emulation of Flashkit MD hardware.
+
+
+**********************
+* Neogenesis v25.19b *
+**********************
+
+* No changes
+
+***************
+* Known Issue *
+***************
+
+* If you run a Sega CD game and then run a game with 68000 overclock set to "Yes" (Zero Wing) the game will freeze for brief periods of time (enough to drop the framerate to 20fps).
+
+---------------------------------------------------------------------------------------
+
 NeoGensPlusGX v1b09 - A multicore emu.  Madmab Edition.  A XtecuterX73 and Madmab collaboration.
 Emulates - Sega Genesis/Megadrive, 32X, SegaCD/MegaCD, Sega Master System, Game Gear, SG-1000, SC-3000, SF-7000, MK3 Emulator
 Cores - Gens (Neogenesis), Genesis Plus GX, and possibly Meka.
@@ -102,7 +164,7 @@ goto http://www.emuxtras.net/ for latest cheats, rumbles, synopsis and skin upda
 
 * improved control pad emulation (verified on real hardware).
 
-* fixed 4 Way-Play adapter compatibility mode (fixes multitape detection in CD games).
+* fixed 4 Way-Play adapter compatibility mode (fixes multitap detection in CD games).
 
 [Core/Sound] 
 
