@@ -92,7 +92,7 @@
 										<label> &gt; $LOCALIZE[424] $LOCALIZE[561]</label>
 										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
 										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.SetFile(selectedintrofile,.avi | .mp4 | .wmv | .xmv,Special://xbmc/)</onclick>
+										<onclick>Skin.SetFile(selectedintrofile,.avi|.mp4|.wmv|.xmv,Special://xbmc/)</onclick>
 										<visible>Skin.HasSetting(introenabled)</visible>
 								</control>
 								<control type="radiobutton" id="7">
