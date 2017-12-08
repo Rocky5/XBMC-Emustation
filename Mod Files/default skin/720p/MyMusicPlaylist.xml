@@ -102,7 +102,5 @@
 						<include file="IncludesCodecFlagging.xml">AudioTypeHackFlaggingConditions</include>
 				</control>
 				<include>ScrollOffsetLabel</include>
-				<!-- Debug Info -->
-				<include>Debug</include>
 		</controls>
 </window>

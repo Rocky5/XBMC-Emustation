@@ -162,7 +162,5 @@
 						<include file="IncludesCodecFlagging.xml">AudioTypeHackFlaggingConditions</include>
 				</control>
 				<include>BehindDialogFadeOut</include>
-				<!-- Debug Info -->
-				<include>Debug</include>
 		</controls>
 </window>

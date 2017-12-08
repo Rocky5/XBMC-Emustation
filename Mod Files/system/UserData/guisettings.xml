@@ -676,11 +676,11 @@
 				</calibrate>
 				<defaultplayer>1</defaultplayer>
 				<displayresolution>10</displayresolution>
-				<errorinaspect>3.000000</errorinaspect>
+				<errorinaspect>0.000000</errorinaspect>
 				<fast>false</fast>
-				<flicker>1</flicker>
+				<flicker>0</flicker>
 				<framerateconversions>0</framerateconversions>
-				<rendermethod>2</rendermethod>
+				<rendermethod>0</rendermethod>
 				<resumeautomatically>2</resumeautomatically>
 				<sep1>
 				</sep1>

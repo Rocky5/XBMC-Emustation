@@ -1,3 +1,14 @@
+08/12/2017
+	1) New layout system for the Home menu, you can now theme it like the emulators menus.
+	2) Updated the Customise home menu settings menu to reflect the above changes.
+	3) Updated the "menu_loader.py" script to use the default layouts if there are no theme specific ones found.
+	4) New script for doing the theming stuff for the home menu.
+	5) Added the button button bar to the layout files so skinners can theme this part.
+	6) Updated the "play_preview.py" script to only play a video if the synopsis view is enabled.
+	7) New default.xbe, made it reload themes instantly so there are no issues changing Home layouts (themes)
+	8) Other script fixes/improvements.
+
+
 29/11/2017
 	1) Fixed master systems and Gamegear controller configuration.
 	2) Updated all Sega systems to the latest build of NeoGensPlusGX, v1b10.

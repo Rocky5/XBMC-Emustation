@@ -161,3 +161,12 @@
 	<colordiffuse>FF77ba3f</colordiffuse>
 	<texture background="true">layouts/art/help_background.png</texture>
 </control>
+<!-- bottom buttons overlay -->
+<control type="image">
+	<posx>0</posx>
+	<posy>635</posy>
+	<width>1280</width>
+	<height>85</height>
+	<aspectratio>stretch</aspectratio>
+	<texture background="false">layouts/art/gamelist_help_synopsis.png</texture>
+</control>

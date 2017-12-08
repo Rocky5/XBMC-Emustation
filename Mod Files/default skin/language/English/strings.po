@@ -643,19 +643,19 @@ msgid "[UPPERCASE]change theme[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32017"
-msgid "[UPPERCASE]enable alt home layout[/UPPERCASE]"
+msgid "[UPPERCASE]changing theme[CR]please wait...[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32018"
-msgid "[UPPERCASE]enable alt carousel bar[/UPPERCASE]"
+msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32019"
-msgid "[UPPERCASE]enable alt label position[/UPPERCASE]"
+msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32020"
-msgid "[UPPERCASE]invert carousel label colour[/UPPERCASE]"
+msgid "[UPPERCASE]UPPERCASE]"
 msgstr ""
 
 msgctxt "#32021"

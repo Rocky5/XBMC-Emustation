@@ -74,7 +74,5 @@
 						<textcolor>white</textcolor>
 						<label>$LOCALIZE[20323]</label>
 				</control>
-				<!-- Debug Info -->
-				<include>Debug</include>
 		</controls>
 </window>

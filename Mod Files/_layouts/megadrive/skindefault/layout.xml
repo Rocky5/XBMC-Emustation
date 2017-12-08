@@ -139,3 +139,12 @@
 	<animation reversible="true" effect="fade" start="0" end="100" delay="" time="300">visible</animation>
 	<animation reversible="true" effect="fade" start="100" end="0" delay="" time="300">hidden</animation>
 </control>
+<!-- bottom buttons overlay -->
+<control type="image">
+	<posx>0</posx>
+	<posy>635</posy>
+	<width>1280</width>
+	<height>85</height>
+	<aspectratio>stretch</aspectratio>
+	<texture background="false">layouts/art/gamelist_help_emus.png</texture>
+</control>

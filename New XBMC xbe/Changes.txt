@@ -12,3 +12,4 @@
 9) Moved screensavers to the system folder :) ( Had to use XP to build the screensavers )
 10) Added the option to disable the splash image via the advancedsettings.xml ( <splash>false</splash> )
 11) nosplash.bin added to the system folder to easily disable the splash if you don't want to use the advancedsettings.xml
+12) Reload skin almost instantly, changed for the them selection screen.
