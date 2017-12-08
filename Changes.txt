@@ -7,6 +7,7 @@
 	6) Updated the "play_preview.py" script to only play a video if the synopsis view is enabled.
 	7) New default.xbe, made it reload themes instantly so there are no issues changing Home layouts (themes)
 	8) Other script fixes/improvements.
+	9) Updated nes emulator to Mednafenx-nes V15b14
 
 
 29/11/2017

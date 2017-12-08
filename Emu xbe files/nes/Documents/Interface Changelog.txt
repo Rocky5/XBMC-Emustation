@@ -4,9 +4,53 @@ The interface version used by an emulator can be found in the help menu (example
 
 -----------------------------------------------------------------------
 
+Madmab Edition Interface CFv1b32 changes ...
+
+* Commented out a line that was resetting the refresh rate thus preventing users from taking advantage of "Force PAL50 Mode" to get 50hz speed in 720x480 or 640x480 mode (even though the screen ratio is incorrect).
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b31 changes ...
+
+* Delete game configuration modified to remove "inputmap.cfg" and "mednafen.cfg" for the MednafenX series of emulators.
+
+* Minor change to the manual screenshot advancement code as well as fixes for Vice64 not properly displaying screenshots from the screenshot directory.
+
+* Fixed issue where menu state was sometimes not being reset to MAIN_MENU when exiting a game (for example pcsxbox not starting because of a bad cue file).
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b30 changes ...
+
+* Fixed an issue where changing the software filter in-game would cause a crash (Neogenplus GX core only)
+
+* BoxCart art and screenshot textures are cleared on game start to help free up a little memory before launching a game.
+
+* Removed redundant code.
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b29 changes ...
+
+* Running any emulator on a PAL50 system with videomode 640x480 and Force PAL 50 set to No would cause a crash (black screen).  Fixed.  :)
+
+
+-----------------------------------------------------------------------
+
+Madmab Edition Interface CFv1b28 changes ...
+
+* Fixed were it was possible to lower CDDA volume and MP3 music volume (background music) below 0...
+
+* Fixed issue where setting the game screen size/position to other than Pixel Accurate would reset the flicker fixer, software and hardware filters to ( 0, point, and none).
+
+* Fixed another case where the UI was not going back to the "ROM directory" when changing default directories.
+
+
+-----------------------------------------------------------------------
+
 Madmab Edition Interface CFv1b27 changes ...
 
-* Fixed Issue where background music not stopping when running actual original CD games (for emulators that support it) if user has it set to turn off on game start.
+* Fixed Issue where background music was not stopping when running actual original CD games (for emulators that support it) if user has it set to turn off on game start.
 
 -----------------------------------------------------------------------
 

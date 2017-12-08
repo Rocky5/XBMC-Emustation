@@ -1,3 +1,47 @@
+MednafenX-NES - NES Emulator for XBox v15b14
+
+Updated to madmab edition interface CFv1b32. See "Interface Changelog.txt"
+
+* The option to "prevent rewind and rewind toggling" in the "Dummy/Lockdown mode" is now available and works on Mednafen emulators.
+
+* Changes to the screenshot code to account for new directory layout when using "Extras menu" screenshot options.
+
+* Game SFX volume is no longer saved with a game configuration.
+
+* Selecting a NES palette was not only not "auto selecting" the emulator directory (D:\\), it was not properly returning you back to the ROMs folder (fixed).  I also moved the ".pal" files into the "Palettes" directory.  So make sure you create that directory and place the ".pal" files in there.
+
+* Fixed issue where emulator would crash if it was unable to find the palette file.  It also now looks for palette files in the "D:\palettes" folder.  So make sure you move any palettes you are using into that folder.
+
+* Fixed issue where in game menu "VS" options were not displaying when playing "VS" games only "FDS" options.
+
+* In game menu options now properly display dipswitch/insert coin options only when using "VS" cart and "FDS" options when playing a "FDS" game.
+
+* Added MDFN_FASTCALL function to all relevant areas.. in theory this should help speed up some games on the 'ol xbox!
+
+* Converted all mappers to dynamically allocate WRAM as needed (for memory savings).
+
+* Decoupled the PCE and LYNX cores to allow easier updating of code.
+
+* Total memory saving from two above changes is about a half a megabyte of RAM.
+
+* Added IRQ code to the FDS driver to fix blinking status screen issues with Druid and Famicom Grand Prix I
+
+* Updated or added several mappers improving game compatibility.  The following mappers were either added or updated.  1, 3, 7, 11, 18, 28, 29, 30, 35, 36, 66, 68, 79 (Nina6), 83, 87, 90, 103, 112, 113, 114, 115, 116, 121, 123, 132, 137 (S8259D), 139, 141 (S8259A), 142 (KS7032), 143 (TCA01), 144, 145, 146, 150 (S74LS374N), 156, 172, 173, 176 (BMCFK23C), 178, 183, 185 (copy protection), 189, 190, 202, 205, 208, 209, 211, 212, 216 (bonza), 219, 221
+
+* The following games are working now.  Aladdin (Super Game), AV Bishojo Senshi Girl Fighter, Bao Qing Tian, Blood Of Jurassic, Bravesoft_Windows_2000, Bubble Bobble (FDS Conversion), Chess Academy, City Fighter IV (Sound), Contra Fighter, Daiku no Gen San II, Donkey Kong Country IV, Dragon Running, Earthworm Jim 3, Exciting Basket (FDS Conversion), Family Basic v3, Family Trainer, Faxanadu Restoration, Fighting hero III, Final Combat, Great Wall, Green Beret (FDS Conversion), Gyruss (FDS Conversion), Hell Fighter, Hot Dance 20000, Hot Slots, Jin Gwok Sei Chuen Saang, King of Fighters '97, Korean Igo, Magic Jewelry II, Master Fighter II, Mega Man III Ultimate, Mei Shao Nv Meng Gong Chang, Metroid - Jin Ji Zhi Ling (FDS Conversion), Monty no Doki Doki Daisassou (FDS Conversion), Ninja Jajamaru, Ninja Jajamaru's Big Adventure, Panda Prince, Poke Block, Portopia, ProWrestling (FDS Conversion), Racermate Challenge 2, Rockball, Sidewinder, Street Fighter IV, Street Heroes, Strike Wolf, Suikan Pipe (Gimmick Bootleg), Super Mali Splash Bomb, Super Pitfall: 30th Anniversary Edition, Test Ver. 1.01, Time Lord, Tiny Toon Adventures VI, Toy Story (unl), Twin Dragons, Twin Eagle, Ultimate Mortal Kombat 3 14 people, Wario Land II, Wagyan Land III, World Heroes II Pro, Zanac (FDS_Conversion), Zelda - Triforce of the Gods, Zelda II Challenge
+
+* Added the following games to the "bad header list" so they now work properly.  Dancing Blocks, Genius Bakabon, Kid Nikki III, Lupin The 3rd, Lupin The 3rd, Penguin Wars, PipeMania, Toy Story, Wagyan Land II
+
+* Added the following "Unif" mappers.  FS304, KOF97, SHERO, 603-5052, 22211, F-15, 158B, OneBus, G-146, FK23CA, 11160, KS7017, BB, CITYFIGHT, DANCE2000, KS7016, AC08, KS7057, KS7037, LH32, HP898F, 8-in-1, MALISB, RT-01, SMB2J, 8157, 42in1ResetSwitch, TEK90, 64in1NoRepeat, 70in1, 70in1B, DREAMTECH01, CC-21, 810544-C-A1, DRAGONFIGHTER, 810544-C-A1, YOKO, NTD-03
+
+* A bunch of multi-cart games playable now.  100-in-1, 138-in-1, 777777, 88888, 88888 (cool), 999999, Power joy supermax, Superarcade, 150-in-1 Unchained Melody, 1994 Super HIK 14-in-1, 23 Plus 222-in-1, 6-in-1 (MGC-023), Dance 2000 12-in-1, 125-in-1, 4-in-1 [FK23C8026], 4-in-1 [FK23C8045], 4-in-1 [FK23C8056], 4-in-1 [FK23C8079], 9999-in-1 (Anim Splash, rev 13), Super HIK 300-in-1 (1994), Prima Soft 9999999-in-1, Super 8-in-1 (with Rockin' Kats), 2000-in-1, 4-in-1 (OK-411), 106-in-1, 4-in-1 1993, 42-in-1 (Reset Switch), 45-in-1, 64-in-1 (No Repeat), 70-in-1, 800-in-1, Mi Hun Che (As), Asder 20-in-1
+
+* Added several other games from the fceultraumm "bad header list".
+
+* Updated the input drivers.  Space Shadow is playable now.
+
+------------------------------------------------------------------------
+
 MednafenX-NES - NES Emulator for XBox v15b13
 
 Updated to madmab edition interface CFv1b27. See "Interface Changelog.txt"
