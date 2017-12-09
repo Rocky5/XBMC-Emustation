@@ -104,6 +104,14 @@
 										<onclick>Skin.ToggleSetting(lastromlist)</onclick>
 										<selected>Skin.HasSetting(lastromlist)</selected>
 								</control>
+								<control type="radiobutton" id="8">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32031]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(resourcesvideo)</onclick>
+										<selected>Skin.HasSetting(resourcesvideo)</selected>
+								</control>
 								<control type="button" id="20">
 										<posx>0</posx>
 										<posy>0</posy>

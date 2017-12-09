@@ -1,0 +1,14 @@
+Astromeda
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Shoot 'em Up - Horizontal - Scrolling
+Gametype: Licensed
+Release Year: 1987
+Developer: Rino Marketing
+Publisher: Rino Marketing
+Players: 1
+Programmer: Anthony J. Wilson
+_________________________
+

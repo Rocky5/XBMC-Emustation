@@ -1,0 +1,33 @@
+Seven Cities of Gold, The
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Strategy - Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Ozark Softscape
+Publisher: Electronic Arts
+Players: 1
+Programmer: Dan Bunten, Jim Rushing, Alan Watson
+Musician: Roy Glover
+_________________________
+
+In The Seven Cities of Gold the player takes on the role of Christopher Columbus and the later Spanish conquistadors, exploring the New World (or a randomly generated map). As the player establishes forts and missions, bringing back gold to Spain, he or she would receive promotions from the Queen of Spain. The game features a large world to explore and comes up with some arcade sequences to simulate the interaction of the Natives and Spanish who did not speak the same language. The historical map accurately spreads out the Native population of the New World in 1492 and some historical situations can be simulated, such as whether to get the gold of the Aztec and Incas by trade or conquest.
+
+Trivia:
+
+Apple version
+
+Accoding to designer Dan Bunten, the only "full" version of the game was made for the Atari. All other ports, including the better selling Commodore version, had to compromise some of the original game aspects to make the port. 
+
+Edutainment
+
+This was the first game to be classified as "edu-tainment" by EA founder Trip Hawkins. 
+
+Random generator
+
+Includes a "world generator" if you find the Americas to be too "boring". The world is generated with the proper algorithms, including mountains, hills, rivers and such, with different levels of civilizations from simple villages to a "heart" of civilization like the Incans and Mayans. 
+
+
+http://www.mobygames.com/game/atari-8-bit/seven-cities-of-gold

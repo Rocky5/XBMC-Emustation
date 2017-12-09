@@ -1,0 +1,20 @@
+Dambusters
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1984
+Developer: Electric Software Ltd.
+Publisher: Electric Software Ltd.
+Players: 1
+_________________________
+
+This action packed game is a simulation of the 'Dambusters' raid of May 16 1943 against German dams on the Upper Ruhr.  The object of the game is to pilot a Lancaster bomber from take-off in England, across the North Sea and Dutch coast to the target, whilst gaining as many points as possible along the way.  The highest score so far is maintained on the display.
+
+Loading instructions: 
+- type CLOAD 
+- type RUN.
+
+[From the box back]

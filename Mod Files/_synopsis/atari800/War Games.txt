@@ -1,0 +1,21 @@
+War Games
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Strategy
+Gametype: Licensed
+Release Year: 1984
+Developer: Coleco
+Publisher: Coleco
+Players: 1
+_________________________
+
+Greetings, Professor Falken. Shall we play a game?
+
+This strategic game is based on the popular 1983 movie of the same name, starring Matthew Broderick. It might remind people of Missile Command but the action is slower and spread over six screens which represent different areas of the U.S.A. Enemy missiles, planes, and subs will attack and you must direct your own forces, which include missiles, planes, subs, and satellites, to intercept them. Each type of defense has strengths and weaknesses (missiles are fast but limited in range, planes are slower but have unlimited range). Satellites are a better all-around defense but are only available every so often. Some weapons aren't available in certain areas, and some enemies are resistant to certain weapons, so you must alter your strategy accordingly. 
+
+As your bases and cities are struck, a DefCon indicator for each area will count down and when the overall DefCon reaches 1 for a minute or when all cities and bases are destroyed, a counterstrike is launched and the game is over. The game is won by preventing a counterstrike long enough for a cease-fire to be reached. There's eight different difficulty levels to progress through as you get the hang of it. A two-player mode on the Colecovision lets one player to use the Roller Controller to guide and fire weapons, while the second player inputs keypad commands.
+
+
+http://www.mobygames.com/game/atari-8-bit/wargames-

@@ -1,0 +1,19 @@
+Barnyard Blaster
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Lightgun
+Genre: Shooter - Light Gun
+Gametype: Licensed
+Release Year: 1987
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 Alternating
+Programmer: James Zalewski
+_________________________
+
+You and your grandpa just put your life savings into buying a small farm a few acres for growing vegetables and raising horses, a place to get away from the battle of city life. But you discover that the entire farm is full of things that are determined to drive you away.
+
+Barnyard Blaster is a shooting gallery type game for use with the Atari XG-1 light gun or the joystick. There are three levels plus one bonus level.Your goal is to rid your farm of vermin by shooting targets in each of three levels. Between each level you'll play Gramps' bonus screen where you can brush up on your shooting. But in order to proceed through each level, you must achieve a certain percentage of shooting accuracy. At the end of the game you're given a ranking depending on how well you did.
+
+http://www.mobygames.com/game/atari-8-bit/barnyard-blaster

@@ -1,0 +1,24 @@
+Pitfall II: Lost Caverns
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Platform - Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Activision
+Publisher: Activision
+Players: 1
+Programmer: Mike Lorenzen
+Designer: David Crane
+_________________________
+
+You play Pitfall Harry searching for the Raj diamond, his niece Rhonda, and a variety of treasures somewhere in the Andes. Poisonous frogs, eels, scorpions, bats and other hazards get in the way. Pitfall II is the sequel to Pitfall, the original platform game. Gameplay has remained pretty much the same, with each screen presenting a side view of obstacles to get past, and potentially treasures to collect.
+
+The landscape is more maze like, with a variety of paths and dead ends to search. Along the way there are checkpoints the player will encounter. When the player dies, Pitfall Harry will be sent back to the most recently crossed checkpoint.
+
+Once you completed the game, you could play a second, even more difficult mission, with a completely different maze.
+ 
+Scoring over 99,000 points could get you a "Cliff Hangers" patch by sending proof to Activision along with $1.
+
+http://www.mobygames.com/game/atari-5200/pitfall-ii-lost-caverns

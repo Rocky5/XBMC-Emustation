@@ -1,0 +1,15 @@
+Laser Gates
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shooter - Vertical
+Gametype: Licensed
+Release Year: 1984
+Developer: Imagic
+Publisher: Imagic
+Players: 1
+Programmer: Dan Oliver
+_________________________
+
+Part of the Imagic 1-2-3 pack?

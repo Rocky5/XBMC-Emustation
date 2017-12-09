@@ -1,0 +1,26 @@
+Yoomp!
+Platform: Atari 800
+Region: Poland
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Action - 3D
+Gametype: Licensed
+Release Year: 2008
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Marcin Zukowski, Piotr Fusik
+Musician: Lukasz Sychowicz
+_________________________
+
+First place in the ABBUC Software Contest 2007.
+
+Version 1.1 including:
+- PAL executable
+- NTSC executable
+- boot disk with both releases and automatic PAL / NTSC detection.
+
+Yoomp! is the winner of the 2007 ABBUC software competition. Like a combination of Trailblazer and an often-seen demoscene effect, you fall down a tube, landing on each square progressively in a rhythmic manner. Landing on certain tiles will have certain effects, such as making the screen quake, decreasing the brightness or forcing you to jump. Navigating the tube itself is a matter of planning ahead and compensating for your limited movement capabilities. This game is freeware and can be downloaded on the Yoomp website.
+
+
+http://www.mobygames.com/game/atari-8-bit/yoomp

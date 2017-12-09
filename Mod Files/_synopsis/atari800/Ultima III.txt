@@ -1,0 +1,30 @@
+Ultima III: Exodus
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Role Playing Game - Adventure
+Gametype: Licensed
+Release Year: 1983
+Developer: Origin Systems
+Publisher: Origin Systems
+Players: 1
+Programmer: Chuck Bueche
+Musician: Kenneth W. Arnold
+Designer: Richard Garriot
+_________________________
+
+After the defeat of the evil wizard Mondain and his mistress Minax in the previous two Ultimas, peace has returned to the land of Sorsaria. Times passes and eventually geological disruptions and a resurgence of the monster populace occur, and it is soon learned that Mondain and Minax had conceived a child named Exodus before their death. Now that child has become an adult with the power to avenge the death of his parents. Obviously, it falls upon the hero from Earth to find and stop him.
+
+The third title in the Ultima series was the first game in the series to feature a party of adventurers instead of a single player character. The party is created at the beginning of the game by assigning various class combinations and determining the characters' attributes. The game has larger and more detailed towns, populated by NPCs the protagonist can converse with to obtain clues. Like in earlier Ultima games, exploration is divided between top-down overworld locations and first-person 3D dungeons. This installment introduces separate combat screens where player-controlled party fights multiple monsters in a turn-based tile-based system.
+
+Trivia:
+
+Starting with Exodus, Origin began offering certificates, signed by Lord British, to players who completed the games. 
+
+This is the first Ultima in which Lord British's hit points are static (you can't lower them), making him unkillable in combat. In the first two games British had a ton of health but could eventually be killed by a strong enough character. From Ultima III onward, British is unkillable by normal means.
+
+However, he still can be killed. There's a boat in his castle behind some locked doors that can be used to sail around the moat in. Get British pissed off by wacking one of his jesters then head towards the boat and sail to the front of the city. Wait there until he shows up and cut loose on him with the ship's cannons. 
+
+
+http://www.mobygames.com/game/atari-8-bit/exodus-ultima-iii

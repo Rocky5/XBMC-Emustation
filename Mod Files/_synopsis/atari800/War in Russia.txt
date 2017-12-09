@@ -1,0 +1,25 @@
+War in Russia
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1983
+Developer: SSI
+Publisher: SSI
+Players: 1 or 2 VS
+Programmer: Gary Grigsby
+_________________________
+
+This version has been hacked and allows joystick input.
+
+War in Russia is an operation level (division/corps) wargame played in turns (representing a week) on a hex grid map (each 50 miles wide), simulating the Axis vs. Soviets clash on the Eastern Front of the Second World War. The campaigns included are Operation Barbarossa (1941), Fall Blau (1942) and Operation Zitadelle (1943). Apart from the two player mode, the single player option is available, however only from the German side.
+
+The game takes into account the factors of experience, fatigue, supply, harsh weather and rugged terrain. New units (infantry, armor) may be built in the cities, their strength is shown in point value - battle worn units need replacements. Soviet side will receive Lend-Lease support, while German supply lines will be sabotaged by partisans.
+The winner is declared using a system of victory points, yet the game may end earlier when the key cities are captured by a given side.
+
+The game was later remade for PC using updated Second Front engine.
+
+
+http://www.mobygames.com/game/atari-8-bit/war-in-russia

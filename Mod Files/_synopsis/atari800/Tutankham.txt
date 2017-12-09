@@ -1,0 +1,13 @@
+Tutankham
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Action - Side-Scrolling
+Gametype: Licensed
+Release Year: 1983
+Developer: Parker Brothers
+Publisher: Parker Brothers
+Players: 1
+_________________________
+

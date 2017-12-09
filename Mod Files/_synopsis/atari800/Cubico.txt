@@ -1,0 +1,15 @@
+Cubico
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick
+Genre: Puzzle - Strategy
+Gametype: Licensed
+Release Year: 2005
+Developer: Flop
+Publisher: Flop
+Players: 1
+Programmer: Frantisek Houra
+Musician: Radek Sterba
+_________________________
+

@@ -1,0 +1,43 @@
+Warrior 3000
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1986
+Developer: Antic
+Publisher: Antic
+Players: 2 VS
+Programmer: Ken Greiner
+_________________________
+
+ANTIC VOL. 4, NO. 10 / FEBRUARY 1986
+
+WARRIOR 3000
+by Ken Greiner 
+
+Would you believe an archery duel for two players, set in a futuristic nine-level arena that features teleporters, power stars and invisible walls? Warrior 3000 provides an interesting blend of fast action and tactical-planning challenges. This BASIC program works on all 8-bit Atari computers with at least 32K memory, disk or cassette. 
+
+It's about one thousand years in the future and the folks on Warrior 3000 planet tend to get a bit nostalgic about the good old days of single combat. The most popular battle sport they've evolved is the Warrior 3000 Arena – where pairs of brave combatants duel it out in quaintly high-tech archery. 
+
+The weapons are energy bows that shoot energy arrows. There are walls and obstacles to hide behind, some of which can be blown up by the energy arrows. The famed Orange-Disk teleporters can instantly whisk cornered combatants out of arrow range. 
+
+Hey, it's an exciting life being a Warrior 3000 professional bowman. There are big bucks to be made in the arena-prizes, endorsements, banquet appearances. All you need to do is destroy your opponent in a nine-round competition. 
+
+BATTLE RULES
+Start your Warrior 3000 career by typing in Listing 1, WARRIOR.BAS. Check it with TYPO II and SAVE a copy before you RUN it. Press [START] to begin the action. Move your fighter with the joystick and fire your energy arrow by pressing the button. 
+
+Player one always starts out at the upper left of the screen and displays the remaining amount of fighters and arrows on the left side of the arena. Player two starts at the lower right and has a display on the right side. 
+
+Each of the nine rounds takes place in a unique arena set-up. Don't waste all your arrows blowing up walls and obstacles. You get only 20 arrows at the beginning of a round, and after they're all shot off there's nothing you can do but hide. 
+
+If both fighters run out of arrows, a power star will appear at a random position somewhere in the arena. The first combatant to touch the power star wins one extra arrow. Remember that you can never destroy your opponent or an obstacle at point-blank range. 
+
+Some arena layouts have openings in the side walls that lead into the Mystery Zone. You can fire an arrow out of the opening and it will immediately reappear at the far side of the arena – this is a good way to catch your opponent off-guard. Your player can also enter the opening and instantly re-emerge behind the opponent. 
+
+Invisibllity becomes a problem during later rounds. You'll hear a beep if you bump into an invisible wall, shooting the wall will make it appear. Invisible teleporters are also encountered in late rounds. They transport a fighter to a random position, just like the regular teleporters (orange disks) – they're simply invisible. 
+
+Here's a tip from Grudnik the Great, former Warrior 3000 champ: Practice your diagonal shots. It'll be much harder for your opponent to accurately return your fire at an angle. 
+
+Ken Greiner is 16 and attends Paul V. Moore High School in West Monroe, NY. His non-Atari interests include juggling, archery and fantasy role-playing games.

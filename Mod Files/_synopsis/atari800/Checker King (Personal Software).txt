@@ -1,0 +1,17 @@
+Checker King (Personal Software)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Keyboard
+Genre: Board Game - Checkers
+Gametype: Licensed
+Release Year: 1980
+Developer: Personal Software
+Publisher: Personal Software
+Players: 1
+Programmer: Michael Marks, Brad Templeton
+_________________________
+
+Enter moves in the format "<Number to move from> <Number to move to>". To see the board numbers, press N.
+
+Other commands: "R" Resign, "I" I.Q. (change difficulty), "P<Number to move>" Force the computer to move a piece, "S" Save, "G" Get (?) "X" Exchange (flips the board), "C" Clear (removes all pieces from the board), "M" Modify (at each prompt, enter all the numbers you want to apply it to, specified by spaces).

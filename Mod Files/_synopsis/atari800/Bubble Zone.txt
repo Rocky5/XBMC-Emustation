@@ -1,0 +1,14 @@
+Bubble Zone
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1994
+Developer: Visionare Software
+Publisher: Richard Gore
+Players: 1
+Programmer: Andrew Guillaume
+_________________________
+

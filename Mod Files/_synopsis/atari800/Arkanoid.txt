@@ -1,0 +1,22 @@
+Arkanoid
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick, Paddles, Keyboard
+Genre: Breakout - Arcade
+Gametype: Licensed
+Release Year: 1987
+Developer: Imagine
+Publisher: Imagine
+Players: 1 or 2 Alternating
+Licensed from: Taito Corporation
+Programmer: MIke Hutchinson
+_________________________
+
+The original Breakout concept involves controlling a bat at the bottom of the screen and using it to catch and direct a ball so as to hit all the bricks which are arranged at the top of the screen. It was unpopular for over a decade, before Taito revived it with some new ideas in this arcade game.
+
+The game's plot redefines the bat as a Vaus spaceship, the ball as an energy bolt, and the bricks form a mysterious wall stopping the ship from progressing to safety.
+
+By the mid-80s, power-ups were popular in most types of arcade games, and Arkanoid features them. They are caught by positioning the bat below them as they fall (meaning that you risk missing the ball if you go for them at the wrong time). The power-ups include lazers (which are mounted to each side of the ship and allow you to shoot out the blocks), a catching device (so as to be able to fire the ball off at a different angle every time you hit it) and one that slows the ball.... sorry, bolt.... down. Needless to say, the game inspired tonnes of clones, few of which added anything else.
+
+http://www.mobygames.com/game/atari-8-bit/arkanoid

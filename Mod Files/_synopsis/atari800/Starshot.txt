@@ -1,0 +1,17 @@
+Starshot
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Paddles
+Genre: Shoot 'em Up - Action
+Gametype: Magazine
+Release Year: 1983
+Developer: Compute!
+Publisher: Compute!
+Players: 1
+Programmer: Matthias M. Giwer
+_________________________
+
+Compute! Issue 36 - May 1983
+
+You are flying down a trench bisecting an artificial world. A disembodied voice whispers in your ear, "Turn off your computer — BASIC is too slow." As this game will demonstrate, Atari BASIC can be fast enough if you know how to speed it up.

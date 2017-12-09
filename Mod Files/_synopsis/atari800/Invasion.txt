@@ -1,0 +1,20 @@
+Invasion
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Strategy - Top Down
+Gametype: Licensed
+Release Year: 1987
+Developer: Icon Design
+Publisher: Bulldog Software
+Players: 1
+Programmer: Paul D. Marshall
+_________________________
+
+Strategy games with a real-time movement element didn't begin with Dune 2, and this was one early implementation of the concept. Your army has landed on an alien planet and has the intention of destroying their weather control station, and ideally as many of their units as possible.
+
+The action is viewed from above, and you use a cursor to direct units, and automatically target and attack enemy units. Once you blow up the weather control tower, by exploding at least 2 bombs next to it, you must flee the planet ASAP. Protecting all your units is important and requires a tactical overview approach, but the bombs are particularly vital.
+
+http://www.mobygames.com/game/atari-8-bit/invasion
+

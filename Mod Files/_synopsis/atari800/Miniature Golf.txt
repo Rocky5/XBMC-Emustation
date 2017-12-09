@@ -1,0 +1,39 @@
+Miniature Golf
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick, Keyboard
+Genre: Sports - Mini Golf
+Gametype: Magazine
+Release Year: 1985
+Developer: Antic
+Publisher: Antic
+Players: 1 or 2 Alternating
+Programmer: David N. Plotkin, Marisa Plotkin
+_________________________
+
+ANTIC VOL. 9, NO. 2 / JUNE 1990
+
+FORE!
+Miniature Golf Plus
+By David Plotkin 
+
+This issue's Super Disk Bonus was a hit commercial game. All 8-bit duffers will enjoy the flashy mini-golf challenge - including a construction set for building your own customized holes.
+
+Miniature Golf has always been one of my favorite games. Some years ago, I wrote an original type-in version for the Atari 8-bit that was published in the July 1985 Antic, and then had this greatly expanded and enhanced version published by XLent Software. Now Antic brings you this complete commercial program with over 30 holes on disk - and an easy-to-use construction set to help you build your own exotic holes. So settle down and have some fun with as many as seven of your friends. 
+
+Getting Started 
+
+You'll find Miniature Golf Plus on Side B of your Antic Monthly Disk, ready to run. Just turn the disk over so the back side is up, and insert it in drive 1. Turn your computer off, remove all cartridges (XL/XE owners hold down [OPTION]), and turn your Atari on again. Miniature Golf Plus will load and run automatically, presenting you with the Main Menu with its three choices - Play Miniature Golf, Construction Set or Initiatilize a disk. 
+
+If you pick choice number 1, Play Miniature Golf, the title screen will greet you with flashing lights. Press the [START] key to continue, then enter the number of players per round of golf. Up to eight players can play, though with that many the game can go on for quite a while. You also enter the name of each player, with up to 10 letters each. When the last player's name has been entered, the game begins. 
+
+To get you started, we've included more than 30 holes on the disk. A message window will appear at the bottom of the screen. You can start the game at hole number 1, or move the joystick left or right to start at a different hole. Choose the hole by pressing the fire button. Play starts at the selected hole, and continues through to the last hole on the disk. 
+
+You view the miniature golf course from above. The club looks like a block with the corner missing - this missing corner is the part of the club that strikes the ball, which appears on the course as a little white point. You use the club to knock the ball into the hole, a somewhat blocky purple circle. The object, as in any golf game, is to complete the course in the fewest number of strokes. 
+
+To aim your shot, use the joystick. Guide the club to the desired position on the field - the ball will move in a straight line in the direction opposite to the club. When the club is in position, press the joystick trigger to swing the club. The further the club is from the ball, the harder it hits. Just as in regular miniature golf, you may not be able to get enough clearance to hit the ball as hard as you like or in the direction you would prefer. Experiment with hitting the ball from another direction and letting it bounce off a wall or other objects on the course. 
+
+Players take turns at every hole. Each player continues to play until the ball goes into the hole. Play then passes to the next player. If you really botch the shot and your opponents will allow it, you can press the [START] button and replay that shot. It won't count against you. The current player's name, total score, hole score, and the current hole number are displayed in the red window at the bottom of the screen. If you wish to see everyone's score, press the [SELECT] button. Return to play by pressing [SELECT] again. To abort a game in progress, press the [OPTION] button to return to the main menu. 
+
+The game ends when everyone has played the last hole. A scoreboard displays all the scores, with the lowest score indicated (the lowest score wins the game). If you wish, you can play the course again.

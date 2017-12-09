@@ -699,7 +699,7 @@ msgid "[UPPERCASE]default to last systems rom list?[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32031"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]_resources previews for Xbox/Ports[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32032"
@@ -804,7 +804,7 @@ msgid "[UPPERCASE]_preview folder[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32057"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]rename .tbn to .png and update rom lists[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32058"

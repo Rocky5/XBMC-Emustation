@@ -1,0 +1,19 @@
+Popeye
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Parker Brothers
+Publisher: Parker Brothers
+Players: 1 or 2 Alternating
+Licensed from: Nintendo
+_________________________
+
+Popeye is a conversion of the arcade action/platform game. As Popeye, you are trying to win Olive Oyl's love! She is at the top of the screen dropping tokens of her love, and you need to collect them before they hit the ground. After you have collected the required number of items, you can move on to the next, more difficult level.
+
+There are many obstacles trying to stop you from completing your task, though! Brutus wanders around the screen and is constantly trying to catch you. If you collect a can of spinach, you can temporarily knock him out, otherwise Brutus will knock you out. Other objects such as bottles or birds are also flying around the screen and will cause you to lose one of your lives if you are hit. Each level features a different layout of platforms and ladders, and will have you collecting different items as they float towards the bottom of the screen!
+
+http://www.mobygames.com/game/atari-5200/popeye

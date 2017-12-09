@@ -2,7 +2,7 @@
 	Script by Rocky5
 	Used to launch roms
 '''
-import os, xbmc, xbmcgui
+import xbmc, xbmcgui
 
 autoexec_data = "import os\n\
 if xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ) == 1:\n\

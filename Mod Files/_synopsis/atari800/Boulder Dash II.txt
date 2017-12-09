@@ -1,0 +1,18 @@
+Boulder Dash II: Rockford's Revenge
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Puzzle - Multi-Screen
+Gametype: Licensed
+Release Year: 1985
+Developer: First Star Software
+Publisher: First Star Software
+Players: 1 or 2 Alternating
+Programmer: Peter Liepa
+Musician: Peter Liepa
+_________________________
+
+In part two of the "Boulder Dash" series, game design hasn't changed compared to part one, so you still have to mine diamonds while avoiding falling rocks and cave monsters of all sorts. As in part one, later levels become more difficult because many puzzle elements are added.
+
+http://www.mobygames.com/game/atari-8-bit/boulderdash-ii-rockfords-revenge

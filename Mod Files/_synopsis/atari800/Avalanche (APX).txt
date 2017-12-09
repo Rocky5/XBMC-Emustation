@@ -1,0 +1,14 @@
+Avalanche (APX)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Paddle
+Genre: Breakout - Action
+Gametype: Licensed
+Release Year: 1980
+Developer: APX
+Publisher: APX
+Players: 1 or 2 Alternating
+Programmer: Denns Koble
+_________________________
+

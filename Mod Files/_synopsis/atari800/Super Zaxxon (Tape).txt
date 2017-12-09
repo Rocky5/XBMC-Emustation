@@ -1,0 +1,36 @@
+Super Zaxxon (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Arcade - Shooter - Isometric
+Gametype: Licensed
+Release Year: 1983
+Developer: Sega
+Publisher: US Gold
+Players: 1 or 2 Alternating
+Licensed from: Sega
+_________________________
+
+Super Zaxxon is a three-quarter perspective, space shooter style game. You must first go over a base on an asteroid. Things located on this base include gun implacements, fuel tanks, radar stations, missiles, and fighters. After you successfully navigate this base, you will go through a tunnel to tangle with enemy fighters, mine layers, and mines. You then will have to navigate through a series of barriers on another asteroid in order to take on the Super Zaxxon's, the enemy robot dragons.
+
+The game is very similar in appearance to Zaxxon. The differences are:
+Your fighter moves much faster. This makes going after ground targets a big challenge.
+
+The graphics are different. Although this is more of a viewing difference, it can still change ones perspective after they have gotten used to the Zaxxon graphics.
+
+There is no more outer space battle. Instead, you must go through a narrow tunnel to get to area 3.
+
+Instead of 20 fighters, you now have to tangle with 25 fighters in area 2.
+
+A new enemy, the Mine Layer, is introduced. As the name implies, this ship lays mines in your path. You can destroy the mines but it takes a few hits.
+
+Instead of encountering one Zaxxon robot, you now have to deal with three Super Zaxxon, dragon looking robots.
+
+The placement of things (fuel tanks, gun implacements, etc.) in areas 1 and 3 is different then in Zaxxon.
+
+There are now indestructible, elevated guns in area 1. These guns sit on the right side and they are 2.5 units in altitude.
+
+Disk version allows for two players.
+
+http://www.mobygames.com/game/atari-8-bit/super-zaxxon

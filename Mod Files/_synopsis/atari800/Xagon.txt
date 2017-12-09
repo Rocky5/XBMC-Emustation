@@ -1,0 +1,17 @@
+Xagon
+Platform: Atari 800
+Region: Australia
+Media: Executable
+Controller: Joystick
+Genre: Platform
+Gametype: Homebrew
+Release Year: 198x
+Developer: None
+Publisher: None
+Players: 1
+Programmer: D. Pentecost
+_________________________
+
+Stomp the hexagonal grid pieces to an even height to clear the level. If you like Q*Bert, you'll love Xagon!
+
+http://www.gooddealgames.com/inventory/Atari%205200.html

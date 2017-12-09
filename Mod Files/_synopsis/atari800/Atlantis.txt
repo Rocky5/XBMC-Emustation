@@ -1,0 +1,20 @@
+Atlantis
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action - Shooter
+Gametype: Licensed
+Release Year: 1983
+Developer: Imagic
+Publisher: Imagic
+Players: 1 or 2 Alternating
+Programmer: Dave Johnson
+Designer: Dennis Koble
+_________________________
+
+The lost city of Atlantis is under attack! Wave after wave of Gorgon vessels are approaching, each armed with weapons capable of destroying a part of the city. You are in charge of the command posts at the edges of the city and need to defend it from the invaders. The various gorgon craft will keep flying by on the screen in varying numbers and in different flight patterns. At first they fly high in the sky but then progressively lower. If an enemy makes it low enough before you destroy it, it will use it's weapons and destroy one of the buildings in Atlantis. As you progress in the game, the enemy craft will keep increasing in speed. The game ends when all remaining buildings in the city have been destroyed.
+
+Trivia: When the city of Atlantis is destroyed, and the game is over, a blip can be seen leaving the ruined city. This blip is the Cosmic Ark, a spaceship carrying the survivors to other worlds...and this game's sequel.
+
+http://www.mobygames.com/game/atari-8-bit/atlantis

@@ -1,0 +1,24 @@
+Beach Head
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action - Shooter
+Gametype: Licensed
+Release Year: 1984
+Developer: Access Software
+Publisher: Access Software
+Players: 1 or 2 Alternating
+Programmer: Kevin Homer
+_________________________
+
+A dictator took the control of a fortress on the island of Kuhn-Lin.
+
+The player's mission is to storm the island and recapture it. This takes place over the course of six different sequences. The first sequence is Aerial Reconnaissance, where the fleet must be moved directly past the enemy or into a hidden passage to trigger another, optional stage. In this Hidden Passage sequence, the player will have to maneuver around mines and torpedoes. Successfully completing it gives a surprise advantage in the following General Quarters sequence, where the player controls anti-aircraft guns shooting down enemy aircraft.
+
+The next sequence is named Battle Stations and the player must aim and fire heavy guns to hit enemy ships before they inflict too much damage and eventually sink the player's own vessels. Following this battle, the fleet must be maneuvered to the beach. Upon reaching the Beach-Head level, tanks roll out and the player must keep these safe from enemy fire and obstacles while driving. In the Final Battle sequence, the Dictator is holed up in the fortress of Kuhn-Lin and 10 different targets on the fortress must be fired upon to destroy it.
+
+The port for C16 and Plus/4 computers only contains the General Quarters, Battle Stations and Final Battle sequences.
+
+
+http://www.mobygames.com/game/atari-8-bit/beach-head

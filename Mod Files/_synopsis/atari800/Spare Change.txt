@@ -1,0 +1,26 @@
+Spare Change
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Br0derbund Software
+Publisher: Br0derbund Software
+Players: 1
+Programmer: Dan Zeller, Mike Zeller
+_________________________
+
+In Spare Change, you are the owner and operator of the Spare Change Arcade, dedicated to making your place of business run as smoothly as possible. Inside the arcade are Token machines, jukeboxes, telephones, movie booths, popcorn machines, and so on. The token machines need to be restocked with money from the cash register when they are out of tokens, but eventually, the register must be replenished with cash from the safe. You must drop the tokens in one of your two storage bins. When you have stored at least ten tokens, the movie booth opens, and you can go inside to proceed to the next level. You are also awarded one bag of money, but if you store more than ten tokens, then more than one bag of money is awarded for each extra token collected. If nine bags of money are obtained, you proceed to the next level.
+
+But the Zerks, two aliens that run around the screen, can steal tokens either from the machines or from the storage bins. Sometimes, a Zerk will toss a token to the other nearest the "piggy bank". You must touch them in order to get the token back, before they throw it in their piggy bank. Alternatively, you can throw a token into the jukebox, telephone, popcorn machine, etc. and the Zerks will get distracted from their goal, giving you enough time to continue filling the storage bins. If the Zerks insert five tokens in the piggy bank, the game is over.
+
+Between levels, an intermission plays, which are similar to those in Pac-Man. Later in the game, you have the ability to access these intermissions. As you proceed through the levels, the game gets quite difficult. 
+
+Trivia:
+
+The high-score table on the Apple II was limited to 5-digits. And it does not check for overflow. Once you score over 99999, the score goes back to 000xx. 
+
+
+http://www.mobygames.com/game/atari-8-bit/spare-change

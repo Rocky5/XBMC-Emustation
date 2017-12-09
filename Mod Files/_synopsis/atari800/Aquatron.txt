@@ -1,0 +1,14 @@
+Aquatron
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shooter - Vertical
+Gametype: Licensed
+Release Year: 1983
+Developer: Sierra On-Line
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Justin Gray
+_________________________
+

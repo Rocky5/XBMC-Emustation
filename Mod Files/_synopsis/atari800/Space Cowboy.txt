@@ -1,0 +1,14 @@
+Space Cowboy
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Avalon Hill
+Publisher: Avalon Hill
+Players: 1
+Programmer: Scott Lamb
+_________________________
+

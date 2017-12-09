@@ -1,0 +1,15 @@
+Joe's Adventure
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Action - Platformer
+Gametype: Homebrew
+Release Year: 2005
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Piotr Wisniewski
+Musician: Piotr Wisniewski, Mateusz Wisniewski
+_________________________
+

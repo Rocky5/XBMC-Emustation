@@ -1,0 +1,31 @@
+Deathzone
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1986
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1
+Programmer: Steven Hillen
+_________________________
+
+ANALOG Magazine October 1986 - Issue 47.
+
+Suddenly, your scanner detects the presence of an alien.  Moments later it screams into view, charging headlong at you.  In desperation, you back off, firing salvos of raw energy bolts at your attacker.  One strikes home, and the alien pod disintegrates into scintillating dust.  You were lucky that time, but how much longer will you be able to survive the Deathzone?
+
+Deathzone is a fast moving, 3 dimensional arcade game that will work on all 8-bit Atari micros.
+
+Playing Deathzone.
+
+If you've followed the instructions correctly, you will now be looking at the title page for Deathzone.  Both the lowest (L) and highest (H) scores are shown.  You can start the game either by pressing the trigger of joystick 1, or by pressing the START key.  If you should wish to abort a game before completion, either the SELECT or OPTION keys will bring you back to the title page.
+
+When you begin the game, you'll notice that the screen is divided into sections.  At the very top is a horizontal line whose length indicates how close the alien is.  Two sets of directional arrows at either end of the line indicate whether the alien is to your front, left, right, or rea.  The next line is the status line, showing your score from left to right, lives remaining and current level of play.  Further down, there's a standard radar scanner superimposed on the sky.  The white central dot represents your own position, of course.
+
+By using the joystick, you can move in and out of the screen, or swivel on the spot.  You must do your best to avoid bot the aliens themselves and the energy bolts they fire.  Each time you're hit, you'll lose a life.  You'll need to dodge, reverse away and fire rapidly, in order to destroy the aliens before they reach you.  Incidentally, you can pause the game with the SPACE BAR and continue it by moving the joystick.
+
+Every so often, an alien pod with rather different characteristics will attack you.  If you should succeed in destroying it, you'll receive an extra life and move up to the next level of play.  If not, you'll have to restart the level.  There are a total of six levels, each progressively more difficult than the last.  Should you complete the last level, well ... wait and see!
+
+Last, a word of thanks to my brother for writing a "blackbox" 16-bit math package, around which the game is based.

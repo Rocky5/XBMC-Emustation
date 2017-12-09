@@ -1,0 +1,14 @@
+Destiny - The Cruiser
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Strategy
+Gametype: Prototype
+Release Year: 1983
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1
+Programmer: Sparky Starks
+_________________________
+

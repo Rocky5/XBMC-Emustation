@@ -1,0 +1,14 @@
+Beach Landing
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Optimum Resource, Inc.
+Publisher: Weekly Reader Family Software
+Players: 1
+Programmer: Richard Hefter, Susan Dubicki
+_________________________
+

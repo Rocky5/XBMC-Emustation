@@ -1,0 +1,26 @@
+Grand Prix Simulator
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Racing - Top Down
+Gametype: Licensed
+Release Year: 1987
+Developer: Codemasters
+Publisher: Codemasters
+Players: 1 or 2 VS
+Programmer: Adrian Sheppard
+Musician: David Whittaker
+_________________________
+
+Calling it a 'simulator' was a stretch, as with many of Codemasters' titles. In reality it was an overhead-view Super Sprint style arcade racer for 1 or 2 players, similar in many ways to the company's BMX Simulator. 
+
+There were up to 14 circuits depending on the format, which incorporated many underpasses (some of them deliberately unrealistic) and tight curves. There were oil slicks to avoid and points bonuses to pick up.
+
+The cars have slow acceleration but a lot of power down the straights. You are scored based on your overall time and your fastest lap. Lose to the computer car and it's game over.
+
+Trivia:
+
+You can get an idea as to the budget of this game from the semi-attached license. Not Mansell, Prost, Senna or another superstar from the day, but Johnny Dumfries - a backmarker most famous for being heir to a ?15m fortune.
+
+http://www.mobygames.com/game/atari-8-bit/grand-prix-simulator

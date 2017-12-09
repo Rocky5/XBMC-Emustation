@@ -1,0 +1,30 @@
+Quest, The
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1984
+Developer: Penguin Software
+Publisher: Penguin Software
+Players: 1
+Programmer: Jeffrey Jay
+_________________________
+
+A dragon is terrorizing the kingdom of Balema, and King Galt send his champion, named Gorn, to solve the problem. The player takes the role of a nameless advisor, who has to help the strong, but not very intelligent Gorn to get rid of the dragon and save his homeland.
+
+The Quest was one of the first graphic adventures that incorporated full sentence parsing. Unlike most other adventures, the commands the player inputs do not refer to the playable character. Rather, as the playable character, the player gives those commands to Gorn. Instead of just entering short verb commands, the player is able to type relatively complex instructions, that have to be understood by Gorn in order to perform the necessary action.
+
+Trivia:
+
+Cover
+
+As a testament to their enthusiasm over their results from the Graphics Magician, they made their title screen illustration the cover artwork on the box. A bold marketing gambit in 1982! 
+
+Penguin
+
+Most Penguin Software (or Polarware) games contain a funny little remark about Penguins on the back cover of their games. In this case it is "Penguins have little interest in archery."
+
+
+http://www.mobygames.com/game/quest

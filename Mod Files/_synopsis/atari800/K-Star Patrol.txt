@@ -1,0 +1,16 @@
+K-Star Patrol
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Vertical
+Gametype: Licensed
+Release Year: 1982
+Developer: K-Byte
+Publisher: CBS Software
+Players: 1
+_________________________
+
+Licensed from K-byte/Kay Enterprises. Simplistic shooter, prevent enemy ships from getting past your fleet as you slowly scroll eastward.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=6854

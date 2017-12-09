@@ -1,0 +1,25 @@
+Avalanche
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1984
+Developer: Analog Magazine
+Publisher: Analog Magazine
+Players: 1
+Programmer: Tommy Bennett
+_________________________
+
+Analog Computing Issue 21, 1984.
+
+Plug in a joystick in port 1 and press the fire button to start the game.  Up at the top of the screen is a letter "N" which stands for normal play.  Pressing the OPTION key will switch this to an "H", which stands for hard play.
+
+The object of Avalanche is to claim the whole side of the mountain as yours.  You claim each square by moving Leroy onto a square and changing it to the object color.  The object color is indicated by the flashing arrows in the upper left corner.  On the first level, you just have to jump on a square once to change it to the object color.  On level two, you must jump on it twice, and so on.
+
+There are up to six different levels, each having four rounds.  When you complete a round, you get a bonus of 1000 points.  You'll receive 25 points for changing the color of a square.
+
+While you're doing all this, you also have to avoid the falling rocks and Big George.  Big George wears a baseball hat and will chase after you.  The only way you can get rid of him is to make him follow you into the path of a rock.  If a rock hits him, he is out of commission for now, but he'll be back soon.  There's also a little green man called Henry.  Henry won't hurt you, but he will change the color of the squares back to their original  To stop him, all you have to do is touch him -- and you'll get 200 points.
+
+You get an extra manat every 10,000 points.  Leroy is moved via the joystick, in four diagonal directions.  It may seem difficult to move at first, but you'll get used to it after a while.  Happy gaming!

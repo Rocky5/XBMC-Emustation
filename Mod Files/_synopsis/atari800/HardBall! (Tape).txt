@@ -1,0 +1,18 @@
+HardBall! (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Sports - Baseball
+Gametype: Licensed
+Release Year: 1986
+Developer: Accolade
+Publisher: US Gold
+Players: 1 or 2 VS
+Programmer: Dan Thompson
+Musician: Ed Bogas
+_________________________
+
+Hardball is a baseball action game for one or two players. You can throw a variety of pitches from fast balls to curve balls, steal bases, select team members, and substitute players as the game is played.
+
+http://www.mobygames.com/game/atari-8-bit/hardball

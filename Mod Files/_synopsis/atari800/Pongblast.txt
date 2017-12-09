@@ -1,0 +1,15 @@
+Pongblast
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Breakout - Action
+Gametype: Homebrew
+Release Year: 2003
+Developer: RND Group
+Publisher: RND Group
+Players: 1 thru 4 VS
+Programmer: Adrian Matoga
+Musician: Adrian Matoga
+_________________________
+

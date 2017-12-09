@@ -1,0 +1,58 @@
+Beehive
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Board Game
+Gametype: Magazine
+Release Year: 1986
+Developer: Compute!
+Publisher: Compute!
+Players: 1 or 2 VS
+Programmer: Kevin Mykytyn
+Designer: Steve Michel
+_________________________
+
+COMPUTE! ISSUE 76 / SEPTEMBER 1986 / PAGE 31
+
+Steve Michel 
+--------------------------------------------------------------------------------
+
+To avoid getting stung in this delightful strategy game, you'll need to plan ahead. The original version of "Beehive" was written for the 512K Amiga. We've added fresh translations for the Commodore 64 (and 128 in 64 mode), Apple II series, IBM PC/PCjr, and Atari 400, 800, XL, and XE. The IBM PC/PCjr game requires a color/graphics card and BASICA for the PC, and Cartridge BASIC for the PCjr. The Atari version requires at least 32K of memory and a joystick. The Commodore version requires a joystick. The Apple II version requires a joystick and color monitor, and runs on any Apple II-series computer with either ProDOS or DOS 3.3. 
+
+--------------------------------------------------------------------------------
+
+"Beehive" is a two-player strategy game that requires you to concentrate fully and develop long-range planning skills. The game board consists of 121 hexagons arranged in a sloping 11x11 matrix. The name derives from the playing field's resemblance to the geometric precision of a honeycomb. The first player is assigned the left and right borders of the honeycomb, while the second player is assigned the top and bottom edges. 
+
+The object of the game is deceptively simple. Each player tries to connect a continuous line from one of his or her borders to the other. If you are player 1, for instance, you need to connect the left border with the right. The players alternate turns, filling in cells of the honeycomb one at a time. While attempting to complete your own course, you must also try to block your opponent's way, and this requires strategic thinking. The first player to connect both borders wins the game. As a reward, tiny bee faces appear along the line of connection, clearly marking the path to victory. 
+
+Entering The Game
+Type in the program listing for your computer, referring to the special notes below. When you have saved a copy of the game, type RUN and press RETURN. Beehive begins by asking for the name of each player. After both players have entered their names, the beehive grid is drawn and play begins. In the Amiga and IBM PC/PCjr versions, the computer determines randomly which player should take the first turn; in other versions, player 1 always goes first. In the Amiga version, each player takes a turn by moving the mouse pointer to the desired cell and pressing the left mouse button once. Other versions substitute joystick or keyboard controls for the mouse (see below). 
+
+When you choose a cell, it is filled with a solid circle and your turn ends. While connecting your own borders, you should also be trying to prevent the other player from making a connection. Play continues until one player or the other completes a continuous line from one border to the other. At this point a victor is declared, and bee faces replace the circles along the entire winning route. 
+
+Winning Strategies
+Like most two-player games, Beehive adjusts itself to the skill of the players. The basic concept is simple enough that even small children can enjoy playing. But when two knowledgeable players are matched, play proceeds at a much higher level. The flexibility of the game allows many different strategies. 
+
+Here are some important points for beginners to keep in mind. To begin with, your first move does not have to occur in one of your border rows. In fact, you can often establish a better strategic position by starting somewhere near the middle of the playing field. In a typical game you will have to swing back and forth between an expanding, offensive posture and a defensive, blocking posture. The middle areas accommodate both strategies well. 
+
+Second, it is not necessary that all of your cells be connected. That is, a new cell doesn't necessarily have to touch one of your existing cells. Any empty cell in the hive is fair game for either player, and it's often advantageous to space out your cells to allow multiple paths between borders. Starting multiple pathways makes it harder for an opponent to block your progress completely. 
+
+Finally, keep in mind that the hexagonal shape of each cell permits you to move in six different directions. Try not to get locked into a strict, straight-line strategy too often. Any pathway that connects both borders is legal, and in many cases the winning path will be quite roundabout. 
+
+Amiga Version
+Before you begin typing in the Amiga version (Program 1), notice the small arrows marking the end of the line. They are not intended to be typed (in fact, we deliberately chose a character that's not available from the Amiga's keyboard). Instead, wherever you see an arrow in the listing, press RETURN or move the cursor off the line to enter it into memory. 
+
+The Amiga version of Beehive includes synthesized speech. Either player can toggle the speech effects on or off at any time. Press the left button once: A small box appears, indicating the current speech status. If speech was turned on, it is now turned off, and vice versa. Press the left button again to erase the speech box and resume the game. 
+
+Commodore 64/128 Version
+The Commodore version (Program 2) runs on a Commodore 64 or Commodore 128 in 64 mode; it requires a joystick. Plug the joystick into port I and use it to move the bee-shaped pointer onto the desired cell. To select a cell, press the fire button. 
+
+Atari Version
+Atari Beehive (Program 3) requires a joystick and runs on any Atari 400, 800, XL, or XE computer with at least 32K of memory. Plug the joystick into port 1. Move the pointer over the cell you wish to occupy, then press the fire button to select it. 
+
+Apple II Version
+The Apple II version of Beehive (Program 4) runs on any Apple II-series computer, under DOS 3.3 or ProDOS. A color monitor and joystick are required. To select a cell, move the pointer onto it, then press the button. 
+
+IBM PC/PCjr Version
+IBM Beehive (Program 5) requires a color/graphics card and BASICA for the IBM PC, and Cartridge BASIC for the PCjr. Keyboard controls are used to move the bee-shaped pointer around the playing field and to select a cell. Use the arrow keys to move left, right, up or down. When the pointer is above the desired cell, press the space bar to select it.

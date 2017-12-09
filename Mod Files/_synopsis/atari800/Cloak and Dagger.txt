@@ -1,0 +1,19 @@
+Cloak and Dagger
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Arcade
+Gametype: Prototype
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Dave Comstock
+_________________________
+
+Loading instructions: in DOS mode, pick option L, type CLOAK and press RETURN.
+
+Trivia:
+
+Cloak and Dagger as featured in the 8Os movie about this game, was named agent-X by atari, wich they made a coin op in 1983.

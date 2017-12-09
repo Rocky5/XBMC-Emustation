@@ -1,0 +1,24 @@
+Mean 18 Ultimate Golf
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Sports - Golf
+Gametype: Prototype
+Release Year: 1989
+Developer: Accolade
+Publisher: Atari
+Players: 1 or 2 VS
+Programmer: James V. Zalewski, Rich Unruh
+Musician: Joe Simpko
+_________________________
+
+Pebbele Beach and St. Andrews are two of the courses on offer in this golf simulation, released in the early years of 16-bit technology. The three-click control system was used, whereby the first click starts the swing, the second sets the power, and the third sets draw or fade.
+
+Beginner and Expert difficulty options are given - the latter mode has more pronounced draw and fade effects, making the timing of the third click even more crucial. You can also choose between regular and professional tees - in the latter option the distance on the holes is longer, and the computer doesn't choose the best club automatically. Because long drives aren't a crucial aspect of many of the holes, the Begginer/Expert setting is a bigger factor on your likely scoring. A uniquie feature for the day was the course designer, which was quite versatile with practice.
+
+Trivia:
+
+Was one of the first (if not the very first) golf games with the "tap to swing, tap for power, tap for hook/slice" control metaphor that has survived well into the 1990s.
+
+http://www.mobygames.com/game/apple2gs/mean-18

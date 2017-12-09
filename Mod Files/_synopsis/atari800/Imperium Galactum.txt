@@ -1,0 +1,22 @@
+Imperium Galactum
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1984
+Developer: SSI
+Publisher: SSI
+Players: 1 thru 4 VS
+Programmer: Paul Murray
+_________________________
+
+Not to be confused with the much, much later Imperium Galactica, this was the first fully-functional commercial "4X" space game to hit the U.S. Many of the most important features in later 4X games appeared in this one: ship design, guerrilla warfare on captured planets, troop transports. It did not feature tactical space battles, however.
+
+The main game screen displayed a grid of dots, with star systems shown by a larger circle with a color representing the star's type. Stars could have zero, one, or two inhabitable planets. Warships could be custom designed and were tracked individually with a maximum of 255 war ships per player in existence at one time. Transports could carry either colonists and troops and traders carried metal or food surpluses to where they were needed. During an invasion, the respective armies from each player would fight until one force was destroyed. However, planets thus captured could suffer from guerrilla resistance for several turns and if not eradicated could overthrow the invaders or assist your opponent's armies in the event of a counter invasion.
+
+Given the tiny systems it ran on, this game did a very good job of simulating many important considerations, and was the first introduction of some of the things that have become staples in 4X space games; most notably ship design and refits.
+
+
+http://www.mobygames.com/game/atari-8-bit/imperium-galactum

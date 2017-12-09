@@ -1,0 +1,20 @@
+Pogo Joe
+Known issue (if you can help join the forum): Tape image does not work in emulator.
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Screenplay
+Publisher: Screenplay
+Players: 1 or 2 Alternating
+Programmer: Edward N. Hill, William F. Denman
+Musician: Steve J. Baumrucker
+_________________________
+
+Pogo Joe is a game very similar to Q*Bert, although there is enough variation to consider it more than just a clone. Similar to Q*Bert, the player changes the color of the object they land on, in Pogo Joe's case these are barrels as opposed to cubes, until the entire level is changed to the new color. Also, the levels can look like something other than a pyramid. There are enemies to avoid, and properties of the barrels also vary. Instead of discs that Q*Bert uses to escape his foes, there is the super jump ability as well as certain colored barrels a player can use to clear the enemies off the screen.
+
+
+http://www.mobygames.com/game/atari-8-bit/pogo-joe

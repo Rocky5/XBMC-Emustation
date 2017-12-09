@@ -1,0 +1,21 @@
+Mr. Do!
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Arcade - Maze - Strategy
+Gametype: Licensed
+Release Year: 1984
+Developer: Datasoft
+Publisher: Datasoft
+Players: 1 or 2 Alternating
+Licensed from: Universal
+Programmer: Tim Ferris
+_________________________
+
+You control Mr. Do has he tries to harvest all of the cherries on the screen. However, there are numerous bad guys out to get him! Mr. Do can defend himself from the badguys in two ways: first he can push the apples located throughout the playfield on top of the enemies and crush them. Secondly, Mr. Do is armed with a power ball. This can be thrown to destroy an enemy. Mr. Do has only one power ball, though, so he will need to wait for it to return to him before it can be used again. From time to time an alpha monster will appear on the screen bearing one of the letters in EXTRA. If you use the power ball to destroy an alpha monster you earn that letter; when you've earned the complete word EXTRA you receive an extra life. When you successfully collect all of the cherries, you will move on to the next, more difficult level.
+
+The mobile version of the game includes the original arcade version, as well as an enhanced mode with new levels, power-ups and graphics.
+
+
+http://www.mobygames.com/game/atari-8-bit/mr-do

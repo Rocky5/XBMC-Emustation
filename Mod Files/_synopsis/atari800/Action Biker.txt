@@ -1,0 +1,19 @@
+Action Biker
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Racing
+Gametype: Licensed
+Release Year: 1986
+Developer: Mastertronic
+Publisher: Mastertronic
+Players: 1
+_________________________
+
+Action Biker was commercially tied-in with the KP Skips potato snack range, and features its Clumsy Colin mascot prominently. The task is to rescue Marti, who is trapped in one of the 150 houses which make up the forced-perspective 3D world of roads and buildings in the game. 
+
+Colin is on his trusty bike, which must avoid oil slicks, other traffic and contact with walls, but can pick up Skips for an energy boost. Many of the buildings you can enter have nothing of interest, but many have upgrades for the bike. The most important of these are the headlamps you need so as to see into the darkest area of the game world.
+
+
+http://www.mobygames.com/game/atari-8-bit/action-biker

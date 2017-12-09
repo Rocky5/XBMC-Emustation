@@ -1,0 +1,15 @@
+Brundles, The
+Platform: Atari 800
+Region: Germany
+Media: Disk
+Controller: Joystick
+Genre: Action - Puzzle
+Gametype: Licensed
+Release Year: 1993
+Developer: Chip Special Software
+Publisher: KE-Soft
+Players: 1
+Programmer: Karsten Schmidt
+Musician: Kemal Ezcan
+_________________________
+

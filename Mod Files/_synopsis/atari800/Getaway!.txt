@@ -1,0 +1,21 @@
+Getaway!
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Cars - Scrolling
+Gametype: Licensed
+Release Year: 1982
+Developer: APX
+Publisher: APX
+Players: 1
+Programmer: Mark Reid
+_________________________
+
+Stealing money is the aim of the driver you play in Getaway!, in an overhead-view city spread across 35 screens. The player controls a car which moves constantly in the direction it faces, unless you hit fire button for the brake. 
+
+Drive over the $ signs, special items (depending on the level they may be hearts, rings or chalices) and white vans to collect money, and return it to your hideout (in the south-east, represented by an H). You have limited gas, but can top this up by stopping at one of the gas stations. As time goes on, you will encounter roadblocks (which cause you to lose fuel more quickly) and stop signs (which take all your cash when you try to pass them).
+
+The police don't take this lying down - their cars (red, blue and yellow) chase you, especially when you are carrying lots of money or have hit a white van. Making contact with a cop car costs one of your three vehicles and takes any money you are carrying - money you have stashed at the hideout is safe. The ultimate goal is to find the three of the special items and then the white van, which leads to an increased difficulty level - with higher police interest no matter how much money you are carrying.
+
+http://www.mobygames.com/game/atari-8-bit/getaway_

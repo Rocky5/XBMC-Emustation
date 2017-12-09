@@ -1,0 +1,22 @@
+Hellcat Ace
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Simulation - Flight - Shooter
+Gametype: Licensed
+Release Year: 1982
+Developer: Microprose Software
+Publisher: Microprose Software
+Players: 1 or 2 Alternating
+Programmer: Sid Meier
+_________________________
+
+A classic 1st person flight simulation similar to Ace of Aces. In several missions you have to shoot down Japanese fighters and bombers. Through the front cockpit window you can see the sky and the ocean. Below the cockpit view is the instrument panel with engine power, altitude, fuel and your ammunition-counter. Through the a rear window you can see the enemies on your tail. 
+
+Trivia:
+
+In the summer of 1982, Bill Stealey was a strategic planner for electronics company General Instrument. During a break at a company meeting in Las Vegas, Stealey challenged all comers to beat his high score on a coin-op arcade game called 'Red Baron'. No one could - except a programmer at General Instrument called Sid Meier, who promptly kicked his tail. The programmer explained to Stealey that it was not flying skill but down to observing the rudimentary AI of the enemy pilots and anticipating their next move. Meier boasted to Stealey that he could design a better game in a week on his home computer. Stealey said that if Meier could do it, he would sell it. The resulting game was Hellcat Ace - though it was only two months later that Meier finished it. The two men that year left General Instrument to form MicroProse - a company that would produce some of the best flight simulation games during the coming decade. (Source - 'Computer Gaming World', November 1992)
+
+
+http://www.mobygames.com/game/atari-8-bit/hellcat-ace

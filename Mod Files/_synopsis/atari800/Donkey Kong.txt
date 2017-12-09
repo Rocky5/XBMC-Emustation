@@ -1,0 +1,24 @@
+Donkey Kong
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 Alternating
+Licensed from: Nintendo
+Programmer: Landon Dyer
+_________________________
+
+Released in the arcades in 1981, Donkey Kong was not only Nintendo's first real smash hit for the company, but marked the introduction for two of their most popular mascots: Mario (originally "Jumpman") and Donkey Kong.
+
+Donkey Kong is a platform-action game that has Mario scale four different industrial themed levels (construction zone, cement factory, an elevator-themed level, and removing rivets from girders) in an attempt to save the damsel in distress, Pauline, from the big ape before the timer runs out. Once the rivets are removed from the final level, Donkey Kong falls, and the two lovers are reunited. From there, the levels start over at a higher difficulty.
+
+Along the way, Mario must dodge a constant stream of barrels, "living" fireballs, and spring-weights. Although not as powerful as in other future games, Mario can find a hammer which allows him to destroy the barrels and fireballs for a limited amount of time. Additionally, Mario can also find Pauline's hat, purse and umbrella for additional bonus points.
+
+Donkey Kong is also notable for being one of the first complete narratives in video game form, told through simplistic cut scenes that advance the story. It should also be noted that in versions of the game for early 1980's consoles, Donkey Kong only used 2-3 of the original levels, with the cement factory usually omitted.
+
+http://www.mobygames.com/game/atari-8-bit/donkey-kong

@@ -1,0 +1,15 @@
+Bombastic!
+Known issue (if you can help join the forum): Watermark needs removing.
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Fixed
+Gametype: Licensed
+Release Year: 1983
+Developer: English Software
+Publisher: English Software
+Players: 1 or 2 VS
+Programmer: Chris Mcnab
+_________________________
+

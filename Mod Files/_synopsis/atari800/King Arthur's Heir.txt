@@ -1,0 +1,15 @@
+King Arthur's Heir
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Adventure - Role Playing Game
+Gametype: Licensed
+Release Year: 1982
+Developer: Liberty Software
+Publisher: Epyx
+Players: 1
+Programmer: Marc Russell Benioff, Joel Harris
+_________________________
+
+The disk won't boot if you don't have BASIC (revision A) either as a real cartridge in your Atari or attached as an image in your emulator.

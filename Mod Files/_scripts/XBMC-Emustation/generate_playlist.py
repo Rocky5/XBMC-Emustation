@@ -5,7 +5,7 @@
 '''
 				
 				
-import glob, os, time, xbmc, xbmcgui
+import glob, os, xbmc, xbmcgui
 dialog	= xbmcgui.Dialog()
 
 error1 = 0

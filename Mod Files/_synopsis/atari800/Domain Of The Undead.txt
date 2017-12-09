@@ -1,0 +1,15 @@
+Domain of the Undead
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Shoot 'em Up - Scrolling
+Gametype: Licensed
+Release Year: 1986
+Developer: Red Rat Software
+Publisher: Red Rat Software
+Players: 1
+Programmer: Steven MacIlwee
+Musician: A. Guilfoyle
+_________________________
+

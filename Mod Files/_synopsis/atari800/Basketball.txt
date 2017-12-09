@@ -1,0 +1,17 @@
+Basketball
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Sports - Basketball
+Gametype: Licensed
+Release Year: 1979
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 VS
+Programmer: Alan Miller
+_________________________
+
+Basketball allows you to play a game of one-on-one against either the computer or another player. The court is viewed from the side with a basket at each end of the screen. Using the joystick you can move your player around the court, dribble/shoot the ball, and attempt to block your opponent. The game is played in two 4 minute halves, and the player who scores the most points wins. There are two different skill levels available which can be set individually for each player.
+
+http://www.mobygames.com/game/atari-8-bit/basketball

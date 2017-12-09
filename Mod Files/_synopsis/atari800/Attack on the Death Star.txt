@@ -1,0 +1,23 @@
+Attack on the Death Star
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Shoot 'em Up - 3D
+Gametype: Magazine
+Release Year: 1982
+Developer: Antic Magazine
+Publisher: Antic Magazine
+Players: 1
+Programmer: David N. Plotkin, Maria Montes
+_________________________
+
+From volume 1, issue 2 of Antic dated June 1982.
+
+In order to protect your home base from the dreaded Death Star, you are launched in your X-wing fighter to attack the enemy. As the simulation begins, you are flying "down the trench," the walls of the trench whipping past. The object: destroy the five radiation ports from the Death Star's main reactor. If you succeed, the reactor will overheat and self-destruct, destroying the Death Star. To hit the radiation ports, line up your cursor aiming system, using joystick (0), and fire, using the red button. The ports are oval green openings in the bottom of the trench. The Death Star has a full complement of Tie fighters for its defense. The fighters attack one by one, firing furiously. If you are hit too many times, your fighter will explode and crash. To combat the Tie fighters, you'll have to wait till the Tie fighter is in the center of the screen before you can hit it. If you don't want to type in this program, send a stamped self-addressed envelope and cassette with $4.00 to David Plotkin.
+
+Submitted by:
+David Plotkin and Maria Montes
+5720 Alameda Avenue, Hichmond, CA 92804
+Day Phone: 620-3980 Eve. Phone: 236-1181
+System Requirements: 32K, 1 joystick

@@ -1,0 +1,17 @@
+Battlezone
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick
+Genre: Arcade - First Person - Shooter
+Gametype: Licensed
+Release Year: 1987
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Ken Rose
+_________________________
+
+Commonly considered the earliest progenitor of first-person shooters (FPS), Battlezone is a 3D tank game initially released in the arcades, and later converted officially to many systems. Earth has been invaded, and you and your tank lead the defensive effort. You drive around the battlefield from a first-person view, targeting and firing at tanks, planes and UFOs. You have a radar to help you see where the enemies are in direction and distance. Objects can be used as strategic cover. Controls simulate the tracks of a tank realistically, so the direction and speed settings are varied - combining forward right and backward left movements (as you can on keyboard versions) sees you change direction more quickly.
+
+http://www.mobygames.com/game/atari-8-bit/battlezone_

@@ -1,0 +1,21 @@
+Bats
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1982
+Developer: Antic
+Publisher: Antic
+Players: 1 or 2 Alternating
+Programmer: Stan Ockers
+_________________________
+
+ANTIC VOL. 1, NO. 5 / DECEMBER 1982
+
+This game for one or two players needs only a joystick and 16K. The object is to fly your bat through a cavern while avoiding the walls and eating insects. You score points for every insect eaten. Pressing the fire button causes your bat to fly higher, releasing it causes the bat to fall. Your bat always flys steadily forward. You start over after you either score 300 points or you lose a bat. You lose all points if you hit a stalagtite. There are poison bugs, the color of your h~t Flat one of these and your bat dies, you lose all points, and 100 penalty points are deducted.
+
+The cavern narrows as the game progresses. You get a bonus bat for every 1000 points, with four bonus bats maximum. The game ends when all bats are dead.
+
+Thanks again to Stan for an excellent game. Bats was first published in the ATARI club newsletter of Eugene, OR. If you're interested, write: A.C.E., c/o Mike Dunn, 3662 Vine Maple Drive, Eugene, OR 97405

@@ -1,0 +1,14 @@
+Fidget
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action - Isometric
+Gametype: Licensed
+Release Year: 1986
+Developer: Mr. Chip Software
+Publisher: Americana
+Players: 1
+Programmer: Amin Hoque
+_________________________
+

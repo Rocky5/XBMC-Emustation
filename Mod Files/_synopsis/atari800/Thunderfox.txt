@@ -1,0 +1,18 @@
+Thunderfox
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick
+Genre: Shoot 'em Up - Horizontal
+Gametype: Licensed
+Release Year: 1988
+Developer: Aztec Design
+Publisher: Atari
+Players: 1
+Programmer: Noel Daniel
+Musician: Orall Cornellius
+_________________________
+
+Thunderfox is an attempt at bringing the gameplay of Uridium to the Atari line. Aboard the Thunderfox space fighter, you are on a mission above a transporter, which contains Disilicate energy crystals intended to power the Phalon War Machine. If you do not infiltrate the transporters and their heavily-guarded Energy Rooms, and destroy the crystals, your society is doomed. It's a race against time - a death missile is being prepared, and will launch to destroy Thunderfox when time runs out. As you fly over the transport, you will encounter enemy ships and defence lasers. Once you reach the end of the ship without destroying all encroaching enemies and bases, you are automatically reversed.
+
+http://www.mobygames.com/game/atari-8-bit/thunderfox

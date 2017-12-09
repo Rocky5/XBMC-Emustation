@@ -1,0 +1,35 @@
+Ultima II - Revenge Of The Enchantress
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Keyboard
+Genre: Role Playing Game - Adventure
+Gametype: Licensed
+Release Year: 1983
+Developer: Sierra On-Line
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Chuck Bueche
+Designer: Richard Garriot
+_________________________
+
+The sequel to Ultima featured several improvements over the original, such as separate town and world maps, and the concept of traveling through time gates into different eras on Earth. Other than that the gameplay is pretty much the same as in Ultima I, with your single character roaming the land fighting monsters and looking for key items.
+
+In the original Ultima a hero from a certain third rate blue planet orbiting an insignificant yellow sun came to the world of Sosaria and slew the evil wizard Mondain before he could fulfill his dreams of universal domination. Thus peace was brought to Sosaria, and the hero hailed as a champion of the people of all time. 
+
+Unfortunately, Mondain happened to have a young apprentice/lover named Minax who is understandably upset over his death. Using her considerable powers, Minax travels through time and space to the hero's homeworld of Earth and instigates a nuclear war, thus serving the dual purpose of working out her frustration as well as erasing the hero from history. Of course, as the hero, this works out rather badly for you, and so with the help of Lord British you must travel through time and somehow find Minax and prevent the events which culminate in the destruction of Earth.
+
+Trivia:
+
+Ultima II was never re-released by Origin as a single game. They had trouble getting the publishing rights back from Sierra, and it wasn't until Electronic Arts published the Ultima Collection almost 15 years later that the game was commonly available for purchase again. 
+
+While designing the game Richard Garriott went to see the movie Time Bandits repeatedly just to copy down the map seen in the film and incorporate it into his game. He eventually decided that the map didn't actually make much sense but still wanted to include a cloth map with every copy of the game. Every publisher in the industry turned him down because of the cost, except Sierra.
+
+The idea for "moongates" came when Richard Garriott and his friends saw the movie Time Bandits by Terry Gilliam. After watching the characters in the movie pop about in time through tiny windows that appeared and disappeared, Garriott decided to make his own map, and the idea for the game followed.
+
+In it's original release this game was published by Sierra. For one reason or another, this didn't work out, and Richard Garriot left and published Ultima III under his own outfit. Origin later bought back the rights to Ultima II from Sierra. However Sierra still left their mark on this game as the Ultimate Weapon(tm) which you need to defeat Minax is a quicksword called Enilno, a name taken from another Sierra franchise.
+
+Richard Garriot in general and the various Ultima devlopment teams in particular have something of a reputation for hiding various inserted oddness into the series. For example, in the map of the solar system in this game Earth is at coordinates (6,6,6). Make of that what you will.
+
+
+http://www.mobygames.com/game/atari-8-bit/ultima-ii-the-revenge-of-the-enchantress

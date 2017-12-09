@@ -1,0 +1,15 @@
+Animal Party
+Platform: Atari 800
+Region: Peru
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Homebrew
+Release Year: 2008
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Mario Caillahuz
+Musician: M. Diepenhorst, Michal Szpilowski
+_________________________
+

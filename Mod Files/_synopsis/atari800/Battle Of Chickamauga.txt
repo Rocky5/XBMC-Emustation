@@ -1,0 +1,18 @@
+Battle Of Chickamauga, The
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Strategy - Tactical Combat - Turnbased
+Gametype: Licensed
+Release Year: 1984
+Developer: World to Conquer, Inc.
+Publisher: GDW
+Players: 1 or 2 VS
+Programmer: Steven Hokanson, Bernard K. Dehmelt, Shereen Hokanson, John Harshman
+_________________________
+
+The Battle of Chickamauga is a turn-based strategy game. It is set during the American Civil War and covers, not entirely surprising, the battle of Chickamauga from 1863. The player either takes the role of the Confederates or the Union troops and tries to defeat the enemy. During each turn, both players (or one player and the AI) give orders to their units and then they get performed simultaneously. The simulated aspects of war include morale, unit abilities, war tactics, morale or fatigue. Various options can be set before and during a match, e.g. switching certain game mechanics off like the invisibility of enemy units outside sight.
+
+
+http://www.mobygames.com/game/atari-8-bit/battle-of-chickamauga

@@ -1,0 +1,22 @@
+Archon II: Adept
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Strategy - Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Free Fall Associates
+Publisher: Electronic Arts
+Players: 1 or 2 VS
+Programmer: Anne Westfall, Jon Freeman, Paul Reiche
+_________________________
+
+The sequel to the classic Archon, Archon II: Adept features a more complex board and enhanced gameplay.
+
+Each side plays as an Adept - a powerful wizard with the ability to cast spells against other Adepts and his summonings - and must defeat the other side, either Chaos or Order, by attacking him/her with summoned Elementals or Demons. Each side can summon 4 unique elementals at a time or choose from 4 demons, common to both.
+
+Gameplay is similar to the original, reminiscent of a chess-like board game, requiring strategy, but with arcade elements, especially when two adepts confront each other face-to-face. The board also shifts from time to time, making the strategy less predictable.
+
+
+http://www.mobygames.com/game/atari-8-bit/archon-ii-adept

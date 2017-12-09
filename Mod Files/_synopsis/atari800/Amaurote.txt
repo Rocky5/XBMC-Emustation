@@ -1,0 +1,20 @@
+Amaurote
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Isometric
+Gametype: Licensed
+Release Year: 1987
+Developer: Binary Design
+Publisher: Mastertronic
+Players: 1
+Programmer: John Pickford
+Musician: David Whittaker
+_________________________
+
+Your task in this isometrically viewed game is to clear the city of Amaurote of the many bugs and insects which have invaded it. You are supplied with an Arachnus 4 ship and 5 million units of cash. 
+
+There are 3 different types of ants - drones, queens and scouts, each representing their real function in the natural world, so queen bees are the most lethal opponents as they generate new ants. Money must be spend on buying improved weaponry (including that needed to destroy the Queen Bees) and repairing the ship throughout the 2500 screens Amaurote is depicted in. As your main weapons are bombs, you need to consider their bounce and distance before firing, to avoid being caught up in stray explosions yourself.
+
+http://www.mobygames.com/game/atari-8-bit/amaurote

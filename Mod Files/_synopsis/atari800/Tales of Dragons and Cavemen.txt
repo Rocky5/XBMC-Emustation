@@ -1,0 +1,14 @@
+Tales of Dragons and Caveman
+Platform: Atari 800
+Region: Germanu
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Platform
+Gametype: Licensed
+Release Year: 1986
+Developer: AMC-Verlag
+Publisher: AMC-Verlag
+Players: 1 or 2 Alternating
+Programmer: Rainer Kothe
+_________________________
+

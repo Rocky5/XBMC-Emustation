@@ -1,0 +1,18 @@
+Mr. TNT
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action - Arcade
+Gametype: Licensed
+Release Year: 1983
+Developer: HesWare
+Publisher: HesWare
+Players: 1 or 2 Alternating
+Licensed from: Telco, Inc.
+Programmer: Harley H. Puthuff Jr.
+_________________________
+
+Based on the 1983 Telco coin-op. Every bit as difficult as its arcade counterpart, but a very good port. Move around the grid removing it as you go. Watch out for the sparks moving on the grid with you.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=8122

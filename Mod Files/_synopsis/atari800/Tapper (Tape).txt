@@ -1,0 +1,28 @@
+Tapper (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Arcade - Action
+Gametype: Licensed
+Release Year: 1985
+Developer: US Gold
+Publisher: US Gold
+Players: 1 or 2 Alternating
+Licensed from: Bally / Midway
+Programmer: Ken Jordan
+_________________________
+
+Tape version is missing two of the four bars.
+
+Tapper is an action game where you're a beer tapper (barman) and have to serve beer to demanding customers. There are four customers, each has its own lane lengthier than the previous one, whom you have to keep at bay. If they reach the end of the lane without receiving their beer, you're a goner; if you miss one and accidentally spill beer needlessly you lose a life and should one of them throw you back the mug and you fail to catch it, you lose a life as well.
+
+Occasionally a bizarre icon will appear on one of the lines and, should you grab it, will invoke a "cabarette"-style show which will keep some of the customers occupied.
+
+The Xbox 360 version includes bonus rounds, as well as co-op and versus multiplayer modes, also online, along with achievements.
+ 
+Trivia:
+
+The player character in this game is based on an employee of the game's designer (Marvin Glass) named Mike Ferris who had the same bald head, glasses and mustache, and always wore a red T-shirt. In the original coin-op versions, his T-shirt is in red. The same man is also found in some other Marvin Glass coin-ops: "Domino Man" and "Timber".
+
+http://www.mobygames.com/game/atari-8-bit/tapper

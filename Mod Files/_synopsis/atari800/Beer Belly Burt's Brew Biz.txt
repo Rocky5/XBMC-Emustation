@@ -1,0 +1,15 @@
+Beer Belly Burt's Brew Biz
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1986
+Developer: American Eagle Software
+Publisher: Americana
+Players: 1 or 2 Alternating
+Programmer: Frank Cohen
+_________________________
+
+Press OPTION to skip to next screen or press ESC to adjust screen colors.

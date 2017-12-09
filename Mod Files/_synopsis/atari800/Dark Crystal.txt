@@ -1,0 +1,21 @@
+Dark Crystal, The
+Alternative title: Hi-Res Adventure #6 - The Dark Crystal
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1984
+Developer: Yosemite Software Products
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Chris Iden
+_________________________
+
+The Dark Crystal is closely based on Jim Henson's film of the same name. The game is set in Thra, a world with three suns, which come together every thousand years in an event known as "The Great Conjunction". The player controls Jen, the last survivor of the Gelfings, a race of mole-like people. He must find a dark crystal and its broken shard, and repair it to end the reign of a tyrannical lord.
+
+Like other installments of the Hi-Res Adventures series, the game is entirely text-based, with non-animated graphics to illustrate the areas. Movement between areas and interaction with the game world is performed by typing commands consisting of either one or two words (a combination of a verb and an object).
+
+
+http://www.mobygames.com/game/atari-8-bit/hi-res-adventure-6-the-dark-crystal

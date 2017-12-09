@@ -1,0 +1,13 @@
+Bilbo
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Maze
+Gametype: Licensed
+Release Year: 1986
+Developer: AMC-Verlag
+Publisher: AMC-Verlag
+Players: 1 or 2 Alternating
+_________________________
+

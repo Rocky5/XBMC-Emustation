@@ -1,0 +1,15 @@
+Mad Stone
+Platform: Atari 800
+Region: Germany
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Puzzle - Action
+Gametype: Licensed
+Release Year: 1993
+Developer: Blue Flame
+Publisher: Blue Flame
+Players: 1
+Programmer: Juergen Schildmann
+Musician: Juergen Schildmann
+_________________________
+

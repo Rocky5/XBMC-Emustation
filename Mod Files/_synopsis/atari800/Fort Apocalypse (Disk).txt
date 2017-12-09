@@ -1,0 +1,21 @@
+Fort Apocalypse (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1
+Programmer: Steve Hales
+_________________________
+
+The war with the Kralthans is on, and they've taken prisoners. These people must be rescued from the Draconis caves and the Crystaline caves that are located just outside the Kralthan main command center, Fort Apocalypse. The Fort is too powerful to attack directly, but perhaps a single rocket copter, carefully controlled might be able to do what an army cannot. However the caves are narrow and the enemy has still setup impact shields, defenses and Hyper-Chambers within their depths. 
+
+Fort Apocalypse is a 4-way side-scrolling game, somewhat similar to Choplifter. The player takes the seat of a "rocket copter" and can move up, down, as well as left and right. However this helicopter takes time to turn between left and right perspectives, facing the "front" of the screen. While facing the front, the player is able to drop powerful plasma bombs which can destroy heavy weapons and doors. When facing directly left or right, the weapon used is a more maneuverable but weaker interceptor rocket. Displayed on the screen is a "Navatron", which functions as a radar showing terrain and enemies not yet on the map. Prisoners, once found can be landed on top of them in order to rescue them. There are also "Hyper-Chambers", which are glowing teleporters to other Hyper Chambers located on the same level. Fuel is constantly consumed while flying, but can be recharged at Fuel depots scattered throughout the level. There are also separate Landing Pads which will be the point at which a new helicopter is given to the player, should they be defeated in battle. 
+
+Enemies include laser beams, teleporting rocks, breakable walls, self-propelled mines (SPM), armored tanks (which can only be destroyed from their treads), alien droids and hostile robo-choppers.
+
+http://www.mobygames.com/game/atari-8-bit/fort-apocalypse

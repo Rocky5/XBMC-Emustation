@@ -1,0 +1,20 @@
+Rebel Charge at Chickamauga
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1987
+Developer: SSI
+Publisher: SSI
+Players: 1
+Programmer: Chuck Kroegel, David Landrey, Keith Brors
+_________________________
+
+Rebel Charge at Chickamauga is a tactical simulation of the South's last major offensive thrust during the American Civil War. 
+
+The game uses a refined version of SSI's Gettysburg game system and is played in 13 turns each representing two hours of real time over a two day period. Players are awarded points based on casualties and territorial objectives. At the end of each turn and the end of the game points are calculated and compared to a chart which determines your level of victory. The game can be played under 3 different sets of rules (Basic, Intermediate, and Advanced) and can be played against another person or the computer can play either side.
+
+
+http://www.mobygames.com/game/atari-8-bit/rebel-charge-at-chickamauga

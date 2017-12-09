@@ -1,0 +1,18 @@
+Fight Night (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Sports - Boxing
+Gametype: Licensed
+Release Year: 1987
+Developer: Distinctive Software
+Publisher: Accolade
+Players: 1 or 2 VS
+Programmer: Armory Wong
+Musician: Gail Bergen
+_________________________
+
+Fight Night is a boxing game in which players box 11 different opponents on the way to the final match with the champ, Bronx Bomber. Each boxer has unique strengths and weaknesses, along with one specialised "super punch". There are four different modes of play; the single-player Main Event and the multi-player Tournament (on disk/cartridge versions only), and also Training and Sparring modes. Players can also create their own boxer, setting the appearance and abilities.
+
+http://www.mobygames.com/game/atari-8-bit/fight-night

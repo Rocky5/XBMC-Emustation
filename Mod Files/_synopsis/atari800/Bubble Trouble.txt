@@ -1,0 +1,23 @@
+Bubble Trouble
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1986
+Developer: Players
+Publisher: Players
+Players: 1
+Programmer: Keith Harvey
+_________________________
+
+You're a small bubble struggling to escape....but only big bubbles can escape, so you must grow whilst avoiding all sorts of bathtie things out to make you go POP!!
+
+[From the box back]
+
+In Bubble Trouble the player controls a bubble in the bath who longs for freedom. The problem: only big bubbles float away so the goal is to increase in size while avoiding all sorts of deadly obstacles.
+
+The bath is viewed from the side and the player's bubble is controlled with the joystick. Smaller bubbles rise up from the ground, nine of which must be eaten within a time limit of 60 seconds to advance to the next level. Besides some nasties already present in the bath, from time to time some bathroom accessories like nail brushes or shampoo will fall down and must be avoided. Only the soap can also be eaten for bonus points.
+
+http://www.mobygames.com/game/atari-8-bit/bubble-trouble_

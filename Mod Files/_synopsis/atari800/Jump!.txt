@@ -1,0 +1,14 @@
+Jump!
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1986
+Developer: Happy Computer
+Publisher: Happy Computer
+Players: 1
+Programmer: D. Johannsen
+_________________________
+

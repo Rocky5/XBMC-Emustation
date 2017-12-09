@@ -1,0 +1,17 @@
+Gunfighter
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Action - Shooter
+Gametype: Licensed
+Release Year: 1989
+Developer: Atlantis Software
+Publisher: Atlantis Software
+Players: 1
+Programmer: Tony Love
+_________________________
+
+In Gunfighter you play a Wild West Sheriff, whose town is under attack from a group of outlaws who have taken the ownership rights for several homes. You receive warnings of the presence of a particular outlaw, and must patrol the streets shooting it out with them. The Doc's can give you an extra life, at a cost of $500. Red Indians and potholes in the road mean that you have to concentrate on more than merely the outlaws. You are limited to carrying six bullets - enter the Sheriff's office to gain more. A casino sub-game is included, allow you to gamble some of your money. 
+
+http://www.mobygames.com/game/atari-8-bit/gunfighter

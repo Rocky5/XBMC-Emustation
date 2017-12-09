@@ -1,0 +1,27 @@
+Conflict in Vietnam
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1986
+Developer: Microprose Software
+Publisher: Microprose Software
+Players: 1
+Programmer: Sid Meier, Ed Bever
+_________________________
+
+The third and final installment in Microprose's Command series of war games simulates five key battles in Vietnam, beginning with the defeat of the French colonial army in 1954 and culminating in the 1972 victory of the Viet Cong against South Vietnam forces. 
+
+Conflict in Vietnam adapts the well tried "accelerated real-time" game system of its predecessors to the jungle combat situation in Indochina, with its bizarre balance of power, specific technology (such massive use of helicopters) and unique strategic challenges. Impressively complex for its time, the simulation calculates a day-night-cycle, weather, terrain, supply lines, formations, unit organization and experience, to name only the most important factors. Two players can compete head to head on one computer, soloists may randomize the enemy priorities in some scenarios for added uncertainty on the battlefield.
+
+Even more so than in the previous games, designer duo Sid Meier and Ed Bever stress the educational aspect of their well-researched historical simulation: the manual is desgined as a complementary read that offers extensive background information to the five scenarios and their 'what if' variants.
+
+Trivia:
+
+The game is dedicated "to the memory of Pfc. Michael John Patrick Callahan, USMC (June 17, 1949-November 8, 1967). Killed in action, Vietnam"
+
+The games theme music is "The Ballad of The Green Berets", a war song of the era.
+
+http://www.mobygames.com/game/atari-8-bit/conflict-in-vietnam

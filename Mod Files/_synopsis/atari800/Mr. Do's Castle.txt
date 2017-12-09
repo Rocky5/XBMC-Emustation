@@ -1,0 +1,21 @@
+Mr. Do!'s Castle
+Platform: Atari 800
+Region: Canada
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Action - Platform
+Gametype: Licensed
+Release Year: 1984
+Developer: Parker Brothers
+Publisher: Parker Brothers
+Players: 1
+Licensed from: Universal
+_________________________
+
+Mr. Do!'s Castle is an action platform game which has you in a castle consisting of several floors, each of which contain a variety of blocks. You control Mr. Do! the clown who has a hammer which can be used to knock out the blocks in the floor. Wandering throughout the castle are deadly unicorns which are constantly trying to catch you. Your goal is to earn as many points as possible and to progress through the increasingly difficult castles.
+
+There are two ways to complete a castle; you can either destroy all of the deadly unicorns by crushing them with blocks, or you can knock out all of the blocks which have a cherry symbol on them. In addition to the cherry blocks, there are three blocks with a key. If all three key blocks are knocked out, the door on the roof of the castle unlocks. If you make it to the door, all of the unicorns will temporarily become harmless and will contain a letter. If you hit a letter unicorn, you will earn a letter in the word EXTRA. Spell the complete word, and you will earn an extra life. The last type of block you'll encounter has a skull on it. If you knock out two skull blocks, all of the blocks between them will also be knocked out and replaced with a bridge.
+
+As the castles progress, the castle layout will become trickier and the unicorns become faster and more numerous.
+
+http://www.mobygames.com/game/atari-5200/mr-dos-castle

@@ -1,0 +1,17 @@
+Shamus
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1
+Programmer: William Mataga
+_________________________
+
+A combination of Berzerk and Adventure -- explore over 120 rooms to find the evil enemy.
+
+http://www.mobygames.com/game/atari-8-bit/shamus

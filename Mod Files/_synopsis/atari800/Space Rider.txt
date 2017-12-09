@@ -1,0 +1,14 @@
+Space Rider
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1990
+Developer: PAL Developments
+Publisher: Hi-Tec Software
+Players: 1
+Programmer: Russell Knight
+_________________________
+

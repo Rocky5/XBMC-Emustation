@@ -1,0 +1,25 @@
+Drop
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1983
+Developer: Antic Publishing
+Publisher: Antic Publishing
+Players: 1
+Programmer: John Zakour
+_________________________
+
+From The Best of Antic - Volume 1 .
+
+Catch the falling faces
+
+You can never beat this game, just get better and better. It starts slowly as faces appear at the top of the playfield and fall towards the bottom. You move a dish laterally with the joystick to catch the faces before they reach the bottom. If you miss one, that ends your turn.
+
+With every successful catch your score increases, and after a while bonus points accrue. However, the speed of the game increases too, and it is unlikely you will ever exceed 1000. A little "falling" sound accompanies the action. 
+
+by John Zakour
+
+System Requirements: 16K RAM, joystick

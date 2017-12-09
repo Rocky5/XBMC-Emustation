@@ -1,0 +1,21 @@
+Bug Hunt
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Lightgun
+Genre: Shooter - Light Gun
+Gametype: Licensed
+Release Year: 1987
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 Alternating
+Programmer: Robert Zdybel, Alan Murphy
+_________________________
+
+Fixing bugs in a new computer circuit board late at night is hard, but it gets even worse when suddenly, real bugs appear out of nowhere. It's time to grab a gun and shoot at those little pests.
+
+Bug Hunt is a game designed for the Atari XG-1 light gun, and came bundled with the Atari XEGS and the stand-alone XG-1.
+
+The game consists of seven waves. Each wave features more of the little critters (flies, spiders, butterflies, ticks, etc.) on the sections of the PCB, waiting to be shot. Some are large and stationary and easy to hit, others are small and move rapidly and net more points. To progress into the next wave, a certain accuracy percentage must be met (from 25% to reach wave 2 to 80% to reach the final wave). The final score is converted into a performance rating - CEOs, directors and managers at the lower end, programmers, hackers and engineers at the higher end.
+
+http://www.mobygames.com/game/atari-8-bit/bug-hunt

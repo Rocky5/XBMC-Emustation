@@ -1,0 +1,14 @@
+Nemo's Vault
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1985
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Martin Walls
+_________________________
+

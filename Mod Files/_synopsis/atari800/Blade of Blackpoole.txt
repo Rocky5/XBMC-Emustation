@@ -1,0 +1,14 @@
+Blade of Blackpoole, The
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1982
+Developer: Sirius Software
+Publisher: Sirius Software
+Players: 1
+Programmer: Tim Wilson
+_________________________
+

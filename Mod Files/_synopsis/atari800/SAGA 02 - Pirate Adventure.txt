@@ -1,0 +1,18 @@
+SAGA No. 2 - Pirate Adventure
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1982
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1
+Programmer: Scott Adams
+_________________________
+
+This is the enhanced version of the original all-text Scott Adams Adventure, Pirate Adventure. Additions to the original game include illustrations for each location, and support for the VOTRAX voice synthesizer. Otherwise the game remains essentially the same as the original. 
+
+
+http://www.mobygames.com/game/atari-8-bit/scott-adams-graphic-adventure-2-pirate-adventure

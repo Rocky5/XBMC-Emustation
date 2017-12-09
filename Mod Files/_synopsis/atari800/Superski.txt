@@ -1,0 +1,13 @@
+Superski
+Platform: Atari 800
+Region: Germany
+Media: Disk
+Controller: Paddles
+Genre: Sports - Skiing
+Gametype: Prototype
+Release Year: 1994
+Developer: AMC-Verlag
+Publisher: AMC-Verlag
+Players: 1
+_________________________
+

@@ -1,0 +1,17 @@
+Chicken
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Paddle
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1 or 2 Alternating
+Programmer: Mike Potter
+_________________________
+
+There's trouble in the barnyard. Ma Hen and a pesky old fox battle it out, as you try to save the local chicken population. Seems that the fox has found Ma Hen's eggs, and she is trying to save them from his deadly clutches. The action gets faster and faster as eggs turn into chicks, feathers fly, chickens squawk, and all bedlam breaks loose. You've really got to scramble to outrun this crazy fox.
+
+~From the back of the box

@@ -1,0 +1,17 @@
+Cuthbert Goes Walkabout
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Microdeal
+Publisher: Microdeal
+Players: 1
+Programmer: Rita Jay
+_________________________
+
+In this installment of the Cuthbert Saga, Cuthbert goes for a stroll on a grid. As he walks along all four sides of a cell in a grid, it changes color, and when all cells have been coloured, it is on to the next grid. This would have been too easy, were it not for the nasties that also walk along the grid. Cuthbert's only weapons are his wits and his ability to jump over the nasties. Just try not to jump out of the screen! The inspiration for this game is the old arcade game, Amidar, and it can be seen as a primitive version of Oh Mummy.
+
+http://www.mobygames.com/game/atari-8-bit/cuthbert-goes-walkabout

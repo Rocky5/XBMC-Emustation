@@ -1,0 +1,26 @@
+Trolls and Tribulations
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1984
+Developer: Designer Software
+Publisher: Creative Software
+Players: 1
+Programmer: Jimmy Huey
+_________________________
+
+You play a troll set on an expedition into cavernous sewers to retrieve valuable relics. Guarding the treasure are monsters such as cretins, buzzards, skulls and spiders. The mazes are difficult to navigate and fraught with danger. One wrong move could send you plummeting to your death.
+
+Trolls and Tribulations is a side scrolling platform game with some puzzle like mechanics due to it's unusual control scheme and movement. Most mazes begin with a barrage of cretins that must be dispatched in order to open the door to the main portion of the maze. Your character has a gun that is capable of turning the cretins into eggs. After shooting them, you must quickly shove the eggs into the sewer water as they will hatch back into cretins after a short time. Your gun has limited ammo but which can be replenished in the middle of the screen.
+
+Once the cretins have been defeated, the doors to the main portion of the maze are accessible. Here is where you will find treasures to increase your point total. The mazes require careful navigation as some treasures are placed in dangerous locations. Keys need to be recovered to open further doors allowing you to proceed to the maze's exit. Other monsters are present in this part of the maze and cannot be destroyed by your weapon. Instead it will take careful timing and jumps to avoid being killed by them.
+
+The game is divided into three levels which can be chosen at the start. Each level has multiple mazes to work your way through.
+
+Joystick control is a little bit unusual. Aside from the normal left and right movement, pushing down shoots your weapon, pushing the button causes you to jump in the direction you are facing while pushing up does a vertical jump. When you move you will always move one complete step. This means you have to be careful when moving on small platforms as an extra tap on the joystick could send you off the edge. The structured movement gives the later parts of the maze a more puzzle-like feel than a straight action game.
+
+
+http://www.mobygames.com/game/atari-8-bit/trolls-and-tribulations

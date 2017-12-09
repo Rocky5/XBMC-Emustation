@@ -1,0 +1,22 @@
+Reversi
+Known issue (if you can help join the forum): Does not work in atarixlbox.
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1982
+Developer: Thorn EMI
+Publisher: Thorn EMI
+Players: 1 or 2 VS
+Programmer: Kevin Buckner, A. French
+_________________________
+
+Reversi is based on an ancient game played with white and black pices on a chessboard.  The object is to "capture" your opponent's pieces by containing them between your own and win by ending the game with the most pieces.
+
+With three levels of skill, the computer will play at the level you want - beginner, amateur or professional.
+
+Sophisticated colour graphics and a winning strategy combine to promise you some unforgettable victories, and defeats.
+
+[From the box back]

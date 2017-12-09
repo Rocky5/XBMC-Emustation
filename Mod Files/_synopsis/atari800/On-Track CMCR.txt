@@ -1,0 +1,14 @@
+On-Track Model Car Racing
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Racing - Top Down
+Gametype: Licensed
+Release Year: 1985
+Developer: Gamestar
+Publisher: Gamestar
+Players: 1 or 2 VS
+Programmer: Ed Ringler, Scott Orr, John Cutter
+_________________________
+

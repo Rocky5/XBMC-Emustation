@@ -1,0 +1,14 @@
+Jaskiniowiec
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Platform - Scrolling - Horizontal
+Gametype: Licensed
+Release Year: 1995
+Developer: StanBit
+Publisher: StanBit
+Players: 1
+Programmer: Stanislaw Skwiot
+_________________________
+

@@ -1,0 +1,16 @@
+Ozzy's Orchard
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: TG Software
+Publisher: TG Software
+Players: 1 or 2 Alternating
+_________________________
+
+Designed by Microtechnics, Solitaire Group. Targ meets Stratovox - you're defending crops on the right hand side of the screen from bugs who move chaotically around a grid-like "orchard".
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=8115

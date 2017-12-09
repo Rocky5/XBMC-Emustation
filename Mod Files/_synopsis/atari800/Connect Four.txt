@@ -1,0 +1,14 @@
+Connect Four
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Board Game
+Gametype: Homebrew
+Release Year: 1985
+Developer: None
+Publisher: None
+Players: 1 or 2 VS
+Programmer: Gary Callender
+_________________________
+

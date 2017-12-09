@@ -1,0 +1,27 @@
+Rear Guard
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Shooter - Scrolling - Vertical
+Gametype: Licensed
+Release Year: 1981
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1 or 2 Alternating
+Programmer: Neil Larimer, Sparky Starks
+_________________________
+
+Loading instructions: 
+- turn off disk drive and make sure you are in BASIC mode
+- insert tape file in your emulator / APE
+- type CLOAD 
+- type RUN.
+
+
+A side-scrolling space shooting game, a bit like Defender, in which you must blast enemy drones and their missiles before they can destroy the mothership you're protecting.
+
+Five ships come at you from the right and are worth between 25 and 200 points. A freighter flies in the same direction as you (left to right) and is worth 300 points. In addition, a satellite identified by an F on its side that later changes to an S flies by. Hitting the satellite while it displays an F gives you a fuel recharge, while hitting it with an S gives you a shield recharge.
+
+
+http://www.mobygames.com/game/atari-8-bit/rear-guard

@@ -1,0 +1,23 @@
+Karateka (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action - Karate
+Gametype: Licensed
+Release Year: 1985
+Developer: Broderbund Software
+Publisher: Broderbund Software
+Players: 1
+Programmer: Jordan Mechner, Robert Cook
+Musician: Francis Mechner
+_________________________
+
+The evil Akuma has destroyed your homeland, killed many of your friends and kidnapped your Princess Mariko. Fortunately, you are skilled in Martial Arts, so your inevitable quest to reach Akuma's palace has a chance of success.
+
+The game is viewed from the side and features a succession of increasingly-difficult opponents. All the standard karate kicks and punches are available to both you and your foes. The game's design was serious and realistic, and the game featured lots of cutscenes to develop the story.
+
+Trivia:
+'Akuma' the name of the evil warlord in Karateka (and many other games featuring a Japanese bad guy) is a Japanese word that roughly means 'devil'.
+
+http://www.mobygames.com/game/atari-8-bit/karateka

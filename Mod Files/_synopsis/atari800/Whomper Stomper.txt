@@ -1,0 +1,15 @@
+Whomper Stomper
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1 or 2 Alternating
+Programmer: Mike Wall, Mario Inchiosa
+Musician: Gregory Quenell
+_________________________
+

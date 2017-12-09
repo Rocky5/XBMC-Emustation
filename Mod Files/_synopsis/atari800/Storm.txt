@@ -1,0 +1,19 @@
+Storm
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action - Top Down
+Gametype: Licensed
+Release Year: 1986
+Developer: Mastertronic
+Publisher: Mastertronic
+Players: 1 or 2 Co-Op
+Programmer: Jim Baguley
+Musician: David Whittaker
+_________________________
+
+Una Cum has abducted Storm's wife Corrine and locked her in his well-guarded laboratory. Storm and his Wizard friend set off to have her in a top-down arcade game similar to Gauntlet. You run around rooms which are all the same size, killing monsters and collecting treasure. A simultaneous 2-player mode is on offer. 
+
+
+http://www.mobygames.com/game/atari-8-bit/storm

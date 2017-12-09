@@ -1,0 +1,24 @@
+Rainbow Walker
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1
+Programmer: Steve Coleman
+_________________________
+
+This game is about a baby owl tasked with coloring of the rainbow high above the clouds. The rainbow is organized as stripes of colors, which initially appear as different shades of gray. The stripes themselves are split into smaller squares. The owl navigates the playfield by jumping back, forward, left or right, one square at a time, coloring them in the process. 
+
+Some squares are in fact gaping holes and jumping on those will send the owl tumbling down to his death. Trying to stop him from accomplishing the noble task are weird looking imps, birds and other critters that seem bent on devouring the little guy as they converge on him from all directions. The only way to escape the gruesome fate is clever avoidance. 
+
+As the game progresses, not only does the shape of the rainbow become narrower and trickier, with more dead ends and pitfalls, but also the speed and number of the enemies increases. Every few stages a bonus round is offered, during which extra lives can be gained by quickly hopping on pieces of the rainbow appearing in random directions.
+
+The game is presented in pseudo-3D perspective and features cosmetic day and night changes.
+
+
+http://www.mobygames.com/game/atari-8-bit/rainbow-walker

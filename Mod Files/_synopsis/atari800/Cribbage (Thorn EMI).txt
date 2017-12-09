@@ -1,0 +1,25 @@
+Cribbage (Thorn Emi)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Keyboard
+Genre: Card Game
+Gametype: Licensed
+Release Year: 1980
+Developer: Thorn Emi
+Publisher: Thorn Emi
+Players: 1
+Programmer: Jeremy C. Smith
+_________________________
+
+Make no mistake: these are games of skill.  If you are an experienced player you will enjoy being able to try out new tactics without having to admit defeat to a triumphant friend.
+
+If you are a beginner, you may find the computer too good for you for the first few games, but as you learn some tricks you may well have the computer at your mercy.  (But don't count on it!)
+
+Either way it will be endlessly patient while you work out your grand strategy.
+
+Loading instructions: 
+- type CLOAD 
+- type RUN.
+
+[From the box back]

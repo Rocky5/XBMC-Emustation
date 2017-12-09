@@ -1,0 +1,21 @@
+Spooky Castle
+Known issue (if you can help join the forum): Try disabling sio to get tape image to work.
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1988
+Developer: Atlantis Software
+Publisher: Atlantis Software
+Players: 1
+Programmer: Brian Ison, Roy York
+_________________________
+
+King Michael has promised the hand of marriage to Princess Clare to anyone who can save her from Spooky Castle. You, Gormless Gary has taken up the challenge and entered the castle. To hinder Gary in his quest, there are bats and ghosts flying about with fire scattered around also. Touching any of these reduces Gary's energy bar. When the bar is empty then it's game over when all lives are lost. Scattered around the castle though are crosses which give extra lives, potions which give Gary more energy and keys which open doors.
+
+Spooky Castle is a flick screen platform game. Each screen shows a small part of the castle. The joystick or keyboard is used to control Gary. As well as the main playing area you can see your energy bar, keys and crosses collected.
+
+
+http://www.mobygames.com/game/atari-8-bit/spooky-castle

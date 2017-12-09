@@ -1,0 +1,16 @@
+Archon: The Light And The Dark
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick
+Genre: Strategy - Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Free Fall Associates
+Publisher: Electronic Arts
+Players: 1 or 2 VS
+Programmer: Anne Westfall, Jon Freeman, Paul Reiche
+_________________________
+
+A strategic board game with some similarities to chess. Two sides, a light one and a dark one, each compete on a board
+divided into (9 by 9) squares. You win the game by having one of your units on each of the five powerpoint squares or by removing all opposing pieces from the board. However, you can't just remove a piece from the board by landing on it. When two pieces clash, the outcome is decided in the battle arena during one-on-one real-time combat.  If the combat takes place on a dark square, the dark monster gets a health bonus. On a light square the light side gains an advantage. Some squares color also changes over time.

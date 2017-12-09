@@ -1,0 +1,21 @@
+Computer Stocks and Bonds
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1982
+Developer: 4-D Interactive Systems, Inc.
+Publisher: Avalon Hill
+Players: 1 or 2 VS
+Programmer: David R Megarry
+_________________________
+
+PC conversion of the board game.
+
+Try to make money at the stock market. Invest in stocks when their exchange price is low and when the price rises sell them to make profit. 
+
+You have $5000 in cash at the beginning of the game and 10 different securities to choose from.
+
+http://www.mobygames.com/game/atari-8-bit/computer-stocks-bonds

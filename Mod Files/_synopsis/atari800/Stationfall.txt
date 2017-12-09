@@ -1,0 +1,20 @@
+Stationfall
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1987
+Developer: Infocom
+Publisher: Infocom
+Players: 1
+Programmer: Steve Meretzky
+_________________________
+
+(From Infocom Home Page site)
+
+After the fall of the Second Galactic Union in 1716 GY, a ten-thousand-year dark age settled upon the galaxy. Interstellar travel was nonexistent, and many star systems descended into a near-barbaric state, buring coal and gas for energy, and growing food directly from exposed topsoil. In 11,203 GY, a treaty between the Empires of Tremain and Galium formed the Third Galactic Union. Ships of the Stellar Patrol (a pseudo-military wing of the Union government on Tremain) began exploring the galaxy, searching for the human civilizations that are the remnants of the Second Galactic Union. You are a native of the planet Gallium, one of the most politically powerful but culturally barren worlds in the Union. Your great-great-grandfather was a founding officer of the Stellar Patrol, and for five generations, your family has served in the Patrol. It was always taken for granted that you would sign up as soon as you came of age. Once in the Patrol, you discovered that the exciting career promised in all the Patrol recruitment brochures was nonsense. Your life was drudgery and demerits. The one time you got to see an exotic planet was right after a big parade, when they needed a detail to sweep up all the confetti. Then came your big moment: shipwrecked on a seemingly deserted world, you met an exuberant robotic companion named Floyd. Together, the two of you discovered the secret of that mysterious planet, Resida, and saved it from near destruction. As a result of your heroics, you were offered, and quickly accepted, a juicy promotion. Good-bye Ensign Seventh Class -- hello Lieutenant First Class! No more scrubwork! No more bathroom details! No more cleaning groth cages! Finally, your life in the Stellar Patrol would be as exciting as those brochures had promised! Oh, how naive you'd been. Your daily routine simply replaced tedious scrubwork with tedious paperwork. Since your planetfall on Resida, five long years have dragged by, without a single event worthy of note. Why, just look at today's "thrilling" assignment: scooting over to Space Station Gamma Delta Gamma 777-G 59/59 Sector Alpha-Mu-79 to pick up a supply of Request for Stellar Patrol Issue Regulation Black Form Binders Request Form Forms...
+
+
+http://www.mobygames.com/game/atari-8-bit/stationfall

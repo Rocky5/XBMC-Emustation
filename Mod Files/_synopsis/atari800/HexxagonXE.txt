@@ -1,0 +1,15 @@
+HexxagonXE
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick
+Genre: Board Game - Strategy
+Gametype: Licensed
+Release Year: 2003
+Developer: Flop
+Publisher: Flop
+Players: 1
+Programmer: Frantisek Houra
+Musician: Radek Sterba
+_________________________
+

@@ -1,0 +1,21 @@
+Crystal Raider (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1986
+Developer: Mastertronic
+Publisher: Mastertronic
+Players: 1 or 2 VS
+Programmer: Matthew Trimby
+_________________________
+
+50 rooms full of treasures await the brave yet thoughtful explorer in this platform game. Using limited thrusting ability, you must collect as many crystals as possible before moving on to the next level. Rooms have multiple exits, leading the player to different segments of the screens.
+
+You have five lives, and will lose one on contact with any of the nasties which move around the screens, or when you run out of time (represented by depleting oxygen). In either case, you are sent back to the start of the screen, but keep any crystals you have collected. Collecting every crystal on a screen earns you an extra life. 
+
+For an extra challenge, the game can be played in Night mode, which limits visibility to the area immediately surrounding your character.
+
+http://www.mobygames.com/game/atari-8-bit/crystal-raider

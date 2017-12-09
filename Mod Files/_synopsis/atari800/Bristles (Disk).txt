@@ -1,0 +1,25 @@
+Bristles (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Analog Joystick
+Genre: Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: First Star Software
+Publisher: First Star Software
+Players: 1 to 4 Alternating
+Programmer: Fernando Herrera
+_________________________
+
+The object of this game is to paint all the rooms of a building without losing your paint brushes (lives) and before time runs out. You and up to three friends can select from any of eight player sprites, male or female. There are six skill levels with eight buildings per level. After you finish a building, you will be given part of a special message. There are six messages, one per skill level. 
+
+You get from floor to floor by way of elevators. Be sure the elevator is at your floor when you board or you will fall down the elevator shaft. There are also three ladders out of the basement. Watch out for Flying Half-Pints. They will appear on one side of the building at any floor except the basement and will move horizontally across. You must jump or duck to avoid them. 
+
+Starting at building number two, you must also avoid Dumb Buckets. These will walk around and ride the elevators but they always move in a set pattern. Starting on building three and continuing every other building, you have to contend with Brenda, the superintendent's brat. She will put hand prints on your freshly painted walls, which will cost you forty points and require repainting to finish that building. You can grab the candy cane in these buildings and give it to her. This will stop her for fifteen seconds so you can repaint.
+
+Starting with building four, you must beware of the Bucket Chucker. Unlike the Dumb Bucket, he does not follow a set pattern, he follows you. You cannot destroy the Bucket Chucker but there are two ways he can be trapped. One way is to use the paint mixer, a square within a square. You touch it to turn it on for four seconds and if the Bucket Chucker touches it while it is on, he will shake for four seconds. You can turn the paint mixer on over and over while the Bucket Chucker is in it, unlimited times. Another way to trap the Bucket Chucker is to go to the basement, lead the Bucket Chucker to the ladders, go up a ladder, avoiding the elevator, then go left or right. The Bucket Chucker will then be stuck in the basement until you lose a brush.
+
+Starting on building five, you must jump over steam pipes or they will trip you, losing you a brush. In buildings six, seven and eight, your brush will run dry after eight, seven or six rooms, respectively. To refill, simply touch the large paint brushes in some rooms.
+
+http://www.mobygames.com/game/atari-8-bit/bristles

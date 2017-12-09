@@ -1,0 +1,18 @@
+Moon Patrol
+Known issue (if you can help join the forum): May have sound issues in 800 xl mode (as well as the file versions of Mario Bros and Gremlins).  Check into.
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 Alternating
+Licensed from: Williams Electronics
+_________________________
+
+The moon is under attack from a horde of aliens, and you must stop them in your armed buggy. Drive along the surface shooting the aliens and avoiding their bullets. The surface is not flat, there are craters and rocks to avoid contact with, and landmines on the surface. Flying saucers create new craters when they crash. The 25 restart points are letter-coded.
+
+http://www.mobygames.com/game/atari-5200/moon-patrol

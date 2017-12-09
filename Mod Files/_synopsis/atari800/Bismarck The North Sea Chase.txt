@@ -1,0 +1,18 @@
+Bismarck - North Sea Chase, The
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Strategy - Tactical Combat - Turnbased
+Gametype: Licensed
+Release Year: 1988
+Developer: Personal Software Services
+Publisher: Datasoft
+Players: 1
+Programmer: Kevin Shapiro
+_________________________
+
+May 1941, operation Rheinübung. German battleship Bismarck is attempting to elude the Allied fleet in order to escape from the North Atlantic and be able to conduct shipping raids against Allied supply convoys. The player can take command of either the British or German side. You can conduct air searches on the map, read weather forecast, move your ships, fire their deck guns and torpedoes, control repairs during battle. You can also fly Fairey Swordfish and make a torpedo run. Germans win if Bismarck safely escapes south or returns to France after sinking enemy ships.
+
+
+http://www.mobygames.com/game/atari-8-bit/bismarck

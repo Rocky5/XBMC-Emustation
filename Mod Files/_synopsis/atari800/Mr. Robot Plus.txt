@@ -1,0 +1,20 @@
+Mr. Robot Plus
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Platform - Puzzle
+Gametype: Licensed
+Release Year: 2009
+Developer: Databyte
+Publisher: Databyte
+Players: 1
+Hacked by: Jason Kendall, Stephen Knox
+Programmer: Ron Rosen
+_________________________
+
+New levels by Jason Kendall and Stephen Knox 2009
+
+You are in control of a robot and have to guide him through 22 platform levels using ladders, treadmills, trampolines, escalators, magnets, transporters and other devices. You must collect all the power-pills in one level in order to finish it, but you have only limited time to do so as you are constantly losing energy. Falling from too high or touching an enemy kills your robot. Picking up energizers temporarily enables you to kill your enemies. The game also features an editor that lets you create your own levels.
+
+http://www.mobygames.com/game/atari-8-bit/mr-robot-and-his-robot-factory

@@ -60,12 +60,11 @@
 						<B>highlight</B>
 						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/direct_launch_emulator.py)</Y>
 						<start>XBMC.ActivateWindow(1111)</start>
-						<black>XBMC.Skin.ToggleSetting(HomeViewToggle)</black>
 				</gamepad>
 		</Home>
 		<MyPrograms>
 				<gamepad>
-						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/play_preview.py)</Y>
+						<Y>SetFocus(9999)</Y>
 				</gamepad>
 		</MyPrograms>
 		<MyFiles>

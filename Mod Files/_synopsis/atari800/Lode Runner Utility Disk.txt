@@ -1,0 +1,13 @@
+Lode Runner Utility Disk
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Construction Kit - Puzzle - Platform
+Gametype: Homebrew
+Developer: Plutosoft
+Publisher: Plutosoft
+Players: 1
+Programmer: Darryl May
+_________________________
+

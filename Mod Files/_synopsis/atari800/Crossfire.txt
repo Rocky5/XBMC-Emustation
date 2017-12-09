@@ -1,0 +1,18 @@
+Crossfire
+Known issue (if you can help join the forum): Note to self: Keyboard can be used to allow firing and movement at the same time (ala robotron).. look into this for the config setup.
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1981
+Developer: Yosemite Software Products
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Chris Iden
+_________________________
+
+They have landed and are taking over the city. Steadily they make their way across town, destroying everything in their paths. The town ahs been evacuated, and your regiment has retreated, learing you alone in the city at the mercy of the aliens. The aliens have you surrounded, and laser shots fly from all directions. Your movements are confined but you haven't given up. If you are to live, y ou'll have to concentrate on where the shots are coming from and where you're going because if you don't you'll get caught in the Crossfire.
+
+[From the box back]

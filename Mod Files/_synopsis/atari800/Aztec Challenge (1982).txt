@@ -1,0 +1,18 @@
+Aztec Challenge (1982)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action - Side-Scrolling
+Gametype: Licensed
+Release Year: 1982
+Developer: Cosmi
+Publisher: Cosmi
+Players: 1 or 2 Alternating
+_________________________
+
+There are two different versions of Aztec Challenge; the original (copyright-dated 1982) and an improved rewrite (dated 1983).  This is the 1982 version.
+
+The player must reach and explore an Aztec temple while avoiding a variety of dangerous obstacles. Each level is like a whole different game, with different challenges and different types of scrolling and exploration. The game starts with an over-the-shoulder view of the player running a gauntlet of spear-throwing natives towards a pyramid which rises on the horizon. Once this is reached, a vertically-scrolling staircase with falling rocks must be traversed, and then there are rooms to explore and deadly aquatic wildlife to avoid (among other dangers) before the game is through. Players looking for the adventuring equivalent of an Epyx sports game should enjoy this one.
+
+http://www.mobygames.com/game/atari-8-bit/aztec-challenge

@@ -1,0 +1,14 @@
+House of Usher
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Adventure - Role Playing Game
+Gametype: Licensed
+Release Year: 1980
+Developer: Crystalware
+Publisher: Crystalware
+Players: 1
+Programmer: Mike Potter, John A. Bell
+_________________________
+

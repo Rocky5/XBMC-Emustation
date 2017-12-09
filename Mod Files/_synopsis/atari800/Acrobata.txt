@@ -1,0 +1,17 @@
+Acrobata
+Platform: Atari 800
+Region: Italy
+Media: Tape
+Controller: Joystick
+Genre: Arcade
+Gametype: Licensed
+Release Year: 1985
+Developer: Lindasoft
+Publisher: Lindasoft
+Players: 1
+Programmer: Peter Rizzuto
+_________________________
+
+From volume 7, issue 2 of Compute! dated February 1985.
+
+Also released without authorization as Acrobata.

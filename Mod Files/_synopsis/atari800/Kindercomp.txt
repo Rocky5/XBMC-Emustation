@@ -1,0 +1,22 @@
+Kindercomp
+Known issue (if you can help join the forum): Watermark needs removal on box front
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Educational
+Gametype: Licensed
+Release Year: 1982
+Developer: Spinnaker Software
+Publisher: Spinnaker Software
+Players: 1
+Programmer: A. Douglas Davis
+_________________________
+
+An early learning game for kids aged 3-8. This program is a collection of 6 learning games:
+
+Draw, Scribble, Names, Sequence, Letters and Match.
+
+Kindercomp helps children improve their reading and counting skills as well as familiarizing them with the computer keyboard.
+
+http://www.mobygames.com/game/atari-8-bit/kindercomp

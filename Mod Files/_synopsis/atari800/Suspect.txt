@@ -1,0 +1,18 @@
+Suspect
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1984
+Developer: Infocom
+Publisher: Infocom
+Players: 1
+Programmer: Dave Lebling
+_________________________
+
+You are a suspected murderer and time is running out because the police are ready to throw the books at you. If you ever want to return to your normal life of being a reporter you better prove your innocence. However, the real murderer probably watching your every move -- so be careful.
+
+
+http://www.mobygames.com/game/atari-8-bit/suspect

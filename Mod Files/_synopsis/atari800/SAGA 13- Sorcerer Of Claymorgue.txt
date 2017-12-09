@@ -1,0 +1,21 @@
+SAGA No. 13 - Sorcerer Of Claymorgue
+Known issue (if you can help join the forum): oopsie.. box front is from Ti-99 version.  Needs removing.
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1983
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1
+Programmer: Scott Adams
+_________________________
+
+Number 13 in the Adventure series from Scott Adams, and the first which was never released in all-text format (except for BBC, Electron, Dragon and TRS-80 versions). Solon, the Master Wizard has lost the 13 Stars of Power. It is up to you, his faithful apprentice, to retrieve them from Claymorgue Castle.
+
+This is similar to the other SAGA games in the series. Additionally, there is some use of magic of course!
+
+
+http://www.mobygames.com/game/atari-8-bit/sorcerer-of-claymorgue-castle

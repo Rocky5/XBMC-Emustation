@@ -1,0 +1,28 @@
+AutoDuel
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Role Playing Game - Adventure - Strategy
+Gametype: Licensed
+Release Year: 1985
+Developer: Internation Technology Development Corp
+Publisher: Origin Systems
+Players: 1
+Programmer: Chuck Bueche, Steve Meuse
+_________________________
+
+Autoduel is a hybrid game based on Steve Jackson Games board game Car Wars. It incorporates elements of role-playing, driving and action-based combat. The game is set in a futuristic version of USA, where gangs and vigilantes rule the wilderness, and people's only protection are armored cars with mounted weaponry. The player is cast in the role of an average person who must at first earn enough money to buy an own car, and then perform courier missions throughout the country.
+
+The game's progression is fairly open-ended: the player is free to visit different cities, explore highways, participate in car Arena battles to earn money, take on gangsters in the wilderness, salvage car parts, etc. A few courier missions must be completed in order to advance the story. The player can construct and customize vehicles using guns, mine-layers, smokescreens, oil slicks, rockets and other accessories, choosing between various body and chassis types for the car. The entire game is viewed from a top-down perspective.
+
+Trivia:
+
+Extras
+Like most of the Origin games of the 80's, the original run of Autoduel came with a little trinket; in this particular case, a mini-'automechanic' toolkit, which actually fully functional and useful tiny screwdriver, wrench, and hammer. 
+
+Richard Garriott
+This is one of Lord British's few forays outside of the Ultima series, who did this one with Chuck Bueche aka Chuckles the Clown. 
+
+
+http://www.mobygames.com/game/atari-8-bit/autoduel

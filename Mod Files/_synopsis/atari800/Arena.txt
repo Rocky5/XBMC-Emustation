@@ -1,0 +1,14 @@
+Arena
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Multi-Directional
+Gametype: Licensed
+Release Year: 1982
+Developer: Med Systems Software
+Publisher: Med Systems Software
+Players: 1
+Programmer: Simon Smith
+_________________________
+

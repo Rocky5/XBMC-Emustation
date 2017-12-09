@@ -1,0 +1,17 @@
+Crypts of Plumbous, The
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Vertical
+Gametype: Licensed
+Release Year: 1982
+Developer: Cosmi
+Publisher: Cosmi
+Players: 1
+Programmer: James Jengo
+_________________________
+
+In this game, you have to fight alien ships who are trying to raid underground Nuclear waste storage for some unknown reason and unleash it on the planet. The game is a side scrolling shoot-em up, which is kind of reminiscent of Defender. There are various skill levels, from "Very Easy" to "Really Tough".
+
+http://www.mobygames.com/game/atari-8-bit/crypts-of-plumbous

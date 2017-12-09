@@ -1,0 +1,19 @@
+Alien Garden
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Strategy - Simulation
+Gametype: Licensed
+Release Year: 1982
+Developer: Epyx
+Publisher: Epyx
+Players: 1
+Programmer: Jaron Lanier, Robert Leyland
+_________________________
+
+One of the earliest 'Software Toys', Alien Garden is set on a scrolling planet consisting mainly of 24 clusters of crystals, representing flowers. You control an embryonic life-form and must ensure its survival and reproduction through up to 20 generations.
+
+Through trial and error, you must find which of the crystals are food, which of them grow when you sting them, and which of them are fatal to touch. Depending on this, you can use either your tail, stinger or wings to make contact with them. Every time you boot the game, the behaviour of the crystals changes, emphasising the need for experimentation.
+
+http://www.mobygames.com/game/atari-8-bit/alien-garden

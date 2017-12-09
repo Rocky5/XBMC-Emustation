@@ -1,0 +1,19 @@
+Emerald Isle
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1985
+Developer: Level 9 Computing
+Publisher: Level 9 Computing
+Players: 1
+_________________________
+
+You have been hired to deliver important documents across the Caribbean. Heavy winds take hold of your plane across the Bermuda Triangle. At the last moment, you parachute out, landing on a mysterious island known as Emerald Isle. It is said that no one ever returns from that place, but legend has that one person may be allowed to leave - the ruler of the island. The way to freedom is is fraught with problems, of course, deadly predators and peculiar natives the least of them.
+
+The game is a text adventure utilizing Level 9's adventure system. The parser expects two- or three-word commands. On some systems, the game features graphics (more than 200 pictures).
+
+
+http://www.mobygames.com/game/atari-8-bit/emerald-isle

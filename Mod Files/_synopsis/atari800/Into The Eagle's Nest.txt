@@ -1,0 +1,19 @@
+Into the Eagle's Nest
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick
+Genre: Action - Shooter
+Gametype: Licensed
+Release Year: 1988
+Developer: Pandora Software
+Publisher: Atari
+Players: 1
+Programmer: Kees Beekhuis
+_________________________
+
+Pandora's first game combines the Gauntlet style with the World War 2 setting, and specifically the Eagle's Nest building which is being used by a commander as his HQ. Three Allied soldiers have been captured, and you must infiltrate the facilities, rescue your brave comrades, destroy the building, and salvage as much of the stolen art treasures as possible.
+
+There are eight levels to explore, each with a specific mission objective. Some of the paintings are loose, others are in crates which must first be shot. Explosives must be collected, not shot. With limited ammunition, guards everywhere, keys at a premium, and lots of strategic hiding points, an all-guns-blazing approach is less successful than a planned, measured one.
+
+http://www.mobygames.com/game/atari-8-bit/into-the-eagles-nest

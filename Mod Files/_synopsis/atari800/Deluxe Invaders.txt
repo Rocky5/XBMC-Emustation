@@ -1,0 +1,32 @@
+Deluxe Invaders
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade
+Gametype: Licensed
+Release Year: 1981
+Developer: Roklan Corp.
+Publisher: Roklan Corp.
+Players: 1 or 2 Alternating
+Programmer: Joe Hellesen
+_________________________
+
+[Electronic Games ? November, 1982]
+
+Deluxe Invaders is by far the best Space Invaders program ever released for a personal computer. Atari's own,: version was a big disappointment because of the graphics. While they were very good overall, they didn't really resemble true Space Invaders visuals.
+
+Roklan has put it all together.
+
+Deluxe Invaders can be played by one or two people. The invaders drop down noisily from space to begin the attack. The barriers are present and, just like in the coin-op, can be breached by the player. The UFO also appears across the top of the screen as in real Invaders. The player must shoot all the aliens and clear the screen. Then the invasion begins again with the enemy one row closer to the defending cannon. As you all know by now, no one ever wins this game.
+
+Roklan has included some unique game variations to its edition. One interesting idea is that the invaders split into two little aliens when they're blasted by the player. This makes for a totally different style of game. Normal invader strategy goes out the window when this option is chosen. At times there are unusual combinations of large and small aliens in the same row at the same time.
+
+It is clear that the people at Roklan Software really know the Atari well. The sound and graphics routines in this game are excellent.
+
+However there is one slight bug in the program. When in two player mode, the high score is only registered for player number two. This is not a serious problem but it is annoying.
+
+All in all, Deluxe Invaders is an excellent version of the classic arcade game. I would definitely recommend
+it.
+
+

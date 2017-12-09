@@ -1,0 +1,27 @@
+Fallout
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1983
+Developer: Antic Publishing
+Publisher: Antic Publishing
+Players: 1
+Programmer: Scott McKissock
+_________________________
+
+Best Of Antic Vol 1.
+
+A cycle of birth, labor, and goodbye
+
+You are the man, the only player in this electrolife drama. You have three "lives" to live, and watch out, they go rather quickly! Once play begins you will find yourself confronted by a curtain of falling objects--babies (pink), diamonds (blue), and monsters (green). Your first task is to survive by intercepting babies (each confers an additional life), and then to catch the diamonds (they are worth points). Touching a monster takes one life away, and if you have no more, that's the end of the game.
+
+In the first wave the diamonds are worth one point each. In the second wave they are worth two points. This progresses up through 10 points at Level 10, after which they stay the same. The action, however, continues to change. The directions, angles and speed of the falling items changes randomly, usually for the worse.
+
+Your score at the end of each wave is augmented by multiplying the number of the level by the number of lives you have left at the time. 
+
+by Scott McKissock
+
+System Requirements: 16K RAM, joystick

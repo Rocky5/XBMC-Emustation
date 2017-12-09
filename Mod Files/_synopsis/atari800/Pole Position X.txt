@@ -1,0 +1,14 @@
+Pole Position X
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Racing - Arcade
+Gametype: Hack
+Release Year: 1983
+Developer: Atari
+Publisher: Atari
+Players: 1
+Hacked by: John C., T. Landsvogt
+_________________________
+

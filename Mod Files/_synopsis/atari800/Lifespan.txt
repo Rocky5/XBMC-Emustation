@@ -1,0 +1,17 @@
+Lifespan
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Educational - Strategy
+Gametype: Prototype
+Release Year: 1983
+Developer: Admacadiam Software
+Publisher: Roklan Corp
+Players: 1
+Programmer: John O'Neill
+_________________________
+
+This cartridge was found with a production label and instructions but it's still doubtful whether the game was ever officially released. Only two copies are known to exist, one of them discovered by the Digital Press crew in 2001.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=2047

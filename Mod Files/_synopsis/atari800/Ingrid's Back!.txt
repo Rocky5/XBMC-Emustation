@@ -1,0 +1,23 @@
+Ingrid's Back!
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1988
+Developer: Level 9 Computing
+Publisher: Level 9 Computing
+Players: 1
+_________________________
+
+Ingrid is Ingrid Bottomlow, the intellectual-but-clumsy gnome we met in Gnome Ranger. Her beloved home village Little Moaning is earmarked for a yuppie-friendly transformation by Jasper Quickbuck of Ridley's Manor. 
+
+Ingrid has three cunning plans to stop him - producing a petition with everybody's signature, finding a more orthodox prevention method, and finally infiltrating Ridley's Manor itself by pretending to be a maid, and then finding proof that he's a dodgy geezer who should be locked up. These three quests can be played in any order, although they logically follow on from each other. She is accompanied by Flopsy the dog in the first 2 parts, and her cousin Daisy in the third.
+
+Ingrid's Back uses the same game system as the original, and other contemporary Level 9 titles such as Knight Orc . Giving instructions to other characters (including Flopsy) and jumping around the map using GO TO and FOLLOW commands. A living and breathing world of people travelling, trading and relaxing underpins it all, and plays a part in most puzzles.
+
+The disk versions of the game contain graphics, the exception being the ports for Apple II and Atari 8-bit, which are text-only
+
+
+http://www.mobygames.com/game/atari-8-bit/ingrids-back

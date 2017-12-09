@@ -1,0 +1,19 @@
+Action Quest
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action - Puzzle
+Gametype: Licensed
+Release Year: 1982
+Developer: JV Software
+Publisher: JV Software
+Players: 1
+Programmer: Jack Verson
+_________________________
+
+Explore the evil and mysterious castle's 60 rooms, and race against time to find and collect the 40 treasures it hides. You'll need quick thinking and an analytical mind in this unique game that blends all the excitement of arcade and adventure games in one action packed cartridge. Once you enter this treasure filled and dangerous castle, you'll never want to leave!
+
+G = Ghost Magnet, H = Hammer Shovel, K = Key Torch
+Asterick and - = additional shapes in certain rooms.
+[Source unknown]

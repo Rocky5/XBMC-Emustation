@@ -1,0 +1,14 @@
+Twilight World
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1986
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Matthew Trimby
+_________________________
+

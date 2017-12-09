@@ -1,0 +1,46 @@
+Gold Rush
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1982
+Developer: Compute!
+Publisher: Compute!
+Players: 1
+Programmer: Joseph Weber
+_________________________
+
+COMPUTE! ISSUE 26 / JULY 1982 / PAGE 27
+
+Gold Rush!
+
+Joseph Weber
+Rapid City, SD
+
+This exciting action game is for the Atari and the VIC. Blast out new caverns, dig the gold, and return to the surface for your reward. If you run out of dynamite, get to the surface fast or you'll wander the mine forever. And watch out for cave-ins – they can block your exit, or worse!
+
+After reading the fascinating article "Using The VIC Joystick," by David Malmberg (Home and Educational Computing!, Fall, 1981), I couldn't wait to try out what I had learned. It wasn't long after I got to the VIC keyboard that the Gold Rush game started to emerge.
+
+After a few false starts, here it is.
+
+The game gives you one more chance to use your joystick. In this game you have five miners to dig as much gold as you can from the Lost Goldmine. Each miner has ten sticks of dynamite (charges) to blast his way into the mine. The miner gathers them by moving to the same space as the dot (poke X, 81).
+
+The number of pieces of gold is counted and displayed at the bottom of the screen. The number of charges left is also displayed at the bottom of the screen. After gathering all the gold you can, you must move out of the mine to the Assay Office (the heart) to exchange the gold for money. When you touch the heart, the gold is exchanged for money at the rate of Gold times Remaining Charges.
+
+Cave-ins Can...Put You Out Of The Game
+
+That all sounds easy enough, but there are several things that can happen to slow up your progress. First, there are the cave-ins. Since the Lost Goldmine is very old, cave-ins occur every time you blast. These cave-ins can block your way out or (how can I put this nicely) ah... put you out of the game. When you are caved-in upon, your gold is lost and the miner is replaced with an asterisk. If you can reach the asterisk, you regain all of the gold the "dead" miner had.
+
+Another danger can beset you if you should use up all of your charges. When this happens, you have only a short time to get back to the surface. If you cannot exit the mine, either due to a cave-in or a slow miner, then all is lost and you end up wandering the mine forever.
+
+Let's plug in our joysticks and strike it rich. There's gold in them there hills!
+
+Program 1. Atari Version
+
+Atari Version Notes
+
+This game simulates the appearance of the VIC version by using a custom character set in Graphics mode 1. Notice that only half of the character set in ROM needs to be transferred to RAM, since Graphics modes 1 and 2 can only access 64 characters (to allow multicolor text), so we loop from 0 to 511.
+
+This game makes extensive use of the LOCATE command to "look at" the computer's screen, such as checking for various objects the miner finds. Also, unlike the VIC version, if you clear the mine of all gold, you can start over with a new mine when you "cash in" your gold. You get three "lives."

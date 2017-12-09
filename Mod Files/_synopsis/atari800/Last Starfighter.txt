@@ -1,0 +1,13 @@
+Last Starfighter
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick, Keyboard
+Genre: Action - Simulation - Sci-Fi
+Gametype: Prototype
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1
+_________________________
+

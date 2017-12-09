@@ -1,0 +1,23 @@
+Whiz Kid
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Educational
+Gametype: Licensed
+Release Year: 1983
+Developer: TJS Industries
+Publisher: Romox
+Players: 1 or 2 Alternating
+Programmer: Tim Schmidt
+_________________________
+
+Whiz Kid is an exciting educational game by Romox for one or two players.  Whiz Kid combines fast action and learning as a unique game experience.  Press start to begin Whiz Kid.
+
+The game object is to form the words or mathematical equations which appear below the playfield by combining the letter cubes.  Words or equations are formed from left to right or from top to bottom.  But watch out for the keepers of the words, they are out to stop you.  You may eliminate a keeper by pushing a cube across him.  So watch out, and work fast as your bonus timer is running out.
+
+Press the select key to  select number of players, on or two.  Press option to select spelling drill, math quiz, or to create your own word list.  Levels of skill may be chosen by pressing 1-5 keys.
+
+The joystick controls your Whiz Kid character as he moves about the arena.  To move a letter cube, move the Whiz Kid such that the end of the hockey stick is touching the cube you want to move and press the red fire button.
+
+~From the back of the box

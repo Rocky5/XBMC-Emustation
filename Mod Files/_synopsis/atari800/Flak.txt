@@ -1,0 +1,14 @@
+Flak
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shooter - Horizontal - Scrolling
+Gametype: Licensed
+Release Year: 1984
+Developer: Funsoft
+Publisher: Funsoft
+Players: 1 or 2 Alternating
+Programmer: Yves Lempereur
+_________________________
+

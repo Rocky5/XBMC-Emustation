@@ -1,0 +1,21 @@
+Advanced Pinball Simulator
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1989
+Developer: Code Masters
+Publisher: Code Masters
+Players: 1 thru 3 Alternating
+Programmer: Hassan Mehmet
+_________________________
+
+Part of Codemasters' original budget-price range, this pinball game aimed to put fast & furious action first.
+
+The table design features extra flippers on both sides, which are at the bases of sections of features. The best scores can be achieved by repeatedly bashing away at sections of blocks.
+
+The essential theme of the table is of magic and wizardry, with the targets to be lit including the word 'MAGIC' as well as a weather potion and a magic cottage. Trapdoors must be shot open to get their bonuses, then shot shut again to prevent the ball being lost in them. Extra balls are offered every 10,000 points.
+
+http://www.mobygames.com/game/atari-8-bit/advanced-pinball-simulator

@@ -1,0 +1,13 @@
+Death World
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Adventure - Text
+Gametype: Magazine
+Release Year: 198x
+Developer: SoftSide Publications
+Publisher: SoftSide Publications
+Players: 1
+_________________________
+

@@ -1,0 +1,21 @@
+Formula 1 Racing
+Known issue (if you can help join the forum): image needs to be tested in atari800xlbox.
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Racing - Formula 1
+Gametype: Licensed
+Release Year: 1982
+Developer: Acorn Software
+Publisher: Acorn Software
+Players: 1
+Programmer: Mike Tiemann
+_________________________
+
+The game won't work if you don't have BASIC (revision A) either as a real cartridge in your Atari or attached as an image in your emulator.
+
+Formula 1 is a racing game that is most notable for being the first commercial game developed by Sid Meier, before the foundation of MicroProse. The game is played from a top down perspective and the player races against three AI drivers on five different race courses. Four of these are based on real race tracks from around the world; Indy, Monza, Watkins Glen and Monaco. The difficulty level can be set before the race and ranges from amateur to championship. The higher the level the harsher the competition from the AI drivers will get. The player also has to watch out for oil slicks and trees by the tracks. The racing can take place both day and night. The game is played with joystick and the player gets to steer, accelerate, shift gears and brake. 
+
+
+http://www.mobygames.com/game/atari-8-bit/formula-1_

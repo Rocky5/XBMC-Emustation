@@ -1,0 +1,34 @@
+Dunjonquest - Temple of Apshai (Tape)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Keyboard
+Genre: Role Playing Game - Adventure
+Gametype: Licensed
+Release Year: 1982
+Developer: Epyx
+Publisher: Epyx
+Players: 1
+Programmer: Aric Wilmunder
+_________________________
+
+Temple of Apshai is the first in Automated Simulations' Dunjonquest series of role-playing games series and one of the first computer role-playing games. 
+
+The game could be described as a graphical "roguelike", but actually it resembles the mainframe classic DND more, as you cannot see the whole level, but only your surroundings. Furthermore, the level maps are not randomized like in Rogue. Still, the gameplay has a lot in common with Rogue and other early dungeon crawls: A solo character explores a monster-infested, multi-level dungeon to grab some treasure, everything in top-down view.
+
+The game starts at the Innkeeper by creating a new character (if you already played the game, you can use characters that you created). You get different stat values (in Dungeons & Dragons style) as well as an amount of money that you can spend on weapons, armor and other equipment. Alternatively, you can just enter the stats to "import" characters from other role-playing games. (This is also used as a primitive "save / load game" mechanism.)
+
+After character generation, you enter the dungeons. On the left, the current room of the dungeon is displayed; the character status and other info are displayed on the right. One thing that sets Temple of Apshai apart from other rpg is that the manual contains detailed room descriptions for each room (that may contain hints about traps or treasures), to create atmosphere despite crude graphics.
+
+You move about and perform actions like opening doors, firing arrows, examining walls for secret doors etc. by pressing key commands. Moving is also done without cursor keys: You turn your character into the direction you want to go and then move him forward by 1 to 9 steps, also selectable by single keystrokes. But take care of fatigue: If you keep running all the time, your fatigue rises, and if it reaches 100%, you cannot move or act for some time -- which can be deadly in the presence of, say, a Giant Bombardier Beetle.
+
+Each room may contain treasures to pick up (sometimes just trash, sometimes gold, sometimes useful items), secret doors which lead to hidden parts of the dungeon and traps, which obviously should be avoided (you can try to search for them). Of course, you will also encounter monsters -- a variety of undead or giant insects -- which you have to fight using turn-based combat. Apart from the normal attack, there is also the thrust (which is more effective, but risky), and you can also fire arrows at distance or parry. To avoid a fight, you may also try to speak to them.
+
+If you return to the Innkeeper, you gain experience, which increases your stats. Still, if you quit the game, the only way to save your character is to write down the stats on paper and re-entering them the next time you play. 
+
+Trivia:
+
+Every room is numbered, and has a description in the manual about smell, sounds, wind etc. Rogue's dungeons are randomly generated. Apshai's were designed. This is reflected in the room descriptions, which are in the manual for a reason; playing the game with the descriptions makes it much more immersive and interesting.
+
+
+http://www.mobygames.com/game/atari-8-bit/dunjonquest-temple-of-apshai

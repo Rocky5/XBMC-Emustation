@@ -1,0 +1,16 @@
+Pitstop (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Racing - Cars
+Gametype: Licensed
+Release Year: 1985
+Developer: Epyx
+Publisher: Value-U-Line
+Players: 1 or 2 Alternating
+_________________________
+
+Pitstop is an action racing game featuring six different race tracks. Your goal is to earn as much money as possible by winning races in the Grand Circuit which consists of a race on each of the six tracks; each time a race is completed, you'll earn money based on how you placed and the number of laps completed before moving on. While you are racing, keep an eye on your tires and fuel; if your tires become too worn (causing a blowout) or you run out of fuel, the game will be over. To prevent this from happening, you'll need to make a pitstop. Here you control the pit crew and can replace tires and refuel. While in the pit the race is still going on, of course, so repairs need to be made as quickly as possible to get back into the race without losing too much ground. Several game options are available to control the level of difficulty and the number of laps. In addition to the Grand Circuit which is the full race, you can also practice a track in a single race or enter the mini circuit which consists of three races.
+
+http://www.mobygames.com/game/atari-8-bit/pitstop

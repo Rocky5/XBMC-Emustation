@@ -1,0 +1,37 @@
+Computer Chess (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Board Game - Chess
+Gametype: Licensed
+Release Year: 1979
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 VS
+_________________________
+
+This is an early home chess game. The standard U. S. chess rules are used in this game. To move a piece, place the X on the board onto the piece to be moved then press the red button. Next, move the X to where you want the piece to go and press the button again. If the move is illegal, the 2600 will give a warning sound and not make the move.
+
+To castle your king, the king and rook must not have been moved. You move your king two squares in the direction of the rook to castle with. The 2600 will then automatically move your rook around your king, completing the move. You cannot castle out of check and you cannot castle to the king's side if any squares between the king and rook are threatened.
+
+Another maneuver is called en passant. This move is used to counteract the enemy pawn's initial double move on a adjacent square. To carry out the en passant, you must advance your pawn to the fifth rank. Your opponent then has the option of moving his or her pawn one square (where it would be under attack) or two squares. If you opponent elects to move two squares, the en passant move allows you to take that pawn by diagonally moving your pawn to the square that was skipped over.
+
+Skill levels
+These determine how long the computer will think on its move. These times are approximate and may vary slightly, depending on what move you did.
+Level 1=15 seconds
+Level 2=30 seconds
+Level 3=45 seconds
+Level 4=2 minutes, 45 seconds
+Level 5=3 minutes, 15 seconds
+Level 6=12 minutes
+Level 7=10 hours
+Level 8=10 seconds
+
+Level 8 is a beginner level.
+
+http://www.mobygames.com/game/atari-8-bit/video-chess
+
+Computer Chess for anyone from novice to master. Play chess against the computer and set your own levels of difficulty. Make your moves using an Atari Joystick Controller, so you concentrate on the board, not which keys to press. Do special moves like "castle" or "en passant" (but don't forget, so can the computer). Set up the board for a particular chess problem or a famous game situation.
+
+~From a game ad

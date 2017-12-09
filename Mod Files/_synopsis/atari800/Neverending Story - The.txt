@@ -1,0 +1,23 @@
+Neverending Story - The
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1986
+Developer: IntellisCreations, Inc.
+Publisher: Datasoft
+Players: 1
+Programmer: Russ Wolvek
+Musician: Gary Gilbertson
+_________________________
+
+The Neverending Story is a text adventure based on the movie by Wolfgang Petersen (rather than the novel by Michael Ende).
+
+The world of Fantasia is about to be destroyed by the "All-consuming Nothing", it needs someone from the "Real World" to believe in it again in order to be saved from falling into oblivion.
+
+The player takes control of the young hero Atreyu who is the only one who can find the savior of Fantasia. The game uses different pictures to show the player's current location as well as the items he is holding, which companions are with him and any events that might be taking place. The game's parser has been deliberately kept simple (it has a vocabulary of about 40 words) in order to allow more room for the game data.
+
+
+http://www.mobygames.com/game/atari-8-bit/neverending-story

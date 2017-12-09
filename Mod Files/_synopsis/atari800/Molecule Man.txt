@@ -1,0 +1,25 @@
+Molecule Man
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Adventure - Puzzle
+Gametype: Licensed
+Release Year: 1986
+Developer: Mastertronic
+Publisher: Mastertronic
+Players: 1
+Programmer: Steven A. Riding
+_________________________
+
+Molecule Man is trapped inside a radioactive maze of 256 screens, and it's your job to get him out. To do this you must collect 16 circuits which are located at extreme points of the levels. You must regularly consume radiation tablets to fend off certain poisoning, and your initial supply of 20 is totally inadequate.
+
+Fortunately, there are coins dotted around the levels, as well as ant-radiation tablet vending machines at which you can buy them. Coins can also be used to buy more time, or to blow up obstacles which make some sections difficult or impossible to access. 
+
+Viewed isometrically, the screen designs are intentionally surreal, each taking on an unlikely distorted real-world theme. If you find the initial level layouts too easy, too hard or too dull, you can design a new set with the bundled maze editor.
+
+000-276 = game
+276-375 = maze editor
+375-452 = sample maze
+
+http://www.mobygames.com/game/atari-8-bit/molecule-man

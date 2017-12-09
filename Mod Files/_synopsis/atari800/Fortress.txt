@@ -1,0 +1,18 @@
+Fortress
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Board Game - Strategy
+Gametype: Licensed
+Release Year: 1983
+Developer: Iconographics
+Publisher: SSI
+Players: 1 or 2 VS
+Programmer: Patty Denbrook, Jim Templeman
+_________________________
+
+Fortress is a fast paced computer game in which two rival lords seek to gain domination over the countryside. A player is assigned the role of the White or Black lord. At the beginning of the game, the rectangular field, consisting of 6 columns and 6 rows, is empty. There is a total of 21 turns for each game. Players will start by building a castle or reinforcing an existing one during each turn. Castles can be defeated if the player attacking has a higher strength value to their castle. Equal strength value will put the castle being attacked under siege. Reinforcing the castle will increase the strength of the castle. The goal is to control the most territory by the end of the game.
+
+
+http://www.mobygames.com/game/atari-8-bit/fortress__

@@ -1,0 +1,20 @@
+Jumpman
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform - Puzzle
+Gametype: Licensed
+Release Year: 1983
+Developer: Epyx
+Publisher: Epyx
+Players: 1 to 4 Alternating
+Programmer: Randy Glover
+_________________________
+
+Jumpman is a bomb disposal expert. He is called on to save the Jupiter headquarters after the evil Alienators invade it and booby-trap its 30 levels.
+
+In this early platform game, the titular hero must find his way around each screen, collecting every bomb. There are platforms and ladders to use, and a jet booster to propel you up the screen. However there are also enemies to avoid, and Jumpman must be careful not to fall too far.
+
+http://www.mobygames.com/game/atari-8-bit/jumpman
+

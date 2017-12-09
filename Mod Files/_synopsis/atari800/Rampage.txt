@@ -1,0 +1,25 @@
+Rampage
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Arcade - Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Software Studios
+Publisher: Activision
+Players: 1 or 2 VS
+Programmer: Anthony J. Wilson, Russell Knight
+Musician: Ben Daglish
+_________________________
+
+George, Lizzy and Ralph were just ordinary Americans, until an experiment went wrong, turning them into a Gorilla, Lizard and Werewolf respectively. Following this, the three of them plan to go round destroying buildings, and up to 3 human players can join in.
+
+Smashing at the edges of the buildings for long enough will make them collapse. The police and military are after you, and will shoot at you, so try to destroy them (failing that, you can avoid the bullets). You will need to eat regularly, with things like plants on offer, to avoid shrinking back to being human
+
+Trivia:
+
+When one of your fellow players has been killed and drops back to the lowly state of human, eat him. You can continue to eat from this spot and fully revitalize yourself. (Make sure to quickly get back to this spot after distroying the current city, so that you can enter the next with full health!)
+
+
+http://www.mobygames.com/game/atari-8-bit/rampage

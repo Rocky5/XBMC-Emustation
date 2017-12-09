@@ -1,0 +1,17 @@
+Airstrike II
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Vertical
+Gametype: Licensed
+Release Year: 1983
+Developer: English Software Company
+Publisher: English Software Company
+Players: 1 or 2 Alternating
+Programmer: Steven A. Riding
+_________________________
+
+Airstrike II takes you back to planet Cyclon, armed with an improved Mark X fighter ship, with the aim of clearing all 5 zones. These are full of tight Scramble-style crevices and tunnels, as well as heat-sensitive missiles, doors which must be blasted out, and enemy ships. You have a laser gun and missiles at your disposal. You have limited fuel and ammo, but this can be replenished by shooting the dumps which contain them (marked F and A respectively). The game is split into five zones (with identical layouts but an increasing amount of enemies, worth more and more points)
+
+http://www.mobygames.com/game/atari-8-bit/airstrike-ii

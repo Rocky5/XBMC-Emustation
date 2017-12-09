@@ -1,0 +1,14 @@
+Nightmare Maze
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Maze
+Gametype: Licensed
+Release Year: 1986
+Developer: Blue Ribbon Software
+Publisher: Blue Ribbon Software
+Players: 1
+Programmer: C. Blakeway
+_________________________
+

@@ -1,0 +1,21 @@
+Wishbringer
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1985
+Developer: Infocom
+Publisher: Infocom
+Players: 1
+Programmer: Brian Moriarty
+_________________________
+
+In this game, the player controls a postal clerk in the small fishing village of Festeron. The postmaster, Mr. Crisp, orders the player to deliver an envelope to the owner of Ye Olde Magick Shoppe. However, this seemingly innocent task inexplicably leads to a strange phenomenon: as the hero steps out, he finds that Festeron has been mysteriously transformed into a dark, ominous town called Witchville. Even cute little poodles have turned into hellhounds! Finding the Wishbringer, a stone that grants seven wishes to those who possess the right objects, seems like the only solution - or is it?
+
+Wishbringer is a text adventure set in the Zork universe. The player types in commands to navigate the character, interact with the game world, and solve puzzles. The game has a rather open-ended structure, with many situations possessing several solutions; the player can opt for a "magical" approach to the tasks, using the titular stone, or attempt to solve the game in a more straightforward way.
+
+
+
+http://www.mobygames.com/game/atari-8-bit/wishbringer

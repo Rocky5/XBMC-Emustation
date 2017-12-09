@@ -1,0 +1,14 @@
+Q-Bert (Alt)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Arcade
+Gametype: Unlicensed
+Release Year: 1984
+Developer: J. Perrott
+Publisher: None
+Players: 1
+Programmer: J. Perrott
+_________________________
+

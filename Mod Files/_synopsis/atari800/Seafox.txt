@@ -1,0 +1,25 @@
+Seafox
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Br0derbund Software
+Publisher: Br0derbund Software
+Players: 1
+Programmer: Ed Hobbs
+_________________________
+
+Excitement and danger under the sea!  From the depths of the ocean in a lone submarine, you try to destroy a convy of enemy ships and its escort while staying alive amidst exploding depth charges, mines and torpedos.  Superior maneuvering ability, courage and an aquatic ally are your only hope for survival in the battle.
+
+~From the back of the box
+
+In Seafox, you control a submarine that must kill all hostile ships above and below the water. You have two types of torpedoes: one that fires to the right and one that fires up. You have a limited number of torpedoes and fuel units, so when you are running low be sure to watch for the green supply ship to release the dolphin that brings you fresh supplies. 
+
+The enemies are varied and numerous. Enemy submarines pursue you below the water, and enemy destroyers on the surface can drop depth charges that slowly sink to the bottom and are deadly to the touch. You must also watch out for your own torpedoes, because there are certain ships on the surface that are immune to your fire and reflect your torpedoes back down at you.
+
+You can control your submarine with either joystick or keyboard.
+
+http://www.mobygames.com/game/atari-8-bit/seafox

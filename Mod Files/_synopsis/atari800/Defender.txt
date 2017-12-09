@@ -1,0 +1,26 @@
+Defender
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Shooter
+Gametype: Licensed
+Release Year: 1983
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 Alternating
+Programmer: Steve A. Baker
+_________________________
+
+Defender put players in charge of a ship sent to protect mankind from wave after wave of attacking alien forces.
+
+Armed with smart bombs and the ability to use hyperspace to move quickly around the planet, the player ship must fight against Bombers, Pods, Swarmers, Baiters, and Landers - that can capture the humanoids and transform them into deadly and relentless Mutants. Fail to save the humanoids from freefall or Mutant transformation, and the planet is destroyed. 
+
+Trivia:
+
+The original Defender arcade was slow to become a hit when it was released as many thought it was too difficult due to its control configuration of five buttons and a joystick. It ultimately gained many fans and remained popular throughout the 1980s. Defender has been described in Gamasutra as "quite possibly, the hardest significant game there is". 
+
+Eugene Jarvis, creator of both Defender and its sequel Stargate, says that although the gameplay and coding of Stargate is more refined, he prefers the relative simplicity of the original Defender.
+
+
+http://www.mobygames.com/game/atari-8-bit/defender

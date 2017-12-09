@@ -1,0 +1,20 @@
+Drelbs
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1985
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1
+Programmer: Kelly Jones
+Musician: Kelly Jones
+_________________________
+
+Drelbs is loosely inspired by the paper-based game played on a grid of dots, in which players draw lines alternately, with the intention of forming more squares than their opponent. The similarities end there; in Drelbs you represent the only member of the Drelb race who has not been imprisoned by the evil Trolloboars. Members of the Gorgolyte race and Trolloboar tanks are targeting you.
+
+A set of randomly-arranged lines are already in place, and contact with them pushes them in the direction of contact. Forming a complete square locks it into place, and it turns into either a monster (causing death on contact), a woman (resulting in bonus points on contact) or a barrier. They will randomly change into stairways, which can lead you into a bonus room.
+
+http://www.mobygames.com/game/atari-8-bit/drelbs

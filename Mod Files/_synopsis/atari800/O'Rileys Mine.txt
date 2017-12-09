@@ -1,0 +1,19 @@
+O'Riley's Mine
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action - Fixed
+Gametype: Licensed
+Release Year: 1983
+Developer: Datasoft
+Publisher: Datasoft
+Players: 1 or 2 Alternating
+Programmer: Mark Riley
+_________________________
+
+As an Irish prospector named Timothy O'Riley, dig an unending series of mines searching for coal, gold, diamonds, rubies, and oil. But watch out for the evil creatures you've disturbed and the rising underground river - don't let either one touch you or you will die! And beware - the creatures move much faster while the moon is up. The river is unstoppable, but you can kill or block the creatures with a limited supply of dynamite.
+
+O'Riley's Mine is essentially a high-speed variant of Mr. Do! and Boulder Dash - you must race around collecting everything before returning to the top of the mine shaft while the creatures chase you and the water rises relentlessly.
+
+http://www.mobygames.com/game/atari-8-bit/orileys-mine

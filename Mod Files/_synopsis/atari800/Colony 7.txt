@@ -1,0 +1,34 @@
+Colony 7
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1983
+Developer: System 3 Software
+Publisher: System 3 Software
+Players: 1
+_________________________
+
+Press RETURN if tape stops loading halfway through.
+
+When the federation was stable the spaceways between all inhabited planets were patrolled regularly by the Space Guard.  New colonies were supplied regularly with food from the established agricultural worlds of the federation until they could produce enough food to be self sufficient and have enough surplus to trade with the federation.
+
+However a war has broken out between the worlds of the federation, and the spaceways are roamed by pirates.  The war and the pirates are preventing supplies reaching dependant colonies anymore.
+
+To these newer colonies established just before the war broke out and all supplies to them from the federation cut off, food is now a priceless commodity.  Their only hope is to conserve the food stocks they have and hope either for the war to end or to become self-sufficient before they arrive.
+
+Unfortunately some colonies are richer than others.. and the pirates know it.  their plan is simple they raid the poorer new colonies of their food supplies and sell them to the richer new colonies.  The pirates have heavily armed ships and know to operate from two large space stations.
+
+All colonies have always been issued with 3 A.D.V.s (Armoured Defence Vehicle) as standard procedure, these now stand as the poorer colonies only protection against the pirate raids.
+
+You are an inhabitant of Colony 7 and a qualified A.D.V driver.
+
+Colony 7 has large stocks of food supplies.
+
+Colony 7 has 2 large pirates space stations in orbit.
+
+Defend your colony's food stocks or thousands will starve.
+
+[From the box back]

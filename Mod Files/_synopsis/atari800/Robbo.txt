@@ -1,0 +1,22 @@
+Robbo
+Platform: Atari 800
+Region: Poland
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Strategy - Puzzle
+Gametype: Licensed
+Release Year: 1989
+Developer: LK Avalon
+Publisher: LK Avalon
+Players: 1
+Programmer: Janusz Pelc
+_________________________
+
+In this puzzle game, you have to guide a robot through many levels involving such hazards as lasers and enemies. This game features smooth scrolling playfields and plenty of different things to do - from blowing up bombs to pushing crates around.
+
+Trivia:
+
+A demo version (containing the first 4 levels) was aired by Polish Rozgłośnia Harcerska radio in Radiokomputer broadcast, 1991. One could record the signal on a cassette and then load it using Atari XL/XE.
+
+
+http://www.mobygames.com/game/atari-8-bit/robbo

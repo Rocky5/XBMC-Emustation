@@ -1,0 +1,16 @@
+Swapz
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 2008
+Developer: Flop
+Publisher: Flop
+Players: 1
+Programmer: Zdenek Eisenhammer
+Musician: Zdenek Eisenhammer
+_________________________
+
+From issue 51 of Flop dated April 2008.

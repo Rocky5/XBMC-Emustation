@@ -1,0 +1,35 @@
+Theatre Europe
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1986
+Developer: Personal Software Services
+Publisher: Datasoft
+Players: 1
+_________________________
+
+This game covers the first 30 days of what was then feared to be the next war in Europe. You can choose to be the supreme commander of the NATO or the Warsaw Pact. In your control are air and ground units. These are backed up by your ability to make strategic nuclear/chemical attacks.
+
+As the Warsaw Pact commander your task is to break the lines of the NATO alliance, which you see is a powerful invasion force, poised on your border. Your first task is to take over West Germany.
+
+As NATO commander your task is to stop the Russian invasion. Hold the lines on West Germany's border. You will achieve this by preventing the occupation of West Germany.
+
+Your computer opponent can play in three different ways. Nuclear weapons can be disabled for a Beginner game, while the thought processes can be either rational or unpredictable.
+
+Gameplay is turn-based and primarily strategic, but some scenes can be played out in optional action sequences.
+
+
+Trivia:
+
+The manual includes a section which combines moralism, disclaiming and fear:
+
+"Whilst the producers of Theatre Europe have taken every care in researching this program to ensure the accuracy of details, we must stress that the events depicted in this conflict simulation are entirely fictitious. They must never be allowed to happen; the danger is that they might!"
+
+Theatre Europe was voted Strategy Game of the Year by several different magazines - Computer & Video Games (multi-format), Zzap (C64), Crash (Spectrum) and Amtix (Amstrad)
+
+
+
+http://www.mobygames.com/game/atari-8-bit/theatre-europe

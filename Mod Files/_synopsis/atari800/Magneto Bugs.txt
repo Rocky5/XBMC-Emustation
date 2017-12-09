@@ -1,0 +1,37 @@
+Magneto Bugs
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Arcade - Maze
+Gametype: Licensed
+Release Year: 1983
+Developer: Gentry Software
+Publisher: Gentry Software
+Players: 1
+Programmer: Mark Riley
+_________________________
+
+Re-release of Tumble Bugs.
+
+Two files included.
+
+"A" is the unmodified / original disk and does not load through. Actually, either due to a bug or an error during the duplication process, it appears no working original ever surfaced! For preservation purposes, we are keeping this VAPI image in the archive.
+
+"B" is a fully functional, fixed version by Fandal with just a single byte to the code changed. Presumably, the original should have looked like this.
+
+Below is Fandal's explanation...
+
+"If your ATX image is a copy of an original disk, there never was any chance it could boot. There is a bug in the code.
+
+I'm attaching a fixed version of ATX image. I changed just one byte as I noticed that there is a lot of bad sectors on original ATX starting at sector $265. Please note that loader checks sector $16D using this construction in the code:
+18BE LDA #$6D ; LO byte of sector
+18C0 STA $030A ;DAUX1 -> SIO table
+18C3 LDA #$01 ; HI byte of sector
+18C5 STA $030B ;DAUX2 -> SIO table
+18C8 JSR $E453 ;DSKINV -> read sector
+18CB LDA $0303 ;DSTATS -> read error flag
+
+So I said to myself: may be it should check sector $26D instead of $16D? I changed LDA #$01 to LDA #$02 and voila! It works now.
+
+I'm not sure if it is a programming bug or the master disk of Magneto Bugs was damaged somehow but I would say that this mystery is solved".

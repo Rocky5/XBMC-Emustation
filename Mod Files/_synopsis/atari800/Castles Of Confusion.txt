@@ -1,0 +1,14 @@
+Castles Of Confusion
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Strategy - Puzzle
+Gametype: Magazine
+Release Year: 1990
+Developer: Zong
+Publisher: Zong
+Players: 1
+Programmer: Kemal Ezcan
+_________________________
+

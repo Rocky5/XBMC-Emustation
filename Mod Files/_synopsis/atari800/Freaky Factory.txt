@@ -1,0 +1,14 @@
+Freaky Factory
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action - Multi-Screen
+Gametype: Licensed
+Release Year: 1986
+Developer: Anthony Goacher
+Publisher: Red Rat Software
+Players: 1
+Programmer: Chris Delooze
+_________________________
+

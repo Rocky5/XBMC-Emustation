@@ -1,0 +1,17 @@
+Bomb Hunter
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Arcade
+Gametype: Licensed
+Release Year: 1982
+Developer: Channel 8 Software
+Publisher: Channel 8 Software
+Players: 1
+Programmer: Les Howarth
+_________________________
+
+Bombhunt Internation have been given their toughest assignment yet, to locate and remove several time bombs from one building.  The building in question is a maximum security Government Research Establishment, and unfortunately the security systems within the Research Centre cannot be switched off.  As chief controller for Bombhunt International it is your job to control the search robot in order to remove all the bombs before the time runs out.
+
+[From the box back]

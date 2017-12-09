@@ -1,0 +1,21 @@
+Ulysses and the Golden Fleece
+Original title: Hi-Res Adventure #4 - Ulyssess and the Golden Fleece
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1982
+Developer: Yosemite Software Products
+Publisher: On-Line Systems
+Players: 1
+Programmer: Chris Iden
+_________________________
+
+Ulysses and the Golden Fleece is an adventure game where you play the part of Ulysses in ancient Greece. The king has given you the task of finding the golden fleece, a legendary treasure which is protected by the gods. You begin your quest in a small town, and will need to travel to several far away lands to find the fleece. Many characters from ancient mythology will be encountered along the way, including King Neptune, the Sirens, Cyclops, and others. You need to find a way past them as well as the many obstacles on sea and land if you are to be successful. 
+
+Along the bottom of the screen is a text parser which accepts two word commands to interact with the game, and at the top (covering most of the screen) are graphics depicting your current situation. If needed, the graphics can temporarily be cleared to see some of the most recent commands entered.
+
+
+http://www.mobygames.com/game/atari-8-bit/hi-res-adventure-4-ulysses-and-the-golden-fleece

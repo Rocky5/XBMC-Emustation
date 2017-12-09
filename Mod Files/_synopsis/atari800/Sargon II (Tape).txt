@@ -1,0 +1,28 @@
+Sargon II (Tape)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Keyboard
+Genre: Board Game - Chess
+Gametype: Licensed
+Release Year: 1982
+Developer: Hayden Software
+Publisher: Hayden Software
+Players: 1
+Programmer: Dan Spracklen, Kathe Spracklen
+_________________________
+
+The second of the Sargon chess games.
+
+In this version, you can play the computer or another opponent.
+
+To move, you type the piece's location then the destination; such as A2-A4 to move the far left pawn forward 2 spaces.
+
+If you press a certain key, you can hide the board and see the moves that have been made so far. You can even make your moves from this screen, if you want the added challenge, without seeing the board.
+
+When you play the computer, you must select a level of play. The higher the level, the longer the computer thinks about its moves.
+
+In levels one through six, if you press the ? key, Sargon II will give you a hint of a good, but not necessarily the best, move.
+
+
+http://www.mobygames.com/game/atari-8-bit/sargon-ii

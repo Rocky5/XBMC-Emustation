@@ -1,0 +1,21 @@
+Orc Attack
+Platform: Atari 800
+Region: United Kingdom
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Thorn EMI
+Publisher: Thorn EMI
+Players: 1
+Programmer: Dean M. Lock
+_________________________
+
+Defend your castle by camping out on top of the wall and beating down the attackers climbing up. For aficionados, this is similar to another 8-bit game, Quasimodo.
+
+Tip:
+
+To fine-tune your aim, hold down the button while moving, then release the button to drop your rock.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=8116

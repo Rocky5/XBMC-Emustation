@@ -1,0 +1,13 @@
+Star League Baseball
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Sports - Baseball
+Gametype: Licensed
+Release Year: 1983
+Developer: Gamestar
+Publisher: Gamestar
+Players: 1 or 2 VS
+_________________________
+

@@ -1,0 +1,10 @@
+Asteroids 2
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Shooter
+Gametype: Homebrew
+_________________________
+
+No description

@@ -3,7 +3,7 @@
 	Used to launch emulators directly
 '''
 
-import glob, os, shutil, sqlite3, sys,time, xbmc, xbmcgui
+import os, xbmc, xbmcgui
 
 #####	Start markings for the log file.
 print "| _Scripts\XBMC-Emustation\direct_launch_emulator.py loaded."

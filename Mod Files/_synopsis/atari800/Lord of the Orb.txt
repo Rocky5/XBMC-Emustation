@@ -1,0 +1,14 @@
+Lord of the Orb
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Maze
+Gametype: Licensed
+Release Year: 1983
+Developer: APX
+Publisher: APX
+Players: 1
+Programmer: Jose R. Suarez
+_________________________
+

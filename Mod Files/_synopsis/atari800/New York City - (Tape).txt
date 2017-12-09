@@ -1,0 +1,21 @@
+New York City - (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Adventure - Top Down
+Gametype: Licensed
+Release Year: 1986
+Developer: Synsoft Software
+Publisher: Americana
+Players: 1
+Programmer: Russ Segal
+_________________________
+
+You control Ed Hick, who decided to take a day trip to New York City in his red atomic Plymouth Continental. For a first-timer in the big city, Ed will run into some problems, namely the traffic. There are two types of vehicles that Ed must face. There are harmless cars cruising the streets, and these cars can be run over without taking any damage to yourself. There are also tow trucks that can easily damage your Plymouth. If it takes enough damaged or it runs out of gas, then it is hauled to the garage while you are recovering in the hospital. You must hot-foot it all the way to the garage to pick up your car and fork out $100 for repairs. If you run out of money, the game is over. 
+
+However, you are free to visit the bank to get some more. If you do this, then you need to avoid a series of bank robbers, who constantly fire at you and prevent you from reaching the teller on the opposite side. If you manage to reach the teller, then you are awarded $500 and the teller will close.
+
+Your main objective is to visit two of the buildings, as indicated in your status bar. (Only two buildings are open at once.) To view a sight, you must find a parking space close by, get out of the car, and walk into the building. Each building contains a mini-game that must be completed before it can be deemed as 'seen'. Meanwhile, your car is metered, and if the parking meter expires, then it is towed away to the lot and you have to make your way to the lot to pick it up. The whole game must be completed in a day.
+
+http://www.mobygames.com/game/atari-8-bit/new-york-city

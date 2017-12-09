@@ -1,0 +1,24 @@
+Lords of Conquest
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1986
+Developer: Eon Software
+Publisher: Electronic Arts
+Players: 1 thru 4 VS
+Programmer: Bill Eberle
+_________________________
+
+Lords of Conquest is influenced by the boardgame Risk. You and your opponent start by selecting countries in turn from a map. This can be randomly generated based on requested numbers of countries and volumes of water, chosen from one of the 19 predefined ones, or created using the inbuilt editor.
+
+Your army possesses infantry, cavalry and a water fleet. Natural or produced resources such as gold and iron are identified - countries containing these might be the best ones to invade.You can play at 4 skill levels, and decide how big a factor luck is. With calculations settled by the computer, players can concentrate on the power games.
+
+Trivia:
+
+This game is based on the board game Borderlands released by EON Publishing in 1982
+
+
+http://www.mobygames.com/game/atari-8-bit/lords-of-conquest

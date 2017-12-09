@@ -1,0 +1,20 @@
+Broadsides
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1983
+Developer: SSI
+Publisher: SSI
+Players: 1 or 2 VS
+Programmer: Wayne Garris
+_________________________
+
+Broadsides is a tactical simulation of ship-to-ship combat between sailing ships of the Napoleonic era (late 18th and early 19th Century). The game can be played as two different games. The first game is an arcade mode where you can sail right into the action, set your course, maneuver, and fire your guns as fast as your crew can load. For authenticity and historical detail, the tactical game puts you on the quarterdeck where you will make all the decisions real captains had to make.
+
+If you wish to depart from the historical ships provided, you can design your own frigates and ships of the line from the keel up to rigging, arming and manning them. The game ends when either ship wins or at 6pm, whichever comes first. You will win if you sink the enemy ship, or accumulate enough points to force the enemy ship to surrender. You will lose if your crew size goes below one quarter of its original size or if 11 enemy crew members manage to board your ship and there are no standing friendly crew members occupying any of the first 10 boarding positions on your ship. If both ships sink, or no one wins by 6pm, the game is a draw. The game can be played by two players or against the computer.
+
+
+http://www.mobygames.com/game/atari-8-bit/broadsides

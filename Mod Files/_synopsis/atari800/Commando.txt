@@ -1,0 +1,19 @@
+Commando
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Action
+Gametype: Prototype
+Release Year: 1989
+Developer: Sculptured Software
+Publisher: None
+Players: 1 or 2 Alternating
+Licensed from: Data East
+_________________________
+
+Based on the 1985 Data East coin-op. The arcade game original was actually designed by Capcom and licensed to Data East for US distribution. The lone commando is none other than Super Joe, who also appears in Bionic Commando and Speed Rumbler.
+
+Be sure to check out the improved version with G2F title picture and RMT title music.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=2038

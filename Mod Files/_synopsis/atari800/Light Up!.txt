@@ -1,0 +1,14 @@
+Light Up!
+Platform: Atari 800
+Region: Slovakia
+Media: Executable
+Controller: Joystick
+Genre: Puzzle - Strategy
+Gametype: Licensed
+Release Year: 2006
+Developer: MatoSimi
+Publisher: MatoSimi
+Players: 1
+Programmer: Martin Simecek
+_________________________
+

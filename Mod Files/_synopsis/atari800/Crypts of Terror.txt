@@ -1,0 +1,24 @@
+Crypts of Terror
+Platform: Atari 800
+Region: Canada
+Media: Tape
+Controller: Joystick
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1981
+Developer: Inhome Software
+Publisher: Inhome Software
+Players: 1
+Programmer: Daniel J. Dorey
+_________________________
+
+Get the magic ring of power back to crypt #1. You explore various crypts on a map, fighting monsters, looking for the ring. A secret will be revealed to those that complete the quest at the highest difficulty level.
+
+Tips:
+Type MAGIC when requested for first level keyword.
+
+Loading instructions: 
+- type CLOAD 
+- type RUN.
+
+http://www.mobygames.com/game/atari-8-bit/crypts-of-terror

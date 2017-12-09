@@ -1,0 +1,14 @@
+Battle Ships (color)
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Board Game - Strategy
+Gametype: Licensed
+Release Year: 1989
+Developer: Gizmo Magic Software
+Publisher: Mirage Software
+Players: 1 or 2 VS
+Programmer: Arkadiusz Lukszo, Tomasz Konatkowski
+_________________________
+

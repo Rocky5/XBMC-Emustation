@@ -1,0 +1,20 @@
+Repton
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Shoot 'em Up - Vertical - Scrolling
+Gametype: Licensed
+Release Year: 1983
+Developer: Sirius Software
+Publisher: Sirius Software
+Players: 1
+Programmer: Dan Thompson
+_________________________
+
+A side scrolling shoot 'em up inspired by Defender, but adding much to the concept. You fly across a looping horizontally-scrolling landscape aiming to protect your base. 
+
+There are a total of eight enemies on screen at any given time. The Quarriers try to build the enemy base by stealing parts of yours. The Drayns steal energy from you and then supply it to the enemy. Fortunately you can steal back the energy they take, but you can't steal back parts of your base. The other six enemies just try to kill you. The bigger the enemy base gets, the more rapidly and accurately they can launch enemies at you.
+
+
+http://www.mobygames.com/game/atari-8-bit/repton

@@ -1,0 +1,18 @@
+Jet Boot Jack
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1984
+Developer: Datamost
+Publisher: Datamost
+Players: 1 or 2 Alternating
+Programmer: Jon Williams
+_________________________
+
+Music notes have escaped throughout the world, and Jet-Boot Jack must collect them up. There are ten levels, the first five of which can be played from the main menu. Gameplay is platform-based, and largely involves progressing down the levels, using holes and moving platforms. Enemies hover over the holes, but these can be disabled by toggling the right switches. There are also timing-based hazards such as arrows emerging from walls and lazer beams - contact with any of these costs one of your five lives. You also lose a life if you run out of energy. Some levels vary the format by requiring you to simply collect every note on a single screen, which has regeneration points and one-way platforms.
+
+http://www.mobygames.com/game/atari-8-bit/jet-boot-jack
+

@@ -1,0 +1,20 @@
+Adventures of Buckaroo Banzai, The : Across the Eighth Dimension
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic
+Gametype: Licensed
+Release Year: 1984
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1
+Programmer: Scott Adams, Mak Jukic
+_________________________
+
+A tie-in to the 1984 film The Adventures of Buckaroo Banzai Across the 8th Dimension, you play the ineffably cool Dr. Banzai: radical neurosurgeon, cutting-edge physicist, nemesis of nefarious criminal mastermind Hanoi Xan and lead guitarist of new-wave sensation the Hong Kong Cavaliers. (Unfortunately, you'll have to take our word for it, as the game doesn't make much use of these qualities.)
+
+As in the wacky movie, your goal here is ultimately to overcome a potentially planet-destroying bomb set by the Black Lectroids, inhabitants of Planet 10. Unlike the movie, you don't accomplish this by overcoming the Red Lectroids from the 8th Dimension with the assistance of Team Banzai and the Blue Blaze Irregulars -- instead you wander an eerily depopulated town to procure the necessary components (gasoline, sand, bauxite and "a special catalyst") to power up your oscillation overthruster-sporting jet-car and transmit cancellation codes to the bomb. The game uses a simple VERB NOUN text parser and, on some platforms, illustrates the scene with static images.
+
+
+http://www.mobygames.com/game/atari-8-bit/adventures-of-buckaroo-banzai-across-the-eighth-dimension

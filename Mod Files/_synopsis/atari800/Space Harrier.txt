@@ -1,0 +1,14 @@
+Space Harrier
+Platform: Atari 800
+Region: United Kingdom
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade - First Person
+Gametype: Homebrew
+Release Year: 2011
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Chris Hutt
+_________________________
+

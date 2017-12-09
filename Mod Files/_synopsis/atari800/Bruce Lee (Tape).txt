@@ -1,0 +1,27 @@
+Bruce Lee (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Datasoft
+Publisher: US Gold
+Players: 1 or 2 VS
+Programmer: Ron J. Fortier
+_________________________
+
+The late martial arts hero features in this platform game, with the aim of reaching a wizard in an underground lair, defeat of whom can offer him untold wealth. 
+
+In each area you must collect the many strategically-placed lanterns before exiting through the newly-revealed passageway. Some rooms also have escalator-type sections to run along, and the standard (although slightly illogical in this context) ladders. 
+
+On the way, you'll fight two enemies - a ninja and a green sumo warrior named Yamo. You can defeat them by punching, kicking, dropping on their heads or luring them into hazardous terrain, or even by making them accidentally hit each other. Even after they are killed, however, they keep coming back for more after a few seconds. Since they can move pretty intelligently (they even climb ladders), you should watch out for them. 
+
+There are lots of hazards to avoid by either walking round or jumping - walls of electrical charge and exploding bushes for example.
+
+Trivia:
+
+Bruce Lee was voted #18 in the "Top 25 Platformers of All Time" poll in Retro Gamer Magazine (Issue 37).
+
+http://www.mobygames.com/game/atari-8-bit/bruce-lee

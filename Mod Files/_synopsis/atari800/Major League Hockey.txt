@@ -1,0 +1,17 @@
+Major League Hockey
+Platform: Atari 800
+Region: United Kingdom
+Media: Cartridge
+Controller: Joystick
+Genre: Sports - Hockey
+Gametype: Licensed
+Release Year: 1983
+Developer: Thorn EMI
+Publisher: Thorn EMI
+Players: 1 or 2 VS
+Programmer: Brian Belson
+_________________________
+
+Rather pedestrian 5-on-5 version of hockey. The controls are not intuitive, and even if you pass to a nearby teammate you have to manually switch to him or the puck will sail right through.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=6851

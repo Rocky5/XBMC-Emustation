@@ -1,0 +1,15 @@
+SOS Saturn
+Platform: Atari 800
+Region: Poland
+Media: Disk
+Controller: Joystick
+Genre: Adventure - Platform
+Gametype: Licensed
+Release Year: 200x
+Developer: Brothers Prod.
+Publisher: Domain Software
+Players: 1
+Programmer: Bartek Selinger
+Musician: Andrzej Szczygiel
+_________________________
+

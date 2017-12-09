@@ -1,0 +1,25 @@
+Dragonriders of Pern
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard, Paddles
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1983
+Developer: Connelley Group, The
+Publisher: Epyx
+Players: 1 or 2 VS
+Programmer: Jim W. Connelley
+_________________________
+
+Dragonriders of Pern is a strategy game with action sequences, based on the novels by Anne McCaffrey, with a strong emphasis on diplomacy. The game may be played by 1 to 4 players. You take on the role as a Weyrleader fighting the deadly Thread.
+
+The game consists of two major phases: Negotiation/Intrigue, where you negotiate with Lord Holders or Craftsmasters, and Thread Fighting. where you fight the Thread from infesting your lands.
+
+The strategic part is the main part of the game. Here you try to negotiate with Lord Holders of Craftsmasters to make allies in your fight against the Thread. You can facilitate negotiations by organizing special events: To win the confidence of a Lord Holder who fancies dragons, invite him to a Hatching. Weddings also provide opportunities to score diplomatic points. When diplomatic maneuvers fail you, you may be forced to resort to a duel -- a wounded leader is unable to take any actions for a long time --, but this may jeopardize your status with peaceful leaders. Finally, conclaves may be called up after certain events like the death of a Weyrleader. A Dragonrider conclave will cancel all ongoing events for all Weyrs. A Lord Holder conclave will only cancel events involving Lord Holders and the Master Harper. Time passes in realtime during the strategic phase, but you can pause the game.
+
+Thread fighting occurs at the end of each year. During this phase of the game, you mount your dragons and you must pursue the falling Thread and char it in midair with the dragon's fiery breath before it lands. Miss a Thread and it may destroy you... or hit the ground and turn the land to dust. At the beginning of the game, you can select the difficulty of the Thread fighting or disable it entirely.
+
+Dragon Riders of Pern ends after a certain number of turns (also to be selected at game beginning), when a player reaches a certain number of "Victory Points" awarded for forging alliances, or when a certain number of Holds are infested by threads. 
+
+http://www.mobygames.com/game/atari-8-bit/dragonriders-of-pern

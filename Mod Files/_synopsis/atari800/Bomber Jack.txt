@@ -1,0 +1,13 @@
+Bomber Jack
+Platform: Atari 800
+Region: Germany
+Media: Disk
+Controller: Joystick
+Genre: Action - Puzzle
+Gametype: Licensed
+Release Year: 1991
+Developer: KE-Soft
+Publisher: KE-Soft
+Players: 1
+_________________________
+

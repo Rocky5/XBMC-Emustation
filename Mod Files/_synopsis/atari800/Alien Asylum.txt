@@ -1,0 +1,43 @@
+Alien Asylum
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1985
+Developer: Antic
+Publisher: Antic
+Players: 1
+Programmer: Spencer Craske
+_________________________
+
+ANTIC VOL. 4, NO. 6 / OCTOBER 1985
+
+WIN SANITY POINTS OR ELSE!!
+by Spencer Craske 
+"A Paranoid Fantasy" is the author's fitting subtitle for this implacable and intimidating arcade game. Smash the lights, avoid the contagious inmates, snatch every key. But whatever you do, keep moving- or you'll go mad. This BASIC program works on all Atari computers of any memory size, with disk or cassette. 
+
+Jack Nicholson didn't have it nearly this tough in "One Flew Over the Cuckoo's Nest." 
+   Tough break, sucker. During your interplanetary travels you were unjustly thrown into an insane asylum. Never mind why. And you better believe this funny-farm isn't like any sanitarium back home on good old Earth... 
+
+RED OCTOPI 
+All the other inmates are these octopus-like red aliens who have been pumped full of pacifying drugs. They don't ever do anything except stagger mindlessly like zombies from left to right. 
+   High dosages of those pacifying drugs have produced a truly horrifying side effect in the red-octopus aliens. Yes, you guessed it! An inmate's merest touch is instant death to Earthlings. You lose a life that can only be re-earned with 10,000 points. 
+   Is there no faint glimmer of hope?? C'mon, get serious. Of course you've got one chance in a million. What more would you expect? 
+   The keepers may be sadistic, but they're also lazy and they left the keys lying around! Grab all the keys on the screen and you can move on to the next screen. 
+   Is there a way to escape the Asylum? Maybe, but we never found it. Probably all you can do is keep alive your sanity and yourself, and hope somebody eventually lets you out. 
+
+LIGHTS OF DOOM 
+To stay sane, you must keep moving. If you stay in one room, you will gradually go mad under the endless glare of the hundreds of Living Lights. These Living Lights move too-from right to left, at a faster pace than the zombie-brained inmates. 
+   Smash out those lights, I tell you. It is your only defense against the encroaching madness. Break a light and you gain one sanity point, leave a light unbroken and you lose one point. If you have 99 sanity points you are perfectly sane. At zero sanity points you are utterly insane and you lose one life. 
+   Displayed at the bottom of the screen are your score, lives, play level, sanity points and number of keys left in the room. 
+   The higher the level, the faster the inmates come at you, and the more keys you must snatch in order to keep going. 
+   Type in Listing 1, ASYLUM.BAS, check it with TYPO II and SAVE a copy before you RUN it. Now get ready to fight for your sanity. 
+   One way this game provides the illusion that you're going crazy is the diabolical joystick action. There's an inertia routine in lines 200-220. If your joystick isn't moving (LX and LY are both zero) your player continues sliding along in one direction until it either hits a wall, or hits an inmate and dies. 
+
+FAKE SCROLL 
+Asylum uses the time-honored Atari design tool of redefining a character set in Graphics 1. However, there is one unusual technique in the program (which I admit I discovered by accident) that goes a long way towards disguising the low-resolution movement. 
+   In line 390, NF stores a bit pattern (8 bits in a row) consisting of 7 bits off and one bit on. Each time NF is multiplied by two, the bit that's on moves one position. Thus, the smooth movement of all the Living Lights is accomplished by repeatedly POKEing a doubled number into the character-1, 2, 4, 8, 16, 32, 64 and finally 128. This gives the impression of a scrolling movement as the white dots march relentlessly across the screen from right to left. 
+
+Spencer Craske lives in Paradise. That is, the town of Paradise in Newfoundland, Canada.

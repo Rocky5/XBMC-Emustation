@@ -1,0 +1,19 @@
+Ollie's Follies (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1984
+Developer: Fanda
+Publisher: Americana
+Players: 1 or 2 Alternating
+Programmer: Frank Cohen
+_________________________
+
+Ollie has made the mistake of entering a factory which turns out to be ran by evil robots. It is split into 24 tough screens to complete in order, none of which are designed to be easy for a human to navigate.
+
+Ollie's Follies is a simple 2D sci-fi platformer displaying the kind of horizontally layered environments Frank Cohen became well known for. Each level's objective is disarmingly simple - just get from one end of the screen to the other. These contain teleports, guard robots to avoid, and an array of complex ledges to navigate. Later screens add moving platforms, laser bolts and deflectors, and require a key be collected to open the door. Be careful not to fall too far, as this costs you one of your five lives, as does contact with a robot.
+
+http://www.mobygames.com/game/atari-8-bit/ollies-follies

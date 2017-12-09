@@ -1,0 +1,15 @@
+Mind Blast
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Puzzle
+Gametype: Magazine
+Release Year: 2007
+Developer: Flop
+Publisher: Flop
+Players: 1
+Programmer: Frantisek Houra
+_________________________
+
+From Issue 50 of Flop.

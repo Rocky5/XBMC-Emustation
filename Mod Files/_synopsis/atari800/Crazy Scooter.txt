@@ -1,0 +1,14 @@
+Crazy Scooter
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1985
+Developer: Propaganda Software
+Publisher: Happy Computer
+Players: 1
+Programmer: Oliver Schmidt
+_________________________
+

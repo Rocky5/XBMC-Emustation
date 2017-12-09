@@ -1,0 +1,15 @@
+JellyBeans
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Strategy - Action
+Gametype: Licensed
+Release Year: 2004
+Developer: JYBOLAC
+Publisher: JYBOLAC
+Players: 1 or 2 VS
+Programmer: Chris Martin
+Musician: Various
+_________________________
+

@@ -1,0 +1,15 @@
+Dannys Mirror Magic (pcs)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Paddles
+Genre: Pinball
+Gametype: Public Domain
+Release Year: 1983
+Developer: None
+Publisher: SoftKorn
+Players: 1 thru 4 Alternating
+Programmer: David Korn
+_________________________
+
+A pinball construction set creation.

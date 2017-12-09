@@ -1,0 +1,20 @@
+Kennedy Approach
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Simulation - Strategy
+Gametype: Licensed
+Release Year: 1985
+Developer: MicroProse Software
+Publisher: MicroProse Software
+Players: 1
+Programmer: Edward N. Hill
+_________________________
+
+An air traffic control simulator.
+
+Guide planes across the screen through the USA, from varying airports. A simple mouse-based game, with fairly simple radar-a-like graphics. You must set the flight level (height), speed and direction of the aircraft passing through your jurisdiction and guide them to their correct airports. Do try and keep them apart!
+
+http://www.mobygames.com/game/atari-8-bit/kennedy-approach
+

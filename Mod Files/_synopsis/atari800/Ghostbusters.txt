@@ -1,0 +1,41 @@
+Ghostbusters
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Action - Strategy
+Gametype: Licensed
+Release Year: 1984
+Developer: Activision, Inc.
+Publisher: Activision, Inc.
+Players: 1
+Programmer: Glyn Anderson
+_________________________
+
+Disk version with CRC of 6C16720C is missing the voice.
+
+Based on the movie of the same name, the Ghostbusters are the ones to call who will "bust" any ghost hauntings. It does this through the use of nuclear accelerated "proton packs" and traps, whereby the ghosts can be captured and transferred to a secure storage facility. However New York City has suddenly become a very haunted place, and the number of ghosts has suddenly increased. The Ghostbusters must reduce the paranormal (PK) level in the city, representing ghost power, before the Temple of Zuul awakens and ressurects an evil goddess, Gozer.
+
+Ghostbusters is an action game that combines an overhead view and a side-view. From Ghostbusters HQ, the player must monitor the map of New York City for "ghost alarms" as well as casual spirits, and plot a route to the alarmed area. The player then controls the Ghostbuster vehicle as it drives through traffic. Here, the player is able to capture casual ghosts on the way if they are en route. Once at the location, the game switches to a side-view. Two of the ghostbusters will take position and activate their proton beams and toss a trap to the ground. The player will attempt to maneuver the ghost(s) over the placed trap. Once activated, the trap attempts to capture any ghosts directly above it. Successful capture will earn the player money, which can then be used to purchase new Ghostbusters vehicles and new modifications for the vehicle. Unsuccessful capture will see the ghost fly away.
+
+As the game progresses, the PK energy of the city increases. Ghostbusters must keep it under critical levels by being constantly successful at ghost captures. Eventually the Temple of Zuul will activate, and if the PK levels are still manageable, the Ghostbusters can venture there for a final showdown with Gozer.
+
+Trivia:
+
+Development
+
+From Brad Fregger, Producer of Ghostbusters:
+
+The game developers at Activision would often take the afternoon off to see a new movie that was exciting to us. One day we all decided to see Ghostbusters on the opening day. After the movie David Crane (Pitfall and Pitfall II) announced that he was going to do the game. As a founder of Activision, he had the power to get the wheels in motion and within a week we we're beginning development.
+Crane had already been working on what would become the game, and made a beta version with the driving and franchising elements, but it wasn't until getting the Ghostbusters license that he had a setting for those game elements. The title screen sing-a-long feature of the computer version was not added until the week before the game was finished. 
+
+License
+
+Like the cartoon based on the movies, Activision was not allowed to use the likeness of the actors that performed in the movie. 
+
+Music
+
+The game title music and speech based on the original theme music from the movie written by Ray Parker Jr. 
+
+
+http://www.mobygames.com/game/atari-8-bit/ghostbusters

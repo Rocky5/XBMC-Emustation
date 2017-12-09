@@ -1,0 +1,14 @@
+Spy Strikes Back, The
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Penguin Software
+Publisher: Penguin Software
+Players: 1
+Programmer: Robert Hardy, Mark Pelczarski
+_________________________
+

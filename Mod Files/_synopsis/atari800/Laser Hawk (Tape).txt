@@ -1,0 +1,18 @@
+Laser Hawk (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shooter - Side-Scrolling
+Gametype: Licensed
+Release Year: 1986
+Developer: Red Rat Software
+Publisher: Red Rat Software
+Players: 1 or 2 Alternating
+Programmer: Andrew Bradfield
+Musician: Harvey Kong Tin
+_________________________
+
+Your civilization is under attack, and it's down to you and your Laser Hawk helicopter to put things right. Destroy the five bases belonging to Proc Irata. They have sent their full fleet of ships to intercept you - shoot to destroy, and avoid those bullets. The centres are increasingly well-defended, with bombs, missiles and meteors among the threats. Many upward-shooting ground targets are destructible, but beware of the trees they are interspersed with. You have limited fuel, but fuel stocks hang through the air - contact with these triggers a refuel.
+
+http://www.mobygames.com/game/atari-8-bit/laser-hawk

@@ -1,0 +1,22 @@
+Ogre
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1986
+Developer: Origin Systems
+Publisher: Origin Systems
+Players: 1 or 2 Co-Op
+Programmer: David Lubar
+_________________________
+
+A direct computer conversion of Steve Jackson's board game of supertanks going against superinfantry with superhowitzers. Plays exactly like the board game.
+
+Trivia:
+
+In a time when feelies helped sell software, Ogre included a geeky and yet still practical bonus item, a functioning radiation badge. Most copies of the game came with a laminated badge identifying the wearer as a member of a futuristic military unit (randomly selected from Command Staff, 6502nd Infantry Division, 2033rd Armored Division, 8088th Ordinance & Service Tech Division, and AI Programming Division) and five radiation sensitive color changing stickers designed "...primarily to respond to gamma radiation from cobalt 60 and electron beam radiation... in doses between 0.1 and 10 megarads". 
+
+
+http://www.mobygames.com/game/atari-8-bit/ogre

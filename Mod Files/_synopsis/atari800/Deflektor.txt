@@ -1,0 +1,15 @@
+Deflektor
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Strategy - Puzzle
+Gametype: Prototype
+Release Year: 1989
+Developer: US Gold
+Publisher: None
+Players: 1
+Programmer: Bob Armour
+_________________________
+
+- original cartridge prototype

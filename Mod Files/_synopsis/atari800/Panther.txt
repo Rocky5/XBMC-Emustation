@@ -1,0 +1,23 @@
+Panther
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Action - Isometric
+Gametype: Licensed
+Release Year: 1987
+Developer: Sculptured Software
+Publisher: Mastertronic
+Players: 1
+Programmer: Chuck Peavey
+Musician: David Whittaker
+_________________________
+
+Panther is set on the human colony Xenon, which is attacked by aliens. The priority is to evacuate the people, but unfortunately not everyone made it. The player takes the role of a pilot who mans the Panther aircraft to save the last remaining humans.
+
+The game is a shooter with an isometric view. The player can move left and right and adjust the height. Reverse is not available and the movement speed depends on the height: the higher, the faster. This is most important when alien attack occurs. They always appear in batches and their shadows indicate their height. Now the player has the choice to evade or to fight back. However, the Panther can only take five hits.
+
+To evade people, the player needs to land near them and wait until everyone is in. The game consists of several levels and the last has an additional gameplay mechanic: SAMs. Those mean the player can't fly high enough to go over the skyscrapers; he needs to fly around them. After reaching the evacuation ship the game loops back to the beginning; the goal being to reach a high score by saving many people.
+
+
+http://www.mobygames.com/game/atari-8-bit/panther_

@@ -1,0 +1,19 @@
+Carnival Massacre
+Platform: Atari 800
+Region: United Kingdom
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1983
+Developer: Thorn Emi
+Publisher: Thorn Emi
+Players: 1 or 2 Alternating
+Programmer: Edgar Belka
+_________________________
+
+Two mean hooligans, Butcher Bill and Ruthless Rick are spoiling all the fun at the carnival. These two characters try to murder the happy carnival crowds by dropping missiles on the ferris wheels and planting bombs on the roller coaster. The only one to stop them is Super Sam who has to save the rides' passengers from a gruesome death and then shoot the perpetrators. 
+
+Carnival Massacre is split into two parts. First Butcher Bill has to be stopped at the ferris wheels. The player stands at the ground below the ferris wheels and above them Butcher Bill will move in a sky lift. He will throw rocks at the passengers and as they fall out from the wheels the player has to try and catch them. At the same time the player has to avoid being hit by rocks since that will kill him. If he misses too many passengers a giant coil spring will appear and bounce around the screen. The player has to jump over it to avoid dying. When the ferris wheels are empty and the player has managed to save at least six passengers he gets the chance to take down the villain with a gun. After that the player moves on to the roller coaster where Ruthless Rick has planted some mines. When the cars hit the mines the passengers will be thrown out and the player has to catch them just like at the ferris wheels. Once again Butcher Bill appears and start throwing stones at the player. The rules are the same as for the ferris wheels. 
+
+http://www.mobygames.com/game/atari-8-bit/carnival-massacre

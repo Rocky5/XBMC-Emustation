@@ -1,0 +1,45 @@
+Lurking Horror, The
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1987
+Developer: Infocom
+Publisher: Infocom
+Players: 1
+Programmer: David Lebling
+_________________________
+
+(From the Infocom Home Page site)
+
+In The Lurking Horror, you are a student at G.U.E. Tech. You have braved a snowstorm to get to the Computer Center and finish work on an assignment. But the snowstorm has turned into a raging blizzard, and has trapped you in a complex of buildings late at night. You are not alone, fortunely ... or perhaps, unfortunately. Thus you begin the story, unaware that anything may be wrong beneath or within the veneer of the quiet campus.
+
+
+Trivia:
+
+Copy protection
+
+Copy protection for the game required the user to input the correct Student ID number and password into a computer terminal. 
+
+Extras
+
+(From the Infocom Home Page site)
+The game contained "G.U.E. at a Glance" (G.U.E. Tech guide), a G.U.E. Tech student ID card, and a red rubber centipede (between two sheets of clear plastic). 
+
+References
+
+G.U.E. Tech was based on M.I.T., the alma matter of most of Infocom's employee's. Locations in the game are similar, along with various M.I.T. slang. 
+The college you find yourself at is George Underwood Edwards Tech, aka GUE Tech. GUE was the abbreviation for the Great Underground Empire from the Zork series, also published by Infocom.
+
+Sound
+
+Lurking Horror featured sound for certain systems (like Amiga). Do you want your version of LH to have sound? As of 2000, the missing sound files and a utility to upgrade your .DAT file were available via anonymous ftp from ftp.gmd.de at if-archive/infocom/missing-files, and the file was called LHSOUND.ZIP. 
+
+Unofficial Sequel
+
+The premise and setting (radically recast as "PUE Tech") are revisited in Jason Davis's 1991 Amstrad CPC text adventure The Smirking Horror, written with the "Graphic Adventure Creator" (GAC). 
+
+
+http://www.mobygames.com/game/atari-8-bit/lurking-horror

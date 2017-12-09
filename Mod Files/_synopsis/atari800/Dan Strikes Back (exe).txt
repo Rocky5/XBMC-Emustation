@@ -1,0 +1,21 @@
+Dan Strikes Back (exe)
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1984
+Developer: English Software
+Publisher: English Software
+Players: 1
+Programmer: Simon Hunt
+_________________________
+
+"Digger Dan's" most prized possession was the "Great Diamond", which he unearthed near Round Mount in the Australian outback.  His arch enemy, "Brian The Blob", found out where Dan had kept the diamond and stole it from him.  Brian took the diamond to his deepest vault and locked it away there.  To keep it safe, Brian left various creatures guarding different parts of the vault and blocked the entrances with massive doors.
+
+Dan's quest is to venture into Brian's vault to retrieve the "Great Diamond".  On his way, Dan must trample the Mushrooms and collect the Small Diamonds to open the doors to each successive level of the vault.  All the while he must avoid the Creatures that roam within.
+
+Once he has picked up the "Great Diamond", he must try to get out alive.  Unluckily for Dan, Brian arrived on the scene just as Dan entered the vault and followed him in...
+
+[From the game manual]

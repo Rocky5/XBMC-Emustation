@@ -1,0 +1,19 @@
+3-D Tic-Tac-Toe
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1979
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 VS
+Programmer: Carol Shaw
+_________________________
+
+The 3D version of a Tic-Tac-Toe game. The object of the game is to place four "X's" or four "O's" in a horizontal, vertical or diagonal row on the 4x4 board.
+
+There are nine games of which the first eight games are for one "human" player against the computer player. The numbers 1-8 represent the skill level. Game 9 is a two player game.
+
+http://www.atarimania.com/game-atari-400-800-xl-xe-3-d-tic-tac-toe_10.html

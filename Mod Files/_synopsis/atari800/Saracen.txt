@@ -1,0 +1,22 @@
+Saracen
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Puzzle
+Gametype: Licensed
+Release Year: 1987
+Developer: IntelliCreations, Inc.
+Publisher: Datasoft
+Players: 1
+Programmer: Ilan Ginsburg
+_________________________
+
+A combination puzzle/action game from Datasoft. In each of the 100 levels, the player moves a crusader through an obstacle filled maze trying to reach the Saracen Chief and detonate a bomb next to him. The chief does not move, instead remaining in a set position.
+
+Along the way, he must avoid roaming guards, bouncing cannonballs, and other traps. The crusader is armed with a bow and can pick up directionally specific arrows that are used to stop guards or destroy walls. The arrows being limited to shooting in one of the four compass directions is exacerbated by only being able to carry one object (key, arrow or bomb) at a time. For these reasons, the game's puzzle leanings and the need for a methodical approach are strong.
+
+There is generally only one way to solve each level and proper use of the given tools is key to finding it.
+
+
+http://www.mobygames.com/game/atari-8-bit/saracen

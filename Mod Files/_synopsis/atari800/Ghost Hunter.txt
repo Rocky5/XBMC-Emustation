@@ -1,0 +1,14 @@
+Ghost Hunter
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Arcade - Maze
+Gametype: Licensed
+Release Year: 1981
+Developer: Arcade Plus
+Publisher: Arcade Plus
+Players: 1 or 2 Vs/Co-Op/Alternating
+Programmer: Larry Richardson
+_________________________
+

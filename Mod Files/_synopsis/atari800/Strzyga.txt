@@ -1,0 +1,13 @@
+Strzyga
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Adventure - Multi-Screen
+Gametype: Homebrew
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Rafal Wojcik
+_________________________
+

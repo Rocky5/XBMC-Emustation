@@ -1,0 +1,14 @@
+Zoltan Escape
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1989
+Developer: B.Ware
+Publisher: B.Ware
+Players: 1 or 2 Alternating
+Programmer: Brian Ison, Roy York
+_________________________
+

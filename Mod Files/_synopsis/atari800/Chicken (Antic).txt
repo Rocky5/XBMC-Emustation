@@ -1,0 +1,15 @@
+Chicken (Antic)
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Antic
+Publisher: Antic
+Players: 1
+Programmer: Stan Ockers
+_________________________
+
+From volume 1, issue 1 of Antic dated April 1982.

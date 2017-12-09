@@ -1,0 +1,20 @@
+Quasimodo
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1 or 2 Alternating
+Programmer: Jon Atack
+_________________________
+
+A hunchback atop a wall, minding his own business, is advanced upon by a man in armour climbing up a ladder from below. Where have I seen a game start this way before? No matter -- though its theme and trappings are strangely reminiscent of certain licensed popular contemporary videogame properties, the gameplay soon goes off in a direction all its own. This hunchback, for instance, can fight back -- grabbing a rock from a nearby pile he handily hurls it down at the intruder, knocking him off his ladder. But another is set up, and another... soon Quasimodo is singlehandedly fending off a veritable siege, tossing rocks left, right, down and to the lower diagonals as squirming masses of bad guys return fire with arrows that bounce off the walls! Yet as soon as it began... all is quiet once more, your sole companion an endlessly-flapping bat (who kills you should he absentmindedly drift into your path).
+
+The game shifts gears here, the joystick's action button switching duties from rock-lobbing to jumping. No other humans will be seen for quite some time as you scurry up ladders and swing yourself across ropes dangling from massive ceiling-mounted bells, all in pursuit of gleaming gems to deposit in basement altars. Every time you do so another area of the game will be opened up, and you get to undertake the grand circuit once more -- again fending off the ladder-climbers, swinging across the same pits (the only time you enjoy bat-immunity, though they don't make any conscious effort to seek out your close company), dodging the same bats (the flock increased by an extra bat each time through). At the very pinnacle of your medieval structure you will have to climb a sheer wall face while dodging (and returning) arrows shot by archers in the window and (now the tables are turned!) boulders rolled down from the parapets. (Parapets? This, then, is no Notre-Dame!) And then the gem is got, and back down again, and so forth and so on; the cycle turns on, endless labour without even a rumour of beloved Esmeralda! What motivates this Sysiphean hunchback? All work and no play make Quasimodo go something something...
+
+
+http://www.mobygames.com/game/atari-8-bit/quasimodo

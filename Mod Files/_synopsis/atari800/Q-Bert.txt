@@ -1,0 +1,32 @@
+Q*Bert
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade
+Gametype: Licensed
+Release Year: 1983
+Developer: Parker Brothers
+Publisher: Parker Brothers
+Players: 1 or 2 Alternating
+Programmer: Daniel Small
+_________________________
+
+Q*bert is a conversion of the popular arcade game. The goal is to change all of the tiles on a pyramid to the target color. To do this you guide Q*bert around the pyramid, and every tile he hops on will change color. On early levels, a single hop will change the tile to the desired color, but on later levels you may need to hop on a tile multiple times or even avoid hopping on a tile multiple times! Trying to stop Q*bert are many different creatures which wander around the board, including Coily the snake, Slick and Sam, and falling balls. On the edge of the board are floating discs; if Q*bert jumps on one of these discs when the snake is in pursuit, the snake will fall off the board while Q*bert is safely transported to the top. 
+
+Trivia:
+
+In 1983 a board game adaptation of Q*bert was released, challenging one player to activate as many pyramid tiles as die rolls permit while a second player directs the movements of his antagonists.
+
+A Q*bert arcade machine is seen in Ghostbusters: The Video Game on the second floor of the firehouse. Sadly, the game is not playable.
+
+Q*bert is referenced in a flashback in a Family Guy episode. Stewie first says that a certain incident was worse than being Q*bert's roommate, where it then cuts to Stewie laying in the middle of the pyramid asleep with Q*bert jumping down turning on the tiles. Stewie then wakes up and says "It's all night with the lights, listen if you're gonna keep this up I'm not splitting the electric bill".
+
+Q*bert is referenced in the Futurama episode Anthology of Interest II. The episode consists of three shorts; one of which involves Fry asking the "what-if" machine "what if life was more like a video game." Q*bert is one of the aliens that invades Earth. He comes out of one of the Invaders.
+
+A Famicom version of Q*Bert was announced, but cancelled.
+
+Q*Bert was popular enough to have a Saturday morning TV cartoon based on it in the early 1980's.
+
+
+http://www.mobygames.com/game/atari-8-bit/qbert

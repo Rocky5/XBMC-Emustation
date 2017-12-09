@@ -1,0 +1,14 @@
+Laser Chess
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Joystick
+Genre: Board Game - Chess
+Gametype: Magazine
+Release Year: 198x
+Developer: Compute!
+Publisher: Compute!
+Players: 2 VS
+_________________________
+
+Compute! Issue 85 - June 1987

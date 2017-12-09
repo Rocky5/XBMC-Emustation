@@ -1,0 +1,15 @@
+3-D Pac Plus
+Platform: Atari 800
+Region: Germany
+Media: Disk
+Controller: Joystick
+Genre: Action - Maze
+Gametype: Magazine
+Release Year: 1989
+Developer: Raindorf Soft
+Publisher: Secret Games
+Players: 1
+Programmer: Andreas Binner, Harald Schönfeld
+_________________________
+
+Enhanced release of 3-D Pac.

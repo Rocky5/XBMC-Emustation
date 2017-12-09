@@ -1,0 +1,15 @@
+Attack at EP-CYG-4 (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Shoot 'em Up - Side-Scrolling
+Gametype: Licensed
+Release Year: 1982
+Developer: Bram, Inc.
+Publisher: Bram, Inc.
+Players: 1
+Programmer: Mike Edwards
+_________________________
+
+The object of the game is to destroy the tartillian structures in each sector; each structure scores 5-99 points. Each sector cleared scores 77 points. Each subsequent ship passing a cleared sector scores 99 bonus points. A score of 10,000 points gives you an extra ship. By moving the attack ship off the left edge of the screen you will proceed to the next sector. Moving off the right edge allows you to wrap around to the left side. You must destroy all tartillian defenders that attack you before you can advance. For single player the 1st joystick controls the movement of the attack ship when the fire button is not depressed and controls the targeting cusor and laser blasts when the fire button is depressed. For two players the first joystick is the plot's controller which manuevers the attack ship and controls the shields (the lyso-blast weapon cannot be fired when shields are activated). The 2nd joystick is the gunner control which manuevers the targeting cursor of the attack ship and fires the lyso-blast weapon.

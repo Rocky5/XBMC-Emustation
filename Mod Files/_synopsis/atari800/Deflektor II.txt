@@ -1,0 +1,14 @@
+Deflektor II
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Strategy - Puzzle
+Gametype: Licensed
+Release Year: 1989
+Developer: Bob Armour, Frantisek Houra, Zdenek Eisenhammer
+Publisher: Flop
+Players: 1
+Programmer: Bob Armour, Frantisek Houra, Zdenek Eisenhammer
+_________________________
+

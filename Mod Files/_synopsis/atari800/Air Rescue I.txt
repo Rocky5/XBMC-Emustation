@@ -1,0 +1,22 @@
+Air Rescue I
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Flight Simulator - Simulation
+Gametype: Licensed
+Release Year: 1984
+Developer: MicroProse
+Publisher: MicroProse
+Players: 1 or 2
+Programmer: Sid Meier
+_________________________
+
+The game is a remake of Chopper Rescue with the following changes: 
+
+Game is rewritten in machine language and doesn't require BASIC anymore; 
+Mobile drones are now patrolling all labyrinth instead of certain sectors; 
+Screens and fonts are slightly changed. 
+
+
+http://www.mobygames.com/game/atari-8-bit/air-rescue-i

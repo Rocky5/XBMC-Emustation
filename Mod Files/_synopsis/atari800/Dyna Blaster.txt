@@ -1,0 +1,15 @@
+Dyna Blaster
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Homebrew
+Release Year: 2004
+Developer: MadTeam
+Publisher: MadTeam
+Players: 1 or 2 VS
+Programmer: Tomasz Biela
+Musician: Bartek Wasiel, Krystian Iwaszko
+_________________________
+

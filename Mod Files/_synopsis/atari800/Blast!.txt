@@ -1,0 +1,70 @@
+Blast!
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Fixed
+Gametype: Magazine
+Release Year: 1986
+Developer: Analog Computing
+Publisher: Analog Computing
+Players: 1
+Programmer: Steven Grimm
+_________________________
+
+Based upon a fairly obscure Apple II game called "Ceiling Zero".
+
+Blast - Steven Grimm
+ANALOG Magazine July 1986 - Issue 44.
+
+The control room of the Space Defense Center was chaotic.  Technicans milled about, carrying their reams of printouts; white-haired scientists debated the reliability of the McPherison fusion shield in outer space, and military officials barked orders to nobody in particular.
+
+The data was September 23; the year was 2140.  Titan 16, a resarch probe orbiting the planet Pluto, had picked up evidence of an object traveling at near light speed.  This in itself wasn't particularly remarkable.  Several natural phenomena were known to attain speeds of that magnitude.  What was making the scientists and the military so nervous was that the object was headed directly toward Earth.  Even more omnious: it had changed course to avoid a comet in its path.
+
+If the thing continued on its present course, it would reach Earth in less than ten days.  The world trembled with anticipation.  Almost everyone agreed that it was an alien artifact of some sort.
+
+That was about the only thing everyone could agree on.  One person's answer to the important questions was as good as any other's ... What is it?  Were there aliens on board?  Would they be friendly?  Most important, why was the object coming?
+
+Five days later, the first photographs of the object were transmitted to Earth by Titan 8, orbiting Saturn.  The subject was a blue dome of about 50 meters in diameter.  It was covered with black and green markings, presumably writing of some sort.  On the dome's base, two dish-shaped devices like radio telescopes were attached.  There was a large hole in the center of the base of the dome.
+
+Still the artifact hurled toward the Earth.  Finally, as predicted by the scientists, it reached its "target."  Unfortunately, it seemed to know more about Earth than the Earth's creatures knew about it.  It was in geosynchronous orbit directly above the Space Defense Center.
+
+The planet waited.  For two days, the object hoevered over the Space Defense Center.  It was decided to send fifteen of Earth's newest ships to meet the object and attempt to make contact.
+
+The messenger ships were 6 kilometers from the artifact when seven creatures emerged from its large hole.  They sped toward the greeting party, seized the ships and dragged them into the craft.  The ships were never heard from again.
+
+Nobody was quite sure what to make of this hostility from the alien ship.  The World Congress debated for 48 hours before deciding to send three more ships to meet it.  This set of ships would be armed, however.  If the creates wanted to come out and steal more of Earth's fleet, they'd have a fight on their hands.
+
+You are the pilot of the three ships.  As you approach the alien craft, the two dishes detach from the dome and seperate.  There's a brief flash of light, then a gray force field springs into being between your command ship and the alien vessel.
+
+The creatures emerge from the artifact.  They penetrate the field easily.  If your ship is destroyed you'll be teleported to one of the remaining ones, so you aren't that concerned with your safety.  You doub that they can stand up to the high-energy particle beam generator mounted on the front of your ship, anyway.
+
+Indeed, you clear away the first twelve creatures with ease.  But what's this?  The field is coming closer!  It will be harder to dodge the creatures now...
+
+Blasting away.
+
+Using a joystick in port 0, you control the movement of the current command ship.  Pressing the fire button activates the particle beam generator, firing one burst forward.
+
+Your ship is destroyed when a creature touches it.  You're then transpoted to the next ship in your fleet, to continue the battle.  If you have no ships remaining (surprise!), the game ends.
+
+Occasionally, the alien craft will release one of the captured Earth ships.  Shooting the captured ship will transport it to Earth, where it will be refitted with weaponry and launched to join your fleet.
+
+There are two modes of difficulty in Blast! -- each of which can be set in one of two ways.  The first variable is speed, which can be fast or slow.  Here, "speed" refers to how frequently the alien ship releases creatures.  Thebeings themselves always move at the same rate.
+
+The second mode is the skill level -- easy or hard.  When set on easy, the creatures will move in the same direction as the alien ship does.  Choosing hard causes them to move in a random direction, once they're released.  This setting mainly affects the later levels of Blast!, when anticipating where the creatures will be is a large part of the strategy.
+
+From the title page, press the OPTION button to switch between fast and slow, press SELECT for hard and easy.  Hitting START or the joystick button will begin the game.
+
+Take a hint.
+
+Might as well get a few tips to improve your scoreing.
+
+(1) Always stay as far away as possible from the right and left edges of the screen.  It's very easy to be trapped into a corner, with no route of escape.
+
+(2) Aim before firing.  Your game won't last too long if you hold down the fire button without looking at what you're doing.
+
+(3) During the later levels, it's helpful to shoot the creatures before they penetrate the force field and start bouncing around.  Try to anticipate where they'll be, so that you can time your shots properly.  (This is what makes hard so tricky.)
+
+(4) Play slow and easy until you can complete the game very time.  The later levels are next to impossible if you aren't an ace at the game.
+
+I've won three times with Blast! set to fast and hard, so it is possible.  Good luck!

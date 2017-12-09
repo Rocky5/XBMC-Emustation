@@ -1,0 +1,21 @@
+Caverns of Mars (Tape)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Shooter - Vertical
+Gametype: Licensed
+Release Year: 1981
+Developer: Greg Christensen
+Publisher: APX
+Players: 1
+Programmer: Greg Christensen
+_________________________
+
+Martian galactic fleets surround the planet and are demanding its surrender! The Terra IV High Command knows that your space fighter, the HELICON VII, is he only craft equipped to invade the Martian Headquarters deep within the Caverns of Mars. Your mission: Sabotage the Martian defense system by activating their deadly fusion bomb.
+
+Make your way down two to five caverns, depending on the difficulty level. Do not hit the walls of the cavern or any Martian items. You will need to shoot fuel tanks as you go because you use fuel constantly. You must make your way through all the caverns to the fusion bomb, which you then touch to activate. Once activated, you must return to the surface before the bomb explodes.
+ 
+Easter Eggs: Once you start the game , you can skip levels by pressing the left SHIFT, CTRL, and TAB keys at the same time.
+
+http://www.mobygames.com/game/atari-8-bit/caverns-of-mars

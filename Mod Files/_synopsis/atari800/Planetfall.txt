@@ -1,0 +1,47 @@
+Planetfall
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1983
+Developer: Infocom
+Publisher: Infocom
+Players: 1
+Programmer: Steve Meretzky
+_________________________
+
+It all started with your great-great-grandfather who was a High Admiral and one of the founding officers of the Patrol. All generations since then have served in the Patrol. Now it's your turn and two years into you are still a lowly Ensign Seventh Class. Your direct report, Blather, is really making your life miserable. Are you really Stellar Patrol material?
+
+Trivia:
+
+A third sequel for Planetfall was planed and almost released in 1995. "Planetfall - The Search for Floyd" was supposed to take place 100 years after Stationfall, and dealt mainly with the resurrection of the beloved Floyd thanks to an alien device. A full design doc and storyline was completed circa 1993 by Steve Meretzky and the game was supposed to start development for the Return to Zork engine by late 1994. The deal went sour however, and all that survive of the game are some conceptual screenshots.
+
+If you add a six to the beginning of the ID number on the enclosed card and space out the digits appropriately, you'll get the phone number to The Tech, MIT's official newspaper.
+
+(From The New Zork Times Vol.3 No.2 Spring 1984)
+
+Some statistics about Planetfall:
+
+Number of rooms: 105 
+Number of different ways to die: 41 
+Number of words in vocabulary: 666 
+Number of takeable objects: 49 
+
+From The New Zork Times, Vol.3 No.1, Winter 1984)
+
+Planetfall was titled Sole Survivor by its author, Steve Meretzky, and later shortened to just Survivor. When Infocom discovered another game called Survivor, they decided they'd rather switch than fight. Infocom's ad agency, Giardini/Russell, submitted a list about 30 long, their favorite of which was Lost Planet. Reaction was less than enthusiastic, not the least because it reminded two of Infocom's employess of the TV series, Lost in Space. Marc Blank suggested Planetfall during a long, frustrating meeting - he thought he had seen it once in an SF book as a word meaning arrival on a new planet (much like landfall). Nobody really believed him, but it was never improved upon. 
+
+Accardi-3 is named after Gabrielle Accardi, Infocom's Marketing person.
+
+The working title for Planetfall was Sole Survivor
+
+The old "Folio" packaging of Planetfall consisted of a folder containing "Today's Stellar Patrol" - recruitment brochure, a Special Assignment Task Force I.D. card, three postcards (Ramos II, Nebulon, and Accardi-3), and a personal diary (4 pages, 1 empty). 
+
+The re-release of Planetfall used the standard box format which consisted of a grey box with coloured horizontal stripes. It contained "Today's Stellar Patrol" - recruitment brochure, a Special Assignment Task Force I.D. card, three postcards (Ramos II, Nebulon, and Accardi-3), and a personal diary (4 pages, 1 empty). 
+
+The Science Fiction Classics collection consisted of The Hitchhiker's Guide to the Galaxy, Planetfall, and A Mind Forever Voyaging in a specially designed trilogy slipcase.
+
+
+http://www.mobygames.com/game/atari-8-bit/planetfall

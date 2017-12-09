@@ -1,0 +1,28 @@
+Music Construction Set
+Alternative title: Will Harvey's Music Construction Set
+Known issue (if you can help join the forum): disk image needs to be tested in atari800xlbox.
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Construction Kit - Music
+Gametype: Licensed
+Release Year: 1984
+Developer: Electronic Arts
+Publisher: Electronic Arts
+Players: 1
+Programmer: Will Harvey
+_________________________
+
+Compose and play a musical score using an easy graphical interface and toolkit. Use a pointer to drag notes, sharps, and other music nomenclature directly onto a staff, then play your creation. You can cut, copy, and paste entire sections of music, as well as print your masterpiece.
+
+Trivia:
+
+Music Construction Set uses a timing loop at the beginning of the game to calibrate it's internal sound playing routines. This was very forward thinking of the PC programmer, and as a result, it still works perfectly today on higher-speed machines. However, there is a catch--the faster a machine you have, the longer it takes to calibrate. On a 333MHz machine, the startup delay is almost 20 full seconds. :-)
+
+The little "house" icon in the middle of the actions panel returns the score to the first measure. This is referred to as "returning home", and is the first known use of this icon to represent "going to the beginning of something". The Mosaic web browser, which adopted a "home" icon and made it popular, wasn't widespread until at least 9 years later.
+
+The original PC and PCjr had a cassette port that you could use to input/output data to a cassette recorder. Music Construction Set actually supports this, so if you wanted to send 4-voice music to your stereo, you could.
+
+
+http://www.mobygames.com/game/atari-8-bit/will-harveys-music-construction-set

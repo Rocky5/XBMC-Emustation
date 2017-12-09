@@ -1,0 +1,14 @@
+Space War
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1983
+Developer: APX
+Publisher: APX
+Players: 1
+Programmer: Jay R. Jaeger
+_________________________
+

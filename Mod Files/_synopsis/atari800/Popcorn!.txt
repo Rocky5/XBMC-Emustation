@@ -1,0 +1,32 @@
+Popcorn!
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1985
+Developer: Analog Computing
+Publisher: Analog Computing
+Players: 1
+Programmer: Mark Sloatman, Cathy Sloatman
+_________________________
+
+Pop Corn - Mark Sloatman, Cathy Sloatman
+ANALOG Magazine January 1985 - Issue 28.
+
+The story ... You're a concession worker at the local marinee.  Since the day is over, you are busy cleaning under the tables.  Then the worst happens!  The popcorn popper's gone mad!  Now, you must clean up (catch) all of the popcorn to make the boss happy.  If you do well, he'll congratulate you.  If not -- you guess it -- looks like you're fired!
+
+Instructions
+
+After Popcorn! is loaded, you can press START to begin in level 1, or press SELECT then START to begin in level 5.  Levels 1 through 5 are for the little ones.  The popcorn and the hand move more slowly, so the younger player won't get discouraged.  Only twenty-five popcorn kernels need to be caught to advance to the next level (compared with fifgy for higher levels), and, if the child finishes level 3, a happy boss appears.
+
+To play Popcorn!, move your little on-screen hand to catch the kernels.  The amount of points for each piece caught depends on what level you're in.  There are nineteen levels of difficulty (if you finish level 19, let me know).
+
+You start out with three chances.  When you miss three kernels, the boss will pull you off the screen with his cane, and you'll lose a chance.  REamining chances are indicated by the number of pieces of popcorn in the upper right side of the screen.  If you lose all your chances, you'll see the boss -- and get fired.
+
+There is good news, however.  Making it through levels 3, 8, 12 or 16 will send you to the boss's office, too, but this time he'll thank you for a job well done.
+
+Every 10,000 points earns you another life (up to five).  To pause the game, hit the SPACE BAR.  To resume play, hit the SPACE BAR again.  After the game is over, press START or the trigger button to play again.  In the middle of a game, you may begin once more by pressing START.
+
+Have some popcorn and play Popcorn!

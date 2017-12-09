@@ -1,0 +1,14 @@
+Olympic Skier
+Platform: Atari 800
+Region: UK
+Media: Tape
+Controller: Joystick
+Genre: Sports - Skiing
+Gametype: Licensed
+Release Year: 1986
+Developer: Mr. Chip Software
+Publisher: Americana
+Players: 1
+Programmer: Armin Hoque
+_________________________
+

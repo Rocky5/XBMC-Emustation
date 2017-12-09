@@ -1,0 +1,15 @@
+Sidewinder II
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Shooter - Side-Scrolling - Vertical
+Gametype: Licensed
+Release Year: 1989
+Developer: Arena Developments
+Publisher: Mastertronic
+Players: 1
+Programmer: Anthony J. Wilson, Russell Knight
+Musician: Orall Cornellius
+_________________________
+

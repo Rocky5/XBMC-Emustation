@@ -1,0 +1,25 @@
+A.E.
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Paddles
+Genre: Shoot 'em Up - Static
+Gametype: Licensed
+Release Year: 1982
+Developer: Programmers 3, Inc.
+Publisher: Broderbund Software
+Players: 1
+Programmer: Jun Wada, Makoto Horai
+_________________________
+
+A.E. is a Space Invaders inspired game with a 3D view. In A.E. the earth is under attack by swarms of aliens who drop bomb after bomb and it's your job to defend planet Earth.
+
+You control a laser cannon that moves horizontally at the bottom of the screen. To earn point you should shoot all the alien forces before they shoot you! The game becomes more challenging when you progress in the game as the alien swarm splits up and attack you from several sides.
+
+
+Trivia:
+
+The game was ported to the Atari 5200, but was never released. The prototype has since been leaked onto the net.
+
+
+http://www.mobygames.com/game/atari-8-bit/ae

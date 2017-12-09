@@ -1,0 +1,22 @@
+SAGA No. 1 - Adventureland
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1982
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1
+Programmer: Scott Adams
+_________________________
+
+SAGA#1: Adventureland was an update of the text-only Adventureland. It had many additional features including: Hi-Res graphics, Text-to-Speech hardware support, upper- and lowercase support for display (but not for input). 
+
+Gameplay was very similar to the original. You still used the same one or two word commands to move about and manipulate objects. The RETURN key toggled back and forth between graphics and text.
+
+The objective of the game is to collect all the treasures. There are all sorts of places to explore above and below ground. You have to outwit and escape many creatures during your quest including a dragon, a bear, and a hive of bees. 
+
+
+http://www.mobygames.com/game/atari-8-bit/scott-adams-graphic-adventure-1-adventureland

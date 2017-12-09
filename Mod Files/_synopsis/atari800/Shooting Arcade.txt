@@ -1,0 +1,14 @@
+Shooting Arcade
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade
+Gametype: Licensed
+Release Year: 1982
+Developer: Datasoft
+Publisher: Datasoft
+Players: 1 or 2 Alternating
+Programmer: Mark Riley
+_________________________
+

@@ -1,0 +1,11 @@
+Arabian
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Magazine
+Release Year: 198x
+Players: 1
+_________________________
+

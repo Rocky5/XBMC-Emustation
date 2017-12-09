@@ -1,0 +1,52 @@
+Track and Field
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Sports - Competitive Events
+Gametype: Licensed
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 VS
+Licensed from: Konami
+Programmer: Bob Merrill
+_________________________
+
+In 1983 Centuri developed what would become the model for track games for years to come.  Track and Field (also known as Hyper Olympics outside the US) is quite possibly one of the most addictive multiplayer sports games ever created. 
+
+The beauty of Track and Field lies in its simple controls and easy to learn rules.  Players only need to rapidly hit the left and right run buttons (or simply push left and right on the 5200) to make their player spring into action.  However the key to winning most events is knowing when to hit the jump/throw button.  Careful timing will make the difference between sweet victory and bitter defeat.
+
+Track and Field consists of six events.  These events are really a set of six separate mini-games which each player must master.  Each event has a qualifying score which the player must meet or pass to advance to the next event or they loose a life (I guess it really is do or die!).  Every time a player cycles through all six events the qualifying scores increase until they require super human reflexes to beat.
+
+Event 1: 100m Dash
+
+The 100m Dash is the easiest of the six events to master.  Simply push left and right as fast as you can until your man crosses the finish line.  If the player moves before the starter gun is fired it counts as a false start (two false starts and the player fails the event).  Since there's no jump button involved, this event is one of the easiest to qualify for even at the higher levels.
+
+Event 2: Long Jump
+
+The Long Jump is player in much the same way as the 100m Dash, except the player must push the jump button before they reach the white line at the end of the track.  If the player crosses the white line it is considered to be a fault and they loose one of their three attempts.  The amount of time the player holds down the jump button at the end of the track determines the angle of the jump.  The angle starts out at 0 degrees and increases the longer the button is held down.  The optimal jump angle is 45 degrees.  Be careful in timing your jump, due to a bug in the game your player will keep moving as you're choosing your angle.  To jump at a small angle make sure you start holding the button down well in advance of the white line.
+
+Event 3: Javelin
+
+Similar to the Long Jump except instead of jumping at the end of the track, the player throws a javelin instead.  As with the Long Jump, the longer the player holds down the throw button the steeper the angle of the throw.  This event is one of the easiest to qualify for due to the super human throwing ability of your character.  Watch out, because the running/angle bug is present in this event as well.  The optimal throwing angle is 42 degrees. 
+
+Event 4: 110m Hurdles
+
+The 110m Hurdles are exactly the same as the 100m Dash except the player must constantly push the jump button to clear the incoming hurdles.  Hitting a hurdle will slow your character down and cost the player some time at the end of the event.
+
+Event 5: Hammer Throw
+
+The Hammer Throw is completely different from the other five events.  This event is all about timing rather than rapid button mashing.  Once the event starts (with the throw button), the hammer thrower will begin to slowly rotate.  Once the thrower reaches the edge of the circle he will rotate very rapidly for three more rotations.  At the end of the third rotation the attempt will be considered a fault.  
+
+The secret to winning this event is to release the hammer on the third rotation when the thrower has maximum speed.  The tricky part is making sure the hammer will fly straight ahead instead of to the side.  If the hammer veers off course it will hit the sides of the cage and be counted as a fault.  Complicating matters is the fact that the thrower is moving with great speed so timing the release of the hammer is more a matter of luck than skill.  This is one of the hardest events in which to qualify. 
+
+Event 6: High Jump
+
+The High Jump is the sixth and final event.  This event is played like the Long Jump except instead of going for distance, players are trying to go for height (about 65 degrees is considered optimal).  Unlike the other events, the angle counter starts at 90 degrees (straight up) and decreases the longer the player holds down the jump button.  The High Jump is a special event as the player must complete the High Jump several times until the qualifying height has been reached (extra points are awarded for going over).  For some odd reason your character automatically runs for you in this event so there is no need to push left and right.  This event is rather difficult to complete due to the running/angle bug mentioned earlier.
+
+Amazingly the non-centering 5200 joystick makes playing Track and Field a breeze.  Although one has to be careful not to break the fragile stick, the floaty yet smooth movement of the stick allows for amazing running speeds.  The only downside of not using the three button arcade set up is the mushy jump/shoot button which can make exact timing difficult.  It's unknown if Atari was planning on including a special controller as they did with the 2600 and 400/800 version, but it would have improved the gameplay immensely.
+
+Track and Field seems to be complete, which makes sense since it was ported to the 400/800 and released.  The gameplay is outstanding and shows off the 5200's amazing graphics abilities.  The only complaint I have is that the characters often look as if they're running in place and moving forward instead of actually running forward.  This doesn't affect the gameplay at all, but it sure looks weird.  Unfortunately Track and Field met the same fate as most 5200 games after the Tramiel take over.  Even though it was fully complete it was shelved due to the collapsing market and new "computercentric" philosophy at Atari
+
+http://www.atariprotos.com/5200/software/trackfield/trackfield.htm

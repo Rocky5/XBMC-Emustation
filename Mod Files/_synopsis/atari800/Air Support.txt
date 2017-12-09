@@ -1,0 +1,269 @@
+Air Support
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Strategy - Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1
+Programmer: Richard Carr
+_________________________
+
+AIR SUPPORT
+by Synapse
+
+condensed by;
+NIGHTHAWK
+
+INTRODUCTION:
+
+     You are in command of a chopper, and control both the blue army and 
+the yellow special squad. the enemy controls the white opposing army and 
+in the ARCADE VERSION also controls missile launchers and twirlers. Your 
+chopper can drop bombs by pressing the trigger button. Also you control 
+your ground robots through different commands. your robot army is 
+divided into squads of 16 robots each. you can control the entire army 
+or individual squads.
+
+    When a robot engages in combat with an enemy unit, it will begin to 
+move its arms and legs rapidly. The program determines your strength by 
+scanning a 5x5 matrix around your robot in combat, the more robots you 
+can bring into combat to support your fighting robot the greater the 
+odds of defeating your enemy.
+
+TO START GAME:
+
+     The game begins in demo mode. Pressing start once shows the SCORE 
+screen. Pressing start a second time will begin game. Pressing the 
+option button will the score screen is showing will give you the option 
+menu. use option to select options and select button to modify choices 
+of play.
+
+THE ENEMY:
+
+     The number of enemy robots can vary from 250 to 999 in increments 
+of 50. However only 256 robots can appear on the map at any one time. 
+the remaining robots will back up the original as they are destroyed.
+
+DIFFICULTY:
+     See Chart for Differences.
+
+TERRIAN:
+
+     This option controls the # of lakes, mountains, trees etc. that are 
+randomly generated on the map.
+
+AIRLIFT/BOMBS:
+
+     You may choose to play with these options on or off. BOMBS allow 
+you to drop bombs on enemy robots. AIRLIFT allows you to drop and pickup 
+troops anywhere on the map. These options allow different war conditions 
+to simulate civil, world, or modern wars with very fast troop transport. 
+These options are basically for the STRATEGY game, but could act as 
+interesting handicaps in the Arcade Version.
+
+ROBOTS (16-144):
+
+      This option determines how many 16 robot squads will be in your 
+army.
+
+STATUS Lines:
+
+     Used when the game is in progress it doesn't appear on the SCORE or 
+OPTION screens.
+     Starting from the left review the following numbers.
+
+     The 1st number is the squad # assigned to the yellow robots on the 
+screen. You have direct control over movement of this squad. If the 
+number is blinking, then you have pressed the "0" key. you commands will 
+now be displayed by the entire army.
+
+     The 1st letter is the combat level of thesquad selected from a-c.
+
+     The number after the hyphen is the # of robots in the selected 
+squad.
+
+     The next symbol is the direction the squad is responding to.This 
+position on the STATUS line will show H,N,G,V,v,S,s. If your Squad is 
+retreating, then the symbol "R" will appear after direction indicator 
+symbol.
+
+     When playing the ARCADE game ver. the # of choppers will precede 
+the chopper symbol.
+
+     The # of chopper passengers appear after the chopper symbol.
+
+     Next is the Blue robot symbol that show the # of blue robots 
+remaining.
+
+     After the White robot symbol is the total # of robots in the White 
+opposing army.
+
+     After the bomb symbol is the # of bombs you chopper has left.
+
+     The last number in the STATUS line is the elapsed game time.
+
+COMMANDS:
+
+   Basic Commands:
+
+   F key freezes the game.
+
+   # keys determine which squad is selected for command mode. If for 
+example thw "2" is pressed the second squad will turn color to 
+yellow.Only if the "0" key is pressed will the whole army respond.
+
+   Arrow keys tell the selected army which way to move. robots that are 
+in combat will not respond to arrow keys until combat is resolved. The 
+"u" and "r" keys are the only keys robots in combat will respond to.
+
+   "G" key tell the selected squad to go to where the chopper was when 
+the key was pressed and form a tight group in that location. g stands 
+for group.
+
+   "S" key tells the squad to go where the chopper was when the key was 
+pressed and form a non-moving horizontal line. s stands for forming a 
+straight line.
+
+   "U"key causes the chopper to pickup the selected squad (yellow) that 
+are in a 7x7 matrix around the helicopter. the chopper can hold up to 16 
+robots.
+
+   "D"key will drop the robots in a 4x5 matrix. they can only be dropped 
+in a clear area. Obstructions will cause some robots to remain aboard, 
+with the # of remaining robots being shown on the STATUS line.
+
+   "SPACE BAR" selects the next highest # squad.
+
+   "RETURN" key selects the next lowest # squad.
+
+   "INSERT" key in the ARCADE ver. game gives you a new chopper if any 
+remain. this would be used when your chopper has used up its payload of 
+bombs.
+
+
+ADVANCED COMMANDS:
+
+   "O,P,L" keys are the diagonal direction keys.
+  "O" is up/left
+  "P" is up/right
+  "L" is down/right
+
+  "h"key tells the squad to go where the chopper was when the key was 
+pressed and form a horizontal line around that point. h stands for 
+horizontal line.
+î
+  "S" key combines the g+h commands. It allows you to form a 
+concentrated line.
+
+  "v" key tells the squad to go to were the chopper was when the key was 
+pressed and form a non-moving vertical line. v stand for vertical line.
+
+  "V" key combines the g+v commands. to form a concentrated vertical 
+line.
+
+  "n" key tell the selected squad to stop moving.
+
+  SHIFT-D will drop up to 4 robots from the chopper in a 1 row by 4 
+column line.
+
+  CTRL-D will drop up to 4 robots in a 4 row 1 column line.
+
+  "a,b,c" keys select combat rate.
+
+  "a" is the fastest with the odds of the blue robots winning are 
+reduced.
+  "b" is for normal combat.
+  "c" is the slowest and if you are out numbered this would give you 
+time to dig in and get reniforcements.
+
+  "r" is command to retreat. Pressing the "r" key will cause the letter 
+"R" to appear on the STATUS screen. Pressing "r" again will end the 
+retreat. Note that it will take some time for army to retreat if engaged 
+in combat.
+
+  "0" key selects all squads to respond to your command. with this 
+command activated the squad # on the STATus will blink.
+
+
+ARCADE:
+
+     In the Arcade game in addition to the enemy robot army the enemy 
+has missile launchers that can shoot down your chopper. you have 5 
+choppers with a 30 bomb payload each. for each minute of play your 
+chopper will receive 10 additional bombs. the enemy also shoots ground 
+with a 30 bomb payload each. for each minute of play your chopper will 
+receive 10 additional bombs. the enemy also shoots ground to ground 
+missiles approx. 1 each minute. destroy the launchers by dropping bombs 
+or moving robots near them.
+     Twirlers are a deadly force that destroy your robots. they must be 
+neutralized through bombing.
+the arcade game is quick game with emphasis on fast reflexes. the    
+STRATEGY game allows more time for planning and strategy.
+î
+GAME VARIATIONS:
+
+     Game 1+3 the enemy launches an all out effort to get to the bottom 
+of the map. In game 1 all of your robots are between the enemy and 
+bottom of map where as in game 3 you have the enemy surrounded the enemy 
+wins if they get 10 robots to bottom of map.
+
+     Game 2 the enemy must hold occupied ground.
+
+     Game 4 you must protect you bases (3 towers with blue flags) from 
+being overrun by enemy robots. To destroy a base the enemy must get 
+within 4 spaces(robots) of the flag at base and hold the base for 15 
+seconds then the base disappears. There are no robots on map at the 
+beginning of thig game. They enter the screen in groups of 32 appearing 
+on top, bottom, and left of map.
+
+     Game 5 allows you to position your bases in the middle 2/3 of the 
+map.
+
+     Game 6 is like game 4 but the enemy starts by holding bases that 
+you must obtain. The longer it takes to regain control the lower your 
+score.  The color of the bases will indicate which army has possession 
+of the base.
+
+     Game7 is like 6 but with game 5 option.
+
+
+DIFFICULTY CHART: 
+
+                      A    B     C  
+# Missile launchers   10   20    30
+# Twirlers            1    2     4
+Missile speed      normal  +50%  +100%
+Reinforcement         50   100   150
+robots/min
+game 1-3
+Reinforcement         32   64    128
+robots/min
+game4-7
+Ground to Ground missile launch is 1 per min all levels.
+
+
+TATICS:
+
+     One of your robots is equal in strength to 11/2  enemy robots. 
+Combat is randomly timed the more robots you have in a battle in one 
+location the better your odds of victory.
+Since combat is resolved in a 5x5 matrix you can maximize your odds by 
+attacking in 3 rows or columns of robots.
+î
+SCORING:
+
+     Final Score is computed as follows:
+
+10 pts for each enemy robot destroyed
+20 pts for each twirler destroyed
+40 pts for each launcher destroyed
+2000 pts for winning arcade game.
+3000 pts for winning strategy game
+500 pts for each surviving chopper in arcade game.
+
+
+Good Luck YOU WILL NEED IT.

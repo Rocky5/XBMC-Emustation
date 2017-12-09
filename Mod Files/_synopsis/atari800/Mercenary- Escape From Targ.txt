@@ -1,0 +1,21 @@
+Mercenary: Escape from Targ
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Adventure - First Person
+Gametype: Licensed
+Release Year: 1985
+Developer: Novagen Software
+Publisher: Novagen Software
+Players: 1
+Programmer: Paul Woakes
+_________________________
+
+Due to an engine malfunction, your spaceship crashes on the planet Targ. Unlike your trusty vessel, you survive the crash and now have to find a way to get away from this planet. But hey, while you're at it, you might as well try to get some money off your unplanned stay on Targ.
+
+You're a mercenary, and it just so happens that the two races on the planet are at war. So why not use that to your advantage and do some favors for each race... against cash?
+
+You play this game in a first-person perspective with vector graphics. There's a huge planet for you to explore, you can walk around on it or take airborne vehicles to reach elevated locations.
+
+http://www.mobygames.com/game/mercenary

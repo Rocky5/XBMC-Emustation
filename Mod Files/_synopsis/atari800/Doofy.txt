@@ -1,0 +1,13 @@
+Doofy
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Platform - Scrolling
+Gametype: Homebrew
+Developer: Janusz Karmanski
+Publisher: None
+Players: 1
+Programmer: Janusz Karmanski
+_________________________
+

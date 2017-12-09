@@ -1,0 +1,18 @@
+Juno First
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Arcade - Shooter - Fixed
+Gametype: Licensed
+Release Year: 1983
+Developer: Datasoft
+Publisher: Datasoft
+Players: 1 or 2 Alternating
+Programmer: Greg Hiscott
+_________________________
+
+This game is a 2D shooter. You 'll have to destroy the enemy's Magnet Power Station with your gun. There are only a few moments before the atomic turbine missile encounters the enemy. You, as pilot of a space fighter have to shoot your way though aliens. You can escape the danger by using warps and special objects - to be collected en route. The aliens will mutate in more dangerous forms the longer the live. So don't let the aliens survive.
+
+http://www.mobygames.com/game/msx/juno-first
+

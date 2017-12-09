@@ -1,0 +1,24 @@
+Adax
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Action - Adventure
+Gametype: Licensed
+Release Year: 1992
+Developer: LK Avalon
+Publisher: LK Avalon
+Players: 1
+Programmer: Rafal Wojcik
+_________________________
+
+Adax is an arcade adventure game where the player becomes a special agent, dispatched by the Earth military to the planet Adax in order to blow up a secret alien base and recover several disks with secret info. 
+
+The agent must travel around the six sectors of the planet, dodging or killing dangers and finding crates with objects inside--such as keys, ammo, "spheres" or disks. The enemies can be dispatched by kicking or punching them, by shooting them with a pistol (though ammo is limited), or by tossing "spheres" that roll along the ground and explode on impact. The "spheres" can also destroy the ever-present landmines which otherwise have to be jumped over. The keys can open locked doors, but are one-use. In an adventure game fashion, there are also special items with specific uses. 
+
+Each sector contains a vehicle that can take the agent to any other sector. 
+
+Contact with an enemy or falling from a height drains the agent's health, but killing enemies restores health. 
+
+
+http://www.mobygames.com/game/atari-8-bit/adax

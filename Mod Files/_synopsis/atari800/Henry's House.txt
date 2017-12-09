@@ -1,0 +1,20 @@
+Henry's House
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1987
+Developer: Mastertronic
+Publisher: Mastertronic
+Players: 1
+Programmer: Chris Paul Murray
+_________________________
+
+In this platformer, the player has to guide Henry through the numerous rooms of his house. Each room is a screen-sized level filled with deadly household-items such as toothbrushes, teapots, flying toast or coffee machines. Touching one of these objects or falling from too high kills Henry. The goal of each room is to reach the exit, however, before the exit opens up, Henry has to collect a key and all items that are spread throughout the level. In order for a key to appear, Henry usually has to collect a special item that sometimes adds more obstacles to a room.
+
+Trivia:
+
+As a sneaky way of boosting the game's sales, Chris Murray would move them to the #1 positions of shop's in-store charts. Whether this helped or not, Murray received ?1 per copy on the full-price C64 release and 10p a copy of on the budget Atari release, but made more money from the Atari version (which usually sold at least 5,000 copies a month, perhaps benefiting from a relatively starved market by 1987).
+

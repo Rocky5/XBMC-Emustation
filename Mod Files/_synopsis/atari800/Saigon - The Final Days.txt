@@ -1,0 +1,20 @@
+Saigon - The Final Days
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1981
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1
+Programmer: Jyym Pearson
+_________________________
+
+Saigon: The Final Days is a text adventure by Jyym Pearson and Robin Pearson, the team responsible for most of the Other Venture series. This game is aimed at more mature players. Splashing through the jungle, FNL on your tail, you crash into a clearing where a chopper is waiting. You throw yourself into the doorway as guns blaze around you. The chopper opens fire while you crouch on the floor.
+
+Experience all the chaos of 'Nam 1975 in this game. You are an escaped American POW lost in the jungle. Your only chance to survive is to reach Saigon, before the Cong reach you. This game most likely used the same parser as earlier games in the series - that is to say, basic 2-word commands in high Adventure International style.
+
+
+http://www.mobygames.com/game/atari-8-bit/saigon-the-final-days

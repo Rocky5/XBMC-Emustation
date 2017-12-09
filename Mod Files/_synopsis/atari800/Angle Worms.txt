@@ -1,0 +1,18 @@
+Angle Worms & Crolon Diversion
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1980
+Developer: Adventure International
+Publisher: Adventure International
+Players: 1 or 2 VS
+Programmer: Stan Ockers
+_________________________
+
+Loading instructions: 
+- turn off disk drive and make sure you are in BASIC mode
+- type CLOAD 
+- type RUN.

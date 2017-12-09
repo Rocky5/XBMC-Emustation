@@ -1,0 +1,15 @@
+Legacy- The
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick, Keyboard, Trak-Ball
+Genre: Action - Strategy
+Gametype: Prototype
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Dan Oliver, Chris Horseman
+Musician: Brad Fuller
+_________________________
+

@@ -1,0 +1,42 @@
+Transylvania
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1984
+Developer: Penguin Software
+Publisher: Penguin Software
+Players: 1
+Programmer: Jon Niedfeldt, Kirk Hullison
+_________________________
+
+Transylvania is an adventure with optional graphics, and a VERB NOUN interface. Two weeks ago, Princess Sabrina suddenly vanished and remained unseen since. King John the Good asks any travellers to help in locating her - you volunteer. 
+
+As you begin your quest in the dark forests of Transylvania, beware of the evil that lurks. You will encounter strange creatures like a vampire and a goblin, and experience strange things. Most importantly, a werewolf is constantly chasing you, until you find the pistol and bullets necessary to kill it. Remember fellow traveller, take care... 
+
+Trivia:
+
+Apple II versions
+
+On the Apple II this game underwent three major revisions: 1982 original, 1985 comprehend edition with improved parser, and in 1986 a special Double Hi-Res 16-colour version [requires 'enhanced' IIe with 128Kb RAM] which included new locations and more puzzles (later released for the Macintosh). 
+
+Development
+
+The author Antonio Antiochia created Transylvania on Apple II+, while still at high school as a text-based adventure game. Seeking a publisher for his work, he submitted it to Penguin Software, whose owner Mark Pelczarski was so impressed gave him a copy of The Graphics Magician to illustrate the game which he gladly did and the result became the final product. 
+
+Graphics
+
+The graphics shown on the screen were created using The Graphics Magician on Apple II series computer. Rather than saving individual graphic screens, this program is capable of recording a set of sophisticated instructions. Every picture is re-drawn as it was first originally done like a watching artist at work. This made porting the game considerably easier. 
+
+Macintosh release
+
+Transylvania, released in 1984 for Macintosh, was probably first commercial game released for this computer. Although black-and-white only (more or less gray to be exact), had resolution much better then first '82 release for Apple II. 
+
+Penguins
+
+Most Penguin Software (or Polarware) games contain a funny little remark about Penguins on the back cover of their games. In this case it is "Penguins still do not eat turnips." Only the Penguin software release contains the sentence, the later Polarware release does not.
+
+
+http://www.mobygames.com/game/atari-8-bit/transylvania

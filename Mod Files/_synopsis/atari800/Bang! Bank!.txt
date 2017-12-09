@@ -1,0 +1,25 @@
+Bang! Bank!
+Platform: Atari 800
+Region: Poland
+Media: Disk
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade
+Gametype: Homebrew
+Release Year: 1992
+Developer: OUR 5oft
+Publisher: Mirage Software
+Players: 1
+Programmer: Pawel Kalinowski
+Musician: Jakub Husak
+_________________________
+
+Bang! Bank! is a clone of Bank Panic, developed in Poland. Just like in the original, the player takes on the role of a bank security guard of the Wild West, protecting the bank's twelve doors on each level. 
+
+Three doors are visible on the screen at a time, and the player can walk right or left to reveal other doors. Customers and bandits come through the doors; bandits must be quickly shot before they do the same to you, but shooting an innocent person by accident results in losing a life. If a customer is able to enter the bank unmolested, they will deposit money; once all 12 doors have had customers deposit money through them, the next level begins. 
+
+Sometimes, messengers will come in with numerous hats on their heads; these can be shot down, eventually revealing a moneybag to be shot for points, or a bomb that makes you lose a life if you shoot it. 
+
+Certain levels are set during night-time, which makes it harder to discern the good guys from the bad guys. 
+
+
+http://www.mobygames.com/game/atari-8-bit/bang-bank

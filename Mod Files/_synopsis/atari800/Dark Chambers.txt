@@ -1,0 +1,19 @@
+Dark Chambers
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick
+Genre: Arcade - Shooter - Isometric
+Gametype: Licensed
+Release Year: 1988
+Developer: Sculptured Software
+Publisher: Atari
+Players: 1 or 2 CO-OP
+_________________________
+
+Dark Chambers is an arcade action game similar to Gauntlet. You are an explorer in an underground maze; your goal is to survive the 26 different levels and collect as many of the hidden treasures as you can. Hidden somewhere in each of the levels is an exit which will take you on to the next level. Trying to stop you from completing your quest are a wide variety of creatures, including zombies, wraiths, skeletons, wizards, and the grim reaper. Each of the creatures in the game has a different strength; when you shoot a creature, it will transform into the next weaker creature. Eventually a creature will become the weakest one (a zombie) at which point it can be destroyed. In addition to the creatures and treasures, other items that can be found in the maze are keys (to open doors), potions (to restore health), poison (drains health), guns (increases your firing rate), traps, shields, and bombs. The game is played from an overhead point of view, and is for one player or two players simultaneously.
+
+This game started out as an APX title called "Dandy" in 1983. Atari updated the graphics and released it as Dark Chambers in an effort to cash in on the Gauntlet craze. Also seen with a working title of "Dungeon". Requires 64K meaning it only works on the 800XL and various XE systems.
+
+http://www.mobygames.com/game/atari-8-bit/dark-chambers
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=8592

@@ -1,0 +1,18 @@
+Breakthrough in the Ardennes
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat - Turnbased
+Gametype: Licensed
+Release Year: 1984
+Developer: Tactical Design Group
+Publisher: SSI
+Players: 1
+Programmer: Chuck Kroegel
+_________________________
+
+Breakthrough in the Ardennes is a detailed regimental/brigade level simulation of the Battle of the Bulge. As the German Commander you win victory points by taking towns, exiting units, destroying American units and controlling specified road hexes and lose victory points for losing units and having a greater percentage of units destroyed than the Americans. When the game ends the German score is calculated and the level of German victory or American victory is displayed. The game covers 12 turns each covering a full day of operation. The game can be played solitaire as the American forces.
+
+
+http://www.mobygames.com/game/atari-8-bit/breakthrough-in-the-ardennes

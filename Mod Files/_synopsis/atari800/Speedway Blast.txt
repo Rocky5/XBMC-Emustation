@@ -1,0 +1,23 @@
+Speedway Blast
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: IDSI
+Publisher: IDSI
+Players: 1 or 2 Alternating
+Programmer: Howard De St. Germain
+_________________________
+
+The only thing that's predictable about Innovative Design Systems, the publisher of this 16K cartridge for the Atari computer systems, is its unpredictability. Few companies have compiled such a consistent record of coming up with the unusual title, the game that's at least several strides off the beaten track. IDSI games don't always have nail-biting play-action, but they seldom fail to present a new and novel arcading experience.
+
+Speedway Blast preserved IDSI's reputation intact. The player wields a joystick to steer a racing car through a macro-maze composed of the streets of a small city. Driving the vehicle is a snap, and it shouldn't take most arcaders too long to learn how to execute hairpin turns even at top speeds.
+
+It's a good thing the racer is highly maneuverable, since it has to be just about everywhere at once to battle the pothole monsters that are rapidly chewing up the asphalt. A secondary display helps the gamer find the quarry, which "hatch" out of eggs that can be found at most intersections when the game begins. The player scoops up as many of these eggs as possible - and then uses a hood-mounted gun to fill in the holes and dispatch the monsters which dug them. When all the streets are free of both monsters and potholes, the game kicks up to the next difficulty level and resumes.
+
+The graphics in Speedway Blast are about the best ever seen on an IDSI game. Though the monsters are little more than a few lines without a great deal of charm or character, the car and the town it patrols are exceptionally well-depicted. Wheeling the little auto up and down streets at breakneck speeds is actually fun in and of itself, and the addition of the shoot-'em-up element completes the picture in outstanding fashion.
+
+[Electronic Games - October,1983]

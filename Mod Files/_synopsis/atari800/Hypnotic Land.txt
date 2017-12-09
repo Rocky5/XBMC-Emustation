@@ -1,0 +1,18 @@
+Hypnotic Land
+Platform: Atari 800
+Region: Italy
+Media: Cartridge
+Controller: Joystick
+Genre: Strategy - Arcade
+Gametype: Licensed
+Release Year: 1992
+Developer: Lindasoft
+Publisher: Lindasoft
+Players: 1
+_________________________
+
+In this game you got to supply energy to a distant planet in danger.  For this purpose redirect, coloured falling balls of mineral elements, into the correspondent colour cup at the end of the ramp.  To do this you can place some arrows on certain squares of the ramp (use joystick and click button to place an arrow facing right or left).  When a coloured ball hits an arrow it changes its path to the adjacent column.
+
+Remember to put green balls only into green cups and so on..  It seems like easy... but some despicious monsters will try to steal the balls.  You can shoot them' up, going on them with joystick button depressed.  At each level difficulty will increase and also the number of cups.  Sometimes on the ramp will descend special shining extra balls.  They can go into any cup, giving extra points.  Hypnotic Land requires skill and quick reflexes, can you manage it?
+
+~From the back of the box

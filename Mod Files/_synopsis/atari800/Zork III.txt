@@ -1,0 +1,28 @@
+Zork III
+Alternative title: Zork III: The Dungeon
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1983
+Developer: Infocom
+Publisher: Infocom
+Players: 1
+Programmer: Dave Lebling
+_________________________
+
+In the third game of the adventure game series Zork, you are once again a nameless adventurer, only this time you won't travel through a beautiful magical land, but are immediately cast into a deep dungeon. Like in a dream, you hear a mysterious voice telling you that you have passed all the tests but one. When consciousness returns to you, you find yourself on the endless spiral of stairs, with only your trusty lantern near you... will you be able to survive the horrors of the Dungeon?
+
+Like its predecessors, Zork III: The Dungeon Master is a text adventure game. You read descriptions of rooms and then interact with the game by typing commands. As all early Zork games, it is very easy to get stuck in the game, so you'll have to reload several times in order to find the correct way.
+
+
+Trivia:
+
+As part of the release of Zork Grand Inquisitor, Activision released Zork III as freeware. (Currently the links to download the game are dead at activision.com, but the game is available at numerous fan sites.)
+
+Zork III has a area where you can view "scenes" from Zork I, II and IV. IV became Enchanter, and the scene still survives.
+
+
+http://www.mobygames.com/game/atari-8-bit/zork-iii-the-dungeon-master

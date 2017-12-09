@@ -1,0 +1,22 @@
+Wizard Of Wor
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade - Fixed
+Gametype: Licensed
+Release Year: 1981
+Developer: Roklan Corp.
+Publisher: Roklan Corp
+Players: 1 or 2 Co-op/VS
+Licensed from: Bally / Midway
+Programmer: Joe Hellesen
+_________________________
+
+Wizard of Wor is an arcade shooter played from a top down point of view. You control a warrior who is trapped in a dungeon; your goal is to earn as many points as possible by shooting the numerous enemy creatures which wander about the maze like corridors.
+
+The creatures wander about at various speeds, may shoot darts at you, and some even have the ability to disappear temporarily. At the bottom of the screen you have a radar which can be used to locate creatures that are invisible. When you complete a maze, a Worluk will sometimes appear. This creature moves rapidly and will only be on the screen momentarily. If you destroy it before it escapes, the next dungeon will become a double score dungeon and all creatures will be worth twice as many points.
+
+Occasionally the Wizard of Wor himself may appear! He moves quick and can teleport around the maze. Destroy him and you'll earn a large amount of points. The game can be played by one player or two players simultaneously.
+
+http://www.mobygames.com/game/atari-5200/wizard-of-wor

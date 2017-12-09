@@ -1,0 +1,23 @@
+Fraction Fever
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Educational
+Gametype: Licensed
+Release Year: 1983
+Developer: Tom Snyder Productions, Inc.
+Publisher: Spinnaker Software
+Players: 1
+Programmer: Tom Snyder, Fran Taylor
+_________________________
+
+Fraction Fever is a contagiously exciting learning game!  It has the graphics and fast paced actions of an arcade game, with an important difference: how well you do depends on how well you understand fractions.
+
+As you hop along on your pogo stick, you'll be searching for a fraction that matches the one at the top of the screen.  Spot the right fraction and ride to higher floors.  Zap the wrong ones along the way and pile up points.  But matching fractions isn't as easy as it sounds.  Because the same fraction can be written several different ways.  Will you recognize 3/4 when it flashes before you?
+
+And remember: you need to watch out for holes in the floor, and keep a close eye on the clock!
+
+The higher you go, the harder the fractions get and the faster you have to think if you want to move and stay in the game!
+
+~From the back of the box

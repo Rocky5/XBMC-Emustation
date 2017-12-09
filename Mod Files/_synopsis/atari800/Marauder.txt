@@ -1,0 +1,24 @@
+Marauder
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Sierra On-Line
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Eric Hammond, Rorke Weigandt
+_________________________
+
+In the game you are descending to a fortified enemy base to eliminate its power stations. The plot unfolds during two stages.
+
+Stage 1 - Landing.
+You should pilot one of three jets to break through a set of lasers, turrets, flying bombs, and barriers. To do this you may control your jet by moving it and shooting. Once all enemies are eliminated, you may transfer to the next base. Eliminating the enemies will raise your score as well as bonus will be greater if you destroy all enemies faster, and when you'll see that this stage is completely dominated by you, you may proceed to the next stage.
+
+Stage 2 - Sabotaging.
+You find yourself as one of six crew members from a descended jet in the enemy power facility. The Corridors are filled with guards. You should move from one room to another, eliminate or avoid the guards, and destroy the power station. Once you've destroyed it, enemy scientists will repair it again, adding more guards to the rooms, and tries to defend it again. You should repeat your mission. To do this you will control your soldier by moving him/her and shooting. Guards are not seen through the walls as well as they will not see you until they are looking not in your direction. Each killed guard earns points as well as bonus is greater if you'll destroy the power station faster.
+
+
+http://www.mobygames.com/game/atari-8-bit/marauder__

@@ -1,0 +1,32 @@
+F-15 Strike Eagle
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Simulation - Flight - Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Microprose Software
+Publisher: Microprose Software
+Players: 1 or 2 Alternating, Co-Op
+Programmer: Sid Meier
+_________________________
+
+The seven missions featured in this simulation of F-15 flight are all real-life missions the plane was originally used in. They take in the Middle East and Asia in the 1970s and early 1980s, and have air and ground targets to destroy. You have machine guns, guided missiles and bombs at your disposal. There is an arcade mode and 3 further difficulty levels. The game features 3 enemy aircraft and 3 types of enemy SAMs.
+
+Trivia:
+
+Arcade mode
+
+For the severely coordination-challenged, there is an arcade mode in the game. It differs from the regular mode in that it does not allow banking; rudder turns only. If the player got hit into a slight bank, they're stuck in that bank. 
+
+F-15
+
+In real-life, the F-15 is a land-based aircraft, but apparently not in this sim, as the player can takeoff and land on a carrier. 
+
+Graphics
+
+F-15 Strike Eagle is one of the few games to support EGA's nearly-unknown 160x200x16 mode. 
+
+
+http://www.mobygames.com/game/atari-8-bit/f-15-strike-eagle

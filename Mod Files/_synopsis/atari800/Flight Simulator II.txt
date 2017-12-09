@@ -1,0 +1,24 @@
+Flight Simulator II
+Known issue (if you can help join the forum): Check to see if version in Xtras locks up?  Image with 6d6efd3e is supposed to be a working version.
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick, Keyboard
+Genre: Flight Simulator
+Gametype: Licensed
+Release Year: 1987
+Developer: subLOGIC
+Publisher: Atari
+Players: 1
+Programmer: Bruce Artwick
+_________________________
+
+If there were any doubt as to the quality of Flight Simulator II, it should be dispelled by the knowledge that SubLOGIC went to the FAA for approval of its use in flight training. Whether or not they actually got the approvalremember this was 1984, and such application of personal computers was new groundthey attempted to create a realistic flight simulator.
+
+This flight simulator simulates a real aircraft, the Piper PA-23-181 Archer II. For those with the knowledge, it offers practice with the variables of flight, including the avionics. The Atari ST-release (1986), instead, simulates the Cessna 182 single engine propeller aircraft and the Gates Learjet 25G twin engine jet. 
+
+The simulator was considered to be a second generation product. It had many more features than first generation flight simulators, and pilots were expected to pay attention to small details. SubLOGIC encouraged the users of the game to go to flight stores and purchase flight-training manuals and aeronautical charts to help them understand the variables within the program. The game was oriented toward pilots-in-training, but there were options for non pilots too: the company included an easy mode, and a slightly more detailed reality mode. These modes did not require the same level of knowledge.
+
+Flight Simulator II was also packaged with a WWI dogfighting game, called WWI Ace. In this game your plane is armed with bombs, machine guns, and a radar screen. The radar screen is anachronistic for a game set in World War I, but it is there to help gameplay.
+
+http://www.mobygames.com/game/atari-8-bit/flight-simulator-ii

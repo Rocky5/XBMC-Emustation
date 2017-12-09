@@ -1,0 +1,13 @@
+Star Island
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shooter - Arcade
+Gametype: Licensed
+Release Year: 1982
+Developer: STEDEK Software
+Publisher: Binary Computer Software
+Players: 1
+_________________________
+

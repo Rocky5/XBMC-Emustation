@@ -1,0 +1,17 @@
+Linking Logic
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Educational
+Gametype: Licensed
+Release Year: 1984
+Developer: Frieda Lekkerkerker, Inc.
+Publisher: Fisher-Price
+Players: 1
+Programmer: Frieda Lekkerkerker, J. McGuirk
+_________________________
+
+Get Buddy and Betty from the top floor to the bottom by placing ladders, walls, springs, etc. into the proper positions. Sort of an "introduction to Lemmings".
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=7647

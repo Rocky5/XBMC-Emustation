@@ -1,0 +1,15 @@
+Eckn
+Platform: Atari 800
+Region: Germany
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Puzzle
+Gametype: Homebrew
+Release Year: 2007
+Developer: Berlin Softworks
+Publisher: Berlin Softworks
+Players: 1
+Programmer: Ch. Kruger
+Musician: Ch. Kruger
+_________________________
+

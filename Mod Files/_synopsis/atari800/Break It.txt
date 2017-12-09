@@ -1,0 +1,15 @@
+Break It
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Unlicensed
+Release Year: 1988
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Oliver Cyranka
+_________________________
+
+Probably submitted to a German magazine by the author but never published.

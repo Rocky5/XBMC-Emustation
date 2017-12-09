@@ -3,7 +3,7 @@
 	Used to create MyPrograms.xml for different emulators styles
 '''
 
-import fileinput, glob, os, shutil, sys, time, xbmc, xbmcgui
+import fileinput, os, time, xbmc, xbmcgui
 
 #####	Start markings for the log file.
 print "| _Scripts\XBMC-Emustation\menu_loader.py loaded."
@@ -66,16 +66,22 @@ Header_Data_EMU					= '<window id="1">\n\
 			<aspectratio>stretch</aspectratio>\n\
 			<texture background="false" fallback="layouts/%s/menu_background.png">Special://xbmc/_layouts/%s/%s/menu_background.png</texture>\n\
 		</control>\n\
+		<!-- Used to run the script and stop folk moving the list forward or backwards -->\n\
+		<control type="button" id="9999">\n\
+			<posx>-500</posx>\n\
+			<onfocus>RunScript(Special://XBMC/_scripts/XBMC-Emustation/play_preview.py)</onfocus>\n\
+		</control>\n\
+		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
 		<control type="button" id="9100">\n\
 			<posx>-500</posx>\n\
-			<onup>stop</onup>\n\
 			<onup>setfocus(9000)</onup>\n\
+			<onup>stop</onup>\n\
 			<onup>Control.Move(9000,-1)</onup>\n\
-			<ondown>stop</ondown>\n\
 			<ondown>setfocus(9000)</ondown>\n\
+			<ondown>stop</ondown>\n\
 			<ondown>Control.Move(9000,1)</ondown>\n\
-			<onclick>stop</onclick>\n\
 			<onclick>setfocus(9000)</onclick>\n\
+			<onclick>stop</onclick>\n\
 		</control>\n\
 	'
 Footer_Data_EMU					= '\n\
@@ -102,16 +108,22 @@ Header_Data_XBE					= '<window id="1">\n\
 			<aspectratio>stretch</aspectratio>\n\
 			<texture background="false" fallback="layouts/%s/menu_background.png">Special://xbmc/_layouts/%s/%s/menu_background.png</texture>\n\
 		</control>\n\
+		<!-- Used to run the script and stop folk moving the list forward or backwards -->\n\
+		<control type="button" id="9999">\n\
+			<posx>-500</posx>\n\
+			<onfocus>RunScript(Special://XBMC/_scripts/XBMC-Emustation/play_preview.py)</onfocus>\n\
+		</control>\n\
+		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
 		<control type="button" id="9100">\n\
 			<posx>-500</posx>\n\
-			<onup>stop</onup>\n\
 			<onup>setfocus(50)</onup>\n\
+			<onup>stop</onup>\n\
 			<onup>Control.Move(50,-1)</onup>\n\
-			<ondown>stop</ondown>\n\
 			<ondown>setfocus(50)</ondown>\n\
+			<ondown>stop</ondown>\n\
 			<ondown>Control.Move(50,1)</ondown>\n\
-			<onclick>stop</onclick>\n\
 			<onclick>setfocus(50)</onclick>\n\
+			<onclick>stop</onclick>\n\
 		</control>\n\
 	'
 Footer_Data_XBE					= '\n\

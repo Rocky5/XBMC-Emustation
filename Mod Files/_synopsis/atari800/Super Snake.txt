@@ -1,0 +1,15 @@
+Super Snake
+Known issue (if you can help join the forum): box front has watermark.
+Platform: Atari 800
+Region: Germany
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Europa Computer Club
+Publisher: Europa Computer Club
+Players: 1
+Programmer: Kemal Ezcan
+_________________________
+

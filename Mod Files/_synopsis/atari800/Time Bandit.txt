@@ -1,0 +1,15 @@
+Time Bandit
+Platform: Atari 800
+Region: Germany
+Media: Disk
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Jorn Bohrer
+Musician: Kemal Ezcan
+_________________________
+

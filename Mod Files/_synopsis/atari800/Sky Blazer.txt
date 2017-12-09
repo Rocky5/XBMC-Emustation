@@ -1,0 +1,18 @@
+Sky Blazer
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Shooter - Horizontal
+Gametype: Licensed
+Release Year: 1983
+Developer: Star Craft, Inc.
+Publisher: Br0derbund Software
+Players: 1
+Programmer: Tony Suzuki
+_________________________
+
+Star Blazer is a side-scrolling shooter similar in style to Konami's Super Cobra. You are a fighter pilot on several hazardous missions. In each level you have to fulfill one mission like bomb the radar, destroy the tank etc. The scenery as buildings and warehouses and airborne objects as jets and rockets can all destroy your jet. Your fighter jet is armed with a limited supply of bullets for a on board machine gun and with bombs, also with limited supply. Bombs can only be dropped from very low altitude. Furthermore, your jet has a limited amount of fuel which can be refueled by picking up a parachute dropped out of another plane.
+
+
+http://www.mobygames.com/game/atari-8-bit/star-blazer

@@ -1,0 +1,33 @@
+Floyd of the Jungle
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: Microprose Software
+Publisher: Microprose Software
+Players: 1 or 2 VS
+Programmer: Sid Meier
+_________________________
+
+Load with OS-B for correct colors and no glitches.
+
+Noticeable changes to the original (1982) game:
+- the program is now in machine language
+- the first splash screen has been removed
+- the second splash screen is different
+- the in-game font looks nicer
+- the intro screen says VERSION II
+- a demo mode is now available
+- you now have computer opponents
+- there is some in-game music
+- you can use the joystick button instead of START in-game.
+
+In this game, you and two other men, George and Floyd, are on a mission to rescue a girl who is lost in the jungle. All three of you need to look out for alligators, elephants, birds, and many other wildlife that inhabit the jungle. Birds and Pigmies can be picked up for points. As stated earlier, you need to rescue the girl who is lost in the jungle, but if George or Floyd get to her before you do, you will have to restart the level. A "handicap" option is available.
+
+On Atari 8-bit you could play 4 players simultaneously.
+
+
+http://www.mobygames.com/game/atari-8-bit/floyd-of-the-jungle

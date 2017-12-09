@@ -1,0 +1,29 @@
+Controller
+Known issue (if you can help join the forum): Can\'t Upload Boxart for some reason.
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Simulation - Strategy
+Gametype: Licensed
+Release Year: 1982
+Developer: Avalon Hill
+Publisher: Avalon Hill
+Players: 1
+_________________________
+
+If Avalon Hill had introduced this game a year or two earlier, it might have altered the course of history. Had President Reagan been able to show this real-time simulation to striking members of the Air Traffic Controllers Union, they might've hustled back to their posts lest a bunch of computerists take away their livelihood.
+
+Seriously, though no present day electronic game can truly reflect the complexities of a real-world situation. Controller comes about as close as anyone could wish. The arcader is given a choice seat in front of a radarscope in a control tower located near a smallish (two-runway) air field. Using the information provided by the 10- and 100-mile radar screens, the player directs the approaches and landings of up to eight flights.
+
+Although Controller, like most of Avalon Hill's computer programs, does not overflow with breath-taking graphics, the display does present a wealth of data in easily decipherable form. The radar display shows each plane's position relative to the tower; a chart to the right of the scope indicates the heading, altitude and velocity of each aircraft in the game, and the section of the screen right below this summarizes statistics such as fuel, bearing and the nature of the maneuver underway for the plane directly under the controller's guidance at the time.
+
+These factors, modified by the flight characteristics of the individual planes, must be rapidly evaluated by the player during every single second of play during the game.
+
+You won't learn, much less master, Controller immediately, but it provides a bracing challenge for those who like games that mix strategy and tactics.
+
+Though it is difficult to recommend Controller to the casual action game lover, it may be just the ticket.
+
+You won't learn, much less master, Controller immediately, but it provides a bracing challenge for those who like games that mix strategy and tactics.
+
+[Electronic Games ? September, 1982]

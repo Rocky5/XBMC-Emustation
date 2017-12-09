@@ -1,0 +1,14 @@
+Incydent
+Platform: Atari 800
+Region: Poland
+Media: Tape
+Controller: Joystick
+Genre: Adventure - Multi-Screen
+Gametype: Licensed
+Release Year: 1993
+Developer: ASF
+Publisher: ASF
+Players: 1
+Programmer: Piotr Kulikiewicz
+_________________________
+

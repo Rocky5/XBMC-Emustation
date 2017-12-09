@@ -1,0 +1,15 @@
+Gauntlet (PD)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Shoot 'em Up - Multi-Screen
+Gametype: Homebrew
+Release Year: 1984
+Developer: Donald R. Lebeau
+Publisher: Donald R. Lebeau
+Players: 1
+Programmer: Donald R. Lebeau
+_________________________
+
+Shareware version of Gauntlet.  For full version see Gauntletak.

@@ -1,0 +1,15 @@
+Landscape
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - First Person
+Gametype: Prototype
+Release Year: 1984
+Developer: Tracy LaGrone, Richard E. Sansom
+Publisher: None
+Players: 1
+Programmer: Tracy LaGrone, Richard E. Sansom
+_________________________
+
+Preliminary version of Stealth.

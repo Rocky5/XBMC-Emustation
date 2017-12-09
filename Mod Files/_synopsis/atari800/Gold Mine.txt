@@ -1,0 +1,17 @@
+Gold Mine
+Known issue (if you can help join the forum): box back needs watermark removal
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: Spectravideo
+Publisher: Spectravideo
+Players: 1
+_________________________
+
+You are in a small town in Germany.  Suddenly an earthquake occurs!  The vault in the town's only bank is cracked open and money pours into the earth.  Because of your courage and skill, the bank hires you and your small band of raiders to go under the streets and recover the lost money.  Below the surface, tunnels and sewers are left only partially damaged, but they are inhabited by creatures which can eliminate your team.  Your only defense is your cleverness and speed.  At first, the money are plentiful.  After every trip back to the surface, more appear right below.  But as the search continues, you are forced to look deeper.  Eventually the creatures seem more aggressive.  If you can recover enough money the bank will give you an advance to hire another raider.  Good luck!
+
+~From the manual

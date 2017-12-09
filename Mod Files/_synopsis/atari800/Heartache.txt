@@ -1,0 +1,21 @@
+Heartache
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Action - Strategy - Isometric
+Gametype: Licensed
+Release Year: 1988
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Andrew Dickenson
+Musician: Richard Munns
+_________________________
+
+When you first play this game, you'll be forgiven for thinking that your Atari's collision detection has failed. The space-suited character you control moves through enemies, walls and other hazards without losing any of his five lives. It also moves past the heart which starts next to you, and even across the screen's borders. 
+
+This is correct; the idea of the game is to use your gas cannon to guide the heart (which represents a clearance pod) from one end of the screen to the other, within a time limit. If this runs out, or the heart hits a wall or any of the marauding enemies or hazards, a life is lost. Controls are rotational - moving the joystick left or right changes the character's angle, while pushing forward causes him to move in that direction, with fire activating the blow-gun.
+
+http://www.mobygames.com/game/atari-8-bit/heartache
+

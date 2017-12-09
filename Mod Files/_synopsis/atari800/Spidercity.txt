@@ -1,0 +1,17 @@
+SpiderCity
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Multi-Directional
+Gametype: Licensed
+Release Year: 1983
+Developer: Sirius Software
+Publisher: Sirius Software
+Players: 1
+Programmer: David Lubar, Tom McWilliams
+_________________________
+
+Rescue spacemen and navigate city tunnels. Identical to the Atari 2600 version, which was released under the name Flash Gordon.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=8487

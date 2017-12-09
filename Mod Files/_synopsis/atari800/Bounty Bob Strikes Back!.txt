@@ -1,0 +1,15 @@
+Bounty Bob Strikes Back!
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Platform
+Gametype: Licensed
+Release Year: 1985
+Developer: Big Five Software
+Publisher: Big Five Software
+Players: 1 or 2 Alternating
+Programmer: Bill Hogue
+_________________________
+
+This version does tends to lock up.  Use either the 5200 or cassette version.

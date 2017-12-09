@@ -1,0 +1,40 @@
+Hans Kloss
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Adventure - Platform
+Gametype: Licensed
+Release Year: 1992
+Developer: LK Avalon
+Publisher: LK Avalon
+Players: 1
+Programmer: Dariusz Zolna
+_________________________
+
+Hans Kloss is a platform game unofficially based on the Polish TV series "Stawka Większa niż Życie". The protagonist, an agent codenamed Hans Kloss, must infiltrate a Nazi base to acquire secret plans. There are several pieces of the plans in the base, and all must be collected. 
+
+The game plays like a standard platformer, with the agent jumping from platform to platform; he also uses elevators to move around. There are numerous closed doors throughout the base, and the player has to collect one-use keys. Opening the wrong door or dropping down the wrong hole can easily make the game impossible to complete. 
+
+There are two energy meters, one representing hunger and one representing thirst. Both of them drop constantly and need to be refilled with the appropriate pickups. Occasionally, small tanks will randomly drive onto the screen; colliding with them drains both energy meters quickly. If either energy meter reaches zero, the game is over. The game also ends if the agent walks into a sensor that activates a defense turret; switches can be found which temporarily deactivate sensors when pressed. 
+
+Trivia:
+
+Cover art
+
+The man on the cover and the title screen is the actor who played the role of agent J-23 (a Pole working for Soviet intelligence, impersonating Abwehr officer, Hans Kloss) in the 1960s television miniseries (and the earlier television drama series), Stanisław Mikulski. 
+
+Development
+
+Developing the game took six months. 
+
+Music
+
+The background music is based on the main theme from the original TV show. 
+
+References
+
+When the infinite energy cheat code is activated, two revolvers appear on the title screen with the letters "GNR" below them. This is a reference to the band Guns N' Roses.
+
+
+http://www.mobygames.com/game/atari-8-bit/hans-kloss

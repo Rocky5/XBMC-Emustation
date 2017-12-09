@@ -1,0 +1,14 @@
+Tumble Bugs
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action - Maze
+Gametype: Licensed
+Release Year: 1982
+Developer: Datasoft
+Publisher: Datasoft
+Players: 1
+Programmer: Mark Riley
+_________________________
+

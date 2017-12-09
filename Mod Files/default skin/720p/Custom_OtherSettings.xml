@@ -168,11 +168,18 @@
 								<control type="button" id="41">
 										<posx>0</posx>
 										<posy>0</posy>
+										<label>$LOCALIZE[32057]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/rename_tbn_to_png.py)</onclick>
+								</control>
+								<control type="button" id="42">
+										<posx>0</posx>
+										<posy>0</posy>
 										<label>$LOCALIZE[32055]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/patch_xbe_paths.py)</onclick>
 								</control>
-								<control type="button" id="42">
+								<control type="button" id="43">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label>$LOCALIZE[32049]</label>

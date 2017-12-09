@@ -1,0 +1,14 @@
+Dodge Racer
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Racing - Action - Maze
+Gametype: Licensed
+Release Year: 1981
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1 to 4 Alternating
+Programmer: Rob Re
+_________________________
+

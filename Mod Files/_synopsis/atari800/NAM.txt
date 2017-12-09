@@ -1,0 +1,18 @@
+NAM
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1985
+Developer: SSI
+Publisher: SSI
+Players: 1
+Programmer: Roger Damon
+_________________________
+
+NAM is based on battles fought in the Vietnam War. There are six scenarios to choose from to start the game. Each scenario ranges from 15-25 turns of game play with eleven phases for each game turn. At the end of each turn, victory points are determined on both sides for units killed. At the end of the turns for that scenario all victory points are figured to determine how decisive the battle was.
+
+
+http://www.mobygames.com/game/atari-8-bit/nam_

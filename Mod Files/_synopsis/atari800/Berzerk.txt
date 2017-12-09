@@ -1,0 +1,24 @@
+Berzerk
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade
+Gametype: Prototype
+Release Year: 1983
+Developer: Atari
+Publisher: None
+Players: 1 or 2 Alternating
+_________________________
+
+You have been sent into a building infested with robots, and must do your best to clear it out. Each rooms has a number of walls through the middle, which restrict your movement. There will be a number of bad guys in the room - on early screens they may be immobile and not shoot at you, but after a few levels they become capable of shooting in multiple directions. You can shoot at them in 8 directions, but can't shoot diagonally while moving. There are gaps at the side of each room, through which you exit, before or after clearing the room (there is a bonus for clearance). You get an extra life every 2000 points.
+
+Trivia:
+
+In 1983, Milton Bradley adapted this video game into a boardgame.
+
+Berzerk was popular enough to have a song inspired by it on the full-length "Pac-Man Fever" album - "Goin' Berzerk".
+
+
+http://www.mobygames.com/game/atari-8-bit/berzerk
+

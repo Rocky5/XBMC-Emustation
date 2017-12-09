@@ -1,0 +1,18 @@
+Trailblazer
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Action - Strategy
+Gametype: Licensed
+Release Year: 1986
+Developer: Mr. Chip Software
+Publisher: Gremlin Graphics
+Players: 1 or 2 VS
+Programmer: Amin Hoque
+_________________________
+
+An imaginative action game in which you must guide a ball-shaped craft through a succession of levels. These have a patchwork-quilt type display, with holes to avoid, and squares of various colors, which affect the craft's speed, both within its power potential and into warp, as well as a control-reverser and lots of holes. You can jump and thus avoid these holes, although you have a limited number of them for each level, and it's possible to adjust the speed through joystick or keyboard control. You also face a time limit on each of the levels, although your time is boosted every time you complete one.
+
+
+http://www.mobygames.com/game/atari-8-bit/trailblazer

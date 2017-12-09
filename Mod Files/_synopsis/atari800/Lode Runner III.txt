@@ -1,0 +1,27 @@
+Lode Runner III
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Platform - Strategy
+Gametype: Hack
+Release Year: 1983
+Developer: Broderbund
+Publisher: Broderbund
+Players: 1
+Programmer: Doug Smith
+_________________________
+
+The cartridge version does not contain all of the original games levels.
+
+The Bungeling Empire has stolen a huge cache of gold from its rightful owners, and your mission is to infiltrate its treasury and recapture it. This entails progressing through 150 screens of platforms, ladders and ropes.
+
+The Empire has sent robotic guards down to protect the gold, and contact with any of these will cost you a life. Your method of escaping them is to press fire to dig a hole in their line of movement, thus causing them to fall in briefly, allowing you to move across the gap safely. Once all the gold has been collected, a ladder allowing you to move onto the next screen is added. Completing these screens often requires forward planning and precision.
+
+This was one of the earliest games to include a level editor, allowing the creation of new level designs with no programming skill.
+
+Trivia:
+
+One of the biggest ever "Lode Runner" competitions took place, during Japan's World Fair in August 1985. Gameplay was shown on a massive Sony's Jumbotron (then the world's largest television at 80x150 feet). Over 3,000 people entered from across Japan and only 50 were selected to try their luck at achieving the highest score within three minutes. 12 year old, Yasutaka Fujii was proclaimed the winner.
+
+http://www.mobygames.com/game/atari-8-bit/lode-runner

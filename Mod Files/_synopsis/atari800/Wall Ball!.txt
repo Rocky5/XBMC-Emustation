@@ -1,0 +1,14 @@
+Wall Ball!
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Homebrew
+Release Year: 198x
+Developer: Dan Winslow
+Publisher: None
+Players: 2 VS
+Programmer: Dan Winslow
+_________________________
+

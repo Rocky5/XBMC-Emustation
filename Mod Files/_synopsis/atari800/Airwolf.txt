@@ -1,0 +1,17 @@
+Airwolf
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Vertical - Scrolling
+Gametype: Licensed
+Release Year: 1985
+Developer: Elite
+Publisher: Elite
+Players: 1
+Programmer: Richard Wilcox, Trevor Perks
+_________________________
+
+The game of the TV show is viewed from the side and puts you in command of an attack helicopter. Your task is to rescue 5 scientists from an underground lair by destroying its layer of protection and then getting to the core. Moving onto a screen at a time you must shoot out anything and everything in your path, including lots of regenerating static targets. Realistic gravity takes effect, so you can't simply hover in a set position.
+
+http://www.mobygames.com/game/atari-8-bit/airwolf_

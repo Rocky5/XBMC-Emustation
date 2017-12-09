@@ -1,0 +1,51 @@
+Livewire
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Paddle
+Genre: Arcade - Shooter
+Gametype: Magazine
+Release Year: 1983
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1
+Programmer: Tom Hudson
+_________________________
+
+ANALOG Computing Issue 12, 1983. 
+
+Playing the game.
+
+It's not every day that you get a chance to venture inside your computer.  Prepare yourself, because Livewire! pits you against the horrible dangers that lurk inside that seemingly peaceful plastic enclosure.
+
+In Livewire! you are a logic probe on a mission to rid your computer of the harmful electronic faults.  You sit atop various circuit junctions (which just happen to spell "LIVEWIRE") as the enemes of your computer climb up the circuit lines toward you.  There are 64 levels in the game, each on more difficult than the last.
+
+You can use either a joystick or paddle to play Livewire!, but a paddle is recommended.  Choose the desired controller with the SELECT key, then press START to begin playing.
+
+Use your controller to move along the rim of the circuit.  Your controller button fires up to six deadly electron bursts at a time, which destroy the enemy electronic faults on contact.  Keep alert, because the enemies can also fire electron bursts at YOU!
+
+In a tight situation, the space bar will destroy all enemy objects on the circuit.  Use this weapon wisely, as you are allowed only one use of the space bar "zap" per circuit grid.
+
+Points are awarded for the destruction of each enemy object.  The current score is shown at the lower left of the screen.  You begin each game with 3 lives (shown to the right of the score), with bonus lives awarded every 20,000 points.  The current level number is shown at the lower right of the screen.
+
+The ESC key will pause the game at any time.  Press the ESC key a second time to continue game play.
+
+Know your Enemy.
+
+The enemies in Livewire! are not aliens, monsters or any other tangible threat.  They are electronic impulses, out to systematically destroy your computer.
+
+ARCS are cleve objects which unpredictably jump from one circuit line to another.  They are worth 50 points each.
+
+SURGES rise up the circuit grid toward you, then change direction, heading back toward the bottom.  If they are not destroyed before they hit the bottom, they create another ARC.  SURGES are worth 100 points.
+
+TRANSIENTS are nasty objects which appear and disappear at random as they rise up the circuit.  When they are invisible, they cannot be destroyed by your electron bursts, but they can still destroy you!  Be particularly careful if the transients become invisible near the top of the circuit.  TRANSIENTS are worth 150 points.
+
+VOLTAGE SPIKES aren't particularly dangerous until they reach the top of the circuit.  When they do they turn into SHORTS, described below.  If you destroy a VOLTAGE SPKE before it reaches the top of the circuit, it is worth 200 points.
+
+RESITANCES are perhaps the most dangerous enemy of all.  They CANNOT BE DESTROYED by electron bursts.  In fact, any shots which hit them are immediately bounced back at the logic probe!  The only way to destroy a RESISTANCE is to use the space bar "zap" feature.  When destroyed, a RESTANCE is worth 250 points.
+
+SHORTS are started by VOLTAGE SPIKES when they reach the rim of the circuit.  Up to 4 of these enemies may be present at one time.  Shorts are different from other objects in that they follow the rim of the circuit at random.  They will destroy you on contact, so be very catious when they are present.  SHORTS can only be destroyed by the space bar "zap" feature, and are worth 400 points.
+
+Final Comments
+
+Livewire! is a difficult game but it can be mastered.  Cautious players will last longer than "daredevils," as is true with most games on the market today.  I invite any comments, suggestions or modifications readers care to send in, and will be happy to print useful modifications in future issues.

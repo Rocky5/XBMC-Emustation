@@ -1,0 +1,15 @@
+Gauntletak
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Shoot 'em Up - Multi-Screen
+Gametype: Homebrew
+Release Year: 1987
+Developer: Donald R. Lebeau
+Publisher: Donald R. Lebeau
+Players: 1
+Programmer: Donald R. Lebeau
+_________________________
+
+The commercial release of Gauntlet

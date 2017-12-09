@@ -1,0 +1,13 @@
+Star Trux
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Prototype
+Release Year: 1982
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 VS
+_________________________
+

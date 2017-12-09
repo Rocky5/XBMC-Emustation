@@ -1,0 +1,27 @@
+International Karate
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: VS Fighter - Karate
+Gametype: Licensed
+Release Year: 1986
+Developer: System 3 Software
+Publisher: System 3 Software
+Players: 1 or 2 VS
+Programmer: Archer Maclean
+Musician: Rob Hubbard
+_________________________
+
+International Karate is a simple one on one beat 'em up. The characters are shown from the side, the aim is to beat your opponent using the different karate moves. Depending on the move, the player will get a full or half-point. You need two full points to beat your opponent, or at least have more points when time runs out.
+
+On your journey you'll visit 8 different places spread all over the world, like Sydney, Egypt or New York. At the end of each stage you'll get to play little bonus games.
+
+While beating enemies the player will increase in belts, starting from the white belt.
+
+Trivia:
+
+System 3 faced a lengthy court battle with arcade publishers Data East, who claimed System 3 had ripped off their game Karate Champ with International Karate. It also used the same forward kicking (street) karate style. The game also looked a lot like The Way of the Exploding Fist, but they weren't sued for that.
+
+http://www.mobygames.com/game/atari-8-bit/international-karate
+

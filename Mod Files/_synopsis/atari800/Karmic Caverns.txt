@@ -1,0 +1,13 @@
+Karmic Caverns
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: PMI
+Publisher: PMI
+Players: 1
+_________________________
+

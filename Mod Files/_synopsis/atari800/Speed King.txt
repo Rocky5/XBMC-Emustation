@@ -1,0 +1,18 @@
+Speed King
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Racing - Motorcycles
+Gametype: Licensed
+Release Year: 1986
+Developer: Sculptured Software
+Publisher: Mastertronic
+Players: 1
+Programmer: Hal Rushton
+_________________________
+
+This early motorcycle racing game uses an enhanced version of the 3D Deathchase game engine. This time the view is from behind your bike, so this is visible on screen. The road itself moves sideways, a detail which is part of fairly advanced 3D routines for the time. Contact with the 39 computer bikes will cause your bike to slow, and probably cost you several places. 11 circuits are featured, including favourites such as Spa, Donington and Misano. Races can be set for up to five laps, and times are recorded for comparisons.
+
+
+http://www.mobygames.com/game/atari-8-bit/full-throttle-

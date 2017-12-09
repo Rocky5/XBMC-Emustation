@@ -1,0 +1,17 @@
+Buried Buck$
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Analog Software
+Publisher: Analog Software
+Players: 1 or 2 Alternating
+Programmer: Tom Hudson
+_________________________
+
+You are a helicopter trying to get to buried golden dollar signs. You must bomb the ground to dig a hole to reach the dollar signs but beware of the plane as it is dropping giant clods of dirt to fill in the hole, and maybe bury you. Even if you avoid the dirt clod, you will need to bomb to uncover the treasure again. When you gather a treasure, you must land on your base to claim it. If you are destroyed before you return to base, you drop the treasure. You can only carry one treasure at a time. After you collect all the buried dollar signs, you move on to the next level.
+
+http://www.mobygames.com/game/atari-8-bit/buried-buck

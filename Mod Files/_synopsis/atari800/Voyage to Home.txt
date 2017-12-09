@@ -1,0 +1,12 @@
+Voyage to Home
+Platform: Atari 800
+Region: Peru
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Homebrew
+Release Year: 2006
+Players: 1
+Programmer: Mario Caillahuz
+_________________________
+

@@ -1,0 +1,15 @@
+Atari Safari
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up
+Gametype: Licensed
+Release Year: 1985
+Developer: Illusion Software
+Publisher: Illusion Software
+Players: 1
+Programmer: Linus Wright
+_________________________
+
+...

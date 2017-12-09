@@ -1,0 +1,14 @@
+Fairy Castle
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Action - Platformer
+Gametype: Licensed
+Release Year: 2003
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Henry Karpowicz
+_________________________
+

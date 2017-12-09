@@ -1,0 +1,22 @@
+Institute, The
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1983
+Developer: Screenplay
+Publisher: Screenplay
+Players: 1
+Programmer: Jyym Pearson, Norm Sailer
+_________________________
+
+In this bizarre text-based mystery, you assume the role of John, a mental patient who is being held against his will in a hellish asylum known only as "The Institute". Raving lunatics and taunting doctors surround you, and you are continuously harassed by a sinister psychologist who tries to convince you that you have lost your mind. You are unsure of how or why you ended up here, but one thing is clear: you must get out.
+
+Most of the game is spent lying passed out on a closet floor, drifting in and out of drug-induced hallucinations that reveal key aspects of the protagonist's personality and recall traumatic events from his past. Between bouts of nightmarish, self-inflicted "drug therapy", the player uses the knowledge (and sometimes even inventory items) gained from his dreams to learn more about the Institute and to better facilitate his escape.
+
+In typical text adventure fashion, John must navigate the hospital and interact with his surroundings using a very limited two-word parser. There are some basic puzzles to solve, mostly by using objects found throughout your quest, but the game's focus is more on the darkly surreal storyline and disturbing dialogue than its actual gameplay.
+
+
+http://www.mobygames.com/game/atari-8-bit/institute

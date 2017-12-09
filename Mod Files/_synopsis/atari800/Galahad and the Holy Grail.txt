@@ -1,0 +1,15 @@
+Galahad and the Holy Grail
+Known issue (if you can help join the forum): media image taken from \"Antic\" release.
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1982
+Developer: APX
+Publisher: APX
+Players: 1
+Programmer: Douglas Crockford
+_________________________
+

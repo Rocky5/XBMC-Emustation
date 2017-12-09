@@ -1,0 +1,20 @@
+Montezuma's Revenge (Proto)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Platform - Action
+Gametype: Prototype
+Release Year: 1983
+Developer: Robert Jaeger
+Publisher: Utopia Software
+Players: 1
+Programmer: Robert Jaeger
+_________________________
+
+Unfinished and not winnable.
+ 
+You play as a treasure hunter named Panama Joe, whose goal is to find an ancient treasure hidden by Aztec warrior deep inside catacombs. But beware, the catacombs are a large maze inhabited by monsters. Bouncing and rolling skulls, dancing spiders, disappearing and re-appearing chains and tons of fire await you. You'll have to find many keys and unlock doors in order to reach your goal. Panama Joe can jump and climb ladders, but doesn't have much to offer in terms of combat. That's why the monsters in the game should be avoided: a collision with an enemy leads to a premature death.
+
+
+http://www.mobygames.com/game/atari-8-bit/montezumas-revenge

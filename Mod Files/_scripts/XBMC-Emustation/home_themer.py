@@ -1,9 +1,9 @@
 '''
 	Script by Rocky5
-	
+	Used to build the home menu system.
 '''
 
-import fileinput, glob, os, shutil, sys, time, xbmc, xbmcgui
+import fileinput, os, sys, time, xbmc, xbmcgui
 
 #####	Start markings for the log file.
 print "| _Scripts\XBMC-Emustation\home_themer.py loaded."

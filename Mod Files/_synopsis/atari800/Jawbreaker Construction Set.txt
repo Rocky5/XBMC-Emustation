@@ -1,0 +1,14 @@
+Jawbreaker Construction Set, The
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Arcade - Maze
+Gametype: Public Domain
+Release Year: 198x
+Developer: Utopia Software
+Publisher: Utopia Software
+Players: 1
+Programmer: Rober Jaeger, Craign Shummer
+_________________________
+

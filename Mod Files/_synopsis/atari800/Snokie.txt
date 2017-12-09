@@ -1,0 +1,18 @@
+Snokie
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: Funsoft
+Publisher: Funsoft
+Players: 1 or 2 Alternating
+Programmer: Yves Lempereur
+_________________________
+
+Snokie is a horizontally scrolling platform game where you must guide a penguin back to his home. You begin the game outside in a snow environment. Using the joystick to move left, right and jump, you must negotiate difficult obstacles along your path. Slipping into a crevasse or being hit by a rolling boulder will kill your penguin. A clock constantly ticks down during game play and when it reaches zero, you lose a life. If you make it far enough along the journey you will hit checkpoints which restart the clock. When you die, your next penguin will start at the last checkpoint you passed. The environment changes as you progress, offering new challenges. Ice floes need to be navigated and caverns feature stalactites that fall from the cave ceiling. If you complete the journey you are reunited with a large penguin in your cave home. The game features a normal mode and an accelerated speed mode as well as supporting two players taking turns. 
+
+
+http://www.mobygames.com/game/atari-8-bit/snokie

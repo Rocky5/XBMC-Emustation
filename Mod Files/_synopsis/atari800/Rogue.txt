@@ -1,0 +1,28 @@
+Rogue
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Role Playing Game - Strategy
+Gametype: Licensed
+Release Year: 1988
+Developer: Icon Design
+Publisher: Mastertronic
+Players: 1
+Programmer: Paul D. Marshall
+_________________________
+
+Rogue is a turn-based dungeon crawler in which the player controls an adventurer who must explore the dangerous Dungeon of Doom in order to retrieve the precious Amulet of Yendor and make it out alive. The player character starts on the upper-most level and slowly makes his way downwards.
+
+The game uses ASCII characters to represent locations, items, monsters, and the protagonist himself. There are twenty-six different types of monsters, symbolized by their initial letters (e.g. L for Leprechaun). Monsters have different abilities and modes of attack. The dungeon and the items in it are randomly generated each time the player begins a new game. Each dungeon level contains a grid of three by three rooms and dead ends. 
+
+Levels get progressively more complex and maze-like, and monsters grow in strength the deeper the hero ventures into the dungeon. The player character can acquire better weapons and armor, gain experience points and level up. Should the protagonist perish in the dungeon, the player must restart the game anew.
+
+Trivia:
+
+A sophisticated mainframe-Rogue-playing AI, the "Rog-o-matic" (A Belligerent Expert System), was the subject of an academic paper written by Michael Maudlin, Guy Jacobson, Andrew Appel and Leonard Hamey of Carnegie Mellon University and presented at the Fifth Biennial Conference of the Canadian Society for Computational Studies of Intelligence, London Ontario, May 16, 1984.
+
+This paper can be read (and its behavior diagrams ogled) at http://www.cs.princeton.edu/~appel/papers/rogomatic.html
+
+
+http://www.mobygames.com/game/atari-8-bit/rogue

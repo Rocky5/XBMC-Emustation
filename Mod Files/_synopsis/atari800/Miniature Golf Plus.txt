@@ -1,0 +1,107 @@
+Miniature Golf Plus
+Known issue (if you can help join the forum): boxart watermark says \"remove me!\".
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Sports - Mini Golf
+Gametype: Licensed
+Release Year: 1985
+Developer: XLEnt Software
+Publisher: XLEnt Software
+Players: 1 or 2 Alternating
+Programmer: David N. Plotkin
+_________________________
+
+ANTIC VOL. 9, NO. 2 / JUNE 1990
+
+FORE!
+Miniature Golf Plus
+By David Plotkin 
+This issue's Super Disk Bonus was a hit commercial game. All 8-bit duffers will enjoy the flashy mini-golf challenge - including a construction set for building your own customized holes.
+
+Miniature Golf has always been one of my favorite games. Some years ago, I wrote an original type-in version for the Atari 8-bit that was published in the July 1985 Antic, and then had this greatly expanded and enhanced version published by XLent Software. Now Antic brings you this complete commercial program with over 30 holes on disk - and an easy-to-use construction set to help you build your own exotic holes. So settle down and have some fun with as many as seven of your friends. 
+
+Getting Started 
+
+You'll find Miniature Golf Plus on Side B of your Antic Monthly Disk, ready to run. Just turn the disk over so the back side is up, and insert it in drive 1. Turn your computer off, remove all cartridges (XL/XE owners hold down [OPTION]), and turn your Atari on again. Miniature Golf Plus will load and run automatically, presenting you with the Main Menu with its three choices - Play Miniature Golf, Construction Set or Initiatilize a disk. 
+
+If you pick choice number 1, Play Miniature Golf, the title screen will greet you with flashing lights. Press the [START] key to continue, then enter the number of players per round of golf. Up to eight players can play, though with that many the game can go on for quite a while. You also enter the name of each player, with up to 10 letters each. When the last player's name has been entered, the game begins. 
+
+To get you started, we've included more than 30 holes on the disk. A message window will appear at the bottom of the screen. You can start the game at hole number 1, or move the joystick left or right to start at a different hole. Choose the hole by pressing the fire button. Play starts at the selected hole, and continues through to the last hole on the disk. 
+
+You view the miniature golf course from above. The club looks like a block with the corner missing - this missing corner is the part of the club that strikes the ball, which appears on the course as a little white point. You use the club to knock the ball into the hole, a somewhat blocky purple circle. The object, as in any golf game, is to complete the course in the fewest number of strokes. 
+
+To aim your shot, use the joystick. Guide the club to the desired position on the field - the ball will move in a straight line in the direction opposite to the club. When the club is in position, press the joystick trigger to swing the club. The further the club is from the ball, the harder it hits. Just as in regular miniature golf, you may not be able to get enough clearance to hit the ball as hard as you like or in the direction you would prefer. Experiment with hitting the ball from another direction and letting it bounce off a wall or other objects on the course. 
+
+Players take turns at every hole. Each player continues to play until the ball goes into the hole. Play then passes to the next player. If you really botch the shot and your opponents will allow it, you can press the [START] button and replay that shot. It won't count against you. The current player's name, total score, hole score, and the current hole number are displayed in the red window at the bottom of the screen. If you wish to see everyone's score, press the [SELECT] button. Return to play by pressing [SELECT] again. To abort a game in progress, press the [OPTION] button to return to the main menu. 
+
+The game ends when everyone has played the last hole. A scoreboard displays all the scores, with the lowest score indicated (the lowest score wins the game). If you wish, you can play the course again. 
+
+Construction Set 
+
+The Construction Set lets you build your own holes to play on. It shouldn't be too long before you master the holes included with the game, but with a little imagination, you can keep constructing more challenging holes. 
+
+To get started, you must have an initialized data disk. (Don't initialize the Antic Monthly Disk - you'll lose the holes already there.) To initialize your disk, choose option 3 from the Main Menu screen. Remove your Miniature Golf Plus disk from the drive and replace it with a blank disk. Prompts will lead you through the next steps. If you are using a formatted disk, press [START] to initialize it. Initialization will only take a matter of seconds, as a special file is written to the disk. Be careful not to reinitialize your data disk - if you do, the program will no longer be able to access any of the holes on the disk. 
+
+If you are using an unformatted disk press the [ESC] key to format and initialize the disk. (Remember, any time a disk is formatted everything previously recorded on it will be erased.) 
+
+Now remove the initialized disk and put the Miniature Golf Plus disk back in the drive, Press the [START] button and you will return to the main menu. 
+
+Once you have your initialized disk, you're ready to pick the Construction Set option, number 2, from the Main Menu screen. A message will tell you to remove the Miniature Golf Disk from the drive and put in your data disk - the one initialized in the previous step. Once you have done that, you are ready to start designing your own course. 
+
+(If you get an error message at this point, replace the program disk and turn your computer off and on again to reboot - and make sure you boot without BASIC; XL/XE owners must hold down [OPTION] when they turn their computers on, to disable the built-in BASIC. The Construction Set in particular needs the memory space that Atari BASIC uses.) 
+
+You don't have to design a complete course in a single session. You can save the individual holes as you finish them, then come back to create more later. Be careful not to reinitialize the disk, however, or you'll lose your finished holes. 
+
+Once you've created some new holes, you'll want to try them out. To test your new course, use the Quit option to return to the Miniature Golf Main Menu and choose to Play Miniature Golf. Wait for the game to load - and then insert the data disk when the program asks for the number of players. After you enter the players' names, the program will check your disk for the number of holes available, and let you choose a hole on which to start play as before. 
+
+Course Construction 
+
+The Construction Set provides plenty of self-explanatory menus from which you choose your options. Using the joystick, you position the colored cursor to highlight the desired option, then press the joystick button to make the selection. Depending on your selection, further instructions may then appear to tell you what to do next. 
+
+The Construction Set's main menu has five items - Quit, Save, Edit, Delete and New. Quit returns you to the Main Menu screen which appeared when you first started the game. Save lets you save as many as 60 holes on a single disk. Of course, you might not want to have so many holes on one disk, since whenever you play Miniature Golf Plus the game continues until you play the last hole on the disk. Instead, you can make several smaller courses, but each new course must be on a separate disk. 
+
+Edit lets you edit a hole. If there are afready holes on the disk, the program will tell you how 
+ 
+You can play over 30 holes on disk - or make your own.
+ 
+many there are, and ask you for the number of the hole you want to edit. Move the joystick to change the number, then press the joystick button when you reach the number of the hole. If the hole already exists, the editor will load it from disk. To create a new hole, select the highest number offered. 
+
+Once you choose the hole you want to Edit, the Edit Shape Selection Menu appears at the bottom of the screen. This menu consists of choices for all the shapes you can put on the screen, as well as an option to return to the main menu. Except for the Hole/Ball and Barrier selections, pictures beside the various options show the shapes you can create. To select a shape, move the colored cursor to the shape you want and press the fire button. 
+
+After selecting a shape, you can choose the location and size of the shape, following the prompts at the bottom of the screen. When you are done working with the particular shape, you will be returned to the Shape Selection Menu. 
+
+Shape Selection Menu 
+
+The Shape Selection Menu has nine selections - Hole/Ball, Down Triangle, Up Triangle, Right Triangle, Left Triangle, Rectangle, Barrier, Diagonal Line and Main Menu. You can build just about anything you need on a miniature golf course using these shapes. To select an object, just move the cursor around using the joystick and make a choice by pressing the joystick button. Instructions will appear at the bottom of the screen to guide you in placing your objects. 
+
+With Hole/Ball you position the hole and the starting location of the ball. You first place the hole by moving the cursor to the hole position and pressing the joystick button. Next, you locate the ball's starting position the same way. To adjust either the hole or ball position at a later time, simply reselect this option. 
+
+The various triangles (Down, Up, Left and Right) look just like their pictures on the Shape Selection Menu. When you select one of these shapes, you will see a dot which you control with your joystick. Prompts at the bottom of the screen tell you which of the triangle's points to mark onscreen. For the Down Triangle, you move the dot to indicate the position of the triangle's upper left point, press the joystick button, then follow the same procedure for the upper right point. For the Up Triangle, you mark the lower left and right points. For the Right Triangle, you first place the upper left and then the lower left points, and for the Left Triangle you place the upper and lower right points. 
+
+Once the two points have been marked, the computer will draw the rest of the triangle. If you placed your points so that the triangle will be drawn off the screen, the computer will ignore your points and warn you that the screen boundaries were exceeded. This will not hurt your hole data or the construction of the hole. After the triangle has been drawn, you will be asked whether vou want to draw more of that same shape or return to the Shape Selection Menu, Make your choice with the joystick and press the joystick button. 
+
+To position the Rectangle on the screen, select the upper left corner followed by the (diagonally opposite) lower right corner. 
+
+The Barrier option lets you place (or remove) a moving rectangular barrier on the playing field. The barrier only moves left and right, between the limits you select with the joystick. You also set the speed of movement, moving the joystick up and down to change the speed. The barrier actually moves back and forth at the selected speed, letting you decide what speed you like. 
+
+You position the Diagonal Line by specifying the two ends of the line. Move the joystick to select the higher end first. Press the joystick button to set that point, then move the dot-cursor down and to the right or left to choose the other endpoint. Press the joystick button again and the diagonal line will be drawn. 
+
+Deleting Mistakes 
+
+To remove a shape, you must first return to the main Construction Set menu, and choose Delete. This selection brings up the Delete menu with five choices - Cancel, Last, All, Choice and Clear. Since it may not be clear what each of these options do, a one-line explanation will appear at the bottom of the screen when you highlight an option. Pick Cancel to return to the Construction Set Main Menu without deleting anything. 
+
+With Last you can delete the last of any particular shape placed on the board. When you select Last, vou are returned to the Shape Selection Menu, where you can pick which shape to delete. The last object of that shape placed on the screen will be removed. For exampIe, picking RT TRIANGLE will delete the last right-facing triangle you placed. 
+
+The option All deletes all of a particular shape. Again, you go to the Shape Selection Menu. Pick which shape you want to work with. For example, if you pick RECTANGLE, then all the rectangles will be removed. 
+
+NOTE: If you pick Last or All by accident, picking Hole/Ball, Barrier, or Main menu from the Shape Selection Menu will return you to the main construction set menu without doing any harm. To remove a barrier, select Barrier from the Shape Selection Menu and choose "Remove Barrier" at the prompt. 
+
+The Choice option allows you to selectively remove shapes. Selecting Choice returns you to the Shape Selection Menu. Once again, selecting Hole/Ball, Barrier or Main menu will return you to the main construction set without doing any harm. Selecting any other shape puts the words "Shape Number" in the text window at the bonom of the screen, Use your joystick to select the shape number you want. As you move through the shape numbers, a flashing point on the screen will indicate the shape which will be deleted. Press the button to delete the shape indicated. To exit without deleting anything, simply pick shape number 0 and press the joystick button to return to the Construction Set main menu. 
+
+Clear erases everything on the screen, or you can use the last option on the Construction Set Main Menu, New. Normally the only way to move on to the next hole is by saving the hole you are currently working on. However, New lets you escape if you are editing a hole and decide that the hole is worthless - not worth saving. The New option will clear the screen and return you to the main menu to let you reenter hole data from disk or start a new hole. New can also be used to retrieve holes already saved to disk. 
+
+Program Notes 
+
+If you look at the directory of Side B from DOS (on Side A of your Antic Monthly Disk) you'll see that many files make up Miniature Golf Plus, which was written with OSS/ICD's BASIC XL. The smaller numbered files (H1, H2, H21 etc.) are all holes, The other files make up the game and construction set. You can copy the AUTORUN.SYS and AUTORUN.BXL files to another freshly formatted disk with DOS 2.0 or 2.5 on it, and use that disk as a self-contained program/data disk for new courses. The INlT file tells the program how many courses are on the disk - to start a disk of all new holes, don't copy the INIT file. Instead, initialize the disk as explained above.

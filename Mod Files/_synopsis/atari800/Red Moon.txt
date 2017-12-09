@@ -1,0 +1,19 @@
+Red Moon
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1985
+Developer: Level 9 Computing
+Publisher: Level 9 Computing
+Players: 1
+_________________________
+
+The Red Moon Crystal is the only source of Magik in the land, and stabilizes the forces of the world. This crystal has been stolen and as a result, the land has fallen into chaos. A single powerful magician is sent to rescue the Crystal from the castle where it's hidden. 
+
+Red Moon is an graphical interactive fiction game. Players assume the role of the wizard on his quest to recover the crystal. They will have the use of many weapons and a dozen magical spells. Combat is a key element of the game: both the magician and enemy opponents have hit points, in the style of RPGs. Spellcasting requires certain objects to be collected, and many spells must also be cast on a specific target. Various objects will be found during the adventure, including garlic, pills and a mask.
+
+
+http://www.mobygames.com/game/atari-8-bit/red-moon

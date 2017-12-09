@@ -1,0 +1,25 @@
+Phantasie
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Role Playing Game
+Gametype: Licensed
+Release Year: 1987
+Developer: Logical Design Works
+Publisher: SSI
+Players: 1
+Programmer: Winston Douglas Wood
+_________________________
+
+The island of Gelnor has been taken over by The Black Knights, who demand sacrifices and homage as they travel from town to town. Defeat them and their master, Nikademus!
+
+Phantasie is a classic role-playing game, and one of the first to introduce a "bank" for storing money in addition to expanding on the classic Wizardry-style gameplay of building your own adventuring party with traveling from town to town via the countryside, overhead views of dungeons, and multiple styles of attack.
+
+
+Trivia:
+
+The algorithm that distributes money and experience points is subject to integer rounding errors. So, if there are six members of the party trying to divide up 5 pieces of gold, nobody gets any gold because 0.83 gets rounded down to 0. :-)
+
+
+http://www.mobygames.com/game/atari-8-bit/phantasie

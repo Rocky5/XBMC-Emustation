@@ -1,0 +1,27 @@
+Submarine Commander
+Platform: Atari 800
+Region: United Kingdom
+Media: Cartridge
+Controller: Joystick
+Genre: Simulation - Submarine
+Gametype: Licensed
+Release Year: 1982
+Developer: Thorn EMI
+Publisher: Thorn EMI
+Players: 1
+Programmer: Dean M. Lock
+_________________________
+
+You're the commander of a World War II submarine on patrol in the Mediterranean and there are enemy convoys at all points of the compass. Your job is to sink as much enemy shipping as possible while keeping your sub intact. This is no fast-paced shoot-em-up. You're really in a sub with all of its problems and limitations-batteries that need recharging, an air supply that needs to be replenished by surfacing, and the sub's very slow speed when you're submerged.
+
+There are three different screen displays-all flanked by a cluster of instruments and gauges that tell you depth, remaining air supply, torpedoes and condition of various parts of the sub. The three displays show a map that pinpoints your own location and where the enemy convoys are, sonar and hydrophone displays, and a periscope view which works only when you're at 45 feet of depth or less.
+
+You're surrounded by danger. If the destroyers' depth charges don't damage you, it's possible to scrape or get stuck on the bottom, damaging your propellers and engines; you can run out of air or battery charge; or your hull can crack from diving too deep.
+
+The joystick controls diving and surfacing as well as compass heading. The button fires torpedoes, but you can't shoot more than two at any one time, since it takes time to reload the torpedo tubes. Also, you can't fire unless your depth is just right (about 35 feet or higher). The sub responds to controls with agonizing slowness.
+
+Yet the rewards are enormous. Whenever you hit an enemy ship, you want to jump up and cheer. There are plenty of misses, too, and when you're within torpedo range, you're usually getting smeared by a barrage of depth charges.
+
+This is a long game-it can easily take a half-hour or more to either sink all the enemy ships or get yourself sunk. Time is eaten up by repairs and recharging the batteries on the surface. You have to watch your sonar bottom display very carefully-along with a dozen or so other displays and gauges. The realism level of this game is incredible, and there are no magic escape hatches. The graphics are super, and the game has a lot of staying (and frustration) power. Playing strategy? There isn't one; just have patience while those repairs are being made.
+
+[Electronic Fun - Vol. 1, No. 3 Jan 1983]

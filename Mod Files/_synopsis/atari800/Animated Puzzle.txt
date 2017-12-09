@@ -1,0 +1,17 @@
+Animated Puzzle
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Puzzle
+Gametype: Prototype
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Hal Canon
+_________________________
+
+A sliding-square type puzzle game using animated pictures.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=2036

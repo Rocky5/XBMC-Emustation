@@ -1,0 +1,14 @@
+Pacific Coast Highway
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Datasoft
+Publisher: Datasoft
+Players: 1 or 2 VS
+Programmer: Ron Rosen
+_________________________
+

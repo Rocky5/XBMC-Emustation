@@ -1,0 +1,40 @@
+Perfected Pong
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Paddles
+Genre: Action - Ping Pong
+Gametype: Magazine
+Release Year: 1988
+Developer: Antic
+Publisher: Antic
+Players: 2 VS
+Programmer: Bob Ayik
+_________________________
+
+Antic Vol. 7 No. 1 - May 1988 - Sixth Anniversary
+
+Perfected Pong
+
+New challenges from an old favorite
+By BOB AYIK
+
+This short machine-language update of the very first Atari video game is jammed with powerful user-controlled enhancements. The BASIC translation of Perfected Pong works on all 8-bit Atari computers with of Ieast 32K memory, disk or cassette. Atari paddles are required.
+
+If you got your early exposure to electronic games on the Atari 2600 Video Cartridge System, you undoubtedly have played a lot of Pong--the simplified ping-pong simulation where you move a paddle cursor to keep a ball bouncing against the edge of the video display. Not only was Pong the first home video game, it has been included free with many of the millions of 2600s sold since 1977. Well, it's time to dust off your old Atari paddle set (or compatible) and take on some brand-new Pong challenges.
+
+I began writing Perfected Pong after playing the classic game with 8-year-old Laura. We were playing at slow speed and she was killing me. But she wasn't having fun. She kept claiming that I was letting her win.
+
+Now Laura beams as she wins, because Perfected Pong has six different skill levels that can be set independently for each player. Every skill level has a different starting and maximum ball speed.
+
+Perfected Pong also has 20 different angles of ball rebound, which gives you a lot of subtlety in controlling how the ball spins off your paddle.
+
+You can master Perfected Pong in practice mode, where one or two players volley without any scorekeeping and the ball bounces right back into play after "falling off" the end of the screen. Just tap any key and the ball will slow down to its beginning speed for that level.
+
+There are also some nice new audio-visual touches. Players can select any of 16 possible color combinations for the screen. I used 16-bit sound channeling to create the familiar click of the ball hitting the boundaries. There is also a new twangy sound for the ball hitting the paddles.
+
+When a point is tallied, the score pulsates as it changes. And while waiting for a serve, a pulsation also marks the paddle of the player who is to serve next.
+
+Perfected Pong is a short (about 3.5K) update of Pong. It's written in fast, smooth MAC/65 assembly language. 
+
+The first thing you'll see when you play Perfected Pong is a flashy title screen that lists the keys to press for selecting game options. You can quit a game anytime and return to the title screen by pressing [CONTROL] [Q]. When you complete a game, press either paddle button to start a new game at the current settings, or press any key to return to the title screen.

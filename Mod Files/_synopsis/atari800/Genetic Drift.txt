@@ -1,0 +1,14 @@
+Genetic Drift
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Shoot 'em Up - Fixed
+Gametype: Licensed
+Release Year: 1982
+Developer: Broderbund Software
+Publisher: Broderbund Software
+Players: 1
+Programmer: Scott Schram
+_________________________
+

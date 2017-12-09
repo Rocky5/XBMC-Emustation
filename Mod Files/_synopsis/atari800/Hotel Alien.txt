@@ -1,0 +1,14 @@
+Hotel Alien
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1985
+Developer: Artworx
+Publisher: Artworx
+Players: 1
+Programmer: Alan M. Newman
+_________________________
+

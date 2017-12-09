@@ -1,0 +1,14 @@
+Snapper, The
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Maze
+Gametype: Licensed
+Release Year: 1982
+Developer: Silicon Valley Systems
+Publisher: Silicon Valley Systems
+Players: 1 or 2 Alternating
+Programmer: Dave Sanders
+_________________________
+

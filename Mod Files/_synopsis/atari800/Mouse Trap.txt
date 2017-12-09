@@ -1,0 +1,14 @@
+Mouse Trap
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Platform - Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Micro-Value
+Publisher: Micro-Value
+Players: 1
+Programmer: Brian Jobling
+_________________________
+

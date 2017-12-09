@@ -1,0 +1,13 @@
+Boulder Dash II 25th Anniversary
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Strategy - Scrolling - Multi-Screen
+Gametype: Hack
+Release Year: 2009
+Players: 1 thru 4 Alternating
+Hacked by: Tomasz Biela, Terrence Derby
+Programmer: Peter Liepa
+_________________________
+

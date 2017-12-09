@@ -1,0 +1,34 @@
+Cygnus X1
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - First Person
+Gametype: Licensed
+Release Year: 1989
+Developer: Atari
+Publisher: Atari
+Players: 1
+_________________________
+
+In the far distant furture when Earthmen have colonised the galaxy the people of the Cygnus star system have become the most powerful of all.  Intelligence reports suggest that the Emperor of Cygnus is planning to launch an offensive against the Earth, using it as a stepping stone to eventual Galactic rule.
+
+Once it was realised that the Earth people were alone in the galaxy the military might they possessed was abandoned and now only a token peace-keeping force remains.
+
+As the galaxies most renowned test pilot you have recently been evaluating a new experimental police fighter craft.  The Cygnus situation is so serious that you have been despatched to the star system with the new fighter to attempt to return it to Earth control.  To accompilish this you must first attack the city complex on Alpha Cygnus, then disable the industrial planet of Gamma Cygnus and the power planet of Delta Cygnus before attacking the Imperial planet of Cygnus X1 and the Emperor's palace.
+
+Cygnus X1 contains 32 levels of fast blasting action in your quest to save the Earth from domination.
+
+Should you succeed in your mission it is likely that some time in the future your services will be needed again as the Cygnus system, humiliated by your actions, re-arms and prepares once again for war.
+
+Use the joystick to fly your craft across the planets of the Cygnus system as you blast the defences, avoid the airborne mines and try to conserve fuel.  Fuel is used up in ordinary flight, by firing your ion gun, and for shield replenishment after hitting energy towers, alien ships and mines.  Fuel is acquired by flying between energy towers.  Fuel tanks are refilled for every new planet (every 8 levels).
+
+Hints On Strategy:
+
++ Flying between energy towers is important - try not to miss too many.
++ Don't keep the fire button constantly pressed - you will run out of fuel too quickly.
++ Don't fire at aliens at close range - the explosion will delete your shiled, try to avoid any aliens that get close rather than shooting them.
++ The aliens follow distinct attack patterns - try to learn these and take appropriate action for each one.
++ Some attack patterns are optimised for mine dropping rather than all out attack - don't shoot the aliens during these phases, use the time to collect fuel.
+
+[From the game manual]

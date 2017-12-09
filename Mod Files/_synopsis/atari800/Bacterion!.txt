@@ -1,0 +1,35 @@
+Bacterion!
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Multi-Directional
+Gametype: Magazine
+Release Year: 1984
+Developer: Analog Computing
+Publisher: Analog Computing
+Players: 1 or 2 Co-Op
+Programmer: Tom Hudson, Kyle Peacock
+_________________________
+
+ANALOG Computing Issue 20, 1984.
+
+The year is 2284.  The "Robotron Incident" of 2084 has long been forgotten, and the field of genetic engineering has led to the fabrication of synthetic humans.  Each fabricated unit is genetically engineered to perform a specific task to perfection.
+
+Fifty years later, through a unanimous vote of the United Nations, these "Syntrons" have been installed into every top political position on the world.  Each represents the opinion of the particular government they were assigned.  The fate of continents rests in the hands of the Syntrons.
+
+Now the year is 2369.  Long-term studies of the Syntrons' behavioral patterns yield strange results.  A genetically invulnerable bacteria has infected the species.  The bacteria preys on the cerebral nerves responsible for all the higher order brain processes, making the individual deranged and quite unstable.
+
+This bacteria has begun to trickle down to infect the Syntrons' counterpart: man.  Soon, mankind will teeter on the very brink of insanity and demise, unless a means can be found to halt the plague of 2369: Bacterion!
+
+Playing the game.
+
+Bacterion! is a game for one or two players.  In the two-player mode, both play simultaneously.  In this mode, the game is more cooperative than competitive.  You must prevent the six (count 'em sixx!) different strains of Bacterion from removing the ten cerebral cells from the host Syntron.  A cell is inoperative when it is completely removed from the screen.
+
+As a member of BARF (Bioligical Armament Restriction Force), you are equpped with a miniaturized GEV (Genetic Extermination Vehicle) to aid you in your mission.  The vehicle emits high frequency photons from its nose, capable of vaporizing the Bacterion, while leaving brain tissue and other GEV's undamaged.
+
+Control over your GEV is accomplished through the joystick.  A two-player game will requires as many joysticks.  Pushing up will cause your GEV to move forward.  Moving the stick left or right will cause the vehicle to rotate in the respective direction.  Pushing the trigger fires the photonic bursts.  Any one player can have up to four high-energy photons on the screen at once.  Holding down the trigger fires all available photons in rapid sucession.  Should your GEV be destroyed by either running into your opponent or being skragged by a Bacterion, you must wait several seconds for another GEV to be injected into the host.  Parking or driving your GEV over a brain cell gives it unsure traction, which may cause the vehicle to rotate randomly.  Each GEV is internally powered, so there is an unlimited supply of ammunition.
+
+Initially, each Syntron has a unique brain pattern.  You may select which of the three top politcal figures you wish to put "under the knife."  Each individual has a total of ten cerebral cells.  Some cells may be harder to visualize, since there may be two or more on top of one another.
+
+The SELECT button will choose between a one or two-player game.  The OPTION button will choose which political leader you will operate on.  Examination of the speed at which the colors change in the word "BACTERION!" on the title screen dictate the brain pattern.  The Prime Minister of England, President of the U.S.S.R. and the President of the U.S. are your three available candidates.  The START button will begin the game.  Pausing or examination of scores is accomplished by pressing the space bar.  Pressing the space bar a second time will resure the life-or-death struggle.  Each of the six attacking strains are worth from 10 to 60 points, respectively.

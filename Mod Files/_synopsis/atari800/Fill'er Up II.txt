@@ -1,0 +1,26 @@
+Fill'er Up II
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1985
+Developer: Analog Computing
+Publisher: Analog Computing
+Players: 1
+Programmer: Tom Hudson
+_________________________
+
+Fill'er Up - Tom Hudson
+ANALOG Magazine March 1985 - Issue 10.
+
+You have been assigned to build a series of water reservoirs in uncharted territory.  Unfortunately, an electrified starfish (don't boggle; read on) is patrolling the area.  Using your joystick, you must manuever yourself around on the screen, building walls to hold the water, whil avoiding the starfish.
+
+You start out on the white border surrounding the planned reservoir area.  You may move around on these white walls by moving your joystick in the desired direction.  You can build a reservoi wall by moving into the black "uncharted" area while pressing your joystick button.  The walls you make can be any length, and must be terminated at a white wall.  When you finish a wall by hitting a white wall, the area you have enclosed will fill with water.  Do NOT run into the wall you are building or you will be destroyed.  If the starfish hits you or anypart of the wall you are building before you complete it, you will be destroyed.  On levels 1,2,4,7,12 and 13 you will be safe from attack when standing on a white wall, but on other levels the starfish can destroy you on contact at any time!
+
+At the bottom of the screen are several information displays.  "TGT" indicates the TARGET area you must fill with water before you complete the level.  "CUR" indicates the CURRENT area you have filled.  Once CUR reaches TGT, you have completed the level and are awarded points.  SCORE indicates the number of points you have gained.  At the end of each level, the computer will give you 2 points for each unit over the target you have filled.  If the TARGET amount is 8000 and you fill 9000 units, you hreceive 2000 points.  "Fill 'Er Up" may be paused at any time by pressing the space bar.
+
+This game contains 16 levels of difficulty.  The level number is shown in the lower left corner of the screen.
+
+You have 3 lives, shown in the lower right corner of the screen.  Good luck!

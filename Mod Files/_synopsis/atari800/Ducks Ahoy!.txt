@@ -1,0 +1,19 @@
+Ducks Ahoy
+Known issue (if you can help join the forum): cart image needs watermark removed
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Joyce Hakansson Associates, Inc.
+Publisher: CBS Software
+Players: 1
+Programmer: Tom Buoye
+Musician: Ed Bogas
+_________________________
+
+Ducks Ahoy! is a simple game, taking place in Venice. On the screen you see some houses, the canal and the beach (on the top). The player is in control of a boat which can carry 2 ducks at the same time. The ducks start to walk around the houses slowly getting to the exit where they just jump out into the open no matter if there is a boat waiting for them or it's just water. The aim is to catch the ducks with the boat and deliver them to the beach. To make things more difficult there's a hippo in the water swimming around (always where the bubbles on the surface are). If the hippo catches the boat the player loses a life. After 10 ducks are delivered to the beach they start to sing and the the game restarts, increasing the difficulty by making the ducks faster.
+
+http://www.mobygames.com/game/atari-8-bit/ducks-ahoy

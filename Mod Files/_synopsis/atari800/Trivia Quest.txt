@@ -1,0 +1,22 @@
+Trivia Quest
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Board Game - Trivia
+Gametype: Licensed
+Release Year: 1984
+Developer: Royal Software
+Publisher: Royal Software
+Players: 1 thru 4 VS
+Programmer: Jon Atack, Don Marr, David Snell, Warren Tryk, Bruce Jeddeloh
+_________________________
+
+The empire of Xandor has been under siege by dark forces. Desperate, the King Gaelyn sent a request for help to the lords of the castles in his land. From each castle, three subjects - a prince, a knight and a page were selected to face riddles and dragons.
+
+This is the background of the board game Trivia Quest. After selecting the difficulty and their castle, each of the participating players (one to four, there are no computer players) needs to choose the correct answer out of four options in the first so-called "wisdom round". This is necessary to accumulate enough gold and food to enter the game map with a character and be able to progress there. An incorrect answer starts the next player's turn. 
+
+On the board itself, movement is also dependent on answering the questions which are prompted by landing on one of the trivia question squares. These are divided into four categories (for example,a TV square means a question out of television, literature or movies), and the faster a question has been answered correctly, the more squares a player's character can move. It's possible to switch between the three different characters provided enough gold has been accumulated. There are also special squares denoting dragon lairs. These trigger an arcade sequence where additional gold can be gained if the dragon is defeated, but in case of a loss the dragon also takes gold from the player. The fighting ability is influenced by the character type, with the page being the weakest. Finally, there are squares and situations which can lead to a "wisdom duel", meaning a player vs. player question battle.The quest ends when all three characters have reached a home castle, the winner being the player with the most gold. 
+
+
+http://www.mobygames.com/game/atari-8-bit/trivia-quest

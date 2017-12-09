@@ -1,0 +1,25 @@
+Silicon Dreams
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1986
+Developer: Level 9 Computing
+Publisher: Rainbird
+Players: 1
+Programmer: Mike Austin
+_________________________
+
+This interactive fiction game is a trilogy of the Level 9's adventures Snowball, Return to Eden, and Worm in Paradise. These had previously been released for some but not all of these systems.
+
+Silicon Dreams can be played as three separate games, but to obtain the maximum number of points, you must complete them in order (carrying your score from one adventure to the next). Snowball has graphics for the first time, and the other two games have more graphics than before, and some longer text descriptions are added to all 3 games.
+
+Snowball: As Kim Kimberley, your mission is to safeguard the colonization ship Snowball 9 and its passengers. When you are awakened prematurely from hibernation, you know something's wrong!
+
+Return to Eden: Your objective is to get into the new city of Enoch, and stop the Eden robots from destroying Snowball 9.
+
+Worm in Paradise: You have to find as much information about the city as possible, obtain money, and then become a member of the governing party of Eden.
+
+http://www.mobygames.com/game/atari-8-bit/silicon-dreams

@@ -1,4 +1,4 @@
-import os, time, xbmc, xbmcgui
+import time, xbmc, xbmcgui
 
 ## Updated by Rocky5 to add dynamic extensions and other stuff
 

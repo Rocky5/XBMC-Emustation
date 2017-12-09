@@ -1,0 +1,17 @@
+Encounter!
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - First Person - Shooter
+Gametype: Licensed
+Release Year: 1983
+Developer: Novagen Software Ltd
+Publisher: Synapse Software
+Players: 1
+Programmer: Paul Woakes
+_________________________
+
+Encounter! is a fast paced arcade game set in a sci-fi environment which features fast moving three dimensional graphics. You command a probe vehicle with which you have to shoot down enemy saucers and homing missiles. When you have shot down the required number of enemies on one level (usually around 10-20) you get the chance to go through a "stargate". In the stargate you have to navigate through a hail of spheres coming at you at high speed. If you succeed you get to a new planet in different color scheme, if you fail you'll have to replay the previous planet. There's eight levels in total.
+
+http://www.mobygames.com/game/atari-8-bit/encounter-

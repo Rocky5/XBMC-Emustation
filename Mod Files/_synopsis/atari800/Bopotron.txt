@@ -1,0 +1,29 @@
+Bopotron
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Platform - Puzzle
+Gametype: Magazine
+Release Year: 1984
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1
+Programmer: Kyle Peacock
+_________________________
+
+From issue 24 of ANALOG Computing dated November 1984.
+
+Mankind has finally abandoned its futile efforts to establish the nuclear superiority of any one nation.  The major powers have joined together for the sake of scientific advancement rather than political dominance.  Space exploration has become the major interest of today's society.  Unfortunately, the fantasies of warp drive and speed-of-light travel are still unattainable ideals.  Cryogenics and patience are the only feasible methods of reaching the stars.
+
+You are a small worker, Bopotron, on the starship Quab IV.  While the crew lies in suspended animation, your job is to handle minor maintenance and repairs.  It's just your luck that Ted, the last human to enter the cryogenic vault, left the ship in an uproar.  The control platforms that allow Bopotrons to move about are on full automatic, and many of the ship's power units are on constant drain.
+
+Being a noble Bopotron, you set out to perform a task that will last through the next four centuries.  You are responsible for the recharging of the drained power units.  Each unit requires 100 EUs (energy units) to function properly.  Charging a unit drains your own internal supply, so you'll have to juice up at one of the ship's power packs periodically.  Should you fail to keep your own internal power above zero, you'll no longer be able to function, the ship will go dead and everyone on board will be iced.  (Aren't they already? -- Ed.)
+
+Bopotron is a one-player game written in BASIC, with assembly language subroutines.  The game begins with the player receiving five lives to complete all the levels.  This magazine version has only five levels.  Future levels can be added via the use of the Bopotron Construction Set (see page 55).
+
+The screen layout for Bopotron is pretty straightfoward.  Girders and ladders are safe areas to bop (travel) on.  Power packs are represented by small, glowing batteries with plus and minus terminals.  To charge up, all you must do is stand on either side of a power pack.  Power units more or less resemble television antennas.  Standing next to one will discharge your internal power supply while charging the unit.  Once a unit is fully charged, it will glow rapidly.  Fully charged units require zero maintenance and expend none of your energy.  Once you've charged up all of the power units on a particular level, you can leave the level by bopping onto the exit girder (a small, glowing girder segment somewhere on the screen).
+
+The framework of the Quab IV is non-contiguous; not all of the ladders and girders connect.  For this reason, the Quab engineers have provided maintenance platforms to aid the Bopotrons.  These platforms travel in a pre-programmed manner at regular intervals.  Whenever you bop onto a platform, it will carry your Bopotron along its pre-programmed vector.  The use of such platforms is essential for completing your task.
+
+Although mechanical, a Bopotron is extremely fragile.  It will be destoyed under one of two conditions: (1) the bopotron falls a long distance off of a girder, ladder or platform; or (2) the Bopotron's brain bubble (located at the top of its head) is struck by a girder or platform.  Should one of these conditions arise, it's bye-bye Bopotron.

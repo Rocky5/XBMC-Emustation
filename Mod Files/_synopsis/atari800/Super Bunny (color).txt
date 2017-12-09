@@ -1,0 +1,13 @@
+Super Bunny (color)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Action
+Gametype: Hack
+Release Year: 1984
+Developer: Datamost
+Publisher: Datamost
+Players: 1
+_________________________
+

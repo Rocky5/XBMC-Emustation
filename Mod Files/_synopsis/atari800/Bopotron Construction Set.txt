@@ -1,0 +1,83 @@
+Bopotron Construction Set
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Construction Kit - Platform - Puzzle
+Gametype: Magazine
+Release Year: 1984
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1
+Programmer: Kyle Peacock
+_________________________
+
+From issue 24 of ANALOG Computing dated November 1984.
+
+This article and program listing are to be used in conjunction with Bopotron on page 33.  The Construction Set, will allow you to enter, save and edit the levels you've created and incorporated them into the game.  The manner in which you create your own levels may seem overwhelming at first, but -- with a little patience -- you and your friends will be bopping your brains out.
+
+First, let's examine the graphics mode 0 graph paper found on page 58.  You are free to photocopy this page for the creation of Bopotron levels.  Any other photocopying of the magazine infringes on copyright laws, which could put you in a lot of hot water.  The remainder of this article will be based on the numbers found at the top and leftmost side of the graph.  These will be called the X and Y coordinates, respectively.  Notice how rows 0 through 3 and column 39 have been shaded off.  These areas are unavailable for use by the Bopotron designer.  The program doesn't check to see if you're using these areas or not, so it's totally the designer's responsibility.
+
+Initially, you must specifiy where the Construction Set is to put the level specific output it will generate.  There are four options available.  They are: screen (E:), printer (P:), disk drive (D:FILENAME.EXT) or cassette (C:).  The characters in parentheses represent the required input for the particular device.
+
+Next, specify the level number you are designing.  These are six steps to designing your own Bopotron levels.  They are: power-up, girder placement, ladder placement, power pack placement, power unit placement and platform programming.  Each of these steps will be explained in detail along with specific examples from the graph of level 1 on page 66.
+
+Power-up.
+
+This step involves setting the initial conditions for a particular level.  You must first specify the Bopotron's starting X and Y coordinates.  Given this X and Y, the Bopotron's left footpad will appear on that coordinate.  An initial and maximum power setting must then be input.  When the level begins, the Bopotron will have an initial internal power level.  Charging at a power pack will allow the Bopotron to accumulate energy up to the maximum setting.  Next, the exit girder position must be specified.  Bopping onto the exit girder, after energizing all of the power units, will allow you to proceed to the next level.
+
+Girder placement.
+
+This step involves the placement of all girders for a particular level.  First, input the number of girder segments present for the level being designed.  A girder segment is of variable length but must be contiguos.  Level 1 has nine girder segments.
+
+The format for girder placement is as follows: starting X coordinate, ending X coordinate and a Y coordinate.  The starting X must be smaller than the ending X.  For example, level 1 has a girder segment from X position 0 to 8 at a Y position of 4.  Using the Construction Set, you would type:
+
+GIRDER 1 POSITION :0,8,4
+
+The remainder of the girder segments would follow the same format.
+
+Ladder placement.
+
+This segment involves the placement of ladders onto a particular level.  First, input the number of ladder segments present on the level being designed.  A ladder segment is of variable length but must be contiguous.  Ladders consist of three horizontal characters side by side.  For this reason, the maximum X coordinate for any ladder would be 36 (since column 39 is unavailable for use).  Level 1 has four ladder segments.
+
+The format for ladder placement is as follows:  starting Y coordinate, ending Y coordinate and a leftmost X coordinate.  The starting Y coordinate and a leftmost X coordinate.  The starting Y must be smaller than the ending Y.  For example, level 1 has a ladder segment at Y position 4 to 9, at an X position of 27.  Using the Construction Set, you would type:
+
+LADDER 1 POSITION :4,9,27
+
+The remainder of the ladder segments would follow the same format.
+
+Power pack placement.
+
+This step involves the placement of all power packs for a particular level.  First, input the number of power packs present for the level being designed.  A power pack consists of four characters arranged as a 2x2 square.  Level 1 has one power pack.
+
+The format for power pack placement is as follows:  lower left X coordinate, lower left Y coordinate.  Given this X and Y designation, the lower left character of the 2x2 square will appear at this position.  For example, level 1 has a power pack at an X position of 0 and a Y position of 23.  Using the Construction Set, you would type:
+
+POWER PACK 1 POSITION :0,23
+
+The remainder of the power packs would follow the same format.
+
+Power unit placement.
+
+This step involves the replacement of all power units for a particular level.  First, input the number of power units present for the level being designed.  A power unit consists of four characters arranged as a 2x2 square.  Level 1 has 2 power units.
+
+The format for power unit placement is as follows:  lower left X coordinate, lower left Y coordinate.  Given this X and Y designation, the lower left character of the 2x2 square will appear at this position.  For example, level 1 has a power unit at an X position of 3 and a Y position of 9.  Using the Construction Set, you, would type:
+
+POWER UNIT 1 POSITION :3,9
+
+The remainder of the power units would follow the same format.
+
+Platform programming.
+
+This step involves the programming of the multi-vector maintenance platforms.  Any level can have up to two platforms.  Each platform can have up to five vectors, for a total of ten pre-programmed vectors.  Those of you unfamiliar with vectors are encouraged to read Tom Hudson's BASIC Training article in issue 18 (page 69).  The platforms follow the simple X-Y matching algorithm found there.
+
+Platform programming is accomplished by first specifying the number of platforms present for the level being designed.  Next, the number of vectors for each platform is specified.  Finally, the coordinates of each vector are input.  The format for platform vectoring is as follows:  origin X, origin Y, destination X, destination Y, speed.
+
+Each platform takes up two characters horizontally.  The vector coordinates designate where the left side of the platform will be positioned.  As mentioned earlier, simple X-Y matching is incorporated, so the origin and destination can be located anywhere on the graph.
+
+The speed parameter mentioned above designates how often the platform moves.  This value is in jiffies (1/60 second).  A value of 1 will cause the platform to advance once every 60th second.  A value of sixty will cause it to move once a second.  A value of zero will probably foul things up.
+
+Once you've input all the level-specific information, the program will generate the DATA statements for that level on the output device specified.  To incorporate your new level into the game, simply LOAD Bopotron into memory as usual.  Next, if you're using a cassette or disk drive, load your new level into memory, using the ENTER command.  Finally, increment the MAXLEVEL variable on Line 160 and SAVE the game again.  Those with 16k should only specify the level they're designing as being from 1 to 5.  Memory limitations allow for a maximum of five levels on 16k machines.
+
+Editing Levels.
+
+Editing a level is accomplished by skipping over certain sections of the Construction Set and only entering values for updated data.  Assuming the use of disk, this newly-edited data must have a different filename than the original level.  For example, let's say that you designed a level where everything was working properly except for a misplaced ladder.  When asked for the Bopotron starting position during the power-up section, enter 0,0.  This will cause you to advance to the girder placement section.  Enter 0 for the number of girders.  This will advance you to the ladder placement section.  Now, re-enter ALL of the information regarding ladders for that level.  Next, enter 0 for the number of power packs, power units and platforms in the corresponding sections.  The Construction Set will then generate output for the ladder placement section only.  Once this is written to the specified device, assuming cassete or disk, type NEW.  Now load the old level data into memory, using the ENTER command.  Next, ENTER the newly edited data into memory.  Finally, save the entire block of data to the output device, using the LIST command.  Now your level is complete and ready to be loaded.

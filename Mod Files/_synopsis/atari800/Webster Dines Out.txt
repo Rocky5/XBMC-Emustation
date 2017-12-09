@@ -1,0 +1,33 @@
+Webster Dines Out
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1985
+Developer: Compute!
+Publisher: Compute!
+Players: 1
+Programmer: Walter Bulawa
+_________________________
+
+COMPUTE! ISSUE 61 / JUNE 1985 / PAGE 42
+
+Webster Dines Out
+
+Walter Bulawa
+
+Tired of blasting invaders from outer space? This whimsical game is set in a very different world—the miniature jungle in your own backyard. The original version was written for the Atari. We've added versions for Apple, TI, Commodore 64, VIC-20, and IBM PC and PCjr computers. A joystick is required for the Atari and Commodore 64 versions.
+
+Guide Webster, the hungry tree spider, in his endless search for a square meal. Roving back and forth across his tree limb, he watches for bugs to appear in the grass below. When the time is right, he drops down on a strand of silk for a light snack, then climbs back up his web to look for more.
+
+Unfortunately, this backyard paradise isn't quite perfect. The more Webster eats, the faster the bugs move, making it harder to find the next meal. Even worse, he's not the only one with an appetite—there's a speedy scorpion sharing the same hunting ground, stealing bugs when he can and giving Webster a sting whenever he drops too close.
+
+Atari Version
+
+Program 1—the Atari version of "Webster Dines Out"—will run on any Atari computer with at least 32K memory. Use the joystick to move Webster left or right at the top of the screen. When a bug passes below, press the button to make him drop down.
+
+Your goal is to score points as quickly as possible. Each bug is worth 25 points and you get 50 bonus points for snaring two bugs in a single drop. Webster has three lives in each game; getting stung by the scorpion costs you a life but does not reduce your score. The scorpion is a tough competitor: When Webster drops down, the scorpion speeds up to increase his chances of stealing a bug.
+
+There are six skill levels, each harder than the last. As you advance to higher levels, the bugs and scorpion speed up, the grass grows longer, and a grey rock appears in the lawn. The other creatures hide behind these objects, but Webster can drop behind them too. The game ends when you lose all three lives or exhaust your time at the highest skill level.

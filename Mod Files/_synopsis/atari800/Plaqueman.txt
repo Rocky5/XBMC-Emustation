@@ -1,0 +1,14 @@
+Plaqueman
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action - Maze
+Gametype: Licensed
+Release Year: 1983
+Developer: BCI Software
+Publisher: BCI Software
+Players: 1 or 2 Alternating
+Programmer: Mike Potter
+_________________________
+

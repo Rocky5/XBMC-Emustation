@@ -1,0 +1,18 @@
+Ballblaster (Proto)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Sports - First Person - Arcade
+Gametype: Prototype
+Release Year: 1983
+Developer: Lucasfilm Games
+Publisher: None
+Players: 1 or 2 VS
+Programmer: David Levine, Aric, Wilmunder
+Musician: Peter Langston
+_________________________
+
+This is the prototype to the game "Ballblazer". 
+ 
+This version was leaked on Atari's BBS.

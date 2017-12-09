@@ -1,0 +1,14 @@
+Munchy Madness: Quest For Hearts
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Puzzle - Scrolling - Multi-Directional
+Gametype: Magazine
+Release Year: 1986
+Developer: Page 6
+Publisher: Page 6
+Players: 1
+Programmer: Paul Lay
+_________________________
+

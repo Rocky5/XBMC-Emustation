@@ -1,0 +1,20 @@
+Up'n Down
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Gametype: Licensed
+Release Year: 1984
+Developer: Sega
+Publisher: Sega
+Players: 1 or 2 Alternating
+Programmer: Sega
+_________________________
+
+This is a home port of a 1983 Sega arcade game that was distributed by Bally Midway.
+
+The object is to drive around a twisty course and collect all the colored flags. You can jump over gaps and over or onto other cars. If you land on another car, you kill them and collect points. You can also collect things like balloons and ice cream cones for bonus points. The faster you collect all the flags, the bigger a time bonus you get.
+
+In later levels, there are dead-ends or gaps and a vehicle that is carrying a flag you need, so you will need to jump on him. If you are hit by another vehicle or go off the course, you lose a life. In two player games, play alternates.
+
+http://www.mobygames.com/game/atari-8-bit/up-n-down

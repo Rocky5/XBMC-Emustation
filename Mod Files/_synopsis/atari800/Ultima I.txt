@@ -1,0 +1,36 @@
+Ultima I
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Role Playing Game - Adventure
+Gametype: Licensed
+Release Year: 1983
+Developer: Sigma Micro Systems
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Doug Ferguson
+Designer: Richard Garriot
+_________________________
+
+Over a thousand years ago, the wizard Mondain, intent on world domination, created an evil gem which made him invincible and immortal. The protagonist, known as the Stranger, has to travel the lands in search of a time machine, go back in time to the days before Mondain created the gem, and then destroy him. The land of Sosaria is depending upon this lone warrior.
+
+Considered one of the most influential progenitors of the role-playing genre, Ultima is a follow-up to Akalabeth. It utilizes a similar basic gameplay system, including graphical 2D world map and town exploration, and 3D vector-line maze-like dungeons. The player controls a single character who must complete a number of quests, vanquishing monsters and leveling up in process. Equipment and food are available for sale in towns. World map graphics are tile-based and have significantly more detail than in Akalabeth. The game mixes medieval fantasy and sci-fi elements, and includes a few space combat simulation segments.
+
+
+Trivia:
+
+The original Ultima was distributed by California Pacific Computers for the Apple II in 1980.
+
+It did not have any box or luxury like maps etc. like the later games but was released in a simple ziploc bag containing the disk, a play book, reference card and a nice 'cover' art page - amazingly they still sold about 50,000 copies this way. This first release has the line 'top of the orchard software' printed on both the cover as well as the disk.
+
+In 1986, Origin decided to rerelease the early Ultima games, starting with the first, and it was ported to several new platforms. The assembly language was rewritten and the graphics were updated. In addition, the re-release contained nifty new maps and coins that were not included in the original release.
+
+When teenagers Richard Garriott and his friend Ken Arnold worked together at a local Computerland during the summer of 1979, they got together and created the first "Ultima" based upon Richard's success with his first game, Akalabeth.
+
+The two boys created the technique of "tile graphics" by tracing their hand-drawn pictures on graph paper, changing the graphs to hexadecimal data and typing them into the computer.
+
+The game sold over 50,000 copies in a time before the first IBM PC had even seen the light of day.
+
+
+http://www.mobygames.com/game/atari-8-bit/ultima

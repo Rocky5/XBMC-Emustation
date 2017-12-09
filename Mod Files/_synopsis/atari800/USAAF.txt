@@ -1,0 +1,18 @@
+USAAF
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1985
+Developer: SSI
+Publisher: SSI
+Players: 1 or 2 VS
+Programmer: Keith Brors
+_________________________
+
+U.S.A.A.F. is a detailed day by day simulation of the daylight strategic bombing offensive against the Third Reich and Nazi Europe during WWII. The action is broken down into daily decisions and raids with results so specific that every single serviceable aircraft is accounted for at the beginning and end of every mission. You can play a full length campaign game starting on August 1, 1943 or 3 shorter 1 month campaigns. You can either play as the American Commander of the 8th Air Force in England and the 15th Air Force in Italy bombing primary and secondary targets of 12 different types spread over 91 cities. As the German Commander of the Luftwaffe on the defensive you direct your planes for interception. Victory in the game is determined by several factors including aircraft loss ratios but is mainly based on the Axis Industrial Damage Level (AIDL).There are 5 levels of play for up to 2 people.
+
+
+http://www.mobygames.com/game/atari-8-bit/usaaf-united-states-army-air-force

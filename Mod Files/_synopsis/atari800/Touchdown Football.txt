@@ -1,0 +1,25 @@
+Touchdown Football
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Sampler - Fantasy
+Gametype: Licensed
+Release Year: 1986
+Developer: SofTalent
+Publisher: Electronic Arts
+Players: 2 VS
+Programmer: Ken Rose
+_________________________
+
+A very capable football simulation, given the year and technology. Call the plays, then run them using the keyboard or joystick. Digitized voices enhance the game, including the crowd, calling the numbers, and referee's calls.
+
+Trivia:
+
+The author's initials (MDK) are sprinkled liberally throughout the game code and data. 
+
+Touchdown Football featured a large amount of digitized speech--not bad for a machine with only 128K of RAM and no digitized sound hardware.
+
+
+
+http://www.mobygames.com/game/atari-8-bit/touchdown-football

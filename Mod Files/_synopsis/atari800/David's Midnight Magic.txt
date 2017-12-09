@@ -1,0 +1,17 @@
+David's Midnight Magic
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick
+Genre: Pinball
+Gametype: Licensed
+Release Year: 1987
+Developer: Broderbund Software
+Publisher: Atari
+Players: 1 thru 4 Alternating
+Programmer: David Snider
+_________________________
+
+David's Midnight Magic is a simple pinball game designed for 1-4 players. The game was modeled on the popular Black Knight pinball table released by Williams. Unlike Black Knight, however, David's Midnight Magic contains a mixture of bright colors. Featuring dual flipper controls, upper and lower playing fields, tilt mechanism, multiple ball play, electromagnetic deflectors, and many special effects, the game represents the first generation of home computer pinball simulations available with relatively realistic pinball features. 
+
+http://www.mobygames.com/game/atari-8-bit/davids-midnight-magic

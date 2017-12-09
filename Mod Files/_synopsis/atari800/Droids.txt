@@ -1,0 +1,17 @@
+Droids
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Solitare Group
+Publisher: TG Software
+Players: 1 or 2 Alternating
+Programmer: Mory Mirzazadeh
+_________________________
+
+In the vast, starless void beyond the Mnemos Nebula, your desperate struggle has restored some measure of control after the devastating effects of an ion storm. Just creeping along at sublight speed, you discover that your crew of droids has suffered phase inversions to their programming elements. Once friendly, helpful and benign, they have become an all too real nemesis to your safety and control of the ship. Just when you were sure you had them all safely locked in their service cubicles, the alarm on level 4 sounds to tell you that the life-support systems have been deactivated. As you rush to reset it, you barely escape the deadly grasp of one of the berserk droids. Firing as you dive for the safety of the transfer shaft, the flash of your integrator beam teleports the droid back to its cubicle. But in the face of time needed to recharge, will you maintain your advantage? Will engineering systems be next or weapons control or communications? Good luck, it's 55 light-years to the neares repair base.
+
+~From the back of the box

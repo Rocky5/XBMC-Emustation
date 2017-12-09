@@ -1,0 +1,17 @@
+Colossus Chess 4
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick,Keyboard
+Genre: Board Game - Chess
+Gametype: Licensed
+Release Year: 1987
+Developer: CDS Software
+Publisher: CDS Software
+Players: 1
+Programmer: Martin P. Bryant
+_________________________
+
+Colossus 4 Chess is a computer chess game. The game is customizable and you can monitor all your previous moves. It is even possible to see the computer thinking ahead and predicting your moves. The computer is hard to beat, and would win matches against other computer chess programs of the day. It can achieve the king-bishop-knight mate, which is the most difficult checkmate manuver possible in Chess.
+
+http://www.mobygames.com/game/atari-8-bit/colossus-chess-4

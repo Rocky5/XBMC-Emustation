@@ -1,0 +1,15 @@
+Space Lobsters
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joysticks
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1987
+Developer: Red Rat Software
+Publisher: Red Rat Software
+Players: 1
+Programmer: Ivan Mackintosh
+Musician: Richard Munns
+_________________________
+

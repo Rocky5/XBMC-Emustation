@@ -1,0 +1,21 @@
+Six-Gun Shootout
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1985
+Developer: SSI
+Publisher: SSI
+Players: 1 or 2 VS
+_________________________
+
+Six-Gun Shootout is a turn-based strategy game of man-to-man combat, using the setting of the American West in the 19th century. It offers ten scenarios which can be played against the computer or a human opponent. The scenarios are loosely based on historical situations, like the Gunfight at the O.K. Corral, or entirely fictional. Some are based on movies, for example the 1959 released "Rio Bravo".
+
+The characters engaging each other are split into two factions called "Good Guys" and Bad Guys", and are rated in different categories, such as their accuracy with weapons. It's possible to play a customized character. 
+
+The game's tactical combat engine has features such as line-of sight, postures, terrain and wound effects, and includes 18 weapons with different attributes. A scenario is won by the player with the most victory points, which are accumulated by killing or incapacitating opposing individuals. It's possible for a side to be completely wiped out, yet be the winner through this system. 
+
+
+http://www.mobygames.com/game/atari-8-bit/six-gun-shootout

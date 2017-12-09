@@ -1,0 +1,28 @@
+Stargate (5200)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Shooter
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Atari
+Publisher: None
+Players: 1 or 2 Alternating
+Hacked by: Glenn The 5200 Man
+Programmer: Steve Baker
+_________________________
+
+Stargate was the 1982 sequel to Williams' smash arcade hit Defender.  Stargate's name was changed to Defender II sometime after 1984 due to some kind of copyright problem.  As with most sequels, Stargate didn't change the game formula that helped make the original game a hit.  Instead Stargate expanded on the formula...
+
+Stargate added a number of new features to the Defender formula including new enemies, new abilities, and of course stargates!  Stargates allow players to instantly warp from one area of the level to another, which can be very handy if used right.  Stargates can also be used to warp forward levels if certain amounts of humanoids are carried into them.  The ability to score bonus points for carrying multiple humanoids is also a new feature first introduced in this game.
+
+Other new abilities include the Inviso power, which is basically a super cloaking device.  Using Inviso makes your ship invisible and allows it to pass through all enemies and their shots.  However you can still shoot while "Inviso", so make the most your Inviso time.  Stargate also includes the ability to enter Hyperspace.  Entering Hyperspace is just as dangerous as it was in defender, and while it can save your life in an emergency it can also blow you to smithereens.  Use the Hyperspace option sparingly!  
+
+Stargate is unique among Atari 8-bit games as it uses the original arcade title screen, including all the arcade colors, fonts, and options.  Of course all of this wasn't by coincidence, programmer Steve Baker had an original Stargate arcade machine in his house so he could perfect the 8-bit version.  According to Steve when he was done you could stand back 10 feet from the screens and not be able to tell the difference.
+
+While Stargate may have beautiful graphics and an arcade accurate title screen, the only known version has massive slowdown problems.  When too many enemies get on the screen at once (which is often) the gameplay becomes extremely choppy.  According to Steve this is because Stargate used all the Atari 8-bit's processor due to the variety of graphical techniques used (Hi-Res, Bitmap, and Player Graphics). 
+
+Although Stargate never achieved the same level of success as its predecessor, it shows that even a great game like Defender has room for improvements.   It is unknown why the Atari 8-bit port was unreleased, but the 5200 version also met a similar fate.  I guess the collapsing market just couldn't wait for quality arcade ports to be released.
+
+http://www.atariprotos.com/8bit/software/stargate/stargate.htm

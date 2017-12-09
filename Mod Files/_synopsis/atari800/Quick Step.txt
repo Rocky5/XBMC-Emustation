@@ -1,0 +1,19 @@
+Quick Step
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Scrolling
+Gametype: Licensed
+Release Year: 1983
+Developer: Imagic
+Publisher: Imagic
+Players: 1 or 2 VS
+_________________________
+
+Part of the Imagic 1-2-3 pack?
+
+In Quick Step a kangaroo and squirrel are competing against each other to earn points by jumping on trampolines. The screen is made up of an array of trampolines which scroll downward. As trampolines appear at the top of the screen, they will be grey in color; as soon as it turns pink, the trampoline is now in play. Each time a critter jumps on a trampoline, the color will change to that critters color (green for the kangaroo, or blue for the squirrel). If you jump on a pink trampoline, 3 points are earned; when a trampoline falls off the bottom of the screen that is your color, 6 points are earned (so although no points are earned by jumping on your opponents color, you want to try to get as many trampolines as possible your color in order to earn points when they reach the bottom). If you fall off of the bottom of the screen, a life is lost; the game ends when one player has no more lives left and whomever has more points wins. A few bonuses can also be found; if you see a white trampoline, that is a magic hat; collect it and then jump onto the same space as your opponent to temporarily stun him. Each player also begins the game with 6 tricky traps; pressing the button lays a trap causing the trampoline to disappear so no one can land there. Each level in the game gets progressively faster; at the end of a level, there will be a single column of fast moving trampolines to jump up, so be careful!
+
+
+http://www.mobygames.com/game/atari-2600/quick-step

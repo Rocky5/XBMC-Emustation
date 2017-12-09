@@ -1,0 +1,14 @@
+Flapper
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Action - Fixed
+Gametype: Licensed
+Release Year: 1983
+Developer: Romox
+Publisher: Romox
+Players: 1
+Programmer: Marc Russell Benioff
+_________________________
+

@@ -1,0 +1,29 @@
+Stellar Shuttle 480i
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Hack
+Release Year: 2009
+Developer: Br0derbund Software
+Publisher: Br0derbund Software
+Players: 1
+Hacked by: Rybags
+Programmer: Matt Rutter
+_________________________
+
+Enhanced release of Stellar Shuttle with interlace.
+
+Stellar Shuttle is a single player, side scrolling rescue game in which the player depends on maneuvering and fire power to avoid destruction. The planet Ttam has drifted into a dangerous asteroid belt, requiring that all inhabitants be evacuated to a mother ship orbiting outside the belt. The player has 3 shuttle ships to work with, to fly through the asteroids, and pluck the colonists one at a time from the surface. The speed of the shuttle is adjusted using the retro rockets available, to avoid on coming asteroids. meanwhile, on the surface of Ttam, galactic dragons are emerging from the impact points of numerous asteroids, hunting colonists while the rescue operation proceeds. The retro rockets are effective against these creatures.
+
+On your return trip to the Mother ship, you will have blasters to use to clear your way through the asteroids, however comets, will require maneuvering and speed to avoid. Drifting derelict spaceships hurtling at warp speeds will require blasting, to safely make it down to the surface and back to safety.
+
+Six rescued colonists complete each level.
+
+Scoring is as follows:
+
+Each Landing................................................................200 points Return of each colonist safely to the mother ship.............300 points Large asteroids...............................................................20 points Small asteroids...............................................................50 points Derelict Spaceships.......................................................300 points Dragons........................................................................200 points Every six rescued refugees..........................................1,000 points 
+
+
+http://www.mobygames.com/game/atari-8-bit/stellar-shuttle

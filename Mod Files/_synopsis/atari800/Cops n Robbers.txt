@@ -1,0 +1,17 @@
+Cops'n Robbers
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1988
+Developer: Atlantis Software
+Publisher: Atlantis Software
+Players: 1
+Programmer: Simon Leck
+_________________________
+
+You are a robber whose target is the Acme Diamond Co. and the old mine, both which are full of jewels. Once collected, the jewels need to be returned to your getaway vehicle. Making your job hard are cops who are very smart, choppers who are dangerously low to the ground, and ghosts that can kill you if you come in contact with them. You have one weapon to deal with these enemies, but it has limited ammo. If you get killed by cops or ghosts, you can enter the jail and release one of your captured men.
+
+http://www.mobygames.com/game/atari-8-bit/cops-and-robbers

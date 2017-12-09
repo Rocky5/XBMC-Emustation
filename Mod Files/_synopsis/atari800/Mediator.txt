@@ -1,0 +1,14 @@
+Mediator
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action - Puzzle
+Gametype: Licensed
+Release Year: 1985
+Developer: English Software
+Publisher: English Software
+Players: 1 or 2 Alternating
+Programmer: Michael Hedley
+_________________________
+

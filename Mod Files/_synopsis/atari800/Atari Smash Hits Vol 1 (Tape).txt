@@ -1,0 +1,22 @@
+Atari Smash Hits: Volume 1 (Tape)
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Compilation - Arcade
+Gametype: Licensed
+Release Year: 1985
+Developer: English Software
+Publisher: English Software
+Players: 1 or 2 Alternating
+Programmer: Jon Williams, Simon Hunt, John Brierley, Steven A. Riding, M. D. Caballero
+_________________________
+
+SIDE A
+000-136 = Jet Boot Jack
+148-253 = Dan Strikes Back
+253-330 = Hyperblast!
+
+SIDE B
+000-146 = Captain Sticky's Gold
+146-310 = Firefleet

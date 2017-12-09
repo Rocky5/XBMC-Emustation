@@ -1,0 +1,19 @@
+Preppie! (Tape)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action - Multi-Screen
+Gametype: Licensed
+Release Year: 1982
+Developer: Star Systems Sofware, Inc.
+Publisher: Adventure International
+Players: 1 or 2 Alternating
+Programmer: Russ Wetmore
+Musician: Russ Wetmore
+_________________________
+
+Preppie! is a variant of Frogger that takes place on the toughest golf course in the world, the Ninenty Nine, where the player has to retrieve his golf balls. The player starts at the bottom part of the screen and has to traverse first a road full of golf carts, bulldozers and lawn mowers and then a river full of logs and alligators. Each level has one or more golf balls that the player has to pick up and carry back to the starting position. He can only carry one ball at a time so he has to move past the dangers multiple times before a level is completed. Points are earned for each golf ball recovered. As the player progresses through the levels more and more threats are introduced, such as monster frogs and new types of vehicles. There are ten levels in total. 
+
+
+http://www.mobygames.com/game/atari-8-bit/preppie

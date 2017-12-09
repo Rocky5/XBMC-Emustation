@@ -1,0 +1,14 @@
+Phobos
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Shooter - Vertical
+Gametype: Licensed
+Release Year: 1982
+Developer: APX
+Publisher: APX
+Players: 1
+Programmer: Greg Christensen
+_________________________
+

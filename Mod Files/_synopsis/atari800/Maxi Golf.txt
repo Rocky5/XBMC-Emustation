@@ -1,0 +1,12 @@
+Maxi Golf
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Gametype: Licensed
+Release Year: 1984
+Developer: Sunset City Software
+Publisher: Adventure International
+Players: 1 thru 4 VS
+_________________________
+

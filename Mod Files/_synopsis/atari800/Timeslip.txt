@@ -1,0 +1,14 @@
+Timeslip
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Action - Scrolling - Vertical
+Gametype: Licensed
+Release Year: 1986
+Developer: English Software
+Publisher: English Software
+Players: 1 or 2 VS
+Programmer: Jon Williams
+_________________________
+

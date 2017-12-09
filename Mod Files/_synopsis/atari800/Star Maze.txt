@@ -1,0 +1,14 @@
+Star Maze
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Eastman Computing, Inc
+Publisher: Sir-Tech Software, Inc
+Players: 1
+Programmer: Gordon Eastman
+_________________________
+

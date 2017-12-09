@@ -1,0 +1,19 @@
+Ace of Aces (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Flight Simulator - Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Distinctive Software
+Publisher: Accolade
+Players: 1
+Programmer: Amory Wong, Kevin P. Pickell
+_________________________
+
+Ace of Aces is a 1st person, 3D flight simulation. You're onboard a British RAF Mosquito, maverick fighter bomber. Your mission ... stop enemy trains, intercept the terrible german V-1 buzz bombs, sink the german U-boats and down the Nazi bombers. Are you ready for this challenge?
+ 
+The multi-load cassette version is best saved for nostalgia purposes.
+
+http://www.mobygames.com/game/atari-8-bit/ace-of-aces

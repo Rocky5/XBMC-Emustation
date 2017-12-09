@@ -1,0 +1,18 @@
+Nibbly
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick, Keyboard
+Genre: Action - Maze
+Gametype: Homebrew
+Release Year: 2005
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Tomasz Biela
+Musician: Thomas Mogensen, Krzysztof Swiecicki
+_________________________
+
+Excellent new(ish) game, well worth a play! Nibbler meets Pac-man in a puzzle game?! Guide your worm around the maze eating the dots, but not in a frantice way. Learn the best routes and avoid bumping into yourself. Level codes allow access to any completed level. Great catchy music makes you want to go fast when you should really be taking it steadily! 
+
+http://gwobby.webs.com/

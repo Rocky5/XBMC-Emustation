@@ -1,0 +1,14 @@
+Pole Position & Race Designer
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Racing - Arcade
+Gametype: Hack
+Release Year: 1984
+Developer: Atari
+Publisher: Floytt Software
+Players: 1
+Programmer: Herwig Henseler
+_________________________
+

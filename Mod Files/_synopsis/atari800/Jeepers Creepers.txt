@@ -1,0 +1,15 @@
+Jeepers Creepers
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Quality Software
+Publisher: Quality Software
+Players: 1
+Programmer: James Albanese
+_________________________
+
+No description

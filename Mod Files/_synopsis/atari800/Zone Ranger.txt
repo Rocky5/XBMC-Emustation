@@ -1,0 +1,19 @@
+Zone Ranger
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action - Scrolling - Multi-Directional
+Gametype: Licensed
+Release Year: 1984
+Developer: Activision
+Publisher: Activision
+Players: 1 or 2 Alternating
+Programmer: Dan Thompson
+_________________________
+
+Zone Ranger is an arcade action game somewhat similar to Asteroids. You are the pilot of a spaceship in a deadly region of space. Large killer rocks, rogue satellites, boomerangs, and more all fill this region of space. Using your ships lasers you need to destroy as many of these as you can to earn points.
+
+Each level also contains some warp holes; enter one of these and you will be transported to a new location, which could be useful if you get in trouble. You will also occasionally come across some sonic sparklers; touch one of these, and you will temporarily become invincible. Another oddity you may come across is a super portal, which will transport you to the inner sanctum where bonus dots can be found. Lastly, on level one only a warp to the seventh dimension can be found. Lots of points can be earned there, but it's quite difficult so if you take this warp you probably won't last long!
+
+http://www.mobygames.com/game/atari-5200/zone-ranger

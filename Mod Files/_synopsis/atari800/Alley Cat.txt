@@ -1,0 +1,23 @@
+Alley Cat
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1
+Programmer: Bill Williams, John Harris
+_________________________
+
+Alley Cat is an action game consisting of several mini games cleverly tied together. You're a little black cat who wants to make love to a pretty lady cat that lives in an apartment complex. Play all kinds of cat-themed mini games in order to reach her and score as many points as you can while doing so.
+
+You start out in an alley and need to get inside the apartment by climbing on garbage cans and a fence. Next, jump on a clothesline and through several open windows while big dogs try to eat you and people throw garbage at you. Outside of the apartment complex you can score points by eating the mice that run across the clotheslines. Once you've jumped through a window you enter a room where you play a randomly assigned mini game.
+
+These mini games include: eating all the fish in a fish bowl, stealing milk from a bunch of bulldogs, pushing a birdcage from a table and eating the bird, catching mice inside a big cheese, pushing vases from a cabinet. To make things harder there's always a broom inside every room that tries to knock you around. You score points by completing the mini games within a certain time (the faster the better).
+
+After you've completed a mini game you're back in the alley. Make your way back inside the apartment complex and you get a chance to play the love-cat game: try to reach the lady cat on the top row of hearts while rival male cats and cupid's arrows knock you down. After you've mated, the difficulty gets cranked up a notch
+
+http://www.mobygames.com/game/atari-8-bit/alley-cat

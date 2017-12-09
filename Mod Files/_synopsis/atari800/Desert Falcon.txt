@@ -1,0 +1,17 @@
+Desert Falcon
+Platform: Atari 800
+Region: USA
+Media: Cartridge (XEG)
+Controller: Joystick
+Genre: Shooter - Isometric
+Gametype: Licensed
+Release Year: 1988
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 Alternating
+Programmer: Ken Rose
+_________________________
+
+Desert Falcon is an arcade style shooter. Many of the Pharaoh's great treasures are lost throughout the desert, and your goal is to steal as many as you can to earn points. The game features a scrolling, isometric point of view as you control your falcon through the various desert landscapes. The treasures you are after are guarded of course. Many desert creatures including vultures, warriors, flying fish, sphinxes and more will all attempt to stop you from succeeding in your task. Also, at the end of each level you will need to face a large, howling sphinx before you can continue on. Your falcon isn't completely unarmed, and has the ability to fire darts which can be used to destroy the assorted enemies and the sphinx. In the sand, you will occasionally come across some hieroglyphs. Several different superpowers can be gained by landing and hopping over three of these hieroglyphs. Depending on which hieroglyphs are collected, you may become invincible, warp to the end of the level, earn free points, trick enemies into attacking a decoy instead of you, or even get an air bomb which destroys all airborne enemies.
+
+http://www.mobygames.com/game/atari-8-bit/desert-falcon

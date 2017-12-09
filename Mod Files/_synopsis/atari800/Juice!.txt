@@ -1,0 +1,31 @@
+Juice!
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action - Strategy
+Gametype: Licensed
+Release Year: 1983
+Developer: Tronix Software
+Publisher: Tronix Software
+Players: 1
+Programmer: Arti Haroutunian
+_________________________
+
+Juice! is a single player side scrolling game with 6 levels of intensity, where Edison, the Kinetic Android (the player's avatar), competes against an array of obstructionist enemies to complete a working closed circuit board. 'Nohms' are electrical charges that quickly appear and begin bouncing around the grid. A single contact with one can cause Edison to melt into oblivion. As they disappear, they leave behind a single 'Capacitor' which quickly evolves into a nasty 'Killerwatt', which targets Edison as it begins zipping around the grid in its pursuit. Meanwhile Edison is looking for the benevolent 'Recharge', to continue his energizing power. Complications occur when 'Flash, the Lightning Dolt' begins disassembling all the good work Edison has accomplished. The player must try to complete the circuits and keep Edison ahead of his enemies.
+
+Scoring:
+Adding a square to the circuit.....................................10 points 
+Contact with Flash or Recharge................................300 points 
+Leading Killerwatt off the board.................................500 points 
+Completion of a bonus round in the allotted time.......2000 points
+
+
+Units of time: quick progress adds points. Each level has an allotted amount of time units: Level 1: 1500 units. Level 2: 1700 units. Level 3: 1900 units. Level 4: 2100 units. Level 5: 2300 units. Level 6: 2500 units.
+
+When you complete a board and juice begins to flow, the time left over is converted to points and added to your total. There are 6 levels of difficulty, each one made up of 3 rounds and one bonus round.
+
+You begin with 5 Edisons, and receive a bonus Ediison at 10,000 points.
+
+
+http://www.mobygames.com/game/atari-8-bit/juice

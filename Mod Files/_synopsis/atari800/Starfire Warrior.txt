@@ -1,0 +1,14 @@
+Starfire Warrior
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Fixed
+Gametype: Prototype
+Release Year: 1983
+Developer: Datasoft
+Publisher: Datasoft
+Players: 1 or 2 Alternating
+Programmer: Burt Fisher
+_________________________
+

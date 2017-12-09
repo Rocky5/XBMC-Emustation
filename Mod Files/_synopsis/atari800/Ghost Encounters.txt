@@ -1,0 +1,14 @@
+Ghost Encounters
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Puzzle
+Gametype: Licensed
+Release Year: 1982
+Developer: JV Software
+Publisher: JV Software
+Players: 1
+Programmer: Jack Verson
+_________________________
+

@@ -1,0 +1,14 @@
+Hyperblast!
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shoot 'em Up - Fixed
+Gametype: Licensed
+Release Year: 1983
+Developer: English Software
+Publisher: English Software
+Players: 1 or 2 Alternating
+Programmer: John Brierley
+_________________________
+

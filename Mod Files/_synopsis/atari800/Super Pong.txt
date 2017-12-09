@@ -1,0 +1,33 @@
+Super Pong
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Paddles
+Genre: Action - Ping Pong
+Gametype: Magazine
+Release Year: 1986
+Developer: Summit Software Group
+Publisher: ANALOG Computing
+Players: 1 or 2 VS
+Programmer: Gary S. Domrow
+_________________________
+
+February 1986 - Vol. 39
+
+After Super Pong loads, the title screen will appear, with the credits scrolling across the top.  To begin, press either of the paddle buttons.  The playfield will appear, and one of the available game types will be printed across the top.
+
+To change the game type, slowly rotate first paddle in either direction.  Pressing the button again will select the game type, and the beginning score will appear.  From this point on, pressing the button of the paddle that will hit the ball first will sever the ball.
+
+One point is scored each time the ball goes past the other player.  The first player to get fifteen points is declared the winner.  Super Pong may be paused and resumed by pressing any key, and pressing START will restart the game at any time.  In all game versions, the ball will speed up after the eight and sixteenth hits, and will bounce on an angle if hit by the end of the paddle.
+
+Options.
+
+Four different game options are available.  Standard Pong.  Hockey Pong, Wall Pong, and Practive.  The following paragraphs briefly describe each type of game.
+
+Standard -- Each player controlers one paddle on the screen.  The direction of the serve alternates, beginning with the player on the right.
+
+Hockey -- Each playter controls two paddles on the screen.  The serve alternates as in Standard Pong.  However, the ball will pass through the centermost paddles if it's already moving toward that player's goal.
+
+Wall Pong -- In this game, the two players hit the ball against the wall.  The players must alternate hits.  The paddle of the player who must hit the ball will be brighter until the ball is hit.  Also, the player who misses will receive the next serve.
+
+Practice -- This is a one-player version of Wall Pong, and is included for practive.  Obviously, neither serve nor hits alternate.

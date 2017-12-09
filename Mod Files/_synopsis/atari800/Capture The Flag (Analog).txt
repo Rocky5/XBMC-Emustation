@@ -1,0 +1,14 @@
+Capture The Flag (Analog)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Maze
+Gametype: Licensed
+Release Year: 198x
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 2 VS
+Programmer: Brad Timmins
+_________________________
+

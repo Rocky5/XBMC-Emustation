@@ -1,0 +1,16 @@
+Diamond Mine
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: IDSI
+Publisher: Roklan
+Players: 1 or 2 VS; CO-OP
+_________________________
+
+The goal of Diamond Mine is to collect as many diamonds as possible from 20 underground shafts. Each is presented as a single screen with corridors and alleyways. Monsters are released at intervals from a Pacman-style hub, these can be shot. The mines are covered in dust initially; until you have walked through an area, a bullet can't be fired through it. Contact with a monster loses all your gems, so the best strategy is to shoot them out first - as most diamonds are down corridors, this can be planned for. You can start from one of 5 different screens.
+
+http://www.mobygames.com/game/atari-8-bit/diamond-mine

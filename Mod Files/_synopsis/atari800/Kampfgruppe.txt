@@ -1,0 +1,22 @@
+Kampfgruppe
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat - Turnbased
+Gametype: Licensed
+Release Year: 1985
+Developer: SSI
+Publisher: SSI
+Players: 1 or 2 VS
+Programmer: Gary Grigsby
+_________________________
+
+A platoon-level tactical game of armored warfare that encompasses almost all ground weapons used on the Russian Front from 1941-45. The Game puts the player in command of either a German or Russian battle group. Kampfgruppe provides four historical and an infinite number of randomly created scenarios.
+
+The historical scenarios: "Meeting engagement east of Bryansk" (July 7, 1942), "Attempted relief of Stalingrad" (December 17, 1942), "Attack toward Kiev" (November 3, 1943), "Attack toward Berlin" (March 22, 1945).
+
+The game will automatically end after 20 turns (30 if there is an assault battle being played). However a game may be ended earlier or continue after it has ended if all sides agree. At the end of the game victory points will be awarded which will determine whether the battle was a draw or a marginal,substantive or decisive victory.
+
+
+http://www.mobygames.com/game/atari-8-bit/kampfgruppe

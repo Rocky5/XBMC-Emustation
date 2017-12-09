@@ -1,0 +1,38 @@
+Pole Position (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Racing - Arcade
+Gametype: Licensed
+Release Year: 1984
+Developer: Atari
+Publisher: Datasoft
+Players: 1
+Licensed from: Namco
+_________________________
+
+Pole Position is the conversion of the arcade racing game. Enter the Grand Prix, race against other racing cars to achieve the highest score possible in the shortest amount of time.
+
+Before the player can enter the Grand Prix, the player must first qualify by competing in the Qualifying Lap within 73 seconds or less. If the player however, does not qualify in the Qualifying Lap, the player may continue to race until the Race Timer runs after 90 seconds. The player will score 50 point per 5 meters and additionally 50 points for every racing car passed. When the time runs out - Game Over. The player will have to restart the Qualifying Lap.
+
+Qualifying will enable the player to start in one of the eight available positions. The faster the lap time was, the better the starting position in addition to bonus score points. The number one starting position, is the Pole Position.
+
+During the Grand Prix, the player will compete against the Race Timer as well as against other racing cars. If the player fails to beat the Race Timer in any lap, the player drops out of the race - Game Over. Completing the race by reaching finishing line will grant the player 200 points per each second left on the Race Timer, bonus score for distance covered, and passing bonus points.
+
+Scoring 
+Every 5 meters driven: 50 points 
+Passing Car Bonus: 50 points per racing car 
+Time Bonus: 200 points per second left on the Race Timer 
+Positions 
+Pole Position - Lap Time: 58"50 seconds - 4,000 points 
+2nd Position - Lap Time: 60"00 seconds - 2,000 points 
+3rd Position - Lap Time: 62"00 seconds - 1,400 points 
+4th Position - Lap Time: 64"00 seconds - 1,000 points 
+5th Position - Lap Time: 66"00 seconds - 800 points 
+6th Position - Lap Time: 68"00 seconds - 600 points 
+7th Position - Lap Time: 70"00 seconds - 400 points 
+8th Position - Lap Time: 73"00 seconds - 200 points 
+
+
+http://www.mobygames.com/game/atari-8-bit/pole-position

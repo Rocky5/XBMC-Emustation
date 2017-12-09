@@ -1,0 +1,15 @@
+Starbase Fighter
+Known issue (if you can help join the forum): box back needs watermark removal.
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Shooter - Multi-Directional
+Gametype: Licensed
+Release Year: 1983
+Developer: Gentry Software
+Publisher: Gentry Software
+Players: 1
+Programmer: John Petritis
+_________________________
+

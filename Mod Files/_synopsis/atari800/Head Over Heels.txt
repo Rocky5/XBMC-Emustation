@@ -1,0 +1,19 @@
+Head Over Heels
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Adventure - Puzzle - Isometric
+Gametype: Licensed
+Release Year: 1987
+Developer: Hit Squad, The
+Publisher: Hit Squad, The
+Players: 1
+Programmer: Colin Porch
+_________________________
+
+Two distinct characters called Mr Head and Mr Heels are played in this arcade adventure. They are separated at the shoulders but capable of joining together to maximize their abilities in some situations (but reduce them in others, so they can be split again).
+
+The game is presented from an isometric perspective, and presents the characters with a number of puzzles involving switches, jumps and climbs. The levels are 3 dimensional, and the characters must collect crowns as they progress. Objects can be picked up and manipulated as necessary.
+
+http://www.mobygames.com/game/atari-8-bit/head-over-heels

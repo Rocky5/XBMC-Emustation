@@ -1,0 +1,34 @@
+Gorf (Disk)
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade - Multi-Screen
+Gametype: Licensed
+Release Year: 1982
+Developer: Roklan Corp.
+Publisher: Roklan Corp.
+Players: 1 or 2 Alternating
+Licensed from: Bally/Midway Mfg
+_________________________
+
+Gorf is a game similar to Space Invaders, alien vessels approach closer and closer in their threatening row formation.
+
+The game itself consists of four levels:
+The first level has you behind a defensive shield, defending against an alien attack. The level is a top-down view, with your ship & shield on one side and the aliens on the other side;
+
+The second level is similar to the first, only your defensive shield is gone, and the enemies tend to swoop down over the level as opposed to those row formations. Bonus ships also tend to appear in this level;
+
+The third level is a change, and has you entering hyperspace. Your only goal is to survive to the end of your journey. The viewpoint switches from a top-down view to a behind-the-ship view and in effect you are heading "towards" your destination. Alien vessels flying in circular formation try to stop you;
+
+The fourth and final level is similar to the first again, with some key differences. You do not fight a wave of enemies, but a single one. A mothership with a glowing weak spot. Hitting the weak spot will instantly destroy it. The mothership also has that same shield that was yours in the first level.
+Finishing the game increases your rank and starts the game over at level 1 with a faster game speed for more challenge.
+
+The disk version saves the high score to the disk.
+
+Trivia:
+
+Arcade machine play screens of Gorf can be seen in these movies - 1982's Fast Times at Ridgemont High, and 1983's Joysticks. An arcade cabinet can also be seen in 2006's The Benchwarmers.
+
+http://www.mobygames.com/game/atari-8-bit/gorf
+

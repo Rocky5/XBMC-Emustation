@@ -1,0 +1,18 @@
+Stealth
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Shoot 'em Up - First Person
+Gametype: Licensed
+Release Year: 1984
+Developer: Br0derbund Software
+Publisher: Br0derbund Software
+Players: 1
+Programmer: Tracy Lagrone, Richard E. Sansom
+_________________________
+
+You are flying above the land in a stealth airplane. You are trying to destroy the tower of darkness which is a distance of 9999 meters away. Destroy enemy military radar, bunkers,etc; to get more points. Use yellow energy fields for increasing your fuel level, but avoid the red energy fields. Once you destroy the Tower, you go onto a tougher level with the same basic objective.
+
+
+http://www.mobygames.com/game/atari-8-bit/stealth

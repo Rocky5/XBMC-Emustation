@@ -1,0 +1,17 @@
+Astro-Quotes
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Keyboard
+Genre: Educational
+Gametype: Licensed
+Release Year: 1980
+Developer: PDI
+Publisher: PDI
+Players: 1
+Programmer: Dean Victor
+_________________________
+
+Fascinating game in which you guess vocabulary words from clues and the computer takes each letter from the words and puts it where it belongs in a famous quotation, 3 versions: easy, medium, hard.
+
+[From the box back]

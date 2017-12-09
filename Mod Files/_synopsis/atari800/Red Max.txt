@@ -1,0 +1,15 @@
+Red Max
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Action - Motorcycles
+Gametype: Licensed
+Release Year: 1987
+Developer: Code Masters
+Publisher: Code Masters
+Players: 1
+Programmer: Andrew Blott, David Blott
+Musician: David Whittaker
+_________________________
+

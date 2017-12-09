@@ -1,0 +1,22 @@
+World Karate Championship
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Beat 'em Up - Karate
+Gametype: Licensed
+Release Year: 1986
+Developer: Epyx
+Publisher: Epyx
+Players: 1 or 2 VS
+Programmer: Archer Mclean
+Musician: Rob Hubbard
+_________________________
+
+The objective of World Karate Championship is to get the highest possible dan (karate grade, determined by belt colour) and become the world champion - and of course, to get the highest score. Karate fighters compete against each other on side-view screens, the scenery representing real world locations (New York, Egypt, Japan, etc.). In between the fighting stages, there are short action sequences, during which the player can gather bonus points. These include deflecting bouncing balls, breaking wooden planks, and others.
+
+Trivia:
+
+System 3 faced a lengthy court battle with arcade publishers Data East, who claimed System 3 had ripped off their game Karate Champ with International Karate. It also used the same forward kicking (street) karate style. The game also looked a lot like The Way of the Exploding Fist, but they weren't sued for that. 
+
+http://www.mobygames.com/game/atari-8-bit/world-karate-championship

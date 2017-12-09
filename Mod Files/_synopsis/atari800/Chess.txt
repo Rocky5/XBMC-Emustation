@@ -1,0 +1,18 @@
+Chess
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Board Game - Chess
+Gametype: Licensed
+Release Year: 1983
+Developer: Parker Brothers
+Publisher: Parker Brothers
+Players: 1
+_________________________
+
+Compete on any of 8 different skill levels, each with a variety of user friendly features. Play either side in a single game. Or try out various strategies by taking back moves. This program lets you set up and solve simulated problems, observe the computer playing against itself - even ask the computer for hints during a match!
+ 
+This version is considered superior to the one released by Atari.
+
+[From the box back]

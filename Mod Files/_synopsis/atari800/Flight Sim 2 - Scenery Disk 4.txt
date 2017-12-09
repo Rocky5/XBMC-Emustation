@@ -1,0 +1,24 @@
+Flight Simulator II: Scenery Disk 4 - Klamath Falls, Seattle, Great Falls
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick, Keyboard
+Genre: Flight Simulator
+Gametype: Licensed
+Release Year: 1985
+Developer: subLOGIC
+Publisher: subLOGIC
+Players: 1
+Programmer: Bruce Artwick
+_________________________
+
+Be sure to use with original Flight Simulator II game.
+
+Scenery Disk 4 is a scenery add-on for subLOGIC's Flight Simulator II, Flight Assignment: Airline Transport Pilot, UFO, Jet, Thunderchopper, Stealth Mission, it can also be used with Microsoft Flight Simulator 2.x.
+
+It covers the areas of Klamath Falls (some of the airports provided: Redding, Eureka, Ontario), Seattle (airports: Tacoma, Portland, Renton) and Great Falls (airports: Helena, Cody, Eureka), adding airports, landmarks, visual detail and navigational aids.
+
+There are 12 total Scenery Disks that cover the continental US, plus 4 special ones covering Western Europe, Japan, Hawaii and San Francisco. They are derived from National Oceanic and Atmospheric Administration Sectional Aeronautical Charts and Airport/Facility Directories.
+
+
+http://www.mobygames.com/game/atari-8-bit/scenery-disk-4

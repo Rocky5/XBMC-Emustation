@@ -1,0 +1,18 @@
+Death Race
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Racing - Third Person - Cars
+Gametype: Licensed
+Release Year: 1987
+Developer: Atlantis Software
+Publisher: Atlantis Software
+Players: 1
+Programmer: Simon Leck
+_________________________
+
+In this racing game you control your racing car through different screens during night and day at high speeds. You must try and drive your car at fast speeds to try and overtake 70 cars before your 80 seconds are up. You have 3 lives to try to complete your goal. If you pass the first level the time gets less and less and you have to get quicker and avoid the other cars on the road.
+
+
+http://www.mobygames.com/game/atari-8-bit/death-race__

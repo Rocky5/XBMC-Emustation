@@ -1,0 +1,15 @@
+Jetboy
+Platform: Atari 800
+Region: Poland
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 2007
+Developer: XXL
+Publisher: XXL
+Players: 1
+Programmer: Krzysztof Dudek
+Musician: Michal Szpilowski
+_________________________
+

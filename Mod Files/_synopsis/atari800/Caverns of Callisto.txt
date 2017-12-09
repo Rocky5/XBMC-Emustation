@@ -1,0 +1,22 @@
+Caverns of Callisto
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Origin Systems
+Publisher: Origin Systems
+Players: 1
+Programmer: Chuck Bueche
+_________________________
+
+You are an astronaut on the moon of Callisto and mutants have stolen the panels from your spaceship along with its ion drive. You must explore the caverns of Callisto, recover all the panels, find the ion drive and escape alive.
+
+This is a fast paced arcade shooter, in which you fly on your jet-pack through the maze-like caverns, avoiding all the aliens and attempting to find your missing ship parts. Your jet-pack has a limited amount of fuel which must also be collected on your way around. You are equipped with a unlimited ammo gun which kills all aliens in one hit, but this overheats if used too much, leaving you temporarily defenceless. 
+
+The game is divided into 5 sections each of which contains 8 missing panels, and either a key to get to the next level or the missing ion drive.
+
+
+http://www.mobygames.com/game/atari-8-bit/caverns-of-callisto

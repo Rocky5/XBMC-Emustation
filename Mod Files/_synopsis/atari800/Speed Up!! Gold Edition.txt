@@ -1,0 +1,17 @@
+Speed Up!! Gold Edition
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick (Multilink)
+Gametype: Public Domain
+Release Year: 2007
+Developer: CPU
+Publisher: CPU
+Players: 1 thru 4 VS
+_________________________
+
+Enhanced version of Speed Up!.
+
+Fourth place in the ABBUC Software Contest 2007.
+
+Requires 130XE and supports MultiLink interface.

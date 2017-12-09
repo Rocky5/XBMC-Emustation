@@ -1,0 +1,24 @@
+NATO Commander (Tape)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1983
+Developer: MicroProse Software
+Publisher: MicroProse Software
+Players: 1
+Programmer: Sid Meier
+_________________________
+
+The first wargame from legendary game designer Sid Meier, NATO Commander puts the player in charge of the armies of Western Europe as the Soviet-led Warsaw Pact forces plunge across central Europe in a hypothetical Cold War-turned-World War III scenario.
+
+The game design would serve as the foundation for the MicroProse Command Series of wargames, so it is no surprise that NATO Commander and those later MicroProse games are very similar. Combat takes place in accelerated real-time, though the player can freeze to survey the field and issue orders. Commanding is basically a matter of picking the right "modes" for individual units and moving them into position for attack or defense, monitoring unit morale, assigning air wings to various tasks (air superiority, ground support, or reconnaissance), and making judicious use of the chemical and nuclear weapons at the player's disposal.
+
+There are four difficulty levels and five different scenarios to choose from, and the player has the option of using larger divisions or smaller brigades as the standard unit size. Victory points are determined by political (city captures, chemical and nuclear weapons use, pre-emptive attack, etc.) and combat (casualties and loss of territory) factors. 
+
+Key political events occur during the course of the war, such as labor strikes and declarations of neutrality by certain European nations. The final outcome is eventually determined when accumulated political and combat losses force one of the two sides to accept defeat.
+
+
+http://www.mobygames.com/game/atari-8-bit/nato-commander

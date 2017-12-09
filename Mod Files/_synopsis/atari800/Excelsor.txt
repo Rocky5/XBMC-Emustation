@@ -1,0 +1,14 @@
+Excelsor
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Side-Scrolling
+Gametype: Licensed
+Release Year: 1986
+Developer: Players
+Publisher: Players
+Players: 1
+Programmer: Keith Harvey
+_________________________
+

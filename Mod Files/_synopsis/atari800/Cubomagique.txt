@@ -1,0 +1,14 @@
+Cubomagique
+Platform: Atari 800
+Region: France
+Media: Tape
+Controller: Keyboard
+Genre: Educational
+Gametype: Licensed
+Release Year: 1984
+Developer: SERMAP
+Publisher: Hatier
+Players: 1 or 2 Alternating
+Programmer: Francois Abella
+_________________________
+

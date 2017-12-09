@@ -1,0 +1,35 @@
+Planetary Defense
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Magazine
+Release Year: 1984
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1
+Programmer: Tom Hudson, Charles Bachand
+_________________________
+
+ANALOG Computing Issue 17, 1984.
+
+Think you can defend a planet from enemy space-bombs?  This issue's assembly-language game will let you find out.  Planetary Defense is a one-player game that can be played with either a joystick or Koala Technologies Corporation's "KoalaPad."
+
+Playing the game.
+
+Once started, Planetary Defense will display the title screen and controller options.
+
+To use a joystick, plug it into controller jack #1 and press either START or the joystick button to begin the game.
+
+To use the KoalaPad, plug it into the controller jack #1 and press either SELECT or one of the KoalaPad buttons to begin the game.
+
+You are in charge of protecting your planet from alien attackers.  Your only defense is an orbiting satellite armed with a charged-particle gun.  To aim the gun, you simply move the targeting crosshairs to the desirec point with the controller.  Press your controller button to fire at the target.  Once fired, you have no control over the charged-particle projectile.  Up to six projectiles may be active at a time.  Be careful about where you shoot -- if you're not careful, you can hit your own planet and destroy part of it!
+
+Your usual target will be the red space-bombs being dropped by the aliens.  These bombs head toward the center of your planets.  If they hit the planet they will explode.   Destroying a chunk of it.  If any explosion ever reaches the core of the planet, the game is over.  If you destroy a space-bomt before it hits your planet, you are awarded from 10-120 points, depending on the level.
+
+Another threat that is much more dangerous than the space-bombs is a flying saucer that cruises along, firing its own charged-particle weapons at your planet!  If not stopped quickly, this alien meance will do an incredible amount of damage.  The saucer appears more often at higher levels, so be on the lookout!  Saucers are worth from 100-400 points each, depending on the level.
+
+If your satellite ever collides with an incoming space-bomb, the satellite will be destroyed.  If the collision is a direct hit, the bomb will also explode, giving you the appropriate amount of points.  This is a costly way to gain points, as you have only five satellites.  Once all five are destroyed, the game is over, and your planet will be overrun by enemy bombs.
+
+Your score is shown at the upper left of the screen.  The number of the level you are on is shown at the upper center of the screen.  The number of satellites you have is show at the upper right by the "*" characters.  The space bar pauses the game.  Good luck!

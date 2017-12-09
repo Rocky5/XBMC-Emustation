@@ -1,0 +1,30 @@
+Xevious (5200)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Shooter
+Gametype: Prototype
+Release Year: Unreleased
+Developer: Atari
+Publisher: None
+Players: 1 or 2 Alternating
+Hacked by: Glenn The 5200 Man
+Licensed from: Namco
+Programmer: Jim Huether, Alan Murphy
+_________________________
+
+It's dangerous, it's devious, it's Xevious.  Never before has a tag line so perfectly summed up a video game.  Xevious was one of the first (if not the first) in a new genre of arcade games: the scrolling shooter.  While we make take such games for granted today, back in 1982 such a concept was unheard of.  Most games of the time had only one non-scrolling screen, which seriously limited their creativity.  One screen shooter like Galaga and Galaxian were ok, but players hungered for something different.  Xevious satisfied that hunger.
+
+We Have Seen the Aliens. and They Are Us!
+It's a nightmare, but it's true.  Scientific research has determined that we are the actual aliens on Earth and the evil Xevions are the original inhabitants.  Now the Xevions want Earth back. minus the humans! Earth's last hope is an experimental fighter plane known as the Solvalou.  The mission is dangerous, success isn't guaranteed, and odds are this is a one-way trip.  But at this point it's do or die! 
+
+As Earth's last hope, you must successfully defeat the Xevion assault fleet before they reclaim earth.  However this won't be an easy task, the Xevions have had over a millennia to develop the biggest, nastiest, and most destructive ships Earth has ever seen.  Thankfully the Solvalou is armed with the latest in weapons technology which will cut through the Xevion hordes like a hot knife through butter.  The Solvalou has two main weapons, a laser blaster for taking out air targets, and a photon bomber for destroying ground targets.  Over the course of the game you'll run into numerous enemy types which can only be destroyed using the appropriate weapon, so mastering the dual shot (air and ground) technique is vital. 
+
+With its large amount of enemies, Xevious is a most impressive game.  The Atari 5200 version is a very good effort to bring the arcade magic home, but some corners had to be cut.  The graphics are good and get the job done, but are occasionally hard to decipher do to the lack of detail (this is the 5200 we're talking about).  The choice of colors is questionable and appear to be rather washed out, however this may have had something to do with the graphics mode used.  The sound effects are pretty much the same as the arcade game, but the short background tune is VERY annoying and continuously repeats throughout the game.  Thankfully the background music can be turned off...
+
+While the sounds and visuals may be a mixed bag, it's in the gameplay that Xevious really shines.  Almost all the enemies from the arcade game made it into this version (from Black Balls to Mirrors), and are annoying as ever.  The dual button 5200 controller is perfectly suited to Xevious's two button firing scheme (one button for lasers, one button for bombs).  The challenge of the arcade game seems to be intact, which was often a problem in arcade to home conversions.
+
+If it weren't for the 7800, the 5200's version of Xevious would have been the best home version available.  However due to the crumbling market the 5200 version (although completed) was scrapped in favor of the superior 7800 version.  Although a 400/800 version was also announced, no prototypes have been found (although they would be identical to the 5200 version anyway).  Xevious is proof that the 5200 still had some life left in it, too bad the Tramiels couldn't see it.
+
+http://www.atariprotos.com/5200/software/xevious/xevious.htm

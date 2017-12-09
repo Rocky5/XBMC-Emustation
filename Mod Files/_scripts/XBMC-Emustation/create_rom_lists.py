@@ -6,7 +6,7 @@
 	( the script will generate static lists for emulators )
 '''
 
-import glob, os, shutil, sys, time, xbmc, xbmcgui, zipfile
+import os, shutil, sys, time, xbmc, xbmcgui, zipfile
 
 try:
 	Manual_Scan	= sys.argv[1:][0]
@@ -129,7 +129,7 @@ def manual_scan():
 	
 					log('|	Couple more vars being set')
 					Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
-					TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.tbn'
+					TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.png'
 					
 					try:
 						if Emu_Name == "genesis":
@@ -140,9 +140,11 @@ def manual_scan():
 							Synopsis = input.read()
 							Synopsis1 = Synopsis.split('_________________________', 1)[0]
 							Synopsis2 = Synopsis.split('_________________________', 1)[1]
+							Synopsis1 = Synopsis1.strip('\n')
 							Synopsis1 = Synopsis1.replace( '&', '&amp;' )
 							Synopsis1 = Synopsis1.replace( '>', '&gt;' )
 							Synopsis1 = Synopsis1.replace( '<', '&lt;' )
+							Synopsis2 = Synopsis2.strip('\n')
 							Synopsis2 = Synopsis2.replace( '&', '&amp;' )
 							Synopsis2 = Synopsis2.replace( '>', '&gt;' )
 							Synopsis2 = Synopsis2.replace( '<', '&lt;' )
@@ -392,7 +394,7 @@ def full_scan():
 
 								log('|	Couple more vars being set')
 								Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
-								TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.tbn'
+								TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.png'
 								
 								try:
 									if Emu_Name == "genesis":
@@ -401,11 +403,13 @@ def full_scan():
 										Synopsis_File = os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' )
 									with open( Synopsis_File ) as input:
 										Synopsis = input.read()
-										Synopsis1 = Synopsis.split('_________________________')[0]
-										Synopsis2 = Synopsis.split('_________________________')[1]
+										Synopsis1 = Synopsis.split('_________________________', 1)[0]
+										Synopsis2 = Synopsis.split('_________________________', 1)[1]
+										Synopsis1 = Synopsis1.strip('\n')
 										Synopsis1 = Synopsis1.replace( '&', '&amp;' )
 										Synopsis1 = Synopsis1.replace( '>', '&gt;' )
 										Synopsis1 = Synopsis1.replace( '<', '&lt;' )
+										Synopsis2 = Synopsis2.strip('\n')
 										Synopsis2 = Synopsis2.replace( '&', '&amp;' )
 										Synopsis2 = Synopsis2.replace( '>', '&gt;' )
 										Synopsis2 = Synopsis2.replace( '<', '&lt;' )

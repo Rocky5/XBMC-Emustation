@@ -1,0 +1,18 @@
+Embargo
+Known issue (if you can help join the forum): ROM image needs to be moved into \"Prototype\" directory.
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Prototype
+Release Year: 1982
+Developer: Solitare Group
+Publisher: Gebelli Software
+Players: 1
+Programmer: Bill Hooper
+_________________________
+
+The citizens of Zorel 6, enduring the Galactic Council's strict trade embargo, suffer greatly. All food stuffs, materials, trade goods and fuel must pass the close scrutiny of the Orelian guards. Goods deemed essential for galactive securyt are shipped, all other items are swiftly dispersed to the council's already overflowing warehouses. To enforce this trade action, a massive fleet has been assembled to encircle the planet, but none of you have dared to challenge this fearsome military might... until now! To have a successful mission, you must maneuver unnoticed through the vast armada of patrolling craft which continually circle the globe. Once below this barrier, you must then quickly dive between the warehouse and factory, head directly toward the loading docks, connect with your cargo, and ascend to the wating Varox merchant ship, depositing your cargo through the upper loading hatch. (Caution! Gliding above the factory is a diligent robot ship. It will fire upon you with cyborg accuracy!). Again and again, you must challenge the increasingly hostile occupation forces. All Zorel 6 awaits the outcome of your skill and daring deeds.
+
+~From the game manual

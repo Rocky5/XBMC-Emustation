@@ -1,0 +1,19 @@
+Andromeda Conquest
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy
+Gametype: Licensed
+Release Year: 1982
+Developer: Avalon Hill
+Publisher: Avalon Hill
+Players: 1 or 2 VS
+Programmer: Paul F. Granchelli
+_________________________
+
+A strategy / conquest game in which one to four players build galactic empires by establishing and defending space colonies, managing resources, and battling other players for control of star systems.
+
+The layout is grid-based, and the package includes a pad of graph paper for keeping track of ship and colony locations.
+
+http://www.mobygames.com/game/atari-8-bit/andromeda-conquest

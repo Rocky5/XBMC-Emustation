@@ -1,0 +1,14 @@
+Head On
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick
+Genre: Racing - Action - Top Down
+Gametype: Licensed
+Release Year: 2006
+Developer: CPU
+Publisher: CPU
+Players: 1
+Programmer: Radek Sterba
+_________________________
+

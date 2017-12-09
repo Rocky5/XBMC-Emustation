@@ -1,0 +1,15 @@
+Klony
+Platform: Atari 800
+Region: Poland
+Media: Disk
+Controller: Joystick, Mouse
+Genre: Board Game - Strategy
+Gametype: Licensed
+Release Year: 2006
+Developer: Arsoft Corporation
+Publisher: Arsoft Corporation
+Players: 1
+Programmer: Arkadiusz Lubaszka
+Musician: Michal Radecki
+_________________________
+

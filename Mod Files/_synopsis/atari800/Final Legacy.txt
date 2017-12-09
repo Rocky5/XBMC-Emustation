@@ -1,0 +1,38 @@
+Final Legacy
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action - Strategy
+Gametype: Licensed
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1
+Programmer: Chris Horseman, Dan Oliver
+Musician: Brad Fuller
+_________________________
+
+This is a battle on three fronts. You are the captain of the ship Legacy. Your ultimate goal is to destroy the Warmongers' missile bases but you must also protect your cities.
+
+You begin the game in command mode. You select your other modes with the joystick. Up for navigation, down for torpedo, left for sea-to-air and right for sea-to-land. 
+
+Navigation
+
+In navigation mode, you will see an overhead map of the world. You will note that there is a black dot in a black circle. This is you and the circle represents your effective range. You move the circle about the screen to target ships or known missile bases or to refuel at a city. You use fuel only when you are in navigation mode. When you are within range, or if an enemy ships comes within your range, press the space bar to return to the command mode then change to the desired mode.
+
+Torpedo
+
+If you are within range of an enemy ship, switch to torpedo mode. In this mode, you will use the scanner at the bottom to line up your target. Move out of line to avoid a direct hit. Beware of war ship as they will chase you and have the most firepower. Hunter ships will also chase you. While their firepower is not as high as war ships, it is still fairly good. Intelligence ships have the weakest firepower and will not chase you. They can be found on the right side of the screen. If one is destroyed and there are any hidden missile bases, there is a eighty percent chance a hidden base will be revealed.
+
+Sea-to-land
+
+If you want to destroy a missile base or refuel, enter sea-to-land mode. To refuel, get near a city then enter this mode. When you are in sea-to-land mode, you will know you are within range if you see "Dock for refueling" on the screen. You then place the cross hairs on the base of the city and wait for refueling to complete, unless you or a city are under attack. Do not use the fire button to exit or you will fire on your city. To destroy a missile base, position your cross hairs using the scanner on the screen until you are on a missile launcher then fire. Be advised that when you fire on a missile base, they will shoot missiles at a city.
+
+Sea-to-air
+
+If a city is under attach, switch to this mode. You will control a weapons satellite. Use you joystick, or the trak-ball , if you plugged one into port 2, to aim at an incoming missile and press fire to blast it. If it gets past you but has not reached your city, you get a "Refocusing" message and the view switches to a short range view where you will get one more try.
+
+Be warned that ships can attack you no matter what mode you are in. On the easiest level, there are no hidden bases nor do you use fuel.
+
+http://www.mobygames.com/game/atari-8-bit/final-legacy

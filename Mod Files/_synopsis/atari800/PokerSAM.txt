@@ -1,0 +1,15 @@
+PokerSAM
+Known issue (if you can help join the forum): box front needs watermark removal.
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Keyboard
+Genre: Card Game - Poker
+Gametype: Licensed
+Release Year: 1983
+Developer: Don't Ask Computer Software
+Publisher: Don't Ask Computer Software
+Players: 1
+Programmer: Jerry White
+_________________________
+

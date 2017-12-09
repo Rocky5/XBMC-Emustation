@@ -1,0 +1,13 @@
+Rats! Rats! Rats!
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Fixed - Action
+Gametype: Licensed
+Developer: Shoesoft
+Publisher: Shoesoft
+Players: 1
+_________________________
+
+Created with Br0derbunds "Arcade Machine"

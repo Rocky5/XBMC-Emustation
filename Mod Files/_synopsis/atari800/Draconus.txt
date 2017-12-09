@@ -1,0 +1,20 @@
+Draconus
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1988
+Developer: Cognito
+Publisher: Cognito
+Players: 1
+Programmer: Ian Copeland, Brian Jopling
+Musician: Adam Gilmore
+_________________________
+
+Draconus is an arcade platformer with adventure elements where the player gains control of Frognum - a beast similar to a serpent or a dragon. His mission is to destroy the Tyrant Beast, an evil ruler of the dark and dangerous world in which Frognum lives. The main weapon in the game is fire breath, but on his quest Frognum will find many magical artifacts and, thanks to those, gain new powers. 
+
+The gameplay is simple. The player just has to explore different screens, incinerate opponents and use artifacts (for example Morph Helix that transforms Frognum into a sea monster, which allows him to swim and fight underwater).
+
+http://www.mobygames.com/game/atari-8-bit/draconus

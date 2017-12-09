@@ -1,0 +1,26 @@
+Millipede
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade
+Gametype: Licensed
+Release Year: 1984
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 Alternating
+Programmer: Steve R. Crandall
+Musician: Brad Fuller
+_________________________
+
+As most people know, Millipede was the sequel to the arcade smash hit Centipede.  Although Millipede never reached the same level of popularity as its multi-legged cousin, it's still a great game in its own right and deserves more recognition.  Apparently Atari felt the same way as Millipede was planned for all four of its game systems: 2600, 5200, 400/800, and 7800, but only the 2600 and 400/800 versions ever made it out the door.
+
+As with most sequels, the basic goal of the game is same.  You must stop a horde of rampaging Millipedes which have invaded your mushroom garden.  However this time around the Millipedes have brought along a whole slew of new friends to make your life miserable.  Earwigs, Inchworms, Dragonflies, and Beetles are all out to make sure this battle is your last.  But thankfully you have one new weapon this time around, DDT bombs!  These deadly chemical weapons are sure help turn the tide of battle in your favor and make sure you have a silent spring...  What?  Don't you get it?  Read a book people!
+
+Even though Millipede was dubbed a sequel to Centipede, it's really more of an enhancement (hence its original name "Centipede Plus").  While the enemies have new names and graphics, their behavior is mostly the same.  However Atari made a few tweaks to the computer AI and added "Swarm Stages" to prevent players from using the same strategies they used in Centipede (such as the mushroom fort) that allowed them to play for hours at a time.  This may have lead Millipede to suffer from "Asteroids Deluxe Syndrome", in which players begin to reject a game due to the inability to develop long play strategies.  Then again some of us were never able to use these strategies in the first place....
+
+Although the 2600's version of Millipede left alot to be desired graphically (square mushrooms, bland colors), the 5200 made up for past sins.  Not only is the 5200 version on par with the arcade game graphically, but the gameplay is dead on.  And with the addition of Trak-Ball support you'd swear you were playing the real thing.  The 5200 version even included a cute animated title screen, a rarity in games of the time.  It's obvious alot of work went into this game.
+
+So why was the 5200 version of Millipede never released?  Two words: "Jack Tramiel".  Millipede was complete and ready to ship when Atari was sold to the Tramiels and almost all video game development was put on hold.  Although some Atari 400/800 games were still allowed to proceed (to help bolster the Atari computer line), it was decided that the 5200 was not in Atari's future.  As a result Millipede and several other finished 5200 games were never released.  Chalk up another casualty of the Tramiel regime.
+
+http://www.atariprotos.com/5200/software/millipede/millipede.htm

@@ -1,0 +1,9 @@
+Crumble's Crisis II
+Platform: Atari 800
+Media: Disk
+Controller: Joystick
+Genre: Platform - Multi-Screen
+Gametype: Undefined
+Players: 1
+_________________________
+

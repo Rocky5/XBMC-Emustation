@@ -1,0 +1,15 @@
+Ixion
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Strategy
+Gametype: Prototype
+Release Year: 1985
+Developer: US Gold
+Publisher: US Gold
+Players: 1 or 2
+Programmer: Fred Mack
+_________________________
+
+Despite some minor glitches, the program is fully playable! Information reveals the game is actually a SEGA prototype!

@@ -1,0 +1,12 @@
+Aqua Marina
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Action - Fixed
+Gametype: Licensed
+Developer: Shoesoft
+Publisher: Shoesoft
+Players: 1
+_________________________
+

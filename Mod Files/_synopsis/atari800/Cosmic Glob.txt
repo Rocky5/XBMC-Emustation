@@ -1,0 +1,55 @@
+Cosmic Glob
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Magazine
+Release Year: 1986
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1 or 2 VS
+Programmer: Rich B. Enns
+_________________________
+
+From issue 48 of ANALOG Computing dated November 1986.
+
+In the year 2500, a giant energy cluster heads toward the Earth.  Fighters are sent to intercept; only on returns.  Is this the end?  The surviving fighter brings little hope.
+
+The media-christened Cosmic Glog, it seems, can only be destroyed by chunking it out and neutralizing its core.  With the formation trapped in a weakening force field just short of the planet, you must destroy the horror before it destroys you -- and the Earth.
+
+Playing Cosmic Glob
+
+This is a one- or two-player game.  When it boots up, the title screen will appear, with four options.  Joystick 0 changes the options; pull it down to select one.  Push the joystick right to change the selected option.  Press the fire button to start Cosmic Glob.
+
+You have several options for variations in the game: (1) number of players: select 1 or 2; (2) number of ships: select from 3 to 7, or * for an endless number of ships; (3) difficulty; choose a level from 1 to 30; and (4) enable mines: select Y or N to enable mines or not.
+
+Pressing the joystick 0 fire button starts the game.  The Glob will appear immediately, along with a small defense ship.  Your ship will be seen on the bottom.  Player 1, on the left, uses joystick 0.  Player 2, on the right, has joystick number 1.
+
+Notice that your ship doesn't appear right away.  It'll remain protected for about five seconds under a force field, then will appear automatically.  Pull back on your stick to appear when you want.  Do so only when it's safe.
+
+Push forward on the joystick to move your ship.  It'll head in one of eight directions.  Push right to turn clockwise, left to turn counterclosewise.  Pull back to flip.  YOu may move and turn at the same time.
+
+Contact with the Glob, a defense ship, or one of the mines is deadly.  Contact with the force field is safe.  If you collide with it head on, you'll bounce straight back.  Hit on an angle, and you'll bounce off on an angle.
+
+In two-player mode players may pass right through each other.  When the two players overlap, a third color is produced.  This is done by setting bit 5 of GPRIOR (623).
+
+To fire missiles in your efforts to destroy the Glob, press the trigger.  Missiles will have no effect on the force field, or on the defense ship.  Shooting at mines will cause the Glob to regenerate.
+
+In two-player mode, shooting at the other player causes his ship to move in the direction of your missle for a short distance, during which time the other player has no control over the movement of his ship.  He may still fire, however.  Players can be nasty, forcing one another into one of many deadly objects.
+
+The Cosmic Glob moves about your screen in an ominouse fashoin, annihilating any unsuspecting player in its path.  It rebounds off the force field with some uncertainty.
+
+When you shoot at the Glob, a small chunk of it will disappear.  Keep firing at it until you reach the core, at the same time being wary of the Glob's defense ship.  It flies around the screen randomly.  You can't destroy it, but it can turn you into dust on contact.
+
+When you reach the Glob's core, it will explode.  The scores will be added up and displayed.  For each Glob chunk you hit you'll be awarded 1 point.  The player who destroys the Glob will receive 500 points.
+
+Press either joystick's fire button to advance to the next level.  Notice that scores don't change during play.  Points are only awarded after the Glob is destroyed.
+
+The game ends when all players have lost all of their ships.  Getting hit by the Glob or a defense ship, or running into the mines are good ways to lose them.  Press the fire button on either joystick to go to the title screen.
+
+The game can be pause during play by pressing the SPACE BAR.  Press any other key to resume play.  The game can be restarted at any time by hitting START.  If you're playing with an endless number of ships, pressing START is the only way to end the game.
+
+One final note:  the Glob's defense ship moves slowly at the beginning of each level, but will speed up after a few minutes.
+
+Enjoy Cosmic Glob -- save yourself and the Earth.

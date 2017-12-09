@@ -1,0 +1,15 @@
+Sidewinder
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Shooter - Side-Scrolling - Vertical
+Gametype: Licensed
+Release Year: 1986
+Developer: Futureware
+Publisher: Futureware
+Players: 1
+Programmer: Noel Daniel, Dave Howard, John Sosta, Paul Carr
+Musician: Orall Cornellius
+_________________________
+

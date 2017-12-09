@@ -1,0 +1,27 @@
+Leader Board Tournament
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Sports - Golf
+Gametype: Licensed
+Release Year: 1987
+Developer: Access Software
+Publisher: Access Software
+Players: 1 thru 4 VS
+Programmer: Kevin Homer
+_________________________
+
+To use the tournament disk do the following.
+
+1.  Load leader board in the normal manner.
+2. When the "Select Number Of Players" screen is displayed , remove the leader board disk.
+3. Insert the Tournament disk.
+4. Hold down the SHIFT/RETURN keys together.  The new courses will be loaded into memory, overwriting the existing courses.
+
+Access' long line of golf simulations started with Leader Board. Hold down the fire button to set the pace, then press it for hook and slice if needed. Greens are sloped, so be sure to factor this in. Four 18-hole courses are provided, and a 4-round match can consist of any combination of these, with up to 4 players joining in. 
+
+There are three skill levels - novice players just have to hit the ball at the right speed in the right direction with the right club. Amateurs must be precise with the snap, to set the desired level of hook or slice - conventional wisdom in golf is to work on eliminating it first, then adding it back in - while the professional level also adds wind fluctuations.
+
+
+http://www.mobygames.com/game/atari-8-bit/leader-board

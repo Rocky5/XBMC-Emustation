@@ -1,0 +1,18 @@
+Destroyer Warship
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard, Joystick
+Genre: Strategy - Tactical Combat - Turnbased
+Gametype: Licensed
+Release Year: 1986
+Developer: IntelaSoft
+Publisher: IntelaSoft
+Players: 1
+Programmer: Bob Graham
+_________________________
+
+Observations:
+- requires 130XE
+- the ad says nothing about extra RAM requirements, was this how the original version appeared?
+- this is V2.3 from 1986 but the ad was published in 1988: is this the commercial release?

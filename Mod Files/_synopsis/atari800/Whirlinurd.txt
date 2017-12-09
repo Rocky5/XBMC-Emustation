@@ -1,0 +1,15 @@
+Whirlinurd
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Adventure
+Gametype: Licensed
+Release Year: 1985
+Developer: PMS Data
+Publisher: Us Gold
+Players: 1 or 2 Alterinating, VS, Co-Op
+Programmer: Chris Gray
+Musician: Chris Gray
+_________________________
+

@@ -1,0 +1,14 @@
+Groove
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Computronic
+Publisher: Computronic
+Players: 1 or 2 Alternating
+Programmer: Frank T. Wittenmayer
+_________________________
+

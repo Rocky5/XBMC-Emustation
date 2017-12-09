@@ -1,0 +1,17 @@
+Final Orbit
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action - Shooter - First Person
+Gametype: Licensed
+Release Year: 1983
+Developer: Sirius Software
+Publisher: Sirius Software
+Players: 1
+Programmer: Dan Thompson
+_________________________
+
+The Maladroid forces are attacking the Earth with everything they've got. It's your job to stop them. "STE" (Space to Earth) Missiles are being launched just seconds apart. Maladroid fighters are raiding the Earth, pausing only to re-arm and re-fuel. As each one destroys its earthly target it drains energy from the Earth. If your Destroyer's protective shield is hit by gun-fire from a Maladroid Satellite or Fighter, energy is lost from you Destroyer's energy supply. If either energy reserve level becomes critical, you must seek out and destroy a Maladroid Base to regain energy.
+
+~From the game manual

@@ -1,0 +1,76 @@
+Cassette 50
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1984
+Developer: Cascade Games
+Publisher: Cascade Games
+Players: 1 or 2 VS
+_________________________
+
+SIDE A
+000-068 = Maze Eater
+068-097 = Galactic Attack
+097-132 = Space Mission
+132-174 = Lunar Landing
+174-209 = Plasma Bolt
+209-283 = Star Trek
+283-320 = Radar Lander
+320-355 = Attacker
+355-381 = Defend the Fortress
+381-425 = Zion Attack
+425-435 = Ivasive Action (sic)
+435-533 = Noughts and Crosses
+533-561 = Boggles
+561-626 = Pontoon
+626-644 = Ski Jump
+644-656 = Maths Hop!
+656-681 = Old Bones
+681-733 = Baby Chase!
+733-763 = Orbitter
+763-832 = Motorway
+832-903 = Rabbit Raid
+903-942 = Nim
+942-965 = Tunnel Escape
+965-987 = Barrel Jump!
+
+SIDE B
+000-015 = Cannon Ball Battle
+015-052 = Overtake
+052-081 = Sitting Target
+081-116 = Smash the Windows
+116-132 = Space Ship
+132-146 = Jet Fighter
+146-181 = Phaser
+181-207 = Intruder!
+207-236 = Inferno!
+236-260 = Ghosts
+260-291 = Sea Alert
+291-307 = Planets
+307-333 = Rocket Launch
+333-371 = The Black Hole
+371-384 = Dynamite
+384-392 = Do Your Sums
+392-423 = Derby Dash
+423-457 = Space Search
+457-481 = Universe
+481-502 = Rats
+502-532 = Tanker
+532-554 = Parachute
+554-582 = Jetmobile!
+582-609 = High Rise
+609-639 = The Force
+639-731 = Exchange
+
+Fifty previously-unreleased games make up this cheap compilation, making for 270K of data on the cassette, perhaps the highest tally ever. All written in BASIC, most are versions of simple arcade games, including Breakout, Pacman (Muncher) and Frogger. Sports are also well represented, with basketball, motor racing and bowls amongst others included. There's also a strategic Star Trek game, Pinball, and Tanks, and Motorway is perhaps the first game in which running over pedestrians is the objective.
+
+Trivia:
+
+Crap Games Contest
+The original Cassette 50 was the primary source of inspiration for annual comp.sys.sinclair Crap Games Contest.
+
+
+http://www.mobygames.com/game/atari-8-bit/cassette-50

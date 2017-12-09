@@ -1,0 +1,17 @@
+Jumbo Jet Pilot
+Platform: Atari 800
+Region: United Kingdom
+Media: Cartridge
+Controller: Joystick
+Genre: Flight Simulator
+Gametype: Licensed
+Release Year: 1982
+Developer: Thorn EMI
+Publisher: Thorn EMI
+Players: 1
+Programmer: Hanan Samara
+_________________________
+
+Get your jumbo jet off the ground, get to your destination using the handy onscreen map, and safely land without crashing it. Good luck with that. Keyboard required.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=6603

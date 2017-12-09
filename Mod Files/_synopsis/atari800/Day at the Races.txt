@@ -1,0 +1,27 @@
+Day at the Races, A
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Gambling - Horse Racing
+Gametype: Licensed
+Release Year: 1985
+Developer: Red Rat Software
+Publisher: Red Rat Software
+Players: 1 or 2
+Programmer: Ron Smith
+_________________________
+
+Welcome to our computer-based race meeting for all 48k Atari microcomputers, including the 130XE.  Scores of horses and riders are waiting to race for you and up to four more punters.  The program contains a huge database of details and characteristics for all of the horses.
+
+Day at the Races is a marvelous game for all the family from 1 to 5 players.
+
++ Smooth, colourul machine code action.
+
++ 'Place Your Bets' facility.
+
++ 10 Race Cards
+
++ Bankroll Table
+
+[From the box back]

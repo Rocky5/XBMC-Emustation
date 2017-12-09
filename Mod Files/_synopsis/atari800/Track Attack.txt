@@ -1,0 +1,28 @@
+Track Attack
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1982
+Developer: Solitare Group
+Publisher: Broderbund Software
+Players: 1
+Programmer: Bill Hooper
+_________________________
+
+Track Attack! is a single player side scrolling arcade style game that involves cars, trains and thieves.
+
+As the player, you are allowed 3 lives, and drive a specially rigged car that is designed to be able to smash through rolling freight cars in a train in order to make off with gold bars, and deposit them one at a time into a secret deposit yard nearby, gaining points for each bar. There is a watchman who drives a '52 DeSoto automobile patrolling for thieves, and another phantom car that occasionally raids the player's stash of hidden gold. When this occurs, you, the player, need to drop off your gold, chase down the raider and smash into his empty car to regain back your gold bar. If you are not successful your point count drops by 100 points. When you play this version, you can gain up to 128 pieces of gold in your holding area.
+
+There are 2 other levels that can be played. To start any of the 3, you must first steal at least one gold bar.
+
+In the second level, you must position your car alongside the train, and jump from your car onto the top of the train, and make your way on foot the length of the train to the engine. If you miss any jump, you will fall beneath the wheels of the train. In that event you will lose one life, all your accumulated gold, and be required to go back to level one. If you successfully make your way as far as the engine, you will be able to proceed to level 3.
+
+In level 3 you are in control of the train, and you must find, track down and run over eleven gold bars that are scattered over the railway tracks.If you run over all eleven bars you will gain another life. The watchman in his DeSoto will be trying to interfere with this and he must be avoided, and if you collide with the raider's phantom car, you will lose a life, and be returned to level 1 with a score of 0.
+
+You will be awarded spare lives when you gather: (1).5,000, 10,000, 20,000, 40,000 or 80,000 points, (2).Remove all the gold from the train in level 1, or (3). run over all eleven gold bars in level 3.
+
+
+http://www.mobygames.com/game/atari-8-bit/track-attack_

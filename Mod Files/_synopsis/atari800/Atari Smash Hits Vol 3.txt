@@ -1,0 +1,22 @@
+Atari Smash Hits: Volume 3
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Compilation - Arcade
+Gametype: Licensed
+Release Year: 1985
+Developer: English Software
+Publisher: English Software
+Players: 1 or 2 Alternating
+Programmer: Jon Williams, Steven A. Riding, M. D. Caballero, Martin J. Cawley, Michael Hedley
+_________________________
+
+SIDE A
+000-136 = Jet Boot Jack
+148-296 = Airstrike II
+296-320 = Batty Builders
+
+SIDE B
+000-117 = Breath of the Dragon (appears on this compilation only)
+117-228 = Neptune's Daughters

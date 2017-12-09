@@ -1,0 +1,18 @@
+Reforger 88
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat
+Gametype: Licensed
+Release Year: 1984
+Developer: SSI
+Publisher: SSI
+Players: 1 or 2 VS
+Programmer: Gary Grisby
+_________________________
+
+Reforger 88 is grand tactical game of combat between the forces of NATO and the Warsaw Pact, which takes place at the Fulda Gap in the year 1988. The game covers the first week of the war. The Warsaw Pact attacks with 12 divisions in an attempt to capture Frankfurt and destroy Rhein-Main Air Force Base. NATO, defending with 5 divisions, must fight a desperate delaying action. Each game turn consists of 12 hours of operations. Operations consist of supplying and moving combat forces, changing formation, planning assaults, air strikes, airborne missions and artillery bombardments and resolving combat situations. The game map covers the battlements in Central Germany, from Kassel in the north to Wurzburg in the south. Movement around the map is controlled by a hexagon grid system with each hexagon representing 6 kilometers The NATO forces must be commanded by a human player. The Warsaw Pact forces may be commanded by either a human or the computer.
+
+
+http://www.mobygames.com/game/atari-8-bit/reforger-88

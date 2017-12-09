@@ -1,0 +1,19 @@
+Astro Chase
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Multi-Directional
+Gametype: Licensed
+Release Year: 1983
+Developer: First Star Software
+Publisher: Parker Brothers
+Players: 1
+Programmer: Fernando Herrera
+_________________________
+
+As pilot of a spaceship, your job is to save the planet Earth! Eight mega mines are slowly homing in, and you need to destroy them all before they reach Earth. Trying to stop you are a variety of flying saucers which will constantly be chasing you around the planet.
+
+Your ship is equipped with lasers which can be used to destroy enemy saucers and the mega mines. Located throughout the space around Earth are eight shield depots; if you fly through one of these, you will temporarily become invincible. Your spaceship also has a limited energy supply; if you get too low on energy, it can be resupplied at one of the generators located in the four corners of the play area. When all of the mega mines have been destroyed, you will move on to the next, faster chase!
+
+http://www.mobygames.com/game/atari-5200/astro-chase

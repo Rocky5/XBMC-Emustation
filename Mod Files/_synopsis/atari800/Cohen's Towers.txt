@@ -1,0 +1,14 @@
+Cohen's Towers
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: Fanda
+Publisher: Datamost
+Players: 1
+Programmer: Frank Cohen, Alan Sinder
+_________________________
+

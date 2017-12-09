@@ -1,0 +1,22 @@
+Drol
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Shoot 'em Up - Action - Side-Scrolling
+Gametype: Licensed
+Release Year: 1983
+Developer: Broderbund Software
+Publisher: Broderbund Software
+Players: 1
+Programmer: Aik Beng
+_________________________
+
+Drol is a platform game where you play a cute robot that can fly and shoot. Your goal is to rescue children that are wandering around each level. The levels consist of rows of platforms, with gaps which can be jumped through to go up or down a vertical level. The creatures to avoid and shoot vary from strange hopping, beer-belly aliens, to demons, snakes, and axes flying through the air (we never do find out who's throwing those axes!).
+
+Like Defender, Drol incorporates a "radar" at the top of the screen, so you can find the children and dodge incoming baddies.
+
+Trivia:
+The author, Aik Beng, only credited himself using his two middle names. His full name is Benny Aik Beng Ngo, the brother of Tony Ngo. Drol (and Bandits) were independently developed and then published through Sirius and Br?derbund, respectively. Benny Ngo developed Drol while he was attending college. In fact, in the early days, quite a few games were developed by students then published through companies such as Sirius, Broderbund, Sierra, etc.
+
+http://www.mobygames.com/game/atari-8-bit/drol

@@ -1,0 +1,18 @@
+Matta Blatta
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Shooter - Horizontal
+Gametype: Licensed
+Release Year: 1988
+Developer: Firebird
+Publisher: Firebird
+Players: 1
+Programmer: Ahmad Shahid
+_________________________
+
+Matta Blatta is a simple side-scrolling shoot-'em'-up. The player controls a space ship traveling down a long corridor against endless waves of erratically-moving enemies. Each wave consists of a different type of enemy with a different movement and firing pattern. There are two types of power-ups that appear; one will increase the ship's firepower and movement speed, while the other will grant a temporary shield.
+
+
+http://www.mobygames.com/game/atari-8-bit/matta-blatta

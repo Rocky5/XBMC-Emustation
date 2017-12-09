@@ -1,0 +1,15 @@
+Star Wars (Domark)
+Platform: Atari 800
+Region: United Kingdom
+Media: Disk
+Controller: Joystick
+Genre: Arcade - Shooter - First Person
+Gametype: Licensed
+Release Year: 1988
+Developer: Domark
+Publisher: Zeppelin Games
+Players: 1
+Licensed from: Atari
+Programmer: Ian Copeland
+_________________________
+

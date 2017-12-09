@@ -1,0 +1,20 @@
+Tomahawk (Tape)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick, Keyboard
+Genre: Simulation - Flight - Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Digital Integration
+Publisher: Digital Integration
+Players: 1
+Programmer: Bozz Boswell
+_________________________
+
+Flight simulation specialists Digital Integration turned their attention to helicopter flight in this recreation of the AH-64 Apache. All the controls are realistically simulated, so the airspeed is dependent on the height of the vehicle, and you can move horizontally using the rudder option as well as rolling left and right. If using a Sinclair joystick interface you can use both ports to have all these controls accessible on dual joysticks, just like the real thing. Either way, a full instrument panel allows monitoring of these.
+
+You are armed with cannons, rockets and anti-tank missiles, each of which has its target set up independently, but only one can be loaded at once. Flight options include day/night, clear/cloudy and air turbulence on/off, allowing beginners and experts to find a suitable setting. Scenery includes trees, mountains and pylons, while enemy targets include helicopters, turrets and tanks.
+
+
+http://www.mobygames.com/game/atari-8-bit/tomahawk

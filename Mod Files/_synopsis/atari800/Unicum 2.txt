@@ -1,0 +1,15 @@
+Unicum 2
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Breakout - Action
+Gametype: Magazine
+Release Year: 1988
+Developer: Happy Computer
+Publisher: Happy Computer
+Players: 1 or 2 Co-Op
+Programmer: André Christiansen
+_________________________
+
+This version features a set of extra levels first published in Top Magazin. Just press SHIFT+L followed by SHIFT+1 at the title screen and RETURN at the prompt.

@@ -1,0 +1,29 @@
+Elevator Repairman
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Magazine
+Release Year: 1985
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1
+Programmer: Fred Caprilli
+_________________________
+
+From issue 34 of ANALOG Computing dated September 1985.
+
+You are Dan the Elevator Repairman.  You've been called into the Polychromatic Hotel to fix its elevators, which have been sabotaged and are going haywire.  One problem: this hotel wasn't very well engineered, and the only way to get to the engine room's entrance is to climbe the fire escape, which is found on alternate sides of each floor as you go up.
+
+The object, then, is to make your way across each floor toward the stairs, avoiding the elevators and, eventually, to reach the top right-hand side.  (If you think this scneario is far-fetched.  I suggest you pull out ANALOG Computing's issue 10 and read the background for Fill 'Er Up!).
+
+If an elevator hits you (or vice versa), you're sent back to the start of the same floor.  When you reach the other side safely, you will automatically climb to the next floor.  Reaching the top brings you to the next level, where a couple of elevators speed up.  Subsequent levels bring more of the fast elevators; level 7 has a surprise (don't look at the source code -- that's cheating).
+
+The top of the screen shows a timer which starts counting down from 250 (about 25 seconds) when you start a floor.  Whatever is left when you reach the other side is added to your score, so the faster you get across, the higher your score.
+
+Score, High Score, Level (starting with 0) and Men Left are all shown at the bottom of the screen.  I didn't make allowances for levels higher than 9, so if you're good enough to get past level 9, I hope you won't mind funny characters on the status line.
+
+Use a joystick to move Dan left and right.  Notice that you can't really stop in one position -- that would be too easy.  However, repeated deft flicks of the stick can help you get out of most situations.  Note, also, that the spaces between elevators are not all the same width.  Use this to your advantage.
+
+You get nine men to start with (you'll need them!), but no bonus lives are given.  If you look carefully, you'll notice random elevators "stalling" temporarily every few seconds.  This changes the pattern of the elevators constantly, so that an "impossible" pattern won't last for long.

@@ -1,0 +1,29 @@
+Goonies, The (Tape)
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action - Puzzle - Platform
+Gametype: Licensed
+Release Year: 1985
+Developer: Datasoft
+Publisher: US Gold
+Players: 1 or 2 Co-Op
+Programmer: Scott Spanburg, Richard Mirsky
+_________________________
+
+Datasoft's The Goonies is one of the most fondly-remembered games in the genre of platform action-adventure-puzzle games for which Datasoft was known (other games included Conan: Hall of Volta, Bruce Lee, and Zorro, all well-regarded classics).
+
+The game is licensed from the internationally-beloved Steven Speilberg film of the same name, in which a motley crew of suburban kids in Astoria, Oregon, must save their homes from being foreclosed upon and find their salvation in a treasure map leading to an old pirate ship in a cavern. However, they must maneuver around an eccentric family of Italian criminals -- the Fratellis -- on the lam, who are also on the trail of the treasure.
+
+The game is divided into a series of eight screens based on scenes from the film, each of which contains unique and creative puzzles that must be solved by coordinating the activities of two of the kids from the Goonies (and in the last screen, the elephant-man-like Sloth) without getting killed by deadly bats, homicidal Fratellis, flying demon-skull thingies, or other environmental hazards. For example, in one screen one player must wind up and hold a winch that lifts a large stone so that the other player can pass it, run backward on a ball floating in deadly water, bypass a series of three water buckets going up and down that kill you if you do not time your passage underneath correctly, jump to the top of a rail, and slide across to grab the key to the door below -- and all this without getting hit by a wandering bat.
+
+One of the characteristic elements of this series of games is that it was organized more like an arcade game than an adventure game; the game kept a score and a high score, you got a certain number of lives, which would be replenished at certain points or at certain score totals, and there was no save feature. In other words, the game had to be played all in one sitting, near-perfectly, to see the ending. As might be expected, not many people finished these games. (However, nowadays with emulators and memory-state-saving features, this is no longer such a frustrating problem.)
+
+The Goonies can be played single-player, with the joystick button used to switch between the two characters on-screen, or cooperatively, with each player controlling one of the characters.
+
+Trivia:
+
+The Atari 8-bit version was released on both 5.25" diskette and cassette tape. The tape release has different music on the title screen and no demo mode.
+
+http://www.mobygames.com/game/atari-8-bit/goonies_

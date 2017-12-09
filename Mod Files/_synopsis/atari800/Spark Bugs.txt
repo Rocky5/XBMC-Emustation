@@ -1,0 +1,21 @@
+Spark Bugs
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Romox
+Publisher: Romox
+Players: 1 or 2 Alternating
+Programmer: Mory Mirzazadeh
+_________________________
+
+You have the power, with your electric cobra under your copmlete control, you must reconnect the power grid.  The toasters of the world depend on you.  Try to align each of the insulated electrodes with the power base.  But watch for those darn Spark Bugs.  The Spark Bugs will move the electrodes while they are aligned.  But when a Spark Bug moves an electrode below you, you must use the elevators to go up or down to reposition it.  Of course, the electric cobra can move each electrode into position by moving in front of it, then moving to align it with the base.  However, if an electrode is moved you cannot align any electrodes above it.  To get zapping with your Spark Bugs insert your Romox ECPC cartridge into your Atari home computer and turn on the juice.  You may press the option key to choose the two player mode.  You can also select one of the five levels of difficulty available.  During the title display, you may turn off the music by pressing the start key.  To begin the attack, press the joystick fire button.  Now prepare yourself, here they come.
+
+As you advance from level to level, you will encounter four different Spark Bugs.  You will be plagued by the battery beetles, then with the duragizer bug, and the AC hornet to follow.  In level one, only the battery beetle will batter your electrodes.  But in level two, two beetles banter about.  To eliminate a beetle, simply press the fire button and zap. However, the duragizer bugs and the AC hornet cannot be killed.  To avoid them as they appear in levels three, four and five, you must jump out of the way by pressing the fire button and moving the joystick lever up.
+
+When you have all the electrodes in alignment, the zap gap will become activated, and spell doom for the mother bug.  However, the next level will not be so easy.  Once beyond the first five levels, you speed, and that of the Spark Bugs will increase with each new level.  To pause the game at any time, simply press the space bar.
+
+~From the back of the box

@@ -1,0 +1,14 @@
+Cavelord (English)
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Action - Scrolling - Multi-Directional
+Gametype: Translated
+Release Year: 1984
+Developer: Axis Komputerkunst
+Publisher: Ariola
+Players: 1
+Programmer: Peter Finzel
+_________________________
+

@@ -1,0 +1,17 @@
+Mr. Cool
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Sierra On-Line
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Peter Oliphant
+_________________________
+
+You as a cube jump on the pyramid built with color-changing platforms. You have to make all platforms of the same color, but the flying comets disturb you. But if the comets became the balls then cube can collect them painlessly.
+
+http://www.mobygames.com/game/atari-8-bit/mr-cool

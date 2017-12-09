@@ -1,0 +1,61 @@
+ANALOG Man
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Magazine
+Release Year: 1988
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1
+Programmer: David N. Plotkin
+_________________________
+
+A.N.A.L.O.G. ISSUE 62 / JULY 1988 / PAGE 12
+
+ANALOG Man is the editor of the famous ANALOG Computing Magazine, the premier magazine for Atari users. His job is to assemble the pages of each issue, which he does by running over the pages, causing them to fall to the level below in the girder-like offices of ANALOG Mag. You must help Man do his job of assembling nine issues of ANALOG by guiding his footsteps with your joystick plugged into port 1. He can climb up and down ladders, and falling down the holes left by runover pages doesn't hurt a bit. . . Man is tough. 
+
+48k disk or cassette
+
+Analog Man
+by Dvid Plotkin
+
+Of course, there is far more to it than just happily showing up at the office every day. The other personal computers are getting more and more nervous with the success of ANALOG and Atari, and they have decided the way to finish Atari for good is to prevent ANALOG from reaching its loyal readers. So one day, they showed up at ANALOG's offices and began chasing poor Man. Their touch deprives Man of one of his five lives. But Man is not defenseless. To combat the evils of the enemy personal computers, Man carries five bombs. Pressing the button on your joystick sets off a bomb, and any enemy who touches a bomb is instantly frozen and can do no further harm until he unfreezes.
+There are nine different levels to ANALOG Man, and everything gets faster after you complete the first nine screens. Getting through all nine screens earns you two additional bombs, up to a maximum of ten. Oh, yes-the enemies stay frozen a shorter length of time in the upper levels ... So get busy, loyal readers of ANALOG, and help ANALOG Man get the issues of your favorite magazine out on time.
+
+Running Analog Man
+
+ANALOG Man is too long to compile from memory. Punch it in exactly as listed (using D:CHECK IN ACTION! from issue 44 to check your typing), then save it to disk (using the SHIFT-CNTRL-W command). Go to the monitor (SHIFT-CNTRL-M) and reboot the system to clear memory (B). Reenter the monitor and type: C "D:FILENAME. " When the compile is done, simply type R to run the program.
+
+Program Take-apart
+
+Some of the more interesting procedures are listed below, with a word of explanation on how they work. Much can be learned from studying the structured Action! listing.
+
+PROC DOWNLOAD: The screens for this game are constructed using a redefined character set in Antic mode 4, the multicolored character mode. This procedure steps back the top of memory and moves the character set from ROM into RAM so it can be modified.
+
+PROC DLINT: ANALOG Man uses a display list interrupt (DLI) to get extra color on the screen. The numbers with dollar signs in front of them are hex codes for the machine language equivalent of the commands to put the contents of the accumulator, X and Y registers on the stack and pop them back off. The balance of this procedure is simply to wait for the horizontal synch, then change the contents of the text window color register and the intensity of the text in the window.
+
+PROC SCORELINE: Setting up the DLI defined in DLINT places the address of DLINT into the card variable Vdslst, which resides at locations 512 and 513. Whenever a DLI is required, the Atari checks the contents of these locations to find the address of the routine to execute for the DLI. It will now use Dlint. Byte array Dlist was "pointed" to the same place in memory as the display list, so changing one of the elements of Dlist will change the display list, thus calling the DLI at the required line. The DLI is actually turned on by placing hex $C0 into location NMIEN ($D40E).
+
+PROC MOVEIT: Byte array Adres is pointed to the address defined by the PmAdr function, offset by the y coordinate of the Player in question. Then num bytes of array Shape are moved to this address using the built-in MOVEB-LOCK command. Finally, the x coordinate of the Player is set by changing one of the elements of byte array PmHpos, which has been defined to reside at the memory locations that the Atari uses to set the horizontal locations of the Players ($D000).
+
+PROC TESTCOL: This procedure tests for collisions between Players, for use in PROC PMHIT. Testing for collisions in a language as fast as Action! can be a little tricky. Whenever it becomes necessary to look for a collision between two Players, you must wait for the entire screen to be drawn, so that collisions will be registered. This is the purpose of waiting for VCount AND 128. The problem is that if you need to check for collisions several times in the course of one program loop, as you do in ANALOG Man, the waiting for the complete screen to be drawn before checking for the collision will considerably slow down the game. The solution is to check the hardware registers for collisions only once in each loop, store the results of the check in temporary holding registers, and use the temporary registers for all further work. TESTCOL uses this technique. Of course, you must clear the temporary registers before each collision check, and clear the hardware registers (PmHitClr = 1) after each check.
+
+PROC TITLE: The rolling colors of the title screen are created by storing colors directly into the hardware color registers. The color to store is based on the timer located at memory register 20, which "ticks" every 1/60 of a second. Since 60 times per second is too fast to change the color (it doesn't look very nice), the number in the timer is divided by 4 (RSH 2). The result is then added to the scan line counter, VCount, so that each scan line is a different color, and the rolling rainbow effect is based on the timer. By subtracting one of the two numbers generated by the above method from 128, the colors of that register appear to roll backward. By avoiding the use of the DLI, you can have multiple colors within each letter-something most people will tell you can't be done on the Atari.
+
+PROC GR4INIT: This procedure sets up the necessary information for use in the custom PLOT and LOCATE routines to come later. The elements of card array Linept are equated to the address of the beginning of each screen line. Then byte array Dlist is pointed to the Display list by equating Dlist to Sdlst, which is a card variable residing at locations 560 and 561, the registers which contain the address of the display list. Finally, the display list is modified to Antic mode 4 by changing the elements of Dlist.
+
+PROC PLOT4: This is a custom PLOT routine, far faster than the one built into the Action! cartridge. Byte array Line is equated to an element of card array Linept. Then an element of Line is modified to place the required character on the screen. LOCATE4 works similarly, except the element of Line is simply returned instead of being modified.
+
+PROC SQUASHED: This procedure checks to see if a falling level has hit one of the enemies. Note the conversion from Playfield coordinates to Player coordinates in order to do this check.
+
+PROC NOCHASE: This procedure and PROC CHASE control the movement of the enemy Players. If the distance between ANALOG Man and his enemies is too great, they will not "see" him, and will move randomly. However, if they get close, they will begin to follow him, and the only escape may be to use a bomb. The distance at which the enemies will begin to follow Man gets greater as you get to higher levels.
+
+PROC VECTOR: This procedure doesn't seem to do anything, since it contains nothing but a RETURN. In fact, it is very important in determining what level will appear on the screen. The problem that I faced was that if you get killed in the middle of a game (highly likely!), it is very unwieldy to get back to level 1 if you decide to play again.
+
+In fact, the whole coding scheme was unwieldy, looking something like this: Screenl (), Play (), Screen2 (), Play (), etc ... Instead, the address of each procedure to draw a screen (Screen1, etc.) is stored into the elements of card array SC in the last procedure of the program, Main. Then, Vector is simply equated to the appropriate element of SC, so now Vector points to the procedure to draw a screen instead of to the dummy procedure that does nothing. Calling Vector now executes the procedure to draw a screen.
+
+S u m m a r y
+
+ANALOG Man is a rather long program, but it would have been considerably longer and more confusing if the powerful capabilities to relocate arrays and even procedures had not been used. I think you can see that Action! is one of the most powerful languages ever developed for any home computer. I recommend that if you are serious about your Atari, you support the developers of Action! and purchase a copy of this outstanding language.

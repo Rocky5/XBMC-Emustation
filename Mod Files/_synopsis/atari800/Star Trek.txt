@@ -1,0 +1,22 @@
+Star Trek: Strategic Operations Simulator
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Sega
+Publisher: Sega
+Players: 1
+Licensed from: Sega
+Programmer: Monti Rieman
+_________________________
+
+Star Trek: Strategic Operations Simulator is an arcade action game where you take control of the Starship Enterprise. Your mission is to save the Federation from NOMAD! Before you get a chance at destroying NOMAD, you'll have to battle your way through ten levels (each consisting of multiple rounds). In each round you may encounter Klingon fighters, deadly anti-matter saucers, asteroid fields, and deadly meteors, all of which are capable of depleting the Enterprises energy. The game ends when your energy supply has completely run out.
+
+To fight these dangers, the Enterprise is equipped with an unlimited supply of phasers and a limited supply of photon torpedoes. Each round also contains one or more starbases; if you dock at a starbase, some of your supplies (such as energy and torpedoes) will be replenished.
+
+The game is played from two points of view; the top of the screen contains a third person view of the Enterprise (along with the ships gauges), and on the bottom of the screen is a first person point of view
+
+http://www.mobygames.com/game/atari-5200/star-trek-strategic-operations-simulator

@@ -63,8 +63,8 @@
 <control type="image">
 	<posx>32</posx>
 	<posy>158</posy>
-	<width>312</width>
-	<height>217</height>
+	<width>295</width>
+	<height>227</height>
 	<aspectratio>keep</aspectratio>
 	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
@@ -73,18 +73,18 @@
 	<description>video preview window background</description>
 	<posx>32</posx>
 	<posy>158</posy>
-	<width>312</width>
-	<height>217</height>
-	<aspectratio>keep</aspectratio>
-	<texture>black-back.png</texture>
+	<width>295</width>
+	<height>227</height>
+	<aspectratio>stretch</aspectratio>
+	<texture>thumbnf.png</texture>
 	<visible>Player.HasVideo</visible>
 </control>
 <control type="videowindow">
 	<description>video preview window</description>
 	<posx>32</posx>
 	<posy>158</posy>
-	<width>312</width>
-	<height>217</height>
+	<width>295</width>
+	<height>227</height>
 	<aspectratio>keep</aspectratio>
 	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>

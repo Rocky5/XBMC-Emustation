@@ -1,3 +1,21 @@
+09/12/2017
+	1) Cleaned up all the scripts and removed entries not used.
+		( Mainly imports )
+	2) New entry in the Other Settings menu to rename and convert over to .png files for _tbns folder/files
+	3) New script for the above "rename_tbn_to_png.py" this will rename all .tbn files to .png and also convert the rom lists to use the new .png files.
+		( So you don't need to rescan your roms )
+	4) Fixed the new line issue with synopsis information when scanning in roms.
+	5) Added atari800 synopsis files.
+	6) Updated all the synopsis layout views.
+	7) Added carbon alt theme.
+	8) Updated the button overlays textures.
+	9) Updated the "play_preview.py" script and fixed focusing and also to look for Xbox games and ports video previews.
+		( Like XBMC4Gamers and also they must be named preview. extension can be avi, mp4, wmv, xmv can be in the root next to the xbe or in the _resources\media folder )
+	10) Added a toggle for the above in the UI Settings menu.
+	11) Updated "menu_loader.py" with a new button that's imported in to the build MyPrograms.xml. This is used to run the script now and stop folk moving focus.
+	12) Other minor changes here and there.
+
+
 08/12/2017
 	1) New layout system for the Home menu, you can now theme it like the emulators menus.
 	2) Updated the Customise home menu settings menu to reflect the above changes.

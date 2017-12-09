@@ -1,0 +1,19 @@
+Mountain Bike Racer
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Racing - Bike
+Gametype: Licensed
+Release Year: 1989
+Developer: Zeppelin Games
+Publisher: Zeppelin Games
+Players: 1
+Programmer: Ian Copeland
+Musician: Adam Gilmore
+_________________________
+
+This budget game is essentially Kikstart without the engines. It's viewed from the side, with 12 courses to complete within their respective time limits. You control the bike by setting the speed and jumping at the right moments. Hazards to negotiate include hills, walls, rocks, spikes and ice. Some of these can be circumnavigated by buying the right add-ons from the shop after each race. The amount of money you have to spend is dependent upon how quickly you completed the previous race.
+
+
+http://www.mobygames.com/game/atari-8-bit/mountain-bike-racer

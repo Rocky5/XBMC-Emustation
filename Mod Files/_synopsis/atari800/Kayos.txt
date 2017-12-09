@@ -1,0 +1,13 @@
+Kayos
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1981
+Developer: Computer Magic Ltd.
+Publisher: Computer Magic Ltd.
+Players: 1
+_________________________
+

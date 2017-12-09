@@ -1,0 +1,16 @@
+Ocean Detox
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Homebrew
+Release Year: 2010
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Marek Pavlik
+Musician: Michal Szpilowski
+_________________________
+
+First place in the ABBUC Software Contest 2010.

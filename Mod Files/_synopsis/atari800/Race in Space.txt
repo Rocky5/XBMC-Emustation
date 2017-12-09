@@ -1,0 +1,48 @@
+Race in Space
+Known issue (if you can help join the forum): oopsie.. box front has watermark.
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action - Fixed
+Gametype: Magazine
+Release Year: 1984
+Developer: ANALOG Software
+Publisher: ANALOG Software
+Players: 1 or 2 VS
+Programmer: Charles Bachand
+_________________________
+
+ANALOG Computing Issue 24, 1984.
+
+Thos month's assembly language game, Race In Space, is a two-player game with options that allow 128 different variations.
+
+You and a friend (or enemey) must race your space-ships through a densely packed asteroid field.  If your ship makes contact with any other object, it will be damaged and must return to its launch point.  Race In Space is a semi-violent game where no one gets killed.
+
+Playing the game.
+
+Race In Space requires the use of two joystick plugged into ports 1 and 2.  When the game starts, you are presented with a scrolling title screen.  To enter the game options screen from either the intro screen or the game play screen, simply press OPTION.
+
+When in the options menu, use the OPTION key to select which option to change, and then use the SELECT key to change it.  Use the START key to begin game play.  While in the options menu, you may also press one of the number keys from 1 to 9 to change the time limit for the game from the default of three minutes.  All selected options will remain in effect for subsequent game plays.
+
+Game Options.
+
+Race In Space has five options that can be changed within the options menu to suit your own personal tastes.  These options have been broken down for you here.
+
+1.  Trigger.
+
+NO EFFECT renders the trigger button completely useless.  
+
+SHIELDS will put up a protective barrier around your ship that will allow objects to pass through it without harm.  Unfortuantely, all the power from your engines will be used to run the shields, thus leaving you dead in space.
+
+MISSILES allow both you and your opponent to fight it out in outer space using mega-menace Boomerang missiles, which automatically lock onto your enemy's coordinates when fired.  To save yourself, you must move your ship out of the path of the oncoming missile.  Only one missile per ship is allowed on the screen at any one time.  You may fire a missile when the top of your ship as a "knob" on it (this is your missle).  Every time your missile hits your opponent's ship, or is absorbed by a comet (see COMETS), you will receive on point.
+
+WARP DRIVE allows your ship to travel at twice its normal cruising speed, using its wave-motion engine.  At this speed, you must be twice as careful.
+
+2.  Density - This vaires the number of asteroids present on the game screen.  Choosing from STANDARD, DOUBLE, TRIPLE or SUPER will increase the number of asteroids, thereby increasing their density on the playfield and the game difficulty.
+
+3.  Comets - Comets can either be ENABLED or DISABLED and roar across the screen at random intervals.  You can hear a comet as it approaches, and as it travels across the screen.
+
+4.  Universe - You will normally fly through a POSITIVE universe, one that is very stable.  This is the default setting and the one that you will, most likely, use.  Adventurous people can explore the dangers of a NEGATIVE universe, where space itself will flash at random intervals.
+
+Every time your ship reaches the top of the screen, a new one will reappear at the bottom -- at your launch site -- and you will be awarded on point.  The winnder is simply the player with the most points at the end of the game.  Race In Space will end when either player reaches 99 points, or you run out of time.  Good luck; you'll need it!

@@ -3,7 +3,7 @@
 	Used to generate cached thumbnails for xbox games, homebrew and CUT files.
 '''
 
-import glob, os, shutil, sqlite3, sys,time, xbmc, xbmcgui
+import glob, os, shutil, sqlite3, sys, xbmc, xbmcgui
 
 #####	Start markings for the log file.
 print "| _Scripts\XBMC-Emustation\generate_thumbs.py loaded."

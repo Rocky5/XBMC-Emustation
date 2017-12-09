@@ -1,0 +1,20 @@
+Buck Rogers: Planet of Zoom
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Shooter - Third Person
+Gametype: Licensed
+Release Year: 1983
+Developer: Sega
+Publisher: Sega Enterprises
+Players: 1
+Licensed from: Sega
+Programmer: Ken Jordan
+_________________________
+
+Fast and furious racing game taking place on a futuristic racetrack. Guide your spaceship between the pylons and shoot down other enemy racers.
+
+Based on the arcade game (which is even more loosely based on the Buck Rogers comic strips).
+
+http://www.mobygames.com/game/atari-8-bit/buck-rogers-planet-of-zoom

@@ -1,0 +1,14 @@
+Twerps
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1981
+Developer: Sirius Software
+Publisher: Sirius Software
+Players: 1
+Programmer: Dan Thomson
+_________________________
+

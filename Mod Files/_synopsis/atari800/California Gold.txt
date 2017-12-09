@@ -1,0 +1,14 @@
+California Gold
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Public Domain
+Developer: None
+Publisher: None
+Players: 1
+Programmer: Charles Evans
+_________________________
+
+Written using AdventureWriter.

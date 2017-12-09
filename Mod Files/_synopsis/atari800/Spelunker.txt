@@ -1,0 +1,20 @@
+Spelunker
+Known issue (if you can help join the forum): box front has watermark.
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1984
+Developer: Br0derbund
+Publisher: Br0derbund
+Players: 1
+Programmer: Robert Barber, Tim Martin
+Musician: Tim Martin
+_________________________
+
+In this game, you are a spelunker who climbs deep down mountain caves in search for treasure. The levels consist of many platforms, connected to each other by a riding cart, ladders, ropes, etc. You'll have to time your jumping well, because a slight fall will lead to your death, and the abyss is near! You should jump over various obstacles, avoid ghost-like enemies, climb on ropes, and use inventory items such as dynamite to create obstacle-destroying explosions that will bring you nearer to the desired treasure.
+
+
+http://www.mobygames.com/game/atari-8-bit/spelunker

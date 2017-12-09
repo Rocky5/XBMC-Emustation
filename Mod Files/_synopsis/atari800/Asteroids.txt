@@ -1,0 +1,15 @@
+Asteroids
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shoot 'em Up - Arcade
+Gametype: Licensed
+Release Year: 1981
+Developer: Atari
+Publisher: Atari
+Players: 1 to 4 VS; CO-OP
+Programmer: Tod Frye
+_________________________
+
+Asteroids is a conversion of the popular arcade game. You are the pilot of a spaceship trapped in the asteroid belt, and you need to blast your way out! Each time you shoot one of the asteroids, it will break up into smaller pieces. Eventually the pieces will become small enough that they can be destroyed. When all asteroids have been fully destroyed, you can move on to the next, more difficult round. Just in case the numerous asteroids didn't cause you enough trouble, a pesky flying saucer will appear from time to time and try to shoot your spaceship with torpedoes.

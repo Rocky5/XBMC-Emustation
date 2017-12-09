@@ -43,52 +43,45 @@
 	<colordiffuse>10FFFFFF</colordiffuse>
 	<texture background="true" diffuse="background diffuse.png">$INFO[listitem.path,,fanart.jpg]</texture>
 	<fadetime>FanartCrossfadeTime</fadetime>
-</control>
-<!-- synopsis image -->
-<control type="image">
-	<posx>32</posx>
-	<posy>158</posy>
-	<width>723</width>
-	<height>472</height>
-	<aspectratio>stretch</aspectratio>
-	<texture background="true">$INFO[listitem.path,,_resources/skindefault/synopsis.png]</texture>
-	<fadetime>ThumbCrossfadeTime</fadetime>
+	<visible>!Player.HasVideo</visible>
 </control>
 <!-- thumbnail image -->
 <control type="image">
-	<posx>32</posx>
-	<posy>158</posy>
-	<width>312</width>
-	<height>217</height>
+	<posx>686</posx>
+	<posy>140</posy>
+	<width>501</width>
+	<height>501</height>
 	<aspectratio>keep</aspectratio>
 	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
+	<visible>!Player.HasVideo</visible>
 </control>
 <control type="image">
 	<description>video preview window background</description>
-	<posx>32</posx>
-	<posy>158</posy>
-	<width>312</width>
-	<height>217</height>
-	<aspectratio>keep</aspectratio>
-	<texture>black-back.png</texture>
+	<posx>0</posx>
+	<posy>119</posy>
+	<width>1280</width>
+	<height>543</height>
+	<aspectratio>stretch</aspectratio>
+	<texture>thumbnf.png</texture>
 	<visible>Player.HasVideo</visible>
 </control>
 <control type="videowindow">
 	<description>video preview window</description>
-	<posx>32</posx>
-	<posy>158</posy>
-	<width>312</width>
-	<height>217</height>
+	<posx>0</posx>
+	<posy>119</posy>
+	<width>1280</width>
+	<height>543</height>
 	<aspectratio>keep</aspectratio>
 	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
 </control>
 <!-- list -->
 <control type="list" id="50">
-	<posx>787</posx>
+	<visible allowhiddenfocus="true">!Player.HasVideo</visible>
+	<posx>33</posx>
 	<posy>158</posy>
-	<width>460</width>
+	<width>560</width>
 	<height>450</height>
 	<onleft>PageUp</onleft>
 	<onright>PageDown</onright>
@@ -98,11 +91,11 @@
 	<pagecontrol>70</pagecontrol>
 	<scrolltime>150</scrolltime>
 	<preloaditems>6</preloaditems>
-	<itemlayout height="30" width="460">
+	<itemlayout height="30" width="560">
 		<control type="label">
 			<posx>14</posx>
 			<posy>0</posy>
-			<width>432</width>
+			<width>532</width>
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FF282A2B</textcolor>
@@ -112,11 +105,11 @@
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
 		</control>
 	</itemlayout>
-	<focusedlayout height="30" width="460">
+	<focusedlayout height="30" width="560">
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>460</width>
+			<width>560</width>
 			<height>31</height>
 			<aspectratio>stretch</aspectratio>
 			<colordiffuse>FF393A3B</colordiffuse>
@@ -125,7 +118,7 @@
 		<control type="label">
 			<posx>14</posx>
 			<posy>0</posy>
-			<width>432</width>
+			<width>532</width>
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FF77ba3f</textcolor>

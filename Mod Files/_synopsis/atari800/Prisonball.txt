@@ -1,0 +1,37 @@
+Prisonball
+Platform: Atari 800
+Region: USA
+Media: Basic
+Controller: Paddles
+Genre: Breakout - Action
+Gametype: Magazine
+Release Year: 1986
+Developer: Compute!
+Publisher: Compute!
+Players: 2 VS
+Programmer: John Scarborough
+_________________________
+
+Compute! Issue 77 - October 1986
+
+Nearly everyone has played Pong or Breakout, two computer-game classics. "Prisonball" creates an intense, two-player action game by drawing features from both of those games. The original version runs on any Atari 400, 800, XL, and XE computer with at least 48K memory. Atari Prisonball also requires a set of game paddles. The Commodore 64 version requires either a pair of paddles or two joysticks. The Apple II version runs under DOS 3.3 or ProDOS, and requires a set of Apple paddles.
+
+"Prisonball" is a two-player action game that combines the best elements from two classic computer games, Pong and Breakout. The object of the game is simple—knock out as many bricks as you can in the allotted time. Type in Prisonball from the listing for your computer; then save a copy of the program before you try to run it. Every version of the game is similar, so be sure to read the general game rules before referring to the specific notes for your computer.
+
+Break To The Center
+
+The game begins by displaying five colored walls running vertically down the center of the screen. Each player controls two paddles located at the left and right sides of the screen. Three balls appear at a random location and start bouncing around the screen. When a ball is on your side of the screen, move one of your paddles into its path to deflect the ball toward the walls. You can only hit a ball when it's moving toward your paddles (away from the interior walls). Balls travelling from the opposite direction go right through your paddles. If you happen to miss a ball, it wraps around the screen and appears on the other side, giving your opponent a chance to score.
+
+At the beginning of the game, all three balls are a neutral color. Each time you hit a ball, it changes to the color of your paddle. You score whenever a ball of your color hits one of the five interior walls. The score depends on which wall you hit. The center wall is the hardest to reach, so it yields the most points. The two intermediate walls are worth less than the center wall. The outermost walls are easiest to hit and score the fewest points.
+
+The top of the screen displays each player's score and a countdown timer. When the timer runs to zero, the game ends and the player with the most points wins.
+
+Every time a ball hits one of the walls, a brick is knocked out of the wall at the point of impact. By aiming your shots carefully, you can bore a path through a wall and move a ball into the interior space between two walls. When this happens, the ball bounces wildly back and forth between the walls, scoring many points in a short time.
+
+An additional bit of strategy has to do with the redrawing of walls. Whenever a wall has been destroyed, it is immediately redrawn. Some of the highest scores result when you trap one or more balls behind a wall when it is redrawn. Since the wall is new, the trapped balls may hit it many times before they break back out to the exterior.
+
+Atari Version
+
+Atari Prisonball runs on any eight-bit Atari computer (not on an ST) with at least 48K memory. Game paddles are required. Although the game is written in machine language, it is listed in the form of a BASIC loader which you can type as you would any BASIC program. Be sure to save the program before you run it.
+
+To play Atari Prisonball, plug a pair of paddles into port 1, run the program, and press START. When both players are ready, press either paddle button to start the game. You score ten points for each brick from the center wall, five points for bricks from the two adjacent walls, and one point for bricks from the two outside walls. Each game lasts five minutes. The winner is the player with the highest score at the end of the elapsed time.

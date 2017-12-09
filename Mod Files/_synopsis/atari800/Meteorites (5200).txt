@@ -1,0 +1,21 @@
+Meteorites (5200)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Conversion
+Release Year: 1984
+Developer: Electra Concepts
+Publisher: None
+Players: 1 or 2 Alternating
+Hacked by: Homesoft
+_________________________
+
+Meteorites is an arcade action game featuring gameplay similar to Asteroids. You control a spaceship surrounded by numerous asteroids; your goal is to destroy them! Each time you shoot an asteroid, it will break up into smaller asteroids. Eventually the pieces will be small enough that you can destroy them.
+
+When you have destroyed all of the asteroids, you will move on to the next, more difficult level. To make the game more difficult, a flying saucer will also appear from time to time and try to shoot your spaceship. To get out of trouble quickly, your spaceship also may enter hyperspace transporting you to a new location on the screen. Be careful, though, sometimes the new location is worse than the one you left!
+
+Press SHIFT for hyperspace.
+
+http://www.mobygames.com/game/atari-5200/meteorites

@@ -1,0 +1,15 @@
+Monex
+Platform: Atari 800
+Region: Slovakia
+Media: Executable
+Controller: Joystick
+Genre: Puzzle
+Gametype: Homebrew
+Release Year: 2005
+Developer: MatoSimi
+Publisher: MatoSimi
+Players: 1
+Programmer: Martin Simecek
+Musician: Marek Pesout
+_________________________
+

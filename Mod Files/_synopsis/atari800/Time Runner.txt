@@ -1,0 +1,14 @@
+Time Runner
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick
+Genre: Arcade - Maze
+Gametype: Licensed
+Release Year: 1982
+Developer: Funsoft
+Publisher: Funsoft
+Players: 1
+Programmer: Yves Lempereur
+_________________________
+

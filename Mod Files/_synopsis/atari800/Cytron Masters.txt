@@ -1,0 +1,24 @@
+Cytron Masters
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Strategy - Tactical Combat - Turnbased
+Gametype: Licensed
+Release Year: 1982
+Developer: SSI
+Publisher: SSI
+Players: 1 or 2 VS
+Programmer: Dan Bunten, Jim Rushing, Alan Watson
+_________________________
+
+The first real-time strategy game in history, Cytron Masters was the creation of legendary designer Dan Bunten (later Danielle Bunten Berry). In this game, the contestants face off on a futuristic battlefield. The object is to destroy the opponent's command center. The game can be played with two players, or one player competing against the computer.
+
+CYTRONS (short for CYbernetic elecTRONic units) come in five types: Mines, Shooters, Bunkers, Commanders, and Missiles. Shooters are constantly scanning for enemy units in their three space range. They will fire at the closest target. The Commander unit can relay orders from you to all Cytrons within three spaces of its location. Missiles soar above the battlefield. When detonated over an appropriate target, Missiles can destroy up to four Cytrons at once.
+
+The battlefield is a 2-D grid. One contestant starts on each side. The main features on either end of the field are the Command Centers. The goal of each manager is the destruction of the opponent's Command Center. The players can use energy to create more Cytron units during the battle. The battlefield has eight Power Centers, and by occupying a Power Center a player will accumulate more energy.
+
+Ahead of its time in many ways, Cytron Masters used multi-thread software routines to enable all the units to move in real-time. It also included an interactive tutorial. Dan Bunten went on to expand his ideas from this game in his later work Modem Wars, published in 1988. 
+
+
+http://www.mobygames.com/game/atari-8-bit/cytron-masters

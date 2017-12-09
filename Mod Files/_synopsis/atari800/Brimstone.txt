@@ -1,0 +1,22 @@
+Brimstone - The Dream of Gawain
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Text
+Gametype: Licensed
+Release Year: 1985
+Developer: Synapse Software
+Publisher: Synapse Software
+Players: 1
+Programmer: William Mataga, Bill Darrah, David Bunch
+_________________________
+
+The program for download is not modified, i.e. still with password protection in order to preserve the full originality of the game. The password asked for can be found on the respective instruction/book page supplied below. Blank instruction pages (meant to serve as player's diary) are not displayed.
+
+This real time all-text tale puts you in the role of Sir Gawain, a knight of the Round Table. It takes place in a dream that traps you in the underworld of Ulro, where you must learn five magic words in order to escape. The most unusual aspect of this game is probably the perspective: the story is described in the third person, with Gawain referred to by name, unlike most other text adventures that use the second person, referring to your character as 'he'.
+
+The hardbound book that comes with the game includes a novella-length introduction to the plot, which is identified as the first chapters of the story, into which you jump when you commence game play.
+
+
+http://www.mobygames.com/game/atari-8-bit/brimstone

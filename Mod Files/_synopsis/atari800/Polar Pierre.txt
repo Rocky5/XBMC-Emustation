@@ -1,0 +1,14 @@
+Polar Pierre
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1984
+Developer: Datamost
+Publisher: Datamost
+Players: 1 or 2 Alternating
+Programmer: Ron Rosen
+_________________________
+

@@ -1,0 +1,15 @@
+Ed-Ball (pcs)
+Platform: Atari 800
+Region: USA
+Media: Executable
+Controller: Joystick, Paddles
+Genre: Pinball
+Gametype: Public Domain
+Release Year: 1985
+Developer: None
+Publisher: PACE
+Players: 1 thru 4 Alternating
+Programmer: Phil Cherry
+_________________________
+
+A pinball construction set creation.

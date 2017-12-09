@@ -1,0 +1,24 @@
+Solo Flight: Second Edition
+Platform: Atari 800
+Region: USA
+Media: Disk (atx)
+Controller: Joystick, Keyboard
+Genre: Simulation - Flight
+Gametype: Licensed
+Release Year: 1985
+Developer: Microprose Software
+Publisher: Microprose Software
+Players: 1
+Programmer: Edwar N. Hill
+_________________________
+
+A simulation that has you flying Mail runs from many different airports in one of 5 states of America.For a game that arrived some 24 years ago now, it still manages to feature an impressive amount of remarkable details for the time, such as VOR towers readings, DME, ILS, and coupled with the game aspect that is to deliver post, Solo Flight is clearly quite unlike what you will have played before
+
+Score for choices made meaning you must ponder certain things like how much fuel you might need for each delivery.Each mail delivered is to a different airport but the option is also there to carry several loads, each an additional weight that needs to be taken into account.Having a heavier payload means burning more fuel and a difference to how the plane handles, but potentially a higher score can result.It's this design that makes Solo Flight so intensely fun each time 
+
+Various weather conditions such as clear, nightime, light cloud and even a heavy cloud that requires IFR skills.It's entirely possible to fly using just instruments in total cloud blindness up until the point you pop out of a cloud to see the runway hopefully as you had planned.Indeed an accurately planned route using both VORS can have yourself precisely lined up and ready for a final descent using ILS. 
+
+You really do need the maps though and attempting Solo Flight without them is fairly pointless - playing this seriously requires maps for VOR plotting.
+
+
+http://www.mobygames.com/game/atari-8-bit/solo-flight

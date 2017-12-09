@@ -1,0 +1,22 @@
+Slinky!
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Cosmi
+Publisher: Cosmi
+Players: 1
+Programmer: Vance Kozik
+_________________________
+
+Slinky is a game where you control a spring and jump from block to block and attempt to change all the blocks to a destination color. The game has a very obvious Q*Bert influence. However, there are some original elements as well. 
+
+Various objects float about the screen, like magnets, clouds, raindrops, and other monsters. The monsters are the only one that are a direct threat. The magnets can only grab you if you are not moving. The raindrops actually give you greatly increased speed, and the clouds turn you 'dusty'. Be careful, if you get hit by both a raindrop and a cloud, then your spring rusts and is dragged off by an oil-can.
+
+In addition to having five lives, you also must avoid running out of points. An 8000 point bonus appears briefly over various squares, and you need to catch at least some of them, because every jump decreases your points, and getting 'killed' and knocked off the blocks decreases points even faster. 
+
+
+http://www.mobygames.com/game/atari-8-bit/slinky

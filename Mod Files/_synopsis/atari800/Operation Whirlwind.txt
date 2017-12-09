@@ -1,0 +1,32 @@
+Operation Whirlwind
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Strategy - Tactical Combat - Turnbased
+Gametype: Licensed
+Release Year: 1983
+Developer: Br0derbund Software
+Publisher: Br0derbund Software
+Players: 1
+Programmer: Roger Damon
+_________________________
+
+Operation Whirlwind is a tactical scale wargame set during the World War 2. As a battalion commander of an armored task force the player is ordered to capture (within 35 game turns, divided into phases) a city 15 kilometers away, defended by opposing forces. At your disposal are infantry, engineer, recon, tank and artillery units. Dig in your troops, deploy bridges, watch for enemy mines and barrage fire.
+
+The player's task is to maneuver over open ground on a battle grid three screens five separate parts: 
+
+1.  Unit placement and disposition phase: Dug in and defending, or In motion on recon. 
+
+2.  Forces Movement phase: vertically or horizontally on the grid map, using the joystick. When in motion, firing is not possible. Enemy units are invisible until they fire on you, and mine fields are not visible until you hit them. 
+
+3.  Combat phase: Here you are engaged by artillery and small arms fire. 
+
+4.  Assault Order phase: . In this phase you are able to advance and maneuver your units that have not exhausted their ammunition in the prior operations against enemy formations, utilizing head on assaults, or fast flanking armored attacks. Enemy units will be dislodged and will move, using their own firepower to attempt to break up your attacks. The player will need to engage his engineer units to bridge river crossings while in action. 
+
+5.  Final assault phase: The orders given in the prior phase become a mixed bag in the fog of war, and the gamer must react to circumstances that naturally occur as previously undetected enemy units deploy against the assaults as they unfold.
+
+With the conclusion of each turn of five phases, the player will be assessed of his success or failure, and will be offered the opportunity to save or delete the prior game action before continuing to the next turn. There are four increasingly difficult levels of engagement, each of which will result in five levels of outcome, from total victory, through stalemate, to abject defeat.
+
+
+http://www.mobygames.com/game/atari-8-bit/operation-whirlwind

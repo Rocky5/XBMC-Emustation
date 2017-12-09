@@ -1,0 +1,13 @@
+Stardust Pinball (pcs)
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick, Paddles
+Genre: Pinball
+Gametype: Public Domain
+Developer: None
+Publisher: MR Datentachnik
+Players: 1 thru 4 Alternating
+_________________________
+
+A pinball construction set creation.

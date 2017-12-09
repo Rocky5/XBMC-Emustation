@@ -1,0 +1,26 @@
+Tower Toppler
+Platform: Atari 800
+Region: USA
+Media: USA (Prototype)
+Controller: Joystick
+Genre: Action
+Gametype: Prototype
+Release Year: 1988
+Developer: Hewson
+Publisher: Atari
+Players: 1 or 2 Alternating
+_________________________
+
+Port of the popular Amiga game Nebulus, Tower Toppler is a fast paced puzzle/action platformer in which you play a frog-like creature who must destroy several evil towers that are polluting your planet's pristine oceans.  Atari decided to rename the game to Tower Toppler for some reason when they ported it to the 7800 and XE.  Oddly enough Nintendo also decided to rename the game to Castelian when they ported the game to the NES.  I guess no one liked the original name (maybe it was a bit too nebulous?).
+
+So how exactly does a frog-like creature destroy an evil tower?  By climbing to the top of course!  Of course getting to the top of each tower isn't easy, as hordes of evil creatures and dastardly puzzles await our froggy hero as he ascends.  Thankfully most enemies can be shot and removed from your path, but just shooting enemies won't help you achieve your goal, you must also solve the puzzles of each tower to succeed.
+
+Each tower contains a series of lifts, holes, platforms, doors, and disappearing tiles to impede your progress.  Successfully navigating these hazards requires a bit of memorization, and a whole lot of guesswork.  Also making things a bit difficult is the fact that the tower actually rotates as you climb, this means you have little or no warning of what is coming up.  Although your little frog creature can jump, his stubby little legs won't take him far so he can't jump across gaps.  If you get hit by an enemy you will be knocked down a level, if you fall all the way down into the water you will lose a life.  Running out of time will also result in losing a life.
+
+Between each tower you will be treated to a short little bonus round.  In these bonus rounds you pilot a little submarine and must blast fish with bubbles.  After encasing each fish in a bubble you must touch it to gain the bonus points.  These bonus rounds also help explain how you travel from tower to tower, as they end when you arrive at the next tower.
+
+The XE version of Tower Toppler uses a high resolution graphics mode called Mode 8.  Mode 8 is extremely high resolution, but achieves this by sacrificing color.  That's right, monochrome!  However Tower Toppler is able to achieve some color through the use of artifacting.  Artifacting is a special programming technique that allows a programmer to produce extra colors beyond what the pallet would normally allow, by taking advantage of a flaw in the Atari 8-bit graphics chip (it's not a bug, it's a feature!).  However these colors are dependent on the hardware of system and cannot be controlled by the programmer.  So what does this all mean?  Well on an Atari 800XL the color of tower will be green, while the water is brown, and blue.  However on the Atari XEGS the colors are a nasty shade of green and purple.  For this reason it is best to play Tower Toppler on an 800XL with a good old TV.  Unfortunately for all you monitor users, all you'll see are some grainy black & white visuals.  Emulator users will also have trouble getting correct colors as these screen shots demonstrate.
+
+So how come Tower Toppler was never released?  According to the programmer (who also did the Atari 7800 version), Atari decided to stop supporting the Atari 8-bit game market and pulled the plug on the project.  Atari may also have been concerned the Tower Toppler's odd artifacted color scheme looked quite nasty on the XEGS, which was Atari's main 8-bit game machine at the time.  Although it has long been assumed that Tower Toppler was destined for release in the UK, the game was actually developed on an NTSC machine and has issues when played on PAL systems (such as no colors and it crashes during the bonus round).  No matter what the reason for its cancellation, Tower Toppler is a wonderful game and an excellent edition to the 8-bit library.
+
+http://www.atariprotos.com/8bit/software/towertoppler/towertoppler.htm

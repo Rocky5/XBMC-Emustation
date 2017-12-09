@@ -1,0 +1,14 @@
+Gun Fight
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Executable
+Genre: Action - Shooter
+Gametype: Licensed
+Release Year: 1983
+Developer: Epyx
+Publisher: Epyx
+Players: 2 VS
+Licensed from: Bally/Midway
+_________________________
+

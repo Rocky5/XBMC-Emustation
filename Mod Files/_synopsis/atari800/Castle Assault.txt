@@ -1,0 +1,22 @@
+Castle Assault
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1986
+Developer: Blue Ribbon Software
+Publisher: Blue Ribbon Software
+Players: 1
+Programmer: C. Blakeway
+_________________________
+
+Z = Left, X = Right, + - Up, ? = Down, Return = Jump
+Escape = Freeze/Unfreeze, Control-Q = Quit Game.
+
+A glittering reward awaits the intrepid atop the heavily defended towering turrets of this forbidding fortress.  On your quet for gold you will be assailed by a menacing menagerie of meanies, namely crabs, snakes, lobsters, spiders, bugs and beetles.  Watch out for those malicious malades (the deadly Flying ducks) as you dodge falling rocks, scale ladders and negotiate moving platforms.  Collect various different fruits for bonus points on your way.  Bonus man for every two bags of gold collected.
+
+Hi-score table, increasing difficulty, fantastic animation and highly realistic sound, constitute this truly stunning and imaginative game from Blue Ribbon.
+
+[From the game manual]

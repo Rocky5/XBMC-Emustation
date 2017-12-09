@@ -1,0 +1,19 @@
+Adventure Creator
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Construction Kit - Adventure - Fantasy
+Gametype: Licensed
+Release Year: 1984
+Developer: Spinnaker Software
+Publisher: Spinnaker Software
+Players: 1
+Programmer: Dale Disharoon, James Bach
+_________________________
+
+Adventure Creator is a fairly simple adventure game creator/editor. You can create rooms and hallways, with treasure chests, monsters, and traps that must be avoided. Games can be saved to disk, but you need the Adventure Creator cartridge to play them. Adventures can also be automatically randomly generated.
+
+The games you create are fairly limited, with only one monster allowed per screen, and three types of weapons to hobble the monster with. The goal of the adventures is to find some named object. However the object you seek is really only a name, and is not represented graphically.
+
+http://www.mobygames.com/game/atari-8-bit/adventure-creator

@@ -1,0 +1,17 @@
+Jawbreaker II
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Action - Maze
+Gametype: Licensed
+Release Year: 1982
+Developer: Sierra On-Line
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Chuck Bueche
+_________________________
+
+Original game by John Harris. "Chuckles" referred to in the title screen is designer Beuche. Not much of a change from the original, gobble the dots in the maze while deadly smiley faces dash across the screen. Use the shifting gaps in the wall to escape them or gobble them when you turn the tides. The label on this game incorrectly calls it Jawbreaker but it's actually Jawbreaker 2. An actual Jawbreaker 2 label is not believed to exist.
+
+http://www.digitpress.com/DP/cmf/game.cmf?gameid=6606

@@ -1,0 +1,23 @@
+Lunar Leeper
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Shoot 'em Up - Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Sierra On-Line
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Kevin Hunt
+Designer: Chuckles
+_________________________
+
+In this game, you must guide your spaceship around while picking up hostages located on the surface, and bring them to safety. Your task becomes difficult by lunar leepers who leap up and try to grab you or the hostages that are picked up by your ship. 
+
+If you approach a hostage while a leeper is nearby, the leeper will keep walking toward them until they are killed. If you are grabbed by a leeper, you lose a life. You can shoot at the leepers, but the catch is that you cannot shoot at them while they are on the surface, and you have limited ammo. You also have limited fuel, and if you are half-empty, you must refill at the gas depot in order to continue.
+
+In between levels, you enter a cavern where you must find a huge floating object. You must then shoot out its core to proceed to the next difficult level. 
+
+
+http://www.mobygames.com/game/atari-8-bit/lunar-leeper

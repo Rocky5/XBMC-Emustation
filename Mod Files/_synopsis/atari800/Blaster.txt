@@ -1,0 +1,47 @@
+Blaster
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Arcade - Shooter - First Person
+Gametype: Prototype
+Release Year: 1984
+Developer: Eugene Jarvis, Larry DeMar
+Publisher: None
+Players: 1
+Licensed from: Williams Electronics
+Programmer: Eugene Jarvis, Larry DeMar
+_________________________
+
+Few people even remember, much less have actually seen a Blaster arcade machine.  This unique 3-D shooting game was actually the unofficial sequel to Robotron: 2084 (set in the year 2085).  Unfortunately the powerful 3-D graphics used in the game made it very expensive to produce, so only a few hundred were made (estimates say around 500).  Another problem was that while Blaster was gorgeous to look at and fun to watch, it was a very difficult game to play.  Few players were skilled enough to reach the end, and as most arcade operators know, overly difficult games don't make much money (such was Gravitars fate).  The odd 3-D style graphics also tended to confuse people and scare away potential players (this was 1983 after all).  This is a shame because games like Blaster and I, Robot were really ahead of their time.
+
+It is worth noting that the screenshots on this page simply don't do the game justice due to the inability of a still picture to capture unique 3-D movement of the objects. 
+
+At this point you're probably thinking that Blaster is just another great looking arcade port for the 5200 right?  Wrong!  It was actually the arcade version that was the port!  As hard as it is to believe, the Atari 400/800 version was the first version of Blaster to be developed.  Vid Kidz was so convinced that the Atari 5200 was going to become one of the greatest systems of all time that they developed Blaster for the Atari 400/800 while they waited for the 5200 hardware to be finalized and released (400/800 code was easily ported to the 5200).  However once they showed their prototype to Williams, Williams decided that the wanted to do an arcade version of Blaster because "The arcade version always came first".
+
+After the arcade game came out and met with modest success, Vid Kidz went to Atari with their prototypes to work out a deal.  Unfortunately by this time it was 1984 and the video game market was crashing fast.  Although Vid Kidz finally worked out a deal, Atari decided not to release the game due the weak market.  The really sad part of all of this is that the 8-Bit version was ready back in 1983 and could have been a huge hit for Atari had Williams not demanded that the arcade game come first.  
+
+Blaster is a first person 3-D shooter seen from the cockpit of the Blastership.  Although it may look odd and confusing, the the controls couldn't be simpler.  Pushing left or right will move the ship left or right, and pushing down and up will cause the ship to climb or dive.  Since the game is seen though the cockpit of the ship, you will see the whole screen move in response to the controls rather than seeing a ship move around a stationary screen.  This can make avoiding obstacles a little difficult since you can't exactly tell where your ship is, but the game gives alot of leeway in this department.
+
+The game is separated into four different stages: The Robot Grid, Time Tunnel, Outer Space, and Planetoids.  Each stage has its own unique characteristics, but the goal of each stage is the same: shoot anything and everything that moves, rescue all humanoids, and avoiding losing all your energy.  After clearing all four stages, you will be returned to the Robot Grid and the difficulty will increase.
+ 
+[Robot Grid]
+This is the first stage you'll encounter and is arguably the best looking of the four.  The Robot Grid plays a bit like Buck Rogers: Planet of Zoom, in the fact that you must move through archways while shooting all enemies that get in your way.  While it isn't absolutely necessary to pass through each archway, doing so will net you massive amounts of bonus points.  The first archway is worth 1,000 points, and each successive archway is worth an additional 1,000 points.  However if you miss an archway the bonus will be reset back to 1,000.  Robots can be similarly chained for large bonus point payoffs (starting at 100 and increasing 100 points with each robot).
+As you weave your way through archways while navigating the plain you'll also run across walls.  Walls are transparent grids that are reminiscent of the obstacles in the trench scene of Star Wars: The Arcade Game.  Avoiding walls is rather difficult as they take up a large area of the playfield, but it is absolutely necessary as they take off a large portion of your energy if hit. Starting on level 2 Kamikaze planes will attempt to ram your ship at regular intervals.  The closer the ship is when you destroy it, the more points it is worth, but be careful that you don't wait too long...
+
+[Time Tunnel]
+The stage is reminiscent of the Time Warp stage from Gorf.  Here you must maneuver around the time tunnel in an attempt to save as many humanoids as possible.  These humanoids are from a 20th century starship disaster and have been stuck in the time warp for a millennia.  The first humanoid you rescue is worth 1,000 points, and each successive humaniod is worth another 200 points (up to a maximum of 2,000 points).  Missing a humanoid will reset the bonus value back to 1,000 points. Thankfully there are no enemies on this stage so you are free to concentrate on collecting humanoids.
+
+[Outer Space]
+This stage is similar to the Robot Grid, but there are no annoying archways to fly through.  Unfortunately there are a ton more enemies on this stage, making your trip much more difficult.  There are four different types of enemies, each enemy type poses a unique threat.
+Xitan Mineships  Xitan Mineships are tricky little buggers.  They like to buzz your ship at high speeds and then throw a barrage of deadly space mines in their wake.  Avoid these mines at all costs! 
+Z-15 Fitershipz  Z-15's are your standard attack ship and will confront you directly with lasers blazing.  On an interesting side note, the Fitershipz look suspiciously like Tie Fighters... 
+Destructor Satellites  Destructor Satellites are large four paneled objects that appear at the most inopportune times.  These fast moving sentinels take up such a large portion of the screen they are quite difficult to avoid.  Take special care to avoid their deadly laser barrage when taking evasive action. 
+Death Riders  Death Riders are the absolute deadliest enemy in the game.  These deadly creatures (which resemble a skeleton riding a rocket) pack some serious firepower and they aren't afraid to use it.  If they fail to penetrate your shields they will attempt to ram you at high speeds.  
+
+[Planetoids]
+This is the final stage of each level.  This stage is similar to the Time Tunnel, but this time there are deadly planetoids and saucers to avoid.  There are two different types of saucers that hide in the planetoids: Purple Saucers simply move about the screen taking pot shots at you, but Red Saucers will attempt to ram into your ship.  Red Saucers can be shot at close range for a large bonus and chained for an even larger bonus (up to 3,000 points).
+As you navigate the planetiod field you will eventually hear a beeping noise, this is your cue that the Energizer is near by.  The Energizer looks like a large glowing E and is hiding somewhere along the rocks.  Touching the Energizer will instantly repair your ship and warp you to the next level.  You may eventually notice that all the stranded humanoids in this stage make a path that leads right to the Enegizer, so it's in your best interest to try and rescue them along the way.  Missing the Energizer won't cause you any harm, but it will make the next level more difficult.
+
+Blaster is an amazing piece of programming shows that the 8-Bit computer line was capable of great things when properly programmed.  Blaster may not have had much success as an arcade game, but would have been a sure fire hit for Atari if it had been released when it was originally finished in early 83.  Unfortunately management bureaucracy once again reared its ugly head and ruined another great game.  Thankfully we can all now enjoy one of the greatest lost games of all time.
+

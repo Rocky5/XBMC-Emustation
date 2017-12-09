@@ -1,0 +1,17 @@
+Realsports Football
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Sports - Football
+Gametype: Licensed
+Release Year: 1983
+Developer: Atari
+Publisher: Atari
+Players: 1 or 2 VS
+Programmer: Jim Huether
+_________________________
+
+Football is an action football game for two players or one player against the computer. The game is played from a top down point of view of the field which scrolls to follow the action. There is a variety of offensive and defensive plays that can be called, along with several skill levels for each player. Each game will last for one fifteen minute quarter, whichever team has the most points at the end wins!
+
+http://www.mobygames.com/game/atari-5200/realsports-football

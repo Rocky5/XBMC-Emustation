@@ -1,0 +1,58 @@
+Danger Ranger
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action - Platform - Fixed
+Gametype: Licensed
+Release Year: 1984
+Developer: Microdeal
+Publisher: Microdeal
+Players: 1
+Programmer: Rita Jay
+_________________________
+
+Danger Ranger must collect ten keys from the Chamber of Pasha, whilst warding off the Floating Urns, Radioactive Bats and Roving Eyes. Then he must face the Acid Chamber to collect all the Treasure Chests, avoiding not only the drops of acid, but shooting the four demons which guard the chamber.
+
+Five levels of play. Sound Effects. High speed arcade action game. Full colour graphics. Machine language. Cassette. One or two player game. One or two joysticks required.
+
+SKILL LEVEL
+
+After the title page, you will be requested to enter the skill level, which can be any number from 1 (easiest) to 5 (hardest). This will keep returning to the hi-score table and title page until a number is entered. If you wish to practice, press the 'P' key. This will enable you to go through all levels without being "killed". Alternatively, press the joystick fire button which will take you straight into the game with the same number of players and skill level as the previous game.
+
+After selecting skill level, you will be asked if you want a one or two player game. If you select two player, you will be given the option of one or two joysticks. If you select one joystick, both players share the joystick in port. If two joysticks are selected, the joysticks in ports 1 and 2 are used by the respective players.
+
+TO START GAME
+
+Once the playing screen is displayed, press the fire button on your joystick. If your man is "killed", press the fire button to continue.
+
+OBJECT OF GAME
+
+Chamber of Pasha (first screen)
+Danger Ranger must collect all ten keys (located at the ends of the platforms) to complete the first stage of the game. To do this, he just needs to walk over the key. Listen for the sound which tells you he has picked it up. He must shoot or avoid the Floating Urns, Radioactive Bats and Roving Eyes. To fire his laser gun at them, press the fire button on your joystick and Danger Ranger will fire in the direction he is facing. The centre of the bottom platform will propel him back to the top of the screen if he hasn't collected all ten keys. He may jump the spaces between platforms or fall through them.
+
+Acid Chamber (second screen)
+Drops of deadly acid fall from the ceiling and rise from the floor. Danger Ranger's task is to pick up the treasure chests whilst avoiding the acid. Be sure you are far enough to the right to get them (listen for the sound). The chamber is also guarded by four demons which must be shot before he can get past them to the next level. As the game proceeds, more shots are required to kill them.
+
+CONTROL
+
+The joystick controls Danger Ranger's movement.
+Up = Danger Ranger will jump.
+Down = Danger Ranger will duck.
+Left or right = walk or jump left or right.
+
+NEW GAME
+
+Pressing BREAK at any time will abandon the current game and return you to the title screen.
+
+PAUSE
+
+Pressing 'P' when the playing screen is displayed will pause the game, press 'R' to resume.
+
+SCORING
+
+The figure in the top right shows your current score, the one in the top left is the current hi-score. The centre figure is the current level of play and to its right is the number of men you have left. During a two-player game, the current player is indicated below the score.
+
+HI-SCORE TABLE
+
+Danger Ranger maintains a ten entry hi-score table. If yours is one of the top ten scores, you will be invited to enter your initials (max. 3) at the termination of the game.

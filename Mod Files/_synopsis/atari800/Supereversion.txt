@@ -1,0 +1,15 @@
+Supereversion
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Joystick
+Genre: Board Game
+Gametype: Licensed
+Release Year: 1985
+Developer: ANALOG Computing
+Publisher: ANALOG Computing
+Players: 1 or 2 VS
+Programmer: Phillip Burgess
+_________________________
+
+From issue 27 of ANALOG Computing dated July 1985.

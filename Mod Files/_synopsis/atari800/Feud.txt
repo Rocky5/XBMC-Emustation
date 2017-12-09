@@ -1,0 +1,20 @@
+Feud
+Platform: Atari 800
+Region: United Kingdom
+Media: Executable
+Controller: Joystick
+Genre: Adventure - Fantasy
+Gametype: Licensed
+Release Year: 1987
+Developer: Binary Development
+Publisher: Bulldog Software
+Players: 1
+Programmer: Trevor Brown
+Musician: Jason C. Brooke
+_________________________
+
+Wizards Learic and Leanoric have a long-standing feud, and would do anything to see off their rival. As Learic, this is your task. 
+
+Collecting herbs to cast spells is the main basis of the game. There are 24 herbs and flowers to be collected, which are used to make one of 12 spells (the herbs are only used for 1 spell, so theres no need to decide which spell youd prefer to have access to). You can use a combination of the spells (including a teleporter, invisibility and a fireball, which you must work our how to use). Leanorics direction relative to yourself is indicated by a compass.
+
+http://www.mobygames.com/game/atari-8-bit/feud

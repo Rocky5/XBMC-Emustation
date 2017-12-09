@@ -1,0 +1,19 @@
+Alien Ambush
+Platform: Atari 800
+Region: USA
+Media: Cartridge
+Controller: Joystick
+Genre: Shooter - Fixed
+Gametype: Licensed
+Release Year: 1983
+Developer: Micro D
+Publisher: DANA
+Players: 1
+Programmer: Peter Fokos
+_________________________
+
+A rather simple, yet original, vertical space shooter. You control a small space fighter tasked with extermination of hordes of alien spaceships. At first, different slow moving motherships attack you in four separate waves. When hit they release two smaller but much faster moving shuttles. To progress to the next attack wave the player must shoot down both the mothership and the two shuttles capsules while evading getting hit by either. 
+
+In later stages two motherships will appear on the screen at the same time and their movement speed will gradually increase. The game loops endlessly until the player runs out of lives. 
+
+http://www.mobygames.com/game/atari-8-bit/alien-ambush

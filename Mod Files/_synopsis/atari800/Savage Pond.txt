@@ -1,0 +1,20 @@
+Savage Pond
+Platform: Atari 800
+Region: United Kingdom
+Media: Tape
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1983
+Developer: Starcade Software
+Publisher: Starcade Software
+Players: 1
+Programmer: Gwyll Jones
+_________________________
+
+The goal for the player of Savage Pond is to build a colony of frogs. At the start, only a tadpole can be controlled, swimming in the depicted pond. It can eat amoeba, which increase the score, as well as worms which occasionally drop into the water. Eating five of them adds to a counter that, once it reaches 5, makes a beetle larvae appear. Eating it before the worm counter resets advances the game.
+
+Various dangers in and outside of the pond can cause the game to end. Dragonflies for example drop eggs into the pond, which can still be eaten as well as the larvae that hatch from them. Once they have developed into nymphs, they pose a threat however. The Dragonflies themselves can eventually be eaten once the player gets access to the frog stadium, which adds another action (using the frog's tongue) for the player to take - tadpole control is not forfeited. 
+
+
+http://www.mobygames.com/game/atari-8-bit/savage-pond

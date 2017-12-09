@@ -1,0 +1,24 @@
+Dragon's Keep
+Platform: Atari 800
+Region: USA
+Media: Disk
+Controller: Keyboard
+Genre: Adventure - Graphic - Text
+Gametype: Licensed
+Release Year: 1984
+Developer: Sierra On-Line
+Publisher: Sierra On-Line
+Players: 1
+Programmer: Dave Scruton
+_________________________
+
+A children's game designed in the same spirit of the Hi-Res Adventure series (Mission:Asteroid, Mystery House, etc.).
+
+A dragon has captured 16 animals (a dog, a bird, a fish, a turtle, a cat, a squirrel, a rabbit, a pig, a bear, a monkey, a cow, a calf, a hen, a puppy, a frog, and a raccoon) that must be freed.
+
+Starting at your home, you travel to different locations to find all the animals that the dragon has captured. Watch out for the dragon. If you see him, you can't free the animal in the same picture.
+
+Young adventurers simply choose their action from a short list of choices. The adventure world is very small and the animals are easily found by looking everywhere.
+
+
+http://www.mobygames.com/game/atari-8-bit/dragons-keep

@@ -1,0 +1,18 @@
+Forbidden Forest
+Platform: Atari 800
+Region: USA
+Media: Tape
+Controller: Joystick
+Genre: Action - Platform
+Gametype: Licensed
+Release Year: 1983
+Developer: Vance Kozik
+Publisher: Cosmi
+Players: 1
+Programmer: Vance Kozik
+_________________________
+
+This game is one of Paul Norman's first creations. You are in the middle of what is called the Forbidden Forest. You go along in a game shooting various enemy creatures that are in the forest. At the end of the game, you are fighting the mysterious demogorgon, that is in the shape of an owl when nighttime falls. Choose from four different levels of difficulty.
+
+http://www.mobygames.com/game/atari-8-bit/forbidden-forest
+

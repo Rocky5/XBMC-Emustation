@@ -1,0 +1,14 @@
+Magnetit
+Platform: Atari 800
+Region: Czech Republic
+Media: Executable
+Controller: Joystick
+Genre: Puzzle - Strategy
+Gametype: Licensed
+Release Year: 1993
+Developer: Raster Software
+Publisher: Raster Software
+Players: 1
+Programmer: Radek Sterba
+_________________________
+

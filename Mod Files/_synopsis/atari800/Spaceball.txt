@@ -1,0 +1,14 @@
+Spaceball
+Platform: Atari 800
+Region: Germany
+Media: Executable
+Controller: Joystick
+Genre: Action
+Gametype: Licensed
+Release Year: 1987
+Developer: Interface Software
+Publisher: Interface Software
+Players: 1 thru 2
+Programmer: Thomas Fischermann
+_________________________
+
