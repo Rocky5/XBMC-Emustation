@@ -2,10 +2,6 @@
 <window type="window" id="1300">
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<controls>
-				<control type="button" id="9100">
-						<posx>-500</posx>
-						<onclick>-</onclick>
-				</control>
 				<include>CommonBackground</include>
 				<control type="group">
 						<control type="group">
@@ -50,9 +46,7 @@
 												<aligny>center</aligny>
 												<include>MenuCustomButtonCommonValues</include>
 												<onright>Skin.Theme(1)</onright>
-												<onright>RunScript(Special://XBMC/_scripts/XBMC-Emustation/home_themer.py,1)</onright>
 												<onleft>Skin.Theme(-1)</onleft>
-												<onleft>RunScript(Special://XBMC/_scripts/XBMC-Emustation/home_themer.py,0)</onleft>
 										</control>
 										<control type="label" id="2">
 												<posx>0</posx>
@@ -101,7 +95,7 @@
 										<animation effect="fade" delay="0" time="0">hidden</animation>
 										<visible>Control.HasFocus(1)</visible>
 								</control>
-								<control type="label">
+								<control type="label.">
 										<posx>2</posx>
 										<posy>289</posy>
 										<width>596</width>

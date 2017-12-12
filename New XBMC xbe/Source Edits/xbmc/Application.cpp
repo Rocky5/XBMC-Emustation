@@ -1843,7 +1843,7 @@ void CApplication::StopServices()
 
 void CApplication::DelayLoadSkin()
 {
-  m_skinReloadTime = 500;
+  m_skinReloadTime = CTimeUtils::GetFrameTime() + 1000;
   return ;
 }
 
@@ -5210,6 +5210,7 @@ void CApplication::Process()
   // check if we need to load a new skin
   if (m_skinReloadTime && CTimeUtils::GetFrameTime() >= m_skinReloadTime)
   {
+	CBuiltins::Execute("RunScript(special://xbmc/_scripts/xbmc-emustation/home_themer.py)");
     ReloadSkin();
   }
 

@@ -9,7 +9,7 @@ import os, xbmc
 print "| _Scripts\XBMC-Emustation\dis-enable_sound.py loaded."
 
 
-Sound_XML_Path					= xbmc.translatePath( 'special://skin/sounds/sounds.xml' )
+Sound_XML_Path	= xbmc.translatePath( 'special://skin/sounds/sounds.xml' )
 
 if os.path.isfile( Sound_XML_Path ):
 	os.rename( Sound_XML_Path, Sound_XML_Path + ' disbled' )

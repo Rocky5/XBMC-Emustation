@@ -1,0 +1,52 @@
+DidntXSpectrum FUSE Spectrum Emulator port for XBox v5b4
+
+
+* Updated to madmab edition interface CFv1b17. See "Interface Changelog.txt"
+
+--------------------------------------------------------
+
+DidntXSpectrum FUSE Spectrum Emulator port for XBox v5b3
+
+
+* Updated to madmab edition interface CFv1b14. See "Interface Changelog.txt"
+
+--------------------------------------------------------
+
+DidntXSpectrum FUSE Spectrum Emulator port for XBox v5b2
+
+
+* Updated to madmab edition interface CFv1b08. See "Interface Changelog.txt"
+
+
+**********************************
+* Changes To DidntXSpectrum Core *
+**********************************
+
+* Emulator always remembers which Disks, and Tape is loaded on initial set-up. That way if you do change any during gameplay it wont foobar startup when you go to play the game again. If you want to change the "initial set-up" just delete the games config by pressing black.
+
+* Boot Disk, and Tape are no longer asked for in already configured games with a multifile zip. If for some reason you want to change this just delete the games config by pressing black.
+
+* Added "Change Tape" option to IGM.
+
+* Added "Reset Spectrum" option to IGM.  (Is this even useful?)
+
+* Fixed a little issue where temp image files (affected disk based games?) were not being created properly.
+
+* Emulator now supports Action Lists, Preset Controller Configs, and a Config Database.
+
+* Enabled game specific auto-load savestate and game specific video mode.
+
+* Name of Loaded tape image is displayed in the IGM.
+
+
+****************************
+* To Do For DidntXSpectrum *
+****************************
+
+- Plus3 Disk images not working?
+
+--------------
+considerations
+--------------
+
+* Add Pokes support? In Spectrum there was a way to cheat a game, which its called POKES. It was a code you have to enter, before loading a game. Now, in some of the zip files containing the TAPE IMAGE, if contains also a POKES FOLDER with a .POK file. Emuzwin emulator can load this pok file, and then you can select the cheat (infi lives, powerups, etc). 

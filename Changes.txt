@@ -1,3 +1,19 @@
+10/12/2017
+	1) Fixed and updated the direct launch emulator script, forgot to update it when I changed the home menu.
+	2) Added zxspectrum synopsis.
+	3) Skinned YesNo dialog, thought I had done this :/
+	4) Script optimisations for a few scripts.
+	5) Updated synopsis layouts to use a new bottom button image when videos are playing.
+	6) Added system_help_vert.png for vertical menus on the home screen.
+	7) New XBE it now runs the script after changing the theme, so it now also works in the Settings menu of XBMC.
+		( Also means faster cycling of themes )
+	8) Added synopsis info for atari5200, atari7800, colecovision, pcengine, virtualboy, Wonderswan and zxspectrum.
+		( thanks Mikeaton )
+	9) Moved synopsis files into zips and extract them on the xbox when scanning roms. "create_rom_lists.py" is the updated file.
+		( filezilla was corrupting random txt files and it breaks the static menus, so this way it cant and also its alot faster to FTP over )
+	10) Added gameboy, virtualboy and zxspectrum emulators all configured.
+
+
 09/12/2017
 	1) Cleaned up all the scripts and removed entries not used.
 		( Mainly imports )

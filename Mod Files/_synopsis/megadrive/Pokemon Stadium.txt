@@ -1,7 +1,0 @@
-Pokemon Stadium
-Platform: Sega Genesis / Mega Drive
-Media: Cartridge
-Controller: Gamepad
-Genre: Action
-Gametype: Pirate
-_________________________

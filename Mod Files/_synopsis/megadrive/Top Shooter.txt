@@ -1,7 +1,0 @@
-Top Shooter
-Platform: Sega Genesis / Mega Drive
-Media: Cartridge
-Controller: Gamepad
-Genre: Sports, Basketball, Arcade
-Gametype: Pirate
-_________________________

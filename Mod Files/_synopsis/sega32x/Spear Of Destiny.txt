@@ -1,9 +1,0 @@
-Spear Of Destiny
-Platform: Sega 32X
-Region: Original Homebrew
-Media: Cartridge
-Controller: Gamepad
-Genre: Shooter, First Person
-Gametype: Homebrew
-_________________________
-Great DOS classic ported to the SEGA 32x.

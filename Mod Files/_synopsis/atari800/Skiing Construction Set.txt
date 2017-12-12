@@ -1,9 +1,0 @@
-Skiing Construction Set
-Platform: Atari 800
-Region: United Kingdom
-Media: Disk
-Controller: Joystick
-Gametype: Licensed
-Players: 1
-_________________________
-

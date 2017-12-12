@@ -9,18 +9,12 @@ import glob, os, re, xbmc, xbmcgui
 print "| _Scripts\XBMC-Emustation\patch_xbe_paths.py loaded."
 pDialog		= xbmcgui.DialogProgress()
 dialog		= xbmcgui.Dialog()
-# Gets current XBMC-Emustation directory.
-CharCount = 100 # How many characters you want after 'The executable running is: '
-with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as XBMCLOG:
-	for line in XBMCLOG:
-		left,found,right = line.partition("The executable running is: ")
-		if found:
-			Working_Directory	= ( right[:CharCount] )
-			Root_Directory		= Working_Directory[:-12] # Removed default.xbe
-			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
-				Emulator_Path	= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
-			else:
-				Emulator_Path	= Root_Directory + '_emulators\\'
+
+if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
+	Emulator_Path	= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
+else:
+	Emulator_Path	= 'Q:\\_emulators\\'
+
 def patch():
 	Select_Emu_Folder = dialog.select( "Select a Emulator folder",sorted( os.listdir( Emulator_Path ) ) )
 	Emu_Path = os.path.join( Emulator_Path, sorted( os.listdir( Emulator_Path ) )[Select_Emu_Folder] ) + "\\"

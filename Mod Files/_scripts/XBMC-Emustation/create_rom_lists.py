@@ -2,8 +2,9 @@
 	Script by Rocky5
 	Used to create static lists from your emulator and roms folder.
 	
-	Mame and FBA, must have there roms placed inside there root directory.
+	FBA and atarijaguar, must have there roms placed inside there root directory.
 	( the script will generate static lists for emulators )
+	Mame currently doesn't support command line launching so nothing I can do till I see if I can or someone else can add support.
 '''
 
 import os, shutil, sys, time, xbmc, xbmcgui, zipfile
@@ -44,7 +45,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 			Scripts_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\'
 			TBN_Path			= Root_Directory + '_tbns\\'
 			Rom_List_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\rom lists\\'
-			Extensions			= [ "zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
+			Extensions			= [ "tap","z80","tzx","zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 
 def log( input ):
 	if logging: print "%s" % str( input )
@@ -52,9 +53,12 @@ def log( input ):
 def manual_scan():
 	Found_Roms = 0
 	Select_Emu_Folder = dialog.select( "Select a Emulator folder",sorted( os.listdir( Emulator_Path ) ) )
-	Emu_Path = os.path.join( Emulator_Path, sorted( os.listdir( Emulator_Path ) )[Select_Emu_Folder] ) + "\\"
-	Roms_Folder = os.path.join( Roms_Path, sorted( os.listdir( Emulator_Path ) )[Select_Emu_Folder] ) + "\\"
-	
+	if Select_Emu_Folder == -1:
+		return
+	else:
+		Emu_Path = os.path.join( Emulator_Path, sorted( os.listdir( Emulator_Path ) )[Select_Emu_Folder] ) + "\\"
+		Roms_Folder = os.path.join( Roms_Path, sorted( os.listdir( Emulator_Path ) )[Select_Emu_Folder] ) + "\\"
+
 	log('|	Convert Q:\\ to a direct path')
 	if Emu_Path.startswith("Q:\\"): Emu_Path = Emu_Path.replace( "Q:\\", Root_Directory )
 
@@ -68,8 +72,9 @@ def manual_scan():
 	Parse_FBL_TXT = 0
 	Write_CUT_File = 1
 	Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
+	Synopsis_Zip = os.path.join( os.path.join( Synopsis_Path, Emu_Name ) ) + '.zip'
 	
-	log('|	Check for a default .xbe in the emullator path you selected.')
+	log('|	Check for a default .xbe in the emulator path you selected.')
 	if os.path.isfile( os.path.join( Emu_Path, "default.xbe" ) ):
 		Emu_XBE = os.path.join( Emu_Path, "default.xbe" )
 	elif Select_Emu_Folder == -1:
@@ -131,6 +136,25 @@ def manual_scan():
 					Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
 					TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.png'
 					
+					# extract synopsis zips if they exist
+					if ZipCount == 0:
+						if os.path.isfile( Synopsis_Zip ):
+								log('|	Extracting the synopsis files from the zip.')
+								with zipfile.ZipFile( Synopsis_Zip ) as zip:
+									if ZipCount == 0:
+										pDialog.create( "Extracting Zip","","Please wait..." )
+										Total_TXT_Files = len( zip.namelist() ) or 1
+										Devide = 100.0 / Total_TXT_Files
+										Percent = 0
+										for item in zip.namelist():
+											Percent += Devide
+											pDialog.update( int( Percent ),"Extracting [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Synopsis files.",item,"Please wait..." )
+											zip.extract( item, Synopsis_Path )
+										ZipCount = 1
+								os.remove( os.path.join( Synopsis_Zip ) )
+					else:
+						pass
+							
 					try:
 						if Emu_Name == "genesis":
 							Synopsis_File = os.path.join( Synopsis_Path, "megadrive", Rom_Name_noext + '.txt' )
@@ -334,6 +358,7 @@ def full_scan():
 				log('|	Set emu_name/path variable.')
 				Emu_Path = os.path.join( Emulator_Path, Emu_Path ) + '\\'
 				Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
+				Synopsis_Zip = os.path.join( os.path.join( Synopsis_Path, Emu_Name ) ) + '.zip'
 				
 				log('|	Check for previous layout xml and if it exists remove it.')
 				if os.path.isfile( Rom_List_Path + Emu_Name + '.xml' ): os.remove( Rom_List_Path + Emu_Name + '.xml' )
@@ -395,6 +420,25 @@ def full_scan():
 								log('|	Couple more vars being set')
 								Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
 								TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.png'
+								
+								# extract synopsis zips if they exist
+								if ZipCount == 0:
+									if os.path.isfile( Synopsis_Zip ):
+											log('|	Extracting the synopsis files from the zip.')
+											with zipfile.ZipFile( Synopsis_Zip ) as zip:
+												if ZipCount == 0:
+													pDialog.create( "Extracting Zip","","Please wait..." )
+													Total_TXT_Files = len( zip.namelist() ) or 1
+													Devide = 100.0 / Total_TXT_Files
+													Percent = 0
+													for item in zip.namelist():
+														Percent += Devide
+														pDialog.update( int( Percent ),"Extracting [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Synopsis files.",item,"Please wait..." )
+														zip.extract( item, Synopsis_Path )
+													ZipCount = 1
+											os.remove( os.path.join( Synopsis_Zip ) )
+								else:
+									pass
 								
 								try:
 									if Emu_Name == "genesis":

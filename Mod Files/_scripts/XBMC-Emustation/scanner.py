@@ -2,6 +2,8 @@
 	Script by Rocky5
 	Used to scan for emulators default.xbe files and enable the menu entry.
 	Also scans for games default.xbe files and emulator CUT files.
+	
+	CUT file scanning is disabled now as its not used, but I left all the code in as some one may find it useful.
 '''
 
 import glob, os, sys, time, xbmc, xbmcgui
@@ -25,27 +27,19 @@ except:
 	SilentMode		 = "0"
 
 #####	Sets paths.
-# Gets current XBMC-Emustation directory.
-CharCount = 100 # How many characters you want after 'The executable running is: '
-with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as XBMCLOG:
-	for line in XBMCLOG:
-		left,found,right = line.partition("The executable running is: ")
-		if found:
-			Working_Directory		= ( right[:CharCount] )
-			Root_Directory 			= Working_Directory[:-12] # Removed \default.xbe
-			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
-				Emulator_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
-			else:
-				Emulator_Path		= Root_Directory + '_emulators\\'
-			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Roms_Path)' ) ) == "1":
-				Roms_Path			= xbmc.getInfoLabel( 'Skin.String(Custom_Roms_Path)' )
-			else:
-				Roms_Path			= Root_Directory + '_roms\\'
-			CUTFile_Path			= Root_Directory + '_cuts\\'
-			Game_Directories		= [ "E:\\Games\\","E:\\Games1\\","E:\\Games2\\","F:\\Games\\","F:\\Games1\\","F:\\Games2\\","G:\\Games\\","G:\\Games1\\","G:\\Games2\\" ]
-			Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\" ]
-			Apps_Directories		= [ "E:\\Apps\\","F:\\Apps\\","G:\\Apps\\","E:\\Applications\\","F:\\Applications\\","G:\\Applications\\" ]
-			EMU_Directories			= [ "3do","amiga","amstradcpc","apple2","atari2600","atari5200","atari7800","atari800","atarijaguar","atarijaguarcd","atarilynx","atarist","atarixe","atarixl","c64","c64pet","chip8x","coco","colecovision","cv20","daphne","dreamcastvmu","fba","gamegear","gb","gba","gbc","genesis","intellivision","mame","mastersystem","megadrive","mess","msx","n64","nds","neogeo","neogeocd","nes","ngp","ngpc","odyssey2","pc-98","pce-cd","pcengine","psx","samcoupe","saturn","sc-3000","scummvm","sega32x","segacd","sf-7000","sg-1000","sgb","sgb2","snes","ti99","virtualboy","waterasupervision","wonderswan","x68000","zxspectrum" ] ## used to create folders of the supported emulators.
+if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
+	Emulator_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
+else:
+	Emulator_Path		= 'Q:\\_emulators\\'
+if str( xbmc.getCondVisibility( 'Skin.String(Custom_Roms_Path)' ) ) == "1":
+	Roms_Path			= xbmc.getInfoLabel( 'Skin.String(Custom_Roms_Path)' )
+else:
+	Roms_Path			= 'Q:\\_roms\\'
+CUTFile_Path			= 'Q:\\_cuts\\'
+Game_Directories		= [ "E:\\Games\\","E:\\Games1\\","E:\\Games2\\","F:\\Games\\","F:\\Games1\\","F:\\Games2\\","G:\\Games\\","G:\\Games1\\","G:\\Games2\\" ]
+Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\" ]
+Apps_Directories		= [ "E:\\Apps\\","F:\\Apps\\","G:\\Apps\\","E:\\Applications\\","F:\\Applications\\","G:\\Applications\\" ]
+EMU_Directories			= [ "3do","amiga","amstradcpc","apple2","atari2600","atari5200","atari7800","atari800","atarijaguar","atarijaguarcd","atarilynx","atarist","atarixe","atarixl","c64","c64pet","chip8x","coco","colecovision","cv20","daphne","dreamcastvmu","fba","gamegear","gb","gba","gbc","genesis","intellivision","mame","mastersystem","megadrive","mess","msx","n64","nds","neogeo","neogeocd","nes","ngp","ngpc","odyssey2","pc-98","pce-cd","pcengine","psx","samcoupe","saturn","sc-3000","scummvm","sega32x","segacd","sf-7000","sg-1000","sgb","sgb2","snes","ti99","virtualboy","waterasupervision","wonderswan","x68000","zxspectrum" ] ## used to create folders of the supported emulators.
 ###########
 
 if Updaye_Emulators == "scan_emus":

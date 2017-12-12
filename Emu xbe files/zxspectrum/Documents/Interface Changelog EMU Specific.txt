@@ -1,0 +1,67 @@
+*****************
+* Multiple Emus *
+*****************
+
+( emulators affected -> AdamX, Atarixlbox, Atari7800X, Blissx, Bluemsxbox, GensX, MednafenX_Lynx, MednafenX_NES, MednafenX_PCE, MekaX, NeopopX, OdysseyX, PokemonminiX, Pcsxbox, Snes9xbox, SoftvmuX, SupervisionX, ViceX, WonderswanX, WinstonX, Winuaex, X68000X, XboyAdvance, Z26)
+
+* Accurate Screen Pixel Ratio option added (see "http://fancyxbox.info/?doc=1&secao=screen" for more into) per gilou9999's suggestion.  Some numbers are still a WIP.  Go into Game/Text Screen Size Position" and select "Set Game Screen to Accurate Screen Pixel Ratio".  The emu will ask you if you wish to turn off software/hardware filters and the flicker filter.  This is recommended for the most accurate screen.  You'll still have to manually adjust the image on the Y axis.  We can't do everything for you, ya lazy bum!
+
+( emulators affected -> AdamX, BlissX, BlueMSX, Classic99X, DidntXSpectrum, MednafenX_Lynx, MekaX, Pcsxbox, Snes9xbox, ViceX, Winuaex, X68000X)
+
+* Added a "per game" autoload save state option.  Options are "No, 1-10, Most Recent"
+
+
+*******************************************************************************
+* "Auto Game Configurations (aka Configuration defaults) for select emulators *
+*******************************************************************************
+
+( Emulators affected -> AdamX, Atari7800X, Blissx, MednafenX_Lynx, MednafenX_Nes, MednafenX_PCE, MekaX, NeopopX, OdysseyX, PokemonminiX, Snes9xbox, SoftvmuX, SupervisionX, VirtualBoyX, WinstonX, WonderswanX, Z26 )
+
+In the "General settings" menu there will be a new option.
+
+"Automatically Use Default Game Configuration - Yes/No"
+
+If the user sets it to "Yes" it will bring up the game configuration screen and let the user define the default (if no default.stg and default.key file exists).
+
+In the "Configuration" menu there will be a new option... "Set default game configuration"
+
+The user can go in anytime thru the "Configuration" menu to change these "defaults" to something else if they wish.
+
+Once set to "Automatically use Default Game Configuration" the user will not see the game configuration screen again unless they... 
+a) Press X when selecting a game. 
+b) Change "Use Default Game Configuration" back to "No" and no game configuration for the selected game exists.
+
+Keep in mind when it is set to "Yes" the game will use your "Default game settings" and not the normal x-port behavior. If set to "No" the emulator will behave like it usually does. Each emu is typically different. But all, at the very least carry the controller settings over.
+
+This feature will only be added to emulators in which it is feasible to use.
+
+
+**************************
+* Computer specific emus *
+**************************
+
+* Fixed "Action List" selections not registering (computer emu specific)
+
+
+
+***********
+* PCSXBOX *
+***********
+
+* Cheatcode files now looked for in "Cheats" directory (don't forget to move them there guys!).  (Pcsxbox only).
+
+*************
+* SNES9XBOX *
+*************
+
+* File select now has the ability to filter extensions.  That way if you have movie (smv) and patch files (ips/ups) in the zip file you wont see those when simply selecting a game to play.  Same goes for movie selection and patch files.  Only relevant files are seen.  If only one match is found with the extension filter it will simply unzip that file.  (Used by Snes9xbox, possibly others).
+
+* Modified the emu so that it allocates screen memory based on the software filters used.  If you use no software filters you can save up to 4 times memory.  2 times on 2x filters.  As a result if you change the filters from none to 2x or 4x.  Or change it from 2x to 4x you will have to exit and reload the game for it to work.  The emu will remind you of this.  I figured this would make a good compromise for people who wanna eek out a little extra RAM. (Snes9xbox only?)
+
+***********
+* Vice64x *
+***********
+
+* New feature for "Action List".  "Keyword List".  This lets you define keywords that when selected from the list will be stuffed into the keyboard buffer.  Currently C64 only.  For example in Ultima IV and up commonly used words when "T"alking to characters are "Job", "Name", "Join".  These can be put in the list for easier game play.
+
+* Saves should now be properly deleted from both "saves" directories now.  This is only for emu's that have multiple save directories and currently only when you press "black" while on the game select screen.

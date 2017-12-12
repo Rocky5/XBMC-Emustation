@@ -1,9 +1,0 @@
-FIFA Soccer 2000 Gold Edition
-Platform: Sega Genesis / Mega Drive
-Region: China
-Media: Cartridge
-Controller: Gamepad
-Genre: Action
-Gametype: Pirate
-_________________________
-No information online about this game, although it is frequently listed with the "(C)" identifier in the romname, which leads me to believe it's a Chinese Pirate.  Seem to be an update of Fifa '98 with team & name changes.  ~Rx

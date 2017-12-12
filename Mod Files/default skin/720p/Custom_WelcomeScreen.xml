@@ -123,7 +123,7 @@
 								<align>center</align>
 								<aligny>-</aligny>
 								<font>size_17</font>
-								<label>[UPPERCASE]tbn images are placed in the subdirectories inside the [B]_tbns[/B] directory.[CR]the subdirectories are created after you scan in your roms, then you match the rom name.[CR][CR]example:[CR]Mario world.smc = mario world.tbn[/UPPERCASE]</label>
+								<label>[UPPERCASE]png images are placed in the subdirectories inside the [B]_tbns[/B] directory.[CR]the subdirectories are created after you scan in your roms, then you match the rom name.[CR][CR]example:[CR]Mario world.smc = mario world.png[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(4)</visible>
 								<animation effect="fade" time="200">visible</animation>

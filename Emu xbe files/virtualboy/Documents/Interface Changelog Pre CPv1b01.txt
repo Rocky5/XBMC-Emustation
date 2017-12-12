@@ -1,0 +1,794 @@
+-----------------------------------------------------------------------
+
+Madmab Edition Interface changes pre CPv1b01
+
+* Game selectable video mode removed and change to a global game video mode.  So you can use the interface (game select) at 720p or 1080i and have games run in another video mode.  "In Game Menu" video mode will match the one the game is set for except for the media browser which will change to match the video mode used outside of the game.
+
+* Fixed issue where "Override Game Screen Size/Position (Global)" was not working on multi core emulators.
+
+* Moved "Shutdown Xbox" option above "Return To Launcher" option.
+
+* Issues with weird numbers showing up when changing sfx, cdda, or mp3 volume in the in-game menu should be fixed now.
+
+* Removed game specific video mode option from emulators that used it and replaced with a global "Game video mode" option.  It can be set for any video mode you wish, or set to be the same as the current menu video mode.  I will add this feature in emus as I release them.
+
+* I modified the screenshot display code so that it no longer displays shots from the "e:\emuname\screenshots\".  This was causing slowdown in some cases when browsing through games.  As an alternative you can go into the "Screenshot/Movie Preview Settings" and set "Show Saved Screenshots Dir?" to display them if you wish.  I put this in for people who still prefer to use the old "screenshot\gamename" format.  The options are "No" for the new format.  "Screenshots Dir Only" for the old format, and "Screenshots + Artwork" to display both with risk of interface slowdown.  Choose your poison... :p.  It defaults to "No".
+
+* Fixed issue where Using "perfect pixel screen-sizing" in 720x480 mode and then pressing a or b crashes the emu. It says ("No accurate pixel mode settings defined for video in 720x480 mode" and locks-up).
+
+* Fixed a bunch of issues regarding the PAL 720x576 and emu's that might set the refresh rate to 50hz (not possible for that mode).  The affected emulators will display a warning if this conflict exists.
+
+* Removed Force Pal 50, Flicker Level, Soften Display, 10x11 pixel aspect ratio from individual game saves (creates problems and what is the point of this anyways?)
+
+* Did some cleanup of the Preset Controller code.  Old habits die hard!
+
+* If one of the following images are found in the "D:\backgrounds" directory they will be displayed if no media is found for them.  "box front missing.png", "box back missing.png", "cart missing.png", "titles missing.png", "action missing.png".  It will also display them when a directory is displayed since some emu's can play CD images which are sometimes stored in directories.  If this bothers you just remove the files from the "d:\backgrounds" directory on your xbox.
+
+
+
+* Fixed another bug related to removal/addition of favorites.
+
+* Fixed an issue where changing the "Samba Nameserver" would also ask you for the "Relax Share Name" when you were done.
+
+* Improved game preview network streaming.  I like to call it "pseudo-streaming" so streaming game previews off a network should be ALOT smoother now.
+
+* "Pseudo Streaming" defaults to off.  So if you want to turn it on go into "Screenshot/Movie Preview Settings" and turn it on.  I'm doing this until I get more feedback concerning the performance of it.
+
+* Removed pop-up that says "Select The Cheatcode File You Wish To Use." per Dominater01's request.
+
+* The two Preset Controller menu options have been moved to the "controller configuration" menu.  I did this cause several emu's use this feature now and to help reduce clutter in the in-game menu.
+
+* Fixed blank pop-up message when trying to display the cheat codes when there are none.
+
+* Fixed issues where media would not display when a directory with a period in it was highlighted.
+
+* Added option to "Refresh DVD Drive".  It is currently in the "Utilities Menu"
+
+* Finally added option to "Shutdown Xbox".  It is currently in the "Main Menu" however I have my reservations about it's location.  I'd prefer to have it in the "Utilities Menu".  You can disable this menu in the "Dummy/Lockdown Mode Settings" menu.
+
+* Partial >4096 file support put in.  If you have more than 4096 title or action shots put them in a directory named "action01" and "titles01".
+
+* Fixed screen blurring when selecting Return to launcher on the home screen and using a skin that uses "sprites as background".
+
+* Code that runs when you select "Yes" to save screen size/positions "globally" is now properly functioning.
+
+* Complete reworking of the auto screen sizing and lock code and I also tweaked the numbers a little.  It should be a little more intuitive now.  Unfortunately it had a bug which needs to be remedied with a few manual steps.
+
+* Fixed issue where emu would crash if no accurate pixel mode settings were defined for the currently selected video mode.
+
+* Checks put into the cheatcode database checker to let you know if the file is to big or has too many game entries and needs to be split up.
+
+* Gilou9999's HD Colour skins should work properly now (no weird hacks).  Be sure to at least copy over the "settings.ini" files in the skin directory and the skin "configurations" directories to your "saves" direcgtory and "reload the skin".
+
+* Added new skin transition option "none".  Real handy for skins like Gilou9999's that uses the HD sprite trick.
+
+* Windows 7 users should have no more weird issues on samba shares!  Woohoo!
+
+* Fixed issue where emulator menu video mode was reverting to last played games video mode in emu's that support game specific video modes.
+
+* Added in a feature "Sprites Used As Background? Yes/No" to allow the use of "sprites" as the background.  Setting this to "Yes" allows the game screenshot to be seen in the IGM as well as the savestate screenshots in the select state menu.  However skin designers keep in mind the more memory your skin uses the less room that leaves for me to add new features.  Things are tight enough as it is.
+
+* Fixed an issue where the synopsis was not always displaying for an unzipped file.
+
+* Fixed a weird issue where if you are missing the "Title" or "Action" directory/picture for a game it would not be displayed correctly in the gameselect or favorites screen.
+
+* Synopsis screen transition now works like it is supposed to.
+
+* Fixed an issue where the preset controller settings were not saved properly (sorry guys. :( ).  This only affected certain emus with preset controller definitions.
+
+* Synopsis code completely rewritten to support the new synopsis format.  Old synopsis.txt file is now officially defunct!  :P
+
+* Another new option "Use Default Emu Filter?".  This will apply a preset filter custom designed for each emu core.  It is also used internally by the synopsis code so user interaction is not required in some cases (like when a .zip file contains NFO or text file).
+
+* Added back in the "Text screensize/position" code.  I didnt get to do much testing with this.  Since the emu remembers settings individually for each resolution it is possible there are a few kinks that need to be worked out.
+
+* Modified L/R file scrolling so it doesnt kick off the movie so quickly.  Hopefully this will fix interference from movies being accessed from a samba or relax share.
+
+* Fixed long standing issue with "Autoload last savestate" where it could potentially pick the wrong savestate.  Of course it also helps to make sure your xbox date is set correctly.  :P
+
+* Now have the ability to display long names for games.  This currently relies on having Xtras named ROM files.  In the future I will be providing other options.
+
+* Fixed issue where video mode was not being remembered in some cases when set to either 720x480 or 720x576.
+
+* Fixed issue where emu would lock up if the media directory path was longer than 36 characters.  (Thanks to those who reported it and AMOC for testing for me)
+
+* Fixed issue where emulator would lock up in favorites menu if you start removing games from the bottom up .. (Thanks to hyper_eye for reporting this).
+
+* Fixed issue with wacky numbers when trying to adjust the volumes while in the IGM.
+
+* Fixed issue where Popup msg window was messing up transitions.
+
+* Screen size and position settings were not always being restored properly this primarily affected emu's that use preset controllers and in particular games defined as using a particular preset controller.
+
+* Set Game Screen Size/Position now has the same options as "Override Game Screen Size (Global)".  So you can use these when setting Game Screen Size position in game or from the main menu.
+
+- Options are "Full screen" ( +/- 20 or so on top/bottom/left/right of screen), "Size to Fit (Keep Ratio)", "Pixel Perfect", and "Custom".  In some case "Size to Fit and Pixel Perfect" are the same (depends on system emulated).
+
+* Tweaked the synopsis word wrap so the left/right margins are a little more even.
+
+* Removed Text screensize/position menu options since this is now set based on the video mode used by the games.
+
+* Fixed Screenblur when displaying on screen keyboard.  For good this time.. :P  (For emu's that use it) 
+
+* Modified many menus so while in IGM only relevant menu's are displayed.  (Too many to mention)
+
+* New filename sort code.  Filenames should sort properly.  No more need to add a I, II, or III to filenames to get them to sort right!
+
+* Fixed bug where viewing the synopsis in the in-game menu, and then going back to the favorites list could cause a crash.
+
+* New Dummy/Lockdown Mode Settings.. see below for more information.
+
+* Now only displays valid available video modes (set in dash) in the "Video Mode" select screen.
+
+* "Lock Game Screen Size For All Games" added. Options are "Full screen" ( +/- 20 or so on top/bottom/left/right of screen), "Size To Fit (Keep Aspect Ratio)", "Accurate Screen Pixel Ratio", "Custom Size".
+
+* The interface now keeps track of all screen size settings for all video modes. This is for all individual games. It will also auto adjust the size for all video modes if "Override Game Screen" is activated in some form. This also opens up the possibility of allowing different video modes for different games.
+
+* Minimum sound volume bumped up to something more reasonable.  That way if you do accidently lower the volume it wont take as long to get it back.  :P
+
+* Media browser will properly back out now if you are in a ZIP file and press B to exit out.
+
+* Numerous fixes to prevent controller button presses from making their way back to the game when you are done (still needs some work)
+
+* Fixed lockup when viewing a certain number of FAQs or the same FAQ several times.  Stupid me forgot to dealloc the buffer after exiting.
+
+* Fixed lockup that would occur when you tried to edit an action replay cheat code.
+
+* Fixed problem where you could get stuck in the media browser and not get out (happened when you had media browser mapped to a controller button)
+
+* Removed all the annoying questions when you switch to 480p and higher video modes.  X-port code has detected and auto switched to lower resolutions for some time now.  If someone could verify this for me just to be sure. :P
+
+* Modified the media browser so that when viewing images (e.g. manuals or maps) that it will try reverting to 480p in order to view the manual if it will not load if you are at 720p or higher.
+
+* Synopsis now displays properly in the "In game menu"
+
+* Controller presses are cleared on savestate load/save that way nothing will accidently happen when you go back to the game (used for show savestate screen = yes)
+
+* Loop movies option (Yes/No) added.
+
+* Fixed issue with wrong screen coming up when "Always display save state menu" is set to yes.
+
+* Created mappable key for ( swapping keyboard/action list ) so you don't always have to hop in and out of the IGM.
+
+* Fixed lockups when changing Action Lists while within game.
+
+* Code for "action lists" mostly done.  Here is a demonstration video that is slightly out of date.  http://www.youtube.com/watch?v=arI6rIp00Jk.  This feature is still a wip but is mostly functional.
+
+* Rewrote the create_local_file routine again for the millionth time.  :P
+
+* Modified the crc calculation routine to read files in pieces since some of those WHD files are pretty large
+
+* Fixed a small bug in the synopsis regarding number of lines (200 max).
+
+* Improved the screenshot, box/cart art, and movie streaming to make browsing games a little smoother.
+
+* Fixed a long standing bug in the favorites system.  This one goes waaaaay back. (Thanks to Hyper_Eye for reporting it)
+
+* Emulators should now work with 1.6 Xbox's.  Super big thanks to FreakDave.  1.6 users let me know how this works for you.
+
+* Fixed a problem where the media directory selected by the user replaced the wrong media directory.  Again.  Double Doi on me!  :P
+
+* Fixed the problem where the wrong synopsis description was showing when selecting a game in the favorites menu.
+
+* Fixed odd bug where the opening movie and movies played full screen in the media browser would not display properly at 1080i
+
+* Files within a zip now display sorted properly now.
+
+* Fixed issue with "bilinear filter" activating for no good reason.
+
+* Fixed a couple goofs that prevented loading ROMS over a samba share.
+
+* "Ask Before Moving To Garbage Dir?" now has a new option.. "Never Move".  So "Yes" will ask before moving the selected file to the Garbage folder.  "No" will just move the file and "Never Move" won't move the file at all.
+
+* Pick -1 on "Seconds before playing movie" to set to 0 seconds.  0 will equal half a second..  1 one second, and so on.
+
+* User can now select which "cheat code database" they wan't to load since it seemed silly to mix the many AR and GG codes into one file for Snes9xbox.  Filename must end with the characters "codelist.inf".  e.g. AR_codelist.inf, GG_codelist.inf.
+
+* Select file function now has an option to not display directories.  First menu to use this is the cheat code database select screen.
+
+* Pressing the back key while viewing a games synopsis will toggle between a fixed font and the skin's proportional font.
+
+* Fixed long standing bug of YesNo Menu pop-up graphic not centering properly.
+
+
+********************************
+* Dummy/Lockdown Mode Settings *
+********************************
+
+This is a new feature which means lots of changes in regards to the menu interface and a bunch of internal stuff.  :)
+
+There is a new menu option in the "Configuration" screen called "Dummy/Lockdown Mode Settings" menu options in this screen are.
+
+"Full Fledged Lock Down Mode?" (Yes/No)
+-> This activates all options and sets them all to Yes or if they are on it will deactivate them and set them all to No.
+
+"Password Protect?" (No, Configuration Only, Skin Menu Only, Configuration & Skin Menu)
+-> Password is 10 buttons presses max.  Acceptable buttons are A, B, X, Y, WHITE, BLACK, BACK, Dpad Up, Dpad Down, Dpad Left, Dpad Right, L3 and R3.  Password is stored (non encrypted) in the .ini file for those of you who set it and forgot what it is.  It even has a nice key to tell you what the characters mean.. :D
+
+"Change/Set Password"
+-> Why change or set the password of course!
+
+"Change/Set In Game mapping useage prevention"
+-> This allows you to deactivate in game mapping settings that may be defined in a game's controller settings.  This will also disable any related "In Game Menu" options.  See below for the list.
+
+"Prevent user from adding/removing favorites?" (Yes/No)
+-> If you do not like people mucking around with your favorites list on the game select or favorites menu, set this to Yes.
+
+"Prevent removal of save configuration files?" (Yes/No)
+-> Keeps people from pressing black and erasing all your hard work configuring games.  :)
+
+"Prevent user from pressing X to configure game?" (Yes/No)
+-> Keeps people from going in and mucking up your wonderful game configuration setup that you spent hours tweaking.  ;)
+
+"Ask Before Moving to Garbage Dir?" (Yes/No/Never Move)
+-> Same as before.. just moved here and removed from the general settings menu.
+
+"Keep user Within ROM Directory Tree?" (Yes/No)
+-> Same as before.. just moved here and removed from the general settings menu.
+
+"Allow Skin Access" - (Full Access, Select Skin & Load Configuration Only, No Access PERIOD!)
+-> This will allow you to limit the user to just selecting the skin or skin configurations.  Slight overlap with the password protect option.
+
+"Lockout In Game Menu (Hold Back To Exit Game)"  (Yes/No)
+-> Wanna keep the user out of the In Game Menu?  This option is for you!  Gamer needs to only hold "BACK" down for 4 seconds to exit the game.
+
+"Remove 'Shutdown Xbox' From Main Menu?" (Yes/No)
+-> Removes the "Shutdown Xbox" from the main menu in case you have a bad habit of accidently selecting it.
+
+
+-----------------------------------------
+--- In Game mapping useage prevention ---
+-----------------------------------------
+
+This allows you to deactivate in game mapping settings that may be defined in a games controller settings.  It's use should be pretty obvious.  This will also disable any related "In Game Menu" options.
+
+"Prevent All On List?" (Yes/No)
+"Prevent in game Sfx Volume Adjustment?" (Yes/No)
+"Prevent in game Bgm Volume Adjustment?" (Yes/No)
+"Prevent in game Rewind and Rewind Toggling?" (Yes/No)
+"Prevent in game Fast Forward?" (Yes/No)
+"Prevent in game Slowdown?" (Yes/No)
+"Prevent in game Save/Load/Save State Slot Changing?" (Yes/No)
+"Prevent in game Screenshots?" (Yes/No)
+"Prevent in game Auto-Screenshot Capture Mode?" (Yes/No)
+"Prevent in game Filter Changing?" (Yes/No)
+"Prevent in game Music Control Menu Use?" (Yes/No)
+"Prevent in game Playback and Recording?" (Yes/No)
+"Prevent in game Media Browser Useage?" (Yes/No)
+
+
+--------------
+New SAMBA code
+--------------
+
+* Old SAMBA library replaced.  You should now have more luck connecting to your SAMBA shares (including a NAS).  Especially shares with passwords which NEVER worked under the old code.
+
+* Renamed "Enter Samba Share Name" to "Enter Root Samba Share Name" since it acts more as a shortcut now that you can "Browse" SMB shares.
+
+* "Samba Server Name" doesn't really serve any purpose at the moment but I left it in there just in case.
+
+* SMB shares can now be browsed.  As a result how you use Samba shares has changed slightly...  Try these steps..
+
+1) Clear out your "Samba Share Name"
+
+2) Use either the ROM browser or the "Change default directories" to browse to your share (Press "Y" until you see the drive list and select "SMB:\\").
+
+3) If it doesn't work, try it again a couple times.  For some silly reason sometimes it times out.
+
+4) If the emu thinks your share needs a password a window will pop-up asking you if you want to enter in a username and password.  Enter it as "username:password".
+
+5) As a result of this change you can set all your definable directories to any share with any password.
+
+6) If for some reason browsing doesn't work try entering your Samba server name in the "Enter Root Samba Share Name" under "Network/Netplay Options" format is "smb://servername_or_ip/sharename" or "smb://username:password@servername_or_ip/sharename" if the share is password protected.  Browsing once within a share is much more reliable.
+
+7) If you enter anything into the "Root Samba Share Name" then you are stuck with that and cant use other servers for media streaming unless they are on a Relax share.
+
+8) If steps 1-5 don't work for you but step 6 works you might wanna consider deleting your emu_name.ini file in the SAVES directory.  I was told by one user that this cleared up his problem.
+
+* Some suggestions if you decide to "stream" stuff over the network.
+
+1) Try splitting the workload.  Setup a Relax and Samba share (or even seperate servers) and divy up the workload.  They both have seperate caches so it's more efficient.
+
+2) Roms, Screenshots, Box/Cart art, Manuals, Commercials, preview movies and the like are great candidates for streaming.
+
+3) If you do stream Screenshots and Box/Cart art set the timers a little higher and not the same.  For example 5 seconds on screenshots, 10 on Box/Cart art.  Or just set them to 0 (manual advance).
+
+4) Streaming movies really depends on how good of a network you have  For example streaming movies over a wireless network aint gonna be so hot.  To me relax seems faster but that may have changed with the new SMB code.  You might also wanna consider bumping up the movie delay a couple seconds. (only applies if "Movie Streaming Style" is set to "Copy Then Play (slower?)".  Pseudo streaming does not have this limitation.
+
+An example of how I have mine set up.  Screenshots and Box/Cart art on the xbox 5/10 sec delay respectivaly (or 0).  ROMS, GameFaqs, VGMaps, etc on a Samba share to my NAS, as well as all of the commercials and manuals.  Movies on NAS using samba and pseudo streaming.  
+
+The possibilities are endless.  Experimentation is worthwhile.  Or you could just slap a super big hard drive in your Xbox and forget all this silliness.  :P
+
+------------------
+End New SAMBA Code
+------------------
+
+* Apparently mp3CDDA and CDDA volume were sharing the volume variable for Mp3music. Created seperate volume variables for each. Mp3CDDA and CDDA volume are saved with each game so you can customize this for CD games.
+
+* New feature "Seconds before playing movie" determines how long the emu will wait before playing a movie.  The default is half a second.  This will help speed up rom browsing.  Especially useful for people streaming stuff (like movies) across the network.
+
+* If streaming movies from across the network and the user press on the dpad or a, b, x or y the emulator will abort the transfer.  This should help speed up rom browsing and allow the user an "out" especially for the larger movies.
+
+* Fixed an issue with the software filters displaying garbage. (all emus)
+
+* Activated the "Keep user Within ROM Directory Tree?" which I somehow missed. (all emus)
+
+* Fixed up the box/cart art position on a few skins.
+
+* Fixed a problem where setting the box/cart orientation was screwed up.
+
+* Fixed the bug that screwed up Gilou's skin to begin with (too weird to explain).  :P
+
+* Added an option to display a "Static" video if no movie found.  Can be set to yes or no.  Static file must be named "Tv Static.xmv" and placed in the emu's "backgrounds" directory.
+
+******************
+* Rewind changes *
+******************
+
+* Rewind is a bit of a memory hog.  On some emu's at 720p it is barely useful.  Some emu's can't even handle it.  Here is what I did.
+
+* Tweaked around with the rewind system fixed a couple potential xbox lockers.
+
+* Modified the rewind system so if memory runs low it clears half the buffer, if that doesn't work it clears the entire buffer.  What this means is that on memory intensive emu's you'll have a rewind system that mostly works.  It's pretty much a "better than nothing" set-up.
+
+* Known emu's to have rewind issues.  
+
+-  NeoGenesis in CD or 32x mode cannot deal with it.  Frameskip had to be activated for it to even work in Genesis mode.
+
+-  Snes9xBox works almost 100% in 480i/480p.  At 720p I relied on two things clearing the buffer when it's full and saving memory when filters are not used (see above)
+
+**********************
+* End Rewind Changes *
+**********************
+
+----------------------------
+Finished the "Media browser"
+----------------------------
+
+* Be sure to use the RessurectionXtras or Xtras for maximum enjoyment!  "http://www.emuxtras.net"
+
+* Ability to display documentation (text or graphic) and commercials (xmv format only).
+
+* Assigned buttons (white/black) to go to next/previous files when viewing documentation. See below graphic/text file viewer controls.
+
+* Once the user opens a document - the emulator remembers this document as long as the game session is running.
+
+* View settings for each document viewed are now stored in a "bookmark" file so next time you view a file your settings are restored.  Press Back to "reset" as if reading document for first time.
+
+* "View Text File" changed to "Browse Manuals/Videos"
+
+* Support added for different kinds of documentation in the media browser.  Including "Manuals", "Game FAQs", "Game Maps", "Commercials", and "Other".  The user can also specify where these directories are located.  Defaults are "Manuals", "GameFAQs", "VGMAPS", "Commercials", and "Other".  "Other" is in the media root directory (typically "x:\media\Other") for non emu specific stuff.
+
+* User can specify whether manual is displayed "Full Size" or be "Sized to fit screen" when loaded.  Keep in mind any saved bookmarks override this.  Press Back to toggle between "Full Size" and "Size to fit screen".
+
+* Commercials can be displayed either full screen, at the size of the video with black background, or same size of the video with synopsis background.
+
+* NOTE: Some emulators are tight on memory (eg: NeoGenesis) and not all the Xtra's will load.  If you have trouble with an image loading you might have to resize it.
+
+* In screenshot viewer. If the image is smaller than your text file screensize settings it will work as follows. 
+
+a) If the image is taller than it is wide it will continue expanding the image ( based on aspect ratio) until the width fits within the width of your text file screensize width. (Most normal manuals)
+
+b) If the image is wider than it is tall it will continue expanding the image ( based on aspect ratio) until the height fits within the height of your text file screensize height. (For example NES manuals).
+
+This seems to effectively stretch the image in the best manner possible for scanned manual reading.
+
+* Browsing manuals/videos should auto select any file matching your ROM name exactly.  Select "View Media Directory" for manual browsing.
+
+* Unmapped controls that allow you to move the screen around since word wrap should work correctly now.
+
+* Change Fixed Width font controls are now mapped to the right analog stick (left/right) like the help screen says it should be.  Doh!
+
+* Set font size keeps seperate settings for Fixed Width fonts and proportional fonts since they produce different results.
+
+* Graphic documentation can now be stored in a ZIP file and still work with the media browser functions (next/previous and bookmarks).
+
+* Music no longer starts playing after viewing text file in game.
+
+* Number of lines displayed in the text file viewer now properly match user set text screen size.
+
+* Number of lines displayed updates properly if user modifies text screen size within text file viewer.
+
+* Text file viewer functions turn off FixedWidth before displaying any menu.
+
+* Added a fixed width font for the text file viewer. If you wanna use it you have to make sure that a file named "FixedFont.ttf" is located in the emulator directory. Press "Y" in the text file viewer to switch to the fixed font.
+
+------------------------------------
+Controls for text browser
+
+A -> Start Search
+B -> Exit
+X -> Continue Last Search
+Y -> Simulate width font
+
+White -> Previous file
+Black -> Next file
+
+Start -> Help screen
+Back -> Reset view as if document was loaded for first time.
+
+Dpad -> Up/down, Left-> Up Page, Right-> Down Page
+Left Analog button -> Set font size
+Left Analog Up -> Top of file
+Left Analog Down -> End of file
+Right Analog button -> Set text screen size
+Right Analog left/right -> decrease/increase fixed-width font size
+
+Left/Right triggers - Move up/down text file.
+
+----------------------------------------------
+Controls for screenshot browser
+
+A -> Lock/Unlock Aspect Ratio
+B -> Exit
+Y -> Delete file (Utilities-> browse screenshots only)
+
+White -> Previous file
+Black -> Next file
+
+Start -> Help screen
+Back -> Toggle between "Full Size" and "Size to fit screen".
+
+Dpad -> Up/Down/Left/Right -> Move image 1/4th the total size of the image.
+Left Analog button -> Music Control Menu
+Left Analog up/down -> Move screen up/down.
+Right Analog left/right -> decrease/increase screen size.  Size changes proportional to distance the stick is pressed.
+
+------------------------------------------
+
+*********************
+* End Media Browser *
+*********************
+
+* The much talked about "Game Synopsis!".  See http://forums.xbox-scene.com/index.php?showtopic=663137
+
+* Synopsis.  Press down on right stick to see a description, tips, hints, of the highlighted game. 
+
+* Synopsis background can be stored in the skins "backgrounds" directory or the emulators "background" directory.  Skin directory is searched first.
+
+* Help screen support for game select screen and text browser (try pressing start).  (Graphics provided by Gilou9999)
+
+* The two help menu's and synopsis background are now skin specific. So if the emulator finds the files in a directory called "backgrounds" in the skin directory it will use them. Otherwise it looks in the emulators directory for a "backgrounds" directory. If no synopsis background is discovered the emulator will use the default "other" panel.  The Synopsis background is named "synopsis.jpg".  The help files are named "Game Selection Menu.jpg" and "View Text File.jpg"
+
+* Pressing Back while in the the controller settings menu will set the value to "None".
+
+* Hopefully addressed weird issues with "Force Reload D:\\*.ini Settings".
+
+* New option to "Keep user Within ROM Directory Tree".  You can find it in "General Settings, Page Two".  Useful for keeping n00bs from getting lost while selecting games.
+
+* Hopefully cleaned up all instances where the current "game select" directory would get trashed.
+
+* Transparency control for keypad and keyboard should now function properly.
+
+* Tightened up the Synopsis parsing code (sorry RessX :( )
+
+* Fixed issue where cycling thru screenshots when none available would create an infinite loop.
+
+* Fixed two bugs that would cause the game select screen to slow down massively.  One related to having Box/Cart art timer set to 0.  The other related to the rather large size of the Xtra's.  You dirty pirate you!  :P
+
+
+* Fixes to the keyboard/keypad including. These affect emu's that use a keyboard/keypad (Winuaex, AdamX, Atarixlbox)
+
+- Keyboard/keypad no longer corrupts portions of the screen when being moved.
+
+- Keyboard/keypad can be moved diagonally in ALL directions now
+
+- Keyboard/keypad transparency now works properly when "Pause game while using Keyboard/Pad" is set to ON.
+
+- Fixed issue with screen blurring when Keyboard/keypad is activated.  I'm surprised I did not notice this earlier. 
+
+
+* Created a new overlay system. The file "overlay.ini" contains configuration information for each overlay, including the color of the transparent button.
+
+* Fixed issue with the "Music Control Menu" where the "Go to next/previous song" options were not working.
+
+* Fixed issue where "View playlist" did not show the first two songs.
+
+* Fixed issue where "pause" would still display even after changing songs while viewing the playlist in "clear screen" mode.
+
+* Add song to playlist now functions correctly.
+
+* Added a seperate "Volume Control Menu". It can be accessed by pressing "Y" in the "In Game Options" menu, or from the "Game Configuration" menu. It lets the user set the volume for in game sound, MP3_CDDA, CDA, movie and MP3 music player from 0-100.
+
+* Fixed issue where games that had more than 48 CRCs in the cheat code database would cause a crash when game is selected while searching for cheat codes.
+
+* Rumble codes and cheat codes are now stored in seperate files. ( "rumblelist.inf" and "codelist.inf" respectively).  To make it easier to search for "rumble codes" only.  Note to cheat code makers: be sure to make your cheat codes and rumble codes seperately now.  For those importing rumbles, the rumble does not have to be "activated" in order to work, it just works.  Remove it from the list if you no longer wish to use it, or set it to "Rumble Enabled On - Nothing".
+
+* Cheat code menus moved around.  In-Game menu option "Cheat Codes" was moved into "Game Utilities" and replaced with "Cheat Code Database" to make it easier for the gamer to use codes in the database.  Cheat code creators just need to go into "Game Utilities" to get to their stuff.
+
+* Skin can now have a "Startup Movie" on loading menu. Please use with discretion (no long movies).  User can press B to skip the movie.
+
+* "Startup Movie" can be displayed full screen or in a window. If fullscreen is used the loading menu will not be displayed.
+
+* Transparency for "Startup Movie" can be set as well.
+
+* Moved the network initialization code to run before the loading menu. This moves the delay caused by network init to before the display of the loading menu, not after.
+
+* Files when selecting within a zip are now sorted.
+
+* Added a seperate timer for alternating Box/Cart art.
+
+* LThumb-Down - Go to next Box/Cart.  LThumb-Up - Go to previous Box/Cart.
+
+* Ability to view synopsis from within game. (press right analog button).
+
+
+* Movies! The ability to display movie previews!
+
+- You can set the movie/previews directory in the "Change Default Directories" section.
+
+- The movie name has to be exactly the same as the ROM name. Only one movie per game. 
+
+- Display order can be set to. None, Screenshots Only, Movies Only, Screenshots 1st- Then Movies, Movies 1st- Then Screenshots.
+
+- Movies display over screenshots so if you want you can see screenshots when no movie exists.
+
+- Can now stream videos and screenshots from Samba or Relax.
+
+- Sound for movies can be turned on/off
+
+- Box/Cart art can be displayed in seperate window.  Box/Cart art is autodetected based on size (only in "old screenshots" directory).
+
+- Transparencies for Box/Cart art (and screenshots) is now supported  Check out some of the 3d Box/Cart art floating around!
+
+- Skin author can now designate two locations where Boxart or Cartart will display based on width vs height.
+
+- Old Screenshots are now sorted and displayed in proper order.
+
+- Old Screenshots can be named anything (as long as it has .png extension)
+
+- In Game Options Screen can be sized and positioned now.
+
+
+* New option to "Force Game Screen Size/Position". There are two configurable screensizes. (To deal with multi-core systems like MekaX and XboyAdvance). This will be useful when switching from HDTV to SDTV or vice versa. It will save the user the trouble of resizing the screens for something that is likely temporary.
+
+* Numerous changes to menu system see above (current menu configuration layout)
+
+* Skin Sprites can now be named for easier manipulation. Directory names must be of the format "0_spritename", "1_spritename", etc. Do not use underscores for the spritename. It is a delimiter.
+
+* Added "Select Skin Configuration Used" and "Save Skin Configuration as" to the "Configure Skin" menu in place of the above moved options. This allows multiple skin configurations in one skin allowing the user more "pre-defined" options on how a skin looks. For example the placement of the games list and the preview screens. Gilou's Dynamic skins really take advantage of this, check 'em out!
+
+* Changed "Seconds before auto-advancing Screenshot" to "Seconds Before Auto-Advancing Artwork".
+
+* Changed "offset X" and "offset Y" to "Offset X (left/right)" and "Offset Y (up/down)" in the Sprite Settings menu.
+
+* New Option to pause or not pause emulation when keyboard or keypad is displayed.
+
+* Skin previews display when selecting a skin or a skin configuration. The files must be in the "preview" directory within the skin directory. "preview.jpg" for the 4-in-1 pic, and "configuration name.jpg" for the rest.
+
+* Removed popup message from "Configure Skin/Select Skin" and replaced the top line with the text "Press Start To Select Directory". This displays on all "change directory" menu screens.
+
+* Sprites now display when sizing the preview screens.
+
+* Screenshot, movie, and gamebox preview transparency's now working properly.
+
+* Removed "Sprite Settings" option from "Pop-up Configure Skin Menu"...  Fixed bug caused by doing this.  :P
+
+* Changed directory browse code so it can be told to "ignore screenshots/streaming media"
+
+* Changed volume increment/decrement on mp3 player and game sound.  Set to 10 for now.
+
+* User can now change music volume in the game select/help/and synopsis screen.
+
+* Zip selection screen now sorts the zip contents. Helpful in Computer emulators in which some zips may contain "multiple disks"!
+
+* Unmapped all the default UI mappings except for "in game menu", "keyboard", and "fast forward".
+
+* Modified the autolaunch (from dash) so that it jumps straight into the emulated game.  Be sure to set the option to "Exit the emulator on game exit after autostart".
+
+* Fixed a bug where the gamescreen would get blurry after changing video options.
+
+* Fixed a bug where the xbox would lock-up when setting 10x11 mode in non 480 modes.
+
+* Improvements to the cheat database system.  Changed menu options to "Search Cheat Database for Codes" and "Save Cheat Codes To Custom DB".
+
+* Search can handle multiple CRC's for games that use same cheat codes but have different CRC's.  (Be careful with this).
+
+* Search and save database options modified to be able to handle GameGenie codes in addition to Gameshark codes.
+
+* Fixed a bug that would cause "Add new code" to default to GameGenie when it should be Gameshark.  Use "Add New Game Genie Code" at the bottom for GameGenie codes.
+
+* completely changed around the screenshot directory structure to accomodate the ability to display both screenshots and cart/box art at the same time.  (Don't worry the old screenshot directories will still work until you are ready to switch).
+
+* Text file directory retired and renamed to "Media" directory.  Screenshots (in the menus) renamed to "old screenshots" to reduce confusion.
+
+Note: Point the media directory to the directory that contains your "artwork" folder.
+
+New format as follows
+
+/usernamedfolder/NES/artwork/box front/
+/usernamedfolder/NES/artwork/box back/
+/usernamedfolder/NES/artwork/cart/
+/usernamedfolder/NES/artwork/titles/
+/usernamedfolder/NES/artwork/action/
+/usernamedfolder/NES/artwork/misc01/
+/usernamedfolder/NES/artwork/misc02/
+/usernamedfolder/NES/artwork/misc03/
+/usernamedfolder/NES/artwork/misc04/
+.......
+/usernamedfolder/NES/artwork/misc99/
+and so on
+
+Pictures are displayed in the following order. Title, Action, Misc01-Misc??, and then it switches to the old dated ( ) screenshot directory. Be sure to remove your old screenshots once you've switched over or just point the screenshot directory to somewhere else.
+
+It alternates between Boxart and Cartart in the area specified for them.
+
+left/right on left analog to change screenshots.
+
+* Changed the way the movies directory is handled.  The emulator no longer adds the emu name to the path (ex: NES or "f:\movies\NES\").  So you'll either need to move your movies down a directory or just point the movies directory to where the movies are located.
+
+* After changing the media directory the emu will ask the user if they want to point the movies directory to "media\movies".
+
+* Tinkered around with volume control options for mp3 (music), in games sound, and CDDA.  0 (no volume) thru 100 (full volume). Although technically the volume is no longer audible well before it hits 0.
+
+on normal game select menu...
+
+Right analog stick left/right - music volume
+Right analog stick up/down - movie volume
+Left analog stick left/right - change pictures
+Left analog stick up/down - nothing
+
+On favorites menu...
+
+Right analog stick left/right - music volume
+Right analog stick up/down - movie volume
+Left analog stick left/right - change pictures
+
+In game menu now shows current Game (SFX), mp3CCDA and CDDA volume (if applicable).
+
+Right analog stick left/right - game volume
+Right analog stick up/down - music volume
+Left analog stick left/right - CDDA volume
+Left analog stick up/down - mp3CDDA volume
+
+------------------------------------
+Sorta implemented features (hidden).
+------------------------------------
+(Try selecting .xmv and .jpg/.png files while in the text file browser.)
+
+- Ability to display documentation (.jpg)
+- Commercials - Framework put in place for "mediabrowser"
+
+------------------------------------
+Current menu configuration layout..
+------------------------------------
+
+MAIN MENU
+
+Select Game From Favorites
+Select Game
+Configure Skin
+
+---->Select Skin
+---->Save Skin Configuration As
+---->Load Skin Configuration
+---->Skin Editor
+
+---->---->Game Select Menu Settings
+---->---->---->Screenshot/Movie Preview Settings
+---->---->---->---->Show Screenshots? Yes/No
+---->---->---->---->Show Movie? Yes/No
+---->---->---->---->Play Sound From Movie? Yes/No
+---->---->---->---->[Screenshot/movie/boxart] Size/Position
+---->---->---->---->[Screenshot/movie/boxart] Transparency
+---->---->---->---->Seconds Before Auto-Advancing Artwork
+---->---->---->---->Auto-Screenshot Capture Delay - 
+---->---->---->---->Show Screenshots While Scrolling
+
+---->---->---->Sprite Settings
+---->---->---->Background Settings
+---->---->---->Text Settings
+
+---->---->Game Screen Size/Position
+---->---->---->Set Game Screen Size/Position
+---->---->---->Set Text Screen Size/Position
+---->---->---->In Game Options Screen Size/Position
+---->---->---->Force Game Screen Size/Pos (0) - Yes/No
+---->---->---->Force Text Screen Size/Pos - Yes/No
+
+---->---->General Settings
+---->---->Main Menu Settings
+---->---->Popup Menu Settings
+---->---->Loading Screen Menu Settings
+---->---->All 'Other' Menu Settings
+---->---->Show Available Memory
+
+---->Video Mode (For setting screen resolution)
+---->Start With Music: Yes/No (maybe change to Music: on/off)
+---->Favorites Screen: Regular/Enhanced
+---->Start Screen: Favorite Select/Game Select/Main Menu 
+
+Configuration
+
+---->Change Default Directories
+---->Controller Configuration
+---->Video Configuration
+
+---->---->Video Mode - (480i,720i,720p, etc) [or leave/dup this in skin configuration)
+---->---->Screenshot/Movie Preview Settings
+---->---->---->Show Screenshots? Yes/No
+---->---->---->Show Movie? Yes/No
+---->---->---->Play Sound From Movie? Yes/No
+---->---->---->[Screenshot/movie/boxart] Size/Position
+---->---->---->[Screenshot/movie/boxart] Transparency
+---->---->---->Seconds before auto-advancing Screenshot -
+---->---->---->Auto-Screenshot Capture Delay -
+---->---->---->Show Screenshots While Scrolling - Yes/No
+
+---->---->Game Screen Size Position
+---->---->---->Set Game Screen Size/Position #
+---->---->---->Set Text Screen Size/Position
+---->---->---->In Game Options Screen Size/Position
+---->---->---->Force Game Screen Size/Pos (0) - Yes/No
+---->---->---->Force Text Screen Size/Pos - Yes/No
+
+---->---->Other Video Configurations
+---->---->---->Xbox Hardware Filtering -
+---->---->---->Software Filter -
+---->---->---->Force PAL50 Mode (PAL only) - Yes/No
+---->---->---->Flicker Filter Level
+---->---->---->Soften Display - Yes/No
+---->---->---->10x11 Pixel Aspect Ratio - Yes/No
+---->---->---->Move menu text (maybe this should be moved into skin settings)
+
+---->General Settings
+---->Network/Netplay Options
+
+Utilities
+---->Save Game Management
+---->Browse Screenshots
+---->View Text File
+---->Help
+
+Return to Launcher
+
+----------------------------------
+
+* Fixed a small little bug in the memory checking of the normal cheat code system. (non atari).
+
+* Fixed a small little bug where the emu would respond to "Virtual Keyboard" buttons assignnments for systems that do not have a keyboard defined. 
+
+******************************
+* Carryovers from Atarixlbox *
+******************************
+
+* Ability to pick a file from within a zip file.  That way on computer based emu's multi-disk games can be zipped now. Keep in mind that if you play any game that "saves" to a floppy, that disk has to be a seperate UNZIPPED file.
+
+* Fixed a few interface "quirks" regarding playing game sounds while emu is paused.
+
+* Select save state screen tells you whether your "loading" or "saving", it also now displays whether a save file has a record session ( R ) associated with it.
+
+* When a new save state is created it deletes any recordings. If you press the "back" button while in the save state select screen it will allow you to delete that save state (as well as it's recording).
+
+* Utilities menu display modifed to state "stop or start recording/playback" depending on whether they are turned on or off. It also displays total minutes remaining or played so far.
+
+* Record/Playback turn off when exiting a game. Boy that sure caused some confusion. 
+
+* Switched positioning control of sprites in the skin menu to the left analog stick, that way you don't have to worry about unintentionally lowering the volume.
+
+* Savestate load screen is a little more informational when switched to from the save/record option. 
+
+* When you save a picture it removes the screenshot save path making it easier to see long names.
+
+* Changed order of some of the entries in the "Music Control Menu". 
+
+* Added an option to show (view) song name when the mp3 player changes songs. It also shows the song number within a SAP file (atarixlbox) for multisong SAP's.
+
+* Playlist repeat mode, and View Name setting is saved in INI file. Although song name only shows in the music control menu.
+
+* (cheat codes) When "adding a code" from the "edit code" screen the current code is copied as a template.
+
+* You can activate/deactivate a code from the "cheat code list" menu by pressing start.
+
+* Deleting a cheat code now asks you if you are sure (I got tired of accidently deleting my codes ).
+
+* Fixed up the problem created from using multiple files in a Zip file.
+
+* Fixed problem when a filename inside a zip contains too many characters. While I was at it I fixed the space as the last character when trimming to 42 characters behavior.  Zip files where the directory path was stored now unzip correctly.
+
+* Rewind and Fastforward are de-activated during record/playback and netplay mode. It even tells you so when you try!!
+
+* (Internal) Modified YesNoMenu so it doesn't clear m_menuText.
+
+* Added ability to add in cheat codes from a Gameshark compatible database (see description below). This includes the ability to export the cheat codes in a game to "share" with your friends. Cheat/rumble codes are included for most games. When "adding" codes from the gameshark DB it will move you to the entries with a matching CRC. If not you'll have to manually find the game.
+
