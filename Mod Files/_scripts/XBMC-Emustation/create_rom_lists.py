@@ -30,7 +30,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 		left,found,right = line.partition("The executable running is: ")
 		if found:
 			Working_Directory	= ( right[:CharCount] )
-			Root_Directory		= Working_Directory[:-12] # Removed default.xbe
+			Root_Directory        = os.path.dirname( Working_Directory ) + '\\'
 			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
 				Emulator_Path	= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
 			else:
