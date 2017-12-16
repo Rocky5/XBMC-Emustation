@@ -64,6 +64,9 @@ def manual_scan():
 
 	log('|	Set the Countlist variable and set the emu_name variable.')
 	CountList = 1
+	JumpCountList = 0
+	Jump_Counter = 8000
+	Starts_with_0 = 0;	Starts_with_A = 0;	Starts_with_B = 0;	Starts_with_C = 0;	Starts_with_D = 0;	Starts_with_E = 0;	Starts_with_F = 0;	Starts_with_G = 0;	Starts_with_H = 0;	Starts_with_I = 0;	Starts_with_J = 0;	Starts_with_K = 0;	Starts_with_L = 0;	Starts_with_M = 0;	Starts_with_N = 0;	Starts_with_O = 0;	Starts_with_P = 0;	Starts_with_Q = 0;	Starts_with_R = 0;	Starts_with_S = 0;	Starts_with_T = 0;	Starts_with_U = 0;	Starts_with_V = 0;	Starts_with_W = 0;	Starts_with_X = 0;	Starts_with_Y = 0;	Starts_with_Z = 0;
 	CUTCount = 0
 	ZipCount = 0
 	Parse_CUE_CCD_ISO_File = 0
@@ -85,6 +88,7 @@ def manual_scan():
 	
 	log('|	Check for previous layout xml and if it exists remove it.')
 	if os.path.isfile( Rom_List_Path + Emu_Name + '.xml' ): os.remove( Rom_List_Path + Emu_Name + '.xml' )
+	if os.path.isfile( Rom_List_Path + Emu_Name + '_jump.xml' ): os.remove( Rom_List_Path + Emu_Name + '_jump.xml' )
 	if not os.path.isdir( Rom_List_Path ): os.makedirs( Rom_List_Path )
 
 	log('|	Write new layout xml header.')
@@ -123,76 +127,197 @@ def manual_scan():
 		
 		log('|	Listing the content of the roms folder for parsing.')
 		for Items in sorted( os.listdir( Roms_Folder ) ):
+			log('|	Checking filenames case and not leading with capital renaming it to do so.')
+			Items_Full_Path = os.path.join( Roms_Folder,Items )
+			if os.path.isfile( Items_Full_Path ):
+				if Items_Full_Path != os.path.join( Roms_Folder,Items.capitalize() ):
+					tempname = Items_Full_Path[:-1]
+					if not os.path.isfile( tempname ):
+						os.rename( Items_Full_Path,  tempname )
+						os.rename( tempname,  os.path.join( Roms_Folder,Items.capitalize() ) )
+			
+			log('|	Checking the file I find, extension agains my table.')
+			if Items.endswith(tuple(Extensions)):
+				
+				log('|	More vars being set.')
+				Rom_Name = Items
+				CUT_File_Name = Rom_Name[:-4]
+				Rom_Name_noext = Rom_Name[:-4]
 
-				log('|	Checking the file I find, extension agains my table.')
-				if Items.endswith(tuple(Extensions)):
-					
-					log('|	More vars being set.')
-					Rom_Name = Items
-					CUT_File_Name = Rom_Name[:-4]
-					Rom_Name_noext = Rom_Name[:-4]
-	
-					log('|	Couple more vars being set')
-					Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
-					TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.png'
-					
-					# extract synopsis zips if they exist
-					if ZipCount == 0:
-						if os.path.isfile( Synopsis_Zip ):
-								log('|	Extracting the synopsis files from the zip.')
-								with zipfile.ZipFile( Synopsis_Zip ) as zip:
-									if ZipCount == 0:
-										pDialog.create( "Extracting Zip","","Please wait..." )
-										Total_TXT_Files = len( zip.namelist() ) or 1
-										Devide = 100.0 / Total_TXT_Files
-										Percent = 0
-										for item in zip.namelist():
-											Percent += Devide
-											pDialog.update( int( Percent ),"Extracting [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Synopsis files.",item,"Please wait..." )
-											zip.extract( item, Synopsis_Path )
-										ZipCount = 1
-								os.remove( os.path.join( Synopsis_Zip ) )
-					else:
-						pass
-							
-					try:
-						if Emu_Name == "genesis":
-							Synopsis_File = os.path.join( Synopsis_Path, "megadrive", Rom_Name_noext + '.txt' )
-						else:
-							Synopsis_File = os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' )
-						with open( Synopsis_File ) as input:
-							Synopsis = input.read()
-							Synopsis1 = Synopsis.split('_________________________', 1)[0]
-							Synopsis2 = Synopsis.split('_________________________', 1)[1]
-							Synopsis1 = Synopsis1.strip('\n')
-							Synopsis1 = Synopsis1.replace( '&', '&amp;' )
-							Synopsis1 = Synopsis1.replace( '>', '&gt;' )
-							Synopsis1 = Synopsis1.replace( '<', '&lt;' )
-							Synopsis2 = Synopsis2.strip('\n')
-							Synopsis2 = Synopsis2.replace( '&', '&amp;' )
-							Synopsis2 = Synopsis2.replace( '>', '&gt;' )
-							Synopsis2 = Synopsis2.replace( '<', '&lt;' )
-					except:
-						Synopsis1 = "No Synopsis"
-						Synopsis2 = ""
-					# Damn internal labelling system kicks in if these are left alone.
-					if Emu_Name == "gbc" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
-					if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
-					if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
-					if Emu_Name == "nes" and Rom_Name_noext == "720": Rom_Name_noext = "720 "
-					Rom_Name_ISO = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".iso"
-					Rom_Name_BIN = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".bin"
-					Rom_Name_IMG = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".img"
-					Rom_Name_CUE = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".cue"
-					Rom_Name_CCD = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".ccd"
-					Rom_Path = os.path.join( Roms_Folder, Rom_Name )
-
-					log('|	Check if fba was found and parse the name text files to get the correct rom names for the list.')
-					if Parse_FBL_TXT == 1:
-						if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ):
-							log('|	Extracting the rom name files from the zip.')
-							with zipfile.ZipFile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ) as zip:
-								if not os.path.isdir( os.path.join( Emulator_Path, "fba\\info\\rom names" ) ): os.makedirs( os.path.join( Emulator_Path, "fba\\info\\rom names" ) )
+				log('|	Couple more vars being set')
+				Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
+				TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.png'
+				
+				# Write menu entry for quick jump
+				with open( Rom_List_Path + Emu_Name + '_jump.xml', "a") as outputmenuselectfile:
+					if not Starts_with_0:
+						if Rom_Name.startswith("0") or Rom_Name.startswith("1") or Rom_Name.startswith("2") or Rom_Name.startswith("3") or Rom_Name.startswith("4") or Rom_Name.startswith("5") or Rom_Name.startswith("6") or Rom_Name.startswith("7") or Rom_Name.startswith("8") or Rom_Name.startswith("9"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"#","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_0 = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_A:
+						if Rom_Name.startswith("A"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"A","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_A = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_B:
+						if Rom_Name.startswith("B"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"B","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_B = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_C:
+						if Rom_Name.startswith("C"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"C","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_C = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_D:
+						if Rom_Name.startswith("D"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"D","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_D = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_E:
+						if Rom_Name.startswith("E"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"E","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_E = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_F:
+						if Rom_Name.startswith("F"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"F","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_F = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_G:
+						if Rom_Name.startswith("G"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"G","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_G = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_H:
+						if Rom_Name.startswith("H"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"H","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_H = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_I:
+						if Rom_Name.startswith("I"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"I","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_I = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_J:
+						if Rom_Name.startswith("J"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"J","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_J = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_K:
+						if Rom_Name.startswith("K"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"K","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_K = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_L:
+						if Rom_Name.startswith("L"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"L","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_L = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_M:
+						if Rom_Name.startswith("M"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"M","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_M = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_N:
+						if Rom_Name.startswith("N"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"N","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_N = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_O:
+						if Rom_Name.startswith("O"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"O","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_O = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_P:
+						if Rom_Name.startswith("P"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"P","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_P = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_Q:
+						if Rom_Name.startswith("Q"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Q","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_Q = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_R:
+						if Rom_Name.startswith("R"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"R","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_R = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_S:
+						if Rom_Name.startswith("S"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"S","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_S = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_T:
+						if Rom_Name.startswith("T"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"T","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_T = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_U:
+						if Rom_Name.startswith("U"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"U","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_U = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_V:
+						if Rom_Name.startswith("V"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"V","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_V = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_W:
+						if Rom_Name.startswith("W"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"W","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_W = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_X:
+						if Rom_Name.startswith("X"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"X","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_X = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_Y:
+						if Rom_Name.startswith("Y"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Y","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_Y = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+					if not Starts_with_Z:
+						if Rom_Name.startswith("Z"):
+							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Z","SetFocus(9000," + str(JumpCountList) + ")" )
+							Starts_with_Z = 1
+							Jump_Counter = Jump_Counter + 1
+							outputmenuselectfile.write( WriteSearchFile )
+				
+				# extract synopsis zips if they exist
+				if ZipCount == 0:
+					if os.path.isfile( Synopsis_Zip ):
+							log('|	Extracting the synopsis files from the zip.')
+							with zipfile.ZipFile( Synopsis_Zip ) as zip:
 								if ZipCount == 0:
 									pDialog.create( "Extracting Zip","","Please wait..." )
 									Total_TXT_Files = len( zip.namelist() ) or 1
@@ -200,111 +325,164 @@ def manual_scan():
 									Percent = 0
 									for item in zip.namelist():
 										Percent += Devide
-										pDialog.update( int( Percent ),"Extracting final burn legends rom names","This only happens once per update","Please wait..." )
-										zip.extract( item, os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) )
+										pDialog.update( int( Percent ),"Extracting [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Synopsis files.",item,"Please wait..." )
+										zip.extract( item, Synopsis_Path )
 									ZipCount = 1
-							os.remove( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" )
-						if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt" ):
-							with open( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt", 'r') as txt:
-								FBA_Rom_Name = txt.readline()[:-2]
-								Write_CUT_File = 1
-						else:
-							if Rom_Name == "isgsm.zip":
-								Write_CUT_File = 0
-							elif Rom_Name == "neogeo.zip":
-								Write_CUT_File = 0
-							elif Rom_Name == "nmk004.zip":
-								Write_CUT_File = 0
-							elif Rom_Name == "pgm.zip":
-								Write_CUT_File = 0
-							else:
-								FBA_Rom_Name = Rom_Name_noext
-								Write_CUT_File = 1
-							
-					log('|	Check and parse the directory for iso files.')
-					if Parse_ISO_File == 1:
-						if Items.endswith( '.iso' ):
-							Rom_Path = Rom_Name_ISO
-							Write_CUT_File = 1
-						else:
-							Write_CUT_File = 0	
-							
-					log('|	Check and parse the directory for bin/iso/img files.')
-					if Parse_ISO_BIN_IMG_File == 1:
-						if Items.endswith( '.bin' ):
-							Rom_Path = Rom_Name_BIN
-							Write_CUT_File = 1
-						elif Items.endswith( '.img' ):
-							Rom_Path = Rom_Name_IMG
-							Write_CUT_File = 1
-						elif Items.endswith( '.iso' ):
-							Rom_Path = Rom_Name_ISO
-							Write_CUT_File = 1
-						else:
-							Write_CUT_File = 0
+							os.remove( os.path.join( Synopsis_Zip ) )
+				else:
+					pass
+						
+				try:
+					if Emu_Name == "genesis":
+						Synopsis_File = os.path.join( Synopsis_Path, "megadrive", Rom_Name_noext + '.txt' )
+					else:
+						Synopsis_File = os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' )
+					with open( Synopsis_File ) as input:
+						Synopsis = input.read()
+						Synopsis1 = Synopsis.split('_________________________', 1)[0]
+						Synopsis2 = Synopsis.split('_________________________', 1)[1]
+						Synopsis1 = Synopsis1.strip('\n')
+						Synopsis1 = Synopsis1.replace( '&', '&amp;' )
+						Synopsis1 = Synopsis1.replace( '>', '&gt;' )
+						Synopsis1 = Synopsis1.replace( '<', '&lt;' )
+						Synopsis2 = Synopsis2.strip('\n')
+						Synopsis2 = Synopsis2.replace( '&', '&amp;' )
+						Synopsis2 = Synopsis2.replace( '>', '&gt;' )
+						Synopsis2 = Synopsis2.replace( '<', '&lt;' )
+				except:
+					Synopsis1 = "No Synopsis"
+					Synopsis2 = ""
+				# Damn internal labelling system kicks in if these are left alone.
+				if Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
+				if Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
+				if Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
+				if Rom_Name_noext == "720": Rom_Name_noext = "720 "
+				Rom_Name_ISO = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".iso"
+				Rom_Name_BIN = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".bin"
+				Rom_Name_IMG = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".img"
+				Rom_Name_CUE = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".cue"
+				Rom_Name_CCD = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".ccd"
+				Rom_Path = os.path.join( Roms_Folder, Rom_Name )
 
-					log('|	Check and parse the directory for cue/ccd/iso files.')
-					if Parse_CUE_CCD_ISO_File == 1:
-						if Items.endswith( '.cue' ):
-							Rom_Path = Rom_Name_CUE
+				log('|	Check if fba was found and parse the name text files to get the correct rom names for the list.')
+				if Parse_FBL_TXT == 1:
+					if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ):
+						log('|	Extracting the rom name files from the zip.')
+						with zipfile.ZipFile( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ) as zip:
+							if not os.path.isdir( os.path.join( Emulator_Path, "fba\\info\\rom names" ) ): os.makedirs( os.path.join( Emulator_Path, "fba\\info\\rom names" ) )
+							if ZipCount == 0:
+								pDialog.create( "Extracting Zip","","Please wait..." )
+								Total_TXT_Files = len( zip.namelist() ) or 1
+								Devide = 100.0 / Total_TXT_Files
+								Percent = 0
+								for item in zip.namelist():
+									Percent += Devide
+									pDialog.update( int( Percent ),"Extracting final burn legends rom names","This only happens once per update","Please wait..." )
+									zip.extract( item, os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) )
+								ZipCount = 1
+						os.remove( os.path.join( Emulator_Path, "fba\\info\\" ) + "FBL Rom Names.zip" )
+					if os.path.isfile( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt" ):
+						with open( os.path.join( Emulator_Path, "fba\\info\\rom names\\" ) + Rom_Name_noext + ".txt", 'r') as txt:
+							FBA_Rom_Name = txt.readline()[:-2]
 							Write_CUT_File = 1
-						elif Items.endswith( '.ccd' ):
-							Rom_Path = Rom_Name_CCD
-							Write_CUT_File = 1
-						elif Items.endswith( '.iso' ):
-							Rom_Path = Rom_Name_ISO
-							Write_CUT_File = 1
-						else:
+					else:
+						if Rom_Name == "isgsm.zip":
 							Write_CUT_File = 0
-					
-					log('|	Check to see if vars are the value I need and create a new dialog.')
-					if CountList == 1 and Found_Roms == 0: pDialog.create( "Scanning for Roms","","Please wait..." )
-					
-					log('|	Setting a var again :/')
-					Found_Roms = 1
-					
-					log('|	Check to see if _tbns folder exists and if it doesnt create it.')
-					if not os.path.isdir( os.path.join( TBN_Path, Emu_Name ) ): os.makedirs( os.path.join( TBN_Path, Emu_Name ) )
-					
-					log('|	Check to see if the output directory exists and remove it.')
-					if CountList == 1 and os.path.isdir( Output_Path ):
-						pDialog.update( 0,"","Doing house cleaning" )
-						shutil.rmtree( Output_Path )# remove old cut files
-					
-					#log('|	Create a new output directory.')
-					#if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
-					
-					log('|	Show the progress bar progress.')
-					pDialog.update( ( CountList * 100 ) / len( os.listdir( Roms_Folder ) ),"Processing Roms",Rom_Name_noext,"Please wait..." )
-					
-					if Write_CUT_File:
-						log('|	Create the rest of the layout xml file.')
-						CUTCount = CUTCount + 1
-						with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
-							if Emu_Name == "fba":
-								WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
-							elif Emu_Name == "mame":
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
-							else:
-								WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
-							outputmenufile.write( WriteMenuFile )
+						elif Rom_Name == "neogeo.zip":
+							Write_CUT_File = 0
+						elif Rom_Name == "nmk004.zip":
+							Write_CUT_File = 0
+						elif Rom_Name == "pgm.zip":
+							Write_CUT_File = 0
+						else:
+							FBA_Rom_Name = Rom_Name_noext
+							Write_CUT_File = 1
+						
+				log('|	Check and parse the directory for iso files.')
+				if Parse_ISO_File == 1:
+					if Items.endswith( '.iso' ):
+						Rom_Path = Rom_Name_ISO
+						Write_CUT_File = 1
+					else:
+						Write_CUT_File = 0	
+						
+				log('|	Check and parse the directory for bin/iso/img files.')
+				if Parse_ISO_BIN_IMG_File == 1:
+					if Items.endswith( '.bin' ):
+						Rom_Path = Rom_Name_BIN
+						Write_CUT_File = 1
+					elif Items.endswith( '.img' ):
+						Rom_Path = Rom_Name_IMG
+						Write_CUT_File = 1
+					elif Items.endswith( '.iso' ):
+						Rom_Path = Rom_Name_ISO
+						Write_CUT_File = 1
+					else:
+						Write_CUT_File = 0
 
-						# log('|	Create the cut file for this rom.')
-						# with open(Output_Path + CUT_File_Name + '.cut', "wb") as outputfile:
-							# if Emu_Name == "fba":
-								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							# elif Emu_Name == "atarijaguar":
-								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							# elif Emu_Name == "atarijaguarcd":
-								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							# elif Emu_Name == "mame":
-								# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
-							# else:
-								# WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
-							# outputfile.write( WriteFile )
-					
-					log('|	Add 1 to the Countlist.')
-					CountList = CountList + 1
+				log('|	Check and parse the directory for cue/ccd/iso files.')
+				if Parse_CUE_CCD_ISO_File == 1:
+					if Items.endswith( '.cue' ):
+						Rom_Path = Rom_Name_CUE
+						Write_CUT_File = 1
+					elif Items.endswith( '.ccd' ):
+						Rom_Path = Rom_Name_CCD
+						Write_CUT_File = 1
+					elif Items.endswith( '.iso' ):
+						Rom_Path = Rom_Name_ISO
+						Write_CUT_File = 1
+					else:
+						Write_CUT_File = 0
+				
+				log('|	Check to see if vars are the value I need and create a new dialog.')
+				if CountList == 1 and Found_Roms == 0: pDialog.create( "Scanning for Roms","","Please wait..." )
+				
+				log('|	Setting a var again :/')
+				Found_Roms = 1
+				
+				log('|	Check to see if _tbns folder exists and if it doesnt create it.')
+				if not os.path.isdir( os.path.join( TBN_Path, Emu_Name ) ): os.makedirs( os.path.join( TBN_Path, Emu_Name ) )
+				
+				log('|	Check to see if the output directory exists and remove it.')
+				if CountList == 1 and os.path.isdir( Output_Path ):
+					pDialog.update( 0,"","Doing house cleaning" )
+					shutil.rmtree( Output_Path )# remove old cut files
+				
+				#log('|	Create a new output directory.')
+				#if not os.path.isdir( Output_Path ): os.makedirs( Output_Path )
+				
+				log('|	Show the progress bar progress.')
+				pDialog.update( ( CountList * 100 ) / len( os.listdir( Roms_Folder ) ),"Processing Roms",Rom_Name_noext,"Please wait..." )
+				
+				if Write_CUT_File:
+					log('|	Create the rest of the layout xml file.')
+					CUTCount = CUTCount + 1
+					with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
+						if Emu_Name == "fba":
+							WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
+						elif Emu_Name == "mame":
+							WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + CUT_File_Name + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
+						else:
+							WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
+						outputmenufile.write( WriteMenuFile )
+
+					# log('|	Create the cut file for this rom.')
+					# with open(Output_Path + CUT_File_Name + '.cut', "wb") as outputfile:
+						# if Emu_Name == "fba":
+							# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+						# elif Emu_Name == "atarijaguar":
+							# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+						# elif Emu_Name == "atarijaguarcd":
+							# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+						# elif Emu_Name == "mame":
+							# WriteFile = CUT_File_Layout % ( Emu_XBE,CUT_File_Name )
+						# else:
+							# WriteFile = CUT_File_Layout % ( Emu_XBE,Rom_Path )
+						# outputfile.write( WriteFile )
+				
+				log('|	Add 1 to the Countlist.')
+				CountList = CountList + 1
+				JumpCountList = JumpCountList + 1
 				
 		xbmc.executebuiltin('Skin.SetString('+ Emu_Name +'_games,'+ str( CUTCount ) + ')')	
 	else:
@@ -344,6 +522,9 @@ def full_scan():
 		
 			log('|	Set the Countlist variable.')
 			CountList = 1
+			JumpCountList = 0
+			Jump_Counter = 8000
+			Starts_with_0 = 0;	Starts_with_A = 0;	Starts_with_B = 0;	Starts_with_C = 0;	Starts_with_D = 0;	Starts_with_E = 0;	Starts_with_F = 0;	Starts_with_G = 0;	Starts_with_H = 0;	Starts_with_I = 0;	Starts_with_J = 0;	Starts_with_K = 0;	Starts_with_L = 0;	Starts_with_M = 0;	Starts_with_N = 0;	Starts_with_O = 0;	Starts_with_P = 0;	Starts_with_Q = 0;	Starts_with_R = 0;	Starts_with_S = 0;	Starts_with_T = 0;	Starts_with_U = 0;	Starts_with_V = 0;	Starts_with_W = 0;	Starts_with_X = 0;	Starts_with_Y = 0;	Starts_with_Z = 0;
 			CUTCount = 0
 			ZipCount = 0
 			Parse_CUE_CCD_ISO_File = 0
@@ -362,6 +543,7 @@ def full_scan():
 				
 				log('|	Check for previous layout xml and if it exists remove it.')
 				if os.path.isfile( Rom_List_Path + Emu_Name + '.xml' ): os.remove( Rom_List_Path + Emu_Name + '.xml' )
+				if os.path.isfile( Rom_List_Path + Emu_Name + '_jump.xml' ): os.remove( Rom_List_Path + Emu_Name + '_jump.xml' )
 				if not os.path.isdir( Rom_List_Path ): os.makedirs( Rom_List_Path )
 				
 				log('|	Write new layout xml header.')
@@ -408,6 +590,15 @@ def full_scan():
 					
 						log('|	Listing the content of the roms folder for parsing.')
 						for Items in sorted( os.listdir( Roms_Folder ) ):
+							log('|	Checking filenames case and not leading with capital renaming it to do so.')
+							Items_Full_Path = os.path.join( Roms_Folder,Items )
+							if os.path.isfile( Items_Full_Path ):
+								if Items_Full_Path != os.path.join( Roms_Folder,Items.capitalize() ):
+									tempname = Items_Full_Path[:-1]
+									if not os.path.isfile( tempname ):
+										os.rename( Items_Full_Path,  tempname )
+										os.rename( tempname,  os.path.join( Roms_Folder,Items.capitalize() ) )
+
 						
 							log('|	Checking the file I find, extension agains my table.')
 							if Items.endswith(tuple(Extensions)):
@@ -420,6 +611,171 @@ def full_scan():
 								log('|	Couple more vars being set')
 								Output_Path = os.path.join( CUTFile_Path, Emu_Name ) + '\\'
 								TBN_File = os.path.join( TBN_Path, Emu_Name, CUT_File_Name ) + '.png'
+				
+								# Write menu entry for quick jump
+								with open( Rom_List_Path + Emu_Name + '_jump.xml', "a") as outputmenuselectfile:
+									if not Starts_with_0:
+										if Rom_Name.startswith("0") or Rom_Name.startswith("1") or Rom_Name.startswith("2") or Rom_Name.startswith("3") or Rom_Name.startswith("4") or Rom_Name.startswith("5") or Rom_Name.startswith("6") or Rom_Name.startswith("7") or Rom_Name.startswith("8") or Rom_Name.startswith("9"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"#","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_0 = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_A:
+										if Rom_Name.startswith("A"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"A","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_A = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_B:
+										if Rom_Name.startswith("B"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"B","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_B = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_C:
+										if Rom_Name.startswith("C"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"C","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_C = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_D:
+										if Rom_Name.startswith("D"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"D","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_D = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_E:
+										if Rom_Name.startswith("E"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"E","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_E = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_F:
+										if Rom_Name.startswith("F"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"F","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_F = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_G:
+										if Rom_Name.startswith("G"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"G","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_G = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_H:
+										if Rom_Name.startswith("H"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"H","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_H = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_I:
+										if Rom_Name.startswith("I"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"I","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_I = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_J:
+										if Rom_Name.startswith("J"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"J","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_J = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_K:
+										if Rom_Name.startswith("K"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"K","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_K = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_L:
+										if Rom_Name.startswith("L"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"L","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_L = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_M:
+										if Rom_Name.startswith("M"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"M","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_M = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_N:
+										if Rom_Name.startswith("N"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"N","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_N = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_O:
+										if Rom_Name.startswith("O"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"O","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_O = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_P:
+										if Rom_Name.startswith("P"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"P","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_P = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_Q:
+										if Rom_Name.startswith("Q"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Q","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_Q = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_R:
+										if Rom_Name.startswith("R"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"R","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_R = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_S:
+										if Rom_Name.startswith("S"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"S","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_S = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_T:
+										if Rom_Name.startswith("T"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"T","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_T = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_U:
+										if Rom_Name.startswith("U"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"U","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_U = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_V:
+										if Rom_Name.startswith("V"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"V","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_V = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_W:
+										if Rom_Name.startswith("W"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"W","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_W = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_X:
+										if Rom_Name.startswith("X"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"X","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_X = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_Y:
+										if Rom_Name.startswith("Y"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Y","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_Y = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
+									if not Starts_with_Z:
+										if Rom_Name.startswith("Z"):
+											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Z","SetFocus(9000," + str(JumpCountList) + ")" )
+											Starts_with_Z = 1
+											Jump_Counter = Jump_Counter + 1
+											outputmenuselectfile.write( WriteSearchFile )
 								
 								# extract synopsis zips if they exist
 								if ZipCount == 0:
@@ -461,10 +817,10 @@ def full_scan():
 									Synopsis1 = "No Synopsis"
 									Synopsis2 = ""
 								# Damn internal labelling system kicks in if these are left alone.
-								if Emu_Name == "gbc" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
-								if Emu_Name == "nes" and Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
-								if Emu_Name == "nes" and Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
-								if Emu_Name == "nes" and Rom_Name_noext == "720": Rom_Name_noext = "720 "
+								if Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
+								if Rom_Name_noext == "1942": Rom_Name_noext = "1942 "
+								if Rom_Name_noext == "1943": Rom_Name_noext = "1943 "
+								if Rom_Name_noext == "720": Rom_Name_noext = "720 "
 								Rom_Name_ISO = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".iso"
 								Rom_Name_BIN = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".bin"
 								Rom_Name_IMG = os.path.join( Roms_Folder, Rom_Name[:-4] ) + ".img"
@@ -590,6 +946,7 @@ def full_scan():
 								
 								log('|	Add 1 to the Countlist.')
 								CountList = CountList + 1
+								JumpCountList = JumpCountList + 1
 
 						xbmc.executebuiltin('Skin.SetString('+ Emu_Name +'_games,'+ str( CUTCount ) + ')')	
 					else:
@@ -631,6 +988,14 @@ menu_entry			= '\n\
 		<thumb>%s</thumb>\n\
 	</item>'
 menu_entry_footer	= '\n</content>'
+
+search_menu_entry			= '<control type="button" id="%s">\n\
+	<label>[UPPERCASE]jump to letter[/UPPERCASE]</label>\n\
+	<label2>&lt; [UPPERCASE]%s[/UPPERCASE] &gt;</label2>\n\
+	<include>MenuButtonCommonValues</include>\n\
+	<onclick>%s</onclick>\n\
+</control>\n\
+'
 
 logging = 0 # Setting this to 1 will spam the living hell out of your log file if you run the Auto mode, you have been warned
 

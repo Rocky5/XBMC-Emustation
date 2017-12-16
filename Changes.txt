@@ -1,3 +1,12 @@
+16/12/2017
+	1) Ported over Kodis fix for SetFocus(), it now focuses from the proper offset instead of the current page.
+	2) Added a new script "random_select.py" this is used to select a random item in list.
+	3) New Bottom Button images for menus.
+	4) Updated a few scripts.
+	5) Added Jump to letter support for emulators.
+		( This was added prior but due to the setfocus issues I had put it on hold, you will also need to rescan your roms to get this feature. )
+
+
 10/12/2017
 	1) Fixed and updated the direct launch emulator script, forgot to update it when I changed the home menu.
 	2) Added zxspectrum synopsis.

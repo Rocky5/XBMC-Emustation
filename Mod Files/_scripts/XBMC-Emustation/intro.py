@@ -1,3 +1,8 @@
+'''
+	Script by Rocky5
+	Used to play a selected intro video.
+'''
+
 import time, xbmc, xbmcgui
 
 ## Updated by Rocky5 to add dynamic extensions and other stuff

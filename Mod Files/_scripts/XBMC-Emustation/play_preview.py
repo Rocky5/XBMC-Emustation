@@ -1,3 +1,8 @@
+'''
+	Script by Rocky5
+	Used to find and play a preview video for the selected control ID.
+'''
+
 import glob, os, xbmc, time
 ## Play preview video if it exists
 if str( xbmc.getCondVisibility( 'Skin.String(Custom_Preview_Path)' ) ) == "1":

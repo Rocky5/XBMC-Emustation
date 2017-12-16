@@ -3,8 +3,7 @@
 	Used to create a playlist from a specific directory.
 
 '''
-				
-				
+
 import glob, os, xbmc, xbmcgui
 dialog	= xbmcgui.Dialog()
 

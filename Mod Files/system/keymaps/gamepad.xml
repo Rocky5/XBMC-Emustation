@@ -65,6 +65,8 @@
 		<MyPrograms>
 				<gamepad>
 						<Y>SetFocus(9999)</Y>
+						<X>RunScript(Special://XBMC/_scripts/XBMC-Emustation/random_select.py)</X>
+						<Black>SetFocus(9998)</Black>
 				</gamepad>
 		</MyPrograms>
 		<MyFiles>

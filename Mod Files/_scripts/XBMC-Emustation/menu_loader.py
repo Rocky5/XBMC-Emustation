@@ -40,10 +40,7 @@ Custom_Layout					= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel +
 Custom_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/synopsis_layout.xml' )
 Custom_Thumb_Layout				= xbmc.translatePath( 'special://xbmc/_layouts/' + MenuLabel + '/' + ThemeType + '/thumb_layout.xml' )
 
-if MenuLabel == "apps":	XBE_Files = "1"
-if MenuLabel == "xbox": XBE_Files = "1"
-if MenuLabel == "homebrew": XBE_Files = "1"
-if MenuLabel == "ports": XBE_Files = "1"
+if MenuLabel == "apps" or MenuLabel == "xbox" or MenuLabel == "homebrew" or MenuLabel == "ports": XBE_Files = "1"
 
 xbmc.executebuiltin('Skin.SetString(emuname,' + MenuLabel + ')')
 	
@@ -85,6 +82,44 @@ Header_Data_EMU					= '<window id="1">\n\
 		</control>\n\
 	'
 Footer_Data_EMU					= '\n\
+	</control>\n\
+	<control type="group" id="jump section">\n\
+		<visible allowhiddenfocus="true">!Control.HasFocus(9999) + !Control.HasFocus(9000) + !Control.HasFocus(9100)</visible>\n\
+		<posy>90</posy>\n\
+		<control type="image">\n\
+			<description>background image</description>\n\
+			<posx>320</posx>\n\
+			<posy>108</posy>\n\
+			<width>640</width>\n\
+			<height>250</height>\n\
+			<texture border="20,20,20,20">menu_back.png</texture>\n\
+		</control>\n\
+		<control type="label">\n\
+			<description>heading label</description>\n\
+			<posx>320</posx>\n\
+			<posy>130</posy>\n\
+			<width>640</width>\n\
+			<height>50</height>\n\
+			<align>center</align>\n\
+			<aligny>center</aligny>\n\
+			<font>size_50</font>\n\
+			<label>$LOCALIZE[33063]</label>\n\
+			<textcolor>menu_header_label</textcolor>\n\
+		</control>\n\
+		<control type="grouplist" id="9998">\n\
+			<posx>320</posx>\n\
+			<posy>201</posy>\n\
+			<width>640</width>\n\
+			<height>50</height>\n\
+			<onleft>9998</onleft>\n\
+			<onright>9998</onright>\n\
+			<onup>-</onup>\n\
+			<ondown>-</ondown>\n\
+			<itemgap>-1</itemgap>\n\
+			<scrolltime>0</scrolltime>\n\
+			<orientation>horizontal</orientation>\n\
+	<!-- jumpcode -->\n\
+	</control>\n\
 	</control>\n\
 	</controls>\n\
 	</window>'
@@ -183,6 +218,12 @@ if XBE_Files == "0":
 						if '</focusedlayout>' in line:
 							line = line.replace(line,line+countfile)
 						print line,
+				with open( Rom_List_Path + MenuLabel + '_jump.xml' ) as countfile:
+					countfile = countfile.read()
+					for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
+						if '<!-- jumpcode -->' in line:
+							line = line.replace(line,line+countfile)
+						print line,
 					countfile.close()
 			except:
 				pass
@@ -203,6 +244,12 @@ if XBE_Files == "0":
 					countfile = countfile.read()
 					for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
 						if '</focusedlayout>' in line:
+							line = line.replace(line,line+countfile)
+						print line,
+				with open( Rom_List_Path + MenuLabel + '_jump.xml' ) as countfile:
+					countfile = countfile.read()
+					for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
+						if '<!-- jumpcode -->' in line:
 							line = line.replace(line,line+countfile)
 						print line,
 					countfile.close()
