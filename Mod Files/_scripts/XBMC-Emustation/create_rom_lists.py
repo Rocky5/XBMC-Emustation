@@ -157,157 +157,157 @@ def manual_scan():
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_A:
-						if Rom_Name.startswith("A"):
+						if Rom_Name.startswith("A") or Rom_Name.startswith("a"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"A","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_A = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_B:
-						if Rom_Name.startswith("B"):
+						if Rom_Name.startswith("B") or Rom_Name.startswith("b"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"B","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_B = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_C:
-						if Rom_Name.startswith("C"):
+						if Rom_Name.startswith("C") or Rom_Name.startswith("c"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"C","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_C = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_D:
-						if Rom_Name.startswith("D"):
+						if Rom_Name.startswith("D") or Rom_Name.startswith("d"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"D","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_D = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_E:
-						if Rom_Name.startswith("E"):
+						if Rom_Name.startswith("E") or Rom_Name.startswith("e"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"E","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_E = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_F:
-						if Rom_Name.startswith("F"):
+						if Rom_Name.startswith("F") or Rom_Name.startswith("f"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"F","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_F = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_G:
-						if Rom_Name.startswith("G"):
+						if Rom_Name.startswith("G") or Rom_Name.startswith("g"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"G","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_G = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_H:
-						if Rom_Name.startswith("H"):
+						if Rom_Name.startswith("H") or Rom_Name.startswith("h"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"H","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_H = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_I:
-						if Rom_Name.startswith("I"):
+						if Rom_Name.startswith("I") or Rom_Name.startswith("i"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"I","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_I = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_J:
-						if Rom_Name.startswith("J"):
+						if Rom_Name.startswith("J") or Rom_Name.startswith("j"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"J","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_J = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_K:
-						if Rom_Name.startswith("K"):
+						if Rom_Name.startswith("K") or Rom_Name.startswith("k"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"K","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_K = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_L:
-						if Rom_Name.startswith("L"):
+						if Rom_Name.startswith("L") or Rom_Name.startswith("l"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"L","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_L = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_M:
-						if Rom_Name.startswith("M"):
+						if Rom_Name.startswith("M") or Rom_Name.startswith("m"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"M","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_M = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_N:
-						if Rom_Name.startswith("N"):
+						if Rom_Name.startswith("N") or Rom_Name.startswith("n"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"N","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_N = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_O:
-						if Rom_Name.startswith("O"):
+						if Rom_Name.startswith("O") or Rom_Name.startswith("o"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"O","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_O = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_P:
-						if Rom_Name.startswith("P"):
+						if Rom_Name.startswith("P") or Rom_Name.startswith("p"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"P","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_P = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_Q:
-						if Rom_Name.startswith("Q"):
+						if Rom_Name.startswith("Q") or Rom_Name.startswith("q"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Q","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_Q = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_R:
-						if Rom_Name.startswith("R"):
+						if Rom_Name.startswith("R") or Rom_Name.startswith("r"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"R","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_R = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_S:
-						if Rom_Name.startswith("S"):
+						if Rom_Name.startswith("S") or Rom_Name.startswith("s"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"S","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_S = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_T:
-						if Rom_Name.startswith("T"):
+						if Rom_Name.startswith("T") or Rom_Name.startswith("t"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"T","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_T = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_U:
-						if Rom_Name.startswith("U"):
+						if Rom_Name.startswith("U") or Rom_Name.startswith("u"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"U","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_U = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_V:
-						if Rom_Name.startswith("V"):
+						if Rom_Name.startswith("V") or Rom_Name.startswith("v"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"V","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_V = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_W:
-						if Rom_Name.startswith("W"):
+						if Rom_Name.startswith("W") or Rom_Name.startswith("w"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"W","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_W = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_X:
-						if Rom_Name.startswith("X"):
+						if Rom_Name.startswith("X") or Rom_Name.startswith("x"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"X","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_X = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_Y:
-						if Rom_Name.startswith("Y"):
+						if Rom_Name.startswith("Y") or Rom_Name.startswith("y"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Y","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_Y = 1
 							Jump_Counter = Jump_Counter + 1
 							outputmenuselectfile.write( WriteSearchFile )
 					if not Starts_with_Z:
-						if Rom_Name.startswith("Z"):
+						if Rom_Name.startswith("Z") or Rom_Name.startswith("z"):
 							WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Z","SetFocus(9000," + str(JumpCountList) + ")" )
 							Starts_with_Z = 1
 							Jump_Counter = Jump_Counter + 1
@@ -621,157 +621,157 @@ def full_scan():
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_A:
-										if Rom_Name.startswith("A"):
+										if Rom_Name.startswith("A") or Rom_Name.startswith("a"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"A","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_A = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_B:
-										if Rom_Name.startswith("B"):
+										if Rom_Name.startswith("B") or Rom_Name.startswith("b"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"B","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_B = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_C:
-										if Rom_Name.startswith("C"):
+										if Rom_Name.startswith("C") or Rom_Name.startswith("c"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"C","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_C = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_D:
-										if Rom_Name.startswith("D"):
+										if Rom_Name.startswith("D") or Rom_Name.startswith("d"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"D","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_D = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_E:
-										if Rom_Name.startswith("E"):
+										if Rom_Name.startswith("E") or Rom_Name.startswith("e"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"E","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_E = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_F:
-										if Rom_Name.startswith("F"):
+										if Rom_Name.startswith("F") or Rom_Name.startswith("f"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"F","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_F = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_G:
-										if Rom_Name.startswith("G"):
+										if Rom_Name.startswith("G") or Rom_Name.startswith("g"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"G","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_G = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_H:
-										if Rom_Name.startswith("H"):
+										if Rom_Name.startswith("H") or Rom_Name.startswith("h"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"H","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_H = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_I:
-										if Rom_Name.startswith("I"):
+										if Rom_Name.startswith("I") or Rom_Name.startswith("i"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"I","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_I = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_J:
-										if Rom_Name.startswith("J"):
+										if Rom_Name.startswith("J") or Rom_Name.startswith("j"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"J","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_J = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_K:
-										if Rom_Name.startswith("K"):
+										if Rom_Name.startswith("K") or Rom_Name.startswith("k"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"K","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_K = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_L:
-										if Rom_Name.startswith("L"):
+										if Rom_Name.startswith("L") or Rom_Name.startswith("l"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"L","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_L = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_M:
-										if Rom_Name.startswith("M"):
+										if Rom_Name.startswith("M") or Rom_Name.startswith("m"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"M","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_M = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_N:
-										if Rom_Name.startswith("N"):
+										if Rom_Name.startswith("N") or Rom_Name.startswith("n"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"N","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_N = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_O:
-										if Rom_Name.startswith("O"):
+										if Rom_Name.startswith("O") or Rom_Name.startswith("o"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"O","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_O = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_P:
-										if Rom_Name.startswith("P"):
+										if Rom_Name.startswith("P") or Rom_Name.startswith("p"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"P","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_P = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_Q:
-										if Rom_Name.startswith("Q"):
+										if Rom_Name.startswith("Q") or Rom_Name.startswith("q"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Q","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_Q = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_R:
-										if Rom_Name.startswith("R"):
+										if Rom_Name.startswith("R") or Rom_Name.startswith("r"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"R","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_R = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_S:
-										if Rom_Name.startswith("S"):
+										if Rom_Name.startswith("S") or Rom_Name.startswith("s"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"S","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_S = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_T:
-										if Rom_Name.startswith("T"):
+										if Rom_Name.startswith("T") or Rom_Name.startswith("t"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"T","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_T = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_U:
-										if Rom_Name.startswith("U"):
+										if Rom_Name.startswith("U") or Rom_Name.startswith("u"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"U","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_U = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_V:
-										if Rom_Name.startswith("V"):
+										if Rom_Name.startswith("V") or Rom_Name.startswith("v"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"V","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_V = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_W:
-										if Rom_Name.startswith("W"):
+										if Rom_Name.startswith("W") or Rom_Name.startswith("w"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"W","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_W = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_X:
-										if Rom_Name.startswith("X"):
+										if Rom_Name.startswith("X") or Rom_Name.startswith("x"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"X","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_X = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_Y:
-										if Rom_Name.startswith("Y"):
+										if Rom_Name.startswith("Y") or Rom_Name.startswith("y"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Y","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_Y = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
 									if not Starts_with_Z:
-										if Rom_Name.startswith("Z"):
+										if Rom_Name.startswith("Z") or Rom_Name.startswith("z"):
 											WriteSearchFile = search_menu_entry % ( str(Jump_Counter),"Z","SetFocus(9000," + str(JumpCountList) + ")" )
 											Starts_with_Z = 1
 											Jump_Counter = Jump_Counter + 1
