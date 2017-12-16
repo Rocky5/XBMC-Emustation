@@ -130,11 +130,11 @@ def manual_scan():
 			log('|	Checking filenames case and not leading with capital renaming it to do so.')
 			Items_Full_Path = os.path.join( Roms_Folder,Items )
 			if os.path.isfile( Items_Full_Path ):
-				if Items_Full_Path != os.path.join( Roms_Folder,Items.capitalize() ):
+				if Items_Full_Path != os.path.join( Roms_Folder,Items.lower() ):
 					tempname = Items_Full_Path[:-1]
 					if not os.path.isfile( tempname ):
 						os.rename( Items_Full_Path,  tempname )
-						os.rename( tempname,  os.path.join( Roms_Folder,Items.capitalize() ) )
+						os.rename( tempname,  os.path.join( Roms_Folder,Items.lower() ) )
 			
 			log('|	Checking the file I find, extension agains my table.')
 			if Items.endswith(tuple(Extensions)):
@@ -593,11 +593,11 @@ def full_scan():
 							log('|	Checking filenames case and not leading with capital renaming it to do so.')
 							Items_Full_Path = os.path.join( Roms_Folder,Items )
 							if os.path.isfile( Items_Full_Path ):
-								if Items_Full_Path != os.path.join( Roms_Folder,Items.capitalize() ):
+								if Items_Full_Path != os.path.join( Roms_Folder,Items.lower() ):
 									tempname = Items_Full_Path[:-1]
 									if not os.path.isfile( tempname ):
 										os.rename( Items_Full_Path,  tempname )
-										os.rename( tempname,  os.path.join( Roms_Folder,Items.capitalize() ) )
+										os.rename( tempname,  os.path.join( Roms_Folder,Items.lower() ) )
 
 						
 							log('|	Checking the file I find, extension agains my table.')
