@@ -74,14 +74,8 @@
 		<aspectratio>stretch</aspectratio>
 		<texture background="true">layouts/art/alt_carousel_bar.png</texture>
 	</control>
-	<control type="image">
-		<posx>0</posx>
-		<posy>635</posy>
-		<width>1280</width>
-		<height>85</height>
-		<aspectratio>stretch</aspectratio>
-		<texture background="true">layouts/art/system_help.png</texture>
-	</control>
+	<include>ContextButtonsHomeHorizontal</include>
+	<!-- <include>ContextButtonsHomeVertical</include> -->
 	<!-- default labels -->
 	<control type="label">
 		<include>CarouselAltLabelCommonValues</include>

@@ -81,14 +81,8 @@
 								<colordiffuse>carousel_bar</colordiffuse>
 								<texture background="true">layouts/art/carousel_bar.png</texture>
 						</control>
-						<control type="image">
-								<posx>0</posx>
-								<posy>635</posy>
-								<width>1280</width>
-								<height>85</height>
-								<aspectratio>stretch</aspectratio>
-								<texture background="true">layouts/art/system_help.png</texture>
-						</control>
+						<include>ContextButtonsHomeHorizontal</include>
+						<!-- <include>ContextButtonsHomeVertical</include> -->
 						<!-- default labels -->
 						<control type="label">
 								<include>CarouselLabelCommonValues</include>
@@ -236,19 +230,19 @@
 												<visible>Skin.HasSetting(atari800_exists)</visible>
 										</item>
 										<item id="10">
-												<label>Direct Launch Only $INFO[Skin.String(atarijaguar_games)]</label>
+												<label>Direct Launch Only: $INFO[Skin.String(atarijaguar_games)]</label>
 												<label2>atarijaguar</label2>
 												<onclick>SetFocus(9100)</onclick>
-												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py,1)</onclick>
 												<icon>layouts/atarijaguar/art/system_art.png</icon>
 												<thumb>layouts/atarijaguar/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarijaguar_exists)</visible>
 										</item>
 										<item id="11">
-												<label>Direct Launch Only $INFO[Skin.String(atarijaguarcd_games)]</label>
+												<label>Direct Launch Only: $INFO[Skin.String(atarijaguarcd_games)]</label>
 												<label2>atarijaguarcd</label2>
 												<onclick>SetFocus(9100)</onclick>
-												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py,1)</onclick>
 												<icon>layouts/atarijaguarcd/art/system_art.png</icon>
 												<thumb>layouts/atarijaguarcd/art/logo.png</thumb>
 												<visible>Skin.HasSetting(atarijaguarcd_exists)</visible>
@@ -425,10 +419,10 @@
 												<visible>Skin.HasSetting(intellivision_exists)</visible>
 										</item>
 										<item id="31">
-												<label>$INFO[Skin.String(mame_games)]</label>
+												<label>Direct Launch Only: $INFO[Skin.String(mame_games)]</label>
 												<label2>mame</label2>
 												<onclick>SetFocus(9100)</onclick>
-												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+												<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/direct_launch_emulator.py,1)</onclick>
 												<icon>layouts/mame/art/system_art.png</icon>
 												<thumb>layouts/mame/art/logo.png</thumb>
 												<visible>Skin.HasSetting(mame_exists)</visible>
@@ -749,5 +743,6 @@
 								</content>
 						</control>
 				</control>
+				<include>BusyOverlay</include>
 		</controls>
 </window>

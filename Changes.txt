@@ -1,3 +1,22 @@
+31/12/2017
+	0) Happy New Year!
+	1) Updated the context buttons at the bottom of the screen, they are now labels and images instead of just one image.
+	2) Added new colours for the themes, as the above labels can be coloured.
+	3) All layouts updated to reflect the above.
+	4) Redone the "create_rom_lists.py" to be more easier to update and optimised it.
+	5) Updated "create_rom_lists.py" to allow placement of fba and mame roms in the _roms\fba or _roms\mame directories.
+		( move your fba roms to _roms\fba and manually scan fba to update your rom_list.xml file  )
+	6) Updated "scanner.py" to not skip the creation of fba and mame directories in the _roms folder
+	7) Updated "direct_launch_emulator.py" to direct launch the mame emulator and not ask for permission.
+		( I tried to add command line launching but cant make heads or tails of the source, I assume it the mame source I edit? )
+	8) Updated some of the synopsis files names to match the ResX roms sets
+	9) Added synopsis for game gear, master system and sg-1000.
+	10) Fixed the busy overlay when selecting a system on the home screen.
+	11) Disables the splash now when you enable the intro.
+	12) Now when scanning FBL roms in it will parse the synopsis information thats included with the FBL emulators.
+	13) New layouts for FBA section.
+
+
 16/12/2017
 	1) Ported over Kodis fix for SetFocus(), it now focuses from the proper offset instead of the current page.
 	2) Added a new script "random_select.py" this is used to select a random item in list.

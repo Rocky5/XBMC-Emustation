@@ -24,6 +24,15 @@
 								<label>$LOCALIZE[32000]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
+						<control type="label">
+								<posx>320</posx>
+								<posy>480</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<label>$LOCALIZE[39999]</label>
+								<include>MenuFolderButtonCommonValues</include>
+						</control>
 						<!-- Main Menu -->
 						<control type="grouplist" id="9000">
 								<posx>320</posx>

@@ -39,14 +39,8 @@
 		<animation effect="fade" start="100" end="0" time="100">WindowClose</animation>
 		<visible>Control.HasFocus(9100)</visible>
 	</control>
-	<control type="image">
-		<posx>0</posx>
-		<posy>635</posy>
-		<width>1280</width>
-		<height>85</height>
-		<aspectratio>stretch</aspectratio>
-		<texture background="true">layouts/art/system_help.png</texture>
-	</control>
+	<include>ContextButtonsHomeHorizontal</include>
+	<!-- <include>ContextButtonsHomeVertical</include> -->
 	<control type="group">
 		<posy>145</posy>
 		<control type="image">

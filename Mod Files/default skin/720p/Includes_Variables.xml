@@ -10,4 +10,10 @@
 				<value condition="IsEmpty(Skin.String(carbon_custom_colours))">FF067EAD</value>
 				<value condition="StringCompare(Skin.CurrentTheme,carbon) | StringCompare(Skin.CurrentTheme,carbon alt)">FF$INFO[Skin.String(carbon_custom_colours)]</value>
 		</variable>
+		<variable name="var-contextbuttonshome">
+				<value>contextbuttonshome</value>
+		</variable>
+		<variable name="var-contextbuttonslayouts">
+				<value>contextbuttonslayouts</value>
+		</variable>
 </includes>

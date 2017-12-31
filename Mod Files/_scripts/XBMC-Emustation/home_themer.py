@@ -38,6 +38,7 @@ Header_Data		= '<window id="0">\n\
 		<include>CommonBackground</include>\n\
 	'
 Footer_Data				= '\n\
+	<include>BusyOverlay</include>\n\
 	</controls>\n\
 </window>'
 if os.path.isfile( Layout_File ):

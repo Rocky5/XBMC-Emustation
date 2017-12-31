@@ -60,6 +60,7 @@
 						<B>highlight</B>
 						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/direct_launch_emulator.py)</Y>
 						<start>XBMC.ActivateWindow(1111)</start>
+						<back>XBMC.ActivateWindow(screensaver)</back>
 				</gamepad>
 		</Home>
 		<MyPrograms>

@@ -84,6 +84,7 @@
 										<label>$LOCALIZE[32026]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.ToggleSetting(introenabled)</onclick>
+										<onclick>RunScript( Special://xbmc/_Scripts/XBMC-Emustation/disable_splash.py )</onclick>
 										<selected>Skin.HasSetting(introenabled)</selected>
 								</control>
 								<control type="button" id="6">

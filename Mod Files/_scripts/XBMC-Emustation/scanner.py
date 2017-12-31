@@ -51,13 +51,7 @@ if Updaye_Emulators == "scan_emus":
 	
 		if not os.path.isdir( os.path.join( Emulator_Path, EMU_Directories ) ): os.makedirs( os.path.join( Emulator_Path, EMU_Directories ) )
 		
-		if EMU_Directories == "fba":
-			pass
-		elif EMU_Directories == "atarijaguar":
-			pass
-		elif EMU_Directories == "atarijaguarcd":
-			pass
-		elif EMU_Directories == "mame":
+		if EMU_Directories == "atarijaguar" or EMU_Directories == "atarijaguarcd":
 			pass
 		else:
 			if not os.path.isdir( os.path.join( Roms_Path, EMU_Directories ) ): os.makedirs( os.path.join( Roms_Path, EMU_Directories ) )
@@ -71,13 +65,7 @@ if Updaye_Emulators == "scan_emus":
 	
 		EmuFolder = Items
 		
-		if EmuFolder == "fba":
-			Roms_Folder = os.path.join( Emulator_Path + Items  ) +  "\\roms"
-		elif EmuFolder == "atarijaguar":
-			Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
-		elif EmuFolder == "atarijaguarcd":
-			Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
-		elif EmuFolder == "mame":
+		if EmuFolder == "atarijaguar" or EmuFolder == "atarijaguarcd":
 			Roms_Folder = os.path.join( Emulator_Path + Items ) + "\\roms"
 		else:
 			Roms_Folder = os.path.join( Roms_Path + Items )

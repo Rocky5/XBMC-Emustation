@@ -1843,7 +1843,7 @@ void CApplication::StopServices()
 
 void CApplication::DelayLoadSkin()
 {
-  m_skinReloadTime = CTimeUtils::GetFrameTime() + 1000;
+  m_skinReloadTime = CTimeUtils::GetFrameTime() + 1500;
   return ;
 }
 

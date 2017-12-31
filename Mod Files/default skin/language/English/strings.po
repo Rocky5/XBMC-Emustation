@@ -14,6 +14,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 
+msgctxt "#39999"
+msgid "XBMC-Emustation Beta 0.8"
+msgstr ""
+
 msgctxt "#31000"
 msgid "Muted"
 msgstr ""
@@ -854,4 +858,45 @@ msgstr ""
 
 msgctxt "#32069"
 msgid "[UPPERCASE][/UPPERCASE]"
+msgstr ""
+
+##  Context Buttons
+msgctxt "#32070"
+msgid "[UPPERCASE]choose[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32071"
+msgid "[UPPERCASE]select[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32072"
+msgid "[UPPERCASE]menu[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32073"
+msgid "[UPPERCASE]options[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32074"
+msgid "[UPPERCASE]back[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32075"
+msgid "[UPPERCASE]preview[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32076"
+msgid "[UPPERCASE]random[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32077"
+msgid "[UPPERCASE]context menu[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32078"
+msgid "[UPPERCASE]stop[/UPPERCASE]"
+msgstr ""
+
+msgctxt "#32079"
+msgid "[UPPERCASE]screensaver[/UPPERCASE]"
 msgstr ""

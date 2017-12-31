@@ -94,6 +94,351 @@
 						</control>
 				</control>
 		</include>
+		<include name="ContextButtonsHomeHorizontal">
+				<control type="grouplist">
+						<posx>15</posx>
+						<posy>45r</posy>
+						<width>1280</width>
+						<height>85</height>
+						<itemgap>5</itemgap>
+						<orientation>horizontal</orientation>
+						<control type="image">
+								<description>DPad</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/dpad-h.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32070] </label>
+						</control>
+						<control type="image">
+								<description>A Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/a.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32071] </label>
+						</control>
+						<control type="image">
+								<description>Start Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/start.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32072] </label>
+						</control>
+						<control type="image">
+								<description>Back Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/back.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32079] </label>
+						</control>
+				</control>
+		</include>
+		<include name="ContextButtonsHomeVertical">
+				<control type="grouplist">
+						<posx>15</posx>
+						<posy>45r</posy>
+						<width>1280</width>
+						<height>85</height>
+						<itemgap>5</itemgap>
+						<orientation>horizontal</orientation>
+						<control type="image">
+								<description>DPad</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/dpad-v.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32070] </label>
+						</control>
+						<control type="image">
+								<description>A Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/a.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32071] </label>
+						</control>
+						<control type="image">
+								<description>Start Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/start.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32072] </label>
+						</control>
+						<control type="image">
+								<description>Back Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/back.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32079] </label>
+						</control>
+				</control>
+		</include>
+		<include name="ContextButtonsVideo">
+				<control type="grouplist">
+						<visible>Player.HasVideo</visible>
+						<posx>15</posx>
+						<posy>45r</posy>
+						<width>1280</width>
+						<height>85</height>
+						<itemgap>5</itemgap>
+						<orientation>horizontal</orientation>
+						<control type="image">
+								<description>DPad</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/dpad-v.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32070] </label>
+						</control>
+						<control type="image">
+								<description>A Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/a.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32078] </label>
+						</control>
+				</control>
+		</include>
+		<include name="ContextButtonsEmulators">
+				<control type="grouplist">
+						<visible>!Player.HasVideo</visible>
+						<description>emulators</description>
+						<posx>15</posx>
+						<posy>45r</posy>
+						<width>1280</width>
+						<height>85</height>
+						<itemgap>5</itemgap>
+						<orientation>horizontal</orientation>
+						<control type="image">
+								<description>DPad</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/dpad-v.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32070] </label>
+						</control>
+						<control type="image">
+								<description>A Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/a.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32071] </label>
+						</control>
+						<control type="image">
+								<description>B Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/b.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32074] </label>
+						</control>
+						<control type="image">
+								<description>X Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/x.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32076] </label>
+						</control>
+						<control type="image">
+								<description>Y Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/y.png</texture>
+								<visible>Skin.HasSetting(synopsislayout)</visible>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32075] </label>
+								<visible>Skin.HasSetting(synopsislayout)</visible>
+						</control>
+						<control type="image">
+								<description>Black Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/black.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32073] </label>
+						</control>
+				</control>
+		</include>
+		<include name="ContextButtonsXBE">
+				<control type="grouplist">
+						<visible>!Player.HasVideo</visible>
+						<description>xbe items</description>
+						<posx>15</posx>
+						<posy>45r</posy>
+						<width>1280</width>
+						<height>85</height>
+						<itemgap>5</itemgap>
+						<orientation>horizontal</orientation>
+						<control type="image">
+								<description>DPad</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/dpad-v.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32070] </label>
+						</control>
+						<control type="image">
+								<description>A Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/a.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32071] </label>
+						</control>
+						<control type="image">
+								<description>B Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/b.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32074] </label>
+						</control>
+						<control type="image">
+								<description>X Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/x.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32076] </label>
+						</control>
+						<control type="image">
+								<description>Y Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/y.png</texture>
+								<visible>Skin.HasSetting(synopsislayout)</visible>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32075] </label>
+								<visible>Skin.HasSetting(synopsislayout)</visible>
+						</control>
+						<control type="image">
+								<description>White Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/white.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32077] </label>
+						</control>
+				</control>
+		</include>
 		<include name="1280x720">
 				<width>1280</width>
 				<height>720</height>
@@ -207,6 +552,22 @@
 				<texturefocus border="2">button-focus2.png</texturefocus>
 				<texturenofocus border="2">button-nofocus.png</texturenofocus>
 				<pulseonselect>no</pulseonselect>
+		</include>
+		<include name="BusyOverlay">
+				<control type="image">
+						<description>Busy animation</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>40</width>
+						<height>40</height>
+						<texture>busy.png</texture>
+						<aspectratio>keep</aspectratio>
+						<colordiffuse>FF067EAD</colordiffuse>
+						<visible>Control.HasFocus(9100)</visible>
+						<animation effect="fade" start="0" end="100" time="100">Visible</animation>
+						<animation effect="rotate" start="0" end="360" center="auto" time="500" loop="true" condition="true">conditional</animation>
+						<animation effect="fade" start="100" end="0" time="100">Hidden</animation>
+				</control>
 		</include>
 		<include name="Window_OpenClose_Animation">
 				<animation effect="fade" time="300">WindowOpen</animation>
