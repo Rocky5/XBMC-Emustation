@@ -506,7 +506,7 @@
 				<usedashpath>false</usedashpath>
 		</myprograms>
 		<network>
-				<assignment>2</assignment>
+				<assignment>1</assignment>
 				<bandwidth>0</bandwidth>
 				<dns>192.168.0.1</dns>
 				<dnssuffix>
