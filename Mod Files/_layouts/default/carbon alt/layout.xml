@@ -73,7 +73,7 @@
 			<height>40</height>
 			<font>size_23</font>
 			<textcolor>FF969696</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
@@ -96,7 +96,7 @@
 			<height>40</height>
 			<font>size_23</font>
 			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>

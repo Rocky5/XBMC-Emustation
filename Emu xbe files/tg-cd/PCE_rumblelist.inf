@@ -1,0 +1,306 @@
+#adventure island
+"Rumble on gold change
+30001C1D 0005
+.080,080,120,120,000,001,000,000
+"energy
+30001C1A 0060
+.180,180,200,200,000,001,000,000
+
+#air zonk #0F62B9A0
+"Rumble on smileys item pickup
+30002244 0003
+.100,100,130,130,000,001,000,000
+"Rumble on death
+300014CA 0004
+.180,180,700,700,000,001,002,000
+
+#aoi #82E47FD2
+"Rumble on energy loss
+30002453 001A
+.155,155,120,120,000,001,000,000
+"Rumble on gold change
+30002448 0007
+.080,080,110,110,000,001,000,000
+
+#Atomic Robokid Special #1BC6BA83
+"Rumble on energie loss
+3000179D 000A
+.140,140,300,300,000,001,000,000
+
+#Barunba #8CEC17B4
+"Rumble on energy loss
+30000E82 0001
+.140,140,300,300,000,001,000,000
+
+#blazing lazers #F0ED3094
+"Rumble on megabomb use
+30000B81 0001
+.150,150,300,300,000,001,001,000
+"Rumble when damaged
+30002540 0000
+.165,165,150,150,000,001,001,000
+
+#Bloody Wolf #775F9E7C
+"Rumble on energy loss
+30000D05 0001
+.150,150,150,150,000,001,000,000
+"Rumble on shotgun use
+30000D19 0017
+.080,080,120,120,000,001,000,000
+"Rumble on grenade use
+30000D1A 0016
+.100,100,150,150,000,001,000,000
+
+#bonk 3 - bonk's big adventure #3A771CFD
+"Rumble on smileys pickup
+3000138B 0002
+.080,080,120,120,000,001,000,000
+"Rumble on energy use
+3000138F 0009
+.150,150,200,200,000,001,000,000
+
+#Bonk's Adventure #7334850F
+"Rumble on energy less
+300015B4 0003
+.150,150,200,200,000,001,000,000
+"Rumble on smiley pickup
+300015B9 0003
+.080,080,120,120,000,001,000,000
+
+#Bonk's Revenge #14250F9A
+"Rumble on energy loss
+30001687 0009
+.150,150,200,200,000,001,000,000
+
+#Bravoman #CCA08B02
+"Rumble on energy loss
+30000A57 0010
+.150,150,140,140,000,001,000,000
+
+#China Warrior #5FA773D3
+"Rumble on energy loss
+300013C3 0003
+.160,160,130,130,000,001,000,000
+"attacks
+300013CA 0003
+.140,140,130,130,000,001,000,000
+
+#city hunter #01AB80F1
+"Rumble on energy loss
+3000139C 000E
+.160,160,140,140,000,001,000,000
+
+#Columns #FDDB6537
+"columns
+30000B4B 0008
+.130,130,130,130,000,001,000,000
+
+#Coryoon Child of Dragon #E73A3F01
+"Rumble on dragon death
+30000A18 0000
+.180,180,300,300,000,001,002,000
+"
+30000C34 0000
+.000,000,000,000,000,000,000,000
+
+#Cross Wiber - Cyber Combat Police #3F7C458D
+"Rumble on energy loss
+30001917 0008
+.150,150,130,130,000,001,000,000
+
+#darkwing duck #EAB0946A
+"Rumble on energy loss
+30001830 0002
+.150,150,130,130,000,001,000,000
+
+#Detana!! Twinbee #5CF59D80
+"Rumble on death
+30000887 0001
+.130,013,1300,130,000,001,000,000
+"Rumble on megablast use
+30001727 0000
+.130,130,150,150,000,001,002,000
+
+#Die Hard #DD8AF8CF
+"Rumble on energy loss
+30000C21 000B
+.150,150,220,220,000,001,000,000
+"Rumble on machine gun loss
+30001E58 0057
+.090,090,120,120,000,001,000,000
+
+#Doraemon Nobita no Dorabian Night #4FBFFBC8
+"Rumble on energy less
+300010D9 0001
+.160,160,400,400,000,001,000,000
+
+#Download #D6F8BD1A
+"Rumble on energy less
+30000DE8 0001
+.180,180,140,140,000,001,000,000
+
+#DRACULA_X#99BBFE06
+"Rumble on score change
+30000824 0063
+.080,080,180,180,000,001,000,000
+"Rumble on energie loss
+30000898 0040
+.150,150,230,230,000,001,000,000
+"Rumble on heart pickup
+30000894 0008
+.060,060,150,150,000,001,002,000
+"Rumble on sub weapon use
+30000894 0007
+.070,070,120,120,000,001,001,000
+
+#Dragon Egg! #82F5E1AB
+"Rumble on energy loss
+30000B65 0001
+.150,150,250,250,000,001,000,000
+"Rumble on gold change
+30001E65 0011
+.080,080,120,120,000,001,000,000
+
+#Dragon Spirit #086F148C
+"Rumble on energy use
+30000844 0001
+.150,150,150,150,000,001,000,000
+
+#dragon's curse #B1F7E069
+"Rumble on gold change
+30001C1D 0005
+.080,080,120,120,000,001,000,000
+"Rumble on energy loss
+30001C1A 0060
+.180,180,200,200,000,001,000,000
+
+#Final Soldier #AF2DD2AF
+"Rumble on energy loss
+300008C1 00FF
+.170,170,200,200,000,001,002,000
+
+#Galaga '88 #13EE6E15
+"Rumble on explosion
+30000846 0052
+.130,130,150,150,000,001,002,000
+
+#Galaga '90
+"Rumble on explosion
+30000846 0052
+.130,130,150,150,000,001,002,000
+
+#ghost manor #D022CE6A
+"Rumble on energy loss
+30002140 000C
+.140,140,160,160,000,001,000,000
+
+#Gradius #0C7A27B6
+"options
+300008A4 0003
+.110,110,130,130,000,001,000,000
+
+#Gunhed Hudson Gunhed Taikai #57F183AE
+"Rumble on megabomb use
+30000B82 0001
+.190,190,1000,1000,000,001,001,000
+"Rumble on ship explosion
+30000B7E 0001
+.180,180,180,180,000,001,000,000
+
+#impossamole #02A4F17D
+"Rumble on energy loss
+30000850 0004
+.130,130,300,300,000,001,000,000
+
+#Jackie Chan's Action Kung Fu #9D2F6193
+"Rumble on energy loss
+300008D2 0007
+.150,150,280,280,000,001,000,000
+"Rumble on item use
+300008D4 0003
+.090,090,120,120,000,001,000,000
+"hadoken
+300008D3 0002
+.090,090,120,120,000,001,001,000
+"Rumble on spin kick
+300008C1 0002
+.090,090,100,100,000,001,000,000
+
+#JJ & Jeff #E01C5127
+"Rumble on vitality loss
+30001268 0003
+.140,140,130,130,000,001,000,000
+
+#Magical Chase #95CD2979
+"Rumble on energy loss
+30001640 0006
+.130,130,160,160,000,001,000,000
+
+#Ninja Spirit #185B15BF
+"Rumble on energy loss
+30001FC9 0003
+.160,160,160,160,000,001,000,000
+
+#Ordyne #F1D997EF
+"Rumble on energy loss
+30000851 0003
+.160,160,180,180,000,001,000,000
+
+#pc kid
+"Rumble on energy loss
+300015B4 0003
+.150,150,200,200,000,001,000,000
+"Rumble on smiley pickup
+300015B9 0003
+.080,080,120,120,000,001,000,000
+
+#pc kid 2
+"Rumble on energy loss
+30001687 0009
+.150,150,200,200,000,001,000,000
+
+#pc kid 3
+"Rumble on smiley pickup
+3000138B 0002
+.080,080,120,120,000,001,000,000
+"Rumble on energy loss
+3000138F 0009
+.150,150,200,200,000,001,000,000
+
+#Rabio Lepus Special #2087B848
+"Rumble on missile use
+30000989 0001
+.080,080,200,200,000,001,000,000
+"Rumble on energy loss
+30000985 0001
+.180,180,160,160,000,001,000,000
+
+#Samurai-Ghost #77A924B7
+"Rumble on energy loss
+30001DC8 0004
+.130,130,160,160,000,001,001,000
+
+#Shockman #2774462C
+"Rumble on energy loss
+3000160C 0010
+.160,160,300,300,000,001,001,000
+
+#Soldier Blade #4BB68B13
+"Rumble on explosion
+3000089D 0000
+.160,160,300,300,000,001,002,000
+
+#Super Star Soldier #DB29486F
+"Rumble on explosion
+30000865 0000
+.160,160,200,200,000,001,002,000
+
+#Toilet Kids #53B7784B
+"Rumble on energy loss
+3000088F 0001
+.160,160,200,200,000,001,001,000
+
+#Wonder Momo #1298F1D9
+"Rumble on energy loss
+30000A20 0050
+.150,150,120,120,000,001,000,000

@@ -29,8 +29,8 @@ def patch():
 	Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
 		
 	for XBE_File in glob.glob(r'' + Emu_Path +'*.xbe'):
-		if CountList == 1: pDialog.create( "Scanning for Emulators","","Please wait..." )
-		pDialog.update( ( CountList * 100 ) / len( os.listdir( Emu_Path ) ),"Processing Emulators",XBE_File,"Please wait..." )
+		if CountList == 1: pDialog.create( "Scanning for Emulators","Initializing" )
+		pDialog.update( ( CountList * 100 ) / len( os.listdir( Emu_Path ) ),"Processing Emulators",XBE_File )
 		# Fastest way of doing it.
 		with open( os.path.join( Emu_Path, XBE_File ), "rb") as inputfile:
 			read_file = inputfile.read()

@@ -900,3 +900,7 @@ msgstr ""
 msgctxt "#32079"
 msgid "[UPPERCASE]screensaver[/UPPERCASE]"
 msgstr ""
+
+msgctxt "#32080"
+msgid "[UPPERCASE]music controls[/UPPERCASE]"
+msgstr ""

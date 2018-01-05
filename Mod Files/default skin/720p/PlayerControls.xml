@@ -6,6 +6,7 @@
 				<control type="button" id="605">
 						<posx>-500</posx>
 						<onfocus>dialog.close(114,true)</onfocus>
+						<onfocus>RunScript(Special://xbmc/_scripts/XBMC-Emustation/random_select.py)</onfocus>
 						<visible>!Player.HasMedia</visible>
 				</control>
 				<control type="visualisation.">

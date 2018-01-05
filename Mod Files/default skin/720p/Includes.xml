@@ -129,6 +129,27 @@
 								<label>$LOCALIZE[32071] </label>
 						</control>
 						<control type="image">
+								<description>X Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/x.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32076] </label>
+								<visible>!Player.HasMedia</visible>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32080] </label>
+								<visible>Player.HasMedia</visible>
+						</control>
+						<control type="image">
 								<description>Start Button</description>
 								<width>30</width>
 								<height>30</height>
@@ -189,6 +210,27 @@
 								<textcolor>contextbuttonshome</textcolor>
 								<font>size_24</font>
 								<label>$LOCALIZE[32071] </label>
+						</control>
+						<control type="image">
+								<description>X Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/x.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32076] </label>
+								<visible>!Player.HasMedia</visible>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32080] </label>
+								<visible>Player.HasMedia</visible>
 						</control>
 						<control type="image">
 								<description>Start Button</description>
@@ -310,12 +352,14 @@
 								<height>30</height>
 								<aspectratio>stretch</aspectratio>
 								<texture>layouts/art/x.png</texture>
+								<visible>IntegerGreaterThan(Container(9000).NumItems,9)</visible>
 						</control>
 						<control type="label">
 								<width min="30" max="250">auto</width>
 								<textcolor>contextbuttonslayouts</textcolor>
 								<font>size_24</font>
 								<label>$LOCALIZE[32076] </label>
+								<visible>IntegerGreaterThan(Container(9000).NumItems,9)</visible>
 						</control>
 						<control type="image">
 								<description>Y Button</description>
@@ -333,11 +377,11 @@
 								<visible>Skin.HasSetting(synopsislayout)</visible>
 						</control>
 						<control type="image">
-								<description>Black Button</description>
+								<description>White Button</description>
 								<width>30</width>
 								<height>30</height>
 								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/black.png</texture>
+								<texture>layouts/art/white.png</texture>
 						</control>
 						<control type="label">
 								<width min="30" max="250">auto</width>
@@ -436,6 +480,71 @@
 								<textcolor>contextbuttonslayouts</textcolor>
 								<font>size_24</font>
 								<label>$LOCALIZE[32077] </label>
+						</control>
+				</control>
+		</include>
+		<include name="ContextButtonsFAVS">
+				<control type="grouplist">
+						<description>favourite items</description>
+						<posx>15</posx>
+						<posy>45r</posy>
+						<width>1280</width>
+						<height>85</height>
+						<itemgap>5</itemgap>
+						<orientation>horizontal</orientation>
+						<control type="image">
+								<description>DPad</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/dpad-v.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32070] </label>
+						</control>
+						<control type="image">
+								<description>A Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/a.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32071] </label>
+						</control>
+						<control type="image">
+								<description>B Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/b.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32074] </label>
+						</control>
+						<control type="image">
+								<description>White Button</description>
+								<width>30</width>
+								<height>30</height>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/white.png</texture>
+								<visible>!StringCompare(Container(450).NumItems,0)</visible>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonslayouts</textcolor>
+								<font>size_24</font>
+								<label>$LOCALIZE[32077] </label>
+								<visible>!StringCompare(Container(450).NumItems,0)</visible>
 						</control>
 				</control>
 		</include>

@@ -209,7 +209,7 @@
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>55BDBDBD</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
@@ -242,8 +242,8 @@
 			<width>573</width>
 			<height>30</height>
 			<font>size_23</font>
-			<textcolor>FFFFFFFF</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>

@@ -197,7 +197,7 @@ bool CGUIWindowSettingsCategory::OnMessage(CGUIMessage &message)
         g_settings.Save();
 
         CStdString strLangInfoPath;
-        strLangInfoPath.Format("special://xbmc/language/%s/langinfo.xml", m_strNewLanguage.c_str());
+        strLangInfoPath.Format("special://xbmc/system/language/%s/langinfo.xml", m_strNewLanguage.c_str());
         g_langInfo.Load(strLangInfoPath);
 
         if (g_langInfo.ForceUnicodeFont() && !g_fontManager.IsFontSetUnicode())
@@ -215,11 +215,11 @@ bool CGUIWindowSettingsCategory::OnMessage(CGUIMessage &message)
         g_charsetConverter.reset();
 
         CStdString strKeyboardLayoutConfigurationPath;
-        strKeyboardLayoutConfigurationPath.Format("special://xbmc/language/%s/keyboardmap.xml", m_strNewLanguage.c_str());
+        strKeyboardLayoutConfigurationPath.Format("special://xbmc/system/language/%s/keyboardmap.xml", m_strNewLanguage.c_str());
         CLog::Log(LOGINFO, "load keyboard layout configuration info file: %s", strKeyboardLayoutConfigurationPath.c_str());
         g_keyboardLayoutConfiguration.Load(strKeyboardLayoutConfigurationPath);
 
-        g_localizeStrings.Load("special://xbmc/language/", m_strNewLanguage);
+        g_localizeStrings.Load("special://xbmc/system/language/", m_strNewLanguage);
 
         // also tell our weather to reload, as this must be localized
         g_weatherManager.Refresh();
@@ -2586,9 +2586,9 @@ void CGUIWindowSettingsCategory::FillInVisualisations(CSetting *pSetting, int iC
   vector<CStdString> vecVis;
   //find visz....
   CFileItemList items;
-  CDirectory::GetDirectory("special://xbmc/visualisations/", items);
+  CDirectory::GetDirectory("special://xbmc/system/visualisations/", items);
   if (!CSpecialProtocol::XBMCIsHome())
-    CDirectory::GetDirectory("special://home/visualisations/", items);
+    CDirectory::GetDirectory("special://home/system/visualisations/", items);
 
   for (int i = 0; i < items.Size(); ++i)
   {

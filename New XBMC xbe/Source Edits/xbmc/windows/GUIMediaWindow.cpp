@@ -41,6 +41,7 @@
 #include "GUIUserMessages.h"
 #include "settings/AdvancedSettings.h"
 #include "LocalizeStrings.h"
+#include "interfaces/Builtins.h"
 
 #include "GUIImage.h"
 #include "GUIMultiImage.h"
@@ -1343,7 +1344,8 @@ void CGUIMediaWindow::GetContextButtons(int itemNumber, CContextButtons &buttons
   if (item && !item->IsParentFolder() && !item->GetPath().Equals("add") && !item->GetPath().Equals("newplaylist://") && !item->GetPath().Left(19).Equals("newsmartplaylist://"))
   {
     if (CFavourites::IsFavourite(item.get(), GetID()))
-      buttons.Add(CONTEXT_BUTTON_ADD_FAVOURITE, 14077);     // Remove Favourite
+		NULL;
+		//buttons.Add(CONTEXT_BUTTON_ADD_FAVOURITE, 14077);     // Remove Favourite
     else
       buttons.Add(CONTEXT_BUTTON_ADD_FAVOURITE, 14076);     // Add To Favourites;
   }
@@ -1357,6 +1359,7 @@ bool CGUIMediaWindow::OnContextButton(int itemNumber, CONTEXT_BUTTON button)
     {
       CFileItemPtr item = m_vecItems->Get(itemNumber);
       CFavourites::AddOrRemove(item.get(), GetID());
+      CBuiltins::Execute("RunScript(special://xbmc/_scripts/xbmc-emustation/update_favs_counter.py)");
       return true;
     }
   case CONTEXT_BUTTON_PLUGIN_SETTINGS:

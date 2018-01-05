@@ -25,7 +25,7 @@ dialog					= xbmcgui.Dialog()
 dialog			= xbmcgui.Dialog()
 time.sleep(1)
 HomeLayout 		= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
-Home_XML_Path	= xbmc.translatePath( 'special://skin/720p/home.xml' )
+Home_XML_Path	= xbmc.translatePath( 'special://skin/720p/Home.xml' )
 Layout_File		= xbmc.translatePath( 'special://xbmc/_layouts/home/' + HomeLayout + '.xml' )
 System_List		= xbmc.translatePath( 'special://xbmc/_layouts/home/other/system_list.xml' )
 Header_Data		= '<window id="0">\n\
@@ -36,9 +36,13 @@ Header_Data		= '<window id="0">\n\
 			<onclick>-</onclick>\n\
 		</control>\n\
 		<include>CommonBackground</include>\n\
+		<control type="group">\n\
+			<animation effect="fade" start="100" end="0" time="150" condition="Skin.HasSetting(favsloading)">Conditional</animation>\n\
+			<animation effect="fade" start="0" end="100" delay="500" time="150" condition="!Skin.HasSetting(favsloading)">Conditional</animation>\n\
 	'
 Footer_Data				= '\n\
 	<include>BusyOverlay</include>\n\
+	</control>\n\
 	</controls>\n\
 </window>'
 if os.path.isfile( Layout_File ):

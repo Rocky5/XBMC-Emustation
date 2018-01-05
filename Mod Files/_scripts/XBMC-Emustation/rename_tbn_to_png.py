@@ -16,18 +16,18 @@ if os.path.isdir( TBN_List_Dir ):
 	if os.path.isdir( Rom_List_Dir ):
 		pDialog.update(0)
 		CountList = 1
-		if CountList == 1:	pDialog.create( "Converting Rom lists" )
+		if CountList == 1:	pDialog.create( "Converting Rom lists","Initializing" )
 		Rom_List_Files = glob.glob( os.path.join( Rom_List_Dir, "*.xml" ) )
 		for Rom_List_File in Rom_List_Files:
 			Rom_List_Name = os.path.basename(Rom_List_File)
-			pDialog.update( ( ( CountList-1 ) * 100 ) / len( Rom_List_Files ),Rom_List_Name,"Converting Rom Lists to use .png" )
+			pDialog.update( ( ( CountList-1 ) * 100 ) / len( Rom_List_Files ),"Converting Rom Lists to use .png",Rom_List_Name )
 			for line in fileinput.input(Rom_List_File, inplace=1):
 				line = line.replace('.tbn<','.png<')
 				print line,
 			CountList = CountList + 1
 				
 		CountList = 1
-		if CountList == 1:	pDialog.create( "Renaming Thumbnails" )
+		if CountList == 1:	pDialog.create( "Renaming Thumbnails","Initializing" )
 		for TBN_Folders in sorted( os.listdir( TBN_List_Dir ) ):
 			CountList = 1
 			TBN_Files = glob.glob( os.path.join( TBN_List_Dir, TBN_Folders, "*.tbn" ) )

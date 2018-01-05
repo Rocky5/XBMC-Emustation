@@ -1,3 +1,37 @@
+5/01/2018
+	1) Fixed the "Create_rom_lists.py" dialog title and optimized it again.
+		( Removed some code and updated other parts of the code )
+	2) Fixed the "Create_rom_lists.py" scanning in all the info from the FBL info ini files.
+		( it doesnt need all the technical stuff eg... )
+	3) Updated the DialogProgress.xml
+	4) Updated the other scripts that use the Dialogprogress.xml 
+	5) "Create_rom_lists.py" will now display the correct rom names for FBA and N64, also it will now pares FBA properly and in alphabetical order.
+	6) Updated "fba names.zip" with new name files.
+	7) Fixed the video window on the fba synopsis views.
+	8) PCE-CD Emulator added and configured.
+	9) Updated the PCEngin synopsis zip and added PCE-CD synopsis.
+	10) Favourites, you can now add your Xbox games or your Roms to the favourite menu.
+	11) New images for the above addition.
+	12) Fixed the changing language issue, I forgot to update the path in the source.
+	13) Added random and media controls labels to the home screen.
+		( you can use X to select a random system if no music os playing )
+	14) New scripts for doing the favourites and favourites counter.
+	15) New XBE for XBMC with new additions.
+		( check the changelog for that )
+	16) Now use the white button for the options menu in rom lists, just like the context menu for xbe content.
+	17) Added TurboGrafx-16 emulator
+		( Will use the pcengine and pc-cd synopsis as they are all there )
+	18) Added famicom emulator and created the controller for the carbon theme.
+		( Will use the nes synopsis as they are all there )
+	19) Made the random script only work if there is more than 10 roms or games.
+		( anything less and it selects and it isnt worth it )
+	20) Updated the NES emulator to v15b14 Fix.
+	21) Favourites menu is theme-able like the layouts.
+	22) Added the trainer indicator to the xbe layouts.
+	23) Removed the skindefault alt them, it was crap.
+	24) Probably other stuff, but changes crap that much I forgot lol
+
+
 31/12/2017
 	0) Happy New Year!
 	1) Updated the context buttons at the bottom of the screen, they are now labels and images instead of just one image.

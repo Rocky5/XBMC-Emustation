@@ -59,6 +59,9 @@
  
  [Emuxtras Website](http://www.emuxtras.net)
  
+#### Voidsentinel
+ For the 3 cartridge images I used for the favourites logo - [Deviantart](https://voidsentinel.deviantart.com/gallery/43806141/Video-Game-Icons)
+ 
 #### Testers
  Feedback and suggestions.
  * Mikeaton

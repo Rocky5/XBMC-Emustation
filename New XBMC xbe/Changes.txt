@@ -16,3 +16,6 @@
 13) It now runs the "home_themer.py" script after changing the theme, so it now also works in the Settings menu of XBMC.
 ( Also means faster cycling of themes )
 14) Fix ported over from Kodi to fix the SetFocus function, it now focuses from the first entry in the list instead of the current page.
+15) Removed the remove favourite from the context menu, due to the roms menus not having this feature.
+16) When you add favourites or remove them it will now run a script to update the counter for the main menu.
+17) Fixed the setting a new language, forgot to change a path.

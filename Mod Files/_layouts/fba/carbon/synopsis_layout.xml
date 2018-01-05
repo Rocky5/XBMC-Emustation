@@ -70,7 +70,7 @@
 	<description>video preview window background</description>
 	<posx>32</posx>
 	<posy>158</posy>
-	<width>295</width>
+	<width>710</width>
 	<height>227</height>
 	<aspectratio>stretch</aspectratio>
 	<texture>thumbnf.png</texture>
@@ -80,7 +80,7 @@
 	<description>video preview window</description>
 	<posx>32</posx>
 	<posy>158</posy>
-	<width>295</width>
+	<width>710</width>
 	<height>227</height>
 	<aspectratio>keep</aspectratio>
 	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
@@ -108,7 +108,7 @@
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FF969696</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
@@ -131,7 +131,7 @@
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>

@@ -18,7 +18,13 @@ if xbmc.getInfoLabel('Skin.String(emuname)') == "xbox" or xbmc.getInfoLabel('Ski
 else:
 	Focus		= "9000"
 	Path		= os.path.join( Previews_Path, xbmc.getInfoLabel('Skin.String(emuname)') )
-	FileName	= xbmc.getInfoLabel('Container(9000).ListItem.Label')
+
+	if xbmc.getInfoLabel('Skin.String(emuname)') == "fba":
+		# this is a fix because I use the rom names for all emulators other than fba, as you wouldn't have a clue what's what game.
+		# fba rom names are stored in the <icon> tag but due to numerical names I had to add a space to the end of each one. this just remove3s said space.
+		FileName	= xbmc.getInfoLabel('Container(9000).ListItem.ActualIcon')[:-1]
+	else:
+		FileName	= xbmc.getInfoLabel('Container(9000).ListItem.Label')
 
 if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 	VideoFile = ""

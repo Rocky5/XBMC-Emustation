@@ -72,7 +72,7 @@
 		<width>1280</width>
 		<height>347</height>
 		<aspectratio>stretch</aspectratio>
-		<texture background="true">layouts/art/alt_carousel_bar.png</texture>
+		<texture>layouts/art/alt_carousel_bar.png</texture>
 	</control>
 	<include>ContextButtonsHomeHorizontal</include>
 	<!-- <include>ContextButtonsHomeVertical</include> -->

@@ -38,8 +38,8 @@
 						<B>Back</B>
 						<X>XBMC.ActivateWindow(PlayerControls)</X>
 						<white>ContextMenu</white>
-						<black/>
-						<start/>
+						<black />
+						<start />
 						<back>PreviousMenu</back>
 						<dpadleft>Left</dpadleft>
 						<dpadright>Right</dpadright>
@@ -67,7 +67,7 @@
 				<gamepad>
 						<Y>SetFocus(9999)</Y>
 						<X>RunScript(Special://XBMC/_scripts/XBMC-Emustation/random_select.py)</X>
-						<Black>SetFocus(9998)</Black>
+						<white>SetFocus(9990)</white>
 				</gamepad>
 		</MyPrograms>
 		<MyFiles>

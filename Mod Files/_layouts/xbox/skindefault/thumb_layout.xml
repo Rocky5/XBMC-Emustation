@@ -76,7 +76,7 @@
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FF282A2B</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
@@ -99,10 +99,18 @@
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FF77ba3f</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+		</control>
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>5</width>
+			<height>30</height>
+			<aspectratio>stretch</aspectratio>
+			<texture>$INFO[listitem.overlay]</texture>
 		</control>
 	</focusedlayout>
 </control>

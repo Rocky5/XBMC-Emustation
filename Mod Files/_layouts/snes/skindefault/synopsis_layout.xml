@@ -110,8 +110,8 @@
 			<width>432</width>
 			<height>30</height>
 			<font>size_23</font>
-			<textcolor>FF4B4F4D</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<textcolor>FF282A2B</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
@@ -134,7 +134,7 @@
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>FFD2D2D2</textcolor>
-			<selectedcolor>blue</selectedcolor>
+			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>

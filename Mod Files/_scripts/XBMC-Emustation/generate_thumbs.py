@@ -64,7 +64,7 @@ if os.path.isfile( MyPrograms6_db ):
 			ThumbCache = xbmc.getCacheThumbName( row[1] )
 			if os.path.isdir( row[1][:9] ):
 				if os.path.isfile( row[1] ):
-					if CountList == 1: pDialog.create( "Generating Thumbnails" )
+					if CountList == 1: pDialog.create( "Generating Thumbnails","Initializing" )
 					pDialog.update( ( ( CountList-1 ) * 100 ) / len( os.listdir( row[1][:9] ) ),"Scanning [B][UPPERCASE]Xbox Games[/B][/UPPERCASE] for .tbn files",Game_Title )
 					if os.path.isfile( DefaultTBN ):
 						shutil.copy2( DefaultTBN, Temp_Profile_Directory + ThumbCache[0] + "\\" + ThumbCache )
@@ -82,7 +82,7 @@ CountList = 1
 pDialog.update(0)
 for Homebrew_Directories in Homebrew_Directories:
 	if os.path.isdir(Homebrew_Directories):
-		if CountList == 1:	pDialog.create( "Generating Thumbnails" )
+		if CountList == 1:	pDialog.create( "Generating Thumbnails","Initializing" )
 		for Folders in sorted( os.listdir( Homebrew_Directories ) ):
 			HomebrewFolder = os.path.join( Homebrew_Directories, Folders ) + "\\"
 			if os.path.isdir( HomebrewFolder ):
@@ -99,7 +99,7 @@ for Homebrew_Directories in Homebrew_Directories:
 # CountList = 1
 # pDialog.update(0)
 # if os.path.isdir( CUTFile_Path ):
-	# if CountList == 1:	pDialog.create( "Generating Thumbnails" )
+	# if CountList == 1:	pDialog.create( "Generating Thumbnails","Initializing" )
 	# for Folders in sorted( os.listdir( Emulator_Path ) ):
 		# EmuFolder = os.path.join( CUTFile_Path, Folders ) + "\\"
 		# Emu_Name = os.path.split(os.path.dirname( EmuFolder ))[1]

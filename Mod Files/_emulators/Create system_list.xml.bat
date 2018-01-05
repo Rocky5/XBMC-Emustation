@@ -25,7 +25,16 @@ md xbox
 	Echo 		^<visible^>System.HasMediaDVD^</visible^>
 	Echo 	^</item^>
 )>>"system_list.xml"
-Set /a count=2
+(
+	Echo 	^<item id^="2"^>
+	Echo 		^<label^>$INFO^[Skin.String^(favs_games^)^]^</label^>
+	Echo 		^<label2^>^$LOCALIZE^[1036^]^</label2^>
+	Echo 		^<onclick^>ActivateWindow^(134^)^</onclick^>
+	Echo 		^<icon^>layouts/favourites/art/system_art.png^</icon^>
+	Echo 		^<thumb^>layouts/favourites/art/logo.png^</thumb^>
+	Echo 	^</item^>
+)>>"system_list.xml"
+Set /a count=3
 for /f "Tokens=*" %%a in ('dir /b /A:D "*"') do (
 	Echo  %%~na
 		if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="atarijaguar" if not "%%~na"=="atarijaguarcd" if not "%%~na"=="mame" (
