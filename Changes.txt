@@ -1,5 +1,6 @@
 6/01/2018
 	1) Now when you launch a rom it will take you back to its position if you have load last system roms list enabled.
+	2) Fixed the menu_loader.py script
 
 
 5/01/2018

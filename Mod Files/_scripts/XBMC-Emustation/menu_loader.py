@@ -232,57 +232,30 @@ Footer_Data_XBE					= '\n\
 	</control>\n\
 	</controls>\n\
 	</window>'
-	
-# ROM
-if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
-	if os.path.isfile( Custom_Synopsis_Layout ):
-		Layout_XML_Path				= Custom_Synopsis_Layout
-	else:
-		if os.path.isfile( Default_Synopsis_Layout ):
-			Layout_XML_Path			= Default_Synopsis_Layout
-		else:
-			Layout_XML_Path			= Default_No_Synopsis_Layout
-elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
-	if os.path.isfile( Custom_Thumb_Layout ):
-		Layout_XML_Path				= Custom_Thumb_Layout
-	else:
-		if os.path.isfile( Default_Thumb_Layout ):
-			Layout_XML_Path			= Default_Thumb_Layout
-		else:
-			Layout_XML_Path			= Default_No_Thumb_Layout
-else:
-	if os.path.isfile( Custom_Layout ):
-		Layout_XML_Path				= Custom_Layout
-	elif os.path.isfile( Default_Layout ):
-		Default_Layout_XML_Path		= Default_Layout
-	else:
-		Default_Layout_XML_Path		= Default_No_Layout
-# XBE
-if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
-	if os.path.isfile( Custom_Synopsis_Layout ):
-		Layout_XBE_XML_Path				= Custom_Synopsis_Layout
-	else:
-		if os.path.isfile( XBE_Default_Synopsis_Layout ):
-			Default_Layout_XBE_XML_Path	= XBE_Default_Synopsis_Layout
-		else:
-			Default_Layout_XBE_XML_Path	= XBE_Default_No_Synopsis_Layout
-elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
-	if os.path.isfile( Custom_Thumb_Layout ):
-		Layout_XBE_XML_Path				= Custom_Thumb_Layout
-	else:
-		if os.path.isfile( XBE_Default_Thumb_Layout ):
-			Default_Layout_XBE_XML_Path	= XBE_Default_Thumb_Layout
-		else:
-			Default_Layout_XBE_XML_Path	= XBE_Default_No_Thumb_Layout
-else:
-	if os.path.isfile( Custom_Layout ):
-		Layout_XBE_XML_Path				= Custom_Layout
-	elif os.path.isfile( XBE_Default_Layout ):
-		Default_Layout_XBE_XML_Path		= XBE_Default_Layout
-	else:
-		Default_Layout_XBE_XML_Path		= XBE_Default_No_Layout
-
 if EMU_Files == 1:
+	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
+		if os.path.isfile( Custom_Synopsis_Layout ):
+			Layout_XML_Path				= Custom_Synopsis_Layout
+		else:
+			if os.path.isfile( Default_Synopsis_Layout ):
+				Layout_XML_Path			= Default_Synopsis_Layout
+			else:
+				Layout_XML_Path			= Default_No_Synopsis_Layout
+	elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
+		if os.path.isfile( Custom_Thumb_Layout ):
+			Layout_XML_Path				= Custom_Thumb_Layout
+		else:
+			if os.path.isfile( Default_Thumb_Layout ):
+				Layout_XML_Path			= Default_Thumb_Layout
+			else:
+				Layout_XML_Path			= Default_No_Thumb_Layout
+	else:
+		if os.path.isfile( Custom_Layout ):
+			Layout_XML_Path				= Custom_Layout
+		elif os.path.isfile( Default_Layout ):
+			Default_Layout_XML_Path		= Default_Layout
+		else:
+			Default_Layout_XML_Path		= Default_No_Layout
 	if os.path.isfile( os.path.join( Rom_List_Path,MenuLabel + '.xml' ) ):
 		## this is here so not to mess with the actual menulabel
 		if not os.path.isfile( Layout_XML_Path ):
@@ -350,22 +323,45 @@ else:
 	xbmc.executebuiltin('SetFocus(9000)')
 	
 if XBE_Files == 1:
+	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
+		if os.path.isfile( Custom_Synopsis_Layout ):
+			Layout_XML_Path				= Custom_Synopsis_Layout
+		else:
+			if os.path.isfile( XBE_Default_Synopsis_Layout ):
+				Default_Layout_XML_Path	= XBE_Default_Synopsis_Layout
+			else:
+				Default_Layout_XML_Path	= XBE_Default_No_Synopsis_Layout
+	elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
+		if os.path.isfile( Custom_Thumb_Layout ):
+			Layout_XML_Path				= Custom_Thumb_Layout
+		else:
+			if os.path.isfile( XBE_Default_Thumb_Layout ):
+				Default_Layout_XML_Path	= XBE_Default_Thumb_Layout
+			else:
+				Default_Layout_XML_Path	= XBE_Default_No_Thumb_Layout
+	else:
+		if os.path.isfile( Custom_Layout ):
+			Layout_XML_Path				= Custom_Layout
+		elif os.path.isfile( XBE_Default_Layout ):
+			Default_Layout_XML_Path		= XBE_Default_Layout
+		else:
+			Default_Layout_XML_Path		= XBE_Default_No_Layout
 	## this is here so not to mess with the actual menulabel
-	if not os.path.isfile( Layout_XBE_XML_Path ):
+	if not os.path.isfile( Layout_XML_Path ):
 		MenuLabel_XML = "default"
 	else:
 		MenuLabel_XML = MenuLabel
 	Header_Data = Header_Data_XBE % ( MenuLabel_XML, MenuLabel_XML, MenuLabel_XML, ThemeType  )
-	if os.path.isfile( Layout_XBE_XML_Path ):
-		with open( Layout_XBE_XML_Path	) as layoutfile:
+	if os.path.isfile( Layout_XML_Path ):
+		with open( Layout_XML_Path	) as layoutfile:
 			with open(MyPrograms_Path, "w") as inputfile:
 				inputfile.write( Header_Data )		
 				for code in layoutfile:
 					inputfile.write( code )			
 				inputfile.write( Footer_Data_XBE )
 				xbmc.executebuiltin( 'ActivateWindow(Programs,'+ MenuLabel +',return)' )	
-	elif os.path.isfile( Default_Layout_XBE_XML_Path ):
-		with open( Default_Layout_XBE_XML_Path ) as layoutfile:
+	elif os.path.isfile( Default_Layout_XML_Path ):
+		with open( Default_Layout_XML_Path ) as layoutfile:
 			with open(MyPrograms_Path, "w") as inputfile:
 				inputfile.write( Header_Data )		
 				for code in layoutfile:
@@ -374,11 +370,34 @@ if XBE_Files == 1:
 				xbmc.executebuiltin( 'ActivateWindow(Programs,'+ MenuLabel +',return)' )
 	else:	# default layout is missing so error!
 		xbmc.executebuiltin('SetFocus(9000)')
-		dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XBE_XML_Path )
+		dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XML_Path )
 else:
 	xbmc.executebuiltin('SetFocus(9000)')
 
 if FAV_Files == 1:
+	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
+		if os.path.isfile( Custom_Synopsis_Layout ):
+			Layout_XML_Path				= Custom_Synopsis_Layout
+		else:
+			if os.path.isfile( Default_Synopsis_Layout ):
+				Layout_XML_Path			= Default_Synopsis_Layout
+			else:
+				Layout_XML_Path			= Default_No_Synopsis_Layout
+	elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
+		if os.path.isfile( Custom_Thumb_Layout ):
+			Layout_XML_Path				= Custom_Thumb_Layout
+		else:
+			if os.path.isfile( Default_Thumb_Layout ):
+				Layout_XML_Path			= Default_Thumb_Layout
+			else:
+				Layout_XML_Path			= Default_No_Thumb_Layout
+	else:
+		if os.path.isfile( Custom_Layout ):
+			Layout_XML_Path				= Custom_Layout
+		elif os.path.isfile( Default_Layout ):
+			Default_Layout_XML_Path		= Default_Layout
+		else:
+			Default_Layout_XML_Path		= Default_No_Layout
 	if os.path.isfile( Layout_XML_Path ):
 		with open( Layout_XML_Path ) as layoutfile:
 			with open(FAV_XML_Path, "w") as inputfile:
