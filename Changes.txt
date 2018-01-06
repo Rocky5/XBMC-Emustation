@@ -1,3 +1,7 @@
+6/01/2018
+	1) Now when you launch a rom it will take you back to its position if you have load last system roms list enabled.
+
+
 5/01/2018
 	1) Fixed the "Create_rom_lists.py" dialog title and optimized it again.
 		( Removed some code and updated other parts of the code )

@@ -36,7 +36,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 						Rom_Path = Rom_Path.split('<', 1)[0]
 				file.close
 			#Favourite_String = '<favourite name="[' + Emulator_name + '] ' + Current_name + '\" thumb=\"' + xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ) + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emulators_Location + '&quot;,&quot;' + Rom_Path +'&quot;,1)</favourite>\n</favourites>'
-			Favourite_String = '<favourite name="' + Current_name + '\" thumb=\"' + xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ) + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emulators_Location + '&quot;,&quot;' + Rom_Path +'&quot;,1)</favourite>\n</favourites>'
+			Favourite_String = '<favourite name="' + Current_name + '\" thumb=\"' + xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ) + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emulators_Location + '&quot;,&quot;' + Rom_Path +'&quot;,1,0)</favourite>\n</favourites>'
 if not os.path.isfile( Favourites_XML ):
 	f = open(Favourites_XML,"w")
 	f.write("<favourites>\n")

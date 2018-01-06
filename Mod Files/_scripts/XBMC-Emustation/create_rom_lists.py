@@ -69,7 +69,7 @@ def Main_Code():
 			log('|--------------------------------------------------------------------------------')
 			log('|	Set a load of variable.')
 			log('|--------------------------------------------------------------------------------')
-			CountList = 1
+			CountList = 0
 			JumpList = 0
 			Jump_Counter = 8000
 			Starts_with_0 = 0; Starts_with_A = 0; Starts_with_B = 0; Starts_with_C = 0; Starts_with_D = 0; Starts_with_E = 0; Starts_with_F = 0; Starts_with_G = 0; Starts_with_H = 0; Starts_with_I = 0; Starts_with_J = 0; Starts_with_K = 0; Starts_with_L = 0; Starts_with_M = 0; Starts_with_N = 0; Starts_with_O = 0; Starts_with_P = 0; Starts_with_Q = 0; Starts_with_R = 0; Starts_with_S = 0; Starts_with_T = 0; Starts_with_U = 0; Starts_with_V = 0; Starts_with_W = 0; Starts_with_X = 0; Starts_with_Y = 0; Starts_with_Z = 0;
@@ -505,18 +505,18 @@ def Main_Code():
 								with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 									if Emu_Name == "fba":
 										pDialog.update((CountList * 100) / len(os.listdir( os.path.join( Roms_Path, "fba" ) ) ),"Creating [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Rom list",FBA_Rom_Name,"This can take some time, please be patient." )
-										WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Name_noext + ' )',"ActivateWindow(1101)",Rom_Name_noext + " ",TBN_File)
+										WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Name_noext + ',,' + str(CountList) + ' )',"ActivateWindow(1101)",Rom_Name_noext + " ",TBN_File)
 									elif Emu_Name == "mame":
 										pass
 									elif Emu_Name == "n64":
 										pDialog.update((CountList * 100) / len(os.listdir( Roms_Folder )),"Creating [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Rom list",N64_Rom_Name,"This can take some time, please be patient." )
-										WriteMenuFile = menu_entry % (CountList,N64_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
+										WriteMenuFile = menu_entry % (CountList,N64_Rom_Name,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ',,' + str(CountList) + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 									elif Emu_Name == "neogeocd" or Emu_Name == "pce-cd" or Emu_Name == "psx" or Emu_Name == "tg-cd" or Emu_Name == "segacd":
 										pDialog.update((CountList * 100) / Rom_Type_Total,"Creating [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Rom list",Rom_Name_noext,"This can take some time, please be patient." )
-										WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
+										WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ',,' + str(CountList) + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 									else:
 										pDialog.update((CountList * 100) / len(os.listdir( Roms_Folder )),"Creating [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Rom list",Rom_Name_noext,"This can take some time, please be patient." )
-										WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
+										WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,'RunScript( Special://xbmc/_scripts/XBMC-Emustation/launcher.py,' + Emu_XBE + ',' + Rom_Path + ',,' + str(CountList) + ' )',"ActivateWindow(1101)",Synopsis2,TBN_File)
 									outputmenufile.write( WriteMenuFile )
 								log('|--------------------------------------------------------------------------------')
 								log('|	Write favourites menu entries.')
