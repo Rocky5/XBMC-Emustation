@@ -20,7 +20,7 @@ try:
 		Current_position	= sys.argv[4:][0]
 	except:
 		Favourite_Launch	= 0
-		Current_position	= 1
+		Current_position	= 0
 	with open('z:\\tmp.cut', 'w') as cut:
 		cut.write( '<shortcut><path>%s</path><label>launcher</label><custom><game>%s</game></custom></shortcut>' % ( Emu_Path, Rom_Name_Path ) )
 	if not Favourite_Launch and str( xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ) ) == "1":
