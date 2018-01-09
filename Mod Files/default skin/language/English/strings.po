@@ -15,7 +15,7 @@ msgstr ""
 
 
 msgctxt "#39999"
-msgid "XBMC-Emustation Beta 0.8"
+msgid "XBMC-Emustation Beta 0.8.009"
 msgstr ""
 
 msgctxt "#31000"

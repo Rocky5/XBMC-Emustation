@@ -1,4 +1,4 @@
-7/01/2018
+9/01/2018
 	1) Updated the code that renames files to lowercase in the "create_rom_lists.py"
 	2) Fixed the menu_loader.py script and optimised it.
 	3) Updated/redone all layouts.
