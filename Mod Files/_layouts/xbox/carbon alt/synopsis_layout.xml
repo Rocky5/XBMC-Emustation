@@ -1,13 +1,10 @@
-<!-- ================== -->
-<!-- Custom Layout file -->
-<!-- ================== -->
 <!-- background images -->
 <control type="image">
 	<description>top bar behind logo</description>
 	<posx>27</posx>
 	<posy>0</posy>
 	<width>582</width>
-	<height>89</height>
+	<height>100</height>
 	<aspectratio>stretch</aspectratio>
 	<colordiffuse>FF000000</colordiffuse>
 	<texture>background diffuse.png</texture>
@@ -18,20 +15,20 @@
 	<posx>27</posx>
 	<posy>0</posy>
 	<width>582</width>
-	<height>89</height>
+	<height>100</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
+	<colordiffuse>FF77BA3F</colordiffuse>
 	<texture>background diffuse.png</texture>
 	<animation effect="fade" start="25" end="25" time="0" condition="true">Conditional</animation>
 </control>
 <control type="image">
 	<description>bar under logo</description>
 	<posx>27</posx>
-	<posy>90</posy>
+	<posy>101</posy>
 	<width>582</width>
 	<height>4</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
+	<colordiffuse>FF77BA3F</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
 <control type="image">
@@ -39,9 +36,9 @@
 	<posx>23</posx>
 	<posy>0</posy>
 	<width>4</width>
-	<height>662</height>
+	<height>673</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
+	<colordiffuse>FF77BA3F</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
 <control type="image">
@@ -49,16 +46,16 @@
 	<posx>609</posx>
 	<posy>0</posy>
 	<width>4</width>
-	<height>662</height>
+	<height>673</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
+	<colordiffuse>FF77BA3F</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>	
 <!-- Other images -->
 <control type="image">
 	<description>logo</description>
 	<posx>37</posx>
-	<posy>8</posy>
+	<posy>12.5</posy>
 	<width>562</width>
 	<height>71</height>
 	<aspectratio>keep</aspectratio>
@@ -66,14 +63,17 @@
 </control>
 <control type="image">
 	<posx>0</posx>
-	<posy>662</posy>
+	<posy>47r</posy>
 	<width>1280</width>
-	<height>58</height>
+	<height>47</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
+	<colordiffuse>FF77BA3F</colordiffuse>
 	<texture background="true">layouts/art/help_background.png</texture>
 </control>
-<!-- synopsis area -->
+<!-- Context Button Overlay -->
+<include>ContextButtonsXBE</include>
+<include>ContextButtonsVideo</include>
+<!-- Synopsis Area -->
 <control type="image">
 	<description>top bar behind info</description>
 	<posx>696</posx>
@@ -83,9 +83,45 @@
 	<aspectratio>stretch</aspectratio>
 	<colordiffuse>FF000000</colordiffuse>
 	<texture>background diffuse.png</texture>
-	<animation effect="fade" start="75" end="75" time="0" condition="true">Conditional</animation>
+	<animation effect="fade" start="25" end="25" time="0" condition="true">Conditional</animation>
 </control>
-<!-- fanart image -->
+<control type="image">
+	<posx>692</posx>
+	<posy>405</posy>
+	<width>4</width>
+	<height>246</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF77BA3F</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<posx>1198</posx>
+	<posy>405</posy>
+	<width>4</width>
+	<height>246</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF77BA3F</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<posx>696</posx>
+	<posy>405</posy>
+	<width>502</width>
+	<height>4</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF77BA3F</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<posx>696</posx>
+	<posy>647</posy>
+	<width>502</width>
+	<height>4</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF77BA3F</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- Fanart Image -->
 <control type="image">
 	<description>fanart</description>
 	<posx>696</posx>
@@ -97,6 +133,7 @@
 	<texture background="true">$INFO[listitem.path,,fanart.jpg]</texture>
 	<fadetime>FanartCrossfadeTime</fadetime>
 </control>
+<!-- Video Window Background -->
 <control type="image">
 	<description>video preview window background</description>
 	<posx>696</posx>
@@ -107,6 +144,7 @@
 	<texture>thumbnf.png</texture>
 	<visible>Player.HasVideo</visible>
 </control>
+<!-- Video Window -->
 <control type="videowindow">
 	<description>video preview window</description>
 	<posx>696</posx>
@@ -117,43 +155,7 @@
 	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
 </control>
-<control type="image">
-	<posx>692</posx>
-	<posy>405</posy>
-	<width>4</width>
-	<height>246</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
-	<texture>background diffuse.png</texture>
-</control>
-<control type="image">
-	<posx>1198</posx>
-	<posy>405</posy>
-	<width>4</width>
-	<height>246</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
-	<texture>background diffuse.png</texture>
-</control>
-<control type="image">
-	<posx>696</posx>
-	<posy>405</posy>
-	<width>502</width>
-	<height>4</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
-	<texture>background diffuse.png</texture>
-</control>
-<control type="image">
-	<posx>696</posx>
-	<posy>647</posy>
-	<width>502</width>
-	<height>4</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF77ba3f</colordiffuse>
-	<texture>background diffuse.png</texture>
-</control>
-<!-- thumbnail image -->
+<!-- Thumbnail Image -->
 <control type="image">
 	<posx>721</posx>
 	<posy>44</posy>
@@ -166,22 +168,22 @@
 <!-- list -->
 <control type="list" id="50">
 	<posx>27</posx>
-	<posy>93</posy>
+	<posy>104</posy>
 	<width>582</width>
 	<height>570</height>
 	<onleft>PageUp</onleft>
 	<onright>PageDown</onright>
-	<onup>9000</onup>
-	<ondown>9000</ondown>
+	<onup>50</onup>
+	<ondown>50</ondown>
 	<viewtype label="List">List</viewtype>
 	<pagecontrol>70</pagecontrol>
 	<scrolltime>150</scrolltime>
 	<preloaditems>6</preloaditems>
 	<itemlayout height="30" width="582">
 		<control type="label">
-			<posx>10</posx>
+			<posx>5</posx>
 			<posy>0</posy>
-			<width>565</width>
+			<width>573</width>
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>55BDBDBD</textcolor>
@@ -208,50 +210,21 @@
 			<width>588</width>
 			<height>31</height>
 			<aspectratio>stretch</aspectratio>
-			<colordiffuse>FF77ba3f</colordiffuse>
+			<colordiffuse>FF77BA3F</colordiffuse>
 			<texture border="1">background diffuse.png</texture>
 			<animation effect="fade" start="35" end="35" time="0" condition="true">Conditional</animation>
 		</control>
 		<control type="label">
-			<posx>10</posx>
+			<posx>5</posx>
 			<posy>0</posy>
-			<width>565</width>
+			<width>573</width>
 			<height>30</height>
 			<font>size_23</font>
-			<textcolor>FF77ba3f</textcolor>
+			<textcolor>FF77BA3F</textcolor>
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
 		</control>
-		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>5</width>
-			<height>30</height>
-			<aspectratio>stretch</aspectratio>
-			<texture>$INFO[listitem.overlay]</texture>
-		</control>
 	</focusedlayout>
 </control>
-<!-- Scroll bar fails to work due to the scrolltime being set to 200 :-/ -->
-<control type="scrollbar" id="70">
-	<posx>1270</posx>
-	<posy>0</posy>
-	<width>10</width>
-	<height>662</height>
-	<texturesliderbackground>-</texturesliderbackground>
-	<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
-	<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
-	<textureslidernib>scrollbar_nib.png</textureslidernib>
-	<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-	<onleft>50</onleft>
-	<showonepage>false</showonepage>
-	<orientation>vertical</orientation>
-	<visible>false</visible>
-	<animation reversible="true" effect="fade" start="0" end="100" delay="" time="300">visible</animation>
-	<animation reversible="true" effect="fade" start="100" end="0" delay="" time="300">hidden</animation>
-</control>
-<!-- bottom buttons overlay -->
-<include>ContextButtonsXBE</include>
-<include>ContextButtonsVideo</include>

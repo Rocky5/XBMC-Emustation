@@ -1,62 +1,59 @@
-<!-- ================== -->
-<!-- Custom Layout file -->
-<!-- ================== -->
-<!-- background images -->
-<include>CommonBackground</include>
+<!-- Top Underlay Image -->
 <control type="image">
-	<description>top bar</description>
 	<posx>0</posx>
 	<posy>0</posy>
 	<width>1280</width>
-	<height>113</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>73000000</colordiffuse>
-	<texture>background diffuse.png</texture>
-</control>
-<control type="image">
-	<description>top coloured bar</description>
-	<posx>0</posx>
-	<posy>115</posy>
-	<width>1280</width>
-	<height>4</height>
+	<height>115</height>
 	<aspectratio>stretch</aspectratio>
 	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-	<texture>background diffuse.png</texture>
+	<texture border="2">layouts/art/top_bar.png</texture>
 </control>
-<!-- logo image -->
+<!-- System Logo -->
 <control type="image">
 	<description>logo</description>
-	<posx>32</posx>
+	<posx>30</posx>
 	<posy>20</posy>
-	<width>492</width>
+	<width>490</width>
 	<height>72</height>
 	<aspectratio align="left">keep</aspectratio>
 	<texture>layouts/favourites/art/logo.png</texture>
 </control>
 <control type="image">
 	<description>controller</description>
-	<posx>1000</posx>
-	<posy>5</posy>
-	<width>280</width>
-	<height>100</height>
-	<aspectratio align="left">keep</aspectratio>
+	<posx>995</posx>
+	<posy>0</posy>
+	<width>190</width>
+	<height>110</height>
+	<aspectratio>keep</aspectratio>
 	<texture>layouts/favourites/art/system_art_small.png</texture>
-	<animation effect="fade" start="100" end="100" time="0" condition="true">Conditional</animation>
+	<animation effect="fade" start="100" end="65" time="0" condition="true">Conditional</animation>
 </control>
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>layouts/art/help_background.png</texture>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsFAVS</include>
 <!-- thumbnail image -->
 <control type="image">
-	<posx>686</posx>
-	<posy>140</posy>
-	<width>501</width>
-	<height>501</height>
+	<posx>727</posx>
+	<posy>159</posy>
+	<width>450</width>
+	<height>450</height>
 	<aspectratio>keep</aspectratio>
 	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(450).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 </control>
-<!-- list -->
+<!-- List Control -->
 <control type="list" id="450">
-	<posx>33</posx>
-	<posy>158</posy>
+	<posx>32</posx>
+	<posy>159</posy>
 	<width>560</width>
 	<height>450</height>
 	<onleft>PageUp</onleft>
@@ -64,16 +61,15 @@
 	<onup>450</onup>
 	<ondown>450</ondown>
 	<viewtype label="List">List</viewtype>
-	<pagecontrol>70</pagecontrol>
 	<scrolltime>150</scrolltime>
-	<preloaditems>6</preloaditems>
+	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="560">
 		<control type="label">
 			<posx>14</posx>
 			<posy>0</posy>
 			<width>532</width>
 			<height>30</height>
-			<font>size_23</font>
+			<font>size_21</font>
 			<textcolor>FF969696</textcolor>
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
@@ -96,7 +92,7 @@
 			<posy>0</posy>
 			<width>532</width>
 			<height>30</height>
-			<font>size_23</font>
+			<font>size_21</font>
 			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
@@ -105,14 +101,3 @@
 		</control>
 	</focusedlayout>
 </control>
-<control type="image">
-	<posx>0</posx>
-	<posy>662</posy>
-	<width>1280</width>
-	<height>58</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-	<texture background="true">layouts/art/help_background.png</texture>
-</control>
-<!-- bottom buttons overlay -->
-<include>ContextButtonsFAVS</include>

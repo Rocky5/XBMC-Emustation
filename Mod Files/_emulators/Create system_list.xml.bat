@@ -28,8 +28,8 @@ md xbox
 (
 	Echo 	^<item id^="2"^>
 	Echo 		^<label^>$INFO^[Skin.String^(favs_games^)^]^</label^>
-	Echo 		^<label2^>^$LOCALIZE^[1036^]^</label2^>
-	Echo 		^<onclick^>ActivateWindow^(134^)^</onclick^>
+	Echo 		^<label2^>favs^</label2^>
+	Echo 		^<onclick^>RunScript^(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py^)^</onclick^>
 	Echo 		^<icon^>layouts/favourites/art/system_art.png^</icon^>
 	Echo 		^<thumb^>layouts/favourites/art/logo.png^</thumb^>
 	Echo 	^</item^>

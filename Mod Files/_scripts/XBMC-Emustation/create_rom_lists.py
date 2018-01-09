@@ -74,6 +74,7 @@ def Main_Code():
 			Jump_Counter = 8000
 			Starts_with_0 = 0; Starts_with_A = 0; Starts_with_B = 0; Starts_with_C = 0; Starts_with_D = 0; Starts_with_E = 0; Starts_with_F = 0; Starts_with_G = 0; Starts_with_H = 0; Starts_with_I = 0; Starts_with_J = 0; Starts_with_K = 0; Starts_with_L = 0; Starts_with_M = 0; Starts_with_N = 0; Starts_with_O = 0; Starts_with_P = 0; Starts_with_Q = 0; Starts_with_R = 0; Starts_with_S = 0; Starts_with_T = 0; Starts_with_U = 0; Starts_with_V = 0; Starts_with_W = 0; Starts_with_X = 0; Starts_with_Y = 0; Starts_with_Z = 0;
 			RomListCount = 0
+			RenameCount = 0
 			ZipCount = 0
 			Parse_CUE_CCD_ISO_File = 0
 			Parse_ISO_BIN_IMG_File = 0
@@ -194,6 +195,18 @@ def Main_Code():
 						else:
 							pDialog.create( "Auto Scan Mode","Initializing" )
 					log('|--------------------------------------------------------------------------------')
+					log('|	Checking filenames case and not leading with capital renaming it to do so.')
+					log('|--------------------------------------------------------------------------------')
+					for Roms in sorted( os.listdir( Roms_Folder ) ):
+						Items_Full_Path = os.path.join( Roms_Folder, Roms )
+						if Items_Full_Path != os.path.join( Roms_Folder, Roms.lower() ):
+							tempname = Items_Full_Path[:-1]
+							if not os.path.isfile( tempname ):
+								os.rename( Items_Full_Path,  tempname )
+								os.rename( tempname,  os.path.join( Roms_Folder, Roms.lower() ) )
+								pDialog.update((RenameCount * 100) / len( os.listdir( Roms_Folder ) ),"Lower-casing rom names.","[B]" + Roms + "[/B]" ,"This can take some time, please be patient." )
+								RenameCount = RenameCount + 1
+					log('|--------------------------------------------------------------------------------')
 					log('|	Setting a var again :/')
 					log('|--------------------------------------------------------------------------------')
 					Found_Roms = 1
@@ -267,17 +280,6 @@ def Main_Code():
 					log('|	Listing the content of the roms folder for parsing.')
 					log('|--------------------------------------------------------------------------------')
 					for Items in sorted( os.listdir( Roms_Folder ) ):
-						log('|--------------------------------------------------------------------------------')
-						log('|	Checking filenames case and not leading with capital renaming it to do so.')
-						log('|--------------------------------------------------------------------------------')
-						Items_Full_Path = os.path.join( Roms_Folder, Items )
-						if os.path.isfile( Items_Full_Path ):
-							if Items_Full_Path != os.path.join( Roms_Folder, Items.lower() ):
-								tempname = Items_Full_Path[:-1]
-								if not os.path.isfile( tempname ):
-									os.rename( Items_Full_Path,  tempname )
-									os.rename( tempname,  os.path.join( Roms_Folder, Items.lower() ) )
-									Items = Items.lower()
 						log('|--------------------------------------------------------------------------------')
 						log('|	Checking the file I find, extension agains my table.')
 						log('|--------------------------------------------------------------------------------')

@@ -1,63 +1,120 @@
-<!-- ================== -->
-<!-- Custom Layout file -->
-<!-- ================== -->
 <!-- background images -->
 <control type="image">
-	<description>top bar</description>
-	<posx>0</posx>
+	<description>top bar behind logo</description>
+	<posx>27</posx>
 	<posy>0</posy>
-	<width>1280</width>
-	<height>113</height>
+	<width>582</width>
+	<height>100</height>
 	<aspectratio>stretch</aspectratio>
-	<colordiffuse>73000000</colordiffuse>
+	<colordiffuse>FF000000</colordiffuse>
 	<texture>background diffuse.png</texture>
+	<animation effect="fade" start="75" end="75" time="0" condition="true">Conditional</animation>
 </control>
 <control type="image">
-	<description>top coloured bar</description>
-	<posx>0</posx>
-	<posy>115</posy>
-	<width>1280</width>
+	<description>top bar behind logo</description>
+	<posx>27</posx>
+	<posy>0</posy>
+	<width>582</width>
+	<height>100</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<animation effect="fade" start="25" end="25" time="0" condition="true">Conditional</animation>
+</control>
+<control type="image">
+	<description>bar under logo</description>
+	<posx>27</posx>
+	<posy>101</posy>
+	<width>582</width>
 	<height>4</height>
 	<aspectratio>stretch</aspectratio>
 	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
-<!-- logo image -->
+<control type="image">
+	<description>left bar bar</description>
+	<posx>23</posx>
+	<posy>0</posy>
+	<width>4</width>
+	<height>673</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<control type="image">
+	<description>right bar bar</description>
+	<posx>609</posx>
+	<posy>0</posy>
+	<width>4</width>
+	<height>673</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>	
+<!-- Other images -->
 <control type="image">
 	<description>logo</description>
-	<posx>32</posx>
-	<posy>20</posy>
-	<width>492</width>
-	<height>72</height>
-	<aspectratio align="left">keep</aspectratio>
+	<posx>37</posx>
+	<posy>12.5</posy>
+	<width>562</width>
+	<height>71</height>
+	<aspectratio>keep</aspectratio>
 	<texture>layouts/favourites/art/logo.png</texture>
 </control>
 <control type="image">
-	<description>controller</description>
-	<posx>1000</posx>
-	<posy>5</posy>
-	<width>280</width>
-	<height>100</height>
-	<aspectratio align="left">keep</aspectratio>
-	<texture>layouts/favourites/art/system_art_small.png</texture>
-	<animation effect="fade" start="100" end="100" time="0" condition="true">Conditional</animation>
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture background="true">layouts/art/help_background.png</texture>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsFAVS</include>
+<include>ContextButtonsVideo</include>
+<!-- Full name, publisher info eg... -->
+<control type="textbox">
+	<posx>696</posx>
+	<posy>410</posy>
+	<width>502</width>
+	<height>44</height>
+	<font>size_17</font>
+	<textcolor>FF969696</textcolor>
+	<align>center</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="5000" time="2000" repeat="1000" condition="Container(450).HasFocus">Conditional</autoscroll>
+	<label>[B][UPPERCASE]$INFO[Container(450).ListItem.Label2][/UPPERCASE][/B]</label>
+</control>
+<!-- Game description (Synopsis) -->
+<control type="textbox">
+	<posx>700</posx>
+	<posy>455</posy>
+	<width>496</width>
+	<height>192</height>
+	<font>size_15</font>
+	<textcolor>FF969696</textcolor>
+	<align>center</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="5000" time="1500" repeat="5000" condition="Container(450).HasFocus">Conditional</autoscroll>
+	<label>[B][UPPERCASE]$INFO[Container(450).ListItem.ActualIcon][/UPPERCASE][/B]</label>
 </control>
 <!-- thumbnail image -->
 <control type="image">
-	<posx>686</posx>
-	<posy>140</posy>
-	<width>501</width>
-	<height>501</height>
+	<posx>727</posx>
+	<posy>111</posy>
+	<width>450</width>
+	<height>450</height>
 	<aspectratio>keep</aspectratio>
 	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(450).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 </control>
 <!-- list -->
 <control type="list" id="450">
-	<posx>33</posx>
-	<posy>158</posy>
-	<width>560</width>
-	<height>450</height>
+	<posx>27</posx>
+	<posy>104</posy>
+	<width>582</width>
+	<height>570</height>
 	<onleft>PageUp</onleft>
 	<onright>PageDown</onright>
 	<onup>450</onup>
@@ -66,34 +123,45 @@
 	<pagecontrol>70</pagecontrol>
 	<scrolltime>150</scrolltime>
 	<preloaditems>6</preloaditems>
-	<itemlayout height="30" width="560">
+	<itemlayout height="30" width="582">
 		<control type="label">
-			<posx>14</posx>
+			<posx>5</posx>
 			<posy>0</posy>
-			<width>532</width>
+			<width>573</width>
 			<height>30</height>
 			<font>size_23</font>
-			<textcolor>FF969696</textcolor>
+			<textcolor>55BDBDBD</textcolor>
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
 		</control>
 	</itemlayout>
-	<focusedlayout height="30" width="560">
+	<focusedlayout height="30" width="582">
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>560</width>
+			<width>588</width>
 			<height>31</height>
 			<aspectratio>stretch</aspectratio>
-			<colordiffuse>FF1C1C1C</colordiffuse>
+			<colordiffuse>FF000000</colordiffuse>
 			<texture border="1">background diffuse.png</texture>
+			<animation effect="fade" start="75" end="75" time="0" condition="true">Conditional</animation>
+		</control>
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>588</width>
+			<height>31</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+			<animation effect="fade" start="35" end="35" time="0" condition="true">Conditional</animation>
 		</control>
 		<control type="label">
-			<posx>14</posx>
+			<posx>5</posx>
 			<posy>0</posy>
-			<width>532</width>
+			<width>573</width>
 			<height>30</height>
 			<font>size_23</font>
 			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
@@ -104,14 +172,3 @@
 		</control>
 	</focusedlayout>
 </control>
-<control type="image">
-	<posx>0</posx>
-	<posy>662</posy>
-	<width>1280</width>
-	<height>58</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-	<texture background="true">layouts/art/help_background.png</texture>
-</control>
-<!-- bottom buttons overlay -->
-<include>ContextButtonsFAVS</include>

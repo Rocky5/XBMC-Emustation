@@ -1,55 +1,53 @@
-<!-- ================== -->
-<!-- Custom Layout file -->
-<!-- ================== -->
-<!-- background images -->
+<!-- Top Underlay Image -->
 <control type="image">
-	<description>top bar</description>
 	<posx>0</posx>
 	<posy>0</posy>
 	<width>1280</width>
-	<height>113</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>73000000</colordiffuse>
-	<texture>background diffuse.png</texture>
-</control>
-<control type="image">
-	<description>top coloured bar</description>
-	<posx>0</posx>
-	<posy>115</posy>
-	<width>1280</width>
-	<height>4</height>
+	<height>115</height>
 	<aspectratio>stretch</aspectratio>
 	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-	<texture>background diffuse.png</texture>
+	<texture border="2">layouts/art/top_bar.png</texture>
 </control>
-<!-- logo image -->
+<!-- System Logo -->
 <control type="image">
 	<description>logo</description>
-	<posx>32</posx>
+	<posx>30</posx>
 	<posy>20</posy>
-	<width>492</width>
+	<width>490</width>
 	<height>72</height>
 	<aspectratio align="left">keep</aspectratio>
 	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
 </control>
 <control type="image">
 	<description>controller</description>
-	<posx>1000</posx>
-	<posy>5</posy>
-	<width>280</width>
-	<height>100</height>
-	<aspectratio align="left">keep</aspectratio>
+	<posx>995</posx>
+	<posy>0</posy>
+	<width>190</width>
+	<height>110</height>
+	<aspectratio>keep</aspectratio>
 	<texture>layouts/$INFO[Skin.String(emuname)]/art/system_art_small.png</texture>
-	<animation effect="fade" start="100" end="100" time="0" condition="true">Conditional</animation>
+	<animation effect="fade" start="100" end="65" time="0" condition="true">Conditional</animation>
 </control>
-<!-- synopsis -->
-<!-- This is the game description and hits eg... -->
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>layouts/art/help_background.png</texture>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsEmulators</include>
+<include>ContextButtonsVideo</include>
+<!-- Game description (Synopsis) -->
 <control type="textbox">
 	<posx>32</posx>
-	<posy>395</posy>
+	<posy>424</posy>
 	<width>723</width>
-	<height>240</height>
-	<font>size_15</font>
+	<height>207</height>
+	<font>size_17</font>
 	<textcolor>FF969696</textcolor>
 	<align>left</align>
 	<scrolltime>200</scrolltime>
@@ -59,54 +57,55 @@
 <!-- thumbnail image -->
 <control type="image">
 	<posx>32</posx>
-	<posy>158</posy>
+	<posy>159</posy>
 	<width>710</width>
 	<height>227</height>
 	<aspectratio>keep</aspectratio>
 	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 </control>
+<!-- Video Window Background -->
 <control type="image">
 	<description>video preview window background</description>
 	<posx>32</posx>
-	<posy>158</posy>
+	<posy>159</posy>
 	<width>710</width>
 	<height>227</height>
 	<aspectratio>stretch</aspectratio>
 	<texture>thumbnf.png</texture>
 	<visible>Player.HasVideo</visible>
 </control>
+<!-- Video Window -->
 <control type="videowindow">
 	<description>video preview window</description>
 	<posx>32</posx>
-	<posy>158</posy>
+	<posy>159</posy>
 	<width>710</width>
 	<height>227</height>
 	<aspectratio>keep</aspectratio>
 	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
 </control>
-<!-- list -->
+<!-- List Control -->
 <control type="list" id="9000">
 	<posx>787</posx>
-	<posy>158</posy>
+	<posy>159</posy>
 	<width>460</width>
-	<height>450</height>
+	<height>482</height>
 	<onleft>PageUp</onleft>
 	<onright>PageDown</onright>
 	<onup>9000</onup>
 	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
-	<pagecontrol>70</pagecontrol>
 	<scrolltime>150</scrolltime>
-	<preloaditems>6</preloaditems>
+	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="460">
 		<control type="label">
 			<posx>14</posx>
 			<posy>0</posy>
 			<width>432</width>
 			<height>30</height>
-			<font>size_23</font>
+			<font>size_21</font>
 			<textcolor>FF969696</textcolor>
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
@@ -129,7 +128,7 @@
 			<posy>0</posy>
 			<width>432</width>
 			<height>30</height>
-			<font>size_23</font>
+			<font>size_21</font>
 			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
@@ -138,33 +137,3 @@
 		</control>
 	</focusedlayout>
 </control>
-<!-- Scroll bar fails to work due to the scrolltime being set to 200 :-/ -->
-<control type="scrollbar" id="70">
-	<posx>1270</posx>
-	<posy>119</posy>
-	<width>10</width>
-	<height>543</height>
-	<texturesliderbackground>-</texturesliderbackground>
-	<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
-	<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
-	<textureslidernib>scrollbar_nib.png</textureslidernib>
-	<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-	<onleft>9000</onleft>
-	<showonepage>false</showonepage>
-	<orientation>vertical</orientation>
-	<visible>false</visible>
-	<animation reversible="true" effect="fade" start="0" end="100" delay="" time="300">visible</animation>
-	<animation reversible="true" effect="fade" start="100" end="0" delay="" time="300">hidden</animation>
-</control>
-<control type="image">
-	<posx>0</posx>
-	<posy>662</posy>
-	<width>1280</width>
-	<height>58</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-	<texture background="true">layouts/art/help_background.png</texture>
-</control>
-<!-- bottom buttons overlay -->
-<include>ContextButtonsEmulators</include>
-<include>ContextButtonsVideo</include>

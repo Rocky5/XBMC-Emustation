@@ -232,23 +232,24 @@ Footer_Data_XBE					= '\n\
 	</control>\n\
 	</controls>\n\
 	</window>'
-if EMU_Files == 1:
+	
+if EMU_Files == 1 or FAV_Files == 1:
 	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 		if os.path.isfile( Custom_Synopsis_Layout ):
 			Layout_XML_Path				= Custom_Synopsis_Layout
 		else:
 			if os.path.isfile( Default_Synopsis_Layout ):
-				Layout_XML_Path			= Default_Synopsis_Layout
+				Default_Layout_XML_Path	= Default_Synopsis_Layout
 			else:
-				Layout_XML_Path			= Default_No_Synopsis_Layout
+				Default_Layout_XML_Path	= Default_No_Synopsis_Layout
 	elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
 		if os.path.isfile( Custom_Thumb_Layout ):
 			Layout_XML_Path				= Custom_Thumb_Layout
 		else:
 			if os.path.isfile( Default_Thumb_Layout ):
-				Layout_XML_Path			= Default_Thumb_Layout
+				Default_Layout_XML_Path	= Default_Thumb_Layout
 			else:
-				Layout_XML_Path			= Default_No_Thumb_Layout
+				Default_Layout_XML_Path	= Default_No_Thumb_Layout
 	else:
 		if os.path.isfile( Custom_Layout ):
 			Layout_XML_Path				= Custom_Layout
@@ -256,73 +257,7 @@ if EMU_Files == 1:
 			Default_Layout_XML_Path		= Default_Layout
 		else:
 			Default_Layout_XML_Path		= Default_No_Layout
-	if os.path.isfile( os.path.join( Rom_List_Path,MenuLabel + '.xml' ) ):
-		## this is here so not to mess with the actual menulabel
-		if not os.path.isfile( Layout_XML_Path ):
-			MenuLabel_XML = "default"
-		else:
-			MenuLabel_XML = MenuLabel
-		Header_Data = Header_Data_EMU % ( MenuLabel_XML, MenuLabel_XML, MenuLabel_XML, ThemeType  )
-		if os.path.isfile( Layout_XML_Path ):
-			try:
-				with open( Layout_XML_Path ) as layoutfile:
-					with open(MyPrograms_Path, "w") as inputfile:
-						inputfile.write( Header_Data )
-						for code in layoutfile:
-							inputfile.write( code )
-						inputfile.write( Footer_Data_EMU )
-				with open( Rom_List_Path + MenuLabel + '.xml' ) as countfile:
-					countfile = countfile.read()
-					for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
-						if '</focusedlayout>' in line:
-							line = line.replace(line,line+countfile)
-						print line,
-				with open(_Script_Jump_Path, "w") as inputfile:
-					inputfile.write( Jump_File_Data )
-				with open( Rom_List_Path + MenuLabel + '_jump.xml' ) as jumpfile:
-					jumpfile = jumpfile.read()
-					for line in fileinput.FileInput(_Script_Jump_Path,inplace=1):
-						if '<!-- jumpcode -->' in line:
-							line = line.replace(line,line+jumpfile)
-						print line,
-			except:
-				pass
-			xbmc.executebuiltin( 'ActivateWindow(Programs,Static_Menu,return)' )
-		elif os.path.isfile( Default_Layout_XML_Path ):
-			try:
-				with open( Default_Layout_XML_Path ) as layoutfile:
-					with open(MyPrograms_Path, "w") as inputfile:
-						inputfile.write( Header_Data )
-						for code in layoutfile:
-							inputfile.write( code )
-						inputfile.write( Footer_Data_EMU )	
-				with open( Rom_List_Path + MenuLabel + '.xml' ) as countfile:
-					countfile = countfile.read()
-					for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
-						if '</focusedlayout>' in line:
-							line = line.replace(line,line+countfile)
-						print line,
-				with open(_Script_Jump_Path, "w") as inputfile:
-					inputfile.write( Jump_File_Data )
-				with open( Rom_List_Path + MenuLabel + '_jump.xml' ) as jumpfile:
-					jumpfile = jumpfile.read()
-					for line in fileinput.FileInput(_Script_Jump_Path,inplace=1):
-						if '<!-- jumpcode -->' in line:
-							line = line.replace(line,line+jumpfile)
-						print line,
-			except:
-				pass
-			xbmc.executebuiltin( 'ActivateWindow(Programs,Static_Menu,return)' )
-		else:	# default layout is missing so error!
-			xbmc.executebuiltin('SetFocus(9000)')
-			dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XML_Path )
-	else:	# default layout is missing so error!
-		xbmc.executebuiltin('SetFocus(9000)')
-		dialog.ok("ERROR","No rom list found","Rescan this emulator for roms to fix.",os.path.join( Rom_List_Path,MenuLabel + '.xml' ))
-else:		
-	xbmc.executebuiltin('SetFocus(9000)')
-	
-if XBE_Files == 1:
+else:
 	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 		if os.path.isfile( Custom_Synopsis_Layout ):
 			Layout_XML_Path				= Custom_Synopsis_Layout
@@ -346,70 +281,83 @@ if XBE_Files == 1:
 			Default_Layout_XML_Path		= XBE_Default_Layout
 		else:
 			Default_Layout_XML_Path		= XBE_Default_No_Layout
-	## this is here so not to mess with the actual menulabel
-	if not os.path.isfile( Layout_XML_Path ):
-		MenuLabel_XML = "default"
-	else:
-		MenuLabel_XML = MenuLabel
-	Header_Data = Header_Data_XBE % ( MenuLabel_XML, MenuLabel_XML, MenuLabel_XML, ThemeType  )
-	if os.path.isfile( Layout_XML_Path ):
-		with open( Layout_XML_Path	) as layoutfile:
-			with open(MyPrograms_Path, "w") as inputfile:
-				inputfile.write( Header_Data )		
-				for code in layoutfile:
-					inputfile.write( code )			
-				inputfile.write( Footer_Data_XBE )
-				xbmc.executebuiltin( 'ActivateWindow(Programs,'+ MenuLabel +',return)' )	
-	elif os.path.isfile( Default_Layout_XML_Path ):
-		with open( Default_Layout_XML_Path ) as layoutfile:
-			with open(MyPrograms_Path, "w") as inputfile:
-				inputfile.write( Header_Data )		
-				for code in layoutfile:
-					inputfile.write( code )			
-				inputfile.write( Footer_Data_XBE )
-				xbmc.executebuiltin( 'ActivateWindow(Programs,'+ MenuLabel +',return)' )
+	
+if os.path.isfile( Layout_XML_Path ):
+	Layout_File =  Layout_XML_Path
+elif os.path.isfile( Default_Layout_XML_Path ):
+	Layout_File =  Default_Layout_XML_Path
+else:	# default layout is missing so error!
+	EMU_Files = 0; FAV_Files = 0; XBE_Files = 0;
+	xbmc.executebuiltin('SetFocus(9000)')
+	dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XML_Path )
+	
+if EMU_Files == 1:
+	if os.path.isfile( os.path.join( Rom_List_Path,MenuLabel + '.xml' ) ):
+		## this is here so not to mess with the actual menulabel
+		if not os.path.isfile( Layout_XML_Path ):
+			MenuLabel_XML = "default"
+		else:
+			MenuLabel_XML = MenuLabel
+		Header_Data = Header_Data_EMU % ( MenuLabel_XML, MenuLabel_XML, MenuLabel_XML, ThemeType  )
+		try:
+			with open( Layout_File ) as layoutfile:
+				with open(MyPrograms_Path, "w") as inputfile:
+					inputfile.write( Header_Data )
+					for code in layoutfile:
+						inputfile.write( code )
+					inputfile.write( Footer_Data_EMU )
+			with open( Rom_List_Path + MenuLabel + '.xml' ) as countfile:
+				countfile = countfile.read()
+				for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
+					if '</focusedlayout>' in line:
+						line = line.replace(line,line+countfile)
+					print line,
+			with open(_Script_Jump_Path, "w") as inputfile:
+				inputfile.write( Jump_File_Data )
+			with open( Rom_List_Path + MenuLabel + '_jump.xml' ) as jumpfile:
+				jumpfile = jumpfile.read()
+				for line in fileinput.FileInput(_Script_Jump_Path,inplace=1):
+					if '<!-- jumpcode -->' in line:
+						line = line.replace(line,line+jumpfile)
+					print line,
+		except:
+			pass
+		time.sleep(0.5) # delay to make sure the file is written
+		xbmc.executebuiltin( 'ActivateWindow(Programs,Static_Menu,return)' )
 	else:	# default layout is missing so error!
 		xbmc.executebuiltin('SetFocus(9000)')
-		dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XML_Path )
-else:
-	xbmc.executebuiltin('SetFocus(9000)')
-
-if FAV_Files == 1:
-	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
-		if os.path.isfile( Custom_Synopsis_Layout ):
-			Layout_XML_Path				= Custom_Synopsis_Layout
+		dialog.ok("ERROR","No rom list found","Rescan this emulator for roms to fix.",os.path.join( Rom_List_Path,MenuLabel + '.xml' ))
+elif XBE_Files == 1:
+		## this is here so not to mess with the actual menulabel
+		if not os.path.isfile( Layout_XML_Path ):
+			MenuLabel_XML = "default"
 		else:
-			if os.path.isfile( Default_Synopsis_Layout ):
-				Layout_XML_Path			= Default_Synopsis_Layout
-			else:
-				Layout_XML_Path			= Default_No_Synopsis_Layout
-	elif xbmc.getCondVisibility( 'Skin.HasSetting(thumblayout)' ):
-		if os.path.isfile( Custom_Thumb_Layout ):
-			Layout_XML_Path				= Custom_Thumb_Layout
-		else:
-			if os.path.isfile( Default_Thumb_Layout ):
-				Layout_XML_Path			= Default_Thumb_Layout
-			else:
-				Layout_XML_Path			= Default_No_Thumb_Layout
-	else:
-		if os.path.isfile( Custom_Layout ):
-			Layout_XML_Path				= Custom_Layout
-		elif os.path.isfile( Default_Layout ):
-			Default_Layout_XML_Path		= Default_Layout
-		else:
-			Default_Layout_XML_Path		= Default_No_Layout
-	if os.path.isfile( Layout_XML_Path ):
-		with open( Layout_XML_Path ) as layoutfile:
-			with open(FAV_XML_Path, "w") as inputfile:
-				inputfile.write( Header_Data_FAVS )
-				for code in layoutfile:
-					inputfile.write( code )
-				inputfile.write( Footer_Data_FAVS )
+			MenuLabel_XML = MenuLabel
+		Header_Data = Header_Data_XBE % ( MenuLabel_XML, MenuLabel_XML, MenuLabel_XML, ThemeType  )
+		try:
+			with open( Layout_File	) as layoutfile:
+				with open(MyPrograms_Path, "w") as inputfile:
+					inputfile.write( Header_Data )		
+					for code in layoutfile:
+						inputfile.write( code )			
+					inputfile.write( Footer_Data_XBE )
+					inputfile.close
+		except:
+			pass
+		time.sleep(0.5) # delay to make sure the file is written
+		xbmc.executebuiltin( 'ActivateWindow(Programs,'+ MenuLabel +',return)' )
+elif FAV_Files == 1:
+		try:
+			with open( Layout_File ) as layoutfile:
+				with open(FAV_XML_Path, "w") as inputfile:
+					inputfile.write( Header_Data_FAVS )
+					for code in layoutfile:
+						inputfile.write( code )
+					inputfile.write( Footer_Data_FAVS )
+		except:
+			pass
 		xbmc.executebuiltin( 'Skin.SetBool(favsloading)' )
 		time.sleep(0.5) # delay to make it seem like it loading the menu
 		xbmc.executebuiltin( 'ReplaceWindow(favourites)' )
-	else:	# default layout is missing so error!
-		xbmc.executebuiltin('SetFocus(9000)')
-		dialog.ok( "ERROR","Default layout file is missing.",Layout_XML_Path )
-else:		
-	pass
+else:
+	xbmc.executebuiltin( 'SetFocus(9000)' )

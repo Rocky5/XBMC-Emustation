@@ -1,3 +1,19 @@
+7/01/2018
+	1) Updated the code that renames files to lowercase in the "create_rom_lists.py"
+	2) Fixed the menu_loader.py script and optimised it.
+	3) Updated/redone all layouts.
+	4) Updated/redone the context menu buttons.
+	5) Updated the random_select.py script.
+	6) Updated the create_rom_lists.py now when it scans and lower-cases your roms, you will get a dialog and progress.
+		( it will also rename all the files before parsing the roms, this way you dont need to do it twice if you added new roms for example )
+	7) Updated the segacd synopsis zip, fixed some names and added a couple.
+	8) New texture for the carbon theme, so new xpr files.
+	9) Updated the welcome screen, forgot to commit this :/
+	10) New context button images and adjustments to the size eg...
+	11) Updated the Sega emulators to the latest beta. v1b10 Fix
+	12) Fixed a load of the emulators controls, I didn't realise the default file hold the controls also :/
+	
+
 6/01/2018
 	1) Now when you launch a rom it will take you back to its position if you have load last system roms list enabled.
 	2) Fixed the menu_loader.py script

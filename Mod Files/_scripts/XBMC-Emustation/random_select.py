@@ -9,8 +9,9 @@ if MenuLabel == "apps" or MenuLabel == "xbox" or MenuLabel == "homebrew" or Menu
 if XBE_Files == "0": ID			= "9000"
 if XBE_Files == "1": ID			= "50"	
 Get_Item_Count	= int(xbmc.getInfoLabel('Container(' + ID + ').NumItems'))
-
+Random 			= str(random.randrange(0,Get_Item_Count,1))
 if xbmc.getCondVisibility( 'Window.IsVisible(Home)' ):
-	xbmc.executebuiltin('SetFocus('+ID+ ','+str(random.randrange(0,Get_Item_Count,1))+')')
+	xbmc.executebuiltin('SetFocus('+ID+','+Random+')')
 else:
-	if Get_Item_Count >= 10: xbmc.executebuiltin('SetFocus('+ID+ ','+str(random.randrange(0,Get_Item_Count,1))+')')
+	if Get_Item_Count >= 10:
+		xbmc.executebuiltin('SetFocus('+ID+','+Random+')')

@@ -18,9 +18,9 @@
 	</control>
 	<control type="image">
 		<posx>0</posx>
-		<posy>662</posy>
+		<posy>47r</posy>
 		<width>1280</width>
-		<height>58</height>
+		<height>47</height>
 		<aspectratio>stretch</aspectratio>
 		<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 		<texture>layouts/art/help_background.png</texture>

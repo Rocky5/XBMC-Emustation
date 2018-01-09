@@ -22,6 +22,6 @@
 		<color name="carousel_bar_label">FF403F3C</color>
 		<color name="carousel_bar_alt_label">FFFFFFFF</color>
 		<!-- button context label colours -->
-		<color name="contextbuttonslayouts">CC767676</color>
-		<color name="contextbuttonshome">CCd1d1d1</color>
+		<color name="contextbuttonslayouts">FF6E6E6E</color>
+		<color name="contextbuttonshome">FFC0C0C2</color>
 </colors>
