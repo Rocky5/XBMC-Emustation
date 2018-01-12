@@ -1,11 +1,11 @@
-<window type="window" id="1113">
+<window type="dialog" id="1113">
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<onload condition="!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout)">SetFocus(1)</onload>
 		<onload condition="Skin.HasSetting(synopsislayout)">SetFocus(2)</onload>
 		<onload condition="Skin.HasSetting(thumblayout)">SetFocus(3)</onload>
 		<controls>
-				<include>CommonBackground</include>
 				<control type="group">
+						<visible>!Window.IsActive(1300)</visible>
 						<posy>41.5</posy>
 						<control type="image">
 								<description>background image</description>
@@ -127,7 +127,6 @@
 										<label>$LOCALIZE[32024]</label>
 										<include>MenuFolderButtonCommonValues</include>
 										<onclick>ActivateWindow(1300)</onclick>
-										<onclick>Dialog.Close(1113,true)</onclick>
 								</control>
 						</control>
 				</control>

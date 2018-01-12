@@ -62,6 +62,9 @@
 #### Voidsentinel
  For the 3 cartridge images I used for the favourites logo - [Deviantart](https://voidsentinel.deviantart.com/gallery/43806141/Video-Game-Icons)
  
+#### TMNTturtleguy
+ For the awesome theme ComicBook for EmulationStation [GitHub](https://github.com/TMNTturtleguy/es-theme-ComicBook)
+ 
 #### Testers
  Feedback and suggestions.
  * Mikeaton

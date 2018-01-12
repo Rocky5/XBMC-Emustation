@@ -1,7 +1,6 @@
-<window type="window" id="1114">
+<window type="dialog" id="1114">
 		<defaultcontrol always="true">2</defaultcontrol>
 		<controls>
-				<include>CommonBackground</include>
 				<control type="group">
 						<posy>17</posy>
 						<control type="image">

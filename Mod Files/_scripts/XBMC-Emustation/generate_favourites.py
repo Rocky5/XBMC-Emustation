@@ -29,26 +29,28 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 			Scripts_Path 				= Root_Directory + '_scripts\\xbmc-emustation\\'
 			Rom_List_File				= Root_Directory + '_scripts\\xbmc-emustation\\rom lists\\'
 			Emulators_Location 			= os.path.join( Emulator_Path, Emulator_name, 'default.xbe' )
-			with open(Rom_List_File + Emulator_name + '_favs.xml') as file:
-				for line in file:
-					if '<favourites>' + Current_name + ',' in line:
-						Rom_Path = line.split(',', 1)[1]
-						Rom_Path = Rom_Path.split('<', 1)[0]
-				file.close
-			#Favourite_String = '<favourite name="[' + Emulator_name + '] ' + Current_name + '\" thumb=\"' + xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ) + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emulators_Location + '&quot;,&quot;' + Rom_Path +'&quot;,1)</favourite>\n</favourites>'
-			Favourite_String = '<favourite name="' + Current_name + '\" thumb=\"' + xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ) + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emulators_Location + '&quot;,&quot;' + Rom_Path +'&quot;,1,0)</favourite>\n</favourites>'
 if not os.path.isfile( Favourites_XML ):
 	f = open(Favourites_XML,"w")
 	f.write("<favourites>\n")
 	f.write("</favourites>")
 	f.close()
-if Rom_Path in open(Favourites_XML).read():
-	xbmc.executebuiltin("Notification(DOH!,This rom has already been added.)")
+if os.path.isfile( Rom_List_File + Emulator_name + '_favs.xml' ):
+	with open(Rom_List_File + Emulator_name + '_favs.xml') as file:
+		for line in file:
+			if '<favourites>' + Current_name + ',' in line:
+				Rom_Path = line.split(',', 1)[1]
+				Rom_Path = Rom_Path.split('<', 1)[0]
+	Favourite_String_Emuname = '<favourite name="[' + Emulator_name + '] ' + Current_name + '\" thumb=\"' + xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ) + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emulators_Location + '&quot;,&quot;' + Rom_Path +'&quot;,1)</favourite>\n</favourites>'
+	Favourite_String = '<favourite name="' + Current_name + '\" thumb=\"' + xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ) + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emulators_Location + '&quot;,&quot;' + Rom_Path +'&quot;,1,0)</favourite>\n</favourites>'
+	if Rom_Path in open(Favourites_XML).read():
+		xbmc.executebuiltin("Notification(DOH!,This rom has already been added.)")
+	else:
+		for line in fileinput.input(Favourites_XML, inplace=1):
+			line = line.replace('</favourites>', Favourite_String)
+			line = line.replace('<favourites />', '<favourites>\n' + Favourite_String)
+			print line,
+		xbmc.executebuiltin("Notification(" + Current_name.upper() + ",Has been added to your favourites.)")
+		xbmc.executebuiltin('RunScript(' + Scripts_Path + 'update_favs_counter.py)' )
 else:
-	for line in fileinput.input(Favourites_XML, inplace=1):
-		line = line.replace('</favourites>', Favourite_String)
-		line = line.replace('<favourites />', '<favourites>\n' + Favourite_String)
-		print line,
-	xbmc.executebuiltin("Notification(" + Current_name + ",Has been added to your favourites.)")
-	xbmc.executebuiltin('RunScript(' + Scripts_Path + 'update_favs_counter.py)' )
+	xbmc.executebuiltin("Notification(ERROR,Please rescan your roms.)")
 xbmc.executebuiltin('SetFocus(9000)')

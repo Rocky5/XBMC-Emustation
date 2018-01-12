@@ -129,7 +129,7 @@
 										<onright>9000</onright>
 										<onup>-</onup>
 										<ondown>-</ondown>
-										<scrolltime>400</scrolltime>
+										<scrolltime>350</scrolltime>
 										<focusposition>1</focusposition>
 										<movement>1</movement>
 										<preloaditems>0</preloaditems>

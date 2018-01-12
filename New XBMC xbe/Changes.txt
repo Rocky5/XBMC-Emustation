@@ -19,3 +19,4 @@
 15) Removed the remove favourite from the context menu, due to the roms menus not having this feature.
 16) When you add favourites or remove them it will now run a script to update the counter for the main menu.
 17) Fixed the setting a new language, forgot to change a path.
+18) Moved the sounds folder into the default skin sounds folder, so now you can add custom sound effects for themes and select them seamlessly.

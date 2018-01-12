@@ -141,7 +141,6 @@ def Main_Code():
 			with open( Rom_List_Path + Emu_Name + '.xml', "wb") as outputmenufile:
 				WriteMenuFile = menu_entry_header
 				outputmenufile.write( WriteMenuFile )
-				outputmenufile.close
 			log('|--------------------------------------------------------------------------------')
 			log('|	Check to make sure the xbe files exists.')
 			log('|--------------------------------------------------------------------------------')
@@ -229,17 +228,17 @@ def Main_Code():
 					log('|	Check if mame was found and change it rom path to where the roms are located.')
 					log('|--------------------------------------------------------------------------------')
 					if Change_Mame_Rom_Path == 1:
-						if os.path.isfile("E:\\TDATA\\4d414d46\\SYSTEM\\MAMEoX.ini"):
-							for line in fileinput.input("E:\\TDATA\\4d414d46\\SYSTEM\\MAMEoX.ini", inplace=1):
+						if not os.path.isdir(os.path.join( Emu_Path, "system")):
+							os.makedirs( os.path.join( Emu_Path, "system") )
+							if os.path.isfile(os.path.join( Emu_Path, "general\\DRIVERS.list" )): shutil.copy2(os.path.join( Emu_Path, "general\\DRIVERS.list" ), os.path.join( Emu_Path, "system") )
+						if os.path.isfile(os.path.join( Emu_Path, "system\\MAMEoX.ini")):
+							for line in fileinput.input(os.path.join( Emu_Path, "system\\MAMEoX.ini"), inplace=1):
 								if 'RomsPath0 = ' in line:
 									line = line = 'RomsPath0 = ' + Roms_Folder + '\n'
 								print line,
 							Change_Mame_Rom_Path = 0
 						else:
-							if not os.path.isdir( "E:\\TDATA\\4d414d46\\SYSTEM" ):
-								os.makedirs( "E:\\TDATA\\4d414d46\\SYSTEM" )
-								if os.path.isfile(os.path.join( Emu_Path, 'general\\DRIVERS.list' )): shutil.copy2(os.path.join( Emu_Path, 'general\\DRIVERS.list' ), "E:\\TDATA\\4d414d46\\SYSTEM\\" )
-							with open( "E:\\TDATA\\4d414d46\\SYSTEM\\MAMEoX.ini", "w") as outputmamefile:
+							with open( os.path.join( Emu_Path, "system\\MAMEoX.ini"), "w") as outputmamefile:
 								WriteMameFile = mame_config % ( Roms_Folder )
 								outputmamefile.write( WriteMameFile )
 							Change_Mame_Rom_Path = 0
@@ -533,7 +532,6 @@ def Main_Code():
 									else:
 										WriteMenuFile = favourites_entry % (Rom_Name_noext,Rom_Path)
 									favsmenufile.write( WriteMenuFile )
-									favsmenufile.close
 								log('|--------------------------------------------------------------------------------')
 								log('|	Write menu entry for quick jump')
 								log('|--------------------------------------------------------------------------------')
@@ -700,7 +698,6 @@ def Main_Code():
 											Starts_with_Z = 1
 											Jump_Counter = Jump_Counter + 1
 											outputmenuselectfile.write( WriteSearchFile )
-									outputmenuselectfile.close
 								log('|--------------------------------------------------------------------------------')
 								log('|	Add 1 to the Countlist and JumpList.')
 								log('|--------------------------------------------------------------------------------')
@@ -715,8 +712,8 @@ def Main_Code():
 						if os.path.isfile( os.path.join( Rom_List_Path, Emu_Name + '_favs.xml' ) ): os.remove( os.path.join( Rom_List_Path, Emu_Name + '_favs.xml' ) )
 						if os.path.isfile( os.path.join( Rom_List_Path, Emu_Name + '_jump.xml' ) ): os.remove( os.path.join( Rom_List_Path, Emu_Name + '_jump.xml' ) )
 					if Emu_Name == "mame":
-						if os.path.isfile( 'E:\\TDATA\\4d414d46\\SYSTEM\\ROMS.list' ): os.remove( 'E:\\TDATA\\4d414d46\\SYSTEM\\ROMS.list' )
-						if os.path.isfile( 'E:\\TDATA\\4d414d46\\SYSTEM\\ROMS.metadata' ): os.remove( 'E:\\TDATA\\4d414d46\\SYSTEM\\ROMS.metadata' )
+						if os.path.isfile( os.path.join( Emu_Path, "system\\ROMS.list" )): os.remove( os.path.join( Emu_Path, "system\\ROMS.list" ))
+						if os.path.isfile( os.path.join( Emu_Path, "system\\ROMS.metadata" )): os.remove( os.path.join( Emu_Path, "system\\ROMS.metadata" ))
 						if os.path.isfile( os.path.join( Rom_List_Path, Emu_Name + '.xml' ) ): os.remove( os.path.join( Rom_List_Path, Emu_Name + '.xml' ) )
 						if os.path.isfile( os.path.join( Rom_List_Path, Emu_Name + '_favs.xml' ) ): os.remove( os.path.join( Rom_List_Path, Emu_Name + '_favs.xml' ) )
 						if os.path.isfile( os.path.join( Rom_List_Path, Emu_Name + '_jump.xml' ) ): os.remove( os.path.join( Rom_List_Path, Emu_Name + '_jump.xml' ) )	
@@ -726,7 +723,6 @@ def Main_Code():
 				with open( Rom_List_Path + Emu_Name + '.xml', "a") as outputmenufile:
 					WriteMenuFile = menu_entry_footer
 					outputmenufile.write( WriteMenuFile )
-					outputmenufile.close
 			else:
 				if os.path.isfile( os.path.join( Rom_List_Path, Emu_Name + '.xml' ) ): os.remove( os.path.join( Rom_List_Path, Emu_Name + '.xml' ) )
 			log('|--------------------------------------------------------------------------------')		

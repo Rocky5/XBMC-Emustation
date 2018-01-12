@@ -1233,7 +1233,7 @@ HRESULT CApplication::Initialize()
   CreateDirectory("Q:\\system\\language", NULL);
   CreateDirectory("Q:\\system\\screenshots", NULL);
   CreateDirectory("Q:\\system\\visualisations", NULL);
-  CreateDirectory("Q:\\system\\sounds", NULL);
+  CreateDirectory("Q:\\default skin\\sounds", NULL);
   CreateDirectory("Q:\\system\\visualisations",NULL);
 
   // initialize network

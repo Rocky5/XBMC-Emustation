@@ -54,8 +54,6 @@ if os.path.isfile( Layout_File ):
 				for code in layoutfile:
 					inputfile.write( code )
 				inputfile.write( Footer_Data )
-				inputfile.close()
-			layoutfile.close()
 	except:
 		pass
 else:
@@ -68,7 +66,6 @@ if os.path.isfile( System_List ):
 					if '</focusedlayout>' in line:
 						line = line.replace(line,line+fin)
 					print line,
-				fin.close()
 	except:
 		pass
 else:

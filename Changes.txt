@@ -1,3 +1,19 @@
+12/01/2018
+	1) Added a check into the generate_favourites.py script to check for the new files required for favourites to function.
+	2) Updated the DialogKaiToast.xml, made the label scroll, changed it size and adjusted the images size also.
+	3) Updated patch_xbe_paths.py to patch xbe files in 1MB chunks, this way large xbe files like mameoxtras.xbe can be patched.
+		( Please patch MameoXtras v2 )
+	4) Added system_art.png for TG16 and TG-CD
+	5) Changed the start menus to dialogs.
+	6) A few other script updates/edits.
+	7) Added support for 5 custom fonts, named custom font 1, 2, 3, 4 or 5.ttf
+	8) Added comicbook theme from TMNTturtleguy for EmulationStation and ported over and updated to XBMC-Emustation by myself.
+	9) New XBE - Moved the sounds folder into the default skin sounds folder, so now you can add custom sound effects for themes and select them seamlessly.
+	10) Disabled background of thumbnails in layouts.
+		( if you feel its to choppy and wan tit smother please let me know and I will change it back, but there is a side effect to backgrounding images. Borders flicker when scrolling. )
+	11) There is other stuff but its trivial and I cant remember what it was exactly :/
+	
+
 9/01/2018
 	1) Updated the code that renames files to lowercase in the "create_rom_lists.py"
 	2) Fixed the menu_loader.py script and optimised it.

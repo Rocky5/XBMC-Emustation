@@ -1,0 +1,1 @@
+place the themes main folder in this folder and drag it onto what ever batch files you want to use.

@@ -28,4 +28,3 @@ else:
 			xbmc.executebuiltin('Skin.SetString(favs_games,0)')
 		else:
 			xbmc.executebuiltin('Skin.SetString(favs_games,' + count + ')')
-		f.close

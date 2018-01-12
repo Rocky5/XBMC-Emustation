@@ -17,7 +17,7 @@ Default_Layout_XML_Path			= "0"
 Layout_XML_Path					= "0"
 
 MenuLabel = xbmc.getInfoLabel('Container(9000).ListItem.Label2')
-if str(xbmcgui.getCurrentWindowId()) == "11111": MenuLabel = xbmc.getInfoLabel('Control.GetLabel(99)')
+if str(xbmcgui.getCurrentWindowDialogId()) == "11111": MenuLabel = xbmc.getInfoLabel('Control.GetLabel(99)')
 if MenuLabel == "dummy label for python script":	MenuLabel = "apps"
 MyPrograms_Path					= xbmc.translatePath( 'special://skin/720p/MyPrograms.xml' )
 _Script_Jump_Path				= xbmc.translatePath( 'special://skin/720p/_script_jumpList.xml' )
@@ -341,10 +341,10 @@ elif XBE_Files == 1:
 					for code in layoutfile:
 						inputfile.write( code )			
 					inputfile.write( Footer_Data_XBE )
-					inputfile.close
 		except:
 			pass
 		time.sleep(0.5) # delay to make sure the file is written
+		xbmc.executebuiltin( 'Dialog.Close(1111,true)' )
 		xbmc.executebuiltin( 'ActivateWindow(Programs,'+ MenuLabel +',return)' )
 elif FAV_Files == 1:
 		try:

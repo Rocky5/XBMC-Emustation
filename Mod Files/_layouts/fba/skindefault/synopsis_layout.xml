@@ -63,7 +63,7 @@
 	<width>710</width>
 	<height>227</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 </control>
 <!-- Video Window Background -->

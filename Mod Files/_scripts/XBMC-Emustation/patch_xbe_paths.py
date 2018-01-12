@@ -18,6 +18,7 @@ else:
 def patch():
 	Select_Emu_Folder = dialog.select( "Select a Emulator folder",sorted( os.listdir( Emulator_Path ) ) )
 	Emu_Path = os.path.join( Emulator_Path, sorted( os.listdir( Emulator_Path ) )[Select_Emu_Folder] ) + "\\"
+	Emu_Name = os.path.split(Emu_Path)[1]
 	if os.path.isfile( os.path.join( Emu_Path, "default.xbe" ) ):
 		Emu_XBE = os.path.join( Emu_Path, "default.xbe" )
 	elif Select_Emu_Folder == -1:
@@ -27,34 +28,35 @@ def patch():
 		return patch()
 	CountList = 1
 	Emu_Name = os.path.split(os.path.dirname( Emu_Path ))[1]
-		
+	XBE_Total = len(glob.glob(r'' + Emu_Path +'*.xbe'))
 	for XBE_File in glob.glob(r'' + Emu_Path +'*.xbe'):
 		if CountList == 1: pDialog.create( "Scanning for Emulators","Initializing" )
-		pDialog.update( ( CountList * 100 ) / len( os.listdir( Emu_Path ) ),"Processing Emulators",XBE_File )
-		# Fastest way of doing it.
-		with open( os.path.join( Emu_Path, XBE_File ), "rb") as inputfile:
-			read_file = inputfile.read()
-		with open( os.path.join( Emu_Path, XBE_File ), "wb") as outputfile:
-			file_content = read_file.replace( 'e:\\s','D:\\S' )
-			file_content = file_content.replace( 'e:\\S','D:\\S' )
-			file_content = file_content.replace( 'E:\\S','D:\\S' )
-			file_content = file_content.replace( 'e:\\m','D:\\M' )
-			file_content = file_content.replace( 'e:\\M','D:\\M' )
-			file_content = file_content.replace( 'E:\\M','D:\\M' )
-			outputfile.write( file_content )
-		# Slower way of doing it, but ignores case.
-		# with open( os.path.join( Emu_Path, XBE_File ), "rb") as inputfile:
-			# read_file = inputfile.read()
-		# with open( os.path.join( Emu_Path, XBE_File ), "wb") as outputfile:
-			# replace = re.compile(re.escape('E:\\S'), re.IGNORECASE)
-			# replace = replace.sub( 'D:\\S',read_file )
-			# outputfile.write( replace )
-		# with open( os.path.join( Emu_Path, XBE_File ), "rb") as inputfile:
-			# read_file = inputfile.read()
-		# with open( os.path.join( Emu_Path, XBE_File ), "wb") as outputfile:
-			# replace = re.compile(re.escape('E:\\M'), re.IGNORECASE)
-			# replace = replace.sub( 'D:\\M',read_file )
-			# outputfile.write( replace )
+		pDialog.update( ( CountList * 100 ) / XBE_Total,"Processing Emulators",XBE_File )
+		 # Have to read the file 1MB at a time to stop out of memory errors.
+		if Emu_Name == "mame":
+			with open( os.path.join( Emu_Path, XBE_File ), "rb") as inputfile:
+				with open( os.path.join( Emu_Path, XBE_File + ' patched' ), "wb") as outputfile:
+					file_content = inputfile.read(1024*1024)
+					while file_content:
+						outputfile.write( file_content.replace( 'T:\\SYSTEM','D:\\system' ) )
+						file_content = inputfile.read(1024*1024)
+			os.remove(os.path.join( Emu_Path, XBE_File ))
+			os.rename(os.path.join( Emu_Path, XBE_File + ' patched' ), os.path.join( Emu_Path, XBE_File ))
+		else:
+			with open( os.path.join( Emu_Path, XBE_File ), "rb") as inputfile:
+				with open( os.path.join( Emu_Path, XBE_File + ' patched' ), "wb") as outputfile:
+					file_content = inputfile.read(1024*1024)
+					while file_content:
+						file_content = file_content.replace( 'e:\\s','D:\\S' )
+						file_content = file_content.replace( 'e:\\S','D:\\S' )
+						file_content = file_content.replace( 'E:\\S','D:\\S' )
+						file_content = file_content.replace( 'e:\\m','D:\\M' )
+						file_content = file_content.replace( 'e:\\M','D:\\M' )
+						file_content = file_content.replace( 'E:\\M','D:\\M' )
+						outputfile.write( file_content )
+						file_content = inputfile.read(1024*1024)
+			os.remove(os.path.join( Emu_Path, XBE_File ))
+			os.rename(os.path.join( Emu_Path, XBE_File + ' patched' ), os.path.join( Emu_Path, XBE_File ) )
 		CountList = CountList + 1
 	pDialog.close()
 	dialog.ok( "Process Complete","xbe files patched" )

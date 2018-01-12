@@ -106,7 +106,7 @@
 	<width>450</width>
 	<height>450</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(450).listitem.thumb]</texture>
+	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(450).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 </control>
 <!-- list -->

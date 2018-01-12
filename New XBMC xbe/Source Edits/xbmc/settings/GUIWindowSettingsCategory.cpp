@@ -2503,9 +2503,9 @@ void CGUIWindowSettingsCategory::FillInSoundSkins(CSetting *pSetting)
 
   //find skins...
   CFileItemList items;
-  CDirectory::GetDirectory("special://xbmc/system/sounds/", items);
+  CDirectory::GetDirectory("special://xbmc/default skin/sounds/", items);
   if (!CSpecialProtocol::XBMCIsHome())
-    CDirectory::GetDirectory("special://home/system/sounds/", items);
+    CDirectory::GetDirectory("special://home/default skin/sounds/", items);
 
   int iCurrentSoundSkin = 0;
   int iSoundSkin = 0;

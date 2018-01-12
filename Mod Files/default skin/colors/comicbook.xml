@@ -1,0 +1,27 @@
+<colors>
+		<color name="white">FFFFFFFF</color>
+		<color name="grey">FF737373</color>
+		<color name="grey2">FF969696</color>
+		<color name="grey3">FF333333</color>
+		<color name="black">FF000000</color>
+		<color name="blue">FF399EDA</color>
+		<color name="blue2">FF0059AB</color>
+		<color name="orange">FFEB9E17</color>
+		<color name="green">FF01B005</color>
+		<color name="dialogheader">FF399EDA</color>
+		<color name="synopsiscolour1">FF399EDA</color>
+		<color name="synopsiscolour2">FF969696</color>
+		<!-- menus ( start button and settings ) -->
+		<color name="menu_select_back">FF888788</color>
+		<color name="menu_select_label">FFFFFFFF</color>
+		<color name="menu_deselect_label">FF6C6B6C</color>
+		<color name="menu_header_label">FF6C6B6C</color>
+		<!-- main menus colours -->
+		<color name="carousel_bar_lower">EEBDBDBD</color>
+		<color name="carousel_bar">EED9D9D9</color>
+		<color name="carousel_bar_label">FF403F3C</color>
+		<color name="carousel_bar_alt_label">FFFFFFFF</color>
+		<!-- button context label colours -->
+		<color name="contextbuttonslayouts">FF676566</color>
+		<color name="contextbuttonshome">FF676566</color>
+</colors>

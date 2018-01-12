@@ -74,16 +74,16 @@
 	<width>216</width>
 	<height>216</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 </control>
 <!-- Video Window Background -->
 <control type="image">
 	<description>video preview window background</description>
 	<posx>32</posx>
-	<posy>158</posy>
-	<width>295</width>
-	<height>227</height>
+	<posy>159</posy>
+	<width>216</width>
+	<height>216</height>
 	<aspectratio>stretch</aspectratio>
 	<texture>thumbnf.png</texture>
 	<visible>Player.HasVideo</visible>
@@ -92,9 +92,9 @@
 <control type="videowindow">
 	<description>video preview window</description>
 	<posx>32</posx>
-	<posy>158</posy>
-	<width>295</width>
-	<height>227</height>
+	<posy>159</posy>
+	<width>216</width>
+	<height>216</height>
 	<aspectratio>keep</aspectratio>
 	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
