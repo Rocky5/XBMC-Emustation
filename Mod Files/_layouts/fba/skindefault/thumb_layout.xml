@@ -49,8 +49,9 @@
 	<width>710</width>
 	<height>227</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- List Control -->
 <control type="list" id="9000">

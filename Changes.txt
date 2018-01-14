@@ -1,3 +1,28 @@
+14/01/2018
+	1) Now when you change themes it also changes the font and menu sounds if they exist for the theme.
+		( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )
+	2) Made the Right Stick button load the Quit menu.
+	3) Updated the UI Settings menu.
+	4) Added fonts for the Carbon and Carbon alt.
+	5) Fixed a couple of the layout files.
+	6) Updated all layout files to match what happens when you scroll in EmulationStation. The information and thumb fade out.
+	7) Updated the home layout files for the new custom tiles.
+	8) Added 3 custom tiles to the home layout, so now you can have custom entries on the home screen.
+		( Start > UI Settings > Home Screen Customisation > scroll down )
+	9) Updated the carbon, carbon alt and default themes background images.
+	10) Updated the theme preview images to show there new fonts and also reduced there size a tad.
+	11) Updated the font.xml removed most of the font not used.
+	12) The result of above is 17MB of free MEMORY! Fonts are loaded and held in memory, so use the sparingly.
+	13) Updated the xpr files to use max quality.
+	14) Updated the home layouts, also sped up the alt animation for the skindefault theme.
+	15) New fonts for carbon, carbon alt and skindefault. Smaller so the memory foot print is a lot less.
+	16) Updated the debug info thats displayed on screen, now shows remaining ram in MBs.
+	17) Added a check into the play_preview.py script that will give you a dialog if the available memory is bellow 8MB.
+	18) Updated the "Build XBMC-Emustation.bat" to tell you if there is no XBMC folder.
+	19) Added all the roms system directories. Means you can now start filling them before FTPing everything over.
+	20) Other odds and ends.
+	
+
 12/01/2018
 	1) Added a check into the generate_favourites.py script to check for the new files required for favourites to function.
 	2) Updated the DialogKaiToast.xml, made the label scroll, changed it size and adjusted the images size also.

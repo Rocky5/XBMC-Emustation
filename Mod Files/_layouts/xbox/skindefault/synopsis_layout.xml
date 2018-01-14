@@ -55,6 +55,7 @@
 	<texture background="true" diffuse="background diffuse.png">$INFO[listitem.path,,fanart.jpg]</texture>
 	<fadetime>FanartCrossfadeTime</fadetime>
 	<visible>!Player.HasVideo</visible>
+	<include>XbeScrollFade</include>
 </control>
 <!-- thumbnail image -->
 <control type="image">
@@ -63,8 +64,9 @@
 	<width>450</width>
 	<height>450</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>XbeScrollFade</include>
 </control>
 <!-- Video Window Background -->
 <control type="image">
@@ -100,7 +102,6 @@
 	<onup>50</onup>
 	<ondown>50</ondown>
 	<viewtype label="List">List</viewtype>
-	<scrolltime>150</scrolltime>
 	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="560">
 		<control type="label">

@@ -36,7 +36,8 @@
 	<width>617</width>
 	<height>552</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(450).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(450).listitem.thumb]</texture>
+	<include>FavsScrollFade</include>
 </control>
 <!-- List Control -->
 <control type="list" id="450">
@@ -49,7 +50,6 @@
 	<onup>450</onup>
 	<ondown>450</ondown>
 	<viewtype label="List">List</viewtype>
-	<scrolltime>150</scrolltime>
 	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="460">
 		<control type="label">

@@ -46,13 +46,14 @@
 	<posx>32</posx>
 	<posy>424</posy>
 	<width>723</width>
-	<height>207</height>
+	<height>210</height>
 	<font>size_17</font>
 	<textcolor>FF969696</textcolor>
 	<align>left</align>
 	<scrolltime>200</scrolltime>
 	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
-	<label>[B][UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE][/B]</label>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- thumbnail image -->
 <control type="image">
@@ -61,8 +62,9 @@
 	<width>710</width>
 	<height>227</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- Video Window Background -->
 <control type="image">
@@ -97,7 +99,6 @@
 	<onup>9000</onup>
 	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
-	<scrolltime>150</scrolltime>
 	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="460">
 		<control type="label">
@@ -110,7 +111,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</itemlayout>
 	<focusedlayout height="30" width="460">
@@ -133,7 +134,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</focusedlayout>
 </control>

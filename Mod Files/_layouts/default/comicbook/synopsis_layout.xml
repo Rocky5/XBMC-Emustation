@@ -51,6 +51,7 @@
 	<scrolltime>200</scrolltime>
 	<autoscroll delay="5000" time="2000" repeat="1000" condition="Container(9000).HasFocus">Conditional</autoscroll>
 	<label>[UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- Game description (Synopsis) -->
 <control type="textbox">
@@ -64,6 +65,7 @@
 	<scrolltime>200</scrolltime>
 	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
 	<label>[UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- Thumbnail Image -->
 <control type="image">
@@ -72,8 +74,9 @@
 	<width>412</width>
 	<height>316</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<visible>!Player.HasVideo</visible>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- Video Window -->
 <control type="videowindow">
@@ -97,7 +100,6 @@
 	<onup>9000</onup>
 	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
-	<scrolltime>150</scrolltime>
 	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="460">
 		<control type="label">

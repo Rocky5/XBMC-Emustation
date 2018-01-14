@@ -15,7 +15,7 @@ msgstr ""
 
 
 msgctxt "#39999"
-msgid "XBMC-Emustation Beta 0.8.012"
+msgid "XBMC-Emustation Beta 0.8.014"
 msgstr ""
 
 msgctxt "#31000"
@@ -687,7 +687,7 @@ msgid "[UPPERCASE]enable intro video[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32027"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]default[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32028"

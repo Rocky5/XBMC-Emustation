@@ -56,7 +56,7 @@
 										<aligny>center</aligny>
 										<textcolor>menu_deselect_label</textcolor>
 								</control>
-								<control type="radiobutton" id="6">
+								<control type="radiobutton" id="3">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label>$LOCALIZE[32021]</label>
@@ -64,12 +64,120 @@
 										<onclick>Skin.ToggleSetting(althomeanimation)</onclick>
 										<selected>Skin.HasSetting(althomeanimation)</selected>
 								</control>
-								<control type="button" id="20">
+								<control type="button" id="7">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label>$LOCALIZE[32023]</label>
 										<include>MenuCustomButtonCommonValues</include>
 										<onclick>Skin.SetString(carbon_custom_colours)</onclick>
+								</control>
+								<!-- Custom tile 1 -->
+								<control type="radiobutton" id="20">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>Custom Tile 1</label>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile1Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile1Enabled)</selected>
+								</control>
+								<control type="button" id="21">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; XBE path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile1Xbe)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile1Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile1Enabled) + Control.HasFocus(20) | Control.HasFocus(21) | Control.HasFocus(22) | Control.HasFocus(23)</visible>
+								</control>
+								<control type="button" id="22">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; logo.png path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile1Logo)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile1Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile1Enabled) + Control.HasFocus(20) | Control.HasFocus(21) | Control.HasFocus(22) | Control.HasFocus(23)</visible>
+								</control>
+								<control type="button" id="23">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; system_art.png path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile1SystemArt)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile1SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile1Enabled) + Control.HasFocus(20) | Control.HasFocus(21) | Control.HasFocus(22) | Control.HasFocus(23)</visible>
+								</control>
+								<!-- Custom tile 2 -->
+								<control type="radiobutton" id="25">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>Custom Tile 2</label>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile2Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile2Enabled)</selected>
+								</control>
+								<control type="button" id="26">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; XBE path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile2Xbe)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile2Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile2Enabled) + Control.HasFocus(25) | Control.HasFocus(26) | Control.HasFocus(27) | Control.HasFocus(28)</visible>
+								</control>
+								<control type="button" id="27">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; logo.png path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile2Logo)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile2Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile2Enabled) + Control.HasFocus(25) | Control.HasFocus(26) | Control.HasFocus(27) | Control.HasFocus(28)</visible>
+								</control>
+								<control type="button" id="28">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; system_art.png path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile2SystemArt)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile2SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile2Enabled) + Control.HasFocus(25) | Control.HasFocus(26) | Control.HasFocus(27) | Control.HasFocus(28)</visible>
+								</control>
+								<!-- Custom tile 3 -->
+								<control type="radiobutton" id="30">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>Custom Tile 3</label>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile3Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile3Enabled)</selected>
+								</control>
+								<control type="button" id="31">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; XBE path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile3Xbe)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile3Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile3Enabled) + Control.HasFocus(30) | Control.HasFocus(31) | Control.HasFocus(32) | Control.HasFocus(33)</visible>
+								</control>
+								<control type="button" id="32">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; logo.png path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile3Logo)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile3Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile3Enabled) + Control.HasFocus(30) | Control.HasFocus(31) | Control.HasFocus(32) | Control.HasFocus(33)</visible>
+								</control>
+								<control type="button" id="33">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; system_art.png path</label>
+										<label2>$INFO[Skin.String(CustomHomeTile3SystemArt)]</label2>
+										<include>MenuCustomButtonCommonValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile3SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile3Enabled) + Control.HasFocus(30) | Control.HasFocus(31) | Control.HasFocus(32) | Control.HasFocus(33)</visible>
 								</control>
 						</control>
 						<control type="image">
@@ -111,7 +219,10 @@
 								<width>596</width>
 								<height>287</height>
 								<aspectratio scalediffuse="false">scale</aspectratio>
-								<texture background="true" diffuse="theme_preview_diffuse.png">Special://xbmc/_layouts/home/previews/$INFO[Skin.CurrentTheme].png</texture>
+								<texture background="false" diffuse="theme_preview_diffuse.png">Special://xbmc/_layouts/home/previews/$INFO[Skin.CurrentTheme].png</texture>
+								<animation effect="fade" time="100">Visible</animation>
+								<animation effect="fade" time="100">Hidden</animation>
+								<visible>Control.HasFocus(1)</visible>
 						</control>
 				</control>
 		</controls>

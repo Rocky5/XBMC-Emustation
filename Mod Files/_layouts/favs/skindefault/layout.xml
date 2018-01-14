@@ -41,7 +41,7 @@
 	<texture>background diffuse.png</texture>
 </control>
 <!-- Context Button Overlay -->
-<include>ContextButtonsEmulators</include>
+<include>ContextButtonsFAVS</include>
 <!-- List Control -->
 <control type="list" id="450">
 	<posx>32</posx>

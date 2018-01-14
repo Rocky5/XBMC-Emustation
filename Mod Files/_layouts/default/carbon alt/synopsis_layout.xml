@@ -142,7 +142,8 @@
 	<align>center</align>
 	<scrolltime>200</scrolltime>
 	<autoscroll delay="5000" time="2000" repeat="1000" condition="Container(9000).HasFocus">Conditional</autoscroll>
-	<label>[B][UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE][/B]</label>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- Game description (Synopsis) -->
 <control type="textbox">
@@ -155,7 +156,8 @@
 	<align>center</align>
 	<scrolltime>200</scrolltime>
 	<autoscroll delay="5000" time="1500" repeat="5000" condition="Container(9000).HasFocus">Conditional</autoscroll>
-	<label>[B][UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE][/B]</label>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- Video Window Background -->
 <control type="image">
@@ -186,8 +188,9 @@
 	<width>457</width>
 	<height>320</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- list -->
 <control type="list" id="9000">
@@ -200,9 +203,7 @@
 	<onup>9000</onup>
 	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
-	<pagecontrol>70</pagecontrol>
-	<scrolltime>150</scrolltime>
-	<preloaditems>6</preloaditems>
+	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="582">
 		<control type="label">
 			<posx>5</posx>
@@ -214,7 +215,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</itemlayout>
 	<focusedlayout height="30" width="582">
@@ -248,7 +249,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</focusedlayout>
 </control>

@@ -36,7 +36,8 @@
 	<width>617</width>
 	<height>552</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- List Control -->
 <control type="list" id="9000">
@@ -49,7 +50,6 @@
 	<onup>9000</onup>
 	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
-	<scrolltime>150</scrolltime>
 	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="460">
 		<control type="label">

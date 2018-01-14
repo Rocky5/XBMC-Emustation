@@ -631,4 +631,31 @@
 		<thumb>layouts/zxspectrum/art/logo.png</thumb>
 		<visible>Skin.HasSetting(zxspectrum_exists)</visible>
 	</item>
+	<item id="90">
+		<label>Direct Launch Only</label>
+		<label2>customtile1</label2>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunXBE($INFO[Skin.String(CustomHomeTile1Xbe)])</onclick>
+		<icon>$INFO[Skin.String(CustomHomeTile1SystemArt)]</icon>
+		<thumb>$INFO[Skin.String(CustomHomeTile1Logo)]</thumb>
+		<visible>Skin.HasSetting(CustomHomeTile1Enabled)</visible>
+	</item>
+	<item id="91">
+		<label>Direct Launch Only</label>
+		<label2>customtile2</label2>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunXBE($INFO[Skin.String(CustomHomeTile2Xbe)])</onclick>
+		<icon>$INFO[Skin.String(CustomHomeTile2SystemArt)]</icon>
+		<thumb>$INFO[Skin.String(CustomHomeTile2Logo)]</thumb>
+		<visible>Skin.HasSetting(CustomHomeTile2Enabled)</visible>
+	</item>
+	<item id="92">
+		<label>Direct Launch Only</label>
+		<label2>customtile3</label2>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunXBE($INFO[Skin.String(CustomHomeTile3Xbe)])</onclick>
+		<icon>$INFO[Skin.String(CustomHomeTile3SystemArt)]</icon>
+		<thumb>$INFO[Skin.String(CustomHomeTile3Logo)]</thumb>
+		<visible>Skin.HasSetting(CustomHomeTile3Enabled)</visible>
+	</item>
 </content> 

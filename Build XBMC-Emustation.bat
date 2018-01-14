@@ -7,7 +7,11 @@ title XBMC-Emustation Builder
 
 if exist "XBMC" Set "foldername=XBMC"
 if exist "Build" Set "foldername=Build"
-if not exist "%foldername%" Exit
+if not exist "%foldername%" (
+	Echo Error, place a fresh copy of XBMC next to this batch file and try again.
+	timeout /t 5
+	Exit
+)
 
 cls
 Echo: & Echo: & Echo: & Echo   Please wait...
@@ -41,8 +45,9 @@ XCopy /s /e /i /h /r /y "Mod Files" "%foldername%"
 XCopy /s /i /h /r /y "Emu xbe files" "%foldername%\_emulators"
 Echo:>"%foldername%\system\Faster_Game_Loading.bin"
 del /q /s "%foldername%\_emulators\*.bat"
+del /q /s "%foldername%\_emulators\place emulators files in here"
 del /q "%foldername%\_emulators\*.info"
-rd /q /s "%foldername%\_layouts\default\carbon\not used alt layout"
+del /q /s "%foldername%\_roms\roms go here"
 rd /q /s "%foldername%\_scripts\XBMC-Emustation\not used"
 copy /y "New XBMC xbe\default.xbe" "%foldername%\default.xbe"
 ren "%foldername%" "XBMC-Emustation"

@@ -20,3 +20,6 @@
 16) When you add favourites or remove them it will now run a script to update the counter for the main menu.
 17) Fixed the setting a new language, forgot to change a path.
 18) Moved the sounds folder into the default skin sounds folder, so now you can add custom sound effects for themes and select them seamlessly.
+19) Now when you change themes it also changes the font and menu sounds if they exist for the theme.
+( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )
+20) Updated the debug overlay to use debugloggin font name and added MBs to the layout.

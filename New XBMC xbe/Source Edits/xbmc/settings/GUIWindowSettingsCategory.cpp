@@ -248,6 +248,24 @@ bool CGUIWindowSettingsCategory::OnMessage(CGUIMessage &message)
         if (colorTheme.Equals("Textures.xml"))
           colorTheme = "defaults.xml";
         g_guiSettings.SetString("lookandfeel.skincolors", colorTheme);
+		CStdString soundTheme(URIUtils::ReplaceExtension(m_strNewSkinTheme, ""));
+		if (CFile::Exists("special://skin/sounds/" + soundTheme + "/sounds.xml"))
+		{
+			g_guiSettings.SetString("lookandfeel.soundskin",soundTheme);
+		}
+		else
+		{
+			g_guiSettings.SetString("lookandfeel.soundskin","SKINDEFAULT");
+		}
+		CStdString fontTheme(URIUtils::ReplaceExtension(m_strNewSkinTheme, ""));
+		if (CFile::Exists("special://skin/fonts/" + soundTheme + ".ttf"))
+		{
+			g_guiSettings.SetString("lookandfeel.font",fontTheme);
+		}
+		else
+		{
+			g_guiSettings.SetString("lookandfeel.font","SKINDEFAULT");;
+		}
         g_settings.Save();
       }
 

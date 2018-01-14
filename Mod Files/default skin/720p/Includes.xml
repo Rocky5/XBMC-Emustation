@@ -3,7 +3,7 @@
 		<include file="includes_variables.xml" />
 		<include file="Viewtype_CommonRootView.xml">CommonRootView</include>
 		<constant name="FanartCrossfadeTime">200</constant>
-		<constant name="ThumbCrossfadeTime">100</constant>
+		<constant name="ThumbCrossfadeTime">0</constant>
 		<include name="CustomSettingsButtons">
 				<width>1170</width>
 				<height>51</height>
@@ -20,8 +20,54 @@
 						<width>1280</width>
 						<height>720</height>
 						<aspectratio>stretch</aspectratio>
-						<texture background="true">layouts/art/background.png</texture>
+						<texture background="false">layouts/art/background.png</texture>
 				</control>
+		</include>
+		<include name="CarouselLabels">
+				<control type="label">
+						<include>CarouselLabelCommonValues</include>
+						<label>$INFO[System.DVDLabel]</label>
+						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+						<visible>StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
+				</control>
+				<control type="label">
+						<include>CarouselLabelCommonValues</include>
+						<label>$INFO[Container(9000).ListItem.Label] Game Available</label>
+						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+						<visible>!StringCompare(Container(9000).ListItem.Label,0) + StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427]) + !StringCompare(Container(9000).ListItem.Label2,])</visible>
+				</control>
+				<control type="label">
+						<include>CarouselLabelCommonValues</include>
+						<label>$INFO[Container(9000).ListItem.Label] Games Available</label>
+						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+						<visible>StringCompare(Container(9000).ListItem.Label,0) | !StringCompare(Container(9000).ListItem.Label,Direct Launch Only) + !StringCompare(Container(9000).ListItem.Label,]) + !StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
+				</control>
+				<!-- For custom tiles -->
+				<control type="label">
+						<include>CarouselLabelCommonValues</include>
+						<label>$INFO[Container(9000).ListItem.Label]</label>
+						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+						<visible>StringCompare(Container(9000).ListItem.Label,Direct Launch Only)</visible>
+				</control>
+		</include>
+		<include name="EmulatorScrollFade">
+				<visible>!Container(9000).Scrolling</visible>
+				<animation effect="fade" delay="200" time="150">visible</animation>
+				<animation effect="fade" time="150">hidden</animation>
+		</include>
+		<include name="XbeScrollFade">
+				<visible>!Container(50).Scrolling</visible>
+				<animation effect="fade" delay="200" time="150">visible</animation>
+				<animation effect="fade" time="150">hidden</animation>
+		</include>
+		<include name="FavsScrollFade">
+				<visible>!Container(450).Scrolling</visible>
+				<animation effect="fade" delay="200" time="150">visible</animation>
+				<animation effect="fade" time="150">hidden</animation>
 		</include>
 		<include name="CommonOptionsMenuBack">
 				<include>VisibleFadeEffect</include>
@@ -579,7 +625,7 @@
 		</include>
 		<include name="CarouselLabelCommonValues">
 				<posx>0</posx>
-				<posy>448</posy>
+				<posy>447</posy>
 				<width>1280</width>
 				<height>41</height>
 				<align>center</align>

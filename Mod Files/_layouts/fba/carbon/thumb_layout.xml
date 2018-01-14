@@ -47,8 +47,9 @@
 	<width>710</width>
 	<height>227</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- List Control -->
 <control type="list" id="9000">
@@ -73,7 +74,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</itemlayout>
 	<focusedlayout height="40" width="1216">
@@ -96,7 +97,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</focusedlayout>
 </control>

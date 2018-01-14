@@ -31,6 +31,7 @@
 #include "utils/StringUtils.h"
 #include "../xbmc/FileSystem/File.h"
 #include "../xbmc/FileSystem/SpecialProtocol.h"
+#include "settings/GUIWindowSettingsCategory.h"
 
 using namespace std;
 
@@ -373,6 +374,7 @@ void GUIFontManager::LoadFonts(const TiXmlNode* fontNode)
       const TiXmlNode *pNode = fontNode->FirstChild("name");
       if (pNode)
       {
+        CStdString strFakeFontFileName(URIUtils::ReplaceExtension(g_guiSettings.GetString("lookandfeel.font").c_str(), ".ttf"));;
         CStdString strFontName = pNode->FirstChild()->Value();
         color_t shadowColor = 0;
         color_t textColor = 0;
@@ -414,7 +416,7 @@ void GUIFontManager::LoadFonts(const TiXmlNode* fontNode)
             XMLUtils::GetFloat(fontNode, "linespacing", lineSpacing);
             XMLUtils::GetFloat(fontNode, "aspect", aspect);
 
-            LoadTTF(strFontName, strFontFileName, textColor, shadowColor, iSize, iStyle, false, lineSpacing, aspect);
+            LoadTTF(strFontName, strFakeFontFileName, textColor, shadowColor, iSize, iStyle, false, lineSpacing, aspect);
           }
         }
       }

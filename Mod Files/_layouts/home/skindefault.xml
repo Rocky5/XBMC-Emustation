@@ -18,7 +18,7 @@
 		<include>1280x720</include>
 		<aspectratio>stretch</aspectratio>
 		<texture background="true">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
-		<animation effect="slide" reversible="true" start="0,0" end="1280,0" delay="1" time="400" tween="Cubic" easing="inout" condition="!Container(9000).OnPrevious">Conditional</animation>
+		<animation effect="slide" reversible="true" start="0,0" end="1280,0" delay="1" time="225" condition="!Container(9000).OnPrevious">Conditional</animation>
 		<visible>!Container(9000).OnPrevious + Skin.HasSetting(althomeanimation)</visible>
 	</control>
 	<control type="image">
@@ -27,29 +27,29 @@
 		<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 		<animation effect="fade" reversible="true" delay="350" time="300" condition="!Container(9000).OnNext + !Skin.HasSetting(althomeanimation)">Conditional</animation>
 		<animation effect="fade" reversible="true" delay="350" time="300" condition="!Container(9000).OnPrevious + !Skin.HasSetting(althomeanimation)">Conditional</animation>
-		<animation effect="slide" reversible="true" start="0,0" end="-1280,0" delay="1" time="400" tween="Cubic" easing="inout" condition="!Container(9000).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
-		<animation effect="slide" reversible="true" start="0,0" end="1280,0" delay="1" time="400" tween="Cubic" easing="inout" condition="!Container(9000).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
+		<animation effect="slide" reversible="true" start="0,0" end="-1280,0" delay="1" time="225" condition="!Container(9000).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
+		<animation effect="slide" reversible="true" start="0,0" end="1280,0" delay="1" time="225" condition="!Container(9000).OnPrevious + Skin.HasSetting(althomeanimation)">Conditional</animation>
 		<visible>!Container(9000).OnNext + !Container(9000).OnPrevious</visible>
 	</control>
 	<control type="image">
 		<include>1280x720</include>
 		<aspectratio>stretch</aspectratio>
 		<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
-		<animation effect="slide" reversible="true" start="0,0" end="-1280,0" delay="1" time="400" tween="Cubic" easing="inout" condition="!Container(9000).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
+		<animation effect="slide" reversible="true" start="0,0" end="-1280,0" delay="1" time="225" condition="!Container(9000).OnNext + Skin.HasSetting(althomeanimation)">Conditional</animation>
 		<visible>!Container(9000).OnNext + Skin.HasSetting(althomeanimation)</visible>
 	</control>
 	<control type="image">
 		<include>1280x720</include>
 		<aspectratio>stretch</aspectratio>
 		<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="100" time="100" tween="Cubic" easing="inout" condition="!Container(9000).OnNext">Conditional</animation>
+		<animation effect="fade" reversible="true" start="100" end="0" delay="100" time="100" condition="!Container(9000).OnNext">Conditional</animation>
 		<visible>!Container(9000).OnNext + Skin.HasSetting(althomeanimation)</visible>
 	</control>
 	<control type="image">
 		<include>1280x720</include>
 		<aspectratio>stretch</aspectratio>
 		<texture background="true">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="100" time="100" tween="Cubic" easing="inout" condition="!Container(9000).OnPrevious">Conditional</animation>
+		<animation effect="fade" reversible="true" start="100" end="0" delay="100" time="100" condition="!Container(9000).OnPrevious">Conditional</animation>
 		<visible>!Container(9000).OnPrevious + Skin.HasSetting(althomeanimation)</visible>
 	</control>
 	<control type="image">
@@ -60,8 +60,8 @@
 		<aspectratio>stretch</aspectratio>
 		<colordiffuse>carousel_bar_lower</colordiffuse>
 		<texture>layouts/art/carousel_bar.png</texture>
-		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" tween="Cubic" easing="inout" condition="!Container(9000).OnNext">Conditional</animation>
-		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" tween="Cubic" easing="inout" condition="!Container(9000).OnPrevious">Conditional</animation>
+		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" condition="!Container(9000).OnNext">Conditional</animation>
+		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" condition="!Container(9000).OnPrevious">Conditional</animation>
 		<visible>!StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !Container(9000).OnNext + !Container(9000).OnPrevious</visible>
 	</control>
 	<control type="image.">
@@ -71,8 +71,8 @@
 		<height>7</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>layouts/art/carousel_bar_shadow.png</texture>
-		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" tween="Cubic" easing="inout" condition="!Container(9000).OnNext">Conditional</animation>
-		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" tween="Cubic" easing="inout" condition="!Container(9000).OnPrevious">Conditional</animation>
+		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" condition="!Container(9000).OnNext">Conditional</animation>
+		<animation effect="zoom" reversible="true" start="100,1" end="100,100" delay="800" time="200" condition="!Container(9000).OnPrevious">Conditional</animation>
 		<visible>!Container(9000).OnNext + !Container(9000).OnPrevious</visible>
 	</control>
 	<control type="image">
@@ -86,28 +86,7 @@
 	</control>
 	<include>ContextButtonsHomeHorizontal</include>
 	<!-- <include>ContextButtonsHomeVertical</include> -->
-	<!-- default labels -->
-	<control type="label">
-		<include>CarouselLabelCommonValues</include>
-		<label>$INFO[System.DVDLabel]</label>
-		<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-		<visible>StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-	</control>
-	<control type="label">
-		<include>CarouselLabelCommonValues</include>
-		<label>$INFO[Container(9000).ListItem.Label] Game Available</label>
-		<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-		<visible>!StringCompare(Container(9000).ListItem.Label,0) + StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-	</control>
-	<control type="label">
-		<include>CarouselLabelCommonValues</include>
-		<label>$INFO[Container(9000).ListItem.Label] Games Available</label>
-		<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-		<visible>StringCompare(Container(9000).ListItem.Label,0) | !StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-	</control>
+	<include>CarouselLabels</include>
 	<!-- Default View uses 3 images -->
 	<control type="wraplist" id="9000">
 		<posx>0</posx>

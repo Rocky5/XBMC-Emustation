@@ -55,28 +55,7 @@
 	</control>
 	<include>ContextButtonsHomeHorizontal</include>
 	<!-- <include>ContextButtonsHomeVertical</include> -->
-	<!-- default labels -->
-	<control type="label">
-		<include>CarouselLabelCommonValues</include>
-		<label>$INFO[System.DVDLabel]</label>
-		<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-		<visible>StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-	</control>
-	<control type="label">
-		<include>CarouselLabelCommonValues</include>
-		<label>$INFO[Container(9000).ListItem.Label] Game Available</label>
-		<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-		<visible>!StringCompare(Container(9000).ListItem.Label,0) + StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-	</control>
-	<control type="label">
-		<include>CarouselLabelCommonValues</include>
-		<label>$INFO[Container(9000).ListItem.Label] Games Available</label>
-		<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-		<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-		<visible>StringCompare(Container(9000).ListItem.Label,0) | !StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-	</control>
+	<include>CarouselLabels</include>
 	<!-- Default View uses 3 images -->
 	<control type="wraplist" id="9000">
 		<posx>0</posx>
@@ -89,8 +68,7 @@
 		<ondown>-</ondown>
 		<scrolltime>350</scrolltime>
 		<focusposition>1</focusposition>
-		<movement>1</movement>
-		<preloaditems>0</preloaditems>
+		<preloaditems>2</preloaditems>
 		<orientation>Horizontal</orientation>
 		<itemlayout width="555" height="167">
 			<control type="image">

@@ -9,8 +9,8 @@
 						<height>0</height>
 						<texturefocus>-</texturefocus>
 						<texturenofocus>-</texturenofocus>
-						<onfocus>ActivateWindow(1111)</onfocus>
 						<onfocus>Dialog.Close(111,true)</onfocus>
+						<onfocus>ActivateWindow(1115)</onfocus>
 						<onup>1</onup>
 						<ondown>1</ondown>
 				</control>

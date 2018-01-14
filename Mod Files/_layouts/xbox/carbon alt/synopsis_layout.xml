@@ -132,6 +132,7 @@
 	<colordiffuse>FFFFFFFF</colordiffuse>
 	<texture background="true">$INFO[listitem.path,,fanart.jpg]</texture>
 	<fadetime>FanartCrossfadeTime</fadetime>
+	<include>XbeScrollFade</include>
 </control>
 <!-- Video Window Background -->
 <control type="image">
@@ -162,8 +163,9 @@
 	<width>457</width>
 	<height>320</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="false" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>XbeScrollFade</include>
 </control>
 <!-- list -->
 <control type="list" id="50">
@@ -176,9 +178,7 @@
 	<onup>50</onup>
 	<ondown>50</ondown>
 	<viewtype label="List">List</viewtype>
-	<pagecontrol>70</pagecontrol>
-	<scrolltime>150</scrolltime>
-	<preloaditems>6</preloaditems>
+	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="582">
 		<control type="label">
 			<posx>5</posx>
@@ -190,7 +190,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</itemlayout>
 	<focusedlayout height="30" width="582">
@@ -224,7 +224,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</focusedlayout>
 </control>

@@ -63,7 +63,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</itemlayout>
 	<focusedlayout height="40" width="1216">
@@ -86,7 +86,7 @@
 			<selectedcolor>FF969696</selectedcolor>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</focusedlayout>
 </control>
