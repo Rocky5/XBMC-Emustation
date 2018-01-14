@@ -12,12 +12,13 @@
 	9) Updated the carbon, carbon alt and default themes background images.
 	10) Updated the theme preview images to show there new fonts and also reduced there size a tad.
 	11) Updated the font.xml removed most of the font not used.
-	12) The result of above is 17MB of free MEMORY! Fonts are loaded and held in memory, so use the sparingly.
+	12) The result of above is 17MB extra of free MEMORY!
+		( Note to skinners, fonts are loaded and held in memory, so use them sparingly. )
 	13) Updated the xpr files to use max quality.
 	14) Updated the home layouts, also sped up the alt animation for the skindefault theme.
 	15) New fonts for carbon, carbon alt and skindefault. Smaller so the memory foot print is a lot less.
-	16) Updated the debug info thats displayed on screen, now shows remaining ram in MBs.
-	17) Added a check into the play_preview.py script that will give you a dialog if the available memory is bellow 8MB.
+	16) Updated the debug info that's displayed on screen, now shows remaining ram in MBs.
+	17) Added a check into the play_preview.py script that will give you a dialog if the available memory is below 8MB.
 	18) Updated the "Build XBMC-Emustation.bat" to tell you if there is no XBMC folder.
 	19) Added all the roms system directories. Means you can now start filling them before FTPing everything over.
 	20) Other odds and ends.
