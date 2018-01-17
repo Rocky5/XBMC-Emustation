@@ -143,7 +143,7 @@
 		<include name="ContextButtonsHomeHorizontal">
 				<control type="grouplist">
 						<posx>15</posx>
-						<posy>35r</posy>
+						<posy>685</posy>
 						<width>1280</width>
 						<height>85</height>
 						<itemgap>5</itemgap>
@@ -225,13 +225,21 @@
 								<textcolor>contextbuttonshome</textcolor>
 								<font>size_19</font>
 								<label>$LOCALIZE[32079] </label>
+								<visible>!Player.HasAudio</visible>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_19</font>
+								<label>$LOCALIZE[32069] </label>
+								<visible>Player.HasAudio</visible>
 						</control>
 				</control>
 		</include>
 		<include name="ContextButtonsHomeVertical">
 				<control type="grouplist">
 						<posx>15</posx>
-						<posy>35r</posy>
+						<posy>685</posy>
 						<width>1280</width>
 						<height>85</height>
 						<itemgap>5</itemgap>
@@ -313,6 +321,14 @@
 								<textcolor>contextbuttonshome</textcolor>
 								<font>size_19</font>
 								<label>$LOCALIZE[32079] </label>
+								<visible>!Player.HasAudio</visible>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>contextbuttonshome</textcolor>
+								<font>size_19</font>
+								<label>$LOCALIZE[32069] </label>
+								<visible>Player.HasAudio</visible>
 						</control>
 				</control>
 		</include>
@@ -320,7 +336,7 @@
 				<control type="grouplist">
 						<visible>Player.HasVideo</visible>
 						<posx>15</posx>
-						<posy>35r</posy>
+						<posy>685</posy>
 						<width>1280</width>
 						<height>85</height>
 						<itemgap>5</itemgap>
@@ -360,7 +376,7 @@
 						<visible>!Player.HasVideo</visible>
 						<description>emulators</description>
 						<posx>15</posx>
-						<posy>35r</posy>
+						<posy>685</posy>
 						<width>1280</width>
 						<height>85</height>
 						<itemgap>5</itemgap>
@@ -459,7 +475,7 @@
 						<visible>!Player.HasVideo</visible>
 						<description>xbe items</description>
 						<posx>15</posx>
-						<posy>35r</posy>
+						<posy>685</posy>
 						<width>1280</width>
 						<height>85</height>
 						<itemgap>5</itemgap>
@@ -555,7 +571,7 @@
 				<control type="grouplist">
 						<description>favourite items</description>
 						<posx>15</posx>
-						<posy>35r</posy>
+						<posy>685</posy>
 						<width>1280</width>
 						<height>85</height>
 						<itemgap>5</itemgap>

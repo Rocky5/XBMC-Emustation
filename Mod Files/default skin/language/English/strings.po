@@ -812,11 +812,11 @@ msgid "[UPPERCASE]rename .tbn to .png and update rom lists[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32058"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]_tbns folder[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32059"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]_screenshots folder[/UPPERCASE]"
 msgstr ""
 
 ##  Quit Menu
@@ -844,6 +844,7 @@ msgctxt "#32065"
 msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
+##  Context Buttons
 msgctxt "#32066"
 msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
@@ -857,10 +858,9 @@ msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32069"
-msgid "[UPPERCASE][/UPPERCASE]"
+msgid "[UPPERCASE]visualisation[/UPPERCASE]"
 msgstr ""
 
-##  Context Buttons
 msgctxt "#32070"
 msgid "[UPPERCASE]choose[/UPPERCASE]"
 msgstr ""

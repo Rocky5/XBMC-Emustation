@@ -22,6 +22,8 @@ copy /y "New XBMC xbe\default.xbe" "%foldername%\default.xbe"
 del /q /s "%foldername%\system\userdata\guisettings.xml"
 rd /q /s "%foldername%\_roms"
 rd /q /s "%foldername%\_tbns"
+rd /q /s "%foldername%\_screenshots"
+rd /q /s "%foldername%\_previews"
 )
 cls
 Echo: & Echo:

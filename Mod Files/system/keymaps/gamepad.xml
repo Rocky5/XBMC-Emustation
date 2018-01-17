@@ -60,7 +60,7 @@
 						<B>highlight</B>
 						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/direct_launch_emulator.py)</Y>
 						<start>XBMC.ActivateWindow(1111)</start>
-						<back>XBMC.ActivateWindow(screensaver)</back>
+						<back>SetFocus(9999)</back>
 				</gamepad>
 		</Home>
 		<MyPrograms>
@@ -100,19 +100,19 @@
 		</MyMusicLibrary>
 		<FullscreenVideo>
 				<gamepad>
-						<A>Pause</A>
-						<B>Stop</B>
-						<Y>AspectRatio</Y>
+						<A>highlight</A>
+						<B>Fullscreen</B>
+						<Y>highlight</Y>
 						<black>CodecInfo</black>
-						<white>Info</white>
-						<back>SmallStepBack</back>
-						<start>OSD</start>
+						<white>highlight</white>
+						<back>highlight</back>
+						<start>highlight</start>
 						<leftanalogtrigger>AnalogRewind</leftanalogtrigger>
 						<rightanalogtrigger>AnalogFastForward</rightanalogtrigger>
 						<dpadleft>StepBack</dpadleft>
 						<dpadright>StepForward</dpadright>
-						<dpadup>BigStepForward</dpadup>
-						<dpaddown>BigStepBack</dpaddown>
+						<dpadup>Pause</dpadup>
+						<dpaddown>Stop</dpaddown>
 				</gamepad>
 		</FullscreenVideo>
 		<FullscreenInfo>
@@ -131,19 +131,18 @@
 		</PlayerControls>
 		<Visualisation>
 				<gamepad>
-						<A>Pause</A>
-						<B>Stop</B>
-						<Y>XBMC.ActivateWindow(VisualisationPresetList)</Y>
-						<black>CodecInfo</black>
-						<white>Info</white>
-						<start>XBMC.ActivateWindow(MusicOSD)</start>
-						<back>LockPreset</back>
+						<A>highlight</A>
+						<B>LockPreset</B>
+						<Y>highlight</Y>
+						<black>highlight</black>
+						<white>highlight</white>
+						<start>highlight</start>
 						<leftanalogtrigger>AnalogRewind</leftanalogtrigger>
 						<rightanalogtrigger>AnalogFastForward</rightanalogtrigger>
 						<dpadleft>SkipPrevious</dpadleft>
 						<dpadright>SkipNext</dpadright>
-						<dpadup>NextPreset</dpadup>
-						<dpaddown>PreviousPreset</dpaddown>
+						<dpadup>Pause</dpadup>
+						<dpaddown>Stop</dpaddown>
 				</gamepad>
 		</Visualisation>
 		<MusicOSD>

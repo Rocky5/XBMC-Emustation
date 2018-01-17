@@ -23,3 +23,5 @@
 19) Now when you change themes it also changes the font and menu sounds if they exist for the theme.
 ( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )
 20) Updated the debug overlay to use debugloggin font name and added MBs to the layout.
+21) Fixed centering labels in lists.
+( If you have a skin that uses center for its labels in a list you may want to remove the offset you had to use for posx )

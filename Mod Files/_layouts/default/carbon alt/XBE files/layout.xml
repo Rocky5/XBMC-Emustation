@@ -54,7 +54,7 @@
 	<preloaditems>2</preloaditems>
 	<itemlayout height="40" width="1216">
 		<control type="label">
-			<posx>608</posx>
+			<posx>0</posx>
 			<posy>0</posy>
 			<width>1216</width>
 			<height>40</height>
@@ -77,7 +77,7 @@
 			<texture border="1">background diffuse.png</texture>
 		</control>
 		<control type="label">
-			<posx>608</posx>
+			<posx>0</posx>
 			<posy>0</posy>
 			<width>1216</width>
 			<height>40</height>

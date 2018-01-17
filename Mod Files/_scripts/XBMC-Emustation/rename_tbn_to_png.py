@@ -10,7 +10,10 @@ print "| _Scripts\XBMC-Emustation\rename_tbn_to_png.py loaded."
 pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()
 Rom_List_Dir		= xbmc.translatePath( 'special://xbmc/_scripts/XBMC-Emustation/rom lists/' )
-TBN_List_Dir		= xbmc.translatePath( 'special://xbmc/_tbns/' )
+if str( xbmc.getCondVisibility( 'Skin.String(Custom_TBNS_Path)' ) ) == "1":
+	TBN_List_Dir		= xbmc.getInfoLabel( 'Skin.String(Custom_TBNS_Path)' )
+else:
+	TBN_List_Dir		= xbmc.translatePath( 'special://xbmc/_tbns/' )
 
 if os.path.isdir( TBN_List_Dir ):
 	if os.path.isdir( Rom_List_Dir ):

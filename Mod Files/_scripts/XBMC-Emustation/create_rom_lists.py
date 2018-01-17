@@ -42,10 +42,13 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 				Preview_Path	= xbmc.getInfoLabel( 'Skin.String(Custom_Preview_Path)' )
 			else:
 				Preview_Path	= Root_Directory + '_previews\\'
+			if str( xbmc.getCondVisibility( 'Skin.String(Custom_TBNS_Path)' ) ) == "1":
+				TBN_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_TBNS_Path)' )
+			else:
+				TBN_Path		= Root_Directory + '_tbns\\'
 				
 			Synopsis_Path		= Root_Directory + '_synopsis\\'
 			Scripts_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\'
-			TBN_Path			= Root_Directory + '_tbns\\'
 			Rom_List_Path		= Root_Directory + '_scripts\\XBMC-Emustation\\rom lists\\'
 			Extensions			= [ "t64","d64","int","tap","z80","tzx","zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 
@@ -406,11 +409,51 @@ def Main_Code():
 										Synopsis1 = Synopsis1.replace( '<', '&lt;' )
 									else:
 										Synopsis1 = Synopsis.split('_________________________', 1)[0]
+										Synopsis1 = Synopsis1.split('\n')
+										Synopsis_rating = ""; Synopsis_players = ""; Synopsis_genre = ""; Synopsis_developer = ""; Synopsis_publisher = ""; Synopsis_release_year = ""
+										Synopsis_rating_Set = 0; Synopsis_players_Set = 0; Synopsis_genre_Set = 0; Synopsis_developer_Set = 0; Synopsis_publisher_Set = 0; Synopsis_release_year_Set = 0
+										for _ in range(5):
+											for line in Synopsis1:
+												line = line.lower()
+												# if 'rating:' in line:
+													# Synopsis_rating = line.split(':',1)[1]
+													# Synopsis_rating = '[B]Rating:[/B]\n ' + Synopsis_rating
+													# Synopsis_rating_Set = 1
+												# elif Synopsis_rating_Set == 0:
+													# Synopsis_rating = '[B]Rating:[/B]\n None'
+												if 'players:' in line:
+													Synopsis_players = line.split(':',1)[1]
+													Synopsis_players = '[B]Players:[/B]\n ' + Synopsis_players
+													Synopsis_players_Set = 1
+												elif Synopsis_players_Set == 0:
+													Synopsis_players = '[B]Players:[/B]\n None'
+												if 'genre:' in line:
+													Synopsis_genre = line.split(':',1)[1]
+													Synopsis_genre = '[B]Genre:[/B]\n ' + Synopsis_genre
+													Synopsis_genre_Set = 1
+												elif Synopsis_genre_Set == 0:
+													Synopsis_genre = '[B]Genre:[/B]\n None'
+												if 'developer:' in line:
+													Synopsis_developer = line.split(':',1)[1]
+													Synopsis_developer = '[B]Developer:[/B]\n ' + Synopsis_developer
+													Synopsis_developer_Set = 1
+												elif Synopsis_developer_Set == 0:
+													Synopsis_developer = '[B]Developer:[/B]\n None'
+												if 'publisher:' in line:
+													Synopsis_publisher = line.split(':',1)[1]
+													Synopsis_publisher = '[B]Publisher:[/B]\n ' + Synopsis_publisher
+													Synopsis_publisher_Set = 1
+												elif Synopsis_publisher_Set == 0:
+													Synopsis_publisher = '[B]Publisher:[/B]\n None'
+												if 'release year:' in line:
+													Synopsis_release_year = line.split(':',1)[1]
+													Synopsis_release_year = '[B]Released:[/B]\n ' + Synopsis_release_year
+													Synopsis_release_year_Set = 1
+												elif Synopsis_release_year_Set == 0:
+													Synopsis_release_year = '[B]Released:[/B]\n None'
+										# Synopsis1 = Synopsis_rating + '\n' + Synopsis_players + '\n' + Synopsis_genre + '\n' + Synopsis_developer + '\n' + Synopsis_publisher + '\n' + Synopsis_release_year
+										Synopsis1 = Synopsis_players + '\n' + Synopsis_genre + '\n' + Synopsis_developer + '\n' + Synopsis_publisher + '\n' + Synopsis_release_year
 										Synopsis2 = Synopsis.split('_________________________', 1)[1]
-										Synopsis1 = Synopsis1.strip('\n')
-										Synopsis1 = Synopsis1.replace( '&', '&amp;' )
-										Synopsis1 = Synopsis1.replace( '>', '&gt;' )
-										Synopsis1 = Synopsis1.replace( '<', '&lt;' )
 										Synopsis2 = Synopsis2.strip('\n')
 										Synopsis2 = Synopsis2.replace( '&', '&amp;' )
 										Synopsis2 = Synopsis2.replace( '>', '&gt;' )

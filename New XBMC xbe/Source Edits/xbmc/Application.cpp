@@ -1234,7 +1234,6 @@ HRESULT CApplication::Initialize()
   CreateDirectory("Q:\\system\\screenshots", NULL);
   CreateDirectory("Q:\\system\\visualisations", NULL);
   CreateDirectory("Q:\\default skin\\sounds", NULL);
-  CreateDirectory("Q:\\system\\visualisations",NULL);
 
   // initialize network
   if (!m_bXboxMediacenterLoaded)

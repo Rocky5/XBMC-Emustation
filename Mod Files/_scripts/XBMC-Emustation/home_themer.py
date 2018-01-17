@@ -35,6 +35,16 @@ Header_Data		= '<window id="0">\n\
 			<posx>-500</posx>\n\
 			<onclick>-</onclick>\n\
 		</control>\n\
+		<control type="button" id="9999">\n\
+			<posx>-500</posx>\n\
+			<onfocus>ActivateWindow(Screensaver)</onfocus>\n\
+			<visible>!Player.HasAudio</visible>\n\
+		</control>\n\
+		<control type="button" id="9999">\n\
+			<posx>-500</posx>\n\
+			<onfocus>ActivateWindow(2006)</onfocus>\n\
+			<visible>Player.HasAudio</visible>\n\
+		</control>\n\
 		<include>CommonBackground</include>\n\
 		<control type="group">\n\
 			<animation effect="fade" start="100" end="0" time="150" condition="Skin.HasSetting(favsloading)">Conditional</animation>\n\

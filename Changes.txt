@@ -1,3 +1,20 @@
+17/01/2018
+	1) New XBE fixed the center label issue for lists
+		( If you have a skin that uses center for its labels in a list you may want to remove the offset you had to use for posx )
+	2) Updated the layouts that used the offset to fix the center issue, to not use the offsets now :D
+	3) Added visualisations support, and also fixed its location in the xbe and the visualisation executable file.
+		( because I moved everything inside the system folder )
+	4) New theme based off of Spare, called it Xpare.
+		( No images from that theme were used )
+	5) You can now change the _tbns folders location like the others.
+	6) Added a new folder _screenshots like above you can have a custom path.
+	7) Populated all the _* folders, so you can build your rom and images before FTPing them over and scanning them in.
+	8) Updated create_rom_lists.py and how the synopsis information is parsed, you will need to rescan your roms in to get this new look.
+	9) New controls for full-screen visualisation, B locks current visualisation, up is pause, down is stop, left and right are back and forward a song.
+	10) Player controls updated a tad.
+	11) Other minor stuff.
+	
+
 14/01/2018
 	1) Now when you change themes it also changes the font and menu sounds if they exist for the theme.
 		( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )

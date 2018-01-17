@@ -5,6 +5,16 @@
 						<posx>-500</posx>
 						<onclick>-</onclick>
 				</control>
+				<control type="button" id="9999">
+						<posx>-500</posx>
+						<onfocus>ActivateWindow(Screensaver)</onfocus>
+						<visible>!Player.HasAudio</visible>
+				</control>
+				<control type="button" id="9999">
+						<posx>-500</posx>
+						<onfocus>ActivateWindow(2006)</onfocus>
+						<visible>Player.HasAudio</visible>
+				</control>
 				<include>CommonBackground</include>
 				<control type="group">
 						<animation effect="fade" start="100" end="0" time="150" condition="Skin.HasSetting(favsloading)">Conditional</animation>

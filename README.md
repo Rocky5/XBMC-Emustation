@@ -32,10 +32,10 @@
  * Press start on the main screen. Other Settings > Refresh Emulator list.
  * **note:** this is automatically done if any of the **Scan Roms Files** options are run.
  
-## Custom _Rom/_emulators Paths
- * Press start on the main screen. Other Settings > _Emulators Folder
- * Press start on the main screen. Other Settings > _Roms Folder
-  
+## Custom _emulators, _roms, _previews, _screenshots and _tbns Paths
+ * Press start on the main screen. Other Settings > scroll down.
+ * **note:** if you change any of these a **rescan of your roms** is required.
+   
 ## Customize Home
  * Press start on the main screen. UI Settings > Home Screen Customization.
   
