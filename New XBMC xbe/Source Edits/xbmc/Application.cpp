@@ -5209,7 +5209,7 @@ void CApplication::Process()
   // check if we need to load a new skin
   if (m_skinReloadTime && CTimeUtils::GetFrameTime() >= m_skinReloadTime)
   {
-	CBuiltins::Execute("RunScript(special://xbmc/_scripts/xbmc-emustation/home_themer.py)");
+	CBuiltins::Execute("RunScript(special://xbmc/.emustation/scripts/home_themer.py)");
 	ReloadSkin();
   }
 

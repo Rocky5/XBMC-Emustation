@@ -162,7 +162,7 @@ void CGUIDialogFavourites::OnDelete(int item)
 
   CGUIMessage message(GUI_MSG_ITEM_SELECT, GetID(), FAVOURITES_LIST, item < m_favourites->Size() ? item : item - 1);
   OnMessage(message);
-  CBuiltins::Execute("RunScript(special://xbmc/_scripts/xbmc-emustation/update_favs_counter.py,1)");
+  CBuiltins::Execute("RunScript(special://xbmc/.emustation/scripts/update_favs_counter.py,1)");
   UpdateList();
 }
 

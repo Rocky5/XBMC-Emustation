@@ -1,0 +1,130 @@
+<!-- Top Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>0</posy>
+	<width>1280</width>
+	<height>115</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture border="2">layouts/art/top_bar.png</texture>
+</control>
+<!-- System Logo -->
+<control type="image">
+	<description>logo</description>
+	<posx>30</posx>
+	<posy>20</posy>
+	<width>490</width>
+	<height>72</height>
+	<aspectratio align="left">keep</aspectratio>
+	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
+</control>
+<control type="image">
+	<description>controller</description>
+	<posx>995</posx>
+	<posy>0</posy>
+	<width>190</width>
+	<height>110</height>
+	<aspectratio>keep</aspectratio>
+	<texture>layouts/$INFO[Skin.String(emuname)]/art/system_art_small.png</texture>
+	<animation effect="fade" start="100" end="65" time="0" condition="true">Conditional</animation>
+</control>
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>layouts/art/help_background.png</texture>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsEmulators</include>
+<include>ContextButtonsVideo</include>
+<!-- Game description (Synopsis) -->
+<control type="textbox">
+	<posx>32</posx>
+	<posy>424</posy>
+	<width>723</width>
+	<height>210</height>
+	<font>size_17</font>
+	<textcolor>FF969696</textcolor>
+	<align>left</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
+</control>
+<!-- thumbnail image -->
+<control type="image">
+	<posx>32</posx>
+	<posy>159</posy>
+	<width>710</width>
+	<height>227</height>
+	<aspectratio>keep</aspectratio>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
+	<visible>!Player.HasVideo</visible>
+</control>
+<!-- Video Window -->
+<control type="videowindow">
+	<description>video preview window</description>
+	<posx>32</posx>
+	<posy>159</posy>
+	<width>710</width>
+	<height>227</height>
+	<aspectratio>keep</aspectratio>
+	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
+	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
+</control>
+<!-- List Control -->
+<control type="list" id="9000">
+	<posx>787</posx>
+	<posy>159</posy>
+	<width>460</width>
+	<height>482</height>
+	<onleft>PageUp</onleft>
+	<onright>PageDown</onright>
+	<onup>9000</onup>
+	<ondown>9000</ondown>
+	<viewtype label="List">List</viewtype>
+	<preloaditems>2</preloaditems>
+	<itemlayout height="30" width="460">
+		<control type="label">
+			<posx>14</posx>
+			<posy>0</posy>
+			<width>432</width>
+			<height>30</height>
+			<font>size_21</font>
+			<textcolor>FF969696</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</itemlayout>
+	<focusedlayout height="30" width="460">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>460</width>
+			<height>31</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>FF1C1C1C</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+		</control>
+		<control type="label">
+			<posx>14</posx>
+			<posy>0</posy>
+			<width>432</width>
+			<height>30</height>
+			<font>size_21</font>
+			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</focusedlayout>
+</control>

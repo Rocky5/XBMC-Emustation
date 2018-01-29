@@ -10,8 +10,7 @@ Exit
 
 for /f "Tokens=*" %%a in ('dir /b /s /A:-D "%~n1\*.*"') do (
 	Echo Converting %%~na to system_art.png
-	REM convert.exe "%%a" -filter mitchell -resize 480x270 png32:"%%~pna..png" 2>NUL
-	convert.exe "%%a" -filter mitchell -resize 720x405 png32:"%%~pna..png" 2>NUL
+	convert.exe "%%a" -filter mitchell -resize 640x320 png32:"%%~pna..png" 2>NUL
 	set "line=%%a"
 	set "line=!line:%CD%\=!"
 	set "line=!line:%~n1\=!"

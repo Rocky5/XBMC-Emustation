@@ -58,7 +58,7 @@
 		<Home>
 				<gamepad>
 						<B>highlight</B>
-						<Y>RunScript(Special://XBMC/_scripts/XBMC-Emustation/direct_launch_emulator.py)</Y>
+						<Y>RunScript(Special://XBMC/.emustation/scripts/direct_launch_emulator.py)</Y>
 						<start>XBMC.ActivateWindow(1111)</start>
 						<back>SetFocus(9999)</back>
 				</gamepad>
@@ -66,7 +66,7 @@
 		<MyPrograms>
 				<gamepad>
 						<Y>SetFocus(9999)</Y>
-						<X>RunScript(Special://XBMC/_scripts/XBMC-Emustation/random_select.py)</X>
+						<X>RunScript(Special://XBMC/.emustation/scripts/random_select.py)</X>
 						<white>SetFocus(9990)</white>
 				</gamepad>
 		</MyPrograms>

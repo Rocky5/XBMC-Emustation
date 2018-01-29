@@ -1,0 +1,131 @@
+<!-- Background Images -->
+<control type="image">
+	<include>1280x720</include>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>background</colordiffuse>
+	<texture background="false">background diffuse.png</texture>
+</control>
+<!-- Background Pattern -->
+<control type="image">
+	<include>1280x720</include>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>background_pattern</colordiffuse>
+	<texture background="false">layouts\art\bg_pattern.png</texture>
+	<animation effect="fade" start="0" end="100" delay="50" time="100">WindowOpen</animation>
+	<animation effect="fade" start="100" end="0" time="0">WindowClose</animation>
+</control>
+<!-- List & System Logo Background -->
+<control type="image">
+	<posx>13</posx>
+	<posy>14</posy>
+	<width>448</width>
+	<height>641</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>carousel_bar</colordiffuse>
+	<texture background="false">background diffuse.png</texture>
+</control>
+<!-- System Logo -->
+<control type="image">
+	<description>logo</description>
+	<posx>27</posx>
+	<posy>76</posy>
+	<width>421</width>
+	<height>49</height>
+	<aspectratio>keep</aspectratio>
+	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
+</control>
+<!-- Thumb Background -->
+<control type="image">
+	<posx>595.5</posx>
+	<posy>59.5</posy>
+	<width>550</width>
+	<height>550</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>carousel_bar</colordiffuse>
+	<texture background="false">background diffuse.png</texture>
+</control>
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>51r</posy>
+	<width>1280</width>
+	<height>51</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>carousel_bar</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- Context Button Overlay -->
+<control type="group">
+	<posy>-3</posy>
+	<!-- Context Button Overlay -->
+	<include>ContextButtonsXBE</include>
+</control>
+<!-- thumbnail image -->
+<control type="image">
+	<posx>608.5</posx>
+	<posy>72.5</posy>
+	<width>524</width>
+	<height>524</height>
+	<aspectratio>keep</aspectratio>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(50).listitem.thumb]</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>XbeScrollFade</include>
+</control>
+<!-- List Control -->
+<control type="list" id="50">
+	<posx>26</posx>
+	<posy>180</posy>
+	<width>422</width>
+	<height>462</height>
+	<onleft>PageUp</onleft>
+	<onright>PageDown</onright>
+	<onup>50</onup>
+	<ondown>50</ondown>
+	<viewtype label="List">List</viewtype>
+	<preloaditems>2</preloaditems>
+	<itemlayout height="42" width="422">
+		<control type="label">
+			<posx>12</posx>
+			<posy>0</posy>
+			<width>398</width>
+			<height>40</height>
+			<font>size_20</font>
+			<textcolor>carousel_bar_label</textcolor>
+			<selectedcolor>FF3C3D3E</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</itemlayout>
+	<focusedlayout  height="42" width="422">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>422</width>
+			<height>42</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>carousel_bar_label</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+		</control>
+		<control type="label">
+			<posx>12</posx>
+			<posy>0</posy>
+			<width>398</width>
+			<height>40</height>
+			<font>size_20</font>
+			<textcolor>carousel_bar</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>5</width>
+			<height>42</height>
+			<aspectratio>stretch</aspectratio>
+			<texture>$INFO[listitem.overlay]</texture>
+		</control>
+	</focusedlayout>
+</control>

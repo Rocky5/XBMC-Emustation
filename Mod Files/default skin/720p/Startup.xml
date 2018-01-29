@@ -2,7 +2,7 @@
 		<onload>Skin.Reset(favsloading)</onload>
 		<onload condition="!Skin.HasSetting(firstrun)">ActivateWindow(1200)</onload>
 		<onload condition="Skin.HasSetting(firstrun) + !Skin.HasSetting(introenabled) + Skin.HasSetting(Use_Startup_Playback)">XBMC.PlayMedia($INFO[Skin.String(Startup_Playback_Path)])</onload>
-		<onload condition="Skin.HasSetting(firstrun) + Skin.HasSetting(introenabled)">RunScript(Special://xbmc/_Scripts/XBMC-Emustation/intro.py)</onload>
+		<onload condition="Skin.HasSetting(firstrun) + Skin.HasSetting(introenabled)">RunScript(Special://xbmc/.emustation/scripts/intro.py)</onload>
 		<onload condition="Skin.HasSetting(firstrun) + !Skin.HasSetting(introenabled)">ReplaceWindow(Home)</onload>
 		<defaultcontrol always="true">1</defaultcontrol>
 		<allowoverlay>no</allowoverlay>

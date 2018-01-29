@@ -1359,7 +1359,7 @@ bool CGUIMediaWindow::OnContextButton(int itemNumber, CONTEXT_BUTTON button)
     {
       CFileItemPtr item = m_vecItems->Get(itemNumber);
       CFavourites::AddOrRemove(item.get(), GetID());
-      CBuiltins::Execute("RunScript(special://xbmc/_scripts/xbmc-emustation/update_favs_counter.py)");
+      CBuiltins::Execute("RunScript(special://xbmc/.emustation/scripts/update_favs_counter.py)");
       return true;
     }
   case CONTEXT_BUTTON_PLUGIN_SETTINGS:

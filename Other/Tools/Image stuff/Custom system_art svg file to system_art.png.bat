@@ -13,7 +13,7 @@ Set "namenew=system_art"
 
 for /f "Tokens=*" %%a in ('dir /b /s "%~n1\%nameold%.svg"') do (
 	Echo Converting %%~nxa to %namenew%.png
-	convert.exe -background none -filter mitchell -resize 720x405 "%%a" png32:"%%a.png" 2>NUL
+	convert.exe -background none -filter mitchell -resize 640x320 "%%a" png32:"%%a.png" 2>NUL
 	set "line=%%~dpa"
 	set "line=!line:%CD%\=!"
 	set "line=!line:%~n1\=!"

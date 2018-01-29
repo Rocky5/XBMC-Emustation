@@ -12,18 +12,16 @@ Echo: & Echo: & Echo: & Echo   Please wait...
 
 (
 XCopy /s /e /i /h /r /y "Mod Files" "%foldername%"
-XCopy /s /i /h /r /y "Emu xbe files" "%foldername%\_emulators"
+XCopy /s /i /h /r /y "Emu xbe files" "%foldername%\.emustation\emulators"
 Echo:>"%foldername%\system\Faster_Game_Loading.bin"
-del /q /s "%foldername%\_emulators\*.bat"
-del /q /s "%foldername%\_emulators\place emulators files in here"
-del /q "%foldername%\_emulators\*.info"
-rd /q /s "%foldername%\_scripts\XBMC-Emustation\not used"
+del /q /s "%foldername%\.emustation\emulators\*.bat"
+del /q /s "%foldername%\.emustation\emulators\place emulators files in here"
+del /q "%foldername%\.emustation\emulators\*.info"
+rd /q /s "%foldername%\.emustation\scripts\not used"
 copy /y "New XBMC xbe\default.xbe" "%foldername%\default.xbe"
 del /q /s "%foldername%\system\userdata\guisettings.xml"
-rd /q /s "%foldername%\_roms"
-rd /q /s "%foldername%\_tbns"
-rd /q /s "%foldername%\_screenshots"
-rd /q /s "%foldername%\_previews"
+rd /q /s "%foldername%\.emustation\roms"
+rd /q /s "%foldername%\.emustation\media"
 )
 cls
 Echo: & Echo:

@@ -1,3 +1,41 @@
+29/01/2018
+	1) Redone the layout of folders to closer match EmulationStation.
+	2) Made a Xbox logo for the ComicBook theme as there wasn't one.
+	3) Updated the layouts to better match EMulationStation and fixed offsets labels in lists.
+	4) Cleaned up the source and texture files.
+	5) Optimised the XPR files, now use slightly smaller backgrounds but keep the quality and makes the skin faster.
+	6) Added "Name: " to the beginning of all synopsis files, this means you can use the correct names for the roms instead of the filenames.
+		( if you wish that is, you get a choice )
+	7) Updated "create_roms_lists.py" to ask whether you want to parse the names from the synopsis files or just use filenames.
+	8) Updated "create_roms_lists.py" to add the rom path to the N64 surreal/-ce.ini files so roms auto load.
+	9) Updated "create_roms_lists.py" by adding .nds to the extension list and cleanup of some of the code.
+	10) Updated a few other scripts.
+	11) The menu ( start button ) is now consistent across all menus, done that as it looks better in my opinion.
+	12) Fixed the filemanager not showing the sized of folders/files.
+	13) Updated the welcome screen.
+	14) New screen calibration screen, should make it simpler to proportion your screen correctly.
+	15) New bat file for adding "Name: " to the beginning of each synopsis file that come form emulators.
+		( folk shouldn't need it but if there is synopsis for a system and you get it from the emulator you can use this to allow parsing of names )
+	16) Removed Atari Jaguar CD as there is no emulator for this, only the Atari Jaguar.
+	17) Made Neo Geo CD direct launch only as the emulator doesn't support command line launching.
+	18) New settings look, to closer match the rest of the system.
+		( isn't finished but its a start )
+	19) New scripts to help with the transition to the new layout "Convert old layout to new media layout.py".
+		( this script will ask you to select you _tbns and _previews folders and then it will reorder them into the media folder layout )
+	20) Added the option to change the artwork type to the options menu when in a system layout.
+		( its system specific so you can have 3D Boxart for Mega Drive and Mix Artwork for SNES eg... )
+	21) Updated the generate_playlist.py to parse subdirectories.
+	22) Updated Custom_SoundSettings.xml labels and to be clearer on what the startup music button does.
+	23) Modified comicbook.ttf ( Shaka Pow Upright ) so it displays all letter.
+	24) New theme called xudora, based off of eudora, no images were used from that theme eg...
+		( you can create custom colour themes with this theme, by sharing colour xml files )
+	26) Changed all the emulators that are included to use Back+Black for save-state, Black+White for load save-state and Back+Up to cycle save-state slots.
+		( like coinops )
+	27) New tools, fastscraper.bat and my python script ( for on windows ) to parse gamelist.xml files into Xbox synopisis files.
+	28) New credits ( acknowledgements ) screen in the settings menu.
+	29) There are other changes I have done, but for the life of me cant remember exactly what.
+	
+
 17/01/2018
 	1) New XBE fixed the center label issue for lists
 		( If you have a skin that uses center for its labels in a list you may want to remove the offset you had to use for posx )

@@ -24,7 +24,7 @@
 						<repeat>false</repeat>
 						<shuffle>false</shuffle>
 				</playlist>
-				<cleanstrings>false</cleanstrings>
+				<cleanstrings>true</cleanstrings>
 				<extractflags>false</extractflags>
 				<extractthumb>false</extractthumb>
 				<treatstackasfile>true</treatstackasfile>
@@ -419,7 +419,7 @@
 		<lookandfeel>
 				<enablemouse>false</enablemouse>
 				<enablerssfeeds>true</enablerssfeeds>
-				<font>Default</font>
+				<font>SKINDEFAULT</font>
 				<rssedit>
 				</rssedit>
 				<sep2>
@@ -563,7 +563,7 @@
 				</slideshowpath>
 				<time>5</time>
 				<usedimonpause>false</usedimonpause>
-				<usemusicvisinstead>false</usemusicvisinstead>
+				<usemusicvisinstead>true</usemusicvisinstead>
 		</screensaver>
 		<scrobbler>
 				<lastfmpass>
@@ -599,7 +599,7 @@
 				</sep3>
 				<upnprenderer>false</upnprenderer>
 				<upnpserver>false</upnpserver>
-				<webserver>true</webserver>
+				<webserver>false</webserver>
 				<webserverpassword>
 				</webserverpassword>
 				<webserverport>80</webserverport>
@@ -676,9 +676,9 @@
 				</calibrate>
 				<defaultplayer>1</defaultplayer>
 				<displayresolution>10</displayresolution>
-				<errorinaspect>20.000000</errorinaspect>
-				<fast>false</fast>
-				<flicker>0</flicker>
+				<errorinaspect>3.000000</errorinaspect>
+				<fast>true</fast>
+				<flicker>1</flicker>
 				<framerateconversions>0</framerateconversions>
 				<rendermethod>0</rendermethod>
 				<resumeautomatically>2</resumeautomatically>
@@ -690,7 +690,7 @@
 				<soften>false</soften>
 		</videoplayer>
 		<videoscreen>
-				<flickerfilter>5</flickerfilter>
+				<flickerfilter>2</flickerfilter>
 				<guicalibration>
 				</guicalibration>
 				<resolution>10</resolution>

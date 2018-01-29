@@ -22,6 +22,15 @@
 						<aspectratio>stretch</aspectratio>
 						<texture background="false">layouts/art/background.png</texture>
 				</control>
+				<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>720</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>background-overlay-colour</colordiffuse>
+						<texture background="false">background diffuse.png</texture>
+				</control>
 		</include>
 		<include name="CarouselLabels">
 				<control type="label">
@@ -236,7 +245,7 @@
 						</control>
 				</control>
 		</include>
-		<include name="ContextButtonsHomeVertical">
+		<include name="ContextButtonsSettings">
 				<control type="grouplist">
 						<posx>15</posx>
 						<posy>685</posy>
@@ -248,87 +257,63 @@
 								<description>DPad</description>
 								<width>25</width>
 								<height>25</height>
-								<colordiffuse>contextbuttonshome</colordiffuse>
+								<colordiffuse>FF6E6E6E</colordiffuse>
 								<aspectratio>stretch</aspectratio>
 								<texture>layouts/art/dpad.png</texture>
+								<visible>!Window.IsActive(1900)</visible>
 						</control>
 						<control type="label">
 								<width min="30" max="250">auto</width>
-								<textcolor>contextbuttonshome</textcolor>
+								<textcolor>FF6E6E6E</textcolor>
 								<font>size_19</font>
 								<label>$LOCALIZE[32070] </label>
+								<visible>!Window.IsActive(1900)</visible>
 						</control>
 						<control type="image">
 								<description>A Button</description>
 								<width>25</width>
 								<height>25</height>
-								<colordiffuse>contextbuttonshome</colordiffuse>
+								<colordiffuse>FF6E6E6E</colordiffuse>
 								<aspectratio>stretch</aspectratio>
 								<texture>layouts/art/a.png</texture>
+								<visible>!Window.IsActive(1900)</visible>
 						</control>
 						<control type="label">
 								<width min="30" max="250">auto</width>
-								<textcolor>contextbuttonshome</textcolor>
+								<textcolor>FF6E6E6E</textcolor>
 								<font>size_19</font>
 								<label>$LOCALIZE[32071] </label>
+								<visible>!Window.IsActive(1900)</visible>
+						</control>
+						<control type="image">
+								<description>B Button</description>
+								<width>25</width>
+								<height>25</height>
+								<colordiffuse>FF6E6E6E</colordiffuse>
+								<aspectratio>stretch</aspectratio>
+								<texture>layouts/art/b.png</texture>
+						</control>
+						<control type="label">
+								<width min="30" max="250">auto</width>
+								<textcolor>FF6E6E6E</textcolor>
+								<font>size_19</font>
+								<label>$LOCALIZE[32074] </label>
 						</control>
 						<control type="image">
 								<description>X Button</description>
 								<width>25</width>
 								<height>25</height>
-								<colordiffuse>contextbuttonshome</colordiffuse>
+								<colordiffuse>FF6E6E6E</colordiffuse>
 								<aspectratio>stretch</aspectratio>
 								<texture>layouts/art/x.png</texture>
+								<visible>Player.HasMedia</visible>
 						</control>
 						<control type="label">
 								<width min="30" max="250">auto</width>
-								<textcolor>contextbuttonshome</textcolor>
-								<font>size_19</font>
-								<label>$LOCALIZE[32076] </label>
-								<visible>!Player.HasMedia</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textcolor>contextbuttonshome</textcolor>
+								<textcolor>FF6E6E6E</textcolor>
 								<font>size_19</font>
 								<label>$LOCALIZE[32080] </label>
 								<visible>Player.HasMedia</visible>
-						</control>
-						<control type="image">
-								<description>Start Button</description>
-								<width>25</width>
-								<height>25</height>
-								<colordiffuse>contextbuttonshome</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/start.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textcolor>contextbuttonshome</textcolor>
-								<font>size_19</font>
-								<label>$LOCALIZE[32072] </label>
-						</control>
-						<control type="image">
-								<description>Back Button</description>
-								<width>25</width>
-								<height>25</height>
-								<colordiffuse>contextbuttonshome</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/back.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textcolor>contextbuttonshome</textcolor>
-								<font>size_19</font>
-								<label>$LOCALIZE[32079] </label>
-								<visible>!Player.HasAudio</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textcolor>contextbuttonshome</textcolor>
-								<font>size_19</font>
-								<label>$LOCALIZE[32069] </label>
-								<visible>Player.HasAudio</visible>
 						</control>
 				</control>
 		</include>
@@ -712,7 +697,7 @@
 				<texturenofocus border="20,20,20,20">yes_no_nofocus.png</texturenofocus>
 		</include>
 		<include name="MenuCustomButtonCommonValues">
-				<width>600</width>
+				<width>640</width>
 				<height>50</height>
 				<font>size_23</font>
 				<align>left</align>

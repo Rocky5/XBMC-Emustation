@@ -58,7 +58,7 @@
 										<posy>0</posy>
 										<label>$LOCALIZE[32005]</label>
 										<include>MenuFolderButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/menu_loader.py)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/menu_loader.py)</onclick>
 								</control>
 								<control type="button" id="2">
 										<posx>0</posx>

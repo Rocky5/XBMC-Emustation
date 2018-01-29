@@ -44,8 +44,15 @@
 										<onright>SetFocus(100)</onright>
 										<onleft>SetFocus(200)</onleft>
 										<label>[UPPERCASE]$LOCALIZE[582][/UPPERCASE]</label>
-										<label2>&lt; $INFO[Skin.String(CurrentLayoutTheme)] &gt;</label2>
+										<label2>&lt; [UPPERCASE]$INFO[Skin.String(CurrentLayoutTheme)][/UPPERCASE] &gt;</label2>
 										<include>MenuButtonCommonValues</include>
+								</control>
+								<control type="button" id="2">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32024]</label>
+										<include>MenuFolderButtonCommonValues</include>
+										<onclick>ActivateWindow(1300)</onclick>
 								</control>
 								<control type="radiobutton" id="5">
 										<posx>0</posx>
@@ -53,7 +60,7 @@
 										<label>$LOCALIZE[32026]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.ToggleSetting(introenabled)</onclick>
-										<onclick>RunScript( Special://xbmc/_Scripts/XBMC-Emustation/disable_splash.py )</onclick>
+										<onclick>RunScript( Special://xbmc/.emustation/scripts/disable_splash.py )</onclick>
 										<selected>Skin.HasSetting(introenabled)</selected>
 								</control>
 								<control type="button" id="6">
@@ -81,21 +88,6 @@
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.ToggleSetting(resourcesvideo)</onclick>
 										<selected>Skin.HasSetting(resourcesvideo)</selected>
-								</control>
-								<control type="button" id="20">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32022]</label>
-										<include>MenuFolderButtonCommonValues</include>
-										<onclick>ActivateWindow(guicalibration)</onclick>
-										<onclick>Dialog.Close(All,true)</onclick>
-								</control>
-								<control type="button" id="30">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32024]</label>
-										<include>MenuFolderButtonCommonValues</include>
-										<onclick>ActivateWindow(1300)</onclick>
 								</control>
 						</control>
 				</control>

@@ -20,8 +20,8 @@
  * FTP this new folder to your Xbox and enjoy.
  
 ## Roms and Emulators
- * You place your roms in the designated subdirectory in the **_roms** folder.
- * Same exact thing for the emulators, but in the **_emulators** folder.
+ * You place your roms in the designated subdirectory in the **.emustation\roms** folder.
+ * Same exact thing for the emulators, but in the **.emustation\emulators** folder.
  * **note:** these paths can be customized in the Other Settings menu
  
 ## Scanning Roms
@@ -32,7 +32,7 @@
  * Press start on the main screen. Other Settings > Refresh Emulator list.
  * **note:** this is automatically done if any of the **Scan Roms Files** options are run.
  
-## Custom _emulators, _roms, _previews, _screenshots and _tbns Paths
+## Custom emulators, roms and media Paths
  * Press start on the main screen. Other Settings > scroll down.
  * **note:** if you change any of these a **rescan of your roms** is required.
    

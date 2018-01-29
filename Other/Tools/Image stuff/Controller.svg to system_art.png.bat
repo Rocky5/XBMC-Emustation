@@ -10,7 +10,7 @@ Exit
 
 for /f "Tokens=*" %%a in ('dir /b /s "%~n1\controller.svg"') do (
 	Echo Converting %%~nxa to system_art.png
-	convert.exe -background none -filter mitchell -resize 720x405 "%%a" png32:"%%~pa\system_art.png" 2>NUL
+	convert.exe -background none -filter mitchell -resize 640x320 "%%a" png32:"%%~pa\system_art.png" 2>NUL
 	set "line=%%a"
 	set "line=!line:%CD%\=!"
 	set "line=!line:%~n1\=!"

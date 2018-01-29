@@ -14,7 +14,7 @@
 				<control type="button" id="605">
 						<posx>-500</posx>
 						<onfocus>dialog.close(114,true)</onfocus>
-						<onfocus>RunScript(Special://xbmc/_scripts/XBMC-Emustation/random_select.py)</onfocus>
+						<onfocus>RunScript(Special://xbmc/.emustation/scripts/random_select.py)</onfocus>
 						<visible>!Player.HasMedia</visible>
 				</control>
 				<!-- Music Covers -->
@@ -223,6 +223,7 @@
 										<ondown>ActivateWindow(122)</ondown>
 										<onleft>605</onleft>
 										<onright>608</onright>
+										<visible>Window.IsActive(2006)</visible>
 								</control>
 								<control type="image">
 										<posx>681</posx>

@@ -77,7 +77,7 @@
 								<align>center</align>
 								<aligny>-</aligny>
 								<font>size_17</font>
-								<label>[UPPERCASE]emulator files are placed in the subdirectories inside the [B]_emulators[/B] directory.[CR][CR]Roms are placed in the subdirectories inside the [B]_roms[/B] directory[/UPPERCASE]</label>
+								<label>[UPPERCASE]emulator files are placed in the subdirectories inside the [B].emustation\emulators\[/B] directory.[CR][CR]Roms are placed in the subdirectories inside the [B].emustation\roms\[/B] directory[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(2)</visible>
 								<animation effect="fade" time="200">visible</animation>
@@ -100,7 +100,7 @@
 								<align>center</align>
 								<aligny>-</aligny>
 								<font>size_17</font>
-								<label>[UPPERCASE]only exception to using the [B]_roms[/B] folder are the Atari Jaguar systems, there roms must go in the roms folder in the root of there emulator folder.[/UPPERCASE]</label>
+								<label>[UPPERCASE]only exception to using the [B].emustation\roms\[/B] folder is the Atari Jaguar and Neo Geo CD systems, there roms must go in the roms folder in the root of there emulator folder.[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(3)</visible>
 								<animation effect="fade" time="200">visible</animation>
@@ -123,7 +123,7 @@
 								<align>center</align>
 								<aligny>-</aligny>
 								<font>size_17</font>
-								<label>[UPPERCASE]png images are placed in the subdirectories inside the [B]_tbns[/B] directory.[CR]the subdirectories are created after you scan in your roms, then you match the rom name.[CR][CR]example:[CR]Mario world.smc = mario world.png[/UPPERCASE]</label>
+								<label>[UPPERCASE]png images and preview videos are placed in the subdirectories inside the [B].emustation\media\&lt;system&gt;\[/B] directories. You match the image/video to the rom name.[CR][CR]image example:[CR]Mario world.zip = mario world.png[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(4)</visible>
 								<animation effect="fade" time="200">visible</animation>
@@ -146,7 +146,7 @@
 								<align>center</align>
 								<aligny>-</aligny>
 								<font>size_17</font>
-								<label>[UPPERCASE][CR][CR]i will now create the folder structure for the roms folder and allow you to calibrate your screen.[/UPPERCASE]</label>
+								<label>[UPPERCASE][CR]i will now let you calibrate your screen.[CR][CR]reason, it will give you the best experience.[CR]( as your screen wont be cut off )[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(5)</visible>
 								<animation effect="fade" time="200">visible</animation>
@@ -159,34 +159,34 @@
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
 										<onclick>Skin.SetBool(firstrun)</onclick>
-										<onclick>RunScript(Special://xbmc/_scripts/xbmc-emustation/scanner.py,scan_emus,0,scan_xbes,silent_mode)</onclick>
-										<onclick>SetFocus(6)</onclick>
-								</control>
-						</control>
-						<control type="grouplist">
-								<posx>470</posx>
-								<posy>260</posy>
-								<width>340</width>
-								<height>50</height>
-								<control type="button" id="6">
-										<posx>0</posx>
-										<posy>0</posy>
-										<width>340</width>
-										<height>50</height>
-										<font>size_23</font>
-										<align>center</align>
-										<aligny>center</aligny>
-										<label>$LOCALIZE[32022]</label>
-										<textcolor>menu_deselect_label</textcolor>
-										<focusedcolor>menu_select_label</focusedcolor>
-										<shadowcolor>-</shadowcolor>
-										<textoffsetx>10</textoffsetx>
-										<texturefocus border="5">button-focus4.png</texturefocus>
-										<texturenofocus>button-nofocus4.png</texturenofocus>
 										<onclick>ReplaceWindow(guicalibration)</onclick>
-										<visible allowhiddenfocus="true">Control.HasFocus(6)</visible>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/scanner.py,scan_emus,0,scan_xbes,silent_mode)</onclick>
 								</control>
 						</control>
+						<!-- <control type="grouplist"> -->
+						<!-- <posx>470</posx> -->
+						<!-- <posy>260</posy> -->
+						<!-- <width>340</width> -->
+						<!-- <height>50</height> -->
+						<!-- <control type="button" id="6"> -->
+						<!-- <posx>0</posx> -->
+						<!-- <posy>0</posy> -->
+						<!-- <width>340</width> -->
+						<!-- <height>50</height> -->
+						<!-- <font>size_23</font> -->
+						<!-- <align>center</align> -->
+						<!-- <aligny>center</aligny> -->
+						<!-- <label>$LOCALIZE[32022]</label> -->
+						<!-- <textcolor>menu_deselect_label</textcolor> -->
+						<!-- <focusedcolor>menu_select_label</focusedcolor> -->
+						<!-- <shadowcolor>-</shadowcolor> -->
+						<!-- <textoffsetx>10</textoffsetx> -->
+						<!-- <texturefocus border="5">button-focus4.png</texturefocus> -->
+						<!-- <texturenofocus>button-nofocus4.png</texturenofocus> -->
+						<!-- <onclick>ReplaceWindow(guicalibration)</onclick> -->
+						<!-- <visible allowhiddenfocus="true">Control.HasFocus(6)</visible> -->
+						<!-- </control> -->
+						<!-- </control> -->
 						<control type="label">
 								<description>footer label</description>
 								<posx>320</posx>

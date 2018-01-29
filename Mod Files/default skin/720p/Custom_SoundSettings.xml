@@ -46,31 +46,23 @@
 								<control type="radiobutton" id="2">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>[UPPERCASE]$LOCALIZE[24022] $LOCALIZE[15108][/UPPERCASE]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript("Special://xbmc/_scripts/xbmc-emustation/dis-enable_sound.py")</onclick>
-										<selected>!Skin.HasSetting(DisabledSound)</selected>
-								</control>
-								<control type="radiobutton" id="3">
-										<posx>0</posx>
-										<posy>0</posy>
 										<label>[UPPERCASE]$LOCALIZE[31137][/UPPERCASE]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.ToggleSetting(Use_Startup_Playback)</onclick>
 										<selected>Skin.HasSetting(Use_Startup_Playback)</selected>
 								</control>
-								<control type="button" id="4">
+								<control type="button" id="3">
 										<posx>0</posx>
 										<posy>0</posy>
 										<onright>VolumeUp</onright>
 										<onleft>VolumeDown</onleft>
-										<label> &gt; $LOCALIZE[21801]</label>
-										<label2>$INFO[Skin.String(Startup_Playback_Path)]</label2>
+										<label> &gt; $LOCALIZE[31411]</label>
+										<label2>E:\\Music, F:\\Music, G:\\Music</label2>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript( Special://xbmc/_scripts/xbmc-emustation/generate_playlist.py )</onclick>
+										<onclick>RunScript( Special://xbmc/.emustation/scripts/generate_playlist.py )</onclick>
 										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
 								</control>
-								<control type="button" id="5">
+								<control type="button" id="4">
 										<posx>0</posx>
 										<posy>0</posy>
 										<onright>VolumeUp</onright>

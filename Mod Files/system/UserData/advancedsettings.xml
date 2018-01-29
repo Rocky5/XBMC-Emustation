@@ -5,7 +5,7 @@
 		<splash>true</splash>
 		<!-- this value gives the best quality and doesn't run out of ram -->
 		<!-- Note: its slower to draw the images when scrolling fast ( triggers ) -->
-		<thumbsize>408</thumbsize>
+		<thumbsize>358</thumbsize>
 		<myprograms>
 				<trainerpath>Q:\system\trainers\</trainerpath>
 		</myprograms>

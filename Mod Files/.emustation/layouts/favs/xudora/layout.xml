@@ -1,0 +1,120 @@
+<!-- List background -->
+<control type="image">
+	<posx>32</posx>
+	<posy>133.5</posy>
+	<width>1216</width>
+	<height>520</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>list-background-colour</colordiffuse>
+	<texture>layouts/art/panel.png</texture>
+</control>
+<!-- Top Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>0</posy>
+	<width>1280</width>
+	<height>115</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>top-bar-colour</colordiffuse>
+	<texture>layouts/art/panel.png</texture>
+</control>
+<control type="image">
+	<posx>0</posx>
+	<posy>113</posy>
+	<width>1280</width>
+	<height>3</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>top-bar-highlight</colordiffuse>
+	<texture>layouts/art/panel.png</texture>
+</control>
+<!-- System Logo -->
+<control type="image">
+	<description>logo</description>
+	<posx>38</posx>
+	<posy>15</posy>
+	<width>704</width>
+	<height>82</height>
+	<aspectratio align="left">keep</aspectratio>
+	<texture>layouts/favourites/art/logo.png</texture>
+</control>
+<control type="image">
+	<description>controller</description>
+	<posx>1052</posx>
+	<posy>9</posy>
+	<width>190</width>
+	<height>94</height>
+	<aspectratio>keep</aspectratio>
+	<colordiffuse>layout-controller-colour</colordiffuse>
+	<texture>layouts/favourites/art/system_art_small.png</texture>
+</control>
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>bottom-bar-colour</colordiffuse>
+	<texture>layouts/art/panel.png</texture>
+</control>
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>4</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>bottom-bar-highlight</colordiffuse>
+	<texture>layouts/art/panel.png</texture>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsFAVS</include>
+<!-- List Control -->
+<control type="list" id="450">
+	<posx>32</posx>
+	<posy>133.5</posy>
+	<width>1216</width>
+	<height>520</height>
+	<onleft>PageUp</onleft>
+	<onright>PageDown</onright>
+	<onup>450</onup>
+	<ondown>450</ondown>
+	<viewtype label="List">List</viewtype>
+	<preloaditems>2</preloaditems>
+	<itemlayout height="40" width="1216">
+		<control type="label">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1216</width>
+			<height>40</height>
+			<font>size_23</font>
+			<textcolor>list-text-colour</textcolor>
+			<selectedcolor>list-background-colour</selectedcolor>
+			<align>center</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</itemlayout>
+	<focusedlayout height="40" width="1216">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1216</width>
+			<height>41</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>list-select-colour</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+		</control>
+		<control type="label">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1216</width>
+			<height>40</height>
+			<font>size_23</font>
+			<textcolor>list-text-select-colour</textcolor>
+			<selectedcolor>list-background-colour</selectedcolor>
+			<align>center</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</focusedlayout>
+</control>

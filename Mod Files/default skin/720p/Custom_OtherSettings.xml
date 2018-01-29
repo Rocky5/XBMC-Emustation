@@ -1,15 +1,17 @@
 <window type="dialog" id="1114">
 		<defaultcontrol always="true">2</defaultcontrol>
-		<onload condition="StringCompare(Skin.String(Custom_Screenshots_Path),)">Skin.SetString(Custom_Screenshots_Path,Q:/_screenshots/)</onload>
+		<onload condition="StringCompare(Skin.String(Custom_Emulator_Path),)">Skin.SetString(Custom_Emulator_Path,Q:\.emustation\emulators\)</onload>
+		<onload condition="StringCompare(Skin.String(Custom_Roms_Path),)">Skin.SetString(Custom_Roms_Path,Q:\.emustation\roms\)</onload>
+		<onload condition="StringCompare(Skin.String(Custom_Media_Path),)">Skin.SetString(Custom_Media_Path,Q:\.emustation\media\)</onload>
 		<controls>
 				<control type="group">
-						<posy>17</posy>
+						<posy>41.5</posy>
 						<control type="image">
 								<description>background image</description>
 								<posx>320</posx>
 								<posy>108</posy>
 								<width>640</width>
-								<height>470</height>
+								<height>421</height>
 								<texture border="20,20,20,20">menu_back.png</texture>
 						</control>
 						<control type="label">
@@ -30,8 +32,8 @@
 								<posy>200</posy>
 								<width>640</width>
 								<height>295</height>
-								<onleft>9000</onleft>
-								<onright>9000</onright>
+								<onleft>-</onleft>
+								<onright>-</onright>
 								<onup>9000</onup>
 								<ondown>9000</ondown>
 								<itemgap>-1</itemgap>
@@ -52,14 +54,14 @@
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32040]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scanner.py,scan_emus,0,0,0)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/scanner.py,scan_emus,0,0,0)</onclick>
 								</control>
 								<control type="button" id="3">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32044]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/scanner.py,0,0,scan_xbes,0)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/scanner.py,0,0,scan_xbes,0)</onclick>
 										<animation effect="fade" time="0">hidden</animation>
 								</control>
 								<!-- Scan Roms -->
@@ -79,7 +81,7 @@
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32047]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create_rom_lists.py,0,auto)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/create_rom_lists.py,0,auto)</onclick>
 										<animation effect="fade" time="0">hidden</animation>
 								</control>
 								<control type="button" id="22">
@@ -87,7 +89,7 @@
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32048]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/create_rom_lists.py,manual,0)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/create_rom_lists.py,manual,0)</onclick>
 										<animation effect="fade" time="0">hidden</animation>
 								</control>
 								<!-- custom paths -->
@@ -108,6 +110,7 @@
 										<label>$LOCALIZE[32051]</label>
 										<label2>$INFO[Skin.String(Custom_Emulator_Path)]</label2>
 										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.Reset(Custom_Emulator_Path)</onclick>
 										<onclick>Skin.SetPath(Custom_Emulator_Path)</onclick>
 								</control>
 								<control type="button" id="32">
@@ -115,9 +118,9 @@
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32051]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.Reset(Custom_Emulator_Path)</onclick>
+										<onclick>Skin.SetString(Custom_Emulator_Path,Q:\.emustation\emulators\)</onclick>
 										<onclick>SetFocus(31)</onclick>
-										<visible>!IsEmpty(Skin.String(Custom_Emulator_Path))</visible>
+										<visible>!StringCompare(Skin.String(Custom_Emulator_Path),Q:\.emustation\emulators\)</visible>
 								</control>
 								<control type="button" id="33">
 										<posx>0</posx>
@@ -125,6 +128,7 @@
 										<label>$LOCALIZE[32052]</label>
 										<label2>$INFO[Skin.String(Custom_Roms_Path)]</label2>
 										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.Reset(Custom_Roms_Path)</onclick>
 										<onclick>Skin.SetPath(Custom_Roms_Path)</onclick>
 								</control>
 								<control type="button" id="34">
@@ -132,60 +136,27 @@
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32052]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.Reset(Custom_Roms_Path)</onclick>
+										<onclick>Skin.SetString(Custom_Roms_Path,Q:\.emustation\roms\)</onclick>
 										<onclick>SetFocus(33)</onclick>
-										<visible>!IsEmpty(Skin.String(Custom_Roms_Path))</visible>
+										<visible>!StringCompare(Skin.String(Custom_Roms_Path),Q:\.emustation\roms\)</visible>
 								</control>
 								<control type="button" id="35">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label>$LOCALIZE[32056]</label>
-										<label2>$INFO[Skin.String(Custom_Preview_Path)]</label2>
+										<label2>$INFO[Skin.String(Custom_Media_Path)]</label2>
 										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.SetPath(Custom_Preview_Path)</onclick>
+										<onclick>Skin.Reset(Custom_Media_Path)</onclick>
+										<onclick>Skin.SetPath(Custom_Media_Path)</onclick>
 								</control>
 								<control type="button" id="36">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32056]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.Reset(Custom_Preview_Path)</onclick>
+										<onclick>Skin.SetString(Custom_Media_Path,Q:\.emustation\media\)</onclick>
 										<onclick>SetFocus(35)</onclick>
-										<visible>!IsEmpty(Skin.String(Custom_Preview_Path))</visible>
-								</control>
-								<control type="button" id="37">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32059]</label>
-										<label2>$INFO[Skin.String(Custom_Screenshots_Path)]</label2>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.SetPath(Custom_Screenshots_Path)</onclick>
-								</control>
-								<control type="button" id="38">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32059]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.SetString(Custom_Screenshots_Path,Q:/_screenshots/)</onclick>
-										<onclick>SetFocus(37)</onclick>
-										<visible>!StringCompare(Skin.String(Custom_Screenshots_Path),Q:/_screenshots/)</visible>
-								</control>
-								<control type="button" id="39">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>$LOCALIZE[32058]</label>
-										<label2>$INFO[Skin.String(Custom_TBNS_Path)]</label2>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.SetPath(Custom_TBNS_Path)</onclick>
-								</control>
-								<control type="button" id="40">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32058]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.Reset(Custom_TBNS_Path)</onclick>
-										<onclick>SetFocus(39)</onclick>
-										<visible>!IsEmpty(Skin.String(Custom_TBNS_Path))</visible>
+										<visible>!StringCompare(Skin.String(Custom_Media_Path),Q:\.emustation\media\)</visible>
 								</control>
 								<!-- other stuff-->
 								<control type="label" id="50">
@@ -202,29 +173,22 @@
 								<control type="button" id="51">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32057]</label>
+										<label>$LOCALIZE[32055]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/rename_tbn_to_png.py)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/patch_xbe_paths.py)</onclick>
 								</control>
 								<control type="button" id="52">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32055]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/patch_xbe_paths.py)</onclick>
-								</control>
-								<control type="button" id="53">
-										<posx>0</posx>
-										<posy>0</posy>
 										<label>$LOCALIZE[32049]</label>
 										<include>MenuButtonCommonValues</include>
-										<onclick>RunScript(Special://xbmc/_scripts/XBMC-Emustation/generate_thumbs.py)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/generate_thumbs.py)</onclick>
 								</control>
 						</control>
 				</control>
 				<control type="image">
 						<posx>360r</posx>
-						<posy>195</posy>
+						<posy>220</posy>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-up.png</texture>
@@ -236,7 +200,7 @@
 				</control>
 				<control type="image">
 						<posx>360r</posx>
-						<posy>208r</posy>
+						<posy>183r</posy>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-down.png</texture>

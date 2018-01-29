@@ -17,6 +17,7 @@
 		<color name="menu_deselect_label">FF6C6B6C</color>
 		<color name="menu_header_label">FF6C6B6C</color>
 		<!-- main menus colours -->
+		<color name="background-overlay-colour">00000000</color>
 		<color name="background">FFD4D4D4</color>
 		<color name="background_pattern">FFAEAEAE</color>
 		<color name="carousel_bar_lower">B0BDBDBD</color>

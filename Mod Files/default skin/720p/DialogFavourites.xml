@@ -11,26 +11,39 @@
 						<width>1280</width>
 						<height>720</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>layouts\art\layout_alt_2.png</texture>
+						<colordiffuse>FF97999B</colordiffuse>
+						<texture>background diffuse.png</texture>
 				</control>
-				<!-- System Logos -->
+				<!-- Top Underlay Image -->
+				<control type="image">
+						<description>top bar</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>115</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC8CACB</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<!-- System Log -->
 				<control type="image">
 						<description>logo</description>
-						<posx>19</posx>
-						<posy>18</posy>
-						<width>581</width>
-						<height>86</height>
-						<aspectratio>keep</aspectratio>
+						<posx>30</posx>
+						<posy>20</posy>
+						<width>490</width>
+						<height>72</height>
+						<aspectratio align="left">keep</aspectratio>
 						<texture>layouts/favourites/art/logo.png</texture>
 				</control>
+				<!-- Bottom Underlay Image -->
 				<control type="image">
-						<description>controller</description>
-						<posx>695</posx>
-						<posy>18</posy>
-						<width>544</width>
-						<height>86</height>
-						<aspectratio>keep</aspectratio>
-						<texture>layouts/favourites/art/system_art_small.png</texture>
+						<posx>0</posx>
+						<posy>47r</posy>
+						<width>1280</width>
+						<height>47</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC5C6C7</colordiffuse>
+						<texture>background diffuse.png</texture>
 				</control>
 				<!-- Context Button Overlay -->
 				<include>ContextButtonsFAVS</include>
@@ -48,13 +61,13 @@
 						<preloaditems>2</preloaditems>
 						<itemlayout height="40" width="1216">
 								<control type="label">
-										<posx>608</posx>
-										<posy>0</posy>
+										<posx>0</posx>
+										<posy>1</posy>
 										<width>1216</width>
 										<height>40</height>
 										<font>size_23</font>
 										<textcolor>FF282A2B</textcolor>
-										<selectedcolor>FFEDEDED</selectedcolor>
+										<selectedcolor>FF969696</selectedcolor>
 										<align>center</align>
 										<aligny>center</aligny>
 										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
@@ -67,17 +80,17 @@
 										<width>1216</width>
 										<height>41</height>
 										<aspectratio>stretch</aspectratio>
-										<colordiffuse>6034383B</colordiffuse>
+										<colordiffuse>FF34383B</colordiffuse>
 										<texture border="1">background diffuse.png</texture>
 								</control>
 								<control type="label">
-										<posx>608</posx>
-										<posy>0</posy>
+										<posx>0</posx>
+										<posy>1</posy>
 										<width>1216</width>
 										<height>40</height>
 										<font>size_23</font>
-										<textcolor>FFEDEDED</textcolor>
-										<selectedcolor>FFEDEDED</selectedcolor>
+										<textcolor>FF949698</textcolor>
+										<selectedcolor>FF969696</selectedcolor>
 										<align>center</align>
 										<aligny>center</aligny>
 										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>

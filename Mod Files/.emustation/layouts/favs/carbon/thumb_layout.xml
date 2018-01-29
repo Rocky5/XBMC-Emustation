@@ -1,0 +1,103 @@
+<!-- Top Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>0</posy>
+	<width>1280</width>
+	<height>115</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture border="2">layouts/art/top_bar.png</texture>
+</control>
+<!-- System Logo -->
+<control type="image">
+	<description>logo</description>
+	<posx>30</posx>
+	<posy>20</posy>
+	<width>592</width>
+	<height>69</height>
+	<aspectratio align="left">keep</aspectratio>
+	<texture>layouts/favourites/art/logo.png</texture>
+</control>
+<control type="image">
+	<description>controller</description>
+	<posx>1048</posx>
+	<posy>13</posy>
+	<width>141</width>
+	<height>80</height>
+	<aspectratio>keep</aspectratio>
+	<texture>layouts/favourites/art/system_art_small.png</texture>
+	<animation effect="fade" start="100" end="65" time="0" condition="true">Conditional</animation>
+</control>
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+	<texture>layouts/art/help_background.png</texture>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsEmulators</include>
+<!-- thumbnail image -->
+<control type="image">
+	<posx>727</posx>
+	<posy>159</posy>
+	<width>450</width>
+	<height>450</height>
+	<aspectratio>keep</aspectratio>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(450).listitem.thumb]</texture>
+	<fadetime>ThumbCrossfadeTime</fadetime>
+	<include>FavsScrollFade</include>
+</control>
+<!-- List Control -->
+<control type="list" id="450">
+	<posx>27</posx>
+	<posy>124</posy>
+	<width>626</width>
+	<height>540</height>
+	<onleft>PageUp</onleft>
+	<onright>PageDown</onright>
+	<onup>450</onup>
+	<ondown>450</ondown>
+	<viewtype label="List">List</viewtype>
+	<preloaditems>2</preloaditems>
+	<itemlayout height="30" width="626">
+		<control type="label">
+			<posx>1</posx>
+			<posy>0</posy>
+			<width>624</width>
+			<height>30</height>
+			<font>size_21</font>
+			<textcolor>FF969696</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</itemlayout>
+	<focusedlayout height="30" width="626">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>626</width>
+			<height>31</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>FF1C1C1C</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+		</control>
+		<control type="label">
+			<posx>1</posx>
+			<posy>0</posy>
+			<width>624</width>
+			<height>30</height>
+			<font>size_21</font>
+			<textcolor>$VAR[var-carbon_custom_colours]</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</focusedlayout>
+</control>

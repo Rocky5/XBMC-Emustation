@@ -2,124 +2,144 @@
 		<defaultcontrol>50</defaultcontrol>
 		<allowoverlay>no</allowoverlay>
 		<controls>
-				<include>CommonBackground</include>
-				<control type="group">
-						<include>ViewVisibleEffect</include>
-						<control type="panel" id="50">
-								<posx>250</posx>
-								<posy>230</posy>
-								<width>820</width>
-								<height>390</height>
-								<onleft>-</onleft>
-								<onright>-</onright>
-								<onup>-</onup>
-								<ondown>-</ondown>
-								<viewtype label="21371">panel</viewtype>
-								<pagecontrol>-</pagecontrol>
-								<scrolltime>200</scrolltime>
-								<preloaditems>2</preloaditems>
-								<itemlayout height="130" width="256">
-										<control type="image">
-												<posx>2</posx>
-												<posy>2</posy>
-												<width>252</width>
-												<height>126</height>
-												<texture>thumbnf.png</texture>
-										</control>
-										<control type="image">
-												<posx>7</posx>
-												<posy>7</posy>
-												<width>242</width>
-												<height>90</height>
-												<texture>$INFO[listitem.icon]</texture>
-												<bordertexture border="5">black-back.png</bordertexture>
-												<bordersize>1</bordersize>
-												<aspectratio>stretch</aspectratio>
-										</control>
-										<control type="label">
-												<posx>10</posx>
-												<posy>100</posy>
-												<width>236</width>
-												<height>20</height>
-												<font>size_20</font>
-												<textcolor>white</textcolor>
-												<selectedcolor>blue</selectedcolor>
-												<align>left</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label]</label>
-										</control>
-								</itemlayout>
-								<focusedlayout height="256" width="190">
-										<control type="image">
-												<posx>2</posx>
-												<posy>2</posy>
-												<width>252</width>
-												<height>126</height>
-												<texture>thumbfo.png</texture>
-										</control>
-										<control type="image">
-												<posx>7</posx>
-												<posy>7</posy>
-												<width>242</width>
-												<height>90</height>
-												<texture>$INFO[listitem.icon]</texture>
-												<bordertexture border="5">black-back.png</bordertexture>
-												<bordersize>1</bordersize>
-												<aspectratio>stretch</aspectratio>
-										</control>
-										<control type="label">
-												<posx>10</posx>
-												<posy>100</posy>
-												<width>236</width>
-												<height>20</height>
-												<font>size_20</font>
-												<textcolor>black</textcolor>
-												<selectedcolor>blue2</selectedcolor>
-												<align>left</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label]</label>
-										</control>
-								</focusedlayout>
-								<content>
-										<item>
-												<label>480</label>
-												<label2>31400</label2>
-												<onclick>ActivateWindow(AppearanceSettings)</onclick>
-												<icon>thumbs/Appearance.png</icon>
-										</item>
-										<item>
-												<label>705</label>
-												<label2>31405</label2>
-												<onclick>ActivateWindow(NetworkSettings)</onclick>
-												<icon>thumbs/Network.png</icon>
-										</item>
-										<item>
-												<label>13000</label>
-												<label2>31406</label2>
-												<onclick>ActivateWindow(SystemSettings)</onclick>
-												<icon>thumbs/Settings.png</icon>
-										</item>
-										<item>
-												<label>0</label>
-												<label2>31408</label2>
-												<onclick>ActivateWindow(ProgramsSettings)</onclick>
-												<icon>thumbs/Programs.png</icon>
-										</item>
-										<item>
-												<label>7</label>
-												<label2>31409</label2>
-												<onclick>ActivateWindow(FileManager)</onclick>
-												<icon>thumbs/FileManager.png</icon>
-										</item>
-										<item>
-												<label>157</label>
-												<label2>31401</label2>
-												<onclick>ActivateWindow(VideosSettings)</onclick>
-												<icon>thumbs/videos.png</icon>
-										</item>
-								</content>
-						</control>
+				<!-- Background Images -->
+				<control type="image">
+						<description>background</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>720</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FF97999B</colordiffuse>
+						<texture>background diffuse.png</texture>
 				</control>
-				<include>BehindDialogFadeOut</include>
+				<!-- Top Underlay Image -->
+				<control type="image">
+						<description>top bar</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>115</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC8CACB</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<!-- System Log -->
+				<control type="image">
+						<description>logo</description>
+						<posx>30</posx>
+						<posy>20</posy>
+						<width>490</width>
+						<height>72</height>
+						<aspectratio align="left">keep</aspectratio>
+						<texture>layouts/settings/art/logo.png</texture>
+				</control>
+				<!-- Bottom Underlay Image -->
+				<control type="image">
+						<posx>0</posx>
+						<posy>47r</posy>
+						<width>1280</width>
+						<height>47</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC5C6C7</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<include>ContextButtonsSettings</include>
+				<control type="list" id="50">
+						<posx>32</posx>
+						<posy>133.5</posy>
+						<width>1216</width>
+						<height>520</height>
+						<onleft>PageUp</onleft>
+						<onright>PageDown</onright>
+						<onup>50</onup>
+						<ondown>50</ondown>
+						<viewtype label="List">List</viewtype>
+						<preloaditems>2</preloaditems>
+						<itemlayout height="40" width="1216">
+								<control type="label">
+										<posx>0</posx>
+										<posy>1</posy>
+										<width>1216</width>
+										<height>40</height>
+										<font>size_23</font>
+										<textcolor>FF282A2B</textcolor>
+										<selectedcolor>FF969696</selectedcolor>
+										<align>center</align>
+										<aligny>center</aligny>
+										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+								</control>
+						</itemlayout>
+						<focusedlayout height="40" width="1216">
+								<control type="image">
+										<posx>0</posx>
+										<posy>0</posy>
+										<width>1216</width>
+										<height>41</height>
+										<aspectratio>stretch</aspectratio>
+										<colordiffuse>FF34383B</colordiffuse>
+										<texture border="1">background diffuse.png</texture>
+								</control>
+								<control type="label">
+										<posx>0</posx>
+										<posy>1</posy>
+										<width>1216</width>
+										<height>40</height>
+										<font>size_23</font>
+										<textcolor>FF949698</textcolor>
+										<selectedcolor>FF969696</selectedcolor>
+										<align>center</align>
+										<aligny>center</aligny>
+										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+								</control>
+						</focusedlayout>
+						<content>
+								<item>
+										<label>480</label>
+										<onclick>ActivateWindow(AppearanceSettings)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>705</label>
+										<onclick>ActivateWindow(NetworkSettings)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>13000</label>
+										<onclick>ActivateWindow(SystemSettings)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>0</label>
+										<onclick>ActivateWindow(ProgramsSettings)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>157</label>
+										<onclick>ActivateWindow(VideosSettings)</onclick>
+										<icon>thumbs/videos.png</icon>
+								</item>
+								<item>
+										<label>32022</label>
+										<onclick>ActivateWindow(guicalibration)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>7</label>
+										<onclick>ActivateWindow(FileManager)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>welcome screen</label>
+										<onclick>ActivateWindow(1200)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>Acknowledgements</label>
+										<onclick>ActivateWindow(1900)</onclick>
+										<icon>-</icon>
+								</item>
+						</content>
+				</control>
 		</controls>
 </window>
