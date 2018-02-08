@@ -4,7 +4,7 @@ dialog	= xbmcgui.Dialog()
 if xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ):
 	Emulator_Folder_Path = xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
 else:
-	Emulator_Folder_Path = Root_Directory + '.emustation\\emulators\\'
+	Emulator_Folder_Path = 'Q:\\emustation\\emulators\\'
 text_filename = "tmp"
 text_filename_ext = ""
 text_name = ""
