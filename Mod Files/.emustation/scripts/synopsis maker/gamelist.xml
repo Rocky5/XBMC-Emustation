@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameList>
+	<game id="46279" source="screenscraper.fr">
+		<path>./5 in 1 Funpak.zip</path>
+		<name>5 in One Fun Pak</name>
+		<desc>5 in One Fun Pak is a collection of well-known games for the Sega Game Gear. Included are versions of Chess, Checkers, Backgammon, Reversi and Yacht (using Yahtzee&#39;s rules), and the player can choose whether to play against the computer or another human. Each game (except Yacht) has difficulty settings.&#xD;&#xA;&#xD;&#xA;The game was released exclusively in North America in 1994.</desc>
+		<rating>0.55</rating>
+		<releasedate>19940101T000000</releasedate>
+		<developer>Beam Software</developer>
+		<publisher/>
+		<genre>Compilation</genre>
+		<players>2</players>
+	</game>
+	<game id="12951" source="screenscraper.fr">
+		<path>./Addams Family.zip</path>
+		<name>The Addams Family</name>
+		<desc>The Addams Family is a side-scrolling platformer based on the movie of the same name. The player takes the role of Gomez who searches for his missing family members. To find them he has to explore six different parts of the mansion, e.g. the woods, which are basic platform levels: the player moves from left to right while jumping a lot and avoiding enemies. Some of them can be dispatched of by a jump on their heads. &#xA;&#xA;The main difference to the other versions of this game is a unique level design. There is also a life meter which allows to get hit more often before dying.</desc>
+		<rating>0.6</rating>
+		<releasedate>19940101T000000</releasedate>
+		<developer>Arc Developments</developer>
+		<publisher/>
+		<genre>Platform / Action</genre>
+		<players>2</players>
+	</game>
+	<game id="59546" source="screenscraper.fr">
+		<path>./Aa Harimanada.zip</path>
+		<name>Aa Harimanada</name>
+		<desc>Aa Harimanada is a 1993 sumo wrestling game by Sega for the Sega Game Gear and Sega Mega Drive made to tie into TV Tokyo&#39;s Aa Harimanada anime. The game is a typical fighting game with various button combinations doing something different. The Mega Drive version has a password system and a two-player versus mode.</desc>
+		<rating>0.5</rating>
+		<releasedate>19930702T000000</releasedate>
+		<developer>Sega</developer>
+		<publisher>Sega</publisher>
+		<genre>Sports / Fight</genre>
+		<players>1</players>
+	</game>
+	<game id="12897" source="screenscraper.fr">
+		<path>./Adventures of Batman &amp; Robin.zip</path>
+		<name>The Adventures of Batman &amp; Robin</name>
+		<desc>The game is based on the famous 1990s animated series of the same name. The player takes control solely of Batman, as the Joker has kidnapped Robin in order to lure Batman into a game. Furthermore, the Jokers lets Gotham&#39;s most feared criminals compete with one another in order to distract Batman. Naturally, Batman has to take care of the other master criminals, too, while trying to free Robin.&#xA;&#xA;The Adventures of Batman &amp; Robin is 2D platformer/ beat&#39;em up. The goal in each stage and level is to walk from left to right to reach the (sub)boss and the end of the stage. To beat his foes, Batman uses punches and kicks in close combat and several weapons for short distances. Batman has an unlimited supply of Batarangs with him from the beginning, and there are four more weapons available. Apart from simple jumping, Batman can also perform a double jump to reach higher places and can hold on to ledges.</desc>
+		<rating>0.7</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>Clockwork Tortoise</developer>
+		<publisher>Sega</publisher>
+		<genre>Beat&#39;em Up / Action</genre>
+		<players>1</players>
+	</game>
+	<game id="12983" source="screenscraper.fr">
+		<path>./Aerial Assault.zip</path>
+		<name>Aerial Assault</name>
+		<desc>In Aerial Assault, you play the Freedom Fighter who must destroy five targets, including the Vinsk, CB-53 Bomber, &amp;quot;El&amp;quot;, and two cliff fortresses. During each of the five missions, you will encounter enemy jets, choppers, submarines, jeeps, parachute bombs, and several other enemies in which you must destroy. Shooting either the spinning fighters or the small flying helicopters will earn you a power-up that allows you to upgrade or downgrade your firepower. There are three difficult settings: &amp;quot;Easy&amp;quot;, &amp;quot;Normal&amp;quot;, and &amp;quot;Hard&amp;quot;. You will not be able to complete the game if you select the &amp;quot;Easy&amp;quot; setting.</desc>
+		<rating>0.65</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>Sega</developer>
+		<publisher>Sega</publisher>
+		<genre>Shoot&#39;em Up</genre>
+		<players>2</players>
+	</game>
+	<game id="12913" source="screenscraper.fr">
+		<path>./Aleste.zip</path>
+		<name>GG Aleste</name>
+		<desc>In the first installment of the Aleste series for the GG, you play as Ellinor Waisen, the daughter of the original Aleste pilot Ray Waisen.&#xA;As usual, your task is to exterminate level upon level of nasties with your space ship. The usual Aleste powerup systems remains fairly intact. You still have powerup pods which release P capsules for upgrading your main weapon. On the other hand, secondary weapon upgrades are no longer released from ground bases, but from another type of flying pods. When you start out, your secondary weapon is a laser, which can later be replaced with powerups ranging from split fire to napalm rockets and target seeking power balls. Both primary and secondary weapons are in constant use, since only button 2 is used for firing both weapons at once. Due to the smaller screen estate of the Game Gear, the sprites are larger and the playfield more constrained, for which the game compensates somewhat by introducing multidirectionally scrolling sections.</desc>
+		<rating>0.85</rating>
+		<releasedate>19911229T000000</releasedate>
+		<developer>Compile</developer>
+		<publisher>Compile</publisher>
+		<genre>Shoot&#39;em Up / Shoot&#39;em up / Vertical</genre>
+		<players>1</players>
+	</game>
+	<game id="12885" source="screenscraper.fr">
+		<path>./Alien III.zip</path>
+		<name>Alien 3</name>
+		<desc>The ALIENS are fast, spit acid and are right behind you! The motion tracker is your only warning. No time to think, no time to catch your breath... RUN! Can&#39;t see very far ahead in these air ducts. Hard to breathe. Face-huggers can be anywhere. You have the firepower... blast the ALIENS with your machine gun, flame thrower and grenade launcher. You know what you have to do... rescue the trapped prisoners and end this nightmare! Just keep telling yourself, &amp;quot;This isn&#39;t really happening. It&#39;s only a game!!!&amp;quot;</desc>
+		<rating>0.7</rating>
+		<releasedate>19921101T000000</releasedate>
+		<developer>Arena Entertainment</developer>
+		<publisher>Probe Software</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+	</game>
+	<game id="12932" source="screenscraper.fr">
+		<path>./Alien Syndrome.zip</path>
+		<name>Alien Syndrome</name>
+		<desc>Alien Syndrome is a scrolling shooter arcade conversion.&#xA;&#xA;Your job is to run around and rescue all the captives and make it to the escape hatch before the time bomb explodes. Then face the mother alien at the end of the level.&#xA;&#xA;You can play as a single player or two people, taking turns. (Player 2 starts the game after Player 1 dies and vice versa.)</desc>
+		<rating>0.55</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>Sega</developer>
+		<publisher/>
+		<genre>Shoot&#39;em Up</genre>
+		<players>1</players>
+	</game>
+</gameList>
