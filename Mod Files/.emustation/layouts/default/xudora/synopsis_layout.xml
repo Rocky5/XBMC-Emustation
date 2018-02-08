@@ -100,9 +100,9 @@
 <!-- Full name, publisher info eg... -->
 <control type="label">
 	<posx>1047</posx>
-	<posy>196.5</posy>
+	<posy>174.5</posy>
 	<width>175</width>
-	<height>275</height>
+	<height>255</height>
 	<font>size_16</font>
 	<textcolor>info-colour</textcolor>
 	<align>left</align>
@@ -171,6 +171,7 @@
 			<selectedcolor>list-background-colour</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
+			<scroll>false</scroll>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
 		</control>
 	</itemlayout>
@@ -194,6 +195,7 @@
 			<selectedcolor>list-background-colour</selectedcolor>
 			<align>left</align>
 			<aligny>center</aligny>
+			<scroll>true</scroll>
 			<label>[B][UPPERCASE]$INFO[ListItem.Label][/UPPERCASE][/B]</label>
 		</control>
 	</focusedlayout>

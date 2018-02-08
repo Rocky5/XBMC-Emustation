@@ -13,7 +13,7 @@
 				<control type="group">
 						<visible>!System.IdleTime(10)</visible>
 						<animation effect="fade" time="500">Visible</animation>
-						<animation effect="fade" time="500">Hidden</animation>
+						<animation effect="fade" time="300">Hidden</animation>
 						<control type="image">
 								<description>media info background image</description>
 								<posx>0</posx>
@@ -61,6 +61,7 @@
 								<height>200</height>
 								<info>MusicPlayer.cover</info>
 								<aspectratio aligny="bottom" align="left">keep</aspectratio>
+								<fadetime>500</fadetime>
 						</control>
 						<control type="image">
 								<posx>340</posx>

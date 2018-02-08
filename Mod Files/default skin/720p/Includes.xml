@@ -4,15 +4,6 @@
 		<include file="Viewtype_CommonRootView.xml">CommonRootView</include>
 		<constant name="FanartCrossfadeTime">200</constant>
 		<constant name="ThumbCrossfadeTime">0</constant>
-		<include name="CustomSettingsButtons">
-				<width>1170</width>
-				<height>51</height>
-				<font>size_20</font>
-				<textcolor>white</textcolor>
-				<focusedcolor>black</focusedcolor>
-				<texturefocus border="5">thumbfO.png</texturefocus>
-				<texturenofocus border="5">list_seperator_alt.png</texturenofocus>
-		</include>
 		<include name="CommonBackground">
 				<control type="image">
 						<posx>0</posx>
@@ -623,6 +614,28 @@
 		<include name="1280x720">
 				<width>1280</width>
 				<height>720</height>
+		</include>
+		<include name="CustomSettingsButtons">
+				<width>1170</width>
+				<height>51</height>
+				<font>size_20</font>
+				<textcolor>white</textcolor>
+				<focusedcolor>black</focusedcolor>
+				<texturefocus border="5">thumbfO.png</texturefocus>
+				<texturenofocus border="5">list_seperator_alt.png</texturenofocus>
+		</include>
+		<include name="CustomSystemInfoButtons">
+				<width>280</width>
+				<height>50</height>
+				<font>size_22</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>menu_deselect_label</textcolor>
+				<focusedcolor>menu_select_label</focusedcolor>
+				<shadowcolor>-</shadowcolor>
+				<textoffsetx>0</textoffsetx>
+				<texturefocus>button-nofocus4.png</texturefocus>
+				<texturenofocus>button-focus4.png</texturenofocus>
 		</include>
 		<include name="CarouselLabelCommonValues">
 				<posx>0</posx>

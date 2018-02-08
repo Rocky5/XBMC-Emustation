@@ -71,15 +71,8 @@ Header_Data_EMU					= '<window id="1">\n\
 		</control>\n\
 		<control type="button" id="9990">\n\
 			<posx>-500</posx>\n\
+			<onfocus>SetFocus(9000)</onfocus>\n\
 			<onfocus>ActivateWindow(1120)</onfocus>\n\
-			<onleft>Setfocus(9000)</onleft>\n\
-			<onleft>PageUp</onleft>\n\
-			<onright>Setfocus(9000)</onright>\n\
-			<onright>PageDown</onright>\n\
-			<ondown>Setfocus(9000)</ondown>\n\
-			<onup>Setfocus(9000)</onup>\n\
-			<ondown>Control.Move(9000,1)</ondown>\n\
-			<onup>Control.Move(9000,-1)</onup>\n\
 		</control>\n\
 		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
 		<control type="button" id="9100">\n\
@@ -145,7 +138,7 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 				<align>center</align>\n\
 				<aligny>center</aligny>\n\
 				<font>size_50</font>\n\
-				<label>$LOCALIZE[33063]</label>\n\
+				<label>$LOCALIZE[32073]</label>\n\
 				<textcolor>menu_header_label</textcolor>\n\
 			</control>\n\
 			<control type="grouplist" id="9000">\n\

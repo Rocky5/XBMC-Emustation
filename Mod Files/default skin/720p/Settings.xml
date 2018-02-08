@@ -59,7 +59,7 @@
 						<itemlayout height="40" width="1216">
 								<control type="label">
 										<posx>0</posx>
-										<posy>1</posy>
+										<posy>0</posy>
 										<width>1216</width>
 										<height>40</height>
 										<font>size_23</font>
@@ -82,7 +82,7 @@
 								</control>
 								<control type="label">
 										<posx>0</posx>
-										<posy>1</posy>
+										<posy>0</posy>
 										<width>1216</width>
 										<height>40</height>
 										<font>size_23</font>
@@ -100,26 +100,6 @@
 										<icon>-</icon>
 								</item>
 								<item>
-										<label>705</label>
-										<onclick>ActivateWindow(NetworkSettings)</onclick>
-										<icon>-</icon>
-								</item>
-								<item>
-										<label>13000</label>
-										<onclick>ActivateWindow(SystemSettings)</onclick>
-										<icon>-</icon>
-								</item>
-								<item>
-										<label>0</label>
-										<onclick>ActivateWindow(ProgramsSettings)</onclick>
-										<icon>-</icon>
-								</item>
-								<item>
-										<label>157</label>
-										<onclick>ActivateWindow(VideosSettings)</onclick>
-										<icon>thumbs/videos.png</icon>
-								</item>
-								<item>
 										<label>32022</label>
 										<onclick>ActivateWindow(guicalibration)</onclick>
 										<icon>-</icon>
@@ -130,13 +110,38 @@
 										<icon>-</icon>
 								</item>
 								<item>
-										<label>welcome screen</label>
-										<onclick>ActivateWindow(1200)</onclick>
+										<label>705</label>
+										<onclick>ActivateWindow(NetworkSettings)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>0</label>
+										<onclick>ActivateWindow(ProgramsSettings)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>13000</label>
+										<onclick>ActivateWindow(SystemSettings)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>157</label>
+										<onclick>ActivateWindow(VideosSettings)</onclick>
 										<icon>-</icon>
 								</item>
 								<item>
 										<label>Acknowledgements</label>
 										<onclick>ActivateWindow(1900)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>138</label>
+										<onclick>ActivateWindow(7)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>welcome screen</label>
+										<onclick>ActivateWindow(1200)</onclick>
 										<icon>-</icon>
 								</item>
 						</content>

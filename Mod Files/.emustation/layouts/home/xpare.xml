@@ -112,6 +112,7 @@
 				</control>
 		</control>
 		<include>CarouselLabels</include>
+		<include>BusyOverlay</include>
 		<!-- Default View uses 3 images -->
 		<control type="wraplist" id="9000">
 				<posx>0</posx>

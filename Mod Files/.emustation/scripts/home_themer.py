@@ -51,7 +51,6 @@ Header_Data		= '<window id="0">\n\
 			<animation effect="fade" start="0" end="100" delay="300" time="150" condition="!Skin.HasSetting(favsloading)">Conditional</animation>\n\
 	'
 Footer_Data				= '\n\
-	<include>BusyOverlay</include>\n\
 	</control>\n\
 	</controls>\n\
 </window>'

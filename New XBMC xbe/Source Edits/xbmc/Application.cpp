@@ -1232,6 +1232,7 @@ HRESULT CApplication::Initialize()
   CreateDirectory("Q:\\system\\plugins\\programs", NULL);
   CreateDirectory("Q:\\system\\language", NULL);
   CreateDirectory("Q:\\system\\screenshots", NULL);
+  CreateDirectory("Q:\\system\\trainers", NULL);
   CreateDirectory("Q:\\system\\visualisations", NULL);
   CreateDirectory("Q:\\default skin\\sounds", NULL);
 
@@ -5928,8 +5929,8 @@ void CApplication::InitDirectoriesXbox()
   strLogFileOld.Format("%sxbmc.old.log", g_settings.m_logFolder);
 
   // Rotate the log (xbmc.log -> xbmc.old.log)
-  ::DeleteFile(strLogFileOld.c_str());
   ::MoveFile(strLogFile.c_str(), strLogFileOld.c_str());
+  ::DeleteFile(strLogFileOld.c_str());
 
   // map our special drives to the correct drive letter
   CSpecialProtocol::SetXBMCPath(install_path);

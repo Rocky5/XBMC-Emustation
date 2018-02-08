@@ -25,6 +25,7 @@
 				<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
 				<texture>layouts/art/help_background.png</texture>
 		</control>
+		<include>ContextButtonsHomeHorizontal</include>
 		<control type="image">
 				<description>Busy animation</description>
 				<posx>0</posx>
@@ -39,7 +40,6 @@
 				<animation effect="fade" start="100" end="0" time="100">WindowClose</animation>
 				<visible>Control.HasFocus(9100)</visible>
 		</control>
-		<include>ContextButtonsHomeHorizontal</include>
 		<control type="group">
 				<posy>145</posy>
 				<control type="image">

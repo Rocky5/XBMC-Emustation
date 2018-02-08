@@ -22,7 +22,7 @@ if direct_launch == "1":
 	if os.path.isfile( os.path.join( Emulator_Folder_Path, MenuLabel, 'default.xbe' ) ):
 		xbmc.executebuiltin('runxbe(' + Emulator_Folder_Path + '' + MenuLabel + '\\default.xbe)')
 else:
-	if MenuLabel == "xbox" or MenuLabel == "ports":
+	if MenuLabel == "xbox" or MenuLabel == "ports" or MenuLabel == "favs" or MenuLabel == xbmc.getLocalizedString(5) or MenuLabel == xbmc.getLocalizedString(427):
 		dialog.ok( "OOPS!","","This only works on Emulators." )
 	else:
 		if dialog.yesno( "Launch Emulator","Would you like to launch the emulator","menu system so you can edit the settings?" ) == 1:

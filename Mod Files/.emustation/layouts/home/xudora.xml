@@ -35,20 +35,6 @@
 		<texture>layouts/art/panel.png</texture>
 	</control>
 	<control type="image">
-		<description>Busy animation</description>
-		<posx>0</posx>
-		<posy>0</posy>
-		<width>40</width>
-		<height>40</height>
-		<texture>busy.png</texture>
-		<aspectratio>keep</aspectratio>
-		<colordiffuse>controller-colour</colordiffuse>
-		<animation effect="fade" start="0" end="100" time="100">WindowOpen</animation>
-		<animation effect="rotate" start="0" end="360" center="auto" time="500" loop="true" condition="true">conditional</animation>
-		<animation effect="fade" start="100" end="0" time="100">WindowClose</animation>
-		<visible>Control.HasFocus(9100)</visible>
-	</control>
-	<control type="image">
 		<posx>0</posx>
 		<posy>443</posy>
 		<width>1280</width>
@@ -71,6 +57,20 @@
 	</control>
 	<include>ContextButtonsHomeHorizontal</include>
 	<include>CarouselLabels</include>
+	<control type="image">
+		<description>Busy animation</description>
+		<posx>0</posx>
+		<posy>0</posy>
+		<width>40</width>
+		<height>40</height>
+		<texture>busy.png</texture>
+		<aspectratio>keep</aspectratio>
+		<colordiffuse>controller-colour</colordiffuse>
+		<animation effect="fade" start="0" end="100" time="100">WindowOpen</animation>
+		<animation effect="rotate" start="0" end="360" center="auto" time="500" loop="true" condition="true">conditional</animation>
+		<animation effect="fade" start="100" end="0" time="100">WindowClose</animation>
+		<visible>Control.HasFocus(9100)</visible>
+	</control>
 	<!-- Default View uses 3 images -->
 	<control type="wraplist" id="9000">
 		<posx>0</posx>

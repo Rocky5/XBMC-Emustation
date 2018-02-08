@@ -18,7 +18,7 @@ if not os.path.isdir( destination ): os.makedirs( destination )
 with open ( "gamelist.xml" ) as input:
 	input = input.read()
 	for line in input.split('\n'):
-		if line.startswith("          <path>"):
+		if "<path>" in line:
 			text_filename = line.split('/',2)[1]
 			text_filename = text_filename.split('<',1)[0]
 			text_filename = text_filename.replace('&#39;',"'")
@@ -35,7 +35,7 @@ with open ( "gamelist.xml" ) as input:
 			text_players = "Players: at least 1"
 			print  " Processing: " + text_filename
 			
-		if line.startswith("          <name>"):
+		if "<name>" in line:
 			text_name = line.split('>',2)[1]
 			text_name = text_name.split('<',1)[0]
 			text_name = text_name.replace('&#39;',"'")
@@ -43,7 +43,7 @@ with open ( "gamelist.xml" ) as input:
 			text_name = 'Name: ' + text_name
 			if text_name == "Name: ": text_name = "Name: " + text_filename
 			
-		if line.startswith("          <desc>"):
+		if "<desc>" in line:
 			text_description = line.split('>',2)[1]
 			text_description = text_description.split('<',1)[0]
 			text_description = text_description.replace('&amp;quot;','"')
@@ -57,13 +57,13 @@ with open ( "gamelist.xml" ) as input:
 			text_description = text_description.replace('&#xD;','[CR]')
 			text_description = '_________________________\n' + text_description
 			
-		if line.startswith("          <rating>"):
+		if "<rating>" in line:
 			text_rating = line.split('>',2)[1]
 			text_rating = text_rating.split('<',1)[0]
 			text_rating = 'Rating: ' + text_rating
 			if text_rating == "Rating: ": text_rating = "Rating: unknown"
 			
-		if line.startswith("          <releasedate>"):
+		if "<releasedate>" in line:
 			text_releasedate = line.split('>',2)[1]
 			text_releasedate = text_releasedate.split('<',1)[0]
 			text_releasedate = text_releasedate[:-7] # remove time stamp that's not used
@@ -71,10 +71,11 @@ with open ( "gamelist.xml" ) as input:
 			text_releasedate_day = text_releasedate[6:] 
 			text_releasedate_month = text_releasedate[4:-2]
 			text_releasedate_year = text_releasedate[:-4]
-			text_releasedate = 'Release Year: ' + text_releasedate_day + '.' + text_releasedate_month + '.' + text_releasedate_year
+			#text_releasedate = 'Release Year: ' + text_releasedate_day + '.' + text_releasedate_month + '.' + text_releasedate_year
+			text_releasedate = 'Release Year: ' + text_releasedate_year
 			if text_releasedate == "Release Year: .." or text_releasedate == "Release Year: ": text_releasedate = "Released: unknown"
 			
-		if line.startswith("          <developer>"):
+		if "<developer>" in line:
 			text_developer = line.split('>',2)[1]
 			text_developer = text_developer.split('<',1)[0]
 			text_developer = text_developer.replace('&#39;',"'")
@@ -82,7 +83,7 @@ with open ( "gamelist.xml" ) as input:
 			text_developer = 'Developer: ' + text_developer
 			if text_developer == "Developer: ": text_developer = "Developer: unknown"
 			
-		if line.startswith("          <publisher>"):
+		if "<publisher>" in line:
 			text_publisher = line.split('>',2)[1]
 			text_publisher = text_publisher.split('<',1)[0]
 			text_publisher = text_publisher.replace('&#39;',"'")
@@ -90,7 +91,7 @@ with open ( "gamelist.xml" ) as input:
 			text_publisher = 'Publisher: ' + text_publisher
 			if text_publisher == "Publisher: ": text_publisher = "Publisher: unknown"
 			
-		if line.startswith("          <genre>"):
+		if "<genre>" in line:
 			text_genre = line.split('>',2)[1]
 			text_genre = text_genre.split('<',1)[0]
 			text_genre = text_genre.replace('&#39;',"'")
@@ -98,7 +99,7 @@ with open ( "gamelist.xml" ) as input:
 			text_genre = 'Genre: ' + text_genre
 			if text_genre == "Genre: ": text_genre = "Genre: unknown"
 			
-		if line.startswith("          <players>"):
+		if "<players>" in line:
 			text_players = line.split('>',2)[1]
 			text_players = text_players.split('<',1)[0]
 			text_players = 'Players: ' + text_players

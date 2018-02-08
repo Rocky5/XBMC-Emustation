@@ -4,7 +4,7 @@
 				<Item name="Admin Password" type="string">xbmpzilla</Item>
 				<Item name="Admin IP Addresses" type="string">192.168.*.*</Item>
 				<Item name="Number of Threads" type="numeric">2</Item>
-				<Item name="Maximum user count" type="numeric">9</Item>
+				<Item name="Maximum user count" type="numeric">0</Item>
 				<Item name="Timeout" type="numeric">85000</Item>
 				<Item name="No Transfer Timeout" type="numeric">1800</Item>
 				<Item name="Allow Incoming FXP" type="numeric">0</Item>
@@ -20,7 +20,7 @@
 				<Item name="Initial Welcome Message" type="string">
 =========================================
 == Welcome to XBMC FTP server.
-== Max users is 9, so set your FTP program to 8 max.
+== Max users is 9, so set your FTP program to 7 max.
 =========================================</Item>
 				<Item name="Admin port" type="numeric">14147</Item>
 				<Item name="Serverport" type="numeric">21</Item>
@@ -58,7 +58,7 @@
 						<Option Name="Resolve Shortcuts">0</Option>
 						<Option Name="Relative">0</Option>
 						<Option Name="Bypass server userlimit">0</Option>
-						<Option Name="User Limit">0</Option>
+						<Option Name="User Limit">9</Option>
 						<Option Name="IP Limit">0</Option>
 						<Permissions>
 								<Permission Dir="/">

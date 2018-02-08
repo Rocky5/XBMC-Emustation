@@ -42,11 +42,11 @@
 <include>ContextButtonsEmulators</include>
 <include>ContextButtonsVideo</include>
 <!-- Full name, publisher info eg... -->
-<control type="textbox">
+<control type="label">
 	<posx>679</posx>
 	<posy>459</posy>
 	<width>595</width>
-	<height>65</height>
+	<height>50</height>
 	<font>size_13</font>
 	<textcolor>FF969696</textcolor>
 	<align>left</align>
