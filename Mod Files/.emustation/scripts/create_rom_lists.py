@@ -204,21 +204,22 @@ def Main_Code():
 						else:
 							pDialog.create( "AUTO SCAN MODE","Initializing" )
 						pDialog.update(0,"Creating [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Rom list","","This can take some time, please be patient.")
-					# #--------
-					# log('| '+ Emu_Name +  '	- Checking filenames case and not leading with capital renaming it to do so.')
-					# #--------
-					# if not Emu_Name == "fba" or Emu_Name == "mame":
-						# for Roms in sorted( os.listdir( Roms_Folder ) ):
-							# Items_Full_Path = os.path.join( Roms_Folder, Roms )
-							# if Items_Full_Path != os.path.join( Roms_Folder, Roms.lower() ):
-							# ##if Items_Full_Path != os.path.join( Roms_Folder, Roms.capitalize() ):
-								# tempname = Items_Full_Path[:-1]
-								# if not os.path.isfile( tempname ):
-									# os.rename( Items_Full_Path,  tempname )
-									# os.rename( tempname,  os.path.join( Roms_Folder, Roms.lower() ) )
-									# ##os.rename( tempname,  os.path.join( Roms_Folder, Roms.capitalize() ) )
-									# pDialog.update((RenameCount * 100) / len( os.listdir( Roms_Folder ) ),"Lower-casing rom names.","[B]" + Roms + "[/B]" ,"This can take some time, please be patient." )
-									# RenameCount = RenameCount + 1
+					#--------
+					log('| '+ Emu_Name +  '	- Checking filenames case and not leading with capital renaming it to do so.')
+					#--------
+					if not Emu_Name == "fba" or Emu_Name == "mame":
+						for Roms in sorted( os.listdir( Roms_Folder ) ):
+							pDialog.update(0,"Checking [B]" + Emu_Name + "s[/B] Rom filename casing.","[B]" + Roms + "[/B]","This can take some time, please be patient." )
+							Items_Full_Path = os.path.join( Roms_Folder, Roms )
+							if Items_Full_Path != os.path.join( Roms_Folder, Roms.lower() ):
+							##if Items_Full_Path != os.path.join( Roms_Folder, Roms.capitalize() ):
+								tempname = Items_Full_Path[:-1]
+								if not os.path.isfile( tempname ):
+									os.rename( Items_Full_Path,  tempname )
+									os.rename( tempname,  os.path.join( Roms_Folder, Roms.lower() ) )
+									##os.rename( tempname,  os.path.join( Roms_Folder, Roms.capitalize() ) )
+									pDialog.update((RenameCount * 100) / len( os.listdir( Roms_Folder ) ),"Lower-casing rom names.","[B]" + Roms + "[/B]" ,"This can take some time, please be patient." )
+									RenameCount = RenameCount + 1
 					#--------
 					log('| '+ Emu_Name +  '	- Setting a var again :/')
 					#--------
@@ -389,6 +390,7 @@ def Main_Code():
 															if os.path.isfile( N64_Synopsis_Location ) and not os.path.isfile( N64_Synopsis_Destination ): 
 																with open( N64_Synopsis_Location ) as readn64tmp:
 																	readn64 = readn64tmp.read()
+																	readn64 = readn64.strip()
 																	with open( N64_Synopsis_Destination, 'w' ) as n64tmp:
 																		amended_n64tmp = 'Name: ' + readn64
 																		n64tmp.write(amended_n64tmp)
