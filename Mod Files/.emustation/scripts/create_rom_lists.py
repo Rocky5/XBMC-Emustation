@@ -209,7 +209,7 @@ def Main_Code():
 					#--------
 					if not Emu_Name == "fba" or Emu_Name == "mame":
 						for Roms in sorted( os.listdir( Roms_Folder ) ):
-							pDialog.update(0,"Checking [B]" + Emu_Name + "s[/B] Rom filename casing.","[B]" + Roms + "[/B]","This can take some time, please be patient." )
+							pDialog.update(0,"Checking [B]" + Emu_Name + "[/B] Rom filename casing.","[B]" + Roms + "[/B]","This can take some time, please be patient." )
 							Items_Full_Path = os.path.join( Roms_Folder, Roms )
 							if Items_Full_Path != os.path.join( Roms_Folder, Roms.lower() ):
 							##if Items_Full_Path != os.path.join( Roms_Folder, Roms.capitalize() ):
