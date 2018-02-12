@@ -207,7 +207,7 @@ def Main_Code():
 					#--------
 					log('| '+ Emu_Name +  '	- Checking filenames case and not leading with capital renaming it to do so.')
 					#--------
-					if not Emu_Name == "fba" or Emu_Name == "mame":
+					if not Emu_Name == "fba" and not Emu_Name == "mame":
 						for Roms in sorted( os.listdir( Roms_Folder ) ):
 							pDialog.update(0,"Checking [B]" + Emu_Name + "[/B] Rom filename casing.","[B]" + Roms + "[/B]","This can take some time, please be patient." )
 							Items_Full_Path = os.path.join( Roms_Folder, Roms )
