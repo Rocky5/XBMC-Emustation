@@ -1,3 +1,8 @@
+15/02/2018
+	1) Fixed the skin not showing properly when installing a fresh build.
+	2) Updated the patch xbe script.
+
+
 12/02/2018
 	1) Updated the "create_rom_lists.py" script to lowercase all roms again, as this will fix any issues with emulators that require absolute paths/file-names.
 		( surreal I'm looking at you! )

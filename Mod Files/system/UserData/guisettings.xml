@@ -420,15 +420,12 @@
 				<enablemouse>false</enablemouse>
 				<enablerssfeeds>true</enablerssfeeds>
 				<font>SKINDEFAULT</font>
-				<rssedit>
-				</rssedit>
-				<sep2>
-				</sep2>
-				<sep3>
-				</sep3>
+				<rssedit></rssedit>
+				<sep2></sep2>
+				<sep3></sep3>
 				<skin>default skin</skin>
-				<skincolors>SKINDEFAULT</skincolors>
-				<skintheme>SKINDEFAULT</skintheme>
+				<skincolors>.xml</skincolors>
+				<skintheme>skindefault</skintheme>
 				<skinzoom>0</skinzoom>
 				<soundskin>SKINDEFAULT</soundskin>
 				<startupwindow>10000</startupwindow>

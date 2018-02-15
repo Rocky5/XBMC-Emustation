@@ -63,5 +63,3 @@ def patch():
 	return
 
 patch()
-pDialog.update(0)
-pDialog.close()
