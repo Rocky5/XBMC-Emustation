@@ -1,5 +1,6 @@
 <includes>
 		<include file="defaults.xml" />
+		<include file="includes_downloader.xml" />
 		<include file="includes_variables.xml" />
 		<include file="Viewtype_CommonRootView.xml">CommonRootView</include>
 		<constant name="FanartCrossfadeTime">200</constant>
@@ -617,7 +618,7 @@
 		</include>
 		<include name="CustomSettingsButtons">
 				<width>1170</width>
-				<height>51</height>
+				<height>50</height>
 				<font>size_20</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -630,12 +631,12 @@
 				<font>size_22</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>menu_deselect_label</textcolor>
-				<focusedcolor>menu_select_label</focusedcolor>
+				<textcolor>FFFFFFFF</textcolor>
+				<focusedcolor>FF393A3B</focusedcolor>
 				<shadowcolor>-</shadowcolor>
 				<textoffsetx>0</textoffsetx>
-				<texturefocus>button-nofocus4.png</texturefocus>
-				<texturenofocus>button-focus4.png</texturenofocus>
+				<texturefocus>background diffuse.png</texturefocus>
+				<texturenofocus>thumbnf.png</texturenofocus>
 		</include>
 		<include name="CarouselLabelCommonValues">
 				<posx>0</posx>

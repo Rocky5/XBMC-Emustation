@@ -1,6 +1,7 @@
 :: Copyright of John Conn (Rocky5 Forums & JCRocky5 Twitter) 2016
 :: Please don't re-release this as your own, if you make a better tool then I don't mind :-)
-
+Attrib /s -r -h -s "Thumbs.db" >NUL
+Del /Q /S "Thumbs.db" 2>NUL
 :Start
 @Echo off & SetLocal EnableDelayedExpansion & Mode con:cols=100 lines=10 & Color 0B
 title XBMC-Emustation Builder
@@ -50,6 +51,7 @@ del /q "%foldername%\.emustation\emulators\*.info"
 del /q /s "%foldername%\.emustation\roms\roms go here"
 del /q /s "%foldername%\.emustation\media\media goes here"
 rd /q /s "%foldername%\.emustation\scripts\not used"
+rd /q /s "%foldername%\default skin\media\Use for custom home layouts"
 copy /y "New XBMC xbe\default.xbe" "%foldername%\default.xbe"
 ren "%foldername%" "XBMC-Emustation"
 )

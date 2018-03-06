@@ -1,0 +1,5 @@
+1.0.1
+- Modified to how I need it to work by Rocky5
+
+1.0.0
+- Initial release

@@ -374,6 +374,33 @@
 														<visible>Skin.HasSetting(fba_exists)</visible>
 												</item>
 												<item id="26">
+														<label>$INFO[Skin.String(fbaxxx_games)]</label>
+														<label2>fbaxxx</label2>
+														<onclick>SetFocus(9100)</onclick>
+														<onclick>RunScript(Special://xbmc/.emustation/scripts/menu_loader.py)</onclick>
+														<icon>layouts/fbaxxx/art/system_art.png</icon>
+														<thumb>layouts/fbaxxx/art/logo.png</thumb>
+														<visible>Skin.HasSetting(fbaxxx_exists)</visible>
+												</item>
+												<item id="27">
+														<label>$INFO[Skin.String(fbl_games)]</label>
+														<label2>fbl</label2>
+														<onclick>SetFocus(9100)</onclick>
+														<onclick>RunScript(Special://xbmc/.emustation/scripts/menu_loader.py)</onclick>
+														<icon>layouts/fbl/art/system_art.png</icon>
+														<thumb>layouts/fbl/art/logo.png</thumb>
+														<visible>Skin.HasSetting(fbl_exists)</visible>
+												</item>
+												<item id="28">
+														<label>$INFO[Skin.String(fblc_games)]</label>
+														<label2>fblc</label2>
+														<onclick>SetFocus(9100)</onclick>
+														<onclick>RunScript(Special://xbmc/.emustation/scripts/menu_loader.py)</onclick>
+														<icon>layouts/fblc/art/system_art.png</icon>
+														<thumb>layouts/fblc/art/logo.png</thumb>
+														<visible>Skin.HasSetting(fblc_exists)</visible>
+												</item>
+												<item id="29">
 														<label>$INFO[Skin.String(gamegear_games)]</label>
 														<label2>gamegear</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -382,7 +409,7 @@
 														<thumb>layouts/gamegear/art/logo.png</thumb>
 														<visible>Skin.HasSetting(gamegear_exists)</visible>
 												</item>
-												<item id="27">
+												<item id="30">
 														<label>$INFO[Skin.String(gb_games)]</label>
 														<label2>gb</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -391,7 +418,7 @@
 														<thumb>layouts/gb/art/logo.png</thumb>
 														<visible>Skin.HasSetting(gb_exists)</visible>
 												</item>
-												<item id="28">
+												<item id="31">
 														<label>$INFO[Skin.String(gba_games)]</label>
 														<label2>gba</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -400,7 +427,7 @@
 														<thumb>layouts/gba/art/logo.png</thumb>
 														<visible>Skin.HasSetting(gba_exists)</visible>
 												</item>
-												<item id="29">
+												<item id="32">
 														<label>$INFO[Skin.String(gbc_games)]</label>
 														<label2>gbc</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -409,7 +436,7 @@
 														<thumb>layouts/gbc/art/logo.png</thumb>
 														<visible>Skin.HasSetting(gbc_exists)</visible>
 												</item>
-												<item id="30">
+												<item id="33">
 														<label>$INFO[Skin.String(genesis_games)]</label>
 														<label2>genesis</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -418,7 +445,7 @@
 														<thumb>layouts/genesis/art/logo.png</thumb>
 														<visible>Skin.HasSetting(genesis_exists)</visible>
 												</item>
-												<item id="31">
+												<item id="34">
 														<label>$INFO[Skin.String(intellivision_games)]</label>
 														<label2>intellivision</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -427,7 +454,7 @@
 														<thumb>layouts/intellivision/art/logo.png</thumb>
 														<visible>Skin.HasSetting(intellivision_exists)</visible>
 												</item>
-												<item id="32">
+												<item id="35">
 														<label>Direct Launch Only: $INFO[Skin.String(mame_games)]</label>
 														<label2>mame</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -436,7 +463,7 @@
 														<thumb>layouts/mame/art/logo.png</thumb>
 														<visible>Skin.HasSetting(mame_exists)</visible>
 												</item>
-												<item id="33">
+												<item id="36">
 														<label>$INFO[Skin.String(mastersystem_games)]</label>
 														<label2>mastersystem</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -445,7 +472,7 @@
 														<thumb>layouts/mastersystem/art/logo.png</thumb>
 														<visible>Skin.HasSetting(mastersystem_exists)</visible>
 												</item>
-												<item id="34">
+												<item id="37">
 														<label>$INFO[Skin.String(megadrive_games)]</label>
 														<label2>megadrive</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -454,7 +481,7 @@
 														<thumb>layouts/megadrive/art/logo.png</thumb>
 														<visible>Skin.HasSetting(megadrive_exists)</visible>
 												</item>
-												<item id="35">
+												<item id="38">
 														<label>$INFO[Skin.String(mess_games)]</label>
 														<label2>mess</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -463,7 +490,7 @@
 														<thumb>layouts/mess/art/logo.png</thumb>
 														<visible>Skin.HasSetting(mess_exists)</visible>
 												</item>
-												<item id="36">
+												<item id="39">
 														<label>$INFO[Skin.String(msx_games)]</label>
 														<label2>msx</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -472,7 +499,7 @@
 														<thumb>layouts/msx/art/logo.png</thumb>
 														<visible>Skin.HasSetting(msx_exists)</visible>
 												</item>
-												<item id="37">
+												<item id="40">
 														<label>$INFO[Skin.String(n64_games)]</label>
 														<label2>n64</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -481,7 +508,7 @@
 														<thumb>layouts/n64/art/logo.png</thumb>
 														<visible>Skin.HasSetting(n64_exists)</visible>
 												</item>
-												<item id="38">
+												<item id="41">
 														<label>$INFO[Skin.String(nds_games)]</label>
 														<label2>nds</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -490,7 +517,7 @@
 														<thumb>layouts/nds/art/logo.png</thumb>
 														<visible>Skin.HasSetting(nds_exists)</visible>
 												</item>
-												<item id="39">
+												<item id="42">
 														<label>$INFO[Skin.String(neogeo_games)]</label>
 														<label2>neogeo</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -499,7 +526,7 @@
 														<thumb>layouts/neogeo/art/logo.png</thumb>
 														<visible>Skin.HasSetting(neogeo_exists)</visible>
 												</item>
-												<item id="40">
+												<item id="43">
 														<label>Direct Launch Only: $INFO[Skin.String(neogeocd_games)]</label>
 														<label2>neogeocd</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -508,7 +535,7 @@
 														<thumb>layouts/neogeocd/art/logo.png</thumb>
 														<visible>Skin.HasSetting(neogeocd_exists)</visible>
 												</item>
-												<item id="41">
+												<item id="44">
 														<label>$INFO[Skin.String(nes_games)]</label>
 														<label2>nes</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -517,7 +544,7 @@
 														<thumb>layouts/nes/art/logo.png</thumb>
 														<visible>Skin.HasSetting(nes_exists)</visible>
 												</item>
-												<item id="42">
+												<item id="45">
 														<label>$INFO[Skin.String(ngp_games)]</label>
 														<label2>ngp</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -526,7 +553,7 @@
 														<thumb>layouts/ngp/art/logo.png</thumb>
 														<visible>Skin.HasSetting(ngp_exists)</visible>
 												</item>
-												<item id="43">
+												<item id="46">
 														<label>$INFO[Skin.String(ngpc_games)]</label>
 														<label2>ngpc</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -535,7 +562,7 @@
 														<thumb>layouts/ngpc/art/logo.png</thumb>
 														<visible>Skin.HasSetting(ngpc_exists)</visible>
 												</item>
-												<item id="44">
+												<item id="47">
 														<label>$INFO[Skin.String(odyssey2_games)]</label>
 														<label2>odyssey2</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -544,7 +571,7 @@
 														<thumb>layouts/odyssey2/art/logo.png</thumb>
 														<visible>Skin.HasSetting(odyssey2_exists)</visible>
 												</item>
-												<item id="45">
+												<item id="48">
 														<label>$INFO[Skin.String(pc-98_games)]</label>
 														<label2>pc-98</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -553,7 +580,7 @@
 														<thumb>layouts/pc-98/art/logo.png</thumb>
 														<visible>Skin.HasSetting(pc-98_exists)</visible>
 												</item>
-												<item id="46">
+												<item id="49">
 														<label>$INFO[Skin.String(pce-cd_games)]</label>
 														<label2>pce-cd</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -562,7 +589,7 @@
 														<thumb>layouts/pce-cd/art/logo.png</thumb>
 														<visible>Skin.HasSetting(pce-cd_exists)</visible>
 												</item>
-												<item id="47">
+												<item id="50">
 														<label>$INFO[Skin.String(pcengine_games)]</label>
 														<label2>pcengine</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -571,7 +598,16 @@
 														<thumb>layouts/pcengine/art/logo.png</thumb>
 														<visible>Skin.HasSetting(pcengine_exists)</visible>
 												</item>
-												<item id="48">
+												<item id="51">
+														<label>$INFO[Skin.String(pokemonmini_games)]</label>
+														<label2>pokemonmini</label2>
+														<onclick>SetFocus(9100)</onclick>
+														<onclick>RunScript(Special://xbmc/.emustation/scripts/menu_loader.py)</onclick>
+														<icon>layouts/pokemonmini/art/system_art.png</icon>
+														<thumb>layouts/pokemonmini/art/logo.png</thumb>
+														<visible>Skin.HasSetting(pokemonmini_exists)</visible>
+												</item>
+												<item id="52">
 														<label>$INFO[Skin.String(ports_games)]</label>
 														<label2>ports</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -579,7 +615,7 @@
 														<icon>layouts/ports/art/system_art.png</icon>
 														<thumb>layouts/ports/art/logo.png</thumb>
 												</item>
-												<item id="49">
+												<item id="53">
 														<label>$INFO[Skin.String(psx_games)]</label>
 														<label2>psx</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -588,7 +624,7 @@
 														<thumb>layouts/psx/art/logo.png</thumb>
 														<visible>Skin.HasSetting(psx_exists)</visible>
 												</item>
-												<item id="50">
+												<item id="54">
 														<label>$INFO[Skin.String(samcoupe_games)]</label>
 														<label2>samcoupe</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -597,7 +633,7 @@
 														<thumb>layouts/samcoupe/art/logo.png</thumb>
 														<visible>Skin.HasSetting(samcoupe_exists)</visible>
 												</item>
-												<item id="51">
+												<item id="55">
 														<label>$INFO[Skin.String(saturn_games)]</label>
 														<label2>saturn</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -606,7 +642,7 @@
 														<thumb>layouts/saturn/art/logo.png</thumb>
 														<visible>Skin.HasSetting(saturn_exists)</visible>
 												</item>
-												<item id="52">
+												<item id="56">
 														<label>$INFO[Skin.String(sc-3000_games)]</label>
 														<label2>sc-3000</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -615,7 +651,7 @@
 														<thumb>layouts/sc-3000/art/logo.png</thumb>
 														<visible>Skin.HasSetting(sc-3000_exists)</visible>
 												</item>
-												<item id="53">
+												<item id="57">
 														<label>$INFO[Skin.String(scummvm_games)]</label>
 														<label2>scummvm</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -624,7 +660,7 @@
 														<thumb>layouts/scummvm/art/logo.png</thumb>
 														<visible>Skin.HasSetting(scummvm_exists)</visible>
 												</item>
-												<item id="54">
+												<item id="58">
 														<label>$INFO[Skin.String(sega32x_games)]</label>
 														<label2>sega32x</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -633,7 +669,7 @@
 														<thumb>layouts/sega32x/art/logo.png</thumb>
 														<visible>Skin.HasSetting(sega32x_exists)</visible>
 												</item>
-												<item id="55">
+												<item id="59">
 														<label>$INFO[Skin.String(segacd_games)]</label>
 														<label2>segacd</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -642,7 +678,7 @@
 														<thumb>layouts/segacd/art/logo.png</thumb>
 														<visible>Skin.HasSetting(segacd_exists)</visible>
 												</item>
-												<item id="56">
+												<item id="60">
 														<label>$INFO[Skin.String(sf-7000_games)]</label>
 														<label2>sf-7000</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -651,7 +687,7 @@
 														<thumb>layouts/sf-7000/art/logo.png</thumb>
 														<visible>Skin.HasSetting(sf-7000_exists)</visible>
 												</item>
-												<item id="57">
+												<item id="61">
 														<label>$INFO[Skin.String(sg-1000_games)]</label>
 														<label2>sg-1000</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -660,7 +696,7 @@
 														<thumb>layouts/sg-1000/art/logo.png</thumb>
 														<visible>Skin.HasSetting(sg-1000_exists)</visible>
 												</item>
-												<item id="58">
+												<item id="62">
 														<label>$INFO[Skin.String(sgb_games)]</label>
 														<label2>sgb</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -669,7 +705,7 @@
 														<thumb>layouts/sgb/art/logo.png</thumb>
 														<visible>Skin.HasSetting(sgb_exists)</visible>
 												</item>
-												<item id="59">
+												<item id="63">
 														<label>$INFO[Skin.String(sgb2_games)]</label>
 														<label2>sgb2</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -678,7 +714,7 @@
 														<thumb>layouts/sgb2/art/logo.png</thumb>
 														<visible>Skin.HasSetting(sgb2_exists)</visible>
 												</item>
-												<item id="60">
+												<item id="64">
 														<label>$INFO[Skin.String(snes_games)]</label>
 														<label2>snes</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -687,7 +723,7 @@
 														<thumb>layouts/snes/art/logo.png</thumb>
 														<visible>Skin.HasSetting(snes_exists)</visible>
 												</item>
-												<item id="61">
+												<item id="65">
 														<label>$INFO[Skin.String(tg-cd_games)]</label>
 														<label2>tg-cd</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -696,7 +732,7 @@
 														<thumb>layouts/tg-cd/art/logo.png</thumb>
 														<visible>Skin.HasSetting(tg-cd_exists)</visible>
 												</item>
-												<item id="62">
+												<item id="66">
 														<label>$INFO[Skin.String(tg16_games)]</label>
 														<label2>tg16</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -705,7 +741,7 @@
 														<thumb>layouts/tg16/art/logo.png</thumb>
 														<visible>Skin.HasSetting(tg16_exists)</visible>
 												</item>
-												<item id="63">
+												<item id="67">
 														<label>$INFO[Skin.String(ti99_games)]</label>
 														<label2>ti99</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -714,7 +750,7 @@
 														<thumb>layouts/ti99/art/logo.png</thumb>
 														<visible>Skin.HasSetting(ti99_exists)</visible>
 												</item>
-												<item id="64">
+												<item id="68">
 														<label>$INFO[Skin.String(virtualboy_games)]</label>
 														<label2>virtualboy</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -723,7 +759,7 @@
 														<thumb>layouts/virtualboy/art/logo.png</thumb>
 														<visible>Skin.HasSetting(virtualboy_exists)</visible>
 												</item>
-												<item id="65">
+												<item id="69">
 														<label>$INFO[Skin.String(waterasupervision_games)]</label>
 														<label2>waterasupervision</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -732,7 +768,7 @@
 														<thumb>layouts/waterasupervision/art/logo.png</thumb>
 														<visible>Skin.HasSetting(waterasupervision_exists)</visible>
 												</item>
-												<item id="66">
+												<item id="70">
 														<label>$INFO[Skin.String(wonderswan_games)]</label>
 														<label2>wonderswan</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -741,7 +777,7 @@
 														<thumb>layouts/wonderswan/art/logo.png</thumb>
 														<visible>Skin.HasSetting(wonderswan_exists)</visible>
 												</item>
-												<item id="67">
+												<item id="71">
 														<label>$INFO[Skin.String(x68000_games)]</label>
 														<label2>x68000</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -750,7 +786,7 @@
 														<thumb>layouts/x68000/art/logo.png</thumb>
 														<visible>Skin.HasSetting(x68000_exists)</visible>
 												</item>
-												<item id="68">
+												<item id="72">
 														<label>$INFO[Skin.String(xbox_games)]</label>
 														<label2>xbox</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -758,7 +794,7 @@
 														<icon>layouts/xbox/art/system_art.png</icon>
 														<thumb>layouts/xbox/art/logo.png</thumb>
 												</item>
-												<item id="69">
+												<item id="73">
 														<label>$INFO[Skin.String(zxspectrum_games)]</label>
 														<label2>zxspectrum</label2>
 														<onclick>SetFocus(9100)</onclick>

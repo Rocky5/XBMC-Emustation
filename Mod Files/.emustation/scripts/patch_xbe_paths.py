@@ -16,13 +16,13 @@ else:
 	Emulator_Folder_Path	= 'Q:\\.emustation\\emulators\\'
 
 def patch():
-	Select_Emu_Folder = dialog.select( "Select a Emulator folder",sorted( os.listdir( Emulator_Folder_Path ) ) )
+	Select_Emu_Folder = dialog.select( "SELECT A SYSTEM",sorted( os.listdir( Emulator_Folder_Path ) ) )
 	Emu_Path = os.path.join( Emulator_Folder_Path, sorted( os.listdir( Emulator_Folder_Path ) )[Select_Emu_Folder] ) + "\\"
 	Emu_Name = os.path.split(Emu_Path)[1]
+	if Select_Emu_Folder == -1:
+		return
 	if os.path.isfile( os.path.join( Emu_Path, "default.xbe" ) ):
 		Emu_XBE = os.path.join( Emu_Path, "default.xbe" )
-	elif Select_Emu_Folder == -1:
-		return
 	else:
 		dialog.ok("Error","No default.xbe found in this directory")
 		return patch()
@@ -47,6 +47,7 @@ def patch():
 				with open( os.path.join( Emu_Path, XBE_File + ' patched' ), "wb") as outputfile:
 					file_content = inputfile.read(1024*1024)
 					while file_content:
+						file_content = file_content.replace( 'keepsave','save.sav' )
 						file_content = file_content.replace( 'e:\\s','D:\\S' )
 						file_content = file_content.replace( 'e:\\S','D:\\S' )
 						file_content = file_content.replace( 'E:\\S','D:\\S' )

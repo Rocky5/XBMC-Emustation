@@ -23,8 +23,10 @@ with open ( "gamelist.xml" ) as input:
 			text_filename = text_filename.split('<',1)[0]
 			text_filename = text_filename.replace('&#39;',"'")
 			text_filename = text_filename.replace('&amp;','&')
+			text_filename = text_filename.replace('+','_')
 			text_filename_ext = "Filename: " + text_filename
 			text_filename = text_filename[:-4] # remove extension
+			text_filename = text_filename[:38] # truncate to fit 42 character limit - extension
 			text_name = "Name: unknown"
 			text_description = "_________________________\n"
 			text_rating = "Rating: unknown"

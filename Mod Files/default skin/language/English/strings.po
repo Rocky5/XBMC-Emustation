@@ -15,7 +15,7 @@ msgstr ""
 
 
 msgctxt "#39999"
-msgid "XBMC-Emustation Beta 0.9.029"
+msgid "XBMC-Emustation 1.0.000"
 msgstr ""
 
 msgctxt "#31000"
@@ -452,10 +452,8 @@ msgctxt "#31309"
 msgid "Posters 2"
 msgstr ""
 
-##  view id = 520 -->
-##  Settings Description Labels  -->
 msgctxt "#31400"
-msgid ""
+msgid "Install: "
 msgstr ""
 
 msgctxt "#31401"

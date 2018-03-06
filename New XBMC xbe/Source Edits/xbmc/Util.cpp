@@ -3621,7 +3621,7 @@ void CUtil::GetSkinThemes(vector<CStdString>& vecTheme)
     {
       CStdString strExtension;
       URIUtils::GetExtension(pItem->GetPath(), strExtension);
-      if (strExtension == ".xpr" && pItem->GetLabel().CompareNoCase("Textures.xpr"))
+      if (strExtension == ".xpr" && pItem->GetLabel().CompareNoCase("Skindefault.xpr"))
       {
         CStdString strLabel = pItem->GetLabel();
         vecTheme.push_back(strLabel.Mid(0, strLabel.size() - 4));

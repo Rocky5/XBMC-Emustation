@@ -144,6 +144,11 @@
 										<onclick>ActivateWindow(1200)</onclick>
 										<icon>-</icon>
 								</item>
+								<item>
+										<label>Downloader</label>
+										<onclick>ActivateWindow(1901)</onclick>
+										<icon>-</icon>
+								</item>
 						</content>
 				</control>
 		</controls>

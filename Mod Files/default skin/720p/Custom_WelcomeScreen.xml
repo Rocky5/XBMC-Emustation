@@ -100,7 +100,7 @@
 								<align>center</align>
 								<aligny>-</aligny>
 								<font>size_17</font>
-								<label>[UPPERCASE]only exception to using the [B].emustation\roms\[/B] folder is the Atari Jaguar and Neo Geo CD systems, those roms must go in the roms folder in the root of their emulator folder.[/UPPERCASE]</label>
+								<label>[UPPERCASE]only exception to using the [B].emustation\roms\[/B] folder is the Atari Jaguar system, its roms must go in the roms folder in the root of its emulator folder.[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(3)</visible>
 								<animation effect="fade" time="200">visible</animation>

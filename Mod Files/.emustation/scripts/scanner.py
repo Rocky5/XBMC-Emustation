@@ -37,29 +37,32 @@ Gamelist_Folder_Path	= 'Q:\\.emustation\\gamelists\\'
 Game_Directories		= [ "E:\\Games\\","E:\\Games1\\","E:\\Games2\\","F:\\Games\\","F:\\Games1\\","F:\\Games2\\","G:\\Games\\","G:\\Games1\\","G:\\Games2\\" ]
 Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\" ]
 Apps_Directories		= [ "E:\\Apps\\","F:\\Apps\\","G:\\Apps\\","E:\\Applications\\","F:\\Applications\\","G:\\Applications\\" ]
-EMU_Directories			= [ "3do","amiga","amstradcpc","apple2","atari2600","atari5200","atari7800","atari800","atarijaguar","atarilynx","atarist","atarixe","atarixl","c64","c64pet","chip8x","coco","colecovision","cv20","daphne","dreamcastvmu","famicom","fba","gamegear","gb","gba","gbc","genesis","intellivision","mame","mastersystem","megadrive","mess","msx","n64","nds","neogeo","neogeocd","nes","ngp","ngpc","odyssey2","pc-98","pce-cd","pcengine","psx","samcoupe","saturn","sc-3000","scummvm","sega32x","segacd","sf-7000","sg-1000","sgb","sgb2","snes","tg-cd","tg16","ti99","virtualboy","waterasupervision","wonderswan","x68000","zxspectrum" ] ## used to create folders of the supported emulators.
+EMU_Directories			= [ "3do","amiga","amstradcpc","apple2","atari2600","atari5200","atari7800","atari800","atarijaguar","atarilynx","atarist","atarixe","atarixl","c64","c64pet","chip8x","coco","colecovision","cv20","daphne","dreamcastvmu","famicom","fba","fbaxxx","fbl","fblc","gamegear","gb","gba","gbc","genesis","intellivision","mame","mastersystem","megadrive","mess","msx","n64","nds","neogeo","neogeocd","nes","ngp","ngpc","odyssey2","pc-98","pce-cd","pcengine","pokemonmini","psx","samcoupe","saturn","sc-3000","scummvm","sega32x","segacd","sf-7000","sg-1000","sgb","sgb2","snes","tg-cd","tg16","ti99","virtualboy","waterasupervision","wonderswan","x68000","zxspectrum" ] ## used to create folders of the supported emulators.
 
 if Update_Emulators == "scan_emus":
 	CountList = 1
 	pDialog.update( 0 )
 	if not os.path.isdir( Emulator_Folder_Path ): os.makedirs( Emulator_Folder_Path )
 	if not os.path.isdir( Gamelist_Folder_Path ): os.makedirs( Gamelist_Folder_Path )
-	for EMU_Directories in EMU_Directories:
-		if not os.path.isdir( os.path.join( Emulator_Folder_Path, EMU_Directories ) ): os.makedirs( os.path.join( Emulator_Folder_Path, EMU_Directories ) )
-		if EMU_Directories == "atarijaguar" or EMU_Directories == "mame" or EMU_Directories == "neogeocd":
+	for Emulators in EMU_Directories:
+		if not os.path.isdir( os.path.join( Emulator_Folder_Path, Emulators ) ): os.makedirs( os.path.join( Emulator_Folder_Path, Emulators ) )
+		if Emulators == "atarijaguar" or Emulators == "mame" or Emulators == "neogeocd":
 			pass
 		else:
-			Media_Path	= os.path.join( Media_Folder_Path, EMU_Directories )
+			Media_Path	= os.path.join( Media_Folder_Path, Emulators )
 			if not os.path.isdir( os.path.join( Media_Path,'boxart' ) ): os.makedirs( os.path.join( Media_Path,'boxart' ) )
 			if not os.path.isdir( os.path.join( Media_Path,'boxart3d' ) ): os.makedirs( os.path.join( Media_Path,'boxart3d' ) )
 			if not os.path.isdir( os.path.join( Media_Path,'logo' ) ): os.makedirs( os.path.join( Media_Path,'logo' ) )
 			if not os.path.isdir( os.path.join( Media_Path,'mix' ) ): os.makedirs( os.path.join( Media_Path,'mix' ) )
 			if not os.path.isdir( os.path.join( Media_Path,'videos' ) ): os.makedirs( os.path.join( Media_Path,'videos' ) )
 			if not os.path.isdir( os.path.join( Media_Path,'screenshots' ) ): os.makedirs( os.path.join( Media_Path,'screenshots' ) )
-	
+		if Emulators == "atarijaguar":
+			pass
+		else:
+			if not os.path.isdir( os.path.join( Roms_Path, Emulators ) ): os.makedirs( os.path.join( Roms_Path, Emulators ) )
 	if not SilentMode == "silent_mode": pDialog.create( "Refreshing Emulator List","Initializing" )
 	for EmuFolder in sorted( os.listdir( Emulator_Folder_Path ) ):
-		if EmuFolder == "atarijaguar" or EmuFolder == "neogeocd":
+		if EmuFolder == "atarijaguar":
 			Roms_Folder = os.path.join( Emulator_Folder_Path, EmuFolder, 'roms' )
 		else:
 			Roms_Folder = os.path.join( Roms_Path, EmuFolder )

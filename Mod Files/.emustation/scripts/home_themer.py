@@ -22,13 +22,14 @@ dialog					= xbmcgui.Dialog()
 # Delay to it gives the system time to update the current theme entry.
 # time.sleep(0.2)
 
-dialog			= xbmcgui.Dialog()
+dialog				= xbmcgui.Dialog()
 time.sleep(1)
-HomeLayout 		= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
-Home_XML_Path	= xbmc.translatePath( 'special://skin/720p/Home.xml' )
-Layout_File		= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/' + HomeLayout + '.xml' )
-System_List		= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/other/system_list.xml' )
-Header_Data		= '<window id="0">\n\
+HomeLayout 			= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
+Home_XML_Path		= xbmc.translatePath( 'special://skin/720p/Home.xml' )
+Default_Layout_File	= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/skindefault.xml' )
+Layout_File			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/' + HomeLayout + '.xml' )
+System_List			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/other/system_list.xml' )
+Header_Data			= '<window id="0">\n\
 	<defaultcontrol always="true">9000</defaultcontrol>\n\
 	<controls>\n\
 		<control type="button" id="9100">\n\
@@ -66,7 +67,19 @@ if os.path.isfile( Layout_File ):
 	except:
 		pass
 else:
-	dialog.ok("ERROR!",HomeLayout + ".xml is missing from","Q:\\.emustation\\layouts\\home\\","Reinstall this file to fix the issue.")
+	if os.path.isfile( Default_Layout_File ):
+		try:
+			os.remove(Home_XML_Path)
+			with open( Default_Layout_File ) as layoutfile:
+				with open(Home_XML_Path, "w") as inputfile:
+					inputfile.write( Header_Data )
+					for code in layoutfile:
+						inputfile.write( code )
+					inputfile.write( Footer_Data )
+		except:
+			pass
+	else:
+		dialog.ok("ERROR!","skindefault.xml is missing from","Q:\\.emustation\\layouts\\home\\","Reinstall this file to fix the issue.")
 if os.path.isfile( System_List ):
 	try:
 		with open( System_List ) as fin:

@@ -125,31 +125,13 @@
 								<control type="button" id="33">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32052]</label>
-										<label2>$INFO[Skin.String(Custom_Roms_Path)]</label2>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.Reset(Custom_Roms_Path)</onclick>
-										<onclick>Skin.SetPath(Custom_Roms_Path)</onclick>
-								</control>
-								<control type="button" id="34">
-										<posx>0</posx>
-										<posy>0</posy>
-										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32052]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.SetString(Custom_Roms_Path,Q:\.emustation\roms\)</onclick>
-										<onclick>SetFocus(33)</onclick>
-										<visible>!StringCompare(Skin.String(Custom_Roms_Path),Q:\.emustation\roms\)</visible>
-								</control>
-								<control type="button" id="35">
-										<posx>0</posx>
-										<posy>0</posy>
 										<label>$LOCALIZE[32056]</label>
 										<label2>$INFO[Skin.String(Custom_Media_Path)]</label2>
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.Reset(Custom_Media_Path)</onclick>
 										<onclick>Skin.SetPath(Custom_Media_Path)</onclick>
 								</control>
-								<control type="button" id="36">
+								<control type="button" id="34">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32056]</label>
@@ -157,6 +139,24 @@
 										<onclick>Skin.SetString(Custom_Media_Path,Q:\.emustation\media\)</onclick>
 										<onclick>SetFocus(35)</onclick>
 										<visible>!StringCompare(Skin.String(Custom_Media_Path),Q:\.emustation\media\)</visible>
+								</control>
+								<control type="button" id="35">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>$LOCALIZE[32052]</label>
+										<label2>$INFO[Skin.String(Custom_Roms_Path)]</label2>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.Reset(Custom_Roms_Path)</onclick>
+										<onclick>Skin.SetPath(Custom_Roms_Path)</onclick>
+								</control>
+								<control type="button" id="36">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label> &gt; $LOCALIZE[32053] $LOCALIZE[32052]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.SetString(Custom_Roms_Path,Q:\.emustation\roms\)</onclick>
+										<onclick>SetFocus(33)</onclick>
+										<visible>!StringCompare(Skin.String(Custom_Roms_Path),Q:\.emustation\roms\)</visible>
 								</control>
 								<!-- other stuff-->
 								<control type="label" id="50">

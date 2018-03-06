@@ -2,7 +2,8 @@
 	Script by Rocky5
 	Used to create static lists from your emulator and roms folder.
 	
-	Atarijaguar and neogeocd must have there roms placed inside there root directory.
+	Atarijaguar have there roms placed inside there root directory.
+	NeoGeoCD must have its ISO files in folders inside its roms\system folder and the .cue file must match the name of the folder.
 	( the script will generate static lists for emulators )
 '''
 
@@ -44,7 +45,7 @@ with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as
 				Media_Folder_Path 	 = Root_Directory + '.emustation\\media\\'
 			Synopsis_Path		= Root_Directory + '.emustation\\synopsis\\'
 			Scripts_Path		= Root_Directory + '.emustation\\scripts\\'
-			Extensions			= [ "nds","t64","d64","int","tap","z80","tzx","zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
+			Extensions			= [ "lnx","a78","a52","dim","nds","t64","d64","int","tap","z80","tzx","zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 
 def log( input ):
 	if logging: print "%s" % str( input )
@@ -62,36 +63,21 @@ def Main_Code():
 		#--------
 		log('| '+ Emulator_Folder_Path +  '	Parse all folder in the Emulators_Path')	
 		#--------
-		for Emu_Path in sorted( os.listdir( Emulator_Folder_Path ) ):
+		for Emu_Folder in sorted( os.listdir( Emulator_Folder_Path ) ):
 			#--------
 			log('|--------------------------------------------------------------------------------')	
-			log('| '+ Emu_Path +  '	- Set a load of variable.')
+			log('| '+ Emu_Folder +  '	- Set a load of variable.')
 			#--------
-			CountList = 0
-			JumpList = 0
-			Jump_Counter = 8000
+			CountList = 0; JumpList = 0; Jump_Counter = 8000
 			Starts_with_0 = 0; Starts_with_A = 0; Starts_with_B = 0; Starts_with_C = 0; Starts_with_D = 0; Starts_with_E = 0; Starts_with_F = 0; Starts_with_G = 0; Starts_with_H = 0; Starts_with_I = 0; Starts_with_J = 0; Starts_with_K = 0; Starts_with_L = 0; Starts_with_M = 0; Starts_with_N = 0; Starts_with_O = 0; Starts_with_P = 0; Starts_with_Q = 0; Starts_with_R = 0; Starts_with_S = 0; Starts_with_T = 0; Starts_with_U = 0; Starts_with_V = 0; Starts_with_W = 0; Starts_with_X = 0; Starts_with_Y = 0; Starts_with_Z = 0;
-			RomListCount = 0
-			RenameCount = 0
-			ZipCount = 0
-			Parse_CUE_CCD_ISO_File = 0
-			Parse_ISO_BIN_IMG_File = 0
-			Parse_CUE_File = 0
-			Parse_CCD_File = 0
-			Parse_ISO_File = 0
-			Parse_FBL_TXT = 0
-			Parse_N64_TXT = 0
-			N64ID = "0"
-			FBA_Rom_Name = ""
-			Change_FBL_Rom_Path = 0
-			Change_Mame_Rom_Path = 0
-			Change_N64_Rom_Path = 0
+			Parse_CUE_CCD_ISO_File = 0; Parse_ISO_BIN_IMG_File = 0; Parse_CUE_File = 0; Parse_CCD_File = 0; Parse_ISO_File = 0; Parse_FBL_TXT = 0; Parse_N64_TXT = 0; N64ID = "0"; FBA_Rom_Name = ""; Change_FBL_Rom_Path = 0; Change_Mame_Rom_Path = 0; Change_N64_Rom_Path = 0; Change_NeoGeoCD_Rom_Path = 0;
+			RomListCount = 0; RenameCount = 0; ZipCount = 0;
 			Write_List_File = 1
 			if ManualScan:
 				Select_Emu_Folder = dialog.select( "SELECT A SYSTEM",sorted( os.listdir( Emulator_Folder_Path ) ) )
 				if Select_Emu_Folder == -1:	return
 				#--------
-				log('| '+ Emu_Path +  '	- Set Emulators and Roms folder paths.')
+				log('| '+ Emu_Folder +  '	- Set Emulators and Roms folder paths.')
 				#--------
 				Emu_Path = os.path.join( Emulator_Folder_Path, sorted( os.listdir( Emulator_Folder_Path ) )[Select_Emu_Folder] )
 				Roms_Folder = os.path.join( Roms_Folder_Path, sorted( os.listdir( Emulator_Folder_Path ) )[Select_Emu_Folder] )
@@ -110,9 +96,9 @@ def Main_Code():
 					return Main_Code()
 			else:
 				#--------
-				log('| '+ Emu_Path +  '	- Set emu_path/name variable for autoscan mode.')
+				log('| '+ Emu_Folder +  '	- Set emu_path/name variable for autoscan mode.')
 				#--------
-				Emu_Path = os.path.join( Emulator_Folder_Path, Emu_Path )
+				Emu_Path = os.path.join( Emulator_Folder_Path, Emu_Folder )
 				Emu_Name = os.path.split(Emu_Path)[1]
 				Roms_Folder	= os.path.join( Roms_Folder_Path,Emu_Name )
 			#--------
@@ -152,19 +138,18 @@ def Main_Code():
 				#--------
 				log('| '+ Emu_Name +  '	- Check to see if the emulator is one of the below so I can change it rom type or path.')
 				#--------
-				if Emu_Name == "fba":
+				if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
 					Change_FBL_Rom_Path = 1
 					Parse_FBL_TXT = 1
 				elif Emu_Name == "atarijaguar":
-					Roms_Folder	= os.path.join( Emulator_Folder_Path, 'atarijaguar\\roms' )
+					Roms_Folder	= os.path.join( Emu_Path, 'roms' )
 				elif Emu_Name == "mame":
 					Change_Mame_Rom_Path = 1
 				elif Emu_Name == "n64":
 					Parse_N64_TXT = 1
 					Change_N64_Rom_Path = 1
 				elif Emu_Name == "neogeocd":
-					Roms_Folder	= os.path.join( Emulator_Folder_Path, 'neogeocd\\roms' )
-					Parse_CUE_File = 1
+					Change_NeoGeoCD_Rom_Path = 1
 				elif Emu_Name == "pce-cd":
 					Parse_CUE_File = 1
 				elif Emu_Name == "tg-cd":
@@ -207,7 +192,7 @@ def Main_Code():
 					#--------
 					log('| '+ Emu_Name +  '	- Checking filenames case and not leading with capital renaming it to do so.')
 					#--------
-					if not Emu_Name == "fba" and not Emu_Name == "mame":
+					if not Emu_Name == "fba" and not Emu_Name == "fbl" and not Emu_Name == "fblc" and not Emu_Name == "fbaxxx" and not Emu_Name == "mame":
 						for Roms in sorted( os.listdir( Roms_Folder ) ):
 							pDialog.update(0,"Checking [B]" + Emu_Name + "[/B] Rom filename casing.","[B]" + Roms + "[/B]","This can take some time, please be patient." )
 							Items_Full_Path = os.path.join( Roms_Folder, Roms )
@@ -257,16 +242,13 @@ def Main_Code():
 								WriteMameFile = mame_config % ( Roms_Folder )
 								outputmamefile.write( WriteMameFile )
 							Change_Mame_Rom_Path = 0
+					#--------
+					log('| '+ Emu_Name +  '	- Extracting the rom name files from the zip.')
+					#--------
 					if Parse_FBL_TXT == 1:
-						if os.path.isfile( os.path.join( Emulator_Folder_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ):
-							if os.path.isfile( os.path.join( Emulator_Folder_Path, "fba\\info\\rom names\\3countb.txt" ) ):
-								pDialog.update( 0,"Found old FBA name files","Removing them before extracting the new ones.","This can take some time, please be patient." )
-								shutil.rmtree( os.path.join( Emulator_Folder_Path, "fba\\info\\rom names" ) )
-							#--------
-							log('| '+ Emu_Name +  '	- Extracting the rom name files from the zip.')
-							#--------
-							with zipfile.ZipFile( os.path.join( Emulator_Folder_Path, "fba\\info\\" ) + "FBL Rom Names.zip" ) as zip:
-								if not os.path.isdir( os.path.join( Emulator_Folder_Path, "fba\\info\\rom names" ) ): os.makedirs( os.path.join( Emulator_Folder_Path, "fba\\info\\rom names" ) )
+						if os.path.isfile( os.path.join( Emu_Path, "info\\FBL Rom Names.zip" ) ):
+							with zipfile.ZipFile( os.path.join( Emu_Path, "info\\FBL Rom Names.zip" ) ) as zip:
+								if not os.path.isdir( os.path.join( Emu_Path, "info\\rom names" ) ): os.makedirs( os.path.join( Emu_Path, "info\\rom names" ) )
 								if ZipCount == 0:
 									#pDialog.create( "EXTRACTING ZIP","","Please wait..." )
 									Total_TXT_Files = len( zip.namelist() ) or 1
@@ -274,15 +256,15 @@ def Main_Code():
 									Percent = 0
 									for item in zip.namelist():
 										Percent += Devide
-										pDialog.update( int( Percent ),"Extracting final burn legends rom names","This only happens once per update","" )
-										zip.extract( item, os.path.join( Emulator_Folder_Path, "fba\\info\\rom names\\" ) )
+										pDialog.update( int( Percent ),"Extracting FBA, FBAXXX, FBL or FBLC rom names","This only happens once per update","" )
+										zip.extract( item, os.path.join( Emu_Path, "info\\rom names\\" ) )
 									ZipCount = 1
-							os.remove( os.path.join( Emulator_Folder_Path, "fba\\info\\" ) + "FBL Rom Names.zip" )
-						Roms_Folder = os.path.join( Emulator_Folder_Path, "fba\\info\\rom names" )
+							os.remove( os.path.join( Emu_Path, "info\\FBL Rom Names.zip" ) )
+						Roms_Folder = os.path.join( Emu_Path, "info\\rom names" )
 						## Used to name the rom name files so I can sort them by alphabetical order properly. ( this is only used by me ) 
-						# for files in sorted( os.listdir( os.path.join( Emulator_Folder_Path, "fba\\roms1" ) ) ):
+						# for files in sorted( os.listdir( os.path.join( Emu_Path, "info\\rom names" ) ) ):
 							# try:
-								# with open( os.path.join( Emulator_Folder_Path, "fba\\info\\rom names", files[:-3] + 'txt' ), 'r') as txt:
+								# with open( os.path.join( Emu_Path, "info\\rom names", files[:-3] + 'txt' ), 'r') as txt:
 									# FBA_Rom_Name_Full = txt.readline()[:-2]
 									# FBA_Rom_Name = FBA_Rom_Name_Full[:20]
 									# FBA_Rom_Name = FBA_Rom_Name.replace( ',','' ); FBA_Rom_Name = FBA_Rom_Name.replace( ':','' ); FBA_Rom_Name = FBA_Rom_Name.replace( ';','' ); FBA_Rom_Name = FBA_Rom_Name.replace( '/','' ); FBA_Rom_Name = FBA_Rom_Name.replace( '?','' ); FBA_Rom_Name = FBA_Rom_Name.replace( '+','' ); FBA_Rom_Name = FBA_Rom_Name.replace( '*','' ); FBA_Rom_Name = FBA_Rom_Name.replace( 'amp','' ); FBA_Rom_Name = FBA_Rom_Name.replace( ' ','' );
@@ -292,7 +274,7 @@ def Main_Code():
 								# with open( os.path.join( "F:\\rom names", FBA_Rom_Name + '--' + files[:-3] + 'zip' ), 'w') as txt:
 									# txt.write( FBA_Rom_Name_Full.lower() )
 									# txt.write( FBA_Rom_System_Full.lower() )
-								# pDialog.update((CountList * 100) / len(os.listdir( os.path.join( Emulator_Folder_Path, "fba\\roms1" ) ) ),"Processing Rom name files",files,"This can take some time, please be patient." )
+								# pDialog.update((CountList * 100) / len(os.listdir( os.path.join( Emu_Path, "info\\rom names" ) ) ),"Processing Rom name files",files,"This can take some time, please be patient." )
 								# CountList = CountList + 1
 							# except: pass
 						# return
@@ -303,7 +285,7 @@ def Main_Code():
 						#--------
 						log('| '+ Emu_Name +  '	- Checking the file I find, extension agains my table.')
 						#--------
-						if Items.lower().endswith(tuple(Extensions)):
+						if Items.lower().endswith(tuple(Extensions)) or Emu_Name == "neogeocd":
 							#--------
 							log('| '+ Emu_Name +  '	- More vars being set.')
 							#--------
@@ -321,8 +303,8 @@ def Main_Code():
 								Rom_Name = Rom_Name.split('--', 1)[1]
 								Rom_Name_noext = Rom_Name[:-4]
 								Thumbnails_Path = os.path.join( Media_Path, '$INFO[Skin.String(' + Emu_Name + '_artworkfolder)]', Rom_Name_noext + '.png' )
-								if os.path.isfile( os.path.join( Roms_Folder_Path, "fba", Rom_Name ) ) and os.path.isfile( os.path.join( Emulator_Folder_Path, "fba\\info\\rom names", Rom_Name_Beg + '--' + Rom_Name ) ):
-									with open( os.path.join( Emulator_Folder_Path, "fba\\info\\rom names", Rom_Name_Beg + '--' + Rom_Name ), 'r') as txt:
+								if os.path.isfile( os.path.join( Roms_Folder_Path, Emu_Name, Rom_Name ) ) and os.path.isfile( os.path.join( Emu_Path, "info\\rom names", Rom_Name_Beg + '--' + Rom_Name ) ):
+									with open( os.path.join( Emu_Path, "info\\rom names", Rom_Name_Beg + '--' + Rom_Name ), 'r') as txt:
 										FBA_Rom_Name = txt.readline()[:-1]
 										#FBA_Rom_Name = FBA_Rom_Name.split('(', 1)[0]
 										#FBA_Rom_Name = FBA_Rom_Name.split('/', 1)[0]
@@ -357,66 +339,85 @@ def Main_Code():
 							log('| '+ Emu_Name +  '	- Check if n64 was found and parse the names from surreal.ini if the roms match.')
 							#--------
 							if Parse_N64_TXT == 1:
-								if os.path.isfile( os.path.join( Emulator_Folder_Path, "n64\\Surreal.ini" ) ):
+								if os.path.isfile(os.path.join( Emu_Path, 'surreal.ini' )):
+									if Change_N64_Rom_Path == 1:
+										if os.path.isdir( 'E:\\TDATA\\64ce64ce' ): shutil.rmtree( 'E:\\TDATA\\64ce64ce' )
+										for line in fileinput.input( os.path.join( Emu_Path, 'surreal.ini' ), inplace=1):
+											if 'Rom Path=' in line:
+												line = line = 'Rom Path=' + Roms_Folder + '\n'
+											print line,
+										os.makedirs( 'E:\\TDATA\\64ce64ce' )
+										with open( os.path.join( 'E:\\TDATA\\64ce64ce\\surreal-ce.ini' ), "w") as outputn64file:
+											WriteN64File = n64_config % ( Roms_Folder )
+											outputn64file.write( WriteN64File )
+										Change_N64_Rom_Path = 0
+										Bypass_N64_Check = 0
 									#--------
 									log('| '+ Emu_Name +  '	- Extracting the rom names from the ini.')
 									#--------
-									with open( os.path.join( Emulator_Folder_Path, "n64\\Surreal.ini" ), 'r') as ini:
+									with open( os.path.join( Emu_Path, 'surreal.ini' ), 'r') as ini:
 										for line in itertools.islice(ini, 20, None):
-											N64ID = str(line.lower())[1:-7]
-											N64ID1 = N64ID.split('-', 1)[0]
-											N64ID2 = N64ID.split('-', 1)[1]
+											N64ID = str(line.lower())
+											if not N64ID.startswith('['):
+												dialog.ok("ERROR","","Surreal.ini is corrupt or not formatted correctly[CR]Please recopy [B]EarthWormsJims[/B] N64 files over")
+												return
+											N64ID = N64ID[1:]
+											N64ID1 = N64ID.split('-')[0]
+											N64ID2 = N64ID.split('-')[1]
 											File_Name = ini.next().replace('Game Name=','')[:-1]
 											File_Name = File_Name.lower()
-											if Rom_Name_noext == File_Name:
-												N64_Rom_Name = ini.next().replace('Alternate Title=','')[:-1]
-												N64_Rom_Name = N64_Rom_Name.split(' (', 1)[0]
-												try:
-													ini.next() # skip the comment line
-													ini.next() # skip the blank line
-												except: pass
-												for N64_Thumb in os.listdir( os.path.join( Emulator_Folder_Path, 'n64\\media\\Cbagys3DArt' ) ):
-													N64_Thumb = N64_Thumb.lower()
-													if N64ID1 in N64_Thumb or N64ID2 in N64_Thumb:
-														if not os.path.isdir( os.path.join( Synopsis_Path, Emu_Name ) ): os.makedirs( os.path.join( Synopsis_Path, Emu_Name ) )
-														N64_Thumb_Location = os.path.join( Emulator_Folder_Path, 'n64\\media\\Cbagys3DArt', N64_Thumb )
-														N64_Thumb_Destination = os.path.join( Media_Path, 'boxart3d', File_Name + '.png' )
-														if os.path.isfile( N64_Thumb_Location ) and not os.path.isfile( N64_Thumb_Destination ): shutil.copy2( N64_Thumb_Location, N64_Thumb_Destination )
-												for N64_Synopsis in os.listdir( os.path.join( Emulator_Folder_Path, 'n64\\media\\synopsis' ) ):
-													N64_Synopsis = N64_Synopsis.lower()
-													if N64ID1 in N64_Synopsis or N64ID2 in N64_Synopsis:
-															N64_Synopsis_Location = os.path.join( Emulator_Folder_Path, 'n64\\media\\synopsis', N64_Synopsis[:-3] + 'txt' )
-															N64_Synopsis_Destination = os.path.join( Synopsis_Path, Emu_Name, File_Name + '.txt' )
-															if os.path.isfile( N64_Synopsis_Location ) and not os.path.isfile( N64_Synopsis_Destination ): 
-																with open( N64_Synopsis_Location ) as readn64tmp:
-																	readn64 = readn64tmp.read()
-																	readn64 = readn64.strip()
-																	with open( N64_Synopsis_Destination, 'w' ) as n64tmp:
-																		amended_n64tmp = 'Name: ' + readn64
-																		n64tmp.write(amended_n64tmp)
-															#if os.path.isfile( N64_Synopsis_Location ): shutil.copy2( N64_Synopsis_Location, N64_Synopsis_Destination )
+											if File_Name == "007 goldeneye (ultrahle)720pno" or Bypass_N64_Check == 1:
+												Bypass_N64_Check = 1
+												if Rom_Name_noext == File_Name:
+													N64_Rom_Name = ini.next().replace('Alternate Title=','')[:-1]
+													N64_Rom_Name = N64_Rom_Name.split(' (', 1)[0]
+													try:
+														ini.next() # skip the comment line
+														ini.next() # skip the blank line
+													except: pass
+													for N64_Thumb in os.listdir( os.path.join( Emu_Path, 'media\\Cbagys3DArt' ) ):
+														N64_Thumb = N64_Thumb.lower()
+														if N64ID1 in N64_Thumb or N64ID2 in N64_Thumb:
+															if not os.path.isdir( os.path.join( Synopsis_Path, Emu_Name ) ): os.makedirs( os.path.join( Synopsis_Path, Emu_Name ) )
+															N64_Thumb_Location = os.path.join( Emu_Path, 'media\\Cbagys3DArt', N64_Thumb )
+															N64_Thumb_Destination = os.path.join( Media_Path, 'boxart3d', File_Name + '.png' )
+															if os.path.isfile( N64_Thumb_Location ) and not os.path.isfile( N64_Thumb_Destination ): shutil.copy2( N64_Thumb_Location, N64_Thumb_Destination )
+													for N64_Synopsis in os.listdir( os.path.join( Emu_Path, 'media\\synopsis' ) ):
+														N64_Synopsis = N64_Synopsis.lower()
+														if N64ID1 in N64_Synopsis or N64ID2 in N64_Synopsis:
+																N64_Synopsis_Location = os.path.join( Emu_Path, 'media\\synopsis', N64_Synopsis[:-3] + 'txt' )
+																N64_Synopsis_Destination = os.path.join( Synopsis_Path, Emu_Name, File_Name + '.txt' )
+																if os.path.isfile( N64_Synopsis_Location ) and not os.path.isfile( N64_Synopsis_Destination ): 
+																	with open( N64_Synopsis_Location ) as readn64tmp:
+																		readn64 = readn64tmp.read()
+																		readn64 = readn64.strip()
+																		with open( N64_Synopsis_Destination, 'w' ) as n64tmp:
+																			amended_n64tmp = 'Name: ' + readn64
+																			n64tmp.write(amended_n64tmp)
+																#if os.path.isfile( N64_Synopsis_Location ): shutil.copy2( N64_Synopsis_Location, N64_Synopsis_Destination )
+												else:
+													try:
+														ini.next() # skip the rom name
+														ini.next() # skip the comment line
+														ini.next() # skip the blank line
+													except: pass
 											else:
-												try:
-													ini.next() # skip the rom name
-													ini.next() # skip the comment line
-													ini.next() # skip the blank line
-												except: pass
-							else:
-								pass
-							if Change_N64_Rom_Path == 1:
-								if os.path.isdir( 'E:\\TDATA\\64ce64ce' ): shutil.rmtree( 'E:\\TDATA\\64ce64ce' )
-								if os.path.isfile(os.path.join( Emu_Path, "surreal.ini" )):
-									for line in fileinput.input( os.path.join( Emu_Path, "surreal.ini" ), inplace=1):
-										if 'Rom Path=' in line:
-											line = line = 'Rom Path=' + Roms_Folder + '\n'
-										print line,
-									os.makedirs( 'E:\\TDATA\\64ce64ce' )
-									with open( os.path.join( 'E:\\TDATA\\64ce64ce\\surreal-ce.ini' ), "w") as outputn64file:
-										WriteN64File = n64_config % ( Roms_Folder )
-										outputn64file.write( WriteN64File )
-									Change_N64_Rom_Path = 0
+												dialog.ok("ERROR","","This isn't [B]EarthWormsJims[/B][CR]N64 emulator + 178 rom best of compilation")
+												return
 								else:
-									dialog.ok("ERROR","Surreal.ini is missing from the","N64 Emulators directory.")
+									dialog.ok("ERROR","","Surreal.ini is missing from the","N64 Emulators directory")
+									return
+							#--------
+							log('| '+ Emu_Name +  '	- Change neogeocd rom path.')
+							#--------
+							if Change_NeoGeoCD_Rom_Path == 1:
+								if os.path.isfile(os.path.join( Emu_Path, "path.txt" )):
+									with open( os.path.join( os.path.join( Emu_Path, "path.txt" ) ), "w") as outputneogeocdfile:
+										WriteneogeocdFile = "rompath " + Roms_Folder + '\\\n'
+										outputneogeocdfile.write( WriteneogeocdFile )
+									Change_NeoGeoCD_Rom_Path = 0
+								else:
+									dialog.ok("ERROR","","path.txt is missing from the","Neogeocd Emulators directory")
 									return
 							#--------
 							log('| '+ Emu_Name +  '	- Check for a synopsis zip for the current emulator.')
@@ -443,6 +444,8 @@ def Main_Code():
 							#--------
 							log('| '+ Emu_Name +  '	- Check for a synopsis file for the current emulator and parse it.')
 							#--------
+							Synopsis_filename = '[B]Filename:[/B]\n ' + Rom_Name; Synopsis_release_year = '[B]Released:[/B]\n unknown '; Synopsis_players = '[B]Players:[/B]\n at least 1'; Synopsis_genre = '[B]Genre:[/B]\n unknown'; Synopsis_developer = '[B]Developer:[/B]\n unknown'; Synopsis_publisher = '[B]Publisher:[/B]\n unknown'; ynopsis_release_year = '[B]Released:[/B]\n unknown'
+							Synopsis_filename_Set = 0; Synopsis_nointroname_Set = 0; Synopsis_rating_Set = 0; Synopsis_players_Set = 0; Synopsis_genre_Set = 0; Synopsis_developer_Set = 0; Synopsis_publisher_Set = 0; Synopsis_release_year_Set = 0
 							try:
 								if Emu_Name == "genesis":
 									Synopsis_File = os.path.join( Synopsis_Path, "megadrive", Rom_Name_noext + '.txt' )
@@ -452,19 +455,19 @@ def Main_Code():
 									Synopsis_File = os.path.join( Synopsis_Path, "pcengine", Rom_Name_noext + '.txt' )
 								elif Emu_Name == "tg-cd":
 									Synopsis_File = os.path.join( Synopsis_Path, "pce-cd", Rom_Name_noext + '.txt' )
+								elif Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
+									Synopsis_File = os.path.join( Synopsis_Path, "fba", Rom_Name_noext + '.txt' )
 								else:
 									Synopsis_File = os.path.join( Synopsis_Path, Emu_Name, Rom_Name_noext + '.txt' )
 								with open( Synopsis_File ) as input:
 									Synopsis = input.read()
 									Synopsis1 = Synopsis.split('_________________________', 1)[0]
 									Synopsis1 = Synopsis1.split('\n')
-									Synopsis_filename = ""; Synopsis_rating = ""; Synopsis_players = ""; Synopsis_genre = ""; Synopsis_developer = ""; Synopsis_publisher = ""; Synopsis_release_year = ""
-									Synopsis_filename_Set = 0; Synopsis_nointroname_Set = 0; Synopsis_rating_Set = 0; Synopsis_players_Set = 0; Synopsis_genre_Set = 0; Synopsis_developer_Set = 0; Synopsis_publisher_Set = 0; Synopsis_release_year_Set = 0
 									for _ in range(11):
 										for line in Synopsis1:
 											line = line.lower()
 											if line.startswith('name:') and xbmc.getCondVisibility( 'Skin.HasSetting(Use_NoIntroNames)' ):
-												if Emu_Name == "fba":
+												if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
 													FBA_Rom_Name = line.split(': ',1)[1]
 													Synopsis_nointroname_Set = 1
 												else:
@@ -527,7 +530,7 @@ def Main_Code():
 									Synopsis2 = Synopsis2.replace( '>', '&gt;' )
 									Synopsis2 = Synopsis2.replace( '<', '&lt;' )
 							except:
-								Synopsis1 = "No Synopsis"
+								Synopsis1 = Synopsis_players + '\n' + Synopsis_genre + '\n' + Synopsis_developer + '\n' + Synopsis_publisher + '\n' + Synopsis_release_year + '\n' + Synopsis_filename
 								Synopsis2 = ""
 							log('|--------------------------------------------------------------------------------')
 							log('|	Fix labels that use only numbers, XBMC will use its internal labeling system if I dont.')
@@ -610,8 +613,8 @@ def Main_Code():
 								#--------
 								RomListCount = RomListCount + 1
 								with open( os.path.join( Games_List_Path, 'gamelist.xml' ), "a") as outputmenufile:
-									if Emu_Name == "fba":
-										pDialog.update((CountList * 100) / len(os.listdir( os.path.join( Roms_Folder_Path, "fba" ) ) ),"Creating [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Rom list",FBA_Rom_Name,"This can take some time, please be patient." )
+									if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
+										pDialog.update((CountList * 100) / len(os.listdir( os.path.join( Roms_Folder_Path, Emu_Name ) )),"Creating [B][UPPERCASE]" + Emu_Name + "[/UPPERCASE][/B] Rom list",FBA_Rom_Name,"This can take some time, please be patient." )
 										WriteMenuFile = menu_entry % (CountList,FBA_Rom_Name,Synopsis1,'RunScript( Special://xbmc/.emustation/scripts/launcher.py,' + Emu_XBE + ',' + Rom_Name_noext + ',,' + str(CountList) + ' )',"ActivateWindow(1101)",Synopsis2,Thumbnails_Path)
 									elif Emu_Name == "mame" or Emu_Name == "neogeocd":
 										pass
@@ -629,14 +632,14 @@ def Main_Code():
 								log('| '+ Emu_Name +  '	- Write favourites menu entries.')
 								#--------
 								with open( os.path.join( Games_List_Path, 'favslist.xml' ), "a") as favsmenufile:
-									if Emu_Name == "fba":
-										WriteMenuFile = favourites_entry % (FBA_Rom_Name,Rom_Name_noext)
+									if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
+										WriteMenuFile = favourites_entry % (FBA_Rom_Name,Emu_XBE,Rom_Name_noext)
 									elif Emu_Name == "mame" or Emu_Name == "neogeocd":
 										pass
 									elif Emu_Name == "n64":
-										WriteMenuFile = favourites_entry % (N64_Rom_Name,Rom_Path)
+										WriteMenuFile = favourites_entry % (N64_Rom_Name,Emu_XBE,Rom_Path)
 									else:
-										WriteMenuFile = favourites_entry % (Rom_Name_noext,Rom_Path)
+										WriteMenuFile = favourites_entry % (Rom_Name_noext,Emu_XBE,Rom_Path)
 									favsmenufile.write( WriteMenuFile )
 								#--------
 								log('| '+ Emu_Name +  '	- Write menu entry for quick jump')
@@ -865,9 +868,9 @@ menu_entry_header	= '<content>'
 menu_entry			= '\n<item id="%s">\n		<label>%s</label>\n		<label2>%s</label2>\n		<onclick>%s</onclick>\n		<onclick>%s</onclick>\n		<icon>%s</icon>\n		<thumb>%s</thumb>\n	</item>'
 menu_entry_footer	= '\n</content>'
 search_menu_entry	= '<control type="button" id="%s">\n	<label>[UPPERCASE]jump to letter[/UPPERCASE]</label>\n	<label2>&lt; [UPPERCASE]%s[/UPPERCASE] &gt;</label2>\n	<include>MenuButtonCommonValues</include>\n	<onclick>Dialog.Close(1120)</onclick>\n	<onclick>%s</onclick>\n</control>\n'
-favourites_entry	= '<favourites>%s,%s</favourites>\n'
+favourites_entry	= '<favourites>%s,%s,%s</favourites>\n'
 n64_config			= '[Settings]\nskinname=Default\nonhd=true\nHideLaunchScreens=true\nEnableXMVPreview=false\nEnableVideoAudio=false\nEnableInfoPanel=false\nEnableBGMusic=false\nRandomBGMusic=false\nAudioBoost=false\nPathRoms=%s\\\nPathMedia=D:\Media\\\nPathSkins=D:\Skins\\\nPathSaves=D:\Saves\\\nPathScreenshots=D:\Screenshots\\'
-mame_config			= '[Directories]\nALTDrive = t\nC_Mapping = \\device\\harddisk0\\partition1\nE_Mapping = \\device\\harddisk0\\partition1\nF_Mapping = \\device\\harddisk0\\partition6\nG_Mapping = \\device\\cdrom0\nH_Mapping = \\device\\harddisk0\\partition6\nRomsPath0 = %s\nRomsPath1 = d:\\roms\nRomsPath2 = d:\\roms\nRomsPath3 = d:\\roms\nArtPath = d:\\artwork\nAudioPath = d:\\samples\nConfigPath = d:\\cfg\nGeneralPath = d:\\general\nHDImagePath = d:\\hdimages\nHiScoresPath = d:\\hiscores\nNVRamPath = d:\\nvram\nBackupPath = d:\\roms\\backup\nScreenshotPath = d:\\screenshots\nAutoBootSavePath = d:\\autobootsaves\n\n\n[General]\nbios = 0\nCheatsEnabled = 1\nCheatFilename = cheat.dat\nSkipDisclaimer = 1\nSkipGameInfo = 1\nSkipWarnings = 1\nScreenSaverTimeout = 10\n\n\n[Input]\nLightgun1_Left = 4294934529\nLightgun1_CenterX = 0\nLightgun1_Right = 32767\nLightgun1_Top = 32767\nLightgun1_CenterY = 0\nLightgun1_Bottom = 4294934529\nLightgun2_Left = 4294934529\nLightgun2_CenterX = 0\nLightgun2_Right = 32767\nLightgun2_Top = 32767\nLightgun2_CenterY = 0\nLightgun2_Bottom = 4294934529\nLightgun3_Left = 4294934529\nLightgun3_CenterX = 0\nLightgun3_Right = 32767\nLightgun3_Top = 32767\nLightgun3_CenterY = 0\nLightgun3_Bottom = 4294934529\nLightgun4_Left = 4294934529\nLightgun4_CenterX = 0\nLightgun4_Right = 32767\nLightgun4_Top = 32767\nLightgun4_CenterY = 0\nLightgun4_Bottom = 4294934529\n\n\n[Network]\nDisableNetworking = 0\nIPAddress = \nGateway = \nSubnet = \nNameServer = \n\n\n[ROMListOptions]\nDisplayMode = 1\nSortMode = 0\nShowROMStatus = 0\nShowFAVEStatus = 1\nHideFilteredROMs = 0\nFilterMode = 0\nCursorPosition = 0.000000\nPageOffset = 0.000000\nSuperscrollIndex = 0\n\n\n[SkinOptions]\nSelectedSkin = Original\n\n\n[Sound]\nSoundEnable = 1\nSampleRate = 44100\nUseSamples = 1\nUseFilter = 1\n\n\n[VMMOptions]\nForceVMM = 0\nThreshold = 4194304\nCommitSize = 1048576\nDistribute = 65535\n\n\n[VectorOptions]\nVectorWidth = 640\nVectorHeight = 480\nBeamWidth = 2\nFlickerEffect = 0.000000\nBeamIntensity = 1.500000\nTranslucency = 1\n\n\n[Video]\nVSYNC = 1\nThrottleFramerate = 1\nAspectRatioCorrection = 1\nMinificationFilter = 2\nMagnificationFilter = 2\nFrameskip = 4294967295\nGraphicsFilter = 0\nSoftDisplayFilter = 0\nFlickerFilter = 5\nScreenRotation = 0\nBrightness = 1.000000\nPauseBrightness = 0.650000\nGamma = 1.000000\nScreenUsage_X = 0.850000\nScreenUsage_Y = 0.850000\nScreenPos_X = 0.000000\nScreenPos_Y = 0.000000\nArtwork = 1\n\n\n'
+mame_config			= '[Directories]\nALTDrive = t\nC_Mapping = \\device\\harddisk0\\partition1\nE_Mapping = \\device\\harddisk0\\partition1\nF_Mapping = \\device\\harddisk0\\partition6\nG_Mapping = \\device\\harddisk0\\partition7\nH_Mapping = \\device\\cdrom0\nRomsPath0 = %s\nRomsPath1 = d:\\roms\nRomsPath2 = d:\\roms\nRomsPath3 = d:\\roms\nArtPath = d:\\artwork\nAudioPath = d:\\samples\nConfigPath = d:\\cfg\nGeneralPath = d:\\general\nHDImagePath = d:\\hdimages\nHiScoresPath = d:\\hiscores\nNVRamPath = d:\\nvram\nBackupPath = d:\\roms\\backup\nScreenshotPath = d:\\screenshots\nAutoBootSavePath = d:\\autobootsaves\n\n\n[General]\nbios = 0\nCheatsEnabled = 1\nCheatFilename = cheat.dat\nSkipDisclaimer = 1\nSkipGameInfo = 1\nSkipWarnings = 1\nScreenSaverTimeout = 10\n\n\n[Input]\nLightgun1_Left = 4294934529\nLightgun1_CenterX = 0\nLightgun1_Right = 32767\nLightgun1_Top = 32767\nLightgun1_CenterY = 0\nLightgun1_Bottom = 4294934529\nLightgun2_Left = 4294934529\nLightgun2_CenterX = 0\nLightgun2_Right = 32767\nLightgun2_Top = 32767\nLightgun2_CenterY = 0\nLightgun2_Bottom = 4294934529\nLightgun3_Left = 4294934529\nLightgun3_CenterX = 0\nLightgun3_Right = 32767\nLightgun3_Top = 32767\nLightgun3_CenterY = 0\nLightgun3_Bottom = 4294934529\nLightgun4_Left = 4294934529\nLightgun4_CenterX = 0\nLightgun4_Right = 32767\nLightgun4_Top = 32767\nLightgun4_CenterY = 0\nLightgun4_Bottom = 4294934529\n\n\n[Network]\nDisableNetworking = 0\nIPAddress = \nGateway = \nSubnet = \nNameServer = \n\n\n[ROMListOptions]\nDisplayMode = 1\nSortMode = 0\nShowROMStatus = 0\nShowFAVEStatus = 1\nHideFilteredROMs = 0\nFilterMode = 0\nCursorPosition = 0.000000\nPageOffset = 0.000000\nSuperscrollIndex = 0\n\n\n[SkinOptions]\nSelectedSkin = Original\n\n\n[Sound]\nSoundEnable = 1\nSampleRate = 44100\nUseSamples = 1\nUseFilter = 1\n\n\n[VMMOptions]\nForceVMM = 0\nThreshold = 4194304\nCommitSize = 1048576\nDistribute = 65535\n\n\n[VectorOptions]\nVectorWidth = 640\nVectorHeight = 480\nBeamWidth = 2\nFlickerEffect = 0.000000\nBeamIntensity = 1.500000\nTranslucency = 1\n\n\n[Video]\nVSYNC = 1\nThrottleFramerate = 1\nAspectRatioCorrection = 1\nMinificationFilter = 2\nMagnificationFilter = 2\nFrameskip = 4294967295\nGraphicsFilter = 0\nSoftDisplayFilter = 0\nFlickerFilter = 5\nScreenRotation = 0\nBrightness = 1.000000\nPauseBrightness = 0.650000\nGamma = 1.000000\nScreenUsage_X = 0.850000\nScreenUsage_Y = 0.850000\nScreenPos_X = 0.000000\nScreenPos_Y = 0.000000\nArtwork = 1\n\n\n'
 fbl_config			= 'UsePathINI=1\nROMPath1=D:\\roms\nROMPath2=\nROMPath3=\nROMPath4=\nROMPath5=\nROMPath6=\nROMPath7=\nROMPath8=\nD:\\artwork\\Shots 1\nD:\\artwork\\Shots 2\nD:\\artwork\\Shots 3\nD:\\artwork\\Shots 4\nD:\\artwork\\Shots 5\nD:\\artwork\\Shots 6\nD:\\artwork\\Shots 7\nD:\\artwork\\Shots 8\nD:\\nvram\nD:\\samples\nD:\\ini\nD:\\savestates\nD:\\config\nD:\\hiscores\nD:\\videos\n'
 
 logging = 0 # Setting this to 1 will spam the living hell out of your log file if you run the Auto mode, you have been warned

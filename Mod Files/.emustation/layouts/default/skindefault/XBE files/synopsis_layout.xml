@@ -105,6 +105,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+			<scroll>false</scroll>
 		</control>
 	</itemlayout>
 	<focusedlayout height="30" width="560">

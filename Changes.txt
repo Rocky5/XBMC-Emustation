@@ -1,3 +1,37 @@
+06/03/2018
+	0) Version 1.0 of XBMC-Emustation!!!!
+	1) Added support for NeoGeoCD to the "create_rom_lists.py" script.
+		( CUE/ISO + MP3 only with this emulator and they must go into sub folder inside the roms\neogeocd folder Example: roms\neogeocd\metal slug\metal slug.cue, .iso eg.... )
+	2) The "scanner.py" script now creates the roms folder if they don't exist.
+	3) FBL, FBLC and FBAxxx added to the emulators and roms for the carousel.
+	4) Updater that will download and apply updates.
+	5) URL Downloader that can be used to download themes or other stuff.
+		( it uses md5 hashes to validate downloads )
+	6) Marketplace lol well download centre if you will that lets you directly download a load of stuff and also update XBMC-Emustation.
+	7) Few other script optimisations.
+	8) Added NeoGeoCDSDL emulator to the downloader.
+		( read above for how roms are to be setup )
+	9) Added x68000 emulator to the downloader.
+	10) Synopsis for x68000 emulator added.
+	11) Added custom splash support, this way it wont be overwritten after an update.
+		( add custom_splash.png next to the normal splash.png )
+	12) Updated the "generate_favourites.py" script to parse the new favlist.xml
+	13) Updated "create_rom_lists.py" to add the current xbe path for favourites. You need to rescan your roms.
+		( this is mainly for FBL as it requires the direct path to specific xbe files )
+	14) Other options menu rearranged a bit.
+	15) Updated the "home_themer.py" to default to the skindefault.xml if no custom one is found.
+	16) Added Pokemon Mini emulator to the downloader and added the logo and system_art by Jay Yardley.
+	17) Synopsis creator script make it truncate filename to 42 characters and remove illegal character from file names.
+	18) Updated the xbe save patcher for emulators to also patch the keepsave name to save.sav.
+		( this is to stop UX from making folders when transferring the damn files to the xbox )
+	19) Updated all included emulators to use the new save.sav file.
+	20) Atarilynx, Atari2600 synopsis files added and emulator to the downloader.
+	21) Added some checks into the "create_rom_lists.py" script for the N64 parsing.
+		( only pack supported is the "N64 emulator + 178 rom best of compilation" )
+	22) Added a few more extensions to the "create_rom_lists.py" script.
+	23) Other stuff was done but like normal I do to much and forget what's what :/
+
+
 15/02/2018
 	1) Fixed the skin not showing properly when installing a fresh build.
 	2) Updated the patch xbe script.
