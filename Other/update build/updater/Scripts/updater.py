@@ -41,4 +41,8 @@ autoexec_data = "import os, shutil\n\
 if os.path.isdir( 'Q:\\Updater' ): shutil.rmtree( 'Q:\\Updater' )\n\
 "
 with open( os.path.join( Root_Directory,'system\\scripts\\autoexec.py') , 'w') as autoexec: autoexec.write( autoexec_data )
+# Remove old textures.xpr if it exists and versioner.py + version.bin
+if os.path.isfile( Root_Directory + 'default skin\\media\\Texture.xpr' ): os.remove( Root_Directory + 'default skin\\media\\Texture.xpr' )
+if os.path.isfile( Root_Directory + '.emustation\\scripts\\versioner.py' ): os.remove( Root_Directory + '.emustation\\scripts\\versioner.py' )
+if os.path.isfile( Root_Directory + 'system\\version.bin' ): os.remove( Root_Directory + 'system\\version.bin' )
 xbmc.executebuiltin('RunXBE('+ Root_Directory +'default.xbe)')
