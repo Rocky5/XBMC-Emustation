@@ -40,8 +40,12 @@ rd /q /s "%foldername%\.emustation\media"
 rd /q /s "%foldername%\default skin\media\Use for custom home layouts"
 )
 copy /y "Changes.txt" "%foldername%"
+if exist "..\Other\build for release" (
+	Call Other\Tools\repl.bat "XBMC-Emustation 1.0.000" "XBMC-Emustation 1.0.%daytotal%" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
+	Del "%foldername%\default skin\language\English\strings.po"
+	rename "%foldername%\default skin\language\English\strings.tmp" "strings.po"
+)
 CD %foldername%\
-Echo %version%.%daytotal%>"system\version.bin"
 "C:\Program Files\7-Zip\7z.exe" a "..\Other\update build\updater\Update Files\%foldername%.zip" "*" -mx=7 -r -y
 "C:\Program Files\7-Zip\7z.exe" a "..\XBMC-Emustation-update-files.zip" "..\Other\update build\*" -mx=7 -r -y
 del /Q "..\Other\update build\updater\Update Files\%foldername%.zip"
