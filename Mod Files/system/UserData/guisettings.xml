@@ -411,8 +411,8 @@
 				<sep2>
 				</sep2>
 				<time>1:35</time>
-				<timeserver>true</timeserver>
-				<timeserveraddress>pool.ntp.org</timeserveraddress>
+				<timeserver>false</timeserver>
+				<timeserveraddress>46.165.221.137</timeserveraddress>
 				<timezone>25</timezone>
 				<usedst>true</usedst>
 		</locale>
