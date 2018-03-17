@@ -14,6 +14,9 @@
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=65NJWU9PUUX7W&lc=GB&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)
  
 ## Installation
+ #### Download Prebuild build: [Download XBMC-Emustation](http://xbmc-emustation.com/downloads/_latest%20build/XBMC-Emustation.zip)
+
+ #### Build from Source:
  * Download [XBMC-Emustation](https://github.com/Rocky5/XBMC-Emustation/archive/master.zip) and extract the **XBMC-Emustation-master** folder to your desktop.
  * Download the latest [XBMC4XBOX-*****.zip](https://drive.google.com/drive/folders/0B9zNhNcNUdDTRVFBbHcwc2JCZFE) and extract the **XBMC** folder that is inside the zip to your desktop\\**XBMC-Emustation-master**\\ folder.
  * Now double click the **Build XBMC-Emustation.bat** that's inside the **XBMC-Emustation-master** folder and wait. It will output a new folder named **XBMC-Emustation**
@@ -32,12 +35,18 @@
  * Press start on the main screen. Other Settings > Refresh Emulator list.
  * **note:** this is automatically done if any of the **Scan Roms Files** options are run.
  
-## Custom emulators, roms and media Paths
+## Custom emulators, media and roms Paths
  * Press start on the main screen. Other Settings > scroll down.
  * **note:** if you change any of these a **rescan of your roms** is required.
    
 ## Customize Home
  * Press start on the main screen. UI Settings > Home Screen Customization.
+ 
+## Downloader
+ * Located in the options menu at the bottom. This will allow you to download application, homebrew, DLC and many more things.
+ 
+## Updated XBMC-Emustation to the latest version
+ * Head to options > Downloader > Updates > Install: XBMC-Emustation-update-files
   
 ## Everything else
  * The rest should be self explanatory, its all in the menu.
@@ -48,12 +57,15 @@
  For maintaining XBMC4Xbox over the years.
 
 #### EmulationStation folk for:
- es-theme-simple-master - [GitHub es-theme-simple](https://github.com/RetroPie/es-theme-simple)
+ es-theme-simple - [GitHub es-theme-simple](https://github.com/RetroPie/es-theme-simple)
  
- es-theme-carbon-master - [GitHub es-theme-carbon](https://github.com/RetroPie/es-theme-carbon)
+ es-theme-carbon - [GitHub es-theme-carbon](https://github.com/RetroPie/es-theme-carbon)
  
  ( I created a few new images to add to these great svg images )
-	
+
+#### TMNTturtleguy
+ For the awesome theme ComicBook for EmulationStation [GitHub es-theme-ComicBook](https://github.com/TMNTturtleguy/es-theme-ComicBook)
+ 
 #### MadMab
  For the emulators on the Xbox - [MadMab Emulators](http://www.emuxtras.net/dlsystem/)
  
@@ -62,10 +74,16 @@
 #### Voidsentinel
  For the 3 cartridge images I used for the favourites logo - [Deviantart](https://voidsentinel.deviantart.com/gallery/43806141/Video-Game-Icons)
  
-#### TMNTturtleguy
- For the awesome theme ComicBook for EmulationStation [GitHub](https://github.com/TMNTturtleguy/es-theme-ComicBook)
+#### Grimdoomer ( thefallen93 )
+ For telling me how DLC is hashed on the Xbox.
  
 #### Testers
  Feedback and suggestions.
  * Mikeaton
+ * Jay Yardley
+ * Randyslim76
+ * Smithis
  * Also to anyone else I may have forgot.
+
+#### Note: All other themes were recreated from scratch for the Xbox. ( all assets were make from scratch )
+ 
