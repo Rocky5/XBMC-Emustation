@@ -1,7 +1,7 @@
 '''
 	Edited to work with XBMC-Emustation and have vars passed to it for downloading files.
 '''
-import extract, os, hashlib, requests, shutil ,time ,urllib ,urllib2, urlparse, xbmc, xbmcgui
+import extract, fileinput, os, hashlib, hmac, logging, requests, shutil ,struct, time, traceback ,urllib ,urllib2, urlparse, xbmc, xbmcgui
 dialog = xbmcgui.Dialog()
 dprogress = xbmcgui.DialogProgress()
 def check_for_update(url):
@@ -48,7 +48,7 @@ def clear_X():
 		pass
 # Used to check that you have internet access before letting you do anything.
 try:
-	urllib2.urlopen('http://172.217.23.142', timeout=4)
+	urllib2.urlopen('http://www.pool.ntp.org', timeout=3)
 	home_url = 'http://www.xbmc-emustation.com/downloads/'
 	# args
 	try:
@@ -73,21 +73,33 @@ try:
 		keyboard.setHeading('Formating = URL,md5hash')
 		xbmc.executebuiltin('Dialog.Close(1101,true)')
 		keyboard.doModal()
-		if (keyboard.isConfirmed()):
-			defaulturl = keyboard.getText()
-			if defaulturl.startswith('https://'): defaulturl = defaulturl.replace('https://','http://')
-			if not defaulturl.startswith('ftp://') and not defaulturl.startswith('http://'): defaulturl = 'http://'+defaulturl
-			print defaulturl
-			dprogress.create("REQUESTING URL","","Please wait...")
-			defaulturl = requests.head(defaulturl, allow_redirects=True).url
-			dprogress.close()
-			md5hash = defaulturl.split(",")[1]
-			defaulturl = defaulturl.split(",")[0].replace('%20',' ')
-			filename = defaulturl.split("/")[-1]
-			exit = 1
-		else:
-			filename = ""
+		try:
+			if (keyboard.isConfirmed()):
+				defaulturl = keyboard.getText()
+				if defaulturl.startswith('http://') or defaulturl.startswith('HTTP://'):
+					pass
+				elif defaulturl.startswith('https://') or defaulturl.startswith('HTTPS://'):
+					pass
+				elif defaulturl.startswith('ftp://') or defaulturl.startswith('FTP://'):
+					pass
+				else:
+					defaulturl = 'http://'+defaulturl
+				dprogress.create("REQUESTING URL","","Trying to resolve, please wait")
+				dprogress.update(0)
+				defaulturl = requests.head(defaulturl, allow_redirects=True).url
+				dprogress.close()
+				md5hash = defaulturl.split(",")[1]
+				defaulturl = defaulturl.split(",")[0].replace('%20',' ')
+				filename = defaulturl.split("/")[-1]
+				exit = 1
+			else:
+				filename = ""
+				exit = 0
+		except Exception as err:
+			print "Error 1:"; logging.error(traceback.format_exc())
 			exit = 0
+			dprogress.close()
+			xbmcgui.Dialog().ok("ERROR","Could not resolve address","Please check you entered it correctly","Note: the server could also be offline")
 	# vars
 	if destination == "Emulator_Folder_Path":
 		if xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ): destination = xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
@@ -98,11 +110,13 @@ try:
 	if destination == "Media_Folder_Path":
 		if xbmc.getCondVisibility( 'Skin.String(Custom_Media_Path)' ): destination = xbmc.getInfoLabel( 'Skin.String(Custom_Media_Path)' )
 		else: destination = 'Q:\\.emustation\\media\\'
-	percent = 0
+	global allowcancellation
 	allowcancellation = 0
-	hashlib = hashlib.md5()
+	hashlibmd5 = hashlib.md5()
+	hashlibsha1 = hashlib.sha1
 	extensions = [ 'zip' ]
 	download_path = 'X:\\downloads\\'
+	dlcmode = 0
 	# Download the check file to see if there is an update.
 	check_for_update( home_url + 'versions/URLDownloader.bin' )
 	with open( 'Q:\\.emustation\\scripts\\urldownloader\\version.bin', 'r') as verfile:
@@ -113,6 +127,11 @@ try:
 	if version == local_version or filename == "URLDownloader.zip" or xbmc.getInfoLabel('Control.GetLabel(1)') == "Download Assets":
 		file = os.path.join(download_path,filename)
 		md5hashfile = file[:-4] + ".md5"
+		# Truncate the filename to look claner and also get the titleid for DLC installation.
+		if keyboardmode == "DLC":
+			titleid = filename[-12:]; titleid = titleid[:-4]
+			filename = filename[:-13]+'.zip'
+			dlcmode = 1
 		xbmc.executebuiltin('Dialog.Close(1101,true)')
 		if os.path.isfile( file ):
 			os.remove( file )
@@ -121,46 +140,101 @@ try:
 				if dialog.yesno("URLDOWNLOADER","","Would you like to download[CR]" + filename):
 					if destination == "":
 						destination = dialog.browse( 3,"Select destination folder",'files','' )
-					try:
-						clear_X()
-						global allowcancellation
-						allowcancellation = 1
-						download_url( defaulturl )
-						if keyboardmode == "":
-							download_url( md5hashurl )
-							with open( md5hashfile, 'r') as md5file:
-								md5hash = md5file.readline().rstrip()
-							os.remove( md5hashfile )
-						# Generate MD5 Hash from downloaded file.
-						with open( file, "rb") as inputfile:
-							file_content = inputfile.read(1024*1024)
-							dprogress.create("CHECKING CONSISTENCY","","Initializing")
-							while file_content:
-								dprogress.update(( percent * 100 ) / os.path.getsize( file ),"Calculating MD5 Hash","This can take some time, please be patient." )
-								hashlib.update( file_content )
-								file_content = inputfile.read(1024*1024)
-								percent = percent+1024*1024
-						if md5hash == hashlib.hexdigest():
-							extract_file( file )
-							os.remove( file )
-							dprogress.close()
-							if filename == "XBMC-Emustation-update-files.zip" and os.path.isfile( 'Q:\\updater\\default.xbe'):
-								xbmc.executebuiltin('RunXBE(Q:\\updater\\default.xbe)')
-							elif filename == "URLDownloader.zip" and os.path.isdir( 'Q:\\system\\scripts\\urldownloader'):
-								xbmc.executebuiltin('RunScript(Q:\\system\\scripts\\autoexec.py)')
+						if keyboardmode == "MOD":
+							if os.path.isfile( os.path.join( destination, 'default.xbe' ) ):
+								pass
 							else:
-								dialog.ok("SUCCESS","",filename + " Installed")
-								if filename == "Download Lists.zip": xbmc.executebuiltin('ReloadSkin')
-						else:
-							dialog.ok("ERROR","MD5Hash Mismatch","Server Hash: " + md5hash,"Local Hash: " + hashlib.hexdigest())
-							os.remove( file )
-					except:
-						if dprogress.iscanceled():
-							dprogress.close()
-							dialog.ok("URLDOWNLOADER","You cancelled the download of",filename)
-						else:
-							dprogress.close()
-							dialog.ok("ERROR","","Server or local network issue")
+								dialog.ok("ERROR","Cant find a default.xbe","Did you select the proper folder?")
+								destination = 0
+					if destination:
+						try:
+							clear_X()
+							allowcancellation = 1
+							download_url( defaulturl )
+							if keyboardmode != "keyboard_mode":
+								download_url( md5hashurl )
+								with open( md5hashfile, 'r') as md5file:
+									md5hash = md5file.readline().rstrip()
+								os.remove( md5hashfile )
+							# Generate MD5 Hash from downloaded file.
+							with open( file, "rb") as inputfile:
+								percent = 0
+								file_content = inputfile.read(1024*1024)
+								dprogress.create("CHECKING CONSISTENCY","","Initializing")
+								while file_content:
+									dprogress.update(( percent * 100 ) / os.path.getsize( file ),"Calculating MD5 Hash","This can take some time, please be patient." )
+									hashlibmd5.update( file_content )
+									file_content = inputfile.read(1024*1024)
+									percent = percent+1024*1024
+							if md5hash == hashlibmd5.hexdigest():
+								if filename == "Download Lists.zip":
+									if os.path.isdir( 'Q:\\default skin\\media\\urldownloader' ): shutil.rmtree( 'Q:\\default skin\\media\\urldownloader' )
+									if os.path.isfile( 'Q:\\default skin\\720p\\Custom_Downloader.xml' ): os.remove( 'Q:\\default skin\\720p\\Custom_Downloader.xml' )
+									if os.path.isfile( 'Q:\\default skin\\720p\\Includes_Downloader.xml' ): os.remove( 'Q:\\default skin\\720p\\Includes_Downloader.xml' )
+									for line in fileinput.input( os.path.join( 'Q:\\default skin\\720p\\includes.xml' ), inplace=1):
+										if line.strip().startswith('<include file="includes_downloader.xml"'):
+											line = '		<include file="_Script_URLDownloader_Includes.xml" />\n'
+										print line,
+								extract_file( file )
+								os.remove( file )
+								if dlcmode:
+									dprogress.update(0)
+									dprogress.create("DLC SIGNER","","Initializing" )
+									# Had to use this while loop to get the HDD key as it will be Busy for a second or two.
+									while True:
+										key = xbmc.getInfoLabel('system.hddlockkey')
+										time.sleep(1)
+										if key != 'Busy':
+											hddkey = key.decode('hex')
+											filecount = 1
+											countlist = 0
+											break
+									for folder, subfolder, file in os.walk('E:\\TDATA\\'+titleid):
+										filecount += len(file)
+									for folder, subfolder, file in os.walk('E:\\TDATA\\'+titleid):
+										for xbxfile in file:
+											xbxfile = xbxfile.lower()
+											if xbxfile == "contentmeta.xbx":
+												contextmetafile = os.path.join( folder, xbxfile )
+												filesize = os.path.getsize(contextmetafile)
+												readxbx = open(contextmetafile, 'r+b')
+												filedata = readxbx.read(filesize)
+												# Check the header fields.
+												headersize = struct.unpack('I', filedata[24:28])[0]
+												titleid = filedata[36:40]
+												# Compute the HMAC key using the title id and HDD key.
+												hmacKey = hmac.new(hddkey, titleid, hashlibsha1).digest()[0:20]
+												# Compute the content signature.
+												contentSignature = hmac.new(hmacKey, filedata[20:headersize], hashlibsha1).digest()[0:20]
+												readxbx.seek(0,0)
+												readxbx.write(contentSignature)
+												countlist = countlist + 1
+											dprogress.update(( countlist * 100 ) / filecount,"Signing ContextMeta.xbx","This can take some time, please be patient." )
+											countlist = countlist + 1
+								dprogress.close()
+								if filename == "XBMC-Emustation-update-files.zip" or filename == "XBMC-Emustation-test-build.zip" and os.path.isfile( 'Q:\\updater\\default.xbe'):
+									xbmc.executebuiltin('RunXBE(Q:\\updater\\default.xbe)')
+								elif filename == "Cache Formatter.zip" and os.path.isfile( 'Q:\\Cache Formatter\\default.xbe'):
+									xbmc.executebuiltin('RunXBE(Q:\\Cache Formatter\\default.xbe)')
+								elif filename == "URLDownloader.zip" and os.path.isdir( 'Q:\\system\\scripts\\urldownloader'):
+									xbmc.executebuiltin('RunScript(Q:\\system\\scripts\\autoexec.py)')
+								else:
+									dialog.ok("SUCCESS","",filename + " Installed")
+									if filename == "Download Lists.zip": xbmc.executebuiltin('ReloadSkin')
+							else:
+								dprogress.close()
+								dialog.ok("ERROR","MD5Hash Mismatch","Server Hash: " + md5hash,"Local Hash: " + hashlibmd5.hexdigest())
+								os.remove( file )
+						except Exception as err:
+							print "Error 2:"; logging.error(traceback.format_exc())
+							if dprogress.iscanceled():
+								dprogress.close()
+								dialog.ok("URLDOWNLOADER","You cancelled the download of",filename)
+							else:
+								dprogress.close()
+								dialog.ok("ERROR","","Server or local network issue")
+					else:
+						pass
 			else:
 				dialog.ok("ERROR","Supported files",extensions)
 		else:
@@ -169,5 +243,6 @@ try:
 		xbmc.executebuiltin('Dialog.Close(1101,true)')
 		xbmcgui.Dialog().ok("UPDATE","Please update","[B]URLDownloader[/B] then the [B]Download Lists[/B]")
 except urllib2.URLError as err:
+	print "Error 3:"; logging.error(traceback.format_exc())
 	xbmc.executebuiltin('Dialog.Close(1101,true)')
 	xbmcgui.Dialog().ok("ERROR","No network access","Please check your ethernet cable")
