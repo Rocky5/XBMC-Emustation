@@ -1,3 +1,8 @@
+1.0.10
+	1) Added a load of check so I can support XBMC4Gamers
+	2) Now will check for the urldownloader update on first launch of a download.
+	   ( this only happens once per console cycle )
+
 1.0.9
 	1) Fixed a mistake on my part for removing the old files.
 	2) Added launching of the test build updater/installer

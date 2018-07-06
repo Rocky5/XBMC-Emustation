@@ -94,6 +94,19 @@
 	<colordiffuse>bottom-bar-highlight</colordiffuse>
 	<texture>layouts/art/panel.png</texture>
 </control>
+<!-- Fanart Image -->
+<control type="largeimage">
+	<posx>0</posx>
+	<posy>115</posy>
+	<width>1280</width>
+	<height>558</height>
+	<aspectratio>scale</aspectratio>
+	<colordiffuse>15FFFFFF</colordiffuse>
+	<texture>[Media_Path]\screenshots\$INFO[Container(9000).listitem.thumb]</texture>
+	<fadetime>FanartCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
+	<visible>[Fanart_Toggle]</visible>
+</control>
 <!-- Context Button Overlay -->
 <include>ContextButtonsEmulators</include>
 <include>ContextButtonsVideo</include>
@@ -132,7 +145,7 @@
 	<width>446</width>
 	<height>301</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 	<include>EmulatorScrollFade</include>
 	<visible>!Player.HasVideo</visible>

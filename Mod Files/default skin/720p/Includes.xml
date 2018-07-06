@@ -1,10 +1,10 @@
 <includes>
 		<include file="defaults.xml" />
-		<include file="includes_downloader.xml" />
+		<include file="_Script_URLDownloader_Includes.xml" />
 		<include file="includes_variables.xml" />
 		<include file="Viewtype_CommonRootView.xml">CommonRootView</include>
 		<constant name="FanartCrossfadeTime">200</constant>
-		<constant name="ThumbCrossfadeTime">0</constant>
+		<constant name="ThumbCrossfadeTime">50</constant>
 		<include name="CommonBackground">
 				<control type="image">
 						<posx>0</posx>
@@ -13,6 +13,7 @@
 						<height>720</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="false">layouts/art/background.png</texture>
+						<visible>!IsEmpty.($INFO[Skin.String(Background_Image)]) + !IsEmpty.($INFO[Skin.String(Background_Color)])</visible>
 				</control>
 				<control type="image">
 						<posx>0</posx>
@@ -22,6 +23,25 @@
 						<aspectratio>stretch</aspectratio>
 						<colordiffuse>background-overlay-colour</colordiffuse>
 						<texture background="false">background diffuse.png</texture>
+						<visible>!IsEmpty.($INFO[Skin.String(Background_Image)]) + !IsEmpty.($INFO[Skin.String(Background_Color)])</visible>
+				</control>
+				<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>720</height>
+						<texture>$INFO[skin.string(Background_Color)]</texture>
+						<aspectratio>stretch</aspectratio>
+						<visible>IsEmpty.($INFO[Skin.String(Background_Color)])</visible>
+				</control>
+				<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1280</width>
+						<height>720</height>
+						<texture>$INFO[skin.string(background_image)]</texture>
+						<aspectratio>scale</aspectratio>
+						<visible>IsEmpty.($INFO[Skin.String(Background_Image)])</visible>
 				</control>
 		</include>
 		<include name="CarouselLabels">
@@ -69,6 +89,11 @@
 				<visible>!Container(450).Scrolling</visible>
 				<animation effect="fade" delay="200" time="150">visible</animation>
 				<animation effect="fade" time="150">hidden</animation>
+		</include>
+		<include name="defaultassetspaths">
+				<onunload condition="StringCompare(Skin.String(Custom_Emulator_Path),)">Skin.SetString(Custom_Emulator_Path,Q:\.emustation\emulators\)</onunload>
+				<onunload condition="StringCompare(Skin.String(Custom_Roms_Path),)">Skin.SetString(Custom_Roms_Path,Q:\.emustation\roms\)</onunload>
+				<onunload condition="StringCompare(Skin.String(Custom_Media_Path),)">Skin.SetString(Custom_Media_Path,Q:\.emustation\media\)</onunload>
 		</include>
 		<include name="CommonOptionsMenuBack">
 				<include>VisibleFadeEffect</include>

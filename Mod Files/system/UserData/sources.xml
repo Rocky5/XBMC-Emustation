@@ -20,6 +20,9 @@
 						<path pathversion="1">E:\Homebrew\</path>
 						<path pathversion="1">F:\Homebrew\</path>
 						<path pathversion="1">G:\Homebrew\</path>
+						<path pathversion="1">E:\Ports\</path>
+						<path pathversion="1">F:\Ports\</path>
+						<path pathversion="1">G:\Ports\</path>
 				</source>
 				<source>
 						<name>Xbox</name>

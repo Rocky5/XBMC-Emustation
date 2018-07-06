@@ -1,12 +1,13 @@
 '''
 	Edited to work with XBMC-Emustation and have vars passed to it for downloading files.
 '''
-import extract, fileinput, os, hashlib, hmac, logging, requests, shutil ,struct, time, traceback ,urllib ,urllib2, urlparse, xbmc, xbmcgui
+import extract, fileinput, hashlib, hmac, logging, operator, os, requests, shutil, struct, time, traceback, urllib, urllib2, urlparse, xbmc, xbmcgui
 dialog = xbmcgui.Dialog()
 dprogress = xbmcgui.DialogProgress()
+working_directory = os.getcwd() + '/'
 def check_for_update(url):
-	if not os.path.exists( download_path ): os.makedirs( download_path )
-	path = os.path.join(download_path,url.split('/')[-1])
+	if not os.path.exists( update_path ): os.makedirs( update_path )
+	path = os.path.join(update_path,url.split('/')[-1])
 	download(url, path, dprogress)
 def download_url(url):
 	dprogress.create("DOWNLOADING","","Initializing")
@@ -28,16 +29,16 @@ def _pbhook(numblocks, blocksize, filesize, url, dprogress):
 		if allowcancellation == 1:	raise Exception("Canceled")
 def extract_file(file):
 	time.sleep(1)
-	if not os.path.exists( destination ): os.makedirs( destination )
+	if not os.path.exists( xbmc.translatePath(destination) ): os.makedirs( xbmc.translatePath(destination) )
 	dprogress.create("EXTRACTING","","Initializing")
-	zippath = destination
+	zippath = xbmc.translatePath(destination)
 	dprogress.update(0,filename,"This can take some time, please be patient." )
 	extract.all(file, zippath, dprogress)
 	time.sleep(1)
 def clear_X():
 	try:
 		dprogress.create("CACHE","","Initializing")
-		for root, dirs, files in os.walk("X:\\", topdown=False):
+		for root, dirs, files in os.walk("X:/", topdown=False):
 			for name in files:
 				os.remove(os.path.join(root, name))
 			for name in dirs:
@@ -48,7 +49,7 @@ def clear_X():
 		pass
 # Used to check that you have internet access before letting you do anything.
 try:
-	urllib2.urlopen('http://www.pool.ntp.org', timeout=3)
+	urllib2.urlopen('http://www.xbmc-emustation.com', timeout=4)
 	home_url = 'http://www.xbmc-emustation.com/downloads/'
 	# args
 	try:
@@ -103,31 +104,49 @@ try:
 	# vars
 	if destination == "Emulator_Folder_Path":
 		if xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ): destination = xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
-		else: destination = 'Q:\\.emustation\\emulators\\'
+		else: destination = ""
 	if destination == "Roms_Folder_Path":
 		if xbmc.getCondVisibility( 'Skin.String(Custom_Roms_Path)' ): destination	= xbmc.getInfoLabel( 'Skin.String(Custom_Roms_Path)' )
-		else: destination	= 'Q:\\.emustation\\roms\\'
+		else: destination = ""
 	if destination == "Media_Folder_Path":
 		if xbmc.getCondVisibility( 'Skin.String(Custom_Media_Path)' ): destination = xbmc.getInfoLabel( 'Skin.String(Custom_Media_Path)' )
-		else: destination = 'Q:\\.emustation\\media\\'
+		else: destination = ""
 	global allowcancellation
 	allowcancellation = 0
-	hashlibmd5 = hashlib.md5()
+	udhashlibmd5 = hashlib.md5()
+	dlhashlibmd5 = hashlib.md5()
 	hashlibsha1 = hashlib.sha1
 	extensions = [ 'zip' ]
-	download_path = 'X:\\downloads\\'
+	download_path = 'X:/downloads/'
+	update_path = 'Z:/temp/'
 	dlcmode = 0
-	# Download the check file to see if there is an update.
-	check_for_update( home_url + 'versions/URLDownloader.bin' )
-	with open( 'Q:\\.emustation\\scripts\\urldownloader\\version.bin', 'r') as verfile:
-		local_version = verfile.readline().rstrip()
-	with open( 'X:\\downloads\\URLDownloader.bin', 'r') as verfile:
-		version = verfile.readline().rstrip()
-	os.remove( 'X:\\downloads\\URLDownloader.bin' )
-	if version == local_version or filename == "URLDownloader.zip" or xbmc.getInfoLabel('Control.GetLabel(1)') == "Download Assets":
+	xmlinvalid = 0
+	urldinvalid = 0
+	# Download the check file to see if there is an update. Doing it this way speeds up the loading after you download 1 files ad the files are kept until a reboot.
+	if not os.path.isfile( 'Z:/temp/URLDownloader.bin' ):
+		check_for_update( home_url + 'versions/URLDownloader.bin' )
+		with open( working_directory + 'version.bin', 'r') as verfile:
+			local_version = verfile.readline().rstrip()
+		with open( 'Z:/temp/URLDownloader.bin', 'r') as verfile:
+			urldversion = verfile.readline().rstrip()
+		if int(local_version.replace(".","")) < int(urldversion.replace(".","")):
+			os.remove( 'Z:/temp/URLDownloader.bin' )
+			urldinvalid = 1
+	if not os.path.isfile( 'Z:/temp/DownloadList.bin' ):
+		check_for_update( home_url + 'versions/DownloadList.bin' )
+		with open( 'Z:/temp/DownloadList.bin', 'r') as verfile:
+			dlsversion = verfile.readline().rstrip()
+		with open( xbmc.translatePath('Special://skin/720p/_Script_URLDownloader.xml'), "rb") as updatefile:
+			udhashlibmd5.update( updatefile.read() )
+		if udhashlibmd5.hexdigest() != dlsversion:
+			os.remove( 'Z:/temp/DownloadList.bin' )
+			xmlinvalid = 1
+	# If hash doesn't match tell user to update, also if filename is the urldownloader.zip bypass.
+	if xmlinvalid == 0 and urldinvalid == 0 or filename == "URLDownloader.zip" or xbmc.getInfoLabel('Control.GetLabel(1)') == "Download Assets":
+		# This is here to fix compatibility issues with previous builds.
 		file = os.path.join(download_path,filename)
 		md5hashfile = file[:-4] + ".md5"
-		# Truncate the filename to look claner and also get the titleid for DLC installation.
+		# Truncate the filename to look cleaner and also get the titleid for DLC installation.
 		if keyboardmode == "DLC":
 			titleid = filename[-12:]; titleid = titleid[:-4]
 			filename = filename[:-13]+'.zip'
@@ -163,18 +182,10 @@ try:
 								dprogress.create("CHECKING CONSISTENCY","","Initializing")
 								while file_content:
 									dprogress.update(( percent * 100 ) / os.path.getsize( file ),"Calculating MD5 Hash","This can take some time, please be patient." )
-									hashlibmd5.update( file_content )
+									dlhashlibmd5.update( file_content )
 									file_content = inputfile.read(1024*1024)
 									percent = percent+1024*1024
-							if md5hash == hashlibmd5.hexdigest():
-								if filename == "Download Lists.zip":
-									if os.path.isdir( 'Q:\\default skin\\media\\urldownloader' ): shutil.rmtree( 'Q:\\default skin\\media\\urldownloader' )
-									if os.path.isfile( 'Q:\\default skin\\720p\\Custom_Downloader.xml' ): os.remove( 'Q:\\default skin\\720p\\Custom_Downloader.xml' )
-									if os.path.isfile( 'Q:\\default skin\\720p\\Includes_Downloader.xml' ): os.remove( 'Q:\\default skin\\720p\\Includes_Downloader.xml' )
-									for line in fileinput.input( os.path.join( 'Q:\\default skin\\720p\\includes.xml' ), inplace=1):
-										if line.strip().startswith('<include file="includes_downloader.xml"'):
-											line = '		<include file="_Script_URLDownloader_Includes.xml" />\n'
-										print line,
+							if md5hash == dlhashlibmd5.hexdigest():
 								extract_file( file )
 								os.remove( file )
 								if dlcmode:
@@ -189,9 +200,9 @@ try:
 											filecount = 1
 											countlist = 0
 											break
-									for folder, subfolder, file in os.walk('E:\\TDATA\\'+titleid):
+									for folder, subfolder, file in os.walk('E:/TDATA/'+titleid):
 										filecount += len(file)
-									for folder, subfolder, file in os.walk('E:\\TDATA\\'+titleid):
+									for folder, subfolder, file in os.walk('E:/TDATA/'+titleid):
 										for xbxfile in file:
 											xbxfile = xbxfile.lower()
 											if xbxfile == "contentmeta.xbx":
@@ -212,18 +223,17 @@ try:
 											dprogress.update(( countlist * 100 ) / filecount,"Signing ContextMeta.xbx","This can take some time, please be patient." )
 											countlist = countlist + 1
 								dprogress.close()
-								if filename == "XBMC-Emustation-update-files.zip" or filename == "XBMC-Emustation-test-build.zip" and os.path.isfile( 'Q:\\updater\\default.xbe'):
-									xbmc.executebuiltin('RunXBE(Q:\\updater\\default.xbe)')
-								elif filename == "Cache Formatter.zip" and os.path.isfile( 'Q:\\Cache Formatter\\default.xbe'):
-									xbmc.executebuiltin('RunXBE(Q:\\Cache Formatter\\default.xbe)')
-								elif filename == "URLDownloader.zip" and os.path.isdir( 'Q:\\system\\scripts\\urldownloader'):
-									xbmc.executebuiltin('RunScript(Q:\\system\\scripts\\autoexec.py)')
+								if filename == "XBMC-Emustation-update-files.zip" or filename == "XBMC-Emustation-test-build.zip" and os.path.isfile( xbmc.translatePath('Special://xbmc/updater/default.xbe') ):
+									xbmc.executebuiltin( 'RunXBE( ' + xbmc.translatePath( 'Special://xbmc/updater/default.xbe' ) + ')' )
+								elif filename == "Cache Formatter.zip" and os.path.isfile( xbmc.translatePath('Special://xbmc/Cache Formatter/default.xbe') ):
+									xbmc.executebuiltin( 'RunXBE( ' + xbmc.translatePath( 'Special://xbmc/Cache Formatter/default.xbe') + ')' )
+								elif filename == "URLDownloader.zip" and os.path.isdir( xbmc.translatePath('Special://xbmc/system/scripts/tmp/urldownloader') ):
+									xbmc.executebuiltin( 'RunScript( ' + xbmc.translatePath( 'Special://xbmc/system/scripts/autoexec.py') + ')' )
 								else:
 									dialog.ok("SUCCESS","",filename + " Installed")
-									if filename == "Download Lists.zip": xbmc.executebuiltin('ReloadSkin')
 							else:
 								dprogress.close()
-								dialog.ok("ERROR","MD5Hash Mismatch","Server Hash: " + md5hash,"Local Hash: " + hashlibmd5.hexdigest())
+								dialog.ok("ERROR","MD5Hash Mismatch","Server Hash: " + md5hash,"Local Hash: " + dlhashlibmd5.hexdigest())
 								os.remove( file )
 						except Exception as err:
 							print "Error 2:"; logging.error(traceback.format_exc())
@@ -241,7 +251,7 @@ try:
 			if keyboardmode == "": dialog.ok("ERROR","Missing required information.")
 	else:
 		xbmc.executebuiltin('Dialog.Close(1101,true)')
-		xbmcgui.Dialog().ok("UPDATE","Please update","[B]URLDownloader[/B] then the [B]Download Lists[/B]")
+		xbmcgui.Dialog().ok("UPDATE AVAILABLE","Please update the","[B]URLDownloader[/B]")
 except urllib2.URLError as err:
 	print "Error 3:"; logging.error(traceback.format_exc())
 	xbmc.executebuiltin('Dialog.Close(1101,true)')

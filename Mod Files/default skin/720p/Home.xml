@@ -1,6 +1,98 @@
 <window id="0">
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<controls>
+				<!-- Secret Passcode -->
+				<control type="button" id="19">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onfocus>SetFocus(9000)</onfocus>
+						<visible>!Skin.HasSetting(KioskMode)</visible>
+				</control>
+				<control type="button" id="19">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup>20</onup>
+						<ondown>9000</ondown>
+						<visible>Skin.HasSetting(KioskMode)</visible>
+				</control>
+				<control type="button" id="20">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup>21</onup>
+						<ondown>9000</ondown>
+				</control>
+				<control type="button" id="21">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup>9000</onup>
+						<ondown>22</ondown>
+				</control>
+				<control type="button" id="22">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup>9000</onup>
+						<ondown>23</ondown>
+				</control>
+				<control type="button" id="23">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>24</onleft>
+						<onright>9000</onright>
+						<onup>9000</onup>
+						<ondown>9000</ondown>
+				</control>
+				<control type="button" id="24">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>25</onleft>
+						<onright>9000</onright>
+						<onup>9000</onup>
+						<ondown>9000</ondown>
+				</control>
+				<control type="button" id="25">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>9000</onleft>
+						<onright>26</onright>
+						<onup>9000</onup>
+						<ondown>9000</ondown>
+				</control>
+				<control type="button" id="26">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onleft>9000</onleft>
+						<onright>27</onright>
+						<onup>9000</onup>
+						<ondown>9000</ondown>
+				</control>
+				<control type="button" id="27">
+						<description>Secret Code Button</description>
+						<posx>-5000</posx>
+						<label>-</label>
+						<onclick>Skin.Reset(KioskMode)</onclick>
+						<onclick>SetFocus(9000)</onclick>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup>9000</onup>
+						<ondown>9000</ondown>
+				</control>
 				<control type="button" id="9100">
 						<posx>-500</posx>
 						<onclick>-</onclick>
@@ -118,7 +210,7 @@
 										<onright>9000</onright>
 										<onup>-</onup>
 										<ondown>-</ondown>
-										<scrolltime>350</scrolltime>
+										<scrolltime>400</scrolltime>
 										<focusposition>1</focusposition>
 										<preloaditems>2</preloaditems>
 										<orientation>Horizontal</orientation>
@@ -803,7 +895,7 @@
 														<thumb>layouts/zxspectrum/art/logo.png</thumb>
 														<visible>Skin.HasSetting(zxspectrum_exists)</visible>
 												</item>
-												<item id="90">
+												<item id="74">
 														<label>Direct Launch Only</label>
 														<label2>customtile1</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -812,7 +904,7 @@
 														<thumb>$INFO[Skin.String(CustomHomeTile1Logo)]</thumb>
 														<visible>Skin.HasSetting(CustomHomeTile1Enabled)</visible>
 												</item>
-												<item id="91">
+												<item id="75">
 														<label>Direct Launch Only</label>
 														<label2>customtile2</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -821,7 +913,7 @@
 														<thumb>$INFO[Skin.String(CustomHomeTile2Logo)]</thumb>
 														<visible>Skin.HasSetting(CustomHomeTile2Enabled)</visible>
 												</item>
-												<item id="92">
+												<item id="76">
 														<label>Direct Launch Only</label>
 														<label2>customtile3</label2>
 														<onclick>SetFocus(9100)</onclick>
@@ -829,6 +921,24 @@
 														<icon>$INFO[Skin.String(CustomHomeTile3SystemArt)]</icon>
 														<thumb>$INFO[Skin.String(CustomHomeTile3Logo)]</thumb>
 														<visible>Skin.HasSetting(CustomHomeTile3Enabled)</visible>
+												</item>
+												<item id="77">
+														<label>Direct Launch Only</label>
+														<label2>customTile4</label2>
+														<onclick>SetFocus(9100)</onclick>
+														<onclick>RunXBE($INFO[Skin.String(CustomHomeTile4Xbe)])</onclick>
+														<icon>$INFO[Skin.String(CustomHomeTile4SystemArt)]</icon>
+														<thumb>$INFO[Skin.String(CustomHomeTile4Logo)]</thumb>
+														<visible>Skin.HasSetting(CustomHomeTile4Enabled)</visible>
+												</item>
+												<item id="78">
+														<label>Direct Launch Only</label>
+														<label2>customTile5</label2>
+														<onclick>SetFocus(9100)</onclick>
+														<onclick>RunXBE($INFO[Skin.String(CustomHomeTile5Xbe)])</onclick>
+														<icon>$INFO[Skin.String(CustomHomeTile5SystemArt)]</icon>
+														<thumb>$INFO[Skin.String(CustomHomeTile5Logo)]</thumb>
+														<visible>Skin.HasSetting(CustomHomeTile5Enabled)</visible>
 												</item>
 										</content>
 								</control>

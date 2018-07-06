@@ -115,19 +115,19 @@
 	<width>420</width>
 	<height>418</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 	<include>EmulatorScrollFade</include>
 	<visible>!Player.HasVideo</visible>
 </control>
 <!-- Screenshot Image -->
-<control type="image">
+<control type="largeimage">
 	<posx>948</posx>
 	<posy>251</posy>
 	<width>305</width>
 	<height>196</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Skin.String(Custom_Media_Path)]$INFO[Skin.String(emuname)]/screenshots/$INFO[Container(9000).listitem.label].png</texture>
+	<texture fallback="layouts/art/no_thumbnail.png">[Media_Path]\screenshots\$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 	<include>EmulatorScrollFade</include>
 </control>

@@ -28,12 +28,12 @@ Echo: & Echo: & Echo: & Echo   Please wait...
 (
 XCopy /s /e /i /h /r /y "Mod Files" "%foldername%"
 XCopy /s /i /h /r /y "Emu xbe files" "%foldername%\.emustation\emulators"
-Echo:>"%foldername%\system\Faster_Game_Loading.bin"
 del /q /s "%foldername%\.emustation\emulators\*.bat"
 del /q /s "%foldername%\.emustation\emulators\place emulators files in here"
 del /q "%foldername%\.emustation\emulators\*.info"
 rd /q /s "%foldername%\.emustation\scripts\not used"
 copy /y "New XBMC xbe\default.xbe" "%foldername%\default.xbe"
+copy /y "New XBMC xbe\default.xbe" "Other\update build\updater\default.xbe"
 del /q /s "%foldername%\system\userdata\guisettings.xml"
 rd /q /s "%foldername%\.emustation\roms"
 rd /q /s "%foldername%\.emustation\media"
@@ -41,15 +41,19 @@ rd /q /s "%foldername%\default skin\media\Use for custom home layouts"
 )
 copy /y "Changes.txt" "%foldername%"
 if exist "..\Other\build for release" (
-	Call Other\Tools\repl.bat "XBMC-Emustation 1.0.000" "XBMC-Emustation 1.0.%daytotal%" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
+	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation 1.1.%daytotal%" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
 	Del "%foldername%\default skin\language\English\strings.po"
 	rename "%foldername%\default skin\language\English\strings.tmp" "strings.po"
+	Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"
+	copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\default skin\720p\Custom_Changes.xml"
+	del /q "%foldername%\changes.tmp"
 )
 CD %foldername%\
+del /Q "Changes.txt"
 "C:\Program Files\7-Zip\7z.exe" a "..\Other\update build\updater\Update Files\%foldername%.zip" "*" -mx=7 -r -y
 "C:\Program Files\7-Zip\7z.exe" a "..\XBMC-Emustation-update-files.zip" "..\Other\update build\*" -mx=7 -r -y
 del /Q "..\Other\update build\updater\Update Files\%foldername%.zip"
-del /Q "Changes.txt"
+del /Q "..\Other\update build\updater\default.xbe"
 cls
 Echo: & Echo:
 Echo  Just overwrite your existing install of XBMC-Emustation

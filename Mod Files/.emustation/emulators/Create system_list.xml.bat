@@ -101,13 +101,14 @@ if "%%~na"=="xbox" (
 		Echo 				^<onclick^>RunScript^(Special://xbmc/.emustation/scripts/menu_loader.py^)^</onclick^>
 		Echo 				^<icon^>layouts/%%~na/art/system_art.png^</icon^>
 		Echo 				^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
+		Echo 				^<visible^>IntegerGreaterThan^(Skin.String^(xbox_games^),0^)^</visible^>
 		Echo 		^</item^>
 	)>>"system_list.xml"
 
 	Set /a count+=1
 )
 (
-	Echo 		^<item id^="90"^>
+	Echo 		^<item id^="!count!"^>
 	Echo 				^<label^>Direct Launch Only^</label^>
 	Echo 				^<label2^>customtile1^</label2^>
 	Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
@@ -116,7 +117,8 @@ if "%%~na"=="xbox" (
 	Echo 				^<thumb^>^$INFO^[Skin.String^(CustomHomeTile1Logo^)^]^</thumb^>
 	Echo 				^<visible^>Skin.HasSetting^(CustomHomeTile1Enabled^)^</visible^>
 	Echo 		^</item^>
-	Echo 		^<item id^="91"^>
+	Set /a count+=1
+	Echo 		^<item id^="!count!"^>
 	Echo 				^<label^>Direct Launch Only^</label^>
 	Echo 				^<label2^>customtile2^</label2^>
 	Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
@@ -125,7 +127,8 @@ if "%%~na"=="xbox" (
 	Echo 				^<thumb^>^$INFO^[Skin.String^(CustomHomeTile2Logo^)^]^</thumb^>
 	Echo 				^<visible^>Skin.HasSetting^(CustomHomeTile2Enabled^)^</visible^>
 	Echo 		^</item^>
-	Echo 		^<item id^="92"^>
+	Set /a count+=1
+	Echo 		^<item id^="!count!"^>
 	Echo 				^<label^>Direct Launch Only^</label^>
 	Echo 				^<label2^>customtile3^</label2^>
 	Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
@@ -133,6 +136,26 @@ if "%%~na"=="xbox" (
 	Echo 				^<icon^>^$INFO^[Skin.String^(CustomHomeTile3SystemArt^)^]^</icon^>
 	Echo 				^<thumb^>^$INFO^[Skin.String^(CustomHomeTile3Logo^)^]^</thumb^>
 	Echo 				^<visible^>Skin.HasSetting^(CustomHomeTile3Enabled^)^</visible^>
+	Echo 		^</item^>
+	Set /a count+=1
+	Echo 		^<item id^="!count!"^>
+	Echo 				^<label^>Direct Launch Only^</label^>
+	Echo 				^<label2^>customTile4^</label2^>
+	Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
+	Echo 				^<onclick^>RunXBE^(^$INFO^[Skin.String^(CustomHomeTile4Xbe^)^]^)^</onclick^>
+	Echo 				^<icon^>^$INFO^[Skin.String^(CustomHomeTile4SystemArt^)^]^</icon^>
+	Echo 				^<thumb^>^$INFO^[Skin.String^(CustomHomeTile4Logo^)^]^</thumb^>
+	Echo 				^<visible^>Skin.HasSetting^(CustomHomeTile4Enabled^)^</visible^>
+	Echo 		^</item^>
+	Set /a count+=1
+	Echo 		^<item id^="!count!"^>
+	Echo 				^<label^>Direct Launch Only^</label^>
+	Echo 				^<label2^>customTile5^</label2^>
+	Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
+	Echo 				^<onclick^>RunXBE^(^$INFO^[Skin.String^(CustomHomeTile5Xbe^)^]^)^</onclick^>
+	Echo 				^<icon^>^$INFO^[Skin.String^(CustomHomeTile5SystemArt^)^]^</icon^>
+	Echo 				^<thumb^>^$INFO^[Skin.String^(CustomHomeTile5Logo^)^]^</thumb^>
+	Echo 				^<visible^>Skin.HasSetting^(CustomHomeTile5Enabled^)^</visible^>
 	Echo 		^</item^>
 )>>"system_list.xml"
 

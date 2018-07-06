@@ -71,7 +71,7 @@
 	<texture background="true">layouts/art/help_background.png</texture>
 </control>
 <!-- Context Button Overlay -->
-<include>ContextButtonsXBE</include>
+<include>ContextButtonsEmulators</include>
 <include>ContextButtonsVideo</include>
 <!-- Synopsis Area -->
 <control type="image">
@@ -83,7 +83,7 @@
 	<aspectratio>stretch</aspectratio>
 	<colordiffuse>FF000000</colordiffuse>
 	<texture>background diffuse.png</texture>
-	<animation effect="fade" start="25" end="25" time="0" condition="true">Conditional</animation>
+	<animation effect="fade" start="75" end="75" time="0" condition="true">Conditional</animation>
 </control>
 <control type="image">
 	<posx>692</posx>
@@ -121,19 +121,55 @@
 	<colordiffuse>FF77BA3F</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
-<!-- Fanart Image -->
 <control type="image">
-	<description>fanart</description>
+	<posx>696</posx>
+	<posy>409</posy>
+	<width>502</width>
+	<height>46</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF77BA3F</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<animation effect="fade" start="25" end="25" time="0" condition="true">Conditional</animation>
+</control>
+<!-- Full name, publisher info eg... -->
+<control type="textbox">
+	<posx>696</posx>
+	<posy>410</posy>
+	<width>502</width>
+	<height>44</height>
+	<font>size_17</font>
+	<textcolor>FF969696</textcolor>
+	<align>center</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="5000" time="2000" repeat="1000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
+</control>
+<!-- Game description (Synopsis) -->
+<control type="textbox">
+	<posx>700</posx>
+	<posy>455</posy>
+	<width>496</width>
+	<height>192</height>
+	<font>size_15</font>
+	<textcolor>FF969696</textcolor>
+	<align>center</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="5000" time="1500" repeat="5000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
+</control>
+<!-- Video Window Background -->
+<control type="image">
+	<description>video preview window background</description>
 	<posx>696</posx>
 	<posy>409</posy>
 	<width>502</width>
 	<height>239</height>
-	<aspectratio>scale</aspectratio>
-	<colordiffuse>FFFFFFFF</colordiffuse>
-	<texture background="true">$INFO[listitem.path,,fanart.jpg]</texture>
-	<fadetime>FanartCrossfadeTime</fadetime>
-	<include>XbeScrollFade</include>
-	<visible>!Player.HasVideo</visible>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF000000</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<visible>Player.HasVideo</visible>
 </control>
 <!-- Video Window -->
 <control type="videowindow">
@@ -153,20 +189,20 @@
 	<width>457</width>
 	<height>320</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
-	<include>XbeScrollFade</include>
+	<include>EmulatorScrollFade</include>
 </control>
 <!-- list -->
-<control type="list" id="50">
+<control type="list" id="9000">
 	<posx>27</posx>
 	<posy>104</posy>
 	<width>582</width>
 	<height>570</height>
 	<onleft>PageUp</onleft>
 	<onright>PageDown</onright>
-	<onup>50</onup>
-	<ondown>50</ondown>
+	<onup>9000</onup>
+	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
 	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="582">

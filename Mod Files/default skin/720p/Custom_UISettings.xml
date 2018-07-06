@@ -57,13 +57,21 @@
 								<control type="radiobutton" id="5">
 										<posx>0</posx>
 										<posy>0</posy>
+										<label>$LOCALIZE[32020]</label>
+										<include>MenuButtonCommonValues</include>
+										<onclick>Skin.ToggleSetting(updatecheck)</onclick>
+										<selected>!Skin.HasSetting(updatecheck)</selected>
+								</control>
+								<control type="radiobutton" id="6">
+										<posx>0</posx>
+										<posy>0</posy>
 										<label>$LOCALIZE[32026]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.ToggleSetting(introenabled)</onclick>
 										<onclick>RunScript( Special://xbmc/.emustation/scripts/disable_splash.py )</onclick>
 										<selected>Skin.HasSetting(introenabled)</selected>
 								</control>
-								<control type="button" id="6">
+								<control type="button" id="7">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label> &gt; $LOCALIZE[424] $LOCALIZE[561]</label>
@@ -72,7 +80,7 @@
 										<onclick>Skin.SetFile(selectedintrofile,.avi|.mp4|.wmv|.xmv,Special://xbmc/)</onclick>
 										<visible>Skin.HasSetting(introenabled)</visible>
 								</control>
-								<control type="radiobutton" id="7">
+								<control type="radiobutton" id="8">
 										<posx>0</posx>
 										<posy>0</posy>
 										<label>$LOCALIZE[32030]</label>
@@ -81,13 +89,14 @@
 										<onclick>Skin.ToggleSetting(lastromlist)</onclick>
 										<selected>Skin.HasSetting(lastromlist)</selected>
 								</control>
-								<control type="radiobutton" id="8">
+								<control type="radiobutton" id="9">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>$LOCALIZE[32031]</label>
+										<label>$LOCALIZE[32018]</label>
+										<label2>-</label2>
 										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.ToggleSetting(resourcesvideo)</onclick>
-										<selected>Skin.HasSetting(resourcesvideo)</selected>
+										<onclick>RunScript( Special://xbmc/.emustation/scripts/kioskmode.py )</onclick>
+										<selected>Skin.HasSetting(KioskMode)</selected>
 								</control>
 						</control>
 				</control>

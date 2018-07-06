@@ -5920,10 +5920,13 @@ void CApplication::InitDirectoriesXbox()
 {  
   // Set installation path. Use Q as ie. F doesn't exist yet!!!
   CStdString install_path = "Q:\\";
+  // Get absolute path for XBMC
+  CStdString strABPath;
+  CUtil::GetHomePath(strABPath);
 
   // check logpath
   CStdString strLogFile, strLogFileOld;
-  g_settings.m_logFolder = "Q:\\system\\";
+  g_settings.m_logFolder = "Q:\\system";
   URIUtils::AddSlashAtEnd(g_settings.m_logFolder);
   strLogFile.Format("%sxbmc.log", g_settings.m_logFolder);
   strLogFileOld.Format("%sxbmc.old.log", g_settings.m_logFolder);
@@ -5935,6 +5938,8 @@ void CApplication::InitDirectoriesXbox()
   // map our special drives to the correct drive letter
   CSpecialProtocol::SetXBMCPath(install_path);
   CSpecialProtocol::SetHomePath(install_path);
+  CSpecialProtocol::SetRootPath(strABPath);
+  CSpecialProtocol::SetURLDownloaderPath("Q:\\.emustation\\scripts\\urldownloader\\");
   CSpecialProtocol::SetTempPath("Z:\\");
 
   // First profile is always the Master Profile

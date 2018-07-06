@@ -17,24 +17,17 @@ except:
 	Update_CUT_Games = "0"
 	Update_XBE_Games = "1"
 #####	Sets paths.
-# Gets current XBMC-Emustation directory.
-CharCount = 100 # How many characters you want after 'The executable running is: '
-with open( xbmc.translatePath( "special://xbmc/system/" ) + "xbmc.log", "r" ) as XBMCLOG:
-	for line in XBMCLOG:
-		left,found,right = line.partition("The executable running is: ")
-		if found:
-			Working_Directory		= ( right[:CharCount] )
-			Root_Directory       	= os.path.dirname( Working_Directory ) + '\\'
-			if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
-				Emulator_Folder_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
-			else:
-				Emulator_Folder_Path		= Root_Directory + '_emulators\\'
-			Game_Directories		= [ "E:\\Games\\","E:\\Games1\\","E:\\Games2\\","F:\\Games\\","F:\\Games1\\","F:\\Games2\\","G:\\Games\\","G:\\Games1\\","G:\\Games2\\" ]
-			Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\" ]
-			MyPrograms6_db			= xbmc.translatePath( "special://profile/database/MyPrograms6.db" )
-			ThumbDirectory			= xbmc.translatePath( "special://profile/thumbnails/programs/" )
-			Temp_Profile_Directory	= xbmc.translatePath( "special://profile/thumbnails/temp/" )
-			Sub_Directories			= [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f" ]
+Root_Directory 	= xbmc.translatePath("Special://root/")
+if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
+	Emulator_Folder_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
+else:
+	Emulator_Folder_Path		= Root_Directory + '_emulators\\'
+Game_Directories		= [ "E:\\Games\\","E:\\Games1\\","E:\\Games2\\","F:\\Games\\","F:\\Games1\\","F:\\Games2\\","G:\\Games\\","G:\\Games1\\","G:\\Games2\\" ]
+Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\" ]
+MyPrograms6_db			= xbmc.translatePath( "special://profile/database/MyPrograms6.db" )
+ThumbDirectory			= xbmc.translatePath( "special://profile/thumbnails/programs/" )
+Temp_Profile_Directory	= xbmc.translatePath( "special://profile/thumbnails/temp/" )
+Sub_Directories			= [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f" ]
 ###########
 ## Cleanup
 if os.path.isdir( Temp_Profile_Directory ): shutil.rmtree( Temp_Profile_Directory )

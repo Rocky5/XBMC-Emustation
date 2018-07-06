@@ -39,56 +39,69 @@
 	<texture>layouts/art/help_background.png</texture>
 </control>
 <!-- Context Button Overlay -->
-<include>ContextButtonsXBE</include>
+<include>ContextButtonsEmulators</include>
 <include>ContextButtonsVideo</include>
-<!-- Fanart Image -->
-<control type="image">
-	<description>right bar</description>
-	<posx>0</posx>
-	<posy>115</posy>
-	<width>1280</width>
-	<height>558</height>
-	<aspectratio scalediffuse="true">scale</aspectratio>
-	<colordiffuse>10FFFFFF</colordiffuse>
-	<texture background="true" diffuse="background diffuse.png">$INFO[listitem.path,,fanart.jpg]</texture>
-	<fadetime>FanartCrossfadeTime</fadetime>
-	<visible>!Player.HasVideo</visible>
-	<include>XbeScrollFade</include>
+<!-- Full name, publisher info eg... -->
+<control type="label">
+	<posx>679</posx>
+	<posy>459</posy>
+	<width>595</width>
+	<height>50</height>
+	<font>size_13</font>
+	<textcolor>FF969696</textcolor>
+	<align>left</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
 </control>
-<!-- thumbnail image -->
+<!-- Game description (Synopsis) -->
+<control type="textbox">
+	<posx>679</posx>
+	<posy>537</posy>
+	<width>595</width>
+	<height>114</height>
+	<font>size_13</font>
+	<textcolor>FF969696</textcolor>
+	<align>left</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
+</control>
+<!-- Thumbnail Image -->
 <control type="image">
-	<posx>727</posx>
-	<posy>159</posy>
-	<width>450</width>
-	<height>450</height>
+	<posx>679</posx>
+	<posy>131</posy>
+	<width>595</width>
+	<height>314</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
-	<include>XbeScrollFade</include>
-	<visible allowhiddenfocus="true">!Player.HasVideo</visible>
+	<include>EmulatorScrollFade</include>
+	<visible>!Player.HasVideo</visible>
 </control>
 <!-- Video Window -->
 <control type="videowindow">
 	<description>video preview window</description>
-	<posx>0</posx>
-	<posy>115</posy>
-	<width>1280</width>
-	<height>558</height>
+	<posx>679</posx>
+	<posy>131</posy>
+	<width>595</width>
+	<height>314</height>
 	<aspectratio>keep</aspectratio>
 	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
 </control>
 <!-- List Control -->
-<control type="list" id="50">
-	<visible allowhiddenfocus="true">!Player.HasVideo</visible>
+<control type="list" id="9000">
 	<posx>27</posx>
 	<posy>124</posy>
 	<width>626</width>
 	<height>540</height>
 	<onleft>PageUp</onleft>
 	<onright>PageDown</onright>
-	<onup>50</onup>
-	<ondown>50</ondown>
+	<onup>9000</onup>
+	<ondown>9000</ondown>
 	<viewtype label="List">List</viewtype>
 	<preloaditems>2</preloaditems>
 	<itemlayout height="30" width="626">
@@ -127,14 +140,6 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
-		</control>
-		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>5</width>
-			<height>30</height>
-			<aspectratio>stretch</aspectratio>
-			<texture>$INFO[listitem.overlay]</texture>
 		</control>
 	</focusedlayout>
 </control>

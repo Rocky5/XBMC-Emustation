@@ -18,8 +18,18 @@
 								<posx>320</posx>
 								<posy>108</posy>
 								<width>640</width>
+								<height>221</height>
+								<texture border="20,20,20,20">menu_back.png</texture>
+								<visible>Skin.HasSetting(KioskMode)</visible>
+						</control>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
 								<height>421</height>
 								<texture border="20,20,20,20">menu_back.png</texture>
+								<visible>!Skin.HasSetting(KioskMode)</visible>
 						</control>
 						<control type="label">
 								<description>heading label</description>
@@ -41,6 +51,7 @@
 								<align>center</align>
 								<label>$LOCALIZE[39999]</label>
 								<include>MenuFolderButtonCommonValues</include>
+								<animation effect="slide" start="0,0" end="0,-200" time="0" condition="Skin.HasSetting(KioskMode)">Conditional</animation>
 						</control>
 						<!-- Main Menu -->
 						<control type="grouplist" id="9000">
@@ -59,6 +70,7 @@
 										<label>$LOCALIZE[32005]</label>
 										<include>MenuFolderButtonCommonValues</include>
 										<onclick>RunScript(Special://xbmc/.emustation/scripts/menu_loader.py)</onclick>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="2">
 										<posx>0</posx>
@@ -66,6 +78,7 @@
 										<label>$LOCALIZE[32001]</label>
 										<include>MenuFolderButtonCommonValues</include>
 										<onclick>ActivateWindow(1112)</onclick>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="3">
 										<posx>0</posx>
@@ -73,6 +86,7 @@
 										<label>$LOCALIZE[32002]</label>
 										<include>MenuFolderButtonCommonValues</include>
 										<onclick>ActivateWindow(1113)</onclick>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="4">
 										<posx>0</posx>
@@ -80,6 +94,7 @@
 										<label>$LOCALIZE[32003]</label>
 										<include>MenuFolderButtonCommonValues</include>
 										<onclick>ActivateWindow(1114)</onclick>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="5">
 										<posx>0</posx>

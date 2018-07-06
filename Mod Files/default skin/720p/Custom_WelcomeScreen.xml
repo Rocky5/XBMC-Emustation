@@ -123,7 +123,7 @@
 								<align>center</align>
 								<aligny>-</aligny>
 								<font>size_17</font>
-								<label>[UPPERCASE]png images and preview videos are placed in the subdirectories inside the [B].emustation\media\&lt;system&gt;\[/B] directories. You match the image/video to the rom name.[CR][CR]image example:[CR]Mario world.zip = mario world.png[/UPPERCASE]</label>
+								<label>[UPPERCASE]png images and preview videos are placed in the subdirectories inside the [B].emustation\media\&lt;system&gt;\[/B] directories. You match the image/video to the rom name.[CR][CR]image example:[CR]Mario world.zip = mario world.jpg[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 								<visible>Control.HasFocus(4)</visible>
 								<animation effect="fade" time="200">visible</animation>
@@ -160,7 +160,7 @@
 										<texturenofocus>-</texturenofocus>
 										<onclick>Skin.SetBool(firstrun)</onclick>
 										<onclick>ReplaceWindow(guicalibration)</onclick>
-										<onclick>RunScript(Special://xbmc/.emustation/scripts/scanner.py,scan_emus,0,scan_xbes,silent_mode)</onclick>
+										<onclick>RunScript(Special://xbmc/.emustation/scripts/refresh_carousel.py,0,0,scan_xbes,silent_mode)</onclick>
 								</control>
 						</control>
 						<!-- <control type="grouplist"> -->

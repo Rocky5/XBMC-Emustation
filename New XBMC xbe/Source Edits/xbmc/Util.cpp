@@ -1270,7 +1270,7 @@ bool CUtil::GetXBEDescription(const CStdString& strFileName, CStdString& strDesc
     return false;
   }
   fread(&HS, 1, sizeof(HS), hFile);
-  fseek(hFile, HS.XbeHeaderSize, SEEK_SET);
+  fseek(hFile, HS.XbeCertificate, SEEK_SET);
   fread(&HC, 1, sizeof(HC), hFile);
   fclose(hFile);
 
@@ -1297,9 +1297,9 @@ bool CUtil::SetXBEDescription(const CStdString& strFileName, const CStdString& s
 
   FILE* hFile = fopen(strFileName.c_str(), "r+b");
   fread(&HS, 1, sizeof(HS), hFile);
-  fseek(hFile, HS.XbeHeaderSize, SEEK_SET);
+  fseek(hFile, HS.XbeCertificate, SEEK_SET);
   fread(&HC, 1, sizeof(HC), hFile);
-  fseek(hFile,HS.XbeHeaderSize, SEEK_SET);
+  fseek(hFile,HS.XbeCertificate, SEEK_SET);
 
   // The XBE title is stored in WCHAR (UTF16)
 
@@ -2751,6 +2751,8 @@ CStdString CUtil::TranslateSpecialSource(const CStdString &strSpecial)
   {
     if (strSpecial.Left(5).Equals("$HOME"))
       URIUtils::AddFileToFolder("special://home/", strSpecial.Mid(5), strReturn);
+    if (strSpecial.Left(5).Equals("$ROOT"))
+      URIUtils::AddFileToFolder("special://root/", strSpecial.Mid(5), strReturn);
     else if (strSpecial.Left(10).Equals("$SUBTITLES"))
       URIUtils::AddFileToFolder("special://subtitles/", strSpecial.Mid(10), strReturn);
     else if (strSpecial.Left(9).Equals("$USERDATA"))

@@ -61,6 +61,7 @@
 						<Y>RunScript(Special://XBMC/.emustation/scripts/direct_launch_emulator.py)</Y>
 						<start>XBMC.ActivateWindow(1111)</start>
 						<back>SetFocus(9999)</back>
+						<black>SetFocus(19)</black>
 				</gamepad>
 		</Home>
 		<MyPrograms>
@@ -101,7 +102,7 @@
 		<FullscreenVideo>
 				<gamepad>
 						<A>highlight</A>
-						<B>Fullscreen</B>
+						<B>Stop</B>
 						<Y>highlight</Y>
 						<black>CodecInfo</black>
 						<white>highlight</white>

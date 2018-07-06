@@ -135,7 +135,7 @@ void CSplash::Process()
 
 bool CSplash::Start()
 {
-  if (CFile::Exists("special://xbmc/system/nosplash.bin"))
+  if (CFile::Exists("special://xbmc/system/toggles/no splash.enabled"))
   {
     return false;
   }

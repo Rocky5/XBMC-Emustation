@@ -10,17 +10,20 @@ if str( xbmc.getCondVisibility( 'Skin.String(Custom_Media_Path)' ) ) == "1":
 	Media_Folder_Path		= xbmc.getInfoLabel( 'Skin.String(Custom_Media_Path)' )
 else:
 	Media_Folder_Path		= 'Q:\\.emustation\\media\\'
-
-if xbmc.getInfoLabel('Skin.String(emuname)') == "xbox" or xbmc.getInfoLabel('Skin.String(emuname)') == "ports":
+Current_System = xbmc.getInfoLabel('Skin.String(emuname)')
+if Current_System == "ports":
 	Focus		= "50"
 	Path		= xbmc.getInfoLabel('listitem.path')
-	if xbmc.getCondVisibility( 'Skin.HasSetting(resourcesvideo)' ): Path = os.path.join( Path, '_resources\\media\\')
+	#if xbmc.getCondVisibility( 'Skin.HasSetting(resourcesvideo)' ): Path = os.path.join( Path, '_resources\\media\\')
 	FileName	= "Preview"
 else:
 	Focus		= "9000"
-	Path		= os.path.join( Media_Folder_Path, xbmc.getInfoLabel('Skin.String(emuname)'), 'videos' )
+	if Current_System == "xbox":
+		Path	= os.path.join( Media_Folder_Path, Current_System, 'videos', os.path.basename(os.path.normpath(xbmc.getInfoLabel('Container(9000).ListItem.Thumb')))[:-4] )
+	else:
+		Path	= os.path.join( Media_Folder_Path, Current_System, 'videos' )
 try:
-	if Focus == "9000": FileName = xbmc.getInfoLabel('Container(9000).ListItem.Label2').split('Filename:[/B]')[1][2:-4]
+	if Focus == "9000" and not Current_System == "xbox": FileName = xbmc.getInfoLabel('Container(9000).ListItem.Label2').split('Filename:[/B]')[1][5:-4]
 	if int(Current_Memory) >= 8:
 		if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 			VideoFile = ""
@@ -28,8 +31,12 @@ try:
 				xbmc.Player().stop()
 				xbmc.executebuiltin( 'SetFocus(' + Focus + ')' )
 			else:
-				for Files in glob.glob( os.path.join( Path, FileName + ".*") ):
-					VideoFile = Files
+				if Current_System == "xbox":
+					for Files in glob.glob( Path+".*" ):
+						VideoFile = Files
+				else:
+					for Files in glob.glob( os.path.join( Path, FileName + ".*") ):
+						VideoFile = Files
 				if os.path.isfile( VideoFile ):
 					if VideoFile.endswith("xmv") or VideoFile.endswith("mp4"):
 						player = xbmc.Player( xbmc.PLAYER_CORE_DVDPLAYER )

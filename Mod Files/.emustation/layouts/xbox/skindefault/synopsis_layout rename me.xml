@@ -1,0 +1,1713 @@
+<!-- Background Images -->
+<control type="image">
+	<description>background</description>
+	<posx>0</posx>
+	<posy>0</posy>
+	<width>1280</width>
+	<height>720</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF97999B</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- Top Underlay Image -->
+<control type="image">
+	<description>top bar</description>
+	<posx>0</posx>
+	<posy>0</posy>
+	<width>1280</width>
+	<height>115</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FFC8CACB</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- System Log -->
+<control type="image">
+	<description>logo</description>
+	<posx>30</posx>
+	<posy>20</posy>
+	<width>490</width>
+	<height>72</height>
+	<aspectratio align="left">keep</aspectratio>
+	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
+</control>
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FFC5C6C7</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- Fanart -->
+<control type="largeimage">
+	<posx>0</posx>
+	<posy>115</posy>
+	<width>1280</width>
+	<height>558</height>
+	<aspectratio>scale</aspectratio>
+	<colordiffuse>10FFFFFF</colordiffuse>
+	<texture>[Media_Path]\fanart\$INFO[Container(9000).listitem.thumb]</texture>
+	<fadetime>FanartCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
+	<visible>!Player.HasVideo</visible>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsEmulators</include>
+<include>ContextButtonsVideo</include>
+<!-- Video Window Background -->
+<control type="image">
+	<description>video preview window background</description>
+	<posx>0</posx>
+	<posy>115</posy>
+	<width>1280</width>
+	<height>558</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF97999B</colordiffuse>
+	<texture>background diffuse.png</texture>
+	<visible>Player.HasVideo</visible>
+</control>
+<!-- Video Window -->
+<control type="videowindow">
+	<description>video preview window</description>
+	<posx>0</posx>
+	<posy>115</posy>
+	<width>1280</width>
+	<height>558</height>
+	<aspectratio>keep</aspectratio>
+	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
+	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
+</control>
+<!-- List Control -->
+<control type="group">
+	<control type="group">
+		<posx>-8</posx>
+		<posy>-140</posy>
+		<animation reversible="false" type="WindowOpen">
+			<effect delay="1000" end="100" start="0" time="100" type="fade" />
+			<effect delay="1000" easing="out" end="0,0" start="0,250" time="800" tween="back" type="slide" />
+		</animation>
+		<animation reversible="false" type="Visible">
+			<effect delay="300" end="100" start="0" time="100" type="fade" />
+			<effect delay="300" easing="out" end="0,0" start="0,250" time="800" tween="back" type="slide" />
+		</animation>
+		<animation reversible="false" type="Hidden">
+			<effect delay="100" end="0" start="100" time="100" type="fade" />
+			<effect delay="100" easing="out" end="0,250" start="0,0" time="250" tween="sine" type="slide" />
+		</animation>
+		<animation reversible="false" type="WindowClose">
+			<effect delay="300" end="0" start="100" time="100" type="fade" />
+			<effect delay="100" easing="out" end="0,250" start="0,0" time="500" tween="sine" type="slide" />
+		</animation>
+		<control type="image">
+			<posx>20</posx>
+			<posy>16</posy>
+			<width>719</width>
+			<height>181</height>
+			<aspectratio>stretch</aspectratio>
+			<texture>views/poster/posterview/infobubble.png</texture>
+			<colordiffuse>FFFFFFFF</colordiffuse>
+		</control>
+		<control type="image">
+			<posx>50</posx>
+			<posy>73</posy>
+			<width>660</width>
+			<height>1</height>
+			<aspectratio>stretch</aspectratio>
+			<texture>views/poster/posterview/line.png</texture>
+			<colordiffuse>20ffffff</colordiffuse>
+		</control>
+		<control type="label">
+			<posx>45</posx>
+			<posy>35</posy>
+			<width>1194</width>
+			<height>512</height>
+			<font>size_30</font>
+			<textcolor>FF282A2B</textcolor>
+			<selectedcolor>FFEDEDED</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[B]$INFO[Container(9000).ListItem.Label][/B]</label>
+			<animation delay="0" effect="fade" end="100" start="0" time="500">WindowOpen</animation>
+			<animation delay="0" effect="fade" end="100" start="0" time="500">Visible</animation>
+			<animation delay="0" effect="fade" end="0" start="100" time="50">Hidden</animation>
+			<animation delay="0" effect="fade" end="0" start="100" time="50">WindowClose</animation>
+			<visible>!Player.HasVideo</visible>
+		</control>
+		<control type="textbox">
+			<posx>45</posx>
+			<posy>310</posy>
+			<width>1194</width>
+			<height>80</height>
+			<font>size_16</font>
+			<textcolor>FF3C3D3E</textcolor>
+			<align>left</align>
+			<scrolltime>200</scrolltime>
+			<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+			<label>[UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE]</label>
+			<animation delay="0" effect="fade" end="100" start="0" time="500">WindowOpen</animation>
+			<animation delay="0" effect="fade" end="100" start="0" time="500">Visible</animation>
+			<animation delay="0" effect="fade" end="0" start="100" time="50">Hidden</animation>
+			<animation delay="0" effect="fade" end="0" start="100" time="50">WindowClose</animation>
+			<visible>!Player.HasVideo</visible>
+		</control>
+	</control>
+	<control type="group">
+		<posx>10</posx>
+		<posy>45</posy>
+		<animation center="auto" effect="zoom" end="84">WindowOpen</animation>
+		<animation center="auto" effect="zoom" end="84">WindowClose</animation>
+		<control id="5801" type="group">
+			<visible>Container(9000).OnPrevious + Control.IsVisible(9000)</visible>
+			<animation effect="slide" end="0,0" reversible="false" time="250">Hidden</animation>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="0" start="100" time="250" type="fade" />
+					<effect end="32,0" start="0,0" time="250" type="slide" />
+				</animation>
+				<posx>1154</posx>
+				<posy>332</posy>
+				<width>144</width>
+				<height>337</height>
+				<control type="group">
+					<control type="image">
+						<posx>18</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posx>18</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(9).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>144</width>
+						<height>235</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="1154,332,144,337" reversible="false" start="1078,312,173,405" time="250">Hidden</animation>
+				<posx>1078</posx>
+				<posy>312</posy>
+				<width>173</width>
+				<height>405</height>
+				<control type="group">
+					<posy>19</posy>
+					<posx>22</posx>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>129</width>
+						<height>194</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>64</posy>
+						<posx>64.5</posx>
+						<width>129</width>
+						<height>129</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(8).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>129</width>
+						<height>194</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(8).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(8).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posy>-19</posy>
+						<posx>-22</posx>
+						<width>173</width>
+						<height>283</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="1078,312,173,405" reversible="false" start="992,291,203,474" time="250">Hidden</animation>
+				<posx>992</posx>
+				<posy>291</posy>
+				<width>203</width>
+				<height>474</height>
+				<control type="group">
+					<posy>22</posy>
+					<posx>26</posx>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>151</width>
+						<height>227</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>75</posy>
+						<posx>75.5</posx>
+						<width>151</width>
+						<height>151</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(7).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>151</width>
+						<height>227</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(7).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(7).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posy>-22</posy>
+						<posx>-26</posx>
+						<width>203</width>
+						<height>331</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="992,291,203,474" reversible="false" start="890,271,232,543" time="250">Hidden</animation>
+				<posx>890</posx>
+				<posy>271</posy>
+				<width>232</width>
+				<height>543</height>
+				<control type="group">
+					<posy>26</posy>
+					<posx>30</posx>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>173</width>
+						<height>258</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>86</posy>
+						<posx>86.5</posx>
+						<width>173</width>
+						<height>173</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(6).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>173</width>
+						<height>258</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(6).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(6).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posy>-26</posy>
+						<posx>-30</posx>
+						<width>232</width>
+						<height>379</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="890,271,232,543" reversible="false" start="768,250,262,612" time="250">Hidden</animation>
+				<posx>768</posx>
+				<posy>250</posy>
+				<width>262</width>
+				<height>612</height>
+				<control type="group">
+					<posy>29</posy>
+					<posx>33</posx>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>195</width>
+						<height>292</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>97</posy>
+						<posx>97.5</posx>
+						<width>195</width>
+						<height>195</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(5).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>195</width>
+						<height>292</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(5).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(5).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posy>-29</posy>
+						<posx>-33</posx>
+						<width>262</width>
+						<height>427</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="768,250,262,612" reversible="false" start="622,226,291,681" time="250">Hidden</animation>
+				<posx>622</posx>
+				<posy>226</posy>
+				<width>291</width>
+				<height>681</height>
+				<control type="group">
+					<posx>37</posx>
+					<posy>32</posy>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>217</width>
+						<height>325</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>108</posy>
+						<posx>108.5</posx>
+						<width>217</width>
+						<height>217</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(4).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>217</width>
+						<height>325</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(4).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(4).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posy>-32</posy>
+						<posx>-37</posx>
+						<width>291</width>
+						<height>475</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="622,226,291,681" reversible="false" start="446,205,321,750" time="250">Hidden</animation>
+				<posx>446</posx>
+				<posy>205</posy>
+				<width>321</width>
+				<height>750</height>
+				<control type="group">
+					<posy>35</posy>
+					<posx>41</posx>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>239</width>
+						<height>358</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>119</posy>
+						<posx>119.5</posx>
+						<width>239</width>
+						<height>239</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(3).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>239</width>
+						<height>358</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(3).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posy>-35</posy>
+						<posx>-41</posx>
+						<width>321</width>
+						<height>523</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="446,205,321,750" reversible="false" start="236,185,350,819" time="250">Hidden</animation>
+				<posx>236</posx>
+				<posy>185</posy>
+				<width>350</width>
+				<height>819</height>
+				<control type="group">
+					<posy>38</posy>
+					<posx>45</posx>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>261</width>
+						<height>391</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>130</posy>
+						<posx>130.5</posx>
+						<width>261</width>
+						<height>261</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(2).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posy>0</posy>
+						<posx>0</posx>
+						<width>261</width>
+						<height>391</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(2).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(2).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posy>-45</posy>
+						<posx>-38</posx>
+						<width>350</width>
+						<height>571</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation effect="zoom" end="236,185,350,819" reversible="false" start="-17,164,380,889" time="250">Hidden</animation>
+				<posx>-17</posx>
+				<posy>164</posy>
+				<width>380</width>
+				<height>889</height>
+				<control type="group">
+					<control type="image">
+						<posx>49</posx>
+						<posy>41</posy>
+						<width>284</width>
+						<height>424</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>181</posy>
+						<posx>191</posx>
+						<width>284</width>
+						<height>284</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(1).thumb]</texture>
+						<fadetime>200</fadetime>
+
+					</control>
+					<control type="image">
+						<posx>49</posx>
+						<posy>41</posy>
+						<width>284</width>
+						<height>424</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(1).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(1).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>380</width>
+						<height>620</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="236,185,350,819" start="-17,164,380,889" time="250" type="zoom" />
+					<effect end="0" start="100" time="250" type="fade" />
+				</animation>
+				<posx>-17</posx>
+				<posy>164</posy>
+				<width>380</width>
+				<height>889</height>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>380</width>
+					<height>620</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">views/poster/posterview/poster_overlay-focus.png</texture>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="236,185,350,819" start="-17,164,380,889" time="250" type="zoom" />
+					<effect end="100" start="0" time="250" type="fade" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect end="0" start="0" time="0" type="fade" />
+				</animation>
+				<posx>-17</posx>
+				<posy>164</posy>
+				<width>380</width>
+				<height>889</height>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>380</width>
+					<height>620</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnPrevious</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="100" start="0" time="250" type="fade" />
+					<effect end="128,0" start="0,0" time="250" type="slide" />
+				</animation>
+				<animation effect="fade" end="0" reversible="false" start="0" time="0">Visible</animation>
+				<posy>164</posy>
+				<posx>-145</posx>
+				<width>380</width>
+				<height>889</height>
+				<control type="image">
+					<posx>49</posx>
+					<posy>41</posy>
+					<width>284</width>
+					<height>424</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">common/container-item.png</texture>
+					<colordiffuse>FFFFFFFF</colordiffuse>
+				</control>
+				<control type="image">
+					<posy>181</posy>
+					<posx>191</posx>
+					<width>284</width>
+					<height>284</height>
+					<aspectratio>stretch</aspectratio>
+					<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(0).thumb]</texture>
+					<fadetime>200</fadetime>
+
+				</control>
+				<control type="image">
+					<posy>41</posy>
+					<posx>49</posx>
+					<width>284</width>
+					<height>424</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(0).Thumb]</texture>
+					<visible>!IsEmpty(Container(9000).ListItemNoWrap(0).Thumb)</visible>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>380</width>
+					<height>620</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">views/poster/posterview/poster_overlay-focus.png</texture>
+				</control>
+			</control>
+		</control>
+		<control id="5802" type="group">
+			<visible>Container(9000).OnNext + Control.IsVisible(9000)</visible>
+			<animation effect="slide" end="0,0" reversible="false" time="250">Hidden</animation>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="100" start="0" time="250" type="fade" />
+					<effect end="0,0" start="32,0" time="250" type="slide" />
+				</animation>
+				<animation effect="fade" end="0" reversible="false" start="0" time="0">Visible</animation>
+				<posx>1154</posx>
+				<posy>332</posy>
+				<width>144</width>
+				<height>337</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>18</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(8).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(8).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-18</posx>
+						<posy>0</posy>
+						<width>144</width>
+						<height>235</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="1078,312,173,405" reversible="false" start="1154,332,144,337" time="250">Hidden</animation>
+				<posx>1154</posx>
+				<posy>332</posy>
+				<width>144</width>
+				<height>337</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>18</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>70</posy>
+						<posx>53.5</posx>
+						<width>107</width>
+						<height>107</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(7).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(7).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(7).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-18</posx>
+						<posy>0</posy>
+						<width>144</width>
+						<height>235</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="992,291,203,474" reversible="false" start="1078,312,173,405" time="250">Hidden</animation>
+				<posx>1078</posx>
+				<posy>312</posy>
+				<width>173</width>
+				<height>405</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>22</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>19</posy>
+						<width>129</width>
+						<height>194</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>84</posy>
+						<posx>64.5</posx>
+						<width>129</width>
+						<height>129</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(6).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>19</posy>
+						<width>129</width>
+						<height>194</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(6).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(6).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-22</posx>
+						<posy>0</posy>
+						<width>173</width>
+						<height>283</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="890,271,232,543" reversible="false" start="992,291,203,474" time="250">Hidden</animation>
+				<posx>992</posx>
+				<posy>291</posy>
+				<width>203</width>
+				<height>474</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>26</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>22</posy>
+						<width>151</width>
+						<height>227</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>98</posy>
+						<posx>75.5</posx>
+						<width>151</width>
+						<height>151</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(5).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>22</posy>
+						<width>151</width>
+						<height>227</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(5).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(5).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-26</posx>
+						<posy>0</posy>
+						<width>203</width>
+						<height>331</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="768,250,262,612" reversible="false" start="890,271,232,543" time="250">Hidden</animation>
+				<posx>890</posx>
+				<posy>271</posy>
+				<width>232</width>
+				<height>543</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>30</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>26</posy>
+						<width>173</width>
+						<height>258</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>111</posy>
+						<posx>86.5</posx>
+						<width>173</width>
+						<height>173</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(4).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>26</posy>
+						<width>173</width>
+						<height>258</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(4).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(4).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-30</posx>
+						<posy>0</posy>
+						<width>232</width>
+						<height>379</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="622,226,291,681" reversible="false" start="768,250,262,612" time="250">Hidden</animation>
+				<posx>768</posx>
+				<posy>250</posy>
+				<width>262</width>
+				<height>612</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>33</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>29</posy>
+						<width>195</width>
+						<height>292</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>126</posy>
+						<posx>97.5</posx>
+						<width>195</width>
+						<height>195</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(3).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>29</posy>
+						<width>195</width>
+						<height>292</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(3).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(3).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-33</posx>
+						<posy>0</posy>
+						<width>262</width>
+						<height>427</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="446,205,321,750" reversible="false" start="622,226,291,681" time="250">Hidden</animation>
+				<posx>622</posx>
+				<posy>226</posy>
+				<width>291</width>
+				<height>681</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>37</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>32</posy>
+						<width>217</width>
+						<height>325</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>140</posy>
+						<posx>108.5</posx>
+						<width>217</width>
+						<height>217</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(2).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>32</posy>
+						<width>217</width>
+						<height>325</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(2).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(2).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-37</posx>
+						<posy>0</posy>
+						<width>291</width>
+						<height>475</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="236,185,350,819" reversible="false" start="446,205,321,750" time="250">Hidden</animation>
+				<posx>446</posx>
+				<posy>205</posy>
+				<width>321</width>
+				<height>750</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>41</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>35</posy>
+						<width>239</width>
+						<height>358</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>154</posy>
+						<posx>119.5</posx>
+						<width>239</width>
+						<height>239</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(1).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>35</posy>
+						<width>239</width>
+						<height>358</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(1).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(1).Thumb)</visible>
+					</control>
+					<control type="image">
+						<posx>-41</posx>
+						<posy>0</posy>
+						<width>321</width>
+						<height>523</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation effect="zoom" end="-17,164,380,889" reversible="false" start="236,185,350,819" time="250">Hidden</animation>
+				<posx>236</posx>
+				<posy>185</posy>
+				<width>350</width>
+				<height>819</height>
+				<control type="group">
+					<posy>0</posy>
+					<posx>45</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>38</posy>
+						<width>261</width>
+						<height>391</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>168</posy>
+						<posx>130.5</posx>
+						<width>261</width>
+						<height>261</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(0).thumb]</texture>
+
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>38</posy>
+						<width>261</width>
+						<height>391</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(0).Thumb]</texture>
+						<visible>!IsEmpty(Container(9000).ListItemNoWrap(0).Thumb)</visible>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="-17,164,380,889" start="236,185,350,819" time="250" type="zoom" />
+					<effect end="100" start="0" time="250" type="fade" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect end="0" start="0" time="0" type="fade" />
+				</animation>
+				<posx>236</posx>
+				<posy>185</posy>
+				<width>350</width>
+				<height>819</height>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>350</width>
+					<height>571</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">views/poster/posterview/poster_overlay-focus.png</texture>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="-17,164,380,889" start="236,185,350,819" time="250" type="zoom" />
+					<effect end="0" start="100" time="250" type="fade" />
+				</animation>
+				<posx>236</posx>
+				<posy>185</posy>
+				<width>350</width>
+				<height>819</height>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>350</width>
+					<height>571</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Container(9000).OnNext</visible>
+				<animation reversible="false" type="Hidden">
+					<effect end="0" start="100" time="250" type="fade" />
+					<effect end="-128,0" start="0,0" time="250" type="slide" />
+				</animation>
+				<posy>205</posy>
+				<posx>11</posx>
+				<width>323</width>
+				<height>848</height>
+				<control type="image">
+					<posx>20</posx>
+					<posy>0</posy>
+					<width>284</width>
+					<height>424</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">common/container-item.png</texture>
+					<colordiffuse>FFFFFFFF</colordiffuse>
+				</control>
+				<control type="image">
+					<posy>140</posy>
+					<posx>162</posx>
+					<width>284</width>
+					<height>284</height>
+					<aspectratio>stretch</aspectratio>
+					<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(-1).thumb]</texture>
+					<fadetime>200</fadetime>
+
+				</control>
+				<control type="image">
+					<posy>0</posy>
+					<posx>20</posx>
+					<width>284</width>
+					<height>424</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(-1).Thumb]</texture>
+					<visible>!IsEmpty(Container(9000).ListItemNoWrap(-1).Thumb)</visible>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>416</posy>
+					<width>323</width>
+					<height>40</height>
+					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+					<texture background="false">views/poster/posterview/posterglowandshadow.png</texture>
+				</control>
+			</control>
+		</control>
+		<control id="5800" type="group">
+			<visible>!Control.IsVisible(5801) + !Control.IsVisible(5802) + !Player.HasVideo</visible>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>1154</posx>
+				<posy>332</posy>
+				<width>144</width>
+				<height>337</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="1800" easing="out" end="0,0" start="-65,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="2700" easing="out" end="0,0" start="-65,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="0" easing="out" end="-65,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="25" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="0" easing="out" end="-65,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="100" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>18</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>16</posy>
+						<width>107</width>
+						<height>161</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(8).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-18</posx>
+						<posy>0</posy>
+						<width>144</width>
+						<height>235</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>1078</posx>
+				<posy>312</posy>
+				<width>173</width>
+				<height>405</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="1600" easing="out" end="0,0" start="-75,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="2500" easing="out" end="0,0" start="-75,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="50" easing="out" end="-75,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="50" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="111" easing="out" end="-75,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="200" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>22</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>19</posy>
+						<width>129</width>
+						<height>194</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>84</posy>
+						<posx>64.5</posx>
+						<width>129</width>
+						<height>129</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(7).thumb]</texture>
+
+						<animation effect="slide" end="0" reversible="true" start="-64" time="250">VisibleChange</animation>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>19</posy>
+						<width>129</width>
+						<height>194</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(7).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-22</posx>
+						<posy>0</posy>
+						<width>173</width>
+						<height>283</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>992</posx>
+				<posy>291</posy>
+				<width>203</width>
+				<height>474</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="1400" easing="out" end="0,0" start="-95,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="2300" easing="out" end="0,0" start="-95,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="100" easing="out" end="-95,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="100" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="222" easing="out" end="-95,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="300" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>26</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>22</posy>
+						<width>151</width>
+						<height>227</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>98</posy>
+						<posx>75.5</posx>
+						<width>151</width>
+						<height>151</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(6).thumb]</texture>
+
+						<animation effect="slide" end="0" reversible="true" start="-75" time="250">VisibleChange</animation>
+					</control>
+					<control type="image">
+						<posy>22</posy>
+						<posx>0</posx>
+						<width>151</width>
+						<height>227</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(6).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-26</posx>
+						<posy>0</posy>
+						<width>203</width>
+						<height>331</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>890</posx>
+				<posy>271</posy>
+				<width>232</width>
+				<height>543</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="1200" easing="out" end="0,0" start="-120,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="2100" easing="out" end="0,0" start="-120,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="300" easing="out" end="-120,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="150" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="333" easing="out" end="-120,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="300" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>30</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>26</posy>
+						<width>173</width>
+						<height>258</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>111</posy>
+						<posx>86.5</posx>
+						<width>173</width>
+						<height>173</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(5).thumb]</texture>
+
+						<animation effect="slide" end="0" reversible="true" start="-86" time="250">VisibleChange</animation>
+					</control>
+					<control type="image">
+						<posy>26</posy>
+						<posx>0</posx>
+						<width>173</width>
+						<height>258</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(5).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-30</posx>
+						<posy>0</posy>
+						<width>232</width>
+						<height>379</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000) </visible>
+				<posx>768</posx>
+				<posy>250</posy>
+				<width>262</width>
+				<height>612</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="1000" easing="out" end="0,0" start="-150,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="1900" easing="out" end="0,0" start="-150,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="350" easing="out" end="-150,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="200" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="444" easing="out" end="-150,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="550" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>33</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>29</posy>
+						<width>195</width>
+						<height>292</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>126</posy>
+						<posx>97.5</posx>
+						<width>195</width>
+						<height>195</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(4).thumb]</texture>
+
+						<animation effect="slide" end="0" reversible="true" start="-97" time="250">VisibleChange</animation>
+					</control>
+					<control type="image">
+						<posy>29</posy>
+						<posx>0</posx>
+						<width>195</width>
+						<height>292</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(4).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-33</posx>
+						<posy>0</posy>
+						<width>262</width>
+						<height>427</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>622</posx>
+				<posy>226</posy>
+				<width>291</width>
+				<height>681</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="800" easing="out" end="0,0" start="-185,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="1700" easing="out" end="0,0" start="-185,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="400" easing="out" end="-185,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="250" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="555" easing="out" end="-185,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="670" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>37</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>32</posy>
+						<width>217</width>
+						<height>325</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>140</posy>
+						<posx>108.5</posx>
+						<width>217</width>
+						<height>217</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(3).thumb]</texture>
+						<animation effect="slide" end="0" reversible="true" start="-108" time="250">VisibleChange</animation>
+					</control>
+					<control type="image">
+						<posy>32</posy>
+						<posx>0</posx>
+						<width>217</width>
+						<height>325</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(3).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-37</posx>
+						<posy>0</posy>
+						<width>291</width>
+						<height>475</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>446</posx>
+				<posy>205</posy>
+				<width>321</width>
+				<height>750</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="600" easing="out" end="0,0" start="-225,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="1500" easing="out" end="0,0" start="-225,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="500" easing="out" end="-225,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="300" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="666" easing="out" end="-225,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="780" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>41</posx>
+					<control type="image">
+						<posx>0</posx>
+						<posy>35</posy>
+						<width>239</width>
+						<height>358</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="false">common/container-item.png</texture>
+						<colordiffuse>FFFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posy>154</posy>
+						<posx>119.5</posx>
+						<width>239</width>
+						<height>239</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(2).thumb]</texture>
+						<animation effect="slide" end="0" reversible="true" start="-119" time="250">VisibleChange</animation>
+					</control>
+					<control type="image">
+						<posy>35</posy>
+						<posx>0</posx>
+						<width>239</width>
+						<height>358</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(2).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-41</posx>
+						<posy>0</posy>
+						<width>321</width>
+						<height>523</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>236</posx>
+				<posy>185</posy>
+				<width>350</width>
+				<height>819</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="400" easing="out" end="0,0" start="-230,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="1300" easing="out" end="0,0" start="-230,0" time="100" tween="sine" type="slide" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="550" easing="out" end="-230,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="350" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="777" easing="out" end="-230,0" start="0,0" time="100" tween="sine" type="slide" />
+					<effect delay="900" end="0" start="100" time="50" type="fade" />
+				</animation>
+				<control type="group">
+					<posy>0</posy>
+					<posx>45</posx>
+					<control type="image">
+						<posy>168</posy>
+						<posx>130.5</posx>
+						<width>261</width>
+						<height>261</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(1).thumb]</texture>
+
+						<animation effect="slide" end="0" reversible="true" start="-130" time="250">VisibleChange</animation>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>38</posy>
+						<width>261</width>
+						<height>391</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(1).Thumb]</texture>
+					</control>
+					<control type="image">
+						<posx>-45</posx>
+						<posy>0</posy>
+						<width>350</width>
+						<height>571</height>
+						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
+						<texture background="false">views/poster/posterview/poster_overlay.png</texture>
+					</control>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVIsible(9000)</visible>
+				<posx>-17</posx>
+				<posy>164</posy>
+				<width>380</width>
+				<height>889</height>
+				<animation reversible="false" type="WindowOpen">
+					<effect delay="0" end="0" start="90" time="300" type="rotatey" />
+					<effect delay="0" time="300" type="fade" />
+				</animation>
+				<animation reversible="false" type="Visible">
+					<effect delay="900" time="300" type="fade" />
+				</animation>
+				<animation reversible="false" type="Hidden">
+					<effect delay="100" time="100" type="fade" />
+				</animation>
+				<animation reversible="false" type="WindowClose">
+					<effect delay="1000" end="90" start="0" time="400" type="rotatey" />
+					<effect delay="1000" time="100" type="fade" />
+				</animation>
+				<control type="image">
+					<posx>49</posx>
+					<posy>41</posy>
+					<width>284</width>
+					<height>424</height>
+					<aspectratio>stretch</aspectratio>
+					<texture background="false">common/container-item.png</texture>
+					<colordiffuse>FFFFFFFF</colordiffuse>
+				</control>
+				<control type="image">
+					<posy>181</posy>
+					<posx>192</posx>
+					<width>284</width>
+					<height>284</height>
+					<aspectratio>stretch</aspectratio>
+					<texture background="true">[Media_Path]\cd\$INFO[Container(9001).ListItemNoWrap(0).thumb]</texture>
+					<fadetime>200</fadetime>
+					<animation effect="slide" end="0" reversible="true" start="-142" time="250">VisibleChange</animation>
+					<animation center="auto" condition="true" effect="rotate" end="-360" loop="true" reversible="true" time="2500">conditional</animation>
+				</control>
+				<control type="image">
+					<posy>41</posy>
+					<posx>49</posx>
+					<width>284</width>
+					<height>424</height>
+					<aspectratio>stretch</aspectratio>
+					<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(0).Thumb]</texture>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>380</width>
+					<height>620</height>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="false">views/poster/posterview/poster_overlay-focus.png</texture>
+				</control>
+			</control>
+		</control>
+	</control>
+	<control id="9000" type="list">
+		<viewtype label="XPerience Posters">Wraplist of Posters</viewtype>
+		<posx>0</posx>
+		<posy>0</posy>
+		<width>1280</width>
+		<height>720</height>
+		<ondown />
+		<onup>9000</onup>
+		<onleft>-</onleft>
+		<onright>-</onright>
+		<pagecontrol>70</pagecontrol>
+		<preloaditems>2</preloaditems>
+		<orientation>horizontal</orientation>
+		<scrolltime>0</scrolltime>
+		<itemlayout height="512" width="256"> </itemlayout>
+		<focusedlayout height="512" width="256"> </focusedlayout>
+	</control>
+</control>

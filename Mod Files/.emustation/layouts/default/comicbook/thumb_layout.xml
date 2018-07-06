@@ -36,7 +36,7 @@
 	<width>617</width>
 	<height>552</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
 	<include>EmulatorScrollFade</include>
 </control>
 <!-- List Control -->

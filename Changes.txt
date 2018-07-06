@@ -1,3 +1,63 @@
+06/07/2018:
+	1) Added Xbox to the static menu system, so now you can have synopsis eg...
+	2) Updated the "create_rom_lists.py" script to parse Xbox games and also simplify/cleanup the gamelist.xml files.
+	3) Updated the "generate_favourites.py" to work with the new format.
+	4) Updated the "launcher.py" to accommodate xbox game launching.
+		( Note: in this mode trainers dont work, so you will need to load edit mode )
+	5) Updated the "menu_loader.py" to work with the Xbox menu and also it will add a new button to the Options menu.
+		( Xbox Games Edit Mode )
+	6) Updated the "play_preview.py" to work with the Xbox menu and its TITLEID naming scheme for content.
+	7) Updated the "random_select.py" to work with the Xbox menu.
+	8) Fixed Pokemonmini for the xudora theme.
+	9) Optimised the textures in the main theme and the none blur one ( on the downloader )
+	10) Updated the Xbox parsing code to remove all illegal characters and also extract the titleimage from the xbe if no default.tbn is found.
+	11) Added "Custom_Changes.xml" to show the change log when the update is complete.
+	12) Added Change Log to the settings menu.
+	13) New XBE: Fixed the XBE title extraction from the xbe files, so no more broken names!
+		( This is an issue with official builds and is now fixed here. )
+	14) Added a new script to check for updates on startup.
+		( Toggle this in the UI Settings )
+	15) You can change the custom locations without having to rescan your roms :)
+		( Requires a full rescan for this to work, sorry )
+	16) Added 2 more custom tiles to the home carousal, so that's a total of 5 custom entries.
+	17) Rearranged the settings menu and added audio settings.
+	18) Fixed a intro not stopping when you pressed B.
+	19) Added md to the "create_rom_lists.py" extensions for megadrive/genesis roms.
+		( any more extensions needing added tell me. )
+	20) Updated all the layouts and increased there scroll time.
+	21) Changed file extensions for artwork to .jpg this allows loading of images a crap tone faster.
+		( This script will rename all .png images it finds to .jpg )
+	22) Fixed the launcher.py script not loading roms when using the default roms directory :$
+	23) Create_Rom_Lists.py will now parse _resources folders if you wish for artwork for Xbox games.
+		( It will also create a GameNames.txt in the media\xbox\ directory with Game names and titleids so you can create or find artwork easily )
+	24) Updated Final Burn Legends name files to v1.24 and also updated the Emulator in the Downloader section.
+	25) Updated Final Burn Legends to v1.24 in the downloader section.
+		( Redownload the download lists.zip )
+	26) Change to the theme layout formating, only themers will need to check this out.
+		( currently only two me and another guy and he knows lol )
+	27) Added a fanart toggle to the options menu when in a systems layout, also rearranged the menu a tad.
+		( Option will only appear when the synopsis view is enabled )
+	28) Updated a few of the layout synopsis files video placement and visible effects.
+	29) Artwork added for Xbox games, 935+ games have fanrt, posters, 3d posters and more.
+	30) Updated the Xbox synopsis to 954 games supported.
+	31) Fixed the Generate_Favourites.py script when parsing Unicode characters and also streamlined some code.
+	32) Fixed N64 name parsing.
+	34) Updatred the XBMC source again to help with theming.
+	35) New theme added to the downloader. XBMC4Gamers.
+	36) Other minor scrip adjustments due to the above changes.
+	37) Added Special://root/ so a new xbe file. This is so we can get the absolute path of XBMCs installation.
+		( will output for example E:\xbmc-emustation\ instead of Q:\ that xbmc and home use )
+	38) Added a detacher xbe for detaching virtual IOS files that are required for 5 games to be played from the HDD. Press Y on the disc image.
+		( I include the attacher xbe files pre configured with the games certificate information with the _resources pack. download separately. )
+	39) Fixed ordering of the roms and xbox games when scanned in.
+		( you will only see this if using the file names for naming, as the synopsis names can still be different from the file names. )
+	40) Updated the create_roms_lists.py to parse game.xbe if found.
+		( some JPN games have these as use a loader xbe (default.xbe) to launch this xbe file. )
+	41) Kiosk Mode, when enabled in the UI Settings it will disable all options that can be used to change system settings or scan roms eg...
+	42) New radiobutton toggle images.
+	**) Other changes, bugger knows what mind as I have changed that damn much.
+
+
 14/03/2018
 	1) Couple minor changes to fix a couple small niggles.
 		( if you're already up todate this update isn't needed unless you want it. )

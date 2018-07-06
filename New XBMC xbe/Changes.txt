@@ -1,32 +1,39 @@
-..:: XBMC4Xbox 3.6-DEV-r33024 Modifications ::..
+..:: XBMC4Xbox 3.5.3 Modifications ::..
 
 1) Changed how the game save menu works, it now doesn't list "TitleMeta.xbx" files as files, there in the own directory like the rest.
 2) Increased the Splash screen display time, no point having a nice splash if you dont get to see it.
 3) Fullscreen Splashscreen!
 4) Faster loading of your games library.
-( disables the directory check/scan when entering the games menu, also disabled by default. enable create af file called "faster_game_loading.bin" and place it next to the xbe file )
+	( disables the directory check/scan when entering the games menu, also disabled by default. enable create a file called "fast game scanning.enabled" and place it in Q:\system\toggles\ )
 5) Added my Synopsis script to the context menu for the MyPrograms windows
 6) Added a new custom window _script*.xml will now be automatically parsed like Custom*.xml
 7) Rearranged the folders structure to make it cleaner.
 8) removed the extension from Skin.CurrentTheme
 9) Moved screensavers to the system folder :) ( Had to use XP to build the screensavers )
 10) Added the option to disable the splash image via the advancedsettings.xml ( <splash>false</splash> )
-11) nosplash.bin added to the system folder to easily disable the splash if you don't want to use the advancedsettings.xml
+11) system\toggles\no splash.enabled added to the system folder to easily disable the splash if you don't want to use the advancedsettings.xml
 12) Reload skin almost instantly, changed for the them selection screen.
 13) It now runs the "home_themer.py" script after changing the theme, so it now also works in the Settings menu of XBMC.
-( Also means faster cycling of themes )
+	( Also means faster cycling of themes )
 14) Fix ported over from Kodi to fix the SetFocus function, it now focuses from the first entry in the list instead of the current page.
 15) Removed the remove favourite from the context menu, due to the roms menus not having this feature.
 16) When you add favourites or remove them it will now run a script to update the counter for the main menu.
 17) Fixed the setting a new language, forgot to change a path.
 18) Moved the sounds folder into the default skin sounds folder, so now you can add custom sound effects for themes and select them seamlessly.
 19) Now when you change themes it also changes the font and menu sounds if they exist for the theme.
-( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )
+	( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )
 20) Updated the debug overlay to use debugloggin font name and added MBs to the layout.
 21) Fixed centering labels in lists.
-( If you have a skin that uses center for its labels in a list you may want to remove the offset you had to use for posx )
+	( If you have a skin that uses center for its labels in a list you may want to remove the offset you had to use for posx )
 22) Update to the center label fix in lists, if your skin version is 2.1 it will use the old way and if its 2.2 or higher will use the fixed way.
 23) Now creates the system\trainers directory
 24) Now creates system\screenshots if it doesn't exist when you take a screenshot.
 25) Splash overlay file so folk can keep the splash but add there own logo or visa-versa. ( custom_splash.png )
 26) Changed Textures.xpr to skindefault.xpr
+27) Fixed the XBE title extraction from the xbe files, so no more broken names!
+28) Added custom staticlabels and used the sortletter label to store more information.
+29) Added Special://root/ so that we can get the absolute path of XBMCs installation.
+	( will output for example E:\xbmc-emustation\ instead of Q:\ that xbmc and home use )
+30) Added slow scrolling for artwork. This can be disabled by renaming the following file Q:\system\toggles\slow scrolling.enabled
+31) Added Special://urldownloader/ so that we can get the absolute path of the urldownloaders installation.
+	( will output for example Q:\.emustation\scripts\urldownloader  )

@@ -71,6 +71,17 @@
 								<texture>music_controls.png</texture>
 								<aspectratio>keep</aspectratio>
 								<colordiffuse>10FFFFFF</colordiffuse>
+								<visible>!Player.Paused</visible>
+						</control>
+						<control type="image">
+								<posx>340</posx>
+								<posy>10</posy>
+								<width>600</width>
+								<height>600</height>
+								<texture>music_controls_alt.png</texture>
+								<aspectratio>keep</aspectratio>
+								<colordiffuse>10FFFFFF</colordiffuse>
+								<visible>Player.Paused</visible>
 						</control>
 						<control type="progress">
 								<description>Progressbar</description>

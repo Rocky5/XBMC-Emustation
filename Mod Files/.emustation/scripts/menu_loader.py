@@ -7,7 +7,12 @@ import fileinput, os, time, xbmc, xbmcgui
 
 #####	Start markings for the log file.
 print "| .emustation\Scripts\menu_loader.py loaded."
-	
+
+try:
+	XBE_Edit_Mode	= sys.argv[1:][0]
+except:
+	XBE_Edit_Mode	= "0"
+
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 XBE_Files						= 0
@@ -24,7 +29,6 @@ _Script_Jump_Path				= xbmc.translatePath( 'special://skin/720p/_script_jumpList
 FAV_XML_Path					= xbmc.translatePath( 'special://skin/720p/DialogFavourites.xml' )
 ThemeType						= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
 Favs_List_Path					= xbmc.translatePath( 'special://xbmc/.emustation/gamelists/' + MenuLabel )
-
 
 Default_No_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/layout.xml' )
 Default_No_Synopsis_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/synopsis_layout.xml' )
@@ -44,8 +48,9 @@ Custom_Layout					= xbmc.translatePath( 'special://xbmc/.emustation/layouts/' + 
 Custom_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/' + MenuLabel + '/' + ThemeType + '/synopsis_layout.xml' )
 Custom_Thumb_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/layouts/' + MenuLabel + '/' + ThemeType + '/thumb_layout.xml' )
 
-if MenuLabel == "apps" or MenuLabel == "xbox" or MenuLabel == "homebrew" or MenuLabel == "ports":
+if XBE_Edit_Mode == "editmode" or MenuLabel == "apps" or MenuLabel == "homebrew" or MenuLabel == "ports":
 	XBE_Files = 1
+	if XBE_Edit_Mode == "editmode": MenuLabel = "xbox"
 elif MenuLabel == "favs":
 	FAV_Files = 1
 else:
@@ -79,10 +84,14 @@ Header_Data_EMU					= '<window id="1">\n\
 			<posx>-500</posx>\n\
 			<onup>setfocus(9000)</onup>\n\
 			<onup>stop</onup>\n\
-			<onup>Control.Move(9000,-1)</onup>\n\
+			<onup>setfocus(9000)</onup>\n\
 			<ondown>setfocus(9000)</ondown>\n\
 			<ondown>stop</ondown>\n\
-			<ondown>Control.Move(9000,1)</ondown>\n\
+			<ondown>setfocus(9000)</ondown>\n\
+			<onleft>stop</onleft>\n\
+			<onleft>setfocus(9000)</onleft>\n\
+			<onright>stop</onright>\n\
+			<onright>setfocus(9000)</onright>\n\
 			<onclick>setfocus(9000)</onclick>\n\
 			<onclick>stop</onclick>\n\
 		</control>\n\
@@ -113,21 +122,86 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 	<controls>\n\
 		<control type="group" id="jump section">\n\
 			<posy>90</posy>\n\
-			<control type="image">\n\
-				<description>background image</description>\n\
-				<posx>165</posx>\n\
-				<posy>10</posy>\n\
-				<width>950</width>\n\
-				<height>530</height>\n\
-				<texture>menu_back_shadow.png</texture>\n\
+			<animation effect="slide" reversable="true" start="0,0" end="0,-25" time="0" condition="StringCompare(Skin.String(emuname),xbox) + Skin.HasSetting(synopsislayout) + !Skin.HasSetting(KioskMode)">conditional</animation>\n\
+			<!-- Normal -->\n\
+			<control type="group">\n\
+				<visible>!Skin.HasSetting(KioskMode) + [!StringCompare(Skin.String(emuname),xbox) | !Skin.HasSetting(synopsislayout)]</visible>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>165</posx>\n\
+					<posy>10</posy>\n\
+					<width>950</width>\n\
+					<height>530</height>\n\
+					<texture>menu_back_shadow.png</texture>\n\
+				</control>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>320</posx>\n\
+					<posy>100</posy>\n\
+					<width>640</width>\n\
+					<height>350</height>\n\
+					<texture border="20,20,20,20">menu_back.png</texture>\n\
+				</control>\n\
 			</control>\n\
-			<control type="image">\n\
-				<description>background image</description>\n\
-				<posx>320</posx>\n\
-				<posy>100</posy>\n\
-				<width>640</width>\n\
-				<height>350</height>\n\
-				<texture border="20,20,20,20">menu_back.png</texture>\n\
+			<!-- kiosk mode -->\n\
+			<control type="group">\n\
+				<visible>Skin.HasSetting(KioskMode) + [!StringCompare(Skin.String(emuname),xbox) | !Skin.HasSetting(synopsislayout)]</visible>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>165</posx>\n\
+					<posy>60</posy>\n\
+					<width>950</width>\n\
+					<height>280</height>\n\
+					<texture>menu_back_shadow.png</texture>\n\
+				</control>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>320</posx>\n\
+					<posy>100</posy>\n\
+					<width>640</width>\n\
+					<height>200</height>\n\
+					<texture border="20,20,20,20">menu_back.png</texture>\n\
+				</control>\n\
+			</control>\n\
+			<!-- Normal -->\n\
+			<control type="group">\n\
+				<visible>StringCompare(Skin.String(emuname),xbox) + Skin.HasSetting(synopsislayout) + !Skin.HasSetting(KioskMode)</visible>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>165</posx>\n\
+					<posy>10</posy>\n\
+					<width>950</width>\n\
+					<height>580</height>\n\
+					<texture>menu_back_shadow.png</texture>\n\
+				</control>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>320</posx>\n\
+					<posy>100</posy>\n\
+					<width>640</width>\n\
+					<height>400</height>\n\
+					<texture border="20,20,20,20">menu_back.png</texture>\n\
+				</control>\n\
+			</control>\n\
+			<!-- kiosk mode -->\n\
+			<control type="group">\n\
+				<visible>StringCompare(Skin.String(emuname),xbox) + Skin.HasSetting(synopsislayout) + Skin.HasSetting(KioskMode)</visible>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>165</posx>\n\
+					<posy>60</posy>\n\
+					<width>950</width>\n\
+					<height>280</height>\n\
+					<texture>menu_back_shadow.png</texture>\n\
+				</control>\n\
+				<control type="image">\n\
+					<description>background image</description>\n\
+					<posx>320</posx>\n\
+					<posy>100</posy>\n\
+					<width>640</width>\n\
+					<height>200</height>\n\
+					<texture border="20,20,20,20">menu_back.png</texture>\n\
+				</control>\n\
 			</control>\n\
 			<control type="label">\n\
 				<description>heading label</description>\n\
@@ -148,7 +222,7 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 				<height>50</height>\n\
 				<onleft>9000</onleft>\n\
 				<onright>9000</onright>\n\
-				<onup>9002</onup>\n\
+				<onup>9004</onup>\n\
 				<ondown>9001</ondown>\n\
 				<itemgap>-1</itemgap>\n\
 				<scrolltime>0</scrolltime>\n\
@@ -160,23 +234,54 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 				<posy>250</posy>\n\
 				<width>640</width>\n\
 				<height>200</height>\n\
-				<onleft>9001</onleft>\n\
-				<onright>9001</onright>\n\
+				<onleft>-</onleft>\n\
+				<onright>-</onright>\n\
 				<onup>9000</onup>\n\
 				<ondown>9002</ondown>\n\
 				<itemgap>-1</itemgap>\n\
 				<scrolltime>0</scrolltime>\n\
+				<orientation>vertical</orientation>\n\
+				<control type="button" id="8050">\n\
+					<label>[UPPERCASE]Add current rom to $LOCALIZE[1036][/UPPERCASE]</label>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onclick>Dialog.Close(1120)</onclick>\n\
+					<onclick>SetFocus(9200)</onclick>\n\
+					<onclick>RunScript(Special://XBMC/.emustation/scripts/generate_favourites.py)</onclick>\n\
+					<visible>!StringCompare(Skin.String(emuname),xbox) + !Skin.HasSetting(KioskMode)</visible>\n\
+				</control>\n\
+				<control type="button" id="8051">\n\
+					<label>[UPPERCASE]Add current game to $LOCALIZE[1036][/UPPERCASE]</label>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onclick>Dialog.Close(1120)</onclick>\n\
+					<onclick>SetFocus(9200)</onclick>\n\
+					<onclick>RunScript(Special://XBMC/.emustation/scripts/generate_favourites.py)</onclick>\n\
+					<visible>StringCompare(Skin.String(emuname),xbox) + !Skin.HasSetting(KioskMode)</visible>\n\
+				</control>\n\
+			</control>\n\
+			<control type="grouplist" id="9002">\n\
+				<posx>320</posx>\n\
+				<posy>299</posy>\n\
+				<width>640</width>\n\
+				<height>200</height>\n\
+				<onleft>9002</onleft>\n\
+				<onright>9002</onright>\n\
+				<onup>9001</onup>\n\
+				<ondown>9003</ondown>\n\
+				<itemgap>-1</itemgap>\n\
+				<scrolltime>0</scrolltime>\n\
 				<orientation>horizontal</orientation>\n\
+				<visible>!StringCompare(Skin.String(emuname),xbox) + !Skin.HasSetting(KioskMode)</visible>\n\
 				<control type="button" id="8040">\n\
 					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
-					<label2>&lt; [UPPERCASE]boxart[/UPPERCASE] &gt;</label2>\n\
+					<label2>&lt; [UPPERCASE]2d[/UPPERCASE] &gt;</label2>\n\
 					<include>MenuButtonCommonValues</include>\n\
 					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart)</onfocus>\n\
 					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart)</visible>\n\
 				</control>\n\
+				<visible>!StringCompare(Skin.String(emuname),xbox)</visible>\n\
 				<control type="button" id="8041">\n\
 					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
-					<label2>&lt; [UPPERCASE]3d boxart[/UPPERCASE] &gt;</label2>\n\
+					<label2>&lt; [UPPERCASE]3d[/UPPERCASE] &gt;</label2>\n\
 					<include>MenuButtonCommonValues</include>\n\
 					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart3d)</onfocus>\n\
 					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart3d)</visible>\n\
@@ -190,7 +295,7 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 				</control>\n\
 				<control type="button" id="8043">\n\
 					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
-					<label2>&lt; [UPPERCASE]mix images[/UPPERCASE] &gt;</label2>\n\
+					<label2>&lt; [UPPERCASE]mix[/UPPERCASE] &gt;</label2>\n\
 					<include>MenuButtonCommonValues</include>\n\
 					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,mix)</onfocus>\n\
 					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),mix)</visible>\n\
@@ -208,19 +313,103 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 				<posy>299</posy>\n\
 				<width>640</width>\n\
 				<height>200</height>\n\
+				<onleft>9002</onleft>\n\
+				<onright>9002</onright>\n\
+				<onup>9001</onup>\n\
+				<ondown>9003</ondown>\n\
+				<itemgap>-1</itemgap>\n\
+				<scrolltime>0</scrolltime>\n\
+				<orientation>horizontal</orientation>\n\
+				<visible>StringCompare(Skin.String(emuname),xbox) + !Skin.HasSetting(KioskMode)</visible>\n\
+				<control type="button" id="8040">\n\
+					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
+					<label2>&lt; [UPPERCASE]2d[/UPPERCASE] &gt;</label2>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart)</onfocus>\n\
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart)</visible>\n\
+				</control>\n\
+				<control type="button" id="8041">\n\
+					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
+					<label2>&lt; [UPPERCASE]3d[/UPPERCASE] &gt;</label2>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart3d)</onfocus>\n\
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart3d)</visible>\n\
+				</control>\n\
+				<control type="button" id="8042">\n\
+					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
+					<label2>&lt; [UPPERCASE]cd poster[/UPPERCASE] &gt;</label2>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,cdposter)</onfocus>\n\
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),cdposter)</visible>\n\
+				</control>\n\
+				<control type="button" id="8043">\n\
+					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
+					<label2>&lt; [UPPERCASE]disc[/UPPERCASE] &gt;</label2>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,disc)</onfocus>\n\
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),disc)</visible>\n\
+				</control>\n\
+				<control type="button" id="8044">\n\
+					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
+					<label2>&lt; [UPPERCASE]dual[/UPPERCASE] &gt;</label2>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,dual)</onfocus>\n\
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),dual)</visible>\n\
+				</control>\n\
+				<control type="button" id="8045">\n\
+					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
+					<label2>&lt; [UPPERCASE]open case[/UPPERCASE] &gt;</label2>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,opencase)</onfocus>\n\
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),opencase)</visible>\n\
+				</control>\n\
+				<control type="button" id="8046">\n\
+					<label>[UPPERCASE]Artwork Type[/UPPERCASE]</label>\n\
+					<label2>&lt; [UPPERCASE]screenshots[/UPPERCASE] &gt;</label2>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,screenshots)</onfocus>\n\
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),screenshots)</visible>\n\
+				</control>\n\
+			</control>\n\
+			<control type="grouplist" id="9003">\n\
+				<posx>320</posx>\n\
+				<posy>348</posy>\n\
+				<width>640</width>\n\
+				<height>200</height>\n\
 				<onleft>-</onleft>\n\
 				<onright>-</onright>\n\
-				<onup>9001</onup>\n\
+				<onup>9002</onup>\n\
+				<ondown>9004</ondown>\n\
+				<itemgap>-1</itemgap>\n\
+				<scrolltime>0</scrolltime>\n\
+				<orientation>vertical</orientation>\n\
+				<visible>Skin.HasSetting(synopsislayout) + !Skin.HasSetting(KioskMode)</visible>\n\
+				<control type="radiobutton" id="8060">\n\
+					<label>[UPPERCASE]Enable Fanart[/UPPERCASE]</label>\n\
+					<include>MenuButtonCommonValues</include>\n\
+					<onclick>Skin.ToggleSetting(' + MenuLabel + 'fanart)</onclick>\n\
+					<selected>Skin.HasSetting(' + MenuLabel + 'fanart)</selected>\n\
+				</control>\n\
+			</control>\n\
+			<control type="grouplist" id="9004">\n\
+				<posx>320</posx>\n\
+				<posy>348</posy>\n\
+				<width>640</width>\n\
+				<height>200</height>\n\
+				<onleft>-</onleft>\n\
+				<onright>-</onright>\n\
+				<onup>9003</onup>\n\
 				<ondown>9000</ondown>\n\
 				<itemgap>-1</itemgap>\n\
 				<scrolltime>0</scrolltime>\n\
 				<orientation>vertical</orientation>\n\
-				<control type="button" id="8050">\n\
-					<label>[UPPERCASE]Add current rom to $LOCALIZE[1036][/UPPERCASE]</label>\n\
+				<animation effect="slide" reversable="true" start="0,0" end="0,49" time="0" condition="Skin.HasSetting(synopsislayout)">conditional</animation>\n\
+				<visible>StringCompare(Skin.String(emuname),xbox) + !Skin.HasSetting(KioskMode)</visible>\n\
+				<control type="button" id="8070">\n\
+					<label>[UPPERCASE]Xbox Games Edit Mode[/UPPERCASE]</label>\n\
 					<include>MenuButtonCommonValues</include>\n\
 					<onclick>Dialog.Close(1120)</onclick>\n\
-					<onclick>SetFocus(9200)</onclick>\n\
-					<onclick>RunScript(Special://XBMC/.emustation/scripts/generate_favourites.py)</onclick>\n\
+					<onclick>RunScript(Special://XBMC/.emustation/scripts/menu_loader.py,editmode)</onclick>\n\
 				</control>\n\
 			</control>\n\
 		</control>\n\
@@ -253,10 +442,14 @@ Header_Data_XBE					= '<window id="1">\n\
 			<posx>-500</posx>\n\
 			<onup>setfocus(50)</onup>\n\
 			<onup>stop</onup>\n\
-			<onup>Control.Move(50,-1)</onup>\n\
+			<onup>setfocus(50)</onup>\n\
 			<ondown>setfocus(50)</ondown>\n\
 			<ondown>stop</ondown>\n\
-			<ondown>Control.Move(50,1)</ondown>\n\
+			<ondown>setfocus(50)</ondown>\n\
+			<onleft>stop</onleft>\n\
+			<onleft>setfocus(50)</onleft>\n\
+			<onright>stop</onright>\n\
+			<onright>setfocus(50)</onright>\n\
 			<onclick>setfocus(50)</onclick>\n\
 			<onclick>stop</onclick>\n\
 		</control>\n\
@@ -337,13 +530,18 @@ if EMU_Files == 1:
 				with open(MyPrograms_Path, "w") as inputfile:
 					inputfile.write( Header_Data )
 					for code in layoutfile:
+						code = code.replace('[ArtworkFolder]',xbmc.getInfoLabel( 'skin.string(Custom_Media_Path)' ) + xbmc.getInfoLabel( 'Skin.String(emuname)' ) + '\$INFO[Skin.String('+ MenuLabel +'_artworkfolder)]\\')
+						code = code.replace('[Fanart_Toggle]','Skin.HasSetting(' + xbmc.getInfoLabel( 'Skin.String(emuname)' ) + 'fanart)')
+						code = code.replace('[Media_Path]',xbmc.getInfoLabel( 'skin.string(Custom_Media_Path)' ) + xbmc.getInfoLabel( 'Skin.String(emuname)' ))
+						code = code.replace('[CurrentSystem]',MenuLabel)
 						inputfile.write( code )
 					inputfile.write( Footer_Data_EMU )
-			with open( os.path.join( Favs_List_Path,'gamelist.xml' ) ) as countfile:
-				countfile = countfile.read()
+			with open( os.path.join( Favs_List_Path,'gamelist.xml' ) ) as gamelistfile:
+				gamelistfile = gamelistfile.read()
+				gamelistfile = gamelistfile.replace('[ArtworkFolder]',xbmc.getInfoLabel( 'skin.string(Custom_Media_Path)' ) + xbmc.getInfoLabel( 'Skin.String(emuname)' ) + '\$INFO[Skin.String('+ MenuLabel +'_artworkfolder)]\\')
 				for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
 					if '</focusedlayout>' in line:
-						line = line.replace(line,line+countfile)
+						line = line.replace(line,line+gamelistfile)
 					print line,
 			with open(_Script_Jump_Path, "w") as inputfile:
 				inputfile.write( Jump_File_Data )
@@ -372,7 +570,7 @@ elif XBE_Files == 1:
 				with open(MyPrograms_Path, "w") as inputfile:
 					inputfile.write( Header_Data )		
 					for code in layoutfile:
-						inputfile.write( code )			
+						inputfile.write( code )
 					inputfile.write( Footer_Data_XBE )
 		except:
 			pass

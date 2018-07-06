@@ -142,7 +142,7 @@ void CGUIWindowPrograms::GetContextButtons(int itemNumber, CContextButtons &butt
     {
       if (item->IsXBE() || item->IsShortCut())
       {
-        if (CFile::Exists("special://xbmc/scripts/XBMC4Gamers Extras/Synopsis/default.py") || CFile::Exists("special://xbmc/scripts/Synopsis/default.py"))
+        if (CFile::Exists("special://xbmc/system/scripts/XBMC4Gamers Extras/Synopsis/default.py") || CFile::Exists("special://xbmc/system/scripts/Synopsis/default.py"))
 		{
           buttons.Add(CONTEXT_BUTTON_SYNOPSIS, "Synopsis");         // Synopsis
 		}
@@ -268,13 +268,13 @@ bool CGUIWindowPrograms::OnContextButton(int itemNumber, CONTEXT_BUTTON button)
 
   case CONTEXT_BUTTON_SYNOPSIS:
     {
-	  if (CFile::Exists("special://xbmc/scripts/XBMC4Gamers Extras/Synopsis/default.py"))
+	  if (CFile::Exists("special://xbmc/system/scripts/XBMC4Gamers Extras/Synopsis/default.py"))
 	  {
-        CBuiltins::Execute("runscript(special://xbmc/scripts/XBMC4Gamers Extras/Synopsis/default.py)");
+        CBuiltins::Execute("runscript(special://xbmc/system/scripts/XBMC4Gamers Extras/Synopsis/default.py)");
       }
 	  else
 	  {
-        CBuiltins::Execute("runscript(special://xbmc/scripts/Synopsis/default.py)");
+        CBuiltins::Execute("runscript(special://xbmc/system/scripts/Synopsis/default.py)");
 	  }
 	  CBuiltins::Execute("ActivateWindow(1101)");
       return true;
@@ -659,8 +659,11 @@ bool CGUIWindowPrograms::GetDirectory(const CStdString &strDirectory, CFileItemL
       m_dlgProgress->SetLine(0, 20120);
       m_dlgProgress->SetLine(1,"");
       m_dlgProgress->SetLine(2, item->GetLabel());
-      m_dlgProgress->StartModal();
-      bProgressVisible = true;
+	  if (!CFile::Exists("special://xbmc/system/toggles/fast game scanning.enabled"))
+	  {
+        m_dlgProgress->StartModal();
+      }
+	  bProgressVisible = true;
     }
     if (bProgressVisible)
     {
@@ -668,7 +671,7 @@ bool CGUIWindowPrograms::GetDirectory(const CStdString &strDirectory, CFileItemL
       m_dlgProgress->Progress();
     }
 
-    if (item->m_bIsFolder && !item->IsParentFolder() && !item->IsPlugin() && CFile::Exists("special://xbmc/system/faster_game_Loading.bin"))
+    if (item->m_bIsFolder && !item->IsParentFolder() && !item->IsPlugin() && CFile::Exists("special://xbmc/system/toggles/fast game scanning.enabled"))
     { // folder item - let's check for a default.xbe file, and flatten if we have one
       CStdString defaultXBE;
       URIUtils::AddFileToFolder(item->GetPath(), "default.xbe", defaultXBE);
@@ -676,7 +679,7 @@ bool CGUIWindowPrograms::GetDirectory(const CStdString &strDirectory, CFileItemL
       item->m_bIsFolder = false;
     }
 
-    if (item->m_bIsFolder && !item->IsParentFolder() && !item->IsPlugin() && !CFile::Exists("special://xbmc/system/faster_game_Loading.bin"))
+    if (item->m_bIsFolder && !item->IsParentFolder() && !item->IsPlugin() && !CFile::Exists("special://xbmc/system/toggles/fast game scanning.enabled"))
     { // folder item - let's check for a default.xbe file, and flatten if we have one
       CStdString defaultXBE;
       URIUtils::AddFileToFolder(item->GetPath(), "default.xbe", defaultXBE);

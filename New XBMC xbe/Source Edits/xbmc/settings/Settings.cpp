@@ -1194,19 +1194,19 @@ bool CSettings::LoadProfile(unsigned int index)
     strLanguage[0] = toupper(strLanguage[0]);
 
     CStdString strLangInfoPath;
-    strLangInfoPath.Format("special://xbmc/language/%s/langinfo.xml", strLanguage.c_str());
+    strLangInfoPath.Format("special://xbmc/system/language/%s/langinfo.xml", strLanguage.c_str());
     CLog::Log(LOGINFO, "load language info file:%s", strLangInfoPath.c_str());
     g_langInfo.Load(strLangInfoPath);
 
 #ifdef _XBOX
     CStdString strKeyboardLayoutConfigurationPath;
-    strKeyboardLayoutConfigurationPath.Format("special://xbmc/language/%s/keyboardmap.xml", strLanguage.c_str());
+    strKeyboardLayoutConfigurationPath.Format("special://xbmc/system/language/%s/keyboardmap.xml", strLanguage.c_str());
     CLog::Log(LOGINFO, "load keyboard layout configuration info file: %s", strKeyboardLayoutConfigurationPath.c_str());
     g_keyboardLayoutConfiguration.Load(strKeyboardLayoutConfigurationPath);
 #endif
 
     CButtonTranslator::GetInstance().Load();
-    g_localizeStrings.Load("special://xbmc/language/", strLanguage);
+    g_localizeStrings.Load("special://xbmc/system/language/", strLanguage);
 
     g_infoManager.ResetCache();
     g_infoManager.ResetLibraryBools();

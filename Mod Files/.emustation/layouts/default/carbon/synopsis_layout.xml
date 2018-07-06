@@ -76,7 +76,7 @@
 	<width>595</width>
 	<height>314</height>
 	<aspectratio>keep</aspectratio>
-	<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+	<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>ThumbCrossfadeTime</fadetime>
 	<include>EmulatorScrollFade</include>
 	<visible>!Player.HasVideo</visible>

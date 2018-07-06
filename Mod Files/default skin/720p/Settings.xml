@@ -98,41 +98,65 @@
 										<label>480</label>
 										<onclick>ActivateWindow(AppearanceSettings)</onclick>
 										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
+								</item>
+								<item>
+										<label>292</label>
+										<onclick>ActivateWindow(MusicSettings)</onclick>
+										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>32022</label>
 										<onclick>ActivateWindow(guicalibration)</onclick>
 										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>7</label>
 										<onclick>ActivateWindow(FileManager)</onclick>
 										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>705</label>
 										<onclick>ActivateWindow(NetworkSettings)</onclick>
 										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>0</label>
 										<onclick>ActivateWindow(ProgramsSettings)</onclick>
 										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>13000</label>
 										<onclick>ActivateWindow(SystemSettings)</onclick>
 										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>157</label>
 										<onclick>ActivateWindow(VideosSettings)</onclick>
 										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>Acknowledgements</label>
 										<onclick>ActivateWindow(1900)</onclick>
 										<icon>-</icon>
+								</item>
+								<item>
+										<label>Change Log</label>
+										<onclick>ActivateWindow(1400)</onclick>
+										<icon>-</icon>
+								</item>
+								<item>
+										<label>Downloader</label>
+										<onclick>ActivateWindow(1901)</onclick>
+										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 								<item>
 										<label>138</label>
@@ -143,11 +167,7 @@
 										<label>welcome screen</label>
 										<onclick>ActivateWindow(1200)</onclick>
 										<icon>-</icon>
-								</item>
-								<item>
-										<label>Downloader</label>
-										<onclick>ActivateWindow(1901)</onclick>
-										<icon>-</icon>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</item>
 						</content>
 				</control>

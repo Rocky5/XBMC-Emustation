@@ -40,6 +40,19 @@
 	<colordiffuse>FFC5C6C7</colordiffuse>
 	<texture>background diffuse.png</texture>
 </control>
+<!-- Fanart -->
+<control type="largeimage">
+	<posx>0</posx>
+	<posy>115</posy>
+	<width>1280</width>
+	<height>558</height>
+	<aspectratio>scale</aspectratio>
+	<colordiffuse>10FFFFFF</colordiffuse>
+	<texture>[Media_Path]\screenshots\$INFO[Container(9000).listitem.thumb]</texture>
+	<fadetime>FanartCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
+	<visible>[Fanart_Toggle]</visible>
+</control>
 <!-- Context Button Overlay -->
 <include>ContextButtonsEmulators</include>
 <include>ContextButtonsVideo</include>
@@ -55,12 +68,14 @@
 		<width>250</width>
 		<height>225</height>
 		<aspectratio>keep</aspectratio>
-		<texture background="true" fallback="layouts/art/no_thumbnail.png">$INFO[Container(9000).listitem.thumb]</texture>
+		<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
 		<fadetime>ThumbCrossfadeTime</fadetime>
 		<include>EmulatorScrollFade</include>
+		<animation effect="fade" reversable="true" start="100" end="1" time="0" condition="Player.HasVideo">conditional</animation>
 	</control>
 	<!-- Full name, publisher info eg... -->
 	<control type="label">
+		<height>225</height>
 		<width min="200" max="435">auto</width>
 		<font>size_18</font>
 		<textcolor>FF3C3D3E</textcolor>
@@ -85,18 +100,6 @@
 	<label>[UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE]</label>
 	<include>EmulatorScrollFade</include>
 </control>
-<!-- Video Window Background -->
-<control type="image">
-	<description>video preview window background</description>
-	<posx>32</posx>
-	<posy>159</posy>
-	<width>250</width>
-	<height>225</height>
-	<aspectratio>stretch</aspectratio>
-	<colordiffuse>FF97999B</colordiffuse>
-	<texture>background diffuse.png</texture>
-	<visible>Player.HasVideo</visible>
-</control>
 <!-- Video Window -->
 <control type="videowindow">
 	<description>video preview window</description>
@@ -105,8 +108,7 @@
 	<width>250</width>
 	<height>225</height>
 	<aspectratio>keep</aspectratio>
-	<animation effect="fade" start="0" end="100" delay="800" time="600">WindowOpen</animation>
-	<animation effect="fade" start="100" end="0" delay="0" time="100">WindowClose</animation>
+	<animation effect="fade" start="0" end="100" delay="100" time="200" condition="Player.HasVideo">conditional</animation>
 </control>
 <!-- List Control -->
 <control type="list" id="9000">
