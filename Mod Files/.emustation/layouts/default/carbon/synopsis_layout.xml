@@ -142,4 +142,5 @@
 			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</focusedlayout>
+	<!-- content list this label is required -->
 </control>

@@ -540,7 +540,7 @@ if EMU_Files == 1:
 				gamelistfile = gamelistfile.read()
 				gamelistfile = gamelistfile.replace('[ArtworkFolder]',xbmc.getInfoLabel( 'skin.string(Custom_Media_Path)' ) + xbmc.getInfoLabel( 'Skin.String(emuname)' ) + '\$INFO[Skin.String('+ MenuLabel +'_artworkfolder)]\\')
 				for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
-					if '</focusedlayout>' in line:
+					if '<!-- content list this label is required -->' in line:
 						line = line.replace(line,line+gamelistfile)
 					print line,
 			with open(_Script_Jump_Path, "w") as inputfile:

@@ -1,3 +1,9 @@
+08/07/2018
+	1) enable/disabled the splash scripts fixed.
+	2) Preview videos script fixed and updated for xbox games, aslo streamlined it.
+	3) Updated menu_loader.py and also had to update the layout files.
+
+
 06/07/2018:
 	1) Added Xbox to the static menu system, so now you can have synopsis eg...
 	2) Updated the "create_rom_lists.py" script to parse Xbox games and also simplify/cleanup the gamelist.xml files.

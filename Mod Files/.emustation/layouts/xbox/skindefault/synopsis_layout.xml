@@ -68,12 +68,12 @@
 	<include>EmulatorScrollFade</include>
 	<visible>!Player.HasVideo</visible>
 	<animation type="WindowOpen" reversible="false">
-			<effect type="fade" start="0" end="100" time="500" delay="500"/>
-			<effect type="slide" start="0" end="55" time="500" delay="500"/>
+		<effect type="fade" start="0" end="100" time="500" delay="500"/>
+		<effect type="slide" start="0" end="55" time="500" delay="500"/>
 	</animation>
 	<animation type="conditional" condition="!Container(9000).OnPrevious + !Container(9000).OnNext" reversible="false">
-			<effect type="slide" start="0" end="55" time="500" delay="500"/>
-			<effect type="fade" start="0" end="100" time="500" delay="500"/>
+		<effect type="slide" start="0" end="55" time="500" delay="500"/>
+		<effect type="fade" start="0" end="100" time="500" delay="500"/>
 	</animation>
 	<animation effect="fade" start="100" end="0" time="0">WindowClose</animation>
 	<animation center="auto" condition="true" effect="rotate" end="-360" loop="true" reversible="true" time="7000">conditional</animation>
@@ -182,4 +182,5 @@
 			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 		</control>
 	</focusedlayout>
+	<!-- content list this label is required -->
 </control>

@@ -5,6 +5,12 @@
 import os, xbmc, xbmcgui
 
 if str( xbmc.getCondVisibility( 'Skin.HasSetting(introenabled)' ) ) == "1":
-	with open('Q:\\system\\nosplash.bin', 'w') as nosplash: nosplash.write( '' )
+	if os.path.isfile('Q:\\system\\toggles\\no splash.disabled'):
+		os.rename('Q:\\system\\toggles\\no splash.disabled','Q:\\system\\toggles\\no splash.enabled')
+	else:
+		with open('Q:\\system\\toggles\\no splash.enabled', 'w') as nosplash: nosplash.write( '' )
 else:
-	if os.path.isfile('Q:\\system\\nosplash.bin'): os.remove('Q:\\system\\nosplash.bin')
+	if os.path.isfile('Q:\\system\\toggles\\no splash.enabled'):
+		os.rename('Q:\\system\\toggles\\no splash.enabled','Q:\\system\\toggles\\no splash.disabled')
+	else:
+		os.remove('Q:\\system\\toggles\\no splash.enabled')

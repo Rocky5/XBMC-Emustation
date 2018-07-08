@@ -7,7 +7,7 @@ Del /Q /S "Thumbs.db" 2>NUL
 title XBMC-Emustation Builder
 
 Set "foldername=update-files"
-Set "fromDate=06/03/2018"
+Set "fromDate=06/07/2018"
 Set "toDate=%date%"
 Set "version=1.1"
 (

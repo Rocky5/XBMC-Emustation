@@ -7,10 +7,10 @@ xbmcgui.lock()
 autoexec_data = "import os, xbmcgui\n\
 if xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ) == 1:\n\
 	if xbmc.getCondVisibility( 'Skin.HasSetting(gameloaded)' ) == 1:\n\
-		xbmc.executebuiltin('Skin.Reset(gameloaded)')\n\
-		if os.path.isfile('Q:\\\\system\\\\nosplash.bin'): os.remove('Q:\\\\system\\\\nosplash.bin')\n\
 		xbmc.executebuiltin('ActivateWindow(1)')\n\
 		xbmc.executebuiltin('SetFocus(9000,%s)')\n\
+		xbmc.executebuiltin('Skin.Reset(gameloaded)')\n\
+		xbmc.executebuiltin('RunScript(Q:\\.emustation\\scripts\\disable_splash.py)')\n\
 else:\n\
 	xbmc.executebuiltin('Skin.Reset(gameloaded)')"
 try:
@@ -40,7 +40,10 @@ try:
 		else:
 			cut.write( '<shortcut><path>%s</path><label>launcher</label><custom><game>%s</game></custom></shortcut>' % ( os.path.join( Custom_Emus_Path,Emu_Name,Emu_Path ),os.path.join( Custom_Roms_Path,Emu_Name,Rom_Name_Path ) ) )
 	if not Favourite_Launch and str( xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ) ) == "1":
-		with open('Q:\\system\\nosplash.bin', 'w') as nosplash: nosplash.write( '' )
+		if os.path.isfile('Q:\\system\\toggles\\no splash.disabled'):
+			os.rename('Q:\\system\\toggles\\no splash.disabled','Q:\\system\\toggles\\no splash.enabled')
+		else:
+			with open('Q:\\system\\toggles\\no splash.enabled', 'w') as nosplash: nosplash.write( '' )
 		with open('Q:\\system\\scripts\\autoexec.py', 'w') as autoexec: autoexec.write( autoexec_data % ( Current_position ) )
 	else: pass
 	if not Favourite_Launch: xbmc.executebuiltin('Skin.SetBool(gameloaded)')
