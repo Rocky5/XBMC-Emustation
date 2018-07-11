@@ -91,7 +91,7 @@
 				<control type="wraplist" id="9000">
 						<posx>0</posx>
 						<posy>310</posy>
-						<width>1280</width>
+						<width>1480</width>
 						<height>1280</height>
 						<onleft>9000</onleft>
 						<onright>9000</onright>

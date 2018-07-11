@@ -345,7 +345,7 @@
 				<lan>1024</lan>
 		</cachevideo>
 		<debug>
-				<screenshotpath pathversion="1">Q:\system\screenshots\</screenshotpath>
+				<screenshotpath pathversion="1">Special://xbmc/system/Screenshots/</screenshotpath>
 				<showloginfo>false</showloginfo>
 		</debug>
 		<dvdplayercache>
@@ -556,8 +556,7 @@
 				</sep1>
 				<sep2>
 				</sep2>
-				<slideshowpath pathversion="1">
-				</slideshowpath>
+				<slideshowpath pathversion="1">Q:\system\screensavers\Artwork\</slideshowpath>
 				<time>5</time>
 				<usedimonpause>false</usedimonpause>
 				<usemusicvisinstead>true</usemusicvisinstead>

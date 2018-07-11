@@ -13,7 +13,20 @@ if not exist "%foldername%" (
 	timeout /t 5
 	Exit
 )
-
+Set "fromDate=06/07/2018"
+Set "toDate=%date%"
+Set "version=1.1"
+(
+echo fromDate^=CDate^("%fromDate%"^)
+echo toDate^=CDate^("%toDate%"^)
+echo WScript.Echo DateDiff^("d",fromDate,toDate,vbMonday^)
+)>tmp.vbs
+for /f %%a in ('cscript /nologo tmp.vbs') do (
+if %%a GEQ 100 Set "daytotal=%%a"
+if %%a LSS 100 Set "daytotal=0%%a"
+if %%a LSS 10 Set "daytotal=00%%a"
+)
+del tmp.vbs
 cls
 Echo: & Echo: & Echo: & Echo   Please wait...
 
@@ -53,7 +66,7 @@ rd /q /s "%foldername%\.emustation\scripts\not used"
 rd /q /s "%foldername%\default skin\media\Use for custom home layouts"
 copy /y "Changes.txt" "%foldername%"
 if exist "..\Other\build for release" (
-	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation 1.1.000" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
+	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation %version%.%daytotal%" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
 	Del "%foldername%\default skin\language\English\strings.po"
 	rename "%foldername%\default skin\language\English\strings.tmp" "strings.po"
 	Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"

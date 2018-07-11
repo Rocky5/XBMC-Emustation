@@ -41,7 +41,7 @@ rd /q /s "%foldername%\default skin\media\Use for custom home layouts"
 )
 copy /y "Changes.txt" "%foldername%"
 if exist "..\Other\build for release" (
-	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation 1.1.%daytotal%" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
+	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation %version%.%daytotal%" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
 	Del "%foldername%\default skin\language\English\strings.po"
 	rename "%foldername%\default skin\language\English\strings.tmp" "strings.po"
 	Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"

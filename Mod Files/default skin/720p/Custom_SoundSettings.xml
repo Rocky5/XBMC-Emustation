@@ -8,8 +8,18 @@
 								<posx>320</posx>
 								<posy>108</posy>
 								<width>640</width>
+								<height>221</height>
+								<texture border="20,20,20,20">menu_back.png</texture>
+								<visible>Skin.HasSetting(KioskMode)</visible>
+						</control>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
 								<height>421</height>
 								<texture border="20,20,20,20">menu_back.png</texture>
+								<visible>!Skin.HasSetting(KioskMode)</visible>
 						</control>
 						<control type="label">
 								<description>heading label</description>
@@ -51,6 +61,7 @@
 										<onclick>Skin.ToggleSetting(DisabledSounds)</onclick>
 										<onclick>RunScript( Special://xbmc/.emustation/scripts/dis-enable_navsounds.py )</onclick>
 										<selected>Skin.HasSetting(DisabledSounds)</selected>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="radiobutton" id="3">
 										<posx>0</posx>
@@ -59,6 +70,7 @@
 										<include>MenuButtonCommonValues</include>
 										<onclick>Skin.ToggleSetting(Use_Startup_Playback)</onclick>
 										<selected>Skin.HasSetting(Use_Startup_Playback)</selected>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="4">
 										<posx>0</posx>
@@ -70,6 +82,7 @@
 										<include>MenuButtonCommonValues</include>
 										<onclick>RunScript( Special://xbmc/.emustation/scripts/generate_playlist.py )</onclick>
 										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="5">
 										<posx>0</posx>
@@ -81,6 +94,7 @@
 										<onclick>ActivateWindow(500)</onclick>
 										<onclick>Dialog.Close(1112,true)</onclick>
 										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 						</control>
 						<control type="label">

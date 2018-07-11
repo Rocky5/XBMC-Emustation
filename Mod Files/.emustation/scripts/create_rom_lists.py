@@ -96,7 +96,6 @@ def Get_Title_Letter(Title_Letter):
 	if Title_Letter.lower().startswith("y"): Xbox_Thumb_Folder = "Y"
 	if Title_Letter.lower().startswith("z"): Xbox_Thumb_Folder = "Z"
 	return Xbox_Thumb_Folder
-####
 def Main_Code():
 	## These are outside the loop so they don't reset every time.
 	## Set the dialog create & found roms var.
@@ -105,6 +104,7 @@ def Main_Code():
 	intialrun = 0
 	Use_NoIntroNames = 0
 	_Resources = 0
+	Allow_Xbox_Overwrite = 0
 	## Check if _emulators directory is selected instead of the emulator its self.
 	if os.path.isdir( Emulator_Folder_Path ):
 		## Parse all folder in the Emulators_Path	
@@ -144,8 +144,8 @@ def Main_Code():
 				if not Emu_Name == "xbox" and dialog.yesno("ROM DISPLAY NAMES","Do you want to use the names stored in the","synopsis files instead of the roms filenames?","If you select no, rom filenames will be used.") == 1:
 					Use_NoIntroNames = 1
 				if Emu_Name == "xbox" or Full_Scan == "auto":
-					if dialog.yesno("XBOX GAME ARTWORK","Do you want to use _resources folders for art?","If you select no, covers will display your default.tbn","or an image will be extracted from the game xbe."):
-						_Resources = 1
+					if dialog.yesno("XBOX ARTWORK","Do you want to use _resources folders for art?","If you select no, covers will display your default.tbn","or an image will be extracted from the game xbe."): _Resources = 1
+					if dialog.yesno("UPDATE XBOX ARTWORK?","Selecting yes, will update any artwork that","differs from the currently cached artwork.","Selecting no will add only new artwork."): Allow_Xbox_Overwrite = 1
 			## Set tbn and gameslist path variable.
 			Media_Path			= os.path.join( Media_Folder_Path, Emu_Name )
 			Games_List_Path		= os.path.join( Root_Directory, '.emustation\\gamelists', Emu_Name )
@@ -160,9 +160,6 @@ def Main_Code():
 				Synopsis_Zip = os.path.join( os.path.join( Synopsis_Path, 'pce-cd' ) ) + '.zip'
 			else:
 				Synopsis_Zip = os.path.join( os.path.join( Synopsis_Path, Emu_Name ) ) + '.zip'
-			## Check for previous layout xml and if it exists remove it.
-			if os.path.isdir( Games_List_Path ): shutil.rmtree( Games_List_Path )
-			if not os.path.isdir( Games_List_Path ): os.makedirs( Games_List_Path )
 			if not Emu_Name == "xbox":
 				if not os.path.isdir( os.path.join( Media_Path,'boxart' ) ): os.makedirs( os.path.join( Media_Path,'boxart' ) )
 				if not os.path.isdir( os.path.join( Media_Path,'boxart3d' ) ): os.makedirs( os.path.join( Media_Path,'boxart3d' ) )
@@ -195,8 +192,8 @@ def Main_Code():
 				Parse_CUE_CCD_ISO_File = 1
 			elif Emu_Name == "xbox":
 				Parse_Xbox_Games = 1
-				Xbox_Roms_Folder = "Z:\\temp\\xbox game list"
-				Roms_Folder = Xbox_Roms_Folder
+				Xbox_Games_Folder = "Z:\\temp\\xbox game list"
+				Roms_Folder = Xbox_Games_Folder
 			else:
 				pass
 			if Parse_CUE_File: Rom_Type_Total = (len(glob.glob1(Roms_Folder,'*.cue')))
@@ -207,10 +204,6 @@ def Main_Code():
 			## below slower than just doing what I do below.
 			# if len(os.walk(Roms_Folder).next()[2]) > 0:
 			if len(os.listdir( Roms_Folder )) > 0 or Emu_Name == "xbox":
-				## Write new gamelist xml header.
-				with open( os.path.join( Games_List_Path, 'gamelist.xml' ), "wb") as outputmenufile:
-					WriteMenuFile = menu_entry_header
-					outputmenufile.write( WriteMenuFile )
 				## Check to see if vars are the value I need and create a new dialog.
 				if CreateDialog == 1:
 					#CreateDialog = 0
@@ -293,7 +286,6 @@ def Main_Code():
 									else:
 										XBEFile = os.path.join( Game_Directory, "default.xbe" )
 									if os.path.isfile( XBEFile ):
-										if os.path.isfile( os.path.join( Media_Folder_Path, "xbox\\GameNames.txt" ) ): os.remove( os.path.join( Media_Folder_Path, "xbox\\GameNames.txt" ) )
 										_Resources_PosterFile = os.path.join( Game_Directory, "_resources\\artwork\\poster.jpg" )
 										_Resources_Poster3dFile = os.path.join( Game_Directory, "_resources\\artwork\\dual3d.jpg" )
 										_Resources_CDFile = os.path.join( Game_Directory, "_resources\\artwork\\cd.png" )
@@ -314,7 +306,7 @@ def Main_Code():
 										XBETitle =  XBEInfo[0]
 										XBETitle_List = XBETitle.lower().replace(' ','')
 										XBETitle_List = XBETitle_List.replace('-','')
-										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Roms_Folder, XBETitle_List ) )
+										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Games_Folder, XBETitle_List ) )
 										# Get first letter of the games titleid and set a variable
 										Xbox_Thumb_Folder = Get_Title_Letter( XBETitle )
 										# Create folder structure for xbox games to speed up loading of images
@@ -333,8 +325,9 @@ def Main_Code():
 												altnumb = altnumb+1
 										if _Resources == 0:
 											if os.path.isfile( TBNFile ):
+												# Default.tbn
 												if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ) ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	) , TBNFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	) , TBNFile, shallow=0 ):
 														shutil.copy2( TBNFile, os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ) )
 												else:
 													shutil.copy2( TBNFile, os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ) )
@@ -346,7 +339,7 @@ def Main_Code():
 													pass
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ) ):
 												if os.path.isfile( FanartFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	) , FanartFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	) , FanartFile, shallow=0 ):
 														shutil.copy2( FanartFile, Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	)
 											else:
 												if os.path.isfile( FanartFile ):
@@ -357,7 +350,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ) ):
 												#print XBEID + " baxart already present"
 												if os.path.isfile( _Resources_PosterFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	), _Resources_PosterFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	), _Resources_PosterFile, shallow=0 ):
 														if os.path.isfile( _Resources_PosterFile ):
 															shutil.copy2( _Resources_PosterFile, Media_Folder_Path + "xbox\\boxart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
 											else:
@@ -376,7 +369,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\boxart3d\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 ) ):
 												#print XBEID + " 3d boxart already present"
 												if os.path.isfile( _Resources_IconFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\boxart3d\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_IconFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\boxart3d\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_IconFile, shallow=0 ):
 														if os.path.isfile( _Resources_IconFile ):
 															shutil.copy2( _Resources_IconFile, Media_Folder_Path + "xbox\\boxart3d\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
 											else:
@@ -386,7 +379,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\disc\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 ) ):
 												#print XBEID + " cd already present"
 												if os.path.isfile( _Resources_CDFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\disc\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_CDFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\disc\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_CDFile, shallow=0 ):
 														if os.path.isfile( _Resources_CDFile ):
 															shutil.copy2( _Resources_CDFile, Media_Folder_Path + "xbox\\disc\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 )
 											else:
@@ -396,7 +389,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\cdposter\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 ) ):
 												#print XBEID + " disc case already present"
 												if os.path.isfile( _Resources_CDPosterFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\cdposter\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_CDPosterFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\cdposter\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_CDPosterFile, shallow=0 ):
 														if os.path.isfile( _Resources_CDPosterFile ):
 															shutil.copy2( _Resources_CDPosterFile, Media_Folder_Path + "xbox\\cdposter\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
 											else:
@@ -406,7 +399,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\dual\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 ) ):
 												#print XBEID + " dual 3d already present"
 												if os.path.isfile( _Resources_Poster3dFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\dual\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_Poster3dFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\dual\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_Poster3dFile, shallow=0 ):
 														if os.path.isfile( _Resources_Poster3dFile ):
 															shutil.copy2( _Resources_Poster3dFile, Media_Folder_Path + "xbox\\dual\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
 											else:
@@ -416,7 +409,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\opencase\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 ) ):
 												#print XBEID + " mix already present"
 												if os.path.isfile( _Resources_OpenCaseFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\opencase\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_OpenCaseFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\opencase\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ), _Resources_OpenCaseFile, shallow=0 ):
 														if os.path.isfile( _Resources_OpenCaseFile ):
 															shutil.copy2( _Resources_OpenCaseFile, Media_Folder_Path + "xbox\\opencase\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
 											else:
@@ -426,7 +419,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  ) ):
 												#print XBEID + " fanart already present"
 												if os.path.isfile( _Resources_FanartFile ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	), _Resources_FanartFile, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	), _Resources_FanartFile, shallow=0 ):
 														if os.path.isfile( _Resources_FanartFile ):
 															shutil.copy2( _Resources_FanartFile, Media_Folder_Path + "xbox\\fanart\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
 														elif os.path.isfile( FanartFile ):
@@ -440,7 +433,7 @@ def Main_Code():
 											if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\screenshots\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	) ):
 												#print XBEID + " screenshots already present"
 												if os.path.isfile( _Resources_Screenshot ):
-													if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\screenshots\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 ), _Resources_Screenshot, shallow=0 ):
+													if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\screenshots\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	 ), _Resources_Screenshot, shallow=0 ):
 														if os.path.isfile( _Resources_Screenshot ):
 															shutil.copy2( _Resources_Screenshot, Media_Folder_Path + "xbox\\screenshots\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	)
 											else:
@@ -451,7 +444,7 @@ def Main_Code():
 												if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\videos\\" + XBEID + Files[-4:] ) ):
 													#print XBEID + " videos already present"
 													if os.path.isfile( Files ):
-														if not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\videos\\" + XBEID + Files[-4:] ), Files, shallow=0 ):
+														if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\videos\\" + XBEID + Files[-4:] ), Files, shallow=0 ):
 															if os.path.isfile( Files ):
 																shutil.copy2( Files, Media_Folder_Path + "xbox\\videos\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
 												else:
@@ -515,6 +508,14 @@ def Main_Code():
 							# CountList = CountList + 1
 						# except: pass
 					# return
+				## Check for previous layout xml and if it exists remove it.
+				if os.path.isdir( Games_List_Path ): shutil.rmtree( Games_List_Path )
+				if not os.path.isdir( Games_List_Path ): os.makedirs( Games_List_Path )
+				if Parse_Xbox_Games == 1 and os.path.isfile( os.path.join( Media_Folder_Path, "xbox\\GameNames.txt" ) ): os.remove( os.path.join( Media_Folder_Path, "xbox\\GameNames.txt" ) )
+				## Write new gamelist xml header.
+				with open( os.path.join( Games_List_Path, 'gamelist.xml' ), "wb") as outputmenufile:
+					WriteMenuFile = menu_entry_header
+					outputmenufile.write( WriteMenuFile )
 				## Listing the content of the roms folder for parsing.
 				for Items in sorted([f for f in os.listdir( Roms_Folder )]):
 					## Checking the file I find, extension against my table.
@@ -523,7 +524,7 @@ def Main_Code():
 						Rom_Name = Items.lower()
 						Rom_Name_noext = Rom_Name[:-4]
 						if Emu_Name == "xbox":
-							with open(os.path.join( Xbox_Roms_Folder, Rom_Name ), "r") as input:
+							with open(os.path.join( Xbox_Games_Folder, Rom_Name ), "r") as input:
 								Rom_Name_noext = input.readline()
 								Emu_XBE = input.readline()
 								skip = input.readline()
@@ -729,7 +730,7 @@ def Main_Code():
 										elif Synopsis_nointroname_Set == 0:
 											pass
 										if Emu_Name == "xbox":
-											with open(os.path.join( Xbox_Roms_Folder, Rom_Name ), "r") as input:
+											with open(os.path.join( Xbox_Games_Folder, Rom_Name ), "r") as input:
 												skip = input.readline()
 												skip = input.readline()
 												skip = input.readline()
@@ -790,7 +791,7 @@ def Main_Code():
 								Synopsis2 = Synopsis2.replace( '<', '&lt;' )
 						except:
 							if Emu_Name == "xbox":
-								with open(os.path.join( Xbox_Roms_Folder, Rom_Name ), "r") as input:
+								with open(os.path.join( Xbox_Games_Folder, Rom_Name ), "r") as input:
 									skip = input.readline()
 									skip = input.readline()
 									skip = input.readline()
@@ -878,7 +879,7 @@ def Main_Code():
 									pDialog.update((CountList * 100) / Rom_Type_Total,'Creating [B][UPPERCASE]' + Emu_Name + '[/UPPERCASE][/B] Rom list',Rom_Name_noext,'This can take some time, please be patient.' )
 									WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,Synopsis2,Thumbnail,"[ArtworkFolder]",'RunScript( Special://xbmc/.emustation/scripts/launcher.py,' + Emu_XBE + ',' + Rom_Path + ',,' + str(CountList) + ' )',"ActivateWindow(1101)")
 								elif Emu_Name == "xbox":
-									with open(os.path.join( Xbox_Roms_Folder, Rom_Name ), "r") as input:
+									with open(os.path.join( Xbox_Games_Folder, Rom_Name ), "r") as input:
 										GameTitle = input.readline()
 										GamePath = input.readline()
 										GameLetter = input.readline()
@@ -900,7 +901,7 @@ def Main_Code():
 								elif Emu_Name == "n64":
 									WriteMenuFile = favourites_entry % (N64_Rom_Name,Emu_XBE,Rom_Path)
 								elif Emu_Name == "xbox":
-									with open(os.path.join( Xbox_Roms_Folder, Rom_Name ), "r") as input:
+									with open(os.path.join( Xbox_Games_Folder, Rom_Name ), "r") as input:
 										Rom_Name_noext = input.readline()
 										Emu_XBE = input.readline()
 										WriteMenuFile = favourites_entry % (Rom_Name_noext[:-1],Emu_XBE[:-1],"null")

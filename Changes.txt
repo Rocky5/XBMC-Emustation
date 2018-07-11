@@ -1,3 +1,14 @@
+11/07/2018
+	1) Added the option to overwrite or only add new artwork when scanning Xbox games.
+	2) Fixed the favourites script not working with games like 007, as the Unicode code escape code breaks these titles due to \007 :/ so don't use Unicode character as filename in the synopsis file, if you make any.
+	3) Increased the width of the carousel to stop long system logos getting cut off before the leave the screen.
+	4) Updated the Genesis and Megadrive emulators to use 3 button controls by default.
+	   ( By default I don't overwrite custom emulator paths, so you will need to copy these two emulators to there custom location if you want the changes )
+	5) Added a set path to the guisettings.xml for screensaver - slideshow as I added a artwork fanart pack. Gets installed to Q:\system\screensavers\artwork\
+	6) Updated the kiosk mode script so its text doesn't get cut off and updated what menus are visible when this mode is enabled.
+	7) C64 synopsis added.
+
+
 08/07/2018
 	1) enable/disabled the splash scripts fixed.
 	2) Preview videos script fixed and updated for xbox games, aslo streamlined it.
