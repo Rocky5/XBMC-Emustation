@@ -1,3 +1,11 @@
+14/07/2018
+	1) Changed the no thumb image to a cleaner looking text based one.
+	2) Fixed a bug in XBMC that would corrupt your favourites.xml if you reloaded the skin when editing a label.
+		( this is a source edit to XBMC as there is no other way to fix it, so new xbe )
+	3) Removed C64 synopsis as there are over 5000 files and the folder limit for Xbox hdd is just over 4000.
+		( so use a program to scan your roms and my python script to create synopsis files, as I wont be adding sub directory support )
+
+
 11/07/2018
 	1) Added the option to overwrite or only add new artwork when scanning Xbox games.
 	2) Fixed the favourites script not working with games like 007, as the Unicode code escape code breaks these titles due to \007 :/ so don't use Unicode character as filename in the synopsis file, if you make any.

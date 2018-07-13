@@ -10,8 +10,9 @@ if os.path.isfile( Root_Directory + '.emustation\\scripts\\versioner.py' ): os.r
 if os.path.isfile( Root_Directory + '.emustation\\scripts\\scanner.py' ): os.remove( Root_Directory + '.emustation\\scripts\\scanner.py' )
 if os.path.isfile( Root_Directory + 'system\\version.bin' ): os.remove( Root_Directory + 'system\\version.bin' )
 if os.path.isdir( Root_Directory + 'system\\UserData\\Thumbnails\\Programs' ): shutil.rmtree( Root_Directory + 'system\\UserData\\Thumbnails\\Programs' )
-if os.path.isdir( Root_Directory + '.emustation\\layouts\\home\\previews' ):	shutil.rmtree( Root_Directory + '.emustation\\layouts\\home\\previews' )
-if os.path.isdir( Root_Directory + '.emustation\\layouts\\home\\other' ):	shutil.rmtree( Root_Directory + '.emustation\\layouts\\home\\other' )
+if os.path.isdir( Root_Directory + '.emustation\\layouts\\home\\previews' ): shutil.rmtree( Root_Directory + '.emustation\\layouts\\home\\previews' )
+if os.path.isdir( Root_Directory + '.emustation\\layouts\\home\\other' ): shutil.rmtree( Root_Directory + '.emustation\\layouts\\home\\other' )
+if os.path.isdir( Root_Directory + '.emustation\\synopsis\\synopsis' ): shutil.rmtree( Root_Directory + '.emustation\\synopsis\\synopsis' )
 if os.path.isfile( zip_file ):
 	with zipfile.ZipFile( zip_file ) as zip:
 		pDialog.create( "EXTRACTING ZIP","","Please wait..." )

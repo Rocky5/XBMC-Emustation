@@ -173,11 +173,11 @@ void CGUIDialogFavourites::OnRename(int item)
 
   CStdString label((*m_favourites)[item]->GetLabel());
   if (CGUIDialogKeyboard::ShowAndGetInput(label, g_localizeStrings.Get(16008), false))
-    (*m_favourites)[item]->SetLabel(label);
-
-  CFavourites::Save(*m_favourites);
-
-  UpdateList();
+  {
+	  (*m_favourites)[item]->SetLabel(label);
+	  CFavourites::Save(*m_favourites);
+	  UpdateList();
+  }
 }
 
 void CGUIDialogFavourites::UpdateList()

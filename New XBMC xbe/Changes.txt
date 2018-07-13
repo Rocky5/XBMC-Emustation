@@ -37,3 +37,4 @@
 30) Added slow scrolling for artwork. This can be disabled by renaming the following file Q:\system\toggles\slow scrolling.enabled
 31) Added Special://urldownloader/ so that we can get the absolute path of the urldownloaders installation.
 	( will output for example Q:\.emustation\scripts\urldownloader  )
+32) Fixed favourites getting corrupted if you reload the skin when editing a label.
