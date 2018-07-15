@@ -204,7 +204,7 @@
 								<control type="wraplist" id="9000">
 										<posx>0</posx>
 										<posy>310</posy>
-										<width>1280</width>
+										<width>1480</width>
 										<height>1280</height>
 										<onleft>9000</onleft>
 										<onright>9000</onright>
@@ -885,6 +885,7 @@
 														<onclick>RunScript(Special://xbmc/.emustation/scripts/menu_loader.py)</onclick>
 														<icon>layouts/xbox/art/system_art.png</icon>
 														<thumb>layouts/xbox/art/logo.png</thumb>
+														<visible>IntegerGreaterThan(Skin.String(xbox_games),0)</visible>
 												</item>
 												<item id="73">
 														<label>$INFO[Skin.String(zxspectrum_games)]</label>

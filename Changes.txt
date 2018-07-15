@@ -1,3 +1,10 @@
+15/07/2018
+	1) Fixed the favourites script from allowing the same rom to be added over and over.
+		( don't use readline )
+	2) Stopped the error prompt when selecting Xbox game with no games scanned showing roms.
+	3) Forgot to update the home.xml in the skins folder.
+
+
 14/07/2018
 	1) Changed the no thumb image to a cleaner looking text based one.
 	2) Fixed a bug in XBMC that would corrupt your favourites.xml if you reloaded the skin when editing a label.

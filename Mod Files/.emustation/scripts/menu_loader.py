@@ -557,7 +557,10 @@ if EMU_Files == 1:
 		xbmc.executebuiltin( 'ActivateWindow(Programs,Static_Menu,return)' )
 	else:	# default layout is missing so error!
 		xbmc.executebuiltin('SetFocus(9000)')
-		dialog.ok("ERROR","No rom list found","Rescan this emulator for roms to fix.",os.path.join( Favs_List_Path,'gamelist.xml' ))
+		if MenuLabel == "xbox":
+			dialog.ok("ERROR","No game list found","Rescan your xbox games to fix.",os.path.join( Favs_List_Path,'gamelist.xml' ))
+		else:
+			dialog.ok("ERROR","No rom list found","Rescan this emulator for roms to fix.",os.path.join( Favs_List_Path,'gamelist.xml' ))
 elif XBE_Files == 1:
 		## this is here so not to mess with the actual menulabel
 		if not os.path.isfile( Layout_XML_Path ):
