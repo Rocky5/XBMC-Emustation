@@ -453,14 +453,14 @@ def Main_Code():
 											idlistoutput = str(XBEID)+"\n"
 											idlistfile.write( idlistoutput )
 										if os.path.isfile( XBETitle_List[:61] + ".xbg" ):
-											if os.path.isfile( XBETitle_List[:58] + "alt.xbg" ):
-												with open( XBETitle_List[:57] + "alt1.xbg","w") as ouput:
+											if os.path.isfile( XBETitle_List[:57] + " alt.xbg" ):
+												with open( XBETitle_List[:56] + " alt1.xbg","w") as ouput:
 													ouput.write(XBETitle + "\n")
 													ouput.write(Emu_XBE + "\n")
 													ouput.write(Xbox_Thumb_Folder + "\n")
 													ouput.write(XBEID)
 											else:
-												with open( XBETitle_List[:58] + "alt.xbg","w") as ouput:
+												with open( XBETitle_List[:57] + " alt.xbg","w") as ouput:
 													ouput.write(XBETitle + "\n")
 													ouput.write(Emu_XBE + "\n")
 													ouput.write(Xbox_Thumb_Folder + "\n")
