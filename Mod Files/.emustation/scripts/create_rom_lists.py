@@ -68,33 +68,34 @@ def Extract_XbeInfo(FileName): ## Need to use this as the xbe.py Get_title misse
 	return XbeDta
 def Get_Title_Letter(Title_Letter):
 	Xbox_Thumb_Folder = {}
-	if Title_Letter.lower().startswith("#") or Title_Letter.lower().startswith("'") or Title_Letter.lower().startswith("0") or Title_Letter.lower().startswith("1") or Title_Letter.lower().startswith("2") or Title_Letter.lower().startswith("3") or Title_Letter.lower().startswith("4") or Title_Letter.lower().startswith("5") or Title_Letter.lower().startswith("6") or Title_Letter.lower().startswith("7") or Title_Letter.lower().startswith("8") or Title_Letter.lower().startswith("9"): Xbox_Thumb_Folder = "#"
-	if Title_Letter.lower().startswith("a"): Xbox_Thumb_Folder = "A"
-	if Title_Letter.lower().startswith("b"): Xbox_Thumb_Folder = "B"
-	if Title_Letter.lower().startswith("c"): Xbox_Thumb_Folder = "C"
-	if Title_Letter.lower().startswith("d"): Xbox_Thumb_Folder = "D"
-	if Title_Letter.lower().startswith("e"): Xbox_Thumb_Folder = "E"
-	if Title_Letter.lower().startswith("f"): Xbox_Thumb_Folder = "F"
-	if Title_Letter.lower().startswith("g"): Xbox_Thumb_Folder = "G"
-	if Title_Letter.lower().startswith("h"): Xbox_Thumb_Folder = "H"
-	if Title_Letter.lower().startswith("i"): Xbox_Thumb_Folder = "I"
-	if Title_Letter.lower().startswith("j"): Xbox_Thumb_Folder = "J"
-	if Title_Letter.lower().startswith("k"): Xbox_Thumb_Folder = "K"
-	if Title_Letter.lower().startswith("l"): Xbox_Thumb_Folder = "L"
-	if Title_Letter.lower().startswith("m"): Xbox_Thumb_Folder = "M"
-	if Title_Letter.lower().startswith("n"): Xbox_Thumb_Folder = "N"
-	if Title_Letter.lower().startswith("o"): Xbox_Thumb_Folder = "O"
-	if Title_Letter.lower().startswith("p"): Xbox_Thumb_Folder = "P"
-	if Title_Letter.lower().startswith("q"): Xbox_Thumb_Folder = "Q"
-	if Title_Letter.lower().startswith("r"): Xbox_Thumb_Folder = "R"
-	if Title_Letter.lower().startswith("s"): Xbox_Thumb_Folder = "S"
-	if Title_Letter.lower().startswith("t"): Xbox_Thumb_Folder = "T"
-	if Title_Letter.lower().startswith("u"): Xbox_Thumb_Folder = "U"
-	if Title_Letter.lower().startswith("v"): Xbox_Thumb_Folder = "V"
-	if Title_Letter.lower().startswith("w"): Xbox_Thumb_Folder = "W"
-	if Title_Letter.lower().startswith("x"): Xbox_Thumb_Folder = "X"
-	if Title_Letter.lower().startswith("y"): Xbox_Thumb_Folder = "Y"
-	if Title_Letter.lower().startswith("z"): Xbox_Thumb_Folder = "Z"
+	Title_Letter = Title_Letter.lower().lstrip(' ')
+	if Title_Letter.startswith("#") or Title_Letter.startswith("'") or Title_Letter.startswith("0") or Title_Letter.startswith("1") or Title_Letter.startswith("2") or Title_Letter.startswith("3") or Title_Letter.startswith("4") or Title_Letter.startswith("5") or Title_Letter.startswith("6") or Title_Letter.startswith("7") or Title_Letter.startswith("8") or Title_Letter.startswith("9"): Xbox_Thumb_Folder = "#"
+	if Title_Letter.startswith("a"): Xbox_Thumb_Folder = "A"
+	if Title_Letter.startswith("b"): Xbox_Thumb_Folder = "B"
+	if Title_Letter.startswith("c"): Xbox_Thumb_Folder = "C"
+	if Title_Letter.startswith("d"): Xbox_Thumb_Folder = "D"
+	if Title_Letter.startswith("e"): Xbox_Thumb_Folder = "E"
+	if Title_Letter.startswith("f"): Xbox_Thumb_Folder = "F"
+	if Title_Letter.startswith("g"): Xbox_Thumb_Folder = "G"
+	if Title_Letter.startswith("h"): Xbox_Thumb_Folder = "H"
+	if Title_Letter.startswith("i"): Xbox_Thumb_Folder = "I"
+	if Title_Letter.startswith("j"): Xbox_Thumb_Folder = "J"
+	if Title_Letter.startswith("k"): Xbox_Thumb_Folder = "K"
+	if Title_Letter.startswith("l"): Xbox_Thumb_Folder = "L"
+	if Title_Letter.startswith("m"): Xbox_Thumb_Folder = "M"
+	if Title_Letter.startswith("n"): Xbox_Thumb_Folder = "N"
+	if Title_Letter.startswith("o"): Xbox_Thumb_Folder = "O"
+	if Title_Letter.startswith("p"): Xbox_Thumb_Folder = "P"
+	if Title_Letter.startswith("q"): Xbox_Thumb_Folder = "Q"
+	if Title_Letter.startswith("r"): Xbox_Thumb_Folder = "R"
+	if Title_Letter.startswith("s"): Xbox_Thumb_Folder = "S"
+	if Title_Letter.startswith("t"): Xbox_Thumb_Folder = "T"
+	if Title_Letter.startswith("u"): Xbox_Thumb_Folder = "U"
+	if Title_Letter.startswith("v"): Xbox_Thumb_Folder = "V"
+	if Title_Letter.startswith("w"): Xbox_Thumb_Folder = "W"
+	if Title_Letter.startswith("x"): Xbox_Thumb_Folder = "X"
+	if Title_Letter.startswith("y"): Xbox_Thumb_Folder = "Y"
+	if Title_Letter.startswith("z"): Xbox_Thumb_Folder = "Z"
 	return Xbox_Thumb_Folder
 def Main_Code():
 	## These are outside the loop so they don't reset every time.
@@ -287,14 +288,14 @@ def Main_Code():
 										XBEFile = os.path.join( Game_Directory, "default.xbe" )
 									if os.path.isfile( XBEFile ):
 										_Resources_PosterFile = os.path.join( Game_Directory, "_resources\\artwork\\poster.jpg" )
-										_Resources_Poster3dFile = os.path.join( Game_Directory, "_resources\\artwork\\dual3d.jpg" )
+										_Resources_Poster3dFile = os.path.join( Game_Directory, "_resources\\artwork\\dual3d.png" )
 										_Resources_CDFile = os.path.join( Game_Directory, "_resources\\artwork\\cd.png" )
-										_Resources_CDPosterFile = os.path.join( Game_Directory, "_resources\\artwork\\cdposter.jpg" )
-										_Resources_IconFile = os.path.join( Game_Directory, "_resources\\artwork\\icon.jpg" )
+										_Resources_CDPosterFile = os.path.join( Game_Directory, "_resources\\artwork\\cdposter.png" )
+										_Resources_IconFile = os.path.join( Game_Directory, "_resources\\artwork\\icon.png" )
 										_Resources_ThumbFile = os.path.join( Game_Directory, "_resources\\artwork\\thumb.jpg" )
 										_Resources_FanartFile = os.path.join( Game_Directory, "_resources\\artwork\\fanart.jpg" )
-										_Resources_BannerFile = os.path.join( Game_Directory, "_resources\\artwork\\banner.jpg" )
-										_Resources_OpenCaseFile = os.path.join( Game_Directory, "_resources\\artwork\\opencase.jpg" )
+										_Resources_BannerFile = os.path.join( Game_Directory, "_resources\\artwork\\banner.png" )
+										_Resources_OpenCaseFile = os.path.join( Game_Directory, "_resources\\artwork\\opencase.png" )
 										_Resources_Screenshot = os.path.join( Game_Directory, "_resources\\screenshots\\screenshot-1.jpg" )
 										_Resources_Synopsis = os.path.join( Game_Directory, "_resources\\default.xml" )
 										TBNFile = os.path.join( Game_Directory, "default.tbn" )
@@ -303,10 +304,8 @@ def Main_Code():
 										# this is set to the default.xbe because some of the main game xbe files don't have names. Some games use default.xbe as the loader to game.xbe or tdgame.xbe
 										XBEInfo = Extract_XbeInfo( os.path.join( Game_Directory, "default.xbe" ) ).split('|')
 										XBEID = XBEInfo[1]
-										XBETitle =  XBEInfo[0]
-										XBETitle_List = XBETitle.lower().replace(' ','')
-										XBETitle_List = XBETitle_List.replace('-','')
-										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Games_Folder, XBETitle_List ) )
+										XBETitle =  XBEInfo[0].lstrip(' ')
+										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Games_Folder, XBETitle ) )
 										# Get first letter of the games titleid and set a variable
 										Xbox_Thumb_Folder = Get_Title_Letter( XBETitle )
 										# Create folder structure for xbox games to speed up loading of images
@@ -450,11 +449,9 @@ def Main_Code():
 												else:
 													if os.path.isfile( Files ):
 														shutil.copy2( Files, Media_Folder_Path + "xbox\\videos\\" + XBEID + Files[-4:] )
-
 										with open( os.path.join( Roms_Folder, 'idlist.xml' ), "a") as idlistfile:
 											idlistoutput = str(XBEID)+"\n"
 											idlistfile.write( idlistoutput )
-											
 										if os.path.isfile( XBETitle_List[:61] + ".xbg" ):
 											if os.path.isfile( XBETitle_List[:58] + "alt.xbg" ):
 												with open( XBETitle_List[:57] + "alt1.xbg","w") as ouput:

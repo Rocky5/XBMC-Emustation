@@ -766,7 +766,7 @@ msgid "[UPPERCASE]Scan Rom files[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32047"
-msgid "[UPPERCASE]auto scan roms[/UPPERCASE]"
+msgid "[UPPERCASE]auto scan systsems[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32048"

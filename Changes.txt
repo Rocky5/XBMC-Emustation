@@ -1,3 +1,10 @@
+16/07/2018
+	1) Had to update the script that creates system lists to remove spaces at the beginning of Xbox games Title Names.
+		( This is what will cause an script error, well not now but it did devs should have been more careful when naming there games )
+	2) Updated Auto Scan Roms to Auto Scan Systems.
+	3) Couple other improvements to the scanning script for xbox games.
+
+
 15/07/2018
 	1) Fixed the favourites script from allowing the same rom to be added over and over.
 		( don't use readline )
