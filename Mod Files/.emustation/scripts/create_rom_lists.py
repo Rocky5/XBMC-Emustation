@@ -276,10 +276,10 @@ def Main_Code():
 					altnumb = 1
 					for Game_Dirs in Game_Directories:
 						if os.path.isdir( Game_Dirs ):
-							for Items in sorted([f for f in os.listdir( Game_Dirs )]):
-								pDialog.update(0,'Sorting List Order & Artwork For [B][UPPERCASE]' + Emu_Name + '[/UPPERCASE][/B] Games','[B][UPPERCASE]' + Items + '[/UPPERCASE][/B]','This can take some time, please be patient.')
-								if os.path.isdir(os.path.join( Game_Dirs, Items)):
-									Game_Directory = os.path.join( Game_Dirs, Items )
+							for Item in sorted([f for f in os.listdir( Game_Dirs )]):
+								pDialog.update(0,'Sorting List Order & Artwork For [B][UPPERCASE]' + Emu_Name + '[/UPPERCASE][/B] Games','[B][UPPERCASE]' + Item + '[/UPPERCASE][/B]','This can take some time, please be patient.')
+								if os.path.isdir(os.path.join( Game_Dirs, Item)):
+									Game_Directory = os.path.join( Game_Dirs, Item )
 									if os.path.isfile( os.path.join( Game_Directory, "game.xbe" ) ):
 										XBEFile = os.path.join( Game_Directory, "game.xbe" )
 									elif os.path.isfile( os.path.join( Game_Directory, "tdgame.xbe" ) ):
@@ -305,6 +305,8 @@ def Main_Code():
 										XBEInfo = Extract_XbeInfo( os.path.join( Game_Directory, "default.xbe" ) ).split('|')
 										XBEID = XBEInfo[1]
 										XBETitle =  XBEInfo[0].lstrip(' ')
+										# use the folder name if the xbe title is corrupt or not there.
+										if XBETitle == "": XBETitle = Item.lstrip(' ')
 										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Games_Folder, XBETitle ) )
 										# Get first letter of the games titleid and set a variable
 										Xbox_Thumb_Folder = Get_Title_Letter( XBETitle )

@@ -3,6 +3,7 @@
 		( This is what will cause an script error, well not now but it did devs should have been more careful when naming there games )
 	2) Updated Auto Scan Roms to Auto Scan Systems.
 	3) Couple other improvements to the scanning script for xbox games.
+	4) Fixed games that don't have a valid title name arsing the script up. If they don't it will use the folder name now.
 
 
 15/07/2018
