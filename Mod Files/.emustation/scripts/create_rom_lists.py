@@ -307,7 +307,7 @@ def Main_Code():
 										XBETitle =  XBEInfo[0].lstrip(' ')
 										# use the folder name if the xbe title is corrupt or not there.
 										if XBETitle == "": XBETitle = Item.lstrip(' ')
-										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Games_Folder, XBETitle ) )
+										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Games_Folder, XBETitle.lower()) )
 										# Get first letter of the games titleid and set a variable
 										Xbox_Thumb_Folder = Get_Title_Letter( XBETitle )
 										# Create folder structure for xbox games to speed up loading of images
