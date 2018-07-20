@@ -303,11 +303,12 @@ def Main_Code():
 										Emu_XBE = XBEFile
 										# this is set to the default.xbe because some of the main game xbe files don't have names. Some games use default.xbe as the loader to game.xbe or tdgame.xbe
 										XBEInfo = Extract_XbeInfo( os.path.join( Game_Directory, "default.xbe" ) ).split('|')
-										XBEID = XBEInfo[1]
 										XBETitle =  XBEInfo[0].lstrip(' ')
+										XBEInfo = Extract_XbeInfo( XBEFile ).split('|')
+										XBEID = XBEInfo[1]
 										# use the folder name if the xbe title is corrupt or not there.
 										if XBETitle == "": XBETitle = Item.lstrip(' ')
-										XBETitle_List = xbmc.makeLegalFilename( os.path.join( Xbox_Games_Folder, XBETitle.lower().replace(' ','') ) )
+										XBETitle_List = xbmc.makeLegalFilename( Xbox_Games_Folder + '\\' + XBETitle.lower().replace('/','').replace('\\','').replace(' ','') )
 										# Get first letter of the games titleid and set a variable
 										Xbox_Thumb_Folder = Get_Title_Letter( XBETitle )
 										# Create folder structure for xbox games to speed up loading of images
@@ -455,14 +456,20 @@ def Main_Code():
 											idlistoutput = str(XBEID)+"\n"
 											idlistfile.write( idlistoutput )
 										if os.path.isfile( XBETitle_List[:61] + ".xbg" ):
-											if os.path.isfile( XBETitle_List[:57] + " alt.xbg" ):
-												with open( XBETitle_List[:56] + " alt1.xbg","w") as ouput:
+											if os.path.isfile( XBETitle_List[:57] + " zlt.xbg" ):
+												with open( XBETitle_List[:56] + " zltx.xbg","w") as ouput:
+													ouput.write(XBETitle + "\n")
+													ouput.write(Emu_XBE + "\n")
+													ouput.write(Xbox_Thumb_Folder + "\n")
+													ouput.write(XBEID)
+											elif os.path.isfile( XBETitle_List[:56] + " zltx.xbg" ):
+												with open( XBETitle_List[:56] + " zltz.xbg","w") as ouput:
 													ouput.write(XBETitle + "\n")
 													ouput.write(Emu_XBE + "\n")
 													ouput.write(Xbox_Thumb_Folder + "\n")
 													ouput.write(XBEID)
 											else:
-												with open( XBETitle_List[:57] + " alt.xbg","w") as ouput:
+												with open( XBETitle_List[:57] + " zlt.xbg","w") as ouput:
 													ouput.write(XBETitle + "\n")
 													ouput.write(Emu_XBE + "\n")
 													ouput.write(Xbox_Thumb_Folder + "\n")

@@ -1,3 +1,8 @@
+20/07/2018
+	1) Updated the create_roms_lists.py again as some xbe names had leading \ :@ so should all be fixed now.
+	2) Updated the Xbox synopsis files to a more updated version.
+
+
 16/07/2018
 	1) Had to update the script that creates system lists to remove spaces at the beginning of Xbox games Title Names.
 		( This is what will cause an script error, well not now but it did devs should have been more careful when naming there games )
