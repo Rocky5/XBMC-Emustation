@@ -26,7 +26,7 @@ def _pbhook(numblocks, blocksize, filesize, url, dprogress):
 		percent = 100
 		dprogress.update(percent)
 	if dprogress.iscanceled():
-		if allowcancellation == 1:	raise Exception("Canceled")
+		if allowcancellation == 1:	raise Exception("Cancelled")
 def extract_file(file):
 	time.sleep(1)
 	if not os.path.exists( xbmc.translatePath(destination) ): os.makedirs( xbmc.translatePath(destination) )

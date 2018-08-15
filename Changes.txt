@@ -1,3 +1,13 @@
+15/08/2018
+	1) New XBE
+		( Moved the fanart screensaver path to Q:\System\Screensavers\Fanart )
+	2) Updated the Create_Rom_Lists.xml
+	3) Updated the Xbox synopsis.
+	4) Added a new menu entry into the Other Settings menu for the Xbox Artwork Installer script.
+	5) Added LCD.xml
+	5) Sources.xml cleanup
+
+
 20/07/2018
 	1) Updated the create_roms_lists.py again as some xbe names had leading \ :@ so should all be fixed now.
 	2) Updated the Xbox synopsis files to a more updated version.

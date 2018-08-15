@@ -8,12 +8,12 @@
 				</source>
 				<source>
 						<name>Apps</name>
-						<path pathversion="1">E:\Apps\</path>
-						<path pathversion="1">F:\Apps\</path>
-						<path pathversion="1">G:\Apps\</path>
 						<path pathversion="1">E:\Applications\</path>
 						<path pathversion="1">F:\Applications\</path>
 						<path pathversion="1">G:\Applications\</path>
+						<path pathversion="1">E:\Apps\</path>
+						<path pathversion="1">F:\Apps\</path>
+						<path pathversion="1">G:\Apps\</path>
 				</source>
 				<source>
 						<name>Ports</name>
@@ -29,21 +29,6 @@
 						<path pathversion="1">E:\Games\</path>
 						<path pathversion="1">F:\Games\</path>
 						<path pathversion="1">G:\Games\</path>
-						<path pathversion="1">E:\Games1\</path>
-						<path pathversion="1">F:\Games1\</path>
-						<path pathversion="1">G:\Games1\</path>
-						<path pathversion="1">E:\Games2\</path>
-						<path pathversion="1">F:\Games2\</path>
-						<path pathversion="1">G:\Games2\</path>
-						<path pathversion="1">E:\Jeux\</path>
-						<path pathversion="1">F:\Jeux\</path>
-						<path pathversion="1">G:\Jeux\</path>
-						<path pathversion="1">E:\Jeux1\</path>
-						<path pathversion="1">F:\Jeux1\</path>
-						<path pathversion="1">G:\Jeux1\</path>
-						<path pathversion="1">E:\Jeux2\</path>
-						<path pathversion="1">F:\Jeux2\</path>
-						<path pathversion="1">G:\Jeux2\</path>
 				</source>
 		</programs>
 		<video>

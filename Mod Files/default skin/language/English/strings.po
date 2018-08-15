@@ -762,7 +762,7 @@ msgid "[UPPERCASE][/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32046"
-msgid "[UPPERCASE]Scan Rom files[/UPPERCASE]"
+msgid "[UPPERCASE]Scan Roms/Games[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32047"

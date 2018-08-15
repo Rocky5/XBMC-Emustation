@@ -273,6 +273,8 @@ def Main_Code():
 				if Parse_Xbox_Games == 1:
 					if os.path.isdir( Roms_Folder ): shutil.rmtree( Roms_Folder )
 					if not os.path.isdir( Roms_Folder ): os.makedirs( Roms_Folder )
+					previouse_title = ""
+					dup_count = 1
 					altnumb = 1
 					for Game_Dirs in Game_Directories:
 						if os.path.isdir( Game_Dirs ):
@@ -323,8 +325,8 @@ def Main_Code():
 										if not os.path.isdir( os.path.join( Media_Path,'videos',Xbox_Thumb_Folder ) ): os.makedirs( os.path.join( Media_Path,'videos',Xbox_Thumb_Folder ) )
 										if os.path.isfile( os.path.join( Roms_Folder, 'idlist.xml' ) ):
 											if str(XBEID) in open( os.path.join( Roms_Folder, 'idlist.xml' ) ).read():
-												XBEID = str(XBEID)+"_"+str(altnumb)
-												altnumb = altnumb+1
+												XBEID = str(XBEID)+"_"+str(dup_count)
+												dup_count = dup_count+1
 										if _Resources == 0:
 											if os.path.isfile( TBNFile ):
 												# Default.tbn
@@ -442,44 +444,33 @@ def Main_Code():
 												if os.path.isfile( _Resources_Screenshot ):
 													shutil.copy2( _Resources_Screenshot, Media_Folder_Path + "xbox\\screenshots\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"	)
 											# Videos
-											for Files in glob.glob( os.path.join( Game_Directory, "_resources\\media\\preview.*") ):
-												if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\videos\\" + XBEID + Files[-4:] ) ):
+											for Files in glob.glob( os.path.join( Game_Directory, "_resources\\media\\*.*") ):
+												if os.path.isfile( os.path.join( Media_Folder_Path + "xbox\\videos\\" + Xbox_Thumb_Folder + '\\' + XBEID + Files[-4:] ) ):
 													#print XBEID + " videos already present"
 													if os.path.isfile( Files ):
-														if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\videos\\" + XBEID + Files[-4:] ), Files, shallow=0 ):
+														if Allow_Xbox_Overwrite == 1 and not filecmp.cmp( os.path.join( Media_Folder_Path + "xbox\\videos\\" + Xbox_Thumb_Folder + '\\' + XBEID + Files[-4:] ), Files, shallow=0 ):
 															if os.path.isfile( Files ):
-																shutil.copy2( Files, Media_Folder_Path + "xbox\\videos\\" + Xbox_Thumb_Folder + '\\' + XBEID + ".jpg"  )
+																shutil.copy2( Files, Media_Folder_Path + "xbox\\videos\\" + Xbox_Thumb_Folder + '\\' + XBEID + Files[-4:]  )
 												else:
 													if os.path.isfile( Files ):
-														shutil.copy2( Files, Media_Folder_Path + "xbox\\videos\\" + XBEID + Files[-4:] )
+														shutil.copy2( Files, Media_Folder_Path + "xbox\\videos\\" + Xbox_Thumb_Folder + '\\' + XBEID + Files[-4:] )
 										with open( os.path.join( Roms_Folder, 'idlist.xml' ), "a") as idlistfile:
 											idlistoutput = str(XBEID)+"\n"
 											idlistfile.write( idlistoutput )
-										if os.path.isfile( XBETitle_List[:61] + ".xbg" ):
-											if os.path.isfile( XBETitle_List[:57] + " zlt.xbg" ):
-												with open( XBETitle_List[:56] + " zltx.xbg","w") as ouput:
-													ouput.write(XBETitle + "\n")
-													ouput.write(Emu_XBE + "\n")
-													ouput.write(Xbox_Thumb_Folder + "\n")
-													ouput.write(XBEID)
-											elif os.path.isfile( XBETitle_List[:56] + " zltx.xbg" ):
-												with open( XBETitle_List[:56] + " zltz.xbg","w") as ouput:
-													ouput.write(XBETitle + "\n")
-													ouput.write(Emu_XBE + "\n")
-													ouput.write(Xbox_Thumb_Folder + "\n")
-													ouput.write(XBEID)
-											else:
-												with open( XBETitle_List[:57] + " zlt.xbg","w") as ouput:
-													ouput.write(XBETitle + "\n")
-													ouput.write(Emu_XBE + "\n")
-													ouput.write(Xbox_Thumb_Folder + "\n")
-													ouput.write(XBEID)
+										if previouse_title == XBETitle_List:
+											with open( XBETitle_List[:56] + "_alt"+str(altnumb)+".xbg","w") as ouput:
+												ouput.write(XBETitle + " ( Duplicate Name " + str(altnumb) + " )\n")
+												ouput.write(Emu_XBE + "\n")
+												ouput.write(Xbox_Thumb_Folder + "\n")
+												ouput.write(XBEID)
+											altnumb = altnumb+1
 										else:
 											with open( XBETitle_List[:61] + ".xbg","w") as ouput:
 												ouput.write(XBETitle + "\n")
 												ouput.write(Emu_XBE + "\n")
 												ouput.write(Xbox_Thumb_Folder + "\n")
 												ouput.write(XBEID)
+										previouse_title = XBETitle_List
 				## Extracting the rom name files from the zip.
 				if Parse_FBL_TXT == 1:
 					if os.path.isfile( os.path.join( Emu_Path, "info\\FBL Rom Names.zip" ) ):
