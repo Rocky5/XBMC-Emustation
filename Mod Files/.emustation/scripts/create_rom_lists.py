@@ -459,7 +459,7 @@ def Main_Code():
 											idlistfile.write( idlistoutput )
 										if previouse_title == XBETitle_List:
 											with open( XBETitle_List[:56] + "_alt"+str(altnumb)+".xbg","w") as ouput:
-												ouput.write(XBETitle + " ( Duplicate Name " + str(altnumb) + " )\n")
+												ouput.write(XBETitle + " " + str(altnumb) + "\n")
 												ouput.write(Emu_XBE + "\n")
 												ouput.write(Xbox_Thumb_Folder + "\n")
 												ouput.write(XBEID)
