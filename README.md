@@ -14,7 +14,7 @@
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=65NJWU9PUUX7W&lc=GB&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)
  
 ## Installation
- #### Download Prebuild build: [Download XBMC-Emustation](http://xbmc-emustation.com/downloads/_latest%20build/XBMC-Emustation.zip)
+ #### Download Prebuilt build: [Download XBMC-Emustation](http://xbmc-emustation.com/downloads/_latest%20build/XBMC-Emustation.zip)
 
  #### Build from Source:
  * Download [XBMC-Emustation](https://github.com/Rocky5/XBMC-Emustation/archive/master.zip) and extract the **XBMC-Emustation-master** folder to your desktop.
