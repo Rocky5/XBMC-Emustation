@@ -97,11 +97,11 @@ CGUIFont* GUIFontManager::LoadTTF(const CStdString& strFontName, const CStdStrin
   }
   else
     strPath = strFilename;
-
   // Check if the file exists, otherwise try loading it from the global media dir
   if (!XFILE::CFile::Exists(strPath))
   {
-    strPath = URIUtils::AddFileToFolder("special://xbmc/xnmc files/media/Fonts", URIUtils::GetFileName(strFilename));
+	CStdString ThemeFont(URIUtils::ReplaceExtension(g_guiSettings.GetString("lookandfeel.skintheme"), ""));
+    strPath = "special://xbmc/.emustation/themes/" + ThemeFont + "/" + ThemeFont + ".ttf";
   }
 
   // check if we already have this font file loaded (font object could differ only by color or style)

@@ -4,7 +4,7 @@
 '''
 import glob, os, shutil, sqlite3, sys, xbmc, xbmcgui
 #####	Start markings for the log file.
-print "| .emustation\Scripts\generate_thumbs.py loaded."
+print "| generate_thumbs.py loaded."
 pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()
 pDialog.update( 0 )
@@ -52,7 +52,6 @@ if os.path.isfile( MyPrograms6_db ):
 					CountList = CountList + 1
 	except:
 		dialog.ok( "Error","","Database is empty.","Enter the games menu so XBMC can scan in your games." )
-
 if not os.path.isdir( Temp_Profile_Directory ):
 	for Sub_Directories in Sub_Directories:
 		if not os.path.isdir( Temp_Profile_Directory ): os.mkdir( Temp_Profile_Directory )
@@ -81,4 +80,3 @@ os.rename( Temp_Profile_Directory[:-1], Temp_Profile_Directory[:-5] + "Programs"
 pDialog.update(0)
 pDialog.close()
 dialog.ok( "Thumbnail Generator","","Process Complete" )
-	

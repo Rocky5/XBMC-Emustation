@@ -1,3 +1,36 @@
+20/12/2018
+	1) Renamed the Direct launch label to Launch Emulator: and also made custom tiles Direct Launch label hidden.
+	2) Added Amiga parsing to the create_rom_lists.py.
+	3) Updated the progress dialog.
+	4) Changed games to favourites for the favourites carousel entry.
+	5) Changes from XBMC4Gamers ported over to emustation that fixes thumb loading and ram issues.
+	6) Couple new themes on the downloader.
+	7) Updated the create_rom_lists.py synopsis order.
+	8) Updated the Xbox synopsis files to the latest versions.
+	9) Updated home_themer.py to delay the screensaver and visualisation button on load of the window.
+	10) Slight update to the skindefault themes synopsis view.
+	11) Updated Create_rom_lists.py to parse the surreal.ini easier. Will now skip lines till it finds what it needs then process the file.
+		( means its future proof now )
+	12) Major overhaul to the theme system, now all themes are self contained.
+		( XBMC source updated to do all this, so new xbe )
+	13) Updated the scripts to work with the new theme system.
+	14) Default skin is now named simple, so the alt version will be updated on the downloader when this goes live.
+	15) Updated XBMC4Gamers theme.
+	16) Default skin is now part of the Simple theme, as this is the default theme for XBMC-Emustation.
+	17) New S drive when you are FTPing in, this points to the themes folder for easy adding or creating of themes.
+	18) Three new Special:// commands "emustation_scripts", "themes_root" and "theme". "themes_root" will load Q:\.emustation\themes\ and "theme" will load the currently loaded theme directory.
+		( Special://themes_root/carbon/layouts/xbox/system_art_small.png, Special://theme/layouts/xbox/system_art_small.png or Special://emustation_scripts/dialog_ok.py )
+	19) Updated the play_preview.py to support .strm files and also some minor imporvments to how it works.
+	20) Create_rom_lists.py updated to support .strm files for xbox games.
+		( These will be included with the artwork installer for playing videos from my server )
+	21) Updated a load of scripts, cant remember them all as I have been doing gamers along side this update :$
+	22) All themes moved to the downloader.
+	23) New dialog_ok.py script used for showing a dialogok window with skin settings.
+		( RunScript( Special://emustation_scripts/dialog_ok.py,show_(enabled,disabled or both)-skinsetting goes here id,Title,line1,line2,line3) )
+	24) Themes can now have there own splash.png that will override the default splash if the theme is activated.
+	**) A load of quality of life changes.
+
+
 15/08/2018
 	1) New XBE
 		( Moved the fanart screensaver path to Q:\System\Screensavers\Fanart )

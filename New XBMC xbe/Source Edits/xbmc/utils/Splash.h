@@ -39,4 +39,5 @@ private:
 
   CStdString m_ImageName;
   CStdString m_ImageName2;
+  CStdString m_ImageName3;
 };

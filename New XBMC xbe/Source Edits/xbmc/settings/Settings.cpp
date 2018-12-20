@@ -171,6 +171,17 @@ bool CSettings::Load(bool& bXboxMediacenter, bool& bSettings)
   CIoSupport::GetPartition(strMnt.c_str()[0], szDevicePath);
   strcat(szDevicePath,strMnt.c_str()+2);
   CIoSupport::RemapDriveLetter('P', szDevicePath);
+  
+  char szSkinPath[1024];
+  CStdString str2Mnt = _P(GetSkinPath());
+  if (str2Mnt.Left(2).Equals("Q:"))
+  {
+    CUtil::GetHomePath(str2Mnt);
+    str2Mnt += _P(GetSkinPath()).substr(2);
+  }
+  CIoSupport::GetPartition(str2Mnt.c_str()[0], szSkinPath);
+  strcat(szSkinPath,str2Mnt.c_str()+2);
+  CIoSupport::RemapDriveLetter('S', szSkinPath);
 #endif
   CSpecialProtocol::SetProfilePath(GetProfileUserDataFolder());
   CLog::Log(LOGNOTICE, "loading %s", GetSettingsFile().c_str());
@@ -2060,9 +2071,21 @@ CStdString CSettings::GetSkinFolder(const CStdString &skinName) const
   CStdString folder;
 
   // Get the Current Skin Path
-  URIUtils::AddFileToFolder("special://home/", skinName, folder);
+  URIUtils::AddFileToFolder("special://home/.emustation/themes", skinName, folder);
   if ( ! CDirectory::Exists(folder) )
-    URIUtils::AddFileToFolder("special://xbmc/", skinName, folder);
+    URIUtils::AddFileToFolder("special://xbmc/.emustation/themes", skinName, folder);
+
+  return folder;
+}
+
+CStdString CSettings::GetSkinPath() const
+{
+  CStdString folder;
+
+  // Get the Current Skin Path
+  URIUtils::AddFileToFolder("special://home/.emustation/themes","", folder);
+  if ( ! CDirectory::Exists(folder) )
+    URIUtils::AddFileToFolder("special://xbmc/.emustation/themes","", folder);
 
   return folder;
 }

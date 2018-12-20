@@ -19,9 +19,9 @@
 15) Removed the remove favourite from the context menu, due to the roms menus not having this feature.
 16) When you add favourites or remove them it will now run a script to update the counter for the main menu.
 17) Fixed the setting a new language, forgot to change a path.
-18) Moved the sounds folder into the default skin sounds folder, so now you can add custom sound effects for themes and select them seamlessly.
-19) Now when you change themes it also changes the font and menu sounds if they exist for the theme.
-	( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )
+18) Fonts. sounds and .xpr files are now relocated to .emustation\themes\"theme name"\
+	( this allows modular themes and simplicity for uninstalling and installing them via the downloader. )
+19) Added a S drive that will point to Q:\.emustation\themes\ as I got fed up going through Q:\ lol
 20) Updated the debug overlay to use debugloggin font name and added MBs to the layout.
 21) Fixed centering labels in lists.
 	( If you have a skin that uses center for its labels in a list you may want to remove the offset you had to use for posx )
@@ -39,3 +39,11 @@
 	( will output for example Q:\.emustation\scripts\urldownloader  )
 32) Fixed favourites getting corrupted if you reload the skin when editing a label.
 33) Moved the fanart screensaver path to Q:\System\Screensavers\Fanart
+34) When you exit a emulators that supports command line launching it will return to XBMC4Gamers.
+	( Just like coinops, but only seems to work once for some reason :/ so disabled )
+35) Fixed the internal jpg decoder breaking if ram hits 0MB. If it hits less than 2MB of free ram it will use Imagelib to decode the images.
+36) Added different error screen colour and txt for the forced error screen. ( if you arse something up and its a crash ) (White + Y)
+37) Three new Special:// commands "emustation_scripts", "themes_root" and "theme". "themes_root" will load Q:\.emustation\themes\ and "theme" will load the currently loaded theme directory.
+		( Special://themes_root/carbon/layouts/xbox/system_art_small.png, Special://theme/layouts/xbox/system_art_small.png or Special://emustation_scripts/dialog_ok.py )
+38) Themes can have there own splash image that will override the default splash.
+	( splash.png inside the current loaded themes folder. Custom_splash.png will override all splash images. )

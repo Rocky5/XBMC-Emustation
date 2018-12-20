@@ -57,6 +57,21 @@ void CSpecialProtocol::SetRootPath(const CStdString &dir)
   SetPath("root", dir);
 }
 
+void CSpecialProtocol::SetThemePath(const CStdString &dir)
+{
+  SetPath("themes_root", dir);
+}
+
+void CSpecialProtocol::SetCurrentThemePath(const CStdString &dir)
+{
+  SetPath("theme", dir);
+}
+
+void CSpecialProtocol::SetEmustationScriptsPath(const CStdString &dir)
+{
+  SetPath("emustation_scripts", dir);
+}
+
 void CSpecialProtocol::SetURLDownloaderPath(const CStdString &dir)
 {
   SetPath("urldownloader", dir);
@@ -150,6 +165,12 @@ CStdString CSpecialProtocol::TranslatePath(const CURL &url)
     URIUtils::AddFileToFolder(GetPath("home"), FileName, translatedPath);
   else if (RootDir.Equals("root"))
     URIUtils::AddFileToFolder(GetPath("root"), FileName, translatedPath);
+  else if (RootDir.Equals("themes_root"))
+    URIUtils::AddFileToFolder(GetPath("themes_root"), FileName, translatedPath);
+  else if (RootDir.Equals("theme"))
+    URIUtils::AddFileToFolder(GetPath("theme"), FileName, translatedPath);
+  else if (RootDir.Equals("emustation_scripts"))
+    URIUtils::AddFileToFolder(GetPath("emustation_scripts"), FileName, translatedPath);
   else if (RootDir.Equals("urldownloader"))
     URIUtils::AddFileToFolder(GetPath("urldownloader"), FileName, translatedPath);
   else if (RootDir.Equals("userhome"))
@@ -260,6 +281,9 @@ void CSpecialProtocol::LogPaths()
   CLog::Log(LOGNOTICE, "special://masterprofile/ is mapped to: %s", GetPath("masterprofile").c_str());
   CLog::Log(LOGNOTICE, "special://home/ is mapped to: %s", GetPath("home").c_str());
   CLog::Log(LOGNOTICE, "special://root/ is mapped to: %s", GetPath("root").c_str());
+  CLog::Log(LOGNOTICE, "special://emustation_scripts/ is mapped to: %s", GetPath("emustation_scripts").c_str());
+  CLog::Log(LOGNOTICE, "special://themes_root/ is mapped to: %s", GetPath("themes_root").c_str());
+  CLog::Log(LOGNOTICE, "special://theme/ is mapped to: the currently loaded theme");
   CLog::Log(LOGNOTICE, "special://urldownloader/ is mapped to: %s", GetPath("urldownloader").c_str());
   CLog::Log(LOGNOTICE, "special://temp/ is mapped to: %s", GetPath("temp").c_str());
   //CLog::Log(LOGNOTICE, "special://userhome/ is mapped to: %s", GetPath("userhome").c_str());

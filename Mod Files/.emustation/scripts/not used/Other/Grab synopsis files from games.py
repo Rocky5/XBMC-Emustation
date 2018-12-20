@@ -126,12 +126,13 @@ for Game_Directories in Game_Directories:
 									text_genre = text_genre.replace('&amp;','&')
 									text_genre = 'Genre: ' + text_genre
 									if text_genre == "Genre: ": text_genre = "Genre: unknown"
-									
-								if "<features_general.>" in line:
+
+								if "<features_general>" in line:
 									text_players = line.split('>',2)[1]
 									text_players = text_players.split('<',1)[0]
-									text_players = 'Players: ' + text_players
-									if text_players == "Players: ": text_players = "Players: unknown"
+									text_players = text_players.split(',',1)[0]
+									text_players = text_players.replace('Players','Players:')
+									if text_players == "": text_players = "Players: unknown"
 									
 								with open ( os.path.join( "E:\\xbox synopsis\\",  Extracted_XBE_TitleID + ".txt" ), 'w' ) as output:
 									output.write(text_filename_ext + '\n')

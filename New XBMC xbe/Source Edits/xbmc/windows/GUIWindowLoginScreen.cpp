@@ -95,7 +95,7 @@ bool CGUIWindowLoginScreen::OnMessage(CGUIMessage& message)
         {
           int iItem = m_viewControl.GetSelectedItem();
           {
-            if (CFile::Exists("special://scripts/autoexec.py") && 
+            if (CFile::Exists("special://system/scripts/autoexec.py") && 
                 watch.GetElapsedMilliseconds() < 5000.f)
             {
               while (watch.GetElapsedMilliseconds() < 5000) Sleep(10);

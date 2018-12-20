@@ -2,17 +2,13 @@
 	Script by Rocky5
 	Used to create MyPrograms.xml for different emulators styles
 '''
-
 import fileinput, os, time, xbmc, xbmcgui
-
 #####	Start markings for the log file.
-print "| .emustation\Scripts\menu_loader.py loaded."
-
+print "| menu_loader.py loaded."
 try:
 	XBE_Edit_Mode	= sys.argv[1:][0]
 except:
-	XBE_Edit_Mode	= "0"
-
+	XBE_Edit_Mode	= 0
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 XBE_Files						= 0
@@ -20,7 +16,6 @@ EMU_Files						= 0
 FAV_Files						= 0
 Default_Layout_XML_Path			= "0"
 Layout_XML_Path					= "0"
-
 MenuLabel = xbmc.getInfoLabel('Container(9000).ListItem.Label2')
 if str(xbmcgui.getCurrentWindowDialogId()) == "11111": MenuLabel = xbmc.getInfoLabel('Control.GetLabel(99)')
 if MenuLabel == "dummy label for python script":	MenuLabel = "apps"
@@ -29,25 +24,21 @@ _Script_Jump_Path				= xbmc.translatePath( 'special://skin/720p/_script_jumpList
 FAV_XML_Path					= xbmc.translatePath( 'special://skin/720p/DialogFavourites.xml' )
 ThemeType						= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
 Favs_List_Path					= xbmc.translatePath( 'special://xbmc/.emustation/gamelists/' + MenuLabel )
-
-Default_No_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/layout.xml' )
-Default_No_Synopsis_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/synopsis_layout.xml' )
-Default_No_Thumb_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/thumb_layout.xml' )
-XBE_Default_No_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/XBE files/layout.xml' )
-XBE_Default_No_Synopsis_Layout	= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/XBE files/synopsis_layout.xml' )
-XBE_Default_No_Thumb_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/skindefault/XBE files/thumb_layout.xml' )
-
-
-Default_Layout					= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/' + ThemeType + '/layout.xml' )
-Default_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/' + ThemeType + '/synopsis_layout.xml' )
-Default_Thumb_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/' + ThemeType + '/thumb_layout.xml' )
-XBE_Default_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/' + ThemeType + '/XBE files/layout.xml' )
-XBE_Default_Synopsis_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/' + ThemeType + '/XBE files/synopsis_layout.xml' )
-XBE_Default_Thumb_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/layouts/default/' + ThemeType + '/XBE files/thumb_layout.xml' )
-Custom_Layout					= xbmc.translatePath( 'special://xbmc/.emustation/layouts/' + MenuLabel + '/' + ThemeType + '/layout.xml' )
-Custom_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/' + MenuLabel + '/' + ThemeType + '/synopsis_layout.xml' )
-Custom_Thumb_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/layouts/' + MenuLabel + '/' + ThemeType + '/thumb_layout.xml' )
-
+Default_No_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/layouts/default/layout.xml' )
+Default_No_Synopsis_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/layouts/default/synopsis_layout.xml' )
+Default_No_Thumb_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/layouts/default/thumb_layout.xml' )
+XBE_Default_No_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/layouts/default/XBE files/layout.xml' )
+XBE_Default_No_Synopsis_Layout	= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/layouts/default/XBE files/synopsis_layout.xml' )
+XBE_Default_No_Thumb_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/layouts/default/XBE files/thumb_layout.xml' )
+Default_Layout					= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/default/layout.xml' )
+Default_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/default/synopsis_layout.xml' )
+Default_Thumb_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/default/thumb_layout.xml' )
+XBE_Default_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/default/XBE files/layout.xml' )
+XBE_Default_Synopsis_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/default/XBE files/synopsis_layout.xml' )
+XBE_Default_Thumb_Layout		= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/default/XBE files/thumb_layout.xml' )
+Custom_Layout					= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/' + MenuLabel + '/layout.xml' )
+Custom_Synopsis_Layout			= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/' + MenuLabel + '/synopsis_layout.xml' )
+Custom_Thumb_Layout				= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + ThemeType + '/layouts/' + MenuLabel + '/thumb_layout.xml' )
 if XBE_Edit_Mode == "editmode" or MenuLabel == "apps" or MenuLabel == "homebrew" or MenuLabel == "ports":
 	XBE_Files = 1
 	if XBE_Edit_Mode == "editmode": MenuLabel = "xbox"
@@ -55,9 +46,7 @@ elif MenuLabel == "favs":
 	FAV_Files = 1
 else:
 	EMU_Files = 1
-
 xbmc.executebuiltin('Skin.SetString(emuname,' + MenuLabel + ')')
-	
 Header_Data_EMU					= '<window id="1">\n\
 		<onunload condition="Player.HasVideo">Stop</onunload>\n\
 		<defaultcontrol always="true">9000</defaultcontrol>\n\
@@ -72,7 +61,7 @@ Header_Data_EMU					= '<window id="1">\n\
 		<!-- Used to run the script and stop folk moving the list forward or backwards -->\n\
 		<control type="button" id="9999">\n\
 			<posx>-500</posx>\n\
-			<onfocus>RunScript(Special://XBMC/.emustation/scripts/play_preview.py)</onfocus>\n\
+			<onfocus>RunScript(special://emustation_scripts/play_preview.py)</onfocus>\n\
 		</control>\n\
 		<control type="button" id="9990">\n\
 			<posx>-500</posx>\n\
@@ -82,17 +71,19 @@ Header_Data_EMU					= '<window id="1">\n\
 		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
 		<control type="button" id="9100">\n\
 			<posx>-500</posx>\n\
-			<onup>setfocus(9000)</onup>\n\
-			<onup>stop</onup>\n\
+			<!-- <onup>Control.Move(9000,-1)</onup> -->\n\
+			<!-- <ondown>Control.Move(9000,1)</ondown> -->\n\
+			<!-- <onleft>PageUp</onleft> -->\n\
+			<!-- <onright>PageDown</onright> -->\n\
 			<onup>setfocus(9000)</onup>\n\
 			<ondown>setfocus(9000)</ondown>\n\
-			<ondown>stop</ondown>\n\
-			<ondown>setfocus(9000)</ondown>\n\
-			<onleft>stop</onleft>\n\
 			<onleft>setfocus(9000)</onleft>\n\
-			<onright>stop</onright>\n\
 			<onright>setfocus(9000)</onright>\n\
 			<onclick>setfocus(9000)</onclick>\n\
+			<onup>stop</onup>\n\
+			<ondown>stop</ondown>\n\
+			<onleft>stop</onleft>\n\
+			<onright>stop</onright>\n\
 			<onclick>stop</onclick>\n\
 		</control>\n\
 		<!-- Used to stop folk moving when the script is run, it shouldnt matter but it may do on slow drives. So its added. -->\n\
@@ -105,18 +96,14 @@ Footer_Data_EMU					= '\n\
 	</control>\n\
 	</controls>\n\
 	</window>'
-
-	
 Header_Data_FAVS				= '<window type="dialog" id="134">\n\
 	<defaultcontrol always="true">450</defaultcontrol>\n\
 	<onunload>Skin.Reset(favsloading)</onunload>\n\
 	<include>dialogeffect</include>\n\
 	<controls>\n'
-
 Footer_Data_FAVS				= '\n\
 	</controls>\n\
 	</window>'
-	
 Jump_File_Data					= '<window type="dialog" id="1120">\n\
 	<defaultcontrol always="true">9000</defaultcontrol>\n\
 	<controls>\n\
@@ -246,7 +233,7 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 					<include>MenuButtonCommonValues</include>\n\
 					<onclick>Dialog.Close(1120)</onclick>\n\
 					<onclick>SetFocus(9200)</onclick>\n\
-					<onclick>RunScript(Special://XBMC/.emustation/scripts/generate_favourites.py)</onclick>\n\
+					<onclick>RunScript(special://emustation_scripts/generate_favourites.py)</onclick>\n\
 					<visible>!StringCompare(Skin.String(emuname),xbox) + !Skin.HasSetting(KioskMode)</visible>\n\
 				</control>\n\
 				<control type="button" id="8051">\n\
@@ -254,7 +241,7 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 					<include>MenuButtonCommonValues</include>\n\
 					<onclick>Dialog.Close(1120)</onclick>\n\
 					<onclick>SetFocus(9200)</onclick>\n\
-					<onclick>RunScript(Special://XBMC/.emustation/scripts/generate_favourites.py)</onclick>\n\
+					<onclick>RunScript(special://emustation_scripts/generate_favourites.py)</onclick>\n\
 					<visible>StringCompare(Skin.String(emuname),xbox) + !Skin.HasSetting(KioskMode)</visible>\n\
 				</control>\n\
 			</control>\n\
@@ -386,7 +373,7 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 				<visible>Skin.HasSetting(synopsislayout) + !Skin.HasSetting(KioskMode)</visible>\n\
 				<control type="radiobutton" id="8060">\n\
 					<label>[UPPERCASE]Enable Fanart[/UPPERCASE]</label>\n\
-					<include>MenuButtonCommonValues</include>\n\
+					<include>MenuButtonCommonAltValues</include>\n\
 					<onclick>Skin.ToggleSetting(' + MenuLabel + 'fanart)</onclick>\n\
 					<selected>Skin.HasSetting(' + MenuLabel + 'fanart)</selected>\n\
 				</control>\n\
@@ -408,14 +395,14 @@ Jump_File_Data					= '<window type="dialog" id="1120">\n\
 				<control type="button" id="8070">\n\
 					<label>[UPPERCASE]Xbox Games Edit Mode[/UPPERCASE]</label>\n\
 					<include>MenuButtonCommonValues</include>\n\
+					<onclick>Skin.SetBool(editmode)</onclick>\n\
 					<onclick>Dialog.Close(1120)</onclick>\n\
-					<onclick>RunScript(Special://XBMC/.emustation/scripts/menu_loader.py,editmode)</onclick>\n\
+					<onclick>RunScript(special://emustation_scripts/menu_loader.py,editmode)</onclick>\n\
 				</control>\n\
 			</control>\n\
 		</control>\n\
 	</controls>\n\
 </window>'
-
 Header_Data_XBE					= '<window id="1">\n\
 		<onunload condition="Player.HasVideo">Stop</onunload>\n\
 		<defaultcontrol always="true">50</defaultcontrol>\n\
@@ -435,22 +422,24 @@ Header_Data_XBE					= '<window id="1">\n\
 		<!-- Used to run the script and stop folk moving the list forward or backwards -->\n\
 		<control type="button" id="9999">\n\
 			<posx>-500</posx>\n\
-			<onfocus>RunScript(Special://XBMC/.emustation/scripts/play_preview.py)</onfocus>\n\
+			<onfocus>RunScript(special://emustation_scripts/play_preview.py)</onfocus>\n\
 		</control>\n\
 		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
 		<control type="button" id="9100">\n\
 			<posx>-500</posx>\n\
-			<onup>setfocus(50)</onup>\n\
-			<onup>stop</onup>\n\
+			<!-- <onup>Control.Move(50,-1)</onup> -->\n\
+			<!-- <ondown>Control.Move(50,1)</ondown> -->\n\
+			<!-- <onleft>PageUp</onleft> -->\n\
+			<!-- <onright>PageDown</onright> -->\n\
 			<onup>setfocus(50)</onup>\n\
 			<ondown>setfocus(50)</ondown>\n\
-			<ondown>stop</ondown>\n\
-			<ondown>setfocus(50)</ondown>\n\
-			<onleft>stop</onleft>\n\
 			<onleft>setfocus(50)</onleft>\n\
-			<onright>stop</onright>\n\
 			<onright>setfocus(50)</onright>\n\
 			<onclick>setfocus(50)</onclick>\n\
+			<onup>stop</onup>\n\
+			<ondown>stop</ondown>\n\
+			<onleft>stop</onleft>\n\
+			<onright>stop</onright>\n\
 			<onclick>stop</onclick>\n\
 		</control>\n\
 	'
@@ -458,7 +447,6 @@ Footer_Data_XBE					= '\n\
 	</control>\n\
 	</controls>\n\
 	</window>'
-	
 if EMU_Files == 1 or FAV_Files == 1:
 	if xbmc.getCondVisibility( 'Skin.HasSetting(synopsislayout)' ):
 		if os.path.isfile( Custom_Synopsis_Layout ):
@@ -507,7 +495,6 @@ else:
 			Default_Layout_XML_Path		= XBE_Default_Layout
 		else:
 			Default_Layout_XML_Path		= XBE_Default_No_Layout
-	
 if os.path.isfile( Layout_XML_Path ):
 	Layout_File =  Layout_XML_Path
 elif os.path.isfile( Default_Layout_XML_Path ):
@@ -516,7 +503,6 @@ else:	# default layout is missing so error!
 	EMU_Files = 0; FAV_Files = 0; XBE_Files = 0;
 	xbmc.executebuiltin('SetFocus(9000)')
 	dialog.ok( "ERROR","Default layout file is missing.",Default_Layout_XML_Path )
-	
 if EMU_Files == 1:
 	if os.path.isfile( os.path.join( Favs_List_Path,'gamelist.xml' ) ):
 		## this is here so not to mess with the actual menulabel

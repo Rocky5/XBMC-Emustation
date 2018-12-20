@@ -427,7 +427,7 @@ void CApplication::InitBasicD3D()
   }
 
   m_pd3dDevice->Clear(0, NULL, D3DCLEAR_TARGET, 0, 0, 0);
-  m_pd3dDevice->Present( NULL, NULL, NULL, NULL );
+  m_pd3dDevice->Present( NULL, NULL, NULL, NULL );  
 }
 
 // This function does not return!
@@ -461,12 +461,26 @@ void CApplication::FatalErrorHandler(bool InitD3D, bool MapDrives, bool InitNetw
   // defaults for text
   pFont->SetBkMode(XFONT_OPAQUE);
   pFont->SetBkColor(D3DCOLOR_XRGB(0, 0, 0));
-  pFont->SetTextColor(D3DCOLOR_XRGB(0xff, 0x20, 0x20));
+  if (m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_Y] && m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_WHITE])
+  {
+    pFont->SetTextColor(D3DCOLOR_XRGB(0xff, 0xff, 0x33));
+  }
+  else
+  {
+    pFont->SetTextColor(D3DCOLOR_XRGB(0xff, 0x20, 0x20));
+  }
 #else
   void *pFont = NULL;
 #endif
   int iLine = 0;
+  if (m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_Y] && m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_WHITE])
+  {
+    FEH_TextOut(pFont, iLine++, L"Forced XBMC Recover Menu:");
+  }
+  else
+  {
   FEH_TextOut(pFont, iLine++, L"XBMC Fatal Error:");
+  }
   char buf[500];
   strncpy(buf, g_LoadErrorStr.c_str(), 500);
   buf[499] = 0;
@@ -976,7 +990,7 @@ HRESULT CApplication::Create(HWND hWnd)
 #ifdef HAS_GAMEPAD
   if (m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_Y] && m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_WHITE])
   {
-    g_LoadErrorStr = "Key code detected for Error Recovery mode";
+    g_LoadErrorStr = "Key code detected for Forced XBMC Recover Menu";
     FatalErrorHandler(true, true, true);
   }
 #endif
@@ -1099,7 +1113,7 @@ HRESULT CApplication::Create(HWND hWnd)
     FatalErrorHandler(true, false, true);
 
   // check the skin file for testing purposes
-  CStdString strSkinBase = "special://xbmc/";
+  CStdString strSkinBase = "special://xbmc/.emustation/themes/";
   CStdString strSkinPath = strSkinBase + g_guiSettings.GetString("lookandfeel.skin");
   CLog::Log(LOGINFO, "Checking skin version of: %s", g_guiSettings.GetString("lookandfeel.skin").c_str());
   if (!g_SkinInfo.Check(strSkinPath))
@@ -1173,6 +1187,8 @@ HRESULT CApplication::Create(HWND hWnd)
   // set GUI res and force the clear of the screen
   g_graphicsContext.SetVideoResolution(g_guiSettings.m_LookAndFeelResolution, TRUE, true);
 
+  // Set current theme for special://theme/ on startup
+  CSpecialProtocol::SetCurrentThemePath("Q:\\.emustation\\themes\\"+URIUtils::ReplaceExtension(g_guiSettings.GetString("lookandfeel.skintheme"), ""));
   m_splash = new CSplash("Q:\\splash.png");
   m_splash->Start();
 
@@ -1234,7 +1250,6 @@ HRESULT CApplication::Initialize()
   CreateDirectory("Q:\\system\\screenshots", NULL);
   CreateDirectory("Q:\\system\\trainers", NULL);
   CreateDirectory("Q:\\system\\visualisations", NULL);
-  CreateDirectory("Q:\\default skin\\sounds", NULL);
 
   // initialize network
   if (!m_bXboxMediacenterLoaded)
@@ -1257,7 +1272,7 @@ HRESULT CApplication::Initialize()
 
   g_windowManager.Add(new CGUIWindowHome);                     // window id = 0
 
-  CLog::Log(LOGNOTICE, "load default skin:[%s]", g_guiSettings.GetString("lookandfeel.skin").c_str());
+  CLog::Log(LOGNOTICE, "load simple skin:[%s]", g_guiSettings.GetString("lookandfeel.skin").c_str());
   LoadSkin(g_guiSettings.GetString("lookandfeel.skin"));
 
   g_windowManager.Add(new CGUIWindowPrograms);                 // window id = 1
@@ -1338,6 +1353,10 @@ HRESULT CApplication::Initialize()
   /* window id's 3000 - 3100 are reserved for python */
   g_DownloadManager.Initialize();
 
+  // Moved here so python starts up as soon as possible.
+  g_pythonParser.bStartup = true;
+  //g_sysinfo.Refresh();
+
   m_ctrDpad.SetDelays(100, 500); //g_settings.m_iMoveDelayController, g_settings.m_iRepeatDelayController);
 
   SAFE_DELETE(m_splash);
@@ -1352,16 +1371,33 @@ HRESULT CApplication::Initialize()
   // check if we should use the login screen
   if (g_settings.UsingLoginScreen())
   {
-    g_windowManager.ActivateWindow(WINDOW_LOGIN_SCREEN);
+	if (!g_advancedSettings.m_splashImage && g_advancedSettings.m_enableintro)
+	  {
+		// doubler to hide the login screen as its loaded regardless.
+		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
+		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
+		CBuiltins::Execute("runscript(special://xbmc/.emustation/scripts/Intro.py)");
+	  } 
+	  else
+	  {
+		g_windowManager.ActivateWindow(WINDOW_LOGIN_SCREEN);
+	  }
   }
   else
-  {
-    g_windowManager.ActivateWindow(g_SkinInfo.GetFirstWindow());
+  {	  
+	if (!g_advancedSettings.m_splashImage && g_advancedSettings.m_enableintro)
+	  {
+		// doubler to hide the login screen as its loaded regardless.
+		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
+		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
+		CBuiltins::Execute("runscript(special://xbmc/.emustation/scripts/Intro.py)");
+	  } 
+	  else
+	  {
+		g_windowManager.ActivateWindow(g_SkinInfo.GetFirstWindow());
+	  }
   }
-
-  g_pythonParser.bStartup = true;
-  //g_sysinfo.Refresh();
-
+ 
   CLog::Log(LOGINFO, "removing tempfiles");
   CUtil::RemoveTempFiles();
 
@@ -1807,10 +1843,10 @@ void CApplication::CheckDate()
   if ((CurTime.wYear > 2099) || (CurTime.wYear < 2001) )        // XBOX MS Dashboard also uses min/max DateYear 2001/2099 !!
   {
     CLog::Log(LOGNOTICE, "- The Date is Wrong: Setting New Date!");
-    NewTime.wYear       = 2004; // 2004
+    NewTime.wYear       = 2018; // 2018
     NewTime.wMonth      = 1;  // January
     NewTime.wDayOfWeek  = 1;  // Monday
-    NewTime.wDay        = 5;  // Monday 05.01.2004!!
+    NewTime.wDay        = 1;  // Monday 01.01.2018!!
     NewTime.wHour       = 12;
     NewTime.wMinute     = 0;
 
@@ -1818,7 +1854,7 @@ void CApplication::CheckDate()
     SystemTimeToFileTime(&NewTime, &stNewTime);
     SystemTimeToFileTime(&CurTime, &stCurTime);
 #ifdef HAS_XBOX_HARDWARE
-    NtSetSystemTime(&stNewTime, &stCurTime);    // Set a Default Year 2004!
+    NtSetSystemTime(&stNewTime, &stCurTime);    // Set a Default Year 2018!
 #endif
     CLog::Log(LOGNOTICE, "- New Date is now: %i-%i-%i",NewTime.wDay, NewTime.wMonth, NewTime.wYear);
   }
@@ -1897,7 +1933,7 @@ void CApplication::LoadSkin(const CStdString& strSkin)
   m_skinReloadTime = 0;
 
   CStdString strHomePath;
-  CStdString strSkinPath = "Q:\\" + strSkin;
+  CStdString strSkinPath = "special://xbmc/.emustation/themes/" + strSkin;
 
   CLog::Log(LOGINFO, "  load skin from:%s", strSkinPath.c_str());
 
@@ -2301,13 +2337,28 @@ void CApplication::DoRender()
   }
 
   {
-    // free memory if we got les then 12megs free ram
+    // free memory if we got les then 2 meg free ram
     MEMORYSTATUS stat;
     GlobalMemoryStatus(&stat);
     DWORD dwMegFree = (DWORD)(stat.dwAvailPhys / (1024 * 1024));
-    if (dwMegFree <= 12)
+    // if (dwMegFree <= 10)
+    // {
+      // g_TextureManager.Flush();
+    // }
+	// free memory if we got les then 1 meg free ram and show dialog telling user
+    if (dwMegFree <= 2)
     {
-      g_TextureManager.Flush();
+      CLog::Log(LOGWARNING, "Ram hit less than 2MB");
+	  g_TextureManager.Flush();
+	  // CGUIDialogOK *dialog = (CGUIDialogOK *)g_windowManager.GetWindow(WINDOW_DIALOG_OK);
+	  // if (dialog)
+	  // {
+	    // dialog->SetHeading("WARNING");
+	    // dialog->SetLine(0, "RAM total is getting very low");
+	    // dialog->SetLine(1, "Trying to scrape some back.");
+	    // dialog->SetLine(2, "");;
+	    // dialog->DoModal();
+	  // }
     }
 
     // reset image scaling and effect states
@@ -4357,7 +4408,7 @@ void CApplication::SaveFileState()
 
   if (progressTrackingFile != "")
   {
-    if (m_progressTrackingItem->IsVideo())
+  /*  if (m_progressTrackingItem->IsVideo())
     {
       CLog::Log(LOGDEBUG, "%s - Saving file state for video item %s", __FUNCTION__, progressTrackingFile.c_str());
 
@@ -4415,7 +4466,7 @@ void CApplication::SaveFileState()
           g_windowManager.SendThreadMessage(message);
         }
       }
-    }
+    } */
 
     if (m_progressTrackingItem->IsAudio())
     {
@@ -5211,6 +5262,8 @@ void CApplication::Process()
   if (m_skinReloadTime && CTimeUtils::GetFrameTime() >= m_skinReloadTime)
   {
 	CBuiltins::Execute("RunScript(special://xbmc/.emustation/scripts/home_themer.py)");
+    // Set current theme for special://theme/
+    CSpecialProtocol::SetCurrentThemePath("Q:\\.emustation\\themes\\"+URIUtils::ReplaceExtension(g_guiSettings.GetString("lookandfeel.skintheme"), ""));
 	ReloadSkin();
   }
 
@@ -5265,7 +5318,7 @@ void CApplication::Process()
 void CApplication::ProcessSlow()
 {
   // check our network state every 15 seconds or when net status changes
-  m_network.CheckNetwork(30);
+  m_network.CheckNetwork(5);
   
   // check if we need 2 spin down the harddisk
   CheckNetworkHDSpinDown();
@@ -5840,23 +5893,27 @@ void CApplication::StartFtpEmergencyRecoveryMode()
   m_pFileZilla->Start();
 
   // Default settings
-  m_pFileZilla->mSettings.SetMaxUsers(0);
-  m_pFileZilla->mSettings.SetWelcomeMessage("XBMC emergency recovery console FTP.");
+  m_pFileZilla->mSettings.SetMaxUsers(8);
+  m_pFileZilla->mSettings.SetWelcomeMessage("XBMC internal console FTP.");
 
-  // default user
+   // default user
   CXFUser* pUser;
   m_pFileZilla->AddUser("xbox", pUser);
   pUser->SetPassword("xbox");
   pUser->SetShortcutsEnabled(false);
   pUser->SetUseRelativePaths(false);
   pUser->SetBypassUserLimit(false);
-  pUser->SetUserLimit(0);
+  pUser->SetUserLimit(7);
   pUser->SetIPLimit(0);
   pUser->AddDirectory("/", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS | XBDIR_HOME);
   pUser->AddDirectory("C:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
   pUser->AddDirectory("D:\\", XBFILE_READ | XBDIR_LIST | XBDIR_SUBDIRS);
   pUser->AddDirectory("E:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
   pUser->AddDirectory("Q:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
+  pUser->AddDirectory("X:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
+  pUser->AddDirectory("Y:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
+  pUser->AddDirectory("Z:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
+  pUser->AddDirectory("P:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
   //Add existing extended partitions
   if (CIoSupport::DriveExists('F')){
     pUser->AddDirectory("F:\\", XBFILE_READ | XBFILE_WRITE | XBFILE_DELETE | XBFILE_APPEND | XBDIR_DELETE | XBDIR_CREATE | XBDIR_LIST | XBDIR_SUBDIRS);
@@ -5939,7 +5996,9 @@ void CApplication::InitDirectoriesXbox()
   CSpecialProtocol::SetXBMCPath(install_path);
   CSpecialProtocol::SetHomePath(install_path);
   CSpecialProtocol::SetRootPath(strABPath);
+  CSpecialProtocol::SetThemePath("Q:\\.emustation\\themes\\");
   CSpecialProtocol::SetURLDownloaderPath("Q:\\.emustation\\scripts\\urldownloader\\");
+  CSpecialProtocol::SetEmustationScriptsPath("Q:\\.emustation\\scripts\\");
   CSpecialProtocol::SetTempPath("Z:\\");
 
   // First profile is always the Master Profile

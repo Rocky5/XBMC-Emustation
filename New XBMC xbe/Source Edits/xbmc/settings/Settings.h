@@ -21,7 +21,7 @@
 
 #define PRE_SKIN_VERSION_9_10_COMPATIBILITY 1
 
-#define DEFAULT_SKIN "default skin"
+#define DEFAULT_SKIN "simple"
 #define DEFAULT_WEATHER_PLUGIN "Weather.com (standard)"
 
 #include "settings/VideoSettings.h"
@@ -494,6 +494,7 @@ public:
   CStdString GetGameSaveThumbFolder() const;
   CStdString GetProfilesThumbFolder() const;
   CStdString GetSourcesFile() const;
+  CStdString GetSkinPath() const;
   CStdString GetSkinFolder() const;
   CStdString GetSkinFolder(const CStdString& skinName) const;
   CStdString GetScriptsFolder() const;

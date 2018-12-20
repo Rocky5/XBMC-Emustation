@@ -2,6 +2,8 @@
 	Used to check for updates and notify the user.
 '''
 import os, urllib, urllib2, xbmc, xbmcgui
+#####	Start markings for the log file.
+print "| update_check.py loaded."
 dialog = xbmcgui.Dialog()
 # Used to check that you have internet access before letting you do anything.
 try:

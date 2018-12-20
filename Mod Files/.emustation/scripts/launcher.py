@@ -3,16 +3,9 @@
 	Used to launch roms
 '''
 import os, xbmc, xbmcgui
+#####	Start markings for the log file.
+print "| launcher.py loaded."
 xbmcgui.lock()
-autoexec_data = "import os, xbmcgui\n\
-if xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ) == 1:\n\
-	if xbmc.getCondVisibility( 'Skin.HasSetting(gameloaded)' ) == 1:\n\
-		xbmc.executebuiltin('ActivateWindow(1)')\n\
-		xbmc.executebuiltin('SetFocus(9000,%s)')\n\
-		xbmc.executebuiltin('Skin.Reset(gameloaded)')\n\
-		xbmc.executebuiltin('RunScript(Q:\\.emustation\\scripts\\disable_splash.py)')\n\
-else:\n\
-	xbmc.executebuiltin('Skin.Reset(gameloaded)')"
 try:
 	try:
 		Emu_Path			= sys.argv[1:][0]
@@ -22,6 +15,7 @@ try:
 	except:
 		Favourite_Launch	= 0
 		Current_position	= 0
+	xbmc.executebuiltin('Skin.SetString(lastrompos,'+Current_position+')')
 	Root_Directory 			= xbmc.translatePath("Special://root/")
 	Custom_Emus_Path 		= xbmc.getInfoLabel('skin.string(custom_emulator_path)')
 	Custom_Roms_Path 		= xbmc.getInfoLabel('skin.string(custom_roms_path)')
@@ -39,17 +33,14 @@ try:
 			cut.write( '<shortcut><path>%s</path><label>launcher</label><custom><game>%s</game></custom></shortcut>' % ( os.path.join( Custom_Emus_Path,Emu_Name,Emu_Path ),Rom_Name_Path ) )
 		else:
 			cut.write( '<shortcut><path>%s</path><label>launcher</label><custom><game>%s</game></custom></shortcut>' % ( os.path.join( Custom_Emus_Path,Emu_Name,Emu_Path ),os.path.join( Custom_Roms_Path,Emu_Name,Rom_Name_Path ) ) )
-	if not Favourite_Launch and str( xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ) ) == "1":
-		if os.path.isfile('Q:\\system\\toggles\\no splash.disabled'):
-			os.rename('Q:\\system\\toggles\\no splash.disabled','Q:\\system\\toggles\\no splash.enabled')
-		else:
-			with open('Q:\\system\\toggles\\no splash.enabled', 'w') as nosplash: nosplash.write( '' )
-		with open('Q:\\system\\scripts\\autoexec.py', 'w') as autoexec: autoexec.write( autoexec_data % ( Current_position ) )
+	if not Favourite_Launch and xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ):
+		xbmc.executebuiltin('Skin.SetBool(gameloaded)')
+		if not os.path.isfile('Q:\\system\\nosplash'):
+			with open('Q:\\system\\nosplash', 'w') as nosplash: nosplash.write( '' )
 	else: pass
-	if not Favourite_Launch: xbmc.executebuiltin('Skin.SetBool(gameloaded)')
 	xbmcgui.unlock()
 	xbmc.executebuiltin('runxbe( z:\\tmp.cut )')
 except:
 	xbmcgui.unlock()
 	xbmc.executebuiltin('Dialog.close(1101,true)')
-	xbmcgui.Dialog().ok('Error','Something went wrong.','Please rescan your roms.')
+	xbmcgui.Dialog().ok('Error','Something went wrong.','Please rescan your roms/games.')

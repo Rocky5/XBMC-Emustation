@@ -1,0 +1,165 @@
+<!-- Background Images -->
+<control type="image">
+	<description>background</description>
+	<posx>0</posx>
+	<posy>0</posy>
+	<width>1280</width>
+	<height>720</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FF97999B</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- Top Underlay Image -->
+<control type="image">
+	<description>top bar</description>
+	<posx>0</posx>
+	<posy>0</posy>
+	<width>1280</width>
+	<height>115</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FFC8CACB</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- System Log -->
+<control type="image">
+	<description>logo</description>
+	<posx>30</posx>
+	<posy>20</posy>
+	<width>490</width>
+	<height>72</height>
+	<aspectratio align="left">keep</aspectratio>
+	<texture>layouts/$INFO[Skin.String(emuname)]/art/logo.png</texture>
+</control>
+<!-- Bottom Underlay Image -->
+<control type="image">
+	<posx>0</posx>
+	<posy>47r</posy>
+	<width>1280</width>
+	<height>47</height>
+	<aspectratio>stretch</aspectratio>
+	<colordiffuse>FFC5C6C7</colordiffuse>
+	<texture>background diffuse.png</texture>
+</control>
+<!-- Fanart -->
+<control type="largeimage">
+	<posx>0</posx>
+	<posy>115</posy>
+	<width>1280</width>
+	<height>558</height>
+	<aspectratio>scale</aspectratio>
+	<colordiffuse>10FFFFFF</colordiffuse>
+	<texture>[Media_Path]\screenshots\$INFO[Container(9000).listitem.thumb]</texture>
+	<fadetime>FanartCrossfadeTime</fadetime>
+	<include>EmulatorScrollFade</include>
+	<visible>[Fanart_Toggle]</visible>
+</control>
+<!-- Context Button Overlay -->
+<include>ContextButtonsEmulators</include>
+<include>ContextButtonsVideo</include>
+<control type="grouplist">
+	<posx>32</posx>
+	<posy>159</posy>
+	<width>723</width>
+	<height>225</height>
+	<itemgap>25</itemgap>
+	<orientation>horizontal</orientation>
+	<!-- Thumbnail Image -->
+	<control type="image">
+		<width>250</width>
+		<height>225</height>
+		<aspectratio>keep</aspectratio>
+		<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).listitem.thumb]</texture>
+		<fadetime>ThumbCrossfadeTime</fadetime>
+		<include>EmulatorScrollFade</include>
+		<animation effect="fade" reversable="true" start="100" end="1" time="0" condition="Player.HasVideo">conditional</animation>
+	</control>
+	<!-- Full name, publisher info eg... -->
+	<control type="label">
+		<height>225</height>
+		<width min="200" max="435">auto</width>
+		<font>size_18</font>
+		<textcolor>FF3C3D3E</textcolor>
+		<align>left</align>
+		<aligny>center</aligny>
+		<scrolltime>200</scrolltime>
+		<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+		<label>[UPPERCASE]$INFO[Container(9000).ListItem.Label2][/UPPERCASE]</label>
+		<include>EmulatorScrollFade</include>
+	</control>
+</control>
+<!-- Game description (Synopsis) -->
+<control type="textbox">
+	<posx>32</posx>
+	<posy>424</posy>
+	<width>723</width>
+	<height>210</height>
+	<font>size_17</font>
+	<textcolor>FF3C3D3E</textcolor>
+	<align>left</align>
+	<scrolltime>200</scrolltime>
+	<autoscroll delay="10000" time="1000" repeat="10000" condition="Container(9000).HasFocus">Conditional</autoscroll>
+	<label>[UPPERCASE]$INFO[Container(9000).ListItem.ActualIcon][/UPPERCASE]</label>
+	<include>EmulatorScrollFade</include>
+</control>
+<!-- Video Window -->
+<control type="videowindow">
+	<description>video preview window</description>
+	<posx>32</posx>
+	<posy>159</posy>
+	<width>250</width>
+	<height>225</height>
+	<aspectratio>keep</aspectratio>
+	<animation effect="fade" start="0" end="100" delay="100" time="200" condition="Player.HasVideo">conditional</animation>
+</control>
+<!-- List Control -->
+<control type="list" id="9000">
+	<posx>787</posx>
+	<posy>159</posy>
+	<width>460</width>
+	<height>482</height>
+	<onleft>PageUp</onleft>
+	<onright>PageDown</onright>
+	<onup>9000</onup>
+	<ondown>9000</ondown>
+	<viewtype label="List">List</viewtype>
+	<preloaditems>5</preloaditems>
+	<itemlayout height="30" width="460">
+		<control type="label">
+			<posx>14</posx>
+			<posy>1</posy>
+			<width>432</width>
+			<height>30</height>
+			<font>size_21</font>
+			<textcolor>FF282A2B</textcolor>
+			<selectedcolor>FF3C3D3E</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+			<scroll>false</scroll>
+		</control>
+	</itemlayout>
+	<focusedlayout height="30" width="460">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>460</width>
+			<height>31</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>FFD51110</colordiffuse>
+			<texture border="1">background diffuse.png</texture>
+		</control>
+		<control type="label">
+			<posx>14</posx>
+			<posy>1</posy>
+			<width>432</width>
+			<height>30</height>
+			<font>size_21</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<selectedcolor>FF969696</selectedcolor>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+		</control>
+	</focusedlayout>
+	<!-- content list this label is required -->
+</control>

@@ -1,0 +1,19 @@
+<includes>
+		<variable name="var-labelcolour">
+				<value>carousel_bar_label</value>
+		</variable>
+		<!-- <variable name="var-labelcolour"> -->
+		<!-- <value condition="!Skin.HasSetting(altlabelcolour)">carousel_bar_label</value> -->
+		<!-- <value condition="Skin.HasSetting(altlabelcolour)">carousel_bar_alt_label</value> -->
+		<!-- </variable> -->
+		<variable name="var-carbon_custom_colours">
+				<value condition="!StringCompare(Skin.CurrentTheme,carbon) + !StringCompare(Skin.CurrentTheme,carbon alt) | IsEmpty(Skin.String(carbon_custom_colours))">Busy_Wheel</value>
+				<value condition="StringCompare(Skin.CurrentTheme,carbon) | StringCompare(Skin.CurrentTheme,carbon alt)">FF$INFO[Skin.String(carbon_custom_colours)]</value>
+		</variable>
+		<variable name="var-contextbuttonshome">
+				<value>contextbuttonshome</value>
+		</variable>
+		<variable name="var-contextbuttonslayouts">
+				<value>contextbuttonslayouts</value>
+		</variable>
+</includes>

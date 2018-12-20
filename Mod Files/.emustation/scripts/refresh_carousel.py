@@ -5,7 +5,7 @@
 '''
 import glob, os, sys, time, xbmc, xbmcgui
 #####	Start markings for the log file.
-print "| .emustation\Scripts\refresh_carousel.py loaded."
+print "| refresh_carousel.py loaded."
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 Cancelled						= ""
@@ -32,13 +32,11 @@ if str( xbmc.getCondVisibility( 'Skin.String(Custom_Roms_Path)' ) ) == "1":
 	Roms_Path			= xbmc.getInfoLabel( 'Skin.String(Custom_Roms_Path)' )
 else:
 	Roms_Path			= 'Q:\\.emustation\\roms\\'
-
 Gamelist_Folder_Path	= 'Q:\\.emustation\\gamelists\\'
-Game_Directories		= [ "E:\\Games\\","E:\\Games1\\","E:\\Games2\\","F:\\Games\\","F:\\Games1\\","F:\\Games2\\","G:\\Games\\","G:\\Games1\\","G:\\Games2\\" ]
+Game_Directories		= [ "E:\\Games\\","F:\\Games\\","G:\\Games\\" ]
 Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\","E:\\Ports\\","F:\\Ports\\","G:\\Ports\\" ]
 Apps_Directories		= [ "E:\\Apps\\","F:\\Apps\\","G:\\Apps\\","E:\\Applications\\","F:\\Applications\\","G:\\Applications\\" ]
 EMU_Directories			= [ "3do","amiga","amstradcpc","apple2","atari2600","atari5200","atari7800","atari800","atarijaguar","atarilynx","atarist","atarixe","atarixl","c64","c64pet","chip8x","coco","colecovision","cv20","daphne","dreamcastvmu","famicom","fba","fbaxxx","fbl","fblc","gamegear","gb","gba","gbc","genesis","intellivision","mame","mastersystem","megadrive","mess","msx","n64","nds","neogeo","neogeocd","nes","ngp","ngpc","odyssey2","pc-98","pce-cd","pcengine","pokemonmini","psx","samcoupe","saturn","sc-3000","scummvm","sega32x","segacd","sf-7000","sg-1000","sgb","sgb2","snes","tg-cd","tg16","ti99","virtualboy","waterasupervision","wonderswan","x68000","zxspectrum" ] ## used to create folders of the supported emulators.
-
 if Update_Emulators == "scan_emus":
 	CountList = 1
 	pDialog.update( 0 )
@@ -73,7 +71,6 @@ if Update_Emulators == "scan_emus":
 		if not SilentMode == "silent_mode": pDialog.update( ( CountList * 100 ) / len( os.listdir( Emulator_Folder_Path ) ),"Checking for " + EmuFolder + " emulator","and updating emulator list" )
 		time.sleep(0.05) ## this is here so the progress bar can update
 		CountList = CountList + 1
-
 if not Update_Emulator == "0":	
 	if not os.path.isdir( Emulator_Folder_Path ): os.makedirs( Emulator_Folder_Path )
 	if not os.path.isdir( Gamelist_Folder_Path ): os.makedirs( Gamelist_Folder_Path )
@@ -86,10 +83,9 @@ if not Update_Emulator == "0":
 	else:
 		xbmc.executebuiltin('Skin.Reset('+ Update_Emulator +'_exists)')
 		#pDialog.update( 0,"Checking for " + Update_Emulator + " emulator.","No emulator found." )
-	
 if Update_XBE_Games == "scan_xbes":
-	xbecount = 0
-	if not SilentMode == "silent_mode": pDialog.create( "Refreshing XBE Counter","Initializing" )
+	# xbecount = 0
+	# if not SilentMode == "silent_mode": pDialog.create( "Refreshing XBE Counter","Initializing" )
 	# for Game_Directories in Game_Directories:
 		# CountList = 1
 		# pDialog.update( 0 )
@@ -109,7 +105,7 @@ if Update_XBE_Games == "scan_xbes":
 						# else:
 							# Cancelled = "True"
 							# pass
-	xbmc.executebuiltin('Skin.SetString(xbox_games,' + str(xbecount) + ')')
+	# xbmc.executebuiltin('Skin.SetString(xbox_games,' + str(xbecount) + ')')
 	xbecount = 0
 	for Homebrew_Directories in Homebrew_Directories:
 		CountList = 1
@@ -152,7 +148,6 @@ if Update_XBE_Games == "scan_xbes":
 							Cancelled = "True"
 							pass
 	xbmc.executebuiltin('Skin.SetString(apps_installed,' + str(xbecount) + ')')
-
 if not SilentMode == "silent_mode": 
 	pDialog.update(0)
 	pDialog.close()

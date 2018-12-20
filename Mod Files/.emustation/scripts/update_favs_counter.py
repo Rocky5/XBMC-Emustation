@@ -4,7 +4,7 @@
 '''
 import os
 #####	Start markings for the log file.
-print "| .emustation\Scripts\update_favs_counter.py loaded."
+print "| update_fav_counter.py loaded."
 try:
 	Rom_Mode	= sys.argv[1:][0]
 except:

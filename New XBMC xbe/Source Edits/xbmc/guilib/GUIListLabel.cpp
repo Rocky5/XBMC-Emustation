@@ -29,18 +29,15 @@ CGUIListLabel::CGUIListLabel(int parentID, int controlID, float posX, float posY
     , m_label(posX, posY, width, height, labelInfo, alwaysScroll ? CGUILabel::OVER_FLOW_SCROLL : CGUILabel::OVER_FLOW_TRUNCATE)
     , m_info(info)
 {
-  std::ostringstream oss;
-  oss << g_SkinInfo.GetVersion(); 
-  std::string StringVersion = oss.str();
-  if ( StringVersion < "2.2")
+  if (g_SkinInfo.GetVersion() <= 2.10)
   {
-    if (labelInfo.align & XBFONT_RIGHT)
-      m_label.SetMaxRect(m_posX - m_width, m_posY, m_width, m_height);
-    else if (labelInfo.align & XBFONT_CENTER_X)
-      m_label.SetMaxRect(m_posX - m_width*0.5f, m_posY, m_width, m_height);
+	if (labelInfo.align & XBFONT_RIGHT)
+		m_label.SetMaxRect(m_posX - m_width, m_posY, m_width, m_height);
+	else if (labelInfo.align & XBFONT_CENTER_X)
+		m_label.SetMaxRect(m_posX - m_width*0.5f, m_posY, m_width, m_height);
   }
   if (m_info.IsConstant())
-    SetLabel(m_info.GetLabel(m_parentID, true));
+	SetLabel(m_info.GetLabel(m_parentID, true));
   ControlType = GUICONTROL_LISTLABEL;
 }
 

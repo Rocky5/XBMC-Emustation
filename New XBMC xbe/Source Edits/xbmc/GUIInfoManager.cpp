@@ -1558,15 +1558,15 @@ CStdString CGUIInfoManager::GetLabel(int info, int contextWindow)
     break;
 
   case SKIN_THEME:
-    if (g_guiSettings.GetString("lookandfeel.skintheme").Equals("skindefault"))
-      strLabel = "skindefault";
+    if (g_guiSettings.GetString("lookandfeel.skintheme").Equals("SIMPLE"))
+      strLabel = "SIMPLE";
     else
       strLabel = g_guiSettings.GetString("lookandfeel.skintheme");
       URIUtils::RemoveExtension(strLabel);
     break;
   case SKIN_COLOUR_THEME:
-    if (g_guiSettings.GetString("lookandfeel.skincolors").Equals("skindefault"))
-      strLabel = "skindefault";
+    if (g_guiSettings.GetString("lookandfeel.skincolors").Equals("SIMPLE"))
+      strLabel = "SIMPLE";
     else
       strLabel = g_guiSettings.GetString("lookandfeel.skincolors");
     break;
@@ -4157,7 +4157,7 @@ CStdString CGUIInfoManager::GetItemLabel(const CFileItem *item, int info)
   case LISTITEM_SORT_LETTER:
     {
       CStdString letter = g_charsetConverter.utf8Left(item->GetSortLabel(), 50);
-      letter.ToUpper();
+      //letter.ToUpper();
       return letter;
     }
     break;

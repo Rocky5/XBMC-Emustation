@@ -7,9 +7,9 @@ Del /Q /S "Thumbs.db" 2>NUL
 title XBMC-Emustation Builder
 
 Set "foldername=update-files"
-Set "fromDate=06/07/2018"
+Set "fromDate=20/12/2018"
 Set "toDate=%date%"
-Set "version=1.1"
+Set "version=1.2"
 (
 echo fromDate^=CDate^("%fromDate%"^)
 echo toDate^=CDate^("%toDate%"^)
@@ -37,15 +37,14 @@ copy /y "New XBMC xbe\default.xbe" "Other\update build\updater\default.xbe"
 del /q /s "%foldername%\system\userdata\guisettings.xml"
 rd /q /s "%foldername%\.emustation\roms"
 rd /q /s "%foldername%\.emustation\media"
-rd /q /s "%foldername%\default skin\media\Use for custom home layouts"
 )
 copy /y "Changes.txt" "%foldername%"
 if exist "..\Other\build for release" (
-	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation %version%.%daytotal%" L < "%foldername%\default skin\language\English\strings.po" >"%foldername%\default skin\language\English\strings.tmp"
-	Del "%foldername%\default skin\language\English\strings.po"
-	rename "%foldername%\default skin\language\English\strings.tmp" "strings.po"
+	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation %version%.%daytotal%" L < "%foldername%\.emustation\themes\simple\language\English\strings.po" >"%foldername%\.emustation\themes\simple\language\English\strings.tmp"
+	Del "%foldername%\.emustation\themes\simple\language\English\strings.po"
+	rename "%foldername%\.emustation\themes\simple\language\English\strings.tmp" "strings.po"
 	Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"
-	copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\default skin\720p\Custom_Changes.xml"
+	copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\.emustation\themes\simple\720p\Custom_Changes.xml"
 	del /q "%foldername%\changes.tmp"
 )
 CD %foldername%\

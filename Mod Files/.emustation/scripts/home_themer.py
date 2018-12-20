@@ -4,7 +4,7 @@
 '''
 import fileinput, os, sys, time, xbmc, xbmcgui
 #####	Start markings for the log file.
-print "| .emustation\Scripts\home_themer.py loaded."
+print "| home_themer.py loaded."
 xbmcgui.lock()
 pDialog					= xbmcgui.DialogProgress()
 dialog					= xbmcgui.Dialog()
@@ -14,24 +14,22 @@ dialog					= xbmcgui.Dialog()
 	# if Select_Theme == "1":
 		# xbmc.executebuiltin( 'Skin.Theme(1)' )
 # except: pass
-
 # try:
 	# if Select_Theme == "0":
 		# xbmc.executebuiltin( 'Skin.Theme(-1)' )
 # except: pass
-
 # Delay to it gives the system time to update the current theme entry.
 # time.sleep(0.2)
-
 dialog				= xbmcgui.Dialog()
 time.sleep(1)
 HomeLayout 			= xbmc.getInfoLabel( 'Skin.CurrentTheme' )
 Home_XML_Path		= xbmc.translatePath( 'special://skin/720p/Home.xml' )
-Default_Layout_File	= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/skindefault.xml' )
-Layout_File			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/' + HomeLayout + '.xml' )
-System_List			= xbmc.translatePath( 'special://xbmc/.emustation/layouts/home/system_list/system_list.xml' )
+Default_Layout_File	= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/layouts/home/layout.xml' )
+Layout_File			= xbmc.translatePath( 'special://xbmc/.emustation/themes/' + HomeLayout + '/layouts/home/layout.xml' )
+System_List			= xbmc.translatePath( 'special://xbmc/.emustation/themes/SIMPLE/system_list/system_list.xml' )
 Header_Data			= '<window id="0">\n\
 	<defaultcontrol always="true">9000</defaultcontrol>\n\
+	<onload>Skin.Reset(editmode)</onload>\n\
 	<controls>\n\
 		<!-- Secret Passcode -->\n\
 		<control type="button" id="19">\n\
@@ -133,11 +131,13 @@ Header_Data			= '<window id="0">\n\
 			<posx>-500</posx>\n\
 			<onfocus>ActivateWindow(Screensaver)</onfocus>\n\
 			<visible>!Player.HasAudio</visible>\n\
+			<animation effect="fade" start="0" end="100" time="100" delay="1000">WindowOpen</animation>\n\
 		</control>\n\
 		<control type="button" id="9999">\n\
 			<posx>-500</posx>\n\
 			<onfocus>ActivateWindow(2006)</onfocus>\n\
 			<visible>Player.HasAudio</visible>\n\
+			<animation effect="fade" start="0" end="100" time="100" delay="1000">WindowOpen</animation>\n\
 		</control>\n\
 		<include>CommonBackground</include>\n\
 		<control type="group">\n\
@@ -146,6 +146,7 @@ Header_Data			= '<window id="0">\n\
 	'
 Footer_Data				= '\n\
 	</control>\n\
+	<include>overlay_plane</include>\n\
 	</controls>\n\
 </window>'
 if os.path.isfile( Layout_File ):
@@ -173,7 +174,7 @@ else:
 			pass
 	else:
 		xbmcgui.unlock()
-		dialog.ok("ERROR!","skindefault.xml is missing from","Q:\\.emustation\\layouts\\home\\","Reinstall this file to fix the issue.")
+		dialog.ok("ERROR!","layout.xml is missing from","Q:\\.emustation\\themes\\SIMPLE\\layouts\\home\\","Reinstall this file to fix the issue.")
 if os.path.isfile( System_List ):
 	try:
 		with open( System_List ) as fin:
@@ -189,6 +190,6 @@ if os.path.isfile( System_List ):
 		pass
 else:
 	xbmcgui.unlock()
-	dialog.ok("ERROR!","system_list.xml is missing from","Q:\\.emustation\\layouts\\home\\system_list\\","Reinstall this file to fix the issue.")
+	dialog.ok("ERROR!","system_list.xml is missing from","Q:\\.emustation\\themes\\SIMPLE\\homescreen\\system_list\\","Reinstall this file to fix the issue.")
 xbmcgui.unlock()
 xbmc.executebuiltin( 'ReloadSkin' ) # required for the custom them selector to reload the skin and apply the new theme.

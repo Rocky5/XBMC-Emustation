@@ -10,9 +10,11 @@ if os.path.isfile( Root_Directory + '.emustation\\scripts\\versioner.py' ): os.r
 if os.path.isfile( Root_Directory + '.emustation\\scripts\\scanner.py' ): os.remove( Root_Directory + '.emustation\\scripts\\scanner.py' )
 if os.path.isfile( Root_Directory + 'system\\version.bin' ): os.remove( Root_Directory + 'system\\version.bin' )
 if os.path.isdir( Root_Directory + 'system\\UserData\\Thumbnails\\Programs' ): shutil.rmtree( Root_Directory + 'system\\UserData\\Thumbnails\\Programs' )
-if os.path.isdir( Root_Directory + '.emustation\\layouts\\home\\previews' ): shutil.rmtree( Root_Directory + '.emustation\\layouts\\home\\previews' )
 if os.path.isdir( Root_Directory + '.emustation\\layouts\\home\\other' ): shutil.rmtree( Root_Directory + '.emustation\\layouts\\home\\other' )
 if os.path.isdir( Root_Directory + '.emustation\\synopsis\\synopsis' ): shutil.rmtree( Root_Directory + '.emustation\\synopsis\\synopsis' )
+if os.path.isdir( Root_Directory + '.emustation\\layouts' ): shutil.rmtree( Root_Directory + '.emustation\\layouts' )
+if os.path.isdir( Root_Directory + 'default skin' ): shutil.rmtree( Root_Directory + 'default skin' )
+if os.path.isdir( Root_Directory + 'system\\toggles' ): shutil.rmtree( Root_Directory + 'system\\toggles' )
 if os.path.isfile( zip_file ):
 	with zipfile.ZipFile( zip_file ) as zip:
 		pDialog.create( "EXTRACTING ZIP","","Please wait..." )
@@ -26,18 +28,20 @@ if os.path.isfile( zip_file ):
 				zip.extract( item, destination )
 			except:
 				print "Failed - " + item
-				pass
 	for line in fileinput.input( os.path.join( Root_Directory, 'system\\userdata\\guisettings.xml' ), inplace=1):
 		if line.strip().startswith('<font>'):
-			line = '<font>SKINDEFAULT</font>\n'
+			line = '<font></font>\n'
 		if line.strip().startswith('<skincolors>'):
 			line = '<skincolors>.xml</skincolors>\n'
 		if line.strip().startswith('<skintheme>'):
-			line = '<skintheme>skindefault</skintheme>\n'
+			line = '<skintheme>simple</skintheme>\n'
 		if line.strip().startswith('<soundskin>'):
 			line = '<soundskin></soundskin>\n'
-		print line,
-
+		if line.strip().startswith('<timeserver>'):
+			line = '<timeserver>true</timeserver>\n'
+		if line.strip().startswith('<timeserveraddress>'):
+			line = '<timeserveraddress>pool.ntp.org</timeserveraddress>\n'
+		print line.replace('name="default skin.', 'name="simple.'),
 autoexec_data = "import os, shutil\n\
 if os.path.isdir( 'Q:\\Updater' ):\n\
 	shutil.rmtree( 'Q:\\Updater' )\n\

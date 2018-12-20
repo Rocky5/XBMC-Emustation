@@ -4,7 +4,7 @@
 '''
 import fileinput,os,shutil,xbmc,xbmcgui
 #####	Start markings for the log file.
-print "| .emustation\Scripts\generate_favourites.py loaded."
+print "| generate_favourites.py loaded."
 Current_name 	= xbmc.getInfoLabel('Container(9000).ListItem.Label')
 Emu_Name		= xbmc.getInfoLabel('Skin.String(emuname)')
 Root_Directory 	= xbmc.translatePath("Special://root/")
@@ -31,8 +31,12 @@ if os.path.isfile( Favs_List_XML ):
 			# except:
 				# pass
 			if '<favourites>'+Current_name+'|' in line:
-				TMP = line.replace('<favourites>',''); TMP = TMP.replace('</favourites>',''); TMP = TMP.split('|');
-				Display_Name = TMP[0]; Emu_Path = TMP[1]; Rom_Path = TMP[2];
+				TMP = line.replace('<favourites>','')
+				TMP = TMP.replace('</favourites>','')
+				TMP = TMP.split('|')
+				Display_Name = TMP[0]
+				Emu_Path = TMP[1]
+				Rom_Path = TMP[2]
 				Emu_Path = os.path.join( '$INFO[skin.string(custom_emulator_path)]', Emu_Name, Emu_Path )
 				if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
 					pass
@@ -40,13 +44,15 @@ if os.path.isfile( Favs_List_XML ):
 					Rom_Path = os.path.join( '$INFO[skin.string(custom_roms_path)]', Emu_Name, Rom_Path )
 	if Emu_Path.startswith("Q:\\"): Emu_Path = Emu_Path.replace( "Q:\\", Root_Directory )
 	if Rom_Path.startswith("Q:\\"): Rom_Path = Rom_Path.replace( "Q:\\", Root_Directory )
-	Favourite_String = '	<favourite name="' + Display_Name + '\" thumb=\"' + os.path.join(xbmc.getInfoLabel( 'skin.string(Custom_Media_Path)' ), Emu_Name, xbmc.getInfoLabel( 'Skin.String(' + Emu_Name + '_artworkfolder)' ), xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ))  + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emu_Path + '&quot;,&quot;' + Rom_Path + '&quot;,1,0)</favourite>'
+	Favourite_String = '	<favourite name="' + Display_Name + " [" + Emu_Name + "]" + '\" thumb=\"' + os.path.join(xbmc.getInfoLabel( 'skin.string(Custom_Media_Path)' ), Emu_Name, xbmc.getInfoLabel( 'Skin.String(' + Emu_Name + '_artworkfolder)' ), xbmc.getInfoLabel( 'Container(9000).ListItem.Thumb' ))  + '\">RunScript(&quot;' + Scripts_Path + 'launcher.py&quot;,&quot;' + Emu_Path + '&quot;,&quot;' + Rom_Path + '&quot;,1,0)</favourite>'
 	if '"'+Current_name+'"' in open(Favourites_XML).read():
 		xbmc.executebuiltin('Notification(DOH!,This rom has already been added.)')
 	else:
 		for line in fileinput.input(Favourites_XML, inplace=1):
-			line = line.replace('<favourites />', '<favourites>\n' + Favourite_String.replace('\n','') + '\n</favourites>')
-			line = line.replace('</favourites>', Favourite_String.replace('\n','') + '\n</favourites>')
+			if line.startswith('<favourites />'):
+				line = line.replace('<favourites />', '<favourites>\n' + Favourite_String.replace('\n','') + '\n</favourites>')
+			else:
+				line = line.replace('</favourites>', Favourite_String.replace('\n','') + '\n</favourites>')
 			print line,
 		shutil.copy2(Favourites_XML,Favourites_XML_Backup)
 		xbmc.executebuiltin("Notification(" + Display_Name.upper().replace(',',' ') + ",Has been added to your favourites.)")

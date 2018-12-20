@@ -198,6 +198,7 @@ calipso.zip
 cameltry.zip
 cannonbp.zip
 capbowl.zip
+captaven.zip
 captcomm.zip
 catacomb.zip
 cavelon.zip
@@ -234,6 +235,7 @@ cloak.zip
 cltchitr.zip
 cninja.zip
 cobracom.zip
+combatsc.zip
 combh.zip
 commando.zip
 commsega.zip
@@ -249,6 +251,7 @@ countrun.zip
 cps1demo.zip
 cps1frog.zip
 crazyfgt.zip
+crbaloon.zip
 crimec.zip
 crimfght.zip
 crospang.zip
@@ -285,6 +288,7 @@ darktowr.zip
 darwin.zip
 dblaxle.zip
 dbldynj.zip
+dblewing.zip
 dblpoint.zip
 dbreed.zip
 dbz.zip
@@ -293,7 +297,7 @@ dcon.zip
 ddcrew.zip
 ddonpach.zip
 ddp2.zip
-ddpdoj.zip
+ddp3.zip
 ddragon.zip
 ddragon2.zip
 ddragon3.zip
@@ -313,6 +317,7 @@ devstors.zip
 diamond.zip
 dietgo.zip
 digdug.zip
+digdug2.zip
 diggerma.zip
 dimahoo.zip
 dingo.zip
@@ -343,6 +348,7 @@ dowild.zip
 downtown.zip
 dquizgo.zip
 dragnblz.zip
+dragngun.zip
 drakton.zip
 dremshpr.zip
 drgnbowl.zip
@@ -397,9 +403,11 @@ f1gp.zip
 f1gp2.zip
 faceoff.zip
 fantasia.zip
+fantasyu.zip
 fantland.zip
 fantsia2.zip
 fantsy95.zip
+fantzn2.zip
 fantzn2x.zip
 fantzone.zip
 fatfursp.zip
@@ -410,6 +418,7 @@ fbfrenzy.zip
 feversos.zip
 ffight.zip
 fghtbskt.zip
+fghthist.zip
 fhawk.zip
 fightfev.zip
 fightrol.zip
@@ -424,11 +433,13 @@ flagrall.zip
 flashgal.zip
 flicky.zip
 flipshot.zip
+flower.zip
 flstory.zip
 flyboy.zip
 flytiger.zip
 fncywld.zip
 fnkyfish.zip
+foodf.zip
 footchmp.zip
 forgottn.zip
 formatz.zip
@@ -459,6 +470,7 @@ galmedes.zip
 galpanic.zip
 gangwars.zip
 ganryu.zip
+gaplus.zip
 gardia.zip
 garogun.zip
 garou.zip
@@ -471,7 +483,6 @@ gdfs.zip
 gemini.zip
 genix.zip
 genpeitd.zip
-getstar.zip
 gforce2.zip
 ghostb.zip
 ghostlop.zip
@@ -484,12 +495,14 @@ gigawing.zip
 gijoe.zip
 ginganin.zip
 ginkun.zip
+glass.zip
 gloc.zip
 gmgalax.zip
 gnbarich.zip
 gng.zip
 goalx3.zip
 gogomile.zip
+goldmedl.zip
 goldnaxe.zip
 gotcha.zip
 gowcaizr.zip
@@ -497,9 +510,11 @@ gpilots.zip
 gprider.zip
 gradius3.zip
 grasspin.zip
+grdian.zip
 grdians.zip
 grdnstrm.zip
 grindstm.zip
+grobda.zip
 growl.zip
 gtmr.zip
 gtmr2.zip
@@ -587,6 +602,7 @@ imsorry.zip
 insectx.zip
 inthunt.zip
 invaders.zip
+inyourfa.zip
 ironclad.zip
 ironhors.zip
 irrmaze.zip
@@ -615,6 +631,7 @@ jrpacman.zip
 jumpbug.zip
 jumpcoas.zip
 jumpkids.zip
+jumpkun.zip
 jumppop.zip
 jumpshot.zip
 jungler.zip
@@ -689,6 +706,7 @@ lastbld2.zip
 lastday.zip
 lastduel.zip
 lasthope.zip
+lastkm.zip
 lastmisn.zip
 lastsurv.zip
 lbowling.zip
@@ -745,6 +763,7 @@ majtitle.zip
 mangchi.zip
 maniacsq.zip
 manybloc.zip
+mappy.zip
 marineb.zip
 mariner.zip
 mario.zip
@@ -796,6 +815,7 @@ mj4simai.zip
 mjgtaste.zip
 mjleague.zip
 mjnquest.zip
+mmagic.zip
 mmatrix.zip
 mmaulers.zip
 mmaze.zip
@@ -812,6 +832,7 @@ moonwar.zip
 moremore.zip
 moremorp.zip
 mosyougi.zip
+motos.zip
 mpang.zip
 mplanets.zip
 mrdo.zip
@@ -849,6 +870,7 @@ mvp.zip
 mvsc.zip
 mwalk.zip
 mwarr.zip
+mx5000.zip
 myangel.zip
 myangel2.zip
 myhero.zip
@@ -873,6 +895,7 @@ neopong.zip
 newfant.zip
 news.zip
 newsin7.zip
+nibbler.zip
 nightstr.zip
 ninjak.zip
 ninjakd2.zip
@@ -890,6 +913,7 @@ nost.zip
 nouryoku.zip
 nova2001.zip
 nrallyx.zip
+nslasher.zip
 nspirit.zip
 nwarr.zip
 ohmygod.zip
@@ -898,7 +922,7 @@ olds.zip
 oldsplus.zip
 omegaf.zip
 onna34ro.zip
-opwolf.zip
+opaopa.zip
 opwolf3.zip
 orbitron.zip
 orbs.zip
@@ -915,6 +939,7 @@ p47.zip
 packbang.zip
 pacland.zip
 pacmania.zip
+pacnpal.zip
 pacplus.zip
 paddlema.zip
 pairlove.zip
@@ -928,6 +953,7 @@ paprazzi.zip
 parodius.zip
 pass.zip
 passsht.zip
+pballoon.zip
 pbancho.zip
 pbillrd.zip
 pbobbl2n.zip
@@ -938,6 +964,7 @@ pdrift.zip
 peekaboo.zip
 penbros.zip
 pengo.zip
+perfrman.zip
 pgemeni.zip
 pgm.zip
 pgmdemo.zip
@@ -945,12 +972,14 @@ pgmfrog.zip
 pgoal.zip
 phoenix.zip
 photoy2k.zip
+phozon.zip
 pinbo.zip
 pipibibs.zip
 pirates.zip
 pisces.zip
 pistoldm.zip
 pitfall2.zip
+pitnrun.zip
 pkladies.zip
 pktgaldx.zip
 pkunwar.zip
@@ -1044,7 +1073,6 @@ raiden2.zip
 raidendx.zip
 raiders5.zip
 raimais.zip
-rainbow.zip
 rallybik.zip
 rallyx.zip
 rambo3.zip
@@ -1053,6 +1081,7 @@ razmataz.zip
 rbff1.zip
 rbff2.zip
 rbffspec.zip
+rbisland.zip
 rchase.zip
 reaktor.zip
 recordbr.zip
@@ -1066,6 +1095,7 @@ rescue.zip
 retofinv.zip
 rezon.zip
 ridhero.zip
+ridleofp.zip
 ringdest.zip
 riot.zip
 riotcity.zip
@@ -1115,6 +1145,8 @@ samsho4.zip
 samsho5.zip
 samuraia.zip
 sandscrp.zip
+sasuke.zip
+satansat.zip
 saturnzi.zip
 savagere.zip
 sbasebal.zip
@@ -1196,6 +1228,7 @@ skysmash.zip
 skysoldr.zip
 slammast.zip
 slapshot.zip
+slapshtr.zip
 slyspy.zip
 smgp.zip
 snapjack.zip
@@ -1277,6 +1310,7 @@ sunaq.zip
 supbtime.zip
 superbon.zip
 superman.zip
+superpac.zip
 superspy.zip
 superx.zip
 supmodel.zip
@@ -1329,6 +1363,7 @@ thndrbld.zip
 thndrx2.zip
 thndzone.zip
 thoop.zip
+thoop2.zip
 thunderl.zip
 thunderx.zip
 thundfox.zip
@@ -1345,6 +1380,7 @@ tndrcade.zip
 tnextspc.zip
 tnk3.zip
 tnzs.zip
+todruaga.zip
 toki.zip
 tokio.zip
 tokisens.zip
@@ -1408,6 +1444,7 @@ usclssic.zip
 utoukond.zip
 vandyke.zip
 vangrd2.zip
+vanguard.zip
 vanvan.zip
 vaportra.zip
 varth.zip
@@ -1469,6 +1506,7 @@ woodpeck.zip
 worldwar.zip
 wownfant.zip
 wrally.zip
+wrally2.zip
 wrestwar.zip
 wrofaero.zip
 ws.zip

@@ -4,11 +4,11 @@
 '''
 import os, xbmc, xbmcgui
 #####	Start markings for the log file.
+print "| direct_launch_emulator.py loaded."
 try:
 	direct_launch	= sys.argv[1:][0]
 except:
 	direct_launch	= "0"
-print "| .emustation\Scripts\direct_launch_emulator.py loaded."
 pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()
 MenuLabel 			= xbmc.getInfoLabel( 'Container(9000).ListItem.Label2' )
@@ -23,7 +23,7 @@ if direct_launch == "1":
 	if os.path.isfile( os.path.join( Emulator_Folder_Path, MenuLabel, 'default.xbe' ) ):
 		xbmc.executebuiltin('runxbe(' + Emulator_Folder_Path + '' + MenuLabel + '\\default.xbe)')
 else:
-	if MenuLabel == "xbox" or MenuLabel == "ports" or MenuLabel == "favs" or MenuLabel == xbmc.getLocalizedString(5) or MenuLabel == xbmc.getLocalizedString(427):
+	if MenuLabel == "xbox" or MenuLabel == "ports" or MenuLabel == "favs" or MenuLabel == "customtile" or MenuLabel == xbmc.getLocalizedString(5) or MenuLabel == xbmc.getLocalizedString(427):
 		if MenuLabel == xbmc.getLocalizedString(427):
 			if dialog.yesno( "Detacher","Would you like to detach","the current virtual iso?" ) == 1:
 				if os.path.isfile( Virtual_ISO_Detacher ):

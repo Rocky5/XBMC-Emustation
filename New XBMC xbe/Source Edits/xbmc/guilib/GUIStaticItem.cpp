@@ -94,7 +94,7 @@ CGUIStaticItem::CGUIStaticItem(const TiXmlElement *item, int parentID) : CFileIt
 	
     label  = item->Attribute("name");  label  = CGUIControlFactory::FilterLabel(label);
     label2 = item->Attribute("details"); label2 = CGUIControlFactory::FilterLabel(label2);
-    label2 = item->Attribute("mediapath"); SortLabel = CGUIControlFactory::FilterLabel(SortLabel);
+    SortLabel = item->Attribute("mediapath"); SortLabel = CGUIControlFactory::FilterLabel(SortLabel);
     thumb  = item->Attribute("thumbnail");  thumb  = CGUIControlFactory::FilterLabel(thumb);
     icon   = item->Attribute("synopsis");   icon   = CGUIControlFactory::FilterLabel(icon);
 	

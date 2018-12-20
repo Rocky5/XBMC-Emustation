@@ -1,0 +1,16 @@
+<window id="2999">
+		<!-- Onload, these are loaded when the window is first loaded -->
+		<onload condition="!Skin.HasSetting(firstrun)">ActivateWindow(1200)</onload>
+		<onload condition="Skin.HasSetting(firstrun) + !Skin.HasSetting(gameloaded)">ReplaceWindow(Home)</onload>
+		<onload condition="Skin.HasSetting(firstrun) + Skin.HasSetting(gameloaded) + Skin.HasSetting(lastromlist)">RunScript(special://emustation_scripts/last_rom_played.py)</onload>
+		<!-- Unload, these are loaded as the window is closed -->
+		<onunload condition="Skin.HasSetting(firstrun) + Skin.HasSetting(Use_Startup_Playback)">XBMC.PlayMedia($INFO[Skin.String(Startup_Playback_Path)])</onunload>
+		<onunload condition="Skin.HasSetting(firstrun) + !Skin.HasSetting(gameloaded) + !Skin.HasSetting(updatecheck)">RunScript(special://emustation_scripts/updates_check.py)</onunload>
+		<onunload>Skin.Reset(favsloading)</onunload>
+		<onunload>Skin.SetBool(xbmc-emustation)</onunload>
+		<include>defaultassetspaths</include>
+		<defaultcontrol always="true">1</defaultcontrol>
+		<allowoverlay>no</allowoverlay>
+		<controls>
+		</controls>
+</window>

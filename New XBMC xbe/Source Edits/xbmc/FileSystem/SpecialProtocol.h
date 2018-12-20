@@ -56,7 +56,10 @@ public:
   static void SetXBMCPath(const CStdString &path);
   static void SetHomePath(const CStdString &path);
   static void SetRootPath(const CStdString &path);
+  static void SetThemePath(const CStdString &path);
+  static void SetCurrentThemePath(const CStdString &path);
   static void SetURLDownloaderPath(const CStdString &path);
+  static void SetEmustationScriptsPath(const CStdString &path);
   static void SetUserHomePath(const CStdString &path);
   static void SetMasterProfilePath(const CStdString &path);
   static void SetTempPath(const CStdString &path);

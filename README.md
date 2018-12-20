@@ -58,7 +58,6 @@
 
 #### EmulationStation folk for:
  es-theme-simple - [GitHub es-theme-simple](https://github.com/RetroPie/es-theme-simple)
- 
  es-theme-carbon - [GitHub es-theme-carbon](https://github.com/RetroPie/es-theme-carbon)
  
  ( I created a few new images to add to these great svg images )

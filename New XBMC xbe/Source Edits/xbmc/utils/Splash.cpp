@@ -23,6 +23,7 @@
 #include "guiImage.h"
 #include "FileSystem/File.h"
 #include "settings/AdvancedSettings.h"
+#include "FileSystem/SpecialProtocol.h"
 #include "log.h"
 
 using namespace XFILE;
@@ -56,10 +57,13 @@ void CSplash::Process()
   float h = g_graphicsContext.GetHeight();
   CGUIImage* image = new CGUIImage(0, 0, 0, 0, w, h, m_ImageName);
   CGUIImage* image2 = new CGUIImage(0, 0, 0, 0, w, h, m_ImageName2);
+  CGUIImage* image3 = new CGUIImage(0, 0, 0, 0, w, h, m_ImageName3);
   image->SetAspectRatio(CAspectRatio::AR_STRETCH);
   image2->SetAspectRatio(CAspectRatio::AR_STRETCH);
+  image3->SetAspectRatio(CAspectRatio::AR_STRETCH);
   image->AllocResources();
   image2->AllocResources();
+  image3->AllocResources();
 
   // Store the old gamma ramp
   g_graphicsContext.Get3DDevice()->GetGammaRamp(&oldRamp);
@@ -76,11 +80,14 @@ void CSplash::Process()
   g_graphicsContext.Get3DDevice()->BeginScene();
 #endif
   image->Render();
+  image3->Render();
   image2->Render();
   image->FreeResources();
   image2->FreeResources();
+  image3->FreeResources();
   delete image;
   delete image2;
+  delete image3;
   //show it on screen
 #ifdef HAS_XBOX_D3D
   g_graphicsContext.Get3DDevice()->BlockUntilVerticalBlank();
@@ -135,12 +142,14 @@ void CSplash::Process()
 
 bool CSplash::Start()
 {
-  if (CFile::Exists("special://xbmc/system/toggles/no splash.enabled"))
+  if (CFile::Exists("special://xbmc/system/nosplash"))
   {
+    CLog::Log(LOGDEBUG, "Splash disabled");
     return false;
   }
   if (!g_advancedSettings.m_splashImage)
   {
+    CLog::Log(LOGDEBUG, "Splash disabled");
     return false;
   }
   if (m_ImageName.IsEmpty() || !CFile::Exists(m_ImageName))
@@ -148,7 +157,8 @@ bool CSplash::Start()
     CLog::Log(LOGDEBUG, "Splash image %s not found", m_ImageName.c_str());
     return false;
   }
-  m_ImageName2 = "Q:\\custom_splash.png";
+  m_ImageName2 = "special://xbmc/custom_splash.png";
+  m_ImageName3 = "special://theme/splash.png";
   Create();
   Sleep(3000);
   return true;

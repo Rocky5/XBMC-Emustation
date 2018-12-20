@@ -114,16 +114,17 @@ bool CTextureBundle::OpenBundle()
     // if we are the theme bundle, we only load if the user has chosen
     // a valid theme (or the skin has a default one)
     CStdString themeXPR = g_guiSettings.GetString("lookandfeel.skintheme");
-    if (!themeXPR.IsEmpty() && themeXPR.CompareNoCase("SKINDEFAULT"))
+	CStdString ThemeName(URIUtils::ReplaceExtension(themeXPR, ""));
+    if (!themeXPR.IsEmpty() && themeXPR.CompareNoCase("SIMPLE"))
     {
-      strPath = URIUtils::AddFileToFolder(g_graphicsContext.GetMediaDir(), "media");
+      strPath = URIUtils::AddFileToFolder("Q:/.emustation/themes/",ThemeName);
       strPath = URIUtils::AddFileToFolder(strPath, themeXPR);
     }
     else
       return false;
   }
   else
-    strPath = URIUtils::AddFileToFolder(g_graphicsContext.GetMediaDir(), "media/Skindefault.xpr");
+      strPath = URIUtils::AddFileToFolder("Q:/.emustation/themes/SIMPLE","SIMPLE.xpr");
 
   if (GetFileAttributes(strPath.c_str()) == -1)
     return false;
@@ -133,18 +134,18 @@ bool CTextureBundle::OpenBundle()
 #ifdef _XBOX
   if (ALIGN % XGetDiskSectorSize(strPath.Left(3).c_str()))
   {
-    CLog::Log(LOGWARNING, "Disk sector size is not supported, caching Skindefault.xpr");
+    CLog::Log(LOGWARNING, "Disk sector size is not supported, caching SIMPLE.xpr");
 
     WIN32_FIND_DATA FindData[2];
     FindClose(FindFirstFile(strPath.c_str(), &FindData[0]));
-    HANDLE hFind = FindFirstFile("Z:\\Skindefault.xpr", &FindData[1]);
+    HANDLE hFind = FindFirstFile("Z:\\SIMPLE.xpr", &FindData[1]);
     FindClose(hFind);
 
     if (hFind == INVALID_HANDLE_VALUE || FindData[0].nFileSizeLow != FindData[1].nFileSizeLow ||
         CompareFileTime(&FindData[0].ftLastWriteTime, &FindData[1].ftLastWriteTime))
     {
-      SetFileAttributes("Z:\\Skindefault.xpr", FILE_ATTRIBUTE_NORMAL); //must set readable before overwriting
-      if (!CopyFile(strPath, "Z:\\Skindefault.xpr", FALSE))
+      SetFileAttributes("Z:\\SIMPLE.xpr", FILE_ATTRIBUTE_NORMAL); //must set readable before overwriting
+      if (!CopyFile(strPath, "Z:\\SIMPLE.xpr", FALSE))
       {
         CLog::Log(LOGERROR, "Unable to open file: %s: %x", strPath.c_str(), GetLastError());
         return false;
@@ -156,7 +157,7 @@ bool CTextureBundle::OpenBundle()
         CloseHandle(m_hFile);
       }
     }
-    strPath = "Z:\\Skindefault.xpr";
+    strPath = "Z:\\SIMPLE.xpr";
   }
 #endif
 

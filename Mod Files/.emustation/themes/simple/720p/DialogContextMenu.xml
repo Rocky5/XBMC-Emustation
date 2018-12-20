@@ -1,0 +1,46 @@
+<window id="106">
+		<defaultcontrol always="true">1000</defaultcontrol>
+		<include>dialogeffect</include>
+		<controls>
+				<control type="group">
+						<control type="image" id="997">
+								<description>background top image</description>
+								<posx>0</posx>
+								<posy>-50</posy>
+								<width>400</width>
+								<height>50</height>
+								<texture border="40,0,40,0">contextmenu_top.png</texture>
+						</control>
+						<control type="image" id="999">
+								<description>background image</description>
+								<posx>0</posx>
+								<posy>0</posy>
+								<width>400</width>
+								<texture border="40,0,40,0">contextmenu_middle.png</texture>
+						</control>
+						<control type="image" id="998">
+								<description>background bottom image</description>
+								<posx>0</posx>
+								<width>400</width>
+								<height>50</height>
+								<texture border="40,0,40,40">contextmenu_bottom.png</texture>
+						</control>
+				</control>
+				<control type="button" id="1000">
+						<description>button template</description>
+						<posx>5</posx>
+						<posy>0</posy>
+						<width>370</width>
+						<height>50</height>
+						<font>size_23</font>
+						<align>center</align>
+						<aligny>center</aligny>
+						<textcolor>menu_deselect_label</textcolor>
+						<focusedcolor>menu_select_label</focusedcolor>
+						<shadowcolor>-</shadowcolor>
+						<textoffsetx>-</textoffsetx>
+						<texturefocus>button-focus4.png</texturefocus>
+						<texturenofocus>button-nofocus.png</texturenofocus>
+				</control>
+		</controls>
+</window>

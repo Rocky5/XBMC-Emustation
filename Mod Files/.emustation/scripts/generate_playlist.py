@@ -1,16 +1,14 @@
 '''
 	Script by Rocky5
 	Used to create a playlist from a specific directory.
-
 '''
-
 import glob, os, xbmc, xbmcgui
+#####	Start markings for the log file.
+print "| generate_playlist.py loaded."
 dialog	= xbmcgui.Dialog()
-
 error1 = 0
 error2 = 0
 error3 = 0
-
 try:
 	Music_Path = sys.argv[1]
 except:
@@ -19,9 +17,7 @@ try:
 	Music_Extension = sys.argv[2][3][4]
 except:
 	Music_Extension = [ "mp3","wma","ogg","m4a" ]
-	
 Playlist = xbmc.translatePath( "special://Profile/playlists/music/random.m3u" )
-
 with open( Playlist,"w" ) as fin:
 	for Music_Dir in Music_Path:
 		if os.path.isdir( Music_Dir ):
@@ -39,7 +35,6 @@ with open( Playlist,"w" ) as fin:
 			if error == "Error: E:\Music\ path not found.": error1 = "1"
 			if error == "Error: F:\Music\ path not found.": error2 = "1"
 			if error == "Error: G:\Music\ path not found.": error3 = "1"
-		
 if error1 == "1" and error2 == "1" and error3 == "1":
 	dialog.ok("Error","","No music folder found in E, F or G.")
 else:

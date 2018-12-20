@@ -3,6 +3,8 @@
 	Used to select a random menu item.
 '''
 import random, xbmc, xbmcgui
+#####	Start markings for the log file.
+print "| randome_select.py loaded."
 xbmcgui.lock()
 try:
 	MenuLabel		= xbmc.getInfoLabel('Skin.String(emuname)')

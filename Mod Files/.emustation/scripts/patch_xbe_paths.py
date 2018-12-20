@@ -2,19 +2,15 @@
 	Script by Rocky5
 	Used to patch emulator xbe files to load files from there root directory instead of E:\.
 '''
-
 import glob, os, re, xbmc, xbmcgui
-
 #####	Start markings for the log file.
-print "| .emustation\Scripts\patch_xbe_paths.py loaded."
+print "| patch_xbe.py loaded."
 pDialog		= xbmcgui.DialogProgress()
 dialog		= xbmcgui.Dialog()
-
 if str( xbmc.getCondVisibility( 'Skin.String(Custom_Emulator_Path)' ) ) == "1":
 	Emulator_Folder_Path	= xbmc.getInfoLabel( 'Skin.String(Custom_Emulator_Path)' )
 else:
 	Emulator_Folder_Path	= 'Q:\\.emustation\\emulators\\'
-
 def patch():
 	if dialog.yesno("QUESTION TIME","This is used to patch","MadMab emulators default save path.","If you have no need then pick no."):
 		Select_Emu_Folder = dialog.select( "SELECT A SYSTEM",sorted( os.listdir( Emulator_Folder_Path ) ) )
@@ -63,5 +59,4 @@ def patch():
 		pDialog.close()
 		dialog.ok( "Process Complete","xbe files patched" )
 	return
-
 patch()
