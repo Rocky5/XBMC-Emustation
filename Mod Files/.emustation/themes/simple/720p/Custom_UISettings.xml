@@ -102,17 +102,7 @@
 										<onclick>RunScript( special://emustation_scripts/toggle_advancedsettings_settings.py,enableintro,splash )</onclick>
 										<selected>Skin.HasSetting(introenabled)</selected>
 								</control>
-								<control type="button" id="22">
-										<description>Select video file</description>
-										<posx>0</posx>
-										<posy>0</posy>
-										<label> &gt; $LOCALIZE[424] $LOCALIZE[561]</label>
-										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Skin.SetFile(selectedintrofile,.avi|.mp4|.wmv|.xmv,Special://xbmc/)</onclick>
-										<visible>Skin.HasSetting(introenabled)</visible>
-								</control>
-								<control type="radiobutton" id="23">
+								<control type="radiobutton" id="22">
 										<description>Enable Kiosk Mode</description>
 										<posx>0</posx>
 										<posy>0</posy>
@@ -122,7 +112,7 @@
 										<onclick>RunScript( special://emustation_scripts/kioskmode.py )</onclick>
 										<selected>Skin.HasSetting(KioskMode)</selected>
 								</control>
-								<control type="radiobutton" id="24">
+								<control type="radiobutton" id="23">
 										<description>Enable Update Check</description>
 										<posx>0</posx>
 										<posy>0</posy>

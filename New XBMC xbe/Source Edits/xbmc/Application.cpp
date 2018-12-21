@@ -1371,12 +1371,10 @@ HRESULT CApplication::Initialize()
   // check if we should use the login screen
   if (g_settings.UsingLoginScreen())
   {
-	if (!g_advancedSettings.m_splashImage && g_advancedSettings.m_enableintro)
+	if (!g_advancedSettings.m_splashImage && g_advancedSettings.m_enableintro && CFile::Exists("Special://root/intro.mp4"))
 	  {
-		// doubler to hide the login screen as its loaded regardless.
-		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
-		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
-		CBuiltins::Execute("runscript(special://xbmc/.emustation/scripts/Intro.py)");
+		g_windowManager.ActivateWindow(WINDOW_LOGIN_SCREEN);
+		ExecuteXBMCAction("Special://root/intro.mp4");
 	  } 
 	  else
 	  {
@@ -1385,12 +1383,10 @@ HRESULT CApplication::Initialize()
   }
   else
   {	  
-	if (!g_advancedSettings.m_splashImage && g_advancedSettings.m_enableintro)
+	if (!g_advancedSettings.m_splashImage && g_advancedSettings.m_enableintro && CFile::Exists("Special://root/intro.mp4"))
 	  {
-		// doubler to hide the login screen as its loaded regardless.
-		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
-		g_windowManager.ActivateWindow(WINDOW_FULLSCREEN_VIDEO);
-		CBuiltins::Execute("runscript(special://xbmc/.emustation/scripts/Intro.py)");
+		g_windowManager.ActivateWindow(g_SkinInfo.GetFirstWindow());
+		ExecuteXBMCAction("Special://root/intro.mp4");
 	  } 
 	  else
 	  {
