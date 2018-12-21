@@ -9,6 +9,7 @@ if os.path.isfile( Root_Directory + 'default skin\\media\\Texture.xpr' ): os.rem
 if os.path.isfile( Root_Directory + '.emustation\\scripts\\versioner.py' ): os.remove( Root_Directory + '.emustation\\scripts\\versioner.py' )
 if os.path.isfile( Root_Directory + '.emustation\\scripts\\scanner.py' ): os.remove( Root_Directory + '.emustation\\scripts\\scanner.py' )
 if os.path.isfile( Root_Directory + 'system\\version.bin' ): os.remove( Root_Directory + 'system\\version.bin' )
+if os.path.isfile( Root_Directory + 'system\\FileZilla Server.xml' ): os.remove( Root_Directory + 'system\\FileZilla Server.xml' )
 if os.path.isdir( Root_Directory + 'system\\UserData\\Thumbnails\\Programs' ): shutil.rmtree( Root_Directory + 'system\\UserData\\Thumbnails\\Programs' )
 if os.path.isdir( Root_Directory + '.emustation\\layouts\\home\\other' ): shutil.rmtree( Root_Directory + '.emustation\\layouts\\home\\other' )
 if os.path.isdir( Root_Directory + '.emustation\\synopsis\\synopsis' ): shutil.rmtree( Root_Directory + '.emustation\\synopsis\\synopsis' )
