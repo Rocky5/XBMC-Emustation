@@ -901,7 +901,7 @@ def Main_Code():
 								elif Emu_Name == "mame" or Emu_Name == "neogeocd":
 									pass
 								elif Emu_Name == "n64":
-									pDialog.update((CountList * 100) / len(os.listdir( Roms_Folder )),'Creating [B][UPPERCASE]' + Emu_Name + '[/UPPERCASE][/B] Rom list and coping media files',N64_Rom_Name,'This can take some time, please be patient.' )
+									pDialog.update((CountList * 100) / len(os.listdir( Roms_Folder )),'Creating [B][UPPERCASE]' + Emu_Name + '[/UPPERCASE][/B] Rom list and copying media files',N64_Rom_Name,'This can take some time, please be patient.' )
 									WriteMenuFile = menu_entry % (CountList,N64_Rom_Name,Synopsis1,Synopsis2,Thumbnail,"[ArtworkFolder]",'RunScript( special://emustation_scripts/launcher.py,' + Emu_XBE + ',' + Rom_Path + ',,' + str(CountList) + ' )',"ActivateWindow(1101)")
 								elif Emu_Name == "amiga" or Emu_Name == "pce-cd" or Emu_Name == "psx" or Emu_Name == "tg-cd" or Emu_Name == "segacd":
 									pDialog.update((CountList * 100) / Rom_Type_Total,'Creating [B][UPPERCASE]' + Emu_Name + '[/UPPERCASE][/B] Rom list',Rom_Name_noext,'This can take some time, please be patient.' )
