@@ -61,36 +61,28 @@
 						<label>$INFO[Container(9000).ListItem.Label] Game Available</label>
 						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
 						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>!StringCompare(Container(9000).ListItem.Label,0) + StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427]) + !StringCompare(Container(9000).ListItem.Label2,]) +  !StringCompare(Container(9000).ListItem.Label2,favs)</visible>
+						<visible>StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,0) + !StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427]) + !StringCompare(Container(9000).ListItem.Label2,])</visible>
 				</control>
 				<control type="label">
 						<include>CarouselLabelCommonValues</include>
 						<label>$INFO[Container(9000).ListItem.Label] Games Available</label>
 						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
 						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>StringCompare(Container(9000).ListItem.Label,0) | !StringCompare(Container(9000).ListItem.Label,Direct Launch) + !StringCompare(Container(9000).ListItem.Label,]) + !StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427]) + !StringCompare(Container(9000).ListItem.Label2,favs)</visible>
+						<visible>!StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,Direct Launch) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
 				</control>
 				<control type="label">
 						<include>CarouselLabelCommonValues</include>
 						<label>$INFO[Container(9000).ListItem.Label] Favourite Available</label>
 						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
 						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>!StringCompare(Container(9000).ListItem.Label,0) + StringCompare(Container(9000).ListItem.Label,1) + StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label2,])</visible>
+						<visible>StringCompare(Container(9000).ListItem.Label2,favs) + StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,0) + !StringCompare(Container(9000).ListItem.Label2,ports)</visible>
 				</control>
 				<control type="label">
 						<include>CarouselLabelCommonValues</include>
 						<label>$INFO[Container(9000).ListItem.Label] Favourites Available</label>
 						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
 						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>StringCompare(Container(9000).ListItem.Label,0) | StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,]) + !StringCompare(Container(9000).ListItem.Label,1)</visible>
-				</control>
-				<!-- For custom tiles -->
-				<control type="label.">
-						<include>CarouselLabelCommonValues</include>
-						<label>$INFO[Container(9000).ListItem.Label]</label>
-						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>StringCompare(Container(9000).ListItem.Label,Direct Launch)</visible>
+						<visible>StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label2,ports)</visible>
 				</control>
 		</include>
 		<include name="EmulatorScrollFade">
