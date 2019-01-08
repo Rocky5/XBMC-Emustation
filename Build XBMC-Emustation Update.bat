@@ -35,6 +35,7 @@ rd /q /s "%foldername%\.emustation\scripts\not used"
 copy /y "New XBMC xbe\default.xbe" "%foldername%\default.xbe"
 copy /y "New XBMC xbe\default.xbe" "Other\update build\updater\default.xbe"
 del /q /s "%foldername%\system\userdata\guisettings.xml"
+del /q /s "%foldername%\system\userdata\advancedsettings.xml"
 rd /q /s "%foldername%\.emustation\roms"
 rd /q /s "%foldername%\.emustation\media"
 )
