@@ -1,5 +1,10 @@
+03/02/2019
+	1) Fixed the launch.py script not failing of filenames that end with a (.
+		( this happened because the script would not know its the end of the line, so done a quick dirty fix. )
+
+
 04/01/2019
-	1) Fixed the carousel labes overlapping when 0 favs or games were avaliable on favourties and ports.
+	1) Fixed the carousel labes overlapping when 0 favs or games were available on favourites and ports.
 		( Redownload XBMC4Gamers or Art BOok themes for there fixes )
 	2) Fixed the generate_favourtites.py" script if fav already exist check.
 
@@ -28,7 +33,7 @@
 	17) New S drive when you are FTPing in, this points to the themes folder for easy adding or creating of themes.
 	18) Three new Special:// commands "emustation_scripts", "themes_root" and "theme". "themes_root" will load Q:\.emustation\themes\ and "theme" will load the currently loaded theme directory.
 		( Special://themes_root/carbon/layouts/xbox/system_art_small.png, Special://theme/layouts/xbox/system_art_small.png or Special://emustation_scripts/dialog_ok.py )
-	19) Updated the play_preview.py to support .strm files and also some minor imporvments to how it works.
+	19) Updated the play_preview.py to support .strm files and also some minor improvements to how it works.
 	20) Create_rom_lists.py updated to support .strm files for xbox games.
 		( These will be included with the artwork installer for playing videos from my server )
 	21) Updated a load of scripts, cant remember them all as I have been doing gamers along side this update :$

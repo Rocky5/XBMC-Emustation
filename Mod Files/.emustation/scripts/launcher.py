@@ -15,7 +15,7 @@ try:
 	except:
 		Favourite_Launch	= 0
 		Current_position	= 0
-	xbmc.executebuiltin('Skin.SetString(lastrompos,'+Current_position+')')
+	xbmc.executebuiltin('Skin.SetString(lastrompos,'+str(Current_position)+')')
 	Root_Directory 			= xbmc.translatePath("Special://root/")
 	Custom_Emus_Path 		= xbmc.getInfoLabel('skin.string(custom_emulator_path)')
 	Custom_Roms_Path 		= xbmc.getInfoLabel('skin.string(custom_roms_path)')
@@ -32,7 +32,7 @@ try:
 		elif Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
 			cut.write( '<shortcut><path>%s</path><label>launcher</label><custom><game>%s</game></custom></shortcut>' % ( os.path.join( Custom_Emus_Path,Emu_Name,Emu_Path ),Rom_Name_Path ) )
 		else:
-			cut.write( '<shortcut><path>%s</path><label>launcher</label><custom><game>%s</game></custom></shortcut>' % ( os.path.join( Custom_Emus_Path,Emu_Name,Emu_Path ),os.path.join( Custom_Roms_Path,Emu_Name,Rom_Name_Path ) ) )
+			cut.write( '<shortcut><path>%s</path><label>launcher</label><custom><game>%s</game></custom></shortcut>' % ( os.path.join( Custom_Emus_Path,Emu_Name,Emu_Path ),os.path.join( Custom_Roms_Path,Emu_Name,Rom_Name_Path ).replace(',,'+str(Current_position)+'','') ) )
 	if not Favourite_Launch and xbmc.getCondVisibility( 'Skin.HasSetting(lastromlist)' ):
 		xbmc.executebuiltin('Skin.SetBool(gameloaded)')
 		if not os.path.isfile('Q:\\system\\nosplash'):
