@@ -40,14 +40,12 @@ rd /q /s "%foldername%\.emustation\roms"
 rd /q /s "%foldername%\.emustation\media"
 )
 copy /y "Changes.txt" "%foldername%"
-if exist "..\Other\build for release" (
-	Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation %version%.%daytotal%" L < "%foldername%\.emustation\themes\simple\language\English\strings.po" >"%foldername%\.emustation\themes\simple\language\English\strings.tmp"
-	Del "%foldername%\.emustation\themes\simple\language\English\strings.po"
-	rename "%foldername%\.emustation\themes\simple\language\English\strings.tmp" "strings.po"
-	Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"
-	copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\.emustation\themes\simple\720p\Custom_Changes.xml"
-	del /q "%foldername%\changes.tmp"
-)
+Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation %version%.%daytotal%" L < "%foldername%\.emustation\themes\simple\language\English\strings.po" >"%foldername%\.emustation\themes\simple\language\English\strings.tmp"
+Del "%foldername%\.emustation\themes\simple\language\English\strings.po"
+rename "%foldername%\.emustation\themes\simple\language\English\strings.tmp" "strings.po"
+Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"
+copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\.emustation\themes\simple\720p\Custom_Changes.xml"
+del /q "%foldername%\changes.tmp"
 CD %foldername%\
 del /Q "Changes.txt"
 "C:\Program Files\7-Zip\7z.exe" a "..\Other\update build\updater\Update Files\%foldername%.zip" "*" -mx=7 -r -y
