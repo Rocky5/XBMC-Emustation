@@ -11,6 +11,7 @@ for /F "usebackq tokens=1,2 delims==" %%i in (`wmic os get LocalDateTime /VALUE 
 cls
 
 :Start
+Set "foldername=XBMC"
 Set "version=1.2"
 Set "fromDate=20/12/2018"
 Set toDate=%dateformat:~6,2%^/%dateformat:~4,2%^/%dateformat:~0,4%
