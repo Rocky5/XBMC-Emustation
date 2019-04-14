@@ -33,7 +33,12 @@ else:
 	Media_Folder_Path	 = os.path.join( Root_Directory, '.emustation\\media\\' )
 Synopsis_Path		= os.path.join( Root_Directory, '.emustation\\synopsis\\' )
 Scripts_Path		= os.path.join( Root_Directory, '.emustation\\scripts\\' )
-Extensions			= [ "adf","md","xbg","lnx","a78","a52","dim","nds","t64","d64","int","tap","z80","tzx","zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
+File_Types_Path		= os.path.join( Root_Directory, '.emustation\\scripts\\file types\\' )
+## Grab extensions for roms via files in a folder, makes it very easy for people to add new rom extensions.
+if len(os.listdir( File_Types_Path )) > 0:
+	Extensions		= str([f for f in os.listdir( File_Types_Path ) if os.path.isfile( os.path.join( File_Types_Path, f ) )]).replace(".ft","")
+else:
+	Extensions		= ["zip"]
 ## Modified by me. Original by chunk_1970 - http://forum.kodi.tv/showthread.php?tid=24666&pid=125356#pid125356
 def Extract_XbeInfo(FileName): ## Need to use this as the xbe.py Get_title misses letter and causes string issues, even when using .encode or .decode
 	if os.path.isfile(FileName) and FileName.endswith('.xbe'):
