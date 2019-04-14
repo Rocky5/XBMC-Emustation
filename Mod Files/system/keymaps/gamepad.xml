@@ -315,6 +315,11 @@
 						<start>Back</start>
 				</gamepad>
 		</ProfileSettings>
+		<Screensaver>
+				<gamepad>
+						<back>ReplaceWindow(Home)</back>
+				</gamepad>
+		</Screensaver>
 		<PictureInfo>
 				<gamepad>
 						<dpadleft>PreviousPicture</dpadleft>
