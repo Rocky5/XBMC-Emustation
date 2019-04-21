@@ -1,121 +1,28 @@
 <settings>
 		<mymusic>
 				<playlist>
-						<repeat>false</repeat>
-						<shuffle>false</shuffle>
+						<repeat>true</repeat>
+						<shuffle>true</shuffle>
 				</playlist>
-				<scanning>
-						<isscanning>false</isscanning>
-				</scanning>
-				<startwindow>10501</startwindow>
-				<songinfoinvis>true</songinfoinvis>
-				<songthumbinvis>false</songthumbinvis>
-				<defaultlibview pathversion="1" />
 		</mymusic>
 		<myvideos>
 				<startwindow>10024</startwindow>
 				<stackvideomode>0</stackvideomode>
-				<defaultlibview pathversion="1" />
+				<defaultlibview pathversion="1">
+				</defaultlibview>
 				<watchmode>0</watchmode>
 				<flatten>false</flatten>
 				<playlist>
 						<repeat>false</repeat>
 						<shuffle>false</shuffle>
 				</playlist>
-				<cleanstrings>true</cleanstrings>
+				<cleanstrings>false</cleanstrings>
 				<extractflags>false</extractflags>
 				<extractthumb>false</extractthumb>
 				<treatstackasfile>true</treatstackasfile>
 		</myvideos>
-		<viewstates>
-				<musicnavartists>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</musicnavartists>
-				<musicnavalbums>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</musicnavalbums>
-				<musicnavsongs>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</musicnavsongs>
-				<musicshoutcast>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</musicshoutcast>
-				<musiclastfm>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</musiclastfm>
-				<videonavactors>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavactors>
-				<videonavyears>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavyears>
-				<videonavgenres>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavgenres>
-				<videonavtitles>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavtitles>
-				<videonavepisodes>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavepisodes>
-				<videonavseasons>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavseasons>
-				<videonavtvshows>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavtvshows>
-				<videonavmusicvideos>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videonavmusicvideos>
-				<programs>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</programs>
-				<pictures>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</pictures>
-				<videofiles>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</videofiles>
-				<musicfiles>
-						<viewmode>65536</viewmode>
-						<sortmethod>1</sortmethod>
-						<sortorder>1</sortorder>
-				</musicfiles>
-		</viewstates>
 		<general>
-				<systemtotaluptime>1293</systemtotaluptime>
+				<systemtotaluptime>0</systemtotaluptime>
 				<httpapibroadcastport>8278</httpapibroadcastport>
 				<httpapibroadcastlevel>0</httpapibroadcastlevel>
 		</general>
@@ -137,38 +44,6 @@
 				<audiodelay>0.000000</audiodelay>
 				<subtitledelay>0.000000</subtitledelay>
 		</defaultvideosettings>
-		<audio>
-				<volumelevel>0</volumelevel>
-				<dynamicrangecompression>0</dynamicrangecompression>
-				<karaoke0energy>0.000000</karaoke0energy>
-				<karaoke0pitch>0.000000</karaoke0pitch>
-				<karaoke0whisper>0.000000</karaoke0whisper>
-				<karaoke0robotic>0.000000</karaoke0robotic>
-				<karaoke1energy>0.000000</karaoke1energy>
-				<karaoke1pitch>0.000000</karaoke1pitch>
-				<karaoke1whisper>0.000000</karaoke1whisper>
-				<karaoke1robotic>0.000000</karaoke1robotic>
-				<karaoke2energy>0.000000</karaoke2energy>
-				<karaoke2pitch>0.000000</karaoke2pitch>
-				<karaoke2whisper>0.000000</karaoke2whisper>
-				<karaoke2robotic>0.000000</karaoke2robotic>
-				<karaoke3energy>0.000000</karaoke3energy>
-				<karaoke3pitch>0.000000</karaoke3pitch>
-				<karaoke3whisper>0.000000</karaoke3whisper>
-				<karaoke3robotic>0.000000</karaoke3robotic>
-		</audio>
-		<calibration>
-		</calibration>
-		<audiocds>
-				<bitrate>192</bitrate>
-				<compressionlevel>5</compressionlevel>
-				<encoder>0</encoder>
-				<quality>0</quality>
-				<recordingpath pathversion="1">select writable folder</recordingpath>
-				<sep1 />
-				<trackpathformat>%A - %B/[%N. ][%A - ]%T</trackpathformat>
-				<usecddb>true</usecddb>
-		</audiocds>
 		<audiooutput>
 				<aacpassthrough>false</aacpassthrough>
 				<ac3passthrough>false</ac3passthrough>
@@ -181,7 +56,6 @@
 				<onoff>false</onoff>
 				<popupinfo>true</popupinfo>
 				<senduserpw>true</senduserpw>
-				<sep1 />
 		</autodetect>
 		<autorun>
 				<cdda>false</cdda>
@@ -194,49 +68,33 @@
 		</autorun>
 		<cache>
 				<harddisk>256</harddisk>
-				<sep1 />
-				<sep2 />
-				<sep3 />
-				<sep4 />
 		</cache>
 		<cacheaudio>
 				<dvdrom>256</dvdrom>
 				<internet>256</internet>
 				<lan>256</lan>
 		</cacheaudio>
-		<cachedvd>
-				<dvdrom>512</dvdrom>
-				<lan>512</lan>
-		</cachedvd>
 		<cacheunknown>
 				<internet>1024</internet>
 		</cacheunknown>
 		<cachevideo>
 				<dvdrom>1024</dvdrom>
 				<internet>1024</internet>
-				<lan>256</lan>
+				<lan>1024</lan>
 		</cachevideo>
 		<debug>
-				<screenshotpath pathversion="1">Q:\system\screenshots\</screenshotpath>
+				<screenshotpath pathversion="1">Special://xbmc/system/Screenshots/</screenshotpath>
 				<showloginfo>false</showloginfo>
 		</debug>
 		<dvdplayercache>
 				<audio>384</audio>
 				<audiotime>8</audiotime>
-				<sep1 />
-				<video>256</video>
+				<video>1024</video>
 				<videotime>8</videotime>
 		</dvdplayercache>
-		<dvds>
-				<automenu>false</automenu>
-				<externaldvdplayer />
-				<playerregion>0</playerregion>
-				<useexternaldvdplayer>false</useexternaldvdplayer>
-		</dvds>
 		<filelists>
 				<allowfiledeletion>true</allowfiledeletion>
 				<ignorethewhensorting>true</ignorethewhensorting>
-				<sep1 />
 				<showaddsourcebuttons>false</showaddsourcebuttons>
 				<showextensions>true</showextensions>
 				<showhidden>false</showhidden>
@@ -251,32 +109,14 @@
 				<remoteplayspindownminduration>20</remoteplayspindownminduration>
 				<spindowntime>0</spindowntime>
 		</harddisk>
-		<karaoke>
-				<enabled>false</enabled>
-				<port0voicemask>None</port0voicemask>
-				<port1voicemask>None</port1voicemask>
-				<port2voicemask>None</port2voicemask>
-				<port3voicemask>None</port3voicemask>
-				<voiceenabled>false</voiceenabled>
-				<volume>100</volume>
-		</karaoke>
-		<lcd>
-				<backlight>80</backlight>
-				<contrast>100</contrast>
-				<disableonplayback>0</disableonplayback>
-				<enableonpaused>true</enableonpaused>
-				<modchip>0</modchip>
-				<sep1 />
-				<type>0</type>
-		</lcd>
 		<locale>
 				<charset>DEFAULT</charset>
 				<country>UK (24h)</country>
-				<date>Fri, 14 Dec 2018</date>
+				<date>
+				</date>
 				<language>english</language>
-				<sep1 />
-				<sep2 />
-				<time>9:49</time>
+				<time>
+				</time>
 				<timeserver>true</timeserver>
 				<timeserveraddress>pool.ntp.org</timeserveraddress>
 				<timezone>25</timezone>
@@ -286,9 +126,6 @@
 				<enablemouse>false</enablemouse>
 				<enablerssfeeds>true</enablerssfeeds>
 				<font>Default</font>
-				<rssedit />
-				<sep2 />
-				<sep3 />
 				<skin>simple</skin>
 				<skincolors>.xml</skincolors>
 				<skintheme>simple.xpr</skintheme>
@@ -302,78 +139,41 @@
 				<maxretries>3</maxretries>
 				<startuplock>false</startuplock>
 		</masterlock>
-		<musicfiles>
-				<findremotethumbs>true</findremotethumbs>
-				<librarytrackformat />
-				<librarytrackformatright />
-				<nowplayingtrackformat />
-				<nowplayingtrackformatright />
-				<trackformat>[%N. ]%A - %T</trackformat>
-				<trackformatright>%D</trackformatright>
-				<usetags>false</usetags>
-		</musicfiles>
-		<musiclibrary>
-				<backgroundupdate>false</backgroundupdate>
-				<cleanup />
-				<downloadinfo>false</downloadinfo>
-				<enabled>false</enabled>
-				<export />
-				<import />
-				<scraper>tadb.xml</scraper>
-				<scrapersettings />
-				<sep1 />
-				<sep2 />
-				<showcompilationartists>true</showcompilationartists>
-				<updateonstartup>false</updateonstartup>
-		</musiclibrary>
 		<musicplayer>
 				<autoplaynextitem>true</autoplaynextitem>
-				<crossfade>3</crossfade>
-				<crossfadealbumtracks>false</crossfadealbumtracks>
+				<crossfade>4</crossfade>
+				<crossfadealbumtracks>true</crossfadealbumtracks>
 				<defaultplayer>2</defaultplayer>
 				<outputtoallspeakers>false</outputtoallspeakers>
 				<queuebydefault>false</queuebydefault>
 				<replaygainavoidclipping>false</replaygainavoidclipping>
 				<replaygainnogainpreamp>89</replaygainnogainpreamp>
 				<replaygainpreamp>89</replaygainpreamp>
-				<replaygaintype>1</replaygaintype>
-				<sep1 />
-				<sep2 />
-				<sep3 />
+				<replaygaintype>0</replaygaintype>
 				<visualisation>milkdrop.vis</visualisation>
 		</musicplayer>
+		<mygames>
+				<fastscrolling>false</fastscrolling>
+				<slowgameparsing>false</slowgameparsing>
+		</mygames>
 		<myprograms>
 				<autoffpatch>false</autoffpatch>
-				<dashboard>C:\xboxdash.xbe</dashboard>
+				<dashboard>Special:\\xbmc\default.xbe</dashboard>
 				<gameautoregion>false</gameautoregion>
 				<ntscmode>0</ntscmode>
-				<sep1 />
-				<sep2 />
-				<sep3 />
-				<usedashpath>false</usedashpath>
+				<trainerpath>Q:\system\trainers\</trainerpath>
+				<usedashpath>true</usedashpath>
 		</myprograms>
 		<network>
 				<assignment>1</assignment>
 				<bandwidth>0</bandwidth>
 				<dns>192.168.0.1</dns>
-				<dnssuffix />
 				<gateway>192.168.0.1</gateway>
-				<httpproxypassword />
 				<httpproxyport>8080</httpproxyport>
-				<httpproxyserver />
-				<httpproxyusername />
 				<ipaddress>192.168.0.6</ipaddress>
-				<sep1 />
 				<subnet>255.255.255.0</subnet>
 				<usehttpproxy>false</usehttpproxy>
 		</network>
-		<pictures>
-				<displayresolution>10</displayresolution>
-				<generatethumbs>true</generatethumbs>
-				<showvideos>false</showvideos>
-				<useexifrotation>true</useexifrotation>
-				<usetags>true</usetags>
-		</pictures>
 		<postprocessing>
 				<auto>true</auto>
 				<autobrightnesscontrastlevels>false</autobrightnesscontrastlevels>
@@ -384,34 +184,14 @@
 				<verticaldeblocking>false</verticaldeblocking>
 				<verticaldeblocklevel>0</verticaldeblocklevel>
 		</postprocessing>
-		<scrapers>
-				<langfallback>false</langfallback>
-				<moviedefault>tmdb.xml</moviedefault>
-				<musicvideodefault>mtv.xml</musicvideodefault>
-				<sep2 />
-				<tvshowdefault>tvdb.xml</tvshowdefault>
-		</scrapers>
 		<screensaver>
 				<dimlevel>20</dimlevel>
 				<mode>Stars.xbs</mode>
-				<preview />
-				<sep1 />
-				<sep2 />
 				<slideshowpath pathversion="1">F:\Pictures\</slideshowpath>
 				<time>10</time>
 				<usedimonpause>true</usedimonpause>
 				<usemusicvisinstead>true</usemusicvisinstead>
 		</screensaver>
-		<scrobbler>
-				<lastfmpass />
-				<lastfmsubmit>false</lastfmsubmit>
-				<lastfmsubmitradio>false</lastfmsubmitradio>
-				<lastfmusername />
-				<librefmpass />
-				<librefmsubmit>false</librefmsubmit>
-				<librefmusername />
-				<sep1 />
-		</scrobbler>
 		<services>
 				<escontinuousdelay>25</escontinuousdelay>
 				<esenabled>true</esenabled>
@@ -423,71 +203,12 @@
 				<ftpserver>true</ftpserver>
 				<ftpserverpassword>xbox</ftpserverpassword>
 				<ftpserveruser>xbox</ftpserveruser>
-				<sep1 />
-				<sep2 />
-				<sep3 />
 				<upnprenderer>false</upnprenderer>
 				<upnpserver>false</upnpserver>
 				<webserver>false</webserver>
-				<webserverpassword />
 				<webserverport>80</webserverport>
 				<webserverusername>xbmc</webserverusername>
 		</services>
-		<slideshow>
-				<displayeffects>true</displayeffects>
-				<shuffle>false</shuffle>
-				<staytime>5</staytime>
-		</slideshow>
-		<smb>
-				<winsserver />
-				<workgroup>WORKGROUP</workgroup>
-		</smb>
-		<subtitles>
-				<charset>DEFAULT</charset>
-				<color>1</color>
-				<custompath pathversion="1" />
-				<font>Arial.ttf</font>
-				<height>28</height>
-				<searchrars>false</searchrars>
-				<sep1 />
-				<sep2 />
-				<style>1</style>
-		</subtitles>
-		<system>
-				<autotemperature>false</autotemperature>
-				<fanspeed>5</fanspeed>
-				<fanspeedcontrol>false</fanspeedcontrol>
-				<ledcolour>0</ledcolour>
-				<leddisableonplayback>0</leddisableonplayback>
-				<ledenableonpaused>true</ledenableonpaused>
-				<mceremote>false</mceremote>
-				<minfanspeed>1</minfanspeed>
-				<playlistspath pathversion="1">special://profile/playlists/</playlistspath>
-				<sep1 />
-				<sep2 />
-				<shutdowntime>0</shutdowntime>
-				<targettemperature>55</targettemperature>
-		</system>
-		<videolibrary>
-				<actorthumbs>false</actorthumbs>
-				<backgroundupdate>false</backgroundupdate>
-				<cleanup />
-				<enabled>false</enabled>
-				<export />
-				<flattentvshows>1</flattentvshows>
-				<groupmoviesets>false</groupmoviesets>
-				<import />
-				<seasonthumbs>true</seasonthumbs>
-				<sep3 />
-				<showunwatchedplots>true</showunwatchedplots>
-				<updateonstartup>false</updateonstartup>
-		</videolibrary>
-		<videooutput>
-				<aspect>0</aspect>
-				<hd1080i>false</hd1080i>
-				<hd480p>true</hd480p>
-				<hd720p>true</hd720p>
-		</videooutput>
 		<videoplayer>
 				<allcodecs>false</allcodecs>
 				<calibrate />
@@ -499,25 +220,21 @@
 				<framerateconversions>0</framerateconversions>
 				<rendermethod>1</rendermethod>
 				<resumeautomatically>2</resumeautomatically>
-				<sep1 />
-				<sep2 />
 				<skiploopfilter>0</skiploopfilter>
 				<soften>false</soften>
 		</videoplayer>
+		<videooutput>
+				<aspect>0</aspect>
+				<hd1080i>false</hd1080i>
+				<hd480p>true</hd480p>
+				<hd720p>true</hd720p>
+		</videooutput>
 		<videoscreen>
 				<flickerfilter>1</flickerfilter>
 				<guicalibration />
 				<resolution>10</resolution>
 				<soften>false</soften>
 		</videoscreen>
-		<weather>
-				<areacode1>USNY0996 - New York, NY</areacode1>
-				<areacode2>UKXX0085 - London, United Kingdom</areacode2>
-				<areacode3>JAXX0085 - Tokyo, Japan</areacode3>
-				<plugin />
-				<pluginsettings />
-				<sep1 />
-		</weather>
 		<skinsettings>
 		</skinsettings>
 </settings>

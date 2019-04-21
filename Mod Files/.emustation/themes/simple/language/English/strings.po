@@ -23,15 +23,15 @@ msgid "Muted"
 msgstr ""
 
 msgctxt "#31001"
-msgid "Working"
+msgid "Enable fast game parsing"
 msgstr ""
 
 msgctxt "#31002"
-msgid ""
+msgid "Disable slow scrolling"
 msgstr ""
 
 msgctxt "#31003"
-msgid ""
+msgid "Advanced"
 msgstr ""
 
 msgctxt "#31004"
@@ -904,11 +904,11 @@ msgid "[UPPERCASE]music controls[/UPPERCASE]"
 msgstr ""
 
 msgctxt "#32098"
-msgid "[UPPERCASE]disable fast game parsing[/UPPERCASE]"
+msgid ""
 msgstr ""
 
 msgctxt "#32099"
-msgid "[UPPERCASE]disable slow scrolling[/UPPERCASE]"
+msgid ""
 msgstr ""
 
 msgctxt "#32100"

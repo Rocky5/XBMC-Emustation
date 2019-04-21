@@ -56,15 +56,6 @@
 										<include>MenuFolderButtonCommonValues</include>
 										<onclick>ActivateWindow(1300)</onclick>
 								</control>
-								<control type="radiobutton" id="10">
-										<description>Disable Fast Game Parsing</description>
-										<include>MenuButtonCommonValues</include>
-										<label>$LOCALIZE[32098]</label>
-										<onclick>Skin.ToggleSetting(fastgameparsingdisabled)</onclick>
-										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,show_both-fastgameparsingdisabled,NOTICE,,XBMC-Emustation must be[CR]restarted for changes to take effect )</onclick>
-										<onclick>RunScript( special://emustation_scripts/toggle_advancedsettings_settings.py,fasterscanning, )</onclick>
-										<selected>Skin.HasSetting(fastgameparsingdisabled)</selected>
-								</control>
 								<control type="radiobutton" id="11">
 										<description>Disable Festive overlays</description>
 										<include>MenuButtonCommonValues</include>
@@ -72,15 +63,6 @@
 										<onclick>Skin.ToggleSetting(festiveoverlaydisabled)</onclick>
 										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,show_both-festiveoverlaydisabled,NOTICE,,Home screen must be reloaded for[CR]this change to take effect )</onclick>
 										<selected>Skin.HasSetting(festiveoverlaydisabled)</selected>
-								</control>
-								<control type="radiobutton" id="12">
-										<description>Disable Slow Scrolling</description>
-										<include>MenuButtonCommonValues</include>
-										<label>$LOCALIZE[32099]</label>
-										<onclick>Skin.ToggleSetting(slowscrollingdisabled)</onclick>
-										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,show_both-slowscrollingdisabled,NOTICE,,XBMC-Emustation must be[CR]restarted for changes to take effect )</onclick>
-										<onclick>RunScript( special://emustation_scripts/toggle_advancedsettings_settings.py,slowscrolling, )</onclick>
-										<selected>Skin.HasSetting(slowscrollingdisabled)</selected>
 								</control>
 								<control type="radiobutton" id="20">
 										<description>Enable Default to last rom</description>

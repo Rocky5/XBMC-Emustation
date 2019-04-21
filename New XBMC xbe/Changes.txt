@@ -47,3 +47,4 @@
 		( Special://themes_root/carbon/layouts/xbox/system_art_small.png, Special://theme/layouts/xbox/system_art_small.png or Special://emustation_scripts/dialog_ok.py )
 38) Themes can have there own splash image that will override the default splash.
 	( splash.png inside the current loaded themes folder. Custom_splash.png will override all splash images. )
+39) Added 2 new Programs Settings, Disable slow scrolling and Enable fast game parsing.

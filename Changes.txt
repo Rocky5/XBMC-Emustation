@@ -1,4 +1,10 @@
-14/05/2019
+17/04/2019
+	1) Moved the fast game parsing and slow scrolling toggle into XBMCs Programs settings menu.
+		( They are now built in settings, Enable fast game parsing is disabled by default )
+	2) File cleanup.
+
+
+14/04/2019
 	1) Updated create_rom_lists.py to parse a directory (file types) for supported extensions, so this should make it easier for people to add there own extensions I don't know.
 		( just create a blank file with the .ft extension named the rom extension type. Example: bin.ft  )
 	2) Spelling mistake in Other Settings fixed.
@@ -8,15 +14,17 @@
 03/02/2019
 	1) Fixed the launch.py script not failing of filenames that end with a (.
 		( this happened because the script would not know its the end of the line, so done a quick dirty fix. )
-
+		
 
 04/01/2019
 	1) Fixed the carousel labes overlapping when 0 favs or games were available on favourites and ports.
 		( Redownload XBMC4Gamers or Art BOok themes for there fixes )
 	2) Fixed the generate_favourtites.py" script if fav already exist check.
 
+
 21/12/2018
 	1) Changed how the intro is done, if there was no Ethernet/network connected it would hang :/ so now I just play intro.mp4 if found next to the splash.png.
+
 
 20/12/2018
 	1) Renamed the Direct launch label to Launch Emulator: and also made custom tiles Direct Launch label hidden.
