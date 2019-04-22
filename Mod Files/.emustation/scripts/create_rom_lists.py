@@ -5,7 +5,7 @@
 	NeoGeoCD must have its ISO files in folders inside its roms\system folder and the .cue file must match the name of the folder.
 	( the script will generate static lists for emulators )
 '''
-import fileinput, glob, itertools, re, operator, os, shutil, struct, sys, time, xbmc, xbmcgui, zipfile, filecmp
+import ast, fileinput, glob, itertools, re, operator, os, shutil, struct, sys, time, xbmc, xbmcgui, zipfile, filecmp
 from xbe import *
 ## Start markings for the log file.
 print "| create_rom_lists.py loaded."
@@ -37,8 +37,10 @@ File_Types_Path		= os.path.join( Root_Directory, '.emustation\\scripts\\file typ
 ## Grab extensions for roms via files in a folder, makes it very easy for people to add new rom extensions.
 if len(os.listdir( File_Types_Path )) > 0:
 	Extensions		= str([f for f in os.listdir( File_Types_Path ) if os.path.isfile( os.path.join( File_Types_Path, f ) )]).replace(".ft","")
+	Extensions		= ast.literal_eval(Extensions)
 else:
-	Extensions		= ["zip"]
+	Extensions		= [ "zip" ]
+# Extensions			= [ "adf","md","xbg","lnx","a78","a52","dim","nds","t64","d64","int","tap","z80","tzx","zip","bin","ccd","cue","j64","img","iso","rom","n64","z64","smd","smc","gb","gbc","gba","nes","sms","swc","gg","a26","a78","col","lnx","sfc","sg","fig","vms","exe" ]
 ## Modified by me. Original by chunk_1970 - http://forum.kodi.tv/showthread.php?tid=24666&pid=125356#pid125356
 def Extract_XbeInfo(FileName): ## Need to use this as the xbe.py Get_title misses letter and causes string issues, even when using .encode or .decode
 	if os.path.isfile(FileName) and FileName.endswith('.xbe'):

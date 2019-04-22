@@ -1,3 +1,7 @@
+22/04/2019
+	1) Quick fix for tuple issue in the create_rom_lists.py.
+
+
 17/04/2019
 	1) Moved the fast game parsing and slow scrolling toggle into XBMCs Programs settings menu.
 		( They are now built in settings, Enable fast game parsing is disabled by default )
