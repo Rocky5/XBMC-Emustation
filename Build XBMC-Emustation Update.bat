@@ -28,7 +28,7 @@ if exist "..\other\build for release.bin" (
 	)
 	del tmp.vbs
 ) else (
-	Set daytotal=015
+	Set daytotal=123
 )
 cls
 Echo: & Echo: & Echo: & Echo   Please wait...
