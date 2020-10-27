@@ -4,16 +4,17 @@
 @Echo off & SetLocal EnableDelayedExpansion & Mode con:cols=100 lines=10 & Color 0B
 title XBMC-Emustation Builder
 
-Attrib /s -r -h -s "Thumbs.db" >NUL
-Del /Q /S "Thumbs.db" 2>NUL
-for /F "usebackq tokens=1,2 delims==" %%i in (`wmic os get LocalDateTime /VALUE 2^>NUL`) do if '.%%i.'=='.LocalDateTime.' set dateformat=%%j
-
-cls
-
+if exist "XBMC" Set "foldername=XBMC"
+if exist "Build" Set "foldername=Build"
+if not exist "%foldername%" (
+	Echo Error, place a fresh copy of XBMC next to this batch file and try again.
+	timeout /t 5
+	Exit
+)
 :Start
-Set "foldername=XBMC"
-Set "version=1.2"
-Set "fromDate=20/12/2018"
+Set "version=1.3"
+Set "fromDate=27/10/2020"
+for /F "usebackq tokens=1,2 delims==" %%i in (`wmic os get LocalDateTime /VALUE 2^>NUL`) do if '.%%i.'=='.LocalDateTime.' set dateformat=%%j
 Set toDate=%dateformat:~6,2%^/%dateformat:~4,2%^/%dateformat:~0,4%
 if exist "..\other\build for release.bin" (
 	(
@@ -30,10 +31,14 @@ if exist "..\other\build for release.bin" (
 ) else (
 	Set daytotal=123
 )
+title XBMC-Emustation Builder - %version%.%daytotal%
 cls
-Echo: & Echo: & Echo: & Echo   Please wait...
-
+Echo: & Echo: & Echo: & Echo   Preping files & Echo   Please wait...
 (
+Attrib /s -r -h -s "desktop.ini"
+Attrib /s -r -h -s "Thumbs.db"
+Del /Q /S "desktop.ini"
+Del /Q /S "Thumbs.db"
 rd /q /s "%foldername%\plugins"
 rd /q /s "%foldername%\sounds"
 rd /q /s "%foldername%\userdata"
@@ -58,27 +63,29 @@ move "%foldername%\language" "%foldername%\system\"
 move "%foldername%\media" "%foldername%\system\"
 move "%foldername%\screenshots" "%foldername%\system\"
 move "%foldername%\UserData" "%foldername%\system\"
-
 XCopy /s /e /i /h /r /y "Mod Files" "%foldername%"
-XCopy /s /i /h /r /y "Emu xbe files" "%foldername%\.emustation\emulators"
-del /q /s "%foldername%\.emustation\emulators\*.bat"
-del /q /s "%foldername%\.emustation\emulators\place emulators files in here"
-del /q "%foldername%\.emustation\emulators\*.info"
-del /q /s "%foldername%\.emustation\roms\roms go here"
-del /q /s "%foldername%\.emustation\media\media goes here"
-rd /q /s "%foldername%\.emustation\scripts\not used"
+XCopy /s /i /h /r /y "Other\update images" "%foldername%\system\media\update\"
+XCopy /s /i /h /r /y "Mod Files\Emu xbe files" "%foldername%\emustation\emulators"
+del /q /s "%foldername%\emustation\emulators\*.bat"
+del /q "%foldername%\emustation\emulators\system_list.txt"
+del /q /s "%foldername%\emustation\emulators\place emulators files in here"
+del /q "%foldername%\emustation\emulators\*.info"
+del /q /s "%foldername%\emustation\roms\roms go here"
+del /q /s "%foldername%\emustation\media\media goes here"
+rd /q /s "%foldername%\emustation\scripts\not used"
+rd /q /s "%foldername%\Emu xbe files"
 copy /y "Changes.txt" "%foldername%"
-Call Other\Tools\repl.bat "XBMC-Emustation 0.0.000" "XBMC-Emustation %version%.%daytotal%" L < "%foldername%\.emustation\themes\simple\language\English\strings.po" >"%foldername%\.emustation\themes\simple\language\English\strings.tmp"
-Del "%foldername%\.emustation\themes\simple\language\English\strings.po"
-rename "%foldername%\.emustation\themes\simple\language\English\strings.tmp" "strings.po"
+Call Other\Tools\repl.bat "xbmc-emustation 0.0.000" "xbmc-emustation %version%.%daytotal%" L < "%foldername%\emustation\themes\simple\language\English\strings.po" >"%foldername%\emustation\themes\simple\language\English\strings.tmp"
+Del "%foldername%\emustation\themes\simple\language\English\strings.po"
+rename "%foldername%\emustation\themes\simple\language\English\strings.tmp" "strings.po"
 Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"
-copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\.emustation\themes\simple\720p\Custom_Changes.xml"
+copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\emustation\themes\simple\xml\Custom_Changes.xml"
 del /q "%foldername%\changes.tmp"
 del /Q "%foldername%\Changes.txt"
-copy /y "New XBMC xbe\default.xbe" "%foldername%\default.xbe"
+copy /y "Source\default.xbe" "%foldername%\default.xbe"
 ren "%foldername%" "XBMC-Emustation"
-)
+)>nul 2>&1
+
 cls
-Echo:
 Echo: & Echo: & Echo: & Echo   Done...
 timeout /t 3 >NUL

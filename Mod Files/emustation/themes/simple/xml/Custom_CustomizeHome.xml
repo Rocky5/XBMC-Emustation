@@ -1,0 +1,885 @@
+<window type="dialog" id="1300">
+		<onunload condition="Skin.HasSetting(ReloadSkin) + !Window.IsActive(1301)">RunScript(special://emustation_scripts/reload_skin.py)</onunload>
+		<defaultcontrol always="true">9000</defaultcontrol>
+		<controls>
+				<control type="group">
+						<visible>!Window.IsActive(1301)</visible>
+						<posy>41.5</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
+								<height>421</height>
+								<colordiffuse>menu_back_image</colordiffuse>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>320</posx>
+								<posy>130</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_50</font>
+								<label>[UPPERCASE]$LOCALIZE[31266][/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<!-- Main Menu -->
+						<control type="grouplist" id="9000">
+								<posx>320</posx>
+								<posy>200</posy>
+								<width>640</width>
+								<height>295</height>
+								<onleft>-</onleft>
+								<onright>-</onright>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<itemgap>-1</itemgap>
+								<control type="button" id="1">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31290][/UPPERCASE]</label>
+										<include>MenuFolderButtonMenuValues</include>
+										<onclick>RunScript(Special://emustation_scripts/apply_theme.py)</onclick>
+								</control>
+								<control type="label" id="2">
+										<posx>320</posx>
+										<posy>130</posy>
+										<width>640</width>
+										<height>43</height>
+										<align>center</align>
+										<aligny>center</aligny>
+										<font>size_23</font>
+										<label>[UPPERCASE]$LOCALIZE[31302][/UPPERCASE]</label>
+										<textcolor>menu_header_label</textcolor>
+								</control>
+								<control type="button" id="3">
+										<description>Change Carousel Animation Types</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>SetFocus(200)</onright>
+										<onleft>SetFocus(210)</onleft>
+										<label>[UPPERCASE]$LOCALIZE[31291][/UPPERCASE]</label>
+										<label2>[UPPERCASE]&lt;  $INFO[Skin.String(CurrentCarouselAnimation)]  &gt;[/UPPERCASE]</label2>
+										<include>MenuButtonMenuValues</include>
+								</control>
+								<control type="button" id="4">
+										<description>Change Carousel Background Animation Types</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>SetFocus(220)</onright>
+										<onleft>SetFocus(230)</onleft>
+										<label>[UPPERCASE]$LOCALIZE[31292][/UPPERCASE]</label>
+										<label2>[UPPERCASE]&lt;  $INFO[Skin.String(CurrentHomeBackgroundAnimation)]  &gt;[/UPPERCASE]</label2>
+										<include>MenuButtonMenuValues</include>
+								</control>
+								<control type="button" id="5">
+										<description>Change Window Animation Types</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>SetFocus(240)</onright>
+										<onleft>SetFocus(250)</onleft>
+										<label>[UPPERCASE]$LOCALIZE[31293][/UPPERCASE]</label>
+										<label2>[UPPERCASE]&lt;  $INFO[Skin.String(CurrentWindowAnimation)]  &gt;[/UPPERCASE]</label2>
+										<include>MenuButtonMenuValues</include>
+								</control>
+								<control type="label" id="10">
+										<posx>320</posx>
+										<posy>130</posy>
+										<width>640</width>
+										<height>43</height>
+										<align>center</align>
+										<aligny>center</aligny>
+										<font>size_23</font>
+										<label>[UPPERCASE]$LOCALIZE[31304][/UPPERCASE]</label>
+										<textcolor>menu_header_label</textcolor>
+								</control>
+								<control type="button" id="11">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31297][/UPPERCASE]</label>
+										<label2>[UPPERCASE][COLOR=FF$INFO[Skin.String(carbon_custom_colours)]]$INFO[Skin.String(carbon_custom_colours)][/COLOR][/UPPERCASE]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetString(carbon_custom_colours)</onclick>
+								</control>
+								<control type="radiobutton" id="19">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31303][/UPPERCASE]</label>
+										<textureradioon>radiobutton-focus_alt2.png</textureradioon>
+										<textureradiooff>radiobutton-nofocus_alt2.png</textureradiooff>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomTileEnabled)</onclick>
+										<selected>Skin.HasSetting(CustomTileEnabled)</selected>
+								</control>
+								<!-- Custom Tile 1 -->
+								<control type="radiobutton" id="20">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  1[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile1Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile1Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="21">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile1Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile1Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile1Enabled) + Control.HasFocus(20) | Control.HasFocus(21) | Control.HasFocus(22) | Control.HasFocus(23)</visible>
+								</control>
+								<control type="button" id="22">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile1Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile1Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile1Enabled) + Control.HasFocus(20) | Control.HasFocus(21) | Control.HasFocus(22) | Control.HasFocus(23)</visible>
+								</control>
+								<control type="button" id="23">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile1SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile1SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile1Enabled) + Control.HasFocus(20) | Control.HasFocus(21) | Control.HasFocus(22) | Control.HasFocus(23)</visible>
+								</control>
+								<!-- Custom Tile 2 -->
+								<control type="radiobutton" id="25">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  2[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile2Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile2Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="26">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile2Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile2Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile2Enabled) + Control.HasFocus(25) | Control.HasFocus(26) | Control.HasFocus(27) | Control.HasFocus(28)</visible>
+								</control>
+								<control type="button" id="27">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile2Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile2Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile2Enabled) + Control.HasFocus(25) | Control.HasFocus(26) | Control.HasFocus(27) | Control.HasFocus(28)</visible>
+								</control>
+								<control type="button" id="28">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile2SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile2SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile2Enabled) + Control.HasFocus(25) | Control.HasFocus(26) | Control.HasFocus(27) | Control.HasFocus(28)</visible>
+								</control>
+								<!-- Custom Tile 3 -->
+								<control type="radiobutton" id="30">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  3[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile3Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile3Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="31">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile3Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile3Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile3Enabled) + Control.HasFocus(30) | Control.HasFocus(31) | Control.HasFocus(32) | Control.HasFocus(33)</visible>
+								</control>
+								<control type="button" id="32">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile3Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile3Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile3Enabled) + Control.HasFocus(30) | Control.HasFocus(31) | Control.HasFocus(32) | Control.HasFocus(33)</visible>
+								</control>
+								<control type="button" id="33">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile3SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile3SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile3Enabled) + Control.HasFocus(30) | Control.HasFocus(31) | Control.HasFocus(32) | Control.HasFocus(33)</visible>
+								</control>
+								<!-- Custom Tile 4 -->
+								<control type="radiobutton" id="40">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  4[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile4Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile4Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="41">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile4Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile4Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile4Enabled) + Control.HasFocus(40) | Control.HasFocus(41) | Control.HasFocus(42) | Control.HasFocus(43)</visible>
+								</control>
+								<control type="button" id="42">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile4Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile4Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile4Enabled) + Control.HasFocus(40) | Control.HasFocus(41) | Control.HasFocus(42) | Control.HasFocus(43)</visible>
+								</control>
+								<control type="button" id="43">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile4SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile4SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile4Enabled) + Control.HasFocus(40) | Control.HasFocus(41) | Control.HasFocus(42) | Control.HasFocus(43)</visible>
+								</control>
+								<!-- Custom Tile 5 -->
+								<control type="radiobutton" id="50">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  5[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile5Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile5Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="51">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile5Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile5Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile5Enabled) + Control.HasFocus(50) | Control.HasFocus(51) | Control.HasFocus(52) | Control.HasFocus(53)</visible>
+								</control>
+								<control type="button" id="52">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile5Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile5Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile5Enabled) + Control.HasFocus(50) | Control.HasFocus(51) | Control.HasFocus(52) | Control.HasFocus(53)</visible>
+								</control>
+								<control type="button" id="53">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile5SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile5SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile5Enabled) + Control.HasFocus(50) | Control.HasFocus(51) | Control.HasFocus(52) | Control.HasFocus(53)</visible>
+								</control>
+								<!-- Custom Tile 6 -->
+								<control type="radiobutton" id="60">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  6[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile6Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile6Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="61">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile6Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile6Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile6Enabled) + Control.HasFocus(60) | Control.HasFocus(61) | Control.HasFocus(62) | Control.HasFocus(63)</visible>
+								</control>
+								<control type="button" id="62">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile6Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile6Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile6Enabled) + Control.HasFocus(60) | Control.HasFocus(61) | Control.HasFocus(62) | Control.HasFocus(63)</visible>
+								</control>
+								<control type="button" id="63">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile6SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile6SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile6Enabled) + Control.HasFocus(60) | Control.HasFocus(61) | Control.HasFocus(62) | Control.HasFocus(63)</visible>
+								</control>
+								<!-- Custom Tile 7 -->
+								<control type="radiobutton" id="70">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  7[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile7Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile7Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="71">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile7Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile7Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile7Enabled) + Control.HasFocus(70) | Control.HasFocus(71) | Control.HasFocus(72) | Control.HasFocus(73)</visible>
+								</control>
+								<control type="button" id="72">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile7Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile7Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile7Enabled) + Control.HasFocus(70) | Control.HasFocus(71) | Control.HasFocus(72) | Control.HasFocus(73)</visible>
+								</control>
+								<control type="button" id="73">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile7SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile7SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile7Enabled) + Control.HasFocus(70) | Control.HasFocus(71) | Control.HasFocus(72) | Control.HasFocus(73)</visible>
+								</control>
+								<!-- Custom Tile 8 -->
+								<control type="radiobutton" id="80">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  8[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile8Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile8Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="81">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile8Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile8Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile8Enabled) + Control.HasFocus(80) | Control.HasFocus(81) | Control.HasFocus(82) | Control.HasFocus(83)</visible>
+								</control>
+								<control type="button" id="82">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile8Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile8Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile8Enabled) + Control.HasFocus(80) | Control.HasFocus(81) | Control.HasFocus(82) | Control.HasFocus(83)</visible>
+								</control>
+								<control type="button" id="83">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile8SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile8SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile8Enabled) + Control.HasFocus(80) | Control.HasFocus(81) | Control.HasFocus(82) | Control.HasFocus(83)</visible>
+								</control>
+								<!-- Custom Tile 9 -->
+								<control type="radiobutton" id="90">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  9[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile9Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile9Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="91">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile9Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile9Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile9Enabled) + Control.HasFocus(90) | Control.HasFocus(91) | Control.HasFocus(92) | Control.HasFocus(93)</visible>
+								</control>
+								<control type="button" id="92">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile9Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile9Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile9Enabled) + Control.HasFocus(90) | Control.HasFocus(91) | Control.HasFocus(92) | Control.HasFocus(93)</visible>
+								</control>
+								<control type="button" id="93">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile9SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile9SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile9Enabled) + Control.HasFocus(90) | Control.HasFocus(91) | Control.HasFocus(92) | Control.HasFocus(93)</visible>
+								</control>
+								<!-- Custom Tile 10 -->
+								<control type="radiobutton" id="100">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  10[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile10Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile10Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="101">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile10Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile10Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile10Enabled) + Control.HasFocus(100) | Control.HasFocus(101) | Control.HasFocus(102) | Control.HasFocus(103)</visible>
+								</control>
+								<control type="button" id="102">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile10Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile10Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile10Enabled) + Control.HasFocus(100) | Control.HasFocus(101) | Control.HasFocus(102) | Control.HasFocus(103)</visible>
+								</control>
+								<control type="button" id="103">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile10SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile10SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile10Enabled) + Control.HasFocus(100) | Control.HasFocus(101) | Control.HasFocus(102) | Control.HasFocus(103)</visible>
+								</control>
+								<!-- Custom Tile 11 -->
+								<control type="radiobutton" id="104">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  11[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile11Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile11Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="105">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile11Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile11Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile11Enabled) + Control.HasFocus(104) | Control.HasFocus(105) | Control.HasFocus(106) | Control.HasFocus(107)</visible>
+								</control>
+								<control type="button" id="106">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile11Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile11Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile11Enabled) + Control.HasFocus(104) | Control.HasFocus(105) | Control.HasFocus(106) | Control.HasFocus(107)</visible>
+								</control>
+								<control type="button" id="107">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile11SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile11SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile11Enabled) + Control.HasFocus(104) | Control.HasFocus(105) | Control.HasFocus(106) | Control.HasFocus(107)</visible>
+								</control>
+								<!-- Custom Tile 12 -->
+								<control type="radiobutton" id="108">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  12[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile12Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile12Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="109">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile12Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile12Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile12Enabled) + Control.HasFocus(108) | Control.HasFocus(109) | Control.HasFocus(110) | Control.HasFocus(111)</visible>
+								</control>
+								<control type="button" id="110">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile12Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile12Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile12Enabled) + Control.HasFocus(108) | Control.HasFocus(109) | Control.HasFocus(110) | Control.HasFocus(111)</visible>
+								</control>
+								<control type="button" id="111">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile12SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile12SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile12Enabled) + Control.HasFocus(108) | Control.HasFocus(109) | Control.HasFocus(110) | Control.HasFocus(111)</visible>
+								</control>
+								<!-- Custom Tile 13 -->
+								<control type="radiobutton" id="112">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  13[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile13Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile13Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="113">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile13Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile13Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile13Enabled) + Control.HasFocus(112) | Control.HasFocus(113) | Control.HasFocus(114) | Control.HasFocus(115)</visible>
+								</control>
+								<control type="button" id="114">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile13Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile13Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile13Enabled) + Control.HasFocus(112) | Control.HasFocus(113) | Control.HasFocus(114) | Control.HasFocus(115)</visible>
+								</control>
+								<control type="button" id="115">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile13SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile13SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile13Enabled) + Control.HasFocus(112) | Control.HasFocus(113) | Control.HasFocus(114) | Control.HasFocus(115)</visible>
+								</control>
+								<!-- Custom Tile 14 -->
+								<control type="radiobutton" id="116">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  14[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile14Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile14Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="117">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile14Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile14Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile14Enabled) + Control.HasFocus(116) | Control.HasFocus(117) | Control.HasFocus(118) | Control.HasFocus(119)</visible>
+								</control>
+								<control type="button" id="118">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile14Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile14Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile14Enabled) + Control.HasFocus(116) | Control.HasFocus(117) | Control.HasFocus(118) | Control.HasFocus(119)</visible>
+								</control>
+								<control type="button" id="119">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile14SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile14SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile14Enabled) + Control.HasFocus(116) | Control.HasFocus(117) | Control.HasFocus(118) | Control.HasFocus(119)</visible>
+								</control>
+								<!-- Custom Tile 15 -->
+								<control type="radiobutton" id="120">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]  -  $LOCALIZE[31298]  15[/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(CustomHomeTile15Enabled)</onclick>
+										<selected>Skin.HasSetting(CustomHomeTile15Enabled)</selected>
+										<visible>Skin.HasSetting(CustomTileEnabled)</visible>
+								</control>
+								<control type="button" id="121">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31299]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile15Xbe)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetFile(CustomHomeTile15Xbe,.xbe,)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile15Enabled) + Control.HasFocus(120) | Control.HasFocus(121) | Control.HasFocus(122) | Control.HasFocus(123)</visible>
+								</control>
+								<control type="button" id="122">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31300]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile15Logo)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile15Logo)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile15Enabled) + Control.HasFocus(120) | Control.HasFocus(121) | Control.HasFocus(122) | Control.HasFocus(123)</visible>
+								</control>
+								<control type="button" id="123">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  $LOCALIZE[31301]</label>
+										<label2>$INFO[Skin.String(CustomHomeTile15SystemArt)]</label2>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.SetImage(CustomHomeTile15SystemArt)</onclick>
+										<visible>Skin.HasSetting(CustomHomeTile15Enabled) + Control.HasFocus(120) | Control.HasFocus(121) | Control.HasFocus(122) | Control.HasFocus(123)</visible>
+								</control>
+						</control>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>220</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-up.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>183r</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-down.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+				<!-- going right carousel -->
+				<control type="button" id="200">
+						<description>Fade Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(3)</onfocus>
+						<onfocus>Skin.SetBool(CarouselAnimation0)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentCarouselAnimation,$LOCALIZE[31295])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>!Skin.HasSetting(CarouselAnimation0) + !Skin.HasSetting(CarouselAnimation1)</visible>
+				</control>
+				<control type="button" id="200">
+						<description>Slide Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(3)</onfocus>
+						<onfocus>Skin.ToggleSetting(CarouselAnimation1)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation0)</onfocus>
+						<onfocus>Skin.SetString(CurrentCarouselAnimation,$LOCALIZE[31296])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(CarouselAnimation0)</visible>
+				</control>
+				<control type="button" id="200">
+						<description>Instant Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(3)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation0)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentCarouselAnimation,$LOCALIZE[31294])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(CarouselAnimation1)</visible>
+				</control>
+				<!-- going left carousel -->
+				<control type="button" id="210">
+						<description>Slide Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(3)</onfocus>
+						<onfocus>Skin.ToggleSetting(CarouselAnimation1)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation0)</onfocus>
+						<onfocus>Skin.SetString(CurrentCarouselAnimation,$LOCALIZE[31296])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>!Skin.HasSetting(CarouselAnimation0) + !Skin.HasSetting(CarouselAnimation1)</visible>
+				</control>
+				<control type="button" id="210">
+						<description>Fade Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(3)</onfocus>
+						<onfocus>Skin.SetBool(CarouselAnimation0)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentCarouselAnimation,$LOCALIZE[31295])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(CarouselAnimation1)</visible>
+				</control>
+				<control type="button" id="210">
+						<description>Instant Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(3)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation0)</onfocus>
+						<onfocus>Skin.Reset(CarouselAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentCarouselAnimation,$LOCALIZE[31294])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(CarouselAnimation0)</visible>
+				</control>
+				<!-- going right carousel background -->
+				<control type="button" id="220">
+						<description>Fade Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(4)</onfocus>
+						<onfocus>Skin.SetBool(HomeBackgroundAnimation0)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentHomeBackgroundAnimation,$LOCALIZE[31295])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>!Skin.HasSetting(HomeBackgroundAnimation0) + !Skin.HasSetting(HomeBackgroundAnimation1)</visible>
+				</control>
+				<control type="button" id="220">
+						<description>Slide Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(4)</onfocus>
+						<onfocus>Skin.ToggleSetting(HomeBackgroundAnimation1)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation0)</onfocus>
+						<onfocus>Skin.SetString(CurrentHomeBackgroundAnimation,$LOCALIZE[31296])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(HomeBackgroundAnimation0)</visible>
+				</control>
+				<control type="button" id="220">
+						<description>Instant Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(4)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation0)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentHomeBackgroundAnimation,$LOCALIZE[31294])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(HomeBackgroundAnimation1)</visible>
+				</control>
+				<!-- going left carousel background -->
+				<control type="button" id="230">
+						<description>Slide Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(4)</onfocus>
+						<onfocus>Skin.ToggleSetting(HomeBackgroundAnimation1)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation0)</onfocus>
+						<onfocus>Skin.SetString(CurrentHomeBackgroundAnimation,$LOCALIZE[31296])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>!Skin.HasSetting(HomeBackgroundAnimation0) + !Skin.HasSetting(HomeBackgroundAnimation1)</visible>
+				</control>
+				<control type="button" id="230">
+						<description>Fade Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(4)</onfocus>
+						<onfocus>Skin.SetBool(HomeBackgroundAnimation0)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentHomeBackgroundAnimation,$LOCALIZE[31295])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(HomeBackgroundAnimation1)</visible>
+				</control>
+				<control type="button" id="230">
+						<description>Instant Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(4)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation0)</onfocus>
+						<onfocus>Skin.Reset(HomeBackgroundAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentHomeBackgroundAnimation,$LOCALIZE[31294])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(HomeBackgroundAnimation0)</visible>
+				</control>
+				<!-- going right window -->
+				<control type="button" id="240">
+						<description>Fade Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(5)</onfocus>
+						<onfocus>Skin.SetBool(WindowAnimation0)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentWindowAnimation,$LOCALIZE[31295])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>!Skin.HasSetting(WindowAnimation0) + !Skin.HasSetting(WindowAnimation1)</visible>
+				</control>
+				<control type="button" id="240">
+						<description>Slide Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(5)</onfocus>
+						<onfocus>Skin.ToggleSetting(WindowAnimation1)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation0)</onfocus>
+						<onfocus>Skin.SetString(CurrentWindowAnimation,$LOCALIZE[31296])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(WindowAnimation0)</visible>
+				</control>
+				<control type="button" id="240">
+						<description>Instant Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(5)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation0)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentWindowAnimation,$LOCALIZE[31294])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(WindowAnimation1)</visible>
+				</control>
+				<!-- going left window -->
+				<control type="button" id="250">
+						<description>Slide Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(5)</onfocus>
+						<onfocus>Skin.ToggleSetting(WindowAnimation1)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation0)</onfocus>
+						<onfocus>Skin.SetString(CurrentWindowAnimation,$LOCALIZE[31296])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>!Skin.HasSetting(WindowAnimation0) + !Skin.HasSetting(WindowAnimation1)</visible>
+				</control>
+				<control type="button" id="250">
+						<description>Fade Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(5)</onfocus>
+						<onfocus>Skin.SetBool(WindowAnimation0)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentWindowAnimation,$LOCALIZE[31295])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(WindowAnimation1)</visible>
+				</control>
+				<control type="button" id="250">
+						<description>Instant Animation</description>
+						<posx>-500</posx>
+						<onfocus>SetFocus(5)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation0)</onfocus>
+						<onfocus>Skin.Reset(WindowAnimation1)</onfocus>
+						<onfocus>Skin.SetString(CurrentWindowAnimation,$LOCALIZE[31294])</onfocus>
+						<onfocus>Skin.SetBool(ReloadSkin)</onfocus>
+						<visible>Skin.HasSetting(WindowAnimation0)</visible>
+				</control>
+		</controls>
+</window>

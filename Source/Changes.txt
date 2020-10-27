@@ -1,0 +1,57 @@
+..:: XBMC4Xbox 3.5.3 Modifications ::..
+
+1) Changed how the game save menu works, it now doesn't list "TitleMeta.xbx" files as files, there in the own directory like the rest.
+2) Increased the Splash screen display time, no point having a nice splash if you dont get to see it.
+3) Fullscreen Splashscreen!
+4) Faster loading of your games library.
+5) Added my Synopsis script to the context menu for the MyPrograms windows
+6) Added a new custom window _script*.xml will now be automatically parsed like Custom*.xml
+7) Rearranged the folders structure to make it cleaner.
+8) removed the extension from Skin.CurrentTheme
+9) Moved screensavers to the system folder :) ( Had to use XP to build the screensavers )
+10) Added the option to disable the splash image via the advancedsettings.xml ( <splash>false</splash> )
+11) system\toggles\no splash.enabled added to the system folder to easily disable the splash if you don't want to use the advancedsettings.xml
+12) Reload skin almost instantly, changed for the them selection screen.
+13) It now runs the "home_themer.py" script after changing the theme, so it now also works in the Settings menu of XBMC.
+	( Also means faster cycling of themes )
+14) Fix ported over from Kodi to fix the SetFocus function, it now focuses from the first entry in the list instead of the current page.
+15) Removed the remove favourite from the context menu, due to the roms menus not having this feature.
+16) When you add favourites or remove them it will now run a script to update the counter for the main menu.
+17) Fixed the setting a new language, forgot to change a path.
+18) Fonts. sounds and .xpr files are now relocated to .emustation\themes\"theme name"\
+	( this allows modular themes and simplicity for uninstalling and installing them via the downloader. )
+19) Added a S drive that will point to Q:\.emustation\themes\ as I got fed up going through Q:\ lol
+20) Updated the debug overlay to use debugloggin font name and added MBs to the layout.
+21) Fixed centering labels in lists.
+	( If you have a skin that uses center for its labels in a list you may want to remove the offset you had to use for posx )
+22) Update to the center label fix in lists, if your skin version is 2.1 it will use the old way and if its 2.2 or higher will use the fixed way.
+23) Now creates the system\trainers directory
+24) Now creates system\screenshots if it doesn't exist when you take a screenshot.
+25) Splash overlay file so folk can keep the splash but add there own logo or visa-versa. ( custom_splash.png )
+26) Changed Textures.xpr to skindefault.xpr
+27) Fixed the XBE title extraction from the xbe files, so no more broken names!
+28) Added custom staticlabels and used the sortletter label to store more information.
+29) Added Special://root/ so that we can get the absolute path of XBMCs installation.
+	( will output for example E:\xbmc-emustation\ instead of Q:\ that xbmc and home use )
+30) Added slow scrolling for artwork. This can be disabled by renaming the following file Q:\system\toggles\slow scrolling.enabled
+31) Added Special://urldownloader/ so that we can get the absolute path of the urldownloaders installation.
+	( will output for example Q:\.emustation\scripts\urldownloader  )
+32) Fixed favourites getting corrupted if you reload the skin when editing a label.
+33) Moved the fanart screensaver path to Q:\System\Screensavers\Fanart
+34) When you exit a emulators that supports command line launching it will return to XBMC4Gamers.
+	( Just like coinops, but only seems to work once for some reason :/ so disabled )
+35) Fixed the internal jpg decoder breaking if ram hits 0MB. If it hits less than 2MB of free ram it will use Imagelib to decode the images.
+36) Added different error screen colour and txt for the forced error screen. ( if you arse something up and its a crash ) (White + Y)
+37) Three new Special:// commands "emustation_scripts", "themes_root" and "theme". "themes_root" will load Q:\.emustation\themes\ and "theme" will load the currently loaded theme directory.
+		( Special://themes_root/carbon/layouts/xbox/system_art_small.png, Special://theme/layouts/xbox/system_art_small.png or Special://emustation_scripts/dialog_ok.py )
+38) Themes can have there own splash image that will override the default splash.
+	( splash.png inside the current loaded themes folder. Custom_splash.png will override all splash images. )
+39) Added 2 new Programs Settings, Disable slow scrolling and Enable fast game parsing.
+40) Intro video wont play when load last system rom is enabled on a reboot.
+41) Can now launch default_p.xbe or defaultxhd.xbe from the context menu if found. (XBE Edit mode only)
+42) Changed .modules to _modules
+43) New system variable. system.screenwidthxheight - this will return 1280x720 for example
+44) New system variable. system.dvdtitleid - this will return the titleid of the inserted game
+	( used for showing artwork, from the downloader )
+45) Added dialog.textviewer("header","content")
+46) Fixed the audio not muting when set to zero

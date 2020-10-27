@@ -1,0 +1,160 @@
+<window type="dialog" id="1114">
+		<defaultcontrol always="true">9000</defaultcontrol>
+		<controls>
+				<control type="group">
+						<posy>41.5</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>320</posx>
+								<posy>108</posy>
+								<width>640</width>
+								<height>421</height>
+								<colordiffuse>menu_back_image</colordiffuse>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>320</posx>
+								<posy>130</posy>
+								<width>640</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_50</font>
+								<label>[UPPERCASE]$LOCALIZE[31203][/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<!-- Main Menu -->
+						<control type="grouplist" id="9000">
+								<posx>320</posx>
+								<posy>200</posy>
+								<width>640</width>
+								<height>295</height>
+								<onleft>-</onleft>
+								<onright>-</onright>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<itemgap>-1</itemgap>
+								<!-- Scan Roms -->
+								<control type="button" id="1">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31351][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>RunScript(special://emustation_scripts/create_rom_lists.py,0,auto)</onclick>
+										<onclick>ActivateWindow(1101)</onclick>
+										<animation effect="fade" time="0">hidden</animation>
+								</control>
+								<control type="button" id="2">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31352][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>RunScript(special://emustation_scripts/create_rom_lists.py,manual,0)</onclick>
+										<onclick>ActivateWindow(1101)</onclick>
+										<animation effect="fade" time="0">hidden</animation>
+								</control>
+								<control type="radiobutton" id="3">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31363][/UPPERCASE]</label>
+										<textureradioon>radiobutton-focus_alt2.png</textureradioon>
+										<textureradiooff>radiobutton-nofocus_alt2.png</textureradiooff>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(Show_Scan_Options)</onclick>
+										<selected>Skin.HasSetting(Show_Scan_Options)</selected>
+								</control>
+								<control type="radiobutton" id="4">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>  -  [UPPERCASE]$LOCALIZE[31364][/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(Use_Resources)</onclick>
+										<selected>Skin.HasSetting(Use_Resources)</selected>
+										<visible>Skin.HasSetting(Show_Scan_Options)</visible>
+								</control>
+								<control type="radiobutton" id="5">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>    -  [UPPERCASE]$LOCALIZE[31365][/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(Use_Resources_Overwrite)</onclick>
+										<selected>Skin.HasSetting(Use_Resources_Overwrite)</selected>
+										<visible>Skin.HasSetting(Use_Resources) + Skin.HasSetting(Show_Scan_Options)</visible>
+								</control>
+								<control type="radiobutton" id="6">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>  -  [UPPERCASE]$LOCALIZE[31366][/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(Use_Synopsis_Names)</onclick>
+										<selected>Skin.HasSetting(Use_Synopsis_Names)</selected>
+										<visible>Skin.HasSetting(Show_Scan_Options)</visible>
+								</control>
+								<control type="radiobutton" id="7">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>  -  [UPPERCASE]$LOCALIZE[31367][/UPPERCASE]</label>
+										<include>MenuCustomButtonMenuValues</include>
+										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,show_enabled-Use_SegaCD_ISO/MP3,NOTICE,SegaCD - NeoGenesis required. On downloader.,ISO/BIN/IMG+MP3 must be in subfolder with,the same name as the ISO/BIN/IMG file. )</onclick>
+										<onclick>Skin.ToggleSetting(Use_SegaCD_ISO/MP3)</onclick>
+										<selected>Skin.HasSetting(Use_SegaCD_ISO/MP3)</selected>
+										<visible>Skin.HasSetting(Show_Scan_Options)</visible>
+								</control>
+								<control type="button" id="10">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>  -  [UPPERCASE]$LOCALIZE[31353][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>RunScript(special://emustation_scripts/refresh_carousel.py,scan_emus,0,scan_xbes,0)</onclick>
+										<visible>Skin.HasSetting(Show_Scan_Options)</visible>
+								</control>
+								<!-- requires download label -->
+								<control type="label" id="20">
+										<posx>320</posx>
+										<posy>130</posy>
+										<width>640</width>
+										<height>43</height>
+										<align>center</align>
+										<aligny>center</aligny>
+										<font>size_23</font>
+										<label>[UPPERCASE]$LOCALIZE[31360][/UPPERCASE]</label>
+										<textcolor>menu_header_label</textcolor>
+								</control>
+								<control type="button" id="21">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31354][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>RunScript(special://emustation_scripts/run_artwork_installer.py)</onclick>
+								</control>
+						</control>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>220</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-up.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<visible>Skin.HasSetting(Show_Scan_Options)</visible>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+				<control type="image">
+						<posx>360r</posx>
+						<posy>182r</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-down.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<visible>Skin.HasSetting(Show_Scan_Options)</visible>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+		</controls>
+</window>
