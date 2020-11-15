@@ -14,7 +14,7 @@
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=65NJWU9PUUX7W&lc=GB&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)
  
 ## Installation
- ### Download Prebuilt versions: [Download XBMC-Emustation](http://xbmc-emustation.com/downloads/_latest%20build/XBMC-Emustation.zip)
+ ### Download Prebuilt versions: [Download XBMC-Emustation](https://drive.google.com/open?id=1timqZv2wJJRTf68BrvY5rkubnq1Thcs4)
 
  #### Build from Source: (Note: this is only for advanced users)
  * Download [XBMC-Emustation](https://github.com/Rocky5/XBMC-Emustation/archive/master.zip) and extract the **XBMC-Emustation-master** folder to your desktop.
@@ -23,8 +23,8 @@
  * FTP this new folder to your Xbox and enjoy.
  
 ## Roms and Emulators
- * You place your roms in the designated subdirectory in the **.emustation\roms** folder.
- * Same exact thing for the emulators, but in the **.emustation\emulators** folder.
+ * You place your roms in the designated subdirectory in the **emustation\roms** folder.
+ * Same exact thing for the emulators, but in the **emustation\emulators** folder.
  * **note:** these paths can be customized in the Other Settings menu
  
 ## Scanning Roms

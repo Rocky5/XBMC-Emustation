@@ -7,6 +7,10 @@ Would also like to thank everyone that donates its much appreciated.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+15/11/2020
+	1) Fix for initial setup not creating the roms folders.
+
+
 21/10/2020
 	1) Added demos to the carousel.
 		( E:\ F:\ G:\ demos )
