@@ -800,6 +800,7 @@ def Main_Code():
 											File_Name = ini.next().replace('Game Name=','')[:-1]
 											File_Name = File_Name.lower()
 											if os.path.isdir(os.path.join(Emu_Path,'media\\Cbagys3DArt')):
+												Bypass_N64_Check == 1 ##Added to avoid check
 												if File_Name == "007 goldeneye (ultrahle)720pno" or Bypass_N64_Check == 1:
 													Bypass_N64_Check = 1
 													if Rom_Name_noext == File_Name:
