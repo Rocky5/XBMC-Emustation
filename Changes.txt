@@ -7,6 +7,12 @@ Would also like to thank everyone that donates its much appreciated.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+21/06/2022
+	1) ScummVM support added.
+		( games go in the games folder inside the emulators\scummvm\ folders are hard coded to the .svm files but you can update the paths inside those if you wish. )
+		( emulator and artwork are on the downloader for it )
+	
+
 15/11/2020
 	1) Fix for initial setup not creating the roms folders.
 

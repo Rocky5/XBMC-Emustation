@@ -31,7 +31,7 @@ if os.path.isfile(Favs_List_XML):
 					Emu_Path = TMP[1]
 					Rom_Path = TMP[2]
 					Emu_Path = os.path.join('$INFO[skin.string(custom_emulator_path)]', Emu_Name, Emu_Path)
-					if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx" or Emu_Name == "mame":
+					if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx" or Emu_Name == "mame" or Emu_Name == "scummvm":
 						pass
 					else:
 						Rom_Path = os.path.join('$INFO[skin.string(custom_roms_path)]', Emu_Name, Rom_Path)

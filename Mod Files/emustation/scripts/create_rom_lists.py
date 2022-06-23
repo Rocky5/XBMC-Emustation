@@ -234,6 +234,10 @@ def Main_Code():
 				Folderize_Images = 1
 			elif Emu_Name == "saturn":
 				Parse_CUE_CCD_ISO_File = 1
+			elif Emu_Name == "scummvm":
+				Real_Games_Folder	= os.path.join(Emu_Path,'games')
+				Roms_Folder	= os.path.join(Emu_Path,'svms')
+				Parse_SubFolder = 1
 			elif Emu_Name == "segacd":
 				if xbmc.getCondVisibility('Skin.HasSetting(Use_SegaCD_ISO/MP3)'):
 					Parse_SubFolder = 1
@@ -291,7 +295,21 @@ def Main_Code():
 							ExtractedZip = 1
 						os.remove(os.path.join(Synopsis_Zip))
 
-
+## Patch scummvm xbe to load a different config and save as loader.xbe.
+				if Emu_Name == "scummvm":
+					if not os.path.isfile(os.path.join(Emu_Path,"loader.xbe")):
+						ScummvmXBECounter = 0
+						shutil.copy2(os.path.join(Emu_Path,"default.xbe"),os.path.join(Emu_Path,"loader.xbe"))
+						with open(os.path.join(Emu_Path,"loader.xbe"),"rb") as inputfile:
+							with open(os.path.join(Emu_Path,"loader.xbe" + ' patched'),"wb") as outputfile:
+								file_content = inputfile.read(1024*1024)
+								while file_content:
+									outputfile.write(file_content.replace('scummvm.ini','configs.ini'))
+									file_content = inputfile.read(1024*1024)
+						os.remove(os.path.join(Emu_Path,"loader.xbe"))
+						os.rename(os.path.join(Emu_Path,"loader.xbe"+' patched'),os.path.join(Emu_Path,"loader.xbe"))
+						pDialog.update((ScummvmXBECounter * 100) / 1,'Patching [B]'+Emu_Name+'[/B] XBE Files',os.path.basename("loader.xbe"),'This needs to be done')
+						ScummvmXBECounter = ScummvmXBECounter+1
 ## Hacky way to move the rom back to the roms folder so when you scan in the roms you get them all.
 ## This is like this so I can auto load a rom when you select it,unfortunately its a workaround for no command line launching.
 				if Emu_Name == "mame":
@@ -897,6 +915,25 @@ def Main_Code():
 							else:
 								dialog.ok("ERROR","","path.txt is missing from the","Neogeocd Emulators directory")
 								return
+								
+## Change scummvm rom path.		
+						if Emu_Name == "scummvm":
+							Write_List_File = 1
+							Thumbnail = Items.split("-")[1][:-4]+'.jpg'
+							SVM_Synopsis = Items.split("-")[1][:-4]
+							SVM_File = Items
+							Rom_Name = Items[:-4]
+							Rom_Type_Total = Rom_Type_Total
+							with open (os.path.join(Roms_Folder,SVM_File)) as svm:
+								svm = svm.read()
+								for line in svm.split('\n'):
+									if 'description=' in line:
+										Rom_Name_noext = line.split("=")[1].split(" (")[0]
+									if 'path=' in line:
+										SVMs_Game = line.split('games\\')[1].split('\\')[0]
+							if not os.path.isdir(os.path.join(Real_Games_Folder,SVMs_Game)):
+								print "Cant find " + SVMs_Game + " Folder"
+								Write_List_File = 0
 						
 
 ## Check for a synopsis file for the current emulator and parse it.
@@ -919,6 +956,8 @@ def Main_Code():
 									Synopsis_File = Synopsis_Set_1
 								elif os.path.isfile(Synopsis_Set_2):
 									Synopsis_File = Synopsis_Set_2
+							elif Emu_Name == "scummvm":
+								Synopsis_File = os.path.join(Synopsis_Path,"scummvm",SVM_Synopsis+'.txt')
 							elif Emu_Name == "xbox" or Emu_Name == "ports":
 								if '_' in XBE_ID:
 									Synopsis_File = os.path.join(Synopsis_Path,Resource_Type,XBE_ID.split('_',1)[0]+'.txt')
@@ -944,6 +983,7 @@ def Main_Code():
 												# else:
 													# N64_Rom_Name = Rom_Name_noext.split(' (',1)[0]
 												Synopsis_nointroname_Set = 1
+											elif Emu_Name == "scummvm": pass
 											else:
 												Rom_Name_noext = line.split(': ',1)[1]
 												if Rom_Name_noext.startswith('the'):
@@ -1066,9 +1106,11 @@ def Main_Code():
 									Rom_Path = os.path.join(Items,Items+'.img')
 									Rom_Type_Total = Rom_Type_Total
 									Write_List_File = 1
+								elif Emu_Name == "scummvm":
+									pass
 								else:
 									Write_List_File = 0
-						
+
 
 ## Check and parse the directory for iso files.
 						if Parse_ISO_File == 1:
@@ -1152,7 +1194,6 @@ def Main_Code():
 									Write_List_File = 1
 							else:
 								Write_List_File = 0
-
 
 ## Create the rest of the layout xml file.
 						if Write_List_File:

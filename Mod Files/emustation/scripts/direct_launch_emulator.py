@@ -1,7 +1,11 @@
 import os, xbmc, xbmcgui
 def write_igr_file():
-	if not os.path.isdir('E:\\CACHE'): makedirs('E:\\CACHE')
-	with open("E:\\CACHE\\LocalCache20.bin","w") as tmp: tmp.write(xbmc.translatePath("Special://root/default.xbe"))
+	try:
+		if not os.path.isdir('E:\\CACHE'): makedirs('E:\\CACHE')
+		with open("E:\\CACHE\\LocalCache20.bin","w") as tmp:
+			for xbe in sorted(os.listdir(xbmc.translatePath("Special://root/"))):
+				if xbe.endswith('.xbe'): tmp.write(xbmc.translatePath("Special://root/"+xbe))
+	except: print "Couldn't create CACHE folder"
 try:
 	direct_launch	= sys.argv[1:][0]
 	custom_launch	= sys.argv[2:][0]

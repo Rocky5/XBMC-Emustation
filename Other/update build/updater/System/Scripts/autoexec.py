@@ -89,7 +89,6 @@ if os.path.isfile(zip_file):
 ## Change some values in the guisettings and favourites xml files
 	# Backup guisettings.xml and favourites.xml first
 	shutil.copy2(os.path.join(Root_Directory, 'system/userdata/guisettings.xml'), os.path.join(Root_Directory, 'system/backups/guisettings.xml'))
-	shutil.copy2(os.path.join(Root_Directory, 'system/userdata/favourites.xml'), os.path.join(Root_Directory, 'system/backups/favourites.xml'))
 	for line in fileinput.input(os.path.join(Root_Directory, 'system/userdata/guisettings.xml'), inplace=1):
 		if line.strip().startswith('<font>'):
 			line = '<font>Default</font>\n'
@@ -115,6 +114,7 @@ if os.path.isfile(zip_file):
 	if emulator_path.startswith('Q:\\'): emulator_path = emulator_path.replace('Q:\\',Root_Directory)
 	# Favourites files
 	if os.path.isfile(os.path.join(Root_Directory, 'system/userdata/favourites.xml')):
+		shutil.copy2(os.path.join(Root_Directory, 'system/userdata/favourites.xml'), os.path.join(Root_Directory, 'system/backups/favourites.xml'))
 		for line in fileinput.input(os.path.join(Root_Directory, 'system/userdata/favourites.xml'), inplace=1):
 			print line.replace('.emustation', 'emustation'),
 	if os.path.isfile(os.path.join(Root_Directory, 'system/userdata/favourites.backup')):
