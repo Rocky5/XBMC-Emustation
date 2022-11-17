@@ -39,7 +39,7 @@ REM for /f "Tokens=*" %%a in ('dir /b /AD /ON "*"') do Echo %%a>>list.txt
 Set /a count=3
 for /f "Tokens=*" %%a in (system_list.txt) do (
 	Echo  %%~na
-	if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="demos" if not "%%~na"=="atarijaguar" if not "%%~na"=="neogeocd" (
+	if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="demos" if not "%%~na"=="atarijaguar" if not "%%~na"=="daphne" if not "%%~na"=="neogeocd" (
 		Echo 		^<item id^="!count!"^>
 		Echo 				^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 		Echo 				^<label2^>%%~na^</label2^>
@@ -52,6 +52,18 @@ for /f "Tokens=*" %%a in (system_list.txt) do (
 	)>>"system_list.xml"
 
 	if "%%~na"=="atarijaguar" (
+		Echo 		^<item id^="!count!"^>
+		Echo 				^<label^>Launch Emulator: $INFO^[Skin.String^(%%~na_games^)^]^</label^>
+		Echo 				^<label2^>%%~na^</label2^>
+		Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
+		Echo 				^<onclick^>RunScript^(special://emustation_scripts/direct_launch_emulator.py,1,^)^</onclick^>
+		Echo 				^<icon^>layouts/%%~na/art/system_art.png^</icon^>
+		Echo 				^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
+		Echo 				^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
+		Echo 		^</item^>
+	)>>"system_list.xml"
+
+	if "%%~na"=="daphne" (
 		Echo 		^<item id^="!count!"^>
 		Echo 				^<label^>Launch Emulator: $INFO^[Skin.String^(%%~na_games^)^]^</label^>
 		Echo 				^<label2^>%%~na^</label2^>

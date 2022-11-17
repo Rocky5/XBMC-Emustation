@@ -55,3 +55,4 @@
 	( used for showing artwork, from the downloader )
 45) Added dialog.textviewer("header","content")
 46) Fixed the audio not muting when set to zero
+47) Fixed and added to the auto video switching feature

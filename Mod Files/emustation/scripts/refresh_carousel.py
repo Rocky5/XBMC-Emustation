@@ -56,6 +56,8 @@ if Update_Emulators == "scan_emus":
 	for EmuFolder in sorted(os.listdir(Emulator_Folder_Path)):
 		if EmuFolder == "atarijaguar":
 			Roms_Folder = os.path.join(Emulator_Folder_Path, EmuFolder, 'roms')
+		elif EmuFolder == "scummvm":
+			Roms_Folder = os.path.join(Emulator_Folder_Path, EmuFolder, 'games')
 		else:
 			Roms_Folder = os.path.join(Roms_Path, EmuFolder)
 		if os.path.isfile(os.path.join(Emulator_Folder_Path, EmuFolder, 'default.xbe')) and len(os.listdir(Roms_Folder)) > 0:

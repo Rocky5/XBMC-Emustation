@@ -16,11 +16,14 @@
 ## Installation
  ### Download Prebuilt versions: [Download XBMC-Emustation](https://drive.google.com/open?id=1timqZv2wJJRTf68BrvY5rkubnq1Thcs4)
 
- #### Build from Source: (Note: this is only for advanced users)
+ <details>
+  <summary>Build from Source: (Note: this is only for advanced users)</summary>
+  
  * Download [XBMC-Emustation](https://github.com/Rocky5/XBMC-Emustation/archive/master.zip) and extract the **XBMC-Emustation-master** folder to your desktop.
  * Download the latest [XBMC4XBOX-*****.zip](https://drive.google.com/drive/folders/0B9zNhNcNUdDTRVFBbHcwc2JCZFE) and extract the **XBMC** folder that is inside the zip to your desktop\\**XBMC-Emustation-master**\\ folder.
  * Now double click the **Build XBMC-Emustation.bat** that's inside the **XBMC-Emustation-master** folder and wait. It will output a new folder named **XBMC-Emustation**
  * FTP this new folder to your Xbox and enjoy.
+ </details>
  
 ## Roms and Emulators
  * You place your roms in the designated subdirectory in the **emustation\roms** folder.

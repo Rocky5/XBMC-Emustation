@@ -194,10 +194,10 @@
 				<visible>Skin.HasSetting(cv20_exists)</visible>
 		</item>
 		<item id="22">
-				<label>$INFO[Skin.String(daphne_games)]</label>
+				<label>Launch Emulator: $INFO[Skin.String(daphne_games)]</label>
 				<label2>daphne</label2>
 				<onclick>SetFocus(9100)</onclick>
-				<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+				<onclick>RunScript(special://emustation_scripts/direct_launch_emulator.py,1,)</onclick>
 				<icon>layouts/daphne/art/system_art.png</icon>
 				<thumb>layouts/daphne/art/logo.png</thumb>
 				<visible>Skin.HasSetting(daphne_exists)</visible>

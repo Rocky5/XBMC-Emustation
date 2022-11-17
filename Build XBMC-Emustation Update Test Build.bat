@@ -24,8 +24,9 @@ if exist "..\other\build for release.bin" (
 	)
 	del tmp.vbs
 ) else (
-	Set daytotal=0
+	Set daytotal=000
 )
+Set "daytotal=001"
 title XBMC-Emustation Builder - %version%.%daytotal%
 cls
 Echo: & Echo: & Echo: & Echo   Preping files & Echo   Please wait...
@@ -74,7 +75,7 @@ CD %foldername%\
 del /Q "Changes.txt"
 "C:\Program Files\7-Zip\7z.exe" a "..\Other\update build\updater\Update Files\%foldername%-emus.zip" "..\Other\emulators\*" -mx=7 -r -y
 "C:\Program Files\7-Zip\7z.exe" a "..\Other\update build\updater\Update Files\%foldername%.zip" "*" -mx=7 -r -y
-"C:\Program Files\7-Zip\7z.exe" a "..\%output_zip%" "..\Other\update build\*" -mx=0 -r -y
+"C:\Program Files\7-Zip\7z.exe" a "..\%output_zip%" "..\Other\update build\*" -mx=7 -r -y
 cd ..\
 del /Q "Other\update build\updater\Update Files\%foldername%-emus.zip"
 del /Q "Other\update build\updater\Update Files\%foldername%.zip"

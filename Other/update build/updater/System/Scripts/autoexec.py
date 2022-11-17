@@ -14,9 +14,9 @@ if os.path.isfile(zip_file):
 	# Update older .emustation to just emustation
 	if os.path.isdir(Root_Directory+'.emustation'):
 		os.rename(Root_Directory+'.emustation', Root_Directory+'emustation')
-	# Update older .modules to _modules
+	# Remove older .modules folder
 	if os.path.isdir(Root_Directory+'system/scripts/.modules'):
-		os.rename(Root_Directory+'system/scripts/.modules', Root_Directory+'system/scripts/_modules')
+		shutil.rmtree(Root_Directory+'system/scripts/.modules')
 	# Update older backup to backups
 	if os.path.isdir(Root_Directory+'system/backups') and os.path.isdir(Root_Directory+'system/backup'):
 		shutil.rmtree(Root_Directory+'system/backup')
@@ -111,7 +111,7 @@ if os.path.isfile(zip_file):
 		if 'custom_emulator_path' in line:
 			emulator_path = line.split('">')[1].split('</')[0]
 		print line,
-	if emulator_path.startswith('Q:\\'): emulator_path = emulator_path.replace('Q:\\',Root_Directory)
+	if emulator_path.startswith('Q:/'): emulator_path = emulator_path.replace('Q:/',Root_Directory)
 	# Favourites files
 	if os.path.isfile(os.path.join(Root_Directory, 'system/userdata/favourites.xml')):
 		shutil.copy2(os.path.join(Root_Directory, 'system/userdata/favourites.xml'), os.path.join(Root_Directory, 'system/backups/favourites.xml'))
@@ -147,7 +147,10 @@ else:
 	pDialog.update(0,"Download complete","Files are missing")
 	time.sleep(5)
 ## Write the cleanup script and reload the dashboard xbe
-autoexec_data = "import os, shutil\nif os.path.isdir('Q:/Updater'):\n	xbmc.executebuiltin('ActivateWindow(1400)')\n	shutil.copy2('Q:/Updater/system/xbmc.log','Q:/system/xbmc-updater.log')\n	shutil.rmtree('Q:/Updater')"
+autoexec_data = "import os, shutil\nif os.path.isdir('Q:/Updater'):\n	xbmc.executebuiltin('ActivateWindow(1400)')\n	shutil.copy2('Q:/Updater/system/xbmc.log','Q:/system/xbmc-updater.log')\n	shutil.rmtree('Q:/Updater')\n	os.remove('E:/CACHE/tmp.bin')"
 with open(os.path.join(Root_Directory,'system/scripts/autoexec.py') , 'w') as autoexec: autoexec.write(autoexec_data)
-time.sleep(3)
+with open("E:/CACHE/tmp.bin", 'w') as tmp: tmp.write('')
+time.sleep(2)
+os.remove(xbmc.translatePath("Special://root/default.xbe"))
+time.sleep(1)
 xbmc.executebuiltin('RunXBE('+ Root_Directory +'default.xbe)')

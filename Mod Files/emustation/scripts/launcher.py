@@ -35,6 +35,13 @@ try:
 		with open('E:\\TDATA\\64ce64ce\Tmp.ini', 'w') as f: f.write('[History]\nromname=Emustation Loader\nromCRC='+Rom_CRC+'\n')
 ##
 	with open('z:\\tmp.cut', 'w') as cut:
+		xbmc.executebuiltin('skin.setstring(xberegion,checking)')
+		if Emu_Name == 'xbox' or 'xbox' in Rom_Name_Path or Emu_Name == 'ports' or 'ports' in Rom_Name_Path:
+			while True:
+				xbmc.executebuiltin('xberegion('+Emu_Path_XBE+')') # This is run to get the xbe region, will make it all internal at a later date.
+				time.sleep(.5)
+				xberegion = xbmc.getInfoLabel('skin.string(xberegion)')
+				if xberegion != 'checking': break
 		if Emu_Name == 'scummvm' or 'scummvm' in Emu_Path_XBE:
 			if Emu_Name == 'favs':
 				xbmc.executebuiltin('Skin.SetString(emuname,scummvm)')
@@ -56,12 +63,15 @@ try:
 			with open (os.path.join(Custom_Emus_Path,Emu_Name,"configs.ini"), "w") as ini:
 				ini.write(''.join(settings + svm))
 			cut.write('<shortcut><path>%s</path><custom><game>%s</game></custom></shortcut>' % (os.path.join(Custom_Emus_Path,Emu_Name,"loader.xbe"),gameid))
-		elif Emu_Name == 'xbox':
-			cut.write('<shortcut><path>%s</path></shortcut>' % (Emu_Path_XBE))
+		elif Emu_Name == 'xbox' or Emu_Name == 'ports':
+			cut.write('<shortcut><video>%s</video><path>%s</path></shortcut>' % (xberegion,Emu_Path_XBE))
 		elif Emu_Name == 'mame':
 			cut.write('<shortcut><path>%s</path></shortcut>' % (os.path.join(Custom_Emus_Path,Emu_Name,Emu_Path_XBE)))
 		elif Emu_Name == 'favs':
-			cut.write('<shortcut><path>%s</path><custom><game>%s</game></custom></shortcut>' % (Emu_Path_XBE,Rom_Name_Path))
+			if 'xbox' in Rom_Name_Path or 'ports' in Rom_Name_Path:
+				cut.write('<shortcut><video>%s</video><path>%s</path></shortcut>' % (xberegion,Emu_Path_XBE))
+			else:
+				cut.write('<shortcut><path>%s</path><custom><game>%s</game></custom></shortcut>' % (Emu_Path_XBE,Rom_Name_Path))
 		elif Emu_Name == 'fba' or Emu_Name == 'fbl' or Emu_Name == 'fblc' or Emu_Name == 'fbaxxx':
 			cut.write('<shortcut><path>%s</path><custom><game>%s</game></custom></shortcut>' % (os.path.join(Custom_Emus_Path,Emu_Name,Emu_Path_XBE),Rom_Name_Path))
 		else:

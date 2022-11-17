@@ -29,7 +29,15 @@ msgstr "Désactiver le défilement lent"
 
 msgctxt "#32002"
 msgid "Enable fast game parsing"
-msgstr "Activer l'analyse rapide du jeu"
+msgstr "Activer l'analyse rapide du jeu
+
+msgctxt "#32003"
+msgid "Use synopsis naming if available"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Game database rebuild required"
+msgstr ""
 
 ## bottom screen buttons - includes.xml
 msgctxt "#30900"

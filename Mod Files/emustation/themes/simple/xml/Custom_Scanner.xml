@@ -76,7 +76,7 @@
 								<control type="radiobutton" id="5">
 										<posx>0</posx>
 										<posy>0</posy>
-										<label>    -  [UPPERCASE]$LOCALIZE[31365][/UPPERCASE]</label>
+										<label>  -  [UPPERCASE]$LOCALIZE[31365][/UPPERCASE]</label>
 										<include>MenuCustomButtonMenuValues</include>
 										<onclick>Skin.ToggleSetting(Use_Resources_Overwrite)</onclick>
 										<selected>Skin.HasSetting(Use_Resources_Overwrite)</selected>
