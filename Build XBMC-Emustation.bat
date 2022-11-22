@@ -31,7 +31,7 @@ if exist "..\other\build for release.bin" (
 ) else (
 	Set daytotal=123
 )
-Set "daytotal=001"
+Set "daytotal=002"
 title XBMC-Emustation Builder - %version%.%daytotal%
 cls
 Echo: & Echo: & Echo: & Echo   Preping files & Echo   Please wait...

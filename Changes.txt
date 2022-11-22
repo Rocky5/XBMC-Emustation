@@ -7,6 +7,10 @@ Would also like to thank everyone that donates its much appreciated.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+22/11/2022
+	1) Added support for alternative DNS entry.
+
+
 08/10/2022
 	1) Ported over some stuff from gamers.
 	2) Video switching added to shortcuts for Xbox games.
