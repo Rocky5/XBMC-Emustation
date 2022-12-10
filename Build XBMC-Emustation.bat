@@ -13,25 +13,25 @@ if not exist "%foldername%" (
 )
 :Start
 Set "version=1.4"
+Set "daytotal=002"
 Set "fromDate=23/06/2022"
 for /F "usebackq tokens=1,2 delims==" %%i in (`wmic os get LocalDateTime /VALUE 2^>NUL`) do if '.%%i.'=='.LocalDateTime.' set dateformat=%%j
 Set toDate=%dateformat:~6,2%^/%dateformat:~4,2%^/%dateformat:~0,4%
-if exist "..\other\build for release.bin" (
-	(
-	echo fromDate^=CDate^("%fromDate%"^)
-	echo toDate^=CDate^("%toDate%"^)
-	echo WScript.Echo DateDiff^("d",fromDate,toDate,vbMonday^)
-	)>tmp.vbs
-	for /f %%a in ('cscript /nologo tmp.vbs') do (
-	if %%a GEQ 100 Set "daytotal=%%a"
-	if %%a LSS 100 Set "daytotal=0%%a"
-	if %%a LSS 10 Set "daytotal=00%%a"
-	)
-	del tmp.vbs
-) else (
-	Set daytotal=123
-)
-Set "daytotal=002"
+REM if exist "..\other\build for release.bin" (
+	REM (
+	REM echo fromDate^=CDate^("%fromDate%"^)
+	REM echo toDate^=CDate^("%toDate%"^)
+	REM echo WScript.Echo DateDiff^("d",fromDate,toDate,vbMonday^)
+	REM )>tmp.vbs
+	REM for /f %%a in ('cscript /nologo tmp.vbs') do (
+	REM if %%a GEQ 100 Set "daytotal=%%a"
+	REM if %%a LSS 100 Set "daytotal=0%%a"
+	REM if %%a LSS 10 Set "daytotal=00%%a"
+	REM )
+	REM del tmp.vbs
+REM ) else (
+	REM Set daytotal=123
+REM )
 title XBMC-Emustation Builder - %version%.%daytotal%
 cls
 Echo: & Echo: & Echo: & Echo   Preping files & Echo   Please wait...
