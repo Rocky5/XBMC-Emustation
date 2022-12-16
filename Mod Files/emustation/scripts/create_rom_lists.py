@@ -124,7 +124,7 @@ def Main_Code():
 ## Set a load of variable.
 			CountList = 0; JumpList = 0; Jump_Counter = 8000
 			Starts_with_0 = 0; Starts_with_A = 0; Starts_with_B = 0; Starts_with_C = 0; Starts_with_D = 0; Starts_with_E = 0; Starts_with_F = 0; Starts_with_G = 0; Starts_with_H = 0; Starts_with_I = 0; Starts_with_J = 0; Starts_with_K = 0; Starts_with_L = 0; Starts_with_M = 0; Starts_with_N = 0; Starts_with_O = 0; Starts_with_P = 0; Starts_with_Q = 0; Starts_with_R = 0; Starts_with_S = 0; Starts_with_T = 0; Starts_with_U = 0; Starts_with_V = 0; Starts_with_W = 0; Starts_with_X = 0; Starts_with_Y = 0; Starts_with_Z = 0;
-			Folderize_Images = 0; Parse_CUE_CCD_ISO_File = 0; Parse_CUE_ZIP_ISO_ADF_File = 0; Parse_ISO_BIN_IMG_File = 0; Parse_CUE_File = 0; Parse_SubFolder = 0; Parse_CCD_File = 0; Parse_ISO_File = 0; Parse_FBL_TXT = 0; Parse_FBL_MAME_TXT = 0; Parse_FBL_MAME_ROMS = 0; Parse_Xbox_Games = 0; Parse_N64_TXT = 0; N64ID = "0"; FBA_MAME_Rom_Name = ""; Change_FBL_Rom_Path = 0; Change_Mame_Rom_Path = 0; Change_N64_Rom_Path = 0; Change_NeoGeoCD_Rom_Path = 0; Name_File = 0; N64_Emu_Core = ''; N64_Video_Core = '';
+			Folderize_Images = 0; Parse_CUE_CCD_CHD_ISO_File = 0; Parse_CUE_ZIP_ISO_ADF_File = 0; Parse_ISO_BIN_IMG_File = 0; Parse_CUE_File = 0; Parse_SubFolder = 0; Parse_CCD_File = 0; Parse_ISO_File = 0; Parse_FBL_TXT = 0; Parse_FBL_MAME_TXT = 0; Parse_FBL_MAME_ROMS = 0; Parse_Xbox_Games = 0; Parse_N64_TXT = 0; N64ID = "0"; FBA_MAME_Rom_Name = ""; Change_FBL_Rom_Path = 0; Change_Mame_Rom_Path = 0; Change_N64_Rom_Path = 0; Change_NeoGeoCD_Rom_Path = 0; Name_File = 0; N64_Emu_Core = ''; N64_Video_Core = '';
 			RomListCount = 0; RenameCount = 0; ArtworkCount = 0; ExtractedZip = 0; Folderize_Counter = 0; Xbox_Game_Total = 0;
 			Write_List_File = 1
 			Emu_XBE = "default.xbe"
@@ -233,7 +233,7 @@ def Main_Code():
 				Parse_SubFolder = 1
 				Folderize_Images = 1
 			elif Emu_Name == "saturn":
-				Parse_CUE_CCD_ISO_File = 1
+				Parse_CUE_CCD_CHD_ISO_File = 1
 			elif Emu_Name == "scummvm":
 				Real_Games_Folder	= os.path.join(Emu_Path,'games')
 				Roms_Folder	= os.path.join(Emu_Path,'svms')
@@ -245,7 +245,7 @@ def Main_Code():
 				else:
 					Parse_CUE_File = 1
 			elif Emu_Name == "psx":
-				Parse_CUE_CCD_ISO_File = 1
+				Parse_CUE_CCD_CHD_ISO_File = 1
 			elif Emu_Name == "xbox" or Emu_Name == "ports":
 				Xbox_Game_Total = 0
 				Parse_Xbox_Games = 1
@@ -259,9 +259,9 @@ def Main_Code():
 			if Parse_CUE_File:
 				pDialog.update(0,'Calculating [B]'+Emu_Name+'[/B] file numbers','','This can take some time, please be patient.')
 				Rom_Type_Total = (len(glob.glob1(Roms_Folder,'*.cue')))
-			if Parse_CUE_CCD_ISO_File:
+			if Parse_CUE_CCD_CHD_ISO_File:
 				pDialog.update(0,'Calculating [B]'+Emu_Name+'[/B] file numbers','','This can take some time, please be patient.')
-				Rom_Type_Total = (len(glob.glob1(Roms_Folder,'*.cue'))+len(glob.glob1(Roms_Folder,'*.ccd'))+len(glob.glob1(Roms_Folder,'*.iso')))
+				Rom_Type_Total = (len(glob.glob1(Roms_Folder,'*.cue'))+len(glob.glob1(Roms_Folder,'*.chd'))+len(glob.glob1(Roms_Folder,'*.ccd'))+len(glob.glob1(Roms_Folder,'*.iso')))
 			if Parse_CUE_ZIP_ISO_ADF_File:
 				pDialog.update(0,'Calculating [B]'+Emu_Name+'[/B] file numbers','','This can take some time, please be patient.')
 				Rom_Type_Total = (len(glob.glob1(Roms_Folder,'*.cue'))+len(glob.glob1(Roms_Folder,'*.zip'))++len(glob.glob1(Roms_Folder,'*.adf'))+len(glob.glob1(Roms_Folder,'*.iso')))
@@ -1079,6 +1079,7 @@ def Main_Code():
 						Rom_Name_IMG = Rom_Name[:-4]+".img"
 						Rom_Name_CUE = Rom_Name[:-4]+".cue"
 						Rom_Name_CCD = Rom_Name[:-4]+".ccd"
+						Rom_Name_CHD = Rom_Name[:-4]+".chd"
 						Rom_Name_ZIP = Rom_Name[:-4]+".zip"
 						Rom_Name_ADF = Rom_Name[:-4]+".adf"
 						Rom_Path = Rom_Name
@@ -1151,13 +1152,17 @@ def Main_Code():
 						
 
 ## Check and parse the directory for cue/ccd/iso files.
-						if Parse_CUE_CCD_ISO_File == 1:
+						if Parse_CUE_CCD_CHD_ISO_File == 1:
 							if Items.endswith('.cue'):
 								Rom_Path = Rom_Name_CUE
 								Rom_Type_Total = Rom_Type_Total
 								Write_List_File = 1
 							elif Items.endswith('.ccd'):
 								Rom_Path = Rom_Name_CCD
+								Rom_Type_Total = Rom_Type_Total
+								Write_List_File = 1
+							elif Items.endswith('.chd'):
+								Rom_Path = Rom_Name_CHD
 								Rom_Type_Total = Rom_Type_Total
 								Write_List_File = 1
 							elif Items.endswith('.iso'):

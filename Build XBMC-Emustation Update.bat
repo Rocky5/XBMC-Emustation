@@ -7,9 +7,8 @@ title XBMC-Emustation Builder
 :Start
 Set "foldername=update-files"
 Set "output_zip=XBMC-Emustation-update-files.zip"
-Set "version=1.4"
-Set "daytotal=002"
-Set "fromDate=23/06/2022"
+Set /p "version="<version.txt
+REM Set "fromDate=23/06/2022"
 for /F "usebackq tokens=1,2 delims==" %%i in (`wmic os get LocalDateTime /VALUE 2^>NUL`) do if '.%%i.'=='.LocalDateTime.' set dateformat=%%j
 Set toDate=%dateformat:~6,2%^/%dateformat:~4,2%^/%dateformat:~0,4%
 REM if exist "..\other\build for release.bin" (
@@ -27,7 +26,7 @@ REM if exist "..\other\build for release.bin" (
 REM ) else (
 	REM Set daytotal=0
 REM )
-title XBMC-Emustation Builder - %version%.%daytotal%
+title XBMC-Emustation Builder - %version%
 cls
 Echo: & Echo: & Echo: & Echo   Preping files & Echo   Please wait...
 (
@@ -65,9 +64,12 @@ cls
 Echo: & Echo: & Echo: & Echo   Creating archives & Echo   Please wait...
 (
 copy /y "Changes.txt" "%foldername%"
-Call Other\Tools\repl.bat "xbmc-emustation 0.0.000" "xbmc-emustation %version%.%daytotal%" L < "%foldername%\emustation\themes\simple\language\English\strings.po" >"%foldername%\emustation\themes\simple\language\English\strings.tmp"
+Call Other\Tools\repl.bat "xbmc-emustation 0.0.000" "xbmc-emustation %version%" L < "%foldername%\emustation\themes\simple\language\English\strings.po" >"%foldername%\emustation\themes\simple\language\English\strings.tmp"
 Del "%foldername%\emustation\themes\simple\language\English\strings.po"
 rename "%foldername%\emustation\themes\simple\language\English\strings.tmp" "strings.po"
+Call Other\Tools\repl.bat "xbmc-emustation 0.0.000" "xbmc-emustation %version%" L < "%foldername%\emustation\themes\simple\language\French\strings.po" >"%foldername%\emustation\themes\simple\language\French\strings.tmp"
+Del "%foldername%\emustation\themes\simple\language\French\strings.po"
+rename "%foldername%\emustation\themes\simple\language\French\strings.tmp" "strings.po"
 Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"
 copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\emustation\themes\simple\xml\Custom_Changes.xml"
 del /q "%foldername%\changes.tmp"
@@ -85,5 +87,5 @@ rd /q /s "update-files"
 
 cls
 Echo: & Echo: & Echo: & Echo:
-Echo  Current version: xbmc-emustation test build %version%.%daytotal%
+Echo  Current version: xbmc-emustation test build %version%
 timeout /t 15 >NUL
