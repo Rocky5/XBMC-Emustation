@@ -270,31 +270,31 @@
 								<!-- <righttexture>-</righttexture> -->
 								<!-- <overlaytexture>-</overlaytexture> -->
 								<!-- </control> -->
-								<control type="label">
-										<description>Memory Text</description>
-										<posx>345r</posx>
-										<posy>30</posy>
-										<width>200</width>
-										<height>22</height>
-										<label>$LOCALIZE[31020] $INFO[system.memory(used.percent)]</label>
-										<align>right</align>
-										<aligny>center</aligny>
-										<textcolor>FF282A2B</textcolor>
-										<font>size_20</font>
-								</control>
-								<control type="progress">
-										<description>Memory BAR</description>
-										<posx>330r</posx>
-										<posy>38</posy>
-										<width>320</width>
-										<height>12</height>
-										<info>system.memory(used)</info>
-										<texturebg border="6,0,6,0">scrollbar_bar_back2.png</texturebg>
-										<lefttexture>-</lefttexture>
-										<midtexture border="4,0,4,0">ProgressFront.png</midtexture>
-										<righttexture>-</righttexture>
-										<overlaytexture>-</overlaytexture>
-								</control>
+								<!-- <control type="label"> -->
+										<!-- <description>Memory Text</description> -->
+										<!-- <posx>345r</posx> -->
+										<!-- <posy>30</posy> -->
+										<!-- <width>200</width> -->
+										<!-- <height>22</height> -->
+										<!-- <label>$LOCALIZE[31020] $INFO[system.memory(used.percent)]</label> -->
+										<!-- <align>right</align> -->
+										<!-- <aligny>center</aligny> -->
+										<!-- <textcolor>FF282A2B</textcolor> -->
+										<!-- <font>size_20</font> -->
+								<!-- </control> -->
+								<!-- <control type="progress"> -->
+										<!-- <description>Memory BAR</description> -->
+										<!-- <posx>330r</posx> -->
+										<!-- <posy>38</posy> -->
+										<!-- <width>320</width> -->
+										<!-- <height>12</height> -->
+										<!-- <info>system.memory(used)</info> -->
+										<!-- <texturebg border="6,0,6,0">scrollbar_bar_back2.png</texturebg> -->
+										<!-- <lefttexture>-</lefttexture> -->
+										<!-- <midtexture border="4,0,4,0">ProgressFront.png</midtexture> -->
+										<!-- <righttexture>-</righttexture> -->
+										<!-- <overlaytexture>-</overlaytexture> -->
+								<!-- </control> -->
 						</control>
 				</control>
 		</controls>

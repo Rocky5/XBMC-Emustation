@@ -1,6 +1,7 @@
-16/12/2022
-	1) Can now parse CHD files for PSX.
-	(requires PCSXbox v24 from the downloader)
+28/12/2022
+	1) Added X3 3294 and X2 5035 bios support for the auto video mode switching.
+	2) Removed the 1080i menu option from system > video output
+	3) Added disable progressive video modes when holding X+B on load.
 		
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -14,6 +15,11 @@ Would also like to thank everyone that donates its much appreciated.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Previous Updates:
+
+16/12/2022
+	1) Can now parse CHD files for PSX.
+	(requires PCSXbox v24 from the downloader)
+
 
 22/11/2022
 	1) Added support for alternative DNS entry.

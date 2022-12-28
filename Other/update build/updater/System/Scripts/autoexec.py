@@ -125,22 +125,27 @@ if os.path.isfile(zip_file):
 	pDialog.create('Stage 3 of 3')
 	pDialog.update(50,"Download complete","Updating dashboard complete","Updating emulators")
 ## Extract the emulators zip
-	with zipfile.ZipFile(zip_file_emus) as zip:
-		Total_TXT_Files = len(zip.namelist()) or 1
-		Devide = 100.0 / Total_TXT_Files/2
-		Percent = 50
-		percentsmall = 0
-		for item in zip.namelist():
-			xbmc.executebuiltin('Skin.SetString(EmulatorsUpdatedSmall,'+str(int(percentsmall))+')')
-			Percent += Devide
-			percentsmall += Devide*2
-			pDialog.update(int(Percent),"Download complete","Updating dashboard complete","Updating emulators")
-			try:
-				zip.extract(item, emulator_path)
-			except:
-				print "Failed - "+item
-		pDialog.update(100,"Download complete","Updating dashboard complete","Updating emulators complete")
-		xbmc.executebuiltin('Skin.SetBool(EmulatorsUpdated)')
+	if os.path.isfile(Root_Directory+'emustation/scripts/urldownloader/install_emus.bin'):
+		with zipfile.ZipFile(zip_file_emus) as zip:
+			Total_TXT_Files = len(zip.namelist()) or 1
+			Devide = 100.0 / Total_TXT_Files/2
+			Percent = 50
+			percentsmall = 0
+			for item in zip.namelist():
+				xbmc.executebuiltin('Skin.SetString(EmulatorsUpdatedSmall,'+str(int(percentsmall))+')')
+				Percent += Devide
+				percentsmall += Devide*2
+				pDialog.update(int(Percent),"Download complete","Updating dashboard complete","Updating emulators")
+				try:
+					zip.extract(item, emulator_path)
+				except:
+					print "Failed - "+item
+			pDialog.update(100,"Download complete","Updating dashboard complete","Updating emulators complete")
+			xbmc.executebuiltin('Skin.SetBool(EmulatorsUpdated)')
+			os.remove(Root_Directory+'emustation/scripts/urldownloader/install_emus.bin')
+			time.sleep(3)
+	else:
+		pDialog.update(100,"Download complete","Updating dashboard complete","")
 		time.sleep(3)
 else:
 	pDialog.create('Error')

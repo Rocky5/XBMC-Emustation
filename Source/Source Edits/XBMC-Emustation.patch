@@ -1,6 +1,6 @@
 Index: .
 ===================================================================
---- .	(revision 33032)
+--- .	(revision 33042)
 +++ .	(working copy)
 
 Property changes on: .
@@ -638,7 +638,7 @@ Index: Build Emustation.bat
 \ No newline at end of file
 Index: language/English (US)/strings.po
 ===================================================================
---- language/English (US)/strings.po	(revision 33032)
+--- language/English (US)/strings.po	(revision 33042)
 +++ language/English (US)/strings.po	(working copy)
 @@ -8272,3 +8272,11 @@
  msgctxt "#34005"
@@ -655,7 +655,7 @@ Index: language/English (US)/strings.po
 \ No newline at end of file
 Index: language/English/strings.po
 ===================================================================
---- language/English/strings.po	(revision 33032)
+--- language/English/strings.po	(revision 33042)
 +++ language/English/strings.po	(working copy)
 @@ -8688,3 +8688,11 @@
  msgctxt "#34005"
@@ -671,7 +671,7 @@ Index: language/English/strings.po
 +msgstr ""
 Index: sources/screensavers/Asteroids
 ===================================================================
---- sources/screensavers/Asteroids	(revision 33032)
+--- sources/screensavers/Asteroids	(revision 33042)
 +++ sources/screensavers/Asteroids	(working copy)
 
 Property changes on: sources/screensavers/Asteroids
@@ -682,7 +682,7 @@ Added: svn:ignore
 +Asteroids.suo
 Index: sources/screensavers/Asteroids/Asteroids.vcproj
 ===================================================================
---- sources/screensavers/Asteroids/Asteroids.vcproj	(revision 33032)
+--- sources/screensavers/Asteroids/Asteroids.vcproj	(revision 33042)
 +++ sources/screensavers/Asteroids/Asteroids.vcproj	(working copy)
 @@ -19,7 +19,7 @@
  			<Tool
@@ -704,7 +704,7 @@ Index: sources/screensavers/Asteroids/Asteroids.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/Asteroids/main.cpp
 ===================================================================
---- sources/screensavers/Asteroids/main.cpp	(revision 33032)
+--- sources/screensavers/Asteroids/main.cpp	(revision 33042)
 +++ sources/screensavers/Asteroids/main.cpp	(working copy)
 @@ -155,7 +155,7 @@
  #ifdef _TEST
@@ -717,7 +717,7 @@ Index: sources/screensavers/Asteroids/main.cpp
  #endif
 Index: sources/screensavers/AsterWave
 ===================================================================
---- sources/screensavers/AsterWave	(revision 33032)
+--- sources/screensavers/AsterWave	(revision 33042)
 +++ sources/screensavers/AsterWave	(working copy)
 
 Property changes on: sources/screensavers/AsterWave
@@ -728,7 +728,7 @@ Added: svn:ignore
 +AsterWave.suo
 Index: sources/screensavers/AsterWave/AsterWave.vcproj
 ===================================================================
---- sources/screensavers/AsterWave/AsterWave.vcproj	(revision 33032)
+--- sources/screensavers/AsterWave/AsterWave.vcproj	(revision 33042)
 +++ sources/screensavers/AsterWave/AsterWave.vcproj	(working copy)
 @@ -20,7 +20,7 @@
  				Name="VCCLCompilerTool"
@@ -750,7 +750,7 @@ Index: sources/screensavers/AsterWave/AsterWave.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/BioGenesis
 ===================================================================
---- sources/screensavers/BioGenesis	(revision 33032)
+--- sources/screensavers/BioGenesis	(revision 33042)
 +++ sources/screensavers/BioGenesis	(working copy)
 
 Property changes on: sources/screensavers/BioGenesis
@@ -761,7 +761,7 @@ Added: svn:ignore
 +BioGenesis.suo
 Index: sources/screensavers/BioGenesis/BioGenesis.vcproj
 ===================================================================
---- sources/screensavers/BioGenesis/BioGenesis.vcproj	(revision 33032)
+--- sources/screensavers/BioGenesis/BioGenesis.vcproj	(revision 33042)
 +++ sources/screensavers/BioGenesis/BioGenesis.vcproj	(working copy)
 @@ -20,7 +20,7 @@
  				Name="VCCLCompilerTool"
@@ -783,7 +783,7 @@ Index: sources/screensavers/BioGenesis/BioGenesis.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/cpBlobs/cpBlobs.vcproj
 ===================================================================
---- sources/screensavers/cpBlobs/cpBlobs.vcproj	(revision 33032)
+--- sources/screensavers/cpBlobs/cpBlobs.vcproj	(revision 33042)
 +++ sources/screensavers/cpBlobs/cpBlobs.vcproj	(working copy)
 @@ -69,7 +69,7 @@
  				Name="VCCLCompilerTool"
@@ -796,7 +796,7 @@ Index: sources/screensavers/cpBlobs/cpBlobs.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/CrystalMorph/CrystalMorph.vcproj
 ===================================================================
---- sources/screensavers/CrystalMorph/CrystalMorph.vcproj	(revision 33032)
+--- sources/screensavers/CrystalMorph/CrystalMorph.vcproj	(revision 33042)
 +++ sources/screensavers/CrystalMorph/CrystalMorph.vcproj	(working copy)
 @@ -20,7 +20,7 @@
  				Name="VCCLCompilerTool"
@@ -818,7 +818,7 @@ Index: sources/screensavers/CrystalMorph/CrystalMorph.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/Drempels/main.cpp
 ===================================================================
---- sources/screensavers/Drempels/main.cpp	(revision 33032)
+--- sources/screensavers/Drempels/main.cpp	(revision 33042)
 +++ sources/screensavers/Drempels/main.cpp	(working copy)
 @@ -134,7 +134,7 @@
  
@@ -831,7 +831,7 @@ Index: sources/screensavers/Drempels/main.cpp
  int   g_subdirIndices[9] = { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
 Index: sources/screensavers/GreyNetic/GreyNetic.cpp
 ===================================================================
---- sources/screensavers/GreyNetic/GreyNetic.cpp	(revision 33032)
+--- sources/screensavers/GreyNetic/GreyNetic.cpp	(revision 33042)
 +++ sources/screensavers/GreyNetic/GreyNetic.cpp	(working copy)
 @@ -251,7 +251,7 @@
  	SetDefaults();
@@ -844,7 +844,7 @@ Index: sources/screensavers/GreyNetic/GreyNetic.cpp
  
 Index: sources/screensavers/GreyNetic/GreyNetic.vcproj
 ===================================================================
---- sources/screensavers/GreyNetic/GreyNetic.vcproj	(revision 33032)
+--- sources/screensavers/GreyNetic/GreyNetic.vcproj	(revision 33042)
 +++ sources/screensavers/GreyNetic/GreyNetic.vcproj	(working copy)
 @@ -69,7 +69,7 @@
  				Name="VCCLCompilerTool"
@@ -857,7 +857,7 @@ Index: sources/screensavers/GreyNetic/GreyNetic.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/MatrixTrails/main.cpp
 ===================================================================
---- sources/screensavers/MatrixTrails/main.cpp	(revision 33032)
+--- sources/screensavers/MatrixTrails/main.cpp	(revision 33042)
 +++ sources/screensavers/MatrixTrails/main.cpp	(working copy)
 @@ -156,7 +156,7 @@
  #ifdef _TEST
@@ -870,7 +870,7 @@ Index: sources/screensavers/MatrixTrails/main.cpp
  #endif
 Index: sources/screensavers/MatrixTrails/matrixtrails.cpp
 ===================================================================
---- sources/screensavers/MatrixTrails/matrixtrails.cpp	(revision 33032)
+--- sources/screensavers/MatrixTrails/matrixtrails.cpp	(revision 33042)
 +++ sources/screensavers/MatrixTrails/matrixtrails.cpp	(working copy)
 @@ -60,7 +60,7 @@
  #ifdef _TEST
@@ -883,7 +883,7 @@ Index: sources/screensavers/MatrixTrails/matrixtrails.cpp
  	m_CharSize.x	= (f32)render->m_Width  / (f32)m_NumColumns;
 Index: sources/screensavers/MatrixTrails/matrixtrails.vcproj
 ===================================================================
---- sources/screensavers/MatrixTrails/matrixtrails.vcproj	(revision 33032)
+--- sources/screensavers/MatrixTrails/matrixtrails.vcproj	(revision 33042)
 +++ sources/screensavers/MatrixTrails/matrixtrails.vcproj	(working copy)
 @@ -19,7 +19,7 @@
  			<Tool
@@ -905,7 +905,7 @@ Index: sources/screensavers/MatrixTrails/matrixtrails.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/PingPong/main.cpp
 ===================================================================
---- sources/screensavers/PingPong/main.cpp	(revision 33032)
+--- sources/screensavers/PingPong/main.cpp	(revision 33042)
 +++ sources/screensavers/PingPong/main.cpp	(working copy)
 @@ -114,7 +114,7 @@
  	SetDefaults();
@@ -918,7 +918,7 @@ Index: sources/screensavers/PingPong/main.cpp
  
 Index: sources/screensavers/PingPong/pingpong.vcproj
 ===================================================================
---- sources/screensavers/PingPong/pingpong.vcproj	(revision 33032)
+--- sources/screensavers/PingPong/pingpong.vcproj	(revision 33042)
 +++ sources/screensavers/PingPong/pingpong.vcproj	(working copy)
 @@ -19,7 +19,7 @@
  			<Tool
@@ -940,7 +940,7 @@ Index: sources/screensavers/PingPong/pingpong.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/PlaneState/main.cpp
 ===================================================================
---- sources/screensavers/PlaneState/main.cpp	(revision 33032)
+--- sources/screensavers/PlaneState/main.cpp	(revision 33042)
 +++ sources/screensavers/PlaneState/main.cpp	(working copy)
 @@ -110,7 +110,7 @@
  	SetDefaults();
@@ -953,7 +953,7 @@ Index: sources/screensavers/PlaneState/main.cpp
  
 Index: sources/screensavers/PlaneState/planestate.vcproj
 ===================================================================
---- sources/screensavers/PlaneState/planestate.vcproj	(revision 33032)
+--- sources/screensavers/PlaneState/planestate.vcproj	(revision 33042)
 +++ sources/screensavers/PlaneState/planestate.vcproj	(working copy)
 @@ -19,7 +19,7 @@
  			<Tool
@@ -975,7 +975,7 @@ Index: sources/screensavers/PlaneState/planestate.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/Pyro/Pyro.vcproj
 ===================================================================
---- sources/screensavers/Pyro/Pyro.vcproj	(revision 33032)
+--- sources/screensavers/Pyro/Pyro.vcproj	(revision 33042)
 +++ sources/screensavers/Pyro/Pyro.vcproj	(working copy)
 @@ -69,7 +69,7 @@
  				Name="VCCLCompilerTool"
@@ -988,7 +988,7 @@ Index: sources/screensavers/Pyro/Pyro.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/ShadeWorm/ShadeWorm.vcproj
 ===================================================================
---- sources/screensavers/ShadeWorm/ShadeWorm.vcproj	(revision 33032)
+--- sources/screensavers/ShadeWorm/ShadeWorm.vcproj	(revision 33042)
 +++ sources/screensavers/ShadeWorm/ShadeWorm.vcproj	(working copy)
 @@ -69,7 +69,7 @@
  			<Tool
@@ -1001,7 +1001,7 @@ Index: sources/screensavers/ShadeWorm/ShadeWorm.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/screensavers/Stars/Stars.cpp
 ===================================================================
---- sources/screensavers/Stars/Stars.cpp	(revision 33032)
+--- sources/screensavers/Stars/Stars.cpp	(revision 33042)
 +++ sources/screensavers/Stars/Stars.cpp	(working copy)
 @@ -110,7 +110,7 @@
  	CXmlDocument doc;
@@ -1014,7 +1014,7 @@ Index: sources/screensavers/Stars/Stars.cpp
  
 Index: sources/screensavers/Stars/Stars.vcproj
 ===================================================================
---- sources/screensavers/Stars/Stars.vcproj	(revision 33032)
+--- sources/screensavers/Stars/Stars.vcproj	(revision 33042)
 +++ sources/screensavers/Stars/Stars.vcproj	(working copy)
 @@ -69,7 +69,7 @@
  				Name="VCCLCompilerTool"
@@ -1027,7 +1027,7 @@ Index: sources/screensavers/Stars/Stars.vcproj
  				BufferSecurityCheck="FALSE"
 Index: sources/visualisations/Milkdrop
 ===================================================================
---- sources/visualisations/Milkdrop	(revision 33032)
+--- sources/visualisations/Milkdrop	(revision 33042)
 +++ sources/visualisations/Milkdrop	(working copy)
 
 Property changes on: sources/visualisations/Milkdrop
@@ -1038,7 +1038,7 @@ Added: svn:ignore
 +Plugin.suo
 Index: sources/visualisations/Milkdrop/MilkdropXBMC.cpp
 ===================================================================
---- sources/visualisations/Milkdrop/MilkdropXBMC.cpp	(revision 33032)
+--- sources/visualisations/Milkdrop/MilkdropXBMC.cpp	(revision 33042)
 +++ sources/visualisations/Milkdrop/MilkdropXBMC.cpp	(working copy)
 @@ -106,7 +106,7 @@
    int numPacks = 0;
@@ -1105,7 +1105,7 @@ Index: sources/visualisations/Milkdrop/MilkdropXBMC.cpp
        strcat(g_plugin->m_szPresetDir,  setting.entry[setting.current]);
 Index: sources/visualisations/Milkdrop/Plugin.vcproj
 ===================================================================
---- sources/visualisations/Milkdrop/Plugin.vcproj	(revision 33032)
+--- sources/visualisations/Milkdrop/Plugin.vcproj	(revision 33042)
 +++ sources/visualisations/Milkdrop/Plugin.vcproj	(working copy)
 @@ -19,7 +19,7 @@
  			<Tool
@@ -1127,7 +1127,7 @@ Index: sources/visualisations/Milkdrop/Plugin.vcproj
  				UsePrecompiledHeader="0"
 Index: sources/visualisations/Milkdrop/vis_milkdrop/pluginshell.cpp
 ===================================================================
---- sources/visualisations/Milkdrop/vis_milkdrop/pluginshell.cpp	(revision 33032)
+--- sources/visualisations/Milkdrop/vis_milkdrop/pluginshell.cpp	(revision 33042)
 +++ sources/visualisations/Milkdrop/vis_milkdrop/pluginshell.cpp	(working copy)
 @@ -1006,7 +1006,7 @@
  //        char *p = m_szPluginsDirPath + strlen(m_szPluginsDirPath);
@@ -1140,7 +1140,7 @@ Index: sources/visualisations/Milkdrop/vis_milkdrop/pluginshell.cpp
      sprintf(m_szConfigIniFile, "%s%s", m_szPluginsDirPath, INIFILE);
 Index: xbelogo
 ===================================================================
---- xbelogo	(revision 33032)
+--- xbelogo	(revision 33042)
 +++ xbelogo	(working copy)
 
 Property changes on: xbelogo
@@ -1159,59 +1159,17 @@ Index: xbelogo/saveimage.bmp
 ===================================================================
 Cannot display: file marked as a binary type.
 svn:mime-type = application/octet-stream
-Index: xbelogo/saveimage.h
-===================================================================
---- xbelogo/saveimage.h	(nonexistent)
-+++ xbelogo/saveimage.h	(working copy)
-@@ -0,0 +1,5 @@
-+// Automatically generated by the bundler tool from xbelogo\saveimage.rdf
-+
-+#define saveimage_NUM_RESOURCES 1UL
-+
-+#define saveimage_saveimage_OFFSET 0UL
-Index: xbelogo/saveimage.xbx
-===================================================================
-Cannot display: file marked as a binary type.
-svn:mime-type = application/octet-stream
-
-Property changes on: xbelogo/saveimage.xbx
-___________________________________________________________________
-Added: svn:mime-type
-## -0,0 +1 ##
-+application/octet-stream
-\ No newline at end of property
 Index: xbelogo/titleimage.bmp
 ===================================================================
 Cannot display: file marked as a binary type.
 svn:mime-type = application/octet-stream
-Index: xbelogo/titleimage.h
-===================================================================
---- xbelogo/titleimage.h	(nonexistent)
-+++ xbelogo/titleimage.h	(working copy)
-@@ -0,0 +1,5 @@
-+// Automatically generated by the bundler tool from xbelogo\titleimage.rdf
-+
-+#define titleimage_NUM_RESOURCES 1UL
-+
-+#define titleimage_titleimage_OFFSET 0UL
 Index: xbelogo/titleimage.psd
 ===================================================================
 Cannot display: file marked as a binary type.
 svn:mime-type = application/octet-stream
-Index: xbelogo/titleimage.xbx
-===================================================================
-Cannot display: file marked as a binary type.
-svn:mime-type = application/octet-stream
-
-Property changes on: xbelogo/titleimage.xbx
-___________________________________________________________________
-Added: svn:mime-type
-## -0,0 +1 ##
-+application/octet-stream
-\ No newline at end of property
 Index: xbmc.vcproj
 ===================================================================
---- xbmc.vcproj	(revision 33032)
+--- xbmc.vcproj	(revision 33042)
 +++ xbmc.vcproj	(working copy)
 @@ -58,6 +58,7 @@
  				Name="VCPreLinkEventTool"/>
@@ -1268,7 +1226,17 @@ Index: xbmc.vcproj
  				TitleImage="$(ProjectDir)xbelogo\titleimage.xbx"
  				SaveGameImage="$(ProjectDir)xbelogo\saveimage.xbx"/>
  		</Configuration>
-@@ -320,9 +322,9 @@
+@@ -313,7 +315,8 @@
+ 			<Tool
+ 				Name="VCPreLinkEventTool"/>
+ 			<Tool
+-				Name="XboxDeploymentTool"/>
++				Name="XboxDeploymentTool"
++				ExcludedFromBuild="TRUE"/>
+ 			<Tool
+ 				Name="XboxImageTool"
+ 				FileName="$(TargetDir)default.xbe"
+@@ -320,9 +323,9 @@
  				StackSize="0x80000"
  				InsertFile=".\media\dsstdfx.bin,dsstdfx,r"
  				NoPreload="LIBXBMS;LIBSMB;ISO9660;LIBHTTP;LIBMP4;LIBXDAAP;PLATINUM;LCODE"
@@ -1280,7 +1248,7 @@ Index: xbmc.vcproj
  		</Configuration>
  		<Configuration
  			Name="Debug Xbox No Memory Tracking|Xbox"
-@@ -379,9 +381,9 @@
+@@ -379,9 +382,9 @@
  				InsertFile=".\media\dsstdfx.bin,dsstdfx,r"
  				NoLibWarn="TRUE"
  				NoPreload="LIBXBMS;LIBSMB;ISO9660;LIBHTTP;LIBMP4;LIBXDAAP;PLATINUM;LCODE"
@@ -1294,7 +1262,7 @@ Index: xbmc.vcproj
  	<References>
 Index: xbmc/AddonDatabase.cpp
 ===================================================================
---- xbmc/AddonDatabase.cpp	(revision 33032)
+--- xbmc/AddonDatabase.cpp	(revision 33042)
 +++ xbmc/AddonDatabase.cpp	(working copy)
 @@ -29,13 +29,13 @@
   */
@@ -1314,7 +1282,7 @@ Index: xbmc/AddonDatabase.cpp
      scriptName.Replace(".", " ");
 Index: xbmc/Application.cpp
 ===================================================================
---- xbmc/Application.cpp	(revision 33032)
+--- xbmc/Application.cpp	(revision 33042)
 +++ xbmc/Application.cpp	(working copy)
 @@ -1,22 +1,22 @@
  /*
@@ -2228,7 +2196,7 @@ Index: xbmc/Application.cpp
  }
  
  #ifdef _XBOX
-@@ -716,798 +732,890 @@
+@@ -716,798 +732,905 @@
  {
  
  #ifdef HAS_XBOX_HARDWARE
@@ -3398,6 +3366,21 @@ Index: xbmc/Application.cpp
 +		g_guiSettings.m_LookAndFeelResolution = res;
 +		// CUtil::BootToDash();
 +	}
++	if (m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_X] && m_DefaultGamepad.bAnalogButtons[XINPUT_GAMEPAD_B])
++	{
++		g_advancedSettings.m_logLevel = LOG_LEVEL_DEBUG_FREEMEM;
++		CLog::SetLogLevel(g_advancedSettings.m_logLevel);
++		CLog::Log(LOGINFO, "Key combination detected for disable advance video modes (X+B)");
++		g_guiSettings.SetBool("videooutput.hd480p", false);
++		g_guiSettings.SetBool("videooutput.hd720p", false);
++		g_guiSettings.SetBool("videooutput.hd1080i", false);
++		RESOLUTION res = NTSC_4x3;
++		g_guiSettings.SetInt("videoscreen.resolution", res);
++		//set the gui resolution, if newRes is AUTORES newRes will be set to the highest available resolution
++		g_graphicsContext.SetVideoResolution(res, TRUE);
++		//set our lookandfeelres to the resolution set in graphiccontext
++		g_guiSettings.m_LookAndFeelResolution = res;
++	}
  
 -  g_windowManager.Add(new CGUIDialogSelect);             // window id = 2000
 -  g_windowManager.Add(new CGUIWindowMusicInfo);                // window id = 2001
@@ -3764,7 +3747,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1514,27 +1622,27 @@
+@@ -1514,27 +1637,27 @@
  void CApplication::StopFtpServer()
  {
  #ifdef HAS_FTP_SERVER
@@ -3809,7 +3792,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1541,17 +1649,17 @@
+@@ -1541,17 +1664,17 @@
  void CApplication::StartTimeServer()
  {
  #ifdef HAS_TIME_SERVER
@@ -3837,7 +3820,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1558,12 +1666,12 @@
+@@ -1558,12 +1681,12 @@
  void CApplication::StopTimeServer()
  {
  #ifdef HAS_TIME_SERVER
@@ -3856,7 +3839,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1570,8 +1678,8 @@
+@@ -1570,8 +1693,8 @@
  void CApplication::StartUPnP()
  {
  #ifdef HAS_UPNP
@@ -3867,7 +3850,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1578,11 +1686,11 @@
+@@ -1578,11 +1701,11 @@
  void CApplication::StopUPnP(bool bWait)
  {
  #ifdef HAS_UPNP
@@ -3884,7 +3867,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1589,17 +1697,17 @@
+@@ -1589,17 +1712,17 @@
  void CApplication::StartEventServer()
  {
  #ifdef HAS_EVENT_SERVER
@@ -3913,7 +3896,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1606,43 +1714,43 @@
+@@ -1606,43 +1729,43 @@
  bool CApplication::StopEventServer(bool promptuser)
  {
  #ifdef HAS_EVENT_SERVER
@@ -3988,7 +3971,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1649,11 +1757,11 @@
+@@ -1649,11 +1772,11 @@
  void CApplication::StartUPnPRenderer()
  {
  #ifdef HAS_UPNP
@@ -4005,7 +3988,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1660,11 +1768,11 @@
+@@ -1660,11 +1783,11 @@
  void CApplication::StopUPnPRenderer()
  {
  #ifdef HAS_UPNP
@@ -4022,7 +4005,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1671,11 +1779,11 @@
+@@ -1671,11 +1794,11 @@
  void CApplication::StartUPnPServer()
  {
  #ifdef HAS_UPNP
@@ -4039,7 +4022,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1682,11 +1790,11 @@
+@@ -1682,11 +1805,11 @@
  void CApplication::StopUPnPServer()
  {
  #ifdef HAS_UPNP
@@ -4056,7 +4039,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1693,17 +1801,17 @@
+@@ -1693,17 +1816,17 @@
  void CApplication::StartLEDControl(bool switchoff)
  {
  #ifdef HAS_XBOX_HARDWARE
@@ -4085,7 +4068,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1710,17 +1818,17 @@
+@@ -1710,17 +1833,17 @@
  void CApplication::DimLCDOnPlayback(bool dim)
  {
  #ifdef HAS_LCD
@@ -4114,7 +4097,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1727,4118 +1835,4240 @@
+@@ -1727,4118 +1850,4240 @@
  void CApplication::StartServices()
  {
  #ifdef HAS_XBOX_HARDWARE
@@ -11901,7 +11884,7 @@ Index: xbmc/Application.cpp
 +	}
 Index: xbmc/Application.h
 ===================================================================
---- xbmc/Application.h	(revision 33032)
+--- xbmc/Application.h	(revision 33042)
 +++ xbmc/Application.h	(working copy)
 @@ -100,6 +100,7 @@
    void LoadSkin(const CStdString& strSkin);
@@ -11913,7 +11896,7 @@ Index: xbmc/Application.h
    void ReloadSkin();
 Index: xbmc/ApplicationMessenger.cpp
 ===================================================================
---- xbmc/ApplicationMessenger.cpp	(revision 33032)
+--- xbmc/ApplicationMessenger.cpp	(revision 33042)
 +++ xbmc/ApplicationMessenger.cpp	(working copy)
 @@ -382,8 +382,8 @@
          if (pMsg->dwMessage == TMSG_SLIDESHOW_SCREENSAVER &&
@@ -11928,7 +11911,7 @@ Index: xbmc/ApplicationMessenger.cpp
            CUtil::GetRecursiveListing(strPath, items, g_settings.m_pictureExtensions);
 Index: xbmc/cores/DllLoader/exports/emu_msvcrt.cpp
 ===================================================================
---- xbmc/cores/DllLoader/exports/emu_msvcrt.cpp	(revision 33032)
+--- xbmc/cores/DllLoader/exports/emu_msvcrt.cpp	(revision 33042)
 +++ xbmc/cores/DllLoader/exports/emu_msvcrt.cpp	(working copy)
 @@ -531,7 +531,7 @@
        // it might be something else than a file, or the file is not emulated
@@ -11968,7 +11951,7 @@ Index: xbmc/cores/DllLoader/exports/emu_msvcrt.cpp
  #endif
 Index: xbmc/cores/dvdplayer/Codecs/ffmpeg/libavformat/xmv.c
 ===================================================================
---- xbmc/cores/dvdplayer/Codecs/ffmpeg/libavformat/xmv.c	(revision 33032)
+--- xbmc/cores/dvdplayer/Codecs/ffmpeg/libavformat/xmv.c	(revision 33042)
 +++ xbmc/cores/dvdplayer/Codecs/ffmpeg/libavformat/xmv.c	(working copy)
 @@ -19,24 +19,18 @@
   * License along with FFmpeg; if not, write to the Free Software
@@ -12520,7 +12503,7 @@ Index: xbmc/cores/dvdplayer/Codecs/ffmpeg/libavformat/xmv.c
 \ No newline at end of file
 Index: xbmc/cores/dvdplayer/DVDSubtitles/DVDSubtitlesLibass.cpp
 ===================================================================
---- xbmc/cores/dvdplayer/DVDSubtitles/DVDSubtitlesLibass.cpp	(revision 33032)
+--- xbmc/cores/dvdplayer/DVDSubtitles/DVDSubtitlesLibass.cpp	(revision 33042)
 +++ xbmc/cores/dvdplayer/DVDSubtitles/DVDSubtitlesLibass.cpp	(working copy)
 @@ -41,7 +41,7 @@
    }
@@ -12542,7 +12525,7 @@ Index: xbmc/cores/dvdplayer/DVDSubtitles/DVDSubtitlesLibass.cpp
    m_dll.ass_set_use_margins(m_renderer, 0);
 Index: xbmc/Credits.cpp
 ===================================================================
---- xbmc/Credits.cpp	(revision 33032)
+--- xbmc/Credits.cpp	(revision 33042)
 +++ xbmc/Credits.cpp	(working copy)
 @@ -1085,7 +1085,7 @@
      if (Fonts.find(Credits[i].Font) == Fonts.end())
@@ -12555,7 +12538,7 @@ Index: xbmc/Credits.cpp
        CGUIFont *font = g_fontManager.LoadTTF(strFont, fontPath, 0xFFdadada, 0, Credits[i].Font, FONT_STYLE_BOLD);
 Index: xbmc/dialogs/GUIDialogContextMenu.h
 ===================================================================
---- xbmc/dialogs/GUIDialogContextMenu.h	(revision 33032)
+--- xbmc/dialogs/GUIDialogContextMenu.h	(revision 33042)
 +++ xbmc/dialogs/GUIDialogContextMenu.h	(working copy)
 @@ -28,6 +28,12 @@
                        CONTEXT_BUTTON_LAUNCH,
@@ -12572,7 +12555,7 @@ Index: xbmc/dialogs/GUIDialogContextMenu.h
                        CONTEXT_BUTTON_COPY,
 Index: xbmc/dialogs/GUIDialogFavourites.cpp
 ===================================================================
---- xbmc/dialogs/GUIDialogFavourites.cpp	(revision 33032)
+--- xbmc/dialogs/GUIDialogFavourites.cpp	(revision 33042)
 +++ xbmc/dialogs/GUIDialogFavourites.cpp	(working copy)
 @@ -25,7 +25,11 @@
  #include "GUIDialogKeyboard.h"
@@ -12690,7 +12673,7 @@ Index: xbmc/dialogs/GUIDialogFavourites.cpp
  void CGUIDialogFavourites::UpdateList()
 Index: xbmc/dialogs/GUIDialogFavourites.h
 ===================================================================
---- xbmc/dialogs/GUIDialogFavourites.h	(revision 33032)
+--- xbmc/dialogs/GUIDialogFavourites.h	(revision 33042)
 +++ xbmc/dialogs/GUIDialogFavourites.h	(working copy)
 @@ -45,6 +45,8 @@
    void OnMoveItem(int item, int amount);
@@ -12703,7 +12686,7 @@ Index: xbmc/dialogs/GUIDialogFavourites.h
    CFileItemList* m_favourites;
 Index: xbmc/dialogs/GUIDialogMediaSource.cpp
 ===================================================================
---- xbmc/dialogs/GUIDialogMediaSource.cpp	(revision 33032)
+--- xbmc/dialogs/GUIDialogMediaSource.cpp	(revision 33042)
 +++ xbmc/dialogs/GUIDialogMediaSource.cpp	(working copy)
 @@ -408,7 +408,7 @@
      if (share.strPath.Left(9).Equals("plugin://"))
@@ -12716,7 +12699,7 @@ Index: xbmc/dialogs/GUIDialogMediaSource.cpp
        if (!item.HasThumbnail())
 Index: xbmc/dialogs/GUIDialogPluginSettings.cpp
 ===================================================================
---- xbmc/dialogs/GUIDialogPluginSettings.cpp	(revision 33032)
+--- xbmc/dialogs/GUIDialogPluginSettings.cpp	(revision 33042)
 +++ xbmc/dialogs/GUIDialogPluginSettings.cpp	(working copy)
 @@ -881,7 +881,7 @@
    {
@@ -12729,7 +12712,7 @@ Index: xbmc/dialogs/GUIDialogPluginSettings.cpp
  
 Index: xbmc/dialogs/GUIDialogYesNo.cpp
 ===================================================================
---- xbmc/dialogs/GUIDialogYesNo.cpp	(revision 33032)
+--- xbmc/dialogs/GUIDialogYesNo.cpp	(revision 33042)
 +++ xbmc/dialogs/GUIDialogYesNo.cpp	(working copy)
 @@ -120,3 +120,17 @@
    return (dialog->IsConfirmed()) ? true : false;
@@ -12751,7 +12734,7 @@ Index: xbmc/dialogs/GUIDialogYesNo.cpp
 +
 Index: xbmc/dialogs/GUIDialogYesNo.h
 ===================================================================
---- xbmc/dialogs/GUIDialogYesNo.h	(revision 33032)
+--- xbmc/dialogs/GUIDialogYesNo.h	(revision 33042)
 +++ xbmc/dialogs/GUIDialogYesNo.h	(working copy)
 @@ -36,6 +36,7 @@
    static bool ShowAndGetInput(int heading, int line0, int line1, int line2, int iNoLabel, int iYesLabel, bool& bCanceled, unsigned int autoCloseTime = 0);
@@ -12763,7 +12746,7 @@ Index: xbmc/dialogs/GUIDialogYesNo.h
  };
 Index: xbmc/Favourites.cpp
 ===================================================================
---- xbmc/Favourites.cpp	(revision 33032)
+--- xbmc/Favourites.cpp	(revision 33042)
 +++ xbmc/Favourites.cpp	(working copy)
 @@ -128,7 +128,7 @@
    }
@@ -12776,7 +12759,7 @@ Index: xbmc/Favourites.cpp
      favourite->SetThumbnailImage(item->GetThumbnailImage());
 Index: xbmc/FileSystem/PluginDirectory.cpp
 ===================================================================
---- xbmc/FileSystem/PluginDirectory.cpp	(revision 33032)
+--- xbmc/FileSystem/PluginDirectory.cpp	(revision 33042)
 +++ xbmc/FileSystem/PluginDirectory.cpp	(working copy)
 @@ -76,8 +76,8 @@
  
@@ -12847,7 +12830,7 @@ Index: xbmc/FileSystem/PluginDirectory.cpp
  
 Index: xbmc/FileSystem/SpecialProtocol.cpp
 ===================================================================
---- xbmc/FileSystem/SpecialProtocol.cpp	(revision 33032)
+--- xbmc/FileSystem/SpecialProtocol.cpp	(revision 33042)
 +++ xbmc/FileSystem/SpecialProtocol.cpp	(working copy)
 @@ -26,6 +26,7 @@
  #include "settings/GUISettings.h"
@@ -12929,7 +12912,7 @@ Index: xbmc/FileSystem/SpecialProtocol.cpp
  }
 Index: xbmc/FileSystem/SpecialProtocol.h
 ===================================================================
---- xbmc/FileSystem/SpecialProtocol.h	(revision 33032)
+--- xbmc/FileSystem/SpecialProtocol.h	(revision 33042)
 +++ xbmc/FileSystem/SpecialProtocol.h	(working copy)
 @@ -55,6 +55,11 @@
    static void SetProfilePath(const CStdString &path);
@@ -12945,7 +12928,7 @@ Index: xbmc/FileSystem/SpecialProtocol.h
    static void SetTempPath(const CStdString &path);
 Index: xbmc/GUIInfoManager.cpp
 ===================================================================
---- xbmc/GUIInfoManager.cpp	(revision 33032)
+--- xbmc/GUIInfoManager.cpp	(revision 33042)
 +++ xbmc/GUIInfoManager.cpp	(working copy)
 @@ -362,6 +362,7 @@
      else if (strTest.Equals("system.dvdready")) ret = SYSTEM_DVDREADY;
@@ -13024,7 +13007,7 @@ Index: xbmc/GUIInfoManager.cpp
      break;
 Index: xbmc/GUIInfoManager.h
 ===================================================================
---- xbmc/GUIInfoManager.h	(revision 33032)
+--- xbmc/GUIInfoManager.h	(revision 33042)
 +++ xbmc/GUIInfoManager.h	(working copy)
 @@ -142,6 +142,7 @@
  #define SYSTEM_CURRENT_CONTROL      136
@@ -13052,7 +13035,7 @@ Index: xbmc/GUIInfoManager.h
  #define LIBRARY_HAS_VIDEO           721
 Index: xbmc/guilib
 ===================================================================
---- xbmc/guilib	(revision 33032)
+--- xbmc/guilib	(revision 33042)
 +++ xbmc/guilib	(working copy)
 
 Property changes on: xbmc/guilib
@@ -13065,7 +13048,7 @@ Modified: svn:ignore
 +GUIControlFactory.cpp left right
 Index: xbmc/guilib/GUIAudioManager.cpp
 ===================================================================
---- xbmc/guilib/GUIAudioManager.cpp	(revision 33032)
+--- xbmc/guilib/GUIAudioManager.cpp	(revision 33042)
 +++ xbmc/guilib/GUIAudioManager.cpp	(working copy)
 @@ -1,22 +1,22 @@
  /*
@@ -13743,7 +13726,7 @@ Index: xbmc/guilib/GUIAudioManager.cpp
  }
 Index: xbmc/guilib/GUIBaseContainer.cpp
 ===================================================================
---- xbmc/guilib/GUIBaseContainer.cpp	(revision 33032)
+--- xbmc/guilib/GUIBaseContainer.cpp	(revision 33042)
 +++ xbmc/guilib/GUIBaseContainer.cpp	(working copy)
 @@ -330,6 +330,17 @@
        SelectItem(message.GetParam1());
@@ -13765,7 +13748,7 @@ Index: xbmc/guilib/GUIBaseContainer.cpp
        message.SetParam1(GetSelectedItem());
 Index: xbmc/guilib/GUIBaseContainer.h
 ===================================================================
---- xbmc/guilib/GUIBaseContainer.h	(revision 33032)
+--- xbmc/guilib/GUIBaseContainer.h	(revision 33042)
 +++ xbmc/guilib/GUIBaseContainer.h	(working copy)
 @@ -184,6 +184,13 @@
    float m_scrollItemsPerFrame;
@@ -13783,7 +13766,7 @@ Index: xbmc/guilib/GUIBaseContainer.h
  
 Index: xbmc/guilib/GUIColorManager.cpp
 ===================================================================
---- xbmc/guilib/GUIColorManager.cpp	(revision 33032)
+--- xbmc/guilib/GUIColorManager.cpp	(revision 33042)
 +++ xbmc/guilib/GUIColorManager.cpp	(working copy)
 @@ -23,7 +23,11 @@
  #include "utils/URIUtils.h"
@@ -15258,7 +15241,7 @@ Index: xbmc/guilib/GUIControlFactory left right.cpp
 +}
 Index: xbmc/guilib/GUIControlFactory.cpp
 ===================================================================
---- xbmc/guilib/GUIControlFactory.cpp	(revision 33032)
+--- xbmc/guilib/GUIControlFactory.cpp	(revision 33042)
 +++ xbmc/guilib/GUIControlFactory.cpp	(working copy)
 @@ -728,17 +728,42 @@
    // TODO: Perhaps we should check here whether id is valid for focusable controls
@@ -15372,7 +15355,7 @@ Index: xbmc/guilib/GUIControlFactory.cpp
          v *= (float)g_settings.m_ResInfo[destRes].iHeight / g_settings.m_ResInfo[fileRes].iHeight;
 Index: xbmc/guilib/GUIFixedListContainer.cpp
 ===================================================================
---- xbmc/guilib/GUIFixedListContainer.cpp	(revision 33032)
+--- xbmc/guilib/GUIFixedListContainer.cpp	(revision 33042)
 +++ xbmc/guilib/GUIFixedListContainer.cpp	(working copy)
 @@ -23,6 +23,8 @@
  #include "GUIListItem.h"
@@ -15457,7 +15440,7 @@ Index: xbmc/guilib/GUIFixedListContainer.cpp
    return CGUIBaseContainer::OnAction(action);
 Index: xbmc/guilib/GUIFontManager.cpp
 ===================================================================
---- xbmc/guilib/GUIFontManager.cpp	(revision 33032)
+--- xbmc/guilib/GUIFontManager.cpp	(revision 33042)
 +++ xbmc/guilib/GUIFontManager.cpp	(working copy)
 @@ -31,6 +31,7 @@
  #include "utils/StringUtils.h"
@@ -15509,7 +15492,7 @@ Index: xbmc/guilib/GUIFontManager.cpp
        }
 Index: xbmc/guilib/GUIListContainer.cpp
 ===================================================================
---- xbmc/guilib/GUIListContainer.cpp	(revision 33032)
+--- xbmc/guilib/GUIListContainer.cpp	(revision 33042)
 +++ xbmc/guilib/GUIListContainer.cpp	(working copy)
 @@ -23,6 +23,8 @@
  #include "GUIListItem.h"
@@ -15608,7 +15591,7 @@ Index: xbmc/guilib/GUIListContainer.cpp
    return CGUIBaseContainer::OnAction(action);
 Index: xbmc/guilib/GUIListLabel.cpp
 ===================================================================
---- xbmc/guilib/GUIListLabel.cpp	(revision 33032)
+--- xbmc/guilib/GUIListLabel.cpp	(revision 33042)
 +++ xbmc/guilib/GUIListLabel.cpp	(working copy)
 @@ -19,6 +19,7 @@
   */
@@ -15646,7 +15629,7 @@ Index: xbmc/guilib/GUIListLabel.cpp
  
 Index: xbmc/guilib/GUIPanelContainer.cpp
 ===================================================================
---- xbmc/guilib/GUIPanelContainer.cpp	(revision 33032)
+--- xbmc/guilib/GUIPanelContainer.cpp	(revision 33042)
 +++ xbmc/guilib/GUIPanelContainer.cpp	(working copy)
 @@ -23,6 +23,8 @@
  #include "GUIListItem.h"
@@ -15675,7 +15658,7 @@ Index: xbmc/guilib/GUIPanelContainer.cpp
  int CGUIPanelContainer::CorrectOffset(int offset, int cursor) const
 Index: xbmc/guilib/GUIStaticItem.cpp
 ===================================================================
---- xbmc/guilib/GUIStaticItem.cpp	(revision 33032)
+--- xbmc/guilib/GUIStaticItem.cpp	(revision 33042)
 +++ xbmc/guilib/GUIStaticItem.cpp	(working copy)
 @@ -35,11 +35,18 @@
    const TiXmlNode *click = item->FirstChild("onclick");
@@ -15764,7 +15747,7 @@ Index: xbmc/guilib/GUIStaticItem.cpp
    }
 Index: xbmc/guilib/GUIVisualisationControl.cpp
 ===================================================================
---- xbmc/guilib/GUIVisualisationControl.cpp	(revision 33032)
+--- xbmc/guilib/GUIVisualisationControl.cpp	(revision 33042)
 +++ xbmc/guilib/GUIVisualisationControl.cpp	(working copy)
 @@ -161,7 +161,7 @@
  
@@ -15777,7 +15760,7 @@ Index: xbmc/guilib/GUIVisualisationControl.cpp
    {
 Index: xbmc/guilib/GUIWrappingListContainer.cpp
 ===================================================================
---- xbmc/guilib/GUIWrappingListContainer.cpp	(revision 33032)
+--- xbmc/guilib/GUIWrappingListContainer.cpp	(revision 33042)
 +++ xbmc/guilib/GUIWrappingListContainer.cpp	(working copy)
 @@ -22,6 +22,8 @@
  #include "GUIWrappingListContainer.h"
@@ -15862,7 +15845,7 @@ Index: xbmc/guilib/GUIWrappingListContainer.cpp
    return CGUIBaseContainer::OnAction(action);
 Index: xbmc/guilib/SkinInfo.cpp
 ===================================================================
---- xbmc/guilib/SkinInfo.cpp	(revision 33032)
+--- xbmc/guilib/SkinInfo.cpp	(revision 33042)
 +++ xbmc/guilib/SkinInfo.cpp	(working copy)
 @@ -38,7 +38,7 @@
  
@@ -15953,7 +15936,7 @@ Index: xbmc/guilib/SkinInfo.cpp
        res = HDTV_1080i;
 Index: xbmc/guilib/TextureBundle.cpp
 ===================================================================
---- xbmc/guilib/TextureBundle.cpp	(revision 33032)
+--- xbmc/guilib/TextureBundle.cpp	(revision 33042)
 +++ xbmc/guilib/TextureBundle.cpp	(working copy)
 @@ -114,9 +114,10 @@
      // if we are the theme bundle, we only load if the user has chosen
@@ -16011,7 +15994,7 @@ Index: xbmc/guilib/TextureBundle.cpp
  
 Index: xbmc/guilib/TextureManager.cpp
 ===================================================================
---- xbmc/guilib/TextureManager.cpp	(revision 33032)
+--- xbmc/guilib/TextureManager.cpp	(revision 33042)
 +++ xbmc/guilib/TextureManager.cpp	(working copy)
 @@ -33,6 +33,7 @@
  #include "../xbmc/FileSystem/Directory.h"
@@ -16021,7 +16004,7 @@ Index: xbmc/guilib/TextureManager.cpp
  
  #ifdef HAS_XBOX_D3D
  #include <XGraphics.h>
-@@ -780,8 +781,12 @@
+@@ -769,8 +770,12 @@
    { // texture doesn't include the full path, so check all fallbacks
      for (vector<CStdString>::iterator it = m_texturePaths.begin(); it != m_texturePaths.end(); ++it)
      {
@@ -16037,7 +16020,7 @@ Index: xbmc/guilib/TextureManager.cpp
          if (XFILE::CDirectory::Exists(path))
 Index: xbmc/GUIViewStateScripts.cpp
 ===================================================================
---- xbmc/GUIViewStateScripts.cpp	(revision 33032)
+--- xbmc/GUIViewStateScripts.cpp	(revision 33042)
 +++ xbmc/GUIViewStateScripts.cpp	(working copy)
 @@ -71,9 +71,9 @@
    else
@@ -16053,7 +16036,7 @@ Index: xbmc/GUIViewStateScripts.cpp
  
 Index: xbmc/GUIWindowGameSaves.cpp
 ===================================================================
---- xbmc/GUIWindowGameSaves.cpp	(revision 33032)
+--- xbmc/GUIWindowGameSaves.cpp	(revision 33042)
 +++ xbmc/GUIWindowGameSaves.cpp	(working copy)
 @@ -40,7 +40,6 @@
  #include "utils/CharsetConverter.h"
@@ -16085,7 +16068,7 @@ Index: xbmc/GUIWindowGameSaves.cpp
          formatter.FormatLabel2(item.get());
 Index: xbmc/GUIWindowScripts.cpp
 ===================================================================
---- xbmc/GUIWindowScripts.cpp	(revision 33032)
+--- xbmc/GUIWindowScripts.cpp	(revision 33042)
 +++ xbmc/GUIWindowScripts.cpp	(working copy)
 @@ -67,7 +67,7 @@
    case GUI_MSG_WINDOW_INIT:
@@ -16098,7 +16081,7 @@ Index: xbmc/GUIWindowScripts.cpp
      }
 Index: xbmc/interfaces/Builtins.cpp
 ===================================================================
---- xbmc/interfaces/Builtins.cpp	(revision 33032)
+--- xbmc/interfaces/Builtins.cpp	(revision 33042)
 +++ xbmc/interfaces/Builtins.cpp	(working copy)
 @@ -52,6 +52,8 @@
  #include "FileSystem/RarManager.h"
@@ -16240,7 +16223,7 @@ Index: xbmc/interfaces/Builtins.cpp
    else if (execute.Equals("skin.setstring") || execute.Equals("skin.setimage") || execute.Equals("skin.setfile") ||
 Index: xbmc/lib/cximage-6.0
 ===================================================================
---- xbmc/lib/cximage-6.0	(revision 33032)
+--- xbmc/lib/cximage-6.0	(revision 33042)
 +++ xbmc/lib/cximage-6.0	(working copy)
 
 Property changes on: xbmc/lib/cximage-6.0
@@ -16253,7 +16236,7 @@ Modified: svn:ignore
 +ImageLib.suo
 Index: xbmc/lib/cximage-6.0/jasper
 ===================================================================
---- xbmc/lib/cximage-6.0/jasper	(revision 33032)
+--- xbmc/lib/cximage-6.0/jasper	(revision 33042)
 +++ xbmc/lib/cximage-6.0/jasper	(working copy)
 
 Property changes on: xbmc/lib/cximage-6.0/jasper
@@ -16263,7 +16246,7 @@ Added: svn:ignore
 +Release
 Index: xbmc/lib/cximage-6.0/jpeg
 ===================================================================
---- xbmc/lib/cximage-6.0/jpeg	(revision 33032)
+--- xbmc/lib/cximage-6.0/jpeg	(revision 33042)
 +++ xbmc/lib/cximage-6.0/jpeg	(working copy)
 
 Property changes on: xbmc/lib/cximage-6.0/jpeg
@@ -16273,7 +16256,7 @@ Added: svn:ignore
 +Release
 Index: xbmc/lib/cximage-6.0/png
 ===================================================================
---- xbmc/lib/cximage-6.0/png	(revision 33032)
+--- xbmc/lib/cximage-6.0/png	(revision 33042)
 +++ xbmc/lib/cximage-6.0/png	(working copy)
 
 Property changes on: xbmc/lib/cximage-6.0/png
@@ -16283,7 +16266,7 @@ Added: svn:ignore
 +Release
 Index: xbmc/lib/cximage-6.0/raw
 ===================================================================
---- xbmc/lib/cximage-6.0/raw	(revision 33032)
+--- xbmc/lib/cximage-6.0/raw	(revision 33042)
 +++ xbmc/lib/cximage-6.0/raw	(working copy)
 
 Property changes on: xbmc/lib/cximage-6.0/raw
@@ -16293,7 +16276,7 @@ Added: svn:ignore
 +Release
 Index: xbmc/lib/cximage-6.0/zlib
 ===================================================================
---- xbmc/lib/cximage-6.0/zlib	(revision 33032)
+--- xbmc/lib/cximage-6.0/zlib	(revision 33042)
 +++ xbmc/lib/cximage-6.0/zlib	(working copy)
 
 Property changes on: xbmc/lib/cximage-6.0/zlib
@@ -16305,7 +16288,7 @@ Modified: svn:ignore
 +Release
 Index: xbmc/lib/libapetag
 ===================================================================
---- xbmc/lib/libapetag	(revision 33032)
+--- xbmc/lib/libapetag	(revision 33042)
 +++ xbmc/lib/libapetag	(working copy)
 
 Property changes on: xbmc/lib/libapetag
@@ -16315,7 +16298,7 @@ Added: svn:ignore
 +Release
 Index: xbmc/lib/libGoAhead/WebServer.h
 ===================================================================
---- xbmc/lib/libGoAhead/WebServer.h	(revision 33032)
+--- xbmc/lib/libGoAhead/WebServer.h	(revision 33042)
 +++ xbmc/lib/libGoAhead/WebServer.h	(working copy)
 @@ -63,7 +63,7 @@
  
@@ -16328,7 +16311,7 @@ Index: xbmc/lib/libGoAhead/WebServer.h
  	DWORD						SuspendThread();
 Index: xbmc/lib/libhts/Win32
 ===================================================================
---- xbmc/lib/libhts/Win32	(revision 33032)
+--- xbmc/lib/libhts/Win32	(revision 33042)
 +++ xbmc/lib/libhts/Win32	(working copy)
 
 Property changes on: xbmc/lib/libhts/Win32
@@ -16338,7 +16321,7 @@ Added: svn:ignore
 +Release
 Index: xbmc/lib/libPython
 ===================================================================
---- xbmc/lib/libPython	(revision 33032)
+--- xbmc/lib/libPython	(revision 33042)
 +++ xbmc/lib/libPython	(working copy)
 
 Property changes on: xbmc/lib/libPython
@@ -16348,7 +16331,7 @@ Added: svn:ignore
 +XBPyErrorPath.h
 Index: xbmc/lib/libPython/python/XBOXbuild
 ===================================================================
---- xbmc/lib/libPython/python/XBOXbuild	(revision 33032)
+--- xbmc/lib/libPython/python/XBOXbuild	(revision 33042)
 +++ xbmc/lib/libPython/python/XBOXbuild	(working copy)
 
 Property changes on: xbmc/lib/libPython/python/XBOXbuild
@@ -16360,7 +16343,7 @@ Added: svn:ignore
 +python.suo
 Index: xbmc/lib/libPython/xbmcmodule/controlimage.cpp
 ===================================================================
---- xbmc/lib/libPython/xbmcmodule/controlimage.cpp	(revision 33032)
+--- xbmc/lib/libPython/xbmcmodule/controlimage.cpp	(revision 33042)
 +++ xbmc/lib/libPython/xbmcmodule/controlimage.cpp	(working copy)
 @@ -107,7 +107,7 @@
      "filename       : string - image filename.\n"
@@ -16373,7 +16356,7 @@ Index: xbmc/lib/libPython/xbmcmodule/controlimage.cpp
    {
 Index: xbmc/lib/libPython/xbmcmodule/dialog.cpp
 ===================================================================
---- xbmc/lib/libPython/xbmcmodule/dialog.cpp	(revision 33032)
+--- xbmc/lib/libPython/xbmcmodule/dialog.cpp	(revision 33042)
 +++ xbmc/lib/libPython/xbmcmodule/dialog.cpp	(working copy)
 @@ -31,11 +31,11 @@
  #include "dialogs/GUIDialogProgress.h"
@@ -16446,7 +16429,7 @@ Index: xbmc/lib/libPython/xbmcmodule/dialog.cpp
  
 Index: xbmc/lib/libPython/xbmcmodule/language.cpp
 ===================================================================
---- xbmc/lib/libPython/xbmcmodule/language.cpp	(revision 33032)
+--- xbmc/lib/libPython/xbmcmodule/language.cpp	(revision 33042)
 +++ xbmc/lib/libPython/xbmcmodule/language.cpp	(working copy)
 @@ -66,7 +66,7 @@
  
@@ -16459,7 +16442,7 @@ Index: xbmc/lib/libPython/xbmcmodule/language.cpp
      URIUtils::AddFileToFolder(languagePath, "resources", languagePath);
 Index: xbmc/lib/libPython/xbmcmodule/listitem.cpp
 ===================================================================
---- xbmc/lib/libPython/xbmcmodule/listitem.cpp	(revision 33032)
+--- xbmc/lib/libPython/xbmcmodule/listitem.cpp	(revision 33042)
 +++ xbmc/lib/libPython/xbmcmodule/listitem.cpp	(working copy)
 @@ -851,7 +851,7 @@
      "       Once you use a keyword, all following arguments require the keyword.\n"
@@ -16472,7 +16455,7 @@ Index: xbmc/lib/libPython/xbmcmodule/listitem.cpp
    {
 Index: xbmc/lib/libPython/xbmcmodule/PythonSettings.cpp
 ===================================================================
---- xbmc/lib/libPython/xbmcmodule/PythonSettings.cpp	(revision 33032)
+--- xbmc/lib/libPython/xbmcmodule/PythonSettings.cpp	(revision 33042)
 +++ xbmc/lib/libPython/xbmcmodule/PythonSettings.cpp	(working copy)
 @@ -63,7 +63,7 @@
  
@@ -16503,7 +16486,7 @@ Index: xbmc/lib/libPython/xbmcmodule/PythonSettings.cpp
      "\n"
 Index: xbmc/lib/libPython/xbmcmodule/xbmcmodule.cpp
 ===================================================================
---- xbmc/lib/libPython/xbmcmodule/xbmcmodule.cpp	(revision 33032)
+--- xbmc/lib/libPython/xbmcmodule/xbmcmodule.cpp	(revision 33042)
 +++ xbmc/lib/libPython/xbmcmodule/xbmcmodule.cpp	(working copy)
 @@ -186,7 +186,7 @@
      "script         : string - script filename to execute.\n"
@@ -16543,7 +16526,7 @@ Index: xbmc/lib/libPython/xbmcmodule/xbmcmodule.cpp
  
 Index: xbmc/lib/libPython/xbmcmodule/xbmcplugin.cpp
 ===================================================================
---- xbmc/lib/libPython/xbmcmodule/xbmcplugin.cpp	(revision 33032)
+--- xbmc/lib/libPython/xbmcmodule/xbmcplugin.cpp	(revision 33042)
 +++ xbmc/lib/libPython/xbmcmodule/xbmcplugin.cpp	(working copy)
 @@ -462,7 +462,7 @@
      "*Note, You can use the above as keywords for arguments.\n"
@@ -16556,7 +16539,7 @@ Index: xbmc/lib/libPython/xbmcmodule/xbmcplugin.cpp
    {
 Index: xbmc/lib/libPython/XBPython.cpp
 ===================================================================
---- xbmc/lib/libPython/XBPython.cpp	(revision 33032)
+--- xbmc/lib/libPython/XBPython.cpp	(revision 33042)
 +++ xbmc/lib/libPython/XBPython.cpp	(working copy)
 @@ -30,6 +30,7 @@
  #include "python/Include/Python.h"
@@ -16625,7 +16608,7 @@ Index: xbmc/lib/libPython/XBPython.cpp
    if (bLogin)
 Index: xbmc/lib/libPython/XBPyThread.cpp
 ===================================================================
---- xbmc/lib/libPython/XBPyThread.cpp	(revision 33032)
+--- xbmc/lib/libPython/XBPyThread.cpp	(revision 33042)
 +++ xbmc/lib/libPython/XBPyThread.cpp	(working copy)
 @@ -25,6 +25,7 @@
  #include "XBPythonDll.h"
@@ -16729,7 +16712,7 @@ Index: xbmc/lib/libPython/XBPyThread.cpp
    PyThreadState_Swap(NULL);
 Index: xbmc/lib/UnrarXLib
 ===================================================================
---- xbmc/lib/UnrarXLib	(revision 33032)
+--- xbmc/lib/UnrarXLib	(revision 33042)
 +++ xbmc/lib/UnrarXLib	(working copy)
 
 Property changes on: xbmc/lib/UnrarXLib
@@ -16739,7 +16722,7 @@ Added: svn:ignore
 +Release
 Index: xbmc/music/windows/GUIWindowMusicNav.cpp
 ===================================================================
---- xbmc/music/windows/GUIWindowMusicNav.cpp	(revision 33032)
+--- xbmc/music/windows/GUIWindowMusicNav.cpp	(revision 33042)
 +++ xbmc/music/windows/GUIWindowMusicNav.cpp	(working copy)
 @@ -723,7 +723,7 @@
    CFileItemList items;
@@ -16752,7 +16735,7 @@ Index: xbmc/music/windows/GUIWindowMusicNav.cpp
    CStdString cachedThumb = item.GetCachedProgramThumb();
 Index: xbmc/pictures/Picture.cpp
 ===================================================================
---- xbmc/pictures/Picture.cpp	(revision 33032)
+--- xbmc/pictures/Picture.cpp	(revision 33042)
 +++ xbmc/pictures/Picture.cpp	(working copy)
 @@ -100,42 +100,48 @@
      }
@@ -16848,7 +16831,7 @@ Index: xbmc/pictures/Picture.cpp
  
 Index: xbmc/PluginSettings.cpp
 ===================================================================
---- xbmc/PluginSettings.cpp	(revision 33032)
+--- xbmc/PluginSettings.cpp	(revision 33042)
 +++ xbmc/PluginSettings.cpp	(working copy)
 @@ -149,7 +149,7 @@
    URIUtils::AddFileToFolder(m_userFileName, "settings.xml", m_userFileName);
@@ -16870,7 +16853,7 @@ Index: xbmc/PluginSettings.cpp
    URIUtils::AddFileToFolder(pluginFileName, url.GetHostName(), pluginFileName);
 Index: xbmc/programs/GUIWindowPrograms.cpp
 ===================================================================
---- xbmc/programs/GUIWindowPrograms.cpp	(revision 33032)
+--- xbmc/programs/GUIWindowPrograms.cpp	(revision 33042)
 +++ xbmc/programs/GUIWindowPrograms.cpp	(working copy)
 @@ -1,22 +1,22 @@
  /*
@@ -18393,7 +18376,7 @@ Index: xbmc/programs/GUIWindowPrograms.cpp
 \ No newline at end of file
 Index: xbmc/programs/GUIWindowPrograms.h
 ===================================================================
---- xbmc/programs/GUIWindowPrograms.h	(revision 33032)
+--- xbmc/programs/GUIWindowPrograms.h	(revision 33042)
 +++ xbmc/programs/GUIWindowPrograms.h	(working copy)
 @@ -25,6 +25,9 @@
  #include "dialogs/GUIDialogProgress.h"
@@ -18407,7 +18390,7 @@ Index: xbmc/programs/GUIWindowPrograms.h
  {
 Index: xbmc/ScriptSettings.cpp
 ===================================================================
---- xbmc/ScriptSettings.cpp	(revision 33032)
+--- xbmc/ScriptSettings.cpp	(revision 33042)
 +++ xbmc/ScriptSettings.cpp	(working copy)
 @@ -37,10 +37,10 @@
  
@@ -18424,7 +18407,7 @@ Index: xbmc/ScriptSettings.cpp
    }
 Index: xbmc/SectionLoader.cpp
 ===================================================================
---- xbmc/SectionLoader.cpp	(revision 33032)
+--- xbmc/SectionLoader.cpp	(revision 33042)
 +++ xbmc/SectionLoader.cpp	(working copy)
 @@ -29,7 +29,8 @@
  class CSectionLoader g_sectionLoader;
@@ -18438,7 +18421,7 @@ Index: xbmc/SectionLoader.cpp
  //#define LOGALL
 Index: xbmc/settings/AdvancedSettings.cpp
 ===================================================================
---- xbmc/settings/AdvancedSettings.cpp	(revision 33032)
+--- xbmc/settings/AdvancedSettings.cpp	(revision 33042)
 +++ xbmc/settings/AdvancedSettings.cpp	(working copy)
 @@ -101,6 +101,10 @@
    m_usePCDVDROM = false;
@@ -18482,7 +18465,7 @@ Index: xbmc/settings/AdvancedSettings.cpp
    g_guiSettings.LoadXML(pRootElement, true);  // true to hide the settings we read in
 Index: xbmc/settings/AdvancedSettings.h
 ===================================================================
---- xbmc/settings/AdvancedSettings.h	(revision 33032)
+--- xbmc/settings/AdvancedSettings.h	(revision 33042)
 +++ xbmc/settings/AdvancedSettings.h	(working copy)
 @@ -117,6 +117,10 @@
      bool m_usePCDVDROM;
@@ -18497,7 +18480,7 @@ Index: xbmc/settings/AdvancedSettings.h
      CStdString m_videoCleanDateTimeRegExp;
 Index: xbmc/settings/GUIDialogProfileSettings.cpp
 ===================================================================
---- xbmc/settings/GUIDialogProfileSettings.cpp	(revision 33032)
+--- xbmc/settings/GUIDialogProfileSettings.cpp	(revision 33042)
 +++ xbmc/settings/GUIDialogProfileSettings.cpp	(working copy)
 @@ -98,16 +98,25 @@
  {
@@ -18586,7 +18569,7 @@ Index: xbmc/settings/GUIDialogProfileSettings.cpp
          return false;*/
 Index: xbmc/settings/GUISettings.cpp
 ===================================================================
---- xbmc/settings/GUISettings.cpp	(revision 33032)
+--- xbmc/settings/GUISettings.cpp	(revision 33042)
 +++ xbmc/settings/GUISettings.cpp	(working copy)
 @@ -20,6 +20,8 @@
  
@@ -18680,6 +18663,15 @@ Index: xbmc/settings/GUISettings.cpp
    AddBool(1, "karaoke.enabled", 13323, false);
    AddBool(2, "karaoke.voiceenabled", 13361, false);
    AddInt(3, "karaoke.volume", 13376, 100, 0, 1, 100, SPIN_CONTROL_INT, MASK_PERCENT);
+@@ -329,7 +344,7 @@
+   AddInt(1, "videooutput.aspect", 21374, VIDEO_NORMAL, VIDEO_NORMAL, 1, VIDEO_WIDESCREEN, SPIN_CONTROL_TEXT);
+   AddBool(2,  "videooutput.hd480p", 21378, true);
+   AddBool(3,  "videooutput.hd720p", 21379, true);
+-  AddBool(4,  "videooutput.hd1080i", 21380, false);
++  // AddBool(4,  "videooutput.hd1080i", 21380, false);
+ 
+   AddCategory(4, "audiooutput", 772);
+   AddInt(3, "audiooutput.mode", 337, AUDIO_ANALOG, AUDIO_ANALOG, 1, AUDIO_DIGITAL, SPIN_CONTROL_TEXT);
 @@ -394,7 +409,8 @@
    AddInt(14, "cacheunknown.internet", 14060, 1024, 0, 256, 16384, SPIN_CONTROL_INT_PLUS, MASK_KB, TEXT_OFF);
  
@@ -18810,7 +18802,7 @@ Index: xbmc/settings/GUISettings.cpp
    AddString(3, "lookandfeel.skincolors",14078, "SKINDEFAULT", SPIN_CONTROL_TEXT);
 Index: xbmc/settings/GUIWindowSettingsCategory.cpp
 ===================================================================
---- xbmc/settings/GUIWindowSettingsCategory.cpp	(revision 33032)
+--- xbmc/settings/GUIWindowSettingsCategory.cpp	(revision 33042)
 +++ xbmc/settings/GUIWindowSettingsCategory.cpp	(working copy)
 @@ -104,10 +104,10 @@
  
@@ -23822,7 +23814,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  }
 Index: xbmc/settings/GUIWindowSettingsCategory.h
 ===================================================================
---- xbmc/settings/GUIWindowSettingsCategory.h	(revision 33032)
+--- xbmc/settings/GUIWindowSettingsCategory.h	(revision 33042)
 +++ xbmc/settings/GUIWindowSettingsCategory.h	(working copy)
 @@ -96,6 +96,7 @@
    CStdString m_strNetworkSubnet;
@@ -23834,7 +23826,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.h
    CStdString m_strNewSkin;
 Index: xbmc/settings/GUIWindowSettingsScreenCalibration.cpp
 ===================================================================
---- xbmc/settings/GUIWindowSettingsScreenCalibration.cpp	(revision 33032)
+--- xbmc/settings/GUIWindowSettingsScreenCalibration.cpp	(revision 33042)
 +++ xbmc/settings/GUIWindowSettingsScreenCalibration.cpp	(working copy)
 @@ -39,8 +39,8 @@
  #define CONTROL_LABEL_ROW2  3
@@ -23910,7 +23902,7 @@ Index: xbmc/settings/GUIWindowSettingsScreenCalibration.cpp
    // render the movers etc.
 Index: xbmc/settings/Settings.cpp
 ===================================================================
---- xbmc/settings/Settings.cpp	(revision 33032)
+--- xbmc/settings/Settings.cpp	(revision 33042)
 +++ xbmc/settings/Settings.cpp	(working copy)
 @@ -171,6 +171,17 @@
    CIoSupport::GetPartition(strMnt.c_str()[0], szDevicePath);
@@ -24007,7 +23999,7 @@ Index: xbmc/settings/Settings.cpp
    CStdString rssXML;
 Index: xbmc/settings/Settings.h
 ===================================================================
---- xbmc/settings/Settings.h	(revision 33032)
+--- xbmc/settings/Settings.h	(revision 33042)
 +++ xbmc/settings/Settings.h	(working copy)
 @@ -21,7 +21,7 @@
  
@@ -24037,7 +24029,7 @@ Index: xbmc/settings/Settings.h
    CStdString GetScriptsFolder() const;
 Index: xbmc/storage/DetectDVDType.cpp
 ===================================================================
---- xbmc/storage/DetectDVDType.cpp	(revision 33032)
+--- xbmc/storage/DetectDVDType.cpp	(revision 33042)
 +++ xbmc/storage/DetectDVDType.cpp	(working copy)
 @@ -51,6 +51,7 @@
  CDetectDVDMedia* CDetectDVDMedia::m_pInstance = NULL;
@@ -24069,7 +24061,7 @@ Index: xbmc/storage/DetectDVDType.cpp
    return m_diskPath;
 Index: xbmc/storage/DetectDVDType.h
 ===================================================================
---- xbmc/storage/DetectDVDType.h	(revision 33032)
+--- xbmc/storage/DetectDVDType.h	(revision 33042)
 +++ xbmc/storage/DetectDVDType.h	(working copy)
 @@ -54,6 +54,7 @@
    static CEvent m_evAutorun;
@@ -24098,7 +24090,7 @@ Index: xbmc/storage/DetectDVDType.h
    CLibcdio* m_cdio;
 Index: xbmc/Util.cpp
 ===================================================================
---- xbmc/Util.cpp	(revision 33032)
+--- xbmc/Util.cpp	(revision 33042)
 +++ xbmc/Util.cpp	(working copy)
 @@ -1,22 +1,22 @@
  /*
@@ -24141,45 +24133,23 @@ Index: xbmc/Util.cpp
  
  #include "system.h"
  #include "Application.h"
-@@ -122,29 +122,48 @@
+@@ -122,30 +122,73 @@
  
  #ifdef HAS_XBOX_HARDWARE
  // This are 70 Original Data Bytes because we have to restore 70 patched Bytes, not just 57
 -static BYTE rawData[70] =
 -{
 -    0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
+-    0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
+-    0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
+-    0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x9C, 0xFB, 0x04, 0x80, 0x89, 0x08, 0x33, 
+-    0xC0, 0xE9, 0x42, 0x01, 0x00, 0x00, 
 +// all other retail kernels
-+static BYTE Retail_rawData[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
++static BYTE Retail_originalBytes[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
 +	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01,
 +	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B,
 +	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x9C, 0xFB, 0x04, 0x80, 0x89, 0x08, 0x33,
 +	0xC0, 0xE9, 0x42, 0x01, 0x00, 0x00,
-+};
-+static BYTE Retail_OriginalData[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
-+	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01,
-+	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B,
-+	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
-+};
-+// 5713, 5838 kernels
-+static BYTE AltRetail_rawData[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x00, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
-+	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01,
-+	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x56, 0x01, 0x00, 0x00, 0x8B,
-+	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x58, 0xC1, 0x03, 0x80, 0x89, 0x08, 0x33,
-+	0xC0, 0xE9, 0x3F, 0x01, 0x00, 0x00,
-+};
-+static BYTE AltRetail_OriginalData[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x00, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
-+	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01,
-+	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x56, 0x01, 0x00, 0x00, 0x8B,
-+	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
-+};
-+// Cerbios kernel
-+static BYTE Cerbios_rawData[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
-     0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
-     0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
--    0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x9C, 0xFB, 0x04, 0x80, 0x89, 0x08, 0x33, 
--    0xC0, 0xE9, 0x42, 0x01, 0x00, 0x00, 
-+    0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x54, 0x42, 0x04, 0x80, 0x89, 0x08, 0x33, 
-+    0xC0, 0xE9, 0x42, 0x01, 0x00, 0x00,
  };
 -static BYTE OriginalData[57]=
 -{
@@ -24187,10 +24157,10 @@ Index: xbmc/Util.cpp
 -  0x00,0x53,0x75,0x32,0x8B,0x4D,0x18,0x85,0xC9,0x6A,0x04,0x58,0x74,0x02,0x89,0x01,
 -  0x39,0x45,0x14,0x73,0x0A,0xB8,0x23,0x00,0x00,0xC0,0xE9,0x59,0x01,0x00,0x00,0x8B,
 -  0x4D,0x0C,0x89,0x01,0x8B,0x45,0x10,0x8B,0x0D
-+static BYTE Cerbios_OriginalData[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
-+    0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
-+    0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
-+    0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
++static BYTE Retail_searchBytes[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01,
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B,
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
  };
 -
 -static BYTE PatchData[70]=
@@ -24200,16 +24170,65 @@ Index: xbmc/Util.cpp
 -  0x00,0x00,0x00,0x50,0x8B,0x4D,0x18,0x6A,0x04,0x58,0x85,0xC9,0x74,0x02,0x89,0x01,
 -  0x8B,0x4D,0x0C,0x89,0x01,0x59,0x8B,0x45,0x10,0x89,0x08,0x33,0xC0,0x5B,0xC9,0xC2,
 -  0x14,0x00,0x00,0x00,0x00,0x00
++// 5713, 5838 kernels
++static BYTE AltRetail_originalBytes[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x00, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01,
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x56, 0x01, 0x00, 0x00, 0x8B,
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x58, 0xC1, 0x03, 0x80, 0x89, 0x08, 0x33,
++	0xC0, 0xE9, 0x3F, 0x01, 0x00, 0x00,
+ };
++static BYTE AltRetail_searchBytes[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x00, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00,
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01,
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x56, 0x01, 0x00, 0x00, 0x8B,
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
++};
++// Cerbios kernel
++static BYTE Cerbios_originalBytes[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x54, 0x42, 0x04, 0x80, 0x89, 0x08, 0x33, 
++	0xC0, 0xE9, 0x42, 0x01, 0x00, 0x00,
++};
++static BYTE Cerbios_searchBytes[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
++};
++// X2_5035 kernel
++static BYTE xTwoZeroThreeFive_originalBytes[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x0C, 0xD5, 0x05, 0x80, 0x89, 0x08, 0x33, 
++	0xC0, 0xE9, 0x42, 0x01, 0x00, 0x00,
++};
++static BYTE xTwoZeroThreeFive_searchBytes[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
++};
++// X3 kernel
++static BYTE xThree_originalBytes[70] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D, 0x74, 0xA1, 0x05, 0x80, 0x89, 0x08, 0x33, 
++	0xC0, 0xE9, 0x42, 0x01, 0x00, 0x00,
++};
++static BYTE xThree_searchBytes[57] = { 0x55, 0x8B, 0xEC, 0x81, 0xEC, 0x04, 0x01, 0x00, 0x00, 0x8B, 0x45, 0x08, 0x3D, 0x04, 0x01, 0x00, 
++	0x00, 0x53, 0x75, 0x32, 0x8B, 0x4D, 0x18, 0x85, 0xC9, 0x6A, 0x04, 0x58, 0x74, 0x02, 0x89, 0x01, 
++	0x39, 0x45, 0x14, 0x73, 0x0A, 0xB8, 0x23, 0x00, 0x00, 0xC0, 0xE9, 0x59, 0x01, 0x00, 0x00, 0x8B, 
++	0x4D, 0x0C, 0x89, 0x01, 0x8B, 0x45, 0x10, 0x8B, 0x0D,
++};
 +// Patch for all kernels
 +static BYTE PatchData[70] = { 0x55, 0x8B, 0xEC, 0xB9, 0x04, 0x01, 0x00, 0x00, 0x2B, 0xE1, 0x8B, 0x45, 0x08, 0x53, 0x3B, 0xC1,
 +	0x74, 0x0C, 0x49, 0x3B, 0xC1, 0x75, 0x2F, 0xB8, 0x00, 0x03, 0x80, 0x00, 0xEB, 0x05, 0xB8, 0x04,
 +	0x00, 0x00, 0x00, 0x50, 0x8B, 0x4D, 0x18, 0x6A, 0x04, 0x58, 0x85, 0xC9, 0x74, 0x02, 0x89, 0x01,
 +	0x8B, 0x4D, 0x0C, 0x89, 0x01, 0x59, 0x8B, 0x45, 0x10, 0x89, 0x08, 0x33, 0xC0, 0x5B, 0xC9, 0xC2,
 +	0x14, 0x00, 0x00, 0x00, 0x00, 0x00,
- };
++};
  
  
-@@ -159,17 +178,17 @@
+ // for trainers
+@@ -159,17 +202,17 @@
  // magic kernel patch (asm included w/ source)
  static unsigned char trainerloaderdata[167] =
  {
@@ -24238,7 +24257,7 @@ Index: xbmc/Util.cpp
  };
  
  #define SIZEOFLOADERDATA 167// loaderdata is our kernel hack to handle if trainer (com file) is executed for title about to run
-@@ -182,7 +201,7 @@
+@@ -182,7 +225,7 @@
  	0x08, 0xEE, 0x66, 0xBA, 0x06, 0xC0, 0x8A, 0x45, 0x0C, 0xEE, 0xEE, 0x66, 0xBA, 0x02, 0xC0, 0xB0, 
  	0x1A, 0xEE, 0x50, 0xB8, 0x40, 0x42, 0x0F, 0x00, 0x48, 0x75, 0xFD, 0x58, 0xC9, 0xC2, 0x08, 0x00, 
  };
@@ -24247,7 +24266,7 @@ Index: xbmc/Util.cpp
  // PatchIt dynamic patching
  static unsigned char patch_it_toy[33] =
  {
-@@ -301,423 +320,462 @@
+@@ -301,587 +344,652 @@
  
  CStdString CUtil::GetTitleFromPath(const CStdString& strFileNameAndPath, bool bIsFolder /* = false */)
  {
@@ -24879,6 +24898,7 @@ Index: xbmc/Util.cpp
 -      iBeginCut = strFilename.Left(iDotDotLoc).ReverseFind('/') + 1;
 -      strFilename.Delete(iBeginCut, iEndCut - iBeginCut);
 -    }
+-  }
 +			{
 +				strFilename = strBasePath + strFilename;
 +				strFilename.Replace('\\', '/');
@@ -24897,18 +24917,18 @@ Index: xbmc/Util.cpp
 +			strFilename.Delete(iBeginCut, iEndCut - iBeginCut);
 +		}
 +	}
-+}
-+
-+bool CUtil::CheckForKernelPatchable( int strText )
-+{
-+  CStdString kernel_version = g_sysinfo.GetKernelVersion();
-+  if (kernel_version == "1.0.3944.1" || kernel_version == "1.0.4034.1" || kernel_version == "1.0.4627.1" || kernel_version == "1.0.4817.1" || kernel_version == "1.0.5101.1" || kernel_version == "1.0.5530.1" || kernel_version == "1.0.5713.1" || kernel_version == "1.0.5838.1" || kernel_version == "1.0.8008.135" || kernel_version == "1.0.5003.6" || kernel_version == "1.0.5003.67")
-+  {
-+	return( true );
-   }
-+  return( false );
  }
  
++bool CUtil::CheckForKernelPatchable( int strText )
++{
++	CStdString kernel_version = g_sysinfo.GetKernelVersion();
++	if (kernel_version == "1.0.3944.1" || kernel_version == "1.0.4034.1" || kernel_version == "1.0.4627.1" || kernel_version == "1.0.4817.1" || kernel_version == "1.0.5101.1" || kernel_version == "1.0.5530.1" || kernel_version == "1.0.5713.1" || kernel_version == "1.0.5838.1" || kernel_version == "1.0.8008.135" || kernel_version == "1.0.5034.1" || kernel_version == "1.0.5035.1" )
++	{
++		return( true );
++	}
++	return( false );
++}
++
  bool CUtil::PatchCountryVideo(F_COUNTRY Country, F_VIDEO Video)
  {
  #ifdef HAS_XBOX_HARDWARE
@@ -24924,7 +24944,7 @@ Index: xbmc/Util.cpp
 +	BYTE  CountryValues[4]={0, 1, 2, 4};
 +	BYTE  VideoTyValues[5]={0, 1, 2, 3, 3};
 +	BYTE  VideoFrValues[5]={0x00, 0x40, 0x40, 0x80, 0x40};
-+    CStdString kernel_version = g_sysinfo.GetKernelVersion();
++	CStdString kernel_version = g_sysinfo.GetKernelVersion();
  
 -  // Skip if no change is necessary...
 -  // That is to avoid a situation in which our Patch *and* the EvoX patch are installed
@@ -24975,19 +24995,34 @@ Index: xbmc/Util.cpp
 +	};
  
 -  // Search for the original code in the Kernel.
-+ // Search for the original code in the Kernel.
-   // Searching from 0x80011000 to 0x80024000 in order that this will work on as many Kernels
-   // as possible.
--
+-  // Searching from 0x80011000 to 0x80024000 in order that this will work on as many Kernels
+-  // as possible.
++	// Search for the original code in the Kernel.
++	// Searching from 0x80011000 to 0x80024000 in order that this will work on as many Kernels
++	// as possible.
++	for (i = 0x1000; i < 0x16000; i++)
++	{
++		if (kernel_version == "1.0.5713.1" || kernel_version == "1.0.5838.1")
++		{
++			if (Kernel[i] != AltRetail_searchBytes[0])
++			continue;
+ 
 -  for(i=0x1000; i<0x14000; i++)
-+  for (i = 0x1000; i < 0x14000; i++)
-   {
+-  {
 -    if(Kernel[i]!=OriginalData[0])
 -	    continue;
-+	  if (kernel_version == "1.0.5713.1" || kernel_version == "1.0.5838.1")
-+	  {
-+			if (Kernel[i] != AltRetail_OriginalData[0])
-+				continue;
++			for (j = 0; j < 57; j++)
++			{
++				if (Kernel[i + j] != AltRetail_searchBytes[j])
++				break;
++			}
++			if (j == 57)
++			break;
++		}
++		else if (kernel_version == "1.0.5034.1")
++		{
++			if (Kernel[i] != xThree_searchBytes[0])
++			continue;
  
 -    for(j=0; j<57; j++)
 -    {
@@ -24996,51 +25031,175 @@ Index: xbmc/Util.cpp
 -    }
 -    if(j==57)
 -	    break;
+-  }
 +			for (j = 0; j < 57; j++)
 +			{
-+				if (Kernel[i + j] != AltRetail_OriginalData[j])
-+					break;
++				if (Kernel[i + j] != xThree_searchBytes[j])
++				break;
 +			}
 +			if (j == 57)
-+				break;
-+	  }
-+	  else if (kernel_version == "1.0.8008.135")
-+	  {
-+			if (Kernel[i] != Cerbios_OriginalData[0])
-+				continue;
-+
-+			for (j = 0; j < 57; j++)
-+			{
-+				if (Kernel[i + j] != Cerbios_OriginalData[j])
-+					break;
-+			}
-+			if (j == 57)
-+				break;
-+	  }
-+	  else
-+	  {
-+			if (Kernel[i] != Retail_OriginalData[0])
-+				continue;
-+
-+			for (j = 0; j < 57; j++)
-+			{
-+				if (Kernel[i + j] != Retail_OriginalData[j])
-+					break;
-+			}
-+			if (j == 57)
-+				break;
-+	  }
-   }
++			break;
++		}
++		else if (kernel_version == "1.0.5035.1")
++		{
++			if (Kernel[i] != xTwoZeroThreeFive_searchBytes[0])
++			continue;
  
-   if(j==57)
-   {
-     // Ok, found the code to patch. Get pointer to original Country setting.
+-  if(j==57)
+-  {
+-    // Ok, found the code to patch. Get pointer to original Country setting.
 -    // This may not be strictly neccessary, but lets do it anyway for completeness.
-+    // This may not be strictly necessary, but lets do it anyway for completeness.
++			for (j = 0; j < 57; j++)
++			{
++				if (Kernel[i + j] != xTwoZeroThreeFive_searchBytes[j])
++				break;
++			}
++			if (j == 57)
++			break;
++		}
++		else if (kernel_version == "1.0.8008.135")
++		{
++			if (Kernel[i] != Cerbios_searchBytes[0])
++			continue;
  
-     j=(Kernel[i+57])+(Kernel[i+58]<<8)+(Kernel[i+59]<<16)+(Kernel[i+60]<<24);
-     CountryPtr=(DWORD *)j;
-@@ -784,104 +842,104 @@
+-    j=(Kernel[i+57])+(Kernel[i+58]<<8)+(Kernel[i+59]<<16)+(Kernel[i+60]<<24);
+-    CountryPtr=(DWORD *)j;
+-  }
+-  else
+-  {
+-    // Did not find code in the Kernel. Check if my patch is already there.
++			for (j = 0; j < 57; j++)
++			{
++				if (Kernel[i + j] != Cerbios_searchBytes[j])
++				break;
++			}
++			if (j == 57)
++			break;
++		}
++		else
++		{
++			if (Kernel[i] != Retail_searchBytes[0])
++			continue;
+ 
+-    for(i=0x1000; i<0x14000; i++)
+-    {
+-      if(Kernel[i]!=PatchData[0])
+-        continue;
++			for (j = 0; j < 57; j++)
++			{
++				if (Kernel[i + j] != Retail_searchBytes[j])
++				break;
++			}
++			if (j == 57)
++			break;
++		}
++	}
+ 
+-      for(j=0; j<25; j++)
+-      {
+-        if(Kernel[i+j]!=PatchData[j])
+-          break;
+-      }
+-      if(j==25)
+-        break;
+-    }
++	if(j==57)
++	{
++		// Ok, found the code to patch. Get pointer to original Country setting.
++		// This may not be strictly necessary, but lets do it anyway for completeness.
+ 
+-    if(j==25)
+-    {
+-      // Ok, found my patch. Get pointer to original Country setting.
+-      // This may not be strictly neccessary, but lets do it anyway for completeness.
++		j=(Kernel[i+57])+(Kernel[i+58]<<8)+(Kernel[i+59]<<16)+(Kernel[i+60]<<24);
++		CountryPtr=(DWORD *)j;
++	}
++	else
++	{
++		// Did not find code in the Kernel. Check if my patch is already there.
+ 
+-      j=(Kernel[i+66])+(Kernel[i+67]<<8)+(Kernel[i+68]<<16)+(Kernel[i+69]<<24);
+-      CountryPtr=(DWORD *)j;
+-    }
+-    else
+-    {
+-      // Did not find my patch - so I can't work with this BIOS. Exit.
+-      return( false );
+-    }
+-  }
++		for(i=0x1000; i<0x14000; i++)
++		{
++			if(Kernel[i]!=PatchData[0])
++			continue;
+ 
+-  // Patch in new code.
++			for(j=0; j<25; j++)
++			{
++				if(Kernel[i+j]!=PatchData[j])
++				break;
++			}
++			if(j==25)
++			break;
++		}
+ 
+-  j=MmQueryAddressProtect(&Kernel[i]);
+-  MmSetAddressProtect(&Kernel[i], 70, PAGE_READWRITE);
++		if(j==25)
++		{
++			// Ok, found my patch. Get pointer to original Country setting.
++			// This may not be strictly neccessary, but lets do it anyway for completeness.
+ 
+-  memcpy(&Kernel[i], &PatchData[0], 70);
++			j=(Kernel[i+66])+(Kernel[i+67]<<8)+(Kernel[i+68]<<16)+(Kernel[i+69]<<24);
++			CountryPtr=(DWORD *)j;
++		}
++		else
++		{
++			// Did not find my patch - so I can't work with this BIOS. Exit.
++			return( false );
++		}
++	}
+ 
+-  // Patch Success. Fix up values.
++	// Patch in new code.
+ 
+-  *CountryPtr=(DWORD)CountryValues[Country];
+-  Kernel[i+0x1f]=CountryValues[Country];
+-  Kernel[i+0x19]=VideoTyValues[Video];
+-  Kernel[i+0x1a]=VideoFrValues[Video];
++	j=MmQueryAddressProtect(&Kernel[i]);
++	MmSetAddressProtect(&Kernel[i], 70, PAGE_READWRITE);
+ 
+-  k=(DWORD)CountryPtr;
+-  Kernel[i+66]=(BYTE)(k&0xff);
+-  Kernel[i+67]=(BYTE)((k>>8)&0xff);
+-  Kernel[i+68]=(BYTE)((k>>16)&0xff);
+-  Kernel[i+69]=(BYTE)((k>>24)&0xff);
++	memcpy(&Kernel[i], &PatchData[0], 70);
+ 
+-  MmSetAddressProtect(&Kernel[i], 70, j);
++	// Patch Success. Fix up values.
+ 
++	*CountryPtr=(DWORD)CountryValues[Country];
++	Kernel[i+0x1f]=CountryValues[Country];
++	Kernel[i+0x19]=VideoTyValues[Video];
++	Kernel[i+0x1a]=VideoFrValues[Video];
++
++	k=(DWORD)CountryPtr;
++	Kernel[i+66]=(BYTE)(k&0xff);
++	Kernel[i+67]=(BYTE)((k>>8)&0xff);
++	Kernel[i+68]=(BYTE)((k>>16)&0xff);
++	Kernel[i+69]=(BYTE)((k>>24)&0xff);
++
++	MmSetAddressProtect(&Kernel[i], 70, j);
++
+ #endif
+-  // All Done!
+-  return( true );
++	// All Done!
++	return( true );
+ }
  
  bool CUtil::InstallTrainer(CTrainer& trainer)
  {
@@ -25222,7 +25381,7 @@ Index: xbmc/Util.cpp
  
  		// adjust ourmemaddr pointer past loaderdata
  		ourmemaddr=(PVOID *)(((unsigned int) ourmemaddr) + sizeof(trainerloaderdata));
-@@ -889,189 +947,189 @@
+@@ -889,189 +997,189 @@
  		// copy our trainer data into allocated mem
  		memcpy(ourmemaddr, trainer.data(), trainer.Size());
  
@@ -25561,7 +25720,7 @@ Index: xbmc/Util.cpp
  #endif
  
  	return Found;
-@@ -1081,11 +1139,11 @@
+@@ -1081,11 +1189,11 @@
  {
  	bool Found = false;
  #ifdef HAS_XBOX_HARDWARE
@@ -25576,7 +25735,7 @@ Index: xbmc/Util.cpp
  
  	for(i = 0; i < KERNEL_SEARCH_RANGE; i++)
  	{
-@@ -1097,539 +1155,539 @@
+@@ -1097,539 +1205,539 @@
  	}
  
  	if(Found)
@@ -26537,7 +26696,7 @@ Index: xbmc/Util.cpp
  }
  
  static const char * sub_exts[] = { ".utf", ".utf8", ".utf-8", ".sub", ".srt", ".smi", ".rt", ".txt", ".ssa", ".aqt", ".jss", ".ass", ".idx", NULL};
-@@ -1636,1736 +1694,1739 @@
+@@ -1636,1736 +1744,1739 @@
  
  void CUtil::CacheSubtitles(const CStdString& strMovie, CStdString& strExtensionCached, XFILE::IFileCallback *pCallback )
  {
@@ -26958,7 +27117,8 @@ Index: xbmc/Util.cpp
  }
  
  bool CUtil::CacheRarSubtitles(const CStdString& strRarPath, 
-                               const CStdString& strCompare)
+-                              const CStdString& strCompare)
++const CStdString& strCompare)
  {
 -  bool bFoundSubs = false;
 -  CFileItemList ItemList;
@@ -29684,7 +29844,7 @@ Index: xbmc/Util.cpp
  }
  //strXboxNickNameIn: New NickName to write
  //strXboxNickNameOut: Same if it is in NICKNAME Cache
-@@ -3372,305 +3433,310 @@
+@@ -3372,305 +3483,310 @@
  bool CUtil::SetXBOXNickName(CStdString strXboxNickNameIn, CStdString &strXboxNickNameOut)
  {
  #ifdef HAS_XBOX_HARDWARE
@@ -30216,39 +30376,113 @@ Index: xbmc/Util.cpp
  #endif
  }
  
-@@ -3706,6 +3772,7 @@
+@@ -3680,23 +3796,23 @@
+ bool CUtil::LookForKernelPatch()
+ {
  #ifdef HAS_XBOX_HARDWARE
-   BYTE  *Kernel=(BYTE *)0x80010000;
-   DWORD i, j = 0;
-+  CStdString kernel_version = g_sysinfo.GetKernelVersion();
+-  BYTE	*Kernel=(BYTE *)0x80010000;
+-  DWORD	i, j = 0;
++	BYTE	*Kernel=(BYTE *)0x80010000;
++	DWORD	i, j = 0;
  
-   for(i=0x1000; i<0x14000; i++)
-   {
-@@ -3721,7 +3788,22 @@
-     {
-       j=MmQueryAddressProtect(&Kernel[i]);
-       MmSetAddressProtect(&Kernel[i], 70, PAGE_READWRITE);
+-  for(i=0x1000; i<0x14000; i++)
+-  {
+-    if(Kernel[i]!=PatchData[0])
+-      continue;
+-    for(j=0; j<25; j++)
+-    {
+-      if(Kernel[i+j]!=PatchData[j])
+-        break;
+-    }
+-    if(j==25)
+-      return true;
+-  }
++	for(i=0x1000; i<0x14000; i++)
++	{
++		if(Kernel[i]!=PatchData[0])
++		continue;
++		for(j=0; j<25; j++)
++		{
++			if(Kernel[i+j]!=PatchData[j])
++			break;
++		}
++		if(j==25)
++		return true;
++	}
+ #endif
+-  return false;
++	return false;
+ }
+ // This routine removes our patch if it is not used.
+ // This is to ensure proper testing whether we are responsible
+@@ -3704,27 +3820,47 @@
+ void CUtil::RemoveKernelPatch()
+ {
+ #ifdef HAS_XBOX_HARDWARE
+-  BYTE  *Kernel=(BYTE *)0x80010000;
+-  DWORD i, j = 0;
++	BYTE  *Kernel=(BYTE *)0x80010000;
++	DWORD i, j = 0;
++	CStdString kernel_version = g_sysinfo.GetKernelVersion();
+ 
+-  for(i=0x1000; i<0x14000; i++)
+-  {
+-    if(Kernel[i]!=PatchData[0])
+-      continue;
++	for(i=0x1000; i<0x14000; i++)
++	{
++		if(Kernel[i]!=PatchData[0])
++		continue;
+ 
+-    for(j=0; j<25; j++)
+-    {
+-      if(Kernel[i+j]!=PatchData[j])
+-        break;
+-    }
+-    if(j==25)
+-    {
+-      j=MmQueryAddressProtect(&Kernel[i]);
+-      MmSetAddressProtect(&Kernel[i], 70, PAGE_READWRITE);
 -      memcpy(&Kernel[i], &rawData[0], 70); // Reset Kernel
-+	  if (kernel_version == "1.0.5713.1" || kernel_version == "1.0.5838.1")
-+	  {
-+		memcpy(&Kernel[i], &AltRetail_rawData[0], 70); // Reset Kernel
-+	  }
-+	    else if (kernel_version == "1.0.8008.135")
-+	  {
-+		memcpy(&Kernel[i], &Cerbios_rawData[0], 70); // Reset Kernel
-+	  }
-+	  // else if (kernel_version == "1.0.5003.6" || kernel_version == "1.0.5003.67")
-+	  // {
-+		// memcpy(&Kernel[i], &Ind_rawData[0], 70); // Reset Kernel
-+	  // }
-+	  else
-+	  {
-+		memcpy(&Kernel[i], &Retail_rawData[0], 70); // Reset Kernel  
-+	  }
-       MmSetAddressProtect(&Kernel[i], 70, j);
-     }
-   }
-@@ -3731,139 +3813,143 @@
+-      MmSetAddressProtect(&Kernel[i], 70, j);
+-    }
+-  }
++		for(j=0; j<25; j++)
++		{
++			if(Kernel[i+j]!=PatchData[j])
++			break;
++		}
++		if(j==25)
++		{
++			j=MmQueryAddressProtect(&Kernel[i]);
++			MmSetAddressProtect(&Kernel[i], 70, PAGE_READWRITE);
++			if (kernel_version == "1.0.5713.1" || kernel_version == "1.0.5838.1")
++			{
++				memcpy(&Kernel[i], &AltRetail_originalBytes[0], 70); // Reset Kernel
++			}
++			else if (kernel_version == "1.0.5034.1")
++			{
++				memcpy(&Kernel[i], &xThree_originalBytes[0], 70); // Reset Kernel
++			}
++			else if (kernel_version == "1.0.5035.1")
++			{
++				memcpy(&Kernel[i], &xTwoZeroThreeFive_originalBytes[0], 70); // Reset Kernel
++			}
++			else if (kernel_version == "1.0.8008.135")
++			{
++				memcpy(&Kernel[i], &Cerbios_originalBytes[0], 70); // Reset Kernel
++			}
++			else
++			{
++				memcpy(&Kernel[i], &Retail_originalBytes[0], 70); // Reset Kernel  
++			}
++			MmSetAddressProtect(&Kernel[i], 70, j);
++		}
++	}
+ #endif
+ }
+ 
+@@ -3731,139 +3867,143 @@
  void CUtil::BootToDash()
  {
  #ifdef HAS_XBOX_HARDWARE
@@ -30487,7 +30721,7 @@ Index: xbmc/Util.cpp
  		_splitpath(szPath1, szDrive, szDir, szFname, szExt);
  		strncat(szFname, "_ffp", 4);
  		_makepath(szNewPath.GetBuffer(MAX_PATH), szDrive, szDir, szFname, szExt);
-@@ -3873,263 +3959,271 @@
+@@ -3873,263 +4013,271 @@
  	} */
  
  
@@ -30976,7 +31210,7 @@ Index: xbmc/Util.cpp
 +}
 Index: xbmc/Util.h
 ===================================================================
---- xbmc/Util.h	(revision 33032)
+--- xbmc/Util.h	(revision 33042)
 +++ xbmc/Util.h	(working copy)
 @@ -21,6 +21,7 @@
  #include "system.h"
@@ -31004,7 +31238,7 @@ Index: xbmc/Util.h
    static double AlbumRelevance(const CStdString& strAlbumTemp1, const CStdString& strAlbum1, const CStdString& strArtistTemp1, const CStdString& strArtist1);
 Index: xbmc/utils/Splash.cpp
 ===================================================================
---- xbmc/utils/Splash.cpp	(revision 33032)
+--- xbmc/utils/Splash.cpp	(revision 33042)
 +++ xbmc/utils/Splash.cpp	(working copy)
 @@ -1,27 +1,29 @@
  /*
@@ -31291,7 +31525,7 @@ Index: xbmc/utils/Splash.cpp
  }
 Index: xbmc/utils/Splash.h
 ===================================================================
---- xbmc/utils/Splash.h	(revision 33032)
+--- xbmc/utils/Splash.h	(revision 33042)
 +++ xbmc/utils/Splash.h	(working copy)
 @@ -38,4 +38,6 @@
    virtual void Process();
@@ -31302,7 +31536,7 @@ Index: xbmc/utils/Splash.h
  };
 Index: xbmc/utils/StringUtils.cpp
 ===================================================================
---- xbmc/utils/StringUtils.cpp	(revision 33032)
+--- xbmc/utils/StringUtils.cpp	(revision 33042)
 +++ xbmc/utils/StringUtils.cpp	(working copy)
 @@ -278,6 +278,24 @@
    return strHMS;
@@ -31331,7 +31565,7 @@ Index: xbmc/utils/StringUtils.cpp
    if (0 == (int)str.size())
 Index: xbmc/utils/StringUtils.h
 ===================================================================
---- xbmc/utils/StringUtils.h	(revision 33032)
+--- xbmc/utils/StringUtils.h	(revision 33042)
 +++ xbmc/utils/StringUtils.h	(working copy)
 @@ -58,6 +58,10 @@
     */
@@ -31346,7 +31580,7 @@ Index: xbmc/utils/StringUtils.h
    static CStdString SizeToString(__int64 size);
 Index: xbmc/video/windows/GUIWindowVideoNav.cpp
 ===================================================================
---- xbmc/video/windows/GUIWindowVideoNav.cpp	(revision 33032)
+--- xbmc/video/windows/GUIWindowVideoNav.cpp	(revision 33042)
 +++ xbmc/video/windows/GUIWindowVideoNav.cpp	(working copy)
 @@ -622,7 +622,7 @@
    {
@@ -31368,7 +31602,7 @@ Index: xbmc/video/windows/GUIWindowVideoNav.cpp
        }
 Index: xbmc/windows/GUIMediaWindow.cpp
 ===================================================================
---- xbmc/windows/GUIMediaWindow.cpp	(revision 33032)
+--- xbmc/windows/GUIMediaWindow.cpp	(revision 33042)
 +++ xbmc/windows/GUIMediaWindow.cpp	(working copy)
 @@ -41,6 +41,7 @@
  #include "GUIUserMessages.h"
@@ -31407,7 +31641,7 @@ Index: xbmc/windows/GUIMediaWindow.cpp
          Update(m_vecItems->GetPath());
 Index: xbmc/windows/GUIWindowLoginScreen.cpp
 ===================================================================
---- xbmc/windows/GUIWindowLoginScreen.cpp	(revision 33032)
+--- xbmc/windows/GUIWindowLoginScreen.cpp	(revision 33042)
 +++ xbmc/windows/GUIWindowLoginScreen.cpp	(working copy)
 @@ -94,12 +94,8 @@
          else if (iAction == ACTION_SELECT_ITEM || iAction == ACTION_MOUSE_LEFT_CLICK)
@@ -31437,7 +31671,7 @@ Index: xbmc/windows/GUIWindowLoginScreen.cpp
      }
 Index: xbmc/windows/GUIWindowScreensaver.cpp
 ===================================================================
---- xbmc/windows/GUIWindowScreensaver.cpp	(revision 33032)
+--- xbmc/windows/GUIWindowScreensaver.cpp	(revision 33042)
 +++ xbmc/windows/GUIWindowScreensaver.cpp	(working copy)
 @@ -146,7 +146,7 @@
        CScreenSaverFactory factory;
@@ -31450,7 +31684,7 @@ Index: xbmc/windows/GUIWindowScreensaver.cpp
        {
 Index: xbmc/windows/GUIWindowSystemInfo.cpp
 ===================================================================
---- xbmc/windows/GUIWindowSystemInfo.cpp	(revision 33032)
+--- xbmc/windows/GUIWindowSystemInfo.cpp	(revision 33042)
 +++ xbmc/windows/GUIWindowSystemInfo.cpp	(working copy)
 @@ -167,7 +167,8 @@
    }
@@ -31464,7 +31698,7 @@ Index: xbmc/windows/GUIWindowSystemInfo.cpp
  }
 Index: xbmc/windows/GUIWindowWeather.cpp
 ===================================================================
---- xbmc/windows/GUIWindowWeather.cpp	(revision 33032)
+--- xbmc/windows/GUIWindowWeather.cpp	(revision 33042)
 +++ xbmc/windows/GUIWindowWeather.cpp	(working copy)
 @@ -280,7 +280,7 @@
    if (!g_guiSettings.GetString("weather.plugin").IsEmpty())
@@ -31477,7 +31711,7 @@ Index: xbmc/windows/GUIWindowWeather.cpp
      unsigned int argc = 2;
 Index: xbmc/xbox
 ===================================================================
---- xbmc/xbox	(revision 33032)
+--- xbmc/xbox	(revision 33042)
 +++ xbmc/xbox	(working copy)
 
 Property changes on: xbmc/xbox
@@ -31487,7 +31721,7 @@ Added: svn:ignore
 +svn_rev.h
 Index: xbmc/xbox/Network.cpp
 ===================================================================
---- xbmc/xbox/Network.cpp	(revision 33032)
+--- xbmc/xbox/Network.cpp	(revision 33042)
 +++ xbmc/xbox/Network.cpp	(working copy)
 @@ -1,29 +1,31 @@
  /*
@@ -32691,7 +32925,7 @@ Index: xbmc/xbox/Network.cpp
  }
 Index: xbmc/xbox/Network.h
 ===================================================================
---- xbmc/xbox/Network.h	(revision 33032)
+--- xbmc/xbox/Network.h	(revision 33042)
 +++ xbmc/xbox/Network.h	(working copy)
 @@ -48,7 +48,7 @@
    ~CNetwork(void);
@@ -32704,7 +32938,7 @@ Index: xbmc/xbox/Network.h
    /* waits for network to finish init */
 Index: xbmc/xbox/Undocumented.h
 ===================================================================
---- xbmc/xbox/Undocumented.h	(revision 33032)
+--- xbmc/xbox/Undocumented.h	(revision 33042)
 +++ xbmc/xbox/Undocumented.h	(working copy)
 @@ -643,7 +643,7 @@
      // 114 Image timestamp - unknown format
@@ -32717,7 +32951,7 @@ Index: xbmc/xbox/Undocumented.h
      // 120 Pointer to section headers (must be within HeaderSize)
 Index: xbmc/xbox/xbeheader.h
 ===================================================================
---- xbmc/xbox/xbeheader.h	(revision 33032)
+--- xbmc/xbox/xbeheader.h	(revision 33042)
 +++ xbmc/xbox/xbeheader.h	(working copy)
 @@ -25,7 +25,7 @@
      // 114 Image timestamp - unknown format
