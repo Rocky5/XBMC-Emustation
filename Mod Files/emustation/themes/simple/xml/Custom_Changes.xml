@@ -1,0 +1,908 @@
+<window type="window" id="1400">
+		<defaultcontrol always="true">1</defaultcontrol>
+		<controls>
+				<include>CommonBackground</include>
+				<control type="multiimage">
+						<posx>0</posx>
+						<posy>10</posy>
+						<width>720</width>
+						<height>260</height>
+						<imagepath>Q:\system\media\update\</imagepath>
+						<timeperimage>4000</timeperimage>
+						<fadetime>1000</fadetime>
+						<pauseatend>3000</pauseatend>
+						<randomize>true</randomize>
+						<loop>true</loop>
+						<aspectratio>keep</aspectratio>
+						<animation effect="fade" start="0" end="100" delay="0" time="1000">WindowOpen</animation>
+				</control>
+				<control type="textbox">
+						<posx>20</posx>
+						<posy>280</posy>
+						<width>670</width>
+						<height>265</height>
+						<font>size_18</font>
+						<textcolor>FFFFFFFF</textcolor>
+						<align>left</align>
+						<scrolltime>400</scrolltime>
+						<pagecontrol>1</pagecontrol>
+						<autoscroll delay="10000" time="2000" repeat="10000" condition="true">Conditional</autoscroll>
+						<label>Patron Supporters:
+Richard, Giovany Rodriguez, Alf John Hammervik, Rick Girton, thePiratePimp, Michael Bergeron, Wayne Starr, Stian Tofte, Johnny Andersen, Wayne Swift
+Clayton Beeney, Andrew Ryan, Tktagmedia, Darren Titchmarsh, Jay Jay, Natetronn, Incursion64 ., Roger Serres, Darren Old, Joel Peterson, Jamie Eubank
+
+Thank you for your support.
+Would also like to thank everyone that donates its much appreciated.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+21/06/2022
+1) ScummVM support added.
+( games go in the games folder inside the emulators\scummvm\ folders are hard coded to the .svm files but you can update the paths inside those if you wish. )
+( emulator and artwork are on the downloader for it )
+
+
+15/11/2020
+1) Fix for initial setup not creating the roms folders.
+
+
+21/10/2020
+1) Added demos to the carousel.
+( E:\ F:\ G:\ demos )
+2) Added animation selection for the Carousel, Windows and Carousel background image.
+(defaults to instant, change to fade, slide or instant)
+3) Updated the Customize section of the UI Settings, Themes have there own window, and added a few more features.
+4) Updated all themes to support the above change.
+5) Updated the sound db value to be 0 to 100% makes it easier to understand.
+6) Updated a few of the python scripts to do a better job and also for the additions above.
+7) New Video view. This lets you auto play videos when cycling games.
+( coinops style, still may need work but works for the most part )
+8) Updated Menu Settings windows, with new layout.
+9) New player controls, bit fancier.
+( Enable old overlay. Toggle in Sound Settings )
+10) Seek bar updated for new player and old player controls.
+11) Fixed the extension issue with the create_rom.lists.py script.
+12) Fixed Test Drive being scanned wrong in the create_rom.lists.py script.
+13) New XBE, disables intro when last played system rom is enabled and a game is selected.
+( means the intro doesn't play for a split second )
+14) Ports is now part of the greater systems, ie, it can have synopsis and different views eg...
+15) Updated the scripts to allow the above and also pars "Override_TitleID.bin" for ports and xbox games.
+( not all homebrew have valid ids so this file allows for one without touching the xbe )
+16) Fixed the favourites menu not being themed if using Simple Alt.
+( forgot to make it use the default files if a theme has no files )
+17) renamed the .emustation folder to just emustation, so new xbe and script changes to accommodate this change.
+18) Fixed fbl and other systems not using the FBA synopsis information.
+19) 15 direct launch tiles now, that should cover basically most stuff you ever will need.
+20) New XBE to fix intros once and for all.
+21) New animation when you load a rom/games.
+22) New favourites and settings backgrounds for the simple and simple alt themes.
+23) Removed the update check on startup, you can access it from the menu > advanced settings.
+24) Updated the string.po to use the same internal ids as gamers.
+( means the updater script is the same across each for language ids )
+25) Fixed the override_title id extracting and parsing game.xbe for titleids in the create_rom_lists.py
+26) Fixed ports previews not loading.
+27) Made the xbe copy filezilla server.xml on every boot from the system/backups folder.
+( this seems to fix random crashing with FTP, also fixes the corrupt filezill server.xml issue as its copied on each boot. )
+28) Slight change to the play_preview.py file. Just force IDs now so if one fails the other works eg...
+29) Fixed the Options background for Xbox and Ports not showing. (white button)
+30) New thing for themes, so previews work on horizontal themes now.
+( requires this string to be placed in the layout file somewhere, check the xSimplistic theme. )
+31) Added more extensions and changed there extension from .ft to .ext
+32) Intro videos can be in two places now. System\intro or next to the default.xbe
+( intro.mp4 is still looked for in both locations, I may at some point add random video playback from the intro folder )
+33) Fixed some issues in the create_rom_lists.py script for games that titles had \n new line endings :\
+34) Larger previews for themes, theme menu has been updated also so you can see the better images.
+35) Merry Christmas
+36) Mame is now parsed like other emulator systems.
+( I had to change the source code of Mame launcher and do some trickery to get it all to work )
+37) Synopsis for over 1000 mame roms.
+38) Menu now works on system lists as well as the home screen.
+39) I now patch mame when scanning for roms.
+( this saves folk running into issues down the road )
+40) New update screen look.
+41) URLDownloader updated to v1.0.18, I have moved to Google Drive for the downloads.
+( Test this out as there is a daily limit on downloads but we should never hit this )
+42) You can now run default_p.xbe or defaultxhd.xbe from the context menu if they exist next to the default.xbe
+43) Cleaned up the scripts and fixed a couple issues in create_rom_lists.py
+44) Fixed a problem in XBMC (well just disabled stopping the FTP/Time server code) that would put you in a busy loop if you had an Ethernet
+connected but not valid network, or hard crash the system if you disconnect and reconnected a Ethernet.
+45) Mame can now have favourites and also fixed when selecting a fav the user could move. (was allowed)
+46) Can now sort favourites by system-alphabetical or just alphabetical.
+( requires a newer builds of Emustation, ones where it adds the system to the end of the game name )
+48) Updated the dialog_ok.py script so it can run script and notify the user that it is.
+49) Changed how home layouts are done, now uses includes and allows for 4 home screen types.
+( 3 Icon horizontal, 3 icon horizontal alt, vertical and vertical slanted )
+50) SegaCD ISO/MP3 support added, the script will folderize them for you. You will need to download the correct emulators from the downloader for ISO+MP3 support.
+( not some games with i and ii will be put in the same folder, fix this manually )
+51) Same as above but for PCEngine-CD/TurboGrafx-CD images can be folderized.
+52) Moved to rom name.txt for MAME and Final Burn roms.
+( this allows me to rename every single rom now and not have to worry about extracting zips with thousands of files, to many for Mame. )
+53) Organization of some of the menu menus.
+54) I fix the cores for N64 when scanning in the earthwormjames compilation.
+( new surreal.ini included and a new xbe to stop the bloody emu destroying the settings for each rom )
+55) Launch N64 roms from favourites working.
+56) Fixed sorting of favourites breaking the launch of them.
+57) More mame improvements, now you can load clone roms.
+58) Optimised the Create_rom_lists.py its now faster to scan stuff in.
+59) Other various changes to stuff above.
+( there is actually changes lol, just been doing mame the last couple days its all a blur. )
+60) Full mame synopsis for over 5000 games, you can also use the synopsis names for roms.
+61) New fbl synopsis nearly 4000 roms supported.
+62) Fixed mame and fbl roms being missed when scanning.
+63) Fixed spelling mistake on IOS when it should be ISO :/
+64) New dreamcast logo, now is Dreamcast Visual Memory Unit
+65) Fixed fbl scanning when use synopsis names was enabled.
+66) Added support to always revert to emustation if using my Dashloader v1.3+
+( if you run emustation as an application and load a rom or xbox gaem and IGR it will go back to your dash, now it can go back to emustation instead )
+67) Added a new script to run the artwork installer within the dashboard.
+( xbox artwork installer is now a standalone app )
+68) Fixed the auto scan extracting all synopsis and it complaining about the Mame loader.xbe when mame isn't present.
+69) Updated the Sega32X synopsis files to match the Ressurectionextras rom names.
+( (32X) parts at the end of 5 roms )
+70) Optimized the auto video play script.
+71) Create rom list script now wont copy all videos to the media\xboz\videos\ directory.
+( looks for mp4 first, strm second and xmv last )
+72) Now you can default to XBMC-Emustation, when launching any rom or xbox game. New toggle in the UISettings menu.
+( requires my dashloader that's part of the Xbox Softmodding Tool v1.1.7+ or you can grab the hardmod version on my github.[CR]https://github.com/Rocky5/Xbox-Softmodding-Tool/tree/master/Extras%20Disc/Hardmod/dashloader )
+73) Fixed the scan script breaking on xbox games if no resource videos were found.
+44) .modules is now _modules so now FTP programs can FTP the folder over without requiring hidden files to be enabled.
+75) Imagelib usage is now set to 8MB to combat ram hitting 0MB and causing black images.
+76) Clear texture cache set to 10MB now, so when you hit 10MB it will flush the texture cache.
+78) New xbe to check what resolution is currently enabled and tell the user if its 1080i and disable it.
+79) FIxed ports and xbox games scanner so it doesnt pull the same video for all entries, also fixed a script error.
+80) Fixed launching direct launch emulator on the carousel
+81) Updated the system_list.xml to be in alphabetical order
+82) Added a preview window to the dialogselect window. Only shows when in the downloader theme menu
+83) New XBE to try and stop crashing when selecting a rom.
+84) Moved to the naming format for the folder that holds the skin xml files.
+( now just xml for all )
+85) Any script errors will now put a copy of the error in E:/TDATA/Rocky5 needs these logs/
+( Send me this file )
+86) Hide favourites from the carousel.
+87) Fixed scanning FBL and variants not populating the system section and breaking loading.
+88) Added a error dialog when the rom folder is empty, this will stop the Found_Roms called before error.
+89) New Video Calibration screen.
+90) New snes emulator beta6 that adds optimisations and fixes games that defaulted to bilinear filtering.
+91) Fixes auto scan showing the no roms or path set error.
+92) Fixed FBL erroring when scanning if the Path.ini file is missing.
+93) Added some more info to the create rom list script for xbox game scanning.
+( Will now put the current game directory into the log file, this is handy for finding corrupt xbe files )
+94) Added support for default_ffp.xbe when scanning xbox games in.
+( This is the flicker filter patched xbe, handy if using CRT screens. )
+95) Added the option to view the log files in the Advanced Settings menu.
+96) New theme selection menu.
+97) New CV20 logo.
+**) Other stuff but its been a while since I done these changes.
+( See if you can find them LOL )
+
+
+22/04/2019
+1) Quick fix for tuple issue in the create_rom_lists.py.
+
+
+17/04/2019
+1) Moved the fast game parsing and slow scrolling toggle into XBMCs Programs settings menu.
+( They are now built in settings, Enable fast game parsing is disabled by default )
+2) File cleanup.
+
+
+14/04/2019
+1) Updated create_rom_lists.py to parse a directory (file types) for supported extensions, so this should make it easier for people to add there own extensions I don't know.
+( just create a blank file with the .ft extension named the rom extension type. Example: bin.ft  )
+2) Spelling mistake in Other Settings fixed.
+3) Fix for screensaver getting stuck if you disable it.
+
+
+03/02/2019
+1) Fixed the launch.py script not failing of filenames that end with a (.
+( this happened because the script would not know its the end of the line, so done a quick dirty fix. )
+
+
+04/01/2019
+1) Fixed the carousel labes overlapping when 0 favs or games were available on favourites and ports.
+( Redownload XBMC4Gamers or Art BOok themes for there fixes )
+2) Fixed the generate_favourtites.py" script if fav already exist check.
+
+
+21/12/2018
+1) Changed how the intro is done, if there was no Ethernet/network connected it would hang :/ so now I just play intro.mp4 if found next to the splash.png.
+
+
+20/12/2018
+1) Renamed the Direct launch label to Launch Emulator: and also made custom tiles Direct Launch label hidden.
+2) Added Amiga parsing to the create_rom_lists.py.
+3) Updated the progress dialog.
+4) Changed games to favourites for the favourites carousel entry.
+5) Changes from XBMC4Gamers ported over to emustation that fixes thumb loading and ram issues.
+6) Couple new themes on the downloader.
+7) Updated the create_rom_lists.py synopsis order.
+8) Updated the Xbox synopsis files to the latest versions.
+9) Updated home_themer.py to delay the screensaver and visualisation button on load of the window.
+10) Slight update to the skindefault themes synopsis view.
+11) Updated Create_rom_lists.py to parse the surreal.ini easier. Will now skip lines till it finds what it needs then process the file.
+( means its future proof now )
+12) Major overhaul to the theme system, now all themes are self contained.
+( XBMC source updated to do all this, so new xbe )
+13) Updated the scripts to work with the new theme system.
+14) Default skin is now named simple, so the alt version will be updated on the downloader when this goes live.
+15) Updated XBMC4Gamers theme.
+16) Default skin is now part of the Simple theme, as this is the default theme for XBMC-Emustation.
+17) New S drive when you are FTPing in, this points to the themes folder for easy adding or creating of themes.
+18) Three new Special:// commands "emustation_scripts", "themes_root" and "theme". "themes_root" will load Q:\.emustation\themes\ and "theme" will load the currently loaded theme directory.
+( Special://themes_root/carbon/layouts/xbox/system_art_small.png, Special://theme/layouts/xbox/system_art_small.png or Special://emustation_scripts/dialog_ok.py )
+19) Updated the play_preview.py to support .strm files and also some minor improvements to how it works.
+20) Create_rom_lists.py updated to support .strm files for xbox games.
+( These will be included with the artwork installer for playing videos from my server )
+21) Updated a load of scripts, cant remember them all as I have been doing gamers along side this update :$
+22) All themes moved to the downloader.
+23) New dialog_ok.py script used for showing a dialogok window with skin settings.
+( RunScript( Special://emustation_scripts/dialog_ok.py,show_(enabled,disabled or both)-skinsetting goes here id,Title,line1,line2,line3) )
+24) Themes can now have there own splash.png that will override the default splash if the theme is activated.
+**) A load of quality of life changes.
+
+
+15/08/2018
+1) New XBE
+( Moved the fanart screensaver path to Q:\System\Screensavers\Fanart )
+2) Updated the Create_Rom_Lists.xml
+3) Updated the Xbox synopsis.
+4) Added a new menu entry into the Other Settings menu for the Xbox Artwork Installer script.
+5) Added LCD.xml
+5) Sources.xml cleanup
+
+
+20/07/2018
+1) Updated the create_roms_lists.py again as some xbe names had leading \ :@ so should all be fixed now.
+2) Updated the Xbox synopsis files to a more updated version.
+
+
+16/07/2018
+1) Had to update the script that creates system lists to remove spaces at the beginning of Xbox games Title Names.
+( This is what will cause an script error, well not now but it did devs should have been more careful when naming there games )
+2) Updated Auto Scan Roms to Auto Scan Systems.
+3) Couple other improvements to the scanning script for xbox games.
+4) Fixed games that don't have a valid title name arsing the script up. If they don't it will use the folder name now.
+
+
+15/07/2018
+1) Fixed the favourites script from allowing the same rom to be added over and over.
+( don't use readline )
+2) Stopped the error prompt when selecting Xbox game with no games scanned showing roms.
+3) Forgot to update the home.xml in the skins folder.
+
+
+14/07/2018
+1) Changed the no thumb image to a cleaner looking text based one.
+2) Fixed a bug in XBMC that would corrupt your favourites.xml if you reloaded the skin when editing a label.
+( this is a source edit to XBMC as there is no other way to fix it, so new xbe )
+3) Removed C64 synopsis as there are over 5000 files and the folder limit for Xbox hdd is just over 4000.
+( so use a program to scan your roms and my python script to create synopsis files, as I wont be adding sub directory support )
+4) Fixed the favourites script not parsing filenames correctly.
+( Super Mario. I'm looking at you )
+
+
+11/07/2018
+1) Added the option to overwrite or only add new artwork when scanning Xbox games.
+2) Fixed the favourites script not working with games like 007, as the Unicode code escape code breaks these titles due to \007 :/ so don't use Unicode character as filename in the synopsis file, if you make any.
+3) Increased the width of the carousel to stop long system logos getting cut off before the leave the screen.
+4) Updated the Genesis and Megadrive emulators to use 3 button controls by default.
+   ( By default I don't overwrite custom emulator paths, so you will need to copy these two emulators to there custom location if you want the changes )
+5) Added a set path to the guisettings.xml for screensaver - slideshow as I added a artwork fanart pack. Gets installed to Q:\system\screensavers\artwork\
+6) Updated the kiosk mode script so its text doesn't get cut off and updated what menus are visible when this mode is enabled.
+7) C64 synopsis added.
+
+
+08/07/2018
+1) enable/disabled the splash scripts fixed.
+2) Preview videos script fixed and updated for xbox games, aslo streamlined it.
+3) Updated menu_loader.py and also had to update the layout files.
+
+
+06/07/2018:
+1) Added Xbox to the static menu system, so now you can have synopsis eg...
+2) Updated the "create_rom_lists.py" script to parse Xbox games and also simplify/cleanup the gamelist.xml files.
+3) Updated the "generate_favourites.py" to work with the new format.
+4) Updated the "launcher.py" to accommodate xbox game launching.
+( Note: in this mode trainers dont work, so you will need to load edit mode )
+5) Updated the "menu_loader.py" to work with the Xbox menu and also it will add a new button to the Options menu.
+( Xbox Games Edit Mode )
+6) Updated the "play_preview.py" to work with the Xbox menu and its TITLEID naming scheme for content.
+7) Updated the "random_select.py" to work with the Xbox menu.
+8) Fixed Pokemonmini for the xudora theme.
+9) Optimised the textures in the main theme and the none blur one ( on the downloader )
+10) Updated the Xbox parsing code to remove all illegal characters and also extract the titleimage from the xbe if no default.tbn is found.
+11) Added "Custom_Changes.xml" to show the change log when the update is complete.
+12) Added Change Log to the settings menu.
+13) New XBE: Fixed the XBE title extraction from the xbe files, so no more broken names!
+( This is an issue with official builds and is now fixed here. )
+14) Added a new script to check for updates on startup.
+( Toggle this in the UI Settings )
+15) You can change the custom locations without having to rescan your roms :)
+( Requires a full rescan for this to work, sorry )
+16) Added 2 more custom tiles to the home carousal, so that's a total of 5 custom entries.
+17) Rearranged the settings menu and added audio settings.
+18) Fixed a intro not stopping when you pressed B.
+19) Added md to the "create_rom_lists.py" extensions for megadrive/genesis roms.
+( any more extensions needing added tell me. )
+20) Updated all the layouts and increased there scroll time.
+21) Changed file extensions for artwork to .jpg this allows loading of images a crap tone faster.
+( This script will rename all .png images it finds to .jpg )
+22) Fixed the launcher.py script not loading roms when using the default roms directory :$
+23) Create_Rom_Lists.py will now parse _resources folders if you wish for artwork for Xbox games.
+( It will also create a GameNames.txt in the media\xbox\ directory with Game names and titleids so you can create or find artwork easily )
+24) Updated Final Burn Legends name files to v1.24 and also updated the Emulator in the Downloader section.
+25) Updated Final Burn Legends to v1.24 in the downloader section.
+( Redownload the download lists.zip )
+26) Change to the theme layout formating, only themers will need to check this out.
+( currently only two me and another guy and he knows lol )
+27) Added a fanart toggle to the options menu when in a systems layout, also rearranged the menu a tad.
+( Option will only appear when the synopsis view is enabled )
+28) Updated a few of the layout synopsis files video placement and visible effects.
+29) Artwork added for Xbox games, 935+ games have fanrt, posters, 3d posters and more.
+30) Updated the Xbox synopsis to 954 games supported.
+31) Fixed the Generate_Favourites.py script when parsing Unicode characters and also streamlined some code.
+32) Fixed N64 name parsing.
+34) Updatred the XBMC source again to help with theming.
+35) New theme added to the downloader. XBMC4Gamers.
+36) Other minor scrip adjustments due to the above changes.
+37) Added Special://root/ so a new xbe file. This is so we can get the absolute path of XBMCs installation.
+( will output for example E:\xbmc-emustation\ instead of Q:\ that xbmc and home use )
+38) Added a detacher xbe for detaching virtual IOS files that are required for 5 games to be played from the HDD. Press Y on the disc image.
+( I include the attacher xbe files pre configured with the games certificate information with the _resources pack. download separately. )
+39) Fixed ordering of the roms and xbox games when scanned in.
+( you will only see this if using the file names for naming, as the synopsis names can still be different from the file names. )
+40) Updated the create_roms_lists.py to parse game.xbe if found.
+( some JPN games have these as use a loader xbe (default.xbe) to launch this xbe file. )
+41) Kiosk Mode, when enabled in the UI Settings it will disable all options that can be used to change system settings or scan roms eg...
+42) New radiobutton toggle images.
+**) Other changes, bugger knows what mind as I have changed that damn much.
+
+
+14/03/2018
+1) Couple minor changes to fix a couple small niggles.
+( if you're already up todate this update isn't needed unless you want it. )
+2) Removed the "versioner.py" script I just do the version when the update is built for release.
+
+
+06/03/2018
+0) Version 1.0 of XBMC-Emustation!!!!
+1) Added support for NeoGeoCD to the "create_rom_lists.py" script.
+( CUE/ISO + MP3 only with this emulator and they must go into sub folder inside the roms\neogeocd folder Example: roms\neogeocd\metal slug\metal slug.cue, .iso eg.... )
+2) The "scanner.py" script now creates the roms folder if they don't exist.
+3) FBL, FBLC and FBAxxx added to the emulators and roms for the carousel.
+4) Updater that will download and apply updates.
+5) URL Downloader that can be used to download themes or other stuff.
+( it uses md5 hashes to validate downloads )
+6) Marketplace lol well download centre if you will that lets you directly download a load of stuff and also update XBMC-Emustation.
+7) Few other script optimisations.
+8) Added NeoGeoCDSDL emulator to the downloader.
+( read above for how roms are to be setup )
+9) Added x68000 emulator to the downloader.
+10) Synopsis for x68000 emulator added.
+11) Added custom splash support, this way it wont be overwritten after an update.
+( add custom_splash.png next to the normal splash.png )
+12) Updated the "generate_favourites.py" script to parse the new favlist.xml
+13) Updated "create_rom_lists.py" to add the current xbe path for favourites. You need to rescan your roms.
+( this is mainly for FBL as it requires the direct path to specific xbe files )
+14) Other options menu rearranged a bit.
+15) Updated the "home_themer.py" to default to the skindefault.xml if no custom one is found.
+16) Added Pokemon Mini emulator to the downloader and added the logo and system_art by Jay Yardley.
+17) Synopsis creator script make it truncate filename to 42 characters and remove illegal character from file names.
+18) Updated the xbe save patcher for emulators to also patch the keepsave name to save.sav.
+( this is to stop UX from making folders when transferring the damn files to the xbox )
+19) Updated all included emulators to use the new save.sav file.
+20) Atarilynx, Atari2600 synopsis files added and emulator to the downloader.
+21) Added some checks into the "create_rom_lists.py" script for the N64 parsing.
+( only pack supported is the "N64 emulator + 178 rom best of compilation" )
+22) Added a few more extensions to the "create_rom_lists.py" script.
+23) Other stuff was done but like normal I do to much and forget what's what :/
+
+
+15/02/2018
+1) Fixed the skin not showing properly when installing a fresh build.
+2) Updated the patch xbe script.
+
+
+12/02/2018
+1) Updated the "create_rom_lists.py" script to lowercase all roms again, as this will fix any issues with emulators that require absolute paths/file-names.
+( surreal I'm looking at you! )
+2) Like above it now shows it scanning through the files checking for the correct casing.
+3) Fixed the N64 synopsis creation part of the code, now will remove white spaces from the beginning of the files.
+( this fixes names with spaces at the beginning if you use the synopsis names )
+
+
+08/02/2018
+1) Reduced the size of the "create_rom_lists.py", also updated it's logging output and changed a couple thing to help with the random issue of it not updating the progress bar.
+2) Updated the "DialogProgress.xml" to reflect the above changes.
+3) Disabled the rename to lowercase code in the "create_rom_list.py" script as it's not really needed and add a slight delay parsing systems as it check file names.
+4) Updated the "Custom_WelcomeScreen.xml" fixed some grammar.
+5) Updated "menu_loader.py" updated the button that activates the options window.
+6) Updated "create_rom_lists.py" to show an error if it cannot find any roms/images when in manual mode.
+7) Updated "create_rom_lists.py" to only create/copy the N64 synopsis/artwork to the correct location if it doesn't exist.
+( speeds up scanning for this system, since it's not overwriting everything every time you scan it )
+8) Updated the xbe, it doesn't create the xbmc-old.log file anymore and a few other changes.
+9) Updated "create_rom_lists.py" to parse the system types of FBL roms so they get loaded by the correct xbe file.
+( this fixes games not loading, the issue is still with FBL but this is a work around )
+10) New "FBL Rom Names.zip" for FBA, so please use this or you wont get the fix above.
+11) Synopsis added for 3883 FBL roms, and the "create_rom_lists.py" will now parse these.
+12) Update to the center label fix in lists, if your skin version is 2.1 it will use the old way and if its 2.2 or higher will use the fixed way.
+( all my skins will use 2.2 from now on as this fix should be used )
+13) New System Information menu in the options menu.
+14) New player control.
+( when you press (X) to bring the music controls up window )
+15) Updated the gamelist.xml parser script.
+16) Fixed the busyoverlay, now carbon and xudora use the correct colours.
+17) Converted my gamelist.xml parser to work on the xbox. its in the scripts folder "synopsis maker" please read the readme.txt
+
+
+29/01/2018
+1) Redone the layout of folders to closer match EmulationStation.
+2) Made a Xbox logo for the ComicBook theme as there wasn't one.
+3) Updated the layouts to better match EMulationStation and fixed offsets labels in lists.
+4) Cleaned up the source and texture files.
+5) Optimised the XPR files, now use slightly smaller backgrounds but keep the quality and makes the skin faster.
+6) Added "Name: " to the beginning of all synopsis files, this means you can use the correct names for the roms instead of the filenames.
+( if you wish that is, you get a choice )
+7) Updated "create_roms_lists.py" to ask whether you want to parse the names from the synopsis files or just use filenames.
+8) Updated "create_roms_lists.py" to add the rom path to the N64 surreal/-ce.ini files so roms auto load.
+9) Updated "create_roms_lists.py" by adding .nds to the extension list and cleanup of some of the code.
+10) Updated a few other scripts.
+11) The menu ( start button ) is now consistent across all menus, done that as it looks better in my opinion.
+12) Fixed the filemanager not showing the sized of folders/files.
+13) Updated the welcome screen.
+14) New screen calibration screen, should make it simpler to proportion your screen correctly.
+15) New bat file for adding "Name: " to the beginning of each synopsis file that come form emulators.
+( folk shouldn't need it but if there is synopsis for a system and you get it from the emulator you can use this to allow parsing of names )
+16) Removed Atari Jaguar CD as there is no emulator for this, only the Atari Jaguar.
+17) Made Neo Geo CD direct launch only as the emulator doesn't support command line launching.
+18) New settings look, to closer match the rest of the system.
+( isn't finished but it's a start )
+19) New scripts to help with the transition to the new layout "Convert old layout to new media layout.py".
+( this script will ask you to select you _tbns and _previews folders and then it will reorder them into the media folder layout )
+20) Added the option to change the artwork type to the options menu when in a system layout.
+( it's system specific so you can have 3D Boxart for Mega Drive and Mix Artwork for SNES eg... )
+21) Updated the generate_playlist.py to parse subdirectories.
+22) Updated Custom_SoundSettings.xml labels and to be clearer on what the startup music button does.
+23) Modified comicbook.ttf ( Shaka Pow Upright ) so it displays all letter.
+24) New theme called xudora, based off of eudora, no images were used from that theme eg...
+( you can create custom colour themes with this theme, by sharing colour xml files )
+26) Changed all the emulators that are included to use Back+Black for save-state, Black+White for load save-state and Back+Up to cycle save-state slots.
+( like coinops )
+27) New tools, fastscraper.bat and my python script ( for on windows ) to parse gamelist.xml files into Xbox synopisis files.
+28) New credit's ( acknowledgements ) screen in the settings menu.
+29) There are other changes I have done, but for the life of me cant remember exactly what.
+
+
+17/01/2018
+1) New XBE fixed the center label issue for lists
+( If you have a skin that uses center for it's labels in a list you may want to remove the offset you had to use for posx )
+2) Updated the layouts that used the offset to fix the center issue, to not use the offsets now :D
+3) Added visualisations support, and also fixed it's location in the xbe and the visualisation executable file.
+( because I moved everything inside the system folder )
+4) New theme based off of Spare, called it Xpare.
+( No images from that theme were used )
+5) You can now change the _tbns folders location like the others.
+6) Added a new folder _screenshots like above you can have a custom path.
+7) Populated all the _* folders, so you can build your rom and images before FTPing them over and scanning them in.
+8) Updated create_rom_lists.py and how the synopsis information is parsed, you will need to rescan your roms in to get this new look.
+9) New controls for full-screen visualisation, B locks current visualisation, up is pause, down is stop, left and right are back and forward a song.
+10) Player controls updated a tad.
+11) Other minor stuff.
+
+
+14/01/2018
+1) Now when you change themes it also changes the font and menu sounds if they exist for the theme.
+( Example: carbon theme. default skin\sounds\carbon\sounds.xml & default skin\fonts\carbon.ttf )
+2) Made the Right Stick button load the Quit menu.
+3) Updated the UI Settings menu.
+4) Added fonts for the Carbon and Carbon alt.
+5) Fixed a couple of the layout files.
+6) Updated all layout files to match what happens when you scroll in EmulationStation. The information and thumb fade out.
+7) Updated the home layout files for the new custom tiles.
+8) Added 3 custom tiles to the home layout, so now you can have custom entries on the home screen.
+( Start > UI Settings > Home Screen Customisation > scroll down )
+9) Updated the carbon, carbon alt and default themes background images.
+10) Updated the theme preview images to show there new fonts and also reduced there size a tad.
+11) Updated the font.xml removed most of the font not used.
+12) The result of above is 17MB extra of free MEMORY!
+( Note to skinners, fonts are loaded and held in memory, so use them sparingly. )
+13) Updated the xpr files to use max quality.
+14) Updated the home layouts, also sped up the alt animation for the skindefault theme.
+15) New fonts for carbon, carbon alt and skindefault. Smaller so the memory foot print is a lot less.
+16) Updated the debug info that's displayed on screen, now shows remaining ram in MBs.
+17) Added a check into the play_preview.py script that will give you a dialog if the available memory is below 8MB.
+18) Updated the "Build XBMC-Emustation.bat" to tell you if there is no XBMC folder.
+19) Added all the roms system directories. Means you can now start filling them before FTPing everything over.
+20) Other odds and ends.
+
+
+12/01/2018
+1) Added a check into the generate_favourites.py script to check for the new files required for favourites to function.
+2) Updated the DialogKaiToast.xml, made the label scroll, changed it size and adjusted the images size also.
+3) Updated patch_xbe_paths.py to patch xbe files in 1MB chunks, this way large xbe files like mameoxtras.xbe can be patched.
+( Please patch MameoXtras v2 )
+4) Added system_art.png for TG16 and TG-CD
+5) Changed the start menus to dialogs.
+6) A few other script updates/edit's.
+7) Added support for 5 custom fonts, named custom font 1, 2, 3, 4 or 5.ttf
+8) Added comicbook theme from TMNTturtleguy for EmulationStation and ported over and updated to XBMC-Emustation by myself.
+9) New XBE - Moved the sounds folder into the default skin sounds folder, so now you can add custom sound effects for themes and select them seamlessly.
+10) Disabled background of thumbnails in layouts.
+( if you feel it's to choppy and wan tit smother please let me know and I will change it back, but there is a side effect to backgrounding images. Borders flicker when scrolling. )
+11) There is other stuff but it's trivial and I cant remember what it was exactly :/
+
+
+9/01/2018
+1) Updated the code that renames files to lowercase in the "create_rom_lists.py"
+2) Fixed the menu_loader.py script and optimised it.
+3) Updated/redone all layouts.
+4) Updated/redone the context menu buttons.
+5) Updated the random_select.py script.
+6) Updated the create_rom_lists.py now when it scans and lower-cases your roms, you will get a dialog and progress.
+( it will also rename all the files before parsing the roms, this way you dont need to do it twice if you added new roms for example )
+7) Updated the segacd synopsis zip, fixed some names and added a couple.
+8) New texture for the carbon theme, so new xpr files.
+9) Updated the welcome screen, forgot to commit this :/
+10) New context button images and adjustments to the size eg...
+11) Updated the Sega emulators to the latest beta. v1b10 Fix
+12) Fixed a load of the emulators controls, I didn't realise the default file hold the controls also :/
+
+
+6/01/2018
+1) Now when you launch a rom it will take you back to it's position if you have load last system roms list enabled.
+2) Fixed the menu_loader.py script
+
+
+5/01/2018
+1) Fixed the "Create_rom_lists.py" dialog title and optimized it again.
+( Removed some code and updated other parts of the code )
+2) Fixed the "Create_rom_lists.py" scanning in all the info from the FBL info ini files.
+( it doesnt need all the technical stuff eg... )
+3) Updated the DialogProgress.xml
+4) Updated the other scripts that use the Dialogprogress.xml 
+5) "Create_rom_lists.py" will now display the correct rom names for FBA and N64, also it will now pares FBA properly and in alphabetical order.
+6) Updated "fba names.zip" with new name files.
+7) Fixed the video window on the fba synopsis views.
+8) PCE-CD Emulator added and configured.
+9) Updated the PCEngin synopsis zip and added PCE-CD synopsis.
+10) Favourites, you can now add your Xbox games or your Roms to the favourite menu.
+11) New images for the above addition.
+12) Fixed the changing language issue, I forgot to update the path in the source.
+13) Added random and media controls labels to the home screen.
+( you can use X to select a random system if no music os playing )
+14) New scripts for doing the favourites and favourites counter.
+15) New XBE for XBMC with new additions.
+( check the changelog for that )
+16) Now use the white button for the options menu in rom lists, just like the context menu for xbe content.
+17) Added TurboGrafx-16 emulator
+( Will use the pcengine and pc-cd synopsis as they are all there )
+18) Added famicom emulator and created the controller for the carbon theme.
+( Will use the nes synopsis as they are all there )
+19) Made the random script only work if there is more than 10 roms or games.
+( anything less and it selects and it isnt worth it )
+20) Updated the NES emulator to v15b14 Fix.
+21) Favourites menu is theme-able like the layouts.
+22) Added the trainer indicator to the xbe layouts.
+23) Removed the skindefault alt them, it was crap.
+24) Probably other stuff, but changes crap that much I forgot lol
+
+
+31/12/2017
+0) Happy New Year!
+1) Updated the context buttons at the bottom of the screen, they are now labels and images instead of just one image.
+2) Added new colours for the themes, as the above labels can be coloured.
+3) All layouts updated to reflect the above.
+4) Redone the "create_rom_lists.py" to be more easier to update and optimised it.
+5) Updated "create_rom_lists.py" to allow placement of fba and mame roms in the _roms\fba or _roms\mame directories.
+( move your fba roms to _roms\fba and manually scan fba to update your rom_list.xml file  )
+6) Updated "scanner.py" to not skip the creation of fba and mame directories in the _roms folder
+7) Updated "direct_launch_emulator.py" to direct launch the mame emulator and not ask for permission.
+( I tried to add command line launching but cant make heads or tails of the source, I assume it the mame source I edit? )
+8) Updated some of the synopsis files names to match the ResX roms sets
+9) Added synopsis for game gear, master system and sg-1000.
+10) Fixed the busy overlay when selecting a system on the home screen.
+11) Disables the splash now when you enable the intro.
+12) Now when scanning FBL roms in it will parse the synopsis information thats included with the FBL emulators.
+13) New layouts for FBA section.
+
+
+16/12/2017
+1) Ported over Kodis fix for SetFocus(), it now focuses from the proper offset instead of the current page.
+2) Added a new script "random_select.py" this is used to select a random item in list.
+3) New Bottom Button images for menus.
+4) Updated a few scripts.
+5) Added Jump to letter support for emulators.
+( This was added prior but due to the setfocus issues I had put it on hold, you will also need to rescan your roms to get this feature. )
+
+
+10/12/2017
+1) Fixed and updated the direct launch emulator script, forgot to update it when I changed the home menu.
+2) Added zxspectrum synopsis.
+3) Skinned YesNo dialog, thought I had done this :/
+4) Script optimisations for a few scripts.
+5) Updated synopsis layouts to use a new bottom button image when videos are playing.
+6) Added system_help_vert.png for vertical menus on the home screen.
+7) New XBE it now runs the script after changing the theme, so it now also works in the Settings menu of XBMC.
+( Also means faster cycling of themes )
+8) Added synopsis info for atari5200, atari7800, colecovision, pcengine, virtualboy, Wonderswan and zxspectrum.
+( thanks Mikeaton )
+9) Moved synopsis files into zips and extract them on the xbox when scanning roms. "create_rom_lists.py" is the updated file.
+( filezilla was corrupting random txt files and it breaks the static menus, so this way it cant and also it's alot faster to FTP over )
+10) Added gameboy, virtualboy and zxspectrum emulators all configured.
+
+
+09/12/2017
+1) Cleaned up all the scripts and removed entries not used.
+( Mainly imports )
+2) New entry in the Other Settings menu to rename and convert over to .png files for _tbns folder/files
+3) New script for the above "rename_tbn_to_png.py" this will rename all .tbn files to .png and also convert the rom lists to use the new .png files.
+( So you don't need to rescan your roms )
+4) Fixed the new line issue with synopsis information when scanning in roms.
+5) Added atari800 synopsis files.
+6) Updated all the synopsis layout views.
+7) Added carbon alt theme.
+8) Updated the button overlays textures.
+9) Updated the "play_preview.py" script and fixed focusing and also to look for Xbox games and ports video previews.
+( Like XBMC4Gamers and also they must be named preview. extension can be avi, mp4, wmv, xmv can be in the root next to the xbe or in the _resources\media folder )
+10) Added a toggle for the above in the UI Settings menu.
+11) Updated "menu_loader.py" with a new button that's imported in to the build MyPrograms.xml. This is used to run the script now and stop folk moving focus.
+12) Other minor changes here and there.
+
+
+08/12/2017
+1) New layout system for the Home menu, you can now theme it like the emulators menus.
+2) Updated the Customise home menu settings menu to reflect the above changes.
+3) Updated the "menu_loader.py" script to use the default layouts if there are no theme specific ones found.
+4) New script for doing the theming stuff for the home menu.
+5) Added the button button bar to the layout files so skinners can theme this part.
+6) Updated the "play_preview.py" script to only play a video if the synopsis view is enabled.
+7) New default.xbe, made it reload themes instantly so there are no issues changing Home layouts (themes)
+8) Other script fixes/improvements.
+9) Updated nes emulator to Mednafenx-nes V15b14
+
+
+29/11/2017
+1) Fixed master systems and Gamegear controller configuration.
+2) Updated all Sega systems to the latest build of NeoGensPlusGX, v1b10.
+
+
+19/11/2017
+1) Added preview video support
+2) Added the option to customise the _preview path. ( Just like the emulators and roms )
+3) Updated the "direct_launch_emulator.py" script to check if the xbe files exists before trying to load it.
+4) New "play_preview.py" script used to well play a preview video.
+5) Updated the SNES emulator xbes to the latest version.
+6) Updated the readme.md files with a donation button.
+7) Other script changes and stuff.
+
+
+01/10/2017
+1) Updated the "create_rom_lists.py" to extract the new fbl rom names.zip if present.
+   ( I now use this zip file and extract it on the xbox as it saves time FTPing the files over, it's also quicker to extract on the xbox )
+
+
+27/09/2017
+1) Updated all supplied emulators controller buttons.
+   SFX volume up and down = R-Stick up or down ( psx add Back  )
+   CDDA volume up and down = Back + R-Stick up or down
+   Save Save State = Back + D-Pad Up
+   Load Save State = Back + D-Pad Down
+   Change Save State = Back + D-Pad Right
+   Fast forward = Black ( psx add Back  )
+2) Bugger forgot to update all the default key files :@
+3) Updated all aspect rations and screen sizes to be pixel accurate.
+
+
+26/09/2017
+1) Updated the scanner.py to create the _emulators and _roms directories if it doesn't exist.
+2) Added images and svg files for supervision, chip8x and x6800 systems.
+
+
+25/09/2017
+1) Created images for SC-3000 and SF-7000 Sega systems.
+2) Updated the Xbox pad controller image for the carbon theme, made the lines thicker.
+
+
+23/09/2017
+1) Updated the sega consoles emulator files to the latest build.
+2) Made genesis use the megadrive synopsis folder for well synopsis information.
+3) New script to patch the emulator xbe files save paths to D:\ instead of E:\
+4) Added a new button to Other Settings for the above script
+5) Changed all Emulators software and hardware filters off
+6) Added a new menu entry to home when a disc is inserted.
+
+
+22/09/2017
+1) Updated the PSX emulator the latest version of Pcsxbox, v22b25.
+
+
+19/09/2017
+1) New default.xbe - Added the option to disable the splash image via the advancedsettings.xml ( <splash>false</splash> )
+2) Added a new file (nosplash.bin) to skip the splash screen, saves editing the advancedsettings.xml or renaming the splash.png file via python.
+3) Updated the launcher.py to reflect the above changes. ( So now if you have the load last rom list enabled it will skip the splash )
+4) Other minor changes.
+
+
+18/09/2017
+1) Fixed the xbmc skinning engine crashing when trying to exit the Other Settings menu after scanning roms.
+2) Updated the synopsis txt files to there original status. ( the script changes them on the fly to work with the static menus )
+3) Updated how the Roms are scanned in, no more cut files are created. ( Faster! )
+4) Added a new script to launch roms, this creates the cut file on the fly and loads it.
+5) Option to re-enter the last emulator menu upon exiting a emulator. ( UI Setting Menu )
+6) Updated the dialog select to match the rest.
+7) Other scripts modifications.
+
+
+14/09/2017
+1) Updated the busy dialog
+2) Updated the home.xml moved some things to includes to reduce the size also cleaned up some of the code.
+3) Reorganised menu_loader.py, simpler to edit and cleaned code not needed.
+4) Changed the settings menus to window instead of dialogs.
+5) Updated the readme.md
+6) Slight label change
+
+
+13/09/2017
+1) Updated the Home.xml reorganised and redone the placements of the images. ( should have done this to begin with )
+2) Added synopsis support for roms, I include a couple thousand .txt files for the emus I supply.
+3) Updated the python scripts to allow for synopsis support. ( you will need to rescan your roms )
+4) Updated all the layouts to use left and right for page cycling.
+5) Optimization for the create_cut_files.py script. ( Faster at scanning )
+
+29/08/2017
+1) Updated the UI Settings window, now have a scrolling system for view modes.
+2) Updated the list of emulators that require there roms to be in there root directory to the welcome screen.
+
+26/08/2017
+1) Updated all the logo images and the system_art files for both default and carbon theme.
+   ( they look a lot better now )
+2) Adjusted the transparency of the small controller in the top right of carbon layouts.
+3) Added new systems to the default and carbon theme.
+4) Fixed the carbon controller logo vanishing on the home screen customize menu.
+5) Due to the image improvements the .xpr file sizes have been reduced.
+
+23/08/2017
+1) Updated the create_cut_files.py script to parse the new name files I done for all FBA Roms.
+2) Added FBA rom names folder that is used to name the menu entries for the FBA Roms. ( Based on FBL 1.24, not released yet )
+3) Added skin settings.ini files for madmab emulators so the menus are a bit more organised looking.
+
+Todo: still need to update the cut file script to work with MESS emulator.
+
+20/08/2017
+1) Updated the create_cut_files.py script to parse .iso, .bin and .img files only. ( SegaCD the bugger )
+2) Same as above but added .ISO parsing to the cue and ccd parsing. ( so it now parses cue, ccd and iso files )
+3) Fixed a typo in the menu_loader.py script.
+4) Changed the create_cut_files.py script manual mode, you just select the emulator folder and it defaults to the correct roms directory.
+
+..: added after first commit :..
+5) Updated/Added some textures for the carbon theme.
+6) Updated the Xbox layout files to have green tints.
+
+19/08/2017
+1) Added atarijaguarcd, daphne, neogeo and pce-cd to the emulators and menu list.
+2) Fixed the ctreate_cut_files.py
+3) Updated the scanner.py to add the new emulator directories.
+4) Textures for the emulators are added also.
+5) Added Atari Jaguar rom parsing, but it doesn't work via CUT files so kinda pointless.
+
+..: added after first commit :..
+5) Added cue and cdd parsing for PCE-CD
+6) Added Atari Jaguar rom parsing, but it doesn't work via CUT files so kinda pointless.
+
+17/08.2017
+1) Added support for startup playlists.
+2) Added my Generate startup playlist script. ( will create a playlist from files that are in "E:\F:\G:\Music" )
+3) Added Playlist Editor to the above.
+4) Fixed the player controls, Use (X) to open them when media is playing.
+5) Moved the intro script into the XBMC-Emustation folder.
+6) Mega Drive skindefault layout.
+7) New Thumb_Layout.xml this has a large thumbnail.
+
+..: added after first commit :..
+8) Changed how PSX images are parsed, now only parses .cue and .ccd files.
+  ( so if you have images without cue or cdd files they wont be scanned in )
+9) Added cheats for gamegear and master system
+10) Added Neo-Geo Pocket Colour emulator.
+
+16/08/2017
+1) Updated the transparency of the footer and header in the carbon theme.
+2) Updated the fade image and position in the background in the carbon theme.
+3) Updated the system_art/small images.
+4) Updated the controller images positions and size on the home screen.
+
+13/08/2017
+1) Updated the Synopsis psd file to include the skindefault theme.
+2) Updated the skindefault layouts to match ES.
+3) Added synopsis layouts for skindefault.
+
+12/08/2017
+1) Fixed some typos in the python scripts.
+2) Added support for custom root directories for Emulators and Roms.
+   ( Note: a rescan of all cut files will be needed if you use a custom _roms or _emulator path.
+   The folder structure must be the same but you can place the directory on a different partition now
+   Example: I have mine in F:\XBMC-Emustation files\ and XBMC-Emustation on the E partition. )
+3) Updated the font.xml and all corresponding files.
+4) Redone the _Layouts files layout and structure and how they are processed. it's all done on the fly now.
+5) Slight update to the home.xml when you select an entry it focuses a hidden button so you cant move.
+   ( the script will refocus you to the list if there is no content )
+6) Updated the Customize Home menu.
+7) Added the update batch file, it just prepares the XBMC-Emustation folder for FTP.
+8) Renamed all the python scripts, also updated all xml files that use them.
+9) Python script optimizations.
+
+..: added after first commit :..
+10) Made the button images at the bottom not use the window open close animations.
+11) Added the option to have synopsis layout, so now there are two types.
+12) New window animations for open close. ( matches ES )
+13) New Carbon synopsis template
+
+11/08/2017
+1) Fixed the animations on the home screen.
+2) Added the files necessary to get the PSX emulator working.
+3) Added in the cheat files for PSX, Genesis and Sega32x
+4) Added in al the documentations that come with emulators.
+
+..: added after first commit :..
+5) Updated the way intros work, you can now select the file within the UI Settings menu.
+6) Updated the labels in the Quit menu.
+7) New font.xml, now has font sizes from 1 to 80
+8) Fixed the carbon layouts list bar and scroll bar position. ( you just have to replace the _layouts folder and refresh the layouts, if you have the build before this commit )
+
+10/08/2017
+1) Updated the "create cut files.py" script to parse cue files if present in the _roms\psx folder.
+2) Updated the readme.md file.
+
+..: added after first commit :..
+3) Screensavers are now in the system folder.
+4) Intro toggle added to the UI Settings menu.
+5) Fixed the intro script loading the home screen twice if there was a video played.
+6) Rearranged the labels in the language file.
+
+
+09/08/2017
+1) Updated the xbe and source to not show the .xpr on the end of the label for Skin.CurrentTheme, so now shows carbon instead of carbon.xpr eg....
+   ( had to update all the xmls that used the stringcompare )
+2) Added logging to the "create cut files.py" script, disabled by default as the auto mode will spam the living hell out of your log file.
+3) Simplified the Home.xml backgrounds and labels.
+4) Fixed the carousel bar colours, I had them swapped round in the colours xml.
+5) New Customize Home Settings menu, with a preview system!
+6) Probably other changes :/
+
+08/08/2017
+1) New theme, carbon
+2) New layouts for Carbon theme, you can have multiply layouts per layout file.
+3) Added the option to change the menu colour for the carbon theme.
+4) OK dialog and Progress dialog are skinned to match the rest of the skin.
+   ( still need to do the rest )
+5) Updated some more textures and created a few more.
+6) Done the context menu
+7) slight change to the layout script and default script.
+
+07/08/2017
+1) Fixed a few types in the scripts
+2) Forgot to update the welcome window ID
+3) Updated the intro script to support multiple extension.
+  ( avi,mp4,wmv,xmv - filename is intro, but this can be changed in the startup.xml)
+4) removed the firstrun script and just use the scan.py instead since I added silent mode to it.
+
+..: added after first commit :..
+5) Added more error handling to the Cut file script and also made it do house cleaning first.
+6) Made the Scan script hide emulators with zero cut files
+7) Script optimisations ( now that I can see the code better lol )
+</label>
+		</control>
+			<control type="scrollbar" id="1">
+					<posx>700</posx>
+					<posy>280</posy>
+					<width>10</width>
+					<height>265</height>
+					<texturesliderbackground>-</texturesliderbackground>
+					<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+					<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+					<textureslidernib>scrollbar_nib.png</textureslidernib>
+					<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+					<showonepage>false</showonepage>
+					<orientation>vertical</orientation>
+			</control>
+	</controls>
+</window>

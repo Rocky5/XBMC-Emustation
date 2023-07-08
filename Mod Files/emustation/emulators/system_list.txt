@@ -30,6 +30,7 @@ gb
 gba
 gbc
 genesis
+homebrew
 intellivision
 mame
 mastersystem

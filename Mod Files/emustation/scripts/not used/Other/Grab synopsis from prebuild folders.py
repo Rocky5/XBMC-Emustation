@@ -1,7 +1,7 @@
 import operator, os, shutil, struct, xbmc, xbmcgui
 pDialog				= xbmcgui.DialogProgress()
 dialog				= xbmcgui.Dialog()
-Game_Directories	= [ "E:\\Synopsis Folders\\Output - Artwork - Homebrew\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox Specials-Others\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox JPN Games\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox Other\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox PAL Games\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox NTSC Games\\", ]
+Game_Directories	= [ "E:\\Synopsis Folders\\Output - Artwork - Xbox Custom Games\\", "E:\\Synopsis Folders\\Output - Artwork - Homebrew\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox Specials-Others\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox JPN Games\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox Other\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox PAL Games\\", "E:\\Synopsis Folders\\Output - Artwork - Xbox NTSC Games\\", ]
 text_filename		= "tmp"
 text_filename_ext	= ""
 text_name			= ""
@@ -28,6 +28,7 @@ for Game_Directories in Game_Directories:
 					if Game_Directories.endswith('PAL Games\\'): OutputFolder = "_Xbox Games Synopsis\\PAL Games"
 					if Game_Directories.endswith('JPN Games\\'): OutputFolder = "_Xbox Games Synopsis\\JPN Games"
 					if Game_Directories.endswith('Xbox Other\\'): OutputFolder = "_Xbox Games Synopsis\\Xbox Other"
+					if Game_Directories.endswith('Custom Games\\'): OutputFolder = "_Xbox Games Synopsis\\Xbox Custom"
 					if not os.path.isdir( "E:\\"+OutputFolder+"\\" ): os.makedirs( "E:\\"+OutputFolder+"\\" )
 					with open ( XMLFile ) as input:
 						input = input.read()
@@ -120,16 +121,17 @@ for Game_Directories in Game_Directories:
 					if os.path.isfile(txt_output):
 						if not os.path.isdir("E:\\"+OutputFolder+"\\Dups"): os.makedirs("E:\\"+OutputFolder+"\\Dups")
 						txt_output = os.path.join( "E:\\"+OutputFolder+"\\Dups\\",  text_titleid + ".txt")
-					with open ( txt_output , 'w' ) as output:
-						output.write(text_filename_ext + '\n')
-						output.write(text_name + '\n')
-						output.write(text_rating + '\n')
-						output.write(text_releasedate + '\n')
-						output.write(text_developer + '\n')
-						output.write(text_publisher + '\n')
-						output.write(text_genre + '\n')
-						output.write(text_players + '\n')
-						output.write(text_description + '\n')
+					if not 'N/A' in txt_output:
+						with open ( txt_output , 'w' ) as output:
+							output.write(text_filename_ext + '\n')
+							output.write(text_name + '\n')
+							output.write(text_rating + '\n')
+							output.write(text_releasedate + '\n')
+							output.write(text_developer + '\n')
+							output.write(text_publisher + '\n')
+							output.write(text_genre + '\n')
+							output.write(text_players + '\n')
+							output.write(text_description + '\n')
 				else:
 					print "Cannot find: " + XMLFile
 pDialog.close()

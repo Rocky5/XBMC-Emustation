@@ -1,0 +1,176 @@
+<window id="2006">
+		<defaultcontrol>-</defaultcontrol>
+		<allowoverlay>no</allowoverlay>
+		<controls>
+				<include>Window_OpenClose_Animation</include>
+				<control type="visualisation" id="2">
+						<description>visualisation</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>720</width>
+						<height>576</height>
+				</control>
+				<control type="group">
+						<posy>96</posy>
+						<!--<visible>!System.IdleTime(10)</visible>-->
+						<animation effect="fade" time="500">Visible</animation>
+						<animation effect="fade" time="300">Hidden</animation>
+						<control type="image">
+								<description>media info background image</description>
+								<posx>0</posx>
+								<posy>390</posy>
+								<width>720</width>
+								<height>90</height>
+								<texture>black-back.png</texture>
+						</control>
+						<control type="image">
+								<posx>0</posx>
+								<posy>365</posy>
+								<width>720</width>
+								<height>20</height>
+								<texture>black-back.png</texture>
+								<aspectratio>stretch</aspectratio>
+								<animation effect="fade" delay="5000" start="100" end="0" time="200" condition="Visualisation.Locked">Conditional</animation>
+								<visible>Visualisation.Locked</visible>
+						</control>
+						<control type="label">
+								<posx>170</posx>
+								<posy>365</posy>
+								<label>-</label>
+								<align>left</align>
+								<label>[UPPERCASE][COLOR=orange]($LOCALIZE[20166])[/COLOR][/UPPERCASE] - $LOCALIZE[13388]: $INFO[Visualisation.Preset]</label>
+								<font>size_14</font>
+								<animation effect="fade" delay="0" start="0" end="100" time="100" condition="Visualisation.Locked">Conditional</animation>
+								<animation effect="fade" delay="5000" start="100" end="0" time="200" condition="Visualisation.Locked">Conditional</animation>
+								<visible>Visualisation.Locked</visible>
+						</control>
+						<control type="image">
+								<posx>0</posx>
+								<posy>385</posy>
+								<width>720</width>
+								<height>5</height>
+								<colordiffuse>orange</colordiffuse>
+								<texture>background diffuse.png</texture>
+								<aspectratio>stretch</aspectratio>
+								<visible>Visualisation.Locked</visible>
+						</control>
+						<control type="image">
+								<description>cover image</description>
+								<posx>10</posx>
+								<posy>330</posy>
+								<width>150</width>
+								<height>150</height>
+								<info>MusicPlayer.cover</info>
+								<aspectratio aligny="bottom" align="left">keep</aspectratio>
+								<fadetime>500</fadetime>
+						</control>
+						<control type="image">
+								<posx>240</posx>
+								<posy>100</posy>
+								<width>250</width>
+								<height>250</height>
+								<texture>music_controls.png</texture>
+								<aspectratio>keep</aspectratio>
+								<colordiffuse>10FFFFFF</colordiffuse>
+								<visible>!Player.Paused</visible>
+						</control>
+						<control type="image">
+								<posx>240</posx>
+								<posy>100</posy>
+								<width>250</width>
+								<height>250</height>
+								<texture>music_controls_alt.png</texture>
+								<aspectratio>keep</aspectratio>
+								<colordiffuse>10FFFFFF</colordiffuse>
+								<visible>Player.Paused</visible>
+						</control>
+						<control type="progress">
+								<description>Progressbar</description>
+								<posx>10</posx>
+								<posy>470</posy>
+								<width>150</width>
+								<height>10</height>
+								<info>Player.Progress</info>
+						</control>
+						<control type="label">
+								<posx>170</posx>
+								<posy>390</posy>
+								<width>500</width>
+								<height>25</height>
+								<label>[COLOR=white]Artist:[/COLOR] $INFO[MusicPlayer.Artist]</label>
+								<align>left</align>
+								<aligny>center</aligny>
+								<font>size_18</font>
+								<textcolor>grey2</textcolor>
+						</control>
+						<control type="label">
+								<posx>170</posx>
+								<posy>410</posy>
+								<width>500</width>
+								<height>25</height>
+								<label>[COLOR=white]Song:[/COLOR] $INFO[MusicPlayer.Title]</label>
+								<align>left</align>
+								<aligny>center</aligny>
+								<font>size_18</font>
+								<textcolor>grey2</textcolor>
+						</control>
+						<control type="label">
+								<posx>170</posx>
+								<posy>430</posy>
+								<width>350</width>
+								<height>25</height>
+								<label>[COLOR=white]Album:[/COLOR] $INFO[MusicPlayer.Album]</label>
+								<align>left</align>
+								<aligny>center</aligny>
+								<font>size_18</font>
+								<textcolor>grey2</textcolor>
+						</control>
+						<control type="label">
+								<posx>170</posx>
+								<posy>450</posy>
+								<width>925</width>
+								<height>25</height>
+								<label>$LOCALIZE[209] : $INFO[MusicPlayer.offset(1).Artist,, - ]$INFO[MusicPlayer.offset(1).Title]</label>
+								<align>left</align>
+								<aligny>center</aligny>
+								<font>size_18</font>
+								<textcolor>white</textcolor>
+						</control>
+						<control type="label">
+								<posx>20r</posx>
+								<posy>440</posy>
+								<width>300</width>
+								<height>25</height>
+								<label>$INFO[MusicPlayer.Time]$INFO[Player.Duration, / ]</label>
+								<align>right</align>
+								<aligny>center</aligny>
+								<font>size_30</font>
+								<textcolor>white</textcolor>
+						</control>
+						<control type="label">
+								<posx>10r</posx>
+								<posy>465</posy>
+								<width>300</width>
+								<height>25</height>
+								<label>$INFO[musicplayer.Playlistposition,$LOCALIZE[554]: ]$INFO[musicplayer.Playlistlength, / ]</label>
+								<align>right</align>
+								<aligny>center</aligny>
+								<font>size_18</font>
+								<textcolor>white</textcolor>
+						</control>
+						<control type="label">
+								<posx>350</posx>
+								<posy>475</posy>
+								<width>300</width>
+								<height>25</height>
+								<label />
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_18</font>
+								<textcolor>white</textcolor>
+								<scroll>true</scroll>
+								<visible>MusicPlayer.HasNext</visible>
+						</control>
+				</control>
+		</controls>
+</window>

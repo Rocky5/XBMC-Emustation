@@ -559,7 +559,7 @@
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
-										<animation type="Condition" reversible="false" condition="System.IdleTime(2)" loop="true">
+										<animation type="Condition" reversible="false" condition="System.IdleTime(1)" loop="true">
 												<effect type="zoom" start="0,285,260,130" end="-3,280,270,140" delay="0" time="500" />
 												<effect type="zoom" start="-3,280,270,140" end="0,285,260,130" delay="600" time="500" />
 										</animation>
@@ -650,7 +650,7 @@
 				<control type="group">
 						<posx>17</posx>
 						<posy>10</posy>
-						<animation effect="rotatey" center="0" start="0" end="-52" time="0" condition="true">Conditional</animation>
+						<animation effect="rotatey" center="0" start="0" end="-32" time="0" condition="true">Conditional</animation>
 						<control type="group" id="7002">
 								<visible>Container(9000).OnPrevious + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 								<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
@@ -942,7 +942,7 @@
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
-										<animation type="Condition" reversible="false" condition="System.IdleTime(2)" loop="true">
+										<animation type="Condition" reversible="false" condition="System.IdleTime(1)" loop="true">
 												<effect type="zoom" start="0,285,260,130" end="-3,280,270,140" delay="0" time="500" />
 												<effect type="zoom" start="-3,280,270,140" end="0,285,260,130" delay="600" time="500" />
 										</animation>

@@ -1,0 +1,379 @@
+<window type="dialog" id="1120">
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<controls>
+		<control type="group" id="jump section">
+			<posy>-25</posy>
+			<posx>10</posx>
+			<animation effect="slide" reversable="true" start="0,0" end="0,-25" time="0" condition="Skin.HasSetting(synopsislayout) + !Skin.HasSetting(KioskMode)">conditional</animation>
+			<!-- Normal -->
+			<control type="group">
+				<visible>!Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
+				<control type="image">
+					<description>background image</description>
+					<posx>-15</posx>
+					<posy>0</posy>
+					<width>710</width>
+					<height>555</height>
+					<texture>menu_back_shadow.png</texture>
+				</control>
+				<control type="image">
+					<description>background image</description>
+					<posx>120</posx>
+					<posy>100</posy>
+					<width>440</width>
+					<height>355</height>
+					<colordiffuse>menu_back_image</colordiffuse>
+					<texture border="20,20,20,20">menu_back.png</texture>
+				</control>
+			</control>
+			<!-- kiosk mode -->
+			<control type="group">
+				<visible>Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
+				<control type="image">
+					<description>background image</description>
+					<posx>-15</posx>
+					<posy>50</posy>
+					<width>710</width>
+					<height>305</height>
+					<texture>menu_back_shadow.png</texture>
+				</control>-->
+				<control type="image">
+					<description>background image</description>
+					<posx>120</posx>
+					<posy>100</posy>
+					<width>440</width>
+					<height>205</height>
+					<colordiffuse>menu_back_image</colordiffuse>
+					<texture border="20,20,20,20">menu_back.png</texture>
+				</control>
+			</control>
+			<control type="label">
+				<description>heading label</description>
+				<posx>120</posx>
+				<posy>130</posy>
+				<width>440</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_50</font>
+				<label>[UPPERCASE]$LOCALIZE[30911][/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="grouplist" id="9000">
+				<posx>120</posx>
+				<posy>201</posy>
+				<width>440</width>
+				<height>50</height>
+				<onleft>9000</onleft>
+				<onright>9000</onright>
+				<onup>9004</onup>
+				<ondown>9001</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>horizontal</orientation>
+				<!-- jumpcode -->
+<control type="button" id="8000">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]#[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,0)</onclick>
+</control>
+<control type="button" id="8001">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]A[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,8)</onclick>
+</control>
+<control type="button" id="8002">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]B[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,48)</onclick>
+</control>
+<control type="button" id="8003">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]C[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,100)</onclick>
+</control>
+<control type="button" id="8004">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]D[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,205)</onclick>
+</control>
+<control type="button" id="8005">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]E[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,255)</onclick>
+</control>
+<control type="button" id="8006">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]F[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,281)</onclick>
+</control>
+<control type="button" id="8007">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]G[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,332)</onclick>
+</control>
+<control type="button" id="8008">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]H[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,366)</onclick>
+</control>
+<control type="button" id="8009">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]I[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,389)</onclick>
+</control>
+<control type="button" id="8010">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]J[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,403)</onclick>
+</control>
+<control type="button" id="8011">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]K[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,414)</onclick>
+</control>
+<control type="button" id="8012">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]L[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,434)</onclick>
+</control>
+<control type="button" id="8013">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]M[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,455)</onclick>
+</control>
+<control type="button" id="8014">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]N[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,546)</onclick>
+</control>
+<control type="button" id="8015">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]O[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,627)</onclick>
+</control>
+<control type="button" id="8016">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]P[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,643)</onclick>
+</control>
+<control type="button" id="8017">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]Q[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,684)</onclick>
+</control>
+<control type="button" id="8018">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]R[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,685)</onclick>
+</control>
+<control type="button" id="8019">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]S[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,730)</onclick>
+</control>
+<control type="button" id="8020">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]T[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,846)</onclick>
+</control>
+<control type="button" id="8021">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]U[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,949)</onclick>
+</control>
+<control type="button" id="8022">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]V[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,962)</onclick>
+</control>
+<control type="button" id="8023">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]W[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,969)</onclick>
+</control>
+<control type="button" id="8024">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]X[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,1004)</onclick>
+</control>
+<control type="button" id="8025">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]Y[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,1015)</onclick>
+</control>
+<control type="button" id="8026">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]Z[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>SetFocus(9000,1019)</onclick>
+</control>
+			</control>
+			<control type="grouplist" id="9001">
+				<posx>120</posx>
+				<posy>250</posy>
+				<width>440</width>
+				<height>200</height>
+				<onleft>-</onleft>
+				<onright>-</onright>
+				<onup>9000</onup>
+				<ondown>9002</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>vertical</orientation>
+				<control type="button" id="8050">
+					<label>[UPPERCASE]$LOCALIZE[31400][/UPPERCASE]</label>
+					<include>MenuButtonCommonValues</include>
+					<onclick>Dialog.Close(1120)</onclick>
+					<onclick>SetFocus(9200)</onclick>
+					<onclick>RunScript(special://emustation_scripts/generate_favourites.py)</onclick>
+					<visible>!Skin.HasSetting(KioskMode)</visible>
+				</control>
+			</control>
+			<control type="grouplist" id="9002">
+				<posx>120</posx>
+				<posy>299</posy>
+				<width>440</width>
+				<height>200</height>
+				<onleft>9002</onleft>
+				<onright>9002</onright>
+				<onup>9001</onup>
+				<ondown>9003</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>horizontal</orientation>
+				<visible>!Skin.HasSetting(KioskMode)</visible>
+				<control type="button" id="8040">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]2d[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(xbox_artworkfolder,boxart)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(xbox_artworkfolder),boxart)</visible>
+				</control>
+				<visible>!StringCompare(Skin.String(emuname),xbox) | !StringCompare(Skin.String(emuname),ports)</visible>
+				<control type="button" id="8041">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]3d[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(xbox_artworkfolder,boxart3d)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(xbox_artworkfolder),boxart3d)</visible>
+				</control>
+				<control type="button" id="8042">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]logos[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(xbox_artworkfolder,logo)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(xbox_artworkfolder),logo)</visible>
+				</control>
+				<control type="button" id="8043">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]mix[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(xbox_artworkfolder,mix)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(xbox_artworkfolder),mix)</visible>
+				</control>
+				<control type="button" id="8044">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]screenshots[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(xbox_artworkfolder,screenshots)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(xbox_artworkfolder),screenshots)</visible>
+				</control>
+			</control>
+			<control type="grouplist" id="9003">
+				<posx>120</posx>
+				<posy>348</posy>
+				<width>440</width>
+				<height>200</height>
+				<onleft>-</onleft>
+				<onright>-</onright>
+				<onup>9002</onup>
+				<ondown>9004</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>vertical</orientation>
+				<visible>!Skin.HasSetting(KioskMode) + [Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)]</visible>
+				<control type="radiobutton" id="8060">
+					<label>[UPPERCASE]$LOCALIZE[31403][/UPPERCASE]</label>
+					<include>MenuButtonCommonAltValues</include>
+					<onclick>Skin.ToggleSetting(xboxfanart)</onclick>
+					<selected>Skin.HasSetting(xboxfanart)</selected>
+				</control>
+			</control>
+			<control type="grouplist" id="9004">
+				<posx>120</posx>
+				<posy>348</posy>
+				<width>640</width>
+				<height>200</height>
+				<onleft>-</onleft>
+				<onright>-</onright>
+				<onup>9003</onup>
+				<ondown>9000</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>vertical</orientation>
+				<animation effect="slide" reversable="true" start="0,0" end="0,49" time="0" condition="Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)">conditional</animation>
+				<visible>!Skin.HasSetting(KioskMode) + [StringCompare(Skin.String(emuname),xbox) | StringCompare(Skin.String(emuname),ports)]</visible>
+				<control type="button" id="8070">
+					<label>[UPPERCASE]$LOCALIZE[31404][/UPPERCASE]</label>
+					<include>MenuButtonCommonValues</include>
+					<onclick>Skin.SetBool(editmode)</onclick>
+					<onclick>RunScript(special://emustation_scripts/menu_loader.py,$INFO[Container(9000).ListItem.Label2],editmode)</onclick>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

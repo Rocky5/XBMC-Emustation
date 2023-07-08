@@ -32,14 +32,14 @@ REM for /f "Tokens=*" %%a in ('dir /b /AD /ON "*"') do Echo %%a>>list.txt
 	Echo 				^<onclick^>RunScript^(special://emustation_scripts/menu_loader.py^)^</onclick^>
 	Echo 				^<icon^>layouts/favourites/art/system_art.png^</icon^>
 	Echo 				^<thumb^>layouts/favourites/art/logo.png^</thumb^>
-	Echo 				^<visible^>^^!Skin.HasSetting^(hide_favs_title^)^</visible^>
+	Echo 				^<visible^>IntegerGreaterThan^(Skin.String^(favs_games^),0^) ^+ ^^!Skin.HasSetting^(hide_favs_title^)^</visible^>
 	Echo 		^</item^>
 )>>"system_list.xml"
 
 Set /a count=3
 for /f "Tokens=*" %%a in (system_list.txt) do (
 	Echo  %%~na
-	if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="demos" if not "%%~na"=="atarijaguar" if not "%%~na"=="daphne" if not "%%~na"=="neogeocd" (
+	if not "%%~na"=="demos" if not "%%~na"=="homebrew" if not "%%~na"=="ports" if not "%%~na"=="xbox" if not "%%~na"=="atarijaguar" if not "%%~na"=="daphne" if not "%%~na"=="neogeocd" (
 		Echo 		^<item id^="!count!"^>
 		Echo 				^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
 		Echo 				^<label2^>%%~na^</label2^>
@@ -74,18 +74,6 @@ for /f "Tokens=*" %%a in (system_list.txt) do (
 		Echo 				^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
 		Echo 		^</item^>
 	)>>"system_list.xml"
-	
-	REM if "%%~na"=="mame" (
-		REM Echo 		^<item id^="!count!"^>
-		REM Echo 				^<label^>Launch Emulator: $INFO^[Skin.String^(%%~na_games^)^]^</label^>
-		REM Echo 				^<label2^>%%~na^</label2^>
-		REM Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
-		REM Echo 				^<onclick^>RunScript^(special://emustation_scripts/direct_launch_emulator.py,1,^)^</onclick^>
-		REM Echo 				^<icon^>layouts/%%~na/art/system_art.png^</icon^>
-		REM Echo 				^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
-		REM Echo 				^<visible^>Skin.HasSetting^(%%~na_exists^)^</visible^>
-		REM Echo 		^</item^>
-	REM )>>"system_list.xml"
 
 	if "%%~na"=="neogeocd" (
 		Echo 		^<item id^="!count!"^>
@@ -109,7 +97,19 @@ for /f "Tokens=*" %%a in (system_list.txt) do (
 		Echo 				^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
 		Echo 				^<visible^>IntegerGreaterThan^(Skin.String^(ports_games^),0^)^</visible^>
 		Echo 		^</item^>
-)>>"system_list.xml"
+	)>>"system_list.xml"
+
+if "%%~na"=="homebrew" (
+		Echo 		^<item id^="!count!"^>
+		Echo 				^<label^>$INFO^[Skin.String^(%%~na_games^)^]^</label^>
+		Echo 				^<label2^>%%~na^</label2^>
+		Echo 				^<onclick^>SetFocus^(9100^)^</onclick^>
+		Echo 				^<onclick^>RunScript^(special://emustation_scripts/menu_loader.py^)^</onclick^>
+		Echo 				^<icon^>layouts/%%~na/art/system_art.png^</icon^>
+		Echo 				^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
+		Echo 				^<visible^>IntegerGreaterThan^(Skin.String^(homebrew_games^),0^)^</visible^>
+		Echo 		^</item^>
+	)>>"system_list.xml"
 
 if "%%~na"=="demos" (
 		Echo 		^<item id^="!count!"^>
@@ -121,7 +121,7 @@ if "%%~na"=="demos" (
 		Echo 				^<thumb^>layouts/%%~na/art/logo.png^</thumb^>
 		Echo 				^<visible^>IntegerGreaterThan^(Skin.String^(demos_games^),0^)^</visible^>
 		Echo 		^</item^>
-)>>"system_list.xml"
+	)>>"system_list.xml"
 	
 if "%%~na"=="xbox" (
 		Echo 		^<item id^="!count!"^>

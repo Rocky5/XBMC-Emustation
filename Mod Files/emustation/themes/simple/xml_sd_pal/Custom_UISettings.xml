@@ -1,0 +1,365 @@
+<window type="dialog" id="1113">
+		<defaultcontrol always="true">9000</defaultcontrol>
+		<onload condition="StringCompare(Skin.String(videodelay),)">Skin.SetString(videodelay,1)</onload>
+		<onload condition="StringCompare(Skin.String(CurrentLayoutTheme),)">Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31261])</onload>
+		<onload condition="StringCompare(Skin.String(CurrentLayoutTheme),)">Skin.Reset(synopsislayout)</onload>
+		<onload condition="StringCompare(Skin.String(CurrentLayoutTheme),)">Skin.Reset(thumblayout)</onload>
+		<onload condition="StringCompare(Skin.String(CurrentLayoutTheme),)">Skin.Reset(videoayout)</onload>
+		<onload condition="StringCompare(Skin.String(CurrentCarouselAnimation),)">Skin.SetString(CurrentCarouselAnimation,$LOCALIZE[31294])</onload>
+		<onload condition="StringCompare(Skin.String(CurrentHomeBackgroundAnimation),)">Skin.SetString(CurrentHomeBackgroundAnimation,$LOCALIZE[31294])</onload>
+		<onload condition="StringCompare(Skin.String(CurrentWindowAnimation),)">Skin.SetString(CurrentWindowAnimation,$LOCALIZE[31294])</onload>
+		<controls>
+				<control type="group">
+						<visible>!Window.IsActive(1300)</visible>
+						<posy>0</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>150</posx>
+								<posy>80</posy>
+								<width>430</width>
+								<height>380</height>
+								<colordiffuse>menu_back_image</colordiffuse>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>150</posx>
+								<posy>80</posy>
+								<width>430</width>
+								<height>80</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_50</font>
+								<label>[UPPERCASE]$LOCALIZE[31202][/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<!-- Main Menu -->
+						<control type="grouplist" id="9000">
+								<posx>150</posx>
+								<posy>170</posy>
+								<width>431</width>
+								<height>255</height>
+								<onleft>-</onleft>
+								<onright>-</onright>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<itemgap>-1</itemgap>
+								<control type="button" id="1">
+										<description>Change Layout Types</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>SetFocus(100)</onright>
+										<onleft>SetFocus(110)</onleft>
+										<label>[UPPERCASE][UPPERCASE]$LOCALIZE[31260][/UPPERCASE]</label>
+										<label2>[UPPERCASE]&lt;  $INFO[Skin.String(CurrentLayoutTheme)]  &gt;[/UPPERCASE]</label2>
+										<include>MenuButtonMenuValues</include>
+								</control>
+								<control type="button" id="2">
+										<description>Video delay</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>SetFocus(120)</onright>
+										<onleft>SetFocus(130)</onleft>
+										<label> -   $LOCALIZE[31265]</label>
+										<label2>&lt;  $INFO[Skin.String(videodelay)]  &gt;</label2>
+										<include>MenuButtonMenuValues</include>
+										<visible>Skin.HasSetting(videolayout)</visible>
+								</control>
+								<control type="button" id="3">
+										<description>Home Customization</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31266][/UPPERCASE]</label>
+										<include>MenuFolderButtonMenuValues</include>
+										<onclick>ActivateWindow(1300)</onclick>
+								</control>
+								<control type="radiobutton" id="11">
+										<description>Disable Festive overlays</description>
+										<include>MenuButtonMenuValues</include>
+										<label>[UPPERCASE]$LOCALIZE[31267][/UPPERCASE]</label>
+										<onclick>Skin.ToggleSetting(festiveoverlaydisabled)</onclick>
+										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,show_both-festiveoverlaydisabled,NOTICE,,Home screen must be reloaded for[CR]this change to take effect )</onclick>
+										<selected>Skin.HasSetting(festiveoverlaydisabled)</selected>
+								</control>
+								<control type="radiobutton" id="12">
+										<description>Disable Favs title</description>
+										<include>MenuButtonMenuValues</include>
+										<label>[UPPERCASE]$LOCALIZE[31272][/UPPERCASE]</label>
+										<onclick>Skin.ToggleSetting(hide_favs_title)</onclick>
+										<selected>Skin.HasSetting(hide_favs_title)</selected>
+								</control>
+								<control type="radiobutton" id="20">
+										<description>Enable Default to last rom</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31268][/UPPERCASE]</label>
+										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
+										<include>MenuButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(lastromlist)</onclick>
+										<selected>Skin.HasSetting(lastromlist)</selected>
+								</control>
+								<control type="radiobutton" id="21">
+										<description>Enable Default to last rom</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31271][/UPPERCASE]</label>
+										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
+										<include>MenuButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(reloademustation)</onclick>
+										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,show_enabled-reloademustation,NOTICE,This feature requires my dashloader,Included with The Xbox Softmodding Tool v1.1.7+,Hardmod version is on my Github )</onclick>
+										<selected>Skin.HasSetting(reloademustation)</selected>
+								</control>
+								<control type="radiobutton" id="22">
+										<description>Enable Intro</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31269][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(introenabled)</onclick>
+										<onclick>RunScript( special://emustation_scripts/toggle_advancedsettings_settings.py,enableintro,splash )</onclick>
+										<selected>Skin.HasSetting(introenabled)</selected>
+								</control>
+								<control type="radiobutton" id="23">
+										<description>Enable Kiosk Mode</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31270][/UPPERCASE]</label>
+										<label2>-</label2>
+										<include>MenuButtonMenuValues</include>
+										<onclick>RunScript( special://emustation_scripts/kioskmode.py )</onclick>
+										<selected>Skin.HasSetting(KioskMode)</selected>
+								</control>
+						</control>
+				</control>
+				<!-- going right -->
+				<!-- <control type="button" id="100"> -->
+				<!-- <posx>-500</posx> -->
+				<!-- <onfocus>SetFocus(1)</onfocus> -->
+				<!-- <onfocus>Skin.ToggleSetting(synopsislayout)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
+				<!-- <onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31262])</onfocus> -->
+				<!-- <visible>!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout)</visible> -->
+				<!-- </control> -->
+				<!-- <control type="button" id="100"> -->
+				<!-- <posx>-500</posx> -->
+				<!-- <posy>0</posy> -->
+				<!-- <onfocus>SetFocus(1)</onfocus> -->
+				<!-- <onfocus>Skin.ToggleSetting(thumblayout)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
+				<!-- <onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31263])</onfocus> -->
+				<!-- <visible>Skin.HasSetting(synopsislayout)</visible> -->
+				<!-- </control> -->
+				<!-- <control type="button" id="100"> -->
+				<!-- <posx>-500</posx> -->
+				<!-- <onfocus>SetFocus(1)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
+				<!-- <onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31261])</onfocus> -->
+				<!-- <visible>Skin.HasSetting(thumblayout)</visible> -->
+				<!-- </control> -->
+				<!-- going left -->
+				<!-- <control type="button" id="110"> -->
+				<!-- <posx>-500</posx> -->
+				<!-- <onfocus>SetFocus(1)</onfocus> -->
+				<!-- <onfocus>Skin.ToggleSetting(thumblayout)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
+				<!-- <onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31263])</onfocus> -->
+				<!-- <visible>!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout)</visible> -->
+				<!-- </control> -->
+				<!-- <control type="button" id="110"> -->
+				<!-- <posx>-500</posx> -->
+				<!-- <onfocus>SetFocus(1)</onfocus> -->
+				<!-- <onfocus>Skin.ToggleSetting(synopsislayout)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
+				<!-- <onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31262])</onfocus> -->
+				<!-- <visible>Skin.HasSetting(thumblayout)</visible> -->
+				<!-- </control> -->
+				<!-- <control type="button" id="110"> -->
+				<!-- <posx>-500</posx> -->
+				<!-- <onfocus>SetFocus(1)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
+				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
+				<!-- <onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31261])</onfocus> -->
+				<!-- <visible>Skin.HasSetting(synopsislayout)</visible> -->
+				<!-- </control> -->
+				<!-- going right -->
+				<control type="button" id="100">
+						<description>Basic View</description>
+						<posx>-500</posx>
+						<onfocus>Skin.Reset(synopsislayout)</onfocus>
+						<onfocus>Skin.Reset(thumblayout)</onfocus>
+						<onfocus>Skin.Reset(videolayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31261])</onfocus>
+						<visible>Skin.HasSetting(videolayout)</visible>
+				</control>
+				<control type="button" id="100">
+						<description>Detailed View</description>
+						<posx>-500</posx>
+						<onfocus>Skin.ToggleSetting(synopsislayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.Reset(thumblayout)</onfocus>
+						<onfocus>Skin.Reset(videolayout)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31262])</onfocus>
+						<visible>!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout) + !Skin.HasSetting(videolayout)</visible>
+				</control>
+				<control type="button" id="100">
+						<description>Thumbnail View</description>
+						<posx>-500</posx>
+						<posy>0</posy>
+						<onfocus>Skin.ToggleSetting(thumblayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.Reset(synopsislayout)</onfocus>
+						<onfocus>Skin.Reset(videolayout)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31263])</onfocus>
+						<visible>Skin.HasSetting(synopsislayout)</visible>
+				</control>
+				<control type="button" id="100">
+						<description>Video View</description>
+						<posx>-500</posx>
+						<onfocus>Skin.ToggleSetting(videolayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.Reset(synopsislayout)</onfocus>
+						<onfocus>Skin.Reset(thumblayout)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31264])</onfocus>
+						<visible>Skin.HasSetting(thumblayout)</visible>
+				</control>
+				<!-- going left -->
+				<control type="button" id="110">
+						<description>Basic View</description>
+						<posx>-500</posx>
+						<onfocus>Skin.Reset(synopsislayout)</onfocus>
+						<onfocus>Skin.Reset(thumblayout)</onfocus>
+						<onfocus>Skin.Reset(videolayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31261])</onfocus>
+						<visible>Skin.HasSetting(synopsislayout)</visible>
+				</control>
+				<control type="button" id="110">
+						<description>Video View</description>
+						<posx>-500</posx>
+						<onfocus>Skin.ToggleSetting(videolayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.Reset(thumblayout)</onfocus>
+						<onfocus>Skin.Reset(synopsislayout)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31264])</onfocus>
+						<visible>!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout) + !Skin.HasSetting(videolayout)</visible>
+				</control>
+				<control type="button" id="110">
+						<description>Thumbnail View</description>
+						<posx>-500</posx>
+						<onfocus>Skin.ToggleSetting(thumblayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.Reset(synopsislayout)</onfocus>
+						<onfocus>Skin.Reset(videolayout)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31263])</onfocus>
+						<visible>Skin.HasSetting(videolayout)</visible>
+				</control>
+				<control type="button" id="110">
+						<description>Detailed View</description>
+						<posx>-500</posx>
+						<onfocus>Skin.ToggleSetting(synopsislayout)</onfocus>
+						<onfocus>SetFocus(1)</onfocus>
+						<onfocus>Skin.Reset(thumblayout)</onfocus>
+						<onfocus>Skin.Reset(videolayout)</onfocus>
+						<onfocus>Skin.SetString(CurrentLayoutTheme,$LOCALIZE[31262])</onfocus>
+						<visible>Skin.HasSetting(thumblayout)</visible>
+				</control>
+				<!-- going right -->
+				<control type="button" id="120">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,2)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),1)</visible>
+				</control>
+				<control type="button" id="120">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,3)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),2)</visible>
+				</control>
+				<control type="button" id="120">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,4)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),3)</visible>
+				</control>
+				<control type="button" id="120">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,5)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),4)</visible>
+				</control>
+				<control type="button" id="120">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,1)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),5)</visible>
+				</control>
+				<!-- going left -->
+				<control type="button" id="130">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,1)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),2)</visible>
+				</control>
+				<control type="button" id="130">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,2)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),3)</visible>
+				</control>
+				<control type="button" id="130">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,3)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),4)</visible>
+				</control>
+				<control type="button" id="130">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,4)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),5)</visible>
+				</control>
+				<control type="button" id="130">
+						<description>Video seconds</description>
+						<posx>-500</posx>
+						<onfocus>Skin.SetString(videodelay,5)</onfocus>
+						<onfocus>SetFocus(2)</onfocus>
+						<visible>StringCompare(Skin.String(videodelay),1)</visible>
+				</control>
+				<control type="image">
+						<posx>182r</posx>
+						<posy>150</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-up.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+				<control type="image">
+						<posx>182r</posx>
+						<posy>145r</posy>
+						<width>22</width>
+						<height>22</height>
+						<texture>scroll-down.png</texture>
+						<colordiffuse>menu_header_label</colordiffuse>
+						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
+								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
+						</animation>
+				</control>
+		</controls>
+</window>

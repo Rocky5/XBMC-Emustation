@@ -1,0 +1,137 @@
+<window type="window" id="1900">
+		<defaultcontrol always="true">9000</defaultcontrol>
+		<controls>
+				<!-- Background Images -->
+				<control type="image">
+						<description>background</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>720</width>
+						<height>480</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FF97999B</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<!-- Top Underlay Image -->
+				<control type="image">
+						<description>top bar</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>720</width>
+						<height>90</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC8CACB</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<!-- System Log -->
+				<control type="image">
+						<description>logo</description>
+						<posx>30</posx>
+						<posy>20</posy>
+						<width>490</width>
+						<height>52</height>
+						<aspectratio align="left">keep</aspectratio>
+						<texture>layouts/settings/art/logo.png</texture>
+				</control>
+				<!-- Bottom Underlay Image -->
+				<control type="image">
+						<posx>0</posx>
+						<posy>47r</posy>
+						<width>720</width>
+						<height>47</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC5C6C7</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<include>ContextButtonsSettings</include>
+				<control type="group">
+						<animation type="WindowOpen" reversible="false">
+								<effect type="fade" start="0" end="100" time="500" delay="100" />
+						</animation>
+						<animation type="Windowclose" reversible="false">
+								<effect type="fade" start="0" end="0" time="100" />
+						</animation>
+						<control type="textbox">
+								<posx>45</posx>
+								<posy>90</posy>
+								<height>342</height>
+								<label>[B]Buzz[/B]
+  For maintaining XBMC4Xbox over the years.
+[B]EmulationStation folk for[/B]
+  Simple - GitHub es-theme-simple
+  Carbon - GitHub es-theme-carbon
+[B]Mattrixk[/B]
+  Spare - Github es-theme-spare
+[B]Anthony Caccese[/B]
+  Art Book - GitHub es-theme-art-book
+[B]TMNTturtleguy[/B]
+  ComicBook - GitHub es-theme-comicbook
+[B]AmadhiX[/B]
+  Eudora - GitHub es-theme-eudora
+[B]MadMab &amp; Emuxtras Website[/B]
+  For the emulators on the Xbox - MadMab Emulators
+[B]Voidsentinel[/B]
+  For the 3 cartridge images I used for the favourites logo - Deviantart
+[B]Testers for feedback and suggestions.[/B]
+  Mikeaton, Randyslim76, Jay Yardley &amp; smithis
+  Also to anyone else I may have forgot.
+[B]Supplied Xbox Resources.[/B]
+  Cameron, Cian &amp; Deon</label>
+								<textcolor>FF282A2B</textcolor>
+								<shadowcolor>00000000</shadowcolor>
+								<font>size_20</font>
+								<align>left</align>
+								<scrolltime>200</scrolltime>
+								<autoscroll delay="5000" time="2000" repeat="10000">true</autoscroll>								
+						</control>
+						<control type="label">
+								<posx>300</posx>
+								<posy>442</posy>
+								<label>Note:</label>
+								<textcolor>FF282A2B</textcolor>
+								<shadowcolor>00000000</shadowcolor>
+								<font>size_18</font>
+								<width>40</width>
+								<align>left</align>
+						</control>
+						<control type="label">
+								<posx>342</posx>
+								<posy>442</posy>
+								<label>All themes were recreated from scratch due to the skinning engines being completely different.</label>
+								<textcolor>FF282A2B</textcolor>
+								<shadowcolor>00000000</shadowcolor>
+								<font>size_18</font>
+								<width>340</width>
+								<align>left</align>
+								<scroll>true</scroll>
+								<scrollspeed>30</scrollspeed>
+						</control>				
+						<control type="label">
+								<posx>460</posx>
+								<posy>360</posy>
+								<label>XBMC-Emustation</label>
+								<textcolor>FF282A2B</textcolor>
+								<shadowcolor>00000000</shadowcolor>
+								<font>size_30</font>
+								<align>right</align>
+						</control>
+						<control type="label">
+								<posx>460</posx>
+								<posy>350</posy>
+								<label>Rocky5, creator of:</label>
+								<textcolor>FF282A2B</textcolor>
+								<shadowcolor>00000000</shadowcolor>
+								<font>size_15</font>
+								<align>right</align>
+						</control>
+						<control type="image">
+								<posx>450</posx>
+								<posy>80</posy>
+								<width>259</width>
+								<height>314</height>
+								<texture>rocky5.png</texture>
+								<aspectratio>keep</aspectratio>
+						</control>
+				</control>
+		</controls>
+</window>

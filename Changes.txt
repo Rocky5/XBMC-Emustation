@@ -1,8 +1,20 @@
-28/12/2022
-	1) Added X3 3294 and X2 5035 bios support for the auto video mode switching.
-	2) Removed the 1080i menu option from system > video output
-	3) Added disable progressive video modes when holding X+B on load.
-		
+08/07/2023
+	1) Added support for SD resolutions.
+		(Big thank you to loggio for doing all the SD theme xml sizing, without him I wouldn't have added SD support. Downloader now supports SD resolutions also.)
+	2) Update the play_preview.py script, streamlined it a bit, removed .strm support and made it start your play list after a video.
+		(If you have startup playlist enabled and audio was playing)
+	3) Updated the auto_play_preview.py script, streamlined it and improved it a bit.
+	4) Moved the layout overlay outside of the menu_loader.py script.
+		(This is part of the SD resolution stuff)
+	5) Layout overlay will stop a video if playing.
+		(Done this to stop the side effect of exiting said window and the video is still playing as you move about)
+	6) Favs title will auto hide if no favourites are present.
+	7) Few new variants for the background images on the carousel.
+	8) Added Homebrew to the carousel, so you can use that instead of ports etc...
+		(all themes updated with new artwork)
+	9) Updated create_rom_lists.py decreased its size and also made xbe content use synopsis naming.
+	10) Updated Xbox synopsis and Homebrew/Ports synopsis.
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Patron Supporters:
@@ -15,6 +27,12 @@ Would also like to thank everyone that donates its much appreciated.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Previous Updates:
+
+28/12/2022
+	1) Added X3 3294 and X2 5035 bios support for the auto video mode switching.
+	2) Removed the 1080i menu option from system > video output
+	3) Added disable progressive video modes when holding X+B on load.
+
 
 16/12/2022
 	1) Can now parse CHD files for PSX.

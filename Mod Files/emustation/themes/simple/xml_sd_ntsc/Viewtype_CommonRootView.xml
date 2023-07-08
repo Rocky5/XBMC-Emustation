@@ -1,0 +1,120 @@
+<includes>
+		<include name="CommonRootView">
+				<control type="panel" id="50">
+						<posx>50</posx>
+						<posy>90</posy>
+						<width>1175</width>
+						<height>550</height>
+						<onleft>9000</onleft>
+						<onright>60</onright>
+						<onup>50</onup>
+						<ondown>50</ondown>
+						<viewtype label="535">list</viewtype>
+						<pagecontrol>60</pagecontrol>
+						<scrolltime>200</scrolltime>
+						<preloaditems>0</preloaditems>
+						<itemlayout height="50" width="1175">
+								<control type="image">
+										<posx>0</posx>
+										<posy>1</posy>
+										<width>1175</width>
+										<height>48</height>
+										<texture>thumbnf.png</texture>
+								</control>
+								<control type="image">
+										<posx>2.5</posx>
+										<posy>2.5</posy>
+										<width>45</width>
+										<height>45</height>
+										<texture background="true">$INFO[listitem.icon]</texture>
+										<bordertexture border="5">white-back.png</bordertexture>
+										<bordersize>2</bordersize>
+								</control>
+								<control type="label">
+										<posx>60</posx>
+										<posy>5</posy>
+										<width>1175</width>
+										<height>25</height>
+										<font>size_28</font>
+										<textcolor>FF403F3C</textcolor>
+										<selectedcolor>FF403F3C</selectedcolor>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+								</control>
+								<control type="label">
+										<posx>60</posx>
+										<posy>30</posy>
+										<width>1175</width>
+										<height>15</height>
+										<font>size_12</font>
+										<textcolor>FF403F3C</textcolor>
+										<selectedcolor>FF403F3C</selectedcolor>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>[UPPERCASE]Path: $INFO[ListItem.FolderPath][/UPPERCASE]</label>
+										<visible>!StringCompare(ListItem.Label,Music) + !StringCompare(ListItem.Label,..)</visible>
+								</control>
+						</itemlayout>
+						<focusedlayout height="50" width="1175">
+								<control type="image">
+										<posx>0</posx>
+										<posy>0</posy>
+										<width>1175</width>
+										<height>50</height>
+										<texture>button-focus4.png</texture>
+								</control>
+								<control type="image">
+										<posx>2.5</posx>
+										<posy>2.5</posy>
+										<width>45</width>
+										<height>45</height>
+										<texture background="true">$INFO[listitem.icon]</texture>
+										<bordertexture border="5">white-back.png</bordertexture>
+										<bordersize>2</bordersize>
+								</control>
+								<control type="label">
+										<posx>60</posx>
+										<posy>5</posy>
+										<width>1175</width>
+										<height>25</height>
+										<font>size_28</font>
+										<textcolor>FFFFFFFF</textcolor>
+										<selectedcolor>FFFFFFFF</selectedcolor>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+								</control>
+								<control type="label">
+										<posx>60</posx>
+										<posy>30</posy>
+										<width>1175</width>
+										<height>15</height>
+										<font>size_12</font>
+										<textcolor>FFFFFFFF</textcolor>
+										<selectedcolor>FFFFFFFF</selectedcolor>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>[UPPERCASE]Path: $INFO[ListItem.FolderPath][/UPPERCASE]</label>
+										<visible>!StringCompare(ListItem.Label,Music) + !StringCompare(ListItem.Label,..)</visible>
+								</control>
+						</focusedlayout>
+				</control>
+				<control type="scrollbar" id="60">
+						<posx>1226</posx>
+						<posy>90</posy>
+						<width>15</width>
+						<height>550</height>
+						<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>
+						<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+						<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+						<textureslidernib>scrollbar_nib.png</textureslidernib>
+						<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+						<onleft>50</onleft>
+						<onright>9000</onright>
+						<showonepage>false</showonepage>
+						<orientation>vertical</orientation>
+						<visible>Control.IsVisible(50)</visible>
+				</control>
+		</include>
+</includes>

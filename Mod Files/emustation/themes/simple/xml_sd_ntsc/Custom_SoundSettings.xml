@@ -1,0 +1,146 @@
+<window type="dialog" id="1112">
+		<defaultcontrol always="true">1</defaultcontrol>
+		<controls>
+				<control type="group">
+						<posy>0</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>150</posx>
+								<posy>50</posy>
+								<width>430</width>
+								<height>380</height>
+								<colordiffuse>menu_back_image</colordiffuse>
+								<texture border="20,20,20,20">menu_back.png</texture>
+								<visible>Skin.HasSetting(KioskMode)</visible>
+						</control>
+						<control type="image">
+								<description>background image</description>
+								<posx>150</posx>
+								<posy>50</posy>
+								<width>430</width>
+								<height>380</height>
+								<colordiffuse>menu_back_image</colordiffuse>
+								<texture border="20,20,20,20">menu_back.png</texture>
+								<visible>!Skin.HasSetting(KioskMode)</visible>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>150</posx>
+								<posy>60</posy>
+								<width>430</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_50</font>
+								<label>[UPPERCASE]$LOCALIZE[31201][/UPPERCASE]</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<control type="grouplist" id="9000">
+								<posx>150</posx>
+								<posy>120</posy>
+								<width>431</width>
+								<height>295</height>
+								<onright>9000</onright>
+								<onleft>9000</onleft>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<itemgap>-1</itemgap>
+								<scrolltime>3</scrolltime>
+								<control type="button" id="1">
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>VolumeUp</onright>
+										<onleft>VolumeDown</onleft>
+										<label>[UPPERCASE]$LOCALIZE[31230] $LOCALIZE[13376][/UPPERCASE]</label>
+										<include>MenuVolumeButtonMenuValues</include>
+										<onclick>-</onclick>
+								</control>
+								<control type="radiobutton" id="2">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31231][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(DisabledSounds)</onclick>
+										<onclick>RunScript( special://emustation_scripts/dis-enable_navsounds.py )</onclick>
+										<selected>Skin.HasSetting(DisabledSounds)</selected>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
+								</control>
+								<control type="radiobutton" id="3">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31235][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(OldPlayerControls)</onclick>
+										<selected>Skin.HasSetting(OldPlayerControls)</selected>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
+								</control>
+								<control type="radiobutton" id="4">
+										<posx>0</posx>
+										<posy>0</posy>
+										<label>[UPPERCASE]$LOCALIZE[31232][/UPPERCASE]</label>
+										<include>MenuButtonMenuValues</include>
+										<onclick>Skin.ToggleSetting(Use_Startup_Playback)</onclick>
+										<selected>Skin.HasSetting(Use_Startup_Playback)</selected>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
+								</control>
+								<control type="button" id="5">
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>VolumeUp</onright>
+										<onleft>VolumeDown</onleft>
+										<label> -  $LOCALIZE[31233]</label>
+										<label2>E:\Music, F:\Music and G:\Music</label2>
+										<include>MenuButtonMenuValues</include>
+										<onclick>RunScript( special://emustation_scripts/generate_playlist.py )</onclick>
+										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
+								</control>
+								<control type="button" id="6">
+										<posx>0</posx>
+										<posy>0</posy>
+										<onright>VolumeUp</onright>
+										<onleft>VolumeDown</onleft>
+										<label> -  $LOCALIZE[31234]</label>
+										<!-- <label2>$INFO[Skin.String(Startup_Playback_Path)]</label2> -->
+										<include>MenuButtonMenuValues</include>
+										<onclick>ActivateWindow(500)</onclick>
+										<onclick>Dialog.Close(All,true)</onclick>
+										<visible>Skin.HasSetting(Use_Startup_Playback)</visible>
+										<visible>!Skin.HasSetting(KioskMode)</visible>
+								</control>
+						</control>
+						<control type="progress" id="1000">
+								<description>Progressbar</description>
+								<posx>-500</posx>
+								<info>Player.Volume</info>
+								<visible>true</visible>
+						</control>
+						<control type="label">
+								<description>.DB label</description>
+								<posx>230r</posx>
+								<posy>120</posy>
+								<width>100</width>
+								<height>43</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_23</font>
+								<label>[UPPERCASE]$INFO[Control.GetLabel(1000),,%][/UPPERCASE]</label>
+								<textcolor>menu_select_label</textcolor>
+								<visible>Control.HasFocus(1)</visible>
+						</control>
+						<control type="label">
+								<description>.DB label</description>
+								<posx>230r</posx>
+								<posy>120</posy>
+								<width>100</width>
+								<height>43</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_23</font>
+								<label>[UPPERCASE]$INFO[Control.GetLabel(1000),,%][/UPPERCASE]</label>
+								<textcolor>menu_deselect_label</textcolor>
+								<visible>!Control.HasFocus(1)</visible>
+						</control>
+				</control>
+		</controls>
+</window>

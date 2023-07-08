@@ -2196,7 +2196,7 @@ Index: xbmc/Application.cpp
  }
  
  #ifdef _XBOX
-@@ -716,798 +732,905 @@
+@@ -716,798 +732,907 @@
  {
  
  #ifdef HAS_XBOX_HARDWARE
@@ -3166,6 +3166,7 @@ Index: xbmc/Application.cpp
 +		g_guiSettings.SetString("network.subnet", "255.255.255.0");
 +		g_guiSettings.SetString("network.gateway", "192.168.0.1");
 +		g_guiSettings.SetString("network.dns", "192.168.0.1");
++		g_guiSettings.SetString("network.dns2", "0.0.0.0");
 +		g_guiSettings.SetBool("services.ftpserver", true);
 +		g_guiSettings.SetBool("services.webserver", false);
 +		g_guiSettings.SetBool("locale.timeserver", false);
@@ -3177,15 +3178,12 @@ Index: xbmc/Application.cpp
 +	
 +	StartServices();
 +	
-+	g_windowManager.Add(new CGUIWindowHome);                     // window id = 0
++	CLog::Log(LOGNOTICE, "load simple skin:[%s]", g_guiSettings.GetString("lookandfeel.skin").c_str());
++	LoadSkin(g_guiSettings.GetString("lookandfeel.skin"));
  
 -  /* setup network based on our settings */
 -  /* network will start it's init procedure */
 -  m_network.SetupNetwork();
-+	CLog::Log(LOGNOTICE, "load simple skin:[%s]", g_guiSettings.GetString("lookandfeel.skin").c_str());
-+	LoadSkin(g_guiSettings.GetString("lookandfeel.skin"));
- 
--  StartServices();
 +	g_windowManager.Add(new CGUIWindowPrograms);                 // window id = 1
 +	g_windowManager.Add(new CGUIWindowPictures);                 // window id = 2
 +	g_windowManager.Add(new CGUIWindowFileManager);      // window id = 3
@@ -3235,12 +3233,18 @@ Index: xbmc/Application.cpp
 +	g_windowManager.Add(new CGUIDialogPluginSettings);      // window id = 140
 +	g_windowManager.Add(new CGUIDialogTextViewer);              // window id = 147
  
--  g_windowManager.Add(new CGUIWindowHome);                     // window id = 0
+-  StartServices();
 +	g_windowManager.Add(new CGUIDialogLockSettings); // window id = 131
+ 
+-  g_windowManager.Add(new CGUIWindowHome);                     // window id = 0
++	g_windowManager.Add(new CGUIDialogContentSettings);        // window id = 132
  
 -  CLog::Log(LOGNOTICE, "load default skin:[%s]", g_guiSettings.GetString("lookandfeel.skin").c_str());
 -  LoadSkin(g_guiSettings.GetString("lookandfeel.skin"));
-+	g_windowManager.Add(new CGUIDialogContentSettings);        // window id = 132
++	g_windowManager.Add(new CGUIWindowMusicPlayList);          // window id = 500
++	g_windowManager.Add(new CGUIWindowMusicSongs);             // window id = 501
++	g_windowManager.Add(new CGUIWindowMusicNav);               // window id = 502
++	g_windowManager.Add(new CGUIWindowMusicPlaylistEditor);    // window id = 503
  
 -  g_windowManager.Add(new CGUIWindowPrograms);                 // window id = 1
 -  g_windowManager.Add(new CGUIWindowPictures);                 // window id = 2
@@ -3290,12 +3294,6 @@ Index: xbmc/Application.cpp
 -  g_windowManager.Add(new CGUIDialogPictureInfo);      // window id = 139
 -  g_windowManager.Add(new CGUIDialogPluginSettings);      // window id = 140
 -  g_windowManager.Add(new CGUIDialogTextViewer);              // window id = 147
-+	g_windowManager.Add(new CGUIWindowMusicPlayList);          // window id = 500
-+	g_windowManager.Add(new CGUIWindowMusicSongs);             // window id = 501
-+	g_windowManager.Add(new CGUIWindowMusicNav);               // window id = 502
-+	g_windowManager.Add(new CGUIWindowMusicPlaylistEditor);    // window id = 503
- 
--  g_windowManager.Add(new CGUIDialogLockSettings); // window id = 131
 +	g_windowManager.Add(new CGUIDialogSelect);             // window id = 2000
 +	g_windowManager.Add(new CGUIWindowMusicInfo);                // window id = 2001
 +	g_windowManager.Add(new CGUIDialogOK);                 // window id = 2002
@@ -3306,7 +3304,7 @@ Index: xbmc/Application.cpp
 +	g_windowManager.Add(new CGUIWindowSlideShow);          // window id = 2007
 +	g_windowManager.Add(new CGUIDialogFileStacking);       // window id = 2008
  
--  g_windowManager.Add(new CGUIDialogContentSettings);        // window id = 132
+-  g_windowManager.Add(new CGUIDialogLockSettings); // window id = 131
 +	g_windowManager.Add(new CGUIWindowOSD);                // window id = 2901
 +	g_windowManager.Add(new CGUIWindowMusicOverlay);       // window id = 2903
 +	g_windowManager.Add(new CGUIWindowVideoOverlay);       // window id = 2904
@@ -3314,10 +3312,7 @@ Index: xbmc/Application.cpp
 +	g_windowManager.Add(new CGUIWindowWeather);            // window id = 2600 WEATHER
 +	g_windowManager.Add(new CGUIWindowStartup);            // startup window (id 2999)
  
--  g_windowManager.Add(new CGUIWindowMusicPlayList);          // window id = 500
--  g_windowManager.Add(new CGUIWindowMusicSongs);             // window id = 501
--  g_windowManager.Add(new CGUIWindowMusicNav);               // window id = 502
--  g_windowManager.Add(new CGUIWindowMusicPlaylistEditor);    // window id = 503
+-  g_windowManager.Add(new CGUIDialogContentSettings);        // window id = 132
 +	if (CFile::Exists("Special://root/updater/default.xbe"))
 +	{
 +		if (CGUIDialogYesNo::ShowAndGetInput(g_localizeStrings.Get(33049), "Updater found.", "Would you like to continue with the update?", "", "No", "Yes"))
@@ -3382,6 +3377,28 @@ Index: xbmc/Application.cpp
 +		g_guiSettings.m_LookAndFeelResolution = res;
 +	}
  
+-  g_windowManager.Add(new CGUIWindowMusicPlayList);          // window id = 500
+-  g_windowManager.Add(new CGUIWindowMusicSongs);             // window id = 501
+-  g_windowManager.Add(new CGUIWindowMusicNav);               // window id = 502
+-  g_windowManager.Add(new CGUIWindowMusicPlaylistEditor);    // window id = 503
++	/* window id's 3000 - 3100 are reserved for python */
++	g_DownloadManager.Initialize();
++	
++	m_ctrDpad.SetDelays(100, 500); //g_settings.m_iMoveDelayController, g_settings.m_iRepeatDelayController);
++	
++	g_pythonParser.bStartup = true;
++	
++	SAFE_DELETE(m_splash);
++	
++	g_windowManager.Add(new CGUIWindowHome);  // window id = 0
++	
++	if (g_guiSettings.GetBool("masterlock.startuplock") && 
++			g_settings.GetMasterProfile().getLockMode() != LOCK_MODE_EVERYONE &&
++			!g_settings.GetMasterProfile().getLockCode().IsEmpty())
++	{
++		g_passwordManager.CheckStartUpLock();
++	}
+ 
 -  g_windowManager.Add(new CGUIDialogSelect);             // window id = 2000
 -  g_windowManager.Add(new CGUIWindowMusicInfo);                // window id = 2001
 -  g_windowManager.Add(new CGUIDialogOK);                 // window id = 2002
@@ -3391,10 +3408,6 @@ Index: xbmc/Application.cpp
 -  g_windowManager.Add(new CGUIWindowVisualisation);      // window id = 2006
 -  g_windowManager.Add(new CGUIWindowSlideShow);          // window id = 2007
 -  g_windowManager.Add(new CGUIDialogFileStacking);       // window id = 2008
-+	/* window id's 3000 - 3100 are reserved for python */
-+	g_DownloadManager.Initialize();
-+	
-+	m_ctrDpad.SetDelays(100, 500); //g_settings.m_iMoveDelayController, g_settings.m_iRepeatDelayController);
  
 -  g_windowManager.Add(new CGUIWindowOSD);                // window id = 2901
 -  g_windowManager.Add(new CGUIWindowMusicOverlay);       // window id = 2903
@@ -3402,19 +3415,6 @@ Index: xbmc/Application.cpp
 -  g_windowManager.Add(new CGUIWindowScreensaver);        // window id = 2900 Screensaver
 -  g_windowManager.Add(new CGUIWindowWeather);            // window id = 2600 WEATHER
 -  g_windowManager.Add(new CGUIWindowStartup);            // startup window (id 2999)
-+	SAFE_DELETE(m_splash);
-+	
-+	if (g_guiSettings.GetBool("masterlock.startuplock") && 
-+			g_settings.GetMasterProfile().getLockMode() != LOCK_MODE_EVERYONE &&
-+			!g_settings.GetMasterProfile().getLockCode().IsEmpty())
-+	{
-+		g_passwordManager.CheckStartUpLock();
-+	}
- 
--  /* window id's 3000 - 3100 are reserved for python */
--  g_DownloadManager.Initialize();
- 
--  m_ctrDpad.SetDelays(100, 500); //g_settings.m_iMoveDelayController, g_settings.m_iRepeatDelayController);
 +	if (!g_advancedSettings.m_splashImage && g_advancedSettings.m_enableintro && !CFile::Exists("Special://root/system//introplay"))
 +	{
 +		if ( CFile::Exists("Special://root/intro.mp4") )
@@ -3463,20 +3463,15 @@ Index: xbmc/Application.cpp
 +		}
 +	}
 +	
-+	g_pythonParser.bStartup = true;
 +	//g_sysinfo.Refresh();
  
--  SAFE_DELETE(m_splash);
+-  /* window id's 3000 - 3100 are reserved for python */
+-  g_DownloadManager.Initialize();
 +	CLog::Log(LOGINFO, "removing tempfiles");
 +	CUtil::initilise();
 +	CUtil::RemoveTempFiles();
  
--  if (g_guiSettings.GetBool("masterlock.startuplock") && 
--      g_settings.GetMasterProfile().getLockMode() != LOCK_MODE_EVERYONE &&
--     !g_settings.GetMasterProfile().getLockCode().IsEmpty())
--  {
--     g_passwordManager.CheckStartUpLock();
--  }
+-  m_ctrDpad.SetDelays(100, 500); //g_settings.m_iMoveDelayController, g_settings.m_iRepeatDelayController);
 +	if (!m_bAllSettingsLoaded)
 +	{
 +		CLog::Log(LOGWARNING, "settings not correct, show dialog");
@@ -3493,6 +3488,25 @@ Index: xbmc/Application.cpp
 +		}
 +	}
  
+-  SAFE_DELETE(m_splash);
++	//  Show mute symbol
++	if (g_settings.m_nVolumeLevel == VOLUME_MINIMUM)
++	Mute();
+ 
+-  if (g_guiSettings.GetBool("masterlock.startuplock") && 
+-      g_settings.GetMasterProfile().getLockMode() != LOCK_MODE_EVERYONE &&
+-     !g_settings.GetMasterProfile().getLockCode().IsEmpty())
+-  {
+-     g_passwordManager.CheckStartUpLock();
+-  }
++	// if the user shutoff the xbox during music scan
++	// restore the settings
++	if (g_settings.m_bMyMusicIsScanning)
++	{
++		CLog::Log(LOGWARNING,"System rebooted during music scan! ... restoring UseTags and FindRemoteThumbs");
++		RestoreMusicScanSettings();
++	}
+ 
 -  // check if we should use the login screen
 -  if (g_settings.UsingLoginScreen())
 -  {
@@ -3502,25 +3516,16 @@ Index: xbmc/Application.cpp
 -  {
 -    g_windowManager.ActivateWindow(g_SkinInfo.GetFirstWindow());
 -  }
-+	//  Show mute symbol
-+	if (g_settings.m_nVolumeLevel == VOLUME_MINIMUM)
-+	Mute();
- 
--  g_pythonParser.bStartup = true;
--  //g_sysinfo.Refresh();
-+	// if the user shutoff the xbox during music scan
-+	// restore the settings
-+	if (g_settings.m_bMyMusicIsScanning)
-+	{
-+		CLog::Log(LOGWARNING,"System rebooted during music scan! ... restoring UseTags and FindRemoteThumbs");
-+		RestoreMusicScanSettings();
-+	}
- 
--  CLog::Log(LOGINFO, "removing tempfiles");
--  CUtil::RemoveTempFiles();
 +	if (!g_settings.UsingLoginScreen())
 +	UpdateLibraries();
  
+-  g_pythonParser.bStartup = true;
+-  //g_sysinfo.Refresh();
++	m_slowTimer.StartZero();
+ 
+-  CLog::Log(LOGINFO, "removing tempfiles");
+-  CUtil::RemoveTempFiles();
+-
 -  if (!m_bAllSettingsLoaded)
 -  {
 -    CLog::Log(LOGWARNING, "settings not correct, show dialog");
@@ -3536,8 +3541,7 @@ Index: xbmc/Application.cpp
 -      dialog->DoModal();
 -    }
 -  }
-+	m_slowTimer.StartZero();
- 
+-
 -  //  Show mute symbol
 -  if (g_settings.m_nVolumeLevel == VOLUME_MINIMUM)
 -    Mute();
@@ -3747,7 +3751,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1514,27 +1637,27 @@
+@@ -1514,27 +1639,27 @@
  void CApplication::StopFtpServer()
  {
  #ifdef HAS_FTP_SERVER
@@ -3792,7 +3796,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1541,17 +1664,17 @@
+@@ -1541,17 +1666,17 @@
  void CApplication::StartTimeServer()
  {
  #ifdef HAS_TIME_SERVER
@@ -3820,7 +3824,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1558,12 +1681,12 @@
+@@ -1558,12 +1683,12 @@
  void CApplication::StopTimeServer()
  {
  #ifdef HAS_TIME_SERVER
@@ -3839,7 +3843,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1570,8 +1693,8 @@
+@@ -1570,8 +1695,8 @@
  void CApplication::StartUPnP()
  {
  #ifdef HAS_UPNP
@@ -3850,7 +3854,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1578,11 +1701,11 @@
+@@ -1578,11 +1703,11 @@
  void CApplication::StopUPnP(bool bWait)
  {
  #ifdef HAS_UPNP
@@ -3867,7 +3871,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1589,17 +1712,17 @@
+@@ -1589,17 +1714,17 @@
  void CApplication::StartEventServer()
  {
  #ifdef HAS_EVENT_SERVER
@@ -3896,7 +3900,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1606,43 +1729,43 @@
+@@ -1606,43 +1731,43 @@
  bool CApplication::StopEventServer(bool promptuser)
  {
  #ifdef HAS_EVENT_SERVER
@@ -3971,7 +3975,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1649,11 +1772,11 @@
+@@ -1649,11 +1774,11 @@
  void CApplication::StartUPnPRenderer()
  {
  #ifdef HAS_UPNP
@@ -3988,7 +3992,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1660,11 +1783,11 @@
+@@ -1660,11 +1785,11 @@
  void CApplication::StopUPnPRenderer()
  {
  #ifdef HAS_UPNP
@@ -4005,7 +4009,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1671,11 +1794,11 @@
+@@ -1671,11 +1796,11 @@
  void CApplication::StartUPnPServer()
  {
  #ifdef HAS_UPNP
@@ -4022,7 +4026,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1682,11 +1805,11 @@
+@@ -1682,11 +1807,11 @@
  void CApplication::StopUPnPServer()
  {
  #ifdef HAS_UPNP
@@ -4039,7 +4043,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1693,17 +1816,17 @@
+@@ -1693,17 +1818,17 @@
  void CApplication::StartLEDControl(bool switchoff)
  {
  #ifdef HAS_XBOX_HARDWARE
@@ -4068,7 +4072,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1710,17 +1833,17 @@
+@@ -1710,17 +1835,17 @@
  void CApplication::DimLCDOnPlayback(bool dim)
  {
  #ifdef HAS_LCD
@@ -4097,7 +4101,7 @@ Index: xbmc/Application.cpp
  #endif
  }
  
-@@ -1727,4118 +1850,4240 @@
+@@ -1727,4118 +1852,4240 @@
  void CApplication::StartServices()
  {
  #ifdef HAS_XBOX_HARDWARE
@@ -10509,7 +10513,7 @@ Index: xbmc/Application.cpp
 +		// check if we need to load a new skin
 +		if (m_skinReloadTime && CTimeUtils::GetFrameTime() >= m_skinReloadTime)
 +		{
-+			CBuiltins::Execute("RunScript(special://xbmc/emustation/scripts/home_themer.py)");
++			CBuiltins::Execute("RunScript(special://emustation_scripts/home_themer.py)");
 +			// Set current theme for special://theme/
 +			CSpecialProtocol::SetCurrentThemePath("Q:\\emustation\\themes\\"+URIUtils::ReplaceExtension(g_guiSettings.GetString("lookandfeel.skintheme"), ""));
 +			ReloadSkin();
@@ -15870,21 +15874,21 @@ Index: xbmc/guilib/SkinInfo.cpp
    {
    case PAL_4x3:
 -    strRes = "PAL";
-+    strRes = "xml_sd";
++    strRes = "xml_sd_pal";
      break;
    case PAL_16x9:
 -    strRes = "PAL16x9";
-+    strRes = "xml_sd";
++    strRes = "xml_sd_pal";
      break;
    case NTSC_4x3:
    case HDTV_480p_4x3:
 -    strRes = "NTSC";
-+    strRes = "xml_sd";
++    strRes = "xml_sd_ntsc";
      break;
    case NTSC_16x9:
    case HDTV_480p_16x9:
 -    strRes = "ntsc16x9";
-+    strRes = "xml_sd";
++    strRes = "xml_sd_ntsc";
      break;
    case HDTV_720p:
 -    strRes = "720p";
@@ -15897,16 +15901,16 @@ Index: xbmc/guilib/SkinInfo.cpp
  RESOLUTION CSkinInfo::TranslateResolution(const CStdString &res, RESOLUTION def)
  {
 -  if (res.Equals("pal"))
-+  if (res.Equals("xml_sd"))
++  if (res.Equals("xml_sd_pal"))
      return PAL_4x3;
 -  else if (res.Equals("pal16x9"))
-+  else if (res.Equals("xml_sd"))
++  else if (res.Equals("xml_sd_pal"))
      return PAL_16x9;
 -  else if (res.Equals("ntsc"))
-+  else if (res.Equals("xml_sd"))
++  else if (res.Equals("xml_sd_ntsc"))
      return NTSC_4x3;
 -  else if (res.Equals("ntsc16x9"))
-+  else if (res.Equals("xml_sd"))
++  else if (res.Equals("xml_sd_ntsc"))
      return NTSC_16x9;
 -  else if (res.Equals("720p"))
 +  else if (res.Equals("xml"))
@@ -15918,16 +15922,16 @@ Index: xbmc/guilib/SkinInfo.cpp
    {
      strRes.ToLower();
 -    if (strRes == "pal")
-+    if (strRes == "xml_sd")
++    if (strRes == "xml_sd_pal")
        res = PAL_4x3;
 -    else if (strRes == "pal16x9")
-+    else if (strRes == "xml_sd")
++    else if (strRes == "xml_sd_pal")
        res = PAL_16x9;
 -    else if (strRes == "ntsc")
-+    else if (strRes == "xml_sd")
++    else if (strRes == "xml_sd_ntsc")
        res = NTSC_4x3;
 -    else if (strRes == "ntsc16x9")
-+    else if (strRes == "xml_sd")
++    else if (strRes == "xml_sd_ntsc")
        res = NTSC_16x9;
 -    else if (strRes == "720p")
 +    else if (strRes == "xml")
@@ -18780,16 +18784,20 @@ Index: xbmc/settings/GUISettings.cpp
    AddString(3, "smb.winsserver",  1207,   "",  EDIT_CONTROL_IP_INPUT);
    AddString(4, "smb.workgroup",   1202,   "WORKGROUP", EDIT_CONTROL_INPUT, false, 1202);
  
-@@ -519,7 +545,8 @@
+@@ -519,9 +545,10 @@
    AddString(2, "network.ipaddress", 719, "0.0.0.0", EDIT_CONTROL_IP_INPUT);
    AddString(3, "network.subnet", 720, "255.255.255.0", EDIT_CONTROL_IP_INPUT);
    AddString(4, "network.gateway", 721, "0.0.0.0", EDIT_CONTROL_IP_INPUT);
 -  AddString(5, "network.dns", 722, "0.0.0.0", EDIT_CONTROL_IP_INPUT);
+-  AddString(6, "network.dnssuffix", 22002, "", EDIT_CONTROL_INPUT, true);
+-  AddInt(7, "network.bandwidth", 14042, 0, 0, 512, 100*1024, SPIN_CONTROL_INT_PLUS, MASK_KBPS, TEXT_OFF);
 +  AddString(5, "network.dns", 34006, "0.0.0.0", EDIT_CONTROL_IP_INPUT);
 +  AddString(6, "network.dns2", 34007, "0.0.0.0", EDIT_CONTROL_IP_INPUT);
-   AddString(6, "network.dnssuffix", 22002, "", EDIT_CONTROL_INPUT, true);
-   AddInt(7, "network.bandwidth", 14042, 0, 0, 512, 100*1024, SPIN_CONTROL_INT_PLUS, MASK_KBPS, TEXT_OFF);
++  AddString(7, "network.dnssuffix", 22002, "", EDIT_CONTROL_INPUT, true);
++  AddInt(8, "network.bandwidth", 14042, 0, 0, 512, 100*1024, SPIN_CONTROL_INT_PLUS, MASK_KBPS, TEXT_OFF);
  
+   AddSeparator(12, "network.sep1");
+   AddBool(13, "network.usehttpproxy", 708, false);
 @@ -532,7 +559,8 @@
  
    // appearance settings
@@ -22489,7 +22497,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  }
  
-@@ -2230,45 +2274,47 @@
+@@ -2230,45 +2274,48 @@
    // check if our network needs restarting (requires a reset, so check well!)
    if (m_iNetworkAssignment == -1)
    {
@@ -22563,11 +22571,12 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
 +	   g_guiSettings.SetString("network.ipaddress", m_strNetworkIPAddress);
 +	   g_guiSettings.SetString("network.subnet", m_strNetworkSubnet);
 +	   g_guiSettings.SetString("network.gateway", m_strNetworkGateway);
-+	   g_guiSettings.SetString("network.dns", m_strNetworkDNS);*/
++	   g_guiSettings.SetString("network.dns", m_strNetworkDNS);
++	   g_guiSettings.SetString("network.dns2", m_strNetworkDNS2);*/
    }
  }
  
-@@ -2280,47 +2326,47 @@
+@@ -2280,47 +2327,47 @@
    pControl->Clear();
    if (CUtil::IsUsingTTFSubtitles())
    { // easy - just fill as per usual
@@ -22652,7 +22661,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  #endif
  }
-@@ -2337,43 +2383,43 @@
+@@ -2337,43 +2384,43 @@
  #ifdef _XBOX
    // Find mplayer fonts...
    {
@@ -22724,7 +22733,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(iCurrentFont);
  }
-@@ -2393,8 +2439,8 @@
+@@ -2393,8 +2440,8 @@
    TiXmlDocument xmlDoc;
    if (!xmlDoc.LoadFile(strPath))
    {
@@ -22735,7 +22744,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    TiXmlElement* pRootElement = xmlDoc.RootElement();
-@@ -2402,8 +2448,8 @@
+@@ -2402,8 +2449,8 @@
    CStdString strValue = pRootElement->Value();
    if (strValue != CStdString("fonts"))
    {
@@ -22746,7 +22755,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    const TiXmlNode *pChild = pRootElement->FirstChild();
-@@ -2410,38 +2456,38 @@
+@@ -2410,38 +2457,38 @@
    strValue = pChild->Value();
    if (strValue == "fontset")
    {
@@ -22810,7 +22819,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  }
  
-@@ -2456,9 +2502,9 @@
+@@ -2456,9 +2503,9 @@
  
    //find skins...
    CFileItemList items;
@@ -22822,7 +22831,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    int iCurrentSkin = 0;
    int iSkin = 0;
-@@ -2465,28 +2511,28 @@
+@@ -2465,28 +2512,28 @@
    vector<CStdString> vecSkins;
    for (int i = 0; i < items.Size(); ++i)
    {
@@ -22868,7 +22877,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(iCurrentSkin);
    return ;
-@@ -2503,9 +2549,9 @@
+@@ -2503,9 +2550,9 @@
  
    //find skins...
    CFileItemList items;
@@ -22880,7 +22889,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    int iCurrentSoundSkin = 0;
    int iSoundSkin = 0;
-@@ -2512,31 +2558,31 @@
+@@ -2512,31 +2559,31 @@
    vector<CStdString> vecSoundSkins;
    for (int i = 0; i < items.Size(); ++i)
    {
@@ -22928,7 +22937,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(iCurrentSoundSkin);
    return ;
-@@ -2553,7 +2599,7 @@
+@@ -2553,7 +2600,7 @@
  
    CStdString strCurrentCharsetLabel="DEFAULT";
    if (pSettingString->GetData()!="DEFAULT")
@@ -22937,7 +22946,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    sort(vecCharsets.begin(), vecCharsets.end(), sortstringbyname());
  
-@@ -2563,12 +2609,12 @@
+@@ -2563,12 +2610,12 @@
  
    for (int i = 0; i < (int) vecCharsets.size(); ++i)
    {
@@ -22954,7 +22963,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    pControl->SetValue(iCurrentCharset);
-@@ -2580,34 +2626,34 @@
+@@ -2580,34 +2627,34 @@
    if (!pSetting) return;
    int iWinID = g_windowManager.GetActiveWindow();
    {
@@ -23005,7 +23014,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    sort(vecVis.begin(), vecVis.end(), sortstringbyname());
  
-@@ -2615,26 +2661,26 @@
+@@ -2615,26 +2662,26 @@
    int iVis = 0;
    int iCurrentVis = 0;
    {
@@ -23045,7 +23054,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  }
  
-@@ -2656,16 +2702,16 @@
+@@ -2656,16 +2703,16 @@
    if ( strValue != "VoiceMasks") return ;
    if (pRootElement)
    {
@@ -23072,7 +23081,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    xmlDoc.Clear();
  
-@@ -2679,12 +2725,12 @@
+@@ -2679,12 +2726,12 @@
    vecMask.insert(vecMask.begin(), strNone);
    for (int i = 0; i < (int) vecMask.size(); ++i)
    {
@@ -23089,7 +23098,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    pControl->SetValue(iCurrentMask);
-@@ -2698,11 +2744,11 @@
+@@ -2698,11 +2745,11 @@
  #ifndef HAS_XBOX_AUDIO
  #define XVOICE_MASK_PARAM_DISABLED (-1.0f)
  #endif
@@ -23106,7 +23115,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    //find mask values in xml...
-@@ -2714,56 +2760,56 @@
+@@ -2714,56 +2761,56 @@
    if ( strValue != "VoiceMasks") return ;
    if (pRootElement)
    {
@@ -23213,7 +23222,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    xmlDoc.Clear();
  }
-@@ -2782,26 +2828,26 @@
+@@ -2782,26 +2829,26 @@
  
    for (vector<RESOLUTION>::iterator it = res.begin(); it != res.end();it++)
    {
@@ -23260,7 +23269,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(pSettingInt->GetData());
  }
-@@ -2814,7 +2860,7 @@
+@@ -2814,7 +2861,7 @@
    m_strNewLanguage.Empty();
    //find languages...
    CFileItemList items;
@@ -23269,7 +23278,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    int iCurrentLang = 0;
    int iLanguage = 0;
-@@ -2821,23 +2867,23 @@
+@@ -2821,23 +2868,23 @@
    vector<CStdString> vecLanguage;
    for (int i = 0; i < items.Size(); ++i)
    {
@@ -23305,7 +23314,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    pControl->SetValue(iCurrentLang);
-@@ -2857,9 +2903,9 @@
+@@ -2857,9 +2904,9 @@
  
    //find screensavers ....
    CFileItemList items;
@@ -23317,7 +23326,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    int iCurrentScr = -1;
    vector<CStdString> vecScr;
-@@ -2866,17 +2912,17 @@
+@@ -2866,17 +2913,17 @@
    int i;
    for (i = 0; i < items.Size(); ++i)
    {
@@ -23346,7 +23355,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    CStdString strDefaultScr = pSettingString->GetData();
-@@ -2883,17 +2929,17 @@
+@@ -2883,17 +2930,17 @@
    CStdString strExtension;
    URIUtils::GetExtension(strDefaultScr, strExtension);
    if (strExtension == ".xbs")
@@ -23369,7 +23378,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    // if we can't find the screensaver previously configured
-@@ -2900,19 +2946,19 @@
+@@ -2900,19 +2947,19 @@
    // then fallback to turning the screensaver off.
    if (iCurrentScr < 0)
    {
@@ -23402,7 +23411,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(iCurrentScr);
  }
-@@ -2930,21 +2976,21 @@
+@@ -2930,21 +2977,21 @@
    // Get FTP XBOX Users and list them !
    if (CUtil::GetFTPServerUserName(0, strFtpUser1, iUserMax))
    {
@@ -23437,7 +23446,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  #endif
  }
-@@ -2958,18 +3004,18 @@
+@@ -2958,18 +3005,18 @@
    strFtpUserPassword  = g_guiSettings.GetString("services.ftpserverpassword");
    if(strFtpUserPassword.size()!=0)
    {
@@ -23465,7 +23474,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  #endif
    return true;
-@@ -2991,12 +3037,12 @@
+@@ -2991,12 +3038,12 @@
  
    for (int i = 0; i < (int) regions.size(); ++i)
    {
@@ -23482,7 +23491,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    pControl->SetValue(iCurrentRegion);
-@@ -3006,8 +3052,8 @@
+@@ -3006,8 +3053,8 @@
  {
    for (unsigned int i = 0; i < m_vecSettings.size(); i++)
    {
@@ -23493,7 +23502,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    return NULL;
  }
-@@ -3025,7 +3071,7 @@
+@@ -3025,7 +3072,7 @@
    // Clear and add. the Default Label
    pControl->Clear();
    pControl->SetShowRange(true);
@@ -23502,7 +23511,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    // find all *.xpr in this path
    CStdString strDefaultTheme = pSettingString->GetData();
-@@ -3042,11 +3088,11 @@
+@@ -3042,11 +3089,11 @@
    int iCurrentTheme = 0;
    for (int i = 0; i < (int) vecTheme.size(); ++i)
    {
@@ -23519,7 +23528,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    // Set the Choosen Theme
    pControl->SetValue(iCurrentTheme);
-@@ -3064,7 +3110,7 @@
+@@ -3064,7 +3111,7 @@
    // Clear and add. the Default Label
    pControl->Clear();
    pControl->SetShowRange(true);
@@ -23528,7 +23537,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
  
    // Search for colors in the Current skin!
    vector<CStdString> vecColors;
-@@ -3077,27 +3123,27 @@
+@@ -3077,27 +3124,27 @@
    // Search for Themes in the Current skin!
    for (int i = 0; i < items.Size(); ++i)
    {
@@ -23568,7 +23577,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    // Set the Choosen Theme
    pControl->SetValue(iCurrentColor);
-@@ -3125,13 +3171,13 @@
+@@ -3125,13 +3172,13 @@
    bool currentSettingFound(false);
    for (vector<CSkinInfo::CStartupWindow>::const_iterator it = startupWindows.begin(); it != startupWindows.end(); it++)
    {
@@ -23589,7 +23598,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
  
    // ok, now check whether our current option is one of these
-@@ -3138,7 +3184,7 @@
+@@ -3138,7 +3185,7 @@
    // and set it's value
    if (!currentSettingFound)
    { // nope - set it to the "default" option - the first one
@@ -23598,7 +23607,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(pSettingInt->GetData());
  }
-@@ -3150,6 +3196,7 @@
+@@ -3150,6 +3197,7 @@
    m_strNetworkSubnet = g_guiSettings.GetString("network.subnet");
    m_strNetworkGateway = g_guiSettings.GetString("network.gateway");
    m_strNetworkDNS = g_guiSettings.GetString("network.dns");
@@ -23606,7 +23615,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    m_strOldTrackFormat = g_guiSettings.GetString("musicfiles.trackformat");
    m_strOldTrackFormatRight = g_guiSettings.GetString("musicfiles.trackformatright");
    m_NewResolution = INVALID;
-@@ -3167,24 +3214,24 @@
+@@ -3167,24 +3215,24 @@
    CGUIWindow *window = g_windowManager.GetWindow(windowID);
    if (window)
    {
@@ -23647,7 +23656,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    pControl->SetValue(pSettingInt->GetData());
  }
  
-@@ -3196,17 +3243,17 @@
+@@ -3196,17 +3244,17 @@
    CGUIViewState *state = CGUIViewState::GetViewState(windowID, items);
    if (state)
    {
@@ -23676,7 +23685,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(pSettingInt->GetData());
    delete state;
-@@ -3216,53 +3263,53 @@
+@@ -3216,53 +3264,53 @@
  {
    CFileItemList items;
    if (strContent.Equals("music"))
@@ -23766,7 +23775,7 @@ Index: xbmc/settings/GUIWindowSettingsCategory.cpp
    }
    pControl->SetValue(k);
  }
-@@ -3276,26 +3323,26 @@
+@@ -3276,26 +3324,26 @@
    pControl->AddLabel(g_localizeStrings.Get(13611), j++);
  
    CFileItemList items;
@@ -31240,7 +31249,7 @@ Index: xbmc/utils/Splash.cpp
 ===================================================================
 --- xbmc/utils/Splash.cpp	(revision 33042)
 +++ xbmc/utils/Splash.cpp	(working copy)
-@@ -1,27 +1,29 @@
+@@ -1,27 +1,30 @@
  /*
 - *      Copyright (C) 2005-2013 Team XBMC
 - *      http://xbmc.org
@@ -31285,10 +31294,11 @@ Index: xbmc/utils/Splash.cpp
  #include "FileSystem/File.h"
 +#include "settings/AdvancedSettings.h"
 +#include "FileSystem/SpecialProtocol.h"
++#include "interfaces/Builtins.h"
  #include "log.h"
  
  using namespace XFILE;
-@@ -28,13 +30,12 @@
+@@ -28,13 +31,12 @@
  
  CSplash::CSplash(const CStdString& imageName)
  {
@@ -31304,7 +31314,7 @@ Index: xbmc/utils/Splash.cpp
  }
  
  void CSplash::OnStartup()
-@@ -45,105 +46,138 @@
+@@ -45,105 +47,140 @@
  
  void CSplash::Process()
  {
@@ -31385,6 +31395,7 @@ Index: xbmc/utils/Splash.cpp
 +		imagecustom->FreeResources();
 +		delete imagecustom;
 +	}
++
 +	//show it on screen
  #ifdef HAS_XBOX_D3D
 -  g_graphicsContext.Get3DDevice()->BlockUntilVerticalBlank();
@@ -31497,7 +31508,7 @@ Index: xbmc/utils/Splash.cpp
 +	}
 +	if (CFile::Exists("E:\\CACHE\\tmp.bin"))
 +	{
-+		CLog::Log(LOGDEBUG, "Splash disabled due to profile being setup.");
++		CLog::Log(LOGDEBUG, "Splash disabled due to profile being set up.");
 +		return false;
 +	}
 +	if (!g_advancedSettings.m_splashImage)
@@ -31515,6 +31526,7 @@ Index: xbmc/utils/Splash.cpp
  void CSplash::Stop()
  {
 -  StopThread();
++	CBuiltins::Execute("RunScript(special://emustation_scripts/home_themer.py,1)");
 +	StopThread();
  }
  

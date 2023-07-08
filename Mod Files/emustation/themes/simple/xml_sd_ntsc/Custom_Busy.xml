@@ -1,0 +1,21 @@
+<window type="dialog" id="1101">
+		<controls>
+				<control type="multiimage">
+						<description>Busy animation</description>
+						<posx>30</posx>
+						<posy>30</posy>
+						<width>40</width>
+						<height>10</height>
+						<imagepath>loading</imagepath>
+						<timeperimage>200</timeperimage>
+						<fadetime>0</fadetime>
+						<pauseatend>100</pauseatend>
+						<randomize>false</randomize>
+						<loop>true</loop>
+						<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+						<aspectratio>keep</aspectratio>
+						<animation effect="fade" start="0" end="100" delay="100" time="250">WindowOpen</animation>
+						<animation effect="fade" start="100" end="0" delay="0" time="50">WindowClose</animation>
+				</control>
+		</controls>
+</window>

@@ -1,0 +1,388 @@
+<window id="7">
+		<defaultcontrol>95</defaultcontrol>
+		<allowoverlay>no</allowoverlay>
+		<controls>
+				<!-- Background Images -->
+				<control type="image">
+						<description>background</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>720</width>
+						<height>576</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FF97999B</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<!-- Top Underlay Image -->
+				<control type="image">
+						<description>top bar</description>
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>720</width>
+						<height>90</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC8CACB</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<!-- System Log -->
+				<control type="image">
+						<description>logo</description>
+						<posx>30</posx>
+						<posy>20</posy>
+						<width>490</width>
+						<height>52</height>
+						<aspectratio align="left">keep</aspectratio>
+						<texture>layouts/settings/art/logo.png</texture>
+				</control>
+				<!-- Bottom Underlay Image -->
+				<control type="image">
+						<posx>0</posx>
+						<posy>47r</posy>
+						<width>720</width>
+						<height>47</height>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>FFC5C6C7</colordiffuse>
+						<texture>background diffuse.png</texture>
+				</control>
+				<include>ContextButtonsSettings</include>
+				<control type="group">
+						<posx>20</posx>
+						<posy>110</posy>
+						<control type="grouplist" id="9000">
+								<description>button area</description>
+								<posx>10</posx>
+								<posy>0</posy>
+								<width>320</width>
+								<height>405</height>
+								<itemgap>0</itemgap>
+								<onleft>9000</onleft>
+								<onright>9000</onright>
+								<onup>9000</onup>
+								<ondown>9000</ondown>
+								<control type="button" id="95">
+										<description>Button Default Values</description>
+										<width>250</width>
+										<textwidth>250</textwidth>				
+										<height>30</height>
+										<font>size_22</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>FFFFFFFF</textcolor>
+										<focusedcolor>FF393A3B</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>0</textoffsetx>
+										<texturefocus>background diffuse.png</texturefocus>
+										<texturenofocus>thumbnf.png</texturenofocus>
+										<label>20154</label>
+								</control>
+								<control type="button" id="92">
+										<description>Button HDD</description>
+										<width>250</width>
+										<textwidth>280</textwidth>				
+										<height>30</height>
+										<font>size_22</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>FFFFFFFF</textcolor>
+										<focusedcolor>FF393A3B</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>0</textoffsetx>
+										<texturefocus>background diffuse.png</texturefocus>
+										<texturenofocus>thumbnf.png</texturenofocus>
+										<label>20156</label>
+								</control>
+								<control type="button" id="93">
+										<description>Button DVD</description>
+										<width>250</width>
+										<textwidth>280</textwidth>				
+										<height>30</height>
+										<font>size_22</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>FFFFFFFF</textcolor>
+										<focusedcolor>FF393A3B</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>0</textoffsetx>
+										<texturefocus>background diffuse.png</texturefocus>
+										<texturenofocus>thumbnf.png</texturenofocus>
+										<label>20157</label>
+								</control>
+								<control type="button" id="94">
+										<description>Button Storage</description>
+										<width>250</width>
+										<textwidth>280</textwidth>				
+										<height>30</height>
+										<font>size_22</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>FFFFFFFF</textcolor>
+										<focusedcolor>FF393A3B</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>0</textoffsetx>
+										<texturefocus>background diffuse.png</texturefocus>
+										<texturenofocus>thumbnf.png</texturenofocus>
+										<label>20155</label>
+								</control>
+								<control type="button" id="96">
+										<description>Button Network</description>
+										<width>250</width>
+										<textwidth>280</textwidth>				
+										<height>30</height>
+										<font>size_22</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>FFFFFFFF</textcolor>
+										<focusedcolor>FF393A3B</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>0</textoffsetx>
+										<texturefocus>background diffuse.png</texturefocus>
+										<texturenofocus>thumbnf.png</texturenofocus>
+										<label>20158</label>
+								</control>
+								<control type="button" id="97">
+										<description>Button Video</description>
+										<width>250</width>
+										<textwidth>280</textwidth>				
+										<height>30</height>
+										<font>size_22</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>FFFFFFFF</textcolor>
+										<focusedcolor>FF393A3B</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>0</textoffsetx>
+										<texturefocus>background diffuse.png</texturefocus>
+										<texturenofocus>thumbnf.png</texturenofocus>
+										<label>20159</label>
+								</control>
+								<control type="button" id="98">
+										<description>Button Hardware</description>
+										<width>250</width>
+										<textwidth>280</textwidth>				
+										<height>30</height>
+										<font>size_22</font>
+										<align>center</align>
+										<aligny>center</aligny>
+										<textcolor>FFFFFFFF</textcolor>
+										<focusedcolor>FF393A3B</focusedcolor>
+										<shadowcolor>-</shadowcolor>
+										<textoffsetx>0</textoffsetx>
+										<texturefocus>background diffuse.png</texturefocus>
+										<texturenofocus>thumbnf.png</texturenofocus>
+										<label>20160</label>
+								</control>
+						</control>
+				</control>
+				<control type="group">
+						<control type="group">
+								<posx>290</posx>
+								<posy>70</posy>
+								<control type="label." id="40">
+										<description>filter text label</description>
+										<posx>0</posx>
+										<posy>0</posy>
+										<width>400</width>
+										<height>35</height>
+										<align>center</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_30</font>
+								</control>
+								<control type="label" id="2">
+										<description>Label 2</description>
+										<posx>10</posx>
+										<posy>35</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="3">
+										<description>Label 3</description>
+										<posx>10</posx>
+										<posy>60</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>										
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="4">
+										<description>Label 4</description>
+										<posx>10</posx>
+										<posy>85</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>										
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="5">
+										<description>Label 5</description>
+										<posx>10</posx>
+										<posy>110</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>										
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="6">
+										<description>Label 6</description>
+										<posx>10</posx>
+										<posy>135</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="7">
+										<description>Label 7</description>
+										<posx>10</posx>
+										<posy>160</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="8">
+										<description>Label 8</description>
+										<posx>10</posx>
+										<posy>185</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="9">
+										<description>Label 9</description>
+										<posx>10</posx>
+										<posy>210</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="10">
+										<description>Label 10</description>
+										<posx>10</posx>
+										<posy>235</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>
+										<textcolor>FF282A2B</textcolor>
+								</control>
+								<control type="label" id="11">
+										<description>Label 11</description>
+										<posx>10</posx>
+										<posy>260</posy>
+										<width>400</width>
+										<height>25</height>
+										<align>left</align>
+										<aligny>center</aligny>
+										<label>-</label>
+										<font>size_20</font>
+										<scroll>true</scroll>
+										<textcolor>FF282A2B</textcolor>
+								</control>
+						</control>
+						<control type="label" id="52">
+								<description>XBMC XBE BUILD Version</description>
+								<posx>0</posx>
+								<posy>490</posy>
+								<width>720</width>
+								<label>144</label>
+								<align>center</align>
+								<font>size_20</font>
+								<textcolor>FF282A2B</textcolor>
+						</control>
+						<control type="group">
+								<posx>0</posx>
+								<posy>610</posy>
+								<!-- <control type="label"> -->
+								<!-- <description>CPU Text</description> -->
+								<!-- <posx>345r</posx> -->
+								<!-- <posy>0</posy> -->
+								<!-- <width>200</width> -->
+								<!-- <height>22</height> -->
+								<!-- <label>$LOCALIZE[13271] $INFO[System.CPUUsage]</label> -->
+								<!-- <align>right</align> -->
+								<!-- <aligny>center</aligny> -->
+								<!-- <textcolor>FF282A2B</textcolor> -->
+								<!-- <font>size_20</font> -->
+								<!-- </control> -->
+								<!-- <control type="progress"> -->
+								<!-- <description>CPU BAR</description> -->
+								<!-- <posx>330r</posx> -->
+								<!-- <posy>8</posy> -->
+								<!-- <width>320</width> -->
+								<!-- <height>12</height> -->
+								<!-- <info>System.CPUUsage</info> -->
+								<!-- <texturebg border="6,0,6,0">scrollbar_bar_back2.png</texturebg> -->
+								<!-- <lefttexture>-</lefttexture> -->
+								<!-- <midtexture border="4,0,4,0">ProgressFront.png</midtexture> -->
+								<!-- <righttexture>-</righttexture> -->
+								<!-- <overlaytexture>-</overlaytexture> -->
+								<!-- </control> -->
+								<!-- <control type="label"> -->
+										<!-- <description>Memory Text</description> -->
+										<!-- <posx>345r</posx> -->
+										<!-- <posy>30</posy> -->
+										<!-- <width>200</width> -->
+										<!-- <height>22</height> -->
+										<!-- <label>$LOCALIZE[31020] $INFO[system.memory(used.percent)]</label> -->
+										<!-- <align>right</align> -->
+										<!-- <aligny>center</aligny> -->
+										<!-- <textcolor>FF282A2B</textcolor> -->
+										<!-- <font>size_20</font> -->
+								<!-- </control> -->
+								<!-- <control type="progress"> -->
+										<!-- <description>Memory BAR</description> -->
+										<!-- <posx>330r</posx> -->
+										<!-- <posy>38</posy> -->
+										<!-- <width>320</width> -->
+										<!-- <height>12</height> -->
+										<!-- <info>system.memory(used)</info> -->
+										<!-- <texturebg border="6,0,6,0">scrollbar_bar_back2.png</texturebg> -->
+										<!-- <lefttexture>-</lefttexture> -->
+										<!-- <midtexture border="4,0,4,0">ProgressFront.png</midtexture> -->
+										<!-- <righttexture>-</righttexture> -->
+										<!-- <overlaytexture>-</overlaytexture> -->
+								<!-- </control> -->
+						</control>
+				</control>
+		</controls>
+</window>

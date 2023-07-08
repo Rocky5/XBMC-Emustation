@@ -1,13 +1,29 @@
 <FileZillaServer>
 		<Settings>
 				<Item name="Initial Welcome Message" type="string">Welcome to XBOX FileZilla (XBMC) version: %v http://sourceforge.net/pr</Item>
-				<Item name="Admin port" type="numeric">21</Item>
-				<Item name="Serverport" type="numeric">21</Item>
-				<Item name="Enable logging" type="numeric">0</Item>
-				<Item name="Logfile type" type="numeric">1</Item>
 				<!-- <Item name="Download Speedlimit" type="numeric">102400</Item> -->
 				<!-- <Item name="Upload Speedlimit" type="numeric">102400</Item> -->
 				<!-- <Item name="Buffer Size" type="numeric">8192</Item> -->
+				<Item name="Admin Password" type="string">xbmpzilla</Item>
+				<Item name="Admin IP Addresses" type="string">192.168.*.*</Item>
+				<Item name="Number of Threads" type="numeric">2</Item>
+				<Item name="Maximum user count" type="numeric">2</Item>
+				<Item name="Timeout" type="numeric">1800</Item>
+				<Item name="No Transfer Timeout" type="numeric">1800</Item>
+				<Item name="Allow Incoming FXP" type="numeric">0</Item>
+				<Item name="Allow outgoing FXP" type="numeric">0</Item>
+				<Item name="No Strict In FXP" type="numeric">1</Item>
+				<Item name="No Strict Out FXP" type="numeric">1</Item>
+				<Item name="Login Timeout" type="numeric">60</Item>
+				<Item name="Show Pass in Log" type="numeric">0</Item>
+				<Item name="Custom PASV Enable" type="numeric">0</Item>
+				<Item name="Custom PASV IP" type="string">192.168.0.1</Item>
+				<Item name="Custom PASV min port" type="numeric">1</Item>
+				<Item name="Custom PASV max port" type="numeric">65535</Item>
+				<Item name="Admin port" type="numeric">14147</Item>
+				<Item name="Serverport" type="numeric">21</Item>
+				<Item name="Enable logging" type="numeric">0</Item>
+				<Item name="Logfile type" type="numeric">1</Item>
 		</Settings>
 		<XBFileZilla>
 				<FreeSpace>
@@ -278,4 +294,5 @@
 						</SpeedLimits>
 				</User>
 		</Users>
+<Groups/>
 </FileZillaServer>

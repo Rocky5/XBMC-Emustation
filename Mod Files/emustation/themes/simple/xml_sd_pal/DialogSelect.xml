@@ -1,0 +1,182 @@
+<window type="dialog" id="2000">
+		<defaultcontrol always="true">3</defaultcontrol>
+		<include>dialogeffect</include>
+		<controls>
+				<control type="group">
+						<!-- Browser pane -->
+						<animation effect="slide" start="0,0" end="-110,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
+						<posy>17</posy>
+						<control type="image">
+								<description>background image</description>
+								<posx>150</posx>
+								<posy>63</posy>
+								<width>430</width>
+								<height>400</height>
+								<colordiffuse>menu_back_image</colordiffuse>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label" id="1">
+								<description>heading label</description>
+								<posx>150</posx>
+								<posy>85</posy>
+								<width>430</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_50</font>
+								<label>13406</label>
+								<textcolor>menu_header_label</textcolor>
+								<animation effect="slide" start="0,0" end="-50,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>								
+						</control>
+						<control type="list" id="3">
+								<posx>140</posx>
+								<posy>150</posy>
+								<width>430</width>
+								<height>295</height>
+								<onup>3</onup>
+								<ondown>3</ondown>
+								<onleft>5</onleft>
+								<onright>5</onright>
+								<pagecontrol>61</pagecontrol>
+								<scrolltime>200</scrolltime>
+								<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(61)">Conditional</animation>
+								<itemlayout width="430" height="44">
+										<control type="image">
+												<width>430</width>
+												<height>45</height>
+												<texture>button-nofocus4.png</texture>
+										</control>
+										<control type="label">
+												<posx>10</posx>
+												<posy>0</posy>
+												<width>430</width>
+												<height>45</height>
+												<align>left</align>
+												<aligny>center</aligny>
+												<font>size_23</font>
+												<textcolor>menu_header_label</textcolor>
+												<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+										</control>
+								</itemlayout>
+								<focusedlayout width="430" height="44">
+										<control type="image">
+												<width>430</width>
+												<height>45</height>
+												<texture>button-nofocus4.png</texture>
+												<visible>!Control.HasFocus(3)</visible>
+										</control>
+										<control type="image">
+												<width>430</width>
+												<height>45</height>
+												<texture>button-focus4.png</texture>
+												<visible>Control.HasFocus(3)</visible>
+										</control>
+										<control type="label">
+												<posx>10</posx>
+												<posy>0</posy>
+												<width>430</width>
+												<height>45</height>
+												<align>left</align>
+												<aligny>center</aligny>
+												<font>size_23</font>
+												<textcolor>menu_select_label</textcolor>
+												<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+										</control>
+								</focusedlayout>
+						</control>
+						<control type="button" id="5">
+								<description>OK button</description>
+								<posx>590</posx>
+								<posy>550</posy>
+								<label>186</label>
+								<include>MenuYesNoButtonCommonValues</include>
+								<onleft>3</onleft>
+								<onright>3</onright>
+								<onup>3</onup>
+								<ondown>3</ondown>
+						</control>
+				</control>
+				<control type="group">
+						<!-- Image Preview -->
+						<posx>290</posx>
+						<posy>17</posy>
+						<visible>Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)</visible>
+						<control type="image">
+								<description>background image</description>
+								<posx>70</posx>
+								<posy>63</posy>
+								<width>320</width>
+								<height>400</height>
+								<colordiffuse>menu_back_image</colordiffuse>
+								<texture border="20,20,20,20">menu_back.png</texture>
+						</control>
+						<control type="label">
+								<description>heading label</description>
+								<posx>60</posx>
+								<posy>85</posy>
+								<width>330</width>
+								<height>50</height>
+								<align>center</align>
+								<aligny>center</aligny>
+								<font>size_50</font>
+								<label>Preview</label>
+								<textcolor>menu_header_label</textcolor>
+						</control>
+						<control type="image">
+								<description>Current Icon image</description>
+								<posx>95</posx>
+								<posy>50</posy>
+								<width>280</width>
+								<height>420</height>
+								<aspectratio>keep</aspectratio>
+								<texture background="true">Special://skin/extras/urldownloader themes/previews/$INFO[Container(3).ListItem.Label].jpg</texture>
+								<aspectratio>keep</aspectratio>
+								<bordertexture border="5">white-back.png</bordertexture>
+								<bordersize>1</bordersize>
+								<fadetime>ThumbCrossfadeTime</fadetime>
+								<visible>Window.IsVisible(1901)</visible>
+						</control>
+						<control type="image">
+								<description>Current Icon image</description>
+								<posx>95</posx>
+								<posy>50</posy>
+								<width>280</width>
+								<height>420</height>
+								<aspectratio>keep</aspectratio>
+								<texture background="true">Special://themes_root/$INFO[Container(3).ListItem.Label]/preview.jpg</texture>
+								<aspectratio>keep</aspectratio>
+								<bordertexture border="5">white-back.png</bordertexture>
+								<bordersize>1</bordersize>
+								<fadetime>ThumbCrossfadeTime</fadetime>
+								<visible>Window.IsVisible(1300)</visible>
+						</control>
+				</control>				
+				<control type="group">
+						<animation effect="slide" start="0,0" end="-190,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
+						<control type="image">
+								<posx>170r</posx>
+								<posy>140</posy>
+								<width>22</width>
+								<height>22</height>
+								<texture>scroll-up.png</texture>
+								<colordiffuse>menu_header_label</colordiffuse>
+								<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+										<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
+										<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
+								</animation>
+						</control>
+						<control type="image">
+								<posx>170r</posx>
+								<posy>120r</posy>
+								<width>22</width>
+								<height>22</height>
+								<texture>scroll-down.png</texture>
+								<colordiffuse>menu_header_label</colordiffuse>
+								<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+										<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
+										<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
+								</animation>
+						</control>
+				</control>
+		</controls>
+</window>

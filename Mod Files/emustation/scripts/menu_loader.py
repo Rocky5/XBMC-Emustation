@@ -14,17 +14,31 @@ EMU_Files						= 0
 FAV_Files						= 0
 Default_Layout_XML_Path			= "0"
 Layout_XML_Path					= "0"
+Resolution 						= xbmc.getInfoLabel('system.screenresolution')
 ThemeType						= xbmc.getInfoLabel('Skin.CurrentTheme')
-MyPrograms_Path					= xbmc.translatePath('special://skin/xml/MyPrograms.xml')
-Custom_Games_Path				= xbmc.translatePath('special://skin/xml/MyPrograms.xml')
-_Script_Jump_Path				= xbmc.translatePath('special://skin/xml/_script_jumpList.xml')
-FAV_XML_Path					= xbmc.translatePath('special://skin/xml/DialogFavourites.xml')
+if "PAL" in Resolution or "4:3" in Resolution and os.path.isdir(os.path.join(xbmc.translatePath('special://skin/xml_sd_pal'))):
+	print "SD PAL Mode"
+	Layout_Mode = '/sd_pal'
+	XML_Mode = 'xml_sd_pal/'
+elif "NTSC" in Resolution or "4:3" in Resolution and os.path.isdir(os.path.join(xbmc.translatePath('special://skin/xml_sd_ntsc'))):
+	print "SD NTSC Mode"
+	Layout_Mode = '/sd_ntsc'
+	XML_Mode = 'xml_sd_ntsc/'
+else:
+	Layout_Mode = ''
+	XML_Mode = 'xml/'
+MyPrograms_Path					= xbmc.translatePath('special://skin/' + XML_Mode + 'MyPrograms.xml')
+Custom_Games_Path				= xbmc.translatePath('special://skin/' + XML_Mode + 'MyPrograms.xml')
+_Script_Jump_Path				= xbmc.translatePath('special://skin/' + XML_Mode + '_script_jumpList.xml')
+FAV_XML_Path					= xbmc.translatePath('special://skin/' + XML_Mode + 'DialogFavourites.xml')
+Overlay_JumpXML_File			= open(xbmc.translatePath('special://skin/' + XML_Mode + 'Includes_layout_overlay.xml')).read()
+Overlay_JumpXML_XBE_File		= open(xbmc.translatePath('special://skin/' + XML_Mode + 'Includes_layout_overlay_xbe.xml')).read()
 Favs_List_Path					= xbmc.translatePath('special://xbmc/emustation/gamelists/' + MenuLabel)
-Default_Layout_Path				= xbmc.translatePath('special://xbmc/emustation/themes/SIMPLE/layouts/default')
-Default_Theme_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/default')
-Custom_Theme_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/' + MenuLabel)
-Default_Favs_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/SIMPLE/layouts/favs')
-Custom_Theme_Favs_Layout_Path	= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/favs')
+Default_Layout_Path				= xbmc.translatePath('special://xbmc/emustation/themes/simple/layouts/default' + Layout_Mode)
+Default_Theme_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/default' + Layout_Mode)
+Custom_Theme_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/' + MenuLabel + Layout_Mode)
+Default_Favs_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/simple/layouts/favs' + Layout_Mode)
+Custom_Theme_Favs_Layout_Path	= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/favs' + Layout_Mode)
 
 Default_Layout					= os.path.join(Default_Theme_Layout_Path, 'layout.xml')
 Default_Synopsis_Layout			= os.path.join(Default_Theme_Layout_Path, 'synopsis_layout.xml')
@@ -160,397 +174,9 @@ Footer_Data_FAVS				= '\n\
 	</controls>\n\
 	</window>'
 if not MenuLabel == "xbox" and not MenuLabel == "ports":
-	Jump_File_Data					= '<window type="dialog" id="1120">\n\
-		<defaultcontrol always="true">9000</defaultcontrol>\n\
-		<controls>\n\
-			<control type="group" id="jump section">\n\
-				<posy>90</posy>\n\
-				<!-- Normal -->\n\
-				<control type="group">\n\
-					<visible>!Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>165</posx>\n\
-						<posy>10</posy>\n\
-						<width>950</width>\n\
-						<height>530</height>\n\
-						<texture>menu_back_shadow.png</texture>\n\
-					</control>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>320</posx>\n\
-						<posy>100</posy>\n\
-						<width>640</width>\n\
-						<height>350</height>\n\
-						<colordiffuse>menu_back_image</colordiffuse>\n\
-						<texture border="20,20,20,20">menu_back.png</texture>\n\
-					</control>\n\
-				</control>\n\
-				<!-- kiosk mode -->\n\
-				<control type="group">\n\
-					<visible>Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>165</posx>\n\
-						<posy>60</posy>\n\
-						<width>950</width>\n\
-						<height>280</height>\n\
-						<texture>menu_back_shadow.png</texture>\n\
-					</control>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>320</posx>\n\
-						<posy>100</posy>\n\
-						<width>640</width>\n\
-						<height>200</height>\n\
-						<colordiffuse>menu_back_image</colordiffuse>\n\
-						<texture border="20,20,20,20">menu_back.png</texture>\n\
-					</control>\n\
-				</control>\n\
-				<control type="label">\n\
-					<description>heading label</description>\n\
-					<posx>320</posx>\n\
-					<posy>130</posy>\n\
-					<width>640</width>\n\
-					<height>50</height>\n\
-					<align>center</align>\n\
-					<aligny>center</aligny>\n\
-					<font>size_50</font>\n\
-					<label>[UPPERCASE]$LOCALIZE[30911][/UPPERCASE]</label>\n\
-					<textcolor>menu_header_label</textcolor>\n\
-				</control>\n\
-				<control type="grouplist" id="9000">\n\
-					<posx>320</posx>\n\
-					<posy>201</posy>\n\
-					<width>640</width>\n\
-					<height>50</height>\n\
-					<onleft>9000</onleft>\n\
-					<onright>9000</onright>\n\
-					<onup>9003</onup>\n\
-					<ondown>9001</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>horizontal</orientation>\n\
-					<!-- jumpcode -->\n\
-				</control>\n\
-				<control type="grouplist" id="9001">\n\
-					<posx>320</posx>\n\
-					<posy>250</posy>\n\
-					<width>640</width>\n\
-					<height>200</height>\n\
-					<onleft>-</onleft>\n\
-					<onright>-</onright>\n\
-					<onup>9000</onup>\n\
-					<ondown>9002</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>vertical</orientation>\n\
-					<control type="button" id="8050">\n\
-						<label>[UPPERCASE]$LOCALIZE[31400][/UPPERCASE]</label>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onclick>Dialog.Close(1120)</onclick>\n\
-						<onclick>SetFocus(9200)</onclick>\n\
-						<onclick>RunScript(special://emustation_scripts/generate_favourites.py)</onclick>\n\
-						<visible>!Skin.HasSetting(KioskMode)</visible>\n\
-					</control>\n\
-				</control>\n\
-				<control type="grouplist" id="9002">\n\
-					<posx>320</posx>\n\
-					<posy>299</posy>\n\
-					<width>640</width>\n\
-					<height>200</height>\n\
-					<onleft>9002</onleft>\n\
-					<onright>9002</onright>\n\
-					<onup>9001</onup>\n\
-					<ondown>9003</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>horizontal</orientation>\n\
-					<visible>!Skin.HasSetting(KioskMode)</visible>\n\
-					<control type="button" id="8040">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]2d[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart)</visible>\n\
-					</control>\n\
-					<visible>!StringCompare(Skin.String(emuname),xbox) | !StringCompare(Skin.String(emuname),ports)</visible>\n\
-					<control type="button" id="8041">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]3d[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart3d)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart3d)</visible>\n\
-					</control>\n\
-					<control type="button" id="8042">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]logos[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,logo)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),logo)</visible>\n\
-					</control>\n\
-					<control type="button" id="8043">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]mix[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,mix)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),mix)</visible>\n\
-					</control>\n\
-					<control type="button" id="8044">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]screenshots[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,screenshots)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),screenshots)</visible>\n\
-					</control>\n\
-				</control>\n\
-				<control type="grouplist" id="9003">\n\
-					<posx>320</posx>\n\
-					<posy>348</posy>\n\
-					<width>640</width>\n\
-					<height>200</height>\n\
-					<onleft>-</onleft>\n\
-					<onright>-</onright>\n\
-					<onup>9002</onup>\n\
-					<ondown>9000</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>vertical</orientation>\n\
-					<visible>!Skin.HasSetting(KioskMode) + [Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)]</visible>\n\
-					<control type="radiobutton" id="8060">\n\
-						<label>[UPPERCASE]$LOCALIZE[31403][/UPPERCASE]</label>\n\
-						<include>MenuButtonCommonAltValues</include>\n\
-						<onclick>Skin.ToggleSetting(' + MenuLabel + 'fanart)</onclick>\n\
-						<selected>Skin.HasSetting(' + MenuLabel + 'fanart)</selected>\n\
-					</control>\n\
-				</control>\n\
-			</control>\n\
-		</controls>\n\
-	</window>'
+	Jump_File_Data				= Overlay_JumpXML_File
 else:
-	Jump_File_Data					= '<window type="dialog" id="1120">\n\
-		<defaultcontrol always="true">9000</defaultcontrol>\n\
-		<controls>\n\
-			<control type="group" id="jump section">\n\
-				<posy>90</posy>\n\
-				<animation effect="slide" reversable="true" start="0,0" end="0,-25" time="0" condition="Skin.HasSetting(synopsislayout) + !Skin.HasSetting(KioskMode)">conditional</animation>\n\
-				<!-- Normal -->\n\
-				<control type="group">\n\
-					<visible>!Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>165</posx>\n\
-						<posy>10</posy>\n\
-						<width>950</width>\n\
-						<height>530</height>\n\
-						<texture>menu_back_shadow.png</texture>\n\
-					</control>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>320</posx>\n\
-						<posy>100</posy>\n\
-						<width>640</width>\n\
-						<height>350</height>\n\
-						<colordiffuse>menu_back_image</colordiffuse>\n\
-						<texture border="20,20,20,20">menu_back.png</texture>\n\
-					</control>\n\
-				</control>\n\
-				<control type="group">\n\
-					<visible>!Skin.HasSetting(KioskMode) + [Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)]</visible>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>165</posx>\n\
-						<posy>10</posy>\n\
-						<width>950</width>\n\
-						<height>580</height>\n\
-						<texture>menu_back_shadow.png</texture>\n\
-					</control>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>320</posx>\n\
-						<posy>100</posy>\n\
-						<width>640</width>\n\
-						<height>400</height>\n\
-						<colordiffuse>menu_back_image</colordiffuse>\n\
-						<texture border="20,20,20,20">menu_back.png</texture>\n\
-					</control>\n\
-				</control>\n\
-				<!-- kiosk mode -->\n\
-				<control type="group">\n\
-					<visible>Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>165</posx>\n\
-						<posy>60</posy>\n\
-						<width>950</width>\n\
-						<height>280</height>\n\
-						<texture>menu_back_shadow.png</texture>\n\
-					</control>\n\
-					<control type="image">\n\
-						<description>background image</description>\n\
-						<posx>320</posx>\n\
-						<posy>100</posy>\n\
-						<width>640</width>\n\
-						<height>200</height>\n\
-						<colordiffuse>menu_back_image</colordiffuse>\n\
-						<texture border="20,20,20,20">menu_back.png</texture>\n\
-					</control>\n\
-				</control>\n\
-				<control type="label">\n\
-					<description>heading label</description>\n\
-					<posx>320</posx>\n\
-					<posy>130</posy>\n\
-					<width>640</width>\n\
-					<height>50</height>\n\
-					<align>center</align>\n\
-					<aligny>center</aligny>\n\
-					<font>size_50</font>\n\
-					<label>[UPPERCASE]$LOCALIZE[30911][/UPPERCASE]</label>\n\
-					<textcolor>menu_header_label</textcolor>\n\
-				</control>\n\
-				<control type="grouplist" id="9000">\n\
-					<posx>320</posx>\n\
-					<posy>201</posy>\n\
-					<width>640</width>\n\
-					<height>50</height>\n\
-					<onleft>9000</onleft>\n\
-					<onright>9000</onright>\n\
-					<onup>9004</onup>\n\
-					<ondown>9001</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>horizontal</orientation>\n\
-					<!-- jumpcode -->\n\
-				</control>\n\
-				<control type="grouplist" id="9001">\n\
-					<posx>320</posx>\n\
-					<posy>250</posy>\n\
-					<width>640</width>\n\
-					<height>200</height>\n\
-					<onleft>-</onleft>\n\
-					<onright>-</onright>\n\
-					<onup>9000</onup>\n\
-					<ondown>9002</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>vertical</orientation>\n\
-					<control type="button" id="8051">\n\
-						<label>[UPPERCASE]$LOCALIZE[31401][/UPPERCASE]</label>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onclick>Dialog.Close(1120)</onclick>\n\
-						<onclick>SetFocus(9200)</onclick>\n\
-						<onclick>RunScript(special://emustation_scripts/generate_favourites.py)</onclick>\n\
-						<visible>!Skin.HasSetting(KioskMode)</visible>\n\
-					</control>\n\
-				</control>\n\
-				<control type="grouplist" id="9002">\n\
-					<posx>320</posx>\n\
-					<posy>299</posy>\n\
-					<width>640</width>\n\
-					<height>200</height>\n\
-					<onleft>9002</onleft>\n\
-					<onright>9002</onright>\n\
-					<onup>9001</onup>\n\
-					<ondown>9003</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>horizontal</orientation>\n\
-					<visible>!Skin.HasSetting(KioskMode)</visible>\n\
-					<control type="button" id="8040">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]2d[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart)</visible>\n\
-					</control>\n\
-					<control type="button" id="8041">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]3d[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart3d)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart3d)</visible>\n\
-					</control>\n\
-					<control type="button" id="8042">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]cd poster[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,cdposter)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),cdposter)</visible>\n\
-					</control>\n\
-					<control type="button" id="8043">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]disc[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,disc)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),disc)</visible>\n\
-					</control>\n\
-					<control type="button" id="8044">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]dual[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,dual)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),dual)</visible>\n\
-					</control>\n\
-					<control type="button" id="8045">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]open case[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,opencase)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),opencase)</visible>\n\
-					</control>\n\
-					<control type="button" id="8046">\n\
-						<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>\n\
-						<label2>&lt; [UPPERCASE]screenshots[/UPPERCASE] &gt;</label2>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,screenshots)</onfocus>\n\
-						<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),screenshots)</visible>\n\
-					</control>\n\
-				</control>\n\
-				<control type="grouplist" id="9003">\n\
-					<posx>320</posx>\n\
-					<posy>348</posy>\n\
-					<width>640</width>\n\
-					<height>200</height>\n\
-					<onleft>-</onleft>\n\
-					<onright>-</onright>\n\
-					<onup>9002</onup>\n\
-					<ondown>9004</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>vertical</orientation>\n\
-					<visible>!Skin.HasSetting(KioskMode) + [Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)]</visible>\n\
-					<control type="radiobutton" id="8060">\n\
-						<label>[UPPERCASE]$LOCALIZE[31403][/UPPERCASE]</label>\n\
-						<include>MenuButtonCommonAltValues</include>\n\
-						<onclick>Skin.ToggleSetting(' + MenuLabel + 'fanart)</onclick>\n\
-						<selected>Skin.HasSetting(' + MenuLabel + 'fanart)</selected>\n\
-					</control>\n\
-				</control>\n\
-				<control type="grouplist" id="9004">\n\
-					<posx>320</posx>\n\
-					<posy>348</posy>\n\
-					<width>640</width>\n\
-					<height>200</height>\n\
-					<onleft>-</onleft>\n\
-					<onright>-</onright>\n\
-					<onup>9003</onup>\n\
-					<ondown>9000</ondown>\n\
-					<itemgap>-1</itemgap>\n\
-					<scrolltime>0</scrolltime>\n\
-					<orientation>vertical</orientation>\n\
-					<animation effect="slide" reversable="true" start="0,0" end="0,49" time="0" condition="Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)">conditional</animation>\n\
-					<visible>!Skin.HasSetting(KioskMode) + [StringCompare(Skin.String(emuname),xbox) | StringCompare(Skin.String(emuname),ports)]</visible>\n\
-					<control type="button" id="8070">\n\
-						<label>[UPPERCASE]$LOCALIZE[31404][/UPPERCASE]</label>\n\
-						<include>MenuButtonCommonValues</include>\n\
-						<onclick>Skin.SetBool(editmode)</onclick>\n\
-						<onclick>Dialog.Close(1120)</onclick>\n\
-						<onclick>RunScript(special://emustation_scripts/menu_loader.py,'+xbmc.getInfoLabel('Container(9000).ListItem.Label2')+',editmode)</onclick>\n\
-					</control>\n\
-				</control>\n\
-			</control>\n\
-		</controls>\n\
-	</window>'
+	Jump_File_Data				= Overlay_JumpXML_XBE_File
 Header_Data_XBE					= '<window id="1">\n\
 		<onunload condition="Player.HasVideo">Stop</onunload>\n\
 		<defaultcontrol always="true">50</defaultcontrol>\n\
@@ -714,7 +340,7 @@ if EMU_Files == 1:
 						line = line.replace(line,line+gamelistfile)
 					print line,
 			with open(_Script_Jump_Path, "w") as inputfile:
-				inputfile.write(Jump_File_Data)
+				inputfile.write(Jump_File_Data.replace("' + MenuLabel + '",MenuLabel))
 			with open(os.path.join(Favs_List_Path,'jumplist.xml')) as jumpfile:
 				jumpfile = jumpfile.read()
 				for line in fileinput.FileInput(_Script_Jump_Path,inplace=1):

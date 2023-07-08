@@ -1,0 +1,6 @@
+<window type="dialog" id="120">
+		<onload>Dialog.Close(120)</onload>
+		<defaultcontrol>-</defaultcontrol>
+		<controls>
+		</controls>
+</window>
