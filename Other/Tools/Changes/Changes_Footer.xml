@@ -1,17 +1,4 @@
 </label>
-		</control>
-			<control type="scrollbar" id="1">
-					<posx>1265</posx>
-					<posy>360</posy>
-					<width>10</width>
-					<height>360</height>
-					<texturesliderbackground>-</texturesliderbackground>
-					<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
-					<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
-					<textureslidernib>scrollbar_nib.png</textureslidernib>
-					<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-					<showonepage>false</showonepage>
-					<orientation>vertical</orientation>
-			</control>
-	</controls>
+				</control>
+		</controls>
 </window>

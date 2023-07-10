@@ -88,6 +88,14 @@
 										<onclick>Skin.ToggleSetting(hide_favs_title)</onclick>
 										<selected>Skin.HasSetting(hide_favs_title)</selected>
 								</control>
+								<control type="radiobutton" id="13">
+										<description>Disable SD Skins</description>
+										<include>MenuButtonMenuValues</include>
+										<label>[UPPERCASE]$LOCALIZE[31273][/UPPERCASE]</label>
+										<onclick>RunScript( special://emustation_scripts/toggle_sd_themes.py )</onclick>
+										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,show_both-hide_sd_themes,NOTICE,,Reboot required,,,reboot )</onclick>
+										<selected>Skin.HasSetting(hide_sd_themes)</selected>
+								</control>
 								<control type="radiobutton" id="20">
 										<description>Enable Default to last rom</description>
 										<posx>0</posx>

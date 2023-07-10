@@ -17,6 +17,11 @@ if os.path.isfile(zip_file):
 	# Remove older .modules folder
 	if os.path.isdir(Root_Directory+'system/scripts/.modules'):
 		shutil.rmtree(Root_Directory+'system/scripts/.modules')
+	# Rename disabled SD folders if found.
+	if os.path.isdir(os.path.join(Root_Directory+'emustation/themes/simple/.xml_sd_pal')):
+		shutil.rmtree(os.path.join(Root_Directory+'emustation/themes/simple/.xml_sd_pal'))
+	if os.path.isdir(os.path.join(Root_Directory+'emustation/themes/simple/.xml_sd_ntsc')):
+		shutil.rmtree(os.path.join(Root_Directory+'emustation/themes/simple/.xml_sd_ntsc'))
 	# Update older backup to backups
 	if os.path.isdir(Root_Directory+'system/backups') and os.path.isdir(Root_Directory+'system/backup'):
 		shutil.rmtree(Root_Directory+'system/backup')
@@ -108,6 +113,8 @@ if os.path.isfile(zip_file):
 			line = line.replace('xbmc/.emustation/', 'xbmc/emustation/')
 		if 'Q:\.emustation' in line:
 			line = line.replace('Q:\.emustation', 'Q:\emustation')
+		if 'simple.hide_sd_themes' in line:
+			line = line.replace('true', 'false')
 		if 'custom_emulator_path' in line:
 			emulator_path = line.split('">')[1].split('</')[0]
 		print line,

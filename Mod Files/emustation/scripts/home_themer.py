@@ -15,11 +15,12 @@ if "PAL" in Resolution and os.path.isdir(os.path.join(xbmc.translatePath('specia
 	print "SD PAL Mode"
 	Layout_Mode = 'sd_pal/'
 	XML_Mode = 'xml_sd_pal/'
-elif "NTSC" in Resolution and os.path.isdir(os.path.join(xbmc.translatePath('special://skin/xml_sd_ntsc'))):
+elif "NTSC" in Resolution and os.path.isdir(os.path.join(xbmc.translatePath('special://skin/xml_sd_ntsc'))) or "480p" in Resolution and os.path.isdir(os.path.join(xbmc.translatePath('special://skin/xml_sd_ntsc'))):
 	print "SD NTSC Mode"
 	Layout_Mode = 'sd_ntsc/'
 	XML_Mode = 'xml_sd_ntsc/'
 else:
+	print "Progressive Mode"
 	Layout_Mode = ''
 	XML_Mode = 'xml/'
 Home_XML_Path		= xbmc.translatePath('special://skin/' + XML_Mode + 'Home.xml')

@@ -217,6 +217,10 @@ msgctxt "#31272"
 msgid "disable favourites carousel tile"
 msgstr "désactiver la vignette du carrousel des favoris"
 
+msgctxt "#31273"
+msgid "disable sd themes"
+msgstr "désactiver la prise en charge de la résolution sd"
+
 ## customization - custom_customizehome.xml - 31290 to 31319
 
 msgctxt "#31290"
