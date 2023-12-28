@@ -5,27 +5,27 @@
 				<include>Window_OpenClose_Animation</include>
 				<control type="visualisation" id="2">
 						<description>visualisation</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>720</width>
 						<height>576</height>
 				</control>
 				<control type="group">
-						<posy>96</posy>
+						<top>96</top>
 						<!--<visible>!System.IdleTime(10)</visible>-->
 						<animation effect="fade" time="500">Visible</animation>
 						<animation effect="fade" time="300">Hidden</animation>
 						<control type="image">
 								<description>media info background image</description>
-								<posx>0</posx>
-								<posy>390</posy>
+								<left>0</left>
+								<top>390</top>
 								<width>720</width>
 								<height>90</height>
 								<texture>black-back.png</texture>
 						</control>
 						<control type="image">
-								<posx>0</posx>
-								<posy>365</posy>
+								<left>0</left>
+								<top>365</top>
 								<width>720</width>
 								<height>20</height>
 								<texture>black-back.png</texture>
@@ -34,8 +34,8 @@
 								<visible>Visualisation.Locked</visible>
 						</control>
 						<control type="label">
-								<posx>170</posx>
-								<posy>365</posy>
+								<left>170</left>
+								<top>365</top>
 								<label>-</label>
 								<align>left</align>
 								<label>[UPPERCASE][COLOR=orange]($LOCALIZE[20166])[/COLOR][/UPPERCASE] - $LOCALIZE[13388]: $INFO[Visualisation.Preset]</label>
@@ -45,8 +45,8 @@
 								<visible>Visualisation.Locked</visible>
 						</control>
 						<control type="image">
-								<posx>0</posx>
-								<posy>385</posy>
+								<left>0</left>
+								<top>385</top>
 								<width>720</width>
 								<height>5</height>
 								<colordiffuse>orange</colordiffuse>
@@ -56,8 +56,8 @@
 						</control>
 						<control type="image">
 								<description>cover image</description>
-								<posx>10</posx>
-								<posy>330</posy>
+								<left>10</left>
+								<top>330</top>
 								<width>150</width>
 								<height>150</height>
 								<info>MusicPlayer.cover</info>
@@ -65,8 +65,8 @@
 								<fadetime>500</fadetime>
 						</control>
 						<control type="image">
-								<posx>240</posx>
-								<posy>100</posy>
+								<left>240</left>
+								<top>100</top>
 								<width>250</width>
 								<height>250</height>
 								<texture>music_controls.png</texture>
@@ -75,8 +75,8 @@
 								<visible>!Player.Paused</visible>
 						</control>
 						<control type="image">
-								<posx>240</posx>
-								<posy>100</posy>
+								<left>240</left>
+								<top>100</top>
 								<width>250</width>
 								<height>250</height>
 								<texture>music_controls_alt.png</texture>
@@ -86,15 +86,15 @@
 						</control>
 						<control type="progress">
 								<description>Progressbar</description>
-								<posx>10</posx>
-								<posy>470</posy>
+								<left>10</left>
+								<top>470</top>
 								<width>150</width>
 								<height>10</height>
 								<info>Player.Progress</info>
 						</control>
 						<control type="label">
-								<posx>170</posx>
-								<posy>390</posy>
+								<left>170</left>
+								<top>390</top>
 								<width>500</width>
 								<height>25</height>
 								<label>[COLOR=white]Artist:[/COLOR] $INFO[MusicPlayer.Artist]</label>
@@ -104,8 +104,8 @@
 								<textcolor>grey2</textcolor>
 						</control>
 						<control type="label">
-								<posx>170</posx>
-								<posy>410</posy>
+								<left>170</left>
+								<top>410</top>
 								<width>500</width>
 								<height>25</height>
 								<label>[COLOR=white]Song:[/COLOR] $INFO[MusicPlayer.Title]</label>
@@ -115,8 +115,8 @@
 								<textcolor>grey2</textcolor>
 						</control>
 						<control type="label">
-								<posx>170</posx>
-								<posy>430</posy>
+								<left>170</left>
+								<top>430</top>
 								<width>350</width>
 								<height>25</height>
 								<label>[COLOR=white]Album:[/COLOR] $INFO[MusicPlayer.Album]</label>
@@ -126,8 +126,8 @@
 								<textcolor>grey2</textcolor>
 						</control>
 						<control type="label">
-								<posx>170</posx>
-								<posy>450</posy>
+								<left>170</left>
+								<top>450</top>
 								<width>925</width>
 								<height>25</height>
 								<label>$LOCALIZE[209] : $INFO[MusicPlayer.offset(1).Artist,, - ]$INFO[MusicPlayer.offset(1).Title]</label>
@@ -137,8 +137,8 @@
 								<textcolor>white</textcolor>
 						</control>
 						<control type="label">
-								<posx>20r</posx>
-								<posy>440</posy>
+								<left>20r</left>
+								<top>440</top>
 								<width>300</width>
 								<height>25</height>
 								<label>$INFO[MusicPlayer.Time]$INFO[Player.Duration, / ]</label>
@@ -148,8 +148,8 @@
 								<textcolor>white</textcolor>
 						</control>
 						<control type="label">
-								<posx>10r</posx>
-								<posy>465</posy>
+								<left>10r</left>
+								<top>465</top>
 								<width>300</width>
 								<height>25</height>
 								<label>$INFO[musicplayer.Playlistposition,$LOCALIZE[554]: ]$INFO[musicplayer.Playlistlength, / ]</label>
@@ -159,8 +159,8 @@
 								<textcolor>white</textcolor>
 						</control>
 						<control type="label">
-								<posx>350</posx>
-								<posy>475</posy>
+								<left>350</left>
+								<top>475</top>
 								<width>300</width>
 								<height>25</height>
 								<label />

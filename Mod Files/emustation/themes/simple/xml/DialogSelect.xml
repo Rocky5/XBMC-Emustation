@@ -4,13 +4,13 @@
 		<controls>
 				<control type="group">
 						<!-- Image Preview -->
-						<posx>290</posx>
-						<posy>17</posy>
+						<left>290</left>
+						<top>17</top>
 						<visible>Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)</visible>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>108</posy>
+								<left>320</left>
+								<top>108</top>
 								<width>640</width>
 								<height>470</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -18,20 +18,20 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>400</posx>
-								<posy>130</posy>
+								<left>400</left>
+								<top>130</top>
 								<width>540</width>
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>size_50</font>
-								<label>Preview</label>
+								<label>[UPPERCASE]preview[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
 						<control type="image">
 								<description>Current Icon image</description>
-								<posx>400</posx>
-								<posy>90</posy>
+								<left>400</left>
+								<top>90</top>
 								<width>540</width>
 								<height>510</height>
 								<aspectratio>keep</aspectratio>
@@ -44,8 +44,8 @@
 						</control>
 						<control type="image">
 								<description>Current Icon image</description>
-								<posx>400</posx>
-								<posy>90</posy>
+								<left>400</left>
+								<top>90</top>
 								<width>540</width>
 								<height>510</height>
 								<aspectratio>keep</aspectratio>
@@ -56,15 +56,29 @@
 								<fadetime>ThumbCrossfadeTime</fadetime>
 								<visible>Window.IsVisible(1300)</visible>
 						</control>
+						<control type="image">
+								<description>Current Icon image</description>
+								<left>400</left>
+								<top>90</top>
+								<width>540</width>
+								<height>510</height>
+								<aspectratio>keep</aspectratio>
+								<texture background="true">Special://themes_root/$INFO[Skin.CurrentTheme]/colours/$INFO[Container(3).ListItem.Label].jpg</texture>
+								<aspectratio>keep</aspectratio>
+								<bordertexture border="5">white-back.png</bordertexture>
+								<bordersize>1</bordersize>
+								<fadetime>ThumbCrossfadeTime</fadetime>
+								<visible>Window.IsVisible(1300)</visible>
+						</control>
 				</control>
 				<control type="group">
 						<!-- Browser pane -->
 						<animation effect="slide" start="0,0" end="-290,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
-						<posy>17</posy>
+						<top>17</top>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>108</posy>
+								<left>320</left>
+								<top>108</top>
 								<width>640</width>
 								<height>470</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -72,19 +86,19 @@
 						</control>
 						<control type="label" id="1">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>640</width>
 								<height>50</height>
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>size_50</font>
-								<label>13406</label>
+								<label>[UPPERCASE]13406[/UPPERCASE]</label>
 								<textcolor>menu_header_label</textcolor>
 						</control>
 						<control type="list" id="3">
-								<posx>310</posx>
-								<posy>200</posy>
+								<left>310</left>
+								<top>200</top>
 								<width>640</width>
 								<height>295</height>
 								<onup>3</onup>
@@ -98,11 +112,12 @@
 										<control type="image">
 												<width>640</width>
 												<height>50</height>
+												<colordiffuse>menu_focus_back</colordiffuse>
 												<texture>button-nofocus4.png</texture>
 										</control>
 										<control type="label">
-												<posx>10</posx>
-												<posy>0</posy>
+												<left>10</left>
+												<top>0</top>
 												<width>640</width>
 												<height>50</height>
 												<align>left</align>
@@ -116,32 +131,34 @@
 										<control type="image">
 												<width>640</width>
 												<height>50</height>
+												<colordiffuse>menu_focus_back</colordiffuse>
 												<texture>button-nofocus4.png</texture>
 												<visible>!Control.HasFocus(3)</visible>
 										</control>
 										<control type="image">
 												<width>640</width>
 												<height>50</height>
+												<colordiffuse>menu_focus_back</colordiffuse>
 												<texture>button-focus4.png</texture>
 												<visible>Control.HasFocus(3)</visible>
 										</control>
 										<control type="label">
-												<posx>10</posx>
-												<posy>0</posy>
+												<left>10</left>
+												<top>0</top>
 												<width>640</width>
 												<height>50</height>
 												<align>left</align>
 												<aligny>center</aligny>
 												<font>size_23</font>
-												<textcolor>menu_select_label</textcolor>
+												<textcolor>menu_focus_label</textcolor>
 												<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 										</control>
 								</focusedlayout>
 						</control>
 						<control type="button" id="5">
 								<description>OK button</description>
-								<posx>590</posx>
-								<posy>510</posy>
+								<left>590</left>
+								<top>510</top>
 								<label>186</label>
 								<include>MenuYesNoButtonCommonValues</include>
 								<onleft>3</onleft>
@@ -153,8 +170,8 @@
 				<control type="group">
 						<animation effect="slide" start="0,0" end="-290,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
 						<control type="image">
-								<posx>360r</posx>
-								<posy>195</posy>
+								<left>360r</left>
+								<top>195</top>
 								<width>22</width>
 								<height>22</height>
 								<texture>scroll-up.png</texture>
@@ -165,8 +182,8 @@
 								</animation>
 						</control>
 						<control type="image">
-								<posx>360r</posx>
-								<posy>208r</posy>
+								<left>360r</left>
+								<top>208r</top>
 								<width>22</width>
 								<height>22</height>
 								<texture>scroll-down.png</texture>

@@ -135,8 +135,8 @@ try:
 #####
 	if not Favourite_Launch and xbmc.getCondVisibility('Skin.HasSetting(lastromlist)'):
 		xbmc.executebuiltin('Skin.SetBool(gameloaded)')
-		if not os.path.isfile('Q:\\system\\introplay'):
-			with open('Q:\\system\\introplay', 'w') as introplay: introplay.write('')
+		if not os.path.isfile('Q:\\system\\nointroplay'):
+			with open('Q:\\system\\nointroplay', 'w') as nointroplay: nointroplay.write('')
 	else: pass
 	
 #####

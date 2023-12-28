@@ -3,11 +3,11 @@
 				<control type="group">
 						<!-- snow -->
 						<!-- Use this to space all the groups -->
-						<posx>-100</posx>
+						<left>-100</left>
 						<animation effect="rotate" end="20" time="9000" delay="300" pulse="true" condition="true">Conditional</animation>
 						<control type="image">
-								<posx>100</posx>
-								<posy>-100</posy>
+								<left>100</left>
+								<top>-100</top>
 								<width>20</width>
 								<height>20</height>
 								<texture>snow.png</texture>
@@ -16,8 +16,8 @@
 								<animation effect="slide" start="40,0" end="-20,0" time="3200" delay="300" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>260</posx>
-								<posy>-80</posy>
+								<left>260</left>
+								<top>-80</top>
 								<width>15</width>
 								<height>15</height>
 								<texture>snow.png</texture>
@@ -26,8 +26,8 @@
 								<animation effect="slide" start="40,0" end="-30,0" time="4000" delay="200" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>390</posx>
-								<posy>-110</posy>
+								<left>390</left>
+								<top>-110</top>
 								<width>10</width>
 								<height>10</height>
 								<texture>snow.png</texture>
@@ -39,11 +39,11 @@
 				</control>
 				<control type="group">
 						<!-- Use this to space all the groups -->
-						<posx>200</posx>
+						<left>200</left>
 						<animation effect="rotate" start="10" end="60" time="9000" delay="300" pulse="true" condition="true">Conditional</animation>
 						<control type="image">
-								<posx>100</posx>
-								<posy>-100</posy>
+								<left>100</left>
+								<top>-100</top>
 								<width>20</width>
 								<height>20</height>
 								<texture>snow.png</texture>
@@ -52,8 +52,8 @@
 								<animation effect="slide" start="40,0" end="-20,0" time="3200" delay="300" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>260</posx>
-								<posy>-80</posy>
+								<left>260</left>
+								<top>-80</top>
 								<width>15</width>
 								<height>15</height>
 								<texture>snow.png</texture>
@@ -62,8 +62,8 @@
 								<animation effect="slide" start="40,0" end="-30,0" time="4000" delay="200" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>390</posx>
-								<posy>-110</posy>
+								<left>390</left>
+								<top>-110</top>
 								<width>10</width>
 								<height>10</height>
 								<texture>snow.png</texture>
@@ -75,11 +75,11 @@
 				</control>
 				<control type="group">
 						<!-- Use this to space all the groups -->
-						<posx>600</posx>
+						<left>600</left>
 						<animation effect="rotate" end="20" time="9000" delay="300" pulse="true" condition="true">Conditional</animation>
 						<control type="image">
-								<posx>100</posx>
-								<posy>-100</posy>
+								<left>100</left>
+								<top>-100</top>
 								<width>20</width>
 								<height>20</height>
 								<texture>snow.png</texture>
@@ -88,8 +88,8 @@
 								<animation effect="slide" start="40,0" end="-20,0" time="3200" delay="300" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>260</posx>
-								<posy>-80</posy>
+								<left>260</left>
+								<top>-80</top>
 								<width>15</width>
 								<height>15</height>
 								<texture>snow.png</texture>
@@ -98,8 +98,8 @@
 								<animation effect="slide" start="40,0" end="-30,0" time="4000" delay="200" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>390</posx>
-								<posy>-110</posy>
+								<left>390</left>
+								<top>-110</top>
 								<width>10</width>
 								<height>10</height>
 								<texture>snow.png</texture>
@@ -111,11 +111,11 @@
 				</control>
 				<control type="group">
 						<!-- Use this to space all the groups -->
-						<posx>900</posx>
+						<left>900</left>
 						<animation effect="rotate" end="40" time="12000" delay="300" pulse="true" condition="true">Conditional</animation>
 						<control type="image">
-								<posx>100</posx>
-								<posy>-100</posy>
+								<left>100</left>
+								<top>-100</top>
 								<width>20</width>
 								<height>20</height>
 								<texture>snow.png</texture>
@@ -124,8 +124,8 @@
 								<animation effect="slide" start="40,0" end="-20,0" time="3200" delay="300" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>260</posx>
-								<posy>-80</posy>
+								<left>260</left>
+								<top>-80</top>
 								<width>15</width>
 								<height>15</height>
 								<texture>snow.png</texture>
@@ -134,8 +134,8 @@
 								<animation effect="slide" start="40,0" end="-30,0" time="4000" delay="200" reversible="false" pulse="true" condition="true">Conditional</animation>
 						</control>
 						<control type="image">
-								<posx>390</posx>
-								<posy>-110</posy>
+								<left>390</left>
+								<top>-110</top>
 								<width>10</width>
 								<height>10</height>
 								<texture>snow.png</texture>

@@ -2,8 +2,8 @@
 		<defaultcontrol always="true">8</defaultcontrol>
 		<controls>
 				<control type="image">
-						<posx>-50</posx>
-						<posy>-50</posy>
+						<left>-50</left>
+						<top>-50</top>
 						<width>820</width>
 						<height>676</height>
 						<texture>gui_underlay.png</texture>
@@ -24,12 +24,12 @@
 						<texturenofocus>calibrate-pixelratio.png</texturenofocus>
 				</control>
 				<control type="group">
-						<posx>0</posx>
-						<posy>40</posy>
+						<left>0</left>
+						<top>40</top>
 						<control type="label" id="2">
 								<description>coordinates label</description>
-								<posx>0</posx>
-								<posy>10</posy>
+								<left>0</left>
+								<top>10</top>
 								<width>720</width>
 								<label>-</label>
 								<align>center</align>
@@ -38,8 +38,8 @@
 						</control>
 						<control type="label" id="3">
 								<description>help information</description>
-								<posx>0</posx>
-								<posy>40</posy>
+								<left>0</left>
+								<top>40</top>
 								<width>720</width>
 								<label>-</label>
 								<align>center</align>
@@ -48,8 +48,8 @@
 						</control>
 						<control type="label">
 								<description>help information</description>
-								<posx>0</posx>
-								<posy>70</posy>
+								<left>0</left>
+								<top>70</top>
 								<width>720</width>
 								<label>$LOCALIZE[31176]</label>
 								<align>center</align>
@@ -59,8 +59,8 @@
 						</control>
 				</control>
 				<control type="image">
-						<posx>242</posx>
-						<posy>160</posy>
+						<left>242</left>
+						<top>160</top>
 						<width>256</width>
 						<height>256</height>
 						<aspectratio>stretch</aspectratio>
@@ -69,8 +69,8 @@
 						<animation effect="rotate" start="0" end="-360" center="auto" time="5000" loop="true" condition="true">conditional</animation>
 				</control>
 				<control type="image">
-						<posx>242</posx>
-						<posy>160</posy>
+						<left>242</left>
+						<top>160</top>
 						<width>256</width>
 						<height>256</height>
 						<aspectratio>stretch</aspectratio>
@@ -81,8 +81,8 @@
 				</control>
 				<control type="grouplist">
 						<description>Control Info</description>
-						<posx>20</posx>
-						<posy>520</posy>
+						<left>20</left>
+						<top>520</top>
 						<width>720</width>
 						<height>80</height>
 						<itemgap>10</itemgap>
@@ -90,16 +90,16 @@
 						<align>center</align>
 						<!-- A Button -->
 						<control type="image">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>25</width>
 								<height>25</height>
 								<aspectratio>stretch</aspectratio>
 								<texture>layouts\art\a.png</texture>
 						</control>
 						<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="80" max="147">auto</width>
 								<height>20</height>
 								<font>size_19</font>
@@ -110,16 +110,16 @@
 						</control>
 						<!-- B Button -->
 						<control type="image">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>25</width>
 								<height>25</height>
 								<aspectratio>stretch</aspectratio>
 								<texture>layouts\art\b.png</texture>
 						</control>
 						<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="80" max="147">auto</width>
 								<height>20</height>
 								<font>size_19</font>

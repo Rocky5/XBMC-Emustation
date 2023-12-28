@@ -2,8 +2,8 @@
 		<defaultcontrol always="true">61</defaultcontrol>
 		<controls>
 				<control type="image">
-						<posx>20</posx>
-						<posy>76</posy>
+						<left>20</left>
+						<top>76</top>
 						<width>680</width>
 						<height>440</height>
 						<aspectratio>stretch</aspectratio>
@@ -11,16 +11,16 @@
 						<texture border="20,20,20,20">menu_back.png</texture>
 				</control>
 				<control type="image">
-						<posx>40</posx>
-						<posy>116</posy>
+						<left>40</left>
+						<top>116</top>
 						<width>640</width>
 						<height>1</height>
 						<texture>separator_menu.png</texture>
 				</control>
 				<control type="label">
 						<description>heading label used to bold and upper-case</description>
-						<posx>40</posx>
-						<posy>66</posy>
+						<left>40</left>
+						<top>66</top>
 						<width>640</width>
 						<height>60</height>
 						<align>left</align>
@@ -31,32 +31,32 @@
 				</control>
 				<control type="label" id="1">
 						<description>heading label</description>
-						<posx>40</posx>
-						<posy>66</posy>
+						<left>40</left>
+						<top>66</top>
 						<width>640</width>
 						<height>50</height>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>size_25</font>
-						<textcolor>menu_deselect_label</textcolor>
+						<textcolor>menu_nofocus_label</textcolor>
 						<visible>false</visible>
 				</control>
 				<control type="textbox" id="5">
 						<description>textarea</description>
-						<posx>40</posx>
-						<posy>126</posy>
+						<left>40</left>
+						<top>126</top>
 						<width>640</width>
 						<height>370</height>
 						<font>size_16</font>
 						<align>left</align>
-						<textcolor>menu_deselect_label</textcolor>
+						<textcolor>menu_nofocus_label</textcolor>
 						<shadowcolor>-</shadowcolor>
 						<pagecontrol>61</pagecontrol>
 				</control>
 				<!-- Scroll bar fails to work due to the scrolltime being set to 200 :-/ -->
 				<control type="scrollbar" id="61">
-						<posx>680</posx>
-						<posy>126</posy>
+						<left>680</left>
+						<top>126</top>
 						<width>10</width>
 						<height>370</height>
 						<texturesliderbackground border="2,2,2,2">scrollbar_bar_back2.png</texturesliderbackground>

@@ -30,7 +30,7 @@ Game_Directories		= [ "E:\\Games\\","F:\\Games\\","G:\\Games\\" ]
 Homebrew_Directories	= [ "E:\\Homebrew\\","F:\\Homebrew\\","G:\\Homebrew\\","E:\\Ports\\","F:\\Ports\\","G:\\Ports\\" ]
 Apps_Directories		= [ "E:\\Apps\\","F:\\Apps\\","G:\\Apps\\","E:\\Applications\\","F:\\Applications\\","G:\\Applications\\" ]
 Demos_Directories		= [ "E:\\Demos\\","F:\\Demos\\","G:\\Demos\\" ]
-EMU_Directories			= [ "3do","amiga","amstradcpc","apple2","atari2600","atari5200","atari7800","atari800","atarijaguar","atarilynx","atarist","atarixe","atarixl","c64","c64pet","chip8x","coco","colecovision","cv20","daphne","dreamcastvmu","famicom","fba","fbaxxx","fbl","fblc","gamegear","gb","gba","gbc","genesis","intellivision","mame","mastersystem","megadrive","mess","msx","n64","nds","neogeo","neogeocd","nes","ngp","ngpc","odyssey2","pc-98","pce-cd","pcengine","pokemonmini","psx","samcoupe","saturn","sc-3000","scummvm","sega32x","segacd","sf-7000","sg-1000","sgb","sgb2","snes","tg-cd","tg16","ti99","virtualboy","waterasupervision","wonderswan","x68000","zxspectrum" ] ## used to create folders of the supported emulators.
+EMU_Directories			= [ "3do","amiga","amstradcpc","apple2","atari2600","atari5200","atari7800","atari800","atarijaguar","atarilynx","atarist","atarixe","atarixl","c64","c64pet","chip8x","coco","colecovision","cv20","daphne","dreamcastvmu","famicom","fba","fbaxxx","fbl","fblc","gamegear","gb","gba","gbc","genesis","intellivision","mame","mastersystem","megadrive","mess","msx","n64","nds","neogeo","neogeocd","nes","ngp","ngpc","odyssey2","pc-98","pce-cd","pcengine","pokemonmini","psx","samcoupe","saturn","sc-3000","scummvm","sega32x","segacd","sf-7000","sg-1000","sgb","snes","tg-cd","tg16","ti99","virtualboy","waterasupervision","wonderswan","x68000","zxspectrum" ] ## used to create folders of the supported emulators.
 if Update_Emulators == "scan_emus":
 	CountList = 1
 	pDialog.update(0)
@@ -53,6 +53,24 @@ if Update_Emulators == "scan_emus":
 		else:
 			if not os.path.isdir(os.path.join(Roms_Path, Emulators)): os.makedirs(os.path.join(Roms_Path, Emulators))
 	if not SilentMode == "silent_mode": pDialog.create("Refreshing Carousel Information","Initializing")
+	try:
+		if int(xbmc.getInfoLabel('Skin.String(homebrew_games)')) > 0:
+			xbmc.executebuiltin('Skin.SetBool(homebrew_exists)')
+		else:
+			xbmc.executebuiltin('Skin.Reset(homebrew_exists)')
+	except: xbmc.executebuiltin('Skin.Reset(homebrew_exists)')
+	try:
+		if int(xbmc.getInfoLabel('Skin.String(ports_games)')) > 0:
+			xbmc.executebuiltin('Skin.SetBool(ports_exists)')
+		else:
+			xbmc.executebuiltin('Skin.Reset(ports_exists)')
+	except: xbmc.executebuiltin('Skin.Reset(ports_exists)')
+	try:
+		if int(xbmc.getInfoLabel('Skin.String(xbox_games)')) > 0:
+			xbmc.executebuiltin('Skin.SetBool(xbox_exists)')
+		else:
+			xbmc.executebuiltin('Skin.Reset(xbox_exists)')
+	except: xbmc.executebuiltin('Skin.Reset(xbox_exists)')
 	for EmuFolder in sorted(os.listdir(Emulator_Folder_Path)):
 		if EmuFolder == "atarijaguar":
 			Roms_Folder = os.path.join(Emulator_Folder_Path, EmuFolder, 'roms')

@@ -2,22 +2,23 @@
 		<include>ViewVisibleEffect</include>
 		<coordinates>
 				<system>1</system>
-				<posx>470</posx>
-				<posy>10</posy>
+				<left>470</left>
+				<top>10</top>
 		</coordinates>
 		<controls>
 				<control type="image">
 						<description>background image</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>220</width>
 						<height>70</height>
+						<colordiffuse>menu_back_image</colordiffuse>
 						<texture border="20,20,20,20">toast.png</texture>
 				</control>
 				<control type="label" id="401">
 						<description>Line 1 Label</description>
-						<posx>10</posx>
-						<posy>15</posy>
+						<left>10</left>
+						<top>15</top>
 						<width>200</width>
 						<height>20</height>
 						<font>size_18_bold</font>
@@ -28,8 +29,8 @@
 				</control>
 				<control type="label" id="402">
 						<description>Line 2 Label</description>
-						<posx>10</posx>
-						<posy>35</posy>
+						<left>10</left>
+						<top>35</top>
 						<width>200</width>
 						<height>20</height>
 						<font>size_17</font>

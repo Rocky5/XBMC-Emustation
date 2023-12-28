@@ -2,23 +2,23 @@
 		<defaultcontrol>10</defaultcontrol>
 		<coordinates>
 				<system>1</system>
-				<posx>50</posx>
-				<posy>100</posy>
+				<left>50</left>
+				<top>100</top>
 		</coordinates>
 		<include>dialogeffect</include>
 		<controls>
 				<control type="image">
 						<description>background image</description>
-						<posx>-50</posx>
-						<posy>-100</posy>
+						<left>-50</left>
+						<top>-100</top>
 						<width>720</width>
 						<height>480</height>
 						<texture>black-back.png</texture>
 				</control>
 				<control type="image">
 						<description>background image</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>620</width>
 						<height>250</height>
 						<colordiffuse>menu_back_image</colordiffuse>
@@ -26,24 +26,24 @@
 				</control>
 				<control type="image">
 						<description>background image</description>
-						<posx>0</posx>
-						<posy>65</posy>
+						<left>0</left>
+						<top>65</top>
 						<width>620</width>
 						<height>1</height>
 						<texture>separator_menu.png</texture>
 				</control>
 				<control type="image">
 						<description>background image</description>
-						<posx>0</posx>
-						<posy>180</posy>
+						<left>0</left>
+						<top>180</top>
 						<width>620</width>
 						<height>1</height>
 						<texture>separator_menu.png</texture>
 				</control>
 				<control type="label" id="1">
 						<description>heading label</description>
-						<posx>0</posx>
-						<posy>20</posy>
+						<left>0</left>
+						<top>20</top>
 						<width>620</width>
 						<height>35</height>
 						<align>center</align>
@@ -54,48 +54,47 @@
 				</control>
 				<control type="label" id="2">
 						<description>dialog line 1</description>
-						<posx>10</posx>
-						<posy>65</posy>
+						<left>10</left>
+						<top>65</top>
 						<width>600</width>
 						<height>50</height>
 						<label>-</label>
 						<font>size_23</font>
-						<textcolor>menu_deselect_label</textcolor>
+						<textcolor>menu_nofocus_label</textcolor>
 						<scroll>true</scroll>
 						<align>center</align>
 						<aligny>center</aligny>
 				</control>
 				<control type="label" id="3">
 						<description>dialog line 2</description>
-						<posx>10</posx>
-						<posy>100</posy>
+						<left>10</left>
+						<top>100</top>
 						<width>600</width>
 						<height>50</height>
 						<label>-</label>
 						<font>size_23</font>
-						<textcolor>menu_deselect_label</textcolor>
+						<textcolor>menu_nofocus_label</textcolor>
 						<scroll>true</scroll>
 						<align>center</align>
 						<aligny>center</aligny>
 				</control>
 				<control type="label" id="4">
 						<description>dialog line 3</description>
-						<posx>10</posx>
-						<posy>135</posy>
+						<left>10</left>
+						<top>135</top>
 						<width>600</width>
 						<height>50</height>
 						<label>-</label>
 						<font>size_23</font>
-						<textcolor>menu_deselect_label</textcolor>
+						<textcolor>menu_nofocus_label</textcolor>
 						<scroll>true</scroll>
-			
 						<align>center</align>
 						<aligny>center</aligny>
 				</control>
 				<control type="button" id="10">
 						<description>OK button</description>
-						<posx>260</posx>
-						<posy>190</posy>
+						<left>260</left>
+						<top>190</top>
 						<label>186</label>
 						<include>MenuYesNoButtonCommonValues</include>
 						<onleft>10</onleft>

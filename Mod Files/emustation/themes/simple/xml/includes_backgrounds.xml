@@ -3,7 +3,7 @@
 				<control type="image">
 						<include>1280x720</include>
 						<aspectratio>stretch</aspectratio>
-						<colordiffuse>system-art-colour</colordiffuse>
+						<colordiffuse>background_system_art_colour</colordiffuse>
 						<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 				</control>
 		</include>
@@ -14,14 +14,14 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>stretch</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>1280</posx>
+								<left>1280</left>
 								<include>1280x720</include>
 								<aspectratio>stretch</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -29,16 +29,16 @@
 						<visible>Container(9000).OnPrevious</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="1280,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>-1280</posx>
+								<left>-1280</left>
 								<include>1280x720</include>
 								<aspectratio>stretch</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>stretch</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
 						</control>
 				</control>
@@ -53,7 +53,7 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>stretch</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -67,7 +67,7 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>stretch</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -76,7 +76,7 @@
 				<control type="image">
 						<include>1280x720</include>
 						<aspectratio>keep</aspectratio>
-						<colordiffuse>system-art-colour</colordiffuse>
+						<colordiffuse>background_system_art_colour</colordiffuse>
 						<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 				</control>
 		</include>
@@ -87,14 +87,14 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>1280</posx>
+								<left>1280</left>
 								<include>1280x720</include>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -102,16 +102,16 @@
 						<visible>Container(9000).OnPrevious</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="1280,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>-1280</posx>
+								<left>-1280</left>
 								<include>1280x720</include>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
 						</control>
 				</control>
@@ -126,7 +126,7 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -140,7 +140,7 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -149,7 +149,7 @@
 				<control type="image">
 						<include>1280x720</include>
 						<aspectratio>scale</aspectratio>
-						<colordiffuse>system-art-colour</colordiffuse>
+						<colordiffuse>background_system_art_colour</colordiffuse>
 						<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 				</control>
 		</include>
@@ -160,14 +160,14 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>scale</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>1280</posx>
+								<left>1280</left>
 								<include>1280x720</include>
 								<aspectratio>scale</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -175,16 +175,16 @@
 						<visible>Container(9000).OnPrevious</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="1280,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>-1280</posx>
+								<left>-1280</left>
 								<include>1280x720</include>
 								<aspectratio>scale</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>scale</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
 						</control>
 				</control>
@@ -199,7 +199,7 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>scale</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -213,15 +213,15 @@
 						<control type="image">
 								<include>1280x720</include>
 								<aspectratio>scale</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
 		</include>
 		<include name="Carbon_Carousel_Background">
 				<control type="image">
-						<posx>466</posx>
-						<posy>47</posy>
+						<left>466</left>
+						<top>47</top>
 						<width>347</width>
 						<height>195</height>
 						<aspectratio>keep</aspectratio>
@@ -234,8 +234,8 @@
 						<visible>Container(9000).OnNext</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="-814,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
@@ -243,8 +243,8 @@
 								<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>1280</posx>
-								<posy>47</posy>
+								<left>1280</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
@@ -256,8 +256,8 @@
 						<visible>Container(9000).OnPrevious</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="814,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>-347</posx>
-								<posy>47</posy>
+								<left>-347</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
@@ -265,8 +265,8 @@
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
@@ -283,8 +283,8 @@
 								<effect type="fade" start="0" end="100" time="0" delay="0" />
 						</animation>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
@@ -300,8 +300,8 @@
 								<effect type="fade" start="0" end="100" time="300" delay="200" />
 						</animation>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
@@ -312,12 +312,12 @@
 		</include>
 		<include name="Carousel_Background_Icon">
 				<control type="image">
-						<posx>466</posx>
-						<posy>47</posy>
+						<left>466</left>
+						<top>47</top>
 						<width>347</width>
 						<height>195</height>
 						<aspectratio>keep</aspectratio>
-						<colordiffuse>system-art-colour</colordiffuse>
+						<colordiffuse>background_system_art_colour</colordiffuse>
 						<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 				</control>
 		</include>
@@ -326,21 +326,21 @@
 						<visible>Container(9000).OnNext</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="-814,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>1280</posx>
-								<posy>47</posy>
+								<left>1280</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -348,21 +348,21 @@
 						<visible>Container(9000).OnPrevious</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="814,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>-347</posx>
-								<posy>47</posy>
+								<left>-347</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
 						</control>
 				</control>
@@ -375,12 +375,12 @@
 								<effect type="fade" start="0" end="100" time="0" delay="0" />
 						</animation>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -392,24 +392,24 @@
 								<effect type="fade" start="0" end="100" time="300" delay="200" />
 						</animation>
 						<control type="image">
-								<posx>466</posx>
-								<posy>47</posy>
+								<left>466</left>
+								<top>47</top>
 								<width>347</width>
 								<height>195</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
 		</include>
 		<include name="Carousel_Background_centre_Icon">
 				<control type="image">
-						<posx>205</posx>
-						<posy>172</posy>
+						<left>205</left>
+						<top>172</top>
 						<width>870</width>
 						<height>376</height>
 						<aspectratio>keep</aspectratio>
-						<colordiffuse>system-art-colour</colordiffuse>
+						<colordiffuse>background_system_art_colour</colordiffuse>
 						<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 				</control>
 		</include>
@@ -418,21 +418,21 @@
 						<visible>Container(9000).OnNext</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="-1075,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>205</posx>
-								<posy>172</posy>
+								<left>205</left>
+								<top>172</top>
 								<width>870</width>
 								<height>376</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>1280</posx>
-								<posy>172</posy>
+								<left>1280</left>
+								<top>172</top>
 								<width>870</width>
 								<height>376</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -440,21 +440,21 @@
 						<visible>Container(9000).OnPrevious</visible>
 						<animation effect="slide" reversible="false" start="0,0" end="1075,0" delay="0" time="250">Hidden</animation>
 						<control type="image">
-								<posx>-870</posx>
-								<posy>172</posy>
+								<left>-870</left>
+								<top>172</top>
 								<width>870</width>
 								<height>376</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 						<control type="image">
-								<posx>205</posx>
-								<posy>172</posy>
+								<left>205</left>
+								<top>172</top>
 								<width>870</width>
 								<height>376</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
 						</control>
 				</control>
@@ -467,12 +467,12 @@
 								<effect type="fade" start="0" end="100" time="0" delay="0" />
 						</animation>
 						<control type="image">
-								<posx>205</posx>
-								<posy>172</posy>
+								<left>205</left>
+								<top>172</top>
 								<width>870</width>
 								<height>376</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
@@ -484,13 +484,264 @@
 								<effect type="fade" start="0" end="100" time="300" delay="200" />
 						</animation>
 						<control type="image">
-								<posx>205</posx>
-								<posy>172</posy>
+								<left>205</left>
+								<top>172</top>
 								<width>870</width>
 								<height>376</height>
 								<aspectratio>keep</aspectratio>
-								<colordiffuse>system-art-colour</colordiffuse>
+								<colordiffuse>background_system_art_colour</colordiffuse>
 								<texture background="true">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+						</control>
+				</control>
+		</include>
+		<include name="Carousel_Background_Diffuse">
+				<control type="image">
+						<include>1280x720</include>
+						<aspectratio>stretch</aspectratio>
+						<colordiffuse>background_system_art_colour</colordiffuse>
+						<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+				</control>
+		</include>
+		<include name="Carousel_Background_Diffuse_Slide">
+				<control type="group" id="8004">
+						<visible>Container(9000).OnNext</visible>
+						<animation effect="slide" reversible="false" start="0,0" end="-1280,0" delay="0" time="250">Hidden</animation>
+						<control type="image">
+								<include>1280x720</include>
+								<aspectratio>stretch</aspectratio>
+								<colordiffuse>background_system_art_colour</colordiffuse>
+								<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
+						</control>
+						<control type="image">
+								<left>1280</left>
+								<include>1280x720</include>
+								<aspectratio>stretch</aspectratio>
+								<colordiffuse>background_system_art_colour</colordiffuse>
+								<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+						</control>
+				</control>
+				<control type="group" id="8005">
+						<visible>Container(9000).OnPrevious</visible>
+						<animation effect="slide" reversible="false" start="0,0" end="1280,0" delay="0" time="250">Hidden</animation>
+						<control type="image">
+								<left>-1280</left>
+								<include>1280x720</include>
+								<aspectratio>stretch</aspectratio>
+								<colordiffuse>background_system_art_colour</colordiffuse>
+								<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+						</control>
+						<control type="image">
+								<include>1280x720</include>
+								<aspectratio>stretch</aspectratio>
+								<colordiffuse>background_system_art_colour</colordiffuse>
+								<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
+						</control>
+				</control>
+				<control type="group">
+						<visible>!Control.IsVisible(8004) + !Control.IsVisible(8005)</visible>
+						<animation type="Hidden" reversible="false">
+								<effect type="fade" start="100" end="0" time="0" delay="0" />
+						</animation>
+						<animation type="Visible" reversible="false">
+								<effect type="fade" start="0" end="100" time="0" delay="0" />
+						</animation>
+						<control type="image">
+								<include>1280x720</include>
+								<aspectratio>stretch</aspectratio>
+								<colordiffuse>background_system_art_colour</colordiffuse>
+								<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+						</control>
+				</control>
+		</include>
+		<include name="Carousel_Background_Diffuse_Slide_Alt">
+			<control type="group" id="8004">
+					<visible>Container(9000).OnNext</visible>
+					<animation effect="slide" reversible="false" start="0,0" end="-230,0" delay="0" time="250">Hidden</animation>
+					<control type="image">
+							<left>920</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(3).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>690</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(2).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>460</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>230</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-230</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-2).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-460</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-3).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-690</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-4).ActualIcon]</texture>
+					</control>
+			</control>
+			<control type="group" id="8005">
+					<visible>Container(9000).OnPrevious</visible>
+					<animation effect="slide" reversible="false" start="0,0" end="230,0" delay="0" time="250">Hidden</animation>
+					<control type="image">
+							<left>-920</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-3).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-690</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-2).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-460</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-230</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>0</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>230</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(2).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>460</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(3).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>690</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(4).ActualIcon]</texture>
+					</control>
+			</control>
+			<control type="group">
+					<visible>!Control.IsVisible(8004) + !Control.IsVisible(8005)</visible>
+					<animation type="Hidden" reversible="false">
+							<effect type="fade" start="100" end="0" time="0" delay="0" />
+					</animation>
+					<animation type="Visible" reversible="false">
+							<effect type="fade" start="0" end="100" time="0" delay="0" />
+					</animation>
+					<control type="image">
+							<left>-690</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-3).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-460</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-2).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>-230</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(-1).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_focus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>230</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(1).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>460</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(2).ActualIcon]</texture>
+					</control>
+					<control type="image">
+							<left>690</left>
+							<include>1280x720</include>
+							<aspectratio>stretch</aspectratio>
+							<colordiffuse>background_system_art_colour_nofocus</colordiffuse>
+							<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(3).ActualIcon]</texture>
+					</control>
+			</control>
+		</include>
+		<include name="Carousel_Background_Diffuse_Fade">
+				<control type="group">
+						<visible>!Container(9000).OnNext + !Container(9000).OnPrevious</visible>
+						<animation type="Visible" reversible="false">
+								<effect type="fade" start="0" end="100" time="300" delay="200" />
+						</animation>
+						<control type="image">
+								<include>1280x720</include>
+								<aspectratio>stretch</aspectratio>
+								<colordiffuse>background_system_art_colour</colordiffuse>
+								<texture background="true" diffuse="layouts/art/background_diffuse.png">$INFO[Container(9000).ListItem(0).ActualIcon]</texture>
 						</control>
 				</control>
 		</include>

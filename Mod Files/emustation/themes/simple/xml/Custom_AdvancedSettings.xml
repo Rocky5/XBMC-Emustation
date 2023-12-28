@@ -3,11 +3,11 @@
 		<include>defaultassetspaths</include>
 		<controls>
 				<control type="group">
-						<posy>41.5</posy>
+						<top>41.5</top>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>108</posy>
+								<left>320</left>
+								<top>108</top>
 								<width>640</width>
 								<height>421</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -15,8 +15,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>640</width>
 								<height>50</height>
 								<align>center</align>
@@ -27,8 +27,8 @@
 						</control>
 						<!-- Main Menu -->
 						<control type="grouplist" id="9000">
-								<posx>320</posx>
-								<posy>200</posy>
+								<left>320</left>
+								<top>200</top>
 								<width>640</width>
 								<height>295</height>
 								<onleft>-</onleft>
@@ -36,72 +36,83 @@
 								<onup>9000</onup>
 								<ondown>9000</ondown>
 								<itemgap>-1</itemgap>
-								<control type="button" id="1">
-										<description>Enable Update Check</description>
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>[UPPERCASE]$LOCALIZE[31361][/UPPERCASE]</label>
-										<include>MenuButtonMenuValues</include>
-										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,run_script,NOTICE,,About to check for an update[CR]This can take a few seconds.,,special://emustation_scripts/update_check.py )</onclick>
-								</control>
 								<control type="button" id="2">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31362][/UPPERCASE]</label>
-										<include>MenuButtonMenuValues</include>
+										<include>MenuButtonMenuAltValues</include>
 										<onclick>RunScript(special://emustation_scripts/patch_xbe_paths.py)</onclick>
 								</control>
 								<control type="button" id="3">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31368][/UPPERCASE]</label>
-										<include>MenuButtonMenuValues</include>
+										<include>MenuButtonMenuAltValues</include>
 										<onclick>RunScript(special://emustation_scripts/text_reader.py,2, )</onclick>
 								</control>
-								<!-- custom paths -->
-								<control type="label" id="10">
-										<posx>320</posx>
-										<posy>130</posy>
+								<!-- requires download label -->
+								<control type="label" id="4">
+										<left>320</left>
+										<top>130</top>
 										<width>640</width>
 										<height>43</height>
 										<align>center</align>
 										<aligny>center</aligny>
 										<font>size_23</font>
-										<label>[UPPERCASE]$LOCALIZE[31355][/UPPERCASE]</label>
+										<label>[B][UPPERCASE]$LOCALIZE[31360][/UPPERCASE][/B]</label>
+										<textcolor>menu_header_label</textcolor>
+								</control>
+								<control type="button" id="5">
+										<left>0</left>
+										<top>0</top>
+										<label>[UPPERCASE]$LOCALIZE[31354][/UPPERCASE]</label>
+										<include>MenuButtonMenuAltValues</include>
+										<onclick>RunScript(special://emustation_scripts/run_artwork_installer.py)</onclick>
+								</control>
+								<!-- custom paths -->
+								<control type="label" id="10">
+										<left>320</left>
+										<top>130</top>
+										<width>640</width>
+										<height>43</height>
+										<align>center</align>
+										<aligny>center</aligny>
+										<font>size_23</font>
+										<label>[B][UPPERCASE]$LOCALIZE[31355][/UPPERCASE][/B]</label>
 										<textcolor>menu_header_label</textcolor>
 								</control>
 								<control type="button" id="11">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31356][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(Custom_Emulator_Path)]</label2>
-										<include>MenuButtonMenuValues</include>
+										<include>MenuButtonMenuAltValues</include>
 										<onclick>Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onclick>
 										<onclick>Skin.SetPath(Custom_Emulator_Path)</onclick>
 								</control>
 								<control type="button" id="13">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31357][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(Custom_Media_Path)]</label2>
-										<include>MenuButtonMenuValues</include>
+										<include>MenuButtonMenuAltValues</include>
 										<onclick>Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onclick>
 										<onclick>Skin.SetPath(Custom_Media_Path)</onclick>
 								</control>
 								<control type="button" id="15">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31358][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(Custom_Roms_Path)]</label2>
-										<include>MenuButtonMenuValues</include>
+										<include>MenuButtonMenuAltValues</include>
 										<onclick>Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onclick>
 										<onclick>Skin.SetPath(Custom_Roms_Path)</onclick>
 								</control>
 								<control type="button" id="16">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>  -  $LOCALIZE[31359]</label>
-										<include>MenuButtonMenuValues</include>
+										<include>MenuButtonMenuAltValues</include>
 										<onclick>Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onclick>
 										<onclick>Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onclick>
 										<onclick>Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onclick>
@@ -111,8 +122,8 @@
 						</control>
 				</control>
 				<control type="image">
-						<posx>360r</posx>
-						<posy>220</posy>
+						<left>360r</left>
+						<top>220</top>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-up.png</texture>
@@ -123,8 +134,8 @@
 						</animation>
 				</control>
 				<control type="image">
-						<posx>360r</posx>
-						<posy>182r</posy>
+						<left>360r</left>
+						<top>182r</top>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-down.png</texture>

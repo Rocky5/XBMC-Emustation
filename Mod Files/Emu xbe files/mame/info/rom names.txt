@@ -3,12 +3,10 @@
 -99lstwar.zip--'99: the last war--sonofphx
 -99lstwra.zip--'99: the last war (alternate)--sonofphx
 -mmcamera.zip--(medal) mahjong camera kozou [bet] (japan 890509)--mjcamera
--yumefuda.zip--(medal) yumefuda--parent
 -005.zip--005--parent
--gtmra.zip--1000 miglia great 1000 miles rally--gtmr
+-gtmr.zip--1000 miglia: great 1000 miles rally (taiwan 94/07/18)--parent
+-gtmra.zip--1000 miglia: great 1000 miles rally (94/06/13)--gtmr
 -yard.zip--10 yard fight (japan)--parent
--vsyard.zip--10 yard fight (vs. version world, 11/05/84)--yard
--vsyard2.zip--10 yard fight (vs. version japan, set 2)--yard
 -1941.zip--1941 - counter attack (world)--parent
 -1941j.zip--1941 - counter attack (japan)--1941
 -1942.zip--1942 (set 1)--parent
@@ -51,7 +49,7 @@
 -9ballsh3.zip--9-ball shootout (set 3)--9ballsht
 -9ballsht.zip--9-ball shootout (set 1)--parent
 -9ballshtc.zip--9-ball shootout championship--9ballsht
--abcop.zip--a.b. cop (fd1094 317-0169b)--parent
+-abcop.zip--a.b. cop--parent
 -ace.zip--ace--parent
 -aceattac.zip--ace attacker--parent
 -acedrvrw.zip--ace driver (rev. ad2, world)--parent
@@ -76,6 +74,7 @@
 -agress.zip--agress--parent
 -koshien.zip--ah eikou no koshien (japan)--parent
 -airass.zip--air assault (world)--firebarr
+-airattcka.zip--air attack--airattck
 -airattck.zip--air attack (set 1)--parent
 -airbustr.zip--air buster--parent
 -airbustj.zip--air buster (japan)--airbustr
@@ -93,21 +92,22 @@
 -akkanvdr.zip--akkanvader (japan)--spcinv95
 -hcastlej.zip--akuma-jou dracula (japan version p)--hcastle
 -hcastljo.zip--akuma-jou dracula (japan version n)--hcastle
+-aladmdb.zip--aladdin (bootleg of japanese megadrive version)--parent
 -alcon.zip--alcon--slapfigh
 -alexkida.zip--alex kidd: the lost stars (set 2)--alexkidd
 -alexkidd.zip--alex kidd: the lost stars (set 1)--parent
 -alibaba.zip--ali baba and 40 thieves--parent
--alien3.zip--alien3: the gun--parent
+-alien3.zip--alien 3: the gun--parent
 -alieninv.zip--alien invasion part ii--invaders
 -aliensj.zip--aliens (japan)--aliens
 -aliensu.zip--aliens (us)--aliens
 -aliens.zip--aliens (world set 1)--parent
 -aliens2.zip--aliens (world set 2)--aliens
--astorm2p.zip--alien storm (2 player)--astorm
--astormbl.zip--alien storm (bootleg, set 1)--parent
--astorm.zip--alien storm (japan, 2 players set 1, fd1094 317-0146)--parent
--astormb.zip--alien storm (us, 3 players, fd1094 317-0147)--astorm
--astorma.zip--alien storm (world, 3 players, fd1094 317-0148)--astorm
+-astormbl.zip--alien storm (bootleg)--parent
+-astorm.zip--alien storm (japan, 2 players)--parent
+-astormb.zip--alien storm (us, 3 players)--astorm
+-astorm2p.zip--alien storm (world, 2 players)--astorm
+-astorma.zip--alien storm (world, 3 players)--astorm
 -aliensyj.zip--alien syndrome (japan)--aliensyn
 -aliensya.zip--alien syndrome (set 2)--aliensyn
 -aliensyb.zip--alien syndrome (set 3)--aliensyn
@@ -150,6 +150,7 @@
 -andromed.zip--andromeda (japan?)--parent
 -angelkds.zip--angel kids (japan)--parent
 -anteater.zip--anteater--parent
+-apache3.zip--apache 3--parent
 -apb.zip--apb - all points bulletin (rev 7)--parent
 -apb1.zip--apb - all points bulletin (rev 1)--apb
 -apb2.zip--apb - all points bulletin (rev 2)--apb
@@ -174,8 +175,8 @@
 -arabianm.zip--arabian magic (world)--parent
 -arbalest.zip--arbalester--parent
 -arcadecl.zip--arcade classics (prototype)--parent
--archrivlb.zip--arch rivals (8-way joystick)--archrivl
 -archriv2.zip--arch rivals (rev 2.0)--archrivl
+-archrivlb.zip--arch rivals (rev 2.0 5/03/89, 8-way joystick bootleg)--archrivl
 -archrivl.zip--arch rivals (rev 4.0)--parent
 -area51a.zip--area 51 (atari games license)--area51
 -area51.zip--area 51 (r3000)--parent
@@ -198,8 +199,8 @@
 -arknid2j.zip--arkanoid - revenge of doh (japan)--arknoid2
 -arknid2u.zip--arkanoid - revenge of doh (us)--arknoid2
 -arknoid2.zip--arkanoid - revenge of doh (world)--parent
--arkretrnu.zip--arkanoid returns--arkretrn
 -arkretrn.zip--arkanoid returns (japan)--parent
+-arkretrnu.zip--arkanoid returns (ver 2.02a 1997/02/10)--arkretrn
 -arkarea.zip--ark area--parent
 -arlingtn.zip--arlington horse racing (v1.21-d)--parent
 -armchm2o.zip--arm champs ii v1.7--armchmp2
@@ -222,7 +223,7 @@
 -aof2a.zip--art of fighting 2 / ryuuko no ken 2 (set 2)--aof2
 -aof3.zip--art of fighting 3 - the path of the warrior / art of fighting - ryuuko no ken gaiden--parent
 -aof.zip--art of fighting / ryuuko no ken--parent
--ashnojoe.zip--ashita no joe (japan)--parent
+-ashnojoe.zip--ashita no joe (japan)--scessjoe
 -ashura.zip--ashura blaster (japan)--parent
 -ashurau.zip--ashura blaster (us)--ashura
 -aso.zip--aso - armored scrum object--parent
@@ -247,7 +248,7 @@
 -astrof3.zip--astro fighter (set 3)--astrof
 -astrofl.zip--astro flash (japan)--transfrm
 -astinvad.zip--astro invader--parent
--asuka.zip--asuka & asuka (japan)--parent
+-asuka.zip--asuka &amp; asuka (japan)--parent
 -asurabld.zip--asura blade - sword of dynasty (japan)--parent
 -asurabus.zip--asura buster - eternal warriors (japan)--parent
 -asylum.zip--asylum (prototype)--parent
@@ -281,11 +282,14 @@
 -aztarac.zip--aztarac--parent
 -azurian.zip--azurian attack--parent
 -bwing.zip--b-wings (japan)--parent
--bonkadv.zip--b.c. kid / bonk's adventure / kyukyoku pc genjin--parent
+-bonkadv.zip--b.c. kid / bonk's adventure / kyukyoku!! pc genjin--parent
+-bcstry.zip--b.c. story (set 1)--parent
+-bcstrya.zip--b.c. story (set 2)--bcstry
 -brapboys.zip--b.rap boys (world)--parent
 -brapboysj.zip--b.rap boys special (japan)--brapboys
 -backfire.zip--backfire!--parent
 -backfira.zip--backfire! (set 2)--backfire
+-backfirt.zip--back fire (tecmo)--parent
 -bssoccer.zip--back street soccer--parent
 -baddudes.zip--bad dudes vs. dragonninja (us)--parent
 -badlands.zip--bad lands--parent
@@ -305,14 +309,16 @@
 -bandido.zip--bandido--sheriff
 -bang.zip--bang!--parent
 -bangball.zip--bang bang ball (v1.05)--parent
--bbbuster.zip--bang bang busters--parent
+-b2b.zip--bang bang busters--parent
 -bangbead.zip--bang bead--parent
 -bankp.zip--bank panic--parent
 -baraduke.zip--baraduke (set 1)--parent
 -baraduka.zip--baraduke (set 2)--baraduke
+-barek2ch.zip--bare knuckle ii (chinese bootleg of megadrive version)--parent
+-barek3mb.zip--bare knuckle iii (bootleg of megadrive version)--parent
 -barricad.zip--barricade--parent
 -barrier.zip--barrier--parent
--baryon.zip--baryon--parent
+-baryon.zip--baryon - future assault--parent
 -bstars2.zip--baseball stars 2--parent
 -bstars.zip--baseball stars professional--parent
 -basebal2.zip--baseball the season ii--parent
@@ -365,8 +371,6 @@
 -bayrtbl2.zip--bay route (bootleg set 2)--bayroute
 -bayroute.zip--bay route (set 1)--parent
 -bayrouta.zip--bay route (set 2)--bayroute
--bcstry.zip--bc story (set 1)--parent
--bcstrya.zip--bc story (set 2)--bcstry
 -beaminv.zip--beam invader--parent
 -bbusters.zip--beast busters (world ?)--parent
 -beastf.zip--beastie feastie--suprglob
@@ -383,7 +387,7 @@
 -bmdct.zip--beatmania f. dreams come true (ver ja-a)--parent
 -beezer.zip--beezer (set 1)--parent
 -beezer1.zip--beezer (set 2)--beezer
--blswhstl.zip--bells & whistles (version l)--parent
+-blswhstl.zip--bells &amp; whistles (version l)--parent
 -benberob.zip--ben bero beh (japan)--parent
 -berabohm.zip--beraboh man (japan version c)--parent
 -beraboho.zip--beraboh man (japan version b)--berabohm
@@ -397,6 +401,7 @@
 -bigbang.zip--big bang--tdragon2
 -bigbucks.zip--big bucks--parent
 -bigevglf.zip--big event golf--parent
+-bigfight.zip--big fight - big trouble in the atlantic ocean--parent
 -bbonk.zip--bigfoot bonkers--parent
 -bigkarnk.zip--big karnak--parent
 -bigrun.zip--big run (11th rallye version)--parent
@@ -407,13 +412,12 @@
 -bijokkoy.zip--bijokko yume monogatari (japan 870925)--parent
 -realbrk.zip--billiard academy real break (japan)--parent
 -realbrkb.zip--billiard academy real break (europe)--realbrk
--mp_bio.zip--bio-hazard battle (mega play)--parent
+-bioship.zip--bio-ship paladin--parent
 -bioatack.zip--bio attack--parent
 -biofreak.zip--biofreaks (prototype)--parent
 -biomtoy.zip--biomechanical toy (unprotected)--parent
 -bionicc.zip--bionic commando (us set 1)--parent
 -bionicc2.zip--bionic commando (us set 2)--bionicc
--bioship.zip--bioship paladin--parent
 -bking.zip--birdie king--parent
 -bking2.zip--birdie king 2--parent
 -bking3.zip--birdie king 3--parent
@@ -459,7 +463,7 @@
 -block.zip--block block (world 911106 joystick)--parent
 -blocka.zip--block block (world 910910)--block
 -blkbustr.zip--blockbuster--mrjong
--blockcar.zip--block carnival / thunder & lightning 2--parent
+-blockcar.zip--block carnival / thunder &amp; lightning 2--parent
 -blocken.zip--blocken (japan)--parent
 -blockgal.zip--block gal--parent
 -blckgalb.zip--block gal (bootleg)--blockgal
@@ -478,7 +482,7 @@
 -bldyror2.zip--bloody roar 2 (japan)--parent
 -bldwolf.zip--bloody wolf (us)--battlera
 -bloxeedc.zip--bloxeed (c system)--bloxeed
--bloxeed.zip--bloxeed (japan, fd1094 317-0139)--parent
+-bloxeed.zip--bloxeed (japan)--parent
 -bjourney.zip--blue's journey / raguy--parent
 -bluehawk.zip--blue hawk--parent
 -bluehawn.zip--blue hawk (ntc)--bluehawk
@@ -538,6 +542,7 @@
 -brickzn3.zip--brick zone (v3.0)--brickzn
 -brickzn.zip--brick zone (v5.0)--parent
 -brix.zip--brix--zzyzzyxx
+-bronx.zip--bronx--cyclshtg
 -brutforc.zip--brute force--parent
 -bubl2000.zip--bubble 2000--parent
 -bublbobl.zip--bubble bobble--parent
@@ -546,8 +551,8 @@
 -bublboblu.zip--bubble bobble (ultra version)(usa)--bublbobl
 -bubbobr1.zip--bubble bobble (us)--bublbobl
 -bublbobr.zip--bubble bobble (us with mode select)--bublbobl
--bublbob2.zip--bubble bobble 2 (world)--parent
--bublbob2p.zip--bubble bobble 2 super drunk--bublbob2
+-bublbob2.zip--bubble bobble ii (ver 2.5o 1994/10/05)--parent
+-bublbob2p.zip--bubble bobble ii (ver 0.0j 1993/12/13, prototype)--bublbob2
 -bublcave.zip--bubble bobble: lost cave v1.2--bublbobl
 -bubblem.zip--bubble memories - the story of bubble bobble 3 (world)--parent
 -bubblemj.zip--bubble memories - the story of bubble bobble 3 (japan)--bubblem
@@ -572,7 +577,6 @@
 -btime2.zip--burger time (data east set 2)--btime
 -btimem.zip--burger time (midway)--btime
 -burglarx.zip--burglar x--parent
--buriki.zip--buriki one--parent
 -brubber.zip--burnin' rubber--parent
 -burningf.zip--burning fight (set 1)--parent
 -burningh.zip--burning fight (set 2)--burningf
@@ -581,7 +585,11 @@
 -pbobbl2u.zip--bust-a-move again (us)--pbobble2
 -bbros.zip--buster bros. (us)--pang
 -butasan.zip--butasan (japan)--parent
--cabalbl2.zip--cabal (bootleg of joystick version, set 2)--cabal
+-cabalbl2.zip--cabal--cabal
+-cabala.zip--cabal (alpha trading)--cabal
+-cabalbl.zip--cabal (bootleg of joystick version)--cabal
+-cabalus.zip--cabal (us set 1, trackball version)--cabal
+-cabalus2.zip--cabal (us set 2, trackball version)--cabal
 -cabal.zip--cabal (world, joystick version)--parent
 -cabaret.zip--cabaret--parent
 -cachat.zip--cachat (japan)--parent
@@ -596,12 +604,15 @@
 -calibr50.zip--caliber 50--parent
 -calspeed.zip--california speed--parent
 -calipso.zip--calipso--parent
+-calorie.zip--calorie kun vs moguranian--parent
+-calorieb.zip--calorie kun vs moguranian (bootleg)--calorie
 -cameltrj.zip--cameltry (japan)--cameltry
 -cameltry.zip--cameltry (us)--parent
 -camltrua.zip--cameltry (us, alt sound)--cameltry
 -cannball.zip--cannon ball--parent
 -cball.zip--cannonball (atari, prototype)--parent
 -cannonb.zip--cannon ball (crazy climber hardware)--parent
+-candance.zip--cannon dancer--osman
 -canyon.zip--canyon bomber--parent
 -canyonp.zip--canyon bomber (prototype)--canyon
 -cbasebal.zip--capcom baseball (japan)--parent
@@ -615,7 +626,12 @@
 -cworld.zip--capcom world (japan)--parent
 -cworld2j.zip--capcom world 2 (japan 920611)--parent
 -capitol.zip--capitol--pleiads
--captaven.zip--captain america and the avengers (asia rev 1.9)--parent
+-captaven.zip--captain america and the avengers (asia rev 1.4)--parent
+-captavena.zip--captain america and the avengers (asia rev 1.0)--captaven
+-captavene.zip--captain america and the avengers (uk rev 1.4)--captaven
+-captavenj.zip--captain america and the avengers (japan rev 0.2)--captaven
+-captavenu.zip--captain america and the avengers (us rev 1.9)--captaven
+-captavenuu.zip--captain america and the avengers (us rev 1.6)--captaven
 -captcomj.zip--captain commando (japan 911202)--captcomm
 -captcomu.zip--captain commando (us 910928)--captcomm
 -captcomm.zip--captain commando (world 911014)--parent
@@ -629,6 +645,7 @@
 -carpolo.zip--car polo--parent
 -cawingu.zip--carrier air wing (us 901012)--cawing
 -cawing.zip--carrier air wing (world 901012)--parent
+-cadanglr.zip--cassette: angler dangler--parent
 -castfant.zip--cassette: astro fantasia--parent
 -cbdash.zip--cassette: boulder dash--parent
 -cbnj.zip--cassette: bump n jump--cburnrub
@@ -638,6 +655,7 @@
 -cdiscon1.zip--cassette: disco no.1--parent
 -cexplore.zip--cassette: explorer--parent
 -cfghtice.zip--cassette: fighting ice hockey--parent
+-cfishing.zip--cassette: fishing--cadanglr
 -cflyball.zip--cassette: flying ball?--parent
 -cgraplop.zip--cassette: graplop (aka cluster buster) (set 1)--parent
 -cgraplp2.zip--cassette: graplop (aka cluster buster) (set 2)--cgraplop
@@ -647,6 +665,7 @@
 -cmissnx.zip--cassette: mission-x--parent
 -cnights2.zip--cassette: night star (set 2)--cnightst
 -cnightst.zip--cassette: night star (set 1)--parent
+-coozumou.zip--cassette: oozumou - the grand sumo--parent
 -cppicf.zip--cassette: peter pepper's ice cream factory (set 1)--parent
 -cppicf2.zip--cassette: peter pepper's ice cream factory (set 2)--cppicf
 -cprobowl.zip--cassette: pro bowling--parent
@@ -657,6 +676,7 @@
 -clapapa2.zip--cassette: rootin' tootin'--clapapa
 -cscrtry.zip--cassette: scrum try (set 1)--parent
 -cscrtry2.zip--cassette: scrum try (set 2)--cscrtry
+-cskater.zip--cassette: skater--parent
 -csuperas.zip--cassette: super astro fighter--parent
 -csweetht.zip--cassette: sweet heart--cdiscon1
 -cterrani.zip--cassette: terranean--parent
@@ -665,7 +685,7 @@
 -ctisland.zip--cassette: treasure island (set 1)--parent
 -ctislnd2.zip--cassette: treasure island (set 2)--ctisland
 -ctislnd3.zip--cassette: treasure island (set 3)--ctisland
--czeroize.zip--cassette: zeroize?--parent
+-czeroize.zip--cassette: zeroize--parent
 -catapult.zip--catapult--parent
 -catch22.zip--catch-22 (version 8.0)--combat
 -cavelon.zip--cavelon--parent
@@ -738,7 +758,8 @@
 -chopper.zip--chopper i (us set 1)--parent
 -choppera.zip--chopper i (us set 2)--chopper
 -chopperb.zip--chopper i (us set 3)--chopper
--ironclad.zip--choutetsu brikin'ger - ironclad (prototype)--parent
+-legiono.zip--chouji meikyuu legion (japan bootleg ver 1.05)--legion
+-ironclad.zip--choutetsu brikin'ger - iron clad (prototype)--parent
 -chukataj.zip--chuka taisen (japan)--chukatai
 -chukatau.zip--chuka taisen (us)--chukatai
 -chukatai.zip--chuka taisen (world)--parent
@@ -757,15 +778,15 @@
 -claypign.zip--clay pigeon (version 2.0)--parent
 -clayshoo.zip--clay shoot--parent
 -cleopatr.zip--cleopatra fortune (japan)--parent
--cloakfr.zip--cloak & dagger (french)--cloak
--cloakgr.zip--cloak & dagger (german)--cloak
--cloak.zip--cloak & dagger (rev 5)--parent
--cloaksp.zip--cloak & dagger (spanish)--cloak
+-cloak.zip--cloak &amp; dagger (rev 5)--parent
+-cloakfr.zip--cloak &amp; dagger (french)--cloak
+-cloakgr.zip--cloak &amp; dagger (german)--cloak
+-cloaksp.zip--cloak &amp; dagger (spanish)--cloak
 -cloud9.zip--cloud 9 (prototype)--parent
 -clowns1.zip--clowns (rev. 1)--clowns
 -clowns.zip--clowns (rev. 2)--parent
--cltchtrj.zip--clutch hitter (japan, fd1094 317-0175)--cltchitr
--cltchitr.zip--clutch hitter (us, fd1094 317-176)--parent
+-cltchtrj.zip--clutch hitter (japan)--cltchitr
+-cltchitr.zip--clutch hitter (us)--parent
 -cobracmj.zip--cobra-command (japan)--cobracom
 -cobracom.zip--cobra-command (world revision 5)--parent
 -colony7.zip--colony 7 (set 1)--parent
@@ -773,17 +794,17 @@
 -columnsj.zip--columns (japan)--columns
 -columns.zip--columns (us)--parent
 -colmns97.zip--columns 97--parent
--mp_col3.zip--columns iii (mega play)--parent
 -columns2.zip--columns ii: the voyage through time (japan)--parent
 -combat.zip--combat (version 3.0)--parent
 -combascb.zip--combat school (bootleg)--combasc
 -combascj.zip--combat school (japan trackball)--combasc
 -combasc.zip--combat school (joystick)--parent
 -combasct.zip--combat school (trackball)--combasc
+-toto.zip--come back toto--parent
 -commsega.zip--commando (sega)--parent
 -commandu.zip--commando (us)--commando
 -commando.zip--commando (world)--parent
--commandw.zip--command war - super special battle & war game (prototype)--parent
+-commandw.zip--command war - super special battle &amp; war game (prototype)--parent
 -comotion.zip--comotion--parent
 -compglfo.zip--competition golf final round (old version)--compgolf
 -compgolf.zip--competition golf final round (revision 3)--parent
@@ -797,7 +818,7 @@
 -contrajb.zip--contra (japan bootleg)--contra
 -contra.zip--contra (us)--parent
 -contrab.zip--contra (us bootleg)--contra
--cookbib.zip--cookie & bibi--parent
+-cookbib.zip--cookie &amp; bibi--parent
 -cookbib2.zip--cookie and bibi 2--parent
 -cookrace.zip--cook race--btime
 -cbaj.zip--cool boarders arcade jam--parent
@@ -821,8 +842,9 @@
 -cosmognj.zip--cosmo gang the video (japan)--cosmogng
 -cosmos.zip--cosmos--parent
 -cottong.zip--cotocoto cottong--locomotn
--cotton.zip--cotton (fd1094 317-0181a)--parent
--cottonu.zip--cotton (set 2, us, fd1094 317-0180)--cotton
+-cottonj.zip--cotton (japan)--cotton
+-cottonu.zip--cotton (us)--cotton
+-cotton.zip--cotton (world)--parent
 -cotton2.zip--cotton 2--parent
 -cottonbm.zip--cotton boomerang--parent
 -countrun.zip--counter run--parent
@@ -830,7 +852,7 @@
 -countrnb.zip--counter run (bootleg set 1)--countrun
 -cntsteer.zip--counter steer--parent
 -countryc.zip--country club--fitegolf
--crkdown.zip--crack down (us, fd1094 317-0058-04d)--parent
+-crkdown.zip--crack down (us)--parent
 -cracksht.zip--crackshot (version 2.0)--parent
 -crash.zip--crash--parent
 -crater.zip--crater raider--parent
@@ -861,12 +883,12 @@
 -croquis.zip--croquis (germany)--logicpro
 -crossbow.zip--crossbow (version 2.0)--parent
 -crsword.zip--crossed swords--parent
--crswd2bl.zip--crossed swords 2 (bootleg of cd version)--parent
+-crswd2bl.zip--crossed swords 2--parent
 -crospang.zip--cross pang--parent
 -cshootre.zip--cross shooter (encrypted)--cshooter
 -cshooter.zip--cross shooter (not encrypted)--parent
+-ct2k3sp.zip--crouching tiger hidden dragon 2003 super plus (the king of fighters 2001 bootleg)--kof2001
 -cthd2003.zip--crouching tiger hidden dragon 2003 (the king of fighters 2001 bootleg)--kof2001
--cthd2k3n.zip--crouching tiger hidden dragon 2003 (fully decrypted)--kof2001
 -crgolf.zip--crowns golf (set 1)--parent
 -crgolfa.zip--crowns golf (set 2)--crgolf
 -cbusterj.zip--crude buster (japan)--cbuster
@@ -883,7 +905,7 @@
 -crush2.zip--crush roller (kural esco - bootleg?)--crush
 -crush3.zip--crush roller (kural - bootleg?)--crush
 -cryptklr.zip--crypt killer (gq420 uaa)--parent
--ccastlej.zip--crystal castles (joystick version)--ccastles
+-ccastlej.zip--crystal castles (joystick)--ccastles
 -ccastle2.zip--crystal castles (version 2)--ccastles
 -ccastle3.zip--crystal castles (version 3)--ccastles
 -ccastles.zip--crystal castles (version 4)--parent
@@ -911,16 +933,17 @@
 -cybrcycc.zip--cyber cycles (rev. cb2 ver.c)--parent
 -cybsled.zip--cyber sled--parent
 -cyclshtg.zip--cycle shooting--parent
+-cyclwarr.zip--cycle warriors--parent
 -cyvern.zip--cyvern (japan)--parent
 -dcon.zip--d-con--parent
 -dday.zip--d-day--parent
 -ddayc.zip--d-day (centuri)--dday
--ddayjlca.zip--d-day (jaleco - set 2)--parent
 -ddayjlc.zip--d-day (jaleco set 1)--parent
+-ddayjlca.zip--d-day (jaleco set 2)--parent
 -ddcrewj.zip--d. d. crew (japan, 2 player)--ddcrew
--ddcrew.zip--d. d. crew (us, 4 player, fd1094 317-0186)--parent
+-ddcrew.zip--d. d. crew (us, 4 player)--parent
 -ddcrewb.zip--d. d. crew (world, 2 player)--ddcrew
--ddcrewa.zip--d. d. crew (world, 4 player, fd1094 317-?)--ddcrew
+-ddcrewa.zip--d. d. crew (world, 4 player)--ddcrew
 -daikaiju.zip--daikaiju no gyakushu--parent
 -dkgenm72.zip--daiku no gensan (japan, m72)--hharry
 -dkgensan.zip--daiku no gensan (japan)--hharry
@@ -937,6 +960,7 @@
 -dangar.zip--dangar - ufo robo (12/1/1986)--parent
 -dangar2.zip--dangar - ufo robo (9/26/1986)--dangar
 -dangarb.zip--dangar - ufo robo (bootleg)--dangar
+-dangerex.zip--danger express (prototype)--parent
 -ddungeon.zip--dangerous dungeons--parent
 -dangseed.zip--dangerous seed (japan)--parent
 -dangerz.zip--danger zone--parent
@@ -990,6 +1014,7 @@
 -redufo.zip--defend the terra attack on the red ufo--parent
 -defcmnd.zip--defense command (set 1)--defender
 -deltrace.zip--delta race--omegrace
+-deluxe5.zip--deluxe 5 (ver. 0107, 07-01-2000)--parent
 -demoderb.zip--demolition derby--parent
 -demoderm.zip--demolition derby (2-player mono board version)--demoderb
 -demon.zip--demon--parent
@@ -1005,9 +1030,10 @@
 -depthv1.zip--depthcharge (older)--depthch
 -mdhorse.zip--derby quiz my dream horse (mdh1/ver.a2)--parent
 -deroon.zip--deroon derodero--parent
+-deroon2.zip--deroon derodero / tecmo stackers--deroon
 -dassault.zip--desert assault (us)--thndzone
 -dassaul4.zip--desert assault (us 4 players)--thndzone
--desertbr.zip--desert breaker (fd1094 317-0196)--parent
+-desertbr.zip--desert breaker--parent
 -desertgu.zip--desert gun--parent
 -desertwr.zip--desert war / wangan sensou--parent
 -desterth.zip--destination earth--lrescue
@@ -1023,9 +1049,12 @@
 -devzone2.zip--devil zone (easier)--devzone
 -dharma.zip--dharma doujou--parent
 -diamond.zip--diamond run--parent
+-dicegame.zip--dice - the dice game--parent
 -diehard.zip--die hard arcade (us)--parent
--dietgo.zip--diet go go (euro v1.1 1992.09.26)--parent
--dietgoe.zip--diet go go (euro v1.1)--dietgo
+-dietgo.zip--diet go go (euro v1.1)--parent
+-dietgoe.zip--diet go go (euro v1.1,1992.08.04)--dietgo
+-dietgoj.zip--diet go go (japan v1.1)--dietgo
+-dietgou.zip--diet go go (usa v1.1)--dietgo
 -digduga1.zip--dig dug (atari, rev 1)--digdug
 -digdugat.zip--dig dug (atari, rev 2)--digdug
 -digdugb.zip--dig dug (rev 1)--digdug
@@ -1050,6 +1079,7 @@
 -dotrona.zip--discs of tron (upright alternate)--dotron
 -diverboy.zip--diver boy--parent
 -djboy.zip--dj boy--parent
+-djboyj.zip--dj boy (japan)--djboy
 -dorunruc.zip--do! run run (do's castle hardware)--dorunrun
 -dorunrun.zip--do! run run (set 1)--parent
 -dorunru2.zip--do! run run (set 2)--dorunrun
@@ -1066,11 +1096,12 @@
 -dogfgtj.zip--dog-fight (japan)--dogfgt
 -dogfight.zip--dog fight (thunderbolt)--parent
 -dogosoke.zip--dogou souken--victroad
--dogosokj.zip--dogou souken (joystick bootleg)--victroad
+-dogosokj.zip--dogou souken (joystick hack bootleg)--victroad
 -dogpatch.zip--dog patch--parent
 -dogyuun.zip--dogyuun--parent
 -dokaben.zip--dokaben (japan)--parent
 -dokidoki.zip--doki doki penguin land--parent
+-dolmen.zip--dolmen--parent
 -domino.zip--domino man--parent
 -dominos.zip--dominos--parent
 -dommy.zip--dommy--parent
@@ -1079,7 +1110,7 @@
 -dondokdj.zip--don doko don (japan)--dondokod
 -dondokdu.zip--don doko don (us)--dondokod
 -dondokod.zip--don doko don (world)--parent
--dkongjo.zip--donkey kong--dkong
+-dkongjo.zip--donkey kong (japan set 2)--dkong
 -dkongjo1.zip--donkey kong (japan set 3) (bad dump?)--dkong
 -dkong.zip--donkey kong (us set 1)--parent
 -dkong3b.zip--donkey kong 3 (bootleg on donkey kong jr. hardware)--dkong3
@@ -1094,8 +1125,8 @@
 -dkngjnrb.zip--donkey kong junior (bootleg?)--dkongjr
 -dkngjnrj.zip--donkey kong junior (japan?)--dkongjr
 -dkongjr.zip--donkey kong junior (us)--parent
--dkongo.zip--donkey kong pauline edition--parent
--dkrainbow.zip--donkey kong rainbow edition--dkong
+-dkongo.zip--donkey kong: pauline edition--parent
+-dkrainbow.zip--donkey kong: rainbow edition--dkong
 -dkrdemo.zip--donkey kong remix--dkong
 -donpachj.zip--donpachi (japan)--donpachi
 -donpachk.zip--donpachi (korea)--donpachi
@@ -1154,7 +1185,7 @@
 -dragoonj.zip--dragoon might (ver jaa)--dragoona
 -dragrace.zip--drag race--parent
 -drakton.zip--drakton--parent
--keithlcy.zip--dramatic adventure quiz keith & lucy (japan)--parent
+-keithlcy.zip--dramatic adventure quiz keith &amp; lucy (japan)--parent
 -dremshpr.zip--dream shopper--parent
 -dsoccr94.zip--dream soccer '94--parent
 -dsccr94j.zip--dream soccer '94 (japan)--dsoccr94
@@ -1172,20 +1203,20 @@
 -dumpmtmt.zip--dump matsumoto (japan)--bodyslam
 -dungenmu.zip--dungeon magic (us)--dungeonm
 -dungeonm.zip--dungeon magic (world)--parent
--ddsom.zip--dungeons & dragons: shadow over mystara (euro 960619)--parent
--ddsoma.zip--dungeons & dragons: shadow over mystara (asia 960619)--ddsom
--ddsomj.zip--dungeons & dragons: shadow over mystara (japan 960619)--ddsom
--ddsomjr1.zip--dungeons & dragons: shadow over mystara (japan 960206)--ddsom
--ddsomr1.zip--dungeons & dragons: shadow over mystara (euro 960209)--ddsom
--ddsomu.zip--dungeons & dragons: shadow over mystara (us 960619)--ddsom
--ddsomur1.zip--dungeons & dragons: shadow over mystara (us 960209)--ddsom
--ddtod.zip--dungeons & dragons: tower of doom (euro 940412)--parent
--ddtoda.zip--dungeons & dragons: tower of doom (asia 940113)--ddtod
--ddtodh.zip--dungeons & dragons: tower of doom (hispanic 940125)--ddtod
--ddtodj.zip--dungeons & dragons: tower of doom (japan 940125)--ddtod
--ddtodjr1.zip--dungeons & dragons: tower of doom (japan 940113)--ddtod
--ddtodu.zip--dungeons & dragons: tower of doom (us 940125)--ddtod
--ddtodur1.zip--dungeons & dragons: tower of doom (us 940113)--ddtod
+-ddsom.zip--dungeons &amp; dragons: shadow over mystara (euro 960619)--parent
+-ddsoma.zip--dungeons &amp; dragons: shadow over mystara (asia 960619)--ddsom
+-ddsomj.zip--dungeons &amp; dragons: shadow over mystara (japan 960619)--ddsom
+-ddsomjr1.zip--dungeons &amp; dragons: shadow over mystara (japan 960206)--ddsom
+-ddsomr1.zip--dungeons &amp; dragons: shadow over mystara (euro 960209)--ddsom
+-ddsomu.zip--dungeons &amp; dragons: shadow over mystara (us 960619)--ddsom
+-ddsomur1.zip--dungeons &amp; dragons: shadow over mystara (us 960209)--ddsom
+-ddtod.zip--dungeons &amp; dragons: tower of doom (euro 940412)--parent
+-ddtoda.zip--dungeons &amp; dragons: tower of doom (asia 940113)--ddtod
+-ddtodh.zip--dungeons &amp; dragons: tower of doom (hispanic 940125)--ddtod
+-ddtodj.zip--dungeons &amp; dragons: tower of doom (japan 940125)--ddtod
+-ddtodjr1.zip--dungeons &amp; dragons: tower of doom (japan 940113)--ddtod
+-ddtodu.zip--dungeons &amp; dragons: tower of doom (us 940125)--ddtod
+-ddtodur1.zip--dungeons &amp; dragons: tower of doom (us 940113)--ddtod
 -ddream95.zip--dunk dream '95--hoops96
 -dunkmnia.zip--dunk mania (dm1/ver.c)--parent
 -dunkshot.zip--dunk shot--parent
@@ -1199,16 +1230,16 @@
 -dynamski.zip--dynamic ski--parent
 -dnmtdeka.zip--dynamite deka (japan)--diehard
 -dynduke.zip--dynamite duke--parent
+-ddux.zip--dynamite dux--parent
 -dduxbl.zip--dynamite dux (bootleg)--parent
--ddux.zip--dynamite dux (fd1094 317-0096)--parent
 -dleague.zip--dynamite league (japan)--parent
 -dw.zip--dynasty wars (world)--parent
 -dynobop.zip--dyno bop--parent
 -ejanhs.zip--e-jan high school (jpn)--parent
--eswat.zip--e-swat - cyber police (world, fd1094 317-0130)--parent
+-eswat.zip--e-swat - cyber police (world)--parent
 -eswatbl.zip--e-swat - cyber police (bootleg)--parent
--eswatj.zip--e-swat - cyber police (japan, fd1094 317-0128)--eswat
--eswatu.zip--e-swat - cyber police (us, fd1094 317-0129)--eswat
+-eswatj.zip--e-swat - cyber police (japan)--eswat
+-eswatu.zip--e-swat - cyber police (us)--eswat
 -edf.zip--e.d.f. : earth defense force--parent
 -eagle.zip--eagle (set 1)--mooncrst
 -eagle2.zip--eagle (set 2)--mooncrst
@@ -1252,9 +1283,9 @@
 -equitess.zip--equites (sega)--equites
 -eprom.zip--escape from the planet of the robot monsters (set 1)--parent
 -eprom2.zip--escape from the planet of the robot monsters (set 2)--eprom
+-esckids4p.zip--escape kids (asia, 4 players)--esckids
 -esckids.zip--escape kids (japan 2 players)--parent
--esckids4p.zip--escape kids extra--esckids
--espgal.zip--espgaluda (v100, first revision)--parent
+-espgal.zip--espgaluda--parent
 -espiale.zip--espial (europe)--espial
 -espial.zip--espial (us?)--parent
 -esprade.zip--esp ra.de. (international ver 1998 4/22)--parent
@@ -1312,6 +1343,7 @@
 -fantasyu.zip--fantasy (us)--fantasy
 -fantasy.zip--fantasy (world)--parent
 -fantland.zip--fantasy land (set 1)--parent
+-fantlnda.zip--fantasy land (set 2)--fantland
 -fantzone.zip--fantasy zone (japan new ver.)--parent
 -fantzono.zip--fantasy zone (old ver.)--fantzone
 -fantzoneta.zip--fantasy zone (time attack, bootleg)--parent
@@ -1333,9 +1365,12 @@
 -feversos.zip--fever sos (international)--dfeveron
 -fcombat.zip--field combat--parent
 -fieldday.zip--field day--parent
--fghtatck.zip--fighter & attacker (us)--parent
+-fghtatck.zip--fighter &amp; attacker (us)--parent
 -fghthist.zip--fighter's history (world ver 43-07)--parent
 -ftimpcta.zip--fighters' impact a (ver 2.00j)--parent
+-fghthistj.zip--fighters history (japan ver 42-03)--fghthist
+-fghthista.zip--fighters history (us ver 42-05, alternate hardware)--fghthist
+-fghthistu.zip--fighters history (us ver 42-03)--fghthist
 -fightfev.zip--fight fever (set 1)--parent
 -fightfva.zip--fight fever (set 2)--fightfev
 -elandore.zip--fighting dragon legend elan doree--parent
@@ -1395,6 +1430,7 @@
 -flicky.zip--flicky (128k ver.)--parent
 -flickyo.zip--flicky (64k ver.)--flicky
 -flower.zip--flower--parent
+-flowerbl.zip--flower (bootleg)--flower
 -flyboy.zip--fly-boy--parent
 -flyboyb.zip--fly-boy (bootleg)--flyboy
 -flyball.zip--flyball--parent
@@ -1417,6 +1453,7 @@
 -friskyt.zip--frisky tom (set 1)--parent
 -friskyta.zip--frisky tom (set 2)--friskyt
 -froggers.zip--frog--frogger
+-fspiderb.zip--frog &amp; spiders (bootleg)--parent
 -frogg.zip--frog (galaxian hardware)--frogger
 -frogger.zip--frogger--parent
 -froggrmc.zip--frogger (moon cresta hardware)--frogger
@@ -1439,7 +1476,7 @@
 -gaialast.zip--gaia - the last choice of earth--parent
 -gaia.zip--gaia crusaders--parent
 -gaiapols.zip--gaiapolis (japan ver jaf)--parent
--gground.zip--gain ground (fd1094 317-0058-03?--parent
+-gground.zip--gain ground--parent
 -gwarrior.zip--galactic warriors--parent
 -galag88j.zip--galaga '88 (japan)--galaga88
 -galaga88.zip--galaga '88 (set 1)--parent
@@ -1552,7 +1589,7 @@
 -gnga.zip--ghosts'n goblins (world? set 2)--gng
 -ghoulsu.zip--ghouls'n ghosts (us)--ghouls
 -ghouls.zip--ghouls'n ghosts (world)--parent
--ghoxj.zip--ghox (8-way joystick)--ghox
+-ghoxj.zip--ghox (joystick)--ghox
 -ghox.zip--ghox (spinner)--parent
 -gigandes.zip--gigandes--parent
 -gigasb.zip--gigas (bootleg)--parent
@@ -1571,7 +1608,7 @@
 -gladiatr.zip--gladiator (us)--parent
 -sgladiat.zip--gladiator 1984--parent
 -glass.zip--glass--parent
--glass94.zip--glass (unprotected)--glass
+-glass94.zip--glass (ver 1.1, break edition, version 1994) (censored, unprotected)--glass
 -gblchmp.zip--global champion (us)--kaiserkn
 -goal92.zip--goal! '92--parent
 -goalx3.zip--goal! goal! goal!--parent
@@ -1608,6 +1645,7 @@
 -gtg2j.zip--golden tee golf ii (joystick, v1.0)--gtg2
 -gtg2t.zip--golden tee golf ii (trackball, v1.1)--gtg2
 -goldmedl.zip--gold medalist--parent
+-goldmeda.zip--gold medalist (alt)--goldmedl
 -goldmedb.zip--gold medalist (bootleg)--goldmedl
 -glfgreat.zip--golfing greats--parent
 -glfgretj.zip--golfing greats (japan)--glfgreat
@@ -1634,7 +1672,6 @@
 -grchamp.zip--grand champion--parent
 -gcpinbal.zip--grand cross--parent
 -f1gpstar.zip--grand prix star--parent
--mp_gslam.zip--grand slam (mega play)--parent
 -gstriker.zip--grand striker--parent
 -gstrik2.zip--grand striker 2 (japan)--parent
 -grndtour.zip--grand tour--parent
@@ -1643,7 +1680,6 @@
 -gravp.zip--gravitar (prototype)--gravitar
 -gravitr2.zip--gravitar (version 2)--gravitar
 -gravitar.zip--gravitar (version 3)--parent
--gtmr.zip--great 1000 miles rally--parent
 -gtmr2u.zip--great 1000 miles rally 2 usa (95/05/18)--gtmr2
 -gtmre.zip--great 1000 miles rally (evolution model)--gtmr
 -gtmrusa.zip--great 1000 miles rally (usa)--gtmr
@@ -1676,7 +1712,7 @@
 -grdians.zip--guardians / denjin makai ii--parent
 -guardian.zip--guardians of the hood--parent
 -grdnstrm.zip--guardian storm--parent
--gwarb.zip--guerrilla war (bootleg)--gwar
+-gwarb.zip--guerrilla war (joystick hack bootleg)--gwar
 -gwar.zip--guerrilla war (us)--parent
 -gwara.zip--guerrilla war (version 1)--gwar
 -gwarj.zip--guevara (japan)--gwar
@@ -1684,8 +1720,9 @@
 -gulfstrm.zip--gulf storm--parent
 -gulfstr2.zip--gulf storm (media shoji)--gulfstrm
 -gulfwar2.zip--gulf war ii--parent
+-gulunpa.zip--gulun.pa! (japan 931220 l)--parent
 -gumbo.zip--gumbo--parent
--gunfront.zip--gun & frontier (world)--parent
+-gunfront.zip--gun &amp; frontier (world)--parent
 -gunsmokj.zip--gun.smoke (japan)--gunsmoke
 -gunsmoku.zip--gun.smoke (us set 1)--gunsmoke
 -gunsmoka.zip--gun.smoke (us set 2)--gunsmoke
@@ -1714,7 +1751,6 @@
 -gunmast.zip--gun master--parent
 -gunnail.zip--gunnail--parent
 -gunnailp.zip--gunnail (location test)--gunnail
--mp_gunhe.zip--gunstar heroes (mega play)--parent
 -gururin.zip--gururin--parent
 -gussun.zip--gussun oyoyo (japan)--riskchal
 -gutsn.zip--guts'n (japan)--parent
@@ -1731,7 +1767,7 @@
 -gyruss.zip--gyruss (konami)--parent
 -hachamf.zip--hacha mecha fighter (19th sep. 1991)--parent
 -hachamfb.zip--hacha mecha fighter (19th sep. 1991, unprotected, bootleg thunder dragon conversion)--hachamf
--hachoo.zip--hachoo--parent
+-hachoo.zip--hachoo!--parent
 -hal21.zip--hal21--parent
 -hal21j.zip--hal21 (japan)--hal21
 -halleycj.zip--halley's comet (japan set 2)--halleys
@@ -1800,7 +1836,10 @@
 -headon.zip--head on (2 players)--parent
 -headoni.zip--head on (irem, m-15 hardware)--parent
 -headon2.zip--head on 2--parent
--hedpanic.zip--head panic (ver. 0117, 17/01/2000)--parent
+-headonch.zip--head on channel (japan, prototype)--parent
+-hedpanic.zip--head panic (ver. 0117, 17-01-2000)--parent
+-hedpanicf.zip--head panic (ver. 0315, 15-03-2000)--hedpanic
+-hedpanico.zip--head panic (ver. 0615, 15-06-1999)--hedpanic
 -heartatk.zip--heart attack--parent
 -heatbrl.zip--heated barrel (world version 3)--parent
 -hvnsgate.zip--heaven's gate--parent
@@ -1810,6 +1849,10 @@
 -hvysmsha.zip--heavy smash (asia version -4)--hvysmsh
 -hvysmsh.zip--heavy smash (europe version -2)--parent
 -hvysmshj.zip--heavy smash (japan version -2)--hvysmsh
+-hvyunitj.zip--heavy unit (japan, newer)--hvyunit
+-hvyunitjo.zip--heavy unit (japan, older)--hvyunit
+-hvyunit.zip--heavy unit (world)--parent
+-hvyunitu.zip--heavy unit -u.s.a. version- (us)--hvyunit
 -hwchamp.zip--heavyweight champ--parent
 -heberpop.zip--hebereke no popoon (japan)--parent
 -heiankyo.zip--heiankyo alien--parent
@@ -1841,6 +1884,7 @@
 -holeland.zip--hole land--parent
 -holo.zip--holosseum--parent
 -homo.zip--homo--goindol
+-hookj.zip--hook (japan)--hook
 -hooku.zip--hook (us)--hook
 -hook.zip--hook (world)--parent
 -hoops96.zip--hoops '96--parent
@@ -1859,20 +1903,22 @@
 -hstennis.zip--hot shots tennis (v1.1)--parent
 -housemnq.zip--house mannequin (japan 870217)--parent
 -housemn2.zip--house mannequin roppongi live hen (japan 870418)--parent
--hunchbak.zip--hunchback--parent
 -hunchbkd.zip--hunchback (dk conversion)--hunchbak
 -hunchbkg.zip--hunchback (galaxian hardware)--hunchbak
 -hunchbks.zip--hunchback (scramble hardware)--hunchbak
+-hunchbak.zip--hunchback (set 1)--parent
 -huncholy.zip--hunchback olympic--parent
 -hustle.zip--hustle--parent
 -hydra.zip--hydra--parent
 -hydrap.zip--hydra (prototype 5/14/90)--hydra
 -hydrap2.zip--hydra (prototype 5/25/90)--hydra
 -hyperath.zip--hyper athlete (gv021 japan 1.00)--parent
--hcrash.zip--hyper crash--parent
+-hcrash.zip--hyper crash (version d)--parent
+-hcrashc.zip--hyper crash (version c)--hcrash
 -hyprdriv.zip--hyperdrive--parent
 -hyprdelj.zip--hyper duel (japan)--hyprduel
 -hyprduel.zip--hyper duel (world)--parent
+-hypernoid.zip--hypernoid (2021-11-28)--parent
 -hyprolym.zip--hyper olympic--trackfld
 -hpolym84.zip--hyper olympic '84--hyperspt
 -hyprolyb.zip--hyper olympic (bootleg)--trackfld
@@ -1882,9 +1928,9 @@
 -hypsptsp.zip--hyper sports special (japan)--88games
 -hsf2a.zip--hyper street fighter ii: the anniversary edition (asia 040202)--parent
 -imsorry.zip--i'm sorry (us)--parent
--ichidant.zip--ichidant-r (puzzle & action 2) (japan)--parent
--ichidntb.zip--ichidant-r (puzzle & action 2) (japan) (bootleg)--ichidant
--ichidnte.zip--ichidant-r (puzzle & action 2) (english)--ichidant
+-ichidant.zip--ichidant-r (puzzle &amp; action 2) (japan)--parent
+-ichidntb.zip--ichidant-r (puzzle &amp; action 2) (japan) (bootleg)--ichidant
+-ichidnte.zip--ichidant-r (puzzle &amp; action 2) (english)--ichidant
 -fromance.zip--idol-mahjong final romance (japan)--parent
 -idolmj.zip--idol-mahjong housoukyoku (japan)--parent
 -47pie2.zip--idol janshi su-chi-pie 2 (v1.1)--parent
@@ -1895,9 +1941,9 @@
 -iganinju.zip--iga ninjyutsuden (japan)--parent
 -igmo.zip--igmo--parent
 -ikarijp.zip--ikari (japan)--ikari
--ikarijpb.zip--ikari (japan bootleg)--ikari
+-ikarijpb.zip--ikari (joystick hack bootleg)--ikari
 -ikari3.zip--ikari iii - the rescue--parent
--ikari3nr.zip--ikari iii - the rescue (world, 8-way joystick)--ikari3
+-ikari3nr.zip--ikari iii - the rescue (8-way joystick)--ikari3
 -ikari.zip--ikari warriors (us)--parent
 -ikki.zip--ikki (japan)--parent
 -imgfight.zip--image fight (japan)--parent
@@ -1951,14 +1997,15 @@
 -jspecter.zip--jatre specter (set 1)--invaders
 -jspectr2.zip--jatre specter (set 2)--invaders
 -jigkmgri.zip--jigoku meguri (japan)--bonzeadv
--jitsupro.zip--jitsuryoku pro yakyuu (japan)--parent
--joemacr.zip--joe & mac returns (world, version 1.1, 1994.05.27)--parent
--joemacra.zip--joe & mac returns (world, version 1.0, 1994.05.19)--joemacr
+-jitsupro.zip--jitsuryoku!! pro yakyuu (japan)--parent
+-joemacr.zip--joe &amp; mac returns (world, version 1.1, 1994.05.27)--parent
+-joemacra.zip--joe &amp; mac returns (world, version 1.0, 1994.05.19)--joemacr
 -teamqb.zip--john elway's team quarterback--parent
 -teamqb2.zip--john elway's team quarterback (set 2)--teamqb
 -jojoba.zip--jojo's bizarre adventure--parent
 -jojobaa.zip--jojo's bizarre adventure (alt)--jojoba
 -jojo.zip--jojo's venture--parent
+-jollyjgr.zip--jolly jogger--parent
 -jantouki.zip--jong tou ki (japan)--parent
 -jsk.zip--joryuu syougi kyoushitsu (japan)--parent
 -josvolly.zip--joshi volleyball--parent
@@ -1973,6 +2020,7 @@
 -jdreddb.zip--judge dredd (rev b nov. 26 1997)--jdredd
 -jdredd.zip--judge dredd (rev c dec. 17 1997)--parent
 -jdreddp.zip--judge dredd (rev la1, prototype)--parent
+-jzth.zip--juezhan tianhuang--parent
 -tokij.zip--juju densetsu (japan)--toki
 -jumpbug.zip--jump bug--parent
 -jumpbugb.zip--jump bug (bootleg)--jumpbug
@@ -2024,9 +2072,9 @@
 -karnovj.zip--karnov (japan)--karnov
 -karnov.zip--karnov (us)--parent
 -kengo.zip--ken-go--parent
--ket.zip--ketsui kizuna jigoku tachi--parent
--keta.zip--ketsui kizuna jigoku tachi (older)--ket
--ketb.zip--ketsui kizuna jigoku tachi (first revision)--ket
+-ket.zip--ketsui: kizuna jigoku tachi--parent
+-keta.zip--ketsui: kizuna jigoku tachi (older)--ket
+-ketb.zip--ketsui: kizuna jigoku tachi (first revision)--ket
 -kicka.zip--kick (cocktail)--kick
 -kick.zip--kick (upright)--parent
 -kicknrun.zip--kick and run--parent
@@ -2048,10 +2096,11 @@
 -kinst2.zip--killer instinct 2 (v1.4)--parent
 -kinst211.zip--killer instinct 2 (v1.1)--kinst2
 -kinst213.zip--killer instinct 2 (v1.3)--kinst2
--kingbalj.zip--king & balloon (japan)--kingball
--kingball.zip--king & balloon (us)--parent
+-kingbalj.zip--king &amp; balloon (japan)--kingball
+-kingball.zip--king &amp; balloon (us)--parent
 -kingdmgp.zip--kingdom grandprix (world)--shippumd
 -kingofb.zip--king of boxer (english)--parent
+-kog.zip--king of gladiator (the king of fighters '97 bootleg)--kof97
 -kotm.zip--king of the monsters (set 1)--parent
 -kotm2.zip--king of the monsters 2 - the next thing--parent
 -kotmh.zip--king of the monsters (set 2)--kotm
@@ -2124,7 +2173,7 @@
 -kyrosj.zip--kyros no yakata (japan)--kyros
 -dadandrn.zip--kyukyoku sentai dadandarn (japan ver jaa)--mmaulers
 -ktiger.zip--kyukyoku tiger (japan)--twincobr
--ktiger2.zip--kyukyoku tiger 2--tcobra2
+-ktiger2.zip--kyukyoku tiger 2 (japan)--tcobra2
 -kyukaidk.zip--kyuukai douchuuki (japan new version)--parent
 -kyukaido.zip--kyuukai douchuuki (japan old version)--kyukaidk
 -labyrunr.zip--labyrinth runner (japan)--tricktrp
@@ -2140,8 +2189,8 @@
 -landmkrp.zip--land maker (world prototype)--landmakr
 -lsasquad.zip--land sea air squad / riku kai kuu saizensen--parent
 -laser.zip--laser--spclaser
--lghosta.zip--laser ghost (317-0166)--lghost
 -lghost.zip--laser ghost (us, 317-0165)--parent
+-lghosta.zip--laser ghost (world)--lghost
 -lasso.zip--lasso--parent
 -lastbld2.zip--last blade 2 / bakumatsu roman - dai ni maku gekka no kenshi, the--parent
 -lastblad.zip--last blade / bakumatsu roman - gekka no kenshi, the (set 1)--parent
@@ -2169,8 +2218,7 @@
 -loht.zip--legend of hero tonma--parent
 -lomakai.zip--legend of makai (world)--parent
 -legendos.zip--legend of success joe / ashitano joe densetsu--parent
--legiono.zip--legion (ver 1.05)--legion
--legion.zip--legion (ver 2.03)--parent
+-legion.zip--legion - spinner-87 (world ver 2.03)--parent
 -legionna.zip--legionnaire (world)--parent
 -lemmings.zip--lemmings (us prototype)--parent
 -leprechn.zip--leprechaun--parent
@@ -2205,8 +2253,8 @@
 -locomotn.zip--loco-motion--parent
 -ldrun.zip--lode runner (set 1)--parent
 -ldruna.zip--lode runner (set 2)--ldrun
--loderdfa.zip--lode runner - the dig fight (ver. a) (japan)--loderndf
--loderndf.zip--lode runner - the dig fight (ver. b) (japan)--parent
+-loderdfa.zip--lode runner - the dig fight (ver. a)--loderndf
+-loderndf.zip--lode runner - the dig fight (ver. b)--parent
 -ldrun2.zip--lode runner ii - the bungeling strikes back--parent
 -ldrun3jp.zip--lode runner iii - majin no fukkatsu--ldrun3
 -ldrun3.zip--lode runner iii - the golden labyrinth--parent
@@ -2217,7 +2265,7 @@
 -looper.zip--looper--changes
 -looping.zip--looping (set 1)--parent
 -loopinga.zip--looping (set 2)--looping
--lordgun.zip--lord of gun--parent
+-lordgun.zip--lord of gun (usa)--parent
 -losttomb.zip--lost tomb (easy)--parent
 -losttmbh.zip--lost tomb (hard)--losttomb
 -lostwrld.zip--lost worlds (japan)--forgottn
@@ -2225,7 +2273,7 @@
 -lottofun.zip--lotto fun--parent
 -lvcards.zip--lovely cards--parent
 -janjans1.zip--lovely pop mahjong jan jan shimasyo (japan)--parent
--luckywld.zip--lucky & wild--parent
+-luckywld.zip--lucky &amp; wild--parent
 -lunarba1.zip--lunar battle (prototype, earlier)--gravitar
 -lunarbat.zip--lunar battle (prototype, later)--gravitar
 -llander1.zip--lunar lander (rev 1)--llander
@@ -2254,21 +2302,22 @@
 -madshark.zip--mad shark--parent
 -mcatadv.zip--magical cat adventure--parent
 -mcatadvj.zip--magical cat adventure (japan)--mcatadv
--mgcrystlj.zip--magical crystals--mgcrystl
--mgcrystlo.zip--magical crystals--mgcrystl
+-mgcrystlj.zip--magical crystals (japan)--mgcrystl
 -mgcrystl.zip--magical crystals (world, 92/01/10)--parent
+-mgcrystlo.zip--magical crystals (world)--mgcrystl
 -mgcldtex.zip--magical date ex / magical date - sotsugyou kokuhaku daisakusen (ver 2.01j)--parent
 -mgcldate.zip--magical date / magical date - dokidoki kokuhaku daisakusen (ver 2.02j)--mgcldtex
 -magdrop.zip--magical drop (japan, version 1.1, 1995.06.21)--chainrec
 -magdrop2.zip--magical drop ii--parent
 -magdrop3.zip--magical drop iii--parent
--magdropp.zip--magical drop plus--chainrec
+-magdropp.zip--magical drop plus 1--chainrec
 -magspot.zip--magical spot--parent
 -magspot2.zip--magical spot ii--parent
 -mbrush.zip--magic brush--crush
 -magicbub.zip--magic bubble--parent
 -maglord.zip--magician lord (set 1)--parent
 -maglordh.zip--magician lord (set 2)--maglord
+-magipur.zip--magic purple--parent
 -mswordj.zip--magic sword (japan 900623)--msword
 -msword.zip--magic sword - heroic fantasy (world 900725)--parent
 -mswordr1.zip--magic sword - heroic fantasy (world 900623)--msword
@@ -2298,9 +2347,9 @@
 -mjdiplob.zip--mahjong diplomat [bet] (japan)--parent
 -dokyusei.zip--mahjong doukyuusei--parent
 -dokyusp.zip--mahjong doukyuusei special--parent
--mjelct3.zip--mahjong electron base (parts 2 & 3, japan)--mjelctrn
--mjelct3a.zip--mahjong electron base (parts 2 & 3, alt., japan)--mjelctrn
--mjelctrn.zip--mahjong electron base (parts 2 & 4, japan)--parent
+-mjelct3.zip--mahjong electron base (parts 2 &amp; 3, japan)--mjelctrn
+-mjelct3a.zip--mahjong electron base (parts 2 &amp; 3, alt., japan)--mjelctrn
+-mjelctrn.zip--mahjong electron base (parts 2 &amp; 4, japan)--parent
 -mjegolf.zip--mahjong erotica golf (japan)--parent
 -finalbny.zip--mahjong final bunny [bet] (japan)--vanilla
 -mjfocus.zip--mahjong focus (japan 890313)--parent
@@ -2405,6 +2454,7 @@
 -marble2.zip--marble madness (set 2)--marble
 -marble3.zip--marble madness (set 3)--marble
 -marble4.zip--marble madness (set 4)--marble
+-marblmd2.zip--marble madness ii (prototype)--parent
 -mmaze.zip--marchen maze (japan)--parent
 -marineb.zip--marine boy--parent
 -marinedt.zip--marine date--parent
@@ -2448,6 +2498,7 @@
 -marvins.zip--marvin's maze--parent
 -masao.zip--masao--mario
 -kamenrid.zip--masked riders club battle race--parent
+-mastfury.zip--master's fury--parent
 -masterw.zip--master of weapon (world)--parent
 -matchit.zip--match it--sichuan2
 -matmania.zip--mat mania--parent
@@ -2465,7 +2516,6 @@
 -mofflott.zip--maze of flott (japan)--parent
 -mazerbla.zip--mazer blazer--parent
 -mazinger.zip--mazinger z--parent
--mp_mazin.zip--mazin wars (mega play)--parent
 -medlanes.zip--meadows lanes--parent
 -mechatt.zip--mechanized attack (world)--parent
 -mmehyou.zip--medal mahjong circuit no mehyou [bet] (japan)--parent
@@ -2507,10 +2557,19 @@
 -megab.zip--mega blast (world)--parent
 -megadon.zip--megadon--parent
 -megaforc.zip--mega force--starforc
--megaman.zip--mega man - the power battle (cps1 asia 951006)--parent
 -megaman2.zip--mega man 2: the power fighters (us 960708)--parent
 -megamn2a.zip--mega man 2: the power fighters (asia 960708)--megaman2
+-megaman.zip--mega man: the power battle (cps1 asia 951006)--parent
+-mp_bio.zip--megaplay: bio-hazard battle--parent
+-mp_col3.zip--megaplay: columns iii--parent
 -mp_gaxe2.zip--megaplay: golden axe ii--parent
+-mp_gslam.zip--megaplay: grand slam--parent
+-mp_gunhe.zip--megaplay: gunstar heroes--parent
+-mp_mazin.zip--megaplay: mazin wars--parent
+-mp_shnb3.zip--megaplay: shinobi iii--parent
+-mp_soni2.zip--megaplay: sonic the hedgehog 2--parent
+-mp_sonic.zip--megaplay: sonic the hedgehog--parent
+-mp_sor2.zip--megaplay: streets of rage ii--parent
 -mp_twc.zip--megaplay: tecmo world cup--parent
 -megatack.zip--megatack--parent
 -mtwins.zip--mega twins (world 900619)--parent
@@ -2519,6 +2578,7 @@
 -megazone.zip--mega zone (konami set 1)--parent
 -megazonb.zip--mega zone (kosuka set 1)--megazone
 -megazonc.zip--mega zone (kosuka set 2)--megazone
+-megrescu.zip--megumi rescue--parent
 -meijinsn.zip--meijinsen --parent
 -kikcubic.zip--meikyu jima (japan)--parent
 -meikyuh.zip--meikyuu hunter g (japan)--ghostb
@@ -2539,12 +2599,7 @@
 -mslug3.zip--metal slug 3--parent
 -mslug3n.zip--metal slug 3 (not encrypted)--mslug3
 -mslug4.zip--metal slug 4--parent
--mslug4nd.zip--metal slug 4 (decrypted c)--mslug4
--ms4plus.zip--metal slug 4 plus (bootleg)--mslug4
 -mslug5.zip--metal slug 5--parent
--mslug5nd.zip--metal slug 5 (decrypted c)--mslug5
--ms5plus.zip--metal slug 5 plus (bootleg)--mslug5
--mslug3b6.zip--metal slug 6 (metal slug 3 bootleg)--mslug3
 -mslugx.zip--metal slug x - super vehicle-001--parent
 -msisaac.zip--metal soldier isaac ii--parent
 -metmqstr.zip--metamoqester--parent
@@ -2555,18 +2610,18 @@
 -metrocra.zip--metro-cross (set 2)--metrocrs
 -mexico86.zip--mexico 86--kicknrun
 -moonwlkb.zip--michael jackson's moonwalker (bootleg)--parent
--mwalk.zip--michael jackson's moonwalker (set 1, 317-0159)--parent
--mwalka.zip--michael jackson's moonwalker (set 2, us, 317-0158)--mwalk
--mwalkb.zip--michael jackson's moonwalker (set 3, japan, 317-0157)--mwalk
+-mwalk.zip--michael jackson's moonwalker (world)--parent
+-mwalka.zip--michael jackson's moonwalker (us)--mwalk
+-mwalkb.zip--michael jackson's moonwalker (japan)--mwalk
 -midres.zip--midnight resistance (world)--parent
 -midresbj.zip--midnight resistance (joystick bootleg)--midres
 -midresj.zip--midnight resistance (japan)--midres
 -midresu.zip--midnight resistance (us)--midres
+-mpangj.zip--mighty! pang (japan 001011)--parent
 -mightguy.zip--mighty guy--parent
 -mimonkey.zip--mighty monkey--parent
 -mimonsco.zip--mighty monkey (bootleg on super cobra hardware)--mimonkey
 -mimonscr.zip--mighty monkey (bootleg on scramble hardware)--mimonkey
--mpangj.zip--mighty pang (japan 001011)--parent
 -mwarr.zip--mighty warriors--parent
 -mikie.zip--mikie--parent
 -mikiehs.zip--mikie (high school graffiti)--mikie
@@ -2603,7 +2658,7 @@
 -gundamex.zip--mobile suit gundam ex revue--parent
 -gdfs.zip--mobile suit gundam final shooting--parent
 -homerun.zip--moero pro yakyuu homerun--parent
--moegonta.zip--moeyo gonta (japan)--ladykill
+-moegonta.zip--moeyo gonta!! (japan)--ladykill
 -moguchan.zip--moguchan--parent
 -mogura.zip--mogura desse--parent
 -mole.zip--mole attack--parent
@@ -2636,7 +2691,7 @@
 -moonwar.zip--moonwar--parent
 -moonwara.zip--moonwar (older)--moonwar
 -moremorp.zip--more more plus--parent
--quizhuhu.zip--moriguchi hiroko no quiz de hyuu (japan)--parent
+-quizhuhu.zip--moriguchi hiroko no quiz de hyuu!hyuu! (japan)--parent
 -mkprot9.zip--mortal kombat (prototype, rev 9.0 07/28/92)--mk
 -mkla1.zip--mortal kombat (rev 1.0 08/08/92)--mk
 -mkla2.zip--mortal kombat (rev 2.0 08/18/92)--mk
@@ -2689,15 +2744,19 @@
 -mrtnt.zip--mr. tnt--parent
 -mrdrillr.zip--mr driller (dri1/ver.a2)--parent
 -mrdrilr2.zip--mr driller 2--parent
+-mrsdyna.zip--mrs. dynamite--parent
 -mspacman.zip--ms. pac-man--parent
 -mspacmab.zip--ms. pac-man (bootleg)--mspacman
 -mspacpls.zip--ms. pac-man plus--mspacman
+-mspactwin.zip--ms. pac-man twin (argentina)--parent
 -mspacmat.zip--ms. pac attack--mspacman
 -mschamp.zip--ms. pacman champion edition / super zola pac gal--mspacman
 -rocktrv2.zip--mtv rock-n-roll trivia (part 2)--parent
 -mugsmash.zip--mug smashers--parent
--multchmp.zip--multi champ (world)--parent
--mchampdx.zip--multi champ deluxe (ver. 0106, 06/01/2000)--parent
+-multchmpk.zip--multi champ (korea)--multchmp
+-multchmp.zip--multi champ (world, ver. 2.5)--parent
+-mchampdx.zip--multi champ deluxe (ver. 0106, 06-01-2000)--parent
+-mchampdxa.zip--multi champ deluxe (ver. 1126, 26-11-1999)--mchampdx
 -mnchmobl.zip--munch mobile (us)--joyfulr
 -ganryu.zip--musashi ganryuuki--parent
 -mbomberj.zip--muscle bomber - the body explosion (japan 930713)--slammast
@@ -2708,7 +2767,7 @@
 -mutantfa.zip--mutant fighter (world rev 3, em-4)--mutantf
 -mnight.zip--mutant night--parent
 -mutnat.zip--mutation nation--parent
--mvp.zip--mvp (us, fd1094 317-0143)--parent
+-mvp.zip--mvp (us)--parent
 -mx5000.zip--mx5000--parent
 -myherok.zip--my hero (korea)--myhero
 -myhero.zip--my hero (us)--parent
@@ -2720,11 +2779,11 @@
 -mystwaru.zip--mystic warriors (us ver uaa)--mystwarr
 -nycaptor.zip--n.y. captor--parent
 -nam1975.zip--nam-1975--parent
--ncv1.zip--namco classics collection vol.1--parent
--ncv1j.zip--namco classics collection vol.1 (japan set 1)--ncv1
--ncv1j2.zip--namco classics collection vol.1 (japan set 2)--ncv1
--ncv2.zip--namco classics collection vol.2--parent
--ncv2j.zip--namco classics collection vol.2 (japan)--ncv2
+-ncv1.zip--namco classic collection vol.1--parent
+-ncv1j.zip--namco classic collection vol.1 (japan set 1)--ncv1
+-ncv1j2.zip--namco classic collection vol.1 (japan set 2)--ncv1
+-ncv2.zip--namco classic collection vol.2--parent
+-ncv2j.zip--namco classic collection vol.2 (japan)--ncv2
 -nametune.zip--name that tune--parent
 -naname.zip--naname de magic! (japan)--parent
 -narc3.zip--narc (rev 3.20)--narc
@@ -2765,8 +2824,8 @@
 -neocup98.zip--neo-geo cup '98 - the road to the victory--parent
 -neobombe.zip--neo bomberman--parent
 -neodrift.zip--neo drift out - new technology--parent
--neomrdo.zip--neo mr. do--parent
--neopong.zip--neo pong (ver 1.1)--parent
+-neomrdo.zip--neo mr. do!--parent
+-neopong.zip--neo pong (v1.1)--parent
 -turfmast.zip--neo turf masters / big tournament golf--parent
 -nratechu.zip--neratte chu--parent
 -nettoqc.zip--nettoh quiz champion (japan)--parent
@@ -2866,9 +2925,11 @@
 -oneshot.zip--one shot one kill--parent
 -onetwo.zip--one + two--parent
 -nmaster.zip--oni - the ninja master (japan)--metmqstr
--onna34ra.zip--onna sansirou - typhoon gal (set 2)--onna34ro
--onna34ro.zip--onna sansirou - typhoon gal (set 1)--parent
--opaopa.zip--opa opa--parent
+-onna34ra.zip--onna sansirou - typhoon gal (bootleg)--onna34ro
+-onna34ro.zip--onna sansirou - typhoon gal--parent
+-ooparts.zip--ooparts (japan, prototype)--parent
+-opaopa.zip--opa opa (mc-8123, 317-0042)--parent
+-opaopan.zip--opa opa (rev a, unprotected)--opaopa
 -opwolfb.zip--operation bear--opwolf
 -othunder.zip--operation thunderbolt (world)--parent
 -othundu.zip--operation thunderbolt (us)--othunder
@@ -2880,7 +2941,8 @@
 -orbit.zip--orbit--parent
 -orbitron.zip--orbitron--parent
 -ordyne.zip--ordyne (japan)--parent
--olds103t.zip--oriental legend special / xi you shi e zhuan super (ver. 103)--parent
+-olds.zip--oriental legend special - xi you shi e zhuan super (ver. 101, korean board)--parent
+-olds103t.zip--oriental legend special / xi you shi e zhuan super (ver. 103, china, tencent) (unprotected)--olds
 -orld105k.zip--oriental legend / xi yo gi shi re zuang (ver. 105, korean board)--orlegend
 -orld111c.zip--oriental legend / xi yo gi shi re zuang (ver. 111, chinese board)--orlegend
 -orlegend.zip--oriental legend / xi yo gi shi re zuang (ver. 126)--parent
@@ -2893,10 +2955,10 @@
 -outfxies.zip--outfoxies--parent
 -outfxesj.zip--outfoxies (japan)--outfxies
 -outline.zip--outline--radarzon
--outrunb.zip--out run (bootleg)--outrun
 -outrundx.zip--out run (deluxe?)--outrun
 -outrun.zip--out run (set 1)--parent
 -outruna.zip--out run (set 2)--outrun
+-outrunb.zip--out run (set 3)--outrun
 -orunners.zip--outrunners (us)--parent
 -outzone.zip--out zone (set 1)--parent
 -outzonea.zip--out zone (set 2)--outzone
@@ -2909,14 +2971,14 @@
 -p47.zip--p-47 - the phantom fighter (world)--parent
 -p47aces.zip--p-47 aces--parent
 -pow.zip--p.o.w. - prisoners of war (us)--parent
--pacnpal.zip--pac & pal--parent
--pacnpal2.zip--pac & pal (older)--pacnpal
+-pacnpal.zip--pac &amp; pal--parent
+-pacnpal2.zip--pac &amp; pal (older)--pacnpal
 -pacgal.zip--pac-gal--mspacman
 -paclandm.zip--pac-land (midway)--pacland
 -pacland.zip--pac-land (set 1)--parent
 -pacland2.zip--pac-land (set 2)--pacland
 -pacland3.zip--pac-land (set 3)--pacland
--pacnchmp.zip--pac-man & chomp chomp--pacnpal
+-pacnchmp.zip--pac-man &amp; chomp chomp--pacnpal
 -pacmanbl.zip--pac-man (galaxian hardware)--puckman
 -pacheart.zip--pac-man (hearts)--puckman
 -pacman.zip--pac-man (midway)--puckman
@@ -2938,10 +3000,10 @@
 -pairlove.zip--pairs love--parent
 -palamed.zip--palamedes (japan)--parent
 -pandoras.zip--pandora's palace--parent
+-pang3.zip--pang! 3 (euro 950511)--parent
+-pang3j.zip--pang! 3 (japan 950511)--pang3
 -pangb.zip--pang (bootleg)--pang
 -pang.zip--pang (world)--parent
--pang3.zip--pang 3 (euro 950511)--parent
--pang3j.zip--pang 3 (japan 950511)--pang3
 -pangpoms.zip--pang poms--parent
 -pangpomm.zip--pang poms (mitchell)--pangpoms
 -panicbom.zip--panic bomber--parent
@@ -2955,12 +3017,12 @@
 -parodius.zip--parodius da! (world)--parent
 -prtytime.zip--party time: gonta the diver ii--parent
 -pass.zip--pass--parent
--passsht.zip--passing shot (2 players, fd1094 317-0080)--parent
+-passsht.zip--passing shot (2 players)--parent
 -passshtb.zip--passing shot (2 players) (bootleg)--parent
 -passht4b.zip--passing shot (4 players) (bootleg)--parent
 -pastelgl.zip--pastel gal (japan 851224)--parent
 -pblbeach.zip--pebble beach - the great shot--parent
--peekaboo.zip--peek-a-boo--parent
+-peekaboo.zip--peek-a-boo!--parent
 -peggle.zip--peggle (joystick, v1.0)--parent
 -pegglet.zip--peggle (trackball, v1.0)--peggle
 -pengob.zip--pengo (bootleg)--pengo
@@ -3009,8 +3071,8 @@
 -pballoon.zip--pioneer balloon--parent
 -pipedrmj.zip--pipe dream (japan)--pipedrm
 -pipedrm.zip--pipe dream (us)--parent
--pipibibi.zip--pipi & bibis / whoopee (bootleg ?)--pipibibs
--pipibibs.zip--pipi & bibis / whoopee--parent
+-pipibibi.zip--pipi &amp; bibis / whoopee!! (bootleg ?)--pipibibs
+-pipibibs.zip--pipi &amp; bibis / whoopee!!--parent
 -piranha.zip--piranha--puckman
 -piranhah.zip--piranha (hack)--puckman
 -piranhao.zip--piranha (older)--puckman
@@ -3021,7 +3083,7 @@
 -pisces.zip--pisces--parent
 -piscesb.zip--pisces (bootleg)--pisces
 -pistoldm.zip--pistol daimyo no bouken (japan)--parent
--pitnrun.zip--pit & run--parent
+-pitnrun.zip--pit &amp; run--parent
 -pitfall2.zip--pitfall ii--parent
 -pitfallu.zip--pitfall ii (not encrypted)--pitfall2
 -pitfighb.zip--pit fighter (bootleg)--pitfight
@@ -3078,7 +3140,7 @@
 -pc_tmnt2.zip--playchoice-10: teenage mutant ninja turtles ii: the arcade game--parent
 -pc_tenis.zip--playchoice-10: tennis--parent
 -pc_goons.zip--playchoice-10: the goonies--parent
--pc_tkfld.zip--playchoice-10: track & field--parent
+-pc_tkfld.zip--playchoice-10: track &amp; field--parent
 -pc_trjan.zip--playchoice-10: trojan--parent
 -pc_ftqst.zip--playchoice-10: uncle fester's quest: the addams family--parent
 -pc_vball.zip--playchoice-10: volley ball--parent
@@ -3094,8 +3156,7 @@
 -plumppop.zip--plump pop (japan)--parent
 -plusalph.zip--plus alpha--parent
 -pnickj.zip--pnickies (japan 940608)--parent
--pnyaa.zip--pochi & nyaa--parent
--pnyaan.zip--pochi & nyaa (decrypted c)--pnyaa
+-pnyaa.zip--pochi &amp; nyaa--parent
 -pfghtj.zip--pocket fighter (japan 970904)--sgemf
 -pcktgalb.zip--pocket gal (bootleg)--pcktgal
 -pcktgal.zip--pocket gal (japan)--parent
@@ -3104,7 +3165,7 @@
 -pktgaldx.zip--pocket gal deluxe (euro v3.00)--parent
 -pktgaldj.zip--pocket gal deluxe (japan v3.00)--pktgaldx
 -ptblank.zip--point blank--parent
--poitto.zip--poitto--parent
+-poitto.zip--poitto!--parent
 -pkladies.zip--poker ladies--parent
 -pkladiel.zip--poker ladies (leprechaun)--pkladies
 -polaris.zip--polaris (set 1)--parent
@@ -3150,8 +3211,8 @@
 -potopoto.zip--poto poto (japan)--parent
 -poundfou.zip--pound for pound (us)--poundfor
 -poundfor.zip--pound for pound (world)--parent
--pdrift.zip--power drift--parent
 -pdriftj.zip--power drift (japan)--pdrift
+-pdrift.zip--power drift (world)--parent
 -powerdrv.zip--power drive--parent
 -pgear.zip--powered gear: strategic variant armor equipment (japan 941024)--armwar
 -pgearr1.zip--powered gear: strategic variant armor equipment (japan 940916)--armwar
@@ -3247,8 +3308,8 @@
 -pbobblna.zip--puzzle bobble / bust-a-move (neo-geo) (set 2)--pbobblen
 -puzlclub.zip--puzzle club (japan prototype)--parent
 -pzlbowl.zip--puzzle de bowling (japan)--parent
+-puzzledp.zip--puzzle de pon!--parent
 -puzzldpr.zip--puzzle de pon! r!--puzzledp
--puzzledp.zip--puzzle de pon--parent
 -joyjoy.zip--puzzled / joy joy kid--parent
 -puzlstar.zip--puzzle star--parent
 -uopoko.zip--puzzle uo poko (international)--parent
@@ -3283,11 +3344,11 @@
 -quasar.zip--quasar--parent
 -quasara.zip--quasar (alternate)--quasar
 -quester.zip--quester (japan)--parent
--qadj.zip--quiz & dragons (japan 940921)--qad
--qad.zip--quiz & dragons (us 920701)--parent
--inufuku.zip--quiz & variety sukusuku inufuku (japan)--parent
+-qad.zip--quiz &amp; dragons (us 920701)--parent
+-qadj.zip--quiz &amp; dragons (japan 940921)--qad
+-inufuku.zip--quiz &amp; variety sukusuku inufuku (japan)--parent
 -qmhayaku.zip--quiz-mahjong hayaku yatteyo! (japan)--parent
--quiz365t.zip--quiz 365 (hong kong & taiwan)--quiz365
+-quiz365t.zip--quiz 365 (hong kong &amp; taiwan)--quiz365
 -quiz365.zip--quiz 365 (japan)--parent
 -quizmoon.zip--quiz bisyoujo senshi sailor moon - chiryoku tairyoku toki no un--parent
 -quizchq.zip--quiz channel question (ver 1.00) (japan)--parent
@@ -3309,7 +3370,7 @@
 -quizkof.zip--quiz king of fighters--parent
 -qzkklogy.zip--quiz kokology--parent
 -qzkklgy2.zip--quiz kokology 2--parent
--quizdai2.zip--quiz meitantei neo & geo - quiz daisousa sen part 2--parent
+-quizdai2.zip--quiz meitantei neo &amp; geo - quiz daisousa sen part 2--parent
 -quizmeku.zip--quiz mekurumeku story--parent
 -qndream.zip--quiz nanairo dreams: nijiirochou no kiseki (japan 960826)--parent
 -quizpani.zip--quiz panicuru fantasy--parent
@@ -3322,7 +3383,7 @@
 -qtono1.zip--quiz tonosama no yabou (japan)--parent
 -qtono2.zip--quiz tonosama no yabou 2 zenkoku-ban (japan 950123)--parent
 -qtorimon.zip--quiz torimonochou (japan)--parent
--quiztvqq.zip--quiz tv gassyuukoku q&q (japan)--parent
+-quiztvqq.zip--quiz tv gassyuukoku q&amp;q (japan)--parent
 -qwak.zip--qwak (prototype)--parent
 -rshark.zip--r-shark--parent
 -rtype.zip--r-type (japan)--parent
@@ -3357,7 +3418,7 @@
 -racedrvc.zip--race drivin' (compact, rev 5)--racedriv
 -racinfrc.zip--racin' force (ver uab)--parent
 -racingb.zip--racing beat (world)--parent
--rachero.zip--racing hero (fd1094 317-0144)--parent
+-rachero.zip--racing hero--parent
 -rackemup.zip--rack 'em up--thehustl
 -rdaction.zip--rad action--ninjakd2
 -radarscp.zip--radar scope--parent
@@ -3373,7 +3434,6 @@
 -rampage2.zip--rampage (revision 2)--rampage
 -rampage.zip--rampage (revision 3)--parent
 -rotd.zip--rage of the dragons--parent
--rotdnd.zip--rage of the dragons (decrypted c)--rotd
 -rmpgwt.zip--rampage: world tour (rev 1.3)--parent
 -rmpgwt11.zip--rampage: world tour (rev 1.1)--rmpgwt
 -ragnagrd.zip--ragnagard / shin-oh-ken--parent
@@ -3390,19 +3450,19 @@
 -raidndx.zip--raiden dx (set 1)--parent
 -raidndxa.zip--raiden dx (set 2)--raidndx
 -raidndxb.zip--raiden dx (set 3, newer v33 pcb)--raidndx
--rdft.zip--raiden fighters--parent
 -rdftau.zip--raiden fighters (australia)--rdft
+-rdft.zip--raiden fighters (japan set 1)--parent
 -rdftj.zip--raiden fighters (japan set 2)--rdft
 -rdfts.zip--raiden fighters (taiwan, single board)--rdft
 -rdft2.zip--raiden fighters 2--parent
 -rdft2a.zip--raiden fighters 2 (asia, metrotainment license, spi)--rdft2
 -rdft2a2.zip--raiden fighters 2 (asia, dream island license, spi)--rdft2
 -rdft2j.zip--raiden fighters 2 (japan, spi)--rdft2
--rdft2us.zip--raiden fighters 2 (single board)--rdft2
 -rdft22kc.zip--raiden fighters 2 - 2000 (china)--rdft2
+-rdft2us.zip--raiden fighters 2.1 (us, single board)--rdft2
 -rfjet.zip--raiden fighters jet--parent
 -rfjet2kc.zip--raiden fighters jet - 2000 (china)--rfjet
--rfjeta.zip--raiden fighters jet (asian)--rfjet
+-rfjeta.zip--raiden fighters jet (asia)--rfjet
 -rfjetj.zip--raiden fighters jet (japan)--rfjet
 -rfjetu.zip--raiden fighters jet (us)--rfjet
 -rfjetus.zip--raiden fighters jet (us, single board)--rfjet
@@ -3467,6 +3527,7 @@
 -relief.zip--relief pitcher (set 1)--parent
 -relief2.zip--relief pitcher (set 2)--relief
 -renegade.zip--renegade (us)--parent
+-renegadeb.zip--renegade (us bootleg)--renegade
 -renju.zip--renju kizoku--parent
 -repulse.zip--repulse--sonofphx
 -rescue.zip--rescue--parent
@@ -3575,10 +3636,11 @@
 -romperso.zip--rompers (japan old version)--rompers
 -rongrong.zip--rong rong (germany)--parent
 -rotaryf.zip--rotary fighter--parent
--roughrac.zip--rough racer (japan, fd1094 317-0058-06b)--parent
+-roughrac.zip--rough racer (japan)--parent
 -rranger.zip--rough ranger (v2.0)--parent
 -rougien.zip--rougien--parent
 -roundup.zip--round-up--parent
+-roundup5.zip--round up 5 - super delta force--parent
 -route16.zip--route 16--parent
 -route16b.zip--route 16 (bootleg)--route16
 -route16a.zip--route 16 (set 2)--route16
@@ -3594,7 +3656,7 @@
 -runark.zip--runark (japan)--growl
 -runaway.zip--runaway (prototype)--parent
 -rundeep.zip--run deep--thedeep
--rushcrsh.zip--rush & crash (japan)--srumbler
+-rushcrsh.zip--rush &amp; crash (japan)--srumbler
 -rushatck.zip--rush'n attack (us)--gberet
 -rushhero.zip--rushing heroes (ver uab)--parent
 -rygar.zip--rygar (us set 1)--parent
@@ -3641,8 +3703,8 @@
 -samsho3a.zip--samurai shodown iii / samurai spirits - zankurou musouken (set 2)--samsho3
 -samsho4.zip--samurai shodown iv - amakusa's revenge / samurai spirits - amakusa kourin--parent
 -samsho.zip--samurai shodown / samurai spirits--parent
--samsh5nd.zip--samurai shodown v--samsho5
 -samsho5.zip--samurai shodown v--parent
+-samsh5pf.zip--samurai shodown v perfect--samsh5sp
 -samsh5sp.zip--samurai shodown v special--parent
 -sandor.zip--sando-r--parent
 -sandscrp.zip--sand scorpion--parent
@@ -3677,7 +3739,7 @@
 -scrambls.zip--scramble (stern)--scramble
 -scregg.zip--scrambled egg--parent
 -sspirits.zip--scramble spirits--parent
--sspiritj.zip--scramble spirits (japan, floppy ds3-5000-02-rev-a)--sspirits
+-sspiritj.zip--scramble spirits (japan)--sspirits
 -screwloo.zip--screw loose (prototype)--parent
 -scudhamm.zip--scud hammer--parent
 -sdfight.zip--sd fighters (korea)--parent
@@ -3713,7 +3775,6 @@
 -sengekij.zip--sengeki striker (japan)--sengekis
 -sengoku2.zip--sengoku 2 / sengoku denshou 2--parent
 -sengoku3.zip--sengoku 3--parent
--sngoku3n.zip--sengoku 3 (decrypted c)--sengoku3
 -sngkace.zip--sengoku ace (japan)--samuraia
 -sengokmj.zip--sengoku mahjong (japan)--parent
 -sengokh.zip--sengoku / sengoku denshou (set 2)--sengoku
@@ -3755,7 +3816,6 @@
 -shinobi.zip--shinobi (set 1)--parent
 -shinobia.zip--shinobi (set 2)--shinobi
 -shinobib.zip--shinobi (set 3)--shinobi
--mp_shnb3.zip--shinobi iii (mega play)--parent
 -shippumd.zip--shippu mahou daisakusen (japan)--parent
 -shisen.zip--shisensho - joshiryo-hen (japan)--sichuan2
 -shisen2.zip--shisensho ii--parent
@@ -3802,11 +3862,11 @@
 -sinista1.zip--sinistar (prototype version)--sinistar
 -sinista2.zip--sinistar (revision 2)--sinistar
 -sinistar.zip--sinistar (revision 3)--parent
--skullxb1.zip--skull & crossbones (rev 1)--skullxbo
--skullxb2.zip--skull & crossbones (rev 2)--skullxbo
--skullxb3.zip--skull & crossbones (rev 3)--skullxbo
--skullxb4.zip--skull & crossbones (rev 4)--skullxbo
--skullxbo.zip--skull & crossbones (rev 5)--parent
+-skullxb1.zip--skull &amp; crossbones (rev 1)--skullxbo
+-skullxb2.zip--skull &amp; crossbones (rev 2)--skullxbo
+-skullxb3.zip--skull &amp; crossbones (rev 3)--skullxbo
+-skullxb4.zip--skull &amp; crossbones (rev 4)--skullxbo
+-skullxbo.zip--skull &amp; crossbones (rev 5)--parent
 -skullfngj.zip--skull fang (japan)--skullfng
 -skullfng.zip--skull fang (world)--parent
 -skyadvnj.zip--sky adventure (japan)--skyadvnt
@@ -3838,11 +3898,12 @@
 -slapfigh.zip--slap fight--parent
 -slapbtuk.zip--slap fight (english bootleg)--slapfigh
 -slapbtjp.zip--slap fight (japan bootleg)--slapfigh
+-slapshtr.zip--slap shooter--parent
 -slapshot.zip--slap shot (japan)--parent
 -sliksh17.zip--slick shot (v1.7)--slikshot
 -slikshot.zip--slick shot (v2.2)--parent
 -slipstrm.zip--slipstream--parent
--slipstrh.zip--slipstream (950515 hispanic)--slipstrm
+-slipstrh.zip--slipstream (hispanic)--slipstrm
 -slither.zip--slither (set 1)--parent
 -slithera.zip--slither (set 2)--slither
 -slyspy.zip--sly spy (us revision 3)--parent
@@ -3854,18 +3915,16 @@
 -snakjack.zip--snacks'n jaxson--parent
 -snakepit.zip--snake pit--parent
 -snapjack.zip--snap jack--parent
--svcboot.zip--snk vs capcom  - svc chaos (bootleg)--parent
--svcchaos.zip--snk vs capcom : svc chaos--parent
--svchaosa.zip--snk vs capcom : svc chaos (mvs)--svcchaos
--svcnd.zip--snk vs capcom : svc chaos (decrypted c)--svcchaos
+-snapper.zip--snapper (korea)--parent
 -snowbalt.zip--snow board championship (set 2)--snowboar
 -snowboar.zip--snow board championship (set 1)--parent
--snowbroa.zip--snow bros. - nick & tom (set 2)--snowbros
--snowbrob.zip--snow bros. - nick & tom (set 3)--snowbros
--snowbroc.zip--snow bros. - nick & tom (set 4)--snowbros
--snowbroj.zip--snow bros. - nick & tom (japan)--snowbros
--snowbros.zip--snow bros. - nick & tom (set 1)--parent
+-snowbroa.zip--snow bros. - nick &amp; tom (set 2)--snowbros
+-snowbrob.zip--snow bros. - nick &amp; tom (set 3)--snowbros
+-snowbroc.zip--snow bros. - nick &amp; tom (set 4)--snowbros
+-snowbroj.zip--snow bros. - nick &amp; tom (japan)--snowbros
+-snowbros.zip--snow bros. - nick &amp; tom (set 1)--parent
 -snowbro2.zip--snow bros. 2 - with new elves / otenki paradise--parent
+-snowbro3.zip--snow brothers 3 - magical adventure--snowbros
 -socbrawl.zip--soccer brawl--parent
 -soccersa.zip--soccer superstars (ver aaa)--soccerss
 -soccerss.zip--soccer superstars (ver jaa)--parent
@@ -3881,9 +3940,7 @@
 -solomon.zip--solomon's key (japan)--parent
 -solvalou.zip--solvalou (japan)--parent
 -sbm.zip--sonic blast man (japan)--parent
--sonicbom.zip--sonic boom (fd1094 317-0053)--parent
--mp_sonic.zip--sonic the hedgehog (mega play)--parent
--mp_soni2.zip--sonic the hedgehog 2 (mega play)--parent
+-sonicbom.zip--sonic boom--parent
 -sonicwi.zip--sonic wings (japan)--aerofgt
 -sncwgltd.zip--sonic wings limited (japan)--parent
 -sonofphx.zip--son of phoenix--parent
@@ -3928,7 +3985,7 @@
 -spacefb.zip--space firebird (nintendo)--parent
 -spcforce.zip--space force--parent
 -spcforc2.zip--space force (set 2)--spcforce
--spacefrt.zip--space fortress--parent
+-spacefrt.zip--space fortress (cvs)--parent
 -spacfura.zip--space fury (revision a)--spacfury
 -spacfury.zip--space fury (revision c)--parent
 -spacegun.zip--space gun (world)--parent
@@ -3970,6 +4027,7 @@
 -spaceph.zip--space phantoms--ozmawars
 -spaceplt.zip--space pilot--timeplt
 -spcpostn.zip--space position (japan)--parent
+-sraider.zip--space raider--parent
 -spaceskr.zip--space seeker--parent
 -sstrangr.zip--space stranger--parent
 -sstrngr2.zip--space stranger 2--parent
@@ -3986,7 +4044,7 @@
 -sparkz.zip--sparkz (prototype)--parent
 -spartanx.zip--spartan x (japan)--kungfum
 -spatter.zip--spatter--parent
--speakres.zip--speak & rescue--parent
+-speakres.zip--speak &amp; rescue--parent
 -sci.zip--special criminal investigation (world set 1)--parent
 -scia.zip--special criminal investigation (world set 2)--sci
 -sciu.zip--special criminal investigation (us)--sci
@@ -4031,7 +4089,7 @@
 -sprint4.zip--sprint 4 (set 1)--parent
 -sprint4a.zip--sprint 4 (set 2)--sprint4
 -sprint8.zip--sprint 8--parent
--sprint8a.zip--sprint 8 (play tag & chase)--sprint8
+-sprint8a.zip--sprint 8 (play tag &amp; chase)--sprint8
 -spyhunt.zip--spy hunter--parent
 -spyhnt2a.zip--spy hunter 2 (rev 1)--spyhunt2
 -spyhunt2.zip--spy hunter 2 (rev 2)--parent
@@ -4078,6 +4136,7 @@
 -steeltap.zip--steel talons (prototype)--steeltal
 -steelta1.zip--steel talons (rev 1)--steeltal
 -steeltal.zip--steel talons (rev 2)--parent
+-steelwkr.zip--steel worker--parent
 -sss.zip--steep slope sliders--parent
 -stellcas.zip--stellar castle (elettronolo)--starcas
 -stinger.zip--stinger--parent
@@ -4121,6 +4180,7 @@
 -sfex2pj.zip--street fighter ex 2 plus (japan 990611)--sfex2p
 -sfexp.zip--street fighter ex plus (usa 970311)--parent
 -sfexpj.zip--street fighter ex plus (japan 970311)--sfexp
+-sf2v004.zip--street fighter ii! - champion edition (v004)--sf2ce
 -sf2accp2.zip--street fighter ii' - champion edition (accelerator pt.ii)--sf2ce
 -sf2ce.zip--street fighter ii' - champion edition (world 920313)--parent
 -sf2cej.zip--street fighter ii' - champion edition (japan 920513)--sf2ce
@@ -4153,7 +4213,6 @@
 -sf2uf.zip--street fighter ii - the world warrior (us 910411)--sf2
 -sf2ui.zip--street fighter ii - the world warrior (us 910522)--sf2
 -sf2uk.zip--street fighter ii - the world warrior (us 911101)--sf2
--sf2v004.zip--street fighter ii - champion edition (v004)--sf2ce
 -sfiii.zip--street fighter iii - new generation--parent
 -sfiii2.zip--street fighter iii 2nd impact - giant attack--parent
 -sfiii3.zip--street fighter iii 3rd strike -  fight for the future--parent
@@ -4186,8 +4245,7 @@
 -streets1.zip--street smart (us version 1)--streetsm
 -streetsm.zip--street smart (us version 2)--parent
 -streetsw.zip--street smart (world version 1)--streetsm
--mp_sor2.zip--streets of rage ii (mega play)--parent
--strnskil.zip--strength & skill--parent
+-strnskil.zip--strength &amp; skill--parent
 -strider.zip--strider (us set 1)--parent
 -stridrua.zip--strider (us set 2)--strider
 -strider2.zip--strider 2 (asia 991213)--parent
@@ -4209,6 +4267,7 @@
 -subhunt.zip--sub hunter--depthch
 -subroc3d.zip--subroc-3d--parent
 -subs.zip--subs--parent
+-scessjoe.zip--success joe (world)--parent
 -suikoenb.zip--suikoenbu--parent
 -sundance.zip--sundance--parent
 -ssrdrabd.zip--sunset riders (asia 2 players ver. abd)--ssriders
@@ -4235,6 +4294,7 @@
 -sboblbob.zip--super bobble bobble--bublbobl
 -superbon.zip--super bond--parent
 -sbrkout.zip--super breakout--parent
+-sbubsm.zip--super bubble bobble (sun mixing, megadrive clone hardware)--parent
 -superbug.zip--super bug--parent
 -supbtimj.zip--super burger time (japan)--supbtime
 -supbtime.zip--super burger time (world)--parent
@@ -4267,8 +4327,9 @@
 -sgemfh.zip--super gem fighter: mini mix (hispanic 970904)--sgemf
 -sgemf.zip--super gem fighter mini mix (us 970904)--parent
 -suprglob.zip--super glob--parent
+-shangon.zip--super hang-on--parent
 -shangona.zip--super hang-on (alt)--shangon
--shangon.zip--super hang-on (set 1, fd1089b 317-0034)--parent
+-shangonb.zip--super hang-on (bootleg)--shangon
 -shangnle.zip--super hang-on limited edition--shangon
 -shimpacp.zip--super high impact (prototype, rev 5.0 09/15/91)--shimpact
 -shimpact.zip--super high impact (rev la1 09/30/91)--parent
@@ -4282,9 +4343,9 @@
 -sleague.zip--super major league (us)--parent
 -superman.zip--superman--parent
 -marukin.zip--super marukin-ban--parent
--sgmast.zip--super masters golf (world?, floppy based, fd1094 317-0058-05d?)--parent
+-sgmast.zip--super masters golf (world?, floppy based)--parent
 -suprmatk.zip--super missile attack--missile
--smgp.zip--super monaco gp (set 7, world, rev b, 'twin', fd1094 317-0126a)--parent
+-smgp.zip--super monaco gp (set 7, world, rev b, 'twin')--parent
 -smooncrs.zip--super moon cresta--mooncrst
 -suprmous.zip--super mouse--funnymou
 -smbomb.zip--super muscle bomber: the international blowout (japan 940831)--ringdest
@@ -4301,8 +4362,8 @@
 -spnchout.zip--super punch-out!!--parent
 -spnchotj.zip--super punch-out!! (japan)--spnchout
 -spf2t.zip--super puzzle fighter ii turbo (us 960620)--parent
--spf2ta.zip--super puzzle fighter 2 turbo (asia 960529)--spf2t
--spf2xj.zip--super puzzle fighter 2 x (japan 960531)--spf2t
+-spf2ta.zip--super puzzle fighter ii turbo (asia 960529)--spf2t
+-spf2xj.zip--super puzzle fighter ii x (japan 960531)--spf2t
 -sqixbl.zip--super qix (bootleg)--sqix
 -sqix.zip--super qix (set 1)--parent
 -srangerb.zip--super ranger (bootleg)--rranger
@@ -4322,8 +4383,8 @@
 -ssideki2.zip--super sidekicks 2 - the world championship / tokuten ou 2 - real fight football--parent
 -ssideki3.zip--super sidekicks 3 - the next glory / tokuten ou 3 - eikoue no michi--parent
 -ssideki.zip--super sidekicks / tokuten ou--parent
--sslam.zip--super slam--parent
--sslama.zip--super slam (alt)--sslam
+-sslam.zip--super slam (set 1)--parent
+-sslama.zip--super slam (set 2)--sslam
 -suprslam.zip--super slams--parent
 -macross.zip--super spacefortress macross / chou-jikuu yousai macross--parent
 -macross2.zip--super spacefortress macross ii / chou-jikuu yousai macross ii--parent
@@ -4339,18 +4400,18 @@
 -ssprints.zip--super sprint (spanish)--ssprint
 -sstingry.zip--super stingray--parent
 -ssf2.zip--super street fighter ii: the new challengers (world 930911)--parent
--ssf2a.zip--super street fighter 2: the new challengers (asia 931005)--ssf2
--ssf2ar1.zip--super street fighter 2: the new challengers (asia 930914)--ssf2
--ssf2j.zip--super street fighter 2: the new challengers (japan 931005)--ssf2
--ssf2jr1.zip--super street fighter 2: the new challengers (japan 930911)--ssf2
--ssf2jr2.zip--super street fighter 2: the new challengers (japan 930910)--ssf2
+-ssf2a.zip--super street fighter ii: the new challengers (asia 931005)--ssf2
+-ssf2ar1.zip--super street fighter ii: the new challengers (asia 930914)--ssf2
+-ssf2j.zip--super street fighter ii: the new challengers (japan 931005)--ssf2
+-ssf2jr1.zip--super street fighter ii: the new challengers (japan 930911)--ssf2
+-ssf2jr2.zip--super street fighter ii: the new challengers (japan 930910)--ssf2
 -ssf2t.zip--super street fighter ii turbo (world 940223)--ssf2
 -ssf2ta.zip--super street fighter ii turbo (asia 940223)--ssf2
--ssf2tb.zip--super street fighter 2: the tournament battle (world 931119)--ssf2
--ssf2tbj.zip--super street fighter 2: the tournament battle (japan 930910)--ssf2
+-ssf2tb.zip--super street fighter ii: the tournament battle (world 931119)--ssf2
+-ssf2tbj.zip--super street fighter ii: the tournament battle (japan 930910)--ssf2
 -ssf2tu.zip--super street fighter ii turbo (us 940323)--ssf2
 -ssf2tur1.zip--super street fighter ii turbo (us 940223)--ssf2
--ssf2u.zip--super street fighter 2: the new challengers (us 930911)--ssf2
+-ssf2u.zip--super street fighter ii: the new challengers (us 930911)--ssf2
 -ssf2xj.zip--super street fighter ii x: grand master challenge (japan 940223)--ssf2
 -sstrike.zip--super strike bowling--parent
 -supertnk.zip--super tank--parent
@@ -4386,16 +4447,18 @@
 -survival.zip--survival--parent
 -survarts.zip--survival arts (usa)--parent
 -gogomilj.zip--susume! mile smile (japan)--gogomile
--susume.zip--susume taisen puzzle-dama (gv027 japan 1.20)--parent
+-susume.zip--susume! taisen puzzle-dama (gv027 japan 1.20)--parent
 -suzuk8hj.zip--suzuka 8 hours (japan)--suzuka8h
 -suzuka8h.zip--suzuka 8 hours (world?)--parent
 -suzuk8h2.zip--suzuka 8 hours 2 (japan)--parent
--svcplus.zip--svc chaos - snk vs capcom plus (set 1, bootleg)--svcboot
--svcplusa.zip--svc chaos - snk vs capcom plus (set 2, bootleg)--svcboot
--svcsplus.zip--svc chaos - snk vs capcom super plus (bootleg)--svcboot
+-svc.zip--svc chaos - snk vs capcom (mvs)--parent
+-svcboot.zip--svc chaos - snk vs capcom (bootleg)--svc
+-svcplus.zip--svc chaos - snk vs capcom plus (bootleg set 1)--svc
+-svcplusa.zip--svc chaos - snk vs capcom plus (bootleg set 2)--svc
+-svcsplus.zip--svc chaos - snk vs capcom super plus (bootleg)--svc
 -swarm.zip--swarm--galaxian
 -swat.zip--swat--parent
--swatpolc.zip--swat police --parent
+-swatpolc.zip--swat police--parent
 -swimmer.zip--swimmer (set 1)--parent
 -swimmera.zip--swimmer (set 2)--swimmer
 -swimmerb.zip--swimmer (set 3)--swimmer
@@ -4405,6 +4468,7 @@
 -syvalion.zip--syvalion (japan)--parent
 -tmek.zip--t-mek--parent
 -tmekprot.zip--t-mek (prototype)--tmek
+-tnk3b.zip--t.a.n.k. (bootleg, 8-way joystick)--tnk3
 -tnk3j.zip--t.a.n.k. (japan)--tnk3
 -tnk3.zip--t.n.k. iii (us)--parent
 -tacscan.zip--tac/scan--parent
@@ -4430,14 +4494,14 @@
 -tcl.zip--taiwan chess legend--parent
 -tshingen.zip--takeda shingen (japan, japanese)--parent
 -talbot.zip--talbot--parent
--tangtang.zip--tang tang (ver. 0526, 26/05/2000)--parent
+-tangtang.zip--tang tang (ver. 0526, 26-05-2000)--parent
 -tankbatt.zip--tank battalion--parent
 -tankbust.zip--tank busters--parent
 -tankfrcj.zip--tank force (japan)--tankfrce
 -tankfrce.zip--tank force (us)--parent
--tantr.zip--tant-r (puzzle & action) (japan)--parent
--tantrbl.zip--tant-r (puzzle & action) (japan) (bootleg set 1)--tantr
--tantrbl2.zip--tant-r (puzzle & action) (japan) (bootleg set 2)--tantr
+-tantr.zip--tant-r (puzzle &amp; action) (japan)--parent
+-tantrbl.zip--tant-r (puzzle &amp; action) (japan) (bootleg set 1)--tantr
+-tantrbl2.zip--tant-r (puzzle &amp; action) (japan) (bootleg set 2)--tantr
 -taotaido.zip--tao taido (set 1)--parent
 -taotaida.zip--tao taido (set 2)--taotaido
 -tappera.zip--tapper (alternate)--tapper
@@ -4451,7 +4515,7 @@
 -targeth.zip--target hits--parent
 -tharrier.zip--task force harrier--parent
 -tharierj.zip--task force harrier (japan)--tharrier
--joemac.zip--tatakae genshizin joe & mac (japan)--cninja
+-joemac.zip--tatakae genshizin joe &amp; mac (japan)--cninja
 -trojanj.zip--tatakai no banka (japan)--trojan
 -tattassa.zip--tattoo assassins (asia prototype)--tattass
 -tattass.zip--tattoo assassins (us prototype)--parent
@@ -4500,7 +4564,7 @@
 -tempest.zip--tempest (rev 3)--parent
 -temptube.zip--tempest tubes--tempest
 -dwj.zip--tenchi wo kurau (japan)--dw
--wofch.zip--tenchi wo kurau ii: sekiheki no tatakai (cps changer, japan 921031)--parent
+-wofch.zip--tenchi wo kurau ii: sekiheki no tatakai--parent
 -wofj.zip--tenchi wo kurau ii - sekiheki no tatakai (japan 921031)--wof
 -tengai.zip--tengai / sengoku blade: sengoku ace episode ii--parent
 -term2.zip--terminator 2 - judgment day (rev la3 03/27/92)--parent
@@ -4516,6 +4580,7 @@
 -atetckt2.zip--tetris (cocktail set 2)--atetris
 -atetcktl.zip--tetris (cocktail set 1)--atetris
 -tetrist.zip--tetris (japan, b-system)--tetris
+-tetrisse.zip--tetris (japan, system e)--parent
 -tetrisbl.zip--tetris (sega bootleg)--tetris
 -tetris.zip--tetris (sega set 1)--parent
 -tetrisa.zip--tetris (sega set 2)--tetris
@@ -4532,8 +4597,8 @@
 -mrflea.zip--the amazing adventures of mr. f. lea--parent
 -astyanax.zip--the astyanax--parent
 -battroad.zip--the battle-road--parent
--berlwallt.zip--the berlin wall--berlwall
 -berlwall.zip--the berlin wall (set 1)--parent
+-berlwallt.zip--the berlin wall (set 2)--berlwall
 -bigprowr.zip--the big pro wrestling!--parent
 -billiard.zip--the billiards--hustler
 -bounty.zip--the bounty--parent
@@ -4579,19 +4644,25 @@
 -kodb.zip--the king of dragons (bootleg)--kod
 -kodj.zip--the king of dragons (japan 910805)--kod
 -kodu.zip--the king of dragons (us 910910)--kod
--kf2k2pls.zip--the king of fighters 2002 plus (set 2)--kof2002
--kf2k4spe.zip--the king of fighters 2004 - special edition--kof2002
--kfs2k4pl.zip--the king of fighters 2004 - special edition plus (hack)--kof2002
--kof10th.zip--the king of fighters 10th anniversary (the king of fighters 2002 bootleg)--kof2002
+-kf10thep.zip--the king of fighters 10th anniversary extra plus (the king of fighters 2002 bootleg)--kof2002
+-kf2k2mp.zip--the king of fighters 2002 magic plus (bootleg)--kof2002
+-kf2k2mp2.zip--the king of fighters 2002 magic plus ii (bootleg)--kof2002
+-kf2k2pla.zip--the king of fighters 2002 plus (set 2, bootleg)--kof2002
+-kf2k2pls.zip--the king of fighters 2002 plus (set 1, bootleg)--kof2002
+-kf2k3bl.zip--the king of fighters 2003 (bootleg set 1)--kof2003
+-kf2k3bla.zip--the king of fighters 2003 (bootleg set 2)--kof2003
+-kf2k3pl.zip--the king of fighters 2004 plus / hero (the king of fighters 2003 bootleg)--kof2003
+-kf2k3upl.zip--the king of fighters 2004 ultra plus (the king of fighters 2003 bootleg)--kof2003
+-kf2k5uni.zip--the king of fighters 10th anniversary 2005 unique (the king of fighters 2002 bootleg)--kof2002
+-kof10th.zip--the king of fighters 10th anniversary--kof2002
 -kof2000.zip--the king of fighters 2000--parent
 -kof2000n.zip--the king of fighters 2000 (not encrypted)--kof2000
--kof2001.zip--the king of fighters 2001 (set 1)--parent
+-kof2001.zip--the king of fighters 2001--parent
+-kof2001h.zip--the king of fighters 2001 (set 2)--kof2001
 -kof2002.zip--the king of fighters 2002--parent
--kof2003b.zip--the king of fighters 2003--kof2003d
--kof2003d.zip--the king of fighters 2003 (decrypted)--parent
--kof2k1nd.zip--the king of fighters 2001 (decrypted c)--kof2001
--kof2k2nd.zip--the king of fighters 2002 (decrypted c)--kof2002
--kof2k4ex.zip--the king of fighters 2004--kof2003d
+-kof2003.zip--the king of fighters 2003 (world / us, mvs)--parent
+-kof2003d.zip--the king of fighters 2003 (decrypted)--kof2003
+-kof2k4se.zip--the king of fighters special edition 2004 (the king of fighters 2002 bootleg)--kof2002
 -kof94.zip--the king of fighters '94--parent
 -kof95.zip--the king of fighters '95 (set 1)--parent
 -kof95a.zip--the king of fighters '95 (set 2)--kof95
@@ -4599,9 +4670,7 @@
 -kof96h.zip--the king of fighters '96 (set 2)--kof96
 -kof97.zip--the king of fighters '97 (set 1)--parent
 -kof97a.zip--the king of fighters '97 (set 2)--kof97
--kof97pl2.zip--the king of fighters '97 plus (set 2)--kof97
--kof97pl3.zip--the king of fighters '97 plus (set 3)--kof97
--kof97pls.zip--the king of fighters '97 plus (bootleg)--kof97
+-kof97pls.zip--the king of fighters '97 plus (set 1)--kof97
 -kof98.zip--the king of fighters '98 - the slugfest / king of fighters '98 - dream match never ends--parent
 -kof98k.zip--the king of fighters '98 - the slugfest / king of fighters '98 - dream match never ends (korean board)--kof98
 -kof98n.zip--the king of fighters '98 - the slugfest / king of fighters '98 - dream match never ends (not encrypted)--kof98
@@ -4660,8 +4729,8 @@
 -3wonderu.zip--three wonders (us 910520)--3wonders
 -3wonders.zip--three wonders (world 910520)--parent
 -thoop2.zip--th strikes back--parent
--thunderl.zip--thunder & lightning--parent
--thndrbld.zip--thunder blade (fd1094 317-0056)--parent
+-thunderl.zip--thunder &amp; lightning--parent
+-thndrbld.zip--thunder blade--parent
 -thndrbdj.zip--thunder blade (japan)--thndrbld
 -thndblst.zip--thunder blaster (japan)--lethalth
 -tndrcade.zip--thundercade / twin formation--parent
@@ -4722,7 +4791,7 @@
 -tmmjprd.zip--tokimeki mahjong paradise - dear my love--parent
 -tkmmpzdm.zip--tokimeki memorial taisen puzzle-dama (ver jab)--parent
 -tokisens.zip--toki no senshi - chrono soldier--parent
--tokio.zip--tokio / scramble formation--parent
+-tokio.zip--tokio / scramble formation (us)--parent
 -tokiob.zip--tokio / scramble formation (bootleg)--tokio
 -mahmajn.zip--tokoro san no mahmahjan--parent
 -mahmajn2.zip--tokoro san no mahmahjan 2--parent
@@ -4742,8 +4811,8 @@
 -topbladv.zip--top blade v--parent
 -topgunbl.zip--top gunner (bootleg)--jackal
 -topgunr.zip--top gunner (us)--jackal
--tophunta.zip--top hunter - roddy & cathy (set 2)--tophuntr
--tophuntr.zip--top hunter - roddy & cathy (set 1)--parent
+-tophunta.zip--top hunter - roddy &amp; cathy (set 2)--tophuntr
+-tophuntr.zip--top hunter - roddy &amp; cathy (set 1)--parent
 -topland.zip--top landing (world)--parent
 -tpgolf.zip--top player's golf--parent
 -topracer.zip--top racer--polepos
@@ -4764,15 +4833,16 @@
 -toryumon.zip--toryumon--parent
 -totcarnp.zip--total carnage (prototype, rev 1.0 01/25/92)--totcarn
 -totcarn.zip--total carnage (rev la1 03/10/92)--parent
--touchgok.zip--touch & go (korea, unprotected)--touchgo
--touchgo.zip--touch and go--parent
+-touchgo.zip--touch &amp; go--parent
+-touchgok.zip--touch &amp; go (korea, unprotected)--touchgo
 -tdfever.zip--touchdown fever--parent
 -tdfeverj.zip--touchdown fever (japan)--tdfever
 -tdfever2.zip--touchdown fever 2--tdfever
 -tturfbl.zip--tough turf (bootleg)--parent
 -tturf.zip--tough turf (japan)--parent
 -tturfu.zip--tough turf (us)--tturf
--tkdensho.zip--touki denshou -angel eyes---parent
+-tkdensha.zip--toukidenshou - angel eyes (ver. 960427)--tkdensho
+-tkdensho.zip--toukidenshou - angel eyes (ver. 960614)--parent
 -arkatour.zip--tournament arkanoid (us)--arkanoid
 -cyberbt.zip--tournament cyberball 2072 (rev 2)--cyberbal
 -cyberbt1.zip--tournament cyberball 2072 (rev 1)--cyberbal
@@ -4781,8 +4851,9 @@
 -todruaga.zip--tower of druaga (new ver.)--parent
 -todruago.zip--tower of druaga (old ver.)--todruaga
 -toypop.zip--toypop--parent
--trackfld.zip--track & field--parent
--trackflc.zip--track & field (centuri)--trackfld
+-tr606drumkit.zip--tr606drumkit samples--parent
+-trackfld.zip--track &amp; field--parent
+-trackflc.zip--track &amp; field (centuri)--trackfld
 -tranqgun.zip--tranquilizer gun--parent
 -transfrm.zip--transformer--parent
 -travrusa.zip--traverse usa / zippy race--parent
@@ -4827,7 +4898,7 @@
 -trojan.zip--trojan (us)--parent
 -tron.zip--tron (set 1)--parent
 -tron2.zip--tron (set 2)--tron
--trophyh.zip--trophy hunting - bear & moose v1.0--parent
+-trophyh.zip--trophy hunting - bear &amp; moose v1.0--parent
 -troangel.zip--tropical angel--parent
 -truco.zip--truco-tron--parent
 -truxton2.zip--truxton ii / tatsujin ii / tatsujin oh (japan)--parent
@@ -4845,8 +4916,8 @@
 -turboa.zip--turbo (encrypted set 1)--turbo
 -turbob.zip--turbo (encrypted set 2)--turbo
 -turbofrc.zip--turbo force--parent
--toutruna.zip--turbo out run (set 2, upright--toutrun
--toutrun.zip--turbo out run (set 3, upgrade kit, fd1094 317-0118)--parent
+-toutrun.zip--turbo out run (set 1)--parent
+-toutrun3.zip--turbo out run (set 3)--toutrun
 -turbotag.zip--turbo tag (prototype)--parent
 -turkhunt.zip--turkey hunting usa v1.0--parent
 -tshoot.zip--turkey shoot--parent
@@ -4860,8 +4931,8 @@
 -tbyahhoo.zip--twin bee yahhoo! (ver jaa)--parent
 -twincobu.zip--twin cobra (us)--twincobr
 -twincobr.zip--twin cobra (world)--parent
--tcobra2.zip--twin cobra 2--parent
--tcobra2u.zip--twin cobra 2--tcobra2
+-tcobra2u.zip--twin cobra 2 (us)--tcobra2
+-tcobra2.zip--twin cobra 2 (world)--parent
 -twineagl.zip--twin eagle - revenge joe's brother--parent
 -twineag2.zip--twin eagle ii - the rescue mission--parent
 -twinhwku.zip--twin hawk (us)--twinhawk
@@ -4909,7 +4980,7 @@
 -mustangs.zip--us aaf mustang (seoul trading)--mustang
 -usvsthem.zip--us vs. them--parent
 -vfive.zip--v-five (japan)--parent
--vamphalf.zip--vamp 1/2--parent
+-vamphalf.zip--vamp 1/2 (korea)--parent
 -valkyrie.zip--valkyrie no densetsu (japan)--parent
 -valtric.zip--valtric--parent
 -vanvan.zip--van-van car--parent
@@ -4961,9 +5032,9 @@
 -vigilntj.zip--vigilante (japan)--vigilant
 -vigilntu.zip--vigilante (us)--vigilant
 -vigilant.zip--vigilante (world)--parent
--vimanan.zip--vimana (nova apparate gmbh & co)--vimana
 -vimana1.zip--vimana (old set)--vimana
 -vimana.zip--vimana (world, set 1)--parent
+-vimanan.zip--vimana (world, set 2)--vimana
 -vindice3.zip--vindicators (europe, rev 3)--vindictr
 -vindice4.zip--vindicators (europe, rev 4)--vindictr
 -vindicte.zip--vindicators (europe, rev 5)--vindictr
@@ -5014,6 +5085,8 @@
 -volfiedu.zip--volfied (us)--volfied
 -volfied.zip--volfied (world)--parent
 -gowcaizr.zip--voltage fighter - gowcaizer / choujin gakuen gowcaizer--parent
+-vsyard2.zip--vs. 10-yard fight (japan)--yard
+-vsyard.zip--vs. 10-yard fight (world, 11/05/84)--yard
 -rbibb.zip--vs. atari r.b.i. baseball (set 1)--parent
 -rbibba.zip--vs. atari r.b.i. baseball (set 2)--rbibb
 -balonfgt.zip--vs. balloon fight--parent
@@ -5083,7 +5156,7 @@
 -wrofaero.zip--war of aero - project meiou--parent
 -warofbug.zip--war of the bugs or monsterous manouvers in a mushroom maze--parent
 -wotw.zip--war of the worlds--parent
--warpwarp.zip--warp & warp--parent
+-warpwarp.zip--warp &amp; warp--parent
 -warpwar2.zip--warp warp (rock-ola set 2)--warpwarp
 -warpwarr.zip--warp warp (rock-ola set 1)--warpwarp
 -warrior.zip--warrior--parent
@@ -5105,12 +5178,12 @@
 -wfortune.zip--wheel of fortune--parent
 -wfortuna.zip--wheel of fortune (alternate)--wfortune
 -wheelrun.zip--wheels runner--parent
--wwallyb.zip--where's wally? (fd1094 317-?)--wwally
--wwally.zip--where's wally? (japan, fd1094 317-0197a)--parent
+-wwally.zip--where's wally? (japan)--parent
+-wwallyb.zip--where's wally? (set 2)--wwally
 -whizquiz.zip--whiz quiz--parent
 -whizz.zip--whizz--parent
 -whodunit.zip--who dunit (version 8.0)--parent
--whoopee.zip--whoopee / pipi & bibis--pipibibs
+-whoopee.zip--whoopee!! / pipi &amp; bibis--pipibibs
 -wiggie.zip--wiggie waggie--parent
 -wildfang.zip--wild fang / tecmo knight--parent
 -wildplt.zip--wild pilot--parent
@@ -5152,12 +5225,13 @@
 -wb3a.zip--wonder boy iii - monster lair (set 2)--wb3
 -wb3bl.zip--wonder boy iii - monster lair (bootleg)--wb3
 -wbml.zip--wonder boy in monster land (japan new ver.)--parent
--wbmlb.zip--wonder boy in monster land--wbml
+-wbmlb.zip--wonder boy in monster land (bootleg)--wbml
 -wbmljb.zip--wonder boy in monster land (japan not encrypted)--wbml
 -wbmljo.zip--wonder boy in monster land (japan old ver.)--wbml
 -wbmlvc.zip--wonder boy in monster land (english, virtual console)--wbml
 -wndrmomo.zip--wonder momo--parent
 -wndrplnt.zip--wonder planet (japan)--parent
+-woodpek.zip--woodpecker (set 1)--parent
 -wbeachvl.zip--world beach volley--parent
 -wcbowl.zip--world class bowling (v1.66)--parent
 -wcbwl12.zip--world class bowling (v1.2)--wcbowl
@@ -5217,6 +5291,7 @@
 -xmvsfur1.zip--x-men vs. street fighter (us 961004)--xmvsf
 -xsleena.zip--xain'd sleena--parent
 -xsleenab.zip--xain'd sleena (bootleg)--xsleena
+-xeno.zip--xeno crisis (neo geo mvs)--parent
 -xenophob.zip--xenophobe--parent
 -xevios.zip--xevios--xevious
 -xeviousa.zip--xevious (atari set 1)--xevious
@@ -5251,6 +5326,7 @@
 -youma.zip--youma ninpou chou (japan)--ninjemak
 -yujan.zip--yu-jan--parent
 -yuka.zip--yu-ka--parent
+-yumefuda.zip--yumefuda [bet]--parent
 -yuyugogo.zip--yuuyu no quiz de go!go! (japan)--parent
 -zaryavos.zip--zarya vostoka--parent
 -zarzon.zip--zarzon--satansat
@@ -5275,7 +5351,7 @@
 -zigzag.zip--zig zag (galaxian hardware, set 1)--parent
 -zigzag2.zip--zig zag (galaxian hardware, set 2)--zigzag
 -zingzip.zip--zing zing zip--parent
--zintrckb.zip--zintrick / oshidashi zentrix (hack / bootleg)--parent
+-zintrckb.zip--zintrick - oshidashi zentrix (hack-bootleg)--parent
 -zoar.zip--zoar--parent
 -zodiack.zip--zodiack--parent
 -zombraid.zip--zombie raid (us)--parent
@@ -5285,7 +5361,6 @@
 -zoom909.zip--zoom 909--buckrog
 -zunkyou.zip--zunzunkyou no yabou (japan)--parent
 -zupapa.zip--zupapa!--parent
--zupapan.zip--zupapa! (decrypted c)--zupapa
 -zwackery.zip--zwackery--parent
 -zzyzzyxx.zip--zzyzzyxx (set 1)--parent
 -zzyzzyx2.zip--zzyzzyxx (set 2)--parent

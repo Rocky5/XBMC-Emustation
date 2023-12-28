@@ -5,38 +5,42 @@
 				<control type="group">
 						<control type="image" id="997">
 								<description>background top image</description>
-								<posx>0</posx>
-								<posy>-50</posy>
+								<left>0</left>
+								<top>-50</top>
 								<width>400</width>
 								<height>50</height>
+								<colordiffuse>menu_back_image</colordiffuse>
 								<texture border="40,0,40,0">contextmenu_top.png</texture>
 						</control>
 						<control type="image" id="999">
 								<description>background image</description>
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>400</width>
+								<colordiffuse>menu_back_image</colordiffuse>
 								<texture border="40,0,40,0">contextmenu_middle.png</texture>
 						</control>
 						<control type="image" id="998">
 								<description>background bottom image</description>
-								<posx>0</posx>
+								<left>0</left>
 								<width>400</width>
 								<height>50</height>
+								<colordiffuse>menu_back_image</colordiffuse>
 								<texture border="40,0,40,40">contextmenu_bottom.png</texture>
 						</control>
 				</control>
 				<control type="button" id="1000">
 						<description>button template</description>
-						<posx>5</posx>
-						<posy>0</posy>
+						<left>5</left>
+						<top>0</top>
 						<width>370</width>
 						<height>50</height>
 						<font>size_23</font>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>menu_deselect_label</textcolor>
-						<focusedcolor>menu_select_label</focusedcolor>
+						<textcolor>menu_nofocus_label</textcolor>
+						<focusedcolor>menu_focus_label</focusedcolor>
+						<colordiffuse>menu_back_image</colordiffuse>
 						<shadowcolor>-</shadowcolor>
 						<textoffsetx>-</textoffsetx>
 						<texturefocus>button-focus4.png</texturefocus>

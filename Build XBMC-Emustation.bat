@@ -4,6 +4,12 @@
 @Echo off & SetLocal EnableDelayedExpansion & Mode con:cols=100 lines=10 & Color 0B
 title XBMC-Emustation Builder
 
+REM Set d=%DATE:~3,2%/%DATE:~0,2%/%DATE:~6,4%
+REM Set t=%TIME:~0,2%:%TIME:~3,2%
+REM Set d=%d: =0%
+
+REM Echo timestamp=%d% %t%>"%USERPROFILE%\Desktop\New Downloader Builder\Downloader Builder\emustat_r_timestamp"
+
 if exist "XBMC" Set "foldername=XBMC"
 if exist "Build" Set "foldername=Build"
 if not exist "%foldername%" (
@@ -74,19 +80,23 @@ del /q /s "%foldername%\emustation\roms\roms go here"
 del /q /s "%foldername%\emustation\media\media goes here"
 rd /q /s "%foldername%\emustation\scripts\not used"
 rd /q /s "%foldername%\Emu xbe files"
-copy /y "Changes.txt" "%foldername%"
-Call Other\Tools\repl.bat "xbmc-emustation 0.0.000" "xbmc-emustation %version%" L < "%foldername%\emustation\themes\simple\language\English\strings.po" >"%foldername%\emustation\themes\simple\language\English\strings.tmp"
-Del "%foldername%\emustation\themes\simple\language\English\strings.po"
-rename "%foldername%\emustation\themes\simple\language\English\strings.tmp" "strings.po"
-Call Other\Tools\repl.bat "xbmc-emustation 0.0.000" "xbmc-emustation %version%" L < "%foldername%\emustation\themes\simple\language\French\strings.po" >"%foldername%\emustation\themes\simple\language\French\strings.tmp"
-Del "%foldername%\emustation\themes\simple\language\French\strings.po"
-rename "%foldername%\emustation\themes\simple\language\French\strings.tmp" "strings.po"
-Call Other\Tools\repl.bat "	" "" L < "%foldername%\changes.txt" >"%foldername%\changes.tmp"
-copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\emustation\themes\simple\xml\Custom_Changes.xml"
-copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\emustation\themes\simple\xml_sd_ntsc\Custom_Changes.xml"
-copy /b "Other\Tools\Changes\Changes_Header.xml"+"%foldername%\changes.tmp"+"Other\Tools\Changes\Changes_Footer.xml" "%foldername%\emustation\themes\simple\xml_sd_pal\Custom_Changes.xml"
-del /q "%foldername%\changes.tmp"
-del /Q "%foldername%\Changes.txt"
+
+for /f "tokens=*" %%a in ('dir /b "%foldername%\emustation\themes\simple\language"') do (
+	Call Other\Tools\repl.bat "xbmc-emustation 0.0.000" "Xbmc-Emustation Stable Build %version%" L < "%foldername%\emustation\themes\simple\language\%%a\strings.po" >"%foldername%\emustation\themes\simple\language\%%a\strings.tmp"
+	Del "%foldername%\emustation\themes\simple\language\%%a\strings.po"
+	rename "%foldername%\emustation\themes\simple\language\%%a\strings.tmp" "strings.po"
+	
+	Call Other\Tools\repl.bat "xbmc-emustation datetime" "[CR]Stable Build %version%: %d% - %t%" L < "%foldername%\emustation\themes\simple\language\%%a\strings.po" >"%foldername%\emustation\themes\simple\language\%%a\strings.tmp"
+	Del "%foldername%\emustation\themes\simple\language\%%a\strings.po"
+	rename "%foldername%\emustation\themes\simple\language\%%a\strings.tmp" "strings.po"
+
+	Call Other\Tools\repl.bat "build type" "Test_Build" L < "%foldername%\emustation\themes\simple\language\%%a\strings.po" >"%foldername%\emustation\themes\simple\language\%%a\strings.tmp"
+	Del "%foldername%\emustation\themes\simple\language\%%a\strings.po"
+	rename "%foldername%\emustation\themes\simple\language\%%a\strings.tmp" "strings.po"
+)
+
+MD "%foldername%\system\SystemInfo"
+Call Other\Tools\repl.bat "	" "" L < "changes.txt" >"%foldername%\system\SystemInfo\changes.txt"
 copy /y "Source\default.xbe" "%foldername%\default.xbe"
 ren "%foldername%" "XBMC-Emustation"
 )>nul 2>&1

@@ -3,53 +3,54 @@
 				<control type="group" id="7002">
 						<visible>Container(9000).OnPrevious + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 						<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-								<effect type="slide" start="0,0" end="555,0" time="150" />
+								<effect type="slide" start="0,0" end="555,0" time="200" />
 						</animation>
 						<control type="group">
 								<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
-								<posy>310</posy>
+								<top>310</top>
 								<control type="image">
-										<posx>-710</posx>
-										<posy>0</posy>
+										<left>-710</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>-155</posx>
-										<posy>0</posy>
+										<left>-155</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>400</posx>
-										<posy>0</posy>
+										<left>400</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>955</posx>
-										<posy>0</posy>
+										<left>955</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>955</posx>
-										<posy>0</posy>
+										<left>955</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(3).Thumb]</texture>
 								</control>
 						</control>
@@ -57,44 +58,45 @@
 				<control type="group" id="7001">
 						<visible>Container(9000).OnNext + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 						<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-								<effect type="slide" start="0,0" end="-555,0" time="150" />
+								<effect type="slide" start="0,0" end="-555,0" time="200" />
 						</animation>
 						<control type="group">
 								<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
-								<posy>310</posy>
+								<top>310</top>
 								<control type="image">
-										<posx>-155</posx>
-										<posy>0</posy>
+										<left>-155</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>400</posx>
-										<posy>0</posy>
+										<left>400</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>955</posx>
-										<posy>0</posy>
+										<left>955</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>1510</posx>
-										<posy>0</posy>
+										<left>1510</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 								</control>
 						</control>
@@ -104,31 +106,32 @@
 						<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0">Hidden</animation>
 						<animation effect="fade" reversible="false" start="0" end="100" delay="200" time="300" condition="Skin.HasSetting(CarouselAnimation0)">Visible</animation>
 						<control type="group">
-								<posy>310</posy>
+								<top>310</top>
 								<control type="image">
-										<posx>-155</posx>
-										<posy>0</posy>
+										<left>-155</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>400</posx>
-										<posy>0</posy>
+										<left>400</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>955</posx>
-										<posy>0</posy>
+										<left>955</left>
+										<top>0</top>
 										<width>480</width>
 										<height>98</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 								</control>
 						</control>
@@ -138,44 +141,45 @@
 				<control type="group" id="7002">
 						<visible>Container(9000).OnPrevious + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 						<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-								<effect type="slide" start="0,0" end="312,0" time="150" />
+								<effect type="slide" start="0,0" end="312,0" time="200" />
 						</animation>
 						<control type="group">
 								<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
-								<posy>307</posy>
+								<top>307</top>
 								<control type="image">
-										<posx>-200</posx>
-										<posy>0</posy>
+										<left>-200</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>140</posx>
-										<posy>0</posy>
+										<left>140</left>
+										<top>0</top>
 										<width>380</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>653</posx>
-										<posy>0</posy>
+										<left>653</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>968</posx>
-										<posy>0</posy>
+										<left>968</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 								</control>
 						</control>
@@ -183,44 +187,45 @@
 				<control type="group" id="7001">
 						<visible>Container(9000).OnNext + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 						<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-								<effect type="slide" start="0,0" end="-312,0" time="150" />
+								<effect type="slide" start="0,0" end="-312,0" time="200" />
 						</animation>
 						<control type="group">
 								<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
-								<posy>307</posy>
+								<top>307</top>
 								<control type="image">
-										<posx>112</posx>
-										<posy>0</posy>
+										<left>112</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>421</posx>
-										<posy>0</posy>
+										<left>421</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>760</posx>
-										<posy>0</posy>
+										<left>760</left>
+										<top>0</top>
 										<width>380</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>1280</posx>
-										<posy>0</posy>
+										<left>1280</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 								</control>
 						</control>
@@ -230,32 +235,173 @@
 						<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0">Hidden</animation>
 						<animation effect="fade" reversible="false" start="0" end="100" delay="200" time="300" condition="Skin.HasSetting(CarouselAnimation0)">Visible</animation>
 						<control type="group">
-								<posy>307</posy>
+								<top>307</top>
 								<control type="image">
-										<posx>112</posx>
-										<posy>0</posy>
+										<left>112</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>451</posx>
-										<posy>0</posy>
+										<left>451</left>
+										<top>0</top>
 										<width>380</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>968</posx>
-										<posy>0</posy>
+										<left>968</left>
+										<top>0</top>
 										<width>200</width>
 										<height>106</height>
 										<aspectratio>keep</aspectratio>
-										<colordiffuse>55FFFFFF</colordiffuse>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
+								</control>
+						</control>
+				</control>
+		</include>
+		<include name="Carousel_Horizontal_3_Icons_Alt_Fade">
+				<control type="group" id="7002">
+						<visible>Container(9000).OnPrevious + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
+						<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
+								<effect type="slide" start="0,0" end="312,0" time="200" />
+						</animation>
+						<control type="group">
+								<visible>!Skin.HasSetting(CarouselAnimation0)</visible>
+								<top>307</top>
+								<control type="image">
+										<left>-150</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+								</control>
+								<control type="image">
+										<left>140</left>
+										<top>0</top>
+										<width>380</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
+								</control>
+								<control type="image">
+										<left>603</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+								</control>
+								<control type="image">
+										<left>918</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+								</control>
+						</control>
+				</control>
+				<control type="group" id="7001">
+						<visible>Container(9000).OnNext + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
+						<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
+								<effect type="slide" start="0,0" end="-312,0" time="200" />
+						</animation>
+						<control type="group">
+								<visible>!Skin.HasSetting(CarouselAnimation0)</visible>
+								<top>307</top>
+								<control type="image">
+										<left>162</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+								</control>
+								<control type="image">
+										<left>471</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+								</control>
+								<control type="image">
+										<left>760</left>
+										<top>0</top>
+										<width>380</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
+								</control>
+								<control type="image">
+										<left>1230</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+								</control>
+						</control>
+				</control>
+				<control type="group">
+						<visible>!Control.IsVisible(7001) + !Control.IsVisible(7002)</visible>
+						<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0">Hidden</animation>
+						<animation effect="fade" reversible="false" start="100" end="0" delay="0" time="100" condition="Skin.HasSetting(CarouselAnimation0)">Hidden</animation>
+						<animation effect="fade" reversible="false" start="0" end="100" delay="150" time="200" condition="Skin.HasSetting(CarouselAnimation0)">Visible</animation>
+						<control type="group">
+								<top>307</top>
+								<control type="image">
+										<left>162</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+										<visible>!Skin.HasSetting(CarouselAnimation0)</visible>
+								</control>
+								<control type="image">
+										<left>451</left>
+										<top>0</top>
+										<width>380</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
+								</control>
+								<control type="image">
+										<left>918</left>
+										<top>0</top>
+										<width>200</width>
+										<height>106</height>
+										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
+										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
+										<animation effect="fade" end="40" condition="true">Conditional</animation>
+										<visible>!Skin.HasSetting(CarouselAnimation0)</visible>
 								</control>
 						</control>
 				</control>
@@ -266,83 +412,91 @@
 		</include>
 		<include name="Carousel_Vartical">
 				<control type="group">
-						<posx>17</posx>
-						<posy>10</posy>
+						<left>17</left>
+						<top>10</top>
 						<control type="group" id="7002">
 								<visible>Container(9000).OnPrevious + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 								<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-										<effect type="slide" start="0,0" end="0,130" time="150" />
+										<effect type="slide" start="0,0" end="0,130" time="200" />
 								</animation>
 								<control type="group">
 										<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
 										<control type="image">
-												<posx>0</posx>
-												<posy>-235</posy>
+												<left>0</left>
+												<top>-235</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-3).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>-105</posy>
+												<left>0</left>
+												<top>-105</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>25</posy>
+												<left>0</left>
+												<top>25</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>155</posy>
+												<left>0</left>
+												<top>155</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>285</posy>
+												<left>0</left>
+												<top>285</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>415</posy>
+												<left>0</left>
+												<top>415</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>545</posy>
+												<left>0</left>
+												<top>545</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(3).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>675</posy>
+												<left>0</left>
+												<top>675</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(4).Thumb]</texture>
 										</control>
 										<!-- separators
 					<control type="image">
-						<posx>0</posx>
-						<posy>25</posy>
+						<left>0</left>
+						<top>25</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -350,8 +504,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>155</posy>
+						<left>0</left>
+						<top>155</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -359,8 +513,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>285</posy>
+						<left>0</left>
+						<top>285</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -368,8 +522,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>415</posy>
+						<left>0</left>
+						<top>415</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -377,8 +531,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>545</posy>
+						<left>0</left>
+						<top>545</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -386,8 +540,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>675</posy>
+						<left>0</left>
+						<top>675</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -399,78 +553,86 @@
 						<control type="group" id="7001">
 								<visible>Container(9000).OnNext + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 								<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-										<effect type="slide" start="0,0" end="0,-130" time="150" />
+										<effect type="slide" start="0,0" end="0,-130" time="200" />
 								</animation>
 								<control type="group">
 										<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
 										<control type="image">
-												<posx>0</posx>
-												<posy>-105</posy>
+												<left>0</left>
+												<top>-105</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-4).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>25</posy>
+												<left>0</left>
+												<top>25</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-3).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>155</posy>
+												<left>0</left>
+												<top>155</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>285</posy>
+												<left>0</left>
+												<top>285</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>415</posy>
+												<left>0</left>
+												<top>415</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>545</posy>
+												<left>0</left>
+												<top>545</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>675</posy>
+												<left>0</left>
+												<top>675</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>805</posy>
+												<left>0</left>
+												<top>805</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(3).Thumb]</texture>
 										</control>
 										<!-- separators
 					<control type="image">
-						<posx>0</posx>
-						<posy>25</posy>
+						<left>0</left>
+						<top>25</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -478,8 +640,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>155</posy>
+						<left>0</left>
+						<top>155</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -487,8 +649,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>285</posy>
+						<left>0</left>
+						<top>285</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -496,8 +658,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>415</posy>
+						<left>0</left>
+						<top>415</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -505,8 +667,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>545</posy>
+						<left>0</left>
+						<top>545</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -514,8 +676,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>675</posy>
+						<left>0</left>
+						<top>675</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -529,35 +691,39 @@
 								<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0">Hidden</animation>
 								<animation effect="fade" reversible="false" start="0" end="100" delay="200" time="300" condition="Skin.HasSetting(CarouselAnimation0)">Visible</animation>
 								<control type="image">
-										<posx>0</posx>
-										<posy>-105</posy>
+										<left>0</left>
+										<top>-105</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-3).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>25</posy>
+										<left>0</left>
+										<top>25</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>155</posy>
+										<left>0</left>
+										<top>155</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>285</posy>
+										<left>0</left>
+										<top>285</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 										<animation type="Condition" reversible="false" condition="System.IdleTime(1)" loop="true">
 												<effect type="zoom" start="0,285,260,130" end="-3,280,270,140" delay="0" time="500" />
@@ -565,33 +731,36 @@
 										</animation>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>415</posy>
+										<left>0</left>
+										<top>415</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>545</posy>
+										<left>0</left>
+										<top>545</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>675</posy>
+										<left>0</left>
+										<top>675</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(3).Thumb]</texture>
 								</control>
 								<!-- separators
 					<control type="image">
-						<posx>0</posx>
-						<posy>25</posy>
+						<left>0</left>
+						<top>25</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -599,8 +768,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>155</posy>
+						<left>0</left>
+						<top>155</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -608,8 +777,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>285</posy>
+						<left>0</left>
+						<top>285</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -617,8 +786,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>415</posy>
+						<left>0</left>
+						<top>415</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -626,8 +795,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>545</posy>
+						<left>0</left>
+						<top>545</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -635,8 +804,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>675</posy>
+						<left>0</left>
+						<top>675</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -648,84 +817,92 @@
 		</include>
 		<include name="Carousel_Vartical_Slanted">
 				<control type="group">
-						<posx>17</posx>
-						<posy>10</posy>
+						<left>17</left>
+						<top>10</top>
 						<animation effect="rotatey" center="0" start="0" end="-32" time="0" condition="true">Conditional</animation>
 						<control type="group" id="7002">
 								<visible>Container(9000).OnPrevious + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 								<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-										<effect type="slide" start="0,0" end="0,130" time="150" />
+										<effect type="slide" start="0,0" end="0,130" time="200" />
 								</animation>
 								<control type="group">
 										<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
 										<control type="image">
-												<posx>0</posx>
-												<posy>-235</posy>
+												<left>0</left>
+												<top>-235</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-3).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>-105</posy>
+												<left>0</left>
+												<top>-105</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>25</posy>
+												<left>0</left>
+												<top>25</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>155</posy>
+												<left>0</left>
+												<top>155</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>285</posy>
+												<left>0</left>
+												<top>285</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>415</posy>
+												<left>0</left>
+												<top>415</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>545</posy>
+												<left>0</left>
+												<top>545</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(3).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>675</posy>
+												<left>0</left>
+												<top>675</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(4).Thumb]</texture>
 										</control>
 										<!-- separators
 					<control type="image">
-						<posx>0</posx>
-						<posy>25</posy>
+						<left>0</left>
+						<top>25</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -733,8 +910,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>155</posy>
+						<left>0</left>
+						<top>155</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -742,8 +919,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>285</posy>
+						<left>0</left>
+						<top>285</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -751,8 +928,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>415</posy>
+						<left>0</left>
+						<top>415</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -760,8 +937,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>545</posy>
+						<left>0</left>
+						<top>545</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -769,8 +946,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>675</posy>
+						<left>0</left>
+						<top>675</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -782,78 +959,86 @@
 						<control type="group" id="7001">
 								<visible>Container(9000).OnNext + [Skin.HasSetting(CarouselAnimation0) | Skin.HasSetting(CarouselAnimation1)]</visible>
 								<animation type="Hidden" reversible="false" condition="Skin.HasSetting(CarouselAnimation1)">
-										<effect type="slide" start="0,0" end="0,-130" time="150" />
+										<effect type="slide" start="0,0" end="0,-130" time="200" />
 								</animation>
 								<control type="group">
 										<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0" condition="Skin.HasSetting(CarouselAnimation0)">Conditional</animation>
 										<control type="image">
-												<posx>0</posx>
-												<posy>-105</posy>
+												<left>0</left>
+												<top>-105</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-4).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>25</posy>
+												<left>0</left>
+												<top>25</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-3).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>155</posy>
+												<left>0</left>
+												<top>155</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>285</posy>
+												<left>0</left>
+												<top>285</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>415</posy>
+												<left>0</left>
+												<top>415</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>545</posy>
+												<left>0</left>
+												<top>545</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>675</posy>
+												<left>0</left>
+												<top>675</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 										</control>
 										<control type="image">
-												<posx>0</posx>
-												<posy>805</posy>
+												<left>0</left>
+												<top>805</top>
 												<width>260</width>
 												<height>130</height>
 												<aspectratio>keep</aspectratio>
+												<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 												<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(3).Thumb]</texture>
 										</control>
 										<!-- separators
 					<control type="image">
-						<posx>0</posx>
-						<posy>25</posy>
+						<left>0</left>
+						<top>25</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -861,8 +1046,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>155</posy>
+						<left>0</left>
+						<top>155</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -870,8 +1055,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>285</posy>
+						<left>0</left>
+						<top>285</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -879,8 +1064,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>415</posy>
+						<left>0</left>
+						<top>415</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -888,8 +1073,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>545</posy>
+						<left>0</left>
+						<top>545</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -897,8 +1082,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>675</posy>
+						<left>0</left>
+						<top>675</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -912,35 +1097,39 @@
 								<animation effect="fade" reversible="false" start="0" end="0" delay="0" time="0">Hidden</animation>
 								<animation effect="fade" reversible="false" start="0" end="100" delay="200" time="300" condition="Skin.HasSetting(CarouselAnimation0)">Visible</animation>
 								<control type="image">
-										<posx>0</posx>
-										<posy>-105</posy>
+										<left>0</left>
+										<top>-105</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-3).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>25</posy>
+										<left>0</left>
+										<top>25</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-2).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>155</posy>
+										<left>0</left>
+										<top>155</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(-1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>285</posy>
+										<left>0</left>
+										<top>285</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_focus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(0).Thumb]</texture>
 										<animation type="Condition" reversible="false" condition="System.IdleTime(1)" loop="true">
 												<effect type="zoom" start="0,285,260,130" end="-3,280,270,140" delay="0" time="500" />
@@ -948,33 +1137,36 @@
 										</animation>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>415</posy>
+										<left>0</left>
+										<top>415</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(1).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>545</posy>
+										<left>0</left>
+										<top>545</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(2).Thumb]</texture>
 								</control>
 								<control type="image">
-										<posx>0</posx>
-										<posy>675</posy>
+										<left>0</left>
+										<top>675</top>
 										<width>260</width>
 										<height>130</height>
 										<aspectratio>keep</aspectratio>
+										<colordiffuse>$VAR[var-icons_unfocus]</colordiffuse>
 										<texture fallback="layouts/art/missing_logo.png">$INFO[Container(9000).ListItem(3).Thumb]</texture>
 								</control>
 								<!-- separators
 					<control type="image">
-						<posx>0</posx>
-						<posy>25</posy>
+						<left>0</left>
+						<top>25</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -982,8 +1174,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>155</posy>
+						<left>0</left>
+						<top>155</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -991,8 +1183,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>285</posy>
+						<left>0</left>
+						<top>285</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -1000,8 +1192,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>415</posy>
+						<left>0</left>
+						<top>415</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -1009,8 +1201,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>545</posy>
+						<left>0</left>
+						<top>545</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>
@@ -1018,8 +1210,8 @@
 						<texture>layouts/art/carousel_bar.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>675</posy>
+						<left>0</left>
+						<top>675</top>
 						<width>260</width>
 						<height>2</height>
 						<aspectratio>stretch</aspectratio>

@@ -2,11 +2,11 @@
 		<defaultcontrol always="true">1</defaultcontrol>
 		<controls>
 				<control type="group">
-						<posy>0</posy>
+						<top>0</top>
 						<control type="image">
 								<description>background image</description>
-								<posx>150</posx>
-								<posy>50</posy>
+								<left>150</left>
+								<top>50</top>
 								<width>430</width>
 								<height>380</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -15,8 +15,8 @@
 						</control>
 						<control type="image">
 								<description>background image</description>
-								<posx>150</posx>
-								<posy>50</posy>
+								<left>150</left>
+								<top>50</top>
 								<width>430</width>
 								<height>380</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -25,8 +25,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>150</posx>
-								<posy>60</posy>
+								<left>150</left>
+								<top>60</top>
 								<width>430</width>
 								<height>50</height>
 								<align>center</align>
@@ -36,8 +36,8 @@
 								<textcolor>menu_header_label</textcolor>
 						</control>
 						<control type="grouplist" id="9000">
-								<posx>150</posx>
-								<posy>120</posy>
+								<left>150</left>
+								<top>120</top>
 								<width>431</width>
 								<height>295</height>
 								<onright>9000</onright>
@@ -47,8 +47,8 @@
 								<itemgap>-1</itemgap>
 								<scrolltime>3</scrolltime>
 								<control type="button" id="1">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<onright>VolumeUp</onright>
 										<onleft>VolumeDown</onleft>
 										<label>[UPPERCASE]$LOCALIZE[31230] $LOCALIZE[13376][/UPPERCASE]</label>
@@ -56,8 +56,8 @@
 										<onclick>-</onclick>
 								</control>
 								<control type="radiobutton" id="2">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31231][/UPPERCASE]</label>
 										<include>MenuButtonMenuValues</include>
 										<onclick>Skin.ToggleSetting(DisabledSounds)</onclick>
@@ -66,8 +66,8 @@
 										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="radiobutton" id="3">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31235][/UPPERCASE]</label>
 										<include>MenuButtonMenuValues</include>
 										<onclick>Skin.ToggleSetting(OldPlayerControls)</onclick>
@@ -75,8 +75,8 @@
 										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="radiobutton" id="4">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31232][/UPPERCASE]</label>
 										<include>MenuButtonMenuValues</include>
 										<onclick>Skin.ToggleSetting(Use_Startup_Playback)</onclick>
@@ -84,8 +84,8 @@
 										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="5">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<onright>VolumeUp</onright>
 										<onleft>VolumeDown</onleft>
 										<label> -  $LOCALIZE[31233]</label>
@@ -96,8 +96,8 @@
 										<visible>!Skin.HasSetting(KioskMode)</visible>
 								</control>
 								<control type="button" id="6">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<onright>VolumeUp</onright>
 										<onleft>VolumeDown</onleft>
 										<label> -  $LOCALIZE[31234]</label>
@@ -111,34 +111,34 @@
 						</control>
 						<control type="progress" id="1000">
 								<description>Progressbar</description>
-								<posx>-500</posx>
+								<left>-500</left>
 								<info>Player.Volume</info>
 								<visible>true</visible>
 						</control>
 						<control type="label">
 								<description>.DB label</description>
-								<posx>230r</posx>
-								<posy>120</posy>
+								<left>230r</left>
+								<top>120</top>
 								<width>100</width>
 								<height>43</height>
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>size_23</font>
 								<label>[UPPERCASE]$INFO[Control.GetLabel(1000),,%][/UPPERCASE]</label>
-								<textcolor>menu_select_label</textcolor>
+								<textcolor>menu_focus_label</textcolor>
 								<visible>Control.HasFocus(1)</visible>
 						</control>
 						<control type="label">
 								<description>.DB label</description>
-								<posx>230r</posx>
-								<posy>120</posy>
+								<left>230r</left>
+								<top>120</top>
 								<width>100</width>
 								<height>43</height>
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>size_23</font>
 								<label>[UPPERCASE]$INFO[Control.GetLabel(1000),,%][/UPPERCASE]</label>
-								<textcolor>menu_deselect_label</textcolor>
+								<textcolor>menu_nofocus_label</textcolor>
 								<visible>!Control.HasFocus(1)</visible>
 						</control>
 				</control>

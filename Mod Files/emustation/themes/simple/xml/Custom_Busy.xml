@@ -2,8 +2,8 @@
 		<controls>
 				<control type="multiimage">
 						<description>Busy animation</description>
-						<posx>5</posx>
-						<posy>5</posy>
+						<left>5</left>
+						<top>5</top>
 						<width>37</width>
 						<height>8</height>
 						<imagepath>loading</imagepath>

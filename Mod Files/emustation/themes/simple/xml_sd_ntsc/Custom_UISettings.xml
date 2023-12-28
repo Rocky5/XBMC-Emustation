@@ -11,11 +11,11 @@
 		<controls>
 				<control type="group">
 						<visible>!Window.IsActive(1300)</visible>
-						<posy>0</posy>
+						<top>0</top>
 						<control type="image">
 								<description>background image</description>
-								<posx>150</posx>
-								<posy>50</posy>
+								<left>150</left>
+								<top>50</top>
 								<width>430</width>
 								<height>380</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -23,8 +23,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>150</posx>
-								<posy>60</posy>
+								<left>150</left>
+								<top>60</top>
 								<width>430</width>
 								<height>50</height>
 								<align>center</align>
@@ -35,8 +35,8 @@
 						</control>
 						<!-- Main Menu -->
 						<control type="grouplist" id="9000">
-								<posx>150</posx>
-								<posy>140</posy>
+								<left>150</left>
+								<top>140</top>
 								<width>431</width>
 								<height>255</height>
 								<onleft>-</onleft>
@@ -46,8 +46,8 @@
 								<itemgap>-1</itemgap>
 								<control type="button" id="1">
 										<description>Change Layout Types</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<onright>SetFocus(100)</onright>
 										<onleft>SetFocus(110)</onleft>
 										<label>[UPPERCASE][UPPERCASE]$LOCALIZE[31260][/UPPERCASE]</label>
@@ -56,8 +56,8 @@
 								</control>
 								<control type="button" id="2">
 										<description>Video delay</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<onright>SetFocus(120)</onright>
 										<onleft>SetFocus(130)</onleft>
 										<label> -   $LOCALIZE[31265]</label>
@@ -67,8 +67,8 @@
 								</control>
 								<control type="button" id="3">
 										<description>Home Customization</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31266][/UPPERCASE]</label>
 										<include>MenuFolderButtonMenuValues</include>
 										<onclick>ActivateWindow(1300)</onclick>
@@ -98,8 +98,8 @@
 								</control>
 								<control type="radiobutton" id="20">
 										<description>Enable Default to last rom</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31268][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
 										<include>MenuButtonMenuValues</include>
@@ -108,8 +108,8 @@
 								</control>
 								<control type="radiobutton" id="21">
 										<description>Enable Default to last rom</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31271][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(selectedintrofile)]</label2>
 										<include>MenuButtonMenuValues</include>
@@ -119,8 +119,8 @@
 								</control>
 								<control type="radiobutton" id="22">
 										<description>Enable Intro</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31269][/UPPERCASE]</label>
 										<include>MenuButtonMenuValues</include>
 										<onclick>Skin.ToggleSetting(introenabled)</onclick>
@@ -129,8 +129,8 @@
 								</control>
 								<control type="radiobutton" id="23">
 										<description>Enable Kiosk Mode</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31270][/UPPERCASE]</label>
 										<label2>-</label2>
 										<include>MenuButtonMenuValues</include>
@@ -141,7 +141,7 @@
 				</control>
 				<!-- going right -->
 				<!-- <control type="button" id="100"> -->
-				<!-- <posx>-500</posx> -->
+				<!-- <left>-500</left> -->
 				<!-- <onfocus>SetFocus(1)</onfocus> -->
 				<!-- <onfocus>Skin.ToggleSetting(synopsislayout)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
@@ -149,8 +149,8 @@
 				<!-- <visible>!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout)</visible> -->
 				<!-- </control> -->
 				<!-- <control type="button" id="100"> -->
-				<!-- <posx>-500</posx> -->
-				<!-- <posy>0</posy> -->
+				<!-- <left>-500</left> -->
+				<!-- <top>0</top> -->
 				<!-- <onfocus>SetFocus(1)</onfocus> -->
 				<!-- <onfocus>Skin.ToggleSetting(thumblayout)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
@@ -158,7 +158,7 @@
 				<!-- <visible>Skin.HasSetting(synopsislayout)</visible> -->
 				<!-- </control> -->
 				<!-- <control type="button" id="100"> -->
-				<!-- <posx>-500</posx> -->
+				<!-- <left>-500</left> -->
 				<!-- <onfocus>SetFocus(1)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
@@ -167,7 +167,7 @@
 				<!-- </control> -->
 				<!-- going left -->
 				<!-- <control type="button" id="110"> -->
-				<!-- <posx>-500</posx> -->
+				<!-- <left>-500</left> -->
 				<!-- <onfocus>SetFocus(1)</onfocus> -->
 				<!-- <onfocus>Skin.ToggleSetting(thumblayout)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
@@ -175,7 +175,7 @@
 				<!-- <visible>!Skin.HasSetting(synopsislayout) + !Skin.HasSetting(thumblayout)</visible> -->
 				<!-- </control> -->
 				<!-- <control type="button" id="110"> -->
-				<!-- <posx>-500</posx> -->
+				<!-- <left>-500</left> -->
 				<!-- <onfocus>SetFocus(1)</onfocus> -->
 				<!-- <onfocus>Skin.ToggleSetting(synopsislayout)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
@@ -183,7 +183,7 @@
 				<!-- <visible>Skin.HasSetting(thumblayout)</visible> -->
 				<!-- </control> -->
 				<!-- <control type="button" id="110"> -->
-				<!-- <posx>-500</posx> -->
+				<!-- <left>-500</left> -->
 				<!-- <onfocus>SetFocus(1)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(synopsislayout)</onfocus> -->
 				<!-- <onfocus>Skin.Reset(thumblayout)</onfocus> -->
@@ -193,7 +193,7 @@
 				<!-- going right -->
 				<control type="button" id="100">
 						<description>Basic View</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.Reset(synopsislayout)</onfocus>
 						<onfocus>Skin.Reset(thumblayout)</onfocus>
 						<onfocus>Skin.Reset(videolayout)</onfocus>
@@ -203,7 +203,7 @@
 				</control>
 				<control type="button" id="100">
 						<description>Detailed View</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.ToggleSetting(synopsislayout)</onfocus>
 						<onfocus>SetFocus(1)</onfocus>
 						<onfocus>Skin.Reset(thumblayout)</onfocus>
@@ -213,8 +213,8 @@
 				</control>
 				<control type="button" id="100">
 						<description>Thumbnail View</description>
-						<posx>-500</posx>
-						<posy>0</posy>
+						<left>-500</left>
+						<top>0</top>
 						<onfocus>Skin.ToggleSetting(thumblayout)</onfocus>
 						<onfocus>SetFocus(1)</onfocus>
 						<onfocus>Skin.Reset(synopsislayout)</onfocus>
@@ -224,7 +224,7 @@
 				</control>
 				<control type="button" id="100">
 						<description>Video View</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.ToggleSetting(videolayout)</onfocus>
 						<onfocus>SetFocus(1)</onfocus>
 						<onfocus>Skin.Reset(synopsislayout)</onfocus>
@@ -235,7 +235,7 @@
 				<!-- going left -->
 				<control type="button" id="110">
 						<description>Basic View</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.Reset(synopsislayout)</onfocus>
 						<onfocus>Skin.Reset(thumblayout)</onfocus>
 						<onfocus>Skin.Reset(videolayout)</onfocus>
@@ -245,7 +245,7 @@
 				</control>
 				<control type="button" id="110">
 						<description>Video View</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.ToggleSetting(videolayout)</onfocus>
 						<onfocus>SetFocus(1)</onfocus>
 						<onfocus>Skin.Reset(thumblayout)</onfocus>
@@ -255,7 +255,7 @@
 				</control>
 				<control type="button" id="110">
 						<description>Thumbnail View</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.ToggleSetting(thumblayout)</onfocus>
 						<onfocus>SetFocus(1)</onfocus>
 						<onfocus>Skin.Reset(synopsislayout)</onfocus>
@@ -265,7 +265,7 @@
 				</control>
 				<control type="button" id="110">
 						<description>Detailed View</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.ToggleSetting(synopsislayout)</onfocus>
 						<onfocus>SetFocus(1)</onfocus>
 						<onfocus>Skin.Reset(thumblayout)</onfocus>
@@ -276,35 +276,35 @@
 				<!-- going right -->
 				<control type="button" id="120">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,2)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),1)</visible>
 				</control>
 				<control type="button" id="120">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,3)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),2)</visible>
 				</control>
 				<control type="button" id="120">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,4)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),3)</visible>
 				</control>
 				<control type="button" id="120">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,5)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),4)</visible>
 				</control>
 				<control type="button" id="120">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,1)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),5)</visible>
@@ -312,42 +312,42 @@
 				<!-- going left -->
 				<control type="button" id="130">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,1)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),2)</visible>
 				</control>
 				<control type="button" id="130">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,2)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),3)</visible>
 				</control>
 				<control type="button" id="130">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,3)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),4)</visible>
 				</control>
 				<control type="button" id="130">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,4)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),5)</visible>
 				</control>
 				<control type="button" id="130">
 						<description>Video seconds</description>
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>Skin.SetString(videodelay,5)</onfocus>
 						<onfocus>SetFocus(2)</onfocus>
 						<visible>StringCompare(Skin.String(videodelay),1)</visible>
 				</control>
 				<control type="image">
-						<posx>180r</posx>
-						<posy>115</posy>
+						<left>180r</left>
+						<top>115</top>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-up.png</texture>
@@ -358,8 +358,8 @@
 						</animation>
 				</control>
 				<control type="image">
-						<posx>180r</posx>
-						<posy>80r</posy>
+						<left>180r</left>
+						<top>80r</top>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-down.png</texture>

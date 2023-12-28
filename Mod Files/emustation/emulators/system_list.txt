@@ -1,73 +1,72 @@
-3do
-amiga
-amstradcpc
-apple2
-atari800
-atari2600
-atari5200
-atari7800
-atarijaguar
-atarilynx
-atarist
-atarixe
-atarixl
-c64
-c64pet
-chip8x
-coco
-colecovision
-cv20
-daphne
-demos
-dreamcastvmu
-famicom
-fba
-fbaxxx
-fbl
-fblc
-gamegear
-gb
-gba
-gbc
-genesis
-homebrew
-intellivision
-mame
-mastersystem
-megadrive
-mess
-msx
-n64
-nds
-neogeo
-neogeocd
-nes
-ngp
-ngpc
-odyssey2
-pc-98
-pce-cd
-pcengine
-pokemonmini
-ports
-psx
-samcoupe
-saturn
-sc-3000
-scummvm
-sega32x
-segacd
-sf-7000
-sg-1000
-sgb
-sgb2
-snes
-tg16
-tg-cd
-ti99
-virtualboy
-waterasupervision
-wonderswan
-x68000
-xbox
-zxspectrum
+3do~3DO Interactive Multiplayer
+amiga~Commodore Amiga
+amstradcpc~Amstrad CPC
+apple2~Apple II
+atari2600~Atari 2600
+atari5200~Atari 5200
+atari7800~Atari 7800 ProSystem
+atari800~Atari 800
+atarijaguar~Atari Jaguar
+atarilynx~Atari Lynx
+atarist~Atari ST
+atarixe~Atari XE
+atarixl~ATARI 800XL
+c64~Commodore 64
+c64pet~Commodore 64 PET
+chip8x~Super Chip8x
+coco~Tandy Color Computer
+colecovision~Coleco ColecoVision
+cv20~Commodore VIC-20
+daphne~Daphne Arcade LaserDisc Emulator
+demos~Demos
+dreamcastvmu~Sega Dreamcast VMU
+famicom~Nintendo Family Computer
+fba~FinalBurn Alpha
+fbaxxx~FinalBurn Alpha XXX
+fbl~FinalBurn Legends
+fblc~FinalBurn Legends Console
+gamegear~Sega Game Gear
+gb~Nintendo Game Boy
+gba~Nintendo Game Boy Advance
+gbc~Nintendo Game Boy Color
+genesis~Sega Genesis
+homebrew~Homebrew
+intellivision~Mattel Electronics Intellivision
+mame~Multiple Arcade Machine Emulator
+mastersystem~Sega Master System
+megadrive~Sega Mega Drive
+mess~Multi Emulator Super System
+msx~MSX
+n64~Nintendo 64
+nds~Nintendo DS
+neogeo~SNK Neo Geo
+neogeocd~SNK Neo Geo CD
+nes~Nintendo Entertainment System
+ngp~SNK Neo Geo Pocket
+ngpc~SNK Neo Geo Pocket Color
+odyssey2~Magnavox Odyssey2
+pc-98~NEC PC-9800 Series
+pcengine~NEC PC Engine
+pce-cd~NEC PC Engine CD
+pokemonmini~Nintendo Pokémon Mini
+ports~Ports
+psx~Sony PlayStation
+samcoupe~MGT SAM Coupé
+saturn~Sega Saturn
+sc-3000~Sega Computer 3000
+scummvm~ScummVM Game Engine
+sega32x~Sega Mega Drive 32X
+segacd~Sega CD
+sf-7000~Super Control Station
+sg-1000~Sega SG-1000
+sgb~Nintendo Super Game Boy
+snes~Nintendo SNES (Super Nintendo)
+tg16~NEC TurboGrafx-16
+tg-cd~NEC TurboGrafx-CD
+ti99~Texas Instruments TI-99
+virtualboy~Nintendo Virtual Boy
+wonderswan~Bandai WonderSwan
+waterasupervision~Watara Supervision
+x68000~Sharp X68000
+xbox~Microsoft Xbox
+zxspectrum~Sinclair ZX Spectrum

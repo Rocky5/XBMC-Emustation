@@ -3836,5 +3836,5 @@ def Get_image(mipmap=0,addr=0,size=None,file=None,process=True,options=None):
                 return XPM_image(addr=addr,size=size,file=file,process=process) #Just in case the first check doesn't work
         return None
     except:
-        print file
+        # print file # disabled
         raise #Image_Error([type[0:3],file,sys.exc_info()[1]])

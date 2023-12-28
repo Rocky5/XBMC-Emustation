@@ -14,12 +14,12 @@
 				<control type="group">
 						<include>CommonOptionsMenuBack</include>
 						<control type="group." id="9000">
-								<posx>5</posx>
-								<posy>30</posy>
+								<left>5</left>
+								<top>30</top>
 								<control type="button" id="2">
 										<description>View As button</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<include>MenuButtonCommonValues</include>
 										<label>-</label>
 										<onleft>9001</onleft>
@@ -29,8 +29,8 @@
 								</control>
 								<control type="image">
 										<description>NoFocus Background for Sort button</description>
-										<posx>0</posx>
-										<posy>45</posy>
+										<left>0</left>
+										<top>45</top>
 										<width>238</width>
 										<height>45</height>
 										<texture border="5">button-nofocus.png</texture>
@@ -38,8 +38,8 @@
 								</control>
 								<control type="button" id="3">
 										<description>Sort by button</description>
-										<posx>0</posx>
-										<posy>45</posy>
+										<left>0</left>
+										<top>45</top>
 										<width>238</width>
 										<include>MenuButtonCommonValues</include>
 										<label>103</label>
@@ -50,8 +50,8 @@
 								</control>
 								<control type="image">
 										<description>NoFocus Background for Sort Direction Toggle</description>
-										<posx>240</posx>
-										<posy>45</posy>
+										<left>240</left>
+										<top>45</top>
 										<width>40</width>
 										<height>45</height>
 										<texture border="5">button-nofocus.png</texture>
@@ -59,8 +59,8 @@
 								</control>
 								<control type="image">
 										<description>Focus Background for Sort Direction Toggle</description>
-										<posx>240</posx>
-										<posy>45</posy>
+										<left>240</left>
+										<top>45</top>
 										<width>40</width>
 										<height>45</height>
 										<texture border="5">button-focus2.png</texture>
@@ -68,8 +68,8 @@
 								</control>
 								<control type="togglebutton" id="4">
 										<description>Sort asc</description>
-										<posx>250</posx>
-										<posy>58</posy>
+										<left>250</left>
+										<top>58</top>
 										<label>-</label>
 										<texturefocus>scroll-up.png</texturefocus>
 										<texturenofocus>scroll-up.png</texturenofocus>
@@ -82,8 +82,8 @@
 								</control>
 								<control type="radiobutton" id="99">
 										<description>Library button</description>
-										<posx>0</posx>
-										<posy>90</posy>
+										<left>0</left>
+										<top>90</top>
 										<label>$LOCALIZE[29800]</label>
 										<onclick>ReplaceWindow(MusicFiles)</onclick>
 										<selected>Window.IsVisible(MusicLibrary)</selected>
@@ -95,8 +95,8 @@
 								</control>
 								<control type="button" id="8">
 										<description>Search</description>
-										<posx>0</posx>
-										<posy>135</posy>
+										<left>0</left>
+										<top>135</top>
 										<include>MenuButtonCommonValues</include>
 										<label>137</label>
 										<onleft>9001</onleft>
@@ -106,8 +106,8 @@
 								</control>
 								<control type="radiobutton" id="19">
 										<description>Filter</description>
-										<posx>0</posx>
-										<posy>180</posy>
+										<left>0</left>
+										<top>180</top>
 										<include>MenuButtonCommonValues</include>
 										<label>587</label>
 										<onleft>9001</onleft>
@@ -117,8 +117,8 @@
 								</control>
 								<control type="radiobutton" id="16">
 										<description>PartyMode</description>
-										<posx>0</posx>
-										<posy>225</posy>
+										<left>0</left>
+										<top>225</top>
 										<include>MenuButtonCommonValues</include>
 										<label>589</label>
 										<onleft>9001</onleft>
@@ -129,8 +129,8 @@
 						</control>
 				</control>
 				<control type="image">
-						<posx>20</posx>
-						<posy>5</posy>
+						<left>20</left>
+						<top>5</top>
 						<width>40</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -138,8 +138,8 @@
 				</control>
 				<control type="label">
 						<description>Header label</description>
-						<posx>70</posx>
-						<posy>5</posy>
+						<left>70</left>
+						<top>5</top>
 						<width>700</width>
 						<height>35</height>
 						<align>left</align>
@@ -150,8 +150,8 @@
 				</control>
 				<control type="grouplist">
 						<description>Media Codec Flagging Images</description>
-						<posx>20</posx>
-						<posy>43r</posy>
+						<left>20</left>
+						<top>43r</top>
 						<width>620</width>
 						<itemgap>5</itemgap>
 						<orientation>horizontal</orientation>

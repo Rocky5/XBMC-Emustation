@@ -3,29 +3,29 @@
 		<include>dialogeffect</include>
 		<coordinates>
 				<system>2</system>
-				<posx>220</posx>
-				<posy>70</posy>
+				<left>220</left>
+				<top>70</top>
 		</coordinates>
 		<controls>
 				<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>290</width>
 						<height>385</height>
 						<texture border="40">dialogback.png</texture>
 				</control>
 				<control type="image">
 						<description>Heading Background</description>
-						<posx>30</posx>
-						<posy>34</posy>
+						<left>30</left>
+						<top>34</top>
 						<width>230</width>
 						<height>40</height>
 						<texture border="5">thumbfo.png</texture>
 				</control>
 				<control type="fadelabel" id="1">
 						<description>dialog Heading</description>
-						<posx>45</posx>
-						<posy>35</posy>
+						<left>45</left>
+						<top>35</top>
 						<width>200</width>
 						<height>40</height>
 						<font>size_21_bold</font>
@@ -36,8 +36,8 @@
 						<pauseatend>2000</pauseatend>
 				</control>
 				<control type="image">
-						<posx>45</posx>
-						<posy>85</posy>
+						<left>45</left>
+						<top>85</top>
 						<width>200</width>
 						<height>45</height>
 						<colordiffuse>BBFFFFFF</colordiffuse>
@@ -45,8 +45,8 @@
 				</control>
 				<control type="label" id="4">
 						<description>Edit Text</description>
-						<posx>50</posx>
-						<posy>85</posy>
+						<left>50</left>
+						<top>85</top>
 						<width>190</width>
 						<height>45</height>
 						<font>size_20</font>
@@ -56,12 +56,12 @@
 						<aligny>center</aligny>
 				</control>
 				<control type="group">
-						<posx>45</posx>
-						<posy>140</posy>
+						<left>45</left>
+						<top>140</top>
 						<control type="button" id="11">
 								<description>1 button</description>
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -77,8 +77,8 @@
 						</control>
 						<control type="button" id="12">
 								<description>2 button</description>
-								<posx>50</posx>
-								<posy>0</posy>
+								<left>50</left>
+								<top>0</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -94,8 +94,8 @@
 						</control>
 						<control type="button" id="13">
 								<description>3 button</description>
-								<posx>100</posx>
-								<posy>0</posy>
+								<left>100</left>
+								<top>0</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -111,8 +111,8 @@
 						</control>
 						<control type="button" id="23">
 								<description>Backspace button</description>
-								<posx>150</posx>
-								<posy>0</posy>
+								<left>150</left>
+								<top>0</top>
 								<width>48</width>
 								<height>98</height>
 								<textwidth>94</textwidth>
@@ -130,8 +130,8 @@
 						</control>
 						<control type="button" id="14">
 								<description>4 button</description>
-								<posx>0</posx>
-								<posy>50</posy>
+								<left>0</left>
+								<top>50</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -147,8 +147,8 @@
 						</control>
 						<control type="button" id="15">
 								<description>5 button</description>
-								<posx>50</posx>
-								<posy>50</posy>
+								<left>50</left>
+								<top>50</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -164,8 +164,8 @@
 						</control>
 						<control type="button" id="16">
 								<description>6 button</description>
-								<posx>100</posx>
-								<posy>50</posy>
+								<left>100</left>
+								<top>50</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -181,8 +181,8 @@
 						</control>
 						<control type="button" id="17">
 								<description>7 button</description>
-								<posx>0</posx>
-								<posy>100</posy>
+								<left>0</left>
+								<top>100</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -198,8 +198,8 @@
 						</control>
 						<control type="button" id="18">
 								<description>8 button</description>
-								<posx>50</posx>
-								<posy>100</posy>
+								<left>50</left>
+								<top>100</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -215,8 +215,8 @@
 						</control>
 						<control type="button" id="19">
 								<description>9 button</description>
-								<posx>100</posx>
-								<posy>100</posy>
+								<left>100</left>
+								<top>100</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -232,8 +232,8 @@
 						</control>
 						<control type="button" id="21">
 								<description>Done button</description>
-								<posx>150</posx>
-								<posy>100</posy>
+								<left>150</left>
+								<top>100</top>
 								<width>48</width>
 								<height>98</height>
 								<textwidth>94</textwidth>
@@ -251,8 +251,8 @@
 						</control>
 						<control type="button" id="20">
 								<description>prev button</description>
-								<posx>0</posx>
-								<posy>150</posy>
+								<left>0</left>
+								<top>150</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -269,8 +269,8 @@
 						</control>
 						<control type="button" id="10">
 								<description>0 button</description>
-								<posx>50</posx>
-								<posy>150</posy>
+								<left>50</left>
+								<top>150</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>
@@ -286,8 +286,8 @@
 						</control>
 						<control type="button" id="22">
 								<description>next button</description>
-								<posx>100</posx>
-								<posy>150</posy>
+								<left>100</left>
+								<top>150</top>
 								<width>48</width>
 								<height>48</height>
 								<font>size_20</font>

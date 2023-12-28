@@ -1,7 +1,4 @@
 <includes>
-		<variable name="var-labelcolour">
-				<value>carousel_bar_label</value>
-		</variable>
 		<!-- <variable name="var-labelcolour"> -->
 		<!-- <value condition="!Skin.HasSetting(altlabelcolour)">carousel_bar_label</value> -->
 		<!-- <value condition="Skin.HasSetting(altlabelcolour)">carousel_bar_alt_label</value> -->
@@ -10,13 +7,11 @@
 				<value condition="!StringCompare(Skin.CurrentTheme,carbon) + !StringCompare(Skin.CurrentTheme,carbon alt) | IsEmpty(Skin.String(carbon_custom_colours))">Busy_Wheel</value>
 				<value condition="StringCompare(Skin.CurrentTheme,carbon) | StringCompare(Skin.CurrentTheme,carbon alt)">FF$INFO[Skin.String(carbon_custom_colours)]</value>
 		</variable>
-		<variable name="var-contextbuttonshome">
-				<value>contextbuttonshome</value>
+		<variable name="var-context_buttons_home">
+				<value condition="StringCompare(Container(9000).ListItem.Label2,apple2) | StringCompare(Container(9000).ListItem.Label2,atari7800) | StringCompare(Container(9000).ListItem.Label2,atari800) | StringCompare(Container(9000).ListItem.Label2,atarijaguar) | StringCompare(Container(9000).ListItem.Label2,wonderswan) | StringCompare(Container(9000).ListItem.Label2,fba) | StringCompare(Container(9000).ListItem.Label2,fbaxxx) | StringCompare(Container(9000).ListItem.Label2,fbl) | StringCompare(Container(9000).ListItem.Label2,homebrew) | StringCompare(Container(9000).ListItem.Label2,xbox) | StringCompare(Container(9000).ListItem.Label2,n64) | StringCompare(Container(9000).ListItem.Label2,nds) | StringCompare(Container(9000).ListItem.Label2,gb) | StringCompare(Container(9000).ListItem.Label2,gba) | StringCompare(Container(9000).ListItem.Label2,gbc) | StringCompare(Container(9000).ListItem.Label2,pokemonmini) | StringCompare(Container(9000).ListItem.Label2,snes) | StringCompare(Container(9000).ListItem.Label2,segacd) | StringCompare(Container(9000).ListItem.Label2,sc-3000) | StringCompare(Container(9000).ListItem.Label2,dreamcastvmu) | StringCompare(Container(9000).ListItem.Label2,genesis) | StringCompare(Container(9000).ListItem.Label2,megadrive) | StringCompare(Container(9000).ListItem.Label2,sg-1000) | StringCompare(Container(9000).ListItem.Label2,neogeo) | StringCompare(Container(9000).ListItem.Label2,ngp) | StringCompare(Container(9000).ListItem.Label2,ngpc) | StringCompare(Container(9000).ListItem.Label2,sf-7000) | StringCompare(Container(9000).ListItem.Label2,ti99)">context_buttons_home_alt</value>
+				<value>context_buttons_home</value>
 		</variable>
-		<variable name="var-contextbuttonslayouts">
-				<value>contextbuttonslayouts</value>
-		</variable>
-		<variable name="var-menuback">
-				<value>menu_select_back</value>
+		<variable name="var-context_buttons_layouts">
+				<value>context_buttons_layouts</value>
 		</variable>
 </includes>

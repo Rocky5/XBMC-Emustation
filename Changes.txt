@@ -1,3 +1,63 @@
+28/12/2023
+	1) FTP 4GB file transfer issue fixed
+		(Big thanks to Team Resurgent / EqUiNoX)
+	2) Fixed returning to rom list not working.
+	3) Fixed all issues with Homebrew and Ports menus.
+		(menus and sources when in xbe edit mode)
+	4) Fixed scanning of Xbox games, it wasn't scanning all games in.
+	5) Most systems scanned in will now be sorted alphabetically like XBE content is.
+	6) Two new options for the scanner menu, ignore "the" when sorting and remove articles fro the end of names.
+	7) Fixed synopsis naming for roms, so now the order matches the names :D
+	8) Can now sort systems by alphabetical order or system ID.
+	9) Higher resolution system logos and also for all themes. Redownload required.
+		(I forgot to add a function to my converter so it was crap quality :/)
+	10) New menu for changing theme colours if they have more than one.
+		(Under the UISettings > Customise menu)
+	11) Made changes to variables and other structures so themes will need to be redownloaded on release to be usable with this version.
+	12) Fixed returning to the home screen if using the video layout.
+	13) Should have fixed all issues loading roms when using the video layout mode.
+	15) Back-end changes to allow more features & some streamlining.
+	16) Updated mames synopsis files
+	17) Updated mame autoload.xbe to 2023 source.
+		(full emulator is on the downloader)
+	18) Fixed the scanning script not fixing digit names.
+		(XBMC will parse them as localized labels if I don't fix them)
+	19)	Moved all skin files over to <left> and <top> like gamers.
+	20) Added check to the create_roms_lists.py that will notify you if you have roms for a system nut no emulator.
+		(this is instead of it erroring when it gets to N64 or other systems that I use files for)
+
+	21) Added support for custom scan paths via "Q:\emustation\custom_scan_paths.ini". This is update proof so set it once and leave it be.
+	22) Added CPU and MB temps to the debug info.
+	23) Removed the update check from the advanced settings menu and the script.
+
+	Example:
+		[Games]
+		E:\Games\
+		F:\Games\
+		G:\Games\
+		[Homebrew]
+		E:\Homebrew\
+		F:\Homebrew\
+		G:\Homebrew\
+		[Ports]
+		E:\Ports\
+		F:\Ports\
+		G:\Ports\
+
+	New XBE additions
+	1) Skin debug info.
+		(ported from kodi)
+	2) Justify text align spacing.
+		(ported from kodi)
+	3) Textbox center align.
+		(ported from kodi)
+	4) Justify align to grouplists.
+		(ported from kodi)
+	5) TextBoxs now support bottom aligny.
+	
+	Other
+	1) Reverted to 3.5.3 _sqlite3.pyd as the newer one breaks "sqlite3.connect".
+
 08/07/2023
 	1) Added support for SD resolutions.
 		(Big thank you to loggio for doing all the SD theme xml sizing, without him I wouldn't have added SD support. Downloader now supports SD resolutions also.)

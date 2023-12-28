@@ -18,6 +18,14 @@ msgctxt "#31000"
 msgid "xbmc-emustation 0.0.000"
 msgstr ""
 
+msgctxt "#31001"
+msgid "build type"
+msgstr ""
+
+msgctxt "#31002"
+msgid "xbmc-emustation datetime"
+msgstr ""
+
 ## internal - no xml file id's cannot be changed, unless you recompile the xbe
 msgctxt "#32000"
 msgid "Advanced"
@@ -194,32 +202,32 @@ msgid "customization"
 msgstr "personnalisation"
 
 msgctxt "#31267"
-msgid "disable festive overlay"
-msgstr "désactiver la superposition festive"
+msgid "festive overlay"
+msgstr "superposition festive"
 
 msgctxt "#31268"
-msgid "enable default to last systems rom list"
-msgstr "activer la liste par défaut pour le dernier système rom"
+msgid " default to last systems rom list"
+msgstr "liste par défaut pour le dernier système rom"
 
 msgctxt "#31269"
-msgid "enable intro video"
-msgstr "activer la vidéo d'introduction"
+msgid "intro video"
+msgstr "vidéo d'introduction"
 
 msgctxt "#31270"
-msgid "enable kiosk mode"
-msgstr "activer le mode kiosque"
+msgid "kiosk mode"
+msgstr "mode kiosque"
 
 msgctxt "#31271"
-msgid "enable reload emustation after game/rom"
-msgstr "activer l'émustation de rechargement après le jeu/la rom"
+msgid "reload emustation after game/rom"
+msgstr "recharger l'émustation après le jeu/rom"
 
 msgctxt "#31272"
-msgid "disable favourites carousel tile"
-msgstr "désactiver la vignette du carrousel des favoris"
+msgid "favourites carousel tile"
+msgstr "vignette du carrousel des favoris"
 
 msgctxt "#31273"
-msgid "disable sd themes"
-msgstr "désactiver la prise en charge de la résolution sd"
+msgid "sd resolution support"
+msgstr "prise en charge de la résolution sd"
 
 ## customization - custom_customizehome.xml - 31290 to 31319
 
@@ -283,6 +291,13 @@ msgctxt "#31304"
 msgid "miscellaneous"
 msgstr "divers"
 
+msgctxt "#31305"
+msgid "sort by system names"
+msgstr "trier par noms de système"
+
+msgctxt "#31306"
+msgid "change theme colors"
+msgstr "changer les couleurs du thème"
 
 ## change themes - custom_themeselect.xml - 31320 to 31349 ( not really used but in case i want to expand it)
 
@@ -341,28 +356,52 @@ msgid "patch most emulator save paths"
 msgstr "patch la plupart des chemins de sauvegarde de l'émulateur"
 
 msgctxt "#31363"
-msgid "Scanner Options"
-msgstr "Options du scanner"
+msgid "scanner options"
+msgstr "options du scanner"
 
 msgctxt "#31364"
-msgid "Use _Resources for Xbox artwork"
-msgstr "Utiliser _Resources pour les illustrations Xbox"
+msgid "use _resources for xbox artwork"
+msgstr "utiliser _resources pour les illustrations xbox"
 
 msgctxt "#31365"
-msgid "Overwrite existing Xbox artwork"
-msgstr "Écraser les illustrations Xbox existantes"
+msgid "overwrite existing xbox artwork"
+msgstr "écraser les illustrations xbox existantes"
 
 msgctxt "#31366"
-msgid "Use Synopsis naming format"
-msgstr "Utiliser le format de dénomination Synopsis"
+msgid "use synopsis naming format"
+msgstr "utiliser le format de dénomination synopsis"
 
 msgctxt "#31367"
-msgid "Scan for SegaCD - ISO/BIN/IMG/MP3"
-msgstr "Recherche de SegaCD - ISO / BIN / IMG / MP3"
+msgid "scan for segacd - iso/bin/img/mp3"
+msgstr "recherche de segacd - iso / bin / img / mp3"
 
 msgctxt "#31368"
-msgid "View Log Files"
-msgstr "Afficher les fichiers journaux"
+msgid "view log files"
+msgstr "afficher les fichiers journaux"
+
+msgctxt "#31369"
+msgid "ignore "the" when sorting"
+msgstr "ignorer "le" lors du tri"
+
+msgctxt "#31370"
+msgid "remove articles from end of name"
+msgstr "supprimer les articles à la fin du nom"
+
+msgctxt "#31371"
+msgid "add videos if found"
+msgstr "ajouter des vidéos si trouvé"
+
+msgctxt "#31372"
+msgid "global settings"
+msgstr "paramètres globaux"
+
+msgctxt "#31373"
+msgid "homebrew, ports or xbox settings"
+msgstr "paramètres homebrew, ports ou xbox"
+
+msgctxt "#31374"
+msgid "other options"
+msgstr "autres options"
 
 ## quit - custom_quit.xml - 31380 to 31399
 

@@ -1,8 +1,8 @@
 <includes>
 		<include name="CommonRootView">
 				<control type="panel" id="50">
-						<posx>50</posx>
-						<posy>90</posy>
+						<left>50</left>
+						<top>90</top>
 						<width>1175</width>
 						<height>550</height>
 						<onleft>9000</onleft>
@@ -15,15 +15,15 @@
 						<preloaditems>0</preloaditems>
 						<itemlayout height="50" width="1175">
 								<control type="image">
-										<posx>0</posx>
-										<posy>1</posy>
+										<left>0</left>
+										<top>1</top>
 										<width>1175</width>
 										<height>48</height>
 										<texture>thumbnf.png</texture>
 								</control>
 								<control type="image">
-										<posx>2.5</posx>
-										<posy>2.5</posy>
+										<left>2.5</left>
+										<top>2.5</top>
 										<width>45</width>
 										<height>45</height>
 										<texture background="true">$INFO[listitem.icon]</texture>
@@ -31,8 +31,8 @@
 										<bordersize>2</bordersize>
 								</control>
 								<control type="label">
-										<posx>60</posx>
-										<posy>5</posy>
+										<left>60</left>
+										<top>5</top>
 										<width>1175</width>
 										<height>25</height>
 										<font>size_28</font>
@@ -43,8 +43,8 @@
 										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 								</control>
 								<control type="label">
-										<posx>60</posx>
-										<posy>30</posy>
+										<left>60</left>
+										<top>30</top>
 										<width>1175</width>
 										<height>15</height>
 										<font>size_12</font>
@@ -58,15 +58,15 @@
 						</itemlayout>
 						<focusedlayout height="50" width="1175">
 								<control type="image">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<width>1175</width>
 										<height>50</height>
 										<texture>button-focus4.png</texture>
 								</control>
 								<control type="image">
-										<posx>2.5</posx>
-										<posy>2.5</posy>
+										<left>2.5</left>
+										<top>2.5</top>
 										<width>45</width>
 										<height>45</height>
 										<texture background="true">$INFO[listitem.icon]</texture>
@@ -74,8 +74,8 @@
 										<bordersize>2</bordersize>
 								</control>
 								<control type="label">
-										<posx>60</posx>
-										<posy>5</posy>
+										<left>60</left>
+										<top>5</top>
 										<width>1175</width>
 										<height>25</height>
 										<font>size_28</font>
@@ -86,8 +86,8 @@
 										<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
 								</control>
 								<control type="label">
-										<posx>60</posx>
-										<posy>30</posy>
+										<left>60</left>
+										<top>30</top>
 										<width>1175</width>
 										<height>15</height>
 										<font>size_12</font>
@@ -101,8 +101,8 @@
 						</focusedlayout>
 				</control>
 				<control type="scrollbar" id="60">
-						<posx>1226</posx>
-						<posy>90</posy>
+						<left>1226</left>
+						<top>90</top>
 						<width>15</width>
 						<height>550</height>
 						<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>

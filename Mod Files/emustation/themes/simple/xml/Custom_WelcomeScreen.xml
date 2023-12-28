@@ -2,19 +2,19 @@
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<controls>
 				<control type="button" id="9000">
-						<posx>-500</posx>
-						<posy>0</posy>
+						<left>-500</left>
+						<top>0</top>
 						<onfocus>SetFocus(1)</onfocus>
 				</control>
 				<include>CommonBackground</include>
 				<control type="group">
-						<posy>90</posy>
+						<top>90</top>
 						<animation effect="fade" time="250">WindowOpen</animation>
 						<animation effect="fade" time="100">WindowClose</animation>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>108</posy>
+								<left>320</left>
+								<top>108</top>
 								<width>640</width>
 								<height>324</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -22,24 +22,26 @@
 						</control>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>200</posy>
+								<left>320</left>
+								<top>200</top>
 								<width>640</width>
 								<height>1</height>
+								<colordiffuse>menu_focus_back</colordiffuse>
 								<texture>separator_menu.png</texture>
 						</control>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>380</posy>
+								<left>320</left>
+								<top>380</top>
 								<width>640</width>
 								<height>1</height>
+								<colordiffuse>menu_focus_back</colordiffuse>
 								<texture>separator_menu.png</texture>
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>640</width>
 								<height>50</height>
 								<align>center</align>
@@ -49,8 +51,8 @@
 								<textcolor>menu_header_label</textcolor>
 						</control>
 						<control type="textbox">
-								<posx>380</posx>
-								<posy>210</posy>
+								<left>380</left>
+								<top>210</top>
 								<width>520</width>
 								<height>300</height>
 								<align>center</align>
@@ -63,16 +65,16 @@
 						</control>
 						<control type="grouplist">
 								<control type="button" id="1">
-										<posx>-500</posx>
-										<posy>0</posy>
+										<left>-500</left>
+										<top>0</top>
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
 										<onclick>SetFocus(2)</onclick>
 								</control>
 						</control>
 						<control type="textbox">
-								<posx>380</posx>
-								<posy>230</posy>
+								<left>380</left>
+								<top>230</top>
 								<width>520</width>
 								<height>300</height>
 								<align>center</align>
@@ -86,16 +88,16 @@
 						</control>
 						<control type="grouplist">
 								<control type="button" id="2">
-										<posx>-500</posx>
-										<posy>0</posy>
+										<left>-500</left>
+										<top>0</top>
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
 										<onclick>SetFocus(3)</onclick>
 								</control>
 						</control>
 						<control type="textbox">
-								<posx>380</posx>
-								<posy>240</posy>
+								<left>380</left>
+								<top>240</top>
 								<width>520</width>
 								<height>300</height>
 								<align>center</align>
@@ -109,16 +111,16 @@
 						</control>
 						<control type="grouplist">
 								<control type="button" id="3">
-										<posx>-500</posx>
-										<posy>0</posy>
+										<left>-500</left>
+										<top>0</top>
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
 										<onclick>SetFocus(4)</onclick>
 								</control>
 						</control>
 						<control type="textbox">
-								<posx>380</posx>
-								<posy>220</posy>
+								<left>380</left>
+								<top>220</top>
 								<width>520</width>
 								<height>300</height>
 								<align>center</align>
@@ -132,16 +134,16 @@
 						</control>
 						<control type="grouplist">
 								<control type="button" id="4">
-										<posx>-500</posx>
-										<posy>0</posy>
+										<left>-500</left>
+										<top>0</top>
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
 										<onclick>SetFocus(5)</onclick>
 								</control>
 						</control>
 						<control type="textbox">
-								<posx>380</posx>
-								<posy>210</posy>
+								<left>380</left>
+								<top>210</top>
 								<width>520</width>
 								<height>300</height>
 								<align>center</align>
@@ -155,8 +157,8 @@
 						</control>
 						<control type="grouplist">
 								<control type="button" id="5">
-										<posx>-500</posx>
-										<posy>0</posy>
+										<left>-500</left>
+										<top>0</top>
 										<texturefocus>-</texturefocus>
 										<texturenofocus>-</texturenofocus>
 										<onclick>Skin.SetBool(firstrun)</onclick>
@@ -165,21 +167,21 @@
 								</control>
 						</control>
 						<!-- <control type="grouplist"> -->
-						<!-- <posx>470</posx> -->
-						<!-- <posy>260</posy> -->
+						<!-- <left>470</left> -->
+						<!-- <top>260</top> -->
 						<!-- <width>340</width> -->
 						<!-- <height>50</height> -->
 						<!-- <control type="button" id="6"> -->
-						<!-- <posx>0</posx> -->
-						<!-- <posy>0</posy> -->
+						<!-- <left>0</left> -->
+						<!-- <top>0</top> -->
 						<!-- <width>340</width> -->
 						<!-- <height>50</height> -->
 						<!-- <font>size_23</font> -->
 						<!-- <align>center</align> -->
 						<!-- <aligny>center</aligny> -->
 						<!-- <label>$LOCALIZE[32022]</label> -->
-						<!-- <textcolor>menu_deselect_label</textcolor> -->
-						<!-- <focusedcolor>menu_select_label</focusedcolor> -->
+						<!-- <textcolor>menu_nofocus_label</textcolor> -->
+						<!-- <focusedcolor>menu_focus_label</focusedcolor> -->
 						<!-- <shadowcolor>-</shadowcolor> -->
 						<!-- <textoffsetx>10</textoffsetx> -->
 						<!-- <texturefocus border="5">button-focus4.png</texturefocus> -->
@@ -190,8 +192,8 @@
 						<!-- </control> -->
 						<control type="label">
 								<description>footer label</description>
-								<posx>320</posx>
-								<posy>395</posy>
+								<left>320</left>
+								<top>395</top>
 								<width>640</width>
 								<height>50</height>
 								<align>center</align>

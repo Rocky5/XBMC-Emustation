@@ -3,8 +3,8 @@
 		<controls>
 				<control type="image">
 						<description>background image</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>720</width>
 						<height>576</height>
 						<colordiffuse>E0000000</colordiffuse>
@@ -12,12 +12,12 @@
 						<visible>!Window.IsActive(1111)</visible>
 				</control>
 				<control type="group">
-						<posy>0</posy>
+						<top>0</top>
 						<visible>!Control.HasFocus(100) + !Control.HasFocus(101) + !Control.HasFocus(102) + !Control.HasFocus(103) + !Control.HasFocus(104) + !Control.HasFocus(105)</visible>
 						<control type="image">
 								<description>background image</description>
-								<posx>150</posx>
-								<posy>80</posy>
+								<left>150</left>
+								<top>80</top>
 								<width>430</width>
 								<height>380</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -25,8 +25,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>150</posx>
-								<posy>80</posy>
+								<left>150</left>
+								<top>80</top>
 								<width>430</width>
 								<height>80</height>
 								<align>center</align>
@@ -36,8 +36,8 @@
 								<textcolor>menu_header_label</textcolor>
 						</control>
 						<control type="grouplist" id="9000">
-								<posx>150</posx>
-								<posy>170</posy>
+								<left>150</left>
+								<top>170</top>
 								<width>431</width>
 								<height>255</height>
 								<onleft>9000</onleft>
@@ -46,22 +46,22 @@
 								<ondown>9000</ondown>
 								<itemgap>-1</itemgap>
 								<control type="button" id="1">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31380][/UPPERCASE]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>SetFocus(101)</onclick>
 								</control>
 								<control type="button" id="2">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31381][/UPPERCASE]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>SetFocus(103)</onclick>
 								</control>
 								<control type="button" id="3">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31382][/UPPERCASE]</label>
 										<include>MenuButtonCommonValues</include>
 										<onclick>SetFocus(105)</onclick>
@@ -69,14 +69,14 @@
 						</control>
 				</control>
 				<control type="group">
-						<posy>100</posy>
-						<posx>-180</posx>
+						<top>100</top>
+						<left>-180</left>
 						<visible>Control.HasFocus(100) | Control.HasFocus(101) | Control.HasFocus(102) | Control.HasFocus(103) | Control.HasFocus(104) | Control.HasFocus(105)</visible>
 						<!-- Yes no dialog -->
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>108</posy>
+								<left>320</left>
+								<top>108</top>
 								<width>460</width>
 								<height>168</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -84,16 +84,16 @@
 						</control>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>200</posy>
+								<left>320</left>
+								<top>200</top>
 								<width>460</width>
 								<height>1</height>
 								<texture>separator_menu.png</texture>
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>460</width>
 								<height>50</height>
 								<align>center</align>
@@ -105,8 +105,8 @@
 						</control>
 						<!-- restart app -->
 						<control type="grouplist" id="9001">
-								<posx>320</posx>
-								<posy>212</posy>
+								<left>320</left>
+								<top>212</top>
 								<width>460</width>
 								<height>150</height>
 								<itemgap>5</itemgap>
@@ -114,15 +114,15 @@
 								<orientation>horizontal</orientation>
 								<visible allowhiddenfocus="true">Control.HasFocus(100) | Control.HasFocus(101)</visible>
 								<control type="button" id="100">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[12019][/UPPERCASE]</label>
 										<include>MenuYesNoButtonCommonValues</include>
 										<onclick>RestartApp</onclick>
 								</control>
 								<control type="button" id="101">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[12018][/UPPERCASE]</label>
 										<include>MenuYesNoButtonCommonValues</include>
 										<onclick>SetFocus(1)</onclick>
@@ -130,8 +130,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>460</width>
 								<height>50</height>
 								<align>center</align>
@@ -143,8 +143,8 @@
 						</control>
 						<!-- restart xbox -->
 						<control type="grouplist" id="9002">
-								<posx>320</posx>
-								<posy>212</posy>
+								<left>320</left>
+								<top>212</top>
 								<width>460</width>
 								<height>150</height>
 								<itemgap>5</itemgap>
@@ -152,15 +152,15 @@
 								<orientation>horizontal</orientation>
 								<visible allowhiddenfocus="true">Control.HasFocus(102) | Control.HasFocus(103)</visible>
 								<control type="button" id="102">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[12019][/UPPERCASE]</label>
 										<include>MenuYesNoButtonCommonValues</include>
 										<onclick>Reboot</onclick>
 								</control>
 								<control type="button" id="103">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[12018][/UPPERCASE]</label>
 										<include>MenuYesNoButtonCommonValues</include>
 										<onclick>SetFocus(2)</onclick>
@@ -168,8 +168,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>460</width>
 								<height>50</height>
 								<align>center</align>
@@ -181,8 +181,8 @@
 						</control>
 						<!-- shutdown xbox -->
 						<control type="grouplist" id="9003">
-								<posx>320</posx>
-								<posy>212</posy>
+								<left>320</left>
+								<top>212</top>
 								<width>460</width>
 								<height>150</height>
 								<itemgap>5</itemgap>
@@ -190,15 +190,15 @@
 								<orientation>horizontal</orientation>
 								<visible allowhiddenfocus="true">Control.HasFocus(104) | Control.HasFocus(105)</visible>
 								<control type="button" id="104">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[12019][/UPPERCASE]</label>
 										<include>MenuYesNoButtonCommonValues</include>
 										<onclick>Powerdown</onclick>
 								</control>
 								<control type="button" id="105">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[12018][/UPPERCASE]</label>
 										<include>MenuYesNoButtonCommonValues</include>
 										<onclick>SetFocus(3)</onclick>

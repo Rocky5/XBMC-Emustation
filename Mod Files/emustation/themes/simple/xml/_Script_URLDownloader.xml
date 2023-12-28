@@ -1,6 +1,6 @@
 <window type="window" id="1901">
 		<defaultcontrol always="true">1</defaultcontrol>
-		<onload>RunScript(Special://urldownloader/default.py,1IX8ucAnb8cqIAZuydCzTwrS0PrZ4x7WT,URLDownloader.zip,3136624,3675565,Q:/system/scripts/)</onload>
+		<onload>RunScript(Special://urldownloader/ForceUpdate.py)</onload>
 		<controls>
 				<!-- Background Images -->
 				<include>CommonBackground</include>

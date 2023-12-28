@@ -5,8 +5,8 @@
 				<!-- Background Images -->
 				<control type="image">
 						<description>background</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>720</width>
 						<height>576</height>
 						<aspectratio>stretch</aspectratio>
@@ -16,8 +16,8 @@
 				<!-- Top Underlay Image -->
 				<control type="image">
 						<description>top bar</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>720</width>
 						<height>90</height>
 						<aspectratio>stretch</aspectratio>
@@ -27,8 +27,8 @@
 				<!-- System Log -->
 				<control type="image">
 						<description>logo</description>
-						<posx>30</posx>
-						<posy>20</posy>
+						<left>30</left>
+						<top>20</top>
 						<width>490</width>
 						<height>52</height>
 						<aspectratio align="left">keep</aspectratio>
@@ -36,8 +36,8 @@
 				</control>
 				<!-- Bottom Underlay Image -->
 				<control type="image">
-						<posx>0</posx>
-						<posy>47r</posy>
+						<left>0</left>
+						<top>47r</top>
 						<width>720</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -49,8 +49,8 @@
 						<include>ViewVisibleEffect</include>
 						<control type="grouplist" id="3">
 								<description>button area</description>
-								<posx>40</posx>
-								<posy>95</posy>
+								<left>40</left>
+								<top>95</top>
 								<width>165</width>
 								<height>375</height>
 								<itemgap>0</itemgap>
@@ -99,8 +99,8 @@
 						</control>
 						<control type="grouplist" id="5">
 								<description>control area</description>
-								<posx>210</posx>
-								<posy>95</posy>
+								<left>210</left>
+								<top>95</top>
 								<width>460</width>
 								<height>375</height>
 								<itemgap>0</itemgap>
@@ -111,8 +111,8 @@
 								<ondown>5</ondown>
 						</control>
 						<control type="scrollbar" id="90">
-								<posx>1225</posx>
-								<posy>143</posy>
+								<left>1225</left>
+								<top>143</top>
 								<width>17</width>
 								<height>500</height>
 								<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>

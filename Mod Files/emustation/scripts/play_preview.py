@@ -1,7 +1,7 @@
 import os, xbmc, xbmcgui, time
 dialog	= xbmcgui.Dialog()
 if not xbmc.Player().isPlayingVideo():
-	Focus	= "9000"
+	Focus = "9000"
 	Music_Playing = 0
 	Played_Video = 0
 	if xbmc.Player().isPlayingAudio():

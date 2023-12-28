@@ -3,11 +3,11 @@
 		<include>defaultassetspaths</include>
 		<controls>
 				<control type="group">
-						<posy>0</posy>
+						<top>0</top>
 						<control type="image">
 								<description>background image</description>
-								<posx>150</posx>
-								<posy>80</posy>
+								<left>150</left>
+								<top>80</top>
 								<width>430</width>
 								<height>380</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -15,8 +15,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>150</posx>
-								<posy>80</posy>
+								<left>150</left>
+								<top>80</top>
 								<width>430</width>
 								<height>80</height>
 								<align>center</align>
@@ -27,8 +27,8 @@
 						</control>
 						<!-- Main Menu -->
 						<control type="grouplist" id="9000">
-								<posx>150</posx>
-								<posy>170</posy>
+								<left>150</left>
+								<top>170</top>
 								<width>431</width>
 								<height>255</height>
 								<onleft>-</onleft>
@@ -36,34 +36,26 @@
 								<onup>9000</onup>
 								<ondown>9000</ondown>
 								<itemgap>-1</itemgap>
-								<control type="button" id="1">
-										<description>Enable Update Check</description>
-										<posx>0</posx>
-										<posy>0</posy>
-										<label>[UPPERCASE]$LOCALIZE[31361][/UPPERCASE]</label>
-										<include>MenuButtonMenuValues</include>
-										<onclick>RunScript( special://emustation_scripts/dialog_ok.py,run_script,NOTICE,,About to check for an update[CR]This can take a few seconds.,,special://emustation_scripts/update_check.py )</onclick>
-								</control>
 								<control type="button" id="2">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31362][/UPPERCASE]</label>
-										<textwidth>430</textwidth>											
-										<include>MenuButtonMenuValues</include>						
+										<textwidth>430</textwidth>
+										<include>MenuButtonMenuValues</include>
 										<onclick>RunScript(special://emustation_scripts/patch_xbe_paths.py)</onclick>
 								</control>
 								<control type="button" id="3">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31368][/UPPERCASE]</label>
 										<include>MenuButtonMenuValues</include>
 										<onclick>RunScript(special://emustation_scripts/text_reader.py,2, )</onclick>
 								</control>
 								<!-- custom paths -->
 								<control type="label" id="10">
-										<posx>120</posx>
-										<posy>130</posy>
-										<width>430</width>										
+										<left>120</left>
+										<top>130</top>
+										<width>430</width>
 										<height>43</height>
 										<align>center</align>
 										<aligny>center</aligny>
@@ -72,8 +64,8 @@
 										<textcolor>menu_header_label</textcolor>
 								</control>
 								<control type="button" id="11">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31356][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(Custom_Emulator_Path)]</label2>
 										<include>MenuButtonMenuValues</include>
@@ -81,8 +73,8 @@
 										<onclick>Skin.SetPath(Custom_Emulator_Path)</onclick>
 								</control>
 								<control type="button" id="13">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31357][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(Custom_Media_Path)]</label2>
 										<include>MenuButtonMenuValues</include>
@@ -90,8 +82,8 @@
 										<onclick>Skin.SetPath(Custom_Media_Path)</onclick>
 								</control>
 								<control type="button" id="15">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$LOCALIZE[31358][/UPPERCASE]</label>
 										<label2>$INFO[Skin.String(Custom_Roms_Path)]</label2>
 										<include>MenuButtonMenuValues</include>
@@ -99,8 +91,8 @@
 										<onclick>Skin.SetPath(Custom_Roms_Path)</onclick>
 								</control>
 								<control type="button" id="16">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>  -  $LOCALIZE[31359]</label>
 										<include>MenuButtonMenuValues</include>
 										<onclick>Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onclick>
@@ -112,8 +104,8 @@
 						</control>
 				</control>
 				<control type="image">
-						<posx>180r</posx>
-						<posy>145</posy>
+						<left>180r</left>
+						<top>145</top>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-up.png</texture>
@@ -124,8 +116,8 @@
 						</animation>
 				</control>
 				<control type="image">
-						<posx>180r</posx>
-						<posy>145r</posy>
+						<left>180r</left>
+						<top>145r</top>
 						<width>22</width>
 						<height>22</height>
 						<texture>scroll-down.png</texture>

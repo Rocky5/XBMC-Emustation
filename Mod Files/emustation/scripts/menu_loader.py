@@ -10,6 +10,7 @@ except:
 pDialog							= xbmcgui.DialogProgress()
 dialog							= xbmcgui.Dialog()
 XBE_Files						= 0
+XBE_Content						= 0
 EMU_Files						= 0
 FAV_Files						= 0
 Default_Layout_XML_Path			= "0"
@@ -29,12 +30,11 @@ else:
 	Layout_Mode = ''
 	XML_Mode = 'xml/'
 MyPrograms_Path					= xbmc.translatePath('special://skin/' + XML_Mode + 'MyPrograms.xml')
-Custom_Games_Path				= xbmc.translatePath('special://skin/' + XML_Mode + 'MyPrograms.xml')
 _Script_Jump_Path				= xbmc.translatePath('special://skin/' + XML_Mode + '_script_jumpList.xml')
 FAV_XML_Path					= xbmc.translatePath('special://skin/' + XML_Mode + 'DialogFavourites.xml')
 Overlay_JumpXML_File			= open(xbmc.translatePath('special://skin/' + XML_Mode + 'Includes_layout_overlay.xml')).read()
 Overlay_JumpXML_XBE_File		= open(xbmc.translatePath('special://skin/' + XML_Mode + 'Includes_layout_overlay_xbe.xml')).read()
-Favs_List_Path					= xbmc.translatePath('special://xbmc/emustation/gamelists/' + MenuLabel)
+XML_Files_Path					= xbmc.translatePath('special://xbmc/emustation/gamelists/' + MenuLabel)
 Default_Layout_Path				= xbmc.translatePath('special://xbmc/emustation/themes/simple/layouts/default' + Layout_Mode)
 Default_Theme_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/default' + Layout_Mode)
 Custom_Theme_Layout_Path		= xbmc.translatePath('special://xbmc/emustation/themes/' + ThemeType + '/layouts/' + MenuLabel + Layout_Mode)
@@ -93,7 +93,7 @@ Header_Data_EMU					= '<window type="window" id="1">\n\
 		<layout>%s</layout>\n\
 		<controls>\n\
 		<control type="button" id="9200">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 		</control>\n\
 		<control type="group">\n\
 				<visible>!Window.IsVisible(1101)</visible>\n\
@@ -111,18 +111,18 @@ Header_Data_EMU					= '<window type="window" id="1">\n\
 		<visible>!Window.IsVisible(1101)</visible>\n\
 		<!-- Used to run the script and stop folk moving the list forward or backwards -->\n\
 		<control type="button" id="9999">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onfocus>RunScript(special://emustation_scripts/play_preview.py)</onfocus>\n\
 			<visible>!Skin.HasSetting(videolayout)</visible>\n\
 		</control>\n\
 		<control type="button" id="9990">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onfocus>SetFocus(9000)</onfocus>\n\
 			<onfocus>ActivateWindow(1120)</onfocus>\n\
 		</control>\n\
 		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
 		<control type="button" id="9100">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onup>setfocus(9000)</onup>\n\
 			<ondown>setfocus(9000)</ondown>\n\
 			<onleft>setfocus(9000)</onleft>\n\
@@ -140,7 +140,7 @@ Header_Data_EMU					= '<window type="window" id="1">\n\
 			<visible>!Skin.HasSetting(videolayout) + !Skin.HasSetting(videopreviewhorizontal)</visible>\n\
 		</control>\n\
 		<control type="button" id="9100">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onup>setfocus(9000)</onup>\n\
 			<ondown>setfocus(9000)</ondown>\n\
 			<onleft>setfocus(9000)</onleft>\n\
@@ -168,15 +168,16 @@ Header_Data_FAVS				= '<window type="dialog" id="134">\n\
 	<include>Fav_Layout_Animation</include>\n\
 	<controls>\n\
 		<control type="button" id="9990">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onfocus>SetFocus(1000)</onfocus>\n\
 		</control>\n'
 Footer_Data_FAVS				= '\n\
 	</controls>\n\
 	</window>'
-if not MenuLabel == "xbox" and not MenuLabel == "ports":
+if not MenuLabel == "xbox" and not MenuLabel == "homebrew" and not MenuLabel == "ports":
 	Jump_File_Data				= Overlay_JumpXML_File
 else:
+	XBE_Content = 1
 	Jump_File_Data				= Overlay_JumpXML_XBE_File
 Header_Data_XBE					= '<window id="1">\n\
 		<onunload condition="Player.HasVideo">Stop</onunload>\n\
@@ -189,17 +190,17 @@ Header_Data_XBE					= '<window id="1">\n\
 		<control type="group">\n\
 		<include>Layout_Animation</include>\n\
 		<control type="button" id="9990">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onfocus>SetFocus(50)</onfocus>\n\
 			<onfocus>ContextMenu</onfocus>\n\
 		</control>\n\
 		<control type="button" id="9000">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onfocus>SetFocus(50)</onfocus>\n\
 		</control>\n\
 		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
 		<control type="button" id="9100">\n\
-			<posx>-500</posx>\n\
+			<left>-500</left>\n\
 			<onup>setfocus(50)</onup>\n\
 			<ondown>setfocus(50)</ondown>\n\
 			<onleft>setfocus(50)</onleft>\n\
@@ -314,7 +315,7 @@ else:	# default layout is missing so error!
 	xbmc.executebuiltin('SetFocus(9000)')
 	dialog.ok("ERROR","Default layout file is missing.",Default_Layout_XML_Path)
 if EMU_Files == 1:
-	if os.path.isfile(os.path.join(Favs_List_Path,'gamelist.xml')):
+	if os.path.isfile(os.path.join(XML_Files_Path,'gamelist.xml')):
 		## this is here so not to mess with the actual menulabel
 		if not os.path.isfile(Layout_XML_Path):
 			MenuLabel_XML = "default"
@@ -323,26 +324,28 @@ if EMU_Files == 1:
 		Header_Data = Header_Data_EMU % (MenuLabel_XML)
 		try:
 			with open(Layout_File) as layoutfile:
-				with open(Custom_Games_Path, "w") as inputfile:
+				with open(MyPrograms_Path, "w") as inputfile:
 					inputfile.write(Header_Data)
 					for code in layoutfile:
+						if XBE_Content: code = code.replace('[Media_Path]\\screenshots\\','[Media_Path]\\fanart\\')
 						code = code.replace('[ArtworkFolder]',xbmc.getInfoLabel('skin.string(Custom_Media_Path)') + xbmc.getInfoLabel('Skin.String(emuname)') + '\$INFO[Skin.String('+ MenuLabel +'_artworkfolder)]\\')
+						code = code.replace('[Artwork_Type]',MenuLabel +'_artworkfolder')
 						code = code.replace('[Fanart_Toggle]','Skin.HasSetting(' + xbmc.getInfoLabel('Skin.String(emuname)') + 'fanart)')
 						code = code.replace('[Media_Path]',xbmc.getInfoLabel('skin.string(Custom_Media_Path)') + xbmc.getInfoLabel('Skin.String(emuname)'))
 						code = code.replace('[CurrentSystem]',MenuLabel)
 						if '<!-- video preview mode horizontal -->' in code: xbmc.executebuiltin('Skin.SetBool(videopreviewhorizontal)')
 						inputfile.write(code)
 					inputfile.write(Footer_Data_EMU)
-			with open(os.path.join(Favs_List_Path,'gamelist.xml')) as gamelistfile:
+			with open(os.path.join(XML_Files_Path,'gamelist.xml')) as gamelistfile:
 				gamelistfile = gamelistfile.read()
 				gamelistfile = gamelistfile.replace('[ArtworkFolder]',xbmc.getInfoLabel('skin.string(Custom_Media_Path)') + xbmc.getInfoLabel('Skin.String(emuname)') + '\$INFO[Skin.String('+ MenuLabel +'_artworkfolder)]\\')
-				for line in fileinput.FileInput(Custom_Games_Path,inplace=1):
+				for line in fileinput.FileInput(MyPrograms_Path,inplace=1):
 					if '<!-- content list this label is required -->' in line:
 						line = line.replace(line,line+gamelistfile)
 					print line,
 			with open(_Script_Jump_Path, "w") as inputfile:
 				inputfile.write(Jump_File_Data.replace("' + MenuLabel + '",MenuLabel))
-			with open(os.path.join(Favs_List_Path,'jumplist.xml')) as jumpfile:
+			with open(os.path.join(XML_Files_Path,'jumplist.xml')) as jumpfile:
 				jumpfile = jumpfile.read()
 				for line in fileinput.FileInput(_Script_Jump_Path,inplace=1):
 					if '<!-- jumpcode -->' in line:
@@ -358,11 +361,13 @@ if EMU_Files == 1:
 	else:	# default layout is missing so error!
 		xbmc.executebuiltin('SetFocus(9000)')
 		if MenuLabel == "xbox":
-			dialog.ok("ERROR","No game list found","Rescan your xbox games to fix.",os.path.join(Favs_List_Path,'gamelist.xml'))
+			dialog.ok("ERROR","No game list found","Rescan your xbox games to fix.",os.path.join(XML_Files_Path,'gamelist.xml'))
+		elif MenuLabel == "homebrew":
+			dialog.ok("ERROR","No game list found","Rescan your xbox homebrew to fix.",os.path.join(XML_Files_Path,'gamelist.xml'))
 		elif MenuLabel == "ports":
-			dialog.ok("ERROR","No game list found","Rescan your xbox ports to fix.",os.path.join(Favs_List_Path,'gamelist.xml'))
+			dialog.ok("ERROR","No game list found","Rescan your xbox ports to fix.",os.path.join(XML_Files_Path,'gamelist.xml'))
 		else:
-			dialog.ok("ERROR","No rom list found","Rescan this emulator for roms to fix.",os.path.join(Favs_List_Path,'gamelist.xml'))
+			dialog.ok("ERROR","No rom list found","Rescan this emulator for roms to fix.",os.path.join(XML_Files_Path,'gamelist.xml'))
 elif XBE_Files == 1:
 		## this is here so not to mess with the actual menulabel
 		if not os.path.isfile(Layout_XML_Path):

@@ -10,19 +10,19 @@
 						<visible allowhiddenfocus="true">ControlGroup(9000).HasFocus</visible>
 						<control type="image">
 								<description>background image</description>
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>720</width>
 								<height>576</height>
 								<colordiffuse>E0000000</colordiffuse>
 								<texture>background diffuse.png</texture>
 						</control>
 						<control type="group">
-								<posy>90</posy>
+								<top>90</top>
 								<control type="image">
 										<description>background image</description>
-										<posx>320</posx>
-										<posy>108</posy>
+										<left>320</left>
+										<top>108</top>
 										<width>640</width>
 										<height>324</height>
 										<colordiffuse>menu_back_image</colordiffuse>
@@ -30,8 +30,8 @@
 								</control>
 								<control type="label">
 										<description>heading label</description>
-										<posx>320</posx>
-										<posy>130</posy>
+										<left>320</left>
+										<top>130</top>
 										<width>640</width>
 										<height>50</height>
 										<align>center</align>
@@ -41,8 +41,8 @@
 										<textcolor>menu_header_label</textcolor>
 								</control>
 								<control type="grouplist" id="9000">
-										<posx>320</posx>
-										<posy>200</posy>
+										<left>320</left>
+										<top>200</top>
 										<width>640</width>
 										<height>295</height>
 										<onleft>9000</onleft>
@@ -51,26 +51,26 @@
 										<ondown>9000</ondown>
 										<itemgap>-1</itemgap>
 										<control type="radiobutton" id="20">
-												<posx>0</posx>
-												<posy>0</posy>
+												<left>0</left>
+												<top>0</top>
 												<label>191</label>
 												<include>MenuButtonCommonValues</include>
 										</control>
 										<control type="button" id="26">
-												<posx>0</posx>
-												<posy>0</posy>
+												<left>0</left>
+												<top>0</top>
 												<label>-</label>
 												<include>MenuButtonCommonValues</include>
 										</control>
 										<control type="button" id="21">
-												<posx>0</posx>
-												<posy>0</posy>
+												<left>0</left>
+												<top>0</top>
 												<label>190</label>
 												<include>MenuButtonCommonValues</include>
 										</control>
 										<control type="button" id="22">
-												<posx>0</posx>
-												<posy>0</posy>
+												<left>0</left>
+												<top>0</top>
 												<label>192</label>
 												<include>MenuButtonCommonValues</include>
 										</control>
@@ -78,8 +78,8 @@
 						</control>
 				</control>
 				<control type="image">
-						<posx>20</posx>
-						<posy>5</posy>
+						<left>20</left>
+						<top>5</top>
 						<width>40</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -87,8 +87,8 @@
 				</control>
 				<control type="label">
 						<description>Header label</description>
-						<posx>70</posx>
-						<posy>5</posy>
+						<left>70</left>
+						<top>5</top>
 						<width>700</width>
 						<height>35</height>
 						<align>left</align>

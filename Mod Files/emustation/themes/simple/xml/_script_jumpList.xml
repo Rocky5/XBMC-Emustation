@@ -2,22 +2,22 @@
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<controls>
 				<control type="group" id="jump section">
-						<posy>90</posy>
+						<top>90</top>
 						<!-- Normal -->
 						<control type="group">
 								<visible>!Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
 								<control type="image">
 										<description>background image</description>
-										<posx>165</posx>
-										<posy>10</posy>
+										<left>165</left>
+										<top>10</top>
 										<width>950</width>
 										<height>530</height>
 										<texture>menu_back_shadow.png</texture>
 								</control>
 								<control type="image">
 										<description>background image</description>
-										<posx>320</posx>
-										<posy>100</posy>
+										<left>320</left>
+										<top>100</top>
 										<width>640</width>
 										<height>350</height>
 										<colordiffuse>menu_back_image</colordiffuse>
@@ -29,16 +29,16 @@
 								<visible>Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
 								<control type="image">
 										<description>background image</description>
-										<posx>165</posx>
-										<posy>60</posy>
+										<left>165</left>
+										<top>60</top>
 										<width>950</width>
 										<height>280</height>
 										<texture>menu_back_shadow.png</texture>
 								</control>
 								<control type="image">
 										<description>background image</description>
-										<posx>320</posx>
-										<posy>100</posy>
+										<left>320</left>
+										<top>100</top>
 										<width>640</width>
 										<height>200</height>
 										<colordiffuse>menu_back_image</colordiffuse>
@@ -47,8 +47,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>640</width>
 								<height>50</height>
 								<align>center</align>
@@ -58,8 +58,8 @@
 								<textcolor>menu_header_label</textcolor>
 						</control>
 						<control type="grouplist" id="9000">
-								<posx>320</posx>
-								<posy>201</posy>
+								<left>320</left>
+								<top>201</top>
 								<width>640</width>
 								<height>50</height>
 								<onleft>9000</onleft>
@@ -261,8 +261,8 @@
 								</control>
 						</control>
 						<control type="grouplist" id="9001">
-								<posx>320</posx>
-								<posy>250</posy>
+								<left>320</left>
+								<top>250</top>
 								<width>640</width>
 								<height>200</height>
 								<onleft>-</onleft>
@@ -282,8 +282,8 @@
 								</control>
 						</control>
 						<control type="grouplist" id="9002">
-								<posx>320</posx>
-								<posy>299</posy>
+								<left>320</left>
+								<top>299</top>
 								<width>640</width>
 								<height>200</height>
 								<onleft>9002</onleft>
@@ -332,8 +332,8 @@
 								</control>
 						</control>
 						<control type="grouplist" id="9003">
-								<posx>320</posx>
-								<posy>348</posy>
+								<left>320</left>
+								<top>348</top>
 								<width>640</width>
 								<height>200</height>
 								<onleft>-</onleft>

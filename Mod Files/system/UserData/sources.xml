@@ -16,10 +16,13 @@
 						<path pathversion="1">G:\Apps\</path>
 				</source>
 				<source>
-						<name>Ports</name>
+						<name>Homebrew</name>
 						<path pathversion="1">E:\Homebrew\</path>
 						<path pathversion="1">F:\Homebrew\</path>
 						<path pathversion="1">G:\Homebrew\</path>
+				</source>
+				<source>
+						<name>Ports</name>
 						<path pathversion="1">E:\Ports\</path>
 						<path pathversion="1">F:\Ports\</path>
 						<path pathversion="1">G:\Ports\</path>

@@ -5,8 +5,8 @@
 				<!-- Background Images -->
 				<control type="image">
 						<description>background</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>720</width>
 						<height>480</height>
 						<aspectratio>stretch</aspectratio>
@@ -16,8 +16,8 @@
 				<!-- Top Underlay Image -->
 				<control type="image">
 						<description>top bar</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>720</width>
 						<height>90</height>
 						<aspectratio>stretch</aspectratio>
@@ -27,8 +27,8 @@
 				<!-- System Log -->
 				<control type="image">
 						<description>logo</description>
-						<posx>30</posx>
-						<posy>20</posy>
+						<left>30</left>
+						<top>20</top>
 						<width>490</width>
 						<height>52</height>
 						<aspectratio align="left">keep</aspectratio>
@@ -36,8 +36,8 @@
 				</control>
 				<!-- Bottom Underlay Image -->
 				<control type="image">
-						<posx>0</posx>
-						<posy>47r</posy>
+						<left>0</left>
+						<top>47r</top>
 						<width>720</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -46,12 +46,12 @@
 				</control>
 				<include>ContextButtonsSettings</include>
 				<control type="group">
-						<posx>20</posx>
-						<posy>110</posy>
+						<left>20</left>
+						<top>110</top>
 						<control type="grouplist" id="9000">
 								<description>button area</description>
-								<posx>10</posx>
-								<posy>0</posy>
+								<left>10</left>
+								<top>0</top>
 								<width>320</width>
 								<height>405</height>
 								<itemgap>0</itemgap>
@@ -62,7 +62,7 @@
 								<control type="button" id="95">
 										<description>Button Default Values</description>
 										<width>250</width>
-										<textwidth>250</textwidth>				
+										<textwidth>250</textwidth>
 										<height>30</height>
 										<font>size_22</font>
 										<align>center</align>
@@ -78,7 +78,7 @@
 								<control type="button" id="92">
 										<description>Button HDD</description>
 										<width>250</width>
-										<textwidth>280</textwidth>				
+										<textwidth>280</textwidth>
 										<height>30</height>
 										<font>size_22</font>
 										<align>center</align>
@@ -94,7 +94,7 @@
 								<control type="button" id="93">
 										<description>Button DVD</description>
 										<width>250</width>
-										<textwidth>280</textwidth>				
+										<textwidth>280</textwidth>
 										<height>30</height>
 										<font>size_22</font>
 										<align>center</align>
@@ -110,7 +110,7 @@
 								<control type="button" id="94">
 										<description>Button Storage</description>
 										<width>250</width>
-										<textwidth>280</textwidth>				
+										<textwidth>280</textwidth>
 										<height>30</height>
 										<font>size_22</font>
 										<align>center</align>
@@ -126,7 +126,7 @@
 								<control type="button" id="96">
 										<description>Button Network</description>
 										<width>250</width>
-										<textwidth>280</textwidth>				
+										<textwidth>280</textwidth>
 										<height>30</height>
 										<font>size_22</font>
 										<align>center</align>
@@ -142,7 +142,7 @@
 								<control type="button" id="97">
 										<description>Button Video</description>
 										<width>250</width>
-										<textwidth>280</textwidth>				
+										<textwidth>280</textwidth>
 										<height>30</height>
 										<font>size_22</font>
 										<align>center</align>
@@ -158,7 +158,7 @@
 								<control type="button" id="98">
 										<description>Button Hardware</description>
 										<width>250</width>
-										<textwidth>280</textwidth>				
+										<textwidth>280</textwidth>
 										<height>30</height>
 										<font>size_22</font>
 										<align>center</align>
@@ -175,12 +175,12 @@
 				</control>
 				<control type="group">
 						<control type="group">
-								<posx>290</posx>
-								<posy>70</posy>
+								<left>290</left>
+								<top>70</top>
 								<control type="label." id="40">
 										<description>filter text label</description>
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<width>400</width>
 										<height>35</height>
 										<align>center</align>
@@ -190,8 +190,8 @@
 								</control>
 								<control type="label" id="2">
 										<description>Label 2</description>
-										<posx>10</posx>
-										<posy>35</posy>
+										<left>10</left>
+										<top>35</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
@@ -203,47 +203,47 @@
 								</control>
 								<control type="label" id="3">
 										<description>Label 3</description>
-										<posx>10</posx>
-										<posy>60</posy>
+										<left>10</left>
+										<top>60</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
 										<aligny>center</aligny>
 										<label>-</label>
 										<font>size_20</font>
-										<scroll>true</scroll>										
+										<scroll>true</scroll>
 										<textcolor>FF282A2B</textcolor>
 								</control>
 								<control type="label" id="4">
 										<description>Label 4</description>
-										<posx>10</posx>
-										<posy>85</posy>
+										<left>10</left>
+										<top>85</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
 										<aligny>center</aligny>
 										<label>-</label>
 										<font>size_20</font>
-										<scroll>true</scroll>										
+										<scroll>true</scroll>
 										<textcolor>FF282A2B</textcolor>
 								</control>
 								<control type="label" id="5">
 										<description>Label 5</description>
-										<posx>10</posx>
-										<posy>110</posy>
+										<left>10</left>
+										<top>110</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
 										<aligny>center</aligny>
 										<label>-</label>
 										<font>size_20</font>
-										<scroll>true</scroll>										
+										<scroll>true</scroll>
 										<textcolor>FF282A2B</textcolor>
 								</control>
 								<control type="label" id="6">
 										<description>Label 6</description>
-										<posx>10</posx>
-										<posy>135</posy>
+										<left>10</left>
+										<top>135</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
@@ -255,8 +255,8 @@
 								</control>
 								<control type="label" id="7">
 										<description>Label 7</description>
-										<posx>10</posx>
-										<posy>160</posy>
+										<left>10</left>
+										<top>160</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
@@ -268,8 +268,8 @@
 								</control>
 								<control type="label" id="8">
 										<description>Label 8</description>
-										<posx>10</posx>
-										<posy>185</posy>
+										<left>10</left>
+										<top>185</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
@@ -281,8 +281,8 @@
 								</control>
 								<control type="label" id="9">
 										<description>Label 9</description>
-										<posx>10</posx>
-										<posy>210</posy>
+										<left>10</left>
+										<top>210</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
@@ -294,8 +294,8 @@
 								</control>
 								<control type="label" id="10">
 										<description>Label 10</description>
-										<posx>10</posx>
-										<posy>235</posy>
+										<left>10</left>
+										<top>235</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
@@ -307,8 +307,8 @@
 								</control>
 								<control type="label" id="11">
 										<description>Label 11</description>
-										<posx>10</posx>
-										<posy>260</posy>
+										<left>10</left>
+										<top>260</top>
 										<width>400</width>
 										<height>25</height>
 										<align>left</align>
@@ -321,8 +321,8 @@
 						</control>
 						<control type="label" id="52">
 								<description>XBMC XBE BUILD Version</description>
-								<posx>10</posx>
-								<posy>394</posy>
+								<left>10</left>
+								<top>394</top>
 								<width>720</width>
 								<label>144</label>
 								<align>center</align>
@@ -330,12 +330,12 @@
 								<textcolor>FF282A2B</textcolor>
 						</control>
 						<control type="group">
-								<posx>0</posx>
-								<posy>610</posy>
+								<left>0</left>
+								<top>610</top>
 								<!-- <control type="label"> -->
 								<!-- <description>CPU Text</description> -->
-								<!-- <posx>345r</posx> -->
-								<!-- <posy>0</posy> -->
+								<!-- <left>345r</left> -->
+								<!-- <top>0</top> -->
 								<!-- <width>200</width> -->
 								<!-- <height>22</height> -->
 								<!-- <label>$LOCALIZE[13271] $INFO[System.CPUUsage]</label> -->
@@ -346,8 +346,8 @@
 								<!-- </control> -->
 								<!-- <control type="progress"> -->
 								<!-- <description>CPU BAR</description> -->
-								<!-- <posx>330r</posx> -->
-								<!-- <posy>8</posy> -->
+								<!-- <left>330r</left> -->
+								<!-- <top>8</top> -->
 								<!-- <width>320</width> -->
 								<!-- <height>12</height> -->
 								<!-- <info>System.CPUUsage</info> -->
@@ -358,29 +358,29 @@
 								<!-- <overlaytexture>-</overlaytexture> -->
 								<!-- </control> -->
 								<!-- <control type="label"> -->
-										<!-- <description>Memory Text</description> -->
-										<!-- <posx>345r</posx> -->
-										<!-- <posy>30</posy> -->
-										<!-- <width>200</width> -->
-										<!-- <height>22</height> -->
-										<!-- <label>$LOCALIZE[31020] $INFO[system.memory(used.percent)]</label> -->
-										<!-- <align>right</align> -->
-										<!-- <aligny>center</aligny> -->
-										<!-- <textcolor>FF282A2B</textcolor> -->
-										<!-- <font>size_20</font> -->
+								<!-- <description>Memory Text</description> -->
+								<!-- <left>345r</left> -->
+								<!-- <top>30</top> -->
+								<!-- <width>200</width> -->
+								<!-- <height>22</height> -->
+								<!-- <label>$LOCALIZE[31020] $INFO[system.memory(used.percent)]</label> -->
+								<!-- <align>right</align> -->
+								<!-- <aligny>center</aligny> -->
+								<!-- <textcolor>FF282A2B</textcolor> -->
+								<!-- <font>size_20</font> -->
 								<!-- </control> -->
 								<!-- <control type="progress"> -->
-										<!-- <description>Memory BAR</description> -->
-										<!-- <posx>330r</posx> -->
-										<!-- <posy>38</posy> -->
-										<!-- <width>320</width> -->
-										<!-- <height>12</height> -->
-										<!-- <info>system.memory(used)</info> -->
-										<!-- <texturebg border="6,0,6,0">scrollbar_bar_back2.png</texturebg> -->
-										<!-- <lefttexture>-</lefttexture> -->
-										<!-- <midtexture border="4,0,4,0">ProgressFront.png</midtexture> -->
-										<!-- <righttexture>-</righttexture> -->
-										<!-- <overlaytexture>-</overlaytexture> -->
+								<!-- <description>Memory BAR</description> -->
+								<!-- <left>330r</left> -->
+								<!-- <top>38</top> -->
+								<!-- <width>320</width> -->
+								<!-- <height>12</height> -->
+								<!-- <info>system.memory(used)</info> -->
+								<!-- <texturebg border="6,0,6,0">scrollbar_bar_back2.png</texturebg> -->
+								<!-- <lefttexture>-</lefttexture> -->
+								<!-- <midtexture border="4,0,4,0">ProgressFront.png</midtexture> -->
+								<!-- <righttexture>-</righttexture> -->
+								<!-- <overlaytexture>-</overlaytexture> -->
 								<!-- </control> -->
 						</control>
 				</control>

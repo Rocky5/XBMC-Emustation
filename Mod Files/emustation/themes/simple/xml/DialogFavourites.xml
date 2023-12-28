@@ -4,14 +4,14 @@
 		<include>Fav_Layout_Animation</include>
 		<controls>
 				<control type="button" id="9990">
-						<posx>-500</posx>
+						<left>-500</left>
 						<onfocus>SetFocus(1000)</onfocus>
 				</control>
 				<!-- Background Images -->
 				<control type="image">
 						<description>background</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>1280</width>
 						<height>720</height>
 						<aspectratio>stretch</aspectratio>
@@ -21,8 +21,8 @@
 				<!-- Top Underlay Image -->
 				<control type="image">
 						<description>top bar</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>1280</width>
 						<height>115</height>
 						<aspectratio>stretch</aspectratio>
@@ -32,8 +32,8 @@
 				<!-- System Log -->
 				<control type="image">
 						<description>logo</description>
-						<posx>30</posx>
-						<posy>20</posy>
+						<left>30</left>
+						<top>20</top>
 						<width>490</width>
 						<height>72</height>
 						<aspectratio align="left">keep</aspectratio>
@@ -41,8 +41,8 @@
 				</control>
 				<!-- Bottom Underlay Image -->
 				<control type="image">
-						<posx>0</posx>
-						<posy>47r</posy>
+						<left>0</left>
+						<top>47r</top>
 						<width>1280</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -53,8 +53,8 @@
 				<include>ContextButtonsFAVS</include>
 				<!-- Thumbnail Image -->
 				<control type="image">
-						<posx>727</posx>
-						<posy>159</posy>
+						<left>727</left>
+						<top>159</top>
 						<width>450</width>
 						<height>450</height>
 						<aspectratio>keep</aspectratio>
@@ -64,8 +64,8 @@
 				</control>
 				<!-- List Control -->
 				<control type="list" id="450">
-						<posx>32</posx>
-						<posy>159</posy>
+						<left>32</left>
+						<top>159</top>
 						<width>560</width>
 						<height>450</height>
 						<onleft>PageUp</onleft>
@@ -76,8 +76,8 @@
 						<preloaditems>5</preloaditems>
 						<itemlayout height="30" width="560">
 								<control type="label">
-										<posx>14</posx>
-										<posy>1</posy>
+										<left>14</left>
+										<top>1</top>
 										<width>532</width>
 										<height>30</height>
 										<font>size_21</font>
@@ -91,8 +91,8 @@
 						</itemlayout>
 						<focusedlayout height="30" width="560">
 								<control type="image">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<width>560</width>
 										<height>31</height>
 										<aspectratio>stretch</aspectratio>
@@ -100,8 +100,8 @@
 										<texture border="1">background diffuse.png</texture>
 								</control>
 								<control type="label">
-										<posx>14</posx>
-										<posy>1</posy>
+										<left>14</left>
+										<top>1</top>
 										<width>532</width>
 										<height>30</height>
 										<font>size_21</font>

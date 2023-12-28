@@ -3,8 +3,8 @@
 		<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Forwarding | Player.Rewinding</visible>
 		<coordinates>
 				<system>1</system>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 		</coordinates>
 		<controls>
 				<include>VisibleFadeEffect</include>
@@ -13,12 +13,12 @@
 						<visible>!Skin.HasSetting(OldPlayerControls)</visible>
 						<animation effect="slide" start="0,0" end="0,87" delay="0" time="250" tween="Quadratic" easing="out" condition="Skin.HasSetting(newplayer_large_artwork)">Conditional</animation>
 						<control type="group">
-								<posx>452</posx>
-								<posy>119</posy>
+								<left>452</left>
+								<top>119</top>
 								<control type="slider" id="401">
 										<description>Seek Slider</description>
-										<posx>1</posx>
-										<posy>-2</posy>
+										<left>1</left>
+										<top>-2</top>
 										<width>373</width>
 										<height>10</height>
 										<colordiffuse>FFFFFFFF</colordiffuse>
@@ -32,12 +32,12 @@
 				<control type="group">
 						<visible>Skin.HasSetting(OldPlayerControls)</visible>
 						<control type="group">
-								<posx>430r</posx>
-								<posy>0</posy>
+								<left>430r</left>
+								<top>0</top>
 								<control type="slider" id="401">
 										<description>Seek Slider</description>
-										<posx>105</posx>
-										<posy>50</posy>
+										<left>105</left>
+										<top>50</top>
 										<width>307</width>
 										<height>10</height>
 										<colordiffuse>FFFFFFFF</colordiffuse>
@@ -52,8 +52,8 @@
 				<control type="group">
 						<control type="progress" id="23">
 								<description>Progressbar</description>
-								<posx>490</posx>
-								<posy>0</posy>
+								<left>490</left>
+								<top>0</top>
 								<width>300</width>
 								<height>10</height>
 								<info>Player.Progress</info>
@@ -64,8 +64,8 @@
 						</control>
 						<control type="slider" id="401">
 								<description>Seek Slider</description>
-								<posx>490</posx>
-								<posy>0</posy>
+								<left>490</left>
+								<top>0</top>
 								<width>300</width>
 								<height>10</height>
 								<colordiffuse>FF8B0000</colordiffuse>

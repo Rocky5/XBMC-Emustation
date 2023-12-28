@@ -1,8 +1,8 @@
 <!-- Background Images -->
 <control type="image">
 	<description>background</description>
-	<posx>0</posx>
-	<posy>0</posy>
+	<left>0</left>
+	<top>0</top>
 	<width>1280</width>
 	<height>720</height>
 	<aspectratio>stretch</aspectratio>
@@ -12,8 +12,8 @@
 <!-- Top Underlay Image -->
 <control type="image">
 	<description>top bar</description>
-	<posx>0</posx>
-	<posy>0</posy>
+	<left>0</left>
+	<top>0</top>
 	<width>1280</width>
 	<height>115</height>
 	<aspectratio>stretch</aspectratio>
@@ -23,8 +23,8 @@
 <!-- System Log -->
 <control type="image">
 	<description>logo</description>
-	<posx>30</posx>
-	<posy>20</posy>
+	<left>30</left>
+	<top>20</top>
 	<width>490</width>
 	<height>72</height>
 	<aspectratio align="left">keep</aspectratio>
@@ -32,8 +32,8 @@
 </control>
 <!-- Bottom Underlay Image -->
 <control type="image">
-	<posx>0</posx>
-	<posy>47r</posy>
+	<left>0</left>
+	<top>47r</top>
 	<width>1280</width>
 	<height>47</height>
 	<aspectratio>stretch</aspectratio>
@@ -42,13 +42,13 @@
 </control>
 <!-- Fanart -->
 <control type="largeimage">
-	<posx>0</posx>
-	<posy>115</posy>
+	<left>0</left>
+	<top>115</top>
 	<width>1280</width>
 	<height>558</height>
 	<aspectratio>scale</aspectratio>
 	<colordiffuse>10FFFFFF</colordiffuse>
-	<texture>[Media_Path]\fanart\$INFO[Container(9000).listitem.thumb]</texture>
+	<texture>[Media_Path]\screenshots\$INFO[Container(9000).listitem.thumb]</texture>
 	<fadetime>FanartCrossfadeTime</fadetime>
 	<include>EmulatorScrollFade</include>
 	<visible>!Player.HasVideo</visible>
@@ -59,8 +59,8 @@
 <!-- Video Window Background -->
 <control type="image">
 	<description>video preview window background</description>
-	<posx>0</posx>
-	<posy>115</posy>
+	<left>0</left>
+	<top>115</top>
 	<width>1280</width>
 	<height>558</height>
 	<aspectratio>stretch</aspectratio>
@@ -71,8 +71,8 @@
 <!-- Video Window -->
 <control type="videowindow">
 	<description>video preview window</description>
-	<posx>0</posx>
-	<posy>115</posy>
+	<left>0</left>
+	<top>115</top>
 	<width>1280</width>
 	<height>558</height>
 	<aspectratio>keep</aspectratio>
@@ -82,8 +82,8 @@
 <!-- List Control -->
 <control type="group">
 	<control type="group">
-		<posx>-8</posx>
-		<posy>-140</posy>
+		<left>-8</left>
+		<top>-140</top>
 		<animation reversible="false" type="WindowOpen">
 			<effect delay="1000" end="100" start="0" time="100" type="fade" />
 			<effect delay="1000" easing="out" end="0,0" start="0,250" time="800" tween="back" type="slide" />
@@ -101,8 +101,8 @@
 			<effect delay="100" easing="out" end="0,250" start="0,0" time="500" tween="sine" type="slide" />
 		</animation>
 		<control type="image">
-			<posx>20</posx>
-			<posy>16</posy>
+			<left>20</left>
+			<top>16</top>
 			<width>719</width>
 			<height>181</height>
 			<aspectratio>stretch</aspectratio>
@@ -110,8 +110,8 @@
 			<colordiffuse>FFFFFFFF</colordiffuse>
 		</control>
 		<control type="image">
-			<posx>50</posx>
-			<posy>73</posy>
+			<left>50</left>
+			<top>73</top>
 			<width>660</width>
 			<height>1</height>
 			<aspectratio>stretch</aspectratio>
@@ -119,8 +119,8 @@
 			<colordiffuse>20ffffff</colordiffuse>
 		</control>
 		<control type="label">
-			<posx>45</posx>
-			<posy>35</posy>
+			<left>45</left>
+			<top>35</top>
 			<width>1194</width>
 			<height>512</height>
 			<font>size_30</font>
@@ -136,8 +136,8 @@
 			<visible>!Player.HasVideo</visible>
 		</control>
 		<control type="textbox">
-			<posx>45</posx>
-			<posy>310</posy>
+			<left>45</left>
+			<top>310</top>
 			<width>1194</width>
 			<height>80</height>
 			<font>size_16</font>
@@ -154,8 +154,8 @@
 		</control>
 	</control>
 	<control type="group">
-		<posx>10</posx>
-		<posy>45</posy>
+		<left>10</left>
+		<top>45</top>
 		<animation center="auto" effect="zoom" end="84">WindowOpen</animation>
 		<animation center="auto" effect="zoom" end="84">WindowClose</animation>
 		<control id="5801" type="group">
@@ -167,14 +167,14 @@
 					<effect end="0" start="100" time="250" type="fade" />
 					<effect end="32,0" start="0,0" time="250" type="slide" />
 				</animation>
-				<posx>1154</posx>
-				<posy>332</posy>
+				<left>1154</left>
+				<top>332</top>
 				<width>144</width>
 				<height>337</height>
 				<control type="group">
 					<control type="image">
-						<posx>18</posx>
-						<posy>16</posy>
+						<left>18</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -182,16 +182,16 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posx>18</posx>
-						<posy>16</posy>
+						<left>18</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(9).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>144</width>
 						<height>235</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -202,16 +202,16 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="1154,332,144,337" reversible="false" start="1078,312,173,405" time="250">Hidden</animation>
-				<posx>1078</posx>
-				<posy>312</posy>
+				<left>1078</left>
+				<top>312</top>
 				<width>173</width>
 				<height>405</height>
 				<control type="group">
-					<posy>19</posy>
-					<posx>22</posx>
+					<top>19</top>
+					<left>22</left>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>129</width>
 						<height>194</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -219,8 +219,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>64</posy>
-						<posx>64.5</posx>
+						<top>64</top>
+						<left>64.5</left>
 						<width>129</width>
 						<height>129</height>
 						<aspectratio>stretch</aspectratio>
@@ -228,8 +228,8 @@
 
 					</control>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>129</width>
 						<height>194</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -237,8 +237,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(8).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posy>-19</posy>
-						<posx>-22</posx>
+						<top>-19</top>
+						<left>-22</left>
 						<width>173</width>
 						<height>283</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -249,16 +249,16 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="1078,312,173,405" reversible="false" start="992,291,203,474" time="250">Hidden</animation>
-				<posx>992</posx>
-				<posy>291</posy>
+				<left>992</left>
+				<top>291</top>
 				<width>203</width>
 				<height>474</height>
 				<control type="group">
-					<posy>22</posy>
-					<posx>26</posx>
+					<top>22</top>
+					<left>26</left>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>151</width>
 						<height>227</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -266,8 +266,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>75</posy>
-						<posx>75.5</posx>
+						<top>75</top>
+						<left>75.5</left>
 						<width>151</width>
 						<height>151</height>
 						<aspectratio>stretch</aspectratio>
@@ -275,8 +275,8 @@
 
 					</control>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>151</width>
 						<height>227</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -284,8 +284,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(7).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posy>-22</posy>
-						<posx>-26</posx>
+						<top>-22</top>
+						<left>-26</left>
 						<width>203</width>
 						<height>331</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -296,16 +296,16 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="992,291,203,474" reversible="false" start="890,271,232,543" time="250">Hidden</animation>
-				<posx>890</posx>
-				<posy>271</posy>
+				<left>890</left>
+				<top>271</top>
 				<width>232</width>
 				<height>543</height>
 				<control type="group">
-					<posy>26</posy>
-					<posx>30</posx>
+					<top>26</top>
+					<left>30</left>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>173</width>
 						<height>258</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -313,8 +313,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>86</posy>
-						<posx>86.5</posx>
+						<top>86</top>
+						<left>86.5</left>
 						<width>173</width>
 						<height>173</height>
 						<aspectratio>stretch</aspectratio>
@@ -322,8 +322,8 @@
 
 					</control>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>173</width>
 						<height>258</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -331,8 +331,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(6).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posy>-26</posy>
-						<posx>-30</posx>
+						<top>-26</top>
+						<left>-30</left>
 						<width>232</width>
 						<height>379</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -343,16 +343,16 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="890,271,232,543" reversible="false" start="768,250,262,612" time="250">Hidden</animation>
-				<posx>768</posx>
-				<posy>250</posy>
+				<left>768</left>
+				<top>250</top>
 				<width>262</width>
 				<height>612</height>
 				<control type="group">
-					<posy>29</posy>
-					<posx>33</posx>
+					<top>29</top>
+					<left>33</left>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>195</width>
 						<height>292</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -360,8 +360,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>97</posy>
-						<posx>97.5</posx>
+						<top>97</top>
+						<left>97.5</left>
 						<width>195</width>
 						<height>195</height>
 						<aspectratio>stretch</aspectratio>
@@ -369,8 +369,8 @@
 
 					</control>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>195</width>
 						<height>292</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -378,8 +378,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(5).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posy>-29</posy>
-						<posx>-33</posx>
+						<top>-29</top>
+						<left>-33</left>
 						<width>262</width>
 						<height>427</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -390,16 +390,16 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="768,250,262,612" reversible="false" start="622,226,291,681" time="250">Hidden</animation>
-				<posx>622</posx>
-				<posy>226</posy>
+				<left>622</left>
+				<top>226</top>
 				<width>291</width>
 				<height>681</height>
 				<control type="group">
-					<posx>37</posx>
-					<posy>32</posy>
+					<left>37</left>
+					<top>32</top>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>217</width>
 						<height>325</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -407,8 +407,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>108</posy>
-						<posx>108.5</posx>
+						<top>108</top>
+						<left>108.5</left>
 						<width>217</width>
 						<height>217</height>
 						<aspectratio>stretch</aspectratio>
@@ -416,8 +416,8 @@
 
 					</control>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>217</width>
 						<height>325</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -425,8 +425,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(4).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posy>-32</posy>
-						<posx>-37</posx>
+						<top>-32</top>
+						<left>-37</left>
 						<width>291</width>
 						<height>475</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -437,16 +437,16 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="622,226,291,681" reversible="false" start="446,205,321,750" time="250">Hidden</animation>
-				<posx>446</posx>
-				<posy>205</posy>
+				<left>446</left>
+				<top>205</top>
 				<width>321</width>
 				<height>750</height>
 				<control type="group">
-					<posy>35</posy>
-					<posx>41</posx>
+					<top>35</top>
+					<left>41</left>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>239</width>
 						<height>358</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -454,8 +454,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>119</posy>
-						<posx>119.5</posx>
+						<top>119</top>
+						<left>119.5</left>
 						<width>239</width>
 						<height>239</height>
 						<aspectratio>stretch</aspectratio>
@@ -463,16 +463,16 @@
 
 					</control>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>239</width>
 						<height>358</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(3).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posy>-35</posy>
-						<posx>-41</posx>
+						<top>-35</top>
+						<left>-41</left>
 						<width>321</width>
 						<height>523</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -483,16 +483,16 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="446,205,321,750" reversible="false" start="236,185,350,819" time="250">Hidden</animation>
-				<posx>236</posx>
-				<posy>185</posy>
+				<left>236</left>
+				<top>185</top>
 				<width>350</width>
 				<height>819</height>
 				<control type="group">
-					<posy>38</posy>
-					<posx>45</posx>
+					<top>38</top>
+					<left>45</left>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>261</width>
 						<height>391</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -500,8 +500,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>130</posy>
-						<posx>130.5</posx>
+						<top>130</top>
+						<left>130.5</left>
 						<width>261</width>
 						<height>261</height>
 						<aspectratio>stretch</aspectratio>
@@ -509,8 +509,8 @@
 
 					</control>
 					<control type="image">
-						<posy>0</posy>
-						<posx>0</posx>
+						<top>0</top>
+						<left>0</left>
 						<width>261</width>
 						<height>391</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -518,8 +518,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(2).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posy>-45</posy>
-						<posx>-38</posx>
+						<top>-45</top>
+						<left>-38</left>
 						<width>350</width>
 						<height>571</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -530,14 +530,14 @@
 			<control type="group">
 				<visible>Container(9000).OnPrevious</visible>
 				<animation effect="zoom" end="236,185,350,819" reversible="false" start="-17,164,380,889" time="250">Hidden</animation>
-				<posx>-17</posx>
-				<posy>164</posy>
+				<left>-17</left>
+				<top>164</top>
 				<width>380</width>
 				<height>889</height>
 				<control type="group">
 					<control type="image">
-						<posx>49</posx>
-						<posy>41</posy>
+						<left>49</left>
+						<top>41</top>
 						<width>284</width>
 						<height>424</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -545,8 +545,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>181</posy>
-						<posx>191</posx>
+						<top>181</top>
+						<left>191</left>
 						<width>284</width>
 						<height>284</height>
 						<aspectratio>stretch</aspectratio>
@@ -555,8 +555,8 @@
 
 					</control>
 					<control type="image">
-						<posx>49</posx>
-						<posy>41</posy>
+						<left>49</left>
+						<top>41</top>
 						<width>284</width>
 						<height>424</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -564,8 +564,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(1).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>380</width>
 						<height>620</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -579,13 +579,13 @@
 					<effect end="236,185,350,819" start="-17,164,380,889" time="250" type="zoom" />
 					<effect end="0" start="100" time="250" type="fade" />
 				</animation>
-				<posx>-17</posx>
-				<posy>164</posy>
+				<left>-17</left>
+				<top>164</top>
 				<width>380</width>
 				<height>889</height>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>380</width>
 					<height>620</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -601,13 +601,13 @@
 				<animation reversible="false" type="Visible">
 					<effect end="0" start="0" time="0" type="fade" />
 				</animation>
-				<posx>-17</posx>
-				<posy>164</posy>
+				<left>-17</left>
+				<top>164</top>
 				<width>380</width>
 				<height>889</height>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>380</width>
 					<height>620</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -621,13 +621,13 @@
 					<effect end="128,0" start="0,0" time="250" type="slide" />
 				</animation>
 				<animation effect="fade" end="0" reversible="false" start="0" time="0">Visible</animation>
-				<posy>164</posy>
-				<posx>-145</posx>
+				<top>164</top>
+				<left>-145</left>
 				<width>380</width>
 				<height>889</height>
 				<control type="image">
-					<posx>49</posx>
-					<posy>41</posy>
+					<left>49</left>
+					<top>41</top>
 					<width>284</width>
 					<height>424</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -635,8 +635,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posy>181</posy>
-					<posx>191</posx>
+					<top>181</top>
+					<left>191</left>
 					<width>284</width>
 					<height>284</height>
 					<aspectratio>stretch</aspectratio>
@@ -645,8 +645,8 @@
 
 				</control>
 				<control type="image">
-					<posy>41</posy>
-					<posx>49</posx>
+					<top>41</top>
+					<left>49</left>
 					<width>284</width>
 					<height>424</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -654,8 +654,8 @@
 					<visible>!IsEmpty(Container(9000).ListItemNoWrap(0).Thumb)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>380</width>
 					<height>620</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -673,16 +673,16 @@
 					<effect end="0,0" start="32,0" time="250" type="slide" />
 				</animation>
 				<animation effect="fade" end="0" reversible="false" start="0" time="0">Visible</animation>
-				<posx>1154</posx>
-				<posy>332</posy>
+				<left>1154</left>
+				<top>332</top>
 				<width>144</width>
 				<height>337</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>18</posx>
+					<top>0</top>
+					<left>18</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>16</posy>
+						<left>0</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio>stretch</aspectratio>
@@ -690,8 +690,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>16</posy>
+						<left>0</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio>stretch</aspectratio>
@@ -699,8 +699,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(8).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-18</posx>
-						<posy>0</posy>
+						<left>-18</left>
+						<top>0</top>
 						<width>144</width>
 						<height>235</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -712,16 +712,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="1078,312,173,405" reversible="false" start="1154,332,144,337" time="250">Hidden</animation>
-				<posx>1154</posx>
-				<posy>332</posy>
+				<left>1154</left>
+				<top>332</top>
 				<width>144</width>
 				<height>337</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>18</posx>
+					<top>0</top>
+					<left>18</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>16</posy>
+						<left>0</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio>stretch</aspectratio>
@@ -729,8 +729,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>70</posy>
-						<posx>53.5</posx>
+						<top>70</top>
+						<left>53.5</left>
 						<width>107</width>
 						<height>107</height>
 						<aspectratio>stretch</aspectratio>
@@ -738,8 +738,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>16</posy>
+						<left>0</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio>stretch</aspectratio>
@@ -747,8 +747,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(7).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-18</posx>
-						<posy>0</posy>
+						<left>-18</left>
+						<top>0</top>
 						<width>144</width>
 						<height>235</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -760,16 +760,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="992,291,203,474" reversible="false" start="1078,312,173,405" time="250">Hidden</animation>
-				<posx>1078</posx>
-				<posy>312</posy>
+				<left>1078</left>
+				<top>312</top>
 				<width>173</width>
 				<height>405</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>22</posx>
+					<top>0</top>
+					<left>22</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>19</posy>
+						<left>0</left>
+						<top>19</top>
 						<width>129</width>
 						<height>194</height>
 						<aspectratio>stretch</aspectratio>
@@ -777,8 +777,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>84</posy>
-						<posx>64.5</posx>
+						<top>84</top>
+						<left>64.5</left>
 						<width>129</width>
 						<height>129</height>
 						<aspectratio>stretch</aspectratio>
@@ -786,8 +786,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>19</posy>
+						<left>0</left>
+						<top>19</top>
 						<width>129</width>
 						<height>194</height>
 						<aspectratio>stretch</aspectratio>
@@ -795,8 +795,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(6).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-22</posx>
-						<posy>0</posy>
+						<left>-22</left>
+						<top>0</top>
 						<width>173</width>
 						<height>283</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -808,16 +808,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="890,271,232,543" reversible="false" start="992,291,203,474" time="250">Hidden</animation>
-				<posx>992</posx>
-				<posy>291</posy>
+				<left>992</left>
+				<top>291</top>
 				<width>203</width>
 				<height>474</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>26</posx>
+					<top>0</top>
+					<left>26</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>22</posy>
+						<left>0</left>
+						<top>22</top>
 						<width>151</width>
 						<height>227</height>
 						<aspectratio>stretch</aspectratio>
@@ -825,8 +825,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>98</posy>
-						<posx>75.5</posx>
+						<top>98</top>
+						<left>75.5</left>
 						<width>151</width>
 						<height>151</height>
 						<aspectratio>stretch</aspectratio>
@@ -834,8 +834,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>22</posy>
+						<left>0</left>
+						<top>22</top>
 						<width>151</width>
 						<height>227</height>
 						<aspectratio>stretch</aspectratio>
@@ -843,8 +843,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(5).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-26</posx>
-						<posy>0</posy>
+						<left>-26</left>
+						<top>0</top>
 						<width>203</width>
 						<height>331</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -856,16 +856,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="768,250,262,612" reversible="false" start="890,271,232,543" time="250">Hidden</animation>
-				<posx>890</posx>
-				<posy>271</posy>
+				<left>890</left>
+				<top>271</top>
 				<width>232</width>
 				<height>543</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>30</posx>
+					<top>0</top>
+					<left>30</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>26</posy>
+						<left>0</left>
+						<top>26</top>
 						<width>173</width>
 						<height>258</height>
 						<aspectratio>stretch</aspectratio>
@@ -873,8 +873,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>111</posy>
-						<posx>86.5</posx>
+						<top>111</top>
+						<left>86.5</left>
 						<width>173</width>
 						<height>173</height>
 						<aspectratio>stretch</aspectratio>
@@ -882,8 +882,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>26</posy>
+						<left>0</left>
+						<top>26</top>
 						<width>173</width>
 						<height>258</height>
 						<aspectratio>stretch</aspectratio>
@@ -891,8 +891,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(4).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-30</posx>
-						<posy>0</posy>
+						<left>-30</left>
+						<top>0</top>
 						<width>232</width>
 						<height>379</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -904,16 +904,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="622,226,291,681" reversible="false" start="768,250,262,612" time="250">Hidden</animation>
-				<posx>768</posx>
-				<posy>250</posy>
+				<left>768</left>
+				<top>250</top>
 				<width>262</width>
 				<height>612</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>33</posx>
+					<top>0</top>
+					<left>33</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>29</posy>
+						<left>0</left>
+						<top>29</top>
 						<width>195</width>
 						<height>292</height>
 						<aspectratio>stretch</aspectratio>
@@ -921,8 +921,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>126</posy>
-						<posx>97.5</posx>
+						<top>126</top>
+						<left>97.5</left>
 						<width>195</width>
 						<height>195</height>
 						<aspectratio>stretch</aspectratio>
@@ -930,8 +930,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>29</posy>
+						<left>0</left>
+						<top>29</top>
 						<width>195</width>
 						<height>292</height>
 						<aspectratio>stretch</aspectratio>
@@ -939,8 +939,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(3).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-33</posx>
-						<posy>0</posy>
+						<left>-33</left>
+						<top>0</top>
 						<width>262</width>
 						<height>427</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -952,16 +952,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="446,205,321,750" reversible="false" start="622,226,291,681" time="250">Hidden</animation>
-				<posx>622</posx>
-				<posy>226</posy>
+				<left>622</left>
+				<top>226</top>
 				<width>291</width>
 				<height>681</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>37</posx>
+					<top>0</top>
+					<left>37</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>32</posy>
+						<left>0</left>
+						<top>32</top>
 						<width>217</width>
 						<height>325</height>
 						<aspectratio>stretch</aspectratio>
@@ -969,8 +969,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>140</posy>
-						<posx>108.5</posx>
+						<top>140</top>
+						<left>108.5</left>
 						<width>217</width>
 						<height>217</height>
 						<aspectratio>stretch</aspectratio>
@@ -978,8 +978,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>32</posy>
+						<left>0</left>
+						<top>32</top>
 						<width>217</width>
 						<height>325</height>
 						<aspectratio>stretch</aspectratio>
@@ -987,8 +987,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(2).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-37</posx>
-						<posy>0</posy>
+						<left>-37</left>
+						<top>0</top>
 						<width>291</width>
 						<height>475</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1000,16 +1000,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="236,185,350,819" reversible="false" start="446,205,321,750" time="250">Hidden</animation>
-				<posx>446</posx>
-				<posy>205</posy>
+				<left>446</left>
+				<top>205</top>
 				<width>321</width>
 				<height>750</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>41</posx>
+					<top>0</top>
+					<left>41</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>35</posy>
+						<left>0</left>
+						<top>35</top>
 						<width>239</width>
 						<height>358</height>
 						<aspectratio>stretch</aspectratio>
@@ -1017,8 +1017,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>154</posy>
-						<posx>119.5</posx>
+						<top>154</top>
+						<left>119.5</left>
 						<width>239</width>
 						<height>239</height>
 						<aspectratio>stretch</aspectratio>
@@ -1026,8 +1026,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>35</posy>
+						<left>0</left>
+						<top>35</top>
 						<width>239</width>
 						<height>358</height>
 						<aspectratio>stretch</aspectratio>
@@ -1035,8 +1035,8 @@
 						<visible>!IsEmpty(Container(9000).ListItemNoWrap(1).Thumb)</visible>
 					</control>
 					<control type="image">
-						<posx>-41</posx>
-						<posy>0</posy>
+						<left>-41</left>
+						<top>0</top>
 						<width>321</width>
 						<height>523</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1048,16 +1048,16 @@
 			<control type="group">
 				<visible>Container(9000).OnNext</visible>
 				<animation effect="zoom" end="-17,164,380,889" reversible="false" start="236,185,350,819" time="250">Hidden</animation>
-				<posx>236</posx>
-				<posy>185</posy>
+				<left>236</left>
+				<top>185</top>
 				<width>350</width>
 				<height>819</height>
 				<control type="group">
-					<posy>0</posy>
-					<posx>45</posx>
+					<top>0</top>
+					<left>45</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>38</posy>
+						<left>0</left>
+						<top>38</top>
 						<width>261</width>
 						<height>391</height>
 						<aspectratio>stretch</aspectratio>
@@ -1065,8 +1065,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>168</posy>
-						<posx>130.5</posx>
+						<top>168</top>
+						<left>130.5</left>
 						<width>261</width>
 						<height>261</height>
 						<aspectratio>stretch</aspectratio>
@@ -1074,8 +1074,8 @@
 
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>38</posy>
+						<left>0</left>
+						<top>38</top>
 						<width>261</width>
 						<height>391</height>
 						<aspectratio>stretch</aspectratio>
@@ -1093,13 +1093,13 @@
 				<animation reversible="false" type="Visible">
 					<effect end="0" start="0" time="0" type="fade" />
 				</animation>
-				<posx>236</posx>
-				<posy>185</posy>
+				<left>236</left>
+				<top>185</top>
 				<width>350</width>
 				<height>819</height>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>350</width>
 					<height>571</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1112,13 +1112,13 @@
 					<effect end="-17,164,380,889" start="236,185,350,819" time="250" type="zoom" />
 					<effect end="0" start="100" time="250" type="fade" />
 				</animation>
-				<posx>236</posx>
-				<posy>185</posy>
+				<left>236</left>
+				<top>185</top>
 				<width>350</width>
 				<height>819</height>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>350</width>
 					<height>571</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1131,13 +1131,13 @@
 					<effect end="0" start="100" time="250" type="fade" />
 					<effect end="-128,0" start="0,0" time="250" type="slide" />
 				</animation>
-				<posy>205</posy>
-				<posx>11</posx>
+				<top>205</top>
+				<left>11</left>
 				<width>323</width>
 				<height>848</height>
 				<control type="image">
-					<posx>20</posx>
-					<posy>0</posy>
+					<left>20</left>
+					<top>0</top>
 					<width>284</width>
 					<height>424</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1145,8 +1145,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posy>140</posy>
-					<posx>162</posx>
+					<top>140</top>
+					<left>162</left>
 					<width>284</width>
 					<height>284</height>
 					<aspectratio>stretch</aspectratio>
@@ -1155,8 +1155,8 @@
 
 				</control>
 				<control type="image">
-					<posy>0</posy>
-					<posx>20</posx>
+					<top>0</top>
+					<left>20</left>
 					<width>284</width>
 					<height>424</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1164,8 +1164,8 @@
 					<visible>!IsEmpty(Container(9000).ListItemNoWrap(-1).Thumb)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>416</posy>
+					<left>0</left>
+					<top>416</top>
 					<width>323</width>
 					<height>40</height>
 					<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1177,8 +1177,8 @@
 			<visible>!Control.IsVisible(5801) + !Control.IsVisible(5802) + !Player.HasVideo</visible>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>1154</posx>
-				<posy>332</posy>
+				<left>1154</left>
+				<top>332</top>
 				<width>144</width>
 				<height>337</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1196,11 +1196,11 @@
 					<effect delay="100" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>18</posx>
+					<top>0</top>
+					<left>18</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>16</posy>
+						<left>0</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio>stretch</aspectratio>
@@ -1208,16 +1208,16 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>16</posy>
+						<left>0</left>
+						<top>16</top>
 						<width>107</width>
 						<height>161</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(8).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-18</posx>
-						<posy>0</posy>
+						<left>-18</left>
+						<top>0</top>
 						<width>144</width>
 						<height>235</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1227,8 +1227,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>1078</posx>
-				<posy>312</posy>
+				<left>1078</left>
+				<top>312</top>
 				<width>173</width>
 				<height>405</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1246,11 +1246,11 @@
 					<effect delay="200" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>22</posx>
+					<top>0</top>
+					<left>22</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>19</posy>
+						<left>0</left>
+						<top>19</top>
 						<width>129</width>
 						<height>194</height>
 						<aspectratio>stretch</aspectratio>
@@ -1258,8 +1258,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>84</posy>
-						<posx>64.5</posx>
+						<top>84</top>
+						<left>64.5</left>
 						<width>129</width>
 						<height>129</height>
 						<aspectratio>stretch</aspectratio>
@@ -1268,16 +1268,16 @@
 						<animation effect="slide" end="0" reversible="true" start="-64" time="250">VisibleChange</animation>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>19</posy>
+						<left>0</left>
+						<top>19</top>
 						<width>129</width>
 						<height>194</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(7).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-22</posx>
-						<posy>0</posy>
+						<left>-22</left>
+						<top>0</top>
 						<width>173</width>
 						<height>283</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1287,8 +1287,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>992</posx>
-				<posy>291</posy>
+				<left>992</left>
+				<top>291</top>
 				<width>203</width>
 				<height>474</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1306,11 +1306,11 @@
 					<effect delay="300" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>26</posx>
+					<top>0</top>
+					<left>26</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>22</posy>
+						<left>0</left>
+						<top>22</top>
 						<width>151</width>
 						<height>227</height>
 						<aspectratio>stretch</aspectratio>
@@ -1318,8 +1318,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>98</posy>
-						<posx>75.5</posx>
+						<top>98</top>
+						<left>75.5</left>
 						<width>151</width>
 						<height>151</height>
 						<aspectratio>stretch</aspectratio>
@@ -1328,16 +1328,16 @@
 						<animation effect="slide" end="0" reversible="true" start="-75" time="250">VisibleChange</animation>
 					</control>
 					<control type="image">
-						<posy>22</posy>
-						<posx>0</posx>
+						<top>22</top>
+						<left>0</left>
 						<width>151</width>
 						<height>227</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(6).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-26</posx>
-						<posy>0</posy>
+						<left>-26</left>
+						<top>0</top>
 						<width>203</width>
 						<height>331</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1347,8 +1347,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>890</posx>
-				<posy>271</posy>
+				<left>890</left>
+				<top>271</top>
 				<width>232</width>
 				<height>543</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1366,11 +1366,11 @@
 					<effect delay="300" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>30</posx>
+					<top>0</top>
+					<left>30</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>26</posy>
+						<left>0</left>
+						<top>26</top>
 						<width>173</width>
 						<height>258</height>
 						<aspectratio>stretch</aspectratio>
@@ -1378,8 +1378,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>111</posy>
-						<posx>86.5</posx>
+						<top>111</top>
+						<left>86.5</left>
 						<width>173</width>
 						<height>173</height>
 						<aspectratio>stretch</aspectratio>
@@ -1388,16 +1388,16 @@
 						<animation effect="slide" end="0" reversible="true" start="-86" time="250">VisibleChange</animation>
 					</control>
 					<control type="image">
-						<posy>26</posy>
-						<posx>0</posx>
+						<top>26</top>
+						<left>0</left>
 						<width>173</width>
 						<height>258</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(5).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-30</posx>
-						<posy>0</posy>
+						<left>-30</left>
+						<top>0</top>
 						<width>232</width>
 						<height>379</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1407,8 +1407,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000) </visible>
-				<posx>768</posx>
-				<posy>250</posy>
+				<left>768</left>
+				<top>250</top>
 				<width>262</width>
 				<height>612</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1426,11 +1426,11 @@
 					<effect delay="550" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>33</posx>
+					<top>0</top>
+					<left>33</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>29</posy>
+						<left>0</left>
+						<top>29</top>
 						<width>195</width>
 						<height>292</height>
 						<aspectratio>stretch</aspectratio>
@@ -1438,8 +1438,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>126</posy>
-						<posx>97.5</posx>
+						<top>126</top>
+						<left>97.5</left>
 						<width>195</width>
 						<height>195</height>
 						<aspectratio>stretch</aspectratio>
@@ -1448,16 +1448,16 @@
 						<animation effect="slide" end="0" reversible="true" start="-97" time="250">VisibleChange</animation>
 					</control>
 					<control type="image">
-						<posy>29</posy>
-						<posx>0</posx>
+						<top>29</top>
+						<left>0</left>
 						<width>195</width>
 						<height>292</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(4).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-33</posx>
-						<posy>0</posy>
+						<left>-33</left>
+						<top>0</top>
 						<width>262</width>
 						<height>427</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1467,8 +1467,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>622</posx>
-				<posy>226</posy>
+				<left>622</left>
+				<top>226</top>
 				<width>291</width>
 				<height>681</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1486,11 +1486,11 @@
 					<effect delay="670" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>37</posx>
+					<top>0</top>
+					<left>37</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>32</posy>
+						<left>0</left>
+						<top>32</top>
 						<width>217</width>
 						<height>325</height>
 						<aspectratio>stretch</aspectratio>
@@ -1498,8 +1498,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>140</posy>
-						<posx>108.5</posx>
+						<top>140</top>
+						<left>108.5</left>
 						<width>217</width>
 						<height>217</height>
 						<aspectratio>stretch</aspectratio>
@@ -1507,16 +1507,16 @@
 						<animation effect="slide" end="0" reversible="true" start="-108" time="250">VisibleChange</animation>
 					</control>
 					<control type="image">
-						<posy>32</posy>
-						<posx>0</posx>
+						<top>32</top>
+						<left>0</left>
 						<width>217</width>
 						<height>325</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(3).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-37</posx>
-						<posy>0</posy>
+						<left>-37</left>
+						<top>0</top>
 						<width>291</width>
 						<height>475</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1526,8 +1526,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>446</posx>
-				<posy>205</posy>
+				<left>446</left>
+				<top>205</top>
 				<width>321</width>
 				<height>750</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1545,11 +1545,11 @@
 					<effect delay="780" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>41</posx>
+					<top>0</top>
+					<left>41</left>
 					<control type="image">
-						<posx>0</posx>
-						<posy>35</posy>
+						<left>0</left>
+						<top>35</top>
 						<width>239</width>
 						<height>358</height>
 						<aspectratio>stretch</aspectratio>
@@ -1557,8 +1557,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>154</posy>
-						<posx>119.5</posx>
+						<top>154</top>
+						<left>119.5</left>
 						<width>239</width>
 						<height>239</height>
 						<aspectratio>stretch</aspectratio>
@@ -1566,16 +1566,16 @@
 						<animation effect="slide" end="0" reversible="true" start="-119" time="250">VisibleChange</animation>
 					</control>
 					<control type="image">
-						<posy>35</posy>
-						<posx>0</posx>
+						<top>35</top>
+						<left>0</left>
 						<width>239</width>
 						<height>358</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(2).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-41</posx>
-						<posy>0</posy>
+						<left>-41</left>
+						<top>0</top>
 						<width>321</width>
 						<height>523</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1585,8 +1585,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>236</posx>
-				<posy>185</posy>
+				<left>236</left>
+				<top>185</top>
 				<width>350</width>
 				<height>819</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1604,11 +1604,11 @@
 					<effect delay="900" end="0" start="100" time="50" type="fade" />
 				</animation>
 				<control type="group">
-					<posy>0</posy>
-					<posx>45</posx>
+					<top>0</top>
+					<left>45</left>
 					<control type="image">
-						<posy>168</posy>
-						<posx>130.5</posx>
+						<top>168</top>
+						<left>130.5</left>
 						<width>261</width>
 						<height>261</height>
 						<aspectratio>stretch</aspectratio>
@@ -1617,16 +1617,16 @@
 						<animation effect="slide" end="0" reversible="true" start="-130" time="250">VisibleChange</animation>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>38</posy>
+						<left>0</left>
+						<top>38</top>
 						<width>261</width>
 						<height>391</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(1).Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>-45</posx>
-						<posy>0</posy>
+						<left>-45</left>
+						<top>0</top>
 						<width>350</width>
 						<height>571</height>
 						<aspectratio align="center" stretchdiffuse="false">stretch</aspectratio>
@@ -1636,8 +1636,8 @@
 			</control>
 			<control type="group">
 				<visible>Control.IsVIsible(9000)</visible>
-				<posx>-17</posx>
-				<posy>164</posy>
+				<left>-17</left>
+				<top>164</top>
 				<width>380</width>
 				<height>889</height>
 				<animation reversible="false" type="WindowOpen">
@@ -1655,8 +1655,8 @@
 					<effect delay="1000" time="100" type="fade" />
 				</animation>
 				<control type="image">
-					<posx>49</posx>
-					<posy>41</posy>
+					<left>49</left>
+					<top>41</top>
 					<width>284</width>
 					<height>424</height>
 					<aspectratio>stretch</aspectratio>
@@ -1664,8 +1664,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posy>181</posy>
-					<posx>192</posx>
+					<top>181</top>
+					<left>192</left>
 					<width>284</width>
 					<height>284</height>
 					<aspectratio>stretch</aspectratio>
@@ -1675,16 +1675,16 @@
 					<animation center="auto" condition="true" effect="rotate" end="-360" loop="true" reversible="true" time="2500">conditional</animation>
 				</control>
 				<control type="image">
-					<posy>41</posy>
-					<posx>49</posx>
+					<top>41</top>
+					<left>49</left>
 					<width>284</width>
 					<height>424</height>
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="layouts/art/no_thumbnail.png">[ArtworkFolder]$INFO[Container(9000).ListItemNoWrap(0).Thumb]</texture>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>380</width>
 					<height>620</height>
 					<aspectratio align="center">stretch</aspectratio>
@@ -1695,8 +1695,8 @@
 	</control>
 	<control id="9000" type="list">
 		<viewtype label="XPerience Posters">Wraplist of Posters</viewtype>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<ondown />

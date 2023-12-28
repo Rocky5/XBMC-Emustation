@@ -1,8 +1,8 @@
 <!-- Background Images -->
 <control type="image">
 	<description>background</description>
-	<posx>0</posx>
-	<posy>0</posy>
+	<left>0</left>
+	<top>0</top>
 	<width>720</width>
 	<height>576</height>
 	<aspectratio>stretch</aspectratio>
@@ -12,8 +12,8 @@
 <!-- Top Underlay Image -->
 <control type="image">
 	<description>top bar</description>
-	<posx>0</posx>
-	<posy>0</posy>
+	<left>0</left>
+	<top>0</top>
 	<width>720</width>
 	<height>90</height>
 	<aspectratio>stretch</aspectratio>
@@ -23,8 +23,8 @@
 <!-- System Log -->
 <control type="image">
 	<description>logo</description>
-	<posx>30</posx>
-	<posy>20</posy>
+	<left>30</left>
+	<top>20</top>
 	<width>390</width>
 	<height>62</height>
 	<aspectratio align="left">keep</aspectratio>
@@ -32,8 +32,8 @@
 </control>
 <!-- Bottom Underlay Image -->
 <control type="image">
-	<posx>0</posx>
-	<posy>47r</posy>
+	<left>0</left>
+	<top>47r</top>
 	<width>720</width>
 	<height>47</height>
 	<aspectratio>stretch</aspectratio>
@@ -42,8 +42,8 @@
 </control>
 <!-- Fanart -->
 <control type="largeimage">
-	<posx>0</posx>
-	<posy>90</posy>
+	<left>0</left>
+	<top>90</top>
 	<width>720</width>
 	<height>439</height>
 	<aspectratio>scale</aspectratio>
@@ -56,8 +56,8 @@
 <!-- Context Button Overlay -->
 <include>ContextButtonsEmulators</include>
 <control type="grouplist">
-	<posx>20</posx>
-	<posy>90</posy>
+	<left>20</left>
+	<top>90</top>
 	<width>723</width>
 	<height>225</height>
 	<itemgap>10</itemgap>
@@ -66,7 +66,7 @@
 	
 	<!-- Thumbnail Image -->
 	<control type="image">
-		<posy>7</posy>
+		<top>7</top>
 		<width>250</width>
 		<height>200</height>
 		<aspectratio>keep</aspectratio>
@@ -77,8 +77,8 @@
 	</control>
 	<!-- Full name, publisher info eg... -->
 	<control type="textbox">
-	<posx>-5</posx>
-	<posy>10</posy>
+	<left>-5</left>
+	<top>10</top>
 		<height>195</height>
 		<width min="200" max="120">auto</width>
 		<font>size_17</font>
@@ -94,8 +94,8 @@
 </control>
 <!-- Game description (Synopsis) -->
 <control type="textbox">
-	<posx>20</posx>
-	<posy>312</posy>
+	<left>20</left>
+	<top>312</top>
 	<width>360</width>
 	<height>210</height>
 	<font>size_18</font>
@@ -109,8 +109,8 @@
 <!-- Video Window -->
 <control type="videowindow">
 	<description>video preview window</description>
-	<posx>20</posx>
-	<posy>90</posy>
+	<left>20</left>
+	<top>90</top>
 	<width>250</width>
 	<height>225</height>
 	<aspectratio>keep</aspectratio>
@@ -118,8 +118,8 @@
 </control>
 <!-- List Control -->
 <control type="list" id="9000">
-	<posx>400</posx>
-	<posy>100</posy>
+	<left>400</left>
+	<top>100</top>
 	<width>300</width>
 	<height>426</height>
 	<onleft>PageUp</onleft>
@@ -130,8 +130,8 @@
 	<preloaditems>5</preloaditems>
 	<itemlayout height="30" width="300">
 		<control type="label">
-			<posx>14</posx>
-			<posy>1</posy>
+			<left>14</left>
+			<top>1</top>
 			<width>300</width>
 			<height>30</height>
 			<font>size_24</font>
@@ -145,8 +145,8 @@
 	</itemlayout>
 	<focusedlayout height="30" width="300">
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>300</width>
 			<height>31</height>
 			<aspectratio>stretch</aspectratio>
@@ -154,8 +154,8 @@
 			<texture border="1">background diffuse.png</texture>
 		</control>
 		<control type="label">
-			<posx>14</posx>
-			<posy>1</posy>
+			<left>14</left>
+			<top>1</top>
 			<width>280</width>
 			<height>30</height>
 			<font>size_24</font>

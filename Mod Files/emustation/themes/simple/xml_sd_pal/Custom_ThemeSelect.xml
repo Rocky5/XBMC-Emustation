@@ -2,11 +2,11 @@
 		<defaultcontrol always="true">9000</defaultcontrol>
 		<controls>
 				<control type="group">
-						<posy>0</posy>
+						<top>0</top>
 						<control type="image">
 								<description>background image</description>
-								<posx>320</posx>
-								<posy>109</posy>
+								<left>320</left>
+								<top>109</top>
 								<width>640</width>
 								<height>502</height>
 								<colordiffuse>menu_back_image</colordiffuse>
@@ -14,8 +14,8 @@
 						</control>
 						<control type="label">
 								<description>heading label</description>
-								<posx>320</posx>
-								<posy>130</posy>
+								<left>320</left>
+								<top>130</top>
 								<width>640</width>
 								<height>50</height>
 								<align>center</align>
@@ -26,8 +26,8 @@
 						</control>
 						<!-- Main Menu -->
 						<control type="grouplist" id="9000">
-								<posx>320</posx>
-								<posy>200</posy>
+								<left>320</left>
+								<top>200</top>
 								<width>640</width>
 								<height>295</height>
 								<onleft>-</onleft>
@@ -36,13 +36,13 @@
 								<ondown>9000</ondown>
 								<itemgap>-1</itemgap>
 								<control type="button" id="1">
-										<posx>0</posx>
-										<posy>0</posy>
+										<left>0</left>
+										<top>0</top>
 										<label>[UPPERCASE]$INFO[Skin.CurrentTheme][/UPPERCASE]</label>
 										<align>center</align>
 										<aligny>center</aligny>
 										<texturefocus border="5">button-nofocus4.png</texturefocus>
-										<focusedcolor>menu_deselect_label</focusedcolor>
+										<focusedcolor>menu_nofocus_label</focusedcolor>
 										<include>MenuCustomButtonMenuValues</include>
 										<onright>Skin.Reset(Background_Color)</onright>
 										<onright>Skin.Reset(Background_Image)</onright>
@@ -53,8 +53,8 @@
 								</control>
 						</control>
 						<control type="image">
-								<posx>338</posx>
-								<posy>210</posy>
+								<left>338</left>
+								<top>210</top>
 								<width>30</width>
 								<height>30</height>
 								<colordiffuse>FF000000</colordiffuse>
@@ -64,8 +64,8 @@
 								<visible>Control.HasFocus(1)</visible>
 						</control>
 						<control type="image">
-								<posx>913</posx>
-								<posy>210</posy>
+								<left>913</left>
+								<top>210</top>
 								<width>30</width>
 								<height>30</height>
 								<colordiffuse>FF000000</colordiffuse>
@@ -75,16 +75,16 @@
 								<visible>Control.HasFocus(1)</visible>
 						</control>
 						<control type="image">
-								<posx>321</posx>
-								<posy>251</posy>
+								<left>321</left>
+								<top>251</top>
 								<width>638</width>
 								<height>359</height>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 								<texture background="false" diffuse="theme_preview_diffuse.png">black-back.png</texture>
 						</control>
 						<control type="image">
-								<posx>321</posx>
-								<posy>251</posy>
+								<left>321</left>
+								<top>251</top>
 								<width>638</width>
 								<height>359</height>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
