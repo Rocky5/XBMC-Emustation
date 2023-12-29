@@ -80,7 +80,7 @@ for /f "tokens=*" %%a in ('dir /b "%foldername%\emustation\themes\simple\languag
 	Del "%foldername%\emustation\themes\simple\language\%%a\strings.po"
 	rename "%foldername%\emustation\themes\simple\language\%%a\strings.tmp" "strings.po"
 
-	Call Other\Tools\repl.bat "build type" "Test_Build" L < "%foldername%\emustation\themes\simple\language\%%a\strings.po" >"%foldername%\emustation\themes\simple\language\%%a\strings.tmp"
+	Call Other\Tools\repl.bat "build type" "Stable_Build" L < "%foldername%\emustation\themes\simple\language\%%a\strings.po" >"%foldername%\emustation\themes\simple\language\%%a\strings.tmp"
 	Del "%foldername%\emustation\themes\simple\language\%%a\strings.po"
 	rename "%foldername%\emustation\themes\simple\language\%%a\strings.tmp" "strings.po"
 )
