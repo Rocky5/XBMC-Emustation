@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(pc-98_games)]</name>
+		<systemid>pc-98</systemid>
+		<fullname>NEC PC-9800 Series</fullname>
+		<systemart>layouts/pc-98/art/system_art.png</systemart>
+		<logo>layouts/pc-98/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(pc-98_exists)</visible>
+</item>

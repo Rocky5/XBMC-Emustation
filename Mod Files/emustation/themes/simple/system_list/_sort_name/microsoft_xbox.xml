@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(xbox_games)]</name>
+		<systemid>xbox</systemid>
+		<fullname>Microsoft Xbox</fullname>
+		<systemart>layouts/xbox/art/system_art.png</systemart>
+		<logo>layouts/xbox/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>IntegerGreaterThan(Skin.String(xbox_games),0)</visible>
+</item>

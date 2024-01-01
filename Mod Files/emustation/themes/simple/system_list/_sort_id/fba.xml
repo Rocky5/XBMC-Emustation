@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(fba_games)]</name>
+		<systemid>fba</systemid>
+		<fullname>FinalBurn Alpha</fullname>
+		<systemart>layouts/fba/art/system_art.png</systemart>
+		<logo>layouts/fba/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(fba_exists)</visible>
+</item>

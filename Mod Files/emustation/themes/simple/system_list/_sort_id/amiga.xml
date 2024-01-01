@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(amiga_games)]</name>
+		<systemid>amiga</systemid>
+		<fullname>Commodore Amiga</fullname>
+		<systemart>layouts/amiga/art/system_art.png</systemart>
+		<logo>layouts/amiga/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(amiga_exists)</visible>
+</item>

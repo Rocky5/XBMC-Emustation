@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(msx_games)]</name>
+		<systemid>msx</systemid>
+		<fullname>MSX</fullname>
+		<systemart>layouts/msx/art/system_art.png</systemart>
+		<logo>layouts/msx/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(msx_exists)</visible>
+</item>

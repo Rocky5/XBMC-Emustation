@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(segacd_games)]</name>
+		<systemid>segacd</systemid>
+		<fullname>Sega CD</fullname>
+		<systemart>layouts/segacd/art/system_art.png</systemart>
+		<logo>layouts/segacd/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(segacd_exists)</visible>
+</item>

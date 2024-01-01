@@ -1,0 +1,10 @@
+<item id="">
+		<name>Launch Emulator: $INFO[Skin.String(neogeocd_games)]</name>
+		<systemid>neogeocd</systemid>
+		<fullname>SNK Neo Geo CD</fullname>
+		<systemart>layouts/neogeocd/art/system_art.png</systemart>
+		<logo>layouts/neogeocd/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/direct_launch_emulator.py,1,)</onclick>
+		<visible>Skin.HasSetting(neogeocd_exists)</visible>
+</item>

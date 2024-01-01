@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(sf-7000_games)]</name>
+		<systemid>sf-7000</systemid>
+		<fullname>Super Control Station</fullname>
+		<systemart>layouts/sf-7000/art/system_art.png</systemart>
+		<logo>layouts/sf-7000/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(sf-7000_exists)</visible>
+</item>

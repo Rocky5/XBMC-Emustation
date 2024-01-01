@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(n64_games)]</name>
+		<systemid>n64</systemid>
+		<fullname>Nintendo 64</fullname>
+		<systemart>layouts/n64/art/system_art.png</systemart>
+		<logo>layouts/n64/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(n64_exists)</visible>
+</item>

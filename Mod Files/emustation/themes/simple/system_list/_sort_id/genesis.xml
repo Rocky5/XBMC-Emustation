@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(genesis_games)]</name>
+		<systemid>genesis</systemid>
+		<fullname>Sega Genesis</fullname>
+		<systemart>layouts/genesis/art/system_art.png</systemart>
+		<logo>layouts/genesis/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(genesis_exists)</visible>
+</item>

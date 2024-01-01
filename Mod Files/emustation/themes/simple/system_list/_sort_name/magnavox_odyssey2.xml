@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(odyssey2_games)]</name>
+		<systemid>odyssey2</systemid>
+		<fullname>Magnavox Odyssey2</fullname>
+		<systemart>layouts/odyssey2/art/system_art.png</systemart>
+		<logo>layouts/odyssey2/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(odyssey2_exists)</visible>
+</item>

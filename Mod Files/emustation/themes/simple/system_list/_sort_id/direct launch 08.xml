@@ -1,0 +1,10 @@
+<item id="">
+		<name>Direct Launch</name>
+		<systemid>customtile</systemid>
+		<fullname>Direct Launch</fullname>
+		<systemart>$INFO[Skin.String(CustomHomeTile8SystemArt)]</systemart>
+		<logo>$INFO[Skin.String(CustomHomeTile8Logo)]</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/direct_launch_emulator.py,0,$INFO[Skin.String(CustomHomeTile8Xbe)])</onclick>
+		<visible>Skin.HasSetting(CustomHomeTile8Enabled)</visible>
+</item>

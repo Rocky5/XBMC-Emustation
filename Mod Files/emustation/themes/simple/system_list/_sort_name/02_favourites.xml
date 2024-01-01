@@ -1,0 +1,9 @@
+<item id="2">
+		<name>$INFO[Skin.String(favs_games)]</name>
+		<fullname>Your Favorite Games</fullname>
+		<systemid>favs</systemid>
+		<systemart>layouts/favourites/art/system_art.png</systemart>
+		<logo>layouts/favourites/art/logo.png</logo>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>IntegerGreaterThan(Skin.String(favs_games),0) + !Skin.HasSetting(hide_favs_title)</visible>
+</item>

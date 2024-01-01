@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(c64_games)]</name>
+		<systemid>c64</systemid>
+		<fullname>Commodore 64</fullname>
+		<systemart>layouts/c64/art/system_art.png</systemart>
+		<logo>layouts/c64/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(c64_exists)</visible>
+</item>

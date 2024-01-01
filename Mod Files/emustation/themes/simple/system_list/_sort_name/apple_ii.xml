@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(apple2_games)]</name>
+		<systemid>apple2</systemid>
+		<fullname>Apple II</fullname>
+		<systemart>layouts/apple2/art/system_art.png</systemart>
+		<logo>layouts/apple2/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(apple2_exists)</visible>
+</item>

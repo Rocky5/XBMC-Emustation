@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(atari2600_games)]</name>
+		<systemid>atari2600</systemid>
+		<fullname>Atari 2600</fullname>
+		<systemart>layouts/atari2600/art/system_art.png</systemart>
+		<logo>layouts/atari2600/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(atari2600_exists)</visible>
+</item>

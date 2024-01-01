@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(atarilynx_games)]</name>
+		<systemid>atarilynx</systemid>
+		<fullname>Atari Lynx</fullname>
+		<systemart>layouts/atarilynx/art/system_art.png</systemart>
+		<logo>layouts/atarilynx/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(atarilynx_exists)</visible>
+</item>

@@ -1,0 +1,10 @@
+<item id="">
+		<name>Launch Emulator: $INFO[Skin.String(daphne_games)]</name>
+		<systemid>daphne</systemid>
+		<fullname>Daphne Arcade LaserDisc Emulator</fullname>
+		<systemart>layouts/daphne/art/system_art.png</systemart>
+		<logo>layouts/daphne/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/direct_launch_emulator.py,1,)</onclick>
+		<visible>Skin.HasSetting(daphne_exists)</visible>
+</item>

@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(pce-cd_games)]</name>
+		<systemid>pce-cd</systemid>
+		<fullname>NEC PC Engine CD</fullname>
+		<systemart>layouts/pce-cd/art/system_art.png</systemart>
+		<logo>layouts/pce-cd/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(pce-cd_exists)</visible>
+</item>

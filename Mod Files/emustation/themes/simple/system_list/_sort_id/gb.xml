@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(gb_games)]</name>
+		<systemid>gb</systemid>
+		<fullname>Nintendo Game Boy</fullname>
+		<systemart>layouts/gb/art/system_art.png</systemart>
+		<logo>layouts/gb/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(gb_exists)</visible>
+</item>

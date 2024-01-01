@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(homebrew_games)]</name>
+		<systemid>homebrew</systemid>
+		<fullname>Homebrew</fullname>
+		<systemart>layouts/homebrew/art/system_art.png</systemart>
+		<logo>layouts/homebrew/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>IntegerGreaterThan(Skin.String(homebrew_games),0)</visible>
+</item>

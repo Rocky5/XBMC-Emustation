@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(ngp_games)]</name>
+		<systemid>ngp</systemid>
+		<fullname>SNK Neo Geo Pocket</fullname>
+		<systemart>layouts/ngp/art/system_art.png</systemart>
+		<logo>layouts/ngp/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(ngp_exists)</visible>
+</item>

@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(zxspectrum_games)]</name>
+		<systemid>zxspectrum</systemid>
+		<fullname>Sinclair ZX Spectrum</fullname>
+		<systemart>layouts/zxspectrum/art/system_art.png</systemart>
+		<logo>layouts/zxspectrum/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(zxspectrum_exists)</visible>
+</item>

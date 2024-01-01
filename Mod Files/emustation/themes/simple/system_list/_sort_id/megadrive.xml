@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(megadrive_games)]</name>
+		<systemid>megadrive</systemid>
+		<fullname>Sega Mega Drive</fullname>
+		<systemart>layouts/megadrive/art/system_art.png</systemart>
+		<logo>layouts/megadrive/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(megadrive_exists)</visible>
+</item>

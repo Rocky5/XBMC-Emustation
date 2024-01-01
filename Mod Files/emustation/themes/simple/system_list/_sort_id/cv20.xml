@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(cv20_games)]</name>
+		<systemid>cv20</systemid>
+		<fullname>Commodore VIC-20</fullname>
+		<systemart>layouts/cv20/art/system_art.png</systemart>
+		<logo>layouts/cv20/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(cv20_exists)</visible>
+</item>

@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(amstradcpc_games)]</name>
+		<systemid>amstradcpc</systemid>
+		<fullname>Amstrad CPC</fullname>
+		<systemart>layouts/amstradcpc/art/system_art.png</systemart>
+		<logo>layouts/amstradcpc/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(amstradcpc_exists)</visible>
+</item>

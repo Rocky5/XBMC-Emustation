@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(tg16_games)]</name>
+		<systemid>tg16</systemid>
+		<fullname>NEC TurboGrafx-16</fullname>
+		<systemart>layouts/tg16/art/system_art.png</systemart>
+		<logo>layouts/tg16/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(tg16_exists)</visible>
+</item>

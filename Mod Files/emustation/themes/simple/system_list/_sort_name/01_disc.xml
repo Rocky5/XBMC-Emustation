@@ -1,0 +1,8 @@
+<item id="1">
+		<name>$LOCALIZE[518] $LOCALIZE[427]</name>
+		<systemid>$LOCALIZE[427]</systemid>
+		<systemart>layouts/disc/art/system_art.png</systemart>
+		<logo>layouts/disc/art/logo.png</logo>
+		<onclick>PlayDVD()</onclick>
+		<visible>System.HasMediaDVD</visible>
+</item>

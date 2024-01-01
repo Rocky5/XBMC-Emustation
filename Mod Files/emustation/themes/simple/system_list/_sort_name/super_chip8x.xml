@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(chip8x_games)]</name>
+		<systemid>chip8x</systemid>
+		<fullname>Super Chip8x</fullname>
+		<systemart>layouts/chip8x/art/system_art.png</systemart>
+		<logo>layouts/chip8x/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(chip8x_exists)</visible>
+</item>

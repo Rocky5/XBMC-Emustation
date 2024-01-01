@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(snes_games)]</name>
+		<systemid>snes</systemid>
+		<fullname>Nintendo SNES (Super Nintendo)</fullname>
+		<systemart>layouts/snes/art/system_art.png</systemart>
+		<logo>layouts/snes/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(snes_exists)</visible>
+</item>

@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(ti99_games)]</name>
+		<systemid>ti99</systemid>
+		<fullname>Texas Instruments TI-99</fullname>
+		<systemart>layouts/ti99/art/system_art.png</systemart>
+		<logo>layouts/ti99/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(ti99_exists)</visible>
+</item>

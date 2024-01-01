@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(atari7800_games)]</name>
+		<systemid>atari7800</systemid>
+		<fullname>Atari 7800 ProSystem</fullname>
+		<systemart>layouts/atari7800/art/system_art.png</systemart>
+		<logo>layouts/atari7800/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(atari7800_exists)</visible>
+</item>

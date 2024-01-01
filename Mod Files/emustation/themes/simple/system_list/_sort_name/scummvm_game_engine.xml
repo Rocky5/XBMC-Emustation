@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(scummvm_games)]</name>
+		<systemid>scummvm</systemid>
+		<fullname>ScummVM Game Engine</fullname>
+		<systemart>layouts/scummvm/art/system_art.png</systemart>
+		<logo>layouts/scummvm/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(scummvm_exists)</visible>
+</item>

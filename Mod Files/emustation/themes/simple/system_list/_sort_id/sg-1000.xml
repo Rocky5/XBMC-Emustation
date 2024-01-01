@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(sg-1000_games)]</name>
+		<systemid>sg-1000</systemid>
+		<fullname>Sega SG-1000</fullname>
+		<systemart>layouts/sg-1000/art/system_art.png</systemart>
+		<logo>layouts/sg-1000/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(sg-1000_exists)</visible>
+</item>

@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(atarist_games)]</name>
+		<systemid>atarist</systemid>
+		<fullname>Atari ST</fullname>
+		<systemart>layouts/atarist/art/system_art.png</systemart>
+		<logo>layouts/atarist/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(atarist_exists)</visible>
+</item>

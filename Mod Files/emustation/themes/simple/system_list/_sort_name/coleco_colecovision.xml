@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(colecovision_games)]</name>
+		<systemid>colecovision</systemid>
+		<fullname>Coleco ColecoVision</fullname>
+		<systemart>layouts/colecovision/art/system_art.png</systemart>
+		<logo>layouts/colecovision/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(colecovision_exists)</visible>
+</item>

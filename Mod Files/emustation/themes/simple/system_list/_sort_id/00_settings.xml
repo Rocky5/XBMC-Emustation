@@ -1,0 +1,8 @@
+<item id="0">
+		<name>$LOCALIZE[5]</name>
+		<fullname>Adjust System Settings</fullname>
+		<systemid>$LOCALIZE[5]</systemid>
+		<systemart>layouts/settings/art/system_art.png</systemart>
+		<onclick>ActivateWindow(Settings,return)</onclick>
+		<logo>layouts/settings/art/logo.png</logo>
+</item>

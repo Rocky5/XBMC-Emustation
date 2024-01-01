@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(ports_games)]</name>
+		<systemid>ports</systemid>
+		<fullname>Ports</fullname>
+		<systemart>layouts/ports/art/system_art.png</systemart>
+		<logo>layouts/ports/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>IntegerGreaterThan(Skin.String(ports_games),0)</visible>
+</item>

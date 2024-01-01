@@ -1,0 +1,10 @@
+<item id="">
+		<name>Launch Emulator: $INFO[Skin.String(atarijaguar_games)]</name>
+		<systemid>atarijaguar</systemid>
+		<fullname>Atari Jaguar</fullname>
+		<systemart>layouts/atarijaguar/art/system_art.png</systemart>
+		<logo>layouts/atarijaguar/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/direct_launch_emulator.py,1,)</onclick>
+		<visible>Skin.HasSetting(atarijaguar_exists)</visible>
+</item>

@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(waterasupervision_games)]</name>
+		<systemid>waterasupervision</systemid>
+		<fullname>Watara Supervision</fullname>
+		<systemart>layouts/waterasupervision/art/system_art.png</systemart>
+		<logo>layouts/waterasupervision/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(waterasupervision_exists)</visible>
+</item>

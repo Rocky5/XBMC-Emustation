@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(saturn_games)]</name>
+		<systemid>saturn</systemid>
+		<fullname>Sega Saturn</fullname>
+		<systemart>layouts/saturn/art/system_art.png</systemart>
+		<logo>layouts/saturn/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(saturn_exists)</visible>
+</item>
