@@ -1,4 +1,4 @@
-import ast,fileinput,glob,itertools,random,re,operator,os,shutil,string,struct,sys,time,xbmc,xbmcgui,zipfile,filecmp
+import ast,datetime,fileinput,glob,itertools,random,operator,os,shutil,string,struct,sys,time,xbmc,xbmcgui,zipfile
 from xbe import *
 try:
 	Manual_Scan	= sys.argv[1:][0]
@@ -24,6 +24,7 @@ if xbmc.getCondVisibility('Skin.String(Custom_Media_Path)'):
 	Media_Folder_Path	 = xbmc.getInfoLabel('Skin.String(Custom_Media_Path)')
 else:
 	Media_Folder_Path	 = os.path.join(Root_Directory,'emustation\\media\\')
+
 Synopsis_Path		= os.path.join(Root_Directory,'emustation\\synopsis\\')
 Scripts_Path		= os.path.join(Root_Directory,'emustation\\scripts\\')
 File_Types_Path		= os.path.join(Root_Directory,'emustation\\scripts\\rom_extensions\\')
@@ -43,25 +44,23 @@ def Extract_XbeInfo(FileName):
 	# Need to use this as the xbe.py Get_title misses letter and causes string issues, even when using .encode or .decode
 	XbeTitle	=	''
 	if os.path.isfile(FileName) and FileName.endswith('.xbe'):
-		xbe			=	open(FileName,'rb')
+		xbe	=	open(FileName,'rb')
 		# Get XbeId Data #
-		xbe.seek(0x104)
-		tLoadAddr	=	xbe.read(4)
-		xbe.seek(0x118)
-		tCertLoc	=	xbe.read(4)
-		LoadAddr	=	struct.unpack('L',tLoadAddr)
-		CertLoc		=	struct.unpack('L',tCertLoc)
-		CertBase	=	CertLoc[0] - LoadAddr[0]
-		CertBase	+=	8
-		IdStart		=	xbe.seek(CertBase)
-		tIdData		=	xbe.read(4)
-		IdData		=	struct.unpack('L',tIdData)
+		xbe.seek(0x104); tLoadAddr = xbe.read(4)
+		xbe.seek(0x118); tCertLoc = xbe.read(4)
+		LoadAddr	= struct.unpack('L',tLoadAddr)
+		CertLoc		= struct.unpack('L',tCertLoc)
+		CertBase	= CertLoc[0] - LoadAddr[0]
+		CertBase	+= 8
+		IdStart		= xbe.seek(CertBase)
+		tIdData		= xbe.read(4)
+		IdData		= struct.unpack('L',tIdData)
 		# Get Xbe Title #
 		for dta in struct.unpack(operator.repeat('H',40),xbe.read(0x0050)):
 			try		:
-				if dta != 00:	XbeTitle+= str(unichr(dta))
+				if dta != 00:	XbeTitle += str(unichr(dta))
 			except	:	pass
-		XbeDta		= str(str(XbeTitle)+'|'+str(hex(IdData[0])[2:10]).lower().zfill(8))
+		XbeDta	= str(str(XbeTitle)+'|'+str(hex(IdData[0])[2:10]).lower().zfill(8))
 		xbe.close()
 	else:
 		XbeDta		= str(XbeTitle+'|'+open(FileName).read()[:8].upper().lstrip().rstrip().zfill(8))
@@ -112,7 +111,6 @@ def Main_Code():
 	_Resources_Videos = 0
 	Allow_Xbox_Overwrite = 0
 	
-	
 
 ## Check if _emulators directory is selected instead of the emulator its self.
 	if os.path.isdir(Emulator_Folder_Path):
@@ -131,6 +129,11 @@ def Main_Code():
 			Folderize_Images = 0; Parse_CUE_CCD_CHD_ISO_File = 0; Parse_CUE_ZIP_ISO_ADF_File = 0; Parse_ISO_BIN_IMG_File = 0; Parse_CUE_File = 0; Parse_SubFolder = 0; Parse_CCD_File = 0; Parse_ISO_File = 0; Parse_FBL_TXT = 0; Parse_FBL_MAME_TXT = 0; Parse_FBL_MAME_ROMS = 0; Parse_Xbox_Games = 0; Parse_N64_TXT = 0; N64ID = "0"; FBA_MAME_Rom_Name = ""; Change_FBL_Rom_Path = 0; Change_Mame_Rom_Path = 0; Change_N64_Rom_Path = 0; Change_NeoGeoCD_Rom_Path = 0; Name_File = 0; N64_Emu_Core = ''; N64_Video_Core = '';
 			RomListCount = 0; RenameCount = 0; ArtworkCount = 0; ExtractedZip = 0; Folderize_Counter = 0; Xbox_Game_Total = 0;
 			Write_List_File = 1
+			Previous_Letter = ""
+			WriteGamelistFile = []
+			WriteJumplistFile = []
+			WriteFavsMenuFile = []
+			RomSortFiles = []
 			Emu_XBE = "default.xbe"
 
 			Game_Directories = [ "E:\\Games\\","F:\\Games\\","G:\\Games\\" ]
@@ -497,9 +500,9 @@ def Main_Code():
 	## Creating Xbox game list so its in alphabetical order.
 					if Parse_Xbox_Games == 1:
 						if not os.path.isdir(Roms_Folder): os.makedirs(Roms_Folder)
+						XBEIDCheck = []
 						xbe_count = 1
 						dup_count = 1
-						altnumb = 1
 						if Emu_Name == "homebrew":
 							Game_Directories = Homebrew_Directories
 							Resource_Type = "homebrew"
@@ -514,7 +517,7 @@ def Main_Code():
 									pDialog.update(0,'Sorting [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Games/Artwork','[UPPERCASE]'+Item+'[/UPPERCASE]','This can take some time, please be patient.')
 									if os.path.isdir(os.path.join(Game_Dirs,Item)):
 										Game_Directory = os.path.join(Game_Dirs,Item)
-										print "Game being added = " + Game_Directory
+										# print "Game being added = " + Game_Directory
 										if os.path.isfile(os.path.join(Game_Directory,"default_ffp.xbe")):
 											XBEFile = os.path.join(Game_Directory,"default_ffp.xbe")
 										else:
@@ -564,6 +567,12 @@ def Main_Code():
 																	XBETitle = line.lower().strip().split(': ',1)[1]
 																	break
 													if Emu_Name == "homebrew": Resource_Type = "homebrew"
+											
+											if str(XBEID) in XBEIDCheck:
+												XBEID = str(XBEID)+"_"+str(dup_count)
+												XBEIDCheck.append(XBEID)
+												dup_count = dup_count+1
+
 											if xbmc.getCondVisibility('Skin.HasSetting(Remove_Articles_In_Name)'):
 												XBETitle = XBETitle.split(' (',1)[0]
 											if XBETitle.startswith('the') and xbmc.getCondVisibility('Skin.HasSetting(Ignore_The_In_Names)'):
@@ -581,15 +590,12 @@ def Main_Code():
 											if not os.path.isdir(os.path.join(Media_Path,'opencase',Xbox_Thumb_Folder)): os.makedirs(os.path.join(Media_Path,'opencase',Xbox_Thumb_Folder))
 											if not os.path.isdir(os.path.join(Media_Path,'screenshots',Xbox_Thumb_Folder)): os.makedirs(os.path.join(Media_Path,'screenshots',Xbox_Thumb_Folder))
 											if not os.path.isdir(os.path.join(Media_Path,'videos',Xbox_Thumb_Folder)): os.makedirs(os.path.join(Media_Path,'videos',Xbox_Thumb_Folder))
-											if os.path.isfile(os.path.join(Roms_Folder,'idlist.xml')):
-												if str(XBEID) in open(os.path.join(Roms_Folder,'idlist.xml')).read():
-													XBEID = str(XBEID)+"_"+str(dup_count)
-													dup_count = dup_count+1
+
 											if _Resources == 0:
 												if os.path.isfile(TBNFile):
 													# Default.tbn
 													if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\boxart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\boxart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	) ,TBNFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															shutil.copy2(TBNFile,os.path.join(Media_Folder_Path+Resource_Type+"\\boxart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"))
 													else:
 														shutil.copy2(TBNFile,os.path.join(Media_Folder_Path+Resource_Type+"\\boxart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"))
@@ -600,7 +606,7 @@ def Main_Code():
 													except: pass
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\fanart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")):
 													if os.path.isfile(FanartFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\fanart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	) ,FanartFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															shutil.copy2(FanartFile,Media_Folder_Path+Resource_Type+"\\fanart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)
 												else:
 													if os.path.isfile(FanartFile):
@@ -611,7 +617,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\boxart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")):
 													#print XBEID+" baxart already present"
 													if os.path.isfile(_Resources_PosterFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\boxart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	),_Resources_PosterFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_PosterFile):
 																shutil.copy2(_Resources_PosterFile,Media_Folder_Path+Resource_Type+"\\boxart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")
 												else:
@@ -629,7 +635,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\boxart3d\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)):
 													#print XBEID+" 3d boxart already present"
 													if os.path.isfile(_Resources_IconFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\boxart3d\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"),_Resources_IconFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_IconFile):
 																shutil.copy2(_Resources_IconFile,Media_Folder_Path+Resource_Type+"\\boxart3d\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")
 												else:
@@ -639,7 +645,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\disc\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)):
 													#print XBEID+" cd already present"
 													if os.path.isfile(_Resources_CDFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\disc\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"),_Resources_CDFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_CDFile):
 																shutil.copy2(_Resources_CDFile,Media_Folder_Path+Resource_Type+"\\disc\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)
 												else:
@@ -649,7 +655,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\cdposter\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)):
 													#print XBEID+" disc case already present"
 													if os.path.isfile(_Resources_CDPosterFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\cdposter\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"),_Resources_CDPosterFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_CDPosterFile):
 																shutil.copy2(_Resources_CDPosterFile,Media_Folder_Path+Resource_Type+"\\cdposter\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")
 												else:
@@ -659,7 +665,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\dual\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)):
 													#print XBEID+" dual 3d already present"
 													if os.path.isfile(_Resources_Poster3dFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\dual\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"),_Resources_Poster3dFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_Poster3dFile):
 																shutil.copy2(_Resources_Poster3dFile,Media_Folder_Path+Resource_Type+"\\dual\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")
 												else:
@@ -669,7 +675,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\opencase\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)):
 													#print XBEID+" mix already present"
 													if os.path.isfile(_Resources_OpenCaseFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\opencase\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"),_Resources_OpenCaseFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_OpenCaseFile):
 																shutil.copy2(_Resources_OpenCaseFile,Media_Folder_Path+Resource_Type+"\\opencase\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")
 												else:
@@ -679,7 +685,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\fanart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")):
 													#print XBEID+" fanart already present"
 													if os.path.isfile(_Resources_FanartFile):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\fanart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	),_Resources_FanartFile,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_FanartFile):
 																shutil.copy2(_Resources_FanartFile,Media_Folder_Path+Resource_Type+"\\fanart\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg")
 															elif os.path.isfile(FanartFile):
@@ -693,7 +699,7 @@ def Main_Code():
 												if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\screenshots\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)):
 													#print XBEID+" screenshots already present"
 													if os.path.isfile(_Resources_Screenshot):
-														if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\screenshots\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	),_Resources_Screenshot,shallow=0):
+														if Allow_Xbox_Overwrite == 1:
 															if os.path.isfile(_Resources_Screenshot):
 																shutil.copy2(_Resources_Screenshot,Media_Folder_Path+Resource_Type+"\\screenshots\\"+Xbox_Thumb_Folder+'\\'+XBEID+".jpg"	)
 												else:
@@ -715,17 +721,18 @@ def Main_Code():
 														if found_video_xbox == 1:
 															if os.path.isfile(os.path.join(Media_Folder_Path+Resource_Type+"\\videos\\"+Xbox_Thumb_Folder+'\\'+XBEID+os.path.splitext(Video_File)[1])):
 																#print XBEID+" videos already present"
-																if Allow_Xbox_Overwrite == 1: #and not filecmp.cmp(os.path.join(Media_Folder_Path+Resource_Type+"\\videos\\"+Xbox_Thumb_Folder+'\\'+XBEID+os.path.splitext(Video_File)[1]),Video_File,shallow=0):
+																if Allow_Xbox_Overwrite == 1:
 																	shutil.copy2(Video_File,Media_Folder_Path+Resource_Type+"\\videos\\"+Xbox_Thumb_Folder+'\\'+XBEID+os.path.splitext(Video_File)[1])
 															else:
 																shutil.copy2(Video_File,Media_Folder_Path+Resource_Type+"\\videos\\"+Xbox_Thumb_Folder+'\\'+XBEID+os.path.splitext(Video_File)[1])
-											# Write info file
-											with open(os.path.join(Roms_Folder,'idlist.xml'),"a") as idlistfile:
-												idlistoutput = str(XBEID)+"\n"
-												idlistfile.write(idlistoutput)										
-											with open(XBETitle_List[:72]+"_"+str(xbe_count)+".xbg","w") as ouput:
-												ouput.write(XBETitle.rstrip()+"\n" + Emu_XBE.rstrip()+"\n" + Xbox_Thumb_Folder.rstrip()+"\n" + XBEID.rstrip())
+												
+											RomSortFiles.append(XBETitle_List[:72]+"_"+str(xbe_count)+'~'+XBETitle.rstrip()+"\n" + Emu_XBE.rstrip()+"\n" + Xbox_Thumb_Folder.rstrip()+"\n" + XBEID.rstrip())	
 											xbe_count = xbe_count+1
+											XBEIDCheck.append(XBEID)
+										
+								pDialog.update(0,'Sorting [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Games/Artwork','[UPPERCASE]Preparing to build gamelist[/UPPERCASE]','This can take some time, please be patient.')
+								for listitems in RomSortFiles:
+									with open(os.path.join(listitems.split('~')[0]+'.xbg'),'w') as rominfo: rominfo.write(listitems.split('~')[1])
 					
 
 	## Parse rom names.txt and build a list
@@ -760,10 +767,14 @@ def Main_Code():
 										Save_Name = Rom_Name[:22]+'.'+File_Name+"_"+str(Rom_Count)
 										Save_Name = (Save_Name[:38]) if len(Save_Name) > 38 else Save_Name
 										Save_Name = Save_Name.replace('=','').replace('?','').replace(':','').replace(';','').replace('"','').replace('*','').replace('+','').replace(',','').replace('/','').replace('|','').lower()
-										with open(os.path.join(New_Roms_Folder,Save_Name+'.zip'),'w') as rominfo: rominfo.write(Full_String)
+										RomSortFiles.append(os.path.join(New_Roms_Folder,Save_Name)+'~'+Full_String)
 										pDialog.update(0,'Sorting [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Roms','[UPPERCASE]'+File_Name+'[/UPPERCASE]','This can take some time, please be patient.')
 										Rom_Count = Rom_Count+1
-							Roms_Folder = New_Roms_Folder
+						
+						pDialog.update(0,'Sorting [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Roms','[UPPERCASE]Preparing to build gamelist[/UPPERCASE]','This can take some time, please be patient.')
+						for listitems in RomSortFiles:
+							with open(os.path.join(listitems.split('~')[0]+'.zip'),'w') as rominfo: rominfo.write(listitems.split('~')[1])
+						Roms_Folder = New_Roms_Folder
 
 
 					if Parse_ROM_TXT == 1:
@@ -788,23 +799,20 @@ def Main_Code():
 							Save_Name = File_Name[:72]+"_"+str(Rom_Count)
 							Save_Name = (Save_Name[:38]) if len(Save_Name) > 38 else Save_Name
 							Save_Name = xbmc.makeLegalFilename(New_Roms_Folder+'\\'+Save_Name.lower().replace('/','').replace('\\','').replace(' ',''))
-							with open(os.path.join(Save_Name+'.zip'),'w') as rominfo: rominfo.write(File_Name_Original)
+							RomSortFiles.append(os.path.join(New_Roms_Folder,Save_Name)+'~'+File_Name_Original)
 							pDialog.update(0,'Sorting [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Roms','[UPPERCASE]'+File_Name+'[/UPPERCASE]','This can take some time, please be patient.')
 							Rom_Count = Rom_Count+1
+						
+						pDialog.update(0,'Sorting [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Roms','[UPPERCASE]Preparing to build gamelist[/UPPERCASE]','This can take some time, please be patient.')
+						for listitems in RomSortFiles:
+							with open(os.path.join(listitems.split('~')[0]+'.zip'),'w') as rominfo: rominfo.write(listitems.split('~')[1])
 						Roms_Folder = New_Roms_Folder
 
 
 	## Check for previous gamelist xml and if it exists remove it.
 					if os.path.isdir(Games_List_Path): shutil.rmtree(Games_List_Path)
 					if not os.path.isdir(Games_List_Path): os.makedirs(Games_List_Path)
-					if Parse_Xbox_Games == 1 and os.path.isfile(os.path.join(Media_Folder_Path,Resource_Type+"\\GameNames.txt")): os.remove(os.path.join(Media_Folder_Path,Resource_Type+"\\GameNames.txt"))
-					
-
-	## Write new gamelist xml header.
-					with open(os.path.join(Games_List_Path,'gamelist.xml'),"wb") as outputmenufile:
-						WriteMenuFile = menu_entry_header
-						outputmenufile.write(WriteMenuFile)
-					
+					if Parse_Xbox_Games == 1 and os.path.isfile(os.path.join(Media_Folder_Path,Resource_Type+"\\GameNames.txt")): os.remove(os.path.join(Media_Folder_Path,Resource_Type+"\\GameNames.txt"))					
 
 	## Listing the content of the roms folder for parsing.
 					for Items in sorted([f for f in os.listdir(Roms_Folder)]):
@@ -819,10 +827,11 @@ def Main_Code():
 							Rom_Name_noext,Rom_Extension = os.path.splitext(Rom_Name)
 							if Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
 								with open(os.path.join(Xbox_Sort_Files,Rom_Name),"r") as input:
-									Rom_Name_noext = input.readline()
-									Emu_XBE = input.readline()
-									skip = input.readline()
-									XBE_ID = input.readline()
+									XBE_Name = input.readline().strip()
+									Emu_XBE = input.readline().strip()
+									Letter = input.readline().strip()
+									XBE_ID = input.readline().strip()
+								Rom_Name_noext = XBE_Name
 							if Xbox_Game_Total == 0: Xbox_Game_Total = len(os.listdir(Roms_Folder))
 							JumpList_Name = Rom_Name_noext.lower()
 							if not xbmc.getCondVisibility('Skin.String('+Emu_Name+'_artworkfolder)'): xbmc.executebuiltin('Skin.SetString('+Emu_Name+'_artworkfolder,boxart)')
@@ -832,7 +841,6 @@ def Main_Code():
 	## Check if fba was found and parse the name text files to get the correct rom names and system types for the list.
 							if Parse_FBL_MAME_TXT == 1:
 								with open(os.path.join(Roms_Folder,Rom_Name),'r') as txt:
-									Original_File_Name = Rom_Name
 									Full_String = txt.readline()
 									Rom_Name = Full_String[1:].split('--',1)[0]
 									FBA_MAME_Rom_Name = Full_String.split('--',2)[1].split('/',1)[0].replace('(','').replace(')','').strip()
@@ -867,9 +875,6 @@ def Main_Code():
 										if System_Name == "im": Emu_XBE = "irem.xbe"
 									JumpList_Name = FBA_MAME_Rom_Name.lower()
 									Write_List_File = 1
-								# try:
-									# os.remove(os.path.join(Roms_Folder,Original_File_Name))
-								# except: pass
 							
 							if Parse_ROM_TXT == 1:
 								with open(os.path.join(Roms_Folder,Rom_Name),'r') as txt:
@@ -1096,12 +1101,11 @@ def Main_Code():
 											elif Synopsis_nointroname_Set == 0:
 												pass
 											if Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
-												with open(os.path.join(Xbox_Sort_Files,Rom_Name),"r") as input:
-													Synopsis_filename = ''.join(input.readlines()[3:])
-													if '_' in Synopsis_filename:
-														Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename.split('_',1)[0]
-													else:
-														Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename
+												Synopsis_filename = XBE_ID
+												if '_' in Synopsis_filename:
+													Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename.split('_',1)[0]
+												else:
+													Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename
 											else:
 												if line.startswith('filename:'):
 													Synopsis_filename = line.split(': ',1)[1]
@@ -1145,7 +1149,7 @@ def Main_Code():
 												Synopsis_release_year_Set = 1
 											elif Synopsis_release_year_Set == 0:
 												Synopsis_release_year = '[B]Released:[/B][CR] unknown'
-									Synopsis1 = Synopsis_release_year+'[CR]'+Synopsis_developer+'[CR]'+Synopsis_publisher+'[CR]'+Synopsis_genre+'[CR]'+Synopsis_players#+'[CR]'+Synopsis_filename
+									Synopsis1 = Synopsis_release_year+'[CR]'+Synopsis_developer+'[CR]'+Synopsis_publisher+'[CR]'+Synopsis_genre+'[CR]'+Synopsis_players
 									Synopsis2 = Synopsis.split('_________________________',1)[1]
 									Synopsis2 = Synopsis2.strip('\n')
 									Synopsis2 = Synopsis2.replace('\n','[CR]')
@@ -1154,26 +1158,24 @@ def Main_Code():
 									Synopsis2 = Synopsis2.replace('<','&lt;')
 							except:
 								if Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
-									with open(os.path.join(Xbox_Sort_Files,Rom_Name),"r") as input:
-										Synopsis_filename = ''.join(input.readlines()[3:])
-										if '_' in Synopsis_filename:
-											Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename.split('_',1)[0]
-										else:
-											Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename
-								Synopsis1 = Synopsis_release_year+'[CR]'+Synopsis_developer+'[CR]'+Synopsis_publisher+'[CR]'+Synopsis_genre+'[CR]'+Synopsis_players#+'[CR]'+Synopsis_filename
+									Synopsis_filename = XBE_ID
+									if '_' in Synopsis_filename:
+										Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename.split('_',1)[0]
+									else:
+										Synopsis_filename = '[B]TITLEID:[/B][CR] '+Synopsis_filename
+								Synopsis1 = Synopsis_release_year+'[CR]'+Synopsis_developer+'[CR]'+Synopsis_publisher+'[CR]'+Synopsis_genre+'[CR]'+Synopsis_players
 								Synopsis2 = ""
 							
 
 	## Edit labels as well as fix labels that use only numbers, XBMC will use its internal labelling system if I don't.
 							if Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
-								with open(os.path.join(Xbox_Sort_Files,Rom_Name),"r") as input:
-									if Use_NoIntroNames == 0 or XBE_GameTitle == "":
-										XBE_GameTitle = input.readline().strip().lower()
-									else:
-										skip = input.readline()
-									GamePath = input.readline().strip()
-									GameLetter = input.readline().strip()
-									GameThumb = input.readline().strip()+'.jpg'
+								if Use_NoIntroNames == 0 or XBE_GameTitle == "":
+									XBE_GameTitle = XBE_Name.lower()
+								else:
+									skip = ""
+								GamePath = Emu_XBE
+								GameLetter = Letter
+								GameThumb = XBE_ID+'.jpg'
 
 							if xbmc.getCondVisibility('Skin.HasSetting(Remove_Articles_In_Name)'):
 								XBE_GameTitle = XBE_GameTitle.split(' (',1)[0]
@@ -1326,110 +1328,193 @@ def Main_Code():
 								else:
 									Write_List_File = 0
 
-	## Create the rest of the layout xml file.
+							## Create the rest of the layout xml file.
 							if Write_List_File:
 								if CreateDialog: CreateDialog = 0; pDialog.update(0,'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list','','This can take some time, please be patient.')
-	## Show the progress bar progress and write rom list file.
+								## Show the progress bar progress and write rom list file.
 								RomListCount = RomListCount+1
-								with open(os.path.join(Games_List_Path,'gamelist.xml'),"a") as outputmenufile:
-									if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
-										pDialog.update((CountList * 100) / len(os.listdir(os.path.join(Roms_Folder_Path,Emu_Name))),'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',FBA_MAME_Rom_Name.upper(),'This can take some time, please be patient.')
-										WriteMenuFile = menu_entry % (CountList,FBA_MAME_Rom_Name,Synopsis1,Synopsis2,Thumbnail,"[ArtworkFolder]",'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+FBL_Rom_Name_noext+',,'+str(CountList)+')',"ActivateWindow(1101)")
-									elif Emu_Name == "mame":
-										pDialog.update((CountList * 100) / len(os.listdir(os.path.join(Roms_Folder_Path,Emu_Name))),'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',FBA_MAME_Rom_Name.upper(),'This can take some time, please be patient.')
-										WriteMenuFile = menu_entry % (CountList,FBA_MAME_Rom_Name,Synopsis1,Synopsis2,Thumbnail,"[ArtworkFolder]",'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Mame_Rom_Name_noext+',,'+str(CountList)+')',"ActivateWindow(1101)")
-									elif Emu_Name == "neogeocd":
-										pass
-									elif Emu_Name == "n64":
-										pDialog.update((CountList * 100) / len(os.listdir(Roms_Folder)),'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Rom list & copying media files',N64_Rom_Name.upper(),'This can take some time, please be patient.')
-										WriteMenuFile = menu_entry % (CountList,N64_Rom_Name,Synopsis1,Synopsis2,Thumbnail,"[ArtworkFolder]",'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Rom_Path+'-CRC-'+N64_Rom_CRC+',,'+str(CountList)+')',"ActivateWindow(1101)")
-									elif Emu_Name == "amiga" or Emu_Name == "pce-cd" or Emu_Name == "psx" or Emu_Name == "tg-cd" or Emu_Name == "segacd":
-										pDialog.update((CountList * 100) / Rom_Type_Total,'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',Rom_Name_noext.upper(),'This can take some time, please be patient.')
-										WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,Synopsis2,Thumbnail,"[ArtworkFolder]",'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Rom_Path+',,'+str(CountList)+')',"ActivateWindow(1101)")
-									elif Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
-										with open(os.path.join(Games_List_Path,"artworkinfo.txt"),"a") as ouput:
-											ouput.write("Game Name: "+XBE_GameTitle+"\nSubFolder: "+GameLetter+"\nTitleID: "+GameThumb[:-4]+"\n\n")
-										pDialog.update((CountList * 100) / Xbox_Game_Total,'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',XBE_GameTitle.upper(),'This can take some time, please be patient.')
-										WriteMenuFile = menu_entry % (CountList,XBE_GameTitle,Synopsis1,Synopsis2,GameLetter+'\\'+GameThumb,"[ArtworkFolder]",'RunScript(special://emustation_scripts/launcher.py,'+GamePath+',empty,,'+str(CountList)+')',"ActivateWindow(1101)")
-									else:
-										pDialog.update((CountList * 100) / len(os.listdir(Roms_Folder)),'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',Rom_Name_noext.upper(),'This can take some time, please be patient.')
-										WriteMenuFile = menu_entry % (CountList,Rom_Name_noext,Synopsis1,Synopsis2,Thumbnail,"[ArtworkFolder]",'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Rom_Path+',,'+str(CountList)+')',"ActivateWindow(1101)")
-									outputmenufile.write(WriteMenuFile)
+								
+								# with open(os.path.join(Games_List_Path,'gamelist.xml'),"a") as outputmenufile:
+								if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
+									pDialog.update(
+										(CountList * 100) / len(os.listdir(os.path.join(Roms_Folder_Path,Emu_Name))),
+										'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',
+										FBA_MAME_Rom_Name.upper(),
+										'This can take some time, please be patient.'
+									)
+									GamelistOuput = menu_entry % (
+										CountList,
+										FBA_MAME_Rom_Name,
+										Synopsis1,
+										Synopsis2,
+										Thumbnail,
+										"[ArtworkFolder]",
+										'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+FBL_Rom_Name_noext+',,'+str(CountList)+')',
+										"ActivateWindow(1101)"
+									)
+								
+								elif Emu_Name == "mame":
+									pDialog.update(
+										(CountList * 100) / len(os.listdir(os.path.join(Roms_Folder_Path,Emu_Name))),
+										'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',
+										FBA_MAME_Rom_Name.upper(),
+										'This can take some time, please be patient.'
+									)
+									GamelistOuput = menu_entry % (
+										CountList,
+										FBA_MAME_Rom_Name,
+										Synopsis1,Synopsis2,
+										Thumbnail,
+										"[ArtworkFolder]",
+										'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Mame_Rom_Name_noext+',,'+str(CountList)+')',
+										"ActivateWindow(1101)"
+									)
+								
+								elif Emu_Name == "neogeocd":
+									pass
+								
+								elif Emu_Name == "n64":
+									pDialog.update(
+										(CountList * 100) / len(os.listdir(Roms_Folder)),
+										'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Rom list & copying media files',
+										N64_Rom_Name.upper(),
+										'This can take some time, please be patient.'
+									)
+									GamelistOuput = menu_entry % (
+										CountList,
+										N64_Rom_Name,
+										Synopsis1,
+										Synopsis2,
+										Thumbnail,
+										"[ArtworkFolder]",
+										'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Rom_Path+'-CRC-'+N64_Rom_CRC+',,'+str(CountList)+')',
+										"ActivateWindow(1101)"
+									)
+								
+								elif Emu_Name == "amiga" or Emu_Name == "pce-cd" or Emu_Name == "psx" or Emu_Name == "tg-cd" or Emu_Name == "segacd":
+									pDialog.update(
+										(CountList * 100) / Rom_Type_Total,
+										'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',
+										Rom_Name_noext.upper(),
+										'This can take some time, please be patient.'
+									)
+									GamelistOuput = menu_entry % (
+										CountList,
+										Rom_Name_noext,
+										Synopsis1,
+										Synopsis2,
+										Thumbnail,
+										"[ArtworkFolder]",
+										'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Rom_Path+',,'+str(CountList)+')',
+										"ActivateWindow(1101)"
+									)
+								
+								elif Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
+									# with open(os.path.join(Games_List_Path,"artworkinfo.txt"),"a") as ouput:
+										# ouput.write("Game Name: "+XBE_GameTitle+"\nSubFolder: "+GameLetter+"\nTitleID: "+GameThumb[:-4]+"\n\n")
+									
+									pDialog.update(
+										(CountList * 100) / Xbox_Game_Total,
+										'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',
+										XBE_GameTitle.upper(),
+										'This can take some time, please be patient.'
+									)
+									GamelistOuput = menu_entry % (
+										CountList,
+										XBE_GameTitle,
+										Synopsis1,
+										Synopsis2,
+										GameLetter+'\\'+GameThumb,
+										"[ArtworkFolder]",
+										'RunScript(special://emustation_scripts/launcher.py,'+GamePath+',empty,,'+str(CountList)+')',
+										"ActivateWindow(1101)"
+									)
+								
+								else:
+									pDialog.update(
+										(CountList * 100) / len(os.listdir(Roms_Folder)),
+										'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list',
+										Rom_Name_noext.upper(),
+										'This can take some time, please be patient.'
+									)
+									GamelistOuput = menu_entry % (
+										CountList,
+										Rom_Name_noext,
+										Synopsis1,
+										Synopsis2,
+										Thumbnail,
+										"[ArtworkFolder]",
+										'RunScript(special://emustation_scripts/launcher.py,'+Emu_XBE+','+Rom_Path+',,'+str(CountList)+')',
+										"ActivateWindow(1101)"
+									)
+									
+								WriteGamelistFile.append(GamelistOuput)
 								
 
 	## Write favourites menu entries.
-								with open(os.path.join(Games_List_Path,'favslist.xml'),"a") as favsmenufile:
-									if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
-										WriteMenuFile = favourites_entry % (FBA_MAME_Rom_Name,Emu_XBE,FBL_Rom_Name_noext)
-									elif Emu_Name == "mame":
-										WriteMenuFile = favourites_entry % (FBA_MAME_Rom_Name,Emu_XBE,Mame_Rom_Name_noext)
-									elif Emu_Name == "neogeocd":
-										pass
-									elif Emu_Name == "n64":
-										WriteMenuFile = favourites_entry % (N64_Rom_Name,Emu_XBE,Rom_Path+'-CRC-'+N64_Rom_CRC)
-									elif Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
-										with open(os.path.join(Xbox_Sort_Files,Rom_Name),"r") as input:
-											Rom_Name_noext = XBE_GameTitle
-											if Use_NoIntroNames == 0 or XBE_GameTitle == "":
-												Rom_Name_noext = input.readline().strip()
-											else:
-												skip = input.readline()
-											Emu_XBE = input.readline().strip()
-											WriteMenuFile = favourites_entry % (Rom_Name_noext,Emu_XBE,"null")
+							
+								if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":
+									FavsMenuFile = favourites_entry % (FBA_MAME_Rom_Name,Emu_XBE,FBL_Rom_Name_noext)
+								
+								elif Emu_Name == "mame":
+									FavsMenuFile = favourites_entry % (FBA_MAME_Rom_Name,Emu_XBE,Mame_Rom_Name_noext)
+								
+								elif Emu_Name == "neogeocd":
+									pass
+								
+								elif Emu_Name == "n64":
+									FavsMenuFile = favourites_entry % (N64_Rom_Name,Emu_XBE,Rom_Path+'-CRC-'+N64_Rom_CRC)
+								
+								elif Emu_Name == "xbox" or Emu_Name == "ports" or Emu_Name == "homebrew":
+									Rom_Name_noext = XBE_GameTitle
+									
+									if Use_NoIntroNames == 0 or XBE_GameTitle == "":
+										Rom_Name_noext = XBE_Name
 									else:
-										WriteMenuFile = favourites_entry % (Rom_Name_noext,Emu_XBE,Rom_Path)
-									favsmenufile.write(WriteMenuFile)
-									# if Emu_Name == "xbox" or Emu_Name == "ports"  or Emu_Name == "homebrew" and os.path.isfile(os.path.join(Xbox_Sort_Files,Rom_Name)):
-										# os.remove(os.path.join(Xbox_Sort_Files,Rom_Name))
+										skip = ""
+									
+									FavsMenuFile = favourites_entry % (Rom_Name_noext,Emu_XBE,"null")
+								
+								else:
+									FavsMenuFile = favourites_entry % (Rom_Name_noext,Emu_XBE,Rom_Path)
+									
+								WriteFavsMenuFile.append(FavsMenuFile)
 								
 
 	## Write menu entry for quick jump.
+								Current_Letter = JumpList_Name.lower()[0]
 								Write_Jump_File = 0
-								with open(os.path.join(Games_List_Path,'jumplist.xml'),"a") as outputmenuselectfile:
-									if not Starts_with_0:
-										if JumpList_Name.startswith("#") or JumpList_Name.startswith("'") or JumpList_Name[0].isdigit():
-											Starts_with_0 = 1; JumpList_Name = "#"; Write_Jump_File = 1
-									if not Starts_with_a and JumpList_Name.startswith("a"): Starts_with_a = 1; Write_Jump_File = 1
-									if not Starts_with_b and JumpList_Name.startswith("b"): Starts_with_b = 1; Write_Jump_File = 1
-									if not Starts_with_c and JumpList_Name.startswith("c"): Starts_with_c = 1; Write_Jump_File = 1
-									if not Starts_with_d and JumpList_Name.startswith("d"): Starts_with_d = 1; Write_Jump_File = 1
-									if not Starts_with_e and JumpList_Name.startswith("e"): Starts_with_e = 1; Write_Jump_File = 1
-									if not Starts_with_f and JumpList_Name.startswith("f"): Starts_with_f = 1; Write_Jump_File = 1
-									if not Starts_with_g and JumpList_Name.startswith("g"): Starts_with_g = 1; Write_Jump_File = 1
-									if not Starts_with_h and JumpList_Name.startswith("h"): Starts_with_h = 1; Write_Jump_File = 1
-									if not Starts_with_i and JumpList_Name.startswith("i"): Starts_with_i = 1; Write_Jump_File = 1
-									if not Starts_with_j and JumpList_Name.startswith("j"): Starts_with_j = 1; Write_Jump_File = 1
-									if not Starts_with_k and JumpList_Name.startswith("k"): Starts_with_k = 1; Write_Jump_File = 1
-									if not Starts_with_l and JumpList_Name.startswith("l"): Starts_with_l = 1; Write_Jump_File = 1
-									if not Starts_with_m and JumpList_Name.startswith("m"): Starts_with_m = 1; Write_Jump_File = 1
-									if not Starts_with_n and JumpList_Name.startswith("n"): Starts_with_n = 1; Write_Jump_File = 1
-									if not Starts_with_o and JumpList_Name.startswith("o"): Starts_with_o = 1; Write_Jump_File = 1
-									if not Starts_with_p and JumpList_Name.startswith("p"): Starts_with_p = 1; Write_Jump_File = 1
-									if not Starts_with_q and JumpList_Name.startswith("q"): Starts_with_q = 1; Write_Jump_File = 1
-									if not Starts_with_r and JumpList_Name.startswith("r"): Starts_with_r = 1; Write_Jump_File = 1
-									if not Starts_with_s and JumpList_Name.startswith("s"): Starts_with_s = 1; Write_Jump_File = 1
-									if not Starts_with_t and JumpList_Name.startswith("t"): Starts_with_t = 1; Write_Jump_File = 1
-									if not Starts_with_u and JumpList_Name.startswith("u"): Starts_with_u = 1; Write_Jump_File = 1
-									if not Starts_with_v and JumpList_Name.startswith("v"): Starts_with_v = 1; Write_Jump_File = 1
-									if not Starts_with_w and JumpList_Name.startswith("w"): Starts_with_w = 1; Write_Jump_File = 1
-									if not Starts_with_x and JumpList_Name.startswith("x"): Starts_with_x = 1; Write_Jump_File = 1
-									if not Starts_with_y and JumpList_Name.startswith("y"): Starts_with_y = 1; Write_Jump_File = 1
-									if not Starts_with_z and JumpList_Name.startswith("z"): Starts_with_z = 1; Write_Jump_File = 1
-									if Write_Jump_File:
-										WriteSearchFile = search_menu_entry % (str(Jump_Counter),JumpList_Name[:1].upper(),"SetFocus(9000,"+str(JumpList)+")")
-										Jump_Counter = Jump_Counter+1
-										outputmenuselectfile.write(WriteSearchFile)
+							
+								if Current_Letter.isalpha():
+									Write_Jump_File = 1
+								else:
+									Current_Letter = "#"
+									Write_Jump_File = 1
+								
+								if Current_Letter == Previous_Letter:
+									Write_Jump_File = 0
+								
+								if Write_Jump_File:
+									Previous_Letter = Current_Letter
+									JumplistFile = search_menu_entry % (str(Jump_Counter),Current_Letter.upper(),"SetFocus(9000,"+str(JumpList)+")")
+									Jump_Counter = Jump_Counter+1
+									WriteJumplistFile.append(JumplistFile)
 								
 
-	## Add 1 to the Countlist and JumpList.
+## Add 1 to the Countlist and JumpList.
 								CountList = CountList+1
 								JumpList = JumpList+1
 					
 
-	## Add the footer to the layout xml file.
-					with open(os.path.join(Games_List_Path,'gamelist.xml'),"a") as outputmenufile:
-						WriteMenuFile = menu_entry_footer
-						outputmenufile.write(WriteMenuFile)
+## Add the footer to the layout xml file.
+					with open(os.path.join(Games_List_Path,'gamelist.xml'),"w") as outputmenufile:
+						outputmenufile.write(menu_entry_header + "".join(WriteGamelistFile) + menu_entry_footer)
+						
+					with open(os.path.join(Games_List_Path,'jumplist.xml'),"w") as outputmenuselectfile:
+						outputmenuselectfile.write("".join(WriteJumplistFile))
+						
+					with open(os.path.join(Games_List_Path,'favslist.xml'),"w") as favsmenufile:
+						favsmenufile.write("".join(WriteFavsMenuFile))
 				else:
 					dialog.ok("Error","No emulator found for [B]"+Emu_Name+"[/B]","This will be skipped, install the emulator","and manually scan after.")
 			else:
@@ -1486,23 +1571,189 @@ def Main_Code():
 		if os.path.isdir(os.path.join(Emulator_Folder_Path,"homebrew")): shutil.rmtree(os.path.join(Emulator_Folder_Path,"homebrew"))
 		pDialog.close()
 		return
-menu_entry_header	= '<content>\n<!--\nTags used in the xml files:\nname = $INFO[listitem.Label]\ndetails = $INFO[listitem.Label2]\nsynopsis = $INFO[listitem.ActualIcon]\nthumbnail = $INFO[listitem.Thumb]\nmediapath = $INFO[listitem.SortLetter]\n-->'
-menu_entry			= '\n	<item id="%s">\n		<name>%s</name>\n		<details>%s</details>\n		<synopsis>%s</synopsis>\n		<thumbnail>%s</thumbnail>\n		<mediapath>%s</mediapath>\n		<onclick>Stop</onclick>\n		<onclick>%s</onclick>\n		<onclick>%s</onclick>\n	</item>'
-menu_entry_footer	= '\n</content>'
-search_menu_entry	= '<control type="button" id="%s">\n	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>\n	<label2>&lt; [UPPERCASE]%s[/UPPERCASE] &gt;</label2>\n	<include>MenuButtonCommonValues</include>\n	<onclick>Dialog.Close(1120)</onclick>\n	<onclick>%s</onclick>\n</control>\n'
-favourites_entry	= '<favourites>%s|%s|%s</favourites>\n'
-n64_config			= '[Settings]\nskinname=Default\nonhd=true\nHideLaunchScreens=true\nEnableXMVPreview=false\nEnableVideoAudio=false\nEnableInfoPanel=false\nEnableBGMusic=false\nRandomBGMusic=false\nAudioBoost=false\nPathRoms=%s\\\nPathMedia=D:\Media\\\nPathSkins=D:\Skins\\\nPathSaves=D:\Saves\\\nPathScreenshots=D:\Screenshots\\'
-mame_config			= '[Directories]\nALTDrive = t\nC_Mapping = \\device\\harddisk0\\partition1\nE_Mapping = \\device\\harddisk0\\partition1\nF_Mapping = \\device\\harddisk0\\partition6\nG_Mapping = \\device\\harddisk0\\partition7\nH_Mapping = \\device\\cdrom0\nRomsPath0 = %s\nRomsPath1 = d:\\roms\nRomsPath2 = d:\\roms\nRomsPath3 = d:\\bios\nArtPath = d:\\artwork\nAudioPath = d:\\samples\nConfigPath = d:\\cfg\nGeneralPath = d:\\general\nHDImagePath = d:\\hdimages\nHiScoresPath = d:\\hiscores\nNVRamPath = d:\\nvram\nBackupPath = d:\\roms\\backup\nScreenshotPath = d:\\screenshots\nAutoBootSavePath = d:\\autobootsaves\n\n\n[General]\nbios = 0\nCheatsEnabled = 1\nCheatFilename = cheat.dat\nSkipDisclaimer = 1\nSkipGameInfo = 1\nSkipWarnings = 1\nScreenSaverTimeout = 10\n\n\n[Input]\nLightgun1_Left = 4294934529\nLightgun1_CenterX = 0\nLightgun1_Right = 32767\nLightgun1_Top = 32767\nLightgun1_CenterY = 0\nLightgun1_Bottom = 4294934529\nLightgun2_Left = 4294934529\nLightgun2_CenterX = 0\nLightgun2_Right = 32767\nLightgun2_Top = 32767\nLightgun2_CenterY = 0\nLightgun2_Bottom = 4294934529\nLightgun3_Left = 4294934529\nLightgun3_CenterX = 0\nLightgun3_Right = 32767\nLightgun3_Top = 32767\nLightgun3_CenterY = 0\nLightgun3_Bottom = 4294934529\nLightgun4_Left = 4294934529\nLightgun4_CenterX = 0\nLightgun4_Right = 32767\nLightgun4_Top = 32767\nLightgun4_CenterY = 0\nLightgun4_Bottom = 4294934529\n\n\n[Network]\nDisableNetworking = 0\nIPAddress = \nGateway = \nSubnet = \nNameServer = \n\n\n[ROMListOptions]\nDisplayMode = 1\nSortMode = 4\nShowROMStatus = 0\nShowFAVEStatus = 1\nHideFilteredROMs = 0\nFilterMode = 0\nCursorPosition = 0.000000\nPageOffset = 0.000000\nSuperscrollIndex = 0\n\n\n[SkinOptions]\nSelectedSkin = Original\n\n\n[Sound]\nSoundEnable = 1\nSampleRate = 44100\nUseSamples = 1\nUseFilter = 1\n\n\n[VMMOptions]\nForceVMM = 0\nThreshold = 4194304\nCommitSize = 1048576\nDistribute = 65535\n\n\n[VectorOptions]\nVectorWidth = 640\nVectorHeight = 480\nBeamWidth = 2\nFlickerEffect = 0.000000\nBeamIntensity = 1.500000\nTranslucency = 1\n\n\n[Video]\nVSYNC = 1\nThrottleFramerate = 1\nAspectRatioCorrection = 1\nMinificationFilter = 2\nMagnificationFilter = 2\nFrameskip = 4294967295\nGraphicsFilter = 0\nSoftDisplayFilter = 0\nFlickerFilter = 5\nScreenRotation = 0\nBrightness = 1.000000\nPauseBrightness = 0.650000\nGamma = 1.000000\nScreenUsage_X = 0.850000\nScreenUsage_Y = 0.850000\nScreenPos_X = 0.000000\nScreenPos_Y = 0.000000\nArtwork = 1\n\n\n'
-fbl_config			= 'UsePathINI=1\nROMPath1=%s\nROMPath2=\nROMPath3=\nROMPath4=\nROMPath5=\nROMPath6=\nROMPath7=\nROMPath8=\nD:\\artwork\\Shots 1\nD:\\artwork\\Shots 2\nD:\\artwork\\Shots 3\nD:\\artwork\\Shots 4\nD:\\artwork\\Shots 5\nD:\\artwork\\Shots 6\nD:\\artwork\\Shots 7\nD:\\artwork\\Shots 8\nD:\\nvram\nD:\\samples\nD:\\ini\nD:\\savestates\nD:\\config\nD:\\hiscores\nD:\\videos\n'
+menu_entry_header	= '''<content>
+<!--
+Tags used in the xml files:
+name = $INFO[listitem.Label]
+details = $INFO[listitem.Label2]
+synopsis = $INFO[listitem.ActualIcon]
+thumbnail = $INFO[listitem.Thumb]
+mediapath = $INFO[listitem.SortLetter]
+-->'''
+menu_entry	= '''
+	<item id="%s">
+		<name>%s</name>
+		<details>%s</details>
+		<synopsis>%s</synopsis>
+		<thumbnail>%s</thumbnail>
+		<mediapath>%s</mediapath>
+		<onclick>Stop</onclick>
+		<onclick>%s</onclick>
+		<onclick>%s</onclick>
+	</item>'''
+menu_entry_footer	= '''
+</content>'''
+search_menu_entry	= '''<control type="button" id="%s">
+	<label>[UPPERCASE]$LOCALIZE[31405][/UPPERCASE]</label>
+	<label2>&lt; [UPPERCASE]%s[/UPPERCASE] &gt;</label2>
+	<include>MenuButtonCommonValues</include>
+	<onclick>Dialog.Close(1120)</onclick>
+	<onclick>%s</onclick>
+</control>
+'''
+favourites_entry	= '<favourites>%s|%s|%s</favourites>'
+n64_config	= '''[Settings]
+skinname=Default
+onhd=true
+HideLaunchScreens=true
+EnableXMVPreview=false
+EnableVideoAudio=false
+EnableInfoPanel=false
+EnableBGMusic=false
+RandomBGMusic=false
+AudioBoost=false
+PathRoms=%s\\
+PathMedia=D:\Media\\
+PathSkins=D:\Skins\\
+PathSaves=D:\Saves\\
+PathScreenshots=D:\Screenshots\\'''
+mame_config	= '''[Directories]
+ALTDrive = t
+C_Mapping = \\device\\harddisk0\\partition1
+E_Mapping = \\device\\harddisk0\\partition1
+F_Mapping = \\device\\harddisk0\\partition6
+G_Mapping = \\device\\harddisk0\\partition7
+H_Mapping = \\device\\cdrom0
+RomsPath0 = %s
+RomsPath1 = d:\\roms
+RomsPath2 = d:\\roms
+RomsPath3 = d:\\bios
+ArtPath = d:\\artwork
+AudioPath = d:\\samples
+ConfigPath = d:\\cfg
+GeneralPath = d:\\general
+HDImagePath = d:\\hdimages
+HiScoresPath = d:\\hiscores
+NVRamPath = d:\
+vram
+BackupPath = d:\\roms\\backup
+ScreenshotPath = d:\\screenshots
+AutoBootSavePath = d:\\autobootsaves
+[General]
+bios = 0
+CheatsEnabled = 1
+CheatFilename = cheat.dat
+SkipDisclaimer = 1
+SkipGameInfo = 1
+SkipWarnings = 1
+ScreenSaverTimeout = 10
+[Input]
+Lightgun1_Left = 4294934529
+Lightgun1_CenterX = 0
+Lightgun1_Right = 32767
+Lightgun1_Top = 32767
+Lightgun1_CenterY = 0
+Lightgun1_Bottom = 4294934529
+Lightgun2_Left = 4294934529
+Lightgun2_CenterX = 0
+Lightgun2_Right = 32767
+Lightgun2_Top = 32767
+Lightgun2_CenterY = 0
+Lightgun2_Bottom = 4294934529
+Lightgun3_Left = 4294934529
+Lightgun3_CenterX = 0
+Lightgun3_Right = 32767
+Lightgun3_Top = 32767
+Lightgun3_CenterY = 0
+Lightgun3_Bottom = 4294934529
+Lightgun4_Left = 4294934529
+Lightgun4_CenterX = 0
+Lightgun4_Right = 32767
+Lightgun4_Top = 32767
+Lightgun4_CenterY = 0
+Lightgun4_Bottom = 4294934529
+[Network]
+DisableNetworking = 0
+IPAddress = 
+Gateway = 
+Subnet = 
+NameServer = 
+[ROMListOptions]
+DisplayMode = 1
+SortMode = 4
+ShowROMStatus = 0
+ShowFAVEStatus = 1
+HideFilteredROMs = 0
+FilterMode = 0
+CursorPosition = 0.000000
+PageOffset = 0.000000
+SuperscrollIndex = 0
+[SkinOptions]
+SelectedSkin = Original
+[Sound]
+SoundEnable = 1
+SampleRate = 44100
+UseSamples = 1
+UseFilter = 1
+[VMMOptions]
+ForceVMM = 0
+Threshold = 4194304
+CommitSize = 1048576
+Distribute = 65535
+[VectorOptions]
+VectorWidth = 640
+VectorHeight = 480
+BeamWidth = 2
+FlickerEffect = 0.000000
+BeamIntensity = 1.500000
+Translucency = 1
+[Video]
+VSYNC = 1
+ThrottleFramerate = 1
+AspectRatioCorrection = 1
+MinificationFilter = 2
+MagnificationFilter = 2
+Frameskip = 4294967295
+GraphicsFilter = 0
+SoftDisplayFilter = 0
+FlickerFilter = 5
+ScreenRotation = 0
+Brightness = 1.000000
+PauseBrightness = 0.650000
+Gamma = 1.000000
+ScreenUsage_X = 0.850000
+ScreenUsage_Y = 0.850000
+ScreenPos_X = 0.000000
+ScreenPos_Y = 0.000000
+Artwork = 1
+'''
+fbl_config	= '''UsePathINI=1
+ROMPath1=%s
+ROMPath2=
+ROMPath3=
+ROMPath4=
+ROMPath5=
+ROMPath6=
+ROMPath7=
+ROMPath8=
+D:\\artwork\\Shots 1
+D:\\artwork\\Shots 2
+D:\\artwork\\Shots 3
+D:\\artwork\\Shots 4
+D:\\artwork\\Shots 5
+D:\\artwork\\Shots 6
+D:\\artwork\\Shots 7
+D:\\artwork\\Shots 8
+D:\
+vram
+D:\\samples
+D:\\ini
+D:\\savestates
+D:\\config
+D:\\hiscores
+D:\\videos
+'''
 xbmc.executebuiltin('Dialog.Close(1101,true)')
-
-if Manual_Scan == "manual" :
-	ManualScan = 1
-	Main_Code()
-if Full_Scan == "auto" :
-	if dialog.yesno("FULL SCAN MODE","","Would you like to auto scan your roms?"):
-		ManualScan = 0
-		Main_Code()
 
 
 ## Check if we are in a system menu or home screen and reload the system menu if it matches the scanned system.
@@ -1510,3 +1761,15 @@ if not xbmc.getCondVisibility('Window.IsVisible(10000)') and Found_Roms == 1:
 	if Emu_Name == xbmc.getInfoLabel('Skin.String(emuname)'):
 		xbmc.executebuiltin('Dialog.Close(1111,true)'); xbmc.executebuiltin('Dialog.Close(1114,true)')
 		xbmc.executebuiltin('RunScript(special://emustation_scripts/menu_loader.py,'+xbmc.getInfoLabel('Skin.String(emuname)')+')')
+
+if ( __name__ == "__main__" ):
+	start_time = time.time()
+	if Manual_Scan == "manual" :
+		ManualScan = 1
+		Main_Code()
+	if Full_Scan == "auto" :
+		if dialog.yesno("FULL SCAN MODE","","Would you like to auto scan your roms?"):
+			ManualScan = 0
+			Main_Code()
+
+print "Unloaded create_rom_list.py - it took %s to complete" % str(datetime.timedelta(seconds=round(time.time() - start_time)))

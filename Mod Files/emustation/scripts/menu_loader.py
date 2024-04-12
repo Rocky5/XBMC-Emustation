@@ -7,16 +7,18 @@ try:
 	XBE_Edit_Mode	= sys.argv[2:][0]
 except:
 	XBE_Edit_Mode	= 0
-pDialog							= xbmcgui.DialogProgress()
-dialog							= xbmcgui.Dialog()
-XBE_Files						= 0
-XBE_Content						= 0
-EMU_Files						= 0
-FAV_Files						= 0
-Default_Layout_XML_Path			= "0"
-Layout_XML_Path					= "0"
-Resolution 						= xbmc.getInfoLabel('system.screenresolution')
-ThemeType						= xbmc.getInfoLabel('Skin.CurrentTheme')
+
+pDialog			= xbmcgui.DialogProgress()
+dialog			= xbmcgui.Dialog()
+XBE_Files		= 0
+XBE_Content		= 0
+EMU_Files		= 0
+FAV_Files		= 0
+Default_Layout_XML_Path	= "0"
+Layout_XML_Path	= "0"
+Resolution		= xbmc.getInfoLabel('system.screenresolution')
+ThemeType		= xbmc.getInfoLabel('Skin.CurrentTheme')
+
 if "PAL" in Resolution and os.path.isdir(os.path.join(xbmc.translatePath('special://skin/xml_sd_pal'))):
 	print "SD PAL Mode"
 	Layout_Mode = '/sd_pal'
@@ -29,6 +31,7 @@ else:
 	print "Progressive Mode"
 	Layout_Mode = ''
 	XML_Mode = 'xml/'
+
 MyPrograms_Path					= xbmc.translatePath('special://skin/' + XML_Mode + 'MyPrograms.xml')
 _Script_Jump_Path				= xbmc.translatePath('special://skin/' + XML_Mode + '_script_jumpList.xml')
 FAV_XML_Path					= xbmc.translatePath('special://skin/' + XML_Mode + 'DialogFavourites.xml')
@@ -85,142 +88,147 @@ else:
 	EMU_Files = 1
 
 xbmc.executebuiltin('Skin.SetString(emuname,' + MenuLabel + ')')
-Header_Data_EMU					= '<window type="window" id="1">\n\
-		<onunload condition="Player.HasVideo">Stop</onunload>\n\
-		<defaultcontrol always="true">9000</defaultcontrol>\n\
-		<allowoverlay>no</allowoverlay>\n\
-		<view>50</view>\n\
-		<layout>%s</layout>\n\
-		<controls>\n\
-		<control type="button" id="9200">\n\
-			<left>-500</left>\n\
-		</control>\n\
-		<control type="group">\n\
-				<visible>!Window.IsVisible(1101)</visible>\n\
-				<animation type="Hidden">\n\
-						<effect type="fade" start="100" end="0" delay="1100" time="1000"/>\n\
-				</animation>\n\
-				<include>CommonBackground</include>\n\
-		</control>\n\
-		<control type="group">\n\
-		<include>Layout_Animation</include>\n\
-		<animation type="Hidden">\n\
-				<effect type="zoom" start="100" end="200" center="auto" easing="in" tween="cubic" delay="100" time="1100"/>\n\
-				<effect type="fade" start="100" end="0" delay="300" time="600"/>\n\
-		</animation>\n\
-		<visible>!Window.IsVisible(1101)</visible>\n\
-		<!-- Used to run the script and stop folk moving the list forward or backwards -->\n\
-		<control type="button" id="9999">\n\
-			<left>-500</left>\n\
-			<onfocus>RunScript(special://emustation_scripts/play_preview.py)</onfocus>\n\
-			<visible>!Skin.HasSetting(videolayout)</visible>\n\
-		</control>\n\
-		<control type="button" id="9990">\n\
-			<left>-500</left>\n\
-			<onfocus>SetFocus(9000)</onfocus>\n\
-			<onfocus>ActivateWindow(1120)</onfocus>\n\
-		</control>\n\
-		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
-		<control type="button" id="9100">\n\
-			<left>-500</left>\n\
-			<onup>setfocus(9000)</onup>\n\
-			<ondown>setfocus(9000)</ondown>\n\
-			<onleft>setfocus(9000)</onleft>\n\
-			<onright>setfocus(9000)</onright>\n\
-			<onclick>setfocus(9000)</onclick>\n\
-			<onup>stop</onup>\n\
-			<ondown>stop</ondown>\n\
-			<onleft>stop</onleft>\n\
-			<onright>stop</onright>\n\
-			<onclick>stop</onclick>\n\
-			<onup>Control.Move(9000,-1)</onup>\n\
-			<ondown>Control.Move(9000,1)</ondown>\n\
-			<onleft>PageUp</onleft>\n\
-			<onright>PageDown</onright>\n\
-			<visible>!Skin.HasSetting(videolayout) + !Skin.HasSetting(videopreviewhorizontal)</visible>\n\
-		</control>\n\
-		<control type="button" id="9100">\n\
-			<left>-500</left>\n\
-			<onup>setfocus(9000)</onup>\n\
-			<ondown>setfocus(9000)</ondown>\n\
-			<onleft>setfocus(9000)</onleft>\n\
-			<onright>setfocus(9000)</onright>\n\
-			<onclick>setfocus(9000)</onclick>\n\
-			<onup>stop</onup>\n\
-			<ondown>stop</ondown>\n\
-			<onleft>stop</onleft>\n\
-			<onright>stop</onright>\n\
-			<onclick>stop</onclick>\n\
-			<onup>PageDown</onup>\n\
-			<ondown>PageUp</ondown>\n\
-			<onleft>Control.Move(9000,-1)</onleft>\n\
-			<onright>Control.Move(9000,1)</onright>\n\
-			<visible>!Skin.HasSetting(videolayout) + Skin.HasSetting(videopreviewhorizontal)</visible>\n\
-		</control>\n\
-	'
-Footer_Data_EMU					= '\n\
-	</control>\n\
-	</controls>\n\
-	</window>'
-Header_Data_FAVS				= '<window type="dialog" id="134">\n\
-	<defaultcontrol always="true">450</defaultcontrol>\n\
-	<onunload>Skin.Reset(favsloading)</onunload>\n\
-	<include>Fav_Layout_Animation</include>\n\
-	<controls>\n\
-		<control type="button" id="9990">\n\
-			<left>-500</left>\n\
-			<onfocus>SetFocus(1000)</onfocus>\n\
-		</control>\n'
-Footer_Data_FAVS				= '\n\
-	</controls>\n\
-	</window>'
+Header_Data_EMU	= '''<window type="window" id="1">
+		<onunload condition="Player.HasVideo">Stop</onunload>
+		<defaultcontrol always="true">9000</defaultcontrol>
+		<allowoverlay>no</allowoverlay>
+		<view>50</view>
+		<layout>%s</layout>
+		<controls>
+		<control type="button" id="9200">
+			<left>-500</left>
+		</control>
+		<control type="group">
+				<visible>!Window.IsVisible(1101)</visible>
+				<animation type="Hidden">
+						<effect type="fade" start="100" end="0" delay="1100" time="1000"/>
+				</animation>
+				<include>CommonBackground</include>
+		</control>
+		<control type="group">
+		<include>Layout_Animation</include>
+		<animation type="Hidden">
+				<effect type="zoom" start="100" end="200" center="auto" easing="in" tween="cubic" delay="100" time="1100"/>
+				<effect type="fade" start="100" end="0" delay="300" time="600"/>
+		</animation>
+		<visible>!Window.IsVisible(1101)</visible>
+		<!-- Used to run the script and stop folk moving the list forward or backwards -->
+		<control type="button" id="9999">
+			<left>-500</left>
+			<onfocus>RunScript(special://emustation_scripts/play_preview.py)</onfocus>
+			<visible>!Skin.HasSetting(videolayout)</visible>
+		</control>
+		<control type="button" id="9990">
+			<left>-500</left>
+			<onfocus>SetFocus(9000)</onfocus>
+			<onfocus>ActivateWindow(1120)</onfocus>
+		</control>
+		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->
+		<control type="button" id="9100">
+			<left>-500</left>
+			<onup>setfocus(9000)</onup>
+			<ondown>setfocus(9000)</ondown>
+			<onleft>setfocus(9000)</onleft>
+			<onright>setfocus(9000)</onright>
+			<onclick>setfocus(9000)</onclick>
+			<onup>stop</onup>
+			<ondown>stop</ondown>
+			<onleft>stop</onleft>
+			<onright>stop</onright>
+			<onclick>stop</onclick>
+			<onup>Control.Move(9000,-1)</onup>
+			<ondown>Control.Move(9000,1)</ondown>
+			<onleft>PageUp</onleft>
+			<onright>PageDown</onright>
+			<visible>!Skin.HasSetting(videolayout) + !Skin.HasSetting(videopreviewhorizontal)</visible>
+		</control>
+		<control type="button" id="9100">
+			<left>-500</left>
+			<onup>setfocus(9000)</onup>
+			<ondown>setfocus(9000)</ondown>
+			<onleft>setfocus(9000)</onleft>
+			<onright>setfocus(9000)</onright>
+			<onclick>setfocus(9000)</onclick>
+			<onup>stop</onup>
+			<ondown>stop</ondown>
+			<onleft>stop</onleft>
+			<onright>stop</onright>
+			<onclick>stop</onclick>
+			<onup>PageDown</onup>
+			<ondown>PageUp</ondown>
+			<onleft>Control.Move(9000,-1)</onleft>
+			<onright>Control.Move(9000,1)</onright>
+			<visible>!Skin.HasSetting(videolayout) + Skin.HasSetting(videopreviewhorizontal)</visible>
+		</control>
+'''
+Footer_Data_EMU	= '''
+	</control>
+	</controls>
+	</window>
+'''
+Header_Data_FAVS	= '''<window type="dialog" id="134">
+	<defaultcontrol always="true">450</defaultcontrol>
+	<onunload>Skin.Reset(favsloading)</onunload>
+	<include>Fav_Layout_Animation</include>
+	<controls>
+		<control type="button" id="9990">
+			<left>-500</left>
+			<onfocus>SetFocus(1000)</onfocus>
+		</control>\n'''
+Footer_Data_FAVS	= '''
+	</controls>
+	</window>
+'''
+
 if not MenuLabel == "xbox" and not MenuLabel == "homebrew" and not MenuLabel == "ports":
-	Jump_File_Data				= Overlay_JumpXML_File
+	Jump_File_Data	= Overlay_JumpXML_File
 else:
 	XBE_Content = 1
-	Jump_File_Data				= Overlay_JumpXML_XBE_File
-Header_Data_XBE					= '<window id="1">\n\
-		<onunload condition="Player.HasVideo">Stop</onunload>\n\
-		<defaultcontrol always="true">50</defaultcontrol>\n\
-		<allowoverlay>no</allowoverlay>\n\
-		<view>50</view>\n\
-		<layout>%s</layout>\n\
-		<controls>\n\
-		<include>CommonBackground</include>\n\
-		<control type="group">\n\
-		<include>Layout_Animation</include>\n\
-		<control type="button" id="9990">\n\
-			<left>-500</left>\n\
-			<onfocus>SetFocus(50)</onfocus>\n\
-			<onfocus>ContextMenu</onfocus>\n\
-		</control>\n\
-		<control type="button" id="9000">\n\
-			<left>-500</left>\n\
-			<onfocus>SetFocus(50)</onfocus>\n\
-		</control>\n\
-		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->\n\
-		<control type="button" id="9100">\n\
-			<left>-500</left>\n\
-			<onup>setfocus(50)</onup>\n\
-			<ondown>setfocus(50)</ondown>\n\
-			<onleft>setfocus(50)</onleft>\n\
-			<onright>setfocus(50)</onright>\n\
-			<onclick>setfocus(50)</onclick>\n\
-			<onup>stop</onup>\n\
-			<ondown>stop</ondown>\n\
-			<onleft>stop</onleft>\n\
-			<onright>stop</onright>\n\
-			<onclick>stop</onclick>\n\
-			<onup>Control.Move(50,-1)</onup>\n\
-			<ondown>Control.Move(50,1)</ondown>\n\
-			<onleft>PageUp</onleft>\n\
-			<onright>PageDown</onright>\n\
-		</control>\n\
-	'
-Footer_Data_XBE					= '\n\
-	</control>\n\
-	</controls>\n\
-	</window>'
+	Jump_File_Data	= Overlay_JumpXML_XBE_File
+
+Header_Data_XBE	= '''<window id="1">
+		<onunload condition="Player.HasVideo">Stop</onunload>
+		<defaultcontrol always="true">50</defaultcontrol>
+		<allowoverlay>no</allowoverlay>
+		<view>50</view>
+		<layout>%s</layout>
+		<controls>
+		<include>CommonBackground</include>
+		<control type="group">
+		<include>Layout_Animation</include>
+		<control type="button" id="9990">
+			<left>-500</left>
+			<onfocus>SetFocus(50)</onfocus>
+			<onfocus>ContextMenu</onfocus>
+		</control>
+		<control type="button" id="9000">
+			<left>-500</left>
+			<onfocus>SetFocus(50)</onfocus>
+		</control>
+		<!-- Used to stop playback if one of the direction buttons are pressed or the (A) button -->
+		<control type="button" id="9100">
+			<left>-500</left>
+			<onup>setfocus(50)</onup>
+			<ondown>setfocus(50)</ondown>
+			<onleft>setfocus(50)</onleft>
+			<onright>setfocus(50)</onright>
+			<onclick>setfocus(50)</onclick>
+			<onup>stop</onup>
+			<ondown>stop</ondown>
+			<onleft>stop</onleft>
+			<onright>stop</onright>
+			<onclick>stop</onclick>
+			<onup>Control.Move(50,-1)</onup>
+			<ondown>Control.Move(50,1)</ondown>
+			<onleft>PageUp</onleft>
+			<onright>PageDown</onright>
+		</control>
+'''
+Footer_Data_XBE	= '''
+	</control>
+	</controls>
+	</window>
+'''
 if EMU_Files == 1:
 	if xbmc.getCondVisibility('Skin.HasSetting(videolayout)'):
 		if os.path.isfile(Custom_Video_Layout):
@@ -231,6 +239,7 @@ if EMU_Files == 1:
 			Default_Layout_XML_Path	= Default_Synopsis_Layout
 		else:
 			Default_Layout_XML_Path	= Default_No_Video_Layout
+	
 	elif xbmc.getCondVisibility('Skin.HasSetting(synopsislayout)'):
 		if os.path.isfile(Custom_Synopsis_Layout):
 			Layout_XML_Path			= Custom_Synopsis_Layout
@@ -238,6 +247,7 @@ if EMU_Files == 1:
 			Default_Layout_XML_Path	= Default_Synopsis_Layout
 		else:
 			Default_Layout_XML_Path	= Default_No_Synopsis_Layout
+	
 	elif xbmc.getCondVisibility('Skin.HasSetting(thumblayout)'):
 		if os.path.isfile(Custom_Thumb_Layout):
 			Layout_XML_Path			= Custom_Thumb_Layout
@@ -245,13 +255,15 @@ if EMU_Files == 1:
 			Default_Layout_XML_Path	= Default_Thumb_Layout
 		else:
 			Default_Layout_XML_Path	= Default_No_Thumb_Layout
+	
 	else:
 		if os.path.isfile(Custom_Layout):
-			Layout_XML_Path				= Custom_Layout
+			Layout_XML_Path	= Custom_Layout
 		elif os.path.isfile(Default_Layout):
 			Default_Layout_XML_Path		= Default_Layout
 		else:
 			Default_Layout_XML_Path		= Default_No_Layout
+
 elif FAV_Files == 1:
 	if xbmc.getCondVisibility('Skin.HasSetting(videolayout)'):
 		if os.path.isfile(Custom_Favs_Video_Layout):
@@ -262,6 +274,7 @@ elif FAV_Files == 1:
 			Default_Layout_XML_Path	= Default_Favs_Synopsis_Layout
 		else:
 			Default_Layout_XML_Path	= Default_No_Favs_Video_Layout
+	
 	elif xbmc.getCondVisibility('Skin.HasSetting(synopsislayout)'):
 		if os.path.isfile(Custom_Favs_Synopsis_Layout):
 			Layout_XML_Path			= Custom_Favs_Synopsis_Layout
@@ -269,6 +282,7 @@ elif FAV_Files == 1:
 			Default_Layout_XML_Path	= Default_Favs_Synopsis_Layout
 		else:
 			Default_Layout_XML_Path	= Default_No_Favs_Synopsis_Layout
+	
 	elif xbmc.getCondVisibility('Skin.HasSetting(thumblayout)'):
 		if os.path.isfile(Custom_Favs_Thumb_Layout):
 			Layout_XML_Path			= Custom_Favs_Thumb_Layout
@@ -276,13 +290,15 @@ elif FAV_Files == 1:
 			Default_Layout_XML_Path	= Default_Favs_Thumb_Layout
 		else:
 			Default_Layout_XML_Path	= Default_No_Favs_Thumb_Layout
+	
 	else:
 		if os.path.isfile(Custom_Favs_Layout):
-			Layout_XML_Path				= Custom_Favs_Layout
+			Layout_XML_Path	= Custom_Favs_Layout
 		elif os.path.isfile(Default_Favs_Layout):
 			Default_Layout_XML_Path		= Default_Favs_Layout
 		else:
 			Default_Layout_XML_Path		= Default_No_Favs_Layout
+
 elif XBE_Files == 1:
 	if xbmc.getCondVisibility('Skin.HasSetting(videolayout)'):
 		if os.path.isfile(XBE_Default_Video_Layout):
@@ -291,29 +307,36 @@ elif XBE_Files == 1:
 			Default_Layout_XML_Path	= XBE_Default_Synopsis_Layout
 		else:
 			Default_Layout_XML_Path	= XBE_Default_No_Video_Layout
+	
 	elif xbmc.getCondVisibility('Skin.HasSetting(synopsislayout)'):
 		if os.path.isfile(XBE_Default_Synopsis_Layout):
 			Default_Layout_XML_Path	= XBE_Default_Synopsis_Layout
 		else:
 			Default_Layout_XML_Path	= XBE_Default_No_Synopsis_Layout
+	
 	elif xbmc.getCondVisibility('Skin.HasSetting(thumblayout)'):
 		if os.path.isfile(XBE_Default_Thumb_Layout):
 			Default_Layout_XML_Path	= XBE_Default_Thumb_Layout
 		else:
 			Default_Layout_XML_Path	= XBE_Default_No_Thumb_Layout
+	
 	else:
 		if os.path.isfile(XBE_Default_Layout):
 			Default_Layout_XML_Path		= XBE_Default_Layout
 		else:
 			Default_Layout_XML_Path		= XBE_Default_No_Layout
+
 if os.path.isfile(Layout_XML_Path):
 	Layout_File =  Layout_XML_Path
+
 elif os.path.isfile(Default_Layout_XML_Path):
 	Layout_File =  Default_Layout_XML_Path
+
 else:	# default layout is missing so error!
 	EMU_Files = 0; FAV_Files = 0; XBE_Files = 0;
 	xbmc.executebuiltin('SetFocus(9000)')
 	dialog.ok("ERROR","Default layout file is missing.",Default_Layout_XML_Path)
+
 if EMU_Files == 1:
 	if os.path.isfile(os.path.join(XML_Files_Path,'gamelist.xml')):
 		## this is here so not to mess with the actual menulabel
