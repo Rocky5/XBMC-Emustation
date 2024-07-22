@@ -1,121 +1,121 @@
 <window type="dialog" id="1111">
-		<onload>Dialog.Close(1120,true))</onload>
-		<defaultcontrol always="true">9000</defaultcontrol>
-		<controls>
-				<control type="image">
-						<description>background image</description>
-						<left>0</left>
-						<top>0</top>
-						<width>720</width>
-						<height>480</height>
-						<colordiffuse>E0000000</colordiffuse>
-						<texture>background diffuse.png</texture>
+	<onload>Dialog.Close(1120,true))</onload>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<controls>
+		<control type="image">
+			<description>background image</description>
+			<left>0</left>
+			<top>0</top>
+			<width>720</width>
+			<height>480</height>
+			<colordiffuse>E0000000</colordiffuse>
+			<texture>background diffuse.png</texture>
+		</control>
+		<control type="group">
+			<visible>!Window.IsActive(1112) + !Window.IsActive(1113) + !Window.IsActive(1114) + !Window.IsActive(1115)  + !Window.IsActive(1116) + !Window.IsActive(1300)</visible>
+			<top>0</top>
+			<control type="image">
+				<description>background image</description>
+				<left>180</left>
+				<top>50</top>
+				<width>360</width>
+				<height>380</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20,20,20,20">menu_back.png</texture>
+				<visible>Skin.HasSetting(KioskMode)</visible>
+			</control>
+			<control type="image">
+				<description>background image</description>
+				<left>180</left>
+				<top>50</top>
+				<width>360</width>
+				<height>380</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20,20,20,20">menu_back.png</texture>
+				<visible>!Skin.HasSetting(KioskMode)</visible>
+			</control>
+			<control type="label">
+				<description>heading label</description>
+				<left>180</left>
+				<top>60</top>
+				<width>360</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_50</font>
+				<label>[UPPERCASE]$LOCALIZE[30910][/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="label">
+				<left>180</left>
+				<top>390</top>
+				<width>360</width>
+				<height>50</height>
+				<align>center</align>
+				<label>[UPPERCASE]$LOCALIZE[31000][/UPPERCASE]</label>
+				<include>MenuFolderButtonMenuValues</include>
+				<animation effect="fade" start="30" end="30" time="0" condition="true">Conditional</animation>
+				<animation effect="slide" start="0,0" end="0,-170" time="0" condition="Skin.HasSetting(KioskMode)">Conditional</animation>
+			</control>
+			<!-- Main Menu -->
+			<control type="grouplist" id="9000">
+				<left>180</left>
+				<top>120</top>
+				<width>360</width>
+				<height>295</height>
+				<onleft>9000</onleft>
+				<onright>9000</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<itemgap>-1</itemgap>
+				<control type="button" id="1">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31200][/UPPERCASE]</label>
+					<include>MenuFolderButtonMenuValues</include>
+					<onclick>RunScript(special://emustation_scripts/menu_loader.py,apps)</onclick>
+					<onclick>ActivateWindow(1101)</onclick>
+					<visible>!Skin.HasSetting(KioskMode)</visible>
 				</control>
-				<control type="group">
-						<visible>!Window.IsActive(1112) + !Window.IsActive(1113) + !Window.IsActive(1114) + !Window.IsActive(1115)  + !Window.IsActive(1116) + !Window.IsActive(1300)</visible>
-						<top>0</top>
-						<control type="image">
-								<description>background image</description>
-								<left>180</left>
-								<top>50</top>
-								<width>360</width>
-								<height>380</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20,20,20,20">menu_back.png</texture>
-								<visible>Skin.HasSetting(KioskMode)</visible>
-						</control>
-						<control type="image">
-								<description>background image</description>
-								<left>180</left>
-								<top>50</top>
-								<width>360</width>
-								<height>380</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20,20,20,20">menu_back.png</texture>
-								<visible>!Skin.HasSetting(KioskMode)</visible>
-						</control>
-						<control type="label">
-								<description>heading label</description>
-								<left>180</left>
-								<top>60</top>
-								<width>360</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_50</font>
-								<label>[UPPERCASE]$LOCALIZE[30910][/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<control type="label">
-								<left>180</left>
-								<top>390</top>
-								<width>360</width>
-								<height>50</height>
-								<align>center</align>
-								<label>[UPPERCASE]$LOCALIZE[31000][/UPPERCASE]</label>
-								<include>MenuFolderButtonMenuValues</include>
-								<animation effect="fade" start="30" end="30" time="0" condition="true">Conditional</animation>
-								<animation effect="slide" start="0,0" end="0,-170" time="0" condition="Skin.HasSetting(KioskMode)">Conditional</animation>
-						</control>
-						<!-- Main Menu -->
-						<control type="grouplist" id="9000">
-								<left>180</left>
-								<top>120</top>
-								<width>360</width>
-								<height>295</height>
-								<onleft>9000</onleft>
-								<onright>9000</onright>
-								<onup>9000</onup>
-								<ondown>9000</ondown>
-								<itemgap>-1</itemgap>
-								<control type="button" id="1">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31200][/UPPERCASE]</label>
-										<include>MenuFolderButtonMenuValues</include>
-										<onclick>RunScript(special://emustation_scripts/menu_loader.py,apps)</onclick>
-										<onclick>ActivateWindow(1101)</onclick>
-										<visible>!Skin.HasSetting(KioskMode)</visible>
-								</control>
-								<control type="button" id="2">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31201][/UPPERCASE]</label>
-										<include>MenuFolderButtonMenuValues</include>
-										<onclick>ActivateWindow(1112)</onclick>
-								</control>
-								<control type="button" id="3">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31202][/UPPERCASE]</label>
-										<include>MenuFolderButtonMenuValues</include>
-										<onclick>ActivateWindow(1113)</onclick>
-										<visible>!Skin.HasSetting(KioskMode)</visible>
-								</control>
-								<control type="button" id="4">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31203][/UPPERCASE]</label>
-										<include>MenuFolderButtonMenuValues</include>
-										<onclick>ActivateWindow(1114)</onclick>
-										<visible>!Skin.HasSetting(KioskMode)</visible>
-								</control>
-								<control type="button" id="5">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31205][/UPPERCASE]</label>
-										<include>MenuFolderButtonMenuValues</include>
-										<onclick>ActivateWindow(1116)</onclick>
-										<visible>!Skin.HasSetting(KioskMode)</visible>
-								</control>
-								<control type="button" id="6">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31204][/UPPERCASE]</label>
-										<include>MenuFolderButtonMenuValues</include>
-										<onclick>ActivateWindow(1115)</onclick>
-								</control>
-						</control>
+				<control type="button" id="2">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31201][/UPPERCASE]</label>
+					<include>MenuFolderButtonMenuValues</include>
+					<onclick>ActivateWindow(1112)</onclick>
 				</control>
-		</controls>
+				<control type="button" id="3">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31202][/UPPERCASE]</label>
+					<include>MenuFolderButtonMenuValues</include>
+					<onclick>ActivateWindow(1113)</onclick>
+					<visible>!Skin.HasSetting(KioskMode)</visible>
+				</control>
+				<control type="button" id="4">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31203][/UPPERCASE]</label>
+					<include>MenuFolderButtonMenuValues</include>
+					<onclick>ActivateWindow(1114)</onclick>
+					<visible>!Skin.HasSetting(KioskMode)</visible>
+				</control>
+				<control type="button" id="5">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31205][/UPPERCASE]</label>
+					<include>MenuFolderButtonMenuValues</include>
+					<onclick>ActivateWindow(1116)</onclick>
+					<visible>!Skin.HasSetting(KioskMode)</visible>
+				</control>
+				<control type="button" id="6">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31204][/UPPERCASE]</label>
+					<include>MenuFolderButtonMenuValues</include>
+					<onclick>ActivateWindow(1115)</onclick>
+				</control>
+			</control>
+		</control>
+	</controls>
 </window>

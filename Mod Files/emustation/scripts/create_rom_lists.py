@@ -835,7 +835,7 @@ def Main_Code():
 							if Xbox_Game_Total == 0: Xbox_Game_Total = len(os.listdir(Roms_Folder))
 							JumpList_Name = Rom_Name_noext.lower()
 							if not xbmc.getCondVisibility('Skin.String('+Emu_Name+'_artworkfolder)'): xbmc.executebuiltin('Skin.SetString('+Emu_Name+'_artworkfolder,boxart)')
-							Thumbnail = Rom_Name_noext+'.jpg'		
+							Thumbnail = Rom_Name_noext+'.jpg'	
 
 
 	## Check if fba was found and parse the name text files to get the correct rom names and system types for the list.
@@ -920,78 +920,80 @@ def Main_Code():
 										for line in itertools.islice(ini,0,None):
 											if line.lower().startswith('[dcbc50d1'): foundN64line = 1
 											if foundN64line == 1:
-												N64ID = str(line.lower())
-												N64ID = N64ID[1:]
-												N64ID1 = N64ID.split('-')[0]
-												N64ID2 = N64ID.split('-')[1]
+												N64ID = line.lower().strip()[1:-6]
+												N64ID1, N64ID2 = N64ID.split('-')
 												File_Name = ini.next().replace('Game Name=','').strip()
 												File_Name = File_Name.lower()
+												# Fixed names for roms not matching internal names, I don't do crc checks so this needs done.
+												if File_Name == "airboarderj (pj64x14-5.10)":
+													File_Name = "airboarderjap (pj64x14-5.10)"
+												if File_Name == "autolamborghini (pj64x14-612)":
+													File_Name = "autolamborghini (pj64x14-6.12)"
+												if File_Name == "duke nukem zh (1964-6.12)":
+													File_Name = "dukenukemzh (1964-6.12)"
+												if File_Name == "pokemonstadiumkazio (1964-5.60)":
+													File_Name = "pokemonstadiumkaizo (1964-5.60)"
+												if File_Name == "rakugakids (pj64x14-6.12)":
+													File_Name = "rakuga kids (pj64x14-6.12)"
+												if File_Name == "razorfreestylescooter (pj64x14-5.10)":
+													File_Name = "razor scooter (pj64x14-5.10)"
+												if File_Name == "scooby-doo (1964-612)":
+													File_Name = "scooby-doo (1964-6.12)"
+												if File_Name == "shufflepuckhomebrew (1964x11-6.11)":
+													File_Name = "shufflepuck (1964x11-6.11)"
+												if File_Name == "sm64 maker1.3 (pj64x14-5.10)":
+													File_Name = "supermariomaker1.3 (pj64x14-5.10)"
+												if File_Name == "sm64 ms (pj64x14-5.10)":
+													File_Name = "supermarioms hack (pj64x14-5.10)"
+												if File_Name == "sm64 ocarina (pj64x14-5.10)":
+													File_Name = "supermarioocarina (pj64x14-5.10)"
+												if File_Name == "sm64 od v5 (1964-5.10)":
+													File_Name = "supermarioodysseyv5 (1964-5.10)"
+												if File_Name == "sm64 sr (pj64x14-5.10)":
+													File_Name = "supermariosr hack (pj64x14-5.10)"
+												if File_Name == "snowboard kids 2 (1964-5.10)":
+													File_Name = "snowboard kids 2 (pj64x14-5.10)"
+												if File_Name == "space station sv (1964x11-5.31)":
+													File_Name = "spacestationsv (1964x11-5.31)"
 												if os.path.isdir(os.path.join(Emu_Path,'media\\Cbagys3DArt')):
 													if File_Name == "007 goldeneye (ultrahle)720pno" or Bypass_N64_Check == 1:
 														Bypass_N64_Check = 1
 														if Rom_Name_noext == File_Name:
 															N64_Rom_Name = ini.next().replace('Alternate Title=','').strip()
-															N64_Rom_Name = N64_Rom_Name.split(' (',1)[0]
 															try:
 																ini.next() # skip the comment line
 																ini.next() # skip the blank line
 															except: pass
+															
 															for N64_Saves in os.listdir(os.path.join(Emu_Path,'saves')):
 																N64_Saves = N64_Saves.lower()
-																# Fix the save files,video and emu cores. These along with everything else get reset if you load the game via the UI.
-																if N64ID1 in N64_Saves or N64ID2 in N64_Saves:
-																	N64_Emu_Core = File_Name.split('(',1)[1].split(')',1)[0]
-																	N64_Video_Core = "0"
-																	if "-" in File_Name:
-																		N64_Emu_Core = File_Name.split('(',1)[1].split(')',1)[0].split('-',1)[0]
-																		N64_Video_Core = File_Name.split('(',1)[1].split(')',1)[0].split('-',1)[1]
-																		if N64_Video_Core == "5.10": N64_Video_Core = "0"
-																		if N64_Video_Core == "5.31": N64_Video_Core = "1"
-																		if N64_Video_Core == "5.60": N64_Video_Core = "2"
-																		if N64_Video_Core == "6.11": N64_Video_Core = "3"
-																		if N64_Video_Core == "6.12": N64_Video_Core = "4"
-																		if N64_Video_Core == "1964": N64_Video_Core = "5" # Not used but its in the source
-																	if N64_Emu_Core == "1964": N64_Emu_Core = "0"
-																	if N64_Emu_Core == "1964x085": N64_Emu_Core = "0"
-																	if N64_Emu_Core == "1964x11": N64_Emu_Core = "4"
-																	if N64_Emu_Core == "pj64x14": N64_Emu_Core = "1"
-																	if N64_Emu_Core == "pj64x16": N64_Emu_Core = "3"
-																	if N64_Emu_Core == "ultrahle": N64_Emu_Core = "2"
-																	if os.path.isfile(os.path.join(Emu_Path,'saves',N64ID1,N64ID1+'.ini')):
-																		for line in fileinput.input(os.path.join(Emu_Path,'saves',N64ID1,N64ID1+'.ini'),inplace=1):
-																			N64_Rom_CRC = N64ID1
-																			if 'preferedemu=' in line:
-																				line = line = 'preferedemu='+N64_Emu_Core+'\n'
-																			if 'videoplugin=' in line:
-																				line = line = 'videoplugin='+N64_Video_Core+'\n'
-																			if 'EnableHDTV=' in line:
-																				line = line = 'EnableHDTV=false\n'
-																			print line,
-																	if os.path.isfile(os.path.join(Emu_Path,'saves',N64ID2,N64ID2+'.ini')):
-																		for line in fileinput.input(os.path.join(Emu_Path,'saves',N64ID2,N64ID2+'.ini'),inplace=1):
-																			N64_Rom_CRC = N64ID2
-																			if 'preferedemu=' in line:
-																				line = line = 'preferedemu='+N64_Emu_Core+'\n'
-																			if 'videoplugin=' in line:
-																				line = line = 'videoplugin='+N64_Video_Core+'\n'
-																			if 'EnableHDTV=' in line:
-																				line = line = 'EnableHDTV=false\n'
-																			print line,
+																if any(N64_ID in N64_Saves for N64_ID in (N64ID1, N64ID2)):
+																	for N64_ID in (N64ID1, N64ID2):
+																		ini_path = os.path.join(Emu_Path, 'saves', N64_ID, N64_ID + '.ini')
+																		if os.path.isfile(ini_path):
+																			N64_Rom_CRC = N64_ID
+																			Thumbnail = N64_Rom_CRC+'.jpg'
+																			break  # Exit the loop after finding the first valid path
+
 															for N64_Thumb in os.listdir(os.path.join(Emu_Path,'media\\Cbagys3DArt')):
 																N64_Thumb = N64_Thumb.lower()
-																if N64ID1 in N64_Thumb or N64ID2 in N64_Thumb:
-																	if not os.path.isdir(os.path.join(Synopsis_Path,Emu_Name)): os.makedirs(os.path.join(Synopsis_Path,Emu_Name))
+																if any(N64_ID in N64_Thumb for N64_ID in (N64ID1, N64ID2)):
+																	if not os.path.isdir(os.path.join(Media_Path,'boxart')):
+																		os.makedirs(os.path.join(Media_Path,'boxart'))
 																	N64_Thumb_Location = os.path.join(Emu_Path,'media\\Cbagys3DArt',N64_Thumb)
-																	#shutil.copy2(N64_Thumb_Location,"E:\\1\\")
-																	N64_Thumb_Destination = os.path.join(Media_Path,'boxart',File_Name+'.jpg')
-																	if os.path.isfile(N64_Thumb_Location) and not os.path.isfile(N64_Thumb_Destination): shutil.copy2(N64_Thumb_Location,N64_Thumb_Destination)
-															for N64_Thumb in os.listdir(os.path.join(Emu_Path,'media\\Movies')):
-																N64_Thumb = N64_Thumb.lower()
-																if N64ID1 in N64_Thumb or N64ID2 in N64_Thumb:
-																	if not os.path.isdir(os.path.join(Media_Path,'videos')): os.makedirs(os.path.join(Media_Path,'videos'))
-																	N64_Thumb_Location = os.path.join(Emu_Path,'media\\Movies',N64_Thumb)
-																	N64_Thumb_Destination = os.path.join(Media_Path,'videos',File_Name+N64_Thumb[-4:])
-																	if os.path.isfile(N64_Thumb_Location) and not os.path.isfile(N64_Thumb_Destination): shutil.copy2(N64_Thumb_Location,N64_Thumb_Destination)
+																	N64_Thumb_Destination = os.path.join(Media_Path,'boxart',N64_ID+'.jpg')
+																	if os.path.isfile(N64_Thumb_Location) and not os.path.isfile(N64_Thumb_Destination):
+																		shutil.copy2(N64_Thumb_Location,N64_Thumb_Destination)
+															
+															for N64_Vids in os.listdir(os.path.join(Emu_Path,'media\\Movies')):
+																N64_Vids = N64_Vids.lower()
+																if any(N64_ID in N64_Vids for N64_ID in (N64ID1, N64ID2)):
+																	if not os.path.isdir(os.path.join(Media_Path,'videos')):
+																		os.makedirs(os.path.join(Media_Path,'videos'))
+																	N64_Thumb_Location = os.path.join(Emu_Path,'media\\Movies',N64_Vids)
+																	N64_Thumb_Destination = os.path.join(Media_Path,'videos',N64_ID+N64_Vids[-4:])
+																	if os.path.isfile(N64_Thumb_Location) and not os.path.isfile(N64_Thumb_Destination):
+																		shutil.copy2(N64_Thumb_Location,N64_Thumb_Destination)
 														else:
 															try:
 																ini.next() # skip the rom name
@@ -1055,6 +1057,8 @@ def Main_Code():
 									Synopsis_File = os.path.join(Synopsis_Path,"megadrive",Rom_Name_noext+'.txt')
 								elif Emu_Name == "famicom":
 									Synopsis_File = os.path.join(Synopsis_Path,"nes",Rom_Name_noext+'.txt')
+								elif Emu_Name == "n64":
+									Synopsis_File = os.path.join(Synopsis_Path,"n64",N64_Rom_CRC+'.txt')
 								elif Emu_Name == "tg16":
 									Synopsis_File = os.path.join(Synopsis_Path,"pcengine",Rom_Name_noext+'.txt')
 								elif Emu_Name == "tg-cd":
@@ -1078,6 +1082,7 @@ def Main_Code():
 									if Emu_Name == "homebrew": Resource_Type = "homebrew"
 								else:
 									Synopsis_File = os.path.join(Synopsis_Path,Emu_Name,Rom_Name_noext+'.txt')
+								
 								with open(Synopsis_File) as input:
 									Synopsis = input.read()
 									Synopsis1 = Synopsis.split('_________________________',1)[0]
@@ -1184,11 +1189,11 @@ def Main_Code():
 							if xbmc.getCondVisibility('Skin.HasSetting(Remove_Articles_In_Name)'):
 								Rom_Name_noext = Rom_Name_noext.split(' (',1)[0]
 								if Emu_Name == "n64":
-									N64_Rom_Name = Rom_Name_noext.split(' (',1)[0]
+									N64_Rom_Name = Rom_Name_noext
 							if Rom_Name_noext.startswith('the') and xbmc.getCondVisibility('Skin.HasSetting(Ignore_The_In_Names)'):
 								Rom_Name_noext = Rom_Name_noext[4:]+', the'
 								if Emu_Name == "n64":
-									N64_Rom_Name = Rom_Name_noext[4:]+', the'
+									N64_Rom_Name = Rom_Name_noext
 							
 							Rom_Name_noext = string.capwords(Rom_Name_noext)
 							FBA_MAME_Rom_Name = string.capwords(FBA_MAME_Rom_Name)
@@ -1571,6 +1576,7 @@ def Main_Code():
 		if os.path.isdir(os.path.join(Emulator_Folder_Path,"homebrew")): shutil.rmtree(os.path.join(Emulator_Folder_Path,"homebrew"))
 		pDialog.close()
 		return
+
 menu_entry_header	= '''<content>
 <!--
 Tags used in the xml files:
@@ -1753,14 +1759,8 @@ D:\\config
 D:\\hiscores
 D:\\videos
 '''
+
 xbmc.executebuiltin('Dialog.Close(1101,true)')
-
-
-## Check if we are in a system menu or home screen and reload the system menu if it matches the scanned system.
-if not xbmc.getCondVisibility('Window.IsVisible(10000)') and Found_Roms == 1:
-	if Emu_Name == xbmc.getInfoLabel('Skin.String(emuname)'):
-		xbmc.executebuiltin('Dialog.Close(1111,true)'); xbmc.executebuiltin('Dialog.Close(1114,true)')
-		xbmc.executebuiltin('RunScript(special://emustation_scripts/menu_loader.py,'+xbmc.getInfoLabel('Skin.String(emuname)')+')')
 
 if ( __name__ == "__main__" ):
 	start_time = time.time()
@@ -1771,5 +1771,12 @@ if ( __name__ == "__main__" ):
 		if dialog.yesno("FULL SCAN MODE","","Would you like to auto scan your roms?"):
 			ManualScan = 0
 			Main_Code()
+
+## Check if we are in a system menu or home screen and reload the system menu if it matches the scanned system.
+	if not xbmc.getCondVisibility('Window.IsVisible(10000)') and Found_Roms == 1:
+		print "You should be here"
+		if Emu_Name == xbmc.getInfoLabel('Skin.String(emuname)'):
+			xbmc.executebuiltin('Dialog.Close(1111,true)'); xbmc.executebuiltin('Dialog.Close(1114,true)')
+			xbmc.executebuiltin('RunScript(special://emustation_scripts/menu_loader.py,'+xbmc.getInfoLabel('Skin.String(emuname)')+')')
 
 print "Unloaded create_rom_list.py - it took %s to complete" % str(datetime.timedelta(seconds=round(time.time() - start_time)))

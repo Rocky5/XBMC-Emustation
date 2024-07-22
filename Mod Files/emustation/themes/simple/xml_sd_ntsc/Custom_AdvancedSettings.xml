@@ -1,131 +1,131 @@
 <window type="dialog" id="1116">
-		<defaultcontrol always="true">9000</defaultcontrol>
-		<include>defaultassetspaths</include>
-		<controls>
-				<control type="group">
-						<top>0</top>
-						<control type="image">
-								<description>background image</description>
-								<left>150</left>
-								<top>50</top>
-								<width>430</width>
-								<height>380</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20,20,20,20">menu_back.png</texture>
-						</control>
-						<control type="label">
-								<description>heading label</description>
-								<left>150</left>
-								<top>60</top>
-								<width>430</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_35</font>
-								<label>[UPPERCASE]$LOCALIZE[31205][/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<!-- Main Menu -->
-						<control type="grouplist" id="9000">
-								<left>150</left>
-								<top>140</top>
-								<width>431</width>
-								<height>255</height>
-								<onleft>-</onleft>
-								<onright>-</onright>
-								<onup>9000</onup>
-								<ondown>9000</ondown>
-								<itemgap>-1</itemgap>
-								<control type="button" id="2">
-										<left>0</left>
-										<top>0</top>
-										<textwidth>430</textwidth>
-										<label>[UPPERCASE]$LOCALIZE[31362][/UPPERCASE]</label>
-										<include>MenuButtonMenuValues</include>
-										<onclick>RunScript(special://emustation_scripts/patch_xbe_paths.py)</onclick>
-								</control>
-								<control type="button" id="3">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31368][/UPPERCASE]</label>
-										<include>MenuButtonMenuValues</include>
-										<onclick>RunScript(special://emustation_scripts/text_reader.py,2, )</onclick>
-								</control>
-								<!-- custom paths -->
-								<control type="label" id="10">
-										<left>120</left>
-										<top>130</top>
-										<width>430</width>
-										<height>43</height>
-										<align>center</align>
-										<aligny>center</aligny>
-										<font>size_23</font>
-										<label>[UPPERCASE]$LOCALIZE[31355][/UPPERCASE]</label>
-										<textcolor>menu_header_label</textcolor>
-								</control>
-								<control type="button" id="11">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31356][/UPPERCASE]</label>
-										<label2>$INFO[Skin.String(Custom_Emulator_Path)]</label2>
-										<include>MenuButtonMenuValues</include>
-										<onclick>Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onclick>
-										<onclick>Skin.SetPath(Custom_Emulator_Path)</onclick>
-								</control>
-								<control type="button" id="13">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31357][/UPPERCASE]</label>
-										<label2>$INFO[Skin.String(Custom_Media_Path)]</label2>
-										<include>MenuButtonMenuValues</include>
-										<onclick>Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onclick>
-										<onclick>Skin.SetPath(Custom_Media_Path)</onclick>
-								</control>
-								<control type="button" id="15">
-										<left>0</left>
-										<top>0</top>
-										<label>[UPPERCASE]$LOCALIZE[31358][/UPPERCASE]</label>
-										<label2>$INFO[Skin.String(Custom_Roms_Path)]</label2>
-										<include>MenuButtonMenuValues</include>
-										<onclick>Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onclick>
-										<onclick>Skin.SetPath(Custom_Roms_Path)</onclick>
-								</control>
-								<control type="button" id="16">
-										<left>0</left>
-										<top>0</top>
-										<label>  -  $LOCALIZE[31359]</label>
-										<include>MenuButtonMenuValues</include>
-										<onclick>Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onclick>
-										<onclick>Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onclick>
-										<onclick>Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onclick>
-										<onclick>SetFocus(15)</onclick>
-										<visible>!StringCompare(Skin.String(Custom_Emulator_Path),Q:\emustation\emulators\) | !StringCompare(Skin.String(Custom_Media_Path),Q:\emustation\media\) | !StringCompare(Skin.String(Custom_Roms_Path),Q:\emustation\roms\)</visible>
-								</control>
-						</control>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<include>defaultassetspaths</include>
+	<controls>
+		<control type="group">
+			<top>0</top>
+			<control type="image">
+				<description>background image</description>
+				<left>150</left>
+				<top>50</top>
+				<width>430</width>
+				<height>380</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20,20,20,20">menu_back.png</texture>
+			</control>
+			<control type="label">
+				<description>heading label</description>
+				<left>150</left>
+				<top>60</top>
+				<width>430</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_35</font>
+				<label>[UPPERCASE]$LOCALIZE[31205][/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<!-- Main Menu -->
+			<control type="grouplist" id="9000">
+				<left>150</left>
+				<top>140</top>
+				<width>431</width>
+				<height>255</height>
+				<onleft>-</onleft>
+				<onright>-</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<itemgap>-1</itemgap>
+				<control type="button" id="2">
+					<left>0</left>
+					<top>0</top>
+					<textwidth>430</textwidth>
+					<label>[UPPERCASE]$LOCALIZE[31362][/UPPERCASE]</label>
+					<include>MenuButtonMenuValues</include>
+					<onclick>RunScript(special://emustation_scripts/patch_xbe_paths.py)</onclick>
 				</control>
-				<control type="image">
-						<left>180r</left>
-						<top>115</top>
-						<width>22</width>
-						<height>22</height>
-						<texture>scroll-up.png</texture>
-						<colordiffuse>menu_header_label</colordiffuse>
-						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
-								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
-								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
-						</animation>
+				<control type="button" id="3">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31368][/UPPERCASE]</label>
+					<include>MenuButtonMenuValues</include>
+					<onclick>RunScript(special://emustation_scripts/text_reader.py,2, )</onclick>
 				</control>
-				<control type="image">
-						<left>180r</left>
-						<top>80r</top>
-						<width>22</width>
-						<height>22</height>
-						<texture>scroll-down.png</texture>
-						<colordiffuse>menu_header_label</colordiffuse>
-						<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
-								<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
-								<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
-						</animation>
+				<!-- custom paths -->
+				<control type="label" id="10">
+					<left>120</left>
+					<top>130</top>
+					<width>430</width>
+					<height>43</height>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>size_23</font>
+					<label>[UPPERCASE]$LOCALIZE[31355][/UPPERCASE]</label>
+					<textcolor>menu_header_label</textcolor>
 				</control>
-		</controls>
+				<control type="button" id="11">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31356][/UPPERCASE]</label>
+					<label2>$INFO[Skin.String(Custom_Emulator_Path)]</label2>
+					<include>MenuButtonMenuValues</include>
+					<onclick>Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onclick>
+					<onclick>Skin.SetPath(Custom_Emulator_Path)</onclick>
+				</control>
+				<control type="button" id="13">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31357][/UPPERCASE]</label>
+					<label2>$INFO[Skin.String(Custom_Media_Path)]</label2>
+					<include>MenuButtonMenuValues</include>
+					<onclick>Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onclick>
+					<onclick>Skin.SetPath(Custom_Media_Path)</onclick>
+				</control>
+				<control type="button" id="15">
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31358][/UPPERCASE]</label>
+					<label2>$INFO[Skin.String(Custom_Roms_Path)]</label2>
+					<include>MenuButtonMenuValues</include>
+					<onclick>Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onclick>
+					<onclick>Skin.SetPath(Custom_Roms_Path)</onclick>
+				</control>
+				<control type="button" id="16">
+					<left>0</left>
+					<top>0</top>
+					<label>  -  $LOCALIZE[31359]</label>
+					<include>MenuButtonMenuValues</include>
+					<onclick>Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onclick>
+					<onclick>Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onclick>
+					<onclick>Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onclick>
+					<onclick>SetFocus(15)</onclick>
+					<visible>!StringCompare(Skin.String(Custom_Emulator_Path),Q:\emustation\emulators\) | !StringCompare(Skin.String(Custom_Media_Path),Q:\emustation\media\) | !StringCompare(Skin.String(Custom_Roms_Path),Q:\emustation\roms\)</visible>
+				</control>
+			</control>
+		</control>
+		<control type="image">
+			<left>180r</left>
+			<top>115</top>
+			<width>22</width>
+			<height>22</height>
+			<texture>scroll-up.png</texture>
+			<colordiffuse>menu_header_label</colordiffuse>
+			<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+				<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000"/>
+				<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500"/>
+			</animation>
+		</control>
+		<control type="image">
+			<left>180r</left>
+			<top>80r</top>
+			<width>22</width>
+			<height>22</height>
+			<texture>scroll-down.png</texture>
+			<colordiffuse>menu_header_label</colordiffuse>
+			<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+				<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000"/>
+				<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500"/>
+			</animation>
+		</control>
+	</controls>
 </window>

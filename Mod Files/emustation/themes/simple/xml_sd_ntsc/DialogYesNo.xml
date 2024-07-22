@@ -1,113 +1,113 @@
 <window id="100">
-		<defaultcontrol>10</defaultcontrol>
-		<coordinates>
-				<system>1</system>
-				<left>50</left>
-				<top>100</top>
-		</coordinates>
-		<include>dialogeffect</include>
-		<controls>
-				<control type="image">
-						<description>background image</description>
-						<left>-50</left>
-						<top>-100</top>
-						<width>720</width>
-						<height>480</height>
-						<texture>black-back.png</texture>
-				</control>
-				<control type="image">
-						<description>background image</description>
-						<left>0</left>
-						<top>0</top>
-						<width>620</width>
-						<height>250</height>
-						<colordiffuse>menu_back_image</colordiffuse>
-						<texture border="20">menu_back.png</texture>
-				</control>
-				<control type="image">
-						<description>background image</description>
-						<left>0</left>
-						<top>65</top>
-						<width>620</width>
-						<height>1</height>
-						<texture>separator_menu.png</texture>
-				</control>
-				<control type="image">
-						<description>background image</description>
-						<left>0</left>
-						<top>180</top>
-						<width>620</width>
-						<height>1</height>
-						<texture>separator_menu.png</texture>
-				</control>
-				<control type="label" id="1">
-						<description>heading label</description>
-						<left>0</left>
-						<top>20</top>
-						<width>620</width>
-						<height>35</height>
-						<align>center</align>
-						<aligny>center</aligny>
-						<font>size_35</font>
-						<label>13406</label>
-						<textcolor>menu_header_label</textcolor>
-				</control>
-				<control type="label" id="2">
-						<description>dialog line 1</description>
-						<left>10</left>
-						<top>65</top>
-						<width>600</width>
-						<height>50</height>
-						<label>-</label>
-						<font>size_23</font>
-						<textcolor>menu_nofocus_label</textcolor>
-						<scroll>true</scroll>
-						<align>center</align>
-						<aligny>center</aligny>
-				</control>
-				<control type="label" id="3">
-						<description>dialog line 2</description>
-						<left>10</left>
-						<top>100</top>
-						<width>600</width>
-						<height>50</height>
-						<label>-</label>
-						<font>size_23</font>
-						<textcolor>menu_nofocus_label</textcolor>
-						<scroll>true</scroll>
-						<align>center</align>
-						<aligny>center</aligny>
-				</control>
-				<control type="label" id="4">
-						<description>dialog line 3</description>
-						<left>10</left>
-						<top>135</top>
-						<width>600</width>
-						<height>50</height>
-						<label>-</label>
-						<font>size_23</font>
-						<textcolor>menu_nofocus_label</textcolor>
-						<scroll>true</scroll>
-						<align>center</align>
-						<aligny>center</aligny>
-				</control>
-				<control type="button" id="11">
-						<description>Yes button</description>
-						<left>190</left>
-						<top>190</top>
-						<label>107</label>
-						<include>MenuYesNoButtonCommonValues</include>
-						<onleft>-</onleft>
-						<onright>10</onright>
-				</control>
-				<control type="button" id="10">
-						<description>No button</description>
-						<left>330</left>
-						<top>190</top>
-						<label>106</label>
-						<include>MenuYesNoButtonCommonValues</include>
-						<onleft>11</onleft>
-						<onright>-</onright>
-				</control>
-		</controls>
+	<defaultcontrol>10</defaultcontrol>
+	<coordinates>
+		<system>1</system>
+		<left>50</left>
+		<top>100</top>
+	</coordinates>
+	<include>dialogeffect</include>
+	<controls>
+		<control type="image">
+			<description>background image</description>
+			<left>-50</left>
+			<top>-100</top>
+			<width>720</width>
+			<height>480</height>
+			<texture>black-back.png</texture>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<left>0</left>
+			<top>0</top>
+			<width>620</width>
+			<height>250</height>
+			<colordiffuse>menu_back_image</colordiffuse>
+			<texture border="20">menu_back.png</texture>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<left>0</left>
+			<top>65</top>
+			<width>620</width>
+			<height>1</height>
+			<texture>separator_menu.png</texture>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<left>0</left>
+			<top>180</top>
+			<width>620</width>
+			<height>1</height>
+			<texture>separator_menu.png</texture>
+		</control>
+		<control type="label" id="1">
+			<description>heading label</description>
+			<left>0</left>
+			<top>20</top>
+			<width>620</width>
+			<height>35</height>
+			<align>center</align>
+			<aligny>center</aligny>
+			<font>size_35</font>
+			<label>13406</label>
+			<textcolor>menu_header_label</textcolor>
+		</control>
+		<control type="label" id="2">
+			<description>dialog line 1</description>
+			<left>10</left>
+			<top>65</top>
+			<width>600</width>
+			<height>50</height>
+			<label>-</label>
+			<font>size_23</font>
+			<textcolor>menu_nofocus_label</textcolor>
+			<scroll>true</scroll>
+			<align>center</align>
+			<aligny>center</aligny>
+		</control>
+		<control type="label" id="3">
+			<description>dialog line 2</description>
+			<left>10</left>
+			<top>100</top>
+			<width>600</width>
+			<height>50</height>
+			<label>-</label>
+			<font>size_23</font>
+			<textcolor>menu_nofocus_label</textcolor>
+			<scroll>true</scroll>
+			<align>center</align>
+			<aligny>center</aligny>
+		</control>
+		<control type="label" id="4">
+			<description>dialog line 3</description>
+			<left>10</left>
+			<top>135</top>
+			<width>600</width>
+			<height>50</height>
+			<label>-</label>
+			<font>size_23</font>
+			<textcolor>menu_nofocus_label</textcolor>
+			<scroll>true</scroll>
+			<align>center</align>
+			<aligny>center</aligny>
+		</control>
+		<control type="button" id="11">
+			<description>Yes button</description>
+			<left>190</left>
+			<top>190</top>
+			<label>107</label>
+			<include>MenuYesNoButtonCommonValues</include>
+			<onleft>-</onleft>
+			<onright>10</onright>
+		</control>
+		<control type="button" id="10">
+			<description>No button</description>
+			<left>330</left>
+			<top>190</top>
+			<label>106</label>
+			<include>MenuYesNoButtonCommonValues</include>
+			<onleft>11</onleft>
+			<onright>-</onright>
+		</control>
+	</controls>
 </window>

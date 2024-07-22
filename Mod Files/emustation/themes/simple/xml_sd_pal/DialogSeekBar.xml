@@ -1,79 +1,79 @@
 <window id="115">
-		<defaultcontrol>1</defaultcontrol>
-		<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Forwarding | Player.Rewinding</visible>
-		<coordinates>
-				<system>1</system>
-				<left>0</left>
+	<defaultcontrol>1</defaultcontrol>
+	<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Forwarding | Player.Rewinding</visible>
+	<coordinates>
+		<system>1</system>
+		<left>0</left>
+		<top>0</top>
+	</coordinates>
+	<controls>
+		<include>VisibleFadeEffect</include>
+		<!-- Player Controls are visible -->
+		<control type="group">
+			<visible>!Skin.HasSetting(OldPlayerControls)</visible>
+			<animation effect="slide" start="0,0" end="0,87" delay="0" time="250" tween="Quadratic" easing="out" condition="Skin.HasSetting(newplayer_large_artwork)">Conditional</animation>
+			<control type="group">
+				<left>452</left>
+				<top>119</top>
+				<control type="slider" id="401">
+					<description>Seek Slider</description>
+					<left>1</left>
+					<top>-2</top>
+					<width>373</width>
+					<height>10</height>
+					<colordiffuse>FFFFFFFF</colordiffuse>
+					<texturesliderbar>seekslider.png</texturesliderbar>
+					<textureslidernib>slider_nibFO.png</textureslidernib>
+					<textureslidernibfocus>slider_nibFO.png</textureslidernibfocus>
+					<visible>Player.Seeking + Window.IsActive(114) + !Skin.HasSetting(OldPlayerControls)</visible>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<visible>Skin.HasSetting(OldPlayerControls)</visible>
+			<control type="group">
+				<left>430r</left>
 				<top>0</top>
-		</coordinates>
-		<controls>
-				<include>VisibleFadeEffect</include>
-				<!-- Player Controls are visible -->
-				<control type="group">
-						<visible>!Skin.HasSetting(OldPlayerControls)</visible>
-						<animation effect="slide" start="0,0" end="0,87" delay="0" time="250" tween="Quadratic" easing="out" condition="Skin.HasSetting(newplayer_large_artwork)">Conditional</animation>
-						<control type="group">
-								<left>452</left>
-								<top>119</top>
-								<control type="slider" id="401">
-										<description>Seek Slider</description>
-										<left>1</left>
-										<top>-2</top>
-										<width>373</width>
-										<height>10</height>
-										<colordiffuse>FFFFFFFF</colordiffuse>
-										<texturesliderbar>seekslider.png</texturesliderbar>
-										<textureslidernib>slider_nibFO.png</textureslidernib>
-										<textureslidernibfocus>slider_nibFO.png</textureslidernibfocus>
-										<visible>Player.Seeking + Window.IsActive(114) + !Skin.HasSetting(OldPlayerControls)</visible>
-								</control>
-						</control>
+				<control type="slider" id="401">
+					<description>Seek Slider</description>
+					<left>105</left>
+					<top>50</top>
+					<width>307</width>
+					<height>10</height>
+					<colordiffuse>FFFFFFFF</colordiffuse>
+					<texturesliderbar>seekslider.png</texturesliderbar>
+					<textureslidernib>slider_nibFO.png</textureslidernib>
+					<textureslidernibfocus>slider_nibFO.png</textureslidernibfocus>
+					<visible>Player.Seeking + Window.IsActive(114) + Skin.HasSetting(OldPlayerControls)</visible>
 				</control>
-				<control type="group">
-						<visible>Skin.HasSetting(OldPlayerControls)</visible>
-						<control type="group">
-								<left>430r</left>
-								<top>0</top>
-								<control type="slider" id="401">
-										<description>Seek Slider</description>
-										<left>105</left>
-										<top>50</top>
-										<width>307</width>
-										<height>10</height>
-										<colordiffuse>FFFFFFFF</colordiffuse>
-										<texturesliderbar>seekslider.png</texturesliderbar>
-										<textureslidernib>slider_nibFO.png</textureslidernib>
-										<textureslidernibfocus>slider_nibFO.png</textureslidernibfocus>
-										<visible>Player.Seeking + Window.IsActive(114) + Skin.HasSetting(OldPlayerControls)</visible>
-								</control>
-						</control>
-				</control>
-				<!-- All other screens -->
-				<control type="group">
-						<control type="progress" id="23">
-								<description>Progressbar</description>
-								<left>490</left>
-								<top>0</top>
-								<width>300</width>
-								<height>10</height>
-								<info>Player.Progress</info>
-								<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
-								<lefttexture>-</lefttexture>
-								<midtexture border="4,0,4,0">progressfrontalt.png</midtexture>
-								<visible>Player.Seeking + !Window.IsActive(114)</visible>
-						</control>
-						<control type="slider" id="401">
-								<description>Seek Slider</description>
-								<left>490</left>
-								<top>0</top>
-								<width>300</width>
-								<height>10</height>
-								<colordiffuse>FF8B0000</colordiffuse>
-								<texturesliderbar>seekslider.png</texturesliderbar>
-								<textureslidernib>slider_nibFO.png</textureslidernib>
-								<textureslidernibfocus>slider_nibFO.png</textureslidernibfocus>
-								<visible>Player.Seeking + !Window.IsActive(114)</visible>
-						</control>
-				</control>
-		</controls>
+			</control>
+		</control>
+		<!-- All other screens -->
+		<control type="group">
+			<control type="progress" id="23">
+				<description>Progressbar</description>
+				<left>490</left>
+				<top>0</top>
+				<width>300</width>
+				<height>10</height>
+				<info>Player.Progress</info>
+				<texturebg border="4,0,4,0">ProgressBack.png</texturebg>
+				<lefttexture>-</lefttexture>
+				<midtexture border="4,0,4,0">progressfrontalt.png</midtexture>
+				<visible>Player.Seeking + !Window.IsActive(114)</visible>
+			</control>
+			<control type="slider" id="401">
+				<description>Seek Slider</description>
+				<left>490</left>
+				<top>0</top>
+				<width>300</width>
+				<height>10</height>
+				<colordiffuse>FF8B0000</colordiffuse>
+				<texturesliderbar>seekslider.png</texturesliderbar>
+				<textureslidernib>slider_nibFO.png</textureslidernib>
+				<textureslidernibfocus>slider_nibFO.png</textureslidernibfocus>
+				<visible>Player.Seeking + !Window.IsActive(114)</visible>
+			</control>
+		</control>
+	</controls>
 </window>

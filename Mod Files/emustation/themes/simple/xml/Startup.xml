@@ -1,12 +1,12 @@
 <window id="2999">
-		<!-- Onload, these are loaded when the window is first loaded -->
-		<onload>Skin.Reset(favsloading)</onload>
-		<onload>Skin.SetBool(xbmc-emustation)</onload>
-		<onload>Skin.SetString(dashboard_name,XBMC-Emustation)</onload>
-		<onload condition="Skin.HasSetting(firstrun)">RunScript(special://emustation_scripts/playlist_start.py)</onload>
-		<include>defaultassetspaths</include>
-		<defaultcontrol always="true">1</defaultcontrol>
-		<allowoverlay>no</allowoverlay>
-		<controls>
+	<!-- Onload, these are loaded when the window is first loaded -->
+	<onload>Skin.Reset(favsloading)</onload>
+	<onload>Skin.SetBool(xbmc-emustation)</onload>
+	<onload>Skin.SetString(dashboard_name,XBMC-Emustation)</onload>
+	<onload condition="Skin.HasSetting(firstrun)">RunScript(special://emustation_scripts/playlist_start.py)</onload>
+	<include>defaultassetspaths</include>
+	<defaultcontrol always="true">1</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<controls>
 		</controls>
 </window>

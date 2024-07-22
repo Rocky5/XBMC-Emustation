@@ -1,175 +1,329 @@
+# -*- coding: utf-8 -*-
 ### URLDownloading by Rocky5.
-import extract,hashlib,hmac,math,os,re,requests,socket,struct,time,traceback,xbmc,xbmcgui
-dialog = xbmcgui.Dialog()
-dprogress = xbmcgui.DialogProgress()
-working_directory = os.getcwd() + '/'
+import extract, hashlib, math, os, requests, socket, struct, time, traceback
+
+requests.packages.urllib3.disable_warnings(
+	requests.packages.urllib3.exceptions.InsecureRequestWarning
+)
+from hmac import new
+from urllib import quote
+from xbmc import (
+	executebuiltin,
+	getLocalizedString,
+	getInfoLabel,
+	getCondVisibility,
+	translatePath,
+)
+from xbmcgui import Dialog, DialogProgress
+
+dialog = Dialog()
+dprogress = DialogProgress()
+working_directory = os.getcwd() + "/"
 
 # Updated to new location
-URLDownloader_Bin='1UvxE7X485CTSLAccmpkUb8NTMoI9u7va'
-DownloadList_Bin='1X_2u2-5Ace2IvLKklVAsyHDHj9pMkJw-'
-URLDownloader_Zip='1zg_K10VAAn7O6KvBbCBtxGjLftmT6m9g'
-ESTestBuild='1VXzu0XzekSiEuS5IxD1wMm9EeRYlcSA5'
-ESBuild='16T0dUzzYQAjzp5L2CRiEa298iOTF17XK'
-GSTestBuild='1K89uwM524DgyaoCLoG2c1T6Hk5vex9dP'
-GSBuild='1cLG1C7_bcMtZPX8n6vXmvWh2TgYXYJLW'
+URLDownloader_Bin = "1UvxE7X485CTSLAccmpkUb8NTMoI9u7va~versions/URLDownloader.bin"
+DownloadList_Bin = "1X_2u2-5Ace2IvLKklVAsyHDHj9pMkJw-~versions/DownloadList.bin"
+URLDownloader_Zip = "1zg_K10VAAn7O6KvBbCBtxGjLftmT6m9g~updates/URLDownloader.zip"
 
-if os.path.isfile('Special://skin/720p/includes.xml') and not os.path.isfile('Special://skin/xml/includes.xml'):
-	skin_xml_path = '720p'
-else:
-	skin_xml_path = 'xml'
-
-class GoogleDriveDownloader:
-	#CHUNK_SIZE = 32768 # 32.768kb
-	#CHUNK_SIZE = 65536 # 65.536kb
-	CHUNK_SIZE = 512000 # 512kb
-	DOWNLOAD_URL = "https://docs.google.com/uc?export=download"
-	
-	@staticmethod
-	
-	def download_file_from_google_drive(file_id,dest_path,zipsize,filename,overwrite=False,unzip=False,showsize=False):
-		destination_directory = os.path.dirname(dest_path)
-		
-		if not os.path.exists(destination_directory):
-			makedirs(destination_directory)
-		
-		if not os.path.exists(dest_path) or overwrite:
-			
-			if filename == "Update":
-				xbmc.executebuiltin('Skin.SetString(DisableProgress,Disabled)')
-				xbmc.executebuiltin('Skin.SetString(DisableCancel,Disabled)')
-				progress_resolver = "Checking for update"
-			
-			else:
-				xbmc.executebuiltin('Skin.SetString(DisableCancel,)')
-				xbmc.executebuiltin('Skin.SetString(DisableProgress,)')
-				progress_resolver = "Resolving Google Drive link"
-			
-			dprogress.create("URLDOWNLOADER","",progress_resolver)
-			dprogress.update(0)
-			current_download_size = [0]
-			session = requests.Session()
-			response = session.post(GoogleDriveDownloader.DOWNLOAD_URL, params={'id': file_id, 'confirm': 't'}, stream=True, verify=False)
-			
-			if not str(response.status_code).startswith('2'):
-				global invalidlink
-				global responsecode
-				
-				if str(response.status_code).startswith('4'):
-					httperrors = ["400 Bad Request","401 Unauthorized","402 Payment Required (Experimental)","403 Forbidden","404 Not Found","405 Method Not Allowed","406 Not Acceptable","407 Proxy Authentication Required","408 Request Timeout","409 Conflict","410 Gone","411 Length Required","412 Precondition Failed","413 Request Entity Too Large","414 Request-URI Too Long","415 Unsupported Media Type","416 Requested Range Not Satisfiable","417 Expectation Failed","418 I?m a teapot (RFC 2324)","420 Enhance Your Calm (Twitter)","422 Unprocessable Entity (WebDAV)","423 Locked (WebDAV)","424 Failed Dependency (WebDAV)","425 Too Early (WebDAV)","426 Upgrade Required","428 Precondition Required","429 Too Many Requests","431 Request Header Fields Too Large","444 No Response (Nginx)","449 Retry With (Microsoft)","450 Blocked by Windows Parental Controls (Microsoft)","451 Unavailable For Legal Reasons","499 Client Closed Request (Nginx)"]
-					for error in httperrors:
-						if error.startswith(str(response.status_code)):
-							responsecode = error
-					invalidlink = 1
-				
-				if str(response.status_code).startswith('5'):
-					httperrors = ["500 Internal Server Error","501 Not Implemented","502 Bad Gateway","503 Service Unavailable","504 Gateway Timeout","505 HTTP Version Not Supported (Experimental)","506 Variant Also Negotiates (Experimental)","507 Insufficient Storage (WebDAV)","508 Loop Detected (WebDAV)","510 Not Extended","511 Network Authentication Required"]
-					for error in httperrors:
-						if error.startswith(str(response.status_code)):
-							responsecode = error
-					invalidlink = 2
-				raise Exception('download error')
-			
-			GoogleDriveDownloader._save_response_content(response,dest_path,showsize,current_download_size,zipsize,filename)
-			
-			if unzip:
-				
-				try:
-					with zipfile.ZipFile(dest_path,'r') as z:
-						z.extractall(destination_directory)
-				
-				except zipfile.BadZipfile:
-					print 'Ignoring `unzip` since "'+file_id+'" does not look like a valid zip file'
-	
-	@staticmethod
-	
-	def _save_response_content(response,destination,showsize,current_size,zipsize,filename):
-		percent = 0
-		current_size = int(current_size[0])
-		StartTime = time.clock()
-		
-		with open(destination,'wb') as f:
-			for chunk in response.iter_content(GoogleDriveDownloader.CHUNK_SIZE):
-				if chunk:  # filter out keep-alive new chunks
-					f.write(chunk)
-					
-					if showsize:
-						percent = current_size*101/zipsize
-						current_size += GoogleDriveDownloader.CHUNK_SIZE
-						# calculate time renaming
-						ElapsedTime = (time.clock() - StartTime)
-						ChunksPerTime = (current_size / ElapsedTime)
-						EstimatedTotalTime = (zipsize / ChunksPerTime)
-						TimeLeftInSeconds = (EstimatedTotalTime - ElapsedTime) * 10 / 10 + 1 # adding + 1 makes it finish on 0 instead of being 0 with 1 second left
-						TimeLeftInMinutes = TimeLeftInSeconds // 60
-						TimeLeftInHours = TimeLeftInMinutes // 60
-						
-						if TimeLeftInHours >= 1:
-							TimeLeft = ("Estimated time left %s hour, %s minutes " % (int(TimeLeftInHours),int(TimeLeftInMinutes) % 60))
-						elif TimeLeftInMinutes >= 1:
-							TimeLeft = ("Estimated time left %s minutes, %s seconds" % (int(TimeLeftInMinutes) % 60,int(TimeLeftInSeconds) % 60))
-						elif TimeLeftInSeconds < 60:
-							TimeLeft = ("Estimated time left %s seconds" % (int(TimeLeftInSeconds) % 60))
-						
-						dprogress.update(percent,filename.replace('.zip',''),TimeLeft)
-						
-						if dprogress.iscanceled():
-							global allowcancellation
-							allowcancellation = 1
-							raise Exception("User cancelled download")
-
-def download_update_check(url):
-	if not os.path.exists(update_path):
-		os.makedirs(update_path)
-	
-	path = os.path.join(update_path,url.split('/')[-1])
-	filename = updatename
-	GoogleDriveDownloader.download_file_from_google_drive(file_id=str(url),dest_path=str(update_path+filename),zipsize=int(zipsize),filename="Update",unzip=False,showsize=False,overwrite=True)
 
 def download_url(url):
-	dprogress.create("DOWNLOADING","","Initializing")
-	
+	global StartTime
+	StartTime = time.clock()
 	if not os.path.exists(download_path):
 		os.makedirs(download_path)
-	
-	path = os.path.join(download_path,url.split('/')[-1])
-	GoogleDriveDownloader.download_file_from_google_drive(file_id=str(url),dest_path=str(file),zipsize=int(zipsize),filename=filename,unzip=False,showsize=True,overwrite=True)
+	download(
+		url=str(url),
+		dest_path=str(download_path + filename),
+		zipsize=int(zipsize),
+		filename=filename,
+		showprogress=1,
+	)
 
-def extract_file(file):
-	if not os.path.exists(xbmc.translatePath(install_path)):
-		os.makedirs(xbmc.translatePath(install_path))
-	
-	dprogress.create("EXTRACTING","","Initializing")
-	zippath = xbmc.translatePath(install_path)
-	dprogress.update(0,filename.replace('.zip',''),"This can take some time, please be patient.")
-	extract.all(file,zippath,dprogress)
+
+def download(url, dest_path, zipsize, filename, showprogress):
+	global current_size
+	global invalidlink
+	global responsecode
+	dprogress.update(0)
+	httperrors4 = [
+		"400 Bad Request",
+		"401 Unauthorized",
+		"402 Payment Required (Experimental)",
+		"403 Forbidden",
+		"404 Not Found",
+		"405 Method Not Allowed",
+		"406 Not Acceptable",
+		"407 Proxy Authentication Required",
+		"408 Request Timeout",
+		"409 Conflict",
+		"410 Gone",
+		"411 Length Required",
+		"412 Precondition Failed",
+		"413 Request Entity Too Large",
+		"414 Request-URI Too Long",
+		"415 Unsupported Media Type",
+		"416 Requested Range Not Satisfiable",
+		"417 Expectation Failed",
+		"418 I?m a teapot (RFC 2324)",
+		"420 Enhance Your Calm (Twitter)",
+		"422 Unprocessable Entity (WebDAV)",
+		"423 Locked (WebDAV)",
+		"424 Failed Dependency (WebDAV)",
+		"425 Too Early (WebDAV)",
+		"426 Upgrade Required",
+		"428 Precondition Required",
+		"429 Too Many Requests",
+		"431 Request Header Fields Too Large",
+		"444 No Response (Nginx)",
+		"449 Retry With (Microsoft)",
+		"450 Blocked by Windows Parental Controls (Microsoft)",
+		"451 Unavailable For Legal Reasons",
+		"499 Client Closed Request (Nginx)",
+	]
+	httperrors5 = [
+		"500 Internal Server Error",
+		"501 Not Implemented",
+		"502 Bad Gateway",
+		"503 Service Unavailable",
+		"504 Gateway Timeout",
+		"505 HTTP Version Not Supported (Experimental)",
+		"506 Variant Also Negotiates (Experimental)",
+		"507 Insufficient Storage (WebDAV)",
+		"508 Loop Detected (WebDAV)",
+		"510 Not Extended",
+		"511 Network Authentication Required",
+	]
+	current_size = 0
+	GDURL = "https://docs.google.com/uc?export=download"
+	X4GURL = "https://www.xbmc4gamers.co.uk/X4G-XEmu/urldownloader/{}".format(quote(url.split("~")[1]))
+	GDCode = url.split("~")[0]
+
+	if filename == "Update":
+		executebuiltin(
+			"Skin.SetString(DisableProgress,Disabled)"
+		)
+		executebuiltin(
+			"Skin.SetString(DisableCancel,Disabled)"
+		)
+
+	print("URLDownloader: Using GoogleDrive")
+
+	if filename == "Update":
+		dprogress.create(
+			"CHECKING FOR UPDATE",
+			"",
+			"Please wait..."
+		)
+	else:
+		dprogress.create(
+			"Using GoogleDrive",
+			filename.replace(".zip", ""),
+			"Resolving link"
+		)
+
+	# Google Drive attempt
+	# token = get_confirm_token(requests.Session().get(GDURL, params={'id': GDCode}, stream=True))
+	token = "t"
+	response = requests.Session().post(
+		GDURL,
+		headers={"User-Agent": "Mozilla/5.0"},
+		params={"id": GDCode, "confirm": token},
+		stream=True,
+		verify=False,
+	)
+
+	# Google Drive status, if fails use XBMC4Gamers.co.uk
+	if str(response.status_code).startswith("2"):
+		save_response_content(
+			response, dest_path, showprogress, current_size, zipsize, filename
+		)
+	else:
+		if str(response.status_code).startswith("4"):
+			for error in httperrors4:
+				if error.startswith(str(response.status_code)):
+					print("URLDownloader: GoogleDrive Failed: " + error)
+
+		if str(response.status_code).startswith("5"):
+			for error in httperrors5:
+				if error.startswith(str(response.status_code)):
+					print("URLDownloader: GoogleDrive Failed: " + error)
+
+		print("URLDownloader: Falling back to www.xbmc4gamers.co.uk")
+
+		if filename == "Update":
+			dprogress.create(
+				"CHECKING FOR UPDATE",
+				"",
+				"Please wait..."
+			)
+		else:
+			dprogress.create(
+				"Using XBMC4Gamers.co.uk",
+				filename.replace(".zip", "")
+			)
+
+		# XBMC4Gamers.co.uk attempt time out if request is blocked
+		timeout = 5
+		max_retries = 5
+		for _ in range(max_retries):
+			if dprogress.iscanceled():
+				break
+			response = requests.Session().get(
+				X4GURL,
+				headers={"User-Agent": "Mozilla/5.0"},
+				stream=True,
+				verify=False,
+			)
+
+			if str(response.status_code).startswith("2"):
+				save_response_content(
+					response, dest_path, showprogress, current_size, zipsize, filename
+				)
+
+			if str(response.status_code).startswith("429"):
+				timeoutcount = timeout
+				for _ in range(timeout):
+					dprogress.update(
+						0,
+						filename.replace(".zip", ""),
+						"Retrying in: " + str(timeoutcount)
+					)
+					time.sleep(1)
+					timeoutcount -= 1
+					if dprogress.iscanceled():
+						break
+			else:
+				break
+			timeout += 5
+
+	if str(response.status_code).startswith("4"):
+		for error in httperrors4:
+			if error.startswith(str(response.status_code)):
+				responsecode = error
+		invalidlink = 1
+		raise Exception("Download Error: Both sites issue, couldn't download file")
+
+	if str(response.status_code).startswith("5"):
+		for error in httperrors5:
+			if error.startswith(str(response.status_code)):
+				responsecode = error
+		invalidlink = 2
+		raise Exception("Download Error: Both sites issue, couldn't download file")
+
+
+def get_confirm_token(response):
+	return response.text.startswith("<!DOCTYPE html>")
+
+
+def save_response_content(response, dest_path, showprogress, current_size, zipsize, filename):
+	percent = 0
+	current_size = int(current_size)
+	StartTime = time.clock()
+	CHUNK_SIZE = 256 * 1024
+
+	with open(dest_path, "wb") as f:
+		for chunk in response.iter_content(CHUNK_SIZE):
+			if chunk:  # filter out keep-alive new chunks
+				f.write(chunk)
+
+				if showprogress:
+					percent = current_size * 101 / zipsize
+					current_size += CHUNK_SIZE
+					# calculate time renaming
+					ElapsedTime = time.clock() - StartTime
+					ChunksPerTime = current_size / ElapsedTime
+					EstimatedTotalTime = zipsize / ChunksPerTime
+					TimeLeftInSeconds = (EstimatedTotalTime - ElapsedTime) * 10 / 10 + 1  # adding + 1 makes it finish on 0 instead of being 0 with 1 second left
+					TimeLeftInMinutes = TimeLeftInSeconds / 60
+					TimeLeftInHours = TimeLeftInMinutes / 60
+
+					if TimeLeftInHours >= 1:
+						TimeLeft = "Estimated time left {} hour, {} minutes ".format(int(TimeLeftInHours),int(TimeLeftInMinutes) % 60)
+					elif TimeLeftInMinutes >= 1:
+						TimeLeft = "Estimated time left {} minutes, {} seconds".format(int(TimeLeftInMinutes) % 60,int(TimeLeftInSeconds) % 60)
+					elif TimeLeftInSeconds < 60:
+						TimeLeft = "Estimated time left {} seconds".format(int(TimeLeftInSeconds) % 60)
+
+					# dprogress.update(percent,filename.replace('.zip',''),TimeLeft,"Downloaded: "+convert_size(current_size)+" at "+convert_size(CHUNK_SIZE)+"s")
+					# dprogress.update(percent,filename.replace('.zip',''),TimeLeft,"Downloaded: "+convert_size(current_size))
+					dprogress.update(
+						percent,
+						filename.replace(".zip", ""),
+						TimeLeft
+					)
+
+					if dprogress.iscanceled():
+						global allowcancellation
+						allowcancellation = 1
+						raise Exception("User cancelled download")
+
+
+def extract_file(file, rename_emus):
+	if os.path.isfile(file):
+		if not os.path.exists(translatePath(install_path)):
+			os.makedirs(translatePath(install_path))
+
+		dprogress.create(
+			"INSTALLING",
+			file.replace(".zip", "")
+		)
+		zippath = translatePath(install_path)
+		dprogress.update(
+			0,
+			filename.replace(".zip", ""),
+			"This may take some time, please be patient."
+		)
+		extract.all(file, zippath, rename_emus, dprogress)
+
+
+def download_update_check(url):
+	download(
+		url=str(url),
+		dest_path=str(update_path + updatename),
+		zipsize=int(0),
+		filename="Update",
+		showprogress=0,
+	)
+
 
 def clear_X():
 	try:
-		dprogress.create("CACHE","","Initializing")
-		
-		for root,dirs,files in os.walk("X:/",topdown=False):
-			
+		dprogress.create(
+			"INITIALIZING"
+		)
+		dprogress.update(
+			0,
+			"Preparing Cache Partition",
+			"This may take some time, please be patient."
+		)
+		for root, dirs, files in os.walk("X:/", topdown=False):
 			for name in files:
-				os.remove(os.path.join(root,name))
-			
+				os.remove(os.path.join(root, name))
 			for name in dirs:
-				os.rmdir(os.path.join(root,name))
-			dprogress.update(0,'','Preparing Cache')
-			time.sleep(0.1)
-	
+				os.rmdir(os.path.join(root, name))
+
 	except Exception as error:
 		traceback.print_exc()
+		exceptiondata = traceback.format_exc().splitlines()
+		exceptionarray = exceptiondata[1:-1]
+		dialog.ok(
+			"ERROR",
+			"Clearing cache partitions failed.",
+			exceptionarray
+		)
+
 
 def convert_size(size_bytes):
-	
+
 	if size_bytes == 0:
 		return "0B"
-	
-	size_name = ("B","KB","MB")
-	i = int(math.floor(math.log(size_bytes,1024)))
-	p = math.pow(1024,i)
-	s = round(size_bytes / p,2)
-	return "%s %s" % (s,size_name[i])
+
+	size_name = ("B", "KB", "MB")
+	i = int(math.floor(math.log(size_bytes, 1024)))
+	p = math.pow(1024, i)
+	s = round(size_bytes / p, 1)
+	return "%s %s" % (s, size_name[i].zfill(1))
+
 
 def update_check():
 	global updatename
@@ -177,368 +331,568 @@ def update_check():
 	global xmlinvalid
 	xmlinvalid = 0
 	urldinvalid = 0
-	
-	if not os.path.isfile('Z:/temp/URLDownloader.bin'):
-		updatename = 'URLDownloader.bin'
+
+	if not os.path.isfile("Z:/temp/URLDownloader.bin"):
+		updatename = "URLDownloader.bin"
 		download_update_check(str(URLDownloader_Bin))
-		
-		with open(os.path.join(working_directory,'version.bin'),'r') as verfile:
+
+		with open(os.path.join(working_directory, "version.bin"), "r") as verfile:
 			local_version = verfile.readline().rstrip()
-		
-		with open('Z:/temp/URLDownloader.bin','r') as verfile:
+
+		with open("Z:/temp/URLDownloader.bin", "r") as verfile:
 			urldversion = verfile.readline().rstrip()
-		
-		if int(local_version.replace(".","")) < int(urldversion.replace(".","")):
-			os.remove('Z:/temp/URLDownloader.bin')
+
+		if int(local_version.replace(".", "")) < int(urldversion.replace(".", "")):
+			os.remove("Z:/temp/URLDownloader.bin")
 			urldinvalid = 1
-	
-	if not os.path.isfile('Z:/temp/DownloadList.bin'):
-		updatename = 'DownloadList.bin'
+
+	if not os.path.isfile("Z:/temp/DownloadList.bin"):
+		updatename = "DownloadList.bin"
 		download_update_check(str(DownloadList_Bin))
-		
-		with open('Z:/temp/DownloadList.bin','r') as verfile:
+
+		with open("Z:/temp/DownloadList.bin", "r") as verfile:
 			dlsversion = verfile.readline().rstrip()
-		
-		with open(xbmc.translatePath('Special://skin/'+skin_xml_path+'/_Script_URLDownloader.xml'),"rb") as updatefile:
+
+		with open(
+			translatePath("Special://skin/xml/_Script_URLDownloader.xml"), "rb"
+		) as updatefile:
 			udhashlibmd5.update(updatefile.read())
-		
+
 		if udhashlibmd5.hexdigest() != dlsversion:
-			os.remove('Z:/temp/DownloadList.bin')
+			os.remove("Z:/temp/DownloadList.bin")
 			xmlinvalid = 1
 
 	dprogress.close()
-	
-def dash_update_check():
-	global updatename
-			
-	# Updated check files
-	updatename = 'updatecheck.bin'
-	if "emustation" in xbmc.getLocalizedString(31000).lower():
-		if "test build" in xbmc.getLocalizedString(31000).lower():
-			download_update_check(str(ESTestBuild))
-		else:
-			download_update_check(str(ESBuild))
-	else:
-		if "test build" in xbmc.getLocalizedString(31000).lower():
-			download_update_check(str(GSTestBuild))
-		else:
-			download_update_check(str(GSBuild))
 
+
+def dash_update_check():
+	# Updated check
+	updatename = "updatecheck.bin"
+	if "emustation" in getLocalizedString(31000).lower():
+		if "test build" in getLocalizedString(31000).lower():
+			with open("Z:/temp/" + updatename, "w") as UC:
+				UC.write(
+					getInfoLabel("Skin.String(TestBuild_Emustation_Server_Version)")
+				)
+		else:
+			with open("Z:/temp/" + updatename, "w") as UC:
+				UC.write(getInfoLabel("Skin.String(Stable_Emustation_Server_Version)"))
+	else:
+		if "test build" in getLocalizedString(31000).lower():
+			with open("Z:/temp/" + updatename, "w") as UC:
+				UC.write(getInfoLabel("Skin.String(TestBuild_Gamers_Server_Version)"))
+		else:
+			with open("Z:/temp/" + updatename, "w") as UC:
+				UC.write(getInfoLabel("Skin.String(Stable_Gamers_Server_Version)"))
 	dprogress.close()
 
+
+def internet_check():
+	try:
+		_ = requests.head("http://google.com/", timeout=3)
+	except requests.ConnectionError:
+		raise Exception("No Interweb access. Please check your network settings")
+
+def calculate_sha256(file_path):
+	hash = hashlib.sha256()
+	read_buffer = 1024 * 1024 * 5
+	current_data = 0
+
+	with open(file_path, "rb", buffering=read_buffer) as f:
+		while True:
+			if not pDialog.iscanceled():
+				data = f.read(read_buffer)
+				hash.update(data)
+				current_data += len(data)
+				if not data:
+					break
+			else:
+				break
+	
+	return hash.hexdigest()
+
 def dlc_hashing(titleid):
-	hddkeybin = os.path.join(working_directory,'hdd-key.bin')
-	hddkeytxt = 'Special://xbmc/system/hdd-key.txt'
+	hddkeybin = os.path.join(working_directory, "hdd-key.bin")
+	hddkeytxt = "Special://xbmc/system/hdd-key.txt"
 	filecount = 0
 	readhddkey = 1
 	countlist = 0
 	dprogress.update(0)
-	xbmc.executebuiltin('Skin.SetString(DisableProgress,Disabled)')
-	
+	executebuiltin(
+		"Skin.SetString(DisableProgress,Disabled)"
+	)
+
 	# Check for a txt/bin file with the hdd key or use the eeprom.
 	if os.path.isfile(hddkeybin):
 		readhddkey = 0
 		hddkey = None
-		
+
 		with open(hddkeybin) as hex:
 			hddkey = hex.readline()
-		
+
 		if len(hddkey) == 32:
+			dprogress.create(
+				"DLC INSTALLER",
+				"Loading.",
+				""
+			)
 			hddkey = bytearray.fromhex(hddkey)
 		else:
-			dprogress.create("DLC SIGNER","Loading.","")
+			dprogress.create(
+				"HDDKEY PROCESSING",
+				"Loading",
+				""
+			)
 			readhddkey = 1
-	
+
 	while readhddkey:
-		key = xbmc.getInfoLabel('system.hddlockkey')
-		
+		key = getInfoLabel("system.hddlockkey")
+
 		if len(key.strip()) < 32:
-			dprogress.update(0,"Loading",".")
-			time.sleep(.2)
-			dprogress.update(0,"Loading","..")
-			time.sleep(.2)
-			dprogress.update(0,"Loading","...")
+			for _ in range(3):
+				dprogress.update(
+					0,
+					"Saving HDD Key",
+					"."
+				)
+				time.sleep(0.5)
+				dprogress.update(
+					0,
+					"Saving HDD Key",
+					".."
+				)
+				time.sleep(0.5)
+				dprogress.update(
+					0,
+					"Saving HDD Key",
+					"..."
+				)
+				time.sleep(0.5)
 		else:
-			with open(hddkeybin,"w") as txteeprom: txteeprom.write(key.strip())
-			hddkey = key.strip().decode('hex')
+			with open(hddkeybin, "w") as txteeprom:
+				txteeprom.write(key.strip())
+			hddkey = key.strip().decode("hex")
 			break
-	
-	dprogress.update(0,"Signing ContextMeta.xbx","This can take some time, please be patient.","")
-	xbmc.executebuiltin('Skin.SetString(DisableProgress,)')
-	
-	for folder,subfolder,file in os.walk('E:/TDATA/'+titleid):
+
+	dprogress.update(
+		0,
+		"Signing ContextMeta.xbx",
+		"This may take some time, please be patient."
+	)
+	executebuiltin(
+		"Skin.SetString(DisableProgress,)"
+	)
+
+	for folder, subfolder, file in os.walk("E:/TDATA/" + titleid):
 		filecount += len(file)
-	
-	for folder,subfolder,file in os.walk('E:/TDATA/'+titleid):
-		
+
+	for folder, subfolder, file in os.walk("E:/TDATA/" + titleid):
+
 		for xbxfile in file:
 			xbxfile = xbxfile.lower()
-			
+
 			if xbxfile == "contentmeta.xbx":
-				contextmetafile = os.path.join(folder,xbxfile)
+				contextmetafile = os.path.join(folder, xbxfile)
 				filesize = os.path.getsize(contextmetafile)
-				readxbx = open(contextmetafile,'r+b')
+				readxbx = open(contextmetafile, "r+b")
 				# All DLC installed to HDD must have this byte set to 0x01. Must be done before signing to calculate the correct signature.
 				# Credit to sinikal6969 for letting me know about this.
-				readxbx.seek(32,0)
-				readxbx.write(bytearray.fromhex("01").decode())							
-				readxbx.seek(0,0)
+				readxbx.seek(32, 0)
+				readxbx.write(bytearray.fromhex("01").decode())
+				readxbx.seek(0, 0)
 				filedata = readxbx.read(filesize)
 				# Check the header fields.
-				headersize = struct.unpack('I',filedata[24:28])[0]
+				headersize = struct.unpack("I", filedata[24:28])[0]
 				titleid = filedata[36:40]
 				# Compute the HMAC key using the title id and HDD key.
-				hmacKey = hmac.new(hddkey,titleid,hashlibsha1).digest()[0:20]
+				hmacKey = new(hddkey, titleid, hashlibsha1).digest()[0:20]
 				# Compute the content signature.
-				contentSignature = hmac.new(hmacKey,filedata[20:headersize],hashlibsha1).digest()[0:20]
-				readxbx.seek(0,0)
+				contentSignature = new(
+					hmacKey, filedata[20:headersize], hashlibsha1
+				).digest()[0:20]
+				readxbx.seek(0, 0)
 				readxbx.write(contentSignature)
 				countlist = countlist + 1
 				time.sleep(1)
-			
-			dprogress.update((countlist * 100) / filecount,"Signing ContextMeta.xbx","This can take some time, please be patient.")
+
+			dprogress.update(
+				(countlist * 100) / filecount,
+				"Signing ContextMeta.xbx",
+				"This may take some time, please be patient.",
+			)
 			countlist = countlist + 1
+
+
+def call_exception(Exception):
+	exception_type = type(error).__name__
+	exception_message = str(error)
+	stack_trace = traceback.format_exc().splitlines()
+
+	exceptionarray = []
+	exceptionarray.append(
+		"An error of type {} occurred. Arguments:\n{}\n".format(exception_type, exception_message)
+	)
+	exceptionarray.append("Stack trace:")
+	for line in stack_trace:
+		exceptionarray.append("\t" + line)
+
+	dialog.textviewer(
+		"ERROR",
+		"\n".join(exceptionarray)
+	)
 
 # Some variables Set outside the loop
 re_focus_download_button = "9000"
 
 try:
-	# Check for network/internet activity
-	socket.setdefaulttimeout(3.0)
-	socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(("8.8.8.8", 53))
-	xbmc.executebuiltin('Dialog.Close(1904,false)')
-	global httperrors
-	httperrors = None
-	global allowcancellation
-	allowcancellation = 0
-	global responsecode
-	global invalidlink
-	invalidlink = 0
-	extensions = [ 'zip' ]
-	download_path = 'X:/downloads/'
-	update_path = 'Z:/temp/'
-	udhashlibmd5 = hashlib.md5()
-	hashlibsha1 = hashlib.sha1
-	dlcmode = 0
-	xawinstal = 0
-	xmlinvalid = 0
-	urldinvalid = 0
-	valid_arguments = 1
-	
-	# args passed from xml
+	# Check for Insignia DNS + 0.0.0.0
+	if getInfoLabel('Network.DNS1Address') == "46.101.64.175" and getInfoLabel('Network.DNS2Address') == "0.0.0.0":
+		raise Exception("Insignia DNS detected. You have not set a secondary DNS.")
 	try:
-		defaulturl = sys.argv[1:][0]
-	except:
-		defaulturl == ""
-	
-	try:
-		filename = sys.argv[2:][0]
-	except:
-		filename == ""
-	
-	try:
-		zipsize = sys.argv[3:][0]
-	except:
-		zipsize == ""
-	
-	try:
-		zipsizecheck = sys.argv[4:][0]
-	except:
-		zipsizecheck == ""
-	
-	try:
-		install_path = sys.argv[5:][0]
-	except:
-		install_path = ""
-	
-	try:
-		mod_dlc_mode = sys.argv[6:][0]
-	except:
-		mod_dlc_mode = ""
-	
-	# Check consistency of args
-	if defaulturl == "":
-		valid_arguments = 0
-	
-	if filename == "":
-		valid_arguments = 0
-	
-	if zipsize == "":
-		valid_arguments = 0
-	
-	if zipsizecheck == "":
-		valid_arguments = 0
-	
-	# vars
-	if install_path == "Emulator_Folder_Path":
+		# Check for network/internet activity
+		internet_check()
+		executebuiltin(
+			'Dialog.Close(1904,false)'
+		)
+		global httperrors
+		httperrors = None
+		global allowcancellation
+		allowcancellation = 0
+		global responsecode
+		global invalidlink
+		invalidlink = 0
+		extensions = [ 'zip' ]
+		download_path = 'X:/downloads/'
+		update_path = 'Z:/temp/'
+		udhashlibmd5 = hashlib.md5()
+		hashlibsha1 = hashlib.sha1
+		rename_emus = ""
+		dlcmode = 0
+		skip = 0
+		xawinstal = 0
+		xmlinvalid = 0
+		urldinvalid = 0
 		
-		if xbmc.getCondVisibility('Skin.String(Custom_Emulator_Path)'):
-			install_path = xbmc.getInfoLabel('Skin.String(Custom_Emulator_Path)')
-		else:
-			install_path = ""
-	
-	if install_path == "Roms_Folder_Path":
+		# args passed from xml
+		defaulturl = sys.argv[1] if len(sys.argv) > 1 else ""
+		filename = sys.argv[2] if len(sys.argv) > 2 else ""
+		zipsize = sys.argv[3] if len(sys.argv) > 3 else ""
+		zipsizecheck = sys.argv[4] if len(sys.argv) > 4 else ""
+		install_path = sys.argv[5] if len(sys.argv) > 5 else ""
+		mod_dlc_mode = sys.argv[6] if len(sys.argv) > 6 else ""
 		
-		if xbmc.getCondVisibility('Skin.String(Custom_Roms_Path)'):
-			install_path	= xbmc.getInfoLabel('Skin.String(Custom_Roms_Path)')
-		else:
-			install_path = ""
-	
-	if install_path == "Media_Folder_Path":
+		valid_arguments = all([defaulturl, filename, zipsize, zipsizecheck])
 		
-		if xbmc.getCondVisibility('Skin.String(Custom_Media_Path)'):
-			install_path = xbmc.getInfoLabel('Skin.String(Custom_Media_Path)')
-		else:
-			install_path = ""
-	
-	if valid_arguments:
-		
-		# Download the check file to see if there is an update for the dashboards.
-		if filename == "URLDownloader.zip":
-			dash_update_check()
-		
-		# Download the check file to see if there is an update. Doing it this way speeds up the loading after you download 1 files and the files are kept until a reboot.
-		if not filename == "URLDownloader.zip":
-			update_check()
-		
-		# If hash doesn't match tell user to update,also if filename is the urldownloader.zip bypass.
-		if xmlinvalid == 0 and urldinvalid == 0 or filename == "URLDownloader.zip" or xbmc.getInfoLabel('Control.GetLabel(1)') == "Download Assets":
-			# This is here to fix compatibility issues with previous builds.
-			file = os.path.join(download_path,filename)
-			
-			# Truncate the filename to look cleaner and also get the titleid for DLC installation.
-			if install_path == "XAWI":
-				xawinstal = 1
-			
-			if mod_dlc_mode == "DLC":
-				titleid = filename[-12:]; titleid = titleid[:-4]
-				filename = filename[:-13]+'.zip'
-				dlcmode = 1
-			
-			if os.path.isfile(file):
-				os.remove(file)
-			
-			if filename == "URLDownloader.zip" or dialog.yesno("DOWNLOAD","",filename+"[CR]Install size "+convert_size(float(zipsize))):
-				
-				if install_path == "":
-					install_path = dialog.browse(3,"Select destination folder",'files','')
-					
-					if mod_dlc_mode == "MOD" and not install_path == "" and not os.path.isfile(os.path.join(install_path,'default.xbe')):
-						dialog.ok("ERROR","Cant find a default.xbe","Did you select the proper folder?")
-						install_path = 0							
+		# vars
+		if install_path == "Emulator_Folder_Path":
 
-				if xawinstal: # If Xbox Artwork Installer Files process it
-					if os.path.isfile('E:\\UDATA\\09999993\\location.bin'):
-						with open('E:\\UDATA\\09999993\\location.bin','r') as input:
-							install_path = input.readline().strip()
-					else:
-						xawinstal = 2
+			if getCondVisibility('Skin.String(Custom_Emulator_Path)'):
+				install_path = getInfoLabel('Skin.String(Custom_Emulator_Path)')
+			else:
+				install_path = ""
+		
+		if install_path == "Roms_Folder_Path":
+			
+			if getCondVisibility('Skin.String(Custom_Roms_Path)'):
+				install_path	= getInfoLabel('Skin.String(Custom_Roms_Path)')
+			else:
+				install_path = ""
+		
+		if install_path == "Media_Folder_Path":
+			
+			if getCondVisibility('Skin.String(Custom_Media_Path)'):
+				install_path = getInfoLabel('Skin.String(Custom_Media_Path)')
+			else:
+				install_path = ""
+		
+		if valid_arguments:
+
+			# Create folders required so there is no errors
+			if not os.path.exists( download_path ):
+				os.makedirs(download_path)
+			if not os.path.exists( update_path ):
+				os.makedirs(update_path)
+
+			# Check file to see if there is an update for the dashboards.
+			if filename == "URLDownloader.zip":
+				dash_update_check()
+			else:
+				# Download the check file to see if there is an update. Doing it this way speeds up the loading after you download 1 files and the files are kept until a reboot.
+				try:
+					update_check()
+					executebuiltin(
+						'Skin.SetString(DisableCancel,)'
+					)
+					executebuiltin(
+						'Skin.SetString(DisableProgress,)'
+					)
+				except Exception as error:
+					executebuiltin(
+						'Dialog.Close(1902,false)'
+					)
+					call_exception(error)
+			
+			# If hash doesn't match tell user to update, also if filename is the urldownloader.zip bypass.
+			if xmlinvalid == 0 and urldinvalid == 0 or filename == "URLDownloader.zip" or getInfoLabel('Control.GetLabel(1)') == "Download Assets":
+				# This is here to fix compatibility issues with previous builds.
+				file = os.path.join(download_path,filename)
 				
-				if install_path:
-					
+				# Truncate the filename to look cleaner and also get the titleid for DLC installation.
+				if mod_dlc_mode == "DLC":
+					titleid = filename[-12:]; titleid = titleid[:-4]
+					filename = filename[:-13]+'.zip'
+					file = os.path.join(download_path,filename)
+					dlcmode = 1
+
+				if install_path == "XAWI":
+					xawinstal = 1
+				
+				if os.path.isfile(file):
+					os.remove(file)
+				
+				if filename == "URLDownloader.zip" or dialog.yesno('DOWNLOAD','','{}[CR]Install size {}'.format(filename,convert_size(float(zipsize))),'',xbmc.getLocalizedString(106),xbmc.getLocalizedString(107)):
+
 					try:
-						free_space_check = install_path # Check for free space
+						if install_path == "C:\\":
+							if os.path.isfile('C:\\xboxdash.xbe'):
+								# this is the sha256 hash of the softmod xboxdash.xbe
+								if calculate_sha256('C:\\xboxdash.xbe') == "3ae2f3eae3917e0130d1e1a5c8e1c5df207ea31703646a174d98f7be9a769495":
+									raise Exception("WARNING: POTENTIAL SOFTMOD FOUND")
 						
-						if free_space_check.startswith('Special:') or free_space_check.startswith('Q:'):
-							free_space_check = xbmc.translatePath('Special://root/')[:2]
+						if install_path == "":
+							if getInfoLabel('Skin.String(dashboard_name)').lower() == 'xbmc4gamers' and 'emulators' in getInfoLabel('Skin.String(downloader_thumb)').lower():
+								rename_emus = getInfoLabel('Skin.String(downloader_label)')
+							
+							install_path = dialog.browse(3,'Select destination folder','files','')
+							
+							if mod_dlc_mode == "MOD" and not install_path == "" and not os.path.isfile(os.path.join(install_path,'default.xbe')):
+								dialog.ok(
+									'ERROR',
+									'Can not find a default.xbe',
+									'Did you select the proper folder?'
+								)
+								install_path = 0
+
+						if xawinstal: # If Xbox Artwork Installer Files process it
+							if os.path.isfile('E:\\UDATA\\09999993\\location.bin'):
+								with open('E:\\UDATA\\09999993\\location.bin','r') as input:
+									install_path = input.readline().strip()
+									if not os.path.isfile(os.path.join(install_path,"default.xbe")):
+										install_path = "0"
+										xawinstal = 2
+							else:
+								xawinstal = 2
 						
-						partition_free_space = xbmc.getInfoLabel('System.Freespace('+free_space_check[:1]+')').replace(free_space_check[:2]+' ','').split(' ')[0]
-						
-						if int(partition_free_space)*1024*1024 > int(zipsizecheck)+(1024*1024*2):
+						if install_path:
 							
 							try:
-								clear_X()
-								download_url(defaulturl)
-								xbmc.executebuiltin('Skin.SetString(DisableCancel,Disabled)') # Disable the cancel button
+								free_space_check = install_path # Check for free space
 								
-								try:
-									extract_file(file)
-									os.remove(file)
-									
-									if dlcmode: # If DLC process the files
-										dlc_hashing(titleid)
-									xbmc.executebuiltin('Skin.SetString(DisableCancel,)') # Enable the cancel button								
-									
-									if filename == "XBMC-Emustation-update-files.zip" or filename == "XBMC-Emustation-test-build.zip" and os.path.isfile(xbmc.translatePath('Special://xbmc/updater/default.xbe')):
-										dprogress.close()
-										
-										if dialog.yesno("QUESTION","","Update the built-in emulators?[CR]This is optional and not required."):
-											with open(os.path.join(working_directory,'skip_emus.bin'), 'w') as tmp: tmp.write('')
-										
-										xbmc.executebuiltin('RunXBE(' + xbmc.translatePath('Special://xbmc/updater/default.xbe') + ')')
-									
-									elif filename == "XBMC4Gamers-update-files.zip" or filename == "XBMC4Gamers-test-build.zip" and os.path.isfile(xbmc.translatePath('Special://xbmc/updater/default.xbe')):
-										xbmc.executebuiltin('RunXBE(' + xbmc.translatePath('Special://xbmc/updater/default.xbe') + ')')
-									
-									elif filename == "Cache Formatter.zip" and os.path.isfile(xbmc.translatePath('Special://xbmc/Cache Formatter/default.xbe')):
-										xbmc.executebuiltin('RunXBE(' + xbmc.translatePath('Special://xbmc/Cache Formatter/default.xbe') + ')')
-									
-									elif filename == "URLDownloader.zip" and os.path.isdir(xbmc.translatePath('Special://xbmc/system/scripts/tmp/urldownloader')):
-										xbmc.executebuiltin('RunScript(' + xbmc.translatePath('Special://xbmc/system/scripts/autoexec.py') + ')')
-									
-									else:
-										dprogress.close()
-										dialog.ok("SUCCESS","",filename.replace('.zip','') + " Installed")
-										xbmc.executebuiltin('Dialog.Close(1902,false)')
+								if free_space_check.startswith('Special:') or free_space_check.startswith('Q:'):
+									free_space_check = translatePath('Special://root/')[:2]
 								
-								except Exception as error:
-									traceback.print_exc()
-									dprogress.close()
-									dialog.ok("ERROR","Issue getting file.","Google Drive could be down.","Please try again later.")
+								partition_free_space = getInfoLabel('System.Freespace({})'.format(free_space_check[:1])).replace(free_space_check[:2]+' ','').split(' ')[0]
+								
+								if int(partition_free_space)*1024*1024 > int(zipsizecheck)+(1024*1024*2):
+									
+									try:
+										clear_X()
+										download_url(defaulturl)
+										executebuiltin(
+											'Skin.SetString(DisableCancel,Disabled)'
+										) # Disable the cancel button
+										
+										try:
+											extract_file(file,rename_emus)
+											os.remove(file)
+											
+											if dlcmode: # If DLC process the files
+												dlc_hashing(titleid)
+											
+											executebuiltin(
+												'Skin.SetString(DisableCancel,)'
+											) # Enable the cancel button								
+											
+											check_filename = filename.lower()
+											
+											if check_filename == "xbox artwork installer.zip" or check_filename == "xbox artwork installer online.zip":
+												if not os.path.isdir('E:\\UDATA\\09999993'):
+													os.makedirs('E:\\UDATA\\09999993')
+												with open('E:\\UDATA\\09999993\\location.bin','w') as input:
+													input.write(install_path)
+											
+											if check_filename == "xbmc-emustation-update-files.zip" or check_filename == "xbmc-emustation-test-build.zip" and os.path.isfile(translatePath('Special://xbmc/updater/default.xbe')):
+												dprogress.close()
+												
+												if dialog.yesno(
+													'QUESTION',
+													'',
+													'Update the built-in emulators?[CR]This is optional and not required.',
+													'',
+													xbmc.getLocalizedString(106),
+													xbmc.getLocalizedString(107)
+												):
+													with open(os.path.join(working_directory,'skip_emus.bin'), 'w') as tmp: tmp.write('')
+												
+												executebuiltin(
+													'RunXBE({})'.format(translatePath('Special://xbmc/updater/default.xbe'))
+												)
+											
+											elif check_filename == "xbmc4gamers-update-files.zip" or check_filename == "xbmc4gamers-test-build.zip" and os.path.isfile(translatePath('Special://xbmc/updater/default.xbe')):
+												executebuiltin(
+													'RunXBE({})'.format(translatePath('Special://xbmc/updater/default.xbe'))
+												)
+											
+											elif check_filename == "cache formatter.zip" and os.path.isfile(translatePath('Special://xbmc/Cache Formatter/default.xbe')):
+												executebuiltin(
+													'RunXBE({})'.format(translatePath('Special://xbmc/Cache Formatter/default.xbe'))
+												)
+											
+											elif check_filename == "urldownloader.zip" and os.path.isdir(translatePath('Special://xbmc/system/scripts/tmp/urldownloader')):
+												executebuiltin(
+													'RunScript({})'.format(translatePath('Special://xbmc/system/scripts/autoexec.py'))
+												)
+
+											else:
+												dprogress.close()
+												executebuiltin(
+													'Dialog.Close(1902,false)'
+												)
+												dialog.ok(
+													'SUCCESS',
+													'',
+													filename.replace('.zip','') + ' Installed'
+												)
+										
+										except Exception as error:
+											dprogress.close()
+											call_exception(error)
+									
+									except Exception as error:
+										executebuiltin(
+											'Dialog.Close(1902,false)'
+										)
+										traceback.print_exc()
+										
+										if allowcancellation == 1:
+											dprogress.close()
+											dialog.ok(
+												'DOWNLOADER',
+												'',
+												'You cancelled the download of',
+												filename.replace('.zip','')
+											)
+										
+										elif invalidlink == 1:
+											dprogress.close()
+											dialog.ok(
+												'4xx: Client Error',
+												str(responsecode),
+												'File: '+filename,
+												'Try again later.'
+											)
+										
+										elif invalidlink == 2:
+											dprogress.close()
+											dialog.ok(
+												'5xx: Server Error',
+												str(responsecode),'File: '+filename,
+												'This is a Server issue let me know ASAP.'
+											)
+										
+										else:
+											call_exception(error)
+								else:
+									dialog.ok(
+										'ERROR',
+										'',
+										'Insufficient space on '+free_space_check
+									)
 							
 							except Exception as error:
-								traceback.print_exc()
+								call_exception(error)
 								
-								if allowcancellation == 1:
+								if xawinstal == 2:
 									dprogress.close()
-									dialog.ok("URLDOWNLOADER","You cancelled the download of",filename.replace('.zip',''))
-								
-								elif invalidlink == 1:
-									dprogress.close()
-									dialog.ok("4xx: Client Error",str(responsecode),"File: "+filename)
-								
-								elif invalidlink == 2:
-									dprogress.close()
-									dialog.ok("5xx: Server Error",str(responsecode),"This is googles fault.","File: "+filename)
-								
-								else:
-									dprogress.close()
-									dialog.ok("ERROR","Damn something went wrong.","Local network issue, using Insignia DNS","without a secondary DNS set?")
-								xbmc.executebuiltin('Dialog.Close(1902,false)')
-						else:
-							dialog.ok("ERROR","","Insufficient space on "+free_space_check)
-					
-					except Exception as error:
-						traceback.print_exc()
+									executebuiltin(
+										'Dialog.Close(1902,false)'
+									)
+									dialog.ok(
+										'UH-OH',
+										'',
+										'Please download and/or run[CR]The Xbox Artwork installer at least once.',
+										''
+									)
 						
-						if xawinstal == 2:
-							dprogress.close()
-							dialog.ok('UH-OH','','Please download and run[CR]The Xbox Artwork installer at least once.','')
-							xbmc.executebuiltin('Dialog.Close(1902,false)')
+						else:
+							pass
 				
+					except Exception as error:
+						dialog.ok(
+							'WARNING: POTENTIAL SOFTMOD FOUND',
+							"Installing to the C:\\ drive could potentially break your softmod.[CR]If you're running without a shadowC partition or a BFM BIOS,[CR]you will need to do a manual install."
+						)
+						dialog.ok(
+							'WARNING: POTENTIAL SOFTMOD FOUND',
+							"If this is a false positive, please fix or clean your C partition.[CR]There are files on there that are used for softmods.[CR][CR]Proceed with caution."
+						)
+					
 				else:
 					pass
 			
 			else:
-				pass
+				if xmlinvalid == 1 or urldinvalid == 1:
+					dialog.ok(
+						'UPDATE AVAILABLE',
+						'Press (A) to update the',
+						'[B]URLDownloader[/B]'
+					)
+					executebuiltin(
+						'ActivateWindow(1904)'
+					)
+					executebuiltin(
+						'RunScript(Special://urldownloader/default.py,{},URLDownloader.zip,2247055,2822733,Q:/system/scripts/)'.format(str(URLDownloader_Zip))
+					)
 		
 		else:
-			dialog.ok("UPDATE AVAILABLE","Press (A) to update the","[B]URLDownloader[/B]")
-			xbmc.executebuiltin('ActivateWindow(1904)')
-			xbmc.executebuiltin('RunScript(Special://urldownloader/default.py,'+str(URLDownloader_Zip)+',URLDownloader.zip,2247055,2822733,Q:/system/scripts/)')
-	
-	else:
-		dialog.ok("ERROR","Corrupt _Script_URLDownloader.xml","Update URLDownloader")
-		xbmc.executebuiltin('Dialog.Close(1902,false)')
-	
-	try: # Used to zero the progress bar after everything is done
-		dprogress.update(0)
-	except:
-		pass
-	
-	xbmc.executebuiltin('SetFocus('+re_focus_download_button+')') # Set focus to download button
+			dialog.ok(
+				'ERROR',
+				'Corrupt _Script_URLDownloader.xml',
+				'Update URLDownloader'
+			)
+			executebuiltin(
+				'Dialog.Close(1902,false)'
+			)
+		
+		try: # Used to zero the progress bar after everything is done
+			dprogress.update(0)
+		except:
+			pass
+		
+		executebuiltin('SetFocus({})'.format(re_focus_download_button)) # Set focus to download button
 
-except socket.error as ex:
-	xbmc.executebuiltin('Dialog.Close(1904,false)')
-	dialog.ok("ERROR","No Interweb access","Please check your network settings")
-	xbmc.executebuiltin('SetFocus('+re_focus_download_button+')')
+	except Exception as ex:
+		executebuiltin(
+			'Dialog.Close(1904,false)'
+		)
+		dialog.ok(
+			'ERROR: NETWORK CHECK FAILED',
+			'No Internet access',
+			'Please check your network settings'
+		)
+		executebuiltin(
+			'SetFocus({})'.format(re_focus_download_button)
+		)
+
+except Exception as ex:
+	executebuiltin(
+		'Dialog.Close(1904,false)'
+	)
+	dialog.ok(
+		'ERROR: INSIGNIA DNS DETECTED',
+		'You have not set a secondary DNS.',
+		'The downloader will not function without it set.'
+	)
+	executebuiltin(
+		'SetFocus({})'.format(re_focus_download_button)
+	)

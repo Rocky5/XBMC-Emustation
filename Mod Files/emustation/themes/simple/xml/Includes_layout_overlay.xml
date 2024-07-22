@@ -1,176 +1,176 @@
 <window type="dialog" id="1120">
-		<defaultcontrol always="true">9009</defaultcontrol>
-		<controls>
-				<control type="group" id="jump section">
-						<control type="button" id="9009">
-								<onfocus>Stop</onfocus>
-								<onfocus>Setfocus(9000)</onfocus>
-								<visible>Player.HasVideo</visible>
-						</control>
-						<control type="button" id="9009">
-								<onfocus>Setfocus(9000)</onfocus>
-								<visible>!Player.HasVideo</visible>
-						</control>
-						<top>90</top>
-						<!-- Normal -->
-						<control type="group">
-								<visible>!Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
-								<control type="image">
-										<description>background image</description>
-										<left>165</left>
-										<top>10</top>
-										<width>950</width>
-										<height>530</height>
-										<texture>menu_back_shadow.png</texture>
-								</control>
-								<control type="image">
-										<description>background image</description>
-										<left>320</left>
-										<top>100</top>
-										<width>640</width>
-										<height>350</height>
-										<colordiffuse>menu_back_image</colordiffuse>
-										<texture border="20,20,20,20">menu_back.png</texture>
-								</control>
-						</control>
-						<!-- kiosk mode -->
-						<control type="group">
-								<visible>Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
-								<control type="image">
-										<description>background image</description>
-										<left>165</left>
-										<top>60</top>
-										<width>950</width>
-										<height>280</height>
-										<texture>menu_back_shadow.png</texture>
-								</control>
-								<control type="image">
-										<description>background image</description>
-										<left>320</left>
-										<top>100</top>
-										<width>640</width>
-										<height>200</height>
-										<colordiffuse>menu_back_image</colordiffuse>
-										<texture border="20,20,20,20">menu_back.png</texture>
-								</control>
-						</control>
-						<control type="label">
-								<description>heading label</description>
-								<left>320</left>
-								<top>130</top>
-								<width>640</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_50</font>
-								<label>[UPPERCASE]$LOCALIZE[30911][/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<control type="grouplist" id="9000">
-								<left>320</left>
-								<top>201</top>
-								<width>640</width>
-								<height>50</height>
-								<onleft>9000</onleft>
-								<onright>9000</onright>
-								<onup>9003</onup>
-								<ondown>9001</ondown>
-								<itemgap>-1</itemgap>
-								<scrolltime>0</scrolltime>
-								<orientation>horizontal</orientation>
-								<!-- jumpcode -->
-						</control>
-						<control type="grouplist" id="9001">
-								<left>320</left>
-								<top>250</top>
-								<width>640</width>
-								<height>200</height>
-								<onleft>-</onleft>
-								<onright>-</onright>
-								<onup>9000</onup>
-								<ondown>9002</ondown>
-								<itemgap>-1</itemgap>
-								<scrolltime>0</scrolltime>
-								<orientation>vertical</orientation>
-								<control type="button" id="8050">
-										<label>[UPPERCASE]$LOCALIZE[31400][/UPPERCASE]</label>
-										<include>MenuButtonCommonValues</include>
-										<onclick>Dialog.Close(1120)</onclick>
-										<onclick>SetFocus(9200)</onclick>
-										<onclick>RunScript(special://emustation_scripts/generate_favourites.py)</onclick>
-										<visible>!Skin.HasSetting(KioskMode)</visible>
-								</control>
-						</control>
-						<control type="grouplist" id="9002">
-								<left>320</left>
-								<top>299</top>
-								<width>640</width>
-								<height>200</height>
-								<onleft>9002</onleft>
-								<onright>9002</onright>
-								<onup>9001</onup>
-								<ondown>9003</ondown>
-								<itemgap>-1</itemgap>
-								<scrolltime>0</scrolltime>
-								<orientation>horizontal</orientation>
-								<visible>!Skin.HasSetting(KioskMode)</visible>
-								<control type="button" id="8040">
-										<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
-										<label2>&lt; [UPPERCASE]2d[/UPPERCASE] &gt;</label2>
-										<include>MenuButtonCommonValues</include>
-										<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart)</onfocus>
-										<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart)</visible>
-								</control>
-								<visible>!StringCompare(Skin.String(emuname),xbox) | !StringCompare(Skin.String(emuname),ports)</visible>
-								<control type="button" id="8041">
-										<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
-										<label2>&lt; [UPPERCASE]3d[/UPPERCASE] &gt;</label2>
-										<include>MenuButtonCommonValues</include>
-										<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart3d)</onfocus>
-										<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart3d)</visible>
-								</control>
-								<control type="button" id="8042">
-										<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
-										<label2>&lt; [UPPERCASE]logos[/UPPERCASE] &gt;</label2>
-										<include>MenuButtonCommonValues</include>
-										<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,logo)</onfocus>
-										<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),logo)</visible>
-								</control>
-								<control type="button" id="8043">
-										<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
-										<label2>&lt; [UPPERCASE]mix[/UPPERCASE] &gt;</label2>
-										<include>MenuButtonCommonValues</include>
-										<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,mix)</onfocus>
-										<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),mix)</visible>
-								</control>
-								<control type="button" id="8044">
-										<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
-										<label2>&lt; [UPPERCASE]screenshots[/UPPERCASE] &gt;</label2>
-										<include>MenuButtonCommonValues</include>
-										<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,screenshots)</onfocus>
-										<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),screenshots)</visible>
-								</control>
-						</control>
-						<control type="grouplist" id="9003">
-								<left>320</left>
-								<top>348</top>
-								<width>640</width>
-								<height>200</height>
-								<onleft>-</onleft>
-								<onright>-</onright>
-								<onup>9002</onup>
-								<ondown>9000</ondown>
-								<itemgap>-1</itemgap>
-								<scrolltime>0</scrolltime>
-								<orientation>vertical</orientation>
-								<visible>!Skin.HasSetting(KioskMode) + [Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)]</visible>
-								<control type="radiobutton" id="8060">
-										<label>[UPPERCASE]$LOCALIZE[31403][/UPPERCASE]</label>
-										<include>MenuButtonCommonAltValues</include>
-										<onclick>Skin.ToggleSetting(' + MenuLabel + 'fanart)</onclick>
-										<selected>Skin.HasSetting(' + MenuLabel + 'fanart)</selected>
-								</control>
-						</control>
+	<defaultcontrol always="true">9009</defaultcontrol>
+	<controls>
+		<control type="group" id="jump section">
+			<control type="button" id="9009">
+				<onfocus>Stop</onfocus>
+				<onfocus>Setfocus(9000)</onfocus>
+				<visible>Player.HasVideo</visible>
+			</control>
+			<control type="button" id="9009">
+				<onfocus>Setfocus(9000)</onfocus>
+				<visible>!Player.HasVideo</visible>
+			</control>
+			<top>90</top>
+			<!-- Normal -->
+			<control type="group">
+				<visible>!Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
+				<control type="image">
+					<description>background image</description>
+					<left>165</left>
+					<top>10</top>
+					<width>950</width>
+					<height>530</height>
+					<texture>menu_back_shadow.png</texture>
 				</control>
-		</controls>
+				<control type="image">
+					<description>background image</description>
+					<left>320</left>
+					<top>100</top>
+					<width>640</width>
+					<height>350</height>
+					<colordiffuse>menu_back_image</colordiffuse>
+					<texture border="20,20,20,20">menu_back.png</texture>
+				</control>
+			</control>
+			<!-- kiosk mode -->
+			<control type="group">
+				<visible>Skin.HasSetting(KioskMode) + [!Skin.HasSetting(synopsislayout) | !Skin.HasSetting(videolayout)]</visible>
+				<control type="image">
+					<description>background image</description>
+					<left>165</left>
+					<top>60</top>
+					<width>950</width>
+					<height>280</height>
+					<texture>menu_back_shadow.png</texture>
+				</control>
+				<control type="image">
+					<description>background image</description>
+					<left>320</left>
+					<top>100</top>
+					<width>640</width>
+					<height>200</height>
+					<colordiffuse>menu_back_image</colordiffuse>
+					<texture border="20,20,20,20">menu_back.png</texture>
+				</control>
+			</control>
+			<control type="label">
+				<description>heading label</description>
+				<left>320</left>
+				<top>130</top>
+				<width>640</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_50</font>
+				<label>[UPPERCASE]$LOCALIZE[30911][/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="grouplist" id="9000">
+				<left>320</left>
+				<top>201</top>
+				<width>640</width>
+				<height>50</height>
+				<onleft>9000</onleft>
+				<onright>9000</onright>
+				<onup>9003</onup>
+				<ondown>9001</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>horizontal</orientation>
+				<!-- jumpcode -->
+			</control>
+			<control type="grouplist" id="9001">
+				<left>320</left>
+				<top>250</top>
+				<width>640</width>
+				<height>200</height>
+				<onleft>-</onleft>
+				<onright>-</onright>
+				<onup>9000</onup>
+				<ondown>9002</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>vertical</orientation>
+				<control type="button" id="8050">
+					<label>[UPPERCASE]$LOCALIZE[31400][/UPPERCASE]</label>
+					<include>MenuButtonCommonValues</include>
+					<onclick>Dialog.Close(1120)</onclick>
+					<onclick>SetFocus(9200)</onclick>
+					<onclick>RunScript(special://emustation_scripts/generate_favourites.py)</onclick>
+					<visible>!Skin.HasSetting(KioskMode)</visible>
+				</control>
+			</control>
+			<control type="grouplist" id="9002">
+				<left>320</left>
+				<top>299</top>
+				<width>640</width>
+				<height>200</height>
+				<onleft>9002</onleft>
+				<onright>9002</onright>
+				<onup>9001</onup>
+				<ondown>9003</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>horizontal</orientation>
+				<visible>!Skin.HasSetting(KioskMode)</visible>
+				<control type="button" id="8040">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]2d[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart)</visible>
+				</control>
+				<visible>!StringCompare(Skin.String(emuname),xbox) | !StringCompare(Skin.String(emuname),ports)</visible>
+				<control type="button" id="8041">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]3d[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,boxart3d)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),boxart3d)</visible>
+				</control>
+				<control type="button" id="8042">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]logos[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,logo)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),logo)</visible>
+				</control>
+				<control type="button" id="8043">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]mix[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,mix)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),mix)</visible>
+				</control>
+				<control type="button" id="8044">
+					<label>[UPPERCASE]$LOCALIZE[31402][/UPPERCASE]</label>
+					<label2>&lt; [UPPERCASE]screenshots[/UPPERCASE] &gt;</label2>
+					<include>MenuButtonCommonValues</include>
+					<onfocus>Skin.SetString(' + MenuLabel + '_artworkfolder,screenshots)</onfocus>
+					<visible allowhiddenfocus="true">StringCompare(Skin.String(' + MenuLabel + '_artworkfolder),screenshots)</visible>
+				</control>
+			</control>
+			<control type="grouplist" id="9003">
+				<left>320</left>
+				<top>348</top>
+				<width>640</width>
+				<height>200</height>
+				<onleft>-</onleft>
+				<onright>-</onright>
+				<onup>9002</onup>
+				<ondown>9000</ondown>
+				<itemgap>-1</itemgap>
+				<scrolltime>0</scrolltime>
+				<orientation>vertical</orientation>
+				<visible>!Skin.HasSetting(KioskMode) + [Skin.HasSetting(synopsislayout) | Skin.HasSetting(videolayout)]</visible>
+				<control type="radiobutton" id="8060">
+					<label>[UPPERCASE]$LOCALIZE[31403][/UPPERCASE]</label>
+					<include>MenuButtonCommonAltValues</include>
+					<onclick>Skin.ToggleSetting(' + MenuLabel + 'fanart)</onclick>
+					<selected>Skin.HasSetting(' + MenuLabel + 'fanart)</selected>
+				</control>
+			</control>
+		</control>
+	</controls>
 </window>

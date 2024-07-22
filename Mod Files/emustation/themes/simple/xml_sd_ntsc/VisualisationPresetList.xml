@@ -1,119 +1,119 @@
 <window id="122">
-		<defaultcontrol>2</defaultcontrol>
-		<include>dialogeffect</include>
-		<controls>
-				<control type="image">
-						<description>background image</description>
+	<defaultcontrol>2</defaultcontrol>
+	<include>dialogeffect</include>
+	<controls>
+		<control type="image">
+			<description>background image</description>
+			<left>0</left>
+			<top>0</top>
+			<width>720</width>
+			<height>480</height>
+			<colordiffuse>E0000000</colordiffuse>
+			<texture>background diffuse.png</texture>
+		</control>
+		<control type="group">
+			<top>41.5</top>
+			<control type="image">
+				<description>background image</description>
+				<left>320</left>
+				<top>108</top>
+				<width>640</width>
+				<height>421</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20,20,20,20">menu_back.png</texture>
+			</control>
+			<control type="label" id="3">
+				<description>heading label</description>
+				<left>320</left>
+				<top>130</top>
+				<width>640</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_50</font>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="label" id="4">
+				<left>320</left>
+				<top>300</top>
+				<width>640</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_23</font>
+				<label>13389</label>
+				<textcolor>menu_nofocus_label</textcolor>
+			</control>
+			<control type="list" id="2">
+				<left>320</left>
+				<top>200</top>
+				<width>640</width>
+				<height>300</height>
+				<onleft>PageUp</onleft>
+				<onright>PageDown</onright>
+				<onup>2</onup>
+				<ondown>2</ondown>
+				<pagecontrol>61</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="50">
+					<control type="image">
 						<left>0</left>
 						<top>0</top>
-						<width>720</width>
-						<height>480</height>
-						<colordiffuse>E0000000</colordiffuse>
-						<texture>background diffuse.png</texture>
-				</control>
-				<control type="group">
-						<top>41.5</top>
-						<control type="image">
-								<description>background image</description>
-								<left>320</left>
-								<top>108</top>
-								<width>640</width>
-								<height>421</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20,20,20,20">menu_back.png</texture>
-						</control>
-						<control type="label" id="3">
-								<description>heading label</description>
-								<left>320</left>
-								<top>130</top>
-								<width>640</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_50</font>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<control type="label" id="4">
-								<left>320</left>
-								<top>300</top>
-								<width>640</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_23</font>
-								<label>13389</label>
-								<textcolor>menu_nofocus_label</textcolor>
-						</control>
-						<control type="list" id="2">
-								<left>320</left>
-								<top>200</top>
-								<width>640</width>
-								<height>300</height>
-								<onleft>PageUp</onleft>
-								<onright>PageDown</onright>
-								<onup>2</onup>
-								<ondown>2</ondown>
-								<pagecontrol>61</pagecontrol>
-								<scrolltime>200</scrolltime>
-								<itemlayout height="50">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>640</width>
-												<height>50</height>
-												<align>left</align>
-												<aligny>center</aligny>
-												<texture border="5">button-nofocus4.png</texture>
-										</control>
-										<control type="label">
-												<left>10</left>
-												<top>0</top>
-												<width>620</width>
-												<height>50</height>
-												<font>size_23</font>
-												<align>left</align>
-												<aligny>center</aligny>
-												<textcolor>menu_nofocus_label</textcolor>
-												<selectedcolor>blue</selectedcolor>
-												<info>ListItem.Label</info>
-										</control>
-								</itemlayout>
-								<focusedlayout height="50">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>640</width>
-												<height>50</height>
-												<align>left</align>
-												<aligny>center</aligny>
-												<texture border="5">button-focus4.png</texture>
-										</control>
-										<control type="label">
-												<left>10</left>
-												<top>0</top>
-												<width>620</width>
-												<height>50</height>
-												<font>size_23</font>
-												<align>left</align>
-												<aligny>center</aligny>
-												<textcolor>menu_focus_label</textcolor>
-												<selectedcolor>menu_focus_label</selectedcolor>
-												<info>ListItem.Label</info>
-										</control>
-								</focusedlayout>
-						</control>
-						<control type="label">
-								<description>number of files/pages in list text label</description>
-								<left>330r</left>
-								<top>173r</top>
-								<width>700</width>
-								<font>size_14</font>
-								<align>right</align>
-								<scroll>true</scroll>
-								<textcolor>menu_nofocus_label</textcolor>
-								<label>($INFO[Container(2).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(2).CurrentPage]/$INFO[Container(2).NumPages])</label>
-								<animation effect="slide" time="0" end="-75,0" condition="Control.IsVisible(61)">Conditional</animation>
-						</control>
-				</control>
-		</controls>
+						<width>640</width>
+						<height>50</height>
+						<align>left</align>
+						<aligny>center</aligny>
+						<texture border="5">button-nofocus4.png</texture>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>620</width>
+						<height>50</height>
+						<font>size_23</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>menu_nofocus_label</textcolor>
+						<selectedcolor>blue</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout height="50">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>640</width>
+						<height>50</height>
+						<align>left</align>
+						<aligny>center</aligny>
+						<texture border="5">button-focus4.png</texture>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>620</width>
+						<height>50</height>
+						<font>size_23</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>menu_focus_label</textcolor>
+						<selectedcolor>menu_focus_label</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="label">
+				<description>number of files/pages in list text label</description>
+				<left>330r</left>
+				<top>173r</top>
+				<width>700</width>
+				<font>size_14</font>
+				<align>right</align>
+				<scroll>true</scroll>
+				<textcolor>menu_nofocus_label</textcolor>
+				<label>($INFO[Container(2).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(2).CurrentPage]/$INFO[Container(2).NumPages])</label>
+				<animation effect="slide" time="0" end="-75,0" condition="Control.IsVisible(61)">Conditional</animation>
+			</control>
+		</control>
+	</controls>
 </window>

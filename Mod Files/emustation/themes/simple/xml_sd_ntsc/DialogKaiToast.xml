@@ -1,42 +1,42 @@
 <window id="107">
-		<include>ViewVisibleEffect</include>
-		<coordinates>
-				<system>1</system>
-				<left>470</left>
-				<top>10</top>
-		</coordinates>
-		<controls>
-				<control type="image">
-						<description>background image</description>
-						<left>0</left>
-						<top>0</top>
-						<width>220</width>
-						<height>70</height>
-						<colordiffuse>menu_back_image</colordiffuse>
-						<texture border="20,20,20,20">toast.png</texture>
-				</control>
-				<control type="label" id="401">
-						<description>Line 1 Label</description>
-						<left>10</left>
-						<top>15</top>
-						<width>200</width>
-						<height>20</height>
-						<font>size_18_bold</font>
-						<textcolor>menu_header_label</textcolor>
-						<align>center</align>
-						<aligny>center</aligny>
-						<scroll>true</scroll>
-				</control>
-				<control type="label" id="402">
-						<description>Line 2 Label</description>
-						<left>10</left>
-						<top>35</top>
-						<width>200</width>
-						<height>20</height>
-						<font>size_17</font>
-						<textcolor>menu_header_label</textcolor>
-						<align>center</align>
-						<aligny>center</aligny>
-				</control>
-		</controls>
+	<include>ViewVisibleEffect</include>
+	<coordinates>
+		<system>1</system>
+		<left>470</left>
+		<top>10</top>
+	</coordinates>
+	<controls>
+		<control type="image">
+			<description>background image</description>
+			<left>0</left>
+			<top>0</top>
+			<width>220</width>
+			<height>70</height>
+			<colordiffuse>menu_back_image</colordiffuse>
+			<texture border="20,20,20,20">toast.png</texture>
+		</control>
+		<control type="label" id="401">
+			<description>Line 1 Label</description>
+			<left>10</left>
+			<top>15</top>
+			<width>200</width>
+			<height>20</height>
+			<font>size_18_bold</font>
+			<textcolor>menu_header_label</textcolor>
+			<align>center</align>
+			<aligny>center</aligny>
+			<scroll>true</scroll>
+		</control>
+		<control type="label" id="402">
+			<description>Line 2 Label</description>
+			<left>10</left>
+			<top>35</top>
+			<width>200</width>
+			<height>20</height>
+			<font>size_17</font>
+			<textcolor>menu_header_label</textcolor>
+			<align>center</align>
+			<aligny>center</aligny>
+		</control>
+	</controls>
 </window>

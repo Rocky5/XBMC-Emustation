@@ -1,11 +1,11 @@
 <window id="104">
-		<defaultcontrol>1</defaultcontrol>
-		<include>dialogeffect</include>
-		<coordinates>
-				<system>1</system>
-				<left>860</left>
-				<top>0</top>
-		</coordinates>
-		<controls>
+	<defaultcontrol>1</defaultcontrol>
+	<include>dialogeffect</include>
+	<coordinates>
+		<system>1</system>
+		<left>860</left>
+		<top>0</top>
+	</coordinates>
+	<controls>
 		</controls>
 </window>

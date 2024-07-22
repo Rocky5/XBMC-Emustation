@@ -1,135 +1,135 @@
 <window id="101">
-		<defaultcontrol>10</defaultcontrol>
-		<coordinates>
-				<system>1</system>
-				<left>50</left>
-				<top>150</top>
-		</coordinates>
-		<controls>
-				<control type="image">
-						<description>background image</description>
-						<left>-50</left>
-						<top>-100</top>
-						<width>720</width>
-						<height>576</height>
-						<texture>black-back.png</texture>
+	<defaultcontrol>10</defaultcontrol>
+	<coordinates>
+		<system>1</system>
+		<left>50</left>
+		<top>150</top>
+	</coordinates>
+	<controls>
+		<control type="image">
+			<description>background image</description>
+			<left>-50</left>
+			<top>-100</top>
+			<width>720</width>
+			<height>576</height>
+			<texture>black-back.png</texture>
+		</control>
+		<control type="group">
+			<include condition="!Window.IsActive(1114) + !Window.IsActive(1901)">dialogeffect</include>
+			<control type="image">
+				<description>background image</description>
+				<left>0</left>
+				<top>0</top>
+				<width>620</width>
+				<height>250</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20">menu_back.png</texture>
+			</control>
+			<control type="image">
+				<description>background image</description>
+				<left>0</left>
+				<top>65</top>
+				<width>620</width>
+				<height>1</height>
+				<texture>separator_menu.png</texture>
+			</control>
+			<control type="image">
+				<description>background image</description>
+				<left>0</left>
+				<top>180</top>
+				<width>620</width>
+				<height>1</height>
+				<texture>separator_menu.png</texture>
+				<visible>false</visible>
+			</control>
+			<control type="label" id="1">
+				<description>heading label</description>
+				<left>0</left>
+				<top>20</top>
+				<width>0</width>
+				<height>0</height>
+				<font>-</font>
+				<visible>false</visible>
+			</control>
+			<control type="label">
+				<description>heading label</description>
+				<left>0</left>
+				<top>20</top>
+				<width>620</width>
+				<height>35</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_35</font>
+				<!-- <label>$INFO[Control.GetLabel(1)] $INFO[System.Progressbar,- ,%]</label> -->
+				<label>$INFO[Control.GetLabel(1)]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="group">
+				<animation effect="slide" start="0,0" end="0,15" time="0" condition="Window.IsActive(11114)">Conditional</animation>
+				<control type="label" id="2">
+					<description>dialog line 1</description>
+					<left>10</left>
+					<top>65</top>
+					<width>600</width>
+					<height>50</height>
+					<label>-</label>
+					<font>size_23</font>
+					<textcolor>menu_nofocus_label</textcolor>
+					<scroll>true</scroll>
+					<align>center</align>
+					<aligny>center</aligny>
 				</control>
-				<control type="group">
-						<include condition="!Window.IsActive(1114) + !Window.IsActive(1901)">dialogeffect</include>
-						<control type="image">
-								<description>background image</description>
-								<left>0</left>
-								<top>0</top>
-								<width>620</width>
-								<height>250</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20">menu_back.png</texture>
-						</control>
-						<control type="image">
-								<description>background image</description>
-								<left>0</left>
-								<top>65</top>
-								<width>620</width>
-								<height>1</height>
-								<texture>separator_menu.png</texture>
-						</control>
-						<control type="image">
-								<description>background image</description>
-								<left>0</left>
-								<top>180</top>
-								<width>620</width>
-								<height>1</height>
-								<texture>separator_menu.png</texture>
-								<visible>false</visible>
-						</control>
-						<control type="label" id="1">
-								<description>heading label</description>
-								<left>0</left>
-								<top>20</top>
-								<width>0</width>
-								<height>0</height>
-								<font>-</font>
-								<visible>false</visible>
-						</control>
-						<control type="label">
-								<description>heading label</description>
-								<left>0</left>
-								<top>20</top>
-								<width>620</width>
-								<height>35</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_35</font>
-								<!-- <label>$INFO[Control.GetLabel(1)] $INFO[System.Progressbar,- ,%]</label> -->
-								<label>$INFO[Control.GetLabel(1)]</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<control type="group">
-								<animation effect="slide" start="0,0" end="0,15" time="0" condition="Window.IsActive(11114)">Conditional</animation>
-								<control type="label" id="2">
-										<description>dialog line 1</description>
-										<left>10</left>
-										<top>65</top>
-										<width>600</width>
-										<height>50</height>
-										<label>-</label>
-										<font>size_23</font>
-										<textcolor>menu_nofocus_label</textcolor>
-										<scroll>true</scroll>
-										<align>center</align>
-										<aligny>center</aligny>
-								</control>
-								<control type="label" id="3">
-										<description>dialog line 2</description>
-										<left>10</left>
-										<top>100</top>
-										<width>600</width>
-										<height>50</height>
-										<label>-</label>
-										<font>size_23</font>
-										<textcolor>menu_nofocus_label</textcolor>
-										<scroll>true</scroll>
-										<align>center</align>
-										<aligny>center</aligny>
-								</control>
-						</control>
-						<control type="group">
-								<animation effect="slide" start="0,0" end="0,70" time="0" condition="Window.IsActive(11114)">Conditional</animation>
-								<control type="label" id="4">
-										<description>dialog line 3</description>
-										<left>10</left>
-										<top>135</top>
-										<width>600</width>
-										<height>50</height>
-										<label>-</label>
-										<font>size_23</font>
-										<textcolor>menu_nofocus_label</textcolor>
-										<align>center</align>
-										<aligny>center</aligny>
-										<haspath>yes</haspath>
-								</control>
-						</control>
-						<control type="progress">
-								<description>Progressbar</description>
-								<left>20</left>
-								<top>180</top>
-								<width>580</width>
-								<height>10</height>
-								<info>System.Progressbar</info>
-								<visible>IsEmpty(Skin.String(DisableProgress))</visible>
-						</control>
-						<control type="button" id="10">
-								<description>Cancel button</description>
-								<left>260</left>
-								<top>195</top>
-								<label>222</label>
-								<include>MenuYesNoButtonCommonValues</include>
-								<onleft>10</onleft>
-								<onright>10</onright>
-								<onup>10</onup>
-								<ondown>10</ondown>
-								<visible>!Window.IsActive(1111) + !Window.IsActive(1112) + !Window.IsActive(1113) + !Window.IsActive(11114) + !Window.IsActive(1115) + !Window.IsActive(1116) + !Window.IsActive(1117) + IsEmpty(Skin.String(DisableCancel))</visible>
-						</control>
+				<control type="label" id="3">
+					<description>dialog line 2</description>
+					<left>10</left>
+					<top>100</top>
+					<width>600</width>
+					<height>50</height>
+					<label>-</label>
+					<font>size_23</font>
+					<textcolor>menu_nofocus_label</textcolor>
+					<scroll>true</scroll>
+					<align>center</align>
+					<aligny>center</aligny>
 				</control>
-		</controls>
+			</control>
+			<control type="group">
+				<animation effect="slide" start="0,0" end="0,70" time="0" condition="Window.IsActive(11114)">Conditional</animation>
+				<control type="label" id="4">
+					<description>dialog line 3</description>
+					<left>10</left>
+					<top>135</top>
+					<width>600</width>
+					<height>50</height>
+					<label>-</label>
+					<font>size_23</font>
+					<textcolor>menu_nofocus_label</textcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+					<haspath>yes</haspath>
+				</control>
+			</control>
+			<control type="progress">
+				<description>Progressbar</description>
+				<left>20</left>
+				<top>180</top>
+				<width>580</width>
+				<height>10</height>
+				<info>System.Progressbar</info>
+				<visible>IsEmpty(Skin.String(DisableProgress))</visible>
+			</control>
+			<control type="button" id="10">
+				<description>Cancel button</description>
+				<left>260</left>
+				<top>195</top>
+				<label>222</label>
+				<include>MenuYesNoButtonCommonValues</include>
+				<onleft>10</onleft>
+				<onright>10</onright>
+				<onup>10</onup>
+				<ondown>10</ondown>
+				<visible>!Window.IsActive(1111) + !Window.IsActive(1112) + !Window.IsActive(1113) + !Window.IsActive(11114) + !Window.IsActive(1115) + !Window.IsActive(1116) + !Window.IsActive(1117) + IsEmpty(Skin.String(DisableCancel))</visible>
+			</control>
+		</control>
+	</controls>
 </window>

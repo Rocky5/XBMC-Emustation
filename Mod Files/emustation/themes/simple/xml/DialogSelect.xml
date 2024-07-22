@@ -1,198 +1,198 @@
 <window type="dialog" id="2000">
-		<defaultcontrol always="true">3</defaultcontrol>
-		<include>dialogeffect</include>
-		<controls>
-				<control type="group">
-						<!-- Image Preview -->
-						<left>290</left>
-						<top>17</top>
-						<visible>Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)</visible>
-						<control type="image">
-								<description>background image</description>
-								<left>320</left>
-								<top>108</top>
-								<width>640</width>
-								<height>470</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20,20,20,20">menu_back.png</texture>
-						</control>
-						<control type="label">
-								<description>heading label</description>
-								<left>400</left>
-								<top>130</top>
-								<width>540</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_50</font>
-								<label>[UPPERCASE]preview[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<control type="image">
-								<description>Current Icon image</description>
-								<left>400</left>
-								<top>90</top>
-								<width>540</width>
-								<height>510</height>
-								<aspectratio>keep</aspectratio>
-								<texture background="true">Special://skin/extras/urldownloader themes/previews/$INFO[Container(3).ListItem.Label].jpg</texture>
-								<aspectratio>keep</aspectratio>
-								<bordertexture border="5">white-back.png</bordertexture>
-								<bordersize>1</bordersize>
-								<fadetime>ThumbCrossfadeTime</fadetime>
-								<visible>Window.IsVisible(1901)</visible>
-						</control>
-						<control type="image">
-								<description>Current Icon image</description>
-								<left>400</left>
-								<top>90</top>
-								<width>540</width>
-								<height>510</height>
-								<aspectratio>keep</aspectratio>
-								<texture background="true">Special://themes_root/$INFO[Container(3).ListItem.Label]/preview.jpg</texture>
-								<aspectratio>keep</aspectratio>
-								<bordertexture border="5">white-back.png</bordertexture>
-								<bordersize>1</bordersize>
-								<fadetime>ThumbCrossfadeTime</fadetime>
-								<visible>Window.IsVisible(1300)</visible>
-						</control>
-						<control type="image">
-								<description>Current Icon image</description>
-								<left>400</left>
-								<top>90</top>
-								<width>540</width>
-								<height>510</height>
-								<aspectratio>keep</aspectratio>
-								<texture background="true">Special://themes_root/$INFO[Skin.CurrentTheme]/colours/$INFO[Container(3).ListItem.Label].jpg</texture>
-								<aspectratio>keep</aspectratio>
-								<bordertexture border="5">white-back.png</bordertexture>
-								<bordersize>1</bordersize>
-								<fadetime>ThumbCrossfadeTime</fadetime>
-								<visible>Window.IsVisible(1300)</visible>
-						</control>
-				</control>
-				<control type="group">
-						<!-- Browser pane -->
-						<animation effect="slide" start="0,0" end="-290,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
-						<top>17</top>
-						<control type="image">
-								<description>background image</description>
-								<left>320</left>
-								<top>108</top>
-								<width>640</width>
-								<height>470</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20,20,20,20">menu_back.png</texture>
-						</control>
-						<control type="label" id="1">
-								<description>heading label</description>
-								<left>320</left>
-								<top>130</top>
-								<width>640</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_50</font>
-								<label>[UPPERCASE]13406[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<control type="list" id="3">
-								<left>310</left>
-								<top>200</top>
-								<width>640</width>
-								<height>295</height>
-								<onup>3</onup>
-								<ondown>3</ondown>
-								<onleft>5</onleft>
-								<onright>5</onright>
-								<pagecontrol>61</pagecontrol>
-								<scrolltime>200</scrolltime>
-								<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(61)">Conditional</animation>
-								<itemlayout width="640" height="49">
-										<control type="image">
-												<width>640</width>
-												<height>50</height>
-												<colordiffuse>menu_focus_back</colordiffuse>
-												<texture>button-nofocus4.png</texture>
-										</control>
-										<control type="label">
-												<left>10</left>
-												<top>0</top>
-												<width>640</width>
-												<height>50</height>
-												<align>left</align>
-												<aligny>center</aligny>
-												<font>size_23</font>
-												<textcolor>menu_header_label</textcolor>
-												<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
-										</control>
-								</itemlayout>
-								<focusedlayout width="640" height="49">
-										<control type="image">
-												<width>640</width>
-												<height>50</height>
-												<colordiffuse>menu_focus_back</colordiffuse>
-												<texture>button-nofocus4.png</texture>
-												<visible>!Control.HasFocus(3)</visible>
-										</control>
-										<control type="image">
-												<width>640</width>
-												<height>50</height>
-												<colordiffuse>menu_focus_back</colordiffuse>
-												<texture>button-focus4.png</texture>
-												<visible>Control.HasFocus(3)</visible>
-										</control>
-										<control type="label">
-												<left>10</left>
-												<top>0</top>
-												<width>640</width>
-												<height>50</height>
-												<align>left</align>
-												<aligny>center</aligny>
-												<font>size_23</font>
-												<textcolor>menu_focus_label</textcolor>
-												<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
-										</control>
-								</focusedlayout>
-						</control>
-						<control type="button" id="5">
-								<description>OK button</description>
-								<left>590</left>
-								<top>510</top>
-								<label>186</label>
-								<include>MenuYesNoButtonCommonValues</include>
-								<onleft>3</onleft>
-								<onright>3</onright>
-								<onup>3</onup>
-								<ondown>3</ondown>
-						</control>
-				</control>
-				<control type="group">
-						<animation effect="slide" start="0,0" end="-290,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
-						<control type="image">
-								<left>360r</left>
-								<top>195</top>
-								<width>22</width>
-								<height>22</height>
-								<texture>scroll-up.png</texture>
-								<colordiffuse>menu_header_label</colordiffuse>
-								<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
-										<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000" />
-										<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500" />
-								</animation>
-						</control>
-						<control type="image">
-								<left>360r</left>
-								<top>208r</top>
-								<width>22</width>
-								<height>22</height>
-								<texture>scroll-down.png</texture>
-								<colordiffuse>menu_header_label</colordiffuse>
-								<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
-										<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000" />
-										<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500" />
-								</animation>
-						</control>
-				</control>
-		</controls>
+	<defaultcontrol always="true">3</defaultcontrol>
+	<include>dialogeffect</include>
+	<controls>
+		<control type="group">
+			<!-- Image Preview -->
+			<left>290</left>
+			<top>17</top>
+			<visible>Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)</visible>
+			<control type="image">
+				<description>background image</description>
+				<left>320</left>
+				<top>108</top>
+				<width>640</width>
+				<height>470</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20,20,20,20">menu_back.png</texture>
+			</control>
+			<control type="label">
+				<description>heading label</description>
+				<left>400</left>
+				<top>130</top>
+				<width>540</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_50</font>
+				<label>[UPPERCASE]preview[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="image">
+				<description>Current Icon image</description>
+				<left>400</left>
+				<top>90</top>
+				<width>540</width>
+				<height>510</height>
+				<aspectratio>keep</aspectratio>
+				<texture background="true">Special://skin/extras/urldownloader themes/previews/$INFO[Container(3).ListItem.Label].jpg</texture>
+				<aspectratio>keep</aspectratio>
+				<bordertexture border="5">white-back.png</bordertexture>
+				<bordersize>1</bordersize>
+				<fadetime>ThumbCrossfadeTime</fadetime>
+				<visible>Window.IsVisible(1901)</visible>
+			</control>
+			<control type="image">
+				<description>Current Icon image</description>
+				<left>400</left>
+				<top>90</top>
+				<width>540</width>
+				<height>510</height>
+				<aspectratio>keep</aspectratio>
+				<texture background="true">Special://themes_root/$INFO[Container(3).ListItem.Label]/preview.jpg</texture>
+				<aspectratio>keep</aspectratio>
+				<bordertexture border="5">white-back.png</bordertexture>
+				<bordersize>1</bordersize>
+				<fadetime>ThumbCrossfadeTime</fadetime>
+				<visible>Window.IsVisible(1300)</visible>
+			</control>
+			<control type="image">
+				<description>Current Icon image</description>
+				<left>400</left>
+				<top>90</top>
+				<width>540</width>
+				<height>510</height>
+				<aspectratio>keep</aspectratio>
+				<texture background="true">Special://themes_root/$INFO[Skin.CurrentTheme]/colours/$INFO[Container(3).ListItem.Label].jpg</texture>
+				<aspectratio>keep</aspectratio>
+				<bordertexture border="5">white-back.png</bordertexture>
+				<bordersize>1</bordersize>
+				<fadetime>ThumbCrossfadeTime</fadetime>
+				<visible>Window.IsVisible(1300)</visible>
+			</control>
+		</control>
+		<control type="group">
+			<!-- Browser pane -->
+			<animation effect="slide" start="0,0" end="-290,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
+			<top>17</top>
+			<control type="image">
+				<description>background image</description>
+				<left>320</left>
+				<top>108</top>
+				<width>640</width>
+				<height>470</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20,20,20,20">menu_back.png</texture>
+			</control>
+			<control type="label" id="1">
+				<description>heading label</description>
+				<left>320</left>
+				<top>130</top>
+				<width>640</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_50</font>
+				<label>[UPPERCASE]13406[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="list" id="3">
+				<left>310</left>
+				<top>200</top>
+				<width>640</width>
+				<height>295</height>
+				<onup>3</onup>
+				<ondown>3</ondown>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<pagecontrol>61</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(61)">Conditional</animation>
+				<itemlayout width="640" height="49">
+					<control type="image">
+						<width>640</width>
+						<height>50</height>
+						<colordiffuse>menu_focus_back</colordiffuse>
+						<texture>button-nofocus4.png</texture>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>640</width>
+						<height>50</height>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>size_23</font>
+						<textcolor>menu_header_label</textcolor>
+						<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout width="640" height="49">
+					<control type="image">
+						<width>640</width>
+						<height>50</height>
+						<colordiffuse>menu_focus_back</colordiffuse>
+						<texture>button-nofocus4.png</texture>
+						<visible>!Control.HasFocus(3)</visible>
+					</control>
+					<control type="image">
+						<width>640</width>
+						<height>50</height>
+						<colordiffuse>menu_focus_back</colordiffuse>
+						<texture>button-focus4.png</texture>
+						<visible>Control.HasFocus(3)</visible>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>640</width>
+						<height>50</height>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>size_23</font>
+						<textcolor>menu_focus_label</textcolor>
+						<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="button" id="5">
+				<description>OK button</description>
+				<left>590</left>
+				<top>510</top>
+				<label>186</label>
+				<include>MenuYesNoButtonCommonValues</include>
+				<onleft>3</onleft>
+				<onright>3</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+			</control>
+		</control>
+		<control type="group">
+			<animation effect="slide" start="0,0" end="-290,0" time="0" condition="Skin.HasSetting(SelectPreviewMode) | Window.IsVisible(1901)">Conditional</animation>
+			<control type="image">
+				<left>360r</left>
+				<top>195</top>
+				<width>22</width>
+				<height>22</height>
+				<texture>scroll-up.png</texture>
+				<colordiffuse>menu_header_label</colordiffuse>
+				<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+					<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3000"/>
+					<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3500"/>
+				</animation>
+			</control>
+			<control type="image">
+				<left>360r</left>
+				<top>208r</top>
+				<width>22</width>
+				<height>22</height>
+				<texture>scroll-down.png</texture>
+				<colordiffuse>menu_header_label</colordiffuse>
+				<animation type="Conditional" condition="System.IdleTime(1)" loop="true" reversable="false">
+					<effect type="slide" start="0,0" end="0,12" time="1000" tween="cubic" easing="inout" delay="3000"/>
+					<effect type="slide" start="0,0" end="0,-12" time="1000" tween="cubic" easing="inout" delay="3500"/>
+				</animation>
+			</control>
+		</control>
+	</controls>
 </window>

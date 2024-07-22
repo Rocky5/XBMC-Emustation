@@ -1,1177 +1,1177 @@
 <includes>
-		<include file="defaults.xml" />
-		<include file="Includes_URLDownloader.xml" />
-		<include file="includes_variables.xml" />
-		<include file="includes_snow.xml" />
-		<include file="includes_backgrounds.xml" />
-		<include file="includes_carousels.xml" />
-		<include file="Viewtype_CommonRootView.xml">CommonRootView</include>
-		<constant name="FanartCrossfadeTime">200</constant>
-		<constant name="ThumbCrossfadeTime">50</constant>
-		<include name="CommonBackground">
-				<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>720</width>
-						<height>480</height>
-						<aspectratio>stretch</aspectratio>
-						<texture background="false">layouts/art/background.png</texture>
-				</control>
-				<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>720</width>
-						<height>480</height>
-						<aspectratio>stretch</aspectratio>
-						<colordiffuse>background_overlay_colour</colordiffuse>
-						<texture background="false">background diffuse.png</texture>
-				</control>
-		</include>
-		<include name="overlay_plane">
-				<include condition="System.Date(12-23,12-29) + !Skin.HasSetting(festiveoverlaydisabled)">snow</include>
-		</include>
-		<include name="CarouselLabels">
-				<control type="label">
-						<include>CarouselLabelCommonValues</include>
-						<label>$INFO[System.DVDLabel]</label>
-						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-				</control>
-				<control type="label">
-						<include>CarouselLabelCommonValues</include>
-						<label>$INFO[Container(9000).ListItem.Label] Game Available</label>
-						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,0) + !StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427]) + !StringCompare(Container(9000).ListItem.Label2,])</visible>
-				</control>
-				<control type="label">
-						<include>CarouselLabelCommonValues</include>
-						<label>$INFO[Container(9000).ListItem.Label] Games Available</label>
-						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>!StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,Direct Launch) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
-				</control>
-				<control type="label">
-						<include>CarouselLabelCommonValues</include>
-						<label>$INFO[Container(9000).ListItem.Label] Favourite Available</label>
-						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>StringCompare(Container(9000).ListItem.Label2,favs) + StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,0) + !StringCompare(Container(9000).ListItem.Label2,ports)</visible>
-				</control>
-				<control type="label">
-						<include>CarouselLabelCommonValues</include>
-						<label>$INFO[Container(9000).ListItem.Label] Favourites Available</label>
-						<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
-						<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
-						<visible>StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label2,ports)</visible>
-				</control>
-		</include>
-		<include name="EmulatorScrollFade">
-				<visible>!Container(9000).Scrolling</visible>
-				<animation effect="fade" delay="200" time="150">visible</animation>
-				<animation effect="fade" time="150">hidden</animation>
-		</include>
-		<include name="XbeScrollFade">
-				<visible>!Container(50).Scrolling</visible>
-				<animation effect="fade" delay="200" time="150">visible</animation>
-				<animation effect="fade" time="150">hidden</animation>
-		</include>
-		<include name="FavsScrollFade">
-				<visible>!Container(450).Scrolling</visible>
-				<animation effect="fade" delay="200" time="150">visible</animation>
-				<animation effect="fade" time="150">hidden</animation>
-		</include>
-		<include name="defaultassetspaths">
-				<onunload condition="StringCompare(Skin.String(Custom_Emulator_Path),)">Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onunload>
-				<onunload condition="StringCompare(Skin.String(Custom_Roms_Path),)">Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onunload>
-				<onunload condition="StringCompare(Skin.String(Custom_Media_Path),)">Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onunload>
-		</include>
-		<include name="CommonOptionsMenuBack">
-				<include>VisibleFadeEffect</include>
-				<visible allowhiddenfocus="true">ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus</visible>
-				<animation effect="slide" start="0,0" end="60,0" time="200" condition="Player.HasMedia">conditional</animation>
-				<left>60</left>
-				<top>45</top>
-				<control type="image">
-						<description>shadow border</description>
-						<left>-8</left>
-						<top>17</top>
-						<width>306</width>
-						<height>431</height>
-						<texture border="10">border-shadow.png</texture>
-				</control>
-				<control type="image">
-						<description>Down Arrow</description>
-						<left>30</left>
-						<top>0</top>
-						<width>40</width>
-						<height>25</height>
-						<texture>arrow-big-up.png</texture>
-				</control>
-				<control type="image">
-						<description>background image</description>
-						<left>0</left>
-						<top>25</top>
-						<width>290</width>
-						<height>415</height>
-						<texture border="8">subback.png</texture>
-				</control>
-				<control type="image">
-						<description>Overlay image</description>
-						<left>0</left>
-						<top>25</top>
-						<width>200</width>
-						<height>310</height>
-						<texture>glassoverlay.png</texture>
-				</control>
-				<control type="image">
-						<left>0</left>
-						<top>25</top>
-						<width>290</width>
-						<height>40</height>
-						<texture>horizontalglow.png</texture>
-				</control>
-		</include>
-		<include name="ScrollOffsetLabel">
-				<control type="group">
-						<visible>Container.Scrolling</visible>
-						<animation effect="slide" start="0,0" end="0,-70" delay="0" time="200">Visible</animation>
-						<animation effect="slide" start="0,-70" end="0,0" delay="100" time="200">Hidden</animation>
-						<control type="image">
-								<left>70r</left>
-								<top>0r</top>
-								<width>70</width>
-								<height>70</height>
-								<texture border="20,20,20,2">thumbfo.png</texture>
-						</control>
-						<control type="label">
-								<left>70r</left>
-								<top>0r</top>
-								<width>70</width>
-								<height>70</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<label>[B]$INFO[ListItem.SortLetter][/B]</label>
-								<textcolor>black</textcolor>
-								<font>size_35</font>
-						</control>
-				</control>
-		</include>
-		<include name="ContextButtonsHomeHorizontal">
-				<control type="grouplist">
-						<left>20</left>
-						<top>430</top>
-						<width>720</width>
-						<height>85</height>
-						<itemgap>5</itemgap>
-						<orientation>horizontal</orientation>
-						<control type="image">
-								<description>DPad</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>context_buttons_home</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/dpad.png</texture>
-						</control>
-						<control type="label">
-								<textoffsety>5</textoffsety>						
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_home</textcolor>
-								<font>size_20</font>
-								<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>A Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>context_buttons_home</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/a.png</texture>
-						</control>
-						<control type="label">
-								<textoffsety>5</textoffsety>						
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_home</textcolor>
-								<font>size_20</font>
-								<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>X Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>context_buttons_home</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/x.png</texture>
-						</control>
-						<control type="label">
-								<textoffsety>5</textoffsety>						
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_home</textcolor>
-								<font>size_20</font>
-								<label>[UPPERCASE]$LOCALIZE[30904] [/UPPERCASE]</label>
-								<visible>!Player.HasMedia</visible>
-						</control>
-						<control type="label">
-								<textoffsety>5</textoffsety>						
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_home</textcolor>
-								<font>size_20</font>
-								<label>[UPPERCASE]$LOCALIZE[30909] [/UPPERCASE]</label>
-								<visible>Player.HasMedia</visible>
-						</control>
-						<control type="image">
-								<description>Start Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>context_buttons_home</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/start.png</texture>
-						</control>
-						<control type="label">
-								<textoffsety>5</textoffsety>						
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_home</textcolor>
-								<font>size_20</font>
-								<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>Back Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>context_buttons_home</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/back.png</texture>
-						</control>
-						<control type="label">
-								<textoffsety>5</textoffsety>						
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_home</textcolor>
-								<font>size_20</font>
-								<label>[UPPERCASE]$LOCALIZE[30907] [/UPPERCASE]</label>
-								<visible>!Player.HasAudio</visible>
-						</control>
-						<control type="label">
-								<textoffsety>5</textoffsety>						
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_home</textcolor>
-								<font>size_20</font>
-								<label>[UPPERCASE]$LOCALIZE[30908] [/UPPERCASE]</label>
-								<visible>Player.HasAudio</visible>
-						</control>
-				</control>
-		</include>
-		<include name="ContextButtonsSettings">
-				<control type="grouplist">
-						<left>20</left>
-						<top>435</top>
-						<width>720</width>
-						<height>85</height>
-						<itemgap>5</itemgap>
-						<orientation>horizontal</orientation>
-						<control type="image">
-								<description>DPad</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>FF6E6E6E</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/dpad.png</texture>
-								<visible>!Window.IsActive(1900)</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>FF6E6E6E</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
-								<visible>!Window.IsActive(1900)</visible>
-						</control>
-						<control type="image">
-								<description>A Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>FF6E6E6E</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/a.png</texture>
-								<visible>!Window.IsActive(1900)</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>FF6E6E6E</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
-								<visible>!Window.IsActive(1900)</visible>
-						</control>
-						<control type="image">
-								<description>B Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>FF6E6E6E</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/b.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>FF6E6E6E</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>X Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>FF6E6E6E</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/x.png</texture>
-								<visible>Player.HasMedia</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>FF6E6E6E</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30909] [/UPPERCASE]</label>
-								<visible>Player.HasMedia</visible>
-						</control>
-				</control>
-		</include>
-		<include name="ContextButtonsVideo">
-				<control type="grouplist">
-						<visible>Player.HasVideo | Window.IsActive(3000) + !Skin.HasSetting(videolayout)</visible>
-						<left>15</left>
-						<top>685</top>
-						<width>720</width>
-						<height>85</height>
-						<itemgap>5</itemgap>
-						<orientation>horizontal</orientation>
-						<control type="image">
-								<description>DPad</description>
-								<width>25</width>
-								<height>25</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/dpad.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>A Button</description>
-								<width>25</width>
-								<height>25</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/a.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30901] [/UPPERCASE]</label>
-						</control>
-				</control>
-		</include>
-		<include name="ContextButtonsEmulators">
-				<control type="grouplist">
-						<visible>!Player.HasVideo | Skin.HasSetting(videolayout)</visible>
-						<description>emulators</description>
-						<left>20</left>
-						<top>435</top>
-						<width>720</width>
-						<height>85</height>
-						<itemgap>5</itemgap>
-						<orientation>horizontal</orientation>
-						<control type="image">
-								<description>DPad</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/dpad.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>A Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/a.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>B Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/b.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>X Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/x.png</texture>
-								<visible>IntegerGreaterThan(Container(9000).NumItems,9)</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30904] [/UPPERCASE]</label>
-								<visible>IntegerGreaterThan(Container(9000).NumItems,9)</visible>
-						</control>
-						<control type="image">
-								<description>Y Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/y.png</texture>
-								<visible>Skin.HasSetting(synopsislayout) + !Skin.HasSetting(videolayout)</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30905] [/UPPERCASE]</label>
-								<visible>Skin.HasSetting(synopsislayout) + !Skin.HasSetting(videolayout)</visible>
-						</control>
-						<control type="image">
-								<description>Start Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/start.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>White Button</description>
-								<width>30</width>
-								<height>30</height>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/white.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>														
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30911] [/UPPERCASE]</label>
-						</control>
-				</control>
-		</include>
-		<include name="ContextButtonsXBE">
-				<control type="grouplist">
-						<visible>!Player.HasVideo</visible>
-						<description>xbe items</description>
-						<left>20</left>
-						<top>435</top>
-						<width>720</width>
-						<height>85</height>
-						<itemgap>5</itemgap>
-						<orientation>horizontal</orientation>
-						<control type="image">
-								<description>DPad</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/dpad.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																														
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>A Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/a.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																														
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>B Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/b.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>X Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/x.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30904] [/UPPERCASE]</label>
-						</control>
-						<!-- <control type="image"> -->
-						<!-- <description>Y Button</description> -->
-						<!-- <width>25</width> -->
-						<!-- <height>25</height> -->
-						<!-- <colordiffuse>context_buttons_layouts</colordiffuse> -->
-						<!-- <aspectratio>stretch</aspectratio> -->
-						<!-- <texture>layouts/art/y.png</texture> -->
-						<!-- <visible>Skin.HasSetting(synopsislayout)</visible> -->
-						<!-- </control> -->
-						<!-- <control type="label"> -->
-						<!-- <width min="30" max="250">auto</width> -->
-						<!-- <textcolor>context_buttons_layouts</textcolor> -->
-						<!-- <font>size_19</font> -->
-						<!-- <label>[UPPERCASE]$LOCALIZE[30905] [/UPPERCASE]</label> -->
-						<!-- <visible>Skin.HasSetting(synopsislayout)</visible> -->
-						<!-- </control> -->
-						<control type="image">
-								<description>Start Button</description>
-								<width>35</width>
-								<height>35</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/start.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>White Button</description>
-								<width>35</width>
-								<height>35</height>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/white.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30906] [/UPPERCASE]</label>
-						</control>
-				</control>
-		</include>
-		<include name="ContextButtonsFAVS">
-				<control type="grouplist">
-						<description>favourite items</description>
-						<left>20</left>
-						<top>435</top>
-						<width>720</width>
-						<height>85</height>
-						<itemgap>5</itemgap>
-						<orientation>horizontal</orientation>
-						<control type="image">
-								<description>DPad</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/dpad.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>A Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/a.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>B Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/b.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>Start Button</description>
-								<width>30</width>
-								<height>30</height>
-								<colordiffuse>context_buttons_layouts</colordiffuse>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/start.png</texture>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
-						</control>
-						<control type="image">
-								<description>White Button</description>
-								<width>30</width>
-								<height>30</height>
-								<aspectratio>stretch</aspectratio>
-								<texture>layouts/art/white.png</texture>
-								<visible>!StringCompare(Container(450).NumItems,0)</visible>
-						</control>
-						<control type="label">
-								<width min="30" max="250">auto</width>
-								<textoffsety>5</textoffsety>																						
-								<textcolor>context_buttons_layouts</textcolor>
-								<font>size_19</font>
-								<label>[UPPERCASE]$LOCALIZE[30906] [/UPPERCASE]</label>
-								<visible>!StringCompare(Container(450).NumItems,0)</visible>
-						</control>
-				</control>
-		</include>
-		<!-- Coded and working for Simple but may not use these and just make folk code there own home screen carousels -->
-		<include name="Home_Horizontal">
-				<left>0</left>
-				<top>310</top>
-				<width>1480</width>
-				<height>1280</height>
-				<onleft>Control.Move(9000,-1)</onleft>
-				<onright>Control.Move(9000,1)</onright>
-				<onup>-</onup>
-				<ondown>-</ondown>
-				<include condition="!Skin.HasSetting(CarouselAnimation0) + !Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeInstant</include>
-				<include condition="Skin.HasSetting(CarouselAnimation0)">CarouselScrollTimeFade</include>
-				<include condition="Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeSlide</include>
-				<focusposition>1</focusposition>
-				<preloaditems>2</preloaditems>
-				<orientation>Horizontal</orientation>
-				<itemlayout width="555" height="167">
-				</itemlayout>
-				<focusedlayout width="555" height="167">
-				</focusedlayout>
-		</include>
-		<include name="Home_Vertical">
-				<left>0</left>
-				<top>-105</top>
-				<width>300</width>
-				<height>910</height>
-				<onleft>-</onleft>
-				<onright>-</onright>
-				<onup>Control.Move(9000,1)</onup>
-				<ondown>Control.Move(9000,-1)</ondown>
-				<include condition="!Skin.HasSetting(CarouselAnimation0) + !Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeInstant</include>
-				<include condition="Skin.HasSetting(CarouselAnimation0)">CarouselScrollTimeFade</include>
-				<include condition="Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeSlide</include>
-				<focusposition>1</focusposition>
-				<preloaditems>2</preloaditems>
-				<orientation>vertical</orientation>
-				<itemlayout width="290" height="130">
-				</itemlayout>
-				<focusedlayout width="290" height="130">
-				</focusedlayout>
-		</include>
-		<include name="1280x720">
-				<width>1280</width>
-				<height>720</height>
-		</include>
-		<include name="720x480">
-				<width>720</width>
-				<height>480</height>
-		</include>
-		<include name="720x576">
-				<width>720</width>
-				<height>576</height>
-		</include>	
-		<include name="CustomSettingsButtons">
-				<width>1170</width>
-				<height>50</height>
-				<font>size_20</font>
-				<textcolor>white</textcolor>
-				<focusedcolor>black</focusedcolor>
-				<texturefocus border="5">thumbfO.png</texturefocus>
-				<texturenofocus border="5">list_seperator_alt.png</texturenofocus>
-		</include>
-		<include name="CustomSystemInfoButtons">
-				<width>165</width>
-				<textwidth>350</textwidth>				
-				<height>25</height>
-				<font>size_22</font>
+	<include file="defaults.xml"/>
+	<include file="Includes_URLDownloader.xml"/>
+	<include file="includes_variables.xml"/>
+	<include file="includes_snow.xml"/>
+	<include file="includes_backgrounds.xml"/>
+	<include file="includes_carousels.xml"/>
+	<include file="Viewtype_CommonRootView.xml">CommonRootView</include>
+	<constant name="FanartCrossfadeTime">200</constant>
+	<constant name="ThumbCrossfadeTime">50</constant>
+	<include name="CommonBackground">
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>720</width>
+			<height>480</height>
+			<aspectratio>stretch</aspectratio>
+			<texture background="false">layouts/art/background.png</texture>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>720</width>
+			<height>480</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>background_overlay_colour</colordiffuse>
+			<texture background="false">background diffuse.png</texture>
+		</control>
+	</include>
+	<include name="overlay_plane">
+		<include condition="System.Date(12-23,12-29) + !Skin.HasSetting(festiveoverlaydisabled)">snow</include>
+	</include>
+	<include name="CarouselLabels">
+		<control type="label">
+			<include>CarouselLabelCommonValues</include>
+			<label>$INFO[System.DVDLabel]</label>
+			<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+			<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+			<visible>StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
+		</control>
+		<control type="label">
+			<include>CarouselLabelCommonValues</include>
+			<label>$INFO[Container(9000).ListItem.Label] Game Available</label>
+			<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+			<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+			<visible>StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,0) + !StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427]) + !StringCompare(Container(9000).ListItem.Label2,])</visible>
+		</control>
+		<control type="label">
+			<include>CarouselLabelCommonValues</include>
+			<label>$INFO[Container(9000).ListItem.Label] Games Available</label>
+			<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+			<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+			<visible>!StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,Direct Launch) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[5]) + !StringCompare(Container(9000).ListItem.Label2,$LOCALIZE[427])</visible>
+		</control>
+		<control type="label">
+			<include>CarouselLabelCommonValues</include>
+			<label>$INFO[Container(9000).ListItem.Label] Favourite Available</label>
+			<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+			<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+			<visible>StringCompare(Container(9000).ListItem.Label2,favs) + StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label,0) + !StringCompare(Container(9000).ListItem.Label2,ports)</visible>
+		</control>
+		<control type="label">
+			<include>CarouselLabelCommonValues</include>
+			<label>$INFO[Container(9000).ListItem.Label] Favourites Available</label>
+			<animation effect="fade" reversible="true" start="0" end="100" delay="1050" time="200" tween="Cubic" easing="in" condition="!Container(9000).OnNext + !Container(9000).OnPrevious">Conditional</animation>
+			<animation effect="fade" reversible="true" start="100" end="0" delay="0" time="0" condition="Container(9000).OnNext | Container(9000).OnPrevious">Conditional</animation>
+			<visible>StringCompare(Container(9000).ListItem.Label2,favs) + !StringCompare(Container(9000).ListItem.Label,1) + !StringCompare(Container(9000).ListItem.Label2,ports)</visible>
+		</control>
+	</include>
+	<include name="EmulatorScrollFade">
+		<visible>!Container(9000).Scrolling</visible>
+		<animation effect="fade" delay="200" time="150">visible</animation>
+		<animation effect="fade" time="150">hidden</animation>
+	</include>
+	<include name="XbeScrollFade">
+		<visible>!Container(50).Scrolling</visible>
+		<animation effect="fade" delay="200" time="150">visible</animation>
+		<animation effect="fade" time="150">hidden</animation>
+	</include>
+	<include name="FavsScrollFade">
+		<visible>!Container(450).Scrolling</visible>
+		<animation effect="fade" delay="200" time="150">visible</animation>
+		<animation effect="fade" time="150">hidden</animation>
+	</include>
+	<include name="defaultassetspaths">
+		<onunload condition="StringCompare(Skin.String(Custom_Emulator_Path),)">Skin.SetString(Custom_Emulator_Path,Q:\emustation\emulators\)</onunload>
+		<onunload condition="StringCompare(Skin.String(Custom_Roms_Path),)">Skin.SetString(Custom_Roms_Path,Q:\emustation\roms\)</onunload>
+		<onunload condition="StringCompare(Skin.String(Custom_Media_Path),)">Skin.SetString(Custom_Media_Path,Q:\emustation\media\)</onunload>
+	</include>
+	<include name="CommonOptionsMenuBack">
+		<include>VisibleFadeEffect</include>
+		<visible allowhiddenfocus="true">ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus</visible>
+		<animation effect="slide" start="0,0" end="60,0" time="200" condition="Player.HasMedia">conditional</animation>
+		<left>60</left>
+		<top>45</top>
+		<control type="image">
+			<description>shadow border</description>
+			<left>-8</left>
+			<top>17</top>
+			<width>306</width>
+			<height>431</height>
+			<texture border="10">border-shadow.png</texture>
+		</control>
+		<control type="image">
+			<description>Down Arrow</description>
+			<left>30</left>
+			<top>0</top>
+			<width>40</width>
+			<height>25</height>
+			<texture>arrow-big-up.png</texture>
+		</control>
+		<control type="image">
+			<description>background image</description>
+			<left>0</left>
+			<top>25</top>
+			<width>290</width>
+			<height>415</height>
+			<texture border="8">subback.png</texture>
+		</control>
+		<control type="image">
+			<description>Overlay image</description>
+			<left>0</left>
+			<top>25</top>
+			<width>200</width>
+			<height>310</height>
+			<texture>glassoverlay.png</texture>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>25</top>
+			<width>290</width>
+			<height>40</height>
+			<texture>horizontalglow.png</texture>
+		</control>
+	</include>
+	<include name="ScrollOffsetLabel">
+		<control type="group">
+			<visible>Container.Scrolling</visible>
+			<animation effect="slide" start="0,0" end="0,-70" delay="0" time="200">Visible</animation>
+			<animation effect="slide" start="0,-70" end="0,0" delay="100" time="200">Hidden</animation>
+			<control type="image">
+				<left>70r</left>
+				<top>0r</top>
+				<width>70</width>
+				<height>70</height>
+				<texture border="20,20,20,2">thumbfo.png</texture>
+			</control>
+			<control type="label">
+				<left>70r</left>
+				<top>0r</top>
+				<width>70</width>
+				<height>70</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>FFFFFFFF</textcolor>
-				<focusedcolor>FF393A3B</focusedcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>0</textoffsetx>
-				<texturefocus>background diffuse.png</texturefocus>
-				<texturenofocus>thumbnf.png</texturenofocus>
-		</include>
-		<include name="CarouselLabelCommonValues">
-				<left>0</left>
-				<top>278</top>
-				<width>720</width>
-				<height>41</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<font>size_25</font>
-				<textcolor>carousel_bar_label</textcolor>
-		</include>
-		<include name="CarouselAltLabelCommonValues">
-				<left>406</left>
-				<top>163</top>
-				<width>468</width>
-				<height>41</height>
-				<align>center</align>
-				<aligny>center</aligny>
+				<label>[B]$INFO[ListItem.SortLetter][/B]</label>
+				<textcolor>black</textcolor>
 				<font>size_35</font>
-				<textcolor>carousel_bar_label</textcolor>
-		</include>
-		<include name="MenuButtonCommonValues">
-				<width>440</width>
-				<height>50</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<texturefocus border="5">button-focus4.png</texturefocus>
-				<texturenofocus>button-nofocus4.png</texturenofocus>
-		</include>
-		<include name="MenuButtonCommonAltValues">
-				<width>440</width>
-				<height>50</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<textureradioon>radiobutton-focus_alt2.png</textureradioon>
-				<textureradiooff>radiobutton-nofocus_alt2.png</textureradiooff>
-				<texturefocus border="5">button-focus4.png</texturefocus>
-				<texturenofocus>button-nofocus4.png</texturenofocus>
-		</include>
-		<include name="MenuFolderButtonCommonValues">
-				<width>640</width>
-				<height>50</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<texturefocus border="5">button-focus5.png</texturefocus>
-				<texturenofocus>button-nofocus5.png</texturenofocus>
-		</include>
-		<include name="MenuVolumeButtonCommonValues">
-				<width>430</width>
-				<height>50</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<texturefocus border="5">button-focus5_alt.png</texturefocus>
-				<texturenofocus>button-nofocus5_alt.png</texturenofocus>
-		</include>
-		<include name="MenuCustomButtonCommonValues">
-				<width>640</width>
-				<height>50</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<texturefocus border="5">button-focus4.png</texturefocus>
-				<texturenofocus>button-nofocus4.png</texturenofocus>
-		</include>
-		<include name="MenuButtonMenuValues">
-				<width>430</width>
-				<textwidth>350</textwidth>
-				<height>43</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>5</textoffsetx>
-				<texturefocus border="5">button-focus4.png</texturefocus>
-				<texturenofocus>button-nofocus4.png</texturenofocus>
-		</include>
-		<include name="MenuButtonMenuAltValues">
-				<width>640</width>
-				<height>43</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<textureradioon>radiobutton-focus_alt2.png</textureradioon>
-				<textureradiooff>radiobutton-nofocus_alt2.png</textureradiooff>
-				<texturefocus border="5">button-focus4.png</texturefocus>
-				<texturenofocus>button-nofocus4.png</texturenofocus>
-		</include>
-		<include name="MenuFolderButtonMenuValues">
-				<width>640</width>
-				<height>43</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<texturefocus border="5">button-focus5.png</texturefocus>
-				<texturenofocus>button-nofocus5.png</texturenofocus>
-		</include>
-		<include name="MenuVolumeButtonMenuValues">
-				<width>640</width>
-				<height>43</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<texturefocus border="5">button-focus5_alt.png</texturefocus>
-				<texturenofocus>button-nofocus5_alt.png</texturenofocus>
-		</include>
-		<include name="MenuCustomButtonMenuValues">
-				<width>430</width>
-				<textwidth>350</textwidth>	
-				<height>43</height>
-				<font>size_23</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>10</textoffsetx>
-				<texturefocus border="5">button-focus4.png</texturefocus>
-				<texturenofocus>button-nofocus4.png</texturenofocus>
-		</include>
-		<include name="MenuYesNoButtonCommonValues">
-				<width>100</width>
-				<height>51</height>
-				<font>size_23</font>
-				<align>center</align>
-				<aligny>center</aligny>
-				<textcolor>menu_nofocus_label</textcolor>
-				<focusedcolor>menu_focus_label</focusedcolor>
-				<disabledcolor>menu_disabled_label</disabledcolor>
-				<shadowcolor>-</shadowcolor>
-				<textoffsetx>0</textoffsetx>
-				<texturefocus border="20,20,20,20">yes_no_focus.png</texturefocus>
-				<texturenofocus border="20,20,20,20">yes_no_nofocus.png</texturenofocus>
-		</include>
-		<include name="ButtonHomeSubCommonValues">
-				<height>37</height>
-				<width>246</width>
-				<textcolor>grey2</textcolor>
-				<focusedcolor>white</focusedcolor>
-				<align>center</align>
-				<aligny>center</aligny>
+			</control>
+		</control>
+	</include>
+	<include name="ContextButtonsHomeHorizontal">
+		<control type="grouplist">
+			<left>20</left>
+			<top>430</top>
+			<width>720</width>
+			<height>85</height>
+			<itemgap>5</itemgap>
+			<orientation>horizontal</orientation>
+			<control type="image">
+				<description>DPad</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>context_buttons_home</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/dpad.png</texture>
+			</control>
+			<control type="label">
+				<textoffsety>5</textoffsety>
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_home</textcolor>
 				<font>size_20</font>
-				<texturefocus border="5">button-focus2.png</texturefocus>
-				<texturenofocus border="5">-</texturenofocus>
-				<pulseonselect>true</pulseonselect>
-		</include>
-		<include name="ButtonInfoDialogsCommonValues">
+				<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>A Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>context_buttons_home</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/a.png</texture>
+			</control>
+			<control type="label">
+				<textoffsety>5</textoffsety>
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_home</textcolor>
+				<font>size_20</font>
+				<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>X Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>context_buttons_home</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/x.png</texture>
+			</control>
+			<control type="label">
+				<textoffsety>5</textoffsety>
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_home</textcolor>
+				<font>size_20</font>
+				<label>[UPPERCASE]$LOCALIZE[30904] [/UPPERCASE]</label>
+				<visible>!Player.HasMedia</visible>
+			</control>
+			<control type="label">
+				<textoffsety>5</textoffsety>
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_home</textcolor>
+				<font>size_20</font>
+				<label>[UPPERCASE]$LOCALIZE[30909] [/UPPERCASE]</label>
+				<visible>Player.HasMedia</visible>
+			</control>
+			<control type="image">
+				<description>Start Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>context_buttons_home</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/start.png</texture>
+			</control>
+			<control type="label">
+				<textoffsety>5</textoffsety>
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_home</textcolor>
+				<font>size_20</font>
+				<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>Back Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>context_buttons_home</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/back.png</texture>
+			</control>
+			<control type="label">
+				<textoffsety>5</textoffsety>
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_home</textcolor>
+				<font>size_20</font>
+				<label>[UPPERCASE]$LOCALIZE[30907] [/UPPERCASE]</label>
+				<visible>!Player.HasAudio</visible>
+			</control>
+			<control type="label">
+				<textoffsety>5</textoffsety>
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_home</textcolor>
+				<font>size_20</font>
+				<label>[UPPERCASE]$LOCALIZE[30908] [/UPPERCASE]</label>
+				<visible>Player.HasAudio</visible>
+			</control>
+		</control>
+	</include>
+	<include name="ContextButtonsSettings">
+		<control type="grouplist">
+			<left>20</left>
+			<top>435</top>
+			<width>720</width>
+			<height>85</height>
+			<itemgap>5</itemgap>
+			<orientation>horizontal</orientation>
+			<control type="image">
+				<description>DPad</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>FF6E6E6E</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/dpad.png</texture>
+				<visible>!Window.IsActive(1900)</visible>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>FF6E6E6E</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
+				<visible>!Window.IsActive(1900)</visible>
+			</control>
+			<control type="image">
+				<description>A Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>FF6E6E6E</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/a.png</texture>
+				<visible>!Window.IsActive(1900)</visible>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>FF6E6E6E</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
+				<visible>!Window.IsActive(1900)</visible>
+			</control>
+			<control type="image">
+				<description>B Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>FF6E6E6E</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/b.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>FF6E6E6E</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>X Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>FF6E6E6E</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/x.png</texture>
+				<visible>Player.HasMedia</visible>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>FF6E6E6E</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30909] [/UPPERCASE]</label>
+				<visible>Player.HasMedia</visible>
+			</control>
+		</control>
+	</include>
+	<include name="ContextButtonsVideo">
+		<control type="grouplist">
+			<visible>Player.HasVideo | Window.IsActive(3000) + !Skin.HasSetting(videolayout)</visible>
+			<left>15</left>
+			<top>685</top>
+			<width>720</width>
+			<height>85</height>
+			<itemgap>5</itemgap>
+			<orientation>horizontal</orientation>
+			<control type="image">
+				<description>DPad</description>
+				<width>25</width>
 				<height>25</height>
-				<width>200</width>
-				<font>size_20</font>
-				<textcolor>white</textcolor>
-				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<texturefocus border="2">button-focus2.png</texturefocus>
-				<texturenofocus border="2">button-nofocus.png</texturenofocus>
-				<pulseonselect>no</pulseonselect>
-		</include>
-		<include name="BusyOverlay">
-				<control type="multiimage">
-						<description>Busy animation</description>
-						<left>30</left>
-						<top>30</top>
-						<width>40</width>
-						<height>10</height>
-						<imagepath>loading</imagepath>
-						<timeperimage>200</timeperimage>
-						<fadetime>0</fadetime>
-						<pauseatend>100</pauseatend>
-						<randomize>false</randomize>
-						<loop>true</loop>
-						<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
-						<aspectratio>keep</aspectratio>
-						<visible>Control.HasFocus(9100)</visible>
-						<animation effect="fade" start="0" end="100" delay="100" time="250">Visible</animation>
-						<animation effect="fade" start="100" end="0" delay="0" time="50">Hidden</animation>
-				</control>
-		</include>
-		<include name="BehindDialogFadeOut">
-				<control type="image">
-						<include>720x480</include>
-						<texture>black-back.png</texture>
-						<animation effect="fade" time="200">WindowOpen</animation>
-						<animation effect="fade" time="100">WindowClose</animation>
-						<animation effect="fade" time="200">Visible</animation>
-						<animation effect="fade" time="100">Hidden</animation>
-				</control>
-		</include>
-		<include name="SecretPassCode">
-				<!-- Secret Passcode -->
-				<control type="button" id="19">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onfocus>SetFocus(9000)</onfocus>
-						<visible>!Skin.HasSetting(KioskMode)</visible>
-				</control>
-				<control type="button" id="19">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>9000</onleft>
-						<onright>9000</onright>
-						<onup>20</onup>
-						<ondown>9000</ondown>
-						<visible>Skin.HasSetting(KioskMode)</visible>
-				</control>
-				<control type="button" id="20">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>9000</onleft>
-						<onright>9000</onright>
-						<onup>21</onup>
-						<ondown>9000</ondown>
-				</control>
-				<control type="button" id="21">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>9000</onleft>
-						<onright>9000</onright>
-						<onup>9000</onup>
-						<ondown>22</ondown>
-				</control>
-				<control type="button" id="22">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>9000</onleft>
-						<onright>9000</onright>
-						<onup>9000</onup>
-						<ondown>23</ondown>
-				</control>
-				<control type="button" id="23">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>24</onleft>
-						<onright>9000</onright>
-						<onup>9000</onup>
-						<ondown>9000</ondown>
-				</control>
-				<control type="button" id="24">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>25</onleft>
-						<onright>9000</onright>
-						<onup>9000</onup>
-						<ondown>9000</ondown>
-				</control>
-				<control type="button" id="25">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>9000</onleft>
-						<onright>26</onright>
-						<onup>9000</onup>
-						<ondown>9000</ondown>
-				</control>
-				<control type="button" id="26">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onleft>9000</onleft>
-						<onright>27</onright>
-						<onup>9000</onup>
-						<ondown>9000</ondown>
-				</control>
-				<control type="button" id="27">
-						<description>Secret Code Button</description>
-						<left>-5000</left>
-						<label>-</label>
-						<onclick>Skin.Reset(KioskMode)</onclick>
-						<onclick>SetFocus(9000)</onclick>
-						<onleft>9000</onleft>
-						<onright>9000</onright>
-						<onup>9000</onup>
-						<ondown>9000</ondown>
-				</control>
-		</include>
-		<include name="CarouselScrollTimeInstant">
-				<scrolltime>0</scrolltime>
-		</include>
-		<include name="CarouselScrollTimeFade">
-				<scrolltime>100</scrolltime>
-		</include>
-		<include name="CarouselScrollTimeSlide">
-				<scrolltime>400</scrolltime>
-		</include>
-		<include name="CarouselAnimationFade">
-				<animation effect="fade" reversible="false" delay="0" time="800" condition="!Container(9000).OnNext">Conditional</animation>
-				<animation effect="fade" reversible="false" delay="0" time="800" condition="!Container(9000).OnPrevious">Conditional</animation>
-		</include>
-		<include name="Home_Animation">
-				<animation effect="slide" start="0,-1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowOpen</animation>
-				<animation effect="slide" start="0,0" end="0,-1280" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowClose</animation>
-				<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
-				<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
-		</include>
-		<include name="Layout_Animation">
-				<animation effect="slide" start="0,1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1) + !Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
-				<animation effect="slide" start="0,0" end="0,1280" time="300" condition="Skin.HasSetting(WindowAnimation1) + !Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
-				<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
-				<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
-		</include>
-		<include name="Home_Fav_Animation">
-				<animation effect="slide" start="0,-1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1) + !Skin.HasSetting(favsloading)">Conditional</animation>
-				<animation effect="slide" start="0,0" end="0,-1280" time="300" condition="Skin.HasSetting(WindowAnimation1) + Skin.HasSetting(favsloading)">Conditional</animation>
-				<animation effect="fade" start="0" end="100" time="300" condition="Skin.HasSetting(WindowAnimation0) + !Skin.HasSetting(favsloading)">Conditional</animation>
-				<animation effect="fade" start="100" end="0" time="300" condition="Skin.HasSetting(WindowAnimation0) + Skin.HasSetting(favsloading)">Conditional</animation>
-		</include>
-		<include name="Fav_Layout_Animation">
-				<animation effect="slide" start="0,1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowOpen</animation>
-				<animation effect="slide" start="0,0" end="0,1280" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowClose</animation>
-				<animation effect="fade" start="100" end="0" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
-				<animation effect="fade" start="0" end="100" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
-		</include>
-		<include name="Window_OpenClose_Animation">
-				<animation effect="fade" time="300">WindowOpen</animation>
-				<animation effect="fade" time="300">WindowClose</animation>
-		</include>
-		<include name="dialogeffect">
-				<animation effect="fade" time="200">WindowOpen</animation>
-				<animation effect="fade" time="200">WindowClose</animation>
-		</include>
-		<include name="DialogEffectZoom">
-				<animation type="WindowOpen" reversible="false">
-						<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" delay="200" />
-						<effect type="fade" start="0" end="100" time="300" delay="200" />
-				</animation>
-				<animation type="WindowClose" reversible="false">
-						<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
-						<effect type="fade" start="100" end="0" time="300" />
-				</animation>
-		</include>
-		<include name="ViewVisibleEffect">
-				<animation type="WindowOpen" reversible="false">
-						<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="200" />
-						<effect type="fade" start="0" end="100" time="200" />
-				</animation>
-				<animation type="WindowClose" reversible="false">
-						<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="200" />
-						<effect type="fade" start="100" end="0" time="200" />
-				</animation>
-		</include>
-		<include name="VisibleFadeEffect">
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
-		</include>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/dpad.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>A Button</description>
+				<width>25</width>
+				<height>25</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/a.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30901] [/UPPERCASE]</label>
+			</control>
+		</control>
+	</include>
+	<include name="ContextButtonsEmulators">
+		<control type="grouplist">
+			<visible>!Player.HasVideo | Skin.HasSetting(videolayout)</visible>
+			<description>emulators</description>
+			<left>20</left>
+			<top>435</top>
+			<width>720</width>
+			<height>85</height>
+			<itemgap>5</itemgap>
+			<orientation>horizontal</orientation>
+			<control type="image">
+				<description>DPad</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/dpad.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>A Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/a.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>B Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/b.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>X Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/x.png</texture>
+				<visible>IntegerGreaterThan(Container(9000).NumItems,9)</visible>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30904] [/UPPERCASE]</label>
+				<visible>IntegerGreaterThan(Container(9000).NumItems,9)</visible>
+			</control>
+			<control type="image">
+				<description>Y Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/y.png</texture>
+				<visible>Skin.HasSetting(synopsislayout) + !Skin.HasSetting(videolayout)</visible>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30905] [/UPPERCASE]</label>
+				<visible>Skin.HasSetting(synopsislayout) + !Skin.HasSetting(videolayout)</visible>
+			</control>
+			<control type="image">
+				<description>Start Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/start.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>White Button</description>
+				<width>30</width>
+				<height>30</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/white.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30911] [/UPPERCASE]</label>
+			</control>
+		</control>
+	</include>
+	<include name="ContextButtonsXBE">
+		<control type="grouplist">
+			<visible>!Player.HasVideo</visible>
+			<description>xbe items</description>
+			<left>20</left>
+			<top>435</top>
+			<width>720</width>
+			<height>85</height>
+			<itemgap>5</itemgap>
+			<orientation>horizontal</orientation>
+			<control type="image">
+				<description>DPad</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/dpad.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>A Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/a.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>B Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/b.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>X Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/x.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30904] [/UPPERCASE]</label>
+			</control>
+			<!-- <control type="image"> -->
+			<!-- <description>Y Button</description> -->
+			<!-- <width>25</width> -->
+			<!-- <height>25</height> -->
+			<!-- <colordiffuse>context_buttons_layouts</colordiffuse> -->
+			<!-- <aspectratio>stretch</aspectratio> -->
+			<!-- <texture>layouts/art/y.png</texture> -->
+			<!-- <visible>Skin.HasSetting(synopsislayout)</visible> -->
+			<!-- </control> -->
+			<!-- <control type="label"> -->
+			<!-- <width min="30" max="250">auto</width> -->
+			<!-- <textcolor>context_buttons_layouts</textcolor> -->
+			<!-- <font>size_19</font> -->
+			<!-- <label>[UPPERCASE]$LOCALIZE[30905] [/UPPERCASE]</label> -->
+			<!-- <visible>Skin.HasSetting(synopsislayout)</visible> -->
+			<!-- </control> -->
+			<control type="image">
+				<description>Start Button</description>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/start.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>White Button</description>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/white.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30906] [/UPPERCASE]</label>
+			</control>
+		</control>
+	</include>
+	<include name="ContextButtonsFAVS">
+		<control type="grouplist">
+			<description>favourite items</description>
+			<left>20</left>
+			<top>435</top>
+			<width>720</width>
+			<height>85</height>
+			<itemgap>5</itemgap>
+			<orientation>horizontal</orientation>
+			<control type="image">
+				<description>DPad</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/dpad.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30900] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>A Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/a.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30902] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>B Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/b.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30903] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>Start Button</description>
+				<width>30</width>
+				<height>30</height>
+				<colordiffuse>context_buttons_layouts</colordiffuse>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/start.png</texture>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30910] [/UPPERCASE]</label>
+			</control>
+			<control type="image">
+				<description>White Button</description>
+				<width>30</width>
+				<height>30</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>layouts/art/white.png</texture>
+				<visible>!StringCompare(Container(450).NumItems,0)</visible>
+			</control>
+			<control type="label">
+				<width min="30" max="250">auto</width>
+				<textoffsety>5</textoffsety>
+				<textcolor>context_buttons_layouts</textcolor>
+				<font>size_19</font>
+				<label>[UPPERCASE]$LOCALIZE[30906] [/UPPERCASE]</label>
+				<visible>!StringCompare(Container(450).NumItems,0)</visible>
+			</control>
+		</control>
+	</include>
+	<!-- Coded and working for Simple but may not use these and just make folk code there own home screen carousels -->
+	<include name="Home_Horizontal">
+		<left>0</left>
+		<top>310</top>
+		<width>1480</width>
+		<height>1280</height>
+		<onleft>Control.Move(9000,-1)</onleft>
+		<onright>Control.Move(9000,1)</onright>
+		<onup>-</onup>
+		<ondown>-</ondown>
+		<include condition="!Skin.HasSetting(CarouselAnimation0) + !Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeInstant</include>
+		<include condition="Skin.HasSetting(CarouselAnimation0)">CarouselScrollTimeFade</include>
+		<include condition="Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeSlide</include>
+		<focusposition>1</focusposition>
+		<preloaditems>2</preloaditems>
+		<orientation>Horizontal</orientation>
+		<itemlayout width="555" height="167">
+				</itemlayout>
+		<focusedlayout width="555" height="167">
+				</focusedlayout>
+	</include>
+	<include name="Home_Vertical">
+		<left>0</left>
+		<top>-105</top>
+		<width>300</width>
+		<height>910</height>
+		<onleft>-</onleft>
+		<onright>-</onright>
+		<onup>Control.Move(9000,1)</onup>
+		<ondown>Control.Move(9000,-1)</ondown>
+		<include condition="!Skin.HasSetting(CarouselAnimation0) + !Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeInstant</include>
+		<include condition="Skin.HasSetting(CarouselAnimation0)">CarouselScrollTimeFade</include>
+		<include condition="Skin.HasSetting(CarouselAnimation1)">CarouselScrollTimeSlide</include>
+		<focusposition>1</focusposition>
+		<preloaditems>2</preloaditems>
+		<orientation>vertical</orientation>
+		<itemlayout width="290" height="130">
+				</itemlayout>
+		<focusedlayout width="290" height="130">
+				</focusedlayout>
+	</include>
+	<include name="1280x720">
+		<width>1280</width>
+		<height>720</height>
+	</include>
+	<include name="720x480">
+		<width>720</width>
+		<height>480</height>
+	</include>
+	<include name="720x576">
+		<width>720</width>
+		<height>576</height>
+	</include>
+	<include name="CustomSettingsButtons">
+		<width>1170</width>
+		<height>50</height>
+		<font>size_20</font>
+		<textcolor>white</textcolor>
+		<focusedcolor>black</focusedcolor>
+		<texturefocus border="5">thumbfO.png</texturefocus>
+		<texturenofocus border="5">list_seperator_alt.png</texturenofocus>
+	</include>
+	<include name="CustomSystemInfoButtons">
+		<width>165</width>
+		<textwidth>350</textwidth>
+		<height>25</height>
+		<font>size_22</font>
+		<align>center</align>
+		<aligny>center</aligny>
+		<textcolor>FFFFFFFF</textcolor>
+		<focusedcolor>FF393A3B</focusedcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>0</textoffsetx>
+		<texturefocus>background diffuse.png</texturefocus>
+		<texturenofocus>thumbnf.png</texturenofocus>
+	</include>
+	<include name="CarouselLabelCommonValues">
+		<left>0</left>
+		<top>278</top>
+		<width>720</width>
+		<height>41</height>
+		<align>center</align>
+		<aligny>center</aligny>
+		<font>size_25</font>
+		<textcolor>carousel_bar_label</textcolor>
+	</include>
+	<include name="CarouselAltLabelCommonValues">
+		<left>406</left>
+		<top>163</top>
+		<width>468</width>
+		<height>41</height>
+		<align>center</align>
+		<aligny>center</aligny>
+		<font>size_35</font>
+		<textcolor>carousel_bar_label</textcolor>
+	</include>
+	<include name="MenuButtonCommonValues">
+		<width>440</width>
+		<height>50</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<texturefocus border="5">button-focus4.png</texturefocus>
+		<texturenofocus>button-nofocus4.png</texturenofocus>
+	</include>
+	<include name="MenuButtonCommonAltValues">
+		<width>440</width>
+		<height>50</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<textureradioon>radiobutton-focus_alt2.png</textureradioon>
+		<textureradiooff>radiobutton-nofocus_alt2.png</textureradiooff>
+		<texturefocus border="5">button-focus4.png</texturefocus>
+		<texturenofocus>button-nofocus4.png</texturenofocus>
+	</include>
+	<include name="MenuFolderButtonCommonValues">
+		<width>640</width>
+		<height>50</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<texturefocus border="5">button-focus5.png</texturefocus>
+		<texturenofocus>button-nofocus5.png</texturenofocus>
+	</include>
+	<include name="MenuVolumeButtonCommonValues">
+		<width>430</width>
+		<height>50</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<texturefocus border="5">button-focus5_alt.png</texturefocus>
+		<texturenofocus>button-nofocus5_alt.png</texturenofocus>
+	</include>
+	<include name="MenuCustomButtonCommonValues">
+		<width>640</width>
+		<height>50</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<texturefocus border="5">button-focus4.png</texturefocus>
+		<texturenofocus>button-nofocus4.png</texturenofocus>
+	</include>
+	<include name="MenuButtonMenuValues">
+		<width>430</width>
+		<textwidth>350</textwidth>
+		<height>43</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>5</textoffsetx>
+		<texturefocus border="5">button-focus4.png</texturefocus>
+		<texturenofocus>button-nofocus4.png</texturenofocus>
+	</include>
+	<include name="MenuButtonMenuAltValues">
+		<width>640</width>
+		<height>43</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<textureradioon>radiobutton-focus_alt2.png</textureradioon>
+		<textureradiooff>radiobutton-nofocus_alt2.png</textureradiooff>
+		<texturefocus border="5">button-focus4.png</texturefocus>
+		<texturenofocus>button-nofocus4.png</texturenofocus>
+	</include>
+	<include name="MenuFolderButtonMenuValues">
+		<width>640</width>
+		<height>43</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<texturefocus border="5">button-focus5.png</texturefocus>
+		<texturenofocus>button-nofocus5.png</texturenofocus>
+	</include>
+	<include name="MenuVolumeButtonMenuValues">
+		<width>640</width>
+		<height>43</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<texturefocus border="5">button-focus5_alt.png</texturefocus>
+		<texturenofocus>button-nofocus5_alt.png</texturenofocus>
+	</include>
+	<include name="MenuCustomButtonMenuValues">
+		<width>430</width>
+		<textwidth>350</textwidth>
+		<height>43</height>
+		<font>size_23</font>
+		<align>left</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>10</textoffsetx>
+		<texturefocus border="5">button-focus4.png</texturefocus>
+		<texturenofocus>button-nofocus4.png</texturenofocus>
+	</include>
+	<include name="MenuYesNoButtonCommonValues">
+		<width>100</width>
+		<height>51</height>
+		<font>size_23</font>
+		<align>center</align>
+		<aligny>center</aligny>
+		<textcolor>menu_nofocus_label</textcolor>
+		<focusedcolor>menu_focus_label</focusedcolor>
+		<disabledcolor>menu_disabled_label</disabledcolor>
+		<shadowcolor>-</shadowcolor>
+		<textoffsetx>0</textoffsetx>
+		<texturefocus border="20,20,20,20">yes_no_focus.png</texturefocus>
+		<texturenofocus border="20,20,20,20">yes_no_nofocus.png</texturenofocus>
+	</include>
+	<include name="ButtonHomeSubCommonValues">
+		<height>37</height>
+		<width>246</width>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<align>center</align>
+		<aligny>center</aligny>
+		<font>size_20</font>
+		<texturefocus border="5">button-focus2.png</texturefocus>
+		<texturenofocus border="5">-</texturenofocus>
+		<pulseonselect>true</pulseonselect>
+	</include>
+	<include name="ButtonInfoDialogsCommonValues">
+		<height>25</height>
+		<width>200</width>
+		<font>size_20</font>
+		<textcolor>white</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<shadowcolor>black</shadowcolor>
+		<align>center</align>
+		<aligny>center</aligny>
+		<texturefocus border="2">button-focus2.png</texturefocus>
+		<texturenofocus border="2">button-nofocus.png</texturenofocus>
+		<pulseonselect>no</pulseonselect>
+	</include>
+	<include name="BusyOverlay">
+		<control type="multiimage">
+			<description>Busy animation</description>
+			<left>30</left>
+			<top>30</top>
+			<width>40</width>
+			<height>10</height>
+			<imagepath>loading</imagepath>
+			<timeperimage>200</timeperimage>
+			<fadetime>0</fadetime>
+			<pauseatend>100</pauseatend>
+			<randomize>false</randomize>
+			<loop>true</loop>
+			<colordiffuse>$VAR[var-carbon_custom_colours]</colordiffuse>
+			<aspectratio>keep</aspectratio>
+			<visible>Control.HasFocus(9100)</visible>
+			<animation effect="fade" start="0" end="100" delay="100" time="250">Visible</animation>
+			<animation effect="fade" start="100" end="0" delay="0" time="50">Hidden</animation>
+		</control>
+	</include>
+	<include name="BehindDialogFadeOut">
+		<control type="image">
+			<include>720x480</include>
+			<texture>black-back.png</texture>
+			<animation effect="fade" time="200">WindowOpen</animation>
+			<animation effect="fade" time="100">WindowClose</animation>
+			<animation effect="fade" time="200">Visible</animation>
+			<animation effect="fade" time="100">Hidden</animation>
+		</control>
+	</include>
+	<include name="SecretPassCode">
+		<!-- Secret Passcode -->
+		<control type="button" id="19">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onfocus>SetFocus(9000)</onfocus>
+			<visible>!Skin.HasSetting(KioskMode)</visible>
+		</control>
+		<control type="button" id="19">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<onup>20</onup>
+			<ondown>9000</ondown>
+			<visible>Skin.HasSetting(KioskMode)</visible>
+		</control>
+		<control type="button" id="20">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<onup>21</onup>
+			<ondown>9000</ondown>
+		</control>
+		<control type="button" id="21">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<onup>9000</onup>
+			<ondown>22</ondown>
+		</control>
+		<control type="button" id="22">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<onup>9000</onup>
+			<ondown>23</ondown>
+		</control>
+		<control type="button" id="23">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>24</onleft>
+			<onright>9000</onright>
+			<onup>9000</onup>
+			<ondown>9000</ondown>
+		</control>
+		<control type="button" id="24">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>25</onleft>
+			<onright>9000</onright>
+			<onup>9000</onup>
+			<ondown>9000</ondown>
+		</control>
+		<control type="button" id="25">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>9000</onleft>
+			<onright>26</onright>
+			<onup>9000</onup>
+			<ondown>9000</ondown>
+		</control>
+		<control type="button" id="26">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onleft>9000</onleft>
+			<onright>27</onright>
+			<onup>9000</onup>
+			<ondown>9000</ondown>
+		</control>
+		<control type="button" id="27">
+			<description>Secret Code Button</description>
+			<left>-5000</left>
+			<label>-</label>
+			<onclick>Skin.Reset(KioskMode)</onclick>
+			<onclick>SetFocus(9000)</onclick>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<onup>9000</onup>
+			<ondown>9000</ondown>
+		</control>
+	</include>
+	<include name="CarouselScrollTimeInstant">
+		<scrolltime>0</scrolltime>
+	</include>
+	<include name="CarouselScrollTimeFade">
+		<scrolltime>100</scrolltime>
+	</include>
+	<include name="CarouselScrollTimeSlide">
+		<scrolltime>400</scrolltime>
+	</include>
+	<include name="CarouselAnimationFade">
+		<animation effect="fade" reversible="false" delay="0" time="800" condition="!Container(9000).OnNext">Conditional</animation>
+		<animation effect="fade" reversible="false" delay="0" time="800" condition="!Container(9000).OnPrevious">Conditional</animation>
+	</include>
+	<include name="Home_Animation">
+		<animation effect="slide" start="0,-1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowOpen</animation>
+		<animation effect="slide" start="0,0" end="0,-1280" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowClose</animation>
+		<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
+		<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
+	</include>
+	<include name="Layout_Animation">
+		<animation effect="slide" start="0,1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1) + !Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
+		<animation effect="slide" start="0,0" end="0,1280" time="300" condition="Skin.HasSetting(WindowAnimation1) + !Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
+		<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
+		<animation effect="fade" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
+	</include>
+	<include name="Home_Fav_Animation">
+		<animation effect="slide" start="0,-1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1) + !Skin.HasSetting(favsloading)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="0,-1280" time="300" condition="Skin.HasSetting(WindowAnimation1) + Skin.HasSetting(favsloading)">Conditional</animation>
+		<animation effect="fade" start="0" end="100" time="300" condition="Skin.HasSetting(WindowAnimation0) + !Skin.HasSetting(favsloading)">Conditional</animation>
+		<animation effect="fade" start="100" end="0" time="300" condition="Skin.HasSetting(WindowAnimation0) + Skin.HasSetting(favsloading)">Conditional</animation>
+	</include>
+	<include name="Fav_Layout_Animation">
+		<animation effect="slide" start="0,1280" end="0,0" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowOpen</animation>
+		<animation effect="slide" start="0,0" end="0,1280" time="300" condition="Skin.HasSetting(WindowAnimation1)">WindowClose</animation>
+		<animation effect="fade" start="100" end="0" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowClose</animation>
+		<animation effect="fade" start="0" end="100" time="300" condition="Skin.HasSetting(WindowAnimation0)">WindowOpen</animation>
+	</include>
+	<include name="Window_OpenClose_Animation">
+		<animation effect="fade" time="300">WindowOpen</animation>
+		<animation effect="fade" time="300">WindowClose</animation>
+	</include>
+	<include name="dialogeffect">
+		<animation effect="fade" time="200">WindowOpen</animation>
+		<animation effect="fade" time="200">WindowClose</animation>
+	</include>
+	<include name="DialogEffectZoom">
+		<animation type="WindowOpen" reversible="false">
+			<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" delay="200"/>
+			<effect type="fade" start="0" end="100" time="300" delay="200"/>
+		</animation>
+		<animation type="WindowClose" reversible="false">
+			<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
+			<effect type="fade" start="100" end="0" time="300"/>
+		</animation>
+	</include>
+	<include name="ViewVisibleEffect">
+		<animation type="WindowOpen" reversible="false">
+			<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="200"/>
+			<effect type="fade" start="0" end="100" time="200"/>
+		</animation>
+		<animation type="WindowClose" reversible="false">
+			<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="200"/>
+			<effect type="fade" start="100" end="0" time="200"/>
+		</animation>
+	</include>
+	<include name="VisibleFadeEffect">
+		<animation effect="fade" time="200">Visible</animation>
+		<animation effect="fade" time="200">Hidden</animation>
+	</include>
 </includes>

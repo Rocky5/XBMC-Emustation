@@ -1,387 +1,387 @@
 <window id="3">
-		<defaultcontrol>20</defaultcontrol>
-		<allowoverlay>no</allowoverlay>
-		<controls>
-				<include>CommonBackground</include>
-				<control type="group">
-						<animation type="WindowOpen" reversible="false">
-								<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
-								<effect type="fade" start="0" end="100" time="300" />
-						</animation>
-						<animation type="WindowClose" reversible="false">
-								<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
-								<effect type="fade" start="100" end="0" time="300" />
-						</animation>
-						<control type="panel" id="20">
-								<left>30</left>
-								<top>50</top>
-								<width>330</width>
-								<height>362</height>
-								<onleft>30</onleft>
-								<onright>21</onright>
-								<onup>20</onup>
-								<ondown>20</ondown>
-								<viewtype label="535">list</viewtype>
-								<pagecontrol>30</pagecontrol>
-								<scrolltime>200</scrolltime>
-								<preloaditems>3</preloaditems>
-								<itemlayout height="45" width="330">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>330</width>
-												<height>45</height>
-												<texture border="5">listnf.png</texture>
-										</control>
-										<control type="image">
-												<left>5</left>
-												<top>3</top>
-												<width>55</width>
-												<height>39</height>
-												<texture background="true">$INFO[listitem.icon]</texture>
-												<bordertexture border="5">white-back.png</bordertexture>
-												<bordersize>1</bordersize>
-										</control>
-										<control type="label">
-												<left>70</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>white</textcolor>
-												<selectedcolor>blue</selectedcolor>
-												<align>left</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label]</label>
-										</control>
-										<control type="label">
-												<left>140</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>grey2</textcolor>
-												<selectedcolor>blue</selectedcolor>
-												<align>right</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label2]</label>
-										</control>
-								</itemlayout>
-								<focusedlayout height="45" width="330">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>330</width>
-												<height>45</height>
-												<texture border="5">thumbfo.png</texture>
-										</control>
-										<control type="image">
-												<left>5</left>
-												<top>3</top>
-												<width>55</width>
-												<height>39</height>
-												<texture background="true">$INFO[listitem.icon]</texture>
-												<bordertexture border="5">black-back.png</bordertexture>
-												<bordersize>1</bordersize>
-										</control>
-										<control type="label">
-												<left>70</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>black</textcolor>
-												<selectedcolor>blue2</selectedcolor>
-												<align>left</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label]</label>
-												<scroll>true</scroll>
-										</control>
-										<control type="label">
-												<left>140</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>black</textcolor>
-												<selectedcolor>blue2</selectedcolor>
-												<align>right</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label2]</label>
-												<scroll>true</scroll>
-										</control>
-								</focusedlayout>
-						</control>
-						<control type="scrollbar" id="30">
-								<left>13</left>
-								<top>50</top>
-								<width>17</width>
-								<height>362</height>
-								<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>
-								<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
-								<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
-								<textureslidernib>scrollbar_nib.png</textureslidernib>
-								<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-								<onleft>31</onleft>
-								<onright>20</onright>
-								<ondown>20</ondown>
-								<onup>20</onup>
-								<showonepage>false</showonepage>
-								<orientation>vertical</orientation>
-						</control>
-				</control>
-				<control type="group">
-						<animation type="WindowOpen" reversible="false">
-								<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
-								<effect type="fade" start="0" end="100" time="300" />
-						</animation>
-						<animation type="WindowClose" reversible="false">
-								<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
-								<effect type="fade" start="100" end="0" time="300" />
-						</animation>
-						<control type="panel" id="21">
-								<left>355</left>
-								<top>50</top>
-								<width>330</width>
-								<height>362</height>
-								<onleft>20</onleft>
-								<onright>31</onright>
-								<onup>21</onup>
-								<ondown>21</ondown>
-								<viewtype label="535">list</viewtype>
-								<pagecontrol>31</pagecontrol>
-								<scrolltime>200</scrolltime>
-								<preloaditems>3</preloaditems>
-								<itemlayout height="45" width="330">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>330</width>
-												<height>45</height>
-												<texture border="5">listnf.png</texture>
-										</control>
-										<control type="image">
-												<left>5</left>
-												<top>3</top>
-												<width>55</width>
-												<height>39</height>
-												<texture background="true">$INFO[listitem.icon]</texture>
-												<bordertexture border="5">white-back.png</bordertexture>
-												<bordersize>1</bordersize>
-										</control>
-										<control type="label">
-												<left>70</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>white</textcolor>
-												<selectedcolor>blue</selectedcolor>
-												<align>left</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label]</label>
-										</control>
-										<control type="label">
-												<left>140</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>grey2</textcolor>
-												<selectedcolor>blue</selectedcolor>
-												<align>right</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label2]</label>
-										</control>
-								</itemlayout>
-								<focusedlayout height="45" width="330">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>330</width>
-												<height>45</height>
-												<texture border="5">thumbfo.png</texture>
-										</control>
-										<control type="image">
-												<left>5</left>
-												<top>3</top>
-												<width>55</width>
-												<height>39</height>
-												<texture background="true">$INFO[listitem.icon]</texture>
-												<bordertexture border="5">black-back.png</bordertexture>
-												<bordersize>1</bordersize>
-										</control>
-										<control type="label">
-												<left>70</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>black</textcolor>
-												<selectedcolor>blue2</selectedcolor>
-												<align>left</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label]</label>
-												<scroll>true</scroll>
-										</control>
-										<control type="label">
-												<left>140</left>
-												<top>0</top>
-												<width>180</width>
-												<height>45</height>
-												<font>size_20</font>
-												<textcolor>black</textcolor>
-												<selectedcolor>blue2</selectedcolor>
-												<align>right</align>
-												<aligny>center</aligny>
-												<label>$INFO[ListItem.Label2]</label>
-												<scroll>true</scroll>
-										</control>
-								</focusedlayout>
-						</control>
-						<control type="scrollbar" id="31">
-								<left>685</left>
-								<top>50</top>
-								<width>17</width>
-								<height>362</height>
-								<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>
-								<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
-								<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
-								<textureslidernib>scrollbar_nib.png</textureslidernib>
-								<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-								<onleft>21</onleft>
-								<onright>30</onright>
-								<ondown>21</ondown>
-								<onup>21</onup>
-								<showonepage>false</showonepage>
-								<orientation>vertical</orientation>
-						</control>
-				</control>
-				<include>WindowHeader</include>
-				<control type="image">
-						<left>20</left>
-						<top>5</top>
-						<width>40</width>
-						<height>35</height>
-						<aspectratio>keep</aspectratio>
-						<texture>icon_system.png</texture>
-						<include>Window_OpenClose_Animation</include>
-				</control>
-				<control type="label">
-						<description>Header label</description>
-						<left>70</left>
-						<top>5</top>
-						<width>700</width>
-						<height>35</height>
-						<align>left</align>
-						<aligny>center</aligny>
-						<font>size_23</font>
-						<textcolor>white</textcolor>
-						<label>$LOCALIZE[7]</label>
-						<include>Window_OpenClose_Animation</include>
-				</control>
-				<control type="image">
+	<defaultcontrol>20</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<controls>
+		<include>CommonBackground</include>
+		<control type="group">
+			<animation type="WindowOpen" reversible="false">
+				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
+				<effect type="fade" start="0" end="100" time="300"/>
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
+				<effect type="fade" start="100" end="0" time="300"/>
+			</animation>
+			<control type="panel" id="20">
+				<left>30</left>
+				<top>50</top>
+				<width>330</width>
+				<height>362</height>
+				<onleft>30</onleft>
+				<onright>21</onright>
+				<onup>20</onup>
+				<ondown>20</ondown>
+				<viewtype label="535">list</viewtype>
+				<pagecontrol>30</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<preloaditems>3</preloaditems>
+				<itemlayout height="45" width="330">
+					<control type="image">
 						<left>0</left>
-						<top>50r</top>
-						<width>1280</width>
-						<height>50</height>
-						<texture>footer.png</texture>
-				</control>
-				<control type="image">
-						<description>Section back</description>
-						<left>20</left>
-						<top>45r</top>
-						<width>45</width>
-						<height>40</height>
-						<aspectratio align="left">stretch</aspectratio>
-						<texture border="5">flagging/blank.png</texture>
-				</control>
-				<control type="label">
-						<description>Section Letter</description>
-						<left>20</left>
-						<top>45r</top>
-						<width>45</width>
-						<height>40</height>
-						<font>size_28</font>
-						<textcolor>blue</textcolor>
-						<scroll>false</scroll>
-						<align>center</align>
-						<aligny>center</aligny>
-						<label>[B]A[/B]</label>
-				</control>
-				<control type="label">
-						<description>Page Count in Right list text label</description>
-						<left>80</left>
-						<top>25r</top>
-						<width>500</width>
-						<height>20</height>
-						<font>size_17</font>
-						<textcolor>black</textcolor>
-						<scroll>false</scroll>
+						<top>0</top>
+						<width>330</width>
+						<height>45</height>
+						<texture border="5">listnf.png</texture>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>3</top>
+						<width>55</width>
+						<height>39</height>
+						<texture background="true">$INFO[listitem.icon]</texture>
+						<bordertexture border="5">white-back.png</bordertexture>
+						<bordersize>1</bordersize>
+					</control>
+					<control type="label">
+						<left>70</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
+						<font>size_20</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>blue</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>[B]($INFO[Container(20).NumItems])[/B] $LOCALIZE[31025] - $LOCALIZE[31024] [B]($INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages])[/B]</label>
-				</control>
-				<control type="label" id="101">
-						<description>current directory text label left</description>
-						<left>80</left>
-						<top>52r</top>
-						<width>500</width>
-						<height>25</height>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+					<control type="label">
+						<left>140</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
+						<font>size_20</font>
+						<textcolor>grey2</textcolor>
+						<selectedcolor>blue</selectedcolor>
+						<align>right</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label2]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="45" width="330">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>330</width>
+						<height>45</height>
+						<texture border="5">thumbfo.png</texture>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>3</top>
+						<width>55</width>
+						<height>39</height>
+						<texture background="true">$INFO[listitem.icon]</texture>
+						<bordertexture border="5">black-back.png</bordertexture>
+						<bordersize>1</bordersize>
+					</control>
+					<control type="label">
+						<left>70</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
 						<font>size_20</font>
 						<textcolor>black</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<scroll>true</scroll>
+						<selectedcolor>blue2</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-				</control>
-				<control type="image">
-						<description>Section back</description>
-						<left>65r</left>
-						<top>45r</top>
-						<width>45</width>
-						<height>40</height>
-						<aspectratio align="left">stretch</aspectratio>
-						<texture border="5">flagging/blank.png</texture>
-				</control>
-				<control type="label">
-						<description>Section Letter</description>
-						<left>65r</left>
-						<top>45r</top>
-						<width>45</width>
-						<height>40</height>
-						<font>size_28</font>
-						<textcolor>blue</textcolor>
-						<scroll>false</scroll>
-						<align>center</align>
-						<aligny>center</aligny>
-						<label>[B]B[/B]</label>
-				</control>
-				<control type="label">
-						<description>Page Count in left list text label</description>
-						<left>80r</left>
-						<top>25r</top>
-						<width>500</width>
-						<height>20</height>
-						<font>size_17</font>
-						<textcolor>black</textcolor>
-						<scroll>false</scroll>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>[B]($INFO[Container(21).NumItems])[/B] $LOCALIZE[31025] - $LOCALIZE[31024] [B]($INFO[Container(21).CurrentPage]/$INFO[Container(21).NumPages])[/B]</label>
-				</control>
-				<control type="label" id="102">
-						<description>current directory text label right</description>
-						<left>80r</left>
-						<top>52r</top>
-						<width>500</width>
-						<height>25</height>
+						<label>$INFO[ListItem.Label]</label>
+						<scroll>true</scroll>
+					</control>
+					<control type="label">
+						<left>140</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
 						<font>size_20</font>
 						<textcolor>black</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<scroll>true</scroll>
+						<selectedcolor>blue2</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-				</control>
-		</controls>
+						<label>$INFO[ListItem.Label2]</label>
+						<scroll>true</scroll>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="scrollbar" id="30">
+				<left>13</left>
+				<top>50</top>
+				<width>17</width>
+				<height>362</height>
+				<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>
+				<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+				<textureslidernib>scrollbar_nib.png</textureslidernib>
+				<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+				<onleft>31</onleft>
+				<onright>20</onright>
+				<ondown>20</ondown>
+				<onup>20</onup>
+				<showonepage>false</showonepage>
+				<orientation>vertical</orientation>
+			</control>
+		</control>
+		<control type="group">
+			<animation type="WindowOpen" reversible="false">
+				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
+				<effect type="fade" start="0" end="100" time="300"/>
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
+				<effect type="fade" start="100" end="0" time="300"/>
+			</animation>
+			<control type="panel" id="21">
+				<left>355</left>
+				<top>50</top>
+				<width>330</width>
+				<height>362</height>
+				<onleft>20</onleft>
+				<onright>31</onright>
+				<onup>21</onup>
+				<ondown>21</ondown>
+				<viewtype label="535">list</viewtype>
+				<pagecontrol>31</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<preloaditems>3</preloaditems>
+				<itemlayout height="45" width="330">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>330</width>
+						<height>45</height>
+						<texture border="5">listnf.png</texture>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>3</top>
+						<width>55</width>
+						<height>39</height>
+						<texture background="true">$INFO[listitem.icon]</texture>
+						<bordertexture border="5">white-back.png</bordertexture>
+						<bordersize>1</bordersize>
+					</control>
+					<control type="label">
+						<left>70</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
+						<font>size_20</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>blue</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+					<control type="label">
+						<left>140</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
+						<font>size_20</font>
+						<textcolor>grey2</textcolor>
+						<selectedcolor>blue</selectedcolor>
+						<align>right</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label2]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="45" width="330">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>330</width>
+						<height>45</height>
+						<texture border="5">thumbfo.png</texture>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>3</top>
+						<width>55</width>
+						<height>39</height>
+						<texture background="true">$INFO[listitem.icon]</texture>
+						<bordertexture border="5">black-back.png</bordertexture>
+						<bordersize>1</bordersize>
+					</control>
+					<control type="label">
+						<left>70</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
+						<font>size_20</font>
+						<textcolor>black</textcolor>
+						<selectedcolor>blue2</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]</label>
+						<scroll>true</scroll>
+					</control>
+					<control type="label">
+						<left>140</left>
+						<top>0</top>
+						<width>180</width>
+						<height>45</height>
+						<font>size_20</font>
+						<textcolor>black</textcolor>
+						<selectedcolor>blue2</selectedcolor>
+						<align>right</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label2]</label>
+						<scroll>true</scroll>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="scrollbar" id="31">
+				<left>685</left>
+				<top>50</top>
+				<width>17</width>
+				<height>362</height>
+				<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>
+				<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+				<textureslidernib>scrollbar_nib.png</textureslidernib>
+				<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+				<onleft>21</onleft>
+				<onright>30</onright>
+				<ondown>21</ondown>
+				<onup>21</onup>
+				<showonepage>false</showonepage>
+				<orientation>vertical</orientation>
+			</control>
+		</control>
+		<include>WindowHeader</include>
+		<control type="image">
+			<left>20</left>
+			<top>5</top>
+			<width>40</width>
+			<height>35</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icon_system.png</texture>
+			<include>Window_OpenClose_Animation</include>
+		</control>
+		<control type="label">
+			<description>Header label</description>
+			<left>70</left>
+			<top>5</top>
+			<width>700</width>
+			<height>35</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>size_23</font>
+			<textcolor>white</textcolor>
+			<label>$LOCALIZE[7]</label>
+			<include>Window_OpenClose_Animation</include>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>50r</top>
+			<width>1280</width>
+			<height>50</height>
+			<texture>footer.png</texture>
+		</control>
+		<control type="image">
+			<description>Section back</description>
+			<left>20</left>
+			<top>45r</top>
+			<width>45</width>
+			<height>40</height>
+			<aspectratio align="left">stretch</aspectratio>
+			<texture border="5">flagging/blank.png</texture>
+		</control>
+		<control type="label">
+			<description>Section Letter</description>
+			<left>20</left>
+			<top>45r</top>
+			<width>45</width>
+			<height>40</height>
+			<font>size_28</font>
+			<textcolor>blue</textcolor>
+			<scroll>false</scroll>
+			<align>center</align>
+			<aligny>center</aligny>
+			<label>[B]A[/B]</label>
+		</control>
+		<control type="label">
+			<description>Page Count in Right list text label</description>
+			<left>80</left>
+			<top>25r</top>
+			<width>500</width>
+			<height>20</height>
+			<font>size_17</font>
+			<textcolor>black</textcolor>
+			<scroll>false</scroll>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>[B]($INFO[Container(20).NumItems])[/B] $LOCALIZE[31025] - $LOCALIZE[31024] [B]($INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages])[/B]</label>
+		</control>
+		<control type="label" id="101">
+			<description>current directory text label left</description>
+			<left>80</left>
+			<top>52r</top>
+			<width>500</width>
+			<height>25</height>
+			<font>size_20</font>
+			<textcolor>black</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<scroll>true</scroll>
+			<align>left</align>
+			<aligny>center</aligny>
+		</control>
+		<control type="image">
+			<description>Section back</description>
+			<left>65r</left>
+			<top>45r</top>
+			<width>45</width>
+			<height>40</height>
+			<aspectratio align="left">stretch</aspectratio>
+			<texture border="5">flagging/blank.png</texture>
+		</control>
+		<control type="label">
+			<description>Section Letter</description>
+			<left>65r</left>
+			<top>45r</top>
+			<width>45</width>
+			<height>40</height>
+			<font>size_28</font>
+			<textcolor>blue</textcolor>
+			<scroll>false</scroll>
+			<align>center</align>
+			<aligny>center</aligny>
+			<label>[B]B[/B]</label>
+		</control>
+		<control type="label">
+			<description>Page Count in left list text label</description>
+			<left>80r</left>
+			<top>25r</top>
+			<width>500</width>
+			<height>20</height>
+			<font>size_17</font>
+			<textcolor>black</textcolor>
+			<scroll>false</scroll>
+			<align>right</align>
+			<aligny>center</aligny>
+			<label>[B]($INFO[Container(21).NumItems])[/B] $LOCALIZE[31025] - $LOCALIZE[31024] [B]($INFO[Container(21).CurrentPage]/$INFO[Container(21).NumPages])[/B]</label>
+		</control>
+		<control type="label" id="102">
+			<description>current directory text label right</description>
+			<left>80r</left>
+			<top>52r</top>
+			<width>500</width>
+			<height>25</height>
+			<font>size_20</font>
+			<textcolor>black</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<scroll>true</scroll>
+			<align>right</align>
+			<aligny>center</aligny>
+		</control>
+	</controls>
 </window>

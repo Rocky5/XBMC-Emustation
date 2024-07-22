@@ -1,359 +1,359 @@
 <window id="126">
-		<defaultcontrol always="true">450</defaultcontrol>
-		<allowoverlay>no</allowoverlay>
-		<coordinates>
-				<system>1</system>
+	<defaultcontrol always="true">450</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<coordinates>
+		<system>1</system>
+		<left>30</left>
+		<top>-20</top>
+	</coordinates>
+	<include>DialogEffectZoom</include>
+	<controls>
+		<control type="group">
+			<left>300</left>
+			<top>0</top>
+			<visible>Control.IsVisible(451)</visible>
+			<animation type="Visible" reversible="false">
+				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" delay="300"/>
+				<effect type="fade" start="0" end="100" time="300" delay="300"/>
+			</animation>
+			<animation type="Hidden" reversible="false">
+				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="200"/>
+				<effect type="fade" start="100" end="0" time="200"/>
+			</animation>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>405</width>
+				<height>500</height>
+				<texture border="40,40,40,40">dialogback.png</texture>
+			</control>
+			<control type="image">
+				<description>Heading Background</description>
 				<left>30</left>
-				<top>-20</top>
-		</coordinates>
-		<include>DialogEffectZoom</include>
-		<controls>
-				<control type="group">
-						<left>300</left>
+				<top>34</top>
+				<width>345</width>
+				<height>40</height>
+				<texture border="5">thumbfo.png</texture>
+			</control>
+			<control type="label">
+				<description>Heading label</description>
+				<left>40</left>
+				<top>40</top>
+				<width>330</width>
+				<height>30</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_21_bold</font>
+				<label>31023</label>
+				<textcolor>black</textcolor>
+			</control>
+			<control type="image">
+				<description>Current Icon image</description>
+				<left>80</left>
+				<top>125</top>
+				<width>250</width>
+				<height>250</height>
+				<aspectratio>keep</aspectratio>
+				<info>ListItem.Icon</info>
+				<aspectratio>keep</aspectratio>
+				<bordertexture border="5">white-back.png</bordertexture>
+				<bordersize>1</bordersize>
+			</control>
+			<control type="radiobutton" id="416">
+				<description>Flip Image button</description>
+				<left>105</left>
+				<top>410</top>
+				<width>200</width>
+				<height>40</height>
+				<align>left</align>
+				<label>749</label>
+				<texturenofocus border="3">button-nofocus.png</texturenofocus>
+				<texturefocus border="3">button-focus2.png</texturefocus>
+				<onleft>415</onleft>
+				<onright>413</onright>
+				<onup>450</onup>
+				<ondown>450</ondown>
+			</control>
+		</control>
+		<control type="group">
+			<animation effect="slide" start="0,0" end="-175,0" time="300" condition="Control.IsVisible(451)">Conditional</animation>
+			<control type="image">
+				<left>130</left>
+				<top>0</top>
+				<width>405</width>
+				<height>500</height>
+				<texture border="40">dialogback.png</texture>
+			</control>
+			<control type="image">
+				<description>Heading Background</description>
+				<left>160</left>
+				<top>34</top>
+				<width>345</width>
+				<height>40</height>
+				<texture border="5">thumbfo.png</texture>
+			</control>
+			<control type="label" id="411">
+				<description>Heading label</description>
+				<left>170</left>
+				<top>40</top>
+				<width>330</width>
+				<height>30</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_21_bold</font>
+				<label>1023</label>
+				<textcolor>black</textcolor>
+			</control>
+			<control type="label" id="412">
+				<description>path label control</description>
+				<left>170</left>
+				<top>85</top>
+				<width>330</width>
+				<height>30</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_20</font>
+				<haspath>true</haspath>
+				<scroll>true</scroll>
+			</control>
+			<control type="scrollbar" id="60">
+				<left>475</left>
+				<top>120</top>
+				<width>20</width>
+				<height>240</height>
+				<texturesliderbackground border="2,2,2,2">scrollbar_bar_back2.png</texturesliderbackground>
+				<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+				<textureslidernib>scrollbar_nib.png</textureslidernib>
+				<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+				<onleft>450</onleft>
+				<onright>9000</onright>
+				<showonepage>false</showonepage>
+				<orientation>vertical</orientation>
+			</control>
+			<control type="list" id="450">
+				<left>170</left>
+				<top>120</top>
+				<width>300</width>
+				<height>240</height>
+				<onleft>9000</onleft>
+				<onright>60</onright>
+				<onup>450</onup>
+				<ondown>450</ondown>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<animation effect="slide" start="0,0" end="12,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
+				<itemlayout height="40">
+					<control type="image">
+						<left>0</left>
 						<top>0</top>
-						<visible>Control.IsVisible(451)</visible>
-						<animation type="Visible" reversible="false">
-								<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" delay="300" />
-								<effect type="fade" start="0" end="100" time="300" delay="300" />
-						</animation>
-						<animation type="Hidden" reversible="false">
-								<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="200" />
-								<effect type="fade" start="100" end="0" time="200" />
-						</animation>
-						<control type="image">
-								<left>0</left>
-								<top>0</top>
-								<width>405</width>
-								<height>500</height>
-								<texture border="40,40,40,40">dialogback.png</texture>
-						</control>
-						<control type="image">
-								<description>Heading Background</description>
-								<left>30</left>
-								<top>34</top>
-								<width>345</width>
-								<height>40</height>
-								<texture border="5">thumbfo.png</texture>
-						</control>
-						<control type="label">
-								<description>Heading label</description>
-								<left>40</left>
-								<top>40</top>
-								<width>330</width>
-								<height>30</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_21_bold</font>
-								<label>31023</label>
-								<textcolor>black</textcolor>
-						</control>
-						<control type="image">
-								<description>Current Icon image</description>
-								<left>80</left>
-								<top>125</top>
-								<width>250</width>
-								<height>250</height>
-								<aspectratio>keep</aspectratio>
-								<info>ListItem.Icon</info>
-								<aspectratio>keep</aspectratio>
-								<bordertexture border="5">white-back.png</bordertexture>
-								<bordersize>1</bordersize>
-						</control>
-						<control type="radiobutton" id="416">
-								<description>Flip Image button</description>
-								<left>105</left>
-								<top>410</top>
-								<width>200</width>
-								<height>40</height>
-								<align>left</align>
-								<label>749</label>
-								<texturenofocus border="3">button-nofocus.png</texturenofocus>
-								<texturefocus border="3">button-focus2.png</texturefocus>
-								<onleft>415</onleft>
-								<onright>413</onright>
-								<onup>450</onup>
-								<ondown>450</ondown>
-						</control>
+						<width>300</width>
+						<height>35</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>10</left>
+						<top>2</top>
+						<width>31</width>
+						<height>31</height>
+						<texture>$INFO[listitem.icon]</texture>
+					</control>
+					<control type="label">
+						<left>45</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<font>size_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>blue</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout height="40">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<visible>!Control.HasFocus(450)</visible>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<visible>Control.HasFocus(450)</visible>
+						<texture border="5">button-focus.png</texture>
+					</control>
+					<control type="image">
+						<left>10</left>
+						<top>2</top>
+						<width>31</width>
+						<height>31</height>
+						<texture>$INFO[listitem.icon]</texture>
+					</control>
+					<control type="label">
+						<left>45</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<font>size_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>blue</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="panel" id="451">
+				<left>170</left>
+				<top>120</top>
+				<width>300</width>
+				<height>240</height>
+				<onleft>9000</onleft>
+				<onright>60</onright>
+				<onup>451</onup>
+				<ondown>451</ondown>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<animation effect="slide" start="0,0" end="12,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
+				<itemlayout height="40" width="300">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>10</left>
+						<top>2</top>
+						<width>31</width>
+						<height>31</height>
+						<texture>$INFO[listitem.icon]</texture>
+					</control>
+					<control type="label">
+						<left>45</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<font>size_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>blue</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout height="40" width="300">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<visible>!Control.HasFocus(451)</visible>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<visible>Control.HasFocus(451)</visible>
+						<texture border="5">button-focus.png</texture>
+					</control>
+					<control type="image">
+						<left>10</left>
+						<top>2</top>
+						<width>31</width>
+						<height>31</height>
+						<texture>$INFO[listitem.icon]</texture>
+					</control>
+					<control type="label">
+						<left>45</left>
+						<top>0</top>
+						<width>300</width>
+						<height>35</height>
+						<font>size_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>blue</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="label">
+				<description>Page label</description>
+				<left>50</left>
+				<top>370</top>
+				<width>560</width>
+				<height>30</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_20</font>
+				<label>($INFO[Container(450).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages])</label>
+				<visible>!Control.IsVisible(451)</visible>
+			</control>
+			<control type="label">
+				<description>Page label</description>
+				<left>50</left>
+				<top>370</top>
+				<width>560</width>
+				<height>30</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_20</font>
+				<label>($INFO[Container(451).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(451).CurrentPage]/$INFO[Container(451).NumPages])</label>
+				<visible>Control.IsVisible(451)</visible>
+			</control>
+			<control type="group" id="9000">
+				<control type="button" id="413">
+					<description>OK button</description>
+					<left>170</left>
+					<top>410</top>
+					<width>100</width>
+					<height>40</height>
+					<align>center</align>
+					<label>186</label>
+					<texturenofocus border="3">button-nofocus.png</texturenofocus>
+					<texturefocus border="3">button-focus2.png</texturefocus>
+					<onleft>416</onleft>
+					<onright>414</onright>
+					<onup>450</onup>
+					<ondown>450</ondown>
 				</control>
-				<control type="group">
-						<animation effect="slide" start="0,0" end="-175,0" time="300" condition="Control.IsVisible(451)">Conditional</animation>
-						<control type="image">
-								<left>130</left>
-								<top>0</top>
-								<width>405</width>
-								<height>500</height>
-								<texture border="40">dialogback.png</texture>
-						</control>
-						<control type="image">
-								<description>Heading Background</description>
-								<left>160</left>
-								<top>34</top>
-								<width>345</width>
-								<height>40</height>
-								<texture border="5">thumbfo.png</texture>
-						</control>
-						<control type="label" id="411">
-								<description>Heading label</description>
-								<left>170</left>
-								<top>40</top>
-								<width>330</width>
-								<height>30</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_21_bold</font>
-								<label>1023</label>
-								<textcolor>black</textcolor>
-						</control>
-						<control type="label" id="412">
-								<description>path label control</description>
-								<left>170</left>
-								<top>85</top>
-								<width>330</width>
-								<height>30</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_20</font>
-								<haspath>true</haspath>
-								<scroll>true</scroll>
-						</control>
-						<control type="scrollbar" id="60">
-								<left>475</left>
-								<top>120</top>
-								<width>20</width>
-								<height>240</height>
-								<texturesliderbackground border="2,2,2,2">scrollbar_bar_back2.png</texturesliderbackground>
-								<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
-								<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
-								<textureslidernib>scrollbar_nib.png</textureslidernib>
-								<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-								<onleft>450</onleft>
-								<onright>9000</onright>
-								<showonepage>false</showonepage>
-								<orientation>vertical</orientation>
-						</control>
-						<control type="list" id="450">
-								<left>170</left>
-								<top>120</top>
-								<width>300</width>
-								<height>240</height>
-								<onleft>9000</onleft>
-								<onright>60</onright>
-								<onup>450</onup>
-								<ondown>450</ondown>
-								<pagecontrol>60</pagecontrol>
-								<scrolltime>200</scrolltime>
-								<animation effect="slide" start="0,0" end="12,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
-								<itemlayout height="40">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<texture border="5">button-nofocus.png</texture>
-										</control>
-										<control type="image">
-												<left>10</left>
-												<top>2</top>
-												<width>31</width>
-												<height>31</height>
-												<texture>$INFO[listitem.icon]</texture>
-										</control>
-										<control type="label">
-												<left>45</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<font>size_20</font>
-												<align>left</align>
-												<aligny>center</aligny>
-												<selectedcolor>blue</selectedcolor>
-												<info>ListItem.Label</info>
-										</control>
-								</itemlayout>
-								<focusedlayout height="40">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<visible>!Control.HasFocus(450)</visible>
-												<texture border="5">button-nofocus.png</texture>
-										</control>
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<visible>Control.HasFocus(450)</visible>
-												<texture border="5">button-focus.png</texture>
-										</control>
-										<control type="image">
-												<left>10</left>
-												<top>2</top>
-												<width>31</width>
-												<height>31</height>
-												<texture>$INFO[listitem.icon]</texture>
-										</control>
-										<control type="label">
-												<left>45</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<font>size_20</font>
-												<align>left</align>
-												<aligny>center</aligny>
-												<selectedcolor>blue</selectedcolor>
-												<info>ListItem.Label</info>
-										</control>
-								</focusedlayout>
-						</control>
-						<control type="panel" id="451">
-								<left>170</left>
-								<top>120</top>
-								<width>300</width>
-								<height>240</height>
-								<onleft>9000</onleft>
-								<onright>60</onright>
-								<onup>451</onup>
-								<ondown>451</ondown>
-								<pagecontrol>60</pagecontrol>
-								<scrolltime>200</scrolltime>
-								<animation effect="slide" start="0,0" end="12,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
-								<itemlayout height="40" width="300">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<texture border="5">button-nofocus.png</texture>
-										</control>
-										<control type="image">
-												<left>10</left>
-												<top>2</top>
-												<width>31</width>
-												<height>31</height>
-												<texture>$INFO[listitem.icon]</texture>
-										</control>
-										<control type="label">
-												<left>45</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<font>size_20</font>
-												<align>left</align>
-												<aligny>center</aligny>
-												<selectedcolor>blue</selectedcolor>
-												<info>ListItem.Label</info>
-										</control>
-								</itemlayout>
-								<focusedlayout height="40" width="300">
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<visible>!Control.HasFocus(451)</visible>
-												<texture border="5">button-nofocus.png</texture>
-										</control>
-										<control type="image">
-												<left>0</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<visible>Control.HasFocus(451)</visible>
-												<texture border="5">button-focus.png</texture>
-										</control>
-										<control type="image">
-												<left>10</left>
-												<top>2</top>
-												<width>31</width>
-												<height>31</height>
-												<texture>$INFO[listitem.icon]</texture>
-										</control>
-										<control type="label">
-												<left>45</left>
-												<top>0</top>
-												<width>300</width>
-												<height>35</height>
-												<font>size_20</font>
-												<align>left</align>
-												<aligny>center</aligny>
-												<selectedcolor>blue</selectedcolor>
-												<info>ListItem.Label</info>
-										</control>
-								</focusedlayout>
-						</control>
-						<control type="label">
-								<description>Page label</description>
-								<left>50</left>
-								<top>370</top>
-								<width>560</width>
-								<height>30</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_20</font>
-								<label>($INFO[Container(450).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages])</label>
-								<visible>!Control.IsVisible(451)</visible>
-						</control>
-						<control type="label">
-								<description>Page label</description>
-								<left>50</left>
-								<top>370</top>
-								<width>560</width>
-								<height>30</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_20</font>
-								<label>($INFO[Container(451).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(451).CurrentPage]/$INFO[Container(451).NumPages])</label>
-								<visible>Control.IsVisible(451)</visible>
-						</control>
-						<control type="group" id="9000">
-								<control type="button" id="413">
-										<description>OK button</description>
-										<left>170</left>
-										<top>410</top>
-										<width>100</width>
-										<height>40</height>
-										<align>center</align>
-										<label>186</label>
-										<texturenofocus border="3">button-nofocus.png</texturenofocus>
-										<texturefocus border="3">button-focus2.png</texturefocus>
-										<onleft>416</onleft>
-										<onright>414</onright>
-										<onup>450</onup>
-										<ondown>450</ondown>
-								</control>
-								<control type="button" id="414">
-										<description>Cancel button</description>
-										<left>282.5</left>
-										<top>410</top>
-										<width>100</width>
-										<height>40</height>
-										<align>center</align>
-										<label>222</label>
-										<texturenofocus border="3">button-nofocus.png</texturenofocus>
-										<texturefocus border="3">button-focus2.png</texturefocus>
-										<onleft>413</onleft>
-										<onright>415</onright>
-										<onup>450</onup>
-										<ondown>450</ondown>
-								</control>
-								<control type="button" id="415">
-										<description>Create folder button</description>
-										<left>395</left>
-										<top>410</top>
-										<width>100</width>
-										<height>40</height>
-										<align>center</align>
-										<label>119</label>
-										<texturenofocus border="3">button-nofocus.png</texturenofocus>
-										<texturefocus border="3">button-focus2.png</texturefocus>
-										<onleft>414</onleft>
-										<onright>416</onright>
-										<onup>450</onup>
-										<ondown>450</ondown>
-								</control>
-						</control>
+				<control type="button" id="414">
+					<description>Cancel button</description>
+					<left>282.5</left>
+					<top>410</top>
+					<width>100</width>
+					<height>40</height>
+					<align>center</align>
+					<label>222</label>
+					<texturenofocus border="3">button-nofocus.png</texturenofocus>
+					<texturefocus border="3">button-focus2.png</texturefocus>
+					<onleft>413</onleft>
+					<onright>415</onright>
+					<onup>450</onup>
+					<ondown>450</ondown>
 				</control>
-		</controls>
+				<control type="button" id="415">
+					<description>Create folder button</description>
+					<left>395</left>
+					<top>410</top>
+					<width>100</width>
+					<height>40</height>
+					<align>center</align>
+					<label>119</label>
+					<texturenofocus border="3">button-nofocus.png</texturenofocus>
+					<texturefocus border="3">button-focus2.png</texturefocus>
+					<onleft>414</onleft>
+					<onright>416</onright>
+					<onup>450</onup>
+					<ondown>450</ondown>
+				</control>
+			</control>
+		</control>
+	</controls>
 </window>

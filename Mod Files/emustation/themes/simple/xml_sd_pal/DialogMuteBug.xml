@@ -1,10 +1,10 @@
 <window id="113">
-		<defaultcontrol>-</defaultcontrol>
-		<coordinates>
-				<system>1</system>
-				<left>-10</left>
-				<top>-10</top>
-		</coordinates>
-		<controls>
+	<defaultcontrol>-</defaultcontrol>
+	<coordinates>
+		<system>1</system>
+		<left>-10</left>
+		<top>-10</top>
+	</coordinates>
+	<controls>
 		</controls>
 </window>

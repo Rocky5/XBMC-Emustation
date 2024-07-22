@@ -1,205 +1,205 @@
 <window type="window" id="1310">
-		<defaultcontrol always="true">9000</defaultcontrol>
-		<controls>
-				<control type="button" id="9000">
-						<left>-500</left>
-						<top>0</top>
-						<onfocus>SetFocus(1)</onfocus>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<controls>
+		<control type="button" id="9000">
+			<left>-500</left>
+			<top>0</top>
+			<onfocus>SetFocus(1)</onfocus>
+		</control>
+		<include>CommonBackground</include>
+		<control type="group">
+			<top>-48</top>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="100">WindowClose</animation>
+			<control type="image">
+				<description>background image</description>
+				<left>75</left>
+				<top>108</top>
+				<width>550</width>
+				<height>324</height>
+				<colordiffuse>menu_back_image</colordiffuse>
+				<texture border="20,20,20,20">menu_back.png</texture>
+			</control>
+			<control type="image">
+				<description>background image</description>
+				<left>75</left>
+				<top>200</top>
+				<width>550</width>
+				<height>1</height>
+				<texture>separator_menu.png</texture>
+			</control>
+			<control type="image">
+				<description>background image</description>
+				<left>75</left>
+				<top>380</top>
+				<width>550</width>
+				<height>1</height>
+				<texture>separator_menu.png</texture>
+			</control>
+			<control type="label">
+				<description>heading label</description>
+				<left>75</left>
+				<top>130</top>
+				<width>550</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>size_50</font>
+				<label>WELCOME</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+			<control type="textbox">
+				<left>105</left>
+				<top>210</top>
+				<width>475</width>
+				<height>300</height>
+				<align>center</align>
+				<aligny>-</aligny>
+				<font>size_17</font>
+				<label>[UPPERCASE]to xbmc-emustation[CR][CR]this is a pet project of mine and its a combination of a skin, python scripts and source edits to XBMC.[CR][CR]so don't expect something spectacular.[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+				<visible>Control.HasFocus(1)</visible>
+				<animation effect="fade" time="200">hidden</animation>
+			</control>
+			<control type="grouplist">
+				<control type="button" id="1">
+					<left>-500</left>
+					<top>0</top>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<onclick>SetFocus(2)</onclick>
 				</control>
-				<include>CommonBackground</include>
-				<control type="group">
-						<top>-48</top>
-						<animation effect="fade" time="250">WindowOpen</animation>
-						<animation effect="fade" time="100">WindowClose</animation>
-						<control type="image">
-								<description>background image</description>
-								<left>75</left>
-								<top>108</top>
-								<width>550</width>
-								<height>324</height>
-								<colordiffuse>menu_back_image</colordiffuse>
-								<texture border="20,20,20,20">menu_back.png</texture>
-						</control>
-						<control type="image">
-								<description>background image</description>
-								<left>75</left>
-								<top>200</top>
-								<width>550</width>
-								<height>1</height>
-								<texture>separator_menu.png</texture>
-						</control>
-						<control type="image">
-								<description>background image</description>
-								<left>75</left>
-								<top>380</top>
-								<width>550</width>
-								<height>1</height>
-								<texture>separator_menu.png</texture>
-						</control>
-						<control type="label">
-								<description>heading label</description>
-								<left>75</left>
-								<top>130</top>
-								<width>550</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>center</aligny>
-								<font>size_50</font>
-								<label>WELCOME</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
-						<control type="textbox">
-								<left>105</left>
-								<top>210</top>
-								<width>475</width>
-								<height>300</height>
-								<align>center</align>
-								<aligny>-</aligny>
-								<font>size_17</font>
-								<label>[UPPERCASE]to xbmc-emustation[CR][CR]this is a pet project of mine and its a combination of a skin, python scripts and source edits to XBMC.[CR][CR]so don't expect something spectacular.[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-								<visible>Control.HasFocus(1)</visible>
-								<animation effect="fade" time="200">hidden</animation>
-						</control>
-						<control type="grouplist">
-								<control type="button" id="1">
-										<left>-500</left>
-										<top>0</top>
-										<texturefocus>-</texturefocus>
-										<texturenofocus>-</texturenofocus>
-										<onclick>SetFocus(2)</onclick>
-								</control>
-						</control>
-						<control type="textbox">
-								<left>105</left>
-								<top>230</top>
-								<width>475</width>
-								<height>300</height>
-								<align>center</align>
-								<aligny>-</aligny>
-								<font>size_17</font>
-								<label>[UPPERCASE]emulator files are placed in the subdirectories inside the [B]emustation\emulators\[/B] directory.[CR][CR]Roms are placed in the subdirectories inside the [B]emustation\roms\[/B] directory[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-								<visible>Control.HasFocus(2)</visible>
-								<animation effect="fade" time="200">visible</animation>
-								<animation effect="fade" time="200">hidden</animation>
-						</control>
-						<control type="grouplist">
-								<control type="button" id="2">
-										<left>-500</left>
-										<top>0</top>
-										<texturefocus>-</texturefocus>
-										<texturenofocus>-</texturenofocus>
-										<onclick>SetFocus(3)</onclick>
-								</control>
-						</control>
-						<control type="textbox">
-								<left>105</left>
-								<top>240</top>
-								<width>475</width>
-								<height>300</height>
-								<align>center</align>
-								<aligny>-</aligny>
-								<font>size_17</font>
-								<label>[UPPERCASE]only exception to using the [B]emustation\roms\[/B] folder is the Atari Jaguar system, its roms must go in the roms folder in the root of its emulator folder.[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-								<visible>Control.HasFocus(3)</visible>
-								<animation effect="fade" time="200">visible</animation>
-								<animation effect="fade" time="200">hidden</animation>
-						</control>
-						<control type="grouplist">
-								<control type="button" id="3">
-										<left>-500</left>
-										<top>0</top>
-										<texturefocus>-</texturefocus>
-										<texturenofocus>-</texturenofocus>
-										<onclick>SetFocus(4)</onclick>
-								</control>
-						</control>
-						<control type="textbox">
-								<left>105</left>
-								<top>220</top>
-								<width>475</width>
-								<height>300</height>
-								<align>center</align>
-								<aligny>-</aligny>
-								<font>size_17</font>
-								<label>[UPPERCASE]png images and preview videos are placed in the subdirectories inside the [B]emustation\media\&lt;system&gt;\[/B] directories. You match the image/video to the rom name.[CR][CR]image example:[CR]Mario world.zip = mario world.jpg[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-								<visible>Control.HasFocus(4)</visible>
-								<animation effect="fade" time="200">visible</animation>
-								<animation effect="fade" time="200">hidden</animation>
-						</control>
-						<control type="grouplist">
-								<control type="button" id="4">
-										<left>-500</left>
-										<top>0</top>
-										<texturefocus>-</texturefocus>
-										<texturenofocus>-</texturenofocus>
-										<onclick>SetFocus(5)</onclick>
-								</control>
-						</control>
-						<control type="textbox">
-								<left>105</left>
-								<top>210</top>
-								<width>475</width>
-								<height>300</height>
-								<align>center</align>
-								<aligny>-</aligny>
-								<font>size_17</font>
-								<label>[UPPERCASE][CR]i will now let you calibrate your screen.[CR][CR]reason, it will give you the best experience.[CR]( as your screen wont be cut off )[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-								<visible>Control.HasFocus(5)</visible>
-								<animation effect="fade" time="200">visible</animation>
-								<animation effect="fade" time="200">hidden</animation>
-						</control>
-						<control type="grouplist">
-								<control type="button" id="5">
-										<left>-500</left>
-										<top>0</top>
-										<texturefocus>-</texturefocus>
-										<texturenofocus>-</texturenofocus>
-										<onclick>Skin.SetBool(firstrun)</onclick>
-										<onclick>ReplaceWindow(guicalibration)</onclick>
-										<onclick>RunScript(special://emustation_scripts/refresh_carousel.py,scan_emus,0,scan_xbes,silent_mode)</onclick>
-								</control>
-						</control>
-						<!-- <control type="grouplist"> -->
-						<!-- <left>470</left> -->
-						<!-- <top>260</top> -->
-						<!-- <width>340</width> -->
-						<!-- <height>50</height> -->
-						<!-- <control type="button" id="6"> -->
-						<!-- <left>0</left> -->
-						<!-- <top>0</top> -->
-						<!-- <width>340</width> -->
-						<!-- <height>50</height> -->
-						<!-- <font>size_23</font> -->
-						<!-- <align>center</align> -->
-						<!-- <aligny>center</aligny> -->
-						<!-- <label>$LOCALIZE[32022]</label> -->
-						<!-- <textcolor>menu_nofocus_label</textcolor> -->
-						<!-- <focusedcolor>menu_focus_label</focusedcolor> -->
-						<!-- <shadowcolor>-</shadowcolor> -->
-						<!-- <textoffsetx>10</textoffsetx> -->
-						<!-- <texturefocus border="5">button-focus4.png</texturefocus> -->
-						<!-- <texturenofocus>button-nofocus4.png</texturenofocus> -->
-						<!-- <onclick>ReplaceWindow(guicalibration)</onclick> -->
-						<!-- <visible allowhiddenfocus="true">Control.HasFocus(6)</visible> -->
-						<!-- </control> -->
-						<!-- </control> -->
-						<control type="label">
-								<description>footer label</description>
-								<left>80</left>
-								<top>395</top>
-								<width>550</width>
-								<height>50</height>
-								<align>center</align>
-								<aligny>-</aligny>
-								<font>size_17</font>
-								<label>[UPPERCASE]press (a) to continue[/UPPERCASE]</label>
-								<textcolor>menu_header_label</textcolor>
-						</control>
+			</control>
+			<control type="textbox">
+				<left>105</left>
+				<top>230</top>
+				<width>475</width>
+				<height>300</height>
+				<align>center</align>
+				<aligny>-</aligny>
+				<font>size_17</font>
+				<label>[UPPERCASE]emulator files are placed in the subdirectories inside the [B]emustation\emulators\[/B] directory.[CR][CR]Roms are placed in the subdirectories inside the [B]emustation\roms\[/B] directory[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+				<visible>Control.HasFocus(2)</visible>
+				<animation effect="fade" time="200">visible</animation>
+				<animation effect="fade" time="200">hidden</animation>
+			</control>
+			<control type="grouplist">
+				<control type="button" id="2">
+					<left>-500</left>
+					<top>0</top>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<onclick>SetFocus(3)</onclick>
 				</control>
-		</controls>
+			</control>
+			<control type="textbox">
+				<left>105</left>
+				<top>240</top>
+				<width>475</width>
+				<height>300</height>
+				<align>center</align>
+				<aligny>-</aligny>
+				<font>size_17</font>
+				<label>[UPPERCASE]only exception to using the [B]emustation\roms\[/B] folder is the Atari Jaguar system, its roms must go in the roms folder in the root of its emulator folder.[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+				<visible>Control.HasFocus(3)</visible>
+				<animation effect="fade" time="200">visible</animation>
+				<animation effect="fade" time="200">hidden</animation>
+			</control>
+			<control type="grouplist">
+				<control type="button" id="3">
+					<left>-500</left>
+					<top>0</top>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<onclick>SetFocus(4)</onclick>
+				</control>
+			</control>
+			<control type="textbox">
+				<left>105</left>
+				<top>220</top>
+				<width>475</width>
+				<height>300</height>
+				<align>center</align>
+				<aligny>-</aligny>
+				<font>size_17</font>
+				<label>[UPPERCASE]png images and preview videos are placed in the subdirectories inside the [B]emustation\media\&lt;system&gt;\[/B] directories. You match the image/video to the rom name.[CR][CR]image example:[CR]Mario world.zip = mario world.jpg[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+				<visible>Control.HasFocus(4)</visible>
+				<animation effect="fade" time="200">visible</animation>
+				<animation effect="fade" time="200">hidden</animation>
+			</control>
+			<control type="grouplist">
+				<control type="button" id="4">
+					<left>-500</left>
+					<top>0</top>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<onclick>SetFocus(5)</onclick>
+				</control>
+			</control>
+			<control type="textbox">
+				<left>105</left>
+				<top>210</top>
+				<width>475</width>
+				<height>300</height>
+				<align>center</align>
+				<aligny>-</aligny>
+				<font>size_17</font>
+				<label>[UPPERCASE][CR]i will now let you calibrate your screen.[CR][CR]reason, it will give you the best experience.[CR]( as your screen wont be cut off )[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+				<visible>Control.HasFocus(5)</visible>
+				<animation effect="fade" time="200">visible</animation>
+				<animation effect="fade" time="200">hidden</animation>
+			</control>
+			<control type="grouplist">
+				<control type="button" id="5">
+					<left>-500</left>
+					<top>0</top>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<onclick>Skin.SetBool(firstrun)</onclick>
+					<onclick>ReplaceWindow(guicalibration)</onclick>
+					<onclick>RunScript(special://emustation_scripts/refresh_carousel.py,scan_emus,0,scan_xbes,silent_mode)</onclick>
+				</control>
+			</control>
+			<!-- <control type="grouplist"> -->
+			<!-- <left>470</left> -->
+			<!-- <top>260</top> -->
+			<!-- <width>340</width> -->
+			<!-- <height>50</height> -->
+			<!-- <control type="button" id="6"> -->
+			<!-- <left>0</left> -->
+			<!-- <top>0</top> -->
+			<!-- <width>340</width> -->
+			<!-- <height>50</height> -->
+			<!-- <font>size_23</font> -->
+			<!-- <align>center</align> -->
+			<!-- <aligny>center</aligny> -->
+			<!-- <label>$LOCALIZE[32022]</label> -->
+			<!-- <textcolor>menu_nofocus_label</textcolor> -->
+			<!-- <focusedcolor>menu_focus_label</focusedcolor> -->
+			<!-- <shadowcolor>-</shadowcolor> -->
+			<!-- <textoffsetx>10</textoffsetx> -->
+			<!-- <texturefocus border="5">button-focus4.png</texturefocus> -->
+			<!-- <texturenofocus>button-nofocus4.png</texturenofocus> -->
+			<!-- <onclick>ReplaceWindow(guicalibration)</onclick> -->
+			<!-- <visible allowhiddenfocus="true">Control.HasFocus(6)</visible> -->
+			<!-- </control> -->
+			<!-- </control> -->
+			<control type="label">
+				<description>footer label</description>
+				<left>80</left>
+				<top>395</top>
+				<width>550</width>
+				<height>50</height>
+				<align>center</align>
+				<aligny>-</aligny>
+				<font>size_17</font>
+				<label>[UPPERCASE]press (a) to continue[/UPPERCASE]</label>
+				<textcolor>menu_header_label</textcolor>
+			</control>
+		</control>
+	</controls>
 </window>
