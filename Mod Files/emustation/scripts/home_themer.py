@@ -143,7 +143,6 @@ if Init_Run == "0":
 	xbmc.executebuiltin('Dialog.Close(all,true)')
 
 if Init_Run == "1":
-	time.sleep(1)
 	# This will determine what screen is loaded.
 	if xbmc.getCondVisibility('!Skin.HasSetting(firstrun)'):
 		xbmc.executebuiltin('ReplaceWindow(Home)') # loaded so back works

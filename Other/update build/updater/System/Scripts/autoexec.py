@@ -214,7 +214,17 @@ if os.path.isfile("Z:/temp/tmp.bin"):
 	if os.path.isdir(os.path.join(Root_Directory,'emustation/themes/simple/xml_sd_ntsc')):
 		os.rename( os.path.join(Root_Directory,'emustation/themes/simple/xml_sd_ntsc'), os.path.join(Root_Directory,'emustation/themes/simple/.xml_sd_ntsc') )
 ## Write the cleanup script and reload the dashboard xbe
-autoexec_data = "import os, shutil, time\nif os.path.isdir('Q:/Updater'):\n	time.sleep(5)\n	xbmc.executebuiltin('RunScript(Special://emustation_scripts/text_reader.py,0,Special://root/system/SystemInfo/changes.txt)')\n	shutil.copy2('Q:/Updater/system/xbmc.log','Q:/system/xbmc-updater.log')\n	shutil.rmtree('Q:/Updater')\n	os.remove('E:/CACHE/tmp.bin')\n	os.remove('Q:/system/nointroplay')"
+autoexec_data = '''import os, shutil, time, xbmc, xbmcgui
+if os.path.isdir('Q:/Updater') and os.path.isfile('E:/CACHE/tmp.bin'):
+	while True:
+		time.sleep(0.5)
+		if xbmc.getCondVisibility('Window.IsVisible(0)'):
+			xbmcgui.Dialog().textviewer('Changes.txt', open('Special://root/system/SystemInfo/changes.txt).read())
+			shutil.copy2('Q:/Updater/system/xbmc.log','Q:/system/xbmc-updater.log')
+			shutil.rmtree('Q:/Updater')
+			os.remove('E:/CACHE/tmp.bin')
+			os.remove('Q:/system/nointroplay')
+			break'''
 with open(os.path.join(Root_Directory,'system/scripts/autoexec.py') , 'w') as autoexec: autoexec.write(autoexec_data)
 with open(os.path.join(Root_Directory,'system/nointroplay'), 'w') as tmp: tmp.write('')
 with open("E:/CACHE/tmp.bin", 'w') as tmp: tmp.write('')
