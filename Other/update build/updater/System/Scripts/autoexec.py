@@ -219,7 +219,7 @@ if os.path.isdir('Q:/Updater') and os.path.isfile('E:/CACHE/tmp.bin'):
 	while True:
 		time.sleep(0.5)
 		if xbmc.getCondVisibility('Window.IsVisible(0)'):
-			xbmcgui.Dialog().textviewer('Changes.txt', open('Special://root/system/SystemInfo/changes.txt).read())
+			xbmcgui.Dialog().textviewer('Changes.txt', open('Special://root/system/SystemInfo/changes.txt').read())
 			shutil.copy2('Q:/Updater/system/xbmc.log','Q:/system/xbmc-updater.log')
 			shutil.rmtree('Q:/Updater')
 			os.remove('E:/CACHE/tmp.bin')
