@@ -21,9 +21,9 @@ dprogress = DialogProgress()
 working_directory = os.getcwd() + "/"
 
 # Updated to new location
-URLDownloader_Bin = "1UvxE7X485CTSLAccmpkUb8NTMoI9u7va~versions/URLDownloader.bin"
-DownloadList_Bin = "1X_2u2-5Ace2IvLKklVAsyHDHj9pMkJw-~versions/DownloadList.bin"
-URLDownloader_Zip = "1zg_K10VAAn7O6KvBbCBtxGjLftmT6m9g~updates/URLDownloader.zip"
+URLDownloader_Bin = "1jX2Y5wUHeT0-3hSAAfce3bI0xG7aOUoI~versions/URLDownloader.bin"
+DownloadList_Bin = "1jKhRDRa-Enk9eev0jovhpFr6rnQbedf8~versions/DownloadList.bin"
+URLDownloader_Zip = "1j568Tyojriizqflk3LGW4JUbEn4NuplD~updates/URLDownloader.zip"
 
 
 def download_url(url):
@@ -216,7 +216,7 @@ def get_confirm_token(response):
 
 
 def save_response_content(response, dest_path, showprogress, current_size, zipsize, filename):
-	percent = 0
+	percent = 1
 	current_size = int(current_size)
 	StartTime = time.clock()
 	CHUNK_SIZE = 256 * 1024
@@ -258,7 +258,7 @@ def save_response_content(response, dest_path, showprogress, current_size, zipsi
 						raise Exception("User cancelled download")
 
 
-def extract_file(file, rename_emus):
+def extract_file(file, source_name, rename_stuff):
 	if os.path.isfile(file):
 		if not os.path.exists(translatePath(install_path)):
 			os.makedirs(translatePath(install_path))
@@ -273,7 +273,7 @@ def extract_file(file, rename_emus):
 			filename.replace(".zip", ""),
 			"This may take some time, please be patient."
 		)
-		extract.all(file, zippath, rename_emus, dprogress)
+		extract.all(file, zippath, source_name, rename_stuff, dprogress)
 
 
 def download_update_check(url):
@@ -400,13 +400,10 @@ def calculate_sha256(file_path):
 
 	with open(file_path, "rb", buffering=read_buffer) as f:
 		while True:
-			if not pDialog.iscanceled():
-				data = f.read(read_buffer)
-				hash.update(data)
-				current_data += len(data)
-				if not data:
-					break
-			else:
+			data = f.read(read_buffer)
+			hash.update(data)
+			current_data += len(data)
+			if not data:
 				break
 	
 	return hash.hexdigest()
@@ -566,7 +563,8 @@ try:
 		update_path = 'Z:/temp/'
 		udhashlibmd5 = hashlib.md5()
 		hashlibsha1 = hashlib.sha1
-		rename_emus = ""
+		rename_stuff = ""
+		source_name = ""
 		dlcmode = 0
 		skip = 0
 		xawinstal = 0
@@ -657,11 +655,23 @@ try:
 							if os.path.isfile('C:\\xboxdash.xbe'):
 								# this is the sha256 hash of the softmod xboxdash.xbe
 								if calculate_sha256('C:\\xboxdash.xbe') == "3ae2f3eae3917e0130d1e1a5c8e1c5df207ea31703646a174d98f7be9a769495":
-									raise Exception("WARNING: POTENTIAL SOFTMOD FOUND")
+									source_name = getInfoLabel('Skin.String(downloader_label)')
+									rename_stuff = "msdash"
+									if not dialog.yesno(
+										'WARNING: POTENTIAL SOFTMOD FOUND',
+										"Would you like me to patch the files to ensure compatibility with the[CR]softmod/BFM Bios? A shortcut to the new xb0xdash.xbe will be placed[CR]in the Applications folder."
+										"",
+										"",
+										"",
+										xbmc.getLocalizedString(106),
+										xbmc.getLocalizedString(107)
+									):
+										raise Exception("WARNING: POTENTIAL SOFTMOD FOUND")
 						
 						if install_path == "":
 							if getInfoLabel('Skin.String(dashboard_name)').lower() == 'xbmc4gamers' and 'emulators' in getInfoLabel('Skin.String(downloader_thumb)').lower():
-								rename_emus = getInfoLabel('Skin.String(downloader_label)')
+								source_name = getInfoLabel('Skin.String(downloader_label)')
+								rename_stuff = "emulator"
 							
 							install_path = dialog.browse(3,'Select destination folder','files','')
 							
@@ -703,7 +713,7 @@ try:
 										) # Disable the cancel button
 										
 										try:
-											extract_file(file,rename_emus)
+											extract_file(file,source_name,rename_stuff)
 											os.remove(file)
 											
 											if dlcmode: # If DLC process the files
@@ -719,7 +729,9 @@ try:
 												if not os.path.isdir('E:\\UDATA\\09999993'):
 													os.makedirs('E:\\UDATA\\09999993')
 												with open('E:\\UDATA\\09999993\\location.bin','w') as input:
-													input.write(install_path)
+													if 'online' in check_filename.lower():
+														input.write("{}Xbox Artwork Installer Online".format(install_path))
+													else: input.write("{}Xbox Artwork Installer".format(install_path))
 											
 											if check_filename == "xbmc-emustation-update-files.zip" or check_filename == "xbmc-emustation-test-build.zip" and os.path.isfile(translatePath('Special://xbmc/updater/default.xbe')):
 												dprogress.close()
@@ -830,11 +842,7 @@ try:
 					except Exception as error:
 						dialog.ok(
 							'WARNING: POTENTIAL SOFTMOD FOUND',
-							"Installing to the C:\\ drive could potentially break your softmod.[CR]If you're running without a shadowC partition or a BFM BIOS,[CR]you will need to do a manual install."
-						)
-						dialog.ok(
-							'WARNING: POTENTIAL SOFTMOD FOUND',
-							"If this is a false positive, please fix or clean your C partition.[CR]There are files on there that are used for softmods.[CR][CR]Proceed with caution."
+							"If this was/is a false positive, please fix or clean your C partition.[CR]It contains files that are used for softmods.[CR][CR]Please proceed with caution."
 						)
 					
 				else:

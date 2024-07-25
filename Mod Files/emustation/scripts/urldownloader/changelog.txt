@@ -1,6 +1,7 @@
 2.1.1
 1) Added softmod detection for stuff thats installed to C.
 (MSDash, UIX Lite etc...)
+2) Patch the MSDash or UIX Ultra Lite to work alongside the softmod.
 
 2.1.0
 1) Now rename emulators for XBMC4Gamers so they don't follow the XBMC-Emustation naming scheme.
