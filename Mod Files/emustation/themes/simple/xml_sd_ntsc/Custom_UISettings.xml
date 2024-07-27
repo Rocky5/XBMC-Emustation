@@ -140,16 +140,25 @@
 					<selected>Skin.HasSetting(reloademustation)</selected>
 				</control>
 				<control type="radiobutton" id="22">
+					<description>Enable Time</description>
+					<left>0</left>
+					<top>0</top>
+					<label>[UPPERCASE]$LOCALIZE[31274][/UPPERCASE]</label>
+					<include>MenuButtonMenuAltValues</include>
+					<onclick>Skin.ToggleSetting(DisplayTime)</onclick>
+					<selected>Skin.HasSetting(DisplayTime)</selected>
+				</control>
+				<control type="radiobutton" id="23">
 					<description>Enable Intro</description>
 					<left>0</left>
 					<top>0</top>
 					<label>[UPPERCASE]$LOCALIZE[31269][/UPPERCASE]</label>
-					<include>MenuButtonMenuValues</include>
+					<include>MenuButtonMenuAltValues</include>
 					<onclick>Skin.ToggleSetting(introenabled)</onclick>
 					<onclick>RunScript( special://emustation_scripts/toggle_advancedsettings_settings.py,enableintro,splash )</onclick>
 					<selected>Skin.HasSetting(introenabled)</selected>
 				</control>
-				<control type="radiobutton" id="23">
+				<control type="radiobutton" id="24">
 					<description>Enable Kiosk Mode</description>
 					<left>0</left>
 					<top>0</top>

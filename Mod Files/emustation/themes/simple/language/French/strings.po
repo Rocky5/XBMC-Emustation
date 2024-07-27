@@ -229,6 +229,10 @@ msgctxt "#31273"
 msgid "sd resolution support"
 msgstr "prise en charge de la résolution sd"
 
+msgctxt "#31274"
+msgid "clock"
+msgstr "horloge"
+
 ## customization - custom_customizehome.xml - 31290 to 31319
 
 msgctxt "#31290"

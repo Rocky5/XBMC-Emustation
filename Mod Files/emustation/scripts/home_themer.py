@@ -66,6 +66,7 @@ Header_Data			= '''<window id="10000">
 Footer_Data				= '''
 	</control>
 	<include>overlay_plane</include>
+	<include>clock</include>
 	</controls>
 </window>'''
 

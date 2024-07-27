@@ -172,5 +172,6 @@
 				<!-- </item> -->
 			</content>
 		</control>
+		<include>clock</include>
 	</controls>
 </window>

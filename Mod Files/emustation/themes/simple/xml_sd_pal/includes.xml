@@ -30,6 +30,41 @@
 	<include name="overlay_plane">
 		<include condition="System.Date(12-23,12-29) + !Skin.HasSetting(festiveoverlaydisabled)">snow</include>
 	</include>
+	<include name="clock">
+		<control type="label">
+			<left>20r</left>
+			<top>6</top>
+			<width>200</width>
+			<height>45</height>
+			<align>right</align>
+			<label>$INFO[System.Time]</label>
+			<textcolor>context_buttons_layouts</textcolor>
+			<shadowcolor>50000000</shadowcolor>
+			<visible>Skin.HasSetting(DisplayTime) + Window.IsActive(programs)</visible>
+		</control>
+		<control type="label">
+			<left>20r</left>
+			<top>6</top>
+			<width>200</width>
+			<height>45</height>
+			<align>right</align>
+			<label>$INFO[System.Time]</label>
+			<textcolor>$VAR[var-context_buttons_home]</textcolor>
+			<shadowcolor>50000000</shadowcolor>
+			<visible>Skin.HasSetting(DisplayTime) + Window.IsActive(home)</visible>
+		</control>
+		<control type="label">
+			<left>20r</left>
+			<top>6</top>
+			<width>200</width>
+			<height>45</height>
+			<align>right</align>
+			<label>$INFO[System.Time]</label>
+			<textcolor>FF323637</textcolor>
+			<shadowcolor>50000000</shadowcolor>
+			<visible>Skin.HasSetting(DisplayTime) + !Window.IsActive(programs) + !Window.IsActive(home)</visible>
+		</control>
+	</include>
 	<include name="CarouselLabels">
 		<control type="label">
 			<include>CarouselLabelCommonValues</include>

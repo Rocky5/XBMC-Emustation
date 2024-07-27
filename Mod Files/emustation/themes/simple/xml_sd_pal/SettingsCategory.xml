@@ -126,5 +126,6 @@
 				<orientation>vertical</orientation>
 			</control>
 		</control>
+		<include>clock</include>
 	</controls>
 </window>

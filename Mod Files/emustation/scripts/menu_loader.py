@@ -163,6 +163,7 @@ Header_Data_EMU	= '''<window type="window" id="1">
 '''
 Footer_Data_EMU	= '''
 	</control>
+	<include>clock</include>
 	</controls>
 	</window>
 '''
@@ -176,6 +177,7 @@ Header_Data_FAVS	= '''<window type="dialog" id="134">
 			<onfocus>SetFocus(1000)</onfocus>
 		</control>\n'''
 Footer_Data_FAVS	= '''
+	<include>clock</include>
 	</controls>
 	</window>
 '''
@@ -226,6 +228,7 @@ Header_Data_XBE	= '''<window id="1">
 '''
 Footer_Data_XBE	= '''
 	</control>
+	<include>clock</include>
 	</controls>
 	</window>
 '''
