@@ -24,7 +24,7 @@
 		</global>
 		<Home>
 				<gamepad>
-						<B>highlight</B>
+						<B>SetFocus(9000,1)</B>
 						<Y>RunScript(Special://XBMC/emustation/scripts/direct_launch_emulator.py)</Y>
 						<start>XBMC.ActivateWindow(1111)</start>
 						<back>SetFocus(9999)</back>

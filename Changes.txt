@@ -4,12 +4,18 @@ Welcome to XBMC-Emustation v2.0
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-28/07/2024
-	1) Added a clock to the top right, enable it under UI Settings.
+31/07/2024
+	1) Fixed adding favourties not working correctly.
+	2) Now when you press B on the homescreen it will goto the first item in the list.
+		(handy to access favs quicker)
+	3) Create_Rom_List.py - SegaCD can parse CHD files now.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Previous Updates:
+
+28/07/2024
+	1) Added a clock to the top right, enable it under UI Settings.
 
 08/07/2024
 	1) Fixed N64 parsing of roms when using the EarthWormJames 212 pack.

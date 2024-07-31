@@ -292,7 +292,7 @@ def Main_Code():
 					Parse_SubFolder = 1
 					Folderize_Images = 1
 				else:
-					Parse_CUE_File = 1
+					Parse_CUE_CCD_CHD_ISO_File = 1
 				Parse_ROM_TXT = 0
 			elif Emu_Name == "psx":
 				Parse_CUE_CCD_CHD_ISO_File = 1
