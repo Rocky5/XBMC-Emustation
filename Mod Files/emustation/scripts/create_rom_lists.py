@@ -400,9 +400,10 @@ def Main_Code():
 
 	## Checking filenames case and not leading with capital renaming it to do so.
 					if not Emu_Name == "xbox" and not Emu_Name == "ports" and not Emu_Name == "homebrew" and not Emu_Name == "fba" and not Emu_Name == "fbl" and not Emu_Name == "fblc" and not Emu_Name == "fbaxxx" and not Emu_Name == "mame":
-						pDialog.update(0,'Checking [B]'+Emu_Name+'[/B] Rom filename casing','','This can take some time, please be patient.')
+						pDialog.update(0,'Checking [B]'+Emu_Name+'[/B] Rom filename & casing','','This can take some time, please be patient.')
 						for Roms in sorted(os.listdir(Roms_Folder)):
 							Items_Full_Path = os.path.join(Roms_Folder,Roms)
+							Items_Full_Path_Lower = os.path.join(Roms_Folder,Roms.lower())
 							if Items_Full_Path != os.path.join(Roms_Folder,Roms.lower()):
 							#if Items_Full_Path != os.path.join(Roms_Folder,Roms.capitalize()):
 								tempname = Items_Full_Path[:-1]+"_"
@@ -412,7 +413,21 @@ def Main_Code():
 									#os.rename(tempname, os.path.join(Roms_Folder,Roms.capitalize()))
 									pDialog.update((RenameCount * 100) / len(os.listdir(Roms_Folder)),'Lower-casing rom names','[B]'+Roms+'[/B]','This can take some time, please be patient.')
 							RenameCount = RenameCount+1
-
+							last_open_paren_index = Items_Full_Path_Lower.rfind('(')
+							if last_open_paren_index != -1:
+								# Check if ')' exists after the last '('
+								if ')' not in Items_Full_Path_Lower[last_open_paren_index:]:
+									base_name, extension = os.path.splitext(Items_Full_Path_Lower)
+									new_name = base_name[:last_open_paren_index].rstrip()
+									try:
+										os.rename(Items_Full_Path_Lower, new_name + extension)
+									except OSError:
+										new_name = base_name[:last_open_paren_index].rstrip() + "~"
+										os.rename(Items_Full_Path_Lower, new_name + extension)
+									base_name = os.path.join(Synopsis_Path,Emu_Name,os.path.basename(base_name)+'.txt')
+									new_name = os.path.join(Synopsis_Path,Emu_Name,os.path.basename(new_name)+'.txt')
+									if os.path.isfile(base_name):
+										os.rename(base_name, new_name)
 
 	## Checking for .png artwork files and changing them to .jpg.
 					if not Emu_Name == "xbox" and not Emu_Name == "ports" and not Emu_Name == "homebrew":
@@ -427,7 +442,8 @@ def Main_Code():
 								if os.path.isfile(PNG_File[:-4]+NewArtExt): os.remove(PNG_File[:-4]+NewArtExt); os.rename(PNG_File,PNG_File[:-4]+NewArtExt)
 							pDialog.update((ArtworkCount * 100) / ArtworkTotal,'Checking [B]'+Emu_Name+'[/B] artwork file extensions',''+str(ArtworkTotal - ArtworkCount)+' - images left','This can take some time, please be patient.')
 							ArtworkCount = ArtworkCount+1
-		
+
+
 	## Sort ISO/CUE files into folders along with the rest of its files
 					if Folderize_Images:
 						# Unfolderlize used by me for testing
@@ -1338,6 +1354,7 @@ def Main_Code():
 								if CreateDialog: CreateDialog = 0; pDialog.update(0,'Building [B][UPPERCASE]'+Emu_Name+'[/UPPERCASE][/B] Game list','','This can take some time, please be patient.')
 								## Show the progress bar progress and write rom list file.
 								RomListCount = RomListCount+1
+								GamelistOuput = ""
 								
 								# with open(os.path.join(Games_List_Path,'gamelist.xml'),"a") as outputmenufile:
 								if Emu_Name == "fba" or Emu_Name == "fbl" or Emu_Name == "fblc" or Emu_Name == "fbaxxx":

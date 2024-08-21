@@ -188,5 +188,6 @@ if not SilentMode == "silent_mode":
 	pDialog.close()
 	xbmc.executebuiltin("Notification(Complete,Carousel Information Updated)")
 	xbmcgui.Window(xbmcgui.getCurrentWindowId()).setProperty("MyScript.ExternalRunning", "False")
+	xbmc.executebuiltin('RunScript(special://emustation_scripts/update_favs_counter.py)')
 else:
-	xbmc.executebuiltin('RunScript(Q:\\emustation\\scripts\\update_favs_counter.py)')
+	xbmc.executebuiltin('RunScript(special://emustation_scripts/update_favs_counter.py)')

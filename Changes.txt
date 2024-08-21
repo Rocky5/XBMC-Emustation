@@ -1,18 +1,28 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Welcome to XBMC-Emustation v2.0
+Version 2.0.005 - 21/08/2024
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+New Features:
+	
+Bug Fixes:
+	1) Fixed scan issue where 'GamelistOuput' referenced before assignment
+	
+Improvements:
+	1) Create_Roms_List.py will fix files that end in ( as it breaks command line launching.
+	2) renamed the sortlist system file names that use é to use e instead.
+	3) Optimized a few scripts, cleaned them up etc....
+	4) If Game Auto Region is enabled launching Xbox Games will follow the suit.
+		(it always has but now it will not set region if it's disabled and will also use what region you choose when in XBE Edit Mode)
+
+___________________________________________________________________________________________________________________________________
+
+
+Previous Updates:
 
 31/07/2024
 	1) Fixed adding favourties not working correctly.
 	2) Now when you press B on the homescreen it will goto the first item in the list.
 		(handy to access favs quicker)
 	3) Create_Rom_List.py - SegaCD can parse CHD files now.
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Previous Updates:
 
 28/07/2024
 	1) Added a clock to the top right, enable it under UI Settings.

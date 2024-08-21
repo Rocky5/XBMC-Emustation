@@ -1,0 +1,10 @@
+<item id="">
+		<name>$INFO[Skin.String(pokemonmini_games)]</name>
+		<systemid>pokemonmini</systemid>
+		<fullname>Nintendo Pokémon Mini</fullname>
+		<systemart>layouts/pokemonmini/art/system_art.png</systemart>
+		<logo>layouts/pokemonmini/art/logo.png</logo>
+		<onclick>SetFocus(9100)</onclick>
+		<onclick>RunScript(special://emustation_scripts/menu_loader.py)</onclick>
+		<visible>Skin.HasSetting(pokemonmini_exists)</visible>
+</item>

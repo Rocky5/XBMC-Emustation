@@ -99,7 +99,6 @@ for /f "tokens=*" %%a in ('dir /b "%foldername%\emustation\themes\simple\languag
 
 MD "%foldername%\system\SystemInfo"
 Call Other\Tools\repl.bat "	" "" L < "changes.txt" >"%foldername%\system\SystemInfo\changes.txt"
-copy /y "Source\default.xbe" "%foldername%\default.xbe"
 ren "%foldername%" "XBMC-Emustation"
 )>nul 2>&1
 

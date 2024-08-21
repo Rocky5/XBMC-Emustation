@@ -1,8 +1,9 @@
-import os
+import os, xbmc
 try:
-	Rom_Mode	= sys.argv[1:][0]
+	Rom_Mode = sys.argv[1:][0]
 except:
-	Rom_Mode	= 0
+	Rom_Mode = 0
+
 if Rom_Mode:
 	count = str(xbmc.getInfoLabel('Container(450).NumItems'))
 	if count == "0":
@@ -10,12 +11,10 @@ if Rom_Mode:
 	else:
 		xbmc.executebuiltin('Skin.SetString(favs_games,' + count + ')')
 else:
-	if not os.path.isfile(xbmc.translatePath("special://Profile/favourites.xml")):
-		f = open(xbmc.translatePath("special://Profile/favourites.xml"),"w")
-		f.write("<favourites>\n")
-		f.write("</favourites>")
-		f.close()
-	with open(xbmc.translatePath("special://Profile/favourites.xml")) as f:
+	if not os.path.isfile("special://Profile/favourites.xml"):
+		with open("special://Profile/favourites.xml","w") as f:
+			f.write("<favourites>\n</favourites>")
+	with open("special://Profile/favourites.xml") as f:
 		contents = f.read()
 		count = str(contents.count('name="'))
 		if count == "0":

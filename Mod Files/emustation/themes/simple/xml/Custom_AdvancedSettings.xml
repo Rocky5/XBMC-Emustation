@@ -50,25 +50,6 @@
 					<include>MenuButtonMenuAltValues</include>
 					<onclick>RunScript(special://emustation_scripts/text_reader.py,2, )</onclick>
 				</control>
-				<!-- requires download label -->
-				<control type="label" id="4">
-					<left>320</left>
-					<top>130</top>
-					<width>640</width>
-					<height>43</height>
-					<align>center</align>
-					<aligny>center</aligny>
-					<font>size_23</font>
-					<label>[B][UPPERCASE]$LOCALIZE[31360][/UPPERCASE][/B]</label>
-					<textcolor>menu_header_label</textcolor>
-				</control>
-				<control type="button" id="5">
-					<left>0</left>
-					<top>0</top>
-					<label>[UPPERCASE]$LOCALIZE[31354][/UPPERCASE]</label>
-					<include>MenuButtonMenuAltValues</include>
-					<onclick>RunScript(special://emustation_scripts/run_artwork_installer.py)</onclick>
-				</control>
 				<!-- custom paths -->
 				<control type="label" id="10">
 					<left>320</left>

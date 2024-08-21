@@ -67,7 +67,6 @@ del /q /s "Other\emulators\mednafenx_nes.ini"
 del /q /s "Other\emulators\xboyadvance.ini"
 rd /q /s "%foldername%\emustation\scripts\not used"
 rd /q /s "%foldername%\Emu xbe files"
-copy /y "Source\default.xbe" "%foldername%\default.xbe"
 del /q /s "%foldername%\system\userdata\guisettings.xml"
 del /q /s "%foldername%\system\userdata\advancedsettings.xml"
 rd /q /s "%foldername%\emustation\roms"
@@ -100,8 +99,7 @@ del /Q "Changes.txt"
 "C:\Program Files\7-Zip\7z.exe" a "..\Other\update build\updater\Update Files\%foldername%.zip" "*" -mx=7 -r -y
 "C:\Program Files\7-Zip\7z.exe" a "..\%output_zip%" "..\Other\update build\*" -mx=7 -r -y
 cd ..\
-del /Q "Other\update build\updater\Update Files\%foldername%-emus.zip"
-del /Q "Other\update build\updater\Update Files\%foldername%.zip"
+rd /q /s "Other\update build\updater\Update Files"
 rd /q /s "Other\emulators"
 rd /q /s "update-files"																			   
 )>nul 2>&1
