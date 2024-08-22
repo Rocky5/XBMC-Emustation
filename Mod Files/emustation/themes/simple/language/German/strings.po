@@ -378,7 +378,7 @@ msgstr "Format für die Benennung der Kurzbeschreibung verwenden"
 
 msgctxt "#31367"
 msgid "scan for segacd - iso/bin/img/mp3"
-msgstr "Nach segacd suchen - ISO/BIN/IMG/MP3"
+msgstr "Nach SegaCD suchen - ISO/BIN/IMG/MP3"
 
 msgctxt "#31368"
 msgid "view log files"
@@ -433,7 +433,7 @@ msgstr "Aktuelle Spiele zu $LOCALIZE[1036] hinzufügen"
 
 msgctxt "#31402"
 msgid "artwork type"
-msgstr "Grafiktyp"
+msgstr "Grafikentyp"
 
 msgctxt "#31403"
 msgid "enable fanart"
