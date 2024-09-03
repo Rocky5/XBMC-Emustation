@@ -8,9 +8,9 @@ import xbmcgui
 def write_igr_file():
 	if not os.path.isdir('E:\\CACHE'):
 		makedirs('E:\\CACHE')
-	with open("E:\\CACHE\\LocalCache20.bin","w") as tmp:
-		for xbe in sorted(os.listdir(xbmc.translatePath("Special://root/"))):
-			if xbe.endswith('.xbe'): tmp.write(xbmc.translatePath("Special://root/"+xbe))
+	with open('E:\\CACHE\\LocalCache20.bin','w') as tmp:
+		for xbe in sorted(os.listdir(xbmc.translatePath('Special://root/'))):
+			if xbe.endswith('.xbe'): tmp.write(xbmc.translatePath('Special://root/'+xbe))
 
 def normalize_path(path):
 	if path.startswith('Q:\\'):
@@ -22,30 +22,35 @@ def handle_scummvm_emulator(cut, Emu_Name, Rom_Name_Path, Emu_Path_XBE, Custom_E
 		xbmc.executebuiltin('Skin.SetString(emuname,scummvm)')
 		Emu_Name = 'scummvm'
 
-	gameid = "donotaddgames"
-	Game_Path = os.path.join(Custom_Emus_Path, Emu_Name, 'svms', Rom_Name_Path + ".svm")
+	gameid = 'donotaddgames'
+	Game_Path = os.path.join(Custom_Emus_Path, Emu_Name, 'svms', Rom_Name_Path + '.svm')
 	Game_Root = os.path.join(Custom_Emus_Path, Emu_Name, 'games')
+	Scum_DAT = os.path.join(Custom_Emus_Path, Emu_Name, 'scummvm.dat')
+	Scum_INI = os.path.join(Custom_Emus_Path, Emu_Name, 'scummvm.ini')
 
 	if not os.path.isdir(Game_Root):
 		os.makedirs(Game_Root)
 
-	shutil.copy2(os.path.join(Custom_Emus_Path, Emu_Name, "scummvm.ini"),
-				 os.path.join(Custom_Emus_Path, Emu_Name, "scummvm.dat"))
+	with open(Scum_INI, 'r') as file:
+		lines = file.readlines()
+	
+	if len(lines) > 41:
+		shutil.copy2(Scum_DAT, Scum_INI)
+	else:
+		shutil.copy2(Scum_INI, Scum_DAT)
 
 	with open(Game_Path) as svm:
 		svm_lines = svm.readlines()
-		for line in svm_lines:
-			if 'gameid=' in line:
-				gameid = line.split("=")[1].strip()
-				break
+		# Xbox uses the menu id instead of the actual gameid :/
+		gameid = svm_lines[0].strip().split("[")[1].replace("]", '')
 	
-	with open(os.path.join(Custom_Emus_Path, Emu_Name, "scummvm.dat")) as ini:
+	with open(os.path.join(Custom_Emus_Path, Emu_Name, 'scummvm.dat'), 'r') as ini:
 		settings = ini.readlines()
-	with open(os.path.join(Custom_Emus_Path, Emu_Name, "configs.ini"), "w") as ini:
+	with open(os.path.join(Custom_Emus_Path, Emu_Name, 'configs.ini'), 'w') as ini:
 		ini.write(''.join(settings + svm_lines))
 
 	cut.write('<shortcut><path>{}</path><custom><game>{}</game></custom></shortcut>'.format(
-		os.path.join(Custom_Emus_Path, Emu_Name, "loader.xbe"), gameid))
+		os.path.join(Custom_Emus_Path, Emu_Name, 'loader.xbe'), gameid))
 
 def handle_mame_emulator(Emu_Name, Rom_Name_Path, Custom_Emus_Path, Custom_Roms_Path):
 	if Emu_Name == 'favs':
@@ -77,13 +82,33 @@ def handle_mame_emulator(Emu_Name, Rom_Name_Path, Custom_Emus_Path, Custom_Roms_
 		pass
 	with open(os.path.join(Custom_Emus_Path, Emu_Name, 'system', 'disable_ui'), 'w'):
 		pass
+	
+	with open(os.path.join(Root_Directory,'emustation\\scripts\\return_rom.py') , 'w') as autoexec:
+		autoexec.write('''import os, shutil, time, xbmc
+if xbmc.getInfoLabel('Skin.String(emuname)') == 'mame':
+	Emu_Path_XBE = os.path.join(xbmc.getInfoLabel('skin.string(custom_emulator_path)'),xbmc.getInfoLabel('Skin.String(emuname)'))
+	Autobootrom_Path = os.path.join(xbmc.getInfoLabel('skin.string(custom_emulator_path)'),xbmc.getInfoLabel('Skin.String(emuname)'),'autobootrom')
+	EmuRom_Path = os.path.join(xbmc.getInfoLabel('skin.string(custom_roms_path)'),xbmc.getInfoLabel('Skin.String(emuname)'))
+	time.sleep(2)
+	try:
+		if os.path.isfile(os.path.join(Autobootrom_Path,'autobootrom.rom')):
+			for zip in os.listdir(Autobootrom_Path):
+				if zip.endswith('.zip'):
+					shutil.move(os.path.join(Autobootrom_Path,zip),EmuRom_Path)
+			if os.path.isfile(os.path.join(Autobootrom_Path,'clone.rom')): os.remove(Autobootrom_Path+'/clone.rom')
+			os.remove(Autobootrom_Path+'/autobootrom.rom')
+			os.rename(os.path.join(Emu_Path_XBE,'default disabled.xbe'),os.path.join(Emu_Path_XBE,'default.xbe'))
+	except: pass''')	
+	
+	cut.write('<shortcut><path>{}</path></shortcut>'.format(
+		os.path.join(Custom_Emus_Path, Emu_Name, Emu_Path_XBE)))
 
 try:
 	xbmc.Player().stop()
 	Emu_Path_XBE = sys.argv[1] if len(sys.argv) > 1 else 0
 	Rom_Name_Path = sys.argv[2] if len(sys.argv) > 2 else 0
-	Favourite_Launch = sys.argv[3] if len(sys.argv) > 3 else ""
-	Current_position = sys.argv[4] if len(sys.argv) > 4 else ""
+	Favourite_Launch = sys.argv[3] if len(sys.argv) > 3 else ''
+	Current_position = sys.argv[4] if len(sys.argv) > 4 else ''
 
 	Root_Directory = xbmc.translatePath('Special://root/')
 	Rom_Name_Path = normalize_path(Rom_Name_Path)
@@ -103,7 +128,7 @@ try:
 		
 		xberegion = ''
 		game_auto_region = xbmc.executehttpapi('GetGUISetting(1;myprograms.gameautoregion)')
-		myprograms6_db	= xbmc.translatePath("special://profile/database/MyPrograms6.db")
+		myprograms6_db	= xbmc.translatePath('special://profile/database/MyPrograms6.db')
 		valid_emulators = ['xbox', 'ports', 'homebrew']
 
 		if Emu_Name in valid_emulators and 'True' in game_auto_region:
@@ -133,37 +158,26 @@ try:
 
 		if Emu_Name == 'scummvm' or 'scummvm' in Emu_Path_XBE:
 			handle_scummvm_emulator(cut, Emu_Name, Rom_Name_Path, Emu_Path_XBE, Custom_Emus_Path)
+		
+		elif Emu_Name in ('fba', 'fbl', 'fblc', 'fbaxxx') or 'fba' in Rom_Name_Path or 'fbl' in Rom_Name_Path or 'fblc' in Rom_Name_Path or 'fbaxxx' in Rom_Name_Path:
+			cut.write('<shortcut><path>{}</path><custom><game>{}</game></custom></shortcut>'.format(
+				os.path.join(Custom_Emus_Path, Emu_Name, Emu_Path_XBE), Rom_Name_Path))
+		
+		elif Emu_Name == 'mame' or 'mame' in Emu_Path_XBE:
+			handle_mame_emulator(Emu_Name, Rom_Name_Path, Custom_Emus_Path, Custom_Roms_Path)
+		
+		elif Emu_Name == 'favs':
+			if 'xbox' in Rom_Name_Path or 'ports' in Rom_Name_Path or 'homebrew' in Rom_Name_Path:
+				cut.write('<shortcut><video>{}</video><path>{}</path></shortcut>'.format(xberegion, Emu_Path_XBE))
+			else:
+				cut.write('<shortcut><path>{}</path><custom><game>{}</game></custom></shortcut>'.format(Emu_Path_XBE, Rom_Name_Path))
+		
 		elif Emu_Name in ('xbox', 'ports', 'homebrew'):
 			cut.write('<shortcut>{}<path>{}</path></shortcut>'.format(xberegion, Emu_Path_XBE))
+		
 		else:
 			cut.write('<shortcut><path>{}</path><custom><game>{}</game></custom></shortcut>'.format(
-				os.path.join(Custom_Emus_Path, Emu_Name, Emu_Path_XBE), os.path.join(Custom_Roms_Path,Emu_Name,Rom_Name_Path)))
-
-	if Emu_Name == 'mame' or 'mame' in Emu_Path_XBE:
-		handle_mame_emulator(Emu_Name, Rom_Name_Path, Custom_Emus_Path, Custom_Roms_Path)
-
-	if Emu_Name in ('mame', 'scummvm'):
-		with open(os.path.join(Root_Directory,'emustation\\scripts\\return_rom.py') , 'w') as autoexec:
-			autoexec.write('''import os, shutil, time, xbmc
-	if xbmc.getInfoLabel('Skin.String(emuname)') == 'mame':
-	Emu_Path_XBE = os.path.join(xbmc.getInfoLabel('skin.string(custom_emulator_path)'),xbmc.getInfoLabel('Skin.String(emuname)'))
-	Autobootrom_Path = os.path.join(xbmc.getInfoLabel('skin.string(custom_emulator_path)'),xbmc.getInfoLabel('Skin.String(emuname)'),'autobootrom')
-	EmuRom_Path = os.path.join(xbmc.getInfoLabel('skin.string(custom_roms_path)'),xbmc.getInfoLabel('Skin.String(emuname)'))
-	time.sleep(2)
-	try:
-		if os.path.isfile(os.path.join(Autobootrom_Path,'autobootrom.rom')):
-			for zip in os.listdir(Autobootrom_Path):
-				if zip.endswith('.zip'):
-					shutil.move(os.path.join(Autobootrom_Path,zip),EmuRom_Path)
-			if os.path.isfile(os.path.join(Autobootrom_Path,'clone.rom')): os.remove(Autobootrom_Path+'/clone.rom')
-			os.remove(Autobootrom_Path+'/autobootrom.rom')
-			os.rename(os.path.join(Emu_Path_XBE,'default disabled.xbe'),os.path.join(Emu_Path_XBE,'default.xbe'))
-	except: pass
-	if xbmc.getInfoLabel('Skin.String(emuname)') == 'scummvm':
-	ScummVM_SVM_Path = os.path.join(xbmc.getInfoLabel('skin.string(custom_emulator_path)'),xbmc.getInfoLabel('Skin.String(emuname)'), 'scummvm.dat')
-	ScummVM_INI_Path = os.path.join(xbmc.getInfoLabel('skin.string(custom_emulator_path)'),xbmc.getInfoLabel('Skin.String(emuname)'), 'scummvm.ini')
-	shutil.copy2(ScummVM_SVM_Path, ScummVM_INI_Path)
-	time.sleep(2)''')
+				os.path.join(Custom_Emus_Path, Emu_Name, Emu_Path_XBE), os.path.join(Custom_Roms_Path, Emu_Name, Rom_Name_Path)))
 
 	if not Favourite_Launch and xbmc.getCondVisibility('Skin.HasSetting(lastromlist)'):
 		xbmc.executebuiltin('Skin.SetBool(gameloaded)')
@@ -182,7 +196,7 @@ try:
 	xbmc.executebuiltin('runxbe(z:\\tmp.cut)')
 except IOError:
 	xbmc.executebuiltin('Dialog.close(1101,true)')
-	xbmcgui.Dialog().ok('Error', 'Something went wrong.', 'Z:\\tmp.cut is write protected.')
+	xbmcgui.Dialog().ok('Error', 'Something went wrong.', 'Something is write protected.')
 except Exception:
 	xbmc.executebuiltin('Dialog.close(1101,true)')
 	xbmcgui.Dialog().ok('Error', 'Something went wrong.', 'Please rescan your roms/games.')

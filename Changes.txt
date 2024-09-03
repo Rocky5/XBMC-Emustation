@@ -1,4 +1,18 @@
 
+Version 2.0.006 - 03/09/2024
+
+New Features:
+	
+Bug Fixes:
+	1) Fixed launcher script not launching scummvm, mame, fbl (+ variants) or favourites properly.
+	
+Improvements:
+
+___________________________________________________________________________________________________________________________________
+
+
+Previous Updates:
+
 Version 2.0.005 - 21/08/2024
 
 New Features:
@@ -13,11 +27,6 @@ Improvements:
 	3) Optimized a few scripts, cleaned them up etc....
 	4) If Game Auto Region is enabled launching Xbox Games will follow the suit.
 		(it always has but now it will not set region if it's disabled and will also use what region you choose when in XBE Edit Mode)
-
-___________________________________________________________________________________________________________________________________
-
-
-Previous Updates:
 
 31/07/2024
 	1) Fixed adding favourties not working correctly.
