@@ -101,10 +101,18 @@ if os.path.isdir(System_Sort) and Init_Run == "2":
 	files = sorted(glob.glob(System_Sort + '/*.xml'))
 	with open(System_List, "w") as outfile:
 		outfile.write('<content>\n')
+		# Systems with menus go first in the list
 		for xml in files:
-			with open(xml, "r") as infile:
-				outfile.write(infile.read().replace('<item id="">', '<item id="{}">'.format(str(xml_counter))))
-			xml_counter += 1
+			if not "direct launch" in xml.lower():
+				with open(xml, "r") as infile:
+					outfile.write(infile.read().replace('<item id="">','<item id="'+str(xml_counter)+'">'))
+				xml_counter = xml_counter+1
+		# Direct launch files go at the end of the list
+		for xml in files:
+			if "direct launch" in xml.lower():
+				with open(xml, "r") as infile:
+					outfile.write(infile.read().replace('<item id="">','<item id="'+str(xml_counter)+'">'))
+				xml_counter = xml_counter+1
 		outfile.write('\n</content>')
 
 # Update Home XML
